@@ -4,12 +4,17 @@ import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import given from "../data/givennames.json";
 import latin from "../data/latincases.json";
+import surnames from "../data/surnames.json";
 const sp = (s) => families.find((f) => f.slug === s);
 
 const obs = Object.entries(given.observed)
   .map(([k, v]) => [k, v, Object.values(v).reduce((a, b) => a + b, 0)])
   .sort((a, b) => b[2] - a[2]);
 const latAnc = latin.filter((l) => l.ancestor);
+const vars4 = ["zubrinic", "blazevic", "papic", "prpic"]
+  .map((k) => surnames.variants.find((v) => v.key === k)).filter(Boolean);
+const unnamed = surnames.unnamed;
+const crossed = surnames.crossed;
 const latByName = {};
 for (const l of latin) (latByName[l.nominative] ||= []).push(l);
 const dist = [
@@ -70,7 +75,7 @@ const dist = [
 
   <section class="blk">
     <div class="lab">The most important thing on this page</div>
-    <h2>X wrote the sound Ž</h2>
+    <h2 id="x">X wrote the sound Ž</h2>
     <p class="lede">The Žubrinić name appears in this tree in <strong>eight different
     spellings</strong>, and they are not errors. They are three successive orthographies for one
     unchanged spoken name.</p>
@@ -258,18 +263,105 @@ const dist = [
   </section>
 
   <section class="blk">
-    <h2>How the tree writes them</h2>
-    <div class="grid two">
-      {["blazevic","zubrinic","papic","prpic"].map((s) => {
-        const f = sp(s);
-        return (
-          <div class="card">
-            <h3>{f.label} <span class="dim">— {f.count} people</span></h3>
-            <ul class="plain">{f.spellings.map(([w, n]) => (
-              <li><span class="mono">{w}</span> <span class="dim">× {n}</span></li>))}</ul>
-          </div>
-        );
-      })}
+    <h2>How the tree writes them, and where</h2>
+    <p class="lede">A spelling is not a fact about a family. It is a fact about the room the name
+    was written down in — which parish, which clerk, which language the register kept its columns
+    in. Set each spelling beside the place and the year it clusters at, and the variants stop
+    looking like noise.</p>
+
+    {vars4.map((v) => (
+      <div style="margin-top:1.6rem">
+        <h3>{sp(v.key) ? sp(v.key).label : v.key} <span class="dim">— {v.n} people,
+          {" "}{v.forms.length} spellings</span></h3>
+        <table class="reg">
+          <thead><tr><th>As written</th><th>People</th><th>Chiefly at</th><th>Median year</th></tr></thead>
+          <tbody>{v.forms.map((f) => (
+            <tr>
+              <td class="mono">{f.spelling}</td>
+              <td class="mono">{f.n}</td>
+              <td>{f.places.length
+                ? <a href={u("/people/?q=" + encodeURIComponent(f.places[0].place))}>{f.places[0].place}</a>
+                : <span class="dim">not recorded</span>}</td>
+              <td class="mono">{f.median || <span class="dim">—</span>}</td>
+            </tr>))}</tbody>
+        </table>
+      </div>
+    ))}
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Three things that table says out loud</h3>
+      <p><strong>Papić is two villages, not two families.</strong> The 79 people written
+      <span class="mono">Papić (Papa)</span> sit at <strong>Selce</strong> and cluster around
+      <strong>1843</strong>. The 35 written plainly <span class="mono">Papić</span> sit at
+      <strong>Senj</strong> and cluster around <strong>1891</strong>. Same family, half a century
+      and one move apart — the village form, then the town form. It is the
+      <a href={u("/senj")}>same migration into Senj</a> the occupations already show.</p>
+
+      <p><strong>The earliest Papić spelling is the Latin one.</strong>
+      <span class="mono">Papich</span>, three people, all Selce, median <strong>1793</strong> — the
+      oldest layer in the surname, written by a clerk keeping his register in Latin.</p>
+
+      <p><strong>Žubrinić forks at the water's edge.</strong> <span class="mono">Žubrinić</span> is
+      Otočac, median 1845. <span class="mono">Zubrinich</span> is
+      <a href={u("/port-pirie")}>Port Pirie</a>, median 1894 — thirteen of its fifteen bearers born
+      in South Australia. The diacritic did not survive the ship's manifest.
+      <a href={u("/name#x")}>The X form is older still →</a></p>
     </div>
   </section>
+
+  <section class="blk">
+    <h2>Seven women on the direct line have no surname at all</h2>
+    <p class="lede">Not an unknown surname — no surname. The register gave a Christian name, the
+    husband's full name, and nothing else. Every one of the seven is a woman, and each is a
+    dead end that no amount of reading further back can pass.</p>
+
+    <table class="reg">
+      <thead><tr><th>Ahnentafel</th><th>Recorded as</th><th>Wife of</th><th>Born</th></tr></thead>
+      <tbody>{unnamed.map((w) => (
+        <tr>
+          <td class="mono">{w.ahn}</td>
+          <td><a href={u("/people/" + w.slug)}><strong>{w.name}</strong></a>
+            {w.place && <span class="dim"> — {w.place}</span>}</td>
+          <td class="dim">{w.spouse || "—"}</td>
+          <td class="mono">{w.byear || <span class="dim">not recorded</span>}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <p style="margin-top:1.2rem">One of them, <strong>ahnentafel 87</strong>, is entered in the tree
+    literally as <span class="mono">Maria ?</span> — the question mark is part of the name as
+    stored. She is the mother of a direct ancestor and there is no more of her than that.</p>
+
+    <p>This is not a gap in the research. It is the shape of the record: a Catholic parish register
+    of this period names a bride's father when it can and drops her family name when it cannot, and
+    a woman who married in from another parish frequently arrives with a first name only. Where the
+    line stops at a woman, it usually stops for this reason.
+    <a href={u("/how-far-back")}>What actually ends each line →</a></p>
+  </section>
+
+  {crossed.length > 0 && (
+    <section class="blk">
+      <h2>Two names the tree could not assign to a family</h2>
+      <p class="lede">Distinct from a spelling variant: here the record names two
+      <em>different</em> families and cannot choose between them.</p>
+      <ul class="plain">{crossed.map((c) => (
+        <li style="margin-bottom:.9rem">
+          <span class="mono">{c.given} {c.surname}</span>
+          {c.bucket && c.suggests
+            ? <span> — <span class="tag">Open</span> her siblings are written
+                <span class="mono"> {c.siblings[0]}</span>, which looks like an answer until you
+                check the father: he is a record called <span class="mono">“Senj — Unknown To be
+                Sorted Papić”</span>, a sorting bucket. Those siblings were grouped by whoever
+                compiled the tree, not by a register. It <em>suggests</em>
+                {" "}<strong>{c.siblings[0]}</strong> and proves nothing.</span>
+            : <span> — <span class="tag">Open</span> she appears only as a wife, with no parents and
+                no siblings in the tree, so there is no structure to settle it against.</span>}
+        </li>))}</ul>
+      <p class="dek">Neither has a page of her own; both surface in the relation lists of people
+      who do. Neither is resolved. The first case is the more instructive one: a household in this
+      tree can be an editorial convenience rather than a family, and a surname inherited from a
+      sorting bucket would be this archive's own invention rather than a finding.
+      <a href={u("/method")}>How the buckets are excluded →</a></p>
+    </section>
+  )}
+
 </Base>
