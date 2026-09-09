@@ -978,3 +978,9 @@ a.pdf{display:flex;align-items:center;justify-content:center;text-align:center;m
   padding:16px;border:1px dashed var(--rule-strong);border-radius:3px;background:var(--panel);
   font-family:var(--sans);font-size:12px;line-height:1.5;color:var(--accent);text-decoration:none}
 a.pdf:hover{border-color:var(--accent);background:var(--accent-wash)}
+
+/* Inline bar, for comparing two counts in a table row */
+.bar{display:inline-block;height:9px;border-radius:1px;vertical-align:middle;margin-right:7px;
+  min-width:0}
+.bar.cro{background:var(--accent)}
+.bar.aus{background:var(--ochre)}

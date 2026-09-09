@@ -1,0 +1,139 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+const places = [
+  ["Otočac", 69, "1812–1888", "The Gacka valley. The regimental town, and the core of the name.", "/frontier"],
+  ["Australia", 35, "1885–1999", "Port Pirie, Port Germein, Solomontown, Quorn, Broken Hill, Whyalla, Ardrossan, Adelaide.", "/port-pirie"],
+  ["Prozor", 8, "1858–1936", "Five km south-east of Otočac, on Roman Arupium. Houses 50 and 245.", null],
+  ["Senj", 7, "1849–1886", "Over the Velebit. Five of the seven records are deaths.", "/senj"],
+  ["Baška", 2, "1818", "On the island of Krk — and unexplained.", null],
+  ["Šumećica", 1, "1768", "House 2. The oldest dated Žubrinić record in the archive.", "/frontier"],
+];
+const decades = [
+  [1760, 1, 0], [1810, 3, 0], [1830, 10, 0], [1840, 33, 0], [1850, 18, 0],
+  [1860, 8, 0], [1870, 6, 0], [1880, 4, 7], [1890, 0, 8], [1900, 0, 4],
+  [1920, 0, 4], [1930, 1, 1], [1950, 0, 1], [1960, 0, 1], [1970, 0, 2],
+  [1980, 0, 5], [1990, 0, 2],
+];
+const max = 33;
+---
+<Base title="The Map"
+  eyebrow="232 Žubrinić records, read as a place rather than a pedigree"
+  dek="Every town the name appears in, what the records there consist of, and the two things the shape of the data gives away about the people who collected it.">
+
+  <section class="blk">
+    <p class="lede">Only <strong>122</strong> of the 232 Žubrinić records name a place at all, and
+    they fall into <strong>six</strong> of them. Frontier registers identify a household by
+    <strong>village and house number</strong> rather than by surname, so the house numbers are kept
+    here: they are the closest thing these records have to a family identifier.</p>
+    <table class="reg" style="margin-top:1.2rem">
+      <thead><tr><th>Place</th><th>Records</th><th>Span</th><th>What is there</th></tr></thead>
+      <tbody>{places.map(([n, c, s, d, href]) => (
+        <tr><td><strong>{href ? <a href={u(href)}>{n}</a> : n}</strong></td>
+          <td class="mono">{c}</td><td class="mono">{s}</td><td class="dim">{d}</td></tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The first thing the shape gives away</div>
+    <h2>The Croatian record stops in 1888</h2>
+    <p class="lede">Set the Croatian records against the Australian ones by decade and the two
+    curves cross once, in the <strong>1880s</strong> — and then the Croatian side simply
+    <strong>ends</strong>.</p>
+    <table class="reg" style="margin-top:1rem">
+      <thead><tr><th>Decade</th><th>Croatia</th><th>Australia</th></tr></thead>
+      <tbody>{decades.map(([d, cro, aus]) => (
+        <tr>
+          <td class="mono">{d}s</td>
+          <td><span class="bar cro" style={`width:${(cro / max) * 76}%`}></span>
+            <span class="mono dim">{cro || ""}</span></td>
+          <td><span class="bar aus" style={`width:${(aus / max) * 76}%`}></span>
+            <span class="mono dim">{aus || ""}</span></td>
+        </tr>))}</tbody>
+    </table>
+    <div class="note" style="margin-top:1.3rem"><strong>This is not the family leaving Croatia.</strong>
+    One man left. <strong>Forebears counts 292 Žubrinići living in Croatia today</strong>, a quarter
+    of them in Lika-Senj — the same county as Otočac. They are still there. What ended in 1888 is
+    <em>the research</em>: it followed the emigrant to Port Pirie and stopped following everybody who
+    stayed. <a href={u("/name")}>The distribution →</a></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The second thing</div>
+    <h2>A hundred births and seven deaths</h2>
+    <p class="lede">The Croatian records are <strong>almost entirely baptisms</strong>. Across the
+    whole surname there are about a hundred dated Croatian births and
+    <strong>seven</strong> recorded deaths — and <strong>thirty-three of the births fall in the
+    1840s alone</strong>.</p>
+    <p>That is not what a family looks like. It is what <em>one decade of one register, read hard
+    and then abandoned</em>, looks like. The Otočac death books have barely been opened.</p>
+    <h3 style="margin-top:1.6rem">The seven deaths, in full</h3>
+    <table class="reg">
+      <thead><tr><th>Year</th><th>Name</th><th>Place</th><th>Age</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">1849</td><td>Mihovil Žubrinić</td><td>Senj</td><td class="mono">47</td></tr>
+        <tr><td class="mono">1861</td><td>Nicolaus Žubrinić</td><td>Senj</td><td class="mono">8</td></tr>
+        <tr><td class="mono">1861</td><td>Mathias Žubrinić</td><td>Senj</td><td class="mono">1</td></tr>
+        <tr><td class="mono">1863</td><td>Joannes Žubrinić</td><td>Senj</td><td class="mono">0</td></tr>
+        <tr><td class="mono">1871</td><td>Lucca Žubrinić <span class="dim">— Nicolaus's sister</span></td><td>Otočac</td><td class="mono">18</td></tr>
+        <tr><td class="mono">1873</td><td>Georgius Žubrinić</td><td>Senj</td><td class="mono">55</td></tr>
+        <tr><td class="mono">1936</td><td>Kata Žubrinić</td><td>Prozor</td><td class="mono">76</td></tr>
+      </tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem">Five of the seven are at <strong>Senj</strong>, and three
+    of those five are <strong>children</strong> — aged eight, one and nought, in 1861, 1861 and 1863.
+    They are from three <em>different</em> households. Whether that is a hospital, an epidemic, or
+    simply where the town's register happens to have been read is not something this archive can
+    say.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">What the baptisms know that the tree does not</div>
+    <h2>Five deaths nobody wrote down</h2>
+    <p class="lede">A Catholic family of this period <strong>reused a given name when the child who
+    carried it had died</strong>. So a sibling set holding two Franciscas is, by itself, a record of
+    a death — even where no death entry has ever been read.</p>
+    <table class="kv">
+      <tr><th>1828 → 1836</th><td>Michael Žubrinić &amp; Maria — <strong>Josephus</strong> twice, eight years apart</td></tr>
+      <tr><th>1834 → 1844</th><td>Elias Žubrinić &amp; <a href={u("/frontier")}>Ana Untersinger</a> — <strong>Maria</strong> twice, ten years apart</td></tr>
+      <tr><th>1841 → 1845</th><td>Philippus Žubrinić &amp; Maria Begović — <strong>Stephanus</strong> twice, four years apart</td></tr>
+      <tr><th>1844 → 1852</th><td>Joannes Žubrinić &amp; Maria Kostelac — <strong>Francisca</strong> twice, eight years apart</td></tr>
+      <tr><th>1846 → 1848</th><td>the same couple again — <strong>Joannes</strong> twice, two years apart</td></tr>
+    </table>
+    <p style="margin-top:1.2rem">One household, that of <strong>Joannes Žubrinić and Maria
+    Kostelac</strong>, shows it twice: eight recorded children between 1844 and 1853, of whom
+    <strong>two names are used again</strong> — and their son Nicolaus, born 1853, is one of the
+    three children who die at Senj. Of eight births, three deaths, and only one of the three
+    written down anywhere.</p>
+    <div class="note"><strong>Stated as an inference.</strong> Name reuse is a strong convention, not
+    a law: a name can be repeated for a living godparent's sake, and a register can be miscopied.
+    But five instances in one surname, all with gaps of two to ten years, is a pattern.
+    <strong>The same test on the <a href={u("/blazevic")}>Blaževići</a> finds two more.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>And it catches an error on its own</h2>
+    <p>The same scan turned up a sixth repeated name that is <strong>not</strong> a reused one:
+    <strong>Nicolaus (1834) and Nikola (1880)</strong>, entered as brothers,
+    <strong>forty-six years apart</strong>. No mother bears both. It is the same faulty attachment
+    that put a woman born in <strong>1835</strong> forward as the mother of a son born in
+    <strong>1834</strong>. <a href={u("/frontier")}>The correction →</a></p>
+    <p class="dek" style="margin-top:1rem">Three further pairs share a name <em>and</em> a birth
+    year — Catharina 1840 twice, Josephus 1845 twice, and Mihovil 1802 beside Michael 1811 with both
+    deaths recorded. Those are almost certainly <strong>one child entered twice</strong>, from two
+    passes over the same register under two spellings of the name.</p>
+  </section>
+
+  <section class="blk">
+    <h2>How this was produced</h2>
+    <p class="note"><code class="mono">tools/zubrinic_gazetteer.py</code> reduces every place string
+    to a village and, where the register gives one, a house number.
+    <code class="mono">tools/name_reuse.py</code> finds repeated given names among siblings, folding
+    the Latin and Croatian forms of a name together (<em>Joannes = Ivan</em>,
+    <em>Georgius = Juraj</em>), excluding the tree's <strong>sixteen sorting buckets</strong>, and
+    separating three cases: reuse after a gap, the same year twice, and a gap too wide for one
+    mother. Both write their output to <code class="mono">notes/</code>.
+    <a href={u("/method")}>Method →</a></p>
+  </section>
+</Base>
