@@ -36,6 +36,13 @@ def slugify(s):
 DOC = re.compile(r"birth|baptism|marriage|death|certificate|grave|card file|war time|biography",
                  re.I)
 
+# The caption is a poor classifier: a register page uploaded under a camera
+# filename reads as a snapshot. Anything that has actually been opened and
+# looked at is recorded here and overrides the guess.
+OVERRIDE = {k: v for k, v in json.load(
+    open(os.path.join(ROOT, "sources", "media", "classification.json"),
+         encoding="utf-8")).items() if not k.startswith("_")}
+
 rows = []
 for line in open(MAN, encoding="utf-8"):
     line = line.rstrip("\n")
@@ -56,7 +63,8 @@ for line in open(MAN, encoding="utf-8"):
                        "years": f'{year(born(p).get("date","")) or "?"}–{year(died(p).get("date","")) or "?"}'})
     rows.append({"mid": mid, "type": typ, "caption": name,
                  "w": int(w or 0), "h": int(h or 0),
-                 "file": fn, "kind": "document" if DOC.search(name) else "photograph",
+                 "file": fn,
+                 "kind": OVERRIDE.get(mid, "document" if DOC.search(name) else "photograph"),
                  "people": tagged})
 
 rows.sort(key=lambda r: (r["kind"] != "document", -(r["w"] * r["h"])))
