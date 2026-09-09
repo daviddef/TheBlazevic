@@ -1,0 +1,143 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import C from "../data/consistency.json";
+
+const SEV = { 1: "Impossible", 2: "Very doubtful", 3: "Worth a look" };
+const KIND = {
+  "child-after-parent-death": "A child born after the parent died",
+  "child-before-parent-birth": "A child born before the parent",
+  "parent-too-young": "A parent under thirteen",
+  "mother-too-old": "A mother over fifty",
+  "died-before-born": "Died before being born",
+  "married-before-birth": "Married before being born",
+  "married-after-death": "Married after dying",
+  "married-as-child": "Married as a child",
+  "implausible-age": "Lived past a hundred and five",
+};
+const bySev = (n) => C.filter((i) => i.sev === n);
+const counts = [1, 2, 3].map((n) => [n, bySev(n).length]);
+
+// grouped, because the interesting unit is a person with several at once
+const byPerson = {};
+for (const i of C) (byPerson[i.name] ||= { name: i.name, slug: i.slug, rows: [] }).rows.push(i);
+const worst = Object.values(byPerson).sort((a, b) => b.rows.length - a.rows.length).slice(0, 6);
+const kindCounts = Object.entries(
+  C.reduce((a, i) => ((a[i.kind] = (a[i.kind] || 0) + 1), a), {})
+).sort((a, b) => b[1] - a[1]);
+---
+<Base title="What Cannot Be True"
+  eyebrow={`${C.length} contradictions the tree makes with itself`}
+  dek="No register was needed for any of these. They are dates in one record that cannot all be true at once — a mother who died before her children were born, a woman married eight years after her own death. Checking a tree against itself is the cheapest research there is, and it had never been done here.">
+
+  <section class="blk">
+    <p class="lede">This page exists because of <a href={u("/people/tereza-pecanic")}>Tereza
+    Pećanić</a>. She is a direct ancestor, and this archive published her as having
+    <strong>died before 1850</strong> — while the same record married her in <strong>1858</strong>
+    and gave her children until <strong>1884</strong>. Nothing external was needed to see it. Her
+    own page contradicted itself, and it had done so for as long as the site existed.</p>
+    <p>So <span class="mono">tools/consistency.py</span> now reads every person in this archive
+    against themselves and against their own family: births after deaths, marriages before births,
+    parents younger than their children. It finds <strong>{C.length}</strong>.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      <div class="card">
+        <h3>By how bad</h3>
+        <table class="kv"><tbody>{counts.map(([n, k]) => (
+          <tr><th>{SEV[n]}</th><td><strong class="mono">{k}</strong></td></tr>))}</tbody></table>
+        <p class="dek" style="margin-top:.6rem"><em>Impossible</em> means the dates are firm and
+        still conflict. <em>Very doubtful</em> means one of them is hedged — <span class="mono">ABT</span>,
+        <span class="mono">BEF</span> — so the conflict may be an artefact of the hedge.</p>
+      </div>
+      <div class="card">
+        <h3>By kind</h3>
+        <table class="kv"><tbody>{kindCounts.map(([k, n]) => (
+          <tr><th>{KIND[k] || k}</th><td><strong class="mono">{n}</strong></td></tr>))}</tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>They are mostly one mistake, made repeatedly</h2>
+    <p class="lede">Sort by person rather than by error and the shape appears at once: a
+    <strong>woman attached as mother to a family she cannot have borne</strong>. Not scattered
+    slips — the same slip, over and over, and almost always to a woman.</p>
+
+    <table class="reg">
+      <thead><tr><th>Person</th><th>Contradictions</th><th>What is wrong</th></tr></thead>
+      <tbody>{worst.map((p) => (
+        <tr>
+          <td>{p.slug
+            ? <a href={u("/people/" + p.slug)}><strong>{p.name}</strong></a>
+            : <span><strong>{p.name}</strong> <span class="dim">— no page</span></span>}</td>
+          <td class="mono">{p.rows.length}</td>
+          <td class="dim">{p.rows[0].msg}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>The clearest case is not on the direct line at all</h3>
+      <p><strong>Vladimira Baricević</strong>, born <strong>12 December 1907</strong>, is entered as
+      the mother of <strong>ten</strong> Boras children born <strong>1888 to 1911</strong> — nine of
+      them before she was born, one of them in the same month. She is not a doubtful reading or a
+      loose date. She is <strong>somebody else's daughter married into the wrong generation</strong>,
+      and every child hangs off her.</p>
+      <p>Which is exactly what happened to <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>Maria
+      Catharina Orešković</a> — four children born when she was two, five and six, plus the son born
+      the year before her. <a href={u("/open-questions")}>Question 4d</a> worked that one out the
+      slow way, from three parish registers. This check finds the same shape in seconds, without
+      leaving the file.</p>
+      <p class="dek">Seventeen of the {C.length} sit on people with pages here. The rest are
+      relatives who appear in someone's family list without a page of their own — still worth
+      naming, because a wrong join is visible from both ends.</p>
+    </div>
+  </section>
+
+  {[1, 2].map((sev) => (
+    <section class="blk">
+      <div class="lab">{SEV[sev]}</div>
+      <h2>{sev === 1 ? "Dates that are firm and still conflict" : "Where one date is hedged"}</h2>
+      {sev === 2 && <p class="lede">A <span class="mono">BEF 1850</span> or
+        <span class="mono"> ABT 1782</span> is somebody's estimate. These conflicts may dissolve
+        if the estimate is simply wrong — which is itself worth knowing, because it means the
+        estimate is doing work it cannot support.</p>}
+      <table class="reg">
+        <thead><tr><th>Who</th><th>What kind</th><th>The contradiction</th></tr></thead>
+        <tbody>{bySev(sev).map((i) => (
+          <tr>
+            <td>{i.slug ? <a href={u("/people/" + i.slug)}>{i.name}</a> : i.name}</td>
+            <td class="dim">{KIND[i.kind] || i.kind}</td>
+            <td class="mono" style="font-size:.86em">{i.msg}</td>
+          </tr>))}</tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>And it caught three people who are not people</h2>
+    <p class="lede">Running the check surfaced <strong>four sorting buckets being published as
+    ancestors</strong> — <span class="mono">1800-1830 Birth — Selce Papić (Papa)</span> and three
+    like it. The build has always excluded research scaffolding, on the stated grounds that
+    publishing it "would be a lie"; the filter simply did not recognise a name that opens with a
+    year, or one reading <em>Brothers of Casparus (It Seems)</em>.</p>
+    <p>They are gone, and the person count fell from 1,090 to <strong>1,086</strong>. They had
+    children attached to them, which is how the check found them: a bucket dated
+    <span class="mono">1800-1830</span> cannot be a parent to somebody born in 1824.
+    <a href={u("/changed")}>What changed →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>What this does not claim</h2>
+    <ul class="plain">
+      <li><strong>It does not say which date is wrong.</strong> When a mother dies before her child
+      is born, either date could be the bad one, and the check has no way to choose. It only says
+      they cannot both stand.</li>
+      <li><strong>It does not touch the tree.</strong> Nothing here has been edited at source. The
+      contradictions are reproduced, not resolved — the same rule the rest of this archive follows.
+      <a href={u("/method")}>Method →</a></li>
+      <li><strong>It is scoped to this family.</strong> The export carries six family trees; run
+      across all 15,643 people the same check returns <strong>554</strong>. Those belong to the
+      other archives, and are their business.</li>
+    </ul>
+  </section>
+</Base>

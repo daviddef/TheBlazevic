@@ -1,0 +1,178 @@
+#!/usr/bin/env python3
+"""Check the tree against itself.
+
+Tereza Pećanić was published as having died in 1850, married in 1858 and borne
+children until 1884. No register was needed to catch that — only reading her own
+record beside itself. Everything here is that kind of check: no external source,
+just dates that cannot all be true at once.
+
+Ordered by how badly the archive would be embarrassed to publish it.
+"""
+import json, re, sys, os, collections
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from gedcom import load, display, born, died, year
+from build_site_data import JUNK          # the same sorting-bucket filter
+
+MONTH = {m: i + 1 for i, m in enumerate(
+    "JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split())}
+
+
+def ym(datestr):
+    """(year, month) from a GEDCOM date, ignoring qualifiers. Month may be None."""
+    if not datestr:
+        return None, None
+    s = datestr.upper()
+    y = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", s)
+    if not y:
+        return None, None
+    mo = None
+    for k, v in MONTH.items():
+        if k in s:
+            mo = v
+            break
+    return int(y.group(1)), mo
+
+
+def approx(datestr):
+    """True if the date is hedged - ABT, BEF, AFT, EST, a range."""
+    return bool(datestr) and bool(
+        re.search(r"\b(ABT|BEF|AFT|EST|CAL|BET|FROM|TO)\b", datestr.upper()))
+
+
+people, families = load()
+
+# This export carries six families. Scope to the ones this archive publishes,
+# plus anyone named in one of its relation lists - otherwise the sweep reports
+# the Booyzen and D'Arcy trees' problems as though they were ours.
+DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                    "site", "src", "data")
+pub = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8")) + \
+      json.load(open(os.path.join(DATA, "ancestors.json"), encoding="utf-8"))
+SCOPE = {x["id"] for x in pub}
+for x in pub:
+    for grp in (x.get("rel") or {}).values():
+        for r in (grp if isinstance(grp, list) else []):
+            if isinstance(r, dict) and r.get("id"):
+                SCOPE.add(r["id"])
+# and the parents/children of those, so a join is checked from both ends
+for fid, f in families.items():
+    members = [f.get("husb"), f.get("wife")] + list(f.get("chil") or [])
+    if any(m in SCOPE for m in members if m):
+        SCOPE.update(m for m in members if m)
+
+def relevant(pid):
+    return pid in SCOPE and not JUNK.search(display(people[pid]) or "")
+
+issues = []
+
+
+SLUG = {x["id"]: x["slug"] for x in pub}
+
+
+def add(kind, sev, pid, msg):
+    issues.append({"kind": kind, "sev": sev, "id": pid,
+                   "name": display(people[pid]), "slug": SLUG.get(pid), "msg": msg})
+
+
+# marriage dates per person
+marr = collections.defaultdict(list)
+for fid, f in families.items():
+    for e in f.get("events", []):
+        if e.get("kind") == "marriage" and e.get("date"):
+            for role in ("husb", "wife"):
+                if f.get(role):
+                    marr[f[role]].append(e["date"])
+
+for pid, p in people.items():
+    if not relevant(pid):
+        continue
+    b, d = born(p), died(p)
+    by, bm = ym(b.get("date"))
+    dy, dm = ym(d.get("date"))
+
+    if by and dy:
+        if dy < by:
+            add("died-before-born", 1, pid,
+                f"born {b['date']}, died {d['date']}")
+        elif dy - by > 105:
+            add("implausible-age", 3, pid,
+                f"born {b['date']}, died {d['date']} — age {dy - by}")
+
+    # married after death, or before birth
+    for md in marr.get(pid, []):
+        my, _ = ym(md)
+        if not my:
+            continue
+        if dy and my > dy and not approx(d.get("date")):
+            add("married-after-death", 1, pid,
+                f"died {d['date']}, married {md}")
+        elif dy and my > dy:
+            add("married-after-death", 2, pid,
+                f"died {d['date']} (hedged), married {md}")
+        if by and my < by:
+            add("married-before-birth", 1, pid, f"born {b['date']}, married {md}")
+        elif by and my - by < 12:
+            add("married-as-child", 2, pid,
+                f"born {b['date']}, married {md} — age {my - by}")
+
+for fid, f in families.items():
+    for role, label, grace in (("husb", "father", 1), ("wife", "mother", 0)):
+        par = f.get(role)
+        if not par or par not in people or not relevant(par):
+            continue
+        pb, pd = born(people[par]), died(people[par])
+        pby, _ = ym(pb.get("date"))
+        pdy, _ = ym(pd.get("date"))
+        for cid in f.get("chil", []):
+            if cid not in people or JUNK.search(display(people[cid]) or ""):
+                continue
+            cby, _ = ym(born(people[cid]).get("date"))
+            if not cby:
+                continue
+            if pdy and cby > pdy + grace:
+                sev = 2 if approx(pd.get("date")) else 1
+                add("child-after-parent-death", sev, par,
+                    f"died {pd['date']}, but {display(people[cid])} born {cby}")
+            if pby:
+                if cby < pby:
+                    add("child-before-parent-birth", 1, par,
+                        f"born {pb['date']}, but {display(people[cid])} born {cby}")
+                elif cby - pby < 13:
+                    add("parent-too-young", 2, par,
+                        f"born {pb['date']}, {display(people[cid])} born {cby}"
+                        f" — age {cby - pby}")
+                elif role == "wife" and cby - pby > 50:
+                    add("mother-too-old", 3, par,
+                        f"born {pb['date']}, {display(people[cid])} born {cby}"
+                        f" — age {cby - pby}")
+
+order = {1: "IMPOSSIBLE", 2: "very doubtful", 3: "worth a look"}
+issues.sort(key=lambda i: (i["sev"], i["kind"], i["name"]))
+seen = set()
+uniq = []
+for i in issues:
+    k = (i["kind"], i["id"], i["msg"])
+    if k not in seen:
+        seen.add(k)
+        uniq.append(i)
+
+by_sev = collections.Counter(i["sev"] for i in uniq)
+print(f"{sum(1 for x in people if relevant(x))} people in scope; {len(uniq)} internal contradictions")
+for s in (1, 2, 3):
+    print(f"  {order[s]:<14} {by_sev.get(s, 0)}")
+print()
+for s in (1, 2, 3):
+    rows = [i for i in uniq if i["sev"] == s]
+    if not rows:
+        continue
+    print(f"=== {order[s]} ({len(rows)}) ===")
+    for i in rows[:40]:
+        print(f"  [{i['kind']}] {i['name'][:36]:<36} {i['msg'][:78]}")
+    if len(rows) > 40:
+        print(f"  … and {len(rows) - 40} more")
+    print()
+
+out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                   "site", "src", "data", "consistency.json")
+json.dump(uniq, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"wrote {os.path.relpath(out)}")

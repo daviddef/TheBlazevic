@@ -35,7 +35,12 @@ FAMILIES = [
 # scaffolding, not ancestors, and publishing them as people would be a lie.
 JUNK = re.compile(
     r"(\bto be sort|\bsorting\b|\bfor sorting\b|\bworking\b|\bunknown\b|"
-    r"\bfree text\b|\bbrothers?\s*\[|\bsisters?\s*\[|^\s*nn\b|\bplaceholder\b)", re.I)
+    r"\bfree text\b|\bbrothers?\s*[\[(]|\bsisters?\s*[\[(]|^\s*nn\b|\bplaceholder\b|"
+    # "Brothers of Casparus (It Seems)", "Joannes [Brothers of] Zubrinic"
+    r"\bbrothers?\s+of\b|\bsisters?\s+of\b|\bit seems\b|"
+    # "1800-1830 Birth - Selce Papic (Papa)", "1700 Birth - Selce ..." - a name
+    # that opens with a year and a record-word is a bucket, not a person
+    r"^\s*\d{4}\s*([-\u2013]\s*\d{4})?\s+(birth|death|marriage|baptism)\b)", re.I)
 
 
 def junk(p):

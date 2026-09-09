@@ -73,6 +73,18 @@ const C = [
     cost: "The archive had already established that Maria Catharina was the wrong woman — that reversal is set out on <a href='/frontier'>the Frontier page</a> and is not new here. What is new is that the <em>husband</em> is now uncertain too, which is a larger problem than the one it replaces.",
     href: "/open-questions" },
 
+  { d: "September 2026", t: "Four sorting buckets were published as ancestors.",
+    was: "<span class='mono'>1800-1830 Birth — Selce Papić (Papa)</span>, two more like it, and <span class='mono'>1700 Birth — Selce Papić</span>, all with person pages and children attached.",
+    now: "They are <strong>research scaffolding</strong>, not people. The build has always excluded such records — the code comment says publishing them <em>“would be a lie”</em> — but the filter did not recognise a name opening with a year, nor <em>Brothers of Casparus (It Seems)</em>.",
+    cost: "Four people who never existed had pages, and were parents in other people's family lists. The person count falls from 1,090 to <strong>1,086</strong>. Found not by reading but by the new <a href='/impossible'>self-consistency check</a>: a bucket dated 1800-1830 cannot father someone born in 1824.",
+    href: "/impossible" },
+
+  { d: "September 2026", t: "A direct ancestor was recorded as dying eight years before her wedding.",
+    was: "<a href='/people/tereza-pecanic'>Tereza Pećanić</a>, ahnentafel 9, carried through from the tree as <strong>died before 1850</strong> — published without anyone checking it against the rest of her own record.",
+    now: "The same record marries her to <a href='/people/toma-tomislav-blazevic'>Toma</a> on <strong>21 November 1858</strong> and gives her children in <strong>1860, 1880, 1882 and 1884</strong>. Toma's death entry of 26 July 1907 calls him <em>udovac iza pok. Tereze</em> — widower of the late Tereza. So she was alive in 1884 and dead by <strong>July 1907</strong>.",
+    cost: "Nothing downstream — no date was computed from it. But it sat on a direct ancestor's page for the life of this archive, and it is the kind of error that needs no register to catch: <strong>her own children postdate her death by up to thirty-four years</strong>. The lesson is that internal consistency was never checked, only external agreement.",
+    href: "/people/tereza-pecanic" },
+
   { d: "September 2026", t: "Five stock graphics were published as portraits of ancestors.",
     was: "Five items in the media library shown as <strong>photographs</strong> of Michael Žubrinić (b. 1811), Maria Catharina Orešković (1835), Josephum Antić (1806), Maria Jelličić (1809) and Georgius Antić Papić (1838).",
     now: "They are <strong>stock question-mark placeholder graphics</strong>, uploaded to the tree for people who have no picture. One still carries a visible <strong>Adobe Stock watermark</strong>. The dates alone should have caught it: a photograph of a man born in 1806 would be remarkable.",
@@ -91,7 +103,7 @@ const kinds = {
 };
 ---
 <Base title="What Changed"
-  eyebrow="Thirteen things this archive got wrong, and what fixed them"
+  eyebrow="Fifteen things this archive got wrong, and what fixed them"
   dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
 
   <section class="blk">
