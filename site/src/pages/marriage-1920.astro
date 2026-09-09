@@ -1,0 +1,107 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="The Marriage Register"
+  eyebrow="Senj, 8 December 1920 — entry 41, page 366"
+  dek="One page of a parish register closes the gap this archive was built around, and opens a marriage nobody in it knew about.">
+
+  <section class="blk">
+    <p class="lede">The first build of this archive said that the join at generation three rested on
+    <strong>no document at all</strong>. It rested on one the whole time — attached in the family
+    tree, absent from the GEDCOM export, and never read.</p>
+    <figure class="doc">
+      <img src={u("/photos/line/4501112-marriage-record-ljubo-and-milka.jpg")}
+           alt="Senj Roman Catholic marriage register, page 366, entry 41, 8 December 1920"
+           loading="lazy" />
+      <figcaption>Senj, Roman Catholic marriage register (<em>Vjenčani</em>), page 366, entry 41.
+      The relevant row is boxed in red on the scan as it is held in the tree.</figcaption>
+    </figure>
+  </section>
+
+  <section class="blk">
+    <h2>What the entry records</h2>
+    <table class="kv">
+      <tr><th>Date</th><td><strong>8 <em>prosinca</em> (December) 1920</strong>, at Senj</td></tr>
+      <tr><th>Groom</th><td><strong>Ljubomir Blažević</strong>, <em>mornar</em> — <strong>sailor</strong>.
+        Born <strong>Rijeka</strong>, resident <strong>Senj</strong>, Roman Catholic, born
+        <strong>1892, 1/III</strong> — 1 March 1892. Status: <em>neoženjen</em>, bachelor.</td></tr>
+      <tr><th>Bride</th><td><strong>Milka Vukelić</strong>, <em>radnica u tvornici duhana</em> —
+        <strong>worker in the tobacco factory</strong>. Born <strong>Senj</strong>, resident Senj,
+        Roman Catholic, born <strong>1886, 9/X</strong> — 9 October 1886. Status:
+        <strong><em>udova</em> — widow.</strong></td></tr>
+      <tr><th>Groom's parents</th><td><strong>Juraj Blažević</strong> and
+        <strong>Tereza <em>r.</em> Žubrinić</strong>, annotated <em>mrt.</em> — deceased</td></tr>
+      <tr><th>Bride's parents</th><td><strong>Josip Papić</strong> and
+        <strong>Antonija <em>r.</em> Prpić</strong></td></tr>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The thing this page exists for</div>
+    <h2>Generation three is now documented</h2>
+    <p class="lede">The register names the groom's father and mother:
+    <strong>Juraj Blažević and Tereza née Žubrinić</strong>. That is exactly the link this archive
+    marked as <em>Disputed</em> — the join on which
+    <a href={u("/direct-line")}>generations four to eight</a> all hang.</p>
+    <p>It is a good witness. A marriage entry is written by the parish priest at the time, from the
+    couple in front of him, with the banns and a dispensation recorded in the margin. It is not a
+    later reconstruction, and it has no interest in anybody's pedigree.</p>
+    <div class="note"><strong>What it does not do.</strong> It names Juraj — it does not date him,
+    place him, or name <em>his</em> father. The wall simply moves up one generation: the link from
+    Ljubomir to Juraj is now evidenced; the link from Juraj to
+    <a href={u("/people/toma-tomislav-blazevic")}>Toma</a> is still not.
+    <a href={u("/open-questions")}>Open questions →</a></div>
+  </section>
+
+  <section class="blk">
+    <h2>Three things nobody had recorded</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>Milka had been married before</h3>
+        <p>She marries in 1920 under the name <strong>Vukelić</strong>, and her status is
+        <strong><em>udova</em> — widow</strong>. The family tree carries her only as Milka Papić,
+        wife of Ljubomir.</p>
+        <p style="margin-top:1rem">The media library holds a photograph captioned
+        <em>“Zvonomir and Milka Marriage”</em>, and Hedviga's own list of immediate family on
+        MyHeritage includes a <strong>Miroslava “Mica” Vukelić (1907–1993)</strong>. A first husband
+        named Vukelić and a daughter born in 1907 fit together, and would make Miroslava
+        <strong>Hedviga's half-sister</strong>. <strong>Stated here as an inference</strong> — the
+        first marriage record has not been read.</p>
+      </div>
+      <div class="card">
+        <h3>She was on the factory floor</h3>
+        <p>In 1920 Milka is <em>radnica</em> — a worker — <strong>in the tobacco factory</strong>.
+        The tree records her as <strong>supervisor of workers</strong> at the same factory. Both are
+        true, thirty years apart: this is a documented promotion, and the only career progression
+        visible anywhere in this archive. <a href={u("/senj")}>Senj and the factory →</a></p>
+      </div>
+      <div class="card">
+        <h3>Juraj was already dead</h3>
+        <p>The groom's parents carry the annotation <em>mrt.</em> — deceased. Tereza Žubrinić is
+        recorded in the tree as dying in <strong>1931</strong>, eleven years after this entry, so
+        the note is most consistent with applying to <strong>Juraj alone</strong> — giving him a
+        death <strong>before December 1920</strong>, the first date of any kind attached to him.</p>
+        <p style="margin-top:1rem">If instead it covers both parents, then the tree's date for
+        Tereza is wrong. Either way something has been learned, and it is worth resolving.</p>
+      </div>
+      <div class="card">
+        <h3>And it confirms the sailor</h3>
+        <p>The tree gives Ljubomir's occupation as <em>mornar / fisherman</em>. The register, in
+        1920, says <strong><em>mornar</em></strong> — sailor. Confirmed from the record rather than
+        from family memory.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>A discrepancy worth keeping</h2>
+    <p class="lede">The register says Ljubomir was born <strong>1 March 1892</strong>. His
+    <a href={u("/grave")}>gravestone at Senj</a> says <strong>1891</strong>.</p>
+    <p>The register wins. It was written in 1920 by a priest copying from a baptismal certificate,
+    while the stone was cut after 1966 by people working from memory and from whatever the family
+    then believed. This archive records the birth as <strong>1 March 1892</strong> and records the
+    stone as <strong>wrong</strong> — which is worth saying out loud, because a gravestone
+    <em>looks</em> like the most authoritative source in genealogy and frequently is not.</p>
+  </section>
+</Base>

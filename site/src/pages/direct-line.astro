@@ -24,8 +24,8 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
             <div class="pl">{p.bornPlace || "—"}</div>
             {p.occupations && p.occupations.length > 0 && (
               <div class="dim">{p.occupations.map((o) => o.what).filter(Boolean).join(" · ")}</div>)}
-            {p.gen === 3 && <div class="warn">No birth date. No death date. No document.
-              The tree's own note reads “Potentially him? 1861?”.</div>}
+            {p.gen === 3 && <div class="warn">Still no birth or death date — but no longer
+              undocumented: the 1920 marriage register names him as Ljubomir's father.</div>}
             {(!p.sources || !p.sources.length) && p.gen !== 3 &&
               <div class="warn">No source of any kind attached.</div>}
           </div>
@@ -39,23 +39,25 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
   </section>
 
   <section class="blk">
-    <div class="lab">Read this before trusting the top half</div>
+    <div class="lab">Corrected, September 2026</div>
     <h2>The join at generation three</h2>
-    <p class="lede">Everything above <a href={u("/people/ljubomir-blazevic")}>Ljubomir</a> hangs on
-    one man: <a href={u("/people/juraj-georgius-jure-blazevic")}><strong>Juraj / Georgius / Jure
-    Blažević</strong></a>. His record has <strong>no birth date, no death date, no occupation and
-    no document</strong> — only a place, and a note that asks the question rather than answering
-    it.</p>
-    <p>The link that is actually solid is the one <em>below</em> him: Ljubomir was born at
-    <strong>Rijeka on 1 March 1892</strong>, and his siblings Anka (1893) and Ruža (1897) are
-    recorded at <strong>Otočac</strong> and <strong>Smokvica Krmpotska</strong> — the mother's
-    town and the father's village. A family moving between exactly those two places is consistent,
-    and it is the reason the join is <em>plausible</em>. It is not the reason it is proved.</p>
-    <div class="note"><strong>What would settle it.</strong> The Senj or Krmpote marriage register
-    for <strong>Juraj Blažević and Tereza Žubrinić</strong>, which would name Juraj's father and
-    fix the generation above; and Ljubomir's <strong>1892 Rijeka birth entry</strong>, which would
-    name both parents outright. Neither has been retrieved.
-    <a href={u("/open-questions")}>Open questions →</a></div>
+    <p class="lede">This section used to say that everything above
+    <a href={u("/people/ljubomir-blazevic")}>Ljubomir</a> hung on a man with
+    <strong>no document at all</strong>. That was wrong. The
+    <a href={u("/marriage-1920")}><strong>Senj marriage register of 8 December 1920</strong></a>
+    names the groom's parents outright — <strong>Juraj Blažević and Tereza <em>r.</em>
+    Žubrinić</strong> — and it had been attached in the family tree the whole time, invisible
+    because media does not travel in a GEDCOM export.</p>
+    <p>So the link from Ljubomir to Juraj is <strong>documented</strong>, by a priest writing in
+    1920 with the couple in front of him. It is corroborated from below, too: Ljubomir was born at
+    <strong>Rijeka on 1 March 1892</strong> — the register confirms that date — while his siblings
+    Anka (1893) and Ruža (1897) are recorded at <strong>Otočac</strong> and <strong>Smokvica
+    Krmpotska</strong>, the mother's town and the father's village.</p>
+    <div class="note"><strong>The wall moved up one generation; it did not fall.</strong> Juraj is
+    now named by a record, but he is still <em>undated and unplaced</em>, and nothing yet connects
+    him to <a href={u("/people/toma-tomislav-blazevic")}>Toma</a> at generation four. The register
+    also annotates him <em>mrt.</em> — deceased — which puts his death <strong>before December
+    1920</strong>. <a href={u("/open-questions")}>Open questions →</a></div>
   </section>
 
   <section class="blk">

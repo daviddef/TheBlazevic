@@ -74,6 +74,10 @@ gitignored; regenerate it with a fresh MyHeritage export and re-run the tools.
 people, and most "sources" attached within it are *other trees*. Where a citation reaches a parish
 register image, the page says so.
 
+**Media is reachable even though it does not export.** A person's media in a MyHeritage tree is at
+`photo-world/<site>?tree_id=4&individual_id=N`, where **N = 4000000 + n** for GEDCOM record `@In@`.
+`tools/build_media.py` turns the resulting manifest into the site's gallery.
+
 ## Running it
 
 ```bash
@@ -91,8 +95,12 @@ Deploys to GitHub Pages on every push to `main`.
 sources/                 myheritage-tree4-2026-09-09.ged (15,643 people, 4,777 families) — gitignored
 data/                    ancestors.tsv, blazevic-spine.tsv, surname-*.tsv
 notes/                   dossier-ancestors.txt — every event, note and citation on the direct line
+photos/hedviga/          the six items on Hedviga's profile, with the certificate transcribed
+photos/line/             70 full-resolution originals (108 MB) — gitignored
+sources/media/           manifest.psv — media id, caption, size, tagged people, source url
+site/public/photos/      1,600 px derivatives, committed
 tools/                   gedcom.py, ancestry.py, dossier.py, household.py,
-                         build_site_data.py, check_links.py
+                         build_site_data.py, build_media.py, check_links.py
 site/src/data/           line, ancestors, people, families, places
 site/src/pages/          the archive itself
 ```
@@ -108,13 +116,24 @@ Geni · Forebears surname distribution · Croatian scholarship on the Bunjevci K
 SA History Hub on Croatians in South Australia · *Tierra prometida: Jews from Rhodes in the Belgian
 Congo and Southern Rhodesia, 1910s–1960s* · Rhodes Jewish Museum · Yad Vashem.
 
-**One civil registration document is now in hand**, recovered from the MyHeritage media library:
-a sworn English translation of the **Yugoslav birth extract for Ivan Defranceski, born Senj
-Hospital, 17 December 1951** (Senj reg. 152/1954, issued 27 April 1954). It independently confirms
-Hedviga's birth on 3 August 1926 at Senj, gives her father-in-law's nationality as **Italian**, puts
-both parents at **Crikvenica** in 1951, and was certified by a sworn translator for the **Supreme
-Court of South Africa** — which makes it emigration paperwork as well as a birth record. See
-`photos/hedviga/index.md`.
+**Seventy media items have been swept out of the MyHeritage library** across the direct line —
+34 of them register scans, certificates and gravestones, many at 4,500 px. None were in the GEDCOM;
+media does not export. They changed the archive's own conclusions:
 
-**Everything else still rests on the tree.** No death certificate for Hedviga (Johannesburg 2001) or
-Ivan (Senj 1995), and no extract for the 1920 Senj marriage. Ordering those is the next work.
+- **The 1920 Senj marriage register** (page 366, entry 41, 8 December 1920) names the groom's
+  parents as **Juraj Blažević and Tereza *r.* Žubrinić** — closing the generation-three join this
+  archive was built around and had labelled *Disputed*. It also records Milka marrying as
+  **Milka Vukelić, *udova* — a widow**, which nothing in the tree had recorded, and gives her
+  occupation as ***radnica u tvornici duhana***, a worker in the tobacco factory she would later
+  supervise.
+- **The Blažević grave at Senj** carries **OTO BLAŽEVIĆ ✳1923 †1945** and, on a later plaque,
+  **LEO** and **KATA** — corroborating Nives Blažević's account of Oto's death in exact detail,
+  including two burials added sixty years afterwards.
+- **A sworn translation of the Yugoslav birth extract for Ivan Defranceski** (Senj Hospital,
+  17 December 1951; reg. 152/1954) confirms Hedviga's own birth from a state record, gives her
+  husband's nationality as **Italian**, and was certified for the **Supreme Court of South
+  Africa** — emigration paperwork as well as a birth record.
+
+**Still resting on the tree:** no death certificate for Hedviga (Johannesburg 2001) or Ivan
+(Senj 1995), and no record of Milka's first marriage. And the gravestone dates Ljubomir's birth to
+**1891** where the register says **1 March 1892**; the archive follows the register and says so.

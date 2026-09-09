@@ -3,11 +3,17 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 
 const Q = [
-  { n: 1, w: "critical", t: "Who was Juraj Blažević's father?",
-    b: "The whole spine above generation three hangs on <a href='/people/juraj-georgius-jure-blazevic'>Juraj Blažević</a>, who has <strong>no birth date, no death date and no document</strong> — only the tree's own note, <em>“Potentially him? 1861?”</em>. Generations 4 to 8 are attached to him on faith.",
-    f: "The Senj or Krmpote <strong>marriage register</strong> for Juraj Blažević and Tereza Žubrinić, which would name his father; and <a href='/people/ljubomir-blazevic'>Ljubomir's birth entry at Rijeka, 1 March 1892</a>, which would name both parents outright." },
+  { n: 1, w: "answered", t: "Who were Ljubomir's parents? — ANSWERED",
+    b: "This was the archive's central doubt: the join at generation three rested on a man with no document. The <a href='/marriage-1920'><strong>Senj marriage register of 8 December 1920</strong></a> names the groom's parents outright — <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — and confirms Ljubomir's birth as 1 March 1892. It was attached in the family tree the whole time and absent from the GEDCOM export.",
+    f: "Nothing further. <strong>What replaces it is question 1b.</strong>" },
+  { n: "1b", w: "critical", t: "Who was Juraj Blažević's father?",
+    b: "The wall moved up one generation rather than falling. <a href='/people/juraj-georgius-jure-blazevic'>Juraj</a> is now <em>named</em> by a record, but he is still <strong>undated and unplaced</strong>, and nothing connects him to <a href='/people/toma-tomislav-blazevic'>Toma Blažević</a> at generation four. Generations 4 to 8 remain attached on faith.",
+    f: "The <strong>marriage register for Juraj Blažević and Tereza Žubrinić</strong> — at Senj, Krmpote or Otočac, some time before 1892 — which would name Juraj's own father. The 1920 entry annotates him <em>mrt.</em>, dead, so a <strong>Senj or Krmpote death register before December 1920</strong> should also hold him." },
+  { n: "1c", w: "high", t: "Who was Milka's first husband?",
+    b: "The 1920 register marries her as <strong>Milka Vukelić</strong>, <em>udova</em> — <strong>a widow</strong>. The family tree carries her only as Milka Papić. The media library holds a photograph captioned <em>“Zvonomir and Milka Marriage”</em>, and a <strong>Miroslava “Mica” Vukelić (1907–1993)</strong> appears in Hedviga's immediate family on MyHeritage — which would make her <strong>Hedviga's half-sister</strong>. That is an inference joining three loose facts, not a documented chain.",
+    f: "The <strong>Senj marriage register for Milka Papić and a Vukelić</strong>, some time before 1907; the <strong>birth entry for Miroslava Vukelić, 1907</strong>, which would name both parents; and the first husband's <strong>death entry</strong> before December 1920." },
   { n: 2, w: "critical", t: "How did Oto Blažević die?",
-    b: "Two accounts in the same note, from two named relatives: <strong>a snakebite</strong>, and <strong>killed in the war in Slavonia with no known grave</strong>. The tree's own death place, Senj, agrees with neither cleanly. <a href='/oto'>The full page →</a>",
+    b: "Two accounts in the same note, from two named relatives: <strong>a snakebite</strong>, and <strong>killed in the war in Slavonia with no known grave</strong>. A photograph of <a href='/grave'>the family grave</a> now corroborates the second witness in its checkable parts — Oto's name is on the stone, and Leo and Katica were added later exactly as she described. It still does not establish the <em>cause</em>. <a href='/oto'>The full page →</a>",
     f: "A search of the <strong>Yugoslav war victims register</strong> (<em>Popis žrtava rata</em>) and Croatian State Archives military death records for <strong>Oto Blažević, b. 1923, Senj</strong>. An entry — or a confirmed absence — settles it." },
   { n: 3, w: "high", t: "When did Santou Codron leave Rhodes?",
     b: "Born on Rhodes in <strong>1913</strong>; alive in South Africa to marry Hedviga about <strong>1973</strong>. The island's Jewish community was deported on 23 July 1944 and roughly 150 of 1,615 survived. Whether he left before the war — as ~2,000 Rhodes Jews did, for the Congo and Rhodesia — or survived the deportation is <strong>not known here</strong>, and the difference is enormous. <a href='/rhodes'>The full page →</a>",
@@ -30,14 +36,23 @@ const Q = [
   { n: 9, w: "data", t: "Three place errors that will mislead someone",
     b: "<strong>(a)</strong> Juraj Blažević's birthplace is geocoded to <em>Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija</em> — that is <strong>Smokvica on Korčula</strong>, 400 km south. The village meant is <strong>Smokvica Krmpotska</strong> near Novi Vinodolski. <strong>(b)</strong> Ivan Žubrinić of Port Pirie is given <em>“Senj, Split-Dalmatia”</em>; Senj is in <strong>Lika-Senj</strong>. <strong>(c)</strong> A FamilySearch citation for Nicolaus Žubrinić's Otočac christening is catalogued under <em>“Osekovo, Belovár-Körös Megye, Hungary”</em>.",
     f: "Correcting (a) and (b) in the MyHeritage tree at source. (c) is FamilySearch's error, not the tree's — but it should be noted wherever the citation is reused." },
-  { n: 10, w: "data", t: "The photographs are not in the export",
-    b: "Hedviga's MyHeritage profile carries <strong>six photographs</strong>. The GEDCOM export contains <strong>no media records at all</strong>, so none of them are in this archive.",
-    f: "Downloading the media from the MyHeritage profiles directly, with dates and captions, and storing them alongside the data." },
+  { n: 10, w: "answered", t: "The photographs are not in the export — ANSWERED",
+    b: "The GEDCOM contains no media records at all. <strong>Seventy items</strong> have now been swept out of the MyHeritage media library across the whole line — 34 of them register scans, certificates and gravestones, many at 4,500 px. Three are read out in full: <a href='/marriage-1920'>the 1920 marriage register</a>, <a href='/certificate'>the 1951 birth extract</a>, <a href='/grave'>the family grave</a>. <a href='/pictures'>All of them →</a>",
+    f: "Nothing further for the direct line. The same sweep has <strong>not</strong> been run on the wider register of 1,035 people, and the site library holds about <strong>4,500 items</strong> in total." },
+  { n: 11, w: "high", t: "Who is in the photographs?",
+    b: "Most of the recovered photographs carry <strong>no caption but a camera filename</strong> — <em>1595624858.9990501</em>, <em>1134835622</em>, <em>IMG_5752</em>. Faces this archive can name are guesses from resemblance and from the ages of children in shot. <a href='/pictures'>The pictures →</a>",
+    f: "Somebody in the family looking at them. This is the one open question here that <strong>no archive can close</strong> and a single phone call could." },
+  { n: 12, w: "high", t: "Why does Ivan Defranceski have wartime persecutee card files?",
+    b: "Three items tagged to <strong>Ivan Anton Defranceski</strong> (1925–1995), Hedviga's husband, are International Tracing Service record images: a <em>“War Time Card File — registration cards, employees' record books, individual correspondence”</em> and two copies of <em>“Card file of persecutees in the later French zone and of French persecutees in other areas”</em>. He was born in 1925 at Crikvenica and would have been of forced-labour age during the war. <strong>Nothing here says what these records contain or that they are even his.</strong>",
+    f: "Reading the card images themselves, and a direct search of the <strong>Arolsen Archives</strong> for Defranceski / de Franceschi born 1925." },
+  { n: 13, w: "data", t: "The gravestone contradicts the register",
+    b: "The <a href='/grave'>Senj stone</a> gives Ljubomir's birth as <strong>1891</strong>. The <a href='/marriage-1920'>1920 marriage register</a>, written in his lifetime from his baptismal certificate, gives <strong>1 March 1892</strong>. This archive follows the register.",
+    f: "The <strong>Rijeka baptismal entry of 1892</strong> would settle it beyond argument — and would also independently name his parents a second time." },
 ];
 const cls = { critical: "warn", high: "", medium: "", data: "dim" };
 ---
 <Base title="Open Questions"
-  eyebrow={`${Q.length} things this archive cannot yet answer`}
+  eyebrow={`${Q.filter((q) => q.w !== "answered").length} open · ${Q.filter((q) => q.w === "answered").length} answered`}
   dek="Written down so they can be worked on, and so no reader mistakes a gap for a fact. Each one says what would actually close it."
 >
   <section class="blk">
@@ -48,7 +63,8 @@ const cls = { critical: "warn", high: "", medium: "", data: "dim" };
 
   {Q.map((q) => (
     <section class="blk qa">
-      <div class="lab">{q.w === "critical" ? "Critical — the spine depends on it"
+      <div class="lab">{q.w === "answered" ? "Answered — kept so the change is visible"
+        : q.w === "critical" ? "Critical — the spine depends on it"
         : q.w === "data" ? "Data quality" : q.w === "high" ? "Substantive" : "Worth doing"}</div>
       <h2><span class="mono dim">{q.n}.</span> {q.t}</h2>
       <p set:html={q.b.replace(/href='\//g, `href='${u("/")}`)} />

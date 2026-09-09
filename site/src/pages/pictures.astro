@@ -1,0 +1,85 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import media from "../data/media.json";
+const docs = media.filter((m) => m.kind === "document");
+const pics = media.filter((m) => m.kind === "photograph");
+const big = media.filter((m) => m.w >= 2500).length;
+---
+<Base title="The Pictures"
+  eyebrow={`${media.length} media items recovered from MyHeritage`}
+  dek="None of this was in the GEDCOM. Media does not export, so the first build of this archive had register scans, gravestones and portraits sitting a click away and knew about none of them.">
+
+  <section class="blk">
+    <div class="grid three">
+      <div class="stat"><div class="n">{media.length}</div><div class="l">items, tagged to 35 of
+        the 70 published ancestors</div></div>
+      <div class="stat"><div class="n">{docs.length}</div><div class="l">register scans,
+        certificates and gravestones</div></div>
+      <div class="stat"><div class="n">{big}</div><div class="l">at 2,500 px or wider — many of the
+        parish scans are 4,500 px</div></div>
+    </div>
+    <p class="note" style="margin-top:1.3rem"><strong>How they were found.</strong> A person's
+    media in a MyHeritage tree is reachable at
+    <span class="mono">photo-world/&lt;site&gt;?tree_id=4&amp;individual_id=<em>N</em></span>, and
+    <em>N</em> is <strong>4000000 + n</strong> for GEDCOM record <span class="mono">@In@</span>.
+    That one correspondence turns “six photos on my grandmother's profile” into a sweep of the whole
+    line. <a href={u("/method")}>Method →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>Documents</h2>
+    <p class="dek">Parish registers, civil certificates and grave photographs — the evidence this
+    archive is supposed to rest on. Several are read out in full:
+    <a href={u("/marriage-1920")}>the 1920 marriage register</a>,
+    <a href={u("/certificate")}>the 1951 birth extract</a>,
+    <a href={u("/grave")}>the family grave</a>.</p>
+    <div class="photos">
+      {docs.map((m) => (
+        <figure>
+          {m.type === "document"
+            ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
+            : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
+          <figcaption>
+            <strong>{m.caption}</strong>
+            {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
+            {m.people.length > 0 && (
+              <div class="dim">{m.people.map((p, i) => (
+                <>{i > 0 && ", "}{p.slug
+                  ? <a href={u(`/people/${p.slug}`)}>{p.name}</a> : p.name}</>))}</div>)}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Photographs</h2>
+    <p class="dek">Most carry no caption beyond a camera filename. Putting names to these faces is
+    the most useful thing anyone reading this could do.</p>
+    <div class="photos">
+      {pics.map((m) => (
+        <figure>
+          <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />
+          <figcaption>
+            <strong>{/^\d|^scan|^IMG|^\d+ unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
+            {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
+            {m.people.length > 0 && (
+              <div class="dim">{m.people.map((p, i) => (
+                <>{i > 0 && ", "}{p.slug
+                  ? <a href={u(`/people/${p.slug}`)}>{p.name}</a> : p.name}</>))}</div>)}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>A caution about what “tagged” means</h2>
+    <p class="note">A tag says <strong>somebody linked this image to this person</strong> — not that
+    the person is in it. The 1835 Selce marriage scan is tagged to six people because it names six
+    people; a group photograph tagged to Ljubomir need not contain him. Where this archive asserts
+    that a particular face is a particular person, it says so, and says how sure it is.
+    <a href={u("/method")}>Method →</a></p>
+  </section>
+</Base>
