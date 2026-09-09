@@ -20,7 +20,18 @@ const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familys
   </section>
 
   <section class="blk">
-    <h2>The strongest thing here: the parish registers</h2>
+    <h2>The strongest thing here: a civil birth extract</h2>
+    <p class="lede">One document in this archive is a <strong>state record</strong> rather than a
+    church one or a tree one: a sworn English translation of the Yugoslav
+    <strong>register-of-births extract for Ivan Defranceski</strong>, born at Senj Hospital on
+    17 December 1951 — Senj registration <strong>152/1954</strong>, issued 27 April 1954 over the
+    seal of the Municipality of Senj.</p>
+    <p>It confirms <strong>Hedviga's own birth date and place from outside the family tree</strong>,
+    and it carries three things the tree does not. <a href={u("/certificate")}>The certificate →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>The parish registers</h2>
     <p><strong>“Croatia, Church Books, 1516–1994”</strong>, digitised by FamilySearch from the
     holdings of the <strong>Hrvatski državni arhiv</strong> (Croatian State Archives) in Zagreb.
     Citations in this tree reach specific images in specific volumes:</p>
@@ -80,12 +91,16 @@ const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familys
 
   <section class="blk">
     <h2>Never consulted, and it shows</h2>
-    <p class="note">No <strong>civil registration certificate</strong> has been obtained for anyone
-    in this archive — not Hedviga's 2001 Johannesburg death, not Ivan's 1995 Senj death, not the
-    1920 Senj marriage. No <strong>South African or Rhodesian immigration file</strong>. No
+    <p class="note">No <strong>death certificate</strong> has been obtained for Hedviga
+    (Johannesburg 2001) or Ivan (Senj 1995), and no extract for the <strong>1920 Senj
+    marriage</strong>. No <strong>South African or Rhodesian immigration file</strong>. No
     <strong>Yugoslav war victims register</strong> search for <a href={u("/oto")}>Oto</a>. No
-    <strong>Mirogoj cemetery record</strong> for Antonija Prpić. These are the next things to do,
-    and until they are done a great deal here rests on one tree.
+    <strong>Mirogoj cemetery record</strong> for Antonija Prpić. These are the next things to do.
     <a href={u("/open-questions")}>Open questions →</a></p>
+    <p class="dek" style="margin-top:1rem">Until September 2026 this page said that
+    <em>no</em> civil registration document underpinned anything here. That is no longer true — the
+    <a href={u("/certificate")}>1951 birth extract</a> came out of the MyHeritage media library,
+    where it had been sitting all along, attached to Hedviga's profile and absent from the GEDCOM
+    export.</p>
   </section>
 </Base>

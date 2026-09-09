@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="The Certificate"
+  eyebrow="Senj registration 152/1954"
+  dek="A sworn English translation of a Yugoslav birth extract — the one state document in this archive, and the only thing here that confirms Hedviga's birth from outside the family tree.">
+
+  <section class="blk">
+    <p class="lede">It was attached to Hedviga's MyHeritage profile the whole time. It is
+    <strong>not in the GEDCOM</strong> — media does not export — so the first build of this archive
+    said plainly that no civil registration document underpinned anything. That was true of the data
+    and false of the evidence, and this page is the correction.</p>
+    <figure class="doc">
+      <img src={u("/photos/hedviga/hedviga-04-501105-ivan-birth-certificate-translated.jpg")}
+           alt="Sworn English translation of the Yugoslav birth extract for Ivan Defranceski, Senj, 1951"
+           loading="lazy" />
+      <figcaption>Extract from the register of births, Senj — issued 27 April 1954, translated for
+      the Supreme Court of South Africa. 480 px rendering; the original is on MyHeritage.</figcaption>
+    </figure>
+  </section>
+
+  <section class="blk">
+    <h2>What it says</h2>
+    <blockquote class="note">TRANSLATION FROM THE CROATIAN ORIGINAL · FEDERAL NATIONAL REPUBLIC OF
+    YUGOSLAVIA · NATIONAL REPUBLIC OF CROATIA · Region: Senj · National Register of Senj
+    Municipality · Reg. number 152/1954</blockquote>
+    <table class="kv" style="margin-top:1.2rem">
+      <tr><th>Child</th><td><strong>DEFRANCESKI, IVAN</strong>, male — born
+        <strong>17 December 1951 at 11:30</strong>, <strong>Senj Hospital</strong></td></tr>
+      <tr><th>Entered</th><td>1951 register, page 252, ordinal number 110, on
+        <strong>22 December 1951</strong>, on the written notice of the Regional Hospital, Senj,
+        no. 595/51</td></tr>
+      <tr><th>Father</th><td><strong>Ivan Defranceski</strong> — born <strong>25.06.1925,
+        Crikvenica</strong>; citizenship Croatian/Yugoslav; nationality <strong>Italian</strong>;
+        profession <strong>electro-mechanic</strong>; resident Crikvenica</td></tr>
+      <tr><th>Mother</th><td><strong>Hedviga, <em>née</em> Blazevic</strong> — born
+        <strong>03.08.1926, Senj</strong>; citizenship FNRJ; nationality Croatian; profession
+        <strong>housewife</strong>; resident Crikvenica</td></tr>
+      <tr><th>Issued</th><td>Senj, <strong>27 April 1954</strong>. Registrar
+        <strong>Slavković Krsto</strong>, under the seal of the Municipality of Senj</td></tr>
+      <tr><th>Certified</th><td><strong>Marijana Čizek</strong>, Sworn Translator for the
+        <strong>Supreme Court of South Africa</strong></td></tr>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>Four things it settles or opens</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>Hedviga's birth, confirmed from outside the tree</h3>
+        <p><strong>3 August 1926, Senj.</strong> Every other statement of that date in this archive
+        traces back to the same MyHeritage record. This one is a state register entry, written down
+        in 1951 by a registrar who was recording her son's birth and had no interest in her
+        genealogy. <a href={u("/method")}>Why that distinction is the whole method →</a></p>
+      </div>
+      <div class="card">
+        <h3>The father is recorded as <em>Italian</em></h3>
+        <p>Yugoslav civil registration separated <em>citizenship</em> from <em>nationality</em>, and
+        Ivan Defranceski is entered as a Yugoslav citizen of <strong>Italian</strong> nationality —
+        while Hedviga, in the next column, is <strong>Croatian</strong>. The tree records no such
+        thing. It is consistent with the <em>de Franceschi</em> spelling the family carries.</p>
+      </div>
+      <div class="card">
+        <h3>They were living at Crikvenica</h3>
+        <p>Both parents are resident at <strong>Crikvenica</strong> in December 1951, though the
+        birth was at Senj hospital — which is why Ladislava (1948) is recorded born at Crikvenica
+        and the two boys at Senj. The family was at Crikvenica and went up the coast to the
+        hospital. <a href={u("/hedviga")}>Hedviga →</a></p>
+      </div>
+      <div class="card">
+        <h3>It is emigration paperwork</h3>
+        <p>A Yugoslav birth extract gets translated by a <strong>sworn translator for the Supreme
+        Court of South Africa</strong> for one reason: an official application. The extract was
+        drawn in <strong>1954</strong>. That is roughly twenty years before Hedviga's recorded
+        arrival in South Africa in April 1975 — so either the translation is much later than the
+        extract, or the family's move out of Yugoslavia began far earlier than this archive
+        assumed. <strong>The translation is undated in what can be read here.</strong></p>
+      </div>
+    </div>
+    <p class="note" style="margin-top:1.4rem"><strong>What would settle the last one.</strong> The
+    original document, at full resolution, to read the translator's date stamp; and the South
+    African immigration file the translation was made for.
+    <a href={u("/open-questions")}>Open questions →</a></p>
+  </section>
+</Base>

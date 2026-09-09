@@ -71,14 +71,67 @@ const h = get("@I17@");
   </section>
 
   <section class="blk">
+    <div class="lab">Recovered from MyHeritage, September 2026</div>
+    <h2>Six pictures</h2>
+    <p class="lede">None of these are in the GEDCOM — MyHeritage does not export media — so the
+    first build of this archive had no face to put to any of it. They are
+    <strong>480-pixel renderings</strong>, not the originals; the CDN signs each URL against its
+    size, so a bigger one cannot simply be asked for.</p>
+    <div class="photos">
+      <figure>
+        <img src={u("/photos/hedviga/hedviga-06-500804.jpg")} loading="lazy"
+             alt="Portrait of a woman in a bold floral print raising a glass, late 1960s" />
+        <figcaption><strong>Almost certainly Hedviga</strong>, <em>c.</em> late 1960s — the best
+        likeness in the set, and the same face as the 1980s group below.</figcaption>
+      </figure>
+      <figure>
+        <img src={u("/photos/hedviga/hedviga-03-504173.jpg")} loading="lazy"
+             alt="A family of five on a seafront balustrade, early 1950s" />
+        <figcaption><strong>Very likely Ivan and Hedviga with their children</strong>, <em>c.</em>
+        1953–54 — a man in a suit holding a baby in a bonnet, a girl in a bolero, a small child in
+        a beret. The ages fit Ladislava, Ivan and the infant Robert.</figcaption>
+      </figure>
+      <figure>
+        <img src={u("/photos/hedviga/hedviga-05-500852-granny-heddies-photos-25.jpg")} loading="lazy"
+             alt="Colour family photograph, 1980s, with television and video recorder" />
+        <figcaption>Captioned <em>“Granny Heddies Photos-25”</em>. Colour, <em>c.</em> 1980s, a
+        television and a video recorder behind — this is Africa, not Senj.</figcaption>
+      </figure>
+      <figure>
+        <img src={u("/photos/hedviga/hedviga-01-504176.jpg")} loading="lazy"
+             alt="Multi-generational family group in a garden, 1950s" />
+        <figcaption>Eleven people in a garden, <em>c.</em> 1950s. The two older women seated at the
+        centre are in black — widows' mourning. Nobody in it is identified.</figcaption>
+      </figure>
+      <figure>
+        <img src={u("/photos/hedviga/hedviga-02-504174.jpg")} loading="lazy"
+             alt="Five people and a dog outdoors beside a truck, late 1950s" />
+        <figcaption>Five people and a dog, <em>c.</em> late 1950s — a boy on a bicycle, a man in a
+        singlet, a truck behind. Unidentified.</figcaption>
+      </figure>
+      <figure>
+        <a href={u("/certificate")}>
+          <img src={u("/photos/hedviga/hedviga-04-501105-ivan-birth-certificate-translated.jpg")}
+               loading="lazy" alt="Sworn translation of the 1951 Yugoslav birth extract" /></a>
+        <figcaption><strong>Not a photograph.</strong> The sworn translation of her son's 1951
+        Yugoslav birth extract — and the one document here that confirms her own birth from outside
+        the family tree. <a href={u("/certificate")}>Read it →</a></figcaption>
+      </figure>
+    </div>
+    <p class="note"><strong>Four of these five photographs are unidentified.</strong> The tree
+    carries them as filenames — <em>1595624858.9990501</em>, <em>1134835622</em> — with no names,
+    dates or places attached. Anyone who can put a name to a face in them should say so; that is the
+    single most useful thing that could happen to this page.</p>
+  </section>
+
+  <section class="blk">
     <h2>What the tree carries on her</h2>
     {h && h.notes && h.notes.length > 0 && (
       <div class="note">
         <p>The notes attached to her record are <strong>machine-written</strong> — a SmartCopy
-        reference from Geni, and a MyHeritage record link. There is no biography in her own words,
-        and no photograph in the GEDCOM export at all, although
-        <strong>six are attached to her profile online</strong>. Recovering those is a task this
-        archive has not yet done.</p>
+        reference from Geni, and a MyHeritage record link. There is no biography in her own words.
+        The <strong>six media items</strong> attached to her profile were absent from the GEDCOM
+        export entirely; they have now been recovered and are shown above.</p>
       </div>
     )}
     <p class="dek" style="margin-top:1.2rem">Her record cites two independent trees — the

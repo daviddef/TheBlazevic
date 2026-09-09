@@ -108,6 +108,13 @@ Geni · Forebears surname distribution · Croatian scholarship on the Bunjevci K
 SA History Hub on Croatians in South Australia · *Tierra prometida: Jews from Rhodes in the Belgian
 Congo and Southern Rhodesia, 1910s–1960s* · Rhodes Jewish Museum · Yad Vashem.
 
-**Nothing here rests on a civil registration certificate.** Not Hedviga's 2001 Johannesburg death,
-not Ivan's 1995 Senj death, not the 1920 Senj marriage. Ordering those is the next work, and until
-it is done a great deal of this archive rests on one family tree.
+**One civil registration document is now in hand**, recovered from the MyHeritage media library:
+a sworn English translation of the **Yugoslav birth extract for Ivan Defranceski, born Senj
+Hospital, 17 December 1951** (Senj reg. 152/1954, issued 27 April 1954). It independently confirms
+Hedviga's birth on 3 August 1926 at Senj, gives her father-in-law's nationality as **Italian**, puts
+both parents at **Crikvenica** in 1951, and was certified by a sworn translator for the **Supreme
+Court of South Africa** — which makes it emigration paperwork as well as a birth record. See
+`photos/hedviga/index.md`.
+
+**Everything else still rests on the tree.** No death certificate for Hedviga (Johannesburg 2001) or
+Ivan (Senj 1995), and no extract for the 1920 Senj marriage. Ordering those is the next work.
