@@ -1,0 +1,135 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import media from "../data/media.json";
+
+// The photographs whose captions are camera filenames, or which hedge. The
+// tree attaches a name to most of them; a filename is not evidence that the
+// name is right, and this page exists to be shown to somebody who would know.
+const CAM = /^(img[_-]?\s*\d+|dsc\w*\d+|scan\s*\d+|\d{6,}(\.\d+)?([+.]\S*)?|photo\s*\d*|image\d*)$/i;
+const HEDGE = /\bmaybe\b|\bunnamed\b|\?|granny heddies photos-\d+/i;
+const strip = (c) => (c || "").replace(/\.(jpe?g|png|tiff?)$/i, "").trim();
+
+const photos = media.filter((m) => m.kind === "photograph");
+const rank = (m) => {
+  const c = strip(m.caption);
+  if (!c || CAM.test(c)) return "filename";
+  if (HEDGE.test(c)) return "hedged";
+  return "named";
+};
+const ask = photos.filter((m) => rank(m) !== "named");
+const filename = ask.filter((m) => rank(m) === "filename");
+const hedged = ask.filter((m) => rank(m) === "hedged");
+const named = photos.filter((m) => rank(m) === "named");
+---
+<Base title="The Faces"
+  eyebrow={`${ask.length} photographs this archive cannot vouch for`}
+  dek="A contact sheet meant to be shown to somebody in the family. Every picture here is attached to a name in the tree — but the caption underneath it is a camera filename or a hedge, so the name is somebody's recollection rather than a record. One afternoon with a relative would close most of this page.">
+
+  <section class="blk">
+    <p class="lede">This is the one open question in the archive that <strong>no archive can
+    answer</strong>. A parish register will eventually give up a birth date; nothing in Rijeka or
+    Gospić will ever say which of two women in a photograph is Milka. The people who could say are
+    alive, and the pictures have never been put in front of them in one place. That is all this
+    page is.</p>
+
+    <div class="qa">
+      <h3>What is being asked, exactly</h3>
+      <ul class="plain">
+        <li><strong>Is the person named actually the person shown?</strong> The name comes from
+          where the file sits in the tree, not from anything written on the picture.</li>
+        <li><strong>Who else is in it?</strong> Several are groups, and only one person is
+          tagged.</li>
+        <li><strong>Roughly when, and where?</strong> A decade and a town would let each one be
+          checked against the ages of the people in it.</li>
+        <li><strong>Is anything written on the back?</strong> Studio stamps date and place a
+          photograph better than anything else here.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{filename.length} with no caption at all</div>
+    <h2>The camera kept the only name these have</h2>
+    <p class="lede">Uploaded straight off a phone or a scanner. <span class="mono">scan0051</span>,
+    <span class="mono">1134835622</span> — the number is a timestamp, and it dates the
+    <em>scanning</em>, not the photograph.</p>
+    <div class="photos">
+      {filename.map((m) => (
+        <figure class="doc">
+          <a href={u("/photos/line/" + m.file)}>
+            <img src={u("/photos/line/" + m.file)} alt={m.caption} loading="lazy" /></a>
+          <figcaption>
+            <span class="mono dim">{strip(m.caption)}</span>
+            <br />{m.people.length > 0
+              ? <span>Tree says: {m.people.map((p, i) => (
+                  <span>{i > 0 && ", "}{p.slug
+                    ? <a href={u("/people/" + p.slug)}>{p.name}</a> : p.name}</span>))}</span>
+              : <span class="warn">Nobody tagged at all</span>}
+          </figcaption>
+        </figure>))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{hedged.length} where the caption itself hedges</div>
+    <h2>Somebody was already unsure</h2>
+    <p class="lede">These carry a name and a doubt in the same breath — <em>“maybe Peco”</em>,
+    <em>“unnamed”</em>. Whoever wrote the caption is the best witness this archive has, and they
+    were not certain either.</p>
+    <div class="photos">
+      {hedged.map((m) => (
+        <figure class="doc">
+          <a href={u("/photos/line/" + m.file)}>
+            <img src={u("/photos/line/" + m.file)} alt={m.caption} loading="lazy" /></a>
+          <figcaption>
+            <strong>{strip(m.caption)}</strong>
+            <br />{m.people.map((p, i) => (
+              <span>{i > 0 && ", "}{p.slug
+                ? <a href={u("/people/" + p.slug)}>{p.name}</a> : p.name}</span>))}
+          </figcaption>
+        </figure>))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Excluded from the count</div>
+    <h2>Five “photographs” that are not photographs</h2>
+    <p class="lede">Five items in the media library were being published as portraits of ancestors.
+    They are <strong>stock question-mark graphics</strong> — placeholders uploaded to the tree for
+    people who have no picture — and one still carries a visible
+    <strong>Adobe Stock watermark</strong>.</p>
+    <table class="reg">
+      <thead><tr><th>Filed under</th><th>Born</th><th>What it actually is</th></tr></thead>
+      <tbody>
+        <tr><td>Michael Žubrinić</td><td class="mono">1811</td>
+          <td>Red question-mark icon, watermarked</td></tr>
+        <tr><td>Maria Catharina Orešković</td><td class="mono">1835</td>
+          <td>The same icon, same watermark</td></tr>
+        <tr><td>Josephum Antić</td><td class="mono">1806</td><td>Red question mark on white</td></tr>
+        <tr><td>Maria Jelličić</td><td class="mono">1809</td><td>The same graphic</td></tr>
+        <tr><td>Georgius “Jure” Antić Papić</td><td class="mono">1838</td><td>The same graphic</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">The dates are the giveaway: a photograph of a man born in
+    <strong>1806</strong> would be remarkable, and four of these five people died before or barely
+    into the age of portrait photography. The build now drops anything marked
+    <span class="mono">excluded</span> in
+    <span class="mono">sources/media/classification.json</span>, so a placeholder cannot be shown as
+    an ancestor's face. <a href={u("/changed")}>What changed →</a></p>
+    <p class="dek">A sixth item was reclassified rather than dropped: a picture captioned
+    <em>“Ljubomir Blazevic”</em> is a photograph of the <a href={u("/grave")}>family gravestone</a>,
+    not a portrait of him. It is a document and now sits with the documents.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">For contrast</div>
+    <h2>The {named.length} that do carry a real caption</h2>
+    <p class="lede">Not certain either — a caption is still somebody's memory — but at least
+    somebody wrote a name rather than letting a file manager do it.</p>
+    <ul class="cols">{named.map((m) => (
+      <li><span class="mono">{strip(m.caption)}</span></li>))}</ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/pictures")}>All the pictures →</a>
+      {" "}<a class="btn" href={u("/open-questions")}>The open questions →</a></p>
+  </section>
+</Base>

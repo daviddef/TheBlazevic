@@ -43,7 +43,7 @@ OVERRIDE = {k: v for k, v in json.load(
     open(os.path.join(ROOT, "sources", "media", "classification.json"),
          encoding="utf-8")).items() if not k.startswith("_")}
 
-rows = []
+rows, dropped = [], []
 for line in open(MAN, encoding="utf-8"):
     line = line.rstrip("\n")
     if not line:
@@ -61,10 +61,16 @@ for line in open(MAN, encoding="utf-8"):
         tagged.append({"id": gid, "name": display(p),
                        "slug": pub["slug"] if pub else None,
                        "years": f'{year(born(p).get("date","")) or "?"}–{year(died(p).get("date","")) or "?"}'})
+        kind = OVERRIDE.get(mid, "document" if DOC.search(name) else "photograph")
+    if kind == "excluded":
+        # Not a document, not a photograph, and not published: a stock graphic
+        # standing in for a person who has no picture. See classification.json.
+        dropped.append((mid, name))
+        continue
     rows.append({"mid": mid, "type": typ, "caption": name,
                  "w": int(w or 0), "h": int(h or 0),
                  "file": fn,
-                 "kind": OVERRIDE.get(mid, "document" if DOC.search(name) else "photograph"),
+                 "kind": kind,
                  "people": tagged})
 
 rows.sort(key=lambda r: (r["kind"] != "document", -(r["w"] * r["h"])))
@@ -72,3 +78,5 @@ json.dump(rows, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"{len(rows)} media items -> {os.path.relpath(OUT, ROOT)}")
 print(f'  {sum(1 for r in rows if r["kind"]=="document")} documents, '
       f'{sum(1 for r in rows if r["kind"]=="photograph")} photographs')
+for mid, name in dropped:
+    print(f'  excluded: {mid} {name}')
