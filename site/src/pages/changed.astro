@@ -1,0 +1,146 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import corrections from "../data/corrections.json";
+
+// Every claim this archive made and then withdrew. Kept in date order so the
+// direction of travel is visible: nearly all of them are the archive becoming
+// less certain, not more.
+const C = [
+  { d: "September 2026", t: "House 114 was called a household. It is a zadruga.",
+    was: "That Smokvica Krmpotska <strong>kbr. 114</strong> identified one family, and so placed Juraj Blažević in Toma's household — nearly naming his father.",
+    now: "A control document, the 1890 baptism of Frane Blažević, puts <strong>Pavao Blažević, son of Luka</strong>, at 114 as well. Luka and Toma's father Anton are both sons of Ilija, so Pavao and Toma are <strong>first cousins</strong> and the number covers an extended-family compound — a <strong>zadruga</strong>.",
+    cost: "Question 1b was downgraded from critical to substantive. The house places Juraj in Ilija's kin-group; it cannot name his father.",
+    href: "/blazevic" },
+
+  { d: "September 2026", t: "Zvonimir Vukelić was not a casualty-list death.",
+    was: "That he should be looked for in the Austro-Hungarian <em>Verlustlisten</em>, reasoning from his age — thirty-two in the second year of the war.",
+    now: "The tree places his death <strong>at Senj</strong> and gives his occupation as <em>gostioničar, bankar</em>. A man who dies at home in a settled trade is not a casualty-list entry.",
+    cost: "The right book is the <strong>Senj death register for 1915</strong>. The reasoning was plausible and it was still wrong: an age is not a cause.",
+    href: "/open-questions" },
+
+  { d: "September 2026", t: "The Karlobag material was filed under the wrong family.",
+    was: "A block on Karlobag's merchant milieu placed on the <strong>Žubrinić</strong> page.",
+    now: "It arrives through <strong>Matija Pilipić</strong>, ahnentafel 13 — the <strong>Papić</strong> line. Moved.",
+    cost: "Nothing to the evidence; everything to whether a reader can follow the line it belongs to.",
+    href: "/papic" },
+
+  { d: "September 2026", t: "Two letters went to the wrong archive.",
+    was: "Both drafted to <strong>Državni arhiv u Gospiću</strong>, on the assumption that Lika-Senj county means Gospić.",
+    now: "Gospić's remit is Lika-Senj <em>“osim gradova Senja i Novalje”</em> — <strong>except the towns of Senj and Novalja</strong>. And Smokvica is in Primorje-Gorski Kotar, not Lika-Senj at all. Both belong to <strong>Rijeka, Senj branch</strong>.",
+    cost: "Had they been sent, two archives would have spent time forwarding them. Jurisdiction is now written down before anything is posted.",
+    href: "/sources" },
+
+  { d: "September 2026", t: "The search did not fold given names.",
+    was: "That folding <em>Žubrinić / Xubrinich / Zubrinich</em> together was enough to make a person findable.",
+    now: "It was not. <em>Ivan</em> found 42 of 88 Ivans, because the rest are entered <em>Joannes</em>, <em>Joannis</em>, <em>Juan</em> or <em>Ive</em>. <strong>268 canonical given names, 34 of them under more than one spelling.</strong>",
+    cost: "Caught by the reader, not by this archive. Both surnames and given names now fold — and the split by sex was a second correction on top, after <em>Franjo</em> and <em>Franciska</em> were wrongly merged.",
+    href: "/people" },
+
+  { d: "September 2026", t: "Forty Latin case-endings were blamed on a transcriber.",
+    was: "That <em>Josephum</em>, <em>Joannis</em> and <em>Mariam</em> were <strong>one person</strong> working through Selce and Vinodol entries and lifting the word after <em>baptizavi</em>.",
+    now: "Three scans, two parishes, three priests, three decades apart — <strong>the priests wrote the oblique forms themselves</strong>. Michaël Kombol writes <em>nomine</em> + accusative for every child on the 1806 page.",
+    cost: "The artefact is real; the culprit was invented. It also turned the ending into a <em>useful</em> signal — accusative means the entry is the person's own, genitive means they were only named as somebody's parent.",
+    href: "/name" },
+
+  { d: "September 2026", t: "A name was called resolved on the strength of a sorting bucket.",
+    was: "That <strong>Luca “Papić or Perpic”</strong> was settled, because her siblings are recorded Papić.",
+    now: "Her father is a record called <em class='mono'>“Senj — Unknown To be Sorted Papić”</em>. Those siblings were grouped by whoever compiled the tree, not by a register.",
+    cost: "The tooling now reuses the same sorting-bucket filter the rest of the build uses, so a bucket can never resolve a name. Marked open.",
+    href: "/name" },
+
+  { d: "September 2026", t: "Her surname is Gergacs, not Gerkacs.",
+    was: "<strong>Mariam Gerkacs (Gergacs)</strong>, ahnentafel 55, following the tree's ordering.",
+    now: "The Karlobag register of August 1789 spells it <strong>Gergacs</strong>. The tree leads with the secondary form.",
+    cost: "Small, and worth doing: the register's spelling is the one an archivist will search on.",
+    href: "/people/mariam-gerkacs-gergacs" },
+
+  { d: "September 2026", t: "A misreading of my own, corrected at higher resolution.",
+    was: "That the 1918 marriage entry for Ana Papić gave her mother as <em>Antonija r. <strong>Papić</strong></em> — a clerk confusing the two family names.",
+    now: "Enlarged, it plainly reads <strong>Prpić</strong>. There was no clerk's error.",
+    cost: "Nothing, because it was caught before it was published as a finding. Recorded because a correction that never reached the page is still a correction.",
+    href: "/prpic" },
+
+  { d: "September 2026", t: "Five links were built without the site's base path.",
+    was: "Open questions rewrote <code class='mono'>href='/…'</code> in the question body but not in the <em>“what would settle it”</em> block.",
+    now: "Both fields go through one helper. Two of the five had been dead since the page was written.",
+    cost: "A reader clicking the most actionable part of the page got a 404. Found by sweeping the built site rather than the source.",
+    href: "/open-questions" },
+
+  { d: "September 2026", t: "The gazetteer was counting one village as several.",
+    was: "Otočac shown with 60 Žubrinić records; four Mrzli Dol records filed under a place called <em class='mono'>“#6 Mrzli Dol”</em>.",
+    now: "<em>Otocac Croatia</em> is <em>Otočac</em> — 68 records. The house-number pattern missed <code class='mono'>#</code> and <code class='mono'>kbr.</code>, hiding houses 9 and 30 entirely.",
+    cost: "Every count on the map page was low. Fixed when the tool was widened from one surname to four.",
+    href: "/gazetteer" },
+];
+
+const kinds = {
+  corrected: "Corrected", note: "Noted", confirmed: "Confirmed", disputed: "Disputed",
+};
+---
+<Base title="What Changed"
+  eyebrow="Eleven things this archive got wrong, and what fixed them"
+  dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
+
+  <section class="blk">
+    <p class="lede">Every page here carries a confidence label, and a label is only honest if it can
+    be <em>lowered</em>. Most of what follows is this archive becoming <strong>less</strong>
+    certain, not more: a house number demoted from an identifier to a kin-group, a resolved name
+    reopened, a culprit un-named. <strong>One was caught by the reader</strong> — the search had
+    been folding surnames and not given names, and was finding 42 of 88 Ivans. One was caught by
+    sweeping the <em>built</em> site rather than the source, which is a lesson about where to look.</p>
+  </section>
+
+  {C.map((c, i) => (
+    <section class="blk fix">
+      <div class="lab">{c.d}</div>
+      <h2><span class="mono dim">{i + 1}.</span> {c.t}</h2>
+      <table class="kv" style="margin-top:.8rem">
+        <tbody>
+          <tr><th>This archive said</th><td set:html={c.was} /></tr>
+          <tr><th>The record says</th><td set:html={c.now} /></tr>
+          <tr><th>What it cost</th><td set:html={c.cost} /></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:.8rem"><a class="btn" href={u(c.href)}>Where it now stands →</a></p>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>And the record-level corrections</h2>
+    <p class="lede">These are narrower — a date, a spelling, a single person — and each is attached
+    to the person it concerns, so a reader who never opens this page still meets it.</p>
+    <table class="reg" style="margin-top:1rem">
+      <thead><tr><th>What</th><th>The tree</th><th>The record</th><th></th></tr></thead>
+      <tbody>{corrections.map((r) => (
+        <tr>
+          <td><span class="tag">{kinds[r.kind] || r.kind}</span> {r.what}</td>
+          <td class="dim" set:html={r.tree} />
+          <td set:html={r.record} />
+          <td>{r.href && <a href={u(r.href)}>→</a>}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>What is deliberately still wrong</h2>
+    <p class="lede">Two things on this site are known to be inconsistent and have been left that way
+    on purpose, because tidying them would destroy the evidence that they conflict.</p>
+    <ul class="plain">
+      <li style="margin-bottom:.9rem"><strong>A mother born after her son.</strong>
+        <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>Maria Catharina Orešković</a> is
+        given 8 September 1835, and her son Nicolaus 24 January 1834. Seven ancestors hang below
+        her. The join is marked <span class="tag">Disputed</span> and left in place rather than
+        quietly severed.</li>
+      <li style="margin-bottom:.9rem"><strong>Two sisters born eighteen days apart.</strong>
+        Franjka Papić, 20 January 1895, and Šulka Papić, 7 February 1895, of the same parents —
+        each date written in that woman's own marriage register. The tree reproduces both
+        faithfully, so the disagreement is between the <em>records</em>.
+        <a href={u("/open-questions")}>Question 5b →</a></li>
+    </ul>
+    <p style="margin-top:1rem">The rule is the same in both cases: <strong>reproduce the
+    contradiction, attribute it, and say what would settle it.</strong> An archive that resolves a
+    conflict it cannot actually resolve has replaced a record with an opinion.
+    <a href={u("/method")}>Method →</a></p>
+  </section>
+</Base>

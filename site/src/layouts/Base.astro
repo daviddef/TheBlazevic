@@ -18,7 +18,7 @@ const nav = [
                ["/gazetteer", "The Map"],
                ["/port-pirie", "Port Pirie"]]],
   ["Evidence", [["/sources", "Sources"], ["/method", "Method"],
-                ["/open-questions", "Open Questions"]]],
+                ["/open-questions", "Open Questions"], ["/changed", "What Changed"]]],
 ];
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
@@ -84,6 +84,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
       <a href={u("/sources")}>Sources</a> ·
       <a href={u("/method")}>Method</a> ·
       <a href={u("/open-questions")}>Open questions</a> ·
+      <a href={u("/changed")}>What changed</a> ·
       Corrections are the most valuable thing you can send</p>
   </div>
 </footer>
