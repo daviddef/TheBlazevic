@@ -67,6 +67,12 @@ const C = [
     cost: "A reader clicking the most actionable part of the page got a 404. Found by sweeping the built site rather than the source.",
     href: "/open-questions" },
 
+  { d: "September 2026", t: "A mother born after her son is two women, not a bad date.",
+    was: "That the join was merely <span class='tag'>Disputed</span> — <a href='/people/maria-catharina-oreskovic-oreskovic'>Maria Catharina Orešković</a>, born 8 September 1835, recorded as mother of Nicolaus, born 24 January 1834 — and that a corrected date might reconcile it.",
+    now: "The Otočac register of 24 January 1834 enters Nicolaus as the <em>legitimate</em> son of <strong>Michaël Xubrinich et Maria uxor ejus nata Oreskovich</strong>. That is a married woman bearing a child nineteen months before Maria Catharina was born. They are <strong>two different women of one surname</strong>.",
+    cost: "Not a date to correct — a <strong>join to break</strong>, and it takes a branch with it. Ahnentafel 21's whole ancestry, Marcus Orešković and Lucia Sekula and everything above them, hangs off the wrong woman.",
+    href: "/open-questions" },
+
   { d: "September 2026", t: "The gazetteer was counting one village as several.",
     was: "Otočac shown with 60 Žubrinić records; four Mrzli Dol records filed under a place called <em class='mono'>“#6 Mrzli Dol”</em>.",
     now: "<em>Otocac Croatia</em> is <em>Otočac</em> — 68 records. The house-number pattern missed <code class='mono'>#</code> and <code class='mono'>kbr.</code>, hiding houses 9 and 30 entirely.",
@@ -79,7 +85,7 @@ const kinds = {
 };
 ---
 <Base title="What Changed"
-  eyebrow="Eleven things this archive got wrong, and what fixed them"
+  eyebrow="Twelve things this archive got wrong, and what fixed them"
   dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
 
   <section class="blk">
@@ -127,11 +133,12 @@ const kinds = {
     <p class="lede">Two things on this site are known to be inconsistent and have been left that way
     on purpose, because tidying them would destroy the evidence that they conflict.</p>
     <ul class="plain">
-      <li style="margin-bottom:.9rem"><strong>A mother born after her son.</strong>
-        <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>Maria Catharina Orešković</a> is
-        given 8 September 1835, and her son Nicolaus 24 January 1834. Seven ancestors hang below
-        her. The join is marked <span class="tag">Disputed</span> and left in place rather than
-        quietly severed.</li>
+      <li style="margin-bottom:.9rem"><strong>An ancestral branch attached to the wrong woman.</strong>
+        Now that the 1834 register has been read, <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>Maria
+        Catharina Orešković</a> is known <em>not</em> to be Nicolaus's mother — but the archive
+        cannot say who the right Maria Orešković was, so the branch is left attached and marked
+        rather than severed into a dead end. Cutting it would destroy the only pointer anyone has
+        to where the real woman should be looked for.</li>
       <li style="margin-bottom:.9rem"><strong>Two sisters born eighteen days apart.</strong>
         Franjka Papić, 20 January 1895, and Šulka Papić, 7 February 1895, of the same parents —
         each date written in that woman's own marriage register. The tree reproduces both
