@@ -3,11 +3,15 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import given from "../data/givennames.json";
+import latin from "../data/latincases.json";
 const sp = (s) => families.find((f) => f.slug === s);
 
 const obs = Object.entries(given.observed)
   .map(([k, v]) => [k, v, Object.values(v).reduce((a, b) => a + b, 0)])
   .sort((a, b) => b[2] - a[2]);
+const latAnc = latin.filter((l) => l.ancestor);
+const latByName = {};
+for (const l of latin) (latByName[l.nominative] ||= []).push(l);
 const dist = [
   ["Blažević", "11,163", "1:652,830", "Croatia 7,216 (1:586) · Bosnia 3,058 · Serbia 492"],
   ["Papić", "6,014", "1:1,211,764", "Serbia 2,894 · Croatia 1,611 · Bosnia 1,165"],
@@ -140,6 +144,47 @@ const dist = [
     and <em>Ante</em> and <em>Antonija</em>. They are <strong>not the same name</strong>, and this
     archive first merged them by mistake — which would have told a reader that fourteen Franciskas
     were Franjos. They are split by sex, and counted separately.</div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">A consequence worth its own section</div>
+    <h2>Forty people in this archive are named after a case ending</h2>
+    <p class="lede">These registers are <strong>narrative Latin</strong>, not forms. A priest
+    writes <em>baptizavi <strong>Josephum</strong></em> — “I baptised Josephus” — and
+    <em>filius <strong>Josephi</strong></em> — “son of Josephus”. Those endings are
+    <strong>grammar</strong>. Transcribed literally into a family tree, they become names, and the
+    tree acquires a man called <strong>Josephum</strong> who was never called that by anyone.</p>
+    <p><strong>{latin.length} of the {"1,090"} people published here</strong> carry one — 20
+    genitives, 18 accusatives, one dative and one ablative — and
+    <strong>{latAnc.length} of them are direct ancestors of Hedviga</strong>.</p>
+    <table class="reg" style="margin-top:1.2rem">
+      <thead><tr><th>Recorded as</th><th>Which is</th><th>Really</th><th>Who</th></tr></thead>
+      <tbody>
+        {latAnc.map((l) => (
+          <tr>
+            <td class="mono"><strong>{l.recorded}</strong></td>
+            <td class="dim">{l.case}</td>
+            <td class="mono">{l.nominative}</td>
+            <td>{l.slug
+              ? <a href={u(`/people/${l.slug}`)}>{l.name}</a> : l.name}
+              <span class="tag">ancestor</span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem">The other {latin.length - latAnc.length} are collateral
+    and are flagged on their own pages.</p>
+    <div class="note"><strong>The pattern says who did it.</strong> Roughly half of the forty are
+    <strong>Papić (Papa)</strong> — Josephi, Joannem, Georgium, Michaelem, Mathiam, Helenam,
+    Jacobum, Catharinam. That is not forty separate slips. It is <strong>one person working
+    through a run of Selce and Vinodol entries</strong> in narrative Latin and lifting the word
+    that followed <em>baptizavi</em>. The <a href={u("/papic")}>Papić line</a> is where this
+    archive's Latin is thickest, and it is where the artefact concentrates.</div>
+    <p style="margin-top:1.2rem"><strong>Nothing has been renamed.</strong> The tree is the
+    authority on what the tree says, and this archive's job is to note where what it says is a
+    grammatical artefact rather than to quietly correct it — the person pages carry the note, and
+    <a href={u("/people")}>the search folds the forms together</a> so that
+    <em>Josephum</em> and <em>Josip</em> find each other.</p>
   </section>
 
   <section class="blk">
