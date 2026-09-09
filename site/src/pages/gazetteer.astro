@@ -1,7 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import gaz from "../data/gazetteer.json";
 
+const FAM = [
+  ["papic", "Papić", "Two villages and nothing else"],
+  ["prpic", "Prpić", "One village, three houses"],
+  ["zubrinic", "Žubrinić", "One town, then one port"],
+  ["blazevic", "Blažević", "Twenty places"],
+];
 const places = [
   ["Otočac", 69, "1812–1888", "The Gacka valley. The regimental town, and the core of the name.", "/frontier"],
   ["Australia", 35, "1885–1999", "Port Pirie, Port Germein, Solomontown, Quorn, Broken Hill, Whyalla, Ardrossan, Adelaide.", "/port-pirie"],
@@ -19,7 +26,7 @@ const decades = [
 const max = 33;
 ---
 <Base title="The Map"
-  eyebrow="232 Žubrinić records, read as a place rather than a pedigree"
+  eyebrow="All four surnames, read as a place rather than a pedigree"
   dek="Every town the name appears in, what the records there consist of, and the two things the shape of the data gives away about the people who collected it.">
 
   <section class="blk">
@@ -157,9 +164,77 @@ const max = 33;
   </section>
 
   <section class="blk">
+    <h2>Four surnames, four different shapes</h2>
+    <p class="lede">Run the same reduction over each name and they do not look alike at all. One
+    sits in two villages; one sits in three houses of a single village; one leaves for a single
+    port on the other side of the world; one is simply everywhere. A surname's map is a fact about
+    the family, and these four maps are four different kinds of family.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      {FAM.map(([k, label, gloss]) => {
+        const g = gaz[k];
+        const top = g.places.filter((p) => p.n > 1).slice(0, 5);
+        return (
+          <div class="card">
+            <h3>{label} <span class="dim">— {gloss}</span></h3>
+            <p class="dek" style="margin:.3rem 0 .7rem">
+              <strong>{g.records}</strong> records · <strong>{g.placed}</strong> name a place ·
+              <strong> {g.places.length}</strong> distinct places</p>
+            <table class="reg">
+              <tbody>{top.map((pl) => (
+                <tr>
+                  <td><a href={u("/people/?q=" + encodeURIComponent(pl.village))}>{pl.village}</a>
+                    {pl.houses.length > 0 &&
+                      <span class="dim"> · {pl.houses.length === 1 ? "house" : "houses"} {pl.houses.join(", ")}</span>}
+                  </td>
+                  <td class="mono">{pl.n}</td>
+                  <td class="mono dim">{pl.from ? `${pl.from}–${pl.to}` : "—"}</td>
+                </tr>))}</tbody>
+            </table>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>What the four shapes say</h3>
+      <p><strong>Papić is the tightest name in this archive.</strong> Ninety-five of its ninety-six
+      placed records fall in <strong>two</strong> villages — <strong>Selce</strong>, running
+      1793–1880, and <strong>Senj</strong>, running 1857–1981. The two spans overlap by
+      twenty-three years and then Selce stops. That is not two families; it is
+      <a href={u("/senj")}>one family moving into the town</a>, and the
+      <a href={u("/name")}>spelling moves with them</a>.</p>
+
+      <p><strong>Prpić is a village with house numbers.</strong> Fifty-two records at
+      <strong>Krivi Put</strong>, in houses <span class="mono">113</span>,
+      <span class="mono">129</span> and <span class="mono">136</span> — and Antonija, Hedviga's
+      great-grandmother, is born at <a href={u("/people/?q=Krivi%20Put")}>Krivi Put 136</a>. A
+      Frontier village identifies a household by its number, so those three numbers are the closest
+      thing here to three family branches.</p>
+
+      <p><strong>Žubrinić is a town and a port.</strong> Sixty-eight at <strong>Otočac</strong>
+      ending in <strong>1888</strong>, twenty-five at <strong>Port Pirie</strong> beginning in
+      <strong>1885</strong>. The two barely overlap: the Croatian record stops almost exactly where
+      the Australian one starts, which is what emigration looks like in a register.
+      <a href={u("/port-pirie")}>Port Pirie →</a></p>
+
+      <p><strong>Blažević is everywhere, and that is the point.</strong> Twenty distinct places
+      against Papić's three. It is the <a href={u("/name")}>seventeenth commonest surname in
+      Croatia</a>, and a common name in a small district produces exactly this: Mrzli Dol,
+      Senj, Krivi Put, Smokvica Krmpotska, Krmpote, Sv. Jakov, Krmpotske Vodice — seven places
+      inside twenty miles. Which is why <a href={u("/blazevic")}>house 114 at Smokvica</a> had to
+      be settled by a house number and not by a surname.</p>
+    </div>
+  </section>
+
+  <section class="blk">
     <h2>How this was produced</h2>
-    <p class="note"><code class="mono">tools/zubrinic_gazetteer.py</code> reduces every place string
-    to a village and, where the register gives one, a house number.
+    <p class="note"><code class="mono">tools/gazetteer.py</code> reduces every place string to a
+    village and, where the register gives one, a house number. It ran on Žubrinić alone until
+    September 2026; it now runs on all four surnames, which is what makes the shapes below
+    comparable. It also folds the tree's spellings of one village together — <em>Otocac
+    Croatia</em> with <em>Otočac</em>, <em>Kriviput</em> with <em>Krivi Put</em> — without which a
+    village looks half as populated as it is.
     <code class="mono">tools/name_reuse.py</code> finds repeated given names among siblings, folding
     the Latin and Croatian forms of a name together (<em>Joannes = Ivan</em>,
     <em>Georgius = Juraj</em>), excluding the tree's <strong>sixteen sorting buckets</strong>, and
