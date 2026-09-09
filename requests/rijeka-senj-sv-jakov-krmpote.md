@@ -1,4 +1,9 @@
-# Državni arhiv u Gospiću — parish of Sv. Jakov, Krmpote
+# Državni arhiv u Rijeci, Ispostava u Senju — parish of Sv. Jakov, Krmpote
+
+**To:** Državni arhiv u Rijeci, Ispostava u Senju, Strmac 3, 53270 Senj
+**senj@riarhiv.hr** · +385 53 882 006
+*(Not Gospić — see `WHERE-TO-WRITE.md`. Smokvica Krmpotska is in Primorje-Gorski
+Kotar, under Novi Vinodolski, which this branch serves.)*
 
 **Status: drafted, not sent.**
 
@@ -47,3 +52,8 @@ is a strong circumstantial case and it is not a sentence naming his father.
 
 *Enquiries may be made in Croatian or English. A negative result is worth having
 and will be recorded as one.*
+
+**If these volumes are not held at Senj**, the fallback is the **Hrvatski državni
+arhiv**, Zagreb (info@arhiv.hr) — every FamilySearch image already used in this
+archive is credited to the HDA and carries its stamp, so it holds filmed copies
+and can say where the original is.

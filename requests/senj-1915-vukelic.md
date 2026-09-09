@@ -1,5 +1,10 @@
 # Senj death register, 1915 — Zvonimir Vukelić
 
+**To:** Državni arhiv u Rijeci, Ispostava u Senju, Strmac 3, 53270 Senj
+**senj@riarhiv.hr** · +385 53 882 006
+*(Senj is expressly **excluded** from the Gospić archive's territory and falls to
+Rijeka — see `WHERE-TO-WRITE.md`.)*
+
 **Status: drafted, not sent.**
 
 ## What is wanted
