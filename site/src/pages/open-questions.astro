@@ -2,6 +2,11 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 
+// These question bodies are hand-written HTML, so their hrefs need the site
+// base prefixed the same way u() does it. Both fields carry links - applying it
+// to only one of them left five links broken in the built site.
+const base = (html) => html.replace(/href='\//g, `href='${u("/")}`);
+
 const Q = [
   { n: 1, w: "answered", t: "Who were Ljubomir's parents? — ANSWERED",
     b: "This was the archive's central doubt: the join at generation three rested on a man with no document. The <a href='/marriage-1920'><strong>Senj marriage register of 8 December 1920</strong></a> names the groom's parents outright — <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — and confirms Ljubomir's birth as 1 March 1892. It was attached in the family tree the whole time and absent from the GEDCOM export.",
@@ -14,7 +19,7 @@ const Q = [
     f: "Nothing further on identity. <strong>What remains is 1d.</strong>" },
   { n: "1d", w: "medium", t: "How did Zvonimir Vukelić die in 1915? — and a correction",
     b: "This archive proposed the Austro-Hungarian casualty lists, reasoning that he was thirty-two in the second year of the war. <strong>That reasoning was probably wrong.</strong> The tree places his death <strong>at Senj</strong>, in his own town, and gives his occupation as <strong><em>gostioničar, bankar</em></strong> — innkeeper and <strong>banker</strong>, a considerable rise from the <em>gostioničarski pomoćnik</em> who married Milka in 1907. A man who dies at home, in a settled trade, is not a <em>Verlustliste</em> entry.<br><br>His baptism has since been read: born <strong>13 January 1883</strong> at Senj, baptised 25 February, son of <strong>Petar <em>pl.</em> Vukelić</strong> — <em>plemeniti</em>, <strong>noble</strong> — and Lojza. Milka married into a titled family and was widowed out of it at twenty-eight.",
-    f: "The <strong>Senj death register for 1915</strong>, and nothing else. The casualty lists are behind a subscription for uncommon surnames and are, on this evidence, the wrong book." },
+    f: "<strong>And a third occupation, from a third document.</strong> On 16 August 1914 he stands witness at the wedding of Milka's sister Franjka, entered as <strong>“Zvonko M. Vukelić, <em>pivar</em>”</strong> — brewer. The trajectory now reads <em>gostioničarski pomoćnik</em> (1907) → <em>pivar</em> (1914) → <em>gostioničar, bankar</em> (at death). It is also the first document found that places him inside this family other than his own marriage entry.<br><br>The <strong>Senj death register for 1915</strong>, and nothing else. The casualty lists are behind a subscription for uncommon surnames and are, on this evidence, the wrong book." },
   { n: "1e", w: "medium", t: "Which came first — the wedding or the child?",
     b: "Milka and Zvonimir married on 4 November 1907 <strong>by episcopal dispensation, with the banns read once on 3 November</strong> rather than three times. Their daughter Miroslava was born in <strong>1907</strong>. A dispensation, a one-day wedding and a child in the same year make a familiar shape — but the register does not date the birth, and this archive does not claim to know.",
     f: "<strong>Miroslava Vukelić's baptismal entry, Senj 1907</strong>, which gives the day." },
@@ -35,7 +40,10 @@ const Q = [
     f: "A systematic read of the <strong>Otočac registers</strong> (and Prozor, Šumećica, Kompolje), rather than record-by-record hint-following. This is a job for someone who can work in Latin parish hands and knows that <strong>X spells Ž</strong> before about 1850." },
   { n: 5, w: "high", t: "Are Antić and Papić one family or two?",
     b: "The Selce ancestor is entered as <a href='/people/georgius-juraj-joannis-papa-antic-papic'>“Georgius Juraj (Joannis) <em>Papa</em> ‘Jure’ <strong>Antić Papić</strong>”</a>, carrying two surnames at once; his father and grandfather are plain <strong>Antić</strong>. Seventy-nine people in the tree are written <em>Papić (Papa)</em>, and one record hedges as <em>“Papić or Perpic”</em>. Either a family changed its name, or two families have been merged." ,
-    f: "The <strong>Selce parish registers</strong> across 1765–1838, reading the surname as the priest wrote it in each generation." },
+    f: "The <strong>Selce parish registers</strong> across 1765–1838, reading the surname as the priest wrote it in each generation.<br><br><strong>September 2026 — the register supplies the mechanism.</strong> The Vrbnik baptism of <a href='/people/josephum-antic'>Josephum Antić</a>, 14 March 1806, enters his mother as <strong>“Matre Marthæ Antich <u>Papa</u>”</strong> — and the scribe <em>underlines</em> the second word. He does it throughout the page: <em>Loncsarich <u>Franich</u></em>, <em>Antich <u>Dudin</u></em>, <em>Pobor <u>Rataj</u></em>. These are <strong>nadimci</strong>, house by-names that tell one household from another where a village shares a surname — the same job the <a href='/gazetteer'>house numbers</a> do at Smokvica.<br><br>So <em>Papa</em> is documented as <strong>the by-name of an Antić household</strong>, not as a surname. That does not yet prove the 79 people written <em>Papić (Papa)</em> are Antići — but it names the mechanism by which a by-name becomes a surname, and it is the first evidence in the question that is not a guess." },
+  { n: "5b", w: "high", t: "Two sisters born eighteen days apart",
+    b: "<a href='/people/franka-papic'>Franjka Papić</a> and <a href='/people/sulka-papic'>Šulka Papić</a> are both daughters of <strong>Josip Papić and Antonija <em>r.</em> Prpić</strong> — Milka's parents, so both are <a href='/hedviga'>Hedviga's</a> aunts. Franjka's marriage register (Senj, 16 August 1914) gives her birth as <strong>20 January 1895</strong>. Šulka's (Senj, 21 December 1919) gives hers as <strong>7 February 1895</strong>. That is <strong>eighteen days</strong>, and they cannot both be right for full sisters.<br><br>Neither date is this archive's inference: each is written in that woman's own entry. A marriage register records <em>what the bride said</em>, not what the baptism book says, so either could be the loose one. They might be twins with garbled dates; one might belong to a different Papić couple, and there were at least three having children in Senj in these years.",
+    f: "The <strong>Senj baptism register for January–February 1895</strong> — both entries would fall within three weeks of each other in the same book, and it would take one sitting to settle." },
   { n: 6, w: "medium", t: "Why is Antonija Prpić buried at Mirogoj?",
     b: "She was born at <strong>Krivi Put 136</strong> in 1859 and died at <strong>Senj</strong> in 1935 — but is buried at <strong>Mirogoj in Zagreb</strong>, 200 km away. Nothing in the record explains it. A child living in Zagreb is the obvious guess and it is only a guess.",
     f: "The <strong>Mirogoj burial register</strong>, which gives the grave, the date and who paid for it." },
@@ -44,7 +52,7 @@ const Q = [
     f: "Both <strong>death certificates</strong> — Croatian civil registration for Senj 1995, South African for Johannesburg 2001." },
   { n: 8, w: "medium", t: "What was the Senj tobacco factory?",
     b: "Two women of this family worked there — <a href='/people/milka-lucia-papic'>Milka</a> as a supervisor, <strong>Anka Blažević</strong> (1893–1953) on the floor. The tree gives the building's address and says it is now a textile factory. Its founding date, size and closure are unconfirmed here; the machinery is said to have gone to <strong>Rovinj</strong> after the Second World War.",
-    f: "The <strong>Senj town museum</strong> and Croatian industrial-history literature on the state tobacco monopoly after the patent of 20 November 1850." },
+    f: "The <strong>Senj town museum</strong> and Croatian industrial-history literature on the state tobacco monopoly after the patent of 20 November 1850.<br><br><strong>Its scale can now be read off one page.</strong> Senj marriages p.359 covers 20 November – 22 December 1919, entries 44 to 51. <strong>Six of the eight brides</strong> — Anka Blažević, Marija Ilić, Ivka Babić, Marija Babić, Božica Zrinski and <a href='/people/sulka-papic'>Šulka Papić</a> — are entered <em>radnica u tvornici duhana</em>, and entry 45's witness Ivan Antić is a <em>mašinista</em> in it. Whatever the factory's size, it employed most of the young women marrying in Senj that winter." },
   { n: 9, w: "data", t: "Three place errors that will mislead someone",
     b: "<strong>(a)</strong> Juraj Blažević's birthplace is geocoded to <em>Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija</em> — that is <strong>Smokvica on Korčula</strong>, 400 km south. The village meant is <strong>Smokvica Krmpotska</strong> near Novi Vinodolski. <strong>(b)</strong> Ivan Žubrinić of Port Pirie is given <em>“Senj, Split-Dalmatia”</em>; Senj is in <strong>Lika-Senj</strong>. <strong>(c)</strong> A FamilySearch citation for Nicolaus Žubrinić's Otočac christening is catalogued under <em>“Osekovo, Belovár-Körös Megye, Hungary”</em>.",
     f: "Correcting (a) and (b) in the MyHeritage tree at source. (c) is FamilySearch's error, not the tree's — but it should be noted wherever the citation is reused." },
@@ -85,9 +93,9 @@ const cls = { critical: "warn", high: "", medium: "", data: "dim" };
         : q.w === "critical" ? "Critical — the spine depends on it"
         : q.w === "data" ? "Data quality" : q.w === "high" ? "Substantive" : "Worth doing"}</div>
       <h2><span class="mono dim">{q.n}.</span> {q.t}</h2>
-      <p set:html={q.b.replace(/href='\//g, `href='${u("/")}`)} />
+      <p set:html={base(q.b)} />
       <div class="note"><strong>What would settle it: </strong>
-        <span set:html={q.f} /></div>
+        <span set:html={base(q.f)} /></div>
     </section>
   ))}
 
