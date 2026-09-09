@@ -14,6 +14,7 @@ const KIND = {
   "married-after-death": "Married after dying",
   "married-as-child": "Married as a child",
   "implausible-age": "Lived past a hundred and five",
+  "impossible-generation-gap": "Two generations in too few years",
 };
 const bySev = (n) => C.filter((i) => i.sev === n);
 const counts = [1, 2, 3].map((n) => [n, bySev(n).length]);
@@ -112,6 +113,38 @@ const kindCounts = Object.entries(
       </table>
     </section>
   ))}
+
+  <section class="blk">
+    <div class="lab">The case the first version missed</div>
+    <h2>Two years is not enough for two generations</h2>
+    <p class="lede">The checks above compare a parent's dates with a child's — which needs
+    <em>both</em> to exist. Where the generation in between is undated, a contradiction falls
+    straight through. Reading the <a href={u("/papic")}>Karlobag registers</a> turned up exactly
+    that, on the direct line.</p>
+    <table class="kv">
+      <tbody>
+        <tr><th>Ahnentafel 214</th><td><a href={u("/people/caetano-bacchi")}><strong>Caetano
+          Bacchi</strong></a>, born <span class="mono">“12 January 1779 (Maybe)”</span> — the
+          hedge is the tree's own</td></tr>
+        <tr><th>His daughter</th><td><a href={u("/people/oliva-andreana-bacchi")}>Oliva Andreana
+          Bacchi</a> — died 15 September 1795, <strong>no birth date at all</strong></td></tr>
+        <tr><th>Her daughter</th><td><a href={u("/people/oliva-maria-smojver")}>Oliva Maria
+          Smojver</a>, born <strong>11 March 1781</strong> — confirmed in the register</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">A man born in 1779 cannot be grandfather to a girl born in 1781.
+    And Oliva Andreana died in 1795, so she was born well before 1781 herself — her father belongs
+    somewhere around <strong>1730–1745</strong>. The 1779 baptism is real; it simply records a
+    different Caetano Bacchi.</p>
+    <p><strong>It takes two more ancestors with it.</strong> <a href={u("/people/angelo-bacchi")}>Angelo
+    Bacchi</a> (ahn 428) and <a href={u("/people/catharina")}>Catharina</a> (ahn 429) are in this
+    pedigree <em>only</em> because that entry names them as the child's parents. If the baptism is
+    not his, they are not his parents — and Catharina is one of the
+    <a href={u("/name")}>seven women here with no surname</a>, so nothing else anchors her.</p>
+    <p class="dek">The tool now also walks <strong>grandparent → undated child → grandchild</strong>
+    and requires at least twenty-four years across two generations. In this archive it fires
+    exactly once.</p>
+  </section>
 
   <section class="blk">
     <h2>And it caught three people who are not people</h2>

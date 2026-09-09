@@ -146,6 +146,47 @@ for fid, f in families.items():
                         f"born {pb['date']}, {display(people[cid])} born {cby}"
                         f" — age {cby - pby}")
 
+# Chains. The pairwise checks need both dates to exist, so a grandparent born
+# after a grandchild slips through whenever the generation between them is
+# undated - which is exactly how Caetano Bacchi (b. 1779) came to be the
+# grandfather of a girl born in 1781.
+#
+# Only that case is reported. Walking descendants freely produces dozens of
+# rows per bad join, because one wrong link propagates down every branch below
+# it; those are consequences, not findings, and listing them buries the cause.
+kids = collections.defaultdict(list)
+for fid, f in families.items():
+    for role in ("husb", "wife"):
+        if f.get(role):
+            for c in f.get("chil") or []:
+                kids[f[role]].append(c)
+
+flagged = {i["id"] for i in issues}
+
+for pid in list(people):
+    if not relevant(pid) or pid in flagged:
+        continue
+    ay, _ = ym(born(people[pid]).get("date"))
+    if not ay:
+        continue
+    for mid in kids.get(pid, []):                      # the child
+        if mid not in people or JUNK.search(display(people[mid]) or ""):
+            continue
+        if ym(born(people[mid]).get("date"))[0]:
+            continue                                   # dated: pairwise saw it
+        for gid in kids.get(mid, []):                  # the grandchild
+            if gid not in people or JUNK.search(display(people[gid]) or ""):
+                continue
+            gy, _ = ym(born(people[gid]).get("date"))
+            # two generations need roughly two puberties between them; 24 years
+            # is already generous, and anything under it cannot stand.
+            if gy and gy - ay < 24:
+                add("impossible-generation-gap", 1, pid,
+                    f"born {born(people[pid])['date']}, but through undated "
+                    f"{display(people[mid])} the grandchild "
+                    f"{display(people[gid])} is born {gy}"
+                    f" — {gy - ay} years for two generations")
+
 order = {1: "IMPOSSIBLE", 2: "very doubtful", 3: "worth a look"}
 issues.sort(key=lambda i: (i["sev"], i["kind"], i["name"]))
 seen = set()

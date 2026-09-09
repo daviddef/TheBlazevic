@@ -175,7 +175,7 @@
   "kind": "confirmed",
   "what": "Baptism, and her father's occupation",
   "tree": "Born 1838, Karlobag",
-  "record": "Baptised 10 September 1838, Karlobag — confirmed",
+  "record": "Baptised 18 September 1838, Karlobag — confirmed",
   "why": "Cammeralis nautae Vincentii Pilipich et Matthiae Uroda conjugum hujus Civitatis. The register names both parents and gives her father as nauta cameralis — a sailor of the Imperial Chamber, the Habsburg treasury's maritime service. The tree renders this as 'finansijski nadmornar. profesional financial arigilia nanta', which is a mangling of the same phrase.",
   "href": "/papic"
  },
@@ -187,5 +187,41 @@
   "record": "Senj — the stone reads BLAŽEVIĆ TEREZA ✻1867 †1931",
   "why": "A photograph of the grave at Senj confirms both years the tree carries and supplies the burial place it leaves blank. The plot was restored by the Kosina family in 1991 — her daughter Anka's married family — and carries a wooden cross for vlč. Antun Kosina, 1921–2003.",
   "href": "/grave"
+ },
+ {
+  "id": "@I3443@",
+  "kind": "disputed",
+  "what": "This baptism is not his",
+  "tree": "Born 12 January 1779 — the tree's own note adds “(Maybe)”",
+  "record": "A real Karlobag baptism of that date, but of a different man",
+  "why": "The Karlobag register of 12 January 1779 does record a Caetanus Antonius Bacchi, son of Angelo and Catharina, with a Captain as godfather and the wife of Dominus Georgius Uroda as godmother. But ahn 214's daughter Oliva Andreana died in 1795 and her daughter Oliva Maria Smojver was born 11 March 1781 — two years after this baptism. Two years cannot hold two generations. The right Caetano Bacchi belongs around 1730–1745, and this entry belongs to someone else of the name.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I504620@",
+  "kind": "disputed",
+  "what": "Attached on a baptism that is not his son's",
+  "tree": "Father of Caetano Bacchi",
+  "record": "Named only in the 1779 entry, which cannot be ahn 214's",
+  "why": "Angelo and Catharina are in this pedigree solely because the 1779 Karlobag baptism names them as the child's parents. If that baptism belongs to a different Caetano Bacchi, they are that man's parents and not this line's. Nothing else anchors them — Catharina is one of the seven women here with no surname at all.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I1049@",
+  "kind": "confirmed",
+  "what": "Birth",
+  "tree": "March 1781, Karlobag",
+  "record": "Born 11 March 1781 — confirmed",
+  "why": "Ego Joës Antonius Ivankovich Parochus Loci baptizavi Infantem de 11ma hujus natam ex Vincentio, et Oliva Smoyver, vulgo Vukich, Conjugibus hujus Civitatis, cui impositum est nomen Oliva Maria. The alias Smojver vulgo Vukić is the register's own, and Karlobag is entered as a civitas — a city, not a village.",
+  "href": "/papic"
+ },
+ {
+  "id": "@I1050@",
+  "kind": "confirmed",
+  "what": "Baptism",
+  "tree": "11 March 1768, Karlobag",
+  "record": "Baptised 11 March 1768, born 10 March — confirmed",
+  "why": "Josephum filium pridie natum a Domino Jacobo et Catharina Pilepich conjugibus hujus loci — pridie, the day before, so born 10 March. The family carries the honorific Dominus. Godparents Dominus Franciscus de Justiniani, a Venetian patrician name, and Domina Ursula, widow of Dominus Joannes Krixich.",
+  "href": "/papic"
  }
 ]
