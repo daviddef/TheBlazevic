@@ -34,5 +34,50 @@
   "record": "Documented: Senj marriages, 8 December 1920, page 366 entry 41",
   "why": "The marriage entry names the groom's parents as Juraj Blažević and Tereza r. Žubrinić, and annotates them mrt. — deceased — which puts Juraj's death before December 1920. He remains undated and unplaced, and nothing yet links him to Toma above.",
   "href": "/marriage-1920"
+ },
+ {
+  "id": "@I504616@",
+  "kind": "confirmed",
+  "what": "Birth date",
+  "tree": "14 March 1806",
+  "record": "14 March 1806 — confirmed",
+  "why": "The Vrbnik baptisms for 1806, house 244, read: Die 14. Martii Ao 1806 baptizavi ego Michaël Kombol C.L. infantem lege natum patre Joanne, Matre Marthæ Antich Papa, nomine Josephum. The tree's date is exact. The entry also names his father Joannes (ahnentafel 48) and his mother Martha, and gives the godparents as the village judge Mathias Jellichich and his wife Margarita.",
+  "href": "/name"
+ },
+ {
+  "id": "@I504616@",
+  "kind": "note",
+  "what": "The name Josephum",
+  "tree": "Josephum",
+  "record": "Josephus — and the priest wrote the accusative himself",
+  "why": "The register reads nomine Josephum. That is the priest's own Latin, not a modern transcriber's slip: Michaël Kombol writes nomine followed by the accusative in every entry on the page — Mariam, Joannem, Matthæam, Magdalenam, Nicolaum. The tree copied the register faithfully and inherited its grammar.",
+  "href": "/name"
+ },
+ {
+  "id": "@I1052@",
+  "kind": "corrected",
+  "what": "Surname",
+  "tree": "Gerkacs (Gergacs)",
+  "record": "Gergacs",
+  "why": "The Karlobag register for August 1789 reads Mariam natam pridie ex Michaele et Lucia Gergacs. The register's spelling is Gergacs; Gerkacs is the secondary form and the tree carries it first. The entry also gives her mother as Lucia — written over a struck-out name — and her father as Michael.",
+  "href": "/name"
+ },
+ {
+  "id": "@I1052@",
+  "kind": "note",
+  "what": "Birth date",
+  "tree": "11 August 1789",
+  "record": "August 1789, born the day before baptism — consistent",
+  "why": "The entry says natam pridie, born the previous day, and sits in the August 1789 sequence after the entry of 9 August. That is consistent with 11 August but the scan does not itself carry a day number; the exact day comes from the index, not the page.",
+  "href": "/name"
+ },
+ {
+  "id": "@I1051@",
+  "kind": "note",
+  "what": "Baptism entry",
+  "tree": "Born 22 April 1777, Karlobag",
+  "record": "April 1777, Karlobag, born the day before — consistent",
+  "why": "The Karlobag register reads: baptizavi Infantem heri natum ex Georgio et Maria Uroda Conjugibus hujus Loci, cui impositum est Nomen Joannis Georgij. It confirms the year, the place and both parents, and shows he was born the day before the baptism — but the page carries no day number, so 22 April comes from the index rather than the register. The godparents are Pro-Colonel Joannes Hallinich de Zirfeld and the wife of Captain Daniel de Hofenegg: Military Frontier officers standing for a Karlobag child.",
+  "href": "/frontier"
  }
 ]
