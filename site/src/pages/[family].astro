@@ -1,0 +1,57 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import families from "../data/families.json";
+import { people, lifespan, surnameGroup } from "../lib/people.js";
+import { COPY } from "../lib/familyCopy.js";
+
+export function getStaticPaths() {
+  return Object.keys(COPY).map((slug) => ({ params: { family: slug } }));
+}
+const { family } = Astro.params;
+const meta = families.find((f) => f.slug === family);
+const copy = COPY[family];
+const keys = { blazevic: ["blazevic"], zubrinic: ["zubrinic"], papic: ["papic"],
+               prpic: ["prpic", "perpic"] }[family];
+const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
+  .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
+---
+<Base title={meta.label} eyebrow={copy.eyebrow} dek={copy.dek}>
+  <section class="blk">
+    <div class="grid three">
+      <div class="stat"><div class="n">{meta.count}</div><div class="l">published people</div></div>
+      <div class="stat"><div class="n">{meta.earliest ?? "?"}</div><div class="l">earliest birth year</div></div>
+      <div class="stat"><div class="n">{meta.spellings.length}</div><div class="l">distinct spellings in the tree</div></div>
+    </div>
+  </section>
+
+  {copy.body.map(([h, html]) => (
+    <section class="blk">
+      <h2>{h}</h2>
+      <p set:html={html.replace(/href='\//g, `href='${u("/")}`.replace("//", "/"))} />
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>Where they were born</h2>
+    <ul class="cols">{meta.places.map(([pl, n]) => (
+      <li><span class="mono dim">{n}</span> {pl}</li>))}</ul>
+  </section>
+
+  <section class="blk">
+    <h2>How the tree spells it</h2>
+    <ul class="cols">{meta.spellings.map(([w, n]) => (
+      <li><span class="mono">{w}</span> <span class="dim">× {n}</span></li>))}</ul>
+  </section>
+
+  <section class="blk">
+    <h2>Everyone of the name</h2>
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Lived</th><th>Born at</th></tr></thead>
+      <tbody>{rows.map((p) => (
+        <tr><td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
+          <span class="tag">ancestor</span>}</td>
+          <td class="mono">{lifespan(p)}</td><td class="dim">{p.bornPlace || ""}</td></tr>))}</tbody>
+    </table>
+  </section>
+</Base>

@@ -1,0 +1,94 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="Method"
+  eyebrow="How to read anything on this site"
+  dek="Every claim here carries a confidence. The point of saying so is that a reader can disagree with the reasoning instead of having to take the conclusion on trust.">
+
+  <section class="blk">
+    <h2>The five labels</h2>
+    <table class="kv">
+      <tr><th>Documented</th><td>A named source with a reference, and where possible the scan. The
+        strongest things in this archive are the <strong>FamilySearch citations into the Croatian
+        parish registers</strong> — Senj, Krivi Put, Otočac, Karlobag — which give an image group,
+        a page and a date.</td></tr>
+      <tr><th>Inferred</th><td>A reasoned conclusion from documented facts, with the reasoning
+        written out so it can be overturned. That the family is <a href={u("/bunjevci")}>Bunjevac</a>
+        is an inference from place and surname, not a statement in any record.</td></tr>
+      <tr><th>Superseded</th><td>Asserted in the family record, and now displaced by a document that
+        says otherwise.</td></tr>
+      <tr><th>Disputed</th><td>Asserted in the family record but unsupported, or contradicted, by
+        what can be seen — like the <a href={u("/direct-line")}>join at generation three</a>.</td></tr>
+      <tr><th>Family lore</th><td>Told, remembered, not corroborated. Kept because it is precious;
+        labelled because pretending otherwise is how family myths become family history. Both
+        accounts of <a href={u("/oto")}>Oto's death</a> sit here.</td></tr>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The rule that governs the whole build</div>
+    <h2>Living people are not here</h2>
+    <p class="lede">They are not hidden, not gated, not present in the output. The rule is applied
+    once, in <code class="mono">classify_living()</code>, at the boundary between the research data
+    and the published site.</p>
+    <p>Because thousands of people in a tree this size carry no dates at all, judging each by their
+    own record alone marks every one of them living — safe, but useless. So the build computes an
+    <strong>upper bound on each person's birth year</strong> from their own events, their children's
+    births, their marriages and their parents' bounds, and publishes somebody only when
+    <em>even the latest year they could have been born</em> is more than a century ago.</p>
+    <ul class="plain">
+      <li>a recorded birth or christening → born in that year, exactly</li>
+      <li>any recorded event in year E → born no later than E</li>
+      <li>a child born in year C → born no later than C − 14</li>
+      <li>a marriage in year M → born no later than M − 14</li>
+      <li>a parent whose bound is P → born no later than P + 60</li>
+    </ul>
+    <p style="margin-top:1rem">Every step is a real bound, never a guess, and a recorded birth is
+    never overridden by inference. On the current export that judges
+    <strong>2,034 of 15,643</strong> people living. A living spouse, parent or child is not named on
+    anybody else's page either. <strong>A removal request is honoured within days, without argument
+    and without requiring a reason.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>An online family tree is a witness, not a source</h2>
+    <p>The spine here is a MyHeritage tree of <strong>15,643 people</strong>. Most “sources” attached
+    to people in it are <em>other trees</em> — <em>Geni World Family Tree</em>,
+    <em>Boras Web Site</em>, <em>Grlica Web Site</em>, <em>Janicic</em>,
+    <em>Marko Karic rodoslov</em>. When four trees agree, that is four witnesses who may all have
+    copied one another; it is not four documents.</p>
+    <p style="margin-top:1rem">So the register page marks only whether a person carries
+    <em>any</em> source string at all, and every person page prints the strings verbatim so a reader
+    can see what kind of thing is being relied on. Where a citation points at a
+    <strong>parish register image</strong>, that is the one worth going to.
+    <a href={u("/sources")}>Sources →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>Two things this archive does to the data, and admits to</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>It folds spellings</h3>
+        <p>Žubrinić, Zubrinic, Zubrinich, Xubrinich and Xubrinić are counted as
+        <strong>one name</strong>; so are Prpić and Perpić. Without that, the family fragments into
+        eight small families that appear unrelated. The folding is done in one function so it can be
+        inspected and argued with. <a href={u("/name")}>Why the spellings differ →</a></p>
+      </div>
+      <div class="card">
+        <h3>It drops the working scaffolding</h3>
+        <p>The tree contains sorting stubs — <em>“Senj – Unknown To be Sorted Papić”</em>,
+        <em>“Brothers [of Stephanus] Žubrinić”</em>, <em>“NN Blažević”</em>. These are research
+        notes, not people, and publishing them as ancestors would be a lie. They are filtered by
+        name pattern at the build boundary.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What is not committed</h2>
+    <p class="note">The raw GEDCOM is <strong>not published</strong> — it contains every living
+    person in full. It is kept out of any public copy of this repository and regenerated from a
+    fresh MyHeritage export when needed.</p>
+  </section>
+</Base>

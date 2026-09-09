@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { people } from "../lib/people.js";
+const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|Solomontown|Port Germein/i
+  .test(`${p.bornPlace} ${p.diedPlace}`)).sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
+---
+<Base title="Port Pirie"
+  eyebrow="The Australian Žubrinići, from about 1884"
+  dek="One man left Senj for a lead-smelting town on the far side of the world, and his name changed on arrival. Twenty of his descendants are in this tree, and every one of them is a Zubrinich.">
+
+  <section class="blk">
+    <p class="lede">The first of them is
+    <a href={u("/people/joannes-juan-ivan-ive-john-zubrinic")}><strong>Joannes / Juan / Ivan / Ive /
+    John Žubrinić</strong></a> — a man carried in this tree under
+    <strong>five versions of one given name</strong> — <strong>born 1860</strong> and
+    <strong>died 1930 at Port Pirie, South Australia</strong>. His eldest recorded child is born
+    there in <strong>1885</strong>, which puts his arrival at about <strong>1884</strong>.</p>
+    <p>From that child onward the surname in the register is <strong>Zubrinich</strong>. Not once
+    does it revert. <a href={u("/name")}>The names →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>Why Port Pirie</h2>
+    <p>Port Pirie is not a random landfall. Smelting began there in <strong>1889</strong>, and it
+    grew into one of the largest <strong>lead smelters in the world</strong> — heavy, dangerous,
+    continuous work that paid, and that hired men without English. Croatians began arriving in South
+    Australia from the Dalmatian islands in the <strong>1890s</strong>, and many of them went to
+    <strong>Port Pirie and Broken Hill</strong>. Further groups came with the economic depression in
+    Dalmatia and Međimurje between <strong>1910 and 1913</strong>, and again after the political
+    unrest of <strong>1922</strong>.</p>
+    <p style="margin-top:1rem">The family's later moves confirm the pattern exactly: this tree
+    records Zubrinich deaths at <strong>Broken Hill</strong> and <strong>Whyalla</strong> — the
+    silver-lead mine and the steelworks. They followed the metal.</p>
+    <div class="note"><strong>An anomaly worth flagging.</strong> Ivan's birthplace is entered as
+    <em class="mono">“Senj, Split-Dalmatia, Croatia”</em>. Senj is in <strong>Lika-Senj</strong>
+    county, not Split-Dalmatia; this is an automated place-match error, and it matters because it is
+    the kind of thing that later gets read as evidence of Dalmatian origin.
+    <a href={u("/open-questions")}>Open questions →</a></div>
+  </section>
+
+  <section class="blk">
+    <h2>The Australian records in this tree</h2>
+    <p class="dek">{au.length} people with an Australian birth or death place. The infant deaths —
+    Robert Emmett in 1888, Susannah in 1889, Stanley in 1897 — are the ordinary arithmetic of a
+    smelter town.</p>
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Lived</th><th>Born</th><th>Died</th></tr></thead>
+      <tbody>{au.map((p) => (
+        <tr><td><a href={u(`/people/${p.slug}`)}>{p.name}</a></td>
+          <td class="mono">{p.byear || "?"}–{p.dyear || "?"}</td>
+          <td class="dim">{p.bornPlace}</td><td class="dim">{p.diedPlace}</td></tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>How this branch joins the family</h2>
+    <p class="note"><strong>Not yet proved.</strong> Ivan Žubrinić of Port Pirie is
+    <em>in the tree</em>, and he is of the right name, the right town and the right generation to be
+    close kin of <a href={u("/people/tereza-zubrinic-zubrinic")}>Tereza Žubrinić</a> (1867–1931),
+    Hedviga's grandmother. But the document that joins them — a shared father in the
+    <strong>Otočac</strong> or <strong>Senj</strong> baptismal register — has not been produced
+    here. Given how rare the name is (<a href={u("/name")}>about 312 bearers on earth</a>), the
+    relationship is very likely. “Very likely” is not “shown”.</p>
+  </section>
+</Base>

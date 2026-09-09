@@ -1,0 +1,118 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import line from "../data/line.json";
+import families from "../data/families.json";
+import register from "../data/people.json";
+import ancestors from "../data/ancestors.json";
+
+const blazevic = families.find((f) => f.slug === "blazevic");
+const zubrinic = families.find((f) => f.slug === "zubrinic");
+---
+<Base title="The Blažević Archive" bare
+  dek="An evidence-first archive for the family of Hedviga Blažević of Senj.">
+
+  <section class="blk" style="padding-top:3.2rem">
+    <div class="lab">Senj · Smokvica Krmpotska · Otočac · Krivi Put · Selce · Karlobag</div>
+    <h1 style="font-size:clamp(36px,5.6vw,62px);line-height:1.04;margin:.6rem 0 0">
+      One woman, four families, and the mountain they were planted on.</h1>
+    <p class="sub dek" style="font-size:clamp(1.05rem,2vw,1.28rem);margin-top:1.1rem;max-width:64ch">
+      An evidence-first archive for <strong>Hedviga “Seka” Blažević</strong> — born at Senj in 1926,
+      dead at Johannesburg in 2001 — and for the Blaževići, Žubrinići, Papići and Prpići who made
+      her.
+    </p>
+  </section>
+
+  <section class="blk">
+    <p class="lede">This archive begins with one woman — <strong>Hedviga “Seka” Blažević</strong>,
+    born at <strong>Senj on 3 August 1926</strong>, married to Ivan Anton Defranceski, and dead at
+    <strong>Johannesburg on 30 October 2001</strong> — and works outward into the four families that
+    made her: the <strong>Blaževići</strong> of Smokvica Krmpotska, the <strong>Žubrinići</strong> of
+    Otočac, the <strong>Papići</strong> of Senj and Selce, and the <strong>Prpići</strong> of Krivi
+    Put.</p>
+    <p>It reaches <strong>nine generations</strong> and <strong>{ancestors.length} named
+    ancestors</strong>, the earliest born about <strong>1717</strong>. Everything here is either
+    sourced, reasoned in the open, or labelled as something the family says and the record does not
+    yet confirm.</p>
+    <p class="cta">
+      <a class="btn" href={u("/hedviga")}>Start with Hedviga</a>
+      <a class="btn ghost" href={u("/direct-line")}>The spine, nine generations</a>
+      <a class="btn ghost" href={u("/open-questions")}>What is still unproven</a>
+    </p>
+  </section>
+
+  <section class="blk">
+    <h2>What this archive says</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>They are Bunjevci, and that is not a small detail</h3>
+        <p>Smokvica Krmpotska and Krivi Put were not old Croatian villages. They were
+        <strong>founded</strong> — settled between about <strong>1605 and 1647</strong> by
+        <strong>Bunjevci Krmpoćani</strong> who fled the Ottoman advance from Krmpote near Zemunik
+        in Dalmatia and were planted in the Senj mountain by the Military Frontier. Two of
+        Hedviga's four grandparental lines come out of those settlements.
+        <a href={u("/bunjevci")}>The settlement →</a></p>
+      </div>
+      <div class="card">
+        <h3>A railway that went somewhere else</h3>
+        <p>In <strong>1873</strong> the Karlovac–Rijeka railway <strong>bypassed Senj</strong>, and
+        the port that had made the town died with it. The occupations in this family are the
+        aftermath: <em>nadničar</em> — day labourer; <em>trhonoša</em> and <em>bremenar</em> —
+        load-carrier and porter; <em>mornar</em> — sailor. Then the tobacco factory, then the boats
+        out. <a href={u("/senj")}>Senj →</a></p>
+      </div>
+      <div class="card">
+        <h3>One name, three spellings, three countries</h3>
+        <p><strong>Žubrinić</strong> in Otočac. <strong>Xubrinich</strong> in the Venetian-era
+        registers, where <em>X</em> wrote the sound <em>Ž</em>. <strong>Zubrinich</strong> at Port
+        Pirie in South Australia, where <a href={u("/port-pirie")}>Ivan Žubrinić landed about 1884</a>
+        and every one of his children was registered under the anglicised form. The name changed at
+        the border and never changed back. <a href={u("/name")}>The names →</a></p>
+      </div>
+      <div class="card">
+        <h3>A brother with two deaths and no grave</h3>
+        <p><strong>Oto Blažević</strong> (1923–1945), Hedviga's brother, died at twenty-two. The
+        family carries <strong>two irreconcilable accounts</strong> of how — a snakebite, and the
+        war in Slavonia. Both are recorded here, neither is resolved, and his name is cut into his
+        grandparents' stone because there is no grave of his own.
+        <a href={u("/oto")}>The brother →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The spine</h2>
+    <p class="dek">Eight generations of Blažević men, from Hedviga back to a boy born about 1750 in
+    a village that had existed for barely a century.</p>
+    <ol class="spine">
+      {line.map((p) => (
+        <li>
+          <span class="g">g{p.gen}</span>
+          <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+          <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
+          <span class="pl">{p.bornPlace || p.diedPlace || ""}</span>
+        </li>
+      ))}
+    </ol>
+    <p class="note"><strong>The join at generation three is the weak one.</strong>
+    <strong>Juraj Blažević</strong> carries <em>no birth date, no death date and no document</em> —
+    only a note in the tree reading “Potentially him? 1861?”. Everything above him rests on that
+    join. <a href={u("/open-questions")}>See the open questions →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>By the numbers</h2>
+    <div class="grid three">
+      <div class="stat"><div class="n">{register.length.toLocaleString()}</div><div class="l">people carrying one of the
+        eight surnames, published</div></div>
+      <div class="stat"><div class="n">{ancestors.length}</div><div class="l">named ancestors of Hedviga, across nine generations</div></div>
+      <div class="stat"><div class="n">{blazevic.earliest}</div><div class="l">earliest Blažević birth year in the
+        tree</div></div>
+      <div class="stat"><div class="n">{zubrinic.count}</div><div class="l">Žubrinići — of a surname held by about
+        <strong>312 people on earth</strong></div></div>
+      <div class="stat"><div class="n">35</div><div class="l">people born at one address: <em>Krivi Put 136</em></div></div>
+      <div class="stat"><div class="n">2,034</div><div class="l">people judged living and withheld from this build
+        entirely</div></div>
+    </div>
+  </section>
+</Base>

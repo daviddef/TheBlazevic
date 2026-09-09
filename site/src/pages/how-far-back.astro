@@ -1,0 +1,62 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import ancestors from "../data/ancestors.json";
+const dated = ancestors.filter((a) => a.byear).sort((a, b) => a.byear - b.byear);
+const oldest = dated.slice(0, 8);
+const byGen = {};
+for (const a of ancestors) (byGen[a.gen] ||= []).push(a);
+const gens = Object.keys(byGen).map(Number).sort((a, b) => a - b);
+---
+<Base title="How Far Back"
+  eyebrow="Nine generations, and then silence"
+  dek="The honest answer is: to about 1717, in four parishes, and no further — and the reason it stops is not that the records stop."
+>
+  <section class="blk">
+    <p class="lede">This archive reaches <strong>{gens[gens.length - 1]} generations</strong> above
+    Hedviga and names <strong>{ancestors.length} ancestors</strong>. The earliest with a recorded
+    birth year is <strong>{oldest[0].name}, {oldest[0].byear}</strong>.</p>
+    <table class="reg" style="margin-top:1.2rem">
+      <thead><tr><th>Generation</th><th>Slots possible</th><th>Named here</th><th>Filled</th></tr></thead>
+      <tbody>{gens.map((g) => {
+        const poss = Math.pow(2, g - 1), have = byGen[g].length;
+        return (<tr><td>{g}</td><td class="mono">{poss}</td><td class="mono">{have}</td>
+          <td class="mono">{Math.round((have / poss) * 100)}%</td></tr>);
+      })}</tbody>
+    </table>
+    <p class="note" style="margin-top:1.2rem">The fall-off is the real story. Generations 1 to 4 are
+    nearly complete. By generation 7 the tree is naming a small fraction of the people who must have
+    existed, and by generation 9 it holds four. <strong>That is normal</strong>, and it is a
+    statement about who did the research, not about who the ancestors were.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The oldest named people</h2>
+    <ul class="cols">{oldest.map((p) => (
+      <li><span class="mono dim">{p.byear}</span>
+        <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+        <span class="dim">{p.bornPlace ? ` — ${p.bornPlace}` : ""}</span></li>))}</ul>
+    <p style="margin-top:1.2rem">Notice where they are. The deepest reach is <strong>not</strong>
+    on the Blažević line — it is through <a href={u("/people/matia-matthea-pilipic")}>Matija
+    Pilipić</a>'s people at <strong>Karlobag</strong> and the Antić–Jelličić line at
+    <strong>Selce</strong>. Somebody read those registers properly. Nobody has yet done the same for
+    Smokvica Krmpotska.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Why it stops where it stops</div>
+    <h2>The records go further than the research does</h2>
+    <p>The Croatian Roman Catholic parish registers digitised as
+    <strong>“Croatia, Church Books, 1516–1994”</strong> begin, for some parishes, in the
+    <strong>sixteenth century</strong>. The Senj births volume cited repeatedly in this tree covers
+    <strong>1756–1858</strong> — and the family's use of it stops around 1838.</p>
+    <p style="margin-top:1rem">So the wall at 1717 is not an archival wall. It is where the reading
+    stopped. Going further needs someone who can work in <strong>Latin parish hands</strong>, who
+    knows that <strong>X spells Ž</strong> in the older entries, and who is willing to
+    <a href={u("/name")}>search a name five ways</a>.</p>
+    <div class="note"><strong>One structural caution.</strong> Before civil registration, a parish
+    register is the <em>only</em> record — and a fire, a war or a damp cellar ends a line absolutely.
+    The Military Frontier was fought over repeatedly. Some of these lines will not be extendable at
+    any price, and it is better to know that than to keep guessing.</div>
+  </section>
+</Base>

@@ -1,0 +1,68 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+const Q = [
+  { n: 1, w: "critical", t: "Who was Juraj Blažević's father?",
+    b: "The whole spine above generation three hangs on <a href='/people/juraj-georgius-jure-blazevic'>Juraj Blažević</a>, who has <strong>no birth date, no death date and no document</strong> — only the tree's own note, <em>“Potentially him? 1861?”</em>. Generations 4 to 8 are attached to him on faith.",
+    f: "The Senj or Krmpote <strong>marriage register</strong> for Juraj Blažević and Tereza Žubrinić, which would name his father; and <a href='/people/ljubomir-blazevic'>Ljubomir's birth entry at Rijeka, 1 March 1892</a>, which would name both parents outright." },
+  { n: 2, w: "critical", t: "How did Oto Blažević die?",
+    b: "Two accounts in the same note, from two named relatives: <strong>a snakebite</strong>, and <strong>killed in the war in Slavonia with no known grave</strong>. The tree's own death place, Senj, agrees with neither cleanly. <a href='/oto'>The full page →</a>",
+    f: "A search of the <strong>Yugoslav war victims register</strong> (<em>Popis žrtava rata</em>) and Croatian State Archives military death records for <strong>Oto Blažević, b. 1923, Senj</strong>. An entry — or a confirmed absence — settles it." },
+  { n: 3, w: "high", t: "When did Santou Codron leave Rhodes?",
+    b: "Born on Rhodes in <strong>1913</strong>; alive in South Africa to marry Hedviga about <strong>1973</strong>. The island's Jewish community was deported on 23 July 1944 and roughly 150 of 1,615 survived. Whether he left before the war — as ~2,000 Rhodes Jews did, for the Congo and Rhodesia — or survived the deportation is <strong>not known here</strong>, and the difference is enormous. <a href='/rhodes'>The full page →</a>",
+    f: "South African <strong>immigration and naturalisation papers</strong> giving arrival year and last residence; the <strong>Rhodes Jewish Museum</strong> community registers and <strong>Yad Vashem</strong> deportation lists, searched for Codron." },
+  { n: 4, w: "high", t: "Is the Port Pirie branch the same Žubrinić family?",
+    b: "<a href='/people/joannes-juan-ivan-ive-john-zubrinic'>Ivan Žubrinić</a> (1860–1930) left Senj for South Australia about 1884; his descendants are Zubrinich to this day. He is the right name, town and generation to be close kin of <a href='/people/tereza-zubrinic-zubrinic'>Tereza</a> (b. 1867) — and the name is held by only about 312 people on earth. But no document joins them. <a href='/port-pirie'>The full page →</a>",
+    f: "The <strong>Otočac and Senj baptismal registers</strong> around 1860–1867, looking for a shared father. South Australian arrival records for the 1880s." },
+  { n: 5, w: "high", t: "Are Antić and Papić one family or two?",
+    b: "The Selce ancestor is entered as <a href='/people/georgius-juraj-joannis-papa-antic-papic'>“Georgius Juraj (Joannis) <em>Papa</em> ‘Jure’ <strong>Antić Papić</strong>”</a>, carrying two surnames at once; his father and grandfather are plain <strong>Antić</strong>. Seventy-nine people in the tree are written <em>Papić (Papa)</em>, and one record hedges as <em>“Papić or Perpic”</em>. Either a family changed its name, or two families have been merged." ,
+    f: "The <strong>Selce parish registers</strong> across 1765–1838, reading the surname as the priest wrote it in each generation." },
+  { n: 6, w: "medium", t: "Why is Antonija Prpić buried at Mirogoj?",
+    b: "She was born at <strong>Krivi Put 136</strong> in 1859 and died at <strong>Senj</strong> in 1935 — but is buried at <strong>Mirogoj in Zagreb</strong>, 200 km away. Nothing in the record explains it. A child living in Zagreb is the obvious guess and it is only a guess.",
+    f: "The <strong>Mirogoj burial register</strong>, which gives the grave, the date and who paid for it." },
+  { n: 7, w: "medium", t: "Two deaths on 30 October, six years apart",
+    b: "Ivan Anton Defranceski died at Senj on <strong>30 October 1995</strong>; Hedviga died at Johannesburg on <strong>30 October 2001</strong>. Both dates come from the tree, not from certificates seen here. A shared date is exactly what memory tidies into place.",
+    f: "Both <strong>death certificates</strong> — Croatian civil registration for Senj 1995, South African for Johannesburg 2001." },
+  { n: 8, w: "medium", t: "What was the Senj tobacco factory?",
+    b: "Two women of this family worked there — <a href='/people/milka-lucia-papic'>Milka</a> as a supervisor, <strong>Anka Blažević</strong> (1893–1953) on the floor. The tree gives the building's address and says it is now a textile factory. Its founding date, size and closure are unconfirmed here; the machinery is said to have gone to <strong>Rovinj</strong> after the Second World War.",
+    f: "The <strong>Senj town museum</strong> and Croatian industrial-history literature on the state tobacco monopoly after the patent of 20 November 1850." },
+  { n: 9, w: "data", t: "Three place errors that will mislead someone",
+    b: "<strong>(a)</strong> Juraj Blažević's birthplace is geocoded to <em>Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija</em> — that is <strong>Smokvica on Korčula</strong>, 400 km south. The village meant is <strong>Smokvica Krmpotska</strong> near Novi Vinodolski. <strong>(b)</strong> Ivan Žubrinić of Port Pirie is given <em>“Senj, Split-Dalmatia”</em>; Senj is in <strong>Lika-Senj</strong>. <strong>(c)</strong> A FamilySearch citation for Nicolaus Žubrinić's Otočac christening is catalogued under <em>“Osekovo, Belovár-Körös Megye, Hungary”</em>.",
+    f: "Correcting (a) and (b) in the MyHeritage tree at source. (c) is FamilySearch's error, not the tree's — but it should be noted wherever the citation is reused." },
+  { n: 10, w: "data", t: "The photographs are not in the export",
+    b: "Hedviga's MyHeritage profile carries <strong>six photographs</strong>. The GEDCOM export contains <strong>no media records at all</strong>, so none of them are in this archive.",
+    f: "Downloading the media from the MyHeritage profiles directly, with dates and captions, and storing them alongside the data." },
+];
+const cls = { critical: "warn", high: "", medium: "", data: "dim" };
+---
+<Base title="Open Questions"
+  eyebrow={`${Q.length} things this archive cannot yet answer`}
+  dek="Written down so they can be worked on, and so no reader mistakes a gap for a fact. Each one says what would actually close it."
+>
+  <section class="blk">
+    <p class="lede">The most valuable thing anyone can send this archive is a
+    <strong>correction</strong>. The second most valuable is a document that closes one of
+    these.</p>
+  </section>
+
+  {Q.map((q) => (
+    <section class="blk qa">
+      <div class="lab">{q.w === "critical" ? "Critical — the spine depends on it"
+        : q.w === "data" ? "Data quality" : q.w === "high" ? "Substantive" : "Worth doing"}</div>
+      <h2><span class="mono dim">{q.n}.</span> {q.t}</h2>
+      <p set:html={q.b.replace(/href='\//g, `href='${u("/")}`)} />
+      <div class="note"><strong>What would settle it: </strong>
+        <span set:html={q.f} /></div>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>And the standing one</h2>
+    <p class="note">Everything above generation eight is <strong>silence</strong>, not mystery. The
+    Croatian parish registers for this coast begin in the sixteenth century and many survive; the
+    Blažević line simply has not been followed into them below <strong>Mateša Blažević, born about
+    1750</strong>. That is a research gap, and it is closable by someone with the patience to read
+    Latin parish hands. <a href={u("/how-far-back")}>How far back →</a></p>
+  </section>
+</Base>

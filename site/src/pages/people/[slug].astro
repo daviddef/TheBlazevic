@@ -1,0 +1,70 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import { people, lifespan } from "../../lib/people.js";
+
+export function getStaticPaths() {
+  return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const occ = (p.occupations || []).filter((o) => o.what || o.where);
+const events = (p.events || []).filter((e) => e.date || e.place || e.note || e.detail);
+const notes = (p.notes || []).filter((n) => n && n.length > 2);
+---
+<Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
+      dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
+
+  <section class="blk">
+    <table class="kv">
+      {p.born && <tr><th>Born</th><td>{p.born}{p.bornPlace ? `, ${p.bornPlace}` : ""}</td></tr>}
+      {p.baptised && <tr><th>Baptised</th><td>{p.baptised}{p.baptisedPlace ? `, ${p.baptisedPlace}` : ""}</td></tr>}
+      {p.died && <tr><th>Died</th><td>{p.died}{p.diedPlace ? `, ${p.diedPlace}` : ""}</td></tr>}
+      {p.cause && <tr><th>Cause</th><td class="mono">{p.cause}</td></tr>}
+      {p.burial && <tr><th>Buried</th><td>{p.burial}</td></tr>}
+      {occ.length > 0 && (
+        <tr><th>Occupation</th><td>{occ.map((o) => (
+          <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
+      {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}</td></tr>}
+      <tr><th>Record</th><td class="mono">{p.id}</td></tr>
+    </table>
+  </section>
+
+  {events.length > 0 && (
+    <section class="blk">
+      <h2>Events, as the record has them</h2>
+      <ul class="eventlog">
+        {events.map((e) => (
+          <li>
+            <span class="lab">{e.kind}</span>
+            <strong>{e.date}</strong> {e.place}
+            {e.detail && e.detail !== "Y" && <div class="src">{e.detail}</div>}
+            {e.note && <div class="src">{e.note}</div>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {notes.length > 0 && (
+    <section class="blk">
+      <h2>Notes carried in the tree</h2>
+      <p class="dek">Reproduced as written, minus the automated copy-reference boilerplate. These
+      are what the family and other researchers put down, not what this archive has verified.</p>
+      {notes.map((n) => <blockquote class="note">{n}</blockquote>)}
+    </section>
+  )}
+
+  <section class="blk">
+    <h2>Sources attached in the tree</h2>
+    {p.sources && p.sources.length > 0 ? (
+      <ul class="srclist">{p.sources.map((s) => <li class="src">{s}</li>)}</ul>
+    ) : (
+      <p class="note"><strong>None.</strong> This person carries no source string at all in the
+      tree. They may still be right — but nothing here can be checked without going to the
+      register. <a href={u("/method")}>Method →</a></p>
+    )}
+    <p class="dek" style="margin-top:1rem">An online family tree is a <strong>witness, not a
+    source</strong>. Where a citation points at a parish register or a FamilySearch image, that is
+    the thing worth going to. <a href={u("/sources")}>Sources →</a></p>
+  </section>
+</Base>

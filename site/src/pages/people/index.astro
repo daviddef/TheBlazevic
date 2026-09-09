@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import { people, lifespan, evidenced } from "../../lib/people.js";
+
+const rows = [...people].sort((a, b) =>
+  (a.surname || "").localeCompare(b.surname || "") ||
+  (a.byear || 9999) - (b.byear || 9999) || a.name.localeCompare(b.name));
+const withSrc = rows.filter(evidenced).length;
+---
+<Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records`}
+  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here.">
+
+  <section class="blk">
+    <div class="grid three">
+      <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published people</div></div>
+      <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry at least one source
+        string</div></div>
+      <div class="stat"><div class="n">{(rows.length - withSrc).toLocaleString()}</div><div class="l">carry none at
+        all</div></div>
+    </div>
+    <p class="note" style="margin-top:1.2rem">A source string here usually means
+    <em>another online tree</em>. It is a witness, not a document. The column is shown because the
+    difference between “someone else also says this” and “a register says this” is the whole
+    difference between a family story and a family history.</p>
+  </section>
+
+  <section class="blk">
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Lived</th><th>Born at</th><th>Ev.</th></tr></thead>
+      <tbody>
+        {rows.map((p) => (
+          <tr>
+            <td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
+              <span class="tag">ancestor</span>}</td>
+            <td class="mono">{lifespan(p)}</td>
+            <td class="dim">{p.bornPlace || p.diedPlace || ""}</td>
+            <td class="mono">{evidenced(p) ? "·" : "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</Base>

@@ -1,0 +1,82 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="The Brother"
+  eyebrow="Oto Blažević, 1923–1945"
+  dek="Hedviga's brother died at twenty-two in the last year of the war. The family preserves two accounts of how, they cannot both be true, and there is no grave to ask.">
+
+  <section class="blk">
+    <p class="lede">This page exists because the record contains a
+    <strong>contradiction that has been kept rather than tidied away</strong>. Both accounts are
+    written into the same note on Oto's entry, attributed to two different people, and this archive
+    reproduces them exactly as they stand.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      <div class="card">
+        <h3>The first account</h3>
+        <blockquote class="note">Bitten by snake<span class="dim"> — attributed in the tree to
+          <strong>Ivan Defranceski</strong></span></blockquote>
+        <p style="margin-top:1rem">Ivan Anton Defranceski (1925–1995) was Hedviga's husband and
+        Oto's brother-in-law — two years younger than Oto, and alive in the same town at the time.
+        The Velebit has the <strong>horned viper</strong>, <em>Vipera ammodytes</em>, Europe's most
+        dangerous snake, and a shepherd or a labourer on that mountain was genuinely at risk.</p>
+      </div>
+      <div class="card">
+        <h3>The second account</h3>
+        <blockquote class="note">The late Otto Blažević was the brother of Ljuba, Leo, Aunt Karma,
+        Aunt Seka … he died in the war somewhere in <strong>Slavonia</strong>, his grave is unknown,
+        so they put his name in his grandmother's and grandfather's grave — and now Leo is there,
+        and Katica.<span class="dim"> — attributed in the tree to
+        <strong>Nives Blažević</strong></span></blockquote>
+        <p style="margin-top:1rem">This one names his siblings correctly, including
+        <strong>“Aunt Seka”</strong> — Hedviga's own nickname — which is a good sign that the
+        speaker knew the family well.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What the second account fits</h2>
+    <p class="lede">The war in Slavonia in <strong>1945</strong> is not a vague setting. It is one
+    of the best-documented killing grounds of the European war's last months.</p>
+    <p>The <strong>Syrmian Front</strong> ran from <strong>21 October 1944 to 12 April 1945</strong>
+    across Syrmia, <strong>Slavonia</strong> and Baranja. The Yugoslav Partisans lost
+    <strong>more than 13,500 killed</strong> covering roughly 140 kilometres between Belgrade and
+    Vinkovci over nearly six months of winter fighting. When the front broke on 12 April, the 1st
+    and 3rd Armies advanced <strong>west through Slavonia</strong>.</p>
+    <p style="margin-top:1rem">A man born in 1923 was <strong>twenty-one or twenty-two</strong> in
+    that campaign — precisely the cohort mobilised into it, much of it from newly-liberated Croatia
+    with minimal training. And an unknown grave is the ordinary outcome, not the strange one:
+    thousands of those dead were buried where they fell.</p>
+    <div class="note"><strong>The detail that rings true.</strong> That the family
+    <em>cut his name into his grandparents' stone</em> because there was no body is a specific,
+    unglamorous, expensive act. People do it when someone does not come back from somewhere far
+    away. It is much harder to explain if he died of a snakebite on the hill above the town.</div>
+  </section>
+
+  <section class="blk">
+    <h2>How this archive leaves it</h2>
+    <table class="kv">
+      <tr><th>Documented</th><td>Born 1923, Senj. Died 1945, with the death place entered in the
+        tree as <strong>Senj</strong>. Son of Ljubomir Blažević and Milka Papić; brother of Leo,
+        Karmela, Hedviga, Ljubomir, Mario and Anton.</td></tr>
+      <tr><th>Family lore, first</th><td>Snakebite. Attributed to Ivan Defranceski, who was
+        there.</td></tr>
+      <tr><th>Family lore, second</th><td>Killed in the war in Slavonia, no known grave, name added
+        to his grandparents' plot. Attributed to Nives Blažević.</td></tr>
+      <tr><th>Contradiction</th><td><strong>Unresolved.</strong> The tree's own <em>death place</em>
+        of Senj agrees with neither account cleanly — it contradicts Slavonia outright, and it is
+        also exactly what a family would enter when the real place was unknown.</td></tr>
+    </table>
+    <p class="note" style="margin-top:1.3rem"><strong>What would settle it.</strong> The Croatian
+    State Archives hold Second World War military and civil death records, and the
+    <em>Yugoslav war victims register</em> (<em>Popis žrtava rata</em>) is searchable by name and
+    birth year. A single entry for <strong>Oto Blažević, b. 1923, Senj</strong> would end the
+    question in either direction. Nobody has yet looked.
+    <a href={u("/open-questions")}>Open questions →</a></p>
+    <p class="dek" style="margin-top:1rem">Both accounts are kept because pretending otherwise is
+    how family myths become family history — and because one of these two people was right.
+    <a href={u("/method")}>Method →</a></p>
+  </section>
+</Base>

@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import line from "../data/line.json";
+import ancestors from "../data/ancestors.json";
+
+const byGen = {};
+for (const a of ancestors) (byGen[a.gen] ||= []).push(a);
+const gens = Object.keys(byGen).map(Number).sort((a, b) => a - b);
+const sourced = line.filter((p) => p.sources && p.sources.length).length;
+---
+<Base title="The Spine"
+  eyebrow={`${line.length} generations of Blažević men`}
+  dek="From Hedviga at Senj in 1926 back to a boy born about 1750 in a village barely a century old. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
+
+  <section class="blk">
+    <ol class="spine big">
+      {line.map((p) => (
+        <li class={p.gen === 3 ? "weak" : ""}>
+          <span class="g">g{p.gen}</span>
+          <div>
+            <a href={u(`/people/${p.slug}`)}><strong>{p.name}</strong></a>
+            <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
+            <div class="pl">{p.bornPlace || "—"}</div>
+            {p.occupations && p.occupations.length > 0 && (
+              <div class="dim">{p.occupations.map((o) => o.what).filter(Boolean).join(" · ")}</div>)}
+            {p.gen === 3 && <div class="warn">No birth date. No death date. No document.
+              The tree's own note reads “Potentially him? 1861?”.</div>}
+            {(!p.sources || !p.sources.length) && p.gen !== 3 &&
+              <div class="warn">No source of any kind attached.</div>}
+          </div>
+        </li>
+      ))}
+    </ol>
+    <p class="note"><strong>{sourced} of {line.length}</strong> generations on this spine carry a
+    source string in the tree; <strong>{line.length - sourced}</strong> carry none. And a source
+    string here most often means another online tree.
+    <a href={u("/method")}>Why that matters →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Read this before trusting the top half</div>
+    <h2>The join at generation three</h2>
+    <p class="lede">Everything above <a href={u("/people/ljubomir-blazevic")}>Ljubomir</a> hangs on
+    one man: <a href={u("/people/juraj-georgius-jure-blazevic")}><strong>Juraj / Georgius / Jure
+    Blažević</strong></a>. His record has <strong>no birth date, no death date, no occupation and
+    no document</strong> — only a place, and a note that asks the question rather than answering
+    it.</p>
+    <p>The link that is actually solid is the one <em>below</em> him: Ljubomir was born at
+    <strong>Rijeka on 1 March 1892</strong>, and his siblings Anka (1893) and Ruža (1897) are
+    recorded at <strong>Otočac</strong> and <strong>Smokvica Krmpotska</strong> — the mother's
+    town and the father's village. A family moving between exactly those two places is consistent,
+    and it is the reason the join is <em>plausible</em>. It is not the reason it is proved.</p>
+    <div class="note"><strong>What would settle it.</strong> The Senj or Krmpote marriage register
+    for <strong>Juraj Blažević and Tereza Žubrinić</strong>, which would name Juraj's father and
+    fix the generation above; and Ljubomir's <strong>1892 Rijeka birth entry</strong>, which would
+    name both parents outright. Neither has been retrieved.
+    <a href={u("/open-questions")}>Open questions →</a></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Where the depth actually is</div>
+    <h2>Nine generations, seventy people</h2>
+    <p>The male Blažević spine is eight deep, but the tree's real reach is on the
+    <strong>mothers' sides</strong> — the Pilipić and Uroda lines out of
+    <strong>Karlobag</strong>, and the Antić–Jelličić lines out of <strong>Selce</strong>, both of
+    which run to a ninth generation and into the <strong>1710s and 1720s</strong>.</p>
+    {gens.map((g) => (
+      <div class="genblk">
+        <h3>Generation {g} <span class="dim">— {byGen[g].length} {byGen[g].length === 1 ? "person" : "people"}</span></h3>
+        <ul class="cols">
+          {byGen[g].sort((a, b) => a.ahn - b.ahn).map((p) => (
+            <li><span class="mono dim">{p.ahn}</span>
+              <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+              <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+    <p class="dek">Numbered by <strong>Ahnentafel</strong>: Hedviga is 1, her father 2, her mother
+    3, and every person's father is twice their number. A missing number is a missing ancestor, which
+    is the point of using it.</p>
+  </section>
+</Base>

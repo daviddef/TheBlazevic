@@ -1,0 +1,91 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { people, evidenced } from "../lib/people.js";
+const withSrc = people.filter(evidenced).length;
+const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familysearch")).length;
+---
+<Base title="Sources"
+  eyebrow="What this archive stands on"
+  dek="A MyHeritage tree of 15,643 people, a set of Croatian parish registers reachable through FamilySearch, and national surname statistics. Their weights are very different.">
+
+  <section class="blk">
+    <div class="grid three">
+      <div class="stat"><div class="n">{people.length.toLocaleString()}</div><div class="l">published people</div></div>
+      <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry a source string of some
+        kind</div></div>
+      <div class="stat"><div class="n">{fs}</div><div class="l">carry a citation reaching an actual register
+        image</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The strongest thing here: the parish registers</h2>
+    <p><strong>“Croatia, Church Books, 1516–1994”</strong>, digitised by FamilySearch from the
+    holdings of the <strong>Hrvatski državni arhiv</strong> (Croatian State Archives) in Zagreb.
+    Citations in this tree reach specific images in specific volumes:</p>
+    <ul class="plain">
+      <li><strong>Senj</strong> — Births 1756–1858, Births 1878–1894, Marriages 1859–1920</li>
+      <li><strong>Krivi Put</strong> — Births 1847–1884</li>
+      <li><strong>Otočac</strong> — Births 1834–1846</li>
+      <li><strong>Karlobag</strong> — the Pilipić and Uroda entries</li>
+    </ul>
+    <p style="margin-top:1rem">These are <strong>Roman Catholic registers</strong>
+    (<em>Rimokatolička crkva</em>) kept in Latin, and later Croatian, by the parish priest. A single
+    baptismal entry typically gives the child, the date, the parents, the house number and the
+    <strong>godparents</strong> — which is how this archive knows that
+    <a href={u("/people/milka-lucia-papic")}>Milka Papić</a>'s godparents were
+    <strong>Josip Glavičić and Ivka Filipović</strong>, and that
+    <a href={u("/people/antonija-tonka-perpic-prpic")}>Antonija Prpić</a>'s were
+    <strong>Lucas and Anna Tomljanović</strong>.</p>
+    <div class="note"><strong>A caution on the catalogue.</strong> One christening citation in this
+    tree — for <a href={u("/people/nicolaus-zubrinic-xubrinic")}>Nicolaus Žubrinić</a>, Otočac,
+    1834 — is labelled by FamilySearch as
+    <em class="mono">“Osekovo, Belovár-Körös Megye, Hungary records”</em>. The image group and page
+    are right; the <strong>catalogue heading is wrong</strong>. Anyone re-searching by place name
+    will not find it. <a href={u("/open-questions")}>Open questions →</a></div>
+  </section>
+
+  <section class="blk">
+    <h2>The spine: MyHeritage</h2>
+    <p>A single family tree of <strong>15,643 people and 4,777 families</strong>, exported as
+    GEDCOM. It is the structure of this archive and the origin of nearly every date. Within it,
+    individual people cite other trees — <em>Geni World Family Tree</em>,
+    <em>Defranceski Family Site</em>, <em>Boras Web Site</em>, <em>Grlica Web Site</em>,
+    <em>Janicic</em>, <em>Marko Karic rodoslov</em>.</p>
+    <p class="note" style="margin-top:1rem">Many notes carry a
+    <em class="mono">SmartCopy</em> stamp from Geni, dated 2014–2017. That records
+    <strong>when a record was copied between websites</strong>, not when anything was verified. The
+    build strips this boilerplate from the displayed notes and keeps the human prose.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Statistics and history</h2>
+    <ul class="plain">
+      <li><strong>Forebears</strong> — surname incidence and density by country and Croatian county.
+        Built on national registers; good for orders of magnitude, not a census.
+        <a href={u("/name")}>Used here →</a></li>
+      <li><strong>Hrvatska znanstvena bibliografija / Hrčak</strong> — Croatian scholarship on the
+        <em>Bunjevci Krmpoćani</em> settlement of the Senj mountain.
+        <a href={u("/bunjevci")}>Used here →</a></li>
+      <li><strong>Wikipedia, Nehaj Fortress and the Uskoks</strong>; <em>visitsenj.com</em> for the
+        town's own account of the 1873 railway. <a href={u("/senj")}>Used here →</a></li>
+      <li><em>Tierra prometida: Jews from Rhodes in the Belgian Congo and Southern Rhodesia,
+        1910s–1960s</em>; the Rhodes Jewish Museum; Yad Vashem, on the July 1944 deportation.
+        <a href={u("/rhodes")}>Used here →</a></li>
+      <li><strong>SA History Hub</strong> on Croatians in South Australia; Port Pirie smelter
+        history. <a href={u("/port-pirie")}>Used here →</a></li>
+    </ul>
+  </section>
+
+  <section class="blk">
+    <h2>Never consulted, and it shows</h2>
+    <p class="note">No <strong>civil registration certificate</strong> has been obtained for anyone
+    in this archive — not Hedviga's 2001 Johannesburg death, not Ivan's 1995 Senj death, not the
+    1920 Senj marriage. No <strong>South African or Rhodesian immigration file</strong>. No
+    <strong>Yugoslav war victims register</strong> search for <a href={u("/oto")}>Oto</a>. No
+    <strong>Mirogoj cemetery record</strong> for Antonija Prpić. These are the next things to do,
+    and until they are done a great deal here rests on one tree.
+    <a href={u("/open-questions")}>Open questions →</a></p>
+  </section>
+</Base>

@@ -1,0 +1,43 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import places from "../data/places.json";
+const key = [
+  ["Senj", "The port town. Birthplace of Hedviga, Milka and Josip Papić; deathplace of Toma Blažević, Ljubomir, Milka and Antonija. Everything converges here.", "/senj"],
+  ["Smokvica Krmpotska", "The Blažević village in the Vinodol hills, settled by Bunjevci in the 17th century. House 114 is Toma's.", "/bunjevci"],
+  ["Krivi Put", "The Prpić village on the Senj mountain. House 136 produced 35 people in this tree.", "/bunjevci"],
+  ["Otočac", "The Žubrinić town, in the Gacka valley in Lika, inland across the Velebit.", "/zubrinic"],
+  ["Selce", "On the Vinodol coast — the Antić–Papić and Jelličić lines.", "/papic"],
+  ["Karlobag", "South down the coast under the Velebit — the Pilipić, Uroda, Smojver and Gerkacs lines, and the archive's deepest generation.", null],
+  ["Klenovica & Povile", "The Kalanj villages, on the coast between Novi Vinodolski and Senj.", null],
+  ["Port Pirie", "South Australia. The Žubrinić emigration of about 1884, and the Zubrinich spelling.", "/port-pirie"],
+];
+---
+<Base title="Places"
+  eyebrow="A hundred kilometres of coast, and then two other continents"
+  dek="With one exception, every place in this archive before 1884 lies within a day's walk of the Velebit — and the exception is the whole point.">
+
+  <section class="blk">
+    <div class="grid two">
+      {key.map(([n, d, href]) => (
+        <div class="card">
+          <h3>{href ? <a href={u(href)}>{n}</a> : n}</h3>
+          <p>{d}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Every place, counted</h2>
+    <p class="dek">Births and deaths of published people carrying one of the eight surnames. Spelling
+    variants are collapsed where they are literally the same place; nothing distinct is merged.
+    House numbers are kept, because in Frontier registers the house number <em>is</em> the
+    family.</p>
+    <table class="reg">
+      <thead><tr><th>Place</th><th>People</th></tr></thead>
+      <tbody>{places.map((p) => (
+        <tr><td>{p.place}</td><td class="mono">{p.n}</td></tr>))}</tbody>
+    </table>
+  </section>
+</Base>

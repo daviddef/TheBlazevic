@@ -1,0 +1,89 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { get } from "../lib/people.js";
+const h = get("@I17@");
+---
+<Base
+  title="Hedviga"
+  eyebrow="Senj 1926 — Johannesburg 2001"
+  dek="Hedviga “Seka” Blažević was born in a dying port on the Adriatic and died seventy-five years later on the Highveld, having crossed a world war, a country that stopped existing, and two continents.">
+
+  <section class="blk">
+    <p class="lede">She is the reason this archive exists, and she is also its best-documented
+    person: a birth at <strong>Senj on 3 August 1926</strong>, a marriage into the Defranceski
+    family, three children, an <strong>immigration from Zimbabwe in April 1975</strong>, a second
+    marriage to a Sephardic Jew from Rhodes, and a death at
+    <strong>Johannesburg on 30 October 2001</strong> with the cause written down plainly.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      <div class="card">
+        <h3>What the record gives</h3>
+        <table class="kv">
+          <tr><th>Born</th><td>3 August 1926, Senj</td></tr>
+          <tr><th>Father</th><td><a href={u("/people/ljubomir-blazevic")}>Ljubomir “Ljubo”
+            Blažević</a> (1892–1966), <em>mornar</em> — sailor</td></tr>
+          <tr><th>Mother</th><td><a href={u("/people/milka-lucia-papic")}>Milka Lucia Papić</a>
+            (1886–1971), supervisor at the Senj tobacco factory</td></tr>
+          <tr><th>Siblings</th><td>Leo (1920–2008), Karmela “Carmen” (1922–1987),
+            <a href={u("/oto")}>Oto (1923–1945)</a>, Ljubomir (1929–2007), Mario (1933–1984),
+            Anton</td></tr>
+          <tr><th>Married</th><td>Ivan Anton Defranceski (1925–1995)</td></tr>
+          <tr><th>Children</th><td>Ladislava “Ada” (b. 1948, Crikvenica), Ivan Anton (b. 1951,
+            Senj), Robert “Robbie” (b. 1953, Senj)</td></tr>
+          <tr><th>Emigrated</th><td>April 1975, to South Africa <strong>from
+            Zimbabwe</strong></td></tr>
+          <tr><th>Later married</th><td><a href={u("/rhodes")}>Santou (Shemtov) Isaac Codron</a>
+            (1913–1997), born on Rhodes — <em>c.</em> 1973, South Africa</td></tr>
+          <tr><th>Died</th><td>30 October 2001, Johannesburg, aged 75</td></tr>
+          <tr><th>Cause</th><td class="mono">Cancer of the rectum, spread to the liver</td></tr>
+        </table>
+      </div>
+      <div class="card">
+        <h3>The shape of the life</h3>
+        <p>She was born into a household of <strong>seven children</strong> in a town whose economy
+        had already collapsed — the railway had bypassed Senj half a century before she was born.
+        Her mother supervised women rolling cigarettes; her father went to sea.</p>
+        <p style="margin-top:1rem">She was <strong>fifteen</strong> when the Independent State of
+        Croatia was declared and the war reached the coast, and <strong>nineteen</strong> when it
+        ended and her brother Oto did not come home. Her first two children were born in
+        <strong>Yugoslavia</strong>, at Crikvenica and Senj.</p>
+        <p style="margin-top:1rem">Then Africa — and it is worth being exact about the order,
+        because the record is: she was in <strong>Zimbabwe first</strong>, and came south to
+        <strong>South Africa in April 1975</strong>. She is described as having married Codron
+        around <strong>1973</strong>, which places that marriage in the Rhodesian years, not the
+        South African ones.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Two dates that fall on the same day</div>
+    <h2>30 October</h2>
+    <p class="lede">Her husband <strong>Ivan Anton Defranceski died at Senj on 30 October
+    1995</strong>. Hedviga died at <strong>Johannesburg on 30 October 2001</strong> — six years
+    later, to the day.</p>
+    <p>This archive records the coincidence and claims nothing by it. Both dates come from the
+    family tree rather than from a certificate seen here, and a shared date is exactly the kind of
+    detail that gets tidied into place by memory. <strong>Two death certificates would settle
+    it</strong>, and they are the first documents on the wanted list.
+    <a href={u("/open-questions")}>Open questions →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>What the tree carries on her</h2>
+    {h && h.notes && h.notes.length > 0 && (
+      <div class="note">
+        <p>The notes attached to her record are <strong>machine-written</strong> — a SmartCopy
+        reference from Geni, and a MyHeritage record link. There is no biography in her own words,
+        and no photograph in the GEDCOM export at all, although
+        <strong>six are attached to her profile online</strong>. Recovering those is a task this
+        archive has not yet done.</p>
+      </div>
+    )}
+    <p class="dek" style="margin-top:1.2rem">Her record cites two independent trees — the
+    <em>Defranceski Family Site</em> and the <em>Boras Web Site</em> — which is corroboration
+    between witnesses, not between documents. <a href={u("/method")}>Why that distinction is kept
+    →</a></p>
+  </section>
+</Base>

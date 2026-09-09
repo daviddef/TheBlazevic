@@ -1,0 +1,152 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import families from "../data/families.json";
+const sp = (s) => families.find((f) => f.slug === s);
+
+const dist = [
+  ["Blažević", "11,163", "1:652,830", "Croatia 7,216 (1:586) · Bosnia 3,058 · Serbia 492"],
+  ["Papić", "6,014", "1:1,211,764", "Serbia 2,894 · Croatia 1,611 · Bosnia 1,165"],
+  ["Prpić", "1,218", "1:5,983,207", "Croatia 1,071 (1:3,948) · Serbia 75 · Bosnia 55"],
+  ["Žubrinić", "312", "1:23,357,519", "Croatia 292 (1:14,482) · Serbia 14 · Montenegro 6"],
+];
+---
+<Base title="The Names"
+  eyebrow="Four surnames, one of them almost extinct"
+  dek="Blažević is the seventeenth commonest surname in Croatia. Žubrinić is held by about three hundred people on earth. Both are in this family, and the rare one is the one that travels.">
+
+  <section class="blk">
+    <h2>What they mean</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>Blažević — “son of Blaž”</h3>
+        <p>A patronymic from the given name <strong>Blaž</strong>, the Croatian form of
+        <em>Blasius</em> / Blaise, itself from Latin <em>blaesus</em>, “lisping” or “stammering”.
+        The suffix <strong>-ević / -ić</strong> is the ordinary South Slavic “child of”.</p>
+        <p style="margin-top:1rem">It is <strong>the 17th most frequent surname in Croatia</strong>.
+        Its densest counties are Split-Dalmatia, Virovitica-Podravina and Osijek-Baranja —
+        <strong>not</strong> Lika-Senj. Our Blaževići sit outside the name's main clusters, which is
+        a caution: <em>sharing this surname with someone is nearly meaningless as evidence.</em></p>
+      </div>
+      <div class="card">
+        <h3>Žubrinić — the rare one</h3>
+        <p>About <strong>312 bearers worldwide</strong>, of whom <strong>292 are in Croatia</strong>
+        at a density of 1:14,482. Within Croatia its two great concentrations are the
+        <strong>City of Zagreb (28%)</strong> and <strong>Lika-Senj County (25%)</strong> — and
+        Lika-Senj is where <a href={u("/people/tereza-zubrinic-zubrinic")}>Tereza</a> and her
+        forebears at <strong>Otočac</strong> are from.</p>
+        <p style="margin-top:1rem">A name this rare behaves in the opposite way to Blažević: two
+        Žubrinići in the Otočac registers are <em>probably</em> related. That makes it the most
+        useful surname in this archive.</p>
+      </div>
+      <div class="card">
+        <h3>Papić — “son of the priest”, or of Papa</h3>
+        <p>From <strong><em>pop</em> / <em>papa</em></strong> — priest. The tree itself preserves
+        the alternate form: seventy-nine of its Papići are written
+        <strong><em>Papić (Papa)</em></strong>, and the direct ancestor is recorded as
+        <a href={u("/people/georgius-juraj-joannis-papa-antic-papic")}>“Georgius Juraj
+        (Joannis) <em>Papa</em> ‘Jure’ Antić Papić”</a> — carrying <em>Antić</em> and
+        <em>Papić</em> at once. The family was changing its name in the record, in front of us.</p>
+      </div>
+      <div class="card">
+        <h3>Prpić — and Perpić</h3>
+        <p>A hypocoristic patronymic, from a short form of a given name. In this tree it is written
+        <strong>Prpic 83 times, Perpic 19, Perpić 16, Prpić 8</strong> — and one record hedges
+        openly as <em class="mono">“Papić or Perpic”</em>. Antonija herself is entered as
+        <strong>“Perpić / Prpic”</strong>.</p>
+        <p style="margin-top:1rem">Prpić concentrates in Zagreb (27%), Primorje-Gorski Kotar (17%)
+        and <strong>Lika-Senj (13%)</strong> — again the family's own ground.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The most important thing on this page</div>
+    <h2>X wrote the sound Ž</h2>
+    <p class="lede">The Žubrinić name appears in this tree in <strong>eight different
+    spellings</strong>, and they are not errors. They are three successive orthographies for one
+    unchanged spoken name.</p>
+    <div class="grid three" style="margin-top:1.2rem">
+      <div class="card">
+        <h3>Xubrinich</h3>
+        <p>The <strong>Venetian-Italian</strong> convention used along this coast, in which
+        <strong>X</strong> stood for the sound written <strong>Ž</strong> in modern Croatian, and
+        <strong>-ch</strong> for <strong>-ć</strong>. Latin-language parish registers in
+        Habsburg Croatia use it constantly.</p>
+      </div>
+      <div class="card">
+        <h3>Zubrinich</h3>
+        <p>The <strong>German-Latin</strong> compromise of the imperial administration: the
+        diacritic dropped because the clerk's alphabet had no way to write it, the
+        <strong>-ich</strong> ending kept.</p>
+      </div>
+      <div class="card">
+        <h3>Žubrinić</h3>
+        <p><strong>Modern Croatian</strong>, after Gaj's diacritical reform of the 1830s made
+        <em>ž</em> and <em>ć</em> standard. This is the form the family uses today.</p>
+      </div>
+    </div>
+    <p style="margin-top:1.3rem">The direct ancestors are entered under both at once —
+    <a href={u("/people/nicolaus-zubrinic-xubrinic")}><strong>Nicolaus “Nikola” Žubrinić
+    (Xubrinic)</strong></a>, born at Otočac on 24 January 1834, and his father
+    <a href={u("/people/michael-zubrinic-zubrinic-xubrinich")}><strong>Michael “Mate”
+    Žubrinić / Zubrinic / Xubrinich</strong></a>, born 1811. Whoever built this tree was reading
+    across all three systems, which is the right instinct.</p>
+    <div class="note"><strong>The practical consequence.</strong> Searching Croatian records for
+    <em>Žubrinić</em> alone will miss most of the family before about 1850. The name has to be
+    searched as <em>Xubrinich</em>, <em>Zubrinich</em>, <em>Xubrinic</em> and
+    <em>Zubrinic</em> as well — and this archive's own tooling folds all of them to one key before
+    it counts anything.</div>
+  </section>
+
+  <section class="blk">
+    <h2>And then the name emigrates</h2>
+    <p class="lede">When the family leaves, the spelling forks permanently — and the two forks can
+    be counted separately.</p>
+    <table class="reg" style="margin-top:1rem">
+      <thead><tr><th>Form</th><th>Bearers</th><th>Where they are</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Žubrinić</strong> <span class="dim">— the homeland form</span></td>
+          <td class="mono">312</td><td>Croatia 292, Serbia 14, Montenegro 6. <strong>100% in
+          Europe.</strong></td></tr>
+        <tr><td><strong>Zubrinic</strong> <span class="dim">— the diaspora form</span></td>
+          <td class="mono">69</td><td>Argentina 29, Canada 16, United States 8,
+          <strong>South Africa 7</strong>, Netherlands 5. <strong>None in Croatia at
+          all.</strong></td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">The two lists do not overlap by a single country. The diacritics
+    are not decoration; they are a border. And the seven in
+    <strong>South Africa</strong> are on the same continent this family's own line ended up on.
+    <a href={u("/port-pirie")}>The Australian branch spells it <strong>Zubrinich</strong> →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>Distribution, as counted</h2>
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Worldwide</th><th>Density</th><th>Principal countries</th></tr></thead>
+      <tbody>{dist.map(([n, w, d, c]) => (
+        <tr><td><strong>{n}</strong></td><td class="mono">{w}</td><td class="mono">{d}</td>
+          <td class="dim">{c}</td></tr>))}</tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem">Figures from Forebears, which builds on national
+    statistical and electoral registers. They are good for orders of magnitude and for
+    <em>relative</em> density; they are not a census.</p>
+  </section>
+
+  <section class="blk">
+    <h2>How the tree writes them</h2>
+    <div class="grid two">
+      {["blazevic","zubrinic","papic","prpic"].map((s) => {
+        const f = sp(s);
+        return (
+          <div class="card">
+            <h3>{f.label} <span class="dim">— {f.count} people</span></h3>
+            <ul class="plain">{f.spellings.map(([w, n]) => (
+              <li><span class="mono">{w}</span> <span class="dim">× {n}</span></li>))}</ul>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+</Base>

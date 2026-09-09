@@ -1,0 +1,34 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import families from "../data/families.json";
+---
+<Base title="The Families"
+  eyebrow="Eight surnames"
+  dek="The four that make Hedviga's grandparents, and four more that married into them. Counts are of published people only — the living are not here."
+>
+  <section class="blk">
+    <div class="grid two">
+      {families.map((f) => (
+        <div class="card">
+          <h3>{["blazevic","zubrinic","papic","prpic"].includes(f.slug)
+            ? <a href={u(`/${f.slug}`)}>{f.label}</a> : f.label}</h3>
+          <p class="dek">{f.dek}</p>
+          <table class="kv tight">
+            <tr><th>People</th><td class="mono">{f.count}</td></tr>
+            <tr><th>Births span</th><td class="mono">{f.earliest ?? "?"} – {f.latest ?? "?"}</td></tr>
+            <tr><th>Spellings</th><td class="mono">{f.spellings.length}</td></tr>
+            <tr><th>Chief place</th><td class="dim">{f.places[0] ? f.places[0][0] : "—"}</td></tr>
+          </table>
+        </div>
+      ))}
+    </div>
+  </section>
+  <section class="blk">
+    <p class="note">Kalanj, Vukelić, Boras and Šestan are here because they married into the line
+    and because the tree carries them in bulk — <strong>213 Kalanj</strong> alone, nearly all of
+    them at <strong>Klenovica</strong> and <strong>Povile</strong> on the Vinodol coast. They are
+    not ancestors of Hedviga in every case; they are the surrounding world.
+    <a href={u("/people")}>The full register →</a></p>
+  </section>
+</Base>

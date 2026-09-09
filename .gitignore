@@ -1,0 +1,7 @@
+node_modules/
+site/dist/
+site/.astro/
+.DS_Store
+
+# The raw GEDCOM carries every living person in full. Never commit it.
+sources/*.ged
