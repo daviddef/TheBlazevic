@@ -1011,3 +1011,28 @@ ul.kin .yrs{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-l
 .fix.disputed{border-left-color:var(--terra)}
 .fix.upgraded{border-left-color:var(--r-modern)}
 .fix h2{font-size:22px}
+
+/* Hero credit line — kept adjacent to the image on purpose */
+.credit{font-family:var(--sans);font-size:11.5px;line-height:1.5;color:var(--ink-3);
+  margin:10px 2px 0;max-width:74ch}
+.credit a{color:var(--ink-3);text-decoration:underline}
+.credit a:hover{color:var(--accent)}
+figure.hero{margin:0}
+
+/* This archive's hero carries a real landscape rather than an abstract ground,
+   so it is darkened a little less than the shared default and the caption
+   gradient is deepened to keep the text legible without flattening the image. */
+.hero img{opacity:.74;filter:saturate(.96)}
+.hero .cap{background:linear-gradient(to top,rgba(8,22,28,.92),rgba(8,22,28,.55) 42%,transparent)}
+
+/* On a narrow screen the caption is taller than the image, so overlaying it
+   clips the headline. Stack instead: picture above, caption below on the same
+   dark ground, which keeps the light type legible and reads as intentional. */
+@media(max-width:700px){
+  figure.hero{display:block}
+  .hero img{height:clamp(190px,52vw,300px);opacity:.86}
+  .hero .cap{position:static;background:#0d2f39;padding:20px 20px 24px}
+  .hero h1{font-size:clamp(26px,7.4vw,34px);max-width:none}
+  .hero .sub{font-size:14px}
+  .hero .kick{font-size:10px;letter-spacing:.14em;line-height:1.5;display:block}
+}

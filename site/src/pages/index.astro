@@ -12,15 +12,21 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
 <Base title="The Blažević Archive" bare
   dek="An evidence-first archive for the family of Hedviga Blažević of Senj.">
 
-  <section class="blk" style="padding-top:3.2rem">
-    <div class="lab">Senj · Smokvica Krmpotska · Otočac · Krivi Put · Selce · Karlobag</div>
-    <h1 style="font-size:clamp(36px,5.6vw,62px);line-height:1.04;margin:.6rem 0 0">
-      One woman, four families, and the mountain they were planted on.</h1>
-    <p class="sub dek" style="font-size:clamp(1.05rem,2vw,1.28rem);margin-top:1.1rem;max-width:64ch">
-      An evidence-first archive for <strong>Hedviga “Seka” Blažević</strong> — born at Senj in 1926,
-      dead at Johannesburg in 2001 — and for the Blaževići, Žubrinići, Papići and Prpići who made
-      her.
-    </p>
+  <section class="blk" style="padding-top:1.6rem">
+    <figure class="hero">
+      <img src={u("/photos/hero.jpg")} width="2000" height="847" fetchpriority="high"
+           alt="A stone town on the northern Adriatic beneath a bare karst mountain wall, a fortress on the hill above it and an almost empty harbour below." />
+      <div class="cap">
+        <div class="kick">Senj · Smokvica Krmpotska · Otočac · Krivi Put · Selce · Karlobag</div>
+        <h1>One woman, four families, and the mountain they were planted on.</h1>
+        <p class="sub">An evidence-first archive for <strong>Hedviga “Seka” Blažević</strong> —
+        born at Senj in 1926, dead at Johannesburg in 2001 — and for the Blaževići, Žubrinići,
+        Papići and Prpići who made her.</p>
+      </div>
+    </figure>
+    <p class="credit">Illustration, not a photograph: a generated image of the northern Adriatic
+    coast, standing for Senj under the Velebit. Every <em>document</em> reproduced on this site is
+    the real scan. <a href={u("/method")}>Why the distinction is laboured here →</a></p>
   </section>
 
   <section class="blk">
