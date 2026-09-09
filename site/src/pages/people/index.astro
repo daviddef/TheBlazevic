@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan, evidenced } from "../../lib/people.js";
 import families from "../../data/families.json";
+import given from "../../data/givennames.json";
 
 const rows = [...people].sort((a, b) =>
   (a.surname || "").localeCompare(b.surname || "") ||
@@ -33,7 +34,7 @@ const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
     <div class="finder">
       <label class="srch">
         <span class="lab">Search</span>
-        <input id="q" type="search" placeholder="name, place, year…" autocomplete="off" />
+        <input id="q" type="search" placeholder="name, place, year… — Joannis finds Ivan" autocomplete="off" />
       </label>
       <div class="chips" id="fams">
         <button class="chip on" data-fam="">All lines</button>
@@ -67,12 +68,13 @@ const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
         </tbody>
       </table>
     </div>
-    <p class="dek" id="none" hidden>Nothing matches. Try a shorter search — the register holds
-    Latin, Croatian and anglicised spellings of the same names, so <em>zubrin</em> finds more than
-    <em>Žubrinić</em>.</p>
+    <p class="dek" id="none" hidden>Nothing matches. Try a shorter search — this box folds the
+    spellings together, so <em>zubrin</em> finds Žubrinić, Xubrinich and Zubrinich alike, and
+    <em>Joannis</em> finds every Ivan.</p>
   </section>
 
-<script is:inline>
+<script is:inline define:vars={{ NAMEMAP: Object.fromEntries(
+    Object.entries(given.groups).flatMap(([k, vs]) => vs.map((v) => [v, k]))) }}>
   (function () {
     var q = document.getElementById("q");
     var tbody = document.querySelector("#reg tbody");
@@ -83,11 +85,24 @@ const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
 
     // Latin, Croatian and anglicised spellings of one name must all match, so
     // the search folds diacritics and the X-for-Z convention before comparing.
-    function fold(s) {
+    function strip(s) {
       return s.toLowerCase()
         .replace(/[žŽ]/g, "z").replace(/[ćĆčČ]/g, "c")
         .replace(/[šŠ]/g, "s").replace(/[đĐ]/g, "d")
-        .replace(/\bx/g, "z").replace(/ich\b/g, "ic");
+        .replace(/æ/g, "ae").replace(/ë/g, "e");
+    }
+
+    // Surnames fold for the orthographies (X wrote Z, -ich wrote -ic). Given
+    // names fold because these registers were kept in Latin and then in
+    // Croatian, so one child is Joannes in one book and Ivan in the next.
+    // Both the row text and the query go through this, so either spelling
+    // finds either record.
+    function fold(s) {
+      return strip(s)
+        .replace(/\bx/g, "z").replace(/ich\b/g, "ic")
+        .split(/[^a-z0-9]+/)
+        .map(function (w) { return NAMEMAP[w] || w; })
+        .join(" ");
     }
     rows.forEach(function (r) { r.dataset.f = fold(r.dataset.s); });
 

@@ -2,8 +2,12 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
+import given from "../data/givennames.json";
 const sp = (s) => families.find((f) => f.slug === s);
 
+const obs = Object.entries(given.observed)
+  .map(([k, v]) => [k, v, Object.values(v).reduce((a, b) => a + b, 0)])
+  .sort((a, b) => b[2] - a[2]);
 const dist = [
   ["Blažević", "11,163", "1:652,830", "Croatia 7,216 (1:586) · Bosnia 3,058 · Serbia 492"],
   ["Papić", "6,014", "1:1,211,764", "Serbia 2,894 · Croatia 1,611 · Bosnia 1,165"],
@@ -97,6 +101,45 @@ const dist = [
     searched as <em>Xubrinich</em>, <em>Zubrinich</em>, <em>Xubrinic</em> and
     <em>Zubrinic</em> as well — and this archive's own tooling folds all of them to one key before
     it counts anything.</div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The surname is only half the problem</div>
+    <h2>The given names change language too</h2>
+    <p class="lede">These registers were kept in <strong>Latin</strong>, and then in
+    <strong>Croatian</strong>. The same man is <em>Joannes</em> in the book that baptised him and
+    <em>Ivan</em> in the one that married him — and a fair number of entries decline him into
+    <em>Joannem</em> or <em>Joannis</em>, because a priest writing <em>baptizavi Josephum</em> is
+    writing the accusative, not the name.</p>
+    <p>So the archive's own register was <strong>splitting people from themselves</strong>. A reader
+    searching <em>Ivan</em> was shown <strong>42</strong> of them and not the other
+    <strong>46</strong>. Of {Object.keys(given.groups).length} canonical given names in this
+    material, <strong>{obs.length}</strong> appear under more than one spelling.</p>
+    <table class="reg" style="margin-top:1.2rem">
+      <thead><tr><th>One name</th><th>People</th><th>As the registers write it</th></tr></thead>
+      <tbody>
+        {obs.slice(0, 18).map(([k, v, tot]) => (
+          <tr>
+            <td><strong style="text-transform:capitalize">{k}</strong>
+              {given.sex[k] && <span class="dim"> · {given.sex[k] === "m" ? "m" : "f"}</span>}</td>
+            <td class="mono">{tot}</td>
+            <td class="dim">{Object.entries(v).map(([n, c], i) => (
+              <>{i > 0 && " · "}<span class="mono">{n}</span> <span class="dim">×{c}</span></>))}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem"><a href={u("/people")}>The register's search box</a> now folds all
+    of this: <strong>type <em>Joannis</em> and you get every Ivan</strong>; type
+    <em>Tonka</em> and you get every Antonija; type <em>Georgius</em> and you get Juraj and Jure.
+    The table is built from the names actually present in the data, not from a list of what Croatian
+    names <em>might</em> be, and it lives in
+    <code class="mono">tools/given_names.py</code>.</p>
+    <div class="note"><strong>One distinction is kept rather than folded.</strong>
+    <em>Franjo</em> and <em>Franciska</em> share a root, as do <em>Luka</em> and <em>Lucija</em>,
+    and <em>Ante</em> and <em>Antonija</em>. They are <strong>not the same name</strong>, and this
+    archive first merged them by mistake — which would have told a reader that fourteen Franciskas
+    were Franjos. They are split by sex, and counted separately.</div>
   </section>
 
   <section class="blk">
