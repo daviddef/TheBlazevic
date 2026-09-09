@@ -43,6 +43,64 @@ def junk(p):
     return bool(JUNK.search(n)) or n.strip() in ("", "(unnamed)")
 
 
+# Filled in by main(): id -> slug, for everybody who reaches the build.
+SLUGS = {}
+
+
+def rel(pid, people):
+    """A relative, named only if this build publishes them.
+
+    The living-person rule is not just "omit their page": a living person must
+    not be named on anybody else's page either. So a relative who is living, or
+    who is one of the tree's sorting stubs, is returned as a withheld marker
+    rather than a name.
+    """
+    q = people.get(pid)
+    if q is None:
+        return None
+    if is_living(q):
+        return {"withheld": True}
+    if junk(q):
+        return None
+    return {"name": display(q), "slug": SLUGS.get(pid), "id": q["id"],
+            "born": year(born(q).get("date", "")),
+            "died": year(died(q).get("date", ""))}
+
+
+def relations(p, people, families):
+    """Parents, spouses (with the marriage), siblings and children."""
+    out = {"parents": [], "spouses": [], "siblings": [], "children": []}
+    for fid in p["famc"]:
+        f = families.get(fid)
+        if not f:
+            continue
+        for k in ("husb", "wife"):
+            r = rel(f[k], people) if f[k] else None
+            if r:
+                out["parents"].append(r)
+        for c in f["chil"]:
+            if c == p["id"]:
+                continue
+            r = rel(c, people)
+            if r:
+                out["siblings"].append(r)
+    for fid in p["fams"]:
+        f = families.get(fid)
+        if not f:
+            continue
+        other = f["wife"] if f["husb"] == p["id"] else f["husb"]
+        m = next((e for e in f["events"] if e["kind"] == "marriage"), {})
+        r = rel(other, people) if other else None
+        if r:
+            r = dict(r, marriedDate=m.get("date", ""), marriedPlace=m.get("place", ""))
+            out["spouses"].append(r)
+        for c in f["chil"]:
+            r = rel(c, people)
+            if r:
+                out["children"].append(r)
+    return out
+
+
 def person(p, ahn=None):
     b, d = born(p), died(p)
     bur, chr_ = ev(p, "burial") or {}, ev(p, "christening") or ev(p, "baptism") or {}
@@ -67,6 +125,7 @@ def person(p, ahn=None):
             for e in p["events"] if e["kind"] not in ("occupation",)
         ],
     }
+    out["family"] = next((sl for sl, ks in SURNAMES.items() if fold(p["surname"]) in ks), None)
     if ahn:
         out["ahn"], out["gen"] = ahn, gen_of(ahn)
     return out
@@ -152,6 +211,10 @@ def canonical_place(place):
     return ", ".join(out)
 
 
+def by_ahn_ids(people, families):
+    return list(ancestors(people, families, HEDVIGA).values())
+
+
 def main():
     global LIVING
     people, families = load()
@@ -161,6 +224,15 @@ def main():
     pub = {pid: p for pid, p in people.items() if not is_living(p) and not junk(p)}
     print(f"{len(people)} people; {sum(LIVING.values())} judged living; {len(pub)} publishable")
 
+    # Slugs must exist for everybody the build will emit *before* relationships
+    # are written, or a parent link points at a page that has no slug yet.
+    keys_all = {k for ks in SURNAMES.values() for k in ks}
+    emitted = set(by_ahn_ids(people, families)) | {
+        pid for pid, p in pub.items() if fold(p["surname"]) in keys_all}
+    for pid in sorted(emitted):
+        if pid in pub:
+            SLUGS[pid] = slug(pub[pid])
+
     # ---- the direct line and every ancestor -------------------------------
     by_ahn = ancestors(people, families, HEDVIGA)
     anc = []
@@ -168,7 +240,9 @@ def main():
         p = people[pid]
         if is_living(p) or junk(p):
             continue
-        anc.append(person(p, ahn))
+        r = person(p, ahn)
+        r["rel"] = relations(p, people, families)
+        anc.append(r)
     dump("ancestors.json", anc)
 
     spine, ahn = [], 1
@@ -180,9 +254,15 @@ def main():
     dump("line.json", spine)
 
     # ---- the register ------------------------------------------------------
-    keys = {k for ks in SURNAMES.values() for k in ks}
-    reg = sorted((person(p) for p in pub.values() if fold(p["surname"]) in keys),
-                 key=lambda r: (r["surname"], r["byear"] or 9999, r["name"]))
+    keys = keys_all
+    reg = []
+    for p in pub.values():
+        if fold(p["surname"]) not in keys:
+            continue
+        r = person(p)
+        r["rel"] = relations(p, people, families)
+        reg.append(r)
+    reg.sort(key=lambda r: (r["surname"], r["byear"] or 9999, r["name"]))
     dump("people.json", reg)
 
     fam = []

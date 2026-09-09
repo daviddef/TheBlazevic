@@ -46,8 +46,107 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 1,
-  "gen": 1
+  "gen": 1,
+  "rel": {
+   "parents": [
+    {
+     "name": "Ljubomir \"Ljubo\" Blažević",
+     "slug": "ljubomir-blazevic",
+     "id": "@I63@",
+     "born": 1892,
+     "died": 1966
+    },
+    {
+     "name": "Milka Lucia Papic",
+     "slug": "milka-lucia-papic",
+     "id": "@I64@",
+     "born": 1886,
+     "died": 1971
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": null,
+     "id": "@I16@",
+     "born": 1925,
+     "died": 1995,
+     "marriedDate": "",
+     "marriedPlace": ""
+    },
+    {
+     "withheld": true,
+     "marriedDate": "",
+     "marriedPlace": ""
+    },
+    {
+     "name": "Santou (Shemtov) Isaac Codron",
+     "slug": null,
+     "id": "@I62@",
+     "born": 1913,
+     "died": 1997,
+     "marriedDate": "ABT 1973",
+     "marriedPlace": "Afrique du Sud"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Leo Blažević",
+     "slug": "leo-blazevic",
+     "id": "@I69@",
+     "born": 1920,
+     "died": 2008
+    },
+    {
+     "name": "Karmela Karmen \"Carmen\" Blažević",
+     "slug": "karmela-karmen-blazevic",
+     "id": "@I65@",
+     "born": 1922,
+     "died": 1987
+    },
+    {
+     "name": "Oto Blažević",
+     "slug": "oto-blazevic",
+     "id": "@I66@",
+     "born": 1923,
+     "died": 1945
+    },
+    {
+     "name": "Ljubomir Blažević",
+     "slug": "ljubomir-blazevic-2",
+     "id": "@I67@",
+     "born": 1929,
+     "died": 2007
+    },
+    {
+     "name": "Mario Blažević",
+     "slug": "mario-blazevic",
+     "id": "@I68@",
+     "born": 1933,
+     "died": 1984
+    },
+    {
+     "name": "Anton Blažević",
+     "slug": "anton-blazevic-6",
+     "id": "@I70@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "withheld": true
+    },
+    {
+     "withheld": true
+    },
+    {
+     "withheld": true
+    }
+   ]
+  }
  },
  {
   "id": "@I63@",
@@ -95,8 +194,112 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 2,
-  "gen": 2
+  "gen": 2,
+  "rel": {
+   "parents": [
+    {
+     "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+     "slug": "juraj-georgius-jure-blazevic",
+     "id": "@I188@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Tereza Žubrinić Zubrinic",
+     "slug": "tereza-zubrinic-zubrinic",
+     "id": "@I187@",
+     "born": 1867,
+     "died": 1931
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Milka Lucia Papic",
+     "slug": "milka-lucia-papic",
+     "id": "@I64@",
+     "born": 1886,
+     "died": 1971,
+     "marriedDate": "8 DEC 1920",
+     "marriedPlace": "Senj, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Anka Blažević",
+     "slug": "anka-blazevic",
+     "id": "@I189@",
+     "born": 1893,
+     "died": 1953
+    },
+    {
+     "name": "Marijan Blažević",
+     "slug": "marijan-blazevic",
+     "id": "@I190@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Ruza Blazevic",
+     "slug": "ruza-blazevic",
+     "id": "@I191@",
+     "born": 1897,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Leo Blažević",
+     "slug": "leo-blazevic",
+     "id": "@I69@",
+     "born": 1920,
+     "died": 2008
+    },
+    {
+     "name": "Karmela Karmen \"Carmen\" Blažević",
+     "slug": "karmela-karmen-blazevic",
+     "id": "@I65@",
+     "born": 1922,
+     "died": 1987
+    },
+    {
+     "name": "Oto Blažević",
+     "slug": "oto-blazevic",
+     "id": "@I66@",
+     "born": 1923,
+     "died": 1945
+    },
+    {
+     "name": "Hedviga \"Seka\" Blažević",
+     "slug": "hedviga-blazevic",
+     "id": "@I17@",
+     "born": 1926,
+     "died": 2001
+    },
+    {
+     "name": "Ljubomir Blažević",
+     "slug": "ljubomir-blazevic-2",
+     "id": "@I67@",
+     "born": 1929,
+     "died": 2007
+    },
+    {
+     "name": "Mario Blažević",
+     "slug": "mario-blazevic",
+     "id": "@I68@",
+     "born": 1933,
+     "died": 1984
+    },
+    {
+     "name": "Anton Blažević",
+     "slug": "anton-blazevic-6",
+     "id": "@I70@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I64@",
@@ -154,8 +357,177 @@
     "note": ""
    }
   ],
+  "family": "papic",
   "ahn": 3,
-  "gen": 2
+  "gen": 2,
+  "rel": {
+   "parents": [
+    {
+     "name": "Josip Anton \"Joso\" Papić",
+     "slug": "josip-anton-papic",
+     "id": "@I195@",
+     "born": 1857,
+     "died": 1939
+    },
+    {
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "slug": "antonija-tonka-perpic-prpic",
+     "id": "@I196@",
+     "born": 1859,
+     "died": 1935
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Ljubomir \"Ljubo\" Blažević",
+     "slug": "ljubomir-blazevic",
+     "id": "@I63@",
+     "born": 1892,
+     "died": 1966,
+     "marriedDate": "8 DEC 1920",
+     "marriedPlace": "Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "name": "Zvonimir Matei Vukelić",
+     "slug": "zvonimir-matei-vukelic",
+     "id": "@I192@",
+     "born": 1883,
+     "died": 1915,
+     "marriedDate": "4 NOV 1907",
+     "marriedPlace": "Senj"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Marija Papić",
+     "slug": "marija-papic",
+     "id": "@I504992@",
+     "born": 1885,
+     "died": 1981
+    },
+    {
+     "name": "Ana \"Anica\" Papić",
+     "slug": "ana-papic",
+     "id": "@I504984@",
+     "born": 1888,
+     "died": 1977
+    },
+    {
+     "name": "Josip Papić",
+     "slug": "josip-papic",
+     "id": "@I506385@",
+     "born": 1890,
+     "died": null
+    },
+    {
+     "name": "Bozica Tonka Papić",
+     "slug": "bozica-tonka-papic",
+     "id": "@I504994@",
+     "born": 1891,
+     "died": 1963
+    },
+    {
+     "name": "Tonica Klotilola? Papić",
+     "slug": "tonica-klotilola-papic",
+     "id": "@I509130@",
+     "born": 1893,
+     "died": null
+    },
+    {
+     "name": "Franka Papić",
+     "slug": "franka-papic",
+     "id": "@I504987@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Sulka Papić",
+     "slug": "sulka-papic",
+     "id": "@I504613@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Zora Dragrea Papić",
+     "slug": "zora-dragrea-papic",
+     "id": "@I508734@",
+     "born": 1899,
+     "died": 1899
+    },
+    {
+     "name": "Stanko Papić",
+     "slug": "stanko-papic",
+     "id": "@I505419@",
+     "born": 1902,
+     "died": 1903
+    }
+   ],
+   "children": [
+    {
+     "name": "Leo Blažević",
+     "slug": "leo-blazevic",
+     "id": "@I69@",
+     "born": 1920,
+     "died": 2008
+    },
+    {
+     "name": "Karmela Karmen \"Carmen\" Blažević",
+     "slug": "karmela-karmen-blazevic",
+     "id": "@I65@",
+     "born": 1922,
+     "died": 1987
+    },
+    {
+     "name": "Oto Blažević",
+     "slug": "oto-blazevic",
+     "id": "@I66@",
+     "born": 1923,
+     "died": 1945
+    },
+    {
+     "name": "Hedviga \"Seka\" Blažević",
+     "slug": "hedviga-blazevic",
+     "id": "@I17@",
+     "born": 1926,
+     "died": 2001
+    },
+    {
+     "name": "Ljubomir Blažević",
+     "slug": "ljubomir-blazevic-2",
+     "id": "@I67@",
+     "born": 1929,
+     "died": 2007
+    },
+    {
+     "name": "Mario Blažević",
+     "slug": "mario-blazevic",
+     "id": "@I68@",
+     "born": 1933,
+     "died": 1984
+    },
+    {
+     "name": "Anton Blažević",
+     "slug": "anton-blazevic-6",
+     "id": "@I70@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Miroslava MicaNana Vukelic",
+     "slug": "miroslava-mica-nana-vukelic",
+     "id": "@I193@",
+     "born": 1907,
+     "died": 1993
+    },
+    {
+     "name": "Josip Vukelić",
+     "slug": "josip-vukelic",
+     "id": "@I194@",
+     "born": 1913,
+     "died": 2004
+    }
+   ]
+  }
  },
  {
   "id": "@I188@",
@@ -199,8 +571,98 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 4,
-  "gen": 3
+  "gen": 3,
+  "rel": {
+   "parents": [
+    {
+     "name": "Toma Tomislav Blazevic",
+     "slug": "toma-tomislav-blazevic",
+     "id": "@I360@",
+     "born": 1838,
+     "died": 1907
+    },
+    {
+     "name": "Tereza Pećanić",
+     "slug": "tereza-pecanic",
+     "id": "@I361@",
+     "born": null,
+     "died": 1850
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Tereza Žubrinić Zubrinic",
+     "slug": "tereza-zubrinic-zubrinic",
+     "id": "@I187@",
+     "born": 1867,
+     "died": 1931,
+     "marriedDate": "1888",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Anton Blazevic",
+     "slug": "anton-blazevic",
+     "id": "@I500046@",
+     "born": 1860,
+     "died": 1907
+    },
+    {
+     "name": "Marija Blazevic",
+     "slug": "marija-blazevic-2",
+     "id": "@I500047@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Ivan Blazevic",
+     "slug": "ivan-blazevic",
+     "id": "@I500048@",
+     "born": 1882,
+     "died": 1942
+    },
+    {
+     "name": "Antonija \"Tonka\" Blažević",
+     "slug": "antonija-blazevic-2",
+     "id": "@I500049@",
+     "born": 1884,
+     "died": 1969
+    }
+   ],
+   "children": [
+    {
+     "name": "Ljubomir \"Ljubo\" Blažević",
+     "slug": "ljubomir-blazevic",
+     "id": "@I63@",
+     "born": 1892,
+     "died": 1966
+    },
+    {
+     "name": "Anka Blažević",
+     "slug": "anka-blazevic",
+     "id": "@I189@",
+     "born": 1893,
+     "died": 1953
+    },
+    {
+     "name": "Marijan Blažević",
+     "slug": "marijan-blazevic",
+     "id": "@I190@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Ruza Blazevic",
+     "slug": "ruza-blazevic",
+     "id": "@I191@",
+     "born": 1897,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I187@",
@@ -251,8 +713,91 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 5,
-  "gen": 3
+  "gen": 3,
+  "rel": {
+   "parents": [
+    {
+     "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+     "slug": "nicolaus-zubrinic-xubrinic",
+     "id": "@I358@",
+     "born": 1834,
+     "died": null
+    },
+    {
+     "name": "Ana Shambul Marić",
+     "slug": "ana-shambul-maric",
+     "id": "@I359@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+     "slug": "juraj-georgius-jure-blazevic",
+     "id": "@I188@",
+     "born": null,
+     "died": null,
+     "marriedDate": "1888",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Lucca Žubrinić (Xubrinic)",
+     "slug": "lucca-zubrinic-xubrinic",
+     "id": "@I505005@",
+     "born": 1853,
+     "died": 1871
+    },
+    {
+     "name": "Marija Žubrinić",
+     "slug": "marija-zubrinic",
+     "id": "@I505413@",
+     "born": 1858,
+     "died": null
+    },
+    {
+     "name": "Jacobus Jacov Jacob Žubrinić Zubrinic Xubrinic",
+     "slug": null,
+     "id": "@I506400@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Ljubomir \"Ljubo\" Blažević",
+     "slug": "ljubomir-blazevic",
+     "id": "@I63@",
+     "born": 1892,
+     "died": 1966
+    },
+    {
+     "name": "Anka Blažević",
+     "slug": "anka-blazevic",
+     "id": "@I189@",
+     "born": 1893,
+     "died": 1953
+    },
+    {
+     "name": "Marijan Blažević",
+     "slug": "marijan-blazevic",
+     "id": "@I190@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Ruza Blazevic",
+     "slug": "ruza-blazevic",
+     "id": "@I191@",
+     "born": 1897,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I195@",
@@ -305,8 +850,161 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-L99C-5TBF?cc=2040054&wc=9R2M-L27%3A391644801%2C391920301%2C391920401 : 6 April 2015), Roman Catholic (Rimokatolička crkva) > Senj (Senj) > Births (Rođeni) 1756-1858 > image 571 of 589; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
+  "family": "papic",
   "ahn": 6,
-  "gen": 3
+  "gen": 3,
+  "rel": {
+   "parents": [
+    {
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "id": "@I363@",
+     "born": 1838,
+     "died": 1912
+    },
+    {
+     "name": "Matia / Matthea \"Matija\" Pilipić",
+     "slug": "matia-matthea-pilipic",
+     "id": "@I364@",
+     "born": 1838,
+     "died": 1911
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "slug": "antonija-tonka-perpic-prpic",
+     "id": "@I196@",
+     "born": 1859,
+     "died": 1935,
+     "marriedDate": "3 MAY 1885",
+     "marriedPlace": "Senj, Lika, Croatia"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Stephannes Papić",
+     "slug": "stephannes-papic",
+     "id": "@I508989@",
+     "born": 1860,
+     "died": 1917
+    },
+    {
+     "name": "Philippus Jacobus Papić",
+     "slug": "philippus-jacobus-papic",
+     "id": "@I508985@",
+     "born": 1863,
+     "died": 1938
+    },
+    {
+     "name": "Stjepan \"Stipe\" Papić",
+     "slug": "stjepan-papic",
+     "id": "@I508714@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Francisca Papić",
+     "slug": "francisca-papic",
+     "id": "@I508775@",
+     "born": 1866,
+     "died": 1867
+    },
+    {
+     "name": "Antonius Josip \"Anton\" Papić",
+     "slug": "antonius-josip-papic",
+     "id": "@I506398@",
+     "born": 1868,
+     "died": 1937
+    },
+    {
+     "name": "Joanna Johanna Papić",
+     "slug": "joanna-johanna-papic",
+     "id": "@I508770@",
+     "born": 1872,
+     "died": 1872
+    },
+    {
+     "name": "Frane Franjo Franciscus Papić",
+     "slug": "frane-franjo-franciscus-papic",
+     "id": "@I508838@",
+     "born": 1873,
+     "died": 1933
+    }
+   ],
+   "children": [
+    {
+     "name": "Marija Papić",
+     "slug": "marija-papic",
+     "id": "@I504992@",
+     "born": 1885,
+     "died": 1981
+    },
+    {
+     "name": "Milka Lucia Papic",
+     "slug": "milka-lucia-papic",
+     "id": "@I64@",
+     "born": 1886,
+     "died": 1971
+    },
+    {
+     "name": "Ana \"Anica\" Papić",
+     "slug": "ana-papic",
+     "id": "@I504984@",
+     "born": 1888,
+     "died": 1977
+    },
+    {
+     "name": "Josip Papić",
+     "slug": "josip-papic",
+     "id": "@I506385@",
+     "born": 1890,
+     "died": null
+    },
+    {
+     "name": "Bozica Tonka Papić",
+     "slug": "bozica-tonka-papic",
+     "id": "@I504994@",
+     "born": 1891,
+     "died": 1963
+    },
+    {
+     "name": "Tonica Klotilola? Papić",
+     "slug": "tonica-klotilola-papic",
+     "id": "@I509130@",
+     "born": 1893,
+     "died": null
+    },
+    {
+     "name": "Franka Papić",
+     "slug": "franka-papic",
+     "id": "@I504987@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Sulka Papić",
+     "slug": "sulka-papic",
+     "id": "@I504613@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Zora Dragrea Papić",
+     "slug": "zora-dragrea-papic",
+     "id": "@I508734@",
+     "born": 1899,
+     "died": 1899
+    },
+    {
+     "name": "Stanko Papić",
+     "slug": "stanko-papic",
+     "id": "@I505419@",
+     "born": 1902,
+     "died": 1903
+    }
+   ]
+  }
  },
  {
   "id": "@I196@",
@@ -370,8 +1068,126 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 7,
-  "gen": 3
+  "gen": 3,
+  "rel": {
+   "parents": [
+    {
+     "name": "Joannis \"Ivan\" Perpić",
+     "slug": "joannis-perpic",
+     "id": "@I365@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Lucia \"Luca\"",
+     "slug": "lucia",
+     "id": "@I366@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Josip Anton \"Joso\" Papić",
+     "slug": "josip-anton-papic",
+     "id": "@I195@",
+     "born": 1857,
+     "died": 1939,
+     "marriedDate": "3 MAY 1885",
+     "marriedPlace": "Senj, Lika, Croatia"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Stephanus Perpić",
+     "slug": "stephanus-perpic",
+     "id": "@I508653@",
+     "born": 1861,
+     "died": null
+    },
+    {
+     "name": "Marcus Perpić",
+     "slug": "marcus-perpic",
+     "id": "@I509227@",
+     "born": 1872,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Marija Papić",
+     "slug": "marija-papic",
+     "id": "@I504992@",
+     "born": 1885,
+     "died": 1981
+    },
+    {
+     "name": "Milka Lucia Papic",
+     "slug": "milka-lucia-papic",
+     "id": "@I64@",
+     "born": 1886,
+     "died": 1971
+    },
+    {
+     "name": "Ana \"Anica\" Papić",
+     "slug": "ana-papic",
+     "id": "@I504984@",
+     "born": 1888,
+     "died": 1977
+    },
+    {
+     "name": "Josip Papić",
+     "slug": "josip-papic",
+     "id": "@I506385@",
+     "born": 1890,
+     "died": null
+    },
+    {
+     "name": "Bozica Tonka Papić",
+     "slug": "bozica-tonka-papic",
+     "id": "@I504994@",
+     "born": 1891,
+     "died": 1963
+    },
+    {
+     "name": "Tonica Klotilola? Papić",
+     "slug": "tonica-klotilola-papic",
+     "id": "@I509130@",
+     "born": 1893,
+     "died": null
+    },
+    {
+     "name": "Franka Papić",
+     "slug": "franka-papic",
+     "id": "@I504987@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Sulka Papić",
+     "slug": "sulka-papic",
+     "id": "@I504613@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Zora Dragrea Papić",
+     "slug": "zora-dragrea-papic",
+     "id": "@I508734@",
+     "born": 1899,
+     "died": 1899
+    },
+    {
+     "name": "Stanko Papić",
+     "slug": "stanko-papic",
+     "id": "@I505419@",
+     "born": 1902,
+     "died": 1903
+    }
+   ]
+  }
  },
  {
   "id": "@I360@",
@@ -425,8 +1241,77 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 8,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [
+    {
+     "name": "Anton Blažević",
+     "slug": "anton-blazevic-5",
+     "id": "@I634@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Tereza Pećanić",
+     "slug": "tereza-pecanic",
+     "id": "@I361@",
+     "born": null,
+     "died": 1850,
+     "marriedDate": "21 NOV 1858",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Mate Blazevic",
+     "slug": "mate-blazevic-2",
+     "id": "@I504643@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Anton Blazevic",
+     "slug": "anton-blazevic",
+     "id": "@I500046@",
+     "born": 1860,
+     "died": 1907
+    },
+    {
+     "name": "Marija Blazevic",
+     "slug": "marija-blazevic-2",
+     "id": "@I500047@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Ivan Blazevic",
+     "slug": "ivan-blazevic",
+     "id": "@I500048@",
+     "born": 1882,
+     "died": 1942
+    },
+    {
+     "name": "Antonija \"Tonka\" Blažević",
+     "slug": "antonija-blazevic-2",
+     "id": "@I500049@",
+     "born": 1884,
+     "died": 1969
+    },
+    {
+     "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+     "slug": "juraj-georgius-jure-blazevic",
+     "id": "@I188@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I361@",
@@ -461,8 +1346,61 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 9,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Toma Tomislav Blazevic",
+     "slug": "toma-tomislav-blazevic",
+     "id": "@I360@",
+     "born": 1838,
+     "died": 1907,
+     "marriedDate": "21 NOV 1858",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Anton Blazevic",
+     "slug": "anton-blazevic",
+     "id": "@I500046@",
+     "born": 1860,
+     "died": 1907
+    },
+    {
+     "name": "Marija Blazevic",
+     "slug": "marija-blazevic-2",
+     "id": "@I500047@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Ivan Blazevic",
+     "slug": "ivan-blazevic",
+     "id": "@I500048@",
+     "born": 1882,
+     "died": 1942
+    },
+    {
+     "name": "Antonija \"Tonka\" Blažević",
+     "slug": "antonija-blazevic-2",
+     "id": "@I500049@",
+     "born": 1884,
+     "died": 1969
+    },
+    {
+     "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+     "slug": "juraj-georgius-jure-blazevic",
+     "id": "@I188@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I358@",
@@ -511,8 +1449,112 @@
     "note": ""
    }
   ],
+  "family": "zubrinic",
   "ahn": 10,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [
+    {
+     "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
+     "slug": "michael-zubrinic-zubrinic-xubrinich",
+     "id": "@I632@",
+     "born": 1811,
+     "died": 1863
+    },
+    {
+     "name": "Maria Catharina Orešković Oreskovic",
+     "slug": "maria-catharina-oreskovic-oreskovic",
+     "id": "@I633@",
+     "born": 1835,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Ana Shambul Marić",
+     "slug": "ana-shambul-maric",
+     "id": "@I359@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Daniel Žubrinić",
+     "slug": "daniel-zubrinic",
+     "id": "@I504583@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Žubrinić",
+     "slug": "francisca-zubrinic",
+     "id": "@I504584@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Maria Žubrinić",
+     "slug": "maria-zubrinic",
+     "id": "@I504585@",
+     "born": 1841,
+     "died": null
+    },
+    {
+     "name": "Nikola Žubrinić (Xubrinic)",
+     "slug": "nikola-zubrinic-xubrinic",
+     "id": "@I505415@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Andre Žubrinić",
+     "slug": "andre-zubrinic",
+     "id": "@I506390@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Matthæus Žubrinić",
+     "slug": "matth-us-zubrinic",
+     "id": "@I506650@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Lucca Žubrinić (Xubrinic)",
+     "slug": "lucca-zubrinic-xubrinic",
+     "id": "@I505005@",
+     "born": 1853,
+     "died": 1871
+    },
+    {
+     "name": "Marija Žubrinić",
+     "slug": "marija-zubrinic",
+     "id": "@I505413@",
+     "born": 1858,
+     "died": null
+    },
+    {
+     "name": "Tereza Žubrinić Zubrinic",
+     "slug": "tereza-zubrinic-zubrinic",
+     "id": "@I187@",
+     "born": 1867,
+     "died": 1931
+    },
+    {
+     "name": "Jacobus Jacov Jacob Žubrinić Zubrinic Xubrinic",
+     "slug": null,
+     "id": "@I506400@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I359@",
@@ -547,8 +1589,77 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 11,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [
+    {
+     "name": "Shambul Marić",
+     "slug": "shambul-maric",
+     "id": "@I506654@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+     "slug": "nicolaus-zubrinic-xubrinic",
+     "id": "@I358@",
+     "born": 1834,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Mathias Marić",
+     "slug": null,
+     "id": "@I506656@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Joannes Marić",
+     "slug": null,
+     "id": "@I506659@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Lucca Žubrinić (Xubrinic)",
+     "slug": "lucca-zubrinic-xubrinic",
+     "id": "@I505005@",
+     "born": 1853,
+     "died": 1871
+    },
+    {
+     "name": "Marija Žubrinić",
+     "slug": "marija-zubrinic",
+     "id": "@I505413@",
+     "born": 1858,
+     "died": null
+    },
+    {
+     "name": "Tereza Žubrinić Zubrinic",
+     "slug": "tereza-zubrinic-zubrinic",
+     "id": "@I187@",
+     "born": 1867,
+     "died": 1931
+    },
+    {
+     "name": "Jacobus Jacov Jacob Žubrinić Zubrinic Xubrinic",
+     "slug": null,
+     "id": "@I506400@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I363@",
@@ -596,8 +1707,105 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 12,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [
+    {
+     "name": "Josephum Antić",
+     "slug": "josephum-antic",
+     "id": "@I504616@",
+     "born": 1806,
+     "died": 1850
+    },
+    {
+     "name": "Maria Jelličić",
+     "slug": "maria-jellicic",
+     "id": "@I504617@",
+     "born": 1809,
+     "died": 1882
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Matia / Matthea \"Matija\" Pilipić",
+     "slug": "matia-matthea-pilipic",
+     "id": "@I364@",
+     "born": 1838,
+     "died": 1911,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Maria Rosaria Antić",
+     "slug": null,
+     "id": "@I506154@",
+     "born": 1847,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Josip Anton \"Joso\" Papić",
+     "slug": "josip-anton-papic",
+     "id": "@I195@",
+     "born": 1857,
+     "died": 1939
+    },
+    {
+     "name": "Stephannes Papić",
+     "slug": "stephannes-papic",
+     "id": "@I508989@",
+     "born": 1860,
+     "died": 1917
+    },
+    {
+     "name": "Philippus Jacobus Papić",
+     "slug": "philippus-jacobus-papic",
+     "id": "@I508985@",
+     "born": 1863,
+     "died": 1938
+    },
+    {
+     "name": "Stjepan \"Stipe\" Papić",
+     "slug": "stjepan-papic",
+     "id": "@I508714@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Francisca Papić",
+     "slug": "francisca-papic",
+     "id": "@I508775@",
+     "born": 1866,
+     "died": 1867
+    },
+    {
+     "name": "Antonius Josip \"Anton\" Papić",
+     "slug": "antonius-josip-papic",
+     "id": "@I506398@",
+     "born": 1868,
+     "died": 1937
+    },
+    {
+     "name": "Joanna Johanna Papić",
+     "slug": "joanna-johanna-papic",
+     "id": "@I508770@",
+     "born": 1872,
+     "died": 1872
+    },
+    {
+     "name": "Frane Franjo Franciscus Papić",
+     "slug": "frane-franjo-franciscus-papic",
+     "id": "@I508838@",
+     "born": 1873,
+     "died": 1933
+    }
+   ]
+  }
  },
  {
   "id": "@I364@",
@@ -639,8 +1847,119 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 13,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [
+    {
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "id": "@I635@",
+     "born": 1805,
+     "died": 1897
+    },
+    {
+     "name": "Matia (Mathiam Georgiam) Uroda",
+     "slug": "matia-mathiam-georgiam-uroda",
+     "id": "@I636@",
+     "born": 1810,
+     "died": 1886
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "id": "@I363@",
+     "born": 1838,
+     "died": 1912,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Joso Pilipic",
+     "slug": null,
+     "id": "@I508284@",
+     "born": 1835,
+     "died": null
+    },
+    {
+     "name": "Valentinus Pilipic",
+     "slug": null,
+     "id": "@I504618@",
+     "born": 1848,
+     "died": null
+    },
+    {
+     "name": "Marija",
+     "slug": null,
+     "id": "@I506420@",
+     "born": 1852,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Josip Anton \"Joso\" Papić",
+     "slug": "josip-anton-papic",
+     "id": "@I195@",
+     "born": 1857,
+     "died": 1939
+    },
+    {
+     "name": "Stephannes Papić",
+     "slug": "stephannes-papic",
+     "id": "@I508989@",
+     "born": 1860,
+     "died": 1917
+    },
+    {
+     "name": "Philippus Jacobus Papić",
+     "slug": "philippus-jacobus-papic",
+     "id": "@I508985@",
+     "born": 1863,
+     "died": 1938
+    },
+    {
+     "name": "Stjepan \"Stipe\" Papić",
+     "slug": "stjepan-papic",
+     "id": "@I508714@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Francisca Papić",
+     "slug": "francisca-papic",
+     "id": "@I508775@",
+     "born": 1866,
+     "died": 1867
+    },
+    {
+     "name": "Antonius Josip \"Anton\" Papić",
+     "slug": "antonius-josip-papic",
+     "id": "@I506398@",
+     "born": 1868,
+     "died": 1937
+    },
+    {
+     "name": "Joanna Johanna Papić",
+     "slug": "joanna-johanna-papic",
+     "id": "@I508770@",
+     "born": 1872,
+     "died": 1872
+    },
+    {
+     "name": "Frane Franjo Franciscus Papić",
+     "slug": "frane-franjo-franciscus-papic",
+     "id": "@I508838@",
+     "born": 1873,
+     "died": 1933
+    }
+   ]
+  }
  },
  {
   "id": "@I365@",
@@ -689,8 +2008,47 @@
     "note": ""
    }
   ],
+  "family": "prpic",
   "ahn": 14,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Lucia \"Luca\"",
+     "slug": "lucia",
+     "id": "@I366@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "slug": "antonija-tonka-perpic-prpic",
+     "id": "@I196@",
+     "born": 1859,
+     "died": 1935
+    },
+    {
+     "name": "Stephanus Perpić",
+     "slug": "stephanus-perpic",
+     "id": "@I508653@",
+     "born": 1861,
+     "died": null
+    },
+    {
+     "name": "Marcus Perpić",
+     "slug": "marcus-perpic",
+     "id": "@I509227@",
+     "born": 1872,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I366@",
@@ -734,12 +2092,51 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 15,
-  "gen": 4
+  "gen": 4,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Joannis \"Ivan\" Perpić",
+     "slug": "joannis-perpic",
+     "id": "@I365@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "slug": "antonija-tonka-perpic-prpic",
+     "id": "@I196@",
+     "born": 1859,
+     "died": 1935
+    },
+    {
+     "name": "Stephanus Perpić",
+     "slug": "stephanus-perpic",
+     "id": "@I508653@",
+     "born": 1861,
+     "died": null
+    },
+    {
+     "name": "Marcus Perpić",
+     "slug": "marcus-perpic",
+     "id": "@I509227@",
+     "born": 1872,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I634@",
-  "slug": "anton-blazevic",
+  "slug": "anton-blazevic-5",
   "name": "Anton Blažević",
   "given": "Anton",
   "surname": "Blažević",
@@ -777,8 +2174,60 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 16,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Ilija Blažević",
+     "slug": "ilija-blazevic",
+     "id": "@I1047@",
+     "born": 1790,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Luka Blažević",
+     "slug": "luka-blazevic",
+     "id": "@I1048@",
+     "born": 1812,
+     "died": null
+    },
+    {
+     "name": "Josip Blazevic",
+     "slug": "josip-blazevic",
+     "id": "@I501782@",
+     "born": 1818,
+     "died": 1910
+    },
+    {
+     "name": "Ilija Mile Blazevic",
+     "slug": "ilija-mile-blazevic",
+     "id": "@I501783@",
+     "born": 1828,
+     "died": 1922
+    }
+   ],
+   "children": [
+    {
+     "name": "Toma Tomislav Blazevic",
+     "slug": "toma-tomislav-blazevic",
+     "id": "@I360@",
+     "born": 1838,
+     "died": 1907
+    },
+    {
+     "name": "Mate Blazevic",
+     "slug": "mate-blazevic-2",
+     "id": "@I504643@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I632@",
@@ -822,8 +2271,119 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 20,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Toma Žubrinić",
+     "slug": "toma-zubrinic",
+     "id": "@I1046@",
+     "born": 1768,
+     "died": 1838
+    },
+    {
+     "name": "Marija Findrić",
+     "slug": "marija-findric",
+     "id": "@I1045@",
+     "born": 1780,
+     "died": 1849
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Maria Catharina Orešković Oreskovic",
+     "slug": "maria-catharina-oreskovic-oreskovic",
+     "id": "@I633@",
+     "born": 1835,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Mihovil ŽUBRINIĆ",
+     "slug": "mihovil-zubrinic",
+     "id": "@I508778@",
+     "born": 1802,
+     "died": 1849
+    },
+    {
+     "name": "Jure ŽUBRINIĆ",
+     "slug": "jure-zubrinic",
+     "id": "@I508779@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Ivanjica ŽUBRINIĆ",
+     "slug": "ivanjica-zubrinic",
+     "id": "@I508780@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Andrije Žubrinić",
+     "slug": "andrije-zubrinic",
+     "id": "@I508777@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+     "slug": "nicolaus-zubrinic-xubrinic",
+     "id": "@I358@",
+     "born": 1834,
+     "died": null
+    },
+    {
+     "name": "Daniel Žubrinić",
+     "slug": "daniel-zubrinic",
+     "id": "@I504583@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Žubrinić",
+     "slug": "francisca-zubrinic",
+     "id": "@I504584@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Maria Žubrinić",
+     "slug": "maria-zubrinic",
+     "id": "@I504585@",
+     "born": 1841,
+     "died": null
+    },
+    {
+     "name": "Nikola Žubrinić (Xubrinic)",
+     "slug": "nikola-zubrinic-xubrinic",
+     "id": "@I505415@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Andre Žubrinić",
+     "slug": "andre-zubrinic",
+     "id": "@I506390@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Matthæus Žubrinić",
+     "slug": "matth-us-zubrinic",
+     "id": "@I506650@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I633@",
@@ -873,8 +2433,126 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 21,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Marcus Orešković Oreskovic",
+     "slug": "marcus-oreskovic-oreskovic",
+     "id": "@I504589@",
+     "born": 1809,
+     "died": null
+    },
+    {
+     "name": "Lucia Sekula",
+     "slug": "lucia-sekula",
+     "id": "@I504590@",
+     "born": 1815,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
+     "slug": "michael-zubrinic-zubrinic-xubrinich",
+     "id": "@I632@",
+     "born": 1811,
+     "died": 1863,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Margarita Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504952@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Orešković Oreskovic",
+     "slug": null,
+     "id": "@I511828@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Franciscus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I511824@",
+     "born": 1844,
+     "died": null
+    },
+    {
+     "name": "Petrus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I504951@",
+     "born": 1846,
+     "died": null
+    },
+    {
+     "name": "Jacobus Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504615@",
+     "born": 1852,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+     "slug": "nicolaus-zubrinic-xubrinic",
+     "id": "@I358@",
+     "born": 1834,
+     "died": null
+    },
+    {
+     "name": "Daniel Žubrinić",
+     "slug": "daniel-zubrinic",
+     "id": "@I504583@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Žubrinić",
+     "slug": "francisca-zubrinic",
+     "id": "@I504584@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Maria Žubrinić",
+     "slug": "maria-zubrinic",
+     "id": "@I504585@",
+     "born": 1841,
+     "died": null
+    },
+    {
+     "name": "Nikola Žubrinić (Xubrinic)",
+     "slug": "nikola-zubrinic-xubrinic",
+     "id": "@I505415@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Andre Žubrinić",
+     "slug": "andre-zubrinic",
+     "id": "@I506390@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Matthæus Žubrinić",
+     "slug": "matth-us-zubrinic",
+     "id": "@I506650@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I506654@",
@@ -906,8 +2584,37 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 22,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mathias Marić",
+     "slug": null,
+     "id": "@I506656@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Joannes Marić",
+     "slug": null,
+     "id": "@I506659@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Ana Shambul Marić",
+     "slug": "ana-shambul-maric",
+     "id": "@I359@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504616@",
@@ -948,8 +2655,55 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 24,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic",
+     "id": "@I504623@",
+     "born": 1765,
+     "died": 1829
+    },
+    {
+     "name": "Margarita (Martha) Lončarić",
+     "slug": "margarita-martha-loncaric",
+     "id": "@I504624@",
+     "born": 1777,
+     "died": 1829
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Maria Jelličić",
+     "slug": "maria-jellicic",
+     "id": "@I504617@",
+     "born": 1809,
+     "died": 1882,
+     "marriedDate": "22 OCT 1835",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "id": "@I363@",
+     "born": 1838,
+     "died": 1912
+    },
+    {
+     "name": "Maria Rosaria Antić",
+     "slug": null,
+     "id": "@I506154@",
+     "born": 1847,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504617@",
@@ -990,8 +2744,55 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 25,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Georgi Juraj Jelličić",
+     "slug": "georgi-juraj-jellicic",
+     "id": "@I504625@",
+     "born": 1767,
+     "died": 1832
+    },
+    {
+     "name": "Margarita Brozović",
+     "slug": "margarita-brozovic",
+     "id": "@I504626@",
+     "born": 1784,
+     "died": 1842
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Josephum Antić",
+     "slug": "josephum-antic",
+     "id": "@I504616@",
+     "born": 1806,
+     "died": 1850,
+     "marriedDate": "22 OCT 1835",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "id": "@I363@",
+     "born": 1838,
+     "died": 1912
+    },
+    {
+     "name": "Maria Rosaria Antić",
+     "slug": null,
+     "id": "@I506154@",
+     "born": 1847,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I635@",
@@ -1040,8 +2841,69 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 26,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Josephus (Josip) Pilipic",
+     "slug": "josephus-josip-pilipic",
+     "id": "@I1050@",
+     "born": 1768,
+     "died": 1828
+    },
+    {
+     "name": "Oliva Maria Smojver",
+     "slug": "oliva-maria-smojver",
+     "id": "@I1049@",
+     "born": 1781,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Matia (Mathiam Georgiam) Uroda",
+     "slug": "matia-mathiam-georgiam-uroda",
+     "id": "@I636@",
+     "born": 1810,
+     "died": 1886,
+     "marriedDate": "8 SEP 1833",
+     "marriedPlace": "Karlobag, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joso Pilipic",
+     "slug": null,
+     "id": "@I508284@",
+     "born": 1835,
+     "died": null
+    },
+    {
+     "name": "Matia / Matthea \"Matija\" Pilipić",
+     "slug": "matia-matthea-pilipic",
+     "id": "@I364@",
+     "born": 1838,
+     "died": 1911
+    },
+    {
+     "name": "Valentinus Pilipic",
+     "slug": null,
+     "id": "@I504618@",
+     "born": 1848,
+     "died": null
+    },
+    {
+     "name": "Marija",
+     "slug": null,
+     "id": "@I506420@",
+     "born": 1852,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I636@",
@@ -1082,8 +2944,69 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 27,
-  "gen": 5
+  "gen": 5,
+  "rel": {
+   "parents": [
+    {
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "slug": "joannis-georgius-georgio-uroda",
+     "id": "@I1051@",
+     "born": 1777,
+     "died": null
+    },
+    {
+     "name": "Mariam Gerkacs (Gergacs)",
+     "slug": "mariam-gerkacs-gergacs",
+     "id": "@I1052@",
+     "born": 1789,
+     "died": 1834
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "id": "@I635@",
+     "born": 1805,
+     "died": 1897,
+     "marriedDate": "8 SEP 1833",
+     "marriedPlace": "Karlobag, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joso Pilipic",
+     "slug": null,
+     "id": "@I508284@",
+     "born": 1835,
+     "died": null
+    },
+    {
+     "name": "Matia / Matthea \"Matija\" Pilipić",
+     "slug": "matia-matthea-pilipic",
+     "id": "@I364@",
+     "born": 1838,
+     "died": 1911
+    },
+    {
+     "name": "Valentinus Pilipic",
+     "slug": null,
+     "id": "@I504618@",
+     "born": 1848,
+     "died": null
+    },
+    {
+     "name": "Marija",
+     "slug": null,
+     "id": "@I506420@",
+     "born": 1852,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1047@",
@@ -1125,8 +3048,60 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 32,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Grgica Blažević",
+     "slug": "grgica-blazevic",
+     "id": "@I1847@",
+     "born": 1770,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Ive Blazevic",
+     "slug": "ive-blazevic",
+     "id": "@I501784@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Luka Blažević",
+     "slug": "luka-blazevic",
+     "id": "@I1048@",
+     "born": 1812,
+     "died": null
+    },
+    {
+     "name": "Josip Blazevic",
+     "slug": "josip-blazevic",
+     "id": "@I501782@",
+     "born": 1818,
+     "died": 1910
+    },
+    {
+     "name": "Ilija Mile Blazevic",
+     "slug": "ilija-mile-blazevic",
+     "id": "@I501783@",
+     "born": 1828,
+     "died": 1922
+    },
+    {
+     "name": "Anton Blažević",
+     "slug": "anton-blazevic-5",
+     "id": "@I634@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1046@",
@@ -1169,8 +3144,69 @@
     "note": ""
    }
   ],
+  "family": "zubrinic",
   "ahn": 40,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Žubrinić",
+     "slug": "zubrinic",
+     "id": "@I506506@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Marija Findrić",
+     "slug": "marija-findric",
+     "id": "@I1045@",
+     "born": 1780,
+     "died": 1849,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mihovil ŽUBRINIĆ",
+     "slug": "mihovil-zubrinic",
+     "id": "@I508778@",
+     "born": 1802,
+     "died": 1849
+    },
+    {
+     "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
+     "slug": "michael-zubrinic-zubrinic-xubrinich",
+     "id": "@I632@",
+     "born": 1811,
+     "died": 1863
+    },
+    {
+     "name": "Jure ŽUBRINIĆ",
+     "slug": "jure-zubrinic",
+     "id": "@I508779@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Ivanjica ŽUBRINIĆ",
+     "slug": "ivanjica-zubrinic",
+     "id": "@I508780@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Andrije Žubrinić",
+     "slug": "andrije-zubrinic",
+     "id": "@I508777@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1045@",
@@ -1211,8 +3247,61 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 41,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Toma Žubrinić",
+     "slug": "toma-zubrinic",
+     "id": "@I1046@",
+     "born": 1768,
+     "died": 1838,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mihovil ŽUBRINIĆ",
+     "slug": "mihovil-zubrinic",
+     "id": "@I508778@",
+     "born": 1802,
+     "died": 1849
+    },
+    {
+     "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
+     "slug": "michael-zubrinic-zubrinic-xubrinich",
+     "id": "@I632@",
+     "born": 1811,
+     "died": 1863
+    },
+    {
+     "name": "Jure ŽUBRINIĆ",
+     "slug": "jure-zubrinic",
+     "id": "@I508779@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Ivanjica ŽUBRINIĆ",
+     "slug": "ivanjica-zubrinic",
+     "id": "@I508780@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Andrije Žubrinić",
+     "slug": "andrije-zubrinic",
+     "id": "@I508777@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504589@",
@@ -1260,8 +3349,98 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 42,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Vitus Sekula",
+     "slug": "vitus-sekula",
+     "id": "@I511823@",
+     "born": 1787,
+     "died": null
+    },
+    {
+     "name": "Maria",
+     "slug": "maria-2",
+     "id": "@I511825@",
+     "born": 1783,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Lucia Sekula",
+     "slug": "lucia-sekula",
+     "id": "@I504590@",
+     "born": 1815,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Maria Sekula",
+     "slug": null,
+     "id": "@I511826@",
+     "born": 1820,
+     "died": null
+    },
+    {
+     "name": "Susanna Sekula",
+     "slug": null,
+     "id": "@I511827@",
+     "born": 1823,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Maria Catharina Orešković Oreskovic",
+     "slug": "maria-catharina-oreskovic-oreskovic",
+     "id": "@I633@",
+     "born": 1835,
+     "died": null
+    },
+    {
+     "name": "Margarita Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504952@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Orešković Oreskovic",
+     "slug": null,
+     "id": "@I511828@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Franciscus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I511824@",
+     "born": 1844,
+     "died": null
+    },
+    {
+     "name": "Petrus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I504951@",
+     "born": 1846,
+     "died": null
+    },
+    {
+     "name": "Jacobus Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504615@",
+     "born": 1852,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504590@",
@@ -1303,8 +3482,98 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899F-MQ7M?cc=2040054&wc=9R2D-16X%3A391644801%2C391674001%2C391979501 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Otočac > Church Census (Stanje duša) 1710-1846 Marriages (Vjenčani) 1859-1872 Deaths (Umrli) 1780-1836, 1859-1872 > image 36 of 384; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
+  "family": null,
   "ahn": 43,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Michael Michaelis Sekula",
+     "slug": "michael-michaelis-sekula",
+     "id": "@I504851@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Maria ?",
+     "slug": "maria",
+     "id": "@I504852@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Marcus Orešković Oreskovic",
+     "slug": "marcus-oreskovic-oreskovic",
+     "id": "@I504589@",
+     "born": 1809,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Lucas Sekula",
+     "slug": null,
+     "id": "@I511869@",
+     "born": 1816,
+     "died": null
+    },
+    {
+     "name": "Mate Matthew Matthias Mattheu Sekula",
+     "slug": null,
+     "id": "@I506431@",
+     "born": 1822,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Maria Catharina Orešković Oreskovic",
+     "slug": "maria-catharina-oreskovic-oreskovic",
+     "id": "@I633@",
+     "born": 1835,
+     "died": null
+    },
+    {
+     "name": "Margarita Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504952@",
+     "born": 1837,
+     "died": null
+    },
+    {
+     "name": "Francisca Orešković Oreskovic",
+     "slug": null,
+     "id": "@I511828@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Franciscus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I511824@",
+     "born": 1844,
+     "died": null
+    },
+    {
+     "name": "Petrus Orešković Oreskovic Sekula",
+     "slug": null,
+     "id": "@I504951@",
+     "born": 1846,
+     "died": null
+    },
+    {
+     "name": "Jacobus Orešković Oreskovic",
+     "slug": null,
+     "id": "@I504615@",
+     "born": 1852,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504623@",
@@ -1345,8 +3614,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 48,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic-2",
+     "id": "@I504627@",
+     "born": 1739,
+     "died": 1793
+    },
+    {
+     "name": "Ursula",
+     "slug": "ursula",
+     "id": "@I504628@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Margarita (Martha) Lončarić",
+     "slug": "margarita-martha-loncaric",
+     "id": "@I504624@",
+     "born": 1777,
+     "died": 1829,
+     "marriedDate": "18 OCT 1798",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Josephum Antić",
+     "slug": "josephum-antic",
+     "id": "@I504616@",
+     "born": 1806,
+     "died": 1850
+    }
+   ]
+  }
  },
  {
   "id": "@I504624@",
@@ -1387,8 +3696,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 49,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Pauli Lončarić",
+     "slug": "pauli-loncaric",
+     "id": "@I504629@",
+     "born": 1741,
+     "died": 1811
+    },
+    {
+     "name": "Anna Papić",
+     "slug": "anna-papic",
+     "id": "@I504630@",
+     "born": 1742,
+     "died": 1807
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic",
+     "id": "@I504623@",
+     "born": 1765,
+     "died": 1829,
+     "marriedDate": "18 OCT 1798",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Josephum Antić",
+     "slug": "josephum-antic",
+     "id": "@I504616@",
+     "born": 1806,
+     "died": 1850
+    }
+   ]
+  }
  },
  {
   "id": "@I504625@",
@@ -1429,8 +3778,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 50,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Mathia Jelličić",
+     "slug": "mathia-jellicic",
+     "id": "@I504631@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Margarita",
+     "slug": "margarita",
+     "id": "@I504632@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Margarita Brozović",
+     "slug": "margarita-brozovic",
+     "id": "@I504626@",
+     "born": 1784,
+     "died": 1842,
+     "marriedDate": "14 OCT 1800",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Maria Jelličić",
+     "slug": "maria-jellicic",
+     "id": "@I504617@",
+     "born": 1809,
+     "died": 1882
+    }
+   ]
+  }
  },
  {
   "id": "@I504626@",
@@ -1471,8 +3860,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 51,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Joanni Brozović",
+     "slug": "joanni-brozovic",
+     "id": "@I504633@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Catharina",
+     "slug": "catharina-2",
+     "id": "@I504634@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Georgi Juraj Jelličić",
+     "slug": "georgi-juraj-jellicic",
+     "id": "@I504625@",
+     "born": 1767,
+     "died": 1832,
+     "marriedDate": "14 OCT 1800",
+     "marriedPlace": "Selce"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Maria Jelličić",
+     "slug": "maria-jellicic",
+     "id": "@I504617@",
+     "born": 1809,
+     "died": 1882
+    }
+   ]
+  }
  },
  {
   "id": "@I1050@",
@@ -1513,8 +3942,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 52,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Jacob Pilipic",
+     "slug": "jacob-pilipic",
+     "id": "@I1852@",
+     "born": null,
+     "died": 1778
+    },
+    {
+     "name": "Catherina (Catta) Luckinić",
+     "slug": "catherina-catta-luckinic",
+     "id": "@I1853@",
+     "born": 1727,
+     "died": 1790
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Oliva Maria Smojver",
+     "slug": "oliva-maria-smojver",
+     "id": "@I1049@",
+     "born": 1781,
+     "died": null,
+     "marriedDate": "14 FEB 1798",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "id": "@I635@",
+     "born": 1805,
+     "died": 1897
+    }
+   ]
+  }
  },
  {
   "id": "@I1049@",
@@ -1555,8 +4024,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 53,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Vicentius Fabiano Smojver Vukić",
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "id": "@I1850@",
+     "born": 1754,
+     "died": null
+    },
+    {
+     "name": "Oliva Andreana Bacchi",
+     "slug": "oliva-andreana-bacchi",
+     "id": "@I1851@",
+     "born": null,
+     "died": 1795
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Josephus (Josip) Pilipic",
+     "slug": "josephus-josip-pilipic",
+     "id": "@I1050@",
+     "born": 1768,
+     "died": 1828,
+     "marriedDate": "14 FEB 1798",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "id": "@I635@",
+     "born": 1805,
+     "died": 1897
+    }
+   ]
+  }
  },
  {
   "id": "@I1051@",
@@ -1602,8 +4111,56 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 54,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Georgi Uroda",
+     "slug": "georgi-uroda",
+     "id": "@I1854@",
+     "born": null,
+     "died": 1791
+    },
+    {
+     "name": "Maria Uroda",
+     "slug": "maria-uroda",
+     "id": "@I1855@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Mariam Gerkacs (Gergacs)",
+     "slug": "mariam-gerkacs-gergacs",
+     "id": "@I1052@",
+     "born": 1789,
+     "died": 1834,
+     "marriedDate": "17 JUN 1807",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Anton Joanis Uroda",
+     "slug": null,
+     "id": "@I504622@",
+     "born": 1780,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Matia (Mathiam Georgiam) Uroda",
+     "slug": "matia-mathiam-georgiam-uroda",
+     "id": "@I636@",
+     "born": 1810,
+     "died": 1886
+    }
+   ]
+  }
  },
  {
   "id": "@I1052@",
@@ -1642,8 +4199,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 55,
-  "gen": 6
+  "gen": 6,
+  "rel": {
+   "parents": [
+    {
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "id": "@I1856@",
+     "born": 1762,
+     "died": 1836
+    },
+    {
+     "name": "Lucia (Maja) Tomljanović",
+     "slug": "lucia-maja-tomljanovic",
+     "id": "@I1857@",
+     "born": null,
+     "died": 1809
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "slug": "joannis-georgius-georgio-uroda",
+     "id": "@I1051@",
+     "born": 1777,
+     "died": null,
+     "marriedDate": "17 JUN 1807",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Matia (Mathiam Georgiam) Uroda",
+     "slug": "matia-mathiam-georgiam-uroda",
+     "id": "@I636@",
+     "born": 1810,
+     "died": 1886
+    }
+   ]
+  }
  },
  {
   "id": "@I1847@",
@@ -1682,8 +4279,60 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 64,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Mateša Blažević",
+     "slug": "matesa-blazevic",
+     "id": "@I3431@",
+     "born": 1750,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Šimun Blazevic",
+     "slug": "simun-blazevic",
+     "id": "@I501785@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Lukina Blazevic",
+     "slug": "lukina-blazevic",
+     "id": "@I501786@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Mijat Blazevic",
+     "slug": "mijat-blazevic",
+     "id": "@I501787@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Ilija Blažević",
+     "slug": "ilija-blazevic",
+     "id": "@I1047@",
+     "born": 1790,
+     "died": null
+    },
+    {
+     "name": "Ive Blazevic",
+     "slug": "ive-blazevic",
+     "id": "@I501784@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I506506@",
@@ -1707,8 +4356,23 @@
   "sources": [],
   "notes": [],
   "events": [],
+  "family": "zubrinic",
   "ahn": 80,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Toma Žubrinić",
+     "slug": "toma-zubrinic",
+     "id": "@I1046@",
+     "born": 1768,
+     "died": 1838
+    }
+   ]
+  }
  },
  {
   "id": "@I511823@",
@@ -1747,12 +4411,44 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 84,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Maria",
+     "slug": "maria-2",
+     "id": "@I511825@",
+     "born": 1783,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Maria Sekula",
+     "slug": null,
+     "id": "@I511826@",
+     "born": 1820,
+     "died": null
+    },
+    {
+     "name": "Susanna Sekula",
+     "slug": null,
+     "id": "@I511827@",
+     "born": 1823,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I511825@",
-  "slug": "maria",
+  "slug": "maria-2",
   "name": "Maria",
   "given": "Maria",
   "surname": "",
@@ -1787,8 +4483,40 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 85,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Vitus Sekula",
+     "slug": "vitus-sekula",
+     "id": "@I511823@",
+     "born": 1787,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Maria Sekula",
+     "slug": null,
+     "id": "@I511826@",
+     "born": 1820,
+     "died": null
+    },
+    {
+     "name": "Susanna Sekula",
+     "slug": null,
+     "id": "@I511827@",
+     "born": 1823,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504851@",
@@ -1820,12 +4548,51 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 86,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Maria ?",
+     "slug": "maria",
+     "id": "@I504852@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Lucia Sekula",
+     "slug": "lucia-sekula",
+     "id": "@I504590@",
+     "born": 1815,
+     "died": null
+    },
+    {
+     "name": "Lucas Sekula",
+     "slug": null,
+     "id": "@I511869@",
+     "born": 1816,
+     "died": null
+    },
+    {
+     "name": "Mate Matthew Matthias Mattheu Sekula",
+     "slug": null,
+     "id": "@I506431@",
+     "born": 1822,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504852@",
-  "slug": "maria-2",
+  "slug": "maria",
   "name": "Maria ?",
   "given": "Maria ?",
   "surname": "",
@@ -1853,8 +4620,47 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 87,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Michael Michaelis Sekula",
+     "slug": "michael-michaelis-sekula",
+     "id": "@I504851@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Lucia Sekula",
+     "slug": "lucia-sekula",
+     "id": "@I504590@",
+     "born": 1815,
+     "died": null
+    },
+    {
+     "name": "Lucas Sekula",
+     "slug": null,
+     "id": "@I511869@",
+     "born": 1816,
+     "died": null
+    },
+    {
+     "name": "Mate Matthew Matthias Mattheu Sekula",
+     "slug": null,
+     "id": "@I506431@",
+     "born": 1822,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504627@",
@@ -1895,8 +4701,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 96,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Ursula",
+     "slug": "ursula",
+     "id": "@I504628@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic",
+     "id": "@I504623@",
+     "born": 1765,
+     "died": 1829
+    }
+   ]
+  }
  },
  {
   "id": "@I504628@",
@@ -1930,8 +4761,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 97,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic-2",
+     "id": "@I504627@",
+     "born": 1739,
+     "died": 1793,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic",
+     "id": "@I504623@",
+     "born": 1765,
+     "died": 1829
+    }
+   ]
+  }
  },
  {
   "id": "@I504629@",
@@ -1972,8 +4828,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 98,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Anna Papić",
+     "slug": "anna-papic",
+     "id": "@I504630@",
+     "born": 1742,
+     "died": 1807,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Margarita (Martha) Lončarić",
+     "slug": "margarita-martha-loncaric",
+     "id": "@I504624@",
+     "born": 1777,
+     "died": 1829
+    }
+   ]
+  }
  },
  {
   "id": "@I504630@",
@@ -2014,8 +4895,33 @@
     "note": ""
    }
   ],
+  "family": "papic",
   "ahn": 99,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Pauli Lončarić",
+     "slug": "pauli-loncaric",
+     "id": "@I504629@",
+     "born": 1741,
+     "died": 1811,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Margarita (Martha) Lončarić",
+     "slug": "margarita-martha-loncaric",
+     "id": "@I504624@",
+     "born": 1777,
+     "died": 1829
+    }
+   ]
+  }
  },
  {
   "id": "@I504631@",
@@ -2049,8 +4955,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 100,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Margarita",
+     "slug": "margarita",
+     "id": "@I504632@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Georgi Juraj Jelličić",
+     "slug": "georgi-juraj-jellicic",
+     "id": "@I504625@",
+     "born": 1767,
+     "died": 1832
+    }
+   ]
+  }
  },
  {
   "id": "@I504632@",
@@ -2084,8 +5015,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 101,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Mathia Jelličić",
+     "slug": "mathia-jellicic",
+     "id": "@I504631@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Georgi Juraj Jelličić",
+     "slug": "georgi-juraj-jellicic",
+     "id": "@I504625@",
+     "born": 1767,
+     "died": 1832
+    }
+   ]
+  }
  },
  {
   "id": "@I504633@",
@@ -2119,12 +5075,37 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 102,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Catharina",
+     "slug": "catharina-2",
+     "id": "@I504634@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Margarita Brozović",
+     "slug": "margarita-brozovic",
+     "id": "@I504626@",
+     "born": 1784,
+     "died": 1842
+    }
+   ]
+  }
  },
  {
   "id": "@I504634@",
-  "slug": "catharina",
+  "slug": "catharina-2",
   "name": "Catharina",
   "given": "Catharina",
   "surname": "",
@@ -2154,8 +5135,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 103,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Joanni Brozović",
+     "slug": "joanni-brozovic",
+     "id": "@I504633@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Margarita Brozović",
+     "slug": "margarita-brozovic",
+     "id": "@I504626@",
+     "born": 1784,
+     "died": 1842
+    }
+   ]
+  }
  },
  {
   "id": "@I1852@",
@@ -2201,8 +5207,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 104,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Catherina (Catta) Luckinić",
+     "slug": "catherina-catta-luckinic",
+     "id": "@I1853@",
+     "born": 1727,
+     "died": 1790,
+     "marriedDate": "22 NOV 1747",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Josephus (Josip) Pilipic",
+     "slug": "josephus-josip-pilipic",
+     "id": "@I1050@",
+     "born": 1768,
+     "died": 1828
+    }
+   ]
+  }
  },
  {
   "id": "@I1853@",
@@ -2241,8 +5272,56 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 105,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Vicentius (Vicko) Luckinić",
+     "slug": "vicentius-vicko-luckinic",
+     "id": "@I3444@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Maria Luckinić",
+     "slug": "maria-luckinic",
+     "id": "@I3445@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Jacob Pilipic",
+     "slug": "jacob-pilipic",
+     "id": "@I1852@",
+     "born": null,
+     "died": 1778,
+     "marriedDate": "22 NOV 1747",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Mare Luckinić",
+     "slug": null,
+     "id": "@I504619@",
+     "born": 1725,
+     "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "Josephus (Josip) Pilipic",
+     "slug": "josephus-josip-pilipic",
+     "id": "@I1050@",
+     "born": 1768,
+     "died": 1828
+    }
+   ]
+  }
  },
  {
   "id": "@I1850@",
@@ -2283,8 +5362,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 106,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Josiph Smojver Vukić",
+     "slug": "josiph-smojver-vukic",
+     "id": "@I3442@",
+     "born": 1731,
+     "died": 1776
+    },
+    {
+     "name": "Antonia Pekass (Pekkas)",
+     "slug": "antonia-pekass-pekkas",
+     "id": "@I3441@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Oliva Andreana Bacchi",
+     "slug": "oliva-andreana-bacchi",
+     "id": "@I1851@",
+     "born": null,
+     "died": 1795,
+     "marriedDate": "2 MAY 1774",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Oliva Maria Smojver",
+     "slug": "oliva-maria-smojver",
+     "id": "@I1049@",
+     "born": 1781,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1851@",
@@ -2319,8 +5438,41 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 107,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Caetano Bacchi",
+     "slug": "caetano-bacchi",
+     "id": "@I3443@",
+     "born": 1779,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Vicentius Fabiano Smojver Vukić",
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "id": "@I1850@",
+     "born": 1754,
+     "died": null,
+     "marriedDate": "2 MAY 1774",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Oliva Maria Smojver",
+     "slug": "oliva-maria-smojver",
+     "id": "@I1049@",
+     "born": 1781,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1854@",
@@ -2352,8 +5504,40 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 108,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Maria Uroda",
+     "slug": "maria-uroda",
+     "id": "@I1855@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "slug": "joannis-georgius-georgio-uroda",
+     "id": "@I1051@",
+     "born": 1777,
+     "died": null
+    },
+    {
+     "name": "Anton Joanis Uroda",
+     "slug": null,
+     "id": "@I504622@",
+     "born": 1780,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1855@",
@@ -2387,8 +5571,40 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 109,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Georgi Uroda",
+     "slug": "georgi-uroda",
+     "id": "@I1854@",
+     "born": null,
+     "died": 1791,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "slug": "joannis-georgius-georgio-uroda",
+     "id": "@I1051@",
+     "born": 1777,
+     "died": null
+    },
+    {
+     "name": "Anton Joanis Uroda",
+     "slug": null,
+     "id": "@I504622@",
+     "born": 1780,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I1856@",
@@ -2427,8 +5643,41 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 110,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Nicolaus Gerkacs",
+     "slug": "nicolaus-gerkacs",
+     "id": "@I3446@",
+     "born": 1717,
+     "died": 1783
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Lucia (Maja) Tomljanović",
+     "slug": "lucia-maja-tomljanovic",
+     "id": "@I1857@",
+     "born": null,
+     "died": 1809,
+     "marriedDate": "2 NOV 1785",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mariam Gerkacs (Gergacs)",
+     "slug": "mariam-gerkacs-gergacs",
+     "id": "@I1052@",
+     "born": 1789,
+     "died": 1834
+    }
+   ]
+  }
  },
  {
   "id": "@I1857@",
@@ -2469,8 +5718,41 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 111,
-  "gen": 7
+  "gen": 7,
+  "rel": {
+   "parents": [
+    {
+     "name": "Pauli Tomljanović",
+     "slug": "pauli-tomljanovic",
+     "id": "@I3447@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "id": "@I1856@",
+     "born": 1762,
+     "died": 1836,
+     "marriedDate": "2 NOV 1785",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mariam Gerkacs (Gergacs)",
+     "slug": "mariam-gerkacs-gergacs",
+     "id": "@I1052@",
+     "born": 1789,
+     "died": 1834
+    }
+   ]
+  }
  },
  {
   "id": "@I3431@",
@@ -2509,8 +5791,44 @@
     "note": ""
    }
   ],
+  "family": "blazevic",
   "ahn": 128,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Grgica Blažević",
+     "slug": "grgica-blazevic",
+     "id": "@I1847@",
+     "born": 1770,
+     "died": null
+    },
+    {
+     "name": "Šimun Blazevic",
+     "slug": "simun-blazevic",
+     "id": "@I501785@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Lukina Blazevic",
+     "slug": "lukina-blazevic",
+     "id": "@I501786@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Mijat Blazevic",
+     "slug": "mijat-blazevic",
+     "id": "@I501787@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I3444@",
@@ -2544,8 +5862,40 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 210,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Maria Luckinić",
+     "slug": "maria-luckinic",
+     "id": "@I3445@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mare Luckinić",
+     "slug": null,
+     "id": "@I504619@",
+     "born": 1725,
+     "died": null
+    },
+    {
+     "name": "Catherina (Catta) Luckinić",
+     "slug": "catherina-catta-luckinic",
+     "id": "@I1853@",
+     "born": 1727,
+     "died": 1790
+    }
+   ]
+  }
  },
  {
   "id": "@I3445@",
@@ -2577,8 +5927,40 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 211,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Vicentius (Vicko) Luckinić",
+     "slug": "vicentius-vicko-luckinic",
+     "id": "@I3444@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mare Luckinić",
+     "slug": null,
+     "id": "@I504619@",
+     "born": 1725,
+     "died": null
+    },
+    {
+     "name": "Catherina (Catta) Luckinić",
+     "slug": "catherina-catta-luckinic",
+     "id": "@I1853@",
+     "born": 1727,
+     "died": 1790
+    }
+   ]
+  }
  },
  {
   "id": "@I3442@",
@@ -2620,8 +6002,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 212,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Antonia Pekass (Pekkas)",
+     "slug": "antonia-pekass-pekkas",
+     "id": "@I3441@",
+     "born": null,
+     "died": null,
+     "marriedDate": "20 NOV 1752",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Vicentius Fabiano Smojver Vukić",
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "id": "@I1850@",
+     "born": 1754,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I3441@",
@@ -2655,8 +6062,48 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 213,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [
+    {
+     "name": "Simoni Pekass (Pekkas)",
+     "slug": "simoni-pekass-pekkas",
+     "id": "@I504595@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Mara (Maria) Pekass",
+     "slug": "mara-maria-pekass",
+     "id": "@I504596@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Josiph Smojver Vukić",
+     "slug": "josiph-smojver-vukic",
+     "id": "@I3442@",
+     "born": 1731,
+     "died": 1776,
+     "marriedDate": "20 NOV 1752",
+     "marriedPlace": "Karlobag"
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Vicentius Fabiano Smojver Vukić",
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "id": "@I1850@",
+     "born": 1754,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I3443@",
@@ -2697,8 +6144,38 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 214,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [
+    {
+     "name": "Angelo Bacchi",
+     "slug": "angelo-bacchi",
+     "id": "@I504620@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Catharina",
+     "slug": "catharina",
+     "id": "@I504621@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Oliva Andreana Bacchi",
+     "slug": "oliva-andreana-bacchi",
+     "id": "@I1851@",
+     "born": null,
+     "died": 1795
+    }
+   ]
+  }
  },
  {
   "id": "@I3446@",
@@ -2739,8 +6216,23 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 220,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "id": "@I1856@",
+     "born": 1762,
+     "died": 1836
+    }
+   ]
+  }
  },
  {
   "id": "@I3447@",
@@ -2779,8 +6271,23 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 222,
-  "gen": 8
+  "gen": 8,
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Lucia (Maja) Tomljanović",
+     "slug": "lucia-maja-tomljanovic",
+     "id": "@I1857@",
+     "born": null,
+     "died": 1809
+    }
+   ]
+  }
  },
  {
   "id": "@I504595@",
@@ -2821,8 +6328,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 426,
-  "gen": 9
+  "gen": 9,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Mara (Maria) Pekass",
+     "slug": "mara-maria-pekass",
+     "id": "@I504596@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Antonia Pekass (Pekkas)",
+     "slug": "antonia-pekass-pekkas",
+     "id": "@I3441@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504596@",
@@ -2856,8 +6388,33 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 427,
-  "gen": 9
+  "gen": 9,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Simoni Pekass (Pekkas)",
+     "slug": "simoni-pekass-pekkas",
+     "id": "@I504595@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Antonia Pekass (Pekkas)",
+     "slug": "antonia-pekass-pekkas",
+     "id": "@I3441@",
+     "born": null,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504620@",
@@ -2889,12 +6446,37 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 428,
-  "gen": 9
+  "gen": 9,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Catharina",
+     "slug": "catharina",
+     "id": "@I504621@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Caetano Bacchi",
+     "slug": "caetano-bacchi",
+     "id": "@I3443@",
+     "born": 1779,
+     "died": null
+    }
+   ]
+  }
  },
  {
   "id": "@I504621@",
-  "slug": "catharina-2",
+  "slug": "catharina",
   "name": "Catharina",
   "given": "Catharina",
   "surname": "",
@@ -2922,7 +6504,32 @@
     "note": ""
    }
   ],
+  "family": null,
   "ahn": 429,
-  "gen": 9
+  "gen": 9,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Angelo Bacchi",
+     "slug": "angelo-bacchi",
+     "id": "@I504620@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Caetano Bacchi",
+     "slug": "caetano-bacchi",
+     "id": "@I3443@",
+     "born": 1779,
+     "died": null
+    }
+   ]
+  }
  }
 ]

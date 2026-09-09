@@ -2,43 +2,133 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan, evidenced } from "../../lib/people.js";
+import families from "../../data/families.json";
 
 const rows = [...people].sort((a, b) =>
   (a.surname || "").localeCompare(b.surname || "") ||
   (a.byear || 9999) - (b.byear || 9999) || a.name.localeCompare(b.name));
 const withSrc = rows.filter(evidenced).length;
+const ancestors = rows.filter((p) => p.ancestor).length;
+const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
 ---
 <Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records`}
   dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here.">
 
   <section class="blk">
     <div class="grid three">
-      <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published people</div></div>
-      <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry at least one source
-        string</div></div>
-      <div class="stat"><div class="n">{(rows.length - withSrc).toLocaleString()}</div><div class="l">carry none at
-        all</div></div>
+      <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published
+        people</div></div>
+      <div class="stat"><div class="n">{ancestors}</div><div class="l">direct ancestors of
+        Hedviga</div></div>
+      <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry at least
+        one source string; {(rows.length - withSrc).toLocaleString()} carry none</div></div>
     </div>
     <p class="note" style="margin-top:1.2rem">A source string here usually means
     <em>another online tree</em>. It is a witness, not a document. The column is shown because the
     difference between “someone else also says this” and “a register says this” is the whole
-    difference between a family story and a family history.</p>
+    difference between a family story and a family history. <a href={u("/method")}>Method →</a></p>
   </section>
 
   <section class="blk">
-    <table class="reg">
-      <thead><tr><th>Name</th><th>Lived</th><th>Born at</th><th>Ev.</th></tr></thead>
-      <tbody>
-        {rows.map((p) => (
-          <tr>
-            <td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
-              <span class="tag">ancestor</span>}</td>
-            <td class="mono">{lifespan(p)}</td>
-            <td class="dim">{p.bornPlace || p.diedPlace || ""}</td>
-            <td class="mono">{evidenced(p) ? "·" : "—"}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <div class="finder">
+      <label class="srch">
+        <span class="lab">Search</span>
+        <input id="q" type="search" placeholder="name, place, year…" autocomplete="off" />
+      </label>
+      <div class="chips" id="fams">
+        <button class="chip on" data-fam="">All lines</button>
+        {families.map((f) => <button class="chip" data-fam={f.slug}>{f.label}</button>)}
+      </div>
+      <div class="chips">
+        <button class="chip" data-only="anc">Direct ancestors</button>
+        <button class="chip" data-only="src">With a source</button>
+        <button class="chip" data-only="nosrc">With none</button>
+      </div>
+      <p class="count" id="count"></p>
+    </div>
+
+    <div class="tblwrap">
+      <table class="reg" id="reg">
+        <thead><tr><th>Name</th><th>Lived</th><th>Born at</th><th>Line</th><th>Ev.</th></tr></thead>
+        <tbody>
+          {rows.map((p) => (
+            <tr data-fam={p.family || ""}
+                data-anc={p.ancestor ? "1" : ""}
+                data-src={evidenced(p) ? "1" : ""}
+                data-s={`${p.name} ${p.bornPlace || ""} ${p.diedPlace || ""} ${p.byear || ""} ${p.dyear || ""}`.toLowerCase()}>
+              <td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
+                <span class="tag">ancestor</span>}</td>
+              <td class="mono">{lifespan(p)}</td>
+              <td class="dim">{p.bornPlace || p.diedPlace || ""}</td>
+              <td class="dim">{label[p.family] || p.surname}</td>
+              <td class="mono">{evidenced(p) ? "·" : "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="dek" id="none" hidden>Nothing matches. Try a shorter search — the register holds
+    Latin, Croatian and anglicised spellings of the same names, so <em>zubrin</em> finds more than
+    <em>Žubrinić</em>.</p>
   </section>
+
+<script is:inline>
+  (function () {
+    var q = document.getElementById("q");
+    var tbody = document.querySelector("#reg tbody");
+    var rows = [].slice.call(tbody.rows);
+    var count = document.getElementById("count");
+    var none = document.getElementById("none");
+    var fam = "", only = "";
+
+    // Latin, Croatian and anglicised spellings of one name must all match, so
+    // the search folds diacritics and the X-for-Z convention before comparing.
+    function fold(s) {
+      return s.toLowerCase()
+        .replace(/[žŽ]/g, "z").replace(/[ćĆčČ]/g, "c")
+        .replace(/[šŠ]/g, "s").replace(/[đĐ]/g, "d")
+        .replace(/\bx/g, "z").replace(/ich\b/g, "ic");
+    }
+    rows.forEach(function (r) { r.dataset.f = fold(r.dataset.s); });
+
+    function apply() {
+      var t = fold(q.value.trim());
+      var n = 0;
+      rows.forEach(function (r) {
+        var ok = (!t || r.dataset.f.indexOf(t) > -1)
+          && (!fam || r.dataset.fam === fam)
+          && (only !== "anc" || r.dataset.anc)
+          && (only !== "src" || r.dataset.src)
+          && (only !== "nosrc" || !r.dataset.src);
+        r.hidden = !ok;
+        if (ok) n++;
+      });
+      count.textContent = n === rows.length
+        ? rows.length.toLocaleString() + " people"
+        : n.toLocaleString() + " of " + rows.length.toLocaleString() + " people";
+      none.hidden = n > 0;
+    }
+
+    q.addEventListener("input", apply);
+    document.querySelectorAll(".chip[data-fam]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        document.querySelectorAll(".chip[data-fam]").forEach(function (o) {
+          o.classList.remove("on");
+        });
+        b.classList.add("on"); fam = b.dataset.fam; apply();
+      });
+    });
+    document.querySelectorAll(".chip[data-only]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var was = b.classList.contains("on");
+        document.querySelectorAll(".chip[data-only]").forEach(function (o) {
+          o.classList.remove("on");
+        });
+        if (was) { only = ""; } else { b.classList.add("on"); only = b.dataset.only; }
+        apply();
+      });
+    });
+    apply();
+  })();
+</script>
 </Base>

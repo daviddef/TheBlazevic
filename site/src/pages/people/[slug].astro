@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan } from "../../lib/people.js";
+import corrections from "../../data/corrections.json";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -10,9 +11,33 @@ const { p } = Astro.props;
 const occ = (p.occupations || []).filter((o) => o.what || o.where);
 const events = (p.events || []).filter((e) => e.date || e.place || e.note || e.detail);
 const notes = (p.notes || []).filter((n) => n && n.length > 2);
+const rel = p.rel || null;
+const parents = rel?.parents ?? [];
+const spouses = rel?.spouses ?? [];
+const siblings = rel?.siblings ?? [];
+const children = rel?.children ?? [];
+const fixes = corrections.filter((c) => c.id === p.id);
+const KIND = { corrected: "Corrected against the register",
+               disputed: "Disputed — this attachment does not hold",
+               upgraded: "Upgraded — now documented",
+               note: "Noted" };
 ---
 <Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
+
+  {fixes.length > 0 && fixes.map((c) => (
+    <section class="blk">
+      <div class={`fix ${c.kind}`}>
+        <div class="lab">{KIND[c.kind]}</div>
+        <h2 style="margin-top:.3rem">{c.what}</h2>
+        <table class="kv tight" style="margin-top:.6rem">
+          <tr><th>The tree says</th><td>{c.tree}</td></tr>
+          <tr><th>The record says</th><td><strong>{c.record}</strong></td></tr>
+        </table>
+        <p style="margin-top:.9rem">{c.why} <a href={u(c.href)}>Read it →</a></p>
+      </div>
+    </section>
+  ))}
 
   <section class="blk">
     <table class="kv">
@@ -24,10 +49,49 @@ const notes = (p.notes || []).filter((n) => n && n.length > 2);
       {occ.length > 0 && (
         <tr><th>Occupation</th><td>{occ.map((o) => (
           <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
-      {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}</td></tr>}
+      {p.family && <tr><th>Line</th><td><a href={u(`/${["blazevic","zubrinic","papic","prpic"].includes(p.family) ? p.family : "families"}`)}>{p.surname}</a></td></tr>}
+      {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}{p.gen === 1 ? "" : ", a direct ancestor of Hedviga"}</td></tr>}
       <tr><th>Record</th><td class="mono">{p.id}</td></tr>
     </table>
   </section>
+
+  {rel && (parents.length + spouses.length + siblings.length + children.length) > 0 && (
+    <section class="blk">
+      <h2>Family</h2>
+      <div class="grid two">
+        {[["Parents", parents], ["Married", spouses],
+          ["Children", children], ["Siblings", siblings]].map(([label, list]) => (
+          list.length > 0 && (
+            <div class="card">
+              <h3>{label} <span class="dim">— {list.length}</span></h3>
+              <ul class="kin">
+                {list.map((r) => (
+                  <li>
+                    {r.withheld
+                      ? <span class="dim">— living, withheld —</span>
+                      : (r.slug
+                          ? <a href={u(`/people/${r.slug}`)}>{r.name}</a>
+                          : <span>{r.name}</span>)}
+                    {!r.withheld && (r.born || r.died) &&
+                      <span class="yrs">{r.born || "?"}–{r.died || "?"}</span>}
+                    {r.marriedDate && <span class="dim"> · m. {r.marriedDate}</span>}
+                    {!r.withheld && !r.slug &&
+                      <span class="dim" title="outside this archive's eight surnames"> ·
+                        no page</span>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        ))}
+      </div>
+      <p class="dek" style="margin-top:1rem">A relative with <strong>no page</strong> is a real
+      person in the tree who falls outside this archive's
+      <a href={u("/families")}>eight surnames</a>; they are named but not published here. A relative
+      marked <strong>withheld</strong> is judged living and is named nowhere in this build.
+      <a href={u("/method")}>Method →</a></p>
+    </section>
+  )}
 
   {events.length > 0 && (
     <section class="blk">

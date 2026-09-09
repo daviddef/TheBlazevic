@@ -984,3 +984,30 @@ a.pdf:hover{border-color:var(--accent);background:var(--accent-wash)}
   min-width:0}
 .bar.cro{background:var(--accent)}
 .bar.aus{background:var(--ochre)}
+
+/* Kin lists on a person page */
+ul.kin{list-style:none;padding:0;margin:8px 0 0;font-size:14.5px}
+ul.kin li{padding:5px 0;line-height:1.45;border-bottom:1px solid var(--rule)}
+ul.kin li:last-child{border-bottom:none}
+ul.kin .yrs{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-left:8px}
+
+/* The register's finder: search box and filter chips */
+.finder{margin-bottom:1.2rem}
+.srch{display:block}
+.srch input{width:100%;max-width:34rem;font-family:var(--sans);font-size:15px;padding:11px 14px;
+  border:1px solid var(--rule-strong);border-radius:3px;background:var(--panel);color:var(--ink);
+  margin-top:6px}
+.srch input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-wash)}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.chip{font-family:var(--sans);font-size:12px;line-height:1;padding:8px 11px;border-radius:999px;
+  border:1px solid var(--rule-strong);background:var(--panel);color:var(--ink-2);cursor:pointer;
+  transition:background .12s,border-color .12s,color .12s}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#FBF8F1}
+.count{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:12px}
+
+/* A correction, shown on the person's own page rather than buried in prose */
+.fix{border-left:3px solid var(--ochre);padding:2px 0 4px 20px}
+.fix.disputed{border-left-color:var(--terra)}
+.fix.upgraded{border-left-color:var(--r-modern)}
+.fix h2{font-size:22px}

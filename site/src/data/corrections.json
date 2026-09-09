@@ -1,0 +1,38 @@
+[
+ {
+  "id": "@I64@",
+  "kind": "corrected",
+  "what": "Baptism date",
+  "tree": "19 October 1886",
+  "record": "17 October 1886",
+  "why": "Senj baptisms, page 122, entry 96 gives the birth as 9 October and the baptism as 17 October. The tree's 19 is a transcription slip against the register it cites.",
+  "href": "/milka"
+ },
+ {
+  "id": "@I63@",
+  "kind": "note",
+  "what": "Birth date",
+  "tree": "1 March 1892 — correct",
+  "record": "The gravestone at Senj says 1891",
+  "why": "The 1920 marriage register, written in his lifetime from his baptismal certificate, gives 1892 1/III. The stone was cut after 1966 from memory. The archive follows the register and records the stone as wrong.",
+  "href": "/grave"
+ },
+ {
+  "id": "@I633@",
+  "kind": "disputed",
+  "what": "Attachment to this family",
+  "tree": "Wife of Michael Žubrinić; mother of Nicolaus (b. 24 January 1834)",
+  "record": "Born 8 September 1835 — twenty months after her supposed son",
+  "why": "Her baptismal entry is real and hers: Otočac 1835, entry 41, daughter of Marcus Orešković adoptatus Sekula and Lucia née Sekula of Dubrava 29. The transcription is right and the attachment is wrong. Nicolaus's own 1834 entry names his mother as an Orešković, but an earlier one, still unidentified. Six further ancestors hang below this join.",
+  "href": "/frontier"
+ },
+ {
+  "id": "@I188@",
+  "kind": "upgraded",
+  "what": "Parentage of his son Ljubomir",
+  "tree": "Asserted, with no document — this archive called it Disputed",
+  "record": "Documented: Senj marriages, 8 December 1920, page 366 entry 41",
+  "why": "The marriage entry names the groom's parents as Juraj Blažević and Tereza r. Žubrinić, and annotates them mrt. — deceased — which puts Juraj's death before December 1920. He remains undated and unplaced, and nothing yet links him to Toma above.",
+  "href": "/marriage-1920"
+ }
+]
