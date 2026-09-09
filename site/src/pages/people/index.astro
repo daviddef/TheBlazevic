@@ -109,6 +109,21 @@ const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
       none.hidden = n > 0;
     }
 
+    // Places, person pages and family pages deep-link in here with ?q=/?fam=,
+    // which is what makes a location findable rather than merely listed.
+    var params = new URLSearchParams(location.search);
+    if (params.get("q")) q.value = params.get("q");
+    var wantFam = params.get("fam");
+    if (wantFam) {
+      var b = document.querySelector('.chip[data-fam="' + wantFam + '"]');
+      if (b) {
+        document.querySelectorAll(".chip[data-fam]").forEach(function (o) {
+          o.classList.remove("on");
+        });
+        b.classList.add("on"); fam = wantFam;
+      }
+    }
+
     q.addEventListener("input", apply);
     document.querySelectorAll(".chip[data-fam]").forEach(function (b) {
       b.addEventListener("click", function () {

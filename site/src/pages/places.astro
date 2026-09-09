@@ -30,14 +30,18 @@ const key = [
 
   <section class="blk">
     <h2>Every place, counted</h2>
-    <p class="dek">Births and deaths of published people carrying one of the eight surnames. Spelling
+    <p class="dek">Every place is a link: it opens the register filtered to the people recorded
+    there. Births and deaths of published people carrying one of the eight surnames. Spelling
     variants are collapsed where they are literally the same place; nothing distinct is merged.
     House numbers are kept, because in Frontier registers the house number <em>is</em> the
     family.</p>
     <table class="reg">
       <thead><tr><th>Place</th><th>People</th></tr></thead>
       <tbody>{places.map((p) => (
-        <tr><td>{p.place}</td><td class="mono">{p.n}</td></tr>))}</tbody>
+        <tr>
+          <td><a href={u(`/people/?q=${encodeURIComponent(p.place.split(",")[0])}`)}>{p.place}</a></td>
+          <td class="mono">{p.n}</td>
+        </tr>))}</tbody>
     </table>
   </section>
 </Base>

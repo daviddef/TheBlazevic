@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan } from "../../lib/people.js";
 import corrections from "../../data/corrections.json";
+import media from "../../data/media.json";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -17,6 +18,12 @@ const spouses = rel?.spouses ?? [];
 const siblings = rel?.siblings ?? [];
 const children = rel?.children ?? [];
 const fixes = corrections.filter((c) => c.id === p.id);
+// Everything in the media library that is tagged to this person, documents
+// first, because a register scan and a holiday snapshot are not the same claim.
+const mine = media
+  .filter((m) => (m.people || []).some((x) => x.id === p.id))
+  .sort((a, b) => (a.kind === b.kind ? (b.w * b.h) - (a.w * a.h)
+                                     : a.kind === "document" ? -1 : 1));
 const KIND = { corrected: "Corrected against the register",
                disputed: "Disputed — this attachment does not hold",
                upgraded: "Upgraded — now documented",
@@ -41,15 +48,17 @@ const KIND = { corrected: "Corrected against the register",
 
   <section class="blk">
     <table class="kv">
-      {p.born && <tr><th>Born</th><td>{p.born}{p.bornPlace ? `, ${p.bornPlace}` : ""}</td></tr>}
+      {p.born && <tr><th>Born</th><td>{p.born}{p.bornPlace &&
+        <>, <a href={u(`/people/?q=${encodeURIComponent(p.bornPlace.split(",")[0])}`)}>{p.bornPlace}</a></>}</td></tr>}
       {p.baptised && <tr><th>Baptised</th><td>{p.baptised}{p.baptisedPlace ? `, ${p.baptisedPlace}` : ""}</td></tr>}
-      {p.died && <tr><th>Died</th><td>{p.died}{p.diedPlace ? `, ${p.diedPlace}` : ""}</td></tr>}
+      {p.died && <tr><th>Died</th><td>{p.died}{p.diedPlace &&
+        <>, <a href={u(`/people/?q=${encodeURIComponent(p.diedPlace.split(",")[0])}`)}>{p.diedPlace}</a></>}</td></tr>}
       {p.cause && <tr><th>Cause</th><td class="mono">{p.cause}</td></tr>}
       {p.burial && <tr><th>Buried</th><td>{p.burial}</td></tr>}
       {occ.length > 0 && (
         <tr><th>Occupation</th><td>{occ.map((o) => (
           <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
-      {p.family && <tr><th>Line</th><td><a href={u(`/${["blazevic","zubrinic","papic","prpic"].includes(p.family) ? p.family : "families"}`)}>{p.surname}</a></td></tr>}
+      {p.family && <tr><th>Line</th><td><a href={u(`/${["blazevic","zubrinic","papic","prpic"].includes(p.family) ? p.family : "families"}`)}>{p.surname}</a> · <a href={u(`/people/?fam=${p.family}`)}>everyone of the name →</a></td></tr>}
       {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}{p.gen === 1 ? "" : ", a direct ancestor of Hedviga"}</td></tr>}
       <tr><th>Record</th><td class="mono">{p.id}</td></tr>
     </table>
@@ -115,6 +124,39 @@ const KIND = { corrected: "Corrected against the register",
       <p class="dek">Reproduced as written, minus the automated copy-reference boilerplate. These
       are what the family and other researchers put down, not what this archive has verified.</p>
       {notes.map((n) => <blockquote class="note">{n}</blockquote>)}
+    </section>
+  )}
+
+  {mine.length > 0 && (
+    <section class="blk">
+      <h2>Documents and photographs</h2>
+      <p class="dek">{mine.filter((m) => m.kind === "document").length} document{
+        mine.filter((m) => m.kind === "document").length === 1 ? "" : "s"} and {
+        mine.filter((m) => m.kind === "photograph").length} photograph{
+        mine.filter((m) => m.kind === "photograph").length === 1 ? "" : "s"} in the
+        MyHeritage media library carry this person's tag. None of them travelled in the GEDCOM.
+        <a href={u("/pictures")}>All of them →</a></p>
+      <div class="photos">
+        {mine.map((m) => (
+          <figure>
+            {m.type === "document"
+              ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
+              : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
+            <figcaption>
+              <strong>{/^\d|^scan|^IMG|unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
+              {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
+              {m.kind === "document" && <span class="tag">document</span>}
+              {m.people.length > 1 && (
+                <div class="dim">Also tagged: {m.people.filter((x) => x.id !== p.id)
+                  .map((x, i) => (<>{i > 0 && ", "}{x.slug
+                    ? <a href={u(`/people/${x.slug}`)}>{x.name}</a> : x.name}</>))}</div>)}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+      <p class="note"><strong>A tag says somebody linked this image to this person</strong> — not
+      that the person is in it. A register page is tagged to everyone it names.
+      <a href={u("/method")}>Method →</a></p>
     </section>
   )}
 
