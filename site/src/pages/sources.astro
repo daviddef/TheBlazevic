@@ -76,6 +76,9 @@ const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familys
       <li><strong>Forebears</strong> — surname incidence and density by country and Croatian county.
         Built on national registers; good for orders of magnitude, not a census.
         <a href={u("/name")}>Used here →</a></li>
+      <li>Wikipedia and the standard literature on the <strong>Croatian Military Frontier</strong>,
+        the <strong>Karlovac Generalate</strong> and the Otočac captaincy and regiment.
+        <a href={u("/frontier")}>Used here →</a></li>
       <li><strong>Hrvatska znanstvena bibliografija / Hrčak</strong> — Croatian scholarship on the
         <em>Bunjevci Krmpoćani</em> settlement of the Senj mountain.
         <a href={u("/bunjevci")}>Used here →</a></li>
@@ -90,6 +93,17 @@ const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familys
         (<em>Njemačko bombardiranje Senja 1943.</em>), for the dates, the casualty figures and the
         proportion of the town destroyed. <a href={u("/senj-1943")}>Used here →</a></li>
     </ul>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Consulted, and rejected</div>
+    <h2>One source this archive will not use</h2>
+    <p class="note">An automated surname-origin website was consulted for
+    <strong>Žubrinić</strong> and is <strong>not relied on anywhere here</strong>. It offers two
+    unrelated etymologies in the same article, places the name in Dalmatia when its Croatian density
+    is highest in Lika-Senj, and names a <strong>“Petar Žubrinić, 18th-century Croatian ban”</strong>
+    who did not exist — the bans of that century were Pálffy, Drašković, Eszterházy, Branyng,
+    Batthyány, Nádasdy, Esterházy, Balassa and Erdődy. <a href={u("/name")}>The full check →</a></p>
   </section>
 
   <section class="blk">
