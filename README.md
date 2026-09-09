@@ -133,6 +133,15 @@ media does not export. They changed the archive's own conclusions:
   17 December 1951; reg. 152/1954) confirms Hedviga's own birth from a state record, gives her
   husband's nationality as **Italian**, and was certified for the **Supreme Court of South
   Africa** — emigration paperwork as well as a birth record.
+- **Three Arolsen Archives cards** place Hedviga's husband, aged **sixteen**, in Germany:
+  *Hilfsarbeiter* — unskilled labourer — at **Licht und Kraft, Reutlingen** from
+  **21 October 1941**, lodging at Brunnenstraße 7, Pfullingen, with a second Reutlingen employer
+  from January 1942. Identity is firm: all three give the birth as 25 June 1925 at Crikvenica,
+  matching the civil extract. **Whether he was forced or free is not established** — the three
+  printed lines on the 1950 questionnaires that would say so (*restlos entlohnt*,
+  *dienstverpflichtet*, *freier Arbeiter*) were all left blank, and the collection's title,
+  "card file of persecutees", names a zone-wide registration file rather than a finding about
+  anyone in it.
 
 **Still resting on the tree:** no death certificate for Hedviga (Johannesburg 2001) or Ivan
 (Senj 1995), and no record of Milka's first marriage. And the gravestone dates Ljubomir's birth to
