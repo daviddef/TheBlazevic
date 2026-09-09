@@ -228,6 +228,34 @@ const max = 33;
   </section>
 
   <section class="blk">
+    <div class="lab">Addresses the tree does not hold</div>
+    <h2>Two houses that only a daughter's wedding records</h2>
+    <p class="lede">Everything above is reduced from the tree. But a marriage entry names the
+    bride's parents, their occupation <em>and their house</em> — so a woman's wedding is often the
+    only place a dead mother's maiden name and address were ever written down. Reading eleven
+    collateral marriages produced two addresses that appear nowhere in the export.</p>
+    <table class="reg">
+      <thead><tr><th>Address</th><th>Family</th><th>How it surfaced</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Poljice kbr. 38</strong><br /><span class="dim">župa Otočac</span></td>
+          <td><strong>Žubrinić</strong></td>
+          <td>Katica Gomerčić's marriage, 24 July 1911. Her mother is entered
+            <strong>†Marija rodj. Žubrinić</strong>, <em>poljodjelka</em> of Poljice 38. The
+            gazetteer above knows the Otočac Žubrinići at Otočac, Prozor and Šumećica — not here.</td></tr>
+        <tr><td><strong>Mrzli Dol kbr. 53</strong><br /><span class="dim">župa Krivi Put</span></td>
+          <td><strong>Prpić</strong></td>
+          <td>Lucija Prpić's marriage, 18 May 1913 — <em>poljodjelci iz Mrzlog Dola</em>. The table
+            above has only house 34 at Mrzli Dol. Her parents are the same Petar Prpić and Tonka
+            Pavelić who fathered <strong>Mile</strong>, who married Franjka Papić in 1914: the two
+            Papić–Prpić marriages in this archive join the same two households twice.</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">Neither can be added to the counts above without inventing a
+    record, because the tool reads the export and these are not in it. They are set down here
+    instead, as the two places to look next. <a href={u("/open-questions")}>Open questions →</a></p>
+  </section>
+
+  <section class="blk">
     <h2>How this was produced</h2>
     <p class="note"><code class="mono">tools/gazetteer.py</code> reduces every place string to a
     village and, where the register gives one, a house number. It ran on Žubrinić alone until
