@@ -28,6 +28,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: site
+      - name: Check the archive before publishing it
+        run: python3 tools/check_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

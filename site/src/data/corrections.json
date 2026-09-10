@@ -250,5 +250,68 @@
   "record": "Two registers name her and neither gives one",
   "why": "Her daughter's 1859 baptism enters the parents as Joannis et Luciæ Perpić — the wife under her husband's name. Her daughter's 1885 marriage does give a maiden name, ending in -pić, but that scan is a 960-pixel thumbnail and the word cannot be read. A higher-resolution copy of that one entry would very likely give her a surname.",
   "href": "/name"
+ },
+ {
+  "id": "@I506363@",
+  "kind": "disputed",
+  "what": "A child born after his death",
+  "tree": "Died 20 March 1954; Vladimira Boras born 1960",
+  "record": "Not reconciled",
+  "why": "Six years separate his death from his recorded child's birth. Either the death date, the birth date or the parentage is wrong; nothing here chooses between them. Left standing and marked rather than severed. Note that Vladimira Baricević — a different woman — is the mother of ten Boras children born before her own birth, so this branch has more than one bad join.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I508659@",
+  "kind": "disputed",
+  "what": "A child born 74 years after his death",
+  "tree": "Died 1888; Georgius Prpić born 1962",
+  "record": "Not reconciled",
+  "why": "Seventy-four years. This is not a loose date but a join across three or four generations — a Georgius Prpić of 1962 attached to a man who died in 1888. The intervening people are missing rather than wrong.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I506361@",
+  "kind": "disputed",
+  "what": "A child born after his death",
+  "tree": "Died 1926; Blazenka Boras born 1930",
+  "record": "Not reconciled",
+  "why": "Four years. The child's own name is entered with a question mark in the tree — Blazenka? — so the record was uncertain before this archive read it.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I511762@",
+  "kind": "disputed",
+  "what": "A child born after his death",
+  "tree": "Died 1845; Magdalena Žubrinić born 1847",
+  "record": "Not reconciled",
+  "why": "Two years. 1845 is the same year Elias Žubrinić and Ana Untersinger both died, which open question 4b suspects was an epidemic or famine year in Lika. If several Žubrinić deaths were entered as 1845 from memory rather than from a register, this may be one of them.",
+  "href": "/open-questions"
+ },
+ {
+  "id": "@I509450@",
+  "kind": "disputed",
+  "what": "Died before she was born",
+  "tree": "Born 11 February 1847, died 4 August 1846",
+  "record": "Not reconciled",
+  "why": "Six months backwards. The likeliest reading is that the two dates belong to two different children of the same name — a dead infant and the sibling named after her — which the name-reuse analysis found repeatedly in these families. That is a guess, and it is recorded as one.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I509182@",
+  "kind": "disputed",
+  "what": "A mother at ten",
+  "tree": "Born 21 June 1812; Lucas Ugrin Adamich born 1822",
+  "record": "Not reconciled",
+  "why": "Ten years old. Either the child belongs to a different Magdalena or one of the two dates is wrong. Her husband Wolfgangus Adamich is recorded born 1813, which would make him nine, so the problem is with the child rather than with her.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I511689@",
+  "kind": "note",
+  "what": "A father in the same year as his son",
+  "tree": "Born before 1769; Stephanus Žubrinić born 1769",
+  "record": "An artefact of the hedge, not a contradiction",
+  "why": "“BEF 1769” is somebody's estimate, made by working backwards from the son's birth. It is not a date anyone read. Flagged by the consistency check because the check cannot tell an estimate from a record, and kept here to say so rather than to dispute it.",
+  "href": "/impossible"
  }
 ]

@@ -3,6 +3,12 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 
+// These entries are hand-written HTML, so their hrefs need the site base
+// prefixed. Open questions shipped five dead links by applying this to one
+// field and not the other; this page then did the same thing, which is what
+// tools/check_site.py now exists to catch.
+const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`);
+
 // Every claim this archive made and then withdrew. Kept in date order so the
 // direction of travel is visible: nearly all of them are the archive becoming
 // less certain, not more.
@@ -139,9 +145,9 @@ const kinds = {
       <h2><span class="mono dim">{i + 1}.</span> {c.t}</h2>
       <table class="kv" style="margin-top:.8rem">
         <tbody>
-          <tr><th>This archive said</th><td set:html={c.was} /></tr>
-          <tr><th>The record says</th><td set:html={c.now} /></tr>
-          <tr><th>What it cost</th><td set:html={c.cost} /></tr>
+          <tr><th>This archive said</th><td set:html={base(c.was)} /></tr>
+          <tr><th>The record says</th><td set:html={base(c.now)} /></tr>
+          <tr><th>What it cost</th><td set:html={base(c.cost)} /></tr>
         </tbody>
       </table>
       <p style="margin-top:.8rem"><a class="btn" href={u(c.href)}>Where it now stands →</a></p>
@@ -157,8 +163,8 @@ const kinds = {
       <tbody>{corrections.map((r) => (
         <tr>
           <td><span class="tag">{kinds[r.kind] || r.kind}</span> {r.what}</td>
-          <td class="dim" set:html={r.tree} />
-          <td set:html={r.record} />
+          <td class="dim" set:html={base(r.tree)} />
+          <td set:html={base(r.record)} />
           <td>{r.href && <a href={u(r.href)}>→</a>}</td>
         </tr>))}</tbody>
     </table>
