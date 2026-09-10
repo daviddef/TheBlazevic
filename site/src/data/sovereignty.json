@@ -1,0 +1,409 @@
+{
+ "scale": {
+  "from": 1600,
+  "break": 1800,
+  "to": 2026,
+  "note": "Linear to 1800, then expanded. This family's documented life is almost entirely after 1750."
+ },
+ "regimes": {
+  "frankopan": {
+   "label": "Frankopan · Uskok Senj",
+   "color": "--r-feudal"
+  },
+  "venice": {
+   "label": "Venice",
+   "color": "--r-venice"
+  },
+  "frontier": {
+   "label": "Habsburg Military Frontier",
+   "color": "--r-habsburg"
+  },
+  "habsburg": {
+   "label": "Austria / Austria–Hungary",
+   "color": "--r-croatia"
+  },
+  "napo": {
+   "label": "Illyrian Provinces",
+   "color": "--r-napo"
+  },
+  "yugo": {
+   "label": "Yugoslavia",
+   "color": "--r-yugo"
+  },
+  "italy": {
+   "label": "Italian occupation",
+   "color": "--r-italy"
+  },
+  "german": {
+   "label": "NDH / German occupation",
+   "color": "--r-german"
+  },
+  "croatia": {
+   "label": "Croatia",
+   "color": "--r-modern"
+  }
+ },
+ "lanes": [
+  {
+   "label": "Senj",
+   "note": "Papić · Blažević · Vukelić · Boras",
+   "bands": [
+    [
+     "frankopan",
+     1600,
+     1617
+    ],
+    [
+     "frontier",
+     1617,
+     1881
+    ],
+    [
+     "habsburg",
+     1881,
+     1918
+    ],
+    [
+     "yugo",
+     1918,
+     1941
+    ],
+    [
+     "italy",
+     1941,
+     1943
+    ],
+    [
+     "german",
+     1943,
+     1945
+    ],
+    [
+     "yugo",
+     1945,
+     1991
+    ],
+    [
+     "croatia",
+     1991,
+     2026
+    ]
+   ]
+  },
+  {
+   "label": "Otočac",
+   "note": "Žubrinić",
+   "bands": [
+    [
+     "frontier",
+     1600,
+     1881
+    ],
+    [
+     "habsburg",
+     1881,
+     1918
+    ],
+    [
+     "yugo",
+     1918,
+     1941
+    ],
+    [
+     "german",
+     1941,
+     1945
+    ],
+    [
+     "yugo",
+     1945,
+     1991
+    ],
+    [
+     "croatia",
+     1991,
+     2026
+    ]
+   ]
+  },
+  {
+   "label": "Krivi Put · Krmpote",
+   "note": "Prpić · Blažević",
+   "bands": [
+    [
+     "frankopan",
+     1600,
+     1605
+    ],
+    [
+     "frontier",
+     1605,
+     1881
+    ],
+    [
+     "habsburg",
+     1881,
+     1918
+    ],
+    [
+     "yugo",
+     1918,
+     1941
+    ],
+    [
+     "italy",
+     1941,
+     1943
+    ],
+    [
+     "german",
+     1943,
+     1945
+    ],
+    [
+     "yugo",
+     1945,
+     1991
+    ],
+    [
+     "croatia",
+     1991,
+     2026
+    ]
+   ]
+  },
+  {
+   "label": "Karlobag",
+   "note": "Pilipić · Uroda · Smojver · Bacchi",
+   "bands": [
+    [
+     "venice",
+     1600,
+     1618
+    ],
+    [
+     "frontier",
+     1618,
+     1881
+    ],
+    [
+     "habsburg",
+     1881,
+     1918
+    ],
+    [
+     "yugo",
+     1918,
+     1941
+    ],
+    [
+     "italy",
+     1941,
+     1943
+    ],
+    [
+     "german",
+     1943,
+     1945
+    ],
+    [
+     "yugo",
+     1945,
+     1991
+    ],
+    [
+     "croatia",
+     1991,
+     2026
+    ]
+   ]
+  },
+  {
+   "label": "Selce · Vinodol",
+   "note": "Papić / Antić",
+   "bands": [
+    [
+     "frankopan",
+     1600,
+     1670
+    ],
+    [
+     "habsburg",
+     1670,
+     1809
+    ],
+    [
+     "napo",
+     1809,
+     1813
+    ],
+    [
+     "habsburg",
+     1813,
+     1918
+    ],
+    [
+     "yugo",
+     1918,
+     1941
+    ],
+    [
+     "italy",
+     1941,
+     1943
+    ],
+    [
+     "german",
+     1943,
+     1945
+    ],
+    [
+     "yugo",
+     1945,
+     1991
+    ],
+    [
+     "croatia",
+     1991,
+     2026
+    ]
+   ]
+  }
+ ],
+ "events": [
+  {
+   "year": 1717,
+   "text": "The earliest dated ancestor here — a Gerkacs at Karlobag"
+  },
+  {
+   "year": 1754,
+   "text": "Vicenac Fabijan Smojver baptised at Karlobag, in a register kept in Croatian"
+  },
+  {
+   "year": 1768,
+   "text": "Josephus Pilipić baptised — the family entered Dominus, a Giustiniani standing godfather"
+  },
+  {
+   "year": 1777,
+   "text": "A Pro-Colonel and a Captain's wife stand for the Uroda child"
+  },
+  {
+   "year": 1806,
+   "text": "Josephum Antić baptised at Vrbnik — the family written Antich Papa"
+  },
+  {
+   "year": 1834,
+   "text": "Nicolaus Žubrinić baptised at Šumećica 24, the household entered Confiniarius"
+  },
+  {
+   "year": 1838,
+   "text": "Toma Blažević born at Smokvica kbr. 114"
+  },
+  {
+   "year": 1859,
+   "text": "Antonija Perpić born at Krivi Put 136 — Confiniarii"
+  },
+  {
+   "year": 1885,
+   "text": "Josip Papić, bremenar, marries Antonija Perpić at Senj"
+  },
+  {
+   "year": 1886,
+   "text": "Milka born at Senj"
+  },
+  {
+   "year": 1892,
+   "text": "Ljubomir Blažević born"
+  },
+  {
+   "year": 1903,
+   "text": "Stanko Papić dead of scarlatina at twenty months"
+  },
+  {
+   "year": 1907,
+   "text": "Toma Blažević dies of tuberculosis, a day-labourer in the town"
+  },
+  {
+   "year": 1920,
+   "text": "Ljubomir marries Milka — the entry that joined this pedigree"
+  },
+  {
+   "year": 1926,
+   "text": "Hedviga born at Senj"
+  },
+  {
+   "year": 1943,
+   "text": "Pavao Kosina killed in the air raid on Senj"
+  },
+  {
+   "year": 1945,
+   "text": "Oto Blažević dies, aged twenty-two"
+  },
+  {
+   "year": 1948,
+   "text": "Ladislava born at Crikvenica"
+  },
+  {
+   "year": 1953,
+   "text": "Robert born at Senj — the last trace of the family in Croatia"
+  },
+  {
+   "year": 1975,
+   "text": "Hedviga enters South Africa, from Zimbabwe"
+  },
+  {
+   "year": 2001,
+   "text": "Hedviga dies at Johannesburg"
+  }
+ ],
+ "world": [
+  {
+   "year": 1605,
+   "text": "Bunjevci from the Ottoman hinterland settled in Krmpote"
+  },
+  {
+   "year": 1617,
+   "text": "Treaty of Madrid — the Uskoks removed from Senj"
+  },
+  {
+   "year": 1746,
+   "text": "The Military Frontier reorganised into regiments; Otočac becomes a regimental seat"
+  },
+  {
+   "year": 1809,
+   "text": "Napoleon takes the coast — the Illyrian Provinces"
+  },
+  {
+   "year": 1850,
+   "text": "The tobacco monopoly patent, 20 November"
+  },
+  {
+   "year": 1873,
+   "text": "The railway reaches Rijeka and bypasses Senj. The port dies."
+  },
+  {
+   "year": 1881,
+   "text": "The Military Frontier abolished and returned to civil Croatia"
+  },
+  {
+   "year": 1918,
+   "text": "Austria–Hungary ends; the Kingdom of Serbs, Croats and Slovenes"
+  },
+  {
+   "year": 1941,
+   "text": "The Independent State of Croatia declared; Italy takes the coast"
+  },
+  {
+   "year": 1943,
+   "text": "Italian capitulation in September; Senj bombed 7–8 October"
+  },
+  {
+   "year": 1945,
+   "text": "Yugoslavia"
+  },
+  {
+   "year": 1991,
+   "text": "Croatian independence"
+  }
+ ]
+}

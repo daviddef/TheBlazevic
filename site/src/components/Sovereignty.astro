@@ -1,0 +1,94 @@
+---
+/* Who governed each of this family's five districts, drawn on one axis, with
+ * the family's own dated events above the lanes and what they were living
+ * through below.
+ *
+ * Modelled on the Defranceschi archive's timeline so the two read alike. The
+ * scale breaks at 1800 because almost nothing here is documented before 1750
+ * and a linear axis would spend half its width on an empty century.
+ *
+ * The band colours are the --r-* variables. Those were, until today, undefined
+ * for dark mode on this site — a component like this is exactly what made that
+ * worth fixing.
+ */
+import sov from "../data/sovereignty.json";
+
+const X0 = 108, X1 = 980, MID = 430;
+const F = sov.scale.from, B = sov.scale.break, T = sov.scale.to;
+const x = (y) => y <= B ? X0 + (y - F) * ((MID - X0) / (B - F))
+                        : MID + (y - B) * ((X1 - MID) / (T - B));
+const LANE_H = 26, TOP = 70, GAP = 26;
+const laneY = (i) => TOP + i * (LANE_H + GAP);
+const AX = laneY(sov.lanes.length - 1) + LANE_H + 26;
+const WORLD_Y = AX + 40;
+const H = WORLD_Y + 26;
+const ticks = [1600, 1700, 1800, 1850, 1900, 1950, 2000];
+
+const fam = {};
+for (const e of sov.events) (fam[e.year] = fam[e.year] || []).push(e.text);
+const famYears = Object.keys(fam).map(Number).sort((a, b) => a - b);
+const used = [...new Set(sov.lanes.flatMap((l) => l.bands.map((b) => b[0])))];
+---
+<div class="scroll">
+<svg viewBox={`0 0 1000 ${H}`} width="1000" style="min-width:940px;display:block" role="img"
+     aria-label="Who governed Senj, Otočac, Krivi Put, Karlobag and Selce from 1600 to today, with this family's dated events above and the events they lived through below">
+
+  <line x1={X0} y1="46" x2={X1} y2="46" style="stroke:var(--rule-strong)" stroke-width="1" />
+  <text x="6" y="49" font-size="9.5" style="fill:var(--terra);font-family:var(--sans)">This family</text>
+  {famYears.map((y) => (
+    <g tabindex="0" role="button" aria-label={`${y}: ${fam[y].join(". ")}`}>
+      <circle cx={x(y)} cy="46" r="9" fill="transparent" />
+      <circle cx={x(y)} cy="46" r="3.2" style="fill:var(--terra)" />
+      <title>{y} — {fam[y].join(" · ")}</title>
+    </g>
+  ))}
+
+  {sov.lanes.map((lane, i) => (
+    <g>
+      <text x="6" y={laneY(i) + 11} font-size="10"
+            style="fill:var(--ink);font-family:var(--sans);font-weight:600">{lane.label}</text>
+      <text x="6" y={laneY(i) + 22} font-size="8.5"
+            style="fill:var(--ink-3);font-family:var(--sans)">{lane.note}</text>
+      {lane.bands.map(([k, a, b]) => (
+        <g tabindex="0" role="img"
+           aria-label={`${lane.label}: ${sov.regimes[k].label}, ${a} to ${b}`}>
+          <rect x={x(a)} y={laneY(i)} width={Math.max(1.5, x(b) - x(a))} height={LANE_H}
+                style={`fill:var(${sov.regimes[k].color})`} />
+          <title>{lane.label} — {sov.regimes[k].label}, {a}–{b === 2026 ? "today" : b}</title>
+        </g>
+      ))}
+    </g>
+  ))}
+
+  <line x1={X0} y1={AX} x2={X1} y2={AX} style="stroke:var(--rule-strong)" stroke-width="1" />
+  {ticks.map((t) => (
+    <g>
+      <line x1={x(t)} y1={AX - 4} x2={x(t)} y2={AX + 4} style="stroke:var(--rule-strong)" />
+      <text x={x(t)} y={AX + 16} font-size="9.5" text-anchor="middle"
+            style="fill:var(--ink-2);font-family:var(--mono)">{t}</text>
+    </g>
+  ))}
+  <line x1={MID} y1={TOP - 8} x2={MID} y2={AX} style="stroke:var(--rule);stroke-dasharray:2 3" />
+  <text x={MID + 4} y={TOP - 12} font-size="8.5"
+        style="fill:var(--ink-3);font-family:var(--sans)">scale expands →</text>
+
+  <line x1={X0} y1={WORLD_Y} x2={X1} y2={WORLD_Y} style="stroke:var(--rule)" stroke-width="1" />
+  <text x="6" y={WORLD_Y + 3} font-size="9.5"
+        style="fill:var(--ochre);font-family:var(--sans)">What they lived through</text>
+  {sov.world.map((e) => (
+    <g tabindex="0" role="button" aria-label={`${e.year}: ${e.text}`}>
+      <circle cx={x(e.year)} cy={WORLD_Y} r="9" fill="transparent" />
+      <circle cx={x(e.year)} cy={WORLD_Y} r="3" style="fill:var(--ochre)" />
+      <title>{e.year} — {e.text}</title>
+    </g>
+  ))}
+</svg>
+</div>
+
+<p class="dek" style="margin-top:.7rem">
+  {used.map((k) => (
+    <span style="display:inline-flex;align-items:center;gap:.3rem;margin-right:.9rem">
+      <i style={`width:.8rem;height:.55rem;display:inline-block;background:var(${sov.regimes[k].color})`}></i>
+      {sov.regimes[k].label}
+    </span>))}
+</p>

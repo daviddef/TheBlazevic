@@ -1,0 +1,81 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import Sovereignty from "../components/Sovereignty.astro";
+import sov from "../data/sovereignty.json";
+const events = [...sov.events].sort((a, b) => a.year - b.year);
+const world = [...sov.world].sort((a, b) => a.year - b.year);
+const merged = [...events.map((e) => ({ ...e, kind: "family" })),
+                ...world.map((e) => ({ ...e, kind: "world" }))]
+  .sort((a, b) => a.year - b.year || (a.kind === "world" ? -1 : 1));
+---
+<Base title="The Timeline"
+  eyebrow="Five districts, nine regimes, one family"
+  dek="Nobody in this descent moved country, and almost all of them changed it several times. Senj alone ran through the Uskoks, the Military Frontier, Austria–Hungary, Yugoslavia, an Italian occupation, a German one, Yugoslavia again and Croatia — without anyone packing a bag.">
+
+  <section class="blk">
+    <p class="lede">This family lived in five places that were governed differently from each
+    other, and each of them changed hands repeatedly. A pedigree cannot show that; it shows names
+    under names. <strong>Read the bands across instead.</strong> The dots above are this family's
+    own dated moments; the dots below are what they were living through.</p>
+    <Sovereignty />
+    <p class="dek">Hover or tab any band or dot for what it is. The scale is linear to 1800 and then
+    expands, because almost nothing here is documented before 1750 and a straight axis would spend
+    half its width on an empty century.</p>
+  </section>
+
+  <section class="blk">
+    <div class="qa">
+      <h3>Three things the bands say that the names do not</h3>
+      <p><strong>They were Frontier people, not simply Croatian peasants.</strong> Three of the five
+      districts sat inside the <strong>Habsburg Military Frontier</strong> for more than two
+      centuries — a militarised zone under Vienna's war ministry rather than under Croatia. The
+      registers say so in one word: <em class="mono">Confiniarius</em>, at Šumećica in 1834 and at
+      Krivi Put in 1859. <a href={u("/frontier")}>The Frontier →</a></p>
+
+      <p><strong>The Frontier ends and the family falls.</strong> The lanes turn from Frontier to
+      civil Austria in <strong>1881</strong>. Within a generation the men in these registers are
+      <em>nadničar</em> and <em>težak</em> — day-labourer and farmhand — and their daughters are in
+      the tobacco factory. A century earlier at Karlobag the same descent was writing itself
+      <em>Dominus</em> and standing godparent with a Pro-Colonel.
+      <a href={u("/senj")}>What the railway did →</a></p>
+
+      <p><strong>The worst year is 1943, and it is only two bands wide.</strong> Italy capitulates
+      in September, the Germans come down the coast, and Senj is bombed on 7–8 October. Pavao
+      Kosina is killed in it; Oto Blažević is dead within eighteen months.
+      <a href={u("/senj-1943")}>Senj, 1943 →</a></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Year by year</h2>
+    <p class="lede">The family's own dated moments in <strong class="warn">red</strong>, set among
+    the things happening around them.</p>
+    <table class="reg" style="margin-top:1rem">
+      <tbody>{merged.map((e) => (
+        <tr>
+          <td class="mono" style="width:4rem">{e.year}</td>
+          <td>{e.kind === "family"
+            ? <strong>{e.text}</strong>
+            : <span class="dim">{e.text}</span>}</td>
+          <td class="dek" style="width:9rem">{e.kind === "family"
+            ? <span class="tag">this family</span>
+            : "the world around them"}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>What this leaves out</h2>
+    <p class="lede">The bands are only as good as the boundaries, and two here are drawn more
+    confidently than the evidence deserves.</p>
+    <ul class="plain">
+      <li style="margin-bottom:.6rem"><strong>Karlobag before 1618</strong> is drawn as Venetian.
+        The town changed hands repeatedly in that century and the line is a simplification.</li>
+      <li style="margin-bottom:.6rem"><strong>Otočac in 1941–45</strong> is drawn as one band.
+        In practice control was contested for most of it, and a single colour flattens that.</li>
+      <li><strong>Nothing before 1600</strong> is shown, because this archive documents nothing
+        before <strong>1717</strong>. <a href={u("/how-far-back")}>How far back it really goes →</a></li>
+    </ul>
+  </section>
+</Base>
