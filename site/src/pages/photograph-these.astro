@@ -1,0 +1,88 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+const JOBS = [
+  { where: "Senj — the cemetery at sv. Vid", pri: "first",
+    what: [
+      "The Blažević grave: Ljubomir 1892–1966, Milka 1886–1971, Oto 1923–1945, Mario 1933–1984. Photograph the whole stone and each line close.",
+      "Tereza Žubrinić's stone, 1867–1931, restored by the Kosina family in 1991, with the wooden cross for vlč. Antun Kosina 1921–2003 standing against it.",
+      "Pavao and Anka Kosina's grave — his stone reads Nevina žrtva zračnog napadaja na Senj, an innocent victim of the air raid.",
+    ],
+    why: "Toma Blažević was buried here on 28 July 1907 and Stanko Papić on 4 June 1903. Neither grave has been looked for. A cemetery register or a surviving stone would place them." },
+  { where: "Smokvica Krmpotska — house 114", pri: "first",
+    what: [
+      "The house itself, if it still stands, and the number if it is still on it.",
+      "The neighbouring numbers, 112 and 116, so the run can be placed on the ground.",
+      "Anything carved or dated on the building.",
+    ],
+    why: "Six documented years — 1838, 1882, 1884, 1888, 1890, 1895 — hold Toma's children, Pavao's children, Jurko's children and two different men called Ivo Blažević. It is the zadruga the whole of question 1b turns on, and nobody in this archive has seen it." },
+  { where: "Krivi Put — house 136", pri: "first",
+    what: ["The house, and 113 and 129 if the numbers survive.", "The church of the parish, and any war memorial."],
+    why: "Antonija Perpić was born at 136 in 1859 into a household the register calls Confiniarii. Three Prpić house numbers are known and none has been seen." },
+  { where: "Crikvenica — the Hotel Therapia", pri: "when passing",
+    what: [
+      "The building, now the Kvarner Palace — the façade and, if they will let you in, the room that was the dining hall.",
+      "Any historic photograph the hotel keeps of its own interwar years.",
+    ],
+    why: "Hedviga is remembered singing here. It is the only thing anyone has ever said about what she did, and the building is still standing — bought in 2013 and renamed. A photograph would turn a sentence of lore into something you can look at." },
+  { where: "Senj — the tobacco factory", pri: "when passing",
+    what: ["The building on Ul. Stjepana Radića 4, now a textile works.", "Any plaque, date stone or surviving signage."],
+    why: "Milka supervised women rolling cigarettes here and Antonija Blažević held the same grade. Across ten register pages between 1909 and 1919, most young women marrying in Senj worked in it." },
+  { where: "Otočac and Šumećica", pri: "if you get there",
+    what: ["Šumećica house 24, if the numbering survives.", "The parish church at Otočac.", "Prozor houses 50 and 245."],
+    why: "The 1834 baptism puts a Confiniarius household at Šumećica 24. The Žubrinići held five Frontier offices out of these villages." },
+  { where: "Karlobag", pri: "if you get there",
+    what: ["The parish church.", "Anything marking the town as a free royal city — the registers call it hujus Civitatis."],
+    why: "Four generations of Pilipići, Urodas, Smojvers and Gerkacs, with a Giustiniani standing godfather and a Baron von Holstein on the same page. The most socially distinct part of this descent." },
+];
+const PAPER = [
+  ["Anything written on the back of a photograph", "Studio stamps date and place a picture better than anything else here. Fifteen photographs on /faces have no caption but a camera filename."],
+  ["Letters, in any language", "Nothing in this archive is in the family's own words. Not one letter."],
+  ["Identity papers, passports, work books", "A Yugoslav passport application would date the emigration that question 1f cannot."],
+  ["Funeral cards and death notices", "They carry the date, the parish and often the surviving relatives, all three."],
+];
+---
+<Base title="Photograph These"
+  eyebrow="For whoever is next in Croatia"
+  dek="Seven places and four kinds of paper. Each one is here because a specific claim on this site would move if somebody stood in front of it with a phone — not because it would be nice to have."
+  >
+
+  <section class="blk">
+    <p class="lede">This archive has been built from a family tree, a media library and about
+    thirty pages of parish register read on a screen. <strong>Nobody involved in it has stood in
+    any of these places.</strong> A phone is enough for all of it; none of this needs an
+    appointment, and most of it needs no permission.</p>
+    <p><strong>Photograph the whole thing and then the detail.</strong> A stone shot only close up
+    cannot be placed in its row; a stone shot only wide cannot be read. And photograph the ones
+    that look like nothing — a wrong house number is worth knowing too.</p>
+  </section>
+
+  {["first", "when passing", "if you get there"].map((pri) => (
+    <section class="blk">
+      <div class="lab">{pri === "first" ? "Go here first" :
+                        pri === "when passing" ? "When you are passing" : "If you get that far"}</div>
+      {JOBS.filter((j) => j.pri === pri).map((j) => (
+        <div class="card" style="margin-top:1rem">
+          <h3>{j.where}</h3>
+          <ul class="plain" style="margin-top:.5rem">
+            {j.what.map((w) => <li style="margin-bottom:.35rem">{w}</li>)}
+          </ul>
+          <p class="dek" style="margin-top:.7rem"><strong>Why:</strong> {j.why}</p>
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>And anything on paper</h2>
+    <table class="reg">
+      <thead><tr><th>What</th><th>Why it matters here</th></tr></thead>
+      <tbody>{PAPER.map(([w, y]) => (
+        <tr><td><strong>{w}</strong></td><td class="dim">{y}</td></tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem">If you are holding a photograph and cannot say who is in it,
+    that is worth as much — <a href={u("/faces")}>the contact sheet</a> is fifteen pictures this
+    archive cannot vouch for, and one conversation would close most of it.</p>
+  </section>
+</Base>

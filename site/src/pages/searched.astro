@@ -1,0 +1,120 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import coverage from "../data/coverage.json";
+
+const swept = register.filter((r) => r.kind === "swept");
+
+// Every page actually opened, act by act. Ordered as read.
+const READ = [
+  { book: "Senj marriages", ref: "—", pages: "p.303, 307, 315, 322, 324, 326, 333, 348, 350, 355, 359",
+    years: "1909 – 1919", n: 11,
+    got: "Eleven marriages of this family, and every other bride on each page. The tobacco factory counted across a decade — 3 of 5 brides in 1909, rising to 7 of 8 in 1919.",
+    missed: "No Blažević marriage before 1909 has been opened, and the 1920 entry that answers question 1 was read from a thumbnail." },
+  { book: "Senj deaths", ref: "—", pages: "p.162, p.225", years: "1903, 1907", n: 2,
+    got: "Toma Blažević's death — tuberculosis, aged 69 — and Stanko Papić's, of scarlatina at twenty months in an outbreak that killed four in eight days.",
+    missed: "Two pages of one register. Everything else in the Senj death books is unread." },
+  { book: "Senj baptisms", ref: "—", pages: "str.122", years: "1886", n: 1,
+    got: "Milka's own baptism, and a registrar's margin of 1971 citing her death entry at page 280, line 37.",
+    missed: "Her eight siblings' baptisms are attached as images and unread." },
+  { book: "Krmpote — sv. Jakov, baptisms", ref: "HDA 111, HDA 176", pages: "p.104, p.168",
+    years: "1888, 1895", n: 2,
+    got: "Two children born at Smokvica kbr. 114 seven years apart, and two different men called Ivo Blažević standing godfather — one son of Mate, one son of Toma.",
+    missed: "This is the book that should hold every Blažević above Toma. Two pages of it have been opened." },
+  { book: "Krivi Put baptisms", ref: "HDA 407", pages: "p.110", years: "1859", n: 1,
+    got: "Antonija Perpić at Krivi Put N° 136, her household entered Confiniarii — a Frontier family. Seven Perpić children on the one page.",
+    missed: "Only the page her entry sits on." },
+  { book: "Otočac baptisms", ref: "—", pages: "1834, 1845", years: "1834, 1845", n: 2,
+    got: "Nicolaus at Šumećica 24, Confiniarius; Josephus in 1845 to a mother née Marković where the 1834 mother is née Orešković. Five Žubrinić Frontier offices out of the godparent columns.",
+    missed: "The marriage and death registers — the two books that would settle whether there are one or two men called Michaël Žubrinić." },
+  { book: "Karlobag baptisms", ref: "—", pages: "1754, 1768, 1777, 1779 (×2), 1781, 1838",
+    years: "1754 – 1838", n: 7,
+    got: "Every Karlobag ancestor. The Dominus honorific, a Giustiniani godfather, a Pro-Colonel, a Captain, a Baron von Holstein — and one book kept in Croatian rather than Latin.",
+    missed: "Nothing outstanding on this line. This is the best-read parish in the archive." },
+  { book: "Vrbnik baptisms", ref: "—", pages: "house 244", years: "1806", n: 1,
+    got: "Josephum Antić — and the underlined nadimci that answered question 5: Antich Papa, Loncsarich Franich, Antich Dudin.",
+    missed: "The Selce registers 1765–1838, which would show the surname change generation by generation." },
+];
+const pages = READ.reduce((a, r) => a + r.n, 0);
+const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").length;
+---
+<Base title="What Has Been Searched"
+  eyebrow="Coverage, including the books that have never been opened"
+  dek={`${pages} register pages read across eight books and five parishes, yielding ${swept.length} named people. This page exists so that a null is not lost: knowing a volume has been read, or has not, is worth as much as knowing what it held.`}>
+
+  <section class="blk">
+    <div class="qa">
+      <h3>Why record the negatives</h3>
+      <p>An archive that publishes only its finds is <strong>unreadable as evidence</strong>. If you
+      cannot tell a gap from an absence, every silence looks the same — and this archive has already
+      mistaken one for the other. The <a href={u("/gazetteer")}>name-reuse table</a> shows the
+      Papići with <strong>zero</strong> infant deaths implied by a reused name and the village
+      families with nine, and reads that as meaning the Papići's losses were written down. That is
+      only true because <strong>somebody opened the Senj death register and nobody has opened the
+      Krmpote one.</strong> The table is a map of where the reading went, not of where children
+      died.</p>
+      <p style="margin-top:.6rem">So: <strong>{pages} pages</strong>, and the books they came out of
+      — beside what has never been touched.</p>
+    </div>
+  </section>
+
+  {READ.map((r) => (
+    <section class="blk">
+      <h2>{r.book} <span class="dim mono">{r.n} {r.n === 1 ? "page" : "pages"}</span></h2>
+      <table class="kv">
+        <tbody>
+          <tr><th>Years opened</th><td class="mono">{r.years}</td></tr>
+          <tr><th>Pages</th><td class="mono">{r.pages}</td></tr>
+          {r.ref !== "—" && <tr><th>Shelfmark</th><td class="mono">{r.ref}</td></tr>}
+          <tr><th>What it gave</th><td>{r.got}</td></tr>
+          <tr><th class="warn">Not opened</th><td>{r.missed}</td></tr>
+        </tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>The books nobody has opened at all</h2>
+    <p class="lede">Named because an unasked archive is not a finding, and because each of these
+    would answer something this site currently marks unknown.</p>
+    <table class="reg">
+      <thead><tr><th>Book</th><th>What it would settle</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Krmpote / Smokvica death registers</strong></td>
+          <td>Whether the Blaževići really lost fewer children than the Papići, or whether nobody
+            has looked. <a href={u("/gazetteer")}>The reuse table depends on this.</a></td></tr>
+        <tr><td><strong>Otočac marriages, before 1834 and c. 1855–70</strong></td>
+          <td>Whether there are one or two men called Michaël Žubrinić — which decides four
+            generations. <a href={u("/open-questions")}>Question 4d.</a></td></tr>
+        <tr><td><strong>Otočac deaths, 1834–1845</strong></td>
+          <td>A Maria Žubrinić <em>née Orešković</em>, which would explain a second wife.</td></tr>
+        <tr><td><strong>Selce registers, 1765–1838</strong></td>
+          <td>The surname changing from Antić to Papić generation by generation — three of the four
+            steps are documented and the middle one is not.</td></tr>
+        <tr><td><strong>Sv. Jakov Krmpote, 1855–1892</strong></td>
+          <td>Jurko Blažević's baptism or marriage. Either names his father and ends
+            <a href={u("/open-questions")}>question 1b</a>.</td></tr>
+        <tr><td><strong>Senj deaths, 1915</strong></td>
+          <td>How Milka came to be widowed at twenty-eight.</td></tr>
+        <tr><td><strong>Senj baptisms, Jan–Feb 1895</strong></td>
+          <td>Two sisters recorded eighteen days apart. Both entries fall in the same book within
+            three weeks. <a href={u("/open-questions")}>Question 5b.</a></td></tr>
+        <tr><td><strong>Southern Rhodesian immigration, 1953–65</strong></td>
+          <td>Twenty-two years of Hedviga's life, and an entire country known from two words on a
+            later record. <a href={u("/open-questions")}>Question 1f.</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>What that leaves</h2>
+    <p class="lede"><strong>{noDoc} of the {coverage.length} people on the direct line have no
+    document of their own</strong> — they are named in somebody else's record, or the tree asserts
+    them and nothing else does. Read the evidence column down the generations and it stops at the
+    sixth.</p>
+    <p><a class="btn" href={u("/coverage")}>What rests on a document →</a>
+      {" "}<a class="btn" href={u("/open-questions")}>Open questions →</a>
+      {" "}<a class="btn" href={u("/register")}>The register →</a></p>
+  </section>
+</Base>
