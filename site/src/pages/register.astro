@@ -1,0 +1,130 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+
+const groups = new Map();
+for (const r of register) {
+  if (!groups.has(r.group)) groups.set(r.group, []);
+  groups.get(r.group).push(r);
+}
+const order = [...groups.keys()].sort(
+  (a, b) => groups.get(b).length - groups.get(a).length || a.localeCompare(b));
+const LABEL = {
+  zubrinic: "Žubrinić", blazevic: "Blažević", papic: "Papić", prpic: "Prpić / Perpić",
+  kalanj: "Kalanj", boras: "Boras", sestan: "Sestan", vukelic: "Vukelić",
+};
+const KIND = { tree: "family tree", swept: "read in the register" };
+const swept = register.filter((r) => r.kind === "swept").length;
+const tree = register.filter((r) => r.kind === "tree").length;
+const linked = register.filter((r) => r.slug).length;
+const surnames = order.length;
+const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
+---
+<Base title="The Register"
+  eyebrow="Every named individual this archive has found"
+  dek={`${register.length} entries across ${surnames} surnames — ${tree} carried by the family tree and ${swept} met while reading a register act by act. This is the raw catch, not a family tree, and a good deal of it is not this family.`}>
+
+  <section class="blk">
+    <div class="qa">
+      <h3>Read this before you read the list</h3>
+      <p>Entries marked <strong>family tree</strong> are the {tree.toLocaleString()} people this
+      archive publishes from the family's MyHeritage tree. They are <strong>what the family
+      believes</strong>, not what a record proves — and this archive has now shown several of them
+      to be wrong, including <a href={u("/people/caetano-bacchi")}>a man attached to his own
+      grandson's generation</a>. Treat each as a claim until it appears on this page a second time
+      with a register beside it. <a href={u("/impossible")}>What cannot be true →</a></p>
+
+      <p style="margin-top:.6rem">Entries marked <strong>read in the register</strong> are people
+      met while reading the parish books act by act — <strong>godparents, witnesses, the
+      officiating priest, the parents of the person marrying in, and the other brides on the
+      page</strong>. A baptism names a priest and two godparents; a marriage names four parents,
+      two witnesses and an officiant. Almost none of them are kin. <strong>They are here because
+      they were found, not because they are family</strong>, and they are the part of the record a
+      pedigree throws away.</p>
+
+      <p style="margin-top:.6rem">Nothing here is invented. Where the register gives a trade, a
+      rank or a house number it is recorded in the register's own words —
+      <em class="mono">nadglednica u tvornici duhana</em>, <em class="mono">Vigiliarum Magister
+      pensionatus</em>, <em class="mono">Poljice kbr. 38</em>. Where it gives nothing, the entry
+      says nothing. The full readings are in the
+      <a href="https://github.com/daviddef/TheBlazevic/tree/main/notes">reading logs</a>.</p>
+
+      <p style="margin-top:.6rem">A shared surname is not a relationship. There are Blaževići on
+      this page who are certainly no kin — it is the
+      <a href={u("/name")}>seventeenth commonest surname in Croatia</a>.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="finder">
+      <label class="lab" for="q">Filter by name, trade, place, year or source</label>
+      <input id="q" type="search" autocomplete="off"
+        placeholder="tvornici duhana · Krivi Put · 1919 · Rivosecchi · Custos …" />
+      <p class="dek" id="count" style="margin-top:.5rem">{register.length} entries</p>
+    </div>
+  </section>
+
+  {order.map((g) => (
+    <section class="blk sur" data-sur={g}>
+      <h2>{pretty(g)} <span class="dim mono">{groups.get(g).length}</span></h2>
+      <table class="reg">
+        <thead><tr><th>Name</th><th>What the source says</th><th>Source</th></tr></thead>
+        <tbody>
+          {groups.get(g).map((r) => (
+            <tr class="row" data-hay={(r.name + " " + r.detail + " " + r.source).toLowerCase()}>
+              <td>
+                {r.slug ? <a href={u("/people/" + r.slug)}>{r.name}</a> : r.name}
+                {r.kind === "swept" && !r.slug &&
+                  <><br /><span class="tag">not in the tree</span></>}
+              </td>
+              <td>{r.detail}</td>
+              <td class="dek">
+                <strong>{KIND[r.kind]}</strong><br />
+                <span class="dim">{r.source}</span>
+              </td>
+            </tr>))}
+        </tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>What this page is not</h2>
+    <ul class="plain">
+      <li><strong>It is not a pedigree.</strong> Being listed here means a source names you, and
+        nothing more. <a href={u("/direct-line")}>The spine</a> is the pedigree.</li>
+      <li><strong>It is not complete.</strong> It holds what has been read. Roughly a thousand
+        people in the wider tree have never had their media swept, and the register reading covers
+        about twenty pages across four parishes.</li>
+      <li><strong>It does not resolve duplicates.</strong> Three men called Mile Prpić appear here
+        and at least two of them are different people. Saying which would be a claim, and this page
+        makes none.</li>
+    </ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/people")}>The people with pages →</a>
+      {" "}<a class="btn" href={u("/sources")}>Where all this comes from →</a></p>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var q = document.getElementById("q"), count = document.getElementById("count");
+      var rows = [].slice.call(document.querySelectorAll("tr.row"));
+      var secs = [].slice.call(document.querySelectorAll("section.sur"));
+      var t;
+      function run() {
+        var v = q.value.trim().toLowerCase(), n = 0;
+        rows.forEach(function (r) {
+          var hit = !v || r.getAttribute("data-hay").indexOf(v) !== -1;
+          r.hidden = !hit; if (hit) n++;
+        });
+        secs.forEach(function (s) { s.hidden = !s.querySelector("tr.row:not([hidden])"); });
+        count.textContent = n === rows.length
+          ? rows.length.toLocaleString() + " entries"
+          : n.toLocaleString() + " of " + rows.length.toLocaleString() + " entries";
+      }
+      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
+      var pre = new URLSearchParams(location.search).get("q");
+      if (pre) { q.value = pre; run(); }
+    })();
+  </script>
+</Base>
