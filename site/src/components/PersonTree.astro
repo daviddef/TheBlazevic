@@ -1,0 +1,239 @@
+---
+/* A person drawn with the people they belong to: parents above, the couple in
+ * the middle, children below, siblings beside — the same shape the Falco
+ * archive uses, so a reader moving between the family sites is not relearning
+ * the page.
+ *
+ * Every node carries what is actually known of that person, because the sources
+ * here are not of equal weight:
+ *
+ *   line       a direct ancestor of Hedviga, argued generation by generation
+ *   read       a register or certificate has been read for them
+ *   scanned    an image is attached that nobody has read out
+ *   tree       the family tree says so, and nothing has verified it
+ *   disputed   this archive has shown something about them to be wrong
+ *
+ * The mark describes the PERSON, not the LINK. That distinction matters and the
+ * caption says it: this archive has no separate provenance for most parent-child
+ * links, and pretending otherwise would be the exact failure it keeps finding in
+ * the tree. Where a link IS documented, the correction block above the chart
+ * says so in words.
+ *
+ * Living relatives arrive already withheld from the data layer and are drawn as
+ * a gap, never as a name.
+ */
+import { u } from "../lib/url.js";
+import evidence from "../data/evidence.json";
+
+const { person: p, parents = [], spouses = [], children = [], siblings = [] } = Astro.props;
+
+const st = (r) => (r.slug && evidence[r.slug]?.state) || (r.slug ? "tree" : "none");
+const yrs = (r) => {
+  if (r.withheld) return "";
+  const b = r.born, d = r.died;
+  if (b && d) return `${b}–${d}`;
+  if (b) return `b. ${b}`;
+  if (d) return `d. ${d}`;
+  return "";
+};
+const WORD = {
+  line: "direct line", read: "a record read", scanned: "image, unread",
+  tree: "tree only", disputed: "disputed", none: "not published here",
+};
+
+// The same name twice in one row is worth naming: in these parishes it is
+// usually a dead child replaced by a later one — and it is also exactly how a
+// records-matcher invents one person out of two.
+const clash = (rows) => {
+  const seen = {};
+  for (const r of rows) if (!r.withheld) seen[r.name] = (seen[r.name] || 0) + 1;
+  return Object.entries(seen).filter(([, n]) => n > 1).map(([n]) => n);
+};
+const clashKids = clash(children);
+const clashOther = [...new Set([...clash(siblings), ...clash(parents)])];
+
+const all = [...parents, ...spouses, ...children, ...siblings];
+const has = all.length > 0;
+const withheld = all.filter((r) => r.withheld).length;
+const nopage = all.filter((r) => !r.withheld && !r.slug).length;
+const counted = all.filter((r) => !r.withheld && r.slug);
+const evidenced = counted.filter((r) => ["read", "scanned"].includes(st(r))).length;
+
+const Node = (r, cls = "") => r;
+---
+{has && (
+<figure class="ptree">
+  {parents.length > 0 && (
+    <div class="tier">
+      <div class="lab">{parents.length === 1 ? "Parent" : "Parents"}</div>
+      <div class="row">
+        {parents.map((r) => (
+          r.withheld
+            ? <div class="node gap"><span class="nm">— living, withheld —</span></div>
+            : r.slug
+              ? <a class={"node via-" + st(r)} href={u("/people/" + r.slug)}
+                   title={"What is known of them: " + WORD[st(r)]}>
+                  <span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                  <span class="via">{WORD[st(r)]}</span>
+                </a>
+              : <div class="node via-none"><span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                  <span class="via">not published here</span></div>
+        ))}
+      </div>
+      <div class="drop" aria-hidden="true"></div>
+    </div>
+  )}
+
+  <div class="tier self">
+    <div class="row">
+      <div class="node me">
+        <span class="nm">{p.name}</span>
+        {(p.born || p.died) && <span class="dt">{p.born || "?"}–{p.died || "?"}</span>}
+        {p.ahn
+          ? <span class="via gen">generation {p.gen} · ahnentafel {p.ahn}</span>
+          : <span class="via">{p.surname}</span>}
+      </div>
+      {spouses.map((r) => (
+        r.withheld
+          ? <div class="node gap spouse"><span class="mar">married</span>
+              <span class="nm">— living, withheld —</span></div>
+          : r.slug
+            ? <a class={"node spouse via-" + st(r)} href={u("/people/" + r.slug)}
+                 title={"What is known of them: " + WORD[st(r)]}>
+                <span class="mar">{r.marriedDate ? "married " + r.marriedDate : "married"}</span>
+                <span class="nm">{r.name}</span>
+                {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                <span class="via">{WORD[st(r)]}</span>
+              </a>
+            : <div class="node spouse via-none">
+                <span class="mar">{r.marriedDate ? "married " + r.marriedDate : "married"}</span>
+                <span class="nm">{r.name}</span>
+                <span class="via">not published here</span></div>
+      ))}
+    </div>
+  </div>
+
+  {children.length > 0 && (
+    <div class="tier">
+      <div class="drop up" aria-hidden="true"></div>
+      <div class="lab">{children.length === 1 ? "Child" : `${children.length} children`}</div>
+      <div class="row">
+        {children.map((r) => (
+          r.withheld
+            ? <div class="node gap"><span class="nm">— living, withheld —</span></div>
+            : r.slug
+              ? <a class={"node via-" + st(r)} href={u("/people/" + r.slug)}
+                   title={"What is known of them: " + WORD[st(r)]}>
+                  <span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                  <span class="via">{WORD[st(r)]}</span>
+                </a>
+              : <div class="node via-none"><span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                  <span class="via">not published here</span></div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {siblings.length > 0 && (
+    <div class="tier sibs">
+      <div class="lab">{siblings.length === 1 ? "Sibling" : `${siblings.length} siblings`}</div>
+      <div class="row">
+        {siblings.map((r) => (
+          r.withheld
+            ? <div class="node small gap"><span class="nm">— withheld —</span></div>
+            : r.slug
+              ? <a class={"node small via-" + st(r)} href={u("/people/" + r.slug)}
+                   title={"What is known of them: " + WORD[st(r)]}>
+                  <span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}
+                </a>
+              : <div class="node small via-none"><span class="nm">{r.name}</span>
+                  {yrs(r) && <span class="dt">{yrs(r)}</span>}</div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <figcaption>
+    <span class="key"><i class="sw line"></i> a direct ancestor</span>
+    <span class="key"><i class="sw read"></i> a record has been read for them</span>
+    <span class="key"><i class="sw scanned"></i> an image, not yet read</span>
+    <span class="key"><i class="sw tree"></i> from the family tree, unverified</span>
+
+    <p class="note-line"><strong>The mark describes the person, not the link.</strong> Of the
+    {" "}{counted.length} relatives drawn here, <strong>{evidenced}</strong> have a document of
+    their own in this archive — but that is not the same as a document tying them to
+    <em> this</em> person. <strong>This archive holds no separate proof for most parent–child
+    links</strong>; where it does, the note above this chart says so in words.
+    {nopage > 0 && <span> {nopage} {nopage === 1 ? "relative is" : "relatives are"} named in the
+      tree but fall outside <a href={u("/families")}>the eight surnames</a> and have no page.</span>}
+    {withheld > 0 && <span> {withheld} {withheld === 1 ? "is" : "are"} judged
+      <strong> living</strong> and withheld from this build entirely.</span>}
+    </p>
+
+    {clashKids.length > 0 && (
+      <p class="warn"><strong>Two children here carry one name</strong> — {clashKids.join(", ")}.
+      In these parishes that is usually not an error: <strong>a child who died was very often
+      replaced by a later child given the same name</strong>, and
+      <a href={u("/gazetteer")}> nine such deaths</a> are implied across these four families by a
+      name used twice. It is also exactly how a records-matcher makes one person out of two, which
+      is why they are kept apart here and the reader is told.</p>
+    )}
+    {clashOther.length > 0 && (
+      <p class="warn"><strong>More than one person in this chart carries the same name</strong> —
+      {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not
+      merge records on a name</strong>, so they are drawn separately even where one duplicated
+      entry is the likelier explanation.</p>
+    )}
+  </figcaption>
+</figure>
+)}
+
+<style is:global>
+  .ptree{margin:0 0 1.6rem;padding:1rem 1rem .8rem;border:1px solid var(--rule);
+         border-radius:.4rem;background:var(--ground)}
+  .ptree .tier{position:relative}
+  .ptree .lab{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.13em;
+              text-transform:uppercase;color:var(--ink-2);margin:.2rem 0 .45rem}
+  .ptree .row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:stretch}
+  .ptree .node{display:flex;flex-direction:column;gap:.1rem;min-width:10rem;max-width:15rem;
+               padding:.45rem .6rem;border:1px solid var(--rule);border-radius:.3rem;
+               text-decoration:none;color:inherit;background:var(--paper,#fff)}
+  .ptree a.node:hover{border-color:var(--accent)}
+  .ptree .node.me{border-width:2px;border-color:var(--ink)}
+  .ptree .node.small{min-width:8.5rem;padding:.35rem .5rem}
+  .ptree .node.gap{border-style:dashed;opacity:.7;justify-content:center}
+  .ptree .node.gap .nm{font-weight:400;font-style:italic;color:var(--ink-2)}
+  .ptree .nm{font-weight:600;line-height:1.25}
+  .ptree .dt{font-family:var(--mono);font-size:11px;color:var(--ink-2)}
+  .ptree .mar{font-family:var(--sans);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
+              color:var(--ink-2)}
+  .ptree .via{font-family:var(--sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+              color:var(--ink-2);margin-top:.15rem}
+  /* provenance said in colour AND in words — colour alone is no use to a reader
+     who cannot see it */
+  .ptree .node.via-line{border-left:3px solid var(--ink)}
+  .ptree .node.via-read{border-left:3px solid var(--accent)}
+  .ptree .via-read .via{color:var(--accent)}
+  .ptree .node.via-scanned{border-left:3px dashed var(--accent)}
+  .ptree .node.via-tree{border-left:3px dotted var(--ink-2)}
+  .ptree .node.via-none{border-left:3px dotted var(--ink-2);opacity:.75}
+  .ptree .node.via-disputed{border-left:3px solid #9b2c2c}
+  .ptree .via-disputed .via{color:#9b2c2c;font-weight:600}
+  .ptree .via.gen{color:var(--accent);font-weight:600}
+  .ptree .drop{height:.9rem;margin-left:1.5rem;border-left:1px solid var(--rule)}
+  .ptree .sibs{margin-top:.9rem;padding-top:.7rem;border-top:1px dashed var(--rule)}
+  .ptree figcaption{margin-top:.9rem;padding-top:.6rem;border-top:1px solid var(--rule);
+                    font-family:var(--sans);font-size:11.5px;color:var(--ink-2);line-height:1.55}
+  .ptree .key{display:inline-flex;align-items:center;gap:.35rem;margin-right:1rem}
+  .ptree .sw{width:.85rem;height:0;border-top:3px solid var(--accent);display:inline-block}
+  .ptree .sw.line{border-top-color:var(--ink);border-top-width:4px}
+  .ptree .sw.scanned{border-top-style:dashed}
+  .ptree .sw.tree{border-top-style:dotted;border-top-color:var(--ink-2)}
+  .ptree .note-line{margin:.6rem 0 0}
+  .ptree .warn{margin:.5rem 0 0}
+</style>

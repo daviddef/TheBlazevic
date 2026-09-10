@@ -5,6 +5,8 @@ import { people, lifespan } from "../../lib/people.js";
 import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
+import evidence from "../../data/evidence.json";
+import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -26,6 +28,23 @@ const mine = media
   .filter((m) => (m.people || []).some((x) => x.id === p.id))
   .sort((a, b) => (a.kind === b.kind ? (b.w * b.h) - (a.w * a.h)
                                      : a.kind === "document" ? -1 : 1));
+// Others of the same name. These parishes repeat their names relentlessly —
+// 94 Marijas, 88 Ivans — and merging on a name is precisely how the tree came
+// to hold a man born after his own granddaughter.
+const norm = (x) => (x || "").toLowerCase().replace(/["“”]/g, "")
+  .replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+const sameName = people
+  .filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name))
+  .slice(0, 24);
+const ev = evidence[p.slug] || { state: "tree", media: 0 };
+const EV = {
+  line: "a direct ancestor, with no record of their own read here",
+  read: "a register or certificate has been read for this person",
+  scanned: "an image is attached to them that has not been read out",
+  tree: "everything here comes from the family tree, and is unverified",
+  disputed: "this archive has shown something recorded about them to be wrong",
+};
+
 const KIND = { corrected: "Corrected against the register",
                disputed: "Disputed — this attachment does not hold",
                upgraded: "Upgraded — now documented",
@@ -89,40 +108,51 @@ const KIND = { corrected: "Corrected against the register",
   {rel && (parents.length + spouses.length + siblings.length + children.length) > 0 && (
     <section class="blk">
       <h2>Family</h2>
-      <div class="grid two">
-        {[["Parents", parents], ["Married", spouses],
-          ["Children", children], ["Siblings", siblings]].map(([label, list]) => (
-          list.length > 0 && (
-            <div class="card">
-              <h3>{label} <span class="dim">— {list.length}</span></h3>
-              <ul class="kin">
-                {list.map((r) => (
-                  <li>
-                    {r.withheld
-                      ? <span class="dim">— living, withheld —</span>
-                      : (r.slug
-                          ? <a href={u(`/people/${r.slug}`)}>{r.name}</a>
-                          : <span>{r.name}</span>)}
-                    {!r.withheld && (r.born || r.died) &&
-                      <span class="yrs">{r.born || "?"}–{r.died || "?"}</span>}
-                    {r.marriedDate && <span class="dim"> · m. {r.marriedDate}</span>}
-                    {!r.withheld && !r.slug &&
-                      <span class="dim" title="outside this archive's eight surnames"> ·
-                        no page</span>}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )
-        ))}
-      </div>
-      <p class="dek" style="margin-top:1rem">A relative with <strong>no page</strong> is a real
-      person in the tree who falls outside this archive's
-      <a href={u("/families")}>eight surnames</a>; they are named but not published here. A relative
-      marked <strong>withheld</strong> is judged living and is named nowhere in this build.
-      <a href={u("/method")}>Method →</a></p>
+      <PersonTree person={p} parents={parents} spouses={spouses}
+                  children={children} siblings={siblings} />
     </section>
   )}
+
+  <section class="blk">
+    <div class="grid two">
+      <div class="card">
+        <h3>Where this comes from</h3>
+        <p><strong>{EV[ev.state]}.</strong></p>
+        {ev.media > 0 && (
+          <p class="dek" style="margin-top:.5rem">{ev.media}
+            {" "}{ev.media === 1 ? "image is" : "images are"} attached to this person
+            {mine.filter((m) => m.kind === "document").length > 0
+              ? <span>, of which {mine.filter((m) => m.kind === "document").length} are documents
+                  rather than photographs.</span>
+              : "."}</p>)}
+        {fixes.length > 0 && (
+          <p class="dek" style="margin-top:.5rem">{fixes.length}
+            {" "}{fixes.length === 1 ? "correction or note has" : "corrections and notes have"} been
+            recorded against this page — set out above, and listed on
+            {" "}<a href={u("/changed")}>What changed</a>.</p>)}
+        {p.ahn && (
+          <p class="dek" style="margin-top:.5rem">
+            <a href={u("/coverage")}>How much of the direct line rests on a document →</a></p>)}
+        <p style="margin-top:.7rem">
+          <a href={u("/register") + "?q=" + encodeURIComponent(p.surname || p.name)}>Every
+          record naming {p.surname || p.name} →</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Sources cited for this person</h3>
+        {(p.sources || []).length > 0
+          ? <ul class="plain">{(p.sources || []).slice(0, 8).map((sc) => (
+              <li class="dek">{/^https?:/.test(sc)
+                ? <a href={sc} rel="noopener">{sc.slice(0, 72)}…</a>
+                : sc}</li>))}</ul>
+          : <p class="dek">The tree cites nothing for this person. That is not the same as there
+            being nothing — it means nobody recorded where the claim came from.</p>}
+        <p class="dek" style="margin-top:.6rem">Most tree citations point at
+        <em> other family trees</em> rather than at a register.
+        <a href={u("/sources")}>What each source is worth →</a></p>
+      </div>
+    </div>
+  </section>
 
   {events.length > 0 && (
     <section class="blk">
@@ -195,4 +225,26 @@ const KIND = { corrected: "Corrected against the register",
     source</strong>. Where a citation points at a parish register or a FamilySearch image, that is
     the thing worth going to. <a href={u("/sources")}>Sources →</a></p>
   </section>
+  {sameName.length > 0 && (
+    <section class="blk">
+      <h2>Others of the same name</h2>
+      <p class="lede">These parishes repeat their names relentlessly — <strong>94 Marijas and 88
+      Ivans</strong> in this archive alone. <strong>These are different people, kept apart on
+      purpose rather than merged into one.</strong> Merging on a name is exactly how this tree came
+      to hold <a href={u("/people/caetano-bacchi")}>a man born after his own granddaughter</a>.</p>
+      <table class="reg" style="margin-top:1rem">
+        <tbody>{sameName.map((q) => (
+          <tr>
+            <td><a href={u("/people/" + q.slug)}>{q.name}</a></td>
+            <td class="mono dim">{q.born || "?"}{q.died ? "–" + q.died : ""}</td>
+            <td class="dim">{q.bornPlace ? q.bornPlace.split(",")[0] : "place not recorded"}</td>
+            <td class="dim">{(evidence[q.slug] || {}).ahn
+              ? <span class="tag">direct line</span> : ""}</td>
+          </tr>))}</tbody>
+      </table>
+      <p class="dek" style="margin-top:1rem">Same name, and nothing here says they are related.
+      <a href={u("/name")}>Why the names repeat →</a></p>
+    </section>
+  )}
+
 </Base>

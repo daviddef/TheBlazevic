@@ -74,6 +74,31 @@ rows.sort(key=lambda r: r["ahn"])
 out = os.path.join(DATA, "coverage.json")
 json.dump(rows, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
+# The same judgement for everyone, not only the direct line, so a person page
+# can mark each relative in its chart by what is actually known of them.
+everyone = load("people.json") + anc
+ev = {}
+for q in everyone:
+    if q["slug"] in ev:
+        continue
+    a2 = next((r["ahn"] for r in rows if r["slug"] == q["slug"]), None)
+    n = with_media.get(q["slug"], 0)
+    if q["id"] in disputed:
+        st = "disputed"
+    elif q["id"] in read_ids:
+        st = "read"
+    elif n:
+        st = "scanned"
+    elif a2:
+        st = "line"
+    else:
+        st = "tree"
+    ev[q["slug"]] = {"state": st, "ahn": a2, "media": n}
+json.dump(ev, open(os.path.join(DATA, "evidence.json"), "w", encoding="utf-8"),
+          ensure_ascii=False, indent=1)
+print(f"evidence.json: {len(ev)} people  "
+      + str(dict(collections.Counter(v['state'] for v in ev.values()))))
+
 by_gen = collections.defaultdict(collections.Counter)
 for r in rows:
     by_gen[r["gen"]][r["state"]] += 1
