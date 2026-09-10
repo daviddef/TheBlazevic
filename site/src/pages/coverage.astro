@@ -1,0 +1,117 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import rows from "../data/coverage.json";
+
+const STATE = {
+  read: ["Read", "a register or certificate for this person has been read here"],
+  scanned: ["Scanned", "an image is attached but has not been read out"],
+  named: ["Named", "no record of their own — named in somebody else's"],
+  tree: ["Tree only", "the tree asserts them and nothing else does"],
+};
+const gens = [...new Set(rows.map((r) => r.gen))].sort((a, b) => a - b);
+const at = (g) => rows.filter((r) => r.gen === g);
+const count = (g, s) => at(g).filter((r) => r.state === s).length;
+const tot = (s) => rows.filter((r) => r.state === s).length;
+const disputed = rows.filter((r) => r.disputed);
+const GEN = {
+  1: "Hedviga", 2: "her parents", 3: "her grandparents", 4: "great-grandparents",
+  5: "2× great", 6: "3× great", 7: "4× great", 8: "5× great", 9: "6× great",
+};
+const withDoc = tot("read") + tot("scanned");
+---
+<Base title="What Rests on a Document"
+  eyebrow={`${rows.length} direct ancestors, and how many are actually evidenced`}
+  dek={`Every page here says what its evidence is, person by person. Nobody had added it up. Of ${rows.length} people on Hedviga's direct line, ${tot("read")} have had a record read out, ${tot("scanned")} have an image nobody has read, ${tot("named")} appear only in somebody else's record, and ${tot("tree")} rest on the family tree alone.`}>
+
+  <section class="blk">
+    <p class="lede">This page exists because of the kind of day 10 September 2026 was. Three joins
+    on this spine were disputed in one sitting — <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>a
+    woman attached a generation too high</a>, <a href={u("/people/caetano-bacchi")}>a man born after
+    his own granddaughter</a>, and <a href={u("/people/tereza-pecanic")}>a wife who died eight years
+    before her wedding</a>. When that much moves in a day, the honest total matters more than any
+    single page.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      {Object.entries(STATE).map(([k, [label, gloss]]) => (
+        <div class="card">
+          <h3>{label} <span class="mono dim">{tot(k)}</span></h3>
+          <p class="dek" style="margin:.3rem 0 0">{gloss}</p>
+        </div>))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The evidence stops at the sixth generation</h2>
+    <p class="lede">Read the <em>Read</em> column downwards. It runs 0, 2, 4, 5, 3, 4 — and then
+    <strong>0, 0, 0</strong>. Beyond Hedviga's three-times-great-grandparents this archive has read
+    nothing at all: everyone there is either named in someone else's entry or carried by the tree
+    on its own word.</p>
+
+    <table class="reg" style="margin-top:1.2rem">
+      <thead><tr>
+        <th>Generation</th><th>Known</th><th>Possible</th>
+        <th>Read</th><th>Scanned</th><th>Named</th><th>Tree only</th>
+      </tr></thead>
+      <tbody>{gens.map((g) => (
+        <tr>
+          <td><strong>{g}</strong> <span class="dim">— {GEN[g]}</span></td>
+          <td class="mono"><strong>{at(g).length}</strong></td>
+          <td class="mono dim">{Math.pow(2, g - 1)}</td>
+          <td class="mono">{count(g, "read") || <span class="dim">—</span>}</td>
+          <td class="mono">{count(g, "scanned") || <span class="dim">—</span>}</td>
+          <td class="mono">{count(g, "named") || <span class="dim">—</span>}</td>
+          <td class="mono">{count(g, "tree") || <span class="dim">—</span>}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Two numbers worth sitting with</h3>
+      <p><strong>Seventy of a possible five hundred and eleven.</strong> Nine generations back from
+      Hedviga is 511 people. This archive knows <strong>{rows.length}</strong> of them — and by the
+      seventh generation it holds 22 names out of 64, by the ninth, four out of 256. That is not a
+      failure; it is what a Croatian village pedigree looks like when it is counted honestly rather
+      than drawn as a tree.</p>
+      <p><strong>{withDoc} of {rows.length} have an image at all.</strong> The rest — {tot("named") + tot("tree")} people — are
+      known because a tree says so, or because a priest wrote <em>filius Pauli</em> in somebody
+      else's baptism. <a href={u("/name")}>That is exactly what the Latin genitives are</a>: a man
+      recorded as <em class="mono">Pauli</em> has no record of his own, only records that mention
+      him.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Person by person</div>
+    <h2>The whole line, with its evidence</h2>
+    <p class="lede">Ahnentafel order — 1 is Hedviga, and every person's father is twice their own
+    number. Gaps in the numbering are people this archive does not have.</p>
+    {gens.map((g) => (
+      <div style="margin-top:1.4rem">
+        <h3>Generation {g} <span class="dim">— {GEN[g]}, {at(g).length} of {Math.pow(2, g - 1)}</span></h3>
+        <table class="reg">
+          <tbody>{at(g).map((r) => (
+            <tr>
+              <td class="mono dim" style="width:3rem">{r.ahn}</td>
+              <td><a href={u("/people/" + r.slug)}>{r.name}</a>
+                {r.disputed && <span class="tag"> disputed</span>}
+                {r.latin && <span class="dim"> · name is a Latin case ending</span>}</td>
+              <td class="mono dim">{r.born || "—"}</td>
+              <td><span class="tag">{STATE[r.state][0]}</span></td>
+            </tr>))}</tbody>
+        </table>
+      </div>))}
+  </section>
+
+  <section class="blk">
+    <h2>The four that are disputed</h2>
+    <p class="lede">Marked, not deleted. A wrong join is the only pointer anyone has to where the
+    right person should be looked for.</p>
+    <ul class="plain">{disputed.map((r) => (
+      <li style="margin-bottom:.5rem"><span class="mono dim">{r.ahn}</span>
+        {" "}<a href={u("/people/" + r.slug)}><strong>{r.name}</strong></a>
+        {r.born && <span class="dim"> · {r.born}</span>}</li>))}</ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible")}>What cannot be true →</a>
+      {" "}<a class="btn" href={u("/direct-line")}>The spine →</a>
+      {" "}<a class="btn" href={u("/how-far-back")}>How far back →</a></p>
+  </section>
+</Base>
