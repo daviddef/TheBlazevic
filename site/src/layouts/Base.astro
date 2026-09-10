@@ -25,6 +25,13 @@ const nav = [
                 ["/coverage", "What Rests on a Document"]]],
 ];
 const here = Astro.url.pathname.replace(/\/$/, "");
+// Absolute URL for the sharing tags. Without these every page shared to a
+// phone or a group chat renders as a bare grey link.
+const SITE_URL = "https://daviddef.github.io";
+const canonical = new URL(Astro.url.pathname, SITE_URL).href;
+const share = dek || description ||
+  "An evidence-first archive of Hedviga Blažević and the four families behind her.";
+const shareImg = new URL(u("/photos/hero.jpg"), SITE_URL).href;
 const on = (h) => here === u(h).replace(/\/$/, "");
 ---
 <html lang="en" data-base={u("")}>
@@ -37,6 +44,19 @@ const on = (h) => here === u(h).replace(/\/$/, "");
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
 <link rel="stylesheet" href={u("/styles.css")} />
+<link rel="icon" href={u("/favicon.svg")} type="image/svg+xml" />
+<link rel="canonical" href={canonical} />
+<meta property="og:site_name" content={SITE} />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title === SITE ? SITE : `${title} — ${SITE}`} />
+<meta property="og:description" content={share} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={shareImg} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title === SITE ? SITE : `${title} — ${SITE}`} />
+<meta name="twitter:description" content={share} />
+<meta name="twitter:image" content={shareImg} />
+<meta name="theme-color" content="#1F5C6B" />
 </head>
 <body class={bare ? "is-home" : ""}>
 <header class="site">

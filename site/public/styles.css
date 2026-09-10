@@ -14,25 +14,36 @@
   --maxw:1080px;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --ground:#0F1620; --panel:#161F2B; --panel-2:#1D2836;
-  --ink:#E6E8E4; --ink-2:#A4AFBC; --ink-3:#72808E;
-  --rule:#26323F; --rule-strong:#3A4A5A;
-  --accent:#78B0DC; --accent-2:#9BC8EA; --accent-wash:#17293A;
-  --ochre:#D2A24A; --terra:#C58A62;
-  --r-norman:#98A3AE; --r-plantagenet:#A093BC; --r-tudor:#C09A67; --r-stuart:#7E93A1;
-  --r-georgian:#D2A24A; --r-colony:#C58A62; --r-federation:#78B0DC; --r-modern:#6FA98C;
-  --band-label:#0F1720;
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#6FB6C6; --accent-2:#8FCEDC; --accent-wash:#1B2E36;
+  --ochre:#D2A24A; --terra:#D97A5F;
+  /* The regimes this family actually lived under. This block previously
+     carried Norman, Plantagenet, Tudor, Stuart, Georgian, Colony and
+     Federation - copied wholesale from the D'Arcy archive and never
+     retargeted - which left every Croatian band inheriting its LIGHT value
+     onto a near-black ground. Matches the Defranceschi archive exactly. */
+  --r-feudal:#8FA0A8; --r-venice:#D2A24A; --r-habsburg:#6E96A6; --r-napo:#A99DC0;
+  --r-italy:#77A87E; --r-german:#857C77; --r-yugo:#C86A50; --r-croatia:#4E9DAF;
+  --r-modern:#77A87E;
+  --band-label:#10171E;
 }}
 :root[data-theme="dark"]{
-  --ground:#0F1620; --panel:#161F2B; --panel-2:#1D2836;
-  --ink:#E6E8E4; --ink-2:#A4AFBC; --ink-3:#72808E;
-  --rule:#26323F; --rule-strong:#3A4A5A;
-  --accent:#78B0DC; --accent-2:#9BC8EA; --accent-wash:#17293A;
-  --ochre:#D2A24A; --terra:#C58A62;
-  --r-norman:#98A3AE; --r-plantagenet:#A093BC; --r-tudor:#C09A67; --r-stuart:#7E93A1;
-  --r-georgian:#D2A24A; --r-colony:#C58A62; --r-federation:#78B0DC; --r-modern:#6FA98C;
-  --band-label:#0F1720;
+  /* The explicit-toggle twin of the media query above. It carried the same
+     D'Arcy palette and has to move with it, or the toggle disagrees with the
+     system setting. */
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#6FB6C6; --accent-2:#8FCEDC; --accent-wash:#1B2E36;
+  --ochre:#D2A24A; --terra:#D97A5F;
+  --r-feudal:#8FA0A8; --r-venice:#D2A24A; --r-habsburg:#6E96A6; --r-napo:#A99DC0;
+  --r-italy:#77A87E; --r-german:#857C77; --r-yugo:#C86A50; --r-croatia:#4E9DAF;
+  --r-modern:#77A87E;
+  --band-label:#10171E;
 }
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}

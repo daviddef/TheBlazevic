@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Blažević Archive">
+  <rect width="64" height="64" rx="9" fill="#1F5C6B"/>
+  <!-- B for Blazevic, set in the archive's own serif, with the caron the
+       registers kept dropping -->
+  <text x="32" y="45" font-family="EB Garamond, Georgia, serif" font-size="40"
+        font-weight="500" fill="#EDEBE5" text-anchor="middle">B</text>
+  <path d="M22 13 l5 5 l5 -5" fill="none" stroke="#EDEBE5" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
