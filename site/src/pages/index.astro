@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import recent from "../data/recent.json";
 import line from "../data/line.json";
 import families from "../data/families.json";
 import register from "../data/people.json";
@@ -105,6 +106,24 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
     this archive was built around. Juraj himself is still undated, and nothing yet links him to
     Toma above. <a href={u("/open-questions")}>See the open questions →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Recently found</div>
+    <h2>What has moved lately</h2>
+    <p class="lede">An archive that never changes is not being worked on. Most of what follows is
+    this one becoming <strong>less</strong> certain rather than more — which is what happens when
+    somebody actually reads the registers behind a family tree.</p>
+    <table class="reg" style="margin-top:1.1rem">
+      <tbody>{recent.map((r) => (
+        <tr>
+          <td class="mono dim" style="width:8.5rem">{r.d}</td>
+          <td><a href={u(r.h)}><strong>{r.t}</strong></a>
+            <div class="dek" style="margin-top:.2rem" set:html={r.s} /></td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.1rem"><a class="btn" href={u("/changed")}>Everything this archive got
+    wrong →</a> <a class="btn" href={u("/searched")}>What has been searched →</a></p>
   </section>
 
   <section class="blk">
