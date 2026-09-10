@@ -1048,3 +1048,7 @@ figure.hero{margin:0}
   .hero .sub{font-size:14px}
   .hero .kick{font-size:10px;letter-spacing:.14em;line-height:1.5;display:block}
 }
+
+/* auto-linked person names, added by wholink.js */
+a.wholink{border-bottom:1px dotted var(--accent);text-decoration:none;color:inherit}
+a.wholink:hover{border-bottom-style:solid;color:var(--accent)}
