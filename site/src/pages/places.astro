@@ -44,4 +44,35 @@ const key = [
         </tr>))}</tbody>
     </table>
   </section>
+  <section class="blk">
+    <div class="lab">Data quality</div>
+    <h2>Three places in this archive are geocoded wrong</h2>
+    <p class="lede">Not misread, and not disputed — <strong>machine-matched to the wrong town</strong>.
+    A geocoder given a village name picks a candidate, and twice here it picked one hundreds of
+    kilometres away. They are corrected on the people concerned rather than left standing, because
+    unlike a contested reading there is nothing here to reproduce: no human ever claimed it.</p>
+    <table class="reg">
+      <thead><tr><th>Where the tree puts it</th><th>Where it is</th><th>How far wrong</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">Smokvica, Općina Smokvica,<br />Dubrovačko-neretvanska</td>
+          <td><strong>Smokvica Krmpotska</strong>, Novi Vinodolski,<br />Primorje-Gorski Kotar</td>
+          <td><strong>400 km</strong> — the wrong Smokvica is on <strong>Korčula</strong>. The
+            tree's own string says <em>Krmpote</em> in the same breath.</td></tr>
+        <tr><td class="mono">Senj, Split-Dalmatia</td>
+          <td><strong>Senj</strong>, Lika-Senj County</td>
+          <td><strong>200 km</strong> — Senj was the seat of its own county and has never been in
+            Split-Dalmatia.</td></tr>
+        <tr><td class="mono">Osekovo, Belovár-Körös Megye,<br />Hungary</td>
+          <td><strong>Otočac</strong>, Lika-Senj</td>
+          <td>This one is <strong>FamilySearch's</strong>, not the tree's — a christening at Otočac
+            catalogued under a different county entirely. Noted wherever the citation is reused.</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">The first matters most. <a href={u("/people/juraj-georgius-jure-blazevic")}>Juraj
+    Blažević</a> is the man <a href={u("/open-questions")}>question 1b</a> is about, and
+    <strong>Smokvica kbr. 114</strong> and the parish of <strong>sv. Jakov Krmpote</strong> are the
+    whole of the argument. An archivist sent to Korčula would find nothing and conclude the family
+    was not there.</p>
+  </section>
+
 </Base>

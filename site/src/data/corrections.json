@@ -313,5 +313,23 @@
   "record": "An artefact of the hedge, not a contradiction",
   "why": "“BEF 1769” is somebody's estimate, made by working backwards from the son's birth. It is not a date anyone read. Flagged by the consistency check because the check cannot tell an estimate from a record, and kept here to say so rather than to dispute it.",
   "href": "/impossible"
+ },
+ {
+  "id": "@I188@",
+  "kind": "corrected",
+  "what": "Birthplace — the county is wrong",
+  "tree": "Smokvica, Krmpote, Općina Smokvica, Dubrovačko-neretvanska županija",
+  "record": "Smokvica Krmpotska, Općina Novi Vinodolski, Primorje-Gorski Kotar",
+  "why": "Općina Smokvica in Dubrovnik-Neretva county is Smokvica on the island of Korčula, 400 km south. The village meant is Smokvica Krmpotska, inland from Novi Vinodolski, and the tree names it in the same string — Krmpote. This is a geocoder matching the wrong Smokvica, not anybody's claim, which is why it is corrected outright rather than merely noted. It matters: Smokvica kbr. 114 and the parish of sv. Jakov Krmpote are the whole of question 1b.",
+  "href": "/gazetteer"
+ },
+ {
+  "id": "@I506603@",
+  "kind": "corrected",
+  "what": "Birthplace — the county is wrong",
+  "tree": "Senj, Split-Dalmatia, Croatia",
+  "record": "Senj, Lika-Senj County, Croatia",
+  "why": "Senj has never been in Split-Dalmatia. It is the seat of its own historic county and sits in Lika-Senj, 200 km north of Split. Another geocoder mismatch. He is the emigrant who reached Port Pirie, so this is the birthplace anyone tracing the Australian branch backwards will search on.",
+  "href": "/port-pirie"
  }
 ]
