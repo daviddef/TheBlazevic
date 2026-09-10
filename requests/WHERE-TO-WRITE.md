@@ -49,3 +49,17 @@ These addresses were checked from the archives' own contact pages in **September
 2026**. Croatian institutional email has migrated once already — several
 directories still list `drzavni-arhiv@ri.t-com.hr` for Rijeka, which the archive's
 own page has replaced. **Check the contact page before sending.**
+
+
+## The three letters as they now stand
+
+| Letter | Archive | Status |
+|---|---|---|
+| `rijeka-senj-sv-jakov-krmpote.md` | Rijeka, Senj branch | drafted, not sent |
+| `senj-1915-vukelic.md` | Rijeka, Senj branch | drafted, not sent |
+| `gospic-otocac-zubrinic.md` | **Gospić** | drafted, not sent |
+
+The third was added on 10 September 2026, when reading a Senj marriage of 1910
+turned open question 4d from *"which Maria Orešković?"* into *"are there two men
+called Michaël Žubrinić a generation apart?"* — which one Otočac marriage entry,
+or the absence of a second, would settle.
