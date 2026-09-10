@@ -139,17 +139,24 @@ const KIND = { corrected: "Corrected against the register",
       </div>
 
       <div class="card">
-        <h3>Sources cited for this person</h3>
-        {(p.sources || []).length > 0
-          ? <ul class="plain">{(p.sources || []).slice(0, 8).map((sc) => (
-              <li class="dek">{/^https?:/.test(sc)
-                ? <a href={sc} rel="noopener">{sc.slice(0, 72)}…</a>
-                : sc}</li>))}</ul>
-          : <p class="dek">The tree cites nothing for this person. That is not the same as there
-            being nothing — it means nobody recorded where the claim came from.</p>}
-        <p class="dek" style="margin-top:.6rem">Most tree citations point at
-        <em> other family trees</em> rather than at a register.
-        <a href={u("/sources")}>What each source is worth →</a></p>
+        <h3>{p.ahn ? "Where this sits on the line" : "Where this sits in the family"}</h3>
+        {p.ahn ? (
+          <p>Ahnentafel <strong class="mono">{p.ahn}</strong> — <strong>generation {p.gen}</strong>
+          {" "}of Hedviga's descent. Every person's father is twice their own number and their
+          mother twice plus one, so this person's parents are
+          {" "}<span class="mono">{p.ahn * 2}</span> and <span class="mono">{p.ahn * 2 + 1}</span>.</p>
+        ) : (
+          <p>Not on the direct line. They are published because they belong to one of
+          {" "}<a href={u("/families")}>the eight surnames</a> this archive follows.</p>
+        )}
+        <p class="dek" style="margin-top:.5rem">The register spells this surname
+        {" "}<a href={u("/name")}>more than one way</a>, and the search folds the forms together —
+        so <em>Xubrinich</em> and <em>Žubrinić</em>, <em>Joannis</em> and <em>Ivan</em>, find each
+        other.</p>
+        <p style="margin-top:.7rem">
+          {p.ahn && <><a href={u("/direct-line")}>The spine →</a><br /></>}
+          <a href={u("/gazetteer")}>Where this surname sits on the map →</a><br />
+          <a href={u("/impossible")}>What the tree says that cannot be true →</a></p>
       </div>
     </div>
   </section>
