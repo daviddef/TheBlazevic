@@ -3,7 +3,7 @@ import { u } from "../lib/url.js";
 const { title, description = "", dek, eyebrow, bare } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/how-far-back", "How Far Back"], ["/places", "Places"]]],
+  ["Start", [["/", "Home"], ["/search", "Search"], ["/how-far-back", "How Far Back"], ["/places", "Places"]]],
   ["Her life", [["/hedviga", "Hedviga"], ["/milka", "Milka, her mother"],
                 ["/direct-line", "The Spine"],
                 ["/senj", "Senj"], ["/senj-1943", "Senj, 1943"],
@@ -74,7 +74,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
           </div>
         </details>
       ))}
-      <a class="findbtn" href={u("/open-questions")}>Open questions</a>
+      <a class="findbtn" href={u("/search")}>Search</a>
     </nav>
   </div>
   <div class="drawer" id="drawer" hidden>

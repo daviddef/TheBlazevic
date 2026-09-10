@@ -1,0 +1,107 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="Search"
+  eyebrow="Everything this archive can point at, in one box"
+  dek="People, places, records read out of a register, documents, corrections and every page — searched together. Type without the accents if it is easier: Zubrinic finds Žubrinić, Otocac finds Otočac.">
+
+  <section class="blk">
+    <div class="finder">
+      <label class="lab" for="q">Search the archive</label>
+      <input id="q" type="search" autocomplete="off" autofocus
+        placeholder="Žubrinić · tvornici duhana · Smokvica 114 · 1943 · Confiniarius · Therapia" />
+      <p class="dek" id="count" style="margin-top:.5rem">Type to search.</p>
+    </div>
+
+    <div id="results" style="margin-top:1.4rem"></div>
+
+    <div class="qa" id="hints" style="margin-top:1.6rem">
+      <h3>Things worth trying</h3>
+      <ul class="cols">
+        <li><a class="try" href="#" data-q="tvornici duhana">tvornici duhana</a> — the tobacco factory</li>
+        <li><a class="try" href="#" data-q="Confiniarius">Confiniarius</a> — Military Frontier households</li>
+        <li><a class="try" href="#" data-q="Smokvica">Smokvica</a> — the zadruga at house 114</li>
+        <li><a class="try" href="#" data-q="Krivi Put">Krivi Put</a> — the Prpić village</li>
+        <li><a class="try" href="#" data-q="nadglednica">nadglednica</a> — the supervisors</li>
+        <li><a class="try" href="#" data-q="Rivosecchi">Rivosecchi</a> — a recurring witness</li>
+        <li><a class="try" href="#" data-q="Xubrinich">Xubrinich</a> — the Venetian X</li>
+        <li><a class="try" href="#" data-q="1943">1943</a> — the raid on Senj</li>
+      </ul>
+      <p class="dek" style="margin-top:.8rem">This searches <strong>what the archive says</strong>,
+      not the registers themselves. A name that returns nothing here has not been read yet — which
+      is itself worth knowing. <a href={u("/coverage")}>What rests on a document →</a></p>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ BASE: u("/") }}>
+    (function () {
+      var q = document.getElementById("q"), out = document.getElementById("results"),
+          count = document.getElementById("count"), hints = document.getElementById("hints");
+      var idx = null, t;
+
+      function fold(s) {
+        return s.normalize("NFD").replace(/[̀-ͯ]/g, "")
+                .replace(/đ/g, "d").replace(/ž/g, "z").replace(/ć|č/g, "c").replace(/š/g, "s");
+      }
+      function load() {
+        if (idx) return Promise.resolve(idx);
+        return fetch(BASE + "searchindex.json").then(function (r) { return r.json(); })
+          .then(function (d) { idx = d; return d; });
+      }
+      function esc(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; });
+      }
+      function run() {
+        var v = q.value.trim().toLowerCase();
+        if (v.length < 2) {
+          out.innerHTML = ""; hints.hidden = false;
+          count.textContent = "Type to search."; return;
+        }
+        load().then(function (rows) {
+          var terms = (v + " " + fold(v)).split(/\s+/).filter(Boolean);
+          var vf = fold(v);
+          var hits = [];
+          for (var i = 0; i < rows.length; i++) {
+            var r = rows[i];
+            if (r.q.indexOf(v) === -1 && r.q.indexOf(vf) === -1) continue;
+            // a match in the title beats a match buried in the body
+            var s = (fold(r.t.toLowerCase()).indexOf(vf) === 0) ? 0
+                  : (fold(r.t.toLowerCase()).indexOf(vf) > -1) ? 1 : 2;
+            hits.push([s, r]);
+          }
+          hits.sort(function (a, b) { return a[0] - b[0] || a[1].t.localeCompare(b[1].t); });
+          hints.hidden = hits.length > 0;
+          count.textContent = hits.length
+            ? hits.length.toLocaleString() + (hits.length === 1 ? " result" : " results")
+              + (hits.length > 300 ? " — showing the first 300" : "")
+            : "Nothing found. That may mean it has not been read yet.";
+          var by = {};
+          hits.slice(0, 300).forEach(function (h) { (by[h[1].k] = by[h[1].k] || []).push(h[1]); });
+          var order = ["Page", "Person", "Record", "Place", "Document", "Correction"];
+          var html = "";
+          order.forEach(function (k) {
+            if (!by[k]) return;
+            html += '<section class="blk"><h2>' + k + ' <span class="dim mono">' +
+                    by[k].length + '</span></h2><table class="reg"><tbody>';
+            by[k].forEach(function (r) {
+              html += '<tr><td><a href="' + BASE.replace(/\/$/, "") + esc(r.h) + '">' +
+                      esc(r.t) + '</a></td><td class="dim">' + esc(r.s) + '</td></tr>';
+            });
+            html += "</tbody></table></section>";
+          });
+          out.innerHTML = html;
+        });
+      }
+      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 140); });
+      document.querySelectorAll("a.try").forEach(function (a) {
+        a.addEventListener("click", function (e) {
+          e.preventDefault(); q.value = a.getAttribute("data-q"); q.focus(); run();
+        });
+      });
+      var pre = new URLSearchParams(location.search).get("q");
+      if (pre) { q.value = pre; run(); }
+    })();
+  </script>
+</Base>

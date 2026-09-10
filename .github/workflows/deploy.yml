@@ -28,6 +28,10 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: site
+      - name: Build the search index from the build, then rebuild with it
+        run: |
+          python3 tools/searchindex.py
+          npm run build --prefix site
       - name: Check the archive before publishing it
         run: python3 tools/check_site.py
       - uses: actions/configure-pages@v5
