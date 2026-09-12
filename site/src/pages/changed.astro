@@ -13,6 +13,12 @@ const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`
 // direction of travel is visible: nearly all of them are the archive becoming
 // less certain, not more.
 const C = [
+  { d: "13 September 2026", t: "Šojat is a family. I called it a by-name.",
+    was: "Recorded in the register as <q>the by-name the tree attaches to one Blažević household</q> — read as a <em>nadimak</em>, like <em>Papa</em> on the Antići.",
+    now: "The Šojati are a <strong>Krivi Put family of fifteen people with their own dates and their own place</strong> — Marko Šojat, 19 April 1801 to 4 February 1871, five dated children, and a valley called <span class='mono'>Sojat Dol</span>. They married the Blaževići and Prpići <strong>nine times</strong>.",
+    cost: "The mechanism was right and the direction was backwards. <span class='mono'>Blažević (Sojat)</span> is almost certainly a household known by <em>the family it married</em> — which is how a nadimak is born, not what one is. <a href='/connected'>Who they married →</a>",
+    href: "/connected" },
+
   { d: "13 September 2026", t: "A bracket and a slash cost this archive 214 people.",
     was: "That the tree held <strong>232 Žubrinići in 94 pieces</strong>, and that joining them was <q>the largest single piece of work outstanding in this archive</q>.",
     now: "The surname fold split on <span class='mono'>(</span> but not on <span class='mono'>/</span>. So <span class='mono'>Žubrinić / Xubrinich</span> and <span class='mono'>Prpic Perpic</span> — <em>one</em> surname written several ways in a single field — never matched the surname list. The real figure is <strong>422</strong>, and fixing it brought <strong>214 people</strong> into the archive, including <strong>Elias Ilija Žubrinić</strong> and <strong>Casparus Žubrinić</strong>, who are the subjects of two of this archive's own open questions.",
@@ -139,7 +145,7 @@ const kinds = {
 };
 ---
 <Base title="What Changed"
-  eyebrow="Twenty things this archive got wrong, and what fixed them"
+  eyebrow="Twenty-one things this archive got wrong, and what fixed them"
   dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
 
   <section class="blk">

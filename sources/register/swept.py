@@ -210,7 +210,7 @@ KRIVI_PUT_1859 = [
  ("Nicolaus Perpić", "Prpić", "godfather, 15 May 1859, with Anna Krmpotić, wife of Joannes", "Krivi Put baptisms 1859, HDA 407 p.110 no.49"),
  ("Michael Perpić", "Prpić", "baptised 15 May 1859, born the 14th · son of Stephanus and Rosalia Perpić, *Confiniarii* · **Mrzli Dol N° 2**", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
  ("Josephus Blažević", "Blažević", "godfather, 15 May 1859, to a Perpić child at Mrzli Dol — with *puella* Maria Sojat, daughter of Michael", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
- ("Maria Sojat", "Sojat", "godmother, 15 May 1859 · entered *puella*, unmarried · Sojat is the by-name the tree attaches to one Blažević household", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
+ ("Maria Sojat", "Sojat", "godmother, 15 May 1859 · entered *puella*, unmarried · Sojat is a Krivi Put family in its own right - fifteen people, and nine marriages into the Blazevici and Prpici", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
  ("Lucas Tomljanović", "Tomljanović", "godfather at Antonija Perpić's baptism, 15 May 1859, with Anna Tomljanović, daughter of Andreas", "Krivi Put baptisms 1859, HDA 407 p.110 no.51"),
  ("Mathias Vukelić", "Vukelić", "baptised 19 May 1859 · son of Josephus and Mathia Vukelić · **Alan N° 54** · a later hand adds **† 10.I.1946**", "Krivi Put baptisms 1859, HDA 407 p.110 no.52"),
  ("Clara Tomljanović", "Tomljanović", "godmother, 19 May 1859 · entered *vidua*, widow of Stephanus", "Krivi Put baptisms 1859, HDA 407 p.110 no.52"),
