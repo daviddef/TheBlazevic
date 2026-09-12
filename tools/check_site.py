@@ -14,7 +14,7 @@ it tests actually went wrong here at least once:
 
 Exit non-zero on any failure, so it can gate a deploy.
 """
-import json, re, os, sys, glob
+import json, re, os, sys, glob, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
@@ -69,6 +69,21 @@ try:
           lambda b: f"{b[0]}  /people/{b[1]}")
 except FileNotFoundError:
     print("skip  contradictions — consistency.json not built")
+
+# ---- the auto-linker's index -------------------------------------------
+# whoindex.json is read at runtime by wholink.js, so nothing in the build
+# catches a slug that has gone. Every target must be a page that exists, and
+# no name may claim two people - that is the whole premise of the index.
+WHO = os.path.join(ROOT, "site", "public", "whoindex.json")
+if os.path.exists(WHO):
+    who = json.load(open(WHO, encoding="utf-8"))
+    dead = sorted({(n, sl) for n, sl, _ in who if sl not in slugs})
+    check("auto-linker targets exist", dead, lambda b: f"{b[0]} -> /people/{b[1]}")
+    dupes = collections.Counter(n.lower() for n, _, _ in who)
+    clash = sorted(n for n, c in dupes.items() if c > 1)
+    check("no name in the auto-linker claims two people", clash, lambda b: b)
+else:
+    print("skip  auto-linker - whoindex.json not built")
 
 # ---- the built site, if it is there --------------------------------------
 if os.path.isdir(DIST):

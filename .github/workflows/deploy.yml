@@ -25,6 +25,15 @@ jobs:
       - name: Install
         run: npm ci || npm install
         working-directory: site
+      - name: Regenerate the derived data that does not need the GEDCOM
+        # Eleven of twelve tools need sources/*.ged, which is gitignored because
+        # it carries every living person in full. These three read committed
+        # JSON only, and whoindex in particular is trusted at runtime by the
+        # auto-linker - a stale slug there points a reader at a dead page.
+        run: |
+          python3 tools/register.py
+          python3 tools/coverage.py
+          python3 tools/whoindex.py
       - name: Build
         run: npm run build
         working-directory: site
