@@ -1,0 +1,99 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import D from "../data/zubrinicroots.json";
+
+const st = (k) => D.fragments.filter((f) => f.state === k);
+const anchored = st("anchored"), dated = st("dated"), placed = st("placed"), bare = st("bare");
+---
+<Base title="The Žubrinić Fragments"
+  eyebrow={`${D.records} records, ${D.real} real people, ${D.fragments.length} loose ends`}
+  dek={`This archive has said for months that joining the Žubrinići is the largest piece of work left in it. Counting it properly says something worse and more useful: ${bare.length} of the ${D.fragments.length} loose ends are bare names with neither a date nor a place, and exactly one pair can be joined from what the tree holds.`}>
+
+  <section class="blk">
+    <div class="fix">
+      <h3>Corrected: two numbers this archive published were both wrong</h3>
+      <p>The site has been saying <strong>“232 records resolving into 94 separate root
+      ancestors”</strong>. Neither figure survives checking.</p>
+      <p style="margin-top:.6rem"><strong>232 was too low.</strong> The surname fold split on a
+      bracket but not on a slash, so <span class="mono">Žubrinić / Xubrinich</span> and
+      <span class="mono">Žubrinić Zubrinic Xubrinich</span> — one surname written several ways in
+      one field — never matched the surname list at all. The real figure is
+      <strong>{D.records}</strong>. Fixing it brought <strong>214 people</strong> into this archive
+      who had been sitting outside it, among them <a href={u("/people/elias-ilija-zubrinic-xubrinich")}>Elias
+      Ilija Žubrinić</a> and Casparus Žubrinić — <em>the subjects of two of this archive's own open
+      questions</em>.</p>
+      <p style="margin-top:.6rem"><strong>94 was the right shape for the wrong reason.</strong> The
+      true count is <strong>{D.fragments.length}</strong>, and it is high because of something the
+      old number never named — see below.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Ninety-two people hang off an alphabet</h2>
+    <p class="lede">The tree contains <strong>{D.indexNodes} nodes whose entire given name is a
+    single letter</strong> — <span class="mono">M</span>, <span class="mono">J</span>,
+    <span class="mono">T</span> — each with a parent called
+    <span class="mono">“Žubrinić Zubrinix Xubrinic Zub”</span>, and each holding as
+    <em>children</em> the Žubrinići whose names begin with that letter. One of them has
+    <strong>26 children</strong>; another has 17.</p>
+    <p><strong>That is a filing system, not a family.</strong> Between them these eighteen nodes
+    hold <strong>{D.underIndex} people</strong>. Counted as parentage — which is what a naive read
+    does — the Žubrinići look joined. They are not: those {D.underIndex} people are attached to the
+    letter their name starts with and to nothing else.</p>
+    <p class="dek">This archive's own sorting-bucket filter did not catch them, because a bucket is
+    normally detected by words like <em>“to be sorted”</em> and these are named
+    <span class="mono">A</span> through <span class="mono">W</span>.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What is actually left, and what can be done with it</h2>
+    <table class="reg">
+      <thead><tr><th>State</th><th>How many</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Anchored</strong></td><td class="mono">{anchored.length}</td>
+          <td>A year <em>and</em> a place. These are the only ones a register search can start
+            from.</td></tr>
+        <tr><td>Dated</td><td class="mono">{dated.length}</td>
+          <td>A year and no place. Searchable only if you already know the parish.</td></tr>
+        <tr><td>Placed</td><td class="mono">{placed.length}</td>
+          <td>A place and no year. A century of register to read.</td></tr>
+        <tr><td class="warn"><strong>Bare</strong></td><td class="mono"><strong>{bare.length}</strong></td>
+          <td><strong>Neither.</strong> A name and a surname. Nothing in this archive will ever move
+            them, and no amount of work on the tree will either.</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>So the honest answer to “can the Žubrinići be joined?” is
+    no — not from here.</strong> {bare.length} of {D.fragments.length} have nothing to search on.
+    The joining has to come out of the <a href={u("/searched")}>Otočac registers</a>, and this
+    archive has read two pages of them.</p>
+  </section>
+
+  {D.pairs.length > 0 && (
+    <section class="blk">
+      <h2>The one pair the tree can offer</h2>
+      <table class="reg">
+        <tbody>{D.pairs.map((p) => (
+          <tr><td><strong>{p.a}</strong> <span class="mono dim">{p.ay}</span></td>
+            <td><strong>{p.b}</strong> <span class="mono dim">{p.by}</span></td>
+            <td class="dek">{p.why} · {p.village}</td></tr>))}</tbody>
+      </table>
+      <p class="dek" style="margin-top:1rem">Twenty-six years apart at Otočac. It is a lead, not a
+      finding, and it is the <em>only</em> one the data supports.</p>
+    </section>
+  )}
+
+  <section class="blk">
+    <h2>The {anchored.length + dated.length + placed.length} that could be searched for</h2>
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Born</th><th>Where</th><th>Children</th></tr></thead>
+      <tbody>{[...anchored, ...dated, ...placed].map((f) => (
+        <tr><td>{f.name}</td><td class="mono">{f.byear || "—"}</td>
+          <td class="dim">{f.village || "—"}{f.house ? " " + f.house : ""}</td>
+          <td class="mono">{f.children || "—"}</td></tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/frontier")}>The Frontier →</a>
+      {" "}<a class="btn" href={u("/open-questions")}>Question 4c →</a>
+      {" "}<a class="btn" href={u("/searched")}>What has been searched →</a></p>
+  </section>
+</Base>

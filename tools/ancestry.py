@@ -33,21 +33,6 @@ FOLD = str.maketrans({"z": "z", "c": "c", "c": "c", "s": "s", "d": "d",
                       "Z": "z", "C": "c", "C": "c", "S": "s", "D": "d"})
 
 
-def fold(name):
-    """Reduce a surname to the key its variants share."""
-    n = name.strip().lower().translate(FOLD)
-    n = n.replace("\u017e", "z").replace("\u0107", "c").replace("\u010d", "c")
-    n = n.replace("\u0161", "s").replace("\u0111", "d")
-    n = n.split("(")[0].strip()          # "Papic (Papa)" -> "Papic"
-    if n.startswith("x"):                # Venetian X wrote the sound Z
-        n = "z" + n[1:]
-    if n.endswith("ich"):                # -ich is the Latin/German rendering of -ic
-        n = n[:-3] + "ic"
-    if n.endswith("h") and n.endswith("ch"):
-        n = n[:-2] + "c"
-    return n
-
-
 # slug -> the folded keys that belong to that family name
 SURNAMES = {
     "blazevic": ["blazevic"],
@@ -59,6 +44,65 @@ SURNAMES = {
     "boras":    ["boras"],
     "sestan":   ["sestan"],
 }
+
+# every spelling that belongs to a family -> that family's key
+FAMILY_OF = {v: slug for slug, vs in SURNAMES.items() for v in vs}
+
+
+def _one(tok):
+    """Fold a single surname token to its key."""
+    t = tok.strip().strip('"').strip(",")
+    if t.startswith("x"):                # Venetian X wrote the sound Z
+        t = "z" + t[1:]
+    if t.endswith("ich"):                # -ich is the Latin/German rendering of -ic
+        t = t[:-3] + "ic"
+    if t.endswith("ch"):
+        t = t[:-2] + "c"
+    return t
+
+
+def fold(name):
+    """Reduce a surname to the key its variants share.
+
+    The tree often writes one surname several ways in a single field -
+    "Zubrinic / Xubrinich", "Prpic Perpic", "Kalanj Kalain Kallayn". An earlier
+    version split on "(" only, so those strings folded to themselves and never
+    matched the surname list. That excluded 63 Zubrinici, 21 Perpici and 6
+    Kalanji who are the parent, child or spouse of somebody already published -
+    among them Elias Ilija Zubrinic and Casparus Zubrinic, who are the subjects
+    of two of this archive's own open questions.
+
+    So: a parenthetical is still dropped, because "Papic (Papa)" and
+    "Pavelic (Blazevic)" mark a DIFFERENT name - a by-name or an alias, and the
+    archive has argued at length about what those mean. But a slash- or
+    space-joined string collapses **only when every token folds to the same
+    key**, which is what makes it one surname spelled several ways rather than
+    two surnames. "Antic Papic", "Smojver Vukic" and "Shambul Maric" are two
+    names and stay two names.
+    """
+    n = name.strip().lower().translate(FOLD)
+    n = n.replace("\u017e", "z").replace("\u0107", "c").replace("\u010d", "c")
+    n = n.replace("\u0161", "s").replace("\u0111", "d")
+    n = n.split("(")[0].strip()          # "Papic (Papa)" -> "Papic"
+    toks = [t for t in n.replace("/", " ").split() if t]
+    if len(toks) > 1:
+        keys = [_one(t) for t in toks]
+        fams = {FAMILY_OF.get(k) for k in keys}
+        if len(set(keys)) == 1:                       # one spelling, repeated
+            return keys[0]
+        if len(fams) == 1 and None not in fams:       # Prpic Perpic -> prpic
+            return fams.pop()
+        # Kalanj Kalain Kallayn: manglings of one name, so the lead token wins -
+        # but only when they actually look like each other. Antic Papic shares
+        # no prefix, is two real families, and is the whole of question 5; it
+        # must never collapse.
+        head = keys[0]
+        if all(k[:3] == head[:3] for k in keys):
+            return head
+        return " ".join(keys)
+    return _one(n) if toks else n
+
+
 
 
 def ancestors(people, families, start, maxgen=40):

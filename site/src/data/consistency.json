@@ -4,7 +4,7 @@
   "sev": 1,
   "id": "@I511708@",
   "name": "Antonius Žubrinić Zubrinic Xubrinich",
-  "slug": null,
+  "slug": "antonius-zubrinic-zubrinic-xubrinich",
   "msg": "died 1832, but Catharina born 1847"
  },
  {
@@ -28,7 +28,7 @@
   "sev": 1,
   "id": "@I506551@",
   "name": "Elias Ilija Žubrinić Xubrinich",
-  "slug": null,
+  "slug": "elias-ilija-zubrinic-xubrinich",
   "msg": "died 1845, but Helena Žubrinić Xubrinich born 1847"
  },
  {
@@ -84,7 +84,7 @@
   "sev": 1,
   "id": "@I511705@",
   "name": "Josephus Josip Žubrinić Zubrinic Xubrinich",
-  "slug": null,
+  "slug": "josephus-josip-zubrinic-zubrinic-xubrinich",
   "msg": "died 1825, but Joannes Žubrinić Zubrinic Xubrinich born 1844"
  },
  {
@@ -148,7 +148,7 @@
   "sev": 1,
   "id": "@I632@",
   "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
-  "slug": "michael-zubrinic-zubrinic-xubrinich",
+  "slug": "michael-zubrinic-zubrinic-xubrinich-2",
   "msg": "died 1863, but Nikola Žubrinić (Xubrinic) born 1880"
  },
  {
@@ -452,7 +452,7 @@
   "sev": 3,
   "id": "@I511707@",
   "name": "Gregorius Gregory Žubrinić Zubrinic Xubrinich",
-  "slug": null,
+  "slug": "gregorius-gregory-zubrinic-zubrinic-xubrinich",
   "msg": "born 12 MAR 1785, died 1896 — age 111"
  },
  {
@@ -494,5 +494,13 @@
   "name": "Marica Milkovic",
   "slug": null,
   "msg": "born 1904, Vladimira Boras born 1960 — age 56"
+ },
+ {
+  "kind": "mother-too-old",
+  "sev": 3,
+  "id": "@I506436@",
+  "name": "Matia Sekula",
+  "slug": null,
+  "msg": "born 1810, Martha Žubrinić Zubrinic born 1861 — age 51"
  }
 ]

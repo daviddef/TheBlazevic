@@ -2,7 +2,7 @@
  "variants": [
   {
    "key": "zubrinic",
-   "n": 230,
+   "n": 414,
    "forms": [
     {
      "spelling": "Žubrinić",
@@ -26,6 +26,53 @@
      ]
     },
     {
+     "spelling": "Žubrinić / Xubrinich",
+     "n": 118,
+     "from": 1769,
+     "to": 1853,
+     "median": 1828,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 33
+      },
+      {
+       "place": "Otocac Croatia",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Xubrinich / Zubrinic",
+     "n": 26,
+     "from": 1767,
+     "to": 1833,
+     "median": 1802,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Zubrinic / Xubrinich",
+     "n": 20,
+     "from": 1782,
+     "to": 1844,
+     "median": 1819,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 7
+      },
+      {
+       "place": "Prozor",
+       "n": 2
+      }
+     ]
+    },
+    {
      "spelling": "Zubrinich",
      "n": 15,
      "from": 1885,
@@ -42,6 +89,23 @@
       },
       {
        "place": "Solomontown",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Zubrinic",
+     "n": 14,
+     "from": 1777,
+     "to": 1867,
+     "median": 1828,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 4
+      },
+      {
+       "place": "Senj",
        "n": 1
       }
      ]
@@ -115,6 +179,14 @@
      ]
     },
     {
+     "spelling": "Žubrinić / Xubrinić",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
      "spelling": "Zubrinić",
      "n": 1,
      "from": 1899,
@@ -139,6 +211,48 @@
        "n": 1
       }
      ]
+    },
+    {
+     "spelling": "Žubrinić  / Zubrinic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Žubrinić / Xubrinic",
+     "n": 1,
+     "from": 1857,
+     "to": 1857,
+     "median": 1857,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Xubrinich / Zubrinich",
+     "n": 1,
+     "from": 1835,
+     "to": 1835,
+     "median": 1835,
+     "places": [
+      {
+       "place": "Otocac Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Zubrinic / Xubrinic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
     }
    ]
   },
@@ -217,8 +331,61 @@
    ]
   },
   {
+   "key": "kalanj",
+   "n": 215,
+   "forms": [
+    {
+     "spelling": "Kalanj",
+     "n": 212,
+     "from": 1734,
+     "to": 1944,
+     "median": 1871,
+     "places": [
+      {
+       "place": "Klenovica",
+       "n": 96
+      },
+      {
+       "place": "Povile",
+       "n": 28
+      },
+      {
+       "place": "Ledenice",
+       "n": 19
+      }
+     ]
+    },
+    {
+     "spelling": "Kalanj / Kallayn",
+     "n": 2,
+     "from": 1800,
+     "to": 1825,
+     "median": 1825,
+     "places": [
+      {
+       "place": "Klenovica",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Kalanj / Kalain / Kallayn",
+     "n": 1,
+     "from": 1826,
+     "to": 1826,
+     "median": 1826,
+     "places": [
+      {
+       "place": "Klenovica",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "prpic",
-   "n": 128,
+   "n": 155,
    "forms": [
     {
      "spelling": "Prpic",
@@ -238,6 +405,27 @@
       {
        "place": "Mrzli Dol",
        "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "Prpic / Perpic",
+     "n": 23,
+     "from": 1853,
+     "to": 1875,
+     "median": 1870,
+     "places": [
+      {
+       "place": "Krivi Put",
+       "n": 6
+      },
+      {
+       "place": "Senj",
+       "n": 5
+      },
+      {
+       "place": "Krmpote",
+       "n": 1
       }
      ]
     },
@@ -293,6 +481,19 @@
      ]
     },
     {
+     "spelling": "Perpić / Prpic",
+     "n": 3,
+     "from": 1859,
+     "to": 1877,
+     "median": 1877,
+     "places": [
+      {
+       "place": "Krivi Put",
+       "n": 3
+      }
+     ]
+    },
+    {
      "spelling": "Perpich",
      "n": 2,
      "from": 1847,
@@ -301,6 +502,19 @@
      "places": [
       {
        "place": "Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Perpic / Prpic",
+     "n": 1,
+     "from": 1872,
+     "to": 1872,
+     "median": 1872,
+     "places": [
+      {
+       "place": "Krivi Put",
        "n": 1
       }
      ]
@@ -317,12 +531,12 @@
   },
   {
    "key": "papic",
-   "n": 117,
+   "n": 116,
    "forms": [
     {
      "spelling": "Papić (Papa)",
-     "n": 76,
-     "from": 1700,
+     "n": 75,
+     "from": 1786,
      "to": 1875,
      "median": 1844,
      "places": [

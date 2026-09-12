@@ -13,6 +13,18 @@ const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`
 // direction of travel is visible: nearly all of them are the archive becoming
 // less certain, not more.
 const C = [
+  { d: "13 September 2026", t: "A bracket and a slash cost this archive 214 people.",
+    was: "That the tree held <strong>232 Žubrinići in 94 pieces</strong>, and that joining them was <q>the largest single piece of work outstanding in this archive</q>.",
+    now: "The surname fold split on <span class='mono'>(</span> but not on <span class='mono'>/</span>. So <span class='mono'>Žubrinić / Xubrinich</span> and <span class='mono'>Prpic Perpic</span> — <em>one</em> surname written several ways in a single field — never matched the surname list. The real figure is <strong>422</strong>, and fixing it brought <strong>214 people</strong> into the archive, including <strong>Elias Ilija Žubrinić</strong> and <strong>Casparus Žubrinić</strong>, who are the subjects of two of this archive's own open questions.",
+    cost: "Two published numbers, and the conclusion drawn from them. Counted properly there are <strong>90</strong> loose ends, not 94 — and <strong>79 of them are bare names</strong> with no date and no place. So the work is not <em>large</em>; it is <strong>impossible from here</strong>, and the register is the only way through. <a href='/zubrinic-roots'>The fragments, counted →</a>",
+    href: "/zubrinic-roots" },
+
+  { d: "13 September 2026", t: "Ninety-two Žubrinići were held together by an alphabet.",
+    was: "Nothing — this had never been noticed. The tree looked more joined than it is.",
+    now: "Eighteen nodes whose <strong>entire given name is a single letter</strong> — <span class='mono'>M</span>, <span class='mono'>J</span>, <span class='mono'>T</span> — each with a parent called <span class='mono'>“Žubrinić Zubrinix Xubrinic Zub”</span> and each holding as <em>children</em> everyone whose name starts with that letter. One has <strong>26 children</strong>.",
+    cost: "<strong>92 people are attached to the letter their name begins with and to nothing else.</strong> The sorting-bucket filter missed them because a bucket is normally detected by words like <em>to be sorted</em>, and these are named A through W. Read as parentage — which is what a naive count does — it makes the Žubrinići look like a family.",
+    href: "/zubrinic-roots" },
+
   { d: "September 2026", t: "House 114 was called a household. It is a zadruga.",
     was: "That Smokvica Krmpotska <strong>kbr. 114</strong> identified one family, and so placed Juraj Blažević in Toma's household — nearly naming his father.",
     now: "A control document, the 1890 baptism of Frane Blažević, puts <strong>Pavao Blažević, son of Luka</strong>, at 114 as well. Luka and Toma's father Anton are both sons of Ilija, so Pavao and Toma are <strong>first cousins</strong> and the number covers an extended-family compound — a <strong>zadruga</strong>.",
@@ -100,7 +112,7 @@ const C = [
   { d: "September 2026", t: "Four sorting buckets were published as ancestors.",
     was: "<span class='mono'>1800-1830 Birth — Selce Papić (Papa)</span>, two more like it, and <span class='mono'>1700 Birth — Selce Papić</span>, all with person pages and children attached.",
     now: "They are <strong>research scaffolding</strong>, not people. The build has always excluded such records — the code comment says publishing them <em>“would be a lie”</em> — but the filter did not recognise a name opening with a year, nor <em>Brothers of Casparus (It Seems)</em>.",
-    cost: "Four people who never existed had pages, and were parents in other people's family lists. The person count falls from 1,090 to <strong>1,086</strong>. Found not by reading but by the new <a href='/impossible'>self-consistency check</a>: a bucket dated 1800-1830 cannot father someone born in 1824.",
+    cost: "Four people who never existed had pages, and were parents in other people's family lists. The person count fell by four. Found not by reading but by the new <a href='/impossible'>self-consistency check</a>: a bucket dated 1800-1830 cannot father someone born in 1824.",
     href: "/impossible" },
 
   { d: "September 2026", t: "A direct ancestor was recorded as dying eight years before her wedding.",
@@ -127,7 +139,7 @@ const kinds = {
 };
 ---
 <Base title="What Changed"
-  eyebrow="Eighteen things this archive got wrong, and what fixed them"
+  eyebrow="Twenty things this archive got wrong, and what fixed them"
   dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
 
   <section class="blk">
