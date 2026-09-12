@@ -196,3 +196,51 @@ VRBNIK = [
 ]
 
 ALL = (SENJ_MARRIAGES + SENJ_DEATHS + KARLOBAG + OTOCAC + VRBNIK)
+
+# ---- added 13 September 2026 ---------------------------------------------
+# The register was built before these five pages were read, and carried none of
+# them. The Krivi Put page is the reason to do this properly: it holds SEVEN
+# Perpic children where only one had been recorded, and four house numbers the
+# gazetteer had never seen.
+
+KRIVI_PUT_1859 = [
+ ("Marcus Perpić", "Prpić", "baptised 15 May 1859, born the 13th · son of Antonius and Maria Perpić, *Confiniarii* · **Mrzli Dol N° 4** · a house this archive had not seen", "Krivi Put baptisms 1859, HDA 407 p.110 no.48"),
+ ("Dojmus Pavelić", "Pavelić", "godfather, 15 May 1859, with Anna Bezjić", "Krivi Put baptisms 1859, HDA 407 p.110 no.48"),
+ ("Marcus Rončević", "Rončević", "baptised 15 May 1859 · son of Rocus and Catharina Rončević, *Confiniarii* · **Krivi Put N° 46**", "Krivi Put baptisms 1859, HDA 407 p.110 no.49"),
+ ("Nicolaus Perpić", "Prpić", "godfather, 15 May 1859, with Anna Krmpotić, wife of Joannes", "Krivi Put baptisms 1859, HDA 407 p.110 no.49"),
+ ("Michael Perpić", "Prpić", "baptised 15 May 1859, born the 14th · son of Stephanus and Rosalia Perpić, *Confiniarii* · **Mrzli Dol N° 2**", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
+ ("Josephus Blažević", "Blažević", "godfather, 15 May 1859, to a Perpić child at Mrzli Dol — with *puella* Maria Sojat, daughter of Michael", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
+ ("Maria Sojat", "Sojat", "godmother, 15 May 1859 · entered *puella*, unmarried · Sojat is the by-name the tree attaches to one Blažević household", "Krivi Put baptisms 1859, HDA 407 p.110 no.50"),
+ ("Lucas Tomljanović", "Tomljanović", "godfather at Antonija Perpić's baptism, 15 May 1859, with Anna Tomljanović, daughter of Andreas", "Krivi Put baptisms 1859, HDA 407 p.110 no.51"),
+ ("Mathias Vukelić", "Vukelić", "baptised 19 May 1859 · son of Josephus and Mathia Vukelić · **Alan N° 54** · a later hand adds **† 10.I.1946**", "Krivi Put baptisms 1859, HDA 407 p.110 no.52"),
+ ("Clara Tomljanović", "Tomljanović", "godmother, 19 May 1859 · entered *vidua*, widow of Stephanus", "Krivi Put baptisms 1859, HDA 407 p.110 no.52"),
+ ("Ana Perpić", "Prpić", "baptised 21 May 1859, born the 20th · daughter of Antonius and Catharina Perpić · **Krivi Put N° 51**", "Krivi Put baptisms 1859, HDA 407 p.110 no.53"),
+ ("Marcus Sojat", "Sojat", "godfather, 21 May 1859, with his wife Margaritha", "Krivi Put baptisms 1859, HDA 407 p.110 no.53"),
+ ("Lucia Vukelić", "Vukelić", "baptised 26 May 1859, born the 25th · entered ***Posthuma*** — born after her father died · daughter of *Dominus* Antonius and Catharina Vukelić, *Confiniarii* · **Alan N° 51**", "Krivi Put baptisms 1859, HDA 407 p.110 no.54"),
+ ("Georgius Šolić", "Šolić", "godfather, 26 May 1859, with Francisca Vukelić, wife of Georgius", "Krivi Put baptisms 1859, HDA 407 p.110 no.54"),
+ ("Thomas Tomljanović", "Tomljanović", "baptised 2 June 1859 · son of Joannes Tomljanović and Maria · **Krivi Put N° 23**", "Krivi Put baptisms 1859, HDA 407 p.110 no.55"),
+ ("Žanić", "Žanić", "officiating at every baptism on this page · *Administrator*", "Krivi Put baptisms 1859, HDA 407 p.110"),
+]
+
+KRMPOTE = [
+ ("Ivo Blažević", "Blažević", "godfather, 25 October 1888, at Smokvica kbr. 114 · entered ***sin Matin*** — son of Mate · a different man from the Ive *sin Tomin* who stood in 1895", "Sv. Jakov Krmpote baptisms 1888, HDA 111 p.104 no.60"),
+ ("Anica Tomljanović", "Tomljanović", "godmother, 25 October 1888, at Smokvica kbr. 114 · *seljaci*", "Sv. Jakov Krmpote baptisms 1888, HDA 111 p.104 no.60"),
+ ("Fran Dominčel", "Dominčel", "officiating, October 1888 · *upravitelj župe*", "Sv. Jakov Krmpote baptisms 1888, HDA 111 p.104"),
+ ("Ivo Blažević", "Blažević", "godfather, 16 April 1895, at Smokvica kbr. 114 · entered ***sin Tomin*** — son of Toma · the patronymic is a distinction the priest chose to draw", "Sv. Jakov Krmpote baptisms 1895, HDA 176 p.168 no.26"),
+ ("Marija Blažević", "Blažević", "godmother, 16 April 1895, at Smokvica kbr. 114 · entered ***ćer Tomina*** — daughter of Toma", "Sv. Jakov Krmpote baptisms 1895, HDA 176 p.168 no.26"),
+ ("L. Malinarić", "Malinarić", "officiating, April 1895 · *upravitelj župe*", "Sv. Jakov Krmpote baptisms 1895, HDA 176 p.168"),
+ ("Vale Blažević", "Blažević", "father of a child baptised November 1888 · *seljak* at **Staro-selo 89**, with Ivka r. Pećanić — a second Blažević household in the same book", "Sv. Jakov Krmpote baptisms 1888, HDA 111 p.104 no.62"),
+ ("Jakov Blažević", "Blažević", "godfather, November 1888, with Tonka Blažević", "Sv. Jakov Krmpote baptisms 1888, HDA 111 p.104 no.62"),
+]
+
+SENJ_MORE = [
+ ("Josip Glavičić", "Glavičić", "godfather at Milka's baptism, 17 October 1886 · ***trhonoša***, the same trade as her father", "Senj baptisms 1886, str.122 no.96"),
+ ("Ivka Filipović", "Filipović", "godmother at Milka's baptism, 17 October 1886", "Senj baptisms 1886, str.122 no.96"),
+ ("Stjepan Dominez", "Dominez", "officiating at Milka's baptism, 17 October 1886 · *kapelan*", "Senj baptisms 1886, str.122 no.96"),
+ ("Tereza Papić", "Papić", "died 2 June 1903, aged 4 years 7 months · *Scarlatina* · daughter of **Franjo Papić, *nadničar***, and Kate — the father the tree does not record", "Senj deaths 1903, p.162 no.51"),
+ ("Bara Borić", "Borić", "died 6 June 1903, aged 17 · ***radnica u tvornici duhana u Senju*** · *Scarlatina c. m. Septichoemia*", "Senj deaths 1903, p.162 no.53"),
+ ("Blaž Jelovica", "Jelovica", "died 9 June 1903, aged 20 months · *Scarlatina* · the fourth of four scarlet-fever deaths on this page in eight days", "Senj deaths 1903, p.162 no.54"),
+ ("Matija Glažar", "Glažar", "officiating at these burials, June 1903 · *kapelan*", "Senj deaths 1903, p.162"),
+]
+
+ALL = ALL + KRIVI_PUT_1859 + KRMPOTE + SENJ_MORE
