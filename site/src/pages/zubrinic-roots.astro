@@ -5,6 +5,13 @@ import D from "../data/zubrinicroots.json";
 
 const st = (k) => D.fragments.filter((f) => f.state === k);
 const anchored = st("anchored"), dated = st("dated"), placed = st("placed"), bare = st("bare");
+const dupes = D.dupes || [];
+const tier = (t) => dupes.filter((d) => d.tier === t);
+const TIERNOTE = {
+  "same day": "Identical birth day, month and year. Two people are not born in the same village on the same day with the same given name and the same parents.",
+  "same year and village": "Same given name, birth year and village. Strong, but not proof — cousins were named for the same grandfather as a matter of course.",
+  "same year only": "Same given name and birth year, no place in either record. Listed for completeness; this is the weakest tier and should not be acted on alone.",
+};
 ---
 <Base title="The Žubrinić Fragments"
   eyebrow={`${D.records} records, ${D.real} real people, ${D.fragments.length} loose ends`}
@@ -30,7 +37,7 @@ const anchored = st("anchored"), dated = st("dated"), placed = st("placed"), bar
   </section>
 
   <section class="blk">
-    <h2>Ninety-two people hang off an alphabet</h2>
+    <h2 id="index">Ninety-two people hang off an alphabet</h2>
     <p class="lede">The tree contains <strong>{D.indexNodes} nodes whose entire given name is a
     single letter</strong> — <span class="mono">M</span>, <span class="mono">J</span>,
     <span class="mono">T</span> — each with a parent called
@@ -82,6 +89,63 @@ const anchored = st("anchored"), dated = st("dated"), placed = st("placed"), bar
       finding, and it is the <em>only</em> one the data supports.</p>
     </section>
   )}
+
+  <section class="blk">
+    <div class="lab">Added 13 September 2026</div>
+    <h2>Some of them are not fragments. They are the same person, twice.</h2>
+    <p class="lede">Before counting loose ends it is worth asking how many of these records are
+    even distinct people. Checking every real Žubrinić against every other on given name, birth
+    date and village finds <strong>{dupes.length} groups</strong> holding
+    <strong>{D.dupeExtra} surplus records</strong> — people this archive has been counting twice.</p>
+
+    <p>The test is tiered, because a shared name is not a shared person. This archive holds
+    <strong>eighteen Ivan Blaževići</strong>, and that is the standing reason it refuses to
+    auto-link names anywhere on the site.</p>
+
+    {["same day", "same year and village", "same year only"].map((t) => tier(t).length > 0 && (
+      <div class="qa" style="margin-top:1.4rem">
+        <h3>{t.charAt(0).toUpperCase() + t.slice(1)} — {tier(t).length} groups</h3>
+        <p class="dek">{TIERNOTE[t]}</p>
+        <table class="reg">
+          <thead><tr><th>Name</th><th>Born</th><th>Where</th><th>Copies</th></tr></thead>
+          <tbody>{tier(t).map((d) => (
+            <tr>
+              <td>{d.names.join("  ·  ")}</td>
+              <td class="mono">{d.bdates.length ? d.bdates.join(" / ") : (d.byear || "—")}</td>
+              <td class="dim">{d.village || "—"}</td>
+              <td class="mono">{d.n}</td>
+            </tr>))}</tbody>
+        </table>
+      </div>))}
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Two of the five settle it beyond argument</h3>
+      <p><strong>Josephus Žubrinić</strong>, born 16 March 1845 at Otočac, appears twice with
+      <em>identical parents</em> — Michael Žubrinić and Maria Marković in both. There is nothing
+      to distinguish the records at all. <strong>Francisca</strong>, born 6 March 1846, is the
+      same story: Thomas and Joanna in one copy, Thomas and Joanna Ratkovich in the other. One
+      copy simply knows the mother's surname.</p>
+      <p><strong>Alexander</strong>, born 14 March 1839 at Otočac, shows the mechanism plainly.
+      The two copies give his mother as <em>Magdalena Oreskovic</em> and <em>Magdalena Mande
+      Draženović</em> — and his father as <em>Michael Miho Michaël Žubrinić Xubrinich</em> and
+      <em>Michaelis / Michael / Miho / Michaël “Miko” Žubrinić</em>. It is one boy, entered twice,
+      under two renderings of the same two parents. Which is the same disease the
+      <a href={u("/name")}>spelling</a> pages have been describing all along, arriving from a new
+      direction.</p>
+      <p><strong>And one of them indicts the index.</strong> <em>Anna Žubrinić</em>, born 5
+      September 1809, exists twice: once as the daughter of <em>Gregory Žubrinić</em>, and once
+      as the daughter of <span class="mono">A Žubrinić Xubrinich Zubrinic</span> — which is not a
+      man. It is the letter <strong>A</strong>, one of the
+      eighteen <a href="#index">alphabetical index nodes</a> this page already describes. The
+      index is not merely holding people; it is <strong>generating duplicates of them</strong>.</p>
+    </div>
+
+    <p class="dek" style="margin-top:1.2rem">Nothing has been merged. This archive
+    <a href={u("/method")}>does not edit the tree</a> — it reports what the tree says, and here
+    the tree says the same child twice. The count of loose ends on this page is unchanged, because
+    only one of these groups touches the {D.fragments.length} fragments; the other sixteen sit
+    among the people who already have parents.</p>
+  </section>
 
   <section class="blk">
     <h2>The {anchored.length + dated.length + placed.length} that could be searched for</h2>

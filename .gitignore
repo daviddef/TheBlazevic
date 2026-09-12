@@ -1,12 +1,12 @@
-node_modules/
-site/dist/
-site/.astro/
-.DS_Store
-
-# The raw GEDCOM carries every living person in full. Never commit it.
-sources/*.ged
 
 # Full-resolution originals pulled from MyHeritage (108 MB). Regenerate with
+# The raw GEDCOM carries every living person in full. Never commit it.
 # tools/fetch_media.md; web-sized derivatives under site/public/photos are committed.
-photos/line/
+.DS_Store
+node_modules/
 photos/hero-original.jpg
+photos/line/
+site/.astro/
+site/dist/
+sources/*.ged
+sources/media/files/

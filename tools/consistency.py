@@ -197,6 +197,86 @@ for i in issues:
         seen.add(k)
         uniq.append(i)
 
+# --- what KIND of mistake is this? ------------------------------------------
+#
+# 63 rows is not 63 mistakes. One wrong parent link reports once per child, and
+# a page that lists all of them buries the handful of real contradictions under
+# their own consequences. Worse, the rows are not the same sort of thing: a
+# death recorded as "BEF 1850" contradicting a birth in 1858 is not an error at
+# all, it is a hedge doing its job, whereas a girl who died the year before she
+# was born is a mistake in the record itself.
+#
+# So each row is given a cause, and rows sharing a pivot person are collapsed
+# into one. The archive should say "these four are one bad link" rather than
+# reporting the bad link four times.
+
+HEDGE = re.compile(r"\b(?:BEF|AFT|ABT|ABOUT|CAL|EST|FROM|TO)\b|Maybe|\(hedged\)", re.I)
+YEARS = re.compile(r"\b(1[0-9]{3}|20[0-9]{2})\b")
+AGE = re.compile(r"age (-?\d+)")
+
+
+def classify(i):
+    """hedged | namesake | generation | record"""
+    msg = i["msg"]
+    if HEDGE.search(msg):
+        return "hedged"
+    ys = [int(y) for y in YEARS.findall(msg)]
+    span = max(ys) - min(ys) if ys else 0
+    # No amount of slop in a date explains a child born decades after the
+    # parent died. A father can manage nine months posthumously; he cannot
+    # manage twenty-five years. Past that the link itself is wrong.
+    if span > 80 or (i["kind"] == "child-after-parent-death" and span > 25):
+        return "namesake"
+    m = AGE.search(msg)
+    if m and i["kind"] == "parent-too-young" and 0 <= int(m.group(1)) <= 14:
+        return "generation"
+    return "record"
+
+
+CAUSE_NOTE = {
+    "hedged": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. "
+              "The hedge is doing its job; this is imprecision, not error.",
+    "namesake": "Too far apart for any slop in the dates to explain — so the "
+                "link is wrong, not the dates. Usually a name reused down "
+                "the line, or two people merged into one.",
+    "generation": "A parent barely older than the child — a generation has "
+                  "been skipped, and a grandparent recorded as a parent.",
+    "record": "The dates as recorded genuinely cannot both be true.",
+}
+
+for i in uniq:
+    i["cause"] = classify(i)
+
+# collapse rows that share a pivot person AND a cause
+groups = {}
+for i in uniq:
+    groups.setdefault((i["id"], i["cause"]), []).append(i)
+
+causes = []
+for (pid, cause), rows in groups.items():
+    rows.sort(key=lambda r: r["sev"])
+    causes.append({
+        "id": pid, "name": rows[0]["name"], "slug": rows[0]["slug"],
+        "cause": cause, "sev": rows[0]["sev"], "note": CAUSE_NOTE[cause],
+        "kinds": sorted({r["kind"] for r in rows}),
+        "rows": [r["msg"] for r in rows],
+        "n": len(rows),
+    })
+causes.sort(key=lambda c: (c["sev"], c["cause"], c["name"]))
+
+by_cause = collections.Counter(c["cause"] for c in causes)
+print(f"{len(uniq)} rows collapse to {len(causes)} distinct causes")
+for k in ("record", "namesake", "generation", "hedged"):
+    n = by_cause.get(k, 0)
+    rows = sum(c["n"] for c in causes if c["cause"] == k)
+    print(f"  {k:<11} {n:3d} causes  ({rows} rows)")
+print()
+
+cout = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                    "site", "src", "data", "impossible.json")
+json.dump(causes, open(cout, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"wrote {os.path.relpath(cout)}")
+
 by_sev = collections.Counter(i["sev"] for i in uniq)
 print(f"{sum(1 for x in people if relevant(x))} people in scope; {len(uniq)} internal contradictions")
 for s in (1, 2, 3):

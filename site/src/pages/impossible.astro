@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import C from "../data/consistency.json";
+import CAUSES from "../data/impossible.json";
 
 const SEV = { 1: "Impossible", 2: "Very doubtful", 3: "Worth a look" };
 const KIND = {
@@ -16,6 +17,14 @@ const KIND = {
   "implausible-age": "Lived past a hundred and five",
   "impossible-generation-gap": "Two generations in too few years",
 };
+const CAUSE = {
+  record:     ["A contradiction in the record", "The dates as written cannot both be true. This is the only kind that is really a finding about the past rather than about the tree."],
+  namesake:   ["A wrong link", "Too far apart for any slop in the dates. The join is wrong, not the dates — usually a reused name, or two people merged."],
+  generation: ["A generation skipped", "The parent is barely older than the child, because a grandparent has been recorded as a parent."],
+  hedged:     ["Not an error at all", "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job."],
+};
+const ORDER = ["record", "namesake", "generation", "hedged"];
+const causeRows = (k) => CAUSES.filter((c) => c.cause === k);
 const bySev = (n) => C.filter((i) => i.sev === n);
 const counts = [1, 2, 3].map((n) => [n, bySev(n).length]);
 
@@ -59,6 +68,51 @@ const kindCounts = Object.entries(
   </section>
 
   <section class="blk">
+    <div class="lab">Added 13 September 2026</div>
+    <h2>Sixty-three rows are not sixty-three mistakes</h2>
+    <p class="lede">Every row above is a <em>symptom</em>. One wrong parent link reports once per
+    child, so the page was counting its own consequences — and worse, it was listing four quite
+    different things as though they were one. Grouping by pivot person and by cause, the
+    <strong>{C.length}</strong> rows collapse to <strong>{CAUSES.length}</strong> distinct
+    mistakes.</p>
+
+    <table class="reg">
+      <thead><tr><th>Kind of mistake</th><th>Causes</th><th>Rows</th><th>What it means</th></tr></thead>
+      <tbody>{ORDER.map((k) => (
+        <tr>
+          <td><strong>{CAUSE[k][0]}</strong></td>
+          <td class="mono">{causeRows(k).length}</td>
+          <td class="mono dim">{causeRows(k).reduce((a, c) => a + c.n, 0)}</td>
+          <td class="dim">{CAUSE[k][1]}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <p style="margin-top:1.2rem">The distinction matters because only one of these four is a
+    finding about <em>the past</em>. A wrong link and a skipped generation are findings about
+    <em>this tree</em>, and a hedged date conflicting with a firm one is not a finding at all —
+    it is the hedge working as intended. Presenting them in one undifferentiated list of
+    “contradictions” overstated the first and slandered the last.</p>
+
+    {ORDER.map((k) => (
+      <div class="qa" style="margin-top:1.4rem">
+        <h3>{CAUSE[k][0]} — {causeRows(k).length}</h3>
+        <p class="dek">{CAUSE[k][1]}</p>
+        <table class="reg">
+          <thead><tr><th>Who</th><th>Rows</th><th>The contradiction</th></tr></thead>
+          <tbody>{causeRows(k).map((c) => (
+            <tr>
+              <td>{c.slug
+                ? <a href={u("/people/" + c.slug)}>{c.name}</a>
+                : <span>{c.name} <span class="dim">— no page</span></span>}</td>
+              <td class="mono">{c.n}</td>
+              <td class="mono dim" style="font-size:.86em">{c.rows[0]}{c.n > 1 &&
+                <span class="dim"> … and {c.n - 1} more like it</span>}</td>
+            </tr>))}</tbody>
+        </table>
+      </div>))}
+  </section>
+
+  <section class="blk">
     <h2>They are mostly one mistake, made repeatedly</h2>
     <p class="lede">Sort by person rather than by error and the shape appears at once: a
     <strong>woman attached as mother to a family she cannot have borne</strong>. Not scattered
@@ -94,10 +148,15 @@ const kindCounts = Object.entries(
     </div>
   </section>
 
-  {[1, 2].map((sev) => (
+  {[1, 2, 3].map((sev) => (
     <section class="blk">
       <div class="lab">{SEV[sev]}</div>
-      <h2>{sev === 1 ? "Dates that are firm and still conflict" : "Where one date is hedged"}</h2>
+      <h2>{sev === 1 ? "Dates that are firm and still conflict" : sev === 2 ? "Where one date is hedged" : "Unlikely rather than impossible"}</h2>
+      {sev === 3 && <p class="lede">A mother of fifty-one and a man of a hundred and eleven are
+        both possible, and both are usually a mistake. These were computed from the first day this
+        check existed and were <strong>held back from the page</strong> until now, on the thin
+        grounds that they were not certain enough — which is the opposite of how the rest of this
+        archive works. They are published here with their doubt attached.</p>}
       {sev === 2 && <p class="lede">A <span class="mono">BEF 1850</span> or
         <span class="mono"> ABT 1782</span> is somebody's estimate. These conflicts may dissolve
         if the estimate is simply wrong — which is itself worth knowing, because it means the

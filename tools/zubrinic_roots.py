@@ -145,6 +145,71 @@ print(f"\n{len(anch)} anchored fragments give {len(pairs)} pairs worth checking:
 for p in pairs[:20]:
     print(f"  [{p['why'][:44]:<44}] {p['a'][:26]:<26} {p['ay']}  +  {p['b'][:26]:<26} {p['by']}")
 
+# ---- the same person, entered twice -------------------------------------
+#
+# "Alexander Zubrinic b. 14 MAR 1839, Otocac" is in the tree twice, under two
+# slugs. So is Andre. A duplicate is not a fragment to be joined - it is one
+# person counted as two, and every one of them inflates the count of loose ends
+# this archive says it cannot resolve. They have to come out of that count
+# before the count means anything.
+#
+# The test is deliberately strict: the same folded given name AND the same
+# folded surname AND the same birth year. Two Ivan Zubrinics born in different
+# years are two men, and 18 Ivan Blazevics in this archive are the standing
+# proof that a shared name is not a shared person.
+
+# run over every real Zubrinic, not just the 90 fragments: a duplicate with a
+# parent attached is still a duplicate, and Alexander has one.
+dupes = collections.defaultdict(list)
+for x in real:
+    pr = P[x]
+    g = fold((pr.get("given") or "").strip())
+    if not g:
+        continue
+    by = gedcom.year(gedcom.born(pr).get("date", ""))
+    bd = (gedcom.born(pr).get("date") or "").strip().upper()
+    v, _h = village(pr)
+    dupes[(g, by, v)].append({"id": x, "name": gedcom.display(pr),
+                              "byear": by, "village": v, "bdate": bd,
+                              "state": "fragment" if x in {r["id"] for r in rows} else "joined"})
+
+dup_groups = []
+for (g, by, v), grp in dupes.items():
+    if len(grp) < 2:
+        continue
+    # an undated, unplaced pair is too weak to call - name alone is not enough
+    if by is None and v is None:
+        continue
+    # How much does this actually rest on? Two men can share a given name, a
+    # birth year and a village and still be cousins named for one grandfather -
+    # this archive holds 18 Ivan Blazevics as the standing reminder. Only an
+    # identical full birth DATE is near-conclusive.
+    full = {x["bdate"] for x in grp if x["bdate"] and not x["bdate"].isdigit()
+            and len(x["bdate"]) > 4}
+    if len(full) == 1 and len(grp) == len([x for x in grp if x["bdate"] in full]):
+        tier = "same day"
+    elif v:
+        tier = "same year and village"
+    else:
+        tier = "same year only"
+    dup_groups.append({"tier": tier, "given": g, "byear": by, "village": v,
+                       "n": len(grp),
+                       "names": [x["name"] for x in grp],
+                       "ids": [x["id"] for x in grp],
+                       "bdates": sorted({x["bdate"] for x in grp if x["bdate"]}),
+                       "states": sorted({x["state"] for x in grp})})
+TIER = {"same day": 0, "same year and village": 1, "same year only": 2}
+dup_groups.sort(key=lambda d: (TIER[d["tier"]], -d["n"], d["byear"] or 9999))
+dup_extra = sum(d["n"] - 1 for d in dup_groups)
+
+print(f"\n{len(dup_groups)} duplicate groups among the fragments, "
+      f"holding {dup_extra} surplus records "
+      f"({sum(1 for d in dup_groups if 'fragment' in d['states'])} touch the loose ends):")
+for d in dup_groups[:15]:
+    where = f"{d['village']}" if d["village"] else "no place"
+    print(f"  [{d['tier']:<21}] x{d['n']}  {d['given']:<12} b={d['byear'] or '----'}  "
+          f"{where:<12} {' | '.join(n[:28] for n in d['names'])}")
+
 by_v = collections.Counter(r["village"] for r in rows if r["village"])
 print("\nfragments by village:")
 for v, n in by_v.most_common(10):
@@ -152,6 +217,7 @@ for v, n in by_v.most_common(10):
 
 out = os.path.join(ROOT, "site", "src", "data", "zubrinicroots.json")
 json.dump({"records": len(Z), "indexNodes": len(index_nodes), "underIndex": under_index,
-           "real": len(real), "fragments": rows, "pairs": pairs}, open(out, "w", encoding="utf-8"),
+           "real": len(real), "fragments": rows, "pairs": pairs,
+           "dupes": dup_groups, "dupeExtra": dup_extra}, open(out, "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
 print(f"\nwrote {os.path.relpath(out, ROOT)}")

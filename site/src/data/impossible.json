@@ -1,0 +1,601 @@
+[
+ {
+  "id": "@I3443@",
+  "name": "Caetano Bacchi",
+  "slug": "caetano-bacchi",
+  "cause": "hedged",
+  "sev": 1,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "impossible-generation-gap"
+  ],
+  "rows": [
+   "born 12 January 1779 (Maybe), but through undated Oliva Andreana Bacchi the grandchild Oliva Maria Smojver is born 1781 — 2 years for two generations"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508659@",
+  "name": "Domianus \"Domian\" Perpić",
+  "slug": "domianus-perpic",
+  "cause": "namesake",
+  "sev": 1,
+  "note": "Too far apart for any slop in the dates to explain — so the link is wrong, not the dates. Usually a name reused down the line, or two people merged into one.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1888, but Georgius Prpic born 1962"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I504977@",
+  "name": "Ivan de Franceschi",
+  "slug": null,
+  "cause": "namesake",
+  "sev": 1,
+  "note": "Too far apart for any slop in the dates to explain — so the link is wrong, not the dates. Usually a name reused down the line, or two people merged into one.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 27 MAR 1896, but Anamarija Anisija Franceschi born 1938",
+   "died 27 MAR 1896, but Maja Franceschi born 1941",
+   "died 27 MAR 1896, but Vjeko Josip Franceschi born 1941",
+   "died 27 MAR 1896, but Ante Tonči Franceschi born 1944"
+  ],
+  "n": 4
+ },
+ {
+  "id": "@I508660@",
+  "name": "Maria Sojath",
+  "slug": null,
+  "cause": "namesake",
+  "sev": 1,
+  "note": "Too far apart for any slop in the dates to explain — so the link is wrong, not the dates. Usually a name reused down the line, or two people merged into one.",
+  "kinds": [
+   "child-after-parent-death",
+   "mother-too-old"
+  ],
+  "rows": [
+   "died 1891, but Georgius Prpic born 1962",
+   "born 1823, Georgius Prpic born 1962 — age 139"
+  ],
+  "n": 2
+ },
+ {
+  "id": "@I511836@",
+  "name": "Anna",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-before-parent-birth"
+  ],
+  "rows": [
+   "born 1809, but Nicolaus Nicolai Kraljich born 1807"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I509450@",
+  "name": "Antonia Sestan",
+  "slug": "antonia-sestan-2",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "died-before-born"
+  ],
+  "rows": [
+   "born 11 FEB 1847, died 4 AUG 1846"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511708@",
+  "name": "Antonius Žubrinić Zubrinic Xubrinich",
+  "slug": "antonius-zubrinic-zubrinic-xubrinich",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1832, but Catharina born 1847"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506363@",
+  "name": "Budimir Boras",
+  "slug": "budimir-boras",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 20 MAR 1954, but Vladimira Boras born 1960"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506551@",
+  "name": "Elias Ilija Žubrinić Xubrinich",
+  "slug": "elias-ilija-zubrinic-xubrinich",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1845, but Helena Žubrinić Xubrinich born 1847"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I509568@",
+  "name": "Hector Defranceschi",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "married-before-birth"
+  ],
+  "rows": [
+   "born 22 JAN 1896, married 16 FEB 1835"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508278@",
+  "name": "Helena",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death",
+   "mother-too-old"
+  ],
+  "rows": [
+   "died 1828, but Eva Untersinger born 1839",
+   "born 25 JUN 1788, Eva Untersinger born 1839 — age 51"
+  ],
+  "n": 2
+ },
+ {
+  "id": "@I506361@",
+  "name": "Joannes Ivan Boras",
+  "slug": "joannes-ivan-boras",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1926, but Blazenka? Boras born 1930"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511705@",
+  "name": "Josephus Josip Žubrinić Zubrinic Xubrinich",
+  "slug": "josephus-josip-zubrinic-zubrinic-xubrinich",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1825, but Joannes Žubrinić Zubrinic Xubrinich born 1844"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I509424@",
+  "name": "Luka Katnic",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 10 DEC 1755, but Margaretha Jankovic born 1757",
+   "died 10 DEC 1755, but Magdalena born 1768"
+  ],
+  "n": 2
+ },
+ {
+  "id": "@I511767@",
+  "name": "Maria",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1845, but Magdalena Žubrinić born 1847"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511795@",
+  "name": "Maria",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death",
+   "mother-too-old"
+  ],
+  "rows": [
+   "died 1831, but Stephanus Žubrinić Xubrinich born 1833",
+   "died 1831, but Josephus Žubrinić Xubrinich born 1836",
+   "died 1831, but Theresia Žubrinić Xubrinich born 1844",
+   "born 14 MAR 1793, Theresia Žubrinić Xubrinich born 1844 — age 51"
+  ],
+  "n": 4
+ },
+ {
+  "id": "@I633@",
+  "name": "Maria Catharina Orešković Oreskovic",
+  "slug": "maria-catharina-oreskovic-oreskovic",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-before-parent-birth"
+  ],
+  "rows": [
+   "born 8 SEP 1835, but Nicolaus \"Nikola\" Žubrinić (Xubrinic) born 1834"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I632@",
+  "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
+  "slug": "michael-zubrinic-zubrinic-xubrinich-2",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1863, but Nikola Žubrinić (Xubrinic) born 1880"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511762@",
+  "name": "Phillipus Žubrinić",
+  "slug": "phillipus-zubrinic",
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died 1845, but Magdalena Žubrinić born 1847"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506362@",
+  "name": "Vladimira Baricevic",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "child-before-parent-birth"
+  ],
+  "rows": [
+   "born 12 DEC 1907, but Andjelika Boras born 1888",
+   "born 12 DEC 1907, but Draga Boras born 1891",
+   "born 12 DEC 1907, but Marija Boras born 1892",
+   "born 12 DEC 1907, but Budimir Boras born 1894",
+   "born 12 DEC 1907, but pava Boras born 1895",
+   "born 12 DEC 1907, but Paulina Boras born 1895",
+   "born 12 DEC 1907, but olga Boras born 1902",
+   "born 12 DEC 1907, but kreso Boras born 1906"
+  ],
+  "n": 8
+ },
+ {
+  "id": "@I511836@",
+  "name": "Anna",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 1809, Mattheus Kraljich born 1812 — age 3",
+   "born 1809, Stephanus Kraljich born 1817 — age 8",
+   "born 1809, Francisca Kraljich born 1820 — age 11"
+  ],
+  "n": 3
+ },
+ {
+  "id": "@I506032@",
+  "name": "Franciscus Antonio Antonius Defranceschi",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 13 APR 1785, Mattheus / Matio \"Matolin\" di Franceschi / Defranceski born 1794 — age 9"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I509182@",
+  "name": "Magdalena Žubrinić",
+  "slug": "magdalena-zubrinic-4",
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 21 JUN 1812, Lucas Ugrin Adamich born 1822 — age 10"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I633@",
+  "name": "Maria Catharina Orešković Oreskovic",
+  "slug": "maria-catharina-oreskovic-oreskovic",
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 8 SEP 1835, Daniel Žubrinić born 1837 — age 2",
+   "born 8 SEP 1835, Francisca Žubrinić born 1840 — age 5",
+   "born 8 SEP 1835, Maria Žubrinić born 1841 — age 6"
+  ],
+  "n": 3
+ },
+ {
+  "id": "@I508618@",
+  "name": "Marko Butkovic",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 1872, Antonija Butkovic born 1880 — age 8"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506125@",
+  "name": "Teresa Grach",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 1753, Giuseppe / Josephus \"Joseph\" Defranceschi born 1765 — age 12"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506362@",
+  "name": "Vladimira Baricevic",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 12 DEC 1907, Zdenka Boras born 1907 — age 0",
+   "born 12 DEC 1907, Slava Boras born 1911 — age 4"
+  ],
+  "n": 2
+ },
+ {
+  "id": "@I509183@",
+  "name": "Wolfgangus Volfgangus Adamic Adamich",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 30 AUG 1813, Lucas Ugrin Adamich born 1822 — age 9"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I509344@",
+  "name": "ladislava (lada) bilubaric",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 11 JUN 1922, ante Boras born 1931 — age 9"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506126@",
+  "name": "Antonio de Franceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "child-after-parent-death"
+  ],
+  "rows": [
+   "died AFT 1926, but Bruno de Franceschi born 1939"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510754@",
+  "name": "Joanis Grach",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born BEF 1750, Johanes Grach born 1762 — age 12"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511689@",
+  "name": "Nicolai Žubrinić",
+  "slug": "nicolai-zubrinic",
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born BEF 1769, Stephanus Stephani Žubrinić Xubrinich born 1769 — age 0"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I361@",
+  "name": "Tereza Pećanić",
+  "slug": "tereza-pecanic",
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "child-after-parent-death",
+   "married-after-death"
+  ],
+  "rows": [
+   "died BEF 1850, but Anton Blazevic born 1860",
+   "died BEF 1850, but Marija Blazevic born 1880",
+   "died BEF 1850, but Ivan Blazevic born 1882",
+   "died BEF 1850, but Antonija \"Tonka\" Blažević born 1884",
+   "died BEF 1850 (hedged), married 21 NOV 1858"
+  ],
+  "n": 5
+ },
+ {
+  "id": "@I509189@",
+  "name": "Hellena Bellobalbic",
+  "slug": null,
+  "cause": "record",
+  "sev": 2,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "married-as-child"
+  ],
+  "rows": [
+   "born 1868, married 1868 — age 0"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511707@",
+  "name": "Gregorius Gregory Žubrinić Zubrinic Xubrinich",
+  "slug": "gregorius-gregory-zubrinic-zubrinic-xubrinich",
+  "cause": "namesake",
+  "sev": 3,
+  "note": "Too far apart for any slop in the dates to explain — so the link is wrong, not the dates. Usually a name reused down the line, or two people merged into one.",
+  "kinds": [
+   "implausible-age"
+  ],
+  "rows": [
+   "born 12 MAR 1785, died 1896 — age 111"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511710@",
+  "name": "Catharina",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "mother-too-old"
+  ],
+  "rows": [
+   "born 5 AUG 1784, Joannes Žubrinić Zubrinic Xubrinich born 1844 — age 60"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506364@",
+  "name": "Marica Milkovic",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "mother-too-old"
+  ],
+  "rows": [
+   "born 1904, Vladimira Boras born 1960 — age 56"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506436@",
+  "name": "Matia Sekula",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "mother-too-old"
+  ],
+  "rows": [
+   "born 1810, Martha Žubrinić Zubrinic born 1861 — age 51"
+  ],
+  "n": 1
+ }
+]
