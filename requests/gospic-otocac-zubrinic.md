@@ -68,6 +68,19 @@ her whole ancestry with her.
 
 One marriage entry, or the absence of a second, decides four generations.
 
+## And one request that is not about a person
+
+The **Otočac death register for any decade between 1830 and 1900** — any decade
+at all, we are not asking for a name.
+
+We have read the Senj death register and not a single page of any village book,
+and one of our own published findings depends on that gap. Our analysis shows the
+Senj families with their child deaths recorded and the village families with
+theirs invisible — and we cannot tell whether that means the villages lost fewer
+children or simply that nobody has read their books. **A sample of any village
+death register would settle it**, and if the answer is that the villages recorded
+their deaths just as fully, we will withdraw the finding.
+
 ---
 
 *A second, unrelated request, if it is no trouble:* the **Otočac death register
