@@ -1,0 +1,88 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import fams from "../data/marriedin.json";
+const totalAnc = fams.reduce((a, f) => a + f.ancestors.length, 0);
+const byPlace = {};
+for (const f of fams) {
+  const p = f.places[0]?.place || "not recorded";
+  (byPlace[p] ||= []).push(f);
+}
+const places = Object.entries(byPlace).sort((a, b) => b[1].length - a[1].length);
+---
+<Base title="Married In"
+  eyebrow={`${fams.length} families, ${totalAnc} ancestors, and until now no page at all`}
+  dek="This archive follows four surnames and gives each a page. Hedviga's descent runs through more than twenty. The other nineteen carry forty-five direct ancestors between them and have had nowhere to live. If one of these is your family, this page is for you."
+  >
+
+  <section class="blk">
+    <p class="lede">A pedigree names the men and loses the families. Every generation back, half of
+    this descent arrives through a woman with a different surname — and those surnames are
+    <strong>Uroda, Sekula, Jelličić, Bacchi, Gerkacs, Pekass, Orešković, Lončarić, Tomljanović</strong>
+    and ten more. They are not minor. <strong>They are half of it.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>They cluster by town, not by family</h2>
+    <p class="lede">Sort them by where their people actually are, and the married-in surnames turn
+    out to be <strong>a record of where the line was living at the time</strong> rather than a set
+    of independent families. A line at Karlobag married Karlobag; a line at Selce married Selce.</p>
+    <div class="grid two" style="margin-top:1.2rem">
+      {places.map(([place, list]) => (
+        <div class="card">
+          <h3>{place} <span class="dim mono">{list.length}</span></h3>
+          <p class="dek" style="margin-top:.3rem">{list.map((f) => f.label).join(" · ")}</p>
+        </div>))}
+    </div>
+  </section>
+
+  {fams.map((f) => (
+    <section class="blk">
+      <h2>{f.label} <span class="dim mono">{f.ancestors.length} ancestor{f.ancestors.length === 1 ? "" : "s"}</span></h2>
+      <table class="kv">
+        <tbody>
+          {f.spellings.length > 1 && (
+            <tr><th>Written</th><td>{f.spellings.map((s, i) => (
+              <span>{i > 0 && " · "}<span class="mono">{s}</span></span>))}</td></tr>)}
+          <tr><th>Years here</th><td class="mono">{f.from || "?"}–{f.to || "?"}</td></tr>
+          <tr><th>Where</th><td>{f.places.length
+            ? f.places.map((p, i) => (
+                <span>{i > 0 && " · "}<a href={u("/people/?q=" + encodeURIComponent(p.place))}>{p.place}</a>
+                  <span class="dim"> {p.n}</span></span>))
+            : <span class="dim">no place recorded for anyone of the name</span>}</td></tr>
+          <tr><th>Published here</th><td class="mono">{f.published}</td></tr>
+        </tbody>
+      </table>
+      <table class="reg" style="margin-top:.8rem">
+        <thead><tr><th>Ahn.</th><th>Who</th><th>Born</th><th>Where</th></tr></thead>
+        <tbody>{f.ancestors.map((a) => (
+          <tr>
+            <td class="mono dim">{a.ahn}</td>
+            <td><a href={u("/people/" + a.slug)}>{a.name}</a></td>
+            <td class="mono">{a.born || "—"}</td>
+            <td class="dim">{a.place || "—"}</td>
+          </tr>))}</tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>What this page is honest about</h2>
+    <ul class="plain">
+      <li style="margin-bottom:.6rem"><strong>Most of these families are one person deep.</strong>
+        Fourteen of the nineteen are published here as <strong>three people or fewer</strong> — the
+        ancestor, sometimes a parent, and nothing else. This archive has their name and their
+        marriage and almost nothing of their life.</li>
+      <li style="margin-bottom:.6rem"><strong>Several have no place at all.</strong> Sekula,
+        Shambul Marić, Pećanić and Findrić are surnames attached to people with no recorded
+        village — which is how a line ends without anyone noticing.</li>
+      <li><strong>Two are not really separate families.</strong> <span class="mono">Antić Papić</span>
+        is one man carrying two surnames at once, and <a href={u("/name")}>question 5 turned on
+        him</a>; <span class="mono">Smojver Vukić</span> is an alias the Karlobag register writes
+        out as <em>Smojver, vulgo Vukich</em>.</li>
+    </ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/families")}>The four with pages →</a>
+      {" "}<a class="btn" href={u("/coverage")}>What rests on a document →</a>
+      {" "}<a class="btn" href={u("/register")}>The register →</a></p>
+  </section>
+</Base>
