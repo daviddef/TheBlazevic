@@ -190,3 +190,27 @@ it". It is:
 and the book has a *Domus* column. Two numbers in one village, in a book that
 lists households by number — that is a far smaller job than the one described
 above, and it is the whole of question 4.
+
+---
+
+# Second sitting, 14 September 2026 — method gains, no answer yet
+
+**Šumećica was not found.** What was gained:
+
+* **A contrast filter makes the margin readable.** `__cell` now takes a canvas
+  `filter` string; `contrast(2.4) brightness(1.5)` lifts the *Pagus* out of the
+  binding shadow that defeated the first sitting. Overdo it — 2.6 with a tight
+  crop — and the page blows to pure black and white.
+* **Villages read so far**, with varying confidence:
+  `#14, #22 Otočac` · `#42 Kompolje` · `#48 Novoselia` · `#64 Prozor(?)`.
+  Prozor matters — it is a Žubrinić village in this archive's own gazetteer.
+* **The surname is not in the Nomina column.** Image 64 reads
+  *"Wolfgangus fil: defti Gregorii"*, *"Michael fil: Pauli"*,
+  *"Bernardus filius Wolfgangi"* — given name and patronymic only. The family
+  name sits in the margin with the *Pagus*, once per household. **So the book
+  cannot be searched by surname down the wide column**, which was the plan.
+
+**The honest position:** this is still a page-by-page read of about 110
+openings, and two sittings have not cracked it. The target is now precise —
+**Šumećica, Domus 2 and Domus 24** — and the tooling is better, but it needs a
+dedicated run rather than the tail of a session.
