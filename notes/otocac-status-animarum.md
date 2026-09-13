@@ -154,3 +154,39 @@ found there. But **Krmpote births run to 1896**, and Juraj, who has *no birth
 date at all* in the tree and whose children start in 1892, would fall inside
 that. **His own baptism is the reachable target, and it would name his father.**
 That is the next thing to do.
+
+---
+
+# Two corrections to the above, 14 September 2026
+
+## The 1859 marriage is now *less* likely to be ahnentafel 10's
+
+The Otočac marriage of **25 September 1859** gave the groom's age as **24**.
+Ahnentafel 10's baptism has since been read — it was already on disk, at 4,500
+pixels, in `photos/line/4502600-nicolaus-zubrinic-birth.jpg`:
+
+> **1834, Januarii die 24, Ottocsii** — *Nicolaus, filius legitimus,
+> Catholicus* — **Confiniarius, ex pago Shumechicza N° 24** — **Michaël
+> Xubrinich** et **Maria uxor ejus nata Oreskovich**, Catholici.
+> Godparents: *Petrus filius Francisci Xubrinich, Wigiliarum Magister
+> pensionatus*, and *Maria uxor Joannis Xubrinich, Sylvarum Custos in
+> Shumechicza.*
+
+Born **24 January 1834**, he is **25** in September 1859, not 24. A year's
+slack in a register age is ordinary and this does not disprove anything — but it
+fails to confirm, and it is one more reason the 1859 entry stays unclaimed.
+
+## The census target is now two house numbers, not a village
+
+This matters more. The baptism fixes the family at **Šumećica N° 24**, and the
+tree puts Toma Žubrinić (b. 1768) at **Šumećica 2**.
+
+So the sitting at the *Status Animarum* is no longer "find Šumećica and read
+it". It is:
+
+    find Šumećica in the Pagus margin
+    then find DOMUS 2 and DOMUS 24
+
+and the book has a *Domus* column. Two numbers in one village, in a book that
+lists households by number — that is a far smaller job than the one described
+above, and it is the whole of question 4.

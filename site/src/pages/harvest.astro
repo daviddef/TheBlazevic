@@ -30,9 +30,15 @@ const label = { births: "baptisms", deaths: "deaths", marriages: "marriages" };
     <h2>One book holds nine direct ancestors</h2>
     <p class="lede"><strong>Selce deaths, {selceDeaths?.holds}.</strong> Nine people on
     <a href={u("/direct-line/")}>the direct line</a> died at Selce inside that range —
-    ahnentafel {selceDeaths?.ahn.join(", ")} — and <strong>every one of their death dates in this
-    archive comes from the family tree, not from a document.</strong> One volume, one sitting, nine
-    confirmations or nine corrections.</p>
+    ahnentafel {selceDeaths?.ahn.join(", ")}. Checked person by person: five of the nine have an image
+    attached, but <strong>not one of those images is a death record</strong> — they are a marriage
+    and two baptisms in which these people appear as parents. <strong>No death entry for any of the
+    nine has been seen.</strong> One volume, one sitting, nine confirmations or nine corrections.</p>
+    <p style="margin-top:1rem"><strong>And one of the nine is already contradicted.</strong> The
+    Selce marriage of 22 November 1835 enters the bride as <em class="mono">filia Denatorum Georgii
+    et Margarittæ</em> — both parents dead — which puts <a href={u("/people/margarita-brozovic/")}>
+    ahnentafel 51</a> in her grave seven years before the tree does.
+    <a href={u("/open-questions/")}>Question 13b →</a></p>
     <p style="margin-top:1.1rem"><strong>And the largest single harvest is Novi Vinodolski.</strong>
     {novi?.reachable} events fall inside its baptism register, which is catalogued from
     <strong>1650</strong> — a century older than anything this archive currently holds. That is the
