@@ -1,0 +1,672 @@
+{
+ "buckets": [
+  {
+   "name": "Unknown Sorting Working Blažević",
+   "id": "@I508332@",
+   "children": 30,
+   "published": 30,
+   "family": "blazevic"
+  },
+  {
+   "name": "Senj - Unknown To be sorted Prpic",
+   "id": "@I508314@",
+   "children": 26,
+   "published": 26,
+   "family": "prpic"
+  },
+  {
+   "name": "Unknown - Klenovica Ledenice Kalanj",
+   "id": "@I508792@",
+   "children": 26,
+   "published": 26,
+   "family": "kalanj"
+  },
+  {
+   "name": "Krivi Put Working Other Unknown Blažević",
+   "id": "@I508548@",
+   "children": 28,
+   "published": 25,
+   "family": "blazevic"
+  },
+  {
+   "name": "Selce Other Working Papić (Papa)",
+   "id": "@I508969@",
+   "children": 23,
+   "published": 19,
+   "family": "papic"
+  },
+  {
+   "name": "Žubrinić Zubrinix Xubrinic Zubrinic Otocac - Working Tree",
+   "id": "@I506508@",
+   "children": 15,
+   "published": 15,
+   "family": "otocac - working tree"
+  },
+  {
+   "name": "Krivi Put 136 For Sorting Perpić",
+   "id": "@I508654@",
+   "children": 15,
+   "published": 14,
+   "family": "perpic"
+  },
+  {
+   "name": "Senj For Sorting Working Other Unknown Blažević",
+   "id": "@I508708@",
+   "children": 14,
+   "published": 14,
+   "family": "blazevic"
+  },
+  {
+   "name": "1800-1830 Birth - Selce Papić (Papa)",
+   "id": "@I509097@",
+   "children": 10,
+   "published": 9,
+   "family": "papic"
+  },
+  {
+   "name": "Žubrinić Working - Zubrinic Other Senj",
+   "id": "@I508315@",
+   "children": 7,
+   "published": 7,
+   "family": "senj"
+  },
+  {
+   "name": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic",
+   "id": "@I511670@",
+   "children": 5,
+   "published": 5,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Brothers [of Marcus] Žubrinić Xubrinich",
+   "id": "@I511732@",
+   "children": 5,
+   "published": 5,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Brothers [of Stephanus] Žubrinić",
+   "id": "@I511759@",
+   "children": 5,
+   "published": 5,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Unknown Illigitimate Father ?",
+   "id": "@I505394@",
+   "children": 3,
+   "published": 3,
+   "family": "?"
+  },
+  {
+   "name": "Brothers [of Josephus] Žubrinić Zubrinic Xubrinich",
+   "id": "@I511704@",
+   "children": 3,
+   "published": 3,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Joannes [Brothers of] Žubrinić Zubrinic",
+   "id": "@I511777@",
+   "children": 3,
+   "published": 3,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Senj - Unknown To be Sorted Papić",
+   "id": "@I508713@",
+   "children": 3,
+   "published": 2,
+   "family": "papic"
+  },
+  {
+   "name": "1831-1860 Birth - Selce Papić (Papa)",
+   "id": "@I509098@",
+   "children": 2,
+   "published": 2,
+   "family": "papic"
+  },
+  {
+   "name": "Brothers (of Mattheus) Žubrinić Xubrinich",
+   "id": "@I511671@",
+   "children": 2,
+   "published": 2,
+   "family": "zubrinic"
+  },
+  {
+   "name": "Brothers [of Paulus] Žubrinić Xubrinich",
+   "id": "@I511693@",
+   "children": 2,
+   "published": 2,
+   "family": "zubrinic"
+  },
+  {
+   "name": "1861-1899 Birth - Selce Papić (Papa)",
+   "id": "@I509099@",
+   "children": 1,
+   "published": 1,
+   "family": "papic"
+  }
+ ],
+ "orphaned": [
+  {
+   "id": "@I508439@",
+   "name": "Anna Blažević",
+   "slug": "anna-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508513@",
+   "name": "Nikola Blažević",
+   "slug": "nikola-blazevic-3",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508469@",
+   "name": "Antonija Blažević",
+   "slug": "antonija-blazevic-4",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508443@",
+   "name": "Antona Blažević",
+   "slug": "antona-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508526@",
+   "name": "Antona Blažević",
+   "slug": "antona-blazevic-3",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508409@",
+   "name": "Antonija Blažević",
+   "slug": "antonija-blazevic-3",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508427@",
+   "name": "Antonius Blažević",
+   "slug": "antonius-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508435@",
+   "name": "Antonius Blažević",
+   "slug": "antonius-blazevic-2",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508765@",
+   "name": "Are Tonius ? Blažević",
+   "slug": "are-tonius-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508493@",
+   "name": "Filip Blažević",
+   "slug": "filip-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508307@",
+   "name": "Ivan Blažević",
+   "slug": "ivan-blazevic-2",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508463@",
+   "name": "Ivan Blažević",
+   "slug": "ivan-blazevic-5",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508503@",
+   "name": "Ivan Blažević",
+   "slug": "ivan-blazevic-6",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508483@",
+   "name": "Ivka Blažević",
+   "slug": "ivka-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508459@",
+   "name": "Jakov Blažević",
+   "slug": "jakov-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508819@",
+   "name": "Jakov Blažević",
+   "slug": "jakov-blazevic-2",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508415@",
+   "name": "Josip Joso Blažević",
+   "slug": "josip-joso-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508542@",
+   "name": "Lucija Blažević",
+   "slug": "lucija-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508473@",
+   "name": "Marko Marke Blažević",
+   "slug": "marko-marke-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508407@",
+   "name": "Meijat Blažević",
+   "slug": "meijat-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508431@",
+   "name": "Michael Blažević",
+   "slug": "michael-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508536@",
+   "name": "Mihovil Blažević",
+   "slug": "mihovil-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508423@",
+   "name": "Nicolaus Blažević",
+   "slug": "nicolaus-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508451@",
+   "name": "Nikola Blažević",
+   "slug": "nikola-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508532@",
+   "name": "Nikola Blažević",
+   "slug": "nikola-blazevic-4",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508562@",
+   "name": "Nikola Blažević",
+   "slug": "nikola-blazevic-5",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508507@",
+   "name": "Ore Blažević",
+   "slug": "ore-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508399@",
+   "name": "Roza Blažević",
+   "slug": "roza-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508455@",
+   "name": "Ruze Blažević",
+   "slug": "ruze-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I508441@",
+   "name": "Stanislava Blažević",
+   "slug": "stanislava-blazevic",
+   "family": "blazevic",
+   "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I509079@",
+   "name": "Lucija Loncaric Papić (Papa)",
+   "slug": "lucija-loncaric-papic-papa",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509087@",
+   "name": "Juraj Loncaric Papić (Papa)",
+   "slug": "juraj-loncaric-papic-papa",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509088@",
+   "name": "Ana Loncaric Papić (Papa)",
+   "slug": "ana-loncaric-papic-papa",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509059@",
+   "name": "Ivan Papić (Papa)",
+   "slug": "ivan-papic-papa-2",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509108@",
+   "name": "Joannes Papić (Papa)",
+   "slug": "joannes-papic-papa-2",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509006@",
+   "name": "Joannis Papić (Papa)",
+   "slug": "joannis-papic-papa-2",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509114@",
+   "name": "Joannis Papić (Papa)",
+   "slug": "joannis-papic-papa-4",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509009@",
+   "name": "Josephi Papić (Papa)",
+   "slug": "josephi-papic-papa",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509003@",
+   "name": "Mariæ Papich Papić (Papa)",
+   "slug": "mari-papich-papic-papa",
+   "family": "papic",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I509076@",
+   "name": "Paval Papić (Papa)",
+   "slug": "paval-papic-papa",
+   "family": "papic",
+   "parent": "1861-1899 Birth - Selce Papić (Papa)"
+  },
+  {
+   "id": "@I508360@",
+   "name": "Franjo Franciscus Perpic",
+   "slug": "franjo-franciscus-perpic",
+   "family": "perpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509238@",
+   "name": "Georgie Perpic",
+   "slug": "georgie-perpic",
+   "family": "perpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508375@",
+   "name": "Jakov Perpic",
+   "slug": "jakov-perpic",
+   "family": "perpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508379@",
+   "name": "Simun Perpic",
+   "slug": "simun-perpic",
+   "family": "perpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508342@",
+   "name": "Ana Prpic",
+   "slug": "ana-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508311@",
+   "name": "Ivan Prpic",
+   "slug": "ivan-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508362@",
+   "name": "Jakomina Prpic",
+   "slug": "jakomina-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508754@",
+   "name": "Josip Prpic",
+   "slug": "josip-prpic-4",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508391@",
+   "name": "Lucia Prpic",
+   "slug": "lucia-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508348@",
+   "name": "Mande Prpic",
+   "slug": "mande-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508320@",
+   "name": "Marija Prpic",
+   "slug": "marija-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508353@",
+   "name": "Marka Prpic",
+   "slug": "marka-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508336@",
+   "name": "Marta Prpic",
+   "slug": "marta-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508372@",
+   "name": "Pave Prpic",
+   "slug": "pave-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508388@",
+   "name": "Tone Prpic",
+   "slug": "tone-prpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508396@",
+   "name": "Fabianus \"Fabijan\" Prpic / Perpic",
+   "slug": "fabianus-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509211@",
+   "name": "Francesca Prpic Perpic",
+   "slug": "francesca-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508384@",
+   "name": "Ivka Ivanja Prpic Perpic",
+   "slug": "ivka-ivanja-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509203@",
+   "name": "Joanna Prpic Perpic",
+   "slug": "joanna-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509207@",
+   "name": "Josip Josephus Prpic Perpic",
+   "slug": "josip-josephus-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509219@",
+   "name": "Mareus Prpic Perpic",
+   "slug": "mareus-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508326@",
+   "name": "Matija Prpic Perpic",
+   "slug": "matija-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I508381@",
+   "name": "Matija Prpic Perpic",
+   "slug": "matija-prpic-perpic-2",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509221@",
+   "name": "Paulus Prpic Perpic",
+   "slug": "paulus-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509228@",
+   "name": "Stanislav Prpic Perpic",
+   "slug": "stanislav-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I509215@",
+   "name": "Stephanus Prpic Perpic",
+   "slug": "stephanus-prpic-perpic",
+   "family": "prpic",
+   "parent": "Senj - Unknown To be sorted Prpic"
+  },
+  {
+   "id": "@I511539@",
+   "name": "Petrus Žubrinić Xubrinich",
+   "slug": "petrus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "Joannes [Brothers of] Žubrinić Zubrinic"
+  },
+  {
+   "id": "@I506592@",
+   "name": "Casparus Kasper Gaspar Žubrinić Xubrinich Zubrinic",
+   "slug": "casparus-kasper-gaspar-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511655@",
+   "name": "Joannes Žubrinić Xubrinich Zubrinic",
+   "slug": "joannes-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511663@",
+   "name": "Thomas Žubrinić Xubrinich Zubrinic",
+   "slug": "thomas-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511650@",
+   "name": "Michael Žubrinić Xubrinich Zubrinic",
+   "slug": "michael-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511659@",
+   "name": "Franciscus Francisci Žubrinić Xubrinich Zubrinic",
+   "slug": "franciscus-francisci-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511778@",
+   "name": "Joannes Žubrinić Zubrinic",
+   "slug": "joannes-zubrinic-zubrinic",
+   "family": "zubrinic",
+   "parent": "Joannes [Brothers of] Žubrinić Zubrinic"
+  },
+  {
+   "id": "@I511779@",
+   "name": "Matthias Žubrinić Zubrinic",
+   "slug": "matthias-zubrinic-zubrinic",
+   "family": "zubrinic",
+   "parent": "Joannes [Brothers of] Žubrinić Zubrinic"
+  }
+ ],
+ "hanging": 218
+}

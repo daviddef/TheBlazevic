@@ -565,5 +565,32 @@
   "record": "There are 114 Pavelići in the tree, and Lovro Kalanj married Ana Pavelić",
   "why": "The page is tagged to <em>Krešimir Pavelić</em>, and because no Pavelić is <em>published</em> here — this archive publishes nine surname groups and Pavelić is not one — it was set aside as somebody else's household. That was too quick. The tree holds <strong>114 Pavelići</strong>, including a Krešimir Pavelić born 3 March 1898, which matches the household head on the page; and <a href='/TheBlazevic/people/lovro-kalanj/'>Lovro Kalanj</a> married <em>Ana Pavelić</em>. Unpublished is not the same as unrelated, and conflating the two is a failure mode this archive is structurally prone to. The household stays unattached because no published person is named on it; it is no longer described as unconnected.",
   "href": "/connected"
+ },
+ {
+  "id": "@I508659@",
+  "kind": "corrected",
+  "what": "His son's birth year is a typo, and the place proves it",
+  "tree": "Domianus Perpić died 1888, and his wife Maria Sojath in 1891 — yet their son Georgius Prpić is entered as born 26 March 1962",
+  "record": "Georgius's own birthplace is given as “Krivi Put 136, Senj, Lika, Austria-Hungary”",
+  "why": "This was reported here as three separate impossibilities — a child born after his father's death, a child born after his mother's, and a mother of 139. All three are one typing slip. <strong>Austria-Hungary ceased to exist in 1918</strong>, so nobody was born there in 1962; and Krivi Put 136 is this family's own house, where his parents lived. Everything in the record agrees with <strong>1862</strong> and nothing agrees with 1962. The archive does not edit the tree, so the entry stands as written — but the three contradictions it generated should be read as one, and as solved.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I506361@",
+  "kind": "disputed",
+  "what": "Vladimira Baricević cannot be the mother of his children",
+  "tree": "Joannes Ivan Boras, born 1855, is married to Vladimira Baricević, born 12 December 1907 — a gap of 52 years — and fourteen children hang off her",
+  "record": "Nine of the fourteen were born before she was, between 1888 and 1906",
+  "why": "The children are his; the wife is wrong. A woman born in December 1907 did not bear Anđelika in 1888, Draga in 1891, Marija in 1892, Budimir in 1894, Pava and Paulina in 1895, Olga in 1902 or Krešo in 1906 — nor Zdenka in the same year she herself was born. This is the single largest contradiction in the archive and it is <strong>one wrong link</strong>, not fourteen. Vladimira is a real person attached to the wrong generation, in exactly the shape already documented for <a href='/TheBlazevic/people/maria-catharina-oreskovic-oreskovic/'>Maria Catharina Orešković</a>. Which of Joannes's wives actually bore them is not answerable from this file.",
+  "href": "/impossible"
+ },
+ {
+  "id": "@I511707@",
+  "kind": "note",
+  "what": "Aged 111, and fathered by a label",
+  "tree": "Gregorius Žubrinić, born 12 March 1785 at Otočac, died 1896 — age 111",
+  "record": "His children are born 1812–1825, which fits the birth; his recorded father is “Brothers [of Josephus] Žubrinić”",
+  "why": "The birth date is corroborated by his own children: a man fathering from 1812 to 1825 was born around 1785. It is the <strong>death</strong> that cannot stand, and the likeliest reading is a grandson of the same name. Worth noting separately because his father's slot holds <span class='mono'>Brothers [of Josephus] Žubrinić</span> — a sorting label, not a man — which is why he was counted as a joined Žubrinić rather than a loose end until 13 September 2026. <a href='/TheBlazevic/zubrinic-roots/'>The fragments →</a>",
+  "href": "/zubrinic-roots"
  }
 ]

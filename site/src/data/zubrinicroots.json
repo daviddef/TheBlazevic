@@ -5,6 +5,17 @@
  "real": 397,
  "fragments": [
   {
+   "id": "@I511705@",
+   "name": "Josephus Josip Žubrinić Zubrinic Xubrinich",
+   "byear": 1782,
+   "dyear": 1825,
+   "village": "prozor",
+   "house": "46",
+   "children": 8,
+   "spouse": "Catharina",
+   "state": "anchored"
+  },
+  {
    "id": "@I1046@",
    "name": "Toma Žubrinić",
    "byear": 1768,
@@ -13,6 +24,28 @@
    "house": "2",
    "children": 5,
    "spouse": "Marija Findrić",
+   "state": "anchored"
+  },
+  {
+   "id": "@I511707@",
+   "name": "Gregorius Gregory Žubrinić Zubrinic Xubrinich",
+   "byear": 1785,
+   "dyear": 1896,
+   "village": "otocac",
+   "house": null,
+   "children": 5,
+   "spouse": "Lucia",
+   "state": "anchored"
+  },
+  {
+   "id": "@I511708@",
+   "name": "Antonius Žubrinić Zubrinic Xubrinich",
+   "byear": 1796,
+   "dyear": 1832,
+   "village": "otocac",
+   "house": null,
+   "children": 4,
+   "spouse": "Anna",
    "state": "anchored"
   },
   {
@@ -49,6 +82,17 @@
    "state": "anchored"
   },
   {
+   "id": "@I511762@",
+   "name": "Phillipus Žubrinić",
+   "byear": 1809,
+   "dyear": 1845,
+   "village": null,
+   "house": null,
+   "children": 8,
+   "spouse": "Maria",
+   "state": "dated"
+  },
+  {
    "id": "@I506497@",
    "name": "Joannes Juan Ivan Ive Žubrinić",
    "byear": null,
@@ -58,6 +102,72 @@
    "children": 8,
    "spouse": "Maria Kostelacz Jergovic?",
    "state": "bare"
+  },
+  {
+   "id": "@I511733@",
+   "name": "Marcus Žubrinić Xubrinich",
+   "byear": 1789,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 7,
+   "spouse": "Anna",
+   "state": "dated"
+  },
+  {
+   "id": "@I511694@",
+   "name": "Paulus Žubrinić Xubrinich",
+   "byear": 1802,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 7,
+   "spouse": "Martha Franczetich",
+   "state": "dated"
+  },
+  {
+   "id": "@I511539@",
+   "name": "Petrus Žubrinić Xubrinich",
+   "byear": 1791,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 6,
+   "spouse": "Lucia Gercsevich",
+   "state": "dated"
+  },
+  {
+   "id": "@I511736@",
+   "name": "Lucas Žubrinić Xubrinich",
+   "byear": 1793,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 6,
+   "spouse": "Maria [Baptised Margarita]",
+   "state": "dated"
+  },
+  {
+   "id": "@I511779@",
+   "name": "Matthias Žubrinić Zubrinic",
+   "byear": 1780,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 5,
+   "spouse": "Anna",
+   "state": "dated"
+  },
+  {
+   "id": "@I506441@",
+   "name": "Mate Mathias xxx Žubrinić",
+   "byear": 1817,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 5,
+   "spouse": "Anne Anna Mudrovcić Madrovcić",
+   "state": "dated"
   },
   {
    "id": "@I506500@",
@@ -126,6 +236,17 @@
    "state": "dated"
   },
   {
+   "id": "@I506592@",
+   "name": "Casparus Kasper Gaspar Žubrinić Xubrinich Zubrinic",
+   "byear": 1767,
+   "dyear": 1829,
+   "village": null,
+   "house": null,
+   "children": 4,
+   "spouse": "Helena Žubrinić",
+   "state": "dated"
+  },
+  {
    "id": "@I511550@",
    "name": "Nicolaus Žubrinić Xubrinich",
    "byear": 1798,
@@ -181,6 +302,17 @@
    "state": "bare"
   },
   {
+   "id": "@I511674@",
+   "name": "Elias Ilija Žubrinić Xubrinich",
+   "byear": 1785,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 3,
+   "spouse": "Ursula",
+   "state": "dated"
+  },
+  {
    "id": "@I511565@",
    "name": "Wolfgangus Žubrinić Xubrinich",
    "byear": 1790,
@@ -189,6 +321,17 @@
    "house": null,
    "children": 3,
    "spouse": "Anna Smolcsich",
+   "state": "dated"
+  },
+  {
+   "id": "@I511650@",
+   "name": "Michael Žubrinić Xubrinich Zubrinic",
+   "byear": 1802,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 3,
+   "spouse": "Margarita",
    "state": "dated"
   },
   {
@@ -255,6 +398,17 @@
    "house": null,
    "children": 2,
    "spouse": null,
+   "state": "dated"
+  },
+  {
+   "id": "@I511760@",
+   "name": "Stephanus Žubrinić",
+   "byear": 1784,
+   "dyear": 1837,
+   "village": null,
+   "house": null,
+   "children": 2,
+   "spouse": "Barbara",
    "state": "dated"
   },
   {
@@ -410,6 +564,72 @@
    "children": 2,
    "spouse": "Petrus Mlinarich",
    "state": "bare"
+  },
+  {
+   "id": "@I511738@",
+   "name": "Gregory Žubrinić Xubrinich",
+   "byear": null,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 2,
+   "spouse": "(unnamed)",
+   "state": "bare"
+  },
+  {
+   "id": "@I511778@",
+   "name": "Joannes Žubrinić Zubrinic",
+   "byear": 1777,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "Margarita",
+   "state": "dated"
+  },
+  {
+   "id": "@I511655@",
+   "name": "Joannes Žubrinić Xubrinich Zubrinic",
+   "byear": 1780,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "Magdalena",
+   "state": "dated"
+  },
+  {
+   "id": "@I511672@",
+   "name": "Matthaeus Žubrinić Xubrinich",
+   "byear": 1781,
+   "dyear": 1837,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "Joanna",
+   "state": "dated"
+  },
+  {
+   "id": "@I511663@",
+   "name": "Thomas Žubrinić Xubrinich Zubrinic",
+   "byear": 1800,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "(unnamed)",
+   "state": "dated"
+  },
+  {
+   "id": "@I511659@",
+   "name": "Franciscus Francisci Žubrinić Xubrinich Zubrinic",
+   "byear": 1815,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "Magdalena",
+   "state": "dated"
   },
   {
    "id": "@I506447@",
@@ -863,6 +1083,17 @@
    "state": "bare"
   },
   {
+   "id": "@I511737@",
+   "name": "Thomas Tomo Thomo Žubrinić Xubrinich",
+   "byear": null,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 1,
+   "spouse": "Martha",
+   "state": "bare"
+  },
+  {
    "id": "@I511812@",
    "name": "Lucia Žubrinić Xubrinich",
    "byear": null,
@@ -927,6 +1158,50 @@
    "children": 1,
    "spouse": null,
    "state": "bare"
+  },
+  {
+   "id": "@I511735@",
+   "name": "Stephanus Žubrinić Xubrinich",
+   "byear": 1791,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 0,
+   "spouse": "Martha",
+   "state": "dated"
+  },
+  {
+   "id": "@I511696@",
+   "name": "Matthius Žubrinić Xubrinich",
+   "byear": 1806,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 0,
+   "spouse": "Magdalena?",
+   "state": "dated"
+  },
+  {
+   "id": "@I511763@",
+   "name": "Joannes Žubrinić",
+   "byear": 1813,
+   "dyear": null,
+   "village": null,
+   "house": null,
+   "children": 0,
+   "spouse": null,
+   "state": "dated"
+  },
+  {
+   "id": "@I511765@",
+   "name": "Thomas Žubrinić",
+   "byear": 1822,
+   "dyear": 1829,
+   "village": null,
+   "house": null,
+   "children": 0,
+   "spouse": null,
+   "state": "dated"
   },
   {
    "id": "@I506432@",
@@ -997,12 +1272,42 @@
  ],
  "pairs": [
   {
+   "a": "Gregorius Gregory Žubrinić Zubrinic Xubrinich",
+   "ay": 1785,
+   "b": "Antonius Žubrinić Zubrinic Xubrinich",
+   "by": 1796,
+   "village": "otocac",
+   "gap": 11,
+   "why": "same village, born within a dozen years — siblings?",
+   "score": 1
+  },
+  {
    "a": "Magdalena Žubrinić",
    "ay": 1812,
    "b": "Martinus Georgius Žubrinić",
    "by": 1838,
    "village": "otocac",
    "gap": 26,
+   "why": "same village, one generation apart — parent and child?",
+   "score": 2
+  },
+  {
+   "a": "Gregorius Gregory Žubrinić Zubrinic Xubrinich",
+   "ay": 1785,
+   "b": "Magdalena Žubrinić",
+   "by": 1812,
+   "village": "otocac",
+   "gap": 27,
+   "why": "same village, one generation apart — parent and child?",
+   "score": 2
+  },
+  {
+   "a": "Antonius Žubrinić Zubrinic Xubrinich",
+   "ay": 1796,
+   "b": "Martinus Georgius Žubrinić",
+   "by": 1838,
+   "village": "otocac",
+   "gap": 42,
    "why": "same village, one generation apart — parent and child?",
    "score": 2
   }
@@ -1268,6 +1573,7 @@
     "2 MAY 1802"
    ],
    "states": [
+    "fragment",
     "joined"
    ]
   },
@@ -1311,6 +1617,7 @@
     "1822"
    ],
    "states": [
+    "fragment",
     "joined"
    ]
   },

@@ -85,13 +85,24 @@ under_index = sum(len([c for c in (F.get(f, {}).get("chil") or []) if c in P])
 real = {x: p for x, p in Z.items()
         if x not in index_nodes and not JUNK.search(gedcom.display(p) or "")}
 
+BUCKET = re.compile(
+    r"\bbrothers?\b|\bsisters?\b|\bto be sorted\b|\bfor sorting\b|\bsorting\b|"
+    r"\bworking\b|\bit seems\b|\bunknown\b|\d{4}\s*-\s*\d{4}\s*birth", re.I)
+
 roots = []
 for x, p in real.items():
     par = []
     for f in (p.get("famc") or []):
         fam = F.get(f, {})
         par += [y for y in (fam.get("husb"), fam.get("wife")) if y in P]
-    if any(fold(P[y].get("surname")) == "zubrinic" and y not in index_nodes for y in par):
+    # A sorting bucket is not a parent. "Brothers [of Josephus] Zubrinic" and
+    # "Zubrinic ... Otocac - Working" are labels somebody put in the father's
+    # slot while sorting, and this file used to accept them as real Zubrinic
+    # parents - so anyone hanging off one was counted as joined when they are
+    # exactly as loose as the rest. The buckets were un-published as PEOPLE in
+    # September 2026; they were never removed as PARENTS.
+    if any(fold(P[y].get("surname")) == "zubrinic" and y not in index_nodes
+           and not BUCKET.search(gedcom.display(P[y]) or "") for y in par):
         continue
     roots.append(x)
 

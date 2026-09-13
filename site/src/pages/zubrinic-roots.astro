@@ -78,17 +78,57 @@ const TIERNOTE = {
 
   {D.pairs.length > 0 && (
     <section class="blk">
-      <h2>The one pair the tree can offer</h2>
+      <h2>{D.pairs.length === 1 ? "The one pair the tree can offer" : `The ${D.pairs.length} pairs the tree can offer`}</h2>
       <table class="reg">
         <tbody>{D.pairs.map((p) => (
           <tr><td><strong>{p.a}</strong> <span class="mono dim">{p.ay}</span></td>
             <td><strong>{p.b}</strong> <span class="mono dim">{p.by}</span></td>
             <td class="dek">{p.why} · {p.village}</td></tr>))}</tbody>
       </table>
-      <p class="dek" style="margin-top:1rem">Twenty-six years apart at Otočac. It is a lead, not a
-      finding, and it is the <em>only</em> one the data supports.</p>
+      <p class="dek" style="margin-top:1rem">All at Otočac. These are leads, not findings — and
+      there were only <em>one</em> of them until the sorting buckets below stopped being counted as
+      parents.</p>
     </section>
   )}
+
+  <section class="blk">
+    <div class="lab">Added 13 September 2026 — and it changed the count on this page</div>
+    <h2>Twenty-five loose ends were hiding behind a label</h2>
+    <p class="lede">A fragment here is defined as a Žubrinić with <em>no real Žubrinić parent</em>.
+    The word doing the work is <strong>real</strong>, and this page was not checking it.</p>
+
+    <p>The tree contains entries like <span class="mono">Brothers [of Josephus] Žubrinić</span> and
+    <span class="mono">Žubrinić … Otočac - Working</span>. These are not people. They are labels
+    somebody typed into the father's slot while sorting, and this archive
+    <a href={u("/impossible")}>already found four of them</a> being published as ancestors and
+    removed them — <em>from the list of people</em>. Nobody removed them from the list of
+    <em>parents</em>. So a Žubrinić whose only father is the phrase “Brothers of Josephus” was
+    counted by this page as <strong>joined</strong>.</p>
+
+    <p>Across the whole archive, <strong>21 sorting buckets are still acting as a parent</strong>,
+    <strong>218 published people hang off one</strong>, and <strong>74 have no other parent at
+    all</strong> — 30 Blažević, 22 Prpić, 10 Papić, 8 Žubrinić, 4 Perpić.</p>
+
+    <div class="qa">
+      <h3>What that did to this page</h3>
+      <table class="reg">
+        <thead><tr><th></th><th>Before</th><th>After</th></tr></thead>
+        <tbody>
+          <tr><th>Loose ends</th><td class="mono">90</td><td class="mono"><strong>115</strong></td></tr>
+          <tr><th>Bare names</th><td class="mono">79</td><td class="mono">81</td></tr>
+          <tr><th>Carrying a date — the searchable kind</th><td class="mono">6</td><td class="mono"><strong>26</strong></td></tr>
+          <tr><th>Anchored to a village and a year</th><td class="mono">4</td><td class="mono"><strong>7</strong></td></tr>
+          <tr><th>Pairs worth a registrar's morning</th><td class="mono">1</td><td class="mono"><strong>4</strong></td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:1.2rem">The count got <em>worse</em> and the prospects got
+      <strong>better</strong>. Twenty-five more people are loose than this page admitted — but
+      twenty of the newly-exposed ones carry a date, so the number that can actually be searched for
+      in a register rises from eleven to thirty-four, and the joinable pairs from one to four.</p>
+      <p class="dek">The lesson is narrow and worth keeping: un-publishing a bad record is not the
+      same as removing it. It disappears from the page and goes on doing its work underneath.</p>
+    </div>
+  </section>
 
   <section class="blk">
     <div class="lab">Added 13 September 2026</div>
