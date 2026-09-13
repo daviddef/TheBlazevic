@@ -4,6 +4,7 @@ import { u } from "../../lib/url.js";
 import { people, lifespan, evidenced } from "../../lib/people.js";
 import families from "../../data/families.json";
 import given from "../../data/givennames.json";
+import B from "../../data/buckets.json";
 
 const rows = [...people].sort((a, b) =>
   (a.surname || "").localeCompare(b.surname || "") ||
@@ -11,19 +12,29 @@ const rows = [...people].sort((a, b) =>
 const withSrc = rows.filter(evidenced).length;
 const ancestors = rows.filter((p) => p.ancestor).length;
 const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
+const linked = B.connected;
+const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 ---
 <Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records`}
-  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here.">
+  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. A published record is not a proven relative — see the note below on how many of these people are actually attached to Hedviga.">
 
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published
         people</div></div>
+      <div class="stat"><div class="n">{pctLinked}%</div><div class="l">connected to Hedviga
+        without a <a href={u("/buckets")}>sorting label</a></div></div>
       <div class="stat"><div class="n">{ancestors}</div><div class="l">direct ancestors of
         Hedviga</div></div>
       <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry at least
         one source string; {(rows.length - withSrc).toLocaleString()} carry none</div></div>
     </div>
+    <p class="note" style="margin-top:1.2rem"><strong>{(rows.length - linked).toLocaleString()} of
+    these {rows.length.toLocaleString()} people reach Hedviga only through a sorting label</strong> —
+    a working note sitting where an ancestor should be. That is not a claim they are invented; the
+    register entries behind them are real. It is a statement about the join, and it is marked on
+    each person's own page. <a href={u("/buckets")}>Labels where the father should be →</a></p>
+
     <p class="note" style="margin-top:1.2rem">A source string here usually means
     <em>another online tree</em>. It is a witness, not a document. The column is shown because the
     difference between “someone else also says this” and “a register says this” is the whole

@@ -6,6 +6,7 @@ import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
 import evidence from "../../data/evidence.json";
+import linkage from "../../data/linkage.json";
 import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
@@ -49,9 +50,42 @@ const KIND = { corrected: "Corrected against the register",
                disputed: "Disputed — this attachment does not hold",
                upgraded: "Upgraded — now documented",
                note: "Noted" };
+const link = linkage[p.id];
 ---
 <Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
+
+  {link && (
+    <section class="blk">
+      <div class="fix disputed">
+        <div class="lab">How this person is attached</div>
+        <h2 style="margin-top:.3rem">{link.only
+          ? "The only parent on record here is not a person"
+          : link.label
+            ? "One parent on record here is not a person"
+            : "Connected to this family only through a sorting label"}</h2>
+        {link.label && (
+          <table class="kv tight" style="margin-top:.6rem">
+            <tr><th>Entered as the parent</th><td><span class="mono">{link.label}</span></td></tr>
+          </table>
+        )}
+        <p style="margin-top:.9rem">
+          {link.label
+            ? <span>That is a <strong>sorting label</strong> — a note somebody typed into the
+              parent's slot while working through records. No priest wrote it and nobody was called
+              it. {link.only
+                ? <span>It is the <strong>only</strong> parent this record has, so nothing documented
+                  attaches this person to anyone.</span>
+                : <span>The other parent is a real record.</span>}</span>
+            : <span>Every route from <a href={u("/hedviga")}>Hedviga</a> to this person passes
+              through a <strong>sorting label</strong> — a working note sitting where an ancestor
+              should be.</span>}
+          {" "}This is not a claim that the person is invented; the register entries behind them are
+          real. It is a statement about <em>the join</em>. <a href={u("/buckets")}>Why this matters →</a>
+        </p>
+      </div>
+    </section>
+  )}
 
   {fixes.length > 0 && fixes.map((c) => (
     <section class="blk">

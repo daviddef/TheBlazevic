@@ -4,7 +4,12 @@ import { u } from "../lib/url.js";
 import register from "../data/register.json";
 import coverage from "../data/coverage.json";
 
+import Z from "../data/zubrinicroots.json";
+import B from "../data/buckets.json";
+
 const swept = register.filter((r) => r.kind === "swept");
+const searchable = Z.fragments.filter((f) => f.state !== "bare");
+const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 
 // Every page actually opened, act by act. Ordered as read.
 const READ = [
@@ -73,6 +78,32 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       </table>
     </section>
   ))}
+
+  <section class="blk">
+    <h2>What to ask for first, and why it changed</h2>
+    <p class="lede">Until 13 September 2026 the priority here was to <em>confirm</em> — to find the
+    register entry behind a date the tree already gives. That was the wrong order, and one
+    measurement changed it.</p>
+    <p>Strip the <a href={u("/buckets")}>sorting labels</a> out of the tree and only
+    <strong>{pctLinked}%</strong> of the published people are still connected to
+    <a href={u("/hedviga")}>Hedviga</a> at all. For the <a href={u("/zubrinic")}>Žubrinići</a> it is
+    <strong>5%</strong> — 21 people out of 414. <strong>Confirming a date this archive already holds
+    adds nothing to that number. Joining one fragment to the line adds a branch.</strong></p>
+    <p>So the first ask is no longer a birth entry. It is a <strong>marriage</strong>, for one of the
+    <strong>{searchable.length}</strong> Žubrinić fragments that carry enough detail to be searched
+    for — a marriage names both parents and is the cheapest way to attach a whole household.</p>
+    <table class="reg">
+      <thead><tr><th>Who</th><th>Born</th><th>Where</th><th>Children</th><th>Spouse named</th></tr></thead>
+      <tbody>{searchable.slice(0, 12).map((f) => (
+        <tr><td>{f.name}</td><td class="mono">{f.byear || "—"}</td>
+          <td class="dim">{f.village || "—"}{f.house ? " " + f.house : ""}</td>
+          <td class="mono">{f.children || "—"}</td>
+          <td class="dim">{f.spouse || "—"}</td></tr>))}</tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem">Ordered by how much there is to search on.
+    <a href={u("/zubrinic-roots")}>All {searchable.length}, and the {Z.fragments.length - searchable.length}
+    that cannot be searched for at all →</a></p>
+  </section>
 
   <section class="blk">
     <h2>The books nobody has opened at all</h2>

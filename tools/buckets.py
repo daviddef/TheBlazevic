@@ -220,6 +220,40 @@ print(f"published people still connected without any sorting label: "
 for x in standing:
     print(f"  {x['family']:<10} {x['connected']:>4} of {x['published']:<4} {x['pct']:>4}%")
 
+
+
+# ---- per person, so the fact can reach the page it belongs on -------------
+#
+# All of the above lived on one summary page, which meant a reader looking at
+# Anna Blazevic had no way to know that her only recorded parent is the phrase
+# "Unknown Sorting Working Blazevic". A finding that changes how the whole site
+# should be read has to reach the pages it is about.
+
+linkage = {}
+for cid, rec in pub.items():
+    par = []
+    for f in (P.get(cid, {}).get("famc") or []):
+        fam = F.get(f, {})
+        par += [fam[r] for r in ("husb", "wife") if fam.get(r) in P]
+    labelled = [gedcom.display(P[x]) for x in par if is_bucket(x)]
+    real_par = [x for x in par if not is_bucket(x)]
+    entry = {}
+    if labelled:
+        entry["label"] = labelled[0]
+        entry["only"] = not real_par          # no real parent at all
+    if cid not in without_b:
+        entry["unlinked"] = True              # no path to Hedviga without labels
+    if entry:
+        linkage[cid] = entry
+
+lout = os.path.join(DATA, "linkage.json")
+json.dump(linkage, open(lout, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+n_lab = sum(1 for v in linkage.values() if "label" in v)
+n_only = sum(1 for v in linkage.values() if v.get("only"))
+n_unl = sum(1 for v in linkage.values() if v.get("unlinked"))
+print(f"\nlinkage.json: {n_lab} people with a label for a parent, "
+      f"{n_only} with nothing else, {n_unl} unreachable without labels")
+
 out = os.path.join(DATA, "buckets.json")
 json.dump({"buckets": rows, "orphaned": orphaned, "labels": labels,
            "standing": standing, "connected": tot_con, "publishedTotal": tot_pub,
