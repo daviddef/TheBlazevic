@@ -1,6 +1,8 @@
 ---
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
+import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
+import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
@@ -37,6 +39,10 @@ const share = dek || description ||
   "An evidence-first archive of Hedviga Blažević and the four families behind her.";
 const shareImg = new URL(u("/photos/hero.jpg"), SITE_URL).href;
 const on = (h) => here === u(h).replace(/\/$/, "");
+/* which of the seven this is, worked out the same way the ring does */
+const thisArchive = ring.archives.find(
+  (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
+);
 ---
 <html lang="en" data-base={u("")}>
 <head>
@@ -115,6 +121,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
       <a href={u("/open-questions/")}>Open questions</a> ·
       <a href={u("/corrections/")}>What changed</a> ·
       Corrections are the most valuable thing you can send</p>
+    <VisitCount code={thisArchive?.counter} />
   </div>
 </footer>
 
