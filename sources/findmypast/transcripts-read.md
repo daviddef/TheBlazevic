@@ -331,3 +331,55 @@ marriages at **Otočac**. These four records say the emigration ran out of
 **Šumećica and Prozor specifically**, with named wives, brothers and fathers left
 behind — which are exactly the people a parish register would hold. The request
 can now name villages rather than a district.
+
+---
+
+## 17–20. Prozor is emptying, and this archive stops before it happens
+
+| Name | Born | Sailed | From · ship | **Residence** | **Father named** | Other kin |
+|---|---|---|---|---|---|---|
+| **Eva Zubrinic** | 1880 | **1907** | **Fiume** · *Ultonia* | **Prozor** | — | BRO-IN-LAW: **Joso Gomerčić** |
+| **Miko Zubrinic** | 1893 | **1910** | Trieste · *Martha Washington* | **Prozor** | **Ivan Zubrinic** | UNCLE: **Josef Kostelac** |
+| **Nikola Zubrinic** | 1886 | **1911** | Southampton · *Oceanic* | **“Prozov”** = Prozor | **Sandro Zubrinic** | BRO-IN-LAW: **Jus Orešković** |
+| **Anton Zubrinic** | 1891 | **1911** | Southampton · *Adriatic* | **“Prozov”** = Prozor | **Marco Zubrinic** | FRIEND: Foica Grević |
+| **Mate Žubrinić** | 1867 | **1911** | Southampton · *Saint Louis* | **Prozor** | *(Michael, per this archive)* | NEPHEW: **Stipan Kostelac** |
+| **Miho Zubrinic** | — | **1912** | Southampton · *Saint Paul* | — | — | BRO-IN-LAW of **Nikola Ladisić** |
+
+**Six people out of one village in five years**, 1907–1912.
+
+### The gap this exposes
+
+This archive documents the **Prozor 50** household in detail — Michael Žubrinić,
+born 1826, and his seven children: Nikola 1858, Kata 1860, Georgius 1863,
+Magdalena 1865, **Mate 1867**, **Ivan 1870**, Franjo 1874.
+
+**And then it stops.** There is **not one Žubrinić born at Prozor between 1875
+and 1900** anywhere in this archive.
+
+The manifests document exactly that missing generation: **Eva 1880, Nikola 1886,
+Anton 1891, Miko 1893** — the children of the people the archive's record ends
+with. Their fathers are named on the documents as **Ivan**, **Sandro** and
+**Marco** Zubrinic.
+
+**Ivan** is almost certainly [Ivan of Prozor 50, born 1870](#13-16), whose own
+record stops at birth. **Sandro** and **Marco** are not in this archive in any
+generation that could father a child in the 1880s — the only Marcus is born 1789.
+So Prozor held at least two more Žubrinić households than this archive knows of.
+
+### And the in-laws are people we already hold
+
+The brothers-in-law named are **Orešković** (14 in this archive — and
+[Maria Catharina Orešković](../../site/src/pages/open-questions.astro) is the
+subject of question 4d) and **Gomerčić** (3 in this archive). The uncles are
+**Kostelac**, twice, against six documented Kostelac marriages into a Žubrinić
+household.
+
+**The Prozor emigrants married into the same families as the Prozor people we
+already have.** That is not proof of kinship and it is a very strong hint of it.
+
+### Not matched, deliberately
+
+**Franjo b.1883 of Šumećica**, **Georg b.1869 of Otočac**, **Nikola b.1886**,
+**Anton b.1891**, **Eva b.1880** and **Miho 1912** are **new people**. None has
+been added to anything. They are recorded because they tell a registrar exactly
+which volumes to open.
