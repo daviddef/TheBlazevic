@@ -52,7 +52,47 @@ eighteen to thirty years after birth.
 3. **Domianus Perpić, born 1820, at *Krivi Put 136*** — a house we already work
    on, and thirty-nine Prpići and Perpići follow him.
 
-## Why a marriage and not a baptism
+## And, since 13 September 2026, we can name the villages
+
+We spent a day on American passenger manifests and they told us something about
+**Otočac** that our own records had not. Between **1903 and 1912** these Žubrinići
+sailed for New York, giving these villages as their last residence:
+
+| Who | Born | Sailed | Residence given | Kin named on the manifest |
+|---|---|---|---|---|
+| Georg | 1869 | 1903 | **Otočac** | cousin G. M. Bogdanić |
+| “Mjos” | 1865 | 1907 | **Otočac** | — |
+| **Eva** | 1880 | 1907 | **Prozor** | brother-in-law **Joso Gomerčić** |
+| **Franjo** | 1883 | 1910 | **ŠUMEĆICA** | wife **Franci**, brother **Ture** |
+| **Miko** | 1893 | 1910 | **Prozor** | **father Ivan**, uncle **Josef Kostelac** |
+| **Nikola** | 1886 | 1911 | **Prozor** | **father Sandro**, brother-in-law **Jus Orešković** |
+| **Anton** | 1891 | 1911 | **Prozor** | **father Marco** |
+| **Mate** | 1867 | 1911 | **Prozor** | wife **Roza**, nephew **Stipan Kostelac** |
+
+**Six from Prozor in five years**, and one from **Šumećica** — the two villages
+our oldest entries name (*Prozor 46*, *Prozor 50*, *Šumećica 2*, *Šumećica 24*).
+
+This changes what we should be asking you for:
+
+1. **The fathers are named.** *Ivan*, *Sandro* and *Marco* Žubrinić were living at
+   **Prozor** in the 1880s and 1890s and fathering children. **Only one of the
+   three appears in our records.**
+2. **And it exposes a gap.** We hold the Prozor 50 household down to 1874 and then
+   nothing — **not one Žubrinić born at Prozor between 1875 and 1900**. The
+   baptisms of Eva (1880), Nikola (1886), Anton (1891) and Miko (1893) should all
+   be in the Otočac book, and would restore an entire generation at once.
+3. **Šumećica had a living household in 1910** — Franjo, his wife Franci and his
+   brother Ture — and Šumećica is where our single oldest Žubrinić record comes
+   from.
+
+**So if only one thing can be looked at, we would now choose the Otočac baptisms
+for Prozor, 1875–1895**, ahead of any marriage in the table above. One volume,
+one village, twenty years.
+
+## Why a marriage, where there is a choice
+
+*(The section above supersedes this where Prozor is concerned — for that village
+we now want baptisms. The argument still holds everywhere else.)*
 
 A baptism names the child and its parents. **A marriage names both parties and
 both sets of parents** — four names and usually two house numbers in one act. It
