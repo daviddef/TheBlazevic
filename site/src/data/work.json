@@ -281,6 +281,46 @@
    "from": "register"
   },
   {
+   "who": "Josip Papić",
+   "what": "težak",
+   "english": "labourer",
+   "family": "papic",
+   "place": "Senj",
+   "year": "1885",
+   "source": "Senj baptisms str.107 no.67 — with his wife entered as Tonka rodj. Prpić IZ KRIVOGPUTA",
+   "from": "register"
+  },
+  {
+   "who": "Toma Štimac",
+   "what": "nadcestar",
+   "english": "road overseer",
+   "family": null,
+   "place": "Senj",
+   "year": "1885",
+   "source": "Senj baptisms str.107 no.62",
+   "from": "register"
+  },
+  {
+   "who": "Joso Župan",
+   "what": "bremenar",
+   "english": "burden-carrier, porter",
+   "family": null,
+   "place": "Senj",
+   "year": "1885",
+   "source": "Senj baptisms str.107 no.65",
+   "from": "register"
+  },
+  {
+   "who": "Andrija Osterman",
+   "what": "mornar",
+   "english": "sailor",
+   "family": null,
+   "place": "Senj",
+   "year": "1885",
+   "source": "Senj baptisms str.107 no.68",
+   "from": "register"
+  },
+  {
    "who": "Toma Tomislav Blazevic",
    "slug": "toma-tomislav-blazevic",
    "what": "Nadničar",
@@ -501,7 +541,7 @@
    "from": "tree"
   }
  ],
- "fromRegister": 28,
+ "fromRegister": 32,
  "fromTree": 20,
  "published": 1245
 }
