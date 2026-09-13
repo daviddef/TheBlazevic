@@ -1,5 +1,6 @@
 ---
 import { u } from "../lib/url.js";
+import SiblingArchives from "../components/SiblingArchives.astro";
 const { title, description = "", dek, eyebrow, bare } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
@@ -104,6 +105,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
 
 <footer class="site">
   <div class="wrap">
+    <SiblingArchives />
     <p class="foot">An evidence-first archive of the Blažević family of Senj and Smokvica Krmpotska —
     and of the Žubrinići of Otočac, the Papići of Selce and the Prpići of Krivi Put. Every claim
     carries its confidence, or is marked as unproven. Living people are excluded from this build.</p>
