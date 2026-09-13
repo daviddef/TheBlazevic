@@ -668,5 +668,182 @@
    "parent": "Joannes [Brothers of] Žubrinić Zubrinic"
   }
  ],
+ "labels": [
+  {
+   "name": "Senj - Unknown To be sorted Prpic",
+   "family": "prpic",
+   "village": "Senj",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 0,
+   "disagree": 4,
+   "blank": 22,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Unknown - Klenovica Ledenice Kalanj",
+   "family": "kalanj",
+   "village": "Klenovica/Ledenice",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 1,
+   "disagree": 0,
+   "blank": 25,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Krivi Put Working Other Unknown Blažević",
+   "family": "blazevic",
+   "village": "Krivi Put",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 2,
+   "disagree": 4,
+   "blank": 19,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Selce Other Working Papić (Papa)",
+   "family": "papic",
+   "village": "Selce",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 0,
+   "disagree": 0,
+   "blank": 19,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Žubrinić Zubrinix Xubrinic Zubrinic Otocac - Working Tree",
+   "family": "otocac - working tree",
+   "village": "Otocac",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 0,
+   "disagree": 0,
+   "blank": 15,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Krivi Put 136 For Sorting Perpić",
+   "family": "perpic",
+   "village": "Krivi Put",
+   "house": "136",
+   "range": null,
+   "specific": true,
+   "agree": 5,
+   "disagree": 0,
+   "blank": 9,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Senj For Sorting Working Other Unknown Blažević",
+   "family": "blazevic",
+   "village": "Senj",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 1,
+   "disagree": 3,
+   "blank": 10,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "1800-1830 Birth - Selce Papić (Papa)",
+   "family": "papic",
+   "village": "Selce",
+   "house": null,
+   "range": [
+    "1800",
+    "1830"
+   ],
+   "specific": true,
+   "agree": 3,
+   "disagree": 0,
+   "blank": 6,
+   "yearIn": 3,
+   "yearOut": 0
+  },
+  {
+   "name": "Žubrinić Working - Zubrinic Other Senj",
+   "family": "senj",
+   "village": "Senj",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 1,
+   "disagree": 2,
+   "blank": 4,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "Senj - Unknown To be Sorted Papić",
+   "family": "papic",
+   "village": "Senj",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 0,
+   "disagree": 0,
+   "blank": 2,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "1831-1860 Birth - Selce Papić (Papa)",
+   "family": "papic",
+   "village": "Selce",
+   "house": null,
+   "range": [
+    "1831",
+    "1860"
+   ],
+   "specific": true,
+   "agree": 0,
+   "disagree": 0,
+   "blank": 2,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
+   "name": "1861-1899 Birth - Selce Papić (Papa)",
+   "family": "papic",
+   "village": "Selce",
+   "house": null,
+   "range": [
+    "1861",
+    "1899"
+   ],
+   "specific": true,
+   "agree": 0,
+   "disagree": 0,
+   "blank": 1,
+   "yearIn": 0,
+   "yearOut": 0
+  }
+ ],
+ "specific": {
+  "agree": 8,
+  "disagree": 0,
+  "blank": 18
+ },
+ "vague": {
+  "agree": 5,
+  "disagree": 13,
+  "blank": 116
+ },
  "hanging": 218
 }

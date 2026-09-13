@@ -1,0 +1,27 @@
+{
+ "note": "sha256[:16] of each derived file at last full regeneration",
+ "files": {
+  "ancestors.json": "2b039482d88fb076",
+  "buckets.json": "d5459af77c7f91c1",
+  "consistency.json": "64f95e9a29d4593f",
+  "corrections.json": "8ef778688dc98952",
+  "coverage.json": "f8f8d4d53deaa652",
+  "duplicates.json": "52bb298ae59eef63",
+  "evidence.json": "3de1ef963a1efafe",
+  "families.json": "ecc45f6dd06fb79e",
+  "gazetteer.json": "8234be74624ebeca",
+  "givennames.json": "8ff624c179be6df8",
+  "impossible.json": "94e9276bf1a723c3",
+  "latincases.json": "6c74d51bc1fed7eb",
+  "line.json": "a8762560ed88ae91",
+  "marriedin.json": "02aa8f41c3c96035",
+  "media.json": "df6992d5a8cb1e9a",
+  "people.json": "c4953a7b09d509a1",
+  "places.json": "1a8540c5217c1a6c",
+  "recent.json": "56e1c24818349b57",
+  "register.json": "2fd570a45d549546",
+  "sovereignty.json": "0d5924473723db52",
+  "surnames.json": "1bec8f564925626d",
+  "zubrinicroots.json": "9fb42df3742771dc"
+ }
+}

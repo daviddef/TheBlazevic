@@ -25,6 +25,15 @@ jobs:
       - name: Install
         run: npm ci || npm install
         working-directory: site
+      - name: Verify the committed data matches the tools that produce it
+        # Thirteen tools need sources/*.ged, which is gitignored, so CI cannot
+        # re-derive their output. It can check that nobody hand-edited a data
+        # file or changed a tool without rerunning it: regen.py stamps every
+        # derived file's hash at the last full regeneration. The gazetteer went
+        # on quoting 232 Zubrinics for weeks after the count was fixed, and this
+        # is what would have caught it.
+        run: python3 tools/regen.py --check
+
       - name: Regenerate the derived data that does not need the GEDCOM
         # Eleven of twelve tools need sources/*.ged, which is gitignored because
         # it carries every living person in full. These three read committed

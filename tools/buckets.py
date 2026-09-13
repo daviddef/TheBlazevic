@@ -77,8 +77,83 @@ print("\norphaned-by-bucket, by family:")
 for f, n in by_fam.most_common():
     print(f"  {n:>3}  {f}")
 
+
+
+# ---- do the labels encode anything real? ---------------------------------
+#
+# "1800-1830 Birth - Selce Papic (Papa)" carries a village, a date range and a
+# nadimak. "Krivi Put 136 For Sorting Perpic" carries a house number. Somebody
+# grouped these children for a reason, and the question is whether the reason
+# survives well enough to place a person by.
+#
+# The answer splits sharply on how specific the label is, so the test is run
+# separately for the two kinds.
+
+PLACES = ["Klenovica", "Ledenice", "Selce", "Senj", "Krivi Put", "Otocac",
+          "Otočac", "Smokvica", "Povile", "Mrzli Dol"]
+RANGE = re.compile(r"(1[6-9]\d\d)\s*-\s*(1[6-9]\d\d)")
+HOUSE = re.compile(r"\b(\d{2,3})\b")
+
+
+def kids_of(pid):
+    out = []
+    for f in (P[pid].get("fams") or []):
+        out += [c for c in (F.get(f, {}).get("chil") or []) if c in pub]
+    return out
+
+
+labels = []
+for row in rows:
+    name = row["name"]
+    vil = [v for v in PLACES if v.lower() in name.lower()]
+    rng = RANGE.search(name)
+    house = HOUSE.search(re.sub(r"1[6-9]\d\d", "", name))
+    if not vil and not rng:
+        continue
+    agree = disagree = blank = 0
+    yin = yout = 0
+    for c in kids_of(row["id"]):
+        pl = " ".join(filter(None, [gedcom.born(P[c]).get("place", ""),
+                                    gedcom.died(P[c]).get("place", "")]))
+        if vil:
+            if not pl.strip():
+                blank += 1
+            elif any(v.lower() in pl.lower() for v in vil):
+                agree += 1
+            else:
+                disagree += 1
+        if rng:
+            y = gedcom.year(gedcom.born(P[c]).get("date", ""))
+            if y:
+                if int(rng.group(1)) <= y <= int(rng.group(2)):
+                    yin += 1
+                else:
+                    yout += 1
+    labels.append({
+        "name": name, "family": row["family"],
+        "village": "/".join(dict.fromkeys(vil)) or None,
+        "house": house.group(1) if house else None,
+        "range": [rng.group(1), rng.group(2)] if rng else None,
+        "specific": bool(house or rng),
+        "agree": agree, "disagree": disagree, "blank": blank,
+        "yearIn": yin, "yearOut": yout,
+    })
+
+spec = [l for l in labels if l["specific"]]
+vague = [l for l in labels if not l["specific"]]
+def tally(rs):
+    return sum(r["agree"] for r in rs), sum(r["disagree"] for r in rs), sum(r["blank"] for r in rs)
+sa, sd, sb = tally(spec)
+va, vd, vb = tally(vague)
+print(f"\nlabel reliability, where a child's own place can test it:")
+print(f"  specific (house number or date range)  {sa} agree / {sd} disagree   ({sb} placeless)")
+print(f"  vague (a town and nothing else)        {va} agree / {vd} disagree   ({vb} placeless)")
+print(f"  placeless children a label could place: {sb + vb}")
+
 out = os.path.join(DATA, "buckets.json")
-json.dump({"buckets": rows, "orphaned": orphaned,
+json.dump({"buckets": rows, "orphaned": orphaned, "labels": labels,
+           "specific": {"agree": sa, "disagree": sd, "blank": sb},
+           "vague": {"agree": va, "disagree": vd, "blank": vb},
            "hanging": sum(r["published"] for r in rows)},
           open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"\nwrote {os.path.relpath(out, ROOT)}")

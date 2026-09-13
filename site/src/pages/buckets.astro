@@ -1,0 +1,126 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import B from "../data/buckets.json";
+
+const FAMLABEL = { blazevic: "Blažević", prpic: "Prpić", papic: "Papić",
+                   zubrinic: "Žubrinić", perpic: "Perpić", kalanj: "Kalanj" };
+const byFam = Object.entries(
+  B.orphaned.reduce((a, o) => ((a[o.family] = (a[o.family] || 0) + 1), a), {})
+).sort((a, b) => b[1] - a[1]);
+const spec = B.labels.filter((l) => l.specific);
+const vague = B.labels.filter((l) => !l.specific);
+const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disagree));
+---
+<Base title="Labels Where the Father Should Be"
+  eyebrow={`${B.buckets.length} sorting buckets, ${B.hanging} published people`}
+  dek="This archive found four of these being published as ancestors and removed them, because publishing research scaffolding would be a lie. They were removed from the list of people. Nobody removed them from the list of parents.">
+
+  <section class="blk">
+    <p class="lede">A <strong>sorting bucket</strong> is an entry like
+    <span class="mono">Unknown Sorting Working Blažević</span> or
+    <span class="mono">Brothers [of Josephus] Žubrinić</span>. No priest wrote those words and
+    nobody was ever called them. They are labels somebody typed into the father's slot while
+    working through a pile of records — and they are still there, still doing the job of a
+    parent.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      <div class="card">
+        <h3>The scale of it</h3>
+        <table class="kv"><tbody>
+          <tr><th>Buckets acting as a parent</th><td><strong class="mono">{B.buckets.length}</strong></td></tr>
+          <tr><th>Published people hanging off one</th><td><strong class="mono">{B.hanging}</strong></td></tr>
+          <tr><th>With <em>no other parent at all</em></th><td><strong class="mono">{B.orphaned.length}</strong></td></tr>
+        </tbody></table>
+      </div>
+      <div class="card">
+        <h3>Whose loose ends they are</h3>
+        <table class="kv"><tbody>{byFam.map(([f, n]) => (
+          <tr><th>{FAMLABEL[f] || f}</th><td><strong class="mono">{n}</strong></td></tr>))}</tbody></table>
+        <p class="dek" style="margin-top:.6rem">Only the Žubrinići have ever had their loose ends
+        counted. <a href={u("/zubrinic-roots")}>That page</a> was itself wrong by 25 until today,
+        for exactly this reason.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The biggest ones</h2>
+    <table class="reg">
+      <thead><tr><th>The label</th><th>Family</th><th>Published children</th></tr></thead>
+      <tbody>{B.buckets.slice(0, 12).map((b) => (
+        <tr><td class="mono" style="font-size:.88em">{b.name}</td>
+          <td class="dim">{FAMLABEL[b.family] || b.family}</td>
+          <td class="mono">{b.published}</td></tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>Do the labels encode anything real?</h2>
+    <p class="lede">Somebody grouped these children for a reason. <span class="mono">Krivi Put 136
+    For Sorting Perpić</span> carries a house number; <span class="mono">1800-1830 Birth — Selce
+    Papić (Papa)</span> carries a village, a date range and a
+    <a href={u("/name")}>nadimak</a>. The question is whether the reason survives well enough to
+    place a person by — and it can be tested, because some of the children under each label have a
+    place of their own on record.</p>
+
+    <p><strong>It splits sharply, and on one thing: how specific the label is.</strong></p>
+
+    <div class="grid two" style="margin-top:1.2rem">
+      <div class="card">
+        <h3>Labels naming a house number or a date range</h3>
+        <p style="font-size:1.6em;margin:.2rem 0"><strong class="mono">{B.specific.agree} agree</strong>
+          <span class="dim"> / {B.specific.disagree} disagree</span></p>
+        <p class="dek">Every testable child matches. <span class="mono">Krivi Put 136</span> is 5 for 5;
+        <span class="mono">1800-1830 Selce</span> is 3 for 3 on place <em>and</em> 3 for 3 on the year
+        range. These were written by someone who knew something.</p>
+      </div>
+      <div class="card">
+        <h3>Labels naming only a town</h3>
+        <p style="font-size:1.6em;margin:.2rem 0"><strong class="mono">{B.vague.agree} agree</strong>
+          <span class="dim"> / {B.vague.disagree} disagree</span></p>
+        <p class="dek">Right {pctVague}% of the time — worse than useless, because it looks like
+        information. <span class="mono">Senj – Unknown To be sorted Prpic</span> is wrong on every
+        one of the four children who can test it.</p>
+      </div>
+    </div>
+
+    <table class="reg" style="margin-top:1.6rem">
+      <thead><tr><th>Label</th><th>What it claims</th><th>Agree</th><th>Disagree</th><th>Untestable</th></tr></thead>
+      <tbody>{[...spec, ...vague].map((l) => (
+        <tr>
+          <td class="mono" style="font-size:.86em">{l.name.slice(0, 44)}</td>
+          <td class="dim">{[l.village, l.house && "kbr " + l.house,
+                            l.range && l.range.join("–")].filter(Boolean).join(" · ")}</td>
+          <td class="mono">{l.agree}</td>
+          <td class="mono">{l.disagree > 0 ? <strong>{l.disagree}</strong> : l.disagree}</td>
+          <td class="mono dim">{l.blank}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <p style="margin-top:1.4rem"><strong>So: {B.specific.blank + B.vague.blank} published people
+    with no place of their own sit under a label that names one — and only {B.specific.blank} of
+    those sit under a label worth believing.</strong> The rest cannot be placed this way, and this
+    archive will not place them.</p>
+    <p class="dek">Which is a result worth having either way. The two specific labels are worth
+    taking to a registrar as a question; the vague ones should be treated as what they are, a note
+    to self by someone half way through a sorting job.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What follows</h2>
+    <ul class="plain">
+      <li><strong>Un-publishing is not removing.</strong> A record hidden from the register goes on
+      acting as a parent in every tool that asks whether someone has one. That is how
+      <a href={u("/zubrinic-roots")}>the fragment count</a> was wrong by 25 for months.</li>
+      <li><strong>Nothing here has been edited.</strong> The buckets remain in the tree exactly as
+      they are. <a href={u("/method")}>Method →</a></li>
+      <li><strong>Sixty-two of the seventy-four are not Žubrinić.</strong> Thirty Blažević,
+      twenty-two Prpić, ten Papić and four Perpić have never been counted as loose ends anywhere on
+      this site. They are, and now they are listed.</li>
+    </ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/zubrinic-roots")}>The Žubrinić fragments →</a>
+      {" "}<a class="btn" href={u("/duplicates")}>The same person, twice →</a>
+      {" "}<a class="btn" href={u("/impossible")}>What cannot be true →</a></p>
+  </section>
+</Base>
