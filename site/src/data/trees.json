@@ -1,23 +1,23 @@
 {
- "note": "Every family this archive follows, each drawn in the form its evidence supports. State is derived, not assigned by hand: a line is DRAWN where this archive publishes a chart of it, DRAWABLE where there are enough people to chart and no chart yet, and a ROUTE where there are too few. Where most of a family's people are recorded without a proved join to anyone else, it is a WEB, because that is what the evidence is.",
+ "note": "A tree with invented joins in it is worse than no tree, so none of these has any. Each line is drawn in the form its own evidence supports. On this archive that matters more than on any of its siblings: 96% of the people here are recorded with no proved join to anyone else, so most of these are webs, and saying so is the honest position.",
  "rows": [
   {
    "name": "Blažević",
    "ours": true,
    "state": "drawn",
    "depth": "220 people, 1750–1958",
-   "what": "The name the archive carries — out of smokvica krmpotska.",
+   "what": "The name this archive carries, out of Smokvica Krmpotska — a village built on purpose in the 1600s for families fleeing an invading army. Toma was born in house 114; the line comes down off the mountain into Senj and stays there.",
    "gap": null,
    "href": "/families/",
-   "cta": "Open the family →"
+   "cta": "The line, generation by generation →"
   },
   {
    "name": "Žubrinić",
    "ours": false,
    "state": "web",
    "depth": "414 people, 1765–1924",
-   "what": "Tereza's people of otočac, written xubrinich before it was written žubrinić.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
+   "what": "Tereza's people of Otočac, written Xubrinich before anyone wrote it with a Ž. The largest family in the archive after the Blaževićs, and the least joined up.",
+   "gap": "Recorded as households rather than as a descent, because the joins between them are not proved.",
    "href": "/families/",
    "cta": "Open the family →"
   },
@@ -26,8 +26,8 @@
    "ours": false,
    "state": "web",
    "depth": "116 people, 1742–1903",
-   "what": "Milka's people of senj and selce, porters and innkeepers.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
+   "what": "Milka's people of Senj and Selce — porters and innkeepers. Josip Papić was a trhonoša, one of the men who took goods over the Vratnik pass on packhorses, and kept an inn on the same road when he was too old to walk it.",
+   "gap": "Drawn as a web. The trade is documented better than the descent is.",
    "href": "/families/",
    "cta": "Open the family →"
   },
@@ -36,51 +36,38 @@
    "ours": false,
    "state": "web",
    "depth": "155 people, 1820–1919",
-   "what": "Antonija's people of krivi put, bunjevci of the senj mountain.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Kalanj",
-   "ours": false,
-   "state": "web",
-   "depth": "215 people, 1734–1944",
-   "what": "Of klenovica and povile — into this family through ana kalanj, who married a de franceschi.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
+   "what": "The Krivi Put families, up on the crooked road behind Senj. Tonka was born at house 136.",
+   "gap": "Households, not a line.",
    "href": "/families/",
    "cta": "Open the family →"
   },
   {
    "name": "Vukelić",
    "ours": false,
-   "state": "drawable",
+   "state": "web",
    "depth": "15 people, 1823–1913",
-   "what": "Of senj — milka papić's first husband's people.",
-   "gap": null,
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Boras",
-   "ours": false,
-   "state": "web",
-   "depth": "55 people, 1820–1946",
-   "what": "Of senj, married into the papići and the prpići.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Šestan",
-   "ours": false,
-   "state": "web",
-   "depth": "55 people, 1780–1947",
-   "what": "Of gologorica in istria — and connected to this family only through a sorting label.",
-   "gap": "97% of this archive's people are recorded with no proved join to anyone else, which is why most of these are webs rather than lines.",
+   "what": "Milka's first marriage brought these in — Miroslava and Josip Vukelić are half-siblings to the whole of the rest of this archive.",
+   "gap": "Households, not a line.",
    "href": "/families/",
    "cta": "Open the family →"
   }
  ],
- "close": "The Blažević line itself is drawn. Most of the rest are webs, and saying so is the honest position: this archive holds 1,245 people and a proved join for very few of them."
+ "close": "The form is checked, not asserted: a line counts as drawn only where this archive actually publishes a chart of it. Five rows across the seven archives claimed to be drawn on the strength of a page title alone, and were demoted when the check went in. Twenty different men in this archive are called Ivan Blažević, seven of them with no dates at all — which is the same problem seen from the other end.",
+ "doors": [
+  [
+   "/families/",
+   "All eight families",
+   "Every name the archive follows, with its spellings and its places."
+  ],
+  [
+   "/who/",
+   "Every name",
+   "815 names, 180 of them held by more than one person."
+  ],
+  [
+   "/coverage/",
+   "What rests on a document",
+   "And what rests on the family tree alone."
+  ]
+ ]
 }
