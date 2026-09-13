@@ -340,7 +340,8 @@ def bridge_for(comp):
     return {"id": best, "name": gedcom.display(P[best]),
             "slug": pub[best].get("slug") if best in pub else None,
             "byear": by, "place": pl, "children": kids,
-            "window": f"{by - 30}–{by - 18}" if by else None}
+            # a marriage falls AFTER the birth, not before it
+            "window": f"{by + 18}–{by + 30}" if by else None}
 
 
 island_rows = []
