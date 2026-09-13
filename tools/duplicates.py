@@ -101,6 +101,23 @@ def parents(pid):
     return out
 
 
+def same_but_spelling(a, b):
+    """Two spellings of one name on otherwise identical records."""
+    ba, bb = gedcom.born(P[a]), gedcom.born(P[b])
+    da, db = (ba.get("date") or "").strip().upper(), (bb.get("date") or "").strip().upper()
+    if not da or da != db or len(da) <= 4:
+        return False                      # need a full, identical birth date
+    if (ba.get("place") or "").strip() != (bb.get("place") or "").strip():
+        return False
+    pa, pb = parents(a), parents(b)
+    for role in ("husb", "wife"):
+        if not pa[role] or not pb[role] or not overlap(pa[role], pb[role]):
+            return False                  # both parents must be named and agree
+    ga = (fold(P[a].get("given") or "") or "").split()
+    gb = (fold(P[b].get("given") or "") or "").split()
+    return bool(ga and gb and ga[0][:3] == gb[0][:3])
+
+
 def parents_conflict(ids):
     """True when two records name parents that share no name at all.
 
@@ -156,7 +173,18 @@ for (sur, by), members in rough.items():
         for pid2, toks2 in members[i + 1:]:
             if pid2 in used:
                 continue
-            if toks <= toks2 or toks2 <= toks:
+            # Containment catches "Marijan" inside "Marijan Cigo". It does NOT
+            # catch Kate against Katalyn, which are disjoint tokens and the same
+            # woman - the archive held both, identical in birth date, birth
+            # place, death date, death place AND parents, and this check walked
+            # past them until a South Australian birth index showed only ONE
+            # registration in 1886 and no Katalyn at all.
+            #
+            # So: where the full birth date, the birth place and BOTH parents
+            # agree exactly, a shared three-letter prefix is enough. That is a
+            # deliberately high bar - Marija and Marica share a prefix too, and
+            # would need to share a day, a village and two parents as well.
+            if toks <= toks2 or toks2 <= toks or same_but_spelling(pid, pid2):
                 grp.append(pid2)
                 used.add(pid2)
         used.add(pid)

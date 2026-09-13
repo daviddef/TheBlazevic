@@ -135,6 +135,30 @@
    "dyears": []
   },
   {
+   "tier": "same day",
+   "surname": "zubrinic",
+   "given": "katalyn",
+   "byear": 1886,
+   "n": 2,
+   "place": "Port Pirie",
+   "date": "26 JUL 1886",
+   "ids": [
+    "@I510442@",
+    "@I508290@"
+   ],
+   "names": [
+    "Katalyn Zubrinich",
+    "Kate Zubrinich"
+   ],
+   "slugs": [
+    "katalyn-zubrinich",
+    "kate-zubrinich"
+   ],
+   "dyears": [
+    1927
+   ]
+  },
+  {
    "tier": "same year and place",
    "surname": "blazevic",
    "given": "ivan",
@@ -1154,8 +1178,8 @@
    "dyears": []
   }
  ],
- "extra": 18,
+ "extra": 19,
  "published": 1245,
  "rejected": 32,
- "live": 18
+ "live": 19
 }
