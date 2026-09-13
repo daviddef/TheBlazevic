@@ -4,11 +4,16 @@ import { u } from "../lib/url.js";
 import gaz from "../data/gazetteer.json";
 
 const FAM = [
+  ["kalanj", "Kalanj", "One village, six houses — and the best-placed family here"],
   ["papic", "Papić", "Two villages and nothing else"],
   ["prpic", "Prpić", "One village, three houses"],
   ["zubrinic", "Žubrinić", "One town, then one port"],
   ["blazevic", "Blažević", "Twenty places"],
+  ["sestan", "Šestan", "Gologorica, and almost nowhere else"],
+  ["boras", "Boras", "Senj, then scattered"],
+  ["vukelic", "Vukelić", "Senj, and two house numbers"],
 ];
+const pct = (k) => gaz[k] ? Math.round(100 * gaz[k].placed / gaz[k].records) : 0;
 const places = [
   ["Otočac", 69, "1812–1888", "The Gacka valley. The regimental town, and the core of the name.", "/frontier"],
   ["Australia", 35, "1885–1999", "Port Pirie, Port Germein, Solomontown, Quorn, Broken Hill, Whyalla, Ardrossan, Adelaide.", "/port-pirie"],

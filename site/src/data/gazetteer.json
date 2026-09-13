@@ -154,13 +154,13 @@
   ]
  },
  "zubrinic": {
-  "records": 232,
-  "placed": 122,
+  "records": 422,
+  "placed": 182,
   "places": [
    {
     "village": "Otočac",
-    "n": 68,
-    "from": 1812,
+    "n": 123,
+    "from": 1781,
     "to": 1888,
     "houses": []
    },
@@ -173,19 +173,20 @@
    },
    {
     "village": "Prozor",
-    "n": 8,
-    "from": 1858,
+    "n": 11,
+    "from": 1782,
     "to": 1936,
     "houses": [
+     "46",
      "50",
      "245"
     ]
    },
    {
     "village": "Senj",
-    "n": 7,
+    "n": 9,
     "from": 1849,
-    "to": 1886,
+    "to": 1931,
     "houses": []
    },
    {
@@ -297,25 +298,28 @@
   ]
  },
  "prpic": {
-  "records": 134,
-  "placed": 83,
+  "records": 161,
+  "placed": 101,
   "places": [
    {
     "village": "Krivi Put",
-    "n": 52,
+    "n": 62,
     "from": 1820,
     "to": 1962,
     "houses": [
+     "79",
+     "82",
      "113",
+     "124",
      "129",
      "136"
     ]
    },
    {
     "village": "Senj",
-    "n": 14,
-    "from": 1861,
-    "to": 1894,
+    "n": 20,
+    "from": 1858,
+    "to": 1935,
     "houses": []
    },
    {
@@ -329,7 +333,7 @@
    },
    {
     "village": "Sv. Jelena",
-    "n": 2,
+    "n": 3,
     "from": 1871,
     "to": 1881,
     "houses": []
@@ -350,11 +354,12 @@
    },
    {
     "village": "Krmpote",
-    "n": 1,
-    "from": 1872,
+    "n": 2,
+    "from": 1871,
     "to": 1872,
     "houses": [
-     "82"
+     "82",
+     "124"
     ]
    },
    {
@@ -364,6 +369,240 @@
     "to": 1867,
     "houses": [
      "55"
+    ]
+   }
+  ]
+ },
+ "kalanj": {
+  "records": 216,
+  "placed": 187,
+  "places": [
+   {
+    "village": "Klenovica",
+    "n": 119,
+    "from": 1765,
+    "to": 2019,
+    "houses": [
+     "22",
+     "23",
+     "36",
+     "37",
+     "38",
+     "59"
+    ]
+   },
+   {
+    "village": "Povile",
+    "n": 30,
+    "from": 1841,
+    "to": 1885,
+    "houses": [
+     "22",
+     "23"
+    ]
+   },
+   {
+    "village": "Ledenice",
+    "n": 21,
+    "from": 1829,
+    "to": 1936,
+    "houses": []
+   },
+   {
+    "village": "Novi Vinodolski",
+    "n": 10,
+    "from": 1893,
+    "to": 2006,
+    "houses": []
+   },
+   {
+    "village": "Crikvenica",
+    "n": 2,
+    "from": 1936,
+    "to": 1938,
+    "houses": []
+   },
+   {
+    "village": "Trebinje",
+    "n": 1,
+    "from": 1900,
+    "to": 1900,
+    "houses": []
+   },
+   {
+    "village": "Pula",
+    "n": 1,
+    "from": 1912,
+    "to": 1912,
+    "houses": []
+   },
+   {
+    "village": "Srbija",
+    "n": 1,
+    "from": 1914,
+    "to": 1914,
+    "houses": []
+   },
+   {
+    "village": "Rijeka",
+    "n": 1,
+    "from": 1939,
+    "to": 1939,
+    "houses": []
+   },
+   {
+    "village": "Austria",
+    "n": 1,
+    "from": 1810,
+    "to": 1810,
+    "houses": []
+   }
+  ]
+ },
+ "boras": {
+  "records": 67,
+  "placed": 30,
+  "places": [
+   {
+    "village": "Senj",
+    "n": 17,
+    "from": 1820,
+    "to": 1906,
+    "houses": []
+   },
+   {
+    "village": "Sydney",
+    "n": 2,
+    "from": 1919,
+    "to": 1960,
+    "houses": []
+   },
+   {
+    "village": "Rijeka",
+    "n": 2,
+    "from": 1989,
+    "to": 2020,
+    "houses": []
+   },
+   {
+    "village": "Otočac",
+    "n": 1,
+    "from": 1929,
+    "to": 1929,
+    "houses": []
+   },
+   {
+    "village": "Crikvenica",
+    "n": 1,
+    "from": 2018,
+    "to": 2018,
+    "houses": []
+   },
+   {
+    "village": "Yugoslavia",
+    "n": 1,
+    "from": 1907,
+    "to": 1907,
+    "houses": []
+   },
+   {
+    "village": "Arizona",
+    "n": 1,
+    "from": 1988,
+    "to": 1988,
+    "houses": []
+   },
+   {
+    "village": "Novi Vinodolski",
+    "n": 1,
+    "from": 1895,
+    "to": 1895,
+    "houses": []
+   },
+   {
+    "village": "Yarraville",
+    "n": 1,
+    "from": 1892,
+    "to": 1892,
+    "houses": []
+   },
+   {
+    "village": "Marrickville",
+    "n": 1,
+    "from": 1923,
+    "to": 1923,
+    "houses": []
+   },
+   {
+    "village": "Osijek",
+    "n": 1,
+    "from": 1924,
+    "to": 1924,
+    "houses": []
+   },
+   {
+    "village": "Kurri Kurri",
+    "n": 1,
+    "from": null,
+    "to": null,
+    "houses": []
+   }
+  ]
+ },
+ "sestan": {
+  "records": 55,
+  "placed": 26,
+  "places": [
+   {
+    "village": "Gologorica",
+    "n": 24,
+    "from": 1780,
+    "to": 1947,
+    "houses": []
+   },
+   {
+    "village": "Linar",
+    "n": 1,
+    "from": 1888,
+    "to": 1888,
+    "houses": []
+   },
+   {
+    "village": "Pag",
+    "n": 1,
+    "from": null,
+    "to": null,
+    "houses": []
+   }
+  ]
+ },
+ "vukelic": {
+  "records": 20,
+  "placed": 12,
+  "places": [
+   {
+    "village": "Senj",
+    "n": 10,
+    "from": 1854,
+    "to": 1938,
+    "houses": []
+   },
+   {
+    "village": "Alan",
+    "n": 1,
+    "from": 1823,
+    "to": 1823,
+    "houses": [
+     "8"
+    ]
+   },
+   {
+    "village": "Mrzlidol",
+    "n": 1,
+    "from": 1900,
+    "to": 1900,
+    "houses": [
+     "25"
     ]
    }
   ]

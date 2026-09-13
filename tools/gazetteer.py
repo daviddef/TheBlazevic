@@ -17,17 +17,25 @@ from gedcom import load, display, born, died, year, ev
 people, families = load()
 
 
-def fold(sn):
-    s = sn.lower().replace("ž","z").replace("ć","c").replace("č","c").replace("š","s")
-    s = s.split("(")[0].strip()
-    if s.startswith("x"): s = "z" + s[1:]
-    if s.endswith("ich"): s = s[:-3] + "ic"
-    return s
-
+# The shared fold, NOT a private copy.
+#
+# This file used to carry its own. It split on "(" but not on "/" or a space, so
+# every record written "Zubrinic / Xubrinich" fell straight through the surname
+# test - which is why this gazetteer reported 232 Zubrinics when the archive
+# publishes nearly four hundred. The identical bug was found and fixed in
+# ancestry.py in September 2026 and cost 214 people there. Finding it a second
+# time, in a second tool, is the argument for there being exactly one fold.
+from ancestry import fold  # noqa: E402
 
 # Prpic and Perpic are one family, as everywhere else in this archive.
 ALIAS = {"perpic": "prpic"}
-SURNAMES = ("blazevic", "zubrinic", "papic", "prpic")
+
+# All nine published surname groups, not four. Kalanj alone is 215 people - the
+# second-largest family here - and had no gazetteer entry at all, so Klenovica,
+# Povile, Ledenice and Novi Vinodolski appeared nowhere on this site despite
+# holding 139 published people between them.
+SURNAMES = ("blazevic", "zubrinic", "papic", "prpic", "kalanj",
+            "boras", "sestan", "vukelic")
 
 def key(sn):
     f = fold(sn)

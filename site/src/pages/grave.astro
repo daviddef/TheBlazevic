@@ -3,8 +3,8 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
 <Base title="The Grave"
-  eyebrow="Senj municipal cemetery"
-  dek="Six names on one family plot — and one of them belongs to a man who is not buried in it."
+  eyebrow="Senj, Crikvenica, Klenovica"
+  dek="Six names on one family plot — and one of them belongs to a man who is not buried in it. Two further graves, found since, say something consistent about what a stone is good for and what it is not."
 >
   <section class="blk">
     <figure class="doc">
@@ -64,5 +64,52 @@ import { u } from "../lib/url.js";
     <p style="margin-top:1rem">It is a useful reminder in a family whose evidence is mostly stone
     and memory: <strong>a gravestone is a secondary source</strong>. It is cut after the fact, paid
     for by the bereaved, and carved by someone who never met the person.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Added 13 September 2026</div>
+    <h2>Two more graves, and the same lesson twice</h2>
+    <p class="lede">When that last paragraph was written it rested on one stone. Sweeping the
+    family's photo library turned up two more, in two more cemeteries — and one of them repeats the
+    error exactly, while the other corrects the tree.</p>
+
+    <div class="grid two" style="margin-top:1.4rem">
+      <figure class="doc">
+        <img src={u("/photos/line/4503717-crikvenica-gravestone-ana-de-franceschi-born-kal.jpg")}
+             alt="The Defranceschi family grave at Crikvenica" loading="lazy" />
+        <figcaption><strong>Crikvenica.</strong> ANA DE. FRANCESCHI ✻19 IX 1863 ✝28 V 1936, her
+        husband JOSIP, RUŽA JARMACKI rođena DEFRANCESCHI 1903–1939, and PEPE, TONI and BOŽICA
+        below.</figcaption>
+      </figure>
+      <figure class="doc">
+        <img src={u("/photos/line/4507818-kalanj-grave-klenovica-lovro-1906-1965-ana-1919-.jpg")}
+             alt="The Kalanj grave at Klenovica" loading="lazy" />
+        <figcaption><strong>Klenovica.</strong> LOVRO KALANJ 1906–1965, ANA KALANJ 1919–1971, IVAN
+        KALANJ 1942–1996, MARIJAN KALANJ 1944–2009 — a father, a mother and two sons.</figcaption>
+      </figure>
+    </div>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Crikvenica gets a birth date wrong, exactly as Senj does</h3>
+      <p>The stone gives <strong>Ana de Franceschi, born 19 September 1863</strong>. Her baptism
+      survives and does not agree: <em>Anno Domini 1864</em>, no. 2 — <em>Anna, legitima, Josephus
+      Kalanj et Rosalia nata Perković ejus uxor</em>, at <span class="mono">Klenovica N° 22</span>,
+      <strong>born 3 January 1864</strong> and baptised three days later. The death on the stone,
+      28 May 1936, is exactly right; the birth is out by three and a half months.</p>
+      <p><strong>So both stones this archive can test get the birth wrong and the death right</strong>
+      — which makes sense. The death is what the family had just lived through. The birth is what
+      somebody remembered, seventy years later.</p>
+    </div>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>Klenovica corrects the tree instead</h3>
+      <p>The four names on the Kalanj stone are all in this archive — and
+      <strong>all four are in it twice</strong>. Because the duplicated parents are spelled
+      <em>Lovro</em> in one copy and <em>Lovre</em> in the other, the duplicate check rejected the
+      two sons as different people. The photograph is what overruled it: one family, one plot, four
+      names. <a href={u("/duplicates")}>The same person, twice →</a></p>
+      <p class="dek">A stone is a poor witness to a birth and a good witness to a household. It was
+      cut by people who knew exactly who was buried together.</p>
+    </div>
   </section>
 </Base>

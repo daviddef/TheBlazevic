@@ -1,0 +1,126 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import D from "../data/duplicates.json";
+
+const TIER = {
+  "same day": ["Same day", "Identical full birth date, and no conflict in the parents. Two people are not born in one village on one day with one name to one couple."],
+  "same year and place": ["Same year and place", "Same given name, birth year and village, parents agreeing where both records name them."],
+  "same year only": ["Same year only", "Same given name and birth year, with nothing to place them. The weakest tier; listed, not acted on."],
+};
+const ORDER = ["same day", "same year and place", "same year only"];
+const live = D.groups.filter((g) => !g.tier.startsWith("rejected"));
+const rejected = D.groups.filter((g) => g.tier.startsWith("rejected"));
+const of = (t) => live.filter((g) => g.tier === t);
+const bySur = Object.entries(
+  live.reduce((a, g) => ((a[g.surname] = (a[g.surname] || 0) + 1), a), {})
+).sort((a, b) => b[1] - a[1]);
+---
+<Base title="The Same Person, Twice"
+  eyebrow={`${live.length} duplicates confirmed, ${rejected.length} rejected`}
+  dek="A duplicate is not a mystery to be solved. It is one person counted as two, and it quietly inflates every number this archive publishes about itself. Finding them is easy. Not over-finding them turned out to be the hard part.">
+
+  <section class="blk">
+    <p class="lede">This check began as a Žubrinić-only test and that was the mistake. Run across
+    all <strong>{D.published}</strong> published people it finds the same disease in four families —
+    and the first version of it was <strong>badly wrong</strong>, in a way worth showing rather than
+    quietly fixing.</p>
+
+    <div class="qa">
+      <h3>What the first run claimed, and why it was wrong</h3>
+      <p>Matching on surname, given name and birth year, the tool reported <strong>42 duplicate
+      groups holding 47 surplus records</strong>. That number is nonsense. Most of those pairs are
+      <strong>two different people who share a name</strong> — which is the one error this archive
+      has warned about on every other page, since it holds
+      <a href={u("/name")}>eighteen Ivan Blaževići</a> and refuses to auto-link names anywhere for
+      exactly that reason. Having written the warning, I walked into it.</p>
+      <p>Two tests fixed it. <strong>Different parents means different people.</strong> Nicolaus
+      Žubrinić, born at Otočac in 1834, is the son of <em>Michael</em> in one record and of
+      <em>Lucas</em> in the other — and he is <a href={u("/direct-line")}>ahnentafel 10</a>, a
+      direct ancestor. Without that test this page would have announced that this archive's own
+      great-great-grandfather was a duplicate. <strong>And two death years means two people</strong>:
+      Antonius Kalanj of Klenovica 22, born 1868, is entered as dying in 1868 and in 1873. That is
+      not one boy twice. It is a <em>necronym</em> — a dead child's name given to the next baby,
+      which these families did constantly.</p>
+      <p>With both tests the count falls from 42 to <strong>{live.length}</strong>.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Comparing names is harder than it looks</h2>
+    <p class="lede">Two further corrections were needed, in opposite directions, and both came from
+    a photograph rather than from the data.</p>
+    <table class="reg">
+      <thead><tr><th>The problem</th><th>The case</th><th>The rule</th></tr></thead>
+      <tbody>
+        <tr><td>A nickname in one record and not the other</td>
+          <td class="dim"><em>Marijan Cigo Kalanj</em> and <em>Marijan Kalanj</em></td>
+          <td>Match given names by <strong>containment</strong>, not equality</td></tr>
+        <tr><td>Parents' names spelled differently</td>
+          <td class="dim"><em>Michael</em> vs <em>Michaelis / Michael / Miho</em></td>
+          <td>Compare parent names as <strong>sets, asking whether they overlap</strong></td></tr>
+        <tr><td>A whole family duplicated in parallel</td>
+          <td class="dim"><em>Lovro</em> and <em>Lovre</em> Kalanj, each with their own Ana, Ivan and Marijan</td>
+          <td>Allow <strong>one character</strong> of difference in a parent's name</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem">The last of those was forced by a <strong>gravestone</strong>. A
+    photograph of a grave at Klenovica names <em>Lovro Kalanj 1906–1965, Ana Kalanj 1919–1971, Ivan
+    Kalanj 1942–1996, Marijan Kalanj 1944–2009</em> — one family, four people. The tree holds all
+    four <strong>twice</strong>, and because the duplicated parents are spelled <em>Lovro</em> in one
+    copy and <em>Lovre</em> in the other, the parent test rejected the children as different people.
+    The stone said otherwise and the stone was right.</p>
+    <p class="dek">Which is the useful lesson: a parent-agreement test fails precisely when the
+    parents are themselves duplicated. It is a good test and it is not a complete one.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What survives the tests</h2>
+    <div class="grid two">
+      <div class="card"><h3>By confidence</h3>
+        <table class="kv"><tbody>{ORDER.map((t) => (
+          <tr><th>{TIER[t][0]}</th><td><strong class="mono">{of(t).length}</strong></td></tr>))}
+          <tr><th class="dim">Rejected</th><td class="mono dim">{rejected.length}</td></tr>
+        </tbody></table>
+      </div>
+      <div class="card"><h3>By family</h3>
+        <table class="kv"><tbody>{bySur.map(([s, n]) => (
+          <tr><th style="text-transform:capitalize">{s}</th><td><strong class="mono">{n}</strong></td></tr>))}</tbody></table>
+      </div>
+    </div>
+
+    {ORDER.map((t) => of(t).length > 0 && (
+      <div class="qa" style="margin-top:1.4rem">
+        <h3>{TIER[t][0]} — {of(t).length}</h3>
+        <p class="dek">{TIER[t][1]}</p>
+        <table class="reg">
+          <thead><tr><th>Records</th><th>Born</th><th>Where</th></tr></thead>
+          <tbody>{of(t).map((g) => (
+            <tr>
+              <td>{g.names.map((n, i) => (
+                <span>{i > 0 && <span class="dim">  ·  </span>}
+                  {g.slugs[i] ? <a href={u("/people/" + g.slugs[i])}>{n}</a> : n}</span>))}</td>
+              <td class="mono">{g.date || g.byear}</td>
+              <td class="dim">{g.place || "—"}</td>
+            </tr>))}</tbody>
+        </table>
+      </div>))}
+  </section>
+
+  <section class="blk">
+    <h2>What this does not do</h2>
+    <ul class="plain">
+      <li><strong>Nothing is merged.</strong> This archive <a href={u("/method")}>does not edit the
+      tree</a>. It reports what the tree says, and here the tree says the same child twice.</li>
+      <li><strong>The rejected {rejected.length} are not cleared.</strong> "Rejected" means the
+      evidence for a duplicate failed, not that two people are proved distinct. Where the parents
+      are themselves duplicated — as the Kalanj grave showed — a rejection can be wrong.</li>
+      <li><strong>The weakest tier should probably not be believed.</strong> Same name, same year,
+      nowhere named. It is published because leaving it out would be a choice about what counts,
+      made silently.</li>
+    </ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible")}>What cannot be true →</a>
+      {" "}<a class="btn" href={u("/zubrinic-roots")}>The Žubrinić fragments →</a>
+      {" "}<a class="btn" href={u("/name")}>Spelling is geography →</a></p>
+  </section>
+</Base>
