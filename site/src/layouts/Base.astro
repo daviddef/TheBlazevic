@@ -1,6 +1,7 @@
 ---
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
+import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import ring from "@daviddef/archive-kit/data/archives.json";
@@ -39,6 +40,7 @@ const thisArchive = ring.archives.find(
 <SocialHead title={title} description={share} site={SITE} image="photos/hero.jpg" />
 </head>
 <body class={bare ? "is-home" : ""}>
+<SkipLink />
 <header class="site">
   <div class="wrap sitein">
     <a class="brand" href={u("/")}>The Blažević <em>Archive</em></a>
@@ -66,7 +68,7 @@ const thisArchive = ring.archives.find(
   </div>
 </header>
 
-<main>
+<main id="main" tabindex="-1">
   <div class="wrap">
     {!bare && (
       <div class="pagehead">
