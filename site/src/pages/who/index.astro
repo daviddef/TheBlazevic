@@ -1,0 +1,43 @@
+---
+/* Every name in the archive, and how many people bore it. */
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import people from "../../data/people.json";
+
+function slugify(s) {
+  return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
+}
+
+const by = new Map();
+for (const p of people) {
+  if (!p.name) continue;
+  const k = slugify(p.name);
+  if (!by.has(k)) by.set(k, { name: p.name, n: 0 });
+  by.get(k).n += 1;
+}
+const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
+  .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+const shared = names.filter(n => n.n > 1);
+---
+<Base title="Every name"
+      eyebrow={`${names.length} names · ${shared.length} held by more than one person`}
+      dek="A name is not a person. This is every name in the archive, and how many different people bore it.">
+  <section class="blk">
+    <p class="prose">Of {names.length} names here, <strong>{shared.length}</strong> belong to more
+    than one person. Those are the ones where a reader can go wrong, so they are listed first.</p>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th>Name</th><th>People</th></tr></thead>
+        <tbody>
+          {names.map(n => (
+            <tr>
+              <td><a href={u(`/who/${n.slug}/`)}>{n.name}</a></td>
+              <td class="mono">{n.n > 1 ? n.n : ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

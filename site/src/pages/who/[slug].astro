@@ -1,0 +1,40 @@
+---
+/* One page per NAME. /people/<person> is one human; this is everyone who bore
+   the name, and the two link to each other. */
+import Base from "../../layouts/Base.astro";
+import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
+import { u } from "../../lib/url.js";
+import people from "../../data/people.json";
+
+export function getStaticPaths() {
+  const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
+  const by = new Map();
+  for (const p of people) {
+    if (!p.name || !p.slug) continue;
+    const k = slugify(p.name);
+    if (!by.has(k)) by.set(k, { name: p.name, rows: [] });
+    by.get(k).rows.push(p);
+  }
+  return [...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v }));
+}
+
+const { name, rows } = Astro.props;
+const listed = rows.map(p => ({
+  name: p.name, slug: p.slug,
+  life: [p.born, p.died].filter(Boolean).join(" – "),
+  where: p.bornPlace || p.diedPlace || "",
+}));
+---
+<Base title={name}
+      eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
+      dek={rows.length > 1
+        ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`
+        : `Everyone in this archive called ${name}.`}>
+  <section class="blk">
+    <Namesakes name={name} people={listed} base={u("/")} />
+    <p class="dek" style="margin-top:1.6rem">A name is not a person. Every entry above has its own
+    page, because they are different people — see <a href={u("/method/#ladder")}>how this archive
+    grades what it says</a>.</p>
+  </section>
+</Base>
