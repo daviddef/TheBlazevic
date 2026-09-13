@@ -86,5 +86,12 @@ tree to six direct ancestors, and counted by the coverage tool as *scanned* —
 "an image is attached but has not been read out". **It contained four ancestors'
 parentage and a seven-year contradiction.**
 
-There are more like it. The coverage tool counts every *scanned* person, and
-nobody has been through them.
+**A number I got wrong, and the correction.** My first pass counted "63 document
+scans no page has ever referenced" — that was measured by searching for each
+*filename*, and it is meaningless: pages cite documents by content, not by
+filename. Tested properly, against caption keywords as well, **every one of the
+74 documents is referenced somewhere.**
+
+The defensible number is the coverage tool's own: of 70 people on the direct
+line, **12 are marked *scanned*** — an image attached, nothing read out. The
+1835 marriage was one of them. **Eleven remain.**
