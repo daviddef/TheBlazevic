@@ -73,6 +73,14 @@ One marriage entry, or the absence of a second, decides four generations.
 The **Otočac death register for any decade between 1830 and 1900** — any decade
 at all, we are not asking for a name.
 
+**We have since tested our own epidemic theory and it did not survive.** Six of
+these people carry the bare year *1845* with no day, no month and no place, while
+the only two deaths in our records that carry a real 1845 date belong to other
+families entirely. That is the signature of an estimate applied to a group, not
+of an epidemic entered in a register. So the question we are really asking is
+**when these six actually died** — and a single decade of the Otočac death
+register would answer it.
+
 We have read the Senj death register and not a single page of any village book,
 and one of our own published findings depends on that gap. Our analysis shows the
 Senj families with their child deaths recorded and the village families with
