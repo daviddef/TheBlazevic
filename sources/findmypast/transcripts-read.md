@@ -206,3 +206,65 @@ geographical signal, and Fiume is the one that points our way.
 in his own right but as the *father* named by **Dragica Kalanj**, who sailed on
 the same ship. The harvest also holds *Kalanj Dragicsa 1897 — 1913*. They went
 together, and she was sixteen.
+
+---
+
+## 12. **Mate Žubrinić of Prozor 50 — the first person this trial has actually placed**
+
+`US/PASS/NY/ELLIS2/004423351/1` — *New York City Passenger Lists*
+
+| Field | Value |
+|---|---|
+| **Name** | **Mate Zubrinic**, male, age **43** |
+| **Birth year** | **1868** |
+| **Nationality** | Austria, **Croatian** |
+| **Residence** | **“Prozon, Hungary”** — i.e. **PROZOR** |
+| **Ship** | *Saint Louis*, **Southampton → New York**, **1911** |
+| **Left behind** | WIFE: **Roza Zubrinic** |
+| **Met by** | NEPHEW: **Stipan Kostelac** |
+
+### The match
+
+This archive holds **Matthaus (Mate) Žubrinić, born 29 December 1867 at
+<span class="mono">Prozor 50</span>**, son of Michael Žubrinić and Marija Rogić —
+one of seven children of that household. **He has no death date and no
+emigration recorded. The tree simply stops.**
+
+A man born 29 December 1867 is **43** through most of 1911. The residence is
+**Prozor**. The surname, the village, the age and the year all agree, and
+**Prozor is not a place many people leave** — this archive knows of eleven
+Žubrinići there, all in houses 46 and 50.
+
+**So Mate Žubrinić of Prozor 50 sailed from Southampton to New York in 1911,
+aged 43, leaving a wife called Roza.** That is where he went, and the archive did
+not know.
+
+### The nephew, handled carefully
+
+The manifest names his nephew in New York as **Stipan Kostelac** — and
+**Kostelac** is not a random surname here. This archive already documents
+[six Kostelac marriages into one Žubrinić household](../../site/src/pages/connected.astro),
+and the tree holds a **Stipan Kostelac married to a Bare Žubrinić**.
+
+**That man is not this one.** The Stipan in the tree has children born 1849 and
+1851, so he was born in the 1820s and would be about ninety in 1911. The New York
+Stipan is far more likely a **grandson carrying the same name** — which is
+exactly what these families do, and what the
+[necronym](../../site/src/pages/duplicates.astro) work on this site describes.
+
+**What survives the caution is still worth having:** the man who met Mate off the
+boat carried a surname that marries into Mate's own household repeatedly.
+
+### And one more, not matched
+
+`US/USNATUR/3775256/0` — **Ivan Zubrinic, born 30 June 1888**, birthplace
+transcribed **“Ostocac, Yugoslavia”** — i.e. **Otočac** — naturalised at
+**Brooklyn in 1939**, with wife **Kate** (b. 1895) and sons **Joseph**
+(8 Feb 1924) and **John** (13 Nov 1932). The 1940 census has the household in
+Brooklyn.
+
+An Otočac-born Žubrinić with an **exact birth date** is exactly the kind of
+record that could anchor somebody. The archive holds **Ivan Žubrinić b. 16 August
+1887 at Otočac** and **Stjepan Žubrinić b. 1888 at Otočac** — near, and **not
+the same**. Ten months out is not a rounding error on a document that gives the
+day. **Not matched, and recorded here so nobody matches it carelessly later.**
