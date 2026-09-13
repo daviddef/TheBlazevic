@@ -299,6 +299,28 @@
   {
    "tier": "same year and place",
    "surname": "zubrinic",
+   "given": "lucia",
+   "byear": 1835,
+   "n": 2,
+   "place": "Otocac Croatia",
+   "date": "10 DEC 1835",
+   "ids": [
+    "@I511833@",
+    "@I511542@"
+   ],
+   "names": [
+    "Lucia Žubrinić",
+    "Lucia Žubrinić Xubrinich Zubrinich"
+   ],
+   "slugs": [
+    "lucia-zubrinic-3",
+    "lucia-zubrinic-xubrinich-zubrinich"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year and place",
+   "surname": "zubrinic",
    "given": "andreas",
    "byear": 1844,
    "n": 2,
@@ -339,6 +361,55 @@
     "joso-blazevic-2"
    ],
    "dyears": []
+  },
+  {
+   "tier": "same year only",
+   "surname": "blazevic",
+   "given": "mile",
+   "byear": 1855,
+   "n": 3,
+   "place": "Krivi Put",
+   "date": "8 SEP 1855",
+   "ids": [
+    "@I508445@",
+    "@I508684@",
+    "@I508891@"
+   ],
+   "names": [
+    "Mile Blažević",
+    "Mile Blažević",
+    "Mile Blažević"
+   ],
+   "slugs": [
+    "mile-blazevic",
+    "mile-blazevic-4",
+    "mile-blazevic-5"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year only",
+   "surname": "blazevic",
+   "given": "ane",
+   "byear": 1865,
+   "n": 2,
+   "place": "6 Mrzli Dol",
+   "date": "30 OCT 1865",
+   "ids": [
+    "@I508490@",
+    "@I508894@"
+   ],
+   "names": [
+    "Ane Blažević",
+    "Ane Blažević"
+   ],
+   "slugs": [
+    "ane-blazevic",
+    "ane-blazevic-4"
+   ],
+   "dyears": [
+    1924
+   ]
   },
   {
    "tier": "same year only",
@@ -433,53 +504,26 @@
    ]
   },
   {
-   "tier": "rejected — different parents",
-   "surname": "blazevic",
-   "given": "mile",
-   "byear": 1855,
-   "n": 3,
-   "place": "Krivi Put",
-   "date": "8 SEP 1855",
+   "tier": "same year only",
+   "surname": "zubrinic",
+   "given": "magdalena",
+   "byear": 1847,
+   "n": 2,
+   "place": null,
+   "date": "9 MAY 1847",
    "ids": [
-    "@I508445@",
-    "@I508684@",
-    "@I508891@"
+    "@I506535@",
+    "@I511775@"
    ],
    "names": [
-    "Mile Blažević",
-    "Mile Blažević",
-    "Mile Blažević"
+    "Magdalena Žubrinić",
+    "Magdalena Žubrinić"
    ],
    "slugs": [
-    "mile-blazevic",
-    "mile-blazevic-4",
-    "mile-blazevic-5"
+    "magdalena-zubrinic",
+    "magdalena-zubrinic-9"
    ],
    "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "blazevic",
-   "given": "ane",
-   "byear": 1865,
-   "n": 2,
-   "place": "6 Mrzli Dol",
-   "date": "30 OCT 1865",
-   "ids": [
-    "@I508490@",
-    "@I508894@"
-   ],
-   "names": [
-    "Ane Blažević",
-    "Ane Blažević"
-   ],
-   "slugs": [
-    "ane-blazevic",
-    "ane-blazevic-4"
-   ],
-   "dyears": [
-    1924
-   ]
   },
   {
    "tier": "rejected — different parents",
@@ -882,28 +926,6 @@
   {
    "tier": "rejected — different parents",
    "surname": "zubrinic",
-   "given": "lucia",
-   "byear": 1835,
-   "n": 2,
-   "place": "Otocac Croatia",
-   "date": "10 DEC 1835",
-   "ids": [
-    "@I511833@",
-    "@I511542@"
-   ],
-   "names": [
-    "Lucia Žubrinić",
-    "Lucia Žubrinić Xubrinich Zubrinich"
-   ],
-   "slugs": [
-    "lucia-zubrinic-3",
-    "lucia-zubrinic-xubrinich-zubrinich"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "zubrinic",
    "given": "josephus",
    "byear": 1836,
    "n": 2,
@@ -1064,28 +1086,6 @@
   {
    "tier": "rejected — different parents",
    "surname": "zubrinic",
-   "given": "magdalena",
-   "byear": 1847,
-   "n": 2,
-   "place": null,
-   "date": "9 MAY 1847",
-   "ids": [
-    "@I506535@",
-    "@I511775@"
-   ],
-   "names": [
-    "Magdalena Žubrinić",
-    "Magdalena Žubrinić"
-   ],
-   "slugs": [
-    "magdalena-zubrinic",
-    "magdalena-zubrinic-9"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "zubrinic",
    "given": "bare",
    "byear": 1848,
    "n": 2,
@@ -1178,8 +1178,8 @@
    "dyears": []
   }
  ],
- "extra": 19,
+ "extra": 24,
  "published": 1245,
- "rejected": 32,
- "live": 19
+ "rejected": 28,
+ "live": 23
 }

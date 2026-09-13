@@ -139,6 +139,35 @@ def parents_conflict(ids):
     return False
 
 
+# Croatian given names carry short forms that are not spelling variants but
+# different words, and the registers use them interchangeably for one person.
+# This archive documents that on /name; the same knowledge belongs here. The
+# table is deliberately short and only holds pairs seen in these registers.
+SHORT = {
+    "mare": "marija", "mara": "marija", "marica": "marija", "manda": "magdalena",
+    "mande": "magdalena", "kate": "katarina", "kata": "katarina",
+    "ane": "ana", "anna": "ana", "antona": "anton", "antone": "anton",
+    "tonka": "antonija", "joso": "josip", "jozo": "josip", "jure": "juraj",
+    "miko": "mihovil", "miho": "mihovil", "mate": "matija", "ive": "ivan",
+    "luce": "lucija", "luca": "lucija", "bare": "barbara",
+}
+
+
+def canon(tok):
+    """Fold a short form to its full name, and collapse doubled letters.
+
+    Doubled letters matter: Phillipus and Philippus are two spellings of one man
+    two substitutions apart, which a single-edit test will never catch. Collapsing
+    runs makes both "philipus" and settles it.
+    """
+    t = SHORT.get(tok, tok)
+    out = []
+    for ch in t:
+        if not out or out[-1] != ch:
+            out.append(ch)
+    return "".join(out)
+
+
 def near(a, b):
     """One substitution, insertion or deletion apart — Lovro / Lovre, Ane / Ana.
 
@@ -160,7 +189,9 @@ def near(a, b):
 
 
 def overlap(s1, s2):
-    return any(near(x, y) for x in s1 for y in s2)
+    c1 = {canon(x) for x in s1}
+    c2 = {canon(y) for y in s2}
+    return any(near(x, y) for x in c1 for y in c2)
 
 
 buckets = collections.defaultdict(list)

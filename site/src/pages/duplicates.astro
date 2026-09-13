@@ -59,6 +59,10 @@ const bySur = Object.entries(
         <tr><td>Parents' names spelled differently</td>
           <td class="dim"><em>Michael</em> vs <em>Michaelis / Michael / Miho</em></td>
           <td>Compare parent names as <strong>sets, asking whether they overlap</strong></td></tr>
+        <tr><td>A short form and a full name for one parent</td>
+          <td class="dim"><em>Mare</em> vs <em>Marija</em> · <em>Anton</em> vs <em>Antona</em></td>
+          <td>Fold the short forms this region actually uses, and collapse doubled
+            letters — <em>Phillipus</em> and <em>Philippus</em> are one man</td></tr>
         <tr><td>A sorting label standing in the father's slot</td>
           <td class="dim"><em>Jure Žubrinić</em> vs <em>Brothers of Casparus (It Seems)</em></td>
           <td>Ignore <a href={u("/buckets/")}>bucket parents</a> entirely — a label is not a father</td></tr>
@@ -71,6 +75,19 @@ const bySur = Object.entries(
           <td>Allow <strong>one character</strong> of difference in a parent's name</td></tr>
       </tbody>
     </table>
+    <p style="margin-top:1.2rem"><strong>And the last was forced by reading the rejections.</strong>
+    Going through all thirty-two by hand — which had never been done — showed the parent test failing
+    on the commonest thing in these registers. <strong>Mile Blažević is in the tree three times</strong>,
+    and the three entries give his parents as <em>Antona Blažević &amp; Marija Sojat</em>,
+    <em>Antone Blažević &amp; Mare Sojat</em>, and <em>Anton Kljapo Blažević &amp; Marija Šojat</em>.
+    That is one couple written three ways, and the check called it three families.</p>
+    <p><strong>Mare is not a variant spelling of Marija. It is a different word for the same
+    woman</strong> — and this archive has <a href={u("/name")}>a whole page</a> about exactly that.
+    The same knowledge now sits in the tool: a short list of the short forms these registers actually
+    use, plus a rule that collapses doubled letters, because <em>Phillipus</em> and
+    <em>Philippus</em> are two substitutions apart and no single-edit test will ever join them.
+    Five groups came back, including a Lucia and two Magdalenas.</p>
+
     <p style="margin-top:1.2rem"><strong>And one was forced by a South Australian birth index.</strong>
     This archive held <em>Kate Zubrinich</em> and <em>Katalyn Zubrinich</em> as two women — identical
     in birth date, birth place, death date, death place <em>and both parents</em> — and this check
