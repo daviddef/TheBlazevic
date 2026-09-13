@@ -1,0 +1,12 @@
+# Place strings in the tree that name the wrong place, and what they really are.
+#
+# These are not spelling variants. Each one puts a person in a real Croatian
+# place that is hundreds of kilometres from where the event happened, and a
+# reader who trusts the county line is simply sent to the wrong town. The
+# gazetteer already folds them so the COUNTS are right; this file exists so the
+# person pages, where a reader actually meets the string, say so too.
+#
+# match|reads|actually|km|why
+Dubrovačko-neretvanska|Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija|Smokvica Krmpotska, Općina Novi Vinodolski, Primorje-Gorski Kotar|400|There are two Smokvicas. This one is on the island of Korčula, in the far south. The village meant is Smokvica Krmpotska above Novi Vinodolski, which is where every Blažević document in this archive was written.
+Split-Dalmatia|Senj, Split-Dalmatia|Senj, Lika-Senj|250|Senj has never been in Split-Dalmatia. It is the seat of its own Frontier district and sits in Lika-Senj county.
+Osekovo|Osekovo, Belovár-Körös Megye, Hungary|Otočac, Lika-Senj|150|A FamilySearch catalogue heading, not a tree error: the Otočac christening register is filed under an unrelated Hungarian district. Noted wherever the citation is reused.

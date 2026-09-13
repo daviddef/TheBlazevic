@@ -8,6 +8,7 @@ import latin from "../../data/latincases.json";
 import evidence from "../../data/evidence.json";
 import linkage from "../../data/linkage.json";
 import dupes from "../../data/duplicates.json";
+import placefixes from "../../data/placefixes.json";
 import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
@@ -18,6 +19,8 @@ const occ = (p.occupations || []).filter((o) => o.what || o.where);
 const events = (p.events || []).filter((e) => e.date || e.place || e.note || e.detail);
 const notes = (p.notes || []).filter((n) => n && n.length > 2);
 const rel = p.rel || null;
+// place strings in the tree that name a real place hundreds of km from the event
+const badPlaces = placefixes.bySlug[p.slug] || [];
 const parents = rel?.parents ?? [];
 const spouses = rel?.spouses ?? [];
 const siblings = rel?.siblings ?? [];
@@ -158,6 +161,13 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
       {p.baptised && <tr><th>Baptised</th><td>{p.baptised}{p.baptisedPlace ? `, ${p.baptisedPlace}` : ""}</td></tr>}
       {p.died && <tr><th>Died</th><td>{p.died}{p.diedPlace &&
         <>, <a href={u(`/people/?q=${encodeURIComponent(p.diedPlace.split(",")[0])}`)}>{p.diedPlace}</a></>}</td></tr>}
+      {badPlaces.map((f) => (
+        <tr><th class="warn">Place</th><td>
+          <strong>The {f.field} place above names the wrong town.</strong> It reads
+          <span class="mono"> {f.reads}</span>, which is a real place <strong>{f.km} km</strong>
+          away. The place meant is <strong>{f.actually}</strong>.
+          <div class="dim" style="margin-top:.4rem">{f.why}</div>
+        </td></tr>))}
       {p.cause && <tr><th>Cause</th><td class="mono">{p.cause}</td></tr>}
       {p.burial && <tr><th>Buried</th><td>{p.burial}</td></tr>}
       {occ.length > 0 && (

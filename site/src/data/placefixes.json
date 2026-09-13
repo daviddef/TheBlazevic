@@ -1,0 +1,78 @@
+{
+ "rules": [
+  {
+   "match": "Dubrovačko-neretvanska",
+   "reads": "Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija",
+   "actually": "Smokvica Krmpotska, Općina Novi Vinodolski, Primorje-Gorski Kotar",
+   "km": 400,
+   "why": "There are two Smokvicas. This one is on the island of Korčula, in the far south. The village meant is Smokvica Krmpotska above Novi Vinodolski, which is where every Blažević document in this archive was written."
+  },
+  {
+   "match": "Split-Dalmatia",
+   "reads": "Senj, Split-Dalmatia",
+   "actually": "Senj, Lika-Senj",
+   "km": 250,
+   "why": "Senj has never been in Split-Dalmatia. It is the seat of its own Frontier district and sits in Lika-Senj county."
+  },
+  {
+   "match": "Osekovo",
+   "reads": "Osekovo, Belovár-Körös Megye, Hungary",
+   "actually": "Otočac, Lika-Senj",
+   "km": 150,
+   "why": "A FamilySearch catalogue heading, not a tree error: the Otočac christening register is filed under an unrelated Hungarian district. Noted wherever the citation is reused."
+  }
+ ],
+ "hits": [
+  {
+   "slug": "juraj-georgius-jure-blazevic",
+   "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+   "field": "born",
+   "raw": "Smokvica, Krmpote, Općina Smokvica, Dubrovačko-neretvanska županija, Croatia",
+   "match": "Dubrovačko-neretvanska",
+   "reads": "Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija",
+   "actually": "Smokvica Krmpotska, Općina Novi Vinodolski, Primorje-Gorski Kotar",
+   "km": 400,
+   "why": "There are two Smokvicas. This one is on the island of Korčula, in the far south. The village meant is Smokvica Krmpotska above Novi Vinodolski, which is where every Blažević document in this archive was written."
+  },
+  {
+   "slug": "joannes-juan-ivan-ive-john-zubrinic",
+   "name": "Joannes Juan Ivan Ive John Žubrinić",
+   "field": "born",
+   "raw": "Senj, Split-Dalmatia, Croatia",
+   "match": "Split-Dalmatia",
+   "reads": "Senj, Split-Dalmatia",
+   "actually": "Senj, Lika-Senj",
+   "km": 250,
+   "why": "Senj has never been in Split-Dalmatia. It is the seat of its own Frontier district and sits in Lika-Senj county."
+  }
+ ],
+ "bySlug": {
+  "juraj-georgius-jure-blazevic": [
+   {
+    "slug": "juraj-georgius-jure-blazevic",
+    "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+    "field": "born",
+    "raw": "Smokvica, Krmpote, Općina Smokvica, Dubrovačko-neretvanska županija, Croatia",
+    "match": "Dubrovačko-neretvanska",
+    "reads": "Smokvica, Općina Smokvica, Dubrovačko-neretvanska županija",
+    "actually": "Smokvica Krmpotska, Općina Novi Vinodolski, Primorje-Gorski Kotar",
+    "km": 400,
+    "why": "There are two Smokvicas. This one is on the island of Korčula, in the far south. The village meant is Smokvica Krmpotska above Novi Vinodolski, which is where every Blažević document in this archive was written."
+   }
+  ],
+  "joannes-juan-ivan-ive-john-zubrinic": [
+   {
+    "slug": "joannes-juan-ivan-ive-john-zubrinic",
+    "name": "Joannes Juan Ivan Ive John Žubrinić",
+    "field": "born",
+    "raw": "Senj, Split-Dalmatia, Croatia",
+    "match": "Split-Dalmatia",
+    "reads": "Senj, Split-Dalmatia",
+    "actually": "Senj, Lika-Senj",
+    "km": 250,
+    "why": "Senj has never been in Split-Dalmatia. It is the seat of its own Frontier district and sits in Lika-Senj county."
+   }
+  ]
+ },
+ "people": 2
+}

@@ -43,6 +43,7 @@ ORDER = [
     "zubrinic_roots.py",
     "marriedin.py",
     "work.py",
+    "placefix.py",
     "register.py",
     "coverage.py",
     "whoindex.py",
