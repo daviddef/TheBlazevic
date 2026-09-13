@@ -11,8 +11,8 @@ export function getStaticPaths() {
 const { family } = Astro.params;
 const meta = families.find((f) => f.slug === family);
 const copy = COPY[family];
-const keys = { blazevic: ["blazevic"], zubrinic: ["zubrinic"], papic: ["papic"],
-               prpic: ["prpic", "perpic"] }[family];
+// Perpic folds into Prpic, as everywhere else here; every other family is itself.
+const keys = { prpic: ["prpic", "perpic"] }[family] || [family];
 const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
   .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
 ---

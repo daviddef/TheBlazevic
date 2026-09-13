@@ -835,6 +835,64 @@
    "yearOut": 0
   }
  ],
+ "standing": [
+  {
+   "family": "sestan",
+   "published": 55,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "zubrinic",
+   "published": 414,
+   "connected": 21,
+   "pct": 5
+  },
+  {
+   "family": "prpic",
+   "published": 118,
+   "connected": 7,
+   "pct": 6
+  },
+  {
+   "family": "perpic",
+   "published": 37,
+   "connected": 3,
+   "pct": 8
+  },
+  {
+   "family": "blazevic",
+   "published": 220,
+   "connected": 51,
+   "pct": 23
+  },
+  {
+   "family": "papic",
+   "published": 116,
+   "connected": 31,
+   "pct": 27
+  },
+  {
+   "family": "vukelic",
+   "published": 15,
+   "connected": 10,
+   "pct": 67
+  },
+  {
+   "family": "boras",
+   "published": 55,
+   "connected": 55,
+   "pct": 100
+  },
+  {
+   "family": "kalanj",
+   "published": 215,
+   "connected": 215,
+   "pct": 100
+  }
+ ],
+ "connected": 393,
+ "publishedTotal": 1245,
  "specific": {
   "agree": 8,
   "disagree": 0,

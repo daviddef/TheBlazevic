@@ -3,6 +3,14 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import B from "../data/buckets.json";
 
+const FAMLAB = { blazevic: "Blažević", prpic: "Prpić", papic: "Papić",
+  zubrinic: "Žubrinić", perpic: "Perpić", kalanj: "Kalanj", boras: "Boras",
+  sestan: "Šestan", vukelic: "Vukelić" };
+const pctAll = Math.round(100 * B.connected / B.publishedTotal);
+// Perpic has no page of its own — it folds into Prpic, as everywhere else here.
+const PAGE = { perpic: "prpic" };
+const famHref = (k) => "/" + (PAGE[k] || k);
+
 const FAMLABEL = { blazevic: "Blažević", prpic: "Prpić", papic: "Papić",
                    zubrinic: "Žubrinić", perpic: "Perpić", kalanj: "Kalanj" };
 const byFam = Object.entries(
@@ -14,7 +22,7 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
 ---
 <Base title="Labels Where the Father Should Be"
   eyebrow={`${B.buckets.length} sorting buckets, ${B.hanging} published people`}
-  dek="This archive found four of these being published as ancestors and removed them, because publishing research scaffolding would be a lie. They were removed from the list of people. Nobody removed them from the list of parents.">
+  dek="This archive found four of these being published as ancestors and removed them, because publishing research scaffolding would be a lie. They were removed from the list of people. Nobody removed them from the list of parents — and it turns out two-thirds of the archive is standing on them.">
 
   <section class="blk">
     <p class="lede">A <strong>sorting bucket</strong> is an entry like
@@ -105,6 +113,65 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <p class="dek">Which is a result worth having either way. The two specific labels are worth
     taking to a registrar as a question; the vague ones should be treated as what they are, a note
     to self by someone half way through a sorting job.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The uncomfortable part</div>
+    <h2>Delete the labels and two-thirds of this archive floats free</h2>
+    <p class="lede">The section above asks whether a label is <em>accurate</em>. This asks something
+    harder. If every sorting label were removed from the tree, how many of the people published here
+    would still be connected to <a href={u("/hedviga")}>Hedviga</a> at all — by any path, however
+    long, of parents, children and spouses?</p>
+
+    <p><strong>{B.connected} of {B.publishedTotal}. {pctAll}%.</strong></p>
+
+    <table class="reg">
+      <thead><tr><th>Family</th><th>Published</th><th>Still connected</th><th></th></tr></thead>
+      <tbody>{B.standing.map((x) => (
+        <tr>
+          <td><a href={u(famHref(x.family))}>{FAMLAB[x.family] || x.family}</a></td>
+          <td class="mono dim">{x.published}</td>
+          <td class="mono">{x.connected}</td>
+          <td class="mono"><strong>{x.pct}%</strong></td>
+        </tr>))}</tbody>
+    </table>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Šestan is nought per cent</h3>
+      <p>All <strong>55</strong> of them. The shortest path from Hedviga to the nearest Šestan runs
+      eleven steps — out through her <em>husband's</em> family, the Defranceski, back through
+      Teresa Grach, and then across a node the tree itself calls
+      <span class="mono">Grah's for Investigation (not real)</span>. Take that node away and there
+      is no path at all.</p>
+      <p>The archive describes this family as <em>“of the Croatian Littoral”</em>. Twenty-three of
+      the twenty-four placed Šestani are at <strong>Gologorica</strong>, which is in central
+      <strong>Istria</strong> — a different peninsula, eighty miles west. And not one Šestan marries
+      into any of the other eight families. They are here because somebody was investigating
+      whether they belonged, and the investigation is still sitting in the tree as though it were an
+      ancestor.</p>
+    </div>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>And the Žubrinići are five per cent</h3>
+      <p>Twenty-one of four hundred and fourteen. This is the <em>largest</em> family in the
+      archive and the subject of <a href={u("/zubrinic-roots")}>its longest-running question</a> —
+      and the great majority of them reach Hedviga only by way of a label. Prpić is 6%, Perpić 8%,
+      Blažević 23%, Papić 27%.</p>
+      <p>Two are whole. <strong>Boras and Kalanj are 100%</strong> — every published member connects
+      by ordinary parent, child and marriage links. For Kalanj that chain was
+      <a href={u("/grave")}>confirmed from registers this month</a>: Ana Kalanj of Klenovica 22
+      married Josip de Franceschi, and their line runs to Hedviga's husband.</p>
+    </div>
+
+    <p style="margin-top:1.4rem"><strong>What this does and does not mean.</strong> It does
+    <em>not</em> mean these people are invented, or that the research was careless — the
+    <a href={u("/register")}>register</a> is full of real entries about real people, and this
+    archive publishes by <em>surname group</em>, never having claimed each person is a proven
+    relative. What it means is narrower and still worth saying out loud: for most of the names here,
+    <strong>the link to Hedviga is currently made by a sorting note rather than by a document</strong>.
+    A reader is entitled to know which two-thirds.</p>
+    <p class="dek">It also reorders the work. Reading one Otočac marriage that joins a Žubrinić
+    fragment to the line is worth more than reading fifty pages that confirm dates already held.</p>
   </section>
 
   <section class="blk">

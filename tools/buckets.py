@@ -150,8 +150,79 @@ print(f"  specific (house number or date range)  {sa} agree / {sd} disagree   ({
 print(f"  vague (a town and nothing else)        {va} agree / {vd} disagree   ({vb} placeless)")
 print(f"  placeless children a label could place: {sb + vb}")
 
+
+
+# ---- how much of this archive hangs on the scaffolding? -------------------
+#
+# The previous section asks whether a label is accurate. This one asks something
+# harder: if every sorting label were deleted, how many of the people published
+# here would still be connected to Hedviga at all?
+#
+# The graph is parent-child and spouse edges over the whole export, living people
+# included, so nothing is lost to the publication filter. "Connected" means a
+# path exists - not a close one, just a path.
+
+STRICT = re.compile(
+    r"\bbrothers?\b|\bsisters?\b|to be sorted|for sorting|\bsorting\b|"
+    r"\bworking\b|it seems|not real|investigation|\d{4}\s*-\s*\d{4}\s*birth", re.I)
+
+
+def strict_bucket(x):
+    return bool(STRICT.search(gedcom.display(P[x]) or ""))
+
+
+def reachable(skip_buckets):
+    adj = collections.defaultdict(set)
+    for fid, f in F.items():
+        nodes = [x for x in (f.get("husb"), f.get("wife")) if x in P]
+        ch = [c for c in (f.get("chil") or []) if c in P]
+        if skip_buckets:
+            nodes = [x for x in nodes if not strict_bucket(x)]
+            ch = [c for c in ch if not strict_bucket(c)]
+        if len(nodes) == 2:
+            adj[nodes[0]].add(nodes[1])
+            adj[nodes[1]].add(nodes[0])
+        for c in ch:
+            for par in nodes:
+                adj[par].add(c)
+                adj[c].add(par)
+    start = next((i for i, q in P.items()
+                  if gedcom.display(q).startswith('Hedviga "Seka"')), None)
+    if start is None:
+        return {}
+    dist, queue = {start: 0}, collections.deque([start])
+    while queue:
+        x = queue.popleft()
+        for y in adj[x]:
+            if y not in dist:
+                dist[y] = dist[x] + 1
+                queue.append(y)
+    return dist
+
+
+with_b, without_b = reachable(False), reachable(True)
+standing = []
+for fam in sorted({fold(P[i].get("surname") or "") for i in pub} - {""}):
+    ids = [i for i in pub if fold(P[i].get("surname") or "") == fam]
+    if not ids:
+        continue
+    r = sum(1 for i in ids if i in without_b)
+    standing.append({"family": fam, "published": len(ids), "connected": r,
+                     "pct": round(100 * r / len(ids))})
+standing.sort(key=lambda x: x["pct"])
+tot_pub = sum(x["published"] for x in standing)
+tot_con = sum(x["connected"] for x in standing)
+
+print(f"\nreachable from Hedviga with the labels: {len(with_b)}; "
+      f"without them: {len(without_b)}")
+print(f"published people still connected without any sorting label: "
+      f"{tot_con} of {tot_pub} ({round(100*tot_con/tot_pub)}%)\n")
+for x in standing:
+    print(f"  {x['family']:<10} {x['connected']:>4} of {x['published']:<4} {x['pct']:>4}%")
+
 out = os.path.join(DATA, "buckets.json")
 json.dump({"buckets": rows, "orphaned": orphaned, "labels": labels,
+           "standing": standing, "connected": tot_con, "publishedTotal": tot_pub,
            "specific": {"agree": sa, "disagree": sd, "blank": sb},
            "vague": {"agree": va, "disagree": vd, "blank": vb},
            "hanging": sum(r["published"] for r in rows)},

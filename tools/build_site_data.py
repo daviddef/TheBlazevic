@@ -24,10 +24,20 @@ FAMILIES = [
     ("zubrinic", "Žubrinić", "Tereza's people of Otočac, written Xubrinich before it was written Žubrinić"),
     ("papic",    "Papić",    "Milka's people of Senj and Selce, porters and innkeepers"),
     ("prpic",    "Prpić",    "Antonija's people of Krivi Put, Bunjevci of the Senj mountain"),
-    ("kalanj",   "Kalanj",   "of the Senj hinterland, married into the Blažević line"),
-    ("vukelic",  "Vukelić",  "of Lika"),
-    ("boras",    "Boras",    "married into the Senj Blaževići"),
-    ("sestan",   "Šestan",   "of the Croatian Littoral"),
+    # Three of these descriptions were checked against the data on 13 September
+    # 2026 and did not survive it. Kalanj was said to have married into the
+    # Blazevic line, which is true of exactly one marriage - the connection that
+    # actually carries the family is Ana Kalanj of Klenovica 22 marrying Josip de
+    # Franceschi, on Hedviga's HUSBAND's side, and that chain is documented.
+    # Boras was said to have married into the Senj Blazevici; its marriages are
+    # into Papic and Prpic. Vukelic was called "of Lika"; its published people
+    # are at Senj, and its significance is that Zvonimir Vukelic was Milka
+    # Papic's first husband. Sestan was called "of the Croatian Littoral" and is
+    # in Istria.
+    ("kalanj",   "Kalanj",   "of Klenovica and Povile — into this family through Ana Kalanj, who married a de Franceschi"),
+    ("vukelic",  "Vukelić",  "of Senj — Milka Papić's first husband's people"),
+    ("boras",    "Boras",    "of Senj, married into the Papići and the Prpići"),
+    ("sestan",   "Šestan",   "of Gologorica in Istria — and connected to this family only through a sorting label"),
 ]
 
 # Placeholder rows the working tree carries that are not people at all: sorting
