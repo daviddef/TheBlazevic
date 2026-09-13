@@ -1,0 +1,25 @@
+# Which parish register a village's events are written in, and what that parish
+# holds. Ranges are CATALOGUE LABELS from the FamilySearch waypoints, checked
+# 13 September 2026 by opening each waypoint — not by opening each film.
+#
+# Krmpote is the warning: catalogued 1815-1896, the film begins 1879. Any range
+# below marked "unverified" has not been tested against its film.
+#
+# parish|villages (comma-separated, lowercased, no diacritics)|births|marriages|deaths|verified
+Senj|senj|1734-1894|1734-1858,1859-1920|1820-1858,1859-1907|marriages verified end to end
+Otocac|otocac,prozor,sumecica|1834-1858|1859-1872|1780-1836,1834-1858,1859-1872|marriages verified images 129-147
+Krmpote-Vodice|smokvica krmpotska,krmpote,krmpotske vodice,sv. jakov,kermpote|1879-1896|none|none|VERIFIED — label says 1815, film begins 1879
+Krivi Put|krivi put,mrzli dol,sojatski dolac lika-senj,klaricevac|1847-1884|1871-1894|1878-1934|unverified
+Novi Vinodolski|novi vinodolski,klenovica,povile|1650-1900|1674-1859|1704-1899|unverified
+Ledenice|ledenice|1734-1894|1734-1882|1734-1902|unverified
+Selce|selce|1778-1861|1790-1878|1790-1886|unverified
+Grizane|grizane,bribir|1692-1886|1735-1858|1735-1894|unverified — also holds a Stanje dusa of 1738
+Sinac|sinac|1834-1901|none|1834-1913|unverified
+Jablanac|jablanac|1860-1895|1860-1906|1860-1890|unverified
+Brinje|brinje|1888-1900|1888-1899|1888-1899|unverified
+Crikvenica|crikvenica|unknown|unknown|unknown|not checked
+Dramalj, Sv. Jelena|sv. jelena,dramalj|unknown|unknown|unknown|not checked
+Karlobag|karlobag|unknown|unknown|unknown|already the best-read parish here; ranges not checked
+Rijeka|rijeka|unknown|unknown|unknown|NOT CHECKED — needed for question 13, Ljubomir's 1892 baptism
+Gologorica|gologorica|unknown|unknown|unknown|Istria — likely a different collection entirely
+Vrbnik|vrbnik|unknown|unknown|unknown|one page read (1806); ranges not checked

@@ -1,0 +1,79 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import T from "../data/targets.json";
+
+const withAhn = T.books.filter((b) => b.ahn.length);
+const selceDeaths = T.books.find((b) => b.parish === "Selce" && b.kind === "deaths");
+const novi = T.books.find((b) => b.parish === "Novi Vinodolski" && b.kind === "births");
+const label = { births: "baptisms", deaths: "deaths", marriages: "marriages" };
+---
+<Base title="What Is Left to Read"
+  eyebrow={`${T.totalReachable} events that fall inside a film this archive can reach`}
+  dek="Reading a register is not expensive. Not knowing what you are looking for is. This is the worklist: every person in the archive whose birth or death was written in a parish whose films are reachable, and the year checked against what each book actually covers.">
+
+  <section class="blk">
+    <p class="lede">Until now every sitting at a film viewer began with a search. This page exists so
+    that the next one begins with a <strong>list</strong>.</p>
+    <p>Every published person carrying a place is matched to the parish whose register would hold
+    the entry, and the year is tested against that parish's holdings. A person only appears below if
+    the book that should contain them is one this archive can actually open.</p>
+    <div class="note"><strong>These ranges are catalogue labels, not films.</strong> Krmpote-Vodice
+    is catalogued <span class="mono">Births 1815-1896</span> and its film begins in
+    <strong>1879</strong> — which is how six research plans came to be written against books that
+    could not deliver them. <strong>Open the film and read one page before trusting any line
+    here.</strong> <a href={u("/searched/")}>The audit →</a></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The two that matter most</div>
+    <h2>One book holds nine direct ancestors</h2>
+    <p class="lede"><strong>Selce deaths, {selceDeaths?.holds}.</strong> Nine people on
+    <a href={u("/direct-line/")}>the direct line</a> died at Selce inside that range —
+    ahnentafel {selceDeaths?.ahn.join(", ")} — and <strong>every one of their death dates in this
+    archive comes from the family tree, not from a document.</strong> One volume, one sitting, nine
+    confirmations or nine corrections.</p>
+    <p style="margin-top:1.1rem"><strong>And the largest single harvest is Novi Vinodolski.</strong>
+    {novi?.reachable} events fall inside its baptism register, which is catalogued from
+    <strong>1650</strong> — a century older than anything this archive currently holds. That is the
+    parish for <strong>Klenovica</strong> and <strong>Povile</strong>, where this archive found that
+    <a href={u("/gazetteer/")}>house 22 in each is one house holding 67 people</a>.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Every book, by how much it would give</h2>
+    <table class="reg">
+      <thead><tr><th>Book</th><th>Holds</th><th class="mono">reach</th><th class="mono">of</th><th>Direct ancestors</th></tr></thead>
+      <tbody>{T.books.map((b) => (
+        <tr>
+          <td><strong>{b.parish}</strong> <span class="dim">{label[b.kind] || b.kind}</span></td>
+          <td class="mono dek">{b.holds}</td>
+          <td class="mono"><strong>{b.reachable}</strong></td>
+          <td class="mono dim">{b.n}</td>
+          <td class="dek">{b.ahn.length ? b.ahn.map((a) => <span class="mono">{a} </span>) : "—"}</td>
+        </tr>))}</tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem"><span class="mono">reach</span> is how many fall inside
+    the film's years; <span class="mono">of</span> is how many the archive holds for that parish
+    and event at all. The gap between them is people whose dates fall outside what was filmed.</p>
+  </section>
+
+  {withAhn.map((b) => (
+    <section class="blk">
+      <h2>{b.parish} {label[b.kind] || b.kind} <span class="dim mono">{b.holds}</span></h2>
+      <p class="dek">{b.verified}</p>
+      <table class="reg">
+        <thead><tr><th class="mono">ahn</th><th>Person</th><th class="mono">year</th><th>Village</th></tr></thead>
+        <tbody>{b.people.filter((h) => h.ahn).map((h) => (
+          <tr>
+            <td class="mono"><strong>{h.ahn}</strong></td>
+            <td><a href={u("/people/" + h.slug + "/")}>{h.name}</a></td>
+            <td class="mono">{h.year}</td>
+            <td class="dek">{h.village}</td>
+          </tr>))}</tbody>
+      </table>
+      <p class="dek" style="margin-top:.9rem">{b.reachable} reachable in this book in total; the
+      {" "}{b.people.filter((h) => h.ahn).length} above are on the direct line.</p>
+    </section>
+  ))}
+</Base>
