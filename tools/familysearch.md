@@ -140,3 +140,31 @@ surname and no house number gets recorded from a whole-page view.** Having a
 groom's birth month as `1/VIII` from a page-scale view; enlarged 2.7× on the cell
 alone it is `1/III` — three strokes under one overline. Crop the single cell,
 enlarge, and only then write it down.
+
+---
+
+## Rate limiting — hit on 14 September 2026
+
+After a long run of tile fetching, with **two Claude sessions working the same
+signed-in account at once**, FamilySearch's security layer began returning:
+
+    Access Denied — Error 15
+    www.familysearch.org
+
+and, just before that, **blank pages**: the viewer HTML loads, `document.title`
+is empty, and `document.querySelectorAll('img')` returns zero. A blank viewer is
+the earlier, softer symptom of the same thing.
+
+**What to do:** stop. Do not retry in a loop, and do not start a second session
+against the same account. The block lifts on its own; hammering it risks the
+user's access to a service the whole archive depends on.
+
+**How to avoid it:**
+
+* **One session at a time** against FamilySearch. If a background session is
+  reading a film, leave the account alone.
+* Survey with a **level drop** — a full frame at level 13 is ~400 tile requests
+  and at level 10 it is 9. Most of the traffic in a sitting is survey shots that
+  did not need full resolution.
+* Map the film **once** via the thumbnail grid and reuse `window.__map`, rather
+  than re-navigating.
