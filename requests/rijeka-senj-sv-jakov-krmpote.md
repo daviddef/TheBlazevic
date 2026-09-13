@@ -53,6 +53,36 @@ is a strong circumstantial case and it is not a sentence naming his father.
 *Enquiries may be made in Croatian or English. A negative result is worth having
 and will be recorded as one.*
 
+
+## And a class of book we now know survives: *status animarum*
+
+A **status animarum** — the parish's house-by-house census of souls — lists a
+household together rather than one sacrament at a time, and would answer more
+than any single entry we could name.
+
+We are not asking blind. A page of one survives in our own family papers,
+captioned **Our Lady of the Snow, Krivi Put**, running **1897 to 1939**, with
+each person entered as *ž.* (wife), *s.* (son), *k.* (daughter) or *i.* (child
+of) beneath the head of the household, and a right-hand column carrying
+cross-references of the form *Iz … 43* and *v. br. 18/51*. So the books were
+kept in these parishes and at least one has survived.
+
+**If any status animarum volume survives for the parishes below, scans of the
+relevant household pages would be worth more to us than several individual
+entries:**
+
+- **Our Lady of the Snow, Krivi Put** — the parish our own surviving page names,
+  any decade.
+- **Sv. Jakov, Krmpote**, and **Smokvica Krmpotska** — where our house numbers
+  (Smokvica kbr. 114, Krivi Put N 136) come from. A census page would tell us who
+  shared those houses, which is the whole question behind them.
+- **Senj** itself. We have read Senj baptisms and marriages and found that this
+  town's entries record **no house number at all**, where the village books give
+  one without hesitation. A Senj status animarum would tell us whether the
+  households were nonetheless numbered and simply not carried into the registers.
+
+---
+
 **If these volumes are not held at Senj**, the fallback is the **Hrvatski državni
 arhiv**, Zagreb (info@arhiv.hr) — every FamilySearch image already used in this
 archive is credited to the HDA and carries its stamp, so it holds filmed copies

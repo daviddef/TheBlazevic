@@ -125,3 +125,42 @@ page, not a house number.
 What it does establish is that **status animarum books for Krivi Put survive and
 are reachable**, which is worth naming explicitly in the letters to Gospić and
 Rijeka. That is a lead, not a finding.
+
+---
+
+## Second run, 13 September 2026 — the cap is real
+
+A fresh session reached **3,375**, against 3,359 the first time. Both runs return
+**the identical 26 Croatian items**. So the stall is a reproducible cap somewhere
+around 3,370, not a flaky scroll, and the ~1,125 items beyond it cannot be
+reached this way. That two independent runs agree exactly on the Croatian subset
+is reasonable evidence the unreachable quarter is not heavily Croatian. It is not
+proof, and nobody should quote 26 as a final count.
+
+### Getting the full-resolution file
+
+The grid and the photo page both serve **derivatives**, and the thumbnail
+service's signature is bound to the size — asking `…_R_2953x2240/<sig>/.jpg`
+instead of `…_R_1600x1214/<sig>/.jpg` returns **400**. The original lives at the
+signed `/e/1/<token>/…_R.jpg` form, and the way to make the page reveal it is to
+let the page ask for it:
+
+```js
+document.querySelector('.full_button').click();      // then, after ~2s
+const z = document.querySelector('.zoom_in_button'); // click 5x
+// the /e/1/ URL is now the src of the largest sites-cf img on the page
+```
+
+All eleven new items came down this way at full size — 2,953 to 4,252 px.
+
+### Item 12: the status animarum cannot be chased from here
+
+`4507711` carries **no provenance at all** in MyHeritage: no date, no place, no
+keywords, no notes. The only line is *Uploaded by: David Defranceski*. At 973×354
+the annotation column's *Iz …43* place name is unreadable, and there is nothing
+in the record pointing at where the image came from.
+
+**So a legible copy depends on the uploader remembering the source.** It is worth
+chasing precisely because the place name is the missing piece, and because the
+page proves a class of book the archive had only assumed existed. All three
+letters now ask for status animarum volumes by name on the strength of it.

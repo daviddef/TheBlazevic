@@ -81,6 +81,30 @@ children or simply that nobody has read their books. **A sample of any village
 death register would settle it**, and if the answer is that the villages recorded
 their deaths just as fully, we will withdraw the finding.
 
+
+## And a class of book we now know survives: *status animarum*
+
+A **status animarum** — the parish's house-by-house census of souls — would
+answer more of the above than any single entry, because it lists a household
+together rather than one baptism at a time.
+
+We are not asking blind. A page of one survives in our own family papers,
+captioned **Our Lady of the Snow, Krivi Put** and running from 1897 to 1939,
+with each person entered as *ž.* (wife), *s.* (son), *k.* (daughter) or *i.*
+(child of) beneath the head of the household, and a right-hand column carrying
+cross-references of the form *Iz … 43* and *v. br. 18/51*. So we know the books
+were kept in this region and that at least one has survived into private hands.
+
+**If any status animarum volume survives for the parishes below, a scan of the
+relevant household pages would be worth more to us than several individual
+entries:**
+
+- **Otočac**, and the filial village of **Šumećica** — especially any volume
+  covering **1830–1885**. A household page would show at a stroke whether one
+  *Michaël / Mate Žubrinić* or two stands behind these entries, since a census
+  lists the man, his wife and his living children on one line of sight. This is
+  the single most useful thing that could reach us.
+
 ---
 
 *A second, unrelated request, if it is no trouble:* the **Otočac death register

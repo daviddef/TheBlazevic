@@ -32,6 +32,17 @@ The family record places the death at **Senj**, in his own town, and in a settle
 trade. A man who dies at home is not a casualty-list entry. The Senj civil or
 parish death register is the right book, and this request goes there.
 
+## And, if such a book survives: *status animarum*
+
+A **status animarum** — the parish house-by-house census — for **Senj**, any
+volume covering **1900–1925**, would place this household directly: a widow, a
+daughter of eight and a son of two, living somewhere in the town in 1915. A
+census page names them together; a register entry never does.
+
+We know the class of book was kept in this region — a page of one from **Our Lady
+of the Snow, Krivi Put** (1897–1939) survives in our own family papers — so this
+is not a speculative request.
+
 ## What it would settle
 
 How Milka Papić came to be a **widow at twenty-eight**, with a daughter of eight
