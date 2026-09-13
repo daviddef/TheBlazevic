@@ -9,13 +9,15 @@ const key = [
   ["Otočac", "The Žubrinić town, in the Gacka valley in Lika, inland across the Velebit.", "/zubrinic"],
   ["Selce", "On the Vinodol coast — the Antić–Papić and Jelličić lines.", "/papic"],
   ["Karlobag", "South down the coast under the Velebit — the Pilipić, Uroda, Smojver and Gerkacs lines, and the archive's deepest generation.", null],
-  ["Klenovica & Povile", "The Kalanj villages, on the coast between Novi Vinodolski and Senj.", null],
+  ["Klenovica & Povile", "The Kalanj villages, on the coast between Novi Vinodolski and Senj — and, it turns out, not where the Kalanji are from. House 22 is one house under two village names, and holds 67 people.", "/gazetteer"],
+  ["Brinje", "Inland, over the Kapela, and the only place on this list nobody has ever searched. The Kalanj baptism of 1864 calls the parents Brinjensis parochiae ruricolae — country people of the parish of Brinje. Kalanj, Perković and Borić all appear there.", "/kalanj"],
+  ["Prozor & Šumećica", "The two Otočac villages the oldest Žubrinić entries name — Prozor 46 and 50, Šumećica 2 and 24. Six people left Prozor for New York between 1907 and 1912.", "/america"],
   ["Port Pirie", "South Australia. The Žubrinić emigration of about 1884, and the Zubrinich spelling.", "/port-pirie"],
 ];
 ---
 <Base title="Places"
   eyebrow="A hundred kilometres of coast, and then two other continents"
-  dek="With one exception, every place in this archive before 1884 lies within a day's walk of the Velebit — and the exception is the whole point.">
+  dek="With one exception, every place in this archive before 1884 lies within a day's walk of the Velebit — and the exception is the whole point. One of the places below has never been searched at all, and it is where a whole family came from.">
 
   <section class="blk">
     <div class="grid two">
@@ -46,7 +48,7 @@ const key = [
   </section>
   <section class="blk">
     <div class="lab">Data quality</div>
-    <h2>Three places in this archive are geocoded wrong</h2>
+    <h2>Four places in this archive are geocoded wrong</h2>
     <p class="lede">Not misread, and not disputed — <strong>machine-matched to the wrong town</strong>.
     A geocoder given a village name picks a candidate, and twice here it picked one hundreds of
     kilometres away. They are corrected on the people concerned rather than left standing, because
@@ -62,6 +64,12 @@ const key = [
           <td><strong>Senj</strong>, Lika-Senj County</td>
           <td><strong>200 km</strong> — Senj was the seat of its own county and has never been in
             Split-Dalmatia.</td></tr>
+        <tr><td class="mono">Prozor, Herzegovina-Neretva<br />Canton, Bosnia and Herzegovina</td>
+          <td><strong>Prozor</strong>, near Otočac,<br />Lika-Senj</td>
+          <td><strong>200 km</strong>, and across a border. Every other Prozor record here reads
+            <em>Prozor 46</em> or <em>Prozor 50, Otočac</em>. Found 13 September 2026 — and it
+            matters beyond the one record, because it shows this tree
+            <strong>moving Lika villages into Bosnia</strong>.</td></tr>
         <tr><td class="mono">Osekovo, Belovár-Körös Megye,<br />Hungary</td>
           <td><strong>Otočac</strong>, Lika-Senj</td>
           <td>This one is <strong>FamilySearch's</strong>, not the tree's — a christening at Otočac
