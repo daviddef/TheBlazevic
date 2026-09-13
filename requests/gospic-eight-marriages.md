@@ -89,6 +89,18 @@ This changes what we should be asking you for:
 for Prozor, 1875–1895**, ahead of any marriage in the table above. One volume,
 one village, twenty years.
 
+### And one entry we can ask for by its exact date
+
+A naturalisation petition sworn at **Brooklyn, New York, in 1939** gives
+**Ivan Žubrinić, born 30 June 1888, at Otočac**. He sailed to Baltimore in 1907
+aged nineteen; his wife **Kata** and sons **Juraj** (b. 1923) and **Josip**
+(b. 1925) followed in 1932; he died in New York in 1963.
+
+That is a sworn date, not a ship's estimate. **His baptism is in your Otočac
+register at 30 June 1888.** It would name his parents, and we believe it attaches
+a household we have never seen — we hold an Ivan Žubrinić born 16 August 1887 at
+Otočac and a Stjepan born 1888, and **he is neither of them**.
+
 ## Why a marriage, where there is a choice
 
 *(The section above supersedes this where Prozor is concerned — for that village

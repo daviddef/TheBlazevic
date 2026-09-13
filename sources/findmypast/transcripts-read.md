@@ -383,3 +383,53 @@ already have.** That is not proof of kinship and it is a very strong hint of it.
 **Anton b.1891**, **Eva b.1880** and **Miho 1912** are **new people**. None has
 been added to anything. They are recorded because they tell a registrar exactly
 which volumes to open.
+
+---
+
+## 21. One whole Otočac household, reconstructed end to end
+
+Six records assemble into a single family — and it is **not** one this archive
+holds.
+
+| Record | What it says |
+|---|---|
+| *Baltimore passenger list*, **1907**, ship **Wittekind** | **Ivan Zubrinic**, aged **19**, born **1888**, “Hungary Croatia” |
+| *Naturalisation petition*, **Brooklyn 1939** (`3775256`) | **Ivan Zubrinic**, born **30 June 1888**, birthplace transcribed **“Ostocac, Yugoslavia”** — **Otočac**. Wife **Kate**, b. 1895. Children **Joseph** b. 8 Feb 1924, **John** b. 13 Nov 1932 |
+| *New York passenger list*, **1932**, ship **Berengaria** | **Kata Zubrinic**, aged **36**, b. 1896, from Yugoslavia |
+| *same ship, same roll and film* | **Juraj Zubrinic**, aged **9**, b. **1923** |
+| *same voyage* | **Josip Zubrinic**, b. **1925** |
+| *US Census 1940*, Brooklyn | John 1888 · Katharine 1898 · George 1921 · Joseph 1924 · John 1932 |
+| *SSDI / obituary* | **John Zubrinic, 1888–1963, New York** |
+
+**Juraj is George and Josip is Joseph** — the same two boys, entered under their
+Croatian names on the ship and their American ones thereafter.
+
+### The shape of the life
+
+**Ivan Žubrinić left Otočac for Baltimore in 1907, aged nineteen.** At some point
+he went back, or never fully left: his sons were born in Croatia in **1923** and
+**1925**. In **1932** his wife **Kata** brought both boys out on the *Berengaria*.
+A third son, **John**, was born in New York in **November 1932** — within months
+of their arrival. The family naturalised together in **1939**, and Ivan died in
+New York in **1963**.
+
+### Why it matters to the Croatian search
+
+**This man has an exact birth date and an exact birthplace: 30 June 1888,
+Otočac.** That is not an estimate on a ship's list — it is a sworn date on a
+naturalisation petition.
+
+**So his baptism is in the Otočac register at 30 June 1888, and can be asked for
+by date.** It will name his parents, and it may attach a household this archive
+has never seen.
+
+### Not matched — and the near-miss is the point
+
+This archive holds **Ivan Žubrinić, born 16 August 1887 at Otočac** and
+**Stjepan Žubrinić, born 1888 at Otočac**. Neither is this man. **Ten months and
+six weeks are not rounding errors on a document that gives the day**, and the
+temptation to collapse three Otočac Ivans into one is exactly the error this
+archive has spent the month documenting under [duplicates](../../site/src/pages/duplicates.astro).
+
+**Three different Ivan Žubrinići were born at Otočac within about a year of each
+other.** That is not a problem with the records. That is what Otočac was like.
