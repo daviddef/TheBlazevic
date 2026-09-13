@@ -31,8 +31,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
 
 P, F = gedcom.load()
-pub = {p["id"]: p for p in json.load(
-    open(os.path.join(DATA, "people.json"), encoding="utf-8"))}
+# The site publishes the UNION of people.json and ancestors.json - 52 direct
+# ancestors are not in the register file - and /people counts that union. This
+# check used to scan people.json alone, so its surplus figure was being
+# subtracted from a larger total than it had examined. Scan what is published.
+pub = {}
+for _f in ("people.json", "ancestors.json"):
+    for _r in json.load(open(os.path.join(DATA, _f), encoding="utf-8")):
+        pub.setdefault(_r["id"], _r)
 
 # the surname groups this archive actually publishes
 GROUPS = sorted({fold(p.get("surname") or "") for p in pub.values()} - {""})
