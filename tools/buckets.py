@@ -246,6 +246,129 @@ for cid, rec in pub.items():
     if entry:
         linkage[cid] = entry
 
+
+
+# ---- 92 islands, not 852 loose people ------------------------------------
+#
+# The measurement above says two-thirds of this archive reaches Hedviga only
+# through a sorting label. Stated that way it sounds like 852 separate problems
+# and it is not. Remove the labels and the published people fall into a small
+# number of COHERENT FAMILIES that are simply not joined to hers - and joining
+# one of them is one document, not a hundred.
+#
+# So this section reports the islands, and for each one the person most worth
+# searching for: the earliest whose record carries enough to be looked up, since
+# a bridge has to be built at the old end where the join is missing.
+
+def component_of(adj, start, universe):
+    comp, queue = set(), collections.deque([start])
+    comp.add(start)
+    while queue:
+        x = queue.popleft()
+        for y in adj[x]:
+            if y not in comp:
+                comp.add(y)
+                queue.append(y)
+    return comp & universe
+
+
+real_adj = collections.defaultdict(set)
+for fid, f in F.items():
+    ns = [x for x in (f.get("husb"), f.get("wife")) if x in P and not strict_bucket(x)]
+    ch = [c for c in (f.get("chil") or []) if c in P and not strict_bucket(c)]
+    if len(ns) == 2:
+        real_adj[ns[0]].add(ns[1])
+        real_adj[ns[1]].add(ns[0])
+    for c in ch:
+        for n in ns:
+            real_adj[n].add(c)
+            real_adj[c].add(n)
+
+universe = set(pub)
+seen, islands = set(), []
+for x in pub:
+    if x in seen:
+        continue
+    comp = component_of(real_adj, x, universe)
+    seen |= comp
+    if comp:
+        islands.append(comp)
+islands.sort(key=len, reverse=True)
+
+home = next((i for i, c in enumerate(islands)
+             if any(gedcom.display(P[x]).startswith('Hedviga "Seka"') for x in c)), None)
+if home is None:
+    # Hedviga is excluded from `pub` in some builds; fall back to the largest
+    home = 0
+
+
+def bridge_for(comp):
+    """The person in this island most worth searching for.
+
+    The join is missing at the OLD end, so the candidate is the earliest person
+    who still carries enough to be looked up: a birth year, and ideally a village
+    and a house number. Children are a tie-breaker, because joining someone with
+    eight children moves eight more people.
+    """
+    best, best_key = None, None
+    for x in comp:
+        by = gedcom.year(gedcom.born(P[x]).get("date", ""))
+        if not by:
+            continue
+        pl = ""
+        for evt in (gedcom.born(P[x]), gedcom.died(P[x])):
+            if evt.get("place"):
+                pl = evt["place"]
+                break
+        kids = 0
+        for f in (P[x].get("fams") or []):
+            kids += len([c for c in (F.get(f, {}).get("chil") or []) if c in P])
+        key = (by, -kids, not bool(pl))
+        if best_key is None or key < best_key:
+            best, best_key = x, key
+    if not best:
+        return None
+    by = gedcom.year(gedcom.born(P[best]).get("date", ""))
+    pl = ""
+    for evt in (gedcom.born(P[best]), gedcom.died(P[best])):
+        if evt.get("place"):
+            pl = evt["place"]
+            break
+    kids = 0
+    for f in (P[best].get("fams") or []):
+        kids += len([c for c in (F.get(f, {}).get("chil") or []) if c in P])
+    return {"id": best, "name": gedcom.display(P[best]),
+            "slug": pub[best].get("slug") if best in pub else None,
+            "byear": by, "place": pl, "children": kids,
+            "window": f"{by - 30}–{by - 18}" if by else None}
+
+
+island_rows = []
+for i, comp in enumerate(islands):
+    fams = collections.Counter(fold(P[x].get("surname") or "") for x in comp)
+    yrs = [gedcom.year(gedcom.born(P[x]).get("date", "")) for x in comp]
+    yrs = [y for y in yrs if y]
+    island_rows.append({
+        "n": len(comp), "home": i == home,
+        "families": fams.most_common(3),
+        "from": min(yrs) if yrs else None, "to": max(yrs) if yrs else None,
+        "bridge": bridge_for(comp),
+        "slugs": [pub[x].get("slug") for x in list(comp)[:0]],
+    })
+
+covered = sum(r["n"] for r in island_rows[1:9])
+print(f"\n{len(islands)} islands once the labels are removed. "
+      f"Hedviga's holds {island_rows[home]['n']}.")
+print(f"the next eight hold {covered} between them\n")
+for r in island_rows[:10]:
+    b = r["bridge"]
+    tag = " (Hedviga)" if r["home"] else ""
+    print(f"  {r['n']:>4}{tag:<10} {r['from']}–{r['to']}  "
+          f"{dict(r['families'])}")
+    if b:
+        print(f"        bridge: {b['name'][:38]:<38} b.{b['byear']} "
+              f"{b['place'][:26]:<26} {b['children']} children")
+
 lout = os.path.join(DATA, "linkage.json")
 json.dump(linkage, open(lout, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 n_lab = sum(1 for v in linkage.values() if "label" in v)
@@ -256,6 +379,8 @@ print(f"\nlinkage.json: {n_lab} people with a label for a parent, "
 
 out = os.path.join(DATA, "buckets.json")
 json.dump({"buckets": rows, "orphaned": orphaned, "labels": labels,
+           "islands": island_rows, "islandCount": len(islands),
+
            "standing": standing, "connected": tot_con, "publishedTotal": tot_pub,
            "specific": {"agree": sa, "disagree": sd, "blank": sb},
            "vague": {"agree": va, "disagree": vd, "blank": vb},

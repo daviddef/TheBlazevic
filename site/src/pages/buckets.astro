@@ -7,6 +7,10 @@ const FAMLAB = { blazevic: "Blažević", prpic: "Prpić", papic: "Papić",
   zubrinic: "Žubrinić", perpic: "Perpić", kalanj: "Kalanj", boras: "Boras",
   sestan: "Šestan", vukelic: "Vukelić" };
 const pctAll = Math.round(100 * B.connected / B.publishedTotal);
+const isl = B.islands || [];
+const home = isl.find((i) => i.home) || isl[0];
+const rest = isl.filter((i) => !i.home);
+const top8 = rest.slice(0, 8).reduce((a, i) => a + i.n, 0);
 // Perpic has no page of its own — it folds into Prpic, as everywhere else here.
 const PAGE = { perpic: "prpic" };
 const famHref = (k) => "/" + (PAGE[k] || k);
@@ -172,6 +176,74 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     A reader is entitled to know which two-thirds.</p>
     <p class="dek">It also reorders the work. Reading one Otočac marriage that joins a Žubrinić
     fragment to the line is worth more than reading fifty pages that confirm dates already held.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The useful way to say it</div>
+    <h2>It is not {B.publishedTotal - B.connected} loose people. It is {B.islandCount} islands.</h2>
+    <p class="lede">“Two-thirds of the archive reaches Hedviga only through a label” sounds like
+    eight hundred separate problems, and it is not. Take the labels away and the published people do
+    not scatter — they fall into <strong>{B.islandCount} coherent families</strong> that are simply
+    not joined to hers. Most are internally complete: parents, children, marriages, house numbers.
+    They are whole households missing one link at the top.</p>
+    <p><strong>And the distribution is kind.</strong> Hedviga's own island holds
+    <strong>{home?.n}</strong> people. The next eight hold <strong>{top8}</strong> between them. So
+    the gap is not eight hundred documents — <strong>eight marriage entries would close most of
+    it.</strong></p>
+
+    <table class="reg">
+      <thead><tr><th>People</th><th>Span</th><th>Who they are</th><th>The one to look for</th></tr></thead>
+      <tbody>
+        {home && (
+          <tr style="background:color-mix(in srgb, var(--accent) 9%, transparent)">
+            <td class="mono"><strong>{home.n}</strong></td>
+            <td class="mono dim">{home.from}–{home.to}</td>
+            <td>{home.families.map(([f, n]) => `${f} ${n}`).join(" · ")}
+              {" "}<strong>— Hedviga's own</strong></td>
+            <td class="dim">—</td>
+          </tr>)}
+        {rest.slice(0, 9).map((i) => (
+          <tr>
+            <td class="mono"><strong>{i.n}</strong></td>
+            <td class="mono dim">{i.from}–{i.to}</td>
+            <td class="dim">{i.families.map(([f, n]) => `${f} ${n}`).join(" · ")}</td>
+            <td>{i.bridge
+              ? <span>{i.bridge.slug
+                  ? <a href={u("/people/" + i.bridge.slug)}>{i.bridge.name}</a>
+                  : i.bridge.name}
+                  {" "}<span class="mono dim">b.{i.bridge.byear}</span>
+                  {i.bridge.place && <span class="dim"> · {i.bridge.place.split(",")[0]}</span>}
+                  {i.bridge.children > 0 && <span class="dim"> · {i.bridge.children} children</span>}
+                </span>
+              : <span class="dim">nothing dated enough to search</span>}</td>
+          </tr>))}
+      </tbody>
+    </table>
+    <p class="dek" style="margin-top:1rem">The candidate is the <strong>earliest</strong> person in
+    each island who still carries a birth year — because the join is missing at the old end, and
+    that is where a marriage entry would attach it. Ties go to whoever has most children, since
+    joining them moves the most people.</p>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>Three of these are worth a morning each</h3>
+      <ul class="plain">
+        <li><strong>The 217-person Žubrinić island.</strong> Larger than most whole families on this
+        site, and connected to Hedviga by nothing. The oldest in it is
+        <strong>Nicolai Žubrinić, born 1769</strong> — so the marriage would fall about
+        <strong>1787–1799</strong> at Otočac.</li>
+        <li><strong>Josephus Žubrinić, born 1782 at <span class="mono">Prozor 46</span></strong>,
+        with <strong>eight children</strong> — the single most productive join available, and it
+        comes with a village <em>and</em> a house number.</li>
+        <li><strong>Domianus Perpić, born 1820 at <span class="mono">Krivi Put 136</span></strong> —
+        the same house this archive already works on. Thirty-nine Prpići and Perpići hang off him,
+        and the house number means the entry can be found without a name index.</li>
+      </ul>
+    </div>
+
+    <p style="margin-top:1.2rem">Which reorders the research completely. This archive has spent its
+    effort <em>confirming</em> — finding the register entry behind a date already held. That work
+    adds nothing to the number above. <strong>One marriage at Otočac would add two hundred and
+    seventeen people.</strong> <a href={u("/searched")}>What to ask for →</a></p>
   </section>
 
   <section class="blk">
