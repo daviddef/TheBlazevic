@@ -41,6 +41,31 @@ const READ = [
     got: "Josephum Antić — and the underlined nadimci that answered question 5: Antich Papa, Loncsarich Franich, Antich Dudin.",
     missed: "The Selce registers 1765–1838, which would show the surname change generation by generation." },
 ];
+// Verified 13 September 2026 by opening each film, not by reading the catalogue.
+// The label on the waypoint is a claim about the parish, not about the film:
+// Krmpote is catalogued 1815-1896 and the film begins in 1879.
+const HOLDINGS = [
+  { parish: "Senj", books: "Births 1734-1894 · Deaths 1820-1858, 1859-1907 · Marriages 1734-1858, 1859-1920",
+    checked: "Marriages verified end to end — image 196 is p.192 (1885), image 371 is p.366 (1920)." },
+  { parish: "Otočac", books: "Births 1834-1846, 1846-1858 · Deaths 1780-1836, 1834-1858, 1859-1872 · Marriages 1859-1872 · Church Census (Stanje duša) 1710-1846",
+    checked: "Marriages verified: images 129-147, pag. 10 = 1862, pag. 18 = 1865. Census film target confirms 1710-1846." },
+  { parish: "Krmpote-Vodice", books: "Births 1815-1896 — and NO marriage register, and no deaths",
+    checked: "LABEL WRONG. Image 10 is page 2 and reads 1879; image 188 is page 177 and reads 1896. The film is 1879-1896.", bad: true },
+  { parish: "Brinje", books: "Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899",
+    checked: "Not spot-checked." },
+];
+
+// Research plans this archive had published which cannot be carried out in this
+// collection. Every one was written against a catalogue label.
+const UNREACHABLE = [
+  { q: "1b", want: "Juraj Blažević's marriage to Tereza Žubrinić, before 1892", why: "Krmpote-Vodice has no marriage register at all." },
+  { q: "1b", want: "Juraj Blažević's own baptism — it would name his father", why: "He has no birth date in the tree and his children start in 1892, so he was born around the 1860s. The Krmpote birth film begins in 1879." },
+  { q: "1d", want: "Zvonimir Vukelić's death, Senj 1915", why: "Senj deaths stop at 1907." },
+  { q: "1e", want: "Miroslava Vukelić's baptism, Senj 1907", why: "Senj births stop at 1894." },
+  { q: "5b", want: "Senj baptisms for January–February 1895 — the two sisters eighteen days apart", why: "Senj births stop at 1894. Both sisters fall one year outside." },
+  { q: "4", want: "Otočac baptisms of Casparus (14 Jan 1767) and Toma (1768)", why: "Otočac births begin in 1834." },
+];
+
 const pages = READ.reduce((a, r) => a + r.n, 0);
 const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").length;
 ---
@@ -62,6 +87,51 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       <p style="margin-top:.6rem">So: <strong>{pages} pages</strong>, and the books they came out of
       — beside what has never been touched.</p>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Added 13 September 2026</div>
+    <h2>What the films actually hold — and six plans that cannot be carried out</h2>
+    <p class="lede">Everything below was checked by <strong>opening the film</strong>, not by reading
+    the catalogue. That distinction turned out to matter: the label on a waypoint describes the
+    <em>parish</em>, and the film behind it can be narrower.</p>
+
+    <table class="reg">
+      <thead><tr><th>Parish</th><th>Catalogued</th><th>Checked</th></tr></thead>
+      <tbody>{HOLDINGS.map((h) => (
+        <tr>
+          <td><strong>{h.parish}</strong></td>
+          <td class="mono dek">{h.books}</td>
+          <td class={h.bad ? "warn" : "dek"}>{h.checked}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <div class="note" style="margin-top:1.2rem"><strong>Krmpote-Vodice is catalogued
+    <span class="mono">Births 1815-1896</span>. The film begins in 1879.</strong> Image 10 is page
+    two of the book and reads <em>Godine 1879</em>; image 188 is page 177 and reads
+    <em>Godine 1896</em>. Sixty-four years named on the label are not behind it — and this is the
+    parish that should hold every Blažević above Toma.</div>
+
+    <h3 style="margin-top:1.6rem">Six things this archive said it would go and look up</h3>
+    <p>Each of these was published as the next step for an open question. <strong>None of them can
+    be done in this collection</strong>, and every one was written against a catalogue label rather
+    than a film.</p>
+    <table class="reg">
+      <thead><tr><th>Q</th><th>What was wanted</th><th>Why it cannot be had</th></tr></thead>
+      <tbody>{UNREACHABLE.map((r) => (
+        <tr>
+          <td class="mono"><strong>{r.q}</strong></td>
+          <td>{r.want}</td>
+          <td class="dek">{r.why}</td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>This is the most useful thing found all day</strong>, and it
+    is entirely negative. Six research plans were sitting on this site looking actionable. They were
+    not, and no amount of the full-resolution image access solved the same morning would have made
+    them so. The books exist — they are in the <strong>Croatian State Archives</strong> and in
+    parish custody — but they are not in <em>this</em> collection, and the letters already sent to
+    Gospić and Senj are the route to them, not another afternoon at a film viewer.
+    <a href={u("/open-questions/")}>The questions, retargeted →</a></p>
   </section>
 
   {READ.map((r) => (
