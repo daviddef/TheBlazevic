@@ -73,7 +73,32 @@ document the generation the archive is missing.
 
 ---
 
-## What the second day should do
+## Day two — what it produced
+
+**1. Electoral rolls — the biggest single gain.** Eight Port Pirie Zubrinich now
+carry an occupation *and* a street address. **Arthur Leslie is an *ironmoulder*;
+Keith Leo a *moulder*; Edward Malcolm, Maurice Joseph, John Stephen and John
+William are all *labourers*.** In Lika this family held offices — forest warden,
+master of the watch, keeper of the prison. At Port Pirie they are labourers in a
+lead smelter. **The offices did not travel.** → `/work`
+
+**2. Katalyn and Kate Zubrinich are one woman.** The South Australian birth index
+holds **one** registration in 1886 at Port Pirie, for a *Kate*, and there is no
+*Katalyn* anywhere in 176 records. This also exposed a hole in this archive's own
+duplicate check, which had walked past a pair identical in birth date, birth
+place, death date, death place and both parents — because *kate* and *katalyn*
+are disjoint tokens. A fourth rule was added. → `/duplicates`
+
+**3. Luka Kalanj's Chicago burial gives no birthplace.** *St. Mary Cemetery,
+Evergreen Park, 22 June 1962, aged 84* — Roman Catholic, which keeps him on the
+Croatian side of the Kalanj split, and nothing more.
+
+**4. The Boras limb is one record and a dead end.** *Mathew J Boras, died 1923,
+Marrickville NSW* confirms the archive exactly. The seven Boras in the Australian
+electoral rolls — Angus, Anthony Vincent, Antoine Charles Frederick, Ettie, Mabel
+Grace — are an English-named NSW family and almost certainly **not ours**.
+
+## What a third day should do
 
 1. **The Chicago Roman Catholic cemetery record for Luka Kalanj (1878–1962)** —
    a Catholic burial that may name a birthplace.
