@@ -81,3 +81,76 @@ collection. It does exist. It is 384 images away and it has house numbers in it.
 * **Rotate the margin crop 90°** to read the vertical *Pagus* text.
 * **Give every tile load a timeout.** With the Browser pane hidden the tab is
   throttled and a stalled tile will otherwise hang the whole call.
+
+---
+
+# Same film, second item: Otočac marriages 1859–1872
+
+Read 13 September 2026 while the film was open.
+
+The marriage register occupies roughly **images 129–147** (image 152 is the next
+film target). Latin, ruled, headed *Matricula Copulatorum Rkathol. Parochiae
+Otočac Anno Domini …*. Fixed points: **pag. 10 = 1862 = image 136**,
+**pag. 18 = 1865 = image 140**. About 1.3 openings per year.
+
+## Its columns — and the one it does NOT have
+
+    Annus Mensis et dies Copulationis
+    Sponsi et Sponsae:  Nomen Cognomen Conditio
+                        Locus — Originis / Domicilii, with HOUSE NUMBER
+                        Ritus · Aetas · Caelebs aut viduus
+    Testium Nomen Cognomen Religio Status et Conditio
+    Copulantis Nomen Cognomen et officium
+    Observationes
+
+**There is no parents column.** This matters for planning: the Otočac marriage
+register cannot name anybody's father. It gives an **age** and a **house
+number**, which identify a man but do not push a line upward. Anyone hoping this
+book would break the Žubrinić wall should stop hoping — the *status animarum*
+above is still the instrument for that.
+
+## One entry read in full — and deliberately not claimed
+
+**Image 132, entry 11. Anno 1859, die 25 Septembris.**
+
+    Groom    Nicolaus ŽUBRINIĆ, "vicedecu…" — read as vicedecurio,
+             a Military Frontier rank. Surname underlined by the scribe.
+             Prozor · Catholica · aetas 24 · caelebs
+    Bride    Anna DUJMOVIĆ, rustica
+             Prozor · aetas 18
+    Witnesses  Lucas Žubrinić et Thomas Dujmović, catholici rustici
+               (a Casparus appears in the next column; not resolved)
+
+**Aged 24 in September 1859 gives a birth between about October 1834 and
+September 1835.** The archive's **ahnentafel 10 is a Nicolaus Žubrinić born
+1834**. That is a good fit and it is *not* enough.
+
+**Why this is not being published as ahnentafel 10's marriage.** The tree gives
+ahn 10's wife as **Ana "Shambul" Marić**; this bride is **Anna Dujmović**. Either
+the tree is wrong, or there were two wives, or — most likely on present evidence
+— **this is a different Nicolaus Žubrinić**. The surname is thick on the ground
+in this parish: a *Lucas* Žubrinić stands witness at this very entry. This
+archive has already once announced a direct ancestor as a duplicate on exactly
+this kind of name-plus-date coincidence, and the rule that came out of it applies
+here: a matching given name and a matching birth year are not an identification.
+
+What would settle it: **Tereza Žubrinić's baptism**, 29 November 1867 at Otočac,
+which would name her mother. It is **not reachable** — Otočac baptisms on
+FamilySearch run 1834–1858 only, and stop nine years short.
+
+## Holdings checked the same day, for the record
+
+    Otočac            Births 1834-1846, 1846-1858 · Deaths 1834-1858,
+                      1780-1836, 1859-1872 · Marriages 1859-1872
+                      · Church Census (Stanje duša) 1710-1846
+    Senj              Births 1734-1894 · Deaths 1820-1858, 1859-1907
+                      · Marriages 1734-1858, 1859-1920
+    Krmpote-Vodice    Births 1815-1896 ONLY — no marriages, no deaths
+    Brinje            Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899
+
+**Krmpote has no marriage register at all**, so Juraj Blažević's marriage to
+Tereza Žubrinić — one of the two documents question 1b asks for — cannot be
+found there. But **Krmpote births run to 1896**, and Juraj, who has *no birth
+date at all* in the tree and whose children start in 1892, would fall inside
+that. **His own baptism is the reachable target, and it would name his father.**
+That is the next thing to do.

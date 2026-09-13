@@ -541,6 +541,36 @@
    "from": "register"
   },
   {
+   "who": "Nicolaus Žubrinić (of Prozor, not identified with ahn 10)",
+   "what": "vicedecu… (read as vicedecurio)",
+   "english": "Military Frontier rank, deputy decurion",
+   "family": "zubrinic",
+   "place": "Prozor",
+   "year": "1859",
+   "source": "Otočac marriages, 25 Sep 1859 entry 11",
+   "from": "register"
+  },
+  {
+   "who": "Anna Dujmović",
+   "what": "rustica",
+   "english": "country woman",
+   "family": null,
+   "place": "Prozor",
+   "year": "1859",
+   "source": "Otočac marriages, 25 Sep 1859 entry 11",
+   "from": "register"
+  },
+  {
+   "who": "Lucas Žubrinić and Thomas Dujmović",
+   "what": "catholici rustici",
+   "english": "Catholic country people",
+   "family": "zubrinic",
+   "place": "Prozor",
+   "year": "1859",
+   "source": "Otočac marriages, 25 Sep 1859 — witnesses",
+   "from": "register"
+  },
+  {
    "who": "Toma Tomislav Blazevic",
    "slug": "toma-tomislav-blazevic",
    "what": "Nadničar",
@@ -761,7 +791,7 @@
    "from": "tree"
   }
  ],
- "fromRegister": 54,
+ "fromRegister": 57,
  "fromTree": 20,
  "published": 1245
 }
