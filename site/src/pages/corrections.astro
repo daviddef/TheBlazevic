@@ -13,6 +13,30 @@ const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`
 // direction of travel is visible: nearly all of them are the archive becoming
 // less certain, not more.
 const C = [
+  { d: "13 September 2026", t: "Zvonimir's mother was called Vica, and his father was dead.",
+    was: "From the <strong>960-pixel</strong> copy of the 1907 marriage: that the groom's parents were <strong>Petar Vukelić</strong>, <em>gostioničar</em>, <q>marked deceased</q>, and <strong>Vica</strong>; and that the witness Koloman was <q>a broker at the tobacco factory</q>.",
+    now: "At <strong>5,812 pixels</strong> the row reads <span class='mono'>“Vukelić pl. Petar gostioničar, i † Vjekoslava Putnić”</span>. <strong>The cross is in front of Vjekoslava, not Petar</strong> — it was the mother who had died. Her name is not Vica. And Koloman is a <strong><em>meštar</em></strong> — a <strong>master</strong>, a grade this archive already maps on the factory ladder — not a broker.",
+    cost: "Three published details, one of them a death attributed to the wrong parent. All three came from squinting at a thumbnail, which is what <a href='/open-questions'>question 5c</a> was about. Her surname, <span class='mono'>Putnić</span> or <span class='mono'>Putinić</span>, is <strong>still not settled</strong> and is written here as unsettled.",
+    href: "/milka" },
+
+  { d: "13 September 2026", t: "I read 1/VIII off a page-scale scan. It is 1/III.",
+    was: "Reading the 1920 marriage entry at page scale, I made Ljubomir Blažević's birth <strong>1 August 1892</strong> and was about to publish it as a correction to this archive's own <a href='/marriage-1920'>marriage page</a>, which said 1 March.",
+    now: "Enlarged <strong>2.7×</strong> on the cell alone, the month is <strong>three strokes under a single overline</strong> — <span class='mono'>III</span>, no <em>V</em>. The date is <strong>1 March 1892</strong>. The page was right and I was wrong.",
+    cost: "Nothing, because it was caught before it was published — by this archive's own rule that no date, surname or house number is recorded from a whole-page view. The rule exists because a <strong>19 reads as 1</strong> and a flat-topped <strong>2 reads as 7</strong> at page scale. It earned its keep here.",
+    href: "/marriage-1920" },
+
+  { d: "13 September 2026", t: "The missing -ić on “Papa” was never a resolution problem.",
+    was: "That the 1885 groom's father resolved <q>only to a short form that looks like <em>Papa</em>, with no visible <span class=\'mono\'>-ić</span></q> because the scan held here is <strong>960 pixels</strong>, and that a full-size copy would settle it.",
+    now: "The full-size copy settles it the other way. At roughly <strong>nine times</strong> the held scan the word is <strong><em>Papa</em></strong> — a clean round <em>a</em>, no abbreviation stroke, and room to spare before the column rule. <strong>The priest wrote the by-name.</strong>",
+    cost: "The conclusion survives and its evidence improves: this is the <em>nadimak</em> displacing the surname, caught in a contemporary hand in 1885, one generation before every descendant is written Papić. <a href='/open-questions'>Question 5 →</a>",
+    href: "/open-questions" },
+
+  { d: "13 September 2026", t: "“Image 374 is page 350.” It is not.",
+    was: "That the Senj marriage film ran so that <strong>image 374 was page 350</strong>, which put the 1920 entry <q>within the last few images</q>, and that the viewer's <span class='mono'>?i=</span> parameter could be used to move through it.",
+    now: "Measured at four points, the film runs about <strong>page = image − 5</strong>: image 196 is page 192, 280 is 275, 299 is 294, 371 is 366 — and image 372 is <span class='mono'>END OF ITEM</span>. The <span class='mono'>?i=</span> parameter is ignored even on a fresh load.",
+    cost: "Only my own time. It also produced the better method: <strong>every filmstrip thumbnail carries <span class='mono'>alt=\"Image N\"</span> and its ARK in the same tag</strong>, so the whole 376-image map scrapes out of the DOM and the tiles are fetched directly, with no navigation at all.",
+    href: "/open-questions" },
+
   { d: "13 September 2026", t: "Šojat is a family. I called it a by-name.",
     was: "Recorded in the register as <q>the by-name the tree attaches to one Blažević household</q> — read as a <em>nadimak</em>, like <em>Papa</em> on the Antići.",
     now: "The Šojati are a <strong>Krivi Put family of fifteen people with their own dates and their own place</strong> — Marko Šojat, 19 April 1801 to 4 February 1871, five dated children, and a valley called <span class='mono'>Sojat Dol</span>. They married the Blaževići and Prpići <strong>nine times</strong>.",

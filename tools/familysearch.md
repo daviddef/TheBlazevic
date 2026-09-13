@@ -71,3 +71,72 @@ Marriages 1859-1920*, 376 images:
 
 Image **374** is page 350 and holds late 1918, which brackets the 1920 entry
 within the last two or three images of the film.
+
+---
+
+## Navigation — added 13 September 2026, after using it on three entries
+
+The method above gets **an** image. Finding the **right** one is a separate
+problem, and the note above solves it badly: it says to type into the viewer's
+image-number box. That works, but it is slow, it needs a screenshot per probe,
+and it turns out to be unnecessary.
+
+**The whole film is already in the DOM.** Every filmstrip thumbnail carries the
+image number in its `alt` and the ARK in its `src`:
+
+```html
+<img alt="Image 221"
+     src=".../deepzoomcloud/dz/v1/3:1:3QS7-899X-17ZY/thumb_p200.jpg">
+```
+
+So scrape a number→ARK map and then fetch tiles for any image directly, with no
+viewer navigation at all:
+
+```js
+window.__map = window.__map || {};
+window.__scan = () => {
+  let n = 0;
+  for (const e of document.querySelectorAll("img")) {
+    const m = (e.src || "").match(/dz\/v1\/([^/]+)\//);
+    const a = (e.alt || "").match(/Image (\d+)/);
+    if (m && a && !__map[a[1]]) { __map[a[1]] = m[1]; n++; }
+  }
+  return n;
+};
+```
+
+One load gives roughly 150 thumbnails around the current image. Typing a low and
+a high image number into the box and re-scanning covers the rest — three scans
+mapped 316 of 376 images, and the missing 60 were never needed.
+
+### Do not trust a page-to-image guess
+
+The Senj marriage film runs about **page = image − 5**, but that was *measured*,
+not assumed, and an earlier guess in this archive ("image 374 is page 350") was
+wrong by more than 150 pages. Fix it from real points before searching:
+
+    image 196 = page 192      image 299 = page 294
+    image 280 = page 275      image 371 = page 366
+    image 372 = END OF ITEM
+
+### Reading cheaply
+
+Screenshots are the expensive part, not the tiles. Two things help a lot:
+
+* **Probe several images in one picture.** Crop the same small region — the date
+  column, or the top corner where the page number sits — from four or six images
+  and tile them into one labelled canvas. A six-way search finds one page in a
+  376-image film in about three screenshots.
+* **Use fractional crops, not pixel crops.** Image sizes vary across a film
+  (5,812 × 4,273 here, 5,768 × 4,198 elsewhere) and the paper sits differently in
+  each frame, so a pixel box that worked on one image lands on the film border of
+  the next. Fetch `image.xml` per ARK and crop by fraction of width and height.
+
+### And then slow down
+
+The archive's standing rule applies with full force at this point: **no date, no
+surname and no house number gets recorded from a whole-page view.** Having a
+5,812-pixel scan is not the same as having read it. On this very film I read a
+groom's birth month as `1/VIII` from a page-scale view; enlarged 2.7× on the cell
+alone it is `1/III` — three strokes under one overline. Crop the single cell,
+enlarge, and only then write it down.

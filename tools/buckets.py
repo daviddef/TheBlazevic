@@ -310,8 +310,12 @@ def bridge_for(comp):
     and a house number. Children are a tie-breaker, because joining someone with
     eight children moves eight more people.
     """
+    # sorted(), not comp: a component is a set, and set iteration order for
+    # strings changes with every Python process. Ties here were being broken by
+    # that, which made this file differ on every run and made regen.py --check
+    # — the CI gate — meaningless.
     best, best_key = None, None
-    for x in comp:
+    for x in sorted(comp):
         by = gedcom.year(gedcom.born(P[x]).get("date", ""))
         if not by:
             continue
@@ -346,12 +350,13 @@ def bridge_for(comp):
 
 island_rows = []
 for i, comp in enumerate(islands):
-    fams = collections.Counter(fold(P[x].get("surname") or "") for x in comp)
+    fams = collections.Counter(fold(P[x].get("surname") or "") for x in sorted(comp))
     yrs = [gedcom.year(gedcom.born(P[x]).get("date", "")) for x in comp]
     yrs = [y for y in yrs if y]
     island_rows.append({
         "n": len(comp), "home": i == home,
-        "families": fams.most_common(3),
+        # most_common breaks ties by insertion order; make it explicit
+        "families": sorted(fams.items(), key=lambda kv: (-kv[1], kv[0]))[:3],
         "from": min(yrs) if yrs else None, "to": max(yrs) if yrs else None,
         "bridge": bridge_for(comp),
         "slugs": [pub[x].get("slug") for x in list(comp)[:0]],

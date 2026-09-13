@@ -49,14 +49,18 @@ def variants(p):
     return {o for o in out if len(o) >= 7 and " " in o}
 
 
+# sorted(), not the raw set: variants() returns a set, and set iteration order
+# for strings changes with every Python process. That leaked into the order of
+# `claims` and so into the order of equal-length rows below, which made this
+# file differ on every run and defeated regen.py --check.
 claims = collections.defaultdict(set)
 for p in people:
-    for v in variants(p):
+    for v in sorted(variants(p)):
         claims[v.lower()].add(p["slug"])
 
 display = {}
 for p in people:
-    for v in variants(p):
+    for v in sorted(variants(p)):
         display.setdefault(v.lower(), v)
 
 rows = []
@@ -65,7 +69,9 @@ for key, slugs in claims.items():
         continue                      # ambiguous: leave it as plain text
     rows.append([display[key], next(iter(slugs)), len(claims[key])])
 
-rows.sort(key=lambda r: -len(r[0]))   # longest first, so the regex prefers them
+# longest first, so the regex prefers them; name breaks ties so the file is
+# byte-identical between runs
+rows.sort(key=lambda r: (-len(r[0]), r[0]))
 out = os.path.join(ROOT, "site", "public", "whoindex.json")
 json.dump(rows, open(out, "w", encoding="utf-8"), ensure_ascii=False)
 
