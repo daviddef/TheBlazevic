@@ -167,3 +167,42 @@ Brinje people who came down to the coast, then the marriage that would join
 **Brinje** register and not in Novi Vinodolski or Krmpote.
 
 That is worth more than the emigration records that produced it.
+
+---
+
+## 8–11. Four more manifests — the residences scatter
+
+| | Born | Sailed | From | Ship | Residence given | Relations named |
+|---|---|---|---|---|---|---|
+| **Luka Kalanj** | — | 1913 | **Fiume** | *Carpathia* | — | entered as the **FATHER** of fellow passenger **Dragica Kalanj** |
+| **Ivan Kalanj** | 1879 | 1908 | Bremen | *Gneisenau* | **USA** *(returning)* | MOTHER: **K. Barlitić** · BROTHER: **Louis Kalanj** |
+| **Nikola Kalanj** | 1890 | 1907 | Southampton | *Teutonic* | **“Kurjac Gosfin, Austria”** | BROTHER: *Nicola ???* |
+| **Rosa Kalanj** | 1884 | 1909 | Havre | *Caroline* | **“Velgovica, Austria”** | HUSBAND: **Stefan Kalanj** |
+
+### What the spread means
+
+Across seven manifests now read, the residences are **Brinje**, **Plaščica**,
+**“Kurjac Gosfin”** (very likely **Kurjak**, near Udbina) and **“Velgovica”**
+— four different places, all in **Lika**, none of them within forty kilometres of
+each other.
+
+**So Kalanj is a regional Lika surname, not one household.** These emigrants are
+not one family and never were, and any hope of adopting the whole eighty-one
+should be dropped.
+
+**Which makes the targeting sharper, not weaker.** Of every residence recovered,
+**exactly one — Brinje — matches the parish this archive's own baptismal entry
+names for the Klenovica Kalanji.** That is the thread to pull, and the others can
+be set aside with a clear conscience.
+
+### Two details worth keeping
+
+**Fiume.** Luka's 1913 sailing leaves from **Fiume (Rijeka)** rather than
+Liverpool, Southampton, Bremen or Le Havre — the Croatian port, and the natural
+one for anybody coming off the Vinodol coast. Departure port is itself a weak
+geographical signal, and Fiume is the one that points our way.
+
+**A father and daughter travelling together.** Luka is entered not as a passenger
+in his own right but as the *father* named by **Dragica Kalanj**, who sailed on
+the same ship. The harvest also holds *Kalanj Dragicsa 1897 — 1913*. They went
+together, and she was sixteen.
