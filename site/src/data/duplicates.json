@@ -253,6 +253,28 @@
   {
    "tier": "same year and place",
    "surname": "zubrinic",
+   "given": "magdalena",
+   "byear": 1812,
+   "n": 2,
+   "place": "Otocac",
+   "date": "21 JUN 1812",
+   "ids": [
+    "@I509182@",
+    "@I511631@"
+   ],
+   "names": [
+    "Magdalena Žubrinić",
+    "Magdalena Žubrinić"
+   ],
+   "slugs": [
+    "magdalena-zubrinic-4",
+    "magdalena-zubrinic-7"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year and place",
+   "surname": "zubrinic",
    "given": "andreas",
    "byear": 1844,
    "n": 2,
@@ -316,6 +338,74 @@
    ],
    "dyears": [
     1900
+   ]
+  },
+  {
+   "tier": "same year only",
+   "surname": "kalanj",
+   "given": "marija",
+   "byear": 1857,
+   "n": 2,
+   "place": null,
+   "date": "12 MAR 1857",
+   "ids": [
+    "@I512086@",
+    "@I512734@"
+   ],
+   "names": [
+    "Marija Kalanj",
+    "Marija Kalanj"
+   ],
+   "slugs": [
+    "marija-kalanj-2",
+    "marija-kalanj-10"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year only",
+   "surname": "zubrinic",
+   "given": "michael",
+   "byear": 1802,
+   "n": 2,
+   "place": null,
+   "date": "2 MAY 1802",
+   "ids": [
+    "@I511876@",
+    "@I511650@"
+   ],
+   "names": [
+    "Michael Žubrinić",
+    "Michael Žubrinić Xubrinich Zubrinic"
+   ],
+   "slugs": [
+    "michael-zubrinic-4",
+    "michael-zubrinic-xubrinich-zubrinic"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year only",
+   "surname": "zubrinic",
+   "given": "thomas",
+   "byear": 1822,
+   "n": 2,
+   "place": null,
+   "date": null,
+   "ids": [
+    "@I511765@",
+    "@I511640@"
+   ],
+   "names": [
+    "Thomas Žubrinić",
+    "Thomas Žubrinić Xubrinich"
+   ],
+   "slugs": [
+    "thomas-zubrinic",
+    "thomas-zubrinic-xubrinich-2"
+   ],
+   "dyears": [
+    1829
    ]
   },
   {
@@ -414,28 +504,6 @@
    "dyears": [
     1969
    ]
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "kalanj",
-   "given": "marija",
-   "byear": 1857,
-   "n": 2,
-   "place": null,
-   "date": "12 MAR 1857",
-   "ids": [
-    "@I512086@",
-    "@I512734@"
-   ],
-   "names": [
-    "Marija Kalanj",
-    "Marija Kalanj"
-   ],
-   "slugs": [
-    "marija-kalanj-2",
-    "marija-kalanj-10"
-   ],
-   "dyears": []
   },
   {
    "tier": "rejected — different parents",
@@ -634,28 +702,6 @@
   {
    "tier": "rejected — different parents",
    "surname": "zubrinic",
-   "given": "michael",
-   "byear": 1802,
-   "n": 2,
-   "place": null,
-   "date": "2 MAY 1802",
-   "ids": [
-    "@I511876@",
-    "@I511650@"
-   ],
-   "names": [
-    "Michael Žubrinić",
-    "Michael Žubrinić Xubrinich Zubrinic"
-   ],
-   "slugs": [
-    "michael-zubrinic-4",
-    "michael-zubrinic-xubrinich-zubrinic"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "zubrinic",
    "given": "anna",
    "byear": 1809,
    "n": 2,
@@ -672,28 +718,6 @@
    "slugs": [
     "anna-zubrinic-xubrinich",
     "anna-zubrinic-xubrinich-4"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "zubrinic",
-   "given": "magdalena",
-   "byear": 1812,
-   "n": 2,
-   "place": "Otocac",
-   "date": "21 JUN 1812",
-   "ids": [
-    "@I509182@",
-    "@I511631@"
-   ],
-   "names": [
-    "Magdalena Žubrinić",
-    "Magdalena Žubrinić"
-   ],
-   "slugs": [
-    "magdalena-zubrinic-4",
-    "magdalena-zubrinic-7"
    ],
    "dyears": []
   },
@@ -740,30 +764,6 @@
     "franciscus-zubrinic-xubrinich-5"
    ],
    "dyears": []
-  },
-  {
-   "tier": "rejected — different parents",
-   "surname": "zubrinic",
-   "given": "thomas",
-   "byear": 1822,
-   "n": 2,
-   "place": null,
-   "date": null,
-   "ids": [
-    "@I511765@",
-    "@I511640@"
-   ],
-   "names": [
-    "Thomas Žubrinić",
-    "Thomas Žubrinić Xubrinich"
-   ],
-   "slugs": [
-    "thomas-zubrinic",
-    "thomas-zubrinic-xubrinich-2"
-   ],
-   "dyears": [
-    1829
-   ]
   },
   {
    "tier": "rejected — different parents",
@@ -1154,8 +1154,8 @@
    "dyears": []
   }
  ],
- "extra": 14,
+ "extra": 18,
  "published": 1245,
- "rejected": 36,
- "live": 14
+ "rejected": 32,
+ "live": 18
 }

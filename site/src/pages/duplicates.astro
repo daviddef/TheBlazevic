@@ -42,14 +42,14 @@ const bySur = Object.entries(
       Antonius Kalanj of Klenovica 22, born 1868, is entered as dying in 1868 and in 1873. That is
       not one boy twice. It is a <em>necronym</em> — a dead child's name given to the next baby,
       which these families did constantly.</p>
-      <p>With both tests the count falls from 42 to <strong>{live.length}</strong>.</p>
+      <p>With both tests the count falls from 42. The refinements below then bring it back up to <strong>{live.length}</strong>, because a test that is too strict throws away real duplicates as surely as a loose one invents them.</p>
     </div>
   </section>
 
   <section class="blk">
     <h2>Comparing names is harder than it looks</h2>
-    <p class="lede">Two further corrections were needed, in opposite directions, and both came from
-    a photograph rather than from the data.</p>
+    <p class="lede">Three further corrections were needed, and two of them came from outside the
+    data — one from a photograph of a grave, one from noticing what was in the father's slot.</p>
     <table class="reg">
       <thead><tr><th>The problem</th><th>The case</th><th>The rule</th></tr></thead>
       <tbody>
@@ -59,6 +59,9 @@ const bySur = Object.entries(
         <tr><td>Parents' names spelled differently</td>
           <td class="dim"><em>Michael</em> vs <em>Michaelis / Michael / Miho</em></td>
           <td>Compare parent names as <strong>sets, asking whether they overlap</strong></td></tr>
+        <tr><td>A sorting label standing in the father's slot</td>
+          <td class="dim"><em>Jure Žubrinić</em> vs <em>Brothers of Casparus (It Seems)</em></td>
+          <td>Ignore <a href={u("/buckets")}>bucket parents</a> entirely — a label is not a father</td></tr>
         <tr><td>A whole family duplicated in parallel</td>
           <td class="dim"><em>Lovro</em> and <em>Lovre</em> Kalanj, each with their own Ana, Ivan and Marijan</td>
           <td>Allow <strong>one character</strong> of difference in a parent's name</td></tr>

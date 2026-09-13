@@ -21,7 +21,7 @@ a matter of course:
 Nothing is merged. The tree is reported, not edited — the same rule the rest of
 this archive follows.
 """
-import sys, os, json, collections
+import sys, os, re, json, collections
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gedcom
@@ -71,6 +71,12 @@ for pid in pub:
         continue          # an undated bare name cannot be matched on safely
     rough[(sur, by)].append((pid, frozenset(giv.split())))
 
+BUCKET = re.compile(
+    r"\bbrothers?\b|\bsisters?\b|to be sorted|for sorting|\bsorting\b|"
+    r"\bworking\b|it seems|not real|investigation|\bunknown\b|"
+    r"\d{4}\s*-\s*\d{4}\s*birth", re.I)
+
+
 def parents(pid):
     """Each parent as a SET of folded given-name tokens.
 
@@ -85,7 +91,12 @@ def parents(pid):
         fam = F.get(f, {})
         for role in ("husb", "wife"):
             o = fam.get(role)
-            if o in P:
+            # A sorting label in the father's slot is not a father, and letting
+            # one count here rejects real duplicates: Michael Zubrinic b.1802 is
+            # the son of "Jure Georgius Juraj Zubrinic" in one record and of
+            # "Brothers of Casparus (It Seems)" in the other, which is not a
+            # disagreement between two fathers. It is one father and one label.
+            if o in P and not BUCKET.search(gedcom.display(P[o]) or ""):
                 out[role] |= set((fold(P[o].get("given") or "") or "").split())
     return out
 
