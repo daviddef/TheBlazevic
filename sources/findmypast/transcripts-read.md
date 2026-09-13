@@ -268,3 +268,66 @@ record that could anchor somebody. The archive holds **Ivan Žubrinić b. 16 Aug
 1887 at Otočac** and **Stjepan Žubrinić b. 1888 at Otočac** — near, and **not
 the same**. Ten months out is not a rounding error on a document that gives the
 day. **Not matched, and recorded here so nobody matches it carelessly later.**
+
+---
+
+## 13–16. The `Zubrinic` spelling lands in this archive's own villages
+
+Four more manifests, and the residences stop being scattered:
+
+| Name | Born | Sailed | From · ship | **Residence** | Relations named |
+|---|---|---|---|---|---|
+| **Franjo Zubrinic** | 1883 | **1910** | Rotterdam · *Noordam* | **“Sumenica”** = **ŠUMEĆICA** | WIFE: **Franci** · BROTHER: **Ture** |
+| **Georg Zubrinic** | 1869 | **1903** | Bremen · *Neckar* | **Otočac** | COUSIN: **G. M. Bogdanić** |
+| **Miko Zubrinic** | 1893 | **1910** | Trieste · *Martha Washington* | **Prozor** | **FATHER: Ivan Zubrinic** · UNCLE: **Josef Kostelac** |
+| **“Mjos” Zubrinic** | 1865 | **1907** | **Fiume** · *Slavonia* | **“Oyocac”** = **Otočac** | ACQU: Jeso Gomerčić |
+
+**Šumećica, Otočac, Prozor.** Those are the three places the entire Žubrinić
+section of this archive turns on — Šumećica houses 2 and 24, the
+[*Confiniarius* baptism of 1834](../../site/src/pages/zubrinic.astro), Prozor 46
+and 50. The `Zubrinich` spelling gave us Australia; **`Zubrinic` gives us Lika.**
+
+### One strong candidate, and it fills a hole
+
+**Miko Zubrinic, born 1893, residence Prozor, sailing 1910 aged 17, whose father
+is named on the manifest as Ivan Zubrinic.**
+
+This archive holds **Ioaness (Ivan) Žubrinić, born 27 July 1870 at
+<span class="mono">Prozor 50</span>** — son of Michael Žubrinić and Marija Rogić,
+and **he is the only Ivan at Prozor in the entire archive**. He has **no spouse
+and no children recorded**. His record, like his brother Mate's, simply stops.
+
+A father born 1870 with a son born 1893 is twenty-three at the birth — tight,
+and entirely ordinary.
+
+**And his brother is the man already placed.** [Mate Žubrinić](#12) of Prozor 50,
+born 29 December 1867, sailed in 1911; Ivan's son Miko sailed in 1910. Two
+brothers of one house, a year apart, and **a Kostelac meets each of them** —
+Stipan for Mate, **Josef Kostelac** for Miko. That is the third time Kostelac has
+appeared, and this archive already records
+[six Kostelac marriages into one Žubrinić household](../../site/src/pages/connected.astro).
+
+**Recorded as a candidate, not a fact.** Nothing in the tree has been edited, and
+no child has been added to Ivan. What is documented is that *an* Ivan Žubrinić of
+Prozor had a son Miko born about 1893, and that this archive knows of exactly one
+Ivan Žubrinić at Prozor.
+
+### Two who are new, and matter anyway
+
+**Franjo Zubrinic, born 1883, of ŠUMEĆICA**, who sailed in 1910 leaving a wife
+and joined a brother called Ture. **No Franjo of that date is in this archive** —
+and Šumećica is the village of [Toma Žubrinić, born 1768 at house 2](../../site/src/pages/zubrinic-roots.astro),
+one of the [island bridges](../../site/src/pages/buckets.astro) this archive most
+wants to find. A living Žubrinić household at Šumećica in 1910, with a wife and a
+brother named, is a household that will be in the Otočac register.
+
+**Georg Zubrinic, born 1869, of Otočac**, who sailed in **1903** — the earliest
+Croatian-spelling departure found. Not in this archive either.
+
+### What this changes about the asking
+
+The [letter to Gospić](../../requests/gospic-eight-marriages.md) asks for
+marriages at **Otočac**. These four records say the emigration ran out of
+**Šumećica and Prozor specifically**, with named wives, brothers and fathers left
+behind — which are exactly the people a parish register would hold. The request
+can now name villages rather than a district.
