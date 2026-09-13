@@ -38,8 +38,8 @@ const big = media.filter((m) => m.w >= 2500).length;
       {docs.map((m) => (
         <figure>
           {m.type === "document"
-            ? <a class="pdf" href={u(`/photos/line/${m.file}/`)}>PDF — {m.caption}</a>
-            : <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />}
+            ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
+            : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
           <figcaption>
             <strong>{m.caption}</strong>
             {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
@@ -60,7 +60,7 @@ const big = media.filter((m) => m.w >= 2500).length;
     <div class="photos">
       {pics.map((m) => (
         <figure>
-          <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />
+          <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />
           <figcaption>
             <strong>{/^\d|^scan|^IMG|^\d+ unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
             {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}

@@ -263,8 +263,8 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         {mine.map((m) => (
           <figure>
             {m.type === "document"
-              ? <a class="pdf" href={u(`/photos/line/${m.file}/`)}>PDF — {m.caption}</a>
-              : <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />}
+              ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
+              : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
             <figcaption>
               <strong>{/^\d|^scan|^IMG|unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
               {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
