@@ -109,3 +109,61 @@ in `kalanj-2026-09-13.md`.
 
 **So: nothing attached.** What has been established is that the field exists and
 can be read. The next step is to open manifests until one says *Klenovica*.
+
+---
+
+## 4–7. Four more Kalanj records, and a place that matters
+
+Opened 13 September 2026 to test whether the migration records can be sorted
+into *ours* and *not ours*.
+
+| | **Mile Kalanj** | **Miko Kalanj** | **Stipe Kalanj** |
+|---|---|---|---|
+| Born | 1889 | 1866 | 1885 |
+| Sailed | **1909**, *Lucania*, Liverpool | **1910**, *Saint Louis*, Southampton | **1910**, *La Bretagne*, Le Havre |
+| Age | 20 | 44 | 25 |
+| **Nationality as entered** | **Croatia, Croatian** | Austria, **Croatian** | Hungary, **Croatian** |
+| **Residence** | — | **Plaščica, Croatia** | **Brinje, Hungary** |
+| **Left behind** | WIFE: **Ana Kalanj** | WIFE: **Maria Kalanj** | WIFE: **Kate Kalanj** |
+| **Met in New York by** | UNCLE: **Jure Božić** | RELATIVE: *Jorso ???* | COUSIN: **Juro Borić** |
+
+**Luka Kalanj**, born 1878, buried **22 June 1962**, aged 84, **St. Mary Cemetery,
+Evergreen Park, Cook County, Illinois** — *Chicago Roman Catholic Cemetery
+Records*.
+
+### Brinje
+
+This is the find. **Stipe Kalanj gave his residence in 1910 as Brinje** — and
+this archive already holds Brinje, from a direction nobody was looking in.
+
+The baptism of **Ana Kalanj at Klenovica N° 22 on 3 January 1864** enters her
+parents as *Josephus Kalanj et Rosalia nata Perković ejus uxor,* **Brinjensis
+parochiae ruricolae** — *country people of the parish of Brinje*. The Klenovica
+Kalanji are recorded, in their own baptismal entry, as **Brinje people**.
+
+So a Kalanj emigrating from Brinje in 1910 is emigrating from the parish this
+family is said to come from.
+
+### What this does and does not establish
+
+**It does** show the split proposed in `kalanj-2026-09-13.md` is real and
+readable. All three men are entered as **Croatian**, all three leave **wives**
+behind, all three are met by **Croatian Catholic** kin — *Jure Božić*, *Juro
+Borić* — and Luka is buried from a **Roman Catholic** cemetery. This is the
+Catholic Lika side of the surname, not the Orthodox Krajina side.
+
+**It does not** attach any of them to a person here. **Brinje is a whole parish,
+not a household**, and Kalanj may be common in it. What has been established is
+that the archive was looking in the wrong place: it has treated the Kalanji as a
+Klenovica family, and their own register entry says they came **from Brinje** —
+which is inland, over the Kapela, and is not in this archive's
+[gazetteer](../../site/src/pages/gazetteer.astro) at all.
+
+### The question this raises for the Croatian research
+
+**Brinje has never been searched.** Not one page. If the Klenovica Kalanji are
+Brinje people who came down to the coast, then the marriage that would join
+[Hedviga's island](../../site/src/pages/buckets.astro) further back is in the
+**Brinje** register and not in Novi Vinodolski or Krmpote.
+
+That is worth more than the emigration records that produced it.
