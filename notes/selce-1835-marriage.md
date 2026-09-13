@@ -73,11 +73,18 @@ Margarittæ* — the genitive plural: **both her parents were dead by 22 Novembe
 1835.**
 
     ahn 50  Georgi Juraj Jelličić   tree: died 1 April 1832    consistent
-    ahn 51  Margarita Brozović      tree: died 8 May 1842       CONTRADICTED
+    ahn 51  Margarita Brozović      tree: died 8 May 1842       ?
 
-The tree has ahnentafel 51 alive for another seven years. One of the two is
-wrong, and the register was written at the time by the priest who married her
-daughter.
+**Resolved the next day, and not the way this note first said.** The Selce
+*Liber Defunctorum* has her at **Die 8ª Maji 1842 — Margareta Jellicich, Uxor
+Georgii**, entry 147, house 204. **The tree is right to the day.**
+
+The *Denatorum* reading is also right — checked at 3.6×, the *-orum* is plain
+and the line above writes *Denati* with a clear *-ti*. So the conflict is
+between **two registers in the same parish in the same hand**: the priest twice
+wrote that both her parents were dead, in 1835 and again in 1838, and then
+buried her mother in 1842. Either the formula was careless or there are two
+Margarita Jelličićs. See question 13b.
 
 ## What this says about the rest of the library
 
