@@ -14,7 +14,7 @@ Diacritics are folded so that a reader typing Zubrinic finds Žubrinić and
 Otocac finds Otočac — which matters more here than in most archives, because
 this family's own name is spelled nine ways.
 """
-import json, os, re, glob, unicodedata, html
+import json, os, re, sys, glob, unicodedata, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, "site", "src", "data")
@@ -24,19 +24,22 @@ L = lambda f: json.load(open(os.path.join(D, f), encoding="utf-8"))
 rows, seen = [], set()
 
 
-def fold(s):
-    s = unicodedata.normalize("NFD", s)
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    return (s.replace("đ", "d").replace("Đ", "D")
-             .replace("ž", "z").replace("ć", "c").replace("č", "c").replace("š", "s"))
+# The fold and the row contract now come from the kit, so this archive and the
+# search box that reads its index cannot disagree about what a letter is. The
+# local fold handled ž ć č š — which NFD already does — and not æ, so
+# «Franciscæ Papić» could not be found by typing franciscae.
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools"))
+import searchkit  # noqa: E402
+
+fold = searchkit.fold
 
 
 def add(kind, title, sub, href, extra=""):
     if not title or href in seen and kind == "Page":
         return
-    raw = " ".join(x for x in (title, sub, extra) if x).lower()
-    rows.append({"k": kind, "t": title, "s": sub or "", "h": href,
-                 "q": raw + " " + fold(raw)})
+    rows.append(searchkit.row(kind, title, sub, href, extra))
 
 
 # ---- people --------------------------------------------------------------
