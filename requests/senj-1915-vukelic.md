@@ -43,6 +43,15 @@ We know the class of book was kept in this region — a page of one from **Our L
 of the Snow, Krivi Put** (1897–1939) survives in our own family papers — so this
 is not a speculative request.
 
+## One document we already hold, and cannot read
+
+Their **marriage** is in our hands: **Senj marriages p.294 no.30, 4 November
+1907**. The copy we have is **960 pixels wide** and the occupations and house
+numbers on it are below legibility. We are not asking you for that entry — we can
+re-source it ourselves — but it is worth saying that the marriage is fixed, so
+the death should be findable between **4 November 1907** and Milka's remarriage
+on **8 December 1920**, and our family's account puts it in **1915**.
+
 ## What it would settle
 
 How Milka Papić came to be a **widow at twenty-eight**, with a daughter of eight

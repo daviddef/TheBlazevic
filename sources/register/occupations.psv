@@ -12,6 +12,23 @@
 #
 # Each row cites the entry it came from. Nothing here is inferred.
 #
+# WHICH REGISTERS CARRY THIS COLUMN — triaged 13 September 2026.
+# It is not a question of language, which is what I assumed. It is the FORM.
+#
+#   Ruled tabular registers HAVE a conditio / stalez column:
+#     Otocac 1834, 1835, 1845 (Latin)   — every parent AND godparent gets a
+#                                          trade or a rank. The richest by far.
+#     Novi Vinodolski 1894-1900 (Croat) — parents yes, godparents usually not.
+#     Senj 1886-1891 (Croatian)         — parents and godparents, briefly.
+#     Sv. Jakov Krmpote 1882-1895       — mostly just "seljaci".
+#
+#   Prose registers have NO column at all:
+#     Karlobag 1754-1781 (Latin) — continuous Latin sentences, no ruling. Six of
+#     the eight Latin documents this archive holds are these, and reading them
+#     for occupations is wasted effort.
+#
+# So of 37 held documents only THREE are Otocac tabular, and two are now read.
+#
 # person | occupation (as written) | in English | family | place | year | source
 Toma Blažević|nadničar|day labourer|blazevic|Senj|1907|Senj deaths p.225 no.60
 Michaël Žubrinić (Xubrinich)|Confiniarius|man of the Military Frontier|zubrinic|Šumećica N°24|1834|Otočac baptisms, 24 Jan 1834
@@ -31,3 +48,6 @@ Perpić household|Confiniar.|Frontier household|prpic|Krivi Put|1859|Krivi Put b
 Jandre and Marija Butorac|seljaci|peasants|—|Smokvica 114|1884|Sv. Jakov Krmpote baptisms no.66 — godparents
 Toma Blažević and Tereza Pećanić|seljaci|peasants|blazevic|Smokvica 114|1884|Sv. Jakov Krmpote baptisms no.66
 Jurko Blažević and Tereza Žubrinić|selj. (seljaci)|peasants|blazevic|Smokvica 114|1895|Sv. Jakov Krmpote baptisms
+Marcus Orešković|Confiniarius ex Pago Dubrava N°29|man of the Military Frontier, of Dubrava village, house 29|—|Dubrava N°29|1835|Otočac baptisms no.41, 8 Sep 1835
+Thomas Kreng… (godfather)|Sutor Magister|master shoemaker|—|Otočac|1835|Otočac baptisms no.43, same page
+
