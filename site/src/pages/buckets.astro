@@ -50,7 +50,7 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
         <table class="kv"><tbody>{byFam.map(([f, n]) => (
           <tr><th>{FAMLABEL[f] || f}</th><td><strong class="mono">{n}</strong></td></tr>))}</tbody></table>
         <p class="dek" style="margin-top:.6rem">Only the Žubrinići have ever had their loose ends
-        counted. <a href={u("/zubrinic-roots")}>That page</a> was itself wrong by 25 until today,
+        counted. <a href={u("/zubrinic-roots/")}>That page</a> was itself wrong by 25 until today,
         for exactly this reason.</p>
       </div>
     </div>
@@ -72,7 +72,7 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <p class="lede">Somebody grouped these children for a reason. <span class="mono">Krivi Put 136
     For Sorting Perpić</span> carries a house number; <span class="mono">1800-1830 Birth — Selce
     Papić (Papa)</span> carries a village, a date range and a
-    <a href={u("/name")}>nadimak</a>. The question is whether the reason survives well enough to
+    <a href={u("/name/")}>nadimak</a>. The question is whether the reason survives well enough to
     place a person by — and it can be tested, because some of the children under each label have a
     place of their own on record.</p>
 
@@ -124,7 +124,7 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <h2>Delete the labels and two-thirds of this archive floats free</h2>
     <p class="lede">The section above asks whether a label is <em>accurate</em>. This asks something
     harder. If every sorting label were removed from the tree, how many of the people published here
-    would still be connected to <a href={u("/hedviga")}>Hedviga</a> at all — by any path, however
+    would still be connected to <a href={u("/hedviga/")}>Hedviga</a> at all — by any path, however
     long, of parents, children and spouses?</p>
 
     <p><strong>{B.connected} of {B.publishedTotal}. {pctAll}%.</strong></p>
@@ -158,18 +158,18 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <div class="qa" style="margin-top:1.4rem">
       <h3>And the Žubrinići are five per cent</h3>
       <p>Twenty-one of four hundred and fourteen. This is the <em>largest</em> family in the
-      archive and the subject of <a href={u("/zubrinic-roots")}>its longest-running question</a> —
+      archive and the subject of <a href={u("/zubrinic-roots/")}>its longest-running question</a> —
       and the great majority of them reach Hedviga only by way of a label. Prpić is 6%, Perpić 8%,
       Blažević 23%, Papić 27%.</p>
       <p>Two are whole. <strong>Boras and Kalanj are 100%</strong> — every published member connects
       by ordinary parent, child and marriage links. For Kalanj that chain was
-      <a href={u("/grave")}>confirmed from registers this month</a>: Ana Kalanj of Klenovica 22
+      <a href={u("/grave/")}>confirmed from registers this month</a>: Ana Kalanj of Klenovica 22
       married Josip de Franceschi, and their line runs to Hedviga's husband.</p>
     </div>
 
     <p style="margin-top:1.4rem"><strong>What this does and does not mean.</strong> It does
     <em>not</em> mean these people are invented, or that the research was careless — the
-    <a href={u("/register")}>register</a> is full of real entries about real people, and this
+    <a href={u("/register/")}>register</a> is full of real entries about real people, and this
     archive publishes by <em>surname group</em>, never having claimed each person is a proven
     relative. What it means is narrower and still worth saying out loud: for most of the names here,
     <strong>the link to Hedviga is currently made by a sorting note rather than by a document</strong>.
@@ -243,7 +243,7 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <p style="margin-top:1.2rem">Which reorders the research completely. This archive has spent its
     effort <em>confirming</em> — finding the register entry behind a date already held. That work
     adds nothing to the number above. <strong>One marriage at Otočac would add two hundred and
-    seventeen people.</strong> <a href={u("/searched")}>What to ask for →</a></p>
+    seventeen people.</strong> <a href={u("/searched/")}>What to ask for →</a></p>
   </section>
 
   <section class="blk">
@@ -251,15 +251,15 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
     <ul class="plain">
       <li><strong>Un-publishing is not removing.</strong> A record hidden from the register goes on
       acting as a parent in every tool that asks whether someone has one. That is how
-      <a href={u("/zubrinic-roots")}>the fragment count</a> was wrong by 25 for months.</li>
+      <a href={u("/zubrinic-roots/")}>the fragment count</a> was wrong by 25 for months.</li>
       <li><strong>Nothing here has been edited.</strong> The buckets remain in the tree exactly as
-      they are. <a href={u("/method")}>Method →</a></li>
+      they are. <a href={u("/method/")}>Method →</a></li>
       <li><strong>Sixty-two of the seventy-four are not Žubrinić.</strong> Thirty Blažević,
       twenty-two Prpić, ten Papić and four Perpić have never been counted as loose ends anywhere on
       this site. They are, and now they are listed.</li>
     </ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/zubrinic-roots")}>The Žubrinić fragments →</a>
-      {" "}<a class="btn" href={u("/duplicates")}>The same person, twice →</a>
-      {" "}<a class="btn" href={u("/impossible")}>What cannot be true →</a></p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/zubrinic-roots/")}>The Žubrinić fragments →</a>
+      {" "}<a class="btn" href={u("/duplicates/")}>The same person, twice →</a>
+      {" "}<a class="btn" href={u("/impossible/")}>What cannot be true →</a></p>
   </section>
 </Base>

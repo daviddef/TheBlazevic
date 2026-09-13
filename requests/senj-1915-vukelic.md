@@ -5,7 +5,7 @@
 *(Senj is expressly **excluded** from the Gospić archive's territory and falls to
 Rijeka — see `WHERE-TO-WRITE.md`.)*
 
-**Status: drafted, not sent.**
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-senj.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.**
 
 ## What is wanted
 

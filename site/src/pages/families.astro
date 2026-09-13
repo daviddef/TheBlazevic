@@ -12,7 +12,7 @@ import families from "../data/families.json";
       {families.map((f) => (
         <div class="card">
           <h3>{["blazevic","zubrinic","papic","prpic"].includes(f.slug)
-            ? <a href={u(`/${f.slug}`)}>{f.label}</a> : f.label}</h3>
+            ? <a href={u(`/${f.slug}/`)}>{f.label}</a> : f.label}</h3>
           <p class="dek">{f.dek}</p>
           <table class="kv tight">
             <tr><th>People</th><td class="mono">{f.count}</td></tr>
@@ -29,6 +29,6 @@ import families from "../data/families.json";
     and because the tree carries them in bulk — <strong>213 Kalanj</strong> alone, nearly all of
     them at <strong>Klenovica</strong> and <strong>Povile</strong> on the Vinodol coast. They are
     not ancestors of Hedviga in every case; they are the surrounding world.
-    <a href={u("/people")}>The full register →</a></p>
+    <a href={u("/people/")}>The full register →</a></p>
   </section>
 </Base>

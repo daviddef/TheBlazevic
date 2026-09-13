@@ -5,7 +5,7 @@
 *(Not Gospić — see `WHERE-TO-WRITE.md`. Smokvica Krmpotska is in Primorje-Gorski
 Kotar, under Novi Vinodolski, which this branch serves.)*
 
-**Status: drafted, not sent.**
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-senj.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.**
 
 ## What is wanted, in one line
 

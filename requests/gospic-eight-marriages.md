@@ -3,7 +3,7 @@
 **To:** Državni arhiv u Gospiću, Kaniška 17, 53000 Gospić
 **zahtjevi@arhiv-gospic.hr**
 
-**Status: drafted, not sent.** This replaces an earlier draft that asked for
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-gospic.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.** This replaces an earlier draft that asked for
 thirty-four people. Asking for eight is a better question, and this explains why.
 
 ## What is actually wrong with our records

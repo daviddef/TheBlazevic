@@ -78,9 +78,9 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
               : "Same given name and birth year only — the weakest tier"}</td></tr>
         </table>
         <p style="margin-top:.9rem"><strong>Nothing has been merged.</strong> This archive
-        <a href={u("/method")}>reports the tree rather than editing it</a>, and here the tree holds
+        <a href={u("/method/")}>reports the tree rather than editing it</a>, and here the tree holds
         one person more than once. The count of published people on this site is therefore slightly
-        higher than the number of actual people. <a href={u("/duplicates")}>How this is judged →</a></p>
+        higher than the number of actual people. <a href={u("/duplicates/")}>How this is judged →</a></p>
       </div>
     </section>
   )}
@@ -107,11 +107,11 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
                 ? <span>It is the <strong>only</strong> parent this record has, so nothing documented
                   attaches this person to anyone.</span>
                 : <span>The other parent is a real record.</span>}</span>
-            : <span>Every route from <a href={u("/hedviga")}>Hedviga</a> to this person passes
+            : <span>Every route from <a href={u("/hedviga/")}>Hedviga</a> to this person passes
               through a <strong>sorting label</strong> — a working note sitting where an ancestor
               should be.</span>}
           {" "}This is not a claim that the person is invented; the register entries behind them are
-          real. It is a statement about <em>the join</em>. <a href={u("/buckets")}>Why this matters →</a>
+          real. It is a statement about <em>the join</em>. <a href={u("/buckets/")}>Why this matters →</a>
         </p>
       </div>
     </section>
@@ -146,7 +146,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         ending, and <em>filius <strong>Josephi</strong></em> is “son of Josephus”. Transcribed
         literally, the ending becomes the name. In life this person was
         <strong>{lat.nominative}</strong>, or its Croatian form.
-        <a href={u("/name")}>All forty of them →</a></p>
+        <a href={u("/name/")}>All forty of them →</a></p>
       </div>
     </section>
   )}
@@ -193,12 +193,12 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
           <p class="dek" style="margin-top:.5rem">{fixes.length}
             {" "}{fixes.length === 1 ? "correction or note has" : "corrections and notes have"} been
             recorded against this page — set out above, and listed on
-            {" "}<a href={u("/changed")}>What changed</a>.</p>)}
+            {" "}<a href={u("/corrections/")}>What changed</a>.</p>)}
         {p.ahn && (
           <p class="dek" style="margin-top:.5rem">
-            <a href={u("/coverage")}>How much of the direct line rests on a document →</a></p>)}
+            <a href={u("/coverage/")}>How much of the direct line rests on a document →</a></p>)}
         <p style="margin-top:.7rem">
-          <a href={u("/register") + "?q=" + encodeURIComponent(p.surname || p.name)}>Every
+          <a href={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}>Every
           record naming {p.surname || p.name} →</a></p>
       </div>
 
@@ -211,16 +211,16 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
           {" "}<span class="mono">{p.ahn * 2}</span> and <span class="mono">{p.ahn * 2 + 1}</span>.</p>
         ) : (
           <p>Not on the direct line. They are published because they belong to one of
-          {" "}<a href={u("/families")}>the eight surnames</a> this archive follows.</p>
+          {" "}<a href={u("/families/")}>the eight surnames</a> this archive follows.</p>
         )}
         <p class="dek" style="margin-top:.5rem">The register spells this surname
-        {" "}<a href={u("/name")}>more than one way</a>, and the search folds the forms together —
+        {" "}<a href={u("/name/")}>more than one way</a>, and the search folds the forms together —
         so <em>Xubrinich</em> and <em>Žubrinić</em>, <em>Joannis</em> and <em>Ivan</em>, find each
         other.</p>
         <p style="margin-top:.7rem">
-          {p.ahn && <><a href={u("/direct-line")}>The spine →</a><br /></>}
-          <a href={u("/gazetteer")}>Where this surname sits on the map →</a><br />
-          <a href={u("/impossible")}>What the tree says that cannot be true →</a></p>
+          {p.ahn && <><a href={u("/direct-line/")}>The spine →</a><br /></>}
+          <a href={u("/gazetteer/")}>Where this surname sits on the map →</a><br />
+          <a href={u("/impossible/")}>What the tree says that cannot be true →</a></p>
       </div>
     </div>
   </section>
@@ -258,13 +258,13 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         mine.filter((m) => m.kind === "photograph").length} photograph{
         mine.filter((m) => m.kind === "photograph").length === 1 ? "" : "s"} in the
         MyHeritage media library carry this person's tag. None of them travelled in the GEDCOM.
-        <a href={u("/pictures")}>All of them →</a></p>
+        <a href={u("/pictures/")}>All of them →</a></p>
       <div class="photos">
         {mine.map((m) => (
           <figure>
             {m.type === "document"
-              ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
-              : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
+              ? <a class="pdf" href={u(`/photos/line/${m.file}/`)}>PDF — {m.caption}</a>
+              : <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />}
             <figcaption>
               <strong>{/^\d|^scan|^IMG|unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
               {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
@@ -272,14 +272,14 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
               {m.people.length > 1 && (
                 <div class="dim">Also tagged: {m.people.filter((x) => x.id !== p.id)
                   .map((x, i) => (<>{i > 0 && ", "}{x.slug
-                    ? <a href={u(`/people/${x.slug}`)}>{x.name}</a> : x.name}</>))}</div>)}
+                    ? <a href={u(`/people/${x.slug}/`)}>{x.name}</a> : x.name}</>))}</div>)}
             </figcaption>
           </figure>
         ))}
       </div>
       <p class="note"><strong>A tag says somebody linked this image to this person</strong> — not
       that the person is in it. A register page is tagged to everyone it names.
-      <a href={u("/method")}>Method →</a></p>
+      <a href={u("/method/")}>Method →</a></p>
     </section>
   )}
 
@@ -290,11 +290,11 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
     ) : (
       <p class="note"><strong>None.</strong> This person carries no source string at all in the
       tree. They may still be right — but nothing here can be checked without going to the
-      register. <a href={u("/method")}>Method →</a></p>
+      register. <a href={u("/method/")}>Method →</a></p>
     )}
     <p class="dek" style="margin-top:1rem">An online family tree is a <strong>witness, not a
     source</strong>. Where a citation points at a parish register or a FamilySearch image, that is
-    the thing worth going to. <a href={u("/sources")}>Sources →</a></p>
+    the thing worth going to. <a href={u("/sources/")}>Sources →</a></p>
   </section>
   {sameName.length > 0 && (
     <section class="blk">
@@ -302,7 +302,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
       <p class="lede">These parishes repeat their names relentlessly — <strong>94 Marijas and 88
       Ivans</strong> in this archive alone. <strong>These are different people, kept apart on
       purpose rather than merged into one.</strong> Merging on a name is exactly how this tree came
-      to hold <a href={u("/people/caetano-bacchi")}>a man born after his own granddaughter</a>.</p>
+      to hold <a href={u("/people/caetano-bacchi/")}>a man born after his own granddaughter</a>.</p>
       <table class="reg" style="margin-top:1rem">
         <tbody>{sameName.map((q) => (
           <tr>
@@ -314,7 +314,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
           </tr>))}</tbody>
       </table>
       <p class="dek" style="margin-top:1rem">Same name, and nothing here says they are related.
-      <a href={u("/name")}>Why the names repeat →</a></p>
+      <a href={u("/name/")}>Why the names repeat →</a></p>
     </section>
   )}
 

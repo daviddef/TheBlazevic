@@ -11,13 +11,13 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
 
   <section class="blk">
     <p class="lede">The first of them is
-    <a href={u("/people/joannes-juan-ivan-ive-john-zubrinic")}><strong>Joannes / Juan / Ivan / Ive /
+    <a href={u("/people/joannes-juan-ivan-ive-john-zubrinic/")}><strong>Joannes / Juan / Ivan / Ive /
     John Žubrinić</strong></a> — a man carried in this tree under
     <strong>five versions of one given name</strong> — <strong>born 1860</strong> and
     <strong>died 1930 at Port Pirie, South Australia</strong>. His eldest recorded child is born
     there in <strong>1885</strong>, which puts his arrival at about <strong>1884</strong>.</p>
     <p>From that child onward the surname in the register is <strong>Zubrinich</strong>. Not once
-    does it revert. <a href={u("/name")}>The names →</a></p>
+    does it revert. <a href={u("/name/")}>The names →</a></p>
   </section>
 
   <section class="blk">
@@ -36,7 +36,7 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
     <em class="mono">“Senj, Split-Dalmatia, Croatia”</em>. Senj is in <strong>Lika-Senj</strong>
     county, not Split-Dalmatia; this is an automated place-match error, and it matters because it is
     the kind of thing that later gets read as evidence of Dalmatian origin.
-    <a href={u("/open-questions")}>Open questions →</a></div>
+    <a href={u("/open-questions/")}>Open questions →</a></div>
   </section>
 
   <section class="blk">
@@ -47,7 +47,7 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
     <table class="reg">
       <thead><tr><th>Name</th><th>Lived</th><th>Born</th><th>Died</th></tr></thead>
       <tbody>{au.map((p) => (
-        <tr><td><a href={u(`/people/${p.slug}`)}>{p.name}</a></td>
+        <tr><td><a href={u(`/people/${p.slug}/`)}>{p.name}</a></td>
           <td class="mono">{p.byear || "?"}–{p.dyear || "?"}</td>
           <td class="dim">{p.bornPlace}</td><td class="dim">{p.diedPlace}</td></tr>))}</tbody>
     </table>
@@ -57,10 +57,10 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
     <h2>How this branch joins the family</h2>
     <p class="note"><strong>Not yet proved.</strong> Ivan Žubrinić of Port Pirie is
     <em>in the tree</em>, and he is of the right name, the right town and the right generation to be
-    close kin of <a href={u("/people/tereza-zubrinic-zubrinic")}>Tereza Žubrinić</a> (1867–1931),
+    close kin of <a href={u("/people/tereza-zubrinic-zubrinic/")}>Tereza Žubrinić</a> (1867–1931),
     Hedviga's grandmother. But the document that joins them — a shared father in the
     <strong>Otočac</strong> or <strong>Senj</strong> baptismal register — has not been produced
-    here. Given how rare the name is (<a href={u("/name")}>about 312 bearers on earth</a>), the
+    here. Given how rare the name is (<a href={u("/name/")}>about 312 bearers on earth</a>), the
     relationship is very likely. “Very likely” is not “shown”.</p>
   </section>
 </Base>

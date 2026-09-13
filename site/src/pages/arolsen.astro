@@ -15,14 +15,14 @@ const cards = [
   dek="Three German index cards, attached to Hedviga's husband in the family tree and never read, place him in a factory in Württemberg at the age of sixteen.">
 
   <section class="blk">
-    <p class="lede">The <a href={u("/pictures")}>media sweep</a> turned up three record images filed
+    <p class="lede">The <a href={u("/pictures/")}>media sweep</a> turned up three record images filed
     under <strong>Ivan Anton Defranceski</strong> (1925–1995) from the
     <strong>Arolsen Archives</strong> — the International Tracing Service, the central archive of
     Nazi persecution. The previous build of this archive listed them as an open question because
     nobody had looked at them. This page is what they say.</p>
     <div class="note"><strong>The identification is firm.</strong> All three give the birth as
     <strong>25 June 1925 at Crikvenica</strong> — the same day and place as the
-    <a href={u("/certificate")}>1951 Yugoslav birth extract</a>, which records the father of
+    <a href={u("/certificate/")}>1951 Yugoslav birth extract</a>, which records the father of
     Hedviga's children as “Ivan Defranceski, born 25.06.1925, Crikvenica”. One of the three cards
     writes <em>24</em>.6.25; that is a clerical slip against two other cards and a civil
     certificate.</div>
@@ -110,7 +110,7 @@ const cards = [
     <div class="photos">
       {cards.map(([f, cap]) => (
         <figure>
-          <img src={u(`/photos/line/${f}`)} alt={cap} loading="lazy" />
+          <img src={u(`/photos/line/${f}/`)} alt={cap} loading="lazy" />
           <figcaption>{cap}</figcaption>
         </figure>
       ))}
@@ -128,18 +128,18 @@ const cards = [
       <tr><th>26 Jan 1942 –<br />28 Nov 194?</th><td>A second Reutlingen employer</td></tr>
       <tr><th>1948</th><td>Back in Croatia: his daughter Ladislava is born at Crikvenica</td></tr>
       <tr><th>17 Dec 1951</th><td>His son Ivan born at Senj hospital; the
-        <a href={u("/certificate")}>birth extract</a> gives his trade as
+        <a href={u("/certificate/")}>birth extract</a> gives his trade as
         <strong>electro-mechanic</strong> — which is what a boy who spent the war in a power
         undertaking might well become — and his nationality as <strong>Italian</strong></td></tr>
       <tr><th>1954</th><td>That extract is drawn and translated for the
         <strong>Supreme Court of South Africa</strong></td></tr>
-      <tr><th>30 Oct 1995</th><td>Dies at Senj. <a href={u("/hedviga")}>Hedviga</a> dies at
+      <tr><th>30 Oct 1995</th><td>Dies at Senj. <a href={u("/hedviga/")}>Hedviga</a> dies at
         Johannesburg on the same date, six years later.</td></tr>
     </table>
     <p class="note" style="margin-top:1.3rem"><strong>What would settle the rest.</strong> The
     <strong>Arolsen Archives online collections</strong> hold these cards and may hold more under the
     same name — a direct search for <em>Defranceski, born 25.6.1925</em> would show the full file and
     resolve the illegible year. Arolsen answers enquiries from families without charge.
-    <a href={u("/open-questions")}>Open questions →</a></p>
+    <a href={u("/open-questions/")}>Open questions →</a></p>
   </section>
 </Base>

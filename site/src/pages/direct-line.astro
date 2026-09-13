@@ -19,7 +19,7 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
         <li class={p.gen === 3 ? "weak" : ""}>
           <span class="g">g{p.gen}</span>
           <div>
-            <a href={u(`/people/${p.slug}`)}><strong>{p.name}</strong></a>
+            <a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a>
             <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
             <div class="pl">{p.bornPlace || "—"}</div>
             {p.occupations && p.occupations.length > 0 && (
@@ -35,16 +35,16 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
     <p class="note"><strong>{sourced} of {line.length}</strong> generations on this spine carry a
     source string in the tree; <strong>{line.length - sourced}</strong> carry none. And a source
     string here most often means another online tree.
-    <a href={u("/method")}>Why that matters →</a></p>
+    <a href={u("/method/")}>Why that matters →</a></p>
   </section>
 
   <section class="blk">
     <div class="lab">Corrected, September 2026</div>
     <h2>The join at generation three</h2>
     <p class="lede">This section used to say that everything above
-    <a href={u("/people/ljubomir-blazevic")}>Ljubomir</a> hung on a man with
+    <a href={u("/people/ljubomir-blazevic/")}>Ljubomir</a> hung on a man with
     <strong>no document at all</strong>. That was wrong. The
-    <a href={u("/marriage-1920")}><strong>Senj marriage register of 8 December 1920</strong></a>
+    <a href={u("/marriage-1920/")}><strong>Senj marriage register of 8 December 1920</strong></a>
     names the groom's parents outright — <strong>Juraj Blažević and Tereza <em>r.</em>
     Žubrinić</strong> — and it had been attached in the family tree the whole time, invisible
     because media does not travel in a GEDCOM export.</p>
@@ -55,9 +55,9 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
     Krmpotska</strong>, the mother's town and the father's village.</p>
     <div class="note"><strong>The wall moved up one generation; it did not fall.</strong> Juraj is
     now named by a record, but he is still <em>undated and unplaced</em>, and nothing yet connects
-    him to <a href={u("/people/toma-tomislav-blazevic")}>Toma</a> at generation four. The register
+    him to <a href={u("/people/toma-tomislav-blazevic/")}>Toma</a> at generation four. The register
     also annotates him <em>mrt.</em> — deceased — which puts his death <strong>before December
-    1920</strong>. <a href={u("/open-questions")}>Open questions →</a></div>
+    1920</strong>. <a href={u("/open-questions/")}>Open questions →</a></div>
   </section>
 
   <section class="blk">
@@ -73,7 +73,7 @@ const sourced = line.filter((p) => p.sources && p.sources.length).length;
         <ul class="cols">
           {byGen[g].sort((a, b) => a.ahn - b.ahn).map((p) => (
             <li><span class="mono dim">{p.ahn}</span>
-              <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+              <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
               <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span></li>
           ))}
         </ul>

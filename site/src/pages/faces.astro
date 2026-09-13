@@ -116,9 +116,9 @@ const named = photos.filter((m) => rank(m) === "named");
     into the age of portrait photography. The build now drops anything marked
     <span class="mono">excluded</span> in
     <span class="mono">sources/media/classification.json</span>, so a placeholder cannot be shown as
-    an ancestor's face. <a href={u("/changed")}>What changed →</a></p>
+    an ancestor's face. <a href={u("/corrections/")}>What changed →</a></p>
     <p class="dek">A sixth item was reclassified rather than dropped: a picture captioned
-    <em>“Ljubomir Blazevic”</em> is a photograph of the <a href={u("/grave")}>family gravestone</a>,
+    <em>“Ljubomir Blazevic”</em> is a photograph of the <a href={u("/grave/")}>family gravestone</a>,
     not a portrait of him. It is a document and now sits with the documents.</p>
   </section>
 
@@ -129,7 +129,7 @@ const named = photos.filter((m) => rank(m) === "named");
     somebody wrote a name rather than letting a file manager do it.</p>
     <ul class="cols">{named.map((m) => (
       <li><span class="mono">{strip(m.caption)}</span></li>))}</ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/pictures")}>All the pictures →</a>
-      {" "}<a class="btn" href={u("/open-questions")}>The open questions →</a></p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/pictures/")}>All the pictures →</a>
+      {" "}<a class="btn" href={u("/open-questions/")}>The open questions →</a></p>
   </section>
 </Base>

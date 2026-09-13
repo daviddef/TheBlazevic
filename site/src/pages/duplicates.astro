@@ -32,11 +32,11 @@ const bySur = Object.entries(
       groups holding 47 surplus records</strong>. That number is nonsense. Most of those pairs are
       <strong>two different people who share a name</strong> — which is the one error this archive
       has warned about on every other page, since it holds
-      <a href={u("/name")}>eighteen Ivan Blaževići</a> and refuses to auto-link names anywhere for
+      <a href={u("/name/")}>eighteen Ivan Blaževići</a> and refuses to auto-link names anywhere for
       exactly that reason. Having written the warning, I walked into it.</p>
       <p>Two tests fixed it. <strong>Different parents means different people.</strong> Nicolaus
       Žubrinić, born at Otočac in 1834, is the son of <em>Michael</em> in one record and of
-      <em>Lucas</em> in the other — and he is <a href={u("/direct-line")}>ahnentafel 10</a>, a
+      <em>Lucas</em> in the other — and he is <a href={u("/direct-line/")}>ahnentafel 10</a>, a
       direct ancestor. Without that test this page would have announced that this archive's own
       great-great-grandfather was a duplicate. <strong>And two death years means two people</strong>:
       Antonius Kalanj of Klenovica 22, born 1868, is entered as dying in 1868 and in 1873. That is
@@ -61,7 +61,7 @@ const bySur = Object.entries(
           <td>Compare parent names as <strong>sets, asking whether they overlap</strong></td></tr>
         <tr><td>A sorting label standing in the father's slot</td>
           <td class="dim"><em>Jure Žubrinić</em> vs <em>Brothers of Casparus (It Seems)</em></td>
-          <td>Ignore <a href={u("/buckets")}>bucket parents</a> entirely — a label is not a father</td></tr>
+          <td>Ignore <a href={u("/buckets/")}>bucket parents</a> entirely — a label is not a father</td></tr>
         <tr><td>Two spellings of one name, disjoint as tokens</td>
           <td class="dim"><em>Kate</em> vs <em>Katalyn</em> Zubrinich</td>
           <td>Where the full birth date, birth place <strong>and both parents</strong> agree, a
@@ -75,7 +75,7 @@ const bySur = Object.entries(
     This archive held <em>Kate Zubrinich</em> and <em>Katalyn Zubrinich</em> as two women — identical
     in birth date, birth place, death date, death place <em>and both parents</em> — and this check
     walked straight past them, because “kate” and “katalyn” are disjoint tokens rather than one
-    inside the other. A <a href={u("/port-pirie")}>FindMyPast</a> search of the South Australian
+    inside the other. A <a href={u("/port-pirie/")}>FindMyPast</a> search of the South Australian
     births settled it: <strong>one registration in 1886, at Port Pirie, for a Kate</strong>, and no
     Katalyn anywhere in 176 records of that surname. One woman.</p>
 
@@ -125,7 +125,7 @@ const bySur = Object.entries(
   <section class="blk">
     <h2>What this does not do</h2>
     <ul class="plain">
-      <li><strong>Nothing is merged.</strong> This archive <a href={u("/method")}>does not edit the
+      <li><strong>Nothing is merged.</strong> This archive <a href={u("/method/")}>does not edit the
       tree</a>. It reports what the tree says, and here the tree says the same child twice.</li>
       <li><strong>The rejected {rejected.length} are not cleared.</strong> "Rejected" means the
       evidence for a duplicate failed, not that two people are proved distinct. Where the parents
@@ -134,8 +134,8 @@ const bySur = Object.entries(
       nowhere named. It is published because leaving it out would be a choice about what counts,
       made silently.</li>
     </ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible")}>What cannot be true →</a>
-      {" "}<a class="btn" href={u("/zubrinic-roots")}>The Žubrinić fragments →</a>
-      {" "}<a class="btn" href={u("/name")}>Spelling is geography →</a></p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible/")}>What cannot be true →</a>
+      {" "}<a class="btn" href={u("/zubrinic-roots/")}>The Žubrinić fragments →</a>
+      {" "}<a class="btn" href={u("/name/")}>Spelling is geography →</a></p>
   </section>
 </Base>

@@ -26,9 +26,9 @@ const withDoc = tot("read") + tot("scanned");
 
   <section class="blk">
     <p class="lede">This page exists because of the kind of day 10 September 2026 was. Three joins
-    on this spine were disputed in one sitting — <a href={u("/people/maria-catharina-oreskovic-oreskovic")}>a
-    woman attached a generation too high</a>, <a href={u("/people/caetano-bacchi")}>a man born after
-    his own granddaughter</a>, and <a href={u("/people/tereza-pecanic")}>a wife who died eight years
+    on this spine were disputed in one sitting — <a href={u("/people/maria-catharina-oreskovic-oreskovic/")}>a
+    woman attached a generation too high</a>, <a href={u("/people/caetano-bacchi/")}>a man born after
+    his own granddaughter</a>, and <a href={u("/people/tereza-pecanic/")}>a wife who died eight years
     before her wedding</a>. When that much moves in a day, the honest total matters more than any
     single page.</p>
 
@@ -74,7 +74,7 @@ const withDoc = tot("read") + tot("scanned");
       than drawn as a tree.</p>
       <p><strong>{withDoc} of {rows.length} have an image at all.</strong> The rest — {tot("named") + tot("tree")} people — are
       known because a tree says so, or because a priest wrote <em>filius Pauli</em> in somebody
-      else's baptism. <a href={u("/name")}>That is exactly what the Latin genitives are</a>: a man
+      else's baptism. <a href={u("/name/")}>That is exactly what the Latin genitives are</a>: a man
       recorded as <em class="mono">Pauli</em> has no record of his own, only records that mention
       him.</p>
     </div>
@@ -110,8 +110,8 @@ const withDoc = tot("read") + tot("scanned");
       <li style="margin-bottom:.5rem"><span class="mono dim">{r.ahn}</span>
         {" "}<a href={u("/people/" + r.slug)}><strong>{r.name}</strong></a>
         {r.born && <span class="dim"> · {r.born}</span>}</li>))}</ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible")}>What cannot be true →</a>
-      {" "}<a class="btn" href={u("/direct-line")}>The spine →</a>
-      {" "}<a class="btn" href={u("/how-far-back")}>How far back →</a></p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/impossible/")}>What cannot be true →</a>
+      {" "}<a class="btn" href={u("/direct-line/")}>The spine →</a>
+      {" "}<a class="btn" href={u("/how-far-back/")}>How far back →</a></p>
   </section>
 </Base>

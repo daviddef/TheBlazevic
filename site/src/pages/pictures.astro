@@ -24,29 +24,29 @@ const big = media.filter((m) => m.w >= 2500).length;
     <span class="mono">photo-world/&lt;site&gt;?tree_id=4&amp;individual_id=<em>N</em></span>, and
     <em>N</em> is <strong>4000000 + n</strong> for GEDCOM record <span class="mono">@In@</span>.
     That one correspondence turns “six photos on my grandmother's profile” into a sweep of the whole
-    line. <a href={u("/method")}>Method →</a></p>
+    line. <a href={u("/method/")}>Method →</a></p>
   </section>
 
   <section class="blk">
     <h2>Documents</h2>
     <p class="dek">Parish registers, civil certificates and grave photographs — the evidence this
     archive is supposed to rest on. Several are read out in full:
-    <a href={u("/marriage-1920")}>the 1920 marriage register</a>,
-    <a href={u("/certificate")}>the 1951 birth extract</a>,
-    <a href={u("/grave")}>the family grave</a>.</p>
+    <a href={u("/marriage-1920/")}>the 1920 marriage register</a>,
+    <a href={u("/certificate/")}>the 1951 birth extract</a>,
+    <a href={u("/grave/")}>the family grave</a>.</p>
     <div class="photos">
       {docs.map((m) => (
         <figure>
           {m.type === "document"
-            ? <a class="pdf" href={u(`/photos/line/${m.file}`)}>PDF — {m.caption}</a>
-            : <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />}
+            ? <a class="pdf" href={u(`/photos/line/${m.file}/`)}>PDF — {m.caption}</a>
+            : <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />}
           <figcaption>
             <strong>{m.caption}</strong>
             {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
             {m.people.length > 0 && (
               <div class="dim">{m.people.map((p, i) => (
                 <>{i > 0 && ", "}{p.slug
-                  ? <a href={u(`/people/${p.slug}`)}>{p.name}</a> : p.name}</>))}</div>)}
+                  ? <a href={u(`/people/${p.slug}/`)}>{p.name}</a> : p.name}</>))}</div>)}
           </figcaption>
         </figure>
       ))}
@@ -60,14 +60,14 @@ const big = media.filter((m) => m.w >= 2500).length;
     <div class="photos">
       {pics.map((m) => (
         <figure>
-          <img src={u(`/photos/line/${m.file}`)} alt={m.caption} loading="lazy" />
+          <img src={u(`/photos/line/${m.file}/`)} alt={m.caption} loading="lazy" />
           <figcaption>
             <strong>{/^\d|^scan|^IMG|^\d+ unnamed/.test(m.caption) ? "Untitled" : m.caption}</strong>
             {m.w > 0 && <span class="dim"> · {m.w}×{m.h}</span>}
             {m.people.length > 0 && (
               <div class="dim">{m.people.map((p, i) => (
                 <>{i > 0 && ", "}{p.slug
-                  ? <a href={u(`/people/${p.slug}`)}>{p.name}</a> : p.name}</>))}</div>)}
+                  ? <a href={u(`/people/${p.slug}/`)}>{p.name}</a> : p.name}</>))}</div>)}
           </figcaption>
         </figure>
       ))}
@@ -80,6 +80,6 @@ const big = media.filter((m) => m.w >= 2500).length;
     the person is in it. The 1835 Selce marriage scan is tagged to six people because it names six
     people; a group photograph tagged to Ljubomir need not contain him. Where this archive asserts
     that a particular face is a particular person, it says so, and says how sure it is.
-    <a href={u("/method")}>Method →</a></p>
+    <a href={u("/method/")}>Method →</a></p>
   </section>
 </Base>

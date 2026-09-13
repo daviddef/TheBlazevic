@@ -34,10 +34,10 @@ const gens = Object.keys(byGen).map(Number).sort((a, b) => a - b);
     <h2>The oldest named people</h2>
     <ul class="cols">{oldest.map((p) => (
       <li><span class="mono dim">{p.byear}</span>
-        <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+        <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
         <span class="dim">{p.bornPlace ? ` — ${p.bornPlace}` : ""}</span></li>))}</ul>
     <p style="margin-top:1.2rem">Notice where they are. The deepest reach is <strong>not</strong>
-    on the Blažević line — it is through <a href={u("/people/matia-matthea-pilipic")}>Matija
+    on the Blažević line — it is through <a href={u("/people/matia-matthea-pilipic/")}>Matija
     Pilipić</a>'s people at <strong>Karlobag</strong> and the Antić–Jelličić line at
     <strong>Selce</strong>. Somebody read those registers properly. Nobody has yet done the same for
     Smokvica Krmpotska.</p>
@@ -53,7 +53,7 @@ const gens = Object.keys(byGen).map(Number).sort((a, b) => a - b);
     <p style="margin-top:1rem">So the wall at 1717 is not an archival wall. It is where the reading
     stopped. Going further needs someone who can work in <strong>Latin parish hands</strong>, who
     knows that <strong>X spells Ž</strong> in the older entries, and who is willing to
-    <a href={u("/name")}>search a name five ways</a>.</p>
+    <a href={u("/name/")}>search a name five ways</a>.</p>
     <div class="note"><strong>One structural caution.</strong> Before civil registration, a parish
     register is the <em>only</em> record — and a fire, a war or a damp cellar ends a line absolutely.
     The Military Frontier was fought over repeatedly. Some of these lines will not be extendable at

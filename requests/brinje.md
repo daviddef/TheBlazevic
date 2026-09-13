@@ -1,6 +1,6 @@
 # Brinje — the parish this archive has never opened
 
-**Status: drafted, not sent.** Written 13 September 2026, the day it became
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-gospic.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.** Written 13 September 2026, the day it became
 obvious that we had been searching the wrong side of a mountain.
 
 **To:** Državni arhiv u Gospiću, Kaniška 17, 53000 Gospić —

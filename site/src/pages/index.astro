@@ -27,7 +27,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     </figure>
     <p class="credit">Illustration, not a photograph: a generated image of the northern Adriatic
     coast, standing for Senj under the Velebit. Every <em>document</em> reproduced on this site is
-    the real scan. <a href={u("/method")}>Why the distinction is laboured here →</a></p>
+    the real scan. <a href={u("/method/")}>Why the distinction is laboured here →</a></p>
   </section>
 
   <section class="blk">
@@ -42,9 +42,9 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     sourced, reasoned in the open, or labelled as something the family says and the record does not
     yet confirm.</p>
     <p class="cta">
-      <a class="btn" href={u("/hedviga")}>Start with Hedviga</a>
-      <a class="btn ghost" href={u("/direct-line")}>The spine, nine generations</a>
-      <a class="btn ghost" href={u("/open-questions")}>What is still unproven</a>
+      <a class="btn" href={u("/hedviga/")}>Start with Hedviga</a>
+      <a class="btn ghost" href={u("/direct-line/")}>The spine, nine generations</a>
+      <a class="btn ghost" href={u("/open-questions/")}>What is still unproven</a>
     </p>
   </section>
 
@@ -58,7 +58,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
         <strong>Bunjevci Krmpoćani</strong> who fled the Ottoman advance from Krmpote near Zemunik
         in Dalmatia and were planted in the Senj mountain by the Military Frontier. Two of
         Hedviga's four grandparental lines come out of those settlements.
-        <a href={u("/bunjevci")}>The settlement →</a></p>
+        <a href={u("/bunjevci/")}>The settlement →</a></p>
       </div>
       <div class="card">
         <h3>A railway that went somewhere else</h3>
@@ -66,23 +66,23 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
         the port that had made the town died with it. The occupations in this family are the
         aftermath: <em>nadničar</em> — day labourer; <em>trhonoša</em> and <em>bremenar</em> —
         load-carrier and porter; <em>mornar</em> — sailor. Then the tobacco factory, then the boats
-        out. <a href={u("/senj")}>Senj →</a></p>
+        out. <a href={u("/senj/")}>Senj →</a></p>
       </div>
       <div class="card">
         <h3>One name, three spellings, three countries</h3>
         <p><strong>Žubrinić</strong> in Otočac. <strong>Xubrinich</strong> in the Venetian-era
         registers, where <em>X</em> wrote the sound <em>Ž</em>. <strong>Zubrinich</strong> at Port
-        Pirie in South Australia, where <a href={u("/port-pirie")}>Ivan Žubrinić landed about 1884</a>
+        Pirie in South Australia, where <a href={u("/port-pirie/")}>Ivan Žubrinić landed about 1884</a>
         and every one of his children was registered under the anglicised form. The name changed at
-        the border and never changed back. <a href={u("/name")}>The names →</a></p>
+        the border and never changed back. <a href={u("/name/")}>The names →</a></p>
       </div>
       <div class="card">
         <h3>A brother with two deaths and no grave</h3>
         <p><strong>Oto Blažević</strong> (1923–1945), Hedviga's brother, died at twenty-two. The
         family carries <strong>two irreconcilable accounts</strong> of how — a snakebite, and the
-        war in Slavonia — and <a href={u("/grave")}>a photograph of the family grave</a> now
+        war in Slavonia — and <a href={u("/grave/")}>a photograph of the family grave</a> now
         corroborates the second witness in precise detail, down to who was added to the stone half
-        a century later. <a href={u("/oto")}>The brother →</a></p>
+        a century later. <a href={u("/oto/")}>The brother →</a></p>
       </div>
     </div>
   </section>
@@ -95,17 +95,17 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
       {line.map((p) => (
         <li>
           <span class="g">g{p.gen}</span>
-          <a href={u(`/people/${p.slug}`)}>{p.name}</a>
+          <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
           <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
           <span class="pl">{p.bornPlace || p.diedPlace || ""}</span>
         </li>
       ))}
     </ol>
     <p class="note"><strong>Generation three is now documented.</strong> The
-    <a href={u("/marriage-1920")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
+    <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
     parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
     this archive was built around. Juraj himself is still undated, and nothing yet links him to
-    Toma above. <a href={u("/open-questions")}>See the open questions →</a></p>
+    Toma above. <a href={u("/open-questions/")}>See the open questions →</a></p>
   </section>
 
   <section class="blk">
@@ -126,8 +126,8 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     A list like this rots quietly, so it carries its own date: if that is far behind the
     <a href="https://github.com/daviddef/TheBlazevic/commits/main" rel="noopener">commit log</a>,
     the log is the honest record and this is not.</p>
-    <p style="margin-top:1.1rem"><a class="btn" href={u("/changed")}>Everything this archive got
-    wrong →</a> <a class="btn" href={u("/searched")}>What has been searched →</a></p>
+    <p style="margin-top:1.1rem"><a class="btn" href={u("/corrections/")}>Everything this archive got
+    wrong →</a> <a class="btn" href={u("/searched/")}>What has been searched →</a></p>
   </section>
 
   <section class="blk">

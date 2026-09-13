@@ -31,9 +31,9 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
       <p>Entries marked <strong>family tree</strong> are the {tree.toLocaleString()} people this
       archive publishes from the family's MyHeritage tree. They are <strong>what the family
       believes</strong>, not what a record proves — and this archive has now shown several of them
-      to be wrong, including <a href={u("/people/caetano-bacchi")}>a man attached to his own
+      to be wrong, including <a href={u("/people/caetano-bacchi/")}>a man attached to his own
       grandson's generation</a>. Treat each as a claim until it appears on this page a second time
-      with a register beside it. <a href={u("/impossible")}>What cannot be true →</a></p>
+      with a register beside it. <a href={u("/impossible/")}>What cannot be true →</a></p>
 
       <p style="margin-top:.6rem">Entries marked <strong>read in the register</strong> are people
       met while reading the parish books act by act — <strong>godparents, witnesses, the
@@ -52,7 +52,7 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
 
       <p style="margin-top:.6rem">A shared surname is not a relationship. There are Blaževići on
       this page who are certainly no kin — it is the
-      <a href={u("/name")}>seventeenth commonest surname in Croatia</a>.</p>
+      <a href={u("/name/")}>seventeenth commonest surname in Croatia</a>.</p>
     </div>
   </section>
 
@@ -93,7 +93,7 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
     <h2>What this page is not</h2>
     <ul class="plain">
       <li><strong>It is not a pedigree.</strong> Being listed here means a source names you, and
-        nothing more. <a href={u("/direct-line")}>The spine</a> is the pedigree.</li>
+        nothing more. <a href={u("/direct-line/")}>The spine</a> is the pedigree.</li>
       <li><strong>It is not complete.</strong> It holds what has been read. Roughly a thousand
         people in the wider tree have never had their media swept, and the register reading covers
         about twenty pages across four parishes.</li>
@@ -101,8 +101,8 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
         and at least two of them are different people. Saying which would be a claim, and this page
         makes none.</li>
     </ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/people")}>The people with pages →</a>
-      {" "}<a class="btn" href={u("/sources")}>Where all this comes from →</a></p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/people/")}>The people with pages →</a>
+      {" "}<a class="btn" href={u("/sources/")}>Where all this comes from →</a></p>
   </section>
 
   <script is:inline>

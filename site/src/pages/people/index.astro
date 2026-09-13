@@ -23,7 +23,7 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
       <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published
         people</div></div>
       <div class="stat"><div class="n">{pctLinked}%</div><div class="l">connected to Hedviga
-        without a <a href={u("/buckets")}>sorting label</a></div></div>
+        without a <a href={u("/buckets/")}>sorting label</a></div></div>
       <div class="stat"><div class="n">{ancestors}</div><div class="l">direct ancestors of
         Hedviga</div></div>
       <div class="stat"><div class="n">{withSrc.toLocaleString()}</div><div class="l">carry at least
@@ -33,12 +33,12 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
     these {rows.length.toLocaleString()} people reach Hedviga only through a sorting label</strong> —
     a working note sitting where an ancestor should be. That is not a claim they are invented; the
     register entries behind them are real. It is a statement about the join, and it is marked on
-    each person's own page. <a href={u("/buckets")}>Labels where the father should be →</a></p>
+    each person's own page. <a href={u("/buckets/")}>Labels where the father should be →</a></p>
 
     <p class="note" style="margin-top:1.2rem">A source string here usually means
     <em>another online tree</em>. It is a witness, not a document. The column is shown because the
     difference between “someone else also says this” and “a register says this” is the whole
-    difference between a family story and a family history. <a href={u("/method")}>Method →</a></p>
+    difference between a family story and a family history. <a href={u("/method/")}>Method →</a></p>
   </section>
 
   <section class="blk">
@@ -68,7 +68,7 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
                 data-anc={p.ancestor ? "1" : ""}
                 data-src={evidenced(p) ? "1" : ""}
                 data-s={`${p.name} ${p.bornPlace || ""} ${p.diedPlace || ""} ${p.byear || ""} ${p.dyear || ""}`.toLowerCase()}>
-              <td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
+              <td><a href={u(`/people/${p.slug}/`)}>{p.name}</a>{p.ancestor &&
                 <span class="tag">ancestor</span>}</td>
               <td class="mono">{lifespan(p)}</td>
               <td class="dim">{p.bornPlace || p.diedPlace || ""}</td>

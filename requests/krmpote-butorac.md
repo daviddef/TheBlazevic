@@ -1,6 +1,6 @@
 # Župa sv. Jakova, Krmpote — the Butorac household
 
-**Status: drafted, not sent.** Small, and cheap to answer.
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-senj.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.** Small, and cheap to answer.
 
 ## The question in one line
 

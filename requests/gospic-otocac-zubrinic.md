@@ -6,7 +6,7 @@
 remit — see `WHERE-TO-WRITE.md`. The Senj material belongs to Rijeka; this does
 not.)*
 
-**Status: drafted, not sent.**
+**Status: SUPERSEDED 13 September 2026 — consolidated into `EMAIL-gospic.txt`, which is in David's Gmail as a draft awaiting his review. This file is kept as the working brief; the email is the shorter thing actually being sent.**
 
 ## What is wanted, in one line
 

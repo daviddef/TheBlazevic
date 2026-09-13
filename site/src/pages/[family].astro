@@ -49,7 +49,7 @@ const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
     <table class="reg">
       <thead><tr><th>Name</th><th>Lived</th><th>Born at</th></tr></thead>
       <tbody>{rows.map((p) => (
-        <tr><td><a href={u(`/people/${p.slug}`)}>{p.name}</a>{p.ancestor &&
+        <tr><td><a href={u(`/people/${p.slug}/`)}>{p.name}</a>{p.ancestor &&
           <span class="tag">ancestor</span>}</td>
           <td class="mono">{lifespan(p)}</td><td class="dim">{p.bornPlace || ""}</td></tr>))}</tbody>
     </table>

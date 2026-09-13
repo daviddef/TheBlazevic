@@ -170,7 +170,7 @@ const Node = (r, cls = "") => r;
     <em> this</em> person. <strong>This archive holds no separate proof for most parent–child
     links</strong>; where it does, the note above this chart says so in words.
     {nopage > 0 && <span> {nopage} {nopage === 1 ? "relative is" : "relatives are"} named in the
-      tree but fall outside <a href={u("/families")}>the eight surnames</a> and have no page.</span>}
+      tree but fall outside <a href={u("/families/")}>the eight surnames</a> and have no page.</span>}
     {withheld > 0 && <span> {withheld} {withheld === 1 ? "is" : "are"} judged
       <strong> living</strong> and withheld from this build entirely.</span>}
     </p>
@@ -179,7 +179,7 @@ const Node = (r, cls = "") => r;
       <p class="warn"><strong>Two children here carry one name</strong> — {clashKids.join(", ")}.
       In these parishes that is usually not an error: <strong>a child who died was very often
       replaced by a later child given the same name</strong>, and
-      <a href={u("/gazetteer")}> nine such deaths</a> are implied across these four families by a
+      <a href={u("/gazetteer/")}> nine such deaths</a> are implied across these four families by a
       name used twice. It is also exactly how a records-matcher makes one person out of two, which
       is why they are kept apart here and the reader is told.</p>
     )}
