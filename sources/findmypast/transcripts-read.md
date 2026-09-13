@@ -69,3 +69,43 @@ remains unresolved.
 Australian certificate — orderable on registration **525/341** — would carry
 **father's name, mother's name and maiden name**, and that is the document worth
 paying for.
+
+---
+
+## 3. A Kalanj manifest, opened to test the method
+
+`US/PASS/NY/ELLIS2/019925786/1` — *New York City Passenger Lists, 1820–1957*
+
+| Field | Value |
+|---|---|
+| **Name** | **Joso Kalanj**, male, age **32**, birth year **1881** |
+| **Nationality** | **Austria, Austrian** |
+| **Residence** | **“Bruma”** |
+| **Ship** | *Philadelphia*, **Southampton → New York**, **1913** |
+| **Left behind (departure-port relation)** | **WIFE: Marica Kalanj** |
+| **Met by (arrival-port relation)** | FRIEND: Miko Tumaic |
+
+### The method is confirmed
+
+This is exactly the shape predicted: a post-1906 manifest **does** carry a last
+residence and **does** name the relative left behind. So the 81 Kalanj migration
+records can, in principle, be sorted into ours and not-ours one at a time.
+
+*Austria, Austrian* is expected and not a problem — Croatia was in Austria-Hungary
+in 1913, and Croatian emigrants are routinely entered that way.
+
+**And there is a corroboration sitting in the same harvest:** `Kalanj Marica —
+1913 — United States, Passenger And Crew Lists`. The wife he left behind appears
+to have sailed **in the same year**.
+
+### But it does not confirm the family
+
+**“Bruma” is not a place this archive knows.** The Kalanj places here are
+Klenovica, Povile, Ledenice and Novi Vinodolski, and Bruma is none of them. It may
+be a transcriber's rendering of something — Brinje, Brlog and Bruvno are all real
+places in the region and all plausible mis-readings — or it may be a Krajina
+village, which would put this man on the **Serbian** side of the split described
+in `kalanj-2026-09-13.md`.
+
+**So: nothing attached.** What has been established is that the field exists and
+can be read. The next step is to open manifests until one says *Klenovica*.
