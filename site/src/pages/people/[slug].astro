@@ -7,6 +7,7 @@ import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
 import evidence from "../../data/evidence.json";
 import linkage from "../../data/linkage.json";
+import dupes from "../../data/duplicates.json";
 import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
@@ -51,9 +52,38 @@ const KIND = { corrected: "Corrected against the register",
                upgraded: "Upgraded — now documented",
                note: "Noted" };
 const link = linkage[p.id];
+// the confirmed duplicate group this person belongs to, if any
+const dup = (dupes.groups || []).find(
+  (g) => !g.tier.startsWith("rejected") && g.ids.includes(p.id));
+const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
+  .filter((x) => x.slug !== p.slug) : [];
 ---
 <Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
+
+  {dup && dupOther.length > 0 && (
+    <section class="blk">
+      <div class="fix disputed">
+        <div class="lab">This person appears twice in the tree</div>
+        <h2 style="margin-top:.3rem">The same person, entered {dup.n} times</h2>
+        <table class="kv tight" style="margin-top:.6rem">
+          <tr><th>Also entered as</th><td>{dupOther.map((x, i) => (
+            <span>{i > 0 && <span class="dim">  ·  </span>}
+              {x.slug ? <a href={u("/people/" + x.slug)}>{x.n}</a> : x.n}</span>))}</td></tr>
+          <tr><th>What they share</th><td class="mono">{dup.date || dup.byear}{dup.place ? " · " + dup.place : ""}</td></tr>
+          <tr><th>How certain</th><td>{dup.tier === "same day"
+            ? "Identical full birth date, and the parents do not conflict"
+            : dup.tier === "same year and place"
+              ? "Same given name, birth year and place, parents agreeing where both are named"
+              : "Same given name and birth year only — the weakest tier"}</td></tr>
+        </table>
+        <p style="margin-top:.9rem"><strong>Nothing has been merged.</strong> This archive
+        <a href={u("/method")}>reports the tree rather than editing it</a>, and here the tree holds
+        one person more than once. The count of published people on this site is therefore slightly
+        higher than the number of actual people. <a href={u("/duplicates")}>How this is judged →</a></p>
+      </div>
+    </section>
+  )}
 
   {link && (
     <section class="blk">

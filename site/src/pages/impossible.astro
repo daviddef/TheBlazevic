@@ -9,6 +9,7 @@ const KIND = {
   "child-after-parent-death": "A child born after the parent died",
   "child-before-parent-birth": "A child born before the parent",
   "parent-too-young": "A parent under thirteen",
+  "parent-under-seventeen": "A parent aged thirteen to sixteen",
   "mother-too-old": "A mother over fifty",
   "died-before-born": "Died before being born",
   "married-before-birth": "Married before being born",
@@ -152,7 +153,14 @@ const kindCounts = Object.entries(
     <section class="blk">
       <div class="lab">{SEV[sev]}</div>
       <h2>{sev === 1 ? "Dates that are firm and still conflict" : sev === 2 ? "Where one date is hedged" : "Unlikely rather than impossible"}</h2>
-      {sev === 3 && <p class="lede">A mother of fifty-one and a man of a hundred and eleven are
+      {sev === 3 && <p class="lede"><strong>Added 13 September 2026:</strong> a band for parents
+        aged <strong>thirteen to sixteen</strong>. This was raised because
+        <a href={u("/connected")}>George Untersinger</a>, fathering at fifteen in 1802, sat just
+        under the old line of thirteen and was never flagged at all. Thirteen to sixteen is
+        <em>possible</em> and uncommon, so it sits here rather than moving the line of what cannot be
+        true — and two of them are the same child, Anton Blažević of 1840, whose mother was fifteen
+        and whose father was sixteen. That is a couple who married very young, or a birth year that
+        is wrong.<br /><br />A mother of fifty-one and a man of a hundred and eleven are
         both possible, and both are usually a mistake. These were computed from the first day this
         check existed and were <strong>held back from the page</strong> until now, on the thin
         grounds that they were not certain enough — which is the opposite of how the rest of this

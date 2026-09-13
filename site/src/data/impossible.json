@@ -163,13 +163,15 @@
   "note": "The dates as recorded genuinely cannot both be true.",
   "kinds": [
    "child-after-parent-death",
-   "mother-too-old"
+   "mother-too-old",
+   "parent-under-seventeen"
   ],
   "rows": [
    "died 1828, but Eva Untersinger born 1839",
-   "born 25 JUN 1788, Eva Untersinger born 1839 — age 51"
+   "born 25 JUN 1788, Eva Untersinger born 1839 — age 51",
+   "born 25 JUN 1788, Rosalia Untersinger born 1802 — age 14"
   ],
-  "n": 2
+  "n": 3
  },
  {
   "id": "@I506361@",
@@ -554,6 +556,21 @@
   "n": 1
  },
  {
+  "id": "@I508611@",
+  "name": "Anton Kljapo Blažević",
+  "slug": "anton-kljapo-blazevic",
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 2 MAY 1824, Anton Martin (Tone) Blažević born 1840 — age 16"
+  ],
+  "n": 1
+ },
+ {
   "id": "@I511710@",
   "name": "Catharina",
   "slug": null,
@@ -565,6 +582,36 @@
   ],
   "rows": [
    "born 5 AUG 1784, Joannes Žubrinić Zubrinic Xubrinich born 1844 — age 60"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508277@",
+  "name": "George Untersinger",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 25 MAR 1787, Rosalia Untersinger born 1802 — age 15"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I506124@",
+  "name": "Johannes / Giovanni Gian Battista \"Ivan / John\" de Franceschi",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 1750, Giuseppe / Josephus \"Joseph\" Defranceschi born 1765 — age 15"
   ],
   "n": 1
  },
@@ -584,6 +631,21 @@
   "n": 1
  },
  {
+  "id": "@I508612@",
+  "name": "Marija Šojat",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 13 MAR 1825, Anton Martin (Tone) Blažević born 1840 — age 15"
+  ],
+  "n": 1
+ },
+ {
   "id": "@I506436@",
   "name": "Matia Sekula",
   "slug": null,
@@ -595,6 +657,51 @@
   ],
   "rows": [
    "born 1810, Martha Žubrinić Zubrinic born 1861 — age 51"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I3452@",
+  "name": "Ruzica Petrovic",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 1868, Ivana Jovanovic born 1881 — age 13"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508644@",
+  "name": "Stane Blažević",
+  "slug": "stane-blazevic",
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 1860, Luce born 1876 — age 16"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I55@",
+  "name": "Ursula Kovačina",
+  "slug": null,
+  "cause": "record",
+  "sev": 3,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born 28 FEB 1895, Josip Petar \"Pepo/Pepe\" Defranceski born 1911 — age 16"
   ],
   "n": 1
  }

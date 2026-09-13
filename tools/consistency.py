@@ -41,6 +41,11 @@ def approx(datestr):
 
 people, families = load()
 
+# Entries that are labels rather than people; ages computed against them mean nothing.
+BUCKET_PARENT = re.compile(
+    r"\bbrothers?\b|\bsisters?\b|to be sorted|for sorting|\bsorting\b|"
+    r"\bworking\b|it seems|not real|investigation|\d{4}\s*-\s*\d{4}\s*birth", re.I)
+
 # This export carries six families. Scope to the ones this archive publishes,
 # plus anyone named in one of its relation lists - otherwise the sweep reports
 # the Booyzen and D'Arcy trees' problems as though they were ours.
@@ -138,7 +143,21 @@ for fid, f in families.items():
                     add("child-before-parent-birth", 1, par,
                         f"born {pb['date']}, but {display(people[cid])} born {cby}")
                 elif cby - pby < 13:
-                    add("parent-too-young", 2, par,
+                    # A sorting label is not a parent, and its "birth year" is
+                    # whatever somebody typed. Ages computed against one are
+                    # meaningless - two of the six gaps this check used to miss
+                    # were against "Brothers of Casparus (It Seems)".
+                    if not BUCKET_PARENT.search(display(people[par]) or ""):
+                        add("parent-too-young", 2, par,
+                            f"born {pb['date']}, {display(people[cid])} born {cby}"
+                            f" — age {cby - pby}")
+                elif cby - pby < 17 and not BUCKET_PARENT.search(display(people[par]) or ""):
+                    # 13 to 16 is possible and uncommon. It is not impossible, so
+                    # it sits at the lowest severity rather than moving the line
+                    # of what cannot be true. Marija Sojat bearing at 15 and Anton
+                    # Blazevic fathering at 16 - the same child, in 1840 - is a
+                    # couple who married very young, or a birth year that is wrong.
+                    add("parent-under-seventeen", 3, par,
                         f"born {pb['date']}, {display(people[cid])} born {cby}"
                         f" — age {cby - pby}")
                 elif role == "wife" and cby - pby > 50:
