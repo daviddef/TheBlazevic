@@ -5,6 +5,7 @@ import { people, lifespan, evidenced } from "../../lib/people.js";
 import families from "../../data/families.json";
 import given from "../../data/givennames.json";
 import B from "../../data/buckets.json";
+import D from "../../data/duplicates.json";
 
 const rows = [...people].sort((a, b) =>
   (a.surname || "").localeCompare(b.surname || "") ||
@@ -13,15 +14,21 @@ const withSrc = rows.filter(evidenced).length;
 const ancestors = rows.filter((p) => p.ancestor).length;
 const label = Object.fromEntries(families.map((f) => [f.slug, f.label]));
 const linked = B.connected;
+const surplus = (D.groups || []).filter((g) => !g.tier.startsWith("rejected"))
+  .reduce((a, g) => a + (g.n - 1), 0);
+const distinct = rows.length - surplus;
 const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 ---
-<Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records`}
-  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. A published record is not a proven relative — see the note below on how many of these people are actually attached to Hedviga.">
+<Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
+  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
 
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{rows.length.toLocaleString()}</div><div class="l">published
         people</div></div>
+      <div class="stat"><div class="n">{distinct.toLocaleString()}</div><div class="l">distinct
+        people — {surplus} of the records above are <a href={u("/duplicates")}>the same person
+        twice</a></div></div>
       <div class="stat"><div class="n">{pctLinked}%</div><div class="l">connected to Hedviga
         without a <a href={u("/buckets/")}>sorting label</a></div></div>
       <div class="stat"><div class="n">{ancestors}</div><div class="l">direct ancestors of
