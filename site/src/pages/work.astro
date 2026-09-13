@@ -1,0 +1,117 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import W from "../data/work.json";
+
+const FAM = { blazevic: "Blažević", zubrinic: "Žubrinić", papic: "Papić",
+              prpic: "Prpić", kalanj: "Kalanj", boras: "Boras",
+              sestan: "Šestan", vukelic: "Vukelić" };
+const reg = W.rows.filter((r) => r.from === "register");
+const tree = W.rows.filter((r) => r.from === "tree");
+const byFam = Object.entries(
+  W.rows.reduce((a, r) => (r.family ? ((a[r.family] = (a[r.family] || 0) + 1), a) : a), {})
+).sort((a, b) => b[1] - a[1]);
+---
+<Base title="What They Did"
+  eyebrow={`${W.rows.length} occupations — ${W.fromRegister} read off registers, ${W.fromTree} carried by the tree`}
+  dek="The family tree records a trade for sixteen people out of twelve hundred. The registers record one for almost everybody, in a column this archive had been reading past.">
+
+  <section class="blk">
+    <p class="lede">Both the Latin and the Croatian parish forms carry a
+    <em>conditio</em> or <em>stalež</em> column, and the priest filled it in — for the parents, for
+    the godparents, and for the witnesses. It is the only place in these documents where a person is
+    described by something other than their name and their kin.</p>
+    <p>This archive had been reading past it. Where an occupation surfaced it went into prose on one
+    person's page and nowhere else, which meant it could not be counted or compared. <strong>The
+    comparison is the point.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>Two families, two worlds, twenty miles apart</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>The Žubrinići hold offices</h3>
+        <ul class="plain">
+          <li><strong>Confiniarius</strong> — a man of the <a href={u("/frontier")}>Military
+            Frontier</a>, Šumećica N° 24, 1834</li>
+          <li><strong>Vigiliarum Magister pensionatus</strong> — master of the watch, pensioned</li>
+          <li><strong>Silvarum Custos</strong> — forest warden, Šumećica</li>
+          <li><strong>Custos Carcerum</strong> — keeper of the prison, Otočac, 1845</li>
+          <li><strong>Forest Ranger</strong> — Otočac, the 1837 generation</li>
+          <li><strong>kontrolor gradske daće</strong> — municipal excise controller, Senj, 1910</li>
+        </ul>
+        <p class="dek" style="margin-top:.6rem">Six salaried posts, four of them in a single parish
+        register, three of them in <em>one entry</em>. These are people the state paid.</p>
+      </div>
+      <div class="card">
+        <h3>The Blaževići carry things</h3>
+        <ul class="plain">
+          <li><strong>nadničar</strong> — day labourer. Toma Blažević, Senj, at his death in 1907</li>
+          <li><strong>seljaci</strong> — peasants. Toma and Tereza at Smokvica 114, 1884</li>
+          <li><strong>selj.</strong> — the same, Jurko and Tereza, 1895</li>
+          <li><strong>težak</strong> — labourer. Josip Papić, Senj, 1891</li>
+          <li><strong>trhonoša, bremenar, gostioničar</strong> — porter, burden-carrier, innkeeper</li>
+        </ul>
+        <p class="dek" style="margin-top:.6rem">No office, no pension, no rank. The
+        <a href={u("/papic")}>Papići</a> carry sacks in the port; the Blaževići work by the day.</p>
+      </div>
+    </div>
+    <p style="margin-top:1.4rem">These families are <strong>twenty miles apart</strong> and they
+    married each other. <a href={u("/hedviga")}>Hedviga</a> descends from both — from a household
+    that held the keys to the Otočac gaol and from a household whose head was entered, at his death,
+    as a man who worked by the day. <a href={u("/frontier")}>The Frontier →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>Read off the registers</h2>
+    <p class="lede">Each row cites the entry it came from. Nothing here is inferred, and where a
+    word is ambiguous it is given as written rather than translated away.</p>
+    <table class="reg">
+      <thead><tr><th>Who</th><th>As written</th><th>In English</th><th>Where</th><th>Source</th></tr></thead>
+      <tbody>{reg.map((r) => (
+        <tr>
+          <td>{r.who}</td>
+          <td><strong>{r.what}</strong></td>
+          <td class="dim">{r.english}</td>
+          <td class="dim">{r.place}{r.year ? " · " + r.year : ""}</td>
+          <td class="dek" style="font-size:.86em">{r.source}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>And the {tree.length} the tree carries</h2>
+    <p class="lede">Sixteen people out of {W.published.toLocaleString()}. Mostly twentieth-century,
+    mostly from family memory rather than a document — and worth showing beside the register rows so
+    the difference in kind is visible.</p>
+    <table class="reg">
+      <thead><tr><th>Who</th><th>Occupation</th><th>Where</th></tr></thead>
+      <tbody>{tree.map((r) => (
+        <tr>
+          <td>{r.slug ? <a href={u("/people/" + r.slug)}>{r.who}</a> : r.who}</td>
+          <td>{r.what}</td>
+          <td class="dim">{r.place || "—"}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>What this is not, yet</h2>
+    <ul class="plain">
+      <li><strong>It is not a survey.</strong> Thirty-eight records against
+      {" "}{W.published.toLocaleString()} people. Every one had to be read off a scan by hand, and
+      <a href={u("/searched")}>twenty-seven register pages this archive already holds</a> have not
+      been read for this column at all.</li>
+      <li><strong>The Latin entries are worth more than the Croatian ones.</strong> Otočac and
+      Karlobag give every godparent a trade or a rank; Novi Vinodolski and Krmpote mostly give
+      <em>seljaci</em> and stop. That is a difference between registers, not between people.</li>
+      <li><strong>A woman is usually described by her husband.</strong> <em>Mulier Custodis
+      Carcerum</em> — the prison keeper's wife — names an office and does not name her trade or, in
+      that entry, even her husband. The column records women through men, and saying so is part of
+      reading it.</li>
+    </ul>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/frontier")}>The Frontier →</a>
+      {" "}<a class="btn" href={u("/zubrinic")}>Žubrinić →</a>
+      {" "}<a class="btn" href={u("/searched")}>What has been searched →</a></p>
+  </section>
+</Base>
