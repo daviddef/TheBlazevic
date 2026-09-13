@@ -145,6 +145,65 @@ const byFam = Object.entries(
   </section>
 
   <section class="blk">
+    <div class="lab">Added 13 September 2026</div>
+    <h2>How the records describe women</h2>
+    <p class="lede">Three conventions, from three kinds of document, and they do not agree about
+    what a woman's entry is <em>for</em>.</p>
+
+    <table class="reg">
+      <thead><tr><th>Convention</th><th>Example</th><th>What it actually records</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>By her husband's office</strong><br /><span class="dim">Latin registers, Otočac</span></td>
+          <td><em>Maria Žubrinić, <strong>mulier Custodis Carcerum</strong></em>, 1845</td>
+          <td>The <strong>gaoler's wife</strong>. It names an office, not her trade — and in that
+            entry it does not even name the man who holds it. She is identified by a job that is
+            not hers.</td>
+        </tr>
+        <tr>
+          <td><strong>By the household</strong><br /><span class="dim">Croatian village registers</span></td>
+          <td><em>Martin Kalanj i Marija rodj. Peričić, <strong>polj.</strong></em>, 1898</td>
+          <td><strong>Both</strong> entered as <em>poljodjelci</em>, farmers. Here the woman shares
+            the description rather than borrowing it — the unit being described is the
+            <a href={u("/gazetteer")}>household</a>, not the man.</td>
+        </tr>
+        <tr>
+          <td><strong>By a category that is not a job</strong><br /><span class="dim">Australian electoral rolls</span></td>
+          <td><em>Catherine Zubrinich, <strong>Domestic duties</strong></em>, Broken Hill 1913</td>
+          <td>A printed option on a form. Every adult woman in this archive's Australian records
+            carries it, whatever she did.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="qa" style="margin-top:1.6rem">
+      <h3>And then there are the women who are given a trade</h3>
+      <p>They exist, and they are worth listing because the conventions above make them almost
+      invisible:</p>
+      <ul class="plain">
+        <li><strong>Olga Štimac</strong> and <strong>Katica Štimac</strong> —
+          <em>radnica u tvornici duhana u Senju</em>, <strong>workers in the Senj tobacco
+          factory</strong>, named at a 1910 marriage</li>
+        <li>A <strong>supervisor of workers at the cigarette factory</strong>, Senj — the only
+          supervisory role recorded for anybody in this archive, man or woman</li>
+        <li><em>Domaćica i šnajder</em> — <strong>housewife <em>and</em> seamstress</strong>; the
+          entry insists on both</li>
+        <li><em>Seljakina</em> — a peasant woman, in her own right rather than her husband's</li>
+        <li><em>Medicinska sestra</em> — a nurse</li>
+      </ul>
+      <p class="dek">The Senj tobacco factory turns up repeatedly, and it is the one institution in
+      these records that employed women by name. It still stands on Ul. Stjepana Radića as a textile
+      works. <a href={u("/senj")}>Senj →</a></p>
+    </div>
+
+    <p style="margin-top:1.2rem"><strong>Why this matters for the counting.</strong> Of the
+    {W.rows.length} occupations here, the ones attached to women are mostly not occupations at all —
+    they are relationships or form-fields. Any statement this archive makes about <em>what this
+    family did</em> is therefore a statement about its men, and should be read that way until the
+    tobacco-factory records are looked for.</p>
+  </section>
+
+  <section class="blk">
     <h2>What this is not, yet</h2>
     <ul class="plain">
       <li><strong>It is not a survey.</strong> Thirty-eight records against
@@ -160,10 +219,8 @@ const byFam = Object.entries(
       are those</strong>. Reading them for occupations is wasted effort. Croatian tabular books sit
       in between — Novi Vinodolski names the parents' trade but usually not the godparents', and
       Sv. Jakov Krmpote mostly writes <em>seljaci</em> and stops.</li>
-      <li><strong>A woman is usually described by her husband.</strong> <em>Mulier Custodis
-      Carcerum</em> — the prison keeper's wife — names an office and does not name her trade or, in
-      that entry, even her husband. The column records women through men, and saying so is part of
-      reading it.</li>
+      <li><strong>Women are recorded three different ways, and only one of them is work.</strong>
+      See below.</li>
     </ul>
     <p style="margin-top:1.2rem"><a class="btn" href={u("/frontier")}>The Frontier →</a>
       {" "}<a class="btn" href={u("/zubrinic")}>Žubrinić →</a>
