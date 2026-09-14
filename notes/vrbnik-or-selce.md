@@ -84,6 +84,23 @@ below. Dobrinj is on Krk and Selce is in the Senj–Modruš diocese, so he is a
 visitor from another diocese — unusual enough to notice, not unusual enough to
 outweigh a priest signing his own parish's register in his own hand.
 
+## And a third confirmation, from the catalogue
+
+14 September 2026, later, and from a different direction entirely. The
+FamilySearch **catalogue item for Župa Vrbnik** (koha:723697) holds exactly
+three items:
+
+    DGS 5497817   Rodjeni 1849-1880
+    DGS 5497952   Vjencani 1815-1899 · Umrli 1862-1901
+
+**Vrbnik's baptisms on film begin in 1849.** A baptism of **14 March 1806**
+cannot have come out of a Vrbnik register, because no Vrbnik register of that
+year is in this collection at all.
+
+That is not another argument about handwriting or a visiting canon. **It is an
+arithmetic impossibility**, and it settles the pencil annotation for good: the
+scan is Selce, where the births run **1778–1861**.
+
 ---
 
 ## What would have settled it, kept for the method

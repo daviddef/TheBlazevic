@@ -9,6 +9,15 @@
  ],
  "read": [
   {
+   "book": "Otočac baptisms 1834–1846 — where the house number is and is not written",
+   "ref": "DGS 5482656; index ARKs 3:1:3QS7-L99C-GR9V and 3:1:3QS7-899C-G5JD",
+   "pages": "two openings, chosen from the record index",
+   "years": "1839, 1845",
+   "n": 2,
+   "got": "**The record index hands out the image ARK of every entry**, so an indexed baptism opens at the page directly instead of being hunted down a film. That gives **276 Otočac Žubrinić index entries for 1834–1862 — about 138 baptisms**, each one openable. **Michael has twenty-three to at least eight different mothers; Nicolaus has exactly two**, and those two are the pair read at the page this morning, both at Šumećica N° 2.",
+   "missed": "**The 1834–1846 book does not record house numbers.** Its *Conditio* cell holds one status word — *Confiniarius*, *Decurio*, *Limitaneus* — with no village and no number, checked at **December 1839** and **March 1845**; the place column gives only «Ottoccii», the place of baptism. Ahnentafel 10's own January 1834 entry, «*ex pago Shumechicza N° 24*», is an early-book habit the parish dropped. **So the house numbers are readable for 1846–1858 and for the first years of the 1834 book, and not in between** — which narrows the plan that was written this morning."
+  },
+  {
    "book": "Otočac — Status animarum 1710–1846, the Šumećica block",
    "ref": "film 2121770 · DGS 005498269 · catalog koha:837578",
    "pages": "22 openings surveyed for the village margin; images 102, 103 read household by household",
@@ -241,6 +250,30 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch record index — the Otočac Žubrinić baptisms, and the ARK trick",
+   "what": "Rebuilding the Šumećica Žubrinić households by house number",
+   "when": "14 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch",
+    "method"
+   ],
+   "got": "**The index gives the image, and that is worth more than any single reading.** The search service is `/service/search/hr/v2/personas`, and each entry's payload carries **the image ARK** beside the child, the date and both parents — so an indexed baptism can be opened at the page without hunting a film for it. **No earlier sitting used this.**\n\nTwo cautions found the hard way: **`q.birthLikePlace` does not bind** — the place has to be filtered in hand on the string **«Otočac, Küstenland, Austria»** — and **every baptism is indexed twice**, once per parent role, so a raw count doubles.\n\n**276 Otočac Žubrinić entries, 1834–1862 — about 138 baptisms.** Normalising the index's own spelling scatter (*Zubrinić · Žubrinić · Xubrinić · Žubrinich · Zabrinić · Dubrinić · **Bubrinić***), the fathers run **Joannes ~22 · Michael ~23 · Matthaeus 7 · Franciscus 6 · Georgius 5 · Thomas 5 · Nicolaus 2**.\n\n**Michael's twenty-three are to at least eight different mothers** — Maria, Catharina, Magdalena, Helena, Maria Marković, Maria Rogić, Magdalena Draženović, Anna Bobinac, Maria Maković, Helena Orešković. **That is not one man; it is a village full of Michaels**, which is precisely the trap question 4d is about.\n\n**And a correction to this morning's plan.** The redirection assumed every baptism writes «e Šumećica N° X» into the *Conditio* column. **The 1834–1846 book does not** — its *Conditio* holds a single status word, checked at December 1839 and March 1845. The 1846–1858 book does. **The house numbers are readable for 1846–1858 and the first years of 1834, and not in between.**",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch catalogue — every parish this family touches, film by film",
    "what": "Juraj Blažević's baptism at Krmpote — and, when that failed, what FamilySearch actually holds",
