@@ -233,12 +233,16 @@ The village closes with its own total, written along the foot of p.213:
 **1. Each *page* is a complete table, not each opening.** Every page carries the
 full column set — *Pagus · N° Domus · Nomina Familiæ · Dies · Mensis · Anno ·
 Confirmatio · Confessio/Communio*. An opening therefore holds **two** independent
-household pages, and the previous sittings read only the left one. Pagination:
-**left page = 2 × image + 2, right page = 2 × image + 3**, fixed at four points
-(102→206, 103→208, 104→210, 105→212, and 101 right = 205).
+household pages, and the previous sittings read only the left one. Pagination
+around Šumećica runs **left = 2 × image + 2, right = 2 × image + 3** (102→206,
+103→208, 104→210, 105→212, 101 right = 205) — *but this is a local fit only, and
+the fourth sitting below shows it does **not** hold across the book. Read the
+printed page number off the frame.*
 
-**2. `HDR = image + 243` is wrong.** Image 102 is page 206, not 345. The earlier
-formula was fitted to something else and should not be used.
+**2. `HDR = image + 243` is not the book's page number.** Image 102 is page 206,
+not 345. *(Corrected by the fourth sitting below: the formula is right for the
+**film-target stamp** — image 110 carries `HDA 353` — it is simply a different
+numbering from the book's own printed pages.)*
 
 **3. The surname IS in the *Nomina* column** — at the head of each household
 (*"Nicolaus Xubrinich"*, *"Matthæus Oreskovich"*, *"Josephus Dasovich"*).
@@ -371,3 +375,161 @@ published as a finding.**
 * **Never `await` a long fetch inside one console call.** The bridge kills any
   evaluation at 45 s. Kick the work off into a background queue that writes a
   status string, and poll it.
+
+---
+
+# Fourth sitting, 14 September 2026 — the whole census read, and question 4 answered
+
+The third sitting found Šumećica and reported a null. **That null was real but the
+question behind it was wrong.** This sitting read the **entire** census — images
+9 to 122, both pages of every opening, 234 pages — and the man question 4 is
+about is in it.
+
+**He is not at Šumećica. He is at Dubrava, house 60.**
+
+## Page 91 — Pagus *Dubrava*, N° Domus **60**
+
+Read at full resolution, cell by cell:
+
+    Casparus Xubrinich ............ 14. Jan.   1767.   [margin: 1829 · 4 Martij]
+    Joannes  filius detto ......... 24. Maji.  1793.   [margin: 1826]
+    Michael    "    detto ......... 14. 7bris. 1797.
+    Elias      "    detto ......... 10. Julij. 1806.   [margin: 845]
+    Casparus   "  Joannis .........  9. 8bris. 1819.
+    Thomas     "    detto ......... 22. Xbris. 1822.
+    Joannes  filius Eliæ .......... 19. Junii  1837.
+    Antonius   d°      d° ......... 16ª Januar 1842.
+    Joanna uxor Thomæ nata Katkovic
+    Nicolaus filius Thomæ .........  3. August 184[8].
+
+and on page 92, the women of the same house: *Helena uxor Caspari · Magdalena
+uxor Joannis · Vincentia filia Caspari · Anna uxor Eliæ · Mathia, Francisca,
+Maria and Catharina filiæ Eliæ · Francisca consors Caspari · Josepha filia
+Caspari · Helena filia Eliæ et Catharinæ.*
+
+## Why this settles question 4's spine
+
+The archive's Port Pirie line, as the tree gives it:
+
+    Casparus (1767-1829) -> Elias "Ilija" (1806-1845) -> Joannes b. 19 June 1837
+    -> Ivan Zubrinic (1860-1930) -> Port Pirie
+
+The census gives, in **one household**:
+
+| Tree | Census, page 91 |
+|---|---|
+| Casparus b. **14 Jan 1767** | `14. Jan. 1767.` — exact |
+| Casparus d. **1829** | margin `1829 · 4 Martij` — **and now to the day** |
+| Elias b. **1806** | `10. Julij. 1806.` — **and now to the day** |
+| Elias d. **1845** | margin `845` |
+| Joannes b. **19 June 1837** | `19. Junii 1837.` — exact |
+
+Three generations, four dates confirmed and two of them sharpened from a year to
+a day. **This is not a name-and-year coincidence** of the kind this archive has
+been caught by before: it is four independent dates agreeing inside a single
+ruled household block, with the right given names in the right generations.
+
+## And question 4's premise was wrong
+
+The question assumed Casparus and Toma were *"born a year apart in one small
+village"* — Šumećica. **Casparus was never at Šumećica.** He is at **Dubrava**,
+a much larger village: page 98 closes it with **`Pagus Dubrava continet 528`**
+souls against Šumećica's 148.
+
+**No Toma Žubrinić born 1768 exists anywhere in the census.** The nearest things
+to one, and neither is an identification:
+
+* **Obilje, page 181** — *`Martha vidua defti Thomæ, 5. Julij 1767`*: the widow
+  of a **dead Thomas Žubrinić**, herself born 1767. Her husband is not entered
+  and has no date, because he died before the recension.
+* **Dubrava, page 99** — *`Stephanus Xubrinich, 14. Aprilis 1769`*, and
+  *`Miho Žubrinić, 22. Xbris 1773`*.
+
+So the tree's *"Toma b. 1768, Šumećica 2"* is not corroborated and its village
+is contradicted: **Šumećica's houses in this book run 9 to 14 and there is no
+house 2.**
+
+## Every Žubrinić household in the parish, 1710–1846
+
+Fourteen, across six villages. Read off the *Nomina Familiæ* column of all 234
+pages.
+
+| Pagus | N° Domus | Head | Page |
+|---|---|---|---|
+| Ottocsacz | 40 | Wolfgangus Xubrinich, *Maritus* | 17 |
+| Dubrava/Novoselia | 41 | **Antonius Mihaljevich *nunc* Zubrinich** | 72 |
+| Dubrava | **60** | **Casparus Xubrinich, b. 14 Jan 1767** | 91–92 |
+| Dubrava | 62 | Michael Xubrinich | 93 |
+| Dubrava/Novoselia | 68 | Matthæus Xubrinich; also Joannes Xubrinich | 97 |
+| Dubrava | — | Miho Žubrinić b. 1773; Stephanus Xubrinich b. 1769 | 99 |
+| Luka/Prozor | 14 | Joannes Xubrinich | 142 |
+| Luka/Prozor | 17 | **Stephanus Xubrinich, *Sylvarum Custos*** | 145 |
+| Obilje | 48/49 | Marcus Xubrinich b. 1789; *Martha vid. defti Thomæ* b. 1767 | 181 |
+| Obilje | 50 | Josephus Xubrinich; Gregorius frater; Antonius | 182 |
+| Obilje | 51 | Paulus Xubrinich (sons Casparus, Martinus, Blasius) | 184 |
+| Poljice | 13/14 | Michaël Xubrinich *adoptatus* — married in | 183 |
+| Shumechicza | 10 *(inferred)* | Nicolaus Xubrinich b. 21 Nov 1798 | 206–207 |
+| *Advenæ* | — | **Bartolomæus Zubrinich, *Sutor*** — a shoemaker | ~226 |
+
+Women married out, for the record: *Maria* and *Stana nata Xubrinich* in the
+Laskarin house at Prozor 24 (p.122); *Mathia uxor Stephani nata Zubrinich*
+(p.187).
+
+**The archive's gazetteer says Prozor is Žubrinić country. On this book's
+evidence the centre of gravity is Dubrava/Novoselia and Obilje**, with Prozor
+and Šumećica holding one or two houses each.
+
+## Two Croatian lists at the back, which cross-check the Latin
+
+Images 118–120 carry **`Ligna pro Anno 1846`** — a firewood-dues roll — and a
+similar 1845 list, both in **Croatian**, entered as house number + name:
+
+    N° 17 Filip Žubrinić · N° 44 Ive Žubrinić · N° 49 Ive Žubrinić
+    N° 50 Jure Žubrinić · N° 51 Pave Žubrinić · N° 10 Miho Žubrinić
+    N° 2 Miho Žubrinić · Ilia Žubrinić · Mate Žubrinić
+
+**`N° 51 Pave`** is *Paulus* of Obilje 51 and **`N° 17 Filip`** is *Philippus*,
+son of Stephanus the forest guard at house 17 — the vernacular list and the
+Latin household pages agree. These rolls are parish-wide, so a bare `N° 2` does
+**not** locate a house at Šumećica and is not being read as one.
+
+## Other surnames worth knowing are here
+
+* **Untersinger** — question 4b's surname. A household at **Otočac, page 29**:
+  *Petrus Untersinger, 19 Junij 1780*, with *Georgius fil: defti Lucæ (1787)*,
+  *Michael fil: Georgij (1810)* and grandchildren to 1846. And in the 1846
+  firewood roll, **`Stipan Majer Untersinger`**.
+* **Orešković** — ahnentafel 10's mother's family, thick at Šumećica (houses 11
+  and 12) and at Poljice, Prozor and Lešće.
+* **Name changes recorded in the book itself**: *"Antonius Mihaljevich **nunc**
+  Zubrinich"* (p.72) and *"Josephus Kostelacz adoptivus, **prius vocatus
+  Dujmovich**"* (p.169). This parish renames people on adoption, and says so.
+
+---
+
+# Two corrections to the third sitting's write-up
+
+**1. `HDA = image + 243` is not wrong.** The third sitting said it was. It is
+right — image 110 carries the film-target stamp **HDA 353**. What it is *not* is
+the book's printed page number: image 110's pages are numbered 220 and 221.
+**Two different numbering systems, both real.**
+
+**2. `page = 2 × image + 2` does not hold across the book.** It was fitted to
+images 101–105 and it fits there, but image 97's right page is **174**, not 197.
+The book has unnumbered and blank leaves and at least one stretch of **duplicate
+film exposures** (images 63/64, 79/80 and 89/90 are each the same opening shot
+twice). **Read the printed page number off the frame; do not compute it.**
+
+## Method note: the sweep that did it
+
+Each page's *N° Domus* + *Nomina Familiæ* strip, stitched at a 1-level drop,
+four pages tiled to a 2000-pixel contact sheet, posted to disk and read. Two
+openings per sheet, 59 sheets for the whole census. The surname is legible at
+that scale; anything that looked like a Žubrinić was then re-fetched at full
+resolution before a word of it was written down.
+
+Anchoring is per frame and per page: the darkest column in the left 30 % of the
+frame is the binding shadow, the darkest in 0.44–0.62 is the gutter, and every
+crop is taken as `anchor + offset`. The renderer wedges after a few hundred
+canvases — **reload the viewer every ten sheets or so**, and keep the ARK map in
+`localStorage`, not `sessionStorage`, so a reload or a new tab does not cost it.

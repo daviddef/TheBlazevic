@@ -193,3 +193,21 @@ needs — which is the point.
 The console bridge kills any `javascript_tool` call at 45 s, and a full-resolution
 page is more than that. Push the work into a background queue that records a
 status string and poll it with a second, short call.
+
+### Two numbering systems on one frame
+
+The Otočac census frames carry **both** a film-target stamp and the book's own
+printed page number, and they are not the same thing. `HDA = image + 243` is the
+**film stamp** (image 110 = `HDA 353`). The **page** number is printed on the
+paper and follows no formula — image 110 is pages 220/221, image 97 is 173/174 —
+because the book has unnumbered leaves and the film has duplicate exposures
+(images 63/64, 79/80 and 89/90 are each the same opening shot twice).
+**Read the page number off the frame; never compute it.**
+
+### The renderer wedges, and the map should outlive it
+
+After a few hundred stitched canvases the tab stops responding — `javascript_tool`
+times out and screenshots hang. Reloading the viewer clears it. Reload every ten
+contact sheets or so rather than waiting for the wedge, and keep the number→ARK
+map in **`localStorage`**, not `sessionStorage`, so neither a reload nor a fresh
+tab costs the scrape.
