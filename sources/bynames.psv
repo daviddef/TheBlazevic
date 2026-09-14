@@ -1,0 +1,28 @@
+# Household by-names (nadimci) recorded beside a surname in the registers.
+#
+# This began as a footnote to question 5 — was "Papa" a surname or a by-name?
+# It is now a documented parish practice: Selce and its neighbours wrote the
+# surname AND the household name, joined by aliter / dictus / dicti, and the
+# scribes UNDERLINED the pair to mark what it was.
+#
+# Every row is a phrase read off a register at full resolution, not an
+# inference. "underlined" records whether the scribe underlined it in that
+# entry — u = yes and seen, n = no, ? = not established.
+#
+# surname|connector|byname|as written|place|year|underlined|source
+Antić|—|Papa|Marthæ Antich Papa|Vrbnik or Selce|1806|u|baptism of ahn 24, 14 Mar 1806
+Antić|—|Dudin|Maria Antich Dudin|Vrbnik or Selce|1806|u|same page, 22 Mar 1806, godmother
+Lončarić|—|Franić|Maria Lonzarich Franich|Vrbnik or Selce|1806|u|same page, 22 Mar 1806, mother
+Jelličić|dictis|Jurešina|Margarita Jellichich dictis Jurešina|Selce|1809|u|baptism of ahn 25, 22 Mar 1809
+Lončarić|dicti|Hel|Vincentii Lonzarich Hel dicti|Selce|1809|u|same entry, godmother's husband
+Antić|—|Papa|Josephum Antich Papa|Selce|1835|u|marriage of ahn 24 × 25, domus 51
+Antić|aliter|Papa|Euphemia Antich, aliter Papa|Selce|1835|?|his sister, same day, domus 80
+Dudić|aliter|Antić|Josephum Dudich aliter Antich|Selce|1835|u|same opening, a different Joseph Antić
+Franić|aliter|Lončarić|Josepho Franich aliter Lonzarich|Selce|1835|n|same opening, witness
+Pužić|aliter|Lončarić|Lucia Puxich aliter Lonzarich|Selce|1835|n|same opening, bride
+Badrović|aliter|Bagatello|Marca Badrovich aliter Bagatello|Selce|1835|n|same opening, bride
+Penes|aliter|Paschul|Franciscum Penes aliter Paschul|Selce|1835|n|same opening, groom
+Orešković|adoptatus|Sekula|Marcus Oreskovich, adoptatus Sekula|Otočac|1835|u|baptism at Dubrava 29, 8 Sep 1835
+Antić|—|Papa|Josephi Antich Papa|Selce|1838|n|baptism of ahn 12, domus 51
+Antić|aliter|Dudić|Vincentius Antich, aliter Dudich|Selce|1842|?|death, 29 Jan 1842, aged 63
+Papić|—|Papa|Juraj Papa|Senj|1885|n|marriage of ahn 6, p.192 no.5 — the by-name alone, surname gone

@@ -39,6 +39,18 @@ for m in media:
         if p.get("slug"):
             with_media[p["slug"]] += 1
 
+# Documents actually read out, listed by hand in sources/readings.psv. Without
+# this, a person whose register entry was read weeks ago still grades as
+# "scanned" — an image attached, nothing read — because a reading lives in a
+# note or a page's prose and never reaches the data. That was question 9b.
+read_slugs = set()
+_rp = os.path.join(ROOT, "sources", "readings.psv")
+if os.path.exists(_rp):
+    for line in open(_rp, encoding="utf-8"):
+        line = line.strip()
+        if line and not line.startswith("#"):
+            read_slugs.add(line.split("|")[0])
+
 read_ids, disputed = set(), set()
 for c in corr:
     (disputed if c["kind"] == "disputed" else read_ids).add(c["id"])
@@ -53,7 +65,7 @@ for a in anc:
         continue
     gen = ahn.bit_length()          # 1 -> gen 1, 2-3 -> 2, 4-7 -> 3 ...
     n_media = with_media.get(a["slug"], 0)
-    if a["id"] in read_ids:
+    if a["id"] in read_ids or a["slug"] in read_slugs:
         state = "read"
     elif n_media:
         state = "scanned"
@@ -85,7 +97,7 @@ for q in everyone:
     n = with_media.get(q["slug"], 0)
     if q["id"] in disputed:
         st = "disputed"
-    elif q["id"] in read_ids:
+    elif q["id"] in read_ids or q["slug"] in read_slugs:
         st = "read"
     elif n:
         st = "scanned"

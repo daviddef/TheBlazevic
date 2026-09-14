@@ -1,0 +1,38 @@
+# Documents that have actually been READ OUT for a person, with the citation.
+#
+# Why this file exists: tools/coverage.py grades the direct line, and its
+# "scanned" state means "an image is attached but has not been read out". It had
+# no way of knowing when a document HAD been read, because a reading lives in a
+# page's prose or a note, not in the data. So four people sat at "scanned" whose
+# documents had been read out weeks earlier, and /coverage overstated how much
+# of the line was unevidenced. That was question 9b.
+#
+# One row per person per document. The slug is the person the document is
+# evidence FOR - a baptism names parents, so it is a reading for the child and
+# for both parents.
+#
+# slug|kind|year|where read|citation
+josephum-antic|baptism|1806|notes/vrbnik-or-selce.md|1806 baptism, 14 Mar — "Marthæ Antich Papa … nomine Josephum"
+joannis-antic|baptism-of-child|1806|notes/vrbnik-or-selce.md|named as father, 1806 baptism of ahn 24
+margarita-martha-loncaric|baptism-of-child|1806|notes/vrbnik-or-selce.md|named as mother, 1806 baptism of ahn 24
+maria-jellicic|baptism|1809|notes/selce-1809-baptism.md|Selce entry 70, house 110 — "Margarita Jellichich dictis Jurešina"
+georgi-juraj-jellicic|baptism-of-child|1809|notes/selce-1809-baptism.md|named as father, 1809 baptism of ahn 25
+margarita-brozovic|baptism-of-child|1809|notes/selce-1809-baptism.md|named as mother, 1809 baptism of ahn 25
+matia-mathiam-georgiam-uroda|baptism|1810|notes/karlobag-1810-uroda.md|Karlobag, 23 April 1810, entry 23
+josephum-antic|marriage|1835|notes/selce-1835-marriage.md|Selce, 22 Nov 1835, domus 51
+maria-jellicic|marriage|1835|notes/selce-1835-marriage.md|Selce, 22 Nov 1835, domus 51
+joannis-antic|marriage-of-child|1835|notes/selce-1835-marriage.md|named as the groom's late father
+margarita-martha-loncaric|marriage-of-child|1835|notes/selce-1835-marriage.md|named as the groom's late mother
+georgi-juraj-jellicic|marriage-of-child|1835|notes/selce-1835-marriage.md|named as the bride's late father
+margarita-brozovic|marriage-of-child|1835|notes/selce-1835-marriage.md|named as the bride's late mother
+georgi-juraj-jellicic|death|1832|notes/selce-deaths.md|Selce, 1 Apr 1832, house 39 — "Georgius Jellicich, Antonii"
+margarita-brozovic|death|1842|notes/selce-deaths.md|Selce, 8 May 1842, entry 147, house 204
+matia-matthea-matija-pilipic|baptism|1838|notes/karlobag-1838-pilipic.md|Karlobag, 18 Sep 1838 — "Cammeralis nauclerō Vincentii Pilipich"
+vicentius-andreas-vincent-vicko-pilipic|baptism-of-child|1838|notes/karlobag-1838-pilipic.md|named as father, with his trade
+georgius-juraj-joannis-papa-antic-papic|baptism|1838|notes/selce-1838-baptism.md|Selce, 11 Mar 1838, domus 51 — the name read as "Gregorium"
+georgius-juraj-joannis-papa-antic-papic|marriage-of-child|1885|notes/reading-2026-09-13-familysearch.md|named as "Juraj Papa, težak" at his son's marriage, Senj p.192 no.5
+joannis-perpic|marriage-of-child|1885|notes/reading-2026-09-13-familysearch.md|named as "Ivan Perpić, seljak" at his daughter's marriage, Senj p.192 no.5
+marcus-oreskovic-oreskovic|baptism-of-child|1835|site/src/pages/frontier.astro|Otočac, 8 Sep 1835, Dubrava 29 — "Marcus Oreskovich, adoptatus Sekula"
+lucia-sekula|baptism-of-child|1835|site/src/pages/frontier.astro|named as "Lucia uxor ejus nata Sekula", same entry
+vicentius-fabiano-smojver-vukic|baptism|1754|notes/reading-2026-09-10.md|Karlobag, 18 January 1754
+caetano-bacchi|baptism|1779|notes/reading-2026-09-10.md|Karlobag, 12 January 1779 — "ex Angelo et Catharina Bacchi"

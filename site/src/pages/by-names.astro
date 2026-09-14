@@ -1,0 +1,95 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import B from "../data/bynames.json";
+
+const und = B.rows.filter((r) => r.underlined === "u");
+const conn = [...new Set(B.rows.map((r) => r.conn).filter((c) => c !== "—"))];
+---
+<Base title="The Second Name"
+  eyebrow={`${B.rows.length} phrases · ${B.nPairs} pairs · ${B.nSurnames} surnames · ${B.years[0]}–${B.years[1]}`}
+  dek="A household by-name is not a nickname and not a spelling. It is a second name that identifies which family of that surname you mean — and in these parishes the priest wrote both, joined them with a word, and underlined the join.">
+
+  <section class="blk">
+    <p class="lede">This page exists because a question got a bigger answer than it asked for.</p>
+    <p><a href={u("/open-questions/")}>Question 5</a> asked whether <strong>Antić</strong> and
+    <strong>Papić</strong> were one family or two, and whether <em>Papa</em> was a surname or
+    something else. The answer is that <em>Papa</em> is a <strong>nadimak</strong> — a house
+    by-name — and the surname it sits beside is Antić.</p>
+    <p>But the evidence turned out not to be about this family at all. Reading the registers at
+    full resolution in September 2026 found the same construction <strong>{B.rows.length} times,
+    across {B.nSurnames} surnames and {B.places.length} parishes</strong>, over
+    {B.years[1] - B.years[0]} years and at least three different priests' hands.
+    <strong>Papa is one instance of a system.</strong></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The tell</div>
+    <h2>The scribes underlined them</h2>
+    <p class="lede">{B.nUnderlined} of the {B.rows.length} phrases are <strong>underlined in the
+    register itself</strong>. Not the archive's emphasis — the priest's.</p>
+    <p>That is what makes this a finding rather than a guess. A scribe who underlines
+    <em>Antich Papa</em>, <em>Lonzarich Franich</em> and <em>Jellichich dictis Jurešina</em> on his
+    own pages is not writing down two surnames by accident. <strong>He is marking a convention he
+    expects a later reader to need</strong> — and two hundred years later, that reader is this
+    archive.</p>
+    <p style="margin-top:1.1rem">Where a connecting word is used it is
+    {conn.map((c, i) => (<><em class="mono">{c}</em>{i < conn.length - 1 ? ", " : ""}</>))} — Latin
+    for <em>otherwise</em>, <em>called</em>, and in one case <em>adopted</em>. Often there is no
+    word at all and the two names simply run together.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Every phrase read</h2>
+    <table class="reg">
+      <thead><tr><th class="mono">year</th><th>As written</th><th>Surname</th><th>By-name</th><th>Where</th></tr></thead>
+      <tbody>{B.rows.map((r) => (
+        <tr>
+          <td class="mono">{r.year}</td>
+          <td><span class="mono">{r.written}</span>
+            {r.underlined === "u" && <span class="tag" style="margin-left:.5rem">underlined</span>}
+            <div class="dim" style="margin-top:.25rem">{r.source}</div></td>
+          <td><strong>{r.surname}</strong></td>
+          <td><strong>{r.byname}</strong></td>
+          <td class="dek">{r.place}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <h2>What it is for</h2>
+    <p class="lede">A village where forty households share nine surnames cannot be run on surnames.
+    The by-name is the thing that tells <strong>which Antić</strong> you mean.</p>
+    <p>It is the same job the <a href={u("/gazetteer/")}>house number</a> does at Smokvica, and the
+    same job the patronymic does at Otočac — <em class="mono">Ivo Blažević <strong>sin
+    Tomin</strong></em> against <em class="mono">Ivo Blažević <strong>sin Matin</strong></em>, two
+    men of one name told apart by their fathers. Three devices, one problem.</p>
+    <p style="margin-top:1.1rem">And at <a href={u("/harvest/")}>Grižane in 1738</a> the census
+    does it a fourth way: <em class="mono">Juraj car <strong>Vulin</strong></em>, <em class="mono">Matij
+    car <strong>Jurišin</strong></em>, <em class="mono">Lovro car <strong>Mikulin</strong></em> —
+    <em>of Vule, of Juraj, of Mikula</em> — and one household identified purely by marriage,
+    <em class="mono">Mikula … <strong>Blaškovicha zet</strong></em>, Blašković's son-in-law.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Why it matters beyond one question</div>
+    <h2>A by-name can eat a surname</h2>
+    <p class="lede">The Antići are the proof. Watch the same family across five documents:</p>
+    <table class="kv">
+      <tr><th class="mono">1806</th><td><strong>Antich Papa</strong> — surname first, by-name second, underlined</td></tr>
+      <tr><th class="mono">1835</th><td><strong>Josephum Antich Papa</strong> — still both, underlined</td></tr>
+      <tr><th class="mono">1835</th><td><strong>Euphemia Antich <em>aliter</em> Papa</strong> — his sister, the join spelled out</td></tr>
+      <tr><th class="mono">1838</th><td><strong>Josephi Antich Papa</strong> — still both, at his son's font</td></tr>
+      <tr><th class="mono">1885</th><td><strong>Juraj Papa</strong> — <strong>the surname is gone</strong></td></tr>
+    </table>
+    <p style="margin-top:1.2rem">By 1885 the priest at Senj writes only the by-name, and every
+    descendant after him is written <strong>Papić</strong>. <strong>The house name became the
+    family name in three generations</strong>, and the registers caught it happening.</p>
+    <div class="note"><strong>The warning in it.</strong> If a by-name can replace a surname, then
+    two records of one family can disagree about its name without either being wrong — and two
+    families can look like one because they share a by-name. Any match made on a surname in these
+    parishes is weaker than it looks. That is the rule
+    <a href={u("/duplicates/")}>the duplicate finder</a> is built around, and this is where it
+    comes from.</div>
+  </section>
+</Base>

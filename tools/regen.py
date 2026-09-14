@@ -45,6 +45,7 @@ ORDER = [
     "work.py",
     "placefix.py",
     "targets.py",
+    "bynames.py",
     "register.py",
     "coverage.py",
     "whoindex.py",
