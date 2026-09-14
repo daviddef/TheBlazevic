@@ -1,0 +1,751 @@
+{
+ "note": "Every source this archive has put a name to, whether or not it gave anything back. A search that returns nothing is a result: without it the next person repeats the work, and — worse — reads a silence as an absence. “Blocked” means a login wall, a bot check or an access denial this archive has chosen not to get round. “Not yet” means known, wanted, and not obtained. The register is kept by hand in sources/searched.json and validated by tools/searched.py.",
+ "cols": [
+  "Source",
+  "What was searched",
+  "When",
+  "Outcome",
+  "What it gave, or did not"
+ ],
+ "rows": [
+  {
+   "src": "FamilySearch — Senj marriages, 1859–1920",
+   "url": "https://www.familysearch.org/search/catalog/results?q.text=Senj",
+   "what": "Every Papić and Blažević marriage the film holds, read page by page",
+   "when": "9–13 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "marriages"
+   ],
+   "got": "**Eleven marriages, and every other bride on each page.** Pages 303, 307, 315, 322, 324, 326, 333, 348, 350, 355, 359 and — at full resolution on 13 September — 192, 294 and 366.\n\nThe pages carry more than the family. **The tobacco factory shows up as a decade-long trend**: three of five brides in 1909 give *tvorničarka* as their occupation, seven of eight by 1919. That is not a household fact; it is an industrial one, and it is only visible because the whole page was read rather than the one entry.\n\nThe film was also **verified end to end** — image 196 is page 192 (1885), image 371 is page 366 (1920).",
+   "ev": [
+    [
+     "/senj/",
+     "Senj"
+    ],
+    [
+     "/register/",
+     "The register"
+    ],
+    [
+     "/marriage-1920/",
+     "The 1920 marriage"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Senj marriages, 1734–1858",
+   "url": "https://www.familysearch.org/search/catalog/results?q.text=Senj",
+   "what": "Juraj Papa × Matija Filipić, and every marriage above them",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "marriages"
+   ],
+   "got": "**The older Senj marriage book has never been opened.** It is the volume that would carry ahnentafel 12's own marriage — Juraj “Papa” Antić of Selce to Matija Filipić — and with it the join between the Selce house and the Senj one.\n\nIt is held, it is filmed, and nothing but sitting hours stands between this archive and it."
+  },
+  {
+   "src": "FamilySearch — Senj deaths, 1859–1907",
+   "what": "Two entries, and what the pages around them say about how people died",
+   "when": "9 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "deaths"
+   ],
+   "got": "**Toma Blažević, tuberculosis, aged 69 (p.162, 1903)** and **Stanko Papić, scarlatina at twenty months (p.225, 1907)** — the second in an outbreak that killed four children in eight days.\n\nTwo pages of one register. **Everything else in the Senj death books is unread**, and the archive's own name-reuse table leans on that silence without saying so.",
+   "ev": [
+    [
+     "/senj/",
+     "Senj"
+    ],
+    [
+     "/gazetteer/",
+     "The gazetteer"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Senj deaths, 1915 · Senj baptisms, Jan–Feb 1895",
+   "what": "Zvonimir Vukelić's death; the two sisters recorded eighteen days apart",
+   "when": "13 Sept 2026",
+   "outcome": "nothing",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "holdings"
+   ],
+   "got": "**Not in this collection, and the catalogue said otherwise.** Senj deaths on film stop at **1907**; Senj births stop at **1894**. Both sisters fall one year outside, and the death that widowed Milka at twenty-eight falls eight years outside.\n\nFour published research plans depended on these two books. They were written against a catalogue label, and checking the film killed all four in an afternoon. That is the most useful negative this archive has recorded.",
+   "ev": [
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Senj baptisms, 1734–1894",
+   "what": "Milka Papić's baptism, 1886",
+   "when": "9 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "baptisms"
+   ],
+   "got": "**Her own baptism at str. 122** — and a registrar's margin added in **1971** citing her death entry at page 280, line 37. A parish clerk closed the loop eighty-five years later and left the reference behind for us.\n\n**Her eight siblings' baptisms are attached in the tree as images and none has been read.**",
+   "ev": [
+    [
+     "/milka/",
+     "Milka"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Krmpote-Vodice (sv. Jakov) births, the film behind the label",
+   "what": "Whether the film really holds 1815–1896, as the waypoint claims",
+   "when": "13 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Krmpote",
+    "holdings"
+   ],
+   "got": "**The label is wrong by sixty-four years.** Image 10 is page 2 and reads *Godine 1879*; image 188 is page 177 and reads *Godine 1896*. **The film is 1879–1896.**\n\nThis is the parish that should hold every Blažević above Toma, and Jurko Blažević — born about the 1860s — is outside it. Two published plans died here as well. The lesson has been written into the harvest map: *the label on a waypoint is a claim about the parish, not about the film.*",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ],
+    [
+     "/open-questions/",
+     "Question 1b"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Krmpote (sv. Jakov) baptisms, 1888 and 1895",
+   "what": "The Blažević children of Smokvica krmpotska 114",
+   "when": "9 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Krmpote",
+    "baptisms"
+   ],
+   "got": "**Two children born at the same house number seven years apart**, HDA 111 p.104 and HDA 176 p.168 — and **two different men called Ivo Blažević** standing godfather, one the son of Mate and one the son of Toma.\n\nThat is what made the archive stop calling Smokvica 114 a household. **It is a zadruga** — an extended family under one roof and one number — and the correction runs through every page that counted people by house.",
+   "ev": [
+    [
+     "/gazetteer/",
+     "The gazetteer"
+    ],
+    [
+     "/bunjevci/",
+     "Bunjevci"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Krivi Put baptisms, 1859",
+   "what": "Antonija Perpić, Krivi Put N° 136",
+   "when": "9 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Krivi Put",
+    "baptisms"
+   ],
+   "got": "Her household is entered ***Confiniarii*** — **a Military Frontier family**, which is a legal status and not a description. Seven Perpić children sit on the one page.\n\nOnly the page her entry falls on has been opened.",
+   "ev": [
+    [
+     "/frontier/",
+     "The Frontier"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Otočac baptisms, 1834 and 1845",
+   "what": "The Žubrinić household at Šumećica 24",
+   "when": "10 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Otočac",
+    "baptisms"
+   ],
+   "got": "**Nicolaus, 1834, at Šumećica 24, *Confiniarius*** — and a **Josephus in 1845 whose mother is née Marković where the 1834 mother is née Orešković.** Five Frontier offices came out of the godparent columns of two pages.\n\nThe two mothers are the whole of question 4d: **one Michaël Žubrinić with two wives, or two men of the same name.** The books that would settle it — Otočac marriages before 1834, and deaths 1834–45 — are unopened.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/frontier/",
+     "The Frontier"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Otočac, Stanje duša (status animarum) 1710–1846",
+   "what": "The Žubrinić households of Šumećica 2 and 24, listed by house rather than by event",
+   "when": "13–14 Sept 2026",
+   "outcome": "pending",
+   "tags": [
+    "FamilySearch",
+    "Otočac",
+    "census"
+   ],
+   "got": "**The right instrument, and still unread.** A household census lists *Pagus, Domus, Nomina Familiæ* and birth dates together — it is the one document that would show a Žubrinić household whole instead of one baptism at a time, and it reaches back **a hundred and twenty-four years before the baptismal register begins.**\n\nThe film target is confirmed. The reading has been split into a session of its own because it is a week of work, not an afternoon.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Otočac marriages, 1859–1872",
+   "what": "Whether the 1859 marriage on the film is ahnentafel 10's",
+   "when": "13–14 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Otočac",
+    "marriages"
+   ],
+   "got": "Images 129–147 verified against their printed pages — pag. 10 is 1862, pag. 18 is 1865. **One entry read out in full and deliberately not claimed.** On 14 September the identification was revised *down*: the 1859 marriage is now **less** likely to be his, and the note says so rather than quietly dropping it.\n\nThe register has no column this archive wanted: **it does not give the fathers' villages.**",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Karlobag baptisms, 1754–1838",
+   "what": "Every Karlobag ancestor on the direct line",
+   "when": "9–14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Karlobag",
+    "baptisms"
+   ],
+   "got": "**Seven pages, and the best-read parish in the archive.** A *Dominus* honorific, a Giustiniani godfather, a Pro-Colonel, a Captain, a Baron von Holstein — and one volume kept in **Croatian rather than Latin**.\n\nTwo sittings in September closed two more: **ahnentafel 27's baptism of 1810**, confirming the tree to the day, and **ahnentafel 13's of 18 September 1838**, which gave the archive its first people who worked at sea — her father a *cammeralis nauclerus*, a chamber shipmaster, and her grandfather a *mercator*.\n\nBoth readings nearly went wrong. The 1810 month read as *7ma* — September — at page scale and is a **ditto mark** at 3.4×; it would have been published as a five-month correction to a tree that was right.",
+   "ev": [
+    [
+     "/direct-line/",
+     "The direct line"
+    ],
+    [
+     "/coverage/",
+     "Coverage"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Selce baptisms, 1806 (the page long labelled Vrbnik)",
+   "what": "Which parish ahnentafel 24's baptism actually belongs to",
+   "when": "9–14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Selce",
+    "by-names",
+    "correction"
+   ],
+   "got": "**The parish is Selce, not Vrbnik — and this archive carried the wrong label for weeks** on the strength of a modern pencil annotation.\n\nWhat settled it was not the page but the priest. The baptism is signed *“Mich: Rombol Capell: Loci”*; the **Selce deaths of 1806**, on a different film, are kept by the same man under the same title. Same hand, same office, same year.\n\nThe page also answered question 5: three underlined by-names in one entry — ***Antich Papa*, *Loncsarich Franich*, *Antich Dudin***.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ],
+    [
+     "/corrections/",
+     "What changed"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Selce baptisms, 1809 and 1838",
+   "what": "Ahnentafel 25's baptism, and ahnentafel 12's",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Selce",
+    "baptisms"
+   ],
+   "got": "**1809, entry 70, house 110** — the tree's 22 March confirmed, ahnentafel 50 and 51 named, and a ninth by-name pair, *“Jellichich dictis Jurešina”*, underlined by the priest exactly as his successor underlined *“Antich Papa”* a generation later.\n\n**1838, image 186, domus 51** — ahnentafel 12's own baptism on 11 March, the tree's exact date, in the same house as his parents' marriage three years before and by the same priest. His father is entered *“Josephi Antich Papa”*, which carries the by-name to the font.\n\nOne thing got worse: **the child's name is written *Gregorium*, not *Georgium*.** The identification is beyond doubt; the given name now is not.\n\nBoth volumes were **on disk the whole time**, attached in the tree and counted merely as *scanned*.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ],
+    [
+     "/coverage/",
+     "Coverage"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Selce marriages, 1835",
+   "what": "Ahnentafel 24's marriage to ahnentafel 25",
+   "when": "9 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Selce",
+    "marriages",
+    "by-names"
+   ],
+   "got": "**Four direct ancestors named in one entry** — 48, 49, 50 and 51, all four already dead — at houses 51 and 80, pages 21–22.\n\nThe groom is entered *“Josephum Antich Papa”*; his sister, marrying the bride's brother **the same day**, is *“Euphemia Antich aliter Papa”*. **Five more *aliter* pairs sit on the same opening.** This is the page that turned a curiosity into a system.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ],
+    [
+     "/direct-line/",
+     "The direct line"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Selce deaths, 1832 and 1842",
+   "what": "The nine direct ancestors this book should hold",
+   "when": "14 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FamilySearch",
+    "Selce",
+    "deaths"
+   ],
+   "got": "**Two found, both confirming the tree to the day and both adding a house number it did not have.** Ahnentafel 50: *“Die 1ª Aprilis 1832”*, house 39, *“Georgius Jellicich, Antonii”* — a patronymic that names his father. Ahnentafel 51: *“Die 8ª Maji 1842”*, entry 147, house 204.\n\n**The archive had published a question claiming the register contradicted the tree here. It did not.** The question was withdrawn and the reason stated: the tree was reached for as the likely culprit because it usually is — which is a bias, not an argument.\n\n**Seven more direct ancestors are in this book and its companion**, and the two houses — 39 and 204 — still do not match.",
+   "ev": [
+    [
+     "/corrections/",
+     "What changed"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Novi Vinodolski, the 1650 register",
+   "what": "Whether the oldest register in reach is readable at all",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Novi Vinodolski",
+    "holdings"
+   ],
+   "got": "**The label holds and the hand is the surprise.** The film target says 1650–1786 and the earliest leaves are **in Croatian, not Latin** — the glagolitic littoral's own practice, a century before the Latin registers this archive is used to.\n\n**One hundred and twenty events** from this family are reachable in the Novi Vinodolski books. Nobody has read a line of them.",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Grižane, Stanje duša 1738",
+   "what": "A second household census, older than Otočac's and in another parish",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "Grižane",
+    "census",
+    "by-names"
+   ],
+   "got": "**Household lists in Croatian, at images ~100–140 of a 579-image film** — and **the by-names again, in 1738, in a parish a day's walk from the others.** The practice this archive documented across ten surnames between 1806 and 1885 is visibly older and wider than its evidence.\n\n**The Blaževići on this page are not claimed.** They are Blaževići at Grižane in 1738 and nothing yet joins them to this family.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Brinje births, marriages and deaths 1888–1900",
+   "url": "https://www.familysearch.org/search/catalog/results?q.text=Brinje",
+   "what": "Kalanj, Perković and Borić, three surnames that meet inland over the Kapela",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "FamilySearch",
+    "Brinje"
+   ],
+   "got": "**Not one page of the Brinje register has ever been opened, and Brinje is not in this archive's gazetteer.** It got onto the list because a 1910 American manifest gave a Kalanj's residence as Brinje, which sent someone back to re-read a Latin baptism of 1864: *“Brinjensis parochiae ruricolae”* — country people of the parish of Brinje, forty kilometres inland from the coast where this archive had always put them.",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Rijeka registers",
+   "what": "Ljubomir Blažević's baptism, 1891–92",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "FamilySearch",
+    "Rijeka"
+   ],
+   "got": "**Never checked — not even the holdings.** Question 13 rests on it, and the parish has sat in the harvest map marked *NOT CHECKED* since the map was written."
+  },
+  {
+   "src": "FamilySearch — the image viewer at full resolution",
+   "what": "Whether a 5,768-pixel register scan can be read without a person at the keyboard",
+   "when": "13 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FamilySearch",
+    "method"
+   ],
+   "got": "**This archive twice published that it could not be done, and was twice wrong.** The Deep Zoom tiles do 401 and taint the canvas — **from `sg30p0.familysearch.org`.** The same tiles are served from **`www.familysearch.org`**, which is same-origin with the viewer: no preflight, no tainted canvas, cookies sent.\n\nSo the register can be read at **six times** the resolution of the 960-pixel copies this archive had been squinting at, and the method is committed as a tool rather than retold each time.\n\nIt matters more than it sounds. At page scale a **19 reads as 1**, a flat-topped **2 reads as 7**, and *Prpić* reads as *Papić*. Two of those nearly reached this site as corrections to a tree that was right.",
+   "ev": [
+    [
+     "/method/",
+     "Method"
+    ],
+    [
+     "/corrections/",
+     "What changed"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — access denied, Error 15",
+   "url": "https://www.familysearch.org/",
+   "what": "Two sessions of tile fetching, and what happened next",
+   "when": "13 Sept 2026",
+   "outcome": "blocked",
+   "tags": [
+    "FamilySearch",
+    "block"
+   ],
+   "got": "**The site stopped answering.** After two long sessions and heavy tile traffic the viewer returned *Access Denied, Error 15*.\n\nWork stopped rather than retried from another angle. The symptoms and the avoidance are written down in `tools/familysearch.md` so the next session paces itself. Access returned the following day."
+  },
+  {
+   "src": "MyHeritage — the family tree export",
+   "url": "https://www.myheritage.com/",
+   "what": "The 15,643-person tree that every page here is built from",
+   "when": "9 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "MyHeritage",
+    "tree"
+   ],
+   "got": "**The spine of the archive, and the thing it is most careful about.** One GEDCOM feeds seven sibling archives. It is not evidence — it is somebody's assembled belief, and this site's whole method is to say which parts of it a document actually holds up.\n\nWhere it has been checked against a register it has been **right far more often than wrong**, including on dates this archive briefly tried to correct."
+  },
+  {
+   "src": "MyHeritage — every image attached to every person",
+   "what": "What is already on disk and has never been read out",
+   "when": "9–14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "MyHeritage",
+    "media"
+   ],
+   "got": "**Repeatedly the best source in the building.** The 1835 Selce marriage, the 1809 baptism and the 1838 baptism were each “awaiting a trip to Croatia” and each was already attached to the tree at 2,987 pixels.\n\nThe same sweep turned up **three Arolsen Archives cards** filed under Hedviga's husband that nobody had opened, and they place him in a Württemberg factory at sixteen.\n\nThe coverage tool now separates *scanned* from *read*, because the difference was hiding a dozen documents in plain sight.",
+   "ev": [
+    [
+     "/arolsen/",
+     "The Arolsen cards"
+    ],
+    [
+     "/pictures/",
+     "Pictures"
+    ],
+    [
+     "/coverage/",
+     "Coverage"
+    ]
+   ]
+  },
+  {
+   "src": "FindMyPast — ZUBRINICH, the first spelling",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "Every record under the anglicised spelling — manifests, marriages, rolls",
+   "when": "13 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FindMyPast",
+    "emigration"
+   ],
+   "got": "**Ivan Žubrinić's 1884 marriage at St Luke, Port Pirie names his father** — civil confirmation of a link this archive held only from the tree — and gives his wife **Rose Garmly** a father, **Thomas Garmly**, where she previously had no parents at all.\n\n**Mate Žubrinić of Prozor 50**, whose record here stopped at his birth in 1867, **sailed to New York in 1911** leaving a wife, Roza.\n\nAnd the method finding that shaped everything after: **post-1906 American manifests carry a last residence and the relative left behind.** That is a Croatian village, named by the emigrant, in an English-language index.",
+   "ev": [
+    [
+     "/port-pirie/",
+     "Port Pirie"
+    ],
+    [
+     "/america/",
+     "America"
+    ]
+   ]
+  },
+  {
+   "src": "FindMyPast — ZUBRINIC, the second spelling",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "106 of 119 records read as transcripts rather than index rows",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FindMyPast",
+    "emigration",
+    "Otočac"
+   ],
+   "got": "**Šumećica is an emigration village and this archive did not know it.** *Franjo Zubrinic, b. 1883, Noordam, 1910, residence “Sumenica”, wife left behind, brother already in New York.* Šumećica is ahnentafel 10's own hamlet, and the archive's emigration page had **Prozor and nothing else**.\n\nThree Otočac men, one naming his **father Marko**; a Prozor man naming his **father Sandro**; and the **Kostelac** link — a nephew and an uncle of that name meeting two different Žubrinići off two different ships.\n\nAlso a warning worth as much as the finds: **only the `ELLIS2` dataset carries residence and relations.** Records whose id begins `R_` or `US/PASSENGERLISTS` will not tell you where in Croatia anyone came from, and the `…/2` and `…/3` suffixes are **relations named on a record, not passengers** — they surface in the index as though they had travelled.",
+   "ev": [
+    [
+     "/america/",
+     "America"
+    ],
+    [
+     "/oto/",
+     "Otočac"
+    ]
+   ]
+  },
+  {
+   "src": "FindMyPast — the Kalanj emigration",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "Where the Klenovica Kalanji went, and where they came from",
+   "when": "13 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FindMyPast",
+    "Brinje",
+    "emigration"
+   ],
+   "got": "**The one finding that changed the Croatian research.** A 1910 manifest gave a Kalanj's residence as **Brinje**; the re-read of their own 1864 baptism then said the same thing in Latin. **They are not a Klenovica family.**\n\nThree of this archive's surnames meet at Brinje — **Kalanj, Perković and Borić** — and a Borić of Brinje married a Papić of Senj.",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
+   "src": "FindMyPast — Canadian arrivals and the St Albans border crossings",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "Three Žubrinić women into Saint John and Halifax, 1926–1930",
+   "when": "14 Sept 2026",
+   "outcome": "partial",
+   "tags": [
+    "FindMyPast",
+    "emigration",
+    "Canada"
+   ],
+   "got": "**Found, and thin on purpose.** Mauda (*Montrose*, Saint John NB, 11 Feb 1926), Nikdla (*Regina*, Halifax, 28 Mar 1928) and Vinka (*Minnedosa*, Saint John NB, 19 Feb 1930) all sailed from Liverpool — and these are **UK outbound lists, which do not name a Croatian village.**\n\nThe **St Albans, Vermont** border crossings are thinner still: country of birth and nothing else. Recording that is the point — it stops the next person spending a subscription day on a seam that cannot carry what they need.",
+   "ev": [
+    [
+     "/america/",
+     "America"
+    ]
+   ]
+  },
+  {
+   "src": "FindMyPast — Port Pirie electoral rolls",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "Nineteen roll entries for the Žubrinići of South Australia",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "FindMyPast",
+    "Australia"
+   ],
+   "got": "**Eleven of nineteen read; the trial expires before the rest.** Rolls give an address and an occupation year by year, which is how a household is watched moving rather than merely found."
+  },
+  {
+   "src": "Ancestry",
+   "url": "https://www.ancestry.co.uk/",
+   "what": "Nothing. This archive has never run a search there",
+   "when": "never",
+   "outcome": "pending",
+   "tags": [
+    "Ancestry"
+   ],
+   "got": "**Zero searches, and it is the obvious hole beside FindMyPast.** Its Australian, South African and American sets overlap only partly with what has been read, and the people this archive most needs to follow — the ones who left — are exactly the ones it indexes."
+  },
+  {
+   "src": "Arolsen Archives — the three cards already on disk",
+   "url": "https://collections.arolsen-archives.org/",
+   "what": "Three ITS index cards attached to Hedviga's husband and never opened",
+   "when": "9 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "Arolsen",
+    "1941-45"
+   ],
+   "got": "**A sixteen-year-old in a Württemberg factory.** *Iwan/Jvan Defranceski*, born **25 June 1925 at Crikvenica** — the same day and place as the 1951 Yugoslav birth extract — lodging at **Pfullingen, Brunnenstraße 7**, working as a *Hilfsarbeiter* for **Licht u. Kraft, Reutlingen** from **21 October 1941**, and stamped *DOCUMENT EXPLOITÉ* by the French occupation authority.\n\nThe cards came through the family tree, not through Arolsen. **Nobody had ever searched the Arolsen collections themselves.**",
+   "ev": [
+    [
+     "/arolsen/",
+     "The Arolsen cards"
+    ],
+    [
+     "/certificate/",
+     "The certificate"
+    ]
+   ]
+  },
+  {
+   "src": "Matricula Online",
+   "url": "https://data.matricula-online.eu/",
+   "what": "Nothing yet — parish registers for the Austrian-administered lands",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "Matricula"
+   ],
+   "got": "**Zero searches.** Its Croatian coverage is not this archive's parishes, but the Istrian and Austrian holdings matter for the marriages that married out, and a portal that has never been opened cannot be said to hold nothing."
+  },
+  {
+   "src": "Find a Grave",
+   "url": "https://www.findagrave.com/",
+   "what": "Nothing yet — the Senj and Krivi Put cemeteries",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "Find a Grave",
+    "graves"
+   ],
+   "got": "**Zero searches, and this archive publishes a page about a grave.** Six names are cut into the Senj plot and one of them belongs to a man not buried in it. Whether anyone has photographed the neighbouring stones — VUKELIĆ, TOMLJANOVIĆ, BEZJAK, ROGIĆ — has never been checked.",
+   "ev": [
+    [
+     "/grave/",
+     "The grave"
+    ]
+   ]
+  },
+  {
+   "src": "Croatian State Archives, Gospić — letter sent",
+   "what": "Three asks: the Kalanj × Perković marriage at Brinje; Otočac baptisms for Prozor 1875–1895; the one-man-or-two question",
+   "when": "13 Sept 2026",
+   "outcome": "pending",
+   "tags": [
+    "archives",
+    "letters"
+   ],
+   "got": "**Sent 13 September 2026 to zahtjevi@arhiv-gospic.hr — the route to the books that are not on film.** Six working briefs were consolidated into one letter, written in Croatian and English with names, years and house numbers rather than a general enquiry, because a specific request is the one an archivist can answer in an afternoon.\n\n**No reply yet.** A follow-up brief was written the following day, after two days of register reading made one of the asks stronger and one of them unnecessary. Whatever comes back goes on this page **including a nil return.**"
+  },
+  {
+   "src": "Državni arhiv u Rijeci / parish custody, Senj — letter sent",
+   "what": "Jurko Blažević at Sv. Jakov Krmpote; Zvonimir Vukelić's death of 1915; the Butorac household",
+   "when": "13 Sept 2026",
+   "outcome": "pending",
+   "tags": [
+    "archives",
+    "letters"
+   ],
+   "got": "**Sent 13 September 2026 to senj@riarhiv.hr.** Its main ask got stronger the day after it went: the film check showed that **neither Jurko Blažević's baptism nor his marriage is obtainable any other way** — Krmpote births begin in 1879 and the parish has no marriage register on film at all. The same check put Zvonimir Vukelić's 1915 death eight years outside the Senj death film.\n\n**No reply yet**, and a nil return will be published here as readily as a find."
+  },
+  {
+   "src": "Southern Rhodesian immigration, 1953–65",
+   "what": "Twenty-two years of Hedviga's life",
+   "when": "not yet",
+   "outcome": "pending",
+   "tags": [
+    "Rhodesia",
+    "Hedviga"
+   ],
+   "got": "**An entire country known from two words on a later record.** No route into it has been identified yet, which is a different thing from having searched and found nothing — and this row exists so the difference stays visible.",
+   "ev": [
+    [
+     "/hedviga/",
+     "Hedviga"
+    ],
+    [
+     "/open-questions/",
+     "Question 1f"
+    ]
+   ]
+  },
+  {
+   "src": "The archive's own attached media — read against the coverage grade",
+   "url": "/coverage/",
+   "what": "Whether “scanned” and “read” were being counted as the same thing",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "method"
+   ],
+   "got": "**They were, and it flattered the archive.** A person could be graded *scanned* — an image attached, nothing read out — while the document had in fact been read weeks earlier, because a reading lives in prose and not in data.\n\nA file of readings now carries the citation for every document actually read out. **Read went from 19 to 31 and scanned from 12 to zero**, which is not progress: it is the same evidence, counted honestly.",
+   "ev": [
+    [
+     "/coverage/",
+     "Coverage"
+    ]
+   ]
+  },
+  {
+   "src": "The archive's own claim that 63 scans were unreferenced",
+   "what": "A number this archive published about itself",
+   "when": "14 Sept 2026",
+   "outcome": "nothing",
+   "tags": [
+    "internal",
+    "correction"
+   ],
+   "got": "**The true figure is zero.** The 63 was an artefact of searching by filename. It was caught before it deployed, and it is recorded here because an archive that logs only its external searches will keep believing its own arithmetic.",
+   "ev": [
+    [
+     "/corrections/",
+     "What changed"
+    ]
+   ]
+  },
+  {
+   "src": "Every published person matched to the register that would hold their events",
+   "url": "/harvest/",
+   "what": "How much of this family is reachable in filmed parish books, and where",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "harvest"
+   ],
+   "got": "**519 events are reachable** — births, marriages and deaths whose parish is known and whose book is filmed and in range.\n\n**One hundred and thirty-nine of them appeared only after the village parser was fixed.** House numbers were sitting inside the village field — *“Klenovica 22”*, *“#6 Mrzli Dol”* — and every person so recorded was invisible to the match. A parsing bug had been hiding a fifth of the harvest.",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ],
+    [
+     "/atlas/",
+     "The atlas"
+    ]
+   ]
+  },
+  {
+   "src": "The by-name phrases, gathered across ten surnames",
+   "url": "/by-names/",
+   "what": "Every *aliter*, *dictus* and *dicti* the read pages carry",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "by-names"
+   ],
+   "got": "**Sixteen phrases, thirteen pairs, ten surnames, 1806–1885 — and eight of them underlined by the scribe.** The underline is the tell: the priest is marking the household name, not decorating.\n\nIt makes *Antić* and *Papić* one family rather than two, and it is the reason this archive can read a Senj marriage of 1885 and a Selce baptism of 1806 as the same line."
+  }
+ ]
+}

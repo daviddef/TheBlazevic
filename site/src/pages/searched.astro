@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { mdp } from "@daviddef/archive-kit/lib/md.js";
+import searched from "../data/searched.json";
 import register from "../data/register.json";
 import coverage from "../data/coverage.json";
 
@@ -84,6 +86,32 @@ const UNREACHABLE = [
   { q: "4", want: "Otočac baptisms of Casparus (14 Jan 1767) and Toma (1768)", why: "Otočac births begin in 1834." },
 ];
 
+// The search register — sources/searched.json, gated by tools/searched.py.
+// Ordered so the page reads the way it is used: what it gave first, and within
+// each outcome the most recent work at the top. "Not yet" sorts by nothing.
+const OUT = {
+  yield:   { label: "Yielded",  rank: 0 },
+  partial: { label: "Partly",   rank: 1 },
+  pending: { label: "Not yet",  rank: 2 },
+  blocked: { label: "Blocked",  rank: 3 },
+  nothing: { label: "Nothing",  rank: 4 },
+};
+const monthN = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6,
+                 jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const when = (t) => {
+  const m = String(t || "").match(/(\d{1,2})?[^\d]*([A-Za-z]{3})[a-z]*\.?\s*(\d{4})/);
+  return m ? +m[3] * 10000 + (monthN[m[2].toLowerCase()] || 0) * 100 + (+m[1] || 0) : 0;
+};
+const srows = [...searched.rows].sort((a, b) =>
+  OUT[a.outcome].rank - OUT[b.outcome].rank || when(b.when) - when(a.when));
+const host = (url) => (url || "").startsWith("/")
+  ? null : (url || "").replace(/^https?:\/\/(www\.)?/, "").split("/")[0];
+// everything a row can be matched on, flattened once at build time
+const hay = (r) => [r.src, r.what, r.when, OUT[r.outcome].label, r.got,
+                    ...(r.tags || []), ...(r.ev || []).map((e) => e[1])]
+  .join(" ").replace(/[*“”]/g, "").toLowerCase();
+const sn = (k) => searched.counts[k] || 0;
+
 const pages = READ.reduce((a, r) => a + r.n, 0);
 const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").length;
 ---
@@ -105,6 +133,91 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       <p style="margin-top:.6rem">So: <strong>{pages} pages</strong>, and the books they came out of
       — beside what has never been touched.</p>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The search register · added 14 September 2026</div>
+    <h2>Every source, and what it gave back</h2>
+    <p class="lede">This table is the part of the archive that records <strong>absence</strong>.
+    Until today this page listed the registers that had been <em>read</em>; it had no way of saying
+    that a portal had been searched and held nothing, or had never been opened at all. Those are
+    different facts and a reader could not tell them apart.</p>
+
+    <div class="grid g3" style="margin-top:1.4rem">
+      <div class="stat"><div class="n">{sn("yield") + sn("partial")}</div>
+        <div class="l">Gave something. Eight of them only partly — a page or two out of a book.</div></div>
+      <div class="stat"><div class="n">{sn("nothing") + sn("blocked")}</div>
+        <div class="l">Searched and held nothing, or walled off and deliberately not got round.</div></div>
+      <div class="stat"><div class="n">{sn("pending")}</div>
+        <div class="l">Known, wanted, not yet got — including four portals never once opened.</div></div>
+    </div>
+
+    <form class="sr-bar" role="search" onsubmit="return false">
+      <label class="sr-f">
+        <span class="sr-lb">Search every row</span>
+        <input id="sr-q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Selce · blocked · FindMyPast · by-names · 1838" />
+      </label>
+      <div class="sr-chips" id="sr-chips">
+        <button class="sr-c on" data-k="all" type="button">All <span class="sr-n">{searched.rows.length}</span></button>
+        {["yield", "partial", "pending", "blocked", "nothing"].map((k) => (
+          <button class="sr-c" data-k={k} type="button">{OUT[k].label} <span class="sr-n">{sn(k)}</span></button>
+        ))}
+      </div>
+      <p class="sr-count dek" id="sr-count" aria-live="polite">{searched.rows.length} of {searched.rows.length} sources</p>
+    </form>
+
+    <div class="scroll" style="margin-top:1.2rem">
+      <table class="reg sr-t">
+        <thead><tr>
+          <th style="width:20%">Source</th>
+          <th style="width:16%">What was searched</th>
+          <th style="width:8%">When</th>
+          <th style="width:11%">Outcome</th>
+          <th>What it gave, or did not</th>
+        </tr></thead>
+        <tbody id="sr-body">{srows.map((r) => (
+          <tr data-k={r.outcome} data-h={hay(r)}>
+            <td>
+              {r.url
+                ? <a class="sr-src" href={r.url.startsWith("/") ? u(r.url) : r.url}
+                     rel={r.url.startsWith("/") ? null : "noopener"}
+                     target={r.url.startsWith("/") ? null : "_blank"}>{r.src}</a>
+                : <strong>{r.src}</strong>}
+              {r.url && <span class="sr-dest mono">{host(r.url) || "on this site"}</span>}
+            </td>
+            <td class="dek">{r.what}</td>
+            <td class="mono dek">{r.when}</td>
+            <td>
+              <span class={`sr-o o-${r.outcome}`}>{OUT[r.outcome].label}</span>
+              {r.tags && r.tags.length > 0 && (
+                <span class="sr-tags">{r.tags.map((t) => (
+                  <button class="sr-tag mono" data-t={t} type="button">{t}</button>
+                ))}</span>
+              )}
+            </td>
+            <td>
+              <div class="sr-got" set:html={"<p>" + mdp(r.got) + "</p>"}></div>
+              {r.ev && r.ev.length > 0 && (
+                <p class="sr-ev">
+                  <span class="sr-evl mono">Where it ended up</span>
+                  {r.ev.map(([href, lab]) => <a href={u(href)}>{lab}</a>)}
+                </p>
+              )}
+            </td>
+          </tr>
+        ))}</tbody>
+      </table>
+      <p class="sr-none dek" id="sr-none" hidden>Nothing in the register matches that. Try a parish,
+      a portal, a year, or an outcome.</p>
+    </div>
+
+    <div class="note" style="margin-top:1.4rem"><strong>Four of the rows are portals this archive
+    has never once searched</strong> — Ancestry, Matricula Online, Find a Grave, and the Arolsen
+    Archives' own collections, which is the sharpest of the four because this site already publishes
+    <a href={u("/arolsen/")}>three Arolsen cards</a> that reached it through a family tree rather
+    than through Arolsen. A source that has never been opened cannot be said to hold nothing, and
+    saying so plainly is the only way that stays true.</div>
   </section>
 
   <section class="blk">
@@ -248,4 +361,101 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       {" "}<a class="btn" href={u("/open-questions/")}>Open questions →</a>
       {" "}<a class="btn" href={u("/register/")}>The register →</a></p>
   </section>
+
+<style>
+  /* Page-local: the shared stylesheet is common to seven archives and this
+     table exists only here. */
+  .sr-bar { display: flex; flex-direction: column; gap: 12px; margin-top: 1.8rem; }
+  .sr-lb { display: block; font-family: var(--sans); font-size: 11px; letter-spacing: .14em;
+           text-transform: uppercase; color: var(--ink-3); margin-bottom: 7px; }
+  #sr-q { width: 100%; box-sizing: border-box; padding: 11px 13px; font-family: var(--sans);
+          font-size: 14px; color: var(--ink); background: var(--panel);
+          border: 1px solid var(--rule); border-radius: 3px; }
+  #sr-q:focus { outline: none; border-color: var(--accent); }
+  .sr-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .sr-c { font-family: var(--sans); font-size: 12px; padding: 5px 11px; cursor: pointer;
+          color: var(--ink-2); background: var(--panel); border: 1px solid var(--rule);
+          border-radius: 999px; }
+  .sr-c:hover { border-color: var(--accent); }
+  .sr-c.on { color: var(--bg); background: var(--ink); border-color: var(--ink); }
+  .sr-n { font-family: var(--mono); font-size: 10.5px; opacity: .65; margin-left: 3px; }
+  .sr-count { margin-top: 2px; }
+  .sr-t td { vertical-align: top; }
+  .sr-src { font-weight: 600; }
+  .sr-dest { display: block; font-size: 10px; color: var(--ink-3); margin-top: 4px; }
+  .sr-o { display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 600;
+          letter-spacing: .06em; padding: 3px 8px; border-radius: 2px; white-space: nowrap;
+          border: 1px solid var(--rule); }
+  .o-yield { border-color: var(--accent); color: var(--accent); }
+  .o-partial { color: var(--ink-2); }
+  .o-pending { color: var(--ink-3); border-style: dashed; }
+  .o-blocked, .o-nothing { color: var(--ink-3); }
+  .sr-tags { display: block; margin-top: 6px; }
+  .sr-tag { display: inline-block; font-size: 9.5px; letter-spacing: .08em; text-transform: uppercase;
+            color: var(--ink-3); background: none; border: 0; padding: 0 7px 0 0; cursor: pointer; }
+  .sr-tag:hover { color: var(--accent); }
+  .sr-got p { margin: 0 0 .55rem; }
+  .sr-got p:last-child { margin-bottom: 0; }
+  .sr-ev { margin-top: .5rem; font-size: 12px; }
+  .sr-evl { display: block; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase;
+            color: var(--ink-3); margin-bottom: 2px; }
+  .sr-ev a { margin-right: .7rem; }
+</style>
+
+<script is:inline>
+  (function () {
+    var q = document.getElementById("sr-q");
+    var body = document.getElementById("sr-body");
+    var count = document.getElementById("sr-count");
+    var none = document.getElementById("sr-none");
+    var chips = document.getElementById("sr-chips");
+    if (!q || !body) return;
+    var rows = Array.prototype.slice.call(body.querySelectorAll("tr"));
+    var total = rows.length;
+    var kind = "all";
+
+    function apply() {
+      var terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      var shown = 0;
+      for (var i = 0; i < rows.length; i++) {
+        var r = rows[i];
+        var ok = (kind === "all" || r.getAttribute("data-k") === kind);
+        if (ok && terms.length) {
+          var h = r.getAttribute("data-h");
+          for (var t = 0; t < terms.length; t++) {
+            if (h.indexOf(terms[t]) === -1) { ok = false; break; }
+          }
+        }
+        r.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = shown + " of " + total + " sources";
+      none.hidden = shown > 0;
+    }
+
+    q.addEventListener("input", apply);
+    body.addEventListener("click", function (e) {
+      var t = e.target.closest(".sr-tag");
+      if (!t) return;
+      q.value = t.getAttribute("data-t");
+      apply();
+      q.scrollIntoView({ block: "center" });
+    });
+    chips.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-k]");
+      if (!b) return;
+      kind = b.getAttribute("data-k");
+      Array.prototype.forEach.call(chips.querySelectorAll("button"), function (x) {
+        x.classList.toggle("on", x === b);
+      });
+      apply();
+    });
+
+    var p = new URLSearchParams(location.search).get("q");
+    if (p) { q.value = p; apply(); }
+    var h = location.hash.replace("#", "");
+    var hb = h && chips.querySelector('button[data-k="' + h + '"]');
+    if (hb) hb.click();
+  })();
+</script>
 </Base>
