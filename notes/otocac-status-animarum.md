@@ -780,3 +780,89 @@ The Obilje Thomas was alive in February 1805, when his son Paulus was born, so
 **both halves of the remaining range are live**. Note that from image ~308 the
 register carries **Pagus and Domus**, so a death after 1832 would name the
 village and house outright.
+
+---
+
+# Seventh sitting — CASPARUS ŽUBRINIĆ'S DEATH ENTRY, 4 March 1829
+
+Continuing the deaths forward from image 275. The register changes at **image
+284 (Anno 1828)**: it stops being prose and becomes a **ruled table with `Pagus`
+and `N° Domus` columns**, plus an age, a cause of death and the officiating
+priest. From that point a death names the house.
+
+## The entry — image 289, right page, Anno 1829, In Martio
+
+> **detto [Dubrava] · 60. ·** *Anno 1829 die 4ta Martij obiit in Domino,
+> **ex nervorum debilitate**, **Casparus Xubrinich** hujus Parochiæ,
+> **aetatis suæ anno 62do**, omnibus Sanctissimis Morientium Sacramentis
+> provisus **per me Petrum Vollarich Cooperatorem Loci**, et sepultus est,
+> tempore præscripto, in Cœmeterio hujus Parochialis Ecclesiæ Sanctissimæ
+> Trinitatis.*
+
+`detto.` and `60.` were read at magnification on the Domus column itself, and
+`anno 62do` likewise on the age. **This is ahnentafel's Casparus** — the
+great-great-grandfather of the Port Pirie emigrant — and it agrees with the
+census at **four independent points**:
+
+| | Census, Dubrava 60 | Death register |
+|---|---|---|
+| House | `N° Domus 60`, Pagus *Dubrava* | `detto [Dubrava] · 60.` |
+| Death date | margin: `1829 · 4 Martij` | `die 4ta Martij` 1829 |
+| Age | born `14. Jan. 1767` | `aetatis suæ anno 62do` |
+| Tree | Casparus 1767–1829 | 1829 |
+
+Born 14 January 1767, he had turned 62 seven weeks before he died. **And the
+register adds what neither the tree nor the census had: how he died** —
+*ex nervorum debilitate*, of nervous debility — **and who buried him**,
+the curate **Petrus Vollarich**.
+
+The census margin was a bare `1829 4 Martij`. This is the document behind it.
+
+## And Šumećica 10 is confirmed from outside the census
+
+Image 287 right page, November 1828:
+
+> **Shumechicza · 10. ·** *Per Obstetricem baptizata, et statim obiit
+> **Catharina filia Nicolai Xubrinich**, et sepulta est in Cœmeterio hujus
+> Parochialis Ecclesiæ Sanctissimæ Trinitatis.*
+
+Baptised by the midwife and dead at once. **This independently confirms that the
+Žubrinić household at Šumećica is house 10**, headed by Nicolaus — which the
+third sitting could only infer from the clean `9.` and `11.` on either side,
+because the household's own Domus cell is destroyed by an ink blot. The archive
+does not have to rely on the inference any more.
+
+## Further Žubrinić deaths, images 275–290 (1824–1829)
+
+    275L  Magdalena filia Eliæ Xubrinich                     Dec 1824
+    276L  Magdalena filia Gregorii Xubrinich                  Feb 1825
+    276R  Magdalena Uxor Volfgangi Xubrinich                  May 1825
+    279L  Joannes Xubrinich                                   Aug 1826
+    279R  Thomas filius Michaelis Xubrinich      dies 4½      Oct 1826
+    282R  Nicolaus filius Thomæ Xubrinich                     Sep 1827
+    285R  Petrus filius Eliæ Xubrinich       Dubrava 68       Jul 1828
+    287R  Catharina filia Nicolai Xubrinich  Shumechicza 10   Nov 1828
+    289L  [Mat]thias Xubrinich, ex phthisi    Shumechicza     Feb 1829
+    289R  CASPARUS XUBRINICH                 Dubrava 60       4 Mar 1829
+
+**`Magdalena Uxor Volfgangi Xubrinich`** is the wife of the **Wolfgangus
+Xubrinich** who heads **Otočac house 40** in the census. **`Petrus filius Eliæ`**
+is of **Dubrava 68**, the Matthæus/Joannes Xubrinich house. The death register
+and the census are now cross-checking each other house by house.
+
+## A second Thomas, still alive in 1827
+
+`Nicolaus filius Thomæ Xubrinich` (September 1827) is three years *after* the
+Vigiliarum Magister Thomas died. So **there are at least two men called Thomas
+Žubrinić** in this parish in this generation, and the one who was still fathering
+children in 1827 is not the one buried in January 1824.
+
+## Where this leaves question 4
+
+Casparus is now documented **birth, house, village, death date, age, cause of
+death and priest**. The line below him — Elias 1806, Joannes 1837 — is in the
+census in the same household block. **The question is no longer whether the Port
+Pirie branch is this family; it is what stands above Casparus**, and that is
+still the researcher's guess node.
+
+Images **156–249 and 290–332** remain unread — about 130 of the 177.
