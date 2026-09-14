@@ -12,9 +12,18 @@
   "nothing": 12,
   "partial": 16,
   "pending": 10,
-  "yield": 28
+  "yield": 29
  },
  "read": [
+  {
+   "book": "Karlobag marriages 1804–1861 — folios 2 to 6",
+   "ref": "DGS 5481649, images 230–232, both pages of 230 and 231",
+   "pages": "five folios, entry by entry at full resolution",
+   "years": "1804 – 1810",
+   "n": 5,
+   "got": "**A generation above ahnentafel 54.** Image 230's right-hand page, *Annus Domini 1806*, **10 February**: «…habito mutuo consensu ***Joannis filii defuncti Dñi Georgij Uroda*** ac ***Mariæ filiæ Nicolai Barletich***, hujatium… conjunxi ego Joës **Antonius Frankovich Parochus loci**, præsentibus Georgio Jerko et **Gregorio Matthossich Judice Loci**.» **A Georgius Uroda already dead in February 1806, styled *Dominus*** — nobody had ever stood above ahnentafel 54 in this archive.",
+   "missed": "**No Uroda × Gerkacs marriage in any of the five folios** — 1804 through early 1810, the whole window a daughter born 23 April 1810 allows. And the entry that was found is **not** ahnentafel 54's: his wife's death of 1834 calls her «uxor piscatoris **Georgii** Uroda», so he was a Georgius, while this groom is a **Joannes**. Read in three aligned chunks because **the page is tilted** and a straight left-right split lands on different lines — which first produced «Georgij Uroda ac Mariæ» and made Georgius look like the groom."
+  },
   {
    "book": "Otočac baptisms 1834–1846 — where the house number is and is not written",
    "ref": "DGS 5482656; index ARKs 3:1:3QS7-L99C-GR9V and 3:1:3QS7-899C-G5JD",
@@ -257,6 +266,29 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Karlobag marriages, folios 2 to 6 read out",
+   "what": "Ahnentafel 54's marriage — and what was there instead",
+   "when": "14 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/search/film/005481649",
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch"
+   ],
+   "got": "**Five folios, seven years, every groom named — and a generation nobody had.**\n\nThe window a daughter born **23 April 1810** allows is 1804–1810, and it is now read at the page: **folio 2** (1804–06) Potocniak · Luksetich · Luccich · Sepst · Allagetich · Millatich · **folio 3** (1806) **Uroda** · Mandekich · Kiricich · Smoyver · **folio 4** (1807) Locatelli · Dovcich · Hudak · Gergas · Kriskovich · **folio 5** (1807–09) Korpić · Medvidich · Kriskovich · Sesich · Kosner · Dorstiacich · Lenach · Sikka · **folio 6** (1809–10) Miletich · Sirola · Vukelich · Kovačević.\n\n**No Uroda × Gerkacs anywhere in them.** What is there is one Uroda entry, 10 February 1806:\n\n> «…habito mutuo consensu ***Joannis filii defuncti Dñi Georgij Uroda*** ac ***Mariæ filiæ Nicolai Barletich***, hujatium… conjunxi ego Joës **Antonius Frankovich Parochus loci**, præsentibus Georgio Jerko et **Gregorio Matthossich Judice Loci**.»\n\n**A Georgius Uroda dead before February 1806, styled *Dominus*, with a son Joannes marrying before the village judge.** Nothing in this archive has ever stood above ahnentafel 54.\n\n**It is not his marriage.** Ahnentafel 55's death of 1834 reads «uxor piscatoris ***Georgii*** Uroda» — her husband was a Georgius, dead 1846 at 72. This groom is a **Joannes**. The likeliest shape is **two brothers, Joannes and Georgius, sons of the dead Georgius senior** — and that puts a question to the tree, which carries ahnentafel 54 as ***«Joannis Georgius Uroda»***, exactly what a tree program produces when it flattens ***Joannes filius Georgii***. **Nothing has been added to the tree.**\n\n**Method, learned the hard way:** the page is **tilted**, so cropping a wide entry as a left half and a right half lands on **different lines**. Read in three chunks with the same y-range and overlapping x, or the sentence assembles itself wrongly — as it did here, first making Georgius the groom.",
+   "ev": [
+    [
+     "/karlobag/",
+     "Karlobag"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch record index — Otočac, 1853, tested for density",
    "what": "Lucca Žubrinić, born 1853, the tree's sister for Tereza",

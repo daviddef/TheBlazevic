@@ -290,3 +290,71 @@ claimed**; a page read at a third of full resolution is not a page read.
 entry at full resolution, looking for *Uroda* and *Gerkacs* in the body of each
 entry rather than at its head. Two pages, and ahnentafel 54's marriage is either
 found or shown not to be there.
+
+---
+
+# Folios 2 to 6 read out: no Uroda × Gerkacs, and a generation nobody had
+
+The marriage window for ahnentafel 54 — **Joannis Georgius Uroda × Maria
+Gerkacs**, whose daughter was born **23 April 1810** — has now been read at the
+page, entry by entry, across **five folios and seven years**.
+
+| folio | image | page | years | grooms |
+|---|---|---|---|---|
+| **2** | 230 | left | 1804 · 1805 · 1806 | Potocniak · Luksetich · Luccich · Sepst · Allagetich · Millatich |
+| **3** | 230 | right | 1806 | **Uroda** · Mandekich · Mordekich · Kiricich · Vulgo Zalic · Smoyver |
+| **4** | 231 | left | 1807 | Locatelli · Dovcich · Hudak · Fabianus · Otho · Gergas · Kriskovich · Franciscus |
+| **5** | 231 | right | 1807 · 1808 · 1809 | Korpić · Medvidich · Kriskovich · Sesich · Kosner · Dorstiacich · Lenach · Sikka |
+| **6** | 232 | left | 1809 · 1810 | Miletich · Sirola · Sedelnich · Vukelich · Kovačević · Czernkovich |
+
+**There is no Uroda × Gerkacs marriage in any of them.**
+
+## The one Uroda entry, read at the page
+
+**Image 230, right-hand page, *Annus Domini 1806*, second entry, dated
+10 February:**
+
+> *Præmissis &c., nulloque impedimento canonico detecto, ac habito mutuo
+> consensu **Joannis filii defuncti Dñi Georgij Uroda** ac **Mariæ filiæ Nicolai
+> Barletich**, hujatium, eos per verba de præsenti … Matrimonio conjunxi ego
+> Joës **Antonius Frankovich Parochus loci**, præsentibus Georgio Jerko et
+> **Gregorio Matthossich Judice Loci**.*
+
+Read in three aligned chunks at full resolution, because **the page is tilted**
+and a straight left-and-right split lands on different lines — which is how the
+sentence first came out as *«Georgij Uroda ac Mariæ»*, i.e. as though Georgius
+were the groom. **He is not. He is the groom's dead father.**
+
+## What it gives, and what it does not
+
+**It gives a generation.** *Defuncti Dñi Georgij Uroda* — **a Georgius Uroda
+already dead in February 1806**, styled ***Dominus***, whose son Joannes marries
+the daughter of Nicolaus Barletich before the **village judge**. Nobody in this
+archive stood above ahnentafel 54 until now.
+
+**It is not ahnentafel 54's marriage.** Ahnentafel 55's death of 6 August 1834
+reads *«Maria **uxor** piscatoris **Georgii** Uroda»* — her husband was a
+**Georgius**, alive in 1834 and dead in 1846 at 72, born about 1774. The man
+married here is a **Joannes**, and his father Georgius was dead by 1806.
+
+## The reconstruction this suggests — labelled as one
+
+    Georgius Uroda senior, "Dñus", dead before 10 February 1806
+        ├── Joannes, m. 10 Feb 1806, Maria filia Nicolai Barletich
+        └── Georgius, b. ~1774, piscator, m. Maria [Gerkacs?],
+              d. 11 January 1846 aged 72                    = ahnentafel 54
+
+**A son named for a father who has just died is the commonest naming there is**,
+and it would explain two Georgii Uroda in one small town.
+
+**And it puts a question to the tree.** Ahnentafel 54 is carried as
+***«Joannis Georgius Uroda»*** — a double given name. That is exactly the shape
+a tree program produces when it flattens ***Joannes filius Georgii***. If the
+tree did that, it may have **welded two brothers into one man** — and the
+register above is the other brother.
+
+**None of this is being added to the tree.** It is a reading plus an inference,
+and the inference needs the marriage of the *Georgius* who died in 1846 to
+stand or fall. That marriage is **not in folios 2–6**, so it is either in the
+outer thirds of those pages that this sitting did not crop, on a folio before
+1804 in the **Vjenčani 1736–1804** book on the same film, or in another parish.
