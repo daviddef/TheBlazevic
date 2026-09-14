@@ -168,3 +168,28 @@ user's access to a service the whole archive depends on.
   did not need full resolution.
 * Map the film **once** via the thumbnail grid and reuse `window.__map`, rather
   than re-navigating.
+
+
+## Pacing — measured on 14 September 2026
+
+A second, harder block. A day spent reading three Karlobag films — a whole
+household census surveyed at low resolution, the death register and its index,
+perhaps two hundred tile fetches — ended with the deep-zoom service returning
+**403 on `image.xml` for every ark**, including ones that had answered two
+minutes before.
+
+Two 403s came that day and they were not the same thing:
+
+* the **first** cleared by itself in about **eight seconds** — a rate-limit blip,
+  and the right response is to slow down, not to stop;
+* the **second** did **not** clear after **thirty seconds**, and is the same
+  shape as the *Access Denied, Error 15* of 13 September.
+
+**How to tell them apart without hammering:** wait, then make **one** request for
+an ark that worked earlier in the session. If that ark is now 403 too, it is the
+service refusing the session and not the image — stop for the day.
+
+**What it costs to ignore this:** the block lands mid-reading, and the half-read
+page is worth nothing until the next sitting. Better to take fewer, larger crops
+from the start: one 800-pixel-wide crop of a register column reads as well as
+four small ones and costs a quarter of the tiles.

@@ -8,13 +8,38 @@
   "What it gave, or did not"
  ],
  "counts": {
-  "blocked": 3,
+  "blocked": 4,
   "nothing": 7,
   "partial": 12,
   "pending": 9,
   "yield": 22
  },
  "rows": [
+  {
+   "src": "FamilySearch — the Karlobag marriage register 1804–1861",
+   "url": "https://www.familysearch.org/",
+   "what": "Ahnentafel 54's marriage — the document that would name his father and fix his age",
+   "when": "14 Sept 2026",
+   "outcome": "blocked",
+   "tags": [
+    "FamilySearch",
+    "Karlobag",
+    "marriages",
+    "block",
+    "ahn 54"
+   ],
+   "got": "**Not found, and the sitting ended in a block.**\n\nThe marriage of Joannis Georgius Uroda to Maria Gerkacs falls before 1810 and is the document that would **name his father** — getting past a wall — and **fix his age**, which is the one thing standing between this archive and his death date.\n\nWhat was established before the block is where the next sitting starts. The stretch after the death index is **not** the 1804–1861 marriages: images ~196–215 are a **Croatian-language baptism book of the late nineteenth century** — *Nomina · Filius aut Filia · Patrinus aut Patrina*, with given names like Zvonimir and Vjekoslav — **which the waypoint's label does not mention at all**. Images ~275–290 are the **old marriage book of 1736–1804**: image 280 is *«Leta 1781»* in **Croatian**, image 288 is *«Anno Domini 1793»* in **Latin**, so the switch falls between them. **That leaves images ~215–255 as the place to look.**\n\n**The block itself.** After a day across three Karlobag films the deep-zoom service began returning **403 on every image**, including ones that had answered two minutes earlier. An earlier 403 the same session had cleared by itself in eight seconds; this one did not clear in thirty. **Nothing was retried around** — no second session, no other host, no cookie games. The pacing lesson and the way to tell a blip from a block are written into `tools/familysearch.md`.",
+   "ev": [
+    [
+     "/searched/",
+     "Holdings"
+    ],
+    [
+     "/tree/",
+     "The walls"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — the Karlobag death register 1804–1861, and its index",
    "what": "Ahnentafel 54's death — and an alphabetical index nobody knew was on the film",

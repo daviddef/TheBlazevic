@@ -88,3 +88,35 @@ infer a date from an image number on this film without reading the page.
 And the language changes under you: **Croatian prose to the 1750s, Latin prose
 after, Latin tabular from about 1780**. The archive already knew one Karlobag
 volume was in Croatian. It is the earlier half of two of them.
+
+---
+
+## 14 September, later: what else is on the second film — and a block
+
+Going after **ahnentafel 54's marriage** (Joannis Georgius Uroda × Maria
+Gerkacs, before 1810) meant finding the **Marriages 1804–1861** on the second
+Karlobag film. It was not found, and the sitting ended in an access block.
+
+**What was established before the block**, which is where the next sitting
+should start:
+
+| Images | What is actually there |
+|---|---|
+| ~196–215 | **Not** the 1804–1861 marriages. A **Croatian-language baptism book** — columns *Nomina · Filius aut Filia · Patrinus aut Patrina*, page 32 at image 210, with given names like **Zvonimir** and **Vjekoslav**: this is late nineteenth century, and it is **not in the waypoint's label at all** |
+| 225, 255, 268 | blank leaves |
+| ~275–290 | the **old marriage book, 1736–1804** — image 280 is *«Leta 1781»* and is **in Croatian**; image 288 is *«Anno Domini 1793»* and is in **Latin**, so the switch falls between |
+| ~300 | marriages of 1767 (read in the morning) |
+| ~360 | deaths of 1775 |
+
+**So the 1804–1861 marriages are most likely images ~215–255**, the one stretch
+not yet sampled. That is the first thing to open next time.
+
+**The block.** After a long day of tile fetching across three Karlobag films, the
+deep-zoom service began returning **403** on `image.xml` for every image —
+including images that had answered two minutes earlier. One earlier 403 in the
+same session cleared by itself after about eight seconds; **this one did not
+clear after thirty**, and it is the same shape as the *Access Denied, Error 15*
+recorded in `tools/familysearch.md` on 13 September.
+
+**Nothing was retried around.** No second session, no other host, no cookie
+games. The work stopped where the 403 fell, and this note is what it produced.
