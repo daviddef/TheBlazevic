@@ -1,0 +1,33 @@
+---
+/* The Atlas. The map is the kit's; what is here is this archive's own
+   geography — its categories, the ground it opens over, and the places file
+   it was built from. */
+import Base from "../layouts/Base.astro";
+import Atlas from "@daviddef/archive-kit/components/Atlas.astro";
+import { u } from "../lib/url.js";
+import data from "../../public/atlas-data.json";
+const s = data.stats;
+---
+<Base title="The Atlas"
+      eyebrow={`${s.places} places on the map${s.unplaced ? ` · ${s.unplaced} without a coordinate` : ""}`}
+      dek="Every place this archive can put a person in — a tight band of Senj, its hinterland and the Kvarner coast, and the few that lie outside it.">
+
+  <Atlas
+    dataUrl={u("/atlas-data.json")}
+    cats={[
+      ["senj", "Senj and its hinterland", "#8E2456"],
+      ["lika", "Lika and Otočac", "#9A6B18"],
+      ["kvarner", "The Kvarner coast", "#1F5C6B"],
+      ["hr", "Elsewhere in Croatia", "#4E7A55"],
+      ["other", "Further out", "#6E6A86"],
+    ]}
+    bounds={[[44.2, 14.2], [45.8, 16.2]]}
+    homeLabel="Back to the Velebit"
+    placeholder="Senj · Otočac · Krivi Put · Rijeka"
+    hint={`${s.withPeople} of the ${s.places} places carry at least one person.`}
+  >
+    <p class="cap" style="margin-top:6px">A marker is a place this archive can put a person in.
+    <strong>Weight is not kinship</strong> — a parish may hold a great many of the surname and be
+    connected to this family by nothing at all.{s.approx ? ` ${s.approx} of these coordinates are approximate: the gazetteer matched a larger place, or a modern name, rather than the exact parish.` : ""}</p>
+  </Atlas>
+</Base>
