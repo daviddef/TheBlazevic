@@ -73,12 +73,31 @@ def main():
         print(f"\n{len(bad)} problem(s) in {os.path.relpath(SRC, ROOT)}")
         return 1
 
+    # The three lists the /searched page used to carry hardcoded in its own
+    # frontmatter. They live here now so the register and the holdings table
+    # cannot drift apart — which they could, and briefly did.
+    for key, need in (("read", ("book", "pages", "years", "n", "got", "missed")),
+                      ("holdings", ("parish", "books", "checked")),
+                      ("unreachable", ("q", "want", "why"))):
+        for i, row in enumerate(d.get(key, [])):
+            for f in need:
+                if f not in row:
+                    bad.append(f"{key}[{i}]: missing {f}")
+    if bad:
+        for b in bad:
+            print("  " + b)
+        print(f"\n{len(bad)} problem(s) in {os.path.relpath(SRC, ROOT)}")
+        return 1
+
     counts = {o: sum(1 for r in rows if r["outcome"] == o) for o in sorted(OUTCOMES)}
-    out = {"note": d["note"], "cols": d["cols"], "counts": counts, "rows": rows}
+    out = {"note": d["note"], "cols": d["cols"], "counts": counts,
+           "read": d.get("read", []), "holdings": d.get("holdings", []),
+           "unreachable": d.get("unreachable", []), "rows": rows}
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
     print(f"searched.json — {len(rows)} sources: "
-          + ", ".join(f"{n} {o}" for o, n in counts.items() if n))
+          + ", ".join(f"{n} {o}" for o, n in counts.items() if n)
+          + f" · {len(out['read'])} books read, {len(out['holdings'])} parishes checked")
     return 0
 
 

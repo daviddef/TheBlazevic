@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import G from "../data/graves.json";
 ---
 <Base title="The Other Emigration"
   eyebrow="Two American diasporas this archive did not know it had"
@@ -117,6 +118,32 @@ import { u } from "../lib/url.js";
       asks for the <strong>Otočac baptisms for Prozor, 1875–1895</strong> — one volume, one village,
       twenty years, and a whole generation restored.</li>
     </ul>
+    <div class="lab" style="margin-top:2.2rem">Added 14 September 2026 · Find a Grave</div>
+    <h2>And a third country, which nobody had looked at either</h2>
+    <p class="lede">The passenger lists gave three Žubrinić women sailing from Liverpool into
+    <strong>Saint John</strong> and <strong>Halifax</strong> between 1926 and 1930 — and UK outbound
+    lists do not name a Croatian village, so the trail stopped there. <strong>The graves pick it
+    up.</strong></p>
+    <p><strong>Six Zubrinich burials at Timmins, Ontario</strong> — the gold-mining town in the
+    Cochrane District — and one at <strong>Thunder Bay</strong>:</p>
+    <table class="reg">
+      <thead><tr><th>Lived</th><th>Name</th><th>Buried</th></tr></thead>
+      <tbody>{G.rows.filter((r) => /Ontario/.test(r.place)).map((r) => (
+        <tr>
+          <td class="mono">{r.born || "?"}–{r.died || "?"}</td>
+          <td>{r.name}</td>
+          <td class="dek">{r.cemetery}, {r.place}</td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>Nikola Zubrinich, 1892–1938</strong> is the earliest of
+    them, and the 1928 Liverpool–Halifax arrival was a <em>Nikdla</em> Žubrinić. That is a
+    suggestive pair of facts and <strong>nothing joins them</strong> — but a mining town in northern
+    Ontario is exactly the kind of place a Lika family went, and it is the same choice the Port
+    Pirie branch made when it went to a smelter.</p>
+    <p class="note" style="margin-top:1rem"><strong>Three countries, one pattern.</strong> Lead at
+    Port Pirie, steel at Whyalla, silver at Broken Hill, gold at Timmins, and the Pennsylvania
+    coalfield at Johnstown. <strong>Nobody in this family went anywhere green.</strong></p>
+
     <p style="margin-top:1.2rem"><a class="btn" href={u("/port-pirie/")}>Port Pirie →</a>
       {" "}<a class="btn" href={u("/zubrinic-roots/")}>The Žubrinić fragments →</a>
       {" "}<a class="btn" href={u("/work/")}>What they did →</a></p>

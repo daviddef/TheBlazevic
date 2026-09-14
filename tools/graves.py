@@ -24,20 +24,26 @@ import unicodedata
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, "sources", "findagrave", "zubrinich-2026-09-14.psv")
+SRCDIR = os.path.join(ROOT, "sources", "findagrave")
 DATA = os.path.join(ROOT, "site", "src", "data")
 
 MONTH = {m: i + 1 for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"])}
-STOP = {"zubrinich", "zubrinic", "zubrinić"}
+
+# Every harvest file in sources/findagrave/ is read, not just the first one.
+# A file may declare, in its header comments:
+#     # surname: Zubrinich          what to call it
+#     # match: zubrini              the stem to match this archive's people on
+#     # stop: zubrinich, zubrinic   surname forms to drop from a given-name match
+# and anything it does not declare is taken from the filename stem.
 
 
 def flat(s):
     return unicodedata.normalize("NFD", str(s or "")).encode("ascii", "ignore").decode().lower()
 
 
-def toks(name):
-    return {t for t in re.findall(r"[a-z]+", flat(name)) if t not in STOP and len(t) > 1}
+def toks(name, stop):
+    return {t for t in re.findall(r"[a-z]+", flat(name)) if t not in stop and len(t) > 1}
 
 
 def parse(s):
@@ -61,26 +67,56 @@ def exact(s):
     return bool(re.match(r"\d{1,2}\s+[A-Za-z]{3}", str(s or "").strip()))
 
 
-def main():
-    people = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8"))
-    zub = [p for p in people if "zubrini" in flat(p.get("name"))]
-
-    rows = []
-    for line in open(SRC, encoding="utf-8"):
+def read_file(path):
+    """One harvest file -> (meta, rows)."""
+    meta, rows = {}, []
+    for line in open(path, encoding="utf-8"):
         line = line.rstrip("\n")
-        if not line.strip() or line.startswith("#"):
+        if line.startswith("#"):
+            m = re.match(r"#\s*(surname|match|stop)\s*:\s*(.+)$", line, re.I)
+            if m:
+                meta[m.group(1).lower()] = m.group(2).strip()
+            continue
+        if not line.strip():
             continue
         name, b, d, cem, place, plot = (line.split("|") + [""] * 6)[:6]
         rows.append({"name": name, "born": b, "died": d, "cemetery": cem,
                      "place": place, "plot": plot})
+    stem = re.split(r"[-_0-9]", os.path.basename(path))[0]
+    meta.setdefault("surname", stem.title())
+    meta.setdefault("match", flat(stem)[:7])
+    stop = {flat(x) for x in meta.get("stop", meta["surname"]).split(",") if x.strip()}
+    stop |= {flat(meta["surname"])}
+    for r in rows:
+        r["surname"] = meta["surname"]
+    return meta, stop, rows
+
+
+def main():
+    people = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8"))
+
+    files = sorted(f for f in os.listdir(SRCDIR) if f.endswith(".psv"))
+    if not files:
+        print("no harvest files in sources/findagrave/")
+        return 1
+
+    rows, stops, matched_pool = [], {}, {}
+    for f in files:
+        meta, stop, rs = read_file(os.path.join(SRCDIR, f))
+        rows += rs
+        stops[meta["surname"]] = stop
+        matched_pool[meta["surname"]] = [
+            p for p in people if meta["match"] in flat(p.get("name"))]
 
     # --- match each memorial to a published person -----------------------
     conflicts = []
     for r in rows:
-        g, by, dy = toks(r["name"]), year(r["born"]), year(r["died"])
+        stop = stops[r["surname"]]
+        zub = matched_pool[r["surname"]]
+        g, by, dy = toks(r["name"], stop), year(r["born"]), year(r["died"])
         best, bestscore = None, 0
         for p in zub:
-            pg = toks(p.get("name"))
+            pg = toks(p.get("name"), stop)
             if not (g & pg):
                 continue
             pb, pd = p.get("byear"), p.get("dyear")
@@ -118,8 +154,14 @@ def main():
         c = r["cemetery"] or "unrecorded"
         where[c] = where.get(c, 0) + 1
 
+    surnames = {}
+    for r in rows:
+        surnames[r["surname"]] = surnames.get(r["surname"], 0) + 1
+
     out = {
         "source": "Find a Grave, searched 14 September 2026",
+        "files": files,
+        "surnames": sorted(surnames.items(), key=lambda kv: -kv[1]),
         "n": len(rows),
         "matched": sum(1 for r in rows if r.get("slug")),
         "unmatched": sum(1 for r in rows if not r.get("slug")),
@@ -130,7 +172,8 @@ def main():
     }
     json.dump(out, open(os.path.join(DATA, "graves.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
-    print(f"graves.json — {out['n']} memorials, {out['matched']} matched to a person here, "
+    print(f"graves.json — {out['n']} memorials from {len(files)} file(s), "
+          f"{out['matched']} matched to a person here, "
           f"{len(shared)} shared plots, {len(conflicts)} date disagreements")
 
 

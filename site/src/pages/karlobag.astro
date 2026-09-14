@@ -1,0 +1,186 @@
+---
+/* Karlobag. Written 14 September 2026, the day its three films were finally
+   range-checked and its household census read. Until that morning this parish
+   had twelve baptisms read out of it and three question marks in the holdings
+   table; by the evening it was the best-documented parish in the archive. */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import W from "../data/walls.json";
+import searched from "../data/searched.json";
+
+const karlobagWalls = Object.values(W.walls).filter((w) => w.parish === "Karlobag");
+const reachable = karlobagWalls.filter((w) => /in range/.test(w.label)).length;
+const holding = searched.holdings.find((h) => h.parish === "Karlobag");
+---
+<Base title="Karlobag"
+  eyebrow="Three films, four books and a household census"
+  dek="A small town under the Velebit where this family's mothers came from — and, since 14 September 2026, the only parish in this archive whose films have been opened end to end and whose census has been read.">
+
+  <section class="blk">
+    <p class="lede">Four of Hedviga's great-great-great-grandparents were born here: the
+    <strong>Pilipići</strong>, the <strong>Urode</strong>, the <strong>Smojveri</strong> and the
+    <strong>Gerkacsi</strong>. For weeks the parish table carried <span class="mono">unknown</span>
+    in all three of its columns, and <a href={u("/tree/")}>four walls on the chart</a> said
+    <em>«ranges not checked»</em> — which reads like a gap and was really an unopened door.</p>
+    <p><strong>The door was opened.</strong> All three films, image by image.
+    {holding && <span> The holdings line now reads: <span class="mono dek">{holding.books}</span></span>}</p>
+  </section>
+
+  <section class="blk">
+    <h2>What the parish actually holds</h2>
+    <table class="reg">
+      <thead><tr><th>Film</th><th>Images</th><th>What is on it</th></tr></thead>
+      <tbody>
+        <tr><td>Births 1691–1770 · 1771–1804</td><td class="mono">327</td>
+          <td class="dek">Two bound volumes, <strong>HDA 426</strong> and <strong>HDA 427</strong></td></tr>
+        <tr><td>Births · Deaths · Marriages 1804–1861, with indexes — and the older
+          <strong>Marriages 1736–1804</strong> and <strong>Deaths 1774–1804</strong></td>
+          <td class="mono">435</td><td class="dek">Six books on one film</td></tr>
+        <tr><td><strong>Church census — Stanje duša</strong></td><td class="mono">122</td>
+          <td class="dek">HDA 715. Not in this archive's parish table until that day</td></tr>
+      </tbody>
+    </table>
+    <div class="note" style="margin-top:1.2rem"><strong>The label held — and that is the news.</strong>
+    At <a href={u("/searched/")}>Krmpote</a> it did not: catalogued 1815–1896, the film begins in
+    1879. Here every book the catalogue names is on the film. <strong>The rule stands all the same:
+    the label describes a parish, the film is what you get</strong>, and the only way to know is to
+    open it.</div>
+  </section>
+
+  <section class="blk">
+    <h2>The language changes under you</h2>
+    <p class="lede">Read the births film front to back and you watch the parish change what it wrote
+    in.</p>
+    <table class="kv">
+      <tr><th>1690s – 1750s</th><td><strong>Croatian, in prose.</strong> Image 6:
+        <em>«Na 6 Oktobra … karstih ga Pop Šimun Šimunović … imenom Mihovila»</em></td></tr>
+      <tr><th>1723</th><td>Still Croatian — <em>«Na 6 Febrara 1723»</em>. And note the order: image 4
+        is 1723, image 6 is the 1690s. <strong>The front leaves are not in chronological order.</strong>
+        Do not infer a date from an image number on this film</td></tr>
+      <tr><th>1761</th><td><strong>Latin, still prose.</strong> <em>«Anno Domini 1761 — Josephus
+        Sarich Parochus baptizavit…»</em></td></tr>
+      <tr><th>from about 1780</th><td><strong>Latin, tabular.</strong> Image 220, 1782, and in the
+        godparent column <em>«Antonia Conjux D<sup>ni</sup> Francisci de Justiniani»</em></td></tr>
+      <tr><th>1852 onward</th><td>The <strong>death register turns Croatian</strong> —
+        <em>«Godine 1854»</em> — while the household census keeps Latin headings and slips Croatian
+        months into its dates: <em>«24 lipnja»</em>, <em>«† 22 svibnja 1853»</em></td></tr>
+    </table>
+    <p style="margin-top:1rem">This archive already knew <a href={u("/harvest/")}>one Karlobag volume
+    was in Croatian</a>. It is the earlier half of two of them — the same glagolitic-littoral habit
+    it found at <strong>Novi Vinodolski in 1650</strong> and <strong>Grižane in 1738</strong>.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The census, HDA 715</div>
+    <h2>A house of seven, and a daughter this archive knew only as a name</h2>
+    <p class="lede">The <em>Stanje duša</em> does not give an age. It gives a <strong>date of birth
+    to the day</strong>, and a communion column for <strong>every year from 1844</strong> — so a
+    household can be watched year by year rather than event by event.</p>
+    <p>Image 48, right-hand page, written <em>Pilepich</em> — the parish's own spelling:</p>
+    <table class="reg">
+      <thead><tr><th>Name</th><th>Ætas</th><th></th></tr></thead>
+      <tbody>
+        <tr><td>Pilepich <strong>Vicko</strong></td><td class="mono">17 Nov. 805</td><td class="dek">ahnentafel 26 — the tree's date exactly</td></tr>
+        <tr><td><strong>Matia</strong> ux.</td><td class="mono">23 April 810</td><td class="dek">ahnentafel 27 — exactly</td></tr>
+        <tr><td>Joso f.</td><td class="mono">14 Oct. 835</td><td class="dek">new</td></tr>
+        <tr><td><strong>Matia</strong> f.</td><td class="mono">18 Sept. 838</td><td class="dek">ahnentafel 13 — exactly</td></tr>
+        <tr><td>Vice f.</td><td class="mono">16 Febr. 847</td><td class="dek">new</td></tr>
+        <tr><td>Jure f.</td><td class="mono dim">no date entered</td><td class="dek">new</td></tr>
+        <tr><td>Maria Jurka f.</td><td class="mono">24 <em>lipnja</em> 852</td><td class="dek">new</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>Four siblings where there were none.</strong> And three
+    Pilipić households more sit on the facing page and the next — <em>Pilepich Joso</em>,
+    <em>Pelepich Jakov Bilja</em>, and a widow <em>Pilepich Maria</em> with an <strong>Oliva</strong>
+    among her children, which is what a reused given name looks like from the outside.
+    <strong>Four Pilipić households in one small town, none joined to another by a document.</strong></p>
+    <div class="note"><strong>Two things said here first were wrong and are corrected.</strong> The
+    book is ordered by <strong>family</strong> number, not house number — Karlobag's registers of
+    this period use no house numbers at all, and the 1838 baptism gives none either. And it runs
+    alphabetically <strong>once</strong>, images 8 to about 75; what follows is not a second census
+    but <strong>later additions</strong>, households entered as they formed, some carrying dates
+    into the 1870s.</div>
+  </section>
+
+  <section class="blk">
+    <h2>The Urode, and a near-miss worth keeping</h2>
+    <p class="lede">The U section is images 64 and 65 and holds three Uroda households — and
+    <strong>ahnentafel 54 is in none of them.</strong></p>
+    <p>One is <em>Uroda Jone</em>, entered with a <strong>brother and a sister</strong> beside the
+    head and <strong>four children dead in ten years</strong>, the deaths written into the margin in
+    Croatian months. One is <em>Uroda Jure</em>. And one is <strong>Uroda Maria vid., born 18 March
+    1789</strong>, keeping Ive (1811), Vicko (1816) and Kate Maria (1820).</p>
+    <div class="note"><strong>An Uroda widow born in 1789 is exactly what ahnentafel 55 would look
+    like.</strong> Maria Gerkacs married an Uroda and was born in 1789 — five months apart, same
+    surname, same small town. <strong>It is not her.</strong> The death register says she died on
+    <strong>6 August 1834</strong>, ten years before this book was opened. Right surname, right year,
+    right town, wrong woman — and what caught it was a date the tree had and the census did not.</div>
+    <p style="margin-top:1.2rem"><strong>Ive, Vicko and Kate Maria are the right generation and town
+    to be ahnentafel 27's brothers and sister</strong>, born either side of her 23 April 1810.
+    Candidates, not kin.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The deaths, and the find inside them</div>
+    <h2>One word ruled out the obvious answer</h2>
+    <p class="lede">The death film carries an <strong>alphabetical index</strong> — images ~168–192,
+    a printed letter at the head of each column, with <em>Cognomen et Nomen · dies · mensis · annus ·
+    folium</em>. It turns a fifty-seven-year register into a lookup, and nobody here knew it was
+    there. Under <strong>U</strong> it lists fourteen Uroda deaths between 1808 and 1846.</p>
+    <figure class="doc">
+      <blockquote class="prose"><em>Maria uxor piscatoris Georgii Uroda annorum 45 … die 7ª hujus
+      sepultum est Carlobagi in cœmeterio communi, confessa mihi Perxevich…</em></blockquote>
+      <figcaption class="mono dek">Karlobag deaths, folio 52 — 6 August 1834</figcaption>
+    </figure>
+    <p style="margin-top:1rem">The date is the tree's exactly. The age — <em>annorum 45</em>, born
+    about 1789 — is the tree's exactly. And she is <strong><em>uxor</em>, not <em>vidua</em></strong>.
+    Her husband was alive that day, which <strong>rules out the Georgius Uroda who died in 1808 and
+    the one who died in 1817</strong> — the obvious answer, the one a hurried reader takes. It also
+    gives ahnentafel 54 a trade nothing here knew: <strong><em>piscator</em>, a fisherman</strong>.</p>
+    <p class="note" style="margin-top:1rem"><strong>And he is still not dated.</strong> Folio 66,
+    11 January 1846: <em>«Georgius Uroda annorum 72, piscator»</em> — same name, same trade, the only
+    Georgius to die after his wife. But 72 in 1846 means born about <strong>1774</strong> against the
+    tree's <strong>22 April 1777</strong>. Three years out, and this archive is not calling that a
+    match.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What is in range now, and what is next</h2>
+    <p class="lede">Range-checking the films turned <strong>{reachable} walls</strong> on this line
+    from «not known» into «go and read it», and a fifth into something better.</p>
+    <table class="reg">
+      <thead><tr><th>Ahn</th><th>Who</th><th>Where it stands</th></tr></thead>
+      <tbody>{karlobagWalls.map((w) => (
+        <tr><td class="mono"><strong>{w.ahn}</strong></td><td>{w.name}</td>
+          <td class="dek">{w.label}</td></tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>The fifth is the interesting one.</strong>
+    <em>Maria Uroda</em> is on the chart under her husband's surname, which is the tree's convention
+    and not a record — and you cannot search for a name you do not have. But <strong>her marriage of
+    about 1775 is inside the filmed register</strong>, and a marriage entry names the bride's father.
+    <em>Maria Luckinić</em> misses by eleven years: hers falls about 1725 and the marriage book
+    begins in 1736.</p>
+    <div class="note" style="margin-top:1.2rem"><strong>Next, when FamilySearch lifts.</strong> The
+    marriage register 1804–1861 is <strong>images ~228–258</strong>; the headers read 1807 at image
+    231, 1808/09 at 232, 1811 at 233, 1814 at 234. <strong>Ahnentafel 54's marriage is in images
+    230–233.</strong> And the volume has <strong>an index at its front, images ~217–226</strong>,
+    unread — the block fell on the first crop of it.
+    <a href={u("/searched/")}>The search register →</a></div>
+  </section>
+
+  <section class="blk">
+    <h2>The town these people lived in</h2>
+    <p>Karlobag is a <em>civitas</em> in its registers, not a village, and it shows. The baptisms
+    read out of it carry a <strong>Dominus</strong> honorific, a <strong>Giustiniani</strong>
+    godfather, a Pro-Colonel, a Captain and a <strong>Baron von Holstein</strong>. Ahnentafel 26 is a
+    <em>cammeralis nauclerus</em> — a chamber shipmaster — and his father a <em>mercator</em>: the
+    first people in this family recorded working at sea. Ahnentafel 54 is a <em>piscator</em>.
+    Godparents include the <strong>treasury receiver</strong> and the wife of an Italian-named
+    notable.</p>
+    <p style="margin-top:1rem">And in the <a href={u("/hungarian-press/")}>Hungarian press</a> a
+    <strong>Smojver of Karlobag, born 1882</strong>, turns up wounded in the casualty lists of 1915.</p>
+    <p style="margin-top:1.2rem"><a class="btn" href={u("/direct-line/")}>The direct line →</a>
+      {" "}<a class="btn" href={u("/tree/")}>The walls →</a>
+      {" "}<a class="btn" href={u("/searched/")}>What has been read →</a></p>
+  </section>
+</Base>
