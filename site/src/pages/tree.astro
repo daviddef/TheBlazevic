@@ -15,13 +15,34 @@ import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
 import { ahnen } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import ancestors from "../data/ancestors.json";
+import W from "../data/walls.json";
+
+/* The kit ends a branch with one sentence, printed once per wall: «no parents
+   are recorded, and where the line goes next is not yet known». Thirty-one
+   copies of it grade three different silences alike — a woman with no surname
+   to search for, a woman wearing her husband's, and a properly identified man
+   whose next document sits in a filmed register nobody has opened. Only the
+   last is a worklist. tools/walls.py works out which each one is; this maps
+   that onto the three colours the chart already has. */
+const COLOUR = { reachable: "candidate", unchecked: "candidate",
+                 nameless: "unknown", borrowed: "unknown", placeholder: "unknown" };
 
 const root = ahnen(ancestors, {
   /* A source read, or the tree's word. Nothing in between, and the chart
      colours the difference rather than burying it. */
   conf: (r) => (r.sources && r.sources.length ? "doc" : "lore"),
   extra: (r) => ({ slug: r.slug }),
+  wall: (r) => {
+    const w = W.walls[String(r.ahn)];
+    if (!w) return null;
+    return { wall: true, kind: COLOUR[w.kind] || "unworked",
+             label: w.label, note: w.note };
+  },
 });
+
+const wc = W.counts;
+const nameProblem = (wc.nameless || 0) + (wc.borrowed || 0) + (wc.placeholder || 0);
+const actionable = (wc.reachable || 0) + (wc.unchecked || 0);
 
 const personHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
 
@@ -51,6 +72,28 @@ let people = 0, doc = 0, walls = 0, deepest = 0;
     <p class="prose">Nothing is hidden for space. Where the chart stops, the archive stops, and
     <a href={u("/how-far-back/")}>How Far Back</a> sets out what each of those endings would
     take to get past.</p>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>Not every wall is the same kind of wall</h3>
+      <p>The list under the chart used to say the same sentence about all
+      <strong>{walls}</strong> of them — <em>no parents are recorded, and where the line goes next
+      is not known.</em> That is true of all of them and useful about none of them, because they
+      are not one thing.</p>
+      <p style="margin-top:.6rem"><strong>{nameProblem} of the {walls} are name problems, not
+      research problems.</strong> Seven are women the tree gives a given name and no surname at
+      all; two more wear their husband's surname, which is the tree's convention and not a record
+      of what they were born; two are a bare surname with no given name, which asserts only what
+      the child's own name already says. <strong>There is nothing to search for</strong> until a
+      marriage entry or a child's baptism supplies the missing half.</p>
+      <p style="margin-top:.6rem"><strong>{wc.unplaced} more have no place recorded anywhere on
+      the line</strong> — those walls are a place, not a name, and no register can be opened for
+      them. <strong>{wc.outside}</strong> are properly identified people whose next document falls
+      outside what is filmed; the notes say by how many years.</p>
+      <p style="margin-top:.6rem"><strong>{actionable} are worth an afternoon.</strong> Four of
+      them are at <a href={u("/searched/")}>Karlobag</a>, the best-read parish here, whose film
+      ranges have never once been checked — so whether the next step is reachable is not known,
+      and finding out costs nothing but the sitting.</p>
+    </div>
   </section>
 
   <AncChart root={root} personHref={personHref} />

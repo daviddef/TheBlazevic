@@ -1,0 +1,216 @@
+#!/usr/bin/env python3
+"""Why each wall on the ancestor chart is a wall — one true sentence each.
+
+The chart in the kit ends a branch with a default note: «No parents are
+recorded for X in this archive. Where the line goes next is not yet known.»
+Printed thirty-one times it says nothing, and worse, it says the same thing
+about three different silences:
+
+  · a person whose surname the archive does not have, so there is nothing
+    to search for at all;
+  · a woman entered under her husband's surname, which is the family tree's
+    convention and not a record of her name;
+  · a person who is properly identified and whose next document is sitting in
+    a filmed register nobody has opened.
+
+The third kind is a worklist and the first two are not, and a reader cannot
+act on a page that grades them alike. This works out which each one is, names
+the parish that would carry the next document, and says whether that book is
+filmed, out of range, or does not exist.
+
+Writes site/src/data/walls.json, keyed by ahnentafel number.
+"""
+import json
+import os
+import re
+
+from parishlib import ROOT, PARISH, parish_of, covered, ranges, village_of, year_of
+
+DATA = os.path.join(ROOT, "site", "src", "data")
+OVERRIDE = os.path.join(ROOT, "sources", "walls.psv")
+
+# A generation, for estimating when a person was born from when their child
+# was. Deliberately coarse: every year derived this way is printed as "about".
+GEN = 27
+
+
+# The parish table is written without diacritics because it is a matching key.
+# A reader should still see the parish's own name.
+PNAME = {"Otocac": "Otočac", "Grizane": "Grižane", "Krmpote-Vodice": "Krmpote-Vodice"}
+
+
+def pname(p):
+    return PNAME.get(p, p)
+
+
+def pretty(place):
+    """The village as the tree actually spells it — with its diacritics, which
+    the matcher strips. «Šumećica 2, Otočac, …» -> «Šumećica»."""
+    for part in [x.strip() for x in str(place or "").split(",")]:
+        part = re.sub(r"(?:^|\s)(?:br\.?|no\.?|n[o°]|kbr\.?|#)?\s*\d{1,3}(?=$|\s)",
+                      " ", part).strip(" ,.-/")
+        if part and village_of(part):
+            return part
+    return None
+
+
+def held(spec, kindname):
+    """What the parish table says about one book — and «unknown» is not «none».
+    Karlobag is the archive's best-read parish and its ranges have never been
+    checked; printing that as «no baptisms» would be a confident falsehood."""
+    if spec == "none":
+        return f"no {kindname} filmed"
+    if spec == "unknown":
+        return f"{kindname} not checked"
+    rs = ranges(spec)
+    return f"{kindname} {rs[0][0]}–{rs[-1][1]}" if rs else f"{kindname} not checked"
+
+
+def main():
+    anc = json.load(open(os.path.join(DATA, "ancestors.json"), encoding="utf-8"))
+    fixes = json.load(open(os.path.join(DATA, "placefixes.json"), encoding="utf-8"))["rules"]
+    by = {int(r["ahn"]): r for r in anc if r.get("ahn")}
+
+    over = {}
+    if os.path.exists(OVERRIDE):
+        for line in open(OVERRIDE, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if not line.strip() or line.startswith("#"):
+                continue
+            ahn, label, note = line.split("|", 2)
+            over[int(ahn)] = (label.strip(), note.strip())
+
+    def real_place(row, field="bornPlace"):
+        """The place string with the tree's known wrong-county strings corrected,
+        so a wall is not sent to an island 400 km away."""
+        p = row.get(field) or ""
+        for f in fixes:
+            if f["match"] and f["match"] in p:
+                return f["actually"], f
+        return p, None
+
+    walls = {}
+    for n in sorted(by):
+        if n == 1 or 2 * n in by or 2 * n + 1 in by:
+            continue
+        r = by[n]
+        child = by.get(n // 2)
+        spouse = by.get(n + 1 if n % 2 == 0 else n - 1)
+        name = r.get("name") or "—"
+        given, surname = (r.get("given") or "").strip(), (r.get("surname") or "").strip()
+
+        # Where the household was, and when this person was likely born.
+        place, fix = real_place(r)
+        if not village_of(place) and child:
+            place, fix = real_place(child)
+        village = village_of(place)
+        parish = parish_of.get(village or "")
+        byear = year_of(r.get("born"))
+        cyear = year_of((child or {}).get("born"))
+        est = byear or (cyear - GEN if cyear else None)
+        exact = bool(byear)
+
+        # What kind of silence this is. Order matters: a person with no surname
+        # cannot be searched for whatever the parish holds.
+        if not surname:
+            kind, label = "nameless", "No surname"
+        elif spouse and surname and surname == (spouse.get("surname") or "").strip() \
+                and n % 2 == 1:
+            kind, label = "borrowed", "Her husband's surname"
+        elif not given:
+            kind, label = "placeholder", "Only a surname"
+        elif parish and PARISH[parish]["births"] == "unknown":
+            kind, label = "unchecked", f"{pname(parish)} — ranges not checked"
+        elif parish and not est:
+            kind, label = "undated", f"{pname(parish)} — no year to test"
+        elif parish and covered(PARISH[parish]["births"], est):
+            kind, label = "reachable", f"{pname(parish)} — in range"
+        elif parish:
+            kind, label = "outside", f"{pname(parish)} — out of range"
+        else:
+            kind, label = "unplaced", "No place recorded"
+
+        # --- the note ----------------------------------------------------
+        bits = []
+        if kind == "nameless":
+            bits.append(f"This archive has no surname for **{name}** — a given name and "
+                        f"nothing else. The wall is not that her parents are unknown; "
+                        f"it is that **there is nothing to search for.**")
+            if spouse:
+                bits.append(f"Her family name would be written on her marriage to "
+                            f"**{spouse.get('name')}**, and often on the baptism of a child "
+                            f"where the priest gave the mother's house.")
+        elif kind == "borrowed":
+            bits.append(f"**{name}** is entered under her husband's surname. That is the "
+                        f"family tree's convention, not a record — nothing in this archive "
+                        f"says what she was born, and the name on the chart is his.")
+        elif kind == "placeholder":
+            who = f"**{child.get('name')}**" if child else "this person"
+            bits.append(f"The tree gives the parent of {who} as a surname with **no given "
+                        f"name at all**. That is a placeholder rather than a person: it "
+                        f"asserts only what the child's own surname already says.")
+        else:
+            bits.append(f"No parents are recorded for **{name}**"
+                        + (f", born {byear}" if exact else "")
+                        + (f", and this archive stops here." if not parish
+                           else "."))
+
+        if parish:
+            P = PARISH[parish]
+            about = "" if exact else "about "
+            where = pretty(place) or (village or "").title()
+            books = [held(P[key], kindname) for kindname, key in
+                     (("baptisms", "births"), ("marriages", "marriages"),
+                      ("deaths", "deaths"))]
+            bits.append(f"The household was at **{where}**, whose registers are "
+                        f"**{pname(parish)}**: " + ", ".join(books) + ".")
+            if P["births"] == "unknown":
+                bits.append(f"**What years those films cover has never been checked**, so "
+                            f"whether the next document is reachable is not known — and "
+                            f"checking it is an afternoon's work, not a trip.")
+            elif not est:
+                bits.append("No year is recorded for this person or for the child below "
+                            "them, so there is nothing to test the film's range against.")
+            else:
+                if covered(P["births"], est):
+                    bits.append(f"A baptism of {about}{est} falls **inside** that film. "
+                                f"This wall is reachable and has not been opened.")
+                else:
+                    rs = ranges(P["births"])
+                    if rs:
+                        gap = rs[0][0] - est
+                        bits.append(f"A baptism of {about}{est} falls **{gap} years before** "
+                                    f"the filmed register begins.")
+                    else:
+                        bits.append(f"**No baptismal register for this parish is filmed at "
+                                    f"all**, so a baptism of {about}{est} is not reachable "
+                                    f"in this collection.")
+            if fix:
+                bits.append(f"(The tree writes this place as *{fix['reads']}*, which is "
+                            f"{fix['km']} km away and wrong.)")
+        elif kind not in ("nameless", "borrowed", "placeholder"):
+            bits.append("No place is recorded for this household anywhere on the line, "
+                        "so there is no register to open. **The wall here is a place, "
+                        "not a name.**")
+
+        note = " ".join(bits)
+        if n in over:
+            label, note = over[n][0] or label, over[n][1]
+
+        walls[str(n)] = {"ahn": n, "name": name, "slug": r.get("slug"),
+                         "kind": kind, "label": label, "note": note,
+                         "parish": pname(parish) if parish else None, "village": pretty(place) if village else None,
+                         "year": est, "exact": exact}
+
+    counts = {}
+    for w in walls.values():
+        counts[w["kind"]] = counts.get(w["kind"], 0) + 1
+    out = {"counts": counts, "walls": walls}
+    json.dump(out, open(os.path.join(DATA, "walls.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    print(f"walls.json — {len(walls)} walls: "
+          + ", ".join(f"{n} {k}" for k, n in sorted(counts.items(), key=lambda kv: -kv[1])))
+
+
+if __name__ == "__main__":
+    main()
