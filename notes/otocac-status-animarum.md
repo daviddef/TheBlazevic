@@ -866,3 +866,73 @@ Pirie branch is this family; it is what stands above Casparus**, and that is
 still the researcher's guess node.
 
 Images **156–249 and 290–332** remain unread — about 130 of the 177.
+
+---
+
+# Eighth sitting — images 290–297 (1829–1831), and a correction to publish
+
+## A correction: Šumećica's houses do NOT stop at 9
+
+The third sitting wrote that *"Šumećica's houses in this book run 9 to 14 and
+there is no house 2"*, and question 4 was published on that. **The first half is
+true only of the census section. The village's numbering goes lower**, and the
+death register proves it:
+
+    Shumechicza ·  7 · Anna Uxor Simonis Draxenovich, an. 59      Feb 1830
+    Shumechicza ·  9 · [a death, aetatis anno 22do]               Jun 1829
+    Shumechicza · 10 · Catharina filia Nicolai Xubrinich          Nov 1828
+    Shumechicza · 11 · Magdalena filia Michaelis Xubrinich, 4 mo. Nov 1830
+
+So **house 7 exists at Šumećica** and is simply absent from the census's eight
+pages. The honest statement is therefore **not** that the tree's *Šumećica 2* is
+contradicted, only that it is **unattested** — the census section that survives
+begins at house 9, and what became of houses 1–8 is unknown. The site has been
+corrected.
+
+*(Šumećica 11 is a Žubrinić household here, where the census gives house 11 to
+Matthæus Orešković. House numbers change hands; that is ordinary.)*
+
+## Prozor N° 1 is a Žubrinić house, and it buries three people in fifteen months
+
+    Prozor 1 · Stephanus Xubrinich        an. 64      Nov 1830
+    Prozor 1 · vidua Lucia Xubrinich                  Jan 1831
+    Prozor 1 · THOMAS XUBRINICH           an. 44      18 Feb 1831
+
+> **Prozor · 1. · 18.** *Obiit in Dñᵒ **Thomas Xubrinich** provisus omnibus SS.
+> Sacramentis Morientium **ætatis suæ 44 Annorum** et sepultus est in Cœmeterio
+> hujus Parochialis Ecclesiæ SS. Trinitatis.*
+
+Read across two overlapping crops at magnification. **Born about 1786–87.**
+
+## Four men called Thomas Žubrinić now, and not one born 1768
+
+    d.  6 Jan 1824   Vigiliarum Magister et Scriba Regiminis   an. 24   b. ~1800
+    d. Oct 1826      filius Michaelis                      dies 4½
+    d. May 1829      filius Stephani Sylvarum Magistri, Prozor 17  an. 5
+    d. 18 Feb 1831   of Prozor N° 1                            an. 44   b. ~1787
+
+And more are named as living fathers: *Simon filius Thomæ* (1822), *Hellena filia
+Thomæ, an. 2½* (1822), *Nicolaus filius Thomæ* (1827), *Catharina filia Thomæ,
+an. 3* (1829), *Jacobus filius … Thomæ, aged one month* (1829 — the word before
+`Thomæ` reads as *defuncti* at reduced scale but **could not be confirmed at full
+width and is not claimed**).
+
+**The Obilje Thomas of the census — Martha's husband, born in the 1760s — is
+still not in the register.**
+
+## More Žubrinić households located by the new Pagus/Domus columns
+
+    Dubrava 41 · Nicolaus Xubrinich              an. 50    Nov 1829
+    Dubrava 60 · CASPARUS XUBRINICH              an. 62    4 Mar 1829
+    Dubrava 68 · Petrus filius Eliæ                        Jul 1828
+    Prozor  17 · Thomas fil. Stephani Sylvarum Magistri    May 1829
+    Prozor  34 · [daughter] of Antonius Xubrinich          Jun 1830
+    Shumechicza 10 · Catharina filia Nicolai               Nov 1828
+    Shumechicza 11 · Magdalena filia Michaelis             Nov 1830
+
+**Dubrava 41** is the census's *"Antonius Mihaljevich **nunc** Zubrinich"* house;
+**Dubrava 68** the Matthæus/Joannes house; **Prozor 17** the *Sylvarum Custos*
+house. **The death register and the census are now confirming each other house by
+house**, which is the strongest thing this archive has yet had on this family.
+
+Images **156–249 and 298–332** remain — about 120 of the 177.
