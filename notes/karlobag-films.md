@@ -120,3 +120,43 @@ recorded in `tools/familysearch.md` on 13 September.
 
 **Nothing was retried around.** No second session, no other host, no cookie
 games. The work stopped where the 403 fell, and this note is what it produced.
+
+---
+
+## The marriage register, located — in a fifteen-minute window
+
+The block lifted, and closed again after about fifteen minutes. What that bought:
+
+**The Karlobag marriages 1804–1861 are images ~228–258**, with blank leaves to
+about 272 and an **END OF ITEM** target at **274**. The guess of 215–255 was
+close; the register proper starts nearer 228.
+
+**Year map, read off the page headers:**
+
+    image 231   Anno Domini 1807
+    image 232   Annus Domini 1808 / 1809
+    image 233   Annus 1811
+    image 234   Annus Domini 1814
+    image 246   Anno Domini 1843
+
+**So ahnentafel 54's marriage is in images 230–233.** Maria Gerkacs was born in
+August 1789 and their daughter on 23 April 1810, which puts the wedding in
+**1806–1809** — a four-image window in a book now located to the image.
+
+**And there is an index at the front of the volume**, images **~217–226**: the
+left-hand pages are blank and the writing runs in **a column beside the gutter**.
+It was not read — the block fell on the first crop of it. If it is like the death
+index, it is the whole job in one page.
+
+**Entries seen in passing**, none of them ours and two worth carrying:
+
+* 1807 — *«… Baladi et Matthææ filiæ defuncti **Josephi Smoj[ver]** … in
+  Ledenik»*. **Smojver** is a direct-line surname here — ahnentafel 53 and 106 —
+  and this is a Smojver daughter marrying out of Karlobag to Ledenice.
+* 1808/09 — *«… Miletich et Matthææ filiæ defuncti **Martini U[roda?]**»*. If
+  that surname is Uroda it is a daughter of the generation above ahnentafel 54,
+  and the word is **not confirmed**.
+
+**The block.** Second one of the day, and it behaved exactly as the note above
+predicts: image 231 answered, and ninety seconds later the same ark returned
+**403**. One request, one answer, stop.

@@ -8,10 +8,10 @@
   "What it gave, or did not"
  ],
  "counts": {
-  "blocked": 4,
-  "nothing": 8,
-  "partial": 12,
-  "pending": 10,
+  "blocked": 3,
+  "nothing": 9,
+  "partial": 13,
+  "pending": 9,
   "yield": 22
  },
  "rows": [
@@ -62,11 +62,11 @@
    ]
   },
   {
-   "src": "FamilySearch — the Karlobag marriage register 1804–1861",
+   "src": "FamilySearch — the Karlobag marriage register 1804–1861, located",
    "url": "https://www.familysearch.org/",
    "what": "Ahnentafel 54's marriage — the document that would name his father and fix his age",
    "when": "14 Sept 2026",
-   "outcome": "blocked",
+   "outcome": "partial",
    "tags": [
     "FamilySearch",
     "Karlobag",
@@ -74,7 +74,7 @@
     "block",
     "ahn 54"
    ],
-   "got": "**Not found, and the sitting ended in a block.**\n\nThe marriage of Joannis Georgius Uroda to Maria Gerkacs falls before 1810 and is the document that would **name his father** — getting past a wall — and **fix his age**, which is the one thing standing between this archive and his death date.\n\nWhat was established before the block is where the next sitting starts. The stretch after the death index is **not** the 1804–1861 marriages: images ~196–215 are a **Croatian-language baptism book of the late nineteenth century** — *Nomina · Filius aut Filia · Patrinus aut Patrina*, with given names like Zvonimir and Vjekoslav — **which the waypoint's label does not mention at all**. Images ~275–290 are the **old marriage book of 1736–1804**: image 280 is *«Leta 1781»* in **Croatian**, image 288 is *«Anno Domini 1793»* in **Latin**, so the switch falls between them. **That leaves images ~215–255 as the place to look.**\n\n**The block itself.** After a day across three Karlobag films the deep-zoom service began returning **403 on every image**, including ones that had answered two minutes earlier. An earlier 403 the same session had cleared by itself in eight seconds; this one did not clear in thirty. **Nothing was retried around** — no second session, no other host, no cookie games. The pacing lesson and the way to tell a blip from a block are written into `tools/familysearch.md`.",
+   "got": "**The block lifted for about fifteen minutes, and that was enough to put the book on the map.**\n\n**The Karlobag marriages 1804–1861 are images ~228–258**, blanks to about 272, **END OF ITEM at 274**. Year map read off the page headers: **231 = 1807**, **232 = 1808/09**, **233 = 1811**, **234 = 1814**, **246 = 1843**.\n\n**So ahnentafel 54's marriage is in images 230–233.** Maria Gerkacs was born August 1789 and their daughter on 23 April 1810, which puts the wedding in **1806–1809** — a four-image window in a book now located to the image. It is the document that would **name his father** and **fix his age**, which is the one thing standing between this archive and his death.\n\n**And the volume has an index at the front**, images **~217–226** — left pages blank, the writing in a column beside the gutter. **Not read**: the block fell on the first crop of it. If it is like the death index it is the whole job in one page.\n\nTwo entries seen in passing and neither claimed: an 1807 marriage naming *«Matthææ filiæ defuncti **Josephi Smojver**… in Ledenik»* — **Smojver is a direct-line surname here** — and an 1808/09 one naming *«Matthææ filiæ defuncti **Martini U[roda?]**»*, where the surname is **not confirmed**.\n\n**The second block behaved exactly as the note predicts:** image 231 answered, and ninety seconds later the same ark returned 403. One request, one answer, stop.",
    "ev": [
     [
      "/searched/",
@@ -1012,26 +1012,26 @@
    ]
   },
   {
-   "src": "Croatian State Archives, Gospić — letter sent",
+   "src": "Državni arhiv u Gospiću — asked, acknowledged, queued",
    "what": "Three asks: the Kalanj × Perković marriage at Brinje; Otočac baptisms for Prozor 1875–1895; the one-man-or-two question",
-   "when": "13 Sept 2026",
+   "when": "13–14 Sept 2026",
    "outcome": "pending",
    "tags": [
     "archives",
     "letters"
    ],
-   "got": "**Sent 13 September 2026 to zahtjevi@arhiv-gospic.hr — the route to the books that are not on film.** Six working briefs were consolidated into one letter, written in Croatian and English with names, years and house numbers rather than a general enquiry, because a specific request is the one an archivist can answer in an afternoon.\n\n**No reply yet.** A follow-up brief was written the following day, after two days of register reading made one of the asks stronger and one of them unnecessary. Whatever comes back goes on this page **including a nil return.**"
+   "got": "**Sent 13 September 2026 to zahtjevi@arhiv-gospic.hr, and acknowledged the next day** by **Marija Fajdić, viši arhivist, Voditelj Odjela**: *«potvrđujemo primitak vašeg zahtjeva. O njegovu rješavanju bit ćete pravodobno obaviješteni kada vaš zahtjev dođe na red za obradu.»*\n\nA queue acknowledgement with a named archivist. **Still open.** The three asks are unchanged — the **Kalanj × Perković marriage at Brinje**, **Otočac baptisms for Prozor 1875–1895**, and the **one-man-or-two question** — and each was written with names, years and house numbers rather than as a general enquiry, because that is the kind an archivist can answer in an afternoon."
   },
   {
-   "src": "Državni arhiv u Rijeci / parish custody, Senj — letter sent",
+   "src": "Državni arhiv u Rijeci, Ispostava u Senju — asked, and answered",
    "what": "Jurko Blažević at Sv. Jakov Krmpote; Zvonimir Vukelić's death of 1915; the Butorac household",
-   "when": "13 Sept 2026",
-   "outcome": "pending",
+   "when": "13–14 Sept 2026",
+   "outcome": "nothing",
    "tags": [
     "archives",
     "letters"
    ],
-   "got": "**Sent 13 September 2026 to senj@riarhiv.hr.** Its main ask got stronger the day after it went: the film check showed that **neither Jurko Blažević's baptism nor his marriage is obtainable any other way** — Krmpote births begin in 1879 and the parish has no marriage register on film at all. The same check put Zvonimir Vukelić's 1915 death eight years outside the Senj death film.\n\n**No reply yet**, and a nil return will be published here as readily as a find."
+   "got": "**A nil return with a map, answered in a day.** Denis Rukavina, 14 September 2026: *«**Sabirni centar u Senju nema u svom posjedu arhivsku građu kojom bi se moglo udovoljiti Vašem zahtjevu.** S istim zahtjevom obratite se **Državnom arhivu u Rijeci**, **Državnom arhivu u Gospiću** i **nadležnim Župnim uredima**.»*\n\nThe Senj outpost **does not hold this material** — and that is now known rather than assumed. **Three doors are named in its place**, and one of them, **the parish offices**, is a route this archive has never tried at all. The Krmpote registers after 1896 and the Senj ones after 1907 are in **parish custody or at Rijeka**.\n\nIt does not touch the four plans the film ranges killed. Those books exist; this only changes which address holds them. **A third letter — to Rijeka, and to the Župni ured of Sv. Jakov Krmpote and of Senj — is the obvious next move and is not yet written.**"
   },
   {
    "src": "Southern Rhodesian immigration, 1953–65",
