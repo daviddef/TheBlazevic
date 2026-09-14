@@ -60,9 +60,9 @@ own page has replaced. **Check the contact page before sending.**
 | `gospic-otocac-zubrinic.md` | **Gospić** | superseded |
 | `EMAIL-senj.txt` | Rijeka, Senj branch | **sent 13 Sept — answered 14 Sept: they do not hold it** |
 | `EMAIL-gospic.txt` | **Gospić** | **sent 13 Sept — acknowledged 14 Sept, queued** |
-| `EMAIL-rijeka.txt` | **Rijeka, head office** | drafted 14 Sept, not sent |
-| `EMAIL-zupa-senj.txt` | **Župni ured Senj** | drafted 14 Sept, not sent |
-| `EMAIL-zupa-krmpote.txt` | **Župa Krmpote, via Ledenice** | drafted 14 Sept, not sent |
+| `sent/EMAIL-rijeka.txt` | **Rijeka, head office** — obrada@riarhiv.hr | **SENT 15 Sept 2026**, thread `1a0a1bb3300b385b` |
+| `sent/EMAIL-zupa-senj.txt` | **Župni ured Senj** — ripavlic@gmail.com | **SENT 15 Sept 2026**, thread `1a0a1bc07e4c9240` |
+| `sent/EMAIL-zupa-krmpote.txt` | **Župa Krmpote, via Ledenice** — filipjakov22@gmail.com | **SENT 15 Sept 2026**, thread `1a0a1bca6c06e096` |
 
 ## The parish addresses, verified 14 September 2026
 
@@ -84,3 +84,28 @@ The third was added on 10 September 2026, when reading a Senj marriage of 1910
 turned open question 4d from *"which Maria Orešković?"* into *"are there two men
 called Michaël Žubrinić a generation apart?"* — which one Otočac marriage entry,
 or the absence of a second, would settle.
+
+
+## Sent 15 September 2026 — all three
+
+Three letters went out the same morning, to the three doors the Senj outpost
+named when it turned this archive away on 14 September: **the State Archive in
+Rijeka, and two parish offices.**
+
+**Two of them were changed before sending**, because a day's reading had
+overtaken them:
+
+* **Rijeka** no longer says *"I have never searched Rijeka's holdings at all."*
+  It now states exactly where the gap is — **the filmed baptisms run
+  1886-1890, 1890-1891, then jump to 1900-1901**, and the alphabetical *Kazalo*
+  skips the same span — so the request is for **one identified volume** rather
+  than a direction. It also reports that the Rijeka marriage register was read
+  to its last entry, **9 August 1891**, without a Blažević or a Žubrinić in it.
+* **Krmpote** had asked the parish to read a godfather's surname that was
+  illegible in the copy. **It is no longer illegible** — it reads *Pere Pećanić*
+  — so the question was withdrawn and replaced with one the parish alone can
+  answer: **Tonka's baptism is 25 October 1884 by an earlier reading and
+  27 November 1884 by the FamilySearch index, and one of the two is wrong.**
+
+**Never ask an archivist to do what you have since done yourself.** Both changes
+came out of the same rule.
