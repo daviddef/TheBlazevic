@@ -73,6 +73,8 @@ const HOLDINGS = [
     checked: "LABEL WRONG. Image 10 is page 2 and reads 1879; image 188 is page 177 and reads 1896. The film is 1879-1896.", bad: true },
   { parish: "Brinje", books: "Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899",
     checked: "Not spot-checked." },
+  { parish: "Karlobag", books: "Births 1691-1770, 1771-1804, 1804-1861 · Marriages 1736-1804, 1804-1861 · Deaths 1774-1804, 1804-1861 · AND a Church Census (Stanje duša)",
+    checked: "VERIFIED 14 September 2026 — all three films opened, 327 + 435 + 122 images. Image 4 is 1723 and image 6 is the 1690s; image 300 of the second film is the marriages of 1767, image 360 its deaths of 1775. The label holds." },
 ];
 
 // Research plans this archive had published which cannot be carried out in this
@@ -242,6 +244,16 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
     two of the book and reads <em>Godine 1879</em>; image 188 is page 177 and reads
     <em>Godine 1896</em>. Sixty-four years named on the label are not behind it — and this is the
     parish that should hold every Blažević above Toma.</div>
+
+    <div class="note" style="margin-top:1.2rem"><strong>And once, the label was better than the
+    archive feared.</strong> Karlobag's three columns read <span class="mono">unknown</span> here
+    for weeks — so <a href={u("/tree/")}>four walls on the chart</a> said «ranges not checked»,
+    which reads like a gap and is really an unopened door. All three films were opened on
+    14 September 2026 and <strong>every book the catalogue names is on them</strong>: births from
+    the 1690s, marriages from 1736, deaths from 1774 — and a <strong>household census nobody here
+    knew existed</strong>. Four of those walls now have a document in range, and a fifth — a woman
+    carried under her husband's surname — has a marriage of about 1775 that would give her her
+    own.</div>
 
     <h3 style="margin-top:1.6rem">Six things this archive said it would go and look up</h3>
     <p>Each of these was published as the next step for an open question. <strong>None of them can

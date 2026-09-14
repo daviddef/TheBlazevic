@@ -159,6 +159,10 @@ def main():
             P = PARISH[parish]
             about = "" if exact else "about "
             where = pretty(place) or (village or "").title()
+            # For a wall whose PROBLEM is the name, the baptism is not the
+            # document to look for — you cannot search for a surname you do not
+            # have. The marriage is: it names her father and gives her own name.
+            mar = (cyear - 2) if cyear else (est + 25 if est else None)
             books = [held(P[key], kindname) for kindname, key in
                      (("baptisms", "births"), ("marriages", "marriages"),
                       ("deaths", "deaths"))]
@@ -168,6 +172,27 @@ def main():
                 bits.append(f"**What years those films cover has never been checked**, so "
                             f"whether the next document is reachable is not known — and "
                             f"checking it is an afternoon's work, not a trip.")
+            elif kind in ("nameless", "borrowed", "placeholder"):
+                if not mar:
+                    bits.append("No year is recorded anywhere on this branch, so there is "
+                                "nothing to test the film's range against.")
+                elif covered(P["marriages"], mar):
+                    bits.append(f"**The marriage is the document to look for, not the "
+                                f"baptism** — a surname you do not have cannot be searched "
+                                f"for, and a marriage entry supplies it. A marriage of about "
+                                f"{mar} falls **inside** the filmed register. "
+                                f"**This one is reachable and has not been opened.**")
+                else:
+                    rs = ranges(P["marriages"])
+                    if rs:
+                        bits.append(f"**The marriage is the document to look for, not the "
+                                    f"baptism** — it is what would supply the missing name. "
+                                    f"A marriage of about {mar} falls **outside** the filmed "
+                                    f"register, which runs {rs[0][0]}–{rs[-1][1]}.")
+                    else:
+                        bits.append("**The marriage is the document to look for**, and "
+                                    "**no marriage register for this parish is filmed at "
+                                    "all.**")
             elif not est:
                 bits.append("No year is recorded for this person or for the child below "
                             "them, so there is nothing to test the film's range against.")
