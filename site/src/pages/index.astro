@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import { u } from "../lib/url.js";
@@ -143,21 +144,14 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     wrong →</a> <a class="btn" href={u("/searched/")}>What has been searched →</a></p>
   </section>
 
-  <section class="blk">
-    <h2>The archive in numbers</h2>
-    <div class="grid three">
-      <div class="stat"><div class="n">{register.length.toLocaleString()}</div><div class="l">people carrying one of the
-        eight surnames, published</div></div>
-      <div class="stat"><div class="n">{ancestors.length}</div><div class="l">named ancestors of Hedviga, across nine generations</div></div>
-      <div class="stat"><div class="n">{blazevic.earliest}</div><div class="l">earliest Blažević birth year in the
-        tree</div></div>
-      <div class="stat"><div class="n">{zubrinic.count}</div><div class="l">Žubrinići — of a surname held by about
-        <strong>312 people on earth</strong></div></div>
-      <div class="stat"><div class="n">35</div><div class="l">people born at one address: <em>Krivi Put 136</em></div></div>
-      <div class="stat"><div class="n">2,034</div><div class="l">people judged living and withheld from this build
-        entirely</div></div>
-    </div>
-  </section>
+  <Numbers rows={[
+    [register.length, "people carrying one of the eight surnames, published", u("/register/")],
+    [ancestors.length, "named ancestors of Hedviga, across nine generations", u("/tree/")],
+    [blazevic.earliest, "the earliest Blažević birth year in the tree", u("/how-far-back/")],
+    [zubrinic.count, "Žubrinići — of a surname held by about 312 people on earth", u("/families/")],
+    [35, "people born at one address: Krivi Put 136", u("/places/")],
+    [2034, "people judged living and withheld from this build entirely", u("/method/")],
+  ]} />
 
   <section class="blk" style="border-bottom:0">
     <h2>What is still missing</h2>
