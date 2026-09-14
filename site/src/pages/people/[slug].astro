@@ -42,6 +42,17 @@ const sameName = people
   .filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name))
   .slice(0, 24);
 const ev = evidence[p.slug] || { state: "tree", media: 0 };
+// The same five states the coverage table counts, as a chip: the sentence
+// below says it properly, this says it at a glance. Colour by how far the
+// claim is from a record, not by how flattering it is.
+const EVCHIP = {
+  read:     ["doc",  "Read"],
+  line:     ["inf",  "Direct line"],
+  scanned:  ["inf",  "Scanned, not read"],
+  tree:     ["lore", "Tree only"],
+  disputed: ["dis",  "Disputed"],
+};
+const chip = EVCHIP[ev.state] || EVCHIP.tree;
 const EV = {
   line: "a direct ancestor, with no record of their own read here",
   read: "a register or certificate has been read for this person",
@@ -191,13 +202,17 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
     <div class="grid two">
       <div class="card">
         <h3>Where this comes from</h3>
+        <p class="chips"><span class={"chip " + chip[0]}>{chip[1]}</span></p>
         <p><strong>{EV[ev.state]}.</strong></p>
         {ev.media > 0 && (
           <p class="dek" style="margin-top:.5rem">{ev.media}
             {" "}{ev.media === 1 ? "image is" : "images are"} attached to this person
             {mine.filter((m) => m.kind === "document").length > 0
-              ? <span>, of which {mine.filter((m) => m.kind === "document").length} are documents
-                  rather than photographs.</span>
+              ? <span>, of which {mine.filter((m) => m.kind === "document").length}
+                  {mine.filter((m) => m.kind === "document").length === 1
+                    ? " is a document" : " are documents"} rather than
+                  {mine.filter((m) => m.kind === "document").length === 1
+                    ? " a photograph." : " photographs."}</span>
               : "."}</p>)}
         {fixes.length > 0 && (
           <p class="dek" style="margin-top:.5rem">{fixes.length}
