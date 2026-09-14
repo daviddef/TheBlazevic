@@ -1,0 +1,63 @@
+---
+/* Our line, drawn.
+
+   Nine generations, 70 people, and until now no picture of any of it. The data
+   was always shaped for one: ancestors.json is an ahnentafel, a flat list
+   numbered so the father of n is 2n, which is a tree written sideways.
+
+   This archive is small enough to draw whole. No branch is cut for space, so
+   every place the chart stops is a place the archive genuinely stops, and the
+   wall list below is the real list of what is not known — not an artefact of
+   how much would fit on the page. Six of the seven archives could not say that
+   and this one can, which is worth the extra height. */
+import Base from "../layouts/Base.astro";
+import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import { ahnen } from "@daviddef/archive-kit/lib/ahnen.js";
+import { u } from "../lib/url.js";
+import ancestors from "../data/ancestors.json";
+
+const root = ahnen(ancestors, {
+  /* A source read, or the tree's word. Nothing in between, and the chart
+     colours the difference rather than burying it. */
+  conf: (r) => (r.sources && r.sources.length ? "doc" : "lore"),
+  extra: (r) => ({ slug: r.slug }),
+});
+
+const personHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
+
+let people = 0, doc = 0, walls = 0, deepest = 0;
+(function count(x, g = 0) {
+  if (!x) return;
+  if (x.wall) { walls++; return; }
+  people++; if (x.conf === "doc") doc++;
+  if (g > deepest) deepest = g;
+  count(x.f, g + 1); count(x.m, g + 1);
+})(root);
+---
+<Base title="Our line, drawn"
+      eyebrow={`${people} people, ${deepest + 1} generations, ${walls} walls`}
+      dek="The whole of what this archive knows of Hedviga's ancestry, as one chart — nothing cut for space, so every place it stops is a place the line really stops.">
+
+  <section class="blk">
+    <p class="prose">The <a href={u("/direct-line/")}>spine</a> walks this line down in prose,
+    generation by generation. This is the same line seen all at once, which answers a different
+    question: not who came before whom, but how much of it is actually known.</p>
+
+    <p class="prose">Of the <strong>{people}</strong> people here, <strong>{doc}</strong> rest on
+    a record this archive has read. The other <strong>{people - doc}</strong> are the family
+    tree's word and are drawn lighter — they may well be right, and none of them has been
+    tested. <strong>{walls}</strong> branches simply end.</p>
+
+    <p class="prose">Nothing is hidden for space. Where the chart stops, the archive stops, and
+    <a href={u("/how-far-back/")}>How Far Back</a> sets out what each of those endings would
+    take to get past.</p>
+  </section>
+
+  <AncChart root={root} personHref={personHref} />
+
+  <section class="blk">
+    <p class="prose dim">The families this line marries into are on <a href={u("/trees/")}>the
+    trees</a>. Hedviga has <a href={u("/hedviga/")}>a page of her own</a>, and so does
+    <a href={u("/milka/")}>her mother</a>.</p>
+  </section>
+</Base>
