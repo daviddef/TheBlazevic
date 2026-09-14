@@ -69,6 +69,48 @@ Two of the "Zubrinic" index hits are not Žubrinić records at all — they are
 That is a village network travelling together, and it is the kind of thing a
 surname-only search hides.
 
+## Prozor confirmed twice more — and a second surname enters
+
+> **Mate Zubrinic**, 43 · 1911, *Saint Louis* · residence **"Prozon, Hungary"** ·
+> departure **(WIFE): Roza Zubrinic** · arrival **(NEPHEW): Stipan Kostelas**
+
+> **Miko Zubrinic**, 17 · 1910, *Martha Washington* · residence
+> **"Prozor, Hungary"** · departure **(FATHER): Ivan Zubrinic** ·
+> arrival **(UNCLE): Josef Kostelac**
+
+**KOSTELAC.** Mate is met by a *nephew* Stipan Kostelas; Miko by an *uncle*
+Josef Kostelac. Two Žubrinići of Prozor, a year apart, are each received by a
+Kostelac who is **kin by blood, not by village**. That is a marriage between the
+two families in the generation before — and **Kostelac is not in this archive at
+all.**
+
+---
+
+## The Canadian arrivals, read out
+
+    Mauda   F  b.1904  age 22  Liverpool → Saint John NB  11 Feb 1926  Montrose    Canadian Pacific
+    Nikdla  M  b.1902  age 26  Liverpool → Halifax        28 Mar 1928  Regina      White Star
+    Vinka   F  b.1908  age 22  Liverpool → Saint John NB  19 Feb 1930  Minnedosa   Canadian Pacific
+
+Three young Croats, born 1902–1908, all sailing from **Liverpool** to maritime
+Canada within four years. *Nikdla* is almost certainly **Nikola** mis-keyed.
+
+**These are UK OUTBOUND lists and carry no Croatian village** — only the British
+port they left from. To place them you would need the Canadian arrival records,
+which this service does not hold.
+
+## The border crossings are a thin seam
+
+Six US–Canada crossings at **St Albans, Vermont**. The transcripts give
+**birth country and nothing else** — no village, no relative:
+
+    Stefan Zubrinic  b.1866  age 37  1903  born "Austria"   ← earliest movement found
+    Ivan Zubrinic    b.1886  age 28  1914  born "Hungary"
+
+Worth noting only that the same country is described two ways sixteen years
+apart — Lika was in the Hungarian half, so *Hungary* is correct and *Austria* is
+a clerk's shorthand. **Do not spend a subscription on CANBORDER transcripts.**
+
 ---
 
 ## Two whole streams the archive has never mentioned
