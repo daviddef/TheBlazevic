@@ -1209,3 +1209,86 @@ way**. Šumećica 4 and 8 are Attalić and Cvitković households on this evidenc
 
 **Still no adult Thomas Žubrinić born in the 1760s.** Ten distinct openings
 remain to the end of the item: **321, 323–331**.
+
+---
+
+# Fourteenth sitting — 1828–1836 FINISHED
+
+**Images 284–332 are now read end to end** — every distinct opening of the
+house-bearing era of the Otočac death register, the stretch where each entry
+carries *Pagus*, *N° Domus*, an age, a cause of death and the officiating priest.
+Duplicate exposures (306/307/308, 311/312, 313/314, 321/322) were identified from
+month-heading contact sheets and read once.
+
+## The register's last entry is a Žubrinić
+
+Image 331, right page:
+
+> **In Mense Augusto 1836. · Prozor · 49. · 25.** *Paulus Xubrinich gregarius,
+> omnibus morientium Sacramentis præditus … obiit anno ætatis suæ 5[·]a, et
+> depositus est in Cœmeterio communi Smæ Trinitatis Ottochii, comitante me
+> Matthæo Mattasich Cooperatore.*
+
+**The Otočac death register 1780–1836 closes on a Žubrinić.** Prozor 49 was
+already one of their houses — *Joanna filia Marci Xubrinich, an. 12*, April 1831.
+
+## Husband and wife, three days apart
+
+Image 330, April 1836, both at **Šumećica 6**:
+
+    7 Apr 1836  Mathia uxor Nicolai Xubrinich, gregarii
+                an. 39 et mens. 10 · ex inflamatione pulmonum
+    10 Apr 1836 Nicolaus Xubrinich, gregarius
+                an. 43 · ex phthysi
+
+Pneumonia took her and consumption took him inside a week. *(The census puts a
+`Nicolaus Xubrinich b. 21 Nov 1798` at Šumećica **10**, which would make him 37
+in 1836, not 43. Same given name, neighbouring house, six years out: **not
+identified as the same man.**)*
+
+## Prozor 1 loses two children to dysentery
+
+    Aug 1834  Stephanus filius Michaelis Xubrinich, Decurionis resignati, an. 12
+    Sep 1834  Catharina filia Michaelis Xubrinich, Decurionis resignati
+
+**`Decurio resignatus`** — a corporal who has given up the rank. Prozor 1 had
+already buried Stephanus (an. 64) in 1830, the widow Lucia in January 1831 and
+Thomas (an. 44) in February 1831.
+
+## Šumećica 2 attested a second time
+
+    Oct 1831  Thomas filius Michaelis Xubrinich, gregarii, dierum trium
+    Jan 1835  Theresia filia [...] Xubrinich
+
+Two independent entries put a **Žubrinić family at Šumećica house 2** — the
+address the tree gives Toma. The second confirms the first; neither is Toma.
+
+## The rest of the stretch
+
+    Prozor 50 · Josephus Xubrinich, gregarius, ex chronica pulmonum infirmitate  May 1835
+    Ottocsacz 60 · Martha uxor Petri UNTERSINGER, gregarii                       Feb 1835
+
+## Nineteen Žubrinić houses, five villages
+
+    Ottocsacz   40
+    Dubrava     41 · 60 · 68
+    Prozor       1 · 14 · 17 · 34 · 40 · 49 · 50
+    Poljice      9 · 13 · 19
+    Shumechicza  2 ·  5 ·  6 · 10 · 11
+
+## The verdict on 1828–1836
+
+**There is no adult Thomas Žubrinić born in the 1760s anywhere in it.** Every
+Thomas the register buries in these years is a child, and the four adult Thomases
+of the whole read — 1824 (an. 24), 1826 (4½ days), 1829 (an. 5) and 1831
+(an. 44) — are all born after 1780.
+
+**The Obilje Thomas of the census, husband of Martha born 1767, did not die
+between 1828 and 1836.** If he is in this register at all he is in the prose
+years — and those give a name and an age and no house, so even finding him there
+would not tie him to Obilje. **That is the honest end of this instrument for
+question 4.**
+
+What the stretch *did* give, which is a great deal: **Casparus Žubrinić's own
+death** with house, age, cause and priest; **his widow Helena's**; **Šumećica 2
+and 5 attested**; and the **1834 godfather placed in a house**.
