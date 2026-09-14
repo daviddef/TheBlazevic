@@ -1162,3 +1162,50 @@ six villages; between them the two books are now describing the same family from
 two directions.
 
 **Still no adult Thomas Žubrinić born in the 1760s.**
+
+---
+
+# Thirteenth sitting — images 317–320, and the 1834 godfather gets a house
+
+## Šumećica 5 is the house of ahnentafel 10's godfather
+
+Image 320, right page, **6 March 1834**:
+
+> **Shumecicza · 5. · 6.** *Obiit in Dñº **Franciscus filius Francisci
+> Xubrinich, Vigiliarum Magistri pensionati**, ætatis suæ 1½, ex lassis
+> consumtione; et sepultus est in Cœmeterio hujus Parochialis Ecclesiæ SSmæ
+> Trinitatis.*
+
+The surname is underlined in the scribe's usual way; read across two overlapping
+crops.
+
+**Ahnentafel 10's baptism is dated 24 January 1834** and names among the
+godparents:
+
+> *Petrus filius Francisci Xubrinich, **Wigiliarum Magister pensionatus***
+
+**Six weeks after standing at that font, Franciscus Žubrinić — retired Master of
+the Watch — buries an eighteen-month-old son of his own, and the register gives
+the house: Šumećica 5.**
+
+This is the first time a person named in the archive's own 1834 baptism has been
+placed at an address by an independent document. It does not touch the direct
+line — the godfather is not an ancestor — but it turns a name in a godparent
+column into a household on a street.
+
+And house 5 carries a second rank: in **August 1832** the same register buries
+*Theresia […] **Xubrinich Decurionis*** at **Shumechicza 5**. A retired Master of
+the Watch and a corporal at one address.
+
+## Also on these openings
+
+    Shumechicza 4 · Petrus filius [...] Attalich, gregarii            Sep 1833
+    Shumechicza 8 · Andreas filius Thomæ [surname cut], dierum 12      Nov 1833
+    Shumechicza 8 · Helena filia [...] Cvitkovich, ex hydrope          Jan 1834
+
+The Šumećica 8 entry of November 1833 is a twelve-day-old **son of a Thomas**
+whose surname runs past the column the crop reaches; **it is not claimed either
+way**. Šumećica 4 and 8 are Attalić and Cvitković households on this evidence.
+
+**Still no adult Thomas Žubrinić born in the 1760s.** Ten distinct openings
+remain to the end of the item: **321, 323–331**.
