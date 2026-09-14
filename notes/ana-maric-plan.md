@@ -204,6 +204,18 @@ Zubrinić* — a different couple.
 
 The tree gives Tereza a sister **Lucca born 1853**, and this archive flagged
 that entry a few hours ago because it would make Nikola a father at nineteen.
-**The index does not support it.** That is not proof it is wrong — the index is
-not complete and 1853 may simply be unindexed — but the flag stands, and the
-1853 pages of the film are now the place to settle it.
+**The index does not support it.**
+
+**And the «1853 may simply be unindexed» escape has now been closed.** The
+density test was run the same day: Otočac Žubrinić entries number **15 in 1851,
+8 in 1852, 13 in 1853, 9 in 1854, 11 in 1855**. **1853 sits in the middle of its
+neighbours** — it is covered normally. In that year there is **no Lucca and no
+Luce Žubrinić baptised at Otočac, and no child at all to a father called
+Nicolaus.** The only Lucia of 1853 is **Lucia *Kostelac***, daughter of
+Stephanus Kostelac and Barbara Žubrinić — a Žubrinić mother, not a Žubrinić
+child.
+
+**So the entry that would make ahnentafel 10 a father at nineteen has no
+register behind it.** An index is still a finding aid and not a register, and
+one missed page is always possible; but the objection that made the first
+negative worthless has been answered.
