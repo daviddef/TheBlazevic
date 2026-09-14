@@ -49,6 +49,10 @@ const READ = [
   { book: "Selce marriages", ref: "—", pages: "p.21-22, domus 51 and 80", years: "1835", n: 1,
     got: "Ahnentafel 24 marrying ahnentafel 25, naming 48, 49, 50 and 51 — four direct ancestors in one line, all four already dead. The groom entered as “Josephum Antich Papa”, and his sister, marrying the bride's brother the same day, as “Euphemia Antich aliter Papa”. Five more aliter pairs on the same opening.",
     missed: "It was on disk the whole time — 2,987 pixels, attached in the tree to six direct ancestors, and counted by the coverage tool as merely <em>scanned</em>. Eleven more people on the direct line are still in that state: an image attached, nothing read out." },
+  { book: "Otočac Status Animarum 1710-1846", ref: "HDA, Otočac knj. 1", pages: "p.204-214 (images 101-106), and the Pagus margin of 30 openings",
+    years: "1770 – 1846", n: 11,
+    got: "Šumećica — spelled <em>Shumechicza</em>, as ahnentafel 10's 1834 baptism spells it — found at pages 206-213, bounded by Poljic before and <em>Advenæ</em> after, and closing with its own total: “Shumechicza continet Animas 148.” Its one Žubrinić household transcribed in full: Nicolaus Xubrinich b. 21 November 1798, two men called Michaël beside him, and eleven children to 1846. Five other households by house number — 9 Dašović, 11 and 12 Orešković, 13 Attalić.",
+    missed: "No Casparus, and no Toma born 1768 — a status animarum is one living list, and the 1760s generation was never carried into the surviving recension. And the houses here run 9 to 14: <strong>there is no house 2 and no house 24</strong> in the village's eight pages. About 100 of the census's 117 openings are still unread." },
   { book: "Vrbnik baptisms", ref: "—", pages: "house 244", years: "1806", n: 1,
     got: "Josephum Antić — and the underlined nadimci that answered question 5: Antich Papa, Loncsarich Franich, Antich Dudin.",
     missed: "The Selce registers 1765–1838, which would show the surname change generation by generation." },
@@ -60,7 +64,7 @@ const HOLDINGS = [
   { parish: "Senj", books: "Births 1734-1894 · Deaths 1820-1858, 1859-1907 · Marriages 1734-1858, 1859-1920",
     checked: "Marriages verified end to end — image 196 is p.192 (1885), image 371 is p.366 (1920)." },
   { parish: "Otočac", books: "Births 1834-1846, 1846-1858 · Deaths 1780-1836, 1834-1858, 1859-1872 · Marriages 1859-1872 · Church Census (Stanje duša) 1710-1846",
-    checked: "Marriages verified: images 129-147, pag. 10 = 1862, pag. 18 = 1865. Census film target confirms 1710-1846." },
+    checked: "Marriages verified: images 129-147, pag. 10 = 1862, pag. 18 = 1865. Census read: each page is a full table, so left page = 2×image + 2 and right = 2×image + 3 — image 102 is page 206. The earlier note that HDR = image + 243 is wrong." },
   { parish: "Krmpote-Vodice", books: "Births 1815-1896 — and NO marriage register, and no deaths",
     checked: "LABEL WRONG. Image 10 is page 2 and reads 1879; image 188 is page 177 and reads 1896. The film is 1879-1896.", bad: true },
   { parish: "Brinje", books: "Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899",
@@ -76,6 +80,8 @@ const UNREACHABLE = [
   { q: "1e", want: "Miroslava Vukelić's baptism, Senj 1907", why: "Senj births stop at 1894." },
   { q: "5b", want: "Senj baptisms for January–February 1895 — the two sisters eighteen days apart", why: "Senj births stop at 1894. Both sisters fall one year outside." },
   { q: "4", want: "Otočac baptisms of Casparus (14 Jan 1767) and Toma (1768)", why: "Otočac births begin in 1834." },
+  { q: "4", want: "Casparus and Toma Žubrinić in the Otočac church census, at Šumećica", why: "Šumećica WAS found and read — pages 206-213, 148 souls. Nobody born in the 1760s is on them. A status animarum is one living list kept to 1846, and that generation was never carried forward into the surviving recension." },
+  { q: "4", want: "Šumećica house 2 and house 24 in the church census", why: "The village's houses in that book are numbered 9 to 14, and the section is bounded on both sides. Neither number exists there. The 1834 baptism's N° 24 is most likely a Military Frontier house number, not this book's parish sequence — untested." },
 ];
 
 const pages = READ.reduce((a, r) => a + r.n, 0);

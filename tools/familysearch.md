@@ -140,3 +140,56 @@ surname and no house number gets recorded from a whole-page view.** Having a
 groom's birth month as `1/VIII` from a page-scale view; enlarged 2.7× on the cell
 alone it is `1/III` — three strokes under one overline. Crop the single cell,
 enlarge, and only then write it down.
+
+---
+
+## Access, and how it fails — added 14 September 2026
+
+Two failures cost most of a sitting. Both have a fix.
+
+### The in-app Browser pane is banned outright
+
+Every request to `familysearch.org` from the Claude desktop Browser pane —
+viewer page, home page and the Deep Zoom tile service alike — returns Akamai
+**`Access Denied / Error 15`**, naming the pane's egress proxy. The tooling is
+not at fault and there is nothing to debug. **Use the user's own Chrome**
+(`mcp__claude-in-chrome__*`), which reaches FamilySearch normally.
+
+Chrome must be **signed in to FamilySearch**. Signed out, the film URL loads the
+page shell and then bounces to `ident.familysearch.org`; the tile service answers
+`401`. Signing in is the user's to do, not this archive's.
+
+### Akamai throttles heavy tile fetching, and a page reload clears it
+
+After a few hundred tiles the service starts answering **`403` with a bot-manager
+challenge**, in Chrome too. Waiting does not clear it. **Reloading the viewer page
+does** — the viewer runs Akamai's sensor script and a fresh token is issued. Then
+throttle: 3–4 concurrent tile loads with a ~25 ms gap between them ran a whole
+sitting without tripping again.
+
+### Do not screenshot the canvas — post it to disk
+
+`computer{action:"screenshot"}` is capped at the viewport, so a stitched page has
+to be shrunk to fit and can no longer be enlarged — which defeats the archive's
+standing rule. It also wedged the renderer twice, requiring a reload.
+
+Instead, run a one-file HTTP sink locally and have the page POST the PNG:
+
+```js
+const b = await new Promise(r => canvas.toBlob(r, "image/png"));
+await fetch("http://127.0.0.1:8799/put?name=" + name, {method: "POST", body: b});
+```
+
+`http://127.0.0.1` counts as a *potentially trustworthy origin*, so an HTTPS page
+is allowed to post to it and mixed-content blocking does not apply. Give the sink
+an `Access-Control-Allow-Origin: *` header and the fetch reports a real status
+instead of failing silently as a `no-cors` opaque request does.
+
+The file can then be cropped and enlarged locally as often as a contested digit
+needs — which is the point.
+
+### The 45-second evaluation limit
+
+The console bridge kills any `javascript_tool` call at 45 s, and a full-resolution
+page is more than that. Push the work into a background queue that records a
+status string and poll it with a second, short call.

@@ -214,3 +214,160 @@ above, and it is the whole of question 4.
 openings, and two sittings have not cracked it. The target is now precise —
 **Šumećica, Domus 2 and Domus 24** — and the tooling is better, but it needs a
 dedicated run rather than the tail of a session.
+
+---
+
+# Third sitting, 14 September 2026 — Šumećica found and read in full
+
+**Šumećica is in the book.** It is written **`Shumechicza`** — the same spelling
+as ahnentafel 10's 1834 baptism — and it occupies **pages 206–213**, which are
+**images 102, 103, 104 and 105**. It is preceded by *Poljic* (p.204) and
+followed by a section headed ***Advenæ*** — incomers — at p.214.
+
+The village closes with its own total, written along the foot of p.213:
+
+> **Shumechicza continet Animas 148.**
+
+## Four corrections to what this archive believed about the book
+
+**1. Each *page* is a complete table, not each opening.** Every page carries the
+full column set — *Pagus · N° Domus · Nomina Familiæ · Dies · Mensis · Anno ·
+Confirmatio · Confessio/Communio*. An opening therefore holds **two** independent
+household pages, and the previous sittings read only the left one. Pagination:
+**left page = 2 × image + 2, right page = 2 × image + 3**, fixed at four points
+(102→206, 103→208, 104→210, 105→212, and 101 right = 205).
+
+**2. `HDR = image + 243` is wrong.** Image 102 is page 206, not 345. The earlier
+formula was fitted to something else and should not be used.
+
+**3. The surname IS in the *Nomina* column** — at the head of each household
+(*"Nicolaus Xubrinich"*, *"Matthæus Oreskovich"*, *"Josephus Dasovich"*).
+Only the continuation rows are given-name-plus-patronymic. The second sitting's
+conclusion — that the family name sits in the margin and the column cannot be
+scanned for it — was wrong, and it was the thing that made the job look
+impossible.
+
+**4. The margin strip had to be rotated CLOCKWISE.** `__pagus` rotated −90°,
+which renders the vertical *Pagus* text mirrored and upside down. That, not the
+binding shadow, is why two sittings could not read the village names. Rotated
++90° the same crops read cleanly at once — image 48 is *Dubrava · Novoselia*,
+image 105 is *Shumechicza*. `tools/fs_reader.js` now rotates the right way.
+
+## The village sequence, read off the *Pagus* margin
+
+    #13-21  Ottocsaz          #57-73   Prozor / Luka
+    #25-53  Dubrava / Novoselia   #77-81   Melcsevo Selo(?)
+    #48     Dubrava · Novoselia   #102-105 SHUMECHICZA
+    #101    Poljic            #106+    Advenæ (Ottocsaz)
+
+## Every household at Šumećica, by house number
+
+| N° Domus | Head | Pages |
+|---|---|---|
+| **9** | Josephus Dasovich | 206–207 |
+| **10** *(inferred)* | **Nicolaus Xubrinich** | 206–207 |
+| **11** | Matthæus Oreskovich | 208 |
+| **12** | Antonius Oreskovich | 209–210 |
+| **13** | Franciscus Attalich | 211 |
+| **13 or 14** | Attalich | 212–213 |
+
+The Žubrinić household's own *N° Domus* cell is **destroyed by an ink blot** and
+is not legible at 5×. It is bracketed by a clean **`9.`** above it on the same
+page and a clean **`11.`** on p.208, so **10** is what the sequence requires —
+but it has **not been read**, and this archive does not record numbers it has
+not read.
+
+## The Žubrinić household — Šumećica, pages 206 and 207
+
+Transcribed from the tile-stitched scan at full resolution, cell by cell.
+
+**Men** — *(p.206, foot)*
+
+    Nicolaus Xubrinich .................. 21. 9bris. 1798.
+    Michael fil: defti Georgij ..........  2. Maji.  1802.
+
+*(p.207)*
+
+    Michael fil: defti Stephani .........  3. Xbris. 1805.
+    Stephanus filius Nicolai   [struck] . 25. Martij 1822.
+    Joannes      "        "   ...........  6. Febr:  1826.
+    Mathæus filius Michaelis ............ 29. Martij 1835.
+    Franciscus d° defti Nicolai ......... [no date entered]
+    Thomas filius Michaelis ............. 21. 10bris 1846.
+
+**Women** — *(p.207)*
+
+    Magdalena uxor Nicolai    [struck] .. 30. Xbris. 1796.
+    Catharina fil: defti Stephani [struck] 24. Martij 1811.
+    Maria — "Nupsit"          [struck] ..  5. 8bris. 1819.
+    Helena uxor Michaelis ............... 24. Xbris. 1804.
+    Magdalena filia Michaelis [struck] .. 11. Julii  1820.
+    Magdalena filia 2da detto ........... 24. Xbris. 1831.
+    Maria filia Nicolai .................  5. Junij  1836.
+    Catharina filia Michaelis ........... September [year not read]
+    Maria filia leg. Michaelis .......... 14. Augusti 1841.
+
+`21. 9bris. 1798` was read as *Xbris* at page scale and is **9bris — November**
+at 7× on the cell. The standing rule caught it again.
+
+---
+
+# What this does and does not do for question 4
+
+## It does not answer it, and it cannot
+
+**There is no Casparus Žubrinić in this book at Šumećica, and no Toma born
+1768.** The oldest Žubrinić on these pages is **Magdalena uxor Nicolai, born 30
+December 1796**. The oldest person in the whole village section is **Antonius
+Oreskovich, 14 September 1770** (p.209) — so the book *does* reach the 1770s,
+and the absence is not a limit of the volume's date range.
+
+It is a limit of what a *status animarum* is. This is a **living book**: one
+standing list of households, opened in the eighteenth century and kept up to
+1846, with the dead ruled through and the newborn written in beneath them. What
+survives on the Šumećica pages is the population as it stood in the **1830s and
+1840s**. Men born in 1767 and 1768 were dead long before the last hand touched
+these pages, and their rows are not there to be struck — they were never carried
+forward into this recension.
+
+## And the house numbers are not the ones the question asked for
+
+Šumećica's houses in this book run **9 to 13 or 14**. There is **no house 2 and
+no house 24** anywhere in the village's eight pages — and that is not an artefact
+of a bad read, because the section is bounded on both sides (*Poljic* before,
+*Advenæ* after) and closes with its own soul-count.
+
+So **the 1834 baptism's "ex pago Shumechicza N° 24" and the tree's "Šumećica 2"
+both name houses this census does not contain.** The most likely explanation is
+that they are a different numbering — the Military Frontier's administrative
+*Hausnummer*, which is what a *Confiniarius* family's baptism would quote —
+against this book's parish sequence. **That is a hypothesis and is not being
+published as a finding.**
+
+## What was actually gained
+
+* Question 4's document has been found, located to the page, and read. It is no
+  longer an open lead; it is a **closed null**, which is worth recording.
+* A Žubrinić household at Šumećica is now transcribed in full — sixteen people
+  across three generations, 1796 to 1846 — even though none of them is on the
+  direct line as currently drawn.
+* **`Shumechicza continet Animas 148`** — the hamlet's size, in its own hand.
+* The reading method is now sound (see below), and the rest of this 117-opening
+  book is readable at roughly two minutes an opening.
+
+## Method notes that made the difference
+
+* **Rotate the *Pagus* strip clockwise.** This was the whole blocker.
+* **Anchor every crop on the binding shadow.** `__spine(n)` takes the frame at a
+  4-level drop and returns the darkest column as a fraction; all crops are then
+  `anchor + offset`. Fixed fractions do not work — the paper moves frame to
+  frame by more than the width of the *Pagus* column.
+* **Send canvases to disk, do not screenshot them.** A screenshot is capped at
+  the viewport and wedged the renderer twice. A tiny local HTTP sink plus
+  `canvas.toBlob` → `fetch('http://127.0.0.1:PORT', {method:'POST'})` delivers
+  the full-resolution PNG to a file, which can then be cropped and enlarged
+  locally as many times as the standing rule demands. `http://127.0.0.1` is a
+  trustworthy origin, so an HTTPS page may post to it.
+* **Never `await` a long fetch inside one console call.** The bridge kills any
+  evaluation at 45 s. Kick the work off into a background queue that writes a
+  status string, and poll it.
