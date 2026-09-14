@@ -49,7 +49,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
   </section>
 
   <section class="blk">
-    <h2>What this archive says</h2>
+    <h2>What this archive has established</h2>
     <div class="grid two">
       <div class="card">
         <h3>They are Bunjevci, and that is not a small detail</h3>
@@ -110,7 +110,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
 
   <section class="blk">
     <div class="lab">Recently found</div>
-    <h2>What has moved lately</h2>
+    <h2>Recently found</h2>
     <p class="lede">An archive that never changes is not being worked on. Most of what follows is
     this one becoming <strong>less</strong> certain rather than more — which is what happens when
     somebody actually reads the registers behind a family tree.</p>
@@ -131,7 +131,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
   </section>
 
   <section class="blk">
-    <h2>By the numbers</h2>
+    <h2>The archive in numbers</h2>
     <div class="grid three">
       <div class="stat"><div class="n">{register.length.toLocaleString()}</div><div class="l">people carrying one of the
         eight surnames, published</div></div>
@@ -144,5 +144,17 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
       <div class="stat"><div class="n">2,034</div><div class="l">people judged living and withheld from this build
         entirely</div></div>
     </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What is still missing</h2>
+    <p class="dek"><strong>19 open, 9 answered</strong> — and the answered ones are kept so that the
+    change stays visible. The archive's central doubt, who Ljubomir's parents were, was closed by the
+    Senj marriage register of 8 December 1920; what remains is set out with the document that would
+    settle each one beside it. <a href={u("/open-questions/")}>Open questions →</a></p>
+    <p class="small" style="margin-top:1rem">The most valuable thing anyone can send this archive is
+    a <a href={u("/corrections/")}>correction</a>. The second is a document that closes one of these.
+    Where a record has been seen it is cited; where it has not, the claim is marked. See
+    <a href={u("/method/")}>Method</a>.</p>
   </section>
 </Base>
