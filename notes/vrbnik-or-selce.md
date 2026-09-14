@@ -57,7 +57,36 @@ visiting officiant, which is entirely ordinary.
 calls the 1806 scan *Vrbnik baptisms*, while `ancestors.json` gives ahnentafel 24
 a birthplace of *Selce*.
 
-## What would settle it
+## RESOLVED, the same day: it is Selce
+
+The Selce film's **Deaths 1790–1815** item was opened — image 108 of the Selce
+births/deaths film — and it is **1806**, in the hand of:
+
+> *…per me **Mich: Rombol Capell: Loci**…*
+
+**Capellanus Loci.** The disk scan of the 1806 baptism signs itself
+**"Michael Rombol C:L:"** — the same abbreviation. Same man, same office, same
+year, in a film labelled Selce.
+
+Two further things on that one page:
+
+* **The Antići are demonstrably at Selce in 1806.** Three entries down:
+  *Die 20 Junii 1806. **Helena vidua Antonii Antich**, annorum circiter 50…*
+* The tree independently gives ahnentafel 24's birthplace as **Selce**.
+
+**So the `VRBNIK` pencil is wrong**, and `/searched`'s label *Vrbnik baptisms*
+was the error rather than the tree. The family did not cross from Krk; they were
+at Selce in 1806, in 1809, in 1835 and in 1838, under two generations of Rombol
+priests.
+
+*The one loose thread:* the **Canon of Dobrinj** who officiates at the entry
+below. Dobrinj is on Krk and Selce is in the Senj–Modruš diocese, so he is a
+visitor from another diocese — unusual enough to notice, not unusual enough to
+outweigh a priest signing his own parish's register in his own hand.
+
+---
+
+## What would have settled it, kept for the method
 
 * The **1809 register's own parish heading** — it is the same book series and
   nothing on the page read so far names the parish.
