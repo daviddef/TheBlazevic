@@ -296,6 +296,25 @@
  ],
  "rows": [
   {
+   "src": "FamilySearch — the session signed out, and seven items stopped with it",
+   "what": "Bribir · Sv. Juraj kod Senja · Senj marriages · Selce deaths · the Karlobag census · the Grižane Popis duša · the unread Otočac village",
+   "when": "15 September 2026",
+   "outcome": "blocked",
+   "url": "https://www.familysearch.org/",
+   "tags": [
+    "familysearch",
+    "method",
+    "blocked"
+   ],
+   "got": "**A third failure state, and it is not either of the two this archive had already written down.**\n\n    fetch('/service/search/hr/v2/personas?…')  →  503\n    location.hostname                          →  «ident.familysearch.org»\n    document.title                             →  «Sign-in to your account»\n\n**Every request — API and page alike — redirects to the sign-in host.** Not a 403 on the tile service: a **503 and a redirect**, with the browser sitting on the login page.\n\n**How to tell it from the other two.** A rate-limit blip and a session block both leave you **logged in** — the catalogue, the record index and the ordinary site keep answering, and only the deep-zoom tiles refuse. **A sign-out takes everything.**\n\n**It cannot be waited out and must not be worked around.** The only fix is for the account holder to sign in again in this browser. **No credentials were typed and none will be** — not the user's, not from a password store. The right move is to say the session expired, name what it blocks, and stop.\n\n**What carried on regardless:** Arcanum, which needs no FamilySearch session, and the local data work. The sitting lost seven items and kept the rest.\n\n**And it arrived after a long run of catalogue and record-index queries, not after heavy tile fetching** — so it reads as ordinary session expiry rather than anything provoked. Written into `tools/familysearch.md` beside the blip-versus-block test.",
+   "ev": [
+    [
+     "/searched/",
+     "The register"
+    ]
+   ]
+  },
+  {
    "src": "Arcanum — the Smojvers of Karlobag in the Hungarian state record",
    "what": "The four Smojvers in the 1884 officials' directory, followed up",
    "when": "15 September 2026",

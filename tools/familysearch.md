@@ -193,3 +193,39 @@ service refusing the session and not the image — stop for the day.
 page is worth nothing until the next sitting. Better to take fewer, larger crops
 from the start: one 800-pixel-wide crop of a register column reads as well as
 four small ones and costs a quarter of the tiles.
+
+---
+
+## A third state, 15 September 2026: the session is signed out
+
+The two above are the service refusing **this session's requests**. There is a
+third thing, and it looks nothing like them once you know it.
+
+    fetch('/service/search/hr/v2/personas?...')   ->  503
+    location.hostname                             ->  "ident.familysearch.org"
+    document.title                                ->  "Sign-in to your account"
+
+**Every request — API and page alike — redirects to the sign-in host.** Not a
+403 on the tile service; a **503 and a redirect**, with the browser sitting on
+FamilySearch's login page.
+
+**Tell them apart by what still works.** A rate-limit blip and a session block
+both leave you logged in: the catalogue, the record index and the ordinary site
+keep answering, and only the deep-zoom tiles refuse. **A sign-out takes
+everything**, including `/service/search/catalog/...` and the record search.
+
+**This one cannot be waited out and must not be worked around.** The only fix is
+for the account holder to sign in again, in this browser. **Do not type
+credentials** — not the user's, not from a password store, not "just this once".
+Say the session has expired, name what it blocks, and stop.
+
+**What it cost here:** seven of the sitting's remaining items in one go — Bribir,
+Sv. Juraj kod Senja, the Senj marriages, the Selce deaths, the Karlobag census,
+the Grižane *Popis duša* and the unread Otočac village. Everything that did not
+need FamilySearch — Arcanum, the local data work — carried on.
+
+**A practical note.** The sign-out arrived after a long run of catalogue and
+record-index queries, not after heavy tile fetching, so it is probably an
+ordinary session expiry rather than anything provoked. Expect it on a long
+sitting and **write down what you were about to do next**, because the
+index-with-ARK method means a sitting can resume exactly where it stopped.
