@@ -160,3 +160,71 @@ index, it is the whole job in one page.
 **The block.** Second one of the day, and it behaved exactly as the note above
 predicts: image 231 answered, and ninety seconds later the same ark returned
 **403**. One request, one answer, stop.
+
+---
+
+## The marriage index, found and read — eleven Urode on folios 2 to 9
+
+The block lifted again. **The Karlobag marriage volume has an alphabetical index
+at its front, images ~217–226**, laid out exactly like the death index:
+
+    Cognomen et Nomen | dies | mensis | annus | folium
+
+with a **printed letter at the head of each column** — M at image 220, T at 225,
+**U at 226**.
+
+**The whole U column, as written:**
+
+| | folio |
+|---|---|
+| Uzelac Catharina | 2 |
+| **Uroda Maria** | 5 |
+| Uzelak Ursula | 5 |
+| **Uroda Georgius** | **6** |
+| Uroda Joannes | ″ |
+| Uroda Andreas | ″ |
+| Uroda Vincentius | 7 |
+| Uroda Mathias | ″ |
+| Uroda Antonia | ″ |
+| **Uroda Georgius** *(a second one)* | **8** |
+| Uroda Catharina | 9 |
+| Uroda Antonius | 9 |
+
+Dates on the first rows: Uzelac Catharina **12 Julii 1804**, Uroda Maria
+**10 Julii 180[8]**, Uroda Georgius **2 Augusti 18[0?]**, and ditto marks below.
+
+**Two things follow.**
+
+**1. This is not an index of grooms.** Eleven Urode across eight folios, several
+sharing a date under ditto marks, is not eleven Uroda weddings. **It indexes
+every person named in an entry** — groom, bride, the fathers, the witnesses.
+That makes it far more useful than a marriage index usually is, and it is why a
+bride's father can be found through it.
+
+**2. There are two men called Georgius Uroda in it**, at folio **6** and folio
+**8** — which is the same difficulty as the two men called Michaël Žubrinić, in a
+different family.
+
+## What was read in the register itself, and what was not in it
+
+The register's own years, off the page headers:
+
+    image 230 left   folio 2, Anno Domini 180[6]
+    image 231 left   Anno Domini 1807
+    image 231 right  1807 → 1808 → 1809
+    image 232 left   1809 — entries 18 Jan, 6 Feb, 5 May, 10 Aug, 8 Oct
+    image 232 right  Annus Domini 1810 — 5 May, 10 Jun, 16 Jul, 15 Oct
+
+**Ahnentafel 27 was born 23 April 1810**, so her parents married by 1809 at the
+latest. **Those pages were read and hold no Uroda marriage.** One entry is worth
+carrying: **18 January 1809, a Miletich marrying «Matthææ filiæ defuncti Martini
+U[roda?]»** — the surname unconfirmed, and if it is Uroda then the index's
+*Uroda Mathias* at folio 7 is a **bride's father**, not a groom.
+
+**The folio-to-image mapping is not solved**, and that is the whole of what
+stands between this archive and the entry. Folio 2 is image 230's left page; two
+folios to an opening would put folio 6 at image 232's left page, and folio 6
+should carry *2 Augusti* — but image 232's left page has **10 Augusti** and a
+Vukelić bride. So the count is off by something, and **the fix is to read the
+folio number printed at the head of each page rather than to infer it.** That is
+one contact sheet, next sitting.
