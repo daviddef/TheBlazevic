@@ -1,0 +1,34 @@
+# People read out of a register who are NOT in the family tree.
+#
+# Why this file exists. Every other source here keys on a slug from the GEDCOM,
+# which means a person can only be recorded if MyHeritage already knew about
+# them. That was fine while the archive was checking the tree. It stopped being
+# fine on 15 September 2026, when ahnentafel 54's baptism named his father and
+# mother -- a whole generation, read at the page, with nowhere in the data to
+# put it. Six of his siblings had the same problem, and so did a daughter of
+# ahnentafel 24 whom the tree never had.
+#
+# A person belongs here when BOTH are true:
+#   * they were read in a register, at the page, with a citation; and
+#   * no slug in people.json is them.
+#
+# They are deliberately NOT given slugs and NOT merged into the tree. The tree
+# is a MyHeritage export and this archive does not edit it -- that is the whole
+# separation the project rests on. This file is the archive's own evidence,
+# standing beside the tree rather than inside it.
+#
+# "relation" says how they attach to someone the tree DOES have, in plain words,
+# and is the thing a reader needs. "ahn" is filled in only where the position on
+# the direct line is certain.
+#
+# name|ahn|relation|event|date|place|citation
+Georgius Uroda|108|father of ahnentafel 54|death|10 September 1791|Karlobag|Umrli 1774-1804 fol. 67 - "Dnus Georgius Uroda ... die 12a sepultus est in propria [sua Crypta ante] fores Ecclesiae Parochialis"; DGS 5481649
+Maria Uroda|109|wife of Georgius, mother of ahnentafel 54|named as parent|22 April 1777|Karlobag|Rodjeni 1771-1804 fol. 36/37 - "ex Georgio, et Maria Uroda, Conjugibus, hujus Loci"; ark 3:1:3QSQ-G99C-L991-3
+Dominicus Uroda||brother of ahnentafel 54|baptism|6 May 1764|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Petrus Jacobus Uroda||brother of ahnentafel 54|baptism|2 July 1767|Karlobag|Karlobag births, indexed; buried 7 November per the 1774-1804 death index fol. 82
+Heva Joanna Uroda||sister of ahnentafel 54|baptism|28 December 1769|Karlobag|Karlobag births, indexed; buried 11 May per the 1774-1804 death index fol. 5
+Maria Catharina Uroda||sister of ahnentafel 54|baptism|29 April 1772|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Anton Joanis Uroda||brother of ahnentafel 54|baptism|13 June 1780|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Joannis Uroda||brother of ahnentafel 54; married Maria filia Nicolai Barletich 10 Feb 1806|baptism|17 May 1784|Karlobag|Karlobag births, indexed; his wife stands godmother to ahnentafel 27 in 1810
+Maria Rosaria Antic||daughter of ahnentafel 24 and 25, sister of ahnentafel 12|baptism|4 October 1847|Selce|Selce baptisms, indexed - father Josephus Antic, mother Maria Jellicic; ark 3:1:3QS7-899C-596Z-7
+Stephanus Zubrinic||son of ahnentafel 10 and 11, brother of ahnentafel 5|baptism|3 July 1856|Otocac|Otocac baptisms entry 49 - "Rustici Confiniarii e Sumecica N. 2 ... Nicolaus Zubrinic et ejus uxor Anna nata Strumbulko"; ark 3:1:3QSQ-G99C-PK2C
