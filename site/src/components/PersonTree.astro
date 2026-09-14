@@ -24,6 +24,7 @@
 import { u } from "../lib/url.js";
 import evidence from "../data/evidence.json";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
 
 const { person: p, parents = [], spouses = [], children = [], siblings = [] } = Astro.props;
 
@@ -82,7 +83,7 @@ const kin = (r) => row(r, "— living, withheld —");
 <PersonTree
   self={{ name: p.name,
           dates: (p.born || p.died) ? `${p.born || "?"}–${p.died || "?"}` : "",
-          gen: p.ahn ? `${p.gen} · ahnentafel ${p.ahn}` : "",
+          gen: p.ahn ? `generation ${p.gen} · ahnentafel ${p.ahn}` : "",
           note: p.ahn ? "" : p.surname }}
   parents={parents.map(kin)}
   spouses={spouses.map(spouse)}
