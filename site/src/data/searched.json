@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 3,
   "nothing": 13,
-  "partial": 16,
+  "partial": 17,
   "pending": 10,
   "yield": 31
  },
@@ -293,6 +293,20 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch record index — Krmpote-Vodice, the children of ahnentafel 8 and 9",
+   "what": "Juraj Blažević's baptism, and whether Ledenice or Novi Vinodolski holds it",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/record/results?q.surname=Blazevic&f.collectionId=2040054",
+   "tags": [
+    "blazevic",
+    "krmpote",
+    "familysearch"
+   ],
+   "got": "**Krmpote-Vodice is in the record index**, under the place string *«Krmpote-Vodice, Modrus-Fiume, Mađarska»*, and the index hands out **the image ARK of every entry**. Filtering 22,000 Blaževići down to the Vinodol parishes gives **ahnentafel 8 and 9 as a couple in the register**:\n\n| | child | |\n|---|---|---|\n| **1880** | **Marija** | `3:1:3QS7-L99X-PLTH` |\n| **25 Aug 1882** | **Ivan** | `3:1:3QS7-899X-PL39` |\n| **27 Nov 1884** | **Tonka** | `3:1:3QS7-899X-PLHV` |\n\n**Three children to *Tome Blažević i Terezija Pećanić*, and none after 1884.** Marija and Ivan are precisely the two siblings question 1f leans on — *«Ive Blažević sin Tomin»* and *«Marija Blažević ćer Tomina»*, godparents at Marijan's baptism in 1895. **They were tree-facts; they are now register entries**, openable at the page in one step.\n\nIvan's read out: «**zakonit** · **Toma Blažević i Tereza njegova rodjena Pećanić — rim. kat. seljaci** · **Smokvica kbroj 114** · kumovi **Pere Pećanić i Marija Butorac supruga Jandrina**». Born the 25th, baptised the 26th.",
+   "missed": "**Juraj's own baptism is not there, and now definitively.** The Krmpote book begins in **1879** and he was fathering children from 1892; the index shows **no Juraj to Toma and Terezija** in it. **Ledenice and Novi Vinodolski were checked the same way and hold no candidate either.** His baptism is not in this collection — which leaves the parish office, and the letter already drafted for it.\n\n**A method caution, learnt twice today.** These pages are tilted, and a wide crop across a row lands on *different entries* at its two ends — the house number **138** sitting in the crop first looked like this family's and belongs to the entry above. Crop one row, confirm its left and right edges belong together, then read."
+  },
   {
    "src": "FamilySearch record index — the Karlobag Urode, and a generation added",
    "what": "Ahnentafel 54's baptism, his parents, and who married in 1806",
