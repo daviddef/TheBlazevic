@@ -992,3 +992,68 @@ The census gave Prozor/Luka two Žubrinić houses, 14 and 17. The death register
 adds **1, 34, 40 and 49**. Between that and **Šumećica 7**, the plain lesson is
 that **the census section is a fragment of each village, not a register of it**,
 and house numbers read from it are a floor, never a ceiling.
+
+---
+
+# Tenth sitting — images 300–302 (1831). Šumećica 2 exists, and it is Žubrinić
+
+## The tree's address is vindicated
+
+Image 302 left page, October 1831, in the ruled *Pagus* and *N° Domus* columns:
+
+> **Shumecicza · 2. · 6.** *Obiit in Dñº **Thomas filius Michaelis Xubrinich**
+> gregarii, ætatis suæ **trium dierum**, et debilitate … sepultus in Cœmeterio
+> hujus Parochialis Ecclesiæ SS. Trinitatis.*
+
+Read across two overlapping crops — the *Pagus*/*Domus* cells in one, the name in
+the other, because the name falls past the column the first crop reaches.
+
+**Šumećica house 2 exists and a Žubrinić family lives in it.** The tree puts
+**Toma Žubrinić, b. 1768, at Šumećica 2**, and three sittings of this archive have
+been treating that address as doubtful because the census's Šumećica section
+begins at house 9. **It was the census section that was incomplete, not the
+tree.** The child here is a three-day-old son of Michael Žubrinić, a *gregarius*
+(private soldier) — not Toma, and sixty-three years too late to be him — but the
+**address is now attested in the parish's own hand**.
+
+That retires the hypothesis this archive floated in the third sitting, that the
+1834 baptism's *"ex pago Shumechicza N° 24"* must be a Military Frontier
+*Hausnummer* rather than a parish number. **No such explanation is needed.** The
+village simply has more houses than the census pages show — 2, 7, 9, 10, 11 and
+24 are all now either attested or unremarkable.
+
+## Casparus's widow
+
+Same page, same month:
+
+> **Dubrava · 60. · 29.** *Obiit in Dñº **vidua Hellena Xubrinich**, ætatis suæ
+> […] Annorum, provisa omnibus SS. Sacramentis morientium …*
+
+**Dubrava 60 is Casparus's house**, and the census household there contains
+**`Helena uxor Caspari`**. Casparus died 4 March 1829; this is his widow, buried
+**29 October 1831**, two and a half years after him. Her age is cut by the
+column rule at every crop tried and is **not recorded here**.
+
+*(A marginal note beside the entry, read as "in Parochia …ensi", is not legible
+enough to transcribe.)*
+
+## Also on images 300–302
+
+    Poljice 19 · Jacobus Xubrinich   an. 22, ex vehementi febri nervosa  28 Jun 1831
+    Prozor  14 · Matthæus Xubrinich, gregarius, an. 54, ob debilitatem
+                 nervorum                                                2 Aug 1831
+    Dubrava 60 · vidua Hellena Xubrinich                                29 Oct 1831
+    Shumecicza 2 · Thomas filius Michaelis Xubrinich, dierum trium       Oct 1831
+
+**Prozor 14** is the census's *Joannes Xubrinich* house; **Dubrava 60** is
+Casparus's. **Poljice 19** is new.
+
+## A note on the rig
+
+The pane's physical width oscillates between about 510 and 800 while the emulated
+viewport stays at 800, and **the screenshot silently follows the physical width**.
+A canvas that filled the capture one minute is captured at two-thirds scale the
+next. Diagnosed by drawing a black bar 790 wide with a red block at 700–790 and
+seeing where the red landed. **Check it with a marker bar rather than trusting the
+reported coordinate frame**, and verify anything that matters with a narrow
+`__band` crop, which survives either width.
