@@ -1096,3 +1096,69 @@ birth of 1768; the identification would still rest on that alone.
 
 That is worth knowing before spending the window: **the cheap, house-bearing part
 of this register is 1828–1836, and most of it is already read.**
+
+---
+
+# Twelfth sitting — images 305–316 (1832–1833)
+
+## The film repeats itself here
+
+**306, 307 and 308 are three exposures of one opening**; so are **311/312**,
+**313/314** and **321/322**. Mapped cheaply by stitching the month-heading band
+of eight frames into one contact sheet — `In Mense Julio 1832`, `In Mense
+Octobri`, `In Januario 1833` and so on — which is the fastest way to find the
+distinct openings and the end of the item.
+
+Chronology of the tail:
+
+    309 Jul 1832   317 May 1833    325 Jan 1835
+    310 Oct 1832   318 Aug 1833    326 Apr 1835
+    311 Dec 1832   319 Nov 1833    327 Jul 1835
+    313 Jan 1833   320 Jan 1834    328 Sep 1835
+    315 Feb 1833   321 Apr 1834    329 Jan 1836
+    316 Apr 1833   323 Aug 1834    330 Mar 1836
+                   324 …           331 Jun 1836 · 332 end of item
+
+## Poljice 19 loses four people in eighteen months
+
+    Jacobus Xubrinich        an. 22, ex vehementi febri nervosa   28 Jun 1831
+    Mathæus Xubrinich        an. 52, ex asmate                     2 Jan 1832
+    Jacobus filius … Xubrinich  infant                              Jun 1832
+    Appolonia Virgo, filia [defuncti] Matthæi Xubrinich,
+                             an. 18 et 10 mensium, ex febri nervosa  Dec 1832
+
+The December 1832 entry calls her father **already dead**, which fits the
+Matthæus buried eleven months earlier. **A household of at least four buried
+inside a year and a half** — and the register names the causes: nervous fever
+twice, asthma once.
+
+## More Žubrinić addresses, and another Frontier rank
+
+    Shumechicza  5 · Theresia […] Xubrinich DECURIONIS, ex commune hydrope  Aug 1832
+    Prozor      50 · Mathias Xubrinich, gregarii                            Feb 1833
+    Poljice      9 · vidua Lucia Xubrinich, an. 77 circiter, ex debilitate
+                     senectutis et nervorum                                May 1833
+
+**`Decurio`** — a Frontier corporal — is the **fourth** office this family holds
+in the register, after *Vigiliarum Magister*, *Sylvarum Custos* and the plain
+*gregarius* that most of the men carry.
+
+**Vidua Lucia Xubrinich, about 77 in 1833, was born about 1756** — the right
+generation to have been married to a man born in the 1760s. She is **not** the
+census's Martha and is not being read as anything more than another widow of the
+name. *(A different `vidua Lucia Xubrinich` was buried from Prozor 1 in January
+1831; two women, not one.)*
+
+## Žubrinić houses now attested by the death register
+
+    Ottocsacz  40
+    Dubrava    41 · 60 · 68
+    Prozor      1 · 14 · 17 · 34 · 40 · 49 · 50
+    Poljice     9 · 13 · 19
+    Shumechicza 2 ·  5 · 10 · 11
+
+**Sixteen houses across five villages.** The census gave fourteen households in
+six villages; between them the two books are now describing the same family from
+two directions.
+
+**Still no adult Thomas Žubrinić born in the 1760s.**
