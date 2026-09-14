@@ -137,9 +137,21 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
       if (pre) { q.value = pre; run(); }
     })();
   </script>
-<style>
+<style is:global>
+  /* is:global, deliberately. A scoped <style> makes Astro stamp
+     data-astro-cid-… onto every element the page renders, which on a register
+     of thousands of rows adds more weight than the skipping saves. The
+     selector below is specific to this page anyway. */
   /* 119 surname sections. Only the ones on screen need laying out; every row
      stays in the HTML for search engines and find-in-page. */
-  section.sur { content-visibility: auto; contain-intrinsic-size: auto 320px }
+  section.sur {
+    content-visibility: auto;
+    /* Plain length first: browsers from Chrome 85 to 110 support
+       content-visibility but cannot parse the "auto" keyword here, and
+       without a usable estimate they collapse every off-screen section
+       to nothing and the scrollbar jumps as you scroll. */
+    contain-intrinsic-size: 320px;
+    contain-intrinsic-size: auto 320px;
+  }
 </style>
 </Base>
