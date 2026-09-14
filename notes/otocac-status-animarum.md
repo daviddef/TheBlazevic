@@ -1057,3 +1057,42 @@ next. Diagnosed by drawing a black bar 790 wide with a red block at 700–790 an
 seeing where the red landed. **Check it with a marker bar rather than trusting the
 reported coordinate frame**, and verify anything that matters with a narrow
 `__band` crop, which survives either width.
+
+---
+
+# Eleventh sitting — images 302–304 and 240–241
+
+## Poljice 19 is a Žubrinić house, father and son
+
+    Poljice 19 · Jacobus Xubrinich   an. 22, ex vehementi febri nervosa  28 Jun 1831
+    Poljice 19 · Mathæus Xubrinich   an. 52, ex asmate                    2 Jan 1832
+
+Six months apart, same house. Matthæus is born about 1780 and Jacobus about 1809:
+**a father of 52 and a son of 22** is the natural reading, and it is offered as
+that and no more — the register does not say so.
+
+## Šumećica's numbering runs from 1, and the census section covered none of it
+
+Images 302 and 304 add **Šumećica 1, 3, 8 and 13** to the 2, 7, 9, 10 and 11
+already found. The village's houses therefore run **from 1 upward**, and the
+census's section — which begins at house 9 and stops at 14 — covered a slice of
+it. **`Shumecicza 13 · Mathæus Attalich, gregarius`** (Nov 1831) matches the
+census's house 13 Attalić exactly, which is the reassuring half of the same
+finding: where the two books overlap they agree, and where they differ the census
+is simply short.
+
+## The 1805–1814 window, and what it will and will not give
+
+Image **240 is 1810**, so the years between Paulus's birth (Feb 1805) and the
+already-swept 1814 are roughly **images 227–250**. Two openings read so far, no
+Žubrinić.
+
+**A caution about that window.** The ruled *Pagus* and *N° Domus* columns do not
+begin until **image 284 (1828)**. Before that the register is running prose with
+abbreviated dates — *"Die 20 Aprilis 810 obiit Thomas Oreskovich ætatis 62 anni"*
+— giving **a name and an age and nothing else**. So a Thomas Žubrinić found in
+1805–1814 **could not be tied to Obilje, or to any house**. The age would test a
+birth of 1768; the identification would still rest on that alone.
+
+That is worth knowing before spending the window: **the cheap, house-bearing part
+of this register is 1828–1836, and most of it is already read.**
