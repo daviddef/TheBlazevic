@@ -211,3 +211,38 @@ times out and screenshots hang. Reloading the viewer clears it. Reload every ten
 contact sheets or so rather than waiting for the wedge, and keep the number→ARK
 map in **`localStorage`**, not `sessionStorage`, so neither a reload nor a fresh
 tab costs the scrape.
+
+---
+
+## Reading a film in the in-app Browser pane — added 14 September 2026
+
+Earlier notes said the pane could not do this work. **It can, and it is now the
+better of the two browsers**: it is signed in, it does not exhaust its renderer
+the way Chrome does, and it needs no local sink.
+
+**What is genuinely impossible there:** the pane is **network-isolated**. A
+`fetch` to `http://127.0.0.1` never reaches this machine — the sink logs no
+request at all, even with `Access-Control-Allow-Private-Network: true`. So the
+POST-to-a-local-sink method is Chrome-only.
+
+**The trick is the viewport.** The pane's screenshot width is capped at 800 px,
+and the capture is
+
+    capture = viewport_height x 800 / viewport_width
+
+so a **tall, narrow** emulated viewport buys captured height for free:
+
+    resize_window 800 x 1960   ->  screenshot 800 x 1960
+
+One page-half of a prose register rendered to 790 px wide is about 790 x 1800 and
+**fits in a single capture at 0.52 of full resolution** — better than the 0.43 a
+Chrome contact sheet gave. Do not go much taller: at 800 x 3900 the harness
+downsamples the returned image and the gain is lost.
+
+Pair it with the `document.write` blank-page rig (above) to kill the SPA, keep
+the ARK map in `localStorage`, and batch `render → screenshot` pairs three at a
+time in one `browser_batch`.
+
+**When Akamai throttles to 403**, navigate to a real FamilySearch page, wait for
+it to load so the sensor re-issues the token, then `document.write` the rig back
+over it and carry on.

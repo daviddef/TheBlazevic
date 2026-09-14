@@ -660,3 +660,123 @@ same-origin tile fetches and `localStorage` all intact, SPA gone, JS instant.
 Re-inject the reader from `localStorage` and work there. Open a **new tab per
 batch** rather than trying to revive a wedged one, and free every canvas
 (`c.width = c.height = 0`) after drawing it.
+
+---
+
+# Sixth sitting, 14 September 2026 — the deaths read in the in-app browser
+
+The fifth sitting stopped because Chrome's renderer was exhausted and the in-app
+pane could not hand images back. **The pane can, and the trick is the viewport.**
+
+## How to read a film in the in-app Browser pane
+
+The pane is **network-isolated** — it cannot POST to `127.0.0.1` at all, and that
+is not a Private Network Access problem: with
+`Access-Control-Allow-Private-Network: true` on the sink, **no request reaches
+this machine**. So the local-sink method is Chrome-only.
+
+But the pane screenshots what it can see, and **the capture is
+`viewport_height × 800 / viewport_width`**. Width is capped at 800 px; height is
+not. So:
+
+    resize_window  800 × 1960      ->  capture 800 × 1960
+
+One page-half of the death register rendered to **790 px wide** is 790 × ~1800 —
+**it fits in a single capture at 0.52 of full resolution**, which is *better*
+than the 0.43 the Chrome contact sheets used. A tall narrow viewport is the whole
+technique. (Going taller still — 800 × 3900 for two pages — is a false economy:
+the harness downsamples a very tall image, cancelling the gain.)
+
+Combined with `document.write`-ing a blank page over any familysearch.org page to
+kill the SPA, the pane is now the **better** of the two browsers for this work:
+it is signed in, it does not wedge, and no local sink is needed.
+
+Akamai still throttles to `403` after a few hundred tiles. **Reload a real
+FamilySearch page and rebuild the rig** — the sensor re-issues the token.
+
+## What was read: images 250–274 (1814–1824), 50 pages
+
+**About thirty Žubrinić deaths in twenty-five openings.** The register writes the
+surname out, and from these years it also gives an **age**.
+
+    250R  Joannes filius Joannis Xubrinich
+    251R  Josephus Xubrinich                          Mar 1815
+    252R  Maria filia Joannis                         Jul 1815
+    254R  Mathia filia Gregorii                       Aug 1816
+    255R  Paulus Xubrinich · Magdalena uxor Gregorii · Simon   1817
+    256L  Georgius filius Vigiliarum Magistri Stephani Xubrinich  Mar 1817
+    256R  Joanna filia Joannis                        Apr 1817
+    257L  Joannes Xubrinich                           May 1817
+    257R  Franciscus filius Stephani                  Jun 1817
+    262R  Anna uxor Petri Xubrinich                   Nov 1819
+    263R  Martinus filius Josephi                     May 1820
+    264R  Philippus Xubrinich                         Dec 1820
+    265R  Joanna filia Joannis                        Jul 1821
+    266R  Anna filia Joannis                          Dec 1821
+    267L  Nicolaus filius Joannis                     Jan 1822
+    267R  Magdalena filia Vigiliarum Magistri Xubrinich  Feb 1822
+    268L  Simon filius Thomæ Xubrinich                Mar 1822
+    269L  Petrus filius Antonii                       Aug 1822
+    269R  Hellena filia Thomæ Xubrinich      an. 2½   Nov 1822
+    269R  Stephanus Xubrinich               an. 50⅓   Dec 1822
+    270R  Antonius Xubrinich   an. 38, sine Sacramentis improvise  Mar 1823
+    270R  Thomas filius Eliæ Xubrinich                Apr 1823
+    271R  Martinus Xubrinich                an. 71    Aug 1823
+    273L  THOMAS XUBRINICH                  an. 24    6 Jan 1824
+    273R  Nicolaus filius Mathæi · Elias filius Antonii · Vidua Magdalena  Apr 1824
+    274L  Francisca filia defti Vigiliarum Magistri Xubrinich   Jun 1824
+
+# The Thomas Žubrinić of this register — and why he is not question 4's
+
+**Page 384 (image 273 left), Anno 1824, In Januario:**
+
+> **6ᵃ Obiit in Dno: Thomas Xubrinich, Vigiliarum Magister, et Scriba
+> Regiminis: provisus omnibus SS. Sacramentis Morientium, et sepultus est in
+> Cœmeterio SSmæ Trinitatis — an. 24.**
+
+**Master of the Watch and Regimental Scribe**, dead at **24**, so born about
+**1799–1800**. The age was read at roughly fifteen times, against the `75` of the
+entry immediately above it in the same hand: the `7` there carries a crossbar and
+no baseline sweep, this digit is a round-topped `2` finishing on the line. **It
+is 24, not 74** — and 74 would have made him the man question 4 is looking for.
+That one digit is the whole finding.
+
+He is confirmed by his family: **Simon filius Thomæ Xubrinich** died March 1822
+and **Hellena filia Thomæ Xubrinich, aged 2½** in November 1822 — a man of 22
+with a toddler. And his office passes into the record after him: in June 1824
+**Francisca filia *defti* Vigiliarum Magistri Xubrinich** is buried.
+
+**So the Thomas Žubrinić in this register is a young Frontier clerk born about
+1800, and not Toma b. 1768.** The Obilje Thomas of the census — the one whose
+widow **Martha (b. 5 July 1767)** and son **Paulus (b. 1805)** are entered there
+— is still unfound.
+
+## Two Frontier offices, now three men
+
+The **Vigiliarum Magister** — Master of the Watch — is becoming this family's
+signature. **Stephanus Xubrinich** holds it in 1817 and dies in December 1822
+aged 50⅓ (born ~1772); **Thomas** holds it *and* the regimental scribe's post
+when he dies in 1824; and the 1834 baptism names **Petrus filius Francisci
+Xubrinich, Wigiliarum Magister pensionatus**. With the **Sylvarum Custos** at
+Luka 17 in the census, the Žubrinići of this parish hold Frontier office across
+at least four men and three generations.
+
+## Seven men called Thomas ruled out, each at full width
+
+At contact-sheet scale every one of these read as a possible Žubrinić. None is:
+
+    Thomas filius defti Georgii Gomercich    an. 20   Jan 1817
+    Thomas filius Thomæ Dassovich                     Mar 1817
+    Thomas Oreshovich                        an. 65   Dec 1819
+    Thomas Pomercich                                  Apr 1821
+    Thomas filius Michaelis Laskarin                  Feb 1822
+    Thomas filius Nicolai Attalich                    Mar 1822
+    Thomas filius Mathæi Dujmovich                    Apr 1822
+
+## What remains
+
+**Images 156–249 (1780–1814) and 275–332 (1824–1836)** — about 150 of the 177.
+The Obilje Thomas was alive in February 1805, when his son Paulus was born, so
+**both halves of the remaining range are live**. Note that from image ~308 the
+register carries **Pagus and Domus**, so a death after 1832 would name the
+village and house outright.
