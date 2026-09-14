@@ -141,20 +141,60 @@ or instead of the surname, and one clerk using it where another does not.
 **«Ana Shambul Marić» in the family tree is Marić plus a house name**, and the
 house name is spelled **Šumbulko / Strumbulko** by the priest who wrote it.
 
-## What is still not proved, and what would prove it
+## What was still not proved — and what the page said
 
-**That the 1856 couple and the 1858 couple are the same couple.** Nicolaus is a
-common Žubrinić name at Otočac: the same index shows Michaël, Joannes, Mathaeus,
-Stephanus, Franciscus, Georgius, Jacobus and Mio Žubrinić all fathering children
-there in the same decade.
+**Written earlier the same day:** that the 1856 couple and the 1858 couple are
+the same couple was *not* proved. Nicolaus is a common Žubrinić name at Otočac —
+the same index shows Michaël, Joannes, Mathaeus, Stephanus, Franciscus,
+Georgius, Jacobus and Mio Žubrinić all fathering children there in the same
+decade. **The discriminator is the house number.**
 
-**The discriminator is the house number, and the register has one.** The Otočac
-book of these years is ruled *Annus, Mensis, Dies · Nomen Prolis · Conditio ·
-Parentes · Patrini · Baptizans · **Numerus Domus***, and the *Conditio* column
-carries things like *«Decurio Incl: Reg: Otocani **e Prozor N° 46**»* — a
-corporal of the Otočac regiment, from Prozor house 46. **Ahnentafel 10's own
-baptism puts his family at Šumećica N° 24.** Two entries read at the page, two
-house numbers, and this is settled either way.
+**Both entries have now been read at the page. Both are the same house.**
+
+| | 3 July 1856, entry 49 | 15 September 1858 |
+|---|---|---|
+| **Child** | *Stephanus, filius legitimus, Romano-Catholicus* | *Maria, filia legitima, Romano-Catholica* |
+| ***Conditio*** | *Rustici Confiniarii* — **e Šumećica N° 2.** | *Rustica* — **e Šumećica N° 2.** |
+| **Parents** | *Nicolaus Ž[ubrinić] et ejus uxor Anna nata **Štrumbulko**, Romano-Catholici* | *Nicolaus **Žubrinić** et ejus uxor Anna nata **Marić**, Romano-Catholici* |
+
+In both, *Žubrinić* carries the scribe's **underline**. In both the house number
+is a **single digit 2**, closed by a full stop with the rest of the cell blank —
+read at full resolution against the column rule, because the neighbouring rows
+on the 1858 page run *e Šumećica N° 3* and *N° 25* and a bad crop could take a
+digit off either.
+
+**One house, one man's name, one wife's given name, twenty-six months apart.
+They are one couple** — and so **Anna Marić is Anna Štrumbulko**, written both
+ways by the same parish. *«Ana Shambul Marić»* in the tree is **Marić plus a
+house name**, and the house name is now attested on a page rather than inferred
+from a tree program's punctuation.
+
+Stephanus, 3 July 1856, is **a child this archive did not have**.
+
+### A correction, and a new question
+
+**There is no *Numerus Domus* column in this book.** This note claimed one
+earlier today. The far-right column is ***Nrus Protocolli*** — the running entry
+number, which is how the index's «line 49» resolves. **The village and the house
+are written inside the *Conditio* column**, after *Rusticus* or *Confiniarius*,
+in the form *e Šumećica N° 2* or *in Dubrava N° 48*. Everything above stands;
+the column heading did not.
+
+**And the house number is not the one expected.** Ahnentafel 10's own baptism,
+24 January 1834, puts him in his father Michaël's *Confiniarius* household at
+**Šumećica N° 24**. His children in 1856 and 1858 are at **Šumećica N° 2** —
+the house the tree gives Toma Žubrinić (b. 1768).
+
+Two readings are open and neither is being claimed:
+
+* **He moved.** A married son leaving the *zadruga* for another house in the
+  same hamlet is ordinary, and twenty-two years separate the two entries.
+* **The man at house 2 is a different Nicolaus.** Against this: the 1858 entry
+  matches the tree's Marija to the day, and her mother is *Marić*.
+
+**What settles it is the *Status Animarum*, and the target has not changed** —
+find Šumećica in the *Pagus* margin, then read **Domus 2 and Domus 24** together.
+If one household is the other's continuation, both numbers hold the same names.
 
 ## And a negative that bears on something else
 
