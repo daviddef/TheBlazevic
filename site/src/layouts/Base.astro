@@ -2,7 +2,7 @@
 import "@daviddef/archive-kit/styles/print.css";
 import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 /* every public asset gets a fingerprint, so a fix is never served stale */
-const v = versioner(new URL("../../public/", import.meta.url));
+const v = versioner();
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
