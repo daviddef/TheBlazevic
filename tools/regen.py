@@ -49,6 +49,7 @@ ORDER = [
     "register.py",
     "coverage.py",
     "walls.py",
+    "graves.py",
     "searched.py",
     "whoindex.py",
 ]
