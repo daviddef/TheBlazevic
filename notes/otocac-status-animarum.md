@@ -348,3 +348,67 @@ seconds. **That is the block, not the blip**, by the test in
 
 Three openings, then two. **Half an hour's work against a book that was written
 off as a hundred-opening sweep this morning.**
+
+
+---
+
+# The census answered — and the answer is that it cannot answer
+
+Read out the same day, once FamilySearch let the session back in.
+**All five Šumećica openings are now read, and so is everything after them.**
+
+## Šumećica in this book, household by household
+
+| image | *N° Domus* | head |
+|---|---|---|
+| 102 | **9** | **Josephus Dašović** — Georgius · Petrus, 27 June 1818 · Michael, 4 Dec 1827 · Thomas, 29 July 1831 · Josephus *filius Petri*, 13 March 1846 · Maria *uxor Josephi* · Anna *uxor Petri nata Žunić* · Maria and Joanna *filiæ Petri* |
+| 102 | **10** | **Nicolaus Štabinčić**, 24 Nov 1798, with *Michael filius dictus Georgij*, 2 May 1802 |
+| 103 | **4** | **Mattheus Orehović** — fourteen people, with *Martha uxor Georgii nata Orehović* |
+| 104 | — | continuation of Domus 4; the whole left page is women, no new number |
+| 105 | ~**13** | a **Paulus** household — Magdalena, Catharina, Barbara, Helena, Maria, with *Rosalia … Thomæ nata Stulac* and *Mandalena uxor Michaelis … Dubrava* |
+| 105 | ~**14** | a household of **Andreas · Stephanus · Elias · Petrus · Matthæus**, births 1806–1830 |
+| 106 | — | **Valentinus Janežić** and **Antonius Ollar**; then **Josephus Kovačić**; then **Vincentia Orehovački** with *Francisca uxor dicti* |
+
+**Seven or eight households. Dašović, Štabinčić, Orehović, Janežić, Ollar,
+Kovačić, Orehovački.**
+
+## The finding, and it is a negative
+
+**There is no Žubrinić household at Šumećica in this book. There is no Domus 2
+and there is no Domus 24.**
+
+That is not a gap in the reading. Every opening of the block was read; the
+*Extinctæ* section at 108–109 was read (it is one opening, photographed twice —
+*Joannes Grgurin*, *Stephanus filius dicti*, and the twins *Marcus et Josephus
+Georgii dicti Gemelli*); image 110 is a different village; **111 returns to
+Novoselia**; and **the ruled census stops about image 112.** Images 113–119 are
+later additions in another hand with **no *Pagus* column at all**, and 121
+onward is blank until the marriage register.
+
+## What that means, said plainly
+
+The Žubrinići were demonstrably at Šumećica — **house 24 in January 1834**, on
+ahnentafel 10's own baptism, and **house 2 in 1856 and 1858**, read at the page
+this morning. **They are not in the parish's own household census.** The likeliest
+reading is that **the ruled Šumećica block was written once, early, and never
+re-made** — its households carry births into the 1840s because members were
+added to existing families, not because new families were entered.
+
+**So this book is not the instrument for question 4, and that is now known
+rather than assumed.** Two sittings have been spent on it. It gave the village
+map, the Frontier households of half a dozen other surnames, and a clean
+negative. It will not give the Žubrinić house.
+
+## The instrument that will
+
+**The Otočac baptism registers, 1834–1846 and 1846–1858 — and they are indexed.**
+
+Every baptism in those books writes the household into the *Conditio* column in
+the form ***«Rusticus / Confiniarius e Šumećica N° X»***. The index gives
+**ninety-three Žubrinić baptisms at Otočac between 1846 and 1860**, with both
+parents named. Read the *Conditio* cell of each Šumećica one and the Žubrinić
+households of the village rebuild themselves **by house number**, from a
+register, for the whole span 1834–1858.
+
+That is a better instrument than the census, it is searchable, and nobody has
+opened it for this purpose. **It is the next sitting.**

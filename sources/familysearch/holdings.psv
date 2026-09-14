@@ -1,0 +1,93 @@
+# What FamilySearch actually holds for every parish this family touches, read
+# from the CATALOGUE ITEM (film notes), not from the waypoint labels.
+#
+# Why this file exists. sources/parishes.psv carries one range per parish per
+# event type, taken from the collection waypoints. Those labels lie — Krmpote
+# is catalogued 1815-1896 and the film begins in 1879. The catalogue item goes
+# one level deeper: it lists the CONTENTS OF EACH FILM, volume by volume, and
+# that is what you are actually going to open. It also gives the DGS number,
+# which is the only thing that gets you back to a film:
+#
+#     https://www.familysearch.org/search/film/00<dgs>
+#
+# Finding a parish: /service/search/catalog/v3/search?q.keywords=<parish>
+# (q.text, q.anyPlace and q.placeString are all REJECTED by that service),
+# then /service/search/catalog/item/koha:<n>. Checked 14 September 2026.
+#
+# parish|catalog|dgs|contents
+Otocac|koha:837578|5498269|Status animarum 1710-1846 · Vjencani 1859-1872 · Umrli 1780-1836, 1859-1872
+Otocac|koha:837578|5482656|Rodjeni 1834-1846 (INDEXED)
+Otocac|koha:837578|5482657|Rodjeni 1846-1858 · Umrli 1834-1858 (INDEXED)
+Rijeka|koha:722509|4679931|Rodjeni 1594-1608, 1608-1635 · Vjencani 1590-1635 · Krizmani 1597-1611
+Rijeka|koha:722509|5497911|Rodjeni 1635-1674, 1675-1695 · Vjencani 1635-1674
+Rijeka|koha:722509|5497912|Rodjeni 1695-1733 · Vjencani 1675-1733 · Krizmani 1688 (alphabetical A-F)
+Rijeka|koha:722509|5497925|Rodjeni 1734-1786 · Vjencani 1734-1787
+Rijeka|koha:722509|5497926|Rodjeni 1786-1834 · Vjencani 1787-1809
+Rijeka|koha:722509|5497927|Rodjeni 1815-1828, 1834-1838
+Rijeka|koha:722509|5497928|Rodjeni 1838-1850
+Rijeka|koha:722509|5497929|Rodjeni 1850-1859
+Rijeka|koha:722509|5497930|Rodjeni 1860-1867
+Rijeka|koha:722509|5497931|Rodjeni 1867-1874
+Rijeka|koha:722509|5497932|Rodjeni 1874-1880
+Rijeka|koha:722509|5497933|Rodjeni 1880-1886
+Rijeka|koha:722509|5497934|Rodjeni 1886-1890
+Rijeka|koha:722509|5497935|Rodjeni 1890-1891 · KAZALO rodjeni 1770-1840 · Kazalo umrli i vjencani 1812
+Rijeka|koha:722509|5497936|KAZALO rodjeni 1800-1868, 1866-1884, 1880-1889
+Rijeka|koha:722509|5497937|Rodjeni 1900-1901 · KAZALO rodjeni 1895-1902 and 1896-1920 (letter B only) · midwives' birth returns 1900-1901
+Rijeka|koha:722509|5497938|Vjencani 1810-1840, 1815-1821, 1851-1855
+Rijeka|koha:722509|5497939|Vjencani 1821-1850, 1855-1866
+Rijeka|koha:722509|5497940|Vjencani 1866-1891
+Rijeka|koha:722509|5497941|KAZALO vjencani 1816-1885 (alphabetical) · Umrli 1702-1765
+Rijeka|koha:722509|5497943|Umrli 1766-1854
+Rijeka|koha:722509|5497944|Umrli 1828-1859
+Rijeka|koha:722509|5497942|Umrli 1860-1870
+Rijeka|koha:722509|5497945|Umrli 1870-1883
+Rijeka|koha:722509|5497946|Umrli 1883-1891
+Rijeka|koha:722509|5497947|Umrli 1891-1892 · KAZALO umrli 1816-1888, 1848-1898
+Trsat (Rijeka)|koha:723053|5494801|Rodjeni 1646-1737 · Vjencani 1650-1737 · Umrli 1654-1737
+Trsat (Rijeka)|koha:723053|5494802|Rodjeni 1703-1866 · Vjencani 1800-1815
+Trsat (Rijeka)|koha:723053|5497813|Rodjeni 1867-1879 · Vjencani 1703-1800, 1815-1858 · Umrli 1737-1802, 1815-1857 · Krizmani 1692-1818
+Trsat (Rijeka)|koha:723053|4679927|Umrli 1858-1889 · KAZALO umrli 1815-1899
+Ledenice|koha:702027|5482218|Rodjeni 1734-1822 · Vjencani 1734-1825 · Umrli 1734-1824
+Ledenice|koha:702027|5482219|Rodjeni 1822-1861 · Vjencani 1826-1865 · Umrli 1824-1865
+Ledenice|koha:702027|5494765|Rodjeni 1861-1894 · Vjencani 1866-1882
+Ledenice|koha:702027|5494766|Umrli 1866-1902
+Novi Vinodolski|koha:432822|5482584|Rodjeni 1650-1804 · Vjencani 1674-1786 · Umrli 1704-1782
+Novi Vinodolski|koha:432822|5482623|Rodjeni 1804-1852 · Vjencani 1787-1859 · Umrli 1784-1824
+Novi Vinodolski|koha:432822|5482624|Umrli 1823-1859
+Novi Vinodolski|koha:432822|5497903|Rodjeni 1852-1874
+Novi Vinodolski|koha:432822|5497904|Rodjeni 1875-1900 · Umrli 1859-1888
+Novi Vinodolski|koha:432822|5497905|Umrli 1888-1899
+Bribir|koha:522308|5481574|Rodjeni 1678-1736 · Vjencani 1678-1738 · Umrli 1678-1744
+Bribir|koha:522308|5481575|Rodjeni 1815-1858 · Vjencani 1815-1821, 1853-1858 · Umrli 1787-1843
+Bribir|koha:522308|4679898|Umrli 1843-1858
+Bribir|koha:522308|5494719|Rodjeni 1858-1886
+Bribir|koha:522308|5494566|Vjencani 1858-1900 · Umrli 1858-1898
+Grizane|koha:532650|5481624|Rodjeni 1692-1790
+Grizane|koha:532650|5481625|Rodjeni 1735-1857 · POPIS DUSA 1738 · Vjencani 1735-1858 · Umrli 1735-1817
+Grizane|koha:532650|5481626|Umrli 1817-1858
+Grizane|koha:532650|5494736|Rodjeni 1858-1886
+Grizane|koha:532650|5494737|Umrli 1859-1894
+Selce|koha:456647|5482267|Rodjeni 1778-1861 · Vjencani 1790-1815 · Umrli 1790-1815
+Selce|koha:456647|5497948|Vjencani 1815-1878 · Umrli 1816-1886
+Crikvenica|koha:522842|4679900|Rodjeni 1815-1858 · Vjencani 1798-1858 · Umrli 1815-1858
+Crikvenica|koha:522842|5494727|Rodjeni 1859-1896
+Crikvenica|koha:522842|5494728|Vjencani 1859-1908 · Umrli 1859-1892
+Crikvenica|koha:522842|5494729|Umrli 1893-1908
+Sv. Jelena (Dramalj)|koha:468795|5482955|Rodjeni 1816-1858 · Vjencani 1815-1858 · Umrli 1816-1858
+Krmpote-Vodice|koha:719032|5494763|Rodjeni 1879-1896 — AND NOTHING ELSE. One film, one item.
+Krivi Put|koha:718929|5494757|Rodjeni 1847-1884
+Krivi Put|koha:718929|5494758|Vjencani 1871-1894 · Umrli 1878-1934
+Sv. Juraj (kod Senja)|koha:468635|5493921|Rodjeni 1697-1739
+Sv. Juraj (kod Senja)|koha:468635|5493922|Rodjeni 1740-1773 · Umrli 1695-1759
+Sv. Juraj (kod Senja)|koha:468635|5482951|Rodjeni 1780-1835 · Umrli 1760-1827
+Sv. Juraj (kod Senja)|koha:468635|5482952|Rodjeni 1835-1852 · Vjencani 1703-1782, 1793-1868 · Umrli 1828-1858
+Jurjevo|koha:722949|5494800|Rodjeni 1858-1888 · Umrli 1858-1896
+Jablanac|koha:682439|5494742|Rodjeni 1860-1895
+Jablanac|koha:682439|5494743|Vjencani 1860-1906 · Umrli 1860-1890
+Sinac|koha:837243|5498256|Rodjeni 1834-1854
+Sinac|koha:837243|5498257|Rodjeni 1854-1901 · Umrli 1834-1882
+Sinac|koha:837243|5498258|Umrli 1882-1913
+Vrbnik|koha:723697|5497817|Rodjeni 1849-1880
+Vrbnik|koha:723697|5497952|Vjencani 1815-1899 · Umrli 1862-1901
+Brinje|koha:837490||Maticna knjiga 1888-1899 — film notes not pulled
