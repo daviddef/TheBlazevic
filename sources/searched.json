@@ -9,6 +9,15 @@
  ],
  "read": [
   {
+   "book": "Senj marriages 1859–1920 — ahnentafel 6 and 7",
+   "ref": "image ark 3:1:3QSQ-G99X-17PK, entry 5",
+   "pages": "one entry, read in aligned chunks",
+   "years": "1885",
+   "n": 1,
+   "got": "**«1885, dne 3 Svibnja» — Josip Papić, *bremenar*, of Senj, aged 27**, son of ***«Juraj Papa, težak, i Matia rodjena Pilipić»***. **Ahnentafel 6's marriage, naming ahnentafel 12 and 13**, with an occupation for each: the son a **bremenar** — a carrier — the father a ***težak***. And the surname is written ***Papa***, not Antić, while the son is already ***Papić***: **the by-name hardening into a surname across one generation, in a single document.**",
+   "missed": "The bride's own sub-row was **not** read cleanly. A *Franjo Perpić* stands in the next column but these pages are tilted and that column may be witnesses rather than the bride's parents — **ahnentafel 7's father is not being claimed from this.** The entry's second half, the witnesses and the officiant, are unread."
+  },
+  {
    "book": "Karlobag births 1771–1804 — ahnentafel 54's own baptism",
    "ref": "image ark 3:1:3QSQ-G99C-L991-3, folio 36/37",
    "pages": "one entry, read at full resolution in aligned chunks",
@@ -286,6 +295,30 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch record index — an index-first sweep of the unread direct line",
+   "what": "Which of the twelve unread direct-line ancestors the index can reach",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/search/record/results?f.collectionId=2040054",
+   "tags": [
+    "method",
+    "papic",
+    "smojver",
+    "familysearch"
+   ],
+   "got": "**Twelve people on the direct line had no reading. The index was run at all of them in one sitting, and it found two.**\n\n**Ahnentafel 6 and 7 — married at Senj, 3 May 1885.** «*Josip Papić, **bremenar**, of Senj, aged 27*», son of «***Juraj Papa, težak, i Matia rodjena Pilipić***». That is **ahnentafel 12 and 13 named in a register**, each with a trade, and it catches the surname mid-change: **the father is entered as *Papa*, the son as *Papić***. The archive has argued for years that *Papa* is a **nadimak** attached to *Antić*; here it is being used as the surname outright, and hardening into *Papić* in the next generation. *(The tree gives ahnentafel 6 a birth of 1 November 1857; aged 27 in May 1885 agrees.)*\n\n**Ahnentafel 53 — a lead, not a finding.** «*Smoj[v]er, 23 February 1782, Karlobag — father **Vincentio**, mother **Oliva***». Ahnentafel 53 is **Oliva Maria Smojver, born March 1781**, and a Karlobag Smojver household with a mother called **Oliva** the following year is the right shape. **Her own baptism is not indexed** — the index reaches only about four Karlobag Smojver entries before 1796 against 114 after — so this is a page to open, not a join to make.\n\n**And the negatives are worth as much.** **Ahnentafel 20, 21, 32, 40, 41, 52** are all before their parishes' filmed registers begin, or fall in the unindexed early years: Otočac births start **1834**, Krmpote **1879**. **Ahnentafel 15, 16 and 22 have no dates at all**, so there is nothing to search on. **Those six are not reachable by index and never will be** — they need the page or a parish office.",
+   "ev": [
+    [
+     "/senj/",
+     "Senj"
+    ],
+    [
+     "/by-names/",
+     "By-names"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch record index — Krmpote-Vodice, the children of ahnentafel 8 and 9",
    "what": "Juraj Blažević's baptism, and whether Ledenice or Novi Vinodolski holds it",
