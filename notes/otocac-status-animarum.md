@@ -533,3 +533,130 @@ frame is the binding shadow, the darkest in 0.44–0.62 is the gutter, and every
 crop is taken as `anchor + offset`. The renderer wedges after a few hundred
 canvases — **reload the viewer every ten sheets or so**, and keep the ARK map in
 `localStorage`, not `sessionStorage`, so a reload or a new tab does not cost it.
+
+---
+
+# Fifth sitting, 14 September 2026 — the Otočac deaths 1780–1836, begun
+
+Question 4's remaining lead was a **death register naming Thomas**. It is on the
+same film, and this sitting opened it. **It is not finished** — about 7 % of it
+has been read — but the book is now mapped, dated, and proven to name Žubrinići
+by surname.
+
+## What item 3 actually is
+
+The film target at **image 152** reads:
+
+    ŽUPA: OTOČAC · HRVATSKA — CROATIA
+    MATIČNA KNJIGA UMRLIH  1780 – 1836
+    ITEM 3
+
+So **images 156–332** are the deaths; image 332 ends item 3 and **image 333 is
+the target for item 4, `UMRLIH 1859–1872`**. Images 154–155 are the cover and a
+flyleaf of miscellaneous notes; **there is no index at either end** — checked.
+
+**It is prose, not a table.** Each entry is a numbered Latin paragraph:
+*"4ᵃ Obiit Marcus filius Joannis Kralich: et sepultus est in Cœmet: Smæ
+Trinitatis"*. Two things make it workable anyway:
+
+* **There is an age column** down the right edge — `20`, `4`, `circiter 44`.
+  Any Thomas found can be back-dated from it.
+* **From about image 308 the register gains `Pagus` and `Domus` columns** —
+  village and house number, e.g. `Dubrava 36`, `Poljice 16`. For the last four
+  years a death can be pinned to a house.
+
+## Chronology, read off the frames
+
+    158  1786        253R  Anno 1816       310  In Mense Octobri 1832
+    175  1787        255R  Anno 1817       325  In Mense Januario 1835
+    205  1794        259L  Anno 1818       332  end of item 3
+    250  1814        261L  Anno 1819
+    295  1830
+
+Roughly 2.5–3 images per year, and the book counts itself: **1817 closes with
+`Hoc Anno … 109`** — a hundred and nine deaths in the parish that year.
+
+## What has been read: images 250–261 (1814–1819), 24 pages
+
+**Eleven Žubrinić deaths in twelve openings.** The surname is written out in the
+prose, so the book *can* be searched for it:
+
+    250R  Joannes filius Joannis Xubrinich
+    251R  Josephus Xubrinich                         March 1815
+    252R  Maria filia Joannis Xubrinich              July  1815
+    254R  Mathia filia Gregorii Xubrinich            Aug   1816
+    255R  Paulus Xubrinich                           Feb   1817
+    255R  Magdalena uxor Gregorii Xubrinich          March 1817
+    255R  Simon Xubrinich                            1817
+    256L  Georgius filius Vigiliarum Magistri
+            Stephani Xubrinich                       March 1817
+    256R  Joanna filia Joannis Xubrinich             April 1817
+    257L  Joannes Xubrinich                          May   1817
+    257R  Franciscus filius Stephani Xubrinich       June  1817
+
+**1817 was a bad year for this family** — seven of the eleven fall in it, in the
+same year the parish buried 109 people.
+
+**`Vigiliarum Magister` — Master of the Watch.** Stephanus Žubrinić holds a
+Military Frontier office, and it is the same office the 1834 baptism gives:
+*"Petrus filius Francisci Xubrinich, **Wigiliarum Magister** pensionatus"*. With
+the *Sylvarum Custos* at Luka 17 in the census, that is now **two Frontier
+offices held by Žubrinići in this parish**.
+
+## No Thomas Žubrinić yet — and two near-misses ruled out
+
+Two entries reading *"Obiit Thomas …"* were re-fetched at full width and full
+resolution before being judged, and **neither is a Žubrinić**:
+
+* **page 377, January 1817** — *"1ᵃ Obiit **Thomas filius defti Georgii
+  Gomercich**, provisus omnibus SS. Sacramentis, et sepultus est in Cœmeterio
+  Smæ Trinit: an— **20**"* → **Gomerčić**, aged 20.
+* **page 378, March 1817** — *"6ᵃ Obiit **Thomas filius Thomæ Dassovich**,
+  provisus omnibus SS. Sacramentis et sepultus est in Cœmet: Smæ Trinit"* →
+  **Dašović**.
+
+This is the point of the standing rule. At contact-sheet scale both read as
+plausible Žubrinić candidates; at full width both are somebody else.
+
+## What remains
+
+**Images 262–332 and 156–249 — about 165 of the 177 images.** The Obilje Thomas
+whose widow Martha (b. 1767) and son Paulus (b. 1805) sit in the census must
+have died **after February 1805**, so **images ~232–332** are the priority; the
+1780–1805 stretch would catch any earlier Thomas.
+
+## The access problem, which is what stopped this sitting
+
+Neither browser can do the whole job:
+
+* **The in-app Browser pane** is no longer Akamai-banned and *is* signed in — it
+  fetches tiles perfectly. But it is **network-isolated**: `fetch` to
+  `http://127.0.0.1` never reaches this machine at all (not a Private Network
+  Access preflight problem — the sink logs no request even with
+  `Access-Control-Allow-Private-Network: true`). And its **screenshots are capped
+  at 800 × 600** whatever viewport you emulate, which is far too small for
+  prose. So it can read the film but cannot hand anything back.
+* **Chrome** can post to the local sink and screenshot at 1512 px, but its
+  renderer for `familysearch.org` **exhausts after roughly a dozen stitched
+  sheets** and then times out every `javascript_tool` call. A *fresh tab* gets a
+  fresh renderer and recovers — until eventually even fresh tabs wedge, which is
+  where this sitting ended. **Chrome needs restarting.**
+
+### The rig that made Chrome usable at all
+
+The wedging is caused by the FamilySearch **SPA**, not by the tile work. So do
+not work on the viewer page. Load any familysearch.org HTML page, then
+immediately replace the document:
+
+```js
+window.stop();
+document.open();
+document.write('<html><head><title>rig</title></head><body></body></html>');
+document.close();
+```
+
+That leaves a **blank page still on the familysearch.org origin** — cookies,
+same-origin tile fetches and `localStorage` all intact, SPA gone, JS instant.
+Re-inject the reader from `localStorage` and work there. Open a **new tab per
+batch** rather than trying to revive a wedged one, and free every canvas
+(`c.width = c.height = 0`) after drawing it.
