@@ -25,3 +25,14 @@ They carry the full reasoning; the emails carry only what an archivist needs.
 
 **When a reply comes — including a negative one — it goes on `/changed` and
 `/searched`.** A negative result is a result and this archive records them.
+
+## Follow-up brief, 14 September 2026
+
+`FOLLOWUP-2026-09-14.md` — **not sent.** Two days of register reading changed
+what we should be asking. In short: the Senj letter's two asks are now
+*confirmed unobtainable from the microfilms* (Krmpote has no marriage register
+at all and its birth film begins in 1879, not 1815; Senj deaths stop at 1907),
+which makes the request a specific one rather than a hopeful one. Two further
+Senj questions could be added on the same grounds. And **a third letter is now
+wanted, to Državni arhiv u Rijeci** — for Vrbnik on Krk (question 5d) and for a
+Selce marriage before 1809 (question 13b).
