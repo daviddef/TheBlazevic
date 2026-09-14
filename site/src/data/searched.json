@@ -12,9 +12,18 @@
   "nothing": 13,
   "partial": 16,
   "pending": 10,
-  "yield": 30
+  "yield": 31
  },
  "read": [
+  {
+   "book": "Karlobag births 1771–1804 — ahnentafel 54's own baptism",
+   "ref": "image ark 3:1:3QSQ-G99C-L991-3, folio 36/37",
+   "pages": "one entry, read at full resolution in aligned chunks",
+   "years": "1777",
+   "n": 1,
+   "got": "«*Ego **Joës Antonius Ivankovich, Parochus Loci**, baptizavi Infantem **heri natum** ex **Georgio, et Maria Uroda, Conjugibus, hujus Loci**, cui impositum est Nomen **Joannis Georgij**. Patrini fuerunt **Ill[ustrissi]mus D[omi]nus Pro-Colonellus Joannes**…*» — **ahnentafel 54's parents, named**, and a **lieutenant-colonel** standing godfather. The tree's «born 22 April 1777» is the **baptism**: *heri natum* makes the birth **21 April**. With the index run, **seven children of Georgius and Maria Uroda, 1764–1784**.",
+   "missed": "**Maria's maiden surname is not given** — she is simply *Maria Uroda, conjux*. Ahnentafel 109 is still a given name only. The godfather's territorial name, after «Pro-Colonellus Joannes», was not resolved and neither was the «Centurio Daniel» beside him."
+  },
   {
    "book": "Karlobag — Umrli 1774–1804 and its Kazalo, both opened for the first time",
    "ref": "DGS 5481649; index images 410–434, register images ~356–409",
@@ -284,6 +293,29 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch record index — the Karlobag Urode, and a generation added",
+   "what": "Ahnentafel 54's baptism, his parents, and who married in 1806",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/search/record/results?q.surname=Uroda&f.collectionId=2040054",
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch"
+   ],
+   "got": "**A generation added to the direct line, and the family it adds is not the family this archive thought it had.**\n\n**The route is the reusable part.** The Karlobag births are in the record index, and the index payload carries **the image ARK of every entry** — so no film had to be hunted. 257 Urode in the collection; filtering in hand on **Karlobag** leaves **41**; sorting by date produces a family at once:\n\n**Georgius Uroda and Maria** — *Dominicus* 1764 · *Petrus Jacobus* 1767 · *Heva Joanna* 1769 · *Maria Catharina* 1772 · **_Joannis Georgÿ_ 22 April 1777** · *Anton Joanis* 1780 · *Joannis* 1784. **Seven children over twenty years**, and the two eldest names close a loop with the 1774–1804 death index read the same day, which buries a **Uroda Heva** and a **Uroda Petrus**.\n\n**Read at the page**, folio 36/37, *Anno Dñi 1777*, under *Aprilis*:\n\n> «*Ego **Joës Antonius Ivankovich, Parochus Loci**, baptizavi Infantem **heri natum** ex **Georgio, et Maria Uroda, Conjugibus, hujus Loci**, cui impositum est Nomen **Joannis Georgij**. Patrini fuerunt **Ill[ustrissi]mus D[omi]nus Pro-Colonellus Joannes**…*»\n\n**Three things in one sentence.** The tree's «born 22 April 1777» is the **baptism** — *heri natum* puts the birth on the **21st**. **Ahnentafel 108 and 109 are named.** And **the godfather is a lieutenant-colonel** — nobody asks a *Pro-Colonellus* to stand for a fisherman's son.\n\n**It corroborates the crypt.** *Dominus* Georgius Uroda, dead 10 September 1791 and buried in his own crypt at the church door, fathers children from 1764 to 1784 without strain. **The Urode were not fishermen in the 1770s.** They are that by 1834 and 1846. A family coming down in the world across two generations, now visible in documents instead of inferred.\n\n**And yesterday's doubt is answered from a page already read.** The 1806 marriage of *«Joannis filii defuncti Dñi Georgij Uroda»* to **Maria filia Nicolai Barletich** raised the question whether ahnentafel 55 was a Barletich rather than the tree's «Gerkacs». **She is not.** Ahnentafel 27's baptism of 23 April 1810 — read earlier this month — gives the godmother as **«Maria conjux Joannis Uroda»**. Two different couples: **Georgius** with his Maria fathering ahnentafel 27, and **Joannes** with *his* Maria standing godmother to her. **Brother and brother** — so the 1806 groom is the **1784** child and **the tree's Maria Gerkacs survives.**",
+   "ev": [
+    [
+     "/karlobag/",
+     "Karlobag"
+    ],
+    [
+     "/direct-line/",
+     "The direct line"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Karlobag, the death index of 1774–1804",
    "what": "The Georgius Uroda whom the 1806 marriage calls «defunctus»",
