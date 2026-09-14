@@ -89,3 +89,81 @@ deal a few hours earlier — holds nothing here. *«Šumbul» Otočac*: **0**.
 *«Marić» Otočac*: 149 hits, all twentieth-century passport notices and none of
 them ours. **Marić is too common a surname for a press search without a given
 name and a date** — which is exactly why the *Šumbul* by-name matters.
+
+---
+
+# The Otočac baptisms, done — and the by-name has evidence
+
+14 September 2026, the same day. FamilySearch came back and the plan above was
+carried out. It did not go the way the plan expected, and it went better.
+
+## The thing the plan missed: these baptisms are INDEXED
+
+**Otočac baptisms 1846–1858 are in FamilySearch's record index, with both
+parents named and the mother's maiden surname given.** Ninety-three Žubrinić
+baptisms at Otočac between 1846 and 1860. This archive has been reading Otočac
+off film for a fortnight and **nobody had searched the index.**
+
+## Two children of a Nicolaus Žubrinić, and only two
+
+Filtering the index to a father called **Nicolaus**:
+
+> **Maria Zubrinić** — baptised **15 September 1858**, Otočac —
+> parents **Nicolaus Zubrinić** and **Anna Marić**
+
+> **Stephanus «Bubrinić»** — baptised **3 July 1856**, Otočac — line 49 —
+> parents **Nicolaus «Bubrinić»** and **Anna «Strumbulko»**
+
+*Bubrinić* is the index's misreading of **Žubrinić**; the initial is the same
+shape in this hand.
+
+**The first confirms the tree to the day.** The tree carries Marija Žubrinić as
+*ABT 15 SEP 1858* — the "about" can come off — and it gives ahnentafel 11 her
+surname, **Marić**, from a register rather than from a family tree.
+
+**The second is a child this archive did not have at all**, and it carries the
+other half of her name.
+
+## «Strumbulko» is unique in the whole collection
+
+Searched across **Croatia, Church Books 1516–1994** — every parish, every year —
+the spelling **Strumbulko occurs exactly once**: in this entry. Every other
+result the fuzzy match returns is a different name in a different county
+(Struin, Struelin, Streibl, Strubl).
+
+So the same man, in the same parish, two years apart, has a wife written
+**«Anna Strumbulko»** in 1856 and **«Anna Marić»** in 1858.
+
+**That is what a nadimak looks like from the outside.** This archive has
+documented the pattern across ten surnames — *Antich <u>Papa</u>*, *Jellichich
+dictis <u>Jurešina</u>*, *Antich <u>Dudin</u>* — a household name written beside
+or instead of the surname, and one clerk using it where another does not.
+**«Ana Shambul Marić» in the family tree is Marić plus a house name**, and the
+house name is spelled **Šumbulko / Strumbulko** by the priest who wrote it.
+
+## What is still not proved, and what would prove it
+
+**That the 1856 couple and the 1858 couple are the same couple.** Nicolaus is a
+common Žubrinić name at Otočac: the same index shows Michaël, Joannes, Mathaeus,
+Stephanus, Franciscus, Georgius, Jacobus and Mio Žubrinić all fathering children
+there in the same decade.
+
+**The discriminator is the house number, and the register has one.** The Otočac
+book of these years is ruled *Annus, Mensis, Dies · Nomen Prolis · Conditio ·
+Parentes · Patrini · Baptizans · **Numerus Domus***, and the *Conditio* column
+carries things like *«Decurio Incl: Reg: Otocani **e Prozor N° 46**»* — a
+corporal of the Otočac regiment, from Prozor house 46. **Ahnentafel 10's own
+baptism puts his family at Šumećica N° 24.** Two entries read at the page, two
+house numbers, and this is settled either way.
+
+## And a negative that bears on something else
+
+**There is no Lucca or Luca Žubrinić born 1853 to a Nicolaus in the index.**
+The only Luce is *Luce Zubrinić, 30 June 1850, parents Jele Orešković and Mio
+Zubrinić* — a different couple.
+
+The tree gives Tereza a sister **Lucca born 1853**, and this archive flagged
+that entry a few hours ago because it would make Nikola a father at nineteen.
+**The index does not support it.** That is not proof it is wrong — the index is
+not complete and 1853 may simply be unindexed — but the flag stands, and the
+1853 pages of the film are now the place to settle it.
