@@ -936,3 +936,59 @@ house. **The death register and the census are now confirming each other house b
 house**, which is the strongest thing this archive has yet had on this family.
 
 Images **156–249 and 298–332** remain — about 120 of the 177.
+
+---
+
+# Ninth sitting — images 298–299 (Feb–Apr 1831), and a widow called Martha
+
+## The Šumećica correction is now evidenced, not just asserted
+
+The eighth sitting corrected the claim that Šumećica had no house below 9 on the
+strength of a reduced-scale read. **That read has now been verified at
+magnification.** On image 293 right page the *Pagus* cell is written over two
+lines as **`Shume-chicza`** and the *N° Domus* cell is a clean single **`7.`**,
+with the 7's crossbar and descender unmistakable. The correction stands.
+
+## A widow called Martha Žubrinić — recorded, and deliberately not identified
+
+Image 299 right page, April 1831:
+
+> **Prozor · 40. · 17.** *Obiit **vidua Martha Xubrinich** sine Sacramentis
+> **ob negligentiam domesticorum**, ætatis suæ **65** annos … et sepulta in
+> Cœmeterio Parochialis Ecclesiæ SS. Trinitatis.*
+
+Dead without the sacraments **through the negligence of her own household** — the
+priest says so in the register. The surname is underlined in the scribe's usual
+way; the entry was read across two overlapping crops.
+
+**The census has a `Martha vidua defti Thomæ`, born 5 July 1767, at Obilje.**
+The temptation is obvious and is being refused:
+
+* the register puts this Martha at **Prozor 40**, the census puts that one at
+  **Obilje**;
+* the register makes her **65** in April 1831; a woman born 5 July 1767 would be
+  **63**.
+
+Two years is nothing in a register age, and a widow can move to a son's house.
+But **a shared given name, a shared surname and an approximate age are exactly
+the coincidence this archive has been burned by before.** It is recorded as a
+*candidate* for the widow of the Obilje Thomas and **nothing more**.
+
+## Also on these two openings
+
+    Prozor 49 · Joanna filia Marci Xubrinich   an. 12, ex convulsione nervorum
+    Prozor 40 · vidua Martha Xubrinich         an. 65, sine Sacramentis
+    Prozor 31 · Antonia uxor Michaelis FRANCETICH, vigiliarum magistri, an. 28
+                — NOT a Žubrinić. Checked at full width precisely because the
+                  office matched.
+
+That last one matters as method: *vigiliarum magister* has become a Žubrinić
+marker in these notes, and it very nearly produced a false positive. **The office
+is not the family.**
+
+## Prozor is denser in Žubrinići than the census suggested
+
+The census gave Prozor/Luka two Žubrinić houses, 14 and 17. The death register
+adds **1, 34, 40 and 49**. Between that and **Šumećica 7**, the plain lesson is
+that **the census section is a fragment of each village, not a register of it**,
+and house numbers read from it are a floor, never a ceiling.
