@@ -9,12 +9,58 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 7,
+  "nothing": 8,
   "partial": 12,
-  "pending": 9,
+  "pending": 10,
   "yield": 22
  },
  "rows": [
+  {
+   "src": "Arcanum Digitheca — Šumbul, Šambul and Marić at Otočac",
+   "url": "https://adt.arcanum.com/en/",
+   "what": "Ahnentafel 11's family — the one person on the direct line with nothing but a name",
+   "when": "14 Sept 2026",
+   "outcome": "nothing",
+   "tags": [
+    "Arcanum",
+    "Otočac",
+    "ahn 11"
+   ],
+   "got": "**Nothing, and the nothing is informative.** *«Šumbul» Otočac* returns **0**. *«Šambul»* returns 348 hits and every one is a **Moroccan legionnaire tried at Cluj in 1936**. *«Marić» Otočac* returns 149, all twentieth-century passport notices, none of them ours.\n\n**Marić is too common a surname for a press search without a given name and a date** — which is precisely why the odd first element of her name matters. See the next row.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ]
+   ]
+  },
+  {
+   "src": "Ahnentafel 11 — «Ana Shambul Marić», and what to open next",
+   "url": "/by-names/",
+   "what": "How to draw Tereza Žubrinić's mother's family, planned while FamilySearch is blocked",
+   "when": "14 Sept 2026",
+   "outcome": "pending",
+   "tags": [
+    "Otočac",
+    "ahn 11",
+    "plan"
+   ],
+   "got": "**She is the emptiest person on the direct line** — a name, two tree links, and nothing else. Her father is a **surname with no given name**; her mother **is not in the tree at all**.\n\n**The name is probably not her name.** MyHeritage carries her as *«Ana Shambul Marić»* and, elsewhere, *«rođen Shumbul Marić»*. This archive has seen that shape before: the **nadimak**, the household name written beside the surname and underlined by the priest — *Antich Papa*, *Jellichich dictis Jurešina*. **«Shumbul Marić» looks like a by-name flattened into a double surname by a tree program.** If so the surname to search is **Marić**, and **Šumbul** is the house name — the only thing separating this family from every other Marić in Lika. *(Hypothesis. It is deliberately not being added to the by-names data, which holds only phrases read off a page.)*\n\n**What is reachable, cheapest first.** The couple's children are Lucca (1853), Marija (about 15 Sept 1858), Jacobus and Tereza (1867); **Otočac births are filmed 1834–1858**. So **Lucca's and Marija's baptisms are both inside the book** — and the Otočac entries already read name the mother with her maiden surname and fix the household by village and **house number**. Then **Ana's own baptism**, about 1834–1838, which names **both her parents** — two walls in one entry. Then the **Stanje duša**, where a Marić household would appear with dates of birth for everyone in it.\n\n**What is not reachable, and is said so:** their **marriage** (by 1852; the Otočac marriage film begins 1859) and **Tereza's own baptism** of 1867 (the birth film stops at 1858).\n\n**And one thing to check before building on any of it:** Nikola was **nineteen** when Lucca was born. That is possible, and it is also the shape of a wrong attachment — the same confusion as the two men called Michaël in question 4d.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
+    ],
+    [
+     "/tree/",
+     "The walls"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — the Karlobag marriage register 1804–1861",
    "url": "https://www.familysearch.org/",
