@@ -1,11 +1,12 @@
 ---
+import "@daviddef/archive-kit/styles/print.css";
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/how-far-back", "How Far Back"], ["/places", "Places"]]],
@@ -39,6 +40,7 @@ const thisArchive = ring.archives.find(
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
 <link rel="stylesheet" href={u("/styles.css")} />
 <SocialHead title={title} description={share} site={SITE} image="photos/hero.jpg" />
+{noindex && <meta name="robots" content="noindex" />}
 </head>
 <body class={bare ? "is-home" : ""}>
 <SkipLink />
