@@ -228,3 +228,65 @@ should carry *2 Augusti* — but image 232's left page has **10 Augusti** and a
 Vukelić bride. So the count is off by something, and **the fix is to read the
 folio number printed at the head of each page rather than to infer it.** That is
 one contact sheet, next sitting.
+
+
+---
+
+# 14 September, later still: the folio-to-image map is solved
+
+The previous sitting ended saying the folio-to-image mapping was unsolved and
+that the fix was to **read the printed folio number at the head of each page
+rather than infer it from the year**. That was done.
+
+## The film, written down at last
+
+    Karlobag · catalogue koha:655222 · Maticna knjiga 1691-1861
+    DGS 5481648   Rodjeni 1691-1770 · 1771-1804 · Kazalo rodjeni A-V
+    DGS 5481649   Rodjeni 1804-1861 + Kazalo · Umrli 1804-1861 + Kazalo
+                  · VJENCANI 1804-1861 + Kazalo · Vjencani 1736-1804
+                  · Umrli 1774-1804 + Kazalo          -- 584 images
+    DGS 5498480   Status animarum XIX saec.
+
+Three sittings used these films without recording a single film number.
+**The second film is 584 images, not the 435 this note recorded** — that figure
+was the waypoint's count, not the film's.
+
+## The map, read off the page
+
+The number is printed in the **left margin at the head of the left-hand page**,
+and the left pages carry the **even** numbers:
+
+| image | folio | years on that page |
+|---|---|---|
+| 230 | **2** | 1804–1805 |
+| 231 | **4** | 1806–1807 |
+| 232 | **6** | **1809**, 18 January to 15 November · then **1810** from 8 January |
+| 233 | **8** | **1811** · then **1812** from 1 January |
+| 234 | **10** | 1814– |
+
+**So folio 6 is image 232's left page and folio 8 is image 233's left page.**
+The mapping the last sitting could not close is closed.
+
+**And it corrects the earlier year map**, which had image 232 as *1808/1809* and
+image 233 as *1811*. Folio 6 opens in **1809**, not 1808, and folio 8 carries
+**1812** as well as 1811.
+
+## What that does to ahnentafel 54
+
+The marriage index put **Uroda Georgius on folio 6** and **a second Uroda
+Georgius on folio 8**.
+
+**Folio 8 can be set aside.** It is 1811–1812, and ahnentafel 54's daughter was
+born **23 April 1810**. A marriage there is too late to be his. That second
+Georgius is another man, or a Georgius named as a father or a witness — which
+is what this index does, as the note above already established.
+
+**So the marriage, if it is on film, is folio 6 (1809) or folio 4 (1806–1807).**
+Folio 6 was read twice, at two resolutions. **No Uroda × Gerkacs entry was seen
+on it** — but the hand is dense and abbreviated and **that negative is not being
+claimed**; a page read at a third of full resolution is not a page read.
+
+**The next sitting is two pages**: image 232 left and image 231 left, entry by
+entry at full resolution, looking for *Uroda* and *Gerkacs* in the body of each
+entry rather than at its head. Two pages, and ahnentafel 54's marriage is either
+found or shown not to be there.

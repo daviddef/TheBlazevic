@@ -9,10 +9,10 @@
  ],
  "counts": {
   "blocked": 3,
-  "nothing": 9,
-  "partial": 14,
+  "nothing": 11,
+  "partial": 15,
   "pending": 10,
-  "yield": 26
+  "yield": 28
  },
  "read": [
   {
@@ -248,6 +248,112 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch catalogue — every parish this family touches, film by film",
+   "what": "Juraj Blažević's baptism at Krmpote — and, when that failed, what FamilySearch actually holds",
+   "when": "14 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/search/catalog/results",
+   "tags": [
+    "blazevic",
+    "holdings",
+    "familysearch",
+    "rijeka",
+    "krmpote"
+   ],
+   "got": "**Juraj's baptism is not reachable, and the reason rewrote the holdings table.**\n\nTwo sittings took parish ranges from the collection **waypoints**. The **catalogue item** goes a level deeper and lists the contents of every film, volume by volume, with the **DGS number** that reopens it. The query term is **`q.keywords`** — `q.text`, `q.anyPlace` and `q.placeString` are all rejected by that service, which is very likely why no earlier sitting used it. Six calls produced **`sources/familysearch/holdings.psv`: 79 films, named.**\n\n**Krmpote is worse than recorded.** One film, one item: ***Rođeni 1879–1896* and nothing else.** Not 1815–1896. Juraj was born in the 1860s, so his baptism is not in this book and **there is no other Krmpote book**. The plan that called it «the reachable target» was working from a label.\n\n**Four parishes were missing from the table entirely** — **Bribir** (its own parish, previously filed here as a *village of Grižane*, with registers back to **1678**), **Sv. Juraj kod Senja** (1695–1868), **Jurjevo**, and **Trsat**.\n\n**And Rijeka, carried as «unknown — NOT CHECKED», is filmed 1590–1920** with alphabetical *Kazalo* indexes.",
+   "ev": [
+    [
+     "/searched/",
+     "Holdings"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Rijeka, and the answer to question 13",
+   "what": "Ljubomir Blažević's baptism, Rijeka, 1892 — and Juraj's marriage to Tereza before it",
+   "when": "14 September 2026",
+   "outcome": "nothing",
+   "url": "https://www.familysearch.org/search/film/005497940",
+   "tags": [
+    "blazevic",
+    "zubrinic",
+    "rijeka",
+    "familysearch"
+   ],
+   "got": "**Question 13 has an answer and it is a negative.**\n\nRijeka's baptisms are filmed almost continuously from **1594**. The volumes run\n\n· *Rođeni 1880–1886* · *1886–1890* · **_1890–1891_** · **_1900–1901_**\n\n**There is no 1892–1899 birth register on the film**, and the birth *Kazalo* runs 1800–1889 and then 1895–1902. **Ljubomir's 1892 baptism cannot be reached on FamilySearch by image or by index.** It has to come from the Rijeka state archive or the parish — which is exactly what the drafted, unsent letter asks for. **That letter is now the only route.**\n\n**One target is reachable.** *Vjenčani 1866–1891*, **DGS 5497940, 720 images**, covers «Juraj's marriage to Tereza before 1892» — the document question 1b asks for. Fixed point read at the page: **image 701 = May 1891, entries 115–121**; image 720 ends the book. **Images 699, 700 and 701 were read name by name** — Cesare, Kljun, Zadnik, Martić, Leopar, Švić, Vrsalović, Mihalčić, Terzaga, Matejčić, Sirola, Larber, Demarchi, Peharović. Rijeka town names. **No Blažević and no Žubrinić in April–May 1891.**\n\n**Images 702–720 — June to December 1891 — are the remaining window**, and expectation should be a negative: a Lika man and an Otočac woman would marry in her parish or his, and **Otočac marriages stop in 1872 while Krmpote has no marriage book at all**. If Rijeka does not hold them, the marriage is not on FamilySearch anywhere — and that turns question 1b into a letter.",
+   "ev": [
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Karlobag marriages, the folio-to-image map",
+   "what": "Ahnentafel 54's marriage — Joannis Georgius Uroda × Maria Gerkacs",
+   "when": "14 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/film/005481649",
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch"
+   ],
+   "got": "**The blocker is gone.** The last sitting stopped because the folio-to-image mapping was unsolved and said the fix was to **read the printed folio number at the head of each page instead of inferring it from the year**. Done: the number is printed in the left margin of the **left-hand page**, and the left pages carry the **even** numbers.\n\n| image | folio | years |\n|---|---|---|\n| 230 | **2** | 1804–05 |\n| 231 | **4** | 1806–07 |\n| 232 | **6** | **1809**, then **1810** |\n| 233 | **8** | **1811**, then **1812** |\n| 234 | **10** | 1814– |\n\n**That also corrects the earlier year map**, which had image 232 as *1808/1809* and image 233 as *1811*.\n\n**And it eliminates half the target.** The marriage index put a *Uroda Georgius* on **folio 6** and a second on **folio 8**. **Folio 8 is 1811–1812 — too late**: ahnentafel 54's daughter was born **23 April 1810**. That second Georgius is another man, or a Georgius named as a father or witness, which is what this index does.\n\n**So the marriage, if it is on film, is folio 6 or folio 4.** Folio 6 was read twice, at two resolutions, and **no Uroda × Gerkacs entry was seen — but that negative is not being claimed.** A dense abbreviated hand read at a third of full resolution is not a page read. **The next sitting is two pages: image 232 left and image 231 left, entry by entry.**\n\nAlso written down for the first time: **Karlobag is catalogue koha:655222, DGS 5481648 / 5481649 / 5498480**, and the second film is **584 images, not the 435** this archive recorded — that was the waypoint's count, not the film's.",
+   "ev": [
+    [
+     "/karlobag/",
+     "Karlobag"
+    ]
+   ]
+  },
+  {
+   "src": "Arcanum — the second harvest, searching the places instead of the surnames",
+   "what": "Šumećica, Smojver, Uroda, Pećanić, Dašović in the Hungarian press and gazetteers",
+   "when": "14 September 2026",
+   "outcome": "yield",
+   "url": "https://adt.arcanum.com/en/",
+   "tags": [
+    "arcanum",
+    "zubrinic",
+    "smojver",
+    "sumecica"
+   ],
+   "got": "**The first pass recorded ««Žubrinić» Šumećica = 0» and stopped. Šumećica on its own returns sixty-seven.**\n\n· **Helységnévtára, 1913**, Lika-Korbava vármegye, VII. Perušići járás, p. 240 — «… Otocko Staroselo 423 · **Šumećica 200** …». **Two hundred people in 1913.**\n· **Degen Árpád, *Flora Velebitica* (1936)**, *Ortsregister* p. 446 — «**Šumećica Häusergruppe SW von Otočac**». ***A group of houses***, not a village. Degen also puts a **ponor** at its foot that runs turbid when the Lika floods.\n· **Tiszti cím- és névtára, 1884**, p. 2_64 — Šumećica listed as an administrative unit of Otočac **in its own right**, beside Prozor and Sinac.\n\n**And it bears directly on the census.** Two hundred people is roughly **twenty-five households**. The Otočac *status animarum* lists **seven or eight** at Šumećica. That gap is independent evidence that the census's Šumećica block is **not the whole village** — which is where the missing Žubrinići sit.\n\n**Smojver — 650 hits.** *Tiszti cím- és névtára 1884*, *Névmutató S*, p. 455: «**Smojver Cecilia 210, 231 · Smojver Iván 154 · Smojver Károly 161 · Smojver Miklós 161**» — **four Smojvers holding posts in the Hungarian civil service in 1884**, indexed to the pages that name their offices. Smojver is ahnentafel 53 and 106 here. None of those pages has been opened.\n\n**Method correction.** The results page is **client-rendered**, not server-rendered as the first harvest recorded. `fetch` returns the shell and no hits; the tab has to navigate to the URL and the text be read off the rendered page.",
+   "ev": [
+    [
+     "/hungarian-press/",
+     "The Hungarian press"
+    ],
+    [
+     "/oto/",
+     "Otočac"
+    ]
+   ]
+  },
+  {
+   "src": "Ancestry — searched for the first time",
+   "what": "Žubrinić, without a subscription",
+   "when": "14 September 2026",
+   "outcome": "nothing",
+   "url": "https://www.ancestry.com/search/?name=_Zubrinic",
+   "tags": [
+    "ancestry",
+    "zubrinic"
+   ],
+   "got": "**Reachable, and not worth returning to unsubscribed.** 4,603 hits for *Zubrinic*, but **every date is masked** — the unsubscribed view renders births and deaths as `xxxx` — and the free hits are **«Public Member Photos» and «Private Member Stories»: user-submitted trees, not records.** This archive does not treat another family's tree as evidence, which is the whole reason it exists.\n\n**Recorded so nobody spends another sitting on it.** Ancestry would need a subscription to be worth anything here, and even then its Croatian record coverage is thin — the church books are FamilySearch's.",
+   "ev": [
+    [
+     "/searched/",
+     "The register"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Otočac Status animarum, the village map and the Šumećica block",
    "what": "Domus 2 and Domus 24 at Šumećica — whether ahnentafel 10 stayed in his father's house or moved",
