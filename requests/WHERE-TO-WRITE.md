@@ -55,9 +55,30 @@ own page has replaced. **Check the contact page before sending.**
 
 | Letter | Archive | Status |
 |---|---|---|
-| `rijeka-senj-sv-jakov-krmpote.md` | Rijeka, Senj branch | drafted, not sent |
-| `senj-1915-vukelic.md` | Rijeka, Senj branch | drafted, not sent |
-| `gospic-otocac-zubrinic.md` | **Gospić** | drafted, not sent |
+| `rijeka-senj-sv-jakov-krmpote.md` | Rijeka, Senj branch | superseded |
+| `senj-1915-vukelic.md` | Rijeka, Senj branch | superseded |
+| `gospic-otocac-zubrinic.md` | **Gospić** | superseded |
+| `EMAIL-senj.txt` | Rijeka, Senj branch | **sent 13 Sept — answered 14 Sept: they do not hold it** |
+| `EMAIL-gospic.txt` | **Gospić** | **sent 13 Sept — acknowledged 14 Sept, queued** |
+| `EMAIL-rijeka.txt` | **Rijeka, head office** | drafted 14 Sept, not sent |
+| `EMAIL-zupa-senj.txt` | **Župni ured Senj** | drafted 14 Sept, not sent |
+| `EMAIL-zupa-krmpote.txt` | **Župa Krmpote, via Ledenice** | drafted 14 Sept, not sent |
+
+## The parish addresses, verified 14 September 2026
+
+**Župni ured Senj — Uznesenje BDM**
+mons. dr. Richard Pavlić, župnik · vlč. Karlo Špoljarić, kapelan
+Ogrizovićeva 4, 53270 Senj · 053 881 043 · **ripavlic@gmail.com**
+*From the Gospićko-senjska biskupija's own directory.*
+
+**Župa Krmpote — Sv. Jakov apostol** (Crikvenički dekanat, Riječka nadbiskupija)
+**No parish house — administered from the parish of LEDENICE:**
+vlč. Jakov Filipović, dekan · 51252 Klenovica, Kula 10 · (051) 796 019 ·
+**filipjakov22@gmail.com**
+*From the Riječka nadbiskupija's own directory. Note the diocesan history: the
+Krmpote parish belonged to **Senj-Modruš**, then to Rijeka-Senj, and only since
+2000 to the **Rijeka archdiocese** — which is why Senj was a reasonable first
+guess and still the wrong one.*
 
 The third was added on 10 September 2026, when reading a Senj marriage of 1910
 turned open question 4d from *"which Maria Orešković?"* into *"are there two men
