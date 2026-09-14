@@ -1,0 +1,172 @@
+---
+/* Arcanum Digitheca, read for the first time on 14 September 2026.
+
+   Everything here is a SNIPPET. Arcanum returns full-text extracts without a
+   subscription and paywalls the page image, so not one of these documents has
+   been read at the page — and the OCR's own mangling is left in rather than
+   tidied, because a cleaned-up quotation would claim a reading that did not
+   happen. Nothing here has been added to the tree. */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+const FINDS = [
+  {
+    head: "The tobacco factory, counted",
+    lede: "This archive's most-quoted finding is read out of the Senj marriage register: the brides' occupation column goes from tvorničarka on three of five in 1909 to seven of eight in 1919. It had no figure for the factory itself. The Hungarian encyclopaedias have one.",
+    quotes: [
+      ["A Pallas nagy lexikona, vol. 16, 1897",
+       "Zengg (Senj, Segnia) szab. kir. város … kir. révhivatala, tengeri halászati bizottsága, dohánygyára 120 munkás"],
+      ["Révai Nagy Lexikona, vol. 19, 1926",
+       "… tengeri halászati bizottsága, dohánygyára 500 munkás"],
+    ],
+    so: "One hundred and twenty workers at the end of the 1890s; five hundred by the 1920s. In a town of a few thousand that is not a factory growing — it is a town changing employer, and it is the arithmetic behind the register's occupation column.",
+    link: ["/senj/", "Senj"],
+  },
+  {
+    head: "A Žubrinić who kept a bank's cash",
+    lede: "The Žubrinići of this archive are Frontier peasants at Šumećica and Prozor. Otočac's own business directory has other ones.",
+    quotes: [
+      ["Mihók-féle Magyar Compass 36/1, 1908 — Horvát-Szlavonország, p. 1298",
+       "Srpska štedionica dioničarsko društvo u Otočcu, 1904 … Vorstand Oskar Gara, Otocac, Komitat Lika-Krbava … Buchhalter Stjepan Meniga, Kassier Venzeslav Žubrinić, Hilfsbuchhalter Juraj Milošević"],
+      ["Wiener Zeitung, May 1862",
+       "Daniel Žubrinić, Handelsmann in Otočac … Regimentsgericht in Otočać, Ungarn Militärgrenze"],
+      ["Neuigkeits-Welt-Blatt, October 1885",
+       "Diözese Zengg … Ernannt wurden zu Kooperatoren … Daniel Zubrinic in Otocac"],
+    ],
+    so: "A cashier of a joint-stock savings bank in 1908, a merchant in 1862, and a priest of the Senj-Modruš diocese posted to Otočac in 1885 — the same diocese whose registers this archive reads. None of them is joined to this family by anything yet.",
+    link: ["/oto/", "Otočac"],
+  },
+  {
+    head: "A man born at Otočac in 1886, in three newspapers",
+    lede: "The archive holds nobody born at Otočac between 1875 and 1900. Three Austrian papers carried the same story in April 1914.",
+    quotes: [
+      ["Salzburger Wacht · Arbeiter-Zeitung · Vorarlberger Wacht, April 1914",
+       "Mijo Zubrinic, der im Jahre 1886 in Otocac … geboren ist … Polizist: Haben Sie einen Reisepaß? — Nein, aber einen Militärpaß … Mijo Zubrinic, 1886 geboren, aus Otocac, Kom. Lika-Krbava"],
+    ],
+    so: "A man of this surname, stopped without a passport, whose birth year and home district the police certificate spells out and the papers reprint. It is exactly the generation and the place where this archive is empty.",
+    link: ["/zubrinic-roots/", "The Žubrinić roots"],
+  },
+  {
+    head: "A patronymic for Prozor, in an official gazette",
+    lede: "Court notices name a man by his father, which is precisely what this archive cannot get from the films.",
+    quotes: [
+      ["Službeni list, 29 June 1966", "Zubrinić Franje iz Prozora sina Jure. Rok 8 dana. Općinski sud Otočac"],
+      ["Službeni list, August 1975", "Zubrinić Josip iz Otočca"],
+    ],
+    so: "Franjo Žubrinić of Prozor, son of Jure. The FindMyPast manifests of 1910 put a Franjo Žubrinić born 1883 at Šumećica on the Noordam with a wife left behind — this is a different route to the same household name, and neither has yet been joined to the other.",
+    link: ["/america/", "America"],
+  },
+  {
+    head: "Senj's men of business, and a Papić among them",
+    lede: "The Papići of this archive are težaci and tobacco workers. The Senj shipping company's board is a different floor of the same small town.",
+    quotes: [
+      ["Mihók-féle Magyar Compass 35/2, 1908, p. 860",
+       "Zengg. Hrvatsko parobrodarsko družtvo na dionice … Rukavina, Ivan Lončarić, Papić Ivan"],
+      ["Mihók-féle Magyar Compass 39/2, 1912, p. 1144",
+       "… Vukelić Ivan, Polić Ivan, Lončarić, Papić Karlo, Budak Frane, Budak Ante"],
+      ["Magyarország tiszti cím- és névtára, 1898, 1901, 1903",
+       "Főszámvevő Blažević Milán … Zengg–Fiume–Obrovazzo–Cirkvenica–Novi"],
+    ],
+    so: "A Papić on the board of the Croatian steamship company of Senj across at least five years, and a Blažević keeping the books of the coastal line. Same surnames, same town, no proved kinship — and worth knowing that the names existed at that level at all.",
+    link: ["/work/", "What they did"],
+  },
+  {
+    head: "The Prpići of Krivi Put, in a criminal court",
+    lede: "Twenty-one hits on one pair of words. A robbery trial that ran two years and names the woods, the fairs and the cattle dealers of this archive's own villages.",
+    quotes: [
+      ["Morgenblatt, Zagreb, 1926–1928",
+       "der Prpić-Bande … Raubüberfall im Walde Guvno zwischen Krivi Put und Brinje, 11. Juli 1926 … Raubüberfall im Walde Lom zwischen Krivi Put und Otočac, zum Schaden … Viehhändler Ilija Butković aus Krivi Put … der Hut der Prpić"],
+    ],
+    so: "Two of this archive's surnames — Prpić and Smojver — appear in the dock, and the geography is the archive's own: the wood between Krivi Put and Brinje, the road to the Otočac fair. Nobody here is named. The world is.",
+    link: ["/frontier/", "The Frontier"],
+  },
+  {
+    head: "The First World War, which this archive had never once opened",
+    lede: "Austro-Hungarian casualty lists print regiment, company, province, district, commune and year of birth in order to tell men apart — which makes them a genealogical record by accident.",
+    quotes: [
+      ["Verlustliste, June 1915",
+       "Kalanj Ivan, Inft., k.u. LIR Nr. 26, 3. Ers.Komp., Kroatien, Brinje, 1891, kriegsgef. Prokuplje, Serbien"],
+      ["Verlustliste, March 1916",
+       "Kalanj Franjo, Inft., IR Nr. 79, 13. Komp., Kroatien, Brinje, 1893, tot 6.3.1915 · Kalanj Mile, LstInft., IR Nr. 79"],
+    ],
+    so: "Brinje is the parish this archive discovered yesterday that the Kalanji actually belong to. Here are three Kalanj men of Brinje with their birth years and what became of them — one a prisoner in Serbia, one killed in March 1915.",
+    link: ["/harvest/", "What is left to read"],
+  },
+  {
+    head: "And a migration nobody suspected",
+    lede: "This archive knows an emigration to America and one to Australia.",
+    quotes: [
+      ["Feldkircher Anzeiger, 1902 — Vorarlberg",
+       "And. Blazevic, geb. 1867 in Staroselo, Krmpote, und dahin zust., verehelicht, Maurer · Sof. Blazevic, geb. 1869 in Staroselo"],
+    ],
+    so: "Blaževići of Krmpote working as masons in western Austria in 1902, listed with their birth years and their home commune. There was a third road out, and it went north.",
+    link: ["/america/", "The other emigration"],
+  },
+];
+
+const QUERIES = [
+  ["\"Zubrinic\"", "343"], ["Zengg dohánygyár", "244"], ["Zengg kivándorlás", "114"],
+  ["\"Vukelić\" Zengg", "81"], ["\"Žubrinić\" Otočac", "27"], ["\"Prpić\" \"Krivi Put\"", "21"],
+  ["\"Zubrinics\"", "17"], ["\"Papić\" Zengg", "13"], ["\"Kalanj\" Brinje", "8"],
+  ["\"Pilipić\" Karlobag", "7"], ["\"Blažević\" Krmpote", "6"], ["\"Zubrinic\" Zengg", "6"],
+  ["\"Žubrinić\" Prozor", "5"], ["\"Žubrinić\" Šumećica", "0"], ["Zengg 1943 razzia", "0"],
+];
+---
+<Base title="The Hungarian Press"
+  eyebrow="Arcanum Digitheca, opened 14 September 2026"
+  dek="Lika and the Kvarner were administered from Budapest, and this archive's own place strings still say so. The press and the official publications of that administration had never been searched by anyone in this family — and the first afternoon in them produced a number for the tobacco factory, a Žubrinić who kept a bank's cash, and three Kalanj men of Brinje in a casualty list.">
+
+  <section class="blk">
+    <div class="qa">
+      <h3>What is readable here, and what is not</h3>
+      <p><strong>Everything below is a snippet.</strong> Arcanum returns a full-text extract for
+      every hit without a subscription and paywalls the page image behind it —
+      <em>«You have no active subscription»</em>. <strong>Not one of these documents has been read
+      at the page</strong>, and the OCR's own mangling is left in rather than tidied, because a
+      cleaned-up quotation would claim a reading that did not happen.</p>
+      <p style="margin-top:.6rem"><strong>Nothing here has been added to the tree.</strong> Not one
+      of these people is joined to this family by a document. What the search establishes is that
+      the names existed, in those towns, at those dates, doing those things — and where to go next.
+      <a href={u("/searched/")}>The search register →</a></p>
+    </div>
+  </section>
+
+  {FINDS.map((f) => (
+    <section class="blk">
+      <h2>{f.head}</h2>
+      <p class="lede">{f.lede}</p>
+      {f.quotes.map(([cite, text]) => (
+        <figure class="doc" style="margin-top:1rem">
+          <blockquote class="prose"><em>{text}</em></blockquote>
+          <figcaption class="mono dek">{cite}</figcaption>
+        </figure>
+      ))}
+      <p style="margin-top:1rem">{f.so}</p>
+      <p style="margin-top:.6rem"><a href={u(f.link[0])}>{f.link[1]} &rarr;</a></p>
+    </section>
+  ))}
+
+  <section class="blk">
+    <h2>What was searched, and the two zeros</h2>
+    <p class="lede">Every query run on 14 September 2026, with its hit count — because the next
+    person should be able to see what has been asked and not ask it again.</p>
+    <div class="scroll">
+      <table class="reg">
+        <thead><tr><th style="width:60%">Query</th><th>Hits</th></tr></thead>
+        <tbody>{QUERIES.map(([q, n]) => (
+          <tr><td class="mono">{q}</td>
+            <td class={n === "0" ? "warn mono" : "mono"}>{n}</td></tr>))}</tbody>
+      </table>
+    </div>
+    <div class="note" style="margin-top:1.2rem"><strong>The two zeros are the useful part.</strong>
+    <strong>Šumećica</strong> — the hamlet that the American manifests made important, and the
+    birthplace of <a href={u("/direct-line/")}>ahnentafel 10</a> — appears <strong>nowhere in the
+    Hungarian press</strong>. And <strong>Senj 1943 returns nothing</strong> to this query, which is
+    not a silence about the raid: the raid falls under the Italian occupation, after Hungarian
+    administration ended, so <strong>this is the wrong press for it</strong> and the right one has
+    still to be found. <a href={u("/senj-1943/")}>Senj, 1943 →</a></div>
+    <p class="dek" style="margin-top:1rem"><em>«Blazsevics»</em>, the Hungarian spelling, returns
+    <strong>2,168</strong> hits and almost every one of them is a modern footballer. It is recorded
+    so that nobody spends an evening on it.</p>
+  </section>
+</Base>

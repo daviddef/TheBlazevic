@@ -8,13 +8,76 @@
   "What it gave, or did not"
  ],
  "counts": {
-  "blocked": 2,
-  "nothing": 6,
+  "blocked": 3,
+  "nothing": 7,
   "partial": 10,
   "pending": 9,
-  "yield": 19
+  "yield": 20
  },
  "rows": [
+  {
+   "src": "Arcanum Digitheca — the Hungarian press and official publications",
+   "url": "https://adt.arcanum.com/en/",
+   "what": "Fifteen queries across this family's surnames and the Hungarian names of its towns",
+   "when": "14 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "Arcanum",
+    "newspapers",
+    "Hungary",
+    "Senj"
+   ],
+   "got": "**Lika and the Kvarner were administered from Budapest, this archive's own place strings still say so — *Ledenice, Modruš-Fiume, Magyarország* — and nobody in this estate had ever run a search in that administration's press.** One afternoon in it produced:\n\n· **A number for the tobacco factory.** *A Pallas nagy lexikona* (1897): Zengg's *dohánygyára* **120 munkás**. *Révai Nagy Lexikona* (1926): **500 munkás**. This archive's most-quoted finding — the brides' occupation column going from three of five in 1909 to seven of eight in 1919 — now has the arithmetic behind it. **A four-fold factory in a town of a few thousand.**\n\n· **A Žubrinić who kept a bank's cash.** *Magyar Compass* 1908: the **Srpska štedionica of Otočac**, founded 1904, *Kassier* **Venzeslav Žubrinić**. A merchant, **Daniel Žubrinić, Handelsmann in Otočac**, in the *Wiener Zeitung* of 1862. And a **Daniel Žubrinić, priest of the Senj-Modruš diocese**, posted to Otočac in 1885 — the very diocese whose registers this archive reads.\n\n· **A man born at Otočac in 1886**, in three Austrian papers at once: *Mijo Zubrinic … 1886 geboren, aus Otocac, Kom. Lika-Krbava.* The archive holds **nobody** born at Otočac between 1875 and 1900.\n\n· **A patronymic in a gazette** — *Službeni list*, 1966: **“Zubrinić Franje iz Prozora sina Jure”**, Općinski sud Otočac.\n\n· **Three Kalanj men of Brinje in the First World War casualty lists**, with birth years and fates — Ivan b. 1891 a prisoner at Prokuplje, Franjo b. 1893 killed 6 March 1915. **This archive had never opened a First World War record.**\n\n· **A third emigration.** *Feldkircher Anzeiger*, 1902: **Blaževići of Staroselo, Krmpote, working as masons in Vorarlberg**, with birth years and home commune. The archive knew America and Australia. It did not know about the Alps.\n\nEverything is a **snippet**: Arcanum gives the text and paywalls the page image, so **none of it has been read at the page**, and none of it is in the tree.",
+   "ev": [
+    [
+     "/hungarian-press/",
+     "The Hungarian press"
+    ],
+    [
+     "/senj/",
+     "Senj"
+    ],
+    [
+     "/oto/",
+     "Otočac"
+    ]
+   ]
+  },
+  {
+   "src": "Arcanum Digitheca — Šumećica, and Senj in 1943",
+   "url": "https://adt.arcanum.com/en/",
+   "what": "The two queries that were supposed to matter most",
+   "when": "14 Sept 2026",
+   "outcome": "nothing",
+   "tags": [
+    "Arcanum",
+    "newspapers"
+   ],
+   "got": "**Both returned nothing, and both nothings are worth having.**\n\n**Šumećica** — the hamlet the American manifests made important, and the birthplace of ahnentafel 10 — **appears nowhere in the Hungarian press.** A place can be central to a family and invisible to an empire.\n\n**Senj 1943** returns nothing to this press, and that is not a silence about the raid: **the raid falls under the Italian occupation, after Hungarian administration ended.** This is the wrong press for it. The right one — the Italian occupation press, or Arolsen — has still to be opened.\n\nAlso recorded so nobody repeats it: the Hungarian spelling **«Blazsevics» returns 2,168 hits and almost every one is a modern footballer.**",
+   "ev": [
+    [
+     "/hungarian-press/",
+     "The Hungarian press"
+    ],
+    [
+     "/senj-1943/",
+     "Senj, 1943"
+    ]
+   ]
+  },
+  {
+   "src": "Arcanum Digitheca — the page images behind the snippets",
+   "url": "https://adt.arcanum.com/en/",
+   "what": "Reading any of the fifteen documents at the page rather than in extract",
+   "when": "14 Sept 2026",
+   "outcome": "blocked",
+   "tags": [
+    "Arcanum",
+    "block",
+    "paywall"
+   ],
+   "got": "**«You have no active subscription.»** Arcanum returns the full-text snippet free and paywalls the scan. Every quotation this archive has taken from it is therefore an **extract with the OCR's own errors left in**, and is labelled that way rather than tidied — a cleaned-up quotation would claim a reading that did not happen.\n\nThe paywall is recorded, not worked around. What it costs is precise: the *Magyar Compass* entry for the Otočac savings bank would give the **whole board**, and the casualty lists would give the **house numbers** beside the Kalanj birth years."
+  },
   {
    "src": "Find a Grave — every ZUBRINICH memorial on earth",
    "url": "https://www.findagrave.com/memorial/search?lastname=Zubrinich",
