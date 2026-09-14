@@ -9,6 +9,15 @@
  ],
  "read": [
   {
+   "book": "Otočac — Status animarum 1710–1846, the Šumećica block",
+   "ref": "film 2121770 · DGS 005498269 · catalog koha:837578",
+   "pages": "22 openings surveyed for the village margin; images 102, 103 read household by household",
+   "years": "1710 – 1846",
+   "n": 3,
+   "got": "**The book is navigable.** The *Pagus* margin was called unreadable by the last sitting; it was rotated the wrong way. The village is written **bottom-to-top** in the gutter — rotate **+90°**, not −90°, and it reads at a glance. That produced the village map of the whole census, and it puts **Šumećica at images 102–106 — five openings, the whole village**, between *Beljue* and a second run of *Luka*, with an ***Extinctæ*** section at 108–109. Read at the page: **Domus 9, Josephus Dašović** (nine members, with *Anna uxor Petri nata Žunić*) and **Domus 4, Mattheus Orehović** (fourteen, with *Martha uxor Georgii nata Orehović*). The **N° Domus column is at x≈0.19–0.23**, not 0.16, and the numbers are **not in order** — 9 then 4 — so the book cannot be walked to a house number.",
+   "missed": "**Domus 2 and Domus 24 were not reached, and no Žubrinić household has appeared at Šumećica yet.** Images 104, 105 and 106 are unread, so this is not a finding — but it is odd, because the census carries births to 1846 and ahnentafel 20 is at «ex pago Shumechicza N° 24» in January 1834. Either he is on those three openings, or the family sits in the *Extinctæ* section. FamilySearch then refused the session — 403 on an ark that had worked minutes earlier, still 403 after forty seconds, which is the block and not the blip."
+  },
+  {
    "book": "Otočac baptisms 1846–1858 — the two Nicolaus Žubrinić entries",
    "ref": "entry 49 (1856); the 1858 entry of 15 September",
    "pages": "two openings, read cell by cell at full resolution",
@@ -232,6 +241,30 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Otočac Status animarum, the village map and the Šumećica block",
+   "what": "Domus 2 and Domus 24 at Šumećica — whether ahnentafel 10 stayed in his father's house or moved",
+   "when": "14 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/film/005498269",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch",
+    "census"
+   ],
+   "got": "**The house numbers were not reached. The map of the book was.**\n\nThe last sitting wrote this census off as a **110-opening sweep with an unreadable village margin**. Both halves of that are now wrong. The *Pagus* is written **bottom-to-top** in the gutter, so a −90° rotation renders it upside down — **rotate +90° and it is plain**. Twenty-two openings surveyed that way give the village order of the whole census: *Ottosaz · Luka · Dubrava (Biskupljak) · Novoselia · Lieška · Kostelievo Selo · Obilje · Beljue · **Shumechicza** · Luka · **Extinctæ***.\n\n**Šumećica is images 102–106. Five openings — the whole village.** The job is no longer a sweep.\n\nRead at the page: **Domus 9, Josephus Dašović**, nine people, with *Anna uxor Petri nata Žunić*; **Domus 4, Mattheus Orehović**, fourteen, with *Martha uxor Georgii nata Orehović*. The **N° Domus numbers are not in order** — 9 on image 102, 4 on image 103 — so the book cannot be walked to a house number; all five openings have to be read.\n\n**And a negative worth stating.** No Žubrinić household has appeared at Šumećica in the openings read so far. Two of the five are unread, so this is **not** a finding — but the census carries births to **1846**, and ahnentafel 20 is *«Confiniarius, ex pago Shumechicza N° 24»* in **January 1834**. A man in the village then should be in a book current to 1846. The ***Extinctæ*** section at 108–109 is the second place to look.\n\nFamilySearch then refused the session: 403 on an ark fetched successfully minutes earlier, still 403 after forty seconds. **The block, not the blip.** The next sitting is three openings and then two — half an hour.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — the Otočac baptisms, through the record index",
    "url": "https://www.familysearch.org/search/record/results?f.collectionId=2040054",
