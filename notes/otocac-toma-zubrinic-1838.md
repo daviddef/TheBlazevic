@@ -41,6 +41,10 @@ it independently, in the parish's own hand, at his death.
 **The age corroborates the birth year.** *An. 70* on 4 January 1838 puts his
 birth in **1767 or 1768**. The tree says 1768.
 
+**His widow is read too.** [Marija Findrić](otocac-marija-findric-1849.md) is
+entered on **29 July 1849** as «*Maria Žubrinić, Udovica*», aged 69 — eleven
+years and seven months after this entry.
+
 **It strengthens the harder question — the one row 1 left open.** Ahnentafel 10,
 Nicolaus, was baptised in 1834 into his father's household at **Šumećica N° 24**,
 but his own children in **1856 and 1858 are at Šumećica N° 2**. Two readings

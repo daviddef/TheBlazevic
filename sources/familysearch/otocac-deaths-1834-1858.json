@@ -13,16 +13,18 @@
   "200": "3:1:3QSQ-G99C-PLXK",
   "166": "3:1:3QS7-L99C-PV8V",
   "117": "3:1:3QS7-L99C-PVR4",
-  "120": "3:1:3QS7-L99C-PV5F"
+  "120": "3:1:3QS7-L99C-PV5F",
+  "167": "3:1:3QS7-899C-PVHR"
  },
  "dates": {
   "100": "1835, «1835 Aprilis die 6ta»",
-  "165": "page 149 — 18 Ožujka (March) to May 1849; page 150 continues April–May, entries 16–25",
+  "165": "pages 149-150 — March into May 1849",
   "200": "page 221 — 1855",
   "164": "page 147 — December 1848, with the ruled «1849» heading at the foot; page 148 runs Jan–March 1849",
-  "166": "page 151 — July 1849, ending 28 Srpnja; page 152 — August 1849, entries 35–39, starting 9 Kolovoza",
+  "166": "page 151 — 4 Svibnja (May) to 8 Lipnja (June) 1849; page 152 — 9 Lipnja (June) to 14 Srpnja (July) 1849",
   "117": "page 44 — Nov–Dec 1837, entries 79-86; page 45 — two more 1837 entries, then the ruled heading «Anno Domini 1838» and the 1838 sequence restarting at entry 1",
-  "120": "page 60 — Sept–Oct 1838"
+  "120": "page 60 — Sept–Oct 1838",
+  "167": "page 153 — 19 Srpnja (July) to 12 Kolovoza (August) 1849, entries into the 50s"
  },
  "_targets": {
   "ahn 40": "Toma Žubrinić, died 4 January 1838, tree places him at Šumećica 2. Interpolates to about image 114.",
@@ -35,7 +37,9 @@
    "page 151, July 1849 — «Kate, žena Mat… Žubrinić, graničara», aged 28"
   ],
   "_caution": "Row 1 established that «Mate/Michael Žubrinić» at Otočac is at least seven different men in four villages. Neither entry above may be attached to ahnentafel 20 without the house number, which these two entries were not read closely enough to give.",
-  "ahn 40 — FOUND": "Image 117, page 45, entry 3 of 1838. «1838. Januarii die 4ta · Thomas Xubrinich, Inq: [struck: Ottoèsanq] Centu-rio Confiniarius, ex Pago Shumcchicza N° 2. · An. 70 · Senectutis Debilitas · Omnibus SStis morientium Sacramentis provisus, morte testimonio medico comprobata · Cœmeterium Commune SStæ Trinitatis Ottochiæ · Matthæus Mattasich, minist.» The tree's date (4 Jan 1838), house (Šumećica 2) and birth year (1768, from An. 70) are all corroborated. See notes/otocac-toma-zubrinic-1838.md."
+  "ahn 40 — FOUND": "Image 117, page 45, entry 3 of 1838. «1838. Januarii die 4ta · Thomas Xubrinich, Inq: [struck: Ottoèsanq] Centu-rio Confiniarius, ex Pago Shumcchicza N° 2. · An. 70 · Senectutis Debilitas · Omnibus SStis morientium Sacramentis provisus, morte testimonio medico comprobata · Cœmeterium Commune SStæ Trinitatis Ottochiæ · Matthæus Mattasich, minist.» The tree's date (4 Jan 1838), house (Šumećica 2) and birth year (1768, from An. 70) are all corroborated. See notes/otocac-toma-zubrinic-1838.md.",
+  "ahn 41 — FOUND": "Image 167, page 153, entry 53. «Leta 1849 dne 29 Srpnja preminula je · Maria Žubrinić, Udovica · 69 · Slaboća starosti po dokazu Lečnika · Sa Svetimi Otajstvi umirućih providjena · u župničkoj grobnici · Vatroslav Vinsb…» The tree's date (29 July 1849) and birth year (1780, from age 69) are corroborated, and Udovica agrees with Toma's death in 1838. NO house number and no husband named — the match rests on date, age and widowhood. See notes/otocac-marija-findric-1849.md.",
+  "_CORRECTION": "The first pass over pages 147-152 misread the Croatian month names and reported a false null. Page 151 does NOT end at 28 Srpnja (July) — it runs 4 Svibnja (May) to 8 Lipnja (June). Page 152 does NOT open at 9 Kolovoza (August) — it runs 9 Lipnja (June) to 14 Srpnja (July). The «Kate, žena Mate Žubrinića» entry is 7 May 1849, not July. July 1849 had simply not been reached. Svibnja / Srpnja / Lipnja are two letters apart in this hand. A continuous entry-number sequence proves no page is missing; it proves nothing about which months are on the page."
  },
  "_method": "The deaths book writes the village and house into the Nomen/Cognomen column THROUGHOUT, including 1836-1845 — the years the Otočac baptism book stops recording households. It is therefore a house-number source for exactly the window the baptisms cannot reach."
 }
