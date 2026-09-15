@@ -211,11 +211,11 @@
   },
   {
    "n": 22,
-   "what": "The people found beside the tree are recorded but never published",
-   "state": "next",
+   "what": "The people found beside the tree are published — and the list got shorter",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "`sources/found.psv` holds **seventeen people read out of a register whom the tree does not have**, two of them on the direct line, and `tools/found.py` builds `site/src/data/found.json` on every regeneration. **No page imports it.** The data is generated, gated and invisible.\n\nFound while adding five Otočac children to it and trying to link `/searched` at the page that shows them — the register gate refused the link because there is no such page, which is the gate doing exactly what it is for.\n\nThis matters more than a missing page usually would: the whole argument for `found.psv` is that a person read out of a register should stand **beside** the tree rather than be pushed into it. A file nobody can read does not stand anywhere. It wants the same treatment as `/corrections` and `/open-questions` — one page, grouped by family, each row carrying its citation."
+   "note": "**Done, 15 September 2026.** `found.psv` had been recorded since September and rendered nowhere. It is now at **[/found/](/found/)**, in the nav under Evidence, with the direct-line ancestors separated from the collaterals and every citation printed.\n\n**And publishing it shortened it.** Writing the page meant re-testing the claim it rests on — *«not in the family tree»* — which is [row 47](/worklist/), and **four rows came out**: Thomas Žubrinić, Luce Žubrinić, Helena Orešković and **Ivan Defrančeski, who is Hedviga's husband**. Twenty-two became **eighteen**, which is the number this row was written about.\n\n**The page says what the list is for and what it has been wrong about**, because a reader who does not know that «not in the tree» once meant «not among the published people» cannot judge the rest of it."
   },
   {
    "n": 23,
@@ -411,11 +411,11 @@
   },
   {
    "n": 47,
-   "what": "Decide which of the eighteen found people are really tree people",
-   "state": "next",
+   "what": "Four of the found people were in the tree — and one of them is Hedviga's husband",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "`found.psv` holds **18 people read out of a register whom the tree does not have, two of them on the direct line**. But «the tree does not have them» was established by name-matching, and **this archive has already been wrong about exactly that**: on 15 September a check concluded that none of six Karlobag wives was in the tree, when all six were there as **parent references with no page of their own**. Searching `people.json` is not searching the tree.\n\nSo each of the 18 needs re-testing against parent and spouse references, not just published names — and the ones that survive are then candidates to be offered to the GEDCOM rather than kept beside it. Pairs with row 22, which publishes them."
+   "note": "**Done, 15 September 2026, and it caught the thing it was written to catch.** The row said each of the found people needed re-testing **against parent and spouse references, not just published names**, because this archive had already been wrong that way once. It was wrong that way again, and worse.\n\n**Four rows came out of `found.psv`.**\n\n* **Thomas Žubrinić, 1846** — published, and both parents match: Michael Žubrinić × Helena Orešković.\n* **Luce Žubrinić, 1850** — published, both parents match: Mio × Jele Orešković.\n* **Helena Orešković** — in the tree as a **parent reference with no page of her own**, which is precisely the Karlobag-wives case repeating.\n* **IVAN DEFRANČESKI, 1925–1995** — recorded from [the Senj gravestone](/stones/) as *«the surname does not occur once in this archive's tree»*. **He is Hedviga's husband.** The tree carries *Ivan Anton Defrančeski, b. 1925 d. 1995*, on her own marriage, with a **null slug** because he is not published — so a search of `people.json` returns nothing. Both dates match the stone exactly. **The archive photographed the grave of the man at its centre and filed him as a stranger for a day.**\n\n**The lesson was already written down and did not stop it happening**, so it is a gate now. **`tools/foundcheck.py`** tests every `found.psv` row against **every name in the tree** — published people and every `rel.parents`, `rel.spouses`, `rel.siblings` and `rel.children` reference — two ways: *name + year within one*, and *name + BOTH parents agreeing*. A match a person has looked at and dismissed goes in a `SETTLED` table **with the reason**; anything else **fails the build**. It runs as `check:found`.\n\n**Eighteen people remain in `found.psv`** — the number this row started with, arrived at honestly. Three still resemble somebody in the tree and all three are settled in writing: *Maria Rosaria Antić* (ahnentafel 24 has no children published at all), *Maria Magdalena Theresia* and *Maria Žubrinić* (the parents fail the test), and **Matilda Papić, who probably IS Franka or Sulka** — the open question [row 53](/worklist/) left standing, not an error."
   },
   {
    "n": 48,

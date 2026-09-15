@@ -1,0 +1,99 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import F from "../data/found.json";
+// People read out of a register whom the GEDCOM does not have. They have been
+// recorded in sources/found.psv since September and published nowhere, which
+// is what work-list row 22 was about. Two of them are on the direct line.
+const direct = F.rows.filter((r) => r.ahn);
+const rest = F.rows.filter((r) => !r.ahn);
+const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
+---
+<Base title="People Found Beside the Tree"
+  eyebrow="Read out of a register, and not in the GEDCOM"
+  dek="Eighteen people this archive has read off a page and the family tree has never heard of — two of them direct ancestors. They are kept beside the tree rather than put into it, and the reason is a rule, not an oversight.">
+
+  <section class="blk">
+    <p class="lede">Every other source here keys on a slug from the family tree, so a person could
+    only be recorded if <strong>MyHeritage already knew about them</strong>. On 15 September 2026
+    ahnentafel 54's baptism named his father and his mother and <strong>there was nowhere to put
+    them</strong>. This is the nowhere.</p>
+    <p><strong>{F.count} people, {F.onDirectLine} of them on the direct line.</strong> They are
+    deliberately given <strong>no slugs</strong> and are <strong>not merged</strong>: the tree is an
+    export from MyHeritage and this archive does not edit it. What it does instead is put its own
+    reading beside it, with the citation, so the two can be compared rather than blended.</p>
+    <div class="note"><strong>This list has been wrong, and the way it was wrong is worth
+    knowing.</strong> «Not in the tree» was once decided by searching the published people — and a
+    person can be in the tree with <strong>no page of their own</strong>, as a parent, a spouse, a
+    sibling or a child named on somebody else's record. Four rows came out of this list on 15
+    September for exactly that reason, and <strong>one of them was Hedviga's husband</strong>.
+    <a href={u("/stones/")}>The stone that says so →</a></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{direct.length} on the direct line</div>
+    <h2>Ancestors the tree does not have</h2>
+    <p>These are not collaterals. They are people the descent runs through, named in a register,
+    absent from the family tree.</p>
+    <table class="reg">
+      <thead><tr><th style="width:22%">Who</th><th style="width:16%">Where and when</th>
+        <th>What the page says</th></tr></thead>
+      <tbody>{direct.map((r) => (
+        <tr>
+          <td><strong>{r.name}</strong>
+            <span class="dek" style="display:block">ahnentafel {r.ahn} — {r.relation}</span></td>
+          <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
+            <span style="display:block">{r.event}</span></td>
+          <td style="font-size:.92em">{r.citation}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{rest.length} more</div>
+    <h2>Brothers, sisters, children and wives</h2>
+    <p>Collaterals are not clutter. A sibling read off a page fixes a household to a house number,
+    and a house number is what tells seven men called Michael apart —
+    <a href={u("/oto/")}>which is the whole of question 4</a>.</p>
+    <table class="reg">
+      <thead><tr><th style="width:22%">Who</th><th style="width:16%">Where and when</th>
+        <th>What the page says</th></tr></thead>
+      <tbody>{rest.map((r) => (
+        <tr>
+          <td><strong>{r.name}</strong>
+            <span class="dek" style="display:block">{r.relation}</span></td>
+          <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
+            <span style="display:block">{r.event}</span></td>
+          <td style="font-size:.92em">{r.citation}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Where they were read</div>
+    <h2>Nine of the eighteen are Karlobag</h2>
+    <table class="kv">
+      {places.map(([p, n]) => (<tr><th>{p}</th><td>{n}</td></tr>))}
+    </table>
+    <p style="margin-top:1.2rem">That is not what Karlobag holds. It is what has been
+    <strong>read</strong> — the parish whose films this archive has opened most often, which is a
+    statement about the reader and not about the record.
+    <a href={u("/searched/")}>What has been read →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The check</div>
+    <h2>A claim that somebody is not in the tree now has to survive a gate</h2>
+    <p><code>tools/foundcheck.py</code> tests every row here against <strong>every name in the
+    tree</strong> — the published people and every parent, spouse, sibling and child reference —
+    two ways: <strong>name and year within one</strong>, and <strong>name and both parents
+    agreeing</strong>. A resemblance somebody has examined and dismissed is written down with the
+    reason. Anything else <strong>fails the build</strong>.</p>
+    <p style="margin-top:1rem">Three resemblances stand and are settled in writing. The most
+    interesting is <strong>Matilda Papić</strong>, ✽1895 †1921, third name on
+    <a href={u("/stones/")}>her parents' cross at Senj</a>. The tree has no Matilda — but it has
+    <strong>two Papić daughters born 1895</strong>, Franka and Sulka, and
+    <strong>neither has a death recorded</strong>. She is probably one of them. That is an open
+    question with a date attached, which is worth more than a guess.</p>
+  </section>
+</Base>

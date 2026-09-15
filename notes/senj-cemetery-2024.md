@@ -75,12 +75,30 @@ a death recorded**. One of them is probably this woman under a name the family
 used. It is not being decided here; it is in `sources/found.psv` as an open
 question with a date attached.
 
-## And a surname that is not in this archive at all
+## The surname that was «not in this archive at all» — and is Hedviga's husband
 
 **IVAN DEFRANĆESKI 1925–1995**, on a polished slab with raised metal letters,
-photographed five times. **The surname does not occur once in this archive's
-tree.** It is recorded in the survey because it was photographed in the survey,
-and flagged for the Defranceski archive rather than joined to anything here.
+photographed five times.
+
+This note first said: *"The surname does not occur once in this archive's tree.
+It is recorded in the survey because it was photographed in the survey, and
+flagged for the Defranceski archive rather than joined to anything here."*
+
+**That was wrong, and wrong in the way this archive has already been wrong
+once.** The tree carries **Ivan Anton Defrančeski, born 1925, died 1995**, on
+**Hedviga Blažević's own marriage** — with a **null slug**, because he is not
+published. A search of `people.json` therefore returns nothing, which is exactly
+the mistake the Karlobag wives taught in September: **searching the published
+people is not searching the tree.**
+
+Both dates match the stone exactly. **It is the grave of Hedviga's husband** —
+the man at the centre of this archive — photographed by his grandson and then
+filed as a stranger for a day.
+
+The check that would have caught it is now written: [`tools/foundcheck.py`](../tools/foundcheck.py)
+tests every `found.psv` row against **every name in the tree, including
+references**, and refuses the build while a claim of «not in the tree» stands
+against somebody who is.
 
 ## Three by-names, carved
 

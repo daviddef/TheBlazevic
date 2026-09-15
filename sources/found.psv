@@ -1,5 +1,12 @@
 # People read out of a register who are NOT in the family tree.
 #
+# REMOVED 15 September 2026, after tools/foundcheck.py was written and run:
+#   Thomas Zubrinic, Luce Žubrinić, Helena Oreskovic and Ivan Defrančeski were
+#   all in the tree. The first two are published people; Helena is a parent
+#   reference with no page of her own; Ivan Defrančeski is HEDVIGA'S HUSBAND,
+#   carried on her marriage with a null slug. Their readings moved to
+#   sources/readings.psv where they have a slug to key on.
+#
 # Why this file exists. Every other source here keys on a slug from the GEDCOM,
 # which means a person can only be recorded if MyHeritage already knew about
 # them. That was fine while the archive was checking the tree. It stopped being
@@ -32,20 +39,16 @@ Anton Joanis Uroda||brother of ahnentafel 54|baptism|13 June 1780|Karlobag|Karlo
 Joannis Uroda||brother of ahnentafel 54; married Maria filia Nicolai Barletich 10 Feb 1806|baptism|17 May 1784|Karlobag|Karlobag births, indexed; his wife stands godmother to ahnentafel 27 in 1810
 Maria Rosaria Antic||daughter of ahnentafel 24 and 25, sister of ahnentafel 12|baptism|4 October 1847|Selce|Selce baptisms, indexed - father Josephus Antic, mother Maria Jellicic; ark 3:1:3QS7-899C-596Z-7
 Stephanus Zubrinic||son of ahnentafel 10 and 11, brother of ahnentafel 5|baptism|3 July 1856|Otocac|Otocac baptisms entry 49 - "Rustici Confiniarii e Sumecica N. 2 ... Nicolaus Zubrinic et ejus uxor Anna nata Strumbulko"; ark 3:1:3QSQ-G99C-PK2C
-Thomas Zubrinic||son of a Michael Zubrinic at Sumecica 10, not the ahnentafel-20 household|baptism|21 December 1846|Otocac|Otocac baptisms - "Confiniar. Sumecica 10 - Michael Zubrinic et ejus consors Helena nata Oreskovic e Prozor"; ark 3:1:3QSQ-G99C-P275
-Helena Oreskovic||wife of the Michael Zubrinic at Sumecica 10; of Prozor|named as parent|21 December 1846|Otocac|same entry - "ejus consors Helena nata Oreskovic e Prozor"
 
 # Otočac, the Michael Žubrinić households of 1846-58 (read 15 September 2026).
 # Fourteen of fifteen indexed entries were read; nine of those children are already
 # in the tree. These five are not. Every one of them has siblings who ARE in the
 # tree, so these are gaps in known families rather than an unknown branch.
 Maria Magdalena Theresia Žubrinić||daughter of Michaël Žubrinić and Maria Marković, Otočac|baptism|21 July 1846|Otočac|Rodjeni 1846-1858 - Conditio «Agricola Confiniarius», no village or house number given; ark 3:1:3QS7-899C-G5D9
-Luce Žubrinić||daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, Šumećica N° 10|baptism|30 June 1850|Šumećica, Otočac|Rodjeni 1846-1858 - «Graničar iz Šumećića Br. 10»; sister of Thomas 1846, who is in the tree; ark 3:1:3QS7-L99C-PKNK
 Mathias Žubrinić||son of Michael Žubrinić and Maria Marković, Šumećica N° 5|baptism|3 January 1855|Šumećica, Otočac|Rodjeni 1846-1858 - «Confiniarius e Sumećica N° 5», first entry of 1855 below the year rule; ark 3:1:3QS7-899C-PVT8
 Josephus Žubrinić||son of Michael Žubrinić and Maria Rogić, Prozor N° 50|baptism|3 July 1855|Prozor, Otočac|Rodjeni 1846-1858 - «Miles Gregarius e Prozor N° 50»; brother of Nikola Miko b. 8 Jan 1858, who is in the tree; ark 3:1:3QSQ-G99C-PK64
 Stephanus Žubrinić||son of Michael Žubrinić and Maria Marković, Šumećica N° 5|baptism|17 December 1858|Šumećica, Otočac|Rodjeni 1846-1858 p. 290 - «Rusticus e Sumećica N° 5»; brother of Marta 1849 and Magdalena 1852, who are in the tree; ark 3:1:3QS7-899C-PVGY
 Maria Žubrinić||daughter of Michael Žubrinić and Magdalena Glavinić, Prozor N° 49|baptism|28 November 1858|Prozor, Otočac|Rodjeni 1846-1858 - «Rustica e Prozor N° 49»; surname written Žubrinić on the page where the index reads «Dubrinić»; ark 3:1:3QS7-899C-PVLN
 Mare Antić||daughter of Josip (ahnentafel 24) and Maria Antić, Selce N° 74; sister of ahnentafel 12|death|21 October 1850|Selce|LIBER DEFUNCTORUM p. 99 - «Preminu Osip Antić težak i Mare kćer», aged 6, «Od kolere», father and daughter in one entry; ark 3:1:3QSQ-G99X-13PY
 Matilda Papić||third name on the stone cross of Josip Papić (ahnentafel 6) and Antonija — almost certainly their daughter|memorial|died 1921, born 1895|Senj|Senj municipal cemetery, «MATILDA ✽1895 †1921», read at 4x. NOT IN THE TREE UNDER THIS NAME: the tree has two Papić daughters born 1895 — Franka (20 Jan) and Sulka (7 Feb) — and neither has a death recorded. One of them may be this woman; IMG_8131
-Ivan Defrančeski||no relation established — the surname does not occur anywhere in this archive's tree|memorial|1925-1995|Senj|Senj municipal cemetery, polished slab with raised metal letters, «IVAN DEFRANĆESKI 1925 - 1995», read at 8x. Photographed on the same visit; recorded here because it was, and flagged for the Defranceski archive rather than this one; IMG_8104
 Antonius Gergacs||son of Nicolaus Gerkacs (ahnentafel 220), and therefore a brother of ahnentafel 110|named in his father's death entry|30 October 1783|Karlobag|Karlobag Umrli 1774-1804 folio 39 — his father «obiit … in domo filij sui Antonij», died in this son's house. Not in the published tree; the Gerkacs collaterals are not published at all; ark 3:1:3QS7-L99C-GSBH

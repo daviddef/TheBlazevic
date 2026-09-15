@@ -323,6 +323,32 @@
  ],
  "rows": [
   {
+   "src": "The eighteen found people, re-tested against every name in the tree",
+   "key": "self/found",
+   "url": "/found/",
+   "what": "Whether anybody recorded as «not in the tree» is in it after all",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "found",
+    "defranceski",
+    "method"
+   ],
+   "got": "**Four of the twenty-two were in the tree, and the fourth is Hedviga's husband.**\n\n`found.psv` means one thing — read out of a register and **not in the family tree**. The claim had been made by searching published people, and this archive had already been burned by that once: in September a check concluded none of six Karlobag wives was in the tree, and all six were there as **parent references with no page of their own**.\n\n**It happened again, on the gravestones.** «**IVAN DEFRANĆESKI 1925–1995**», photographed five times at Senj, was recorded as *«the surname does not occur once in this archive's tree»*. The tree carries **Ivan Anton Defrančeski, born 1925, died 1995**, on **Hedviga Blažević's own marriage**, with a **null slug** because he is not published. Both dates match the stone exactly. **The archive photographed the grave of the man at its centre and filed him as a stranger.**\n\nThree more came out: **Thomas Žubrinić 1846** and **Luce Žubrinić 1850**, both published with both parents matching, and **Helena Orešković**, who exists only as a parent reference on her own son.\n\n**The lesson was written down in September and did not prevent it, so it is a gate now.** `tools/foundcheck.py` tests every row against **every name in the tree** — published people and every `rel.parents`, `rel.spouses`, `rel.siblings`, `rel.children` reference — two ways: **name + year within one**, and **name + both parents agreeing**. A resemblance a person has examined and dismissed goes in a `SETTLED` table **with the reason in writing**; anything else **fails the build**. It runs as `check:found`.\n\n**Eighteen remain**, which is the number the work list started with, arrived at honestly.",
+   "missed": "**Three resemblances stand and are settled rather than resolved.** *Maria Rosaria Antić* cannot be tested at all, because ahnentafel 24 has **no children published**. *Maria Magdalena Theresia Žubrinić* and *Maria Žubrinić* resemble people whose mothers are not theirs. And **Matilda Papić is probably Franka or Sulka**, both born 1895 with no death recorded — the open question, not an error.\n\n**Ivan Defrančeski has no slug, so his grave cannot be keyed to him** in `readings.psv` the way the other readings are. He is in the tree and not in the site, and the two Žubrinići who moved out of `found.psv` had somewhere to go while he did not.",
+   "ev": [
+    [
+     "/found/",
+     "People found beside the tree"
+    ],
+    [
+     "/stones/",
+     "The Stones"
+    ]
+   ]
+  },
+  {
    "src": "The thirty-one walls, re-graded against what has actually been read",
    "key": "self/walls",
    "url": "/tree/",
