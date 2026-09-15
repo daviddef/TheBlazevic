@@ -121,3 +121,62 @@ transcription from Australia or Canada, and not a single Croatian cemetery.**
 These 190 are read off photographs of the stones themselves, which is better
 evidence — and for Senj it is the only evidence there is, because Find a Grave
 has never covered it.
+
+---
+
+## The full-resolution pass, 15 September 2026
+
+Work list row 53. **Every `p` row was opened again**, cropped to the inscription
+and resampled to the reader's own display resolution rather than blindly
+enlarged — over-enlarging past about 1,800 px on the long side gains nothing,
+because the image is downsampled again before it is read. That one change is
+what made the pass practical.
+
+**108 of the 194 rows are now `r`**, up from about 60.
+
+### Four readings were wrong, and all four were dates
+
+| Stone | First recorded | Actually |
+|---|---|---|
+| Mile Prpić, IMG_8117 | 1907–**1985** | 1907–**1982** |
+| Karlo Papić-Glavičić, IMG_8139 | 1885–**1928** | 1885–**1922** |
+| Budimir Boras, IMG_8140 | 1894–**1950** | 1894–**1954** |
+| «Pavo» Boras, IMG_8140 | **Pavo** 1878–**1932** | ***Fabo***, death year off the frame |
+
+**Every one came from a contact sheet, and every one is a digit**, which is
+exactly what the confidence letter was there to warn about. Two more — Domagoj
+Boras and Fabo Boras — turned out to have **no readable death year at all**: the
+years I first recorded ran off the right edge of the photograph and were
+contact-sheet guesses. They are now `19??`, which is the honest entry.
+
+**Nothing in the ancestor block moved.** All twelve direct-line and sibling rows
+were `r` already, read at 3–8× the first time, and the pass confirmed every one.
+The errors were exactly where the method said they would be.
+
+### And a stone the first pass did not see at all
+
+Enlarging IMG_8159 for the Gržin inscription brought up the grave **behind** it,
+which is legible only at full size:
+
+> «OVDJE POČIVAJU U MIRU BOŽJEM ·
+> **IVICA ŽUBRINIĆ 1887 – 1934** ·
+> **FANA ŽUBRINIĆ 1890 – 1974** ·
+> **MARIJAN ŽUBRINIĆ 1919 – 1996**»
+
+**Žubrinić is ahnentafel 5's maiden surname** and this archive's Otočac family.
+A Žubrinić grave in Senj — the town she married into and is buried in — is a
+thread nobody has pulled. It is not joined to anyone here; it is recorded, and it
+is the strongest single reason to be glad the pass was made.
+
+### What is still not read
+
+**61 rows remain `p` and 25 remain `?`**, and they are no longer a backlog so
+much as a statement about the photographs. Where a stone was shot at a steep
+angle, the far end of each line runs out of frame; where flowers stood on the
+kerb, they stood on the dates. **No amount of enlargement fixes either.** The
+remaining rows are peripheral surnames — Rukavina, Babić, Katalinić, the wall
+niches of IMG_8110 and IMG_8115 — and what they want is not another pass at the
+same files but ten minutes in the cemetery.
+
+**IMG_8071 is still the one unread name.** «MARIJAN …», fallen, upside down,
+under reeds.
