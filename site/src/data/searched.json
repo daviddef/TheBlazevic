@@ -12,7 +12,7 @@
   "nothing": 13,
   "partial": 18,
   "pending": 7,
-  "yield": 38
+  "yield": 39
  },
  "read": [
   {
@@ -329,6 +329,34 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Karlobag baptisms 1771–1804, ahnentafel 53 at the page",
+   "key": "fs/karlobag-bapt",
+   "what": "The baptism of Oliva Maria Smojver, born March 1781",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L998-5?cc=2040054",
+   "tags": [
+    "FamilySearch",
+    "Karlobag",
+    "baptisms",
+    "smojver",
+    "by-names",
+    "ahn 53"
+   ],
+   "got": "**A day where there was a month, and a by-name in a parish that had none.**\n\n> «Ego Joës Antonius Frankovich Parochus Loci baptizavi Infantem ***die 11ma*** hujus natam ex ***Vincentio, et Oliva Smoyver, vulgò Vukić***, Conjugibus hujus Civitatis, cui imposui est nomen ***Oliva Maria***.»\n\nPage 65, ark `3:1:3QS7-L99C-L998-5`. The month column reads *Ejusdem* beneath *Martij* and the next opening starts at 19 March, so **11 March 1781**. The tree carried only «MAR 1781» and no document.\n\n**Ahnentafel 106 and 107 are confirmed from the register side** — Vicentius Smojver Vukić and Oliva Bacchi were in the tree and had never been put on a page.\n\n**The by-name is the wider finding.** «Smoyver, ***vulgò*** Vukić». This archive's by-name file was built out of Selce and its neighbours, where the connectors are *aliter · dictus · dicti* and the scribe **underlines** the pair. Karlobag uses ***vulgò*** and does not underline — so the practice is wider than one district and written differently in each. It also explains a name the tree carries without comment: ahnentafel 106 as «Vicentius Fabiano Smojver **Vukić**», as though Vukić were surname. It is the household name.\n\n**And it corrects a film record.** `holdings.psv` gives DGS 5481648 as the 1691–1804 baptisms; that film has **596 images** and its image 216 is headed **«Godine 1845»**. The 1771–1804 volume is under a different waypoint, and the route in was the **record index** — a 7 June 1781 Devcich baptism whose ARK opens the right volume — not the film number.",
+   "missed": null,
+   "ev": [
+    [
+     "/karlobag/",
+     "Karlobag"
+    ],
+    [
+     "/by-names/",
+     "The by-names"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Karlobag marriages, folios 4 and 6 read entry by entry",
    "key": "fs/karlobag-marr",

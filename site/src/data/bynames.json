@@ -1,6 +1,16 @@
 {
  "rows": [
   {
+   "surname": "Smojver",
+   "conn": "vulgò",
+   "byname": "Vukić",
+   "written": "ex Vincentio, et Oliva Smoyver, vulgò Vukić, Conjugibus",
+   "place": "Karlobag",
+   "year": 1781,
+   "underlined": "n",
+   "source": "baptism of ahn 53, 11 Mar 1781, page 65; ark 3:1:3QS7-L99C-L998-5"
+  },
+  {
    "surname": "Antić",
    "conn": "—",
    "byname": "Papa",
@@ -213,22 +223,31 @@
   {
    "surname": "Pužić",
    "byname": "Lončarić"
+  },
+  {
+   "surname": "Smojver",
+   "byname": "Vukić"
   }
  ],
- "nPairs": 13,
- "nSurnames": 10,
+ "nPairs": 14,
+ "nSurnames": 11,
  "nUnderlined": 8,
  "years": [
-  1806,
+  1781,
   1885
  ],
  "places": [
+  "Karlobag",
   "Otočac",
   "Selce",
   "Senj",
   "Vrbnik or Selce"
  ],
  "byYear": [
+  [
+   1781,
+   1
+  ],
   [
    1806,
    3

@@ -1,0 +1,15 @@
+{
+  "_what": "Karlobag baptisms, the 1771-1804 volume — the film the Oliva Maria Smojver baptism is on.",
+  "_waypoint": "https://www.familysearch.org/ark:/61903/<ark>?cc=2040054&wc=9RK1-3Y9%3A391644801%2C391849401%2C391849402",
+  "_correction": "This is NOT DGS 005481648. holdings.psv gives 5481648 as «Rodjeni 1691-1770, 1771-1804 · KAZALO», and notes/karlobag-films.md describes a 327-image film with «image 220 = Anno Domini 1782, page 70». Neither holds: film 005481648 has **596 images** and its image 216 is a tabular register headed «Godine 1845». The 1771-1804 baptisms sit under a different waypoint (9RK1-3Y9), reached from the record index rather than from the film number.",
+  "_how_to_get_an_ark": "The film-number URL form (/search/film/NNNNNNN?i=N-1) works only when you have the right film. For this waypoint, open any indexed record's image ARK, then use the viewer's «Previous Image» / «Next Image» buttons — changing &i= on an ark URL does NOT move it. The image number is in the viewer's number input; the current ARK is in document.title.",
+  "arks": {
+    "217": "3:1:3QS7-L99C-L998-5",
+    "218": "3:1:3QSQ-G99C-L9SD-Q"
+  },
+  "pages": {
+    "217": "left page + page 65 on the right — Anno Domini 1781, February into March. The 11 March baptism of Oliva Maria Smojver is the fourth-from-last entry on page 65.",
+    "218": "page 66 on the left — Anno Domini 1781, 19 March onward; page 67 on the right. Carries the 7 June 1781 baptism of Antonium Devcich, which is how the opening was found."
+  },
+  "_found_here": "Ahnentafel 53 — Oliva Maria Smojver, born 11 March 1781, ark 3:1:3QS7-L99C-L998-5."
+}

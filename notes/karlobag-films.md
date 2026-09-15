@@ -358,3 +358,30 @@ and the inference needs the marriage of the *Georgius* who died in 1846 to
 stand or fall. That marriage is **not in folios 2–6**, so it is either in the
 outer thirds of those pages that this sitting did not crop, on a folio before
 1804 in the **Vjenčani 1736–1804** book on the same film, or in another parish.
+
+---
+
+## Correction, 15 September 2026 — the film map above does not hold
+
+Everything above was written from **three films opened by waypoint**, and the
+image landmarks are real. What is wrong is the **join between those waypoints and
+the DGS numbers in `sources/familysearch/holdings.psv`**, and it cost a sitting.
+
+`holdings.psv` gives **DGS 5481648** as *«Rodjeni 1691-1770, 1771-1804 · KAZALO
+rodjeni A-V»*, and «Film 1 — births» above is described as **327 images** with
+*«image 220 = Anno Domini 1782, page 70»*. Opened by its film number,
+**005481648 has 596 images**, and **image 216 is a tabular register headed
+«Godine 1845»** — Croatian, and sixty years out.
+
+The **1771–1804 baptisms are under a different waypoint**,
+`wc=9RK1-3Y9:391644801,391849401,391849402`, where **image 217 is pages 64–65 of
+1781** and **image 218 is pages 66–67**. That is where ahnentafel 53's baptism
+was found.
+
+**The lesson is not «the note was wrong».** It is that a film-number-to-contents
+mapping written from one route in does not survive being used from another.
+Where a film's contents matter, **the ARK is the thing to record**, because an
+ARK resolves to exactly one image and a DGS number apparently does not resolve to
+exactly one book. Arks for the pages that matter are now in
+`sources/familysearch/film-karlobag-baptisms-1771-1804.json` and
+`sources/familysearch/film-005481649-karlobag.json`.
