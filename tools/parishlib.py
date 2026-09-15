@@ -14,8 +14,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def norm(x):
-    return (str(x or "").lower().replace("ž", "z").replace("ć", "c").replace("č", "c")
-            .replace("š", "s").replace("đ", "d").strip())
+    # Internal whitespace is collapsed as well as trimmed. Without it the tree's
+    # «Montani  Stanište», with two spaces, is a different village from «Montani
+    # Stanište», and ahnentafel 111 and her father stand in two places that are
+    # one place.
+    s = (str(x or "").lower().replace("ž", "z").replace("ć", "c").replace("č", "c")
+         .replace("š", "s").replace("đ", "d"))
+    return re.sub(r"\s+", " ", s).strip()
 
 
 # village -> (parish, holdings)
@@ -66,7 +71,17 @@ ALIAS = {"smokvica": "smokvica krmpotska", "smokvica, krmpote": "smokvica krmpot
          "sv. jakov krmpote": "sv. jakov"}
 
 
+# A place field that is actually a SOURCE CITATION. Three people in this tree
+# carry «"Croatia, Church Books, 1516-1994, " database with images, FamilySearch
+# …» as their birthplace, pasted in where a village should be. It is not a
+# misspelled village and it is not a wrong county: it is not a place at all, and
+# a gazetteer that tries to parse it invents one.
+CITATION = re.compile(r"database with image|familysearch\.org|church books,\s*1516", re.I)
+
+
 def village_of(place):
+    if CITATION.search(str(place or "")):
+        return None
     for part in [p.strip() for p in str(place or "").split(",")]:
         if HOUSE_ONLY.match(part):
             continue

@@ -12,7 +12,7 @@
   "nothing": 15,
   "partial": 18,
   "pending": 7,
-  "yield": 49
+  "yield": 50
  },
  "read": [
   {
@@ -329,6 +329,33 @@
   }
  ],
  "rows": [
+  {
+   "src": "The twenty-five «unplaced villages», triaged",
+   "key": "self/places",
+   "url": "/gazetteer/",
+   "what": "Whether any of them is a village this archive should be able to route",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "places",
+    "gazetteer",
+    "pekass",
+    "tomljanovic"
+   ],
+   "got": "**Twenty-two of the twenty-five were never villages.** Eleven are emigration destinations — Port Pirie, Quorn, Whyalla, Johannesburg, Sydney, Arizona and the rest. Nine are cities and regions outside these districts: Zagreb, Osijek, Pula, Belgrade, Garešnica, Fužine, Sveti Križ, Tomašica, «Yugoslavia». **No parish table should claim any of them**, and their presence in the list was never a defect.\n\n**Two were data artefacts, and both are fixed at the tool rather than in the text.**\n\n* «*\"Croatia, Church Books, 1516-1994, \" database with images…*» was the **birthplace of three people** — a **source citation pasted into a place field**. A gazetteer that parses it invents a village out of a footnote. `parishlib` now recognises a citation and returns **no place**.\n* «*Montani  Stanište*» with two spaces was a different village from «*Montani Stanište*» with one, so **ahnentafel 111 and her own father stood in two places that are one place**. `norm()` now collapses internal whitespace.\n\n**And three are real Croatian places, with four direct ancestors standing on them** — **Smiljan** (ahnentafel 426) and **Montani Stanište** (ahnentafel 111 and 222).\n\n**That exposed a worse confusion in the wall grading.** `walls.py` printed «*No place is recorded for this household anywhere on the line*» over both — over a household the tree places at **Smiljan, Općina Gospić**, in as many words. A new grade, **`ungazetteered`**, now says what is actually true: *«The tree does record where this household was … but no parish in this archive's table claims that village. This is not a wall in the record. It is a gap in the gazetteer.»* **One line of `parishes.psv` closes it** — once somebody establishes which parish, which is deliberately not guessed.\n\n**And Gologorica, checked while here, turns out to carry 24 people who are all Šestan and not one of them a direct ancestor.** It is the last parish to spend a day on, not an outstanding hole.",
+   "missed": "**The parish for Smiljan and for Montani Stanište is not established, and was not guessed.** `unknown` is a legal value in `parishes.psv`, so a row can be added the moment somebody knows — but adding one now would put back the confusion the `ungazetteered` grade just removed.\n\n**The catalogue could not be searched by place from here.** Every parameter this archive knows — `q.text`, `q.placeText`, `q.anyPlace` — returns **400**, and the interface's own call to `/service/search/catalog/v3/search` returns 400 as well, with the page printing *«Something Went Wrong»*. **The place search wants a place id rather than a name**, and getting one needs the typeahead the interface uses. That blocks Gologorica and it blocks Smiljan.",
+   "ev": [
+    [
+     "/gazetteer/",
+     "The Map"
+    ],
+    [
+     "/tree/",
+     "Our line, drawn"
+    ]
+   ]
+  },
   {
    "src": "The 116 contradictions, triaged — and a gate that was not looking",
    "key": "self/contradictions",

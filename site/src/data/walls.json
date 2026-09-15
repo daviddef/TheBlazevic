@@ -4,9 +4,10 @@
   "outside": 6,
   "nameless": 7,
   "placeholder": 2,
-  "unplaced": 8,
+  "unplaced": 6,
   "reachable": 5,
-  "borrowed": 2
+  "borrowed": 2,
+  "ungazetteered": 2
  },
  "walls": {
   "9": {
@@ -325,9 +326,9 @@
    "ahn": 222,
    "name": "Pauli Tomljanović",
    "slug": "pauli-tomljanovic",
-   "kind": "unplaced",
-   "label": "No place recorded",
-   "note": "No parents are recorded for **Pauli Tomljanović**, and this archive stops here. No place is recorded for this household anywhere on the line, so there is no register to open. **The wall here is a place, not a name.**",
+   "kind": "ungazetteered",
+   "label": "Montani  Stanište — no parish claims it",
+   "note": "No parents are recorded for **Pauli Tomljanović**, and this archive stops here. The tree does record where this household was — **Montani  Stanište** — but **no parish in this archive's table claims that village**, so there is nothing to say about what is filmed for it. **This is not a wall in the record. It is a gap in the gazetteer**, and one line in `sources/parishes.psv` closes it once somebody establishes which parish the village belongs to.",
    "parish": null,
    "village": "Montani  Stanište",
    "year": null,
@@ -337,9 +338,9 @@
    "ahn": 426,
    "name": "Simoni Pekass (Pekkas)",
    "slug": "simoni-pekass-pekkas",
-   "kind": "unplaced",
-   "label": "No place recorded",
-   "note": "No parents are recorded for **Simoni Pekass (Pekkas)**, and this archive stops here. No place is recorded for this household anywhere on the line, so there is no register to open. **The wall here is a place, not a name.**",
+   "kind": "ungazetteered",
+   "label": "Smiljan — no parish claims it",
+   "note": "No parents are recorded for **Simoni Pekass (Pekkas)**, and this archive stops here. The tree does record where this household was — **Smiljan** — but **no parish in this archive's table claims that village**, so there is nothing to say about what is filmed for it. **This is not a wall in the record. It is a gap in the gazetteer**, and one line in `sources/parishes.psv` closes it once somebody establishes which parish the village belongs to.",
    "parish": null,
    "village": "Smiljan",
    "year": null,

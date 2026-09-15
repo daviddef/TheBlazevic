@@ -163,6 +163,13 @@ def main():
             kind, label = "reachable", f"{pname(parish)} — in range"
         elif parish:
             kind, label = "outside", f"{pname(parish)} — out of range"
+        elif village:
+            # A place IS recorded — no parish in the table claims the village.
+            # «No place is recorded for this household anywhere on the line» was
+            # printed over Smiljan and over Montani Stanište, both of them
+            # written plainly in the tree. That is one gazetteer line from being
+            # reachable and it is not the same job as having nothing at all.
+            kind, label = "ungazetteered", f"{(pretty(place) or village).title()} — no parish claims it"
         else:
             kind, label = "unplaced", "No place recorded"
 
@@ -269,6 +276,14 @@ def main():
             if fix:
                 bits.append(f"(The tree writes this place as *{fix['reads']}*, which is "
                             f"{fix['km']} km away and wrong.)")
+        elif kind == "ungazetteered":
+            where = pretty(place) or (village or "").title()
+            bits.append(f"The tree does record where this household was — **{where}** — but "
+                        f"**no parish in this archive's table claims that village**, so "
+                        f"there is nothing to say about what is filmed for it. "
+                        f"**This is not a wall in the record. It is a gap in the "
+                        f"gazetteer**, and one line in `sources/parishes.psv` closes it "
+                        f"once somebody establishes which parish the village belongs to.")
         elif kind not in ("nameless", "borrowed", "placeholder"):
             bits.append("No place is recorded for this household anywhere on the line, "
                         "so there is no register to open. **The wall here is a place, "
