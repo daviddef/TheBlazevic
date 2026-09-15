@@ -10,11 +10,20 @@
  "counts": {
   "blocked": 4,
   "nothing": 13,
-  "partial": 18,
+  "partial": 19,
   "pending": 10,
   "yield": 36
  },
  "read": [
+  {
+   "book": "Otočac municipal cemetery — 86 photographs, read out",
+   "ref": "taken 8 October 2024; GPS 44°52′04.8″N 15°15′22.4″E, 459 m",
+   "pages": "84 usable frames, surveyed on contact sheets and the best read at full resolution",
+   "years": "1846 – 2021",
+   "n": 84,
+   "got": "**Thirty-two legible memorials**, and the archive's Otočac surnames are all still in the churchyard: **Žubrinić** on at least eighteen stones, with **Orešković, Kostelac, Sekula, Prpić and Marić** among them. The oldest is a **Žubrinić family tomb** — an arch carved *ŽUBRINIĆ* over a wrought-iron cross, four ivy-covered plates: **Franjo ✽1846 †1925 · Ivanjica ✽1848 †1886 · Venceslav ✽1874 · Ju[v]ana**. The best-dated single stone is **Kata Kostelac, ✽10.3.1859 †2.6.1911**.",
+   "missed": "**No stone names anyone already in this archive's tree.** The direct line at Otočac dies before the stones begin — ahnentafel 5 is buried at Senj, ahnentafel 10 and 20 have no death dates at all — and every dated memorial here is later. **A gravestone is a memorial, not a register**, carved by the living and wrong often enough to matter: the Senj stone in this archive gives Ljubomir's birth as 1891 where the register says 1892. **Nothing has been joined to the tree.**"
+  },
   {
    "book": "Otočac baptisms 1846–1858 — the Conditio column, and a third Žubrinić house",
    "ref": "ark 3:1:3QSQ-G99C-P275 (21 December 1846) and 3:1:3QS7-899C-PVT8 (January 1855)",
@@ -320,6 +329,34 @@
   }
  ],
  "rows": [
+  {
+   "src": "Otočac cemetery — photographed on the ground, October 2024",
+   "what": "Whether the churchyard names anyone this archive already holds",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "graves",
+    "arcanum"
+   ],
+   "got": "**Eighty-six photographs, thirty-two legible memorials, and one real connection — to Arcanum rather than to the tree.**\n\n**The find is a Žubrinić family tomb**: an arch carved ***ŽUBRINIĆ*** above a wrought-iron cross, with four ivy-covered name-plates —\n\n> **FRANJO ✽1846. †1925.** · **IVANJICA ✽1848. †1886.** · **VENCESLAV ✽1874. †19…** · **JU[V]ANA ✽18… †193…**\n\n**«Venceslav» is why this matters.** The Arcanum harvest of yesterday found, in the *Mihók-féle Magyar Compass* of **1908**, the board of the **Srpska štedionica dioničarsko društvo u Otočcu** — the Serbian savings bank — with **«Kassier Venzeslav Žubrinić»** as its cashier. **A Venceslav Žubrinić born 1874 would be thirty-four in 1908.** Same rare given name, same town, right age. **The printed record and the stone are very likely the same man**, and this archive now has his dates and his grave.\n\n**Every Otočac surname the archive married into is still in that churchyard** — **Orešković** (Katica ✽25.V.1882 †29.XI.1932, on a crowned-Virgin monument), **Kostelac** (Kata ✽10.3.1859 †2.6.1911, the best-dated stone there), **Sekula**, **Prpić**, **Marić**.\n\n**And one stone argues this archive's own thesis in carved letters:** *«OBITELJI **ŽUBRINIĆ-ČUN** i ŽANIĆ»*, Josip ✽1894 †1957 and Julka ✽1892 †1980. **A nadimak, hyphenated onto the surname on a twentieth-century headstone** — the practice the registers show in the 1800s, still doing its work.",
+   "missed": "**No stone names anyone already in the tree, and that is the honest headline.** The direct line at Otočac dies before these memorials begin: ahnentafel 5 is buried at **Senj**, and ahnentafel 10, 20, 40 and 42 have no death date at all. Every dated stone here is later than the people this archive can name.\n\n**Nothing has been joined.** A gravestone is a memorial, not a register — carved by the living, often long afterwards, and wrong often enough to matter: the Senj stone in this archive gives Ljubomir's birth as **1891** where the register says **1892**. The Venceslav identification is an argument from a name, a town and an age, and it is labelled as one.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/hungarian-press/",
+     "The Hungarian press"
+    ],
+    [
+     "/by-names/",
+     "By-names"
+    ]
+   ]
+  },
   {
    "src": "The archive's own data — fifteen drawers published as parents",
    "what": "Why every Žubrinić page showed a single-letter relative",
