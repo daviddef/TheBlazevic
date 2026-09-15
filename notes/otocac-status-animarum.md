@@ -1292,3 +1292,344 @@ question 4.**
 What the stretch *did* give, which is a great deal: **Casparus Žubrinić's own
 death** with house, age, cause and priest; **his widow Helena's**; **Šumećica 2
 and 5 attested**; and the **1834 godfather placed in a house**.
+
+---
+
+# Fifteenth sitting, 15 September 2026 — the prose years, and a Thomas
+
+The fourteenth sitting closed question 4 on a stated limit: the death register's
+pre-1828 years "give a name and an age and no house, so even finding him there
+would not tie him to Obilje. That is the honest end of this instrument." This
+sitting read those ninety images. **The premise was wrong, and the conclusion
+with it.**
+
+## The prose years do name the village
+
+The claim was generalised from **images 227–250**, where the scribe of 1806–1814
+gives a village only when he feels like it. Earlier in the book he gives it
+almost always:
+
+* **1789 (images 186–189)** — a village on nearly every entry, written in the
+  right margin or after the age: *Ex Dubrava*, *Ex Police*, *Ex Mosst*,
+  *Ex Luka*, *Ex Prozor*, *Ex Klade*, *Ex Obilje*, *Ex Shumechicza*,
+  *é pago Dubrava*, *Ex Potok*, *a Bisskupiak*.
+* **1790 (image 195R)** — the register briefly **switches into Croatian**:
+  *"Primina chi Klara filipa Krancevichia od leta 3"*, *"Primina Sin Paspar Jure
+  Drpkovichia od sela Potok od leta 3½"*, *"Primina chi Luce Jure Sopichia iz
+  Dubrave od Miseczi 8"*. Village and age, in the vernacular.
+* **1806–1809** — intermittent: *ex Dubrava*, *ex Obilje*, *ex Schumecicza*,
+  *ex pago Prozor*.
+
+So the reason given for not reading these images did not hold. That is worth
+saying plainly, because it is the second time in this branch that a confident
+negative about the sources turned out to be a statement about the *one stretch
+that had been sampled*.
+
+## Thomas Žubrinić, 27 February 1808, aged 40
+
+**Image 232, right page, under the month heading `Februarius`, the last entry on
+the page:**
+
+> *Die 27. Mortuus est **Thomas Xubrinich** ⁺annorum 40, provisus omnibus
+> Sacramentis, sepultus est in hoc cœmeterio per me Jacobum Thust localem
+> capellanum Vicensem.*
+
+The `annorum 40` is a superscript insertion carried into the line on a `+` mark.
+The surname is underlined, as this scribe underlines every surname on the page.
+
+**What was checked, and against what.** The standing rule was applied to every
+element separately:
+
+* the **surname** at 1.1× and again at 2.6× of the scan's own pixels — the
+  capital `X`, the `ubrinich`, the underline;
+* the **age** at 1.2×, isolated from the line and compared with the
+  `annorum 60` of *Joannes Ucber* nine lines above and the `52` of
+  *Franciscus Tustinovich* — this hand's `4`, `5` and `6` are not alike;
+* the **day** by rendering the whole left margin of the February block as one
+  1.6× column, so `die 27` sits directly under `die 19` and `die 9ᵐᵃ` in the
+  same hand: the `2` is the looped form, the `1` of `19` a plain stroke;
+* the **month** `Februarius` at its heading, and the **year** `1808.` at its
+  heading immediately above `Januarius`, seven entries earlier.
+
+**Aged 40 in February 1808 means born between February 1767 and February 1768.**
+
+## What that is, and what it is not
+
+The tree gives **Toma Žubrinić, b. 1768**. The census gives, at **Obilje page
+181**, *`Martha vidua defti Thomæ, 5. Julij 1767`* — a widow born 1767 whose
+husband Thomas was already dead when the page was ruled, and whose son
+**Paulus** was born February 1805. A husband dying in February 1808 fits that
+household exactly: three years after the child, long enough before the recension
+to be left out of it.
+
+**It is still not an identification, and it is not being recorded as one.**
+The entry gives **no village and no house**. It gives a name, an age, the
+sacraments and the priest. Everything that connects it to Obilje is inference
+from the census, and the census's Thomas has no date of his own to test it
+against.
+
+What can be said, and is worth saying:
+
+**In the Otočac death register from 1785 to 1836 — now read opening by
+opening — this is the only adult Thomas Žubrinić whose age puts his birth in
+the 1760s.**
+The book buries exactly **two** adult men of this name in fifty-one years. The
+other is **Thomas Xubrinich, 23 February 1787, `an: 31`** — born about 1756, a
+generation older, and the householder whose Dubrava children are buried in 1785,
+1787 and 1789. Every remaining Thomas Žubrinić in the register is a child or is
+born after 1780: 1824 (an. 24), 1826 (4½ days), 1829 (an. 5), 1831 (an. 44).
+
+That is a much stronger statement than it looks, because it is the statement the
+earlier sittings could not make.
+
+## Two readings that the standing rule caught, and both would have been wrong
+
+This sitting produced two near-misses of exactly the kind the rule exists for.
+Both were plausible at sweep scale, and both reversed under magnification.
+
+**1. Martha Žubrinić, 20 March 1805 (image 222, left page).** At sweep scale the
+age read `an. 40` — which would make her born about 1765 and a close match for
+the census's *Martha vidua defti Thomæ, born 5 July 1767*, dying a month after
+the Obilje Paulus was born. A tidy story. At full resolution the digit is
+unmistakably **`an. 50`**: born about 1755, and **not that woman**. The whole
+story was an artefact of a `5` read small.
+
+**2. "Thomas Žubrinić dies, January 1792" (image 198, right page).** At sweep
+scale: *"Obijt Thomas Xubrinich et filia Matthia"* — a dead Thomas. At 1.25× the
+line is **genitive**: *"Obijt **Thomæ Xubrinich filia** Matthia, quæ ab
+obstetrice bapt[izata] et post 2ᵃᵐ horam mortua"* — the **daughter** of a Thomas
+Žubrinić, baptised by the midwife and dead within two hours. The opposite
+reading: a Thomas Žubrinić **alive** and fathering in January 1792.
+
+Neither error would have been caught by reading more pages. Both were caught by
+enlarging one line.
+
+## A second Casparus, which is a caution about an entry already published
+
+**Image 230, right page, 20 November 1806:**
+
+> *Ejusdem die 20 Mortuus est … **Casparus Xubrinich** annos **circiter 40**,
+> morte improvisa, sed qui Christiane vixit, sepultus est in hoc cœmeterio per
+> me qui supra.*
+
+Born about 1766. This archive has already published **Casparus Žubrinić of
+Dubrava 60, died 4 March 1829, aged 62** — born about 1767 — as the census's
+Casparus, *b. 14 January 1767*. **Both men fit that birth year on age alone.**
+
+The 1829 identification is not withdrawn: it rests on the **house number** and a
+four-point match with the census, not on the age. But it should now be read with
+this beside it. The lesson is the branch's own: *a shared surname and an age that
+fits is not an identification* — and in this parish, in this family, the names
+repeat often enough that the coincidence is cheap.
+
+## The two villages question 4 turns on, pushed back to 1789 and 1790
+
+This is the sitting's other result, and for question 4 it may be the more useful
+one. The 1789 hand gives the village for nearly every entry, and it puts
+Žubrinići in **both** of the villages the question is about, decades before the
+census recension that names them.
+
+**Obilje — image 185, right page, 15 March 1789:**
+
+> *Obijt in Dno **Lucia Xubrinich ex Obilje** Annor. 66, omnibus provisa, et
+> sepulta in cœmit. SS. Trinit.*
+
+Born about 1723. **A Žubrinić household at Obilje in 1789** — the village where
+the census enters *Martha vidua defti Thomæ*.
+
+**Šumećica — image 193, left page, 15 February 1790:**
+
+> *Obiit in Dno infans **Rosalia filia c̄tī Mathei Xubrinich ex Sumechicza***
+
+**A Žubrinić household at Šumećica in 1790**, headed by a Mathæus. The earliest
+attestation of this family in that village was, until now, *Shumechicza 10* in
+November 1828. This moves it back **thirty-eight years**.
+
+Neither entry gives a house number — the numbered *Domus* column does not exist
+yet in 1790 — so **Šumećica 2 is still not attested before 1831**. What has
+changed is that the tree's *"Toma b. 1768, Šumećica"* no longer asks the record
+for something it has never shown: Žubrinići were at Šumećica in his childhood.
+
+## Dubrava, and a Casparus there in 1789
+
+**Image 186, right page, 30 April 1789:**
+
+> *Obijt Franzisca Xubrinich filia **Jospari** 18 dierum, **Ex Dubrava**, et
+> sepulta in cœmit. SS. Trinit.*
+
+The father's name is written **`Jospari`** — read at 2.6×; it is *Jaspar*, the
+ordinary variant of *Gaspar*, and not *Josephi* (the ending is `-ari`, not
+`-ephi`). It is recorded here as the scribe wrote it.
+
+So a **Casparus Žubrinić keeping house at Dubrava in April 1789** — the village
+where this archive placed Casparus of *Dubrava 60*, forty years later. And
+**image 188, left page, 12 July 1789** buries *Franciscus Brixanich … **sororius
+Gaspari Xubrinich***, the brother-in-law of a Casparus Žubrinić.
+
+**Image 188, right page, 30 July 1789** gives the other half:
+
+> *Obijt **Jacobus Philippus filius Thomæ Xubrinich** Annor. 2, **é pago
+> Dubrava***
+
+A **Thomas** Žubrinić keeping house at **Dubrava** in 1789 — with a second child,
+*Martinus filius Thomæ Xubrinich, an. 1*, buried in September 1787.
+
+## Šumećica had Žubrinići in 1789, and the book proves it twice
+
+The two entries that settle it are four months apart and corroborate each other.
+
+**Image 191, left page, 8 October 1789:**
+
+> *Obijt **Mathæus Xubrinich ex Sumechicza**, Ann. 26, provisus, et sepultus in
+> cœmet. SS. Trinit. comitante Joanne Antonich Capell. loci.*
+
+**Image 193, left page, 15 February 1790:**
+
+> *Obiit in Dno infans **Rosalia filia dfti Mathei Xubrinich ex Sumechicza***
+
+*dfti* is **defuncti**. The infant is the orphan daughter of the man buried four
+months earlier. One entry would be a reading; two, in agreement, and with the
+scribe underlining both surname and village, is an attested household.
+
+And **image 191, right page, 14 November 1789** gives a second Šumećica house:
+
+> *Obijt Antonia … **Josephi Xubrinich filia** Annor. 2, **ex Sumechicza pago***
+
+**Two Žubrinić households at Šumećica in 1789** — Mathæus, born about 1763, and
+Josephus. The same page buries *Magdalena **vidua Xubrinich ex Dubrava pago**,
+annor. 56*.
+
+## Where this leaves question 4
+
+**What is now established.**
+
+* Žubrinići are at **Šumećica** from 1789, at **Dubrava** from 1789, at
+  **Obilje** from 1789 — all three by name and village, none by house number.
+* **One adult Thomas Žubrinić born in the 1760s exists in this register**: the
+  man of 27 February 1808, aged 40.
+* There is a **second adult Thomas**, of 23 February 1787, aged 31 — born about
+  1756, a different generation, and almost certainly the father of the Dubrava
+  children of 1781–87.
+
+**What is not established, and is not claimed.**
+
+* The 1808 Thomas has **no village and no house**. He is not tied to Obilje by
+  anything in the register.
+* **Šumećica house 2 is still first attested in 1831.** The numbered *Domus*
+  column does not exist in 1790.
+* The tree's *Toma b. 1768* is **consistent** with the 1808 entry and with a
+  family at Šumećica in his childhood. Consistency is not identity, and this
+  archive has already once announced a direct ancestor on a coincidence of
+  exactly this shape.
+
+The honest summary: **question 4's Toma now has a candidate death entry that
+fits him on age to within a year, and a family documented in his village from
+his childhood — and still no document that joins the two.**
+
+## Žubrinić deaths in the prose years, as read
+
+Read this sitting: **images 170–249**, every opening, plus **156–169 outstanding**
+(1780–1784, where a man born in the 1760s could only be a child). Images
+**194, 197 and 218 are duplicate exposures** of 193, 196 and 217 and were skipped.
+
+    1785  May   Marta filia Thomæ Xubrinich                an. 4½
+    1785  Feb   Simon filius Josephi                       an. 4½
+    1785  Mar   Magdalena filia Mathæi                     an. 5
+    1785  Apr   Anna filia Michaelis                       an. 2
+    1785  Jul   Michael filius Josephi                     an. 1
+    1785  Aug   Marta filia Martini                        an. 3
+    1786  Aug   Maria filia Nicolai                        an. 7½
+    1786  Sep   Margaritha filia Josephi                   an. 1
+    1787  Feb   Maria uxor Mathæi                          an. 29
+    1787  Feb   THOMAS XUBRINICH                           an. 31
+    1787  Mar   Mathias Xubrinich                          an. 56
+    1787  Mar   Joannes filius Stephani                    an. 13
+    1787  Mar   NICOLAUS XUBRINICH                         an. 28
+    1787  Mar   Anna uxor Mathæi                           an. 60
+    1787  Mar   Joanna uxor Gregorii                       an. 29
+    1787  Aug   Josephus filius Mathæi                     an. 1
+    1787  Sep   Martinus filius THOMÆ                      an. 1
+    1787  Sep   Nicolaus filius Martini                    an. 2⅓
+    1787  Oct   Michael filius Magdalenæ, filiæ dfti Mathæ dier. 8
+    1787  Nov   Joanna filia Martini                       an. 1
+    1787  Nov   Georgius filius Mathæi                     an. 2
+    1789  Mar   Antonius filius Martini Senioris    ex Dubrava   an. 2
+    1789  Mar   LUCIA XUBRINICH                     EX OBILJE    an. 66
+    1789  Mar   Magdalena Xubrinich                 ex Dubrava   an. 2
+    1789  Apr   Franzisca filia Jospari             Ex Dubrava   dier. 18
+    1789  Jul   [Franciscus Brixanich, sororius Gaspari Xubrinich, an. c. 33]
+    1789  Jul   JACOBUS PHILIPPUS filius THOMÆ      é pago Dubrava  an. 2
+    1789  May   Andreas filius Jacobi               Ex Selcza    an. 2
+    1789  Oct   Martha filia Martini                             an. 13
+    1789  Oct   MATHÆUS XUBRINICH                   EX SUMECHICZA   an. 26
+    1789  Nov   Antonia filia Josephi               ex Sumechicza pago  an. 2
+    1789  Nov   MAGDALENA VIDUA XUBRINICH           ex Dubrava pago     an. 56
+    1790  Feb   Rosalia filia dfti Mathei           ex Sumechicza   infans
+    1790  Apr   Catharina vidua, mater Josephi                   an. c. 50
+    1792  Jan   Matthia filia Thomæ (midwife-baptised, dead in 2 hours)
+    1792  Mar   Anna filia Caspari                               a mensibus
+    1792  Jul   Clara filia Michaelis                            mensium
+    1794  Jan   Magdalena Xubrinich                              an. 58
+    1794  Oct   Thomas Georgius Xubrinich                        mensis unius
+    1794  Nov   Joannes Xubrinich                                mens. 10
+    1795  Jan   Josephus Xubrinich                               mens. 6
+    1796  Feb   NICOLAUS XUBRINICH                               an. 63
+    1796  Mar   Martinus Xubrinich                               an. 6?
+    1796  Mar   CATHARINA XUBRINICH                              an. 67
+    1797  Jan   Margarita Zubrinich                              an. 12
+    1797  Mar   MARIA ZUBRINICH                                  an. 50
+    1797  Aug   Josephus filius Wolphgangi et Magdalenæ          an. 1 m. 6
+    1797  Sep   Maria Xubrinich                                  an. 1 m. 10
+    1797  Sep   Catharina Xubrinich                              an. 5 m. 3
+    1797  Oct   Michael filius CASPARI                           dier. 15
+    1797  Oct   Nicolaus filius Georgii                          mens. 8
+    1797  Dec   Bartholomeus Xubrinich                           an. 1 m. 5
+    1797  Dec   Catharina Xubrinich                              an. 15
+    1798  Jan   HELLENA XUBRINICH                                an. 46
+    1798  Oct   Magdalena Xubrinich                              an. 8?
+    1798  Nov   Nicolaus Xubrinich                               an. 2
+    1799  Mar   Barbara Xubrinich                                mens. 15
+    1799  Mar   MARGHARITHA XUBRINICH                            an. 58
+    1801  Feb   [Thomas gregarius an. 60 — no surname given]
+    1803  May   Philipus Xubrinich                               an. 1
+    1804  Mar   ANNA XUBRINICH                                   an. 73
+    1804  May   Magdalena Xubrinich                              an. 3
+    1804  Jun   Catharina Xubrinich                              an. 6
+    1804  Sep   Georgius Xubrinich                               an. 4
+    1805  Mar   MARTHA XUBRINICH                                 an. 50
+    1805  Jun   Magdalena Xubrinich(?)                           an. 4
+    1806  Nov   CASPARUS XUBRINICH                        annos circiter 40
+    1806  Dec   Laurentius [filius] Stephani                     an. 2
+    1807  Jan   Lucia filia Decurionis Xubrinich                 an. 2
+    1808  Feb   THOMAS XUBRINICH                                 an. 40
+    1808  Jun   Franciscus Xubrinich                             an. 2
+    1809  Mar   GREGORIUS XUBRINICH                              an. 44
+    1809  Nov   Petrus filius Josephi                            an. 2
+    1811  Jul   Vitus filius Antonii                             mens. 2
+    1812  Sep   Joanna filia Antonii                             mens. 2
+    1813  Nov   Philippus filius Stephani                        an. 1½
+    1814  May   Hellena filia Joannis            ex Sumech[icza]  dier. 2
+
+Capitals mark the adults. Villages are given only where the scribe gave them.
+
+## Method, for the next sitting
+
+**Fetch once at half resolution, then crop on disk.** Every verification in this
+sitting except two was done from a saved PNG with no second request to
+FamilySearch. That is what made eighty openings affordable, and it is written up
+in `tools/familysearch.md`.
+
+**The two browsers are throttled independently**, so a ban is a pause, not a
+stop — alternate them. Both were eventually blocked here, which is why images
+156–169 are still outstanding.
+
+**A 24×24 perceptual hash finds the film's duplicate exposures** for nothing:
+adjacent duplicates score ≈30/576 bits apart, genuinely different openings
+≈100/576. It caught 194≡193, 197≡196, 218≡217.
+
+## What is still unread
+
+**Images 156–169 — 1780 to 1784.** Fourteen openings. A man born in the 1760s is
+a child throughout, so they cannot hold a rival to the 1808 Thomas; what they
+can hold is more of the family, and the first Žubrinić attestations in the book.
+They are the only part of item 3 this archive has not read.

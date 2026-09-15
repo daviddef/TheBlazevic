@@ -246,3 +246,58 @@ time in one `browser_batch`.
 **When Akamai throttles to 403**, navigate to a real FamilySearch page, wait for
 it to load so the sensor re-issues the token, then `document.write` the rig back
 over it and carry on.
+
+---
+
+## Sweeping a whole item — added 15 September 2026
+
+Reading ninety openings is a different problem from reading six. What worked:
+
+### Fetch once, at half resolution, to disk — then never fetch again
+
+The expensive thing is tiles, and the thing that gets you banned is tiles. A page
+half of this film is ~2,250 x 3,200 at full resolution, about 120 tiles. **At
+`drop 1` it is ~1,130 x 1,600 and about 30 tiles** — a quarter of the traffic and
+a quarter of the time (≈15 s an opening against ≈50 s).
+
+That half-resolution page is still **1.66× the 680 px sweep width**, so every
+"what does that word actually say?" crop is done **locally, from the saved PNG**,
+with no second request. Only a genuinely contested digit needs a full-resolution
+refetch of that one page.
+
+    browser  ->  __cell(ark, …, drop 1)  ->  canvas.toBlob  ->  POST 127.0.0.1:8799
+    disk     ->  PIL: contrast, crop by fraction, slice, scale  ->  Read
+
+Crop **by fraction of the saved page**, not of the film frame, once it is on disk.
+
+### The two browsers have separate Akamai reputations
+
+The in-app pane and Chrome are throttled **independently** — the pane's block
+even reports a different proxy IP. When one returns `403`, the other is usually
+still clean: **alternate, and keep the ARK map in `localStorage` in both**. A
+block lasts on the order of half an hour; navigating to a real FamilySearch page
+clears a *soft* throttle but not the hard `Access Denied … Error 15` page.
+
+Rate matters. Three tiles in flight with a 120 ms gap, and ~600 ms between pages,
+ran far longer before tripping than six tiles with a 20 ms gap.
+
+### Make the queue resumable
+
+A queue that stops on the first error and **pushes the failed image back onto the
+front of the list** turns a ban into a pause: swap browsers, re-inject, call the
+runner again. A queue that logs the error and carries on silently loses thirty
+openings, which is what happened the first time.
+
+### The pane must be *visible* to screenshot
+
+`computer{action:"screenshot"}` fails with *"the Browser pane is not displayed, so
+the page is not compositing frames"* if the pane is hidden. `tabs_select` does not
+fix it; **`preview_start` re-opens the pane** — and resets the emulated viewport,
+so set the tall viewport again afterwards.
+
+### Find the duplicate exposures cheaply
+
+This film shoots some openings twice. A 24×24 mean-threshold perceptual hash of
+each left page separates them without ambiguity: **adjacent duplicates score
+≈30/576 bits apart, genuinely different openings ≈100/576**. On item 3 it found
+194≡193, 197≡196 and 218≡217 — three openings that did not need reading.
