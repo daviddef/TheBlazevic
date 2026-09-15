@@ -1,5 +1,14 @@
 # Household by-names (nadimci) recorded beside a surname in the registers.
 #
+# A FALSE FRIEND, found by the re-sweep of 15 September 2026. In the Otočac
+# STATUS ANIMARUM, «dictus / dicti» is not a connector at all — it is the Latin
+# for «of the aforesaid». «Michael filius dictus Georgij» is Michael son of the
+# said George, and «Marcus et Josephus … Georgii dicti Gemelli» is the twins of
+# the said George, not a household called Gemelli. A sweep that harvests every
+# «dicti» will invent by-names out of pronouns, and this file must not carry
+# them. The test is whether the word sits BETWEEN TWO NAMES.
+#
+
 # This began as a footnote to question 5 — was "Papa" a surname or a by-name?
 # It is now a documented parish practice: Selce and its neighbours wrote the
 # surname AND the household name, joined by aliter / dictus / dicti, and the
@@ -41,3 +50,4 @@ Prpić|—|Boras|OBITELJ PRPIĆ -BORAS-|Senj|1974|n|two surnames set between das
 Boras|—|Milković|TIHI DOM OBITELJI BORAS - MILKOVIĆ|Senj|1950|n|hyphenated head of a family stone carrying the Croatian arms; Marica is separately «R. MILKOVIĆ», so here the hyphen records a marriage rather than a nadimak; Senj cemetery, IMG_8140
 Ljubičić|dictus|Lukšić|Ljubicich dictus Luxich ut ibi|Karlobag|1778|n|a KAZALO headword in the L section of the Umrli 1774-1804, cross-referenced «ut ibi» — see there. THE YEAR IS DERIVED from its folio position (about f.17, and folio 17 = 1778), not read off an entry; ark 3:1:3QS7-899C-GSKT
 Locatelli|vulgò|Žešić|Locatelli, vulgò Zessich, Margarita|Karlobag|1791|n|a KAZALO headword in the L section of the Umrli 1774-1804, folio 76. THE YEAR IS DERIVED from the folio (f.63 = 1790, f.74 = 1793), not read off an entry; ark 3:1:3QS7-899C-GSKT
+Verbanović|vide|Urbanović|Verbanovich Margarita … vide Urbanovich … 15 9bris|Karlobag|1790|n|a KAZALO headword in the V section of the Umrli 1774-1804, on the same page as «Vukich vide Smojver». THE YEAR IS DERIVED from the section's folio range, not read off an entry; ark 3:1:3QS7-899C-GS54
