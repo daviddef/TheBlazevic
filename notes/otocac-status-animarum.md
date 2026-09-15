@@ -1370,7 +1370,7 @@ against.
 
 What can be said, and is worth saying:
 
-**In the Otočac death register from 1785 to 1836 — now read opening by
+**In the Otočac death register from 1780 to 1836 — now read opening by
 opening — this is the only adult Thomas Žubrinić whose age puts his birth in
 the 1760s.**
 The book buries exactly **two** adult men of this name in fifty-one years. The
@@ -1528,9 +1528,9 @@ his childhood — and still no document that joins the two.**
 
 ## Žubrinić deaths in the prose years, as read
 
-Read this sitting: **images 170–249**, every opening, plus **156–169 outstanding**
-(1780–1784, where a man born in the 1760s could only be a child). Images
-**194, 197 and 218 are duplicate exposures** of 193, 196 and 217 and were skipped.
+Read this sitting: **images 156–249**, every opening but one page-half (see the
+foot of this section). Images **194, 197 and 218 are duplicate exposures** of
+193, 196 and 217 and were skipped.
 
     1785  May   Marta filia Thomæ Xubrinich                an. 4½
     1785  Feb   Simon filius Josephi                       an. 4½
@@ -1620,16 +1620,61 @@ FamilySearch. That is what made eighty openings affordable, and it is written up
 in `tools/familysearch.md`.
 
 **The two browsers are throttled independently**, so a ban is a pause, not a
-stop — alternate them. Both were eventually blocked here, which is why images
-156–169 are still outstanding.
+stop — alternate them. Over this sitting each was blocked three times and each
+recovered in roughly half an hour, which is how eighty-odd openings got read
+without ever waiting long.
 
 **A 24×24 perceptual hash finds the film's duplicate exposures** for nothing:
 adjacent duplicates score ≈30/576 bits apart, genuinely different openings
 ≈100/576. It caught 194≡193, 197≡196, 218≡217.
 
+## Images 156–169 read as well — and image 156 explains two columns
+
+The last fourteen openings were read after the browsers recovered. **There is no
+adult Thomas Žubrinić in 1780–1784**; the only Thomas of the name in those years
+is an infant, *Thomas filius Nicolai Xubrinich, dierum 15*, December 1783. So the
+count stands: **two adult Thomas Žubrinići in fifty-one years**, 1787 and 1808.
+
+**Image 156 is the register's title page**, and it settles something this archive
+had been looking past for three sittings:
+
+> **LIBER MORTUORUM. In Novo Cœmeterio Ss. Trinitatis Sepultorum. Anno
+> MDCCLXXX. Sub Rᵐᵒ Dñᵒ Joanne Dominico de Vukassovich, Archi-Parocho hujus
+> Parochiæ Ottocensis.**
+> *NB. Prima columna denotat Seriem, 2da numerum Sepulchri, incipiendo à plaga
+> Septemtrionali.* — **1780–1836**
+
+**The two narrow numeric columns down the right edge are the Series and the grave
+number, counted from the north side of the cemetery.** They are a plot map, not
+ages and not entry numbers. Image 169 shows the system working: a Lutheran
+officer, *Acatholicus D. Carolus Christianus Weiner, Lieutenantius Regiminis
+Rationum Magister, Saxo Hubertuspurgensis, an. 46½*, is buried in January 1785
+*"in parvo Cœmeterio … ad ingressum prædicti cœm. in dextera manu penes parietem
+a Septemtrione"* — just inside the gate, right hand, against the north wall.
+
+The verso of the same leaf carries a later hand: *In Novi 6ta Maji 1833 obiit …
+**Joannes Bapta Jesich, Episcopus Segni et Modrussii seu Corbaviæ**, ætatis suæ
+86* — the bishop of Senj-Modruš, entered in the Otočac death book.
+
+**The earliest Žubrinić in the register** is *Lucia filia Mathæi Xubrinich,
+dierum 15*, **2 November 1780** — five months after the book opens.
+
+## Five villages, not two
+
+With 190 read, the 1789 entries name **five** villages for this family, every one
+of them checked at magnification:
+
+    Sumecicza   Mathæus (an. 26, d. Oct 1789) · Josephus
+    Obilje      Lucia (an. 66)
+    Dubrava     Jospari/Gaspar · Thomas · Magdalena vidua (an. 56) · Martinus Senior
+    Potok       Nicolaus filius Michaelis (an. 22)
+    Selca       Jacobus (anno 39)
+
+*ex Potok* was read at 2.3× — it is `Potok̄`, the village the 1790 Croatian entries
+also name as *od sela Potok*.
+
 ## What is still unread
 
-**Images 156–169 — 1780 to 1784.** Fourteen openings. A man born in the 1760s is
-a child throughout, so they cannot hold a rival to the 1808 Thomas; what they
-can hold is more of the family, and the first Žubrinić attestations in the book.
-They are the only part of item 3 this archive has not read.
+**One page-half: image 160, right page** — October to December 1781. Both
+browsers were Akamai-blocked when it came up, and it is the only part of item 3
+this archive has not seen. Its left page holds no Žubrinić.
