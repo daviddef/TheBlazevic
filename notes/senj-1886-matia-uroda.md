@@ -84,3 +84,45 @@ month and day of *death* — and reads **26 July**. A month between death and
 burial is not ordinary, so either the index is wrong or there is a separate
 burial column further right that was not read. Recorded as a discrepancy, not
 smoothed over.
+
+---
+
+# Ahnentafel 26, at the page — Senj, 14 November 1897
+
+Senj deaths page **98**, entry **70**, ark `3:1:3QS7-899X-14RR`, indexed under the
+spelling **Pilepić**:
+
+> «**1897 studenoga 14** · **Vicko PILEPIĆ**, *finan.… u miru* · **Udovac** ·
+> **Karlobag** · Senj · R.Kat. · ***navodno 93 god.*** · **Marasmus senilis**»
+
+**The date matches the tree to the day** — 14 November 1897. **Karlobag** is
+recorded as his origin, confirming the birthplace the tree carries, and it puts
+*both* halves of this couple in Karlobag before Senj. **Udovac** — a widower —
+which squares exactly with his wife's death eleven years earlier on the 1886
+page.
+
+## The age column says *navodno*, and that settles something
+
+The clerk wrote ***«navodno 93 god.»*** — **"reportedly 93 years"**. Ahnentafel
+26 was born **17 November 1805** and died three days short of his ninety-second
+birthday. He was **91**. The register is out by two years **and says so**.
+
+That is worth more than the entry. Three ages were read in this book today:
+
+| ancestor | register | actual |
+|---|---|---|
+| ahn 27, 1886 | 78 | **75** |
+| ahn 8, 1907 | 69 | **69** |
+| ahn 26, 1897 | *navodno* 93 | **91** |
+
+**The Senj clerk marks the age as hearsay**, and the one time it is exactly right
+is the one man who died in a town full of his own children. So an age in this
+column is **what the informant said**, never a document — and this archive should
+not use it to date a birth, ever. Where a birth has a baptism behind it, the
+baptism wins without argument.
+
+## And a second spelling to carry
+
+He is **Pilepić** here and **Pilipić** on his wife's entry eleven years earlier —
+the same clerk's office, the same family, two spellings. Added to the list that
+already holds *Pilipić · Pillepich · Pilepić · Pipić*.
