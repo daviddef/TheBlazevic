@@ -2,7 +2,7 @@
  "title": "The work list",
  "dek": "What is being done here, as opposed to what is known.",
  "lead": "Every other register in this archive answers what is **known** — [what has been searched](/searched/), [what is still open](/open-questions/), [what was got wrong](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. Three times in one week someone asked this archive what it was working on, and three times the answer was typed out and then lost. This is that answer, written down. It is deliberately short on findings and long on **who has to move each thing** — an item with no owner is how a list becomes wallpaper.",
- "close": "Written 15 September 2026, in the shape the Defranceschi session settled on, so that eight archives keep one list rather than eight people each inventing one.\n\n**Extended the same day into a roadmap.** The first twenty-two rows were what happened to be in hand. Rows 23 to 48 were built instead from what the archive already knows about itself: `coverage.json` says **34 of the 70 direct ancestors have no document**; `targets.json` ranks every filmed book by how many of them it would reach; `consistency.json` and `impossible.json` hold **116 contradictions** the tree has never been asked to explain. The rows are in yield order, and the yield is measured rather than guessed — **Karlobag deaths reach ten direct ancestors and that book's A–Z index is already mapped to the letter**, which is why it is row 23 and not row 40.\n\nThree of them are not research at all but the conditions for it: **twenty-one ancestors have no place recorded**, so no film can be chosen for them (row 34); **a DGS number does not reliably name a book** (row 42); and **nobody has written down which parish the record index covers**, so every sitting rediscovers whether its next job is an hour or a week (row 43).",
+ "close": "Written 15 September 2026, in the shape the Defranceschi session settled on, so that eight archives keep one list rather than eight people each inventing one.\n\n**Extended the same day into a roadmap.** The first twenty-two rows were what happened to be in hand. Rows 23 to 48 were built instead from what the archive already knows about itself: `coverage.json` says **34 of the 70 direct ancestors have no document**; `targets.json` ranks every filmed book by how many of them it would reach; `consistency.json` and `impossible.json` hold **116 contradictions** the tree has never been asked to explain. The rows are in yield order, and the yield is measured rather than guessed — **Karlobag deaths reach ten direct ancestors and that book's A–Z index is already mapped to the letter**, which is why it is row 23 and not row 40.\n\nThree of them are not research at all but the conditions for it: **twenty-one ancestors have no place recorded**, so no film can be chosen for them (row 34); **a DGS number does not reliably name a book** (row 42); and **nobody has written down which parish the record index covers**, so every sitting rediscovers whether its next job is an hour or a week (row 43).\n\n**And one gate added the same day, for the failure the list could not see in itself.** `checkworklist.py` checks the rows a list has; nothing checked the rows it was missing, and this list quietly showed **four letters where five had been sent**. `tools/checkcovers.py` now counts it against the register's **pending** rows and the contents of **`requests/sent/`**, and the build refuses when something outstanding has no row — or when a row still points at something retired. It caught **two more gaps** on its first run, and threw out its own first draft for containing an exemption that excused one of them.",
  "rows": [
   {
    "n": 1,
@@ -34,7 +34,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Their son was baptised **1 November 1857**, so the marriage falls just before it. Their register names are now known exactly — **«Juraj Papa, težak»** and **«Matia rođena Pilipić»** — which is what makes this findable. Not in the index; a film read.\n\n**The FamilySearch block of 15 September 2026 comes and goes — see [row 21](/worklist/).** It shut three times and opened three times in forty minutes, and fifteen register entries were read in those windows. This row is not blocked; it is waiting for the next window, with its targets written down."
+   "note": "Their son was baptised **1 November 1857**, so the marriage falls just before it. Their register names are now known exactly — **«Juraj Papa, težak»** and **«Matia rođena Pilipić»** — which is what makes this findable. Not in the index; a film read.\n\n**The FamilySearch block of 15 September 2026 comes and goes — see [row 21](/worklist/).** It shut three times and opened three times in forty minutes, and fifteen register entries were read in those windows. This row is not blocked; it is waiting for the next window, with its targets written down.",
+   "covers": [
+    "register:fs/senj-marr-1734"
+   ]
   },
   {
    "n": 5,
@@ -82,7 +85,10 @@
    "state": "done",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "**Answered 15 September 2026, the same day it was sent.** Boris Zakošek: «**Državni arhiv u Rijeci ne provodi ovako složena rodoslovna istraživanja.** Istraživati možete sami u čitaonici Arhiva ili putem internetske stranice familysearch.org» — *the archive does not carry out genealogical research of this complexity; research it yourself in the reading room or on FamilySearch.*\n\n**It refuses the service without answering about the holdings.** The letter asked one question needing no research: whether they **hold, or know who holds, the Rijeka baptismal register covering 1 March 1892**. That is unanswered, and it matters — the 1892–99 volume is missing from the film and from its Kazalo both, which is why Ljubomir Blažević's baptism has never been placed.\n\n**The reply points back at FamilySearch**, which the letter had already said — quoting the volume list — has been read to the end with a gap exactly there.\n\n**What is left is the reading room**, which is genuinely offered: this is material that can be consulted in person at Rijeka, by David or by a paid local researcher. That is now the only stated route to the 1892 entry, and it is a decision rather than a task."
+   "note": "**Answered 15 September 2026, the same day it was sent.** Boris Zakošek: «**Državni arhiv u Rijeci ne provodi ovako složena rodoslovna istraživanja.** Istraživati možete sami u čitaonici Arhiva ili putem internetske stranice familysearch.org» — *the archive does not carry out genealogical research of this complexity; research it yourself in the reading room or on FamilySearch.*\n\n**It refuses the service without answering about the holdings.** The letter asked one question needing no research: whether they **hold, or know who holds, the Rijeka baptismal register covering 1 March 1892**. That is unanswered, and it matters — the 1892–99 volume is missing from the film and from its Kazalo both, which is why Ljubomir Blažević's baptism has never been placed.\n\n**The reply points back at FamilySearch**, which the letter had already said — quoting the volume list — has been read to the end with a gap exactly there.\n\n**What is left is the reading room**, which is genuinely offered: this is material that can be consulted in person at Rijeka, by David or by a paid local researcher. That is now the only stated route to the 1892 entry, and it is a decision rather than a task.",
+   "covers": [
+    "letter:EMAIL-rijeka.txt"
+   ]
   },
   {
    "n": 11,
@@ -90,7 +96,11 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "Sent 15 September to the parish priest. Three deaths after the film stops in 1907 — including **Milka Papić**, whose 1886 baptismal entry carries a registrar's 1971 annotation citing **page 280, line 37** — the January and February 1895 baptisms, and whether a *stanje duša* survives for Senj."
+   "note": "Sent 15 September to the parish priest. Three deaths after the film stops in 1907 — including **Milka Papić**, whose 1886 baptismal entry carries a registrar's 1971 annotation citing **page 280, line 37** — the January and February 1895 baptisms, and whether a *stanje duša* survives for Senj.",
+   "covers": [
+    "letter:EMAIL-zupa-senj.txt",
+    "register:letters/senj-krmpote-parishes"
+   ]
   },
   {
    "n": 12,
@@ -98,7 +108,11 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "Sent 15 September. Asks for **Juraj Blažević's baptism**, most likely 1855–70 and before the film begins — the single entry that would name his father and settle the join five generations rest on. **One question in that letter has since been answered here**: Tonka's date is **25/27 October 1884**, read off the register, and the reply should be read against that rather than the other way round."
+   "note": "Sent 15 September. Asks for **Juraj Blažević's baptism**, most likely 1855–70 and before the film begins — the single entry that would name his father and settle the join five generations rest on. **One question in that letter has since been answered here**: Tonka's date is **25/27 October 1884**, read off the register, and the reply should be read against that rather than the other way round.",
+   "covers": [
+    "letter:EMAIL-zupa-krmpote.txt",
+    "register:letters/senj-krmpote-parishes"
+   ]
   },
   {
    "n": 13,
@@ -106,7 +120,11 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-13",
-   "note": "Sent 13 September, **acknowledged and queued on the 14th**, nothing since. Gospić holds Otočac and Karlobag — which is to say the Žubrinići and the Urode."
+   "note": "Sent 13 September, **acknowledged and queued on the 14th**, nothing since. Gospić holds Otočac and Karlobag — which is to say the Žubrinići and the Urode.",
+   "covers": [
+    "letter:EMAIL-gospic.txt",
+    "register:letters/gospic"
+   ]
   },
   {
    "n": 14,
@@ -126,11 +144,11 @@
   },
   {
    "n": 16,
-   "what": "Five methods found here that the other archives will need",
+   "what": "Six methods found here that the other archives will need",
    "state": "next",
    "owner": "the kit & estate session",
    "since": "2026-09-15",
-   "note": "**The index gives the image.** FamilySearch's record search returns the **image ARK** of every indexed entry, so a record opens at the page in one step instead of being hunted down a film — that single fact produced most of this week's findings. **A third FamilySearch failure state**: a sign-out takes *everything* (503, redirect to the sign-in host) where a rate-limit blip and a session block leave the catalogue answering — written into `tools/familysearch.md`. **And `sources/found.psv`**, somewhere to put people read out of a register whom the tree does not have; every archive here will hit that wall.\n\n**Fourth — the register cannot be trusted to retire its own rows.** `/searched` here said eleven sources were outstanding when three had been read and closed: each was a «not yet» placeholder left standing because the reading went into a *new* row. Over-reporting what is outstanding is the same lie as under-reporting it, and it costs a sitting that re-opens a finished book. The fix generalises: **every row declares a `key` naming the body of material it covers, and the checker refuses a *pending* row when another row with that key has a real outcome.** The key is the whole trick — matching on the source *name* would flag «Senj marriages, 1734–1858», which is genuinely unopened, against «Senj marriages, 1859–1920», which is read end to end. Every archive that keeps a search register has this bug waiting in it. In `tools/searched.py` here.\n\n**Fifth — there is a fourth FamilySearch failure state, and it is the worst one.** Beside the rate-limit blip, the session block and the sign-out, there is **Error 15**: a 403 «Access Denied» interstitial on *every* path, laid on the egress address rather than the session. Signing in again does nothing. **The diagnostic that tells it apart in one call** is to fetch a Deep Zoom `image.xml` for an ark that read successfully before: a blip or a session block leaves the tile edge answering, and Error 15 takes the tiles down too. If the tiles are gone there is no route to a page and the only moves are to wait or to read from a different network."
+   "note": "**The index gives the image.** FamilySearch's record search returns the **image ARK** of every indexed entry, so a record opens at the page in one step instead of being hunted down a film — that single fact produced most of this week's findings. **A third FamilySearch failure state**: a sign-out takes *everything* (503, redirect to the sign-in host) where a rate-limit blip and a session block leave the catalogue answering — written into `tools/familysearch.md`. **And `sources/found.psv`**, somewhere to put people read out of a register whom the tree does not have; every archive here will hit that wall.\n\n**Fourth — the register cannot be trusted to retire its own rows.** `/searched` here said eleven sources were outstanding when three had been read and closed: each was a «not yet» placeholder left standing because the reading went into a *new* row. Over-reporting what is outstanding is the same lie as under-reporting it, and it costs a sitting that re-opens a finished book. The fix generalises: **every row declares a `key` naming the body of material it covers, and the checker refuses a *pending* row when another row with that key has a real outcome.** The key is the whole trick — matching on the source *name* would flag «Senj marriages, 1734–1858», which is genuinely unopened, against «Senj marriages, 1859–1920», which is read end to end. Every archive that keeps a search register has this bug waiting in it. In `tools/searched.py` here.\n\n**Fifth — there is a fourth FamilySearch failure state, and it is the worst one.** Beside the rate-limit blip, the session block and the sign-out, there is **Error 15**: a 403 «Access Denied» interstitial on *every* path, laid on the egress address rather than the session. Signing in again does nothing. **The diagnostic that tells it apart in one call** is to fetch a Deep Zoom `image.xml` for an ark that read successfully before: a blip or a session block leaves the tile edge answering, and Error 15 takes the tiles down too. If the tiles are gone there is no route to a page and the only moves are to wait or to read from a different network.\n\n**Sixth — a work list cannot see its own omissions, and needs a second list to count against.** The kit's `checkworklist.py` gates the rows a list *has*. Nothing gated the rows it was *missing*, and on 15 September this archive had **five letters sent and four rows** — the missing one being the reply that named three further doors, and therefore the reason three of the other rows existed. **Every row present looked fine in isolation. The list was only wrong in what it did not say.**\n\n`tools/checkcovers.py` here counts the work list against two lists that are already exact: every **`pending` row in the search register** (which means, in the register's own words, «known, wanted, and not yet got») and every letter in **`requests/sent/`**. A row declares what it accounts for in a `covers` field, and the build refuses when something outstanding has no row — **or when a row points at something that no longer exists**, which is how a list goes stale rather than short.\n\n**It found two real gaps on its first run** — Brinje, pending since the 14th with no row, and ahnentafel 11 — and it **rejected its own first draft**: that draft exempted keys beginning `plan/` as «not really work», and the one row so excused turned out to name two baptisms sitting in a book already open. The exemption was noise-reduction dressed as a rule, and there is none now.\n\n**Every archive in the estate keeps a work list and a search register**, so every one of them can be short in exactly this way, and none of them can currently tell."
   },
   {
    "n": 17,
@@ -386,7 +404,11 @@
    "state": "next",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "Both are in the register as *pending* and neither can move without a decision that is not this archive's to make. **FindMyPast — Port Pirie electoral rolls**: eleven of nineteen read, and the trial expired before the rest; the rolls give an address and an occupation year by year, which is how a household is watched over time. **Southern Rhodesian immigration 1953–65**: an entire country known from two words on a later record, and **no route into it has been identified at all** — which is a different thing from having searched and found nothing. Both want either a subscription or a decision to let them stand as honest nulls."
+   "note": "Both are in the register as *pending* and neither can move without a decision that is not this archive's to make. **FindMyPast — Port Pirie electoral rolls**: eleven of nineteen read, and the trial expired before the rest; the rolls give an address and an occupation year by year, which is how a household is watched over time. **Southern Rhodesian immigration 1953–65**: an entire country known from two words on a later record, and **no route into it has been identified at all** — which is a different thing from having searched and found nothing. Both want either a subscription or a decision to let them stand as honest nulls.",
+   "covers": [
+    "register:findmypast/port-pirie",
+    "register:rhodesia"
+   ]
   },
   {
    "n": 49,
@@ -394,7 +416,32 @@
    "state": "done",
    "owner": "David",
    "since": "2026-09-13",
-   "note": "**Added 15 September 2026 because the set was not visible.** Four of the five letters had rows here — 10, 11, 12 and 13 — and **the fifth had none**, which is the one that generated the other three. A reader of this list would have counted four letters.\n\n**Državni arhiv u Rijeci, Ispostava u Senju** — sent **13 September**, answered **14 September** by **Denis Rukavina**: «*Sabirni centar u Senju nema u svom posjedu arhivsku građu kojom bi se moglo udovoljiti Vašem zahtjevu*» — the Senj collection centre does not hold it — and he **named three doors in its place**: Rijeka, Gospić, and the competent parish offices. **That reply is why rows 10, 11 and 12 exist.** It was a nil return that did more work than most positive ones.\n\n| To | Sent | Where it stands |\n|---|---|---|\n| DAR, Ispostava u Senju | 13 Sep | **Answered 14 Sep** — nil return, named three further doors |\n| Državni arhiv u Gospiću | 13 Sep | **Acknowledged 14 Sep**, queued — [row 13](/worklist/) |\n| Državni arhiv u Rijeci | 15 Sep | **Answered 15 Sep**, refused — [row 10](/worklist/) |\n| Župni ured Senj | 15 Sep | no reply — [row 11](/worklist/) |\n| Župa Krmpote, via Ledenice | 15 Sep | no reply — [row 12](/worklist/) |\n\n**Three of the three doors Senj named have now been tried.** Two of them — the **parish offices** — have never been tried before this week, and they are the two still out. The archives have now given one nil return, one refusal and one queue ticket; **if anything comes, it is most likely to come from a parish priest**, because the books the films do not cover are the ones that never left parish custody.\n\nFull text of every reply is in `requests/REPLIES.md`; the letters as sent are in `requests/sent/`."
+   "note": "**Added 15 September 2026 because the set was not visible.** Four of the five letters had rows here — 10, 11, 12 and 13 — and **the fifth had none**, which is the one that generated the other three. A reader of this list would have counted four letters.\n\n**Državni arhiv u Rijeci, Ispostava u Senju** — sent **13 September**, answered **14 September** by **Denis Rukavina**: «*Sabirni centar u Senju nema u svom posjedu arhivsku građu kojom bi se moglo udovoljiti Vašem zahtjevu*» — the Senj collection centre does not hold it — and he **named three doors in its place**: Rijeka, Gospić, and the competent parish offices. **That reply is why rows 10, 11 and 12 exist.** It was a nil return that did more work than most positive ones.\n\n| To | Sent | Where it stands |\n|---|---|---|\n| DAR, Ispostava u Senju | 13 Sep | **Answered 14 Sep** — nil return, named three further doors |\n| Državni arhiv u Gospiću | 13 Sep | **Acknowledged 14 Sep**, queued — [row 13](/worklist/) |\n| Državni arhiv u Rijeci | 15 Sep | **Answered 15 Sep**, refused — [row 10](/worklist/) |\n| Župni ured Senj | 15 Sep | no reply — [row 11](/worklist/) |\n| Župa Krmpote, via Ledenice | 15 Sep | no reply — [row 12](/worklist/) |\n\n**Three of the three doors Senj named have now been tried.** Two of them — the **parish offices** — have never been tried before this week, and they are the two still out. The archives have now given one nil return, one refusal and one queue ticket; **if anything comes, it is most likely to come from a parish priest**, because the books the films do not cover are the ones that never left parish custody.\n\nFull text of every reply is in `requests/REPLIES.md`; the letters as sent are in `requests/sent/`.",
+   "covers": [
+    "letter:EMAIL-senj.txt"
+   ]
+  },
+  {
+   "n": 50,
+   "what": "Brinje — never opened, and not in this archive's gazetteer",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "covers": [
+    "register:fs/brinje"
+   ],
+   "note": "**Found by the missing-row gate on 15 September 2026.** It had been *pending* in the register since the 14th and had no row here at all.\n\n**Not one page of the Brinje register has ever been opened**, and Brinje is **not in this archive's gazetteer**. It got onto the list the hard way: a 1910 American manifest gave a Kalanj's residence as *Brinje*, which sent someone back to re-read a Latin baptism of 1864 — ***«Brinjensis parochiae ruricolae»***, country people of the parish of Brinje, **forty kilometres inland** from the coast where this archive had always put them.\n\nThree surnames meet there — **Kalanj, Perković and Borić**. The films are catalogue-verified for **1888–1900** across births, marriages and deaths, which is late for an 1864 baptism but right for the generation that emigrated. The Gospić letter also asks for the **Kalanj × Perković marriage** at Brinje, so [row 13](/worklist/) and this row may answer each other."
+  },
+  {
+   "n": 51,
+   "what": "Ahnentafel 11 — the emptiest person on the direct line",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "covers": [
+    "register:plan/ahn-11"
+   ],
+   "note": "**Found by the missing-row gate on 15 September 2026**, and it is the row that proved the gate should have no exemptions — it was written off as «a plan» when it is a list of documents sitting in a book this archive has already opened.\n\n**«Ana Shambul Marić» is a name, two tree links and nothing else.** Her father is a **surname with no given name**; her mother is **not in the tree at all**.\n\n**The name is probably not her name.** She is carried as *«Ana Shambul Marić»* and elsewhere *«rođen Shumbul Marić»*, and this archive has met that shape before — the **nadimak** written beside the surname, *Antich Papa*, *Jellichich dictis Jurešina*. If **Šumbul** is the house name then the surname to search is **Marić**, and the by-name is the only thing separating this family from every other Marić in Lika. *A hypothesis, deliberately kept out of the by-names data, which holds only phrases read off a page* — and note that [row 41](/worklist/) has since widened the connector list, which may bear on it.\n\n**What is reachable, and it is cheap.** The couple's children are Lucca (1853), Marija (about 15 September 1858), Jacobus and Tereza (1867). **Otočac births are filmed 1834–1858**, so **Lucca's and Marija's baptisms are both inside the book** — the same book as [row 27](/worklist/), which is index-led. Do them together."
   }
  ]
 }

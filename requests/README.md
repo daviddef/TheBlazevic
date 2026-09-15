@@ -1,7 +1,13 @@
 # Requests
 
-Enquiries to archives. **Five have been sent and two answered**; `sent/` holds
-what went out and `REPLIES.md` holds what came back. The rest are drafts. Each
+Enquiries to archives. **Five have been sent**; **`sent/` holds all five and
+nothing else**, and `REPLIES.md` holds what came back. The rest are drafts.
+
+**`sent/` is load-bearing.** `tools/checkcovers.py` reads it and refuses the
+build if a letter in it has no row on [the work list](/worklist/). That gate
+exists because the letter to the Senj branch — the one that named the three
+further doors — sat in this folder's parent for two days with no work-list row,
+and the list therefore showed four letters where there were five. Each
 names exactly what is wanted and why, so that whoever sends it can do so without
 re-reading the whole site — and so that a refusal or a nil return is itself
 recordable.
