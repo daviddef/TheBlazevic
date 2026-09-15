@@ -11,14 +11,18 @@
   "164": "3:1:3QSQ-G99C-PVKZ",
   "165": "3:1:3QS7-899C-PVZP",
   "200": "3:1:3QSQ-G99C-PLXK",
-  "166": "3:1:3QS7-L99C-PV8V"
+  "166": "3:1:3QS7-L99C-PV8V",
+  "117": "3:1:3QS7-L99C-PVR4",
+  "120": "3:1:3QS7-L99C-PV5F"
  },
  "dates": {
   "100": "1835, «1835 Aprilis die 6ta»",
   "165": "page 149 — 18 Ožujka (March) to May 1849; page 150 continues April–May, entries 16–25",
   "200": "page 221 — 1855",
   "164": "page 147 — December 1848, with the ruled «1849» heading at the foot; page 148 runs Jan–March 1849",
-  "166": "page 151 — July 1849, ending 28 Srpnja; page 152 — August 1849, entries 35–39, starting 9 Kolovoza"
+  "166": "page 151 — July 1849, ending 28 Srpnja; page 152 — August 1849, entries 35–39, starting 9 Kolovoza",
+  "117": "page 44 — Nov–Dec 1837, entries 79-86; page 45 — two more 1837 entries, then the ruled heading «Anno Domini 1838» and the 1838 sequence restarting at entry 1",
+  "120": "page 60 — Sept–Oct 1838"
  },
  "_targets": {
   "ahn 40": "Toma Žubrinić, died 4 January 1838, tree places him at Šumećica 2. Interpolates to about image 114.",
@@ -30,6 +34,8 @@
    "page 149, April 1849 — «Maria, ćer Mate Žubrinić, graničar», aged 1½",
    "page 151, July 1849 — «Kate, žena Mat… Žubrinić, graničara», aged 28"
   ],
-  "_caution": "Row 1 established that «Mate/Michael Žubrinić» at Otočac is at least seven different men in four villages. Neither entry above may be attached to ahnentafel 20 without the house number, which these two entries were not read closely enough to give."
- }
+  "_caution": "Row 1 established that «Mate/Michael Žubrinić» at Otočac is at least seven different men in four villages. Neither entry above may be attached to ahnentafel 20 without the house number, which these two entries were not read closely enough to give.",
+  "ahn 40 — FOUND": "Image 117, page 45, entry 3 of 1838. «1838. Januarii die 4ta · Thomas Xubrinich, Inq: [struck: Ottoèsanq] Centu-rio Confiniarius, ex Pago Shumcchicza N° 2. · An. 70 · Senectutis Debilitas · Omnibus SStis morientium Sacramentis provisus, morte testimonio medico comprobata · Cœmeterium Commune SStæ Trinitatis Ottochiæ · Matthæus Mattasich, minist.» The tree's date (4 Jan 1838), house (Šumećica 2) and birth year (1768, from An. 70) are all corroborated. See notes/otocac-toma-zubrinic-1838.md."
+ },
+ "_method": "The deaths book writes the village and house into the Nomen/Cognomen column THROUGHOUT, including 1836-1845 — the years the Otočac baptism book stops recording households. It is therefore a house-number source for exactly the window the baptisms cannot reach."
 }
