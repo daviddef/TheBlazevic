@@ -2,7 +2,7 @@
  "variants": [
   {
    "key": "zubrinic",
-   "n": 414,
+   "n": 399,
    "forms": [
     {
      "spelling": "Žubrinić",
@@ -39,19 +39,6 @@
       {
        "place": "Otocac Croatia",
        "n": 6
-      }
-     ]
-    },
-    {
-     "spelling": "Žubrinić / Xubrinich / Zubrinic",
-     "n": 26,
-     "from": 1767,
-     "to": 1833,
-     "median": 1802,
-     "places": [
-      {
-       "place": "Otočac",
-       "n": 1
       }
      ]
     },
@@ -106,6 +93,19 @@
       },
       {
        "place": "Senj",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Žubrinić / Xubrinich / Zubrinic",
+     "n": 11,
+     "from": 1767,
+     "to": 1833,
+     "median": 1802,
+     "places": [
+      {
+       "place": "Otočac",
        "n": 1
       }
      ]

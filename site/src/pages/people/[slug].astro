@@ -9,6 +9,7 @@ import evidence from "../../data/evidence.json";
 import linkage from "../../data/linkage.json";
 import dupes from "../../data/duplicates.json";
 import placefixes from "../../data/placefixes.json";
+import buckets from "../../data/buckets.json";
 import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
@@ -22,6 +23,10 @@ const rel = p.rel || null;
 // place strings in the tree that name a real place hundreds of km from the event
 const badPlaces = placefixes.bySlug[p.slug] || [];
 const parents = rel?.parents ?? [];
+// The tree gives some people a sorting label where a father should be — a
+// drawer, not a parent. Those are filtered out of `rel` at build time, which
+// would otherwise leave the gap silent. Say it instead.
+const drawer = (buckets.orphaned || []).find((o) => o.slug === p.slug);
 const spouses = rel?.spouses ?? [];
 const siblings = rel?.siblings ?? [];
 const children = rel?.children ?? [];
@@ -189,6 +194,20 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
       <tr><th>Record</th><td class="mono">{p.id}</td></tr>
     </table>
   </section>
+
+  {drawer && (
+    <section class="blk">
+      <h2>No parent is recorded for this person</h2>
+      <p>The family tree does give one. It is not a person: it is
+      <strong class="mono">{drawer.parent}</strong> — a <strong>sorting label</strong>,
+      one of the drawers a researcher used to hold names they had not placed yet.
+      This archive does not publish those as ancestors, so the space above is
+      empty rather than filled with a filing system.</p>
+      <p class="dek"><strong>It is not a small thing.</strong> {buckets.orphaned.length} published
+      people here have a label where a father should be, and {buckets.hanging} hang off one
+      somewhere. <a href={u("/buckets/")}>What the labels are →</a></p>
+    </section>
+  )}
 
   {rel && (parents.length + spouses.length + siblings.length + children.length) > 0 && (
     <section class="blk">

@@ -12,7 +12,7 @@
   "nothing": 13,
   "partial": 18,
   "pending": 10,
-  "yield": 35
+  "yield": 36
  },
  "read": [
   {
@@ -320,6 +320,28 @@
   }
  ],
  "rows": [
+  {
+   "src": "The archive's own data — fifteen drawers published as parents",
+   "what": "Why every Žubrinić page showed a single-letter relative",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "zubrinic",
+    "tree-error",
+    "method"
+   ],
+   "got": "**A reader asked what the single-letter Žubrinići were, and whether the site was saying they were related. It was.**\n\nFifteen nodes are named with one capital letter and a surname — **A · B · C · F · G · H · J · L · M · N · P · R · S · T · W**, every one *«X Žubrinić Xubrinich Zubrinic»*, with **no birth, no death, no place and no source**. **Each is entered as the parent of every Žubrinić whose name begins with that letter** — *M* fathers Mathæus, Michael and Mate; *T* three men called Thomas — **and they are entered as one another's siblings**. So the tree asserted **fifteen brothers and sisters called A through W**, hanging from nothing, with **75 real people** beneath them across **285 relationship links**.\n\n**The giveaway is the sorting.** *Jure / Georgius / Juraj* is filed under **G**, not J — the letter follows the Latin form, not the displayed name. That is a card index, not a household. One drawer breaks even its own rule: **Nicolai Žubrinić is filed under M**.\n\n**Why the existing detector missed them.** `/buckets` looks for the words a researcher writes when they know they are guessing — *sorting*, *working*, *unknown*, *brothers of*. **A drawer labelled «M» contains none of them.**\n\n**Fixed in the data layer, so every page benefits.** Both the bucket detector and the site's own junk filter now test for it — one capital letter, a surname, and **no date of any kind**, strict on purpose so a real person recorded by an initial is not swept up. **Buckets 21 → 36; people standing on one, 218 → 293; pages 2,232 → 2,202.** And the gap is now **stated rather than blank**: the **142** people whose only parent was a drawer get a notice naming the label instead of an empty space.\n\n**The GEDCOM is untouched.** This changes what the archive publishes, not the tree — the separation the project rests on.",
+   "ev": [
+    [
+     "/buckets/",
+     "The sorting buckets"
+    ],
+    [
+     "/zubrinic-roots/",
+     "Žubrinić roots"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Šumećica by house number, from the Otočac Conditio column",
    "what": "Which Žubrinić household lives at which Šumećica house",

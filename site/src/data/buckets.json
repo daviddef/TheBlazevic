@@ -29,6 +29,13 @@
    "family": "blazevic"
   },
   {
+   "name": "M Žubrinić Xubrinich Zubrinic",
+   "id": "@I511569@",
+   "children": 26,
+   "published": 24,
+   "family": "zubrinic"
+  },
+  {
    "name": "Selce Other Working Papić (Papa)",
    "id": "@I508969@",
    "children": 23,
@@ -36,11 +43,11 @@
    "family": "papic"
   },
   {
-   "name": "Žubrinić Zubrinix Xubrinic Zubrinic Otocac - Working Tree",
-   "id": "@I506508@",
-   "children": 15,
+   "name": "J Žubrinić Xubrinich Zubrinic",
+   "id": "@I511568@",
+   "children": 17,
    "published": 15,
-   "family": "otocac - working tree"
+   "family": "zubrinic"
   },
   {
    "name": "Krivi Put 136 For Sorting Perpić",
@@ -71,6 +78,27 @@
    "family": "senj"
   },
   {
+   "name": "T Žubrinić Xubrinich Zubrinic",
+   "id": "@I511570@",
+   "children": 6,
+   "published": 6,
+   "family": "zubrinic"
+  },
+  {
+   "name": "A Žubrinić Xubrinich Zubrinic",
+   "id": "@I511571@",
+   "children": 5,
+   "published": 5,
+   "family": "zubrinic"
+  },
+  {
+   "name": "F Žubrinić Xubrinich Zubrinic",
+   "id": "@I511576@",
+   "children": 5,
+   "published": 5,
+   "family": "zubrinic"
+  },
+  {
    "name": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic",
    "id": "@I511670@",
    "children": 5,
@@ -92,11 +120,32 @@
    "family": "zubrinic"
   },
   {
+   "name": "L Žubrinić Xubrinich Zubrinic",
+   "id": "@I511572@",
+   "children": 4,
+   "published": 4,
+   "family": "zubrinic"
+  },
+  {
    "name": "Unknown Illigitimate Father ?",
    "id": "@I505394@",
    "children": 3,
    "published": 3,
    "family": "?"
+  },
+  {
+   "name": "G Žubrinić Xubrinich Zubrinic",
+   "id": "@I511575@",
+   "children": 3,
+   "published": 3,
+   "family": "zubrinic"
+  },
+  {
+   "name": "S Žubrinić Xubrinich Zubrinic",
+   "id": "@I511577@",
+   "children": 4,
+   "published": 3,
+   "family": "zubrinic"
   },
   {
    "name": "Brothers [of Josephus] Žubrinić Zubrinic Xubrinich",
@@ -127,6 +176,27 @@
    "family": "papic"
   },
   {
+   "name": "C Žubrinić Xubrinich Zubrinic",
+   "id": "@I511580@",
+   "children": 3,
+   "published": 2,
+   "family": "zubrinic"
+  },
+  {
+   "name": "R Žubrinić Xubrinich Zubrinic",
+   "id": "@I511581@",
+   "children": 2,
+   "published": 2,
+   "family": "zubrinic"
+  },
+  {
+   "name": "B Žubrinić Xubrinich Zubrinic",
+   "id": "@I511582@",
+   "children": 2,
+   "published": 2,
+   "family": "zubrinic"
+  },
+  {
    "name": "Brothers (of Mattheus) Žubrinić Xubrinich",
    "id": "@I511671@",
    "children": 2,
@@ -146,6 +216,34 @@
    "children": 1,
    "published": 1,
    "family": "papic"
+  },
+  {
+   "name": "W Žubrinić Xubrinich Zubrinic",
+   "id": "@I511573@",
+   "children": 1,
+   "published": 1,
+   "family": "zubrinic"
+  },
+  {
+   "name": "P Žubrinić Xubrinich Zubrinic",
+   "id": "@I511574@",
+   "children": 2,
+   "published": 1,
+   "family": "zubrinic"
+  },
+  {
+   "name": "N Žubrinić Xubrinich Zubrinic",
+   "id": "@I511578@",
+   "children": 1,
+   "published": 1,
+   "family": "zubrinic"
+  },
+  {
+   "name": "H Žubrinić Xubrinich Zubrinic",
+   "id": "@I511579@",
+   "children": 1,
+   "published": 1,
+   "family": "zubrinic"
   }
  ],
  "orphaned": [
@@ -612,11 +710,452 @@
    "parent": "Senj - Unknown To be sorted Prpic"
   },
   {
+   "id": "@I506515@",
+   "name": "Mathæus Xubrinich",
+   "slug": "math-us-xubrinich",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511689@",
+   "name": "Nicolai Žubrinić",
+   "slug": "nicolai-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506500@",
+   "name": "Michaelis / Michael / Miho / Michaël \"Miko\" Žubrinić",
+   "slug": "michaelis-michael-miho-micha-l-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506536@",
+   "name": "Barbara Žubrinić",
+   "slug": "barbara-zubrinic",
+   "family": "zubrinic",
+   "parent": "B Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506439@",
+   "name": "Bare Žubrinić",
+   "slug": "bare-zubrinic",
+   "family": "zubrinic",
+   "parent": "B Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506432@",
+   "name": "Filipa Žubrinić",
+   "slug": "filipa-zubrinic",
+   "family": "zubrinic",
+   "parent": "F Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511500@",
+   "name": "Francisca Žubrinić",
+   "slug": "francisca-zubrinic-6",
+   "family": "zubrinic",
+   "parent": "F Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506530@",
+   "name": "Franciscus Žubrinić",
+   "slug": "franciscus-zubrinic",
+   "family": "zubrinic",
+   "parent": "F Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506567@",
+   "name": "Frane Žubrinić",
+   "slug": "frane-zubrinic",
+   "family": "zubrinic",
+   "parent": "F Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511605@",
+   "name": "Jacobus Žubrinić",
+   "slug": "jacobus-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506450@",
+   "name": "Joannes / Juan / Ivan / Ive xxx \"Ivica\" Žubrinić",
+   "slug": "joannes-juan-ivan-ive-xxx-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506494@",
+   "name": "Joannes Juan Ivan Ive Ivica Žubrinić",
+   "slug": "joannes-juan-ivan-ive-ivica-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506479@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506482@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506491@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-3",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506497@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-4",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506539@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-5",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506571@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-6",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I508787@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-8",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511513@",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "slug": "joannes-juan-ivan-ive-zubrinic-9",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506488@",
+   "name": "Jure Georgius Juraj Žubrinić",
+   "slug": "jure-georgius-juraj-zubrinic",
+   "family": "zubrinic",
+   "parent": "G Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511875@",
+   "name": "Jure Georgius Juraj Žubrinić",
+   "slug": "jure-georgius-juraj-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "G Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506474@",
+   "name": "Luce Žubrinić",
+   "slug": "luce-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "L Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506545@",
+   "name": "Magdalena Žubrinić",
+   "slug": "magdalena-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506443@",
+   "name": "Mande Žubrinić",
+   "slug": "mande-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506457@",
+   "name": "Maria Žubrinić",
+   "slug": "maria-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506527@",
+   "name": "Maria Žubrinić",
+   "slug": "maria-zubrinic-5",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506548@",
+   "name": "Maria Žubrinić",
+   "slug": "maria-zubrinic-6",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511518@",
+   "name": "Maria Žubrinić",
+   "slug": "maria-zubrinic-9",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506454@",
+   "name": "Mathe Žubrinić",
+   "slug": "mathe-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506503@",
+   "name": "Mathia Žubrinić",
+   "slug": "mathia-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506447@",
+   "name": "Matia Žubrinić",
+   "slug": "matia-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I508957@",
+   "name": "Mattheus Žubrinić",
+   "slug": "mattheus-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506471@",
+   "name": "Michael Miho Michaël Žubrinić",
+   "slug": "michael-miho-micha-l-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506542@",
+   "name": "Michael Miho Michaël Žubrinić",
+   "slug": "michael-miho-micha-l-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506561@",
+   "name": "Michael Miho Michaël Žubrinić",
+   "slug": "michael-miho-micha-l-zubrinic-3",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I508287@",
+   "name": "Michael Miho Michaël Žubrinić",
+   "slug": "michael-miho-micha-l-zubrinic-4",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506463@",
+   "name": "Miha Žubrinić",
+   "slug": "miha-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506460@",
+   "name": "Mio Žubrinić",
+   "slug": "mio-zubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506533@",
+   "name": "Philippus Žubrinić",
+   "slug": "philippus-zubrinic",
+   "family": "zubrinic",
+   "parent": "P Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506468@",
+   "name": "Rosalia Žubrinić",
+   "slug": "rosalia-zubrinic",
+   "family": "zubrinic",
+   "parent": "R Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506445@",
+   "name": "Rozaria Žubrinić",
+   "slug": "rozaria-zubrinic",
+   "family": "zubrinic",
+   "parent": "R Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506485@",
+   "name": "Stepan Žubrinić",
+   "slug": "stepan-zubrinic",
+   "family": "zubrinic",
+   "parent": "S Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506557@",
+   "name": "Stephanus Žubrinić",
+   "slug": "stephanus-zubrinic",
+   "family": "zubrinic",
+   "parent": "S Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511505@",
+   "name": "Stephanus Žubrinić",
+   "slug": "stephanus-zubrinic-3",
+   "family": "zubrinic",
+   "parent": "S Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506435@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506518@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511467@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic-3",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511475@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic-4",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511483@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic-5",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511510@",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "slug": "thomas-toma-tomo-zubrinic-6",
+   "family": "zubrinic",
+   "parent": "T Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511565@",
+   "name": "Wolfgangus Žubrinić Xubrinich",
+   "slug": "wolfgangus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "W Žubrinić Xubrinich Zubrinic"
+  },
+  {
    "id": "@I511539@",
    "name": "Petrus Žubrinić Xubrinich",
    "slug": "petrus-zubrinic-xubrinich",
    "family": "zubrinic",
    "parent": "Joannes [Brothers of] Žubrinić Zubrinic"
+  },
+  {
+   "id": "@I511550@",
+   "name": "Nicolaus Žubrinić Xubrinich",
+   "slug": "nicolaus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "N Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511543@",
+   "name": "Franciscus Žubrinić Xubrinich",
+   "slug": "franciscus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "F Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511553@",
+   "name": "Gregorius Žubrinić Xubrinich",
+   "slug": "gregorius-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "G Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511596@",
+   "name": "Josephus Žubrinić Xubrinich",
+   "slug": "josephus-zubrinic-xubrinich-2",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511881@",
+   "name": "Lucas Žubrinić Xubrinich",
+   "slug": "lucas-zubrinic-xubrinich-2",
+   "family": "zubrinic",
+   "parent": "L Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511490@",
+   "name": "Lucia Žubrinić Xubrinich",
+   "slug": "lucia-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "L Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511812@",
+   "name": "Lucia Žubrinić Xubrinich",
+   "slug": "lucia-zubrinic-xubrinich-5",
+   "family": "zubrinic",
+   "parent": "L Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511593@",
+   "name": "Mathaeus Žubrinić Xubrinich",
+   "slug": "mathaeus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511619@",
+   "name": "Matthaeus Žubrinić Xubrinich",
+   "slug": "matthaeus-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511524@",
+   "name": "Matthæus Matteus Mat Žubrinić Xubrinich",
+   "slug": "matth-us-matteus-mat-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511527@",
+   "name": "Michael Miho Michaël Žubrinić Xubrinich",
+   "slug": "michael-miho-micha-l-zubrinic-xubrinich",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
   },
   {
    "id": "@I506592@",
@@ -652,6 +1191,41 @@
    "slug": "franciscus-francisci-zubrinic-xubrinich-zubrinic",
    "family": "zubrinic",
    "parent": "Brothers of Casparus (It Seems) Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511533@",
+   "name": "Joannes Juan Ivan Ive Žubrinić Xubrinich Zubrinic",
+   "slug": "joannes-juan-ivan-ive-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511889@",
+   "name": "Joannes Žubrinić Xubrinich Zubrinic",
+   "slug": "joannes-zubrinic-xubrinich-zubrinic-2",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511892@",
+   "name": "Josephus Žubrinić Xubrinich Zubrinic",
+   "slug": "josephus-zubrinic-xubrinich-zubrinic",
+   "family": "zubrinic",
+   "parent": "J Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I511493@",
+   "name": "Helena Žubrinić Xubrinić",
+   "slug": "helena-zubrinic-xubrinic",
+   "family": "zubrinic",
+   "parent": "H Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "id": "@I506554@",
+   "name": "Michael Miho Michaël Žubrinić Xubrinić",
+   "slug": "michael-miho-micha-l-zubrinic-xubrinic",
+   "family": "zubrinic",
+   "parent": "M Žubrinić Xubrinich Zubrinic"
   },
   {
    "id": "@I511778@",
@@ -718,19 +1292,6 @@
    "agree": 0,
    "disagree": 0,
    "blank": 19,
-   "yearIn": 0,
-   "yearOut": 0
-  },
-  {
-   "name": "Žubrinić Zubrinix Xubrinic Zubrinic Otocac - Working Tree",
-   "family": "otocac - working tree",
-   "village": "Otocac",
-   "house": null,
-   "range": null,
-   "specific": false,
-   "agree": 0,
-   "disagree": 0,
-   "blank": 15,
    "yearIn": 0,
    "yearOut": 0
   },
@@ -867,12 +1428,12 @@
    "slugs": []
   },
   {
-   "n": 217,
+   "n": 202,
    "home": false,
    "families": [
     [
      "zubrinic",
-     217
+     202
     ]
    ],
    "from": 1769,
@@ -2819,7 +3380,7 @@
   },
   {
    "family": "zubrinic",
-   "published": 414,
+   "published": 399,
    "connected": 21,
    "pct": 5
   },
@@ -2867,7 +3428,7 @@
   }
  ],
  "connected": 393,
- "publishedTotal": 1245,
+ "publishedTotal": 1230,
  "specific": {
   "agree": 8,
   "disagree": 0,
@@ -2876,7 +3437,7 @@
  "vague": {
   "agree": 5,
   "disagree": 13,
-  "blank": 116
+  "blank": 101
  },
- "hanging": 218
+ "hanging": 278
 }
