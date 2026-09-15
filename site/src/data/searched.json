@@ -10,9 +10,9 @@
  "counts": {
   "blocked": 4,
   "nothing": 13,
-  "partial": 19,
+  "partial": 18,
   "pending": 7,
-  "yield": 36
+  "yield": 37
  },
  "read": [
   {
@@ -384,9 +384,9 @@
   {
    "src": "FamilySearch — Šumećica by house number, from the Otočac Conditio column",
    "key": "fs/otocac-bapt",
-   "what": "Which Žubrinić household lives at which Šumećica house",
+   "what": "The fifteen indexed Michael Žubrinić baptisms of 1846–58, by house number",
    "when": "14–15 September 2026",
-   "outcome": "partial",
+   "outcome": "yield",
    "url": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
    "tags": [
     "zubrinic",
@@ -394,7 +394,7 @@
     "sumecica",
     "familysearch"
    ],
-   "got": "**Four villages, four households, and the question answered.** The 1846–58 Otočac baptism book writes the household into its *Conditio* column, and the record index gives the image ARK of every indexed entry, so each opens at the page. Fifteen indexed Žubrinić baptisms in that window have a father whose name is a Michael variant — *Michael · Michaël · Miho · Mio · Miha · Miko*.\n\n**Six are read.** *Senior populi* **Obilje N° 7** (1847), *Rusticus e* **Poljica N° 13** (1848), *Graničar iz* **Šumećića Br. 5** (1849), *Graničar iz* **Prozora Br. 1** (1850), **Šumećica N° 10** (1846, read earlier), and one July 1846 entry that carries **no village and no number at all**. Four villages, four wives. **The twenty-three Michael baptisms are not one man**, and the Conditio column is what separates them.\n\n**Šumećica Br. 5 is new** — Miho Žubrinić and Mara Marković, 4 November 1849. The houses known before were N° 2, N° 10 and N° 24. And **two of these Žubrinići married Žubrinići**: Catharina *nata Žubrinich* (1847) and Kata *rodjena Žubrinić* (1850), neither of whom carries a surname in the index.\n\n**Nine unread, stopped by the block and not by the book.** Two cautions are recorded for the next sitting: the register **changes from Latin to Croatian** partway through, so *Confiniarius … N°* becomes *Graničar iz … Br.*; and the numbering practice **begins inside the book**, with July and August 1846 bare. A seventh entry was read at page scale and is held as **provisional** rather than recorded, because this archive does not accept a house number read below full resolution.",
+   "got": "**Six houses, four villages, and question 4d answered.** The 1846–58 Otočac baptism book writes the household into its *Conditio* column, and the record index gives the image ARK of every indexed entry, so each opens at the page. Fifteen indexed Žubrinić baptisms in that window have a father whose name is a Michael variant — *Michael · Michaël · Miho · Mio · Miha · Miko*. **Fourteen are read.**\n\nThe households are **Šumećica N° 5** (four children, 1849–58), **Šumećica N° 10**, **Poljica N° 13**, **Prozor N° 50**, **Obilje N° 7** and **Prozor Br. 1**, with **six distinct wives**. **The twenty-three Michael baptisms are not one man**, and the Conditio column is the only thing that separates them.\n\n**Šumećica N° 5 is new** — Michael Žubrinić and Maria Marković, four children between 1849 and 1858. The Šumećica houses known before were N° 2, N° 10 and N° 24.\n\n**Three Žubrinić women married Žubrinić men** — Catharina at Obilje N° 7, Kata at Prozor Br. 1, and a third on the same page as the 1858 entry — and **the index gives a given name only for every one of them.** The index is also wrong at least once: it records the 1852 mother at Šumećica N° 5 as «Maria Maković» where the register says **Marković**, making one household look like two.\n\n**Three cautions are recorded** for whoever reads the rest of this book. It **changes language from page to page** — one January 1852 opening is Croatian on the left and Latin on the right, so *Confiniarius … N°* becomes *Graničar iz … Br.* The **status word drifts while the house number holds**: the Šumećica N° 5 father is *Graničar*, *Gregarius*, *Confiniarius* and *Rusticus* in turn, and reading the trade as an identity would split one family into four. And the **numbering practice begins inside the book** — July and August 1846 are bare.\n\n**One entry outstanding**, Maria of 28 November 1858, stopped by the block and not by the book.\n\n**Reconciled against the tree.** These are not new people — all six wives and nine of the fourteen children are already in it. **What the tree lacked was the house number**: of those nine children exactly one carried one, *Nikola Miko Žubrinić* at «Prozor 50», which this reading independently confirms, while the rest give «Otočac, Croatia» or nothing. Seven readings are recorded against their people, and **five children the tree does not have** are recorded beside it — each with siblings the tree already holds, so they are gaps inside known families rather than an unknown branch.",
    "missed": "**The index's ARK points at the opening, not the row**, so each entry costs two or three crops to locate; the page the index calls *Mathias Žubrinić, 3 January 1855* has a **Marković** family in its sixth row. **Seven indexed Michael Žubrinić entries between 1847 and 1858 are still unread**, and with them the rest of the house map.",
    "ev": [
     [
@@ -402,12 +402,12 @@
      "Otočac"
     ],
     [
-     "/frontier/",
-     "The Frontier"
-    ],
-    [
      "/open-questions/",
      "Open questions"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
     ]
    ]
   },

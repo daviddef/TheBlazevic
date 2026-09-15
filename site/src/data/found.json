@@ -1,11 +1,14 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 12,
+ "count": 17,
  "onDirectLine": 2,
  "places": {
   "Karlobag": 8,
   "Otocac": 3,
-  "Selce": 1
+  "Otočac": 1,
+  "Prozor, Otočac": 1,
+  "Selce": 1,
+  "Šumećica, Otočac": 3
  },
  "rows": [
   {
@@ -115,6 +118,51 @@
    "date": "21 December 1846",
    "place": "Otocac",
    "citation": "same entry - \"ejus consors Helena nata Oreskovic e Prozor\""
+  },
+  {
+   "name": "Maria Magdalena Theresia Žubrinić",
+   "ahn": null,
+   "relation": "daughter of Michaël Žubrinić and Maria Marković, Otočac",
+   "event": "baptism",
+   "date": "21 July 1846",
+   "place": "Otočac",
+   "citation": "Rodjeni 1846-1858 - Conditio «Agricola Confiniarius», no village or house number given; ark 3:1:3QS7-899C-G5D9"
+  },
+  {
+   "name": "Luce Žubrinić",
+   "ahn": null,
+   "relation": "daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, Šumećica N° 10",
+   "event": "baptism",
+   "date": "30 June 1850",
+   "place": "Šumećica, Otočac",
+   "citation": "Rodjeni 1846-1858 - «Graničar iz Šumećića Br. 10»; sister of Thomas 1846, who is in the tree; ark 3:1:3QS7-L99C-PKNK"
+  },
+  {
+   "name": "Mathias Žubrinić",
+   "ahn": null,
+   "relation": "son of Michael Žubrinić and Maria Marković, Šumećica N° 5",
+   "event": "baptism",
+   "date": "3 January 1855",
+   "place": "Šumećica, Otočac",
+   "citation": "Rodjeni 1846-1858 - «Confiniarius e Sumećica N° 5», first entry of 1855 below the year rule; ark 3:1:3QS7-899C-PVT8"
+  },
+  {
+   "name": "Josephus Žubrinić",
+   "ahn": null,
+   "relation": "son of Michael Žubrinić and Maria Rogić, Prozor N° 50",
+   "event": "baptism",
+   "date": "3 July 1855",
+   "place": "Prozor, Otočac",
+   "citation": "Rodjeni 1846-1858 - «Miles Gregarius e Prozor N° 50»; brother of Nikola Miko b. 8 Jan 1858, who is in the tree; ark 3:1:3QSQ-G99C-PK64"
+  },
+  {
+   "name": "Stephanus Žubrinić",
+   "ahn": null,
+   "relation": "son of Michael Žubrinić and Maria Marković, Šumećica N° 5",
+   "event": "baptism",
+   "date": "17 December 1858",
+   "place": "Šumećica, Otočac",
+   "citation": "Rodjeni 1846-1858 p. 290 - «Rusticus e Sumećica N° 5»; brother of Marta 1849 and Magdalena 1852, who are in the tree; ark 3:1:3QS7-899C-PVGY"
   }
  ]
 }
