@@ -5663,6 +5663,26 @@
    "reachable": 0,
    "ahn": [],
    "people": []
+  },
+  {
+   "parish": "Smiljan",
+   "kind": "births",
+   "holds": "1834-1857",
+   "verified": "catalogue-verified 15 Sept 2026 — IT IS ITS OWN PARISH, koha:465540, not a village of Gospic. Births are ITEM 4 of roll 1419217, so the film number will not reach them. Nothing before 1834: ahnentafel 426 is a generation of about 1700 and is NOT on film here",
+   "n": 1,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
+   "parish": "unknown",
+   "kind": "births",
+   "holds": "unknown",
+   "verified": "NOT A PARISH AND NOT IN THE CATALOGUE — searched 15 Sept 2026, no hit for «Staniste» or «Montani». A staniste is a herders' settlement; its events are written into a neighbouring parish's book. The Tomljanovici here are Karlobag, and ahnentafel 111 died 19 September 1809, inside Karlobag Umrli 1804-1861",
+   "n": 2,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
   }
  ],
  "totalReachable": 538,
@@ -5674,10 +5694,6 @@
   [
    "zagreb",
    3
-  ],
-  [
-   "montani staniste",
-   2
   ],
   [
    "garesnica",
@@ -5701,10 +5717,6 @@
   ],
   [
    "johannesburg",
-   1
-  ],
-  [
-   "smiljan",
    1
   ],
   [
@@ -5765,6 +5777,14 @@
   ],
   [
    "srbija",
+   1
+  ],
+  [
+   "linar",
+   1
+  ],
+  [
+   "pag",
    1
   ]
  ]
