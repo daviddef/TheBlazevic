@@ -1331,8 +1331,19 @@
    }
   ],
   "n": 226,
-  "matched": 16,
-  "unmatched": 210,
+  "matched": 21,
+  "unmatched": 205,
+  "contested": [
+   {
+    "person": "Kate Špalj Spalj",
+    "slug": null,
+    "kept": "Kata Špalj 1886–1981",
+    "stones": [
+     "Kata Špalj 1884–1975 (Senj municipal cemetery)",
+     "Kata Špalj 1886–1981 (Senj municipal cemetery)"
+    ]
+   }
+  ],
   "confidence": [
    [
     "r",
@@ -2733,7 +2744,11 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 93
+      "group": 93,
+      "slug": null,
+      "archiveName": "Nikola Šojat",
+      "archiveBorn": "",
+      "archiveDied": ""
      },
      {
       "surname": "Šojat",
@@ -4511,7 +4526,11 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 63
+      "group": 63,
+      "slug": null,
+      "archiveName": "Martin Špalj Spalj",
+      "archiveBorn": "",
+      "archiveDied": ""
      },
      {
       "surname": "Špalj",
@@ -4589,7 +4608,11 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 66
+      "group": 66,
+      "slug": null,
+      "archiveName": "Lucija Špalj Spalj",
+      "archiveBorn": "",
+      "archiveDied": ""
      },
      {
       "surname": "Špalj",
@@ -4603,7 +4626,8 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 66
+      "group": 66,
+      "_dropped": true
      }
     ],
     "known": 0,
@@ -4667,7 +4691,11 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 69
+      "group": 69,
+      "slug": null,
+      "archiveName": "Kate Špalj Spalj",
+      "archiveBorn": "",
+      "archiveDied": ""
      },
      {
       "surname": "Špalj",
@@ -6643,7 +6671,11 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 63
+    "group": 63,
+    "slug": null,
+    "archiveName": "Martin Špalj Spalj",
+    "archiveBorn": "",
+    "archiveDied": ""
    },
    {
     "surname": "Špalj",
@@ -6755,7 +6787,11 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 66
+    "group": 66,
+    "slug": null,
+    "archiveName": "Lucija Špalj Spalj",
+    "archiveBorn": "",
+    "archiveDied": ""
    },
    {
     "surname": "Špalj",
@@ -6769,7 +6805,8 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 66
+    "group": 66,
+    "_dropped": true
    },
    {
     "surname": "Špalj",
@@ -6867,7 +6904,11 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 69
+    "group": 69,
+    "slug": null,
+    "archiveName": "Kate Špalj Spalj",
+    "archiveBorn": "",
+    "archiveDied": ""
    },
    {
     "surname": "Špalj",
@@ -7684,7 +7725,11 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 93
+    "group": 93,
+    "slug": null,
+    "archiveName": "Nikola Šojat",
+    "archiveBorn": "",
+    "archiveDied": ""
    },
    {
     "surname": "Šojat",
@@ -8109,7 +8154,11 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 105
+    "group": 105,
+    "slug": null,
+    "archiveName": "Ivan Anton Defranceski",
+    "archiveBorn": "",
+    "archiveDied": ""
    },
    {
     "surname": "Žubrinić",

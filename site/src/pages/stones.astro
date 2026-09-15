@@ -8,7 +8,8 @@ import G from "../data/graves.json";
 // sat on disk. The two kinds are kept apart on purpose — an index is somebody
 // else's transcription, a stone is a photograph of the thing itself.
 const S = G.stones;
-const matched = S.rows.filter((r) => r.slug);
+const matched = S.rows.filter((r) => r.archiveName);
+const pageless = matched.filter((r) => !r.slug);
 const big = S.stones.filter((s) => s.people.length > 2).slice(0, 8);
 const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
 ---
@@ -56,7 +57,7 @@ const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
   </section>
 
   <section class="blk">
-    <div class="lab">{matched.length} of {S.n} are people on this site</div>
+    <div class="lab">{matched.length} of {S.n} are people in this tree</div>
     <h2>Who is matched, and how</h2>
     <p class="lede">A Croatian stone gives a married woman under <strong>her husband's
     surname</strong>. «MILKA BLAŽEVIĆ <em>rod.</em> PAPIĆ» is this tree's Milka Papić, and matching
@@ -72,10 +73,14 @@ const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
             <span class="mono dim" style="display:block">{r.born || "?"}–{r.died || "?"}</span>
             <span class="dek" style="display:block">{r.cemetery}</span></td>
           <td class="mono">{r.conf}</td>
-          <td><a href={u(`/people/${r.slug}/`)}>{r.archiveName}</a>
+          <td>{r.slug
+              ? <a href={u(`/people/${r.slug}/`)}>{r.archiveName}</a>
+              : <strong>{r.archiveName}</strong>}
             <span class="mono dim" style="display:block">{r.archiveBorn || "?"} – {r.archiveDied || "?"}</span>
             {r.viaMarriedName &&
-              <span class="dek" style="display:block">matched through her married name</span>}</td>
+              <span class="dek" style="display:block">matched through her married name</span>}
+            {!r.slug &&
+              <span class="dek" style="display:block">in the tree, with no page of their own</span>}</td>
         </tr>))}</tbody>
     </table>
   </section>
@@ -133,6 +138,48 @@ const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
             </span>))}</td>
         </tr>))}</tbody>
     </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{pageless.length} of the {matched.length} have no page</div>
+    <h2>The matcher was reading the register file, not the tree</h2>
+    <p class="lede">Until 15 September 2026 this page matched stones against
+    <code>people.json</code> and nothing else. That is not the tree, and it is not even everyone
+    with a page: <strong>fifty-two direct ancestors live in <code>ancestors.json</code> and not in
+    it</strong>, so their graves could not match at all. Beyond both sits everyone who exists only
+    as a name on somebody else's record — a parent, a spouse, a child — with
+    <strong>no page and no slug</strong>.</p>
+    <div class="note"><strong>This is the fifth tool in this archive found blind to the
+    unpublished, and the second time on this very evidence.</strong> «IVAN DEFRANĆESKI 1925–1995»
+    was photographed at Senj and filed as a surname that does not occur once in this tree. He is
+    <strong>Hedviga's husband</strong>. He now matches his own gravestone because the matcher was
+    taught where to look, not because somebody wrote a correction by hand.
+    <strong>Searching the published people is not searching the tree.</strong></div>
+    <p style="margin-top:1.2rem">Five more names came back with him — three Špalj, a Šojat — all of
+    them people this tree carries and this site has never published.</p>
+  </section>
+
+  {S.contested && S.contested.length > 0 &&
+  <section class="blk">
+    <div class="lab">{S.contested.length} person claimed by two stones</div>
+    <h2>When two graves want one person, the archive does not choose quietly</h2>
+    <p class="lede">Two Senj stones read <strong>KATA ŠPALJ</strong> — <span class="mono">1884–1975</span>
+    and <span class="mono">1886–1981</span> — and this tree holds exactly <strong>one</strong> Kate
+    Špalj, born 1886, with <strong>no death recorded</strong>. Both matched her, because a match
+    needs a year within two and there was no death year to disagree with.</p>
+    <table class="reg">
+      <thead><tr><th style="width:26%">In this tree</th><th>Claimed by</th><th style="width:24%">Kept</th></tr></thead>
+      <tbody>{S.contested.map((c) => (
+        <tr>
+          <td><strong>{c.person}</strong></td>
+          <td>{c.stones.map((x) => (<span style="display:block" class="mono">{x}</span>))}</td>
+          <td class="mono">{c.kept || "— neither"}</td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem">The better-scoring stone keeps the match and the other is unmatched
+    again; <strong>a tie drops both</strong>. One of those two women is not in this tree, and
+    publishing her under somebody else's name would be the Defrančeski mistake run backwards —
+    <strong>not a person missed, a person invented</strong>.</p>
   </section>
 
   <section class="blk">

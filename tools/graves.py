@@ -302,9 +302,47 @@ def stone_half(people):
         rows += rs
 
     canon, sex = given_index()
+
+    # Match everything first, then look at who got claimed twice.
+    #
+    # Two Senj stones read KATA ŠPALJ — 1884–1975 and 1886–1981 — and the tree
+    # holds exactly ONE Kate Špalj, born 1886, with no death recorded. Both
+    # stones matched her, because a match needs a year within two and there was
+    # no death year to disagree with. One of those women is not in this tree,
+    # and publishing her under somebody else's name would be the Ivan
+    # Defrančeski mistake run backwards: not a person missed, a person invented.
+    #
+    # So the better score keeps the match, the rest are unmatched again, and the
+    # contest is published either way. A tie drops all of them: if the archive
+    # cannot tell which stone is hers, it does not get to choose.
+    claims = {}
     for r in rows:
-        best, _ = match_stone(r, people, canon, sex)
-        if not best:
+        best, score = match_stone(r, people, canon, sex)
+        if best:
+            claims.setdefault(best.get("id") or best.get("name"), []).append((score, r, best))
+
+    contested = []
+    for key, cl in claims.items():
+        if len(cl) < 2:
+            continue
+        top = max(c[0] for c in cl)
+        winners = [c for c in cl if c[0] == top]
+        keep = winners[0] if len(winners) == 1 else None
+        contested.append({
+            "person": cl[0][2]["name"], "slug": cl[0][2].get("slug"),
+            "kept": None if keep is None else
+                    f"{keep[1]['given']} {keep[1]['surname']} "
+                    f"{keep[1]['born'] or '?'}–{keep[1]['died'] or '?'}",
+            "stones": [f"{c[1]['given']} {c[1]['surname']} "
+                       f"{c[1]['born'] or '?'}–{c[1]['died'] or '?'} "
+                       f"({c[1]['cemetery']})" for c in cl],
+        })
+        for c in cl:
+            if c is not keep:
+                c[1]["_dropped"] = True
+
+    for score, r, best in [(c[0], c[1], c[2]) for cl in claims.values() for c in cl]:
+        if r.get("_dropped"):
             continue
         r["slug"], r["archiveName"] = best["slug"], best["name"]
         r["archiveBorn"], r["archiveDied"] = best.get("born", ""), best.get("died", "")
@@ -338,8 +376,9 @@ def stone_half(people):
                  "these cemeteries."),
         "surveys": surveys,
         "n": len(rows),
-        "matched": sum(1 for r in rows if r.get("slug")),
-        "unmatched": sum(1 for r in rows if not r.get("slug")),
+        "matched": sum(1 for r in rows if r.get("archiveName")),
+        "unmatched": sum(1 for r in rows if not r.get("archiveName")),
+        "contested": contested,
         "confidence": [[k, conf.get(k, 0), CONF[k]] for k in ("r", "p", "?")],
         "cemeteries": sorted(where.items(), key=lambda kv: (-kv[1], kv[0])),
         "surnames": sorted(surnames.items(), key=lambda kv: (-kv[1], kv[0])),
@@ -350,8 +389,61 @@ def stone_half(people):
     }
 
 
+def tree_people():
+    """Everyone a stone could be, and it is not the register file.
+
+    This read people.json and nothing else, and people.json is not the tree.
+    It is not even everyone with a page: 52 DIRECT ANCESTORS are in
+    ancestors.json and not in it, so their graves could not match by
+    construction. And beyond both sits every person who exists only as a name
+    on somebody else's record — a parent, a spouse, a sibling, a child — with
+    no page and no slug.
+
+    That is the same blindness, for the fifth time in this archive and the
+    second time on this very evidence. «IVAN DEFRANĆESKI 1925–1995» was
+    photographed at Senj and filed as a surname that does not occur once in
+    this tree. He is Hedviga Blažević's husband, carried on her own marriage,
+    unpublished. Searching the published people is not searching the tree.
+
+    Relations are returned in the same shape as a published person, so the
+    matcher does not need to know which kind it is holding. They have no slug,
+    which is how the page tells them apart.
+    """
+    pool, seen = [], set()
+    for f in ("people.json", "ancestors.json"):
+        for p in json.load(open(os.path.join(DATA, f), encoding="utf-8")):
+            if p.get("id") in seen:
+                continue
+            seen.add(p.get("id"))
+            pool.append(p)
+
+    published = set(seen)
+    for p in list(pool):
+        for kind, lst in (p.get("rel") or {}).items():
+            for x in (lst or []):
+                if not x.get("name") or x.get("id") in seen:
+                    continue
+                seen.add(x.get("id"))
+                # A relation gives a name and, sometimes, two integer years.
+                # Split the name into given and surname the only way available:
+                # last token is the surname. That is wrong for «de Franceschi»
+                # and right for everything else, and the matcher compares on a
+                # six-character prefix either way.
+                parts = (x["name"] or "").split()
+                pool.append({
+                    "id": x.get("id"), "name": x["name"],
+                    "given": " ".join(parts[:-1]) or x["name"],
+                    "surname": parts[-1] if len(parts) > 1 else "",
+                    "byear": x.get("born") if isinstance(x.get("born"), int) else None,
+                    "dyear": x.get("died") if isinstance(x.get("died"), int) else None,
+                    "sex": "", "slug": None, "rel": {},
+                    "_via": f"{kind} of {p.get('name')}",
+                })
+    return pool, published
+
+
 def main():
-    people = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8"))
+    people, _published = tree_people()
 
     files = sorted(f for f in os.listdir(SRCDIR) if f.endswith(".psv"))
     if not files:
