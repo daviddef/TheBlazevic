@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 14,
-  "partial": 19,
+  "partial": 20,
   "pending": 7,
   "yield": 41
  },
@@ -329,6 +329,32 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — what a film number actually reaches, and the catalogue call that settles it",
+   "key": "fs/catalogue",
+   "what": "The Otočac Umrli 1834–1858, and why three films this week were not what their numbers said",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/en/search/film/005482657",
+   "tags": [
+    "FamilySearch",
+    "method",
+    "holdings",
+    "otocac"
+   ],
+   "got": "**The catalogue will say exactly what a film holds.** `/service/search/catalog/item/koha:<NNNNNN>` returns **`source.film_note[]`**, one entry per digital film with `digital_film_no`, `items`, `text` and `fs_indexed`. For Otočac it gives DGS **5482657** as «**Rođeni 1846-1858 · Umrli 1834-1858**, Items 1–2». One call, authoritative, and this archive should have had it a week ago.\n\n**But the film number does not reach everything on the film.** `…/search/film/005482657?i=N` was walked end to end looking for those deaths: image **250** a baptism of 1852, **330** a baptism, **410** a baptism, **465** a baptism, and **END OF ROLL** at **483**. Every sampled image is Item 1. The waypoint in the URL also **changes between images** — `9RK1-Y4C…` at image 1, `9RK1-Y44…` from 250 — so the film number walks a sequence of waypoints and **does not include the one holding the deaths**.\n\n**Three films this week, the same shape.** **005481648**, catalogued as the Karlobag 1691–1804 baptisms, has 596 images and image 216 headed «*Godine 1845*». **005497948** is 802 images and at least three books. **005482657** does not carry the deaths its catalogue entry promises.\n\n**So the rule, paid for three times:** use the **catalogue** to learn what exists, the **record index** to get an ARK where the parish is indexed, and **record the ARK**. An ARK resolves to exactly one image, permanently. A film number resolves to a walk that may not pass the book you want.",
+   "missed": "The Otočac Umrli 1834–1858 itself — it must be reached by its own waypoint through the parish image index.",
+   "ev": [
+    [
+     "/searched/",
+     "Holdings"
+    ],
+    [
+     "/method/",
+     "Method"
+    ]
+   ]
+  },
   {
    "src": "Državni arhiv u Rijeci — answered, and it is a refusal",
    "key": "letters/rijeka",
