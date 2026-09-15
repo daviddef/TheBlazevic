@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 
@@ -205,20 +206,15 @@ const kinds = {
     sweeping the <em>built</em> site rather than the source, which is a lesson about where to look.</p>
   </section>
 
-  {C.map((c, i) => (
-    <section class="blk fix">
-      <div class="lab">{c.d}</div>
-      <h2><span class="mono dim">{i + 1}.</span> {c.t}</h2>
-      <table class="kv" style="margin-top:.8rem">
-        <tbody>
-          <tr><th>This archive said</th><td set:html={base(c.was)} /></tr>
-          <tr><th>The record says</th><td set:html={base(c.now)} /></tr>
-          <tr><th>What it cost</th><td set:html={base(c.cost)} /></tr>
-        </tbody>
-      </table>
-      <p style="margin-top:.8rem"><a class="btn" href={u(c.href)}>Where it now stands →</a></p>
-    </section>
-  ))}
+  <Corrections u={u} rows={C.map((c, i) => ({
+    when: c.d,
+    kind: `${i + 1}. ${c.t}`,
+    was: base(c.was),
+    now: base(c.now),
+    why: base(c.cost),
+    where: c.href,
+    whereLabel: "Where it now stands →",
+  }))} />
 
   <section class="blk">
     <h2>And the record-level corrections</h2>
