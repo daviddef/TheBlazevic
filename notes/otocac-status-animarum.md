@@ -1373,11 +1373,17 @@ What can be said, and is worth saying:
 **In the Otočac death register from 1780 to 1836 — now read opening by
 opening — this is the only adult Thomas Žubrinić whose age puts his birth in
 the 1760s.**
-The book buries exactly **two** adult men of this name in fifty-one years. The
-other is **Thomas Xubrinich, 23 February 1787, `an: 31`** — born about 1756, a
-generation older, and the householder whose Dubrava children are buried in 1785,
-1787 and 1789. Every remaining Thomas Žubrinić in the register is a child or is
-born after 1780: 1824 (an. 24), 1826 (4½ days), 1829 (an. 5), 1831 (an. 44).
+The book buries **four** grown men of this name in fifty-one years, and the other
+three are all born outside that decade:
+
+    23 Feb 1787   Thomas Xubrinich                    an: 31   b. c. 1756
+    27 Feb 1808   THOMAS XUBRINICH                    an. 40   b. c. 1767/8
+     6 Jan 1824   Thomas, Vigiliarum Magister         an. 24   b. c. 1800
+    18 Feb 1831   Thomas, Prozor N° 1                 an. 44   b. c. 1787
+
+The 1787 man is a generation older than the 1808 man and is the householder whose
+Dubrava children are buried in 1785, 1787 and 1789. Every other Thomas Žubrinić
+in the register is a child.
 
 That is a much stronger statement than it looks, because it is the statement the
 earlier sittings could not make.
