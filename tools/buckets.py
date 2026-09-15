@@ -29,9 +29,16 @@ pub = {p["id"]: p for p in json.load(open(os.path.join(DATA, "people.json"), enc
 
 # What a bucket looks like. Deliberately narrow: these are phrases no priest ever
 # wrote, and no person was ever called.
+#
+# The second line was added on 15 September 2026, when a page-less contradiction
+# turned up a father entered as "Grah's for Investigation (not real)". The list
+# above missed it and four more like it — the ones that announce themselves
+# loudest, in capitals, in English, in brackets. A detector written from the
+# examples in front of it will always be shaped like those examples.
 BUCKET = re.compile(
     r"\bbrothers?\b|\bsisters?\b|\bto be sorted\b|\bfor sorting\b|\bsorting\b|"
-    r"\bworking\b|\bit seems\b|\bunknown\b|\d{4}\s*-\s*\d{4}\s*birth", re.I)
+    r"\bworking\b|\bit seems\b|\bunknown\b|\d{4}\s*-\s*\d{4}\s*birth|"
+    r"\bplaceholders?\b|\bfor investigation\b|\(not real\)", re.I)
 
 # And a second kind the phrase list cannot see: THE ALPHABET.
 #

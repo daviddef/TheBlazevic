@@ -69,9 +69,11 @@ check("no sorting buckets published", buckets, lambda b: b)
 # IS INVISIBLE. Three times, in three different tools. A person without a page
 # is still a person, and a contradiction about them is still unanswered.
 #
-# The slugged ones fail the build, as before. The slug-less ones are printed
-# and counted rather than failing, so the hole can be closed without the
-# archive going red first — the same bargain checkcovers struck.
+# The slugged ones failed the build from the start. The slug-less ones were
+# printed and counted rather than failing, so the hole could be closed before
+# the archive went red — the same bargain checkcovers struck. All 47 rows were
+# answered on 15 September 2026, so the bargain is over and both halves fail
+# alike. A person without a page is a person.
 try:
     con = load("consistency.json")
     noted = {c["id"] for c in load("corrections.json")}
@@ -81,16 +83,8 @@ try:
           lambda b: f"{b[0]}  /people/{b[1]}")
     pageless = sorted({i["name"] for i in con
                        if not i.get("slug") and i["id"] not in noted})
-    if pageless:
-        rows = sum(1 for i in con if not i.get("slug") and i["id"] not in noted)
-        print(f"note  {len(pageless)} people with NO PAGE have {rows} unanswered "
-              f"contradictions — not a failure yet, but not excused either")
-        for b in pageless[:8]:
-            print("        " + b)
-        if len(pageless) > 8:
-            print(f"        … and {len(pageless) - 8} more")
-    else:
-        print("ok    no page-less contradiction is unanswered")
+    check("contradictions answered for people with no page", pageless,
+          lambda b: b)
 except FileNotFoundError:
     print("skip  contradictions — consistency.json not built")
 
