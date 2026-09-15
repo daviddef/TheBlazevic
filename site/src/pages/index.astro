@@ -2,6 +2,8 @@
 import Base from "../layouts/Base.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import { chartGroups } from "../lib/marriedin.js";
 import SovereigntyTimeline from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import { u } from "../lib/url.js";
@@ -131,6 +133,14 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     <p style="margin-top:1.1rem"><a class="btn" href={u("/corrections/")}>Everything this archive got
     wrong →</a> <a class="btn" href={u("/searched/")}>What has been searched →</a></p>
   </section>
+
+
+<section class="blk">
+  <h2>The families who married in</h2>
+  <p class="dek">Nineteen families and forty-five direct ancestors — and not one of them here because of a surname.
+  <a href={u("/marriages/")}>The marriages, in full →</a></p>
+  <MarriageChart groups={chartGroups} subject="Blažević" unit="direct ancestors" />
+</section>
 
 <section class="blk">
     <h2>What this archive has established</h2>
