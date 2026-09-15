@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 13,
+  "nothing": 14,
   "partial": 19,
   "pending": 7,
   "yield": 41
@@ -329,6 +329,33 @@
   }
  ],
  "rows": [
+  {
+   "src": "Državni arhiv u Rijeci — answered, and it is a refusal",
+   "key": "letters/rijeka",
+   "what": "Ljubomir Blažević's 1892 Rijeka baptism, three post-1907 Senj deaths, Krmpote before 1879, and any status animarum",
+   "when": "15 September 2026",
+   "outcome": "nothing",
+   "url": "https://www.riarhiv.hr/",
+   "tags": [
+    "letters",
+    "archives",
+    "rijeka",
+    "blazevic",
+    "1892"
+   ],
+   "got": "**Sent 15 September 2026, answered the same day, and the answer is no.** From **Boris Zakošek**, Državni arhiv u Rijeci:\n\n> «Poštovani, **Državni arhiv u Rijeci ne provodi ovako složena rodoslovna istraživanja.** Istraživati možete sami u čitaonici Arhiva ili putem internetske stranice familysearch.org»\n\n*«The State Archive in Rijeka does not carry out genealogical research of this complexity. You may research yourself in the Archive's reading room, or through the website familysearch.org.»*\n\n**It is a refusal of the service, not an answer about the holdings** — and that distinction is the whole of what this row now records. The letter asked one question that needed no research at all: *«If you hold, or can say who holds, the Rijeka baptismal register covering 1 March 1892…»*. **That question is unanswered.** The 1892–99 baptismal volume is missing from the film and from its Kazalo both; whether Rijeka holds the original is still not known.\n\n**And the reply points back at FamilySearch**, which the letter had already said — with the volume list quoted — has been read to the end and has a gap precisely where Ljubomir Blažević's baptism falls. That is worth recording plainly rather than resentfully: **the archive has not understood the request, or has not read past the first paragraph**, and either way the door is shut by the same route it was opened.\n\n**What remains open.** The **reading room** is offered and is real: this is material that can be consulted in person at Rijeka, by David or by a paid local researcher. That is now the only stated route to the 1892 entry.",
+   "missed": "Whether the archive holds the Rijeka baptismal register for 1 March 1892 — asked, and not answered.",
+   "ev": [
+    [
+     "/searched/",
+     "Holdings"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Senj deaths, all three ancestors read, and the age column exposed",
    "key": "fs/senj-deaths",
@@ -1053,9 +1080,9 @@
    ]
   },
   {
-   "src": "Državni arhiv u Rijeci, and the parish offices of Senj and Krmpote — three letters sent",
-   "key": "letters/rijeka-senj-krmpote",
-   "what": "The books the films do not cover, asked for at the addresses Senj named",
+   "src": "The parish offices of Senj and Krmpote — two letters sent, no reply yet",
+   "key": "letters/senj-krmpote-parishes",
+   "what": "The books the films do not cover, asked at the two parish addresses Senj named",
    "when": "14–15 Sept 2026",
    "outcome": "pending",
    "tags": [
@@ -1065,7 +1092,7 @@
     "Krmpote",
     "Rijeka"
    ],
-   "got": "**Written on the Senj archive's own instruction, and all three sent on 15 September 2026.** Denis Rukavina named three doors; these are the letters that went through them. *Pending* here now means **awaiting a reply**, not awaiting posting — the same state the Gospić row has been in since the 14th.\n\n**To Državni arhiv u Rijeci** — the **1892 baptism of Ljubomir Blažević at Rijeka**, which this archive has never searched for and which would say why a Krmpote peasant household had a child in the city and then went home; the three **Senj deaths after 1907** — Milka Papić, Zvonimir Vukelić in 1915, Tereza Žubrinić in 1931; **Jurko Blažević's baptism before 1879**; and any **status animarum**.\n\n**To the Župni ured Senj** — mons. dr. Richard Pavlić, Ogrizovićeva 4 — the same three deaths, the **baptisms of January and February 1895** that fall one year past the film, and a question about this parish's own practice: **Senj entries carry no house number** where every village book around it does.\n\n**To the parish of Krmpote** — which **has no parish house** and is administered from **Ledenice**, at Klenovica, itself a village in this family's story — Jurko's **baptism, marriage and death**, the **Butorac** household that stood godparent twice, and the illegible *«Pere ?ećanić»*.\n\n**What these three say that the first two could not.** Every ask now states where the film stops: Krmpote's begins in **1879** against a catalogue label of 1815; Senj baptisms stop at **1894** and deaths at **1907**; Krmpote has **no filmed marriage register at all**; and the whole of **1888** in the Senj marriage book has now been read — thirty-nine entries — without finding the marriage. One ask carries a page and a line: a **1971 registrar's annotation** pointing at **page 280, line 37** of a Senj death register.\n\n**Addresses verified from the diocese's and archdiocese's own directories**, not from a search engine.",
+   "got": "**Written on the Senj archive's own instruction, and all three sent on 15 September 2026. The third — to Državni arhiv u Rijeci — has since been answered and is recorded separately; this row is now the two parish offices alone.** Denis Rukavina named three doors; these are the letters that went through them. *Pending* here now means **awaiting a reply**, not awaiting posting — the same state the Gospić row has been in since the 14th.\n\n**To Državni arhiv u Rijeci** — the **1892 baptism of Ljubomir Blažević at Rijeka**, which this archive has never searched for and which would say why a Krmpote peasant household had a child in the city and then went home; the three **Senj deaths after 1907** — Milka Papić, Zvonimir Vukelić in 1915, Tereza Žubrinić in 1931; **Jurko Blažević's baptism before 1879**; and any **status animarum**.\n\n**To the Župni ured Senj** — mons. dr. Richard Pavlić, Ogrizovićeva 4 — the same three deaths, the **baptisms of January and February 1895** that fall one year past the film, and a question about this parish's own practice: **Senj entries carry no house number** where every village book around it does.\n\n**To the parish of Krmpote** — which **has no parish house** and is administered from **Ledenice**, at Klenovica, itself a village in this family's story — Jurko's **baptism, marriage and death**, the **Butorac** household that stood godparent twice, and the illegible *«Pere ?ećanić»*.\n\n**What these three say that the first two could not.** Every ask now states where the film stops: Krmpote's begins in **1879** against a catalogue label of 1815; Senj baptisms stop at **1894** and deaths at **1907**; Krmpote has **no filmed marriage register at all**; and the whole of **1888** in the Senj marriage book has now been read — thirty-nine entries — without finding the marriage. One ask carries a page and a line: a **1971 registrar's annotation** pointing at **page 280, line 37** of a Senj death register.\n\n**Addresses verified from the diocese's and archdiocese's own directories**, not from a search engine.",
    "ev": [
     [
      "/searched/",

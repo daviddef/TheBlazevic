@@ -60,3 +60,55 @@ simply have a new address. Copies in `sent/`.
 
 **Nothing has come back from any of the three yet.** When it does — including a
 nil return — it goes here, on `/changed` and on `/searched`.
+
+---
+
+## Rijeka — answered 15 September 2026, and it is a refusal
+
+**From:** Boris Zakošek, Državni arhiv u Rijeci
+**To:** the letter of 15 September (Ljubomir Blažević's 1892 Rijeka baptism;
+three Senj deaths after 1907; Krmpote before the film begins in 1879; any
+status animarum)
+
+> Poštovani,
+> **Državni arhiv u Rijeci ne provodi ovako složena rodoslovna istraživanja.**
+> Istraživati možete sami u čitaonici Arhiva ili putem internetske stranice
+> familysearch.org
+>
+> With regards,
+> Boris Zakošek
+
+*"The State Archive in Rijeka does not carry out genealogical research of this
+complexity. You may research yourself in the Archive's reading room, or through
+the website familysearch.org."*
+
+**What it settles, and what it does not.** It is a **refusal of the service**,
+not a statement about the holdings. The letter asked one thing that required no
+research at all — *«If you hold, or can say who holds, the Rijeka baptismal
+register covering 1 March 1892…»* — and **that question is unanswered**. The
+1892–99 baptismal volume is missing from the FamilySearch film and from its
+Kazalo both; whether the original survives at Rijeka is still unknown.
+
+**The reply points back at FamilySearch**, which the letter had already said, with
+the volume list quoted, has been read to the end and has a gap exactly where the
+baptism falls. Recorded plainly: the request was not read past its first
+paragraph.
+
+**What remains open.** The **reading room** is offered, and it is a real route —
+this is material that can be consulted in person at Rijeka, by David or by a paid
+local researcher. That is now the only stated way to the 1892 entry.
+
+## Where the five letters stand, 15 September 2026
+
+| To | Sent | Answer |
+|---|---|---|
+| DAR, Ispostava u Senju | 13 Sep | **Answered 14 Sep** — nil return, named three further doors |
+| Državni arhiv u Gospiću | 13 Sep | **Acknowledged 14 Sep** by Marija Fajdić, queued, still open |
+| Državni arhiv u Rijeci | 15 Sep | **Answered 15 Sep** — refused, above |
+| Župni ured Senj | 15 Sep | no reply yet |
+| Župa Krmpote, via Ledenice | 15 Sep | no reply yet |
+
+**Three of the three doors the Senj archive named have now been tried.** Two of
+them — the parish offices — have not yet answered, and they are the two that
+were never tried before this week.
+
