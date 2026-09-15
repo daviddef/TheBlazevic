@@ -12,7 +12,7 @@
   "nothing": 15,
   "partial": 18,
   "pending": 7,
-  "yield": 48
+  "yield": 49
  },
  "read": [
   {
@@ -329,6 +329,31 @@
   }
  ],
  "rows": [
+  {
+   "src": "The 116 contradictions, triaged — and a gate that was not looking",
+   "key": "self/contradictions",
+   "url": "/impossible/",
+   "what": "Whether the archive's own contradiction backlog is what it says it is",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "consistency",
+    "method"
+   ],
+   "got": "**The backlog was not 71 contradictions with 24 answered. It was 71 with 47 never looked at.**\n\n`check_site.py` carries a gate called *«every contradiction is answered on the person's own page»*, and it has printed **ok** for months. It read `if i.get(\"slug\") and …`, which **excused every contradiction about a person who has no page** — **47 of the 71 rows, 24 people**.\n\n**That is the same blindness for the third time in one day.** Six Karlobag wives were declared outside the tree because they had no page. **Hedviga's husband's gravestone was filed as a stranger's** because he has no page. Now the contradiction gate. **An unpublished person is invisible**, in three separate tools, and every time it was caught by accident rather than by a check.\n\n**The gate now counts and prints the page-less rows** instead of excusing them, and fails only on the slugged ones — the same bargain `checkcovers` struck, so a hole can be closed without the archive going red first.\n\n**And six of the answered rows are one bad date.** Ahnentafel 9, **Tereza Pećanić**, is entered «*died BEF 1850*» and then **marries in November 1858 and bears children to 1884**. Five *child-after-parent-death* rows and one *married-after-death* come from that single hedge. It is annotated and it is still in the data.",
+   "missed": "**The 47 are not answered, only visible.** They divide into another family's people (Defranceschi, Untersinger, Grach — the married-in lines), link errors across a century, and **the namesake trap** — women called *Maria* with no surname attached to the wrong Žubrinić household. The last class is the one worth doing first, because [row 1](/worklist/) built the instrument for it: the **house number in the *Conditio* column**.",
+   "ev": [
+    [
+     "/impossible/",
+     "What cannot be true"
+    ],
+    [
+     "/corrections/",
+     "What changed"
+    ]
+   ]
+  },
   {
    "src": "The eighteen found people, re-tested against every name in the tree",
    "key": "self/found",

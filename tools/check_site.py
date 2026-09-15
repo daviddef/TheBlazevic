@@ -60,6 +60,18 @@ buckets = [p["name"] for p in load("people.json") + load("ancestors.json")
 check("no sorting buckets published", buckets, lambda b: b)
 
 # ---- every contradiction is answered on the person's own page ------------
+# This check used to read «if i.get("slug") and ...», which quietly excused
+# every contradiction about a person with NO PAGE. That was 47 of 71 rows and
+# 25 people, none of them answered, and the check printed ok for months.
+#
+# It is the same blindness that put six Karlobag wives outside the tree and
+# filed Hedviga's husband's gravestone as a stranger's: AN UNPUBLISHED PERSON
+# IS INVISIBLE. Three times, in three different tools. A person without a page
+# is still a person, and a contradiction about them is still unanswered.
+#
+# The slugged ones fail the build, as before. The slug-less ones are printed
+# and counted rather than failing, so the hole can be closed without the
+# archive going red first — the same bargain checkcovers struck.
 try:
     con = load("consistency.json")
     noted = {c["id"] for c in load("corrections.json")}
@@ -67,6 +79,18 @@ try:
                      if i.get("slug") and i["id"] not in noted})
     check("contradictions annotated on the person", silent,
           lambda b: f"{b[0]}  /people/{b[1]}")
+    pageless = sorted({i["name"] for i in con
+                       if not i.get("slug") and i["id"] not in noted})
+    if pageless:
+        rows = sum(1 for i in con if not i.get("slug") and i["id"] not in noted)
+        print(f"note  {len(pageless)} people with NO PAGE have {rows} unanswered "
+              f"contradictions — not a failure yet, but not excused either")
+        for b in pageless[:8]:
+            print("        " + b)
+        if len(pageless) > 8:
+            print(f"        … and {len(pageless) - 8} more")
+    else:
+        print("ok    no page-less contradiction is unanswered")
 except FileNotFoundError:
     print("skip  contradictions — consistency.json not built")
 
