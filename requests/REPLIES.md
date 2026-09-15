@@ -98,17 +98,55 @@ paragraph.
 this is material that can be consulted in person at Rijeka, by David or by a paid
 local researcher. That is now the only stated way to the 1892 entry.
 
+## Krmpote — answered 15 September 2026, and the registers are not there
+
+**From:** vlč. Jakov Filipović, župnik, Sv. Jakov Krmpote (administered from
+Ledenice)
+
+> Poštovani,
+> **Matice i arhiva svih župa kojim upravljam je predata u Riječku
+> Nadbiskupiju.** Koliko mi je poznato **oni su istu predali na skrb Državnoga
+> Arhiva.** Budući mi ovdje na župama **nemamo dodir sa starijim Maticama**, za
+> daljnje informacije kontaktirajte **Ured riječke nadbiskupije**. Srdačan
+> pozdrav uz zelju da dostignete svoj cilj.
+> Vlč. Jakov Filipović, župnik
+
+*"The registers and archives of every parish I administer have been handed to the
+Rijeka Archdiocese. As far as I know they passed them into the care of the State
+Archive. Since we in the parishes have no contact with the older registers,
+contact the Office of the Rijeka Archdiocese for further information. Warm
+greetings, with the wish that you reach your goal."*
+
+**Nothing was refused.** Juraj Blažević's baptism, his marriage, his death and
+the Butorac marriage are all still wanted — they are simply not in this man's
+hands, and he said so at once and kindly.
+
+**It corrects the assumption these letters were built on.** Writing to parish
+offices rested on the Senj archive's instruction *and* on a belief recorded here
+in as many words: that **the books the films do not cover are the ones that never
+left parish custody**. For Krmpote that is wrong. They left.
+
+**And it names a door nobody has tried** — the **Ured riječke nadbiskupije**, a
+third kind of holder, neither state archive nor parish.
+
+**It also sharpens the one question Rijeka did not answer.** The State Archive
+replied the same day that it does not do research of this complexity, and never
+said what it holds. The priest says the books are in its care. So *does the
+Rijeka baptismal register for 1 March 1892, and the Krmpote register before 1879,
+survive, and who holds them?* is now asked from two directions and answered from
+neither. That is a **holdings** question, not a research request — which is
+exactly what Rijeka's refusal did not cover.
+
 ## Where the five letters stand, 15 September 2026
 
 | To | Sent | Answer |
 |---|---|---|
 | DAR, Ispostava u Senju | 13 Sep | **Answered 14 Sep** — nil return, named three further doors |
 | Državni arhiv u Gospiću | 13 Sep | **Acknowledged 14 Sep** by Marija Fajdić, queued, still open |
-| Državni arhiv u Rijeci | 15 Sep | **Answered 15 Sep** — refused, above |
+| Državni arhiv u Rijeci | 15 Sep | **Answered 15 Sep** — refused the research, silent on holdings |
 | Župni ured Senj | 15 Sep | no reply yet |
-| Župa Krmpote, via Ledenice | 15 Sep | no reply yet |
+| Župa Krmpote, via Ledenice | 15 Sep | **Answered 15 Sep** — the registers left the parish |
 
-**Three of the three doors the Senj archive named have now been tried.** Two of
-them — the parish offices — have not yet answered, and they are the two that
-were never tried before this week.
-
+**Four of five answered, and all three of the doors Senj named have been tried.**
+Only the Senj parish office is still out. The next door is the one the Krmpote
+priest named: the **Rijeka Archdiocesan Office**.
