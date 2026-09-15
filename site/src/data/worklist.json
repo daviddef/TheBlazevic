@@ -206,11 +206,11 @@
   },
   {
    "n": 26,
-   "what": "Karlobag baptisms — the seven direct ancestors still unread",
+   "what": "Karlobag baptisms — one ancestor left, not seven",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The Karlobag birth books reach **nine** direct ancestors (13, 26, 27, 52, 53, 54, 55, 105, 106); ahnentafel 53 was read on 15 September. **Seven left**, and three of them — 54 (b. 22 Apr 1777), 105 (b. 30 Mar 1727) and 106 (b. 18 Jan 1754) — have exact birth dates to aim at. The 1771–1804 volume's arks and the route into it are in `sources/familysearch/film-karlobag-baptisms-1771-1804.json`; **note that its film number is not the one `holdings.psv` gives** (row 42)."
+   "note": "**This row was written wrong on 15 September and is corrected the same day.** It claimed «seven direct ancestors still unread», taken from the `ahn` list in `targets.json` — but that column names the ancestors a book **could serve**, not the ones still unread. `coverage.json` is the column that answers the question, and it says **seven of the eight are already read**: ahnentafel 13, 26, 27, 52, 54, 55 and 106 all have documents.\n\n**Only ahnentafel 105 is left** — *Catherina «Catta» Luckinić*, born **30 March 1727**, which falls in the **1691–1770** volume.\n\n**And it is a walk, not a lookup.** The index was searched under *Luckinić · Lukinić · Luchinich* and returns **one** Karlobag hit across 900 results — a *Mariu Luketich* of 1756, not her. The 1691–1770 book is not meaningfully indexed for this surname.\n\n**A lesson for every other reading row on this list:** check `coverage.json` before planning a sitting, not `targets.json`. The first says who lacks a document; the second says which book would reach them if they did."
   },
   {
    "n": 27,
