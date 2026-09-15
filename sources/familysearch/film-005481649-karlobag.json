@@ -4,7 +4,11 @@
  "_folio_map": "Marriages 1736-1804: left pages are EVEN. folio 2 = image 230, 4 = 231, 6 = 232, 8 = 233, 10 = 234.",
  "arks": {
   "231": "3:1:3QSQ-G99C-G2N",
-  "232": "3:1:3QSQ-G99C-GJ9"
+  "232": "3:1:3QSQ-G99C-GJ9",
+  "364": "3:1:3QS7-L99C-GSBG",
+  "365": "3:1:3QS7-899C-G37T",
+  "427": "3:1:3QS7-L99C-G3SK",
+  "428": "3:1:3QSQ-G99C-GSL3"
  },
  "dims": {
   "231": [
@@ -22,5 +26,29 @@
  "read_2026_09_15": {
   "231": "Folio 4, Anno Domini 1807, read entry by entry. Grooms/parties: Hodak x Vidovac (7 Jan) · Scatoli x Martha filia defti Josephi Smoyver (14 ejusd.) · Dovcich x Joanna Matthiovich (22 ejusd.) · Josephus x Barbara vidua Georgii Dovcich (26 ejusd.) · Hudak x vidua Basletich (3 Feb) · Sabbiani(?) x Paulisepak (7 Maii) · Damianus Hudak (16 Junii) · **Georgius Uroda x Maria Gergas (17 ejusd. = 17 June)** · (8 Julii) · (20 Septembris).",
   "232": "Folio 6, Anno Domini 1809 then 1810, read end to end, both pages. 1809: Miletich x Matthaea filia defti Martini **Uzelac** (18 Jan) · Sankovic x Aloysia (6 Feb) · a Dalmatian parishioner of Sopnich (Apr) · Antonius Mattiovich x Maria filia Martini Sedlenich (3 Maii) · Simon Cerkovich x Anna filia defti Simonis Vukelich (10 Aug) · Michael Urbi/Vrbi x Martha (Oct) · Antonius Luchatelli x Elena vidua, witness **Josephus Pillepich** (15 Nov). 1810: 8 Jan · 15 Maii (Georgii **Medvidich**, not Uroda) · 10 Junii · 16 Julii · 15 Octobris · 21 9bris, then «Finis». **No Uroda on the opening.**"
+ },
+ "_umrli_1774_1804": {
+  "_folio_map_MEASURED": "Image 364 carries folios 16 (left) and 17 (right); image 365 carries 18 and 19. So image = 356 + folio/2 for even folios. This DISAGREES BY ONE with holdings.psv, which records folio 62 = image 388 where this gives 387. Read the folio number printed at the top of the page before trusting either.",
+  "_kazalo": "The volume's own A-Z index sits at images ~410-434. Image 427: LEFT page Q (sparse), RIGHT page P — three dense columns. Image 428: LEFT page P continued (folios 104-106 only, seven entries), RIGHT page R. Entries within a letter run BY FOLIO, not alphabetically, so a surname is found by scanning the letter's columns.",
+  "_why_the_kazalo": "The FamilySearch record index holds baptisms only for Karlobag (row 43), so this book must be walked — but its own index turns a walk into two page loads.",
+  "found": {
+   "ahn 104": "«Pillepich Jacobus · 10 Aprilis · folio 17» in the KAZALO (image 427) → folio 17, image 364: «10: Aprilis · D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est». No age. See notes/karlobag-1778-jacobus-pilepich.md."
+  },
+  "index_lines_not_yet_opened": {
+   "_what": "Read off the KAZALO only. These are index lines, NOT register entries — nobody has opened the pages.",
+   "Pekas / Pekkas": [
+    "Pekas Anton, 21 Januarii, folio 1",
+    "Pekas Blasius, 23 Augusti, folio 2",
+    "Pekas Maria, 24 Maii, folio 5",
+    "Pekas Joanna, 12 April, folio 10",
+    "Pekkas Magdalena, 5 Augusti, folio 106"
+   ],
+   "_why_it_matters": "Pekass is the surname of ahnentafel 213, 426 and 427 — three direct ancestors with no document of any kind. This is the first time the surname has appeared in a Karlobag register index here."
+  },
+  "still_wanted": {
+   "ahn 212": "Josiph Smojver Vukić, died 16 May 1776 — find him in the KAZALO's S section (about image 430)",
+   "ahn 220": "Nicolaus Gerkacs, died 30 October 1783 — the G section",
+   "ahn 105": "Catherina Luckinić, died 29 May 1790 — the L section"
+  }
  }
 }

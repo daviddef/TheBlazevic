@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 15,
-  "partial": 18,
+  "partial": 19,
   "pending": 7,
   "yield": 44
  },
@@ -329,6 +329,34 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Karlobag deaths 1774–1804, through the book's own KAZALO",
+   "key": "fs/karlobag-deaths",
+   "what": "Ahnentafel 104, 105, 212 and 220 — four exact death dates inside one volume",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/en/search/film/005481649?i=363",
+   "tags": [
+    "FamilySearch",
+    "Karlobag",
+    "deaths",
+    "pilipic",
+    "pekass",
+    "ahn 104"
+   ],
+   "got": "**Ahnentafel 104 is read, and he is not the name-and-date this archive had.** Folio **17**, image **364**, ARK `3:1:3QS7-L99C-GSBG`:\n\n> «**10: Aprilis** · **D. Jacobus Pilepich Capitaneus portûs**, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, **spiritum Deo reddidit**, … **in propria Crypta in Parochiali Ecclesia existente**, per me Joannem … tumulatus est»\n\n**Three marks of standing in one entry.** ***Capitaneus portûs*** — **captain of the port** of Karlobag, a crown office in a Military Frontier harbour, not a trade. The ***D.*** before his name is *Dominus*, and the register withholds it from the *Decurio* and the *infans* on the same opening. And he is **not in the parish cemetery with them**: he is «*in propria Crypta in Parochiali Ecclesia*» — **in his own crypt inside the church**. No age is given.\n\n**The method is the other half of the result.** The FamilySearch index holds **baptisms only** for Karlobag ([row 43](/worklist/)), so this book has to be walked — **but it carries its own KAZALO**, and the KAZALO turns the walk into two page loads. Image **427**, right page, is the letter **P**: three dense columns, ordered **by folio and not alphabetically**, and «*Pillepich Jacobus · 10 Aprilis · **folio 17***» is in the third. Folio 17 is image 364.\n\n**The folio map is measured now and it disagrees with `holdings.psv` by one.** Image 364 carries folios **16 and 17**; image 365 carries **18 and 19**; so `image = 356 + folio ÷ 2`, which puts folio 62 at **387** where `holdings.psv` says **388**. One of the two is off, or a folio is skipped. **Read the folio number printed at the top of the page**, every time.\n\n**And the index put a surname on the table that had never appeared.** The P columns hold **five Pekas entries** — Anton, Blasius, Maria, Joanna, and *Pekkas Magdalena, 5 Augusti, folio 106*. **Pekass is ahnentafel 213, 426 and 427**, three direct ancestors with no document of any kind. **These are index lines, not readings** — no page has been opened — and they are recorded as places to look.",
+   "missed": "Ahnentafel 212 (16 May 1776), 220 (30 October 1783) and 105 (29 May 1790) — their KAZALO letters are not yet read.",
+   "ev": [
+    [
+     "/harvest/",
+     "What is left to read"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "Župa Krmpote, via Ledenice — answered, and it moves the question",
    "key": "letters/krmpote-parish",
