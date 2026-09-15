@@ -1,0 +1,35 @@
+{
+ "_what": "Otočac, Rođeni 1846-1858 + Umrli 1834-1858 — the book, its waypoint, and an ARK map.",
+ "_the_trap": "The film-number URL /search/film/005482657 reports **483 images**. The Otočac book is **218**. From about image 219 the traversal crosses into a different parish entirely — **Pakrac** — and every sample taken there was a baptism, which is why a first attempt concluded the deaths were not on the film at all. A film number is not a book.",
+ "_waypoint": "9RK1-Y4C:391644801,391674001 — breadcrumb «Croatia, Church Books › Roman Catholic (Rimokatolička crkva) › Otočac › Births (Rođeni) 1846-1858 Deaths (Umrli) 1834-1858», 218 images.",
+ "_how_to_browse": "Use /search/image/index?owc=9RK1-Y4C%3A391644801%2C391674001%3Fcc%3D2040054&cc=2040054 to land in the book. To step, the film-number URL /en/search/film/005482657?i=<N-1> works and stays inside Otočac for N <= 218 — but NOT beyond. Adding &i= to an ARK URL does not move the viewer.",
+ "_columns": "Annus, Mensis, Dies mortis | Nomen, Cognomen Defuncti | Aetas Defuncti | Morbus | Sacramenta | Locus Sepulturae | Sepeliens | Nrus Domus. The entry text also carries the village and house, e.g. «Confiniarii e Prozor N° 40».",
+ "_language": "Latin in the 1830s-40s, CROATIAN by 1849 — «Leta 1849 dne 18 Kolovoza je preminua … Lucia Marković, graničar». Same change as the Otočac baptisms.",
+ "arks": {
+  "100": "3:1:3QS7-899C-PVNY",
+  "114": "3:1:3QS7-899C-PVFX",
+  "164": "3:1:3QSQ-G99C-PVKZ",
+  "165": "3:1:3QS7-899C-PVZP",
+  "200": "3:1:3QSQ-G99C-PLXK",
+  "166": "3:1:3QS7-L99C-PV8V"
+ },
+ "dates": {
+  "100": "1835, «1835 Aprilis die 6ta»",
+  "165": "page 149 — 18 Ožujka (March) to May 1849; page 150 continues April–May, entries 16–25",
+  "200": "page 221 — 1855",
+  "164": "page 147 — December 1848, with the ruled «1849» heading at the foot; page 148 runs Jan–March 1849",
+  "166": "page 151 — July 1849, ending 28 Srpnja; page 152 — August 1849, entries 35–39, starting 9 Kolovoza"
+ },
+ "_targets": {
+  "ahn 40": "Toma Žubrinić, died 4 January 1838, tree places him at Šumećica 2. Interpolates to about image 114.",
+  "ahn 41": "Marija Findrić, died 29 July 1849. Image 165 opens at 18 August 1849, so she is just before it — image 164."
+ },
+ "_read_2026_09_15": {
+  "pages 147-152": "Read for ahnentafel 41. **There is no death entry for 29 July 1849** — page 151 ends at *28 Srpnja* and page 152 opens at *9 Kolovoza*, and the entry numbers run continuously through, so nothing is missing from the book. The tree's date for ahnentafel 41 is not corroborated. **This is not yet a clean null for 1849**: June and September–December of that year have not been read.",
+  "Žubrinić entries seen in passing": [
+   "page 149, April 1849 — «Maria, ćer Mate Žubrinić, graničar», aged 1½",
+   "page 151, July 1849 — «Kate, žena Mat… Žubrinić, graničara», aged 28"
+  ],
+  "_caution": "Row 1 established that «Mate/Michael Žubrinić» at Otočac is at least seven different men in four villages. Neither entry above may be attached to ahnentafel 20 without the house number, which these two entries were not read closely enough to give."
+ }
+}

@@ -323,11 +323,39 @@
  ],
  "rows": [
   {
-   "src": "FamilySearch — what a film number actually reaches, and the catalogue call that settles it",
+   "src": "FamilySearch — Otočac deaths, the book opened and ahnentafel 41 not found on her date",
+   "key": "fs/otocac-deaths",
+   "what": "The deaths of ahnentafel 40 (4 Jan 1838) and ahnentafel 41 (29 Jul 1849)",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/image/index?owc=9RK1-Y4C%3A391644801%2C391674001%3Fcc%3D2040054&cc=2040054",
+   "tags": [
+    "FamilySearch",
+    "Otočac",
+    "deaths",
+    "zubrinic",
+    "ahn 40",
+    "ahn 41"
+   ],
+   "got": "**The book is open at last**, after a sitting lost to a film number that crosses into another parish. Otočac *Umrli 1834-1858*, 218 images, waypoint `9RK1-Y4C:391644801,391674001`. Its columns are *Annus Mensis Dies mortis · Nomen Cognomen Defuncti · Aetas · Morbus · Sacramenta · Locus Sepulturae · Sepeliens · **Nrus Domus*** — and the entry text carries the village and house too, «*Confiniarii e Prozor N° 40*». **It is the right instrument for question 4.** Like the baptisms, it changes from **Latin to Croatian** partway, by 1849.\n\n**Ahnentafel 41 is not where the tree says.** Pages 147–152 were read for her death of **29 July 1849**: page 151 ends at ***28 Srpnja*** and page 152 opens at ***9 Kolovoza***, with the entry numbers running continuously through, so **nothing is missing from the book and there is no death recorded on 29 July 1849 at all**. The tree's date is not corroborated.\n\n**This is not yet a clean null** — June and September to December of 1849 have not been read, and she may sit on another date. Recorded as what it is.\n\n**Two Žubrinić entries seen in passing**, neither yet attachable: «*Maria, ćer Mate Žubrinić, graničar*», aged 1½, April 1849; and «*Kate, žena Mat… Žubrinić, graničara*», aged 28, July 1849. Row 1 established that «Mate» at Otočac is at least seven different men in four villages, so **neither may be joined to ahnentafel 20 without the house number**, which these two were not read closely enough to give.",
+   "missed": "Ahnentafel 40's death of 4 January 1838, and the rest of 1849 for ahnentafel 41.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — a film number can hold two parishes, and this one does",
    "key": "fs/catalogue",
    "what": "The Otočac Umrli 1834–1858, and why three films this week were not what their numbers said",
    "when": "15 September 2026",
-   "outcome": "partial",
+   "outcome": "yield",
    "url": "https://www.familysearch.org/en/search/film/005482657",
    "tags": [
     "FamilySearch",
@@ -335,8 +363,8 @@
     "holdings",
     "otocac"
    ],
-   "got": "**The catalogue will say exactly what a film holds.** `/service/search/catalog/item/koha:<NNNNNN>` returns **`source.film_note[]`**, one entry per digital film with `digital_film_no`, `items`, `text` and `fs_indexed`. For Otočac it gives DGS **5482657** as «**Rođeni 1846-1858 · Umrli 1834-1858**, Items 1–2». One call, authoritative, and this archive should have had it a week ago.\n\n**But the film number does not reach everything on the film.** `…/search/film/005482657?i=N` was walked end to end looking for those deaths: image **250** a baptism of 1852, **330** a baptism, **410** a baptism, **465** a baptism, and **END OF ROLL** at **483**. Every sampled image is Item 1. The waypoint in the URL also **changes between images** — `9RK1-Y4C…` at image 1, `9RK1-Y44…` from 250 — so the film number walks a sequence of waypoints and **does not include the one holding the deaths**.\n\n**Three films this week, the same shape.** **005481648**, catalogued as the Karlobag 1691–1804 baptisms, has 596 images and image 216 headed «*Godine 1845*». **005497948** is 802 images and at least three books. **005482657** does not carry the deaths its catalogue entry promises.\n\n**So the rule, paid for three times:** use the **catalogue** to learn what exists, the **record index** to get an ARK where the parish is indexed, and **record the ARK**. An ARK resolves to exactly one image, permanently. A film number resolves to a walk that may not pass the book you want.",
-   "missed": "The Otočac Umrli 1834–1858 itself — it must be reached by its own waypoint through the parish image index.",
+   "got": "**The catalogue will say exactly what a film holds.** `/service/search/catalog/item/koha:<NNNNNN>` returns **`source.film_note[]`**, one entry per digital film with `digital_film_no`, `items`, `text` and `fs_indexed`. For Otočac it gives DGS **5482657** as «**Rođeni 1846-1858 · Umrli 1834-1858**, Items 1–2». One call, authoritative.\n\n**And a first reading of the film got it wrong, which is the finding.** `…/search/film/005482657?i=N` reports **483 images**, and images 250, 330, 410 and 465 are all baptisms, with **END OF ROLL** at 483. The conclusion drawn was that the deaths were not on the film. **They are.** Those images are not Otočac — the waypoint changes partway through and the breadcrumb on the later ones reads «Croatia, Church Books › Roman Catholic › **Pakrac** › Births 1781-1823».\n\n**The Otočac book is 218 images**, under waypoint `9RK1-Y4C:391644801,391674001`, and its breadcrumb names **both** items. The deaths are there: image **100** is April **1835**, **165** is page 149 of **1849**, **200** is page 221 of **1855**. **The film number concatenates two parishes' books and nothing in the viewer says so** except a breadcrumb the film-number URL does not display.\n\n**Three films this week, the same root.** **005481648**, catalogued as the Karlobag 1691–1804 baptisms, has 596 images and image 216 headed «*Godine 1845*». **005497948** is 802 images and at least three books. And **005482657** is 218 images of Otočac followed by Pakrac.\n\n**So the rule, paid for three times:** the **catalogue** for what exists, the **waypoint** to land in the right book, the **record index** for an ARK where the parish is indexed — and **record the ARK**. An ARK resolves to exactly one image, permanently. A film number resolves to a walk that may leave the parish without telling you.",
+   "missed": null,
    "ev": [
     [
      "/searched/",
