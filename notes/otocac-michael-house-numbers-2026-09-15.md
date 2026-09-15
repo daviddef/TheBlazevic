@@ -3,32 +3,34 @@
 15 September 2026. Work list row 1, and the answer to **question 4d**: are the
 twenty-three Michael Žubrinić baptisms at Otočac one man or many?
 
-**They are at least six men, in six houses, in four villages.**
+**They are at least seven men, in seven houses, in four villages.**
 
 The 1846–58 Otočac baptism book writes the household into its *Conditio* column,
 and the record index gives the image ARK of every indexed entry, so each one
 opens at the page instead of being hunted down a film. **Fifteen** indexed
 Žubrinić baptisms in that window have a father whose name is a Michael variant —
 *Michael · Michaël · Miho · Mio · Miha · Miko*. The work list said seven.
-**Fourteen are now read**; FamilySearch closed on the fifteenth.
+**All fifteen are read.**
 
 ## The households
 
 | House | Father × mother | Children read |
 |---|---|---|
-| **Šumećica N° 5** | Michael / Miho × Maria / Mara **Marković** | Marta 1849 · Magdalena 1852 · Mathias 1855 · Stephanus 1858 |
-| **Šumećica N° 10** | Michael / Mio × Helena / Jele **Orešković** | Thomas 1846 · Luce 1850 |
-| **Poljica N° 13** | Michael / Miko × Magdalena / Mande **Draženović** | Petrus 1848 · Mate 1851 |
-| **Prozor N° 50** | Michael × Anna **Bobinac**, then Maria **Rogić** | Magdalena 1852 · Josephus 1855 · Nicolaus 1858 |
-| **Obilje N° 7** | Michael, ***Senior populi*** × Catharina **nata Žubrinich** | Ioannes 1847 |
-| **Prozor Br. 1** | Miho × Kata **rodjena Žubrinić** | Ivan 1850 |
+| **Šumećica 5** | Michael / Miho × Maria / Mara **Marković** | Marta 1849 · Magdalena 1852 · Mathias 1855 · Stephanus 1858 |
+| **Prozor 50** | Michael × Anna **Bobinac**, then Maria **Rogić** | Magdalena 1852 · Josephus 1855 · Nicolaus 1858 |
+| **Poljica 13** | Michael / Miko × Magdalena / Mande **Draženović** | Petrus 1848 · Mate 1851 |
+| **Šumećica 10** | Michael / Mio × Helena / Jele **Orešković** | Thomas 1846 · Luce 1850 |
+| **Obilje 7** | Michael, ***Senior populi*** × Catharina **nata Žubrinich** | Ioannes 1847 |
+| **Prozor 1** | Miho × Kata **rodjena Žubrinić** | Ivan 1850 |
+| **Prozor 49** | Michael × Magdalena **Glavinić** | Maria 1858 |
 | *no house given* | Michaël × Maria | Maria Magdalena Theresia, July 1846 |
-| *unread* | Michael × Magdalena **Glavinić** | Maria, 28 November 1858 |
+
+**Three of the seven are at Prozor** — houses 1, 49 and 50 — and two at Šumećica.
 
 ## What it settles, and what it opens
 
 **The Conditio column separates the Michaels, and nothing else does.** Four
-villages — Šumećica, Poljica, Prozor, Obilje — and six distinct wives. No
+villages — Šumećica, Poljica, Prozor, Obilje — and seven distinct wives. No
 amount of work on names alone would have parted them; the house number does it
 in one reading.
 
@@ -104,3 +106,16 @@ now in `sources/readings.psv` with the Conditio that names their house.
 **Every one of the five has siblings who are in the tree.** These are gaps inside
 families the tree already knows, not an unknown branch — which is a much easier
 thing to close, and a much better argument that the reading is right.
+
+## One more trap, found in the last entry
+
+The house is written **«Šumećica Br. 5»** in the Croatian entries and
+**«Šumećica N° 5»** in the Latin ones. They are the same house. Counting the
+strings as written splits that household in two — which is the same failure as
+one chart under three names, at the scale of a single family. The data file
+therefore carries both: `house` is what the page says, `house_key` is the village
+and number normalised, and every count is taken from the key.
+
+And the last entry's surname is written **Žubrinić** in the register where the
+index had scattered it to **«Dubrinić»** — one more reason the index is a finding
+aid and the page is the evidence.
