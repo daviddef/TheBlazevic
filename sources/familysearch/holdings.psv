@@ -10,6 +10,13 @@
 #
 #     https://www.familysearch.org/search/film/00<dgs>
 #
+# The catalogue's own words are now kept verbatim beside this file, in
+# sources/familysearch/filmnotes.psv, with the ROLL NUMBER and the ITEM
+# RANGE for every film. That file explains why a DGS number is not an
+# address: the catalogue's unit is the item and the viewer's is the roll,
+# and one roll can carry two parishes. This file stays as the readable
+# summary; tools/holdingscheck.py keeps the two in step.
+#
 # Finding a parish: /service/search/catalog/v3/search?q.keywords=<parish>
 # (q.text, q.anyPlace and q.placeString are all REJECTED by that service),
 # then /service/search/catalog/item/koha:<n>. Checked 14 September 2026.
@@ -52,6 +59,8 @@ Ledenice|koha:702027|5482218|Rodjeni 1734-1822 · Vjencani 1734-1825 · Umrli 17
 Ledenice|koha:702027|5482219|Rodjeni 1822-1861 · Vjencani 1826-1865 · Umrli 1824-1865
 Ledenice|koha:702027|5494765|Rodjeni 1861-1894 · Vjencani 1866-1882
 Ledenice|koha:702027|5494766|Umrli 1866-1902
+Ledenice|koha:702027|5498069|Rodjeni 1734-1795, 1795-1820 · Vjencani 1734-1825 · Umrli 1734-1824 (SECOND FILMING of 5482218)
+Ledenice|koha:702027|5498070|Rodjeni 1820-1861 · Vjencani 1826-1865 · Umrli 1824-1865 (SECOND FILMING of 5482219)
 Novi Vinodolski|koha:432822|5482584|Rodjeni 1650-1804 · Vjencani 1674-1786 · Umrli 1704-1782
 Novi Vinodolski|koha:432822|5482623|Rodjeni 1804-1852 · Vjencani 1787-1859 · Umrli 1784-1824
 Novi Vinodolski|koha:432822|5482624|Umrli 1823-1859
@@ -90,7 +99,8 @@ Sinac|koha:837243|5498257|Rodjeni 1854-1901 · Umrli 1834-1882
 Sinac|koha:837243|5498258|Umrli 1882-1913
 Vrbnik|koha:723697|5497817|Rodjeni 1849-1880
 Vrbnik|koha:723697|5497952|Vjencani 1815-1899 · Umrli 1862-1901
-Brinje|koha:837490||Maticna knjiga 1888-1899 — film notes not pulled
+Brinje|koha:837490|5498262|Rodjeni 1888-1900 · Vjencani 1888-1899
+Brinje|koha:837490|5498263|Umrli 1888-1899
 Karlobag|koha:655222|5481648|Rodjeni 1691-1770, 1771-1804 · KAZALO rodjeni A-V
 Karlobag|koha:655222|5481649|Rodjeni 1804-1861 + Kazalo · Umrli 1804-1861 + Kazalo · VJENCANI 1804-1861 + Kazalo · Vjencani 1736-1804 · Umrli 1774-1804 + Kazalo — 584 images. Marriage folios: left pages are EVEN, folio 2=image 230, 4=231, 6=232, 8=233, 10=234
 Karlobag|koha:655222|5498480|Status animarum XIX saec. (122 images)
