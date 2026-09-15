@@ -1,0 +1,26 @@
+{
+ "_film": "005481649 — Karlobag, catalog koha:655222. Six books on one film, 584 images: Rodjeni 1804-1861 + Kazalo · Umrli 1804-1861 + Kazalo · Vjencani 1804-1861 + Kazalo · Vjencani 1736-1804 · Umrli 1774-1804 + Kazalo.",
+ "_how_to_get_an_ark": "Navigate to https://www.familysearch.org/en/search/film/005481649?i=<N-1> for image N, wait for load, and read the ARK out of document.title, which carries «ark:/61903/3:1:…». The thumbnail grid's img alt=\"Image N\" scrape does not work on this viewer — the grid thumbnails carry no dz/v1 src. Verify each ark by fetching its image.xml before trusting it.",
+ "_folio_map": "Marriages 1736-1804: left pages are EVEN. folio 2 = image 230, 4 = 231, 6 = 232, 8 = 233, 10 = 234.",
+ "arks": {
+  "231": "3:1:3QSQ-G99C-G2N",
+  "232": "3:1:3QSQ-G99C-GJ9"
+ },
+ "dims": {
+  "231": [
+   5347,
+   4204
+  ],
+  "232": [
+   5255,
+   4301
+  ]
+ },
+ "_targets": {
+  "work list row 2": "**FOUND, 15 September 2026.** Ahnentafel 54's marriage is on folio 4 (image 231), «Anno Domini 1807», seventh entry: «…habito mutuo consensu **Georgii filij defti Georgii Uroda** et **Maria filia Michaelis Gergas** hujatium, eos solemniter in facie Ecclesiae Matrimonio conjunxit idem praemissa, praesentibus testibus **Caspare Jerko viduo** et **Joanne Fero…**». Date column 17; the month column is a ditto for the entry above it (16 Junii), so **17 June 1807**. Folio 6 (image 232) was read end to end — 1809 and 1810 to the «Finis» — and holds no Uroda at all."
+ },
+ "read_2026_09_15": {
+  "231": "Folio 4, Anno Domini 1807, read entry by entry. Grooms/parties: Hodak x Vidovac (7 Jan) · Scatoli x Martha filia defti Josephi Smoyver (14 ejusd.) · Dovcich x Joanna Matthiovich (22 ejusd.) · Josephus x Barbara vidua Georgii Dovcich (26 ejusd.) · Hudak x vidua Basletich (3 Feb) · Sabbiani(?) x Paulisepak (7 Maii) · Damianus Hudak (16 Junii) · **Georgius Uroda x Maria Gergas (17 ejusd. = 17 June)** · (8 Julii) · (20 Septembris).",
+  "232": "Folio 6, Anno Domini 1809 then 1810, read end to end, both pages. 1809: Miletich x Matthaea filia defti Martini **Uzelac** (18 Jan) · Sankovic x Aloysia (6 Feb) · a Dalmatian parishioner of Sopnich (Apr) · Antonius Mattiovich x Maria filia Martini Sedlenich (3 Maii) · Simon Cerkovich x Anna filia defti Simonis Vukelich (10 Aug) · Michael Urbi/Vrbi x Martha (Oct) · Antonius Luchatelli x Elena vidua, witness **Josephus Pillepich** (15 Nov). 1810: 8 Jan · 15 Maii (Georgii **Medvidich**, not Uroda) · 10 Junii · 16 Julii · 15 Octobris · 21 9bris, then «Finis». **No Uroda on the opening.**"
+ }
+}
