@@ -1,0 +1,168 @@
+{
+ "title": "The work list",
+ "dek": "What is being done here, as opposed to what is known.",
+ "lead": "Every other register in this archive answers what is **known** — [what has been searched](/searched/), [what is still open](/open-questions/), [what was got wrong](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. Three times in one week someone asked this archive what it was working on, and three times the answer was typed out and then lost. This is that answer, written down. It is deliberately short on findings and long on **who has to move each thing** — an item with no owner is how a list becomes wallpaper.",
+ "close": "Written 15 September 2026, in the shape the Defranceschi session settled on, so that eight archives keep one list rather than eight people each inventing one.",
+ "rows": [
+  {
+   "n": 1,
+   "what": "Rebuild the Žubrinić households of Šumećica by house number, from the Otočac baptisms of 1846–58",
+   "state": "running",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The thing [question 4](/open-questions/) now turns on. That book writes the household into its *Conditio* column — **«Confiniarius ex Poljica 14»**, **«e Šumećica N° 2»** — so the column can be harvested. **Three houses are established so far: N° 2 (Nicolaus, 1856 and 1858), N° 10 (Michael × Helena Orešković of Prozor, 1846), N° 24 (Michaël × Maria Orešković, 1834).** Seven indexed Michael entries between 1847 and 1858 are still unread. **The obstacle is measured:** the record index gives the ARK of the **opening**, not the row, so each entry costs two or three crops to find."
+  },
+  {
+   "n": 2,
+   "what": "Read Karlobag marriage folios 6 and 4 entry by entry, for ahnentafel 54's marriage",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "Folios 2 to 6 — 1804 to early 1810, the whole window a daughter born 23 April 1810 allows — are read and hold **no Uroda × Gerkacs**. Folio 8 is eliminated: it is 1811–12, too late. What remains is a slower second pass looking for *Uroda* and *Gerkacs* **inside** each entry rather than at its head. **Expect a negative**, and record it as one."
+  },
+  {
+   "n": 3,
+   "what": "Selce deaths 1816–1886 — six direct ancestors, none read",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Ahnentafel 24, 25, 48, 49, 50 and 51 all die in that span. **DGS 5497948.** The record index reaches Selce *baptisms* only, so this one is a film read. It is the largest untouched block of direct-line evidence left."
+  },
+  {
+   "n": 4,
+   "what": "Senj marriages 1734–1858 — the marriage of ahnentafel 12 and 13",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Their son was baptised **1 November 1857**, so the marriage falls just before it. Their register names are now known exactly — **«Juraj Papa, težak»** and **«Matia rođena Pilipić»** — which is what makes this findable. Not in the index; a film read."
+  },
+  {
+   "n": 5,
+   "what": "Ahnentafel 53's baptism — Oliva Maria Smojver, Karlobag, March 1781",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "A lead rather than a finding: the index holds **«Smoj[v]er, 23 February 1782, father Vincentio, mother Oliva»** — a Karlobag household with a mother called **Oliva** the year after ahnentafel 53 was born. Her own baptism is **not indexed** (four Karlobag Smojver entries before 1796 against 114 after), so this is a page to open on that opening, not a join to make."
+  },
+  {
+   "n": 6,
+   "what": "Four books located this week and never opened",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "**Bribir** 1678 onward — its own parish, filed here as a village of Grižane until the catalogue was read properly. **Sv. Juraj kod Senja** 1697–1852, not in the parish table at all. The **Karlobag *Stanje duša*** beyond the U section. The **Grižane *Popis duša* of 1738**, a household census a century older than Otočac's. All four are in [holdings.psv](/searched/) with their film numbers."
+  },
+  {
+   "n": 7,
+   "what": "The one village in the Otočac census whose name could not be read",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "Image 75. Every other *Pagus* in the book was mapped — Ottosaz, Luka, Dubrava, Novoselia, Lieška, Kostelievo Selo, Obilje, Beljue, Šumećica — and this one resisted. Small, but the map is otherwise complete and a hole in it will be noticed."
+  },
+  {
+   "n": 8,
+   "what": "Reconcile the stale «pending» rows in the searched register",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Found while answering the question that produced this page. **Ancestry**, **FamilySearch — Rijeka registers** and **FamilySearch — Otočac, Stanje duša** are all still marked *pending* although each was worked and closed this week; the newer rows sit directly above the stale ones. The register therefore **over-reports what is outstanding**. The fix is not just editing three rows: `tools/searched.py` should **refuse** when a row is pending and a later row for the same source has an outcome, so this cannot silently accumulate again."
+  },
+  {
+   "n": 9,
+   "what": "Decide where ahnentafel 108 and 109 live",
+   "state": "next",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "**Georgius Uroda** and his wife **Maria** were read out of a register this week and are real. The tree stops at ahnentafel 54 and this archive does not edit the tree — that separation is what the whole project rests on. They are recorded in `sources/found.psv` with ten others, but **nothing on the site shows them** yet. Whether a found person should appear beside the tree, and how, is a decision about what this archive *is*, not a task."
+  },
+  {
+   "n": 10,
+   "what": "Waiting on the Državni arhiv u Rijeci",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "Sent 15 September to **obrada@riarhiv.hr**. It asks for one identified volume: the Rijeka baptismal register covering **1 March 1892**, which the film skips — the volumes run 1886–90, 1890–91, then **1900–01**, and the alphabetical *Kazalo* skips the same span. **This is the only route left to [question 13](/open-questions/)**, and to Juraj's marriage with it."
+  },
+  {
+   "n": 11,
+   "what": "Waiting on the Župni ured Senj",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "Sent 15 September to the parish priest. Three deaths after the film stops in 1907 — including **Milka Papić**, whose 1886 baptismal entry carries a registrar's 1971 annotation citing **page 280, line 37** — the January and February 1895 baptisms, and whether a *stanje duša* survives for Senj."
+  },
+  {
+   "n": 12,
+   "what": "Waiting on Župa Krmpote, via Ledenice",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "Sent 15 September. Asks for **Juraj Blažević's baptism**, most likely 1855–70 and before the film begins — the single entry that would name his father and settle the join five generations rest on. **One question in that letter has since been answered here**: Tonka's date is **25/27 October 1884**, read off the register, and the reply should be read against that rather than the other way round."
+  },
+  {
+   "n": 13,
+   "what": "Waiting on the Državni arhiv u Gospiću",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-13",
+   "note": "Sent 13 September, **acknowledged and queued on the 14th**, nothing since. Gospić holds Otočac and Karlobag — which is to say the Žubrinići and the Urode."
+  },
+  {
+   "n": 14,
+   "what": "Arolsen Archives — needs a browser this machine cannot provide",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-13",
+   "note": "`collections.arolsen-archives.org` refuses this machine. It is the likeliest route to anything on **Senj, 1943**, and it has never been searched. Ten minutes in an ordinary browser."
+  },
+  {
+   "n": 15,
+   "what": "The alphabet nodes are probably not only a Žubrinić problem",
+   "state": "next",
+   "owner": "the kit & estate session",
+   "since": "2026-09-15",
+   "note": "Fifteen nodes named with a single capital letter — **«M Žubrinić Xubrinich Zubrinic»** — were being published as parents of 75 real people and as one another's siblings. A card index typed in as a family. Both the bucket detector and the site's junk filter now refuse them, **but all seven archives share one GEDCOM**, and nothing here has checked whether the same drawers exist under Blažević, Papić, Prpić or Kalanj. **The test is four lines** and belongs in the kit rather than in this archive."
+  },
+  {
+   "n": 16,
+   "what": "Three methods found here that the other archives will need",
+   "state": "next",
+   "owner": "the kit & estate session",
+   "since": "2026-09-15",
+   "note": "**The index gives the image.** FamilySearch's record search returns the **image ARK** of every indexed entry, so a record opens at the page in one step instead of being hunted down a film — that single fact produced most of this week's findings. **A third FamilySearch failure state**: a sign-out takes *everything* (503, redirect to the sign-in host) where a rate-limit blip and a session block leave the catalogue answering — written into `tools/familysearch.md`. **And `sources/found.psv`**, somewhere to put people read out of a register whom the tree does not have; every archive here will hit that wall."
+  },
+  {
+   "n": 17,
+   "what": "Somebody else's uncommitted change is sitting in this working tree",
+   "state": "blocked",
+   "owner": "another session",
+   "since": "2026-09-14",
+   "note": "`site/public/styles.css` carries an uncommitted burger-menu fix that is not this archive's work. Every `git add` this week has been scoped to `sources/ tools/ site/src/ notes/ requests/` to avoid taking it. **It should be committed or discarded by whoever wrote it** — leaving it there means the next session either commits it blind or works around it again."
+  },
+  {
+   "n": 18,
+   "what": "Read the Otočac status animarum to find the Žubrinići",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "**Founded on a mistake and kept here rather than deleted.** Two sittings went into this book on the assumption it held the family. It does not: Šumećica occupies images 102–106, and every household in them is **Dašović, Štabinčić, Orehović, Janežić, Ollar, Kovačić or Orehovački** — no Žubrinić, no Domus 2, no Domus 24. The book gave the village map and a clean negative, and it will not give the house. **The baptism registers replaced it** — that is row 1."
+  },
+  {
+   "n": 19,
+   "what": "Find Juraj Blažević's baptism in the Krmpote film",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "**Founded on a mistake.** The plan named this «the reachable target» on the strength of a catalogued range of *1815–1896*. The film begins in **1879** and Juraj was born in the 1860s; Krmpote is one film, one item, and there is no other Krmpote book. Ledenice and Novi Vinodolski were checked the same way and hold no candidate. **What survives is the letter** — row 12."
+  },
+  {
+   "n": 20,
+   "what": "Harvest house numbers from the Otočac baptisms of 1834–46",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Founded on a mistake, and it was this archive's own.** The morning's plan said *every* entry writes the household into the *Conditio* column. **That book does not**: its *Conditio* holds one status word — *Confiniarius*, *Decurio* — checked at December 1839 and March 1845, with the place column giving only «Ottoccii». Ahnentafel 10's January 1834 entry is an early-book habit the parish dropped. **House numbers are readable for 1846–58 and for the first years of 1834, and not in between.**"
+  }
+ ]
+}
