@@ -1,29 +1,48 @@
 {
-  "_film": "005497948 — Selce, 802 images. Several books on one film under DIFFERENT waypoints: image 200 is a «HISTORIA PAROCHIAE», images ~380-400+ are the LIBER DEFUNCTORUM, image 600 is a later Croatian-ruled death register.",
-  "_index_warning": "The FamilySearch record index holds **baptisms only** for Selce — 119 indexed Antić entries, none of them deaths. The index-with-ARK shortcut does not work for this register; it has to be walked.",
-  "_how_to_get_an_ark": "https://www.familysearch.org/en/search/film/005497948?i=<N-1> then read the ARK out of document.title. Each navigation wipes injected page scripts, so re-inject the tile reader after every move.",
-  "_year_map": "Roughly 2.7 images per year through the 1870s-80s. Measured points below; interpolate, then check the printed page number and the year in the TEMPUS MORTIS column.",
-  "arks": {
-    "200": "3:1:3QS7-899X-13B5",
-    "384": "3:1:3QSQ-G99X-13CL",
-    "392": "3:1:3QSQ-G99X-138T",
-    "397": "3:1:3QSQ-G99X-1357",
-    "400": "3:1:3QSQ-G99X-13VP",
-    "600": "3:1:3QS7-899X-17KT"
-  },
-  "years": {
-    "200": "HISTORIA PAROCHIAE — parish history, not a register",
-    "384": "LIBER DEFUNCTORUM p. 118 — Aug to Nov 1877",
-    "397": "LIBER DEFUNCTORUM p. 144 — Feb to Jul 1882",
-    "400": "LIBER DEFUNCTORUM p. 150 — Nov 1883 into Feb 1884",
-    "600": "a later Croatian-ruled death register"
-  },
-  "_columns": "TEMPUS MORTIS (year over day+month, Croatian month names) · Nrus Domus (village + house number) · NOMEN DEFUNCTI et Conditio · sex/status ticks · age in years · remarks, which carry the burial date.",
-  "_found_here": "Ahnentafel 25 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja», Selce house 29, aged 73, died 6 July 1882, buried 7 July. Image 397, entry 21, ark 3:1:3QSQ-G99X-1357.",
-  "_still_wanted": {
-    "ahn 24": "Josephum Antić, died 21 October 1850 — interpolates to about image 311",
-    "ahn 48": "Joannis Antić, died 13 March 1829 — about image 254",
-    "ahn 49": "Margarita (Martha) Lončarić, died 15 July 1829 — same opening or near it",
-    "_caution": "Both 1829 estimates are far outside the measured range and the film changes books more than once; check the page heading before reading."
-  }
+ "_film": "005497948 — Selce, 802 images. Several books on one film under DIFFERENT waypoints: image 200 is a «HISTORIA PAROCHIAE», images ~380-400+ are the LIBER DEFUNCTORUM, image 600 is a later Croatian-ruled death register.",
+ "_index_warning": "The FamilySearch record index holds **baptisms only** for Selce — 119 indexed Antić entries, none of them deaths. The index-with-ARK shortcut does not work for this register; it has to be walked.",
+ "_how_to_get_an_ark": "https://www.familysearch.org/en/search/film/005497948?i=<N-1> then read the ARK out of document.title. Each navigation wipes injected page scripts, so re-inject the tile reader after every move.",
+ "_year_map": "NOT 2.7 images per year. Measured: 311 = 1834, 338 = early 1849, 339-340 = Sept-Oct 1850, 341 = 1851-52, 384 = 1877, 397 = 1882, 400 = 1883-84. That is about 1.7 images per year through the 1830s-50s and 2.7 through the 1870s-80s. Interpolate, then CHECK the printed page number and the year in TEMPUS MORTIS.",
+ "arks": {
+  "200": "3:1:3QS7-899X-13B5",
+  "384": "3:1:3QSQ-G99X-13CL",
+  "392": "3:1:3QSQ-G99X-138T",
+  "397": "3:1:3QSQ-G99X-1357",
+  "400": "3:1:3QSQ-G99X-13VP",
+  "600": "3:1:3QS7-899X-17KT",
+  "311": "3:1:3QS7-899X-1Q6X",
+  "338": "3:1:3QSQ-G99X-13RY",
+  "339": "3:1:3QS7-L99X-1QHC",
+  "340": "3:1:3QSQ-G99X-13PY",
+  "341": "3:1:3QSQ-G99X-1QMZ",
+  "342": "3:1:3QS7-L99X-1QQJ"
+ },
+ "years": {
+  "200": "HISTORIA PAROCHIAE — parish history, not a register",
+  "384": "LIBER DEFUNCTORUM p. 118 — Aug to Nov 1877",
+  "397": "LIBER DEFUNCTORUM p. 144 — Feb to Jul 1882",
+  "400": "LIBER DEFUNCTORUM p. 150 — Nov 1883 into Feb 1884",
+  "600": "a later Croatian-ruled death register",
+  "311": "LIBER DEFUNCTORUM — Jan to Jun 1834, in Latin, about four entries to a page",
+  "338": "January to March 1849, now in CROATIAN («Godista 1849 na 9 Sečna»)",
+  "339": "pages 97-98 — «mens. 7bri & 8bri 1850», 30 Rujna to about 9 Listopada 1850",
+  "340": "pages 98-99 — «mens. 8ber & 9ber 1850», 10 to 21 October 1850. THE CHOLERA PAGES: the remarks column reads «Od kolere» down the sheet.",
+  "341": "pages 100-101 — Feb to Aug 1851 (left) and 1852 (right). Only about nine entries to the year: the epidemic is over.",
+  "342": "a denser, older-looking section — the film is not strictly one book here"
+ },
+ "_columns": "TEMPUS MORTIS (year over day+month, Croatian month names) · Nrus Domus (village + house number) · NOMEN DEFUNCTI et Conditio · sex/status ticks · age in years · remarks, which carry the burial date.",
+ "_found_here": [
+  "Ahnentafel 25 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja», Selce house 29, aged 73, died 6 July 1882, buried 7 July. Image 397, entry 21, ark 3:1:3QSQ-G99X-1357.",
+  "Ahnentafel 24 — «Letta 850. na 21. 8bre · Nrus Domus 74 · Preminu Osip Antić težak i Mare kćer · 44 / 6 · Od kolere». Page 99, image 340, ark 3:1:3QSQ-G99X-13PY. One entry for father and six-year-old daughter. Age 44 agrees with the tree's birth of 14 Mar 1806. See notes/selce-cholera-1850.md.",
+  "A by-name — «Vincentius Jurich, aliter Loveranich», Selce house 58, died 21 March 1834 aged 55. Image 311, ark 3:1:3QS7-899X-1Q6X."
+ ],
+ "_still_wanted": {
+  "ahn 48": "Joannis Antić, died 13 March 1829 — now interpolates to about image 302 (311 = 1834, ~1.7 images/year)",
+  "ahn 49": "Margarita (Martha) Lončarić, died 15 July 1829 — same opening or near it",
+  "ahn 96": "Joannis Antić, died 27 February 1793",
+  "ahn 98": "Pauli Lončarić, died 29 September 1811",
+  "ahn 99": "Anna Papić, died 24 August 1807",
+  "_caution": "The pre-1830 estimates are far outside the measured range and the film changes books more than once; check the page heading before reading."
+ },
+ "_page_numbers": "The printed page number sits in the TOP OUTER CORNER of each leaf and only the right-hand leaf carries it legibly: image 340's right leaf is 99, image 341's right leaf is 101, so the leaf between them is 100. Use this to prove a date gap is a real gap and not a missing page BEFORE writing any negative."
 }
