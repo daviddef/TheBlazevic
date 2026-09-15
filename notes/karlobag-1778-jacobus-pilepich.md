@@ -71,3 +71,40 @@ Augusti, folio 106*.
 with no document of any kind. **These are index lines, not register entries**,
 and none of them has been opened. They are recorded here as a list of places to
 look, and nothing more.
+
+---
+
+## And a second ancestor, found because the index knows about by-names
+
+**Ahnentafel 212 is read.** Karlobag *Umrli 1774–1804*, **folio 11**, image
+**361**, ARK `3:1:3QS7-L99C-G3WG`:
+
+> «**16 ejusdem** [*Maij* 1776] · **Josephus Smojver dictus Vukcich, annorum
+> 45**, munitus omnibus [Sacramentis] … in Domino obijt, **atque die 17** … in
+> **Coemeterio Parochiali** … tumulatus.»
+
+**16 May 1776 is the tree's date to the day**, and *annorum 45* puts his birth
+between May 1730 and May 1731 where the tree says **1731**. He was buried the
+next day, in the parish cemetery — not, like the port captain, inside the church.
+
+**What found him is the thing worth keeping.** He is not in the **S** columns
+where a Smojver belongs — or rather, the S columns were read down to about folio
+9 and the sitting turned away before folio 11. He was found under **V**:
+
+> «**Vukich — vide Smojver — 16: Maij — folio 11**»
+
+**The KAZALO indexes by-names as headwords and cross-references them.** The
+scribe wrote *Vukić* in the index, then *vide Smojver* to send the reader to the
+surname. The same page does it again for another family: «*Verbanovich Margarita
+… **vide Urbanovich** … 15 9bris*».
+
+**That changes how this index should be used.** A surname missing from its own
+letter is not absent from the book — **it may be filed under the household's
+by-name, in another letter entirely, with a *vide* pointing back**. For a family
+this archive already knows by two names — [*Smoyver vulgò Vukić*](karlobag-1781-oliva-smojver.md),
+read on the 1781 baptism of ahnentafel 53 — that is not a curiosity. It is the
+difference between finding an ancestor and writing a null.
+
+**And the register agrees with the baptism, with a different connector.** 1776
+says ***dictus* Vukcich**; 1781 says ***vulgò* Vukić**. Same pair, two
+connectors, five years apart, in the same parish.

@@ -2,6 +2,26 @@
  "rows": [
   {
    "surname": "Smojver",
+   "conn": "dictus",
+   "byname": "Vukčić",
+   "written": "Josephus Smojver dictus Vukcich",
+   "place": "Karlobag",
+   "year": 1776,
+   "underlined": "n",
+   "source": "death of ahn 212, 16 May 1776, aged 45 — five years before the «vulgò Vukić» of the 1781 baptism, same pair, different connector; ark 3:1:3QS7-L99C-G3WG"
+  },
+  {
+   "surname": "Smojver",
+   "conn": "vide",
+   "byname": "Vukić",
+   "written": "Vukich vide Smojver, 16: Maij, folio 11",
+   "place": "Karlobag",
+   "year": 1776,
+   "underlined": "n",
+   "source": "the KAZALO of the Umrli 1774-1804 indexes the BY-NAME as a headword and cross-references it to the surname; the same page does it for «Verbanovich … vide Urbanovich»; ark 3:1:3QS7-899C-GS54"
+  },
+  {
+   "surname": "Smojver",
    "conn": "vulgò",
    "byname": "Vukić",
    "written": "ex Vincentio, et Oliva Smoyver, vulgò Vukić, Conjugibus",
@@ -279,13 +299,17 @@
   {
    "surname": "Smojver",
    "byname": "Vukić"
+  },
+  {
+   "surname": "Smojver",
+   "byname": "Vukčić"
   }
  ],
- "nPairs": 17,
+ "nPairs": 18,
  "nSurnames": 13,
  "nUnderlined": 8,
  "years": [
-  1781,
+  1776,
   1885
  ],
  "places": [
@@ -296,6 +320,10 @@
   "Vrbnik or Selce"
  ],
  "byYear": [
+  [
+   1776,
+   2
+  ],
   [
    1781,
    1
