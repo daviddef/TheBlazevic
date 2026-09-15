@@ -289,6 +289,17 @@ def main():
                         "so there is no register to open. **The wall here is a place, "
                         "not a name.**")
 
+        # A «why» only reached the page when it arrived with a «place», because
+        # it was written as the second half of "a document places them, and here
+        # is the document". A wall can need a sentence without needing to move:
+        # Smiljan and Montani Stanište both got one on 15 September 2026 saying
+        # what had been established about the village and what had not, and both
+        # were parsed and then dropped on the floor. It is appended on its own
+        # now, and skipped where placed_by_document has already printed it.
+        why = over.get(n, {}).get("why")
+        if why and not placed_by_document:
+            bits.append(why)
+
         note = " ".join(bits)
         label = over.get(n, {}).get("label") or label
         note = over.get(n, {}).get("note") or note
