@@ -2,7 +2,7 @@
  "title": "The work list",
  "dek": "What is being done here, as opposed to what is known.",
  "lead": "Every other register in this archive answers what is **known** — [what has been searched](/searched/), [what is still open](/open-questions/), [what was got wrong](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. Three times in one week someone asked this archive what it was working on, and three times the answer was typed out and then lost. This is that answer, written down. It is deliberately short on findings and long on **who has to move each thing** — an item with no owner is how a list becomes wallpaper.",
- "close": "Written 15 September 2026, in the shape the Defranceschi session settled on, so that eight archives keep one list rather than eight people each inventing one.",
+ "close": "Written 15 September 2026, in the shape the Defranceschi session settled on, so that eight archives keep one list rather than eight people each inventing one.\n\n**Extended the same day into a roadmap.** The first twenty-two rows were what happened to be in hand. Rows 23 to 48 were built instead from what the archive already knows about itself: `coverage.json` says **34 of the 70 direct ancestors have no document**; `targets.json` ranks every filmed book by how many of them it would reach; `consistency.json` and `impossible.json` hold **116 contradictions** the tree has never been asked to explain. The rows are in yield order, and the yield is measured rather than guessed — **Karlobag deaths reach ten direct ancestors and that book's A–Z index is already mapped to the letter**, which is why it is row 23 and not row 40.\n\nThree of them are not research at all but the conditions for it: **twenty-one ancestors have no place recorded**, so no film can be chosen for them (row 34); **a DGS number does not reliably name a book** (row 42); and **nobody has written down which parish the record index covers**, so every sitting rediscovers whether its next job is an hour or a week (row 43).",
  "rows": [
   {
    "n": 1,
@@ -179,6 +179,214 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "`sources/found.psv` holds **seventeen people read out of a register whom the tree does not have**, two of them on the direct line, and `tools/found.py` builds `site/src/data/found.json` on every regeneration. **No page imports it.** The data is generated, gated and invisible.\n\nFound while adding five Otočac children to it and trying to link `/searched` at the page that shows them — the register gate refused the link because there is no such page, which is the gate doing exactly what it is for.\n\nThis matters more than a missing page usually would: the whole argument for `found.psv` is that a person read out of a register should stand **beside** the tree rather than be pushed into it. A file nobody can read does not stand anywhere. It wants the same treatment as `/corrections` and `/open-questions` — one page, grouped by family, each row carrying its citation."
+  },
+  {
+   "n": 23,
+   "what": "Karlobag deaths 1774–1804, led by the book's own A–Z index",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The highest-yield target in the archive, and it is already mapped.** `targets.json` says the Karlobag death books reach **ten direct ancestors** — ahnentafel 52, 55, 104, 105, 107, 108, 110, 111, 212 and 220 — more than any other book here. Four of them have **exact death dates inside the 1774–1804 volume**: ahn 212 Josiph Smojver Vukić **16 May 1776**, ahn 104 Jacob Pilipić **10 April 1778**, ahn 220 Nicolaus Gerkacs **30 October 1783**, ahn 105 Catherina Luckinić **29 May 1790**. Ahn 108's burial of 10 September 1791 is already read out of this same book.\n\n**And it needs no walking.** `holdings.psv` records the register at images **356–409** and its **KAZALO A–Z at 410–434, with the letter positions measured** — P.R at 428, R.S 429, S.T 430, T.U 431, U.V 432, V.X 433. Look up *Pilipić*, *Smojver*, *Gerkacs* and *Luckinić* in the index, take the folium, convert with the known folio map (left pages EVEN, folio 62 = image 388), and read four ancestors in an afternoon."
+  },
+  {
+   "n": 24,
+   "what": "Karlobag deaths 1804–1861 — the later half of the same ten",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The other half of row 23's ten. Ahnentafel **52** (Josephus Pilipić, d. 26 June 1828), **55** (Maria Gerkacs, d. 6 August 1834 — the entry already quoted here as «uxor piscatoris Georgii Uroda», but never read out in full), and **111** (Lucia Tomljanović, d. 19 September 1809) all fall in the 1804–1861 volume, which has **its own index** on the same film. Do it after row 23, with the index technique already proved."
+  },
+  {
+   "n": 25,
+   "what": "Selce deaths — the six direct ancestors still unread",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Row 3 read ahnentafel 25 and mapped the film. **Six remain in the same book**: ahn **24** (Josephum Antić, 21 Oct 1850), **48** (Joannis Antić, 13 Mar 1829), **49** (Margarita Lončarić, 15 Jul 1829), **96** (Joannis Antić, 27 Feb 1793), **98** (Pauli Lončarić, 29 Sep 1811) and **99** (Anna Papić, 24 Aug 1807). `targets.json` scores this book **19 reachable of 19** — the only book in the archive where every reachable person is a direct ancestor or their sibling.\n\n**The catch is that Selce is not indexed for deaths** (row 43), so this is a walk. The measured points are in `sources/familysearch/film-005497948-selce-deaths.json`: 384 = 1877, 397 = 1882, 400 = 1883–84, about 2.7 images to the year. The 1790s and 1800s entries sit far outside that range and the film changes books more than once."
+  },
+  {
+   "n": 26,
+   "what": "Karlobag baptisms — the seven direct ancestors still unread",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The Karlobag birth books reach **nine** direct ancestors (13, 26, 27, 52, 53, 54, 55, 105, 106); ahnentafel 53 was read on 15 September. **Seven left**, and three of them — 54 (b. 22 Apr 1777), 105 (b. 30 Mar 1727) and 106 (b. 18 Jan 1754) — have exact birth dates to aim at. The 1771–1804 volume's arks and the route into it are in `sources/familysearch/film-karlobag-baptisms-1771-1804.json`; **note that its film number is not the one `holdings.psv` gives** (row 42)."
+  },
+  {
+   "n": 27,
+   "what": "Otočac baptisms 1834–1858 — ninety-one reachable, and two ancestors",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`targets.json` scores this book **135 people, 91 reachable**, second only to Novi Vinodolski, and it carries ahnentafel **10** and **21**. It is also the book whose *Conditio* column produced the seven Šumećica and Prozor households in row 1 — so every entry read here pays twice, once for the person and once for the house number. The index covers it (that is how row 1 was done), so this is index-led, not a walk."
+  },
+  {
+   "n": 28,
+   "what": "Otočac deaths — ahnentafel 40 at Šumećica N° 2, and ahnentafel 20",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Ahnentafel 40, Toma Žubrinić, died 4 January 1838 and the tree places him at «Šumećica 2»** — the same house the 1856 and 1858 baptisms of row 1 put Nicolaus Žubrinić in. A death entry naming the house would **tie the direct line to a house number that is currently only inferred**, which is the whole of question 4. Otočac deaths run 1780–1836 and 1834–1858, so January 1838 is in the second book. `targets.json` also puts ahnentafel **20** in these books."
+  },
+  {
+   "n": 29,
+   "what": "Senj baptisms 1734–1894 — seventy-three reachable, and ahnentafel 3 and 6",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**94 people, 73 reachable**, carrying ahnentafel **3** and **6** — the closest generations to Seka herself that are still unread. The Senj marriage books have been verified end to end, so the parish is known ground; the baptisms have only been sampled. Note the hard edge: **Senj births stop at 1894**, which is what makes questions 1e and 5b unreachable (row 33 of the register's «unreachable» list) and why the Senj parish letter was written."
+  },
+  {
+   "n": 30,
+   "what": "Senj deaths 1820–1907 — thirty-one reachable, and three ancestors",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**53 people, 31 reachable**, with ahnentafel **8**, **26** and **27**. Ahn 27 is Matia Uroda, born 23 April 1810 — the daughter whose birth date fixed the 1807 marriage in row 2 — and her death is the other end of that life. The book stops at **1907**, which is why Zvonimir Vukelić's 1915 death is unreachable and is in the Rijeka letter."
+  },
+  {
+   "n": 31,
+   "what": "Krivi Put baptisms 1847–1884 — fifty-eight reachable, and ahnentafel 7",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**100 people, 58 reachable**, carrying ahnentafel **7**. Only one Krivi Put page has ever been opened here (the 1859 baptisms, recorded *partial*). The catalogue range was verified on 14 September, so the book is known to cover the window."
+  },
+  {
+   "n": 32,
+   "what": "Novi Vinodolski 1650–1900 — the largest reach in the archive, and no ancestor in it",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**132 people, 120 reachable — the highest count of any book here — and not one direct ancestor.** That combination is exactly why it keeps being deferred, and exactly why it should be done deliberately rather than by accident: it is **breadth, not depth**, and it would settle a great many collateral lines at once. It is also the **earliest register in the estate** — the 1650 book was opened once and its earliest leaves are in **Croatian, not Latin**, which is a finding in its own right. Do it when the direct line is exhausted, or when a wet afternoon wants volume."
+  },
+  {
+   "n": 33,
+   "what": "Krmpote-Vodice and Ledenice births — the Blažević side",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The two Blažević ancestors without a document, **ahn 16 (Anton) and ahn 32 (Ilija, b. 1790)**, are both placed at **Smokvica Krmpotska**. Krmpote-Vodice births score 15 reachable and Ledenice 15 more. **The trap is recorded and must be respected**: Krmpote's catalogue label says 1815 and **the film actually begins in 1879** — verified by opening it — so Ilija of 1790 is *not* in it. Ledenice (1734–1894) is the book that could hold him, and Krmpote is administered from Ledenice to this day."
+  },
+  {
+   "n": 34,
+   "what": "Twenty-one direct ancestors have no place at all",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Of the **34 direct ancestors without a document**, **21 have no place recorded — not a village, not a parish, in several cases not a date either**: ahn 22, 41, 64, 80, 84, 85, 86, 87, 97, 100, 101, 102, 103, 109, 128, 210, 211, 213, 427, 428, 429. **No amount of film-reading reaches them**, because nothing says which film to open. This row is the precondition for half the rows above it.\n\nThe method that works is the one that found ahnentafel 55's father: **a person with no record of their own is named in their child's**. Every one of these twenty-one has a child in the tree; the child's baptism or marriage entry names the parent and usually the village. So the job is to **work down from the children**, not up from the parents."
+  },
+  {
+   "n": 35,
+   "what": "Gologorica is «unknown» in the parish table, and twenty-three people sit behind it",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`parishes.psv` carries **Gologorica** with *unknown* in all three range columns and the note «Istria — likely a different collection entirely». `targets.json` puts **23 people** behind it. It is the only parish in the table that has never been resolved at all. One catalogue search decides whether it is reachable or whether it joins the unreachable list honestly."
+  },
+  {
+   "n": 36,
+   "what": "Twenty-five children born after a parent had died",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`consistency.json` holds **71 contradictions** and the largest class is **child-after-parent-death, 25 of them**. Each is either a wrong date, a wrong link, or two people merged into one — and this archive has already found all three kinds. They are cheap to triage against the register readings now on disk, and every one resolved either corrects the tree or produces a `corrections` row."
+  },
+  {
+   "n": 37,
+   "what": "Twenty-four parents who were too young",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The second and fourth classes in `consistency.json`: **parent-too-young (16)** and **parent-under-seventeen (8)**. In a district where the register routinely records a bride's age, these are testable rather than arguable — and the commonest cause in this tree so far has been **a grandparent and a parent sharing a name**, which is precisely the trap row 1 documented for the Otočac Michaels."
+  },
+  {
+   "n": 38,
+   "what": "Ten children born before their parent was born",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`consistency.json`'s **child-before-parent-birth, 10 rows** — plus the singletons **died-before-born**, **impossible-generation-gap** and **married-before-birth**. These cannot be softened by interpretation the way an age gap can; each is a definite error in the data and should be resolved or struck."
+  },
+  {
+   "n": 39,
+   "what": "Forty-five impossible rows, twenty-seven of them at the record level",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`impossible.json` carries **45 rows** in four causes: **record 27**, **generation 9**, **hedged 5**, **namesake 4**. The *namesake* four are the same class of problem as the seven Michael Žubrinići, and the method that separated them — **the house number in the Conditio column** — now exists. Worth re-running the four against what row 1 established before treating them as insoluble."
+  },
+  {
+   "n": 40,
+   "what": "Fifty-one duplicate groups, twenty-three of them live",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`duplicates.json`: **51 groups**, of which **23 are live** and 28 already rejected. A live duplicate group is two tree records that may be one person — which is the same question as the two Georgius Urode and the seven Michaels, and it now has a settled method. **28 have already been rejected**, so the remaining 23 are the hard ones and deserve the register rather than judgement."
+  },
+  {
+   "n": 41,
+   "what": "Re-sweep for by-names now the connector list is wider",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The by-name file was built out of **Selce and its neighbours**, where the connectors are *aliter · dictus · dicti* and the scribe **underlines** the pair. Karlobag, found on 15 September, uses ***vulgò*** and does **not** underline. So the sweep that produced 17 phrases **was looking for the wrong shape in every parish except one**. Re-run it across the pages already read with the connector list widened — *vulgò · alias · rečeni · zvani* — and against the surnames the tree carries as double-barrelled, which is where a by-name hides once it has been absorbed (ahnentafel 106 «Smojver Vukić» was exactly that)."
+  },
+  {
+   "n": 42,
+   "what": "Audit the film numbers in holdings.psv against the actual films",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A film number in this archive does not reliably name a book.** `holdings.psv` gives DGS **5481648** as the Karlobag 1691–1804 baptisms; opened by that number it has **596 images** and image 216 is headed **«Godine 1845»**. The 1771–1804 baptisms are under a different waypoint entirely. `notes/karlobag-films.md` describes the same film as **327 images**. Film 005497948 turned out to be **802 images and at least three books, with the waypoint changing between images**.\n\nSo: **walk every DGS number in `holdings.psv`, open it, record its image count and what its first, middle and last openings actually are, and store an ARK for each landmark** — because an ARK resolves to exactly one image and a DGS number demonstrably does not resolve to exactly one book."
+  },
+  {
+   "n": 43,
+   "what": "Map which parishes the record index covers, and for which events",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The index-with-ARK method closed rows 1, 2 and 5 in minutes and was **useless for row 3**: a sweep for *Antić* at Selce returns **119 indexed entries and every one is a baptism**. Karlobag is indexed for baptisms **and** deaths, back to 1717. Otočac is indexed for baptisms. **Nobody has written down which parish is indexed for what**, so every sitting rediscovers it.\n\nOne query per parish per event type, ~20 queries, and the answer belongs in `parishes.psv` as a fourth column. It decides, for every row above, whether the work is an index lookup or a film walk — which is the difference between an hour and a week."
+  },
+  {
+   "n": 44,
+   "what": "Twenty-five villages in the targets file are unplaced",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`targets.json` carries **25 unplacedVillages** — place strings from the tree that no parish in `parishes.psv` claims. Each one is either a spelling the gazetteer does not fold, a village in a parish not yet in the table (which is how **Bribir** and **Sv. Juraj** were added on 14 September), or a place outside this family's districts. Until they are placed, the people standing on them cannot be routed to a book."
+  },
+  {
+   "n": 45,
+   "what": "Re-grade the thirty-one walls after this week's reading",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`walls.json` carries **31 walls** — 9 unplaced, 7 nameless, 6 outside, 4 unchecked at the last count. **This week moved several of them**: ahnentafel 53, 54 and 55 gained documents, ahnentafel 25 gained a death, and the Karlobag and Selce film ranges are now verified rather than assumed. A wall that has quietly stopped being a wall is worse than one that never was, because it goes on deterring work."
+  },
+  {
+   "n": 46,
+   "what": "Fifty-six of the seventy-two graveyard memorials match nobody",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`graves.json` holds **72 memorials from the Otočac cemetery survey** and **only 16 are matched to a person**. The other 56 are photographed, transcribed and unattached. Some will be collateral lines, some will be the *found* people of row 47, and some will be strangers — but they were photographed on the ground at cost and they are the only source here that nobody else can re-read.\n\nThe house numbers from row 1 give a new handle: a stone naming a Žubrinić of Šumećica or Prozor can now be tested against seven known households."
+  },
+  {
+   "n": 47,
+   "what": "Decide which of the eighteen found people are really tree people",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`found.psv` holds **18 people read out of a register whom the tree does not have, two of them on the direct line**. But «the tree does not have them» was established by name-matching, and **this archive has already been wrong about exactly that**: on 15 September a check concluded that none of six Karlobag wives was in the tree, when all six were there as **parent references with no page of their own**. Searching `people.json` is not searching the tree.\n\nSo each of the 18 needs re-testing against parent and spouse references, not just published names — and the ones that survive are then candidates to be offered to the GEDCOM rather than kept beside it. Pairs with row 22, which publishes them."
+  },
+  {
+   "n": 48,
+   "what": "Two emigration threads with no route in",
+   "state": "next",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "Both are in the register as *pending* and neither can move without a decision that is not this archive's to make. **FindMyPast — Port Pirie electoral rolls**: eleven of nineteen read, and the trial expired before the rest; the rolls give an address and an occupation year by year, which is how a household is watched over time. **Southern Rhodesian immigration 1953–65**: an entire country known from two words on a later record, and **no route into it has been identified at all** — which is a different thing from having searched and found nothing. Both want either a subscription or a decision to let them stand as honest nulls."
   }
  ]
 }
