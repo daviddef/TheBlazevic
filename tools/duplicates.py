@@ -107,6 +107,25 @@ def parents(pid):
     return out
 
 
+def parent_surnames(pid):
+    """Each parent's SURNAME tokens — what parents() deliberately throws away.
+
+    parents() folds a parent to their given names, which is right for the veto:
+    Michael and Michaelis are one man and comparing surnames would not help. For
+    the CONFIRMATION it is the wrong half of the name. Both mothers of the two
+    Alexander Zubrinics of 14 March 1839 reduce to «magdalena» — one is
+    Oreskovic and the other Drazenovic, and only the surname says so.
+    """
+    out = {"husb": set(), "wife": set()}
+    for f in (P[pid].get("famc") or []):
+        fam = F.get(f, {})
+        for role in ("husb", "wife"):
+            o = fam.get(role)
+            if o in P and not BUCKET.search(gedcom.display(P[o]) or ""):
+                out[role] |= set((fold(P[o].get("surname") or "") or "").split())
+    return out
+
+
 def same_but_spelling(a, b):
     """Two spellings of one name on otherwise identical records."""
     ba, bb = gedcom.born(P[a]), gedcom.born(P[b])
@@ -122,6 +141,63 @@ def same_but_spelling(a, b):
     ga = (fold(P[a].get("given") or "") or "").split()
     gb = (fold(P[b].get("given") or "") or "").split()
     return bool(ga and gb and ga[0][:3] == gb[0][:3])
+
+
+# Which folded tokens are GIVEN names. The archive already keeps this vocabulary
+# for its own Latin-to-Croatian folding, so the duplicate tool can borrow it
+# rather than invent a second list that drifts from the first.
+def _given_vocab():
+    import json as _json
+    try:
+        gn = _json.load(open(os.path.join(ROOT, "site", "src", "data", "givennames.json"),
+                             encoding="utf-8"))
+    except Exception:
+        return set()
+    out = set()
+    for key, variants in (gn.get("groups") or {}).items():
+        out.add(fold(key))
+        for v in variants:
+            out.add(fold(v))
+    return out
+
+
+GIVEN = _given_vocab()
+
+
+def parents_agree(ids):
+    """True when every record names the same father and the same mother.
+
+    parents_conflict is the veto; this is the confirmation, and the tool had only
+    the veto. Two records sharing a birth DAY, a village and BOTH parents are one
+    child written twice — Catharina Zubrinic of 20 November 1840 is Mate x Anna
+    Mudrovcic in both copies and there is nothing left for a second Catharina to
+    be. A group that passes needs no register.
+
+    Given names are compared as parents() compares them, by overlap, because
+    Michael and Michaelis are one man. But SURNAMES must not disagree, and at
+    least one parent must be proved by one: «Magdalena Oreskovic» and «Magdalena
+    Mande Drazenovic» both reduce to «magdalena», and they are two women. Without
+    that test Alexander Zubrinic of 14 March 1839 is declared one boy when he is
+    two boys born the same day to two different Michaels — the seven-Michaels
+    trap in miniature.
+    """
+    surname_seen = False
+    for role in ("husb", "wife"):
+        given = [n for n in (parents(i)[role] for i in ids) if n]
+        if len(given) < 2:
+            return False
+        for a in range(len(given)):
+            for b in range(a + 1, len(given)):
+                if not overlap(given[a], given[b]):
+                    return False
+        sur = [n for n in (parent_surnames(i)[role] for i in ids) if n]
+        for a in range(len(sur)):
+            for b in range(a + 1, len(sur)):
+                if not overlap(sur[a], sur[b]):
+                    return False
+        if len(sur) >= 2:
+            surname_seen = True
+    return surname_seen
 
 
 def parents_conflict(ids):
@@ -248,6 +324,8 @@ for (sur, giv, by), ids in buckets.items():
         tier = "rejected — different parents"
     elif len(dys) > 1:
         tier = "rejected — two death years"
+    elif len(firm) == 1 and all(full_date(P[i]) for i in ids) and parents_agree(ids):
+        tier = "same day and same parents"
     elif len(firm) == 1 and all(full_date(P[i]) for i in ids):
         tier = "same day"
     elif len(places) == 1:
@@ -264,9 +342,9 @@ for (sur, giv, by), ids in buckets.items():
         "dyears": sorted({gedcom.year(gedcom.died(P[i]).get("date", "")) for i in ids} - {None}),
     })
 
-TIER = {"same day": 0, "same year and place": 1, "same year only": 2,
-        "rejected — two death years": 3,
-        "rejected — different parents": 4}
+TIER = {"same day and same parents": 0, "same day": 1, "same year and place": 2, "same year only": 3,
+        "rejected — two death years": 4,
+        "rejected — different parents": 5}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -276,7 +354,7 @@ print(f"{len(pub)} published people across {len(GROUPS)} surname groups")
 print(f"{len(live)} duplicate groups holding {extra} surplus records; "
       f"{len(rejected)} rejected as two people sharing a name\n")
 by_tier = collections.Counter(g["tier"] for g in groups)
-for t in ("same day", "same year and place", "same year only",
+for t in ("same day and same parents", "same day", "same year and place", "same year only",
           "rejected — two death years", "rejected — different parents"):
     n = by_tier.get(t, 0)
     print(f"  {t:<20} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")

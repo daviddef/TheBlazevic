@@ -1,6 +1,118 @@
 {
  "groups": [
   {
+   "tier": "same day and same parents",
+   "surname": "zubrinic",
+   "given": "catharina",
+   "byear": 1840,
+   "n": 2,
+   "place": "Otočac",
+   "date": "20 NOV 1840",
+   "ids": [
+    "@I511522@",
+    "@I511771@"
+   ],
+   "names": [
+    "Catharina Žubrinić",
+    "Catharina Žubrinić"
+   ],
+   "slugs": [
+    "catharina-zubrinic-5",
+    "catharina-zubrinic-7"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "zubrinic",
+   "given": "josephus",
+   "byear": 1845,
+   "n": 2,
+   "place": "Otočac",
+   "date": "16 MAR 1845",
+   "ids": [
+    "@I504587@",
+    "@I511488@"
+   ],
+   "names": [
+    "Josephus Žubrinić",
+    "Josephus Žubrinić"
+   ],
+   "slugs": [
+    "josephus-zubrinic",
+    "josephus-zubrinic-2"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "zubrinic",
+   "given": "francisca",
+   "byear": 1846,
+   "n": 2,
+   "place": "Otočac",
+   "date": "6 MAR 1846",
+   "ids": [
+    "@I511485@",
+    "@I511503@"
+   ],
+   "names": [
+    "Francisca Žubrinić",
+    "Francisca Žubrinić"
+   ],
+   "slugs": [
+    "francisca-zubrinic-5",
+    "francisca-zubrinic-7"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "zubrinic",
+   "given": "nicolaus",
+   "byear": 1847,
+   "n": 2,
+   "place": null,
+   "date": "3 AUG 1847",
+   "ids": [
+    "@I506520@",
+    "@I511645@"
+   ],
+   "names": [
+    "Nicolaus Žubrinić",
+    "Nicolaus Žubrinić Xubrinich"
+   ],
+   "slugs": [
+    "nicolaus-zubrinic",
+    "nicolaus-zubrinic-xubrinich-2"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "zubrinic",
+   "given": "katalyn",
+   "byear": 1886,
+   "n": 2,
+   "place": "Port Pirie",
+   "date": "26 JUL 1886",
+   "ids": [
+    "@I510442@",
+    "@I508290@"
+   ],
+   "names": [
+    "Katalyn Zubrinich",
+    "Kate Zubrinich"
+   ],
+   "slugs": [
+    "katalyn-zubrinich",
+    "kate-zubrinich"
+   ],
+   "dyears": [
+    1927
+   ]
+  },
+  {
    "tier": "same day",
    "surname": "kalanj",
    "given": "danijel",
@@ -45,118 +157,6 @@
     "alexander-zubrinic-2"
    ],
    "dyears": []
-  },
-  {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "catharina",
-   "byear": 1840,
-   "n": 2,
-   "place": "Otočac",
-   "date": "20 NOV 1840",
-   "ids": [
-    "@I511522@",
-    "@I511771@"
-   ],
-   "names": [
-    "Catharina Žubrinić",
-    "Catharina Žubrinić"
-   ],
-   "slugs": [
-    "catharina-zubrinic-5",
-    "catharina-zubrinic-7"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "josephus",
-   "byear": 1845,
-   "n": 2,
-   "place": "Otočac",
-   "date": "16 MAR 1845",
-   "ids": [
-    "@I504587@",
-    "@I511488@"
-   ],
-   "names": [
-    "Josephus Žubrinić",
-    "Josephus Žubrinić"
-   ],
-   "slugs": [
-    "josephus-zubrinic",
-    "josephus-zubrinic-2"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "francisca",
-   "byear": 1846,
-   "n": 2,
-   "place": "Otočac",
-   "date": "6 MAR 1846",
-   "ids": [
-    "@I511485@",
-    "@I511503@"
-   ],
-   "names": [
-    "Francisca Žubrinić",
-    "Francisca Žubrinić"
-   ],
-   "slugs": [
-    "francisca-zubrinic-5",
-    "francisca-zubrinic-7"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "nicolaus",
-   "byear": 1847,
-   "n": 2,
-   "place": null,
-   "date": "3 AUG 1847",
-   "ids": [
-    "@I506520@",
-    "@I511645@"
-   ],
-   "names": [
-    "Nicolaus Žubrinić",
-    "Nicolaus Žubrinić Xubrinich"
-   ],
-   "slugs": [
-    "nicolaus-zubrinic",
-    "nicolaus-zubrinic-xubrinich-2"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "katalyn",
-   "byear": 1886,
-   "n": 2,
-   "place": "Port Pirie",
-   "date": "26 JUL 1886",
-   "ids": [
-    "@I510442@",
-    "@I508290@"
-   ],
-   "names": [
-    "Katalyn Zubrinich",
-    "Kate Zubrinich"
-   ],
-   "slugs": [
-    "katalyn-zubrinich",
-    "kate-zubrinich"
-   ],
-   "dyears": [
-    1927
-   ]
   },
   {
    "tier": "same year and place",

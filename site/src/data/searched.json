@@ -12,7 +12,7 @@
   "nothing": 15,
   "partial": 18,
   "pending": 7,
-  "yield": 50
+  "yield": 51
  },
  "read": [
   {
@@ -329,6 +329,32 @@
   }
  ],
  "rows": [
+  {
+   "src": "The twenty-three live duplicate groups, worked",
+   "key": "self/duplicates",
+   "url": "/duplicates/",
+   "what": "Which of them a register would settle, and which the data already does",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "duplicates",
+    "zubrinic",
+    "method"
+   ],
+   "got": "**Six settled without opening a register, and one of the six turned out to be two people.**\n\n`duplicates.py` had a veto and no confirmation. **`parents_conflict`** rejects a group when two records name parents who share no name — the test that stopped this archive announcing that its own great-great-grandfather was a duplicate. But two records naming **the same** parents stayed «live» exactly like two naming nobody at all.\n\n**A new tier, `same day and same parents`, takes five of them**: Catharina Žubrinić 20 Nov 1840, Josephus 16 Mar 1845, Francisca 6 Mar 1846, Nicolaus 3 Aug 1847, and Katalyn/Kate Zubrinich of Port Pirie 26 Jul 1886 — same day, same village, same father, same mother. **Danijel Kalanj, 2 November 1829**, is plainer still and does not qualify: one copy holds his parents and the other his wife and child, and **both hold the same death date**. One man split down the middle.\n\n**The sixth is not a duplicate, and catching that is the result.** «*Alexander Žubrinić, 14 March 1839, Otočac*» — same day, same village, a **Michael** for a father in both, and the mothers are **Magdalena Orešković** and **Magdalena Mande Draženović**. **Two boys born the same day to two different Michaels**, which is [row 1](/worklist/)'s seven-Michaels finding in miniature.\n\n**The first draft of the new tier declared him a duplicate.** `parents()` folds a parent to their **given names only** — deliberately, because Michael and Michaelis are one man — so both mothers reduce to *magdalena*. A confirmation built on that is blind in exactly the place it must see. `parent_surnames()` now supplies the half of the name the veto throws away, and **at least one parent must be proved by a surname** before a group is called one child.",
+   "missed": "**Alexander cannot be settled by the house number, which is the one instrument this archive has for Michaels.** He is 1839, and the Otočac baptisms **stop writing the household into *Conditio* from about 1836 to 1845**. The deaths of 1834–1858 do carry it, so the way in is a death rather than a baptism.\n\n**Seventeen groups remain live** — eight *same year and place*, eight *same year only*, one *same day*. Nothing in the data settles those; they want the register.",
+   "ev": [
+    [
+     "/duplicates/",
+     "The Same Person, Twice"
+    ],
+    [
+     "/oto/",
+     "Otočac"
+    ]
+   ]
+  },
   {
    "src": "The twenty-five «unplaced villages», triaged",
    "key": "self/places",
