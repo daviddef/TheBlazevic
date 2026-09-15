@@ -130,9 +130,33 @@ def main():
         given, surname = (r.get("given") or "").strip(), (r.get("surname") or "").strip()
 
         # Where the household was, and when this person was likely born.
+        #
+        # This looked at one field on two people — the person's own bornPlace,
+        # then the ahnentafel child's — and called everything else «No place
+        # recorded». It is not the same thing. Joanni Brozović was printed as
+        # placeless while his daughter Margarita is recorded as DYING at Selce,
+        # and Mara Pekass while her husband is recorded as BORN at Smiljan.
+        # A death place is a place. A husband's parish is his wife's.
+        #
+        # So the fallback runs through the household, nearest first, and says
+        # which relation supplied it. Nothing here is read off a document — it
+        # is the tree's own words about the tree's own people — and a wall says
+        # so rather than presenting it as a finding.
         place, fix = real_place(r)
-        if not village_of(place) and child:
-            place, fix = real_place(child)
+        place_from = None
+        if not village_of(place):
+            for label, who, field in (
+                    ("their own death", r, "diedPlace"),
+                    ("their child's birth", child, "bornPlace"),
+                    ("their child's death", child, "diedPlace"),
+                    ("their spouse's birth", spouse, "bornPlace"),
+                    ("their spouse's death", spouse, "diedPlace")):
+                if not who:
+                    continue
+                cand, cfix = real_place(who, field)
+                if village_of(cand):
+                    place, fix, place_from = cand, cfix, label
+                    break
         # A document may place a household the tree never placed. Recorded in
         # sources/walls.psv with the entry that says so.
         placed_by_document = False
@@ -296,6 +320,12 @@ def main():
         # what had been established about the village and what had not, and both
         # were parsed and then dropped on the floor. It is appended on its own
         # now, and skipped where placed_by_document has already printed it.
+        if place_from:
+            bits.append(f"**The tree records no place for this person.** This household is "
+                        f"put at **{pretty(place) or (village or '').title()}** on the strength "
+                        f"of {place_from} — the tree's own words about the tree's own people, "
+                        f"not a document.")
+
         why = over.get(n, {}).get("why")
         if why and not placed_by_document:
             bits.append(why)
