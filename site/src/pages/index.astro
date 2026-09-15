@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import SovereigntyTimeline from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import { u } from "../lib/url.js";
 import recent from "../data/recent.json";
@@ -10,6 +11,7 @@ import families from "../data/families.json";
 import register from "../data/people.json";
 import ancestors from "../data/ancestors.json";
 import atlas from "../../public/atlas-data.json";
+import sov from "../data/sovereignty.json";
 
 const blazevic = families.find((f) => f.slug === "blazevic");
 const zubrinic = families.find((f) => f.slug === "zubrinic");
@@ -69,6 +71,18 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
   ]} />
   <PlaceSpark places={atlas.places} href={u("/atlas/")}
               label={`${atlas.places.length} places, almost all of them inside one mountain county`} />
+
+<section class="feat">
+  <div class="kicker" style="color:var(--terra)">Four centuries, five rulers, one stretch of coast</div>
+  <h2 style="margin-top:6px">What they were living under, and what they were up against</h2>
+  <p class="dek" style="margin-top:10px">Senj and the Krmpotska mountains were never one country for long: Frankopan
+  and Uskok, then Venice at the water's edge, then the Habsburg Military Frontier, which governed this
+  family as soldiers of the border rather than subjects of a province. <strong>Red above the lanes is
+  this family. Ochre below is the wars, plagues and regime changes they were lived through.</strong>
+  Hover or tab any marker and it tells you what it is.</p>
+  <div style="margin-top:26px"><SovereigntyTimeline sov={sov} events={true} /></div>
+  <p class="cap" style="margin-top:16px"><a href={u("/timeline/")}>The full timeline →</a></p>
+</section>
 
 
 <section class="blk">

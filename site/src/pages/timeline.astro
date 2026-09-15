@@ -1,10 +1,15 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
-import Sovereignty from "../components/Sovereignty.astro";
+import Sovereignty from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
 import sov from "../data/sovereignty.json";
 const events = [...sov.events].sort((a, b) => a.year - b.year);
-const world = [...sov.world].sort((a, b) => a.year - b.year);
+/* world entries are [year, text] pairs, the shape the shared timeline component
+   reads and the shape the rest of the estate stores them in; this page wants
+   them as objects like the family events beside them */
+const world = sov.world
+  .map((w) => (Array.isArray(w) ? { year: w[0], text: w[1] } : w))
+  .sort((a, b) => a.year - b.year);
 const merged = [...events.map((e) => ({ ...e, kind: "family" })),
                 ...world.map((e) => ({ ...e, kind: "world" }))]
   .sort((a, b) => a.year - b.year || (a.kind === "world" ? -1 : 1));
@@ -18,7 +23,7 @@ const merged = [...events.map((e) => ({ ...e, kind: "family" })),
     other, and each of them changed hands repeatedly. A pedigree cannot show that; it shows names
     under names. <strong>Read the bands across instead.</strong> The dots above are this family's
     own dated moments; the dots below are what they were living through.</p>
-    <Sovereignty />
+    <Sovereignty sov={sov} events={true} />
     <p class="dek">Hover or tab any band or dot for what it is. The scale is linear to 1800 and then
     expands, because almost nothing here is documented before 1750 and a straight axis would spend
     half its width on an empty century.</p>
