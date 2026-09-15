@@ -21,6 +21,16 @@
    "source": "the KAZALO of the Umrli 1774-1804 indexes the BY-NAME as a headword and cross-references it to the surname; the same page does it for «Verbanovich … vide Urbanovich»; ark 3:1:3QS7-899C-GS54"
   },
   {
+   "surname": "Ljubičić",
+   "conn": "dictus",
+   "byname": "Lukšić",
+   "written": "Ljubicich dictus Luxich ut ibi",
+   "place": "Karlobag",
+   "year": 1778,
+   "underlined": "n",
+   "source": "a KAZALO headword in the L section of the Umrli 1774-1804, cross-referenced «ut ibi» — see there. THE YEAR IS DERIVED from its folio position (about f.17, and folio 17 = 1778), not read off an entry; ark 3:1:3QS7-899C-GSKT"
+  },
+  {
    "surname": "Smojver",
    "conn": "vulgò",
    "byname": "Vukić",
@@ -29,6 +39,16 @@
    "year": 1781,
    "underlined": "n",
    "source": "baptism of ahn 53, 11 Mar 1781, page 65; ark 3:1:3QS7-L99C-L998-5"
+  },
+  {
+   "surname": "Locatelli",
+   "conn": "vulgò",
+   "byname": "Žešić",
+   "written": "Locatelli, vulgò Zessich, Margarita",
+   "place": "Karlobag",
+   "year": 1791,
+   "underlined": "n",
+   "source": "a KAZALO headword in the L section of the Umrli 1774-1804, folio 76. THE YEAR IS DERIVED from the folio (f.63 = 1790, f.74 = 1793), not read off an entry; ark 3:1:3QS7-899C-GSKT"
   },
   {
    "surname": "Antić",
@@ -333,6 +353,14 @@
    "byname": "Loveranić"
   },
   {
+   "surname": "Ljubičić",
+   "byname": "Lukšić"
+  },
+  {
+   "surname": "Locatelli",
+   "byname": "Žešić"
+  },
+  {
    "surname": "Lončarić",
    "byname": "Franić"
   },
@@ -389,8 +417,8 @@
    "byname": "Purica"
   }
  ],
- "nPairs": 24,
- "nSurnames": 16,
+ "nPairs": 26,
+ "nSurnames": 18,
  "nUnderlined": 8,
  "years": [
   1776,
@@ -409,7 +437,15 @@
    2
   ],
   [
+   1778,
+   1
+  ],
+  [
    1781,
+   1
+  ],
+  [
+   1791,
    1
   ],
   [
