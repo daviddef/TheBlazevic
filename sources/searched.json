@@ -323,6 +323,33 @@
  ],
  "rows": [
   {
+   "src": "Senj municipal cemetery — 105 photographs from October 2024, read out",
+   "key": "graves/senj",
+   "what": "Whether the Senj cemetery names anyone this archive already holds",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "graves",
+    "senj",
+    "blazevic",
+    "papic",
+    "prpic",
+    "by-names"
+   ],
+   "got": "**Five direct ancestors, on three stones, in one cemetery.** The photographs were taken on **9 October 2024** — the day after the Otočac churchyard, the same trip — and had never been read. GPS puts all 105 in a 400 m box at 44.985 N, 14.924 E, inside one hour and three quarters.\n\n| Ahn | Stone | Tree | Agrees? |\n|---|---|---|---|\n| **2** Ljubomir Blažević | ✽**1891** †1966 | b. 1 Mar **1892**, d. 1966 | death yes, **birth one out** |\n| **3** Milka Papić | ✽1886 †1971 | b. 9 Oct 1886, d. 7 Sep 1971 | **both** |\n| **5** Tereza Žubrinić | ✽1867 †1931 | b. 29 Nov 1867, d. 1931 | **both** |\n| **6** Josip Papić | ✽1857 †1939 | b. 1 Nov 1857, d. 19 Nov 1939 | **both** |\n| **7** Antonija Perpić | ✽**1860** †1935 | b. 12 May **1859**, d. 2 Feb 1935 | death yes, **birth one out** |\n\n**Ahnentafel 2 and 3 share a tomb** with three of their children — Oto 1923–1945, Mario 1933–1984, and Leo 1920–2008 with Kata 1924–2007. **Ahnentafel 5 is the next stone**, carved **BLAŽEVIĆ TEREZA** under her married name, restored in 1991 by *pop Ante Kosina*. **Ahnentafel 6 and 7 are on a stone cross** with a carved palm on its base.\n\n**And the errors have a shape.** Every death year on the five is right; **two of the five birth years are one out, both a year early**. The archive already knew about Ljubomir's 1891. It is not a one-off. **A Senj stone is good evidence for a death year and weak evidence for a birth year** — worth knowing before the next one is read.\n\n**Three brothers of ahnentafel 6 are here too, and all three match to the year** — Stjepan ✽1860 †1917, Jakov ✽1863 †1938, Anton ✽1868 †1937 — **six dates, no disagreement**. Stjepan's stone also names his daughter **Danica ✽1902 †1918**, dead at sixteen.\n\n**One name is not in the tree.** «**MATILDA ✽1895 †1921**», third on her parents' cross. The tree has no Matilda, but it has two Papić daughters born 1895 — Franka and Sulka — **and neither has a death recorded**. Recorded in `found.psv` as an open question with a date attached, not decided.\n\n**Three more carved by-names**, after Otočac's *Žubrinić-Čun*: **VUKELIĆ — PURICA**, **VUKELIĆ –KOŽUN–**, **PRPIĆ / PECE**, plus the double heads *Papić-Glavičić*, *Prpić-Boras* and *Boras-Milković*. The practice the registers show with *aliter* and *vulgò* in the 1700s is still being cut into granite in the 1990s.\n\n**And one line that is history rather than genealogy:** «**LEO LONČARIĆ ✽1920 †1945 · BLAJBURG**», the place of death carved on the stone — written down by a family in a country where for forty-five years afterwards it was written down nowhere else.\n\n**190 name-rows are now in `sources/graves/senj-2024-10-09.psv`**, each with a confidence letter that means something: **r** = cropped and enlarged 3–8× (every ancestor row), **p** = read from a 3×3 contact sheet, surname secure and **digits unverified**, **?** = not to be relied on.",
+   "missed": "**One name could not be read at all**: IMG_8071, a fallen plaque under reeds, upside down, «MARIJAN …» and no more. Worth a torch on the next visit.\n\n**The «p» rows are not finished work.** About two thirds of the 190 were read from contact sheets; their surnames are secure and their digits are not. **And the 190 are not on the site**: `graves.json` still reads only `sources/findagrave/`, so neither this survey nor the Otočac one of 2024 is published anywhere.\n\n**A surname that is not this archive's turned up in the same ground**: «IVAN DEFRANĆESKI 1925–1995», which does not occur once in this tree. Recorded, flagged for the Defranceski archive, joined to nothing.",
+   "ev": [
+    [
+     "/by-names/",
+     "By-names"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
    "src": "FamilySearch — Karlobag deaths 1774–1804: two ancestors, and a KAZALO that indexes by-names",
    "key": "fs/karlobag-deaths",
    "what": "Ahnentafel 104, 105, 212 and 220 — four exact death dates inside one volume",

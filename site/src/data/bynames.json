@@ -229,6 +229,66 @@
    "year": 1885,
    "underlined": "n",
    "source": "marriage of ahn 6, p.192 no.5 — the by-name alone, surname gone"
+  },
+  {
+   "surname": "Boras",
+   "conn": "—",
+   "byname": "Milković",
+   "written": "TIHI DOM OBITELJI BORAS - MILKOVIĆ",
+   "place": "Senj",
+   "year": 1950,
+   "underlined": "n",
+   "source": "hyphenated head of a family stone carrying the Croatian arms; Marica is separately «R. MILKOVIĆ», so here the hyphen records a marriage rather than a nadimak; Senj cemetery, IMG_8140"
+  },
+  {
+   "surname": "Papić",
+   "conn": "—",
+   "byname": "Glavičić",
+   "written": "PAPIĆ - GLAVIČIĆ",
+   "place": "Senj",
+   "year": 1974,
+   "underlined": "n",
+   "source": "two surnames hyphenated as the head of a family stone, Mandica 1891-1974, Blanka 1927-2015, Karlo 1885-1928; Senj cemetery, IMG_8139"
+  },
+  {
+   "surname": "Prpić",
+   "conn": "—",
+   "byname": "Boras",
+   "written": "OBITELJ PRPIĆ -BORAS-",
+   "place": "Senj",
+   "year": 1974,
+   "underlined": "n",
+   "source": "two surnames set between dashes as the head of a family stone, Petar 1899-1974, Slavka 1910-1980; Senj cemetery, IMG_8095"
+  },
+  {
+   "surname": "Vukelić",
+   "conn": "—",
+   "byname": "Kožun",
+   "written": "MILAN VUKELIĆ -KOŽUN-",
+   "place": "Senj",
+   "year": 1989,
+   "underlined": "n",
+   "source": "the by-name set between dashes after the surname, on a stone shared with Kata r. Tomljanović and Dragica r. Butković; Senj cemetery, IMG_8092"
+  },
+  {
+   "surname": "Prpić",
+   "conn": "—",
+   "byname": "Pece",
+   "written": "KRUNOSLAV PRPIĆ / PECE",
+   "place": "Senj",
+   "year": 1990,
+   "underlined": "n",
+   "source": "cut on its own line under the given name, OBITELJ PRPIĆ; Senj cemetery, IMG_8109"
+  },
+  {
+   "surname": "Vukelić",
+   "conn": "—",
+   "byname": "Purica",
+   "written": "TIHI DOM OBITELJ VUKELIĆ -- PURICA",
+   "place": "Senj",
+   "year": 1993,
+   "underlined": "n",
+   "source": "carved on the headstone above three names, Slave 1923-1993, Marica 1925-2016, Zdravko 1955-2016; Senj cemetery, IMG_8064"
   }
  ],
  "pairs": [
@@ -251,6 +311,10 @@
   {
    "surname": "Badrović",
    "byname": "Bagatello"
+  },
+  {
+   "surname": "Boras",
+   "byname": "Milković"
   },
   {
    "surname": "Dudić",
@@ -286,11 +350,23 @@
   },
   {
    "surname": "Papić",
+   "byname": "Glavičić"
+  },
+  {
+   "surname": "Papić",
    "byname": "Papa"
   },
   {
    "surname": "Penes",
    "byname": "Paschul"
+  },
+  {
+   "surname": "Prpić",
+   "byname": "Boras"
+  },
+  {
+   "surname": "Prpić",
+   "byname": "Pece"
   },
   {
    "surname": "Pužić",
@@ -303,14 +379,22 @@
   {
    "surname": "Smojver",
    "byname": "Vukčić"
+  },
+  {
+   "surname": "Vukelić",
+   "byname": "Kožun"
+  },
+  {
+   "surname": "Vukelić",
+   "byname": "Purica"
   }
  ],
- "nPairs": 18,
- "nSurnames": 13,
+ "nPairs": 24,
+ "nSurnames": 16,
  "nUnderlined": 8,
  "years": [
   1776,
-  1885
+  1993
  ],
  "places": [
   "Karlobag",
@@ -362,6 +446,26 @@
   ],
   [
    1885,
+   1
+  ],
+  [
+   1950,
+   1
+  ],
+  [
+   1974,
+   2
+  ],
+  [
+   1989,
+   1
+  ],
+  [
+   1990,
+   1
+  ],
+  [
+   1993,
    1
   ]
  ]
