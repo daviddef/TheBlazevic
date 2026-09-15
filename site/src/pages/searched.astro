@@ -79,11 +79,11 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
 
     <div class="grid g3" style="margin-top:1.4rem">
       <div class="stat"><div class="n">{sn("yield") + sn("partial")}</div>
-        <div class="l">Gave something. Eight of them only partly — a page or two out of a book.</div></div>
+        <div class="l">Gave something. {sn("partial")} of them only partly — a page or two out of a book.</div></div>
       <div class="stat"><div class="n">{sn("nothing") + sn("blocked")}</div>
         <div class="l">Searched and held nothing, or walled off and deliberately not got round.</div></div>
       <div class="stat"><div class="n">{sn("pending")}</div>
-        <div class="l">Known, wanted, not yet got — including four portals never once opened.</div></div>
+        <div class="l">Known, wanted, not yet got — two of them letters sitting with an archivist.</div></div>
     </div>
 
     <form class="sr-bar" role="search" onsubmit="return false">
@@ -146,12 +146,16 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       a portal, a year, or an outcome.</p>
     </div>
 
-    <div class="note" style="margin-top:1.4rem"><strong>Four of the rows are portals this archive
-    has never once searched</strong> — Ancestry, Matricula Online, Find a Grave, and the Arolsen
-    Archives' own collections, which is the sharpest of the four because this site already publishes
-    <a href={u("/arolsen/")}>three Arolsen cards</a> that reached it through a family tree rather
-    than through Arolsen. A source that has never been opened cannot be said to hold nothing, and
-    saying so plainly is the only way that stays true.</div>
+    <div class="note" style="margin-top:1.4rem"><strong>The four portals this page once listed as
+    never opened have now all been opened.</strong> <em>Find a Grave</em> gave a family — every
+    ZUBRINICH memorial on earth, and the CODRON dead of Rhodes, Auschwitz and Cape Town.
+    <em>Ancestry</em> and <em>Matricula Online</em> gave nothing this archive can use: Ancestry masks
+    every date behind the paywall and offers user-submitted trees where records should be. The
+    <em>Arolsen Archives'</em> own collections are the one still shut, and they remain the sharpest
+    of the four, because this site already publishes <a href={u("/arolsen/")}>three Arolsen cards</a>
+    that reached it through a family tree rather than through Arolsen. <strong>Blocked is not
+    empty</strong> — and a register that says which of the two it is looking at is the only kind
+    worth keeping.</div>
   </section>
 
   <section class="blk">

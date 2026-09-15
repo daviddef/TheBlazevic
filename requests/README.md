@@ -1,8 +1,10 @@
 # Requests
 
-Draft enquiries to archives. Nothing here has been sent. Each names exactly what
-is wanted and why, so that whoever sends it can do so without re-reading the
-whole site — and so that a refusal or a nil return is itself recordable.
+Enquiries to archives. **Five have been sent and two answered**; `sent/` holds
+what went out and `REPLIES.md` holds what came back. The rest are drafts. Each
+names exactly what is wanted and why, so that whoever sends it can do so without
+re-reading the whole site — and so that a refusal or a nil return is itself
+recordable.
 
 | File | To | Wants |
 |---|---|---|
@@ -48,7 +50,7 @@ Full text in `REPLIES.md`.
 **Gospić acknowledged the same day** — Marija Fajdić, viši arhivist, request
 received and queued. Still open.
 
-**Three letters written on that instruction and NOT yet sent:**
+**Three letters written on that instruction — all sent 15 September 2026:**
 
 | File | To | Address verified |
 |---|---|---|
@@ -68,3 +70,15 @@ filmed marriage register at all**; and the whole of **1888** in the Senj marriag
 book has now been read, thirty-nine entries, without finding the marriage. One
 ask carries a page and a line — a 1971 registrar's annotation pointing at
 **page 280, line 37** of a Senj death register.
+
+## Status, 15 September 2026 — the three letters sent
+
+All three went from david.defranceski@gmail.com on **15 September 2026**, and the
+copies that were sent are in **`sent/`**: `EMAIL-rijeka.txt`,
+`EMAIL-zupa-senj.txt`, `EMAIL-zupa-krmpote.txt`. Nothing has come back yet.
+
+**Five letters sent in all, two answered, three open.** Senj answered and was a
+nil return with a map; Gospić acknowledged and queued; Rijeka and the two parish
+offices have not replied. On `/searched/` that is **one row per open letter, in
+*pending*** — which there means *awaiting a reply*, not *awaiting posting*. The
+distinction is the whole point of the row.

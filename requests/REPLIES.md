@@ -52,7 +52,11 @@ Prozor 1875–1895, and the one-man-or-two question — are unchanged.
 
 ## What follows
 
-**A third letter is now obvious and is not yet written:** to **Državni arhiv u
-Rijeci**, and to the **Župni ured** of Sv. Jakov Krmpote and of Senj. The Senj
-reply names both. The asks are the same ones, unchanged — they simply have a new
-address.
+**Three further letters were written on that instruction and sent on 15
+September 2026** — to **Državni arhiv u Rijeci**, and to the **Župni ured** of
+Senj and of Sv. Jakov Krmpote (administered from Ledenice, at Klenovica). The
+Senj reply named all three doors. The asks are the same ones, unchanged; they
+simply have a new address. Copies in `sent/`.
+
+**Nothing has come back from any of the three yet.** When it does — including a
+nil return — it goes here, on `/changed` and on `/searched`.

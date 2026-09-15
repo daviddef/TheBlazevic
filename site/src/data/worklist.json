@@ -63,10 +63,10 @@
   {
    "n": 8,
    "what": "Reconcile the stale «pending» rows in the searched register",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Found while answering the question that produced this page. **Ancestry**, **FamilySearch — Rijeka registers** and **FamilySearch — Otočac, Stanje duša** are all still marked *pending* although each was worked and closed this week; the newer rows sit directly above the stale ones. The register therefore **over-reports what is outstanding**. The fix is not just editing three rows: `tools/searched.py` should **refuse** when a row is pending and a later row for the same source has an outcome, so this cannot silently accumulate again."
+   "note": "**Done 15 September 2026.** Three rows were retired, not edited: **Ancestry**, **FamilySearch — Rijeka registers** and **FamilySearch — Otočac, Stanje duša** were *placeholders* — «never», «not yet», «still unread» — and each had been superseded by a real row recording the actual reading. The register was **over-reporting what is outstanding**: eleven pending, of which three were already done. Seven now, and every one of them genuinely open.\n\n**The gate that stops it recurring.** Every register row now declares a `key` — the body of material it covers — and `tools/searched.py` **refuses** when a row is *pending* while any other row with the same key carries a real outcome. The key is there because the source *name* cannot do this job: «Senj marriages, 1734–1858» is genuinely unopened while «Senj marriages, 1859–1920» is read end to end, and a gate matching on names would have called the first one stale and sent a sitting to re-read a book that was already finished. A gate that cries wolf is worse than no gate.\n\nThe same stale claim had spread into prose: `/searched` still named **four portals «never once searched»** when all four had been opened, and `requests/README.md` and `REPLIES.md` still said the three letters were **not yet sent** when they went on the 15th. All corrected."
   },
   {
    "n": 9,
@@ -134,11 +134,11 @@
   },
   {
    "n": 17,
-   "what": "Somebody else's uncommitted change is sitting in this working tree",
+   "what": "Another session's kit upgrade is sitting half-landed in this working tree",
    "state": "blocked",
    "owner": "another session",
-   "since": "2026-09-14",
-   "note": "`site/public/styles.css` carries an uncommitted burger-menu fix that is not this archive's work. Every `git add` this week has been scoped to `sources/ tools/ site/src/ notes/ requests/` to avoid taking it. **It should be committed or discarded by whoever wrote it** — leaving it there means the next session either commits it blind or works around it again."
+   "since": "2026-09-15",
+   "note": "**The styles.css instance cleared** — whoever wrote the burger-menu fix has committed or discarded it, and it is gone from the tree. A second instance took its place the same day.\n\n`site/package.json` and `site/package-lock.json` now pin the kit at **`f55559d`** where the last commit here pinned **`60aad58`**, and `node_modules/` holds the newer one. Nothing in this archive's build script installs anything, so the bump was made by **the kit session running `npm install` in this shared tree**. It is real work — `f55559d` gives `WorkList.astro` the ring that links each archive's work list to the others — and the kit has already moved **one commit past it** (`27cfb83`), so the bump is mid-flight rather than finished.\n\n**Left uncommitted deliberately.** This archive's build passes against the newer kit (check:kit, check:living and check:worklist all green), so nothing is broken; but committing another session's half-landed upgrade would take the decision of *which* kit commit the estate stands on away from the session making it. Every `git add` here stays scoped to `sources/ tools/ site/src/ notes/ requests/`."
   },
   {
    "n": 18,

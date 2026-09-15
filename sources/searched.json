@@ -324,6 +324,7 @@
  "rows": [
   {
    "src": "Otočac cemetery — photographed on the ground, October 2024",
+   "key": "graves/otocac",
    "what": "Whether the churchyard names anyone this archive already holds",
    "when": "15 September 2026",
    "outcome": "partial",
@@ -352,6 +353,7 @@
   },
   {
    "src": "The archive's own data — fifteen drawers published as parents",
+   "key": "self/tree",
    "what": "Why every Žubrinić page showed a single-letter relative",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -374,6 +376,7 @@
   },
   {
    "src": "FamilySearch — Šumećica by house number, from the Otočac Conditio column",
+   "key": "fs/otocac-bapt",
    "what": "Which Žubrinić household lives at which Šumećica house",
    "when": "15 September 2026",
    "outcome": "partial",
@@ -403,6 +406,7 @@
   },
   {
    "src": "FamilySearch — Tonka Blažević's baptism, and an index that is wrong",
+   "key": "fs/index",
    "what": "25 October 1884 by this archive's reading against 27 November 1884 by the index",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -428,6 +432,7 @@
   },
   {
    "src": "FamilySearch record index — ahnentafel 6's baptism, ahnentafel 7's parents, a new Antić child",
+   "key": "fs/index",
    "what": "Items 1, 2 and 3 of the standing list",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -455,6 +460,7 @@
   },
   {
    "src": "FamilySearch — the session signed out, and seven items stopped with it",
+   "key": "fs/access",
    "what": "Bribir · Sv. Juraj kod Senja · Senj marriages · Selce deaths · the Karlobag census · the Grižane Popis duša · the unread Otočac village",
    "when": "15 September 2026",
    "outcome": "blocked",
@@ -474,6 +480,7 @@
   },
   {
    "src": "Arcanum — the Smojvers of Karlobag in the Hungarian state record",
+   "key": "arcanum",
    "what": "The four Smojvers in the 1884 officials' directory, followed up",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -497,6 +504,7 @@
   },
   {
    "src": "FamilySearch record index — an index-first sweep of the unread direct line",
+   "key": "fs/index",
    "what": "Which of the twelve unread direct-line ancestors the index can reach",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -521,6 +529,7 @@
   },
   {
    "src": "FamilySearch record index — Krmpote-Vodice, the children of ahnentafel 8 and 9",
+   "key": "fs/index",
    "what": "Juraj Blažević's baptism, and whether Ledenice or Novi Vinodolski holds it",
    "when": "15 September 2026",
    "outcome": "partial",
@@ -535,6 +544,7 @@
   },
   {
    "src": "FamilySearch record index — the Karlobag Urode, and a generation added",
+   "key": "fs/index",
    "what": "Ahnentafel 54's baptism, his parents, and who married in 1806",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -558,6 +568,7 @@
   },
   {
    "src": "FamilySearch — Karlobag, the death index of 1774–1804",
+   "key": "fs/karlobag-deaths",
    "what": "The Georgius Uroda whom the 1806 marriage calls «defunctus»",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -577,6 +588,7 @@
   },
   {
    "src": "FamilySearch — Rijeka marriages, April to the end of the book",
+   "key": "fs/rijeka",
    "what": "Juraj Blažević × Tereza Žubrinić, the marriage question 1b asks for",
    "when": "14 September 2026",
    "outcome": "nothing",
@@ -597,6 +609,7 @@
   },
   {
    "src": "FamilySearch — Karlobag marriages, folios 2 to 6 read out",
+   "key": "fs/karlobag-marr",
    "what": "Ahnentafel 54's marriage — and what was there instead",
    "when": "14 September 2026",
    "outcome": "yield",
@@ -620,6 +633,7 @@
   },
   {
    "src": "FamilySearch record index — Otočac, 1853, tested for density",
+   "key": "fs/index",
    "what": "Lucca Žubrinić, born 1853, the tree's sister for Tereza",
    "when": "14 September 2026",
    "outcome": "nothing",
@@ -644,6 +658,7 @@
   },
   {
    "src": "FamilySearch record index — the Otočac Žubrinić baptisms, and the ARK trick",
+   "key": "fs/index",
    "what": "Rebuilding the Šumećica Žubrinić households by house number",
    "when": "14 September 2026",
    "outcome": "partial",
@@ -668,6 +683,7 @@
   },
   {
    "src": "FamilySearch catalogue — every parish this family touches, film by film",
+   "key": "fs/catalogue",
    "what": "Juraj Blažević's baptism at Krmpote — and, when that failed, what FamilySearch actually holds",
    "when": "14 September 2026",
    "outcome": "yield",
@@ -693,6 +709,7 @@
   },
   {
    "src": "FamilySearch — Rijeka, and the answer to question 13",
+   "key": "fs/rijeka",
    "what": "Ljubomir Blažević's baptism, Rijeka, 1892 — and Juraj's marriage to Tereza before it",
    "when": "14 September 2026",
    "outcome": "nothing",
@@ -713,6 +730,7 @@
   },
   {
    "src": "FamilySearch — Karlobag marriages, the folio-to-image map",
+   "key": "fs/karlobag-marr",
    "what": "Ahnentafel 54's marriage — Joannis Georgius Uroda × Maria Gerkacs",
    "when": "14 September 2026",
    "outcome": "partial",
@@ -732,6 +750,7 @@
   },
   {
    "src": "Arcanum — the second harvest, searching the places instead of the surnames",
+   "key": "arcanum",
    "what": "Šumećica, Smojver, Uroda, Pećanić, Dašović in the Hungarian press and gazetteers",
    "when": "14 September 2026",
    "outcome": "yield",
@@ -756,6 +775,7 @@
   },
   {
    "src": "Ancestry — searched for the first time",
+   "key": "ancestry",
    "what": "Žubrinić, without a subscription",
    "when": "14 September 2026",
    "outcome": "nothing",
@@ -774,6 +794,7 @@
   },
   {
    "src": "FamilySearch — Otočac Status animarum, the village map and the Šumećica block",
+   "key": "fs/otocac-status-animarum",
    "what": "Domus 2 and Domus 24 at Šumećica — whether ahnentafel 10 stayed in his father's house or moved",
    "when": "14 September 2026",
    "outcome": "partial",
@@ -784,7 +805,7 @@
     "familysearch",
     "census"
    ],
-   "got": "**The house numbers were not reached. The map of the book was.**\n\nThe last sitting wrote this census off as a **110-opening sweep with an unreadable village margin**. Both halves of that are now wrong. The *Pagus* is written **bottom-to-top** in the gutter, so a −90° rotation renders it upside down — **rotate +90° and it is plain**. Twenty-two openings surveyed that way give the village order of the whole census: *Ottosaz · Luka · Dubrava (Biskupljak) · Novoselia · Lieška · Kostelievo Selo · Obilje · Beljue · **Shumechicza** · Luka · **Extinctæ***.\n\n**Šumećica is images 102–106. Five openings — the whole village.** The job is no longer a sweep.\n\nRead at the page: **Domus 9, Josephus Dašović**, nine people, with *Anna uxor Petri nata Žunić*; **Domus 4, Mattheus Orehović**, fourteen, with *Martha uxor Georgii nata Orehović*. The **N° Domus numbers are not in order** — 9 on image 102, 4 on image 103 — so the book cannot be walked to a house number; all five openings have to be read.\n\n**And a negative worth stating.** No Žubrinić household has appeared at Šumećica in the openings read so far. Two of the five are unread, so this is **not** a finding — but the census carries births to **1846**, and ahnentafel 20 is *«Confiniarius, ex pago Shumechicza N° 24»* in **January 1834**. A man in the village then should be in a book current to 1846. The ***Extinctæ*** section at 108–109 is the second place to look.\n\nFamilySearch then refused the session: 403 on an ark fetched successfully minutes earlier, still 403 after forty seconds. **The block, not the blip.** The next sitting is three openings and then two — half an hour.",
+   "got": "**The house numbers were not reached. The map of the book was.**\n\nAnd it is the right instrument. A household census lists *Pagus, Domus, Nomina Familiæ* and birth dates together — a Žubrinić household whole instead of one baptism at a time — and it reaches back **a hundred and twenty-four years before the baptismal register begins.**\n\nThe last sitting wrote this census off as a **110-opening sweep with an unreadable village margin**. Both halves of that are now wrong. The *Pagus* is written **bottom-to-top** in the gutter, so a −90° rotation renders it upside down — **rotate +90° and it is plain**. Twenty-two openings surveyed that way give the village order of the whole census: *Ottosaz · Luka · Dubrava (Biskupljak) · Novoselia · Lieška · Kostelievo Selo · Obilje · Beljue · **Shumechicza** · Luka · **Extinctæ***.\n\n**Šumećica is images 102–106. Five openings — the whole village.** The job is no longer a sweep.\n\nRead at the page: **Domus 9, Josephus Dašović**, nine people, with *Anna uxor Petri nata Žunić*; **Domus 4, Mattheus Orehović**, fourteen, with *Martha uxor Georgii nata Orehović*. The **N° Domus numbers are not in order** — 9 on image 102, 4 on image 103 — so the book cannot be walked to a house number; all five openings have to be read.\n\n**And a negative worth stating.** No Žubrinić household has appeared at Šumećica in the openings read so far. Two of the five are unread, so this is **not** a finding — but the census carries births to **1846**, and ahnentafel 20 is *«Confiniarius, ex pago Shumechicza N° 24»* in **January 1834**. A man in the village then should be in a book current to 1846. The ***Extinctæ*** section at 108–109 is the second place to look.\n\nFamilySearch then refused the session: 403 on an ark fetched successfully minutes earlier, still 403 after forty seconds. **The block, not the blip.** The next sitting is three openings and then two — half an hour.",
    "ev": [
     [
      "/oto/",
@@ -798,6 +819,7 @@
   },
   {
    "src": "FamilySearch — the Otočac baptisms, through the record index",
+   "key": "fs/index",
    "url": "https://www.familysearch.org/search/record/results?f.collectionId=2040054",
    "what": "Ahnentafel 11's surname, and the children of Nicolaus Žubrinić",
    "when": "14 Sept 2026",
@@ -826,6 +848,7 @@
   },
   {
    "src": "Find a Grave — CODRON, on Rhodes, at Auschwitz and at Cape Town",
+   "key": "findagrave",
    "url": "https://www.findagrave.com/memorial/search?lastname=Codron",
    "what": "The question the Rhodes page had been asking itself since it was written",
    "when": "14 Sept 2026",
@@ -846,6 +869,7 @@
   },
   {
    "src": "Arcanum — the Austro-Hungarian casualty lists, run across every surname",
+   "key": "arcanum",
    "url": "https://adt.arcanum.com/en/",
    "what": "The First World War, which this archive had opened once by accident",
    "when": "14 Sept 2026",
@@ -870,6 +894,7 @@
   },
   {
    "src": "Arcanum — Senj's own size, beside its tobacco factory",
+   "key": "arcanum",
    "url": "https://adt.arcanum.com/en/",
    "what": "What the factory meant in proportion to the town",
    "when": "14 Sept 2026",
@@ -892,9 +917,10 @@
    ]
   },
   {
-   "src": "Državni arhiv u Rijeci, and the parish offices of Senj and Krmpote — three letters written",
+   "src": "Državni arhiv u Rijeci, and the parish offices of Senj and Krmpote — three letters sent",
+   "key": "letters/rijeka-senj-krmpote",
    "what": "The books the films do not cover, asked for at the addresses Senj named",
-   "when": "14 Sept 2026",
+   "when": "14–15 Sept 2026",
    "outcome": "pending",
    "tags": [
     "archives",
@@ -903,7 +929,7 @@
     "Krmpote",
     "Rijeka"
    ],
-   "got": "**Written on the Senj archive's own instruction and not yet sent.** Denis Rukavina named three doors; these are the letters for them.\n\n**To Državni arhiv u Rijeci** — the **1892 baptism of Ljubomir Blažević at Rijeka**, which this archive has never searched for and which would say why a Krmpote peasant household had a child in the city and then went home; the three **Senj deaths after 1907** — Milka Papić, Zvonimir Vukelić in 1915, Tereza Žubrinić in 1931; **Jurko Blažević's baptism before 1879**; and any **status animarum**.\n\n**To the Župni ured Senj** — mons. dr. Richard Pavlić, Ogrizovićeva 4 — the same three deaths, the **baptisms of January and February 1895** that fall one year past the film, and a question about this parish's own practice: **Senj entries carry no house number** where every village book around it does.\n\n**To the parish of Krmpote** — which **has no parish house** and is administered from **Ledenice**, at Klenovica, itself a village in this family's story — Jurko's **baptism, marriage and death**, the **Butorac** household that stood godparent twice, and the illegible *«Pere ?ećanić»*.\n\n**What these three say that the first two could not.** Every ask now states where the film stops: Krmpote's begins in **1879** against a catalogue label of 1815; Senj baptisms stop at **1894** and deaths at **1907**; Krmpote has **no filmed marriage register at all**; and the whole of **1888** in the Senj marriage book has now been read — thirty-nine entries — without finding the marriage. One ask carries a page and a line: a **1971 registrar's annotation** pointing at **page 280, line 37** of a Senj death register.\n\n**Addresses verified from the diocese's and archdiocese's own directories**, not from a search engine.",
+   "got": "**Written on the Senj archive's own instruction, and all three sent on 15 September 2026.** Denis Rukavina named three doors; these are the letters that went through them. *Pending* here now means **awaiting a reply**, not awaiting posting — the same state the Gospić row has been in since the 14th.\n\n**To Državni arhiv u Rijeci** — the **1892 baptism of Ljubomir Blažević at Rijeka**, which this archive has never searched for and which would say why a Krmpote peasant household had a child in the city and then went home; the three **Senj deaths after 1907** — Milka Papić, Zvonimir Vukelić in 1915, Tereza Žubrinić in 1931; **Jurko Blažević's baptism before 1879**; and any **status animarum**.\n\n**To the Župni ured Senj** — mons. dr. Richard Pavlić, Ogrizovićeva 4 — the same three deaths, the **baptisms of January and February 1895** that fall one year past the film, and a question about this parish's own practice: **Senj entries carry no house number** where every village book around it does.\n\n**To the parish of Krmpote** — which **has no parish house** and is administered from **Ledenice**, at Klenovica, itself a village in this family's story — Jurko's **baptism, marriage and death**, the **Butorac** household that stood godparent twice, and the illegible *«Pere ?ećanić»*.\n\n**What these three say that the first two could not.** Every ask now states where the film stops: Krmpote's begins in **1879** against a catalogue label of 1815; Senj baptisms stop at **1894** and deaths at **1907**; Krmpote has **no filmed marriage register at all**; and the whole of **1888** in the Senj marriage book has now been read — thirty-nine entries — without finding the marriage. One ask carries a page and a line: a **1971 registrar's annotation** pointing at **page 280, line 37** of a Senj death register.\n\n**Addresses verified from the diocese's and archdiocese's own directories**, not from a search engine.",
    "ev": [
     [
      "/searched/",
@@ -917,6 +943,7 @@
   },
   {
    "src": "Arcanum Digitheca — Šumbul, Šambul and Marić at Otočac",
+   "key": "arcanum",
    "url": "https://adt.arcanum.com/en/",
    "what": "Ahnentafel 11's family — the one person on the direct line with nothing but a name",
    "when": "14 Sept 2026",
@@ -936,6 +963,7 @@
   },
   {
    "src": "Ahnentafel 11 — «Ana Shambul Marić», and what to open next",
+   "key": "plan/ahn-11",
    "url": "/by-names/",
    "what": "How to draw Tereza Žubrinić's mother's family, planned while FamilySearch is blocked",
    "when": "14 Sept 2026",
@@ -963,6 +991,7 @@
   },
   {
    "src": "FamilySearch — the Karlobag marriage index, found and read",
+   "key": "fs/karlobag-marr",
    "url": "https://www.familysearch.org/",
    "what": "Ahnentafel 54's marriage — the document that would name his father and fix his age",
    "when": "14 Sept 2026",
@@ -988,6 +1017,7 @@
   },
   {
    "src": "FamilySearch — the Karlobag death register 1804–1861, and its index",
+   "key": "fs/karlobag-deaths",
    "what": "Ahnentafel 54's death — and an alphabetical index nobody knew was on the film",
    "when": "14 Sept 2026",
    "outcome": "partial",
@@ -1016,6 +1046,7 @@
   },
   {
    "src": "FamilySearch — the Karlobag Stanje duša, the U section",
+   "key": "fs/karlobag-status-animarum",
    "what": "Ahnentafel 54's household — the Urode of Karlobag",
    "when": "14 Sept 2026",
    "outcome": "partial",
@@ -1039,6 +1070,7 @@
   },
   {
    "src": "FamilySearch — the Karlobag Stanje duša, read",
+   "key": "fs/karlobag-status-animarum",
    "what": "The household census, opened for the first time, and searched for the Pilipići",
    "when": "14 Sept 2026",
    "outcome": "yield",
@@ -1066,6 +1098,7 @@
   },
   {
    "src": "FamilySearch — the three Karlobag films, opened and range-checked",
+   "key": "fs/karlobag-films",
    "what": "What years Karlobag's films actually cover — four walls said “not checked”",
    "when": "14 Sept 2026",
    "outcome": "yield",
@@ -1092,6 +1125,7 @@
   },
   {
    "src": "Arcanum Digitheca — the Hungarian press and official publications",
+   "key": "arcanum",
    "url": "https://adt.arcanum.com/en/",
    "what": "Fifteen queries across this family's surnames and the Hungarian names of its towns",
    "when": "14 Sept 2026",
@@ -1120,6 +1154,7 @@
   },
   {
    "src": "Arcanum Digitheca — Šumećica, and Senj in 1943",
+   "key": "arcanum",
    "url": "https://adt.arcanum.com/en/",
    "what": "The two queries that were supposed to matter most",
    "when": "14 Sept 2026",
@@ -1142,6 +1177,7 @@
   },
   {
    "src": "Arcanum Digitheca — the page images behind the snippets",
+   "key": "arcanum/images",
    "url": "https://adt.arcanum.com/en/",
    "what": "Reading any of the fifteen documents at the page rather than in extract",
    "when": "14 Sept 2026",
@@ -1155,6 +1191,7 @@
   },
   {
    "src": "Find a Grave — every ZUBRINICH memorial on earth",
+   "key": "findagrave",
    "url": "https://www.findagrave.com/memorial/search?lastname=Zubrinich",
    "what": "All 72, transcribed with cemetery, plot and dates, and matched against this archive",
    "when": "14 Sept 2026",
@@ -1179,6 +1216,7 @@
   },
   {
    "src": "Find a Grave — six dates checked against the tree",
+   "key": "findagrave",
    "what": "Whether a cemetery index and a family tree disagree, and how",
    "when": "14 Sept 2026",
    "outcome": "partial",
@@ -1197,6 +1235,7 @@
   },
   {
    "src": "Find a Grave — the Croatian cemeteries of this family",
+   "key": "findagrave",
    "url": "https://www.findagrave.com/cemetery/search?location=Croatia",
    "what": "Senj, Krivi Put, Karlobag, Otočac, Selce, Novi Vinodolski, Smokvica, Krmpote, Klenovica",
    "when": "14 Sept 2026",
@@ -1220,6 +1259,7 @@
   },
   {
    "src": "Arolsen Archives — the online collections themselves",
+   "key": "arolsen/online",
    "url": "https://collections.arolsen-archives.org/",
    "what": "Codron of Rhodes, Defranceski, and the Senj deportations of 1943",
    "when": "14 Sept 2026",
@@ -1243,6 +1283,7 @@
   },
   {
    "src": "FamilySearch — Senj marriages 1888, all thirty-nine, end to end",
+   "key": "fs/senj-marr-1859",
    "what": "Juraj Blažević's marriage to Tereza Žubrinić, which the tree dates 1888",
    "when": "14 Sept 2026",
    "outcome": "nothing",
@@ -1266,6 +1307,7 @@
   },
   {
    "src": "FamilySearch — Senj baptisms, image 55 (the lead attached to ahnentafel 4)",
+   "key": "fs/senj-bapt",
    "what": "«Potentially him? 1861?» — a citation sitting unopened in Juraj Blažević's own record",
    "when": "14 Sept 2026",
    "outcome": "nothing",
@@ -1285,6 +1327,7 @@
   },
   {
    "src": "FamilySearch — the record index, for everything it holds on ahnentafel 4",
+   "key": "fs/index",
    "what": "Every indexed Croatian church record naming Juraj Blažević with Tereza Žubrinić",
    "when": "14 Sept 2026",
    "outcome": "partial",
@@ -1297,6 +1340,7 @@
   },
   {
    "src": "Matricula Online",
+   "key": "matricula",
    "url": "https://data.matricula-online.eu/en/bestande/",
    "what": "Every parish of this family, and Rhodes, against the whole portal",
    "when": "14 Sept 2026",
@@ -1315,6 +1359,7 @@
   },
   {
    "src": "FamilySearch — Senj marriages, 1859–1920",
+   "key": "fs/senj-marr-1859",
    "url": "https://www.familysearch.org/search/catalog/results?q.text=Senj",
    "what": "Every Papić and Blažević marriage the film holds, read page by page",
    "when": "9–13 Sept 2026",
@@ -1342,6 +1387,7 @@
   },
   {
    "src": "FamilySearch — Senj marriages, 1734–1858",
+   "key": "fs/senj-marr-1734",
    "url": "https://www.familysearch.org/search/catalog/results?q.text=Senj",
    "what": "Juraj Papa × Matija Filipić, and every marriage above them",
    "when": "not yet",
@@ -1355,6 +1401,7 @@
   },
   {
    "src": "FamilySearch — Senj deaths, 1859–1907",
+   "key": "fs/senj-deaths",
    "what": "Two entries, and what the pages around them say about how people died",
    "when": "9 Sept 2026",
    "outcome": "partial",
@@ -1377,6 +1424,7 @@
   },
   {
    "src": "FamilySearch — Senj deaths, 1915 · Senj baptisms, Jan–Feb 1895",
+   "key": "fs/senj-deaths",
    "what": "Zvonimir Vukelić's death; the two sisters recorded eighteen days apart",
    "when": "13 Sept 2026",
    "outcome": "nothing",
@@ -1395,6 +1443,7 @@
   },
   {
    "src": "FamilySearch — Senj baptisms, 1734–1894",
+   "key": "fs/senj-bapt",
    "what": "Milka Papić's baptism, 1886",
    "when": "9 Sept 2026",
    "outcome": "partial",
@@ -1413,6 +1462,7 @@
   },
   {
    "src": "FamilySearch — Krmpote-Vodice (sv. Jakov) births, the film behind the label",
+   "key": "fs/krmpote",
    "what": "Whether the film really holds 1815–1896, as the waypoint claims",
    "when": "13 Sept 2026",
    "outcome": "yield",
@@ -1435,6 +1485,7 @@
   },
   {
    "src": "FamilySearch — Krmpote (sv. Jakov) baptisms, 1888 and 1895",
+   "key": "fs/krmpote",
    "what": "The Blažević children of Smokvica krmpotska 114",
    "when": "9 Sept 2026",
    "outcome": "partial",
@@ -1457,6 +1508,7 @@
   },
   {
    "src": "FamilySearch — Krivi Put baptisms, 1859",
+   "key": "fs/krivi-put",
    "what": "Antonija Perpić, Krivi Put N° 136",
    "when": "9 Sept 2026",
    "outcome": "partial",
@@ -1475,6 +1527,7 @@
   },
   {
    "src": "FamilySearch — Otočac baptisms, 1834 and 1845",
+   "key": "fs/otocac-bapt",
    "what": "The Žubrinić household at Šumećica 24",
    "when": "10 Sept 2026",
    "outcome": "partial",
@@ -1496,29 +1549,8 @@
    ]
   },
   {
-   "src": "FamilySearch — Otočac, Stanje duša (status animarum) 1710–1846",
-   "what": "The Žubrinić households of Šumećica 2 and 24, listed by house rather than by event",
-   "when": "13–14 Sept 2026",
-   "outcome": "pending",
-   "tags": [
-    "FamilySearch",
-    "Otočac",
-    "census"
-   ],
-   "got": "**The right instrument, and still unread.** A household census lists *Pagus, Domus, Nomina Familiæ* and birth dates together — it is the one document that would show a Žubrinić household whole instead of one baptism at a time, and it reaches back **a hundred and twenty-four years before the baptismal register begins.**\n\nThe film target is confirmed. The reading has been split into a session of its own because it is a week of work, not an afternoon.",
-   "ev": [
-    [
-     "/oto/",
-     "Otočac"
-    ],
-    [
-     "/harvest/",
-     "What is left to read"
-    ]
-   ]
-  },
-  {
    "src": "FamilySearch — Otočac marriages, 1859–1872",
+   "key": "fs/otocac-marr",
    "what": "Whether the 1859 marriage on the film is ahnentafel 10's",
    "when": "13–14 Sept 2026",
    "outcome": "partial",
@@ -1537,6 +1569,7 @@
   },
   {
    "src": "FamilySearch — Karlobag baptisms, 1754–1838",
+   "key": "fs/karlobag-bapt",
    "what": "Every Karlobag ancestor on the direct line",
    "when": "9–14 Sept 2026",
    "outcome": "yield",
@@ -1559,6 +1592,7 @@
   },
   {
    "src": "FamilySearch — Selce baptisms, 1806 (the page long labelled Vrbnik)",
+   "key": "fs/selce-bapt",
    "what": "Which parish ahnentafel 24's baptism actually belongs to",
    "when": "9–14 Sept 2026",
    "outcome": "yield",
@@ -1582,6 +1616,7 @@
   },
   {
    "src": "FamilySearch — Selce baptisms, 1809 and 1838",
+   "key": "fs/selce-bapt",
    "what": "Ahnentafel 25's baptism, and ahnentafel 12's",
    "when": "14 Sept 2026",
    "outcome": "yield",
@@ -1604,6 +1639,7 @@
   },
   {
    "src": "FamilySearch — Selce marriages, 1835",
+   "key": "fs/selce-marr",
    "what": "Ahnentafel 24's marriage to ahnentafel 25",
    "when": "9 Sept 2026",
    "outcome": "yield",
@@ -1627,6 +1663,7 @@
   },
   {
    "src": "FamilySearch — Selce deaths, 1832 and 1842",
+   "key": "fs/selce-deaths",
    "what": "The nine direct ancestors this book should hold",
    "when": "14 Sept 2026",
    "outcome": "partial",
@@ -1649,6 +1686,7 @@
   },
   {
    "src": "FamilySearch — Novi Vinodolski, the 1650 register",
+   "key": "fs/novi-vinodolski",
    "what": "Whether the oldest register in reach is readable at all",
    "when": "14 Sept 2026",
    "outcome": "yield",
@@ -1667,6 +1705,7 @@
   },
   {
    "src": "FamilySearch — Grižane, Stanje duša 1738",
+   "key": "fs/grizane",
    "what": "A second household census, older than Otočac's and in another parish",
    "when": "14 Sept 2026",
    "outcome": "yield",
@@ -1686,6 +1725,7 @@
   },
   {
    "src": "FamilySearch — Brinje births, marriages and deaths 1888–1900",
+   "key": "fs/brinje",
    "url": "https://www.familysearch.org/search/catalog/results?q.text=Brinje",
    "what": "Kalanj, Perković and Borić, three surnames that meet inland over the Kapela",
    "when": "not yet",
@@ -1703,18 +1743,8 @@
    ]
   },
   {
-   "src": "FamilySearch — Rijeka registers",
-   "what": "Ljubomir Blažević's baptism, 1891–92",
-   "when": "not yet",
-   "outcome": "pending",
-   "tags": [
-    "FamilySearch",
-    "Rijeka"
-   ],
-   "got": "**Never checked — not even the holdings.** Question 13 rests on it, and the parish has sat in the harvest map marked *NOT CHECKED* since the map was written."
-  },
-  {
    "src": "FamilySearch — the image viewer at full resolution",
+   "key": "fs/viewer",
    "what": "Whether a 5,768-pixel register scan can be read without a person at the keyboard",
    "when": "13 Sept 2026",
    "outcome": "yield",
@@ -1736,6 +1766,7 @@
   },
   {
    "src": "FamilySearch — access denied, Error 15",
+   "key": "fs/access",
    "url": "https://www.familysearch.org/",
    "what": "Two sessions of tile fetching, and what happened next",
    "when": "13 Sept 2026",
@@ -1748,6 +1779,7 @@
   },
   {
    "src": "MyHeritage — the family tree export",
+   "key": "myheritage",
    "url": "https://www.myheritage.com/",
    "what": "The 15,643-person tree that every page here is built from",
    "when": "9 Sept 2026",
@@ -1760,6 +1792,7 @@
   },
   {
    "src": "MyHeritage — every image attached to every person",
+   "key": "myheritage",
    "what": "What is already on disk and has never been read out",
    "when": "9–14 Sept 2026",
    "outcome": "yield",
@@ -1785,6 +1818,7 @@
   },
   {
    "src": "FindMyPast — ZUBRINICH, the first spelling",
+   "key": "findmypast",
    "url": "https://www.findmypast.co.uk/",
    "what": "Every record under the anglicised spelling — manifests, marriages, rolls",
    "when": "13 Sept 2026",
@@ -1807,6 +1841,7 @@
   },
   {
    "src": "FindMyPast — ZUBRINIC, the second spelling",
+   "key": "findmypast",
    "url": "https://www.findmypast.co.uk/",
    "what": "106 of 119 records read as transcripts rather than index rows",
    "when": "14 Sept 2026",
@@ -1830,6 +1865,7 @@
   },
   {
    "src": "FindMyPast — the Kalanj emigration",
+   "key": "findmypast",
    "url": "https://www.findmypast.co.uk/",
    "what": "Where the Klenovica Kalanji went, and where they came from",
    "when": "13 Sept 2026",
@@ -1849,6 +1885,7 @@
   },
   {
    "src": "FindMyPast — Canadian arrivals and the St Albans border crossings",
+   "key": "findmypast",
    "url": "https://www.findmypast.co.uk/",
    "what": "Three Žubrinić women into Saint John and Halifax, 1926–1930",
    "when": "14 Sept 2026",
@@ -1868,6 +1905,7 @@
   },
   {
    "src": "FindMyPast — Port Pirie electoral rolls",
+   "key": "findmypast/port-pirie",
    "url": "https://www.findmypast.co.uk/",
    "what": "Nineteen roll entries for the Žubrinići of South Australia",
    "when": "not yet",
@@ -1879,18 +1917,8 @@
    "got": "**Eleven of nineteen read; the trial expires before the rest.** Rolls give an address and an occupation year by year, which is how a household is watched moving rather than merely found."
   },
   {
-   "src": "Ancestry",
-   "url": "https://www.ancestry.co.uk/",
-   "what": "Nothing. This archive has never run a search there",
-   "when": "never",
-   "outcome": "pending",
-   "tags": [
-    "Ancestry"
-   ],
-   "got": "**Zero searches, and it is the obvious hole beside FindMyPast.** Its Australian, South African and American sets overlap only partly with what has been read, and the people this archive most needs to follow — the ones who left — are exactly the ones it indexes."
-  },
-  {
    "src": "Arolsen Archives — the three cards already on disk",
+   "key": "arolsen/cards",
    "url": "https://collections.arolsen-archives.org/",
    "what": "Three ITS index cards attached to Hedviga's husband and never opened",
    "when": "9 Sept 2026",
@@ -1913,6 +1941,7 @@
   },
   {
    "src": "Državni arhiv u Gospiću — asked, acknowledged, queued",
+   "key": "letters/gospic",
    "what": "Three asks: the Kalanj × Perković marriage at Brinje; Otočac baptisms for Prozor 1875–1895; the one-man-or-two question",
    "when": "13–14 Sept 2026",
    "outcome": "pending",
@@ -1924,6 +1953,7 @@
   },
   {
    "src": "Državni arhiv u Rijeci, Ispostava u Senju — asked, and answered",
+   "key": "letters/senj-branch",
    "what": "Jurko Blažević at Sv. Jakov Krmpote; Zvonimir Vukelić's death of 1915; the Butorac household",
    "when": "13–14 Sept 2026",
    "outcome": "nothing",
@@ -1935,6 +1965,7 @@
   },
   {
    "src": "Southern Rhodesian immigration, 1953–65",
+   "key": "rhodesia",
    "what": "Twenty-two years of Hedviga's life",
    "when": "not yet",
    "outcome": "pending",
@@ -1956,6 +1987,7 @@
   },
   {
    "src": "The archive's own attached media — read against the coverage grade",
+   "key": "self/media",
    "url": "/coverage/",
    "what": "Whether “scanned” and “read” were being counted as the same thing",
    "when": "14 Sept 2026",
@@ -1974,6 +2006,7 @@
   },
   {
    "src": "The archive's own claim that 63 scans were unreferenced",
+   "key": "self/media",
    "what": "A number this archive published about itself",
    "when": "14 Sept 2026",
    "outcome": "nothing",
@@ -1991,6 +2024,7 @@
   },
   {
    "src": "Every published person matched to the register that would hold their events",
+   "key": "self/tree",
    "url": "/harvest/",
    "what": "How much of this family is reachable in filmed parish books, and where",
    "when": "14 Sept 2026",
@@ -2013,6 +2047,7 @@
   },
   {
    "src": "The by-name phrases, gathered across ten surnames",
+   "key": "self/tree",
    "url": "/by-names/",
    "what": "Every *aliter*, *dictus* and *dicti* the read pages carry",
    "when": "14 Sept 2026",
