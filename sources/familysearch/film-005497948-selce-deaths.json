@@ -1,0 +1,29 @@
+{
+  "_film": "005497948 — Selce, 802 images. Several books on one film under DIFFERENT waypoints: image 200 is a «HISTORIA PAROCHIAE», images ~380-400+ are the LIBER DEFUNCTORUM, image 600 is a later Croatian-ruled death register.",
+  "_index_warning": "The FamilySearch record index holds **baptisms only** for Selce — 119 indexed Antić entries, none of them deaths. The index-with-ARK shortcut does not work for this register; it has to be walked.",
+  "_how_to_get_an_ark": "https://www.familysearch.org/en/search/film/005497948?i=<N-1> then read the ARK out of document.title. Each navigation wipes injected page scripts, so re-inject the tile reader after every move.",
+  "_year_map": "Roughly 2.7 images per year through the 1870s-80s. Measured points below; interpolate, then check the printed page number and the year in the TEMPUS MORTIS column.",
+  "arks": {
+    "200": "3:1:3QS7-899X-13B5",
+    "384": "3:1:3QSQ-G99X-13CL",
+    "392": "3:1:3QSQ-G99X-138T",
+    "397": "3:1:3QSQ-G99X-1357",
+    "400": "3:1:3QSQ-G99X-13VP",
+    "600": "3:1:3QS7-899X-17KT"
+  },
+  "years": {
+    "200": "HISTORIA PAROCHIAE — parish history, not a register",
+    "384": "LIBER DEFUNCTORUM p. 118 — Aug to Nov 1877",
+    "397": "LIBER DEFUNCTORUM p. 144 — Feb to Jul 1882",
+    "400": "LIBER DEFUNCTORUM p. 150 — Nov 1883 into Feb 1884",
+    "600": "a later Croatian-ruled death register"
+  },
+  "_columns": "TEMPUS MORTIS (year over day+month, Croatian month names) · Nrus Domus (village + house number) · NOMEN DEFUNCTI et Conditio · sex/status ticks · age in years · remarks, which carry the burial date.",
+  "_found_here": "Ahnentafel 25 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja», Selce house 29, aged 73, died 6 July 1882, buried 7 July. Image 397, entry 21, ark 3:1:3QSQ-G99X-1357.",
+  "_still_wanted": {
+    "ahn 24": "Josephum Antić, died 21 October 1850 — interpolates to about image 311",
+    "ahn 48": "Joannis Antić, died 13 March 1829 — about image 254",
+    "ahn 49": "Margarita (Martha) Lončarić, died 15 July 1829 — same opening or near it",
+    "_caution": "Both 1829 estimates are far outside the measured range and the film changes books more than once; check the page heading before reading."
+  }
+}

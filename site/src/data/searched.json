@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 13,
-  "partial": 18,
+  "partial": 19,
   "pending": 7,
   "yield": 39
  },
@@ -329,6 +329,30 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Selce deaths, the Liber Defunctorum mapped and ahnentafel 25 found",
+   "key": "fs/selce-deaths",
+   "what": "The deaths of ahnentafel 24, 25, 48 and 49",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/en/search/film/005497948?i=396",
+   "tags": [
+    "FamilySearch",
+    "Selce",
+    "deaths",
+    "antic",
+    "jellicic",
+    "ahn 25"
+   ],
+   "got": "**Ahnentafel 25, at the page.** LIBER DEFUNCTORUM page 144, image 397, entry 21:\n\n> «**Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja**» — Selce, house **29**, aged **73**, died **6 July 1882**, and the remarks column adds «bi dne 7/7 pokopana».\n\nEvery field checks: **widow of the late Josip** (ahnentafel 24, dead since 1850), **daughter of Juraj** (ahnentafel 50), **73** against a birth of 22 March 1809. The mother is written «Mare» where the tree has ahnentafel 51 as *Margarita* — *Mare* serves as the familiar for both *Margareta* and *Marija* here, so it is consistent and it is not proof.\n\n**The index does not cover this register.** A sweep for *Antić* at Selce returns **119 indexed entries and every one is a baptism**. The index-with-ARK method that found the Otočac households and the Karlobag baptism in minutes **does not work here** — the book has to be walked, and that is worth knowing before the next sitting plans around the index.\n\n**So the film is mapped instead.** 005497948 is **802 images and is not one book**: image 200 is a *HISTORIA PAROCHIAE*, the death register runs through the 380s and 390s, image 600 is a later Croatian-ruled register, and **the waypoint in the URL changes between images**, which is why a film number is a poor handle on it. Measured: **384 = 1877**, **397 = 1882**, **400 = 1883–84** — about **2.7 images to the year**.\n\n**Three ancestors still to find** — ahnentafel 24 (21 October 1850), and 48 and 49 (both 1829). Interpolation puts them near images 311 and 254, but both 1829 estimates sit outside the measured range.",
+   "missed": "Ahnentafel 24, 48 and 49 — the 1850 and 1829 deaths.",
+   "ev": [
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Karlobag baptisms 1771–1804, ahnentafel 53 at the page",
    "key": "fs/karlobag-bapt",
