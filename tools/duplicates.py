@@ -21,7 +21,7 @@ a matter of course:
 Nothing is merged. The tree is reported, not edited — the same rule the rest of
 this archive follows.
 """
-import sys, os, re, json, collections
+import sys, os, re, json, collections, itertools
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gedcom
@@ -342,9 +342,74 @@ for (sur, giv, by), ids in buckets.items():
         "dyears": sorted({gedcom.year(gedcom.died(P[i]).get("date", "")) for i in ids} - {None}),
     })
 
-TIER = {"same day and same parents": 0, "same day": 1, "same year and place": 2, "same year only": 3,
-        "rejected — two death years": 4,
-        "rejected — different parents": 5}
+# ---- the pass that does not look at the name at all -----------------------
+#
+# Every group above is keyed on a surname and a given name, so two records can
+# only meet if somebody spelled them alike. PAVA BORAS and PAULINA BORAS never
+# meet: «pava» and «paulina» share two letters and no token, so containment
+# fails and the three-letter-prefix rule fails with it. They are the same woman.
+# Born 24 December 1895, the same parents, and BOTH MARRIED IVAN KRMPOTIĆ — one
+# copy carrying the marriage and no children, the other seven children and no
+# marriage, which is exactly the split Danijel Kalanj showed.
+#
+# So this pass starts from the family instead: children of one couple who share
+# an EXACT birth date. That alone proves nothing — the tree holds 113 such pairs
+# and most of them are twins, several of them labelled so. The discriminator is
+# the SPOUSE: twins do not marry the same person, and a record entered twice
+# does.
+#
+# It has to be the spouse's NAME and not their record. Both Borases married an
+# «Ivan Krmpotić» and the tree holds TWO of him, one with a birth date and one
+# without — because duplicating a wife duplicates her husband along with her,
+# and comparing record ids would have missed exactly the case this pass was
+# written for. On names it fires eight times across the whole tree.
+def _spouse_names(pid):
+    out = set()
+    for fid in (P[pid].get("fams") or []):
+        fam = F.get(fid) or {}
+        for role in ("husb", "wife"):
+            o = fam.get(role)
+            if o and o != pid and o in P:
+                out.add(fold(gedcom.display(P[o]) or ""))
+    return {x for x in out if x}
+
+
+twins = []
+for _fid, _fam in F.items():
+    byday = collections.defaultdict(list)
+    for kid in (_fam.get("chil") or []):
+        if kid in P and full_date(P[kid]):
+            byday[full_date(P[kid])].append(kid)
+    for _d, kids in byday.items():
+        for a, b in itertools.combinations(sorted(kids), 2):
+            if _spouse_names(a) & _spouse_names(b):
+                twins.append([a, b])
+
+_seen = {frozenset(g["ids"]) for g in groups}
+for ids in twins:
+    if frozenset(ids) in _seen:
+        continue
+    _seen.add(frozenset(ids))
+    places = {place(P[i]) for i in ids} - {None}
+    groups.append({
+        "tier": "same day, same parents, same spouse",
+        "surname": fold(P[ids[0]].get("surname") or ""),
+        "given": " ".join(sorted({fold(P[i].get("given") or "") for i in ids})),
+        "byear": gedcom.year(gedcom.born(P[ids[0]]).get("date", "")),
+        "n": len(ids),
+        "place": sorted(places)[0] if places else None,
+        "date": full_date(P[ids[0]]),
+        "ids": ids,
+        "names": [gedcom.display(P[i]) for i in ids],
+        "slugs": [(pub.get(i) or {}).get("slug") for i in ids],
+        "dyears": sorted({gedcom.year(gedcom.died(P[i]).get("date", "")) for i in ids} - {None}),
+    })
+
+TIER = {"same day, same parents, same spouse": 0,
+        "same day and same parents": 1, "same day": 2, "same year and place": 3,
+        "same year only": 4,
+        "rejected — two death years": 5,
+        "rejected — different parents": 6}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -354,7 +419,8 @@ print(f"{len(pub)} published people across {len(GROUPS)} surname groups")
 print(f"{len(live)} duplicate groups holding {extra} surplus records; "
       f"{len(rejected)} rejected as two people sharing a name\n")
 by_tier = collections.Counter(g["tier"] for g in groups)
-for t in ("same day and same parents", "same day", "same year and place", "same year only",
+for t in ("same day, same parents, same spouse", "same day and same parents", "same day",
+          "same year and place", "same year only",
           "rejected — two death years", "rejected — different parents"):
     n = by_tier.get(t, 0)
     print(f"  {t:<20} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")

@@ -1,6 +1,196 @@
 {
  "groups": [
   {
+   "tier": "same day, same parents, same spouse",
+   "surname": "boras",
+   "given": "paulina pava",
+   "byear": 1895,
+   "n": 2,
+   "place": "Novi Vinodolski",
+   "date": "24 DEC 1895",
+   "ids": [
+    "@I506379@",
+    "@I506424@"
+   ],
+   "names": [
+    "pava Boras",
+    "Paulina Boras"
+   ],
+   "slugs": [
+    "pava-boras",
+    "paulina-boras"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "boshoff",
+   "given": "christina susanna magdalena lea magdalena",
+   "byear": 1898,
+   "n": 2,
+   "place": "Zeerust",
+   "date": "4 AUG 1898",
+   "ids": [
+    "@I2384@",
+    "@I2386@"
+   ],
+   "names": [
+    "Christina Susanna Magdalena Boshoff",
+    "Lea Magdalena \"Lea Magdalena BOSHOFF\" BOSHOFF"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1967
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "davies",
+   "given": "william samuel",
+   "byear": 1867,
+   "n": 2,
+   "place": "Brisbane",
+   "date": "10 JUN 1867",
+   "ids": [
+    "@I1113@",
+    "@I503705@"
+   ],
+   "names": [
+    "William Samuel Davies",
+    "William Samuel Davies"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1955
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "fick",
+   "given": "johannes pieter marthinus paulus johannes",
+   "byear": 1752,
+   "n": 2,
+   "place": "Stellenbosch",
+   "date": "20 AUG 1752",
+   "ids": [
+    "@I2931@",
+    "@I2938@"
+   ],
+   "names": [
+    "Paulus Johannes Fick",
+    "Johannes Pieter Marthinus Fick"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1814
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "kolbe",
+   "given": "pieter pieter cronjé joubert",
+   "byear": 1899,
+   "n": 2,
+   "place": "Boksburg",
+   "date": "18 DEC 1899",
+   "ids": [
+    "@I1329@",
+    "@I1330@"
+   ],
+   "names": [
+    "Pieter Cronjé Joubert Kolbe",
+    "Pieter Kolbe"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1972
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "pretorius",
+   "given": "wessel johannes arnoldus",
+   "byear": 1812,
+   "n": 2,
+   "place": "Panfontein",
+   "date": "9 SEP 1812",
+   "ids": [
+    "@I3998@",
+    "@I502328@"
+   ],
+   "names": [
+    "Wessel Johannes Arnoldus \"b3c9d5e10\" Pretorius",
+    "Wessel Johannes Arnoldus Pretorius"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1892
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "reynders",
+   "given": "johannes petrus petrus johannes arnoldus",
+   "byear": 1870,
+   "n": 2,
+   "place": "Indwe",
+   "date": "23 AUG 1870",
+   "ids": [
+    "@I3101@",
+    "@I3103@"
+   ],
+   "names": [
+    "Johannes Petrus Reynders",
+    "Petrus Johannes Arnoldus Reynders"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1943
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
+   "surname": "van der merwe",
+   "given": "johannes lodewicus",
+   "byear": 1796,
+   "n": 2,
+   "place": "Caap de Goede Hoop",
+   "date": "25 SEP 1796",
+   "ids": [
+    "@I2117@",
+    "@I2119@"
+   ],
+   "names": [
+    "Johannes Lodewicus (i) van der Merwe, (ii)",
+    "Johannes Lodewicus \"Johannes Ludowicus\" van der Merwe"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1846
+   ]
+  },
+  {
    "tier": "same day and same parents",
    "surname": "zubrinic",
    "given": "catharina",
@@ -1178,8 +1368,8 @@
    "dyears": []
   }
  ],
- "extra": 24,
+ "extra": 32,
  "published": 1282,
  "rejected": 28,
- "live": 23
+ "live": 31
 }
