@@ -49,7 +49,7 @@ const sn = (k) => searched.counts[k] || 0;
 const pages = READ.reduce((a, r) => a + r.n, 0);
 const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").length;
 ---
-<Base title="What Has Been Searched"
+<Base title="What Has Been Read"
   eyebrow="Coverage, including the books that have never been opened"
   dek={`${pages} register pages read across eight books and five parishes, yielding ${swept.length} named people. This page exists so that a null is not lost: knowing a volume has been read, or has not, is worth as much as knowing what it held.`}>
 

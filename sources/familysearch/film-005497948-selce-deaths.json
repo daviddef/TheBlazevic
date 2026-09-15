@@ -15,7 +15,11 @@
   "339": "3:1:3QS7-L99X-1QHC",
   "340": "3:1:3QSQ-G99X-13PY",
   "341": "3:1:3QSQ-G99X-1QMZ",
-  "342": "3:1:3QS7-L99X-1QQJ"
+  "342": "3:1:3QS7-L99X-1QQJ",
+  "302": "3:1:3QS7-L99X-13PP",
+  "303": "3:1:3QS7-899X-1QZ7",
+  "304": "3:1:3QS7-L99X-1QQL",
+  "305": "3:1:3QS7-L99X-1Q8P"
  },
  "years": {
   "200": "HISTORIA PAROCHIAE — parish history, not a register",
@@ -28,21 +32,38 @@
   "339": "pages 97-98 — «mens. 7bri & 8bri 1850», 30 Rujna to about 9 Listopada 1850",
   "340": "pages 98-99 — «mens. 8ber & 9ber 1850», 10 to 21 October 1850. THE CHOLERA PAGES: the remarks column reads «Od kolere» down the sheet.",
   "341": "pages 100-101 — Feb to Aug 1851 (left) and 1852 (right). Only about nine entries to the year: the epidemic is over.",
-  "342": "a denser, older-looking section — the film is not strictly one book here"
+  "342": "a denser, older-looking section — the film is not strictly one book here",
+  "302": "«Annus 1828» — July to September 1828",
+  "303": "1828, continuing",
+  "304": "1829 — left page 6 Feb to about June, right page 11 July to 6 September. BOTH 1829 ancestors are here.",
+  "305": "1829 from 10 September on"
  },
  "_columns": "TEMPUS MORTIS (year over day+month, Croatian month names) · Nrus Domus (village + house number) · NOMEN DEFUNCTI et Conditio · sex/status ticks · age in years · remarks, which carry the burial date.",
  "_found_here": [
   "Ahnentafel 25 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja», Selce house 29, aged 73, died 6 July 1882, buried 7 July. Image 397, entry 21, ark 3:1:3QSQ-G99X-1357.",
   "Ahnentafel 24 — «Letta 850. na 21. 8bre · Nrus Domus 74 · Preminu Osip Antić težak i Mare kćer · 44 / 6 · Od kolere». Page 99, image 340, ark 3:1:3QSQ-G99X-13PY. One entry for father and six-year-old daughter. Age 44 agrees with the tree's birth of 14 Mar 1806. See notes/selce-cholera-1850.md.",
-  "A by-name — «Vincentius Jurich, aliter Loveranich», Selce house 58, died 21 March 1834 aged 55. Image 311, ark 3:1:3QS7-899X-1Q6X."
+  "A by-name — «Vincentius Jurich, aliter Loveranich», Selce house 58, died 21 March 1834 aged 55. Image 311, ark 3:1:3QS7-899X-1Q6X.",
+  "Ahnentafel 48 — «Die 13a Martii 1829 · Nrus Domus 51 · Joannes Antich Papa. obiit Annorum 64». Image 304, ark 3:1:3QS7-L99X-1QQL.",
+  "Ahnentafel 49 — «Die 15e Julii 1829 · Nrus Domus 56 · Margarita uxor Joannis Antich Natanchii obiit Annorum 52», Natanchii underlined. Image 304, same ark. Dates and ages match the tree exactly; the houses (51 vs 56) and the by-names (Papa vs Natanchii) do not agree, and that is left open. See notes/selce-antic-1829-papa.md."
  ],
  "_still_wanted": {
-  "ahn 48": "Joannis Antić, died 13 March 1829 — now interpolates to about image 302 (311 = 1834, ~1.7 images/year)",
-  "ahn 49": "Margarita (Martha) Lončarić, died 15 July 1829 — same opening or near it",
   "ahn 96": "Joannis Antić, died 27 February 1793",
   "ahn 98": "Pauli Lončarić, died 29 September 1811",
   "ahn 99": "Anna Papić, died 24 August 1807",
-  "_caution": "The pre-1830 estimates are far outside the measured range and the film changes books more than once; check the page heading before reading."
+  "_where": "Measured density is about 1.7 images to the year through the 1830s-50s and the book runs BACK from 302 = 1828: 1811 lands near image 273, 1807 near 266, 1793 near 242. All three are far outside the measured range and the film changes books more than once — check the page heading, and read the printed page number before writing any negative."
  },
- "_page_numbers": "The printed page number sits in the TOP OUTER CORNER of each leaf and only the right-hand leaf carries it legibly: image 340's right leaf is 99, image 341's right leaf is 101, so the leaf between them is 100. Use this to prove a date gap is a real gap and not a missing page BEFORE writing any negative."
+ "_page_numbers": "The printed page number sits in the TOP OUTER CORNER of each leaf and only the right-hand leaf carries it legibly: image 340's right leaf is 99, image 341's right leaf is 101, so the leaf between them is 100. Use this to prove a date gap is a real gap and not a missing page BEFORE writing any negative.",
+ "_bynames_here": {
+  "confirmed at full resolution": [
+   "Matthias Mihich, aliter Venesarich — Selce house 2, aged 76, 1828, image 303",
+   "Vincentius Jurich, aliter Loveranich — Selce house 58, 21 March 1834, aged 55, image 311",
+   "Joannes Antich Papa — house 51, 13 March 1829, image 304",
+   "Margarita uxor Joannis Antich Natanchii (underlined) — house 56, 15 July 1829, image 304"
+  ],
+  "seen but NOT confirmed — read at about half scale, do not publish": [
+   "Georgius Saldatich aliter Venesarich — image 304",
+   "Catharina Polich aliter Antich, uxor Geor… — image 304"
+  ],
+  "_why": "This book is dense with household by-names. It is the single best source in the archive for work list row 41."
+ }
 }

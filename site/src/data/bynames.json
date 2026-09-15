@@ -61,6 +61,36 @@
    "source": "same entry, godmother's husband"
   },
   {
+   "surname": "Mihić",
+   "conn": "aliter",
+   "byname": "Venesarić",
+   "written": "Matthias Mihich, aliter Venesarich",
+   "place": "Selce",
+   "year": 1828,
+   "underlined": "?",
+   "source": "death 1828, Selce house 2, aged 76; ark 3:1:3QS7-899X-1QZ7"
+  },
+  {
+   "surname": "Antić",
+   "conn": "—",
+   "byname": "Papa",
+   "written": "Joannes Antich Papa",
+   "place": "Selce",
+   "year": 1829,
+   "underlined": "n",
+   "source": "death of ahn 48, 13 Mar 1829, house 51, aged 64 — the by-name written straight after the surname, no connector; ark 3:1:3QS7-L99X-1QQL"
+  },
+  {
+   "surname": "Antić",
+   "conn": "—",
+   "byname": "Natanchii",
+   "written": "Margarita uxor Joannis Antich Natanchii",
+   "place": "Selce",
+   "year": 1829,
+   "underlined": "y",
+   "source": "death of ahn 49, 15 Jul 1829, house 56, aged 52 — underlined by the scribe; does NOT agree with her husband's «Papa» four months earlier"
+  },
+  {
    "surname": "Jurić",
    "conn": "aliter",
    "byname": "Loveranić",
@@ -192,6 +222,10 @@
   },
   {
    "surname": "Antić",
+   "byname": "Natanchii"
+  },
+  {
+   "surname": "Antić",
    "byname": "Papa"
   },
   {
@@ -223,6 +257,10 @@
    "byname": "Hel"
   },
   {
+   "surname": "Mihić",
+   "byname": "Venesarić"
+  },
+  {
    "surname": "Orešković",
    "byname": "Sekula"
   },
@@ -243,8 +281,8 @@
    "byname": "Vukić"
   }
  ],
- "nPairs": 15,
- "nSurnames": 12,
+ "nPairs": 17,
+ "nSurnames": 13,
  "nUnderlined": 8,
  "years": [
   1781,
@@ -268,6 +306,14 @@
   ],
   [
    1809,
+   2
+  ],
+  [
+   1828,
+   1
+  ],
+  [
+   1829,
    2
   ],
   [
