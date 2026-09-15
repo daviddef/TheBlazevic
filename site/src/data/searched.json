@@ -10,9 +10,9 @@
  "counts": {
   "blocked": 4,
   "nothing": 13,
-  "partial": 19,
+  "partial": 20,
   "pending": 7,
-  "yield": 39
+  "yield": 40
  },
  "read": [
   {
@@ -329,6 +329,56 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Senj deaths, ahnentafel 27 at the page",
+   "key": "fs/senj-deaths",
+   "what": "The deaths of ahnentafel 8, 26 and 27",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1HVP?cc=2040054",
+   "tags": [
+    "FamilySearch",
+    "Senj",
+    "deaths",
+    "uroda",
+    "pilipic",
+    "ahn 27"
+   ],
+   "got": "**Ahnentafel 27, entry 13 of 1886:**\n\n> «**1886 dne 9 veljača · Matija PILIPIĆ, *žena* · Vicko PILIPIĆ, *fin. stražar u miru*, njezin muž · Karlobag · rim. kat. · 78 · Marasmus senilis · Providjena**»\n\n**Ahnentafel 26 gets an occupation** — *fin. stražar u miru*, a **retired finance guard**. Nothing in this archive had said what he did. **Her origin is recorded as Karlobag**, independently confirming the birthplace of the daughter whose 23 April 1810 birth fixed her parents' marriage — which was found the same day as 17 June 1807.\n\n**The register's age of 78 is recorded as written, not as a correction.** Born 23 April 1810 and dead 9 February 1886 she was 75; the age in this column is what the informant said, and the birth has a baptism behind it.\n\n**She was missed on the first pass because she is indexed under her married name.** Ahnentafel 8's burial is located but unread — indexed at **28 August 1907** against a tree death of 26 July 1907, and that month's gap is itself worth reading. Ahnentafel 26 (d. 14 November 1897) is not yet found.",
+   "missed": "Ahnentafel 26 and 8 — the 1897 and 1907 deaths.",
+   "ev": [
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch record index — which parishes it covers, and for which events",
+   "key": "fs/index",
+   "what": "Whether each parish's deaths are indexed, or only its baptisms",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "url": "https://www.familysearch.org/search/record/results?f.recordCountry=Croatia",
+   "tags": [
+    "FamilySearch",
+    "method",
+    "holdings",
+    "index"
+   ],
+   "got": "**The index-with-ARK method is the difference between an hour and a week, and nobody had written down where it works.** Eight surnames of this family swept through the index and tallied by place and event type.\n\n**Baptisms only — these books must be walked:** **Otočac** (165 baptisms, not one death or burial), **Selce** (77, confirmed twice — 119 Antić entries and every one a baptism), **Karlobag** (four surnames tested, every hit a baptism, across 1717–1861), **Krmpote-Vodice**.\n\n**Deaths are indexed:** **Senj** — and also under the Latin place string ***Senia***, which a search for «Senj» misses entirely — **Krivi Put**, **Novi Vinodolski**, and thinly **Crikvenica**.\n\n**It corrected a work-list row before the row was started.** The plan asserted that Karlobag's death index reached ten direct ancestors; the evidence for that was a Karlobag date range of 1717–1861 which is **baptisms throughout**. That row is a walk through the book's own KAZALO — which is ordered **by folio, not alphabetically**.\n\n**And the trap that matters more than the map: a married woman's death is indexed under her husband's surname.** Ahnentafel 27, born Uroda, is filed as **Pilipić**; a search for *Uroda* returns nothing at Senj. Every sweep for a maiden name walks past her.",
+   "missed": null,
+   "ev": [
+    [
+     "/searched/",
+     "Holdings"
+    ],
+    [
+     "/method/",
+     "Method"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Selce deaths, the Liber Defunctorum mapped and ahnentafel 25 found",
    "key": "fs/selce-deaths",

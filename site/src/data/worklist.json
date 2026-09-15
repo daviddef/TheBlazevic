@@ -186,7 +186,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The highest-yield target in the archive, and it is already mapped.** `targets.json` says the Karlobag death books reach **ten direct ancestors** — ahnentafel 52, 55, 104, 105, 107, 108, 110, 111, 212 and 220 — more than any other book here. Four of them have **exact death dates inside the 1774–1804 volume**: ahn 212 Josiph Smojver Vukić **16 May 1776**, ahn 104 Jacob Pilipić **10 April 1778**, ahn 220 Nicolaus Gerkacs **30 October 1783**, ahn 105 Catherina Luckinić **29 May 1790**. Ahn 108's burial of 10 September 1791 is already read out of this same book.\n\n**And it needs no walking.** `holdings.psv` records the register at images **356–409** and its **KAZALO A–Z at 410–434, with the letter positions measured** — P.R at 428, R.S 429, S.T 430, T.U 431, U.V 432, V.X 433. Look up *Pilipić*, *Smojver*, *Gerkacs* and *Luckinić* in the index, take the folium, convert with the known folio map (left pages EVEN, folio 62 = image 388), and read four ancestors in an afternoon."
+   "note": "**Corrected 15 September 2026 before it was begun: this is a walk, not a lookup.** The row was written asserting the Karlobag deaths could be reached through the FamilySearch index. They cannot — row 43 tested four surnames and **every Karlobag hit is a baptism**; the 1717–1861 range that suggested otherwise is baptisms throughout.\n\n**The highest-yield target in the archive, and it is already mapped.** `targets.json` says the Karlobag death books reach **ten direct ancestors** — ahnentafel 52, 55, 104, 105, 107, 108, 110, 111, 212 and 220 — more than any other book here. Four of them have **exact death dates inside the 1774–1804 volume**: ahn 212 Josiph Smojver Vukić **16 May 1776**, ahn 104 Jacob Pilipić **10 April 1778**, ahn 220 Nicolaus Gerkacs **30 October 1783**, ahn 105 Catherina Luckinić **29 May 1790**. Ahn 108's burial of 10 September 1791 is already read out of this same book.\n\n**And it needs no walking.** `holdings.psv` records the register at images **356–409** and its **KAZALO A–Z at 410–434, with the letter positions measured** — P.R at 428, R.S 429, S.T 430, T.U 431, U.V 432, V.X 433. Look up *Pilipić*, *Smojver*, *Gerkacs* and *Luckinić* in the index, take the folium, convert with the known folio map (left pages EVEN, folio 62 = image 388), and read four ancestors in an afternoon.\n\n**What the index page actually looks like, now it has been opened.** Image 428 is **P on the left page and R on the right** — the big letter is written at the top centre of each *page*, three column-groups to a page, each *Cognomen · Nomen · dies · folium*. **The entries are ordered by folio, not alphabetically within the letter**: folios 104, 104, 105, 105, 105, 106, 106, reading Perpich · Perpich · Perpich · Perpich · Potocgniak · **Pekkas** · Potocgniak. So a surname is found by scanning the letter's pages, not by jumping to it. Folio converts to image as **image = 388 + (folio − 62) ÷ 2**, left pages even.\n\n**A find already, from the one index page opened:** *«Pekkas Magdalena, 5 Augusti, folio 106»*. **Pekass is three of the direct ancestors with no document** — ahn 213, 426 and 427 — and this is the first time the surname has appeared in a register here at all."
   },
   {
    "n": 24,
@@ -238,11 +238,11 @@
   },
   {
    "n": 30,
-   "what": "Senj deaths 1820–1907 — thirty-one reachable, and three ancestors",
-   "state": "next",
+   "what": "Senj deaths — ahnentafel 27 read, two ancestors still to find",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**53 people, 31 reachable**, with ahnentafel **8**, **26** and **27**. Ahn 27 is Matia Uroda, born 23 April 1810 — the daughter whose birth date fixed the 1807 marriage in row 2 — and her death is the other end of that life. The book stops at **1907**, which is why Zvonimir Vukelić's 1915 death is unreachable and is in the Rijeka letter."
+   "note": "**Ahnentafel 27 is read, 15 September 2026.** Senj death register, ark `3:1:3QS7-899X-1HVP`, entry 13 of 1886: «**1886 dne 9 veljača · Matija PILIPIĆ, žena · Vicko PILIPIĆ, fin. stražar u miru, njezin muž · Karlobag · rim. kat. · 78 · Marasmus senilis · Providjena**».\n\nThree things are new. **Ahnentafel 26 gets an occupation** — *fin. stražar u miru*, a **retired finance guard**; nothing here had said what he did. **Her origin is recorded as Karlobag**, independently confirming the birthplace of the daughter whose 23 April 1810 birth fixed her parents' marriage — found the same day as **17 June 1807**. And the register's **age of 78** against a computed 75 is recorded as written, not as a correction: the age is what the informant said, the birth has a baptism behind it.\n\n**She was missed at first because she is indexed under Pilipić, her married name** — a search for *Uroda* returns nothing at Senj.\n\n**Still to find: ahnentafel 26** (Vicko Pilipić, d. 14 November 1897) and **ahnentafel 8** (Toma Blažević, d. 26 July 1907). Ahn 8's burial is already located — indexed at **28 August 1907**, ark `3:1:3QS7-899X-14XR` — and **the month between the tree's death date and the register's burial date is itself worth reading**. Ahn 6 (d. 1939), ahn 7 (d. 1935) and ahn 3 (d. 1971) all fall after the book closes in 1907 and are unreachable on film."
   },
   {
    "n": 31,
@@ -342,11 +342,11 @@
   },
   {
    "n": 43,
-   "what": "Map which parishes the record index covers, and for which events",
-   "state": "next",
+   "what": "Which parishes the record index covers, and for which events — answered",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The index-with-ARK method closed rows 1, 2 and 5 in minutes and was **useless for row 3**: a sweep for *Antić* at Selce returns **119 indexed entries and every one is a baptism**. Karlobag is indexed for baptisms **and** deaths, back to 1717. Otočac is indexed for baptisms. **Nobody has written down which parish is indexed for what**, so every sitting rediscovers it.\n\nOne query per parish per event type, ~20 queries, and the answer belongs in `parishes.psv` as a fourth column. It decides, for every row above, whether the work is an index lookup or a film walk — which is the difference between an hour and a week."
+   "note": "**Answered 15 September 2026, and it re-orders the rows above it.** Eight surnames of this family were swept through the index and tallied by place and event type; the result is in `sources/familysearch/index-coverage.psv`.\n\n**Indexed for baptisms only — these are walks, not lookups:** **Otočac** (165 baptisms, not one death), **Selce** (77, confirmed twice), **Karlobag** (four surnames tested, every hit a baptism, range 1717–1861), **Krmpote-Vodice**.\n\n**Deaths are indexed:** **Senj** — also under the Latin place string ***Senia***, which a search for «Senj» misses — **Krivi Put**, **Novi Vinodolski**, and thinly **Crikvenica**.\n\n**This corrected row 23 before it was started.** That row was written asserting the Karlobag death index reached ten ancestors; the earlier evidence for that was a Karlobag date range of 1717–1861 which turns out to be **entirely baptisms**. Row 23 is a walk through the book's own KAZALO, not an index lookup — and the KAZALO is ordered **by folio, not alphabetically**, so a surname is found by scanning, not by jumping to a letter.\n\n**And a trap worth more than the map.** Ahnentafel 27 is indexed under **Pilipić**, her married name — a search for *Uroda* returns nothing at Senj. **A married woman's death is indexed under her husband's surname.** Every sweep for a maiden name will walk past her."
   },
   {
    "n": 44,
