@@ -12,7 +12,11 @@
   "361": "3:1:3QS7-L99C-G3WG",
   "429": "3:1:3QS7-899C-G3HK",
   "430": "3:1:3QS7-L99C-GSRB",
-  "432": "3:1:3QS7-899C-GS54"
+  "432": "3:1:3QS7-899C-GS54",
+  "375": "3:1:3QSQ-G99C-G3L5",
+  "376": "3:1:3QS7-L99C-GSBH",
+  "418": "3:1:3QS7-L99C-GSVP",
+  "419": "3:1:3QSQ-G99C-GS5W"
  },
  "dims": {
   "231": [
@@ -32,12 +36,13 @@
   "232": "Folio 6, Anno Domini 1809 then 1810, read end to end, both pages. 1809: Miletich x Matthaea filia defti Martini **Uzelac** (18 Jan) · Sankovic x Aloysia (6 Feb) · a Dalmatian parishioner of Sopnich (Apr) · Antonius Mattiovich x Maria filia Martini Sedlenich (3 Maii) · Simon Cerkovich x Anna filia defti Simonis Vukelich (10 Aug) · Michael Urbi/Vrbi x Martha (Oct) · Antonius Luchatelli x Elena vidua, witness **Josephus Pillepich** (15 Nov). 1810: 8 Jan · 15 Maii (Georgii **Medvidich**, not Uroda) · 10 Junii · 16 Julii · 15 Octobris · 21 9bris, then «Finis». **No Uroda on the opening.**"
  },
  "_umrli_1774_1804": {
-  "_folio_map_MEASURED": "Image 361 carries folios 10|11, 364 carries 16|17, 365 carries 18|19 — all read off the page. So image = 356 + folio/2 for even folios, and an odd folio shares the image with the even one below it. This DISAGREES BY ONE with holdings.psv, which records folio 62 = image 388 where this gives 387. Read the folio number printed at the top of the page before trusting either.",
-  "_kazalo": "The volume's own A-Z index sits at images ~410-434. The big letter is written across the top of the page and lands visually over the SECOND column group, but it governs the whole page. Measured: image 427 right = P, 428 left = P (tail, folios 104-106 only) and right = R, 429 right = S, 430 right = T, 432 right = V. Entries within a letter run BY FOLIO, not alphabetically, so a surname is found by scanning the letter's columns.",
+  "_folio_map_MEASURED": "READ THE PRINTED FOLIO NUMBER. It is in the top outer corner. Measured anchors: folio 17 = image 364 (right page); folio 38 = image 376 (LEFT page, printed «38. — Anno Dñi 1783»); folio 39 = image 376 (right page). Two folios per image holds locally but DRIFTS across the book — interpolating from folio 17 predicted folio 39 on image 375, which is one leaf early and ends at 18 June 1783. Interpolate to get close, then read the printed number and step.",
+  "_kazalo": "The volume's own A-Z index sits at images ~410-434. The big letter is written across the top of the page and lands visually over the SECOND column group, but it governs the whole page. Measured: image 427 right = P, 428 left = P (tail, folios 104-106 only) and right = R, 429 right = S, 430 right = T, 432 right = V. Entries within a letter run BY FOLIO, not alphabetically, so a surname is found by scanning the letter's columns. Letter positions measured so far: G = image 418 right page (419 left is G and EMPTY); P = 427 right and 428 left; R = 428 right; S = 429 right; T = 430 right; V = 432 right. A letter's entries sit in the columns of ONE page and the big letter is written across the top, so an empty-looking page means the letter is on the opening before it.",
   "_why_the_kazalo": "The FamilySearch record index holds baptisms only for Karlobag (row 43), so this book must be walked — but its own index turns a walk into two page loads.",
   "found": {
    "ahn 104": "«Pillepich Jacobus · 10 Aprilis · folio 17» in the KAZALO (image 427) → folio 17, image 364: «10: Aprilis · D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est». No age. See notes/karlobag-1778-jacobus-pilepich.md.",
-   "ahn 212": "«Vukich vide Smojver, 16: Maij, folio 11» in the KAZALO (image 432, letter V) -> folio 11, image 361: «16 ejusdem [Maij 1776] · Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus [Sacramentis] … in Domino obijt, atque die 17 … in Coemeterio Parochiali tumulatus». 16 May 1776 is the tree's date to the day and annorum 45 agrees with its 1731. NOTE: the S columns were read only to about folio 9 — the sitting turned to V before reaching folio 11, so the Smojver headword was never checked."
+   "ahn 212": "«Vukich vide Smojver, 16: Maij, folio 11» in the KAZALO (image 432, letter V) -> folio 11, image 361: «16 ejusdem [Maij 1776] · Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus [Sacramentis] … in Domino obijt, atque die 17 … in Coemeterio Parochiali tumulatus». 16 May 1776 is the tree's date to the day and annorum 45 agrees with its 1731. NOTE: the S columns were read only to about folio 9 — the sitting turned to V before reaching folio 11, so the Smojver headword was never checked.",
+   "ahn 220": "«Gergacs Nicolaus · 3i 8bris · folio 39» in the KAZALO (image 418, letter G) -> folio 39, image 376: «30 8bris · Nicolaus Gergacs annorum 66, munitus omnibus sacramentis obiit … in domo filij sui Antonij, et die 31: ejusdem … sepultus est in Cœmeterio … Laterali ex parte dextra Ecclesiæ Parochialis hujus». 30 October 1783 is the tree's date to the day, and annorum 66 agrees with its 1717. He died IN HIS SON ANTONIUS'S HOUSE — a Gergacs the tree does not publish."
   },
   "index_lines_not_yet_opened": {
    "_what": "Read off the KAZALO only. These are index lines, NOT register entries — nobody has opened the pages.",
@@ -51,9 +56,10 @@
    "_why_it_matters": "Pekass is the surname of ahnentafel 213, 426 and 427 — three direct ancestors with no document of any kind. This is the first time the surname has appeared in a Karlobag register index here."
   },
   "still_wanted": {
-   "ahn 220": "Nicolaus Gerkacs, died 30 October 1783 — the G section of the KAZALO, not yet located (P is 427-428, S 429, T 430, V 432, so G is well before 427)",
-   "ahn 105": "Catherina Luckinić, died 29 May 1790 — the L section; try Luchinich, Lukinich, and any by-name headword"
+   "ahn 105": "Catherina Luckinić, died 29 May 1790 — the L section of the KAZALO, not yet located. Try Luchinich, Lukinich, and the by-name headwords: this index files households under their nadimak with «vide» (see ahn 212)."
   },
-  "_kazalo_indexes_bynames": "IMPORTANT. The KAZALO indexes HOUSEHOLD BY-NAMES as headwords and cross-references them to the surname with «vide». «Vukich vide Smojver, 16: Maij, folio 11» is how ahnentafel 212 was found; the same page carries «Verbanovich Margarita … vide Urbanovich, 15 9bris». A surname missing from its own letter is NOT absent from the book — look under the household by-name in another letter."
+  "_kazalo_indexes_bynames": "IMPORTANT. The KAZALO indexes HOUSEHOLD BY-NAMES as headwords and cross-references them to the surname with «vide». «Vukich vide Smojver, 16: Maij, folio 11» is how ahnentafel 212 was found; the same page carries «Verbanovich Margarita … vide Urbanovich, 15 9bris». A surname missing from its own letter is NOT absent from the book — look under the household by-name in another letter.",
+  "_kazalo_date_is_the_burial": "IMPORTANT. The KAZALO's date can be the BURIAL, not the death. It gives «Gergacs Nicolaus 3i 8bris» where the register says he died on the 30th and was buried «die 31: ejusdem». The archive already knew this shape from Find a Grave — a cemetery records the interment, a parish records the death — and the KAZALO does it too. Use the index date to FIND the entry, never to record one.",
+  "_surname_forms": "Gerkacs is written GERGACS and GERGAC in this book, and GERGAS in the 1807 marriage on the same film."
  }
 }
