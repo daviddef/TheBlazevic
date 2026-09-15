@@ -57,6 +57,24 @@ const fam = (f) => ({
   })),
 });
 
+/* A couples register, which this page did not have. It needs no new data: an
+   ahnentafel IS a list of couples — ancestor 2n is the father of n and 2n+1 the
+   mother, so every even number and its odd neighbour are a married pair. The
+   nineteen families are the wives' side of exactly these marriages, and the page
+   could name the families without ever naming the marriages that brought them. */
+const ANC = {};
+for (const f of fams) for (const a of f.ancestors) ANC[a.ahn] = { ...a, family: f.label };
+const couples = Object.keys(ANC).map(Number).filter((n) => n % 2 === 0)
+  .filter((n) => ANC[n + 1]).sort((a, b) => a - b)
+  .map((n) => ({
+    a: { name: ANC[n].name, slug: ANC[n].slug },
+    b: { name: ANC[n + 1].name, slug: ANC[n + 1].slug },
+    when: [ANC[n].born, ANC[n + 1].born].filter(Boolean).map((d) => (d.match(/\d{4}/) || [""])[0])
+      .filter(Boolean).sort().slice(0, 1).map((y) => "born " + y)[0] || "",
+    where: [...new Set([ANC[n].place, ANC[n + 1].place].filter(Boolean))].join(" · "),
+    note: `Ahnentafel <span class="mono">${n}</span> and <span class="mono">${n + 1}</span> — ${ANC[n + 1].family} married into the line here.`,
+  }));
+
 const GENS = [...new Set(fams.map(entered))].sort((a, b) => a - b);
 const GROUPED = GENS.map((g) => {
   const list = fams.filter((f) => entered(f) === g).sort((a, b) => b.ancestors.length - a.ancestors.length);
@@ -103,7 +121,15 @@ const places = Object.entries(byPlace).sort((a, b) => b[1].length - a[1].length)
     </div>
   </section>
 
-  <Marriages u={u} groups={GROUPED} openAt={6}>
+  <Marriages u={u} groups={GROUPED} openAt={6} subject="Blažević"
+    metrics={[{ n: fams.length, label: "families joined" },
+              { n: totalAnc, label: "direct ancestors" },
+              { n: couples.length, label: "marriages named" },
+              { n: places.length, label: "towns" },
+              { n: fams.reduce((a, f) => a + f.published, 0), label: "people published" }]}
+    couples={couples}
+    couplesTitle="The marriages themselves"
+    couplesNote="Every couple the ahnentafel names — a father and a mother are always two consecutive numbers, so the nineteen families above are the wives' side of exactly these marriages.">
     <div slot="missing">
       <section class="blk">
         <h2>What this page is honest about</h2>
