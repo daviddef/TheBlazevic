@@ -1769,13 +1769,13 @@
    "key": "fs/access",
    "url": "https://www.familysearch.org/",
    "what": "Two sessions of tile fetching, and what happened next",
-   "when": "13 Sept 2026",
+   "when": "13 Sept 2026 · again 15 Sept 2026",
    "outcome": "blocked",
    "tags": [
     "FamilySearch",
     "block"
    ],
-   "got": "**The site stopped answering.** After two long sessions and heavy tile traffic the viewer returned *Access Denied, Error 15*.\n\nWork stopped rather than retried from another angle. The symptoms and the avoidance are written down in `tools/familysearch.md` so the next session paces itself. Access returned the following day."
+   "got": "**The site stopped answering.** After two long sessions and heavy tile traffic the viewer returned *Access Denied, Error 15*.\n\nWork stopped rather than retried from another angle. The symptoms and the avoidance are written down in `tools/familysearch.md` so the next session paces itself. Access returned the following day.\n\n**It returned on 15 September 2026, harder.** From about **04:21 UTC** every request to the site — search, catalogue and scans alike — answered **403 Error 15** with a full «Access Denied» interstitial. It survived a 35-second wait, a fresh navigation to a different service, and a retry four minutes later, so it is the **block and not the blip**. The decisive test was the tile path: register pages are read from `/service/records/storage/deepzoomcloud/…`, a different edge from the API, and a known-good ark read successfully the day before returned **403 on `image.xml` and 403 on a single tile**. No index, no catalogue, no page. Client IP 168.140.255.212. **This stopped seven items of the work list on the spot**, and it is recorded here because a wall that is not written down gets mistaken next week for a source that held nothing."
   },
   {
    "src": "MyHeritage — the family tree export",
