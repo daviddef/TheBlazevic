@@ -26,3 +26,9 @@
 # Montani Stanište is not a parish, was never going to be one, and the
 # catalogue confirms it: no hit for «Stanište», no hit for «Montani».
 222|why|A *stanište* is a herders' settlement, not a parish, and the catalogue has no entry for this one — searched 15 September 2026 for both «Stanište» and «Montani», with nothing in Croatia returned. Its events will have been written into a neighbouring parish's book, and which one is NOT established here: the Tomljanovići in this archive are Karlobag, which makes Karlobag the first place to look and not an answer. What is firm is his daughter: ahnentafel 111, Lucia, died 19 September 1809, which falls inside Karlobag Umrli 1804–1861 and would name her father and her house.
+#
+# Row 51, 15 September 2026. Ahnentafel 22 is a surname with no given name, and
+# the grading already says so. What it could not say is that the surname is two
+# names and only one of them is a name. Read out of the GEDCOM; see
+# notes/ana-sumbul-maric.md.
+22|why|«Shambul» sits in the SURNAME field and the given name is empty — `1 NAME  /Shambul Marić/` — so this was never a man called Shambul. His other two children, Mathias and Joannes, are plain **Marić**: a surname does not attach to one child of three, and a by-name does. The two sources on his daughter are both other people's trees rather than a page, and they disagree — one writes *Šumbul*, the other *Shambul*. So the surname to search is **Marić**, with Šumbul as the discriminator, the way *Papa* separates one Papić household and *Smojver* one Vukić. It is deliberately NOT in sources/bynames.psv, which holds only phrases read off a register.
