@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import EraTimeline from "@daviddef/archive-kit/components/EraTimeline.astro";
 import { u } from "../lib/url.js";
 import fams from "../data/marriedin.json";
 
@@ -90,6 +91,16 @@ const GROUPED = GENS.map((g) => {
 const byPlace = {};
 for (const f of fams) (byPlace[f.places[0]?.place || "not recorded"] ||= []).push(f);
 const places = Object.entries(byPlace).sort((a, b) => b[1].length - a[1].length);
+
+/* This archive has ONE dated marriage record, so it cannot draw a marriage
+   timeline and does not pretend to. What it has is forty-five numbered
+   ancestors with birth years, and five rulers over the same coast in the same
+   span — which answers the same question: what was happening to them while
+   they were being born. The caption says which. */
+const timelinePoints = fams.flatMap((f) => f.ancestors
+  .filter((a) => a.born && /\d{4}/.test(a.born))
+  .map((a) => ({ label: a.name.replace(/\s*\(.*?\)/g, ""), year: a.born, sub: a.place || f.label })));
+
 ---
 <Base title="The Marriages"
   eyebrow={`${fams.length} families · ${totalAnc} direct ancestors · not one of them here by name`}
@@ -120,6 +131,14 @@ const places = Object.entries(byPlace).sort((a, b) => b[1].length - a[1].length)
         </div>))}
     </div>
   </section>
+
+  <EraTimeline points={timelinePoints}
+    eras={[[1700,1797,"Venetian and Habsburg frontier","--r-venice"],[1797,1809,"Habsburg","--r-habsburg"],
+           [1809,1813,"Illyrian Provinces","--r-napo"],[1813,1918,"Austria, then Austria–Hungary","--r-habsburg"],
+           [1918,1945,"Yugoslavia and the occupation","--r-italy"]]}
+    marks={[[1779,"Karlobag a free port"],[1871,"The Military Frontier dissolved"],
+            [1918,"The empire ends"],[1943,"Senj bombed"]]}
+    what={`Each dot is a numbered direct ancestor at the year of their birth — this archive has only one dated marriage record, so it plots what it has and says so. ${timelinePoints.length} of the forty-five carry a year.`} />
 
   <Marriages u={u} groups={GROUPED} openAt={6} subject="Blažević"
     metrics={[{ n: fams.length, label: "families joined" },
