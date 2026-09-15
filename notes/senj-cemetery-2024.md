@@ -35,14 +35,26 @@ frond on its base: *JOSIP PAPIĆ ✽1857 †1939 · ANTONIJA ✽1860 †1935 · 
 ## The pattern in the errors
 
 **Every death year on these five stones is right. Two of the five birth years
-are one out**, and both in the same direction — the stone is a year earlier than
-the register. Ljubomir 1891 for 1892; Antonija 1860 for 1859.
+are one out** — Ljubomir **1891** for 1892, and Antonija **1860** for 1859.
 
-The archive already knew about Ljubomir's. **It is not a one-off.** A death is
-carved by people who have just lived through it; a birth is carved from memory,
-sometimes forty years late. **On this evidence, a Senj stone is good evidence
-for a death year and weak evidence for a birth year** — and that is a rule worth
-having before the next stone is read.
+**They do not run the same way.** Ljubomir's stone is a year **early**;
+Antonija's is a year **late**. An earlier draft of this note claimed both were
+early, which is simply wrong and is corrected here. The direction carries no
+information — **the size does.** Every disagreement anywhere in these surveys is
+a birth year and every one is exactly one year, which is the signature of a
+figure carved from memory rather than copied from a document.
+
+The archive already knew about Ljubomir's. **It is not a one-off**, and the
+[wiring of these surveys into `graves.json`](../tools/graves.py) has since found
+a third — **Franjo Žubrinić at Otočac, 1846 on the stone for 1845 in the tree**.
+Three disagreements, three families, two cemeteries, **all of them births and all
+of them one year**, against **not one death year in dispute in 226 names**.
+
+A death is carved by people who have just lived through it; a birth is carved
+from memory, sometimes forty years late, by the generation after. **On this
+evidence a Croatian family stone is good evidence for a death year and weak
+evidence for a birth year** — and that is a rule worth having before the next
+stone is read.
 
 ## Three brothers of ahnentafel 6, all matching to the year
 

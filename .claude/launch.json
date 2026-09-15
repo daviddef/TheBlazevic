@@ -2,11 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "blazevic-archive",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 4324,
-      "cwd": "site"
+      "name": "archive",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--prefix", "site", "astro", "preview", "--root", "site", "--port", "4399"],
+      "port": 4399
     }
   ]
 }
