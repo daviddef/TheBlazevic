@@ -18,6 +18,21 @@ act on a page that grades them alike. This works out which each one is, names
 the parish that would carry the next document, and says whether that book is
 filmed, out of range, or does not exist.
 
+TWO THINGS THIS TOOL MUST NOT DO, BOTH LEARNED THE HARD WAY.
+
+It must not say a wall «has not been opened» without looking. It used to print
+that sentence from the parish table alone, which knows what is FILMED and
+nothing about what has been READ. On 15 September 2026 four walls carried it
+while the register in question had been read that morning. The tool now reads
+sources/readings.psv and names what this archive already holds for the person.
+
+And it must not call a household «unplaced» when a register has placed it. The
+tree is not the only evidence here. Nicolaus Gerkacs has no birthplace anywhere
+in the GEDCOM, and his death entry of 1783 puts him in his son's house at
+Karlobag — so «no place is recorded for this household anywhere on the line» was
+false the moment that entry was read. sources/walls.psv can now supply a place
+from a document, and the grading runs on it exactly as it would on the tree's.
+
 Writes site/src/data/walls.json, keyed by ahnentafel number.
 """
 import json
@@ -71,14 +86,29 @@ def main():
     fixes = json.load(open(os.path.join(DATA, "placefixes.json"), encoding="utf-8"))["rules"]
     by = {int(r["ahn"]): r for r in anc if r.get("ahn")}
 
+    # sources/walls.psv — one correction per line, «ahn|field|value», where
+    # field is place, label or note. A «place» does not assert a grade; it is
+    # fed back through the normal grading so the kind is still derived.
     over = {}
     if os.path.exists(OVERRIDE):
         for line in open(OVERRIDE, encoding="utf-8"):
             line = line.rstrip("\n")
             if not line.strip() or line.startswith("#"):
                 continue
-            ahn, label, note = line.split("|", 2)
-            over[int(ahn)] = (label.strip(), note.strip())
+            ahn, field, value = line.split("|", 2)
+            over.setdefault(int(ahn), {})[field.strip().lower()] = value.strip()
+
+    # What this archive has actually READ for each person, so the tool can stop
+    # guessing at it. sources/readings.psv is «slug|kind|year|where|citation».
+    read_by_slug = {}
+    rp = os.path.join(ROOT, "sources", "readings.psv")
+    if os.path.exists(rp):
+        for line in open(rp, encoding="utf-8"):
+            line = line.strip()
+            if not line or line.startswith("#") or line.count("|") < 4:
+                continue
+            slug, kindname, year = [x.strip() for x in line.split("|")[:3]]
+            read_by_slug.setdefault(slug, []).append((kindname, year))
 
     def real_place(row, field="bornPlace"):
         """The place string with the tree's known wrong-county strings corrected,
@@ -103,6 +133,12 @@ def main():
         place, fix = real_place(r)
         if not village_of(place) and child:
             place, fix = real_place(child)
+        # A document may place a household the tree never placed. Recorded in
+        # sources/walls.psv with the entry that says so.
+        placed_by_document = False
+        if not village_of(place) and over.get(n, {}).get("place"):
+            place, fix = over[n]["place"], None
+            placed_by_document = bool(village_of(place))
         village = village_of(place)
         parish = parish_of.get(village or "")
         byear = year_of(r.get("born"))
@@ -155,6 +191,13 @@ def main():
                         + (f", and this archive stops here." if not parish
                            else "."))
 
+        # What this archive already holds for this person. A wall is about the
+        # PARENTS being unknown, so a death or a marriage read here does not
+        # bring the wall down — but it does mean «has not been opened» is the
+        # wrong sentence, and saying which document is still shut is the right one.
+        docs = read_by_slug.get(r.get("slug")) or []
+        already = ", ".join(f"{k.replace('-', ' ')} {y}" for k, y in docs)
+
         if parish:
             P = PARISH[parish]
             about = "" if exact else "about "
@@ -181,7 +224,10 @@ def main():
                                 f"baptism** — a surname you do not have cannot be searched "
                                 f"for, and a marriage entry supplies it. A marriage of about "
                                 f"{mar} falls **inside** the filmed register. "
-                                f"**This one is reachable and has not been opened.**")
+                                + (f"This archive has already read the **{already}** for "
+                                   f"her; **the marriage is the one still unopened.**"
+                                   if docs else
+                                   "**This one is reachable and has not been opened.**"))
                 else:
                     rs = ranges(P["marriages"])
                     if rs:
@@ -198,8 +244,15 @@ def main():
                             "them, so there is nothing to test the film's range against.")
             else:
                 if covered(P["births"], est):
-                    bits.append(f"A baptism of {about}{est} falls **inside** that film. "
-                                f"This wall is reachable and has not been opened.")
+                    if docs:
+                        bits.append(f"A baptism of {about}{est} falls **inside** that film. "
+                                    f"This archive has already read the **{already}** for "
+                                    f"this person, and none of it names **their own** parents — the "
+                                    f"**baptism is the document still unopened**, and it is "
+                                    f"the one that would.")
+                    else:
+                        bits.append(f"A baptism of {about}{est} falls **inside** that film. "
+                                    f"This wall is reachable and has not been opened.")
                 else:
                     rs = ranges(P["births"])
                     if rs:
@@ -210,6 +263,9 @@ def main():
                         bits.append(f"**No baptismal register for this parish is filmed at "
                                     f"all**, so a baptism of {about}{est} is not reachable "
                                     f"in this collection.")
+            if placed_by_document:
+                bits.append(f"**The tree does not place this household at all — a document "
+                            f"does.** {over[n].get('why', '')}".rstrip())
             if fix:
                 bits.append(f"(The tree writes this place as *{fix['reads']}*, which is "
                             f"{fix['km']} km away and wrong.)")
@@ -219,8 +275,8 @@ def main():
                         "not a name.**")
 
         note = " ".join(bits)
-        if n in over:
-            label, note = over[n][0] or label, over[n][1]
+        label = over.get(n, {}).get("label") or label
+        note = over.get(n, {}).get("note") or note
 
         walls[str(n)] = {"ahn": n, "name": name, "slug": r.get("slug"),
                          "kind": kind, "label": label, "note": note,

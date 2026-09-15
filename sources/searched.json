@@ -323,6 +323,32 @@
  ],
  "rows": [
   {
+   "src": "The thirty-one walls, re-graded against what has actually been read",
+   "key": "self/walls",
+   "url": "/tree/",
+   "what": "Whether any wall has quietly stopped being a wall",
+   "when": "15 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "internal",
+    "walls",
+    "karlobag",
+    "gerkacs"
+   ],
+   "got": "**Nine direct ancestors were read this week and not one wall moved.** `walls.json` was identical at every commit from Monday to Monday — 9 unplaced, 7 nameless, 6 outside, 4 reachable. That looked like a correct result and was not.\n\n**`walls.py` could not see the reading.** It loads `ancestors.json` and `placefixes.json` and nothing else. The parish table tells it what is **filmed**; nothing told it what had been **read**. So it printed «*This wall is reachable and **has not been opened***» on four walls — and for three of them the register had been opened, by this archive, that same morning.\n\n**And one wall was simply false.** Ahnentafel 220, Nicolaus Gerkacs, was graded «*unplaced — No place recorded*», with the sentence «*No place is recorded for this household anywhere on the line, so there is no register to open. **The wall here is a place, not a name.***» His death entry, read the same day, puts him **in his son Antonius's house at Karlobag**. The tree has no birthplace for him; **a document does**, and the archive had it.\n\n**Both are fixed at the tool, not the text.**\n\n* `walls.py` now reads `sources/readings.psv`, so a wall that has documents says which ones and **which book is still shut** — «*This archive has already read the **death 1778** for this person, and none of it names **their own** parents — the baptism is the document still unopened*».\n* `sources/walls.psv` is created and given a format — `ahn|field|value`, where **`place`** supplies a place read off a document and **`why`** cites the entry that supplies it. A place does **not** assert a grade: it is fed back through the normal grading, so the kind stays derived.\n\n**Ahnentafel 220 moves from *unplaced* to *reachable*, and Karlobag baptisms 1691–1861 cover his birth of 1717.** That is a wall that had stopped being a wall and was still deterring work. **8 unplaced now, 5 reachable.**",
+   "missed": "**Only one wall moved, and the other thirty were re-checked rather than re-graded.** The nine unplaced, seven nameless and six outside are unchanged and correctly so — nothing read this week named a parent, which is what a wall is about.\n\n**The «reachable» four are now honestly labelled but no closer to open.** Ahnentafel 104, 108, 212 and 220 all want the same book: **Karlobag baptisms**, 1691–1861, filmed, and nobody has opened it for any of them. That is one sitting, and it is the single highest-yield unopened book on this chart.",
+   "ev": [
+    [
+     "/tree/",
+     "Our line, drawn"
+    ],
+    [
+     "/harvest/",
+     "What is left to read"
+    ]
+   ]
+  },
+  {
    "src": "Senj municipal cemetery — 105 photographs from October 2024, read out",
    "key": "graves/senj",
    "what": "Whether the Senj cemetery names anyone this archive already holds",

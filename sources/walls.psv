@@ -1,0 +1,15 @@
+# Corrections to the wall grading, one per line: ahn|field|value
+#
+# field is one of:
+#   place  a place this archive has READ off a document, where the tree gives
+#          none. It does NOT assert a grade — it is fed back through the normal
+#          grading, so the kind is still derived from the parish table.
+#   why    the sentence that says which document placed them. Printed after it.
+#   label  replaces the short label outright.
+#   note   replaces the whole note outright. Use sparingly; prefer place.
+#
+# Nicolaus Gerkacs had no birthplace anywhere in the GEDCOM and was graded
+# «unplaced — No place recorded», which on 15 September 2026 stopped being true:
+# his death entry puts him in his son's house at Karlobag.
+220|place|Karlobag, Lika-Senj County, Croatia
+220|why|He died on 30 October 1783 «in domo filij sui Antonij» — in his son Antonius's house — and was buried beside the parish church at Karlobag. Karlobag Umrli 1774–1804, folio 39, ark 3:1:3QS7-L99C-GSBH.
