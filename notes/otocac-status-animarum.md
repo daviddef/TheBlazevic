@@ -1534,9 +1534,8 @@ his childhood — and still no document that joins the two.**
 
 ## Žubrinić deaths in the prose years, as read
 
-Read this sitting: **images 156–249**, every opening but one page-half (see the
-foot of this section). Images **194, 197 and 218 are duplicate exposures** of
-193, 196 and 217 and were skipped.
+Read this sitting: **images 156–249**, every opening. Images **194, 197 and 218
+are duplicate exposures** of 193, 196 and 217 and were skipped.
 
     1785  May   Marta filia Thomæ Xubrinich                an. 4½
     1785  Feb   Simon filius Josephi                       an. 4½
@@ -1679,8 +1678,14 @@ of them checked at magnification:
 *ex Potok* was read at 2.3× — it is `Potok̄`, the village the 1790 Croatian entries
 also name as *od sela Potok*.
 
-## What is still unread
+## Item 3 is read end to end
 
-**One page-half: image 160, right page** — October to December 1781. Both
-browsers were Akamai-blocked when it came up, and it is the only part of item 3
-this archive has not seen. Its left page holds no Žubrinić.
+**Image 160, right page** came through after a third wait on the Akamai block.
+October to December 1781: *Catharina filiola Nicolai Xubrinich, dierum 1* and
+*Magdalena uxor Gregorii Xubrinich, an. cir: 40*, and no adult Thomas. The year
+closes *"Ano 1781 in magno cœm. sepulti sunt adulti 29, parvuli 39, universi 68.
+In parvo nullus."*
+
+**So the Otočac death register 1780–1836 — images 156 to 332, every opening —
+has now been read.** The three duplicate exposures aside, nothing in item 3 is
+unexamined.
