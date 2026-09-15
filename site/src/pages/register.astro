@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 
@@ -58,85 +59,16 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
 
   <section class="blk">
     <div class="finder">
-      <label class="lab" for="q">Filter by name, trade, place, year or source</label>
-      <input id="q" type="search" autocomplete="off"
-        placeholder="tvornici duhana · Krivi Put · 1919 · Rivosecchi · Custos …" />
-      <p class="dek" id="count" style="margin-top:.5rem">{register.length} entries</p>
-    </div>
-  </section>
+      <Register u={u} rows={[...groups.entries()].flatMap(([g, list]) => list.map((r) => ({
+    name: r.name,
+    surname: pretty(g),
+    href: r.slug ? "/people/" + r.slug + "/" : "",
+    chip: (r.kind === "swept" && !r.slug) ? "not in the tree" : "",
+    detail: r.detail,
+    source: r.source,
+    sourceLabel: KIND[r.kind] || r.kind,
+  })))} />
 
-  {order.map((g) => (
-    <section class="blk sur" data-sur={g}>
-      <h2>{pretty(g)} <span class="dim mono">{groups.get(g).length}</span></h2>
-      <table class="reg">
-        <thead><tr><th>Name</th><th>What the source says</th><th>Source</th></tr></thead>
-        <tbody>
-          {groups.get(g).map((r) => (
-            <tr class="row" data-hay={(r.name + " " + r.detail + " " + r.source).toLowerCase()}>
-              <td>
-                {r.slug ? <a href={u("/people/" + r.slug)}>{r.name}</a> : r.name}
-                {r.kind === "swept" && !r.slug &&
-                  <><br /><span class="tag">not in the tree</span></>}
-              </td>
-              <td>{r.detail}</td>
-              <td class="dek">
-                <strong>{KIND[r.kind]}</strong><br />
-                <span class="dim">{r.source}</span>
-              </td>
-            </tr>))}
-        </tbody>
-      </table>
-    </section>
-  ))}
-
-  <section class="blk">
-    <h2>What this page is not</h2>
-    <ul class="plain">
-      <li><strong>It is not a pedigree.</strong> Being listed here means a source names you, and
-        nothing more. <a href={u("/direct-line/")}>The spine</a> is the pedigree.</li>
-      <li><strong>It is not complete.</strong> It holds what has been read. Roughly a thousand
-        people in the wider tree have never had their media swept, and the register reading covers
-        about twenty pages across four parishes.</li>
-      <li><strong>It does not resolve duplicates.</strong> Three men called Mile Prpić appear here
-        and at least two of them are different people. Saying which would be a claim, and this page
-        makes none.</li>
-    </ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/people/")}>The people with pages →</a>
-      {" "}<a class="btn" href={u("/sources/")}>Where all this comes from →</a></p>
-  </section>
-
-  <script is:inline>
-    (function () {
-      var q = document.getElementById("q"), count = document.getElementById("count");
-      var rows = [].slice.call(document.querySelectorAll("tr.row"));
-      var secs = [].slice.call(document.querySelectorAll("section.sur"));
-      // Haystacks read once and each row's section resolved once, so typing
-      // never walks the DOM. Counting hits per section as we go also removes
-      // the ":not([hidden])" query that forced a style recalculation per
-      // section per keystroke.
-      var hay = rows.map(function (r) { return r.getAttribute("data-hay"); });
-      var at = new Map();
-      secs.forEach(function (s, i) { at.set(s, i); });
-      var owner = rows.map(function (r) { return at.get(r.closest("section.sur")); });
-      var t;
-      function run() {
-        var v = q.value.trim().toLowerCase(), n = 0;
-        var live = secs.map(function () { return 0; });
-        rows.forEach(function (r, i) {
-          var hit = !v || hay[i].indexOf(v) !== -1;
-          r.hidden = !hit;
-          if (hit) { n++; live[owner[i]]++; }
-        });
-        secs.forEach(function (s, i) { s.hidden = !live[i]; });
-        count.textContent = n === rows.length
-          ? rows.length.toLocaleString() + " entries"
-          : n.toLocaleString() + " of " + rows.length.toLocaleString() + " entries";
-      }
-      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
-      var pre = new URLSearchParams(location.search).get("q");
-      if (pre) { q.value = pre; run(); }
-    })();
-  </script>
 <style is:global>
   /* is:global, deliberately. A scoped <style> makes Astro stamp
      data-astro-cid-… onto every element the page renders, which on a register
