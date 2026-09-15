@@ -9,6 +9,15 @@
  ],
  "read": [
   {
+   "book": "Otočac baptisms 1846–1858 — the Conditio column, and a third Žubrinić house",
+   "ref": "ark 3:1:3QSQ-G99C-P275 (21 December 1846) and 3:1:3QS7-899C-PVT8 (January 1855)",
+   "pages": "two openings, the Conditio column read cell by cell",
+   "years": "1846, 1855",
+   "n": 2,
+   "got": "**A third Žubrinić house at Šumećica.** 21 December 1846: «**Thomas, filius Michaelis, legitimus** | ***Confiniar[ius] Šumećica 10*** | **Michael Žubrinić et ejus consors *Helena nata Orešković e Prozor*, Catholici**». **Not 2, not 24 — ten.**\n\nAnd **the method is confirmed**: this book's *Conditio* gives **village and house for every entry**, not only for Žubrinići — the row above Thomas reads «*Confiniarius ex **Poljica 14***». So the column can be harvested.",
+   "missed": "**The index's ARK points at the opening, not the row.** The 3 January 1855 entry the index calls *Mathias Žubrinić* is on a page whose sixth row is a **Marković** family; finding the right row costs two or three crops per entry, which is what makes this a sitting rather than a lookup. **Seven more indexed Michael entries remain unread.**"
+  },
+  {
    "book": "Senj baptisms 1857 — ahnentafel 6's own baptism",
    "ref": "image ark 3:1:3QS7-L99C-5TBF",
    "pages": "one entry, read in three aligned chunks",
@@ -304,6 +313,35 @@
   }
  ],
  "rows": [
+  {
+   "src": "FamilySearch — Šumećica by house number, from the Otočac Conditio column",
+   "what": "Which Žubrinić household lives at which Šumećica house",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "url": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "sumecica",
+    "familysearch"
+   ],
+   "got": "**Three Žubrinić houses at Šumećica, and the third is new today.**\n\n| house | household | read in |\n|---|---|---|\n| **N° 2** | **Nicolaus Žubrinić** × Anna, *nata Štrumbulko* in 1856 and *nata Marić* in 1858 | two baptisms |\n| **N° 10** | **Michael Žubrinić** × ***Helena nata Orešković, e Prozor*** | 21 December 1846 |\n| **N° 24** | **Michaël Xubrinich**, *Confiniarius*, × **Maria nata Orešković** | 24 January 1834 |\n\n**And that bears directly on question 4d**, which asks whether there is one Michaël Žubrinić with two wives or two men of the name. **In 1834 a Michaël is at house 24 with a *Maria* Orešković; in 1846 a Michael is at house 10 with a *Helena* Orešković of Prozor.** Two houses, two wives, **both Orešković** — which looks less like one man remarrying and more like **two men who married into the same family**, possibly two Orešković sisters or cousins. **It is not proof and is not being published as the answer**; twelve years is room enough for a move and a second marriage. But it is the first time the question has had two house numbers to work with instead of none.\n\n**The method is confirmed too.** The *Conditio* column of this book carries **village and house for every entry** — the row above Thomas reads «*Confiniarius ex **Poljica 14***» — so the column can be harvested wholesale.",
+   "missed": "**The index's ARK points at the opening, not the row**, so each entry costs two or three crops to locate; the page the index calls *Mathias Žubrinić, 3 January 1855* has a **Marković** family in its sixth row. **Seven indexed Michael Žubrinić entries between 1847 and 1858 are still unread**, and with them the rest of the house map.",
+   "ev": [
+    [
+     "/oto/",
+     "Otočac"
+    ],
+    [
+     "/frontier/",
+     "The Frontier"
+    ],
+    [
+     "/open-questions/",
+     "Open questions"
+    ]
+   ]
+  },
   {
    "src": "FamilySearch — Tonka Blažević's baptism, and an index that is wrong",
    "what": "25 October 1884 by this archive's reading against 27 November 1884 by the index",

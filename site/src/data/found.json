@@ -1,10 +1,10 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 10,
+ "count": 12,
  "onDirectLine": 2,
  "places": {
   "Karlobag": 8,
-  "Otocac": 1,
+  "Otocac": 3,
   "Selce": 1
  },
  "rows": [
@@ -97,6 +97,24 @@
    "date": "3 July 1856",
    "place": "Otocac",
    "citation": "Otocac baptisms entry 49 - \"Rustici Confiniarii e Sumecica N. 2 ... Nicolaus Zubrinic et ejus uxor Anna nata Strumbulko\"; ark 3:1:3QSQ-G99C-PK2C"
+  },
+  {
+   "name": "Thomas Zubrinic",
+   "ahn": null,
+   "relation": "son of a Michael Zubrinic at Sumecica 10, not the ahnentafel-20 household",
+   "event": "baptism",
+   "date": "21 December 1846",
+   "place": "Otocac",
+   "citation": "Otocac baptisms - \"Confiniar. Sumecica 10 - Michael Zubrinic et ejus consors Helena nata Oreskovic e Prozor\"; ark 3:1:3QSQ-G99C-P275"
+  },
+  {
+   "name": "Helena Oreskovic",
+   "ahn": null,
+   "relation": "wife of the Michael Zubrinic at Sumecica 10; of Prozor",
+   "event": "named as parent",
+   "date": "21 December 1846",
+   "place": "Otocac",
+   "citation": "same entry - \"ejus consors Helena nata Oreskovic e Prozor\""
   }
  ]
 }
