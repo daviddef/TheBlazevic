@@ -166,3 +166,61 @@ wrote is**, and [row 50](../../site/src/pages/worklist.astro) wants exactly that
 **The seam is inland and it is Otočac.** The coastal parishes this archive has
 read most — Karlobag, Novi Vinodolski, Selce — sent nobody to New York who filed
 under a searchable spelling.
+
+---
+
+# All nineteen filings read: fourteen people, and every one of them went to New York
+
+`sources/findmypast/senj-otocac-naturalisations.psv` holds the register. Twelve
+filings for **Senj** and seven for **Otočac** resolve to **six and seven
+people**, plus Brinje's one — and the pattern is not what this archive expected.
+
+**Thirteen of the fourteen settled in metropolitan New York.** Brooklyn, the
+Bronx, Astoria, Jackson Heights, Long Island City, Tarrytown, Nassau County.
+Only **Mike Mukulino**, the oldest of them, born 1858, went elsewhere — to
+**Boston**.
+
+**That is a different diaspora from the two this archive already had.** The
+Žubrinići of **Prozor** went to **Port Pirie**, South Australia, and became
+moulders in a lead smelter. The **Kalanji** of Klenovica went to **Leadville,
+Colorado** and the **Michigan copper country**. **Senj and Otočac went to New
+York** — and none of the three streams touches another.
+
+---
+
+## The birth country is what the applicant said, and two men from one town did not agree
+
+The same town, written by American clerks across thirty-seven years:
+
+    Senj, Hungary               Mukulino, born 1858, filed 1920
+    Senj, Austria               Rukavina, born 1886, filed 1928
+    Senj, Hrvatska, Austria     Grzin,    born 1888, filed 1924
+    Senj, Yugoslavia            Hammerschmidt, born 1894, filed 1928
+    Senj, Jugoslavia            Šojat,    born 1910, filed 1955
+    Klada-senj, Jugoslavia      Vukelić,  born 1894, filed 1945
+
+**Rukavina and Hammerschmidt filed in the same year, 1928, about the same town,
+and called it two different countries.** It is not the empire at the date of
+birth and not the empire at the date of filing — **it is what the man in front of
+the clerk said his country was**, and in 1928 two men from Senj did not say the
+same thing. One of them even names the province: *Hrvatska*.
+
+**So «Birth country» is not evidence and the transcribed birth PLACE is.** The
+same holds at Otočac — *Hungary* in 1927, *Austria* in 1931 and 1941,
+*Jugoslavia* in 1937, *Yugoslavia* in 1957 — five countries, one town, one
+lifetime.
+
+---
+
+## What is worth doing next with this
+
+**Every row carries an exact birth date**, which is the one thing that can be
+carried back to a parish register and tested. **Otočac births are filmed
+1834–1858 only**, so of the Otočac seven **not one is reachable** — they are all
+born 1888–1917. **Senj births are filmed 1734–1894**, which puts
+**Mukulino (1858), Rukavina (1886), Grzin (1888) and both 1894 men — Vukelić and
+Hammerschmidt — inside the film**, to the day.
+
+**Marijan Vukelić is the one to open first**: born **27 January 1894**, the
+surname **Milka Papić married into**, and his birthplace **Klada** is a village
+this archive has never had.
