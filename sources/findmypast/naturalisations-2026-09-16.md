@@ -99,3 +99,70 @@ maiden name*. **It is not.** The index attaches *«Or Rozic»* to **Ivan** and t
 **all three children** as well. It is an **alternate surname carried by the whole
 household** — a second name the family used in America — and reading it as a
 maiden name would have invented a marriage line that is not there.
+
+---
+
+## The surname field matches EXACTLY, and that is the third form of the same lesson
+
+Four of this archive's surnames returned **0** in this record set — *kalanj*,
+*papic*, *sojat*, *spalj* — and **Miro Šojat is demonstrably in it**, read above.
+
+    lastname=sojat    0
+    lastname=sojath   4   ← Miro, his wife Helen, his son George
+
+**The surname box is an exact match, not a fuzzy one** (the *keywords* box is the
+opposite: fuzzy enough to return Greeks for «klada»). So **a zero on a surname
+means «not under that spelling» and never «not here»**.
+
+That is the same lesson for the third time today, in a third place:
+
+* **Zubrinich / Zubrinic / Zubrinick / Zubrinec** — four spellings of the surname,
+  and the fourth was the American clerk's.
+* **Perpic / Prpic** — the index spelled a father and his daughter differently
+  **in one entry**.
+* **Sojat / Sojath** — one letter, and the search is blind without it.
+
+---
+
+## Kalanj is «Kalan» in America — and the Kalan family is Slovene
+
+`lastname=kalan` returns **20 petitions**, which the 143-record Kalanj harvest of
+13 September never saw. It looked like the find of the afternoon.
+
+> **Frank Kalan**, born **10 April 1873**, birth place as transcribed
+> **«Krain, Austria»** · wife *Karoline* b.1883 · children *Frank* 1902,
+> *Lena* 1905, *Mary* 1907 · New York, 1918 and 1923
+
+**Krain is Carniola** — Slovenia, not Lika. **Kalan is a Slovene surname in its
+own right and not a rendering of Kalanj at all.** Recorded so nobody spends a day
+on it: **the twenty Kalan petitions are not ours.**
+
+The same for the second Vukelić household: **Louis Peter Vukelić**, b. 18 March
+1892, birthplace **«Rogul, Jugo Slavia»**, New Haven 1926 — *not* Klada, *not*
+Senj, and no relation established.
+
+---
+
+## Brinje is confirmed as an emigration source, in the clerks' own spelling
+
+> **Vid Peter Karakas**, born **26 September 1920**, birth place as transcribed
+> **«Brinje Plasca, Yugoslavia»** · wife *Helen* b.1930 · children *Kenneth*
+> 1952, *Mark* 1953 · Nassau County, NY, **1953**
+
+**Brinje AND Plašćica in one field.** The trial of 13 September found seven
+Kalanj manifests giving *«Brinje, Plaščica, Kurjak and Velgovica»* — four places
+in Lika — and here is the same pairing thirty years later in a different record
+type. Karakaš is not one of this archive's surnames, but **the form the clerks
+wrote is**, and [row 50](../../site/src/pages/worklist.astro) wants exactly that.
+
+---
+
+## What the villages returned
+
+    otocac   7      senj  12      brinje  (fuzzy: 1 Yugoslav hit, Karakas)
+    karlobag 0      novi vinodolski 0     jurjevo 0      selce 0
+    ledenice — only a Czech «Karel Tuma», b.1882
+
+**The seam is inland and it is Otočac.** The coastal parishes this archive has
+read most — Karlobag, Novi Vinodolski, Selce — sent nobody to New York who filed
+under a searchable spelling.
