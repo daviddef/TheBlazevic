@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import Sovereignty from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
+import Timeline from "@daviddef/archive-kit/components/Timeline.astro";
 import sov from "../data/sovereignty.json";
 const events = [...sov.events].sort((a, b) => a.year - b.year);
 /* world entries are [year, text] pairs, the shape the shared timeline component
@@ -13,6 +14,11 @@ const world = sov.world
 const merged = [...events.map((e) => ({ ...e, kind: "family" })),
                 ...world.map((e) => ({ ...e, kind: "world" }))]
   .sort((a, b) => a.year - b.year || (a.kind === "world" ? -1 : 1));
+const rows = merged.map((e) => ({
+  year: e.year, when: String(e.year), title: e.text,
+  kind: e.kind === "family" ? "this family" : "the world around them",
+  big: e.kind === "family",
+}));
 ---
 <Base title="The Timeline"
   eyebrow="Five districts, nine regimes, one family"
@@ -56,18 +62,7 @@ const merged = [...events.map((e) => ({ ...e, kind: "family" })),
     <h2>Year by year</h2>
     <p class="lede">The family's own dated moments in <strong class="warn">red</strong>, set among
     the things happening around them.</p>
-    <table class="reg" style="margin-top:1rem">
-      <tbody>{merged.map((e) => (
-        <tr>
-          <td class="mono" style="width:4rem">{e.year}</td>
-          <td>{e.kind === "family"
-            ? <strong>{e.text}</strong>
-            : <span class="dim">{e.text}</span>}</td>
-          <td class="dek" style="width:9rem">{e.kind === "family"
-            ? <span class="tag">this family</span>
-            : "the world around them"}</td>
-        </tr>))}</tbody>
-    </table>
+    <Timeline events={rows} u={u} />
   </section>
 
   <section class="blk">
