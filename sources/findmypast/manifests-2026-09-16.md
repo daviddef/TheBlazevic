@@ -92,3 +92,44 @@ that calls Jeso an acquaintance is the one to distrust.
 
 **Neither Kostelac nor Gomerčić is in this tree.** Two families, both reached by
 blood, both invisible.
+
+---
+
+# PERPIĆ — 112 records, and not one of them is ours
+
+*Row 57, the first of the «too common to harvest» surnames. 16 September 2026.*
+
+**Perpić looked like the easy one.** `PRPIĆ` returns **943** records and `PERPIĆ`
+returns **112** — the same split as Zubrinich/Zubrinic, with the rarer spelling
+small enough to read end to end. This archive's Perpići are a **Krivi Put**
+family: ahnentafel 7's line, at **Krivi Put 113, 129, 136** and **Krmpote 82**,
+with the rest at Senj.
+
+**Four Perpić passengers carry a residence, and they are four different places.**
+
+| | | |
+|---|---|---|
+| **…Tho Perpic**, b.1868 | 1909, *New York* | residence **«Zeria, Austria»** · wife *Mattia* · step-brother *Joseph* |
+| **Franz Perpic**, b.1888 | 1907, *Adriatic* | residence **«Kastav, Austria»** · nationality **Slovenian** |
+| **Georg Perpic**, b.1865 | 1907, *La Bretagne* | residence **«Matkovici, Austria»** · mother *Soka* · brother *Petar* |
+| **Joka Perpic**, b.1892 | 1911, *Carpathia*, **from FIUME** | residence **«Karlovac, Hungary»** · father **Marko Prpic** |
+
+**Kastav, Matkovići, Karlovac, Zeria — not one of them is Krivi Put or Senj, and
+no two are near each other.** The rest of the 112 are an American family: census
+after census at **Perry, Wyoming County, New York**, and a later limb at
+**San Diego** and **Bergen County, New Jersey**.
+
+**So this is the Kalanj lesson again, and it is worth stating as a rule.** The
+trial wrote it about a different surname — *«Kalanj is a regional surname, not
+one household»* — and **Perpić is the same**. A Croatian surname on a US manifest
+index is a **region**, not a family, and harvesting one in bulk buys nothing
+without a place to test it against. **The 386-name target list is the place.**
+
+**Two things the sweep gave anyway.**
+
+* **Joka's record spells the daughter PERPIC and her father PRPIC — in the same
+  entry.** That is the two spellings proved to be one surname at the index's own
+  hand, which is what the archive had been inferring.
+* **A second departure from FIUME.** Joka in 1911 on the *Carpathia*, after Eva
+  Žubrinić in 1907 on the *Ultonia*. **Fiume is a route this material keeps
+  showing**, and it is three hours from Senj rather than a crossing of Europe.
