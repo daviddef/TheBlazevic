@@ -88,6 +88,60 @@ try:
 except FileNotFoundError:
     print("skip  contradictions — consistency.json not built")
 
+# ---- evidence must actually reach the person it is about ------------------
+#
+# Every file below attaches evidence to a NAMED SLUG. On 17 September 2026 none
+# of the first three reached the page: tools/coverage.py, which decides what a
+# person page may claim, read readings.psv and media and nothing else. Twenty-
+# two people whose evidence is a photographed gravestone, a memorial index or a
+# trade read out of a register carried «Tree only — everything here comes from
+# the family tree, and is unverified» on their own page.
+#
+# The data was right. The build dropped it, and nothing refused. This refuses.
+#
+# The test is deliberately weak: the page must claim SOMETHING other than «the
+# tree says so» — a record, an index, a scan, a dispute, or a correction written
+# about them. It does not check that the wording is good, only that the evidence
+# arrived at all.
+try:
+    ev = load("evidence.json")
+    noted_ids = {c["id"] for c in load("corrections.json")}
+    by_slug = {p["slug"]: p for f in ("people.json", "ancestors.json")
+               for p in load(f)}
+    g = load("graves.json")
+    w = load("work.json")
+
+    claimed = {}   # slug -> which evidence file names them
+    for r in g.get("stones", {}).get("rows", []):
+        if r.get("slug"):
+            claimed.setdefault(r["slug"], "a photographed gravestone")
+    for r in g.get("rows", []):
+        if r.get("slug"):
+            claimed.setdefault(r["slug"], "a Find a Grave memorial")
+    for st in w.get("strata", []):
+        for row in st.get("rows", []):
+            if row.get("slug") and row.get("from") == "register":
+                claimed.setdefault(row["slug"], "an occupation read from a register")
+    rp = os.path.join(ROOT, "sources", "readings.psv")
+    if os.path.exists(rp):
+        for line in open(rp, encoding="utf-8"):
+            if line.strip() and not line.startswith("#") and line.count("|") >= 4:
+                claimed.setdefault(line.split("|")[0].strip(), "sources/readings.psv")
+
+    SILENT = {"tree", "line"}
+    mute = []
+    for slug, where in sorted(claimed.items()):
+        person = by_slug.get(slug)
+        if not person:
+            continue          # no page to be wrong about
+        state = (ev.get(slug) or {}).get("state", "tree")
+        if state in SILENT and person.get("id") not in noted_ids:
+            mute.append((slug, where, state))
+    check("evidence reaches the person it is about", mute,
+          lambda b: f"/people/{b[0]}  has {b[1]}  but the page says «{b[2]}»")
+except FileNotFoundError as e:
+    print(f"skip  evidence reaches the person - {e.filename} not built")
+
 # ---- the auto-linker's index -------------------------------------------
 # whoindex.json is read at runtime by wholink.js, so nothing in the build
 # catches a slug that has gone. Every target must be a page that exists, and

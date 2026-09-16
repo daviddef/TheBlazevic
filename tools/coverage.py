@@ -86,6 +86,42 @@ rows.sort(key=lambda r: r["ahn"])
 out = os.path.join(DATA, "coverage.json")
 json.dump(rows, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
+# ---- evidence that is keyed to a slug and was being dropped ---------------
+#
+# This tool decided what a person page may claim, and it read readings.psv,
+# media.json, corrections.json and consistency.json and NOTHING ELSE. Three
+# other files in this archive attach evidence to a named slug, and all three
+# were invisible to it:
+#
+#   graves.json «stones»  a photographed memorial, transcribed here
+#   graves.json «rows»    a Find a Grave memorial — somebody else's index
+#   work.json             an occupation read out of a register
+#
+# So twenty-two people whose evidence is a gravestone or a trade carried
+# «Tree only — everything here comes from the family tree, and is unverified»
+# on their own page. Philippus Jacobus Papić has a photographed Senj stone.
+# Arthur Leslie Zubrinich has a memorial AND an ironmoulder's address off the
+# 1941 roll. Franciscus Žubrinić's Otočac stone is one of the three birth-year
+# conflicts this archive publishes. All three said nothing was known.
+#
+# The two kinds are NOT merged, because this archive keeps them apart
+# everywhere else: a stone is a photograph of the thing itself and an index is
+# somebody else's transcription. A stone reads READ; an index reads INDEXED.
+stone_read, indexed, trade_read = set(), set(), set()
+try:
+    g = load("graves.json")
+    stone_read = {r["slug"] for r in g.get("stones", {}).get("rows", []) if r.get("slug")}
+    indexed = {r["slug"] for r in g.get("rows", []) if r.get("slug")}
+except FileNotFoundError:
+    pass
+try:
+    w = load("work.json")
+    trade_read = {row["slug"] for st in w.get("strata", []) for row in st.get("rows", [])
+                  if row.get("slug") and row.get("from") == "register"}
+except FileNotFoundError:
+    pass
+
+
 # The same judgement for everyone, not only the direct line, so a person page
 # can mark each relative in its chart by what is actually known of them.
 everyone = load("people.json") + anc
@@ -97,10 +133,13 @@ for q in everyone:
     n = with_media.get(q["slug"], 0)
     if q["id"] in disputed:
         st = "disputed"
-    elif q["id"] in read_ids or q["slug"] in read_slugs:
+    elif (q["id"] in read_ids or q["slug"] in read_slugs
+          or q["slug"] in stone_read or q["slug"] in trade_read):
         st = "read"
     elif n:
         st = "scanned"
+    elif q["slug"] in indexed:
+        st = "indexed"
     elif a2:
         st = "line"
     else:
