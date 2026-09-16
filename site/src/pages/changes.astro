@@ -9,10 +9,14 @@
    block a reader meets once on the way past. */
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Changes from "@daviddef/archive-kit/components/Changes.astro";
 import recent from "../data/recent.json";
 
 const entries = recent.entries || [];
-const days = [...new Set(entries.map((e) => e.d))];
+const days = [...new Set(entries.map((e) => e.d))].map((d) => ({
+  when: d,
+  entries: entries.filter((e) => e.d === d).map((e) => ({ title: e.t, found: e.s, href: e.h })),
+}));
 ---
 <Base
   title="What changed"
@@ -25,15 +29,6 @@ const days = [...new Set(entries.map((e) => e.d))];
     this page says what was added, that one says what was taken back.</p>
   </section>
 
-  {days.map((day) => (
-    <section class="blk">
-      <h2>{day}</h2>
-      {entries.filter((e) => e.d === day).map((e) => (
-        <div class="card" style="margin-top:14px">
-          <h3 style="margin:0 0 6px">{e.h ? <a href={u(e.h)} set:html={e.t} /> : <span set:html={e.t} />}</h3>
-          <p class="dek" style="margin:0" set:html={e.s} />
-        </div>
-      ))}
-    </section>
-  ))}
+  <Changes days={days} u={u} />
+
 </Base>
