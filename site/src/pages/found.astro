@@ -11,7 +11,7 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
 ---
 <Base title="People Found Beside the Tree"
   eyebrow="Read out of a register, and not in the GEDCOM"
-  dek="Eighteen people this archive has read off a page and the family tree has never heard of — two of them direct ancestors. They are kept beside the tree rather than put into it, and the reason is a rule, not an oversight.">
+  dek={`${F.count} people this archive has read off a page and the family tree has never heard of — ${F.onDirectLine} of them direct ancestors. They are kept beside the tree rather than put into it, and the reason is a rule, not an oversight.`}>
 
   <section class="blk">
     <p class="lede">Every other source here keys on a slug from the family tree, so a person could
@@ -71,7 +71,7 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
 
   <section class="blk">
     <div class="lab">Where they were read</div>
-    <h2>Nine of the eighteen are Karlobag</h2>
+    <h2>Nine of the {F.count} are Karlobag</h2>
     <table class="kv">
       {places.map(([p, n]) => (<tr><th>{p}</th><td>{n}</td></tr>))}
     </table>

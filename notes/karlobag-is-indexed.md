@@ -10,9 +10,19 @@ how to get a legible page out of a hidden browser pane.
 
 **The book does not have to be opened. It is indexed, and the index is text.**
 
-The catalogue said so on 16 September and nobody acted on it. The film note for
-DGS 5481648 carries **`fs_indexed: "Y"`**, and it was read, quoted and filed
-without the consequence being drawn.
+**And this archive already knew** — which is the part worth writing down.
+`sources/found.psv` holds **six children of ahnentafel 108** — Dominicus 1764,
+Petrus Jacobus 1767, Heva Joanna 1769, Maria Catharina 1772, Anton Joanis 1780,
+Joannis 1784 — every one of them citing **«Karlobag births, indexed»**. A
+previous sitting worked the Uroda household entirely out of the record index.
+
+**Row 54 was written anyway, and it named four other walls in the same parish as
+waiting on an unopened film.** The catalogue confirmed it independently on 16
+September — the film note for DGS 5481648 carries **`fs_indexed: "Y"`** — and
+that was read, quoted and filed without the consequence being drawn either.
+
+So this is not a discovery. **It is a tool the archive had in its hands and
+applied to one household out of five.**
 
 ---
 
