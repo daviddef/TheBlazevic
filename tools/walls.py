@@ -125,6 +125,7 @@ def main():
             continue
         r = by[n]
         child = by.get(n // 2)
+        grandchild = by.get(n // 4)
         spouse = by.get(n + 1 if n % 2 == 0 else n - 1)
         name = r.get("name") or "—"
         given, surname = (r.get("given") or "").strip(), (r.get("surname") or "").strip()
@@ -142,6 +143,17 @@ def main():
         # which relation supplied it. Nothing here is read off a document — it
         # is the tree's own words about the tree's own people — and a wall says
         # so rather than presenting it as a finding.
+        #
+        # 17 September 2026: it stopped one generation too early, and «no place
+        # is recorded for this household ANYWHERE ON THE LINE» was false three
+        # more times. Mateša Blažević's grandson Ilija is born at Smokvica
+        # Krmpotska, Michael Sekula's granddaughter at Otočac, Angelo Bacchi's
+        # granddaughter dies at Karlobag — all three written plainly in the
+        # tree, all three ON THE LINE, and all three printed as nothing known.
+        # The grandchild goes last because it is the weakest: a grandchild's
+        # parish is where the family had got to, not necessarily where it was.
+        # Only ahnentafel 84, Vitus Sekula, is placeless now, and he has no
+        # descendant with a place anywhere.
         place, fix = real_place(r)
         place_from = None
         if not village_of(place):
@@ -150,7 +162,9 @@ def main():
                     ("their child's birth", child, "bornPlace"),
                     ("their child's death", child, "diedPlace"),
                     ("their spouse's birth", spouse, "bornPlace"),
-                    ("their spouse's death", spouse, "diedPlace")):
+                    ("their spouse's death", spouse, "diedPlace"),
+                    ("their grandchild's birth", grandchild, "bornPlace"),
+                    ("their grandchild's death", grandchild, "diedPlace")):
                 if not who:
                     continue
                 cand, cfix = real_place(who, field)

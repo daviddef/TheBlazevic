@@ -1,6 +1,6 @@
 {
  "what": "Everyone born at Senj, Otočac or Brinje in the United States naturalization petitions. Found by searching the BIRTHPLACE, which is indexed in that collection and in no other here; every row confirmed by opening the transcript.",
- "n": 14,
+ "n": 17,
  "readable": 5,
  "towns": [
   {
@@ -16,24 +16,36 @@
    "births": "1734-1894"
   },
   {
+   "town": "Grižane",
+   "n": 2,
+   "readable": 0,
+   "births": "unknown"
+  },
+  {
    "town": "Brinje",
    "n": 1,
    "readable": 0,
    "births": "1888-1900"
+  },
+  {
+   "town": "Klenovica",
+   "n": 1,
+   "readable": 0,
+   "births": "unknown"
   }
  ],
  "where": [
+  [
+   "New York City",
+   5
+  ],
   [
    "Brooklyn",
    3
   ],
   [
-   "New York City",
-   3
-  ],
-  [
    "The Bronx",
-   2
+   3
   ],
   [
    "Astoria",
@@ -71,6 +83,42 @@
    "filed": "Nassau County, NY 1953",
    "parish": "Brinje",
    "births": "1888-1900",
+   "readable": false
+  },
+  {
+   "town": "Grižane",
+   "name": "Mihovil Likarić",
+   "born": "29 Sep 1885",
+   "byear": 1885,
+   "place": "Grizane, Jugoslavia",
+   "family": "wife Katie b.25 Jan 1911 (see note); Veronika 29 May 1920, Anica 29 Jul 1921",
+   "filed": "New York City 1935",
+   "parish": null,
+   "births": "unknown",
+   "readable": false
+  },
+  {
+   "town": "Grižane",
+   "name": "Kuzma Knez",
+   "born": "25 Sep 1893",
+   "byear": 1893,
+   "place": "Belgrad, Grizane, Croatia Austria",
+   "family": "—",
+   "filed": "New York City 1923",
+   "parish": null,
+   "births": "unknown",
+   "readable": false
+  },
+  {
+   "town": "Klenovica",
+   "name": "Frank Pavelić (Pavelich, Paelick)",
+   "born": "2 Apr 1894",
+   "byear": 1894,
+   "place": "Klenovica, Coratia ??? / «Klenovica Jugo, Slavia»",
+   "family": "wife Pauline b.25 Jan 1903; Frank 18 Aug 1921, Pauline 25 Jan 1923",
+   "filed": "The Bronx, NY — declared 1936, petitioned 1939",
+   "parish": null,
+   "births": "unknown",
    "readable": false
   },
   {

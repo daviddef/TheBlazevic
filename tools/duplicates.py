@@ -15,6 +15,8 @@ holds eighteen Ivan Blazevics, and cousins were named for the same grandfather a
 a matter of course:
 
     same day              identical full birth date. Near-conclusive.
+    same death day        identical full DEATH date. One person dies once, and
+                          unlike parents, siblings cannot share it.
     same year and place   strong, but cousins do this.
     same year only        weakest. Listed, not acted on.
 
@@ -52,10 +54,29 @@ def place(p):
     return None
 
 
+# «11 FEB 1967» is a day. «FEB 1967» is not, and the length test could not tell
+# them apart — it would have graded a shared MONTH as «same day. Near-
+# conclusive.» No group published here ever rested on one, checked before the
+# rule was tightened, so this changes no grading; it closes a door.
+DAY = re.compile(r"^\d{1,2}\s+[A-Z]{3}\s+\d{4}$")
+
+
 def full_date(p):
+    """A birth date with a day in it, or nothing. A bare year, a month, or a
+    hedge (ABT, BEF, AFT, EST, CAL) is not a full date."""
     d = (gedcom.born(p).get("date") or "").strip().upper()
-    # a bare year, or a hedge, is not a full date
-    return d if len(d) > 4 and not d.startswith(("ABT", "BEF", "AFT", "EST", "CAL")) else None
+    return d if DAY.match(d) else None
+
+
+def full_death_date(p):
+    """The same test, on the death. One person dies once and on one day, so two
+    records carrying the SAME full death date is a confirmation of the same
+    weight as two records naming the same parents — and unlike parents, siblings
+    cannot share it. Danijel Kalanj, born 2 November 1829 at Klenovica, sat in
+    the bare «same day» tier for two days with «26 JUN 1876» written on both of
+    his records, because nothing looked at the end of a life."""
+    d = (gedcom.died(p).get("date") or "").strip().upper()
+    return d if DAY.match(d) else None
 
 
 # Bucket on surname and birth year, then match given names WITHIN the bucket by
@@ -313,6 +334,10 @@ for (sur, giv, by), ids in buckets.items():
     places = {place(P[i]) for i in ids} - {None}
     firm = {d for d in dates if d}
     dys = {gedcom.year(gedcom.died(P[i]).get("date", "")) for i in ids} - {None}
+    # Every record in the group carrying the SAME day of death, not merely the
+    # same year. Empty unless all of them have one.
+    _dd = [full_death_date(P[i]) for i in ids]
+    ddays = set(_dd) if all(_dd) else set()
 
     # A necronym is not a duplicate. When a child died the next was very often
     # given the same name, so two records can share a surname, a given name, a
@@ -326,6 +351,8 @@ for (sur, giv, by), ids in buckets.items():
         tier = "rejected — two death years"
     elif len(firm) == 1 and all(full_date(P[i]) for i in ids) and parents_agree(ids):
         tier = "same day and same parents"
+    elif ddays and len(ddays) == 1:
+        tier = "same day, and the same death day"
     elif len(firm) == 1 and all(full_date(P[i]) for i in ids):
         tier = "same day"
     elif len(places) == 1:
@@ -374,15 +401,35 @@ def _spouse_names(pid):
     return {x for x in out if x}
 
 
+# The same pass twice, because a life has two ends and only one of them was
+# being looked at. Keying on the BIRTH day finds a record split down the middle
+# when both halves kept the birth; it cannot find Louis Barry, who is in this
+# tree twice with two different birth years — 17 February 1920 and 1907 — and
+# so falls in no bucket any name-and-year key can build. What his two records
+# do share is the day he died: 20 March 1983 at Cape Town, and a wife called
+# Louise Sophie van Heerden in both.
+#
+# One veto, and it is the one that matters. Two records that BOTH carry a full
+# birth date and disagree about it are two people, whatever else they share:
+# Elizabeth Margaretha Catharina Botha (b. 29 January 1797) and Margaretha
+# Debora Maria Botha (b. 15 May 1802) are sisters who both married a George
+# Aldric and are both entered as dying on 15 March 1889. That is a coincidence
+# worth recording and it is not one woman, and without this veto the pass would
+# have announced her as one.
 twins = []
 for _fid, _fam in F.items():
-    byday = collections.defaultdict(list)
-    for kid in (_fam.get("chil") or []):
-        if kid in P and full_date(P[kid]):
-            byday[full_date(P[kid])].append(kid)
-    for _d, kids in byday.items():
-        for a, b in itertools.combinations(sorted(kids), 2):
-            if _spouse_names(a) & _spouse_names(b):
+    for _stamp in (full_date, full_death_date):
+        byday = collections.defaultdict(list)
+        for kid in (_fam.get("chil") or []):
+            if kid in P and _stamp(P[kid]):
+                byday[_stamp(P[kid])].append(kid)
+        for _d, kids in byday.items():
+            for a, b in itertools.combinations(sorted(kids), 2):
+                if not (_spouse_names(a) & _spouse_names(b)):
+                    continue
+                ba, bb = full_date(P[a]), full_date(P[b])
+                if ba and bb and ba != bb:
+                    continue
                 twins.append([a, b])
 
 _seen = {frozenset(g["ids"]) for g in groups}
@@ -406,10 +453,11 @@ for ids in twins:
     })
 
 TIER = {"same day, same parents, same spouse": 0,
-        "same day and same parents": 1, "same day": 2, "same year and place": 3,
-        "same year only": 4,
-        "rejected — two death years": 5,
-        "rejected — different parents": 6}
+        "same day and same parents": 1, "same day, and the same death day": 2,
+        "same day": 3, "same year and place": 4,
+        "same year only": 5,
+        "rejected — two death years": 6,
+        "rejected — different parents": 7}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -419,11 +467,12 @@ print(f"{len(pub)} published people across {len(GROUPS)} surname groups")
 print(f"{len(live)} duplicate groups holding {extra} surplus records; "
       f"{len(rejected)} rejected as two people sharing a name\n")
 by_tier = collections.Counter(g["tier"] for g in groups)
-for t in ("same day, same parents, same spouse", "same day and same parents", "same day",
+for t in ("same day, same parents, same spouse", "same day and same parents",
+          "same day, and the same death day", "same day",
           "same year and place", "same year only",
           "rejected — two death years", "rejected — different parents"):
     n = by_tier.get(t, 0)
-    print(f"  {t:<20} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")
+    print(f"  {t:<38} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")
 print()
 by_sur = collections.Counter(g["surname"] for g in groups)
 for s, n in by_sur.most_common():

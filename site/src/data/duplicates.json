@@ -2,6 +2,30 @@
  "groups": [
   {
    "tier": "same day, same parents, same spouse",
+   "surname": "barry",
+   "given": "louis",
+   "byear": 1920,
+   "n": 2,
+   "place": "Elliot",
+   "date": "17 FEB 1920",
+   "ids": [
+    "@I831@",
+    "@I833@"
+   ],
+   "names": [
+    "Louis Barry",
+    "Louis Barry"
+   ],
+   "slugs": [
+    null,
+    null
+   ],
+   "dyears": [
+    1983
+   ]
+  },
+  {
+   "tier": "same day, same parents, same spouse",
    "surname": "boras",
    "given": "paulina pava",
    "byear": 1895,
@@ -303,7 +327,7 @@
    ]
   },
   {
-   "tier": "same day",
+   "tier": "same day, and the same death day",
    "surname": "kalanj",
    "given": "danijel",
    "byear": 1829,
@@ -1368,8 +1392,8 @@
    "dyears": []
   }
  ],
- "extra": 32,
+ "extra": 33,
  "published": 1282,
  "rejected": 28,
- "live": 31
+ "live": 32
 }

@@ -76,3 +76,32 @@ village|sinac|passengers|0|
 village|sinae|passengers|0|
 control|zubrinic + keywords=prozor|all|0|HER OWN RESIDENCE. The decisive proof
 control|zubrinic + keywords=ultonia|all|0|HER OWN SHIP
+#
+# 17 SEPTEMBER 2026 — the birthplace sweep, continued through the villages the
+# 16th did not reach. Same method: `datasetname=united states naturalization
+# petitions` plus `keywords=<village>`, which is the ONE record set on this site
+# where the birth place is indexed. Every non-zero was confirmed by opening the
+# transcript and reading «Birth place as transcribed»; nothing below is taken
+# from the results list alone.
+#
+# AND THE URL FORM, because it was not written down and had to be found again:
+#   https://www.findmypast.co.uk/search/results?sid=100&lastname=X
+#   https://www.findmypast.co.uk/search/results?sid=100&datasetname=united%20states%20naturalization%20petitions&keywords=X
+# The search host search.findmypast.co.uk serves the FORM; the results live on
+# www. Guessing a record-set slug into a path gives 404, and `datasetname` with
+# a display name gives 500 unless it is the set's exact printed name.
+village|krivi put|naturalisations|0|Prpić country, and nobody filed from it
+village|smokvica|naturalisations|0|the Blažević village — nothing
+village|krmpote|naturalisations|0|nothing under the parish name either
+village|sinac|naturalisations|0|found in the passenger lists, absent here
+village|kompolje|naturalisations|0|
+village|bribir|naturalisations|0|
+village|sveti juraj|naturalisations|0|
+village|mrzli dol|naturalisations|0|the Blažević hamlet in targets.psv
+village|klenovica|naturalisations|2|ONE MAN, twice — CONFIRMED «Klenovica, Coratia»
+village|grizane|naturalisations|4|TWO MEN, twice each — both CONFIRMED
+village|crikvenica|naturalisations|4|two men, unconfirmed — Kristofor, Mason
+village|jablanac|naturalisations|2|Joseph Stokich b.1889, unconfirmed
+village|brlog|naturalisations|4|Bjelobaba, Lukach, Yasevac, unconfirmed
+village|vrbnik|naturalisations|7|Krk surnames — Volarich, Trinaestich, Trpich, unconfirmed
+village|lukovo|naturalisations|1|Frank Pietrzak — a Polish name; fuzzy noise, not Lukovo
