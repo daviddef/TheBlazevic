@@ -339,6 +339,18 @@ def main():
                          "parish": pname(parish) if parish else None, "village": pretty(place) if village else None,
                          "year": est, "exact": exact}
 
+    # An override for an ahnentafel number that is NOT a wall is silently
+    # ignored — the loop above only visits walls, so the row is parsed, held in
+    # `over`, and never read. That is the same failure as a «why» arriving
+    # without a «place»: accepted, then dropped on the floor. A row written for
+    # ahnentafel 213 on 17 September was inert for exactly this reason, and
+    # nothing said so. Now it does.
+    orphan = sorted(set(over) - {int(k) for k in walls})
+    if orphan:
+        print(f"WARNING  {len(orphan)} row(s) in sources/walls.psv name an ahnentafel "
+              f"that is not a wall, so they do nothing: "
+              + ", ".join(str(o) for o in orphan))
+
     counts = {}
     for w in walls.values():
         counts[w["kind"]] = counts.get(w["kind"], 0) + 1
