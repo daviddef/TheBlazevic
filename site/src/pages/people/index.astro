@@ -64,7 +64,12 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
           { v: "1", label: "With a source" }, { v: "0", label: "With none" }] },
       ]}
       rows={rows.map((p) => ({
-        hay: `${p.name} ${p.bornPlace || ""} ${p.diedPlace || ""} ${p.byear || ""} ${p.dyear || ""}`.toLowerCase(),
+        /* The place cell prints ONE of the two - born if there is one, died
+           otherwise - so the other is searchable only if it is declared. That
+           is the whole of what this row does not already say on screen; the
+           name and the lifespan are in the cells beside it. */
+        extraHay: (p.bornPlace && p.diedPlace && p.diedPlace !== p.bornPlace
+          ? p.diedPlace : "").toLowerCase(),
         facets: { fam: p.family || "", anc: p.ancestor ? "1" : "0", src: evidenced(p) ? "1" : "0" },
         cells: [
           `<a href="${u(`/people/${p.slug}/`)}">${p.name}</a>` + (p.ancestor ? ' <span class="tag">ancestor</span>' : ""),
