@@ -1,9 +1,9 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 19,
+ "count": 24,
  "onDirectLine": 2,
  "places": {
-  "Karlobag": 10,
+  "Karlobag": 15,
   "Otocac": 1,
   "Otočac": 1,
   "Prozor, Otočac": 2,
@@ -182,6 +182,51 @@
    "date": "9 July 1764",
    "place": "Karlobag",
    "citation": "Karlobag births, indexed, entry 270 — «Entry for Margaritham Smoiver and Josephi Smoiver»; mother Antoniae. ark 1:1:QKMX-YLY7. Born twelve years after her parents' marriage of 20 Nov 1752 and twelve years before her father's death in 1776"
+  },
+  {
+   "name": "Joseip Pekasu",
+   "ahn": null,
+   "relation": "son of Šimun Pekas of Karlobag; candidate brother of ahnentafel 213",
+   "event": "baptism",
+   "date": "1 March 1705",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Parents Šimun Pekasu». The earliest Pekas entry found; his own daughter Antonia is baptised 1742"
+  },
+  {
+   "name": "Margarita Pekasa",
+   "ahn": null,
+   "relation": "daughter of Šimun Pekas of Karlobag; candidate sister of ahnentafel 213",
+   "event": "baptism",
+   "date": "28 October 1719",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Parents Simon Pekasa», no mother named"
+  },
+  {
+   "name": "Katarina Pekasa",
+   "ahn": null,
+   "relation": "daughter of Šimun Pekas and STOJA; candidate half-sister of ahnentafel 213",
+   "event": "baptism",
+   "date": "19 June 1734",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Parents Stoja, Simuna Pekasa». The mother is NOT Mare"
+  },
+  {
+   "name": "Perina Pekasa",
+   "ahn": null,
+   "relation": "daughter of Šimun Pekas and MARE; candidate sister of ahnentafel 213",
+   "event": "baptism",
+   "date": "29 June 1738",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Parents Simuna Pekasa, Mare». Mare is the only wife named that matches ahnentafel 427, Mara Pekass"
+  },
+  {
+   "name": "Antonia Pehasa",
+   "ahn": null,
+   "relation": "daughter of Osip Pekas and Monde, Karlobag — explicitly NOT ahnentafel 213",
+   "event": "baptism",
+   "date": "18 January 1742",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Parents Monde, Osipa Pehasa». Recorded here to rule her out: ahnentafel 213 married in 1752 and bore a son in 1754, so a girl baptised 1742 cannot be her"
   }
  ]
 }

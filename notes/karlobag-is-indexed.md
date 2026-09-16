@@ -102,3 +102,57 @@ per page**, with a SHA-256 match end to end. It works, and it is written down.
 round trips and returns the parents. **Images are for what the index does not
 carry** — the house number, the *Conditio* column, the by-name beside the
 surname — and those are still worth the twelve.
+
+---
+
+# The Pekas households, and why ahnentafel 213 is not the Antonia the index offers
+
+*17 September 2026, continued.*
+
+Searching the index by **father** rather than by child separates two Šimuns at
+Karlobag, a lifetime apart:
+
+| | |
+|---|---|
+| **Šimun / Simuna Pekasa** | Joseip **1 March 1705** · Margarita **28 October 1719** · Katarina **19 June 1734**, mother **Stoja** · Perina **29 June 1738**, mother **Mare** |
+| **Simone Pekkas × Maria** | 1783 · 1788 · 1791 · 1792 · 1795 |
+
+**The early Šimun is the one that matters**, and the 1738 entry names his wife
+**Mare** — against this archive's **ahnentafel 427, Mara Pekass**.
+
+**He also spans thirty-three years of baptisms**, 1705 to 1738, which is long for
+one man. Two wives are named and they are not the same woman: **Stoja** in 1734,
+**Mare** in 1738. Either Šimun married twice late in a long life, or there are a
+father and a son of one name. **Nothing here decides it**, and the archive should
+not pretend otherwise.
+
+## The Antonia the index offers is the wrong Antonia
+
+The obvious candidate looks perfect until it is checked:
+
+> **Antonia Pehasa**, baptised **18 January 1742** at Karlobag ·
+> parents **Osipa Pehasa** and **Monde**
+
+**She cannot be ahnentafel 213.** Ahnentafel 213 married Josiph Smojver Vukić on
+**20 November 1752** and bore **Vicentius on 18 January 1754**. A girl baptised
+in 1742 is **ten at that wedding and twelve at that birth**. She is recorded in
+`found.psv` **specifically so that she is ruled out** — a near-miss written down
+is worth as much as a find, because the next reader will meet her first.
+
+**Her father is interesting for a different reason.** *Osipa* is Josip, and a
+**Joseip Pekasu was baptised to Šimun on 1 March 1705**. If those are the same
+man then Antonia Pehasa is Šimun's **granddaughter**, and the households line up
+as Šimun → Josip → Antonia, 1705 → 1742.
+
+## So where ahnentafel 213 actually is
+
+**Born between 1719 and 1734**, in the gap between Margarita and Katarina, to
+Šimun and a wife not yet named — and **her baptism is not in the index under any
+spelling tried**. The index holds four of Šimun's children and evidently not all
+of them.
+
+**That is the honest state**: ahnentafel 426 and 427 have a Karlobag household
+that fits them by both given names, by parish and by window, and a documented set
+of children who would be ahnentafel 213's brothers and sisters — **and the one
+entry that would prove it is the one the index does not have.** For that, the
+image is still the answer, and the twelve round trips are what it costs.
