@@ -176,3 +176,81 @@ way in by place, and a common surname returns a region. **The only handle is a
 name with a year beside it** — and that is precisely what
 `targets-2026-09-16.psv` is: 386 of them, generated from the tree. The list was
 built as a convenience. It turns out to be the only instrument there is.
+
+---
+
+# CORRECTION: there is a fourth spelling, and the naturalisations are where it shows
+
+*Written the same afternoon as the claim it corrects.*
+
+**The section above says «Three spellings, and no more». That is wrong.**
+`lastname=zubrinick` returns **10 records**, and one of them is a family this
+archive has already met.
+
+**What went wrong is worth more than the error.** The test was six guesses —
+*subrinic*, *xubrinich*, *zubrinicz* and the three known — and all six were
+guesses at how a **Croatian** ear would render it. **Zubrinick is how an American
+clerk did**, and no amount of guessing from the Croatian side produces it. The
+spelling that finds a family is the one written by the person who could not spell
+it, in the country they arrived in.
+
+**The record proves it, because it is the same household twice.**
+
+| | |
+|---|---|
+| `US/USNATUR/3775255`, **1936**, filed **Zubrinick** | Ivan b.1888 · Kate b.1905 · George b.1923 · Joseph b.1924 · John b.1932 |
+| `US/USNATUR/3775256`, **1939**, filed **Zubrinic** | Ivan b. **30 Jun 1888**, born **«Ostocac, Yugoslavia»** · Kate b. **27 Oct 1895** · the same three sons |
+
+**One man, one wife, three sons, two spellings, three years apart** — and Kate's
+birth year moves ten years between his own two filings. **A naturalisation is
+sworn, and it is still not reliable to the year.**
+
+---
+
+# The naturalisation petition is the richest record on this site
+
+The manifests give a residence and a relative. **A petition gives an exact birth
+DATE, an exact birth PLACE, the spouse's birth date, and every child's birth
+date — a whole household in one row.** Ivan's gives all of it, and also names his
+wife as **«Kate Zubrinic Or ROZIĆ»** — a maiden name the manifests never had.
+
+**And here the birthplace IS searchable, which it is not in the passenger lists.**
+
+    naturalisations · keywords=otocac   7
+    naturalisations · keywords=senj    12
+    passenger lists · keywords=prozor   0   ← residence not indexed
+    naturalisations · keywords=prozor   0   ← too small a village either way
+
+So the village search works after all — **on towns, in the petitions only**. That
+is the seam the rest of this subscription should be worked in.
+
+**Two Senj-born emigrants in this archive's own surnames, both new:**
+
+* **Marijan Vukelić**, b. **1894**, born **Senj** — five filings, **1935 to
+  1948**, the surname also rendered *Vjkelic*. Vukelić is the line Milka Papić
+  married into.
+* **Miro Šojat** (*Sojath*), b. **1910**, born **Senj** — 1955. Šojat runs
+  through this archive from Marija Šojat of Krivi Put to the Nikola Šojat on the
+  Senj stone.
+
+**Neither has any emigration recorded here.**
+
+---
+
+# And a trap that nearly put a false negative in the archive
+
+Four surname-and-dataset searches returned **0** — Blažević, Prpić, Papić and
+Šestan in the US passenger lists — and «no Blažević emigration records exist»
+was one keystroke from being written down.
+
+**They were not zero.** The check polled the page for the word *«results»*, which
+appears in the filter panel as *«View N results»* **before the count renders**,
+so it read the page too early. Polling instead for **a digit followed by
+«results»** gives the true figures:
+
+    Blažević  706      Prpić  632      Papić  529
+
+**A negative is a finding and has to be earned like one.** The corrected probes
+of the Blažević given names are honest negatives: *Mile* → residence **Dvor**,
+*Joso* → **Kuthuryevac** and a blank, *Jurko* → nothing at all. None is Krivi
+Put, Mrzli Dol or Krmpote.

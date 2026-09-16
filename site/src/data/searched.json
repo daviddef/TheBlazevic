@@ -12,7 +12,7 @@
   "nothing": 15,
   "partial": 18,
   "pending": 6,
-  "yield": 54
+  "yield": 55
  },
  "read": [
   {
@@ -2510,7 +2510,7 @@
     "Otočac",
     "Sinac"
    ],
-   "got": "**SINAC — a parish this archive catalogued and had nobody for.** The one record under a THIRD spelling, **Zubrinec**, is *Franc Zubrinec*, b.1887, Adriatic 1911, residence **«Sinae, Hungary»** — Sinac on the Gacka — father **Pao? (Pavao) Zubrinic**. `parishes.psv` has carried Sinac since 14 September with three films and **not one person placed there**. Sinac births are filmed **1834–1901**, so his 1887 baptism is in range. He sailed on the same manifest page as **Anton Zubrinic of Prozor** — record ids three apart.\n\n**The spelling question is now closed**: Zubrinich **191**, Zubrinic **119**, Zubrinec **1**, and Subrinic, Xubrinich and Zubrinicz all **zero**. Three spellings and no more.\n\n**Eva Zubrinic of Prozor sailed from FIUME** on the *Ultonia* in 1907 — every other departure in this material is Southampton, Rotterdam or Liverpool. **And Gomerčić is a second family married in**, after Kostelac: Eva is met by a *brother-in-law* Joso Gomerčić, and Mijo Žubrinić is recorded as *uncle* to the passenger Pavdo Gomerčić. Neither family is in this tree."
+   "got": "**SINAC — a parish this archive catalogued and had nobody for.** The one record under a THIRD spelling, **Zubrinec**, is *Franc Zubrinec*, b.1887, Adriatic 1911, residence **«Sinae, Hungary»** — Sinac on the Gacka — father **Pao? (Pavao) Zubrinic**. `parishes.psv` has carried Sinac since 14 September with three films and **not one person placed there**. Sinac births are filmed **1834–1901**, so his 1887 baptism is in range. He sailed on the same manifest page as **Anton Zubrinic of Prozor** — record ids three apart.\n\n**FOUR spellings, not three — and the fourth corrects a claim made here the same afternoon.** Zubrinich **191**, Zubrinic **119**, **Zubrinick 10**, Zubrinec **1**; Subrinic, Xubrinich and Zubrinicz are zero. The first test guessed six ways a **Croatian** ear might render the name. **Zubrinick is how an American clerk did**, and no guessing from the Croatian side reaches it. The proof is one household filed twice: `US/USNATUR/3775255` (1936, **Zubrinick**) and `3775256` (1939, **Zubrinic**) are the same Ivan b.30 June 1888 of Otočac, the same wife and the same three sons — and **Kate's birth year moves ten years between his own two filings**.\n\n**Eva Zubrinic of Prozor sailed from FIUME** on the *Ultonia* in 1907 — every other departure in this material is Southampton, Rotterdam or Liverpool. **And Gomerčić is a second family married in**, after Kostelac: Eva is met by a *brother-in-law* Joso Gomerčić, and Mijo Žubrinić is recorded as *uncle* to the passenger Pavdo Gomerčić. Neither family is in this tree."
   },
   {
    "src": "FindMyPast — South Australian civil registration",
@@ -2525,6 +2525,21 @@
     "Port Pirie"
    ],
    "got": "**Thirty-five births, eleven marriages, fourteen deaths — and the index rows carry BOTH PARENTS on a birth and the SPOUSE on a marriage**, so the limb came out without opening a transcript. **John × Rose marry 1884 and have twelve children to 1909**; five of the six labouring men in the 1939–43 electoral rolls are on that list and the sixth is a grandson. **The address guesses from the rolls are now on birth records** — Malcolm Theodore is Edward Malcolm's son, Gwenyth Florence is Arthur Leslie's daughter. **Michael Valentine lives alone in every roll because Minnie Doris died in 1932.** They also **corrected two readings made from the rolls the same day**: Thomas Leo × Una Blanche married in **1912**, not between the 1939 and 1941 rolls, and Leonard Francis × Asta Louise at **Adelaide in 1936**. Both slips came from treating the roll's «household members» field as a household."
+  },
+  {
+   "src": "FindMyPast — United States naturalization petitions",
+   "key": "findmypast/naturalisations",
+   "url": "https://www.findmypast.co.uk/",
+   "what": "The richest record type on the site, and the only one whose BIRTHPLACE is searchable",
+   "when": "16 Sept 2026",
+   "outcome": "yield",
+   "tags": [
+    "FindMyPast",
+    "emigration",
+    "Senj",
+    "Otočac"
+   ],
+   "got": "**A manifest gives a residence and a relative. A petition gives an exact birth DATE, an exact birth PLACE, the spouse's birth date and every child's birth date — a household in one row.** It also gave Ivan Žubrinić's wife as **«Kate Zubrinic Or ROZIĆ»**, a maiden name no manifest carried.\n\n**And here the birthplace IS indexed, which it is not in the passenger lists**: `keywords=otocac` **7**, `keywords=senj` **12**, against `keywords=prozor` **0** in both. The village search works after all — **on towns, in the petitions only.**\n\n**Two Senj-born emigrants in this archive's own surnames, neither of them recorded here.** **Marijan Vukelić**, b.1894, born Senj — five filings 1935–1948, also rendered *Vjkelic* — the line Milka Papić married into. And **Miro Šojat** (*Sojath*), b.1910, born Senj, 1955."
   }
  ]
 }
