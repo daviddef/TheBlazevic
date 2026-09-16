@@ -1,0 +1,417 @@
+# FindMyPast targets — everyone this archive cannot account for.
+#
+# WHY THIS FILE EXISTS. The trial of 13-14 September 2026 ended with a list of
+# surnames it would not touch: «Perković (2,036), Borić (2,007), Papić (1,042),
+# Prpić (943), Boras (3,445) are too common to harvest in bulk. THEY NEED A
+# FIRST NAME AND A YEAR.» This is the first name and the year. It is generated
+# from the archive rather than typed, so it cannot drift from the tree.
+#
+# WHO IS IN IT. Every published person born 1840-1910 with NO DEATH RECORDED —
+# the cohort old enough to sail and young enough to be on a post-1906 manifest,
+# whose story this archive loses. 386 people. It is not a list of emigrants; it
+# is a list of people the archive stops following, which is the same list until
+# somebody looks.
+#
+# HOW TO WORK IT. Surname first, not person first. One surname search read end
+# to end beats forty name searches, and the trial proved why: ZUBRINICH returns
+# 191 records and gives AUSTRALIA, ZUBRINIC returns a DIFFERENT 119 and gives
+# LIKA. The «spellings» column carries every variant this archive has met.
+#
+# TWO THINGS THE TRIAL LEARNED THAT SAVE A DAY.
+#   · Only the pre-1925 Ellis manifests (ELLIS2 transcripts) carry a LAST
+#     RESIDENCE and the relative left behind. That residence is the whole value:
+#     it is what turned the Kalanji from a Klenovica family into Brinje people.
+#   · Ids ending «…/2» and «…/3» are RELATIONS NAMED ON a record, not passengers.
+#
+# AND ONE NEGATIVE, SO IT IS NOT RE-TESTED. FindMyPast holds NO Croatian parish
+# registers, and nothing on Hedviga's 1948 emigration: no Hedviga Blazevic
+# anywhere, no Defranceski in Passenger Lists Leaving UK 1890-1960. They went to
+# South Africa and this service has neither end of the voyage.
+#
+# surname|given|born|birthplace|slug|ahn|spellings to try
+Blažević|Anton Martin (Tone)|1840|mrzli dol 6|anton-martin-tone-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Joso|1843|—|joso-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Joso|1843|—|joso-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Josephus|1846|—|josephus-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Marko|1846|—|marko-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Martha|1849|—|martha-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Antonia|1851|—|antonia-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Joso|1852|Mrzli Dol 6|joso-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Rosa|1852|Senj|rosa-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Ivan|1853|—|ivan-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Conradum|1854|Senj|conradum-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Martinus|1854|—|martinus-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Gregorium|1855|Senj|gregorium-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Mile|1855|—|mile-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Mile|1855|Krivi Put|mile-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Mile|1855|Mrzli Dol 6|mile-blazevic-5||Blazevic / Blasevich / Blazevich
+Blažević|Anton|1857|Krmpote|anton-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Ivan|1857|Krmpote|ivan-blazevic-20||Blazevic / Blasevich / Blazevich
+Blažević|Marija|1857|—|marija-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Maria|1858|Mrzli Dol|maria-blazevic-3||Blazevic / Blasevich / Blazevich
+Blažević|Marija|1858|—|marija-blazevic-5||Blazevic / Blasevich / Blazevich
+Blažević|Lucia|1861|Kriviput Br.9|lucia-luce-lucija-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Franjica|1862|Br 35|franjica-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Josephus|1863|Mrzli Dol|josephus-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Marko|1863|—|marko-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Marko|1863|Mrzli Dol #6|marko-blazevic-4||Blazevic / Blasevich / Blazevich
+Blažević|Pavao|1864|Mrzli Dol|pavao-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Ivan|1865|—|ivan-blazevic-7||Blazevic / Blasevich / Blazevich
+Blažević|Francisca Helena|1870|Senj|francisca-helena-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Mandalena|1871|—|mandalena-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Antonius Vincentius Ignatius|1874|Senj|antonius-vincentius-ignatius-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Ivan|1874|—|ivan-blazevic-16||Blazevic / Blasevich / Blazevich
+Blazevic|Marija|1880|Smokvica Krmpotska / Krmpote|marija-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Marija|1881|Sv. Jakov|marija-blazevic-11||Blazevic / Blasevich / Blazevich
+Blažević|Marta|1883|Sv. Jakov|marta-blazevic-3||Blazevic / Blasevich / Blazevich
+Blazevic|Petar|1883|#6 Mrzli dol|petar-blazevic||Blazevic / Blasevich / Blazevich
+Blazevic|Antonija|1885|#6 Mrzli dol|antonija-blazevic-5||Blazevic / Blasevich / Blazevich
+Blažević|Ivan|1885|Krmpotske Vodice|ivan-blazevic-18||Blazevic / Blasevich / Blazevich
+Blažević|Ana|1886|Krmpote|ana-blazevic||Blazevic / Blasevich / Blazevich
+Blazevic|Marija|1887|#6 Mrzli dol|marija-blazevic-13||Blazevic / Blasevich / Blazevich
+Blažević|Andjelija|1888|Krmpote|andjelija-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Mate|1890|Senj|mate-blazevic-3||Blazevic / Blasevich / Blazevich
+Blažević|Josip|1892|—|josip-blazevic-2||Blazevic / Blasevich / Blazevich
+Blažević|Josip Anton|1894|Senj|josip-anton-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Mate|1894|—|mate-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Marijan|1895|Smokvica Krmpotska|marijan-blazevic||Blazevic / Blasevich / Blazevich
+Blazevic|Ruza|1897|Otocac/Smokvica Krmpotska|ruza-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Zora|1897|Sv. Jakov|zora-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Marija|1898|Krmpote|marija-blazevic||Blazevic / Blasevich / Blazevich
+Blažević|Štefica|1901|Krmpote|stefica-blazevic||Blazevic / Blasevich / Blazevich
+Boras|Christina Maria|1862|Senj|christina-maria-boras||Boras / Borash
+Boras|Franciscus Paul|1872|Senj|franciscus-paul-boras||Boras / Borash
+Boras|Andjelika|1888|—|andjelika-boras||Boras / Borash
+Boras|Marija|1892|Senj|marija-boras||Boras / Borash
+Boras|Paulina|1895|Novi Vinodolski|paulina-boras||Boras / Borash
+Boras|pava|1895|Senj|pava-boras||Boras / Borash
+Boras|ljubica|1910|—|ljubica-boras||Boras / Borash
+Kalanj|Vincentia Catharina|1842|Ledenice|vincentia-catharina-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Vincentia|1843|Ledenice|vincentia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Josephus|1850|—|josephus-josip-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Joso|1851|Ledenice|joso-josip-josephus-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Lucia|1851|—|lucia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Maria Magdalena|1853|—|maria-magdalena-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Stipan Ivan Frane|1856|—|stipan-ivan-frane-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Toma|1856|—|toma-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Kata|1857|—|kata-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1857|—|marija-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1857|—|marija-kalanj-10||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Antonia|1858|—|antonia-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Matthæus|1858|Povile 22|matth-us-mattheus-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Toma|1858|Klenovica|toma-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Andrija|1859|Klenovica|andrija-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anna|1859|Povile 22|anna-kalanj-6||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Joannes|1859|Ledenice|joannes-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Johanna|1859|Povile 22|johanna-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Luka|1859|Klenovica 22|luka-lucas-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ursula|1859|Klenovica 22|ursula-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Victoria|1859|Povile 22|victoria-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Josephus|1861|Ledenice|josephus-josip-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Petrus|1861|Klenovica 22|petrus-kalanj-4||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Andreas|1862|Klenovica 23|andreas-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Jacobus|1862|Klenovica 22|jacobus-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Petrus|1862|Klenovica 22|petrus-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Catharina|1863|Klenovica 22|catharina-kalanj-6||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Rosalia|1864|Povile 23|rosalia-rozalia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Franjo|1865|Klenovica 23|franjo-franciscus-kalanj-5||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Gregorius|1865|Klenovica 23|gregorius-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Joannes|1865|Klenovica 22|joannes-ivan-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Lucas|1866|Klenovica 22|lucas-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anna|1868|Klenovica 59|anna-kalanj-5||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Elias|1868|Klenovica 23|elias-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Maria|1868|Klenovica 22|maria-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Lucia|1870|Ledenice|lucia-lucija-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Maria|1870|Ledenice|maria-marija-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Josephus|1871|Povile 22|josephus-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Michael|1871|Povile 22|michael-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Georgius|1872|Ledenice|georgius-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Joannes|1872|Povile 23|joannes-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anna|1874|Ledenice|anna-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Antonia|1874|Povile 22|antonia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Maria|1874|Povile 22|maria-marija-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mathia|1874|Povile 22|mathia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Rocus|1874|Povile 23|rocus-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anna|1875|Povile 22|anna-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anna|1875|Povile 22|anna-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Catharina|1875|Ledenice|catharina-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Joanna|1875|Povile 22|joanna-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mathias|1875|Povile 22|mathias-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Catharina|1876|Povile 22|catharina-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mate|1878|Ledenice|mate-kalanj-4||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Antonius|1879|Klenovica|antonius-anton-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Klara|1880|Povile 22|klara-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Lucija|1881|Povile 22|lucija-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mile|1881|—|mile-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Gabre|1883|Klenovica 22|gabre-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mate|1883|Povile 22|mate-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ana|1885|Povile 22|ana-kalanj-4||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Dragutin|1885|Klenovica 22|dragutin-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija Roza|1885|Klenovica 22|marija-roza-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Stjepan Vladimir|1886|Klenovica 22|stjepan-vladimir-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anton|1887|Klenovica 22|anton-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Fabijan|1887|Klenovica 22|fabijan-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Lucija|1887|—|lucija-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Paval|1887|Klenovica 22|paval-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Tonka|1887|—|tonka-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Franjo Rudolph|1888|Klenovica 22|franjo-rudolph-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija Milka|1888|Klenovica 22|marija-milka-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mihovil|1888|Klenovica|mihovil-kalanj-4||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Toma|1888|Klenovica 22|toma-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Roza Zorica|1889|Klenovica 22|roza-zorica-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Daniel|1890|Klenovica 22|daniel-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Petar|1890|Klenovica 22|petar-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Mihovil|1891|Klenovica 23|mihovil-kalanj-5||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ivan|1892|Klenovica 36|ivan-kalanj-6||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1892|Klenovica 36|marija-kalanj-5||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Anton|1893|Klenovica 23|anton-kalanj-2||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Luka Martin|1893|Klenovica 36|luka-martin-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1893|Klenovica 36|marija-kalanj-7||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1893|Klenovica 38|marija-kalanj-8||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Rozalia|1893|Novi Vinodolski|rozalia-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ana|1894|Novi Vinodolski|ana-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija|1894|Klenovica 37|marija-kalanj-9||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Martin|1894|Klenovica 36|martin-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ana|1895|Klenovica|ana-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Marija Anka|1897|—|marija-anka-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Juraj|1900|—|juraj-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Zora|1902|Klenovica|zora-kalanj-3||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Zorica|1904|—|zorica-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Josip|1906|Klenovica|josip-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Dragutin|1907|Klenovica|dragutin-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Ivan|1909|Klenovica|ivan-kalanj-4||Kalanj / Kalan / Kallayn / Kalany
+Kalanj|Valerija|1910|—|valerija-kalanj||Kalanj / Kalan / Kallayn / Kalany
+Papić|Stjepan|1864|Senj|stjepan-papic||Papic / Papich / Papa
+Papić|Josip|1890|Senj|josip-papic||Papic / Papich / Papa
+Papić|Marija Carmela|1890|Senj|marija-carmela-papic||Papic / Papich / Papa
+Papić|Tonica Klotilola?|1893|Senj|tonica-klotilola-papic||Papic / Papich / Papa
+Papić|Vicenco Marijan|1893|Senj|vicenco-marijan-papic||Papic / Papich / Papa
+Papić|Franka|1895|Senj|franka-papic||Papic / Papich / Papa
+Papić|Sulka|1895|Senj|sulka-papic||Papic / Papich / Papa
+Papić (Papa)|Joannem|1840|Selce|joannem-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Helenam|1842|Selce|helenam-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Joannem|1843|Selce|joannem-papic-papa-2||Papic / Papich / Papa
+Papić (Papa)|Georgium|1844|Selce|georgium-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Joannam|1845|Selce|joannam-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Mathia Maria|1847|Selce|mathia-maria-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Magdalena|1848|Selce|magdalena-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Franc|1849|Selce|franc-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Ursa|1849|Selce|ursa-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Vuk|1849|Selce|vuk-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Adam|1850|Selce|adam-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Ivan|1850|Selce|ivan-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Rozaria|1850|Selce|rozaria-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Ane|1851|Selce|ane-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Agna|1853|Selce|agna-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Andre|1853|Selce|andre-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Anna|1853|Selce|anna-papic-papa||Papic / Papich / Papa
+Papić (Papa)|Catharina|1858|Selce|catharina-papic-papa||Papic / Papich / Papa
+Perpic|Catharina|1847|—|catharina-perpic||Perpic / Prpic / Purpich
+Perpic|Thomas|1848|—|thomas-perpic||Perpic / Prpic / Purpich
+Perpic|Ivan|1857|Krivi Put 113|ivan-perpic||Perpic / Prpic / Purpich
+Perpic|Maria|1857|—|maria-perpic-2||Perpic / Prpic / Purpich
+Perpic|Ivka|1858|Krivi Put|ivka-perpic||Perpic / Prpic / Purpich
+Perpic|Jacobus|1858|Krivi Put 136|jacobus-perpic||Perpic / Prpic / Purpich
+Perpic|Maria|1859|Krivi Put 136|maria-perpic-3||Perpic / Prpic / Purpich
+Perpić|Stephanus|1861|Krivi Put 136|stephanus-perpic||Perpic / Prpic / Purpich
+Perpić|Marcus|1872|Krmpote 82|marcus-perpic||Perpic / Prpic / Purpich
+Perpic|Vincentius|1872|Krivi Put|vincentius-perpic-prpic||Perpic / Prpic / Purpich
+Perpić|Andreas|1877|Krivi Put 82|andreas-perpic-prpic||Perpic / Prpic / Purpich
+Perpich|Fabianus|1847|"Croatia|fabianus-perpich||Perpic / Prpic / Purpich
+Prpic|Mathiam Tereziam|1853|—|mathiam-tereziam-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Nikola|1853|Krivi Put 129|nikola-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Clara|1858|Krivi Put 136|clara-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Elisabetham Catharinam|1858|Senj|elisabetham-catharinam-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Nadala|1858|Senj|nadala-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franciska|1861|Senj|franciska-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Tereza|1861|Krivi Put|tereza-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Christina Matia|1862|Senj|christina-matia-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franciscus|1863|"Croatia|franciscus-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Kate|1863|—|kate-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Marija|1863|Mrzli Dol|marija-prpic-6||Prpic / Perpic / Purpich / Prpich
+Prpic|Martinus|1863|Senj|martinus-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Michael|1863|Krivi Put 136|michael-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Antonius|1864|Krivi Put 136|antonius-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Ivka|1865|—|ivka-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Marija|1865|—|marija-prpic-5||Prpic / Perpic / Purpich / Prpich
+Prpić|Mate|1865|Mrzli Dol|mate-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Mathia|1865|Krivi Put 136|mathia-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Bayaria?|1866|Krivi Put 136|bayaria-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franciscus|1866|Senj|franciscus-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Joanna|1866|Krivi Put 136|joanna-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franjica|1867|—|franjica-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Mathia|1867|Krivi Put 136|mathia-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Abrahamus|1868|Krivi Put 136|abrahamus-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Josephus|1868|Krivi Put 136|josephus-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Gregorius|1869|Krivi Put 136|gregorius-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Ivan|1869|—|ivan-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpić|Marija|1869|Mrzli Dol|marija-prpic-4||Prpic / Perpic / Purpich / Prpich
+Prpic|Filip|1870|—|filip-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franciscus|1870|Krivi Put 79|franciscus-prpic-perpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Anna|1871|Krivi Put 136|anna-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Franjo|1871|Sv. Jelena|franjo-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Ivana|1871|Krmpote 124|ivana-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Ana|1872|Br 34|ana-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Juraj|1872|Klaricevac|juraj-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Vincentius|1873|Krivi Put 136|vincentius-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Mathias|1874|Krivi Put|mathias-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Maria|1875|Krivi Put|maria-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Marria|1875|Krivi Put 124|marria-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Petrus|1875|Krivi Put 79|petrus-prpic-perpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Lucija|1877|Klaricevac|lucija-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Maria Carmela|1877|Senj|maria-carmela-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Hermina|1878|Senj|hermina-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Johana Maria|1878|Senj|johana-maria-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Marija|1878|Krivi Put|marija-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Josip|1880|Senj|josip-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Josip|1880|Senj|josip-prpic-6||Prpic / Perpic / Purpich / Prpich
+Prpic|Mile|1881|Sv. Jelena|mile-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Kata|1883|Kriviput|kata-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Olga Oktavia|1886|Senj|olga-oktavia-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Kate|1890|Senj|kate-prpic-2||Prpic / Perpic / Purpich / Prpich
+Prpic|Lucija|1890|Mrzli Dol|lucija-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Mile|1892|Senj|mile-prpic||Prpic / Perpic / Purpich / Prpich
+Prpic|Ivan Juraj|1894|Senj|ivan-juraj-prpic||Prpic / Perpic / Purpich / Prpich
+Sestan|Maria|1843|Gologorica|maria-sestan||Sestan / Sestani / Shestan
+Sestan|Antonia|1845|Gologorica|antonia-sestan||Sestan / Sestani / Shestan
+Sestan|Catharina|1846|Gologorica|catharina-sestan||Sestan / Sestani / Shestan
+Sestan|Francisca|1846|—|francisca-sestan-2||Sestan / Sestani / Shestan
+Sestan|Franciscus|1853|Gologorica|franciscus-sestan||Sestan / Sestani / Shestan
+Sestan|Maria|1854|—|maria-sestan-2||Sestan / Sestani / Shestan
+Sestan|Francisca|1856|Gologorica|francisca-sestan||Sestan / Sestani / Shestan
+Sestan|Catharina|1859|Gologorica|catharina-sestan-2||Sestan / Sestani / Shestan
+Sestan|Rosa|1859|Gologorica|rosa-sestan||Sestan / Sestani / Shestan
+Sestan|Maria Anna|1877|Gologorica|maria-anna-sestan||Sestan / Sestani / Shestan
+Sestan|Aloysius Joannes|1885|—|aloysius-joannes-sestan||Sestan / Sestani / Shestan
+Sestan|Catharina Maria|1888|—|catharina-maria-sestan||Sestan / Sestani / Shestan
+Sestan|Francisca|1888|—|francisca-sestan-3||Sestan / Sestani / Shestan
+Sestan|Maria Saneta|1888|—|maria-saneta-sestan||Sestan / Sestani / Shestan
+Sestan|Marija|1888|—|marija-sestan||Sestan / Sestani / Shestan
+Sestan|Maria|1894|—|maria-sestan-3||Sestan / Sestani / Shestan
+Sestan|Maria Antonia|1895|Gologorica|maria-antonia-sestan||Sestan / Sestani / Shestan
+Sestan|Rosa|1896|—|rosa-sestan-2||Sestan / Sestani / Shestan
+Sestan|Jacoba|1899|—|jacoba-sestan||Sestan / Sestani / Shestan
+Sestan|Elisabetha Catharina|1901|—|elisabetha-catharina-sestan||Sestan / Sestani / Shestan
+Sestan|Angelus Stephanus|1905|—|angelus-stephanus-sestan||Sestan / Sestani / Shestan
+Sestan|Georgia Paschalis|1907|—|georgia-paschalis-sestan||Sestan / Sestani / Shestan
+Sestan|Carolus Gastoni|1910|—|carolus-gastoni-sestan||Sestan / Sestani / Shestan
+Vukelic|Marija|1854|Senj|marija-vukelic-2||Vukelic / Vukelich
+Vukelić|Clementi Ursula|1875|Senj|clementi-ursula-vukelic||Vukelic / Vukelich
+Vukelić|Stanko|1878|Senj|stanko-vukelic||Vukelic / Vukelich
+Vukelić|Vinko|1880|Senj|vinko-vukelic||Vukelic / Vukelich
+Xubrinich|Franciscus|1847|—|franciscus-xubrinich||Xubrinich
+Žubrinić|Catharina|1840|Otočac|catharina-zubrinic-5||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Catharina|1840|—|catharina-zubrinic-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Francisca|1840|Otočac|francisca-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josephus|1840|—|josephus-zubrinic-xubrinich-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Anna Agatha|1841|Otočac|anna-agatha-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ignatius|1841|Otočac|ignatius-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1841|Otočac|maria-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1841|Otočac|maria-zubrinic-8||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maximilianus|1841|Otočac|maximilianus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Stephanus|1841|Otočac|stephanus-zubrinic-4||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Stephanus|1841|Otočac|stephanus-zubrinic-5||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Stephanus|1841|—|stephanus-zubrinic-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Theodorus|1841|Otočac|theodorus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Theresia|1841|Otočac|theresia-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Antonius|1842|Otočac|antonius-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Antonius|1842|—|antonius-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Geneveve Francisca|1842|—|geneveve-francisca-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Anton|1843|Otočac|anton-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Lucas|1843|—|lucas-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Andreas|1844|Otočac|andreas-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Andreas|1844|—|andreas-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Angela|1844|Otočac|angela-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Clara|1844|Otočac|clara-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Francisca|1844|—|francisca-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Helena|1844|—|helena-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannes|1844|—|joannes-zubrinic-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josepha|1844|—|josepha-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1844|Otočac|maria-zubrinic-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Theresia|1844|—|theresia-zubrinic-xubrinich-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Eva|1845|Otočac|eva-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Franciscus|1845|Otočac|franciscus-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josephus|1845|Otočac|josephus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josephus|1845|Otočac|josephus-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria Magdalena|1845|Otočac|maria-magdalena-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Michael|1845|—|michael-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Sabina|1845|Otočac|sabina-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Stephanus|1845|Otočac|stephanus-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ana|1846|—|ana-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Anna|1846|Otočac|anna-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Francisca|1846|Otočac|francisca-zubrinic-5||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Francisca|1846|Otočac|francisca-zubrinic-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannes|1846|Otočac|joannes-zubrinic-6||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Thomas|1846|Otočac|thomas-toma-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Catharina|1847|Otočac|catharina-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Helena|1847|—|helena-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Jacobus|1847|—|jacobus-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannes|1847|—|joannes-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Lucia|1847|—|lucia-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1847|—|magdalena-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1847|—|magdalena-zubrinic-9||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1847|—|maria-zubrinic-4||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Michael|1847|—|michael-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Nicolaus|1847|—|nicolaus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Nicolaus|1847|—|nicolaus-zubrinic-xubrinich-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Nikolas|1847|—|nikolas-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Anna|1848|—|anna-zubrinic-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Bare|1848|Otočac|bare-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Bare|1848|—|bare-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Elias|1848|Otočac|elias-ilija-zubrinic-xubrinich-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Gerga|1848|—|gerga-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Gregorius|1848|Otočac|gregorius-zubrinic-xubrinich-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ilia|1848|—|ilia-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannes|1848|—|joannes-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannis|1848|Otočac|joannis-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1848|—|maria-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Petrus|1848|—|petrus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josepha|1849|—|josepha-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Marta|1849|—|marta-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Thomas|1849|—|thomas-zubrinic-xubrinich-7||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Toma|1849|Otočac|toma-zubrinic-4||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ivan|1850|—|ivan-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Juliana|1850|—|juliana-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Luce|1850|—|luce-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Toma|1850|Otočac|toma-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Franciska|1851|—|franciska-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Mandalena|1851|—|mandalena-mande-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Mate|1851|—|mate-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Mate|1851|Otočac|mate-zubrinic-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Matia Veronika|1851|Otočac|matia-veronika-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Toma|1851|Otočac|toma-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Catharina|1852|Otočac|catharina-zubrinic-6||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Francisca|1852|—|francisca-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joannes|1852|—|joannes-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josephus|1852|Otočac|josephus-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1852|Otočac|magdalena-zubrinic-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1852|Otočac|magdalena-zubrinic-5||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1852|Otočac|magdalena-zubrinic-6||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1853|Otocac Croatia|maria-zubrinic-xubrinich-3||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1853|Otočac|maria-zubrinic-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria Antonia|1853|Otočac|maria-antonia-zubrinic-xubrinich||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Matthaeus|1853|Otočac|matthaeus-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Nicolaus|1854|Otočac|nicolaus-zubrinic-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Theresia|1854|Otočac|theresia-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Lucia|1855|Otočac|lucia-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria Magdalena|1855|Otočac|maria-magdalena-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Joanna|1856|Otočac|joanna-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Anna|1857|Otočac|anna-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Maria|1857|Otočac|maria-zubrinic-xubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Martha|1857|Otočac|martha-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Marija|1858|Otočac|marija-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Michael|1858|Otočac|michael-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Nikola Miko|1858|Prozor 50|nikola-miko-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Simon|1858|—|simon-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Martha|1861|Senj|martha-zubrinic-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Georgius|1863|Prozor 50|georgius-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Magdalena|1865|Prozor 50|magdalena-zubrinic-8||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Matthaus (Mate)|1867|Prozor 50|matthaus-mate-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ioaness (Ivan)|1870|Prozor 50|ioaness-ivan-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Franciscus (Franjo)|1874|Prozor 50|franciscus-franjo-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Josip|1876|Otočac|josip-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Zubrinic|Nikula|1886|Senj|nikula-zubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Ivan|1887|Otocac Croatia|ivan-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić|Stjepan|1888|Otocac Croatia|stjepan-zubrinic-2||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinic (Xubrinic)|Amalina|1872|Otocac Croatia|amalina-zubrinic-xubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
+Žubrinić (Xubrinic)|Nikola|1880|Otočac|nikola-zubrinic-xubrinic||Zubrinic / Zubrinich / Xubrinich / Subrinich
