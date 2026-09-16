@@ -57,10 +57,16 @@ for pid, rec in pub.items():
 allrows = rows + tree_rows
 by_fam = collections.Counter(r["family"] for r in allrows if r["family"])
 
-# Four worlds, not one list. The same family tree reaches into a Habsburg
-# garrison town, a stretch of the Military Frontier, a set of hill villages and
-# a port with a tobacco monopoly, and the trades in each are not comparable.
-# Keyed on the place string the register itself gives.
+# Five worlds, not one list. The same family tree reaches into a Habsburg
+# garrison town, a stretch of the Military Frontier, a set of hill villages, a
+# port with a tobacco monopoly — and, on the other side of the world, a lead
+# smelter. The trades in each are not comparable. Keyed on the place string the
+# register itself gives.
+#
+# The fifth was added on 16 September 2026 with the Australian electoral rolls,
+# and it is the one that makes the other four mean something. This archive has
+# been saying «the offices did not travel» while giving the destination nowhere
+# to appear.
 STRATA = [
     ("Karlobag — the port town",
      ("karlobag",),
@@ -82,6 +88,14 @@ STRATA = [
      "A working port with a state tobacco monopoly. The register grades the "
      "factory workforce from radnica to nadglednica, and the town trades run "
      "from bremenar to gostioničar."),
+    ("Port Pirie and Whyalla — the lead smelter",
+     ("port pirie", "solomontown", "whyalla", "broken hill", "glenelg",
+      "pt pirie"),
+     "The same families, fifty years and half a world later, in the Australian "
+     "electoral rolls. Two trades and no third: foundry — ironmoulder, moulder "
+     "— and labourer. Not one office, not one rank, not one Dominus. The "
+     "women's column is what the Commonwealth roll asked for rather than a "
+     "trade, and is kept as it stands."),
 ]
 
 
