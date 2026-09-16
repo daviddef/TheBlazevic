@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan, evidenced } from "../../lib/people.js";
@@ -22,6 +23,10 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 ---
 <Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
   dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
+
+<NameLists here="people" u={u} />
+
+
 
   <section class="blk">
     <div class="grid three">

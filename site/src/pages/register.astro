@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
@@ -25,6 +26,10 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
 <Base title="The Register"
   eyebrow="Every named individual this archive has found"
   dek={`${register.length} entries across ${surnames} surnames — ${tree} carried by the family tree and ${swept} met while reading a register act by act. This is the raw catch, not a family tree, and a good deal of it is not this family — in the strict sense that two-thirds of the published people reach Hedviga only through a sorting label.`}>
+
+<NameLists here="register" u={u} />
+
+
 
   <section class="blk">
     <div class="qa">
