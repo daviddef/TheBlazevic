@@ -1,0 +1,3273 @@
+{
+ "note": "Every form of every given name this archive holds, filed by the language that wrote it. Built by tools/names.py from sources/givennames.psv and the records themselves; nothing here is marked attested by hand.",
+ "languages": [
+  {
+   "key": "latin",
+   "name": "Latin",
+   "blurb": "The language of every Catholic register in these parishes until the 1820s and of many for decades after. This is how the priest actually wrote it — and he wrote it in whatever case the sentence needed."
+  },
+  {
+   "key": "croatian",
+   "name": "Croatian",
+   "blurb": "The language of the villages, of the Vinodol and the Velebit coast, and of every document after 1945. It is also where the short forms live: a man baptised Josephus is Joso all his life."
+  },
+  {
+   "key": "italian",
+   "name": "Italian",
+   "blurb": "The Austrian administration's other language, and the one the coast traded in. Rarely the register's language this far south, but the form an Italian index will hold."
+  },
+  {
+   "key": "venetian",
+   "name": "Venetian",
+   "blurb": "Not a dialect of Italian but the language of the Republic. It gives Zuane for Giovanni."
+  },
+  {
+   "key": "german",
+   "name": "German",
+   "blurb": "The Habsburg bureaucracy, the military Frontier's own paperwork, and the wartime cards at Reutlingen."
+  },
+  {
+   "key": "hungarian",
+   "name": "Hungarian",
+   "blurb": "Senj was Zengg to the Hungarian press and Fiume was a corpus separatum of the Crown of St Stephen. Almost nothing here is written in it — which is the point: these are the forms to type into an index nobody has searched."
+  },
+  {
+   "key": "english",
+   "name": "English",
+   "blurb": "The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it."
+  }
+ ],
+ "totalForms": 340,
+ "attested": 159,
+ "aids": 181,
+ "rows": [
+  {
+   "canon": "ana",
+   "sex": "f",
+   "men": 0,
+   "women": 51,
+   "forms": 12,
+   "attested": 6,
+   "people": 48,
+   "commonest": "anna",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Ana",
+      "note": "",
+      "seen": 17,
+      "case": ""
+     },
+     {
+      "form": "Ane",
+      "note": "",
+      "seen": 8,
+      "case": ""
+     },
+     {
+      "form": "Anica",
+      "note": "diminutive",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Anka",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Ankica",
+      "note": "double diminutive",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Hana",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Agna",
+      "note": "as one clerk wrote it",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Anna",
+      "note": "",
+      "seen": 19,
+      "case": ""
+     },
+     {
+      "form": "Annam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Anne",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Annie",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Ilona",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "andrija",
+   "sex": "m",
+   "men": 8,
+   "women": 0,
+   "forms": 7,
+   "attested": 3,
+   "people": 8,
+   "commonest": "andreas",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Andre",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Andrija",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Andrea",
+      "note": "a man's name in Italian",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Andreas",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Andream",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Andrew",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "András",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "ante",
+   "sex": "m",
+   "men": 63,
+   "women": 1,
+   "forms": 11,
+   "attested": 5,
+   "people": 47,
+   "commonest": "antonius",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Ante",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Anton",
+      "note": "",
+      "seen": 15,
+      "case": ""
+     },
+     {
+      "form": "Tone",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Antun",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Toni",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Antonio",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Antonius",
+      "note": "",
+      "seen": 29,
+      "case": ""
+     },
+     {
+      "form": "Antonium",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Anthony",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Anton",
+      "note": "",
+      "seen": 15,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Antal",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "antonija",
+   "sex": "f",
+   "men": 0,
+   "women": 32,
+   "forms": 9,
+   "attested": 6,
+   "people": 17,
+   "commonest": "antonija",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Antonija",
+      "note": "",
+      "seen": 8,
+      "case": ""
+     },
+     {
+      "form": "Tonica",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Tonka",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Antica",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Toncika",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Antonia",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Antoniam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "italian": [
+     {
+      "form": "Antonia",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Antónia",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "blaz",
+   "sex": "",
+   "men": 7,
+   "women": 0,
+   "forms": 6,
+   "attested": 2,
+   "people": 3,
+   "commonest": "blaz",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Blaž",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Blaz",
+      "note": "without the diacritic, as an index will hold it",
+      "seen": 3,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Blasius",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Blaise",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Biagio",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Balázs",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "bozica",
+   "sex": "",
+   "men": 0,
+   "women": 6,
+   "forms": 2,
+   "attested": 2,
+   "people": 3,
+   "commonest": "bozica",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Božica",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Bozica",
+      "note": "without the diacritic, as an index will hold it",
+      "seen": 3,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "elizabeta",
+   "sex": "f",
+   "men": 0,
+   "women": 11,
+   "forms": 9,
+   "attested": 3,
+   "people": 7,
+   "commonest": "helena",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Jelena",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Ela",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Elizabeta",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jela",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Helena",
+      "note": "",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Helenam",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     },
+     {
+      "form": "Elisabetha",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Elizabeth",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Erzsébet",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Helenam Papić (Papa)",
+     "slug": "helenam-papic-papa",
+     "recorded": "Helenam",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "franciska",
+   "sex": "f",
+   "men": 0,
+   "women": 28,
+   "forms": 8,
+   "attested": 5,
+   "people": 24,
+   "commonest": "francisca",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Francika",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Franciska",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Franka",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Fanika",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Francisca",
+      "note": "",
+      "seen": 16,
+      "case": ""
+     },
+     {
+      "form": "Franciscam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Frances",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Franciska",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "franjo",
+   "sex": "m",
+   "men": 41,
+   "women": 4,
+   "forms": 10,
+   "attested": 4,
+   "people": 44,
+   "commonest": "franciscus",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Frane",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Franjo",
+      "note": "",
+      "seen": 19,
+      "case": ""
+     },
+     {
+      "form": "Fran",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Franc",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Francesco",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Franciscus",
+      "note": "",
+      "seen": 19,
+      "case": ""
+     },
+     {
+      "form": "Franciscum",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Frank",
+      "note": "the form of arrival",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Franz",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Ferenc",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Francisci Perpich",
+     "slug": "francisci-perpich",
+     "recorded": "Francisci",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Franciscum Jaocbum Boras",
+     "slug": "franciscum-jaocbum-boras",
+     "recorded": "Franciscum",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Franciscum Papić (Papa)",
+     "slug": "franciscum-papic-papa",
+     "recorded": "Franciscum",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "grgur",
+   "sex": "m",
+   "men": 12,
+   "women": 0,
+   "forms": 7,
+   "attested": 4,
+   "people": 10,
+   "commonest": "gregorius",
+   "langs": {
+    "latin": [
+     {
+      "form": "Gregorius",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Gregorium",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Grga",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Grgica",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Grgur",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Gregory",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Gergely",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "ilija",
+   "sex": "m",
+   "men": 9,
+   "women": 0,
+   "forms": 6,
+   "attested": 3,
+   "people": 8,
+   "commonest": "elias",
+   "langs": {
+    "latin": [
+     {
+      "form": "Elias",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Eliam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Ilia",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Ilija",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Elijah",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Illés",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "ivan",
+   "sex": "m",
+   "men": 103,
+   "women": 0,
+   "forms": 16,
+   "attested": 6,
+   "people": 102,
+   "commonest": "joannes",
+   "langs": {
+    "italian": [
+     {
+      "form": "Giovanni",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Joannes",
+      "note": "",
+      "seen": 44,
+      "case": ""
+     },
+     {
+      "form": "Joannem",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     },
+     {
+      "form": "Joannis",
+      "note": "genitive",
+      "seen": 11,
+      "case": "genitive"
+     },
+     {
+      "form": "Ioannes",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Joann",
+      "note": "abbreviated",
+      "seen": 0,
+      "case": "abbreviated"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Ivan",
+      "note": "",
+      "seen": 42,
+      "case": ""
+     },
+     {
+      "form": "Ive",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Ivica",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Ivo",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jovan",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "John",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Juan",
+      "note": "as written in an Australian index",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Zuane",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Johann",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "János",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": 48
+    },
+    {
+     "name": "Joannis Antić",
+     "slug": "joannis-antic-2",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": 96
+    },
+    {
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "slug": "joannis-georgius-georgio-uroda",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": 54
+    },
+    {
+     "name": "Joanne Papich",
+     "slug": "joanne-papich",
+     "recorded": "Joanne",
+     "case": "ablative",
+     "ahn": null
+    },
+    {
+     "name": "Joannem Papić (Papa)",
+     "slug": "joannem-papic-papa",
+     "recorded": "Joannem",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Joannem Papić (Papa)",
+     "slug": "joannem-papic-papa-2",
+     "recorded": "Joannem",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Joannis \"Ivan\" Perpić",
+     "slug": "joannis-perpic",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Papich",
+     "slug": "joannis-papich-papich",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Papić (Papa)",
+     "slug": "joannis-papic-papa",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Papić (Papa)",
+     "slug": "joannis-papic-papa-2",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Papić (Papa)",
+     "slug": "joannis-papic-papa-3",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Papić (Papa)",
+     "slug": "joannis-papic-papa-4",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Žubrinić",
+     "slug": "joannis-zubrinic",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Joannis Žubrinić Xubrinich Zubrinic",
+     "slug": "joannis-zubrinic-xubrinich-zubrinic",
+     "recorded": "Joannis",
+     "case": "genitive",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "ivana",
+   "sex": "f",
+   "men": 3,
+   "women": 23,
+   "forms": 13,
+   "attested": 7,
+   "people": 24,
+   "commonest": "ivka",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Ivana",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Ivka",
+      "note": "diminutive",
+      "seen": 9,
+      "case": ""
+     },
+     {
+      "form": "Iva",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Ivanka",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Janja",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Joanna",
+      "note": "",
+      "seen": 8,
+      "case": ""
+     },
+     {
+      "form": "Johanna",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Joannam",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Jane",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Joan",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Giovanna",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Johanna",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Johanna",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "jakov",
+   "sex": "m",
+   "men": 12,
+   "women": 0,
+   "forms": 9,
+   "attested": 4,
+   "people": 12,
+   "commonest": "jacobus",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Jakov",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Jaco",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jakob",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Jacob",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Jacobus",
+      "note": "",
+      "seen": 6,
+      "case": ""
+     },
+     {
+      "form": "Jacobum",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     }
+    ],
+    "italian": [
+     {
+      "form": "Giacomo",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "James",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Jakab",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Jacobum Papić (Papa)",
+     "slug": "jacobum-papic-papa",
+     "recorded": "Jacobum",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "jakovina",
+   "sex": "f",
+   "men": 0,
+   "women": 1,
+   "forms": 4,
+   "attested": 0,
+   "people": 0,
+   "commonest": "",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Jakobina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jakovina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Jacoba",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Jacobina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "josip",
+   "sex": "m",
+   "men": 70,
+   "women": 0,
+   "forms": 13,
+   "attested": 5,
+   "people": 69,
+   "commonest": "josephus",
+   "langs": {
+    "italian": [
+     {
+      "form": "Giuseppe",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Joe",
+      "note": "the form of arrival",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Joseph",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Josephus",
+      "note": "",
+      "seen": 29,
+      "case": ""
+     },
+     {
+      "form": "Josephi",
+      "note": "genitive",
+      "seen": 3,
+      "case": "genitive"
+     },
+     {
+      "form": "Josephum",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Josip",
+      "note": "",
+      "seen": 28,
+      "case": ""
+     },
+     {
+      "form": "Joso",
+      "note": "short form",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Jospi",
+      "note": "a slip for Josip",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jozo",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Pepe",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Josef",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "József",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Josephum Antić",
+     "slug": "josephum-antic",
+     "recorded": "Josephum",
+     "case": "accusative",
+     "ahn": 24
+    },
+    {
+     "name": "Josephi \"Josephus\" Boras",
+     "slug": "josephi-boras",
+     "recorded": "Josephi",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Josephi Papić (Papa)",
+     "slug": "josephi-papic-papa",
+     "recorded": "Josephi",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Josephi Papić (Papa)",
+     "slug": "josephi-papic-papa-2",
+     "recorded": "Josephi",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Josephum Kalanya Kalanj",
+     "slug": "josephum-kalanya-kalanj",
+     "recorded": "Josephum",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "josipa",
+   "sex": "f",
+   "men": 0,
+   "women": 2,
+   "forms": 7,
+   "attested": 0,
+   "people": 0,
+   "commonest": "",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Josipa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jozefa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Josepha",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Josephine",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Giuseppina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Josefa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Jozefa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "juraj",
+   "sex": "m",
+   "men": 29,
+   "women": 0,
+   "forms": 14,
+   "attested": 5,
+   "people": 28,
+   "commonest": "georgius",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Juraj",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Jure",
+      "note": "short form",
+      "seen": 10,
+      "case": ""
+     },
+     {
+      "form": "Djuro",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Gjuka",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Gjuro",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jurko",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "George",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Georgius",
+      "note": "",
+      "seen": 11,
+      "case": ""
+     },
+     {
+      "form": "Georgii",
+      "note": "genitive",
+      "seen": 1,
+      "case": "genitive"
+     },
+     {
+      "form": "Georgium",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     },
+     {
+      "form": "Georgio",
+      "note": "dative or ablative",
+      "seen": 0,
+      "case": "dative or ablative"
+     }
+    ],
+    "italian": [
+     {
+      "form": "Giorgio",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Georg",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "György",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Georgii Papich",
+     "slug": "georgii-papich",
+     "recorded": "Georgii",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Georgium Papić (Papa)",
+     "slug": "georgium-papic-papa",
+     "recorded": "Georgium",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Georgium Papić (Papa)",
+     "slug": "georgium-papic-papa-2",
+     "recorded": "Georgium",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "jurja",
+   "sex": "f",
+   "men": 0,
+   "women": 3,
+   "forms": 5,
+   "attested": 0,
+   "people": 0,
+   "commonest": "",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Gjurdja",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Jurja",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Georgia",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Georgina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Giorgia",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "katarina",
+   "sex": "f",
+   "men": 0,
+   "women": 46,
+   "forms": 11,
+   "attested": 7,
+   "people": 46,
+   "commonest": "catharina",
+   "langs": {
+    "latin": [
+     {
+      "form": "Catarina",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Catharina",
+      "note": "",
+      "seen": 27,
+      "case": ""
+     },
+     {
+      "form": "Catharinam",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Kata",
+      "note": "short form",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Katarina",
+      "note": "",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Katica",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Catta",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Kate",
+      "note": "",
+      "seen": 6,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Katharina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Caterina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Katalin",
+      "note": "and this archive holds a KATALYN Zubrinich",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Catharinam Papić (Papa)",
+     "slug": "catharinam-papic-papa",
+     "recorded": "Catharinam",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "lucija",
+   "sex": "f",
+   "men": 3,
+   "women": 26,
+   "forms": 8,
+   "attested": 4,
+   "people": 25,
+   "commonest": "lucia",
+   "langs": {
+    "latin": [
+     {
+      "form": "Luca",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Lucia",
+      "note": "",
+      "seen": 17,
+      "case": ""
+     },
+     {
+      "form": "Luce?",
+      "note": "the scan is not readable at this point",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Luciam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Lucija",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Luce",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Lucy",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Luca",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "luka",
+   "sex": "m",
+   "men": 9,
+   "women": 3,
+   "forms": 7,
+   "attested": 3,
+   "people": 11,
+   "commonest": "lucas",
+   "langs": {
+    "latin": [
+     {
+      "form": "Lucas",
+      "note": "",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Lucam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Luce",
+      "note": "short form",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Luka",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Luke",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Luca",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Lukács",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "magdalena",
+   "sex": "f",
+   "men": 0,
+   "women": 21,
+   "forms": 7,
+   "attested": 3,
+   "people": 21,
+   "commonest": "magdalena",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Mandalena",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Mande",
+      "note": "short form",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Magda",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Manda",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Magdalena",
+      "note": "",
+      "seen": 16,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Maddalena",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Magdolna",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "margarita",
+   "sex": "f",
+   "men": 0,
+   "women": 17,
+   "forms": 8,
+   "attested": 4,
+   "people": 17,
+   "commonest": "marta",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Margareta",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Marta",
+      "note": "a DIFFERENT name that this archive's fold treats as one",
+      "seen": 6,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Margarita",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Martha",
+      "note": "a DIFFERENT name that this archive's fold treats as one",
+      "seen": 6,
+      "case": ""
+     },
+     {
+      "form": "Margaretha",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Margarethe",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Margaret",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Margit",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "marija",
+   "sex": "f",
+   "men": 3,
+   "women": 214,
+   "forms": 11,
+   "attested": 8,
+   "people": 109,
+   "commonest": "maria",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Mara",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Marica",
+      "note": "diminutive",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Marija",
+      "note": "",
+      "seen": 48,
+      "case": ""
+     },
+     {
+      "form": "Mare",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Mica",
+      "note": "diminutive",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Maria",
+      "note": "",
+      "seen": 54,
+      "case": ""
+     },
+     {
+      "form": "Marria",
+      "note": "as one clerk wrote it",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Mariam",
+      "note": "accusative",
+      "seen": 4,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Mary",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Maria",
+      "note": "",
+      "seen": 54,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Mária",
+      "note": "",
+      "seen": 54,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Mariam Gerkacs (Gergacs)",
+     "slug": "mariam-gerkacs-gergacs",
+     "recorded": "Mariam",
+     "case": "accusative",
+     "ahn": 55
+    },
+    {
+     "name": "Mariam Boras",
+     "slug": "mariam-boras",
+     "recorded": "Mariam",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Mariam Papić (Papa)",
+     "slug": "mariam-papic-papa",
+     "recorded": "Mariam",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Mariam Papić (Papa)",
+     "slug": "mariam-papic-papa-2",
+     "recorded": "Mariam",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "martin",
+   "sex": "m",
+   "men": 13,
+   "women": 0,
+   "forms": 5,
+   "attested": 2,
+   "people": 13,
+   "commonest": "martinus",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Martin",
+      "note": "",
+      "seen": 6,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Martinus",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Martinum",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "italian": [
+     {
+      "form": "Martino",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Márton",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "matija",
+   "sex": "m",
+   "men": 32,
+   "women": 8,
+   "forms": 18,
+   "attested": 11,
+   "people": 40,
+   "commonest": "mate",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Mate",
+      "note": "short form",
+      "seen": 14,
+      "case": ""
+     },
+     {
+      "form": "Matija",
+      "note": "",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Matej",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Mato",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Mathaeus",
+      "note": "one t — the spelling that was outside the fold until 17 Sept 2026",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Mathias",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Mathæus",
+      "note": "the same, with the ligature the priest wrote",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Matia",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Matthaeus",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Matthias",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Matthæus",
+      "note": "the commonest ligature spelling here",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Mathiam",
+      "note": "accusative",
+      "seen": 2,
+      "case": "accusative"
+     },
+     {
+      "form": "Matthea",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Mattheam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "german": [
+     {
+      "form": "Matthäus",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Matthew",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Matteo",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Mátyás",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Mathiam Papić (Papa)",
+     "slug": "mathiam-papic-papa",
+     "recorded": "Mathiam",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Mathiam Tereziam Prpic Perpic",
+     "slug": "mathiam-tereziam-prpic-perpic",
+     "recorded": "Mathiam",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "mihovil",
+   "sex": "m",
+   "men": 87,
+   "women": 0,
+   "forms": 12,
+   "attested": 8,
+   "people": 37,
+   "commonest": "michael",
+   "langs": {
+    "latin": [
+     {
+      "form": "Michael",
+      "note": "",
+      "seen": 23,
+      "case": ""
+     },
+     {
+      "form": "Michaelem",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     },
+     {
+      "form": "Michaelis",
+      "note": "genitive",
+      "seen": 1,
+      "case": "genitive"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Miho",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Mihovil",
+      "note": "",
+      "seen": 10,
+      "case": ""
+     },
+     {
+      "form": "Mijo",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Mihael",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Michael",
+      "note": "",
+      "seen": 23,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Michele",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Michiel",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Michael",
+      "note": "",
+      "seen": 23,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Mihály",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Michaelem Papić (Papa)",
+     "slug": "michaelem-papic-papa",
+     "recorded": "Michaelem",
+     "case": "accusative",
+     "ahn": null
+    },
+    {
+     "name": "Michaelis / Michael / Miho / Michaël \"Miko\" Žubrinić",
+     "slug": "michaelis-michael-miho-micha-l-zubrinic",
+     "recorded": "Michaelis",
+     "case": "genitive",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "nikola",
+   "sex": "m",
+   "men": 28,
+   "women": 2,
+   "forms": 11,
+   "attested": 5,
+   "people": 29,
+   "commonest": "nikola",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Nikola",
+      "note": "",
+      "seen": 14,
+      "case": ""
+     },
+     {
+      "form": "Nikolas",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Nikula",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Miko",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Niko",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Nicolaus",
+      "note": "",
+      "seen": 12,
+      "case": ""
+     },
+     {
+      "form": "Nicolai",
+      "note": "genitive",
+      "seen": 1,
+      "case": "genitive"
+     },
+     {
+      "form": "Nicolaum",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Nicholas",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Nicolò",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Miklós",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Nicolai Žubrinić",
+     "slug": "nicolai-zubrinic",
+     "recorded": "Nicolai",
+     "case": "genitive",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "olga",
+   "sex": "",
+   "men": 0,
+   "women": 4,
+   "forms": 2,
+   "attested": 2,
+   "people": 2,
+   "commonest": "olga",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Olga",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Olga",
+      "note": "the same in every language that has it",
+      "seen": 2,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "paulina",
+   "sex": "f",
+   "men": 0,
+   "women": 5,
+   "forms": 8,
+   "attested": 5,
+   "people": 3,
+   "commonest": "paulina",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Paula",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Paulina",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Pava",
+      "note": "short form — and one of them is the Boras entered twice",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Pavla",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Paulina",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Pauline",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Paolina",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Paulina",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "pavao",
+   "sex": "m",
+   "men": 21,
+   "women": 0,
+   "forms": 10,
+   "attested": 6,
+   "people": 21,
+   "commonest": "paulus",
+   "langs": {
+    "english": [
+     {
+      "form": "Paul",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Paulus",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Pauli",
+      "note": "genitive",
+      "seen": 3,
+      "case": "genitive"
+     },
+     {
+      "form": "Paulum",
+      "note": "accusative",
+      "seen": 1,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Paval",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Pavao",
+      "note": "",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Pave",
+      "note": "short form",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Pavle",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Paolo",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Pál",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Pauli Lončarić",
+     "slug": "pauli-loncaric",
+     "recorded": "Pauli",
+     "case": "genitive",
+     "ahn": 98
+    },
+    {
+     "name": "Pauli Tomljanović",
+     "slug": "pauli-tomljanovic",
+     "recorded": "Pauli",
+     "case": "genitive",
+     "ahn": 222
+    },
+    {
+     "name": "Pauli Papić (Papa)",
+     "slug": "pauli-papic-papa",
+     "recorded": "Pauli",
+     "case": "genitive",
+     "ahn": null
+    },
+    {
+     "name": "Paulum Kalanj",
+     "slug": "paulum-kalanj",
+     "recorded": "Paulum",
+     "case": "accusative",
+     "ahn": null
+    }
+   ]
+  },
+  {
+   "canon": "petar",
+   "sex": "m",
+   "men": 17,
+   "women": 1,
+   "forms": 9,
+   "attested": 2,
+   "people": 18,
+   "commonest": "petrus",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Petar",
+      "note": "",
+      "seen": 8,
+      "case": ""
+     },
+     {
+      "form": "Pere",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Pero",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Peter",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Petrus",
+      "note": "",
+      "seen": 10,
+      "case": ""
+     },
+     {
+      "form": "Petrum",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "italian": [
+     {
+      "form": "Pietro",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Peter",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Péter",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "simun",
+   "sex": "",
+   "men": 12,
+   "women": 0,
+   "forms": 8,
+   "attested": 2,
+   "people": 2,
+   "commonest": "simun",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Šimun",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     },
+     {
+      "form": "Simun",
+      "note": "without the diacritic, as an index will hold it",
+      "seen": 2,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Simeon",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Simon",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Simon",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Simone",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Simon",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Simon",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": [
+    {
+     "name": "Simoni Pekass (Pekkas)",
+     "slug": "simoni-pekass-pekkas",
+     "recorded": "Simoni",
+     "case": "dative",
+     "ahn": 426
+    }
+   ]
+  },
+  {
+   "canon": "stjepan",
+   "sex": "m",
+   "men": 21,
+   "women": 0,
+   "forms": 10,
+   "attested": 3,
+   "people": 21,
+   "commonest": "stephanus",
+   "langs": {
+    "latin": [
+     {
+      "form": "Stephanus",
+      "note": "",
+      "seen": 15,
+      "case": ""
+     },
+     {
+      "form": "Stephanum",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "english": [
+     {
+      "form": "Stephen",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Steve",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Stipan",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Stjepan",
+      "note": "",
+      "seen": 5,
+      "case": ""
+     },
+     {
+      "form": "Stevo",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     },
+     {
+      "form": "Stipe",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Stefano",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "István",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "terezija",
+   "sex": "f",
+   "men": 0,
+   "women": 16,
+   "forms": 8,
+   "attested": 3,
+   "people": 15,
+   "commonest": "tereza",
+   "langs": {
+    "italian": [
+     {
+      "form": "Teresa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Tereza",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Terezija",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     }
+    ],
+    "latin": [
+     {
+      "form": "Theresia",
+      "note": "",
+      "seen": 7,
+      "case": ""
+     },
+     {
+      "form": "Terezia",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Theresa",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "german": [
+     {
+      "form": "Therese",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Terézia",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "toma",
+   "sex": "m",
+   "men": 56,
+   "women": 0,
+   "forms": 9,
+   "attested": 5,
+   "people": 32,
+   "commonest": "thomas",
+   "langs": {
+    "latin": [
+     {
+      "form": "Thomas",
+      "note": "",
+      "seen": 22,
+      "case": ""
+     },
+     {
+      "form": "Thomam",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Toma",
+      "note": "",
+      "seen": 8,
+      "case": ""
+     },
+     {
+      "form": "Tome",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Tomislav",
+      "note": "a DIFFERENT name, folded here by the tool",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Tomo",
+      "note": "short form",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Thomas",
+      "note": "",
+      "seen": 22,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Tommaso",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Tamás",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "vinko",
+   "sex": "m",
+   "men": 9,
+   "women": 0,
+   "forms": 8,
+   "attested": 4,
+   "people": 9,
+   "commonest": "vincentius",
+   "langs": {
+    "latin": [
+     {
+      "form": "Vicentius",
+      "note": "as the clerk spelt it",
+      "seen": 3,
+      "case": ""
+     },
+     {
+      "form": "Vincentius",
+      "note": "",
+      "seen": 4,
+      "case": ""
+     },
+     {
+      "form": "Vincentium",
+      "note": "accusative",
+      "seen": 0,
+      "case": "accusative"
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Vicko",
+      "note": "short form",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Vinko",
+      "note": "",
+      "seen": 1,
+      "case": ""
+     },
+     {
+      "form": "Vincenc",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Vincent",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ],
+    "italian": [
+     {
+      "form": "Vincenzo",
+      "note": "",
+      "seen": 0,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "zdenka",
+   "sex": "",
+   "men": 2,
+   "women": 2,
+   "forms": 2,
+   "attested": 2,
+   "people": 2,
+   "commonest": "zdenka",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Zdenka",
+      "note": "",
+      "seen": 2,
+      "case": ""
+     }
+    ],
+    "english": [
+     {
+      "form": "Zdenka",
+      "note": "as an Australian or American index would hold it",
+      "seen": 2,
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  }
+ ]
+}

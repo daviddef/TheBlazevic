@@ -105,3 +105,31 @@ village|jablanac|naturalisations|2|Joseph Stokich b.1889, unconfirmed
 village|brlog|naturalisations|4|Bjelobaba, Lukach, Yasevac, unconfirmed
 village|vrbnik|naturalisations|7|Krk surnames — Volarich, Trinaestich, Trpich, unconfirmed
 village|lukovo|naturalisations|1|Frank Pietrzak — a Polish name; fuzzy noise, not Lukovo
+#
+# 17 SEPTEMBER 2026 — A DEFECT IN THIS FILE'S OWN TARGET LIST, found by being
+# asked a plain question: «are you searching all the variations of a name?»
+#
+# For SURNAMES, yes — targets-2026-09-16.psv carries a «spellings to try»
+# column and the trial proved why it matters (ZUBRINICH 191, ZUBRINIC 119,
+# ZUBRINICK 10, all the same family).
+#
+# FOR GIVEN NAMES, NO. The target list hands the searcher whatever form the
+# tree happens to hold, which for these parishes is very often the LATIN OF THE
+# BAPTISMAL ENTRY — and sometimes the Latin ACCUSATIVE, because the priest
+# wrote «baptizavi Gregorium». Nobody was ever entered in an American index in
+# the Latin accusative. Tested:
+firstname|blazevic firstname=josip|all|some|the Croatian form — returns records
+firstname|blazevic firstname=joseph|all|some|the English form — returns records
+firstname|blazevic firstname=josephus|all|0|THE LATIN FORM — NOTHING, and this is the form the target list gives
+firstname|blazevic firstname=giuseppe|all|0|the Italian form — nothing either
+# AND THE SITE'S OWN «Include name variants» CHECKBOX DOES NOT COVER IT. It is
+# on by default and it still returns 0 for Josephus, so whatever it expands, it
+# is not expanding across the languages a Croatian parish was written in.
+#
+# WHAT THIS COSTS. 10 of the 386 target rows name a person in an oblique Latin
+# case — Gregorium, Conradum, Joannem, Helenam, Georgium, Mathiam, Elisabetham,
+# Joannam — and would return nothing for ever. A further 107 rows carry a given
+# name that is in no variant group at all, so nothing tells the searcher what
+# else to type. This archive HAD the answer the whole time: givennames.json has
+# held 29 variant groups and 197 forms since the first week, and no search has
+# ever consulted it.

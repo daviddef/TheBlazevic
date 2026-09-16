@@ -22,6 +22,7 @@
    "mariam",
    "marica",
    "marija",
+   "marria",
    "mary",
    "mica"
   ],
@@ -57,7 +58,9 @@
    "tonka"
   ],
   "ana": [
+   "agna",
    "ana",
+   "ane",
    "anica",
    "anka",
    "ankica",
@@ -101,12 +104,12 @@
   "matija": [
    "mate",
    "matej",
+   "mathaeus",
    "mathiam",
    "mathias",
    "matia",
    "matija",
    "mato",
-   "matthaeus",
    "matthaeus",
    "matthaus",
    "matthea",
@@ -133,6 +136,7 @@
    "nicolaus",
    "niko",
    "nikola",
+   "nikolas",
    "nikula"
   ],
   "katarina": [
@@ -151,6 +155,7 @@
    "stephanus",
    "steve",
    "stevo",
+   "stipan",
    "stipe",
    "stjepan"
   ],
@@ -171,6 +176,7 @@
    "magda",
    "magdalena",
    "manda",
+   "mandalena",
    "mande"
   ],
   "elizabeta": [
@@ -204,6 +210,7 @@
    "pauli",
    "paulum",
    "paulus",
+   "paval",
    "pavao",
    "pave",
    "pavle"
@@ -255,6 +262,40 @@
    "jacobus",
    "jakob",
    "jakov"
+  ],
+  "ivana": [
+   "iva",
+   "ivana",
+   "ivanka",
+   "ivka",
+   "janja",
+   "joanna",
+   "joannam",
+   "johanna"
+  ],
+  "josipa": [
+   "giuseppina",
+   "josepha",
+   "josephine",
+   "josipa",
+   "jozefa"
+  ],
+  "paulina": [
+   "paula",
+   "paulina",
+   "pava",
+   "pavla"
+  ],
+  "jurja": [
+   "durda",
+   "georgia",
+   "gjurdja",
+   "jurja"
+  ],
+  "jakovina": [
+   "jacoba",
+   "jakobina",
+   "jakovina"
   ]
  },
  "sex": {
@@ -286,7 +327,12 @@
   "andrija": "m",
   "martin": "m",
   "grgur": "m",
-  "jakov": "m"
+  "jakov": "m",
+  "ivana": "f",
+  "josipa": "f",
+  "paulina": "f",
+  "jurja": "f",
+  "jakovina": "f"
  },
  "observed": {
   "marija": {
@@ -294,6 +340,7 @@
    "Marija": 48,
    "Mariam": 4,
    "Marica": 1,
+   "Marria": 1,
    "Mara": 1
   },
   "ivan": {
@@ -311,6 +358,14 @@
    "Josephi": 3,
    "Josephum": 2,
    "josip": 1
+  },
+  "ana": {
+   "Anna": 19,
+   "Ana": 17,
+   "Ane": 8,
+   "Anica": 2,
+   "Anka": 1,
+   "Agna": 1
   },
   "ante": {
    "Antonius": 29,
@@ -335,12 +390,6 @@
    "Franciscum": 2,
    "franjo": 1
   },
-  "ana": {
-   "Anna": 19,
-   "Ana": 17,
-   "Anica": 2,
-   "Anka": 1
-  },
   "matija": {
    "Mate": 14,
    "Matthæus": 5,
@@ -349,7 +398,9 @@
    "Matthaeus": 4,
    "Matija": 3,
    "Mathiam": 2,
+   "Mathæus": 1,
    "Matthaus": 1,
+   "Mathaeus": 1,
    "Matthias": 1
   },
   "mihovil": {
@@ -366,18 +417,19 @@
    "Tomislav": 1,
    "Tome": 1
   },
+  "nikola": {
+   "Nikola": 14,
+   "Nicolaus": 12,
+   "Nikula": 1,
+   "Nicolai": 1,
+   "Nikolas": 1
+  },
   "juraj": {
    "Georgius": 11,
    "Jure": 10,
    "Juraj": 4,
    "Georgium": 2,
    "Georgii": 1
-  },
-  "nikola": {
-   "Nikola": 14,
-   "Nicolaus": 12,
-   "Nikula": 1,
-   "Nicolai": 1
   },
   "lucija": {
    "Lucia": 17,
@@ -390,21 +442,31 @@
    "Francika": 3,
    "Franka": 1
   },
-  "stjepan": {
-   "Stephanus": 15,
-   "Stjepan": 5
+  "ivana": {
+   "Ivka": 9,
+   "Joanna": 8,
+   "Ivana": 4,
+   "Joannam": 2,
+   "Johanna": 1
   },
   "pavao": {
    "Paulus": 7,
    "Pavao": 4,
    "Pave": 3,
    "Pauli": 3,
+   "Paval": 2,
    "pavao": 1,
    "Paulum": 1
   },
   "magdalena": {
    "Magdalena": 16,
-   "Mande": 3
+   "Mande": 3,
+   "Mandalena": 2
+  },
+  "stjepan": {
+   "Stephanus": 15,
+   "Stjepan": 5,
+   "Stipan": 1
   },
   "petar": {
    "Petrus": 10,
@@ -473,6 +535,11 @@
    "Blaž": 2,
    "Blaz": 1
   },
+  "paulina": {
+   "Paulina": 1,
+   "pava": 1,
+   "Paula": 1
+  },
   "bozica": {
    "Bozica": 2,
    "bozica": 1
@@ -488,10 +555,6 @@
   "zdenka": {
    "Zdenka": 1,
    "zdenka": 1
-  },
-  "mathaeus": {
-   "Mathæus": 1,
-   "Mathaeus": 1
   }
  }
 }

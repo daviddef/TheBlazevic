@@ -1,0 +1,394 @@
+# Every form of every given name in this archive, and which language wrote it.
+#
+# WHY THIS FILE EXISTS. A question, asked plainly on 17 September 2026: «are you
+# searching all the variations of a name?» For surnames the answer was yes and
+# had been proved — ZUBRINICH returns 191 records and ZUBRINIC a different 119.
+# For GIVEN names the answer was no. The FindMyPast target list handed the
+# searcher whatever form the tree held, which in these parishes is usually the
+# Latin of the baptismal entry, and tested against the index:
+#
+#     firstname=josip      returns records
+#     firstname=joseph     returns records
+#     firstname=josephus   0
+#     firstname=giuseppe   0
+#
+# THE ARCHIVE HAD THE ANSWER ALREADY. tools/given_names.py has folded 197 forms
+# into 29 groups since the first week, and nothing ever searched with them. What
+# was missing was not the grouping but the LANGUAGE — because the question a
+# searcher asks is not «what else was he called», it is «what would the clerk in
+# THIS index have written», and that depends on who the clerk was working for.
+#
+# THE COLUMNS
+#   canon     the group key, as tools/given_names.py folds it
+#   form      the spelling
+#   lang      latin · croatian · italian · german · hungarian · english · venetian
+#   note      only where the form needs one
+#
+# WHAT THIS FILE DOES *NOT* DECIDE. Whether a form is ATTESTED — actually met in
+# a record gathered here — is not a judgement and is not written down here. A
+# script reads it out of the records and the build refuses if the marking
+# drifts. That is the lesson of the sibling archive, whose own name page claimed
+# every form came «from the forms that actually appear in these registers» when
+# thirty-one per cent of them did not.
+#
+# LATIN IS ONE LANGUAGE WITH SIX ENDINGS. «Michaelem» is not another form of the
+# name, it is Michael in the accusative because the priest wrote «baptizavi
+# Michaelem». sources/../tools/latin_cases.py already knows this for 42 people;
+# the case is carried here too, so the page can say so rather than listing the
+# accusative as if it were a name anyone was called.
+#
+# HUNGARIAN IS IN THIS FILE AND ALMOST NOWHERE IN THE RECORDS. It is here on
+# purpose. Senj was Zengg to the Hungarian press, Fiume was a corpus separatum
+# of the Crown of St Stephen, and this archive already holds a KATALYN Zubrinich
+# — Hungarian Katalin — without ever having searched a Hungarian index. Those
+# rows are aids, and the page will mark them as aids.
+#
+# canon|form|lang|note
+ana|ana|croatian|
+ana|anica|croatian|diminutive
+ana|anka|croatian|diminutive
+ana|ankica|croatian|double diminutive
+ana|anna|latin|
+ana|annam|latin|accusative
+ana|hana|croatian|
+ana|anne|english|
+ana|annie|english|
+ana|Ilona|hungarian|
+andrija|andre|croatian|
+andrija|andrea|italian|a man's name in Italian
+andrija|andream|latin|accusative
+andrija|andreas|latin|
+andrija|andrija|croatian|
+andrija|andrew|english|
+andrija|András|hungarian|
+ante|ante|croatian|
+ante|anton|croatian|
+ante|antonio|italian|
+ante|antonium|latin|accusative
+ante|antonius|latin|
+ante|antun|croatian|
+ante|tone|croatian|short form
+ante|toni|croatian|short form
+ante|anthony|english|
+ante|anton|german|
+ante|Antal|hungarian|
+antonija|antica|croatian|diminutive
+antonija|antonia|latin|
+antonija|antoniam|latin|accusative
+antonija|antonija|croatian|
+antonija|toncika|croatian|diminutive
+antonija|tonica|croatian|diminutive
+antonija|tonka|croatian|diminutive
+antonija|antonia|italian|
+antonija|Antónia|hungarian|
+elizabeta|ela|croatian|short form
+elizabeta|elizabeta|croatian|
+elizabeta|helena|latin|
+elizabeta|helenam|latin|accusative
+elizabeta|jela|croatian|short form
+elizabeta|jelena|croatian|
+elizabeta|elisabetha|latin|
+elizabeta|elizabeth|english|
+elizabeta|Erzsébet|hungarian|
+franciska|fanika|croatian|diminutive
+franciska|francika|croatian|
+franciska|francisca|latin|
+franciska|franciscam|latin|accusative
+franciska|franciska|croatian|
+franciska|franka|croatian|
+franciska|frances|english|
+franciska|Franciska|hungarian|
+franjo|fran|croatian|short form
+franjo|francesco|italian|
+franjo|franciscum|latin|accusative
+franjo|franciscus|latin|
+franjo|frane|croatian|
+franjo|franjo|croatian|
+franjo|frank|english|the form of arrival
+franjo|franz|german|
+franjo|Ferenc|hungarian|
+grgur|gregorium|latin|accusative
+grgur|gregorius|latin|
+grgur|grga|croatian|short form
+grgur|grgica|croatian|diminutive
+grgur|grgur|croatian|
+grgur|gregory|english|
+grgur|Gergely|hungarian|
+ilija|eliam|latin|accusative
+ilija|elias|latin|
+ilija|ilia|croatian|
+ilija|ilija|croatian|
+ilija|elijah|english|
+ilija|Illés|hungarian|
+ivan|giovanni|italian|
+ivan|ioannes|latin|
+ivan|ivan|croatian|
+ivan|ive|croatian|short form
+ivan|ivica|croatian|diminutive
+ivan|ivo|croatian|short form
+ivan|joann|latin|abbreviated
+ivan|joannem|latin|accusative
+ivan|joannes|latin|
+ivan|joannis|latin|genitive
+ivan|john|english|
+ivan|jovan|croatian|
+ivan|juan|english|as written in an Australian index
+ivan|zuane|venetian|
+ivan|johann|german|
+ivan|János|hungarian|
+jakov|jaco|croatian|short form
+jakov|jacob|latin|
+jakov|jacobum|latin|accusative
+jakov|jacobus|latin|
+jakov|jakob|croatian|
+jakov|jakov|croatian|
+jakov|giacomo|italian|
+jakov|james|english|
+jakov|Jakab|hungarian|
+josip|giuseppe|italian|
+josip|joseph|english|
+josip|josephi|latin|genitive
+josip|josephum|latin|accusative
+josip|josephus|latin|
+josip|josip|croatian|
+josip|joso|croatian|short form
+josip|jospi|croatian|a slip for Josip
+josip|jozo|croatian|short form
+josip|pepe|croatian|short form
+josip|joe|english|the form of arrival
+josip|josef|german|
+josip|József|hungarian|
+juraj|djuro|croatian|
+juraj|george|english|
+juraj|georgii|latin|genitive
+juraj|georgio|latin|dative or ablative
+juraj|georgium|latin|accusative
+juraj|georgius|latin|
+juraj|gjuka|croatian|diminutive
+juraj|gjuro|croatian|
+juraj|juraj|croatian|
+juraj|jure|croatian|short form
+juraj|jurko|croatian|diminutive
+juraj|giorgio|italian|
+juraj|georg|german|
+juraj|György|hungarian|
+katarina|catarina|latin|
+katarina|catharina|latin|
+katarina|catharinam|latin|accusative
+katarina|catta|croatian|short form
+katarina|kata|croatian|short form
+katarina|katarina|croatian|
+katarina|kate|english|
+katarina|katharina|german|
+katarina|katica|croatian|diminutive
+katarina|caterina|italian|
+katarina|Katalin|hungarian|and this archive holds a KATALYN Zubrinich
+lucija|luca|latin|
+lucija|luce|croatian|short form
+lucija|lucia|latin|
+lucija|luciam|latin|accusative
+lucija|lucija|croatian|
+lucija|lucy|english|
+lucija|luca|italian|
+luka|lucam|latin|accusative
+luka|lucas|latin|
+luka|luce|croatian|short form
+luka|luka|croatian|
+luka|luke|english|
+luka|luca|italian|
+luka|Lukács|hungarian|
+magdalena|magda|croatian|short form
+magdalena|magdalena|latin|
+magdalena|manda|croatian|short form
+magdalena|mande|croatian|short form
+magdalena|maddalena|italian|
+magdalena|Magdolna|hungarian|
+margarita|margareta|croatian|
+margarita|margaretha|latin|
+margarita|margarethe|german|
+margarita|margarita|latin|
+margarita|marta|croatian|a DIFFERENT name that this archive's fold treats as one
+margarita|martha|latin|a DIFFERENT name that this archive's fold treats as one
+margarita|margaret|english|
+margarita|Margit|hungarian|
+marija|mara|croatian|short form
+marija|mare|croatian|short form
+marija|maria|latin|
+marija|mariam|latin|accusative
+marija|marica|croatian|diminutive
+marija|marija|croatian|
+marija|mary|english|
+marija|mica|croatian|diminutive
+marija|maria|italian|
+marija|Mária|hungarian|
+martin|martin|croatian|
+martin|martinum|latin|accusative
+martin|martinus|latin|
+martin|martino|italian|
+martin|Márton|hungarian|
+matija|mate|croatian|short form
+matija|matej|croatian|
+matija|mathiam|latin|accusative
+matija|mathias|latin|
+matija|matia|latin|
+matija|matija|croatian|
+matija|mato|croatian|short form
+matija|matthaeus|latin|
+matija|Matthäus|german|
+matija|matthea|latin|
+matija|mattheam|latin|accusative
+matija|matthias|latin|
+matija|matthew|english|
+matija|matteo|italian|
+matija|Mátyás|hungarian|
+mihovil|michael|latin|
+mihovil|michaelem|latin|accusative
+mihovil|michaelis|latin|genitive
+mihovil|miho|croatian|short form
+mihovil|mihovil|croatian|
+mihovil|mijo|croatian|short form
+mihovil|mihael|croatian|
+mihovil|michael|english|
+mihovil|michele|italian|
+mihovil|michiel|venetian|
+mihovil|michael|german|
+mihovil|Mihály|hungarian|
+nikola|miko|croatian|short form
+nikola|nicolai|latin|genitive
+nikola|nicolaum|latin|accusative
+nikola|nicolaus|latin|
+nikola|niko|croatian|short form
+nikola|nikola|croatian|
+nikola|nikula|croatian|
+nikola|nicholas|english|
+nikola|Nicolò|italian|
+nikola|Miklós|hungarian|
+pavao|paul|english|
+pavao|pauli|latin|genitive
+pavao|paulum|latin|accusative
+pavao|paulus|latin|
+pavao|pavao|croatian|
+pavao|pave|croatian|short form
+pavao|pavle|croatian|
+pavao|paolo|italian|
+pavao|Pál|hungarian|
+petar|pere|croatian|short form
+petar|pero|croatian|short form
+petar|petar|croatian|
+petar|peter|english|
+petar|petrum|latin|accusative
+petar|petrus|latin|
+petar|pietro|italian|
+petar|peter|german|
+petar|Péter|hungarian|
+stjepan|stephanum|latin|accusative
+stjepan|stephanus|latin|
+stjepan|steve|english|
+stjepan|stevo|croatian|short form
+stjepan|stipe|croatian|short form
+stjepan|stjepan|croatian|
+stjepan|stephen|english|
+stjepan|stefano|italian|
+stjepan|István|hungarian|
+terezija|teresa|italian|
+terezija|tereza|croatian|
+terezija|terezia|latin|
+terezija|terezija|croatian|
+terezija|theresia|latin|
+terezija|theresa|english|
+terezija|therese|german|
+terezija|Terézia|hungarian|
+toma|thomam|latin|accusative
+toma|thomas|latin|
+toma|toma|croatian|
+toma|tome|croatian|short form
+toma|tomislav|croatian|a DIFFERENT name, folded here by the tool
+toma|tomo|croatian|short form
+toma|thomas|english|
+toma|tommaso|italian|
+toma|Tamás|hungarian|
+vinko|vicentius|latin|as the clerk spelt it
+vinko|vicko|croatian|short form
+vinko|vincenc|croatian|
+vinko|vincent|english|
+vinko|vincentium|latin|accusative
+vinko|vincentius|latin|
+vinko|vinko|croatian|
+vinko|vincenzo|italian|
+blaz|Blaž|croatian|
+blaz|Blaz|croatian|without the diacritic, as an index will hold it
+blaz|blasius|latin|
+blaz|blaise|english|
+blaz|biagio|italian|
+blaz|Balázs|hungarian|
+bozica|Božica|croatian|
+bozica|Bozica|croatian|without the diacritic, as an index will hold it
+olga|olga|croatian|
+olga|olga|german|the same in every language that has it
+simun|Šimun|croatian|
+simun|Simun|croatian|without the diacritic, as an index will hold it
+simun|simeon|latin|
+simun|simon|latin|
+simun|simon|english|
+simun|simone|italian|
+simun|Simon|german|
+simun|Simon|hungarian|
+zdenka|Zdenka|croatian|
+zdenka|zdenka|english|as an Australian or American index would hold it
+matija|mathaeus|latin|one t — the spelling that was outside the fold until 17 Sept 2026
+matija|Mathæus|latin|the same, with the ligature the priest wrote
+matija|Matthæus|latin|the commonest ligature spelling here
+#
+# 17 SEPTEMBER 2026 — THE FEMININE FORMS. Every group above this line that has a
+# Latin feminine had nowhere to put her: eight Joannas, two Josephas, two
+# Georgias and a Jacoba fell out of the fold entirely, and so out of every
+# variant list built from it. That is the worst possible place for a hole. The
+# women of this tree are already its weakest part — seven direct ancestors carry
+# no surname at all — and the one tool that would have helped a searcher find
+# them was built from the men.
+ivana|Ivana|croatian|
+ivana|Ivanka|croatian|diminutive
+ivana|Ivka|croatian|diminutive
+ivana|Iva|croatian|short form
+ivana|Janja|croatian|
+ivana|joanna|latin|
+ivana|joannam|latin|accusative
+ivana|johanna|latin|
+ivana|jane|english|
+ivana|joan|english|
+ivana|giovanna|italian|
+ivana|Johanna|german|
+ivana|Johanna|hungarian|
+josipa|Josipa|croatian|
+josipa|Jozefa|croatian|
+josipa|josepha|latin|
+josipa|josephine|english|
+josipa|giuseppina|italian|
+josipa|Josefa|german|
+josipa|Jozefa|hungarian|
+paulina|Paulina|croatian|
+paulina|Pavla|croatian|
+paulina|Pava|croatian|short form — and one of them is the Boras entered twice
+paulina|Paula|croatian|
+paulina|paulina|latin|
+paulina|pauline|english|
+paulina|paolina|italian|
+paulina|Paulina|hungarian|
+jurja|Jurja|croatian|
+jurja|Gjurdja|croatian|
+jurja|georgia|latin|
+jurja|georgina|english|
+jurja|giorgia|italian|
+jakovina|Jakovina|croatian|
+jakovina|Jakobina|croatian|
+jakovina|jacoba|latin|
+jakovina|jacobina|english|
+ana|Ane|croatian|
+ana|Agna|latin|as one clerk wrote it
+magdalena|Mandalena|croatian|
+marija|Marria|latin|as one clerk wrote it
+franjo|Franc|croatian|
+nikola|Nikolas|croatian|
+pavao|Paval|croatian|
+stjepan|Stipan|croatian|
+lucija|Luce?|latin|the scan is not readable at this point

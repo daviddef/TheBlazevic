@@ -1,3 +1,11 @@
+# SUPERSEDED 17 September 2026 by targets.psv, which tools/fmptargets.py
+# generates. This file said of itself that it was «generated from the archive
+# rather than typed, so it cannot drift from the tree» — and nothing generated
+# it. It was made once by hand and committed, which is exactly the drift it
+# claimed to be immune to. It is kept because it is what was actually worked
+# from on 16 September, and because its given-name column is the defect:
+# ten of the rows below name a person in the LATIN ACCUSATIVE.
+#
 # FindMyPast targets — everyone this archive cannot account for.
 #
 # WHY THIS FILE EXISTS. The trial of 13-14 September 2026 ended with a list of
