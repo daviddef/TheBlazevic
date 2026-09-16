@@ -51,6 +51,7 @@ ORDER = [
     "coverage.py",
     "walls.py",
     "graves.py",
+    "emigrants.py",
     "searched.py",
     "whoindex.py",
 ]

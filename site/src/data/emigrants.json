@@ -1,0 +1,233 @@
+{
+ "what": "Everyone born at Senj, Otočac or Brinje in the United States naturalization petitions. Found by searching the BIRTHPLACE, which is indexed in that collection and in no other here; every row confirmed by opening the transcript.",
+ "n": 14,
+ "readable": 5,
+ "towns": [
+  {
+   "town": "Otočac",
+   "n": 7,
+   "readable": 0,
+   "births": "1834-1858"
+  },
+  {
+   "town": "Senj",
+   "n": 6,
+   "readable": 5,
+   "births": "1734-1894"
+  },
+  {
+   "town": "Brinje",
+   "n": 1,
+   "readable": 0,
+   "births": "1888-1900"
+  }
+ ],
+ "where": [
+  [
+   "Brooklyn",
+   3
+  ],
+  [
+   "New York City",
+   3
+  ],
+  [
+   "The Bronx",
+   2
+  ],
+  [
+   "Astoria",
+   1
+  ],
+  [
+   "Boston",
+   1
+  ],
+  [
+   "Jackson Heights",
+   1
+  ],
+  [
+   "Long Island City",
+   1
+  ],
+  [
+   "Nassau County",
+   1
+  ],
+  [
+   "Tarrytown",
+   1
+  ]
+ ],
+ "rows": [
+  {
+   "town": "Brinje",
+   "name": "Vid Peter Karakas",
+   "born": "26 Sep 1920",
+   "byear": 1920,
+   "place": "Brinje Plasca, Yugoslavia",
+   "family": "wife Helen b.1930; Kenneth 1952, Mark 1953",
+   "filed": "Nassau County, NY 1953",
+   "parish": "Brinje",
+   "births": "1888-1900",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Ivan Žubrinić (Zubrinick, Zubrinic)",
+   "born": "30 Jun 1888",
+   "byear": 1888,
+   "place": "Ostocac, Yugoslavia",
+   "family": "wife Kate; George, Joseph, John",
+   "filed": "Brooklyn 1936, 1939",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Nick Gravic",
+   "born": "3 Jan 1893",
+   "byear": 1893,
+   "place": "Otocac Lika, Jugoslavia",
+   "family": "—",
+   "filed": "Long Island City, Queens 1937",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Kate Žubrinić (or Rozić)",
+   "born": "27 Oct 1895",
+   "byear": 1895,
+   "place": "Otocac, Yugoslavia",
+   "family": "husband Ivan; George, Joseph, John",
+   "filed": "Brooklyn 1941",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Joseph Tom Evanich",
+   "born": "26 Nov 1895",
+   "byear": 1895,
+   "place": "Otocac, Hungary",
+   "family": "—",
+   "filed": "New York City 1927",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Luka Orsanich (Orešković)",
+   "born": "15 Oct 1897",
+   "byear": 1897,
+   "place": "Otocac, Austria",
+   "family": "wife Anna b.1908",
+   "filed": "The Bronx 1931",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Helen / Jelka / Jelena Piscevic or Zagar",
+   "born": "8 May 1902",
+   "byear": 1902,
+   "place": "Otocac, Austria",
+   "family": "husband August b.27 Dec 1893",
+   "filed": "The Bronx 1941",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Otočac",
+   "name": "Karlo Mirth",
+   "born": "15 Jul 1917",
+   "byear": 1917,
+   "place": "Otocac, Yugoslavia",
+   "family": "wife Maria b.1925; Karlo",
+   "filed": "Jackson Heights, Queens 1957",
+   "parish": "Otocac",
+   "births": "1834-1858",
+   "readable": false
+  },
+  {
+   "town": "Senj",
+   "name": "Mike Mukulino",
+   "born": "24 Feb 1858",
+   "byear": 1858,
+   "place": "Senj, Hungary",
+   "family": "wife Mary",
+   "filed": "Boston, Massachusetts 1920",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": true
+  },
+  {
+   "town": "Senj",
+   "name": "Adam Rukavina",
+   "born": "11 Sep 1886",
+   "byear": 1886,
+   "place": "Senj, Austria",
+   "family": "wife Draga",
+   "filed": "New York City 1928",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": true
+  },
+  {
+   "town": "Senj",
+   "name": "Albin Grzin",
+   "born": "1 Mar 1888",
+   "byear": 1888,
+   "place": "Senj, Hrvatska, Austria",
+   "family": "wife Mary",
+   "filed": "New York City 1924, 1931",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": true
+  },
+  {
+   "town": "Senj",
+   "name": "Marijan Vukelić",
+   "born": "27 Jan 1894",
+   "byear": 1894,
+   "place": "Klada-senj, Jugoslavia",
+   "family": "wife Rosie b.1896; Walter 1922, Catherine 1925, John 1927",
+   "filed": "Brooklyn 1935, 1941, 1945, 1948 x2",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": true
+  },
+  {
+   "town": "Senj",
+   "name": "George Hammerschmidt",
+   "born": "10 Apr 1894",
+   "byear": 1894,
+   "place": "Senj, Yugoslavia",
+   "family": "wife Katica",
+   "filed": "Tarrytown, NY 1928, 1935",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": true
+  },
+  {
+   "town": "Senj",
+   "name": "Miro Šojat (Sojath)",
+   "born": "5 Nov 1910",
+   "byear": 1910,
+   "place": "Senj, Jugoslavia",
+   "family": "wife Helen b.1915; George b.1938",
+   "filed": "Astoria, Queens 1955",
+   "parish": "Senj",
+   "births": "1734-1894",
+   "readable": false
+  }
+ ]
+}

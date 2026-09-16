@@ -2,9 +2,10 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import G from "../data/graves.json";
+import E from "../data/emigrants.json";
 ---
 <Base title="The Other Emigration"
-  eyebrow="Two American diasporas this archive did not know it had"
+  eyebrow="Three American diasporas this archive did not know it had"
   dek="There is a page here about Port Pirie because the family knew about Port Pirie. Nobody knew about Youngstown, Johnstown, Brooklyn, Leadville, Calumet or Chicago — and the records are not scarce. They were simply never looked for.">
 
   <section class="blk">
@@ -147,5 +148,84 @@ import G from "../data/graves.json";
     <p style="margin-top:1.2rem"><a class="btn" href={u("/port-pirie/")}>Port Pirie →</a>
       {" "}<a class="btn" href={u("/zubrinic-roots/")}>The Žubrinić fragments →</a>
       {" "}<a class="btn" href={u("/work/")}>What they did →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Added 16 September 2026 · the naturalisation petitions</div>
+    <h2>And a third American stream, which went to a city</h2>
+    <p class="lede">A passenger manifest gives a <strong>residence</strong> and one relative. A
+    <strong>petition for naturalization</strong> gives an exact <strong>birth date</strong>, an exact
+    <strong>birth place</strong>, the spouse's birth date and every child's — a household in one row,
+    sworn before a court. And in that collection alone <strong>the birth place is indexed</strong>,
+    so for the first time this archive could search by <em>where somebody came from</em> instead of
+    by what they were called.</p>
+    <p><strong>{E.n} people born at Senj, Otočac or Brinje.</strong> Every row below was confirmed by
+    opening the transcript — the search itself is fuzzy enough to return Greek names for a Croatian
+    village.</p>
+    <table class="kv">
+      {E.where.map(([city, n]) => (<tr><th>{city}</th><td>{n}</td></tr>))}
+    </table>
+    <p style="margin-top:1.2rem"><strong>Thirteen of the fourteen are metropolitan New York.</strong>
+    Only <strong>Mike Mukulino</strong>, the oldest of them — born <strong>1858</strong> — went
+    anywhere else, and he went to Boston.</p>
+    <div class="note"><strong>This one breaks the pattern the rest of the page just established.</strong>
+    Lead at Port Pirie, steel at Whyalla, silver at Broken Hill, gold at Timmins, coal at Johnstown —
+    and then Brooklyn, the Bronx, Astoria, Jackson Heights. <strong>Senj and Otočac did not go to a
+    mine. They went to a city</strong>, and none of the three streams touches another.</div>
+  </section>
+
+  <section class="blk">
+    <h2>The fourteen, and which of them a register could confirm</h2>
+    <p class="lede">Every one carries a birth date <strong>to the day</strong>, which is the single
+    thing that can be carried back to a parish book and tested. This archive knows which years of
+    which parish are on film, so it can say per person whether the baptism is readable — and
+    <strong>the answer is {E.readable} of {E.n}</strong>.</p>
+    <table class="reg">
+      <thead><tr><th style="width:11%">Town</th><th style="width:24%">Who</th>
+        <th style="width:14%">Born</th><th>As the clerk wrote it</th>
+        <th style="width:13%">Baptism</th></tr></thead>
+      <tbody>{E.rows.map((r) => (
+        <tr>
+          <td class="dek">{r.town}</td>
+          <td><strong>{r.name}</strong>
+            {r.family && <span class="dek" style="display:block">{r.family}</span>}</td>
+          <td class="mono">{r.born}</td>
+          <td class="mono dim">{r.place}<span class="dek" style="display:block">{r.filed}</span></td>
+          <td class="dek">{r.readable
+            ? <strong>in the film</strong>
+            : <span>out of range</span>}<span class="mono dim" style="display:block">{r.births}</span></td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem"><strong>Otočac births are filmed 1834–1858 and every one of these
+    seven was born after 1888, so not one of them is reachable.</strong> Senj runs to 1894, which
+    puts five inside it to the day.</p>
+    <div class="note"><strong>Open Marijan Vukelić first.</strong> Born <strong>27 January
+    1894</strong> — inside the Senj film by ten months — and the surname is the one
+    <a href={u("/milka/")}>Milka Papić married into</a>. His birthplace is given as
+    <span class="mono">«Klada-senj»</span>, and <strong>Klada is in no parish table, no gazetteer and
+    no person's record in this archive</strong>. It is a village this family reached and this site
+    has never named.</div>
+  </section>
+
+  <section class="blk">
+    <h2>«Birth country» is not evidence, and the same town proves it</h2>
+    <p class="lede">Senj, written by American clerks across thirty-seven years, in the applicants'
+    own words:</p>
+    <table class="kv">
+      <tr><th class="mono">Senj, Hungary</th><td>Mukulino, born 1858 — filed <strong>1920</strong></td></tr>
+      <tr><th class="mono">Senj, Hrvatska, Austria</th><td>Grzin, born 1888 — filed <strong>1924</strong></td></tr>
+      <tr><th class="mono">Senj, Austria</th><td>Rukavina, born 1886 — filed <strong>1928</strong></td></tr>
+      <tr><th class="mono">Senj, Yugoslavia</th><td>Hammerschmidt, born 1894 — filed <strong>1928</strong></td></tr>
+      <tr><th class="mono">Senj, Jugoslavia</th><td>Šojat, born 1910 — filed <strong>1955</strong></td></tr>
+    </table>
+    <p style="margin-top:1.2rem"><strong>Rukavina and Hammerschmidt filed in the same year, about the
+    same town, and named two different countries.</strong> It is not the empire at the date of birth
+    and not the empire at the date of filing. <strong>It is what the man in front of the clerk said
+    his country was</strong> — and in 1928 two men from Senj did not say the same thing. One of them
+    volunteers the province: <em>Hrvatska</em>.</p>
+    <p class="note" style="margin-top:1rem">So the <strong>transcribed birth place</strong> is the
+    evidence on these records and the <strong>birth country is noise</strong>. The same holds at
+    Otočac — <em>Hungary</em> in 1927, <em>Austria</em> in 1931 and 1941, <em>Jugoslavia</em> in 1937,
+    <em>Yugoslavia</em> in 1957. <strong>Five countries, one town, one lifetime.</strong></p>
   </section>
 </Base>
