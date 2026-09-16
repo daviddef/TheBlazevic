@@ -133,3 +133,46 @@ without a place to test it against. **The 386-name target list is the place.**
 * **A second departure from FIUME.** Joka in 1911 on the *Carpathia*, after Eva
   Žubrinić in 1907 on the *Ultonia*. **Fiume is a route this material keeps
   showing**, and it is three hours from Senj rather than a crossing of Europe.
+
+---
+
+# You cannot search these people by their village, and that is why the name list exists
+
+*Tested to destruction, 16 September 2026.*
+
+The Perpić result above says a Croatian surname on a manifest index is a
+**region, not a family** — so the obvious next move is to stop searching surnames
+and **search the village instead**. FindMyPast's results URL takes a
+`keywords=` parameter, and the search form calls it *«Optional keywords»*.
+
+**It looked like it worked.** `keywords=smokvica` in the passenger set returns
+**13 records**. Then the surnames turned out to be **Banićević, Gabrijel, Pešelj,
+Radovanović, Šalečić, Šeparović, Teodorović, Tomašić** — and the first transcript
+opened reads **«Residence: Smokvica, Dalmatia»**. That is the **Smokvica on
+Korčula**, four hundred kilometres away from Smokvica Krmpotska. **A village name
+is no more unique than a surname.**
+
+**And then every one of the archive's own villages returned nothing:**
+
+    krmpot  0     krivi put  0     sumecica  0     klenovica  0
+    jablanac  0   sinac  0         prozor  0
+
+**Including the spellings the records themselves use.** `prozov` **0**,
+`otochetz` **0**, `sumenica` **0** — the exact strings sitting in transcripts
+this archive has already read.
+
+**The decisive test.** Eva Žubrinić's 1907 record gives **«Residence: Prozor»**
+and **«Ship name: Ultonia»**. Search `lastname=zubrinic&keywords=prozor` → **0**.
+Search `lastname=zubrinic&keywords=ultonia` → **0**. **Her own record is not
+returned by her own village or her own ship.**
+
+**So the residence is on the transcript and not in the index.** It can be read
+once you have found somebody; it cannot be used to find them. The 13 Smokvica
+hits matched some other collection's indexed field, not the one that matters
+here.
+
+**Which settles how the rest of this subscription should be spent.** There is no
+way in by place, and a common surname returns a region. **The only handle is a
+name with a year beside it** — and that is precisely what
+`targets-2026-09-16.psv` is: 386 of them, generated from the tree. The list was
+built as a convenience. It turns out to be the only instrument there is.
