@@ -62,6 +62,7 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
       <Register u={u} rows={[...groups.entries()].flatMap(([g, list]) => list.map((r) => ({
     name: r.name,
     surname: pretty(g),
+    kind: KIND[r.kind] || r.kind,
     href: r.slug ? "/people/" + r.slug + "/" : "",
     chip: (r.kind === "swept" && !r.slug) ? "not in the tree" : "",
     detail: r.detail,
