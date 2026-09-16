@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Places from "@daviddef/archive-kit/components/Places.astro";
 import { u } from "../lib/url.js";
 import places from "../data/places.json";
 const key = [
@@ -37,15 +38,11 @@ import atlas from "../../public/atlas-data.json";
     there. Births and deaths of published people carrying one of the eight surnames. Spelling
     variants are collapsed where they are literally the same place; nothing distinct is merged.
     House numbers are kept, because in Frontier registers the house number <em>is</em> the
-    family.</p>
-    <table class="reg">
-      <thead><tr><th>Place</th><th>People</th></tr></thead>
-      <tbody>{places.map((p) => (
-        <tr>
-          <td><a href={u(`/people/?q=${encodeURIComponent(p.place.split(",")[0])}`)}>{p.place}</a></td>
-          <td class="mono">{p.n}</td>
-        </tr>))}</tbody>
-    </table>
+    family.<Places u={u} rows={places.map((p) => ({
+      name: p.place,
+      n: p.n,
+      href: "/people/?q=" + encodeURIComponent(p.place),
+    }))} />
   </section>
   <section class="blk">
     <div class="lab">Data quality</div>

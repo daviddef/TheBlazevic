@@ -17,7 +17,7 @@
     "check:holdings": "python3 ../tools/holdingscheck.py --quiet"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#a3263e762f466aa0518967ce578a2ab52b3d0732",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2e4bc3043fe0757206b873b60b2b6af832d97b09",
     "astro": "^5.18.2"
   }
 }
