@@ -513,7 +513,7 @@
   {
    "n": 58,
    "what": "Turn /open-questions/ into rows",
-   "state": "open",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**166 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
@@ -521,7 +521,7 @@
   {
    "n": 59,
    "what": "Extract /sources/ into data",
-   "state": "open",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**129 lines inline.** Only Falco and Defranceschi hold sources as data. `kit/components/Sources.astro` needs rows, not paragraphs.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
