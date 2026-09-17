@@ -291,9 +291,11 @@ const kindCounts = Object.entries(
       <p>Counting the bearers exposed a fault in the counting. Eighteen name forms are filed under
       two or three languages — <em class="mono">Maria</em> is Latin, Italian and Hungarian — and the
       tally added a person once per language. <strong>The one person written Maria and recorded M
-      was three men</strong>, Mihovil had 87 bearers where it has 39, and
-      <a href={u("/your-name/")}>the name page</a> was telling readers so out loud. Fixed at the
-      source; the twenty-two findings did not change, which is the only reassuring thing about it.</p>
+      was three men</strong>, and Mihovil had 87 bearers where it has 39. Those numbers were
+      printed on <a href={u("/your-name/")}>the name page</a> until it moved to a shared component;
+      they now feed this check instead, which is a worse place for a count to be wrong. Fixed at
+      the source, and the twenty-two findings did not change — which is the only reassuring thing
+      about it.</p>
       <p>And the check is deliberately deaf in one ear. The tallies count <em>published</em> people,
       so someone without a page contributes nothing to set aside and is judged by the whole group,
       wrong records included. <strong>Ivana Juhas, recorded M, is that person, and this check does
