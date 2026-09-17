@@ -2,6 +2,16 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import N from "../data/names.json";
+import SayYourName from "@daviddef/archive-kit/components/SayYourName.astro";
+/* THE BOX IS THE KIT'S NOW, AND THE DATA SHAPE IS THIS ARCHIVE'S.
+   Defranceschi built the same object independently - a box, chips, a
+   shareable ?n=, a card per language - in about the same number of lines. The
+   two disagreed about the menu and about the data and agreed about everything
+   that mattered. The interactive half is shared; the argument around it, the
+   hole the table was built over and the six Latin endings, stays here, because
+   that part is not shared and should not be. The estate took THIS archive's
+   shape, because it is the only one of the two that could carry a form's
+   `seen` count, its case ending and what kind of form it is. */
 
 // Built 17 September 2026, because of a question: «are you searching all the
 // variations of a name?» For surnames yes — ZUBRINICH 191, ZUBRINIC 119,
@@ -69,16 +79,10 @@ const pct = Math.round(100 * N.attested / N.totalForms);
     twenty-one Matijas they belong to, separated by a single <em>t</em>.</p>
   </section>
 
-  <div class="namebox">
-    <input type="search" id="n" autocomplete="off" spellcheck="false"
-      placeholder="Mihovil · Josephus · Zuane · Mathæus · Katalin"
-      data-index={JSON.stringify(index)} data-rows={JSON.stringify(N.rows)}
-      data-langs={JSON.stringify(N.languages)} />
-  </div>
-  <div class="suggest" id="sug">
-    {chips.map((c) => <button type="button" data-n={c}>{c}</button>)}
-  </div>
-  <div id="out"></div>
+  <SayYourName rows={N.rows} u={u}
+    langs={N.languages.map((l) => ({ key: l.key, label: l.name, note: l.blurb }))}
+    chips={["Mihovil", "Josephus", "Zuane", "Math\u00e6us", "Jurko", "Katalin",
+            "Gregorium", "Joso", "Frank", "Mih\u00e1ly"]} />
 
   <section class="blk">
     <div class="lab">The hole this page was built over</div>
@@ -144,95 +148,4 @@ const pct = Math.round(100 * N.attested / N.totalForms);
   @media (max-width:560px) { .namebox input { font-size:1.2rem; } }
 </style>
 
-<script>
-  const box = document.getElementById("n");
-  if (box) {
-    const index = JSON.parse(box.dataset.index);
-    const rows = JSON.parse(box.dataset.rows);
-    const langs = JSON.parse(box.dataset.langs);
-    const out = document.getElementById("out");
-    const base = document.documentElement.dataset.base || "";
-    const esc = (s) => String(s == null ? "" : s)
-      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    const fold = (s) => String(s || "").toLowerCase()
-      .normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/æ/g, "ae").trim();
 
-    function find(q) {
-      const f = fold(q);
-      if (!f) return -1;
-      if (index[f] !== undefined) return index[f];
-      const keys = Object.keys(index).filter((k) => k.startsWith(f));
-      return keys.length ? index[keys[0]] : -1;
-    }
-
-    function render(q) {
-      const i = find(q);
-      if (i < 0) {
-        out.innerHTML = fold(q)
-          ? `<p class="note">Nothing here is written <strong>${esc(q)}</strong>. That is worth
-             knowing rather than worth nothing: this table holds every form the records contain,
-             so a miss means the archive has not met it — not that it does not exist.</p>`
-          : "";
-        return;
-      }
-      const r = rows[i];
-      const link = location.origin + location.pathname + "?n=" + encodeURIComponent(r.commonest || r.canon);
-      const cards = langs.map((L) => {
-        const fs = r.langs[L.key] || [];
-        const body = fs.length
-          ? fs.map((f) => `<span class="${f.seen ? "" : "aid"}">${esc(f.form)}${
-              f.seen ? "" : "<sup>°</sup>"}${
-              f.case ? ` <span class="nm-case">${esc(f.case)}</span>` : ""}</span>`).join(", ")
-          : `<span class="none">not recorded</span>`;
-        return `<div class="nm-card"><div class="lab">${esc(L.name)}</div>
-          <div class="nm-forms">${body}</div><p>${esc(L.blurb)}</p></div>`;
-      }).join("");
-      const ob = r.oblique.length
-        ? `<div class="note nm-ob"><strong>And ${r.oblique.length} ${
-             r.oblique.length === 1 ? "person is" : "people are"} recorded in an oblique case</strong>
-           — the register's grammar, not a name anybody was called: ` +
-          r.oblique.map((p) => `<strong>${esc(p.recorded)}</strong> (${esc(p.case)}) for ` +
-            (p.slug ? `<a href="${base}/people/${esc(p.slug)}/">${esc(p.name)}</a>` : esc(p.name)))
-            .join(" · ") + `.</div>`
-        : "";
-      out.innerHTML = `
-        <p class="nm-head"><button type="button" class="nm-copy" data-l="${esc(link)}">Copy link</button>
-          <span class="mono nm-url">${esc(link)}</span></p>
-        <p class="lede"><strong>${esc((r.commonest || r.canon).replace(/^./, (c) => c.toUpperCase()))}</strong>
-          — ${r.forms} forms of this one name, of which <strong>${r.attested}</strong>
-          ${r.attested === 1 ? "is" : "are"} written down in the records gathered here, across
-          <strong>${r.people}</strong> ${r.people === 1 ? "entry" : "entries"}.
-          Every form below is the same person.${
-            r.men && r.women
-              ? ` <strong>Both men and women are written this way here</strong> — ${r.men} and ${r.women} of them — so it is not a man's name or a woman's, whatever a table says.`
-              : ""}</p>
-        <div class="nm-grid">${cards}</div>${ob}`;
-      const btn = out.querySelector(".nm-copy");
-      if (btn) btn.addEventListener("click", () => {
-        navigator.clipboard?.writeText(btn.dataset.l);
-        btn.textContent = "Copied";
-        setTimeout(() => { btn.textContent = "Copy link"; }, 1400);
-      });
-    }
-
-    let t;
-    box.addEventListener("input", () => {
-      clearTimeout(t);
-      t = setTimeout(() => {
-        render(box.value);
-        const url = new URL(location.href);
-        if (box.value) url.searchParams.set("n", box.value);
-        else url.searchParams.delete("n");
-        history.replaceState(null, "", url);
-      }, 120);
-    });
-    document.querySelectorAll("#sug button").forEach((b) =>
-      b.addEventListener("click", () => {
-        box.value = b.dataset.n;
-        box.dispatchEvent(new Event("input"));
-        box.focus();
-      }));
-    const start = new URLSearchParams(location.search).get("n");
-    if (start) { box.value = start; render(start); }
-  }
-</script>
