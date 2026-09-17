@@ -17,14 +17,16 @@ const KIND = {
   "married-as-child": "Married as a child",
   "implausible-age": "Lived past a hundred and five",
   "impossible-generation-gap": "Two generations in too few years",
+  "sex-contradicts-name": "A recorded sex the name contradicts",
 };
 const CAUSE = {
   record:     ["A contradiction in the record", "The dates as written cannot both be true. This is the only kind that is really a finding about the past rather than about the tree."],
   namesake:   ["A wrong link", "Too far apart for any slop in the dates. The join is wrong, not the dates — usually a reused name, or two people merged."],
   generation: ["A generation skipped", "The parent is barely older than the child, because a grandparent has been recorded as a parent."],
+  sex:        ["A sex and a name that disagree", "The recorded sex contradicts a given name that this archive's own records show is overwhelmingly one sex. Which of the two fields is wrong is not decided here."],
   hedged:     ["Not an error at all", "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job."],
 };
-const ORDER = ["record", "namesake", "generation", "hedged"];
+const ORDER = ["record", "namesake", "generation", "sex", "hedged"];
 const causeRows = (k) => CAUSES.filter((c) => c.cause === k);
 const bySev = (n) => C.filter((i) => i.sev === n);
 const counts = [1, 2, 3].map((n) => [n, bySev(n).length]);
@@ -39,7 +41,7 @@ const kindCounts = Object.entries(
 ---
 <Base title="What Cannot Be True"
   eyebrow={`${C.length} contradictions the tree makes with itself`}
-  dek="No register was needed for any of these. They are dates in one record that cannot all be true at once — a mother who died before her children were born, a woman married eight years after her own death. Checking a tree against itself is the cheapest research there is, and it had never been done here.">
+  dek="No register was needed for any of these. They are things in one record that cannot all be true at once — a mother who died before her children were born, a woman married eight years after her own death, a man recorded as a woman under a name this archive gives to forty-seven men. Checking a tree against itself is the cheapest research there is, and it had never been done here.">
 
   <section class="blk">
     <p class="lede">This page exists because of <a href={u("/people/tereza-pecanic/")}>Tereza
@@ -49,7 +51,9 @@ const kindCounts = Object.entries(
     own page contradicted itself, and it had done so for as long as the site existed.</p>
     <p>So <span class="mono">tools/consistency.py</span> now reads every person in this archive
     against themselves and against their own family: births after deaths, marriages before births,
-    parents younger than their children. It finds <strong>{C.length}</strong>.</p>
+    parents younger than their children — and, since 17 September, a recorded sex against a given
+    name that this archive's own records show is overwhelmingly one sex. It finds
+    <strong>{C.length}</strong>.</p>
 
     <div class="grid two" style="margin-top:1.4rem">
       <div class="card">
@@ -88,11 +92,11 @@ const kindCounts = Object.entries(
         </tr>))}</tbody>
     </table>
 
-    <p style="margin-top:1.2rem">The distinction matters because only one of these four is a
-    finding about <em>the past</em>. A wrong link and a skipped generation are findings about
-    <em>this tree</em>, and a hedged date conflicting with a firm one is not a finding at all —
-    it is the hedge working as intended. Presenting them in one undifferentiated list of
-    “contradictions” overstated the first and slandered the last.</p>
+    <p style="margin-top:1.2rem">The distinction matters because only one of these five is a
+    finding about <em>the past</em>. A wrong link, a skipped generation and a sex that fights its
+    own name are findings about <em>this tree</em>, and a hedged date conflicting with a firm one
+    is not a finding at all — it is the hedge working as intended. Presenting them in one
+    undifferentiated list of “contradictions” overstated the first and slandered the last.</p>
 
     {ORDER.map((k) => (
       <div class="qa" style="margin-top:1.4rem">
@@ -143,7 +147,7 @@ const kindCounts = Object.entries(
       the year before her. <a href={u("/open-questions/")}>Question 4d</a> worked that one out the
       slow way, from three parish registers. This check finds the same shape in seconds, without
       leaving the file.</p>
-      <p class="dek">Seventeen of the {C.length} sit on people with pages here. The rest are
+      <p class="dek">Thirty-eight of the {C.length} sit on people with pages here. The rest are
       relatives who appear in someone's family list without a page of their own — still worth
       naming, because a wrong join is visible from both ends.</p>
     </div>
@@ -152,7 +156,7 @@ const kindCounts = Object.entries(
   {[1, 2, 3].map((sev) => (
     <section class="blk">
       <div class="lab">{SEV[sev]}</div>
-      <h2>{sev === 1 ? "Dates that are firm and still conflict" : sev === 2 ? "Where one date is hedged" : "Unlikely rather than impossible"}</h2>
+      <h2>{sev === 1 ? "Dates that are firm and still conflict" : sev === 2 ? "Where one date is hedged, or a name disagrees with a sex" : "Unlikely rather than impossible"}</h2>
       {sev === 3 && <p class="lede"><strong>Added 13 September 2026:</strong> a band for parents
         aged <strong>thirteen to sixteen</strong>. This was raised because
         <a href={u("/connected/")}>George Untersinger</a>, fathering at fifteen in 1802, sat just
@@ -168,7 +172,10 @@ const kindCounts = Object.entries(
       {sev === 2 && <p class="lede">A <span class="mono">BEF 1850</span> or
         <span class="mono"> ABT 1782</span> is somebody's estimate. These conflicts may dissolve
         if the estimate is simply wrong — which is itself worth knowing, because it means the
-        estimate is doing work it cannot support.</p>}
+        estimate is doing work it cannot support.<br /><br />The <strong>name</strong> rows here
+        are the other kind, and they sit at this level for the same reason: a name is strong
+        evidence of a sex and not proof of one. Nothing below says which of the two fields is
+        wrong — only that they cannot both be read as they stand.</p>}
       <table class="reg">
         <thead><tr><th>Who</th><th>What kind</th><th>The contradiction</th></tr></thead>
         <tbody>{bySev(sev).map((i) => (
@@ -211,6 +218,88 @@ const kindCounts = Object.entries(
     <p class="dek">The tool now also walks <strong>grandparent → undated child → grandchild</strong>
     and requires at least twenty-four years across two generations. In this archive it fires
     exactly once.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Added 17 September 2026</div>
+    <h2>Twenty-two people whose sex fights their own name</h2>
+    <p class="lede">Every check above is about dates. This one is not. <span class="mono">tools/names.py</span>
+    now counts, for each of the thirty-nine given-name groups, how many men and how many women in
+    <em>this archive</em> bear it — read off the records, not asserted from a table. That makes a new
+    question nearly free: <strong>is anyone recorded as a sex their own name contradicts?</strong>
+    Twenty-two people are.</p>
+
+    <p>The table would have been the wrong thing to ask. <span class="mono">given_names.py</span>
+    declares <em class="mono">matija</em> male, and <strong>eight of the forty people written Matia
+    here are women</strong> — one of them ahnentafel 13 — because Matija is unisex in Croatian and
+    the table has one column for it. A table is a claim. The counts are a record. So the rule is
+    drawn from the archive's own usage: a name borne by at least five people here, at least nine in
+    ten of them one sex, against a person recorded as the other.</p>
+
+    <div class="qa">
+      <h3>The errors were voting on whether they were errors</h3>
+      <p>The case that prompted this is <a href={u("/people/ivana-blazevic-2/")}>Ivana Blažević</a>,
+      recorded <span class="mono">M</span>. Ivana is borne here by <strong>21 women and 3 people
+      recorded M</strong>. Counted whole, that is <strong>87 per cent</strong> — under any threshold
+      worth setting, and the check says nothing. <strong>The three wrong records were holding the
+      name below the line that would have caught them.</strong></p>
+      <p>So the majority is counted <em>without the person being judged</em>. Set Ivana Blažević
+      aside and the other 23 are <strong>91 per cent</strong> women, and all three are found. The
+      same thing happens one group over: the four “women” in the Franjo tally are not other names
+      caught by the fold — <strong>they are the four records this check reports</strong>.</p>
+    </div>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>Two couples are recorded as each other</h3>
+      <p><a href={u("/people/lucija-loncaric-papic-papa/")}>Lucija Lončarić Papić</a> is recorded
+      <span class="mono">M</span> and entered as the <em>husband</em> of a wife called
+      <strong>Ivan</strong>, who is recorded <span class="mono">F</span>. All 103 people here
+      bearing a form of Ivan are men; 25 of the 27 bearing a form of Lucija are women.
+      <a href={u("/people/lucia-zubrinic-xubrinich/")}>Lucia Žubrinić</a> and <strong>Michaël
+      Kostelacz</strong> are the same shape again. In both, the sex fields follow the <em>place in
+      the family</em> and not the name — which is one swap, recorded twice, and visible only
+      because both halves were checked.</p>
+      <p class="dek">Half of each couple has <strong>no page here</strong>, being named only in the
+      other's family list. This archive has three times mistaken an unpublished person for no
+      person at all. Both halves are reported.</p>
+    </div>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>One letter, and the tree wrote it itself</h3>
+      <p><a href={u("/people/joannam-papic-papa/")}>Joannam Papić</a>, born 1845 at Selce, is
+      recorded <span class="mono">M</span>. <strong><em>Joannam</em> is the accusative of Joanna, a
+      woman.</strong> The accusative of the man's name Joannes is <em>Joannem</em>, with an e — which
+      is why the archive's given-name table files <span class="mono">joannam</span> under Ivana and
+      <span class="mono">joannem</span> under Ivan. The finding is carried entirely by a letter
+      somebody copied out of a register, and <a href={u("/name/")}>the same page</a> that explains
+      why the case ending is there is the page that settles which name it belongs to.</p>
+    </div>
+
+    <p style="margin-top:1.4rem"><strong>Nothing here says which of the two fields is wrong, and it
+    must not.</strong> <a href={u("/people/petrus-kalanj-4/")}>Petrus Kalanj</a> is a Latin
+    nominative and can only be a man, so the <span class="mono">F</span> is the error. Three women
+    entered as wives and mothers carry the forename <strong>Ante</strong>, which here belongs to
+    forty-seven men and nobody else — there the sex and the marriage agree and it is the
+    <em>name</em> that dissents. <strong>Paolo Paula Eriavaz</strong>, mother of seven children
+    between 1927 and 1946, is a woman whose given-name field holds both forms and leads with the
+    masculine one, so every index built from it files her first as a man. She is Paula. Each of the
+    twenty-two is answered on the person's own page, and <strong>the tree itself is not
+    touched</strong> — this archive reports it and does not edit it.</p>
+
+    <div class="qa" style="margin-top:1.4rem">
+      <h3>What it still misses, and the bug it found on the way</h3>
+      <p>Counting the bearers exposed a fault in the counting. Eighteen name forms are filed under
+      two or three languages — <em class="mono">Maria</em> is Latin, Italian and Hungarian — and the
+      tally added a person once per language. <strong>The one person written Maria and recorded M
+      was three men</strong>, Mihovil had 87 bearers where it has 39, and
+      <a href={u("/your-name/")}>the name page</a> was telling readers so out loud. Fixed at the
+      source; the twenty-two findings did not change, which is the only reassuring thing about it.</p>
+      <p>And the check is deliberately deaf in one ear. The tallies count <em>published</em> people,
+      so someone without a page contributes nothing to set aside and is judged by the whole group,
+      wrong records included. <strong>Ivana Juhas, recorded M, is that person, and this check does
+      not find her.</strong> It errs towards silence, which is the right direction for something
+      that stops a deploy — but the gap is written down rather than left in the gaps.</p>
+    </div>
   </section>
 
   <section class="blk">

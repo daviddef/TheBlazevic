@@ -180,8 +180,14 @@ def main():
         for v in by_lang.values():
             v.sort(key=lambda x: (not x["seen"], bool(x["case"]), fold(x["form"])))
         top = sorted(attested.get(canon, {}).items(), key=lambda kv: -kv[1])
-        men = sum(bysex.get(fold(r["form"]), {}).get("m", 0) for r in mine)
-        women = sum(bysex.get(fold(r["form"]), {}).get("f", 0) for r in mine)
+        # ONE PERSON, ONCE. Summing over the rows counts a bearer again for
+        # every language the form is filed under, and eighteen forms are filed
+        # under two or three: «Maria» is Latin, Italian and Hungarian, so the
+        # one person written Maria and recorded M was three men here, and the
+        # page said so out loud. Fold first, then count.
+        forms = {fold(r["form"]) for r in mine}
+        men = sum(bysex.get(f, {}).get("m", 0) for f in forms)
+        women = sum(bysex.get(f, {}).get("f", 0) for f in forms)
         out.append({
             "canon": canon,
             "sex": given.get("sex", {}).get(canon, ""),

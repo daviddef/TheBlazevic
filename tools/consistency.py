@@ -8,7 +8,7 @@ just dates that cannot all be true at once.
 
 Ordered by how badly the archive would be embarrassed to publish it.
 """
-import json, re, sys, os, collections
+import json, re, sys, os, collections, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gedcom import load, display, born, died, year
 from build_site_data import JUNK          # the same sorting-bucket filter
@@ -206,6 +206,102 @@ for pid in list(people):
                     f"{display(people[gid])} is born {gy}"
                     f" — {gy - ay} years for two generations")
 
+# --- a given name that is overwhelmingly one sex, against a sex that is not --
+#
+# tools/names.py counts, for every given-name group, how many men and how many
+# women in THIS archive bear it - read off people.json and ancestors.json
+# rather than asserted. Those counts are the only evidence worth using here.
+# given_names.py's SEX table calls "matija" male, and eight of the forty people
+# written Matia in these registers are women, because Matija is unisex in
+# Croatian and the table has one column for it. A table is a claim; the counts
+# are a record.
+#
+# So: a name borne by at least five people here, at least nine in ten of them
+# one sex, and a person recorded as the other sex - that person contradicts the
+# archive's own usage.
+#
+# THE MAJORITY IS COUNTED WITHOUT THE PERSON BEING JUDGED, and that is not a
+# refinement, it is the difference between the check working and not working.
+# "Ivana" is borne here by 21 women and 3 people recorded M. Counted whole that
+# is 87 per cent, under any threshold worth setting, and the check stays silent:
+# the three wrong records were holding the name below the line that would have
+# caught them. Set the person in hand aside and the other 23 are 91 per cent
+# women, and all three are found. An error does not get a vote on whether it is
+# an error.
+#
+# WHAT IT STILL MISSES, so that the gap is on the record rather than in the
+# gaps. names.py tallies published people, so a person WITHOUT A PAGE is not in
+# the tally and there is nothing of theirs to set aside - they are judged by all
+# 24 Ivanas, including the three wrong ones, which is 87 per cent and silence.
+# Ivana Juhas, recorded M, is that person, and this check does not find her.
+# The archive has made the mistake of forgetting the unpublished three times
+# already; this one is at least written down. It errs towards saying nothing,
+# which is the right direction for a check that stops a deploy.
+#
+# Nothing here says WHICH of the two fields is wrong, and it must not pretend
+# to. Franciscus Prpic is a Latin nominative and can only be a man, so the F is
+# the error. "Ivana" Blazevic, recorded M and recorded as a husband, is more
+# likely a man called Ivan whose name was copied out of a register in the
+# genitive - what latin_cases.py reports for Latin, happening in Croatian.
+# Both are worth publishing. Neither is resolved here, and the tree is not
+# touched either way.
+NAMES = json.load(open(os.path.join(DATA, "names.json"), encoding="utf-8"))
+
+
+def fold(s):
+    """names.py's comparison key: no diacritics, no case."""
+    s = unicodedata.normalize("NFKD", str(s or "").strip().lower())
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+# folded form -> the name groups claiming it, and each group's tally. Luca and
+# Luce are claimed by both luka and lucija; a form two groups disagree about
+# proves nothing about the person carrying it.
+FORM_GROUP = collections.defaultdict(set)
+BEARERS = {}
+for r in NAMES["rows"]:
+    BEARERS[r["canon"]] = (r["men"], r["women"])
+    for forms in r["langs"].values():
+        for f in forms:
+            FORM_GROUP[fold(f["form"])].add(r["canon"])
+
+COUNTED = {x["id"] for x in pub}   # exactly who names.py's tallies include
+
+
+def against_the_name(canon, sex, counted):
+    """(majority, men, women) among this group's OTHER bearers, if they object."""
+    men, women = BEARERS[canon]
+    if counted:                     # the record does not get to judge itself
+        men, women = (men - 1, women) if sex == "M" else (men, women - 1)
+    total = men + women
+    if total < 5:
+        return None
+    if sex == "M" and women >= 0.9 * total:
+        return ("F", men, women)
+    if sex == "F" and men >= 0.9 * total:
+        return ("M", men, women)
+    return None
+
+
+for pid, p in people.items():
+    if not relevant(pid):
+        continue
+    sex = (p.get("sex") or "").upper()[:1]
+    first = re.split(r"[\s(]", (p.get("given") or "").strip())[0].strip('"')
+    if sex not in ("M", "F") or not first:
+        continue
+    groups = sorted(FORM_GROUP.get(fold(first), ()))
+    verdicts = [against_the_name(c, sex, pid in COUNTED) for c in groups]
+    if not groups or not all(verdicts):
+        continue                    # unknown name, or one group does not object
+    canon, (_, men, women) = max(zip(groups, verdicts),
+                                 key=lambda gv: gv[1][1] + gv[1][2])
+    word, n = ("women", women) if sex == "M" else ("men", men)
+    add("sex-contradicts-name", 2, pid,
+        f"recorded {sex}; \u00ab{first}\u00bb is a form of {canon}, and {n} of "
+        f"the {men + women} other people here who bear it are {word}")
+
+
 order = {1: "IMPOSSIBLE", 2: "very doubtful", 3: "worth a look"}
 issues.sort(key=lambda i: (i["sev"], i["kind"], i["name"]))
 seen = set()
@@ -235,7 +331,10 @@ AGE = re.compile(r"age (-?\d+)")
 
 
 def classify(i):
-    """hedged | namesake | generation | record"""
+    """sex | hedged | namesake | generation | record"""
+    # Not a date at all, so none of the date reasoning below applies to it.
+    if i["kind"] == "sex-contradicts-name":
+        return "sex"
     msg = i["msg"]
     if HEDGE.search(msg):
         return "hedged"
@@ -261,6 +360,9 @@ CAUSE_NOTE = {
     "generation": "A parent barely older than the child — a generation has "
                   "been skipped, and a grandparent recorded as a parent.",
     "record": "The dates as recorded genuinely cannot both be true.",
+    "sex": "The recorded sex and the recorded given name disagree, measured "
+           "against how this archive's own records use that name. Which of "
+           "the two is wrong is not settled here.",
 }
 
 for i in uniq:
@@ -285,7 +387,7 @@ causes.sort(key=lambda c: (c["sev"], c["cause"], c["name"]))
 
 by_cause = collections.Counter(c["cause"] for c in causes)
 print(f"{len(uniq)} rows collapse to {len(causes)} distinct causes")
-for k in ("record", "namesake", "generation", "hedged"):
+for k in ("record", "namesake", "generation", "sex", "hedged"):
     n = by_cause.get(k, 0)
     rows = sum(c["n"] for c in causes if c["cause"] == k)
     print(f"  {k:<11} {n:3d} causes  ({rows} rows)")
