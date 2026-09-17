@@ -1,0 +1,135 @@
+# Every search run against FindMyPast on 16-17 September 2026, with its result.
+#
+# WHY A LIST OF SEARCHES IS WORTH KEEPING. Most of these are zeros, and a zero
+# costs the same as a find to obtain and nothing at all to repeat. The trial of
+# 13-14 September recorded its negatives for the same reason and it saved a day.
+#
+# HOW THE TWO SEARCH BOXES BEHAVE — learned the hard way, and they are opposites:
+#   lastname=   EXACT. «sojat» returns 0 and «sojath» returns 4, the same man.
+#               A zero means «not under that spelling», never «not here».
+#   keywords=   FUZZY, and it reads «Birth place as transcribed» in the
+#               NATURALISATION set only. In the passenger lists it reads neither
+#               the residence nor the ship — Eva Zubrinic's own record is not
+#               returned by «prozor» or by «ultonia».
+#
+# AND THE COUNT ONLY RENDERS AFTER THE PAGE SETTLES. Reading it too early gives
+# a false 0; four surnames were briefly recorded as having no records at all
+# when Blazevic has 706. Poll for a DIGIT followed by «results».
+#
+# kind|query|set|result|what it means
+spelling|zubrinich|all|191|Australia, the anglicised form
+spelling|zubrinic|all|119|Lika — a different catch entirely
+spelling|zubrinick|all|10|FOURTH spelling, the American clerk's. Same Ivan of Otocac
+spelling|zubrinec|all|1|Franc, b.1887 — and his residence is SINAC
+spelling|subrinic|all|0|
+spelling|xubrinich|all|0|
+spelling|zubrinicz|all|0|
+surname|prpic|all|943|too common to sweep
+surname|perpic|all|112|swept in full — four residences, none of them ours
+surname|blazevic|all|1374|
+surname|papic|all|1042|
+surname|vukelic|all|2424|
+surname|sestan|all|519|
+surname|blazevic|passengers|706|first read as 0 — the count had not rendered
+surname|prpic|passengers|632|first read as 0
+surname|papic|passengers|529|first read as 0
+surname|blazevic firstname=mile|passengers|9|residence Dvor — not ours
+surname|blazevic firstname=joso|passengers|5|Sungari, Kuthuryevac, blank — not ours
+surname|blazevic firstname=jurko|passengers|0|
+surname|sojat|naturalisations|0|EXACT-MATCH TRAP — he is there as Sojath
+surname|sojath|naturalisations|4|Miro b.1910 of SENJ, wife Helen, son George — OURS
+surname|vukelic|naturalisations|17|Marijan of KLADA (ours) and Louis Peter of Rogul (not)
+surname|vukelich|naturalisations|0|
+surname|kalanj|naturalisations|0|
+surname|kalan|naturalisations|20|Slovene — Frank Kalan b.1873 was born in KRAIN, Carniola
+surname|papich|naturalisations|13|Rudolph b.1885 born ITALY; Stojan b.1887 no town; Soldo-or-Papich
+surname|papic|naturalisations|0|
+surname|prpich|naturalisations|0|
+surname|perpich|naturalisations|0|
+surname|blazevich|naturalisations|6|Alice b.1894 born RUSSIA — not ours
+surname|boras|naturalisations|16|Irene b.1884 born BUDAPEST; James b.1886 GREECE — not ours
+surname|borash|naturalisations|9|
+surname|spalj|naturalisations|0|try an American spelling before believing this
+village|otocac|naturalisations|7|SEVEN PEOPLE, all read — the seam
+village|senj|naturalisations|12|SIX PEOPLE, all read — the other seam
+village|brinje|naturalisations|fuzzy|one Yugoslav hit: Karakas, born «Brinje Plasca»
+village|gospic|naturalisations|1|Djuro Pejnovic — not an archive surname
+village|smiljan|naturalisations|0|
+village|karlobag|naturalisations|0|the best-read parish in this archive sent nobody
+village|novi vinodolski|naturalisations|0|
+village|jurjevo|naturalisations|0|
+village|selce|naturalisations|0|
+village|ledenice|naturalisations|2|both a Czech, Karel Tuma b.1882
+village|povile|naturalisations|20|all «Povill» — fuzzy noise, Russian
+village|fiume|naturalisations|516|a city, overwhelmingly Italian — not a usable filter
+village|prozor|naturalisations|0|
+village|smokvica|passengers|13|the KORCULA Smokvica — Dalmatian surnames, not Krmpotska
+village|prozor|passengers|0|residence is NOT indexed in this set
+village|prozov|passengers|0|nor is the misspelling the records actually use
+village|otochetz|passengers|0|
+village|sumenica|passengers|0|
+village|krmpot|passengers|0|
+village|krivi put|passengers|0|
+village|klenovica|passengers|0|
+village|jablanac|passengers|0|
+village|sinac|passengers|0|
+village|sinae|passengers|0|
+control|zubrinic + keywords=prozor|all|0|HER OWN RESIDENCE. The decisive proof
+control|zubrinic + keywords=ultonia|all|0|HER OWN SHIP
+#
+# 17 SEPTEMBER 2026 — the birthplace sweep, continued through the villages the
+# 16th did not reach. Same method: `datasetname=united states naturalization
+# petitions` plus `keywords=<village>`, which is the ONE record set on this site
+# where the birth place is indexed. Every non-zero was confirmed by opening the
+# transcript and reading «Birth place as transcribed»; nothing below is taken
+# from the results list alone.
+#
+# AND THE URL FORM, because it was not written down and had to be found again:
+#   https://www.findmypast.co.uk/search/results?sid=100&lastname=X
+#   https://www.findmypast.co.uk/search/results?sid=100&datasetname=united%20states%20naturalization%20petitions&keywords=X
+# The search host search.findmypast.co.uk serves the FORM; the results live on
+# www. Guessing a record-set slug into a path gives 404, and `datasetname` with
+# a display name gives 500 unless it is the set's exact printed name.
+village|krivi put|naturalisations|0|Prpić country, and nobody filed from it
+village|smokvica|naturalisations|0|the Blažević village — nothing
+village|krmpote|naturalisations|0|nothing under the parish name either
+village|sinac|naturalisations|0|found in the passenger lists, absent here
+village|kompolje|naturalisations|0|
+village|bribir|naturalisations|0|
+village|sveti juraj|naturalisations|0|
+village|mrzli dol|naturalisations|0|the Blažević hamlet in targets.psv
+village|klenovica|naturalisations|2|ONE MAN, twice — CONFIRMED «Klenovica, Coratia»
+village|grizane|naturalisations|4|TWO MEN, twice each — both CONFIRMED
+village|crikvenica|naturalisations|4|two men, unconfirmed — Kristofor, Mason
+village|jablanac|naturalisations|2|Joseph Stokich b.1889, unconfirmed
+village|brlog|naturalisations|4|Bjelobaba, Lukach, Yasevac, unconfirmed
+village|vrbnik|naturalisations|7|Krk surnames — Volarich, Trinaestich, Trpich, unconfirmed
+village|lukovo|naturalisations|1|Frank Pietrzak — a Polish name; fuzzy noise, not Lukovo
+#
+# 17 SEPTEMBER 2026 — A DEFECT IN THIS FILE'S OWN TARGET LIST, found by being
+# asked a plain question: «are you searching all the variations of a name?»
+#
+# For SURNAMES, yes — targets-2026-09-16.psv carries a «spellings to try»
+# column and the trial proved why it matters (ZUBRINICH 191, ZUBRINIC 119,
+# ZUBRINICK 10, all the same family).
+#
+# FOR GIVEN NAMES, NO. The target list hands the searcher whatever form the
+# tree happens to hold, which for these parishes is very often the LATIN OF THE
+# BAPTISMAL ENTRY — and sometimes the Latin ACCUSATIVE, because the priest
+# wrote «baptizavi Gregorium». Nobody was ever entered in an American index in
+# the Latin accusative. Tested:
+firstname|blazevic firstname=josip|all|some|the Croatian form — returns records
+firstname|blazevic firstname=joseph|all|some|the English form — returns records
+firstname|blazevic firstname=josephus|all|0|THE LATIN FORM — NOTHING, and this is the form the target list gives
+firstname|blazevic firstname=giuseppe|all|0|the Italian form — nothing either
+# AND THE SITE'S OWN «Include name variants» CHECKBOX DOES NOT COVER IT. It is
+# on by default and it still returns 0 for Josephus, so whatever it expands, it
+# is not expanding across the languages a Croatian parish was written in.
+#
+# WHAT THIS COSTS. 10 of the 386 target rows name a person in an oblique Latin
+# case — Gregorium, Conradum, Joannem, Helenam, Georgium, Mathiam, Elisabetham,
+# Joannam — and would return nothing for ever. A further 107 rows carry a given
+# name that is in no variant group at all, so nothing tells the searcher what
+# else to type. This archive HAD the answer the whole time: givennames.json has
+# held 29 variant groups and 197 forms since the first week, and no search has
+# ever consulted it.

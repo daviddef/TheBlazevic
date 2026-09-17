@@ -98,7 +98,26 @@ Marrickville NSW* confirms the archive exactly. The seven Boras in the Australia
 electoral rolls — Angus, Anthony Vincent, Antoine Charles Frederick, Ettie, Mabel
 Grace — are an English-named NSW family and almost certainly **not ours**.
 
-## What a third day should do
+## Day three — 14 September 2026, the last day
+
+Full account in `transcripts-2026-09-14.md`. In short:
+
+* **The other spelling was harvested.** `ZUBRINIC` returns **119**, of which
+  **106** are captured in `zubrinic-2026-09-14.psv`. It is a different catch
+  from `ZUBRINICH`.
+* **ŠUMEĆICA turns out to be an emigration village.** *Franjo Zubrinic, b. 1883,
+  residence "Sumenica", sailed the Noordam in 1910 leaving a wife Franci and
+  joining a brother Ture.* The archive's emigration page had Prozor and nothing
+  else, and Šumećica is the hamlet of ahnentafel 10's own baptism.
+* **Two more fathers named** — *Antoni, Otočac 1911, father **Marko***; *Nikola,
+  Prozor 1911, father **Sandro***.
+* **Otočac town itself sends men** — Georg 1903, Mjos 1907, Antoni 1911.
+* **A Canadian stream nobody had noticed** — three arrivals, 1926, 1928, 1930.
+* **A second, post-war Australian wave** — eight records, 1960 to 1970.
+* **The method matters**: only the `ELLIS2` transcripts carry a residence, and
+  `…/2` and `…/3` ids are *relations named on a record*, not passengers.
+
+## What the original third-day list said, kept for the record
 
 1. **The Chicago Roman Catholic cemetery record for Luka Kalanj (1878–1962)** —
    a Catholic burial that may name a birthplace.

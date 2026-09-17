@@ -4,11 +4,20 @@ import { u } from "../lib/url.js";
 import D from "../data/duplicates.json";
 
 const TIER = {
+  // Two tiers were added to the tool and never to this page, so their groups
+  // were counted in the total and then listed nowhere. A tier the reader cannot
+  // see is worse than no tier at all: the count said thirteen and the tables
+  // showed eighteen.
+  "same day, same parents, same spouse": ["Same day, same parents, same spouse", "Children of one couple sharing an exact birth date — of which this tree holds 113 pairs, and most are twins. What separates a twin from a copy is the marriage: twins do not marry the same person. Matched on the spouse's NAME, because duplicating a wife duplicates her husband too. Since 17 September 2026 the same pass runs on the DEATH date as well, which is how Louis Barry was found: he is in this tree twice with two different birth years, 1920 and 1907, so no key built from a name and a year could ever have put his two records in one bucket. They share the day he died."],
+  "same day and same parents": ["Same day and same parents", "Same birth day, same village, same father, same mother. There is nothing left for a second child to be."],
+  "same day, and the same death day": ["Same day, and the same death day", "One person dies once, and on one day. Two records carrying the same full birth date AND the same full death date are one life written twice — and unlike a shared set of parents, siblings cannot share it. Added 17 September 2026, for Danijel Kalanj, who had sat in the tier below with «26 June 1876» written on both his records because nothing looked at the end of a life."],
   "same day": ["Same day", "Identical full birth date, and no conflict in the parents. Two people are not born in one village on one day with one name to one couple."],
   "same year and place": ["Same year and place", "Same given name, birth year and village, parents agreeing where both records name them."],
   "same year only": ["Same year only", "Same given name and birth year, with nothing to place them. The weakest tier; listed, not acted on."],
 };
-const ORDER = ["same day", "same year and place", "same year only"];
+const ORDER = ["same day, same parents, same spouse", "same day and same parents",
+               "same day, and the same death day",
+               "same day", "same year and place", "same year only"];
 const live = D.groups.filter((g) => !g.tier.startsWith("rejected"));
 const rejected = D.groups.filter((g) => g.tier.startsWith("rejected"));
 const of = (t) => live.filter((g) => g.tier === t);

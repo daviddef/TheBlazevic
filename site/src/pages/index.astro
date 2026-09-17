@@ -1,11 +1,19 @@
 ---
 import Base from "../layouts/Base.astro";
+import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
+import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import { chartGroups } from "../lib/marriedin.js";
+import SovereigntyTimeline from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
+import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import { u } from "../lib/url.js";
 import recent from "../data/recent.json";
 import line from "../data/line.json";
 import families from "../data/families.json";
 import register from "../data/people.json";
 import ancestors from "../data/ancestors.json";
+import atlas from "../../public/atlas-data.json";
+import sov from "../data/sovereignty.json";
 
 const blazevic = families.find((f) => f.slug === "blazevic");
 const zubrinic = families.find((f) => f.slug === "zubrinic");
@@ -48,8 +56,94 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     </p>
   </section>
 
+  
+  <p class="lede" style="margin-top:14px">
+    It is a public archive with one rule: <b>living people are absent from this build</b> — not
+    hidden, not gated, never written into the site at all. And a second rule,
+    which is harder: <b>every claim says how well it is known</b>.
+    <span class="chip doc" style="padding:2px 8px;font-size:10px">Documented</span>
+    <span class="chip inf" style="padding:2px 8px;font-size:10px">Inferred</span>
+    <span class="chip lore" style="padding:2px 8px;font-size:10px">Family lore</span>
+  </p>
+
+  <WaysIn doors={[
+    { href: u("/hedviga/"), name: "Start with Hedviga", blurb: "This archive begins with one woman — born at Senj in 1926, dead at Johannesburg in 2001 — and works outward into the four families that made her.", cta: "Her page →" },
+    { href: u("/direct-line/"), name: "The spine, nine generations", blurb: "Seventy named ancestors, the earliest born about 1717, with every claim labelled as sourced, reasoned in the open, or something the family says.", cta: "Follow the line →" },
+    { href: u("/senj-1943/"), name: "Senj, 1943", blurb: "What happened to the town, and to this family in it. The hardest page in the archive to write and the one it exists for.", cta: "Read it →" },
+  ]} />
+  <section class="feat">
+    <h2 style="margin-top:6px">Where this family can actually be put</h2>
+    <p class="dek" style="margin-top:10px">Almost all of it inside one mountain county, and then Port Pirie. <strong>Every dot is a place this archive can put a named person in, and its size is how many stand there.</strong> The biggest are labelled; the colours are this archive's own regions. The coast and the borders under them are real — Natural Earth, clipped to this frame — so a dot can be read as somewhere rather than as a position in an empty box.</p>
+  <PlaceSpark places={atlas.places} href={u("/atlas/")}
+              label={`${atlas.places.length} places, almost all of them inside one mountain county`} />
+  </section>
+
+<section class="feat">
+  <div class="kicker" style="color:var(--terra)">Four centuries, five rulers, one stretch of coast</div>
+  <h2 style="margin-top:6px">What they were living under, and what they were up against</h2>
+  <p class="dek" style="margin-top:10px">Senj and the Krmpotska mountains were never one country for long: Frankopan
+  and Uskok, then Venice at the water's edge, then the Habsburg Military Frontier, which governed this
+  family as soldiers of the border rather than subjects of a province. <strong>Red above the lanes is
+  this family. Ochre below is the wars, plagues and regime changes they were lived through.</strong>
+  Hover or tab any marker and it tells you what it is.</p>
+  <div style="margin-top:26px"><SovereigntyTimeline sov={sov} events={true} /></div>
+  <p class="cap" style="margin-top:16px"><a href={u("/timeline/")}>The full timeline →</a></p>
+</section>
+
+
   <section class="blk">
-    <h2>What this archive says</h2>
+    <h2>The spine</h2>
+    <p class="dek">Eight generations of Blažević men, from Hedviga back to a boy born about 1750 in
+    a village that had existed for barely a century.</p>
+    <ol class="spine">
+      {line.map((p) => (
+        <li>
+          <span class="g">g{p.gen}</span>
+          <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
+          <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
+          <span class="pl">{p.bornPlace || p.diedPlace || ""}</span>
+        </li>
+      ))}
+    </ol>
+    <p class="note"><strong>Generation three is now documented.</strong> The
+    <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
+    parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
+    this archive was built around. Juraj himself is still undated, and nothing yet links him to
+    Toma above. <a href={u("/open-questions/")}>See the open questions →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Recently found</div>
+    <h2>Recently found</h2>
+    <p class="lede">An archive that never changes is not being worked on. Most of what follows is
+    this one becoming <strong>less</strong> certain rather than more — which is what happens when
+    somebody actually reads the registers behind a family tree.</p>
+    <table class="reg" style="margin-top:1.1rem">
+      <tbody>{recent.entries.map((r) => (
+        <tr>
+          <td class="mono dim" style="width:8.5rem">{r.d}</td>
+          <td><a href={u(r.h)}><strong>{r.t}</strong></a>
+            <div class="dek" style="margin-top:.2rem" set:html={r.s} /></td>
+        </tr>))}</tbody>
+    </table>
+    <p class="dek" style="margin-top:.9rem">Kept by hand, <strong>as at {recent.asAt}</strong>.
+    A list like this rots quietly, so it carries its own date: if that is far behind the
+    <a href="https://github.com/daviddef/TheBlazevic/commits/main" rel="noopener">commit log</a>,
+    the log is the honest record and this is not.</p>
+    <p style="margin-top:1.1rem"><a class="btn" href={u("/corrections/")}>Everything this archive got
+    wrong →</a> <a class="btn" href={u("/searched/")}>What has been searched →</a></p>
+  </section>
+
+
+<section class="blk">
+  <h2>The families who married in</h2>
+  <p class="dek">Nineteen families and forty-five direct ancestors — and not one of them here because of a surname.
+  <a href={u("/marriages/")}>The marriages, in full →</a></p>
+  <MarriageChart groups={chartGroups} subject="Blažević" unit="direct ancestors" />
+</section>
+
+<section class="blk">
+    <h2>What this archive has established</h2>
     <div class="grid two">
       <div class="card">
         <h3>They are Bunjevci, and that is not a small detail</h3>
@@ -87,62 +181,24 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     </div>
   </section>
 
-  <section class="blk">
-    <h2>The spine</h2>
-    <p class="dek">Eight generations of Blažević men, from Hedviga back to a boy born about 1750 in
-    a village that had existed for barely a century.</p>
-    <ol class="spine">
-      {line.map((p) => (
-        <li>
-          <span class="g">g{p.gen}</span>
-          <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
-          <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
-          <span class="pl">{p.bornPlace || p.diedPlace || ""}</span>
-        </li>
-      ))}
-    </ol>
-    <p class="note"><strong>Generation three is now documented.</strong> The
-    <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
-    parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
-    this archive was built around. Juraj himself is still undated, and nothing yet links him to
-    Toma above. <a href={u("/open-questions/")}>See the open questions →</a></p>
-  </section>
+  <Numbers rows={[
+    [register.length, "people carrying one of the eight surnames, published", u("/register/")],
+    [ancestors.length, "named ancestors of Hedviga, across nine generations", u("/tree/")],
+    [blazevic.earliest, "the earliest Blažević birth year in the tree", u("/how-far-back/")],
+    [zubrinic.count, "Žubrinići — of a surname held by about 312 people on earth", u("/families/")],
+    [35, "people born at one address: Krivi Put 136", u("/places/")],
+    [2034, "people judged living and withheld from this build entirely", u("/method/")],
+  ]} />
 
-  <section class="blk">
-    <div class="lab">Recently found</div>
-    <h2>What has moved lately</h2>
-    <p class="lede">An archive that never changes is not being worked on. Most of what follows is
-    this one becoming <strong>less</strong> certain rather than more — which is what happens when
-    somebody actually reads the registers behind a family tree.</p>
-    <table class="reg" style="margin-top:1.1rem">
-      <tbody>{recent.entries.map((r) => (
-        <tr>
-          <td class="mono dim" style="width:8.5rem">{r.d}</td>
-          <td><a href={u(r.h)}><strong>{r.t}</strong></a>
-            <div class="dek" style="margin-top:.2rem" set:html={r.s} /></td>
-        </tr>))}</tbody>
-    </table>
-    <p class="dek" style="margin-top:.9rem">Kept by hand, <strong>as at {recent.asAt}</strong>.
-    A list like this rots quietly, so it carries its own date: if that is far behind the
-    <a href="https://github.com/daviddef/TheBlazevic/commits/main" rel="noopener">commit log</a>,
-    the log is the honest record and this is not.</p>
-    <p style="margin-top:1.1rem"><a class="btn" href={u("/corrections/")}>Everything this archive got
-    wrong →</a> <a class="btn" href={u("/searched/")}>What has been searched →</a></p>
-  </section>
-
-  <section class="blk">
-    <h2>By the numbers</h2>
-    <div class="grid three">
-      <div class="stat"><div class="n">{register.length.toLocaleString()}</div><div class="l">people carrying one of the
-        eight surnames, published</div></div>
-      <div class="stat"><div class="n">{ancestors.length}</div><div class="l">named ancestors of Hedviga, across nine generations</div></div>
-      <div class="stat"><div class="n">{blazevic.earliest}</div><div class="l">earliest Blažević birth year in the
-        tree</div></div>
-      <div class="stat"><div class="n">{zubrinic.count}</div><div class="l">Žubrinići — of a surname held by about
-        <strong>312 people on earth</strong></div></div>
-      <div class="stat"><div class="n">35</div><div class="l">people born at one address: <em>Krivi Put 136</em></div></div>
-      <div class="stat"><div class="n">2,034</div><div class="l">people judged living and withheld from this build
-        entirely</div></div>
-    </div>
+  <section class="blk" style="border-bottom:0">
+    <h2>What is still missing</h2>
+    <p class="dek"><strong>19 open, 9 answered</strong> — and the answered ones are kept so that the
+    change stays visible. The archive's central doubt, who Ljubomir's parents were, was closed by the
+    Senj marriage register of 8 December 1920; what remains is set out with the document that would
+    settle each one beside it. <a href={u("/open-questions/")}>Open questions →</a></p>
+    <p class="small" style="margin-top:1rem">The most valuable thing anyone can send this archive is
+    a <a href={u("/corrections/")}>correction</a>. The second is a document that closes one of these.
+    Where a record has been seen it is cited; where it has not, the claim is marked. See
+    <a href={u("/method/")}>Method</a>.</p>
   </section>
 </Base>

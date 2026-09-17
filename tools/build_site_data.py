@@ -53,9 +53,29 @@ JUNK = re.compile(
     r"^\s*\d{4}\s*([-\u2013]\s*\d{4})?\s+(birth|death|marriage|baptism)\b)", re.I)
 
 
+# The alphabet. Fifteen Zubrinic nodes are named with one capital letter and a
+# surname -- "M Zubrinic Xubrinich Zubrinic" -- and each is the tree's parent for
+# every Zubrinic whose name begins with that letter. They are also one another's
+# siblings, so the tree asserts fifteen brothers and sisters called A through W,
+# hanging from nothing, with 75 real people beneath them.
+#
+# JUNK above cannot see them: a drawer labelled "M" contains none of the words a
+# researcher writes when they know they are guessing. The test here is strict on
+# purpose -- one letter, then a surname, and NO date of any kind -- so that a real
+# person recorded only by an initial is not mistaken for a drawer.
+ALPHABET = re.compile(r"^\s*[A-Z\u017d\u010c\u0106\u0160\u0110]\s+\S")
+
+
+def is_alphabet(p):
+    if not ALPHABET.match(display(p) or ""):
+        return False
+    return not any((p.get(k) or {}).get("date") for k in ("birt", "deat", "bapm", "buri"))
+
+
 def junk(p):
     n = display(p)
-    return bool(JUNK.search(n)) or n.strip() in ("", "(unnamed)")
+    return (bool(JUNK.search(n)) or n.strip() in ("", "(unnamed)")
+            or is_alphabet(p))
 
 
 # Filled in by main(): id -> slug, for everybody who reaches the build.

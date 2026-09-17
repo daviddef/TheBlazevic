@@ -17,31 +17,37 @@ DATA = os.path.join(ROOT, "site", "src", "data")
 GROUPS = {
     "ivan":      ["ivan","ivo","ive","joannes","joannis","joannem","ioannes","joann",
                   "john","juan","giovanni","jovan","ivica"],
-    "marija":    ["marija","maria","mariam","mary","mare","mara","marica","mica"],
+    "marija":    ["marria","marija","maria","mariam","mary","mare","mara","marica","mica"],
     "josip":     ["josip","joso","jozo","pepe","josephus","josephum","josephi","joseph",
                   "giuseppe","jospi"],
     "ante":      ["ante","anton","antun","antonius","antonium","antonio","tone","toni"],
     "antonija":  ["antonija","antonia","antoniam","tonka","tonica","antica","toncika"],
-    "ana":       ["ana","anna","annam","anica","ankica","anka","hana"],
+    "ana":       ["ane","agna","ana","anna","annam","anica","ankica","anka","hana"],
     "franjo":    ["franjo","frane","franciscus","franciscum","francesco","frank","fran"],
     "franciska": ["franciska","francisca","franciscam","franka","francika","fanika"],
     "mihovil":   ["mihovil","miho","mijo","michael","michaelis","michaelem"],
     "toma":      ["toma","tomo","thomas","thomam","tome","tomislav"],
+    # «Mathaeus» with ONE t was missing here while «Matthaeus» with two was
+    # present, so Mathæus Žubrinić and his namesake sat outside the group of
+    # twenty-one they belong to — the same disease as the surname fold that
+    # split on a bracket but not a slash. Found 17 September 2026 by the gate in
+    # tools/names.py, which asks the question in the direction that hurts: what
+    # does the RECORD contain that this table does not?
     "matija":    ["matija","mate","mato","mathias","matthias","mathiam","matthaeus",
-                  "matthaus","mattheam","matthea","matia","matthaeus","matej"],
+                  "mathaeus","matthaus","mattheam","matthea","matia","matej"],
     "juraj":     ["juraj","jure","jurko","georgius","georgium","georgii","georgio",
                   "gjuro","djuro","george","gjuka"],
-    "nikola":    ["nikola","niko","miko","nicolaus","nicolaum","nicolai","nikula"],
+    "nikola":    ["nikolas","nikola","niko","miko","nicolaus","nicolaum","nicolai","nikula"],
     "katarina":  ["katarina","kata","katica","kate","catharina","catharinam","catta",
                   "catarina","katharina"],
-    "stjepan":   ["stjepan","stipe","stephanus","stephanum","stevo","steve"],
+    "stjepan":   ["stipan","stjepan","stipe","stephanus","stephanum","stevo","steve"],
     "luka":      ["luka","lucas","lucam","luce"],
     "lucija":    ["lucija","lucia","luciam","luca","luce?"],
-    "magdalena": ["magdalena","manda","mande","magda"],
+    "magdalena": ["magdalena","mandalena","manda","mande","magda"],
     "elizabeta": ["elizabeta","jelena","helena","helenam","jela","ela"],
     "petar":     ["petar","pere","pero","petrus","petrum","peter","pietro"],
     "vinko":     ["vinko","vicko","vincentius","vincentium","vicentius","vincent","vincenc"],
-    "pavao":     ["pavao","pave","paulus","paulum","pauli","paul","pavle"],
+    "pavao":     ["paval","pavao","pave","paulus","paulum","pauli","paul","pavle"],
     "ilija":     ["ilija","elias","eliam","ilia"],
     "terezija":  ["terezija","tereza","terezia","theresia","teresa"],
     "margarita": ["margarita","margaretha","margarethe","marta","martha","margareta"],
@@ -49,13 +55,27 @@ GROUPS = {
     "martin":    ["martin","martinus","martinum"],
     "grgur":     ["grgur","grga","grgica","gregorius","gregorium"],
     "jakov":     ["jakov","jakob","jacobus","jacobum","jacob","jaco"],
+
+    # THE TABLE WAS BUILT FROM MEN. Every group above that has a Latin feminine
+    # — Joanna, Josepha, Georgia, Jacoba, Paulina — had nowhere to put her, so
+    # eight Joannas, two Josephas, two Georgias and a Jacoba fell out of the
+    # fold entirely and out of every variant list built from it. That is the
+    # worst place for a hole: the women of this tree are already its weakest
+    # part, with seven direct ancestors carrying no surname at all. Added 17
+    # September 2026.
+    "ivana":     ["ivana","ivanka","ivka","joanna","joannam","johanna","janja","iva"],
+    "josipa":    ["josipa","josepha","jozefa","giuseppina","josephine"],
+    "paulina":   ["paulina","pavla","pava","paula"],
+    "jurja":     ["jurja","georgia","gjurdja","durda"],
+    "jakovina":  ["jakovina","jacoba","jakobina"],
 }
 
 SEX = {"ivan":"m","marija":"f","josip":"m","ante":"m","antonija":"f","ana":"f",
        "franjo":"m","franciska":"f","mihovil":"m","toma":"m","matija":"m","juraj":"m",
        "nikola":"m","katarina":"f","stjepan":"m","luka":"m","lucija":"f",
        "magdalena":"f","elizabeta":"f","petar":"m","vinko":"m","pavao":"m","ilija":"m",
-       "terezija":"f","margarita":"f","andrija":"m","martin":"m","grgur":"m","jakov":"m"}
+       "terezija":"f","margarita":"f","andrija":"m","martin":"m","grgur":"m","jakov":"m",
+       "ivana":"f","josipa":"f","paulina":"f","jurja":"f","jakovina":"f"}
 
 VAR = {v: k for k, vs in GROUPS.items() for v in vs}
 

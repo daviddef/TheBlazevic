@@ -1,0 +1,34 @@
+---
+/* What changed, most recent first.
+
+   This archive kept its changelog on the home page and nowhere else, which
+   made it the only one of the seven without a page for it — and the list's own
+   note admits the risk: it is hand-kept, and if the date at the top is far
+   behind the last commit then the commit log is the honest record and this is
+   not. Both of those facts belong on a page that says them, rather than in a
+   block a reader meets once on the way past. */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import Changes from "@daviddef/archive-kit/components/Changes.astro";
+import recent from "../data/recent.json";
+
+const entries = recent.entries || [];
+const days = [...new Set(entries.map((e) => e.d))].map((d) => ({
+  when: d,
+  entries: entries.filter((e) => e.d === d).map((e) => ({ title: e.t, found: e.s, href: e.h })),
+}));
+---
+<Base
+  title="What changed"
+  eyebrow={`${entries.length} entries · kept by hand, as at ${recent.asAt}`}
+  dek="Every change this archive has recorded about itself, newest first — what was found, what it changed, and where to read it.">
+
+  <section class="prose">
+    <p>{recent.note}</p>
+    <p>The <a href={u("/corrections/")}>corrections page</a> is the stricter companion to this one:
+    this page says what was added, that one says what was taken back.</p>
+  </section>
+
+  <Changes days={days} u={u} />
+
+</Base>

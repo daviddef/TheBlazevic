@@ -1,0 +1,151 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import N from "../data/names.json";
+import SayYourName from "@daviddef/archive-kit/components/SayYourName.astro";
+/* THE BOX IS THE KIT'S NOW, AND THE DATA SHAPE IS THIS ARCHIVE'S.
+   Defranceschi built the same object independently - a box, chips, a
+   shareable ?n=, a card per language - in about the same number of lines. The
+   two disagreed about the menu and about the data and agreed about everything
+   that mattered. The interactive half is shared; the argument around it, the
+   hole the table was built over and the six Latin endings, stays here, because
+   that part is not shared and should not be. The estate took THIS archive's
+   shape, because it is the only one of the two that could carry a form's
+   `seen` count, its case ending and what kind of form it is. */
+
+// Built 17 September 2026, because of a question: «are you searching all the
+// variations of a name?» For surnames yes — ZUBRINICH 191, ZUBRINIC 119,
+// ZUBRINICK 10, one family. For given names no, and the test that settled it is
+// on the page below: firstname=josephus returns NOTHING from an American index,
+// and josephus is the form this archive's own target list was handing people.
+//
+// The data is tools/names.py, which will not build if a form the records
+// contain is missing from the table — the gate that runs in the direction that
+// hurts. The first time it ran it found two men called Mathæus sitting outside
+// the group of twenty-one Matijas they belong to, separated by a single «t».
+
+// One flat lookup: every form, folded, points at its row.
+const fold = (s) => String(s || "").toLowerCase()
+  .normalize("NFKD").replace(/[̀-ͯ]/g, "")
+  .replace(/æ/g, "ae").trim();
+const index = {};
+N.rows.forEach((r, i) => {
+  index[fold(r.canon)] = i;
+  Object.values(r.langs).forEach((forms) =>
+    forms.forEach((f) => { index[fold(f.form)] = i; }));
+});
+const chips = ["Mihovil", "Josephus", "Zuane", "Mathæus", "Jurko", "Katalin",
+               "Gregorium", "Joso", "Frank", "Mihály"].filter((c) => index[fold(c)] !== undefined);
+const pct = Math.round(100 * N.attested / N.totalForms);
+---
+<Base title="Say Your Name"
+  eyebrow={`${N.rows.length} names · ${N.totalForms} forms · ${N.attested} met in these records, ${N.aids} lookup aids`}
+  dek="One person, written down by six different clerks in six different languages. Type a given name and see every form the same human being would have been entered under.">
+
+  <section class="blk">
+    <p class="lede">A <strong>Josip</strong> in a Croatian register, a <strong>Giuseppe</strong> in
+    an Italian one and a <strong>Josephus</strong> in a Latin one are the same name. An index that
+    treats them as three people will never join a family up — and neither will a searcher who only
+    types one of them.</p>
+
+    <div class="note"><strong>This page exists because the archive was caught not doing it.</strong>
+    On 17 September 2026 somebody asked whether the research searches all the variations of a name.
+    For <em>surnames</em> it does, and it has been proved: <span class="mono">ZUBRINICH</span>
+    returns 191 records, <span class="mono">ZUBRINIC</span> a different 119,
+    <span class="mono">ZUBRINICK</span> ten more — one family. For <strong>given names it did
+    not.</strong> The emigration target list handed the searcher whatever form the family tree
+    happened to hold, which in these parishes is usually the Latin of the baptismal entry. Tested
+    against the index the same hour:<br /><br />
+    <span class="mono">firstname=josip &nbsp;&nbsp;&nbsp;returns records<br />
+    firstname=joseph &nbsp;&nbsp;returns records<br />
+    firstname=josephus &nbsp;<strong>0</strong><br />
+    firstname=giuseppe &nbsp;<strong>0</strong></span><br /><br />
+    <strong>And the index's own «include name variants» box is on by default and still returns
+    nothing for Josephus</strong>, so whatever it expands, it does not expand across the languages a
+    Croatian parish was written in. <a href={u("/searched/")}>Where the searching is recorded →</a></div>
+
+    <p><strong>A name you have looked up is a link you can send.</strong> The address bar follows
+    the search — <span class="mono">?n=Mihovil</span> — so a card can go to a cousin or an archivist
+    and open on exactly what you were looking at.</p>
+
+    <p><strong>Two kinds of cell.</strong> A form printed plainly is one this archive has actually
+    met in one of its own records. A form marked <span class="aid">like this<sup>°</sup></span> is a
+    <strong>lookup aid</strong> — the correct form in that language and the right thing to type into
+    a Hungarian or German index tomorrow, but not something written down here yet.
+    <strong>{N.attested} of the {N.totalForms} forms below are attested — {pct}%.</strong> Nothing
+    decides that by hand: <span class="mono">tools/names.py</span> reads it out of the records, and
+    the build <strong>refuses</strong> if a form the records contain is missing from the table. The
+    first time that gate ran it found <strong>two men called Mathæus</strong> filed apart from the
+    twenty-one Matijas they belong to, separated by a single <em>t</em>.</p>
+  </section>
+
+  <SayYourName rows={N.rows} u={u}
+    langs={N.languages.map((l) => ({ key: l.key, label: l.name, note: l.blurb }))}
+    chips={["Mihovil", "Josephus", "Zuane", "Math\u00e6us", "Jurko", "Katalin",
+            "Gregorium", "Joso", "Frank", "Mih\u00e1ly"]} />
+
+  <section class="blk">
+    <div class="lab">The hole this page was built over</div>
+    <h2>The table was built from the men</h2>
+    <p class="lede">Every name group here that has a Latin feminine — <em>Joanna, Josepha, Georgia,
+    Jacoba, Paulina</em> — had nowhere to put her until 17 September 2026. <strong>Eight Joannas,
+    two Josephas, two Georgias and a Jacoba fell out of the fold entirely</strong>, and so out of
+    every variant list built from it.</p>
+    <p>That is the worst possible place for a hole. <strong>The women of this tree are already its
+    weakest part</strong> — seven direct ancestors carry no surname at all, because a woman was
+    entered under her husband's — and the one tool that would have helped somebody find them had
+    been built from the men. Five feminine groups were added and the fold now holds
+    <strong>{N.rows.length}</strong> names.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The column no other archive here has</div>
+    <h2>Latin is one language with six endings</h2>
+    <p class="lede"><strong><em>Michaelem</em> is not another form of the name.</strong> It is
+    Michael in the accusative, because the priest wrote <em>baptizavi Michaelem</em> — «I baptised
+    Michael». Nobody was ever called it, and nobody was ever indexed under it.</p>
+    <p><strong>And the sex is counted, not asserted.</strong> The fold declares
+    <span class="mono">matija</span> a man's name. Eight of the forty people written that way here
+    are women — one of them <strong>ahnentafel 13, Matia Pilipić</strong>, whose marriage is
+    <a href={u("/worklist/")}>row 4 of the work list</a>. Croatian Matija is unisex and the table
+    had one column for it, so this page counts the bearers instead.</p>
+    <p>This matters more than it sounds. The family tree is built from what the register says, so
+    the register's grammar walks straight into it: <strong>ten people in the emigration target list
+    are named in an oblique case</strong> — <em>Gregorium, Conradum, Joannem, Helenam, Georgium,
+    Mathiam, Elisabetham, Joannam</em> — and a search for any of them returns nothing for ever.
+    <span class="mono">tools/latin_cases.py</span> already knew this about
+    <strong>{N.rows.reduce((s, r) => s + r.oblique.length, 0)} people</strong> in this archive; what
+    was missing was anything that used it before typing a name into a search box.
+    <a href={u("/name/")}>The names, counted →</a></p>
+  </section>
+</Base>
+
+<style is:global>
+  .namebox { margin:1.6rem 0 .6rem; }
+  .namebox input { width:100%; font:inherit; font-size:1.6rem; padding:.7rem .9rem;
+    border:1px solid var(--rule,#ccc); border-radius:3px; background:var(--panel,#fff);
+    color:var(--ink,inherit); }
+  .namebox input:focus { outline:2px solid var(--accent,#963); outline-offset:1px; }
+  .suggest { display:flex; flex-wrap:wrap; gap:.35rem; margin-bottom:1.2rem; }
+  .suggest button, .nm-copy { font:inherit; font-size:.8rem; padding:.24rem .62rem; cursor:pointer;
+    color:var(--ink-2,inherit); background:transparent; border:1px solid var(--rule,#ccc);
+    border-radius:2px; }
+  .suggest button:hover, .nm-copy:hover { border-color:var(--accent,#963); color:var(--accent,#963); }
+  .nm-head { margin:1rem 0 .3rem; }
+  .nm-url { font-size:.78rem; color:var(--ink-3,#888); margin-left:.6rem; word-break:break-all; }
+  .nm-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+    gap:.9rem; margin:1.2rem 0 .4rem; }
+  .nm-card { border:1px solid var(--rule,#ddd); border-top:3px solid var(--accent,#963);
+    border-radius:2px; padding:.85rem .95rem 1rem; background:var(--panel,transparent); }
+  .nm-card .lab { margin-bottom:.35rem; }
+  .nm-forms { font-size:1.18rem; line-height:1.5; margin:0 0 .5rem;
+    border-bottom:1px solid var(--rule,#e6e6e6); padding-bottom:.5rem; }
+  .nm-forms .none { font-size:1rem; font-style:italic; color:var(--ink-3,#888); }
+  .nm-card p { font-size:.83rem; line-height:1.55; margin:0; color:var(--ink-2,inherit); }
+  .aid, .nm-forms .aid { font-style:italic; color:var(--ink-3,#888); }
+  .nm-case { font-size:.72rem; color:var(--ink-3,#888); font-style:normal; }
+  .nm-ob { margin-top:1rem; }
+  @media (max-width:560px) { .namebox input { font-size:1.2rem; } }
+</style>
+
+

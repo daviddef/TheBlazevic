@@ -1,0 +1,53 @@
+# Household by-names (nadimci) recorded beside a surname in the registers.
+#
+# A FALSE FRIEND, found by the re-sweep of 15 September 2026. In the Otočac
+# STATUS ANIMARUM, «dictus / dicti» is not a connector at all — it is the Latin
+# for «of the aforesaid». «Michael filius dictus Georgij» is Michael son of the
+# said George, and «Marcus et Josephus … Georgii dicti Gemelli» is the twins of
+# the said George, not a household called Gemelli. A sweep that harvests every
+# «dicti» will invent by-names out of pronouns, and this file must not carry
+# them. The test is whether the word sits BETWEEN TWO NAMES.
+#
+
+# This began as a footnote to question 5 — was "Papa" a surname or a by-name?
+# It is now a documented parish practice: Selce and its neighbours wrote the
+# surname AND the household name, joined by aliter / dictus / dicti, and the
+# scribes UNDERLINED the pair to mark what it was.
+#
+# Every row is a phrase read off a register at full resolution, not an
+# inference. "underlined" records whether the scribe underlined it in that
+# entry — u = yes and seen, n = no, ? = not established.
+#
+# surname|connector|byname|as written|place|year|underlined|source
+Antić|—|Papa|Marthæ Antich Papa|Vrbnik or Selce|1806|u|baptism of ahn 24, 14 Mar 1806
+Antić|—|Dudin|Maria Antich Dudin|Vrbnik or Selce|1806|u|same page, 22 Mar 1806, godmother
+Lončarić|—|Franić|Maria Lonzarich Franich|Vrbnik or Selce|1806|u|same page, 22 Mar 1806, mother
+Jelličić|dictis|Jurešina|Margarita Jellichich dictis Jurešina|Selce|1809|u|baptism of ahn 25, 22 Mar 1809
+Lončarić|dicti|Hel|Vincentii Lonzarich Hel dicti|Selce|1809|u|same entry, godmother's husband
+Antić|—|Papa|Josephum Antich Papa|Selce|1835|u|marriage of ahn 24 × 25, domus 51
+Antić|aliter|Papa|Euphemia Antich, aliter Papa|Selce|1835|?|his sister, same day, domus 80
+Dudić|aliter|Antić|Josephum Dudich aliter Antich|Selce|1835|u|same opening, a different Joseph Antić
+Franić|aliter|Lončarić|Josepho Franich aliter Lonzarich|Selce|1835|n|same opening, witness
+Pužić|aliter|Lončarić|Lucia Puxich aliter Lonzarich|Selce|1835|n|same opening, bride
+Badrović|aliter|Bagatello|Marca Badrovich aliter Bagatello|Selce|1835|n|same opening, bride
+Penes|aliter|Paschul|Franciscum Penes aliter Paschul|Selce|1835|n|same opening, groom
+Orešković|adoptatus|Sekula|Marcus Oreskovich, adoptatus Sekula|Otočac|1835|u|baptism at Dubrava 29, 8 Sep 1835
+Antić|—|Papa|Josephi Antich Papa|Selce|1838|n|baptism of ahn 12, domus 51
+Antić|aliter|Dudić|Vincentius Antich, aliter Dudich|Selce|1842|?|death, 29 Jan 1842, aged 63
+Papić|—|Papa|Juraj Papa|Senj|1885|n|marriage of ahn 6, p.192 no.5 — the by-name alone, surname gone
+Smojver|vulgò|Vukić|ex Vincentio, et Oliva Smoyver, vulgò Vukić, Conjugibus|Karlobag|1781|n|baptism of ahn 53, 11 Mar 1781, page 65; ark 3:1:3QS7-L99C-L998-5
+Jurić|aliter|Loveranić|Vincentius Jurich, aliter Loveranich|Selce|1834|?|death, 21 March 1834, aged 55, Selce house 58; ark 3:1:3QS7-899X-1Q6X
+Antić|—|Papa|Joannes Antich Papa|Selce|1829|n|death of ahn 48, 13 Mar 1829, house 51, aged 64 — the by-name written straight after the surname, no connector; ark 3:1:3QS7-L99X-1QQL
+Antić|—|Natanchii|Margarita uxor Joannis Antich Natanchii|Selce|1829|y|death of ahn 49, 15 Jul 1829, house 56, aged 52 — underlined by the scribe; does NOT agree with her husband's «Papa» four months earlier
+Mihić|aliter|Venesarić|Matthias Mihich, aliter Venesarich|Selce|1828|?|death 1828, Selce house 2, aged 76; ark 3:1:3QS7-899X-1QZ7
+Smojver|dictus|Vukčić|Josephus Smojver dictus Vukcich|Karlobag|1776|n|death of ahn 212, 16 May 1776, aged 45 — five years before the «vulgò Vukić» of the 1781 baptism, same pair, different connector; ark 3:1:3QS7-L99C-G3WG
+Smojver|vide|Vukić|Vukich vide Smojver, 16: Maij, folio 11|Karlobag|1776|n|the KAZALO of the Umrli 1774-1804 indexes the BY-NAME as a headword and cross-references it to the surname; the same page does it for «Verbanovich … vide Urbanovich»; ark 3:1:3QS7-899C-GS54
+Vukelić|—|Purica|TIHI DOM OBITELJ VUKELIĆ -- PURICA|Senj|1993|n|carved on the headstone above three names, Slave 1923-1993, Marica 1925-2016, Zdravko 1955-2016; Senj cemetery, IMG_8064
+Vukelić|—|Kožun|MILAN VUKELIĆ - KOŽUN|Senj|1989|n|read at full resolution 15 Sep 2026: ONE dash after the surname, not a pair — «VUKELIĆ - KOŽUN», on a stone shared with Kata r. Tomljanović and Dragica r. Butković; Senj cemetery, IMG_8092
+Prpić|—|Pece|KRUNOSLAV PRPIĆ / PECE|Senj|1990|n|confirmed at full resolution 15 Sep 2026 — cut on its own line under the given name, above the dates; Senj cemetery, IMG_8109
+Papić|—|Glavičić|PAPIĆ - GLAVIČIĆ|Senj|1974|n|two surnames hyphenated as the head of a family stone, Mandica 1891-1974, Blanka 1927-2015, Karlo 1885-1922; Senj cemetery, IMG_8139
+Prpić|—|Boras|OBITELJ PRPIĆ -BORAS-|Senj|1974|n|two surnames set between dashes as the head of a family stone, Petar 1899-1974, Slavka 1910-1980; Senj cemetery, IMG_8095
+Boras|—|Milković|TIHI DOM OBITELJI BORAS - MILKOVIĆ|Senj|1950|n|hyphenated head of a family stone carrying the Croatian arms; Marica is separately «R. MILKOVIĆ», so here the hyphen records a marriage rather than a nadimak; Senj cemetery, IMG_8140
+Ljubičić|dictus|Lukšić|Ljubicich dictus Luxich ut ibi|Karlobag|1778|n|a KAZALO headword in the L section of the Umrli 1774-1804, cross-referenced «ut ibi» — see there. THE YEAR IS DERIVED from its folio position (about f.17, and folio 17 = 1778), not read off an entry; ark 3:1:3QS7-899C-GSKT
+Locatelli|vulgò|Žešić|Locatelli, vulgò Zessich, Margarita|Karlobag|1791|n|a KAZALO headword in the L section of the Umrli 1774-1804, folio 76. THE YEAR IS DERIVED from the folio (f.63 = 1790, f.74 = 1793), not read off an entry; ark 3:1:3QS7-899C-GSKT
+Verbanović|vide|Urbanović|Verbanovich Margarita … vide Urbanovich … 15 9bris|Karlobag|1790|n|a KAZALO headword in the V section of the Umrli 1774-1804, on the same page as «Vukich vide Smojver». THE YEAR IS DERIVED from the section's folio range, not read off an entry; ark 3:1:3QS7-899C-GS54

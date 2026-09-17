@@ -29,13 +29,41 @@ pub = {p["id"]: p for p in json.load(open(os.path.join(DATA, "people.json"), enc
 
 # What a bucket looks like. Deliberately narrow: these are phrases no priest ever
 # wrote, and no person was ever called.
+#
+# The second line was added on 15 September 2026, when a page-less contradiction
+# turned up a father entered as "Grah's for Investigation (not real)". The list
+# above missed it and four more like it — the ones that announce themselves
+# loudest, in capitals, in English, in brackets. A detector written from the
+# examples in front of it will always be shaped like those examples.
 BUCKET = re.compile(
     r"\bbrothers?\b|\bsisters?\b|\bto be sorted\b|\bfor sorting\b|\bsorting\b|"
-    r"\bworking\b|\bit seems\b|\bunknown\b|\d{4}\s*-\s*\d{4}\s*birth", re.I)
+    r"\bworking\b|\bit seems\b|\bunknown\b|\d{4}\s*-\s*\d{4}\s*birth|"
+    r"\bplaceholders?\b|\bfor investigation\b|\(not real\)", re.I)
+
+# And a second kind the phrase list cannot see: THE ALPHABET.
+#
+# Fifteen Zubrinic nodes are named with a single capital letter and nothing else
+# — "M Zubrinic Xubrinich Zubrinic" — and each is entered as the parent of every
+# Zubrinic whose name begins with that letter. They are also entered as one
+# another's siblings, so the tree asserts fifteen brothers and sisters called A
+# through W. It is a card drawer typed in as a family, and it was invisible to
+# the detector above because a drawer labelled "M" contains none of the words a
+# researcher writes when they know they are guessing.
+#
+# The test is deliberately strict — one letter, then a surname, and NO dates at
+# all — so a real person recorded only by an initial is not swept up with them.
+ALPHABET = re.compile(r"^\s*[A-Z\u017d\u010c\u0106\u0160\u0110]\s+\S")
+
+
+def is_alphabet(pid):
+    r = P[pid]
+    if not ALPHABET.match(gedcom.display(r) or ""):
+        return False
+    return not (r.get("birt") or r.get("deat") or r.get("bapm") or r.get("buri"))
 
 
 def is_bucket(pid):
-    return bool(BUCKET.search(gedcom.display(P[pid]) or ""))
+    return bool(BUCKET.search(gedcom.display(P[pid]) or "")) or is_alphabet(pid)
 
 
 rows, orphaned = [], []

@@ -1,0 +1,203 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import G from "../data/graves.json";
+// The photographed cemetery surveys — Otočac 8 October 2024, Senj the 9th.
+// Read out 15 September 2026 and, until today, published nowhere: graves.py
+// read only sources/findagrave/, so the only Croatian evidence in this archive
+// sat on disk. The two kinds are kept apart on purpose — an index is somebody
+// else's transcription, a stone is a photograph of the thing itself.
+const S = G.stones;
+const matched = S.rows.filter((r) => r.archiveName);
+const pageless = matched.filter((r) => !r.slug);
+const big = S.stones.filter((s) => s.people.length > 2).slice(0, 8);
+const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
+---
+<Base title="The Stones"
+  eyebrow="Otočac and Senj, photographed October 2024"
+  dek="Two hundred and twenty-six names read off photographs of the memorials themselves. Five direct ancestors are among them — and every stone that disagrees with the tree disagrees by one year, on a birth, never on a death.">
+
+  <section class="blk">
+    <p class="lede">This archive holds two kinds of cemetery evidence and they are
+    <strong>not the same thing</strong>. <a href={u("/port-pirie/")}>Find a Grave</a> gives
+    <strong>{G.n} memorials</strong> — an <strong>index</strong>, somebody else's transcription,
+    where a date may be the burial rather than the death. These
+    <strong>{S.n} names</strong> are <strong>stones</strong>: read off photographs of the memorials
+    themselves, at full resolution, in this archive. For Senj and Otočac it is the only evidence
+    there is, because <strong>Find a Grave has never covered either</strong>.</p>
+    <table class="kv">
+      {S.surveys.map((s) => (
+        <tr><th>{s.cemetery}</th><td>photographed <strong>{s.photographed}</strong> ·
+          <strong>{s.n}</strong> names · <span class="mono dim">{s.file}</span></td></tr>))}
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">How sure each reading is</div>
+    <h2>The confidence letter is the whole apparatus</h2>
+    <p>A gravestone photographed at a steep angle runs its last words out of frame, and a vase of
+    flowers stands exactly where the dates are. So every row says how it was read, and the letters
+    are not decoration — <strong>they have already been right four times</strong>.</p>
+    <table class="kv">
+      <tr><th class="mono">r</th><td><strong>{conf.r}</strong> rows — cropped and enlarged three to
+        eight times and read at full resolution.</td></tr>
+      <tr><th class="mono">p</th><td><strong>{conf.p}</strong> rows — read at contact-sheet scale.
+        The surname is secure; <strong>the digits are not verified</strong>.</td></tr>
+      <tr><th class="mono">?</th><td><strong>{conf["?"]}</strong> rows — uncertain, and not to be
+        relied on for anything.</td></tr>
+    </table>
+    <div class="note" style="margin-top:1.2rem"><strong>Four dates were wrong, and every one came
+    off a contact sheet.</strong> Mile Prpić 1985 → <strong>1982</strong>; Karlo Papić-Glavičić
+    1928 → <strong>1922</strong>; Budimir Boras 1950 → <strong>1954</strong>; and a man recorded as
+    <em>Pavo</em> Boras who is <strong>Fabo</strong>. Two more turned out to have
+    <strong>no readable death year at all</strong> — the years first written down ran off the edge
+    of the photograph. <strong>Nothing in the ancestor block moved:</strong> those rows were read at
+    full resolution the first time, and every one was confirmed.
+    <strong>Only an «r» row is allowed to contradict the tree below.</strong></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{matched.length} of {S.n} are people in this tree</div>
+    <h2>Who is matched, and how</h2>
+    <p class="lede">A Croatian stone gives a married woman under <strong>her husband's
+    surname</strong>. «MILKA BLAŽEVIĆ <em>rod.</em> PAPIĆ» is this tree's Milka Papić, and matching
+    on the maiden name alone would have missed her, her mother-in-law and her mother-in-law's
+    daughter-in-law alike. Three of the matches below are made through a
+    <strong>marriage</strong>, and they are marked.</p>
+    <table class="reg">
+      <thead><tr><th style="width:30%">On the stone</th><th style="width:12%"></th>
+        <th>In this tree</th></tr></thead>
+      <tbody>{matched.map((r) => (
+        <tr>
+          <td><strong>{r.given} {r.surname}</strong>
+            <span class="mono dim" style="display:block">{r.born || "?"}–{r.died || "?"}</span>
+            <span class="dek" style="display:block">{r.cemetery}</span></td>
+          <td class="mono">{r.conf}</td>
+          <td>{r.slug
+              ? <a href={u(`/people/${r.slug}/`)}>{r.archiveName}</a>
+              : <strong>{r.archiveName}</strong>}
+            <span class="mono dim" style="display:block">{r.archiveBorn || "?"} – {r.archiveDied || "?"}</span>
+            {r.viaMarriedName &&
+              <span class="dek" style="display:block">matched through her married name</span>}
+            {!r.slug &&
+              <span class="dek" style="display:block">in the tree, with no page of their own</span>}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Three disagreements, and they are one disagreement</div>
+    <h2>A stone is good for a death and weak for a birth</h2>
+    <p class="lede">Where a full-resolution reading matches somebody here, the years were compared
+    rather than merged. <strong>Every difference is a birth year and every difference is exactly one
+    year.</strong> Not one death year disagrees anywhere in {S.n} names.</p>
+    <table class="reg">
+      <thead><tr><th>Person</th><th>Field</th><th>This tree</th><th>The stone</th><th></th></tr></thead>
+      <tbody>{S.conflicts.map((c) => (
+        <tr>
+          <td><a href={u(`/people/${c.slug}/`)}>{c.name}</a>
+            <span class="dek" style="display:block">{c.cemetery}</span></td>
+          <td class="dek">{c.field === "born" ? "birth" : "death"}</td>
+          <td class="mono">{c.tree}</td>
+          <td class="mono">{c.stone}</td>
+          <td class="dek">{c.years > 0 ? `+${c.years}` : c.years} year</td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem">It is the obvious thing once it is written down. <strong>A death is
+    carved by people who have just lived through it.</strong> A birth is carved from memory,
+    sometimes forty years later, by the generation after. The pattern holds across
+    <strong>two cemeteries and three families</strong> — Blažević and Papić at Senj, Žubrinić at
+    Otočac — which is what makes it a rule rather than a coincidence.</p>
+    <p class="note" style="margin-top:1rem"><strong>The direction is not consistent, and an earlier
+    draft of the Senj note said it was.</strong> Ljubomir's stone is a year <em>early</em>; the
+    other two are a year <em>late</em>. That claim was written before these surveys were wired into
+    this page, and putting the three side by side is what exposed it. <strong>It is the size that
+    means something, not the sign.</strong></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{S.stones.length} stones carry more than one name</div>
+    <h2>Who is in the ground together</h2>
+    <p>A plot number is a household claim, and a family stone is the same claim in carved letters.
+    These are the largest.</p>
+    <table class="reg">
+      <thead><tr><th style="width:34%">The stone</th><th>Who is on it</th></tr></thead>
+      <tbody>{big.map((s) => (
+        <tr>
+          <td><span class="dek">{s.cemetery}</span>
+            <span style="display:block">{s.stone}</span>
+            <span class="mono dim" style="display:block">{s.photos.join(", ")}</span></td>
+          <td>{s.people.map((x) => (
+            <span style="display:block">
+              {x.slug
+                ? <a href={u(`/people/${x.slug}/`)}><strong>{x.given} {x.surname}</strong></a>
+                : <strong>{x.given} {x.surname}</strong>}
+              <span class="mono dim"> {x.born || "?"}–{x.died || "?"}</span>
+              <span class="mono dim"> [{x.conf}]</span>
+              {!x.slug && <span class="dek"> — not in this tree</span>}
+            </span>))}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{pageless.length} of the {matched.length} have no page</div>
+    <h2>The matcher was reading the register file, not the tree</h2>
+    <p class="lede">Until 15 September 2026 this page matched stones against
+    <code>people.json</code> and nothing else. That is not the tree, and it is not even everyone
+    with a page: <strong>fifty-two direct ancestors live in <code>ancestors.json</code> and not in
+    it</strong>, so their graves could not match at all. Beyond both sits everyone who exists only
+    as a name on somebody else's record — a parent, a spouse, a child — with
+    <strong>no page and no slug</strong>.</p>
+    <div class="note"><strong>This is the fifth tool in this archive found blind to the
+    unpublished, and the second time on this very evidence.</strong> «IVAN DEFRANĆESKI 1925–1995»
+    was photographed at Senj and filed as a surname that does not occur once in this tree. He is
+    <strong>Hedviga's husband</strong>. He now matches his own gravestone because the matcher was
+    taught where to look, not because somebody wrote a correction by hand.
+    <strong>Searching the published people is not searching the tree.</strong></div>
+    <p style="margin-top:1.2rem">Five more names came back with him — three Špalj, a Šojat — all of
+    them people this tree carries and this site has never published.</p>
+  </section>
+
+  {S.contested && S.contested.length > 0 &&
+  <section class="blk">
+    <div class="lab">{S.contested.length} person claimed by two stones</div>
+    <h2>When two graves want one person, the archive does not choose quietly</h2>
+    <p class="lede">Two Senj stones read <strong>KATA ŠPALJ</strong> — <span class="mono">1884–1975</span>
+    and <span class="mono">1886–1981</span> — and this tree holds exactly <strong>one</strong> Kate
+    Špalj, born 1886, with <strong>no death recorded</strong>. Both matched her, because a match
+    needs a year within two and there was no death year to disagree with.</p>
+    <table class="reg">
+      <thead><tr><th style="width:26%">In this tree</th><th>Claimed by</th><th style="width:24%">Kept</th></tr></thead>
+      <tbody>{S.contested.map((c) => (
+        <tr>
+          <td><strong>{c.person}</strong></td>
+          <td>{c.stones.map((x) => (<span style="display:block" class="mono">{x}</span>))}</td>
+          <td class="mono">{c.kept || "— neither"}</td>
+        </tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem">The better-scoring stone keeps the match and the other is unmatched
+    again; <strong>a tie drops both</strong>. One of those two women is not in this tree, and
+    publishing her under somebody else's name would be the Defrančeski mistake run backwards —
+    <strong>not a person missed, a person invented</strong>.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">What is not read</div>
+    <h2>The rest wants ten minutes in the cemetery, not another pass</h2>
+    <p><strong>{conf.p} rows are «p» and {conf["?"]} are «?»</strong>, and that is now a statement
+    about the photographs rather than a backlog. Where a stone was shot at a steep angle the far end
+    of each line runs out of frame; where flowers stood on the kerb, they stood on the dates.
+    <strong>No amount of enlargement fixes either.</strong></p>
+    <p style="margin-top:1rem">One name defeated the sweep entirely — a fallen plaque under reeds,
+    upside down, reading «<strong>MARIJAN …</strong>» and no more. It is the single best reason to
+    go back. <a href={u("/photograph-these/")}>What to photograph →</a></p>
+    <div class="note" style="margin-top:1.2rem"><strong>And one stone here was filed as a
+    stranger's for a day.</strong> «IVAN DEFRANĆESKI 1925–1995» was recorded as a surname that does
+    not occur once in this tree. <strong>It is Hedviga's husband</strong> — Ivan Anton Defrančeski,
+    born 1925, died 1995, carried on <a href={u("/people/hedviga-blazevic/")}>her own marriage</a>
+    with no page of his own, so a search of the published people returns nothing.
+    <strong>Searching the published people is not searching the tree</strong>, and this archive has
+    now made that mistake twice. The check that catches it is written.</div>
+  </section>
+</Base>

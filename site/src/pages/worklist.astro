@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import WorkList from "@daviddef/archive-kit/components/WorkList.astro";
+import work from "../data/worklist.json";
+
+const open = work.rows.filter((r) => !["done", "struck"].includes(r.state)).length;
+const mine = work.rows.filter((r) => r.owner === "this archive" && !["done", "struck"].includes(r.state)).length;
+---
+<Base title={work.title}
+  eyebrow={`${open} open · ${mine} of them this archive's own`}
+  dek={work.dek}>
+
+  <section class="blk">
+    <WorkList work={work} u={u} />
+  </section>
+
+  <section class="blk">
+    <div class="grid two">
+      <div class="card">
+        <h3>What this is not</h3>
+        <p>It is not a list of findings. Those have their own registers and are
+        better kept there — <a href={u("/searched/")}>what has been read</a>,
+        <a href={u("/open-questions/")}>what is still open</a>,
+        <a href={u("/corrections/")}>what was got wrong</a>,
+        <a href={u("/harvest/")}>what is left to read</a>.</p>
+        <p><strong>This page answers a different question — what is being done —
+        and until now nothing did.</strong></p>
+      </div>
+      <div class="card">
+        <h3>Why it has a gate</h3>
+        <p>Four earlier attempts at a list like this drifted, because each lived
+        in a document and nothing checked it. <strong>The conventions that held in
+        these archives held because a build refused when they slipped</strong> — the
+        menu, the living-person rule, the component ledger.</p>
+        <p><span class="mono">checkworklist.py</span> refuses a missing list, a
+        state outside the five, and <strong>a row with no owner</strong>. An item
+        nobody owns is how a list becomes wallpaper.</p>
+      </div>
+    </div>
+  </section>
+</Base>

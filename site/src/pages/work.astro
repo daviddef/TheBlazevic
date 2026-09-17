@@ -112,6 +112,61 @@ const byFam = Object.entries(
   </section>
 
   <section class="blk">
+    <div class="lab">Added 14 September 2026</div>
+    <h2>Four worlds, not one list</h2>
+    <p class="lede">With {W.rows.length} occupations in hand rather than sixteen, something shows
+    that a list cannot: <strong>this family's branches did not live the same kind of life.</strong>
+    The same tree reaches into a chartered Adriatic port, a stretch of the Military Frontier, a set
+    of hill villages, and a factory town — and the words the registers use in each are not
+    comparable with the words they use in the others.</p>
+    <p class="dek">{W.placed} of the {W.rows.length} rows carry a place specific enough to group;
+    the remaining {W.unplaced} do not, and are left out of this section rather than guessed at.</p>
+  </section>
+
+  {W.strata.map((st) => (
+    <section class="blk">
+      <h2>{st.name} <span class="dim mono">{st.n}</span></h2>
+      <p class="lede">{st.blurb}</p>
+      <table class="reg">
+        <thead><tr><th>Who</th><th>As written</th><th>In English</th><th class="mono">year</th></tr></thead>
+        <tbody>{st.rows.map((r) => (
+          <tr>
+            <td>{r.who}</td>
+            <td><strong>{r.what}</strong></td>
+            <td class="dim">{r.english || <span class="dim">—</span>}</td>
+            <td class="mono dek">{r.year || "—"}</td>
+          </tr>))}</tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <div class="lab">What the four worlds mean</div>
+    <h2>The Frontier register asks a different question</h2>
+    <p class="lede">This is not a difference of wealth. It is a difference in <strong>what the
+    document was for</strong>.</p>
+    <p>On the <strong>Military Frontier</strong> the column headed <em>conditio</em> is filled with
+    an <strong>office</strong> — <em class="mono">Confiniarius</em>, <em class="mono">Vigiliarum
+    Magister</em>, <em class="mono">Silvarum Custos</em>, <em class="mono">Custos Carcerum</em>,
+    <em class="mono">vicedecurio</em>. These men are enrolled soldiers who farm; the register
+    records their place in the establishment, not their trade.</p>
+    <p>At <strong>Karlobag</strong> the same column carries <em class="mono">mercator</em> and
+    <em class="mono">Cammeralis nauclerus</em> — merchant, chamber shipmaster — in a parish whose
+    godparents include a Giustiniani, a Pro-Colonel and a Baron von Holstein.</p>
+    <p>In the <strong>hill villages</strong> it says <em class="mono">seljak</em> or
+    <em class="mono">težak</em> and very little else, and often describes the
+    <a href={u("/gazetteer/")}>household</a> rather than the man.</p>
+    <p>At <strong>Senj</strong> it becomes an industrial hierarchy — <em class="mono">radnica ·
+    vratar · mašinista · meštar · nadglednica · nadčinovnik</em> — because there is a state tobacco
+    monopoly to be graded into.</p>
+    <div class="note"><strong>So an occupation here is not a fact about a person so much as a fact
+    about a place.</strong> Comparing a Frontier <em>Confiniarius</em> with a Senj
+    <em>bremenar</em> as though both were jobs would be a mistake; one is a status the state
+    assigned, the other is work a man did. The rows above are grouped so that the comparison is
+    made inside a world rather than across them.</div>
+  </section>
+
+  <section class="blk">
     <h2>Read off the registers</h2>
     <p class="lede">Each row cites the entry it came from. Nothing here is inferred, and where a
     word is ambiguous it is given as written rather than translated away.</p>
@@ -300,8 +355,18 @@ const byFam = Object.entries(
       <li><strong>Women are recorded three different ways, and only one of them is work.</strong>
       See below.</li>
     </ul>
+    <div class="note" style="margin-top:1.4rem"><strong>And three trades that are not in any
+    register here.</strong> The Hungarian business directories of this administration, searched for
+    the first time on 14 September 2026, put a <strong>Žubrinić as cashier of the Otočac savings
+    bank in 1908</strong>, a <strong>Daniel Žubrinić trading at Otočac in 1862</strong>, a
+    <strong>Papić on the board of the Senj steamship company</strong>, and
+    <strong>Blaževići of Krmpote working as masons in Vorarlberg in 1902</strong>. None of them is
+    joined to this family by a document — but the names existed at that level, which nothing in the
+    parish books would ever have shown. <a href={u("/hungarian-press/")}>The Hungarian press →</a></div>
+
     <p style="margin-top:1.2rem"><a class="btn" href={u("/frontier/")}>The Frontier →</a>
       {" "}<a class="btn" href={u("/zubrinic/")}>Žubrinić →</a>
+      {" "}<a class="btn" href={u("/hungarian-press/")}>The Hungarian press →</a>
       {" "}<a class="btn" href={u("/searched/")}>What has been searched →</a></p>
   </section>
 </Base>

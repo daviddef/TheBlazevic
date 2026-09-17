@@ -36,6 +36,7 @@ ORDER = [
     "surnames.py",
     "given_names.py",
     "latin_cases.py",
+    "names.py",
     "gazetteer.py",
     "consistency.py",
     "duplicates.py",
@@ -45,8 +46,14 @@ ORDER = [
     "work.py",
     "placefix.py",
     "targets.py",
+    "bynames.py",
+    "found.py",
     "register.py",
+    "walls.py",
+    "graves.py",
     "coverage.py",
+    "emigrants.py",
+    "searched.py",
     "whoindex.py",
 ]
 

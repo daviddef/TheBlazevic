@@ -9,6 +9,7 @@ import evidence from "../../data/evidence.json";
 import linkage from "../../data/linkage.json";
 import dupes from "../../data/duplicates.json";
 import placefixes from "../../data/placefixes.json";
+import buckets from "../../data/buckets.json";
 import PersonTree from "../../components/PersonTree.astro";
 
 export function getStaticPaths() {
@@ -22,6 +23,10 @@ const rel = p.rel || null;
 // place strings in the tree that name a real place hundreds of km from the event
 const badPlaces = placefixes.bySlug[p.slug] || [];
 const parents = rel?.parents ?? [];
+// The tree gives some people a sorting label where a father should be — a
+// drawer, not a parent. Those are filtered out of `rel` at build time, which
+// would otherwise leave the gap silent. Say it instead.
+const drawer = (buckets.orphaned || []).find((o) => o.slug === p.slug);
 const spouses = rel?.spouses ?? [];
 const siblings = rel?.siblings ?? [];
 const children = rel?.children ?? [];
@@ -42,10 +47,23 @@ const sameName = people
   .filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name))
   .slice(0, 24);
 const ev = evidence[p.slug] || { state: "tree", media: 0 };
+// The same five states the coverage table counts, as a chip: the sentence
+// below says it properly, this says it at a glance. Colour by how far the
+// claim is from a record, not by how flattering it is.
+const EVCHIP = {
+  read:     ["doc",  "Read"],
+  line:     ["inf",  "Direct line"],
+  scanned:  ["inf",  "Scanned, not read"],
+  indexed:  ["inf",  "In an index"],
+  tree:     ["lore", "Tree only"],
+  disputed: ["dis",  "Disputed"],
+};
+const chip = EVCHIP[ev.state] || EVCHIP.tree;
 const EV = {
   line: "a direct ancestor, with no record of their own read here",
   read: "a register or certificate has been read for this person",
   scanned: "an image is attached to them that has not been read out",
+  indexed: "an index names them \u2014 somebody else\u2019s transcription, not a document read here",
   tree: "everything here comes from the family tree, and is unverified",
   disputed: "this archive has shown something recorded about them to be wrong",
 };
@@ -179,6 +197,20 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
     </table>
   </section>
 
+  {drawer && (
+    <section class="blk">
+      <h2>No parent is recorded for this person</h2>
+      <p>The family tree does give one. It is not a person: it is
+      <strong class="mono">{drawer.parent}</strong> — a <strong>sorting label</strong>,
+      one of the drawers a researcher used to hold names they had not placed yet.
+      This archive does not publish those as ancestors, so the space above is
+      empty rather than filled with a filing system.</p>
+      <p class="dek"><strong>It is not a small thing.</strong> {buckets.orphaned.length} published
+      people here have a label where a father should be, and {buckets.hanging} hang off one
+      somewhere. <a href={u("/buckets/")}>What the labels are →</a></p>
+    </section>
+  )}
+
   {rel && (parents.length + spouses.length + siblings.length + children.length) > 0 && (
     <section class="blk">
       <h2>Family</h2>
@@ -191,13 +223,17 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
     <div class="grid two">
       <div class="card">
         <h3>Where this comes from</h3>
+        <p class="chips"><span class={"chip " + chip[0]}>{chip[1]}</span></p>
         <p><strong>{EV[ev.state]}.</strong></p>
         {ev.media > 0 && (
           <p class="dek" style="margin-top:.5rem">{ev.media}
             {" "}{ev.media === 1 ? "image is" : "images are"} attached to this person
             {mine.filter((m) => m.kind === "document").length > 0
-              ? <span>, of which {mine.filter((m) => m.kind === "document").length} are documents
-                  rather than photographs.</span>
+              ? <span>, of which {mine.filter((m) => m.kind === "document").length}
+                  {mine.filter((m) => m.kind === "document").length === 1
+                    ? " is a document" : " are documents"} rather than
+                  {mine.filter((m) => m.kind === "document").length === 1
+                    ? " a photograph." : " photographs."}</span>
               : "."}</p>)}
         {fixes.length > 0 && (
           <p class="dek" style="margin-top:.5rem">{fixes.length}

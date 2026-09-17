@@ -1,0 +1,30 @@
+---
+/* Everyone one person is related to. The chart, the graph builder and the
+   styles are all the kit's — what is local is this archive's own people file
+   and which person the page opens on. */
+import Base from "../layouts/Base.astro";
+import Bloodline from "@daviddef/archive-kit/components/Bloodline.astro";
+import { graph, components } from "@daviddef/archive-kit/lib/bloodline.js";
+import "@daviddef/archive-kit/styles/bloodline.css";
+import raw from "../data/people.json";
+
+const rows = Array.isArray(raw) ? raw : Object.values(raw).find((v) => Array.isArray(v)) || [];
+const people = graph(rows);
+const linked = Object.entries(people).filter(([, p]) =>
+  p.parents.length || p.children.length || p.siblings.length);
+const comps = components(Object.fromEntries(linked));
+/* open on somebody with all three lanes filled, so the first chart a reader
+   sees teaches them what the page does */
+const shape = (s) => {
+  const p = people[s];
+  const up = p.parents.length, side = p.siblings.length, down = p.children.length;
+  return (up ? 1000 : 0) + (down ? 1000 : 0) + (side ? 500 : 0) + up + side + down;
+};
+const start = comps[0] ? [...comps[0]].sort((a, b) => shape(b) - shape(a))[0] : null;
+---
+<Base
+  title="Blood relatives"
+  eyebrow={`${linked.length} people joined by what this archive has read`}
+  dek="Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside them, children below — and through them the aunts, uncles and cousins. Every line is drawn in the colour of the record that made it.">
+  <Bloodline people={people} start={start} total={rows.length} />
+</Base>

@@ -78,7 +78,10 @@ collection. It does exist. It is 384 images away and it has house numbers in it.
   number box is slow and often does not take.
 * **Drop a zoom level for overviews.** A full frame at level 13 is ~400 tiles;
   at level 10 it is 9. Survey at level 10, read at level 13.
-* **Rotate the margin crop 90°** to read the vertical *Pagus* text.
+* **Rotate the margin crop +90°** to read the vertical *Pagus* text — the village
+  is written **bottom-to-top**, so −90° renders it upside down and it reads as
+  noise. This cost the first sitting the whole village map; see 14 September
+  below.
 * **Give every tile load a timeout.** With the Browser pane hidden the tab is
   throttled and a stalled tile will otherwise hang the whole call.
 
@@ -215,6 +218,200 @@ openings, and two sittings have not cracked it. The target is now precise —
 **Šumećica, Domus 2 and Domus 24** — and the tooling is better, but it needs a
 dedicated run rather than the tail of a session.
 
+
+---
+
+# The sitting, 14 September 2026 — the book is navigable after all
+
+Opened to read **Domus 2 and Domus 24 at Šumećica**, the reading that would say
+whether ahnentafel 10 stayed in his father's house or moved.
+**That question is not answered. What came out instead is the map of the book**,
+which is worth more than one household, because it turns a 110-opening sweep
+into a five-opening one.
+
+## The film, written down for the first time
+
+    Catalog     koha:837578 — "Matična knjiga, 1710-1872"
+                Hrvatski državni arhiv u Zagrebu ·
+                Rimokatolička crkva, Župa Otočac
+    Film        2121770 · DGS 005498269 · 384 images
+    Contents    Status animarum 1710-1846 · Vjenčani 1859-1872 ·
+                Umrli 1780-1836, 1859-1872
+    Viewer      /search/film/005498269
+
+Two earlier sittings used this film without recording how to get back to it.
+**The catalog search that finds it is `q.keywords`** — `q.text`, `q.anyPlace`
+and `q.placeString` are all rejected by the catalog service.
+
+## Still not full-text indexed
+
+    GET /service/search/fulltext/search/groupNumber?ids=5498269   ->  {"ids": []}
+
+Re-tested today against all three of `5498269`, `2121770`, `005498269`.
+**Unchanged since 13 September. There is no search. It is read by eye.**
+
+## The margin IS readable — the earlier sitting rotated it the wrong way
+
+The last sitting recorded the *Pagus* margin as unreliable, lost in the binding
+shadow. **It is not.** The fault was the rotation: the village is written
+**bottom-to-top** in the gutter, so a −90° rotation renders it upside down and
+it reads as noise. Rotate **+90°** and it is plain.
+
+    crop   x 0.06 - 0.33,  y 0.13 - 0.98      (the left-hand page)
+    zoom   one level down from full
+    draw   translate(stripHeight, 0); rotate(+PI/2)
+    filter contrast(165%) brightness(108%) grayscale(1)
+
+Four openings stack inside one 790-wide sheet. The village name reads at a
+glance.
+
+## The village map of the census
+
+| image | *Pagus* |
+|---|---|
+| 10, 15, 20 | **Ottosaz** — Otočac town |
+| 25 | **Luka** |
+| 30, 40, 45 | **Dubrava**, under the district heading **Biskupljak** |
+| 35, 50, 55 | **Novoselia** |
+| 60, 65, 70 | **Lieška** |
+| 75 | not resolved |
+| 80 | **Kostelievo Selo** |
+| 85, 90 | **Obilje** |
+| 95, 100, 101 | **Beljue** |
+| **102 – 106** | **Shumechicza** |
+| 107 | **Luka** again |
+| 108, 109 | ***Extinctæ*** — a section of households that had died out |
+
+**Šumećica is five openings. That is the whole village in this book**, and it is
+the whole of the remaining job.
+
+## The columns, corrected and complete
+
+    Pagus · Pagus · N° Domus · Nomina Familiæ · Dies · Mensis · Annus
+    · Ætas · Conjugium · Confirmatio · Confessio / Communio
+
+Two *Pagus* columns, not one: the outer carries a district (*Biskupljak*), the
+inner the village. **The N° Domus column sits at x ≈ 0.19 – 0.23**, immediately
+right of the margin — the earlier estimate of 0.16 lands on the *Pagus*.
+
+## What was read at the page
+
+**Image 102 · Domus 9 · Josephus Dašović.** Georgius · Petrus filius Josephi,
+27 June 1818 · Michael, 4 December 1827 · Thomas, 29 July 1831 · Josephus filius
+Petri, 13 March 1846 · Maria uxor Josephi · **Anna uxor Petri nata Žunić** ·
+Maria filia Petri · Joanna filia Petri.
+
+**Image 102, lower · Nicolaus Štabinčić**, 24 November 1798, with *Michael
+filius dictus Georgij*, 2 May 1802.
+
+**Image 103 · Domus 4 · Mattheus Orehović.** Joannes · Franciscus filius dicti ·
+Lucas · Petrus filius dicti · Matthæus Francisci · Matthias · Joannes filius
+Matthæi · **Martha uxor Georgii nata Orehović** · Magdalena · Catharina ·
+Stephana filia Francisci · Margaretha · Maria filia Georgii · Martha uxor
+Francisci.
+
+**Images 104, 105, 106** were read at survey resolution but their *Domus* digits
+are not pinned and are not being written down. Heads glimpsed include a
+*Valentinus*, an *Antonius*, a *Josephus Kovač*(?) and a *Franciscus
+Renović*(?), with a *Rosalia … Thomæ nata Stulac* and a *Mandalena uxor
+Michaelis … Dubrava* among the women.
+
+**The Domus numbers are not in order.** Image 102 opens at **9**, image 103 at
+**4**. So the book cannot be walked to a house number; every opening of the five
+has to be read.
+
+## The negative, stated carefully
+
+**No Žubrinić household has appeared at Šumećica in the three openings read so
+far, and neither Domus 2 nor Domus 24 has been seen.**
+
+**This is not yet a finding.** Two of the five openings are unread, and a
+household can run across an opening. But it is worth flagging, because if it
+holds it is strange: this census carries births to **1846**, and ahnentafel 20
+**Michaël Žubrinić is at «ex pago Shumechicza N° 24» in January 1834**, read off
+his son's baptism. A man in the village in 1834 should be in a book current to
+1846. Either he is on 104–106, or the Žubrinići sit somewhere else in this
+volume — the *Extinctæ* section at 108–109 is the obvious second place to look.
+
+## Where it stopped
+
+FamilySearch refused the session. Image 102's own ark — fetched successfully
+minutes earlier — returned **403**, and so did image 30's, still 403 after forty
+seconds. **That is the block, not the blip**, by the test in
+`tools/familysearch.md`, and the rule is to stop for the day.
+
+## The next sitting is short
+
+    images 104, 105, 106     read every N° Domus and every household head
+    images 108, 109          the Extinctæ section, for Žubrinić
+    then                     Domus 2 and Domus 24, whichever opening holds them
+
+Three openings, then two. **Half an hour's work against a book that was written
+off as a hundred-opening sweep this morning.**
+
+
+---
+
+# The census answered — and the answer is that it cannot answer
+
+Read out the same day, once FamilySearch let the session back in.
+**All five Šumećica openings are now read, and so is everything after them.**
+
+## Šumećica in this book, household by household
+
+| image | *N° Domus* | head |
+|---|---|---|
+| 102 | **9** | **Josephus Dašović** — Georgius · Petrus, 27 June 1818 · Michael, 4 Dec 1827 · Thomas, 29 July 1831 · Josephus *filius Petri*, 13 March 1846 · Maria *uxor Josephi* · Anna *uxor Petri nata Žunić* · Maria and Joanna *filiæ Petri* |
+| 102 | **10** | **Nicolaus Štabinčić**, 24 Nov 1798, with *Michael filius dictus Georgij*, 2 May 1802 |
+| 103 | **4** | **Mattheus Orehović** — fourteen people, with *Martha uxor Georgii nata Orehović* |
+| 104 | — | continuation of Domus 4; the whole left page is women, no new number |
+| 105 | ~**13** | a **Paulus** household — Magdalena, Catharina, Barbara, Helena, Maria, with *Rosalia … Thomæ nata Stulac* and *Mandalena uxor Michaelis … Dubrava* |
+| 105 | ~**14** | a household of **Andreas · Stephanus · Elias · Petrus · Matthæus**, births 1806–1830 |
+| 106 | — | **Valentinus Janežić** and **Antonius Ollar**; then **Josephus Kovačić**; then **Vincentia Orehovački** with *Francisca uxor dicti* |
+
+**Seven or eight households. Dašović, Štabinčić, Orehović, Janežić, Ollar,
+Kovačić, Orehovački.**
+
+## The finding, and it is a negative
+
+**There is no Žubrinić household at Šumećica in this book. There is no Domus 2
+and there is no Domus 24.**
+
+That is not a gap in the reading. Every opening of the block was read; the
+*Extinctæ* section at 108–109 was read (it is one opening, photographed twice —
+*Joannes Grgurin*, *Stephanus filius dicti*, and the twins *Marcus et Josephus
+Georgii dicti Gemelli*); image 110 is a different village; **111 returns to
+Novoselia**; and **the ruled census stops about image 112.** Images 113–119 are
+later additions in another hand with **no *Pagus* column at all**, and 121
+onward is blank until the marriage register.
+
+## What that means, said plainly
+
+The Žubrinići were demonstrably at Šumećica — **house 24 in January 1834**, on
+ahnentafel 10's own baptism, and **house 2 in 1856 and 1858**, read at the page
+this morning. **They are not in the parish's own household census.** The likeliest
+reading is that **the ruled Šumećica block was written once, early, and never
+re-made** — its households carry births into the 1840s because members were
+added to existing families, not because new families were entered.
+
+**So this book is not the instrument for question 4, and that is now known
+rather than assumed.** Two sittings have been spent on it. It gave the village
+map, the Frontier households of half a dozen other surnames, and a clean
+negative. It will not give the Žubrinić house.
+
+## The instrument that will
+
+**The Otočac baptism registers, 1834–1846 and 1846–1858 — and they are indexed.**
+
+Every baptism in those books writes the household into the *Conditio* column in
+the form ***«Rusticus / Confiniarius e Šumećica N° X»***. The index gives
+**ninety-three Žubrinić baptisms at Otočac between 1846 and 1860**, with both
+parents named. Read the *Conditio* cell of each Šumećica one and the Žubrinić
+households of the village rebuild themselves **by house number**, from a
+register, for the whole span 1834–1858.
+
+That is a better instrument than the census, it is searchable, and nobody has
+opened it for this purpose. **It is the next sitting.**
 ---
 
 # Third sitting, 14 September 2026 — Šumećica found and read in full

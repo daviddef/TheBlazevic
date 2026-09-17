@@ -2,6 +2,11 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
+import G from "../data/graves.json";
+// Find a Grave, 14 September 2026 — the first cemetery source this archive
+// has ever used. Plots are the point: a lot number puts people in the same
+// ground, which is a household claim a parish register cannot make.
+const bigPlots = G.shared.filter((s) => s.unknown > 0).slice(0, 9);
 const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|Solomontown|Port Germein/i
   .test(`${p.bornPlace} ${p.diedPlace}`)).sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
 ---
@@ -107,6 +112,79 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
     <span class="mono">Subrinich</span>. The three <span class="mono">Blazevich</span> entries are a
     Queensland household of Thomas Bogin Blazevich, who married Jane Chambers in 1940, and are
     unconnected to anyone here.</p>
+  </section>
+
+
+  <section class="blk">
+    <div class="lab">Added 14 September 2026 · Find a Grave</div>
+    <h2>The graves, and who lies in them together</h2>
+    <p class="lede">This archive had never used a cemetery index. Find a Grave holds
+    <strong>{G.n} Zubrinich memorials</strong> and <strong>not one of them is in Croatia</strong> —
+    twenty-nine at <strong>Port Pirie</strong>, thirteen at <strong>Enfield</strong> in Adelaide,
+    six at <strong>Timmins in Ontario</strong>, four at <strong>Whyalla</strong>, two at
+    <strong>Broken Hill</strong>, two in <strong>Pennsylvania</strong>, one in
+    <strong>California</strong>. The whole of this surname's recorded burial is emigration.</p>
+
+    <p><strong>Sixteen of the {G.n} are people on this site.</strong> The other
+    {G.unmatched} are not, and the plot numbers say who they were: <strong>a lot number is a
+    household claim</strong>, and it is one a parish register cannot make.</p>
+
+    <div class="note"><strong>Rose has dates.</strong> John Zubrinich lies in
+    <span class="mono">CC, Lot 26</span> at Port Pirie, and beside him in grave 2 is
+    <strong>Rose Zubrinich, 17 March 1860 – 24 September 1949</strong> — the Rose Gormley he
+    married at St Luke's in 1884, who until today had no dates in this archive at all and was born
+    within a fortnight of her husband. <strong>In his own grave, number 1, are two of their
+    children</strong> — Susannah, and Stanley who died at six months.</div>
+
+    <table class="reg" style="margin-top:1.4rem">
+      <thead><tr><th style="width:26%">Plot</th><th>Who is in it</th></tr></thead>
+      <tbody>{bigPlots.map((s) => (
+        <tr>
+          <td><strong class="mono">{s.plot.split(" · ")[1]}</strong>
+            <span class="dek" style="display:block">{s.cemetery}</span></td>
+          <td>{s.people.map((x) => (
+            <span style="display:block">
+              {x.slug
+                ? <a href={u(`/people/${x.slug}/`)}><strong>{x.name}</strong></a>
+                : <strong>{x.name}</strong>}
+              <span class="mono dim"> {x.born || "?"}–{x.died || "?"}</span>
+              {!x.slug && <span class="dek"> — not in this tree</span>}
+            </span>))}</td>
+        </tr>))}</tbody>
+    </table>
+
+    <h3 style="margin-top:1.8rem">Six dates disagree, and five of them are not disagreements</h3>
+    <p>Where a memorial matches somebody here, the dates were compared rather than merged.
+    <strong>Five of the six differences run the same way</strong> — Find a Grave one, two or ten
+    days <em>later</em> than the tree, never earlier. That is not a conflict. <strong>It is the
+    burial.</strong> A cemetery records the interment, a parish records the death, and the gap
+    between them is the funeral.</p>
+    <table class="reg">
+      <thead><tr><th>Person</th><th>This tree</th><th>Find a Grave</th><th>Difference</th></tr></thead>
+      <tbody>{G.conflicts.map((c) => (
+        <tr>
+          <td><a href={u(`/people/${c.slug}/`)}>{c.name}</a></td>
+          <td class="mono">{c.tree}</td>
+          <td class="mono">{c.grave}</td>
+          <td class={Math.abs(c.days) > 30 ? "warn" : "dek"}>
+            {c.days > 0 ? `+${c.days} days` : `${c.days} days`}
+            {Math.abs(c.days) > 30 && " — a real conflict"}</td>
+        </tr>))}</tbody>
+    </table>
+    <p class="note" style="margin-top:1rem"><strong>The sixth is real.</strong>
+    <a href={u("/people/leonard-james-zubrinich/")}>Leonard James</a> died on
+    <strong>25 March</strong> — both sources agree to the day — but the tree says
+    <strong>1985</strong> and the Broken Hill cemetery says <strong>1983</strong>. Same day, same
+    month, two years apart, which is the shape of a typed digit rather than a misremembered date.
+    <strong>This archive does not know which is right.</strong> His headstone would settle it, and
+    Find a Grave has a photograph of it.</p>
+
+    <p style="margin-top:1.2rem"><strong>And one name closes a question this page opened.</strong>
+    Find a Grave records <strong>Stanley J Zubrinich, a veteran, died 8 July 2001</strong>, at the
+    South Australian Garden of Remembrance — which is very likely the
+    <strong>Stanley Joseph Zubrinich</strong> who married in Queensland in 1947 above, and puts him
+    back in South Australia at the end. Still a candidate, not a relative: nothing yet names his
+    parents.</p>
   </section>
 
 </Base>

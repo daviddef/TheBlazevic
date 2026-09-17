@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 
@@ -18,6 +19,12 @@ const C = [
     now: "At <strong>5,812 pixels</strong> the row reads <span class='mono'>“Vukelić pl. Petar gostioničar, i † Vjekoslava Putnić”</span>. <strong>The cross is in front of Vjekoslava, not Petar</strong> — it was the mother who had died. Her name is not Vica. And Koloman is a <strong><em>meštar</em></strong> — a <strong>master</strong>, a grade this archive already maps on the factory ladder — not a broker.",
     cost: "Three published details, one of them a death attributed to the wrong parent. All three came from squinting at a thumbnail, which is what <a href='/open-questions'>question 5c</a> was about. Her surname, <span class='mono'>Putnić</span> or <span class='mono'>Putinić</span>, is <strong>still not settled</strong> and is written here as unsettled.",
     href: "/milka" },
+
+  { d: "14 September 2026", t: "“Vrbnik baptisms.” They are Selce, and a pencil put us wrong.",
+    was: "That the 1806 baptism of <a href='/people/josephum-antic'>ahnentafel 24</a> — the entry underlining <em>Antich Papa</em>, on which <a href='/open-questions'>question 5</a> rests — came from <strong>Vrbnik, on the island of Krk</strong>. <span class='mono'>/searched</span> listed it under <q>Vrbnik baptisms</q> for weeks.",
+    now: "It is <strong>Selce</strong>. The word <span class='mono'>VRBNIK</span> on that page is a <strong>modern pencil annotation</strong> in block capitals, not the register's own words. The Selce death register for the same year is written <span class='mono'>per me Mich: Rombol <strong>Capell: Loci</strong></span>, and the baptism signs itself <span class='mono'>Michael Rombol <strong>C:L:</strong></span> — the same man, the same office, the same year. The same page buries <strong>Helena, widow of Antonius Antich</strong>, on 20 June 1806.",
+    cost: "The tree said Selce all along and this archive contradicted it on the strength of a pencil. <strong>A finding-aid annotation is somebody's opinion written on a photograph</strong>, and it was treated as evidence. The family never crossed from Krk — they are at Selce in 1806, 1809, 1835 and 1838 under two generations of Rombol priests.",
+    href: "/open-questions" },
 
   { d: "14 September 2026", t: "I said a register contradicted the tree. The tree was right.",
     was: "Published as <strong>question 13b</strong> for a few hours: that the Selce marriage of 1835, calling the bride <em class='mono'>filia Denatorum Georgii et Margarittæ</em>, put <a href='/people/margarita-brozovic'>ahnentafel 51</a> in her grave <strong>seven years before the tree does</strong>, and that <q>this archive follows the register</q>.",
@@ -186,7 +193,7 @@ const kinds = {
   corrected: "Corrected", note: "Noted", confirmed: "Confirmed", disputed: "Disputed",
 };
 ---
-<Base title="What Changed"
+<Base title="Corrections"
   eyebrow="Twenty-one things this archive got wrong, and what fixed them"
   dek="An archive that never contradicts itself is not being careful; it is not checking. This is the list of claims made here and then withdrawn, kept in the open because the reasoning that failed is as useful as the reasoning that held.">
 
@@ -199,20 +206,15 @@ const kinds = {
     sweeping the <em>built</em> site rather than the source, which is a lesson about where to look.</p>
   </section>
 
-  {C.map((c, i) => (
-    <section class="blk fix">
-      <div class="lab">{c.d}</div>
-      <h2><span class="mono dim">{i + 1}.</span> {c.t}</h2>
-      <table class="kv" style="margin-top:.8rem">
-        <tbody>
-          <tr><th>This archive said</th><td set:html={base(c.was)} /></tr>
-          <tr><th>The record says</th><td set:html={base(c.now)} /></tr>
-          <tr><th>What it cost</th><td set:html={base(c.cost)} /></tr>
-        </tbody>
-      </table>
-      <p style="margin-top:.8rem"><a class="btn" href={u(c.href)}>Where it now stands →</a></p>
-    </section>
-  ))}
+  <Corrections u={u} rows={C.map((c, i) => ({
+    when: c.d,
+    kind: `${i + 1}. ${c.t}`,
+    was: base(c.was),
+    now: base(c.now),
+    why: base(c.cost),
+    where: c.href,
+    whereLabel: "Where it now stands →",
+  }))} />
 
   <section class="blk">
     <h2>And the record-level corrections</h2>

@@ -2883,7 +2883,7 @@
    "parish": "Krivi Put",
    "kind": "births",
    "holds": "1847-1884",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 100,
    "reachable": 58,
    "ahn": [
@@ -3476,7 +3476,7 @@
    "parish": "Krivi Put",
    "kind": "deaths",
    "holds": "1878-1934",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 53,
    "reachable": 50,
    "ahn": [],
@@ -3987,7 +3987,7 @@
    "parish": "Selce",
    "kind": "births",
    "holds": "1778-1861",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 40,
    "reachable": 34,
    "ahn": [
@@ -4667,7 +4667,7 @@
    "parish": "Selce",
    "kind": "deaths",
    "holds": "1790-1886",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 19,
    "reachable": 19,
    "ahn": [
@@ -5039,7 +5039,7 @@
    "parish": "Ledenice",
    "kind": "births",
    "holds": "1734-1894",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 17,
    "reachable": 15,
    "ahn": [],
@@ -5197,6 +5197,239 @@
    ]
   },
   {
+   "parish": "Karlobag",
+   "kind": "deaths",
+   "holds": "1774-1804,1804-1861",
+   "verified": "VERIFIED 14 Sept 2026 - all three films opened. Also a Stanje dusa, 122 images, HDA 715 - by FAMILY number (no house numbers in this parish), alphabetical ONCE (images 8-75, then later additions running into the 1870s), communion columns 1844-1857",
+   "n": 11,
+   "reachable": 10,
+   "ahn": [
+    52,
+    55,
+    104,
+    105,
+    107,
+    108,
+    110,
+    111,
+    212,
+    220
+   ],
+   "people": [
+    {
+     "slug": "josiph-smojver-vukic",
+     "name": "Josiph Smojver Vukić",
+     "year": 1776,
+     "village": "karlobag",
+     "ahn": 212,
+     "inside": true,
+     "date": "16 MAY 1776",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "jacob-pilipic",
+     "name": "Jacob Pilipic",
+     "year": 1778,
+     "village": "karlobag",
+     "ahn": 104,
+     "inside": true,
+     "date": "10 APR 1778",
+     "place": "Karlobag"
+    },
+    {
+     "slug": "nicolaus-gerkacs",
+     "name": "Nicolaus Gerkacs",
+     "year": 1783,
+     "village": "karlobag",
+     "ahn": 220,
+     "inside": true,
+     "date": "30 OCT 1783",
+     "place": "Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "catherina-catta-luckinic",
+     "name": "Catherina (Catta) Luckinić",
+     "year": 1790,
+     "village": "karlobag",
+     "ahn": 105,
+     "inside": true,
+     "date": "29 MAY 1790",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "georgi-uroda",
+     "name": "Georgi Uroda",
+     "year": 1791,
+     "village": "karlobag",
+     "ahn": 108,
+     "inside": true,
+     "date": "10 SEP 1791",
+     "place": "Karlobag"
+    },
+    {
+     "slug": "oliva-andreana-bacchi",
+     "name": "Oliva Andreana Bacchi",
+     "year": 1795,
+     "village": "karlobag",
+     "ahn": 107,
+     "inside": true,
+     "date": "15 SEP 1795",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "lucia-maja-tomljanovic",
+     "name": "Lucia (Maja) Tomljanović",
+     "year": 1809,
+     "village": "karlobag",
+     "ahn": 111,
+     "inside": true,
+     "date": "19 SEP 1809",
+     "place": "Karlobag"
+    },
+    {
+     "slug": "josephus-josip-pilipic",
+     "name": "Josephus (Josip) Pilipic",
+     "year": 1828,
+     "village": "karlobag",
+     "ahn": 52,
+     "inside": true,
+     "date": "26 JUN 1828",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "mariam-gerkacs-gergacs",
+     "name": "Mariam Gerkacs (Gergacs)",
+     "year": 1834,
+     "village": "karlobag",
+     "ahn": 55,
+     "inside": true,
+     "date": "6 AUG 1834",
+     "place": "Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+     "year": 1836,
+     "village": "karlobag",
+     "ahn": 110,
+     "inside": true,
+     "date": "9 JUL 1836",
+     "place": "Karlobag, Ličko-senjska županija, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Karlobag",
+   "kind": "births",
+   "holds": "1691-1770,1771-1804,1804-1861",
+   "verified": "VERIFIED 14 Sept 2026 - all three films opened. Also a Stanje dusa, 122 images, HDA 715 - by FAMILY number (no house numbers in this parish), alphabetical ONCE (images 8-75, then later additions running into the 1870s), communion columns 1844-1857",
+   "n": 10,
+   "reachable": 9,
+   "ahn": [
+    13,
+    26,
+    27,
+    52,
+    53,
+    54,
+    55,
+    105,
+    106
+   ],
+   "people": [
+    {
+     "slug": "catherina-catta-luckinic",
+     "name": "Catherina (Catta) Luckinić",
+     "year": 1727,
+     "village": "karlobag",
+     "ahn": 105,
+     "inside": true,
+     "date": "30 MAR 1727",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "name": "Vicentius Fabiano Smojver Vukić",
+     "year": 1754,
+     "village": "karlobag",
+     "ahn": 106,
+     "inside": true,
+     "date": "18 JAN 1754",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "josephus-josip-pilipic",
+     "name": "Josephus (Josip) Pilipic",
+     "year": 1768,
+     "village": "karlobag",
+     "ahn": 52,
+     "inside": true,
+     "date": "11 MAR 1768",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "joannis-georgius-georgio-uroda",
+     "name": "Joannis Georgius (Georgio) Uroda",
+     "year": 1777,
+     "village": "karlobag",
+     "ahn": 54,
+     "inside": true,
+     "date": "22 APR 1777",
+     "place": "Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "oliva-maria-smojver",
+     "name": "Oliva Maria Smojver",
+     "year": 1781,
+     "village": "karlobag",
+     "ahn": 53,
+     "inside": true,
+     "date": "MAR 1781",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "mariam-gerkacs-gergacs",
+     "name": "Mariam Gerkacs (Gergacs)",
+     "year": 1789,
+     "village": "karlobag",
+     "ahn": 55,
+     "inside": true,
+     "date": "11 AUG 1789",
+     "place": "Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+     "year": 1805,
+     "village": "karlobag",
+     "ahn": 26,
+     "inside": true,
+     "date": "17 NOV 1805",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "matia-mathiam-georgiam-uroda",
+     "name": "Matia (Mathiam Georgiam) Uroda",
+     "year": 1810,
+     "village": "karlobag",
+     "ahn": 27,
+     "inside": true,
+     "date": "23 APR 1810",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "matia-matthea-pilipic",
+     "name": "Matia / Matthea \"Matija\" Pilipić",
+     "year": 1838,
+     "village": "karlobag",
+     "ahn": 13,
+     "inside": true,
+     "date": "18 SEP 1838",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    }
+   ]
+  },
+  {
    "parish": "Novi Vinodolski",
    "kind": "deaths",
    "holds": "1704-1899",
@@ -5291,7 +5524,7 @@
    "parish": "Ledenice",
    "kind": "deaths",
    "holds": "1734-1902",
-   "verified": "unverified",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 4,
    "reachable": 3,
    "ahn": [],
@@ -5364,8 +5597,8 @@
   {
    "parish": "Crikvenica",
    "kind": "deaths",
-   "holds": "unknown",
-   "verified": "not checked",
+   "holds": "1815-1908",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 3,
    "reachable": 0,
    "ahn": [],
@@ -5374,8 +5607,8 @@
   {
    "parish": "Dramalj, Sv. Jelena",
    "kind": "births",
-   "holds": "unknown",
-   "verified": "not checked",
+   "holds": "1816-1858",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label — one film only, nothing after 1858",
    "n": 3,
    "reachable": 0,
    "ahn": [],
@@ -5402,26 +5635,6 @@
    "people": []
   },
   {
-   "parish": "Karlobag",
-   "kind": "births",
-   "holds": "unknown",
-   "verified": "already the best-read parish here; ranges not checked",
-   "n": 10,
-   "reachable": 0,
-   "ahn": [],
-   "people": []
-  },
-  {
-   "parish": "Karlobag",
-   "kind": "deaths",
-   "holds": "unknown",
-   "verified": "already the best-read parish here; ranges not checked",
-   "n": 11,
-   "reachable": 0,
-   "ahn": [],
-   "people": []
-  },
-  {
    "parish": "Krmpote-Vodice",
    "kind": "deaths",
    "holds": "none",
@@ -5434,8 +5647,8 @@
   {
    "parish": "Rijeka",
    "kind": "births",
-   "holds": "unknown",
-   "verified": "NOT CHECKED — needed for question 13, Ljubomir's 1892 baptism",
+   "holds": "1594-1891,1900-1901",
+   "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
    "n": 1,
    "reachable": 0,
    "ahn": [],
@@ -5444,15 +5657,35 @@
   {
    "parish": "Rijeka",
    "kind": "deaths",
-   "holds": "unknown",
-   "verified": "NOT CHECKED — needed for question 13, Ljubomir's 1892 baptism",
+   "holds": "1702-1892",
+   "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
    "n": 3,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
+   "parish": "Smiljan",
+   "kind": "births",
+   "holds": "1834-1857",
+   "verified": "catalogue-verified 15 Sept 2026 — IT IS ITS OWN PARISH, koha:465540, not a village of Gospic. Births are ITEM 4 of roll 1419217, so the film number will not reach them. Nothing before 1834: ahnentafel 426 is a generation of about 1700 and is NOT on film here",
+   "n": 1,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
+   "parish": "unknown",
+   "kind": "births",
+   "holds": "unknown",
+   "verified": "NOT A PARISH AND NOT IN THE CATALOGUE — searched 15 Sept 2026, no hit for «Staniste» or «Montani». A staniste is a herders' settlement; its events are written into a neighbouring parish's book. The Tomljanovici here are Karlobag, and ahnentafel 111 died 19 September 1809, inside Karlobag Umrli 1804-1861",
+   "n": 2,
    "reachable": 0,
    "ahn": [],
    "people": []
   }
  ],
- "totalReachable": 519,
+ "totalReachable": 538,
  "unplacedVillages": [
   [
    "port pirie",
@@ -5460,10 +5693,6 @@
   ],
   [
    "zagreb",
-   3
-  ],
-  [
-   "\"croatia",
    3
   ],
   [
@@ -5488,18 +5717,6 @@
   ],
   [
    "johannesburg",
-   1
-  ],
-  [
-   "montani staniste",
-   1
-  ],
-  [
-   "montani  staniste",
-   1
-  ],
-  [
-   "smiljan",
    1
   ],
   [
@@ -5552,6 +5769,22 @@
   ],
   [
    "pula",
+   1
+  ],
+  [
+   "trebinje",
+   1
+  ],
+  [
+   "srbija",
+   1
+  ],
+  [
+   "linar",
+   1
+  ],
+  [
+   "pag",
    1
   ]
  ]

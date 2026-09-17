@@ -1,99 +1,56 @@
 ---
 import Base from "../layouts/Base.astro";
+import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
+import { mdp } from "@daviddef/archive-kit/lib/md.js";
+import searched from "../data/searched.json";
+
+/* The three lists below used to be hardcoded here while the register lived in
+   the data file — so the holdings table and the register could disagree, and
+   briefly did. They are gated by tools/searched.py now. */
+const READ = searched.read;
+const HOLDINGS = searched.holdings;
+const UNREACHABLE = searched.unreachable;
 import register from "../data/register.json";
 import coverage from "../data/coverage.json";
 
 import Z from "../data/zubrinicroots.json";
 import B from "../data/buckets.json";
 
-const base = (html) => html.replace(/href='\//g, `href='${u("/")}`);
 const swept = register.filter((r) => r.kind === "swept");
 const searchable = Z.fragments.filter((f) => f.state !== "bare");
 const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 
-// Every page actually opened, act by act. Ordered as read.
-const READ = [
-  { book: "Senj marriages", ref: "—", pages: "p.303, 307, 315, 322, 324, 326, 333, 348, 350, 355, 359",
-    years: "1909 – 1919", n: 11,
-    got: "Eleven marriages of this family, and every other bride on each page. The tobacco factory counted across a decade — 3 of 5 brides in 1909, rising to 7 of 8 in 1919.",
-    missed: "No Blažević marriage before 1909 has been opened, and the 1920 entry that answers question 1 was read from a thumbnail." },
-  { book: "Senj deaths", ref: "—", pages: "p.162, p.225", years: "1903, 1907", n: 2,
-    got: "Toma Blažević's death — tuberculosis, aged 69 — and Stanko Papić's, of scarlatina at twenty months in an outbreak that killed four in eight days.",
-    missed: "Two pages of one register. Everything else in the Senj death books is unread." },
-  { book: "Senj baptisms", ref: "—", pages: "str.122", years: "1886", n: 1,
-    got: "Milka's own baptism, and a registrar's margin of 1971 citing her death entry at page 280, line 37.",
-    missed: "Her eight siblings' baptisms are attached as images and unread." },
-  { book: "Krmpote — sv. Jakov, baptisms", ref: "HDA 111, HDA 176", pages: "p.104, p.168",
-    years: "1888, 1895", n: 2,
-    got: "Two children born at Smokvica kbr. 114 seven years apart, and two different men called Ivo Blažević standing godfather — one son of Mate, one son of Toma.",
-    missed: "This is the book that should hold every Blažević above Toma. Two pages of it have been opened." },
-  { book: "Krivi Put baptisms", ref: "HDA 407", pages: "p.110", years: "1859", n: 1,
-    got: "Antonija Perpić at Krivi Put N° 136, her household entered Confiniarii — a Frontier family. Seven Perpić children on the one page.",
-    missed: "Only the page her entry sits on." },
-  { book: "Otočac baptisms", ref: "—", pages: "1834, 1845", years: "1834, 1845", n: 2,
-    got: "Nicolaus at Šumećica 24, Confiniarius; Josephus in 1845 to a mother née Marković where the 1834 mother is née Orešković. Five Žubrinić Frontier offices out of the godparent columns.",
-    missed: "The marriage and death registers — the two books that would settle whether there are one or two men called Michaël Žubrinić." },
-  { book: "Karlobag baptisms", ref: "—", pages: "1754, 1768, 1777, 1779 (×2), 1781, 1838",
-    years: "1754 – 1838", n: 7,
-    got: "Every Karlobag ancestor. The Dominus honorific, a Giustiniani godfather, a Pro-Colonel, a Captain, a Baron von Holstein — and one book kept in Croatian rather than Latin.",
-    missed: "Nothing outstanding on this line. This is the best-read parish in the archive." },
-  { book: "Selce deaths", ref: "—", pages: "images 22, 41, 42", years: "1832, 1842", n: 3,
-    got: "Two direct ancestors, both confirming the tree to the day and both adding a house number it did not have. Ahnentafel 50: “Die 1ª Aprilis 1832, house 39, Georgius Jellicich, Antonii” — with a patronymic naming his father. Ahnentafel 51: “Die 8ª Maji 1842, entry 147, house 204, Margareta Jellicich, Uxor Georgii”. Also a “Vincentius Antich, aliter Dudich”, aged 63, in January 1842.",
-    missed: "Seven more direct ancestors are in this book and its companion volume, and the two houses — 39 and 204 — do not match, which leaves question 13b open." },
-  { book: "Selce baptisms", ref: "3:1:3QSQ-G99C-5963-L", pages: "image 186, domus 51", years: "1838", n: 1,
-    got: "Ahnentafel 12's own baptism — 11 March 1838, the tree's exact date, in the same house 51 as his parents' marriage three years earlier and by the same priest. His father is entered “Josephi Antich Papa”, which carries the by-name to the font.",
-    missed: "The child's name is written Gregorium, not Georgium. The identification is beyond doubt; the given name now is not. His marriage and his 1912 death entry would each name him again." },
-  { book: "Karlobag baptisms — a second sitting", ref: "—", pages: "1810, entry 23", years: "1810", n: 1,
-    got: "Ahnentafel 27's own baptism: “Mathiam, Georgiam hodie natam a Georgio et Maria Uroda… Patrini fuerunt Jacobus Blaxevich et Maria conjux Joannis Uroda.” It confirms the tree's 23 April 1810 exactly, and names her parents.",
-    missed: "The month read as 7ma — September — at page scale, and is a ditto mark at 3.4×. It would have gone up as a five-month correction to a tree that was right." },
-  { book: "Selce marriages", ref: "—", pages: "p.21-22, domus 51 and 80", years: "1835", n: 1,
-    got: "Ahnentafel 24 marrying ahnentafel 25, naming 48, 49, 50 and 51 — four direct ancestors in one line, all four already dead. The groom entered as “Josephum Antich Papa”, and his sister, marrying the bride's brother the same day, as “Euphemia Antich aliter Papa”. Five more aliter pairs on the same opening.",
-    missed: "It was on disk the whole time — 2,987 pixels, attached in the tree to six direct ancestors, and counted by the coverage tool as merely <em>scanned</em>. Eleven more people on the direct line are still in that state: an image attached, nothing read out." },
-  { book: "Otočac Status Animarum 1710-1846", ref: "HDA, Otočac knj. 1", pages: "the whole census — images 9-122, both pages of every opening",
-    years: "1767 – 1849", n: 234,
-    got: "<strong>Casparus Žubrinić, born 14 January 1767 — at Pagus Dubrava, N° Domus 60, not Šumećica.</strong> With his son <strong>Elias, 10 July 1806</strong>, and Elias's son <strong>Joannes, 19 June 1837</strong>, in one household block: the Port Pirie line three generations deep, four tree dates confirmed and two sharpened from a year to a day — Casparus died <em>4 March 1829</em>. Also <strong>fourteen Žubrinić households across six villages</strong>, a Žubrinić <em>Sylvarum Custos</em> at Luka 17, a <em>Sutor</em> among the Advenæ, a recorded name change (<em>Antonius Mihaljevich nunc Zubrinich</em>), an <strong>Untersinger</strong> household at Otočac page 29, and two Croatian firewood rolls of 1845-46 that cross-check the Latin by house number.",
-    missed: "<strong>No Toma born 1768 exists anywhere in the census</strong>, so the census cannot join the two lines. <strong>Updated 15 September 2026:</strong> the <em>death register</em> does hold one candidate — <span class='mono'>Thomas Xubrinich, annorum 40, 27 February 1808</span> — with no village and no house, so it is a candidate and nothing more. Nearest: <em>Martha vidua defti Thomæ, b. 5 July 1767</em> at Obilje — the widow of a Thomas who died before the book was written up. <strong>Corrected since:</strong> this entry used to say Šumećica's houses run 9 to 14 and that the tree's <em>Šumećica 2</em> was therefore contradicted. That was true only of the census <em>section</em>. The Otočac death register enters <span class='mono'>Shumecicza 2</span> twice — 1831 and 1835, both Žubrinić — so <strong>the address is attested and the census section is a fragment of the village</strong>." },
-  { book: "Otočac deaths 1780-1836", ref: "HDA, Otočac knj. umrlih", pages: "images 156-332 — the whole register, 1780 to 1836, read end to end",
-    years: "1810 – 1836", n: 172,
-    got: "<strong>Casparus Žubrinić's death entry — a direct ancestor.</strong> Image 289: <em>“Dubrava · 60 · Anno 1829 die 4ta Martij obiit in Domino, ex nervorum debilitate, Casparus Xubrinich hujus Parochiæ, aetatis suæ anno 62do… per me Petrum Vollarich Cooperatorem Loci”</em> — agreeing with the census at <strong>four points</strong>: house 60 at Dubrava, the margin's <em>1829 4 Martij</em>, an age of 62 against a birth of 14 January 1767, and the tree's 1767–1829. It adds <strong>how he died and who buried him</strong>. From image 284 the register rules <strong>Pagus and Domus columns</strong>, and the two books now confirm each other house by house — <span class='mono'>Dubrava 41, 60, 68 · Prozor 1, 17, 34 · Šumećica 10, 11 · Otočac 40</span>. Šumećica 10 is confirmed from outside the census, so the household's ink-blotted Domus cell no longer has to be inferred.",
-    missed: "<strong>The Otočac death register, read end to end.</strong> Its verdict on question 4, stated once: <strong>there is exactly one adult Thomas Žubrinić in fifty-one years whose age puts his birth in the 1760s</strong> — <span class='mono'>27 February 1808 · Thomas Xubrinich · annorum 40</span>, born between February 1767 and February 1768. He carries <strong>no village and no house</strong>, so he is a <strong>candidate</strong> for the husband of the census's <em>Martha vidua defti Thomæ</em> at Obilje and is <strong>not</strong> recorded as an identification.<br><br>The book buries <strong>four</strong> grown men of the name — <span class='mono'>1787 an: 31 · 1808 an. 40 · 1824 an. 24 · 1831 an. 44</span> — the other three born about 1756, 1800 and 1787. Seven other men called Thomas were checked at full width and are Gomerčić, Dašović, Orešković, Pomerčić, Laskarin, Attalić and Dujmović. Every Thomas Žubrinić in the ruled years 1828–36 is a child.<br><br><strong>Nineteen Žubrinić houses across five villages</strong>, from the ruled <em>Pagus</em> and <em>N° Domus</em> columns of 1828–36. <strong>Šumećica 2 exists and is a Žubrinić house</strong> — <em>Thomas filius Michaelis Xubrinich, gregarii, ætatis suæ trium dierum</em>, October 1831, and again in 1835. Šumećica houses <strong>1 to 11 and 13</strong> all appear, so the village numbers from 1 and the census section covered a slice of it. <strong>Casparus's widow</strong> <em>Hellena Xubrinich</em> is buried from <strong>Dubrava 60</strong> on 29 October 1831. <strong>Šumećica 10 is confirmed from outside the census</strong> by <span class='mono'>Shumechicza · 10 · Per Obstetricem baptizata, et statim obiit <em>Catharina filia Nicolai Xubrinich</em></span>, November 1828 — the census sitting could only infer that number from the clean <span class='mono'>9.</span> and <span class='mono'>11.</span> either side of an ink blot. <strong>Poljice 19 buries four Žubrinići in eighteen months</strong> — Jacobus 22, Mathæus 52 <em>ex asmate</em>, an infant, and Appolonia 18, the last called daughter of her <em>already dead</em> father. <strong>Ahnentafel 10's godfather gets a house:</strong> the 1834 baptism names <em>Petrus filius Francisci Xubrinich, Wigiliarum Magister pensionatus</em>, and six weeks later the register enters <span class='mono'>Shumecicza · 5 · Franciscus filius Francisci Xubrinich, Vigiliarum Magistri pensionati, ætatis suæ 1½</span>. A fourth Frontier rank appears: <em>Decurio</em>. <strong>The register closes on a Žubrinić</strong> — <em>In Mense Augusto 1836 · Prozor 49 · Paulus Xubrinich gregarius</em> — and in April 1836 buries a husband and wife three days apart at Šumećica 6, her of pneumonia at 39, him of consumption at 43.<br><br><strong>The prose years name villages, and push both of question 4's villages back to 1789.</strong> <em>Mathæus Xubrinich ex Sumechicza, Ann. 26</em>, corroborated four months later by <em>Rosalia filia dfti Mathei Xubrinich ex Sumechicza</em>, his orphan daughter; a second Šumećica house under Josephus; and <em>Lucia Xubrinich ex Obilje, Annor. 66</em>. That is <strong>thirty-eight years earlier</strong> than the previous earliest Šumećica entry — but no house numbers, because the <em>Domus</em> column does not exist in 1790. In 1789 the family is in <strong>five villages</strong>: Šumećica, Obilje, Dubrava, <em>Potok</em> and <em>Selca</em>. The earliest Žubrinić in the book is <em>Lucia filia Mathæi Xubrinich, dierum 15</em>, <strong>2 November 1780</strong>. A <strong>second Casparus Žubrinić</strong>, <em>annos circiter 40</em>, dies 20 November 1806 — a caution beside the Dubrava 60 identification, which rests on the house number and a four-point census match rather than on age.<br><br><strong>Image 156 is the title page</strong>, and it explains the two narrow numeric columns down the right edge of every page: <em>Prima columna denotat Seriem, 2da numerum Sepulchri, incipiendo à plaga Septemtrionali</em>. <strong>They are the series and the grave number, counted from the north wall</strong> — a plot map of the cemetery, not ages and not entry numbers. For a stretch of 1790 the register writes in <strong>Croatian</strong>: <span class='mono'>Primina chi Luce Jure Sopichia iz Dubrave od Miseczi 8</span>.<br><br><strong>Corrections this row has carried.</strong> <span class='mono'>14 Sep</span> — it said Šumećica had no house 2; the register enters <em>Shumechicza 7</em> in 1830 and house 2 twice, so the numbering runs below 9 and houses 1–8 are merely absent from the census's eight pages, and the guess that the number had to be a Military Frontier one is retired. <span class='mono'>15 Sep</span> — it said the pre-1828 stretch <em>gives a name and an age and no house</em>; that was generalised from images 227–250, and the 1789 hand marks the village on nearly every entry. <span class='mono'>15 Sep</span> — it opened <em>“No Toma born 1768”</em> flat and then reported one four hundred words later; scoped to the ruled years, and now stated once at the top.<br><br><strong>Two readings the standing rule caught</strong>, both of which would have been wrong. <em>Martha Xubrinich</em>, 20 March 1805, read <span class='mono'>an. 40</span> at sweep scale — born about 1765, a month after the Obilje Paulus, a tidy match for the census's Martha born 1767. At full resolution it is <span class='mono'>an. 50</span>: born about 1755, <strong>not that woman</strong>. And a January 1792 line read as <em>“Obijt Thomas Xubrinich et filia Matthia”</em> — a dead Thomas. Enlarged, it is <strong>genitive</strong>: <em>Thomæ Xubrinich <strong>filia</strong></em>, the daughter of a Thomas Žubrinić, dead two hours after a midwife's baptism. The opposite reading — a Thomas <strong>alive</strong> and fathering in 1792. <em>Also recorded and deliberately not identified:</em> <em>vidua Martha Xubrinich</em>, Prozor 40, dead 17 April 1831 <em>sine Sacramentis ob negligentiam domesticorum</em>, aged 65 — a candidate for the Obilje widow, but the villages differ and the ages differ by two." },
-  { book: "Vrbnik baptisms", ref: "—", pages: "house 244", years: "1806", n: 1,
-    got: "Josephum Antić — and the underlined nadimci that answered question 5: Antich Papa, Loncsarich Franich, Antich Dudin.",
-    missed: "The Selce registers 1765–1838, which would show the surname change generation by generation." },
-];
-// Verified 13 September 2026 by opening each film, not by reading the catalogue.
-// The label on the waypoint is a claim about the parish, not about the film:
-// Krmpote is catalogued 1815-1896 and the film begins in 1879.
-const HOLDINGS = [
-  { parish: "Senj", books: "Births 1734-1894 · Deaths 1820-1858, 1859-1907 · Marriages 1734-1858, 1859-1920",
-    checked: "Marriages verified end to end — image 196 is p.192 (1885), image 371 is p.366 (1920)." },
-  { parish: "Otočac", books: "Births 1834-1846, 1846-1858 · Deaths 1780-1836, 1834-1858, 1859-1872 · Marriages 1859-1872 · Church Census (Stanje duša) 1710-1846",
-    checked: "Marriages verified: images 129-147, pag. 10 = 1862, pag. 18 = 1865. Census read end to end, images 9-122. Each PAGE is a full table, so an opening holds two household pages. Two numbering systems, both real: the film-target stamp is HDA = image + 243 (image 110 = HDA 353); the book's own printed page number is neither that nor a formula — image 110 is pages 220/221, image 97 is 173/174. Read it off the frame. Images 63/64, 79/80 and 89/90 are duplicate exposures." },
-  { parish: "Krmpote-Vodice", books: "Births 1815-1896 — and NO marriage register, and no deaths",
-    checked: "LABEL WRONG. Image 10 is page 2 and reads 1879; image 188 is page 177 and reads 1896. The film is 1879-1896.", bad: true },
-  { parish: "Brinje", books: "Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899",
-    checked: "Not spot-checked." },
-];
-
-// Research plans this archive had published which cannot be carried out in this
-// collection. Every one was written against a catalogue label.
-const UNREACHABLE = [
-  { q: "1b", want: "Juraj Blažević's marriage to Tereza Žubrinić, before 1892", why: "Krmpote-Vodice has no marriage register at all." },
-  { q: "1b", want: "Juraj Blažević's own baptism — it would name his father", why: "He has no birth date in the tree and his children start in 1892, so he was born around the 1860s. The Krmpote birth film begins in 1879." },
-  { q: "1d", want: "Zvonimir Vukelić's death, Senj 1915", why: "Senj deaths stop at 1907." },
-  { q: "1e", want: "Miroslava Vukelić's baptism, Senj 1907", why: "Senj births stop at 1894." },
-  { q: "5b", want: "Senj baptisms for January–February 1895 — the two sisters eighteen days apart", why: "Senj births stop at 1894. Both sisters fall one year outside." },
-  { q: "4", want: "Otočac baptisms of Casparus (14 Jan 1767) and Toma (1768)", why: "Otočac births begin in 1834." },
-  { q: "4", want: "The 1805 baptism of Paulus Žubrinić at Obilje — it would name his father and his house", why: "This is the document that would turn the death register's Thomas Xubrinich, annorum 40, 27 February 1808 into an identification instead of a candidate. The census puts Paulus at Obilje, born February 1805, son of the dead Thomas whose widow Martha is entered there; a baptism would give the father a house three years before that death entry. Otočac births begin in 1834, so it is not in the digitised holdings. Neither is a marriage for Thomas and Martha — Otočac marriages begin in 1859. With the death register now read end to end, FamilySearch has nothing further to offer this question: what remains is the original register at the Croatian State Archives." },
-  { q: "4", want: "Toma Žubrinić, b. 1768, in the Otočac church census", why: "The whole census has now been read — 234 pages — and no Toma born 1768 is in it. Casparus WAS found, at Dubrava 60. A status animarum is one living list kept to 1846, so a man dead before the recension was never carried into it." },
-  { q: "4", want: "Šumećica house 2 and house 24 in the church census", why: "RESOLVED, not unreachable — and this row used to be wrong. It said the village had no house 2 and that the 1834 baptism's N° 24 must be a Military Frontier number. The death register enters Shumecicza 2 twice (1831, 1835), both Žubrinić, along with houses 1, 3, 4, 5, 6, 7, 8, 11 and 13. The census section merely begins at house 9; the village numbers from 1. No Frontier-numbering explanation is needed." },
-];
+// The search register — sources/searched.json, gated by tools/searched.py.
+// Ordered so the page reads the way it is used: what it gave first, and within
+// each outcome the most recent work at the top. "Not yet" sorts by nothing.
+const OUT = {
+  yield:   { label: "Yielded",  rank: 0 },
+  partial: { label: "Partly",   rank: 1 },
+  pending: { label: "Not yet",  rank: 2 },
+  blocked: { label: "Blocked",  rank: 3 },
+  nothing: { label: "Nothing",  rank: 4 },
+};
+const monthN = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6,
+                 jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+const when = (t) => {
+  const m = String(t || "").match(/(\d{1,2})?[^\d]*([A-Za-z]{3})[a-z]*\.?\s*(\d{4})/);
+  return m ? +m[3] * 10000 + (monthN[m[2].toLowerCase()] || 0) * 100 + (+m[1] || 0) : 0;
+};
+const srows = [...searched.rows].sort((a, b) =>
+  OUT[a.outcome].rank - OUT[b.outcome].rank || when(b.when) - when(a.when));
+const host = (url) => (url || "").startsWith("/")
+  ? null : (url || "").replace(/^https?:\/\/(www\.)?/, "").split("/")[0];
+// everything a row can be matched on, flattened once at build time
+const hay = (r) => [r.src, r.what, r.when, OUT[r.outcome].label, r.got,
+                    ...(r.tags || []), ...(r.ev || []).map((e) => e[1])]
+  .join(" ").replace(/[*“”]/g, "").toLowerCase();
+const sn = (k) => searched.counts[k] || 0;
 
 const pages = READ.reduce((a, r) => a + r.n, 0);
 const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").length;
 ---
-<Base title="What Has Been Searched"
+<Base title="What Has Been Read"
   eyebrow="Coverage, including the books that have never been opened"
   dek={`${pages} register pages read across eight books and five parishes, yielding ${swept.length} named people. This page exists so that a null is not lost: knowing a volume has been read, or has not, is worth as much as knowing what it held.`}>
 
@@ -111,6 +68,44 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       <p style="margin-top:.6rem">So: <strong>{pages} pages</strong>, and the books they came out of
       — beside what has never been touched.</p>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The search register · added 14 September 2026</div>
+    <h2>Every source, and what it gave back</h2>
+    <p class="lede">This table is the part of the archive that records <strong>absence</strong>.
+    Until today this page listed the registers that had been <em>read</em>; it had no way of saying
+    that a portal had been searched and held nothing, or had never been opened at all. Those are
+    different facts and a reader could not tell them apart.</p>
+
+    <div class="grid g3" style="margin-top:1.4rem">
+      <div class="stat"><div class="n">{sn("yield") + sn("partial")}</div>
+        <div class="l">Gave something. {sn("partial")} of them only partly — a page or two out of a book.</div></div>
+      <div class="stat"><div class="n">{sn("nothing") + sn("blocked")}</div>
+        <div class="l">Searched and held nothing, or walled off and deliberately not got round.</div></div>
+      <div class="stat"><div class="n">{sn("pending")}</div>
+        <div class="l">Known, wanted, not yet got — two of them letters sitting with an archivist.</div></div>
+    </div>
+
+    <Searched u={u} nil={["Nothing", "Blocked"]} unit="sources"
+      rows={srows.map((r) => ({
+        when: r.when, src: r.src, what: r.what, got: r.got,
+        outcome: OUT[r.outcome] ? OUT[r.outcome].label : r.outcome,
+        href: r.url, tags: r.tags || [],
+        extra: r.missed ? `missed: ${r.missed}` : "",
+      }))} />
+
+
+    <div class="note" style="margin-top:1.4rem"><strong>The four portals this page once listed as
+    never opened have now all been opened.</strong> <em>Find a Grave</em> gave a family — every
+    ZUBRINICH memorial on earth, and the CODRON dead of Rhodes, Auschwitz and Cape Town.
+    <em>Ancestry</em> and <em>Matricula Online</em> gave nothing this archive can use: Ancestry masks
+    every date behind the paywall and offers user-submitted trees where records should be. The
+    <em>Arolsen Archives'</em> own collections are the one still shut, and they remain the sharpest
+    of the four, because this site already publishes <a href={u("/arolsen/")}>three Arolsen cards</a>
+    that reached it through a family tree rather than through Arolsen. <strong>Blocked is not
+    empty</strong> — and a register that says which of the two it is looking at is the only kind
+    worth keeping.</div>
   </section>
 
   <section class="blk">
@@ -136,6 +131,16 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
     <em>Godine 1896</em>. Sixty-four years named on the label are not behind it — and this is the
     parish that should hold every Blažević above Toma.</div>
 
+    <div class="note" style="margin-top:1.2rem"><strong>And once, the label was better than the
+    archive feared.</strong> Karlobag's three columns read <span class="mono">unknown</span> here
+    for weeks — so <a href={u("/tree/")}>four walls on the chart</a> said «ranges not checked»,
+    which reads like a gap and is really an unopened door. All three films were opened on
+    14 September 2026 and <strong>every book the catalogue names is on them</strong>: births from
+    the 1690s, marriages from 1736, deaths from 1774 — and a <strong>household census nobody here
+    knew existed</strong>. Four of those walls now have a document in range, and a fifth — a woman
+    carried under her husband's surname — has a marriage of about 1775 that would give her her
+    own.</div>
+
     <h3 style="margin-top:1.6rem">Six things this archive said it would go and look up</h3>
     <p>Each of these was published as the next step for an open question. <strong>None of them can
     be done in this collection</strong>, and every one was written against a catalogue label rather
@@ -149,6 +154,10 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
           <td class="dek">{r.why}</td>
         </tr>))}</tbody>
     </table>
+    <p class="dek" style="margin-top:1rem"><strong>Karlobag has a page of its own now</strong> —
+    three films range-checked, a household census read and five walls moved.
+    <a href={u("/karlobag/")}>Karlobag →</a></p>
+
     <p style="margin-top:1.2rem"><strong>This is the most useful thing found all day</strong>, and it
     is entirely negative. Six research plans were sitting on this site looking actionable. They were
     not, and no amount of the full-resolution image access solved the same morning would have made
@@ -166,8 +175,8 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
           <tr><th>Years opened</th><td class="mono">{r.years}</td></tr>
           <tr><th>Pages</th><td class="mono">{r.pages}</td></tr>
           {r.ref !== "—" && <tr><th>Shelfmark</th><td class="mono">{r.ref}</td></tr>}
-          <tr><th>What it gave</th><td set:html={base(r.got)} /></tr>
-          <tr><th class="warn">Not opened</th><td set:html={base(r.missed)} /></tr>
+          <tr><th>What it gave</th><td>{r.got}</td></tr>
+          <tr><th class="warn">Not opened</th><td>{r.missed}</td></tr>
         </tbody>
       </table>
     </section>
@@ -254,4 +263,46 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       {" "}<a class="btn" href={u("/open-questions/")}>Open questions →</a>
       {" "}<a class="btn" href={u("/register/")}>The register →</a></p>
   </section>
+
+<style>
+  /* Page-local: the shared stylesheet is common to seven archives and this
+     table exists only here. */
+  .sr-bar { display: flex; flex-direction: column; gap: 12px; margin-top: 1.8rem; }
+  .sr-lb { display: block; font-family: var(--sans); font-size: 11px; letter-spacing: .14em;
+           text-transform: uppercase; color: var(--ink-3); margin-bottom: 7px; }
+  #sr-q { width: 100%; box-sizing: border-box; padding: 11px 13px; font-family: var(--sans);
+          font-size: 14px; color: var(--ink); background: var(--panel);
+          border: 1px solid var(--rule); border-radius: 3px; }
+  #sr-q:focus { outline: none; border-color: var(--accent); }
+  .sr-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .sr-c { font-family: var(--sans); font-size: 12px; padding: 5px 11px; cursor: pointer;
+          color: var(--ink-2); background: var(--panel); border: 1px solid var(--rule);
+          border-radius: 999px; }
+  .sr-c:hover { border-color: var(--accent); }
+  .sr-c.on { color: var(--bg); background: var(--ink); border-color: var(--ink); }
+  .sr-n { font-family: var(--mono); font-size: 10.5px; opacity: .65; margin-left: 3px; }
+  .sr-count { margin-top: 2px; }
+  .sr-t td { vertical-align: top; }
+  .sr-src { font-weight: 600; }
+  .sr-dest { display: block; font-size: 10px; color: var(--ink-3); margin-top: 4px; }
+  .sr-o { display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 600;
+          letter-spacing: .06em; padding: 3px 8px; border-radius: 2px; white-space: nowrap;
+          border: 1px solid var(--rule); }
+  .o-yield { border-color: var(--accent); color: var(--accent); }
+  .o-partial { color: var(--ink-2); }
+  .o-pending { color: var(--ink-3); border-style: dashed; }
+  .o-blocked, .o-nothing { color: var(--ink-3); }
+  .sr-tags { display: block; margin-top: 6px; }
+  .sr-tag { display: inline-block; font-size: 9.5px; letter-spacing: .08em; text-transform: uppercase;
+            color: var(--ink-3); background: none; border: 0; padding: 0 7px 0 0; cursor: pointer; }
+  .sr-tag:hover { color: var(--accent); }
+  .sr-got p { margin: 0 0 .55rem; }
+  .sr-got p:last-child { margin-bottom: 0; }
+  .sr-ev { margin-top: .5rem; font-size: 12px; }
+  .sr-evl { display: block; font-size: 9.5px; letter-spacing: .1em; text-transform: uppercase;
+            color: var(--ink-3); margin-bottom: 2px; }
+  .sr-ev a { margin-right: .7rem; }
+</style>
+
+
 </Base>

@@ -1,0 +1,264 @@
+# Senj municipal cemetery, photographed 9 October 2024.
+#
+# cemetery: Senj municipal cemetery
+# photographed: 9 October 2024
+#
+# 105 photographs, read out 15 September 2026. GPS on the files puts them in a
+# 400 m box centred on 44.985 N, 14.924 E, all taken between 02:37 and 04:22 UTC
+# on 9 October 2024 -- the Senj town cemetery, the day after the Otocac
+# churchyard in sources/graves/otocac-2024-10-08.psv. The two are one trip and
+# only the Otocac half had been recorded.
+#
+# WHY THIS MATTERS MORE THAN THE OTOCAC SET. Five DIRECT ANCESTORS are on these
+# stones: ahnentafel 2 and 3 in one tomb, ahnentafel 5 on the next stone, and
+# ahnentafel 6 and 7 on a stone cross further up the hill. Three brothers of
+# ahnentafel 6 are here too. Before today graves.json held 72 memorials, all of
+# them Find a Grave transcriptions from Australia and Canada, and NOT ONE
+# Croatian cemetery.
+#
+# WHAT IT IS NOT. A gravestone is a memorial, not a register. It is carved by the
+# living, often years after the death. Two of the five ancestor stones here give
+# a birth year ONE OUT from the register -- Ljubomir 1891 for 1892, Antonija 1860
+# for 1859 -- while every death year on them is right. Nothing here is joined to
+# the tree on the strength of the stone alone.
+#
+# "conf" is how the reading was made:
+#   r = read at FULL RESOLUTION, cropped and enlarged 3-8x
+#   p = read at reduced scale from a contact sheet; the name is secure but the
+#       DIGITS ARE NOT VERIFIED and want a full-resolution pass
+#   ? = uncertain, not to be relied on
+#
+# surname|given|born|died|stone|conf|photo
+#
+# --- THE DIRECT LINE ---
+Blažević|Ljubomir|1891|1966|family tomb, four names cut in the face; the register says he was born 1 Mar 1892, so the stone is one year out on the birth and right on the death|r|IMG_8055
+Blažević|Milka|1886|1971|same tomb, «MILKA BLAŽEVIĆ rod. PAPIĆ» -- ahnentafel 3, and the stone carries her maiden name|r|IMG_8055
+Blažević|Oto|1923|1945|same tomb; Seka's brother, dead at 22 in 1945|r|IMG_8055
+Blažević|Mario|1933|1984|same tomb; Seka's brother|r|IMG_8055
+Blažević|Kata|1924|2007|lower granite plaque on the same tomb, with Leo|r|IMG_8055
+Blažević|Leo|1920|2008|same plaque as Kata; Seka's brother|r|IMG_8055
+Blažević|Branko|1957|2023|wooden cross plate at the foot of the same tomb; the tree has an Oton Blažević 1958-2023 and this is NOT being joined to him|p|IMG_8055
+Blažević|Tereza|1867|1931|upright stone, «OVDJE POČIVAJU U MIRU BOŽJEM»; ahnentafel 5, Tereza Žubrinić, under her married name. Foot: «OBNOVIO POP ANTE KOSINA ~ 1991»|r|IMG_8056
+Kasumović|Zorica||1916|same stone as Tereza, above her, no birth year given|p|IMG_8056
+Papić|Josip|1857|1939|stone cross, «JOSIP PAPIĆ»; ahnentafel 6, and the register agrees to the year on both dates (b. 1 Nov 1857, d. 19 Nov 1939)|r|IMG_8131, IMG_8133, IMG_8135, IMG_8137
+Papić|Antonija|1860|1935|same cross; ahnentafel 7, Antonija Perpić. Register says b. 12 May 1859, so the stone is one year out on the birth; the death of 2 Feb 1935 is right|r|IMG_8131
+Papić|Matilda|1895|1921|same cross, third name. NOT IN THE TREE under this name -- the tree has two Papić daughters born 1895, Franka (20 Jan) and Sulka (7 Feb), both with no death recorded|r|IMG_8131
+#
+# --- BROTHERS OF AHNENTAFEL 6, all three matching the tree to the year ---
+Papić|Stjepan|1860|1917|«OVDJE POČIVA U MIRU BOŽJEM»; tree: Stephannes Papić, b. 16 Aug 1860, d. 8 Jul 1917|r|IMG_8119
+Papić|Anica|1864|1928|same stone as Stjepan|r|IMG_8119
+Papić|Danica|1902|1918|same stone, «kćerka DANICA» -- daughter of Stjepan and Anica, dead at 16|r|IMG_8119
+Papić|Boža|1891|1973|same stone, «kćerka BOŽA»; «SPOMEN PODIŽE ZAHVALNA KĆERKA BOŽA»|r|IMG_8119
+Papić|Anton|1868|1937|wooden-armed stone cross with marble plate; tree: Antonius Josip Papić, b. 8 Jun 1868, d. 11 Sep 1937|r|IMG_8069
+Papić|Jakov|1863|1938|plaque on the Gržin grave; tree: Philippus Jacobus Papić, b. 13 May 1863, d. 7 Oct 1938|p|IMG_8159
+#
+# --- OTHER PAPIĆI ---
+Babaček|Ivka|1907|1988|same cross as Anton, «IVKA BABAČEK ROĐ. PAPIĆ»|r|IMG_8069
+Papić|Marija|1903|1964|plaque on the Gržin grave, with Anton, Matija and Jakov|r|IMG_8159
+Papić|Anton|1907|1981|same plaque|p|IMG_8159
+Papić|Matija|1874|1912|same plaque|p|IMG_8159
+Papić|Franjo|1909|1980|OBITELJ PAPIĆ, four names|r|IMG_8073
+Papić|Hilda|1919|2010|same stone as Franjo|r|IMG_8073
+Papić|Stanislav|1943||same stone; death year cut as «20» and never finished|r|IMG_8073
+Papić|Anka|1948||same stone; death year cut as «20» and never finished|r|IMG_8073
+Papić|Marica|1898|1940|«MARICA PAPIĆ R. FRKOVIĆ»|p|IMG_8124
+Papić|Ivan|1926||same stone as Marica; no death year cut|r|IMG_8124
+Papić|Nataša|1926|2005|same stone as Marica|r|IMG_8124
+Papić|Mladen|1928|1995|OBITELJ PAPIĆ|p|IMG_8127
+Papić|Ivanka|1937||same stone as Mladen; death year cut as «20»|p|IMG_8127
+Papić|Mandica|1891|1974|«PAPIĆ - GLAVIČIĆ», the two surnames cut as one|r|IMG_8139, IMG_8140
+Papić|Blanka|1927|2015|same stone, Papić-Glavičić|r|IMG_8139
+Papić|Karlo|1885|1922|same stone, Papić-Glavičić [full-res pass: the death year is 1922, not the 1928 first recorded]|r|IMG_8139
+Papić|Antonija|188?|19??|fallen slab, «ANTONIJA PAPIĆ rođ. VUKELIĆ», raised by her to her mother MARIJA VUKELIĆ; both date pairs illegible in this frame|?|IMG_8160
+Vukelić|Marija|184?|19??|same fallen slab, «Nezaboravnoj majci ... kćerka Antonija»|?|IMG_8160
+#
+# --- PRPIĆ / PERPIĆ, the surname of ahnentafel 7 ---
+Prpić|Josip|1917|1988|«OVDJE POČIVA», full dates 3 III 1917 - 18 I 1988, «ZAHVALNA DJECA»|r|IMG_8058
+Prpić|Vera|1921|2009|same stone, full dates 12 I 1921 - 25 XI 2009|r|IMG_8058
+Prpić|Tomo|1875|1939|loose slab resting on a kerb|r|IMG_8059
+Prpić|Anka|1939|1980|OBITELJ PRPIĆ, joint portrait|r|IMG_8062
+Prpić|Ivan|1929|2019|same stone as Anka|r|IMG_8062
+Prpić|Blaženka|191?|192?|«SVOM ANĐELKU ... RODITELJI» -- a child's memorial raised by its parents; both years obscured|?|IMG_8067
+Prpić|Marta|1876|1955|«OVDJE POČIVAJU U MIRU BOŽJEM», full dates 4 VI 1876 - 22 X 1955|r|IMG_8068
+Prpić|Zdenka|1919|1984|same stone as Marta, full dates 11 VII 1919 - 7 VIII 1984|r|IMG_8068
+Jožić|Ruža|1887|1960|same stone as Marta, full dates 4 VIII 1887 - 7 VII 1960|r|IMG_8068
+Prpić|Marija|1890|1981|«PRPIĆ MARIJA ROĐ ŠPALJ»; «SPOMEN PODIŽE SVOJIM SESTRAMA I SEBI PRPIĆ MARIJA»|r|IMG_8076
+Prpić|Josip|1900|1980|full dates 16 III 1900 - 6 X 1980, «Laka im crna zemlja»|r|IMG_8077, IMG_8078
+Prpić|Kata|1902|1983|same stone, full dates 26 XI 1902 - 15 II 1983|r|IMG_8077, IMG_8078
+Prpić|Ankica|1941|2005|«ANKICE MOJA DRAGA ... TVOJA ERIKA»|r|IMG_8081
+Prpić|Marija|1896|1954|with Boras Ružica|p|IMG_8093, IMG_8094
+Prpić|Tereza|1903|1966|wall tomb, upper plate|?|IMG_8085
+Prpić|Ivan|1912|1983|same wall tomb|?|IMG_8085
+Prpić|Marija|1935|2022|same wall tomb, lower plate|?|IMG_8085
+Prpić|None|1892|1952|plate on the Tomljanović wall tomb|p|IMG_8083
+Prpić|Marija|1896|1968|wall niche plate|?|IMG_8084
+Prpić|Miro|1945||OBITELJ PRPIĆ; death year cut as «20»|p|IMG_8091
+Prpić|Nada|1950|2021|same stone as Miro|p|IMG_8091
+Prpić|Petar|1899|1974|«OBITELJ PRPIĆ -BORAS-», the two surnames cut as one|p|IMG_8095
+Prpić|Slavka|1910|1980|same stone, Prpić-Boras|p|IMG_8095
+Prpić|Vlade|1897|1928|with Marinka|p|IMG_8107
+Prpić|Marinka|1901|1990|same stone, «MARINKA PRPIĆ ROĐ. TOMLJANOVIĆ»|p|IMG_8107
+Prpić|Krunoslav|1901|1990|OBITELJ PRPIĆ; the by-name «PECE» is cut under his given name|r|IMG_8109
+Prpić|Miroslav|1926|2001|same stone as Krunoslav|r|IMG_8109
+Prpić|Milka|1899|1992|same stone, «MILKA PRPIĆ ROD. ŠPALJ»|r|IMG_8109
+Prpić|Stjepan|1943|1983|«SUPRUGA I DJECA»|p|IMG_8114
+Prpić|Jure|1930|1960|OBITELJ PRPIĆ|r|IMG_8117, IMG_8118
+Prpić|Mile|1907|1982|same stone as Jure [full-res pass: the death year is 1982, not the 1985 first recorded]|r|IMG_8117, IMG_8118
+Prpić|Mihovil|1932|2005|plaque on the same grave|r|IMG_8117, IMG_8118
+Prpić|Marija|1934|2006|same plaque|r|IMG_8117, IMG_8118
+Kos|Branka|1941|2024|same plaque|r|IMG_8117, IMG_8118
+Prpić|Ana|1884|1969|«SPOMEN PODIGLA KĆERKA KATA»|r|IMG_8123
+Prpić|Kata|1925|1996|plaque on Ana's grave|r|IMG_8123
+Prpić|Ante|1962|2007|same plaque|r|IMG_8123
+Prpić|Marijan|1928|2005|same plaque|r|IMG_8123
+Prpić|Magdalena|1929|2010|same plaque|p|IMG_8123
+Prpić|Mirko|1907|1989|«VJEČNI POČINAK»|r|IMG_8129
+Prpić|Ivka|1908|1990|same stone, «PRPIĆ IVKA ROĐ. TOMLJANOVIĆ»|r|IMG_8129
+Prpić|Dragica|1941|1961|same stone as Mirko|r|IMG_8129
+Prpić|Kata|1946|2020|loose OBITELJ PRPIĆ plate propped against the same grave|p|IMG_8129
+Prpić|Grga|1950||same loose plate; death year cut as «20»|p|IMG_8129
+Prpić|Stefanija|1911|1977|OBITELJSKA GROBNICA, «PRPIĆ STEFANIJA ROD TOMLJANOVIĆ»|p|IMG_8154
+Prpić|Milan|1911|1997|same tomb as Stefanija|p|IMG_8154
+Šojat|Zora|1904|1969|«ZORA ŠOJAT R. PRPIĆ», full dates 6 I 1904 - 17 III 1969|p|IMG_8088
+Prpić|Mara|1887|1945|wall tomb plate|p|IMG_8089
+Biondić|Ankica|1920|1993|same wall tomb, «ANKICA BIONDIĆ ROĐ.»|p|IMG_8089
+Blažević|Milka|1908|1943|«BLAŽEVIĆ R. PRPIĆ MILKA» -- a Blažević who was born a Prpić|r|IMG_8147
+#
+# --- ŠPALJ, who married into the Prpići ---
+Špalj|Martin|1893|1977|two oval porcelain portraits|r|IMG_8057
+Špalj|Ivka|1900|1993|same stone as Martin|r|IMG_8057
+Špalj|Ivan|1901|1936|marble plate on a terrazzo stone, gilt letters|r|IMG_8074
+Špalj|Ruža|1901|1988|same plate as Ivan|r|IMG_8074
+Špalj|Franjo|1912|1965|four names and four portraits, «ZAHVALNA DJECA»|r|IMG_8075
+Špalj|Marica|1912|1988|same stone as Franjo|r|IMG_8075
+Špalj|Zora|1940|2018|same stone as Franjo|r|IMG_8075
+Špalj|Marinko|1961|2021|same stone as Franjo|r|IMG_8075
+Špalj|Lucija|1892|1949|raised by her sister Marija Prpić|r|IMG_8076
+Špalj|Kata|1884|1975|same stone as Lucija|r|IMG_8076
+Špalj|Jurica|1937|1955|two children on one stone|r|IMG_8079
+Špalj|Tomislav|1959|1960|same stone as Jurica|r|IMG_8079
+Špalj|Vlade|1920|1985|OBITELJ ŠPALJ|r|IMG_8090
+Špalj|Nevenka|1928|2003|same stone as Vlade|r|IMG_8090
+Špalj|Ivan|1953|2009|same stone as Vlade|r|IMG_8090
+Špalj|Kata|1962||same stone as Vlade; death year cut as «20»|r|IMG_8090
+Špalj|Kata|1886|1981|«TIHI DOM»|p|IMG_8126
+Špalj|Anton|1946|2020|same stone as Kata 1886|p|IMG_8126
+Špalj|Marija|1931||OBITELJ ŠPALJ, «MARIJA ROĐ. PAVELIĆ»|?|IMG_8149
+#
+# --- BORAS, a core surname of this archive ---
+Boras|Budimir|1927|1976|full dates 17 VII 1927 - 10 XII 1976|r|IMG_8087
+Boras|Sonja|1933|2022|same stone, «BORAS SONJA R. ŽIC», full dates 26 XII 1933 - 9 II 2022|r|IMG_8087
+Boras|Ružica|1919|1984|with Prpić Marija|p|IMG_8093, IMG_8094
+Boras|Budimir|1894|1954|«TIHI DOM OBITELJI BORAS - MILKOVIĆ», Croatian arms carved at the head [full-res pass: the death year is 1954, not the 1950 first recorded]|r|IMG_8140
+Boras|Marica|1904|1980|same stone, «R. MILKOVIĆ»|r|IMG_8140
+Boras|Ante|1923|1942|same stone|r|IMG_8140
+Boras|Fabijana|1926|1926|same stone|r|IMG_8140
+Boras|Domagoj|1940|19??|same stone [full-res pass: the death year runs off the frame; the 1998 first recorded was a contact-sheet guess]|p|IMG_8140
+Boras|Fabo|1878|19??|same stone [full-res pass: the given name is FABO, not Pavo; the death year runs off the frame]|p|IMG_8140
+Boras|Marija|1880||same stone, «R. BUTKOVIĆ»|?|IMG_8140
+#
+# --- BUTORAC, the surname of the marriage the Krmpote letters are chasing ---
+Butorac|Marko|1888|1936|OBITELJ BUTORAC, four names|r|IMG_8082
+Butorac|Kata|1890|1978|same stone as Marko|r|IMG_8082
+Butorac|Vilko|1921|1930|same stone as Marko|r|IMG_8082
+Butorac|Mila|1927|1955|same stone as Marko|r|IMG_8082
+#
+# --- TOMLJANOVIĆ, the surname of ahnentafel 111 ---
+Tomljanović|Josip|1897|1938|«OVDJE POČIVAJU», joint portrait|r|IMG_8061
+Tomljanović|Milka|1905|1994|same stone, «i supruga»|r|IMG_8061
+Plješa|Nada|1933|1994|same stone as Josip|r|IMG_8061
+Tomljanović|Marija|1888|1962|«U znak sjećanja svojoj miloj sestri»|r|IMG_8066
+Tomljanović|Marko|1892|1971|OBITELJ TOMLJANOVIĆ wall tomb|p|IMG_8083
+Tomljanović|Ljuba|1895|1979|same wall tomb|?|IMG_8083
+Glowatzky|Dunja|1932|2007|same wall tomb, «mr. sc.», full dates 14 07 1932 - 18 07 2007|p|IMG_8083
+Todić|Mila|1924|2017|«TODIĆ MILA ROD. TOMLJANOVIĆ»|?|IMG_8085
+Vukelić|Kata|1885|1952|«KATA VUKELIĆ R. TOMLJANOVIĆ»|r|IMG_8092
+Tomljanović|August|1892|1955|«Ovdje počiva obitelj TOMLJANOVIĆ»|?|IMG_8116
+Tomljanović|Marija|1896||same stone as August|?|IMG_8116
+Tomljanović|Milan|1922||same stone, «sin MILAN»|?|IMG_8116
+#
+# --- VUKELIĆ, and two by-names carved on the stones ---
+Vukelić|Slave|1923|1993|«TIHI DOM OBITELJ VUKELIĆ -- PURICA»; PURICA is a household by-name, carved|r|IMG_8064
+Vukelić|Marica|1925|2016|same stone, Vukelić-Purica|r|IMG_8064
+Vukelić|Zdravko|1955|2016|same stone, Vukelić-Purica|r|IMG_8064
+Vukelić|Marija|1889|1937|with the Galjanići|r|IMG_8065
+Galjanić|Slavka|1913|1979|same stone, «SLAVKA GALJANIĆ ROD. VUKELIĆ»|r|IMG_8065
+Galjanić|Ivan|1908|1995|same stone as Slavka|r|IMG_8065
+Vukelić|Dragica|1908|1966|same stone as Kata, «R. BUTKOVIĆ»|r|IMG_8092
+Vukelić|Milan|1906|1989|same stone, the by-name «KOŽUN» carved after the surname|r|IMG_8092
+Vukelić|Milan|1939|2014|same stone, described as «ANESTEZIOLOG»|p|IMG_8092
+Vukelić|Ivan|1898|1992|OBITELJSKA GROBNICA, full dates 5 VI 1898 - 27 VI 1992|r|IMG_8108
+Vukelić|Mate|1932|2000|same tomb as Ivan|r|IMG_8108
+Vukelić|Matija|1903|1988|same tomb, full dates 18 VIII 1903 - 22 X 1988|r|IMG_8108
+Vukelić|Marija|1935|2000|same tomb as Ivan|p|IMG_8108
+Vukelić|Ive|1904|1994|OBITELJ VUKELIĆ, «LAHKA IM ZEMLJA»|?|IMG_8115
+Vukelić|Eva-Jela|1914|1980|same stone as Ive|?|IMG_8115
+Vukelić|Joso|1934||same stone as Ive|?|IMG_8115
+Vukelić|Ivan|1907|1983|wall niche|?|IMG_8110
+Vukelić|Petar|180?|187?|ornate cast-iron crucifix, plaque reads «Ovdje počiva PETAR VUKELIĆ, c. kr. satnik» -- an imperial-and-royal captain -- «rođen ... umro ... u Senju»|?|IMG_8155, IMG_8156, IMG_8157
+#
+# --- LONČARIĆ, the surname of ahnentafel 49 and 98 ---
+Lončarić|Dragutin|1883|19?6|stone cross with a black plate; the death year is under grass in every frame|?|IMG_8063
+Lončarić|Leo|1920|1945|separate plate at the Papić Stjepan grave, and the place of death is cut on it: «BLAJBURG»|p|IMG_8119
+#
+# --- ŠOJAT ---
+Šojat|Jelka|1897|1952|incised slab|r|IMG_8080
+Šojat|Drago|1909|1962|«OVDJE POČIVAJU»|p|IMG_8151
+Šojat|Mara|1914||same stone as Drago|?|IMG_8151
+Šojat|Nikola|1953||OBITELJ ŠOJAT, loose plate; death year cut as «20»|p|IMG_8151
+Šojat|Anica|1957||same loose plate; death year cut as «20»|p|IMG_8151
+Šojat|Ivica|1922|1959|with Ljubica and Danica Kojić|p|IMG_8152
+Šojat|Ljubica|1920|2005|same stone as Ivica|p|IMG_8152
+Kojić|Danica|1922|2011|same stone as Ivica|p|IMG_8152
+Šojat|Nikola|1878|1965|ŠOJAT, four names|p|IMG_8153
+Šojat|Milan|1907|1983|same stone as Nikola 1878|p|IMG_8153
+Šojat|Nikola|1939||same stone; death year cut as «20»|p|IMG_8153
+Šojat|Ana|1941||same stone; death year cut as «20»|p|IMG_8153
+Šojat|Marko|1883|1957|full dates 15 II 1883 - 18 X 1957|p|IMG_8158
+Šojat|Maruška|1894|1975|same stone, full dates 1 II 1894 - 6 VI 1975|p|IMG_8158
+#
+# --- OTHERS PHOTOGRAPHED, recorded because the sweep was systematic ---
+Gržin|Kata|1883|1954|«Svojoj dobroj majci zahvalni sinovi», full dates 1 XI 1883 - 31 III 1954|r|IMG_8060
+Gržin|Ivan-Ico|1955||GRŽIN; death year cut as «20»|r|IMG_8159
+Gržin|Anka-Dunja|1957||same stone; death year cut as «20»|r|IMG_8159
+Krmpotić|Franka|1928|1947|«OVDJE POČIVAJU»|r|IMG_8072
+Krmpotić|Ruža|1896|1969|same stone as Franka|r|IMG_8072
+Krmpotić|Ana|1925|2006|same stone as Franka|r|IMG_8072
+Rukavina|Neda|1943|1988|OBITELJ RUKAVINA, plain slab|p|IMG_8086
+Rukavina|Drago|1932|1996|same slab as Neda|p|IMG_8086
+Rukavina|Stjepan|1916|1994|wall tomb|p|IMG_8105
+Rukavina|Marin|1942||same wall tomb; no death year|p|IMG_8105
+Rukavina|Marija|1920|2005|same wall tomb|p|IMG_8105
+Rukavina|Jadranko|1958|1999|wall tomb, second bay|p|IMG_8106
+Rukavina|Ivan|1934|2009|same bay as Jadranko|p|IMG_8106
+Rukavina|Marija|1907|1991|same bay, full dates 25 IX 1907 - 14 XII 1991|?|IMG_8106
+Rukavina|Luka|1901|1944|OBITELJ RUKAVINA|p|IMG_8113
+Rukavina|Ana|1905|2001|same stone as Luka|p|IMG_8113
+Rukavina|Rina|1936|1996|same stone as Luka|p|IMG_8113
+Rukavina|Ante|1958||same stone; death year cut as «20»|p|IMG_8113
+Rukavina|Nevenka|1944||same stone; death year cut as «20»|p|IMG_8113
+Babić|Jakov|1895|1963|full dates 26 VII 1895 - 8 XI 1963, and his employer cut on the stone: «KP. PLOVIDBE»|r|IMG_8145
+Babić|Ana|1928|196?|OBITELJ BABIĆ|?|IMG_8150
+Babić|Zlatko|1952|1994|same stone as Ana|p|IMG_8150
+Babić|Nikola|1919|2010|same stone as Ana|p|IMG_8150
+Katalinić|Dane|1940||OBITELJ KATALINIĆ, in the background of the Defrančeski frames|?|IMG_8099, IMG_8100
+Defrančeski|Ivan|1925|1995|flat polished slab, raised metal letters, «IVAN DEFRANĆESKI 1925 - 1995». CORRECTED 15 Sept 2026: this is HEDVIGA'S HUSBAND. The tree carries Ivan Anton Defrančeski, b. 1925 d. 1995, on her marriage, with a null slug because he is not published — which is why a search of people.json returned nothing and this row first said the surname was not in the tree at all. It is the grave of the man at the centre of this archive|r|IMG_8100, IMG_8101, IMG_8102, IMG_8103, IMG_8104
+#
+# --- ŽUBRINIĆ AT SENJ, found only on the full-resolution pass of 15 Sept 2026 ---
+# The first pass missed this stone entirely: it stands BEHIND the Gržin grave and
+# is legible only when IMG_8159 is enlarged. Žubrinić is ahnentafel 5's maiden
+# surname and this archive's Otočac family; a Žubrinić grave in Senj, where she
+# married in and is buried, is a thread nobody has pulled.
+Žubrinić|Ivica|1887|1934|«OVDJE POČIVAJU U MIRU BOŽJEM», three names, small crucifix at the right|r|IMG_8159
+Žubrinić|Fana|1890|1974|same stone as Ivica|r|IMG_8159
+Žubrinić|Marijan|1919|1996|same stone as Ivica|r|IMG_8159
+Plivelić|Marcela|||«PLIVELIĆ R. K?EMENIĆ MARCELA» on the same stone as Blažević r. Prpić Milka; both dates are behind flowers in every frame|?|IMG_8147
+#
+# --- FRAMES WITH NO READABLE STONE ---
+# IMG_8070 out of focus, a fallen porcelain portrait on an overgrown kerb.
+# IMG_8071 a fallen plaque under reeds, upside down, reading «MARIJAN ...» and a
+#          gilt cross. Worth a return visit: it is the only unread name here.
+# IMG_8097, 8098, 8111, 8112 cemetery views.
+# IMG_8121, 8122, 8130, 8134, 8138, 8141-8144, 8146, 8148 blank plates, bases,
+#          carved ornament, or accidental frames.
+# IMG_8132, 8133, 8135, 8136 and 8101-8103 are people standing at the graves.

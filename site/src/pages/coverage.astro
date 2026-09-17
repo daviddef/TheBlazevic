@@ -22,7 +22,20 @@ const withDoc = tot("read") + tot("scanned");
 ---
 <Base title="What Rests on a Document"
   eyebrow={`${rows.length} direct ancestors, and how many are actually evidenced`}
-  dek={`Every page here says what its evidence is, person by person. Nobody had added it up. Of ${rows.length} people on Hedviga's direct line, ${tot("read")} have had a record read out, ${tot("scanned")} have an image nobody has read, ${tot("named")} appear only in somebody else's record, and ${tot("tree")} rest on the family tree alone.`}>
+  dek={`Every page here says what its evidence is, person by person. Nobody had added it up. Of ${rows.length} people on Hedviga's direct line, ${tot("read")} have had a record read out, ${tot("named")} appear only in somebody else's record, and ${tot("tree")} rest on the family tree alone. As of 14 September 2026 none is left at "scanned" — every attached image has been read.`}>
+
+  <section class="blk">
+    <div class="note"><strong>This page was wrong about itself until 14 September 2026.</strong>
+    “Scanned” is defined below as <em>an image is attached but has not been read out</em> — but the
+    tool had no way to learn that a document <em>had</em> been read, because a reading lives in a
+    note or a page's prose and never reached the data. Four people sat at <em>scanned</em> whose
+    entries had been read out weeks earlier.<br /><br />There is now a
+    <span class="mono">sources/readings.psv</span> listing every document actually read, one row per
+    person per document with its citation, and the grade is built from it.
+    <strong>Read went from 19 to {tot("read")}; scanned went to none.</strong> The file is
+    maintained by hand, which is the real cost: a reading nobody records still will not count.
+    <a href={u("/open-questions/")}>Question 9b →</a></div>
+  </section>
 
   <section class="blk">
     <p class="lede">This page exists because of the kind of day 10 September 2026 was. Three joins

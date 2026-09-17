@@ -62,3 +62,52 @@ the 1832 man by house alone, and the question stays open.
 **Vincentius Antich, *aliter* Dudich**, aged 63, died 29 January 1842 — a
 seventh *aliter* pair for question 5, and the second time *Dudić* appears as the
 Antić by-name.
+
+---
+
+## 15 September 2026 — ahnentafel 25, and a map of the film
+
+**Ahnentafel 25 is read.** LIBER DEFUNCTORUM, page 144, entry 21, image 397,
+ark `3:1:3QSQ-G99X-1357`:
+
+> «**Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić,
+> R. Katolikinja**» — Selce, house **29**, aged **73**, died **6 July 1882**,
+> and the remarks column adds «**bi dne 7/7 pokopana**».
+
+Every field checks. She is the **widow of the late Josip** — ahnentafel 24, dead
+since 1850. She is the **daughter of Juraj** — ahnentafel 50. She is **73**,
+against a birth of 22 March 1809. The date is the day the tree carries.
+
+One thing the entry does not settle: the mother is written «**Mare**», where the
+tree has ahnentafel 51 as **Margarita Brozović**. *Mare* serves as the familiar
+for both *Margareta* and *Marija* in this district, so it is consistent and it is
+not proof. Recorded as read.
+
+## The index does not cover this register
+
+Worth stating plainly, because it changes how the rest of this row gets done:
+**the FamilySearch record index holds baptisms only for Selce.** A sweep of the
+index for the surname *Antić* returns **119 Selce entries and every one is a
+baptism**. The index-with-ARK shortcut — which found the Otočac households and
+the Karlobag baptism in minutes — **does not work here**. This register has to be
+walked.
+
+## So the film is now mapped instead
+
+Film **005497948**, 802 images, and it is not one book. Image 200 is a
+*HISTORIA PAROCHIAE*; the *LIBER DEFUNCTORUM* runs through the 380s and 390s;
+image 600 is a later Croatian-ruled register. The waypoint in the URL **changes
+between images**, which is why a single film number is a poor handle on it.
+
+| image | what is on it |
+|---|---|
+| 384 | LIBER DEFUNCTORUM p. 118 — Aug–Nov **1877** |
+| 397 | p. 144 — Feb–Jul **1882** ← ahnentafel 25 |
+| 400 | p. 150 — Nov **1883** into Feb **1884** |
+
+About **2.7 images to the year** through this stretch. Interpolating backwards
+puts **ahnentafel 24** (21 October 1850) near image **311** and **ahnentafel 48
+and 49** (both 1829) near image **254** — but both 1829 estimates sit well
+outside the measured range and the film changes books more than once, so the page
+heading has to be checked before anything is read. Arks and the rest are in
+`sources/familysearch/film-005497948-selce-deaths.json`.

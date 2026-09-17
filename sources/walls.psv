@@ -1,0 +1,42 @@
+# Corrections to the wall grading, one per line: ahn|field|value
+#
+# field is one of:
+#   place  a place this archive has READ off a document, where the tree gives
+#          none. It does NOT assert a grade — it is fed back through the normal
+#          grading, so the kind is still derived from the parish table.
+#   why    the sentence that says which document placed them. Printed after it.
+#   label  replaces the short label outright.
+#   note   replaces the whole note outright. Use sparingly; prefer place.
+#
+# Nicolaus Gerkacs had no birthplace anywhere in the GEDCOM and was graded
+# «unplaced — No place recorded», which on 15 September 2026 stopped being true:
+# his death entry puts him in his son's house at Karlobag.
+220|place|Karlobag, Lika-Senj County, Croatia
+220|why|He died on 30 October 1783 «in domo filij sui Antonij» — in his son Antonius's house — and was buried beside the parish church at Karlobag. Karlobag Umrli 1774–1804, folio 39, ark 3:1:3QS7-L99C-GSBH.
+
+# Row 56, 15 September 2026. Two villages that name real places no parish
+# claimed. Both are now settled as PLACES. Neither is settled as a BOOK, and
+# the two are not the same question — which is the distinction row 45 drew.
+#
+# Smiljan turned out to be a parish of its own, koha:465540, and not a village
+# of Gospić. That does not help Simoni Pekass: its films begin in 1834 and he
+# is a generation of about 1700.
+426|why|Smiljan IS its own parish — Rimokatolička crkva. Župa Smiljan, koha:465540 — and not a village of Gospić, which is what this archive had to establish before it could look. It does not reach him: Smiljan's births are filmed 1834–1857 only, and are item 4 of roll 1419217, so the film number will not open them either. Gospić is the only book in the district that goes back further, and only for marriages and deaths from 1789. The way in is sideways: his daughter Antonia married Josiph Smojver Vukić at KARLOBAG on 20 November 1752, so her baptism is inside Karlobag Rođeni 1691–1770 and will name him.
+#
+# Montani Stanište is not a parish, was never going to be one, and the
+# catalogue confirms it: no hit for «Stanište», no hit for «Montani».
+222|why|A *stanište* is a herders' settlement, not a parish, and the catalogue has no entry for this one — searched 15 September 2026 for both «Stanište» and «Montani», with nothing in Croatia returned. Its events will have been written into a neighbouring parish's book, and which one is NOT established here: the Tomljanovići in this archive are Karlobag, which makes Karlobag the first place to look and not an answer. What is firm is his daughter: ahnentafel 111, Lucia, died 19 September 1809, which falls inside Karlobag Umrli 1804–1861 and would name her father and her house.
+#
+# Row 51, 15 September 2026. Ahnentafel 22 is a surname with no given name, and
+# the grading already says so. What it could not say is that the surname is two
+# names and only one of them is a name. Read out of the GEDCOM; see
+# notes/ana-sumbul-maric.md.
+22|why|«Shambul» sits in the SURNAME field and the given name is empty — `1 NAME  /Shambul Marić/` — so this was never a man called Shambul. His other two children, Mathias and Joannes, are plain **Marić**: a surname does not attach to one child of three, and a by-name does. The two sources on his daughter are both other people's trees rather than a page, and they disagree — one writes *Šumbul*, the other *Shambul*. So the surname to search is **Marić**, with Šumbul as the discriminator, the way *Papa* separates one Papić household and *Smojver* one Vukić. It is deliberately NOT in sources/bynames.psv, which holds only phrases read off a register.
+#
+# Row 54, 17 September 2026. The Karlobag baptisms are INDEXED — searchable as
+# text, with parents — which found.psv had been using for the Uroda household
+# since before this row was written. Applied at last to the other walls.
+426|why|The Karlobag record index holds a **Šimun Pekasa** household exactly where this man should be: **Joseip 1 March 1705**, **Margarita 28 October 1719**, **Katarina 19 June 1734** (mother *Stoja*), **Perina 29 June 1738** (mother *MARE*). **Mare is Mara** — ahnentafel 427 — so this is the best candidate for this couple, in the right parish, in the right window, with four documented children who would be ahnentafel 213's brothers and sisters. **It is a candidate and not a proof.** Antonia's own baptism is not in the index under any spelling tried, and the household names TWO wives that are not the same woman, so which of them ahnentafel 213 belongs to is exactly what is not yet known. Note also that the tree places this man at Smiljan; the index places the household at Karlobag from 1705.
+427|why|Named as **Mare**, wife of Šimun Pekasa, on the Karlobag baptism of their daughter **Perina, 29 June 1738** — the only wife in that household whose name matches this archive's *Mara*. The 1734 baptism of Katarina names a different wife, **Stoja**, so the identification depends on which marriage ahnentafel 213 was born into. See notes/karlobag-is-indexed.md.
+220|why|The Karlobag index does NOT reach him, and the reason is spelling rather than coverage. It renders this surname **Gergacs, Gergocz, Geraecs** and **Gergich**, and the Karlobag households it holds under those forms are **Antonio × Francisca** (1777–1788) and **Michael × Lucia** (1786–1789) — a generation too late for a man born in 1717. found.psv already carries **Antonius Gergacs**, named on his father's record. **The index removes the need to find the page; it does not remove the need to know how the name was written.**
+104|why|The same spelling problem, worse. At Karlobag the record index writes this surname **Pidepics** and **Pilleppics**, and the Pilipić entries it does return under the ordinary spelling are at **Bilaj**, not Karlobag. A baptism of about 1741 is inside the indexed range — Karlobag entries from 1704 onward are searchable — so **this wall is a spelling problem and not a coverage problem**, which is a better position than it was in.

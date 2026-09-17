@@ -1,0 +1,27 @@
+{
+ "_film": "005498269 (film 2121770) — Otočac, Matična knjiga 1710-1872, catalog koha:837578",
+ "_contents": "Status animarum 1710-1846 (images ~9-112) · later additions in another hand (113-119) · blank · Vjenčani 1859-1872 (~129-147) · Umrli",
+ "_note": "Partial map — the images the Šumećica work needs. Rebuild the rest by opening the thumbnail grid in the viewer and scraping alt=\"Image N\"; see README.md. Viewer ?i=N is zero-indexed: ?i=101 is image 102.",
+ "_villages": {
+   "10,15,20": "Ottosaz (Otočac town)", "25": "Luka",
+   "30,40,45": "Dubrava (district Biskupljak)", "35,50,55": "Novoselia",
+   "60,65,70": "Lieška", "75": "unresolved", "80": "Kostelievo Selo",
+   "85,90": "Obilje", "95,100,101": "Beljue",
+   "102-106": "SHUMECHICZA", "107": "Luka", "108-109": "Extinctae (one opening, shot twice)",
+   "110": "another village", "111": "Novoselia (second block)",
+   "112+": "ruled census ends; 113-119 later additions, no Pagus column"
+ },
+ "arks": {
+  "95": "3:1:3QS7-899F-M3TJ", "96": "3:1:3QSQ-G99F-M3YN", "97": "3:1:3QSQ-G99F-M3BK",
+  "98": "3:1:3QSQ-G99F-M3YW", "99": "3:1:3QSQ-G99F-M3BS", "100": "3:1:3QSQ-G99F-M3RL",
+  "101": "3:1:3QS7-899F-M3LL", "102": "3:1:3QSQ-G99F-M35R", "103": "3:1:3QS7-L99F-M3DV",
+  "104": "3:1:3QS7-899F-M35Y", "105": "3:1:3QS7-L99F-M385", "106": "3:1:3QS7-899F-M353",
+  "107": "3:1:3QSQ-G99F-M352", "108": "3:1:3QS7-899F-M3FK", "109": "3:1:3QSQ-G99F-M3PD",
+  "110": "3:1:3QS7-L99F-M339", "111": "3:1:3QS7-899F-M3K7", "112": "3:1:3QS7-L99F-M397",
+  "113": "3:1:3QSQ-G99F-M32Z", "114": "3:1:3QS7-L99F-M3W2", "115": "3:1:3QS7-L99F-M3Z5",
+  "116": "3:1:3QS7-L99F-M3CW", "117": "3:1:3QS7-899F-M3C4", "118": "3:1:3QSQ-G99F-M359",
+  "119": "3:1:3QS7-L99F-M3H3", "120": "3:1:3QSQ-G99F-M3L6", "121": "3:1:3QS7-L99F-M3HW",
+  "122": "3:1:3QS7-899F-M3FD", "123": "3:1:3QS7-L99F-M34F", "124": "3:1:3QS7-899F-M3H2",
+  "125": "3:1:3QS7-899F-M3KG"
+ }
+}

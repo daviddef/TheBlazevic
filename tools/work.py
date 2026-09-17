@@ -57,13 +57,79 @@ for pid, rec in pub.items():
 allrows = rows + tree_rows
 by_fam = collections.Counter(r["family"] for r in allrows if r["family"])
 
+# Five worlds, not one list. The same family tree reaches into a Habsburg
+# garrison town, a stretch of the Military Frontier, a set of hill villages, a
+# port with a tobacco monopoly — and, on the other side of the world, a lead
+# smelter. The trades in each are not comparable. Keyed on the place string the
+# register itself gives.
+#
+# The fifth was added on 16 September 2026 with the Australian electoral rolls,
+# and it is the one that makes the other four mean something. This archive has
+# been saying «the offices did not travel» while giving the destination nowhere
+# to appear.
+STRATA = [
+    ("Karlobag — the port town",
+     ("karlobag",),
+     "A chartered town on the Adriatic. Merchants, master mariners, "
+     "and a parish register full of Dominus honorifics, a Pro-Colonel, "
+     "a Captain and a Baron von Holstein."),
+    ("The Military Frontier — Otočac and its villages",
+     ("otocac", "otočac", "prozor", "sumecica", "šumećica", "dubrava"),
+     "Not civilians. Every adult male is enrolled, and the register records "
+     "the rank or the office rather than a trade: Confiniarius, keeper of the "
+     "watch, forest warden, keeper of the prison."),
+    ("The hill villages — Krmpote, Smokvica, Krivi Put",
+     ("smokvica", "krmpote", "krivi put", "sv. jakov", "klenovica", "povile",
+      "novi vinodolski", "ledenice"),
+     "Seljaci and težaci, almost without exception. Where a register gives "
+     "anything else it is usually the household, not the man."),
+    ("Senj — the town and the tobacco factory",
+     ("senj",),
+     "A working port with a state tobacco monopoly. The register grades the "
+     "factory workforce from radnica to nadglednica, and the town trades run "
+     "from bremenar to gostioničar."),
+    ("Port Pirie and Whyalla — the lead smelter",
+     ("port pirie", "solomontown", "whyalla", "broken hill", "glenelg",
+      "pt pirie"),
+     "The same families, fifty years and half a world later, in the Australian "
+     "electoral rolls. Two trades and no third: foundry — ironmoulder, moulder "
+     "— and labourer. Not one office, not one rank, not one Dominus. The "
+     "women's column is what the Commonwealth roll asked for rather than a "
+     "trade, and is kept as it stands."),
+]
+
+
+def stratum_of(place):
+    p = (place or "").lower()
+    for name, keys, _ in STRATA:
+        if any(k in p for k in keys):
+            return name
+    return None
+
+
+strata = []
+for name, _keys, blurb in STRATA:
+    hits = [r for r in allrows if stratum_of(r.get("place")) == name]
+    if not hits:
+        continue
+    strata.append({
+        "name": name, "blurb": blurb, "n": len(hits),
+        "rows": sorted(hits, key=lambda r: (str(r.get("year") or ""), r["who"])),
+    })
+placed = sum(s["n"] for s in strata)
+
 print(f"{len(rows)} occupations read from registers, {len(tree_rows)} carried by the tree")
 print(f"{len(allrows)} in total, against {len(pub)} published people\n")
 for f, n in by_fam.most_common():
     print(f"  {n:>3}  {f}")
+print()
+for st in strata:
+    print(f"  {st['n']:>3}  {st['name']}")
+print(f"  {len(allrows) - placed:>3}  (no place given)")
 
 out = os.path.join(DATA, "work.json")
 json.dump({"rows": allrows, "fromRegister": len(rows), "fromTree": len(tree_rows),
-           "published": len(pub)},
+           "published": len(pub), "strata": strata, "placed": placed,
+           "unplaced": len(allrows) - placed},
           open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"\nwrote {os.path.relpath(out, ROOT)}")

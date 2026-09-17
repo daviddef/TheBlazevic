@@ -1,7 +1,16 @@
 ---
 import Base from "../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
+import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
+import nf from "../data/namefold.json";
+/* THE REGISTER FOLDS TOO NOW. /people/ has folded spellings since it moved onto
+   FilterTable - the box that makes zubrin find Zubrinic, Xubrinich and
+   Zubrinich alike - and the register, which is the longer list and the one a
+   researcher actually works from, did not. The map is this archive's own: the
+   34 given-name groups it already keeps, plus the surname clusters namefold.py
+   reads out of the corpus. Folding is a search rule and merges nothing. */
 
 const groups = new Map();
 for (const r of register) {
@@ -24,6 +33,10 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
 <Base title="The Register"
   eyebrow="Every named individual this archive has found"
   dek={`${register.length} entries across ${surnames} surnames — ${tree} carried by the family tree and ${swept} met while reading a register act by act. This is the raw catch, not a family tree, and a good deal of it is not this family — in the strict sense that two-thirds of the published people reach Hedviga only through a sorting label.`}>
+
+<NameLists here="register" u={u} />
+
+
 
   <section class="blk">
     <div class="qa">
@@ -58,73 +71,32 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
 
   <section class="blk">
     <div class="finder">
-      <label class="lab" for="q">Filter by name, trade, place, year or source</label>
-      <input id="q" type="search" autocomplete="off"
-        placeholder="tvornici duhana · Krivi Put · 1919 · Rivosecchi · Custos …" />
-      <p class="dek" id="count" style="margin-top:.5rem">{register.length} entries</p>
-    </div>
-  </section>
+      <Register u={u} fold={nf.fold} rows={[...groups.entries()].flatMap(([g, list]) => list.map((r) => ({
+    name: r.name,
+    surname: pretty(g),
+    kind: KIND[r.kind] || r.kind,
+    href: r.slug ? "/people/" + r.slug + "/" : "",
+    chip: (r.kind === "swept" && !r.slug) ? "not in the tree" : "",
+    detail: r.detail,
+    source: r.source,
+    sourceLabel: KIND[r.kind] || r.kind,
+  })))} />
 
-  {order.map((g) => (
-    <section class="blk sur" data-sur={g}>
-      <h2>{pretty(g)} <span class="dim mono">{groups.get(g).length}</span></h2>
-      <table class="reg">
-        <thead><tr><th>Name</th><th>What the source says</th><th>Source</th></tr></thead>
-        <tbody>
-          {groups.get(g).map((r) => (
-            <tr class="row" data-hay={(r.name + " " + r.detail + " " + r.source).toLowerCase()}>
-              <td>
-                {r.slug ? <a href={u("/people/" + r.slug)}>{r.name}</a> : r.name}
-                {r.kind === "swept" && !r.slug &&
-                  <><br /><span class="tag">not in the tree</span></>}
-              </td>
-              <td>{r.detail}</td>
-              <td class="dek">
-                <strong>{KIND[r.kind]}</strong><br />
-                <span class="dim">{r.source}</span>
-              </td>
-            </tr>))}
-        </tbody>
-      </table>
-    </section>
-  ))}
-
-  <section class="blk">
-    <h2>What this page is not</h2>
-    <ul class="plain">
-      <li><strong>It is not a pedigree.</strong> Being listed here means a source names you, and
-        nothing more. <a href={u("/direct-line/")}>The spine</a> is the pedigree.</li>
-      <li><strong>It is not complete.</strong> It holds what has been read. Roughly a thousand
-        people in the wider tree have never had their media swept, and the register reading covers
-        about twenty pages across four parishes.</li>
-      <li><strong>It does not resolve duplicates.</strong> Three men called Mile Prpić appear here
-        and at least two of them are different people. Saying which would be a claim, and this page
-        makes none.</li>
-    </ul>
-    <p style="margin-top:1.2rem"><a class="btn" href={u("/people/")}>The people with pages →</a>
-      {" "}<a class="btn" href={u("/sources/")}>Where all this comes from →</a></p>
-  </section>
-
-  <script is:inline>
-    (function () {
-      var q = document.getElementById("q"), count = document.getElementById("count");
-      var rows = [].slice.call(document.querySelectorAll("tr.row"));
-      var secs = [].slice.call(document.querySelectorAll("section.sur"));
-      var t;
-      function run() {
-        var v = q.value.trim().toLowerCase(), n = 0;
-        rows.forEach(function (r) {
-          var hit = !v || r.getAttribute("data-hay").indexOf(v) !== -1;
-          r.hidden = !hit; if (hit) n++;
-        });
-        secs.forEach(function (s) { s.hidden = !s.querySelector("tr.row:not([hidden])"); });
-        count.textContent = n === rows.length
-          ? rows.length.toLocaleString() + " entries"
-          : n.toLocaleString() + " of " + rows.length.toLocaleString() + " entries";
-      }
-      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
-      var pre = new URLSearchParams(location.search).get("q");
-      if (pre) { q.value = pre; run(); }
-    })();
-  </script>
+<style is:global>
+  /* is:global, deliberately. A scoped <style> makes Astro stamp
+     data-astro-cid-… onto every element the page renders, which on a register
+     of thousands of rows adds more weight than the skipping saves. The
+     selector below is specific to this page anyway. */
+  /* 119 surname sections. Only the ones on screen need laying out; every row
+     stays in the HTML for search engines and find-in-page. */
+  section.sur {
+    content-visibility: auto;
+    /* Plain length first: browsers from Chrome 85 to 110 support
+       content-visibility but cannot parse the "auto" keyword here, and
+       without a usable estimate they collapse every off-screen section
+       to nothing and the scrollbar jumps as you scroll. */
+    contain-intrinsic-size: 320px;
+    contain-intrinsic-size: auto 320px;
+  }
+</style>
 </Base>

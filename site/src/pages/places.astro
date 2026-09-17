@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Places from "@daviddef/archive-kit/components/Places.astro";
 import { u } from "../lib/url.js";
 import places from "../data/places.json";
 const key = [
@@ -14,6 +15,7 @@ const key = [
   ["Prozor & Šumećica", "The two Otočac villages the oldest Žubrinić entries name — Prozor 46 and 50, Šumećica 2 and 24. Six people left Prozor for New York between 1907 and 1912.", "/america"],
   ["Port Pirie", "South Australia. The Žubrinić emigration of about 1884, and the Zubrinich spelling.", "/port-pirie"],
 ];
+import atlas from "../../public/atlas-data.json";
 ---
 <Base title="Places"
   eyebrow="A hundred kilometres of coast, and then two other continents"
@@ -36,15 +38,11 @@ const key = [
     there. Births and deaths of published people carrying one of the eight surnames. Spelling
     variants are collapsed where they are literally the same place; nothing distinct is merged.
     House numbers are kept, because in Frontier registers the house number <em>is</em> the
-    family.</p>
-    <table class="reg">
-      <thead><tr><th>Place</th><th>People</th></tr></thead>
-      <tbody>{places.map((p) => (
-        <tr>
-          <td><a href={u(`/people/?q=${encodeURIComponent(p.place.split(",")[0])}`)}>{p.place}</a></td>
-          <td class="mono">{p.n}</td>
-        </tr>))}</tbody>
-    </table>
+    family.<Places u={u} rows={places.map((p) => ({
+      name: p.place,
+      n: p.n,
+      href: "/people/?q=" + encodeURIComponent(p.place),
+    }))} />
   </section>
   <section class="blk">
     <div class="lab">Data quality</div>
@@ -83,4 +81,16 @@ const key = [
     was not there.</p>
   </section>
 
+
+<section class="blk" id="every-place">
+  <h2>Every place with a page of its own</h2>
+  <p class="dek">One page per place the atlas can put a person in, listing who was born, married or
+    buried there and what the archive read to know it. These were reachable only by clicking a marker
+    on the map, which meant a reader without JavaScript — and a search engine — could not get to any
+    of them.</p>
+  <p class="placelist">{atlas.places.filter((p) => p.slug).sort((a, b) =>
+      (a.place || a.name || "").localeCompare(b.place || b.name || "")).map((p, i) => (
+    <>{i > 0 && <span class="sep"> · </span>}<a href={u(`/places/${p.slug}/`)}>{p.place || p.name}</a></>
+  ))}</p>
+</section>
 </Base>

@@ -45,10 +45,15 @@ question. It is still the biggest prize. But:
 * **The Latin toolkit does not transfer.** *filius legitimus*, *denatorum*,
   *conjugum*, *adstantibus* — none of it appears. The formula is different and
   so is the vocabulary.
-* **The early entries may not name parents at all.** The three read here give a
-  date, the priest, and names, with no visible *filius/filia* construction.
-  Whether the 1650s book records parentage in a usable way is **not yet known**,
-  and it is the first thing to check before planning on those 120 events.
+* **The early entries DO name parents — checked 14 September 2026.** Read at
+  higher magnification, the formula carries the father, then ***njegove*
+  [name]** — "his [wife] N" — and then a **kum**, the godparent. So parentage
+  is recorded, which was the thing in doubt.
+
+  **But the hand is very hard**, and this is an honest limit: the reading above
+  is structural, not a transcription. Personal names in this script are not
+  being lifted reliably at the resolution available, and a sitting on this book
+  should expect to spend its time on palaeography rather than on searching.
 * The **1804–1852 volume** is a separate film and will be in the later, ruled,
   Latin form — which is where Klenovica and Povile in the archive's own date
   range actually sit.

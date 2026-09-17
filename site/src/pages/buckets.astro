@@ -262,4 +262,46 @@ const pctVague = Math.round(100 * B.vague.agree / (B.vague.agree + B.vague.disag
       {" "}<a class="btn" href={u("/duplicates/")}>The same person, twice →</a>
       {" "}<a class="btn" href={u("/impossible/")}>What cannot be true →</a></p>
   </section>
+
+  <section class="blk">
+    <h2>15 September 2026 — the alphabet, found because a reader asked</h2>
+    <p class="lede">The detector on this page looks for the words a researcher writes when
+    they know they are guessing: <em>sorting</em>, <em>working</em>, <em>unknown</em>,
+    <em>brothers of</em>. <strong>It could not see a drawer labelled “M”.</strong></p>
+
+    <p>Someone looking at a Žubrinić page asked what all the single-letter Žubrinići were,
+    and whether the site was saying they were related. <strong>It was.</strong> Fifteen nodes
+    are named with one capital letter and a surname —
+    <span class="mono">A · B · C · F · G · H · J · L · M · N · P · R · S · T · W</span> —
+    every one of them <em>“X Žubrinić Xubrinich Zubrinic”</em>, with
+    <strong>no birth, no death, no place and no source</strong>.</p>
+
+    <p><strong>Each is entered as the parent of every Žubrinić whose name begins with that
+    letter.</strong> <span class="mono">M</span> is the father of Mathæus, Michael and Mate;
+    <span class="mono">T</span> of three men called Thomas. <strong>And they are entered as one
+    another's siblings</strong>, so the tree asserted <strong>fifteen brothers and sisters
+    called A through W</strong>, hanging from nothing, with <strong>75 real people</strong>
+    beneath them across <strong>285 relationship links</strong>.</p>
+
+    <p><strong>The giveaway is the sorting.</strong> <em>Jure / Georgius / Juraj</em> is filed
+    under <span class="mono">G</span>, not J — the letter follows the Latin form, not the name
+    the page shows. That is a card index, not a household. One drawer even breaks its own
+    rule: <strong>Nicolai Žubrinić is filed under M</strong>.</p>
+
+    <p><strong>What changed.</strong> Both the detector here and the site's own
+    <em>junk</em> filter now test for it — one capital letter, a surname, and
+    <strong>no date of any kind</strong>, so that a real person recorded only by an initial is
+    not mistaken for a drawer. The fifteen no longer appear as anybody's parent, sibling or
+    child, and they no longer have pages. That moved the count on this page from
+    <strong>21 buckets to {B.buckets.length}</strong>, and the people standing on one from
+    <strong>218 to {B.hanging}</strong>.</p>
+
+    <p><strong>And the gap is now stated instead of left blank.</strong> A person whose only
+    parent was a drawer used to show an empty space where a father should be. Their page now
+    says so, and names the label. <strong>{B.orphaned.length} people</strong> carry that notice.</p>
+
+    <p class="dek"><strong>The tree itself is untouched.</strong> This is a change to what the
+    archive publishes, not to the GEDCOM — the separation the whole project rests on. The
+    drawers are still in MyHeritage, doing what drawers do.</p>
+  </section>
 </Base>

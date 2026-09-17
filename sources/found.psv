@@ -1,0 +1,60 @@
+# People read out of a register who are NOT in the family tree.
+#
+# REMOVED 15 September 2026, after tools/foundcheck.py was written and run:
+#   Thomas Zubrinic, Luce Žubrinić, Helena Oreskovic and Ivan Defrančeski were
+#   all in the tree. The first two are published people; Helena is a parent
+#   reference with no page of her own; Ivan Defrančeski is HEDVIGA'S HUSBAND,
+#   carried on her marriage with a null slug. Their readings moved to
+#   sources/readings.psv where they have a slug to key on.
+#
+# Why this file exists. Every other source here keys on a slug from the GEDCOM,
+# which means a person can only be recorded if MyHeritage already knew about
+# them. That was fine while the archive was checking the tree. It stopped being
+# fine on 15 September 2026, when ahnentafel 54's baptism named his father and
+# mother -- a whole generation, read at the page, with nowhere in the data to
+# put it. Six of his siblings had the same problem, and so did a daughter of
+# ahnentafel 24 whom the tree never had.
+#
+# A person belongs here when BOTH are true:
+#   * they were read in a register, at the page, with a citation; and
+#   * no slug in people.json is them.
+#
+# They are deliberately NOT given slugs and NOT merged into the tree. The tree
+# is a MyHeritage export and this archive does not edit it -- that is the whole
+# separation the project rests on. This file is the archive's own evidence,
+# standing beside the tree rather than inside it.
+#
+# "relation" says how they attach to someone the tree DOES have, in plain words,
+# and is the thing a reader needs. "ahn" is filled in only where the position on
+# the direct line is certain.
+#
+# name|ahn|relation|event|date|place|citation
+Georgius Uroda|108|father of ahnentafel 54|death|10 September 1791|Karlobag|Umrli 1774-1804 fol. 67 - "Dnus Georgius Uroda ... die 12a sepultus est in propria [sua Crypta ante] fores Ecclesiae Parochialis"; DGS 5481649
+Maria Uroda|109|wife of Georgius, mother of ahnentafel 54|named as parent|22 April 1777|Karlobag|Rodjeni 1771-1804 fol. 36/37 - "ex Georgio, et Maria Uroda, Conjugibus, hujus Loci"; ark 3:1:3QSQ-G99C-L991-3
+Dominicus Uroda||brother of ahnentafel 54|baptism|6 May 1764|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Petrus Jacobus Uroda||brother of ahnentafel 54|baptism|2 July 1767|Karlobag|Karlobag births, indexed; buried 7 November per the 1774-1804 death index fol. 82
+Heva Joanna Uroda||sister of ahnentafel 54|baptism|28 December 1769|Karlobag|Karlobag births, indexed; buried 11 May per the 1774-1804 death index fol. 5
+Maria Catharina Uroda||sister of ahnentafel 54|baptism|29 April 1772|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Anton Joanis Uroda||brother of ahnentafel 54|baptism|13 June 1780|Karlobag|Karlobag births, indexed; father Georgius, mother Maria
+Joannis Uroda||brother of ahnentafel 54; married Maria filia Nicolai Barletich 10 Feb 1806|baptism|17 May 1784|Karlobag|Karlobag births, indexed; his wife stands godmother to ahnentafel 27 in 1810
+Maria Rosaria Antic||daughter of ahnentafel 24 and 25, sister of ahnentafel 12|baptism|4 October 1847|Selce|Selce baptisms, indexed - father Josephus Antic, mother Maria Jellicic; ark 3:1:3QS7-899C-596Z-7
+Stephanus Zubrinic||son of ahnentafel 10 and 11, brother of ahnentafel 5|baptism|3 July 1856|Otocac|Otocac baptisms entry 49 - "Rustici Confiniarii e Sumecica N. 2 ... Nicolaus Zubrinic et ejus uxor Anna nata Strumbulko"; ark 3:1:3QSQ-G99C-PK2C
+
+# Otočac, the Michael Žubrinić households of 1846-58 (read 15 September 2026).
+# Fourteen of fifteen indexed entries were read; nine of those children are already
+# in the tree. These five are not. Every one of them has siblings who ARE in the
+# tree, so these are gaps in known families rather than an unknown branch.
+Maria Magdalena Theresia Žubrinić||daughter of Michaël Žubrinić and Maria Marković, Otočac|baptism|21 July 1846|Otočac|Rodjeni 1846-1858 - Conditio «Agricola Confiniarius», no village or house number given; ark 3:1:3QS7-899C-G5D9
+Mathias Žubrinić||son of Michael Žubrinić and Maria Marković, Šumećica N° 5|baptism|3 January 1855|Šumećica, Otočac|Rodjeni 1846-1858 - «Confiniarius e Sumećica N° 5», first entry of 1855 below the year rule; ark 3:1:3QS7-899C-PVT8
+Josephus Žubrinić||son of Michael Žubrinić and Maria Rogić, Prozor N° 50|baptism|3 July 1855|Prozor, Otočac|Rodjeni 1846-1858 - «Miles Gregarius e Prozor N° 50»; brother of Nikola Miko b. 8 Jan 1858, who is in the tree; ark 3:1:3QSQ-G99C-PK64
+Stephanus Žubrinić||son of Michael Žubrinić and Maria Marković, Šumećica N° 5|baptism|17 December 1858|Šumećica, Otočac|Rodjeni 1846-1858 p. 290 - «Rusticus e Sumećica N° 5»; brother of Marta 1849 and Magdalena 1852, who are in the tree; ark 3:1:3QS7-899C-PVGY
+Maria Žubrinić||daughter of Michael Žubrinić and Magdalena Glavinić, Prozor N° 49|baptism|28 November 1858|Prozor, Otočac|Rodjeni 1846-1858 - «Rustica e Prozor N° 49»; surname written Žubrinić on the page where the index reads «Dubrinić»; ark 3:1:3QS7-899C-PVLN
+Mare Antić||daughter of Josip (ahnentafel 24) and Maria Antić, Selce N° 74; sister of ahnentafel 12|death|21 October 1850|Selce|LIBER DEFUNCTORUM p. 99 - «Preminu Osip Antić težak i Mare kćer», aged 6, «Od kolere», father and daughter in one entry; ark 3:1:3QSQ-G99X-13PY
+Matilda Papić||third name on the stone cross of Josip Papić (ahnentafel 6) and Antonija — almost certainly their daughter|memorial|died 1921, born 1895|Senj|Senj municipal cemetery, «MATILDA ✽1895 †1921», read at 4x. NOT IN THE TREE UNDER THIS NAME: the tree has two Papić daughters born 1895 — Franka (20 Jan) and Sulka (7 Feb) — and neither has a death recorded. One of them may be this woman; IMG_8131
+Antonius Gergacs||son of Nicolaus Gerkacs (ahnentafel 220), and therefore a brother of ahnentafel 110|named in his father's death entry|30 October 1783|Karlobag|Karlobag Umrli 1774-1804 folio 39 — his father «obiit … in domo filij sui Antonij», died in this son's house. Not in the published tree; the Gerkacs collaterals are not published at all; ark 3:1:3QS7-L99C-GSBH
+Margaritha Smojver||daughter of ahnentafel 212 and 213|baptism|9 July 1764|Karlobag|Karlobag births, indexed, entry 270 — «Entry for Margaritham Smoiver and Josephi Smoiver»; mother Antoniae. ark 1:1:QKMX-YLY7. Born twelve years after her parents' marriage of 20 Nov 1752 and twelve years before her father's death in 1776
+Joseip Pekasu||son of Šimun Pekas of Karlobag; candidate brother of ahnentafel 213|baptism|1 March 1705|Karlobag|Karlobag births, indexed — «Parents Šimun Pekasu». The earliest Pekas entry found; his own daughter Antonia is baptised 1742
+Margarita Pekasa||daughter of Šimun Pekas of Karlobag; candidate sister of ahnentafel 213|baptism|28 October 1719|Karlobag|Karlobag births, indexed — «Parents Simon Pekasa», no mother named
+Katarina Pekasa||daughter of Šimun Pekas and STOJA; candidate half-sister of ahnentafel 213|baptism|19 June 1734|Karlobag|Karlobag births, indexed — «Parents Stoja, Simuna Pekasa». The mother is NOT Mare
+Perina Pekasa||daughter of Šimun Pekas and MARE; candidate sister of ahnentafel 213|baptism|29 June 1738|Karlobag|Karlobag births, indexed — «Parents Simuna Pekasa, Mare». Mare is the only wife named that matches ahnentafel 427, Mara Pekass
+Antonia Pehasa||daughter of Osip Pekas and Monde, Karlobag — explicitly NOT ahnentafel 213|baptism|18 January 1742|Karlobag|Karlobag births, indexed — «Parents Monde, Osipa Pehasa». Recorded here to rule her out: ahnentafel 213 married in 1752 and bore a son in 1754, so a girl baptised 1742 cannot be her

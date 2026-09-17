@@ -7,7 +7,9 @@ import { defineConfig } from 'astro/config';
    other archives call the same page /corrections. Renamed; the old address
    is kept alive because it has been linked to. */
 const BASE = '/TheBlazevic';
-const redirects = { '/changed': `${BASE}/corrections/` };
+/* /married-in is now /marriages, on the estate's shared page shape. The address
+   has been published, so it redirects rather than 404s. */
+const redirects = { '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/` };
 
 export default defineConfig({
   site: 'https://daviddef.github.io',

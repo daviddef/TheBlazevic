@@ -1,0 +1,173 @@
+---
+import Base from "../layouts/Base.astro";
+import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import EraTimeline from "@daviddef/archive-kit/components/EraTimeline.astro";
+import { u } from "../lib/url.js";
+import fams from "../data/marriedin.json";
+
+/* The families who married into this descent, on the estate's shared page shape.
+ *
+ * This archive does NOT group by surname and must not start. Membership here is
+ * gated on an AHNENTAFEL NUMBER: a family is on this page because a numbered
+ * direct ancestor of Hedviga carries the name, so nothing is listed because of
+ * a spelling and the nineteen families carry no inflation at all. The Falco
+ * archive had to replace a surname rule with a descent test; this archive never
+ * had the fault, and the shared component asks nothing of it.
+ *
+ * The grouping is the same number read differently. An ahnentafel number says
+ * which generation back a person sits: 2–3 are parents, 4–7 grandparents, 8–15
+ * great-grandparents, and so on, because the number doubles every generation.
+ * So a family's LOWEST ahn is the generation at which it entered this line,
+ * which is exactly "how does this family reach the subject" answered with
+ * arithmetic instead of with a name.
+ */
+const gen = (ahn) => Math.floor(Math.log2(Math.max(1, ahn))) + 1;
+const GEN_LABEL = {
+  2: "Hedviga's parents", 3: "Her grandparents", 4: "Her great-grandparents",
+  5: "Her great-great-grandparents", 6: "Five generations back",
+  7: "Six generations back", 8: "Seven generations back",
+};
+const label = (g) => GEN_LABEL[g] || `${g - 1} generations back`;
+
+const entered = (f) => Math.min(...f.ancestors.map((a) => gen(a.ahn)));
+const totalAnc = fams.reduce((a, f) => a + f.ancestors.length, 0);
+
+/* Two of the nineteen are not separate families and the old page said so; it
+   stays said, on the entry itself rather than in a footnote at the bottom. */
+const NOTE = {
+  "antic-papic": `<strong>Not really a separate family.</strong> One man carrying two surnames at
+    once — <a href="${u("/name/")}">question 5 turned on him</a>.`,
+  "smojver-vukic": `<strong>Not really a separate family.</strong> An alias: the Karlobag register
+    writes it out as <em>Smojver, vulgo Vukich</em>.`,
+};
+
+const fam = (f) => ({
+  surname: f.label,
+  n: f.ancestors.length,
+  countLabel: f.ancestors.length === 1 ? "direct ancestor" : "direct ancestors",
+  span: (f.from || "?") + "–" + (f.to || "?"),
+  places: f.places.map((p) => `${p.place} (${p.n})`),
+  story: f.spellings.length > 1
+    ? `Written <strong>${f.spellings.join("</strong>, <strong>")}</strong> — one family, as many
+       spellings as there were clerks.` : "",
+  note: NOTE[f.key] || (f.places.length ? "" :
+    `<strong>No village is recorded for anyone of this name.</strong> That is how a line ends
+     without anyone noticing.`),
+  people: f.ancestors.map((a) => ({
+    name: `${a.ahn} · ${a.name}`, slug: a.slug, b: a.born || "", bp: a.place || "", d: "", dp: "",
+  })),
+});
+
+/* A couples register, which this page did not have. It needs no new data: an
+   ahnentafel IS a list of couples — ancestor 2n is the father of n and 2n+1 the
+   mother, so every even number and its odd neighbour are a married pair. The
+   nineteen families are the wives' side of exactly these marriages, and the page
+   could name the families without ever naming the marriages that brought them. */
+const ANC = {};
+for (const f of fams) for (const a of f.ancestors) ANC[a.ahn] = { ...a, family: f.label };
+const couples = Object.keys(ANC).map(Number).filter((n) => n % 2 === 0)
+  .filter((n) => ANC[n + 1]).sort((a, b) => a - b)
+  .map((n) => ({
+    a: { name: ANC[n].name, slug: ANC[n].slug },
+    b: { name: ANC[n + 1].name, slug: ANC[n + 1].slug },
+    when: [ANC[n].born, ANC[n + 1].born].filter(Boolean).map((d) => (d.match(/\d{4}/) || [""])[0])
+      .filter(Boolean).sort().slice(0, 1).map((y) => "born " + y)[0] || "",
+    where: [...new Set([ANC[n].place, ANC[n + 1].place].filter(Boolean))].join(" · "),
+    note: `Ahnentafel <span class="mono">${n}</span> and <span class="mono">${n + 1}</span> — ${ANC[n + 1].family} married into the line here.`,
+  }));
+
+const GENS = [...new Set(fams.map(entered))].sort((a, b) => a - b);
+const GROUPED = GENS.map((g) => {
+  const list = fams.filter((f) => entered(f) === g).sort((a, b) => b.ancestors.length - a.ancestors.length);
+  return {
+    key: "g" + g, label: label(g), count: list.length,
+    blurb: `Ahnentafel ${Math.pow(2, g - 1)}–${Math.pow(2, g) - 1}. ${list.length === 1
+      ? "One family enters" : `${list.length} families enter`} the descent here — each because a
+      numbered direct ancestor carries the name, and for no other reason.`,
+    families: list.map(fam),
+  };
+});
+
+const byPlace = {};
+for (const f of fams) (byPlace[f.places[0]?.place || "not recorded"] ||= []).push(f);
+const places = Object.entries(byPlace).sort((a, b) => b[1].length - a[1].length);
+
+/* This archive has ONE dated marriage record, so it cannot draw a marriage
+   timeline and does not pretend to. What it has is forty-five numbered
+   ancestors with birth years, and five rulers over the same coast in the same
+   span — which answers the same question: what was happening to them while
+   they were being born. The caption says which. */
+const timelinePoints = fams.flatMap((f) => f.ancestors
+  .filter((a) => a.born && /\d{4}/.test(a.born))
+  .map((a) => ({ label: a.name.replace(/\s*\(.*?\)/g, ""), year: a.born, sub: a.place || f.label })));
+
+---
+<Base title="The Marriages"
+  eyebrow={`${fams.length} families · ${totalAnc} direct ancestors · not one of them here by name`}
+  dek="This archive follows four surnames and gives each a page. Hedviga's descent runs through more than twenty. The other nineteen carry forty-five direct ancestors between them. If one of these is your family, this page is for you.">
+
+  <section class="blk">
+    <p class="lede">A pedigree names the men and loses the families. Every generation back, half of
+    this descent arrives through a woman with a different surname — and those surnames are
+    <strong>Uroda, Sekula, Jelličić, Bacchi, Gerkacs, Pekass, Orešković, Lončarić, Tomljanović</strong>
+    and ten more. They are not minor. <strong>They are half of it.</strong></p>
+    <p style="margin-top:.8rem"><strong>Nobody is on this page because of their surname.</strong>
+    Each family is here because a <em>numbered</em> direct ancestor of Hedviga carries the name —
+    an ahnentafel number, not a spelling — which is why nineteen families and forty-five ancestors
+    is the whole of it and not a first draft to be cut down. The families are grouped by the
+    generation at which they entered the descent, which is the same number read again.</p>
+  </section>
+
+  <section class="blk">
+    <h2>They cluster by town, not by family</h2>
+    <p class="lede">Sort them by where their people actually are, and the married-in surnames turn
+    out to be <strong>a record of where the line was living at the time</strong> rather than a set
+    of independent families. A line at Karlobag married Karlobag; a line at Selce married Selce.</p>
+    <div class="grid two" style="margin-top:1.2rem">
+      {places.map(([place, list]) => (
+        <div class="card">
+          <h3>{place} <span class="dim mono">{list.length}</span></h3>
+          <p class="dek" style="margin-top:.3rem">{list.map((f) => f.label).join(" · ")}</p>
+        </div>))}
+    </div>
+  </section>
+
+  <EraTimeline points={timelinePoints}
+    eras={[[1700,1797,"Venetian and Habsburg frontier","--r-venice"],[1797,1809,"Habsburg","--r-habsburg"],
+           [1809,1813,"Illyrian Provinces","--r-napo"],[1813,1918,"Austria, then Austria–Hungary","--r-habsburg"],
+           [1918,1945,"Yugoslavia and the occupation","--r-italy"]]}
+    marks={[[1779,"Karlobag a free port"],[1871,"The Military Frontier dissolved"],
+            [1918,"The empire ends"],[1943,"Senj bombed"]]}
+    what={`Each dot is a numbered direct ancestor at the year of their birth — this archive has only one dated marriage record, so it plots what it has and says so. ${timelinePoints.length} of the forty-five carry a year.`} />
+
+  <Marriages u={u} groups={GROUPED} openAt={6} subject="Blažević"
+    metrics={[{ n: fams.length, label: "families joined" },
+              { n: totalAnc, label: "direct ancestors" },
+              { n: couples.length, label: "marriages named" },
+              { n: places.length, label: "towns" },
+              { n: fams.reduce((a, f) => a + f.published, 0), label: "people published" }]}
+    couples={couples}
+    couplesTitle="The marriages themselves"
+    couplesNote="Every couple the ahnentafel names — a father and a mother are always two consecutive numbers, so the nineteen families above are the wives' side of exactly these marriages.">
+    <div slot="missing">
+      <section class="blk">
+        <h2>What this page is honest about</h2>
+        <ul class="plain">
+          <li style="margin-bottom:.6rem"><strong>Most of these families are one person deep.</strong>
+            Fourteen of the nineteen are published here as <strong>three people or fewer</strong> — the
+            ancestor, sometimes a parent, and nothing else. This archive has their name and their
+            marriage and almost nothing of their life.</li>
+          <li style="margin-bottom:.6rem"><strong>Several have no place at all.</strong> Sekula,
+            Shambul Marić, Pećanić and Findrić are surnames attached to people with no recorded
+            village — which is how a line ends without anyone noticing.</li>
+          <li><strong>Two are not really separate families</strong>, and each says so on its own
+            entry above rather than here.</li>
+        </ul>
+        <p style="margin-top:1.2rem"><a class="btn" href={u("/families/")}>The four with pages →</a>
+          {" "}<a class="btn" href={u("/coverage/")}>What rests on a document →</a>
+          {" "}<a class="btn" href={u("/marriage-1920")}>The 1920 marriage register →</a>
+          {" "}<a class="btn" href={u("/register/")}>The register →</a></p>
+      </section>
+    </div>
+  </Marriages>
+</Base>

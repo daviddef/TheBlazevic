@@ -1,0 +1,73 @@
+# Australia Electoral Rolls — every Zubrinich entry, read in full.
+#
+# 16 September 2026, on the month's subscription. FIFTY transcripts, NINETEEN
+# people, three roll years (1939, 1941, 1943) in South Australia and two earlier
+# ones (1913, 1935) in New South Wales. The trial of 13-14 September read eight
+# of these and expired; searched.json has been carrying the rest as PENDING ever
+# since. This is that row finished.
+#
+# WHY A ROLL IS WORTH MORE THAN AN INDEX ENTRY. The index gives a name, a year
+# and a state. The transcript gives an OCCUPATION, a STREET ADDRESS and the
+# OTHER PEOPLE AT THAT ADDRESS — which is a household claim, the same claim a
+# house number makes in a Lika baptism and a plot number makes in a cemetery.
+# Read three roll years together and you watch a household move.
+#
+# THE TRANSCRIPTION IS FINDMYPAST'S, NOT THIS ARCHIVE'S, AND IT SLIPS. Emma's
+# 1941 occupation reads «Blamed» where 1939 and 1943 both read «Married».
+# Eveline's 1935 address reads «178'M11rt0i1 Street». Una's 1939 address reads
+# «Blanche, 11 Queen Street» — her own second given name has run into the
+# address column. These are recorded EXACTLY AS THE SITE GIVES THEM, with the
+# reading noted separately, because an OCR slip is evidence about the index and
+# not about the family.
+#
+# given|year|occupation|address|sub-district|district|state|household at that address
+Arthur Leslie|1941|Ironmoulder|2 Daisy St, Pt Pirie E|Port Pirie|Grey|SA|Arthur Leslie; Florence Johanna
+Arthur Leslie|1943|Ironmoulder|2 Daisy St, Pt Pirie E|Port Pirie|Grey|SA|Arthur Leslie; Florence Johanna
+Asta Louise|1943|Domestic duties|Ward Street|Whyalla|Grey|SA|Asta Louise; Leonard Francis
+Austa Louise|1939|Domestic duties|21 St Ann's Ter, St Leonards|Glenelg|Barker|SA|Austa Louise
+Catherine|1913|Domestic duties|Wolfram Street|Argent-Street North|Willyama|NSW|Catherine; John William
+Edward Malcolm|1939|Labourer|65 Queen Street Solomontown|Port Pirie|Grey|SA|Edward Malcolm
+Edward Malcolm|1941|Labourer|65 Queen Street Solomontown|Port Pirie|Grey|SA|Edward Malcolm; Emma Benedicter
+Edward Malcolm|1943|Labourer|65 Queen Street Solomontown|Port Pirie|Grey|SA|Edward Malcolm; Emma Benedieter
+Emma Benedicter|1939|Married|65 Queen Street|Port Pirie|Grey|SA|Emma Benedicter
+Emma Benedicter|1941|Blamed|65 Queen Street Solomontown|Port Pirie|Grey|SA|Edward Malcolm; Emma Benedicter
+Emma Benedieter|1943|Married|65 Queen Street Solomontown|Port Pirie|Grey|SA|Edward Malcolm; Emma Benedieter
+Eveline Frances|1935|Home duties|178'M11rt0i1 Street|Broken Hill North|Darling|NSW|Eveline Frances
+Florence Johanna|1939|Married|2 Daisy St, Pt Pirie E|Port Pirie|Grey|SA|Florence Johanna
+Florence Johanna|1941|Married|2 Daisy St, Pt Pirie E|Port Pirie|Grey|SA|Arthur Leslie; Florence Johanna
+Florence Johanna|1943|Married|2 Daisy St, Pt Pirie E|Port Pirie|Grey|SA|Arthur Leslie; Florence Johanna
+Gwenyth Florence|1941|Shop assistant|2 Daisy Street|Port Pirie|Grey|SA|Gwenyth Florence
+Irene Dorothy|1939|Domestic duties|Whyalla|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+Irene Dorothy|1941|Domestic duties|Whyalla|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+Irene Dorothy|1943|Domestic duties|19 Forsyth Street|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+John Stephen|1939|Labourer|Whyalla|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+John Stephen|1941|Labourer|Whyalla|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+John Stephen|1943|Labourer|19 Forsyth Street|Whyalla|Grey|SA|Irene Dorothy; John Stephen
+John William|1913|Labourer|Wolfram Street|Argent-Street North|Willyama|NSW|Catherine; John William
+John William|1939|Labourer|143 Main Road|Port Pirie|Grey|SA|John William
+John William|1941|Labourer|143 Main Road|Port Pirie|Grey|SA|John William
+Keith Leo|1939|Moulder|9 Queen Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Keith Leo|1941|Moulder|46 Cottell Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Keith Leo|1943|Moulder|58 King Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Leonard Francis|1943|Assistant|Ward Street|Whyalla|Grey|SA|Asta Louise; Leonard Francis
+Malcolm Theodore|1941|Labourer|65 Queen Street|Port Pirie|Grey|SA|Malcolm Theodore
+Malcolm Theodore|1943|Labourer|65 Queen Street|Port Pirie|Grey|SA|Malcolm Theodore
+Maurice Joseph|1939|Labourer|56 Simpson Road|Port Pirie|Grey|SA|Maurice Joseph
+Maurice Joseph|1941|Labourer|56 Simpson Road|Port Pirie|Grey|SA|Maurice Joseph; Violet Mary
+Michael Valentine|1941|Labourer|63 Fifth Street|Port Pirie|Grey|SA|Michael Valentine
+Michael Valentine|1943|Labourer|63 Fifth Street|Port Pirie|Grey|SA|Michael Valentine
+Michael Valentino|1939|Labourer|63 Fifth Street|Port Pirie|Grey|SA|Michael Valentino
+Phyllis Blanche|1939|Domestic duties|11 Queen Street|Port Pirie|Grey|SA|Phyllis Blanche
+Rita Laurel|1939|Domestic duties|9 Queen Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Rita Laurel|1941|Domestic duties|46 Cottell Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Rita Laurel|1943|Domestic duties|58 King Street|Port Pirie|Grey|SA|Keith Leo; Rita Laurel
+Rose|1939|Domestic duties|13 Three Chain Rd, Pt Pirie E|Port Pirie|Grey|SA|Rose
+Rose|1941|Domestic duties|13 Three Chain Rd, Pt Pirie E|Port Pirie|Grey|SA|Rose
+Thomas Leo|1941|Ironmoulder|30 Beach Road|Port Pirie|Grey|SA|Thomas Leo; Una Blanche
+Thomas Leo|1943|Ironmoulder|30 Beach Road|Port Pirie|Grey|SA|Thomas Leo; Una Blanche
+Una|1939|Domestic duties|Blanche, 11 Queen Street|Port Pirie|Grey|SA|Una
+Una Blanche|1941|Domestic duties|30 Beach Road|Port Pirie|Grey|SA|Thomas Leo; Una Blanche
+Una Blanche|1943|Domestic duties|30 Beach Road|Port Pirie|Grey|SA|Thomas Leo; Una Blanche
+Violet Mary|1939|Domestic duties|56 Simpson Road|Port Pirie|Grey|SA|Violet Mary
+Violet Mary|1941|Domestic duties|56 Simpson Road|Port Pirie|Grey|SA|Maurice Joseph; Violet Mary
+Violet Mary|1943|Domestic duties|56 Simpson Road|Port Pirie|Grey|SA|Violet Mary

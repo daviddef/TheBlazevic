@@ -60,7 +60,15 @@ img{max-width:100%}
 .mono{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
 .dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
 .cap{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px;max-width:92ch}
-.prose{max-width:80ch;display:flex;flex-direction:column;gap:16px}
+.prose{max-width:80ch}
+/* Spacing belongs between BLOCK children, not between everything. As a flex
+   column this class made an inline <a> or <strong> inside a <p class="prose">
+   its own flex item, so a sentence came apart one fragment to a line. The
+   Defranceschi archive worked this out first; the other six now match it. */
+.prose>*+*{margin-top:16px}
+p.prose{display:block}
+p.prose+p.prose{margin-top:16px}
+
 .prose h3{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink-3);margin-top:14px}
 .scroll{overflow-x:auto;padding-bottom:6px}
@@ -75,6 +83,20 @@ table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13.5
 th{text-align:left;font-size:10.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
   color:var(--ink-3);padding:0 16px 9px 0;border-bottom:1px solid var(--rule-strong);white-space:nowrap}
 td{padding:10px 16px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink-2);line-height:1.5}
+
+/* Tables on a phone. Column widths on this site are written as inline rem
+   values chosen for a desktop column — 14rem for a label, 8rem for a count —
+   and on a 390px screen that fixed 22rem leaves the column carrying the actual
+   sentence about nine characters wide, one or two words a line. Below 600px
+   the content decides instead, and the gutters come in. Inline styles can only
+   be beaten with !important, which is what it is for. */
+@media (max-width:600px){
+  table th[style*="width"],
+  table td[style*="width"]{width:auto!important;min-width:0!important}
+  th{padding-right:10px}
+  td{padding:9px 10px 9px 0}
+  table{font-size:13px}
+}
 td:first-child{color:var(--ink);font-weight:500}
 td.m,th.m{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .chip{display:inline-block;font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.04em;
@@ -430,7 +452,14 @@ header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 @media (max-width:1180px){
   header.site nav.topnav{display:none!important}
   .burger{display:inline-flex!important}
-  .burger .bars{width:15px;height:11px;position:relative;display:inline-block}
+  /* Two different things are called .bars in this sheet: a stacked chart
+     .bars{display:flex;flex-direction:column;gap:7px;margin-top:20px}
+   and the three lines inside the menu button. The burger rule overrode the
+   display and the size and never the MARGIN, so on every phone in the
+   estate the icon sat 20px below the word next to it. Reset it here; the
+   chart keeps its own spacing. */
+  .burger .bars{width:15px;height:11px;position:relative;display:inline-block;
+    margin:0;flex:none;align-self:center}
   .burger .bars::before,.burger .bars::after{content:"";position:absolute;left:0;right:0;
     height:1.5px;background:var(--ink)}
   .burger .bars::before{top:0;box-shadow:0 4.75px 0 var(--ink)}

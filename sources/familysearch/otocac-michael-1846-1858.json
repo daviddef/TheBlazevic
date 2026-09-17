@@ -1,0 +1,176 @@
+{
+ "_what": "Every indexed Otočac Žubrinić baptism 1846-1858 whose father reads as a Michael variant, with the image ARK of the opening each one sits on.",
+ "_why": "Work list row 1. The 1846-58 book writes the household into its Conditio column («Rustici Confiniarii e Šumećica N° 2»), so these openings carry the house numbers that question 4 turns on.",
+ "_source": "/service/search/hr/v2/personas?count=100&f.collectionId=2040054&q.surname=Zubrinic — read 15 September 2026",
+ "_caution": "Neither q.birthLikeDate nor q.birthLikePlace binds; both were filtered by hand. The ARK is the OPENING, not the row, so each entry still costs two or three crops to find on the page. Surname spellings scatter: Zubrinić · Žubrinić · Xubrinić · Žubrinich · Dubrinić are one surname.",
+ "_read": "Thomas Xubrinić 21 Dec 1846 is the N° 10 household already established (Michael x Helena Orešković of Prozor). The other fourteen are unread.",
+ "entries": [
+  {
+   "child": "Maria Magdalena Theresia Žubrinić",
+   "date": "1846-07-21",
+   "father": "Michaël Žubrinić",
+   "mother": "Maria Marković",
+   "ark": "3:1:3QS7-899C-G5D9",
+   "house": null,
+   "conditio": "Agricola Confiniarius",
+   "note": "Read 15 September 2026. Left page, second entry. **No village and no house number** — the Conditio holds the status words alone. Nor do any of the other entries on this page (July–August 1846): Agricola Confiniarius, Confiniarius, Sutor, Miles gregarius, all bare. The numbering practice had not started yet.",
+   "house_key": null
+  },
+  {
+   "child": "Thomas Xubrinić",
+   "date": "1846-12-21",
+   "father": "Michael Xubrinić",
+   "mother": "Helena Orešković",
+   "ark": "3:1:3QSQ-G99C-P275",
+   "house": "Šumećica N° 10",
+   "house_key": "Šumećica 10"
+  },
+  {
+   "child": "Joannes Žubrinich",
+   "date": "1847-04-29",
+   "father": "Michael Žubrinich",
+   "mother": "Catharina nata Žubrinich",
+   "ark": "3:1:3QSQ-G99C-PK18",
+   "house": "Obilje N° 7",
+   "conditio": "Senior populi Obilje N° 7",
+   "note": "Read 15 September 2026. Right-hand page, seventh entry. The father is «Senior populi» — the elder of Obilje, a standing and not merely a trade. The mother's surname is absent from the index and the register gives it: a Žubrinich married to a Žubrinich.",
+   "house_key": "Obilje 7"
+  },
+  {
+   "child": "Petrus Žubrinić",
+   "date": "1848-06-28",
+   "father": "Michael Žubrinić",
+   "mother": "Magdalena nata Draženović",
+   "ark": "3:1:3QS7-L99C-PKY3",
+   "house": "Poljica N° 13",
+   "conditio": "Rusticus e Poljica N° 13",
+   "note": "Read 15 September 2026. Right page, third entry. Every entry on this opening carries a village and a number — Dubrava N° 49, Vivoze N° 40, Dubrava N° 41, Ottočac N° 8, Prozor N° 114, Dubrava N° 64, Dubrava N° 23, Poljica N° 25, Ottočac N° 55, Obilje N° 55, Vivoze N° 53.",
+   "house_key": "Poljica 13"
+  },
+  {
+   "child": "Marta Zubrinić",
+   "date": "1849-11-04",
+   "father": "Miho Zubrinić",
+   "mother": "Mara rodjena Marković",
+   "ark": "3:1:3QS7-899C-PK7K",
+   "house": "Šumećica Br. 5",
+   "conditio": "Graničar iz Šumećića Br. 5",
+   "note": "Read 15 September 2026. Left page, first entry. **This opening is in Croatian, not Latin** — «Leta 1849 dne 4tog Studenoga bi Xerstjena u Xupnickoj Cerkvi Svetoga Trojstva u Otocu» — and the Conditio becomes *Graničar* for *Confiniarius* and *Br.* for *N°*. A search of this book that looks only for Latin forms will miss whole stretches of it. Neighbours on the page: Dubrava Br. 52, Dubrava Br. 15, Otočac Br. 8.",
+   "house_key": "Šumećica 5"
+  },
+  {
+   "child": "Ivan Zubrinić",
+   "date": "1850-04-06",
+   "father": "Miha Zubrinić",
+   "mother": "Kata rodjena Žubrinić",
+   "ark": "3:1:3QSQ-G99C-P2MB",
+   "house": "Prozor Br. 1",
+   "conditio": "Graničar iz Prozora Br. 1",
+   "note": "Read 15 September 2026. Croatian entry at the very foot of the left page, below where a first crop of the page stopped — the left page runs to 4 April and the right page begins at 8 April, so 6 April exists only in that last row. A second Žubrinić married to a Žubrinić.",
+   "house_key": "Prozor 1"
+  },
+  {
+   "child": "Luce Zubrinić",
+   "date": "1850-06-30",
+   "father": "Mio Zubrinić",
+   "mother": "Jele rodjena Orešković",
+   "ark": "3:1:3QS7-L99C-PKNK",
+   "house": "Šumećica Br. 10",
+   "conditio": "Graničar iz Šumećića Br. 10",
+   "note": "Read 15 September 2026 and **confirmed at full resolution** in a second window the same hour. Right page, first entry, Croatian. Same household as Thomas 1846 — *Mio* is *Michael*, *Jele* is *Helena Orešković*, Šumećica N° 10.",
+   "house_key": "Šumećica 10"
+  },
+  {
+   "child": "Mate Žubrinić",
+   "date": "1851-11-25",
+   "father": "Miko Žubrinić",
+   "mother": "Mande rodjena Draženović",
+   "ark": "3:1:3QS7-L99C-PKNY",
+   "house": "Poljica N° 13",
+   "conditio": "Graničar iz Poljic N° 13",
+   "note": "Read 15 September 2026. Left page, third entry, Croatian. **The same household as Petrus in 1848** — *Rusticus e Poljica N° 13*, Michael × Magdalena Draženović. *Mande* is the Croatian familiar form of *Magdalena*, so the index's two mothers are one woman, and this is one house with two children three years apart.",
+   "house_key": "Poljica 13"
+  },
+  {
+   "child": "Magdalena Žubrinić",
+   "date": "1852-01-05",
+   "father": "Michaël Žubrinić",
+   "mother": "Anna nata Bobinac",
+   "ark": "3:1:3QSQ-G99C-PKLW",
+   "house": "Prozor N° 50",
+   "conditio": "miles gregarius e Prozor N° 50",
+   "note": "Read 15 September 2026. Right page, Latin — **the book changes language from page to page, not merely from year to year**: this opening is Croatian on the left and Latin on the right. The father is a *miles gregarius*, a common soldier, not a Graničar.",
+   "house_key": "Prozor 50"
+  },
+  {
+   "child": "Magdalena Žubrinić",
+   "date": "1852-04-26",
+   "father": "Michael Žubrinić",
+   "mother": "Maria nata Marković",
+   "ark": "3:1:3QSQ-G99C-PKKG",
+   "house": "Šumećica N° 5",
+   "conditio": "Gregarius e Sumećica N° 5",
+   "note": "Read 15 September 2026. Right page, Latin, page 216. **The index is wrong about the mother**: it gives «Maria Maković», the register gives «Maria nata Marković» — the same woman as the 1849 and 1855 entries, and the same house.",
+   "house_key": "Šumećica 5"
+  },
+  {
+   "child": "Mathias Žubrinić",
+   "date": "1855-01-03",
+   "father": "Michael Žubrinić",
+   "mother": "Maria nata Marković",
+   "ark": "3:1:3QS7-899C-PVT8",
+   "house": "Šumećica N° 5",
+   "conditio": "Confiniarius e Sumećica N° 5",
+   "note": "Read 15 September 2026. **The first entry of 1855, sitting below the year rule at the very foot of the left page** — a whole-page crop that stops at the usual table bottom misses it, which is the second time this book has hidden an entry there. Third child recorded to this household.",
+   "house_key": "Šumećica 5"
+  },
+  {
+   "child": "Josephus Žubrinić",
+   "date": "1855-07-03",
+   "father": "Michael Žubrinić",
+   "mother": "Maria nata Rogić",
+   "ark": "3:1:3QSQ-G99C-PK64",
+   "house": "Prozor N° 50",
+   "conditio": "Miles Gregarius e Prozor N° 50",
+   "note": "Read 15 September 2026. Right page, Latin. **The same house as Magdalena in January 1852, but a different wife** — Anna Bobinac then, Maria Rogić now. A remarriage, or two men under one roof; the register does not say which.",
+   "house_key": "Prozor 50"
+  },
+  {
+   "child": "Nicolaus Zubrinić",
+   "date": "1858-01-08",
+   "father": "Michael Zubrinić",
+   "mother": "Maria nata Rogić",
+   "ark": "3:1:3QS7-899C-PV24",
+   "house": "Prozor N° 50",
+   "conditio": "Confiniarius e Prozor N° 50",
+   "note": "Read 15 September 2026. Right page, fourth entry, «die 8a Januarii» — the index date is right. Same house and same couple as Josephus 1855, but the status word has changed from *miles gregarius* to *Confiniarius*.",
+   "house_key": "Prozor 50"
+  },
+  {
+   "child": "Maria Dubrinić",
+   "date": "1858-11-28",
+   "father": "Michael Dubrinić",
+   "mother": "Magdalena nata Glavinić",
+   "ark": "3:1:3QS7-899C-PVLN",
+   "house": "Prozor N° 49",
+   "note": "Read 15 September 2026 in a third window. Right page, third entry, «die 28 Novembris». **A seventh household, next door to Prozor N° 50** — and the surname is written *Žubrinić* in the register where the index scattered it to «Dubrinić».",
+   "conditio": "Rustica e Prozor N° 49",
+   "house_key": "Prozor 49"
+  },
+  {
+   "child": "Stephanus Zubrinić",
+   "date": "1858-12-17",
+   "father": "Michael Zubrinić",
+   "mother": "Maria nata Marković",
+   "ark": "3:1:3QS7-899C-PVGY",
+   "house": "Šumećica N° 5",
+   "conditio": "Rusticus e Sumećica N° 5",
+   "note": "Read 15 September 2026. Left page, third entry, page 290. **The fourth child recorded to this household** — Marta 1849, Magdalena 1852, Mathias 1855, Stephanus 1858 — and the status word has moved from *Graničar* through *Gregarius* and *Confiniarius* to *Rusticus* across those nine years, while the house number never moves.",
+   "house_key": "Šumećica 5"
+  }
+ ],
+ "_layout": "Frame fractions for this book, measured on image ark 3:1:3QSQ-G99C-PK18 (page 144-145): entries run y 0.150-0.715, eight or nine to a page. LEFT page — date 0.081-0.133, Nomen Prolis 0.135-0.177, Conditio 0.178-0.212, Parentes 0.213-0.262. RIGHT page — date 0.465-0.517, Nomen Prolis 0.518-0.560, Conditio 0.562-0.605, Parentes 0.631-0.686. Survey a whole page with __C(ark, 0.078,0.150,0.265,0.715,0) then __show(520); the right page with 0.462-0.700. The ARK opens the SPREAD, and the entry is as often on the right page as the left.",
+ "_geometry_warning": "The opening does not sit in the same place in every frame. The column fractions in `_layout` were measured on ark 3:1:3QSQ-G99C-PK18 and do NOT transfer: on 3:1:3QS7-L99C-PKNK the right-hand page ends near x 0.60, so a crop of 0.560-0.700 lands off the paper entirely. Survey each frame at drop 3 first and measure its own bounds, exactly as the reader's own header warns about pixel boxes.",
+ "_status": "All fifteen entries read, 15 September 2026.",
+ "_house_key": "`house` is what the page actually says, Croatian «Br.» or Latin «N°» and all. `house_key` normalises the two spellings to one village + number, because the same house is written both ways in this book and counting the raw strings splits a household in two — «Šumećica Br. 5» and «Šumećica N° 5» are one house."
+}
