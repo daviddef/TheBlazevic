@@ -15,7 +15,11 @@ Four states, in descending order of what they are worth:
 `named` is where the Latin genitives live: a man who appears only as
 "filius Pauli" has no record, only records that mention him.
 """
-import json, os, collections
+import json
+import sys, os, collections
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import readingslib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
@@ -43,13 +47,14 @@ for m in media:
 # this, a person whose register entry was read weeks ago still grades as
 # "scanned" — an image attached, nothing read — because a reading lives in a
 # note or a page's prose and never reaches the data. That was question 9b.
-read_slugs = set()
-_rp = os.path.join(ROOT, "sources", "readings.psv")
-if os.path.exists(_rp):
-    for line in open(_rp, encoding="utf-8"):
-        line = line.strip()
-        if line and not line.startswith("#"):
-            read_slugs.add(line.split("|")[0])
+#
+# 20 September 2026: this took the slug in the first column and nothing else,
+# so a baptism counted for the CHILD alone. /open-questions/ has said since the
+# 14th that «a baptism counts as a reading for the child AND for both parents,
+# because it names all three» — a rule carried out by hand sixteen times and
+# missed thirty. tools/readingslib.py holds it now, and both tools that grade a
+# person read the file the same way.
+read_slugs = readingslib.read_slugs(ROOT, DATA)
 
 read_ids, disputed = set(), set()
 for c in corr:

@@ -38,8 +38,12 @@ Writes site/src/data/walls.json, keyed by ahnentafel number.
 import json
 import os
 import re
+import sys
 
 from parishlib import ROOT, PARISH, parish_of, covered, ranges, village_of, year_of
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import readingslib
 
 DATA = os.path.join(ROOT, "site", "src", "data")
 OVERRIDE = os.path.join(ROOT, "sources", "walls.psv")
@@ -100,15 +104,22 @@ def main():
 
     # What this archive has actually READ for each person, so the tool can stop
     # guessing at it. sources/readings.psv is «slug|kind|year|where|citation».
-    read_by_slug = {}
-    rp = os.path.join(ROOT, "sources", "readings.psv")
-    if os.path.exists(rp):
-        for line in open(rp, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or line.count("|") < 4:
-                continue
-            slug, kindname, year = [x.strip() for x in line.split("|")[:3]]
-            read_by_slug.setdefault(slug, []).append((kindname, year))
+    #
+    # 20 September 2026: this read the first column and nothing else, so a
+    # baptism counted only for the child. THIS WALL IS WHY IT MATTERS. The
+    # Karlobag entry of 12 January 1779 was read on the 10th and recorded as
+    # «"ex Angelo et Catharina Bacchi"» — their names are in the citation — and
+    # ten days later this tool still printed, of both of them, «this wall is
+    # reachable and HAS NOT BEEN OPENED» and «put at Karlobag on the strength of
+    # their grandchild's death, NOT A DOCUMENT». Both false, against a document
+    # in the archive's own file quoting their names.
+    #
+    # readingslib carries the rule /open-questions/ has published since the
+    # 14th: a baptism names all three, so it is a reading for the parents too.
+    read_by_slug = {k: [(x["kind"], x["year"]) for x in v]
+                    for k, v in readingslib.by_slug(ROOT, DATA).items()}
+    derived_of = {k: {x["via"] for x in v if x["derived"]}
+                  for k, v in readingslib.by_slug(ROOT, DATA).items()}
 
     def real_place(row, field="bornPlace"):
         """The place string with the tree's known wrong-county strings corrected,
