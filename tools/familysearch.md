@@ -229,6 +229,32 @@ record-index queries, not after heavy tile fetching, so it is probably an
 ordinary session expiry rather than anything provoked. Expect it on a long
 sitting and **write down what you were about to do next**, because the
 index-with-ARK method means a sitting can resume exactly where it stopped.
+
+### Telling all three apart in ONE call — added 20 September 2026
+
+The tests above are written per-state and each costs a page load. There is a
+cheaper one. **Fetch a catalogue item and read the status code, nothing else:**
+
+    await fetch('https://www.familysearch.org/service/search/catalog/item/koha:379993',
+                {credentials:'include'}).then(r => r.status)
+
+    200   signed in and working. The body is JSON with the film notes.
+    401   SIGNED OUT. Stop. The account holder must sign in; do not type
+          credentials, and do not retry — waiting does not fix an expired session.
+    403   BLOCKED. Body carries «Access Denied … Error 15». This one comes and
+          goes: on 15 September it shut and opened six times in forty minutes,
+          and fifteen register entries were read in the open windows.
+
+**The status code alone separates the three**, and the distinction is the whole
+decision: a 403 means wait and try again in a few minutes, a 401 means stop and
+ask, and telling them apart by loading pages costs a minute each time.
+
+On **20 September 2026** this returned **401 with an empty body**, and a
+navigation to any catalogue page bounced to `ident.familysearch.org`. Note that
+the 15 September sign-out gave **503** on the personas endpoint while this one
+gave **401** on the catalogue endpoint — so the *code* varies by endpoint and is
+not by itself the signature. **What is invariant is that a signed-out session
+fails on the catalogue too**, and the catalogue is the cheapest thing to ask.
 ## Access, and how it fails — added 14 September 2026
 
 Two failures cost most of a sitting. Both have a fix.
