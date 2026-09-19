@@ -160,3 +160,20 @@ surname|vukelic firstname=louis|naturalisations|4|Louis Peter Vukelić b.18 Mar 
 # LARGEST SURNAME IN THE TARGET LIST — 95 of 386 people — and the one record set
 # on this site that indexes a birthplace holds not one of them. Nobody from
 # Klenovica or Brinje filed a naturalisation petition in these courts.
+surname|papich|naturalisations|13|7 petitioners; opened 3 — ZADAR and Herzegovina, not Senj
+surname|blazevich|naturalisations|6|3 petitioners, ONE household — «Rutkishki, Russia»
+#
+# AND A CAUTION ABOUT THE «BIRTH COUNTRY» COLUMN, found by accident and worth
+# more than the searches that found it.
+#
+# ONE MAN GIVES TWO DIFFERENT BIRTH COUNTRIES FIVE YEARS APART:
+#   1919 declaration   Riedy Papich   b. 26 Mar 1885   «ZARA, AUSTRIA»
+#   1924 petition      Rudolph Papich b. 26 Mar 1885   «ITALY»
+# Same birth date, same Philadelphia court, consecutive record ids. Zara is
+# ZADAR, and it passed from Austria to Italy at Rapallo in 1920 — between his
+# two filings. So «birth country» in this index is THE COUNTRY THAT HELD THE
+# PLACE WHEN THE CLERK WROTE, not when the person was born, and the same man
+# will be found under two nationalities depending which paper you open.
+#
+# This archive already publishes a sovereignty timeline for exactly this reason.
+# It now has an American index demonstrating it against one person's own name.
