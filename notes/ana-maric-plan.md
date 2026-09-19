@@ -219,3 +219,67 @@ child.
 register behind it.** An index is still a finding aid and not a register, and
 one missed page is always possible; but the objection that made the first
 negative worthless has been answered.
+
+---
+
+# 20 September 2026 — the index, and a correction to my own enthusiasm
+
+*Searched the moment FamilySearch was signed in again. **Almost all of it was
+already here**, and this section exists partly to say so.*
+
+## What I thought I had found
+
+> **Baptism 15 September 1858, Otočac** — **Maria Zubrinić**, of **Nicolaus
+> Zubrinić** and **Anna Marić** · `1:1:QKMK-3MZV`
+
+Row 51 calls ahnentafel 11 *«a name, two tree links and nothing else»*, so a
+register naming her looked like the row falling. **It is the same entry this
+note already planned for and `sources/readings.psv` already holds** — and the
+reading recorded here on 14 September is **better than the index**, because it
+carries the household:
+
+> *«Rustica e Šumećica N° 2»*, **Nicolaus Žubrinić et ejus uxor Anna nata Marić**
+
+**And there is a second entry the index does not surface at all**: the Otočac
+baptism of **3 July 1856**, same house, which names her **«Anna nata
+Štrumbulko»** — *the by-name attested in a register*, which is what section 1
+above was a hypothesis about.
+
+**So ahnentafel 11 was not empty. This archive had already read two documents
+naming her, and I went looking for a third.** Recorded because the archive has
+made this mistake before, with the Karlobag index, and the habit of announcing a
+rediscovery is worth catching every time it happens.
+
+## What the index does add
+
+**One citation.** The 1858 reading had no ARK; it has one now — `1:1:QKMK-3MZV`.
+
+**And two negatives, which are the useful part.**
+
+**Her own baptism is not in the index, and the reason is coverage.** A control
+search for *any* Marić at Otočac returns **three entries in total**:
+
+    1844  Elisabetha Marić           Joannes Marić × Mathia
+    1852  Joannes Marić              Joannes Marić × Mathia Attalić
+    1844  Thomas Apostolus Marick    Christophorus Marick × Maria
+
+Ana was born about 1836. **The index's Otočac coverage of this surname begins
+after she was born**, so the film is still the only route to her own entry — and
+to ahnentafel 22's given name, which a baptism of her child will never supply.
+
+**«Shambul» is a real surname belonging to a different part of Croatia.** Every
+*Shambula* in the index is at **Donji Mosti** or **Zrinski Topolovac** in
+Bjelovar-Križevci, or **Bartolovec** near Varaždin — 250 km inland, in
+Hungarian-administered country, nothing to do with the Lika coast:
+
+    1728  Bartolovec         Dorothea Shambulÿa      Georgÿ Shambulÿa
+    1808  Donji Mosti        Blasius Shambula        Joannis × Mariana Lovrekovich
+    1817  Donji Mosti        Stephanus Shambula      Michaelis × Dorotheæ Vinkov
+    1831  Zrinski Topolovac  Barbara Shambula        Andras × Barbara Rain
+    1840  Zrinski Topolovac  Theresia Shambula       Emericus × Magdalena Horvath
+
+**Not one is in Lika-Senj.** That is negative evidence for section 1's
+hypothesis — the element is not a Lika surname, so it is unlikely to be hers as
+a surname — and it is a warning: a reader who takes *«Shambul Marić»* at face
+value and searches the surname will land among people who are certainly not this
+family, with real records, in the wrong county.
