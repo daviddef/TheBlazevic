@@ -133,3 +133,30 @@ firstname|blazevic firstname=giuseppe|all|0|the Italian form — nothing either
 # else to type. This archive HAD the answer the whole time: givennames.json has
 # held 29 variant groups and 197 forms since the first week, and no search has
 # ever consulted it.
+#
+# 20 SEPTEMBER 2026 — THE NATURALISATION SET, READ BY SURNAME RATHER THAN BY
+# VILLAGE. The birthplace sweep had exhausted the villages; these are the
+# archive's own surnames, whose counts the trial recorded and never opened.
+#
+# AND THE FIRST THING LEARNED IS THAT AN INDEX COUNT IS NOT A PEOPLE COUNT.
+# «kalan» returns 20 rows and holds TWO HOUSEHOLDS. The rows are of three kinds
+# and only one of them is a person worth opening:
+#   Declaration of intention / Petition — the useful record: birth date, birth
+#       place as transcribed, spouse, every child with a date.
+#   Oath of allegiance — A NAME, A YEAR AND A CERTIFICATE NUMBER. No birth
+#       date, no birth place, no household. Four were opened before the pattern
+#       was clear; skip them.
+#   Ids ending /1 /2 /3 /4 — relations named ON a record, not petitioners. Only
+#       /0 is the applicant, which the trial had already written down.
+surname|kalan|naturalisations|20|TWO households, NEITHER Croatian — see below
+surname|kalan firstname=frank|naturalisations|3|Frank Kalan b.10 Apr 1873, «KRAIN, AUSTRIA» — Carniola, SLOVENIA
+surname|kalan firstname=katherine|naturalisations|2|Katherine Kalan b.16 Jul 1893, «RUDNYKI, POLAND»
+surname|vukelic|naturalisations|17|THREE men, one of them new — see below
+surname|vukelic firstname=louis|naturalisations|4|Louis Peter Vukelić b.18 Mar 1892, «ROGUL, JUGO-SLAVIA» — NEW
+#
+# THE KALANJ LEAD IS DEAD, AND THAT IS WORTH AS MUCH AS A FIND. The trial's
+# closing note recorded «kalanj 0, kalan 20» and left the 20 as a lead. They are
+# a Slovene family from Carniola and a Polish family from Rudnyki. KALANJ IS THE
+# LARGEST SURNAME IN THE TARGET LIST — 95 of 386 people — and the one record set
+# on this site that indexes a birthplace holds not one of them. Nobody from
+# Klenovica or Brinje filed a naturalisation petition in these courts.

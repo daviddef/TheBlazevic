@@ -1,6 +1,6 @@
 {
  "what": "Everyone born at Senj, Otočac or Brinje in the United States naturalization petitions. Found by searching the BIRTHPLACE, which is indexed in that collection and in no other here; every row confirmed by opening the transcript.",
- "n": 17,
+ "n": 18,
  "readable": 5,
  "towns": [
   {
@@ -29,6 +29,12 @@
   },
   {
    "town": "Klenovica",
+   "n": 1,
+   "readable": 0,
+   "births": "unknown"
+  },
+  {
+   "town": "—",
    "n": 1,
    "readable": 0,
    "births": "unknown"
@@ -65,6 +71,10 @@
   ],
   [
    "Nassau County",
+   1
+  ],
+  [
+   "New Haven",
    1
   ],
   [
@@ -275,6 +285,18 @@
    "filed": "Astoria, Queens 1955",
    "parish": "Senj",
    "births": "1734-1894",
+   "readable": false
+  },
+  {
+   "town": "—",
+   "name": "Louis Peter Vukelić",
+   "born": "18 Mar 1892",
+   "byear": 1892,
+   "place": "Rogul, Jugo-Slavia / «Rogul, Jugo Slavia»",
+   "family": "wife Mary",
+   "filed": "New Haven, Connecticut — declared 1926, oath 1931",
+   "parish": null,
+   "births": "unknown",
    "readable": false
   }
  ]
