@@ -1331,8 +1331,8 @@
    }
   ],
   "n": 226,
-  "matched": 21,
-  "unmatched": 205,
+  "matched": 22,
+  "unmatched": 204,
   "contested": [
    {
     "person": "Kate Špalj Spalj",
@@ -1773,7 +1773,13 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 26
+      "group": 26,
+      "slug": null,
+      "archiveName": "Matilda Papić",
+      "archiveBorn": "1895",
+      "archiveDied": "1921",
+      "foundNotInTree": true,
+      "foundVia": "read out of a register at Senj, and not in the tree"
      }
     ],
     "known": 2,
@@ -5604,7 +5610,13 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 26
+    "group": 26,
+    "slug": null,
+    "archiveName": "Matilda Papić",
+    "archiveBorn": "1895",
+    "archiveDied": "1921",
+    "foundNotInTree": true,
+    "foundVia": "read out of a register at Senj, and not in the tree"
    },
    {
     "surname": "Papić",

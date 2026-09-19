@@ -346,6 +346,11 @@ def stone_half(people):
             continue
         r["slug"], r["archiveName"] = best["slug"], best["name"]
         r["archiveBorn"], r["archiveDied"] = best.get("born", ""), best.get("died", "")
+        if best.get("_found"):
+            # She stands BESIDE the tree, not in it. found.psv exists to keep
+            # that distinction and the page must not quietly lose it here.
+            r["foundNotInTree"] = True
+            r["foundVia"] = best.get("_via", "")
         if best.get("_married"):
             r["viaMarriedName"] = True
         # only a full-resolution reading may contradict the tree
@@ -439,6 +444,61 @@ def tree_people():
                     "sex": "", "slug": None, "rel": {},
                     "_via": f"{kind} of {p.get('name')}",
                 })
+
+    # AND THE PEOPLE THIS ARCHIVE READ OUT OF A REGISTER ITSELF.
+    #
+    # sources/found.psv exists for exactly one reason: a person who is in a
+    # register and NOT in the tree had nowhere to be recorded. So it holds the
+    # one population a stone is most likely to name and the tree least likely
+    # to explain — and this matcher could not see it.
+    #
+    # The cost was one name and it is the one that proves the point. «MATILDA
+    # PAPIĆ 1895–1921» stands on a Senj cross, third name on the stone. It was
+    # photographed, read, found to be absent from the tree, and WRITTEN DOWN IN
+    # found.psv as a person this archive had discovered. Then the matcher was
+    # run and reported the stone as matching nobody — because the file written
+    # to hold her was not in the pool she was matched against.
+    #
+    # That is the sixth time in this archive that a tool has searched a smaller
+    # list than the question deserved, and the second time on this very
+    # evidence. These people keep their null slug and carry «found»: they stand
+    # BESIDE the tree, which is the whole reason the file exists, and the page
+    # must never show them as though the tree held them.
+    try:
+        fj = json.load(open(os.path.join(DATA, "found.json"), encoding="utf-8"))
+    except FileNotFoundError:
+        fj = {"rows": []}
+    for r in fj.get("rows", []):
+        name = (r.get("name") or "").strip()
+        if not name:
+            continue
+        text = str(r.get("date") or "")
+        b = re.search(r"born\s+(\d{4})", text)
+        d = re.search(r"died\s+(\d{4})", text)
+        byear = int(b.group(1)) if b else None
+        dyear = int(d.group(1)) if d else None
+        if byear is None and dyear is None:
+            y = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", text)
+            ev = (r.get("event") or "").lower()
+            if y:
+                # «named as parent» dates the CHILD's entry, not this person's,
+                # so it gives neither year and must not pretend to.
+                if "bapt" in ev or "birth" in ev:
+                    byear = int(y.group(1))
+                elif "death" in ev or "buri" in ev or "memorial" in ev:
+                    dyear = int(y.group(1))
+        parts = name.split()
+        pool.append({
+            "id": None, "name": name,
+            "given": " ".join(parts[:-1]) or name,
+            "surname": parts[-1] if len(parts) > 1 else "",
+            "byear": byear, "dyear": dyear,
+            "born": str(byear or ""), "died": str(dyear or ""),
+            "sex": "", "slug": None, "rel": {},
+            "_found": True,
+            "_via": f"read out of a register at {r.get('place') or 'an unnamed place'}, "
+                    f"and not in the tree",
+        })
     return pool, published
 
 
@@ -479,6 +539,9 @@ def main():
         if best and bestscore >= 3:
             r["slug"], r["archiveName"] = best["slug"], best["name"]
             r["archiveBorn"], r["archiveDied"] = best.get("born", ""), best.get("died", "")
+            if best.get("_found"):
+                r["foundNotInTree"] = True
+                r["foundVia"] = best.get("_via", "")
             gd, ad = parse(r["died"]), parse(best.get("died"))
             if gd and ad and exact(r["died"]) and exact(best.get("died")) and gd != ad:
                 conflicts.append({"name": r["name"], "slug": best["slug"],

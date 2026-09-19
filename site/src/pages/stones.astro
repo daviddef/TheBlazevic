@@ -79,7 +79,9 @@ const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
             <span class="mono dim" style="display:block">{r.archiveBorn || "?"} – {r.archiveDied || "?"}</span>
             {r.viaMarriedName &&
               <span class="dek" style="display:block">matched through her married name</span>}
-            {!r.slug &&
+            {r.foundNotInTree
+              ? <span class="dek" style="display:block">not in the tree at all — <a href={u("/found/")}>read out of a register</a> and recorded beside it</span>
+              : !r.slug &&
               <span class="dek" style="display:block">in the tree, with no page of their own</span>}</td>
         </tr>))}</tbody>
     </table>
@@ -157,6 +159,22 @@ const conf = Object.fromEntries(S.confidence.map(([k, n]) => [k, n]));
     <strong>Searching the published people is not searching the tree.</strong></div>
     <p style="margin-top:1.2rem">Five more names came back with him — three Špalj, a Šojat — all of
     them people this tree carries and this site has never published.</p>
+
+    <div class="note" style="margin-top:1.2rem"><strong>And then it happened a sixth time, 20
+    September 2026, to the one file written to prevent it.</strong>
+    <a href={u("/found/")}><code>sources/found.psv</code></a> exists for a single reason: a person
+    who is in a register and <em>not</em> in the tree had nowhere to be recorded. So it holds the
+    one population a stone is most likely to name and the tree least likely to explain — and the
+    matcher could not see it either.<br /><br />
+    The cost was one name, and it is the name that proves the point.
+    <strong>«MATILDA PAPIĆ 1895–1921»</strong> stands third on a Senj cross. She was photographed,
+    read at full resolution, found to be absent from the tree, and <strong>written down in
+    found.psv as a discovery</strong> — and then the matcher reported her stone as matching nobody,
+    because the file written to hold her was not in the pool she was matched against. Both her
+    years agree to the digit.<br /><br />
+    <strong>She keeps her null slug and the page says what she is.</strong> A found person stands
+    <em>beside</em> the tree, and the row above would otherwise have called her «in the tree, with
+    no page of their own», which is the one thing she is not.</div>
   </section>
 
   {S.contested && S.contested.length > 0 &&
