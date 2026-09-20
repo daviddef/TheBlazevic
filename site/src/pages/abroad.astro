@@ -1,0 +1,102 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import A from "../data/abroad.json";
+// 308 rows harvested on a two-day trial in September 2026 and published
+// nowhere. The zubrinich file's own header says it is «the RAW CATCH, in the
+// same spirit as /register» — which is a page here. It just never was one.
+const C = A.counts;
+const decade = (y) => (y && /^\d{4}$/.test(y) ? `${y.slice(0, 3)}0s` : "no year");
+const groups = [];
+for (const r of A.records) {
+  const d = decade(r.year);
+  if (!groups.length || groups[groups.length - 1].d !== d) groups.push({ d, rows: [] });
+  groups[groups.length - 1].rows.push(r);
+}
+---
+<Base title="The Catch Abroad"
+  eyebrow={`${C.total} index rows, harvested on a two-day trial`}
+  dek={`Every record the commercial indexes returned for this family's emigrant surnames — ${C.records} from FindMyPast, ${C.earliest} to ${C.latest}, and ${C.sa} South Australian civil entries covering three generations. Leads, not evidence, and the difference is the first thing on this page.`}>
+
+  <section class="blk">
+    <div class="note"><strong>A row here is an index entry on a commercial site. It is not a
+    document read.</strong> A date below is somebody else's transcription of somebody else's
+    register, and this archive has spent a week proving how badly that can go — a surname rendered
+    <strong><em>Piberich</em></strong> that occurs nowhere else in its parish, a mother named
+    <em>Marie</em> where the page plainly reads <em>Antonie</em>, a father's slot filled with the
+    <strong>godfather's</strong> name. <strong>These are leads.</strong>
+    <a href={u("/readings/")}>The evidence is here →</a></div>
+
+    <p class="lede">And the spellings are the whole lesson. <strong>ZUBRINICH returns
+    {A.spellings[0][1]} records and ZUBRINIC a different {A.spellings[1][1]}</strong> — one family,
+    two catches, and <strong>neither query finds the other's records</strong>. Anyone who searches
+    an index under the spelling they happen to know is seeing half a family and does not know it.</p>
+
+    <div class="grid two">
+      <div class="card">
+        <h3>Where they went</h3>
+        <table class="kv">{A.topPlaces.slice(0, 10).map(([p, n]) => (
+          <tr><th>{p}</th><td class="mono">{n}</td></tr>))}</table>
+      </div>
+      <div class="card">
+        <h3>What they are in</h3>
+        <table class="kv">{A.topSets.slice(0, 10).map(([s, n]) => (
+          <tr><th>{s}</th><td class="mono">{n}</td></tr>))}</table>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{C.sa} entries · {C.saEarliest}–{C.saLatest}</div>
+    <h2>South Australia, three generations of civil registration</h2>
+    <p>The strongest part of the catch, because <strong>this collection carries both parents on a
+    birth and the spouse on a marriage</strong> — so the households rebuild themselves out of the
+    index rows without a transcript being ordered.
+    {A.saKinds.map(([k, n], i) => (<span>{i ? ", " : " "}<strong>{n}</strong> {k}{n === 1 ? "" : "s"}</span>))}.</p>
+    <table class="reg">
+      <thead><tr><th style="width:8%">Year</th><th style="width:10%">Event</th>
+        <th style="width:26%">Who</th><th style="width:30%">Parents or spouse</th>
+        <th>District</th></tr></thead>
+      <tbody>{A.sa.map((r) => (
+        <tr><td class="mono">{r.year}</td><td class="dek">{r.kind}</td>
+          <td><strong>{r.name}</strong></td><td class="dek">{r.rel || "—"}</td>
+          <td class="dek">{r.district}</td></tr>
+      ))}</tbody>
+    </table>
+  </section>
+
+  {groups.map((g) => (
+    <section class="blk">
+      <div class="lab">{g.rows.length} rows</div>
+      <h2>{g.d}</h2>
+      <table class="reg">
+        <thead><tr><th style="width:7%">Year</th><th style="width:20%">Who</th>
+          <th style="width:10%">Born / died</th><th style="width:28%">Record set</th>
+          <th>Place</th></tr></thead>
+        <tbody>{g.rows.map((r) => (
+          <tr>
+            <td class="mono">{r.year || "—"}</td>
+            <td><strong>{r.name || "—"}</strong>
+              <span class="dek" style="display:block">{r.surname}</span></td>
+            <td class="dek mono">{[r.born, r.died].filter(Boolean).join(" – ") || "—"}</td>
+            <td class="dek">{r.set}</td>
+            <td class="dek">{r.place || "—"}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <div class="card">
+      <h3>Where this comes from</h3>
+      <p>Harvested during a <strong>two-day trial subscription</strong> in September 2026 and kept
+      in <span class="mono">sources/findmypast/</span> — three files, transcribed from the result
+      pages themselves. Built by <span class="mono">tools/abroad.py</span>.</p>
+      <p>The names here are not matched to the tree, deliberately. <strong>Matching is a claim</strong>,
+      and a claim wants a document. <a href={u("/america/")}>What was made of it →</a>{" · "}
+      <a href={u("/port-pirie/")}>Port Pirie →</a>{" · "}
+      <a href={u("/worklist/")}>The work list row that ordered it →</a></p>
+    </div>
+  </section>
+</Base>
