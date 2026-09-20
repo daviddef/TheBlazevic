@@ -650,30 +650,6 @@
   {
    "tier": "same year only",
    "surname": "kalanj",
-   "given": "magdalena",
-   "byear": 1829,
-   "n": 2,
-   "place": "Klenovica",
-   "date": "19 FEB 1829",
-   "ids": [
-    "@I509735@",
-    "@I512858@"
-   ],
-   "names": [
-    "Magdalena Kalanj",
-    "Magdalena Kalanj"
-   ],
-   "slugs": [
-    "magdalena-kalanj",
-    "magdalena-kalanj-4"
-   ],
-   "dyears": [
-    1900
-   ]
-  },
-  {
-   "tier": "same year only",
-   "surname": "kalanj",
    "given": "marija",
    "byear": 1857,
    "n": 2,
@@ -737,6 +713,30 @@
    ],
    "dyears": [
     1829
+   ]
+  },
+  {
+   "tier": "rejected — two birth days",
+   "surname": "kalanj",
+   "given": "magdalena",
+   "byear": 1829,
+   "n": 2,
+   "place": "Klenovica",
+   "date": "19 FEB 1829",
+   "ids": [
+    "@I509735@",
+    "@I512858@"
+   ],
+   "names": [
+    "Magdalena Kalanj",
+    "Magdalena Kalanj"
+   ],
+   "slugs": [
+    "magdalena-kalanj",
+    "magdalena-kalanj-4"
+   ],
+   "dyears": [
+    1900
    ]
   },
   {
@@ -1392,8 +1392,8 @@
    "dyears": []
   }
  ],
- "extra": 33,
+ "extra": 32,
  "published": 1282,
- "rejected": 28,
- "live": 32
+ "rejected": 29,
+ "live": 31
 }

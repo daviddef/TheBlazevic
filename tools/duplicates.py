@@ -23,6 +23,9 @@ a matter of course:
     same year and place   strong, but cousins do this.
     same year only        weakest. Listed, not acted on.
 
+  and two vetoes, because one person is born once and dies once: two firm
+  death YEARS, or two full birth DAYS, and the group is two people.
+
 Nothing is merged. The tree is reported, not edited — the same rule the rest of
 this archive follows.
 """
@@ -352,6 +355,17 @@ for (sur, giv, by), ids in buckets.items():
         tier = "rejected — different parents"
     elif len(dys) > 1:
         tier = "rejected — two death years"
+    elif len(firm) > 1:
+        # ONE PERSON IS BORN ONCE, and this is the stronger half of the veto
+        # above: not two death YEARS but two birth DAYS, both written out in
+        # full, both unhedged. Magdalena Kalanj is 8 June 1829 at Klenovica in
+        # one record and 19 February 1829 at Ledenice in the other — a
+        # different day, a different month and a different village, and the
+        # tool was carrying her as a live duplicate because it only ever
+        # rejected on death years. A group reaches here only when EVERY record
+        # carries a full date, so a complete copy paired with a year-only stub
+        # is untouched: that is the fragment tier's business, not this one.
+        tier = "rejected — two birth days"
     elif len(firm) == 1 and all(full_date(P[i]) for i in ids) and parents_agree(ids):
         tier = "same day and same parents"
     elif ddays and len(ddays) == 1:
@@ -481,7 +495,8 @@ TIER = {"same day, same parents, same spouse": 0,
         "same year and place": 5,
         "same year only": 6,
         "rejected — two death years": 7,
-        "rejected — different parents": 8}
+        "rejected — two birth days": 8,
+        "rejected — different parents": 9}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -495,7 +510,8 @@ for t in ("same day, same parents, same spouse", "same day and same parents",
           "same day, and the same death day", "same day",
           "same year, same parents, and one record is a fragment",
           "same year and place", "same year only",
-          "rejected — two death years", "rejected — different parents"):
+          "rejected — two death years", "rejected — two birth days",
+          "rejected — different parents"):
     n = by_tier.get(t, 0)
     print(f"  {t:<38} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")
 print()
