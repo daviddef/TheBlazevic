@@ -72,3 +72,64 @@ ten kilometres from a district town may have had its own chapel, or belonged to
 a nearer parish that is itself uncatalogued. **The row moves from «never
 resolved» to «the village is not a parish, and here is the district's book» —
 which is a different and much better position, and not an answer.**
+
+---
+
+# And then the index was asked the question the catalogue could not answer
+
+*The same day. «Is Pazin's book the Šestani's book?» — and the answer is: there
+is no evidence that it is.*
+
+## The Šestani are indexed at Pazin, in the eighteenth century
+
+Searched as **Pisino**, the Italian name, in *Austria, Küstenland, Births from
+1536* and its sister collections:
+
+    13 Apr 1795   Catharina Sestan            Josephus × Joanna
+    10 May 1804   Antonius Sestan             Josephus × Joanna
+    14 Sep 1807   Josephus Sestan             Josephus × Joanna
+    11 Jun 1826   Anna Geminiana Rosa Sestan  Franciscus Joannes × Sancta Alfieri
+    20 May 1827   Rosa Josepha Susana Sestan  Franciscus × Sancta Alfieri
+     8 Dec 1834   Josephus Sestan             Antonius × Francisca Callaz
+
+with deaths back to **Joannes Sestan, born 1659, died 23 April 1709**, and
+marriages from **1787**.
+
+**Searched as «Pazin» those births do not appear.** The register collection is
+filed under the Austrian name. **That is the three-names problem costing a
+searcher two thirds of a parish**, demonstrated on this family's own surname
+rather than argued from a catalogue note.
+
+## But not ONE of this archive's Šestani is among them
+
+`targets.json` puts **23 Šestani at Gologorica, born 1843–1877**. Searched in
+that window, across Pisino, Pazin, Gologorica and Istria generally, the index
+returns Šestani at **Poreč, Rovinj, Pola, Ližnjan and Vrsar** — and **none at
+Gologorica, and none at Pazin.**
+
+**Šestan is an Istrian surname spread across the whole peninsula.** That is the
+Kalanj lesson and the Perpić lesson a third time: *«a Croatian surname is a
+region, not a family»*. The eighteenth-century Pisino Šestani are a Pisino
+household; there is nothing yet joining them to Gologorica sixty years later.
+
+## So the row's position, exactly
+
+* **Gologorica is not a catalogued parish.** Tested against a nonsense control.
+* **Pazin's book exists and reaches 1582** — the oldest this archive can reach.
+* **Nothing places this archive's Šestani in it.** The index holds no Šestan at
+  Gologorica or Pazin in 1843–1877, and it holds plenty elsewhere in Istria.
+
+**Which means the Pazin film is available and is not yet worth a sitting.**
+Writing that down is the point: without it the next reader sees «1582» and
+spends a day on a book that may have nothing to do with this family.
+
+**One record does put a Šestan at Gologorica**, and it is American: *Elisabetta
+Sestan Rabar*, born **11 July 1912** at *«Gologorica I\*, Yugoslavia»*, died
+Staten Island 2005, parents **Natale Sestan × Antonia Ancich**. The village is
+real and people were born there. It is the parish register that is missing, not
+the place.
+
+**And a loose thread worth keeping**: *«23 March 1842, **Otočac** — Johanna
+Sestan, of Philippus Sestan × Martha»*. A Šestan baptised in **Lika**, in this
+archive's own heartland, three hundred kilometres from Istria. Nothing is built
+on it here.
