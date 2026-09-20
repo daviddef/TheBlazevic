@@ -1,0 +1,35 @@
+# Where each cemetery in this archive actually is.
+#
+# WHY. A map layer for the graves needs a town per cemetery, and a sister
+# archive asked for a mapping «only you can make». Most of it did not need
+# making: every Find a Grave row in graves.json already carries a `place`, so
+# the town was in the data and merely implicit. This file makes it explicit,
+# one row per cemetery, so nothing has to re-derive it by grouping rows.
+#
+# THE TWO CROATIAN ONES ARE THIS ARCHIVE'S OWN, walked and photographed in
+# October 2024, and they are the two the atlas already knows.
+#
+# A BLANK PLACE IS NOT A GAP. «Cremated» and «Burial details unknown» are
+# answers, not missing values, and a map must leave them off rather than guess.
+#
+# cemetery|place|graves|source
+Senj municipal cemetery|Senj, Lika-Senj, Croatia|194|walked and photographed 2024
+Otočac municipal cemetery|Otočac, Lika-Senj, Croatia|32|walked and photographed 2024
+Port Pirie Cemetery|Port Pirie, South Australia|29|Find a Grave, as the row gives it
+Enfield Memorial Park|Clearview, South Australia|13|Find a Grave, as the row gives it
+Timmins Memorial Cemetery|Timmins, Cochrane District, Ontario|6|Find a Grave, as the row gives it
+Whyalla Cemetery|Whyalla, South Australia|4|Find a Grave, as the row gives it
+Ardrossan Cemetery|Ardrossan, South Australia|3|Find a Grave, as the row gives it
+Broken Hill Cemetery|Broken Hill, New South Wales|2|Find a Grave, as the row gives it
+Cremated, ashes to family||2|no burial place — do not map
+Grandview Cemetery|Southmont, Cambria County, Pennsylvania|2|Find a Grave, as the row gives it
+Stirling North Garden Cemetery|Stirling North, South Australia|2|Find a Grave, as the row gives it
+Ballarat New Cemetery|Ballarat, Victoria|1|Find a Grave, as the row gives it
+Burial details unknown||1|no burial place — do not map
+Campo Seco Catholic Cemetery|Campo Seco, Calaveras County, California|1|Find a Grave, as the row gives it
+Cremated||1|no burial place — do not map
+Cremated, remains to family||1|no burial place — do not map
+Napperby|Napperby, South Australia|1|Find a Grave, as the row gives it
+Preston General Cemetery|Bundoora, Victoria|1|Find a Grave, as the row gives it
+South Australian Garden of Remembrance|Pasadena, South Australia|1|Find a Grave, as the row gives it
+Sunset Memorial Gardens|Thunder Bay, Ontario|1|Find a Grave, as the row gives it

@@ -87,6 +87,128 @@
    1
   ]
  ],
+ "cemeteryPlaces": {
+  "Senj municipal cemetery": {
+   "place": "Senj, Lika-Senj, Croatia",
+   "graves": 194,
+   "source": "walked and photographed 2024",
+   "mappable": true
+  },
+  "Otočac municipal cemetery": {
+   "place": "Otočac, Lika-Senj, Croatia",
+   "graves": 32,
+   "source": "walked and photographed 2024",
+   "mappable": true
+  },
+  "Port Pirie Cemetery": {
+   "place": "Port Pirie, South Australia",
+   "graves": 29,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Enfield Memorial Park": {
+   "place": "Clearview, South Australia",
+   "graves": 13,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Timmins Memorial Cemetery": {
+   "place": "Timmins, Cochrane District, Ontario",
+   "graves": 6,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Whyalla Cemetery": {
+   "place": "Whyalla, South Australia",
+   "graves": 4,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Ardrossan Cemetery": {
+   "place": "Ardrossan, South Australia",
+   "graves": 3,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Broken Hill Cemetery": {
+   "place": "Broken Hill, New South Wales",
+   "graves": 2,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Cremated, ashes to family": {
+   "place": "",
+   "graves": 2,
+   "source": "no burial place — do not map",
+   "mappable": false
+  },
+  "Grandview Cemetery": {
+   "place": "Southmont, Cambria County, Pennsylvania",
+   "graves": 2,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Stirling North Garden Cemetery": {
+   "place": "Stirling North, South Australia",
+   "graves": 2,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Ballarat New Cemetery": {
+   "place": "Ballarat, Victoria",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Burial details unknown": {
+   "place": "",
+   "graves": 1,
+   "source": "no burial place — do not map",
+   "mappable": false
+  },
+  "Campo Seco Catholic Cemetery": {
+   "place": "Campo Seco, Calaveras County, California",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Cremated": {
+   "place": "",
+   "graves": 1,
+   "source": "no burial place — do not map",
+   "mappable": false
+  },
+  "Cremated, remains to family": {
+   "place": "",
+   "graves": 1,
+   "source": "no burial place — do not map",
+   "mappable": false
+  },
+  "Napperby": {
+   "place": "Napperby, South Australia",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Preston General Cemetery": {
+   "place": "Bundoora, Victoria",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "South Australian Garden of Remembrance": {
+   "place": "Pasadena, South Australia",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  },
+  "Sunset Memorial Gardens": {
+   "place": "Thunder Bay, Ontario",
+   "graves": 1,
+   "source": "Find a Grave, as the row gives it",
+   "mappable": true
+  }
+ },
  "shared": [
   {
    "plot": "Enfield Memorial Park · Rose Garden CDV5",
@@ -1371,6 +1493,128 @@
     32
    ]
   ],
+  "cemeteryPlaces": {
+   "Senj municipal cemetery": {
+    "place": "Senj, Lika-Senj, Croatia",
+    "graves": 194,
+    "source": "walked and photographed 2024",
+    "mappable": true
+   },
+   "Otočac municipal cemetery": {
+    "place": "Otočac, Lika-Senj, Croatia",
+    "graves": 32,
+    "source": "walked and photographed 2024",
+    "mappable": true
+   },
+   "Port Pirie Cemetery": {
+    "place": "Port Pirie, South Australia",
+    "graves": 29,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Enfield Memorial Park": {
+    "place": "Clearview, South Australia",
+    "graves": 13,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Timmins Memorial Cemetery": {
+    "place": "Timmins, Cochrane District, Ontario",
+    "graves": 6,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Whyalla Cemetery": {
+    "place": "Whyalla, South Australia",
+    "graves": 4,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Ardrossan Cemetery": {
+    "place": "Ardrossan, South Australia",
+    "graves": 3,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Broken Hill Cemetery": {
+    "place": "Broken Hill, New South Wales",
+    "graves": 2,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Cremated, ashes to family": {
+    "place": "",
+    "graves": 2,
+    "source": "no burial place — do not map",
+    "mappable": false
+   },
+   "Grandview Cemetery": {
+    "place": "Southmont, Cambria County, Pennsylvania",
+    "graves": 2,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Stirling North Garden Cemetery": {
+    "place": "Stirling North, South Australia",
+    "graves": 2,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Ballarat New Cemetery": {
+    "place": "Ballarat, Victoria",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Burial details unknown": {
+    "place": "",
+    "graves": 1,
+    "source": "no burial place — do not map",
+    "mappable": false
+   },
+   "Campo Seco Catholic Cemetery": {
+    "place": "Campo Seco, Calaveras County, California",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Cremated": {
+    "place": "",
+    "graves": 1,
+    "source": "no burial place — do not map",
+    "mappable": false
+   },
+   "Cremated, remains to family": {
+    "place": "",
+    "graves": 1,
+    "source": "no burial place — do not map",
+    "mappable": false
+   },
+   "Napperby": {
+    "place": "Napperby, South Australia",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Preston General Cemetery": {
+    "place": "Bundoora, Victoria",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "South Australian Garden of Remembrance": {
+    "place": "Pasadena, South Australia",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   },
+   "Sunset Memorial Gardens": {
+    "place": "Thunder Bay, Ontario",
+    "graves": 1,
+    "source": "Find a Grave, as the row gives it",
+    "mappable": true
+   }
+  },
   "surnames": [
    [
     "Prpić",

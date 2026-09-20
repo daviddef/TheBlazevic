@@ -46,6 +46,25 @@ import unicodedata
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def cemetery_places():
+    """cemetery -> {place, graves, source}, out of sources/cemeteries.psv."""
+    out = {}
+    path = os.path.join(ROOT, "sources", "cemeteries.psv")
+    if not os.path.exists(path):
+        return out
+    for line in open(path, encoding="utf-8"):
+        line = line.rstrip("\n")
+        if not line.strip() or line.startswith("#"):
+            continue
+        f = [x.strip() for x in line.split("|")]
+        if len(f) != 4:
+            continue
+        out[f[0]] = {"place": f[1], "graves": int(f[2]) if f[2].isdigit() else None,
+                     "source": f[3], "mappable": bool(f[1])}
+    return out
+
+
 SRCDIR = os.path.join(ROOT, "sources", "findagrave")
 STONEDIR = os.path.join(ROOT, "sources", "graves")
 DATA = os.path.join(ROOT, "site", "src", "data")
@@ -386,6 +405,11 @@ def stone_half(people):
         "contested": contested,
         "confidence": [[k, conf.get(k, 0), CONF[k]] for k in ("r", "p", "?")],
         "cemeteries": sorted(where.items(), key=lambda kv: (-kv[1], kv[0])),
+        # WHERE EACH CEMETERY ACTUALLY IS, so a map layer does not have to
+        # re-derive a town by grouping rows. A blank place is an answer --
+        # «Cremated», «Burial details unknown» -- and must be left off a map
+        # rather than guessed at. sources/cemeteries.psv
+        "cemeteryPlaces": cemetery_places(),
         "surnames": sorted(surnames.items(), key=lambda kv: (-kv[1], kv[0])),
         "stones": sorted([g for g in groups if len(g["people"]) > 1],
                          key=lambda g: (-g["known"], -len(g["people"]))),
@@ -584,6 +608,11 @@ def main():
         "matched": sum(1 for r in rows if r.get("slug")),
         "unmatched": sum(1 for r in rows if not r.get("slug")),
         "cemeteries": sorted(where.items(), key=lambda kv: (-kv[1], kv[0])),
+        # WHERE EACH CEMETERY ACTUALLY IS, so a map layer does not have to
+        # re-derive a town by grouping rows. A blank place is an answer --
+        # «Cremated», «Burial details unknown» -- and must be left off a map
+        # rather than guessed at. sources/cemeteries.psv
+        "cemeteryPlaces": cemetery_places(),
         "shared": shared,
         "conflicts": sorted(conflicts, key=lambda c: -abs(c["days"])),
         "rows": rows,
