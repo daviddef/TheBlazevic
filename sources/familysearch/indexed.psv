@@ -143,8 +143,18 @@ Smokvica|—|none|1730s 1800s 1850s + place-only|NOTHING for OUR Smokvica. A pla
 #   baptisms and burials and NO deaths. Burials are indexed and dated from 1860.
 #
 #   «Senj also under the Latin place string SENIA (14 birth, 14 burial,
-#   11 death)» — q.anyPlace=Senia returns NOTHING. Either the place string was
-#   never right or it has been normalised away since. Senj's own rows stand.
+#   11 death)» — q.anyPlace=Senia returns NOTHING.
+#
+#   *** CORRECTED 21 September 2026, AND THE OLD TABLE WAS RIGHT. *** The place
+#   string is alive and in use: «Senia, Lika-Korbava megye, Magyarorszag» is
+#   what the 1891 baptism of Antonius Joannes Kosina carries (1:1:X9DP-3YJQ).
+#   What failed was the QUERY and not the records — q.anyPlace=Senia does not
+#   resolve to a place the search will filter on, so those rows surface only
+#   when something else brings them. This file drew the distinction «a probe
+#   that fails to reproduce is not a probe that disproves» on the same day and
+#   then fell into it. SEARCHING SENJ BY PLACE MISSES EVERY ROW FILED AS SENIA,
+#   which is why five spellings of Kosina returned nothing at Senj while the
+#   family was in the book all along.
 #
 # NEITHER is recorded as a correction to the old table, because a probe that
 # fails to reproduce a result is not the same as a probe that disproves it.

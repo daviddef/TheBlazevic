@@ -8,6 +8,13 @@
    "family": "blazevic"
   },
   {
+   "name": "Krivi Put Working Other Unknown Blažević",
+   "id": "@I508548@",
+   "children": 28,
+   "published": 28,
+   "family": "blazevic"
+  },
+  {
    "name": "Senj - Unknown To be sorted Prpic",
    "id": "@I508314@",
    "children": 26,
@@ -20,13 +27,6 @@
    "children": 26,
    "published": 26,
    "family": "kalanj"
-  },
-  {
-   "name": "Krivi Put Working Other Unknown Blažević",
-   "id": "@I508548@",
-   "children": 28,
-   "published": 25,
-   "family": "blazevic"
   },
   {
    "name": "M Žubrinić Xubrinich Zubrinic",
@@ -43,18 +43,18 @@
    "family": "papic"
   },
   {
+   "name": "Krivi Put 136 For Sorting Perpić",
+   "id": "@I508654@",
+   "children": 15,
+   "published": 15,
+   "family": "perpic"
+  },
+  {
    "name": "J Žubrinić Xubrinich Zubrinic",
    "id": "@I511568@",
    "children": 17,
    "published": 15,
    "family": "zubrinic"
-  },
-  {
-   "name": "Krivi Put 136 For Sorting Perpić",
-   "id": "@I508654@",
-   "children": 15,
-   "published": 14,
-   "family": "perpic"
   },
   {
    "name": "Senj For Sorting Working Other Unknown Blažević",
@@ -67,7 +67,7 @@
    "name": "1800-1830 Birth - Selce Papić (Papa)",
    "id": "@I509097@",
    "children": 10,
-   "published": 9,
+   "published": 10,
    "family": "papic"
   },
   {
@@ -134,6 +134,13 @@
    "family": "?"
   },
   {
+   "name": "Senj - Unknown To be Sorted Papić",
+   "id": "@I508713@",
+   "children": 3,
+   "published": 3,
+   "family": "papic"
+  },
+  {
    "name": "G Žubrinić Xubrinich Zubrinic",
    "id": "@I511575@",
    "children": 3,
@@ -160,13 +167,6 @@
    "children": 3,
    "published": 3,
    "family": "zubrinic"
-  },
-  {
-   "name": "Senj - Unknown To be Sorted Papić",
-   "id": "@I508713@",
-   "children": 3,
-   "published": 2,
-   "family": "papic"
   },
   {
    "name": "1831-1860 Birth - Selce Papić (Papa)",
@@ -456,6 +456,13 @@
    "slug": "stanislava-blazevic",
    "family": "blazevic",
    "parent": "Unknown Sorting Working Blažević"
+  },
+  {
+   "id": "@I509012@",
+   "name": "Antonü Papich Loncsarich",
+   "slug": "antonu-papich-loncsarich",
+   "family": "loncsaric",
+   "parent": "1800-1830 Birth - Selce Papić (Papa)"
   },
   {
    "id": "@I509079@",
@@ -1244,6 +1251,19 @@
  ],
  "labels": [
   {
+   "name": "Krivi Put Working Other Unknown Blažević",
+   "family": "blazevic",
+   "village": "Krivi Put",
+   "house": null,
+   "range": null,
+   "specific": false,
+   "agree": 2,
+   "disagree": 4,
+   "blank": 22,
+   "yearIn": 0,
+   "yearOut": 0
+  },
+  {
    "name": "Senj - Unknown To be sorted Prpic",
    "family": "prpic",
    "village": "Senj",
@@ -1270,19 +1290,6 @@
    "yearOut": 0
   },
   {
-   "name": "Krivi Put Working Other Unknown Blažević",
-   "family": "blazevic",
-   "village": "Krivi Put",
-   "house": null,
-   "range": null,
-   "specific": false,
-   "agree": 2,
-   "disagree": 4,
-   "blank": 19,
-   "yearIn": 0,
-   "yearOut": 0
-  },
-  {
    "name": "Selce Other Working Papić (Papa)",
    "family": "papic",
    "village": "Selce",
@@ -1302,7 +1309,7 @@
    "house": "136",
    "range": null,
    "specific": true,
-   "agree": 5,
+   "agree": 6,
    "disagree": 0,
    "blank": 9,
    "yearIn": 0,
@@ -1333,7 +1340,7 @@
    "specific": true,
    "agree": 3,
    "disagree": 0,
-   "blank": 6,
+   "blank": 7,
    "yearIn": 3,
    "yearOut": 0
   },
@@ -1359,7 +1366,7 @@
    "specific": false,
    "agree": 0,
    "disagree": 0,
-   "blank": 2,
+   "blank": 3,
    "yearIn": 0,
    "yearOut": 0
   },
@@ -1398,7 +1405,7 @@
  ],
  "islands": [
   {
-   "n": 393,
+   "n": 473,
    "home": true,
    "families": [
     [
@@ -1414,26 +1421,34 @@
      51
     ]
    ],
-   "from": 1734,
+   "from": 1717,
    "to": 1958,
    "bridge": {
-    "id": "@I509403@",
-    "name": "Martin Kalanj",
-    "slug": "martin-kalanj",
-    "byear": 1734,
-    "place": "",
+    "id": "@I3446@",
+    "name": "Nicolaus Gerkacs",
+    "slug": "nicolaus-gerkacs",
+    "byear": 1717,
+    "place": "Karlobag, Ličko-senjska županija, Croatia",
     "children": 1,
-    "window": "1752–1764"
+    "window": "1735–1747"
    },
    "slugs": []
   },
   {
-   "n": 202,
+   "n": 233,
    "home": false,
    "families": [
     [
      "zubrinic",
      202
+    ],
+    [
+     "kraljic",
+     5
+    ],
+    [
+     "kostelacz",
+     4
     ]
    ],
    "from": 1769,
@@ -1450,7 +1465,7 @@
    "slugs": []
   },
   {
-   "n": 64,
+   "n": 97,
    "home": false,
    "families": [
     [
@@ -1458,12 +1473,12 @@
      57
     ],
     [
-     "prpic",
-     4
+     "pavelic",
+     28
     ],
     [
-     "perpic",
-     2
+     "prpic",
+     4
     ]
    ],
    "from": 1794,
@@ -1480,12 +1495,20 @@
    "slugs": []
   },
   {
-   "n": 56,
+   "n": 61,
    "home": false,
    "families": [
     [
      "papic",
      56
+    ],
+    [
+     "loncaric",
+     2
+    ],
+    [
+     "antic",
+     1
     ]
    ],
    "from": 1786,
@@ -1524,6 +1547,36 @@
    "slugs": []
   },
   {
+   "n": 42,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     36
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "zupan",
+     2
+    ]
+   ],
+   "from": 1831,
+   "to": 1902,
+   "bridge": {
+    "id": "@I509181@",
+    "name": "Dominus Henricus Padovic",
+    "slug": "dominus-henricus-padovic",
+    "byear": 1831,
+    "place": "Fuzine, Croatia",
+    "children": 0,
+    "window": "1849–1861"
+   },
+   "slugs": []
+  },
+  {
    "n": 41,
    "home": false,
    "families": [
@@ -1546,7 +1599,7 @@
    "slugs": []
   },
   {
-   "n": 39,
+   "n": 40,
    "home": false,
    "families": [
     [
@@ -1556,6 +1609,10 @@
     [
      "perpic",
      17
+    ],
+    [
+     "",
+     1
     ]
    ],
    "from": 1820,
@@ -1572,34 +1629,16 @@
    "slugs": []
   },
   {
-   "n": 36,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     36
-    ]
-   ],
-   "from": 1835,
-   "to": 1901,
-   "bridge": {
-    "id": "@I508751@",
-    "name": "Anton Blažević",
-    "slug": "anton-blazevic-2",
-    "byear": 1835,
-    "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
-    "children": 1,
-    "window": "1853–1865"
-   },
-   "slugs": []
-  },
-  {
-   "n": 26,
+   "n": 27,
    "home": false,
    "families": [
     [
      "zubrinic",
      26
+    ],
+    [
+     "",
+     1
     ]
    ],
    "from": 1782,
@@ -1638,6 +1677,36 @@
    "slugs": []
   },
   {
+   "n": 23,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     10
+    ],
+    [
+     "pavelic",
+     8
+    ],
+    [
+     "prpic",
+     2
+    ]
+   ],
+   "from": 1853,
+   "to": 1910,
+   "bridge": {
+    "id": "@I508449@",
+    "name": "Ivan Blažević",
+    "slug": "ivan-blazevic-4",
+    "byear": 1853,
+    "place": "",
+    "children": 0,
+    "window": "1871–1883"
+   },
+   "slugs": []
+  },
+  {
    "n": 21,
    "home": false,
    "families": [
@@ -1660,7 +1729,7 @@
    "slugs": []
   },
   {
-   "n": 15,
+   "n": 19,
    "home": false,
    "families": [
     [
@@ -1668,7 +1737,11 @@
      14
     ],
     [
-     "vukelic",
+     "adamic",
+     3
+    ],
+    [
+     "andjulico",
      1
     ]
    ],
@@ -1686,37 +1759,7 @@
    "slugs": []
   },
   {
-   "n": 14,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     10
-    ],
-    [
-     "prpic",
-     2
-    ],
-    [
-     "perpic",
-     1
-    ]
-   ],
-   "from": 1853,
-   "to": 1910,
-   "bridge": {
-    "id": "@I508449@",
-    "name": "Ivan Blažević",
-    "slug": "ivan-blazevic-4",
-    "byear": 1853,
-    "place": "",
-    "children": 0,
-    "window": "1871–1883"
-   },
-   "slugs": []
-  },
-  {
-   "n": 10,
+   "n": 16,
    "home": false,
    "families": [
     [
@@ -1724,12 +1767,16 @@
      7
     ],
     [
+     "rivosechi",
+     6
+    ],
+    [
      "perpic",
      3
     ]
    ],
    "from": 1853,
-   "to": 1866,
+   "to": 1887,
    "bridge": {
     "id": "@I508991@",
     "name": "Mathiam Tereziam Prpic Perpic",
@@ -1738,6 +1785,62 @@
     "place": "",
     "children": 0,
     "window": "1871–1883"
+   },
+   "slugs": []
+  },
+  {
+   "n": 9,
+   "home": false,
+   "families": [
+    [
+     "papic",
+     5
+    ],
+    [
+     "kermpotic",
+     2
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   "from": 1875,
+   "to": 1901,
+   "bridge": {
+    "id": "@I509084@",
+    "name": "Marija Papic",
+    "slug": "marija-papic-4",
+    "byear": 1875,
+    "place": "Selce, Croatia",
+    "children": 0,
+    "window": "1893–1905"
+   },
+   "slugs": []
+  },
+  {
+   "n": 9,
+   "home": false,
+   "families": [
+    [
+     "zubrinic",
+     8
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   "from": 1802,
+   "to": 1836,
+   "bridge": {
+    "id": "@I511694@",
+    "name": "Paulus Žubrinić Xubrinich",
+    "slug": "paulus-zubrinic-xubrinich",
+    "byear": 1802,
+    "place": "",
+    "children": 7,
+    "window": "1820–1832"
    },
    "slugs": []
   },
@@ -1790,28 +1893,6 @@
    "slugs": []
   },
   {
-   "n": 8,
-   "home": false,
-   "families": [
-    [
-     "zubrinic",
-     8
-    ]
-   ],
-   "from": 1802,
-   "to": 1836,
-   "bridge": {
-    "id": "@I511694@",
-    "name": "Paulus Žubrinić Xubrinich",
-    "slug": "paulus-zubrinic-xubrinich",
-    "byear": 1802,
-    "place": "",
-    "children": 7,
-    "window": "1820–1832"
-   },
-   "slugs": []
-  },
-  {
    "n": 7,
    "home": false,
    "families": [
@@ -1860,6 +1941,32 @@
     "place": "",
     "children": 0,
     "window": "1889–1901"
+   },
+   "slugs": []
+  },
+  {
+   "n": 7,
+   "home": false,
+   "families": [
+    [
+     "krmpotic",
+     6
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1881,
+   "to": 1894,
+   "bridge": {
+    "id": "@I508370@",
+    "name": "Mile Vatroslav Krmpotić",
+    "slug": "mile-vatroslav-krmpotic",
+    "byear": 1881,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1899–1911"
    },
    "slugs": []
   },
@@ -1926,6 +2033,62 @@
     "place": "",
     "children": 1,
     "window": "1795–1807"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     3
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1822,
+   "to": 1876,
+   "bridge": {
+    "id": "@I508474@",
+    "name": "Luce Prpic",
+    "slug": "luce-prpic",
+    "byear": 1822,
+    "place": "Mrzli Dol, Lika-Senj, Croatia",
+    "children": 2,
+    "window": "1840–1852"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
+     "grandic",
+     4
+    ],
+    [
+     "blazevic",
+     2
+    ]
+   ],
+   "from": 1861,
+   "to": 1894,
+   "bridge": {
+    "id": "@I508333@",
+    "name": "Lucia Luce Lucija Blažević",
+    "slug": "lucia-luce-lucija-blazevic",
+    "byear": 1861,
+    "place": "Kriviput Br.9, Croatia",
+    "children": 4,
+    "window": "1879–1891"
    },
    "slugs": []
   },
@@ -2022,6 +2185,36 @@
    "home": false,
    "families": [
     [
+     "babic",
+     3
+    ],
+    [
+     "perpic",
+     1
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1861,
+   "to": 1891,
+   "bridge": {
+    "id": "@I508329@",
+    "name": "Tereza Prpic",
+    "slug": "tereza-prpic",
+    "byear": 1861,
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "children": 3,
+    "window": "1879–1891"
+   },
+   "slugs": []
+  },
+  {
+   "n": 5,
+   "home": false,
+   "families": [
+    [
      "prpic",
      3
     ],
@@ -2040,36 +2233,6 @@
     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia",
     "children": 1,
     "window": "1848–1860"
-   },
-   "slugs": []
-  },
-  {
-   "n": 5,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     3
-    ],
-    [
-     "prpic",
-     1
-    ],
-    [
-     "vukelic",
-     1
-    ]
-   ],
-   "from": 1822,
-   "to": 1860,
-   "bridge": {
-    "id": "@I508474@",
-    "name": "Luce Prpic",
-    "slug": "luce-prpic",
-    "byear": 1822,
-    "place": "Mrzli Dol, Lika-Senj, Croatia",
-    "children": 2,
-    "window": "1840–1852"
    },
    "slugs": []
   },
@@ -2104,20 +2267,102 @@
    "home": false,
    "families": [
     [
-     "papic",
-     5
+     "grzin",
+     4
+    ],
+    [
+     "prpic",
+     1
     ]
    ],
-   "from": 1875,
-   "to": 1901,
+   "from": 1876,
+   "to": 1881,
    "bridge": {
-    "id": "@I509084@",
-    "name": "Marija Papic",
-    "slug": "marija-papic-4",
-    "byear": 1875,
-    "place": "Selce, Croatia",
+    "id": "@I509200@",
+    "name": "Simeon Grzin",
+    "slug": "simeon-grzin",
+    "byear": 1876,
+    "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
     "children": 0,
-    "window": "1893–1905"
+    "window": "1894–1906"
+   },
+   "slugs": []
+  },
+  {
+   "n": 5,
+   "home": false,
+   "families": [
+    [
+     "spalj",
+     4
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1886,
+   "to": 1894,
+   "bridge": {
+    "id": "@I508344@",
+    "name": "Kate Špalj Spalj",
+    "slug": "kate-spalj-spalj",
+    "byear": 1886,
+    "place": "Senj, Općina Senj, Lika-Senj County, Croatia",
+    "children": 0,
+    "window": "1904–1916"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "sekula",
+     3
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   "from": 1783,
+   "to": 1823,
+   "bridge": {
+    "id": "@I511825@",
+    "name": "Maria",
+    "slug": "maria-3",
+    "byear": 1783,
+    "place": "",
+    "children": 2,
+    "window": "1801–1813"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "belobarbic",
+     3
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1880,
+   "to": 1886,
+   "bridge": {
+    "id": "@I508386@",
+    "name": "Lucija Belobarbic",
+    "slug": "lucija-belobarbic",
+    "byear": 1880,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1898–1910"
    },
    "slugs": []
   },
@@ -2226,6 +2471,36 @@
    "home": false,
    "families": [
     [
+     "prpic",
+     2
+    ],
+    [
+     "blazevic",
+     1
+    ],
+    [
+     "pavelic",
+     1
+    ]
+   ],
+   "from": 1869,
+   "to": 1875,
+   "bridge": {
+    "id": "@I508412@",
+    "name": "Ivan Prpic",
+    "slug": "ivan-prpic-2",
+    "byear": 1869,
+    "place": "",
+    "children": 0,
+    "window": "1887–1899"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
      "papic",
      4
     ]
@@ -2270,6 +2545,32 @@
    "home": false,
    "families": [
     [
+     "spalj",
+     3
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1871,
+   "to": 1875,
+   "bridge": {
+    "id": "@I509234@",
+    "name": "Margaritte Špalj Spalj",
+    "slug": "margaritte-spalj-spalj",
+    "byear": 1871,
+    "place": "Krmpote 152, Croatia",
+    "children": 0,
+    "window": "1889–1901"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
      "zubrinic",
      4
     ]
@@ -2284,6 +2585,58 @@
     "place": "",
     "children": 3,
     "window": "1820–1832"
+   },
+   "slugs": []
+  },
+  {
+   "n": 3,
+   "home": false,
+   "families": [
+    [
+     "zubrinic",
+     2
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   "from": 1800,
+   "to": 1848,
+   "bridge": {
+    "id": "@I511663@",
+    "name": "Thomas Žubrinić Xubrinich Zubrinic",
+    "slug": "thomas-zubrinic-xubrinich-zubrinic",
+    "byear": 1800,
+    "place": "",
+    "children": 1,
+    "window": "1818–1830"
+   },
+   "slugs": []
+  },
+  {
+   "n": 3,
+   "home": false,
+   "families": [
+    [
+     "belobaric",
+     2
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1873,
+   "to": 1875,
+   "bridge": {
+    "id": "@I509225@",
+    "name": "Joannes Belobaric",
+    "slug": "joannes-belobaric",
+    "byear": 1873,
+    "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
+    "children": 0,
+    "window": "1891–1903"
    },
    "slugs": []
   },
@@ -2428,24 +2781,28 @@
    "home": false,
    "families": [
     [
-     "prpic",
-     2
+     "blazevic",
+     1
     ],
     [
-     "blazevic",
+     "pavelic",
+     1
+    ],
+    [
+     "prpic",
      1
     ]
    ],
-   "from": 1869,
-   "to": 1869,
+   "from": 1865,
+   "to": 1867,
    "bridge": {
-    "id": "@I508412@",
-    "name": "Ivan Prpic",
-    "slug": "ivan-prpic-2",
-    "byear": 1869,
+    "id": "@I508486@",
+    "name": "Marija Prpic",
+    "slug": "marija-prpic-5",
+    "byear": 1865,
     "place": "",
     "children": 0,
-    "window": "1887–1899"
+    "window": "1883–1895"
    },
    "slugs": []
   },
@@ -2498,6 +2855,32 @@
     "place": "",
     "children": 0,
     "window": "1885–1897"
+   },
+   "slugs": []
+  },
+  {
+   "n": 3,
+   "home": false,
+   "families": [
+    [
+     "jurcic",
+     2
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1862,
+   "to": 1868,
+   "bridge": {
+    "id": "@I508364@",
+    "name": "Mikula Jurcic",
+    "slug": "mikula-jurcic",
+    "byear": 1862,
+    "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
+    "children": 0,
+    "window": "1880–1892"
    },
    "slugs": []
   },
@@ -2576,6 +2959,32 @@
    "home": false,
    "families": [
     [
+     "spalj",
+     2
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1887,
+   "to": 1893,
+   "bridge": {
+    "id": "@I508338@",
+    "name": "Ana Špalj Spalj",
+    "slug": "ana-spalj-spalj",
+    "byear": 1887,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1905–1917"
+   },
+   "slugs": []
+  },
+  {
+   "n": 3,
+   "home": false,
+   "families": [
+    [
      "prpic",
      3
     ]
@@ -2590,6 +2999,58 @@
     "place": "Krmpote 124, Croatia",
     "children": 0,
     "window": "1889–1901"
+   },
+   "slugs": []
+  },
+  {
+   "n": 3,
+   "home": false,
+   "families": [
+    [
+     "spalj",
+     2
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1888,
+   "to": 1893,
+   "bridge": {
+    "id": "@I508328@",
+    "name": "Mile Špalj Spalj",
+    "slug": "mile-spalj-spalj",
+    "byear": 1888,
+    "place": "Sv. Jelena Br 152",
+    "children": 0,
+    "window": "1906–1918"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
+     "bacic",
+     1
+    ],
+    [
+     "blazevic",
+     1
+    ]
+   ],
+   "from": 1878,
+   "to": 1878,
+   "bridge": {
+    "id": "@I508401@",
+    "name": "Ivanja Tereza Bacic",
+    "slug": "ivanja-tereza-bacic",
+    "byear": 1878,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1896–1908"
    },
    "slugs": []
   },
@@ -2612,28 +3073,6 @@
     "place": "",
     "children": 0,
     "window": "1864–1876"
-   },
-   "slugs": []
-  },
-  {
-   "n": 2,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     2
-    ]
-   ],
-   "from": 1861,
-   "to": 1861,
-   "bridge": {
-    "id": "@I508333@",
-    "name": "Lucia Luce Lucija Blažević",
-    "slug": "lucia-luce-lucija-blazevic",
-    "byear": 1861,
-    "place": "Kriviput Br.9, Croatia",
-    "children": 4,
-    "window": "1879–1891"
    },
    "slugs": []
   },
@@ -2682,20 +3121,20 @@
      1
     ],
     [
-     "prpic",
+     "krmpotic",
      1
     ]
    ],
-   "from": 1865,
-   "to": 1865,
+   "from": 1864,
+   "to": 1864,
    "bridge": {
-    "id": "@I508486@",
-    "name": "Marija Prpic",
-    "slug": "marija-prpic-5",
-    "byear": 1865,
+    "id": "@I508457@",
+    "name": "Tereza Krmpotic",
+    "slug": "tereza-krmpotic",
+    "byear": 1864,
     "place": "",
     "children": 0,
-    "window": "1883–1895"
+    "window": "1882–1894"
    },
    "slugs": []
   },
@@ -2722,6 +3161,28 @@
     "place": "",
     "children": 0,
     "window": "1848–1860"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
+     "loncsaric",
+     2
+    ]
+   ],
+   "from": 1838,
+   "to": 1838,
+   "bridge": {
+    "id": "@I509014@",
+    "name": "Petrum Papich Loncsarich",
+    "slug": "petrum-papich-loncsarich",
+    "byear": 1838,
+    "place": "Selce, Croatia",
+    "children": 0,
+    "window": "1856–1868"
    },
    "slugs": []
   },
@@ -2816,6 +3277,32 @@
    "home": false,
    "families": [
     [
+     "papic",
+     1
+    ],
+    [
+     "paric",
+     1
+    ]
+   ],
+   "from": 1837,
+   "to": 1837,
+   "bridge": {
+    "id": "@I509005@",
+    "name": "Annam Parich",
+    "slug": "annam-parich",
+    "byear": 1837,
+    "place": "Selce, Croatia",
+    "children": 0,
+    "window": "1855–1867"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
      "perpic",
      2
     ]
@@ -2860,32 +3347,6 @@
    "home": false,
    "families": [
     [
-     "perpic",
-     1
-    ],
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": 1861,
-   "to": 1861,
-   "bridge": {
-    "id": "@I508329@",
-    "name": "Tereza Prpic",
-    "slug": "tereza-prpic",
-    "byear": 1861,
-    "place": "Krivi Put, Lika-Senj, Croatia",
-    "children": 3,
-    "window": "1879–1891"
-   },
-   "slugs": []
-  },
-  {
-   "n": 2,
-   "home": false,
-   "families": [
-    [
      "prpic",
      2
     ]
@@ -2922,6 +3383,32 @@
     "place": "Senj, Croatia",
     "children": 0,
     "window": "1904–1916"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
+     "prpic",
+     1
+    ],
+    [
+     "tomljanovic",
+     1
+    ]
+   ],
+   "from": 1879,
+   "to": 1879,
+   "bridge": {
+    "id": "@I508393@",
+    "name": "Matija Tomljanovic",
+    "slug": "matija-tomljanovic",
+    "byear": 1879,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1897–1909"
    },
    "slugs": []
   },
@@ -2992,28 +3479,6 @@
    "slugs": []
   },
   {
-   "n": 2,
-   "home": false,
-   "families": [
-    [
-     "zubrinic",
-     2
-    ]
-   ],
-   "from": 1800,
-   "to": 1817,
-   "bridge": {
-    "id": "@I511663@",
-    "name": "Thomas Žubrinić Xubrinich Zubrinic",
-    "slug": "thomas-zubrinic-xubrinich-zubrinic",
-    "byear": 1800,
-    "place": "",
-    "children": 1,
-    "window": "1818–1830"
-   },
-   "slugs": []
-  },
-  {
    "n": 1,
    "home": false,
    "families": [
@@ -3033,34 +3498,6 @@
     "children": 0,
     "window": "1839–1851"
    },
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
    "slugs": []
   },
   {
@@ -3127,160 +3564,6 @@
     "children": 0,
     "window": "1842–1854"
    },
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "papic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
    "slugs": []
   },
   {
@@ -3370,11 +3653,239 @@
    "slugs": []
   }
  ],
- "islandCount": 92,
+ "islandCount": 94,
  "standing": [
+  {
+   "family": "adamic",
+   "published": 3,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "andjulico",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "attalic",
+   "published": 3,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "babic",
+   "published": 5,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "bacic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "belobarbic",
+   "published": 3,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "belobaric",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "blasevic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "bozicevic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "butkovic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "dinmovic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "gercevic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "gercsevic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "grandic",
+   "published": 4,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "grzin",
+   "published": 4,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "jurcic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kastelacz",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kermpotic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kostelac",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kostelacz",
+   "published": 4,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kraljic",
+   "published": 5,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "krmpotic",
+   "published": 7,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "laskarin",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "laskarisz",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "loncsaric",
+   "published": 3,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "mariam",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "mlinaric",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "padovic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "papic or perpic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "paric",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "pavelic",
+   "published": 38,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "pavelic miskov",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "rivosechi",
+   "published": 6,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "rogic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
   {
    "family": "sestan",
    "published": 55,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "spalj",
+   "published": 11,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "talic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "thitalic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "zupan",
+   "published": 2,
    "connected": 0,
    "pct": 0
   },
@@ -3409,10 +3920,52 @@
    "pct": 27
   },
   {
+   "family": "loncaric",
+   "published": 4,
+   "connected": 2,
+   "pct": 50
+  },
+  {
+   "family": "sekula",
+   "published": 9,
+   "connected": 6,
+   "pct": 67
+  },
+  {
    "family": "vukelic",
    "published": 15,
    "connected": 10,
    "pct": 67
+  },
+  {
+   "family": "jellicic",
+   "published": 4,
+   "connected": 3,
+   "pct": 75
+  },
+  {
+   "family": "tomljanovic",
+   "published": 4,
+   "connected": 3,
+   "pct": 75
+  },
+  {
+   "family": "antic",
+   "published": 5,
+   "connected": 4,
+   "pct": 80
+  },
+  {
+   "family": "antic papic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bacchi",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
   },
   {
    "family": "boras",
@@ -3421,23 +3974,125 @@
    "pct": 100
   },
   {
+   "family": "brozovic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "findric",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gerkacs",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "gomercic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "kalanj",
    "published": 215,
    "connected": 215,
    "pct": 100
+  },
+  {
+   "family": "karic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "kosina",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "luckinic",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "maric",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "oreskovic",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "oreskovic oreskovic sekula",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "pecanic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pekass",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "pilipic",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "shambul maric",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "smojver",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "smojver vukic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "uroda",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
   }
  ],
- "connected": 393,
- "publishedTotal": 1230,
+ "connected": 464,
+ "publishedTotal": 1440,
  "specific": {
-  "agree": 8,
+  "agree": 9,
   "disagree": 0,
-  "blank": 18
+  "blank": 19
  },
  "vague": {
   "agree": 5,
   "disagree": 13,
-  "blank": 101
+  "blank": 105
  },
- "hanging": 278
+ "hanging": 284
 }

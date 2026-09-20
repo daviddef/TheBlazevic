@@ -1,5 +1,250 @@
 {
+ "maria-3": {
+  "state": "line",
+  "ahn": 85,
+  "media": 0
+ },
+ "theresia": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "catharina-3": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "luce-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "christophorus": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "luce": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "sulka": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ana": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "anka": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "catharina": {
+  "state": "read",
+  "ahn": 429,
+  "media": 0
+ },
+ "catharina-2": {
+  "state": "line",
+  "ahn": 103,
+  "media": 0
+ },
+ "lucia": {
+  "state": "read",
+  "ahn": 15,
+  "media": 2
+ },
+ "margarita": {
+  "state": "line",
+  "ahn": 101,
+  "media": 0
+ },
+ "maria": {
+  "state": "line",
+  "ahn": 87,
+  "media": 0
+ },
+ "slavka": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ursula": {
+  "state": "line",
+  "ahn": 97,
+  "media": 0
+ },
+ "vincentia": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "catharina-adamic-adamich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "antonia-adamic-adamich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucas-ugrin-adamich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mate-andjulico": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "petar-antic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "joannis-antic-2": {
+  "state": "line",
+  "ahn": 96,
+  "media": 0
+ },
+ "joannis-antic": {
+  "state": "read",
+  "ahn": 48,
+  "media": 2
+ },
+ "josephum-antic": {
+  "state": "read",
+  "ahn": 24,
+  "media": 2
+ },
+ "maria-rosaria-antic": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
+ "georgius-juraj-joannis-papa-antic-papic": {
+  "state": "read",
+  "ahn": 12,
+  "media": 1
+ },
+ "philippus-attalich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucia-attalich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "magdalena-attalich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
  "andela-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-babic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ana-babic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mirko-babic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "antonius-babic-babic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "theresa-babic-babic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "caetano-bacchi": {
+  "state": "disputed",
+  "ahn": 214,
+  "media": 1
+ },
+ "angelo-bacchi": {
+  "state": "disputed",
+  "ahn": 428,
+  "media": 0
+ },
+ "oliva-andreana-bacchi": {
+  "state": "read",
+  "ahn": 107,
+  "media": 0
+ },
+ "ivanja-tereza-bacic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucija-belobarbic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "frane-belobarbic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-belobarbic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "joannes-belobaric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-matthia-belobaric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ana-blasevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-blasevic": {
   "state": "tree",
   "ahn": null,
   "media": 0
@@ -1145,7 +1390,7 @@
   "media": 1
  },
  "angelika-boras": {
-  "state": "scanned",
+  "state": "read",
   "ahn": null,
   "media": 3
  },
@@ -1370,6 +1615,146 @@
   "media": 0
  },
  "zdenka-boras-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "miko-bozicevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "margarita-brozovic": {
+  "state": "read",
+  "ahn": 51,
+  "media": 1
+ },
+ "joanni-brozovic": {
+  "state": "line",
+  "ahn": 102,
+  "media": 0
+ },
+ "marko-butkovic": {
+  "state": "disputed",
+  "ahn": null,
+  "media": 0
+ },
+ "antonija-butkovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jele-dinmovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-findric": {
+  "state": "read",
+  "ahn": 41,
+  "media": 0
+ },
+ "michael-gercevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "barbara-gercevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "daniel-gercsevich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "nicolaus-gerkacs": {
+  "state": "read",
+  "ahn": 220,
+  "media": 0
+ },
+ "michaeli-michaele-gerkacs-gergacs": {
+  "state": "read",
+  "ahn": 110,
+  "media": 0
+ },
+ "mariam-gerkacs-gergacs": {
+  "state": "read",
+  "ahn": 55,
+  "media": 1
+ },
+ "katica-gomercic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-frane-grandic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "tonica-grandic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marijam-grandic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "franjka-grandic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "simeon-grzin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "filip-anton-grzin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "filipina-apolonia-grzin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "albin-ivan-grzin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ursa-jellicic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "georgi-juraj-jellicic": {
+  "state": "read",
+  "ahn": 50,
+  "media": 1
+ },
+ "maria-jellicic": {
+  "state": "read",
+  "ahn": 25,
+  "media": 2
+ },
+ "mathia-jellicic": {
+  "state": "line",
+  "ahn": 100,
+  "media": 0
+ },
+ "mikula-jurcic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "johana-jurcic": {
   "state": "tree",
   "ahn": null,
   "media": 0
@@ -2449,6 +2834,291 @@
   "ahn": null,
   "media": 0
  },
+ "bogdan-karic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "predrag-karic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "juliana-kastelacz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ana-kermpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "franjo-dion-kermpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "otilija-kosina": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "antun-anton-kosina": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "oskar-kosina": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "neda-kosina": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "krizan-kosina": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "luce-kostelac": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-kostelac": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "theresia-kostelacz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "eva-kostelacz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "andreas-kostelacz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucia-kostelacz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "georgius-kraljich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "petronilla-kraljich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "vincentia-kraljich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-kraljich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "josephus-kraljich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "tereza-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mile-vatroslav-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "anton-frane-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "slavka-katarina-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marijan-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "anton-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "leon-davorim-krmpotic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "barbara-laskarisz": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "rasaria-laskarin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "anna-laskarin": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "franica-loncaric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "gergur-loncaric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "petrum-papich-loncsarich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "magdalenam-loncsarich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "antonu-papich-loncsarich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "pauli-loncaric": {
+  "state": "line",
+  "ahn": 98,
+  "media": 0
+ },
+ "margarita-martha-loncaric": {
+  "state": "read",
+  "ahn": 49,
+  "media": 2
+ },
+ "mare-luckinic": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
+ "catherina-catta-luckinic": {
+  "state": "read",
+  "ahn": 105,
+  "media": 0
+ },
+ "maria-luckinic": {
+  "state": "read",
+  "ahn": 211,
+  "media": 0
+ },
+ "vicentius-vicko-luckinic": {
+  "state": "read",
+  "ahn": 210,
+  "media": 0
+ },
+ "maria-mariam-mariam": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "joannes-maric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-maric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "joannes-maric-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mathias-maric": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucia-mlinarich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "monica-anna-mlinarich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marcus-oreskovic-oreskovic": {
+  "state": "read",
+  "ahn": 42,
+  "media": 1
+ },
+ "maria-catharina-oreskovic-oreskovic": {
+  "state": "disputed",
+  "ahn": 21,
+  "media": 4
+ },
+ "margarita-oreskovic-oreskovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "francisca-oreskovic-oreskovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jacobus-oreskovic-oreskovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "franciscus-oreskovic-oreskovic-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "petrus-oreskovic-oreskovic-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "dominus-henricus-padovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
  "marija-papic-4": {
   "state": "tree",
   "ahn": null,
@@ -3029,6 +3699,226 @@
   "ahn": null,
   "media": 0
  },
+ "luca-papic-or-perpic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "annam-parich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "domnus-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-pavelic-3": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-pavelic-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marta-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marta-pavelic-3": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "francisca-francika-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mile-mihovil-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marko-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-pavelic-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "anka-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "danica-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "slavka-sylvia-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "michael-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jure-george-louis-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "matt-mate-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ann-sylvia-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "john-s-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mary-margaret-pavelich": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-ive-john-pavelich-born-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ilija-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "eva-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "franjo-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ana-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marta-pavelic-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jure-pavelic-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jure-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lenka-slavka-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "milka-pavelic-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "milka-pavelic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ivan-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "antonija-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "josip-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "danica-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "katica-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "dujo-pavelic-blazevic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marko-pavelic-miskov": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mara-maria-pekass": {
+  "state": "line",
+  "ahn": 427,
+  "media": 0
+ },
+ "antonia-pekass-pekkas": {
+  "state": "read",
+  "ahn": 213,
+  "media": 0
+ },
+ "simoni-pekass-pekkas": {
+  "state": "line",
+  "ahn": 426,
+  "media": 0
+ },
  "kate-perpic": {
   "state": "tree",
   "ahn": null,
@@ -3233,6 +4123,41 @@
   "state": "tree",
   "ahn": null,
   "media": 0
+ },
+ "tereza-pecanic": {
+  "state": "read",
+  "ahn": 9,
+  "media": 4
+ },
+ "josephus-josip-pilipic": {
+  "state": "read",
+  "ahn": 52,
+  "media": 1
+ },
+ "joso-pilipic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "valentinus-pilipic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jacob-pilipic": {
+  "state": "read",
+  "ahn": 104,
+  "media": 0
+ },
+ "vicentius-andreas-vincent-pilipic": {
+  "state": "read",
+  "ahn": 26,
+  "media": 0
+ },
+ "matia-matthea-pilipic": {
+  "state": "read",
+  "ahn": 13,
+  "media": 2
  },
  "luce-prpic": {
   "state": "tree",
@@ -3799,6 +4724,86 @@
   "ahn": null,
   "media": 0
  },
+ "silva-angjelika-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "virgil-maria-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "milka-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "bozica-ana-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "stjepan-nikula-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "ambroz-vjekoslav-rivosechi": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "miko-rogic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "vitus-sekula": {
+  "state": "line",
+  "ahn": 84,
+  "media": 0
+ },
+ "lucia-sekula": {
+  "state": "read",
+  "ahn": 43,
+  "media": 1
+ },
+ "lucas-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "maria-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mate-matthew-matthias-mattheu-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "susanna-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "miko-michael-sekula": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucia-sekula-2": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "michael-michaelis-sekula": {
+  "state": "line",
+  "ahn": 86,
+  "media": 0
+ },
  "vincentius-sestan": {
   "state": "tree",
   "ahn": null,
@@ -4074,6 +5079,86 @@
   "ahn": null,
   "media": 0
  },
+ "ana-shambul-maric": {
+  "state": "read",
+  "ahn": 11,
+  "media": 0
+ },
+ "shambul-maric": {
+  "state": "line",
+  "ahn": 22,
+  "media": 0
+ },
+ "oliva-maria-smojver": {
+  "state": "read",
+  "ahn": 53,
+  "media": 1
+ },
+ "josiph-smojver-vukic": {
+  "state": "read",
+  "ahn": 212,
+  "media": 0
+ },
+ "vicentius-fabiano-smojver-vukic": {
+  "state": "read",
+  "ahn": 106,
+  "media": 1
+ },
+ "maria-talic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "josephus-thitalic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "matija-tomljanovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "zivko-tomljanovic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "lucia-maja-tomljanovic": {
+  "state": "read",
+  "ahn": 111,
+  "media": 0
+ },
+ "pauli-tomljanovic": {
+  "state": "line",
+  "ahn": 222,
+  "media": 0
+ },
+ "joannis-georgius-georgio-uroda": {
+  "state": "read",
+  "ahn": 54,
+  "media": 1
+ },
+ "anton-joanis-uroda": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
+ "matia-mathiam-georgiam-uroda": {
+  "state": "read",
+  "ahn": 27,
+  "media": 1
+ },
+ "georgi-uroda": {
+  "state": "read",
+  "ahn": 108,
+  "media": 0
+ },
+ "maria-uroda": {
+  "state": "read",
+  "ahn": 109,
+  "media": 0
+ },
  "ana-vukelic": {
   "state": "tree",
   "ahn": null,
@@ -4264,6 +5349,61 @@
   "ahn": null,
   "media": 0
  },
+ "margaritte-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "stanislava-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mathea-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "kate-spalj-spalj": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
+ "ana-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-pepica-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "mile-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "jure-milkan-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "klara-spalj-spalj": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "martin-spalj-spalj": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
+ "lucija-spalj-spalj": {
+  "state": "read",
+  "ahn": null,
+  "media": 0
+ },
  "mihovil-zubrinic": {
   "state": "tree",
   "ahn": null,
@@ -4275,6 +5415,16 @@
   "media": 0
  },
  "jure-zubrinic": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "branko-zupan": {
+  "state": "tree",
+  "ahn": null,
+  "media": 0
+ },
+ "marija-zupan": {
   "state": "tree",
   "ahn": null,
   "media": 0
@@ -6147,266 +7297,6 @@
  "joannes-zubrinic-zubrinic-xubrinich": {
   "state": "tree",
   "ahn": null,
-  "media": 0
- },
- "tereza-pecanic": {
-  "state": "read",
-  "ahn": 9,
-  "media": 4
- },
- "ana-shambul-maric": {
-  "state": "read",
-  "ahn": 11,
-  "media": 0
- },
- "georgius-juraj-joannis-papa-antic-papic": {
-  "state": "read",
-  "ahn": 12,
-  "media": 1
- },
- "matia-matthea-pilipic": {
-  "state": "read",
-  "ahn": 13,
-  "media": 2
- },
- "lucia": {
-  "state": "read",
-  "ahn": 15,
-  "media": 2
- },
- "maria-catharina-oreskovic-oreskovic": {
-  "state": "disputed",
-  "ahn": 21,
-  "media": 4
- },
- "shambul-maric": {
-  "state": "line",
-  "ahn": 22,
-  "media": 0
- },
- "josephum-antic": {
-  "state": "read",
-  "ahn": 24,
-  "media": 2
- },
- "maria-jellicic": {
-  "state": "read",
-  "ahn": 25,
-  "media": 2
- },
- "vicentius-andreas-vincent-pilipic": {
-  "state": "read",
-  "ahn": 26,
-  "media": 0
- },
- "matia-mathiam-georgiam-uroda": {
-  "state": "read",
-  "ahn": 27,
-  "media": 1
- },
- "marija-findric": {
-  "state": "read",
-  "ahn": 41,
-  "media": 0
- },
- "marcus-oreskovic-oreskovic": {
-  "state": "read",
-  "ahn": 42,
-  "media": 1
- },
- "lucia-sekula": {
-  "state": "read",
-  "ahn": 43,
-  "media": 1
- },
- "joannis-antic": {
-  "state": "read",
-  "ahn": 48,
-  "media": 2
- },
- "margarita-martha-loncaric": {
-  "state": "read",
-  "ahn": 49,
-  "media": 2
- },
- "georgi-juraj-jellicic": {
-  "state": "read",
-  "ahn": 50,
-  "media": 1
- },
- "margarita-brozovic": {
-  "state": "read",
-  "ahn": 51,
-  "media": 1
- },
- "josephus-josip-pilipic": {
-  "state": "read",
-  "ahn": 52,
-  "media": 1
- },
- "oliva-maria-smojver": {
-  "state": "read",
-  "ahn": 53,
-  "media": 1
- },
- "joannis-georgius-georgio-uroda": {
-  "state": "read",
-  "ahn": 54,
-  "media": 1
- },
- "mariam-gerkacs-gergacs": {
-  "state": "read",
-  "ahn": 55,
-  "media": 1
- },
- "vitus-sekula": {
-  "state": "line",
-  "ahn": 84,
-  "media": 0
- },
- "maria-2": {
-  "state": "line",
-  "ahn": 85,
-  "media": 0
- },
- "michael-michaelis-sekula": {
-  "state": "line",
-  "ahn": 86,
-  "media": 0
- },
- "maria": {
-  "state": "line",
-  "ahn": 87,
-  "media": 0
- },
- "joannis-antic-2": {
-  "state": "line",
-  "ahn": 96,
-  "media": 0
- },
- "ursula": {
-  "state": "line",
-  "ahn": 97,
-  "media": 0
- },
- "pauli-loncaric": {
-  "state": "line",
-  "ahn": 98,
-  "media": 0
- },
- "mathia-jellicic": {
-  "state": "line",
-  "ahn": 100,
-  "media": 0
- },
- "margarita": {
-  "state": "line",
-  "ahn": 101,
-  "media": 0
- },
- "joanni-brozovic": {
-  "state": "line",
-  "ahn": 102,
-  "media": 0
- },
- "catharina-2": {
-  "state": "line",
-  "ahn": 103,
-  "media": 0
- },
- "jacob-pilipic": {
-  "state": "read",
-  "ahn": 104,
-  "media": 0
- },
- "catherina-catta-luckinic": {
-  "state": "read",
-  "ahn": 105,
-  "media": 0
- },
- "vicentius-fabiano-smojver-vukic": {
-  "state": "read",
-  "ahn": 106,
-  "media": 1
- },
- "oliva-andreana-bacchi": {
-  "state": "read",
-  "ahn": 107,
-  "media": 0
- },
- "georgi-uroda": {
-  "state": "read",
-  "ahn": 108,
-  "media": 0
- },
- "maria-uroda": {
-  "state": "read",
-  "ahn": 109,
-  "media": 0
- },
- "michaeli-michaele-gerkacs-gergacs": {
-  "state": "read",
-  "ahn": 110,
-  "media": 0
- },
- "lucia-maja-tomljanovic": {
-  "state": "read",
-  "ahn": 111,
-  "media": 0
- },
- "vicentius-vicko-luckinic": {
-  "state": "line",
-  "ahn": 210,
-  "media": 0
- },
- "maria-luckinic": {
-  "state": "line",
-  "ahn": 211,
-  "media": 0
- },
- "josiph-smojver-vukic": {
-  "state": "read",
-  "ahn": 212,
-  "media": 0
- },
- "antonia-pekass-pekkas": {
-  "state": "read",
-  "ahn": 213,
-  "media": 0
- },
- "caetano-bacchi": {
-  "state": "disputed",
-  "ahn": 214,
-  "media": 1
- },
- "nicolaus-gerkacs": {
-  "state": "read",
-  "ahn": 220,
-  "media": 0
- },
- "pauli-tomljanovic": {
-  "state": "line",
-  "ahn": 222,
-  "media": 0
- },
- "simoni-pekass-pekkas": {
-  "state": "line",
-  "ahn": 426,
-  "media": 0
- },
- "mara-maria-pekass": {
-  "state": "line",
-  "ahn": 427,
-  "media": 0
- },
- "angelo-bacchi": {
-  "state": "disputed",
-  "ahn": 428,
-  "media": 0
- },
- "catharina": {
-  "state": "read",
-  "ahn": 429,
   "media": 0
  }
 }

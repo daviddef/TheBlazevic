@@ -1,18 +1,18 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 112,
-  "people": 84,
-  "derived": 44,
-  "onDirectLine": 35,
-  "indexOnly": 11,
-  "earliest": 1754,
+  "rows": 119,
+  "people": 90,
+  "derived": 50,
+  "onDirectLine": 0,
+  "indexOnly": 18,
+  "earliest": 1725,
   "latest": 2005
  },
  "kinds": [
   [
    "baptism",
-   39
+   42
   ],
   [
    "death",
@@ -20,15 +20,15 @@
   ],
   [
    "baptism-of-child",
-   16
+   17
   ],
   [
    "marriage-of-child",
-   12
+   14
   ],
   [
    "marriage",
-   11
+   12
   ],
   [
    "grave",
@@ -58,6 +58,20 @@
  "rows": [
   {
    "kind": "baptism",
+   "year": "1725",
+   "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": true,
+   "slug": "mare-luckinic",
+   "name": "Mare Luckinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
    "year": "1754",
    "cite": "Karlobag, 18 January 1754",
    "derived": false,
@@ -68,7 +82,7 @@
    "indexOnly": false,
    "slug": "vicentius-fabiano-smojver-vukic",
    "name": "Vicentius Fabiano Smojver Vukić",
-   "ahn": 106
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -82,7 +96,7 @@
    "indexOnly": true,
    "slug": "josephus-josip-pilipic",
    "name": "Josephus (Josip) Pilipic",
-   "ahn": 52
+   "ahn": null
   },
   {
    "kind": "death",
@@ -96,7 +110,7 @@
    "indexOnly": false,
    "slug": "josiph-smojver-vukic",
    "name": "Josiph Smojver Vukić",
-   "ahn": 212
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -110,7 +124,7 @@
    "indexOnly": false,
    "slug": "joannis-georgius-georgio-uroda",
    "name": "Joannis Georgius (Georgio) Uroda",
-   "ahn": 54
+   "ahn": null
   },
   {
    "kind": "death",
@@ -124,7 +138,7 @@
    "indexOnly": false,
    "slug": "jacob-pilipic",
    "name": "Jacob Pilipic",
-   "ahn": 104
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -138,7 +152,21 @@
    "indexOnly": false,
    "slug": "caetano-bacchi",
    "name": "Caetano Bacchi",
-   "ahn": 214
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1780",
+   "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+   "indexOnly": true,
+   "slug": "anton-joanis-uroda",
+   "name": "Anton Joanis Uroda",
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -152,7 +180,7 @@
    "indexOnly": false,
    "slug": "oliva-andreana-bacchi",
    "name": "Oliva Andreana Bacchi",
-   "ahn": 107
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -166,7 +194,7 @@
    "indexOnly": false,
    "slug": "oliva-maria-smojver",
    "name": "Oliva Maria Smojver",
-   "ahn": 53
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -180,7 +208,7 @@
    "indexOnly": false,
    "slug": "vicentius-fabiano-smojver-vukic",
    "name": "Vicentius Fabiano Smojver Vukić",
-   "ahn": 106
+   "ahn": null
   },
   {
    "kind": "death",
@@ -194,7 +222,7 @@
    "indexOnly": false,
    "slug": "nicolaus-gerkacs",
    "name": "Nicolaus Gerkacs",
-   "ahn": 220
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -208,7 +236,7 @@
    "indexOnly": true,
    "slug": "mariam-gerkacs-gergacs",
    "name": "Mariam Gerkacs (Gergacs)",
-   "ahn": 55
+   "ahn": null
   },
   {
    "kind": "death",
@@ -222,7 +250,7 @@
    "indexOnly": false,
    "slug": "catherina-catta-luckinic",
    "name": "Catherina (Catta) Luckinić",
-   "ahn": 105
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -236,7 +264,7 @@
    "indexOnly": false,
    "slug": "joannis-antic",
    "name": "Joannis Antić",
-   "ahn": 48
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -250,7 +278,7 @@
    "indexOnly": false,
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24
+   "ahn": null
   },
   {
    "kind": "parish-identified",
@@ -264,7 +292,7 @@
    "indexOnly": false,
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -278,7 +306,7 @@
    "indexOnly": false,
    "slug": "margarita-martha-loncaric",
    "name": "Margarita (Martha) Lončarić",
-   "ahn": 49
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -292,7 +320,7 @@
    "indexOnly": false,
    "slug": "georgi-uroda",
    "name": "Georgi Uroda",
-   "ahn": 108
+   "ahn": null
   },
   {
    "kind": "marriage",
@@ -306,7 +334,7 @@
    "indexOnly": false,
    "slug": "joannis-georgius-georgio-uroda",
    "name": "Joannis Georgius (Georgio) Uroda",
-   "ahn": 54
+   "ahn": null
   },
   {
    "kind": "marriage",
@@ -320,7 +348,7 @@
    "indexOnly": false,
    "slug": "mariam-gerkacs-gergacs",
    "name": "Mariam Gerkacs (Gergacs)",
-   "ahn": 55
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -334,7 +362,7 @@
    "indexOnly": false,
    "slug": "michaeli-michaele-gerkacs-gergacs",
    "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
-   "ahn": 110
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -348,7 +376,7 @@
    "indexOnly": false,
    "slug": "georgi-juraj-jellicic",
    "name": "Georgi Juraj Jelličić",
-   "ahn": 50
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -362,7 +390,7 @@
    "indexOnly": false,
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
-   "ahn": 51
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -376,7 +404,7 @@
    "indexOnly": false,
    "slug": "maria-jellicic",
    "name": "Maria Jelličić",
-   "ahn": 25
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -390,7 +418,7 @@
    "indexOnly": false,
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
-   "ahn": 27
+   "ahn": null
   },
   {
    "kind": "death",
@@ -404,7 +432,7 @@
    "indexOnly": false,
    "slug": "joannis-antic",
    "name": "Joannis Antić",
-   "ahn": 48
+   "ahn": null
   },
   {
    "kind": "death",
@@ -418,7 +446,7 @@
    "indexOnly": false,
    "slug": "margarita-martha-loncaric",
    "name": "Margarita (Martha) Lončarić",
-   "ahn": 49
+   "ahn": null
   },
   {
    "kind": "death",
@@ -432,7 +460,7 @@
    "indexOnly": false,
    "slug": "georgi-juraj-jellicic",
    "name": "Georgi Juraj Jelličić",
-   "ahn": 50
+   "ahn": null
   },
   {
    "kind": "named-as-spouse",
@@ -446,7 +474,7 @@
    "indexOnly": false,
    "slug": "joannis-georgius-georgio-uroda",
    "name": "Joannis Georgius (Georgio) Uroda",
-   "ahn": 54
+   "ahn": null
   },
   {
    "kind": "death",
@@ -460,7 +488,7 @@
    "indexOnly": false,
    "slug": "mariam-gerkacs-gergacs",
    "name": "Mariam Gerkacs (Gergacs)",
-   "ahn": 55
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -474,7 +502,7 @@
    "indexOnly": false,
    "slug": "georgi-juraj-jellicic",
    "name": "Georgi Juraj Jelličić",
-   "ahn": 50
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -488,7 +516,7 @@
    "indexOnly": false,
    "slug": "joannis-antic",
    "name": "Joannis Antić",
-   "ahn": 48
+   "ahn": null
   },
   {
    "kind": "marriage",
@@ -502,7 +530,7 @@
    "indexOnly": false,
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -516,7 +544,7 @@
    "indexOnly": false,
    "slug": "lucia-sekula",
    "name": "Lucia Sekula",
-   "ahn": 43
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -530,7 +558,7 @@
    "indexOnly": false,
    "slug": "marcus-oreskovic-oreskovic",
    "name": "Marcus Orešković Oreskovic",
-   "ahn": 42
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -544,7 +572,7 @@
    "indexOnly": false,
    "slug": "margarita-martha-loncaric",
    "name": "Margarita (Martha) Lončarić",
-   "ahn": 49
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -558,7 +586,7 @@
    "indexOnly": false,
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
-   "ahn": 51
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -572,7 +600,7 @@
    "indexOnly": false,
    "slug": "maria-catharina-oreskovic-oreskovic",
    "name": "Maria Catharina Orešković Oreskovic",
-   "ahn": 21
+   "ahn": null
   },
   {
    "kind": "marriage",
@@ -586,7 +614,7 @@
    "indexOnly": false,
    "slug": "maria-jellicic",
    "name": "Maria Jelličić",
-   "ahn": 25
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -600,7 +628,7 @@
    "indexOnly": false,
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
-   "ahn": 12
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -614,7 +642,7 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
-   "ahn": 13
+   "ahn": null
   },
   {
    "kind": "death",
@@ -642,7 +670,7 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
-   "ahn": 26
+   "ahn": null
   },
   {
    "kind": "death",
@@ -656,7 +684,7 @@
    "indexOnly": false,
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
-   "ahn": 51
+   "ahn": null
   },
   {
    "kind": "census",
@@ -670,7 +698,7 @@
    "indexOnly": false,
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
-   "ahn": 27
+   "ahn": null
   },
   {
    "kind": "census",
@@ -684,7 +712,7 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
-   "ahn": 13
+   "ahn": null
   },
   {
    "kind": "census",
@@ -698,7 +726,7 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
-   "ahn": 26
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -730,6 +758,20 @@
   },
   {
    "kind": "baptism",
+   "year": "1847",
+   "cite": "Selce, 4 October 1847 — INDEX ONLY, father «Josephus Antic», mother «Maria Jellicic»; ark 3:1:3QS7-899C-596Z-7. She stood in found.psv as «daughter of ahnentafel 24 and 25, sister of ahnentafel 12», and foundcheck settled her on the grounds that «ahnentafel 24 has no children published at all, so there is nothing to match her against». He has one now — her",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+   "indexOnly": true,
+   "slug": "maria-rosaria-antic",
+   "name": "Maria Rosaria Antić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
    "year": "1848",
    "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
    "derived": false,
@@ -754,7 +796,7 @@
    "indexOnly": false,
    "slug": "marija-findric",
    "name": "Marija Findrić",
-   "ahn": 41
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -796,7 +838,7 @@
    "indexOnly": false,
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -866,7 +908,7 @@
    "indexOnly": false,
    "slug": "ana-shambul-maric",
    "name": "Ana Shambul Marić",
-   "ahn": 11
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -880,7 +922,7 @@
    "indexOnly": false,
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
-   "ahn": 12
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -908,7 +950,7 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
-   "ahn": 13
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -922,7 +964,7 @@
    "indexOnly": false,
    "slug": "ana-shambul-maric",
    "name": "Ana Shambul Marić",
-   "ahn": 11
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -1006,7 +1048,7 @@
    "indexOnly": false,
    "slug": "georgi-juraj-jellicic",
    "name": "Georgi Juraj Jelličić",
-   "ahn": 50
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -1034,7 +1076,7 @@
    "indexOnly": false,
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24
+   "ahn": null
   },
   {
    "kind": "death",
@@ -1048,7 +1090,7 @@
    "indexOnly": false,
    "slug": "maria-jellicic",
    "name": "Maria Jelličić",
-   "ahn": 25
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -1062,7 +1104,7 @@
    "indexOnly": false,
    "slug": "tereza-pecanic",
    "name": "Tereza Pećanić",
-   "ahn": 9
+   "ahn": null
   },
   {
    "kind": "baptism-of-child",
@@ -1118,7 +1160,7 @@
    "indexOnly": false,
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
-   "ahn": 12
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -1132,7 +1174,7 @@
    "indexOnly": false,
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
-   "ahn": 12
+   "ahn": null
   },
   {
    "kind": "marriage-of-child",
@@ -1188,7 +1230,7 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
-   "ahn": 13
+   "ahn": null
   },
   {
    "kind": "death",
@@ -1202,7 +1244,7 @@
    "indexOnly": false,
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
-   "ahn": 27
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -1230,7 +1272,7 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
-   "ahn": 26
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -1272,6 +1314,34 @@
    "indexOnly": true,
    "slug": "josip-papic",
    "name": "Josip Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1891",
+   "cite": "named as mother, «Angelica Boras», at the baptism of her son Antonius Joannes Kosina — born 13 May 1891, baptised 15 June 1891; ark 1:1:X9DP-3YJQ. INDEX ONLY. The place string is the LATIN «Senia, Lika-Korbava megye» and not «Senj», which is why every search of this parish had missed this family",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": true,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1891",
+   "cite": "named as mother, «Andelika Boras», at her son Antun's marriage to «Anka Kasuniž» b.1893 — whose own parents the entry gives as «Petar Kasuniž» and «Marija Turina»; ark 1:1:X9D5-MWF2. INDEX ONLY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": true,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
    "ahn": null
   },
   {
@@ -1342,7 +1412,7 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
-   "ahn": 26
+   "ahn": null
   },
   {
    "kind": "baptism",
@@ -1412,7 +1482,7 @@
    "indexOnly": false,
    "slug": "tereza-pecanic",
    "name": "Tereza Pećanić",
-   "ahn": 9
+   "ahn": null
   },
   {
    "kind": "death",
@@ -1454,6 +1524,34 @@
    "indexOnly": false,
    "slug": "antonija-blazevic",
    "name": "Antonija Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1919",
+   "cite": "named as mother, «Andjelika Boras», at her son Pavao's marriage to Anka Blažević; ark 1:1:X9D5-MWXX. INDEX ONLY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": true,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1919",
+   "cite": "Senj — INDEX ONLY, her marriage to «Pavao Kosina» b.1894, of «Martin Kosina» and «Andjelika Boras»; she is entered b.1893, of «Juraj Blažević» and «Tereza Žubrinić»; ark 1:1:X9D5-MWXX. Hungary, Croatia-Slavonia, Marriages 1678-1927. The index confirms the join to ahnentafel 4 and 5 independently of the tree",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": true,
+   "slug": "anka-blazevic",
+   "name": "Anka Blažević",
    "ahn": null
   },
   {
@@ -1629,7 +1727,7 @@
   "josephum-antic": {
    "slug": "josephum-antic",
    "name": "Josephum Antić",
-   "ahn": 24,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -1696,15 +1794,26 @@
      "where": "notes/selce-1838-baptism.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Selce, 4 October 1847 — INDEX ONLY, father «Josephus Antic», mother «Maria Jellicic»; ark 3:1:3QS7-899C-596Z-7. She stood in found.psv as «daughter of ahnentafel 24 and 25, sister of ahnentafel 12», and foundcheck settled her on the grounds that «ahnentafel 24 has no children published at all, so there is nothing to match her against». He has one now — her",
+     "derived": true,
+     "via": "maria-rosaria-antic",
+     "viaName": "Maria Rosaria Antić",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
     }
    ],
    "direct": 5,
-   "derived": 1
+   "derived": 2
   },
   "joannis-antic": {
    "slug": "joannis-antic",
    "name": "Joannis Antić",
-   "ahn": 48,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -1746,7 +1855,7 @@
   "margarita-martha-loncaric": {
    "slug": "margarita-martha-loncaric",
    "name": "Margarita (Martha) Lončarić",
-   "ahn": 49,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -1788,7 +1897,7 @@
   "maria-jellicic": {
    "slug": "maria-jellicic",
    "name": "Maria Jelličić",
-   "ahn": 25,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -1833,15 +1942,26 @@
      "where": "notes/selce-1838-baptism.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Selce, 4 October 1847 — INDEX ONLY, father «Josephus Antic», mother «Maria Jellicic»; ark 3:1:3QS7-899C-596Z-7. She stood in found.psv as «daughter of ahnentafel 24 and 25, sister of ahnentafel 12», and foundcheck settled her on the grounds that «ahnentafel 24 has no children published at all, so there is nothing to match her against». He has one now — her",
+     "derived": true,
+     "via": "maria-rosaria-antic",
+     "viaName": "Maria Rosaria Antić",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
     }
    ],
    "direct": 3,
-   "derived": 1
+   "derived": 2
   },
   "georgi-juraj-jellicic": {
    "slug": "georgi-juraj-jellicic",
    "name": "Georgi Juraj Jelličić",
-   "ahn": 50,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -1894,7 +2014,7 @@
   "margarita-brozovic": {
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
-   "ahn": 51,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -1936,7 +2056,7 @@
   "matia-mathiam-georgiam-uroda": {
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
-   "ahn": 27,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -1989,7 +2109,7 @@
   "matia-matthea-pilipic": {
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
-   "ahn": 13,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2042,7 +2162,7 @@
   "vicentius-andreas-vincent-pilipic": {
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
-   "ahn": 26,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2095,7 +2215,7 @@
   "georgius-juraj-joannis-papa-antic-papic": {
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
-   "ahn": 12,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2179,7 +2299,7 @@
   "marcus-oreskovic-oreskovic": {
    "slug": "marcus-oreskovic-oreskovic",
    "name": "Marcus Orešković Oreskovic",
-   "ahn": 42,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2199,7 +2319,7 @@
   "lucia-sekula": {
    "slug": "lucia-sekula",
    "name": "Lucia Sekula",
-   "ahn": 43,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2219,7 +2339,7 @@
   "vicentius-fabiano-smojver-vukic": {
    "slug": "vicentius-fabiano-smojver-vukic",
    "name": "Vicentius Fabiano Smojver Vukić",
-   "ahn": 106,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2250,7 +2370,7 @@
   "caetano-bacchi": {
    "slug": "caetano-bacchi",
    "name": "Caetano Bacchi",
-   "ahn": 214,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2270,7 +2390,7 @@
   "mariam-gerkacs-gergacs": {
    "slug": "mariam-gerkacs-gergacs",
    "name": "Mariam Gerkacs (Gergacs)",
-   "ahn": 55,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2323,7 +2443,7 @@
   "joannis-georgius-georgio-uroda": {
    "slug": "joannis-georgius-georgio-uroda",
    "name": "Joannis Georgius (Georgio) Uroda",
-   "ahn": 54,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2416,7 +2536,7 @@
   "ana-shambul-maric": {
    "slug": "ana-shambul-maric",
    "name": "Ana Shambul Marić",
-   "ahn": 11,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2509,7 +2629,7 @@
   "tereza-pecanic": {
    "slug": "tereza-pecanic",
    "name": "Tereza Pećanić",
-   "ahn": 9,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2808,7 +2928,7 @@
   "georgi-uroda": {
    "slug": "georgi-uroda",
    "name": "Georgi Uroda",
-   "ahn": 108,
+   "ahn": null,
    "rows": [
     {
      "kind": "marriage-of-child",
@@ -2831,15 +2951,26 @@
      "where": "notes/uroda-generation-found.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1780",
+     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "derived": true,
+     "via": "anton-joanis-uroda",
+     "viaName": "Anton Joanis Uroda",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
     }
    ],
    "direct": 1,
-   "derived": 1
+   "derived": 2
   },
   "michaeli-michaele-gerkacs-gergacs": {
    "slug": "michaeli-michaele-gerkacs-gergacs",
    "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
-   "ahn": 110,
+   "ahn": null,
    "rows": [
     {
      "kind": "marriage-of-child",
@@ -2870,7 +3001,7 @@
   "oliva-maria-smojver": {
    "slug": "oliva-maria-smojver",
    "name": "Oliva Maria Smojver",
-   "ahn": 53,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -2890,7 +3021,7 @@
   "oliva-andreana-bacchi": {
    "slug": "oliva-andreana-bacchi",
    "name": "Oliva Andreana Bacchi",
-   "ahn": 107,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism-of-child",
@@ -2941,7 +3072,7 @@
   "marija-findric": {
    "slug": "marija-findric",
    "name": "Marija Findrić",
-   "ahn": 41,
+   "ahn": null,
    "rows": [
     {
      "kind": "death",
@@ -2961,7 +3092,7 @@
   "jacob-pilipic": {
    "slug": "jacob-pilipic",
    "name": "Jacob Pilipic",
-   "ahn": 104,
+   "ahn": null,
    "rows": [
     {
      "kind": "death",
@@ -2992,7 +3123,7 @@
   "josiph-smojver-vukic": {
    "slug": "josiph-smojver-vukic",
    "name": "Josiph Smojver Vukić",
-   "ahn": 212,
+   "ahn": null,
    "rows": [
     {
      "kind": "death",
@@ -3224,7 +3355,7 @@
   "nicolaus-gerkacs": {
    "slug": "nicolaus-gerkacs",
    "name": "Nicolaus Gerkacs",
-   "ahn": 220,
+   "ahn": null,
    "rows": [
     {
      "kind": "death",
@@ -3244,7 +3375,7 @@
   "catherina-catta-luckinic": {
    "slug": "catherina-catta-luckinic",
    "name": "Catherina (Catta) Luckinić",
-   "ahn": 105,
+   "ahn": null,
    "rows": [
     {
      "kind": "death",
@@ -3415,7 +3546,7 @@
   "josephus-josip-pilipic": {
    "slug": "josephus-josip-pilipic",
    "name": "Josephus (Josip) Pilipic",
-   "ahn": 52,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -3455,7 +3586,7 @@
   "maria-catharina-oreskovic-oreskovic": {
    "slug": "maria-catharina-oreskovic-oreskovic",
    "name": "Maria Catharina Orešković Oreskovic",
-   "ahn": 21,
+   "ahn": null,
    "rows": [
     {
      "kind": "baptism",
@@ -3578,6 +3709,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1919",
+     "cite": "Senj — INDEX ONLY, her marriage to «Pavao Kosina» b.1894, of «Martin Kosina» and «Andjelika Boras»; she is entered b.1893, of «Juraj Blažević» and «Tereza Žubrinić»; ark 1:1:X9D5-MWXX. Hungary, Croatia-Slavonia, Marriages 1678-1927. The index confirms the join to ahnentafel 4 and 5 independently of the tree",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    },
+    {
      "kind": "grave",
      "year": "1953",
      "cite": "The Kosina grave at Senj — «KOSINA · KRIŽAN · ANKA», Anka «✻?.X.1893 †6.IX.1953», where the tree carried only the year. The same stone gives her husband Pavao «pog. 8.X.1943 — Nevina žrtva zračnog napadaja na Senj». Her birth month on the stone is cracked and ivy-covered and is NOT legible enough to contradict her 1919 marriage entry",
@@ -3589,7 +3731,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "ana-kalanj": {
@@ -3712,10 +3854,112 @@
    "direct": 1,
    "derived": 0
   },
+  "angelika-boras": {
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1891",
+     "cite": "named as mother, «Angelica Boras», at the baptism of her son Antonius Joannes Kosina — born 13 May 1891, baptised 15 June 1891; ark 1:1:X9DP-3YJQ. INDEX ONLY. The place string is the LATIN «Senia, Lika-Korbava megye» and not «Senj», which is why every search of this parish had missed this family",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1891",
+     "cite": "named as mother, «Andelika Boras», at her son Antun's marriage to «Anka Kasuniž» b.1893 — whose own parents the entry gives as «Petar Kasuniž» and «Marija Turina»; ark 1:1:X9D5-MWF2. INDEX ONLY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1919",
+     "cite": "named as mother, «Andjelika Boras», at her son Pavao's marriage to Anka Blažević; ark 1:1:X9D5-MWXX. INDEX ONLY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 3,
+   "derived": 0
+  },
+  "mare-luckinic": {
+   "slug": "mare-luckinic",
+   "name": "Mare Luckinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1725",
+     "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anton-joanis-uroda": {
+   "slug": "anton-joanis-uroda",
+   "name": "Anton Joanis Uroda",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1780",
+     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-rosaria-antic": {
+   "slug": "maria-rosaria-antic",
+   "name": "Maria Rosaria Antić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Selce, 4 October 1847 — INDEX ONLY, father «Josephus Antic», mother «Maria Jellicic»; ark 3:1:3QS7-899C-596Z-7. She stood in found.psv as «daughter of ahnentafel 24 and 25, sister of ahnentafel 12», and foundcheck settled her on the grounds that «ahnentafel 24 has no children published at all, so there is nothing to match her against». He has one now — her",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
-   "ahn": 213,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -3735,7 +3979,7 @@
   "angelo-bacchi": {
    "slug": "angelo-bacchi",
    "name": "Angelo Bacchi",
-   "ahn": 428,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -3755,7 +3999,7 @@
   "catharina": {
    "slug": "catharina",
    "name": "Catharina",
-   "ahn": 429,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -3775,7 +4019,7 @@
   "maria-uroda": {
    "slug": "maria-uroda",
    "name": "Maria Uroda",
-   "ahn": 109,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -3787,10 +4031,21 @@
      "where": "notes/uroda-generation-found.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1780",
+     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "derived": true,
+     "via": "anton-joanis-uroda",
+     "viaName": "Anton Joanis Uroda",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": true
     }
    ],
    "direct": 0,
-   "derived": 1
+   "derived": 2
   },
   "michael-miho-micha-l-zubrinic-xubrinic": {
    "slug": "michael-miho-micha-l-zubrinic-xubrinic",
@@ -3957,7 +4212,7 @@
   "lucia-maja-tomljanovic": {
    "slug": "lucia-maja-tomljanovic",
    "name": "Lucia (Maja) Tomljanović",
-   "ahn": 111,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -3997,7 +4252,7 @@
   "lucia": {
    "slug": "lucia",
    "name": "Lucia \"Luca\"",
-   "ahn": 15,
+   "ahn": null,
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
@@ -4093,6 +4348,46 @@
      "where": "site/src/data/corrections.json",
      "href": "",
      "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "vicentius-vicko-luckinic": {
+   "slug": "vicentius-vicko-luckinic",
+   "name": "Vicentius (Vicko) Luckinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1725",
+     "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
+     "derived": true,
+     "via": "mare-luckinic",
+     "viaName": "Mare Luckinić",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-luckinic": {
+   "slug": "maria-luckinic",
+   "name": "Maria Luckinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1725",
+     "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
+     "derived": true,
+     "via": "mare-luckinic",
+     "viaName": "Mare Luckinić",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
     }
    ],
    "direct": 0,

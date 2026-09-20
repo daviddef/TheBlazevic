@@ -8,7 +8,7 @@ publishable; anything filtered out here never enters the build at all.
 import json, os, re, collections, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gedcom import load, display, born, died, year, ev, classify_living
-from ancestry import ancestors, gen_of, fold, SURNAMES, ROOT_PERSON
+from ancestry import ancestors, gen_of, fold, kindred, SURNAMES, ROOT_PERSON
 
 LIVING = {}
 def is_living(p): return LIVING.get(p["id"], True)
@@ -262,8 +262,16 @@ def main():
     # Slugs must exist for everybody the build will emit *before* relationships
     # are written, or a parent link points at a page that has no slug yet.
     keys_all = {k for ks in SURNAMES.values() for k in ks}
+    # BLOOD IS PUBLISHED, NOT ONLY THE NAME. Until 21 September 2026 the test was
+    # «is the surname one of the eight», which is how a family is FILED and not
+    # what a family IS. Hedviga's aunt married a Kosina and her five children —
+    # Hedviga's first cousins — appeared nowhere, because a daughter's children
+    # take their father's name. Across the tree that hid 258 blood relatives,
+    # 234 of them publishable. See ancestry.kindred().
+    BLOOD = kindred(people, families, HEDVIGA)
     emitted = set(by_ahn_ids(people, families)) | {
-        pid for pid, p in pub.items() if fold(p["surname"]) in keys_all}
+        pid for pid, p in pub.items()
+        if fold(p["surname"]) in keys_all or pid in BLOOD}
     for pid in sorted(emitted):
         if pid in pub:
             SLUGS[pid] = slug(pub[pid])
@@ -291,8 +299,8 @@ def main():
     # ---- the register ------------------------------------------------------
     keys = keys_all
     reg = []
-    for p in pub.values():
-        if fold(p["surname"]) not in keys:
+    for pid, p in pub.items():
+        if fold(p["surname"]) not in keys and pid not in BLOOD:
             continue
         r = person(p)
         r["rel"] = relations(p, people, families)

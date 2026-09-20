@@ -43,6 +43,32 @@ FOUND = os.path.join(ROOT, "sources", "found.psv")
 # Rows that have been looked at by a person and settled. A found.psv row is
 # listed here with the reason it is NOT the tree person it resembles.
 SETTLED = {
+    # A SETTLE CAN GO STALE, and one did on 21 September 2026. «Maria Rosaria
+    # Antic» was settled on the grounds that «ahnentafel 24 has no children
+    # published at all, so there is nothing to match her against» — which was
+    # true when it was written and stopped being true the moment this archive
+    # began publishing blood rather than surnames. She IS his published
+    # daughter. The entry is gone and she is a reading. A settle that names the
+    # STATE OF THE ARCHIVE rather than a fact about the people has a shelf life.
+    # The four below arrived on 21 September with the Kosina research. Every one
+    # resembles somebody only in a GIVEN NAME and a year; not one shares a
+    # surname or a parent, which is the test this file applies everywhere else.
+    "Marija Kosina":
+        "resembles Marija Anka Kalanj 1897 and Marija Papić 1896 on a given name "
+        "and a year. Different surname and different parents — hers are Martin "
+        "Kosina and Angelika Boras, and she was buried in the year she was born",
+    "Josip Kosina":
+        "three Josip Pavelići and a Josip Perpić of 1895-96 share the given name "
+        "and nothing else. His parents are Martin Kosina and Angelika Boras, and "
+        "like his sister Marija he was buried in the year he was born",
+    "Petar Kasuniž":
+        "the 1891 on this row is the year of the MARRIAGE at which he is named as "
+        "the bride's father, not his own birth — he will have been born around "
+        "1860. Petar Kalanj 1890 is a different surname and an infant at the time",
+    "Marija Turina":
+        "the same: 1891 is the marriage she is named at, not her birth. The "
+        "candidates are four women born about 1890 with a different surname, and "
+        "one of them is her own daughter's generation",
     "Maria Magdalena Theresia Žubrinić":
         "resembles Maria Magdalena Žubrinić 1845 and Maria Žubrinić 1847, but "
         "neither has Maria Marković as a mother — the parents are the test and "
@@ -55,9 +81,6 @@ SETTLED = {
         "one year apart. Different surname, and a different father — Joannes "
         "Perpić of Krivi Put against Ivan Kalanj. The parents are the test and "
         "they fail it",
-    "Maria Rosaria Antic":
-        "ahnentafel 24 has no children published at all, so there is nothing "
-        "to match her against; the name-and-year candidates are other families",
     "Matilda Papić":
         "she IS probably in the tree, as Franka or Sulka Papić, both born 1895 "
         "with no death recorded. That is the open question the row exists to "

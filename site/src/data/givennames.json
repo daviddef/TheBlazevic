@@ -336,67 +336,72 @@
  },
  "observed": {
   "marija": {
-   "Maria": 54,
-   "Marija": 48,
+   "Maria": 64,
+   "Marija": 56,
    "Mariam": 4,
    "Marica": 1,
+   "Mare": 1,
+   "Mary": 1,
+   "Mara": 1,
    "Marria": 1,
-   "Mara": 1
+   "MARIJA": 1
   },
   "ivan": {
-   "Joannes": 44,
-   "Ivan": 42,
+   "Ivan": 48,
+   "Joannes": 47,
    "Joannis": 11,
+   "John": 3,
    "Joannem": 2,
-   "John": 2,
    "Ive": 1
   },
   "josip": {
-   "Josephus": 29,
-   "Josip": 27,
-   "Joso": 7,
+   "Josephus": 31,
+   "Josip": 28,
+   "Joso": 8,
    "Josephi": 3,
    "Josephum": 2,
    "josip": 1
   },
   "ana": {
-   "Anna": 19,
-   "Ana": 17,
+   "Ana": 23,
+   "Anna": 20,
    "Ane": 8,
+   "Anka": 3,
    "Anica": 2,
-   "Anka": 1,
-   "Agna": 1
+   "Agna": 1,
+   "Annam": 1
   },
   "ante": {
-   "Antonius": 29,
-   "Anton": 15,
+   "Antonius": 30,
+   "Anton": 18,
    "Ante": 1,
    "ante": 1,
+   "Antun": 1,
    "Tone": 1
   },
   "katarina": {
-   "Catharina": 27,
-   "Kate": 6,
+   "Catharina": 29,
+   "Kate": 7,
    "Kata": 5,
    "Katarina": 5,
-   "Katica": 1,
+   "Katica": 3,
    "Catharinam": 1,
    "Catarina": 1
   },
   "franjo": {
-   "Franciscus": 19,
-   "Franjo": 18,
-   "Frane": 4,
+   "Franjo": 20,
+   "Franciscus": 20,
+   "Frane": 5,
    "Franciscum": 2,
    "franjo": 1
   },
   "matija": {
-   "Mate": 14,
+   "Mate": 16,
    "Matthæus": 5,
-   "Mathias": 4,
+   "Mathias": 5,
    "Matia": 4,
+   "Matija": 4,
    "Matthaeus": 4,
-   "Matija": 3,
    "Mathiam": 2,
    "Mathæus": 1,
    "Matthaus": 1,
@@ -404,12 +409,24 @@
    "Matthias": 1
   },
   "mihovil": {
-   "Michael": 23,
+   "Michael": 25,
    "Mihovil": 10,
    "Mijo": 1,
    "Michaelem": 1,
    "Miho": 1,
    "Michaelis": 1
+  },
+  "juraj": {
+   "Jure": 14,
+   "Georgius": 12,
+   "Juraj": 4,
+   "Georgium": 2,
+   "Georgii": 1
+  },
+  "lucija": {
+   "Lucia": 21,
+   "Lucija": 9,
+   "Luca": 2
   },
   "toma": {
    "Thomas": 22,
@@ -420,24 +437,13 @@
   "nikola": {
    "Nikola": 14,
    "Nicolaus": 12,
+   "Miko": 3,
    "Nikula": 1,
    "Nicolai": 1,
    "Nikolas": 1
   },
-  "juraj": {
-   "Georgius": 11,
-   "Jure": 10,
-   "Juraj": 4,
-   "Georgium": 2,
-   "Georgii": 1
-  },
-  "lucija": {
-   "Lucia": 17,
-   "Lucija": 7,
-   "Luca": 1
-  },
   "franciska": {
-   "Francisca": 16,
+   "Francisca": 18,
    "Franciska": 4,
    "Francika": 3,
    "Franka": 1
@@ -449,6 +455,33 @@
    "Joannam": 2,
    "Johanna": 1
   },
+  "magdalena": {
+   "Magdalena": 17,
+   "Mande": 3,
+   "Mandalena": 2
+  },
+  "stjepan": {
+   "Stephanus": 15,
+   "Stjepan": 6,
+   "Stipan": 1
+  },
+  "margarita": {
+   "Marta": 9,
+   "Martha": 6,
+   "Margarita": 4,
+   "Margareta": 2
+  },
+  "antonija": {
+   "Antonija": 10,
+   "Antonia": 8,
+   "Tonica": 2,
+   "Tonka": 1
+  },
+  "petar": {
+   "Petrus": 11,
+   "Petar": 9,
+   "Petrum": 1
+  },
   "pavao": {
    "Paulus": 7,
    "Pavao": 4,
@@ -458,51 +491,25 @@
    "pavao": 1,
    "Paulum": 1
   },
-  "magdalena": {
-   "Magdalena": 16,
-   "Mande": 3,
-   "Mandalena": 2
-  },
-  "stjepan": {
-   "Stephanus": 15,
-   "Stjepan": 5,
-   "Stipan": 1
-  },
-  "petar": {
-   "Petrus": 10,
-   "Petar": 8
-  },
-  "antonija": {
-   "Antonija": 8,
-   "Antonia": 7,
-   "Tonka": 1,
-   "Tonica": 1
-  },
-  "margarita": {
-   "Marta": 6,
-   "Martha": 6,
-   "Margarita": 3,
-   "Margareta": 2
-  },
   "terezija": {
-   "Tereza": 7,
-   "Theresia": 7,
+   "Theresia": 9,
+   "Tereza": 8,
    "Terezija": 1
+  },
+  "luka": {
+   "Lucas": 7,
+   "Luce": 6,
+   "Luka": 3
   },
   "martin": {
    "Martinus": 7,
-   "Martin": 6
+   "Martin": 7
   },
   "jakov": {
-   "Jacobus": 6,
+   "Jacobus": 7,
    "Jakov": 4,
    "Jacobum": 1,
    "Jacob": 1
-  },
-  "luka": {
-   "Lucas": 5,
-   "Luka": 3,
-   "Luce": 3
   },
   "grgur": {
    "Gregorius": 7,
@@ -510,19 +517,19 @@
    "Gregorium": 1,
    "Grga": 1
   },
+  "ilija": {
+   "Ilija": 4,
+   "Elias": 4,
+   "Ilia": 1
+  },
   "vinko": {
    "Vincentius": 4,
    "Vicentius": 3,
    "Vicko": 1,
    "Vinko": 1
   },
-  "ilija": {
-   "Elias": 4,
-   "Ilija": 3,
-   "Ilia": 1
-  },
   "andrija": {
-   "Andreas": 4,
+   "Andreas": 5,
    "Andre": 3,
    "Andrija": 1
   },
@@ -530,6 +537,10 @@
    "Helena": 5,
    "Helenam": 1,
    "Jelena": 1
+  },
+  "bozica": {
+   "Bozica": 3,
+   "bozica": 1
   },
   "blaz": {
    "Blaž": 2,
@@ -539,10 +550,6 @@
    "Paulina": 1,
    "pava": 1,
    "Paula": 1
-  },
-  "bozica": {
-   "Bozica": 2,
-   "bozica": 1
   },
   "simun": {
    "Šimun": 1,

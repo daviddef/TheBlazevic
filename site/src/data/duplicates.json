@@ -935,6 +935,52 @@
   },
   {
    "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "marta",
+   "byear": 1875,
+   "n": 2,
+   "place": "#23 Mrzli Dol",
+   "date": "24 JAN 1875",
+   "ids": [
+    "@I508411@",
+    "@I509774@"
+   ],
+   "names": [
+    "Marta Pavelic",
+    "Marta Pavelic"
+   ],
+   "slugs": [
+    "marta-pavelic",
+    "marta-pavelic-3"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "danica",
+   "byear": 1897,
+   "n": 2,
+   "place": "Mrzli Dol",
+   "date": null,
+   "ids": [
+    "@I508595@",
+    "@I512311@"
+   ],
+   "names": [
+    "Danica Pavelic",
+    "Danica Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "danica-pavelic",
+    "danica-pavelic-blazevic"
+   ],
+   "dyears": [
+    1897
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
    "surname": "sestan",
    "given": "antonius",
    "byear": 1814,
@@ -1393,7 +1439,7 @@
   }
  ],
  "extra": 30,
- "published": 1282,
- "rejected": 31,
+ "published": 1460,
+ "rejected": 33,
  "live": 29
 }

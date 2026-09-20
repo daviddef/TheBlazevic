@@ -1,12 +1,12 @@
 [
  {
   "key": "pilipic",
-  "label": "Pilipić",
+  "label": "Pilipic",
   "spellings": [
-   "Pilipić",
-   "Pilipic"
+   "Pilipic",
+   "Pilipić"
   ],
-  "published": 4,
+  "published": 6,
   "ancestors": [
    {
     "ahn": 13,
@@ -38,11 +38,15 @@
    }
   ],
   "from": 1768,
-  "to": 1838,
+  "to": 1848,
   "places": [
    {
     "place": "Karlobag",
-    "n": 4
+    "n": 5
+   },
+   {
+    "place": "Senj",
+    "n": 1
    }
   ]
  },
@@ -52,7 +56,7 @@
   "spellings": [
    "Uroda"
   ],
-  "published": 4,
+  "published": 5,
   "ancestors": [
    {
     "ahn": 27,
@@ -88,7 +92,7 @@
   "places": [
    {
     "place": "Karlobag",
-    "n": 3
+    "n": 4
    }
   ]
  },
@@ -96,9 +100,10 @@
   "key": "antic",
   "label": "Antić",
   "spellings": [
-   "Antić"
+   "Antić",
+   "Antic"
   ],
-  "published": 3,
+  "published": 5,
   "ancestors": [
    {
     "ahn": 24,
@@ -123,11 +128,11 @@
    }
   ],
   "from": 1739,
-  "to": 1806,
+  "to": 1847,
   "places": [
    {
     "place": "Selce",
-    "n": 3
+    "n": 5
    }
   ]
  },
@@ -135,9 +140,10 @@
   "key": "jellicic",
   "label": "Jelličić",
   "spellings": [
-   "Jelličić"
+   "Jelličić",
+   "Jellicic"
   ],
-  "published": 3,
+  "published": 4,
   "ancestors": [
    {
     "ahn": 25,
@@ -162,11 +168,11 @@
    }
   ],
   "from": 1767,
-  "to": 1809,
+  "to": 1851,
   "places": [
    {
     "place": "Selce",
-    "n": 2
+    "n": 3
    }
   ]
  },
@@ -176,7 +182,7 @@
   "spellings": [
    "Sekula"
   ],
-  "published": 3,
+  "published": 9,
   "ancestors": [
    {
     "ahn": 43,
@@ -201,7 +207,7 @@
    }
   ],
   "from": 1787,
-  "to": 1815,
+  "to": 1851,
   "places": []
  },
  {
@@ -250,7 +256,7 @@
   "spellings": [
    "Luckinić"
   ],
-  "published": 3,
+  "published": 4,
   "ancestors": [
    {
     "ahn": 105,
@@ -274,7 +280,7 @@
     "place": ""
    }
   ],
-  "from": 1727,
+  "from": 1725,
   "to": 1727,
   "places": [
    {
@@ -395,7 +401,7 @@
   "spellings": [
    "Orešković / Oreskovic"
   ],
-  "published": 2,
+  "published": 5,
   "ancestors": [
    {
     "ahn": 21,
@@ -413,21 +419,22 @@
    }
   ],
   "from": 1809,
-  "to": 1835,
+  "to": 1852,
   "places": [
    {
     "place": "Otočac",
-    "n": 1
+    "n": 3
    }
   ]
  },
  {
   "key": "loncaric",
-  "label": "Lončarić",
+  "label": "Loncaric",
   "spellings": [
+   "Loncaric",
    "Lončarić"
   ],
-  "published": 2,
+  "published": 4,
   "ancestors": [
    {
     "ahn": 49,
@@ -445,11 +452,11 @@
    }
   ],
   "from": 1741,
-  "to": 1777,
+  "to": 1853,
   "places": [
    {
     "place": "Selce",
-    "n": 2
+    "n": 4
    }
   ]
  },
@@ -519,11 +526,12 @@
  },
  {
   "key": "tomljanovic",
-  "label": "Tomljanović",
+  "label": "Tomljanovic",
   "spellings": [
+   "Tomljanovic",
    "Tomljanović"
   ],
-  "published": 2,
+  "published": 4,
   "ancestors": [
    {
     "ahn": 111,
@@ -540,9 +548,13 @@
     "place": "Montani  Stanište"
    }
   ],
-  "from": null,
-  "to": null,
+  "from": 1879,
+  "to": 1896,
   "places": [
+   {
+    "place": "Senj",
+    "n": 2
+   },
    {
     "place": "Montani Stanište",
     "n": 1

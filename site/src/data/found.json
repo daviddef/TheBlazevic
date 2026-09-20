@@ -1,15 +1,15 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 60,
+ "count": 61,
  "onDirectLine": 2,
  "places": {
-  "Karlobag": 43,
+  "Karlobag": 41,
   "Krivi Put": 5,
   "Otocac": 1,
   "Otočac": 3,
   "Prozor, Otočac": 2,
-  "Selce": 3,
-  "Senj": 1,
+  "Selce": 2,
+  "Senj": 5,
   "Šumećica, Otočac": 2
  },
  "rows": [
@@ -68,15 +68,6 @@
    "citation": "Karlobag births, indexed; father Georgius, mother Maria"
   },
   {
-   "name": "Anton Joanis Uroda",
-   "ahn": null,
-   "relation": "brother of ahnentafel 54",
-   "event": "baptism",
-   "date": "13 June 1780",
-   "place": "Karlobag",
-   "citation": "Karlobag births, indexed; father Georgius, mother Maria"
-  },
-  {
    "name": "Joannis Uroda",
    "ahn": null,
    "relation": "brother of ahnentafel 54; married Maria filia Nicolai Barletich 10 Feb 1806",
@@ -84,15 +75,6 @@
    "date": "17 May 1784",
    "place": "Karlobag",
    "citation": "Karlobag births, indexed; his wife stands godmother to ahnentafel 27 in 1810"
-  },
-  {
-   "name": "Maria Rosaria Antic",
-   "ahn": null,
-   "relation": "daughter of ahnentafel 24 and 25, sister of ahnentafel 12",
-   "event": "baptism",
-   "date": "4 October 1847",
-   "place": "Selce",
-   "citation": "Selce baptisms, indexed - father Josephus Antic, mother Maria Jellicic; ark 3:1:3QS7-899C-596Z-7"
   },
   {
    "name": "Stephanus Zubrinic",
@@ -255,15 +237,6 @@
    "date": "9 December 1719",
    "place": "Karlobag",
    "citation": "Karlobag births, indexed — «Parents Vicka Luckinicha», no mother named; ark 1:1:QKMX-YTMT"
-  },
-  {
-   "name": "Mare Luckinicha",
-   "ahn": null,
-   "relation": "daughter of a Vicko Luckinić of Karlobag; CANDIDATE elder sister of ahnentafel 105",
-   "event": "baptism",
-   "date": "13 April 1725",
-   "place": "Karlobag",
-   "citation": "Karlobag births, indexed — «Parents Vicka Luckinicha», no mother named; ark 1:1:QKMX-YVND. Two years before ahnentafel 105 was born in the same parish to a father of the same name"
   },
   {
    "name": "Magdalenam Gergacs",
@@ -552,6 +525,42 @@
    "date": "7 October 1787",
    "place": "Karlobag",
    "citation": "Karlobag births, indexed — «Pavlo Tomljenovich × Catharina»; ark 1:1:QKMX-YJVT. Recorded to keep the two apart: this Paulus's wife is Catharina and the other's is Thoma, and both father at Karlobag in 1787, so a daughter of «Paulus Tomljanović» in these years is not automatically the same household"
+  },
+  {
+   "name": "Marija Kosina",
+   "ahn": null,
+   "relation": "daughter of Martin Kosina and Angelika Boras; not in the tree",
+   "event": "death",
+   "date": "1896",
+   "place": "Senj",
+   "citation": "Senj deaths, indexed — born 1896 and BURIED 1896, «Martin Kosina × Angjelina Kosina»; ark 1:1:6B47-LG4G. An infant death the tree does not have, in the same year as Josip below"
+  },
+  {
+   "name": "Josip Kosina",
+   "ahn": null,
+   "relation": "son of Martin Kosina and Angelika Boras; not in the tree",
+   "event": "death",
+   "date": "1896",
+   "place": "Senj",
+   "citation": "Senj deaths, indexed — born 1896 and BURIED 1896, «Martin Kosina × Angjelina Kosina»; ark 1:1:6B47-LGH2. The second infant of this household to die in 1896; with Marija they are probably twins, which the register would say and the index does not"
+  },
+  {
+   "name": "Petar Kasuniž",
+   "ahn": null,
+   "relation": "father of Anka Kasunić, who married Antun Kosina (1891-1925)",
+   "event": "named as parent",
+   "date": "1891",
+   "place": "Senj",
+   "citation": "Senj marriages, indexed — named as the bride's father at «Antun Kosina × Anka Kasuniž»; ark 1:1:X9D5-MWF2"
+  },
+  {
+   "name": "Marija Turina",
+   "ahn": null,
+   "relation": "mother of Anka Kasunić, who married Antun Kosina (1891-1925)",
+   "event": "named as parent",
+   "date": "1891",
+   "place": "Senj",
+   "citation": "Senj marriages, indexed — named as the bride's mother in the same entry; ark 1:1:X9D5-MWF2"
   }
  ]
 }

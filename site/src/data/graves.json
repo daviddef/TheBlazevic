@@ -1458,7 +1458,7 @@
   "contested": [
    {
     "person": "Kate Špalj Spalj",
-    "slug": null,
+    "slug": "kate-spalj-spalj",
     "kept": "Kata Špalj 1886–1981",
     "stones": [
      "Kata Špalj 1884–1975 (Senj municipal cemetery)",
@@ -2282,6 +2282,136 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
       "group": 29
+     }
+    ],
+    "known": 1,
+    "unknown": 1
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "two oval porcelain portraits",
+    "photos": [
+     "IMG_8057"
+    ],
+    "people": [
+     {
+      "surname": "Špalj",
+      "given": "Martin",
+      "born": "1893",
+      "died": "1977",
+      "stone": "two oval porcelain portraits",
+      "conf": "r",
+      "photos": [
+       "IMG_8057"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 63,
+      "slug": "martin-spalj-spalj",
+      "archiveName": "Martin Špalj Spalj",
+      "archiveBorn": "1893",
+      "archiveDied": ""
+     },
+     {
+      "surname": "Špalj",
+      "given": "Ivka",
+      "born": "1900",
+      "died": "1993",
+      "stone": "same stone as Martin",
+      "conf": "r",
+      "photos": [
+       "IMG_8057"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 63
+     }
+    ],
+    "known": 1,
+    "unknown": 1
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "raised by her sister Marija Prpić",
+    "photos": [
+     "IMG_8076"
+    ],
+    "people": [
+     {
+      "surname": "Špalj",
+      "given": "Lucija",
+      "born": "1892",
+      "died": "1949",
+      "stone": "raised by her sister Marija Prpić",
+      "conf": "r",
+      "photos": [
+       "IMG_8076"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 66,
+      "slug": "lucija-spalj-spalj",
+      "archiveName": "Lucija Špalj Spalj",
+      "archiveBorn": "14 JAN 1894",
+      "archiveDied": ""
+     },
+     {
+      "surname": "Špalj",
+      "given": "Kata",
+      "born": "1884",
+      "died": "1975",
+      "stone": "same stone as Lucija",
+      "conf": "r",
+      "photos": [
+       "IMG_8076"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 66,
+      "_dropped": true
+     }
+    ],
+    "known": 1,
+    "unknown": 1
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "«TIHI DOM»",
+    "photos": [
+     "IMG_8126"
+    ],
+    "people": [
+     {
+      "surname": "Špalj",
+      "given": "Kata",
+      "born": "1886",
+      "died": "1981",
+      "stone": "«TIHI DOM»",
+      "conf": "p",
+      "photos": [
+       "IMG_8126"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 69,
+      "slug": "kate-spalj-spalj",
+      "archiveName": "Kate Špalj Spalj",
+      "archiveBorn": "1886",
+      "archiveDied": ""
+     },
+     {
+      "surname": "Špalj",
+      "given": "Anton",
+      "born": "1946",
+      "died": "2020",
+      "stone": "same stone as Kata 1886",
+      "conf": "p",
+      "photos": [
+       "IMG_8126"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 69
      }
     ],
     "known": 1,
@@ -4759,49 +4889,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "two oval porcelain portraits",
-    "photos": [
-     "IMG_8057"
-    ],
-    "people": [
-     {
-      "surname": "Špalj",
-      "given": "Martin",
-      "born": "1893",
-      "died": "1977",
-      "stone": "two oval porcelain portraits",
-      "conf": "r",
-      "photos": [
-       "IMG_8057"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 63,
-      "slug": null,
-      "archiveName": "Martin Špalj Spalj",
-      "archiveBorn": "",
-      "archiveDied": ""
-     },
-     {
-      "surname": "Špalj",
-      "given": "Ivka",
-      "born": "1900",
-      "died": "1993",
-      "stone": "same stone as Martin",
-      "conf": "r",
-      "photos": [
-       "IMG_8057"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 63
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "marble plate on a terrazzo stone, gilt letters",
     "photos": [
      "IMG_8074"
@@ -4841,50 +4928,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "raised by her sister Marija Prpić",
-    "photos": [
-     "IMG_8076"
-    ],
-    "people": [
-     {
-      "surname": "Špalj",
-      "given": "Lucija",
-      "born": "1892",
-      "died": "1949",
-      "stone": "raised by her sister Marija Prpić",
-      "conf": "r",
-      "photos": [
-       "IMG_8076"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 66,
-      "slug": null,
-      "archiveName": "Lucija Špalj Spalj",
-      "archiveBorn": "",
-      "archiveDied": ""
-     },
-     {
-      "surname": "Špalj",
-      "given": "Kata",
-      "born": "1884",
-      "died": "1975",
-      "stone": "same stone as Lucija",
-      "conf": "r",
-      "photos": [
-       "IMG_8076"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 66,
-      "_dropped": true
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "two children on one stone",
     "photos": [
      "IMG_8079"
@@ -4917,49 +4960,6 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
       "group": 67
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "«TIHI DOM»",
-    "photos": [
-     "IMG_8126"
-    ],
-    "people": [
-     {
-      "surname": "Špalj",
-      "given": "Kata",
-      "born": "1886",
-      "died": "1981",
-      "stone": "«TIHI DOM»",
-      "conf": "p",
-      "photos": [
-       "IMG_8126"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 69,
-      "slug": null,
-      "archiveName": "Kate Špalj Spalj",
-      "archiveBorn": "",
-      "archiveDied": ""
-     },
-     {
-      "surname": "Špalj",
-      "given": "Anton",
-      "born": "1946",
-      "died": "2020",
-      "stone": "same stone as Kata 1886",
-      "conf": "p",
-      "photos": [
-       "IMG_8126"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 69
      }
     ],
     "known": 0,
@@ -5191,6 +5191,16 @@
     "years": -1,
     "cemetery": "Senj municipal cemetery",
     "photo": "IMG_8055"
+   },
+   {
+    "name": "Lucija Špalj",
+    "slug": "lucija-spalj-spalj",
+    "field": "born",
+    "stone": "1892",
+    "tree": "14 JAN 1894",
+    "years": -2,
+    "cemetery": "Senj municipal cemetery",
+    "photo": "IMG_8076"
    }
   ],
   "rows": [
@@ -6928,9 +6938,9 @@
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
     "group": 63,
-    "slug": null,
+    "slug": "martin-spalj-spalj",
     "archiveName": "Martin Špalj Spalj",
-    "archiveBorn": "",
+    "archiveBorn": "1893",
     "archiveDied": ""
    },
    {
@@ -7044,9 +7054,9 @@
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
     "group": 66,
-    "slug": null,
+    "slug": "lucija-spalj-spalj",
     "archiveName": "Lucija Špalj Spalj",
-    "archiveBorn": "",
+    "archiveBorn": "14 JAN 1894",
     "archiveDied": ""
    },
    {
@@ -7161,9 +7171,9 @@
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
     "group": 69,
-    "slug": null,
+    "slug": "kate-spalj-spalj",
     "archiveName": "Kate Špalj Spalj",
-    "archiveBorn": "",
+    "archiveBorn": "1886",
     "archiveDied": ""
    },
    {

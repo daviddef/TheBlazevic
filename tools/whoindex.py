@@ -10,6 +10,21 @@ So only names held by EXACTLY ONE published person are indexed. Everything
 repeated is left as plain text, and /people carries the disambiguation.
 
 Emitted as [display name, slug, how many other spellings fold to it].
+
+TWO THINGS THIS FILE LEARNED ON 21 SEPTEMBER 2026, both found by a reader
+noticing that a page full of names carried no links.
+
+  * THE SURNAME IS SLASH-JOINED AS OFTEN AS THE GIVEN NAME, and only the given
+    name was being split. So «Tereza Žubrinić» -- the form every page of this
+    archive actually writes -- was absent, while two forms nobody writes were
+    present.
+  * THE INDEX IS BUILT FROM THE TREE'S SPELLING AND THE PROSE USES THE
+    ARCHIVE'S. The tree holds ahnentafel 4 as «Blazevic» and every page writes
+    «Blažević». The matcher was case-insensitive and not accent-insensitive, so
+    z and ž were two letters and the commonest name in the archive never linked.
+    That half is fixed in public/wholink.js, which now folds accents on BOTH
+    sides -- the same rule namefold.py applies to the register search, where
+    folding an accent «needs nobody's permission».
 """
 import json, os, re, collections
 
@@ -37,14 +52,33 @@ def variants(p):
         out.add(full)
     given, surname = clean(p.get("given")), clean(p.get("surname"))
     if given and surname:
-        # each given-name alternative paired with the surname
-        for g in re.split(r"\s*/\s*", given):
-            g = g.strip().strip('"')
-            if len(g) > 2:
-                out.add(f"{g} {surname}")
+        # THE SURNAME IS SLASH-JOINED TOO, and splitting only the given name is
+        # why «Tereza Žubrinić» was not in this index while «Tereza Žubrinić /
+        # Zubrinic» and «Tereza Žubrinić Zubrinic» both were. The tree carries
+        # her surname as «Žubrinić / Zubrinic»; every page of this archive
+        # writes her as Tereza Žubrinić, and the one form the prose actually
+        # uses was the one form the linker could not see.
+        surnames = [x.strip().strip('"') for x in re.split(r"\s*/\s*", surname)]
+        surnames = [x for x in surnames if len(x) > 2] or [surname]
+        givens = [x.strip().strip('"') for x in re.split(r"\s*/\s*", given)]
+        # AN INLINE QUOTED NICKNAME IS NOT PART OF THE NAME ANYBODY WRITES.
+        # The tree gives ahnentafel 2 as «Ljubomir "Ljubo"», so every form this
+        # file emitted carried the quotes and «Ljubomir Blažević» -- which is
+        # what the pages say -- was not among them. Offer both: the name with
+        # the nickname taken out, and the nickname on its own.
+        for g in list(givens):
+            inline = re.findall(r'"([^"]{3,})"', g)
+            bare = re.sub(r'\s*"[^"]*"\s*', " ", g).strip()
+            if bare and bare != g:
+                givens.append(bare)
+            givens.extend(inline)
         nick = (p.get("nick") or "").strip().strip('"')
         if len(nick) > 2:
-            out.add(f"{nick} {surname}")
+            givens.append(nick)
+        for sn in surnames:
+            for g in givens:
+                if len(g) > 2:
+                    out.add(f"{g} {sn}")
     # a bare given name is never enough to identify anybody
     return {o for o in out if len(o) >= 7 and " " in o}
 

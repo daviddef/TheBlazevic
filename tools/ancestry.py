@@ -133,6 +133,57 @@ def ancestors(people, families, start, maxgen=40):
     return by_ahn
 
 
+def kindred(people, families, start=ROOT_PERSON, maxgen=40):
+    """Everyone related to `start` BY BLOOD: the ancestors, and all of their
+    descendants.
+
+    WHY THIS EXISTS, added 21 September 2026. Until today a person was published
+    if their SURNAME was one of the eight this archive carries. That is not the
+    same question as «are they family», and a reader put a finger on the gap:
+
+        Hedviga's aunt ANKA BLAŽEVIĆ married Pavao KOSINA. Her five children
+        are Hedviga's first cousins and carry her blood — and every one of them
+        was invisible here, because a daughter's children take their father's
+        name and the surname test cannot see them.
+
+    Measured across the whole tree the hole is TWO HUNDRED AND FIFTY-EIGHT
+    people, of whom 234 are publishable once the living rule has run: 37
+    Pavelići across four spellings, 11 Špalj, 9 Sekula, 7 Kosina, 6 Rivosechi,
+    6 Krmpotići. All of them blood.
+
+    A surname is how a family is FILED. Descent is what a family IS, and this
+    archive had been publishing the filing.
+
+    NOTE WHAT THIS DOES NOT DO. It returns blood only. A spouse who married in
+    is not here unless their own surname is one of the eight -- Pavao Kosina
+    himself is not in this set, though all five of his children are. That is the
+    correct boundary for a descent test, and the surname list still carries the
+    in-laws it always did.
+    """
+    kin = {start}
+    anc = set()
+    stack = [start]
+    while stack:
+        pid = stack.pop()
+        for f in (people[pid].get("famc") or []):
+            fam = families.get(f, {})
+            for role in ("husb", "wife"):
+                o = fam.get(role)
+                if o in people and o not in anc:
+                    anc.add(o)
+                    stack.append(o)
+    kin |= anc
+    stack = list(anc) + [start]
+    while stack:
+        pid = stack.pop()
+        for f in (people[pid].get("fams") or []):
+            for c in (families.get(f, {}).get("chil") or []):
+                if c in people and c not in kin:
+                    kin.add(c)
+                    stack.append(c)
+    return kin
+
+
 def gen_of(ahn):
     """Generation number: 1 for the root, 2 for parents, and so on."""
     g = 0

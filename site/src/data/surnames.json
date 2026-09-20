@@ -596,6 +596,101 @@
    ]
   },
   {
+   "key": "pavelic",
+   "n": 38,
+   "forms": [
+    {
+     "spelling": "Pavelic",
+     "n": 13,
+     "from": 1847,
+     "to": 1898,
+     "median": 1877,
+     "places": [
+      {
+       "place": "#23 Mrzli Dol",
+       "n": 3
+      },
+      {
+       "place": "Croatia",
+       "n": 1
+      },
+      {
+       "place": "#",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Pavelić",
+     "n": 11,
+     "from": 1874,
+     "to": 1927,
+     "median": 1889,
+     "places": [
+      {
+       "place": "Mrzli Dol",
+       "n": 6
+      },
+      {
+       "place": "Mrzli Dol #",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "spelling": "Pavelić (Blazevic)",
+     "n": 7,
+     "from": 1888,
+     "to": 1904,
+     "median": 1895,
+     "places": [
+      {
+       "place": "Mrzli Dol",
+       "n": 4
+      },
+      {
+       "place": "Mrzli Dol #",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "spelling": "Pavelich",
+     "n": 6,
+     "from": 1876,
+     "to": 1925,
+     "median": 1921,
+     "places": [
+      {
+       "place": "Krivi Put",
+       "n": 2
+      },
+      {
+       "place": "Carson Lake (historical)",
+       "n": 2
+      },
+      {
+       "place": "Mrzli Dol",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Pavelich (born Pavelić)",
+     "n": 1,
+     "from": 1893,
+     "to": 1893,
+     "median": 1893,
+     "places": [
+      {
+       "place": "#68 Mrzli Dol",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "vukelic",
    "n": 15,
    "forms": [
@@ -632,9 +727,53 @@
    ]
   },
   {
-   "key": "pilipic",
-   "n": 4,
+   "key": "krmpotic",
+   "n": 7,
    "forms": [
+    {
+     "spelling": "Krmpotić",
+     "n": 6,
+     "from": 1881,
+     "to": 1894,
+     "median": 1888,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "spelling": "Krmpotic",
+     "n": 1,
+     "from": 1864,
+     "to": 1864,
+     "median": 1864,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "pilipic",
+   "n": 6,
+   "forms": [
+    {
+     "spelling": "Pilipic",
+     "n": 4,
+     "from": 1768,
+     "to": 1848,
+     "median": 1835,
+     "places": [
+      {
+       "place": "Karlobag",
+       "n": 3
+      },
+      {
+       "place": "Senj",
+       "n": 1
+      }
+     ]
+    },
     {
      "spelling": "Pilipić",
      "n": 2,
@@ -647,19 +786,197 @@
        "n": 2
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "key": "antic",
+   "n": 5,
+   "forms": [
     {
-     "spelling": "Pilipic",
-     "n": 2,
-     "from": 1768,
-     "to": 1768,
-     "median": 1768,
+     "spelling": "Antić",
+     "n": 4,
+     "from": 1739,
+     "to": 1847,
+     "median": 1806,
      "places": [
       {
-       "place": "Karlobag",
+       "place": "Selce",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "Antic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "babic",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "Babić",
+     "n": 3,
+     "from": 1887,
+     "to": 1891,
+     "median": 1890,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "spelling": "Babić / Babic",
+     "n": 2,
+     "from": 1836,
+     "to": 1845,
+     "median": 1845,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "jellicic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Jelličić",
+     "n": 3,
+     "from": 1767,
+     "to": 1809,
+     "median": 1809,
+     "places": [
+      {
+       "place": "Selce",
        "n": 2
       }
      ]
+    },
+    {
+     "spelling": "Jellicic",
+     "n": 1,
+     "from": 1851,
+     "to": 1851,
+     "median": 1851,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "loncaric",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Loncaric",
+     "n": 2,
+     "from": 1851,
+     "to": 1853,
+     "median": 1853,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Lončarić",
+     "n": 2,
+     "from": 1741,
+     "to": 1777,
+     "median": 1777,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "tomljanovic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Tomljanovic",
+     "n": 2,
+     "from": 1879,
+     "to": 1896,
+     "median": 1896,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Tomljanović",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Montani Stanište",
+       "n": 1
+      },
+      {
+       "place": "Montani  Stanište",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "adamic",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Adamic / Adamich",
+     "n": 2,
+     "from": 1834,
+     "to": 1836,
+     "median": 1836,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Adamich",
+     "n": 1,
+     "from": 1822,
+     "to": 1822,
+     "median": 1822,
+     "places": []
     }
    ]
   },
@@ -721,6 +1038,33 @@
      "places": []
     }
    ]
+  },
+  {
+   "key": "karic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Karic",
+     "n": 1,
+     "from": 1948,
+     "to": 1948,
+     "median": 1948,
+     "places": []
+    },
+    {
+     "spelling": "Karić",
+     "n": 1,
+     "from": 1946,
+     "to": 1946,
+     "median": 1946,
+     "places": [
+      {
+       "place": "Beograd",
+       "n": 1
+      }
+     ]
+    }
+   ]
   }
  ],
  "crossed": [
@@ -767,7 +1111,7 @@
    "spouse": "Joannis \"Ivan\" Perpić"
   },
   {
-   "slug": "maria-2",
+   "slug": "maria-3",
    "name": "Maria",
    "given": "Maria",
    "surname": "",
@@ -831,6 +1175,149 @@
    "place": "",
    "ahn": 429,
    "spouse": "Angelo Bacchi"
+  },
+  {
+   "slug": "theresia",
+   "name": "Theresia",
+   "given": "Theresia",
+   "surname": "",
+   "byear": 1841,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": "Carolus Oftovic"
+  },
+  {
+   "slug": "catharina-3",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": 1847,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "maria-2",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1848,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "marija",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": 1852,
+   "sex": "F",
+   "place": "Karlobag",
+   "ahn": null,
+   "spouse": "Albert Dosen"
+  },
+  {
+   "slug": "luce-2",
+   "name": "Luce",
+   "given": "Luce",
+   "surname": "",
+   "byear": 1856,
+   "sex": "F",
+   "place": "Krivi Put",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "christophorus",
+   "name": "Christophorus",
+   "given": "Christophorus",
+   "surname": "",
+   "byear": 1861,
+   "sex": "M",
+   "place": "Senj",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "luce",
+   "name": "Luce",
+   "given": "Luce",
+   "surname": "",
+   "byear": 1876,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "marija-2",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": 1890,
+   "sex": "F",
+   "place": "Senj",
+   "ahn": null,
+   "spouse": "Mate Ludvik Zunski"
+  },
+  {
+   "slug": "sulka",
+   "name": "Sulka",
+   "given": "Sulka",
+   "surname": "",
+   "byear": 1895,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "ana",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": 1896,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "anka",
+   "name": "Anka",
+   "given": "Anka",
+   "surname": "",
+   "byear": 1901,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "slavka",
+   "name": "Slavka",
+   "given": "Slavka",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "vincentia",
+   "name": "Vincentia",
+   "given": "Vincentia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
   }
  ]
 }
