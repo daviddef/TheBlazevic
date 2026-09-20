@@ -128,3 +128,39 @@ village name sitting in a given-name field, on your line.
 **Should `sestan` stay in this archive's eight-surname scope list?** Removing it
 would unpublish 55 people and is a decision about what this archive is for.
 **Nothing has been changed.**
+
+---
+
+## 20 September 2026 — two search methods, and a warning about your own coverage table
+
+**Stop searching indexes by surname first.** Ahnentafel 52's baptism was in the
+FamilySearch index the whole time, filed under **«Piberich»** — a form that occurs
+**exactly once in the entire parish**, because it is one clerk's reading of one hand and
+not a name anybody bore. Three sittings had tried six spellings. **No list of guesses
+ever contains «Piberich».**
+
+**Query the given names instead.** `q.givenName` + `q.fatherGivenName` +
+`q.motherGivenName` + a date window + the parish returns the household **whatever the
+clerk did to the family name**. Given names are short, common, and survive a bad hand;
+two parents plus a date is already a near-unique key. It returned four children of one
+household in **one query**.
+
+**And then check what that implies about your own coverage table.** Ours recorded seven
+parishes as NOTHING, every zero produced by naming two surnames. Re-probed by **place
+alone** — `q.anyPlace` plus a date window, naming no surname — **three of the seven were
+wrong**: Bribir had 80+ indexed deaths, Selce five baptisms, Ledenice four entries. The
+Selce row had recorded its zero «under Antić», and one of the entries it missed is
+**«Margaritam Antich»**.
+
+**Three rules if you re-probe yours.**
+
+1. **Run controls.** Two parishes you know are indexed, in every window. If they do not
+   come back 100 of 100, the instrument is broken, not the parish.
+2. **Read the place string back.** «Bribir» is two villages two hundred kilometres apart
+   and the wrong one outranked ours **593 to 7**. «Smokvica» returned a village in
+   **Slovenia**. Never trust the query you sent.
+3. **Neither probe is authoritative alone.** Place-only returned **zero for Krmpote**,
+   where the surname probe had found a 1895 baptism the same day. A zero means «not found
+   by this instrument» and nothing stronger.
+
+`notes/karlobag-the-index-calls-them-piberich.md`, `notes/the-zeros-were-not-all-zeros.md`
