@@ -1,0 +1,591 @@
+{
+ "note": "Which parish books are indexed as searchable text, measured parish by parish through the FamilySearch persona search. Built by tools/indexcoverage.py from sources/familysearch/indexed.psv.",
+ "measured": "20 September 2026",
+ "parishes": [
+  {
+   "parish": "Bribir",
+   "rows": [
+    {
+     "parish": "Bribir",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "death",
+     "windows": "place-only, narrow windows 1750-1839",
+     "note": "WRONG BEFORE. «Bribir, Primorsko-goranska» has a real indexed DEATH register — 80+ records found, deaths dated 1843-1855 — plus baptisms 1858-1876. BEWARE: a wide window returns «Bribir, Šibenik», a different place 200km away, and it outranks ours 593 to 7",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "death"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Grižane",
+   "rows": [
+    {
+     "parish": "Grižane",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "1854 observed",
+     "note": "one hit; treat as untested, not as coverage",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Karlobag",
+   "rows": [
+    {
+     "parish": "Karlobag",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "1680s 1780s 1850s 1900s",
+     "note": "",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Karlobag",
+     "collection": "Croatia, Lika-Senj, Births, from 1689 to 1898",
+     "event": "baptism",
+     "windows": "1680s 1780s 1850s 1900s",
+     "note": "reaches 1733 in practice — the earliest baptism index here",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 2
+  },
+  {
+   "parish": "Krivi Put",
+   "rows": [
+    {
+     "parish": "Krivi Put",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "baptism",
+     "windows": "1780s 1850s",
+     "note": "found ONLY under Tomljanović; Prpić returns gravestones",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Krivi Put",
+     "collection": "Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990",
+     "event": "death",
+     "windows": "1780s 1850s",
+     "note": "a real death register index",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism",
+    "death"
+   ],
+   "collections": 2
+  },
+  {
+   "parish": "Krmpote",
+   "rows": [
+    {
+     "parish": "Krmpote",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "baptism",
+     "windows": "1880-1894 observed",
+     "note": "matches the film, which begins 1879 and not 1815 as the catalogue says",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Ledenice",
+   "rows": [
+    {
+     "parish": "Ledenice",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "place-only, 1700-1899",
+     "note": "FOUR entries in two centuries — 1748, 1749, 1845, 1888 — so not zero, but not a register either. Row 33 stays a film read IN PRACTICE. The 1888 one is «Marija Milka, 16 May 1888, Luka Kalanj × Kata», who IS in the tree with the year alone",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Novi Vinodolski",
+   "rows": [
+    {
+     "parish": "Novi Vinodolski",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "baptism",
+     "windows": "1680s 1850s",
+     "note": "row 32's book, and it is searchable",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Otočac",
+   "rows": [
+    {
+     "parish": "Otočac",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "place-only census 1700-1869",
+     "note": "MEASURED 20 Sept: the index runs 1830-1858 AND STOPS. Births 1700-1799 return ZERO; 1800-1829 one stray (Dabar, 1816); 1830-1834 return 83, 1835-1837 return 200, 1855-1859 return 200 — and 1860-1864, 1865-1869, 1870-1874, 1875-1879 ALL RETURN ZERO. That is the filmed book, 1834-1858, and nothing after it. Ahnentafel 5, born 1867, is outside both",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Otočac",
+     "collection": "Austria, Küstenland, Births, from 1536 to 1919",
+     "event": "baptism",
+     "windows": "place-only census 1700-1869",
+     "note": "a second collection, and the one carrying 1848-58 — and the one carrying 1836-38 as «Otočac, Küstenland, Austria». Same 1830 floor",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 2
+  },
+  {
+   "parish": "Selce",
+   "rows": [
+    {
+     "parish": "Selce",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "place-only, 1700-1899",
+     "note": "FIVE entries, 1803-1844, not zero. Place string is bare «Selce, Croatia» — WHICH Selce is unconfirmed. The surname probe missed them: this row said «tested under Antić» and one of the five is «Margaritam ANTICH, 7 Nov 1844»",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Senj",
+   "rows": [
+    {
+     "parish": "Senj",
+     "collection": "Croatia, Church Books, 1516-1994",
+     "event": "baptism",
+     "windows": "1680s 1780s 1850s 1900s",
+     "note": "",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Croatia, Lika-Senj, Religious, from 1621 to 1920",
+     "event": "baptism",
+     "windows": "1680s 1780s 1850s 1900s",
+     "note": "a FOURTH Senj collection the first pass never saw",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "baptism",
+     "windows": "1680s 1780s 1850s 1900s",
+     "note": "",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Croatia, Lika-Senj, Births, from 1689 to 1898",
+     "event": "baptism",
+     "windows": "1680s",
+     "note": "",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Hungary, Croatia-Slavonia, Marriages, from 1678 to 1927",
+     "event": "marriage",
+     "windows": "confirmed 1885, 1907",
+     "note": "INDEXED. The first version of this file said it was not",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990",
+     "event": "death",
+     "windows": "1900s",
+     "note": "INDEXED. The first version of this file said it was not",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Senj",
+     "collection": "Croatia, Lika-Senj, Deaths, from 1500 to 2024",
+     "event": "—",
+     "windows": "1850s 1900s",
+     "note": "FIND A GRAVE, not a register. Do not count it",
+     "indexed": false,
+     "notARegister": true
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism",
+    "marriage",
+    "death"
+   ],
+   "collections": 6
+  },
+  {
+   "parish": "Smiljan",
+   "rows": [
+    {
+     "parish": "Smiljan",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "baptism",
+     "windows": "1834-1857 observed",
+     "note": "too late for ahnentafel 426, a generation of about 1700",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
+   "parish": "Brinje",
+   "rows": [
+    {
+     "parish": "Brinje",
+     "collection": "",
+     "event": "none",
+     "windows": "1700s 1800s 1860s + place-only 1700-1899",
+     "note": "NOTHING. Re-confirmed 20 Sept by place-only probe, which names no surname at all — so this zero is not a spelling artefact",
+     "indexed": false,
+     "notARegister": false
+    }
+   ],
+   "indexed": false,
+   "events": [],
+   "collections": 0
+  },
+  {
+   "parish": "Gospić",
+   "rows": [
+    {
+     "parish": "Gospić",
+     "collection": "",
+     "event": "none",
+     "windows": "1700s 1800s 1860s + place-only 1700-1899",
+     "note": "NOTHING. Re-confirmed 20 Sept by place-only probe",
+     "indexed": false,
+     "notARegister": false
+    }
+   ],
+   "indexed": false,
+   "events": [],
+   "collections": 0
+  },
+  {
+   "parish": "Sinac",
+   "rows": [
+    {
+     "parish": "Sinac",
+     "collection": "",
+     "event": "none",
+     "windows": "1700s 1800s 1860s + place-only 1700-1899",
+     "note": "NOTHING. Re-confirmed 20 Sept by place-only probe",
+     "indexed": false,
+     "notARegister": false
+    }
+   ],
+   "indexed": false,
+   "events": [],
+   "collections": 0
+  },
+  {
+   "parish": "Smokvica",
+   "rows": [
+    {
+     "parish": "Smokvica",
+     "collection": "",
+     "event": "none",
+     "windows": "1730s 1800s 1850s + place-only",
+     "note": "NOTHING for OUR Smokvica. A place-only probe returns ten burials at «Smokvica, Mestna občina Koper, SLOVENIA» — a different village in a different country. The Blažević home village is still not indexed at all",
+     "indexed": false,
+     "notARegister": false
+    }
+   ],
+   "indexed": false,
+   "events": [],
+   "collections": 0
+  }
+ ],
+ "rows": [
+  {
+   "parish": "Senj",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "1680s 1780s 1850s 1900s",
+   "note": "",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Croatia, Lika-Senj, Religious, from 1621 to 1920",
+   "event": "baptism",
+   "windows": "1680s 1780s 1850s 1900s",
+   "note": "a FOURTH Senj collection the first pass never saw",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "baptism",
+   "windows": "1680s 1780s 1850s 1900s",
+   "note": "",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Croatia, Lika-Senj, Births, from 1689 to 1898",
+   "event": "baptism",
+   "windows": "1680s",
+   "note": "",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Hungary, Croatia-Slavonia, Marriages, from 1678 to 1927",
+   "event": "marriage",
+   "windows": "confirmed 1885, 1907",
+   "note": "INDEXED. The first version of this file said it was not",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990",
+   "event": "death",
+   "windows": "1900s",
+   "note": "INDEXED. The first version of this file said it was not",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Senj",
+   "collection": "Croatia, Lika-Senj, Deaths, from 1500 to 2024",
+   "event": "—",
+   "windows": "1850s 1900s",
+   "note": "FIND A GRAVE, not a register. Do not count it",
+   "indexed": false,
+   "notARegister": true
+  },
+  {
+   "parish": "Otočac",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "place-only census 1700-1869",
+   "note": "MEASURED 20 Sept: the index runs 1830-1858 AND STOPS. Births 1700-1799 return ZERO; 1800-1829 one stray (Dabar, 1816); 1830-1834 return 83, 1835-1837 return 200, 1855-1859 return 200 — and 1860-1864, 1865-1869, 1870-1874, 1875-1879 ALL RETURN ZERO. That is the filmed book, 1834-1858, and nothing after it. Ahnentafel 5, born 1867, is outside both",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Otočac",
+   "collection": "Austria, Küstenland, Births, from 1536 to 1919",
+   "event": "baptism",
+   "windows": "place-only census 1700-1869",
+   "note": "a second collection, and the one carrying 1848-58 — and the one carrying 1836-38 as «Otočac, Küstenland, Austria». Same 1830 floor",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Karlobag",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "1680s 1780s 1850s 1900s",
+   "note": "",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Karlobag",
+   "collection": "Croatia, Lika-Senj, Births, from 1689 to 1898",
+   "event": "baptism",
+   "windows": "1680s 1780s 1850s 1900s",
+   "note": "reaches 1733 in practice — the earliest baptism index here",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Krivi Put",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "baptism",
+   "windows": "1780s 1850s",
+   "note": "found ONLY under Tomljanović; Prpić returns gravestones",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Krivi Put",
+   "collection": "Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990",
+   "event": "death",
+   "windows": "1780s 1850s",
+   "note": "a real death register index",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Novi Vinodolski",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "baptism",
+   "windows": "1680s 1850s",
+   "note": "row 32's book, and it is searchable",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Krmpote",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "baptism",
+   "windows": "1880-1894 observed",
+   "note": "matches the film, which begins 1879 and not 1815 as the catalogue says",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Smiljan",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "baptism",
+   "windows": "1834-1857 observed",
+   "note": "too late for ahnentafel 426, a generation of about 1700",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Grižane",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "1854 observed",
+   "note": "one hit; treat as untested, not as coverage",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Selce",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "place-only, 1700-1899",
+   "note": "FIVE entries, 1803-1844, not zero. Place string is bare «Selce, Croatia» — WHICH Selce is unconfirmed. The surname probe missed them: this row said «tested under Antić» and one of the five is «Margaritam ANTICH, 7 Nov 1844»",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Brinje",
+   "collection": "",
+   "event": "none",
+   "windows": "1700s 1800s 1860s + place-only 1700-1899",
+   "note": "NOTHING. Re-confirmed 20 Sept by place-only probe, which names no surname at all — so this zero is not a spelling artefact",
+   "indexed": false,
+   "notARegister": false
+  },
+  {
+   "parish": "Ledenice",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "baptism",
+   "windows": "place-only, 1700-1899",
+   "note": "FOUR entries in two centuries — 1748, 1749, 1845, 1888 — so not zero, but not a register either. Row 33 stays a film read IN PRACTICE. The 1888 one is «Marija Milka, 16 May 1888, Luka Kalanj × Kata», who IS in the tree with the year alone",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Bribir",
+   "collection": "Croatia, Church Books, 1516-1994",
+   "event": "death",
+   "windows": "place-only, narrow windows 1750-1839",
+   "note": "WRONG BEFORE. «Bribir, Primorsko-goranska» has a real indexed DEATH register — 80+ records found, deaths dated 1843-1855 — plus baptisms 1858-1876. BEWARE: a wide window returns «Bribir, Šibenik», a different place 200km away, and it outranks ours 593 to 7",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Sinac",
+   "collection": "",
+   "event": "none",
+   "windows": "1700s 1800s 1860s + place-only 1700-1899",
+   "note": "NOTHING. Re-confirmed 20 Sept by place-only probe",
+   "indexed": false,
+   "notARegister": false
+  },
+  {
+   "parish": "Gospić",
+   "collection": "",
+   "event": "none",
+   "windows": "1700s 1800s 1860s + place-only 1700-1899",
+   "note": "NOTHING. Re-confirmed 20 Sept by place-only probe",
+   "indexed": false,
+   "notARegister": false
+  },
+  {
+   "parish": "Smokvica",
+   "collection": "",
+   "event": "none",
+   "windows": "1730s 1800s 1850s + place-only",
+   "note": "NOTHING for OUR Smokvica. A place-only probe returns ten burials at «Smokvica, Mestna občina Koper, SLOVENIA» — a different village in a different country. The Blažević home village is still not indexed at all",
+   "indexed": false,
+   "notARegister": false
+  }
+ ],
+ "counts": {
+  "parishes": 15,
+  "indexed": 11,
+  "zero": 4,
+  "collections": 19
+ }
+}

@@ -1,0 +1,135 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import I from "../data/indexed.json";
+// The measurement that decides how every register row on the work list is
+// planned. It lived in sources/familysearch/indexed.psv, read by no tool and
+// shown on no page, until 20 September 2026.
+const on = I.parishes.filter((p) => p.indexed);
+const off = I.parishes.filter((p) => !p.indexed);
+const fag = I.rows.filter((r) => r.notARegister);
+---
+<Base title="Which Books Are Indexed"
+  eyebrow="Measured parish by parish, and wrong twice before it was right"
+  dek={`An indexed book is a search box. An unindexed one is a sitting in front of a film. ${I.counts.indexed} of ${I.counts.parishes} parishes are searchable as text across ${I.counts.collections} collections, and ${I.counts.zero} are not searchable at all — and the useful part of this page is how often that answer has been wrong.`}>
+
+  <section class="blk">
+    <p class="lede">Everything this archive plans depends on one question: <strong>can this book be
+    searched, or must it be read?</strong> A parish with an index turns four brick walls into four
+    lookups in an afternoon. A parish without one turns the same four into a week in front of a
+    microfilm.</p>
+    <p>So the table below is not a convenience. <strong>It is the thing that decides where the
+    effort goes</strong> — and it has been wrong twice, both times in a direction that would have
+    cost a sitting.</p>
+    <div class="note"><strong>Presence, not completeness.</strong> This table says a book has
+    entries in the index. It does <strong>not</strong> say the index holds all of them. The
+    Karlobag Luckinić holding is <strong>seven entries</strong> for a family that lived there for
+    generations, and that is the standing reminder.</div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{on.length} parishes searchable</div>
+    <h2>What can be searched</h2>
+    <table class="reg">
+      <thead><tr><th style="width:15%">Parish</th><th style="width:30%">Collection</th>
+        <th style="width:10%">Event</th><th>What was probed, and what is known</th></tr></thead>
+      <tbody>{on.map((p) => p.rows.map((r, i) => (
+        <tr>
+          {i === 0 && <td rowspan={p.rows.length}><strong>{r.parish}</strong>
+            <span class="dek" style="display:block">{p.collections} collection{p.collections === 1 ? "" : "s"}</span></td>}
+          <td class="dek">{r.collection || "—"}{r.notARegister &&
+            <span class="dek" style="display:block"><strong>not a register</strong></span>}</td>
+          <td class="dek mono">{r.event}</td>
+          <td class="dek">{r.note || <span style="opacity:.5">—</span>}
+            <span class="mono dek" style="display:block">probed {r.windows}</span></td>
+        </tr>
+      )))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{off.length} parishes with nothing</div>
+    <h2>What cannot</h2>
+    <p>These returned <strong>nothing</strong> — first under two surnames each, then again under a
+    probe that names <strong>no surname at all</strong>. That second test is what makes them zeros
+    rather than gaps.</p>
+    <table class="reg">
+      <thead><tr><th style="width:18%">Parish</th><th>What was probed</th></tr></thead>
+      <tbody>{off.map((p) => p.rows.map((r) => (
+        <tr><td><strong>{r.parish}</strong></td>
+          <td class="dek">{r.note}<span class="mono dek" style="display:block">probed {r.windows}</span></td></tr>
+      )))}</tbody>
+    </table>
+    <div class="note"><strong>And that is the whole Blažević side.</strong> Smokvica, Krmpote
+    before 1880 and Ledenice are the villages Hedviga's father's people came from, and none of
+    them can be reached from a search box. <strong>The indexing in this archive's country is a
+    Karlobag–Otočac–Senj phenomenon: the mother's side is searchable and the father's side is
+    not.</strong></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The corrections</div>
+    <h2>This table has been wrong twice, and both are worth keeping</h2>
+
+    <p><strong>First it said the index was a baptism index.</strong> In capitals: «across every
+    parish this archive uses, the index is a BAPTISM index — not one parish marriage register and
+    no parish death register before 1891 is indexed anywhere». <strong>That was disproved within
+    the hour</strong> by a single query narrowed to a date range. Senj marriages <em>and</em> Senj
+    deaths are both indexed. They had been sitting behind a query that was too broad to show them.</p>
+    <p class="lede">The search returns a <strong>ranked, capped</strong> result set. When a parish
+    holds several collections, a broad query returns the best-ranked ones and <strong>the others do
+    not appear at all</strong>. They are not absent. They are below the cut. <strong>Narrow by
+    date and they appear.</strong></p>
+
+    <p><strong>Then it said seven parishes held nothing</strong>, every zero produced by naming two
+    surnames. Hours later a baptism turned up at Karlobag filed under <strong>«Piberich»</strong> —
+    a form occurring <strong>exactly once in the whole parish</strong>, because it is one clerk's
+    reading of one hand rather than a name anybody bore. <strong>If a surname can hide a person, it
+    can hide a parish.</strong> Re-probed by place alone, <strong>three of the seven were
+    wrong</strong>: Bribir had eighty-odd indexed deaths, Selce five baptisms, Ledenice four
+    entries. <strong>The Selce row indicted its own method</strong> — it recorded its zero «under
+    Antić», and one of the entries it had missed is «Margaritam <strong>Antich</strong>».</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">How to probe it yourself</div>
+    <h2>Two instruments, and neither is trustworthy alone</h2>
+    <p><strong>By surname</strong> — what every earlier pass used. It finds a family when the clerk
+    wrote the name the way you expect, and it is silent when he did not. <strong>No list of guesses
+    ever contains «Piberich».</strong></p>
+    <p><strong>By place alone</strong> — <span class="mono">q.anyPlace</span> plus a date window,
+    naming no surname, counting only the rows whose <em>returned</em> place string matches. This is
+    what corrected three of the zeros.</p>
+    <div class="note"><strong>Three rules, each learned by getting it wrong.</strong>
+    <p><strong>1. Run controls.</strong> Karlobag and Senj return 100 of 100 in every window from
+    1700 to 1899. If they do not, the instrument is broken and not the parish.</p>
+    <p><strong>2. Read the place string back.</strong> <strong>«Bribir» is two villages two hundred
+    kilometres apart</strong> and the wrong one outranks ours <strong>593 to 7</strong>.
+    «Smokvica» returned a village in <strong>Slovenia</strong>. Never trust the query you sent.</p>
+    <p><strong>3. Neither probe is authoritative.</strong> The place-only probe returned
+    <strong>zero for Krmpote</strong>, where the surname probe had found a 1895 baptism the same
+    day. A zero means «not found by this instrument» and nothing stronger.</p></div>
+    {fag.length > 0 && <p><strong>And a «Deaths» collection is often not a register.</strong>{" "}
+    {fag.map((r) => <span><em>{r.collection}</em> </span>)}is the <strong>Find a Grave index</strong> —
+    gravestones this archive already holds on <a href={u("/stones/")}>the stones page</a> — sitting
+    in the results looking exactly like a parish death register. It is not counted above.</p>}
+  </section>
+
+  <section class="blk">
+    <div class="lab">Hard edges</div>
+    <h2>Where the indexes start and stop</h2>
+    <p><strong>Karlobag reaches 1733</strong>, and nowhere else reaches the eighteenth century at
+    all. That single fact is why four of this archive's brick walls became lookups.</p>
+    <p><strong>Otočac runs 1830–1858 and stops.</strong> Measured by place census: nothing before
+    1800, one stray at Dabar in 1816, then 83 entries for births 1830–34, 200 for 1835–37, 200 for
+    1855–59 — and <strong>zero</strong> for 1860–64, 1865–69, 1870–74 and 1875–79. That is the
+    filmed book, <em>Otočac baptisms 1834–1858</em>, and nothing after it — though the index begins
+    <strong>four years earlier than the film</strong>.</p>
+    <p><strong>Senj births stop at 1894</strong>, which is what puts two of the open questions out
+    of reach and why the letter to the parish was written.</p>
+    <p class="dek">Measured {I.measured}. The table is kept in
+    <span class="mono">sources/familysearch/indexed.psv</span> and built by
+    <span class="mono">tools/indexcoverage.py</span>.
+    <a href={u("/worklist/")}>The work list this decides →</a></p>
+  </section>
+</Base>
