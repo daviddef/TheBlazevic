@@ -74,3 +74,50 @@ Either it was never right or it has been normalised away.
 
 **Neither is recorded as a correction**, because a probe that fails to reproduce a result is
 not the same as a probe that disproves it. They are noted and left.
+
+---
+
+## And then the opening closed, which is worth recording as carefully as an opening
+
+A densely indexed parish holding 101 of this archive's people looked like the best lead of
+the day. **It is not, and the reason is the caveat this table has carried from the start:
+presence is not completeness.**
+
+**The Kalanj surname appears FIVE times in the whole Novi Vinodolski index** — eight
+spellings tried, *Kalanj · Kalain · Kallayn · Kalanja · Kalanic · Kalany · Calanj · Kalan*,
+as surname and as father's surname — and all five are the one household of Martin Kalanj
+and Marija Peričić, 1893 to 1900. **Nothing earlier. Nothing else.**
+
+**It is not the surname-blindness that caught this archive out at Karlobag.** Tested the
+way that fault is tested — given names only, no surname:
+
+* *father Josephus × mother Rosalia, 1855–1870* — **0**. That is Martin's and Anica's
+  household, and their baptisms are quoted in `corrections.json` from the page itself.
+* *father Josip × mother Rozalija, 1855–1870* — 21 rows, **not one a Kalanj**.
+* *Josephus, 1824–1828* — 24 Novi Vinodolski baptisms, dense and legible: Sokolić,
+  Krišković, Maričić, Petrinović, Mudrovčić, Karlović, Potočnjak, Piskulić, Radetić **and
+  Peričić**. **No Kalanj.**
+
+**Peričić is in the index and Kalanj is not**, in the same parish and the same decade. So
+this is not a spelling failure and not a coverage failure. **The index for this parish
+simply does not hold this family before 1893.**
+
+## And the village is invisible
+
+**«Klenovica» never appears as a place string.** A query for it returns **Cres, Hreljin,
+Lopar, Ravna Gora** — fuzzy matches on other parishes entirely. *Povile* the same. Every
+row in this parish is filed as **«Novi Vinodolski»**, 200 of 200 in the 1800–1860 sample,
+one string and no other.
+
+**So: search Novi Vinodolski, never Klenovica** — and expect the parish and not the village
+in anything that comes back.
+
+## What that leaves
+
+**The 101 Klenovica people are a film read, not a lookup**, in a parish whose index is
+dense for everybody except them. `parishes.psv` gives the films as **baptisms 1650–1900,
+marriages 1674–1859, deaths 1704–1899** — so the book is there, and it is
+[row 32](/worklist/)'s.
+
+**The five indexed entries are still worth having**: they gave Rozalia 1893, whom nobody
+had. But they are the end of what the search box can do here, not the beginning.
