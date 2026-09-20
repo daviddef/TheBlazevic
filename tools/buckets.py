@@ -52,6 +52,21 @@ BUCKET = re.compile(
 #
 # The test is deliberately strict — one letter, then a surname, and NO dates at
 # all — so a real person recorded only by an initial is not swept up with them.
+#
+# MEASURED ACROSS THE WHOLE GEDCOM, 21 September 2026, AND IT IS NOT STRICT
+# ENOUGH TO TRAVEL. It matches 31 records and only 15 are the drawer. The other
+# 16 are in the sister archives and at least ten are REAL PEOPLE recorded by
+# their initials — «H E Corbett», «W Florance Barry», «G Norman D'Arcy»,
+# «N L S Klaassen» — which is an ordinary English and Afrikaans convention.
+# Here that costs nothing, because those surnames are outside this archive's
+# scope. In the kit it would suppress them.
+#
+# THE DRAWER IS A SIBLING SET, NOT A NODE. What makes these fifteen a card
+# drawer is that they are entered as ONE ANOTHER'S SIBLINGS and 82 real people
+# hang off them as children. A sibling set of 3+ whose every member is a lone
+# leading capital with no dates fires ONCE in 15,643 records — on @F501632@ —
+# and would fire zero times in the other six archives.
+# notes/the-alphabet-is-one-drawer-the-test-is-not.md
 ALPHABET = re.compile(r"^\s*[A-Z\u017d\u010c\u0106\u0160\u0110]\s+\S")
 
 
