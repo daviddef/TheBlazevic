@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4324",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:holdings && npm run check:dates && npm run check:stamp",
+    "build": "npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:holdings && npm run check:dates && npm run check:stamp",
     "preview": "astro preview --port 4324",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
@@ -16,10 +16,16 @@
     "check:found": "python3 ../tools/foundcheck.py --quiet",
     "check:holdings": "python3 ../tools/holdingscheck.py --quiet",
     "check:dates": "python3 ../tools/datecheck.py --quiet",
-    "check:stamp": "python3 ../tools/regen.py --check"
+    "check:stamp": "python3 ../tools/regen.py --check",
+    "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root ."
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#145506fb35cba1a0ecdf4b8c529f8ee1c9c76c85",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#4400ea8eec9960bb3cfb639a3958c786630176aa",
     "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.6.2",
+    "typescript": "^5.9.3"
   }
 }
