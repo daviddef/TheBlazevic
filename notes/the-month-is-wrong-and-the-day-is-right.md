@@ -1,6 +1,12 @@
 # Two dates where the tree and the index differ by a month — and what testing it
 # against the archive's own images did to the theory
 
+> **PARTLY SUPERSEDED, 20 September 2026.** Case one — **Milka Lucia Papić** — is
+> **resolved against the index**: her entry was read and published long ago and
+> says **October**, twice, in two hands. Sentences below saying it «is still not
+> settled» and that «one opening decides» are **withdrawn**. Case two, Stephanus
+> Perpić, is still open and now stands alone. See **RESOLVED** at the foot.
+
 *20 September 2026. Written as a hypothesis, then tested the same hour, and the
 test went against it. Kept in full because the shape of the argument is the
 useful part.*

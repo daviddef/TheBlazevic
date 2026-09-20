@@ -1,5 +1,14 @@
 # The index and the tree disagree about when Hedviga's mother was born
 
+> **SUPERSEDED, 20 September 2026 — do not read the argument below as open.**
+> This note concludes that ahnentafel 3's birth date cannot be settled because
+> «there is no image yet». **The page had already been read and is published on
+> this site**, at `/milka`, with the register image: *born 9 October 1886,
+> baptised 17 October*. Her 1907 marriage repeats it as «9/X» in a second hand.
+> **The index is wrong by a month and the conflict was never open.** The reasoning
+> is kept whole because the way it went wrong is the useful part — see
+> **CORRECTED** at the foot.
+
 *20 September 2026. Found by searching the Senj baptism index by PARENTS rather
 than by name, which is the query that finds a household rather than a person.*
 

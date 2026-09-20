@@ -1,5 +1,9 @@
 # Vrbnik or Selce? Four registers, one family of priests, two labels
 
+> **RESOLVED the same day — it is Selce.** The section below headed «this archive
+> cannot choose yet» is **withdrawn**; the choice was made hours later and is set
+> out under **RESOLVED**. The reasoning is kept because it shows what decided it.
+
 Read 14 September 2026 from `photos/line/4505556-josephum-antic-baptism-1806.jpg`,
 **2,962 × 2,167**, on disk since the media sweep.
 

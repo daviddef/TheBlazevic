@@ -43,9 +43,13 @@
 # — Hungarian Katalin — without ever having searched a Hungarian index. Those
 # rows are aids, and the page will mark them as aids.
 #
-# canon|form|lang|note|case
+# canon|form|lang|note|notNominative
 #
-# THE FIFTH COLUMN, added 20 September 2026. `case` used to be DERIVED from
+# THE FIFTH COLUMN, added 20 September 2026 and renamed the next day. It was
+# called `case`, and «abbreviated» is not a grammatical case, so the name lied
+# about its values. It answers WHY THIS FORM IS NOT THE NOMINATIVE.
+#
+# It used to be DERIVED from
 # `note`: if the note happened to read «genitive» it became the case, and if
 # it read anything else the form had no case. So a form could carry a case OR
 # a remark and never both — and in a Latin-register archive «genitive» AND

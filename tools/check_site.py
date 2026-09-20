@@ -185,6 +185,22 @@ if os.path.isdir(DIST):
 else:
     print("skip  built links — site/dist not present")
 
+# ---- a withdrawal at the foot of a note is not a withdrawal ---------------
+# This archive corrects itself by APPENDING, which keeps the reasoning whole and
+# leaves the withdrawn claim stated as fact in the paragraphs above it. Three
+# notes were in that state on 20 September 2026, the worst of them about
+# ahnentafel 3. tools/retiredcheck.py has the argument; it is run here rather
+# than added to package.json because the build chain is the fleet rollout's file.
+import subprocess  # noqa: E402
+
+r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "retiredcheck.py"),
+                    "--quiet"], capture_output=True, text=True)
+if r.returncode:
+    fails.append("withdrawals are announced at the top of the note")
+    print(r.stdout.rstrip() or r.stderr.rstrip())
+else:
+    print("ok    every withdrawal is announced at the top of its note")
+
 print()
 if fails:
     print(f"{len(fails)} check(s) failed: " + ", ".join(fails))

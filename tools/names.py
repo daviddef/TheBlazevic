@@ -76,7 +76,20 @@ def languages():
 LANGS = languages()
 LANGNAME = {l["key"]: l["label"] for l in LANGS}
 
-CASES = {"accusative", "genitive", "dative or ablative", "abbreviated"}
+# WHY THIS FIELD IS NOT CALLED `case`. It was, and «abbreviated» is not a
+# grammatical case, so the name lied about its values — the same fault as a field
+# called `people` holding occurrence counts, which this file also had. What the
+# column answers is WHY THIS FORM IS NOT THE NOMINATIVE.
+#
+# The vocabulary stays closed and stays as this archive measured it. A sister
+# archive proposed splitting «dative or ablative» into two, and in a Latin
+# register that is a distinction without a difference: the dative and the ablative
+# are formally identical in most declensions, and a clerk writing «Josepho» has
+# not told you which he meant. Splitting them would invite a guess. A closed list
+# that prints itself on failure is worth more than a finer one that cannot be
+# applied.
+NOT_NOMINATIVE = {"accusative", "genitive", "dative or ablative", "abbreviated"}
+CASES = NOT_NOMINATIVE  # the old name, until the shared component stops reading it
 
 
 def fold(s):
@@ -138,8 +151,9 @@ def main():
         if not case and note in CASES:
             case = note
         if case and case not in CASES:
-            fails.append(f"{PSV}: «{form}» declares an unknown case «{case}» — "
-                         f"the vocabulary is {' · '.join(sorted(CASES))}")
+            fails.append(f"{PSV}: «{form}» declares an unknown notNominative value "
+                         f"«{case}» — the vocabulary is "
+                         f"{' · '.join(sorted(NOT_NOMINATIVE))}")
         rows.append({"canon": canon, "form": form, "lang": lang,
                      "note": note, "case": case})
         seen.add((canon, fold(form)))
@@ -182,6 +196,12 @@ def main():
             n_att, n_aid = (n_att + 1, n_aid) if hit else (n_att, n_aid + 1)
             by_lang.setdefault(r["lang"], []).append({
                 "form": r["form"], "note": r["note"], "seen": hit,
+                # BOTH KEYS, for as long as the rename is in flight. The shared
+                # component is being changed to read notNominative and fall back
+                # to case; emitting one of them would break whichever side
+                # deployed first. `case` comes out when the component has landed
+                # in the pinned kit — and this comment is how anybody knows that.
+                "notNominative": r["case"],
                 "case": r["case"],
             })
         for v in by_lang.values():
