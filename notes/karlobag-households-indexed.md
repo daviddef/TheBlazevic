@@ -73,3 +73,44 @@ today naming the wrong mother for ahnentafel 106 and giving Zvonimir Vukelić's
 mother a surname the archive read differently off the film.
 
 **The index finds the page. The page settles the fact.**
+
+---
+
+# Two more households, and two things the index disagrees with the tree about
+
+## Ahnentafel 42 × 43 — Marcus Orešković and Lucia Sekula, Otočac
+
+**This couple is indexed under both surnames too**, and the tree already knew:
+it carries two of their children as *«Orešković Oreskovic **Sekula**»*. So
+*«Marcus Sekula × Lucia»* and *«Marcus Oresković × Lucia Sekula»* are one
+household, and a searcher who queries one surname finds half the children.
+
+**Two children the tree does not have**: **Michael, 26 September 1841**, and
+**Paulus, 29 June 1846**.
+
+**Paulus is a twin.** *Petrus*, whom the tree does have, was baptised **the same
+day to the same parents** — arks `QKMK-SQMV` and `QKMK-SQML`. This archive's
+duplicate detector has a tier for *«same day, same parents»* and treats it as
+near-conclusive evidence of one person entered twice. **Here it is two boys**,
+and the reason to believe that is the reason the tier exists at all: the
+discriminator is whether anything else separates them, and two different given
+names on two different arks do.
+
+**And the sexes are swapped.** The tree has *Francisca* in **1840** and
+*Franciscus* in **1844**. The index has **Franciscus 5 March 1840** and
+**Francisca 3 June 1844** — the same two years, the same parents, the opposite
+sexes. One of the two is wrong and this archive does not know which.
+
+## Ahnentafel 26 × 27 — Vicentius Pilipić and Matia Uroda, Karlobag
+
+**Two children the tree does not have**: **Maria Catharina, 25 January 1834** —
+four years before ahnentafel 13 — and **Georgius, 18 November 1841**. The
+index also confirms *Josephus, 14 October 1835*, whom the tree carries as
+*Joso*.
+
+## And one household the index cannot reach
+
+**Ahnentafel 40 × 41, Toma Žubrinić and Marija Findrić.** Their child
+ahnentafel 20 was born in **1811** and the Otočac index begins at **1834**.
+The query returns forty other Žubrinić households at Otočac and not theirs.
+**That is coverage, not spelling**, and no amount of surname variation fixes it.

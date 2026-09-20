@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 38,
+ "count": 42,
  "onDirectLine": 2,
  "places": {
-  "Karlobag": 29,
+  "Karlobag": 31,
   "Otocac": 1,
-  "Otočac": 1,
+  "Otočac": 3,
   "Prozor, Otočac": 2,
   "Selce": 2,
   "Senj": 1,
@@ -353,6 +353,42 @@
    "date": "5 December 1788",
    "place": "Karlobag",
    "citation": "Karlobag births, indexed — «Vincentio Smoÿver × Oliva»; ark 1:1:QKMX-YJ2M"
+  },
+  {
+   "name": "Michael Sekula",
+   "ahn": null,
+   "relation": "son of ahnentafel 42 and 43, and not in the tree",
+   "event": "baptism",
+   "date": "26 September 1841",
+   "place": "Otočac",
+   "citation": "Otočac births, indexed — «Marcus Sekula × Lucia»; ark 1:1:QKMK-SKPG. The couple is indexed under BOTH surnames, and the tree itself carries two of their children as «Orešković Oreskovic Sekula»"
+  },
+  {
+   "name": "Paulus Sekula",
+   "ahn": null,
+   "relation": "son of ahnentafel 42 and 43, and not in the tree — TWIN of Petrus",
+   "event": "baptism",
+   "date": "29 June 1846",
+   "place": "Otočac",
+   "citation": "Otočac births, indexed — «Marcus Sekula × Lucia»; ark 1:1:QKMK-SQML. Petrus, whom the tree has, was baptised the SAME DAY to the same parents: ark 1:1:QKMK-SQMV. Twins, not a duplicate"
+  },
+  {
+   "name": "Mariam Catharinam Pilipich",
+   "ahn": null,
+   "relation": "daughter of ahnentafel 26 and 27, and not in the tree",
+   "event": "baptism",
+   "date": "25 January 1834",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Vincentü Pilipich × Matthææ Urade»; ark 1:1:QKMX-BJJT. Four years before ahnentafel 13"
+  },
+  {
+   "name": "Georgium Pilipich",
+   "ahn": null,
+   "relation": "son of ahnentafel 26 and 27, and not in the tree",
+   "event": "baptism",
+   "date": "18 November 1841",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Vincentü Pilipich × Mathiæ Uroda»; ark 1:1:QKMX-BQD8"
   }
  ]
 }
