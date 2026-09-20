@@ -43,20 +43,36 @@
 # — Hungarian Katalin — without ever having searched a Hungarian index. Those
 # rows are aids, and the page will mark them as aids.
 #
-# canon|form|lang|note
+# canon|form|lang|note|case
+#
+# THE FIFTH COLUMN, added 20 September 2026. `case` used to be DERIVED from
+# `note`: if the note happened to read «genitive» it became the case, and if
+# it read anything else the form had no case. So a form could carry a case OR
+# a remark and never both — and in a Latin-register archive «genitive» AND
+# «the form of arrival» are both worth saying about one word.
+#
+# Thirty-six rows had a case sitting in the note field. They have been moved
+# across, leaving the note free. A four-column row still works exactly as it
+# did, note-derivation included, because five sister archives are about to
+# write tables of their own and none of them should have to migrate first.
+#
+# The vocabulary is accusative · genitive · dative or ablative · abbreviated,
+# and the build refuses anything else. «abbreviated» is not a grammatical
+# case and is in the list anyway, because what the column really answers is
+# «why is this form not the nominative».
 ana|ana|croatian|
 ana|anica|croatian|diminutive
 ana|anka|croatian|diminutive
 ana|ankica|croatian|double diminutive
 ana|anna|latin|
-ana|annam|latin|accusative
+ana|annam|latin||accusative
 ana|hana|croatian|
 ana|anne|english|
 ana|annie|english|
 ana|Ilona|hungarian|
 andrija|andre|croatian|
 andrija|andrea|italian|a man's name in Italian
-andrija|andream|latin|accusative
+andrija|andream|latin||accusative
 andrija|andreas|latin|
 andrija|andrija|croatian|
 andrija|andrew|english|
@@ -64,7 +80,7 @@ andrija|András|hungarian|
 ante|ante|croatian|
 ante|anton|croatian|
 ante|antonio|italian|
-ante|antonium|latin|accusative
+ante|antonium|latin||accusative
 ante|antonius|latin|
 ante|antun|croatian|
 ante|tone|croatian|short form
@@ -74,7 +90,7 @@ ante|anton|german|
 ante|Antal|hungarian|
 antonija|antica|croatian|diminutive
 antonija|antonia|latin|
-antonija|antoniam|latin|accusative
+antonija|antoniam|latin||accusative
 antonija|antonija|croatian|
 antonija|toncika|croatian|diminutive
 antonija|tonica|croatian|diminutive
@@ -84,7 +100,7 @@ antonija|Antónia|hungarian|
 elizabeta|ela|croatian|short form
 elizabeta|elizabeta|croatian|
 elizabeta|helena|latin|
-elizabeta|helenam|latin|accusative
+elizabeta|helenam|latin||accusative
 elizabeta|jela|croatian|short form
 elizabeta|jelena|croatian|
 elizabeta|elisabetha|latin|
@@ -93,28 +109,28 @@ elizabeta|Erzsébet|hungarian|
 franciska|fanika|croatian|diminutive
 franciska|francika|croatian|
 franciska|francisca|latin|
-franciska|franciscam|latin|accusative
+franciska|franciscam|latin||accusative
 franciska|franciska|croatian|
 franciska|franka|croatian|
 franciska|frances|english|
 franciska|Franciska|hungarian|
 franjo|fran|croatian|short form
 franjo|francesco|italian|
-franjo|franciscum|latin|accusative
+franjo|franciscum|latin||accusative
 franjo|franciscus|latin|
 franjo|frane|croatian|
 franjo|franjo|croatian|
 franjo|frank|english|the form of arrival
 franjo|franz|german|
 franjo|Ferenc|hungarian|
-grgur|gregorium|latin|accusative
+grgur|gregorium|latin||accusative
 grgur|gregorius|latin|
 grgur|grga|croatian|short form
 grgur|grgica|croatian|diminutive
 grgur|grgur|croatian|
 grgur|gregory|english|
 grgur|Gergely|hungarian|
-ilija|eliam|latin|accusative
+ilija|eliam|latin||accusative
 ilija|elias|latin|
 ilija|ilia|croatian|
 ilija|ilija|croatian|
@@ -126,10 +142,10 @@ ivan|ivan|croatian|
 ivan|ive|croatian|short form
 ivan|ivica|croatian|diminutive
 ivan|ivo|croatian|short form
-ivan|joann|latin|abbreviated
-ivan|joannem|latin|accusative
+ivan|joann|latin||abbreviated
+ivan|joannem|latin||accusative
 ivan|joannes|latin|
-ivan|joannis|latin|genitive
+ivan|joannis|latin||genitive
 ivan|john|english|
 ivan|jovan|croatian|
 ivan|juan|english|as written in an Australian index
@@ -138,7 +154,7 @@ ivan|johann|german|
 ivan|János|hungarian|
 jakov|jaco|croatian|short form
 jakov|jacob|latin|
-jakov|jacobum|latin|accusative
+jakov|jacobum|latin||accusative
 jakov|jacobus|latin|
 jakov|jakob|croatian|
 jakov|jakov|croatian|
@@ -147,8 +163,8 @@ jakov|james|english|
 jakov|Jakab|hungarian|
 josip|giuseppe|italian|
 josip|joseph|english|
-josip|josephi|latin|genitive
-josip|josephum|latin|accusative
+josip|josephi|latin||genitive
+josip|josephum|latin||accusative
 josip|josephus|latin|
 josip|josip|croatian|
 josip|joso|croatian|short form
@@ -160,9 +176,9 @@ josip|josef|german|
 josip|József|hungarian|
 juraj|djuro|croatian|
 juraj|george|english|
-juraj|georgii|latin|genitive
-juraj|georgio|latin|dative or ablative
-juraj|georgium|latin|accusative
+juraj|georgii|latin||genitive
+juraj|georgio|latin||dative or ablative
+juraj|georgium|latin||accusative
 juraj|georgius|latin|
 juraj|gjuka|croatian|diminutive
 juraj|gjuro|croatian|
@@ -174,7 +190,7 @@ juraj|georg|german|
 juraj|György|hungarian|
 katarina|catarina|latin|
 katarina|catharina|latin|
-katarina|catharinam|latin|accusative
+katarina|catharinam|latin||accusative
 katarina|catta|croatian|short form
 katarina|kata|croatian|short form
 katarina|katarina|croatian|
@@ -186,11 +202,11 @@ katarina|Katalin|hungarian|and this archive holds a KATALYN Zubrinich
 lucija|luca|latin|
 lucija|luce|croatian|short form
 lucija|lucia|latin|
-lucija|luciam|latin|accusative
+lucija|luciam|latin||accusative
 lucija|lucija|croatian|
 lucija|lucy|english|
 lucija|luca|italian|
-luka|lucam|latin|accusative
+luka|lucam|latin||accusative
 luka|lucas|latin|
 luka|luce|croatian|short form
 luka|luka|croatian|
@@ -214,7 +230,7 @@ margarita|Margit|hungarian|
 marija|mara|croatian|short form
 marija|mare|croatian|short form
 marija|maria|latin|
-marija|mariam|latin|accusative
+marija|mariam|latin||accusative
 marija|marica|croatian|diminutive
 marija|marija|croatian|
 marija|mary|english|
@@ -222,13 +238,13 @@ marija|mica|croatian|diminutive
 marija|maria|italian|
 marija|Mária|hungarian|
 martin|martin|croatian|
-martin|martinum|latin|accusative
+martin|martinum|latin||accusative
 martin|martinus|latin|
 martin|martino|italian|
 martin|Márton|hungarian|
 matija|mate|croatian|short form
 matija|matej|croatian|
-matija|mathiam|latin|accusative
+matija|mathiam|latin||accusative
 matija|mathias|latin|
 matija|matia|latin|
 matija|matija|croatian|
@@ -236,14 +252,14 @@ matija|mato|croatian|short form
 matija|matthaeus|latin|
 matija|Matthäus|german|
 matija|matthea|latin|
-matija|mattheam|latin|accusative
+matija|mattheam|latin||accusative
 matija|matthias|latin|
 matija|matthew|english|
 matija|matteo|italian|
 matija|Mátyás|hungarian|
 mihovil|michael|latin|
-mihovil|michaelem|latin|accusative
-mihovil|michaelis|latin|genitive
+mihovil|michaelem|latin||accusative
+mihovil|michaelis|latin||genitive
 mihovil|miho|croatian|short form
 mihovil|mihovil|croatian|
 mihovil|mijo|croatian|short form
@@ -254,8 +270,8 @@ mihovil|michiel|venetian|
 mihovil|michael|german|
 mihovil|Mihály|hungarian|
 nikola|miko|croatian|short form
-nikola|nicolai|latin|genitive
-nikola|nicolaum|latin|accusative
+nikola|nicolai|latin||genitive
+nikola|nicolaum|latin||accusative
 nikola|nicolaus|latin|
 nikola|niko|croatian|short form
 nikola|nikola|croatian|
@@ -264,8 +280,8 @@ nikola|nicholas|english|
 nikola|Nicolò|italian|
 nikola|Miklós|hungarian|
 pavao|paul|english|
-pavao|pauli|latin|genitive
-pavao|paulum|latin|accusative
+pavao|pauli|latin||genitive
+pavao|paulum|latin||accusative
 pavao|paulus|latin|
 pavao|pavao|croatian|
 pavao|pave|croatian|short form
@@ -276,12 +292,12 @@ petar|pere|croatian|short form
 petar|pero|croatian|short form
 petar|petar|croatian|
 petar|peter|english|
-petar|petrum|latin|accusative
+petar|petrum|latin||accusative
 petar|petrus|latin|
 petar|pietro|italian|
 petar|peter|german|
 petar|Péter|hungarian|
-stjepan|stephanum|latin|accusative
+stjepan|stephanum|latin||accusative
 stjepan|stephanus|latin|
 stjepan|steve|english|
 stjepan|stevo|croatian|short form
@@ -298,7 +314,7 @@ terezija|theresia|latin|
 terezija|theresa|english|
 terezija|therese|german|
 terezija|Terézia|hungarian|
-toma|thomam|latin|accusative
+toma|thomam|latin||accusative
 toma|thomas|latin|
 toma|toma|croatian|
 toma|tome|croatian|short form
@@ -311,7 +327,7 @@ vinko|vicentius|latin|as the clerk spelt it
 vinko|vicko|croatian|short form
 vinko|vincenc|croatian|
 vinko|vincent|english|
-vinko|vincentium|latin|accusative
+vinko|vincentium|latin||accusative
 vinko|vincentius|latin|
 vinko|vinko|croatian|
 vinko|vincenzo|italian|
@@ -352,7 +368,7 @@ ivana|Ivka|croatian|diminutive
 ivana|Iva|croatian|short form
 ivana|Janja|croatian|
 ivana|joanna|latin|
-ivana|joannam|latin|accusative
+ivana|joannam|latin||accusative
 ivana|johanna|latin|
 ivana|jane|english|
 ivana|joan|english|

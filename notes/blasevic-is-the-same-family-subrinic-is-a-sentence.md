@@ -62,3 +62,23 @@ is why the tool prints every cluster and waits.**
 list of files to read, or skip a declared set of narrative files, so that a fold is proposed
 only from records. `perpič → perpic` was in the same run and is an ordinary accent fold,
 accepted without question.
+
+---
+
+## The kit fixed it, and Subrinic will drop out on its own
+
+**Same day.** The suggestion above was taken: `corpus()` now skips sixteen narrative
+filenames, in archive-kit `66328a11`. On this archive that removes **Subrinic from the
+clusters entirely** — which is the right answer, because it was never anybody's name, only
+two tokens inside a sentence about a search that failed. On Booyzen it changes nothing:
+thirteen clusters and seventy forms before and after.
+
+**Nothing to undo here.** The fold is harmless and stays until the pinned kit reaches that
+commit; `site/package.json` is managed by the fleet rollout and is not this session's file
+to bump. **When the pin lands, re-run `namefold.py --root site --all` and expect one
+proposal — Blasevic — where there were two.** The Blasevic decision is unaffected: it rests
+on twenty-five siblings against two in the GEDCOM, not on the corpus scan.
+
+**And the reasoning for keeping Subrinic was confirmed rather than overturned**: folding is
+allowed to miss and not allowed to join, and there was no Subrinic family for it to join
+anything to. The fix removes the *accident*, not the judgement.

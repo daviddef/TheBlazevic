@@ -34,7 +34,7 @@ registers» when thirty-one per cent of them did not, and that is the failure
 this gate exists to prevent.
 
 Reads  sources/languages.psv        key → label, note: the archive's own languages
-       sources/givennames.psv       form → language, written by hand
+       sources/givennames.psv       canon|form|lang|note|case, written by hand
        site/src/data/givennames.json  the fold, and what the records contain
        site/src/data/latincases.json  which people are recorded in an oblique case
 Writes site/src/data/names.json
@@ -115,7 +115,7 @@ def main():
             attested.setdefault(canon, {})
             attested[canon][fold(form)] = attested[canon].get(fold(form), 0) + n
 
-    rows, seen = [], set()
+    rows, seen, fails = [], set(), []
     for line in open(PSV, encoding="utf-8"):
         line = line.rstrip("\n")
         if not line.strip() or line.startswith("#"):
@@ -129,10 +129,21 @@ def main():
         if form[:1].islower():
             form = form[:1].upper() + form[1:]
         note = parts[3] if len(parts) > 3 else ""
-        rows.append({"canon": canon, "form": form, "lang": lang, "note": note})
+        # THE FIFTH COLUMN, and the fallback that lets sister archives keep
+        # four. `case` used to be derived from `note` -- if the note read
+        # «genitive» it became the case -- so a form could carry a case OR a
+        # remark and never both. It is its own column now. A four-column row
+        # still behaves exactly as it did.
+        case = parts[4] if len(parts) > 4 else ""
+        if not case and note in CASES:
+            case = note
+        if case and case not in CASES:
+            fails.append(f"{PSV}: «{form}» declares an unknown case «{case}» — "
+                         f"the vocabulary is {' · '.join(sorted(CASES))}")
+        rows.append({"canon": canon, "form": form, "lang": lang,
+                     "note": note, "case": case})
         seen.add((canon, fold(form)))
 
-    fails = []
     known = set(given["groups"]) | set(given["observed"])
     for r in rows:
         if r["canon"] not in known:
@@ -171,7 +182,7 @@ def main():
             n_att, n_aid = (n_att + 1, n_aid) if hit else (n_att, n_aid + 1)
             by_lang.setdefault(r["lang"], []).append({
                 "form": r["form"], "note": r["note"], "seen": hit,
-                "case": r["note"] if r["note"] in CASES else "",
+                "case": r["case"],
             })
         for v in by_lang.values():
             v.sort(key=lambda x: (not x["seen"], bool(x["case"]), fold(x["form"])))
