@@ -1,10 +1,10 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 55,
+ "count": 57,
  "onDirectLine": 2,
  "places": {
   "Karlobag": 40,
-  "Krivi Put": 3,
+  "Krivi Put": 5,
   "Otocac": 1,
   "Otočac": 3,
   "Prozor, Otočac": 2,
@@ -507,6 +507,24 @@
    "date": "7 November 1844",
    "place": "Selce",
    "citation": "Selce births, indexed — «Father Josephi Antich, Mother Margaritæ»; ark 1:1:QKMJ-MSB9. Recorded to rule her out: ahnentafel 24's wife is Maria Jelličić, not Margarita, and he died in 1850 with Maria outliving him to 1882, so there was no second marriage. Found by a place-only probe after this parish was recorded as unindexed under the surname Antić"
+  },
+  {
+   "name": "Martha Perpič",
+   "ahn": null,
+   "relation": "daughter of ahnentafel 14 and 15; CANDIDATE elder sister of ahnentafel 7",
+   "event": "baptism",
+   "date": "29 July 1853",
+   "place": "Krivi Put",
+   "citation": "Krivi Put births, indexed — «Ivana Perpič × Lucia Perpič»; ark 1:1:XQM9-ZV9G. CANDIDATE only: at least two Joannes Perpić households sit at Krivi Put in this decade, one of them married to a Francisca"
+  },
+  {
+   "name": "Tomu Perpić",
+   "ahn": null,
+   "relation": "son of ahnentafel 14 and 15; CANDIDATE elder brother of ahnentafel 7",
+   "event": "baptism",
+   "date": "14 December 1856",
+   "place": "Krivi Put",
+   "citation": "Krivi Put births, indexed — «Ivana Perpić × Luce Perpić»; ark 1:1:XQM9-C5W2. CANDIDATE only, for the same reason as Martha 1853"
   }
  ]
 }
