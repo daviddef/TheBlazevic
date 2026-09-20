@@ -80,7 +80,7 @@ const pct = Math.round(100 * N.attested / N.totalForms);
   </section>
 
   <SayYourName rows={N.rows} u={u}
-    langs={N.languages.map((l) => ({ key: l.key, label: l.name, note: l.blurb }))}
+    langs={N.languages}
     chips={["Mihovil", "Josephus", "Zuane", "Math\u00e6us", "Jurko", "Katalin",
             "Gregorium", "Joso", "Frank", "Mih\u00e1ly"]} />
 

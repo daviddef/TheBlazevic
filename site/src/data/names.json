@@ -3,38 +3,38 @@
  "languages": [
   {
    "key": "latin",
-   "name": "Latin",
-   "blurb": "The language of every Catholic register in these parishes until the 1820s and of many for decades after. This is how the priest actually wrote it — and he wrote it in whatever case the sentence needed."
+   "label": "Latin",
+   "note": "The language of every Catholic register in these parishes until the 1820s and of many for decades after. This is how the priest actually wrote it — and he wrote it in whatever case the sentence needed."
   },
   {
    "key": "croatian",
-   "name": "Croatian",
-   "blurb": "The language of the villages, of the Vinodol and the Velebit coast, and of every document after 1945. It is also where the short forms live: a man baptised Josephus is Joso all his life."
+   "label": "Croatian",
+   "note": "The language of the villages, of the Vinodol and the Velebit coast, and of every document after 1945. It is also where the short forms live: a man baptised Josephus is Joso all his life."
   },
   {
    "key": "italian",
-   "name": "Italian",
-   "blurb": "The Austrian administration's other language, and the one the coast traded in. Rarely the register's language this far south, but the form an Italian index will hold."
+   "label": "Italian",
+   "note": "The Austrian administration's other language, and the one the coast traded in. Rarely the register's language this far south, but the form an Italian index will hold."
   },
   {
    "key": "venetian",
-   "name": "Venetian",
-   "blurb": "Not a dialect of Italian but the language of the Republic. It gives Zuane for Giovanni."
+   "label": "Venetian",
+   "note": "Not a dialect of Italian but the language of the Republic. It gives Zuane for Giovanni."
   },
   {
    "key": "german",
-   "name": "German",
-   "blurb": "The Habsburg bureaucracy, the military Frontier's own paperwork, and the wartime cards at Reutlingen."
+   "label": "German",
+   "note": "The Habsburg bureaucracy, the military Frontier's own paperwork, and the wartime cards at Reutlingen."
   },
   {
    "key": "hungarian",
-   "name": "Hungarian",
-   "blurb": "Senj was Zengg to the Hungarian press and Fiume was a corpus separatum of the Crown of St Stephen. Almost nothing here is written in it — which is the point: these are the forms to type into an index nobody has searched."
+   "label": "Hungarian",
+   "note": "Senj was Zengg to the Hungarian press and Fiume was a corpus separatum of the Crown of St Stephen. Almost nothing here is written in it — which is the point: these are the forms to type into an index nobody has searched."
   },
   {
    "key": "english",
-   "name": "English",
-   "blurb": "The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it."
+   "label": "English",
+   "note": "The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it."
   }
  ],
  "totalForms": 340,
@@ -43,12 +43,15 @@
  "rows": [
   {
    "canon": "ana",
+   "label": "Ana",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 51,
    "forms": 12,
    "attested": 6,
-   "people": 48,
+   "people": 51,
+   "tokens": 48,
    "commonest": "anna",
    "langs": {
     "croatian": [
@@ -136,12 +139,15 @@
   },
   {
    "canon": "andrija",
+   "label": "Andrija",
    "sex": "m",
+   "sexDisputed": false,
    "men": 8,
    "women": 0,
    "forms": 7,
    "attested": 3,
    "people": 8,
+   "tokens": 8,
    "commonest": "andreas",
    "langs": {
     "croatian": [
@@ -201,12 +207,15 @@
   },
   {
    "canon": "ante",
+   "label": "Ante",
    "sex": "m",
+   "sexDisputed": true,
    "men": 47,
    "women": 1,
    "forms": 11,
    "attested": 5,
-   "people": 47,
+   "people": 48,
+   "tokens": 47,
    "commonest": "antonius",
    "langs": {
     "croatian": [
@@ -292,12 +301,15 @@
   },
   {
    "canon": "antonija",
+   "label": "Antonija",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 18,
    "forms": 9,
    "attested": 6,
-   "people": 17,
+   "people": 18,
+   "tokens": 17,
    "commonest": "antonija",
    "langs": {
     "croatian": [
@@ -367,12 +379,15 @@
   },
   {
    "canon": "blaz",
+   "label": "Blaz",
    "sex": "",
+   "sexDisputed": false,
    "men": 4,
    "women": 0,
    "forms": 6,
    "attested": 2,
-   "people": 3,
+   "people": 4,
+   "tokens": 3,
    "commonest": "blaz",
    "langs": {
     "croatian": [
@@ -426,12 +441,15 @@
   },
   {
    "canon": "bozica",
+   "label": "Bozica",
    "sex": "",
+   "sexDisputed": false,
    "men": 0,
    "women": 3,
    "forms": 2,
    "attested": 2,
    "people": 3,
+   "tokens": 3,
    "commonest": "bozica",
    "langs": {
     "croatian": [
@@ -453,12 +471,15 @@
   },
   {
    "canon": "elizabeta",
+   "label": "Elizabeta",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 11,
    "forms": 9,
    "attested": 3,
-   "people": 7,
+   "people": 11,
+   "tokens": 7,
    "commonest": "helena",
    "langs": {
     "croatian": [
@@ -536,12 +557,15 @@
   },
   {
    "canon": "franciska",
+   "label": "Franciska",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 24,
    "forms": 8,
    "attested": 5,
    "people": 24,
+   "tokens": 24,
    "commonest": "francisca",
    "langs": {
     "croatian": [
@@ -605,12 +629,15 @@
   },
   {
    "canon": "franjo",
+   "label": "Franjo",
    "sex": "m",
+   "sexDisputed": true,
    "men": 41,
    "women": 4,
    "forms": 10,
    "attested": 4,
-   "people": 44,
+   "people": 45,
+   "tokens": 44,
    "commonest": "franciscus",
    "langs": {
     "croatian": [
@@ -712,12 +739,15 @@
   },
   {
    "canon": "grgur",
+   "label": "Grgur",
    "sex": "m",
+   "sexDisputed": false,
    "men": 12,
    "women": 0,
    "forms": 7,
    "attested": 4,
-   "people": 10,
+   "people": 12,
+   "tokens": 10,
    "commonest": "gregorius",
    "langs": {
     "latin": [
@@ -775,12 +805,15 @@
   },
   {
    "canon": "ilija",
+   "label": "Ilija",
    "sex": "m",
+   "sexDisputed": false,
    "men": 9,
    "women": 0,
    "forms": 6,
    "attested": 3,
-   "people": 8,
+   "people": 9,
+   "tokens": 8,
    "commonest": "elias",
    "langs": {
     "latin": [
@@ -832,12 +865,15 @@
   },
   {
    "canon": "ivan",
+   "label": "Ivan",
    "sex": "m",
+   "sexDisputed": false,
    "men": 103,
    "women": 0,
    "forms": 16,
    "attested": 6,
-   "people": 102,
+   "people": 103,
+   "tokens": 102,
    "commonest": "joannes",
    "langs": {
     "italian": [
@@ -1054,12 +1090,15 @@
   },
   {
    "canon": "ivana",
+   "label": "Ivana",
    "sex": "f",
+   "sexDisputed": true,
    "men": 3,
    "women": 21,
    "forms": 13,
    "attested": 7,
    "people": 24,
+   "tokens": 24,
    "commonest": "ivka",
    "langs": {
     "croatian": [
@@ -1157,12 +1196,15 @@
   },
   {
    "canon": "jakov",
+   "label": "Jakov",
    "sex": "m",
+   "sexDisputed": false,
    "men": 12,
    "women": 0,
    "forms": 9,
    "attested": 4,
    "people": 12,
+   "tokens": 12,
    "commonest": "jacobus",
    "langs": {
     "croatian": [
@@ -1242,12 +1284,15 @@
   },
   {
    "canon": "jakovina",
+   "label": "Jakovina",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 1,
    "forms": 4,
    "attested": 0,
-   "people": 0,
+   "people": 1,
+   "tokens": 0,
    "commonest": "",
    "langs": {
     "croatian": [
@@ -1285,12 +1330,15 @@
   },
   {
    "canon": "josip",
+   "label": "Josip",
    "sex": "m",
+   "sexDisputed": false,
    "men": 70,
    "women": 0,
    "forms": 13,
    "attested": 5,
-   "people": 69,
+   "people": 70,
+   "tokens": 69,
    "commonest": "josephus",
    "langs": {
     "italian": [
@@ -1424,12 +1472,15 @@
   },
   {
    "canon": "josipa",
+   "label": "Josipa",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 2,
    "forms": 7,
    "attested": 0,
-   "people": 0,
+   "people": 2,
+   "tokens": 0,
    "commonest": "",
    "langs": {
     "croatian": [
@@ -1491,12 +1542,15 @@
   },
   {
    "canon": "juraj",
+   "label": "Juraj",
    "sex": "m",
+   "sexDisputed": false,
    "men": 29,
    "women": 0,
    "forms": 14,
    "attested": 5,
-   "people": 28,
+   "people": 29,
+   "tokens": 28,
    "commonest": "georgius",
    "langs": {
     "croatian": [
@@ -1622,12 +1676,15 @@
   },
   {
    "canon": "jurja",
+   "label": "Jurja",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 3,
    "forms": 5,
    "attested": 0,
-   "people": 0,
+   "people": 3,
+   "tokens": 0,
    "commonest": "",
    "langs": {
     "croatian": [
@@ -1673,12 +1730,15 @@
   },
   {
    "canon": "katarina",
+   "label": "Katarina",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 46,
    "forms": 11,
    "attested": 7,
    "people": 46,
+   "tokens": 46,
    "commonest": "catharina",
    "langs": {
     "latin": [
@@ -1772,12 +1832,15 @@
   },
   {
    "canon": "lucija",
+   "label": "Lucija",
    "sex": "f",
+   "sexDisputed": true,
    "men": 3,
    "women": 25,
    "forms": 8,
    "attested": 4,
-   "people": 25,
+   "people": 28,
+   "tokens": 25,
    "commonest": "lucia",
    "langs": {
     "latin": [
@@ -1841,12 +1904,15 @@
   },
   {
    "canon": "luka",
+   "label": "Luka",
    "sex": "m",
+   "sexDisputed": true,
    "men": 9,
    "women": 3,
    "forms": 7,
    "attested": 3,
-   "people": 11,
+   "people": 12,
+   "tokens": 11,
    "commonest": "lucas",
    "langs": {
     "latin": [
@@ -1906,12 +1972,15 @@
   },
   {
    "canon": "magdalena",
+   "label": "Magdalena",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 21,
    "forms": 7,
    "attested": 3,
    "people": 21,
+   "tokens": 21,
    "commonest": "magdalena",
    "langs": {
     "croatian": [
@@ -1969,12 +2038,15 @@
   },
   {
    "canon": "margarita",
+   "label": "Margarita",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 17,
    "forms": 8,
    "attested": 4,
    "people": 17,
+   "tokens": 17,
    "commonest": "marta",
    "langs": {
     "croatian": [
@@ -2040,12 +2112,15 @@
   },
   {
    "canon": "marija",
+   "label": "Marija",
    "sex": "f",
+   "sexDisputed": true,
    "men": 1,
    "women": 108,
    "forms": 11,
    "attested": 8,
    "people": 109,
+   "tokens": 109,
    "commonest": "maria",
    "langs": {
     "croatian": [
@@ -2158,12 +2233,15 @@
   },
   {
    "canon": "martin",
+   "label": "Martin",
    "sex": "m",
+   "sexDisputed": false,
    "men": 13,
    "women": 0,
    "forms": 5,
    "attested": 2,
    "people": 13,
+   "tokens": 13,
    "commonest": "martinus",
    "langs": {
     "croatian": [
@@ -2209,12 +2287,15 @@
   },
   {
    "canon": "matija",
+   "label": "Matija",
    "sex": "m",
+   "sexDisputed": true,
    "men": 32,
    "women": 8,
    "forms": 18,
    "attested": 11,
    "people": 40,
+   "tokens": 40,
    "commonest": "mate",
    "langs": {
     "croatian": [
@@ -2357,12 +2438,15 @@
   },
   {
    "canon": "mihovil",
+   "label": "Mihovil",
    "sex": "m",
+   "sexDisputed": false,
    "men": 39,
    "women": 0,
    "forms": 12,
    "attested": 8,
-   "people": 37,
+   "people": 39,
+   "tokens": 37,
    "commonest": "michael",
    "langs": {
     "latin": [
@@ -2471,12 +2555,15 @@
   },
   {
    "canon": "nikola",
+   "label": "Nikola",
    "sex": "m",
+   "sexDisputed": true,
    "men": 28,
    "women": 2,
    "forms": 11,
    "attested": 5,
-   "people": 29,
+   "people": 30,
+   "tokens": 29,
    "commonest": "nikola",
    "langs": {
     "croatian": [
@@ -2568,12 +2655,15 @@
   },
   {
    "canon": "olga",
+   "label": "Olga",
    "sex": "",
+   "sexDisputed": false,
    "men": 0,
    "women": 2,
    "forms": 2,
    "attested": 2,
    "people": 2,
+   "tokens": 2,
    "commonest": "olga",
    "langs": {
     "croatian": [
@@ -2597,12 +2687,15 @@
   },
   {
    "canon": "paulina",
+   "label": "Paulina",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 3,
    "forms": 8,
    "attested": 5,
    "people": 3,
+   "tokens": 3,
    "commonest": "paulina",
    "langs": {
     "croatian": [
@@ -2668,12 +2761,15 @@
   },
   {
    "canon": "pavao",
+   "label": "Pavao",
    "sex": "m",
+   "sexDisputed": false,
    "men": 21,
    "women": 0,
    "forms": 10,
    "attested": 6,
    "people": 21,
+   "tokens": 21,
    "commonest": "paulus",
    "langs": {
     "english": [
@@ -2780,12 +2876,15 @@
   },
   {
    "canon": "petar",
+   "label": "Petar",
    "sex": "m",
+   "sexDisputed": true,
    "men": 17,
    "women": 1,
    "forms": 9,
    "attested": 2,
    "people": 18,
+   "tokens": 18,
    "commonest": "petrus",
    "langs": {
     "croatian": [
@@ -2859,12 +2958,15 @@
   },
   {
    "canon": "simun",
+   "label": "Simun",
    "sex": "",
+   "sexDisputed": false,
    "men": 4,
    "women": 0,
    "forms": 8,
    "attested": 2,
-   "people": 2,
+   "people": 4,
+   "tokens": 2,
    "commonest": "simun",
    "langs": {
     "croatian": [
@@ -2940,12 +3042,15 @@
   },
   {
    "canon": "stjepan",
+   "label": "Stjepan",
    "sex": "m",
+   "sexDisputed": false,
    "men": 21,
    "women": 0,
    "forms": 10,
    "attested": 3,
    "people": 21,
+   "tokens": 21,
    "commonest": "stephanus",
    "langs": {
     "latin": [
@@ -3023,12 +3128,15 @@
   },
   {
    "canon": "terezija",
+   "label": "Terezija",
    "sex": "f",
+   "sexDisputed": false,
    "men": 0,
    "women": 16,
    "forms": 8,
    "attested": 3,
-   "people": 15,
+   "people": 16,
+   "tokens": 15,
    "commonest": "tereza",
    "langs": {
     "italian": [
@@ -3096,12 +3204,15 @@
   },
   {
    "canon": "toma",
+   "label": "Toma",
    "sex": "m",
+   "sexDisputed": false,
    "men": 34,
    "women": 0,
    "forms": 9,
    "attested": 5,
-   "people": 32,
+   "people": 34,
+   "tokens": 32,
    "commonest": "thomas",
    "langs": {
     "latin": [
@@ -3173,12 +3284,15 @@
   },
   {
    "canon": "vinko",
+   "label": "Vinko",
    "sex": "m",
+   "sexDisputed": false,
    "men": 9,
    "women": 0,
    "forms": 8,
    "attested": 4,
    "people": 9,
+   "tokens": 9,
    "commonest": "vincentius",
    "langs": {
     "latin": [
@@ -3242,12 +3356,15 @@
   },
   {
    "canon": "zdenka",
+   "label": "Zdenka",
    "sex": "",
+   "sexDisputed": false,
    "men": 1,
    "women": 1,
    "forms": 2,
    "attested": 2,
    "people": 2,
+   "tokens": 2,
    "commonest": "zdenka",
    "langs": {
     "croatian": [

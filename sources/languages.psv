@@ -1,0 +1,23 @@
+# The languages this archive's records were written in, in the order a document
+# was likely to be written in them — the church first, then whoever was
+# administering the coast.
+#
+# WHY THIS IS A FILE AND NOT A TABLE IN tools/names.py. It was in the tool until
+# 20 September 2026, and the blurbs in it name Senj, Zengg, the Velebit coast and
+# Port Pirie. Six archives are about to copy this data shape, and not one of them
+# is Croatian: Booyzen is Dutch and Afrikaans, D'Arcy is Irish and English, Falco
+# is Italian. Every one of them would have had to edit the tool's source to say
+# what languages its own registers are in, which is how a shared tool stops being
+# shared. The tool is now generic and each archive declares its own here.
+#
+# ORDER MATTERS and is this file's, not alphabetical: it is the order the page
+# shows the languages in, and it should read down the centuries.
+#
+# key|label|note
+latin|Latin|The language of every Catholic register in these parishes until the 1820s and of many for decades after. This is how the priest actually wrote it — and he wrote it in whatever case the sentence needed.
+croatian|Croatian|The language of the villages, of the Vinodol and the Velebit coast, and of every document after 1945. It is also where the short forms live: a man baptised Josephus is Joso all his life.
+italian|Italian|The Austrian administration's other language, and the one the coast traded in. Rarely the register's language this far south, but the form an Italian index will hold.
+venetian|Venetian|Not a dialect of Italian but the language of the Republic. It gives Zuane for Giovanni.
+german|German|The Habsburg bureaucracy, the military Frontier's own paperwork, and the wartime cards at Reutlingen.
+hungarian|Hungarian|Senj was Zengg to the Hungarian press and Fiume was a corpus separatum of the Crown of St Stephen. Almost nothing here is written in it — which is the point: these are the forms to type into an index nobody has searched.
+english|English|The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it.

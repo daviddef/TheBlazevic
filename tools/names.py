@@ -33,7 +33,8 @@ months that every form on it came «from the forms that actually appear in these
 registers» when thirty-one per cent of them did not, and that is the failure
 this gate exists to prevent.
 
-Reads  sources/givennames.psv       form → language, written by hand
+Reads  sources/languages.psv        key → label, note: the archive's own languages
+       sources/givennames.psv       form → language, written by hand
        site/src/data/givennames.json  the fold, and what the records contain
        site/src/data/latincases.json  which people are recorded in an oblique case
 Writes site/src/data/names.json
@@ -48,37 +49,32 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
 PSV = os.path.join(ROOT, "sources", "givennames.psv")
 
-# The order is the order a document was likely to be written in, reading down
-# the centuries: the church first, then whoever was administering the coast.
-LANGS = [
-    ("latin", "Latin",
-     "The language of every Catholic register in these parishes until the 1820s "
-     "and of many for decades after. This is how the priest actually wrote it — "
-     "and he wrote it in whatever case the sentence needed."),
-    ("croatian", "Croatian",
-     "The language of the villages, of the Vinodol and the Velebit coast, and of "
-     "every document after 1945. It is also where the short forms live: a man "
-     "baptised Josephus is Joso all his life."),
-    ("italian", "Italian",
-     "The Austrian administration's other language, and the one the coast traded "
-     "in. Rarely the register's language this far south, but the form an Italian "
-     "index will hold."),
-    ("venetian", "Venetian",
-     "Not a dialect of Italian but the language of the Republic. It gives Zuane "
-     "for Giovanni."),
-    ("german", "German",
-     "The Habsburg bureaucracy, the military Frontier's own paperwork, and the "
-     "wartime cards at Reutlingen."),
-    ("hungarian", "Hungarian",
-     "Senj was Zengg to the Hungarian press and Fiume was a corpus separatum of "
-     "the Crown of St Stephen. Almost nothing here is written in it — which is "
-     "the point: these are the forms to type into an index nobody has searched."),
-    ("english", "English",
-     "The language of arrival — Ellis Island, Port Pirie, Broken Hill, "
-     "Johannesburg. Usually the last change a name makes, and usually the one "
-     "that hides a family from the archive that lost it."),
-]
-LANGNAME = dict((k, n) for k, n, _ in LANGS)
+LANGS_PSV = os.path.join(ROOT, "sources", "languages.psv")
+
+
+def languages():
+    """The archive's own languages, in its own order, out of its own file.
+
+    THIS WAS A TABLE IN THIS FILE until 20 September 2026, and its blurbs named
+    Senj, Zengg and the Velebit coast. Six archives are about to copy this data
+    shape and not one of them is Croatian, so every one would have had to edit
+    this source to say what languages its registers are in. A shared tool that
+    has to be edited per archive is not shared. The order is the file's.
+    """
+    out = []
+    for n, line in enumerate(open(LANGS_PSV, encoding="utf-8"), 1):
+        line = line.rstrip("\n")
+        if not line.strip() or line.startswith("#"):
+            continue
+        f = [x.strip() for x in line.split("|")]
+        if len(f) != 3 or not f[0] or not f[1]:
+            raise SystemExit(f"{LANGS_PSV}: line {n}: expected key|label|note")
+        out.append({"key": f[0], "label": f[1], "note": f[2]})
+    return out
+
+
+LANGS = languages()
+LANGNAME = {l["key"]: l["label"] for l in LANGS}
 
 CASES = {"accusative", "genitive", "dative or ablative", "abbreviated"}
 
@@ -188,15 +184,31 @@ def main():
         forms = {fold(r["form"]) for r in mine}
         men = sum(bysex.get(f, {}).get("m", 0) for f in forms)
         women = sum(bysex.get(f, {}).get("f", 0) for f in forms)
+        asserted = given.get("sex", {}).get(canon, "")
         out.append({
             "canon": canon,
-            "sex": given.get("sex", {}).get(canon, ""),
+            # The matching key is lower case; a name is a name and gets its
+            # capital back before anybody reads it. The shared component asks
+            # for `label` and every archive was writing the same adapter.
+            "label": canon[:1].upper() + canon[1:],
+            "sex": asserted,
+            # THE ASSERTED SEX AND THE COUNTED BEARERS DISAGREE NINE TIMES HERE.
+            # given_names.py declares «matija» male and four of the people
+            # written Matia are women, because Matija is unisex and the table
+            # has one column for it. The disagreement is data, so it is carried
+            # rather than resolved.
+            "sexDisputed": bool((asserted == "m" and women) or (asserted == "f" and men)),
             "men": men,
             "women": women,
             "forms": len(mine),
             "attested": sum(1 for r in mine
                             if attested.get(canon, {}).get(fold(r["form"]), 0)),
-            "people": sum(attested.get(canon, {}).values()),
+            # PEOPLE MEANS PEOPLE. It used to be the sum of the occurrence
+            # counts, which disagreed with men+women in 21 of 39 rows, and the
+            # shared component renders it as a count of bearers. `tokens` is the
+            # occurrences, which is a different and also useful number.
+            "people": men + women,
+            "tokens": sum(attested.get(canon, {}).values()),
             "commonest": top[0][0] if top else "",
             "langs": by_lang,
             "oblique": [p for f, ps in oblique.items()
@@ -207,7 +219,7 @@ def main():
         "note": ("Every form of every given name this archive holds, filed by the language "
                  "that wrote it. Built by tools/names.py from sources/givennames.psv and the "
                  "records themselves; nothing here is marked attested by hand."),
-        "languages": [{"key": k, "name": n, "blurb": b} for k, n, b in LANGS],
+        "languages": LANGS,
         "totalForms": n_att + n_aid,
         "attested": n_att,
         "aids": n_aid,
