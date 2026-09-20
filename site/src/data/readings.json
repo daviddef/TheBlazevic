@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 128,
+  "rows": 129,
   "people": 95,
   "derived": 51,
   "onDirectLine": 0,
@@ -32,7 +32,7 @@
   ],
   [
    "grave",
-   9
+   10
   ],
   [
    "death-of-spouse",
@@ -1729,7 +1729,7 @@
   {
    "kind": "photograph",
    "year": "1940s",
-   "cite": "A studio portrait sent by the family 21 September 2026 — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. THE FILE IS NOT IN THIS ARCHIVE: the photograph was shown and read, and the image itself has not been added to the media library",
+   "cite": "A studio portrait sent by the family 21 September 2026, photos/line/9000001-antun-kosina-priest-portrait.jpg — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. The file WAS NOT in this archive for several hours — shown, read and transcribed, with no image behind the transcription. It was added to the media library the same day as sources/media/local.psv row 9000001",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -1743,7 +1743,7 @@
   {
    "kind": "grave",
    "year": "1943",
-   "cite": "Senj, the same stone — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
+   "cite": "Senj, the same stone, same image read at 4x — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -1757,7 +1757,7 @@
   {
    "kind": "grave",
    "year": "1943",
-   "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read from the photograph — «OTILIJA … čin. Velike župe · ✻1920. †14.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 14 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
+   "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read at 4x from photos/line/9000003-otilija-and-neda-kosina-gravestone-senj.jpg — «OTILIJA … čin. Velike župe · ✻1920. †11.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 11 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -1783,9 +1783,23 @@
    "ahn": null
   },
   {
+   "kind": "grave",
+   "year": "1954",
+   "cite": "Senj, the same stone, same image read at 4x — «OSKAR ✻1922 †1954», under «IN MEMORIAM». He is NAMED on his sisters' stone and is not buried under it: he died in Buenos Aires and his memorial card says so. The stone gives the YEAR only and therefore cannot break the card's «4. IV. 1922» against the tree's 4 September",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "oskar-kosina",
+   "name": "Oskar Kosina",
+   "ahn": null
+  },
+  {
    "kind": "death",
    "year": "1954",
-   "cite": "From his printed memorial card — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
+   "cite": "From his printed memorial card, photos/line/9000002-oskar-kosina-memorial-card-1954.jpg — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -1827,7 +1841,7 @@
   {
    "kind": "grave",
    "year": "2003",
-   "cite": "Senj, the same stone — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
+   "cite": "Senj, the same stone, same image read at 4x — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -4138,7 +4152,7 @@
     {
      "kind": "grave",
      "year": "1943",
-     "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read from the photograph — «OTILIJA … čin. Velike župe · ✻1920. †14.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 14 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
+     "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read at 4x from photos/line/9000003-otilija-and-neda-kosina-gravestone-senj.jpg — «OTILIJA … čin. Velike župe · ✻1920. †11.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 11 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -4158,7 +4172,7 @@
     {
      "kind": "grave",
      "year": "1943",
-     "cite": "Senj, the same stone — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
+     "cite": "Senj, the same stone, same image read at 4x — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -4178,7 +4192,7 @@
     {
      "kind": "photograph",
      "year": "1940s",
-     "cite": "A studio portrait sent by the family 21 September 2026 — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. THE FILE IS NOT IN THIS ARCHIVE: the photograph was shown and read, and the image itself has not been added to the media library",
+     "cite": "A studio portrait sent by the family 21 September 2026, photos/line/9000001-antun-kosina-priest-portrait.jpg — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. The file WAS NOT in this archive for several hours — shown, read and transcribed, with no image behind the transcription. It was added to the media library the same day as sources/media/local.psv row 9000001",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -4189,7 +4203,7 @@
     {
      "kind": "grave",
      "year": "2003",
-     "cite": "Senj, the same stone — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
+     "cite": "Senj, the same stone, same image read at 4x — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -4207,9 +4221,20 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "grave",
+     "year": "1954",
+     "cite": "Senj, the same stone, same image read at 4x — «OSKAR ✻1922 †1954», under «IN MEMORIAM». He is NAMED on his sisters' stone and is not buried under it: he died in Buenos Aires and his memorial card says so. The stone gives the YEAR only and therefore cannot break the card's «4. IV. 1922» against the tree's 4 September",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1954",
-     "cite": "From his printed memorial card — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
+     "cite": "From his printed memorial card, photos/line/9000002-oskar-kosina-memorial-card-1954.jpg — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -4218,7 +4243,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "antonia-pekass-pekkas": {

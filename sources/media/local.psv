@@ -1,0 +1,16 @@
+# Media the FAMILY supplied directly, which are not in the MyHeritage library.
+#
+# Same seven columns as manifest.psv — mid | type | caption | w | h | tagged | provenance —
+# so one parser reads both, but they are kept apart for one reason: manifest.psv is
+# the OUTPUT of a sweep (tools/fetch_media.md) and the next sweep will rewrite it.
+# Anything hand-added there would be lost without a word. Here it survives.
+#
+# The mid is local and starts at 9000001 so it can never collide with a MyHeritage
+# id, which are 45xxxxx. The last column is NOT a url: these files have no url. It
+# says where the image came from and, where it matters, what has been done to it.
+#
+# The tagged column is still MyHeritage's 4000000+n person numbering, because that
+# is what tools/build_media.py maps back to GEDCOM ids.
+9000001|photo|Antun Kosina priest portrait|1270|1894|4501774|family, sent 21 September 2026; no reverse supplied, undated
+9000002|photo|Oskar Kosina memorial card - 1954|3172|4674|4506276|family, sent 21 September 2026; a DIGITALLY ENHANCED scan — the file was supplied already retouched and carries the enhancing tool's watermark, so the tone and sharpness are not the card's own
+9000003|photo|Otilija and Neda Kosina gravestone, Senj|3024|4032|4506274,4506275,4506276,4501774|family, sent 21 September 2026; a phone photograph of the wall plaque, rotated upright here and otherwise untouched

@@ -1,5 +1,14 @@
 # Otilija died in November, and Neda was the one the raid killed
 
+> **CORRECTED 21 September 2026, the same day, and the correction is the point of it.**
+> This note first read the stone off a phone-sized copy and published Otilija's death as
+> the fourteenth of November. The photograph was then read at four times magnification,
+> one line at a time, and the date is **11.11.1943** — **11 November**. The «4» was a «1».
+> Nothing else in the reading changed, and two words of the epitaph did: it reads
+> **«svijete»**, not *svijetu*, and **«Raztužena»**, not *Ražalošćena*.
+> **This archive's own rule says to crop and enlarge before recording any date. The rule
+> exists because of mistakes of exactly this shape, and it was not followed the first time.**
+
 **21 September 2026.** Two photographs arrived from the family. Between them they answer
 **the single most-wanted fact** on the Kosina page and correct the way this archive had
 been telling the story.
@@ -9,23 +18,25 @@ been telling the story.
 > Ovdje počivaju u miru Božjem
 > **OTILIJA i NEDA KOSINA**
 >
-> **OTILIJA** · *čin. Velike župe* · ✻ **1920** † **14.11.1943.**
+> **OTILIJA** · *čin. Velike župe* · ✻ **1920** † **11.11.1943.**
 > **NEDA** · *maturantica,* ***žrtva zračnog napada*** · ✻ **1924** † **7.IX.1943.**
 >
 > **VLČ. ANTE** ✻ 1921 † 2003 — IN MEMORIAM — **OSKAR** ✻ 1922 † 1954
 >
-> *Prerano ste rekle zbogom svijetu. Snivajte slatko anđeli moji.*
-> **Ražalošćena Majka i Braća.**
+> *Prerano ste rekle zbogom svijete. Snivajte slatko anđeli moji.*
+> **Raztužena Majka i Braća.**
 
-*«Too soon you said goodbye to the world. Sleep sweetly, my angels. Your grieving Mother
-and Brothers.»*
+*«Too soon you said goodbye, O world. Sleep sweetly, my angels. The saddened Mother
+and Brothers.»* — **«svijete» is a vocative**, so the line is addressed to the world and not
+to the girls; and **«Raztužena»** is the older spelling of *rastužena*, cut with a **z**
+where the modern word has an s.
 
 ## What it settles, and it is not what this archive expected
 
-**OTILIJA DIED ON 14 NOVEMBER 1943 — five weeks after the raid.** The Kosina page said her
+**OTILIJA DIED ON 11 NOVEMBER 1943 — five weeks after the raid.** The Kosina page said her
 death was *«1943, no day recorded»* and called whether she died with her father **the single
 most wanted fact on this page**. The answer is **no**: Pavao was killed on 8 October and
-Otilija died on 14 November, and **the stone does not call her a victim of anything**.
+Otilija died on 11 November, and **the stone does not call her a victim of anything**.
 
 **NEDA IS THE ONE IT CALLS A VICTIM.** *«maturantica, **žrtva zračnog napada**»* — a
 final-year schoolgirl, **a victim of an air attack** — died **7 September 1943**.

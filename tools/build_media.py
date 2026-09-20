@@ -14,6 +14,10 @@ from gedcom import load, display, born, died, year
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAN = os.path.join(ROOT, "sources", "media", "manifest.psv")
+# Media the family supplied by hand. Kept in a second file because the next
+# MyHeritage sweep rewrites manifest.psv wholesale, and a hand-added row there
+# would vanish without anybody noticing. See sources/media/local.psv.
+LOCAL = os.path.join(ROOT, "sources", "media", "local.psv")
 OUT = os.path.join(ROOT, "site", "src", "data", "media.json")
 
 people, families = load()
@@ -43,11 +47,18 @@ OVERRIDE = {k: v for k, v in json.load(
     open(os.path.join(ROOT, "sources", "media", "classification.json"),
          encoding="utf-8")).items() if not k.startswith("_")}
 
+def manifest_lines():
+    for path in (MAN, LOCAL):
+        if not os.path.exists(path):
+            continue
+        for line in open(path, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if line and not line.startswith("#"):
+                yield line
+
+
 rows, dropped = [], []
-for line in open(MAN, encoding="utf-8"):
-    line = line.rstrip("\n")
-    if not line:
-        continue
+for line in manifest_lines():
     mid, typ, name, w, h, ppl, url = line.split("|")
     ext = "pdf" if typ == "document" else "jpg"
     fn = f"{mid}-{slugify(name)}.{ext}".replace(" ", "-")
@@ -61,7 +72,11 @@ for line in open(MAN, encoding="utf-8"):
         tagged.append({"id": gid, "name": display(p),
                        "slug": pub["slug"] if pub else None,
                        "years": f'{year(born(p).get("date","")) or "?"}–{year(died(p).get("date","")) or "?"}'})
-        kind = OVERRIDE.get(mid, "document" if DOC.search(name) else "photograph")
+    # Outside the per-person loop, deliberately. It sat inside until 21 September
+    # 2026, so an item with no resolvable tagged person was silently given the
+    # PREVIOUS item's kind. Nothing was wrong on the day it was found — every row
+    # had at least one person — but the next sweep need only add one that does not.
+    kind = OVERRIDE.get(mid, "document" if DOC.search(name) else "photograph")
     if kind == "excluded":
         # Not a document, not a photograph, and not published: a stock graphic
         # standing in for a person who has no picture. See classification.json.
