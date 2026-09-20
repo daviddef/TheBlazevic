@@ -133,3 +133,47 @@ the place.
 Sestan, of Philippus Sestan × Martha»*. A Šestan baptised in **Lika**, in this
 archive's own heartland, three hundred kilometres from Istria. Nothing is built
 on it here.
+
+---
+
+# And the last question was the one nobody had asked: whose family is this?
+
+**Twenty-five of the fifty-five Šestani in this tree have a DEFRANCESCHI
+mother.** Three women, and their children:
+
+    Joanna Defranceschi            10
+    Sancta-Alexandra Defranceschi   9
+    Rosa Defranceschi               6
+
+**The Šestani are here because three Defranceschi women married Šestan men.**
+They are not a Blažević family, they are not a Senj or a Lika family, and the
+23 at Gologorica are not this archive's people except by marriage.
+
+**Which makes row 35 the Defranceschi archive's row.** That archive works
+Gračišće and the county of Pazin — the same district as Gologorica, the same
+`koha:725172` book from 1582, the same Mitterburg/Pisino/Pazin problem. Everything
+found here today is more use to it than to this one.
+
+**This archive does not hand work away silently**, so the row says so rather
+than being struck.
+
+## One person gained a death and a husband on the way past
+
+The American record that put a Šestan at Gologorica turned out to be **somebody
+this tree already holds**: `elisabetha-sestan-3`, **Elisabetha Sestan, born 11
+July 1912**, of **Natalis Joannes Sestan × Antonia Ancic**. The tree gives her a
+birth and **no death and no spouse**.
+
+The Social Security index gives both:
+
+> **Elisabetta Sestan RABAR** · born 11 Jul 1912, *«Gologorica I\*, Yugoslavia»*
+> · **died 20 April 2005, Staten Island, Richmond, New York**
+
+**So the married name is Rabar and she died in New York at ninety-two.** It is
+an index and not a certificate, and `readings.psv` says so.
+
+**And it is a rediscovery, which is worth admitting**: this morning's note
+offered her as *«one record does put a Šestan at Gologorica, and it is
+American»*, as though she were a stranger. She is in the tree, with the same two
+parents. What the record actually adds is the end of her life, not the
+beginning.
