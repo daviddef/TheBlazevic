@@ -33,8 +33,28 @@ WHAT IT WILL NOT DO. It refuses to guess. A comparison is only made when
 Croatian and Latin month names are understood, because that is what the
 registers are written in and that is where the one error came from.
 
+AND IT NOW REFUSES A ROW THAT NAMES NOBODY, which is the other way a reading
+can be wrong without anybody noticing. On 20 September 2026 eight rows -- of
+ninety-three -- carried a slug that exists in no people.json and no
+ancestors.json, so they credited nothing, graded nothing, and were skipped by
+this very check because `people.get(slug)` came back None and the loop moved on.
+
+All four bad slugs were the same mistake: a NICKNAME that the slug generator
+drops and a hand-written row keeps.
+
+    matia-matthea-MATIJA-pilipic             ahnentafel 13
+    vicentius-andreas-vincent-VICKO-pilipic  ahnentafel 26
+    josip-anton-JOSO-papic                   ahnentafel  6
+    georgius-juraj-joannis-papa-JURE-antic   ahnentafel 12
+
+Every one of them is on the DIRECT LINE, and their readings -- a baptism, two
+marriages, four baptisms-of-child -- had been counting for no one. A reading
+filed against a person who does not exist is worse than a missing reading,
+because the file looks fuller than it is.
+
 Run: python3 tools/datecheck.py [--quiet]
 """
+import difflib
 import json
 import os
 import re
@@ -104,12 +124,16 @@ def main():
             people.setdefault(p["slug"], p)
 
     path = os.path.join(ROOT, "sources", "readings.psv")
-    compared, bad = 0, []
+    compared, bad, orphans = 0, [], []
     for line in open(path, encoding="utf-8"):
         line = line.rstrip("\n")
         if not line.strip() or line.startswith("#") or line.count("|") < 4:
             continue
         slug, kind, year, _where, cite = [x.strip() for x in line.split("|")[:5]]
+        # A row whose slug names nobody credits nobody. It must be caught here
+        # and not silently skipped, whatever its kind -- see the docstring.
+        if slug not in people:
+            orphans.append((slug, kind, year))
         if kind not in ("baptism", "death"):
             continue
         if "INDEX ONLY" in cite:
@@ -133,9 +157,20 @@ def main():
         if not any(c == td for c in cands):
             bad.append((slug, kind, td, cands))
 
+    if orphans:
+        print(f"FAIL  {len(orphans)} reading(s) name a person who does not exist:")
+        for slug, kind, year in orphans:
+            near = difflib.get_close_matches(slug, people, n=1, cutoff=0.7)
+            hint = f"  did you mean {near[0]}?" if near else ""
+            print(f"      {slug}  ({kind} {year}){hint}")
+        print("\n      A reading filed against a slug nobody has credits nobody, and the\n"
+              "      file looks fuller than it is. The usual cause is a NICKNAME the slug\n"
+              "      generator drops and a hand-written row keeps.")
+        return 1
+
     if not quiet:
         print(f"datecheck — {compared} readings carry a full date that can be held "
-              f"against the tree")
+              f"against the tree, and every row names somebody")
     if bad:
         print(f"\nFAIL  {len(bad)} citation(s) disagree with the published date:")
         for slug, kind, td, cands in bad:
