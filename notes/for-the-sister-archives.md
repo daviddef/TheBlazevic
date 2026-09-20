@@ -164,3 +164,38 @@ Selce row had recorded its zero «under Antić», and one of the entries it miss
    by this instrument» and nothing stronger.
 
 `notes/karlobag-the-index-calls-them-piberich.md`, `notes/the-zeros-were-not-all-zeros.md`
+
+---
+
+## 21 September 2026 — the accent fold has a hole, and it is four letters wide
+
+**If your archive's auto-linker or register search folds accents with `NFD` and a
+combining-mark strip, it is not folding four letters at all.** They are single codepoints
+with no combining mark and they survive untouched:
+
+    OK    Blažević → blazevic        ž, ć, č, š, é, à all decompose and fold
+    MISS  Đurić    → đuric           đ  Đ   Croatian d-bar
+    MISS  Łukasz   → łukasz          ł  Ł   Polish
+    MISS  Søren    → søren           ø  Ø   Danish/Norwegian
+    MISS  Straße   → straße          ß      German
+
+**On this estate that is Blažević (đ) and probably Luwinski (ł); the rest are ASCII.**
+
+**MEASURE BEFORE YOU MAP, because mapping a letter is a claim.** Folding `đ→d` makes
+*Đurić* and *Durić* the same word, and whether those are one family or two is a judgement
+about a language, not a keyboard difference. That is the **Roos/Ross** shape the kit's
+`namefold.py` already warns about.
+
+**Measured here**, across every data file this archive ships: **nine words carry one of
+these letters, 371 tokens**, of which **350 are the register's own word «Rođeni»**. The map
+creates **exactly one collision** — ***Anđelika*** with ***Andelika*** — and that is **one
+woman written two ways**: Angelika Boras, whom the record index spells *Angelika*,
+*Andjelika*, *Andelika* and *Anđelika* across four entries. **It joins her to herself.**
+
+**So the answer for this archive is yes for đ, and no opinion on ł, ø or ß**, where it has
+no stake. Another archive's answer may differ and the measurement takes one command.
+
+**And one honest limit.** German **ß folds properly to «ss»**, two characters. A
+length-preserving fold — one character in, one out, so a match found in folded text can be
+sliced out of the original with its accents intact — cannot do that. `ß→s` means *Straße*
+will not reach *Strasse*. **That is a miss, and a miss is allowed. A join is not.**

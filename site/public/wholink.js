@@ -26,7 +26,23 @@
 
   /* Letters that do not decompose under NFD and so survive the strip below:
      the Croatian d-bar above all, which is why Dordic and Dordic were two
-     names to this matcher. */
+     names to this matcher.
+
+     MEASURED BEFORE IT WAS TRUSTED, 21 September 2026, because mapping a letter
+     is a claim and not a keyboard difference. Across every data file this
+     archive ships, NINE words carry one of these letters and 371 tokens, of
+     which 350 are the register's own word «Rođeni». The map creates EXACTLY ONE
+     collision — «Anđelika» with «Andelika» — and that is one woman written two
+     ways: Angelika Boras, whom the record index spells Angelika, Andjelika,
+     Andelika and Anđelika across four entries read this same day. It joins her
+     to herself and nothing else to anything.
+
+     SS IS A KNOWN COMPROMISE. German ß folds properly to «ss», two characters,
+     and this fold is length-preserving by design so that a match found in the
+     folded text can be sliced out of the original with its accents intact. So ß
+     maps to a single «s» and «Straße» will not reach «Strasse». That is a MISS,
+     and a miss is allowed; a join is not. The only ß in this archive is a
+     German street address. */
   var HARD = { "\u0111": "d", "\u0110": "D", "\u00f0": "d", "\u00d0": "D",
                "\u0142": "l", "\u0141": "L", "\u00f8": "o", "\u00d8": "O",
                "\u00df": "s", "\u00e6": "a", "\u00c6": "A" };
