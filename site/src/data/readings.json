@@ -1,22 +1,22 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 119,
-  "people": 90,
-  "derived": 50,
+  "rows": 128,
+  "people": 95,
+  "derived": 51,
   "onDirectLine": 0,
-  "indexOnly": 18,
+  "indexOnly": 19,
   "earliest": 1725,
   "latest": 2005
  },
  "kinds": [
   [
    "baptism",
-   42
+   43
   ],
   [
    "death",
-   18
+   19
   ],
   [
    "baptism-of-child",
@@ -24,15 +24,15 @@
   ],
   [
    "marriage-of-child",
-   14
+   15
   ],
   [
    "marriage",
-   12
+   14
   ],
   [
    "grave",
-   6
+   9
   ],
   [
    "death-of-spouse",
@@ -52,6 +52,10 @@
   ],
   [
    "death-of-child",
+   1
+  ],
+  [
+   "photograph",
    1
   ]
  ],
@@ -911,6 +915,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1857",
+   "cite": "Senj, 1 September 1857 — INDEX ONLY, «Angelicam Boras», father «Josephi Boras», mother «Mariæ Kabalin»; ark 1:1:QKMJ-SQMC. AGREES WITH THE TREE TO THE DAY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
+   "indexOnly": true,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1857",
    "cite": "named as father \"Joannis Papa\" at his son's baptism, Senj 1 Nov 1857",
@@ -1289,6 +1307,20 @@
    "ahn": null
   },
   {
+   "kind": "marriage",
+   "year": "1888",
+   "cite": "Senj marriages p. 209 entry 1, READ FROM THE IMAGE — «1888 dne 12 siečnja», her marriage to «Martin KOZINA, trgovac», age 47, bachelor, whose LOCUS ORIGINIS is «Kranjska župa sv. Martin kod KRAINBURG» — Carniola, the parish of St Martin near Kranj, SLOVENIA. She is «Angjelika Boras», of Senj, age 30. Her parents «Josip Boras, gradski stražar, i Maria rodjena Kabalin». HIS PARENT COLUMN GIVES «Gertruda Kozina, posjednica» AND A DASH WHERE THE FATHER WOULD BE. Witnesses «Mile Crnković, trgovac» and «Ivan Boras, kr. pomorske straže nadstojnik». Celebrant «Mirko Babić, kapelan». Married by dispensation of the Senj Ordinariate, 7 January 1888 no. 38, with the banns read ONCE only",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/martin-kozina-came-from-carniola.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+   "indexOnly": false,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1888",
    "cite": "Ledenice, 16 May 1888 — INDEX ONLY, «Marija Milka», parents «Luka Kalanj» and «Kata Kalanj»; ark 1:1:XQM9-8KKX. The tree carries the year alone and cites the image; the index supplies the day. The mother is Kata Miletić in the tree — the index has given her the father's surname",
@@ -1541,6 +1573,20 @@
    "ahn": null
   },
   {
+   "kind": "marriage-of-child",
+   "year": "1919",
+   "cite": "named as the groom's mother TWICE ON ONE PAGE — «Andjelika r. Boras» at entry 44, her son Pavao's marriage of 20 November 1919, and at entry 46, her son Antun's of 24 November. Her husband is daggered in both. Senj marriages p. 359",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/martin-kozina-came-from-carniola.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+   "indexOnly": false,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
    "kind": "marriage",
    "year": "1919",
    "cite": "Senj — INDEX ONLY, her marriage to «Pavao Kosina» b.1894, of «Martin Kosina» and «Andjelika Boras»; she is entered b.1893, of «Juraj Blažević» and «Tereza Žubrinić»; ark 1:1:X9D5-MWXX. Hungary, Croatia-Slavonia, Marriages 1678-1927. The index confirms the join to ahnentafel 4 and 5 independently of the tree",
@@ -1550,6 +1596,20 @@
    "where": "notes/the-kosina-are-filed-under-senia.md",
    "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
    "indexOnly": true,
+   "slug": "anka-blazevic",
+   "name": "Anka Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1919",
+   "cite": "Senj marriages p. 359 entry 44, READ FROM THE IMAGE — «1919 studenoga 20», to «Pavao Kosina, trgovac», born 15/III 1894, bachelor. She is «Anka Blažević, radnica u tvornici duhana», born «1893 7/X» — AGREEING WITH THE TREE TO THE DAY — and her LOCUS ORIGINIS IS ENTERED AS «OTOČAC», not Krmpote. Parents «† Martin Kosina i Andjelika r. Boras» and «Juraj Blažević i Tereza r. Žubrinić»; the DAGGER puts Martin's death before November 1919. Witnesses Nikola Sudar and Julije Pavan, trgovci. Celebrant «Luka Malinarić, kapelan»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/martin-kozina-came-from-carniola.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+   "indexOnly": false,
    "slug": "anka-blazevic",
    "name": "Anka Blažević",
    "ahn": null
@@ -1667,6 +1727,48 @@
    "ahn": null
   },
   {
+   "kind": "photograph",
+   "year": "1940s",
+   "cite": "A studio portrait sent by the family 21 September 2026 — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. THE FILE IS NOT IN THIS ARCHIVE: the photograph was shown and read, and the image itself has not been added to the media library",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "antun-anton-kosina",
+   "name": "Antun Anton Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1943",
+   "cite": "Senj, the same stone — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "neda-kosina",
+   "name": "Neda Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1943",
+   "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read from the photograph — «OTILIJA … čin. Velike župe · ✻1920. †14.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 14 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "otilija-kosina",
+   "name": "Otilija Kosina",
+   "ahn": null
+  },
+  {
    "kind": "grave",
    "year": "1953",
    "cite": "The Kosina grave at Senj — «KOSINA · KRIŽAN · ANKA», Anka «✻?.X.1893 †6.IX.1953», where the tree carried only the year. The same stone gives her husband Pavao «pog. 8.X.1943 — Nevina žrtva zračnog napadaja na Senj». Her birth month on the stone is cracked and ivy-covered and is NOT legible enough to contradict her 1919 marriage entry",
@@ -1678,6 +1780,20 @@
    "indexOnly": false,
    "slug": "anka-blazevic",
    "name": "Anka Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1954",
+   "cite": "From his printed memorial card — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "oskar-kosina",
+   "name": "Oskar Kosina",
    "ahn": null
   },
   {
@@ -1706,6 +1822,20 @@
    "indexOnly": false,
    "slug": "milka-lucia-papic",
    "name": "Milka Lucia Papic",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "2003",
+   "cite": "Senj, the same stone — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+   "indexOnly": false,
+   "slug": "antun-anton-kosina",
+   "name": "Antun Anton Kosina",
    "ahn": null
   },
   {
@@ -3720,6 +3850,17 @@
      "indexOnly": true
     },
     {
+     "kind": "marriage",
+     "year": "1919",
+     "cite": "Senj marriages p. 359 entry 44, READ FROM THE IMAGE — «1919 studenoga 20», to «Pavao Kosina, trgovac», born 15/III 1894, bachelor. She is «Anka Blažević, radnica u tvornici duhana», born «1893 7/X» — AGREEING WITH THE TREE TO THE DAY — and her LOCUS ORIGINIS IS ENTERED AS «OTOČAC», not Krmpote. Parents «† Martin Kosina i Andjelika r. Boras» and «Juraj Blažević i Tereza r. Žubrinić»; the DAGGER puts Martin's death before November 1919. Witnesses Nikola Sudar and Julije Pavan, trgovci. Celebrant «Luka Malinarić, kapelan»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/martin-kozina-came-from-carniola.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+     "indexOnly": false
+    },
+    {
      "kind": "grave",
      "year": "1953",
      "cite": "The Kosina grave at Senj — «KOSINA · KRIŽAN · ANKA», Anka «✻?.X.1893 †6.IX.1953», where the tree carried only the year. The same stone gives her husband Pavao «pog. 8.X.1943 — Nevina žrtva zračnog napadaja na Senj». Her birth month on the stone is cracked and ivy-covered and is NOT legible enough to contradict her 1919 marriage entry",
@@ -3731,7 +3872,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "ana-kalanj": {
@@ -3860,6 +4001,28 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "baptism",
+     "year": "1857",
+     "cite": "Senj, 1 September 1857 — INDEX ONLY, «Angelicam Boras», father «Josephi Boras», mother «Mariæ Kabalin»; ark 1:1:QKMJ-SQMC. AGREES WITH THE TREE TO THE DAY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "marriage",
+     "year": "1888",
+     "cite": "Senj marriages p. 209 entry 1, READ FROM THE IMAGE — «1888 dne 12 siečnja», her marriage to «Martin KOZINA, trgovac», age 47, bachelor, whose LOCUS ORIGINIS is «Kranjska župa sv. Martin kod KRAINBURG» — Carniola, the parish of St Martin near Kranj, SLOVENIA. She is «Angjelika Boras», of Senj, age 30. Her parents «Josip Boras, gradski stražar, i Maria rodjena Kabalin». HIS PARENT COLUMN GIVES «Gertruda Kozina, posjednica» AND A DASH WHERE THE FATHER WOULD BE. Witnesses «Mile Crnković, trgovac» and «Ivan Boras, kr. pomorske straže nadstojnik». Celebrant «Mirko Babić, kapelan». Married by dispensation of the Senj Ordinariate, 7 January 1888 no. 38, with the banns read ONCE only",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/martin-kozina-came-from-carniola.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1891",
      "cite": "named as mother, «Angelica Boras», at the baptism of her son Antonius Joannes Kosina — born 13 May 1891, baptised 15 June 1891; ark 1:1:X9DP-3YJQ. INDEX ONLY. The place string is the LATIN «Senia, Lika-Korbava megye» and not «Senj», which is why every search of this parish had missed this family",
@@ -3891,9 +4054,20 @@
      "where": "notes/the-kosina-are-filed-under-senia.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
      "indexOnly": true
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1919",
+     "cite": "named as the groom's mother TWICE ON ONE PAGE — «Andjelika r. Boras» at entry 44, her son Pavao's marriage of 20 November 1919, and at entry 46, her son Antun's of 24 November. Her husband is daggered in both. Senj marriages p. 359",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/martin-kozina-came-from-carniola.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md",
+     "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 6,
    "derived": 0
   },
   "mare-luckinic": {
@@ -3951,6 +4125,97 @@
      "where": "notes/three-found-people-were-in-the-tree-all-along.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
      "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "otilija-kosina": {
+   "slug": "otilija-kosina",
+   "name": "Otilija Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "grave",
+     "year": "1943",
+     "cite": "Senj, the OTILIJA i NEDA KOSINA stone, read from the photograph — «OTILIJA … čin. Velike župe · ✻1920. †14.11.1943.» Her occupation is činovnica Velike župe, a clerk of the Velika župa. THE DAY THIS ARCHIVE HAD NEVER HAD: 14 November 1943, FIVE WEEKS AFTER THE RAID that killed her father, and the stone does NOT call her a victim of it",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "neda-kosina": {
+   "slug": "neda-kosina",
+   "name": "Neda Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "grave",
+     "year": "1943",
+     "cite": "Senj, the same stone — «NEDA … maturantica, ŽRTVA ZRAČNOG NAPADA · ✻1924. †7.IX.1943.» A maturantica is a final-year schoolgirl. SHE is the one the stone calls a victim of an air attack, on 7 September 1943 — a month before the October raid, so Senj was bombed more than once. Agrees with the tree's 7 September 1943",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "antun-anton-kosina": {
+   "slug": "antun-anton-kosina",
+   "name": "Antun Anton Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "photograph",
+     "year": "1940s",
+     "cite": "A studio portrait sent by the family 21 September 2026 — a young man in a black cassock and a ROMAN COLLAR, head and shoulders, sepia. It is vlč. Ante Kosina in clerical dress, and on the evidence of his age it is close to his ordination, so about the late 1940s. THE FILE IS NOT IN THIS ARCHIVE: the photograph was shown and read, and the image itself has not been added to the media library",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "grave",
+     "year": "2003",
+     "cite": "Senj, the same stone — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "oskar-kosina": {
+   "slug": "oskar-kosina",
+   "name": "Oskar Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1954",
+     "cite": "From his printed memorial card — «OSKAR KOSINA · ✻ 4. IV. 1922. SENJ — HRVATSKA · † 15. I. 1954. BS. AIRES — ARGENTINA». THE DEATH DAY THIS ARCHIVE DID NOT HAVE: 15 January 1954, Buenos Aires. AND A CONFLICT ON HIS BIRTH: the card reads 4. IV. — FOURTH OF APRIL — where the tree says 4 September 1922. IV and IX, Roman four and Roman nine. The stone gives only the year and cannot break the tie",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otilija-died-in-november-and-neda-was-the-raid.md",
+     "indexOnly": false
     }
    ],
    "direct": 1,
@@ -4387,6 +4652,26 @@
      "viaName": "Mare Luckinić",
      "where": "notes/the-kosina-are-filed-under-senia.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "josip-josephus-boras": {
+   "slug": "josip-josephus-boras",
+   "name": "Josip / Josephus \"Jose / Pepe\" Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1857",
+     "cite": "Senj, 1 September 1857 — INDEX ONLY, «Angelicam Boras», father «Josephi Boras», mother «Mariæ Kabalin»; ark 1:1:QKMJ-SQMC. AGREES WITH THE TREE TO THE DAY",
+     "derived": true,
+     "via": "angelika-boras",
+     "viaName": "Angelika Boras",
+     "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
      "indexOnly": true
     }
    ],
