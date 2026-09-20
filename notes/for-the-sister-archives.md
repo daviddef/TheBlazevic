@@ -83,3 +83,48 @@ Two observations worth passing on:
 2. **The specific ones are worth keeping, the vague ones are not.** Labels
    carrying a house number or a date range agree with the children's own records
    **8 times out of 8**. Labels carrying only a town agree **5 times out of 18**.
+
+---
+
+## Defranceski — a whole work-list row, handed over 20 September 2026
+
+### The Šestani were never this archive's family
+
+**Work list row 35** — *«Gologorica — twenty-four Šestani, and not one direct
+ancestor»* — ran for two sittings before anyone asked why a **Šestan** row was
+in a **Blažević** archive.
+
+`tools/ancestry.py` carries eight surnames and **`sestan` is one of them**, so
+55 Šestani are published here. But:
+
+* **25 of the 55 have a DEFRANCESCHI mother** — Joanna (10 children),
+  Sancta-Alexandra (9), Rosa (6).
+* **No Šestan connects to Hedviga through any published person at all.** In the
+  full tree the nearest is **ten steps**:
+
+      Hedviga → married Ivan Anton Defranceski → up five Defranceschi
+      generations → (unnamed) → «Grah's for Investigation (not real)»
+      → «Gologorica Grah» → Josephus Grah 1864 → married Rosa Sestan 1872
+
+* **Two of those links are sorting buckets**, and `buckets.py` already calls one
+  of them not a person.
+
+So they are reached through Hedviga's **husband's** family, and then only
+through a node this archive itself says is not real. **Your queue already had
+the corroboration**: Forebears gives Gračišće as *Jugovac 489, **Šestan 316**,
+Pauro 234* — the second commonest surname in the village.
+
+**The findings went to `TheDefranceski`, commit `1cbcea8`**, appended to
+`notes/QUEUE.md`: Gologorica is not a catalogued parish (tested against a
+nonsense control, because that catalogue pads every result with filler); **Pazin
+koha:725172 reaches 1582** with films listed; the Šestan baptisms are **indexed
+under PISINO and invisible under «Pazin»**; nothing yet places the 23 Gologorica
+Šestani in that book, so **the film is not yet worth a sitting**; plus a death
+and a married name for **Elisabetha Sestan**, and **«Gologorica Grah»** — a
+village name sitting in a given-name field, on your line.
+
+### And one question left open, because it is not ours
+
+**Should `sestan` stay in this archive's eight-surname scope list?** Removing it
+would unpublish 55 people and is a decision about what this archive is for.
+**Nothing has been changed.**
