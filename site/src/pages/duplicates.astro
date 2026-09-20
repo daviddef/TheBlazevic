@@ -12,12 +12,14 @@ const TIER = {
   "same day and same parents": ["Same day and same parents", "Same birth day, same village, same father, same mother. There is nothing left for a second child to be."],
   "same day, and the same death day": ["Same day, and the same death day", "One person dies once, and on one day. Two records carrying the same full birth date AND the same full death date are one life written twice — and unlike a shared set of parents, siblings cannot share it. Added 17 September 2026, for Danijel Kalanj, who had sat in the tier below with «26 June 1876» written on both his records because nothing looked at the end of a life."],
   "same day": ["Same day", "Identical full birth date, and no conflict in the parents. Two people are not born in one village on one day with one name to one couple."],
+  "same year, same parents, and one record is a fragment": ["Same year, same parents, and one record is a fragment", "One complete copy — a day, a village, sometimes a house number — and one stub carrying a year and two parents. That is the commonest shape a split record takes, and it was invisible: the confirming tier above needs a full date on EVERY record, so these nine sat in the two weakest tiers where the fact that the parents agree could not be seen. Four of them are one household — Anton Kljapo Blažević and Marija Šojat of Mrzli Dol 6, whose names are written three ways apiece. It is NOT a confirmation: two siblings can share a birth year, and a year without a day cannot rule that out. Added 20 September 2026."],
   "same year and place": ["Same year and place", "Same given name, birth year and village, parents agreeing where both records name them."],
   "same year only": ["Same year only", "Same given name and birth year, with nothing to place them. The weakest tier; listed, not acted on."],
 };
 const ORDER = ["same day, same parents, same spouse", "same day and same parents",
-               "same day, and the same death day",
-               "same day", "same year and place", "same year only"];
+               "same day, and the same death day", "same day",
+               "same year, same parents, and one record is a fragment",
+               "same year and place", "same year only"];
 const live = D.groups.filter((g) => !g.tier.startsWith("rejected"));
 const rejected = D.groups.filter((g) => g.tier.startsWith("rejected"));
 const of = (t) => live.filter((g) => g.tier === t);

@@ -373,7 +373,7 @@
    "dyears": []
   },
   {
-   "tier": "same year and place",
+   "tier": "same year, same parents, and one record is a fragment",
    "surname": "blazevic",
    "given": "ivan",
    "byear": 1853,
@@ -397,7 +397,32 @@
    ]
   },
   {
-   "tier": "same year and place",
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "blazevic",
+   "given": "mile",
+   "byear": 1855,
+   "n": 3,
+   "place": "Krivi Put",
+   "date": "8 SEP 1855",
+   "ids": [
+    "@I508445@",
+    "@I508684@",
+    "@I508891@"
+   ],
+   "names": [
+    "Mile Blažević",
+    "Mile Blažević",
+    "Mile Blažević"
+   ],
+   "slugs": [
+    "mile-blazevic",
+    "mile-blazevic-4",
+    "mile-blazevic-5"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
    "surname": "blazevic",
    "given": "marko",
    "byear": 1863,
@@ -419,7 +444,31 @@
    "dyears": []
   },
   {
-   "tier": "same year and place",
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "blazevic",
+   "given": "ane",
+   "byear": 1865,
+   "n": 2,
+   "place": "6 Mrzli Dol",
+   "date": "30 OCT 1865",
+   "ids": [
+    "@I508490@",
+    "@I508894@"
+   ],
+   "names": [
+    "Ane Blažević",
+    "Ane Blažević"
+   ],
+   "slugs": [
+    "ane-blazevic",
+    "ane-blazevic-4"
+   ],
+   "dyears": [
+    1924
+   ]
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
    "surname": "kalanj",
    "given": "ivan",
    "byear": 1942,
@@ -443,7 +492,7 @@
    ]
   },
   {
-   "tier": "same year and place",
+   "tier": "same year, same parents, and one record is a fragment",
    "surname": "kalanj",
    "given": "marijan",
    "byear": 1944,
@@ -465,6 +514,72 @@
    "dyears": [
     2009
    ]
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "zubrinic",
+   "given": "lucia",
+   "byear": 1835,
+   "n": 2,
+   "place": "Otocac Croatia",
+   "date": "10 DEC 1835",
+   "ids": [
+    "@I511833@",
+    "@I511542@"
+   ],
+   "names": [
+    "Lucia Žubrinić",
+    "Lucia Žubrinić Xubrinich Zubrinich"
+   ],
+   "slugs": [
+    "lucia-zubrinic-3",
+    "lucia-zubrinic-xubrinich-zubrinich"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "zubrinic",
+   "given": "andreas",
+   "byear": 1844,
+   "n": 2,
+   "place": "Otočac",
+   "date": "13 NOV 1844",
+   "ids": [
+    "@I511487@",
+    "@I511804@"
+   ],
+   "names": [
+    "Andreas Žubrinić",
+    "Andreas Žubrinić Xubrinich"
+   ],
+   "slugs": [
+    "andreas-zubrinic",
+    "andreas-zubrinic-xubrinich"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "zubrinic",
+   "given": "magdalena",
+   "byear": 1847,
+   "n": 2,
+   "place": null,
+   "date": "9 MAY 1847",
+   "ids": [
+    "@I506535@",
+    "@I511775@"
+   ],
+   "names": [
+    "Magdalena Žubrinić",
+    "Magdalena Žubrinić"
+   ],
+   "slugs": [
+    "magdalena-zubrinic",
+    "magdalena-zubrinic-9"
+   ],
+   "dyears": []
   },
   {
    "tier": "same year and place",
@@ -511,50 +626,6 @@
    "dyears": []
   },
   {
-   "tier": "same year and place",
-   "surname": "zubrinic",
-   "given": "lucia",
-   "byear": 1835,
-   "n": 2,
-   "place": "Otocac Croatia",
-   "date": "10 DEC 1835",
-   "ids": [
-    "@I511833@",
-    "@I511542@"
-   ],
-   "names": [
-    "Lucia Žubrinić",
-    "Lucia Žubrinić Xubrinich Zubrinich"
-   ],
-   "slugs": [
-    "lucia-zubrinic-3",
-    "lucia-zubrinic-xubrinich-zubrinich"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same year and place",
-   "surname": "zubrinic",
-   "given": "andreas",
-   "byear": 1844,
-   "n": 2,
-   "place": "Otočac",
-   "date": "13 NOV 1844",
-   "ids": [
-    "@I511487@",
-    "@I511804@"
-   ],
-   "names": [
-    "Andreas Žubrinić",
-    "Andreas Žubrinić Xubrinich"
-   ],
-   "slugs": [
-    "andreas-zubrinic",
-    "andreas-zubrinic-xubrinich"
-   ],
-   "dyears": []
-  },
-  {
    "tier": "same year only",
    "surname": "blazevic",
    "given": "joso",
@@ -575,55 +646,6 @@
     "joso-blazevic-2"
    ],
    "dyears": []
-  },
-  {
-   "tier": "same year only",
-   "surname": "blazevic",
-   "given": "mile",
-   "byear": 1855,
-   "n": 3,
-   "place": "Krivi Put",
-   "date": "8 SEP 1855",
-   "ids": [
-    "@I508445@",
-    "@I508684@",
-    "@I508891@"
-   ],
-   "names": [
-    "Mile Blažević",
-    "Mile Blažević",
-    "Mile Blažević"
-   ],
-   "slugs": [
-    "mile-blazevic",
-    "mile-blazevic-4",
-    "mile-blazevic-5"
-   ],
-   "dyears": []
-  },
-  {
-   "tier": "same year only",
-   "surname": "blazevic",
-   "given": "ane",
-   "byear": 1865,
-   "n": 2,
-   "place": "6 Mrzli Dol",
-   "date": "30 OCT 1865",
-   "ids": [
-    "@I508490@",
-    "@I508894@"
-   ],
-   "names": [
-    "Ane Blažević",
-    "Ane Blažević"
-   ],
-   "slugs": [
-    "ane-blazevic",
-    "ane-blazevic-4"
-   ],
-   "dyears": [
-    1924
-   ]
   },
   {
    "tier": "same year only",
@@ -716,28 +738,6 @@
    "dyears": [
     1829
    ]
-  },
-  {
-   "tier": "same year only",
-   "surname": "zubrinic",
-   "given": "magdalena",
-   "byear": 1847,
-   "n": 2,
-   "place": null,
-   "date": "9 MAY 1847",
-   "ids": [
-    "@I506535@",
-    "@I511775@"
-   ],
-   "names": [
-    "Magdalena Žubrinić",
-    "Magdalena Žubrinić"
-   ],
-   "slugs": [
-    "magdalena-zubrinic",
-    "magdalena-zubrinic-9"
-   ],
-   "dyears": []
   },
   {
    "tier": "rejected — different parents",

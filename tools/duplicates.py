@@ -15,6 +15,9 @@ holds eighteen Ivan Blazevics, and cousins were named for the same grandfather a
 a matter of course:
 
     same day              identical full birth date. Near-conclusive.
+    fragment              same year and the same parents, where one record has
+                          a day and a village and the other has neither. A
+                          split, not a proof: two siblings can share a year.
     same death day        identical full DEATH date. One person dies once, and
                           unlike parents, siblings cannot share it.
     same year and place   strong, but cousins do this.
@@ -353,6 +356,25 @@ for (sur, giv, by), ids in buckets.items():
         tier = "same day and same parents"
     elif ddays and len(ddays) == 1:
         tier = "same day, and the same death day"
+    elif parents_agree(ids) and any(full_date(P[i]) for i in ids) \
+            and not all(full_date(P[i]) for i in ids):
+        # ONE RECORD IS A FRAGMENT OF THE OTHER, and the parents agree.
+        #
+        # The confirming tier above needs a full birth date on EVERY record, and
+        # the commonest shape of a split is not that: it is one complete copy —
+        # day, village, house — and one stub carrying a year and two parents.
+        # Danijel Kalanj is that shape, and pava Boras, and Andreas Žubrinić.
+        # Four Blažević groups of Mrzli Dol 6 are that shape at once: Ivan 1853,
+        # Mile 1855, Marko 1863 and Ane 1865, every record naming ANTON
+        # BLAŽEVIĆ and MARIJA ŠOJAT under three spellings apiece, and every one
+        # of the four scattered across the two weakest tiers where the fact that
+        # the parents agree could not be seen.
+        #
+        # It is ranked BELOW the same-day tiers and it is not a confirmation.
+        # Two siblings can share a birth year and two parents — that is what a
+        # year without a day cannot rule out, and it is why this says «and one
+        # is a fragment» rather than «and they are one person».
+        tier = "same year, same parents, and one record is a fragment"
     elif len(firm) == 1 and all(full_date(P[i]) for i in ids):
         tier = "same day"
     elif len(places) == 1:
@@ -454,10 +476,12 @@ for ids in twins:
 
 TIER = {"same day, same parents, same spouse": 0,
         "same day and same parents": 1, "same day, and the same death day": 2,
-        "same day": 3, "same year and place": 4,
-        "same year only": 5,
-        "rejected — two death years": 6,
-        "rejected — different parents": 7}
+        "same day": 3,
+        "same year, same parents, and one record is a fragment": 4,
+        "same year and place": 5,
+        "same year only": 6,
+        "rejected — two death years": 7,
+        "rejected — different parents": 8}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -469,6 +493,7 @@ print(f"{len(live)} duplicate groups holding {extra} surplus records; "
 by_tier = collections.Counter(g["tier"] for g in groups)
 for t in ("same day, same parents, same spouse", "same day and same parents",
           "same day, and the same death day", "same day",
+          "same year, same parents, and one record is a fragment",
           "same year and place", "same year only",
           "rejected — two death years", "rejected — different parents"):
     n = by_tier.get(t, 0)
