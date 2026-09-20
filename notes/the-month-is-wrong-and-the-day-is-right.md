@@ -76,3 +76,39 @@ be checked is not worth keeping. **What survives is the method**: hold every
 date the index gives against the tree, and hold both against the image when
 there is one. The parents-query makes the first cheap, and this audit is what
 the second looks like.
+
+---
+
+# RESOLVED for case one, 20 September 2026, and the image was here all along
+
+**Milka Lucia Papić's entry has been read, and it says OCTOBER.**
+
+`site/src/pages/milka.astro` publishes the register image — *Senj baptisms, page 122, entry
+96* — and transcribes it: **born 9 October 1886, baptised 17 October**. The register writes
+the birth **«1886, 9/10»**. Her **1907 marriage entry** repeats it as **«9/X»**, thirteen
+years later in a different hand.
+
+**Two entries, two hands, both October.** The index's *9 November* and *17 November* are one
+month-error carried to both columns of one entry.
+
+## What that does to the count above
+
+The note says «seventeen dates could be held against the tree; all seventeen agree exactly».
+**It is eighteen now, and still no disagreement.** The tree's record against every image this
+archive has read remains **perfect**.
+
+## And to the hypothesis
+
+The Roman-numeral theory predicted **lost strokes** — *XI → X*, making the month **earlier**.
+**The register here actually writes a Roman numeral, «9/X», and the index rendered it as
+November** — a stroke *gained*, not lost, and the error is the **indexer's**, not the tree's.
+**The hypothesis was aimed at the wrong party.** It was killed once already by the seventeen
+image reads; this kills it again from the other end.
+
+## Case two is still open, and now stands alone
+
+**Stephanus Perpić** — tree 13 October 1861, index 13 December 1861, baptised 16 December.
+**No image has been read for him**, and with case one resolved there is no pattern left for
+him to belong to. One index date disagreeing with the tree, in a parish where the index
+agrees with the tree to the day on his sister **ahnentafel 7** (12 May 1859) — that is a
+transcription slip in somebody else's file, not a fact about this tree.

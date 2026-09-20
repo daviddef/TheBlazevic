@@ -67,3 +67,46 @@ read for this person»*, and what exists here is a transcription that
 **contradicts the tree** about a direct ancestor's birth. Writing it in would
 either assert the index over the image or bury a conflict inside a citation.
 **It stays in this note until somebody opens the page.**
+
+---
+
+# CORRECTED, 20 September 2026 — the page had already been opened
+
+**Everything above is right about the index and wrong about this archive.** It says «there is
+no image yet», and «one page, and the archive's second-most-important birth date is settled
+either way». **The page was read long ago, and it is published on this site.**
+
+`site/src/pages/milka.astro` carries **the register image itself** —
+`/photos/line/4505839-milka-lucia-birth-1886.jpg` — under the heading *Senj baptisms, page 122,
+entry 96*, with the entry transcribed:
+
+> **Milka Lucia**, *zakonita* · **born 9 October 1886, baptised 17 October** · father
+> **Josip Papić, *trhonoša*** · mother **Tonka *rođ.* Prpić** · godparents **Josip Glavičić**,
+> also a *trhonoša*, and **Ivka Filipović**
+
+**The register writes the birth «1886, 9/10».** And `corrections.json` has carried the
+consequence for as long: the tree's *baptism* of 19 October is a slip for the register's
+**17 October**, and the archive follows the register.
+
+## And there is a second, independent attestation
+
+**Her marriage entry of 4 November 1907** — Senj marriages p. 294 entry 30, re-read at
+**5,812 × 4,273** on 13 September 2026, ark `3:1:3QS7-L99X-175J` — gives her birth as
+**«9/X»**. Roman ten. **October.**
+
+**Two register entries, thirteen years apart, in two different hands, both say October.**
+
+## So the conflict is settled, and the index lost
+
+**The index is wrong by exactly one month on both of its dates** — birth and baptism alike,
+9 November for 9 October and 17 November for 17 October. That is not two errors; it is one
+error in the month, carried to both columns of the same entry.
+
+**Why the mistake above happened is worth keeping.** This note was written from a household
+sweep of the *index*, and it checked the five children against **the tree**. It never checked
+them against **this archive's own pages**, where the answer had been sitting with the image
+attached. The same sitting made the same mistake twice more — ahnentafel 21 and ahnentafel 7
+both had evidence already in hand that the sweep walked past.
+
+**Her rows are in `readings.psv` now**, both of them, marked as **read from the image** rather
+than INDEX ONLY — because they were.
