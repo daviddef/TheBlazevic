@@ -351,28 +351,6 @@
    ]
   },
   {
-   "tier": "same day",
-   "surname": "zubrinic",
-   "given": "alexander",
-   "byear": 1839,
-   "n": 2,
-   "place": "Otočac",
-   "date": "14 MAR 1839",
-   "ids": [
-    "@I506277@",
-    "@I511692@"
-   ],
-   "names": [
-    "Alexander Žubrinić",
-    "Alexander Žubrinić"
-   ],
-   "slugs": [
-    "alexander-zubrinic",
-    "alexander-zubrinic-2"
-   ],
-   "dyears": []
-  },
-  {
    "tier": "same year, same parents, and one record is a fragment",
    "surname": "blazevic",
    "given": "ivan",
@@ -692,7 +670,31 @@
    "dyears": []
   },
   {
-   "tier": "same year only",
+   "tier": "rejected — two birth days",
+   "surname": "kalanj",
+   "given": "magdalena",
+   "byear": 1829,
+   "n": 2,
+   "place": "Klenovica",
+   "date": "19 FEB 1829",
+   "ids": [
+    "@I509735@",
+    "@I512858@"
+   ],
+   "names": [
+    "Magdalena Kalanj",
+    "Magdalena Kalanj"
+   ],
+   "slugs": [
+    "magdalena-kalanj",
+    "magdalena-kalanj-4"
+   ],
+   "dyears": [
+    1900
+   ]
+  },
+  {
+   "tier": "rejected — one died a child and the other married",
    "surname": "zubrinic",
    "given": "thomas",
    "byear": 1822,
@@ -716,28 +718,26 @@
    ]
   },
   {
-   "tier": "rejected — two birth days",
-   "surname": "kalanj",
-   "given": "magdalena",
-   "byear": 1829,
+   "tier": "rejected — different parents by surname",
+   "surname": "zubrinic",
+   "given": "alexander",
+   "byear": 1839,
    "n": 2,
-   "place": "Klenovica",
-   "date": "19 FEB 1829",
+   "place": "Otočac",
+   "date": "14 MAR 1839",
    "ids": [
-    "@I509735@",
-    "@I512858@"
+    "@I506277@",
+    "@I511692@"
    ],
    "names": [
-    "Magdalena Kalanj",
-    "Magdalena Kalanj"
+    "Alexander Žubrinić",
+    "Alexander Žubrinić"
    ],
    "slugs": [
-    "magdalena-kalanj",
-    "magdalena-kalanj-4"
+    "alexander-zubrinic",
+    "alexander-zubrinic-2"
    ],
-   "dyears": [
-    1900
-   ]
+   "dyears": []
   },
   {
    "tier": "rejected — different parents",
@@ -1392,8 +1392,8 @@
    "dyears": []
   }
  ],
- "extra": 32,
+ "extra": 30,
  "published": 1282,
- "rejected": 29,
- "live": 31
+ "rejected": 31,
+ "live": 29
 }

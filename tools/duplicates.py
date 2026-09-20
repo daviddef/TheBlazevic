@@ -191,6 +191,54 @@ def _given_vocab():
 GIVEN = _given_vocab()
 
 
+
+def surnames_conflict(ids):
+    """True when two records give a parent surnames that share nothing.
+
+    parent_surnames() has existed since 15 September and was used ONLY to
+    withhold confirmation. That left the case it was written for sitting in
+    limbo: the two Alexander Zubrinics of 14 March 1839 have a Michael for a
+    father in both and mothers who reduce to «magdalena» — one Oreskovic, one
+    Drazenovic — so parents_agree() correctly refused to call them one boy, and
+    nothing then called them two. The group stayed «live», which is the tool
+    saying «I do not know» about something the archive had already decided.
+
+    A disagreement good enough to withhold a confirmation is good enough to
+    reject. Overlap, not equality, and a missing surname proves nothing.
+    """
+    for role in ("husb", "wife"):
+        named = [n for n in (parent_surnames(i)[role] for i in ids) if n]
+        for a in range(len(named)):
+            for b in range(a + 1, len(named)):
+                if not (named[a] & named[b]):
+                    return True
+    return False
+
+
+# A child who died at seven did not marry. Thomas Zubrinic, born 1822, is one
+# record dying in 1829 with no spouse and no children, and another with a wife
+# called Joanna and a son Nicolaus. Those are two people and no amount of name
+# matching says so — the veto above needs parents, and neither record here has
+# both. What separates them is a life that ended before the other one's began.
+CHILD_DEATH = 15
+
+
+def died_a_child_and_married(ids):
+    """True when one record died in childhood and another married or bore children."""
+    young, wed = False, False
+    for i in ids:
+        by = gedcom.year(gedcom.born(P[i]).get("date", ""))
+        dy = gedcom.year(gedcom.died(P[i]).get("date", ""))
+        if by and dy and 0 <= dy - by < CHILD_DEATH:
+            young = True
+        for f in (P[i].get("fams") or []):
+            fam = F.get(f) or {}
+            if fam.get("chil") or any(fam.get(r) and fam.get(r) != i
+                                      for r in ("husb", "wife")):
+                wed = True
+    return young and wed
+
+
 def parents_agree(ids):
     """True when every record names the same father and the same mother.
 
@@ -353,6 +401,10 @@ for (sur, giv, by), ids in buckets.items():
     # and that is two boys, not one boy twice.
     if parents_conflict(ids):
         tier = "rejected — different parents"
+    elif surnames_conflict(ids):
+        tier = "rejected — different parents by surname"
+    elif died_a_child_and_married(ids):
+        tier = "rejected — one died a child and the other married"
     elif len(dys) > 1:
         tier = "rejected — two death years"
     elif len(firm) > 1:
@@ -496,7 +548,9 @@ TIER = {"same day, same parents, same spouse": 0,
         "same year only": 6,
         "rejected — two death years": 7,
         "rejected — two birth days": 8,
-        "rejected — different parents": 9}
+        "rejected — one died a child and the other married": 9,
+        "rejected — different parents by surname": 10,
+        "rejected — different parents": 11}
 groups.sort(key=lambda g: (TIER[g["tier"]], g["surname"], g["byear"]))
 live = [g for g in groups if not g["tier"].startswith("rejected")]
 rejected = [g for g in groups if g["tier"].startswith("rejected")]
@@ -511,6 +565,8 @@ for t in ("same day, same parents, same spouse", "same day and same parents",
           "same year, same parents, and one record is a fragment",
           "same year and place", "same year only",
           "rejected — two death years", "rejected — two birth days",
+          "rejected — one died a child and the other married",
+          "rejected — different parents by surname",
           "rejected — different parents"):
     n = by_tier.get(t, 0)
     print(f"  {t:<38} {n:3d} groups  ({sum(g['n']-1 for g in groups if g['tier']==t)} surplus)")
