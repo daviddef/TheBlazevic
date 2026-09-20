@@ -114,3 +114,50 @@ index also confirms *Josephus, 14 October 1835*, whom the tree carries as
 ahnentafel 20 was born in **1811** and the Otočac index begins at **1834**.
 The query returns forty other Žubrinić households at Otočac and not theirs.
 **That is coverage, not spelling**, and no amount of surname variation fixes it.
+
+---
+
+# Two brothers, two wives called Maria, and nine weeks apart in 1810
+
+The parents-query on **ahnentafel 54 × 55** threw up what looked like an
+impossibility and turned out to be the neatest thing in the sweep.
+
+    15 February 1810   Margaritha Maria Uroda    «JOANNE Uroda × Maria»
+    23 April 1810      Mathiam Georgiam Uroda    «GEORGIO Uroda × Maria»
+    25 August 1811     Joannem Bartholomæum …    «JOANNE Uroda × Maria»
+    24 August 1812     Dominicum Bartholomæum…   «GEORGIO Uroda × Maria»
+
+**23 April 1810 is ahnentafel 27.** So the February child cannot be her
+mother's — nine weeks is not a pregnancy — and for an hour this looked like the
+index contradicting the tree about ahnentafel 54's own name.
+
+**It is not. There are two brothers**, and this archive already held the fact
+that separates them.
+
+* **Ahnentafel 54 was baptised «Joannis Georgij»** — *two given names*, 22 April
+  1777 — and is named alive in 1834 as ***«piscatoris GEORGII Uroda»***. He went
+  by **Georgius**. He married **Maria Gerkacs** on 17 June 1807.
+* **His brother, baptised Joannis on 17 May 1784**, is already in `found.psv`
+  with the note *«married Maria filia Nicolai Barletich 10 Feb 1806»*. He went
+  by **Joannes**, and his wife was **also a Maria**.
+
+**Two Uroda brothers, married thirteen months apart, both to women called
+Maria, both fathering at Karlobag in 1810.** The only thing telling them apart
+in the index is which of his two given names the priest used — and this archive
+had written both of them down years before it needed them.
+
+So **Dominicus Bartholomæus, 24 August 1812**, is ahnentafel 27's brother, and
+**Margaritha 1810** and **Joannes Bartholomæus 1811** are her cousins. All three
+are in `found.psv`, each saying which household it belongs to and why.
+
+## And the by-name again, on the generation above
+
+**Ahnentafel 212's death entry of 1776** reads ***«Josephus Smojver dictus
+VUKCICH»***. So the index's *«Josepho Vukich × Antonia»* is him:
+
+    10 April 1766   Hevam Vuhich     Josephi Vuhich × Antoniæ
+    16 May 1770     Joannæ Vukich    Josepho Vukich × Antonia
+
+Two more candidate daughters of **ahnentafel 212 × 213**, found only because the
+house name was searched. **That is three generations of one family — 212, 106,
+and their children — filed under Vukić as often as under Smojver.**

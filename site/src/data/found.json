@@ -1,9 +1,9 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 45,
+ "count": 50,
  "onDirectLine": 2,
  "places": {
-  "Karlobag": 31,
+  "Karlobag": 36,
   "Krivi Put": 3,
   "Otocac": 1,
   "Otočac": 3,
@@ -417,6 +417,51 @@
    "date": "7 July 1876",
    "place": "Krivi Put",
    "citation": "Krivi Put births, indexed — «Joannes Perpić × Lucia»; ark 1:1:XQM9-J5PG. Same caution, and the mother is given only as Lucia"
+  },
+  {
+   "name": "Dominicum Bartholomæum Uroda",
+   "ahn": null,
+   "relation": "son of ahnentafel 54 and 55, and not in the tree — brother of ahnentafel 27",
+   "event": "baptism",
+   "date": "24 August 1812",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Georgio Uroda × Maria»; ark 1:1:QKMX-YGZF. Ahnentafel 54 was baptised «Joannis Georgij» and is named alive in 1834 as «piscatoris GEORGII Uroda», so the index's Georgius is him. Two years after ahnentafel 27, to the same couple"
+  },
+  {
+   "name": "Margaritha Maria Uroda",
+   "ahn": null,
+   "relation": "daughter of ahnentafel 54's BROTHER Joannis, not of ahnentafel 54",
+   "event": "baptism",
+   "date": "15 February 1810",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Joanne Uroda × Maria»; ark 1:1:QKMX-YG4K. She CANNOT be ahnentafel 55's: ahnentafel 27 was born to her on 23 April 1810, nine weeks later. The father is the brother baptised 1784, who married Maria filia Nicolai Barletich on 10 February 1806"
+  },
+  {
+   "name": "Joannem Bartholomæum Stanislaum Uroda",
+   "ahn": null,
+   "relation": "son of ahnentafel 54's BROTHER Joannis",
+   "event": "baptism",
+   "date": "25 August 1811",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Joanne Uroda × Maria»; ark 1:1:QKMX-BV6R. Same household as Margaritha of 1810 — the brother's, not ahnentafel 54's"
+  },
+  {
+   "name": "Hevam Vuhich",
+   "ahn": null,
+   "relation": "daughter of ahnentafel 212 and 213, indexed under their BY-NAME; CANDIDATE",
+   "event": "baptism",
+   "date": "10 April 1766",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Josephi Vuhich × Antoniæ»; ark 1:1:QKMX-YYFL. Ahnentafel 212's death entry of 1776 is «Josephus Smojver dictus VUKCICH», so Vukić is this man's recorded house name"
+  },
+  {
+   "name": "Joannæ Vukich",
+   "ahn": null,
+   "relation": "daughter of ahnentafel 212 and 213, indexed under their BY-NAME; CANDIDATE",
+   "event": "baptism",
+   "date": "16 May 1770",
+   "place": "Karlobag",
+   "citation": "Karlobag births, indexed — «Josepho Vukich × Antonia»; ark 1:1:QKMX-BZ42"
   }
  ]
 }
