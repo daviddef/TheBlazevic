@@ -1,0 +1,116 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import R from "../data/readings.json";
+// sources/readings.psv held 111 citations and was published nowhere: /searched
+// listed the sittings, a person page showed a state badge, and the register's
+// own words appeared on no page at all.
+const C = R.counts;
+const byYear = R.rows;
+const direct = Object.values(R.bySlug).filter((p) => p.ahn).sort((a, b) => a.ahn - b.ahn);
+const century = (y) => `${Math.floor(parseInt(y, 10) / 100) + 1}th century`;
+const groups = [];
+for (const r of byYear) {
+  const c = century(r.year);
+  if (!groups.length || groups[groups.length - 1].c !== c) groups.push({ c, rows: [] });
+  groups[groups.length - 1].rows.push(r);
+}
+---
+<Base title="What the Registers Actually Say"
+  eyebrow={`${C.rows} documents read out, for ${C.people} people`}
+  dek={`Every document this archive has read off a page, with the citation in the register's own words — ${C.earliest} to ${C.latest}. Until today this file existed and was published nowhere: the site could tell you a document existed for somebody and never tell you what it said.`}>
+
+  <section class="blk">
+    <p class="lede">This archive's claim is that <strong>nothing is asserted without a
+    document</strong>. That claim is only worth anything if you can <strong>read the
+    document</strong> — so here is the line, in the hand it was written in, for every person it
+    has been read for.</p>
+    <div class="grid two">
+      <div class="card">
+        <h3>What a row is</h3>
+        <p>One person, one document, one citation. <strong>{C.rows} rows for {C.people}
+        people</strong>, {C.onDirectLine} of them on the direct line.</p>
+        <p>A citation quotes the register. Where the words are Latin or Croatian they are left
+        that way — <em>Capitaneus portûs</em>, <em>vulgò Vukić</em>, <em>srpnja</em> — because
+        translating a register is how a reading becomes a guess.</p>
+      </div>
+      <div class="card">
+        <h3>Two things a row can be, and they are not the same</h3>
+        <p><strong>{C.rows - C.derived} are direct</strong> — the document is about this person.</p>
+        <p><strong>{C.derived} are derived.</strong> The archive's rule is that
+        <em>a baptism counts as a reading for the child <strong>and</strong> for both parents,
+        because it names all three</em>. A derived credit says <strong>a register names you</strong>,
+        which is not the same claim as <strong>a register is about you</strong>, and it carries the
+        child it came through so you can check.</p>
+      </div>
+    </div>
+    {C.indexOnly > 0 && <div class="note"><strong>{C.indexOnly} rows are marked
+    <span class="mono">INDEX ONLY</span>, and that matters.</strong> They are transcriptions taken
+    from a record index without the page being opened. This archive has caught that index
+    <strong>naming the wrong mother</strong> for ahnentafel 106, <strong>the wrong father</strong>
+    for a Krmpote child, and <strong>three mangled surnames</strong> on its own line in a single
+    day. An index finds the page. <strong>The page settles the fact.</strong>
+    <a href={u("/indexed/")}>Which books are indexed →</a></div>}
+  </section>
+
+  <section class="blk">
+    <div class="lab">{direct.length} ancestors</div>
+    <h2>The direct line, in the order of descent</h2>
+    <table class="reg">
+      <thead><tr><th style="width:5%">Ahn</th><th style="width:20%">Who</th>
+        <th>What has been read for them</th></tr></thead>
+      <tbody>{direct.map((p) => (
+        <tr>
+          <td class="mono">{p.ahn}</td>
+          <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a></td>
+          <td>{p.rows.map((r) => (
+            <div style="margin-bottom:.45rem">
+              <span class="mono">{r.year}</span> <strong>{r.kind}</strong>
+              {r.derived && <span class="dek"> — derived, via {r.viaName || r.via}</span>}
+              {r.indexOnly && <span class="dek"> · <strong>index only</strong></span>}
+              <span class="dek" style="display:block">{r.cite}</span>
+            </div>
+          ))}</td>
+        </tr>
+      ))}</tbody>
+    </table>
+  </section>
+
+  {groups.map((g) => (
+    <section class="blk">
+      <div class="lab">{g.rows.length} documents</div>
+      <h2>{g.c}</h2>
+      <table class="reg">
+        <thead><tr><th style="width:7%">Year</th><th style="width:20%">Who</th>
+          <th style="width:13%">Document</th><th>What it says</th></tr></thead>
+        <tbody>{g.rows.map((r) => (
+          <tr>
+            <td class="mono">{r.year}</td>
+            <td><a href={u(`/people/${r.slug}/`)}>{r.name}</a>
+              {r.ahn && <span class="dek" style="display:block">ahnentafel {r.ahn}</span>}</td>
+            <td class="dek">{r.kind}{r.indexOnly &&
+              <span class="dek" style="display:block"><strong>index only</strong></span>}</td>
+            <td class="dek">{r.cite}
+              {r.href && <span style="display:block"><a href={r.href}>{r.where}</a></span>}
+              {!r.href && r.where && <span class="mono dek" style="display:block">{r.where}</span>}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="blk">
+    <div class="card">
+      <h3>Where this comes from</h3>
+      <p>The file is <span class="mono">sources/readings.psv</span>, kept by hand, one row per
+      person per document. It is built by <span class="mono">tools/readingsdata.py</span>, and two
+      checks stand over it: <span class="mono">datecheck.py</span> holds every dated citation
+      against the date this archive publishes and <strong>refuses a row that names nobody</strong>,
+      and <span class="mono">publishedcheck.py</span> holds the site's own corrections against
+      this file, so a document shown on a page cannot go unrecorded here.</p>
+      <p><a href={u("/searched/")}>What has been read, by sitting →</a>{" · "}
+      <a href={u("/coverage/")}>What rests on a document →</a>{" · "}
+      <a href={u("/indexed/")}>Which books are indexed →</a></p>
+    </div>
+  </section>
+</Base>

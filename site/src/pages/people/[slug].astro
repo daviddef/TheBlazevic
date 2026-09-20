@@ -6,6 +6,7 @@ import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
 import evidence from "../../data/evidence.json";
+import readings from "../../data/readings.json";
 import linkage from "../../data/linkage.json";
 import dupes from "../../data/duplicates.json";
 import placefixes from "../../data/placefixes.json";
@@ -47,6 +48,10 @@ const sameName = people
   .filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name))
   .slice(0, 24);
 const ev = evidence[p.slug] || { state: "tree", media: 0 };
+// What has actually been READ for this person, with the citation. The state
+// badge above says a document exists; until 20 September 2026 no page said
+// what it said. sources/readings.psv held 111 of these and was published nowhere.
+const read = (readings.bySlug[p.slug] || { rows: [] }).rows;
 // The same five states the coverage table counts, as a chip: the sentence
 // below says it properly, this says it at a glance. Colour by how far the
 // claim is from a record, not by how flattering it is.
@@ -216,6 +221,30 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
       <h2>Family</h2>
       <PersonTree person={p} parents={parents} spouses={spouses}
                   children={children} siblings={siblings} />
+    </section>
+  )}
+
+  {read.length > 0 && (
+    <section class="blk">
+      <div class="lab">{read.length} {read.length === 1 ? "document" : "documents"} read</div>
+      <h2>What the registers say about {p.given || p.name}</h2>
+      <table class="reg">
+        <thead><tr><th style="width:8%">Year</th><th style="width:16%">Document</th>
+          <th>The citation, in the register's own words</th></tr></thead>
+        <tbody>{read.map((r) => (
+          <tr>
+            <td class="mono">{r.year}</td>
+            <td class="dek"><strong>{r.kind}</strong>
+              {r.indexOnly && <span class="dek" style="display:block">index only — the page has not been opened</span>}</td>
+            <td class="dek">{r.cite}
+              {r.derived && <span class="dek" style="display:block">Named on {r.viaName || r.via}'s
+                entry rather than their own — <em>a register names you</em> is not
+                <em> a register is about you</em>.</span>}
+              {r.href && <span style="display:block"><a href={r.href}>{r.where}</a></span>}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+      <p class="dek" style="margin-top:.7rem"><a href={u("/readings/")}>Every document this archive has read →</a></p>
     </section>
   )}
 

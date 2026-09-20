@@ -1,0 +1,4057 @@
+{
+ "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
+ "counts": {
+  "rows": 111,
+  "people": 83,
+  "derived": 43,
+  "onDirectLine": 35,
+  "indexOnly": 10,
+  "earliest": 1754,
+  "latest": 2005
+ },
+ "kinds": [
+  [
+   "baptism",
+   38
+  ],
+  [
+   "death",
+   18
+  ],
+  [
+   "baptism-of-child",
+   16
+  ],
+  [
+   "marriage-of-child",
+   12
+  ],
+  [
+   "marriage",
+   11
+  ],
+  [
+   "grave",
+   6
+  ],
+  [
+   "death-of-spouse",
+   4
+  ],
+  [
+   "census",
+   3
+  ],
+  [
+   "parish-identified",
+   1
+  ],
+  [
+   "named-as-spouse",
+   1
+  ],
+  [
+   "death-of-child",
+   1
+  ]
+ ],
+ "rows": [
+  {
+   "kind": "baptism",
+   "year": "1754",
+   "cite": "Karlobag, 18 January 1754",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/reading-2026-09-10.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+   "indexOnly": false,
+   "slug": "vicentius-fabiano-smojver-vukic",
+   "name": "Vicentius Fabiano Smojver Vukić",
+   "ahn": 106
+  },
+  {
+   "kind": "baptism",
+   "year": "1768",
+   "cite": "Karlobag, 11 March 1768 — INDEX ONLY, «Josephum Piberich», father «Jacobi Piberich», mother «Catharina»; ark 1:1:QKMX-YX3G. «Piberich» is the index's misreading and occurs nowhere else at Karlobag; the same couple are «Pillopich» in 1758 and «Pillepich» in 1762 and 1765",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-the-index-calls-them-piberich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-the-index-calls-them-piberich.md",
+   "indexOnly": true,
+   "slug": "josephus-josip-pilipic",
+   "name": "Josephus (Josip) Pilipic",
+   "ahn": 52
+  },
+  {
+   "kind": "death",
+   "year": "1776",
+   "cite": "Karlobag Umrli 1774-1804 folio 11 — «16 ejusdem [Maij] · Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus [Sacramentis] … in Domino obijt, atque die 17 … in Coemeterio Parochiali tumulatus»; found through the KAZALO's cross-reference «Vukich vide Smojver»; ark 3:1:3QS7-L99C-G3WG",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1778-jacobus-pilepich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+   "indexOnly": false,
+   "slug": "josiph-smojver-vukic",
+   "name": "Josiph Smojver Vukić",
+   "ahn": 212
+  },
+  {
+   "kind": "baptism",
+   "year": "1777",
+   "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/uroda-generation-found.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
+   "indexOnly": false,
+   "slug": "joannis-georgius-georgio-uroda",
+   "name": "Joannis Georgius (Georgio) Uroda",
+   "ahn": 54
+  },
+  {
+   "kind": "death",
+   "year": "1778",
+   "cite": "Karlobag Umrli 1774-1804 folio 17 — «10: Aprilis · D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est»; no age given; ark 3:1:3QS7-L99C-GSBG",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1778-jacobus-pilepich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+   "indexOnly": false,
+   "slug": "jacob-pilipic",
+   "name": "Jacob Pilipic",
+   "ahn": 104
+  },
+  {
+   "kind": "baptism",
+   "year": "1779",
+   "cite": "Karlobag, 12 January 1779 — \"ex Angelo et Catharina Bacchi\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/reading-2026-09-10.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+   "indexOnly": false,
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
+   "ahn": 214
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1781",
+   "cite": "named as mother, «et Oliva Smoyver, vulgò Vukić, Conjugibus», Karlobag 11 March 1781",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1781-oliva-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+   "indexOnly": false,
+   "slug": "oliva-andreana-bacchi",
+   "name": "Oliva Andreana Bacchi",
+   "ahn": 107
+  },
+  {
+   "kind": "baptism",
+   "year": "1781",
+   "cite": "Karlobag, born 11 March 1781, page 65 — «baptizavi infantem die 11ma hujus natam ex Vincentio, et Oliva Smoyver, vulgò Vukić, Conjugibus… cui imposui est nomen Oliva Maria»; ark 3:1:3QS7-L99C-L998-5",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1781-oliva-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+   "indexOnly": false,
+   "slug": "oliva-maria-smojver",
+   "name": "Oliva Maria Smojver",
+   "ahn": 53
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1781",
+   "cite": "named as father, «Vincentio… Smoyver, vulgò Vukić», Karlobag 11 March 1781",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1781-oliva-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+   "indexOnly": false,
+   "slug": "vicentius-fabiano-smojver-vukic",
+   "name": "Vicentius Fabiano Smojver Vukić",
+   "ahn": 106
+  },
+  {
+   "kind": "death",
+   "year": "1783",
+   "cite": "Karlobag Umrli 1774-1804 folio 39 (right page of image 376, whose left page is printed «38. — Anno Dñi 1783») — «30 8bris · Nicolaus Gergacs annorum 66, munitus omnibus sacramentis obiit … in domo filij sui Antonij, et die 31: ejusdem … sepultus est in Cœmeterio … Laterali ex parte dextra Ecclesiæ Parochialis hujus»; ark 3:1:3QS7-L99C-GSBH",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1778-jacobus-pilepich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+   "indexOnly": false,
+   "slug": "nicolaus-gerkacs",
+   "name": "Nicolaus Gerkacs",
+   "ahn": 220
+  },
+  {
+   "kind": "baptism",
+   "year": "1789",
+   "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-households-indexed.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
+   "indexOnly": true,
+   "slug": "mariam-gerkacs-gergacs",
+   "name": "Mariam Gerkacs (Gergacs)",
+   "ahn": 55
+  },
+  {
+   "kind": "death",
+   "year": "1790",
+   "cite": "Karlobag Umrli 1774-1804 folio 63 (right page of image 388) — «29 ejusdem [Maij] · Catharina annorum 70, vidua defti Jacobi [P]ilepich, obiit in Domino munita omnibus sacramentis, atque die 30 sepulta est». The tree's date to the day; the AGE DISAGREES — 70 in May 1790 puts her birth about 1720 where the tree says 30 Mar 1727. She is not in the KAZALO's L at all: a widow is indexed under her husband's surname; ark 3:1:3QS7-L99C-G3QY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1778-jacobus-pilepich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+   "indexOnly": false,
+   "slug": "catherina-catta-luckinic",
+   "name": "Catherina (Catta) Luckinić",
+   "ahn": 105
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1806",
+   "cite": "named as father, 1806 baptism of ahn 24",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/vrbnik-or-selce.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+   "indexOnly": false,
+   "slug": "joannis-antic",
+   "name": "Joannis Antić",
+   "ahn": 48
+  },
+  {
+   "kind": "baptism",
+   "year": "1806",
+   "cite": "1806 baptism, 14 Mar — \"Marthæ Antich Papa … nomine Josephum\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/vrbnik-or-selce.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+   "indexOnly": false,
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24
+  },
+  {
+   "kind": "parish-identified",
+   "year": "1806",
+   "cite": "Selce deaths 1806, image 108 — \"per me Mich: Rombol Capell: Loci\", the same priest and office as his baptism entry",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/vrbnik-or-selce.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+   "indexOnly": false,
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1806",
+   "cite": "named as mother, 1806 baptism of ahn 24",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/vrbnik-or-selce.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+   "indexOnly": false,
+   "slug": "margarita-martha-loncaric",
+   "name": "Margarita (Martha) Lončarić",
+   "ahn": 49
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1807",
+   "cite": "named as the groom's late father, «defti Georgii Uroda», Karlobag 17 June 1807",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1807-uroda-gergas.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": 108
+  },
+  {
+   "kind": "marriage",
+   "year": "1807",
+   "cite": "Karlobag, 17 June 1807, folio 4 — «Georgii filij defti Georgii Uroda et Maria filia Michaelis Gergas»; ark 3:1:3QSQ-G99C-G2N",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1807-uroda-gergas.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+   "indexOnly": false,
+   "slug": "joannis-georgius-georgio-uroda",
+   "name": "Joannis Georgius (Georgio) Uroda",
+   "ahn": 54
+  },
+  {
+   "kind": "marriage",
+   "year": "1807",
+   "cite": "Karlobag, 17 June 1807, folio 4 — named as «Maria filia Michaelis Gergas»; ark 3:1:3QSQ-G99C-G2N",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1807-uroda-gergas.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+   "indexOnly": false,
+   "slug": "mariam-gerkacs-gergacs",
+   "name": "Mariam Gerkacs (Gergacs)",
+   "ahn": 55
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1807",
+   "cite": "named as the bride's father, «Maria filia Michaelis Gergas», Karlobag 17 June 1807",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1807-uroda-gergas.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+   "indexOnly": false,
+   "slug": "michaeli-michaele-gerkacs-gergacs",
+   "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": 110
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1809",
+   "cite": "named as father, 1809 baptism of ahn 25",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1809-baptism.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+   "indexOnly": false,
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": 50
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1809",
+   "cite": "named as mother, 1809 baptism of ahn 25",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1809-baptism.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+   "indexOnly": false,
+   "slug": "margarita-brozovic",
+   "name": "Margarita Brozović",
+   "ahn": 51
+  },
+  {
+   "kind": "baptism",
+   "year": "1809",
+   "cite": "Selce entry 70, house 110 — \"Margarita Jellichich dictis Jurešina\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1809-baptism.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+   "indexOnly": false,
+   "slug": "maria-jellicic",
+   "name": "Maria Jelličić",
+   "ahn": 25
+  },
+  {
+   "kind": "baptism",
+   "year": "1810",
+   "cite": "Karlobag, 23 April 1810, entry 23",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1810-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1810-uroda.md",
+   "indexOnly": false,
+   "slug": "matia-mathiam-georgiam-uroda",
+   "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": 27
+  },
+  {
+   "kind": "death",
+   "year": "1829",
+   "cite": "Selce LIBER DEFUNCTORUM image 304 — «Die 13a Martii 1829 · Nrus Domus 51 · Joannes Antich Papa. obiit Annorum 64, omnibus morientium SS. provisus … per me Vincent. Kombel Parochum sepultus est»; ark 3:1:3QS7-L99X-1QQL",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-antic-1829-papa.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-antic-1829-papa.md",
+   "indexOnly": false,
+   "slug": "joannis-antic",
+   "name": "Joannis Antić",
+   "ahn": 48
+  },
+  {
+   "kind": "death",
+   "year": "1829",
+   "cite": "Selce LIBER DEFUNCTORUM image 304 — «Die 15e Julii 1829 · Nrus Domus 56 · Margarita uxor Joannis Antich Natanchii obiit Annorum 52» — Natanchii underlined; house 56 against his 51, recorded as the open question it is; ark 3:1:3QS7-L99X-1QQL",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-antic-1829-papa.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-antic-1829-papa.md",
+   "indexOnly": false,
+   "slug": "margarita-martha-loncaric",
+   "name": "Margarita (Martha) Lončarić",
+   "ahn": 49
+  },
+  {
+   "kind": "death",
+   "year": "1832",
+   "cite": "Selce, 1 Apr 1832, house 39 — \"Georgius Jellicich, Antonii\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+   "indexOnly": false,
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": 50
+  },
+  {
+   "kind": "named-as-spouse",
+   "year": "1834",
+   "cite": "named alive as \"piscatoris Georgii Uroda\" at his wife's death, 6 Aug 1834 — which rules out the 1808 and 1817 Georgius Uroda deaths",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-deaths-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-uroda.md",
+   "indexOnly": false,
+   "slug": "joannis-georgius-georgio-uroda",
+   "name": "Joannis Georgius (Georgio) Uroda",
+   "ahn": 54
+  },
+  {
+   "kind": "death",
+   "year": "1834",
+   "cite": "Karlobag deaths, folio 52 — \"Maria uxor piscatoris Georgii Uroda annorum 45\", 6 Aug 1834, buried the 7th",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-deaths-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-uroda.md",
+   "indexOnly": false,
+   "slug": "mariam-gerkacs-gergacs",
+   "name": "Mariam Gerkacs (Gergacs)",
+   "ahn": 55
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1835",
+   "cite": "named as the bride's late father",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": 50
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1835",
+   "cite": "named as the groom's late father",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "joannis-antic",
+   "name": "Joannis Antić",
+   "ahn": 48
+  },
+  {
+   "kind": "marriage",
+   "year": "1835",
+   "cite": "Selce, 22 Nov 1835, domus 51",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1835",
+   "cite": "named as \"Lucia uxor ejus nata Sekula\", same entry",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/frontier.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "lucia-sekula",
+   "name": "Lucia Sekula",
+   "ahn": 43
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1835",
+   "cite": "Otočac, 8 Sep 1835, Dubrava 29 — \"Marcus Oreskovich, adoptatus Sekula\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/frontier.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "marcus-oreskovic-oreskovic",
+   "name": "Marcus Orešković Oreskovic",
+   "ahn": 42
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1835",
+   "cite": "named as the groom's late mother",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "margarita-martha-loncaric",
+   "name": "Margarita (Martha) Lončarić",
+   "ahn": 49
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1835",
+   "cite": "named as the bride's late mother",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "margarita-brozovic",
+   "name": "Margarita Brozović",
+   "ahn": 51
+  },
+  {
+   "kind": "baptism",
+   "year": "1835",
+   "cite": "Otočac, 8 Sep 1835, Dubrava 29 — her own baptism, the entry both her parents were already credited from: «Marcus Oreskovich, adoptatus Sekula» and «Lucia uxor ejus nata Sekula». The rule says a baptism counts for the child AND both parents; the parents had rows and the child did not",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/frontier.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "maria-catharina-oreskovic-oreskovic",
+   "name": "Maria Catharina Orešković Oreskovic",
+   "ahn": 21
+  },
+  {
+   "kind": "marriage",
+   "year": "1835",
+   "cite": "Selce, 22 Nov 1835, domus 51",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1835-marriage.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+   "indexOnly": false,
+   "slug": "maria-jellicic",
+   "name": "Maria Jelličić",
+   "ahn": 25
+  },
+  {
+   "kind": "baptism",
+   "year": "1838",
+   "cite": "Selce, 11 Mar 1838, domus 51 — the name read as \"Gregorium\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-1838-baptism.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
+   "indexOnly": false,
+   "slug": "georgius-juraj-joannis-papa-antic-papic",
+   "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+   "ahn": 12
+  },
+  {
+   "kind": "baptism",
+   "year": "1838",
+   "cite": "Karlobag, 18 Sep 1838 — \"Cammeralis nauclerō Vincentii Pilipich\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1838-pilipic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md",
+   "indexOnly": false,
+   "slug": "matia-matthea-pilipic",
+   "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": 13
+  },
+  {
+   "kind": "death",
+   "year": "1838",
+   "cite": "Otočac Umrli 1834-1858 p. 45 entry 3 of 1838 — «1838. Januarii die 4ta · Thomas Xubrinich, Confiniarius, ex Pago Shumcchicza N° 2 · An. 70 · Senectutis Debilitas»; ark 3:1:3QS7-L99C-PVR4",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-toma-zubrinic-1838.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-toma-zubrinic-1838.md",
+   "indexOnly": false,
+   "slug": "toma-zubrinic",
+   "name": "Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1838",
+   "cite": "named as father, with his trade",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-1838-pilipic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md",
+   "indexOnly": false,
+   "slug": "vicentius-andreas-vincent-pilipic",
+   "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": 26
+  },
+  {
+   "kind": "death",
+   "year": "1842",
+   "cite": "Selce, 8 May 1842, entry 147, house 204",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+   "indexOnly": false,
+   "slug": "margarita-brozovic",
+   "name": "Margarita Brozović",
+   "ahn": 51
+  },
+  {
+   "kind": "census",
+   "year": "1844-57",
+   "cite": "Karlobag Stanje duša, image 48 — \"Matia ux., 23 April 810\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-status-animarum.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+   "indexOnly": false,
+   "slug": "matia-mathiam-georgiam-uroda",
+   "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": 27
+  },
+  {
+   "kind": "census",
+   "year": "1844-57",
+   "cite": "Karlobag Stanje duša, image 48 right page — \"Matia f. 18 Sept. 838\" in Vicko Pilepich's household",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-status-animarum.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+   "indexOnly": false,
+   "slug": "matia-matthea-pilipic",
+   "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": 13
+  },
+  {
+   "kind": "census",
+   "year": "1844-57",
+   "cite": "Karlobag Stanje duša, image 48 — head of household, \"Pilepich Vicko, 17 Nov. 805\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-status-animarum.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+   "indexOnly": false,
+   "slug": "vicentius-andreas-vincent-pilipic",
+   "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": 26
+  },
+  {
+   "kind": "baptism",
+   "year": "1846",
+   "cite": "«Graničar iz Šumećića Br. 10» — read earlier; the tree gives only «Otočac, Croatia»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "thomas-toma-zubrinic",
+   "name": "Thomas Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1846",
+   "cite": "Otočac Rodjeni 1846-1858 — son of Michael Žubrinić and Helena Orešković, «e Šumećica N° 10», b. 21 Dec 1846. Recorded in found.psv as not in the tree; he is, and so is his mother HELENA OREŠKOVIĆ, who appears only as a parent reference on him and has no page of her own",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "thomas-toma-zubrinic",
+   "name": "Thomas Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1848",
+   "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "petrus-zubrinic",
+   "name": "Petrus Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1849",
+   "cite": "Otočac Umrli 1834-1858 p. 153 entry 53 — «Leta 1849 dne 29 Srpnja preminula je · Maria Žubrinić, Udovica · 69 · Slaboća starosti po dokazu Lečnika · Sa Svetimi Otajstvi umirućih providjena · u župničkoj grobnici»; ark 3:1:3QS7-899C-PVHR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-marija-findric-1849.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md",
+   "indexOnly": false,
+   "slug": "marija-findric",
+   "name": "Marija Findrić",
+   "ahn": 41
+  },
+  {
+   "kind": "baptism",
+   "year": "1849",
+   "cite": "Otočac, 4 November 1849 — «Graničar iz Šumećića Br. 5», Croatian entry",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "marta-zubrinic",
+   "name": "Marta Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1849",
+   "cite": "named only as «Udovica», Otočac 29 July 1849 — he predeceased her by eleven years, and his own entry of 4 Jan 1838 is read",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-marija-findric-1849.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md",
+   "indexOnly": false,
+   "slug": "toma-zubrinic",
+   "name": "Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1850",
+   "cite": "Selce LIBER DEFUNCTORUM p. 99 — «Letta 850. na 21. 8bre · Preminu Osip Antić težak i Mare kćer · 44 / 6 · Od kolere» — Selce house 74; age 44 agrees with the tree's birth of 14 Mar 1806; ark 3:1:3QSQ-G99X-13PY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-cholera-1850.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-cholera-1850.md",
+   "indexOnly": false,
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24
+  },
+  {
+   "kind": "baptism",
+   "year": "1850",
+   "cite": "Otočac Rodjeni 1846-1858 — daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, «e Šumećica N° 10». Recorded in found.psv as not in the tree; the tree has her, born 1850, with both parents matching",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "luce-zubrinic",
+   "name": "Luce Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1851",
+   "cite": "Otočac, 25 November 1851 — «Graničar iz Poljic N° 13», the same house as Petrus 1848",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "mate-zubrinic",
+   "name": "Mate Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1852",
+   "cite": "Otočac, 5 January 1852 — «miles gregarius e Prozor N° 50»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "magdalena-zubrinic-3",
+   "name": "Magdalena Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1852",
+   "cite": "Otočac, 26 April 1852 — «Gregarius e Sumećica N° 5»; the register gives the mother as Marković, where the index says Maković",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "magdalena-zubrinic-5",
+   "name": "Magdalena Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "named as mother, \"Anna nata Štrumbulko\", Otočac 3 Jul 1856, same house — the by-name attested",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/ana-maric-plan.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+   "indexOnly": false,
+   "slug": "ana-shambul-maric",
+   "name": "Ana Shambul Marić",
+   "ahn": 11
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1857",
+   "cite": "named as father \"Joannis Papa\" at his son's baptism, Senj 1 Nov 1857",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "georgius-juraj-joannis-papa-antic-papic",
+   "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+   "ahn": 12
+  },
+  {
+   "kind": "baptism",
+   "year": "1857",
+   "cite": "Senj, 1 Nov 1857 — \"baptizavi Josephum filium legitimum Romano-Catholicum Joannis Papa et ejus uxoris Mathiae Pilipic\", godfather + Michael Stipancic",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "josip-anton-papic",
+   "name": "Josip Anton \"Joso\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1857",
+   "cite": "named as mother \"Mathiae Pilipic\", Senj 1 Nov 1857",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "matia-matthea-pilipic",
+   "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": 13
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1858",
+   "cite": "named as mother, \"Anna nata Marić\", Otočac 15 Sep 1858",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/ana-maric-plan.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+   "indexOnly": false,
+   "slug": "ana-shambul-maric",
+   "name": "Ana Shambul Marić",
+   "ahn": 11
+  },
+  {
+   "kind": "baptism",
+   "year": "1858",
+   "cite": "Otočac, 15 Sep 1858 — \"Rustica e Šumećica N° 2\", Nicolaus Žubrinić et ejus uxor Anna nata Marić",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/ana-maric-plan.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+   "indexOnly": false,
+   "slug": "marija-zubrinic",
+   "name": "Marija Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1858",
+   "cite": "named as father, Otočac 15 Sep 1858, Šumećica N° 2",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/ana-maric-plan.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+   "indexOnly": false,
+   "slug": "nicolaus-zubrinic-xubrinic",
+   "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1858",
+   "cite": "Otočac, 8 January 1858 — «Confiniarius e Prozor N° 50», confirming the birthplace the tree already carries",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+   "indexOnly": false,
+   "slug": "nikola-miko-zubrinic",
+   "name": "Nikola Miko Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1859",
+   "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-household-was-swept-and-she-was-left-out.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
+   "indexOnly": true,
+   "slug": "antonija-tonka-perpic-prpic",
+   "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1864",
+   "cite": "Her 1864 baptism — born 3 January 1864 — enters her parents as «Josephus Kalanj» and «Rosalia nata Perković» at Klenovica 22, the same couple the tree gives her brother Martin, AND as «Brinjensis parochiae ruricolae» — country people of the parish of BRINJE. That line was read, transcribed and then not acted on: every search this archive has run for the Kalanji has been on the coast",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "anica-ana-anna-kalanj",
+   "name": "Anica / Ana / Anna \"Ana\" Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-child",
+   "year": "1882",
+   "cite": "named as her father, «kći Jurja … Jeličić», Selce 6 July 1882",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+   "indexOnly": false,
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": 50
+  },
+  {
+   "kind": "baptism",
+   "year": "1882",
+   "cite": "Krmpote, born 25 bapt. 26 SRPNJA (July) 1882, entry 32 — the month is JULY; this citation read «Aug» until 20 September 2026, when a date audit caught it against notes/reading-2026-09-09.md — \"Toma Blazevic i Tereza njegova rodjena Pecanic, rim. kat. seljaci, Smokvica kbroj 114\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "ivan-blazevic",
+   "name": "Ivan Blazevic",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1882",
+   "cite": "named as her late husband, «supruga pok. Josipa», Selce 6 July 1882",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+   "indexOnly": false,
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24
+  },
+  {
+   "kind": "death",
+   "year": "1882",
+   "cite": "Selce, 6 July 1882, house 29, aged 73 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja»; buried 7 July; LIBER DEFUNCTORUM p. 144 entry 21, ark 3:1:3QSQ-G99X-1357",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+   "indexOnly": false,
+   "slug": "maria-jellicic",
+   "name": "Maria Jelličić",
+   "ahn": 25
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1882",
+   "cite": "named as mother \"Tereza njegova rodjena Pecanic\", 26 Aug 1882 — alive, which the \"died before 1850\" could never have allowed",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "tereza-pecanic",
+   "name": "Tereza Pećanić",
+   "ahn": 9
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1882",
+   "cite": "named as father at Smokvica kbroj 114, 26 Aug 1882",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "toma-tomislav-blazevic",
+   "name": "Toma Tomislav Blazevic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1883",
+   "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1907-vukelic-index.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
+   "indexOnly": true,
+   "slug": "zvonimir-matei-vukelic",
+   "name": "Zvonimir Matei Vukelić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1884",
+   "cite": "Krmpote entry 66 — \"Godine 1884 dne 25. 27. Listopada, Tonka, zakonita, Tome Blazevic i Tereza rodjena Pecanic, rim. kat. seljani, Smokvica kbroj 114\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "antonija-blazevic-2",
+   "name": "Antonija \"Tonka\" Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1885",
+   "cite": "named as \"Juraj Papa, težak\" at his son's marriage, Senj p.192 no.5",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/reading-2026-09-13-familysearch.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-13-familysearch.md",
+   "indexOnly": false,
+   "slug": "georgius-juraj-joannis-papa-antic-papic",
+   "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+   "ahn": 12
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1885",
+   "cite": "named as father, \"Juraj Papa tezak\", at his son's marriage 3 May 1885",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "georgius-juraj-joannis-papa-antic-papic",
+   "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+   "ahn": 12
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1885",
+   "cite": "named as \"Ivan Perpić, seljak\" at his daughter's marriage, Senj p.192 no.5",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/reading-2026-09-13-familysearch.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-13-familysearch.md",
+   "indexOnly": false,
+   "slug": "joannis-perpic",
+   "name": "Joannis \"Ivan\" Perpić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1885",
+   "cite": "Senj, 3 May 1885, entry 5 — \"Josip Papic, bremenar, Senj, 27\"",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "josip-anton-papic",
+   "name": "Josip Anton \"Joso\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1885",
+   "cite": "Senj, born 11 Aug 1885, baptised 12 Aug 1885 — «Josip Papic × Tonka Prpić»; ark 1:1:X9D5-SHGX. INDEX ONLY, not read from the image. Agrees with the tree to the day",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-milka-baptism-index.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+   "indexOnly": true,
+   "slug": "marija-papic",
+   "name": "Marija Papić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1885",
+   "cite": "named as mother, \"Matia rodjena Pilipic\", 3 May 1885",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "sources/searched.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "matia-matthea-pilipic",
+   "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": 13
+  },
+  {
+   "kind": "death",
+   "year": "1886",
+   "cite": "Senj, 9 February 1886, entry 13 — «Matija PILIPIĆ, žena · Vicko PILIPIĆ, fin. stražar u miru, njezin muž · Karlobag · rim. kat. · 78 · Marasmus senilis · Providjena»; ark 3:1:3QS7-899X-1HVP",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-matia-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+   "indexOnly": false,
+   "slug": "matia-mathiam-georgiam-uroda",
+   "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": 27
+  },
+  {
+   "kind": "baptism",
+   "year": "1886",
+   "cite": "Senj baptisms Str. 122 entry 96, READ FROM THE IMAGE — «Milka Lucia», zakonita, born 9 October 1886, baptised 17 October; father «Josip Papić, trhonoša», mother «Tonka rođ. Prpić»; godparents Josip Glavičić, trhonoša, and Ivka Filipović. The register writes the birth «1886, 9/10». The margin was annotated at her death: «Uvidom u matičnu knjigu umrlih opć. Senj str. 280. red. br. 37. umrla dana 7.9.1971», endorsed 30.9.1971",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/milka.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "milka-lucia-papic",
+   "name": "Milka Lucia Papic",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1886",
+   "cite": "named as her husband with his occupation, «Vicko Pilipić, fin. stražar u miru», Senj 9 February 1886",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-matia-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+   "indexOnly": false,
+   "slug": "vicentius-andreas-vincent-pilipic",
+   "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": 26
+  },
+  {
+   "kind": "baptism",
+   "year": "1888",
+   "cite": "Senj, baptised 3 Jul 1888 — «Joso Papić × Tona Perpić»; ark 1:1:X9DP-3YVS. INDEX ONLY, and it gives no birth day",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-milka-baptism-index.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+   "indexOnly": true,
+   "slug": "ana-papic",
+   "name": "Ana \"Anica\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1888",
+   "cite": "Ledenice, 16 May 1888 — INDEX ONLY, «Marija Milka», parents «Luka Kalanj» and «Kata Kalanj»; ark 1:1:XQM9-8KKX. The tree carries the year alone and cites the image; the index supplies the day. The mother is Kata Miletić in the tree — the index has given her the father's surname",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-zeros-were-not-all-zeros.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-zeros-were-not-all-zeros.md",
+   "indexOnly": true,
+   "slug": "marija-milka-kalanj",
+   "name": "Marija Milka Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1890",
+   "cite": "Senj, baptised 1890 — «Joso Papić × Tonka Prpić»; ark 1:1:X9DP-3BD3. INDEX ONLY, and it gives no day",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-milka-baptism-index.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+   "indexOnly": true,
+   "slug": "josip-papic",
+   "name": "Josip Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1891",
+   "cite": "Senj, born 9 Dec 1891, baptised 13 Dec 1891 — «Joso Papić × Tonka Prpić»; ark 1:1:X9D5-M739. INDEX ONLY. Agrees with the tree to the day, and with her own marriage register",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-milka-baptism-index.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+   "indexOnly": true,
+   "slug": "bozica-tonka-papic",
+   "name": "Bozica Tonka Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1894",
+   "cite": "Novi Vinodolski baptisms str. 278 no. 71 — «Ana, kći zakonita» of «Martin Kalanj Josipov, žena mu Marija rodj. Peričić»; born 5 November 1894, baptised 11 November 1894. The patronymic «Josipov» is the find: it matches the tree's Josip Kalanj independently of the tree. Read at 3x, where the mother's surname reads Peričić and not the Crnić it seemed at page scale",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "ana-kalanj",
+   "name": "Ana Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1896",
+   "cite": "Novi Vinodolski baptisms — born 29 July 1896, register scan held at 2,953 px. One of four consecutive siblings whose baptisms were sitting unattached in the family's own photo library",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "franciska-kalanj",
+   "name": "Franciska Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1897",
+   "cite": "Senj p. 98 entry 70 — «1897 studenoga 14 · Vicko PILEPIĆ, finan. … u miru · Udovac · Karlobag · Senj · R.Kat. · navodno 93 god. · Marasmus senilis»; ark 3:1:3QS7-899X-14RR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-matia-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+   "indexOnly": false,
+   "slug": "vicentius-andreas-vincent-pilipic",
+   "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": 26
+  },
+  {
+   "kind": "baptism",
+   "year": "1898",
+   "cite": "Novi Vinodolski baptisms — born 4 March 1898, register scan held at 2,953 px. Her godparents are entered «Josip i Ana Defrancesco» — the child's aunt and uncle, which is what proves Ana and Martin Kalanj are sister and brother",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "zora-kalanj",
+   "name": "Zora Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1900",
+   "cite": "Novi Vinodolski baptisms — born 3 January 1900, register scan held at 2,953 px. The fourth of the four loose sibling scans",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "ivan-kalanj",
+   "name": "Ivan Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1903",
+   "cite": "Senj deaths p. 162 no. 51 — «Papić Tereza, kći nadničara Franje i Kate Papić, 4 7/12 god, Scarlatina», died 2 June 1903 and buried at sv. Vid the next day. The register names the father the tree leaves blank",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "tereza-papic",
+   "name": "Tereza Papić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1907",
+   "cite": "Senj marriages p. 294 entry 30 — 4 studenoga 1907, «Milka Papić, radnica u tvornici duhana», born 9 October 1886, to «Zvonimir M. Vukelić, gostioničarski pomoćnik». Re-read at 5,812 x 4,273 on 13 September 2026, image 299, ark 3:1:3QS7-L99X-175J. Her birth is written «9/X» here — a SECOND register entry, thirteen years and a different hand later, and it says October too",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/milka.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "milka-lucia-papic",
+   "name": "Milka Lucia Papic",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1907",
+   "cite": "named as already dead, «Udovac iza pok. Tereze», Senj 26 July 1907 — she predeceased him",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-matia-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+   "indexOnly": false,
+   "slug": "tereza-pecanic",
+   "name": "Tereza Pećanić",
+   "ahn": 9
+  },
+  {
+   "kind": "death",
+   "year": "1907",
+   "cite": "Senj p. 225 entry 60 — «1907 srpnja 26 · BLAŽEVIĆ Toma, nadničar · Udovac iza pok. Tereze · Senj · R.K. · 69 · Tuberculosis pulmonum»; ark 3:1:3QS7-899X-14XR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-1886-matia-uroda.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+   "indexOnly": false,
+   "slug": "toma-tomislav-blazevic",
+   "name": "Toma Tomislav Blazevic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1913",
+   "cite": "Senj marriages p. 326 no. 23 — her marriage to Josip Nagoda, 5 October 1913, entered «radnica u tvornici duhana u Senju, iz župe sv. Jakov Krmpote»; parents Pavao Blažević and Marija r. Tomljanović, «poljodjelci» of the same parish. Confirms the tree's 23 October 1888",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "terezija-tereza-blazevic",
+   "name": "Terezija (Tereza) Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1918",
+   "cite": "Senj marriages p. 348 no. 5 — her own entry of 1 April 1918, written from her baptismal certificate, giving her birth as «1884 12/5» where the tree says 17 May. Entered «nadglednica u tvornici duhana» — supervisor, not a floor worker — daughter of Pavao Blažević and Marija r. Tomljanović, «poljodjelci iz župe Krmpote»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "antonija-blazevic",
+   "name": "Antonija Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1919",
+   "cite": "Senj marriages p. 355 no. 18 — her marriage to Viktor Matijević, 12 May 1919, entered «radnica u tvornici duhana», of Krmpote, daughter of Pavao Blažević and Marija r. Tomljanović. Confirms the tree's 19 October 1885",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "katica-blazevic",
+   "name": "Katica \"Kata\" Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1920",
+   "cite": "named as the groom's father, «Juraj Blažević», and annotated «mrt.» — deceased — which puts his death before December 1920. Senj marriages p. 366 entry 41",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/marriage-1920.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "juraj-georgius-jure-blazevic",
+   "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1920",
+   "cite": "Senj marriages (Vjenčani) p. 366 entry 41 — 8 prosinca 1920 at Senj, read from the image and re-read at full resolution, ark 3:1:3QSQ-G99X-17M7. Dispensed by the ordinariate, act no. 3371 of 4 December",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/marriage-1920.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "ljubomir-blazevic",
+   "name": "Ljubomir \"Ljubo\" Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1920",
+   "cite": "Senj marriages (Vjenčani) p. 366 entry 41 — her second marriage, 8 prosinca 1920, to Ljubomir Blažević; ark 3:1:3QSQ-G99X-17M7",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/marriage-1920.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "milka-lucia-papic",
+   "name": "Milka Lucia Papic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1920",
+   "cite": "named as the groom's mother, «Tereza r. Žubrinić», annotated «mrt.» in the same entry. Senj marriages p. 366 entry 41",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/pages/marriage-1920.astro",
+   "href": "",
+   "indexOnly": false,
+   "slug": "tereza-zubrinic-zubrinic",
+   "name": "Tereza Žubrinić Zubrinic",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1931",
+   "cite": "Senj municipal cemetery — «BLAŽEVIĆ TEREZA ✽1867 †1931» under her married name; both years agree with the tree (b. 29 Nov 1867, d. 1931). Read at 3.5x; IMG_8056",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-cemetery-2024.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+   "indexOnly": false,
+   "slug": "tereza-zubrinic-zubrinic",
+   "name": "Tereza Žubrinić Zubrinic",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1935",
+   "cite": "Senj municipal cemetery, same cross — «ANTONIJA ✽1860 †1935»; the death year agrees with the tree (2 Feb 1935), the birth year is ONE OUT (register: 12 May 1859). Read at 4x; IMG_8131",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-cemetery-2024.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+   "indexOnly": false,
+   "slug": "antonija-tonka-perpic-prpic",
+   "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1939",
+   "cite": "Senj municipal cemetery, stone cross — «JOSIP PAPIĆ ✽1857 †1939»; both years agree with the tree (b. 1 Nov 1857, d. 19 Nov 1939). Read at 4x; IMG_8131",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-cemetery-2024.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+   "indexOnly": false,
+   "slug": "josip-anton-papic",
+   "name": "Josip Anton \"Joso\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1953",
+   "cite": "The Kosina grave at Senj — «KOSINA · KRIŽAN · ANKA», Anka «✻?.X.1893 †6.IX.1953», where the tree carried only the year. The same stone gives her husband Pavao «pog. 8.X.1943 — Nevina žrtva zračnog napadaja na Senj». Her birth month on the stone is cracked and ivy-covered and is NOT legible enough to contradict her 1919 marriage entry",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "site/src/data/corrections.json",
+   "href": "",
+   "indexOnly": false,
+   "slug": "anka-blazevic",
+   "name": "Anka Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1966",
+   "cite": "Senj municipal cemetery, family tomb — «LJUBOMIR BLAŽEVIĆ ✽1891 †1966»; the death year agrees with the tree, the birth year is ONE OUT (register: 1 Mar 1892); sources/graves/senj-2024-10-09.psv, IMG_8055",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-cemetery-2024.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+   "indexOnly": false,
+   "slug": "ljubomir-blazevic",
+   "name": "Ljubomir \"Ljubo\" Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "grave",
+   "year": "1971",
+   "cite": "Senj municipal cemetery, same tomb — «MILKA BLAŽEVIĆ rod. PAPIĆ ✽1886 †1971»; both years agree with the tree (b. 9 Oct 1886, d. 7 Sep 1971), and the stone carries her maiden name; IMG_8055",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-cemetery-2024.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+   "indexOnly": false,
+   "slug": "milka-lucia-papic",
+   "name": "Milka Lucia Papic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "2005",
+   "cite": "United States Social Security Numerical Identification — «Elisabetta Sestan RABAR», born 11 Jul 1912 at «Gologorica I*, Yugoslavia», died 20 Apr 2005 at Staten Island, Richmond, New York; parents Natale Sestan × Antonia Ancich. INDEX ONLY, not a certificate. The tree carries her birth and gives her no death and no husband; this supplies both",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/gologorica-is-not-a-parish-but-pazin-is.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gologorica-is-not-a-parish-but-pazin-is.md",
+   "indexOnly": true,
+   "slug": "elisabetha-sestan-3",
+   "name": "Elisabetha Sestan",
+   "ahn": null
+  }
+ ],
+ "bySlug": {
+  "josephum-antic": {
+   "slug": "josephum-antic",
+   "name": "Josephum Antić",
+   "ahn": 24,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1806",
+     "cite": "1806 baptism, 14 Mar — \"Marthæ Antich Papa … nomine Josephum\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/vrbnik-or-selce.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "parish-identified",
+     "year": "1806",
+     "cite": "Selce deaths 1806, image 108 — \"per me Mich: Rombol Capell: Loci\", the same priest and office as his baptism entry",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/vrbnik-or-selce.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1835",
+     "cite": "Selce, 22 Nov 1835, domus 51",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1850",
+     "cite": "Selce LIBER DEFUNCTORUM p. 99 — «Letta 850. na 21. 8bre · Preminu Osip Antić težak i Mare kćer · 44 / 6 · Od kolere» — Selce house 74; age 44 agrees with the tree's birth of 14 Mar 1806; ark 3:1:3QSQ-G99X-13PY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-cholera-1850.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-cholera-1850.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1882",
+     "cite": "named as her late husband, «supruga pok. Josipa», Selce 6 July 1882",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1838",
+     "cite": "Selce, 11 Mar 1838, domus 51 — the name read as \"Gregorium\"",
+     "derived": true,
+     "via": "georgius-juraj-joannis-papa-antic-papic",
+     "viaName": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "where": "notes/selce-1838-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 5,
+   "derived": 1
+  },
+  "joannis-antic": {
+   "slug": "joannis-antic",
+   "name": "Joannis Antić",
+   "ahn": 48,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1806",
+     "cite": "named as father, 1806 baptism of ahn 24",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/vrbnik-or-selce.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1829",
+     "cite": "Selce LIBER DEFUNCTORUM image 304 — «Die 13a Martii 1829 · Nrus Domus 51 · Joannes Antich Papa. obiit Annorum 64, omnibus morientium SS. provisus … per me Vincent. Kombel Parochum sepultus est»; ark 3:1:3QS7-L99X-1QQL",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-antic-1829-papa.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-antic-1829-papa.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1835",
+     "cite": "named as the groom's late father",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 0
+  },
+  "margarita-martha-loncaric": {
+   "slug": "margarita-martha-loncaric",
+   "name": "Margarita (Martha) Lončarić",
+   "ahn": 49,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1806",
+     "cite": "named as mother, 1806 baptism of ahn 24",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/vrbnik-or-selce.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/vrbnik-or-selce.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1829",
+     "cite": "Selce LIBER DEFUNCTORUM image 304 — «Die 15e Julii 1829 · Nrus Domus 56 · Margarita uxor Joannis Antich Natanchii obiit Annorum 52» — Natanchii underlined; house 56 against his 51, recorded as the open question it is; ark 3:1:3QS7-L99X-1QQL",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-antic-1829-papa.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-antic-1829-papa.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1835",
+     "cite": "named as the groom's late mother",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 0
+  },
+  "maria-jellicic": {
+   "slug": "maria-jellicic",
+   "name": "Maria Jelličić",
+   "ahn": 25,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1809",
+     "cite": "Selce entry 70, house 110 — \"Margarita Jellichich dictis Jurešina\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1809-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1835",
+     "cite": "Selce, 22 Nov 1835, domus 51",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1882",
+     "cite": "Selce, 6 July 1882, house 29, aged 73 — «Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić, R. Katolikinja»; buried 7 July; LIBER DEFUNCTORUM p. 144 entry 21, ark 3:1:3QSQ-G99X-1357",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1838",
+     "cite": "Selce, 11 Mar 1838, domus 51 — the name read as \"Gregorium\"",
+     "derived": true,
+     "via": "georgius-juraj-joannis-papa-antic-papic",
+     "viaName": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+     "where": "notes/selce-1838-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "georgi-juraj-jellicic": {
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": 50,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1809",
+     "cite": "named as father, 1809 baptism of ahn 25",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1809-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1832",
+     "cite": "Selce, 1 Apr 1832, house 39 — \"Georgius Jellicich, Antonii\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1835",
+     "cite": "named as the bride's late father",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-child",
+     "year": "1882",
+     "cite": "named as her father, «kći Jurja … Jeličić», Selce 6 July 1882",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 4,
+   "derived": 0
+  },
+  "margarita-brozovic": {
+   "slug": "margarita-brozovic",
+   "name": "Margarita Brozović",
+   "ahn": 51,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1809",
+     "cite": "named as mother, 1809 baptism of ahn 25",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1809-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1809-baptism.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1835",
+     "cite": "named as the bride's late mother",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1835-marriage.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1835-marriage.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1842",
+     "cite": "Selce, 8 May 1842, entry 147, house 204",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 0
+  },
+  "matia-mathiam-georgiam-uroda": {
+   "slug": "matia-mathiam-georgiam-uroda",
+   "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": 27,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1810",
+     "cite": "Karlobag, 23 April 1810, entry 23",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1810-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1810-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1844-57",
+     "cite": "Karlobag Stanje duša, image 48 — \"Matia ux., 23 April 810\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-status-animarum.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1886",
+     "cite": "Senj, 9 February 1886, entry 13 — «Matija PILIPIĆ, žena · Vicko PILIPIĆ, fin. stražar u miru, njezin muž · Karlobag · rim. kat. · 78 · Marasmus senilis · Providjena»; ark 3:1:3QS7-899X-1HVP",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-matia-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1838",
+     "cite": "Karlobag, 18 Sep 1838 — \"Cammeralis nauclerō Vincentii Pilipich\"",
+     "derived": true,
+     "via": "matia-matthea-pilipic",
+     "viaName": "Matia / Matthea \"Matija\" Pilipić",
+     "where": "notes/karlobag-1838-pilipic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "matia-matthea-pilipic": {
+   "slug": "matia-matthea-pilipic",
+   "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": 13,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1838",
+     "cite": "Karlobag, 18 Sep 1838 — \"Cammeralis nauclerō Vincentii Pilipich\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1838-pilipic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1844-57",
+     "cite": "Karlobag Stanje duša, image 48 right page — \"Matia f. 18 Sept. 838\" in Vicko Pilepich's household",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-status-animarum.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1857",
+     "cite": "named as mother \"Mathiae Pilipic\", Senj 1 Nov 1857",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1885",
+     "cite": "named as mother, \"Matia rodjena Pilipic\", 3 May 1885",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 4,
+   "derived": 0
+  },
+  "vicentius-andreas-vincent-pilipic": {
+   "slug": "vicentius-andreas-vincent-pilipic",
+   "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": 26,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1838",
+     "cite": "named as father, with his trade",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1838-pilipic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1844-57",
+     "cite": "Karlobag Stanje duša, image 48 — head of household, \"Pilepich Vicko, 17 Nov. 805\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-status-animarum.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-status-animarum.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1886",
+     "cite": "named as her husband with his occupation, «Vicko Pilipić, fin. stražar u miru», Senj 9 February 1886",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-matia-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1897",
+     "cite": "Senj p. 98 entry 70 — «1897 studenoga 14 · Vicko PILEPIĆ, finan. … u miru · Udovac · Karlobag · Senj · R.Kat. · navodno 93 god. · Marasmus senilis»; ark 3:1:3QS7-899X-14RR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-matia-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 4,
+   "derived": 0
+  },
+  "georgius-juraj-joannis-papa-antic-papic": {
+   "slug": "georgius-juraj-joannis-papa-antic-papic",
+   "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
+   "ahn": 12,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1838",
+     "cite": "Selce, 11 Mar 1838, domus 51 — the name read as \"Gregorium\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-1838-baptism.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-1838-baptism.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1857",
+     "cite": "named as father \"Joannis Papa\" at his son's baptism, Senj 1 Nov 1857",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1885",
+     "cite": "named as \"Juraj Papa, težak\" at his son's marriage, Senj p.192 no.5",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/reading-2026-09-13-familysearch.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-13-familysearch.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1885",
+     "cite": "named as father, \"Juraj Papa tezak\", at his son's marriage 3 May 1885",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 4,
+   "derived": 0
+  },
+  "joannis-perpic": {
+   "slug": "joannis-perpic",
+   "name": "Joannis \"Ivan\" Perpić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1885",
+     "cite": "named as \"Ivan Perpić, seljak\" at his daughter's marriage, Senj p.192 no.5",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/reading-2026-09-13-familysearch.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-13-familysearch.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
+     "derived": true,
+     "via": "antonija-tonka-perpic-prpic",
+     "viaName": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "where": "notes/the-household-was-swept-and-she-was-left-out.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "marcus-oreskovic-oreskovic": {
+   "slug": "marcus-oreskovic-oreskovic",
+   "name": "Marcus Orešković Oreskovic",
+   "ahn": 42,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1835",
+     "cite": "Otočac, 8 Sep 1835, Dubrava 29 — \"Marcus Oreskovich, adoptatus Sekula\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/frontier.astro",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "lucia-sekula": {
+   "slug": "lucia-sekula",
+   "name": "Lucia Sekula",
+   "ahn": 43,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1835",
+     "cite": "named as \"Lucia uxor ejus nata Sekula\", same entry",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/frontier.astro",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "vicentius-fabiano-smojver-vukic": {
+   "slug": "vicentius-fabiano-smojver-vukic",
+   "name": "Vicentius Fabiano Smojver Vukić",
+   "ahn": 106,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1754",
+     "cite": "Karlobag, 18 January 1754",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1781",
+     "cite": "named as father, «Vincentio… Smoyver, vulgò Vukić», Karlobag 11 March 1781",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1781-oliva-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "caetano-bacchi": {
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
+   "ahn": 214,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1779",
+     "cite": "Karlobag, 12 January 1779 — \"ex Angelo et Catharina Bacchi\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mariam-gerkacs-gergacs": {
+   "slug": "mariam-gerkacs-gergacs",
+   "name": "Mariam Gerkacs (Gergacs)",
+   "ahn": 55,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1789",
+     "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-households-indexed.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "marriage",
+     "year": "1807",
+     "cite": "Karlobag, 17 June 1807, folio 4 — named as «Maria filia Michaelis Gergas»; ark 3:1:3QSQ-G99C-G2N",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1807-uroda-gergas.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1834",
+     "cite": "Karlobag deaths, folio 52 — \"Maria uxor piscatoris Georgii Uroda annorum 45\", 6 Aug 1834, buried the 7th",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-deaths-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1810",
+     "cite": "Karlobag, 23 April 1810, entry 23",
+     "derived": true,
+     "via": "matia-mathiam-georgiam-uroda",
+     "viaName": "Matia (Mathiam Georgiam) Uroda",
+     "where": "notes/karlobag-1810-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1810-uroda.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "joannis-georgius-georgio-uroda": {
+   "slug": "joannis-georgius-georgio-uroda",
+   "name": "Joannis Georgius (Georgio) Uroda",
+   "ahn": 54,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1777",
+     "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/uroda-generation-found.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1807",
+     "cite": "Karlobag, 17 June 1807, folio 4 — «Georgii filij defti Georgii Uroda et Maria filia Michaelis Gergas»; ark 3:1:3QSQ-G99C-G2N",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1807-uroda-gergas.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-as-spouse",
+     "year": "1834",
+     "cite": "named alive as \"piscatoris Georgii Uroda\" at his wife's death, 6 Aug 1834 — which rules out the 1808 and 1817 Georgius Uroda deaths",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-deaths-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1810",
+     "cite": "Karlobag, 23 April 1810, entry 23",
+     "derived": true,
+     "via": "matia-mathiam-georgiam-uroda",
+     "viaName": "Matia (Mathiam Georgiam) Uroda",
+     "where": "notes/karlobag-1810-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1810-uroda.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "marija-zubrinic": {
+   "slug": "marija-zubrinic",
+   "name": "Marija Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1858",
+     "cite": "Otočac, 15 Sep 1858 — \"Rustica e Šumećica N° 2\", Nicolaus Žubrinić et ejus uxor Anna nata Marić",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/ana-maric-plan.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "nicolaus-zubrinic-xubrinic": {
+   "slug": "nicolaus-zubrinic-xubrinic",
+   "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1858",
+     "cite": "named as father, Otočac 15 Sep 1858, Šumećica N° 2",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/ana-maric-plan.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ana-shambul-maric": {
+   "slug": "ana-shambul-maric",
+   "name": "Ana Shambul Marić",
+   "ahn": 11,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "named as mother, \"Anna nata Štrumbulko\", Otočac 3 Jul 1856, same house — the by-name attested",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/ana-maric-plan.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1858",
+     "cite": "named as mother, \"Anna nata Marić\", Otočac 15 Sep 1858",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/ana-maric-plan.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "ivan-blazevic": {
+   "slug": "ivan-blazevic",
+   "name": "Ivan Blazevic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1882",
+     "cite": "Krmpote, born 25 bapt. 26 SRPNJA (July) 1882, entry 32 — the month is JULY; this citation read «Aug» until 20 September 2026, when a date audit caught it against notes/reading-2026-09-09.md — \"Toma Blazevic i Tereza njegova rodjena Pecanic, rim. kat. seljaci, Smokvica kbroj 114\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "toma-tomislav-blazevic": {
+   "slug": "toma-tomislav-blazevic",
+   "name": "Toma Tomislav Blazevic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1882",
+     "cite": "named as father at Smokvica kbroj 114, 26 Aug 1882",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1907",
+     "cite": "Senj p. 225 entry 60 — «1907 srpnja 26 · BLAŽEVIĆ Toma, nadničar · Udovac iza pok. Tereze · Senj · R.K. · 69 · Tuberculosis pulmonum»; ark 3:1:3QS7-899X-14XR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-matia-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1884",
+     "cite": "Krmpote entry 66 — \"Godine 1884 dne 25. 27. Listopada, Tonka, zakonita, Tome Blazevic i Tereza rodjena Pecanic, rim. kat. seljani, Smokvica kbroj 114\"",
+     "derived": true,
+     "via": "antonija-blazevic-2",
+     "viaName": "Antonija \"Tonka\" Blažević",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "tereza-pecanic": {
+   "slug": "tereza-pecanic",
+   "name": "Tereza Pećanić",
+   "ahn": 9,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1882",
+     "cite": "named as mother \"Tereza njegova rodjena Pecanic\", 26 Aug 1882 — alive, which the \"died before 1850\" could never have allowed",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1907",
+     "cite": "named as already dead, «Udovac iza pok. Tereze», Senj 26 July 1907 — she predeceased him",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-matia-uroda.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1884",
+     "cite": "Krmpote entry 66 — \"Godine 1884 dne 25. 27. Listopada, Tonka, zakonita, Tome Blazevic i Tereza rodjena Pecanic, rim. kat. seljani, Smokvica kbroj 114\"",
+     "derived": true,
+     "via": "antonija-blazevic-2",
+     "viaName": "Antonija \"Tonka\" Blažević",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "josip-anton-papic": {
+   "slug": "josip-anton-papic",
+   "name": "Josip Anton \"Joso\" Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1857",
+     "cite": "Senj, 1 Nov 1857 — \"baptizavi Josephum filium legitimum Romano-Catholicum Joannis Papa et ejus uxoris Mathiae Pilipic\", godfather + Michael Stipancic",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1885",
+     "cite": "Senj, 3 May 1885, entry 5 — \"Josip Papic, bremenar, Senj, 27\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "grave",
+     "year": "1939",
+     "cite": "Senj municipal cemetery, stone cross — «JOSIP PAPIĆ ✽1857 †1939»; both years agree with the tree (b. 1 Nov 1857, d. 19 Nov 1939). Read at 4x; IMG_8131",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-cemetery-2024.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1886",
+     "cite": "Senj baptisms Str. 122 entry 96, READ FROM THE IMAGE — «Milka Lucia», zakonita, born 9 October 1886, baptised 17 October; father «Josip Papić, trhonoša», mother «Tonka rođ. Prpić»; godparents Josip Glavičić, trhonoša, and Ivka Filipović. The register writes the birth «1886, 9/10». The margin was annotated at her death: «Uvidom u matičnu knjigu umrlih opć. Senj str. 280. red. br. 37. umrla dana 7.9.1971», endorsed 30.9.1971",
+     "derived": true,
+     "via": "milka-lucia-papic",
+     "viaName": "Milka Lucia Papic",
+     "where": "site/src/pages/milka.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1888",
+     "cite": "Senj, baptised 3 Jul 1888 — «Joso Papić × Tona Perpić»; ark 1:1:X9DP-3YVS. INDEX ONLY, and it gives no birth day",
+     "derived": true,
+     "via": "ana-papic",
+     "viaName": "Ana \"Anica\" Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1890",
+     "cite": "Senj, baptised 1890 — «Joso Papić × Tonka Prpić»; ark 1:1:X9DP-3BD3. INDEX ONLY, and it gives no day",
+     "derived": true,
+     "via": "josip-papic",
+     "viaName": "Josip Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1891",
+     "cite": "Senj, born 9 Dec 1891, baptised 13 Dec 1891 — «Joso Papić × Tonka Prpić»; ark 1:1:X9D5-M739. INDEX ONLY. Agrees with the tree to the day, and with her own marriage register",
+     "derived": true,
+     "via": "bozica-tonka-papic",
+     "viaName": "Bozica Tonka Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 3,
+   "derived": 4
+  },
+  "antonija-blazevic-2": {
+   "slug": "antonija-blazevic-2",
+   "name": "Antonija \"Tonka\" Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1884",
+     "cite": "Krmpote entry 66 — \"Godine 1884 dne 25. 27. Listopada, Tonka, zakonita, Tome Blazevic i Tereza rodjena Pecanic, rim. kat. seljani, Smokvica kbroj 114\"",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "sources/searched.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "thomas-toma-zubrinic": {
+   "slug": "thomas-toma-zubrinic",
+   "name": "Thomas Toma Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1846",
+     "cite": "«Graničar iz Šumećića Br. 10» — read earlier; the tree gives only «Otočac, Croatia»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism",
+     "year": "1846",
+     "cite": "Otočac Rodjeni 1846-1858 — son of Michael Žubrinić and Helena Orešković, «e Šumećica N° 10», b. 21 Dec 1846. Recorded in found.psv as not in the tree; he is, and so is his mother HELENA OREŠKOVIĆ, who appears only as a parent reference on him and has no page of her own",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "petrus-zubrinic": {
+   "slug": "petrus-zubrinic",
+   "name": "Petrus Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1848",
+     "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marta-zubrinic": {
+   "slug": "marta-zubrinic",
+   "name": "Marta Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1849",
+     "cite": "Otočac, 4 November 1849 — «Graničar iz Šumećića Br. 5», Croatian entry",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mate-zubrinic": {
+   "slug": "mate-zubrinic",
+   "name": "Mate Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1851",
+     "cite": "Otočac, 25 November 1851 — «Graničar iz Poljic N° 13», the same house as Petrus 1848",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "magdalena-zubrinic-3": {
+   "slug": "magdalena-zubrinic-3",
+   "name": "Magdalena Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1852",
+     "cite": "Otočac, 5 January 1852 — «miles gregarius e Prozor N° 50»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "magdalena-zubrinic-5": {
+   "slug": "magdalena-zubrinic-5",
+   "name": "Magdalena Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1852",
+     "cite": "Otočac, 26 April 1852 — «Gregarius e Sumećica N° 5»; the register gives the mother as Marković, where the index says Maković",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "nikola-miko-zubrinic": {
+   "slug": "nikola-miko-zubrinic",
+   "name": "Nikola Miko Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1858",
+     "cite": "Otočac, 8 January 1858 — «Confiniarius e Prozor N° 50», confirming the birthplace the tree already carries",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "georgi-uroda": {
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": 108,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1807",
+     "cite": "named as the groom's late father, «defti Georgii Uroda», Karlobag 17 June 1807",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1807-uroda-gergas.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1777",
+     "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
+     "derived": true,
+     "via": "joannis-georgius-georgio-uroda",
+     "viaName": "Joannis Georgius (Georgio) Uroda",
+     "where": "notes/uroda-generation-found.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "michaeli-michaele-gerkacs-gergacs": {
+   "slug": "michaeli-michaele-gerkacs-gergacs",
+   "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": 110,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1807",
+     "cite": "named as the bride's father, «Maria filia Michaelis Gergas», Karlobag 17 June 1807",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1807-uroda-gergas.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1807-uroda-gergas.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1789",
+     "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
+     "derived": true,
+     "via": "mariam-gerkacs-gergacs",
+     "viaName": "Mariam Gerkacs (Gergacs)",
+     "where": "notes/karlobag-households-indexed.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "oliva-maria-smojver": {
+   "slug": "oliva-maria-smojver",
+   "name": "Oliva Maria Smojver",
+   "ahn": 53,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1781",
+     "cite": "Karlobag, born 11 March 1781, page 65 — «baptizavi infantem die 11ma hujus natam ex Vincentio, et Oliva Smoyver, vulgò Vukić, Conjugibus… cui imposui est nomen Oliva Maria»; ark 3:1:3QS7-L99C-L998-5",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1781-oliva-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "oliva-andreana-bacchi": {
+   "slug": "oliva-andreana-bacchi",
+   "name": "Oliva Andreana Bacchi",
+   "ahn": 107,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1781",
+     "cite": "named as mother, «et Oliva Smoyver, vulgò Vukić, Conjugibus», Karlobag 11 March 1781",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1781-oliva-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "toma-zubrinic": {
+   "slug": "toma-zubrinic",
+   "name": "Toma Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1838",
+     "cite": "Otočac Umrli 1834-1858 p. 45 entry 3 of 1838 — «1838. Januarii die 4ta · Thomas Xubrinich, Confiniarius, ex Pago Shumcchicza N° 2 · An. 70 · Senectutis Debilitas»; ark 3:1:3QS7-L99C-PVR4",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-toma-zubrinic-1838.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-toma-zubrinic-1838.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1849",
+     "cite": "named only as «Udovica», Otočac 29 July 1849 — he predeceased her by eleven years, and his own entry of 4 Jan 1838 is read",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-marija-findric-1849.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "marija-findric": {
+   "slug": "marija-findric",
+   "name": "Marija Findrić",
+   "ahn": 41,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1849",
+     "cite": "Otočac Umrli 1834-1858 p. 153 entry 53 — «Leta 1849 dne 29 Srpnja preminula je · Maria Žubrinić, Udovica · 69 · Slaboća starosti po dokazu Lečnika · Sa Svetimi Otajstvi umirućih providjena · u župničkoj grobnici»; ark 3:1:3QS7-899C-PVHR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-marija-findric-1849.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "jacob-pilipic": {
+   "slug": "jacob-pilipic",
+   "name": "Jacob Pilipic",
+   "ahn": 104,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1778",
+     "cite": "Karlobag Umrli 1774-1804 folio 17 — «10: Aprilis · D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est»; no age given; ark 3:1:3QS7-L99C-GSBG",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1778-jacobus-pilepich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1768",
+     "cite": "Karlobag, 11 March 1768 — INDEX ONLY, «Josephum Piberich», father «Jacobi Piberich», mother «Catharina»; ark 1:1:QKMX-YX3G. «Piberich» is the index's misreading and occurs nowhere else at Karlobag; the same couple are «Pillopich» in 1758 and «Pillepich» in 1762 and 1765",
+     "derived": true,
+     "via": "josephus-josip-pilipic",
+     "viaName": "Josephus (Josip) Pilipic",
+     "where": "notes/karlobag-the-index-calls-them-piberich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-the-index-calls-them-piberich.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "josiph-smojver-vukic": {
+   "slug": "josiph-smojver-vukic",
+   "name": "Josiph Smojver Vukić",
+   "ahn": 212,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1776",
+     "cite": "Karlobag Umrli 1774-1804 folio 11 — «16 ejusdem [Maij] · Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus [Sacramentis] … in Domino obijt, atque die 17 … in Coemeterio Parochiali tumulatus»; found through the KAZALO's cross-reference «Vukich vide Smojver»; ark 3:1:3QS7-L99C-G3WG",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1778-jacobus-pilepich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1754",
+     "cite": "Karlobag, 18 January 1754",
+     "derived": true,
+     "via": "vicentius-fabiano-smojver-vukic",
+     "viaName": "Vicentius Fabiano Smojver Vukić",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "ljubomir-blazevic": {
+   "slug": "ljubomir-blazevic",
+   "name": "Ljubomir \"Ljubo\" Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1920",
+     "cite": "Senj marriages (Vjenčani) p. 366 entry 41 — 8 prosinca 1920 at Senj, read from the image and re-read at full resolution, ark 3:1:3QSQ-G99X-17M7. Dispensed by the ordinariate, act no. 3371 of 4 December",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/marriage-1920.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "grave",
+     "year": "1966",
+     "cite": "Senj municipal cemetery, family tomb — «LJUBOMIR BLAŽEVIĆ ✽1891 †1966»; the death year agrees with the tree, the birth year is ONE OUT (register: 1 Mar 1892); sources/graves/senj-2024-10-09.psv, IMG_8055",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-cemetery-2024.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "milka-lucia-papic": {
+   "slug": "milka-lucia-papic",
+   "name": "Milka Lucia Papic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1886",
+     "cite": "Senj baptisms Str. 122 entry 96, READ FROM THE IMAGE — «Milka Lucia», zakonita, born 9 October 1886, baptised 17 October; father «Josip Papić, trhonoša», mother «Tonka rođ. Prpić»; godparents Josip Glavičić, trhonoša, and Ivka Filipović. The register writes the birth «1886, 9/10». The margin was annotated at her death: «Uvidom u matičnu knjigu umrlih opć. Senj str. 280. red. br. 37. umrla dana 7.9.1971», endorsed 30.9.1971",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/milka.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1907",
+     "cite": "Senj marriages p. 294 entry 30 — 4 studenoga 1907, «Milka Papić, radnica u tvornici duhana», born 9 October 1886, to «Zvonimir M. Vukelić, gostioničarski pomoćnik». Re-read at 5,812 x 4,273 on 13 September 2026, image 299, ark 3:1:3QS7-L99X-175J. Her birth is written «9/X» here — a SECOND register entry, thirteen years and a different hand later, and it says October too",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/milka.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1920",
+     "cite": "Senj marriages (Vjenčani) p. 366 entry 41 — her second marriage, 8 prosinca 1920, to Ljubomir Blažević; ark 3:1:3QSQ-G99X-17M7",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/marriage-1920.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "grave",
+     "year": "1971",
+     "cite": "Senj municipal cemetery, same tomb — «MILKA BLAŽEVIĆ rod. PAPIĆ ✽1886 †1971»; both years agree with the tree (b. 9 Oct 1886, d. 7 Sep 1971), and the stone carries her maiden name; IMG_8055",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-cemetery-2024.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 4,
+   "derived": 0
+  },
+  "tereza-zubrinic-zubrinic": {
+   "slug": "tereza-zubrinic-zubrinic",
+   "name": "Tereza Žubrinić Zubrinic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1920",
+     "cite": "named as the groom's mother, «Tereza r. Žubrinić», annotated «mrt.» in the same entry. Senj marriages p. 366 entry 41",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/marriage-1920.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "grave",
+     "year": "1931",
+     "cite": "Senj municipal cemetery — «BLAŽEVIĆ TEREZA ✽1867 †1931» under her married name; both years agree with the tree (b. 29 Nov 1867, d. 1931). Read at 3.5x; IMG_8056",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-cemetery-2024.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "antonija-tonka-perpic-prpic": {
+   "slug": "antonija-tonka-perpic-prpic",
+   "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1859",
+     "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-household-was-swept-and-she-was-left-out.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "grave",
+     "year": "1935",
+     "cite": "Senj municipal cemetery, same cross — «ANTONIJA ✽1860 †1935»; the death year agrees with the tree (2 Feb 1935), the birth year is ONE OUT (register: 12 May 1859). Read at 4x; IMG_8131",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-cemetery-2024.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-cemetery-2024.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1885",
+     "cite": "Senj, born 11 Aug 1885, baptised 12 Aug 1885 — «Josip Papic × Tonka Prpić»; ark 1:1:X9D5-SHGX. INDEX ONLY, not read from the image. Agrees with the tree to the day",
+     "derived": true,
+     "via": "marija-papic",
+     "viaName": "Marija Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1886",
+     "cite": "Senj baptisms Str. 122 entry 96, READ FROM THE IMAGE — «Milka Lucia», zakonita, born 9 October 1886, baptised 17 October; father «Josip Papić, trhonoša», mother «Tonka rođ. Prpić»; godparents Josip Glavičić, trhonoša, and Ivka Filipović. The register writes the birth «1886, 9/10». The margin was annotated at her death: «Uvidom u matičnu knjigu umrlih opć. Senj str. 280. red. br. 37. umrla dana 7.9.1971», endorsed 30.9.1971",
+     "derived": true,
+     "via": "milka-lucia-papic",
+     "viaName": "Milka Lucia Papic",
+     "where": "site/src/pages/milka.astro",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1888",
+     "cite": "Senj, baptised 3 Jul 1888 — «Joso Papić × Tona Perpić»; ark 1:1:X9DP-3YVS. INDEX ONLY, and it gives no birth day",
+     "derived": true,
+     "via": "ana-papic",
+     "viaName": "Ana \"Anica\" Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1890",
+     "cite": "Senj, baptised 1890 — «Joso Papić × Tonka Prpić»; ark 1:1:X9DP-3BD3. INDEX ONLY, and it gives no day",
+     "derived": true,
+     "via": "josip-papic",
+     "viaName": "Josip Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1891",
+     "cite": "Senj, born 9 Dec 1891, baptised 13 Dec 1891 — «Joso Papić × Tonka Prpić»; ark 1:1:X9D5-M739. INDEX ONLY. Agrees with the tree to the day, and with her own marriage register",
+     "derived": true,
+     "via": "bozica-tonka-papic",
+     "viaName": "Bozica Tonka Papić",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 2,
+   "derived": 5
+  },
+  "nicolaus-gerkacs": {
+   "slug": "nicolaus-gerkacs",
+   "name": "Nicolaus Gerkacs",
+   "ahn": 220,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1783",
+     "cite": "Karlobag Umrli 1774-1804 folio 39 (right page of image 376, whose left page is printed «38. — Anno Dñi 1783») — «30 8bris · Nicolaus Gergacs annorum 66, munitus omnibus sacramentis obiit … in domo filij sui Antonij, et die 31: ejusdem … sepultus est in Cœmeterio … Laterali ex parte dextra Ecclesiæ Parochialis hujus»; ark 3:1:3QS7-L99C-GSBH",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1778-jacobus-pilepich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "catherina-catta-luckinic": {
+   "slug": "catherina-catta-luckinic",
+   "name": "Catherina (Catta) Luckinić",
+   "ahn": 105,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1790",
+     "cite": "Karlobag Umrli 1774-1804 folio 63 (right page of image 388) — «29 ejusdem [Maij] · Catharina annorum 70, vidua defti Jacobi [P]ilepich, obiit in Domino munita omnibus sacramentis, atque die 30 sepulta est». The tree's date to the day; the AGE DISAGREES — 70 in May 1790 puts her birth about 1720 where the tree says 30 Mar 1727. She is not in the KAZALO's L at all: a widow is indexed under her husband's surname; ark 3:1:3QS7-L99C-G3QY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-1778-jacobus-pilepich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1768",
+     "cite": "Karlobag, 11 March 1768 — INDEX ONLY, «Josephum Piberich», father «Jacobi Piberich», mother «Catharina»; ark 1:1:QKMX-YX3G. «Piberich» is the index's misreading and occurs nowhere else at Karlobag; the same couple are «Pillopich» in 1758 and «Pillepich» in 1762 and 1765",
+     "derived": true,
+     "via": "josephus-josip-pilipic",
+     "viaName": "Josephus (Josip) Pilipic",
+     "where": "notes/karlobag-the-index-calls-them-piberich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-the-index-calls-them-piberich.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "luce-zubrinic": {
+   "slug": "luce-zubrinic",
+   "name": "Luce Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1850",
+     "cite": "Otočac Rodjeni 1846-1858 — daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, «e Šumećica N° 10». Recorded in found.psv as not in the tree; the tree has her, born 1850, with both parents matching",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "zvonimir-matei-vukelic": {
+   "slug": "zvonimir-matei-vukelic",
+   "name": "Zvonimir Matei Vukelić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1883",
+     "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1907-vukelic-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marija-papic": {
+   "slug": "marija-papic",
+   "name": "Marija Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1885",
+     "cite": "Senj, born 11 Aug 1885, baptised 12 Aug 1885 — «Josip Papic × Tonka Prpić»; ark 1:1:X9D5-SHGX. INDEX ONLY, not read from the image. Agrees with the tree to the day",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "bozica-tonka-papic": {
+   "slug": "bozica-tonka-papic",
+   "name": "Bozica Tonka Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1891",
+     "cite": "Senj, born 9 Dec 1891, baptised 13 Dec 1891 — «Joso Papić × Tonka Prpić»; ark 1:1:X9D5-M739. INDEX ONLY. Agrees with the tree to the day, and with her own marriage register",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ana-papic": {
+   "slug": "ana-papic",
+   "name": "Ana \"Anica\" Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1888",
+     "cite": "Senj, baptised 3 Jul 1888 — «Joso Papić × Tona Perpić»; ark 1:1:X9DP-3YVS. INDEX ONLY, and it gives no birth day",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "josip-papic": {
+   "slug": "josip-papic",
+   "name": "Josip Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1890",
+     "cite": "Senj, baptised 1890 — «Joso Papić × Tonka Prpić»; ark 1:1:X9DP-3BD3. INDEX ONLY, and it gives no day",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-1886-milka-baptism-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-milka-baptism-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "elisabetha-sestan-3": {
+   "slug": "elisabetha-sestan-3",
+   "name": "Elisabetha Sestan",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "2005",
+     "cite": "United States Social Security Numerical Identification — «Elisabetta Sestan RABAR», born 11 Jul 1912 at «Gologorica I*, Yugoslavia», died 20 Apr 2005 at Staten Island, Richmond, New York; parents Natale Sestan × Antonia Ancich. INDEX ONLY, not a certificate. The tree carries her birth and gives her no death and no husband; this supplies both",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/gologorica-is-not-a-parish-but-pazin-is.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gologorica-is-not-a-parish-but-pazin-is.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "josephus-josip-pilipic": {
+   "slug": "josephus-josip-pilipic",
+   "name": "Josephus (Josip) Pilipic",
+   "ahn": 52,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1768",
+     "cite": "Karlobag, 11 March 1768 — INDEX ONLY, «Josephum Piberich», father «Jacobi Piberich», mother «Catharina»; ark 1:1:QKMX-YX3G. «Piberich» is the index's misreading and occurs nowhere else at Karlobag; the same couple are «Pillopich» in 1758 and «Pillepich» in 1762 and 1765",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-the-index-calls-them-piberich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-the-index-calls-them-piberich.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marija-milka-kalanj": {
+   "slug": "marija-milka-kalanj",
+   "name": "Marija Milka Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1888",
+     "cite": "Ledenice, 16 May 1888 — INDEX ONLY, «Marija Milka», parents «Luka Kalanj» and «Kata Kalanj»; ark 1:1:XQM9-8KKX. The tree carries the year alone and cites the image; the index supplies the day. The mother is Kata Miletić in the tree — the index has given her the father's surname",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-zeros-were-not-all-zeros.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-zeros-were-not-all-zeros.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-catharina-oreskovic-oreskovic": {
+   "slug": "maria-catharina-oreskovic-oreskovic",
+   "name": "Maria Catharina Orešković Oreskovic",
+   "ahn": 21,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1835",
+     "cite": "Otočac, 8 Sep 1835, Dubrava 29 — her own baptism, the entry both her parents were already credited from: «Marcus Oreskovich, adoptatus Sekula» and «Lucia uxor ejus nata Sekula». The rule says a baptism counts for the child AND both parents; the parents had rows and the child did not",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/frontier.astro",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "juraj-georgius-jure-blazevic": {
+   "slug": "juraj-georgius-jure-blazevic",
+   "name": "Juraj / Georgius / Jure \"Geōrgius George\" Blazevic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1920",
+     "cite": "named as the groom's father, «Juraj Blažević», and annotated «mrt.» — deceased — which puts his death before December 1920. Senj marriages p. 366 entry 41",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/pages/marriage-1920.astro",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "antonija-blazevic": {
+   "slug": "antonija-blazevic",
+   "name": "Antonija Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1918",
+     "cite": "Senj marriages p. 348 no. 5 — her own entry of 1 April 1918, written from her baptismal certificate, giving her birth as «1884 12/5» where the tree says 17 May. Entered «nadglednica u tvornici duhana» — supervisor, not a floor worker — daughter of Pavao Blažević and Marija r. Tomljanović, «poljodjelci iz župe Krmpote»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "katica-blazevic": {
+   "slug": "katica-blazevic",
+   "name": "Katica \"Kata\" Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1919",
+     "cite": "Senj marriages p. 355 no. 18 — her marriage to Viktor Matijević, 12 May 1919, entered «radnica u tvornici duhana», of Krmpote, daughter of Pavao Blažević and Marija r. Tomljanović. Confirms the tree's 19 October 1885",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "terezija-tereza-blazevic": {
+   "slug": "terezija-tereza-blazevic",
+   "name": "Terezija (Tereza) Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1913",
+     "cite": "Senj marriages p. 326 no. 23 — her marriage to Josip Nagoda, 5 October 1913, entered «radnica u tvornici duhana u Senju, iz župe sv. Jakov Krmpote»; parents Pavao Blažević and Marija r. Tomljanović, «poljodjelci» of the same parish. Confirms the tree's 23 October 1888",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "tereza-papic": {
+   "slug": "tereza-papic",
+   "name": "Tereza Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1903",
+     "cite": "Senj deaths p. 162 no. 51 — «Papić Tereza, kći nadničara Franje i Kate Papić, 4 7/12 god, Scarlatina», died 2 June 1903 and buried at sv. Vid the next day. The register names the father the tree leaves blank",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anka-blazevic": {
+   "slug": "anka-blazevic",
+   "name": "Anka Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "grave",
+     "year": "1953",
+     "cite": "The Kosina grave at Senj — «KOSINA · KRIŽAN · ANKA», Anka «✻?.X.1893 †6.IX.1953», where the tree carried only the year. The same stone gives her husband Pavao «pog. 8.X.1943 — Nevina žrtva zračnog napadaja na Senj». Her birth month on the stone is cracked and ivy-covered and is NOT legible enough to contradict her 1919 marriage entry",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ana-kalanj": {
+   "slug": "ana-kalanj",
+   "name": "Ana Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1894",
+     "cite": "Novi Vinodolski baptisms str. 278 no. 71 — «Ana, kći zakonita» of «Martin Kalanj Josipov, žena mu Marija rodj. Peričić»; born 5 November 1894, baptised 11 November 1894. The patronymic «Josipov» is the find: it matches the tree's Josip Kalanj independently of the tree. Read at 3x, where the mother's surname reads Peričić and not the Crnić it seemed at page scale",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franciska-kalanj": {
+   "slug": "franciska-kalanj",
+   "name": "Franciska Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1896",
+     "cite": "Novi Vinodolski baptisms — born 29 July 1896, register scan held at 2,953 px. One of four consecutive siblings whose baptisms were sitting unattached in the family's own photo library",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "zora-kalanj": {
+   "slug": "zora-kalanj",
+   "name": "Zora Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1898",
+     "cite": "Novi Vinodolski baptisms — born 4 March 1898, register scan held at 2,953 px. Her godparents are entered «Josip i Ana Defrancesco» — the child's aunt and uncle, which is what proves Ana and Martin Kalanj are sister and brother",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ivan-kalanj": {
+   "slug": "ivan-kalanj",
+   "name": "Ivan Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1900",
+     "cite": "Novi Vinodolski baptisms — born 3 January 1900, register scan held at 2,953 px. The fourth of the four loose sibling scans",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anica-ana-anna-kalanj": {
+   "slug": "anica-ana-anna-kalanj",
+   "name": "Anica / Ana / Anna \"Ana\" Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1864",
+     "cite": "Her 1864 baptism — born 3 January 1864 — enters her parents as «Josephus Kalanj» and «Rosalia nata Perković» at Klenovica 22, the same couple the tree gives her brother Martin, AND as «Brinjensis parochiae ruricolae» — country people of the parish of BRINJE. That line was read, transcribed and then not acted on: every search this archive has run for the Kalanji has been on the coast",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "antonia-pekass-pekkas": {
+   "slug": "antonia-pekass-pekkas",
+   "name": "Antonia Pekass (Pekkas)",
+   "ahn": 213,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1754",
+     "cite": "Karlobag, 18 January 1754",
+     "derived": true,
+     "via": "vicentius-fabiano-smojver-vukic",
+     "viaName": "Vicentius Fabiano Smojver Vukić",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "angelo-bacchi": {
+   "slug": "angelo-bacchi",
+   "name": "Angelo Bacchi",
+   "ahn": 428,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1779",
+     "cite": "Karlobag, 12 January 1779 — \"ex Angelo et Catharina Bacchi\"",
+     "derived": true,
+     "via": "caetano-bacchi",
+     "viaName": "Caetano Bacchi",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "catharina": {
+   "slug": "catharina",
+   "name": "Catharina",
+   "ahn": 429,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1779",
+     "cite": "Karlobag, 12 January 1779 — \"ex Angelo et Catharina Bacchi\"",
+     "derived": true,
+     "via": "caetano-bacchi",
+     "viaName": "Caetano Bacchi",
+     "where": "notes/reading-2026-09-10.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-uroda": {
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": 109,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1777",
+     "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
+     "derived": true,
+     "via": "joannis-georgius-georgio-uroda",
+     "viaName": "Joannis Georgius (Georgio) Uroda",
+     "where": "notes/uroda-generation-found.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "michael-miho-micha-l-zubrinic-xubrinic": {
+   "slug": "michael-miho-micha-l-zubrinic-xubrinic",
+   "name": "Michael Miho Michaël Žubrinić Xubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "«Graničar iz Šumećića Br. 10» — read earlier; the tree gives only «Otočac, Croatia»",
+     "derived": true,
+     "via": "thomas-toma-zubrinic",
+     "viaName": "Thomas Toma Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "michaelis-michael-miho-micha-l-zubrinic": {
+   "slug": "michaelis-michael-miho-micha-l-zubrinic",
+   "name": "Michaelis / Michael / Miho / Michaël \"Miko\" Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
+     "derived": true,
+     "via": "petrus-zubrinic",
+     "viaName": "Petrus Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac, 25 November 1851 — «Graničar iz Poljic N° 13», the same house as Petrus 1848",
+     "derived": true,
+     "via": "mate-zubrinic",
+     "viaName": "Mate Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "michael-miho-micha-l-zubrinic": {
+   "slug": "michael-miho-micha-l-zubrinic",
+   "name": "Michael Miho Michaël Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac, 4 November 1849 — «Graničar iz Šumećića Br. 5», Croatian entry",
+     "derived": true,
+     "via": "marta-zubrinic",
+     "viaName": "Marta Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac, 26 April 1852 — «Gregarius e Sumećica N° 5»; the register gives the mother as Marković, where the index says Maković",
+     "derived": true,
+     "via": "magdalena-zubrinic-5",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "michael-miho-micha-l-zubrinic-3": {
+   "slug": "michael-miho-micha-l-zubrinic-3",
+   "name": "Michael Miho Michaël Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac, 5 January 1852 — «miles gregarius e Prozor N° 50»",
+     "derived": true,
+     "via": "magdalena-zubrinic-3",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "michael-zubrinic-zubrinic-xubrinich": {
+   "slug": "michael-zubrinic-zubrinic-xubrinich",
+   "name": "Michael Žubrinić Zubrinic Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1858",
+     "cite": "Otočac, 8 January 1858 — «Confiniarius e Prozor N° 50», confirming the birthplace the tree already carries",
+     "derived": true,
+     "via": "nikola-miko-zubrinic",
+     "viaName": "Nikola Miko Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "mio-zubrinic": {
+   "slug": "mio-zubrinic",
+   "name": "Mio Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac Rodjeni 1846-1858 — daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, «e Šumećica N° 10». Recorded in found.psv as not in the tree; the tree has her, born 1850, with both parents matching",
+     "derived": true,
+     "via": "luce-zubrinic",
+     "viaName": "Luce Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "petar-vukelic": {
+   "slug": "petar-vukelic",
+   "name": "Petar Vukelić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1883",
+     "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+     "derived": true,
+     "via": "zvonimir-matei-vukelic",
+     "viaName": "Zvonimir Matei Vukelić",
+     "where": "notes/senj-1907-vukelic-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "lucia-maja-tomljanovic": {
+   "slug": "lucia-maja-tomljanovic",
+   "name": "Lucia (Maja) Tomljanović",
+   "ahn": 111,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1789",
+     "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
+     "derived": true,
+     "via": "mariam-gerkacs-gergacs",
+     "viaName": "Mariam Gerkacs (Gergacs)",
+     "where": "notes/karlobag-households-indexed.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "luka-lucas-kalanj": {
+   "slug": "luka-lucas-kalanj",
+   "name": "Luka Lucas Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1888",
+     "cite": "Ledenice, 16 May 1888 — INDEX ONLY, «Marija Milka», parents «Luka Kalanj» and «Kata Kalanj»; ark 1:1:XQM9-8KKX. The tree carries the year alone and cites the image; the index supplies the day. The mother is Kata Miletić in the tree — the index has given her the father's surname",
+     "derived": true,
+     "via": "marija-milka-kalanj",
+     "viaName": "Marija Milka Kalanj",
+     "where": "notes/the-zeros-were-not-all-zeros.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-zeros-were-not-all-zeros.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "lucia": {
+   "slug": "lucia",
+   "name": "Lucia \"Luca\"",
+   "ahn": 15,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
+     "derived": true,
+     "via": "antonija-tonka-perpic-prpic",
+     "viaName": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "where": "notes/the-household-was-swept-and-she-was-left-out.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "martinus-martin-kalanj": {
+   "slug": "martinus-martin-kalanj",
+   "name": "Martinus Martin Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1894",
+     "cite": "Novi Vinodolski baptisms str. 278 no. 71 — «Ana, kći zakonita» of «Martin Kalanj Josipov, žena mu Marija rodj. Peričić»; born 5 November 1894, baptised 11 November 1894. The patronymic «Josipov» is the find: it matches the tree's Josip Kalanj independently of the tree. Read at 3x, where the mother's surname reads Peričić and not the Crnić it seemed at page scale",
+     "derived": true,
+     "via": "ana-kalanj",
+     "viaName": "Ana Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1896",
+     "cite": "Novi Vinodolski baptisms — born 29 July 1896, register scan held at 2,953 px. One of four consecutive siblings whose baptisms were sitting unattached in the family's own photo library",
+     "derived": true,
+     "via": "franciska-kalanj",
+     "viaName": "Franciska Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1898",
+     "cite": "Novi Vinodolski baptisms — born 4 March 1898, register scan held at 2,953 px. Her godparents are entered «Josip i Ana Defrancesco» — the child's aunt and uncle, which is what proves Ana and Martin Kalanj are sister and brother",
+     "derived": true,
+     "via": "zora-kalanj",
+     "viaName": "Zora Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1900",
+     "cite": "Novi Vinodolski baptisms — born 3 January 1900, register scan held at 2,953 px. The fourth of the four loose sibling scans",
+     "derived": true,
+     "via": "ivan-kalanj",
+     "viaName": "Ivan Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 4
+  },
+  "josip-josephus-joso-kalanj-kalain-kallayn": {
+   "slug": "josip-josephus-joso-kalanj-kalain-kallayn",
+   "name": "Josip Josephus Joso Kalanj Kalain Kallayn",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1864",
+     "cite": "Her 1864 baptism — born 3 January 1864 — enters her parents as «Josephus Kalanj» and «Rosalia nata Perković» at Klenovica 22, the same couple the tree gives her brother Martin, AND as «Brinjensis parochiae ruricolae» — country people of the parish of BRINJE. That line was read, transcribed and then not acted on: every search this archive has run for the Kalanji has been on the coast",
+     "derived": true,
+     "via": "anica-ana-anna-kalanj",
+     "viaName": "Anica / Ana / Anna \"Ana\" Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  }
+ }
+}
