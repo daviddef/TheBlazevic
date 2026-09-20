@@ -47,17 +47,27 @@
      "parish": "Grižane",
      "collection": "Croatia, Church Books, 1516-1994",
      "event": "baptism",
-     "windows": "1854 observed",
-     "note": "one hit; treat as untested, not as coverage",
+     "windows": "place-only census 1690-1899",
+     "note": "MEASURED 20-21 Sept and DENSE, not «one hit»: 200 of 200 in both windows, events 1698-1894. Also Croatia, Primorje-Gorski Kotar, Births, from 1569 to 1901",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Grižane",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "burial",
+     "windows": "place-only census 1800-1899",
+     "note": "BURIALS TOO, and heavily — 104 of 200 rows in the 1800-1899 window are burials against 96 baptisms",
      "indexed": true,
      "notARegister": false
     }
    ],
    "indexed": true,
    "events": [
-    "baptism"
+    "baptism",
+    "burial"
    ],
-   "collections": 1
+   "collections": 2
   },
   {
    "parish": "Karlobag",
@@ -391,6 +401,23 @@
    "indexed": false,
    "events": [],
    "collections": 0
+  },
+  {
+   "parish": "Sv. Juraj (kod Senja)",
+   "rows": [
+    {
+     "parish": "Sv. Juraj (kod Senja)",
+     "collection": "",
+     "event": "none",
+     "windows": "place-only 1690-1869, under «Sveti Juraj», «Jurjevo», «Lukovo»",
+     "note": "NOTHING. Row 6's book, filmed 1697-1852, and the index does not hold it under any of the three place strings this archive's parish table gives it",
+     "indexed": false,
+     "notARegister": false
+    }
+   ],
+   "indexed": false,
+   "events": [],
+   "collections": 0
   }
  ],
  "rows": [
@@ -560,9 +587,27 @@
    "parish": "Grižane",
    "collection": "Croatia, Church Books, 1516-1994",
    "event": "baptism",
-   "windows": "1854 observed",
-   "note": "one hit; treat as untested, not as coverage",
+   "windows": "place-only census 1690-1899",
+   "note": "MEASURED 20-21 Sept and DENSE, not «one hit»: 200 of 200 in both windows, events 1698-1894. Also Croatia, Primorje-Gorski Kotar, Births, from 1569 to 1901",
    "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Grižane",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "burial",
+   "windows": "place-only census 1800-1899",
+   "note": "BURIALS TOO, and heavily — 104 of 200 rows in the 1800-1899 window are burials against 96 baptisms",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Sv. Juraj (kod Senja)",
+   "collection": "",
+   "event": "none",
+   "windows": "place-only 1690-1869, under «Sveti Juraj», «Jurjevo», «Lukovo»",
+   "note": "NOTHING. Row 6's book, filmed 1697-1852, and the index does not hold it under any of the three place strings this archive's parish table gives it",
+   "indexed": false,
    "notARegister": false
   },
   {
@@ -630,9 +675,9 @@
   }
  ],
  "counts": {
-  "parishes": 16,
+  "parishes": 17,
   "indexed": 12,
-  "zero": 4,
-  "collections": 21
+  "zero": 5,
+  "collections": 22
  }
 }
