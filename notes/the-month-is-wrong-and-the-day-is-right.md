@@ -1,64 +1,78 @@
-# Two dates where the tree and the index agree on the day and differ on the month
+# Two dates where the tree and the index differ by a month — and what testing it
+# against the archive's own images did to the theory
 
-*20 September 2026. Noticed after the second one, which is the only reason it is
-written down — one would have been a slip.*
+*20 September 2026. Written as a hypothesis, then tested the same hour, and the
+test went against it. Kept in full because the shape of the argument is the
+useful part.*
 
 ---
 
-## The two
+## The observation
 
-| Person | Tree | Index | |
+| Person | Tree | **Index** | |
 |---|---|---|---|
-| **Milka Lucia Papić**, ahnentafel 3 | **9 OCTOBER 1886** | **9 November 1886**, bapt. 17 Nov | `1:1:X9D5-SHTB` |
-| **Stephanus Perpić**, son of ahn 14 × 15 | **13 OCTOBER 1861** | **13 December 1861**, bapt. 16 Dec | `1:1:XQM9-ZT6D` |
+| **Milka Lucia Papić**, ahnentafel 3 | 9 OCTOBER 1886 | **9 November 1886**, bapt. 17 Nov | `1:1:X9D5-SHTB` |
+| **Stephanus Perpić**, son of ahn 14 × 15 | 13 OCTOBER 1861 | **13 December 1861**, bapt. 16 Dec | `1:1:XQM9-ZT6D` |
 
-**The day of the month survives in both. The month does not.** And in both the
-tree's month is **earlier** than the index's.
+**The day survives in both; the month does not; the tree's month is the earlier
+one both times.** Four other dates from the same sweep agreed exactly.
 
-## Four others from the same sweep agree exactly
+## The hypothesis
 
-| | Tree | Index |
-|---|---|---|
-| Marija Papić | 11 Aug 1885 | 11 Aug 1885 |
-| Božica Tonka Papić | 9 Dec 1891 | 9 Dec 1891 |
-| Marija Žubrinić | *about* 15 Sep 1858 | 15 Sep 1858 |
-| Mariam Gerkacs, ahn 55 | 11 Aug 1789 | August 1789 |
+These registers write the month as a **Roman numeral**. *XI → X* and *XII → X*
+are the same error — trailing strokes lost. That preserves the day, corrupts
+only the month, and can only ever make the month **earlier**, which is what both
+do.
 
-**So it is two out of six, and the other four are exact.** Whatever is happening
-is not general sloppiness on either side.
+**It predicts a direction, so it can be killed.**
 
-## A mechanism that would explain it, offered as a hypothesis
+## The test, and it does not support it
 
-**These registers write the month as a Roman numeral.** Then:
+The right test does not use the index at all. **This archive has read dates off
+the images themselves**, and `sources/readings.psv` records them. If the tree
+systematically lost strokes, the image reads would show it too.
 
-    index November = XI     tree October = X      one stroke lost
-    index December = XII    tree October = X      two strokes lost
+**Seventeen dates could be held against the tree. All seventeen agree exactly.**
 
-**Both errors are the same error: the trailing `I`s dropped from a Roman
-numeral month.** That would preserve the day exactly — the day is written in
-arabic or in words — and corrupt only the month, and it can only ever make the
-month *earlier*, which is what both cases do.
+Baptisms and deaths, 1754 to 1886, across Karlobag, Otočac, Selce, Senj and
+Krmpote. **Not one month disagreement. Not one day disagreement.**
 
-## What would test it
+## And the one that looked like a third case was my own error
 
-**It predicts a direction.** If this is the mechanism, then across the whole
-archive the tree's month should **never be later** than a register's, and the
-disagreements should **cluster in October, November and December** — the only
-months whose numerals can lose a stroke and stay valid. A disagreement running
-the other way, or one in, say, March against June, would kill it.
+The audit threw up `ivan-blazevic` — tree **25 July 1882**, citation **26 Aug
+1882**. Day preserved, month one earlier: the pattern exactly, and against an
+image read rather than an index.
 
-**Six comparisons is not a test.** It is two cases and a shape. The way to test
-it is to keep comparing, which the parents-query now makes cheap: every
-household read out of the index gives four to six more dates to hold against
-the tree.
+**It was wrong, and the wrong thing was the citation.**
+`notes/reading-2026-09-09.md` records the entry as **«1882, 25 / 26 srpnja»**,
+and ***srpanj* is JULY**. Whoever wrote the `readings.psv` row rendered the
+Croatian month as August. **The tree was right; this archive's own data file was
+not.** Corrected the same day.
 
-## What it is not
+## What that leaves
 
-**It is not a reason to prefer the index.** The same indexing has been caught
-today naming the wrong mother for ahnentafel 106 — *Marie* where the register
-plainly reads *Antonie* — and giving Zvonimir Vukelić's mother a surname this
-archive read differently off the film at 5,812 pixels.
+**The tree has a perfect record against every image this archive has read** —
+seventeen for seventeen. **Both month conflicts are tree against INDEX**, and
+the index is the party that has been caught wrong twice today: it names the
+wrong mother for ahnentafel 106, where the register plainly reads *Antonie*, and
+gives Zvonimir Vukelić's mother a surname the archive read differently at 5,812
+pixels.
 
-**Both sides are transcriptions.** What this note argues is only that **the
-disagreements have a shape**, and a shape is something you can go and check
-against the page.
+**So the weight has moved the other way.** This morning this note leaned towards
+the index on the strength of a thirty-nine-day gap between a birth of 9 October
+and a baptism of 17 November. That gap still wants explaining. But a
+transcription with a perfect record and a transcription with two known errors
+are not equal witnesses, and **the reasonable reading now is that the index is
+wrong about both of these dates.**
+
+**It is still not settled, and only the page settles it.** Senj births are
+filmed 1878–1894, so ahnentafel 3's entry is reachable. **One opening decides
+whether Hedviga's mother was born in October or November.**
+
+## The honest residue
+
+Two cases are not a pattern, and a hypothesis that survives only where it cannot
+be checked is not worth keeping. **What survives is the method**: hold every
+date the index gives against the tree, and hold both against the image when
+there is one. The parents-query makes the first cheap, and this audit is what
+the second looks like.
