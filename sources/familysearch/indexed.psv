@@ -1,0 +1,64 @@
+# WHICH BOOKS ARE INDEXED — measured, 20 September 2026.
+#
+# WHY. Row 54 turned on the discovery that the Karlobag baptisms are INDEXED:
+# searchable as text, with both parents, so four walls became lookups instead of
+# a walk through 327 images. That raised the question nobody had answered for
+# any other parish, and every register row in the work list depends on it —
+# because an indexed book is a search box and an unindexed one is a sitting.
+#
+# HOW IT WAS MEASURED. The persona search API, `/service/search/hr/v2/personas`,
+# queried per parish with two or three of this archive's own surnames, reading
+# the COLLECTION TITLE and the event type off each hit and keeping only the
+# events whose place is that parish.
+#
+# THREE THINGS THAT MUST BE READ WITH IT.
+#
+# 1. THE SPANS ARE LOWER BOUNDS, NOT THE INDEX'S EXTENT. Each row is what a
+#    handful of surnames turned up in the first 100 results. «1733-1803» means
+#    the index reaches at least that far, not that it stops there.
+#
+# 2. A SINGLE SURNAME CAN MISS A WHOLE COLLECTION. Krivi Put searched under
+#    PRPIĆ returns nothing but gravestones; searched under TOMLJANOVIĆ it
+#    returns 30 indexed baptisms, 1850-1870. The first probe of this file
+#    concluded Krivi Put was unindexed and was wrong. Probe a parish with more
+#    than one name before believing a zero.
+#
+# 3. A «DEATHS» COLLECTION IS USUALLY NOT A REGISTER. «Croatia, Lika-Senj,
+#    Deaths, from 1500 to 2024» is the FIND A GRAVE INDEX — gravestones, which
+#    this archive already holds in graves.json — and it is returned for Krivi
+#    Put and Senj in quantity. It is not a parish death register and must not be
+#    counted as one. «Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990» IS a
+#    register index.
+#
+# THE HEADLINE. ACROSS EVERY PARISH THIS ARCHIVE USES, THE INDEX IS A BAPTISM
+# INDEX. Not one parish marriage register and not one parish death register
+# before 1891 is indexed anywhere in this table. Every death and every marriage
+# in the work list is a film read, and that is now measured rather than assumed.
+#
+# parish|collection|event|span measured|note
+Karlobag|Croatia, Lika-Senj, Births, from 1689 to 1898|baptism|1733-1803|the early volume — reaches further back than Church Books does
+Karlobag|Croatia, Church Books, 1516-1994|baptism|1805-1858|
+Karlobag|—|marriage|none|NOT INDEXED. Vjenčani 1736-1861 is a film read
+Karlobag|—|death|none|NOT INDEXED. Umrli 1774-1861 is a film read
+Otočac|Croatia, Church Books, 1516-1994|baptism|1839-1846|
+Otočac|Austria, Küstenland, Births, from 1536 to 1919|baptism|1848-1858|a SECOND collection, and the one that carries 1848-58
+Otočac|—|marriage|none|NOT INDEXED
+Otočac|—|death|none|NOT INDEXED
+Senj|Croatia, Lika-Senj, Births, from 1689 to 1898|baptism|1692-1861|
+Senj|Croatia, Church Books, 1516-1994|baptism|1735-1857|
+Senj|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1807-1851|a third collection over the same parish
+Senj|—|marriage|none|NOT INDEXED — tested for the marriage of ahnentafel 12 and 13
+Senj|—|death|none|NOT INDEXED as a register; the hits are Find a Grave
+Krivi Put|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1850-1870|FOUND ONLY UNDER TOMLJANOVIĆ. Prpić returns gravestones alone
+Krivi Put|Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990|death|1891-1924|a real death register index, and the only one in this table
+Novi Vinodolski|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1826-1899|row 32's book, and it is searchable
+Novi Vinodolski|Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990|death|1897|one year only, on this sample
+Krmpote|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1880-1894|matches the film, which begins 1879 and NOT 1815 as the catalogue says
+Smiljan|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1834-1857|too late for ahnentafel 426, who is a generation of about 1700
+Grižane|Croatia, Church Books, 1516-1994|baptism|1854|a single hit; treat as untested rather than as coverage
+Selce|—|none|none|NOTHING INDEXED, under Antić, Papić, Jelličić or Lončarić
+Brinje|—|none|none|NOTHING INDEXED, under Kalanj or Marić
+Ledenice|—|none|none|NOTHING INDEXED
+Bribir|—|none|none|NOTHING INDEXED
+Sinac|—|none|none|NOTHING INDEXED
+Gospić|—|none|none|NOTHING INDEXED
