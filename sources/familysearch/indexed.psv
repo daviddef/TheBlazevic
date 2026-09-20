@@ -62,7 +62,9 @@ Karlobag|Croatia, Church Books, 1516-1994|baptism|1680s 1780s 1850s 1900s|
 Karlobag|Croatia, Lika-Senj, Births, from 1689 to 1898|baptism|1680s 1780s 1850s 1900s|reaches 1733 in practice — the earliest baptism index here
 Krivi Put|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1780s 1850s|found ONLY under Tomljanović; Prpić returns gravestones
 Krivi Put|Hungary, Croatia-Slavonia, Deaths, from 1681 to 1990|death|1780s 1850s|a real death register index
-Novi Vinodolski|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1680s 1850s|row 32's book, and it is searchable
+Novi Vinodolski|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|place-only census 1650-1899|MEASURED 20 Sept and MUCH WIDER than this row used to claim: dense in EVERY window from 1651 to 1899, 300 of 300 fetched. Row 32's book, and Klenovica's parish — 101 of this archive's people are at Klenovica
+Novi Vinodolski|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|burial|place-only census 1860-1899|BURIALS TOO, and only from 1860: ~25 per cent of rows in the 1860-1899 windows are burials and none appears before
+Crikvenica|Croatia, Delnice Deanery Catholic Church Books, 1571-1926|baptism|place-only census 1750-1899|RESTORED 20 Sept — it was in the FIRST coverage table and the rewrite dropped it. Dense 1750-1858 and ZERO from 1860. Its 448 surnames are Crikvenica-town ones (Czar, Lovrich, Skiljan, Xuppan) and NOT this archive's: Klenovica belongs to Novi Vinodolski, not here
 Krmpote|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1880-1894 observed|matches the film, which begins 1879 and not 1815 as the catalogue says
 Smiljan|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1834-1857 observed|too late for ahnentafel 426, a generation of about 1700
 Grižane|Croatia, Church Books, 1516-1994|baptism|1854 observed|one hit; treat as untested, not as coverage
@@ -125,3 +127,22 @@ Smokvica|—|none|1730s 1800s 1850s + place-only|NOTHING for OUR Smokvica. A pla
 # it is worth restating rather than deleting: the Blažević side is unindexed and
 # the mother's side is searchable. What changes is that «unindexed» was too
 # strong for three parishes, and one of them holds ahnentafel 12, 24 and 25.
+#
+# 20 SEPTEMBER 2026, FOURTH PASS — what the rewrite had dropped.
+#
+# The first coverage table, index-coverage.psv, held EIGHT parishes. This file
+# holds fifteen and was built fresh rather than from it, so anything the old one
+# had and the new one did not simply vanished. Checked, and one parish had:
+# CRIKVENICA, restored above.
+#
+# Two other claims of the old table were re-tested and do NOT reproduce:
+#
+#   «Novi Vinodolski: 4 death» — a place-only census of 1,800 rows returns
+#   baptisms and burials and NO deaths. Burials are indexed and dated from 1860.
+#
+#   «Senj also under the Latin place string SENIA (14 birth, 14 burial,
+#   11 death)» — q.anyPlace=Senia returns NOTHING. Either the place string was
+#   never right or it has been normalised away since. Senj's own rows stand.
+#
+# NEITHER is recorded as a correction to the old table, because a probe that
+# fails to reproduce a result is not the same as a probe that disproves it.

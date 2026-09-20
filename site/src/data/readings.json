@@ -1,18 +1,18 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 111,
-  "people": 83,
-  "derived": 43,
+  "rows": 112,
+  "people": 84,
+  "derived": 44,
   "onDirectLine": 35,
-  "indexOnly": 10,
+  "indexOnly": 11,
   "earliest": 1754,
   "latest": 2005
  },
  "kinds": [
   [
    "baptism",
-   38
+   39
   ],
   [
    "death",
@@ -1286,6 +1286,20 @@
    "indexOnly": true,
    "slug": "bozica-tonka-papic",
    "name": "Bozica Tonka Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1893",
+   "cite": "Novi Vinodolski, baptised 5 August 1893 — INDEX ONLY, «Rozalia Kalanj», father «Martin Kalanj», mother «Maria Peričić»; ark 1:1:XQMQ-QY3Q. The FIFTH child of this household and the one whose scan is NOT in the family's photo library, where the other four sat. The tree gives her birth as 4 July 1893, so the index puts a month between birth and baptism where her siblings' entries put days — unexplained, and a reason to open the page",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/novi-vinodolski-is-indexed-to-1899.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/novi-vinodolski-is-indexed-to-1899.md",
+   "indexOnly": true,
+   "slug": "rozalia-kalanj",
+   "name": "Rozalia Kalanj",
    "ahn": null
   },
   {
@@ -3678,6 +3692,26 @@
    "direct": 1,
    "derived": 0
   },
+  "rozalia-kalanj": {
+   "slug": "rozalia-kalanj",
+   "name": "Rozalia Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1893",
+     "cite": "Novi Vinodolski, baptised 5 August 1893 — INDEX ONLY, «Rozalia Kalanj», father «Martin Kalanj», mother «Maria Peričić»; ark 1:1:XQMQ-QY3Q. The FIFTH child of this household and the one whose scan is NOT in the family's photo library, where the other four sat. The tree gives her birth as 4 July 1893, so the index puts a month between birth and baptism where her siblings' entries put days — unexplained, and a reason to open the page",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/novi-vinodolski-is-indexed-to-1899.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/novi-vinodolski-is-indexed-to-1899.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -3987,6 +4021,17 @@
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
+     "year": "1893",
+     "cite": "Novi Vinodolski, baptised 5 August 1893 — INDEX ONLY, «Rozalia Kalanj», father «Martin Kalanj», mother «Maria Peričić»; ark 1:1:XQMQ-QY3Q. The FIFTH child of this household and the one whose scan is NOT in the family's photo library, where the other four sat. The tree gives her birth as 4 July 1893, so the index puts a month between birth and baptism where her siblings' entries put days — unexplained, and a reason to open the page",
+     "derived": true,
+     "via": "rozalia-kalanj",
+     "viaName": "Rozalia Kalanj",
+     "where": "notes/novi-vinodolski-is-indexed-to-1899.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/novi-vinodolski-is-indexed-to-1899.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
      "year": "1894",
      "cite": "Novi Vinodolski baptisms str. 278 no. 71 — «Ana, kći zakonita» of «Martin Kalanj Josipov, žena mu Marija rodj. Peričić»; born 5 November 1894, baptised 11 November 1894. The patronymic «Josipov» is the find: it matches the tree's Josip Kalanj independently of the tree. Read at 3x, where the mother's surname reads Peričić and not the Crnić it seemed at page scale",
      "derived": true,
@@ -4031,7 +4076,7 @@
     }
    ],
    "direct": 0,
-   "derived": 4
+   "derived": 5
   },
   "josip-josephus-joso-kalanj-kalain-kallayn": {
    "slug": "josip-josephus-joso-kalanj-kalain-kallayn",

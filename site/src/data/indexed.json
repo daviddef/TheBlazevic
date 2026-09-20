@@ -22,6 +22,25 @@
    "collections": 1
   },
   {
+   "parish": "Crikvenica",
+   "rows": [
+    {
+     "parish": "Crikvenica",
+     "collection": "Croatia, Delnice Deanery Catholic Church Books, 1571-1926",
+     "event": "baptism",
+     "windows": "place-only census 1750-1899",
+     "note": "RESTORED 20 Sept — it was in the FIRST coverage table and the rewrite dropped it. Dense 1750-1858 and ZERO from 1860. Its 448 surnames are Crikvenica-town ones (Czar, Lovrich, Skiljan, Xuppan) and NOT this archive's: Klenovica belongs to Novi Vinodolski, not here",
+     "indexed": true,
+     "notARegister": false
+    }
+   ],
+   "indexed": true,
+   "events": [
+    "baptism"
+   ],
+   "collections": 1
+  },
+  {
    "parish": "Grižane",
    "rows": [
     {
@@ -142,17 +161,27 @@
      "parish": "Novi Vinodolski",
      "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
      "event": "baptism",
-     "windows": "1680s 1850s",
-     "note": "row 32's book, and it is searchable",
+     "windows": "place-only census 1650-1899",
+     "note": "MEASURED 20 Sept and MUCH WIDER than this row used to claim: dense in EVERY window from 1651 to 1899, 300 of 300 fetched. Row 32's book, and Klenovica's parish — 101 of this archive's people are at Klenovica",
+     "indexed": true,
+     "notARegister": false
+    },
+    {
+     "parish": "Novi Vinodolski",
+     "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+     "event": "burial",
+     "windows": "place-only census 1860-1899",
+     "note": "BURIALS TOO, and only from 1860: ~25 per cent of rows in the 1860-1899 windows are burials and none appears before",
      "indexed": true,
      "notARegister": false
     }
    ],
    "indexed": true,
    "events": [
-    "baptism"
+    "baptism",
+    "burial"
    ],
-   "collections": 1
+   "collections": 2
   },
   {
    "parish": "Otočac",
@@ -486,8 +515,26 @@
    "parish": "Novi Vinodolski",
    "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
    "event": "baptism",
-   "windows": "1680s 1850s",
-   "note": "row 32's book, and it is searchable",
+   "windows": "place-only census 1650-1899",
+   "note": "MEASURED 20 Sept and MUCH WIDER than this row used to claim: dense in EVERY window from 1651 to 1899, 300 of 300 fetched. Row 32's book, and Klenovica's parish — 101 of this archive's people are at Klenovica",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Novi Vinodolski",
+   "collection": "Hungary, Croatia-Slavonia, Births, from 1653 to 1922",
+   "event": "burial",
+   "windows": "place-only census 1860-1899",
+   "note": "BURIALS TOO, and only from 1860: ~25 per cent of rows in the 1860-1899 windows are burials and none appears before",
+   "indexed": true,
+   "notARegister": false
+  },
+  {
+   "parish": "Crikvenica",
+   "collection": "Croatia, Delnice Deanery Catholic Church Books, 1571-1926",
+   "event": "baptism",
+   "windows": "place-only census 1750-1899",
+   "note": "RESTORED 20 Sept — it was in the FIRST coverage table and the rewrite dropped it. Dense 1750-1858 and ZERO from 1860. Its 448 surnames are Crikvenica-town ones (Czar, Lovrich, Skiljan, Xuppan) and NOT this archive's: Klenovica belongs to Novi Vinodolski, not here",
    "indexed": true,
    "notARegister": false
   },
@@ -583,9 +630,9 @@
   }
  ],
  "counts": {
-  "parishes": 15,
-  "indexed": 11,
+  "parishes": 16,
+  "indexed": 12,
   "zero": 4,
-  "collections": 19
+  "collections": 21
  }
 }
