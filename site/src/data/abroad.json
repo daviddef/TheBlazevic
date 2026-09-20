@@ -9,7 +9,19 @@
   "earliest": 1884,
   "latest": 2009,
   "saEarliest": 1884,
-  "saLatest": 1975
+  "saLatest": 1975,
+  "rolls": 50,
+  "rollPeople": 26,
+  "rollYears": [
+   "1913",
+   "1935",
+   "1939",
+   "1941",
+   "1943"
+  ],
+  "probes": 87,
+  "probeZeros": 39,
+  "sharedAddresses": 9
  },
  "spellings": [
   [
@@ -3317,6 +3329,1293 @@
    "year": "1975",
    "rel": "",
    "district": ""
+  }
+ ],
+ "rolls": [
+  {
+   "given": "Phyllis Blanche",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "11 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Phyllis Blanche"
+  },
+  {
+   "given": "Rose",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "13 Three Chain Rd, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Rose"
+  },
+  {
+   "given": "Rose",
+   "year": "1941",
+   "occupation": "Domestic duties",
+   "address": "13 Three Chain Rd, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Rose"
+  },
+  {
+   "given": "John William",
+   "year": "1939",
+   "occupation": "Labourer",
+   "address": "143 Main Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "John William"
+  },
+  {
+   "given": "John William",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "143 Main Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "John William"
+  },
+  {
+   "given": "Eveline Frances",
+   "year": "1935",
+   "occupation": "Home duties",
+   "address": "178'M11rt0i1 Street",
+   "sub": "Broken Hill North",
+   "district": "Darling",
+   "state": "NSW",
+   "household": "Eveline Frances"
+  },
+  {
+   "given": "Irene Dorothy",
+   "year": "1943",
+   "occupation": "Domestic duties",
+   "address": "19 Forsyth Street",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "John Stephen",
+   "year": "1943",
+   "occupation": "Labourer",
+   "address": "19 Forsyth Street",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "Florence Johanna",
+   "year": "1939",
+   "occupation": "Married",
+   "address": "2 Daisy St, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Florence Johanna"
+  },
+  {
+   "given": "Arthur Leslie",
+   "year": "1941",
+   "occupation": "Ironmoulder",
+   "address": "2 Daisy St, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Arthur Leslie; Florence Johanna"
+  },
+  {
+   "given": "Florence Johanna",
+   "year": "1941",
+   "occupation": "Married",
+   "address": "2 Daisy St, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Arthur Leslie; Florence Johanna"
+  },
+  {
+   "given": "Arthur Leslie",
+   "year": "1943",
+   "occupation": "Ironmoulder",
+   "address": "2 Daisy St, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Arthur Leslie; Florence Johanna"
+  },
+  {
+   "given": "Florence Johanna",
+   "year": "1943",
+   "occupation": "Married",
+   "address": "2 Daisy St, Pt Pirie E",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Arthur Leslie; Florence Johanna"
+  },
+  {
+   "given": "Gwenyth Florence",
+   "year": "1941",
+   "occupation": "Shop assistant",
+   "address": "2 Daisy Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Gwenyth Florence"
+  },
+  {
+   "given": "Austa Louise",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "21 St Ann's Ter, St Leonards",
+   "sub": "Glenelg",
+   "district": "Barker",
+   "state": "SA",
+   "household": "Austa Louise"
+  },
+  {
+   "given": "Thomas Leo",
+   "year": "1941",
+   "occupation": "Ironmoulder",
+   "address": "30 Beach Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Thomas Leo; Una Blanche"
+  },
+  {
+   "given": "Una Blanche",
+   "year": "1941",
+   "occupation": "Domestic duties",
+   "address": "30 Beach Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Thomas Leo; Una Blanche"
+  },
+  {
+   "given": "Thomas Leo",
+   "year": "1943",
+   "occupation": "Ironmoulder",
+   "address": "30 Beach Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Thomas Leo; Una Blanche"
+  },
+  {
+   "given": "Una Blanche",
+   "year": "1943",
+   "occupation": "Domestic duties",
+   "address": "30 Beach Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Thomas Leo; Una Blanche"
+  },
+  {
+   "given": "Keith Leo",
+   "year": "1941",
+   "occupation": "Moulder",
+   "address": "46 Cottell Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Rita Laurel",
+   "year": "1941",
+   "occupation": "Domestic duties",
+   "address": "46 Cottell Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Maurice Joseph",
+   "year": "1939",
+   "occupation": "Labourer",
+   "address": "56 Simpson Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Maurice Joseph"
+  },
+  {
+   "given": "Violet Mary",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "56 Simpson Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Violet Mary"
+  },
+  {
+   "given": "Maurice Joseph",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "56 Simpson Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Maurice Joseph; Violet Mary"
+  },
+  {
+   "given": "Violet Mary",
+   "year": "1941",
+   "occupation": "Domestic duties",
+   "address": "56 Simpson Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Maurice Joseph; Violet Mary"
+  },
+  {
+   "given": "Violet Mary",
+   "year": "1943",
+   "occupation": "Domestic duties",
+   "address": "56 Simpson Road",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Violet Mary"
+  },
+  {
+   "given": "Keith Leo",
+   "year": "1943",
+   "occupation": "Moulder",
+   "address": "58 King Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Rita Laurel",
+   "year": "1943",
+   "occupation": "Domestic duties",
+   "address": "58 King Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Michael Valentino",
+   "year": "1939",
+   "occupation": "Labourer",
+   "address": "63 Fifth Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Michael Valentino"
+  },
+  {
+   "given": "Michael Valentine",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "63 Fifth Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Michael Valentine"
+  },
+  {
+   "given": "Michael Valentine",
+   "year": "1943",
+   "occupation": "Labourer",
+   "address": "63 Fifth Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Michael Valentine"
+  },
+  {
+   "given": "Emma Benedicter",
+   "year": "1939",
+   "occupation": "Married",
+   "address": "65 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Emma Benedicter"
+  },
+  {
+   "given": "Malcolm Theodore",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "65 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Malcolm Theodore"
+  },
+  {
+   "given": "Malcolm Theodore",
+   "year": "1943",
+   "occupation": "Labourer",
+   "address": "65 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Malcolm Theodore"
+  },
+  {
+   "given": "Edward Malcolm",
+   "year": "1939",
+   "occupation": "Labourer",
+   "address": "65 Queen Street Solomontown",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Edward Malcolm"
+  },
+  {
+   "given": "Edward Malcolm",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "65 Queen Street Solomontown",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Edward Malcolm; Emma Benedicter"
+  },
+  {
+   "given": "Emma Benedicter",
+   "year": "1941",
+   "occupation": "Blamed",
+   "address": "65 Queen Street Solomontown",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Edward Malcolm; Emma Benedicter"
+  },
+  {
+   "given": "Edward Malcolm",
+   "year": "1943",
+   "occupation": "Labourer",
+   "address": "65 Queen Street Solomontown",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Edward Malcolm; Emma Benedieter"
+  },
+  {
+   "given": "Emma Benedieter",
+   "year": "1943",
+   "occupation": "Married",
+   "address": "65 Queen Street Solomontown",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Edward Malcolm; Emma Benedieter"
+  },
+  {
+   "given": "Keith Leo",
+   "year": "1939",
+   "occupation": "Moulder",
+   "address": "9 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Rita Laurel",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "9 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Keith Leo; Rita Laurel"
+  },
+  {
+   "given": "Una",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "Blanche, 11 Queen Street",
+   "sub": "Port Pirie",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Una"
+  },
+  {
+   "given": "Asta Louise",
+   "year": "1943",
+   "occupation": "Domestic duties",
+   "address": "Ward Street",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Asta Louise; Leonard Francis"
+  },
+  {
+   "given": "Leonard Francis",
+   "year": "1943",
+   "occupation": "Assistant",
+   "address": "Ward Street",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Asta Louise; Leonard Francis"
+  },
+  {
+   "given": "Irene Dorothy",
+   "year": "1939",
+   "occupation": "Domestic duties",
+   "address": "Whyalla",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "John Stephen",
+   "year": "1939",
+   "occupation": "Labourer",
+   "address": "Whyalla",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "Irene Dorothy",
+   "year": "1941",
+   "occupation": "Domestic duties",
+   "address": "Whyalla",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "John Stephen",
+   "year": "1941",
+   "occupation": "Labourer",
+   "address": "Whyalla",
+   "sub": "Whyalla",
+   "district": "Grey",
+   "state": "SA",
+   "household": "Irene Dorothy; John Stephen"
+  },
+  {
+   "given": "Catherine",
+   "year": "1913",
+   "occupation": "Domestic duties",
+   "address": "Wolfram Street",
+   "sub": "Argent-Street North",
+   "district": "Willyama",
+   "state": "NSW",
+   "household": "Catherine; John William"
+  },
+  {
+   "given": "John William",
+   "year": "1913",
+   "occupation": "Labourer",
+   "address": "Wolfram Street",
+   "sub": "Argent-Street North",
+   "district": "Willyama",
+   "state": "NSW",
+   "household": "Catherine; John William"
+  }
+ ],
+ "probes": [
+  {
+   "kind": "control",
+   "query": "zubrinic + keywords=prozor",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "HER OWN RESIDENCE. The decisive proof",
+   "zero": true
+  },
+  {
+   "kind": "control",
+   "query": "zubrinic + keywords=ultonia",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "HER OWN SHIP",
+   "zero": true
+  },
+  {
+   "kind": "firstname",
+   "query": "blazevic firstname=giuseppe",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "the Italian form — nothing either",
+   "zero": true
+  },
+  {
+   "kind": "firstname",
+   "query": "blazevic firstname=joseph",
+   "set": "all",
+   "result": "some",
+   "n": null,
+   "means": "the English form — returns records",
+   "zero": false
+  },
+  {
+   "kind": "firstname",
+   "query": "blazevic firstname=josephus",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "THE LATIN FORM — NOTHING, and this is the form the target list gives",
+   "zero": true
+  },
+  {
+   "kind": "firstname",
+   "query": "blazevic firstname=josip",
+   "set": "all",
+   "result": "some",
+   "n": null,
+   "means": "the Croatian form — returns records",
+   "zero": false
+  },
+  {
+   "kind": "spelling",
+   "query": "subrinic",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "spelling",
+   "query": "xubrinich",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "spelling",
+   "query": "zubrinec",
+   "set": "all",
+   "result": "1",
+   "n": 1,
+   "means": "Franc, b.1887 — and his residence is SINAC",
+   "zero": false
+  },
+  {
+   "kind": "spelling",
+   "query": "zubrinic",
+   "set": "all",
+   "result": "119",
+   "n": 119,
+   "means": "Lika — a different catch entirely",
+   "zero": false
+  },
+  {
+   "kind": "spelling",
+   "query": "zubrinich",
+   "set": "all",
+   "result": "191",
+   "n": 191,
+   "means": "Australia, the anglicised form",
+   "zero": false
+  },
+  {
+   "kind": "spelling",
+   "query": "zubrinick",
+   "set": "all",
+   "result": "10",
+   "n": 10,
+   "means": "FOURTH spelling, the American clerk's. Same Ivan of Otocac",
+   "zero": false
+  },
+  {
+   "kind": "spelling",
+   "query": "zubrinicz",
+   "set": "all",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "blazevic",
+   "set": "all",
+   "result": "1374",
+   "n": 1374,
+   "means": "",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "blazevic",
+   "set": "passengers",
+   "result": "706",
+   "n": 706,
+   "means": "first read as 0 — the count had not rendered",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "blazevic firstname=joso",
+   "set": "passengers",
+   "result": "5",
+   "n": 5,
+   "means": "Sungari, Kuthuryevac, blank — not ours",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "blazevic firstname=jurko",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "blazevic firstname=mile",
+   "set": "passengers",
+   "result": "9",
+   "n": 9,
+   "means": "residence Dvor — not ours",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "blazevich",
+   "set": "naturalisations",
+   "result": "6",
+   "n": 6,
+   "means": "Alice b.1894 born RUSSIA — not ours",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "blazevich",
+   "set": "naturalisations",
+   "result": "6",
+   "n": 6,
+   "means": "3 petitioners, ONE household — «Rutkishki, Russia»",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "boras",
+   "set": "naturalisations",
+   "result": "16",
+   "n": 16,
+   "means": "Irene b.1884 born BUDAPEST; James b.1886 GREECE — not ours",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "boras",
+   "set": "naturalisations",
+   "result": "16",
+   "n": 16,
+   "means": "Budapest (Hungarian) and «Skafers, GREECE» — Boras is a Greek surname too",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "borash",
+   "set": "naturalisations",
+   "result": "9",
+   "n": 9,
+   "means": "",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "borash",
+   "set": "naturalisations",
+   "result": "9",
+   "n": 9,
+   "means": "Ashkenazi — Sonken, Barchasch, Max Jacobs. Not Boraš",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "kalan",
+   "set": "naturalisations",
+   "result": "20",
+   "n": 20,
+   "means": "Slovene — Frank Kalan b.1873 was born in KRAIN, Carniola",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "kalan",
+   "set": "naturalisations",
+   "result": "20",
+   "n": 20,
+   "means": "TWO households, NEITHER Croatian — see below",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "kalan firstname=frank",
+   "set": "naturalisations",
+   "result": "3",
+   "n": 3,
+   "means": "Frank Kalan b.10 Apr 1873, «KRAIN, AUSTRIA» — Carniola, SLOVENIA",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "kalan firstname=katherine",
+   "set": "naturalisations",
+   "result": "2",
+   "n": 2,
+   "means": "Katherine Kalan b.16 Jul 1893, «RUDNYKI, POLAND»",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "kalanj",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "papic",
+   "set": "all",
+   "result": "1042",
+   "n": 1042,
+   "means": "",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "papic",
+   "set": "passengers",
+   "result": "529",
+   "n": 529,
+   "means": "first read as 0",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "papic",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "papich",
+   "set": "naturalisations",
+   "result": "13",
+   "n": 13,
+   "means": "Rudolph b.1885 born ITALY; Stojan b.1887 no town; Soldo-or-Papich",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "papich",
+   "set": "naturalisations",
+   "result": "13",
+   "n": 13,
+   "means": "7 petitioners; opened 3 — ZADAR and Herzegovina, not Senj",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "perpic",
+   "set": "all",
+   "result": "112",
+   "n": 112,
+   "means": "swept in full — four residences, none of them ours",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "perpich",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "prpic",
+   "set": "all",
+   "result": "943",
+   "n": 943,
+   "means": "too common to sweep",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "prpic",
+   "set": "passengers",
+   "result": "632",
+   "n": 632,
+   "means": "first read as 0",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "prpich",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "sestan",
+   "set": "all",
+   "result": "519",
+   "n": 519,
+   "means": "",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "sojat",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "EXACT-MATCH TRAP — he is there as Sojath",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "sojath",
+   "set": "naturalisations",
+   "result": "4",
+   "n": 4,
+   "means": "Miro b.1910 of SENJ, wife Helen, son George — OURS",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "spalj",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "try an American spelling before believing this",
+   "zero": true
+  },
+  {
+   "kind": "surname",
+   "query": "vukelic",
+   "set": "all",
+   "result": "2424",
+   "n": 2424,
+   "means": "",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "vukelic",
+   "set": "naturalisations",
+   "result": "17",
+   "n": 17,
+   "means": "Marijan of KLADA (ours) and Louis Peter of Rogul (not)",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "vukelic",
+   "set": "naturalisations",
+   "result": "17",
+   "n": 17,
+   "means": "THREE men, one of them new — see below",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "vukelic firstname=louis",
+   "set": "naturalisations",
+   "result": "4",
+   "n": 4,
+   "means": "Louis Peter Vukelić b.18 Mar 1892, «ROGUL, JUGO-SLAVIA» — NEW",
+   "zero": false
+  },
+  {
+   "kind": "surname",
+   "query": "vukelich",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "bribir",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "brinje",
+   "set": "naturalisations",
+   "result": "fuzzy",
+   "n": null,
+   "means": "one Yugoslav hit: Karakas, born «Brinje Plasca»",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "brlog",
+   "set": "naturalisations",
+   "result": "4",
+   "n": 4,
+   "means": "Bjelobaba, Lukach, Yasevac, unconfirmed",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "crikvenica",
+   "set": "naturalisations",
+   "result": "4",
+   "n": 4,
+   "means": "two men, unconfirmed — Kristofor, Mason",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "fiume",
+   "set": "naturalisations",
+   "result": "516",
+   "n": 516,
+   "means": "a city, overwhelmingly Italian — not a usable filter",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "gospic",
+   "set": "naturalisations",
+   "result": "1",
+   "n": 1,
+   "means": "Djuro Pejnovic — not an archive surname",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "grizane",
+   "set": "naturalisations",
+   "result": "4",
+   "n": 4,
+   "means": "TWO MEN, twice each — both CONFIRMED",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "jablanac",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "jablanac",
+   "set": "naturalisations",
+   "result": "2",
+   "n": 2,
+   "means": "Joseph Stokich b.1889, unconfirmed",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "jurjevo",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "karlobag",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "the best-read parish in this archive sent nobody",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "klenovica",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "klenovica",
+   "set": "naturalisations",
+   "result": "2",
+   "n": 2,
+   "means": "ONE MAN, twice — CONFIRMED «Klenovica, Coratia»",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "kompolje",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "krivi put",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "krivi put",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "Prpić country, and nobody filed from it",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "krmpot",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "krmpote",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "nothing under the parish name either",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "ledenice",
+   "set": "naturalisations",
+   "result": "2",
+   "n": 2,
+   "means": "both a Czech, Karel Tuma b.1882",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "lukovo",
+   "set": "naturalisations",
+   "result": "1",
+   "n": 1,
+   "means": "Frank Pietrzak — a Polish name; fuzzy noise, not Lukovo",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "mrzli dol",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "the Blažević hamlet in targets.psv",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "novi vinodolski",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "otocac",
+   "set": "naturalisations",
+   "result": "7",
+   "n": 7,
+   "means": "SEVEN PEOPLE, all read — the seam",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "otochetz",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "povile",
+   "set": "naturalisations",
+   "result": "20",
+   "n": 20,
+   "means": "all «Povill» — fuzzy noise, Russian",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "prozor",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "prozor",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "residence is NOT indexed in this set",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "prozov",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "nor is the misspelling the records actually use",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "selce",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "senj",
+   "set": "naturalisations",
+   "result": "12",
+   "n": 12,
+   "means": "SIX PEOPLE, all read — the other seam",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "sinac",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "sinac",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "found in the passenger lists, absent here",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "sinae",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "smiljan",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "smokvica",
+   "set": "passengers",
+   "result": "13",
+   "n": 13,
+   "means": "the KORCULA Smokvica — Dalmatian surnames, not Krmpotska",
+   "zero": false
+  },
+  {
+   "kind": "village",
+   "query": "smokvica",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "the Blažević village — nothing",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "sumenica",
+   "set": "passengers",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "sveti juraj",
+   "set": "naturalisations",
+   "result": "0",
+   "n": 0,
+   "means": "",
+   "zero": true
+  },
+  {
+   "kind": "village",
+   "query": "vrbnik",
+   "set": "naturalisations",
+   "result": "7",
+   "n": 7,
+   "means": "Krk surnames — Volarich, Trinaestich, Trpich, unconfirmed",
+   "zero": false
   }
  ]
 }

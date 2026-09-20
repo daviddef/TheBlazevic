@@ -65,6 +65,46 @@ for (const r of A.records) {
     </table>
   </section>
 
+  <section class="blk">
+    <div class="lab">{C.rolls} transcripts · {C.rollPeople} people</div>
+    <h2>The electoral rolls, read in full</h2>
+    <p>Not an index this time — <strong>fifty transcripts read out</strong>, across
+    {C.rollYears.join(", ")}. A roll gives an <strong>address and an occupation</strong>, and an
+    address repeated across roll years is a household standing still, which is a claim no single
+    record makes. <strong>{C.sharedAddresses} addresses appear in more than one year.</strong></p>
+    <table class="reg">
+      <thead><tr><th style="width:16%">Who</th><th style="width:7%">Year</th>
+        <th style="width:16%">Occupation</th><th style="width:26%">Address</th>
+        <th>At that address</th></tr></thead>
+      <tbody>{A.rolls.map((r) => (
+        <tr><td><strong>{r.given}</strong></td><td class="mono">{r.year}</td>
+          <td class="dek">{r.occupation || "—"}</td>
+          <td class="dek">{r.address}<span class="dek" style="display:block">{r.sub}{r.state ? `, ${r.state}` : ""}</span></td>
+          <td class="dek">{r.household || "—"}</td></tr>
+      ))}</tbody>
+    </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">{C.probes} searches · {C.probeZeros} of them zeros</div>
+    <h2>Every search that was run, including the ones that found nothing</h2>
+    <p class="lede">Most of these are <strong>zeros</strong>, and they are here for the reason the
+    file itself gives: <strong>a zero costs the same as a find to obtain and nothing at all to
+    repeat</strong>. An archive that publishes only its hits is telling its next reader to run
+    every one of these searches again.</p>
+    <table class="reg">
+      <thead><tr><th style="width:12%">Kind</th><th style="width:22%">Query</th>
+        <th style="width:16%">Where</th><th style="width:8%">Result</th>
+        <th>What it means</th></tr></thead>
+      <tbody>{A.probes.map((r) => (
+        <tr><td class="dek">{r.kind}</td><td class="mono">{r.query}</td>
+          <td class="dek">{r.set || "—"}</td>
+          <td class="mono">{r.zero ? <strong>0</strong> : r.result}</td>
+          <td class="dek">{r.means || "—"}</td></tr>
+      ))}</tbody>
+    </table>
+  </section>
+
   {groups.map((g) => (
     <section class="blk">
       <div class="lab">{g.rows.length} rows</div>

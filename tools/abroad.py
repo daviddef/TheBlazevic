@@ -24,9 +24,18 @@ The page says so at the top and the distinction is not decorative.
 THE SPELLINGS ARE THE POINT. ZUBRINICH returns 191 records and ZUBRINIC a
 different 119 -- one family, two catches, and neither query finds the other.
 
+AND THE NEGATIVES ARE PUBLISHED TOO. sources/findmypast/probes-2026-09-16.psv
+records every search run against FindMyPast with its result, and most of them
+are zeros. Its own header says why that is worth keeping: «a zero costs the same
+as a find to obtain and nothing at all to repeat». An archive that publishes
+only its hits is telling its next reader to run every one of those searches
+again.
+
 Reads  sources/findmypast/zubrinich-2026-09-13.psv   name|born|died|year|set|place
        sources/findmypast/zubrinic-2026-09-14.psv    surname|forename|born|died|year|set|place
        sources/findmypast/south-australia-bmd-2026-09-16.psv  kind|name|year|parents or spouse|district
+       sources/findmypast/electoral-rolls-2026-09-16.psv      given|year|occupation|address|sub|district|state|household
+       sources/findmypast/probes-2026-09-16.psv               kind|query|set|result|meaning
 Writes site/src/data/abroad.json
 """
 import json
@@ -80,6 +89,26 @@ def main():
         sa.append({"kind": KIND.get(kind, kind), "name": name, "year": year,
                    "rel": rel, "district": district})
 
+    rolls = []
+    for given, year, occ, addr, sub, district, state, house in rows_of(
+            os.path.join(FMP, "electoral-rolls-2026-09-16.psv"), 8):
+        rolls.append({"given": given, "year": year, "occupation": occ, "address": addr,
+                      "sub": sub, "district": district, "state": state, "household": house})
+
+    probes = []
+    for kind, query, rset, result, means in rows_of(
+            os.path.join(FMP, "probes-2026-09-16.psv"), 5):
+        n = int(result) if result.isdigit() else None
+        probes.append({"kind": kind, "query": query, "set": rset, "result": result,
+                       "n": n, "means": means, "zero": n == 0})
+
+    # An address repeated across roll years is a household standing still, which
+    # is a claim no single record makes.
+    addresses = {}
+    for r in rolls:
+        if r["address"]:
+            addresses.setdefault(r["address"], set()).add(r["year"])
+
     # The two spellings are the whole lesson: one family, two catches, and
     # neither query returns the other's records.
     spellings = {}
@@ -99,6 +128,8 @@ def main():
 
     recs.sort(key=lambda r: (r["year"] or "9999", r["surname"], r["name"]))
     sa.sort(key=lambda r: (r["year"] or "9999", r["name"]))
+    rolls.sort(key=lambda r: (r["address"], r["year"], r["given"]))
+    probes.sort(key=lambda r: (r["kind"], r["query"]))
 
     doc = {
         "note": ("The raw catch from the commercial indexes, harvested during a two-day "
@@ -114,6 +145,12 @@ def main():
             "latest": max(years) if years else None,
             "saEarliest": min(sayears) if sayears else None,
             "saLatest": max(sayears) if sayears else None,
+            "rolls": len(rolls),
+            "rollPeople": len({r["given"] for r in rolls}),
+            "rollYears": sorted({r["year"] for r in rolls}),
+            "probes": len(probes),
+            "probeZeros": sum(1 for r in probes if r["zero"]),
+            "sharedAddresses": sum(1 for v in addresses.values() if len(v) > 1),
         },
         "spellings": sorted(spellings.items(), key=lambda kv: -kv[1]),
         "topSets": top(sets, 14),
@@ -123,13 +160,17 @@ def main():
                           key=lambda kv: -kv[1]),
         "records": recs,
         "sa": sa,
+        "rolls": rolls,
+        "probes": probes,
     }
     with open(os.path.join(DATA, "abroad.json"), "w", encoding="utf-8") as fh:
         json.dump(doc, fh, ensure_ascii=False, indent=1)
         fh.write("\n")
     c = doc["counts"]
     print(f"abroad.json — {c['total']} index rows: {c['records']} FindMyPast "
-          f"({c['earliest']}–{c['latest']}) and {c['sa']} South Australian civil entries")
+          f"({c['earliest']}–{c['latest']}) and {c['sa']} South Australian civil entries; "
+          f"{c['rolls']} electoral-roll transcripts and {c['probes']} searches "
+          f"({c['probeZeros']} of them zeros)")
     return 0
 
 
