@@ -82,3 +82,18 @@ on twenty-five siblings against two in the GEDCOM, not on the corpus scan.
 **And the reasoning for keeping Subrinic was confirmed rather than overturned**: folding is
 allowed to miss and not allowed to join, and there was no Subrinic family for it to join
 anything to. The fix removes the *accident*, not the judgement.
+
+---
+
+## Done, and it came out as written
+
+**21 September 2026.** The fleet rollout landed the fixed kit (pin
+`2665be5e`). `namefold.py --root site --all` re-run against it:
+
+**One `?` proposal where there were two.** *Blasevic* still waiting on a human;
+**Subrinic gone from the clusters entirely**, and one line out of `namefold.json`.
+Nothing else in the map moved.
+
+**The prediction in the section above was the point of writing it.** A note that
+says what will happen when somebody else's change lands is checkable when it does,
+and this one was.
