@@ -50,6 +50,11 @@ SETTLED = {
     "Maria Žubrinić":
         "1858 is a common year for this name; no candidate has Magdalena "
         "Glavinić as a mother",
+    "Joanna Perpić":
+        "resembles Joanna Kalanj 1875, and the resemblance is a given name and "
+        "one year apart. Different surname, and a different father — Joannes "
+        "Perpić of Krivi Put against Ivan Kalanj. The parents are the test and "
+        "they fail it",
     "Maria Rosaria Antic":
         "ahnentafel 24 has no children published at all, so there is nothing "
         "to match her against; the name-and-year candidates are other families",
