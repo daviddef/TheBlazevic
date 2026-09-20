@@ -1,0 +1,401 @@
+{
+ "note": "The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are outside this archive's eight published surnames, so they appear in no people.json and on no family page. The living rule is applied here: anyone who may be alive is named and carries no date.",
+ "counts": {
+  "people": 10,
+  "living": 2,
+  "lostIn1943": 3,
+  "earliest": 1841
+ },
+ "lostIn1943": [
+  "@I504978@",
+  "@I506274@",
+  "@I506275@"
+ ],
+ "people": [
+  {
+   "id": "@I504979@",
+   "name": "Martin Martinus Kosina",
+   "surname": "Kosina",
+   "born": "1841",
+   "bornPlace": "",
+   "died": "",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I506393@",
+     "name": "Gertruda"
+    }
+   ],
+   "spouses": [
+    {
+     "id": "@I504980@",
+     "name": "Angelika Boras",
+     "married": "",
+     "place": ""
+    }
+   ],
+   "children": [
+    {
+     "id": "@I504981@",
+     "name": "Antonius Joannes \"Antun\" Kosina"
+    },
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    }
+   ],
+   "siblings": []
+  },
+  {
+   "id": "@I504981@",
+   "name": "Antonius Joannes \"Antun\" Kosina",
+   "surname": "Kosina",
+   "born": "13 MAY 1891",
+   "bornPlace": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
+   "died": "22 MAY 1925",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504979@",
+     "name": "Martin Martinus Kosina"
+    },
+    {
+     "id": "@I504980@",
+     "name": "Angelika Boras"
+    }
+   ],
+   "spouses": [
+    {
+     "id": "@I504982@",
+     "name": "Anka Kasunic",
+     "married": "",
+     "place": ""
+    }
+   ],
+   "children": [],
+   "siblings": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I504978@",
+   "name": "Pavao Kosina",
+   "surname": "Kosina",
+   "born": "15 MAR 1894",
+   "bornPlace": "Senj, Croatia",
+   "died": "8 OCT 1943",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504979@",
+     "name": "Martin Martinus Kosina"
+    },
+    {
+     "id": "@I504980@",
+     "name": "Angelika Boras"
+    }
+   ],
+   "spouses": [
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević",
+     "married": "",
+     "place": ""
+    }
+   ],
+   "children": [
+    {
+     "id": "@I506274@",
+     "name": "Otilija Kosina"
+    },
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    },
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I506275@",
+     "name": "Neda Kosina"
+    },
+    {
+     "id": "@I506336@",
+     "name": "Krizan Kosina"
+    }
+   ],
+   "siblings": [
+    {
+     "id": "@I504981@",
+     "name": "Antonius Joannes \"Antun\" Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I506274@",
+   "name": "Otilija Kosina",
+   "surname": "Kosina",
+   "born": "1920",
+   "bornPlace": "",
+   "died": "1943",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    },
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević"
+    }
+   ],
+   "spouses": [],
+   "children": [],
+   "siblings": [
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    },
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I506275@",
+     "name": "Neda Kosina"
+    },
+    {
+     "id": "@I506336@",
+     "name": "Krizan Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I501774@",
+   "name": "Antun Anton Kosina",
+   "surname": "Kosina",
+   "born": "11 FEB 1921",
+   "bornPlace": "",
+   "died": "23 JUN 2003",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    },
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević"
+    }
+   ],
+   "spouses": [],
+   "children": [
+    {
+     "id": "@I506270@",
+     "name": "Paula Kosina"
+    }
+   ],
+   "siblings": [
+    {
+     "id": "@I506274@",
+     "name": "Otilija Kosina"
+    },
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I506275@",
+     "name": "Neda Kosina"
+    },
+    {
+     "id": "@I506336@",
+     "name": "Krizan Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I506276@",
+   "name": "Oskar Kosina",
+   "surname": "Kosina",
+   "born": "4 SEP 1922",
+   "bornPlace": "Senj, Croatia",
+   "died": "1954",
+   "diedPlace": "Beunos Aires, Argentina",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    },
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević"
+    }
+   ],
+   "spouses": [
+    {
+     "id": "@I510796@",
+     "name": "(unnamed)",
+     "married": "",
+     "place": ""
+    }
+   ],
+   "children": [
+    {
+     "id": "@I510795@",
+     "name": "Ivan Christian Kosina"
+    }
+   ],
+   "siblings": [
+    {
+     "id": "@I506274@",
+     "name": "Otilija Kosina"
+    },
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    },
+    {
+     "id": "@I506275@",
+     "name": "Neda Kosina"
+    },
+    {
+     "id": "@I506336@",
+     "name": "Krizan Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I506275@",
+   "name": "Neda Kosina",
+   "surname": "Kosina",
+   "born": "1924",
+   "bornPlace": "",
+   "died": "7 SEP 1943",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    },
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević"
+    }
+   ],
+   "spouses": [],
+   "children": [],
+   "siblings": [
+    {
+     "id": "@I506274@",
+     "name": "Otilija Kosina"
+    },
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    },
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I506336@",
+     "name": "Krizan Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I506336@",
+   "name": "Krizan Kosina",
+   "surname": "Kosina",
+   "born": "3 MAY 1940",
+   "bornPlace": "",
+   "died": "22 JAN 1941",
+   "diedPlace": "",
+   "living": false,
+   "parents": [
+    {
+     "id": "@I504978@",
+     "name": "Pavao Kosina"
+    },
+    {
+     "id": "@I189@",
+     "name": "Anka Blažević"
+    }
+   ],
+   "spouses": [],
+   "children": [],
+   "siblings": [
+    {
+     "id": "@I506274@",
+     "name": "Otilija Kosina"
+    },
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    },
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I506275@",
+     "name": "Neda Kosina"
+    }
+   ]
+  },
+  {
+   "id": "@I510795@",
+   "name": "Ivan Christian Kosina",
+   "surname": "Kosina",
+   "born": "",
+   "bornPlace": "",
+   "died": "",
+   "diedPlace": "",
+   "living": true,
+   "parents": [
+    {
+     "id": "@I506276@",
+     "name": "Oskar Kosina"
+    },
+    {
+     "id": "@I510796@",
+     "name": "(unnamed)"
+    }
+   ],
+   "spouses": [],
+   "children": [],
+   "siblings": []
+  },
+  {
+   "id": "@I506270@",
+   "name": "Paula Kosina",
+   "surname": "Kosina",
+   "born": "",
+   "bornPlace": "",
+   "died": "",
+   "diedPlace": "",
+   "living": true,
+   "parents": [
+    {
+     "id": "@I501774@",
+     "name": "Antun Anton Kosina"
+    }
+   ],
+   "spouses": [],
+   "children": [],
+   "siblings": []
+  }
+ ]
+}

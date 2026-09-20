@@ -1,0 +1,203 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import K from "../data/kosina.json";
+// The Kosina are outside this archive's eight published surnames, so they appear
+// in no people.json and on no generated family page. Everything here comes from
+// data/kosina.json, which tools/kosina.py builds from the GEDCOM — and which
+// applies the living rule itself, so a person who may be alive carries no date
+// in the data at all, not merely on the page.
+const by = Object.fromEntries(K.people.map((p) => [p.id, p]));
+const C = K.counts;
+const name = (id) => (by[id] || {}).name || "";
+const lost = K.lostIn1943.map((id) => by[id]);
+const line = (id) => { const p = by[id]; if (!p) return ""; 
+  return p.living ? "" : [p.born, p.died].filter(Boolean).join(" – "); };
+const martin = K.people.find((p) => p.name.includes("Martin"));
+const pavao = K.people.find((p) => p.name === "Pavao Kosina");
+const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
+---
+<Base title="The Kosina"
+  eyebrow="Senj — and two of this archive's eight surnames meet in one household"
+  dek={`Ten people, four generations, and an autumn that took three of them. The Kosina are not one of the surnames this archive publishes, so until today they appeared on no page of it — which is the wrong way round, because Hedviga's own aunt married into them.`}>
+
+  <section class="blk">
+    <div class="grid three">
+      <div class="stat"><div class="n">{C.people}</div><div class="l">people</div></div>
+      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth</div></div>
+      <div class="stat"><div class="n">{C.lostIn1943}</div><div class="l">dead in 1943</div></div>
+    </div>
+    <p class="lede">This archive publishes <strong>eight surnames</strong>, and Kosina is not one of
+    them. So ten people who belong to this family as closely as anyone in it have had no page, no
+    entry and no descent drawn — <strong>scattered instead across a bombing raid, a Boras marriage
+    and one line at the foot of somebody else's gravestone.</strong></p>
+    <p><strong>They reach this family twice over.</strong> <strong>Pavao Kosina</strong> married
+    <a href={u("/people/anka-blazevic/")}><strong>Anka Blažević</strong></a> — daughter of
+    <a href={u("/direct-line/")}>ahnentafel 4 and 5</a>, and therefore <strong>Hedviga's own
+    aunt</strong>, her father's sister. And Pavao's mother was <strong>Angelika Boras</strong>,
+    through whom <a href={u("/boras/")}>the Boras</a> reach this archive at all.
+    <strong>Two of the eight meet in this household.</strong></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">1857 · Senj marriages, entry 52</div>
+    <h2>It begins with a marriage in a front room</h2>
+    <p class="lede">Before there is a Kosina here there is a <strong>Boras</strong>, and their own
+    beginning is one of the more human entries in this archive.</p>
+    <blockquote class="note"><em>Caelebs <strong>Josephus Boras</strong>, filius Denatorum Josephi
+    et Annae Boras natae <strong>Butvalz</strong> — cum <strong>Vidua Maria</strong> … in
+    <strong>domo privata</strong> copulate fuere.</em><br />
+    <span class="dek">Senj marriages, <strong>9 February 1857</strong>, entry 52. Ages 32 and 28.</span></blockquote>
+    <p style="margin-top:1.2rem">They married <strong>in a private house</strong>, by dispensation
+    of the bishop. He is entered a <em>bachelor</em>, she a <strong>widow</strong> — and they
+    already had <strong>three children</strong>. It is a <strong>legitimation</strong>: a union of
+    some years put right in a front room under episcopal licence.</p>
+    <p><strong>Angelika Boras follows the marriage</strong>, later in 1857. She is the one who
+    becomes a Kosina, and she died in <strong>1902</strong> — before her son married, and forty-one
+    years before the raid.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Four generations</div>
+    <h2>The descent, as the tree has it</h2>
+    <table class="reg">
+      <thead><tr><th style="width:26%">Who</th><th style="width:22%">Lived</th>
+        <th>In this household</th></tr></thead>
+      <tbody>{K.people.map((p) => (
+        <tr>
+          <td><strong>{p.name}</strong>
+            {p.living && <span class="dek" style="display:block">living — named only, no dates published</span>}</td>
+          <td class="dek mono">{p.living ? "—" : ([p.born, p.died].filter(Boolean).join(" – ") || "—")}
+            {!p.living && p.bornPlace && <span class="dek" style="display:block">b. {p.bornPlace}</span>}
+            {!p.living && p.diedPlace && <span class="dek" style="display:block">d. {p.diedPlace}</span>}</td>
+          <td class="dek">
+            {p.parents.length > 0 && <span style="display:block">child of {p.parents.map((x) => x.name).join(" and ")}</span>}
+            {p.spouses.length > 0 && <span style="display:block">married {p.spouses.map((x) => x.name).join(", ")}</span>}
+            {p.children.length > 0 && <span style="display:block">{p.children.length} {p.children.length === 1 ? "child" : "children"}</span>}
+          </td>
+        </tr>
+      ))}</tbody>
+    </table>
+    <div class="note" style="margin-top:1.2rem"><strong>The line stops at Martin.</strong>
+    {martin && <span> <strong>{martin.name}</strong>, born <strong>{martin.born}</strong>, has
+    <strong>no father in the tree</strong> — only a mother, <em>Gertruda</em>, with no dates of her
+    own.</span>} Senj baptisms are filmed from 1734, so a man born in 1841 is well inside the book.
+    <strong>Nobody has opened it for him.</strong> <a href={u("/worklist/")}>The work list →</a></div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">1919</div>
+    <h2>Anka Blažević marries Pavao Kosina</h2>
+    <p class="lede">On <strong>20 November 1919</strong>, at Senj. She was a
+    <a href={u("/senj/")}>tobacco-factory</a> worker, as her sister-in-law
+    <a href={u("/milka/")}>Milka</a> was. She was born <strong>7 October 1893</strong>, the daughter
+    of Juraj Blažević and Tereza Žubrinić, and <strong>the sister of Hedviga's father</strong>.</p>
+    <p>Five children followed in the next five years, and then a long gap, and then one more:
+    {kids.map((k, i) => (<span>{i ? ", " : ""}<strong>{k.name.replace(" Kosina", "")}</strong>{
+      k.living ? "" : ` (${[k.born, k.died].filter(Boolean).join(" – ")})`}</span>))}.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">1940–1943 · thirteen months</div>
+    <h2>What happened to this household</h2>
+    <p class="lede">Read the dates in order and the page stops being a genealogy.</p>
+    <table class="kv">
+      <tr><th>22 January 1941</th><td><strong>Križan</strong>, born the previous May, dies at
+        <strong>eight months old</strong>.</td></tr>
+      <tr><th>7 September 1943</th><td><strong>Neda</strong> dies, aged nineteen —
+        <strong>a month before the raid</strong>, and this archive does not know of what.</td></tr>
+      <tr><th>7–8 October 1943</th><td>German aircraft bomb Senj, killing <strong>thirty local
+        residents</strong> and twenty-two others and destroying <strong>about half the town</strong>.</td></tr>
+      <tr><th>8 October 1943</th><td><strong>Pavao Kosina is killed</strong>, on the second day.</td></tr>
+      <tr><th>1943</th><td><strong>Otilija</strong> dies, aged twenty-three. <strong>No day is
+        recorded</strong>, so whether she died with her father is <em>not claimed here</em>.</td></tr>
+    </table>
+    <p style="margin-top:1.3rem"><strong>Three of a household of seven, inside thirteen months.</strong>
+    Anka outlived them all by a decade and died in <strong>1953</strong>.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The stone says it outright</div>
+    <h2>«Nevina žrtva»</h2>
+    <figure class="doc">
+      <img src={u("/photos/line/4505803-pavao-and-anka-kosina-grave.jpg")}
+           alt="The Kosina grave at Senj, naming Pavao Kosina as a victim of the air raid" loading="lazy" />
+      <figcaption>The Kosina plot, Senj. Three portrait medallions below the inscription.</figcaption>
+    </figure>
+    <blockquote class="note" style="margin-top:1.2rem">Ovdje počiva u miru Božjem<br />
+      <strong>PAVAO KOSINA</strong><br />
+      ✳ 15.III.1894. · <strong>pog. 8.X.1943.</strong><br />
+      <strong><em>Nevina žrtva zračnog napadaja na Senj</em></strong><br />
+      U znak sjećanja podiže — zahvalna supruga i sinovi</blockquote>
+    <p style="margin-top:1.2rem"><strong>“Here rests in God's peace Pavao Kosina, born 15 March
+    1894, <em>killed</em> 8 October 1943. An innocent victim of the air raid on Senj. Raised in
+    memory by his grateful wife and sons.”</strong></p>
+    <p><em>Pog.</em> is <strong><em>poginuo</em></strong> — the word kept for a violent death rather
+    than an ordinary one. <strong>The family did not merely record the date. They said what it
+    was</strong>, on stone, in a town that had just lost half its buildings.
+    <a href={u("/senj-1943/")}>The raid →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">After</div>
+    <h2>What the survivors did</h2>
+    <div class="grid two">
+      <div class="card">
+        <h3>Argentina</h3>
+        <p><strong>Oskar Kosina</strong>, born at Senj on 4 September 1922, died in
+        <strong>Buenos Aires in 1954</strong> — thirty-two years old, eleven years after the raid.
+        He left a son, <strong>Ivan Christian Kosina</strong>.</p>
+        <p class="dek">It is the second documented destination of this family after
+        <a href={u("/port-pirie/")}>Port Pirie</a>, and it fits: of the sixty-nine people in the
+        world spelling the name <em>Zubrinic</em>, twenty-nine are in Argentina.</p>
+      </div>
+      <div class="card">
+        <h3>Germany</h3>
+        <p><strong>Antun Kosina</strong> (1921–2003) — the eldest surviving son, the one who was
+        twenty-two when his father was killed — <strong>became a priest</strong>. His cross reads
+        <em><strong>vlč.</strong></em>, <em>velečasni</em>: Reverend.</p>
+        <p>His daughter <strong>Paula Kosina</strong> was born in <strong>Germany</strong>.
+        <span class="dek">She may be living, so this archive publishes her name and no date.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">1991 · forty-eight years later</div>
+    <h2>And then a Kosina went back and mended a grave</h2>
+    <p class="lede">In the Senj cemetery stands the stone of <strong>Tereza Žubrinić</strong>
+    (1867–1931), <a href={u("/direct-line/")}>ahnentafel 5</a> — Anka's mother, Hedviga's
+    grandmother, and <strong>Antun Kosina's grandmother</strong>.</p>
+    <blockquote class="note">OVDJE POČIVAJU U MIRU BOŽJEM …<br />
+      <span class="dek">and at the foot:</span><br />
+      <strong>OBNOVIO POP ANTE KOSINA ~ 1991</strong></blockquote>
+    <p style="margin-top:1.2rem"><strong>“Restored by Fr. Ante Kosina, 1991.”</strong></p>
+    <p>The son of the man killed in 1943 — by then a priest in his seventies — <strong>went back and
+    had his grandmother's stone repaired</strong>, and put his name on it as the man who did it.
+    <strong>That line is the only reason the name Kosina was anywhere in this archive's own
+    records</strong> before today: a footnote on somebody else's grave, read off a photograph in
+    October 2024.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What is not known, and is worth asking for</h2>
+    <table class="kv">
+      <tr><th>Martin's father</th><td>Martin Kosina, b. 1841, has <strong>no father in the
+        tree</strong> — only <em>Gertruda</em>. Senj baptisms are filmed from 1734 and nobody has
+        looked.</td></tr>
+      <tr><th>Otilija's day</th><td>1943, <strong>no day</strong>. Whether she died in the raid with
+        her father is the single most wanted fact on this page, and the <strong>Senj death register
+        on film stops in 1907</strong> — so it is a civil-register request, not a film read.</td></tr>
+      <tr><th>Neda, September 1943</th><td>Dead at nineteen, <strong>a month before the
+        bombing</strong>. No cause, no place.</td></tr>
+      <tr><th>The elder Antun</th><td>Antonius Joannes Kosina (1891–1925) married
+        <strong>Anka Kasunić</strong>, who is a name and nothing else here. He died at
+        <strong>thirty-four</strong>.</td></tr>
+      <tr><th>Oskar's wife</th><td><strong>Unnamed in the tree</strong>, though their son is in it.
+        Buenos Aires, before 1954.</td></tr>
+    </table>
+    <p class="dek" style="margin-top:1.2rem">Built by <span class="mono">tools/kosina.py</span> from
+    the family tree, with the living-person rule applied in the data rather than the template.
+    <a href={u("/worklist/")}>The work list row that governs this page →</a></p>
+  </section>
+</Base>
