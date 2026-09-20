@@ -66,13 +66,13 @@ Novi Vinodolski|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|168
 Krmpote|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1880-1894 observed|matches the film, which begins 1879 and not 1815 as the catalogue says
 Smiljan|Hungary, Croatia-Slavonia, Births, from 1653 to 1922|baptism|1834-1857 observed|too late for ahnentafel 426, a generation of about 1700
 Grižane|Croatia, Church Books, 1516-1994|baptism|1854 observed|one hit; treat as untested, not as coverage
-Selce|—|none|1680s 1780s 1850s 1900s + 1700s 1800s 1860s|NOTHING, under Antić, Papić, Jelličić and Lončarić — re-tested by window 20 Sept
-Brinje|—|none|1700s 1800s 1860s|NOTHING, under Kalanj and Marić, tested by window 20 Sept
-Ledenice|—|none|1730s 1800s 1850s|NOTHING, under Blažević and Tomljanović, tested by window 20 Sept — row 33's book is unreachable by index
-Bribir|—|none|1700s 1800s 1860s|NOTHING, under Car and Antić, tested by window 20 Sept
-Sinac|—|none|1700s 1800s 1860s|NOTHING, under Žubrinić and Marić, tested by window 20 Sept
-Gospić|—|none|1700s 1800s 1860s|NOTHING, under Marić and Prpić, tested by window 20 Sept
-Smokvica|—|none|1730s 1800s 1850s|NOTHING under Blažević — the Blažević home village is not indexed at all
+Selce|Croatia, Church Books, 1516-1994|baptism|place-only, 1700-1899|FIVE entries, 1803-1844, not zero. Place string is bare «Selce, Croatia» — WHICH Selce is unconfirmed. The surname probe missed them: this row said «tested under Antić» and one of the five is «Margaritam ANTICH, 7 Nov 1844»
+Brinje|—|none|1700s 1800s 1860s + place-only 1700-1899|NOTHING. Re-confirmed 20 Sept by place-only probe, which names no surname at all — so this zero is not a spelling artefact
+Ledenice|Croatia, Church Books, 1516-1994|baptism|place-only, 1700-1899|FOUR entries in two centuries — 1748, 1749, 1845, 1888 — so not zero, but not a register either. Row 33 stays a film read IN PRACTICE. The 1888 one is «Marija Milka, 16 May 1888, Luka Kalanj × Kata», who IS in the tree with the year alone
+Bribir|Croatia, Church Books, 1516-1994|death|place-only, narrow windows 1750-1839|WRONG BEFORE. «Bribir, Primorsko-goranska» has a real indexed DEATH register — 80+ records found, deaths dated 1843-1855 — plus baptisms 1858-1876. BEWARE: a wide window returns «Bribir, Šibenik», a different place 200km away, and it outranks ours 593 to 7
+Sinac|—|none|1700s 1800s 1860s + place-only 1700-1899|NOTHING. Re-confirmed 20 Sept by place-only probe
+Gospić|—|none|1700s 1800s 1860s + place-only 1700-1899|NOTHING. Re-confirmed 20 Sept by place-only probe
+Smokvica|—|none|1730s 1800s 1850s + place-only|NOTHING for OUR Smokvica. A place-only probe returns ten burials at «Smokvica, Mestna občina Koper, SLOVENIA» — a different village in a different country. The Blažević home village is still not indexed at all
 #
 # 20 SEPTEMBER 2026, SECOND PASS. Every row that said «broad only» has been
 # re-tested with the date-window method this file demands, under two surnames
@@ -85,3 +85,43 @@ Smokvica|—|none|1730s 1800s 1850s|NOTHING under Blažević — the Blažević 
 # reached from a search box and row 33 is a film read. The indexing in this
 # archive's country is a KARLOBAG-OTOČAC-SENJ phenomenon: the mother's side
 # is searchable and the father's side is not.
+#
+# ====================================================================
+# 20 SEPTEMBER 2026, THIRD PASS — AND THE ZEROS ABOVE WERE NOT ALL ZEROS
+# ====================================================================
+#
+# Everything above was measured with a SURNAME. Hours later, ahnentafel 52's
+# baptism was found at Karlobag filed under «Piberich» — a surname that occurs
+# exactly once in the parish and is one clerk's reading of one hand. If a
+# surname can hide a person, it can hide a PARISH, and every zero in this file
+# was produced by naming two surnames and seeing nothing come back.
+#
+# SO THE ZEROS WERE RE-TESTED WITH A PROBE THAT NAMES NO SURNAME AT ALL:
+# q.anyPlace plus a date window, counting only the rows whose returned place
+# string actually matches. Controls first — Karlobag and Senj return 100 of 100
+# in every window, so the instrument works.
+#
+#   Bribir     WRONG.  80+ indexed deaths and baptisms to 1876
+#   Selce      WRONG.  five baptisms 1803-1844
+#   Ledenice   WRONG in letter, right in practice. four entries in two centuries
+#   Brinje     zero confirmed
+#   Sinac      zero confirmed
+#   Gospić     zero confirmed
+#   Smokvica   zero confirmed for OUR Smokvica
+#
+# TWO WAYS THIS PROBE LIES, and both were caught here rather than published:
+#
+#   IT RETURNS THE WRONG VILLAGE. «Bribir» is two places — ours in Primorsko-
+#   goranska and one near Šibenik — and the Šibenik one outranks ours 593 to 7.
+#   «Smokvica» returned a Slovenian village near Koper. ALWAYS READ THE PLACE
+#   STRING BACK; never trust the query you sent.
+#
+#   IT HAS FALSE NEGATIVES OF ITS OWN. A place-only probe of KRMPOTE returned
+#   zero in every window — and this archive holds an indexed Krmpote-Vodice
+#   baptism of 1895 found the same day by surname. The row above stands. Neither
+#   probe is authoritative alone; a zero means «not found by this instrument».
+#
+# WHAT DOES NOT CHANGE. The headline below still holds, and Selce is the reason
+# it is worth restating rather than deleting: the Blažević side is unindexed and
+# the mother's side is searchable. What changes is that «unindexed» was too
+# strong for three parishes, and one of them holds ahnentafel 12, 24 and 25.
