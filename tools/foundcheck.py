@@ -53,6 +53,16 @@ SETTLED = {
     # The four below arrived on 21 September with the Kosina research. Every one
     # resembles somebody only in a GIVEN NAME and a year; not one shares a
     # surname or a parent, which is the test this file applies everywhere else.
+    # 21 September 2026, from the Carniolan registers. A Slovene cottager's wife
+    # at Kranj in 1836 against four Croatian women of the same given name and
+    # year, three of them Žubrinić. Nothing but «Lucia» and «1836» is shared,
+    # and the 1836 on her row is the year she is NAMED AS A MOTHER, not her birth.
+    "Lucia Labornik":
+        "a Slovene Häusler's wife at Kranj-Šmartin, named as a mother in 1836 — "
+        "the year on the row is the register entry, not her birth, so she will "
+        "have been born around 1810. The candidates are Lucia Mlinarich and three "
+        "Lucia Žubrinić of 1835-36 in Croatia: a shared given name, a shared year "
+        "that means different things, and no shared surname, parent or parish",
     "Marija Kosina":
         "resembles Marija Anka Kalanj 1897 and Marija Papić 1896 on a given name "
         "and a year. Different surname and different parents — hers are Martin "

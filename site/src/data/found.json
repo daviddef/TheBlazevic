@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 64,
+ "count": 67,
  "onDirectLine": 2,
  "places": {
   "Buenos Aires": 3,
@@ -11,7 +11,9 @@
   "Prozor, Otočac": 2,
   "Selce": 2,
   "Senj": 5,
-  "Šumećica, Otočac": 2
+  "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 1,
+  "Šumećica, Otočac": 2,
+  "župnija Kranj-Šmartin": 2
  },
  "rows": [
   {
@@ -589,6 +591,33 @@
    "date": "30 November 1928",
    "place": "Buenos Aires",
    "citation": "CEMLA - \"KOSINA IVAN, 27, S, YUGOSLAVA/S.H.S., VELIC, AGRICULTOR, 1928/11/30, GRAL. BELGRANO, HAMBURGO\". Born about 1901 and single. He is NOT Ivan Christian, Oskar's son, who was born in Argentina after October 1947 - the archive checked because the names collide"
+  },
+  {
+   "name": "Gertraud \"Gertruda\" Kosina",
+   "ahn": null,
+   "relation": "MOTHER OF MARTIN KOZINA - not in the tree at all",
+   "event": "named as parent",
+   "date": "16 November 1841",
+   "place": "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin",
+   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870, book p.64 - \"Gertraud Kosina, hueblnn. Tochter\", entered as the ONLY parent of Martin, born and baptised 16 November 1841; THE VATER COLUMN IS BLANK and the tick is in the UNEHELICH column. She is a Haeusler's daughter. In 1836 she stands godmother on the same register (book p.33) as \"Gertraud Kosina, Haeuslerstochter\". Forty-seven years later the Senj marriage of 12 January 1888 names her again - \"Gertruda Kozina, posjednica\" - with a dash where Martin's father belongs. TWO REGISTERS, TWO COUNTRIES, THE SAME ABSENCE. Matricula, NSAL sig. 00886, image 65"
+  },
+  {
+   "name": "Josef Kosina",
+   "ahn": null,
+   "relation": "Haeusler at Kranj-Smartin, possible father or brother of Gertraud - UNPROVEN",
+   "event": "named as parent",
+   "date": "1836",
+   "place": "župnija Kranj-Šmartin",
+   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870, book p.33 - \"Josef Kosina, Haeublnr\" with wife \"Lucia Labornik\", parents of a child baptised 1836 (index entry 55, Johan Kozina). A MARRIED Kosina household in the same small parish in the same decade. Gertraud is entered as a \"Haeuslerstochter\" and Josef is a Haeusler, so a father-daughter or brother-sister link is LIKELY AND NOT ESTABLISHED. Nothing joins them yet. Matricula, NSAL sig. 00886, image 34"
+  },
+  {
+   "name": "Lucia Labornik",
+   "ahn": null,
+   "relation": "wife of Josef Kosina",
+   "event": "named as parent",
+   "date": "1836",
+   "place": "župnija Kranj-Šmartin",
+   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870, book p.33 - entered as mother beside \"Josef Kosina, Haeublnr\". Matricula, NSAL sig. 00886, image 34"
   }
  ]
 }

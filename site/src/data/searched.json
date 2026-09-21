@@ -12,7 +12,7 @@
   "nothing": 16,
   "partial": 20,
   "pending": 6,
-  "yield": 60
+  "yield": 61
  },
  "read": [
   {
@@ -329,6 +329,22 @@
   }
  ],
  "rows": [
+  {
+   "src": "Matricula Online — Nadškofijski arhiv Ljubljana, parish of Kranj–Šmartin",
+   "key": "web/matricula-kranj-smartin",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/",
+   "what": "Martin Kozina's baptism, c. 1841, in the parish the Senj marriage named",
+   "when": "21 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "baptism",
+    "web"
+   ],
+   "got": "**FOUND, AND IT NAMES THE GENERATION THIS TREE DID NOT HAVE.** The Senj marriage of 1888 gave «Kranjska župa sv. Martin kod Krainburg» and the trail stopped at the border. It did not have to: the **Nadškofijski arhiv Ljubljana** publishes its registers on **Matricula**, free and without a login, and the parish is there as **Kranj – Šmartin**.\n\n**The index** (sig. 04632, image 246, letter K) gives **«104 — Martin Kozina — 64»** under **1841**. **The register** (sig. 00886, book page 64 = image 65) gives the entry:\n\n**Born AND baptised 16 November 1841**, at **Oberfeichting — Zgornje Bitnje — house 9**; katholisch, Knaben; **the tick is in the UNEHELICH column**; **the Vater column is BLANK**; the mother is **«Gertraud Kosina, hüblnn. Tochter»**, a Häusler's daughter; godparents **Lorenz Pizz** and **Maria Kashar**; baptised by **Blas. Ulzhar, Coop.**\n\n**Two registers, two countries, forty-seven years, the same absence.** Kranj 1841: no father, «Gertraud Kosina». Senj 1888: a dash, «Gertruda Kozina, posjednica». **The gap in the tree is what the priest wrote down, twice, because there was nothing else to write.** And she rose: a cottager's daughter in 1841, a property-owner by 1888, and with no dagger against her name that year.\n\n**There is a Kozina household in the same parish and it is NOT proven to be hers**: book page 33, 1836, «Josef Kosina, Häusler» and «Lucia Labornik» — with «Gertraud Kosina, Häuslerstochter» standing godmother lower on the same leaf. The index also shows Anton (1834), Johan (1836), Franz (1853) and Ana (1856). **The name is local.**\n\n**Still open in the same free books**: Gertraud's own baptism (sig. 04631, index 1812–1831), her death (sig. 04635, 1836–1869), and whether Josef is her father. **The scans are the archdiocese's and are linked rather than republished.**"
+  },
   {
    "src": "Bojničić, Der Adel von Kroatien und Slavonien (1899), and Plemiška heraldika na Slovenskem",
    "key": "web/kosina-heraldry",

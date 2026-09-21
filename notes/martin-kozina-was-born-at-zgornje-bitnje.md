@@ -1,0 +1,90 @@
+# Martin Kozina was born at Zgornje Bitnje on 16 November 1841, and the register says «unehelich»
+
+**21 September 2026.** The Senj marriage of 12 January 1888 gave the parish — *«Kranjska župa
+sv. Martin kod Krainburg»* — and this archive had gone no further, because Croatian registers
+end at the border.
+
+**They do not have to.** The **Nadškofijski arhiv Ljubljana** has put the registers of the
+Ljubljana archdiocese on **Matricula Online**, free and without a login, and the parish is
+there under its own name: **Kranj – Šmartin**.
+
+## The two entries, and how they were found
+
+**1. The baptismal index**, Kranj–Šmartin 1832–1870 (NŠAL sig. **04632**, image **246**, the
+letter **K**):
+
+> **104 — Martin Kozina — 64**, under the year **1841**
+
+**2. The baptismal register itself**, Kranj–Šmartin 1832–1870 (NŠAL sig. **00886**), **book
+page 64** — which is **image 65**, the book's pagination running one behind the scan sequence:
+
+| column | what it says |
+|---|---|
+| **Monath und Tag** | **born 16 November, baptised 16 November** — the same day |
+| **Geburtsort** | **Oberfeichting** — **Zgornje Bitnje**, west of Kranj |
+| **Haus Nro** | **9** |
+| **Nahmen des Täuflings** | **Martin** |
+| Religion / Geschlecht | katholisch · **Knaben** |
+| **Ehelich / Unehelich** | **the tick is in UNEHELICH** |
+| **Vater** | **BLANK** |
+| **Mutter** | **«Gertraud Kosina, hüblnn. Tochter»** — a **Häusler's daughter** |
+| **Pathen** | **Lorenz Pizz** and **Maria Kashar** |
+| Priester | **Blas. Ulzhar, Coop.** |
+
+## What it settles
+
+**The tree said «Martin Kosina, b. 1841» and nothing else.** It now says the sixteenth of
+November, at a named house in a named village, and it says why the father's line was always
+empty.
+
+**AND THE TWO REGISTERS AGREE ACROSS FORTY-SEVEN YEARS AND AN INTERNATIONAL BORDER.**
+
+> **Kranj, 1841:** *Vater* — blank. *Mutter* — **Gertraud Kosina**.
+> **Senj, 1888:** a dash where the groom's father belongs. **«Gertruda Kozina, posjednica.»**
+
+**The gap in this family tree is not a gap in this family tree. It is what the parish priest
+wrote down, twice, in two languages, because there was nothing else to write.** A 47-year-old
+merchant marrying in a Croatian port named his mother and could not name his father, and the
+priest at Kranj had recorded exactly the same absence on the day he was born.
+
+**And she rose.** In 1841 she is a *Häuslerstochter* — a cottager's daughter, the bottom of the
+land-holding order. By 1888 her son describes her to a Croatian priest as a ***posjednica***, a
+property-owner. **There is no dagger against her name in 1888**, which suggests she was still
+alive, in her seventies, when Martin married.
+
+## There is a Kozina household in the same parish, and it is not proven to be hers
+
+On **book page 33**, in **1836**, the register carries:
+
+> **Vater: «Josef Kosina, Häusler»** · **Mutter: «Lucia Labornik»**
+
+and, lower on the same leaf, **«Gertraud Kosina, Häuslerstochter» standing as a godmother**.
+
+**A married Kosina cottager, and an unmarried Kosina cottager's daughter, in one small parish in
+one decade.** Josef is a *Häusler*; Gertraud is a *Häuslerstochter*. **A father-and-daughter or
+a brother-and-sister reading is likely and it is not established**, and all three are in
+`sources/found.psv` as exactly that.
+
+The index also shows **Anton Kozina (1834)**, **Johan Kozina (1836)**, **Franz Kozina (1853)**
+and **Ana Kozina (1856)** in this parish. **The name is local. Martin did not come from nowhere.**
+
+## Why the scans are not republished here
+
+The images belong to the **Nadškofijski arhiv Ljubljana** and are served by **Matricula**. This
+archive republishes what it is entitled to republish and links to the rest, so the entries are
+transcribed above and the books are two clicks away:
+
+* index — `data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/04632/`, image **246**
+* register — `data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00886/`, image **65**
+
+**If the licence turns out to allow it, one crop of that single row is the most valuable
+photograph this family could put on a wall.**
+
+## What is next, and it is all in the same free books
+
+1. **Gertraud's own baptism.** A *Häuslerstochter* bearing a child in 1841 was probably born
+   between 1810 and 1825 — **sig. 04631, the index for 1812–1831**, covers it.
+2. **Gertraud's death.** **Sig. 04635**, the death index 1836–1869, then the later volumes.
+3. **Whether Josef is her father**, which his household's own entries would show.
+4. **Martin's leaving.** He was a *trgovac* in Senj by 1888. Between 1841 and 1888 there is a
+   young man crossing from Carniola to the Adriatic, and nothing yet says when or why.
