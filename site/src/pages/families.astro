@@ -1,28 +1,41 @@
 ---
 import Base from "../layouts/Base.astro";
+import Families from "@daviddef/archive-kit/components/Families.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
+
+/* 22 September 2026. The card is the kit's. What this archive can put behind
+   the claim is NOT people — it has no member list — so it gives what it does
+   have: a count, the span of birth years, how many spellings the registers
+   use for the name, and the chief place. D'Arcy names the people; Falco
+   draws the marriages generation by generation. Three archives, one
+   argument, three kinds of evidence, and the component requires none of them.
+
+   The four that ARE Hedviga's grandparents link to their own pages and the
+   four that married in do not, because only the first four have one. */
+const OURS = ["blazevic", "zubrinic", "papic", "prpic"];
+const groups = [{
+  rows: families.map((f) => ({
+    label: f.label,
+    href: OURS.includes(f.slug) ? `/${f.slug}/` : null,
+    hrefLabel: OURS.includes(f.slug) ? "The family" : null,
+    gloss: f.dek,
+    count: f.count,
+    countLabel: "people",
+    facts: [
+      ["Births span", `${f.earliest ?? "?"} – ${f.latest ?? "?"}`],
+      ["Spellings", String(f.spellings.length)],
+      ["Chief place", f.places[0] ? f.places[0][0] : "—"],
+    ],
+  })),
+}];
 ---
 <Base title="The Families"
   eyebrow="Eight surnames"
   dek="The four that make Hedviga's grandparents, and four more that married into them. Counts are of published people only — the living are not here."
 >
   <section class="blk">
-    <div class="grid two">
-      {families.map((f) => (
-        <div class="card">
-          <h3>{["blazevic","zubrinic","papic","prpic"].includes(f.slug)
-            ? <a href={u(`/${f.slug}/`)}>{f.label}</a> : f.label}</h3>
-          <p class="dek">{f.dek}</p>
-          <table class="kv tight">
-            <tr><th>People</th><td class="mono">{f.count}</td></tr>
-            <tr><th>Births span</th><td class="mono">{f.earliest ?? "?"} – {f.latest ?? "?"}</td></tr>
-            <tr><th>Spellings</th><td class="mono">{f.spellings.length}</td></tr>
-            <tr><th>Chief place</th><td class="dim">{f.places[0] ? f.places[0][0] : "—"}</td></tr>
-          </table>
-        </div>
-      ))}
-    </div>
+    <Families groups={groups} u={u} html={false} />
   </section>
   <section class="blk">
     <p class="note">Kalanj, Vukelić, Boras and Šestan are here because they married into the line
