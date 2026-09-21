@@ -1,54 +1,33 @@
 ---
 import Base from "../layouts/Base.astro";
+import Shotlist from "@daviddef/archive-kit/components/Shotlist.astro";
 import { u } from "../lib/url.js";
+import data from "../data/photograph-these.json";
 
-const JOBS = [
-  { where: "Senj — the cemetery at sv. Vid", pri: "first",
-    what: [
-      "The Blažević grave: Ljubomir 1892–1966, Milka 1886–1971, Oto 1923–1945, Mario 1933–1984. Photograph the whole stone and each line close.",
-      "Tereza Žubrinić's stone, 1867–1931, restored by the Kosina family in 1991, with the wooden cross for vlč. Antun Kosina 1921–2003 standing against it.",
-      "Pavao and Anka Kosina's grave — his stone reads Nevina žrtva zračnog napadaja na Senj, an innocent victim of the air raid.",
-    ],
-    why: "Toma Blažević was buried here on 28 July 1907 and Stanko Papić on 4 June 1903. Neither grave has been looked for. A cemetery register or a surviving stone would place them." },
-  { where: "Smokvica Krmpotska — house 114", pri: "first",
-    what: [
-      "The house itself, if it still stands, and the number if it is still on it.",
-      "The neighbouring numbers, 112 and 116, so the run can be placed on the ground.",
-      "Anything carved or dated on the building.",
-    ],
-    why: "Six documented years — 1838, 1882, 1884, 1888, 1890, 1895 — hold Toma's children, Pavao's children, Jurko's children and two different men called Ivo Blažević. It is the zadruga the whole of question 1b turns on, and nobody in this archive has seen it." },
-  { where: "Klenovica and Povile — house 22", pri: "first",
-    what: [
-      "The house, if it stands, and the number on it — in BOTH villages, because they may be the same building.",
-      "Whether Klenovica 22 and Povile 22 are one house, two houses, or one house the registers gave two village names.",
-      "The Kalanj graves in the Klenovica cemetery beyond the one already photographed (Lovro 1906–1965, Ana 1919–1971, Ivan 1942–1996, Marijan 1944–2009).",
-    ],
-    why: "Sixty-seven published people are entered at house 22 between 1840 and 1890 — the largest single household in this archive, ahead of Smokvica 114 and Krivi Put 136. Eleven couples have children recorded under both village names, which is why it is thought to be one house. Nobody has stood in front of it." },
-  { where: "Krivi Put — house 136", pri: "first",
-    what: ["The house, and 113 and 129 if the numbers survive.", "The church of the parish, and any war memorial."],
-    why: "Antonija Perpić was born at 136 in 1859 into a household the register calls Confiniarii. Three Prpić house numbers are known and none has been seen." },
-  { where: "Crikvenica — the Hotel Therapia", pri: "when passing",
-    what: [
-      "The building, now the Kvarner Palace — the façade and, if they will let you in, the room that was the dining hall.",
-      "Any historic photograph the hotel keeps of its own interwar years.",
-    ],
-    why: "Hedviga is remembered singing here. It is the only thing anyone has ever said about what she did, and the building is still standing — bought in 2013 and renamed. A photograph would turn a sentence of lore into something you can look at." },
-  { where: "Senj — the tobacco factory", pri: "when passing",
-    what: ["The building on Ul. Stjepana Radića 4, now a textile works.", "Any plaque, date stone or surviving signage."],
-    why: "Milka supervised women rolling cigarettes here and Antonija Blažević held the same grade. Across ten register pages between 1909 and 1919, most young women marrying in Senj worked in it." },
-  { where: "Otočac and Šumećica", pri: "if you get there",
-    what: ["Šumećica house 24, if the numbering survives.", "The parish church at Otočac.", "Prozor houses 50 and 245."],
-    why: "The 1834 baptism puts a Confiniarius household at Šumećica 24. The Žubrinići held five Frontier offices out of these villages." },
-  { where: "Karlobag", pri: "if you get there",
-    what: ["The parish church.", "Anything marking the town as a free royal city — the registers call it hujus Civitatis."],
-    why: "Four generations of Pilipići, Urodas, Smojvers and Gerkacs, with a Giustiniani standing godfather and a Baron von Holstein on the same page. The most socially distinct part of this descent." },
-];
-const PAPER = [
-  ["Anything written on the back of a photograph", "Studio stamps date and place a picture better than anything else here. Fifteen photographs on /faces have no caption but a camera filename."],
-  ["Letters, in any language", "Nothing in this archive is in the family's own words. Not one letter."],
-  ["Identity papers, passports, work books", "A Yugoslav passport application would date the emigration that question 1f cannot."],
-  ["Funeral cards and death notices", "They carry the date, the parish and often the surviving relatives, all three."],
-];
+/* 21 September 2026. Two changes and the second is the one that mattered.
+   The card moved to the kit; and the eight jobs, which were hard-coded in
+   this file as a JavaScript array, moved to src/data/photograph-these.json,
+   because a list only a template can reach cannot be counted, checked or
+   added to — the failure this estate has already lifted the sources page,
+   the errands and the audit out of.
+
+   The GRADE stays here. "first / when passing / if you get there" ranks by
+   how much effort the trip is worth, which is this archive's question and
+   not Lerena's numbered priority or Defranceski's walk. */
+const PRI = { "first": ["Go here first", "var(--terra)"],
+              "when passing": ["When you are passing", "#8a7f5c"],
+              "if you get there": ["If you get that far", "var(--rule-strong)"] };
+const ORDER = ["first", "when passing", "if you get there"];
+const unlabelled = [...new Set(data.jobs.map((j) => j.pri).filter((k) => !PRI[k]))];
+
+const groups = ORDER
+  .map((pri) => ({
+    label: PRI[pri][0],
+    rows: data.jobs.filter((j) => j.pri === pri).map((j) => ({
+      where: j.where, what: j.what, why: j.why, colour: PRI[pri][1],
+    })),
+  }))
+  .filter((g) => g.rows.length);
 ---
 <Base title="Photograph These"
   eyebrow="For whoever is next in Croatia"
@@ -65,27 +44,18 @@ const PAPER = [
     that look like nothing — a wrong house number is worth knowing too.</p>
   </section>
 
-  {["first", "when passing", "if you get there"].map((pri) => (
-    <section class="blk">
-      <div class="lab">{pri === "first" ? "Go here first" :
-                        pri === "when passing" ? "When you are passing" : "If you get that far"}</div>
-      {JOBS.filter((j) => j.pri === pri).map((j) => (
-        <div class="card" style="margin-top:1rem">
-          <h3>{j.where}</h3>
-          <ul class="plain" style="margin-top:.5rem">
-            {j.what.map((w) => <li style="margin-bottom:.35rem">{w}</li>)}
-          </ul>
-          <p class="dek" style="margin-top:.7rem"><strong>Why:</strong> {j.why}</p>
-        </div>
-      ))}
-    </section>
-  ))}
+  <section class="blk">
+    <Shotlist groups={groups} u={u} html={false} />
+    {unlabelled.length > 0 && (
+      <p class="small">Filed under an effort this page has no label for: {unlabelled.join(", ")}.</p>
+    )}
+  </section>
 
   <section class="blk">
     <h2>And anything on paper</h2>
     <table class="reg">
       <thead><tr><th>What</th><th>Why it matters here</th></tr></thead>
-      <tbody>{PAPER.map(([w, y]) => (
+      <tbody>{data.paper.map(([w, y]) => (
         <tr><td><strong>{w}</strong></td><td class="dim">{y}</td></tr>))}</tbody>
     </table>
     <p style="margin-top:1.2rem">If you are holding a photograph and cannot say who is in it,
