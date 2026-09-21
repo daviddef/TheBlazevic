@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 130,
+  "rows": 131,
   "people": 95,
   "derived": 51,
   "onDirectLine": 0,
@@ -20,7 +20,7 @@
   ],
   [
    "baptism-of-child",
-   17
+   18
   ],
   [
    "marriage-of-child",
@@ -1420,6 +1420,20 @@
    "indexOnly": false,
    "slug": "ana-kalanj",
    "name": "Ana Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1894",
+   "cite": "named as mother, «Angjelika r. Boras», at the baptism of her son Pavao — Senj births p.223 entry 37, BORN 15 ožujka 1894 and BAPTISED 16 travnja 1894, «zakonit», father «Martin Kosina», of Senj; godparents «Mihael Bosco, trgovac, i Franjo Berčić»; baptised by «Vinko Margan, kapelan». THE MARGIN CARRIES HIS DEATH: «† 8.X.1943» above his name, in the parish's own hand — until today that date rested on the gravestone alone, and a gravestone is a memorial, not a register. A second annotation reads «vjenčan dne 20.XI.1919 — Antom Blažević» (the letter is «t» or «k»; the 1919 index settles the person as Anka). Read at 3x from photos/line/4505826-pavao-kosina-birth-1894.jpg, in the library unopened since 9 September",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/pavao-kosina-baptism-1894.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/pavao-kosina-baptism-1894.md",
+   "indexOnly": false,
+   "slug": "angelika-boras",
+   "name": "Angelika Boras",
    "ahn": null
   },
   {
@@ -4077,6 +4091,17 @@
      "indexOnly": true
     },
     {
+     "kind": "baptism-of-child",
+     "year": "1894",
+     "cite": "named as mother, «Angjelika r. Boras», at the baptism of her son Pavao — Senj births p.223 entry 37, BORN 15 ožujka 1894 and BAPTISED 16 travnja 1894, «zakonit», father «Martin Kosina», of Senj; godparents «Mihael Bosco, trgovac, i Franjo Berčić»; baptised by «Vinko Margan, kapelan». THE MARGIN CARRIES HIS DEATH: «† 8.X.1943» above his name, in the parish's own hand — until today that date rested on the gravestone alone, and a gravestone is a memorial, not a register. A second annotation reads «vjenčan dne 20.XI.1919 — Antom Blažević» (the letter is «t» or «k»; the 1919 index settles the person as Anka). Read at 3x from photos/line/4505826-pavao-kosina-birth-1894.jpg, in the library unopened since 9 September",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/pavao-kosina-baptism-1894.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/pavao-kosina-baptism-1894.md",
+     "indexOnly": false
+    },
+    {
      "kind": "marriage-of-child",
      "year": "1919",
      "cite": "named as mother, «Andjelika Boras», at her son Pavao's marriage to Anka Blažević; ark 1:1:X9D5-MWXX. INDEX ONLY",
@@ -4099,7 +4124,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 6,
+   "direct": 7,
    "derived": 0
   },
   "mare-luckinic": {
