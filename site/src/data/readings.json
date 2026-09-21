@@ -1,11 +1,11 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 131,
+  "rows": 132,
   "people": 95,
   "derived": 51,
   "onDirectLine": 0,
-  "indexOnly": 19,
+  "indexOnly": 20,
   "earliest": 1725,
   "latest": 2005
  },
@@ -56,6 +56,10 @@
   ],
   [
    "photograph",
+   1
+  ],
+  [
+   "arrival",
    1
   ],
   [
@@ -1784,6 +1788,20 @@
    "indexOnly": false,
    "slug": "otilija-kosina",
    "name": "Otilija Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "arrival",
+   "year": "1947",
+   "cite": "CEMLA, the Buenos Aires port arrival books, read 21 September 2026 — «KOSINA OSCAR, 25, C, YUGOSLAVA/S.H.S., SEGKA, COLONO, 1947/10/09, PHILIPPA, GENOVA». HE ARRIVED ON 9 OCTOBER 1947, aged 25, from GENOA, on the PHILIPPA. «SEGKA» is SEGNA, the Italian name for SENJ. «COLONO» was the visa class for a post-war agricultural settler. AND «C» IS CASADO: HE WAS ALREADY MARRIED ON THE DAY HE LANDED, so the marriage this archive has been looking for in Buenos Aires happened in EUROPE. He died in Buenos Aires six years and three months later. INDEX ONLY — CEMLA's free tier gives the line and not the page",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/oskar-kosina-came-in-on-the-philippa.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/oskar-kosina-came-in-on-the-philippa.md",
+   "indexOnly": true,
+   "slug": "oskar-kosina",
+   "name": "Oskar Kosina",
    "ahn": null
   },
   {
@@ -4275,6 +4293,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "arrival",
+     "year": "1947",
+     "cite": "CEMLA, the Buenos Aires port arrival books, read 21 September 2026 — «KOSINA OSCAR, 25, C, YUGOSLAVA/S.H.S., SEGKA, COLONO, 1947/10/09, PHILIPPA, GENOVA». HE ARRIVED ON 9 OCTOBER 1947, aged 25, from GENOA, on the PHILIPPA. «SEGKA» is SEGNA, the Italian name for SENJ. «COLONO» was the visa class for a post-war agricultural settler. AND «C» IS CASADO: HE WAS ALREADY MARRIED ON THE DAY HE LANDED, so the marriage this archive has been looking for in Buenos Aires happened in EUROPE. He died in Buenos Aires six years and three months later. INDEX ONLY — CEMLA's free tier gives the line and not the page",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/oskar-kosina-came-in-on-the-philippa.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/oskar-kosina-came-in-on-the-philippa.md",
+     "indexOnly": true
+    },
+    {
      "kind": "grave",
      "year": "1954",
      "cite": "Senj, the same stone, same image read at 4x — «OSKAR ✻1922 †1954», under «IN MEMORIAM». He is NAMED on his sisters' stone and is not buried under it: he died in Buenos Aires and his memorial card says so. The stone gives the YEAR only and therefore cannot break the card's «4. IV. 1922» against the tree's 4 September",
@@ -4297,7 +4326,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "antonia-pekass-pekkas": {
