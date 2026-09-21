@@ -54,19 +54,30 @@ alive, in her seventies, when Martin married.
 
 ## There is a Kozina household in the same parish, and it is not proven to be hers
 
-On **book page 33**, in **1836**, the register carries:
+**Every other Kozina baptism in that book was opened, and they all belong to one household.**
 
-> **Vater: «Josef Kosina, Häusler»** · **Mutter: «Lucia Labornik»**
+| baptised | page | father | mother |
+|---|---|---|---|
+| **Anton** 1834 | 18 | **Johann Kosina**, *Häusler* | **Lucia Labornik** |
+| **Johan** 1836 | 33 | Johann Kosina, *Häusler* | Lucia Labornik |
+| **MARTIN** 1841 | **64** | **— none —** | **Gertraud Kosina**, *Häuslerstochter* |
+| **Franz** 1853 | 130 | **Johann Kozina**, *Häusler* | **Ursula Sedej** |
+| **Ana** 1856 | 144 | Johann Kozina, *Häusler* | Ursula Sedej |
 
-and, lower on the same leaf, **«Gertraud Kosina, Häuslerstochter» standing as a godmother**.
+**One Häusler called Johann, two wives, twenty-two years — and, in the middle of it, one
+unmarried woman and one child with no father.** Lucia disappears after 1836; Ursula is beside the
+same husband by 1853. The 1853 and 1856 entries spell the surname **KOZINA with a z**, which is
+the spelling the Senj priest used in 1888.
 
-**A married Kosina cottager, and an unmarried Kosina cottager's daughter, in one small parish in
-one decade.** Josef is a *Häusler*; Gertraud is a *Häuslerstochter*. **A father-and-daughter or
-a brother-and-sister reading is likely and it is not established**, and all three are in
-`sources/found.psv` as exactly that.
+**Gertraud is entered as a *Häuslerstochter* — a Häusler's daughter — and stands godmother on
+page 33.** Johann is a *Häusler*. **Father and daughter, or brother and sister, is likely and it
+is not established**, and they stand in `sources/found.psv` as exactly that.
 
-The index also shows **Anton Kozina (1834)**, **Johan Kozina (1836)**, **Franz Kozina (1853)**
-and **Ana Kozina (1856)** in this parish. **The name is local. Martin did not come from nowhere.**
+> **A correction made the same day.** Page 33 alone read as **«Josef»**; page 18, with the same
+> wife beside him, reads **«Johann»**, and page 33 re-read at eight times reads Johann too.
+> **One entry, one given name, and a household that would have been split in two.**
+
+**The name is local. Martin did not come from nowhere.**
 
 ## Why the scans are not republished here
 
@@ -123,6 +134,6 @@ child at Zgornje Bitnje in 1841 could have been born anywhere in Carniola and co
    1836–1869, and the volumes after it. **A death entry gives an age**, and an age gives a birth
    year without any argument about a terminal letter. She was alive in 1888 on the evidence of
    the Senj marriage, so the later books are where to look.
-3. **Whether Josef is her father**, which his household's own entries would show.
+3. **Whether Johann is her father or her brother.** His own marriage — sig. 00899, marriages 1816–1855 — would name his parents, and so would hers if she ever married.
 4. **Martin's leaving.** He was a *trgovac* in Senj by 1888. Between 1841 and 1888 there is a
    young man crossing from Carniola to the Adriatic, and nothing yet says when or why.
