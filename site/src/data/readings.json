@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 129,
+  "rows": 130,
   "people": 95,
   "derived": 51,
   "onDirectLine": 0,
@@ -56,6 +56,10 @@
   ],
   [
    "photograph",
+   1
+  ],
+  [
+   "published-account",
    1
   ]
  ],
@@ -1808,6 +1812,20 @@
    "indexOnly": false,
    "slug": "oskar-kosina",
    "name": "Oskar Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "published-account",
+   "year": "1958-1985",
+   "cite": "German-Croatian church press, read 21 September 2026 — «Na područje Ludwigshafena je 1958. iz Rima došao vlč. Anton Kosina», a priest of the then RIJEKA-SENJ ARCHDIOCESE, who settled near Kaiserslautern when there were only SIX Croatian priests in all of Germany; from 1967 he was voditelj of the HRVATSKA KATOLIČKA MISIJA LUDWIGSHAFEN FROM ITS FOUNDING UNTIL 1985, succeeded by fra Ljubo Sesar on 1 August 1985. Two independent outlets written for the mission's 50th anniversary in 2017: croexpress.eu «50 godina HKM Ludwigshafen» and nedjelja.ba «Ludwigshafen: 50 misijskih godina». NOT A REGISTER — a published account, and it corroborates the family's own account of Senj, Rome and Germany without having seen it",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/anton-kosina-founded-a-mission-in-ludwigshafen.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/anton-kosina-founded-a-mission-in-ludwigshafen.md",
+   "indexOnly": false,
+   "slug": "antun-anton-kosina",
+   "name": "Antun Anton Kosina",
    "ahn": null
   },
   {
@@ -4201,6 +4219,17 @@
      "indexOnly": false
     },
     {
+     "kind": "published-account",
+     "year": "1958-1985",
+     "cite": "German-Croatian church press, read 21 September 2026 — «Na područje Ludwigshafena je 1958. iz Rima došao vlč. Anton Kosina», a priest of the then RIJEKA-SENJ ARCHDIOCESE, who settled near Kaiserslautern when there were only SIX Croatian priests in all of Germany; from 1967 he was voditelj of the HRVATSKA KATOLIČKA MISIJA LUDWIGSHAFEN FROM ITS FOUNDING UNTIL 1985, succeeded by fra Ljubo Sesar on 1 August 1985. Two independent outlets written for the mission's 50th anniversary in 2017: croexpress.eu «50 godina HKM Ludwigshafen» and nedjelja.ba «Ludwigshafen: 50 misijskih godina». NOT A REGISTER — a published account, and it corroborates the family's own account of Senj, Rome and Germany without having seen it",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/anton-kosina-founded-a-mission-in-ludwigshafen.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/anton-kosina-founded-a-mission-in-ludwigshafen.md",
+     "indexOnly": false
+    },
+    {
      "kind": "grave",
      "year": "2003",
      "cite": "Senj, the same stone, same image read at 4x — «VLČ. ANTE ✻1921 †2003», vlč. for velečasni, Reverend. It confirms in stone that the eldest surviving son was a priest, and it is the same «pop Ante Kosina» who restored Tereza Žubrinić's grave in 1991",
@@ -4212,7 +4241,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "oskar-kosina": {
