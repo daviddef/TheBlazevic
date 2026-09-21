@@ -56,13 +56,28 @@ alive, in her seventies, when Martin married.
 
 **Every other Kozina baptism in that book was opened, and they all belong to one household.**
 
-| baptised | page | father | mother |
+| baptised | house | father | mother |
 |---|---|---|---|
-| **Anton** 1834 | 18 | **Johann Kosina**, *Häusler* | **Lucia Labornik** |
-| **Johan** 1836 | 33 | Johann Kosina, *Häusler* | Lucia Labornik |
-| **MARTIN** 1841 | **64** | **— none —** | **Gertraud Kosina**, *Häuslerstochter* |
-| **Franz** 1853 | 130 | **Johann Kozina**, *Häusler* | **Ursula Sedej** |
-| **Ana** 1856 | 144 | Johann Kozina, *Häusler* | Ursula Sedej |
+| **Anton** 20 Jan 1834 | **Oberfeichting 9** | **Johann Kosina**, *Häusler* | **Lucia Labornik** |
+| **Petrus** 29 Jun 1836 | **Oberfeichting 9** | Johann Kosina, *Häusler* | Lucia Labornik |
+| **MARTIN** 16 Nov 1841 | **Oberfeichting 9** | **— none —** | **Gertraud Kosina**, *Häuslerstochter* |
+| **Franz** 1853 | *not checked* | **Johann Kozina**, *Häusler* | **Ursula Sedej** |
+| **Ana** 1856 | *not checked* | Johann Kozina, *Häusler* | Ursula Sedej |
+
+## And the house column is the whole thing
+
+**Johann the Häusler's two recorded children were born at OBERFEICHTING NO. 9. Five years after
+the second of them, Gertraud bore Martin in that same house.**
+
+It does not tell us whether she was his sister or his daughter. **It does tell us she was living
+in his household**, and it turns «a Kozina family in the same parish» into **one roof**.
+
+**What settles the rest is his marriage.** The marriage register for 1816–1855 (sig. 00899)
+carries a column headed ***«Aeltern des Bräutigams»*** — the groom's parents. **Find Johann's
+marriage and, if Gertraud is his sister, you have her parents too.** The volume has **no index**
+and runs to seventy-seven pages across eighty-one images, about two images to the year, so it is
+a scan and not a lookup. Anton was baptised in January 1834, so the marriage is most likely
+**1828–1833**, which is roughly images 30–43.
 
 **One Häusler called Johann, two wives, twenty-two years — and, in the middle of it, one
 unmarried woman and one child with no father.** Lucia disappears after 1836; Ursula is beside the
@@ -73,9 +88,11 @@ the spelling the Senj priest used in 1888.
 page 33.** Johann is a *Häusler*. **Father and daughter, or brother and sister, is likely and it
 is not established**, and they stand in `sources/found.psv` as exactly that.
 
-> **A correction made the same day.** Page 33 alone read as **«Josef»**; page 18, with the same
-> wife beside him, reads **«Johann»**, and page 33 re-read at eight times reads Johann too.
-> **One entry, one given name, and a household that would have been split in two.**
+> **Two corrections.** Page 33 alone read as **«Josef»**; page 18, with the same wife beside him,
+> reads **«Johann»**, and page 33 at eight times reads Johann too — **one given name, and a
+> household that would have been split in two**. And the 1836 child, taken from the index as
+> **«Johan»**, is **«Petrus»** at the page. **That is the third time in two days that an index has
+> been wrong about this family and the register has been right.**
 
 **The name is local. Martin did not come from nowhere.**
 
