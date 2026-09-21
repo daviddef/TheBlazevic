@@ -126,7 +126,7 @@ facts, and the stone gives 2003 on its own authority.
 
 ## And a second Kosina went to Germany
 
-**Ivan Christian Kosina**, Oskar's son — the one born in Argentina — **was born Ivan and took
+**Ivan Christian**, Oskar's son — the one born in Argentina — **was born Ivan and took
 the name Christian when he moved to Germany**, on the family's account. So the two lines that
 survived 1943 both ended up in the same country, from opposite directions: **one out of Rome,
 one out of Buenos Aires.** Nothing documentary has been found for him and he may be living, so

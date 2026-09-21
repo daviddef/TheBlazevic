@@ -22,6 +22,15 @@ NAMED and no date of theirs may be published, so this tool runs the same
 classifier the build checks against and strips the dates itself. A page written
 by hand would have published a birth year for a woman born in 1964.
 
+AND SINCE 21 SEPTEMBER 2026, NOT THE SURNAME EITHER. A living person is given
+here by GIVEN NAME ALONE, everywhere a name is emitted -- their own row and every
+mention of them as somebody's child, parent, sibling or spouse. The reason is
+that a surname plus a first name plus a country is an identification, and this
+page carries the country. `named-bare` was always meant to mean "enough that the
+family recognises them, not enough that a stranger can find them", and a full
+name on a public genealogy page is the wrong side of that line. The surname does
+not reach the JSON at all, so no template can leak it back.
+
 Reads  the GEDCOM, via tools/gedcom.py
 Writes site/src/data/kosina.json
 """
@@ -45,13 +54,25 @@ def main():
         v = living.get(pid)
         return bool(v) if not isinstance(v, dict) else bool(v.get("living"))
 
+    def name_of(pid):
+        """Given name only when they may be alive -- see the docstring."""
+        full = gedcom.display(P[pid]) or ""
+        if not is_living(pid):
+            return full
+        sur = (P[pid].get("surname") or "").strip()
+        if not sur:
+            return full
+        out = " ".join(w for w in full.split() if w.strip('"\u201c\u201d') != sur)
+        return out or full
+
     def person(pid):
         b, d = gedcom.born(P[pid]), gedcom.died(P[pid])
         alive = is_living(pid)
         return {
             "id": pid,
-            "name": gedcom.display(P[pid]) or "",
-            "surname": (P[pid].get("surname") or "").strip(),
+            "name": name_of(pid),
+            # The surname of a living person never enters this file.
+            "surname": "" if alive else (P[pid].get("surname") or "").strip(),
             # NAMED AND NOTHING MORE when they may be alive. The dates are not
             # merely hidden from the page; they never enter the data file.
             "born": "" if alive else (b.get("date") or ""),
@@ -73,21 +94,21 @@ def main():
             for role in ("husb", "wife"):
                 o = fam.get(role)
                 if o in P:
-                    rec["parents"].append({"id": o, "name": gedcom.display(P[o]) or ""})
+                    rec["parents"].append({"id": o, "name": name_of(o)})
             for c in (fam.get("chil") or []):
                 if c != pid and c in P:
-                    rec["siblings"].append({"id": c, "name": gedcom.display(P[c]) or ""})
+                    rec["siblings"].append({"id": c, "name": name_of(c)})
         for f in (P[pid].get("fams") or []):
             fam = F.get(f) or {}
             o = fam.get("wife") if fam.get("husb") == pid else fam.get("husb")
             if o in P:
                 m = fam.get("marr") or {}
-                rec["spouses"].append({"id": o, "name": gedcom.display(P[o]) or "",
+                rec["spouses"].append({"id": o, "name": name_of(o),
                                        "married": m.get("date") or "",
                                        "place": m.get("place") or ""})
             for c in (fam.get("chil") or []):
                 if c in P:
-                    rec["children"].append({"id": c, "name": gedcom.display(P[c]) or ""})
+                    rec["children"].append({"id": c, "name": name_of(c)})
 
     def year(s):
         import re
@@ -102,7 +123,8 @@ def main():
         "note": ("The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are "
                  "outside this archive's eight published surnames, so they appear in no "
                  "people.json and on no family page. The living rule is applied here: anyone "
-                 "who may be alive is named and carries no date."),
+                 "who may be alive is given by GIVEN NAME ALONE and carries no date, and "
+                 "neither their surname nor their dates enter this file."),
         "counts": {
             "people": len(order),
             "living": sum(1 for r in order if r["living"]),

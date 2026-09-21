@@ -1,5 +1,5 @@
 {
- "note": "The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are outside this archive's eight published surnames, so they appear in no people.json and on no family page. The living rule is applied here: anyone who may be alive is named and carries no date.",
+ "note": "The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are outside this archive's eight published surnames, so they appear in no people.json and on no family page. The living rule is applied here: anyone who may be alive is given by GIVEN NAME ALONE and carries no date, and neither their surname nor their dates enter this file.",
  "counts": {
   "people": 10,
   "living": 2,
@@ -201,7 +201,7 @@
    "children": [
     {
      "id": "@I506270@",
-     "name": "Paula Kosina"
+     "name": "Paula"
     }
    ],
    "siblings": [
@@ -253,7 +253,7 @@
    "children": [
     {
      "id": "@I510795@",
-     "name": "Ivan Christian Kosina"
+     "name": "Ivan Christian"
     }
    ],
    "siblings": [
@@ -357,8 +357,8 @@
   },
   {
    "id": "@I510795@",
-   "name": "Ivan Christian Kosina",
-   "surname": "Kosina",
+   "name": "Ivan Christian",
+   "surname": "",
    "born": "",
    "bornPlace": "",
    "died": "",
@@ -380,8 +380,8 @@
   },
   {
    "id": "@I506270@",
-   "name": "Paula Kosina",
-   "surname": "Kosina",
+   "name": "Paula",
+   "surname": "",
    "born": "",
    "bornPlace": "",
    "died": "",
