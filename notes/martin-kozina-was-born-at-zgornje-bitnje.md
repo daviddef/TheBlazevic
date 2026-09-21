@@ -80,11 +80,49 @@ transcribed above and the books are two clicks away:
 **If the licence turns out to allow it, one crop of that single row is the most valuable
 photograph this family could put on a wall.**
 
-## What is next, and it is all in the same free books
+## Gertraud's own baptism was looked for the same day. It was NOT found, and one candidate was killed
 
-1. **Gertraud's own baptism.** A *Häuslerstochter* bearing a child in 1841 was probably born
-   between 1810 and 1825 — **sig. 04631, the index for 1812–1831**, covers it.
-2. **Gertraud's death.** **Sig. 04635**, the death index 1836–1869, then the later volumes.
+**The index for 1812–1831 (sig. 04631) was fetched and its K section read** — twenty-four pages,
+the letter K on **image 169**. It offers **two Gertraud candidates** and the register settles one
+of them and not the other.
+
+### 1814, register page 28 — ELIMINATED
+
+Read at the page (sig. 00885, image 15 — **this older volume numbers two book pages to an
+image**, so page = 2 × (image − 1)):
+
+> **«den 18. Merz · Haus 10 · Gertrud · ehelich · Vater: Franz Kosnar, Hüblar»**
+
+**The father's surname ends in a clear «-r». It is KOSNAR, not Kosina** — and at index scale the
+two are almost the same mark. **The index said Kosina and the register said otherwise**, which is
+the whole reason this archive opens the page.
+
+### 1818, register page 72 — NOT RESOLVED
+
+> **«den 16ten Februar · [village] · Haus 12 · Gertrud · ehelich · Vater: Lukas Ko[s]in…»**
+
+**The terminal of the surname cannot be read.** It is either **Kosina** or **Kosiner**, and the
+difference decides whether this is the right woman. **The birthplace is not identified either** —
+it reads something like *Lenzg*, which matches no village of the parish this archive can name.
+
+**Matricula serves these scans at 1500 pixels tall. The EXIF of the master says 3846.**
+**That is the whole obstacle**, and it is a small one: a request to the **Nadškofijski arhiv
+Ljubljana** for one page at full resolution would settle it in a sentence.
+
+### So, honestly
+
+**Gertraud Kosina's own baptism has not been found.** One candidate is dead, one is open, and it
+is entirely possible she was not baptised in this parish at all — a *Häuslerstochter* who bore a
+child at Zgornje Bitnje in 1841 could have been born anywhere in Carniola and come there to work.
+
+## What is next, and most of it is in the same free books
+
+1. **One page at full resolution** — sig. 00885, book page 72 — from NŠAL. It settles
+   «Kosina» against «Kosiner» and with it the 1818 candidate.
+2. **Gertraud's death**, which is the better road anyway: **sig. 04635**, the death index
+   1836–1869, and the volumes after it. **A death entry gives an age**, and an age gives a birth
+   year without any argument about a terminal letter. She was alive in 1888 on the evidence of
+   the Senj marriage, so the later books are where to look.
 3. **Whether Josef is her father**, which his household's own entries would show.
 4. **Martin's leaving.** He was a *trgovac* in Senj by 1888. Between 1841 and 1888 there is a
    young man crossing from Carniola to the Adriatic, and nothing yet says when or why.
