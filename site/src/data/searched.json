@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 15,
+  "nothing": 16,
   "partial": 20,
   "pending": 6,
   "yield": 60
@@ -329,6 +329,21 @@
   }
  ],
  "rows": [
+  {
+   "src": "Bojničić, Der Adel von Kroatien und Slavonien (1899), and Plemiška heraldika na Slovenskem",
+   "key": "web/kosina-heraldry",
+   "url": "https://archive.org/details/BojnIvanDerAdelVonKroatienUndSlavonien",
+   "what": "Whether any armigerous Kosina or Kozina family exists in Croatia or Slovenia",
+   "when": "21 September 2026",
+   "outcome": "nothing",
+   "tags": [
+    "kosina",
+    "heraldry",
+    "names",
+    "web"
+   ],
+   "got": "**No, and the negative is a proper one.** The full text of **Bojničić's *Der Adel von Kroatien und Slavonien* (Nürnberg, 1899)** — the standard register of Croatian and Slavonian noble families and their arms — was downloaded and searched: **zero occurrences of Kosina, Kozina or Kossina**. The search is sound rather than a broken regex: the same file returns **Korjenić 119 times and Kovačić 13**. The ZRC SAZU database **Plemiška heraldika na Slovenskem** likewise has no Kozina.\n\n**The prior question is the one that matters, though.** Arms are granted to a PERSON and descend in that person's line. **There is no such thing as arms belonging to everyone who shares a surname**, so the sites selling a «Kosina family crest» are selling a picture attached to a string of letters. What can be asked is whether an armigerous family of the name existed in these lands, and the answer is no.\n\n**And the family's own records agree.** Martin Kozina is a *trgovac*; his mother a *posjednica* with a dash where the father belongs; Pavao's godfather another merchant. **A trading household out of a Carniolan hill parish, with a surname meaning goatskin.**\n\n**What is real:** the arms of **Kranj** — *Krainburg* in the marriage entry — are a **red eagle with spread wings on a silver field**, and the same eagle is the ancient device of **Carniola**, the *Kranjska* named in the cell that told this archive where the family came from."
+  },
   {
    "src": "CEMLA — Buenos Aires port arrival books, 1882–1960 (four spellings, worked out)",
    "key": "web/cemla-kosina",
