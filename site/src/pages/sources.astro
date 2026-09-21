@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 import { people, evidenced } from "../lib/people.js";
 import sources from "../data/sources.json";
@@ -12,10 +13,9 @@ import sources from "../data/sources.json";
 // are four different kinds of thing, and a sources page that prints them as
 // four paragraphs of similar length is quietly saying they are not.
 //
-// Hand-written HTML in the data, so hrefs need the site base prefixed, the same
-// trap /open-questions/ and /corrections/ both fell into.
-const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`);
-
+// The base-prefixing helper that used to live here is gone: the kit component
+// does it, which is where it belonged — every archive holding hand-written
+// HTML in its data had its own copy of that one-line trap.
 const withSrc = people.filter(evidenced).length;
 const fs = people.filter((p) => JSON.stringify(p.events || []).includes("familysearch")).length;
 
@@ -25,9 +25,25 @@ const LABEL = {
   background: "Background", rejected: "Consulted, and rejected", absent: "Not consulted",
 };
 const ORDER = ["state", "register", "tree", "background", "rejected", "absent"];
+/* 21 September 2026. The rendering is the kit's. The WEIGHTS are not, and
+   they are the argument of the page: a state register, a parish register, a
+   family tree and a Wikipedia article are four different kinds of thing, and
+   the order below is the order this archive trusts them. Four other archives
+   rank their sources by entirely different axes and the component takes all
+   of them as given. */
+const unlabelled = [...new Set(sources.rows.map((r) => r.weight))].filter((w) => !LABEL[w]);
 const groups = ORDER
-  .map((w) => [w, sources.rows.filter((r) => r.weight === w)])
-  .filter(([, rs]) => rs.length);
+  .map((w) => ({
+    label: LABEL[w], note: W[w],
+    rows: sources.rows.filter((r) => r.weight === w).map((r) => ({
+      ...r,
+      href: r.href ? r.href + "/" : null,
+      hrefLabel: r.href ? (r.hrefLabel || "Used here →") : null,
+    })),
+  }))
+  .filter((g) => g.rows.length);
+const reach = sources.rows.filter((r) => r.url).length;
+const held = sources.rows.filter((r) => !r.url && r.held).length;
 ---
 <Base title="Sources"
   eyebrow="What this archive stands on"
@@ -45,39 +61,17 @@ const groups = ORDER
     whole page</strong>, so it is recorded as a field rather than left to the reader to infer from
     paragraph length. Every source below is filed under one of six weights, and the order they
     appear in is the order this archive trusts them.</p>
+    <p class="small"><strong>{reach} of the {sources.rows.length} link to the thing itself</strong>,
+    {held} is paper and says where. The two that carry nothing carry nothing on purpose, and each
+    says why in its own note.</p>
   </section>
 
-  {groups.map(([w, rs]) => (
-    <section class="blk">
-      <div class="lab">{LABEL[w]} — {W[w]}</div>
-      {rs.map((r) => (
-        <div class="src">
-          {/* Nine of these twelve now carry the address of the thing itself, and
-              until 21 September 2026 not one of them did — the page linked only
-              inward, to this site's own pages, which answers «what is this» and
-              never «take me to it». The two that still carry nothing carry
-              nothing ON PURPOSE and say so in their own note. */}
-          <h2>{r.url ? <a href={r.url} rel="noopener">{r.title}</a> : r.title}</h2>
-          {r.url && <p class="small mono" style="margin:-.3rem 0 .6rem">
-            {r.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</p>}
-          <table class="kv">
-            <tr><th>Held by</th><td set:html={base(r.holder)} /></tr>
-            <tr><th>What it is</th><td set:html={base(r.kind)} /></tr>
-          </table>
-          <p set:html={base(r.what)} />
-          {r.volumes ? (
-            <ul class="plain">{r.volumes.map((v) => <li set:html={base(v)} />)}</ul>
-          ) : null}
-          {r.carries ? <p set:html={base(r.carries)} /> : null}
-          {r.caution ? <div class="note" set:html={base(r.caution)} /> : null}
-          {r.held ? <p class="small"><strong>Held.</strong> {r.held}</p> : null}
-          {r.href ? (
-            <p class="small"><a href={u(r.href + "/")}>{r.hrefLabel || "Used here →"}</a></p>
-          ) : null}
-        </div>
-      ))}
-    </section>
-  ))}
+  <section class="blk">
+    <Sources groups={groups} u={u} />
+    {unlabelled.length > 0 && (
+      <p class="small">Filed under a weight this page has no label for: {unlabelled.join(", ")}.</p>
+    )}
+  </section>
 
   <section class="blk">
     <p class="dek">Until September 2026 this page said that <em>no</em> civil registration document
@@ -88,11 +82,3 @@ const groups = ORDER
   </section>
 </Base>
 
-<style is:global>
-  .src { border-top:1px solid var(--rule,#ddd); padding:1rem 0 .4rem; }
-  .src:first-of-type { border-top:0; padding-top:.2rem; }
-  .src h2 { margin:0 0 .5rem; font-size:1.02rem; }
-  .src .kv { margin:0 0 .7rem; }
-  .src .kv th { white-space:nowrap; font-size:9.5px; font-weight:600; letter-spacing:.11em;
-    text-transform:uppercase; color:var(--ink-3,#888); }
-</style>
