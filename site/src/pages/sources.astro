@@ -52,7 +52,14 @@ const groups = ORDER
       <div class="lab">{LABEL[w]} — {W[w]}</div>
       {rs.map((r) => (
         <div class="src">
-          <h2>{r.title}</h2>
+          {/* Nine of these twelve now carry the address of the thing itself, and
+              until 21 September 2026 not one of them did — the page linked only
+              inward, to this site's own pages, which answers «what is this» and
+              never «take me to it». The two that still carry nothing carry
+              nothing ON PURPOSE and say so in their own note. */}
+          <h2>{r.url ? <a href={r.url} rel="noopener">{r.title}</a> : r.title}</h2>
+          {r.url && <p class="small mono" style="margin:-.3rem 0 .6rem">
+            {r.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}</p>}
           <table class="kv">
             <tr><th>Held by</th><td set:html={base(r.holder)} /></tr>
             <tr><th>What it is</th><td set:html={base(r.kind)} /></tr>
@@ -63,6 +70,7 @@ const groups = ORDER
           ) : null}
           {r.carries ? <p set:html={base(r.carries)} /> : null}
           {r.caution ? <div class="note" set:html={base(r.caution)} /> : null}
+          {r.held ? <p class="small"><strong>Held.</strong> {r.held}</p> : null}
           {r.href ? (
             <p class="small"><a href={u(r.href + "/")}>{r.hrefLabel || "Used here →"}</a></p>
           ) : null}
