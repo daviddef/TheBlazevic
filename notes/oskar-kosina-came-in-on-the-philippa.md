@@ -64,9 +64,75 @@ a clerk what he was, and the clerk writing it down.**
 
 **No wife and no son under this surname.** She would be under her maiden name; he was not born yet.
 
+## All four spellings, worked out — the full return
+
+**Forty-one rows across four spellings, and exactly one of them is this family.** The rest are
+recorded here in full so that nobody has to run the CAPTCHA again to find out that they are not
+us.
+
+### KOSINA — 12 rows
+
+| name | age | st | nationality | born | trade | arrived | ship | from |
+|---|---|---|---|---|---|---|---|---|
+| **OSCAR** | **25** | **C** | **YUGOSLAVA/S.H.S.** | **SEGKA** | **COLONO** | **1947/10/09** | **PHILIPPA** | **GENOVA** |
+| FRAJNO | 47 | C | CROATA (HRVATSKA) | — | AGRONOMO | 1947/04/01 | PHILIPPA | GENOVA |
+| GERKO | 30 | C | AUSTRIACO - DALMATA | — | PRIVATO | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| CLARA | 25 | C | AUSTRIACO - DALMATA | — | CASERA | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| ANKA | 4 | S | AUSTRIACO - DALMATA | — | — | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| IRMA | 4 | S | AUSTRIACO - DALMATA | — | — | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| OJESKOSLAIO | 2 | S | AUSTRIACO - DALMATA | — | — | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| GELKA | 0 | S | AUSTRIACO - DALMATA | — | — | 1911/04/10 | SOFIA HOHENBERG | TRIESTE |
+| IVAN ×2 | 27 | S | YUGOSLAVA/S.H.S. | VELIC | AGRICULTOR | 1928/11/30 | GRAL. BELGRANO | HAMBURGO |
+| MICHAL ×2 | 42 | S | POLACA | BRZOZAKROWLEWKA | AGRICULTOR | 1929/01/15 | DARRO | CHERBURGO |
+
+### KOZINA — 23 rows, and not one is ours
+
+| name | age | st | nationality | born | trade | arrived | ship | from |
+|---|---|---|---|---|---|---|---|---|
+| WINCENTI | 23 | S | AUSTRIACA | — | AGRICULTOR | 1911/12/02 | HOLLANDIA | AMSTERDAM |
+| PIOTR ×2 | 30 | C | POLACA | ZAWOJA | AGRICULTOR | 1926/09/26 | ATLANTA | TRIESTE |
+| LADISLAV ×2 | 26 | C | YUGOSLAVA/S.H.S. | STRAPLOW | AGRICULTOR | 1927/02/03 | ALMANZORA | CHERBURGO |
+| JOZO ×2 | 23 | S | YUGOSLAVA/S.H.S. | BJOCAR | AGRICULTOR | 1928/10/25 | DUILIO | GENOVA |
+| JURE ×2 | 24 | C | YUGOSLAVA/S.H.S. | BEJACA | OPERARIO | 1928/10/31 | HOLM | HAMBURGO |
+| RUDOLF ×2 | 23 | S | POLACA | SWIATOLAWIEC | AGRICULTOR | 1929/06/19 | KRAKUS | GDYNIA |
+| FRANC ×2 | 30 | C | YUGOSLAVA/S.H.S. | DOLENJAVAS | AGRICULTOR | 1930/04/07 | CAMPANA | MARSELLA |
+| BQNE ×2 | 23 | S | YUGOSLAVA/S.H.S. | BYCA | AGRICULTOR | 1930/09/10 | GELRIA | AMSTERDAM |
+| KRUNKO ×2 | 16 | S | YUGOSLAVA/S.H.S. | BIJACA | AGRICULTOR | 1930/09/10 | GELRIA | AMSTERDAM |
+| MICHENCHUK ×2 | 0 | X | DESCONOCIDA | — | — | 1948/01/21 | SANTA CRUZ | — |
+| LOVRO | 26 | C | CROATA (HRVATSKA) | FLEHAR DEVENTA | OBRERO | 1948/03/11 | CORDOBA | HAMBURGO |
+| JELA | 23 | C | YUGOSLAVA/S.H.S. | DARVENTA | LABORES | 1948/03/11 | CORDOBA | HAMBURGO |
+| MARIA | 1 | S | ITALIANA | BAGNOLI | MENOR | 1948/03/11 | CORDOBA | HAMBURGO |
+| PETAR | 70 | V | CROATA (HRVATSKA) | DERVENTA | AGRICULTOR | 1948/06/07 | SESTRIERE | NAPOLES |
+
+**Two villages, not ours.** *Bijača* in Herzegovina, written **BIJACA, BJOCAR, BEJACA** and
+**BYCA** by four clerks. And **Derventa** in Bosnia — **Lovro and Jela arriving together with
+their baby Maria**, whose birthplace is entered **BAGNOLI**, the displaced-persons camp at
+Naples, and whose nationality is *Italiana*: **a child born in the camp on the way out**. Petar,
+seventy and a widower, follows them three months later.
+
+**One Slovene**, Franc of **Dolenja Vas**, 1930. The rest Polish.
+
+### COSINA — 5 rows, none of them Slavic
+
+Clemente 1884 and Nicola 1922, both *italiana* out of Genoa; José 1907, *española*, out of
+Coruña; Nicolina 1908, *levantina*, out of Marseille. **Cosina is an Italian and Spanish surname
+in its own right**, not a mangling of ours — so the clerks were not converting *Kosina* into
+*Cosina*. They were writing **Kosina**.
+
+### CAUSINA — 1 row
+
+Ramón Causina, 29, *española*, 1905, out of Barcelona.
+
+**So the database has been asked everything it can answer.** Everything further is on the page of
+the book rather than in the index.
+
 ## What is still to do
 
-1. **The manifest of the *Philippa*, 9 October 1947** — his wife is on it.
-2. **KOZINA, COSINA, CAUSINA** searched in CEMLA as well. Only KOSINA has been run.
+1. **The manifest of the *Philippa*, 9 October 1947.** **ASKED FOR, 21 September 2026** —
+   `requests/sent/EMAIL-cemla-philippa.txt` to CEMLA's database desk, requesting the full page for
+   Oskar and the page of 1 April 1947 for Franjo, and asking directly whether any woman on the
+   same page shares his declared destination or family-group number.
+2. ~~KOZINA, COSINA, CAUSINA in CEMLA.~~ **Done. All three are clean negatives** — see above.
 3. **The reverse of his memorial card**, which almost certainly names the widow.
-4. **The Croatian chaplaincy in Buenos Aires** for the 1954 funeral.
+4. **The Croatian chaplaincy in Buenos Aires** for the 1954 funeral — fra Leonard Rusković served
+   from 1929 until his death in 1958.
