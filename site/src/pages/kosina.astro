@@ -1,7 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
+import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import { u } from "../lib/url.js";
 import K from "../data/kosina.json";
+import people from "../data/people.json";
 // Kosina is not one of this archive's eight published surnames, so there is no
 // generated family page for them. FIVE OF THE TEN now have a person page all the
 // same: publication was changed on 21 September 2026 from surname to DESCENT, and
@@ -11,6 +13,37 @@ import K from "../data/kosina.json";
 // the GEDCOM and which applies the living rule in the DATA, so a person who may be
 // alive carries no date at all, not merely none on the page.
 const by = Object.fromEntries(K.people.map((p) => [p.id, p]));
+
+/* 22 September 2026. THE PAGE NEVER DREW THE JOINT.
+   It says Anka Blažević married Pavao Kosina, and it lists the descent, but
+   a reader could not see from it how this household attaches to the family
+   the archive is about. The join is one woman and it is worth drawing:
+
+     Anka Blažević (1893–1953), daughter of Juraj Blažević and Tereza
+     Žubrinić — and SISTER of Ljubomir, who is Hedviga's father. So Anka is
+     Hedviga's aunt, and the five Kosina children are Hedviga's first
+     cousins. Three of them were lost in 1943.
+
+   Drawn with the kit's PersonTree, which six archives already use and which
+   puts parents above, the couple in the middle, children below and siblings
+   beside — which is exactly the shape this join has. Nothing new was built
+   for it. */
+const byId = Object.fromEntries(people.map((x) => [x.id, x]));
+const ANKA = "@I189@";
+const anka = byId[ANKA];
+/* /people/<slug> is the PERSON. /who/<slug> is the namesakes page and is keyed
+   on the slugified NAME, not on people.json's slug — which is why linking a
+   parent there produced /who/juraj-georgius-jure-georgius-george-blazevic and
+   a 404 for /who/juraj-georgius-jure-blazevic. Two routes, two slugs, and the
+   link checker caught the difference. */
+const node = (r) => ({
+  name: r.name,
+  href: r.slug ? u(`/people/${r.slug}/`) : null,
+  dates: [r.born, r.died].filter(Boolean).join("–") || null,
+});
+const ankaRel = anka ? anka.rel : { parents: [], spouses: [], children: [], siblings: [] };
+const kosinaKids = (ankaRel.children || []).map(node);
+const ankaSibs = (ankaRel.siblings || []).map(node);
 const C = K.counts;
 const name = (id) => (by[id] || {}).name || "";
 const lost = K.lostIn1943.map((id) => by[id]);
@@ -335,6 +368,30 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
 
   <section class="blk">
     <div class="lab">1919</div>
+    <h2>How this household joins the Blažević line</h2>
+    <p class="dek">One marriage carries it, and it is worth drawing rather than
+    describing. <strong>Anka Blažević was Ljubomir's sister</strong> — both children of
+    Juraj Blažević and Tereza Žubrinić — so she was <strong>Hedviga's aunt</strong>, and the
+    five Kosina children below were <strong>Hedviga's first cousins</strong>.
+    Three of them did not survive 1943.</p>
+    {anka && (
+      <div style="margin-top:1.2rem">
+        <PersonTree
+          self={node(anka)}
+          parents={(ankaRel.parents || []).map(node)}
+          spouses={(ankaRel.spouses || []).map(node)}
+          siblings={ankaSibs}
+          childGroups={kosinaKids.length ? [{ label: `${kosinaKids.length} Kosina children`, rows: kosinaKids }] : []}
+          always={true}
+        />
+      </div>
+    )}
+    <p class="small" style="margin-top:1rem">Ljubomir is on
+    <a href={u("/direct-line/")}>the direct line</a>; Hedviga is the generation below him.
+    Everyone drawn here who has a page of their own is linked.</p>
+  </section>
+
+  <section class="blk">
     <h2>Anka Blažević marries Pavao Kosina</h2>
     <p class="lede">On <strong>20 November 1919</strong>, at Senj. She was a
     <a href={u("/senj/")}>tobacco-factory</a> worker, as her sister-in-law
