@@ -49,6 +49,13 @@ const spineRows = line.map((p) => {
     weak: p.gen === 3 || !(p.sources && p.sources.length),
   };
 });
+
+/* The eight surname pages this archive keeps, handed to the spine so each
+   marriage can be a door to the family it joined. families.json already
+   holds the label and the slug; the ring in the kit supplies the rest, so
+   Hedviga's marriage out of this archive reaches the Istrian one. */
+const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }));
+
 ---
 <Base title="The Blažević Archive" bare
   dek="An evidence-first archive for the family of Hedviga Blažević of Senj.">
@@ -127,7 +134,8 @@ const spineRows = line.map((p) => {
     <h2>The spine</h2>
     <p class="dek">Eight generations of Blažević men, from a boy born about 1750 in a village that
     had existed for barely a century, down to Hedviga at Senj in 1926.</p>
-    <Spine rows={spineRows} u={u} label="g" compact={true} full="/direct-line/" />
+    <Spine rows={spineRows} u={u} label="g" compact={true} full="/direct-line/"
+           archiveKey="blazevic" families={familyDoors} />
     <p class="note"><strong>Generation three is now documented.</strong> The
     <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
     parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join

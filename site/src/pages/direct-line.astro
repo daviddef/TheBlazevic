@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
+import families from "../data/families.json";
 import ancestors from "../data/ancestors.json";
 import register from "../data/people.json";
 
@@ -59,13 +60,20 @@ const spineRows = line.map((p) => {
       : "No source of any kind attached.",
   };
 });
+
+/* The eight surname pages this archive keeps, handed to the spine so each
+   marriage can be a door to the family it joined. families.json already
+   holds the label and the slug; the ring in the kit supplies the rest, so
+   Hedviga's marriage out of this archive reaches the Istrian one. */
+const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }));
+
 ---
 <Base title="The Spine"
   eyebrow={`${line.length} generations of Blažević men`}
   dek="From a boy born about 1750 in a village barely a century old, down to Hedviga at Senj in 1926. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
 
   <section class="blk">
-    <Spine u={u} rows={spineRows} />
+    <Spine u={u} rows={spineRows} archiveKey="blazevic" families={familyDoors} />
     <p class="note"><strong>{sourced} of {line.length}</strong> generations on this spine carry a
     source string in the tree; <strong>{line.length - sourced}</strong> carry none. And a source
     string here most often means another online tree.
