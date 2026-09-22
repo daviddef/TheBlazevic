@@ -7,6 +7,13 @@ import latin from "../data/latincases.json";
 import surnames from "../data/surnames.json";
 const sp = (s) => families.find((f) => f.slug === s);
 
+// «79 people this tree writes Papić (Papa)» was typed twice on this page and was 75
+// by 22 September 2026. Both sentences ask surnames.json now.
+const papicForms = ((surnames.variants || []).find((v) => v.key === "papic") || {}).forms || [];
+const formN = (spelling) => (papicForms.find((f) => f.spelling === spelling) || {}).n || 0;
+const papaN = formN("Papić (Papa)");
+const plainN = formN("Papić");
+
 const obs = Object.entries(given.observed)
   .map(([k, v]) => [k, v, Object.values(v).reduce((a, b) => a + b, 0)])
   .sort((a, b) => b[2] - a[2]);
@@ -252,7 +259,7 @@ const dist = [
       These are <strong>nadimci</strong>, house by-names that tell one household from another where
       a whole village shares a surname — the same problem the
       <a href={u("/gazetteer/")}>house numbers</a> solve. It also puts a documented
-      <span class="mono">Papa</span> beside the 79 people this tree writes
+      <span class="mono">Papa</span> beside the {papaN} people this tree writes
       <span class="mono">Papić (Papa)</span>, and leaves an open question:
       whether that is the by-name of an <em>Antić</em> household rather than a surname in its own
       right. <a href={u("/papic/")}>The Papić line →</a>
@@ -363,9 +370,9 @@ const dist = [
 
     <div class="qa" style="margin-top:1.6rem">
       <h3>Three things that table says out loud</h3>
-      <p><strong>Papić is two villages, not two families.</strong> The 79 people written
+      <p><strong>Papić is two villages, not two families.</strong> The {papaN} people written
       <span class="mono">Papić (Papa)</span> sit at <strong>Selce</strong> and cluster around
-      <strong>1843</strong>. The 35 written plainly <span class="mono">Papić</span> sit at
+      <strong>1843</strong>. The {plainN} written plainly <span class="mono">Papić</span> sit at
       <strong>Senj</strong> and cluster around <strong>1891</strong>. Same family, half a century
       and one move apart — the village form, then the town form. It is the
       <a href={u("/senj/")}>same migration into Senj</a> the occupations already show.</p>

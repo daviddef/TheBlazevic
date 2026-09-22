@@ -1,0 +1,33 @@
+# Counts that are typed into prose on purpose, and the reason each one is allowed
+# to be. tools/numbercheck.py refuses any other hand-typed count on a page that
+# imports a data file.
+#
+# Written 22 September 2026, after four typed counts were found wrong in one
+# afternoon: /zubrinic-roots/ 21/218/74 against a real 37/286/144, /frontier/ 53
+# against 123 and 90 against 115, /name/ 79 against 75. None was wrong when it was
+# written. The archive grew and the sentences did not.
+#
+# A number belongs here when it is NOT a measurement of this archive:
+#   * a fact about the world (a census, a surname's global frequency)
+#   * a result from somebody else's index (FindMyPast, a film's own target)
+#   * a fact about a MOMENT — what a page used to say, or what a change did on a day
+#   * arithmetic that cannot drift (2^n in a pedigree)
+#
+# what|page|number|why
+Zubrinich hits on FindMyPast|america.astro|191|A result count from somebody else's search box on a given day, not a property of this archive. Re-run the search and it will move; the sentence is about what was returned.
+Zubrinich hits on FindMyPast|your-name.astro|191|The same FindMyPast figure as /america/, quoted for the reader who lands here first.
+Zubrinic bearers on earth|america.astro|312|From forebears.io — the global frequency of the surname. A fact about the world.
+Zubrinic bearers on earth|frontier.astro|312|The same forebears.io figure.
+Zubrinic bearers on earth|index.astro|312|The same forebears.io figure, on the front page.
+Zubrinic people held, at the time of the migration sweep|america.astro|216|A figure quoted against the eighty-one migration records found that day. It is about the sweep, not the current tree.
+Hedviga's tenth-generation pedigree|coverage.astro|511|Arithmetic: 2^9 - 1. A complete pedigree to the ninth generation is 511 people whatever this archive holds.
+Names held at the seventh generation|coverage.astro|22|Stated against the fixed 64 of that generation, in a sentence about the shape of the loss rather than a live count.
+Records of the surname searched for Katalyn|duplicates.astro|176|The size of the set that one check was run over, in a sentence about that check.
+Prozor's population in 1913|frontier.astro|200|An Austro-Hungarian census figure. A fact about the world.
+People in the MyHeritage tree|impossible.astro|15,643|The size of the source document. It changes only when the account holder re-exports, and when it does, every page saying it must be revisited deliberately.
+People in the MyHeritage tree|kosina.astro|15,643|The same source-document figure.
+People in the MyHeritage tree|sources.astro|15,643|The same source-document figure.
+Otocac baptism entries 1830-34|indexed.astro|83|Read off the film's own arrangement. A fact about somebody else's book.
+People whose date one source confirmed|searched.astro|21|Stated as «21 out of 414» about one sweep on one day.
+What this page used to say|zubrinic-roots.astro|232|A quotation of the archive's own retracted figure. Correcting it would erase the correction.
+People a fix brought in|zubrinic-roots.astro|214|What one change did on one day. Not a live measurement.

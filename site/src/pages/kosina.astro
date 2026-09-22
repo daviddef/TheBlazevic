@@ -4,6 +4,7 @@ import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { u } from "../lib/url.js";
 import K from "../data/kosina.json";
+import people from "../data/people.json";
 import D from "../data/kosina-descent.json";
 import people from "../data/people.json";
 // Kosina is not one of this archive's eight published surnames, so there is no
@@ -47,6 +48,7 @@ const ankaRel = anka ? anka.rel : { parents: [], spouses: [], children: [], sibl
 const kosinaKids = (ankaRel.children || []).map(node);
 const ankaSibs = (ankaRel.siblings || []).map(node);
 const C = K.counts;
+const PEOPLE = (people.rows || people).length;
 const name = (id) => (by[id] || {}).name || "";
 const lost = K.lostIn1943.map((id) => by[id]);
 const line = (id) => { const p = by[id]; if (!p) return ""; 
@@ -523,12 +525,15 @@ const descentRows = D.rows.map((r) => {
       Martin was born in that house, and twenty-nine before he died in it as an
       <em>Ausnehmer</em>. The house was never his son's alone. <strong>It was his.</strong></span></div>
 
-    <div class="note" style="margin-top:1rem"><strong>Three of their five known children did not
+    <div class="note" style="margin-top:1rem"><strong>Three of their six known children did not
       live.</strong> Elisabeth five months, Maria nine months, Valentin fourteen days — 1812, 1815
-      and 1820, in one cottage. The two who grew up are <strong>Johann</strong>, born about 1802,
-      and <strong>Gertraud</strong>, born in 1814 between two of the deaths, who lived to bear
-      Martin. <strong>Five is what is known, not what there were</strong>: three more Kosina
-      baptisms of these years have not been opened yet.
+      and 1820, in one cottage. The three who grew up are <strong>Johann</strong>, born about 1802,
+      <strong>Gertraud</strong>, born in 1814 between two of the deaths and the one who lived to
+      bear Martin, and <strong>a second Maria</strong>, baptised 6 December 1818.
+      <span style="display:block;margin-top:.6rem"><strong>The second Maria is named for the
+      first.</strong> Her sister had been dead twenty months. Re-using the name of a child who did
+      not live is ordinary in these books and is not a clerk's slip — it is a family deciding that
+      the name should go on.</span>
       <span style="display:block;margin-top:.6rem"><strong>That is not a remarkable household. It
       is an ordinary one</strong>, and it is the first time this archive has been able to say so
       about anybody in Carniola.</span></div>
@@ -539,10 +544,39 @@ const descentRows = D.rows.map((r) => {
     <strong>1812–1835</strong> holds Elisabeth 1813, two Maria in 1816, Matthäus 1819, Valentin 1820
     and Margareth 1826. The <strong>K</strong> section for <strong>1836–1869</strong> holds Franz
     1849 and Luzia 1850. <strong>She is in neither.</strong></p>
-    <p>She was alive in <strong>February 1820</strong>, at about forty, because Valentin was
-    baptised then and entered <em>ehelich</em>. So she died <strong>unindexed, after 1869 at
-    eighty-nine or more, or in another parish</strong> — and the next place to look is the death
-    registers of 1870–1890 and 1890–1911, which are also free.</p>
+    <p>She was alive in <strong>December 1818</strong>, and bearing children until
+    <strong>February 1820</strong>. So she died <strong>unindexed between 1820 and 1869, or in
+    another parish</strong>. The later registers were opened the same evening and they close the
+    other door: <strong>1890–1911 holds no Kozina death at all</strong>, and she would have been a
+    hundred and ten.</p>
+
+    <div class="note"><strong>THE SAME EVENING ANSWERED A BIGGER QUESTION ABOUT SOMEBODY ELSE.</strong>
+      The reason for opening the late registers was Maria. What they actually settled was
+      <strong>GERTRAUD</strong> — Martin's mother, the woman this archive has one record in the
+      world for.
+      <span style="display:block;margin-top:.6rem">The death register for <strong>1890–1911</strong>
+      was read <strong>opening by opening, all 199 of them</strong>, and the 1887–1890 tail of the
+      previous volume with it. <strong>In twenty-five years there is not one Kozina death in this
+      parish.</strong> The index for 1836–1869 holds only Franz and Luzia.</span>
+      <span style="display:block;margin-top:.6rem">And she was <strong>alive in January
+      1888</strong>: her son's Senj marriage carries no dagger against her name and calls her a
+      <em>posjednica</em>, a property-owner. <strong>Alive in 1888, and not dead at Kranj–Šmartin
+      afterwards — so she left.</strong></span>
+      <span style="display:block;margin-top:.6rem"><strong>The place to look is Senj</strong>, where
+      her son was a merchant, where she is named in his marriage entry, and where this archive
+      already works. That is a much better door than the one we went looking for.</span></div>
+
+    <h3 style="margin-top:2rem">One Kozina woman does turn up, and she is not in the family tree</h3>
+    <p>Twenty-five years of that register hold exactly one person of the name, and only as a mother.
+    <strong>Marija, born Kozina</strong>, married <strong>Kancijan Česen</strong>, a
+    <em>hišar-dninar</em> — a cottager and day-labourer — at <strong>Stražišče 84</strong>, the
+    parish seat rather than Bitnje. Two of their children are in the book: <strong>Kancijan</strong>,
+    1892, aged one and three quarter months, and <strong>Pavla</strong>, 1893, aged two.</p>
+    <p><strong>Nothing joins her to this family but the surname and the parish</strong>, and the
+    ages of her children put her birth somewhere around 1860–1870 — Martin's own generation or the
+    one below it. <strong>The document that would settle it is her marriage</strong>, in the
+    Kranj–Šmartin marriage book for 1881–1899, which names both parents of both parties. It has not
+    been opened.</p>
 
     <div class="note"><strong>One thing this index got wrong, and it is worth saying.</strong>
       It sends a reader to page <strong>132</strong> for Margareth Kozinar. <strong>She is on page
@@ -550,14 +584,26 @@ const descentRows = D.rows.map((r) => {
       on the page it promised. <strong>An index that is right fifteen times and wrong once is still
       the fastest way in — but the page number is a hint and not a fact.</strong></div>
 
+    <h3 style="margin-top:2rem">And one index entry in three turned out not to be there</h3>
+    <p>The baptismal index lists <strong>Kosina Dorothea — 8</strong> and <strong>Kosina Marianna —
+    16</strong> for 1813 alongside the Maria at page 84. Page 84 delivered: it is Franz and Maria's
+    second daughter of that name. <strong>Pages 8 and 16 did not.</strong> Both were opened and the
+    whole <em>Namen des Vaters</em> column of each was read at two and a half times —
+    <strong>there is no Kosina on either page.</strong> The Dorothea on page 8 is the daughter of
+    <em>Anton Polzner, Inwohner</em>, at house 12.</p>
+    <p><strong>This is the same index that sends a reader to page 132 for Margareth Kozinar, who is
+    on page 130.</strong> So the two 1813 entries are not wrong, they are misdirected — the
+    children exist somewhere in the volume and the page numbers do not reach them. They are left
+    open rather than explained away.</p>
+
     <p class="dek" style="margin-top:1.4rem"><strong>The scans are the archdiocese's, not ours</strong>,
     so they are transcribed here and linked rather than republished. Deaths 1812–1835, sig.
     <span class="mono">00894</span>, images 4, 18, 33, 37 and 66; its index, sig.
     <span class="mono">04634</span>, images 125–126. Baptisms 1812–1831, sig.
-    <span class="mono">00885</span>, images 4, 23 and 55; its index, sig.
-    <span class="mono">04631</span>, image 169. All at <span class="mono">data.matricula-online.eu</span>.
-    <strong>Still unread in the same free books: the baptisms of a Dorothea and a Marianna Kosina,
-    both 1813, and a second Maria in 1818.</strong></p>
+    <span class="mono">00885</span>, images 4, 5, 9, 23, 43 and 55; its index, sig.
+    <span class="mono">04631</span>, image 169. Deaths 1870–1890, sig. <span class="mono">03916</span>,
+    and 1890–1911, sig. <span class="mono">03917</span>, read opening by opening. All at
+    <span class="mono">data.matricula-online.eu</span>.</p>
   </section>
 
   <section class="blk">
@@ -754,7 +800,10 @@ const descentRows = D.rows.map((r) => {
     <strong>The rule gained two more doors that day.</strong> <em>A person this archive has opened a
     page for gets a page</em>, listed in <span class="mono">sources/documented.psv</span>; and
     <strong>the parents of every published person, to the root</strong>, because a page that says
-    «child of X» must be able to link X. <strong>1,460 people became 1,903.</strong></p>
+    «child of X» must be able to link X. <strong>1,460 people became 1,903 that afternoon</strong>,
+    and the archive publishes <strong>{PEOPLE.toLocaleString()}</strong> today — the two numbers are
+    not the same thing and this page will not pretend they are. <strong>1,903 is what the change
+    did; the live figure moves every time the tree is swept.</strong></p>
   </section>
 
   <section class="blk">

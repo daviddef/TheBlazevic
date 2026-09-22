@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import media from "../data/media.json";
+import coverage from "../data/coverage.json";
 const docs = media.filter((m) => m.kind === "document");
 const pics = media.filter((m) => m.kind === "photograph");
 const big = media.filter((m) => m.w >= 2500).length;
@@ -13,7 +14,7 @@ const big = media.filter((m) => m.w >= 2500).length;
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{media.length}</div><div class="l">items, tagged to 35 of
-        the 70 published ancestors</div></div>
+        the {coverage.length} published ancestors</div></div>
       <div class="stat"><div class="n">{docs.length}</div><div class="l">register scans,
         certificates and gravestones</div></div>
       <div class="stat"><div class="n">{big}</div><div class="l">at 2,500 px or wider — many of the

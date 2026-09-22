@@ -123,3 +123,61 @@ of partial.
 **And read the index's own appendices.** The women of 1812–1822 are in a supplement at the back of
 this one, under a Slovene heading, **not in the main alphabetical run**. A K section read without
 it would have missed both Marias and Elisabeth — three of the six.
+
+---
+
+## Added the same evening: the late registers, and what they actually answered
+
+**The two books after 1869 are not indexed**, so they were walked. Deaths **1890–1911** (sig. 03917),
+**199 openings**, plus the 1887–1890 tail of sig. 03916 — every *Ime, priimek in stan mrličev* column,
+read five openings to a sheet.
+
+**There is not one Kozina death in this parish in twenty-five years.**
+
+### Which settles Gertraud, who was not the one we were looking for
+
+Martin's mother was **alive in January 1888**: her son's Senj marriage carries **no dagger** against her
+name and calls her a **posjednica**, a property-owner. The index for 1836–1869 holds only Franz and
+Luzia. And 1887–1911 holds nobody of the name at all.
+
+**Alive in 1888, and not dead at Kranj–Šmartin afterwards. She left.**
+
+**The search for her moves to SENJ** — where her son was a *trgovac*, where she is named in his marriage
+entry, and where this archive already reads registers. She has **one record in the world**; this would be
+her second.
+
+### One Kozina woman is in the book, and only as a mother
+
+**Marija, born Kozina**, married **Kancijan Česen**, a *hišar-dninar* at **Stražišče 84** — the parish
+seat, not Bitnje. Two of their children die: **Kancijan** 1892, aged one and three quarter months, and
+**Pavla** 1893, aged two. Their ages put her birth about **1860–1870**.
+
+**Nothing joins her to this family but the surname and the parish.** The document that would settle it is
+her own marriage, in **sig. 03919 (1881–1899)**, which names both parents of both parties. Not opened.
+
+### And a sixth child, from the baptismal index
+
+**«Kosina Maria — 84»** under 1818 is **Franz Kosinar, Häusler** and **Maria Dortschan** again, on
+**6 December 1818** — **named for the daughter who had died in March 1816**. Re-using a dead child's name
+is ordinary and is not a clerk's slip.
+
+**So the marriage produced six known children, not five**, and three of the six died under a year. This
+note said five for part of one evening, on a count that listed five and wrote six; the sixth then turned
+out to be a real and different child.
+
+### Two index entries that do not land
+
+**«Kosina Dorothea — 8»** and **«Kosina Marianna — 16»**, both 1813. Both pages were opened and the whole
+*Namen des Vaters* column of each read at 2.4×: **there is no Kosina on either.** The Dorothea on page 8
+is the daughter of *Anton Polzner, Inwohner*, at house 12.
+
+This is the same index that sends a reader to **p.132** for a Margareth who is on **p.130**. So these are
+**misdirections, not errors** — the children are somewhere in the volume and the page numbers do not
+reach them. Left open.
+
+### What the walk cost, for the sister archives
+
+**337 openings downloaded, 44 sheet-reads, one evening.** Crop the one column that carries the surname,
+tile **five openings to a sheet**, and read the sheet. Do not read pages. **And pick the window from what
+you already know**: the marriage entry that said *posjednica* with no dagger is what made 1888 the floor,
+and it is why twenty-five years was enough rather than a hundred.

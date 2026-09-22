@@ -64,7 +64,7 @@ CARNIOLAN = [
      "THE HOUSE HIS GRANDSON MARTIN WAS BORN IN eight years earlier."),
     ("Maria \"Mina\" Dortschen", 1780,
      "b. about 1780 · m. 27 October 1800, aged 20 · still bearing children in 1820",
-     "Martin's grandmother, and the mother of five children now known by name — "
+     "Martin's grandmother, and the mother of six children now known by name — "
      "three of whom died before they were a year old. Six "
      "clerks wrote her surname across thirty-three years and FOUR OF THEM WROTE "
      "«Dortschen» — 1800, 1812, 1815, 1820 — against this archive's own bracketed "
@@ -116,6 +116,11 @@ HOUSEHOLD = [
      "HOUSE: it is the record that puts Franz at Oberfeichting 9 as a Häubler, "
      "twenty-one years before Martin was born there.",
      "son of Franz and Maria"),
+    ("Maria Kosinar the second", 1818,
+     "baptised 6 December 1818, Oberfeichting",
+     "Franz and Maria's sixth known child, and named for the sister who had died "
+     "twenty months before she was born. No death is known for her.",
+     "daughter of Franz and Maria"),
     ("Margaretha Kosinar", 1781,
      "d. 14 March 1826, aged 45, a Häubler's daughter, unmarried",
      "She died in Franz's house at forty-five, of his own generation. Most likely "

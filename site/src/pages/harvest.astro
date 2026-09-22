@@ -1,12 +1,17 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import people from "../data/people.json";
 import T from "../data/targets.json";
 
 const withAhn = T.books.filter((b) => b.ahn.length);
 const selceDeaths = T.books.find((b) => b.parish === "Selce" && b.kind === "deaths");
 const novi = T.books.find((b) => b.parish === "Novi Vinodolski" && b.kind === "births");
 const label = { births: "baptisms", deaths: "deaths", marriages: "marriages" };
+const H22 = /(Povile|Klenovica)\s*22\b/;
+const house22 = (people.rows || people).filter((r) =>
+  H22.test(`${r.bornPlace || ""} ${r.diedPlace || ""}`)).length;
+
 ---
 <Base title="What Is Left to Read"
   eyebrow={`${T.totalReachable} events that fall inside a film this archive can reach`}
@@ -44,7 +49,7 @@ const label = { births: "baptisms", deaths: "deaths", marriages: "marriages" };
     {novi?.reachable} events fall inside its baptism register, which is catalogued from
     <strong>1650</strong> — a century older than anything this archive currently holds. That is the
     parish for <strong>Klenovica</strong> and <strong>Povile</strong>, where this archive found that
-    <a href={u("/gazetteer/")}>house 22 in each is one house holding 67 people</a>.</p>
+    <a href={u("/gazetteer/")}>house 22 in each is one house holding {house22} people</a>.</p>
     <div class="note" style="margin-top:1.1rem"><strong>Opened on 14 September 2026, and the 1650
     holds — but the hand is a surprise.</strong> The film's own target, shot at the Croatian State
     Archives in 1987, reads <span class="mono">ŽUPA NOVI VINODOL · ROĐENIH 1650–1786</span>, which

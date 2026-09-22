@@ -1,6 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import gaz from "../data/gazetteer.json";
+import Z from "../data/zubrinicroots.json";
+
+// «53 people in this tree are born or die here» was typed, and by 22 September 2026
+// the real figure was 123. Asked of the same gazetteer the /gazetteer/ page draws.
+const zPlaces = (gaz.zubrinic && gaz.zubrinic.places) || [];
+const otocac = zPlaces.find((p) => p.village === "Otočac") || { n: 0, from: 0, to: 0 };
 ---
 <Base title="The Frontier"
   eyebrow="Otočac, Šumećica, Prozor"
@@ -68,8 +75,9 @@ import { u } from "../lib/url.js";
       <div class="card">
         <h3>Otočac</h3>
         <p>The regimental town in the <strong>Gacka</strong> valley, inland from Senj across the
-        Velebit. <strong>53 people</strong> in this tree are born or die here — the single largest
-        Žubrinić place.</p>
+        Velebit. <strong>{otocac.n} people</strong> in this tree are born or die here, between
+        <strong>{otocac.from}</strong> and <strong>{otocac.to}</strong> — the single largest
+        Žubrinić place, by a distance.</p>
       </div>
       <div class="card">
         <h3>Šumećica</h3>
@@ -248,11 +256,11 @@ import { u } from "../lib/url.js";
 
   <section class="blk">
     <div class="lab">The honest state of it</div>
-    <h2>422 records, 90 loose ends, and an alphabet</h2>
+    <h2>{Z.records} records, {Z.fragments.length} loose ends, and an alphabet</h2>
     <p class="lede">The Žubrinić material in this tree is <strong>not one family</strong>. It is
-    <strong>422 records</strong> resolving into <strong>90 loose ends</strong> — 90
-    people with no recorded Žubrinić parent — which means the research has gathered the name
-    without yet joining it up.</p>
+    <strong>{Z.records} records</strong> resolving into <strong>{Z.fragments.length} loose
+    ends</strong> — {Z.fragments.length} people with no recorded Žubrinić parent — which means the
+    research has gathered the name without yet joining it up.</p>
     <table class="kv">
       <tr><th>Our line</th><td>Descends from an <strong>unnamed “Žubrinić”</strong> node with
         <strong>731 descendants</strong> in the tree — the largest fragment — through

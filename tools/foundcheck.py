@@ -72,6 +72,23 @@ SETTLED = {
     # Carniolan woman against a Croatian one on a given name and a year that
     # mean different things. This one is the plainest of the three, because
     # the found row's year IS a birth and the two lives do not overlap.
+    # 22 September 2026. Both of these are the same shape a third and fourth time:
+    # a Carniolan woman against a Croatian one on a given name and a year, where
+    # the year on the found row is not even a birth.
+    "Maria Kosinar the second":
+        "baptised at Kranj-Šmartin on 6 December 1818 to Franz Kosinar and Maria "
+        "Dortschen. Maria Papić (Papa) of 1818 is at Selce, four hundred "
+        "kilometres away, with a different surname and different parents. A "
+        "shared given name and a shared year is the whole resemblance",
+
+    "Marija Kozina":
+        "known only as a mother — «Marije roj. Kozina», wife of Kancijan Česen at "
+        "Stražišče 84 in Carniola. THE 1892 ON HER ROW IS HER CHILD'S DEATH, not "
+        "her birth: she will have been born around 1860-70. The candidates are "
+        "Croatian girls BORN in 1892-93 — Marija Kalanj, Marija Boras and the "
+        "rest — so they are a generation out as well as four hundred kilometres "
+        "away, and share nothing but a given name",
+
     "Maria Kosinar":
         "baptised at Kranj-Šmartin on 8 August 1815 and BURIED THERE ON 31 "
         "MARCH 1816, aged three quarters of a year — the register gives both "

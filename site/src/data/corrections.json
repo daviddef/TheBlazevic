@@ -1240,5 +1240,32 @@
   "record": "No record has been opened for this person",
   "why": "The tree does not say when this person was born. It says **BEFORE** a year, and the check subtracts that hedge from the child's birth as though it were a date. «Born BEF 1795» means born at some point before 1795 — it is a CEILING, so the age it yields is a FLOOR and not a fact. Nothing here contradicts anything; the tree is simply vaguer than the arithmetic assumes. These people came into this archive on 22 September 2026 with the parents closure, and they are the Defranceschi line this family married into rather than its own.",
   "href": "/impossible/"
+ },
+ {
+  "id": "@I506276@",
+  "kind": "corrected",
+  "what": "Place of death",
+  "tree": "Beunos Aires, Argentina",
+  "record": "Buenos Aires, Argentina",
+  "why": "A typing slip in the tree, not a disagreement between sources. The city is Buenos Aires. It is recorded here rather than edited because this archive reads the MyHeritage tree and never writes to it — and because a search for «Buenos Aires» in this data would otherwise miss the one man who died there.",
+  "href": "/kosina/"
+ },
+ {
+  "id": "@I506276@",
+  "kind": "open",
+  "what": "Date of death",
+  "tree": "1954",
+  "record": "15 January 1954",
+  "why": "His printed memorial card, supplied by the family on 21 September 2026, gives the day. The tree gives the year alone.",
+  "href": "/kosina/"
+ },
+ {
+  "id": "@I506276@",
+  "kind": "open",
+  "what": "Date of birth",
+  "tree": "4 September 1922",
+  "record": "4 April 1922",
+  "why": "The memorial card reads «✻ 4. IV. 1922» — the fourth of April — where the tree says 4 September. The day agrees and the month does not, and the two candidates are IV and IX. A card set by a grieving family in Argentina is not a register; neither is a tree. Recorded, not resolved.",
+  "href": "/kosina/"
  }
 ]
