@@ -20,6 +20,40 @@ const surplus = (D.groups || []).filter((g) => !g.tier.startsWith("rejected"))
   .reduce((a, g) => a + (g.n - 1), 0);
 const distinct = rows.length - surplus;
 const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
+
+/* WHY 13% OF THE CHILDREN THIS ARCHIVE DRAWS ARE NOT LINKS, decomposed rather
+   than asserted. Asked on 23 September 2026 after a sibling session measured
+   «2,497 children drawn, 2,167 linked» against five archives that link 100%,
+   and read the shortfall as the estate's last content gap.
+   It is three different things and only one of them is a gap:
+     * a living person this archive WITHHOLDS — no name, no page, by policy;
+     * a MyHeritage sorting bucket, which is a label and not a person;
+     * a real person of a surname this archive does not publish.
+   The comparison is also not like-for-like: the archives at 100% publish a
+   name-only page for their living people, so every child links. This one
+   withholds them, and scores lower for showing the gap instead of filling it.
+   All of it is counted here, never typed. */
+const kidRows = people.flatMap((p) => (p.rel && p.rel.children) || []);
+const kidsLinked = kidRows.filter((c) => c.slug).length;
+const kidsWithheld = kidRows.filter((c) => !c.slug && c.withheld).length;
+const unlinkedIds = new Set(kidRows.filter((c) => !c.slug && !c.withheld && c.id).map((c) => c.id));
+const unlinkedPeople = [...new Set(kidRows.filter((c) => !c.slug && !c.withheld).map((c) => c.id))];
+const byId = new Map(kidRows.filter((c) => c.id).map((c) => [c.id, c]));
+const isLabel = (n) => !!n && (/[:,]/.test(n) || /^[A-Z][A-Z &'\-]{3,}/.test(n)
+  || /\b(Unknown|Sorting|Working|Lines)\b/i.test(n));
+const unlinkedLabels = unlinkedPeople.filter((id) => {
+  const c = byId.get(id); return c && !c.born && !c.died && isLabel(c.name); }).length;
+const unlinkedReal = unlinkedPeople.length - unlinkedLabels;
+const kidSur = {};
+for (const id of unlinkedPeople) {
+  const c = byId.get(id); if (!c || !c.name) continue;
+  if (!c.born && !c.died && isLabel(c.name)) continue;
+  const last = c.name.trim().split(/\s+/).pop();
+  kidSur[last] = (kidSur[last] || 0) + 1;
+}
+const kidSurTop = Object.entries(kidSur).sort((a, b) => b[1] - a[1]).slice(0, 6);
+const franceschi = Object.entries(kidSur)
+  .filter(([s]) => /franceschi|franceski/i.test(s)).reduce((a, [, n]) => a + n, 0);
 ---
 <Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
   dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
@@ -86,5 +120,40 @@ const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
       }))} />
   </section>
 
+  <section class="blk">
+    <div class="lab">Measured 23 September 2026</div>
+    <h2>Why {(kidRows.length - kidsLinked).toLocaleString()} of the children on these pages are not links</h2>
+    <p class="lede">These pages draw <strong>{kidRows.length.toLocaleString()} children</strong> and
+    link <strong>{kidsLinked.toLocaleString()}</strong> of them. <strong>The rest is not one thing,
+    and only part of it is a gap.</strong></p>
+    <table class="kv">
+      <tr><th class="warn">{kidsWithheld} withheld</th><td><strong>Living people.</strong> They are
+        drawn as an unnamed slot with no page, deliberately. It is the rule this
+        archive applies everywhere: a person who may be alive gets no page, and in most places not
+        even a name. <strong>These can never become links</strong>, and an archive that scores 100%
+        here is one that publishes a name-only page for its living relatives instead.</td></tr>
+      <tr><th class="warn">{unlinkedLabels} labels</th><td><strong>Not people.</strong> MyHeritage
+        <a href={u("/buckets/")}>sorting buckets</a> standing where a parent or child should be —
+        «AUSTRIA: De Franceschi», «ZAGREB Defranceski's». A page for one of these would be a page
+        for a filing category.</td></tr>
+      <tr><th>{unlinkedReal} people</th><td><strong>Real, and outside
+        <a href={u("/families/")}>the eight surnames</a>.</strong> Not one of them carries a name
+        this archive publishes: {kidSurTop.map(([s, n], i) => (
+          <span>{i ? ", " : ""}<strong>{s}</strong> {n}</span>))}. They are the children of people
+        who married in, by other unions.</td></tr>
+    </table>
+    <p style="margin-top:1.2rem"><strong>On 23 September 2026 the account holder was asked what to
+    do about the {unlinkedReal}, and chose neither to publish them here nor to leave them
+    unexplained</strong> — the {franceschi} <strong>Defranceschi and Franceschi</strong> among them
+    belong to <a href="https://daviddef.github.io/TheDefranceski/">the Defranceski archive</a>, and
+    should be links into it rather than pages here.</p>
+    <div class="note"><strong>That half cannot be built yet, and saying so is the point.</strong>
+      The Defranceski archive publishes <strong>nine</strong> people — Carlo, Camillo and the other
+      documented figures of the name — and <strong>none of the {franceschi} is among them</strong>.
+      There is nothing to link to.
+      <span style="display:block;margin-top:.6rem">So they stay unlinked, with this page saying
+      why, until that archive publishes them. <strong>An empty link would have looked like
+      progress.</strong></span></div>
+  </section>
 
 </Base>
