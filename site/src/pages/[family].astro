@@ -5,7 +5,9 @@ import families from "../data/families.json";
 import { people, lifespan, surnameGroup } from "../lib/people.js";
 import { COPY } from "../lib/familyCopy.js";
 import Households from "@daviddef/archive-kit/components/Households.astro";
-import { householdsOf } from "../lib/households.js";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import { householdsOf, descentOf } from "../lib/households.js";
+import FOUND from "../data/found.json";
 import line from "../data/line.json";
 
 export function getStaticPaths() {
@@ -26,6 +28,19 @@ const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
    The builder is in lib/households.js because the families index wants the
    same count and this estate keeps paying for logic written twice. */
 const households = householdsOf(keys, new Set(line.map((g) => g.id)));
+
+/* AND EVERY PERSON OF THE NAME, drawn as the front page draws a generation.
+   Asked for on 22 September: the family pages should use the same shape as
+   the descent, and should list everyone the archive holds of the surname
+   rather than only the couples — which left fifty-nine of Papić's hundred
+   and sixteen off the page because they never married.
+
+   The register-only people come in with them. They have had a page under
+   /found/ since this morning and they belong beside their own family, with
+   a pill saying which side of the tree they fall on — a fact about the
+   MyHeritage export, not about the evidence. */
+const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }));
+const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || []);
 ---
 <Base title={meta.label} eyebrow={copy.eyebrow} dek={copy.dek}>
   <section class="blk">
@@ -64,6 +79,16 @@ const households = householdsOf(keys, new Set(line.map((g) => g.id)));
       children of these couples. It is not a claim that they lived under one roof,
       nor that any list is complete — infant deaths in particular go unrecorded in a
       tree built from indexes.`} />
+  </section>
+
+  <section class="blk">
+    <h2>Everyone of the name, generation by generation</h2>
+    <p class="dek">All <strong>{everyone.length}</strong> people this archive holds of the name,
+    oldest first, in the shape the front page uses — the couple in two columns, the children
+    beneath them, brothers and sisters under whichever of the two they belong to. Everything is
+    shut until you open it. The rows marked <em>parish register</em> are people read off a page
+    that the family tree has never had; they are not less proved, they are just not typed in.</p>
+    <Descent rows={everyone} u={u} archiveKey="blazevic" families={familyDoors} />
   </section>
 
   <section class="blk">
