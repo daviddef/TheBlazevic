@@ -4,30 +4,66 @@ import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
 import ancestors from "../data/ancestors.json";
+import register from "../data/people.json";
 
 const byGen = {};
 for (const a of ancestors) (byGen[a.gen] ||= []).push(a);
 const gens = Object.keys(byGen).map(Number).sort((a, b) => a - b);
 const sourced = line.filter((p) => p.sources && p.sources.length).length;
+
+/* THE SPINE WAS DRAWING A THIRD OF WHAT THIS ARCHIVE HOLDS ABOUT THESE
+   EIGHT MEN. It passed a name, a birth year, a birthplace, a death year
+   and the occupations stuffed into `note` as a dim span — and dropped the
+   wives, the deathplaces, the sources it counts in its own footnote, and
+   the brothers and sisters.
+
+   None of that needed finding. people.json carries `rel.spouses` and
+   `rel.siblings` for every one of them; line.json carries diedPlace,
+   occupations and sources. The row has accepted all of it since it was
+   written.
+
+   The siblings matter here more than in most archives. Generation two's
+   sister is Anka Blažević, and /kosina/ is a whole page about what
+   happened to her household — a page that could not be reached from the
+   spine it belongs to. */
+const REL = new Map(register.map((r) => [r.id, r.rel || {}]));
+const spineRows = line.map((p) => {
+  const rel = REL.get(p.id) || {};
+  const sibs = rel.siblings || [];
+  return {
+    gen: p.gen,
+    name: p.name,
+    href: `/people/${p.slug}/`,
+    spouse: ((rel.spouses || [])[0] || {}).name || "",
+    born: p.byear || "", bornPlace: p.bornPlace || "",
+    died: p.dyear || "", diedPlace: p.diedPlace || "",
+    trade: (p.occupations || []).map((o) => o.what).filter(Boolean).join(" · "),
+    household: sibs.length
+      ? { label: sibs.length === 1 ? "His sister or brother" : "Brothers and sisters",
+          members: sibs.map((x) => ({
+            name: x.name,
+            // The archive's own slug, never one built from the name here.
+            href: x.slug ? `/people/${x.slug}/` : null,
+            dates: [x.born, x.died].filter(Boolean).join("\u2013") || "",
+          })) }
+      : null,
+    // The footnote under this spine counts these; the rows never showed
+    // them. A source string here is most often another online tree, which
+    // is the archive's own point and is worth being able to see per row.
+    sources: (p.sources || []).map((x) => ({ label: String(x).split(" \u2014 ")[0] })),
+    weak: p.gen === 3 || !(p.sources && p.sources.length),
+    weakNote: p.gen === 3
+      ? "Still no birth or death date — but no longer undocumented: the 1920 marriage register names him as Ljubomir's father."
+      : "No source of any kind attached.",
+  };
+});
 ---
 <Base title="The Spine"
   eyebrow={`${line.length} generations of Blažević men`}
   dek="From Hedviga at Senj in 1926 back to a boy born about 1750 in a village barely a century old. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
 
   <section class="blk">
-    <Spine u={u} rows={line.map((p) => ({
-      gen: p.gen,
-      name: p.name,
-      href: `/people/${p.slug}/`,
-      born: p.byear || "", bornPlace: p.bornPlace || "",
-      died: p.dyear || "",
-      note: (p.occupations && p.occupations.length
-        ? `<span class="dim">${p.occupations.map((o) => o.what).filter(Boolean).join(" · ")}</span>` : ""),
-      weak: p.gen === 3 || !(p.sources && p.sources.length),
-      weakNote: p.gen === 3
-        ? "Still no birth or death date — but no longer undocumented: the 1920 marriage register names him as Ljubomir's father."
-        : "No source of any kind attached.",
-    }))} />
+    <Spine u={u} rows={spineRows} />
     <p class="note"><strong>{sourced} of {line.length}</strong> generations on this spine carry a
     source string in the tree; <strong>{line.length - sourced}</strong> carry none. And a source
     string here most often means another online tree.
