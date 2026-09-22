@@ -46,7 +46,7 @@
       "children": [
         { "found": "johann-kosina", "dates": "b. about 1802" },
         { "found": "elisabeth-kosinar", "dates": "1812 – 1813" },
-        { "found": "gertraud-gertruda-kosina", "name": "Gertraud «Gertruda» Kosina", "dates": "b. 1814", "line": true, "note": "Martin's mother" },
+        { "found": "gertraud-gertruda-kosina", "name": "Gertraud «Gertruda» Kosina", "dates": "1814 – 1880", "line": true, "note": "Martin's mother" },
         { "found": "maria-kosinar", "dates": "1815 – 1816" },
         { "found": "valentin-kosina", "dates": "1820 – 1820" }
       ],
@@ -59,10 +59,11 @@
     },
     {
       "gen": 2,
-      "era": "1814",
+      "era": "1814 – 1880",
       "found": "gertraud-gertruda-kosina",
       "name": "Gertraud «Gertruda» Kosina",
       "born": "baptised 18 March 1814, Feichting house 10",
+      "died": "5 March 1880, aged 65, at Zgornje Bitno 9 — the house she bore Martin in",
       "spouseAlt": "She never married. Martin was born to her at twenty-seven, and the family tree knows her only as the name «Gertruda».",
       "place": "Feichting house 10, Kranj–Šmartin",
       "fromRegister": true,
@@ -97,7 +98,7 @@
         { "name": "Petrus Kosina", "dates": "b. 1836" }
       ],
       "hisSiblings": [
-        { "found": "gertraud-gertruda-kosina", "name": "Gertraud «Gertruda» Kosina", "dates": "b. 1814", "line": true },
+        { "found": "gertraud-gertruda-kosina", "name": "Gertraud «Gertruda» Kosina", "dates": "1814 – 1880", "line": true },
         { "found": "elisabeth-kosinar", "dates": "1812 – 1813" },
         { "found": "maria-kosinar", "dates": "1815 – 1816" },
         { "found": "valentin-kosina", "dates": "1820 – 1820" }
