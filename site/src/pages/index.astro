@@ -6,6 +6,7 @@ import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro"
 import { chartGroups } from "../lib/marriedin.js";
 import SovereigntyTimeline from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import { u } from "../lib/url.js";
 import recent from "../data/recent.json";
 import line from "../data/line.json";
@@ -17,6 +18,34 @@ import sov from "../data/sovereignty.json";
 
 const blazevic = families.find((f) => f.slug === "blazevic");
 const zubrinic = families.find((f) => f.slug === "zubrinic");
+
+/* THE LADDER SHOWED EIGHT MEN AND NOT ONE OF THEIR WIVES. Raised across
+   the estate on 22 September: the front-page lines «show spouses, location
+   pills, siblings». This one was hand-rolled — a generation number, a
+   name, two years and a place — and it was the same four columns the other
+   seven archives had each built separately, so it goes to the kit's row
+   and gains the rest.
+
+   line.json has no spouse field, but people.json does: `rel.spouses` is
+   already populated and is what /kosina/ draws Anka's marriage from. The
+   name only, because a wife's own dates belong on the full spine.
+
+   The weak rule is direct-line.astro's, verbatim — generation three, or a
+   generation with no source of any kind — so the two pages cannot come to
+   different conclusions about the same joint. */
+const REL = new Map(register.map((r) => [r.id, r.rel || {}]));
+const spineRows = line.map((p) => {
+  const sp = ((REL.get(p.id) || {}).spouses || [])[0];
+  return {
+    gen: p.gen,
+    name: p.name,
+    spouse: (sp && sp.name) || "",
+    born: p.byear || "", bornPlace: p.bornPlace || "",
+    died: p.dyear || "", diedPlace: p.diedPlace || "",
+    trade: (p.occupations || []).map((o) => o.what).filter(Boolean)[0] || "",
+    weak: p.gen === 3 || !(p.sources && p.sources.length),
+  };
+});
 ---
 <Base title="The Blažević Archive" bare
   dek="An evidence-first archive for the family of Hedviga Blažević of Senj.">
@@ -95,16 +124,7 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
     <h2>The spine</h2>
     <p class="dek">Eight generations of Blažević men, from Hedviga back to a boy born about 1750 in
     a village that had existed for barely a century.</p>
-    <ol class="spine">
-      {line.map((p) => (
-        <li>
-          <span class="g">g{p.gen}</span>
-          <a href={u(`/people/${p.slug}/`)}>{p.name}</a>
-          <span class="yrs">{p.byear || "?"}–{p.dyear || "?"}</span>
-          <span class="pl">{p.bornPlace || p.diedPlace || ""}</span>
-        </li>
-      ))}
-    </ol>
+    <Spine rows={spineRows} u={u} label="g" compact={true} full="/direct-line/" />
     <p class="note"><strong>Generation three is now documented.</strong> The
     <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
     parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
