@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Families from "@daviddef/archive-kit/components/Families.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
+import { householdsOf, familyKeys } from "../lib/households.js";
 
 /* 22 September 2026. The card is the kit's. What this archive can put behind
    the claim is NOT people — it has no member list — so it gives what it does
@@ -14,6 +15,14 @@ import families from "../data/families.json";
    The four that ARE Hedviga's grandparents link to their own pages and the
    four that married in do not, because only the first four have one. */
 const OURS = ["blazevic", "zubrinic", "papic", "prpic"];
+/* THE INDEX COUNTED PEOPLE AND SAID NOTHING ABOUT COUPLES. Each family
+   page now draws its households — fifty-seven on Papić — and the index
+   that sends a reader there gave no hint of what was behind the link.
+   Counted from the same builder the pages use, so the two can never
+   disagree about how many couples a surname has. */
+const HH = Object.fromEntries(
+  families.map((f) => [f.slug, householdsOf(familyKeys(f.slug)).length]));
+
 const groups = [{
   rows: families.map((f) => ({
     label: f.label,
@@ -26,6 +35,7 @@ const groups = [{
       ["Births span", `${f.earliest ?? "?"} – ${f.latest ?? "?"}`],
       ["Spellings", String(f.spellings.length)],
       ["Chief place", f.places[0] ? f.places[0][0] : "—"],
+      ["Couples", HH[f.slug] ? String(HH[f.slug]) : "none recorded"],
     ],
   })),
 }];
