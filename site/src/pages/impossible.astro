@@ -3,6 +3,16 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import C from "../data/consistency.json";
 import CAUSES from "../data/impossible.json";
+import NAMES from "../data/names.json";
+
+/* THESE WERE TYPED AND THEY DRIFTED. The page said «all 103 people here
+   bearing a form of Ivan are men» and «25 of the 27 bearing a form of Lucija
+   are women» — true when written, and wrong by 21 and 27 people once
+   publication widened on 22 September 2026. The same table the sentence is
+   about has always carried the figures; now the sentence asks it. */
+const nameRow = (canon) => (NAMES.rows || []).find((r) => r.canon === canon) || {};
+const IVAN = nameRow("ivan");
+const LUCIJA = nameRow("lucija");
 
 const SEV = { 1: "Impossible", 2: "Very doubtful", 3: "Worth a look" };
 const KIND = {
@@ -253,8 +263,9 @@ const kindCounts = Object.entries(
       <h3>Two couples are recorded as each other</h3>
       <p><a href={u("/people/lucija-loncaric-papic-papa/")}>Lucija Lončarić Papić</a> is recorded
       <span class="mono">M</span> and entered as the <em>husband</em> of a wife called
-      <strong>Ivan</strong>, who is recorded <span class="mono">F</span>. All 103 people here
-      bearing a form of Ivan are men; 25 of the 27 bearing a form of Lucija are women.
+      <strong>Ivan</strong>, who is recorded <span class="mono">F</span>. All {IVAN.people} people
+      here bearing a form of Ivan are men; {LUCIJA.women} of the {LUCIJA.people} bearing a form of
+      Lucija are women.
       <a href={u("/people/lucia-zubrinic-xubrinich/")}>Lucia Žubrinić</a> and <strong>Michaël
       Kostelacz</strong> are the same shape again. In both, the sex fields follow the <em>place in
       the family</em> and not the name — which is one swap, recorded twice, and visible only
