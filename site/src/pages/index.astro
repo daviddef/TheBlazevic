@@ -40,6 +40,9 @@ const spineRows = line.map((p) => {
     gen: p.gen,
     name: p.name,
     spouse: (sp && sp.name) || "",
+    // Three of the eight wives have a page of their own in this archive.
+    // The slug is people.json's, never built from her name here.
+    spouseHref: sp && sp.slug ? `/people/${sp.slug}/` : null,
     born: p.byear || "", bornPlace: p.bornPlace || "",
     died: p.dyear || "", diedPlace: p.diedPlace || "",
     trade: (p.occupations || []).map((o) => o.what).filter(Boolean)[0] || "",
@@ -122,8 +125,8 @@ const spineRows = line.map((p) => {
 
   <section class="blk">
     <h2>The spine</h2>
-    <p class="dek">Eight generations of Blažević men, from Hedviga back to a boy born about 1750 in
-    a village that had existed for barely a century.</p>
+    <p class="dek">Eight generations of Blažević men, from a boy born about 1750 in a village that
+    had existed for barely a century, down to Hedviga at Senj in 1926.</p>
     <Spine rows={spineRows} u={u} label="g" compact={true} full="/direct-line/" />
     <p class="note"><strong>Generation three is now documented.</strong> The
     <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's

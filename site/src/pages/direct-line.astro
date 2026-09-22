@@ -35,6 +35,8 @@ const spineRows = line.map((p) => {
     name: p.name,
     href: `/people/${p.slug}/`,
     spouse: ((rel.spouses || [])[0] || {}).name || "",
+    spouseHref: ((rel.spouses || [])[0] || {}).slug
+      ? `/people/${((rel.spouses || [])[0] || {}).slug}/` : null,
     born: p.byear || "", bornPlace: p.bornPlace || "",
     died: p.dyear || "", diedPlace: p.diedPlace || "",
     trade: (p.occupations || []).map((o) => o.what).filter(Boolean).join(" · "),
@@ -60,7 +62,7 @@ const spineRows = line.map((p) => {
 ---
 <Base title="The Spine"
   eyebrow={`${line.length} generations of Blažević men`}
-  dek="From Hedviga at Senj in 1926 back to a boy born about 1750 in a village barely a century old. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
+  dek="From a boy born about 1750 in a village barely a century old, down to Hedviga at Senj in 1926. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
 
   <section class="blk">
     <Spine u={u} rows={spineRows} />
