@@ -6,7 +6,7 @@ import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro"
 import { chartGroups } from "../lib/marriedin.js";
 import SovereigntyTimeline from "@daviddef/archive-kit/components/SovereigntyTimeline.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
-import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { u } from "../lib/url.js";
 import recent from "../data/recent.json";
 import line from "../data/line.json";
@@ -33,20 +33,45 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
    The weak rule is direct-line.astro's, verbatim — generation three, or a
    generation with no source of any kind — so the two pages cannot come to
    different conclusions about the same joint. */
+/* THE DESCENT on the front page too, the same row the family pages use.
+   people.json keys children and siblings per person with a slug, so both
+   columns are read off their own records — hers from hers, never his
+   standing in for both. */
 const REL = new Map(register.map((r) => [r.id, r.rel || {}]));
+const REC = new Map(register.map((r) => [r.id, r]));
+const cardOf = (x) => {
+  const full = REC.get(x.id) || {};
+  return {
+    name: x.name,
+    href: x.slug && !full.living ? `/people/${x.slug}/` : null,
+    dates: full.living ? "" : [x.born, x.died].filter(Boolean).join("\u2013"),
+  };
+};
 const spineRows = line.map((p) => {
-  const sp = ((REL.get(p.id) || {}).spouses || [])[0];
+  const rel = REL.get(p.id) || {};
+  const sp = (rel.spouses || [])[0] || null;
+  const herRel = sp && sp.id ? (REL.get(sp.id) || {}) : {};
   return {
     gen: p.gen,
+    era: [p.byear, p.dyear].filter(Boolean).join(" \u2192 ") || undefined,
     name: p.name,
-    spouse: (sp && sp.name) || "",
-    // Three of the eight wives have a page of their own in this archive.
-    // The slug is people.json's, never built from her name here.
-    spouseHref: sp && sp.slug ? `/people/${sp.slug}/` : null,
-    born: p.byear || "", bornPlace: p.bornPlace || "",
-    died: p.dyear || "", diedPlace: p.diedPlace || "",
+    href: p.slug ? `/people/${p.slug}/` : "",
+    born: p.byear || "",
+    died: p.dyear || "",
+    place: p.bornPlace || p.diedPlace || "",
     trade: (p.occupations || []).map((o) => o.what).filter(Boolean)[0] || "",
+    spouse: (sp && sp.name) || "",
+    spouseHref: sp && sp.slug ? `/people/${sp.slug}/` : null,
+    spouseAlt: sp ? "" : "no marriage recorded for him here",
+    children: (rel.children || []).map(cardOf),
+    hisSiblings: (rel.siblings || []).map(cardOf),
+    herSiblings: (herRel.siblings || []).map(cardOf),
+    hisLabel: String(p.name).split(" ")[0] + "\u2019s",
+    herLabel: sp ? String(sp.name).split(" ")[0] + "\u2019s" : "Theirs",
     weak: p.gen === 3 || !(p.sources && p.sources.length),
+    weakNote: p.gen === 3
+      ? "Still no birth or death date — but no longer undocumented: the 1920 marriage register names him as Ljubomir's father."
+      : "No source of any kind attached.",
   };
 });
 
@@ -134,8 +159,7 @@ const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }
     <h2>The spine</h2>
     <p class="dek">Eight generations of Blažević men, from a boy born about 1750 in a village that
     had existed for barely a century, down to Hedviga at Senj in 1926.</p>
-    <Spine rows={spineRows} u={u} label="g" compact={true} full="/direct-line/"
-           archiveKey="blazevic" families={familyDoors} />
+    <Descent rows={spineRows} u={u} archiveKey="blazevic" families={familyDoors} />
     <p class="note"><strong>Generation three is now documented.</strong> The
     <a href={u("/marriage-1920/")}>Senj marriage register of 8 December 1920</a> names Ljubomir's
     parents as <strong>Juraj Blažević and Tereza <em>r.</em> Žubrinić</strong> — closing the join
