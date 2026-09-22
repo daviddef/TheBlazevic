@@ -206,6 +206,31 @@ left with no rival.**
   short form these registers use for *Marija*. Recorded as read and not smoothed.
 * **Matthäus is a relation and not a proven one.**
 
+## And one rung further up is a wall, for now
+
+**Franz's own baptism is not in this parish.** He was 24 in October 1800, so born between late
+1775 and late 1776. The baptismal register was walked from **October 1775 to January 1777** —
+ten openings, every *Infans* and *Parentes* column — and **there is no Kosinar in it at all**.
+
+**That absence says something, because the same surname is all over the same register fifty years
+later**: Johann's children in 1834, 1836, 1853 and 1856, and Gertraud's Martin in 1841. In the
+mid-1770s it is simply not there.
+
+**Three readings, and this archive cannot choose between them yet.**
+
+1. **Franz came from somewhere else.** He married into Feichting house 10 at twenty-four, which is
+   what a man who marries a household does — and it would make the Kosinar of Kranj–Šmartin *his*
+   descendants rather than his ancestors. **Matthäus, the witness, cuts against that**, and is not
+   proof either way.
+2. **The age is wrong.** «24» in a marriage register is very often a round number.
+3. **The surname is written unrecognisably** in the 1770s hand — which it already proved to be in
+   1814, when «Kosinar» was read as «Kosnar» and a real candidate was wrongly struck out.
+
+**The way to settle it is his DEATH, not his birth.** A death entry carries an **age**, and an age
+gives a birth year without depending on a bridegroom's estimate of his own. Franz should die
+somewhere between about 1815 and 1860: **sig. 04634** (death index 1812–1835), **sig. 04635**
+(1836–1869), and the registers behind them. **Not looked at yet.**
+
 ## What is next, and most of it is in the same free books
 ## What is next, and most of it is in the same free books
 
