@@ -54,29 +54,35 @@ const pavao = K.people.find((p) => p.name === "Pavao Kosina");
 const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
 ---
 <Base title="The Kosina"
-  eyebrow={`Senj and Carniola — ${C.generations} generations, ${C.inTree} of them in the family tree, ${C.above} read out of the registers and ${C.household} more in the same house`}
+  eyebrow={`Senj and Carniola — ${C.generations} generations · ${C.inTree} people from the family tree, ${C.above} read out of the parish registers, and ${C.household} more of the same household`}
   dek={`${C.people} people, from a Carniolan cottage where three infants died in eight years to an autumn in Senj that took three grown Kosina in thirteen months — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
 
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{C.people}</div><div class="l">people</div></div>
-      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth — a Kosinar woman who died at 78, Carniola</div></div>
+      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth — a Kosinar woman, Carniola</div></div>
       <div class="stat"><div class="n">{C.lostIn1943}</div><div class="l">dead in 1943</div></div>
     </div>
-    <p class="lede">This archive publishes <strong>eight surnames</strong>, and Kosina is not one of
-    them — so for as long as it had existed, ten people who belong to this family as closely as
-    anyone in it had no page, no entry and no descent drawn. <strong>They were scattered across a
-    bombing raid, a Boras marriage and one line at the foot of somebody else's gravestone.</strong>
-    On <strong>21 September 2026</strong> the rule was changed from <em>surname</em> to
-    <strong>descent</strong>, and <strong>five of these ten have a page of their own</strong>. The
-    five who do not are <strong>the Slovene male line, who married in</strong>, and two who may be
-    living.</p>
-    <p><strong>They reach this family twice over.</strong> <strong>Pavao Kosina</strong> married
-    <a href={u("/people/anka-blazevic/")}><strong>Anka Blažević</strong></a> — daughter of
-    <a href={u("/direct-line/")}>ahnentafel 4 and 5</a>, and therefore <strong>Hedviga's own
-    aunt</strong>, her father's sister. And Pavao's mother was <strong>Angelika Boras</strong>,
-    through whom <a href={u("/boras/")}>the Boras</a> reach this archive at all.
-    <strong>Two of the eight meet in this household.</strong></p>
+    <p class="lede"><strong>This family had no page here until a week ago, and the reason was a
+    rule rather than a doubt.</strong> This archive publishes the people of eight surnames, and
+    Kosina is not one of the eight — so ten people who are as much a part of this family as anyone
+    in it were nowhere on the site. <strong>They existed here only in fragments: a name on a list
+    of the Senj dead, a marriage that brought the Boras in, and one line cut at the foot of
+    somebody else's gravestone.</strong></p>
+    <p><strong>The rule changed on 21 September 2026.</strong> What decides publication now is
+    <em>descent</em> and not the spelling of a surname, so everyone drawn on this page has a page
+    of their own — apart from two who may still be living, and those two are named and nothing
+    more.</p>
+    <p><strong>They join this family twice over.</strong> In 1919 <strong>Pavao Kosina</strong>
+    married <a href={u("/people/anka-blazevic/")}><strong>Anka Blažević</strong></a>, the daughter
+    of <strong>Juraj Blažević</strong> and <strong>Tereza Žubrinić</strong> —
+    <strong>Hedviga's own grandparents</strong>. That makes Anka
+    <strong>Hedviga's aunt</strong>, her father's sister, and the five Kosina children of that
+    marriage <strong>Hedviga's first cousins</strong>.
+    <span style="display:block;margin-top:.6rem">And <strong>Pavao's own mother was Angelika
+    Boras</strong> — the woman through whom <a href={u("/boras/")}>the Boras</a> enter this archive
+    at all. <strong>So two of this archive's eight families meet in one Senj household</strong>, and
+    it is this one.</span></p>
   </section>
 
   <section class="blk">
@@ -93,7 +99,8 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
         <span class="dek">The tree had «1841» and nothing more.</span></td></tr>
       <tr><th>Where</th><td><strong>Oberfeichting, house 9</strong> — <strong>Zgornje Bitnje</strong>,
         a village west of Kranj.</td></tr>
-      <tr><th class="warn">Ehelich / Unehelich</th><td><strong>The tick is in UNEHELICH.</strong></td></tr>
+      <tr><th class="warn">Ehelich / Unehelich</th><td><strong>The tick is in UNEHELICH</strong> —
+        <em>born outside marriage</em>. The register has a column for it and the priest used it.</td></tr>
       <tr><th class="warn">Vater</th><td><strong>The column is blank.</strong></td></tr>
       <tr><th>Mutter</th><td><strong>«Gertraud Kosina, hüblnn. Tochter»</strong> — a
         <strong><em>Häusler's</em> daughter</strong>, the bottom of the land-holding order.</td></tr>
@@ -192,10 +199,11 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
 
     <h3 style="margin-top:2rem">So the line runs two generations further back</h3>
     <table class="kv">
-      <tr><th class="warn">Franz Kosinar<br /><span class="dek">× Maria «Mina» Do[m]shan</span></th>
+      <tr><th class="warn">Franz Kosinar<br /><span class="dek">× Maria «Mina» Dortschen</span></th>
         <td><strong>Martin's grandparents — and four generations above Hedviga.</strong>
-        <span class="dek">Named twice and never in person: at their daughter's baptism in 1814 and
-        at their son's marriage in 1833.</span></td></tr>
+        <span class="dek">Named in six entries across thirty-three years and never once in person:
+        their own marriage in 1800, four of their children's baptisms, and their son's marriage in
+        1833. He has a death; she does not.</span></td></tr>
       <tr><th>Gertraud</th><td>Baptised <strong>18 March 1814</strong>. <strong>Twenty-seven</strong>
         when she bore Martin.</td></tr>
       <tr><th>Johann</th><td>Born about <strong>1802–03</strong>; married <strong>6 January
@@ -218,14 +226,17 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     <p style="margin-top:1.2rem"><strong>27 October 1800</strong>, at twenty-four and twenty. So
     <strong>Franz was born about 1776 and Maria about 1780</strong>.</p>
 
-    <div class="note"><strong>AND THE LOOSE END FROM YESTERDAY CLOSES ITSELF.</strong> This page
-      said the house numbers were «not tight» — <strong>Gertraud baptised at house 10, Johann
-      marrying into house 9</strong> — and left it standing rather than explain it away.
-      <span style="display:block;margin-top:.6rem"><strong>Franz and Maria set up at FEICHTING
-      HOUSE 10 in 1800.</strong> That is the family house, and their daughter is baptised in it in
-      1814. <strong>Johann, marrying in 1833, went next door to number 9</strong> — and that is
-      where his sister bore Martin in 1841. <strong>House 10 is the parents'. House 9 is the
-      brother's.</strong> Nothing was wrong; the archive did not yet have the deed.</span></div>
+    <div class="note"><strong>THE TWO HOUSE NUMBERS, AND A FIRST ANSWER THAT DID NOT SURVIVE.</strong>
+      This page had said the numbers were «not tight» — <strong>Gertraud baptised at house 10,
+      Johann marrying into house 9</strong> — and on 22 September it explained them as
+      <em>«house 10 is the parents', house 9 is the brother's»</em>.
+      <span style="display:block;margin-top:.6rem"><strong>That was wrong, and the register said
+      so the same evening.</strong> Franz's own children are baptised at <strong>house 9 in
+      1812</strong>, at <strong>house 10 in 1814 and 1815</strong>, and at
+      <strong>Oberfeichting 9 again in 1820</strong> — where the clerk writes him
+      <em>Häubler</em>, the man of the house. <strong>Both houses were his at different times</strong>,
+      and the family moved between them. The explanation is kept here, struck through, because it
+      is a fair example of how quickly a tidy answer can be built on two data points.</span></div>
 
     <p style="margin-top:1.3rem"><strong>A third Kosinar — and for one day nobody could say what
     he was.</strong> <strong>MATTHÄUS KOSINAR</strong> stood witness and <strong>signed with a
@@ -283,12 +294,14 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     <strong>independently confirms the «24» he gave at his own wedding</strong> forty-nine years
     earlier. Two records, two clerks, one birth year. <strong>And it means the missing baptism
     really is missing</strong>, rather than the age being wrong.</p>
-    <div class="note"><strong>He died in the wrong house, and it is the right detail.</strong>
-      Not at <strong>10</strong>, the family house, but at <strong>Oberfeichting 9</strong> — his
-      son Johann's. He is entered an <strong><em>Ausnehmer</em></strong>: a householder who has
-      handed over and lives on the <em>Ausnahm</em>, the retirement provision.
-      <span style="display:block;margin-top:.6rem"><strong>So he had retired into his son's
-      house — and it is the house his grandson Martin was born in, eight years before.</strong></span></div>
+    <div class="note"><strong>One word in that entry tells you what happened to the house.</strong>
+      He is an <strong><em>Ausnehmer</em></strong>: a householder who has <strong>handed
+      over</strong> and lives out his life on the <em>Ausnahm</em>, the retirement provision
+      written into the transfer.
+      <span style="display:block;margin-top:.6rem">He died at <strong>Oberfeichting 9</strong> —
+      the house <strong>he himself held in 1820</strong>, that <strong>his son Johann was keeping
+      by 1833</strong>, and that <strong>his grandson Martin was born in in 1841</strong>.
+      <strong>He did not move in with his son. He gave his son the house and stayed in it.</strong></span></div>
 
     <blockquote class="note" style="margin-top:1.3rem"><strong>30. — 2. Xbr [1850] · Ob. Feichtg · 9</strong><br />
       <strong>LUZIA KOSINA</strong>, <em>Hüblersweib</em> · weiblich · <strong>ALTER 55</strong> ·
@@ -349,6 +362,11 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     1812–1835 death index runs across two openings and holds <strong>six Kozina</strong>; the
     baptismal index for the same years holds <strong>eight</strong>. Read together they give a
     household.</p>
+    <p class="dek"><strong>One word recurs below and it is worth having.</strong> A
+    <em>Häubler</em> — the same word as <em>Häusler</em> and written <em>Hüblar</em> by yet another
+    clerk — is <strong>a cottager</strong>: a man with a house and a garden and not enough land to
+    live off, the bottom rung of the village land-holding order. It is what Franz was, what his son
+    Johann was, and what Martin was born into.</p>
 
     <table class="reg">
       <thead><tr><th style="width:24%">Who</th><th style="width:30%">What the register says</th>
@@ -356,7 +374,9 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       <tbody>
         {(K.household || []).map((h) => (
           <tr class="above">
-            <td><strong>{h.name}</strong>
+            <td>{h.slug
+                  ? <a href={u(`/found/${h.slug}/`)}><strong>{h.name}</strong></a>
+                  : <strong>{h.name}</strong>}
               <span class="tag">parish register · not yet in the family tree</span></td>
             <td class="dek mono">{h.when}</td>
             <td class="dek">{h.what}
@@ -376,9 +396,12 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       Martin was born in that house, and twenty-nine before he died in it as an
       <em>Ausnehmer</em>. The house was never his son's alone. <strong>It was his.</strong></span></div>
 
-    <div class="note" style="margin-top:1rem"><strong>Three children out of six did not live.</strong>
-      Elisabeth five months, Maria nine months, Valentin fourteen days — 1812, 1815 and 1820, in
-      one cottage. Gertraud, born between two of them in 1814, lived to bear Martin.
+    <div class="note" style="margin-top:1rem"><strong>Three of their five known children did not
+      live.</strong> Elisabeth five months, Maria nine months, Valentin fourteen days — 1812, 1815
+      and 1820, in one cottage. The two who grew up are <strong>Johann</strong>, born about 1802,
+      and <strong>Gertraud</strong>, born in 1814 between two of the deaths, who lived to bear
+      Martin. <strong>Five is what is known, not what there were</strong>: three more Kosina
+      baptisms of these years have not been opened yet.
       <span style="display:block;margin-top:.6rem"><strong>That is not a remarkable household. It
       is an ordinary one</strong>, and it is the first time this archive has been able to say so
       about anybody in Carniola.</span></div>
@@ -577,8 +600,8 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
           <span class="dek" style="display:block">Sources: Krstna knjiga 1812–1831, book pp. 6, 44
           and 108 · sig. 00885, images 4, 23 and 55. Mrliška knjiga 1812–1835, book pp. 6, 34 and 72
           · sig. 00894, images 4, 18 and 37.</span></td></tr>
-        <tr><th>Margaretha Kosinar</th><td><strong>d. 14 March 1826, aged 45</strong>, a Häubler's
-          daughter at Oberfeichting 9. <strong>Probably Franz's sister; unproven, and should go in
+        <tr><th>Margaretha Kosinar</th><td><strong>d. 14 March 1826, aged 45</strong>, an
+          unmarried daughter of the cottage at Oberfeichting 9. <strong>Probably Franz's sister; unproven, and should go in
           as a note rather than a link.</strong>
           <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 130 ·
           sig. 00894, image 66</span></td></tr>
@@ -592,7 +615,9 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       <tbody>
         {(K.above || []).map((a) => (
           <tr class="above">
-            <td><strong>{a.name}</strong>
+            <td>{a.slug
+                  ? <a href={u(`/found/${a.slug}/`)}><strong>{a.name}</strong></a>
+                  : <strong>{a.name}</strong>}
               <span class="tag">parish register · not yet in the family tree</span></td>
             <td class="dek mono">{a.when}</td>
             <td class="dek">{a.what}</td>
@@ -1098,9 +1123,10 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
   <section class="blk">
     <div class="lab">1991 · forty-eight years later</div>
     <h2>And then a Kosina went back and mended a grave</h2>
-    <p class="lede">In the Senj cemetery stands the stone of <strong>Tereza Žubrinić</strong>
-    (1867–1931), <a href={u("/direct-line/")}>ahnentafel 5</a> — Anka's mother, Hedviga's
-    grandmother, and <strong>Antun Kosina's grandmother</strong>.</p>
+    <p class="lede">In the Senj cemetery stands the stone of
+    <strong>Tereza Žubrinić</strong> (1867–1931) — <strong>Hedviga's grandmother</strong>, and
+    <a href={u("/direct-line/")}>one of the sixteen people on this archive's direct line</a>. She
+    was Anka's mother, so she was <strong>Antun Kosina's grandmother too</strong>.</p>
     <blockquote class="note">OVDJE POČIVAJU U MIRU BOŽJEM …<br />
       <span class="dek">and at the foot:</span><br />
       <strong>OBNOVIO POP ANTE KOSINA ~ 1991</strong></blockquote>
@@ -1115,9 +1141,16 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
   <section class="blk">
     <h2>What is not known, and is worth asking for</h2>
     <table class="kv">
-      <tr><th>Martin's father</th><td>Martin Kosina, b. 1841, has <strong>no father in the
-        tree</strong> — only <em>Gertruda</em>. Senj baptisms are filmed from 1734 and nobody has
-        looked.</td></tr>
+      <tr><th class="warn">ANSWERED</th><td><strong>Martin's father.</strong> This row used to say
+        that Senj baptisms are filmed from 1734 and nobody had looked. <strong>Martin was not
+        baptised in Senj.</strong> He was baptised at Kranj–Šmartin on 16 November 1841, and the
+        register puts the tick in <em>unehelich</em> and leaves the <em>Vater</em> column blank.
+        <strong>There is no father to find in a baptismal register</strong> — only, possibly, in a
+        paternity acknowledgement or a later marriage, and neither has surfaced.</td></tr>
+      <tr><th>Maria Dortschen's death</th><td>The last of the six Carniolans without one, and the
+        parish indexes for <strong>1812–1835</strong> and <strong>1836–1869</strong> have both been
+        read end to end. <strong>She is in neither.</strong> Next: the death registers of
+        <strong>1870–1890</strong> and <strong>1890–1911</strong>.</td></tr>
       <tr><th class="warn">ANSWERED</th><td><strong>Otilija died 11 November 1943</strong> and
         <strong>Neda was the air-raid victim</strong>, 7 September. Both off the family's own
         gravestone, sent 21 September 2026. This row asked which of them died with their father:

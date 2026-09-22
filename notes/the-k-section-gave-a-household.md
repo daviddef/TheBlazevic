@@ -76,9 +76,10 @@ year — aged one week. **It is the only record that puts Franz at that house as
 twenty-one years before his grandson Martin was born in it and twenty-nine before he died in it as
 an *Ausnehmer*. The house was never only his son Johann's.
 
-**3. Three of six children did not live.** Elisabeth five months, Maria nine months, Valentin
+**3. Three of the five known children did not live.** Elisabeth five months, Maria nine months, Valentin
 fourteen days, in 1813, 1816 and 1820. **Gertraud, born between two of them in 1814, lived to bear
-Martin in 1841.** That is not a remarkable household; it is an ordinary one, and it is the first
+Martin in 1841**, and Johann, born about 1802, kept the house. **Five is what is known, not what
+there were** — three Kosina baptisms of these years are still unopened. That is not a remarkable household; it is an ordinary one, and it is the first
 time this archive has been able to say so about anybody in Carniola.
 
 **4. The surname is Dortschen.** Six clerks across thirty-three years: **«Dortshen»** 1800 ·

@@ -64,7 +64,8 @@ CARNIOLAN = [
      "THE HOUSE HIS GRANDSON MARTIN WAS BORN IN eight years earlier."),
     ("Maria \"Mina\" Dortschen", 1780,
      "b. about 1780 · m. 27 October 1800, aged 20 · still bearing children in 1820",
-     "Martin's grandmother, and the mother of six children now known by name. Six "
+     "Martin's grandmother, and the mother of five children now known by name — "
+     "three of whom died before they were a year old. Six "
      "clerks wrote her surname across thirty-three years and FOUR OF THEM WROTE "
      "«Dortschen» — 1800, 1812, 1815, 1820 — against this archive's own bracketed "
      "«Do[m]shan» of 1814 and «Tom[sh]shan» of 1833. The archive now leads with "
@@ -123,37 +124,52 @@ HOUSEHOLD = [
 ]
 
 
-def carniolan_above():
-    """The five people above Martin, read out of registers and not in the tree."""
-    rows = []
+def _found_index():
+    """Citation and SLUG for every row of found.psv, keyed by name.
+
+    The slug is read out of site/src/data/found.json rather than recomputed,
+    because found.py disambiguates a repeated name with its year and a second
+    implementation of that rule would drift. tools/regen.py runs found.py
+    before this file; if the JSON is not there yet the name simply renders
+    without a link, which is what it did before 22 September 2026.
+    """
+    cites, slugs = {}, {}
     path = os.path.join(ROOT, "sources", "found.psv")
-    cites = {}
     if os.path.exists(path):
         for line in open(path, encoding="utf-8"):
             if line.startswith("#") or line.count("|") < 6:
                 continue
             f = [x.strip() for x in line.split("|")]
             cites[f[0]] = f[6]
+    jp = os.path.join(DATA, "found.json")
+    if os.path.exists(jp):
+        try:
+            for r in json.load(open(jp, encoding="utf-8")).get("rows", []):
+                if r.get("slug"):
+                    slugs[r["name"]] = r["slug"]
+        except Exception:
+            pass
+    return cites, slugs
+
+
+def carniolan_above():
+    """The six people above Martin, read out of registers and not in the tree."""
+    rows = []
+    cites, slugs = _found_index()
     for name, born, when, what in CARNIOLAN:
         rows.append({"name": name, "born": born, "when": when, "what": what,
-                     "cite": cites.get(name, "")})
+                     "cite": cites.get(name, ""), "slug": slugs.get(name, "")})
     return rows
 
 
 def carniolan_household():
     """The house around the line — kin who are not ancestors. See HOUSEHOLD."""
     rows = []
-    path = os.path.join(ROOT, "sources", "found.psv")
-    cites = {}
-    if os.path.exists(path):
-        for line in open(path, encoding="utf-8"):
-            if line.startswith("#") or line.count("|") < 6:
-                continue
-            f = [x.strip() for x in line.split("|")]
-            cites[f[0]] = f[6]
+    cites, slugs = _found_index()
     for name, born, when, what, how in HOUSEHOLD:
         rows.append({"name": name, "born": born, "when": when, "what": what,
-                     "how": how, "cite": cites.get(name, "")})
+                     "how": how, "cite": cites.get(name, ""),
+                     "slug": slugs.get(name, "")})
     return rows
 
 

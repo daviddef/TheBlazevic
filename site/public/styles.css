@@ -501,9 +501,27 @@ body.is-home #onthispage{display:none}
    panels on this site — /kosina/, /senj-1943/, /sources/, /pictures/, /name/,
    /frontier/, /people/ and every family page — rendered as three tall rows
    stacked down the screen. It looked deliberate, which is why it lasted. */
+/* THREE ACROSS AT EVERY WIDTH, including a phone. 22 September 2026: the first
+   fix gave this class a rule at all, and the rule it gave collapsed to two
+   columns at 820px and one at 560px — which turned three short statistics into
+   three full-width slabs a reader had to scroll past one at a time. Three
+   numbers side by side IS the comparison; stacking them destroys the thing the
+   row exists to show. So the columns hold and the BOX shrinks instead: less
+   gap, less padding, a smaller numeral and a smaller label. Keep stat labels
+   to a few words — at 375px each column is about 90px wide. */
 .grid.three{display:grid;gap:14px;grid-template-columns:repeat(3,minmax(0,1fr))}
-@media (max-width:820px){.grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:560px){.grid.three{grid-template-columns:1fr}}
+@media (max-width:700px){
+  .grid.three{gap:8px}
+  .grid.three .stat{padding:12px 10px 13px}
+  .grid.three .stat .n{font-size:27px}
+  .grid.three .stat .l{font-size:11px;line-height:1.35;margin-top:6px;overflow-wrap:anywhere}
+}
+@media (max-width:400px){
+  .grid.three{gap:6px}
+  .grid.three .stat{padding:10px 8px 11px}
+  .grid.three .stat .n{font-size:23px}
+  .grid.three .stat .l{font-size:10.5px}
+}
 .chip.doc{color:var(--terra);border-color:var(--terra)}
 .chip.dis{color:var(--accent);border-color:var(--accent)}
 h2{font-size:clamp(23px,2.9vw,32px);margin-top:34px}
