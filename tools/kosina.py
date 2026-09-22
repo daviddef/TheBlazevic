@@ -80,9 +80,11 @@ CARNIOLAN = [
      "pneumonia as her father-in-law, twenty-two months after him, and that is "
      "why Johann is beside a second wife by 1853."),
     ("Gertraud \"Gertruda\" Kosina", 1814,
-     "baptised 18 March 1814, Feichting house 10",
-     "MARTIN'S MOTHER — the «Gertruda» the tree knows only as a name. "
-     "Twenty-seven when she bore him, and unmarried."),
+     "baptised 18 March 1814 · d. 5 March 1880, aged 65, unmarried, at Zgornje Bitno 9",
+     "MARTIN'S MOTHER — the «Gertruda» the tree knows only as a name, and now the "
+     "only person on this page with a birth and a death both read at the page. "
+     "Twenty-seven when she bore him, unmarried then and unmarried at the end, and "
+     "she died in the house she bore him in, thirteen days short of sixty-six."),
 ]
 
 

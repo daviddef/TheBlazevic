@@ -134,6 +134,14 @@ read five openings to a sheet.
 
 **There is not one Kozina death in this parish in twenty-five years.**
 
+> **CORRECTED LATER THE SAME EVENING.** The section below concluded that Gertraud **left the
+> parish**. She did not. The volume *before* the one that had been read — deaths **1870–1890** — has
+> her on **book page 69**: **«5. — 7. Marec 1880 · Zg. Bitno · 9 · JERA KOZINA, neomožena gostja ·
+> ALTER 65 let · božjast in jetika»**. *Jera* is the Slovene for Gertruda; she was baptised 18 March
+> 1814 and died **thirteen days short of sixty-six**, unmarried, **in the house she bore Martin in**.
+> The reasoning below — no dagger in 1888, therefore living in 1888 — was wrong. **An absent mark is
+> not a record.** The struck-through argument is kept where it was made.
+
 ### Which settles Gertraud, who was not the one we were looking for
 
 Martin's mother was **alive in January 1888**: her son's Senj marriage carries **no dagger** against her
@@ -181,3 +189,53 @@ reach them. Left open.
 tile **five openings to a sheet**, and read the sheet. Do not read pages. **And pick the window from what
 you already know**: the marriage entry that said *posjednica* with no dagger is what made 1888 the floor,
 and it is why twenty-five years was enough rather than a hundred.
+
+---
+
+## And then the volume before it, which had the answer all along
+
+**337 openings across the two post-1869 registers, and exactly one Kozina death in either.**
+
+> **5. — 7. [Marec 1880] · Zg. Bitno · 9 · JERA KOZINA, *neomožena gostja* · katolik · ženski ·
+> ALTER 65 let · *božjast in jetika* · M. Žarnik**
+
+| | |
+|---|---|
+| **Jera** | the Slovene short form of **Gertruda** — the book is in Slovene by 1880 |
+| **65 let** | baptised **18 March 1814**, dead **5 March 1880**: thirteen days short of sixty-six, so the age is **exact**, not rounded |
+| **Zg. Bitno 9** | Zgornje Bitno is **Oberfeichting**. House 9 is her father's in 1820, her brother's from 1833, where her father died in 1849 — **and where she bore Martin in 1841** |
+| **neomožena** | **never married**, which the *unehelich* on Martin's baptism had said thirty-nine years earlier |
+| **gostja** | a **lodger**. She lived her life in her brother's house |
+| **božjast in jetika** | the falling sickness and consumption — epilepsy and tuberculosis |
+
+**Martin's mother now has a birth and a death, both read at the page.** She is the only person above
+him of whom that is true.
+
+### What I got wrong, and the rule that comes out of it
+
+Two hours before this was found, this archive published that **Gertraud had left the parish**. The
+argument: her son's Senj marriage of January 1888 carries **no dagger** against her name, so she was
+living; and she is in no Kranj–Šmartin death after 1887.
+
+**She had been dead eight years.** The 1888 clerk simply did not mark her.
+
+> **An absent mark is not a record.** A dagger present is evidence. A dagger absent is a clerk's
+> habit, a hurried entry, or a groom who did not say. **Never build a date on something that is not
+> written down.**
+
+### And a second index turns out to be incomplete
+
+**Johann** was alive in **1856**, when his daughter Ana was baptised. He is in **neither** post-1869
+register. So he died **between 1857 and 1869** — **and the letter-tabbed index for 1836–1869 does
+not list him.** It holds two Kozina and should hold at least three.
+
+That index is the only authority this archive has for saying **Maria Dortschen** is not in those
+years. **It is not good enough for that.** The register itself — sig. **00895**, about two hundred
+openings — has to be walked, exactly as these two were.
+
+### The cost, for the sister archives
+
+**337 openings, 44 sheet-reads, one evening, one find.** The method that worked: crop the single
+column carrying the surname, tile **five openings to a sheet**, read the sheet, and never open a
+page until a sheet says to. **And when a targeted window gives nothing, widen it before concluding
+anything** — the answer here was in the volume nobody had planned to read.
