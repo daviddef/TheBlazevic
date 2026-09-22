@@ -356,10 +356,54 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
   <section class="blk">
     <div class="lab">Six generations</div>
     <h2>The descent</h2>
-    <p class="lede"><strong>Two sources, one table.</strong> The rows below Martin come from the
-    family tree. <strong>The five above him are in no tree anywhere</strong> — they were read out
-    of the Carniolan registers on 21 and 22 September 2026 and are recorded beside the tree rather
-    than in it, because <strong>this archive does not edit the tree</strong>. They are marked.</p>
+    <p class="lede"><strong>Two sources, one table</strong> — and the tinted rows are the
+    better-evidenced half, not the weaker one.</p>
+
+    <div class="note" style="margin-top:1rem">
+      <strong>What «the family tree» means here, because it is not obvious.</strong>
+      <p style="margin:.6rem 0 0"><strong>The family tree is a separate document.</strong> It is
+      the one kept on MyHeritage — <strong>15,643 people</strong> — and it is where almost
+      everything on this site comes from. <strong>This archive reads it and never writes to
+      it.</strong></p>
+      <p style="margin:.6rem 0 0">This archive also reads <strong>parish registers</strong>. When
+      it finds somebody in a register whom the tree has never heard of, it records them
+      <strong>beside</strong> the tree instead of quietly slipping them in — so that you can always
+      tell which statement came from a document and which came from the tree.</p>
+      <p style="margin:.6rem 0 0"><strong>So «not in the family tree» does not mean «not
+      proven».</strong> It means nobody has typed them in yet. <strong>Look at what the two halves
+      of this table actually cite.</strong> Martin's own row says <em>«1841»</em> and offers no
+      source at all. <strong>Gertraud's gives a day, a house number and the page of the register it
+      was read from.</strong> The tinted rows are the ones with documents behind them.</p>
+      <p style="margin:.6rem 0 0"><strong>What decides which side a person falls on is not
+      evidence. It is only whether somebody has entered them into MyHeritage</strong> — and these
+      five have not been, yet.</p>
+    </div>
+
+    <details style="margin-top:1rem">
+      <summary style="cursor:pointer;font-family:var(--sans);font-size:13.5px;color:var(--accent)">
+        <strong>To add them to the family tree — what to type, and what to cite</strong></summary>
+      <table class="kv" style="margin-top:.8rem">
+        <tr><th>Gertraud Kosina</th><td>b. <strong>18 March 1814</strong>, Feichting house 10,
+          Kranj–Šmartin. <strong>Mother of Martin.</strong>
+          <span class="dek" style="display:block">Source: Krstna knjiga Kranj–Šmartin 1812–1831,
+          book p. 28 · NŠAL sig. 00885, image 15</span></td></tr>
+        <tr><th>Franz Kosinar</th><td>b. about <strong>1776</strong>; m. <strong>27 October
+          1800</strong>. <strong>Father of Gertraud and Johann.</strong>
+          <span class="dek" style="display:block">Source: Poročna knjiga 1780–1815 · sig. 00901,
+          image 33</span></td></tr>
+        <tr><th>Maria «Mina» Domshan</th><td>b. about <strong>1780</strong>; m. 27 October 1800.
+          <strong>Wife of Franz.</strong> <span class="dek" style="display:block">Same entry. The
+          surname is spelt three ways by three clerks and should go in as read.</span></td></tr>
+        <tr><th>Johann Kosina</th><td>b. about <strong>1802–03</strong>; m. <strong>6 January
+          1833</strong> to Lucia Labornik. <strong>Son of Franz, brother of Gertraud.</strong>
+          <span class="dek" style="display:block">Source: Poročna knjiga 1816–1855, book p. 35 ·
+          sig. 00899, image 37</span></td></tr>
+        <tr><th>Matthäus Kosinar</th><td>Witness at Franz's marriage, 1800. <strong>Father or
+          brother of Franz — unproven, and should go in as a note rather than a link.</strong></td></tr>
+      </table>
+      <p class="dek" style="margin-top:.8rem">Once they are in the tree, they will appear in the
+      lower half of this table on the next build and the tint will go away by itself.</p>
+    </details>
     <table class="reg">
       <thead><tr><th style="width:26%">Who</th><th style="width:22%">Lived</th>
         <th>In this household</th></tr></thead>
@@ -367,7 +411,7 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
         {(K.above || []).map((a) => (
           <tr class="above">
             <td><strong>{a.name}</strong>
-              <span class="tag">read from the register · not in the tree</span></td>
+              <span class="tag">parish register · not yet in the family tree</span></td>
             <td class="dek mono">{a.when}</td>
             <td class="dek">{a.what}</td>
           </tr>
@@ -387,14 +431,13 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
         </tr>
       ))}</tbody>
     </table>
-    <div class="note" style="margin-top:1.2rem"><strong>THE TREE STOPS AT MARTIN. THIS TABLE DOES
-    NOT, AND THE DIFFERENCE IS THE TINTED ROWS.</strong>
-    <span style="display:block;margin-top:.6rem">Everything from Martin down is the family tree.
-    <strong>The five above him were read out of the registers of Kranj–Šmartin in Carniola on 21
-    and 22 September 2026 and are in no tree anywhere</strong> — they are recorded in
-    <a href={u("/found/")}>the people this tree does not have</a> and drawn here beside it.
-    <strong>This archive does not edit the tree</strong>; it puts what it has read next to it and
-    says which is which.</span></div>
+    <div class="note" style="margin-top:1.2rem"><strong>THE FAMILY TREE STOPS AT MARTIN. THE
+    DOCUMENTS DO NOT.</strong>
+    <span style="display:block;margin-top:.6rem">Everything from Martin down was already in the
+    tree. <strong>The five above him were read out of the parish registers of Kranj–Šmartin in
+    Carniola on 21 and 22 September 2026</strong>, and they are listed in
+    <a href={u("/found/")}>the people this tree does not have</a> — which is exactly what that page
+    is for.</span></div>
 
     <p class="dek" style="margin-top:1rem"><strong>Every name in the table above is a link now, and
     on 22 September it was not.</strong> Publication was <strong>Hedviga's blood</strong>, so Anka
