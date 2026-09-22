@@ -59,9 +59,12 @@ CARNIOLAN = [
      "could not write his own name."),
     ("Franz Kosinar", 1775,
      "b. about 1775–76 · m. 27 October 1800 · d. 22 January 1849, aged 73",
-     "Martin's grandfather. A Häusler at Feichting house 10, and an Ausnehmer — "
-     "retired — by the end. He died at Oberfeichting 9, in his son's house: "
-     "THE HOUSE HIS GRANDSON MARTIN WAS BORN IN eight years earlier."),
+     "Martin's grandfather. A Häusler, and an Ausnehmer — a householder who has "
+     "handed over — by the end. HE DIED AT OBERFEICHTING 9, THE HOUSE HE HELD "
+     "HIMSELF IN 1820, on the evidence of his son Valentin's baptism; his son "
+     "Johann was keeping it by 1833, and his grandson Martin was born in it in "
+     "1841. He did not move in with his son. He gave his son the house and "
+     "stayed in it."),
     ("Maria \"Mina\" Dortschen", 1780,
      "b. about 1780 · m. 27 October 1800, aged 20 · still bearing children in 1820",
      "Martin's grandmother, and the mother of six children now known by name — "
