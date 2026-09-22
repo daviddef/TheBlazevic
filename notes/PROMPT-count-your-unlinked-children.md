@@ -58,6 +58,37 @@ sound and the target did not exist.
 **An empty link would have looked like progress.** Say the half you cannot build, and name the
 archive that owns it.
 
+**And then say it to that archive, with the list.** The account holder's answer on 23 September was
+that if the pages do not exist, **they should**. So the deliverable is not a shrug — it is a
+hand-off file the other session can act on. Blažević wrote
+[`notes/for-the-defranceski-archive.md`](https://github.com/daviddef/TheBlazevic/blob/main/notes/for-the-defranceski-archive.md):
+42 named people, with dates and with the parent each is drawn under.
+
+### What makes a hand-off worth acting on
+
+**Lead with the ones you already hold a document for.** 27 of Blažević's 42 are already named in its
+own pages and notes — so the estate has *read records* for them and still has no page. The example
+that ends the argument:
+
+> **Ruža de Franceschi, 10 December 1903 – 29 March 1939**, married Miro Jarmacky — transcribed off
+> a gravestone on `/grave/`: *«RUŽA JARMACKI rođena DEFRANCESCHI ✻1903 †1939»*. **A birth date, a
+> death date, a married name and a husband, read off a stone by this estate — and no page anywhere
+> in it.**
+
+Her seven brothers and sisters, children of **Anica «Ana» Kalanj** — a Kalanj who married a de
+Franceschi — are in exactly the same position, all eight with dates. **Those are the pages to make
+first**, because the evidence is already sitting in the estate.
+
+### And two cautions to pass on with any list
+
+**Check the parents before you draw them.** Most of Blažević's pre-1800 Defranceschi hang off
+*«Gologorica Defranceschi»* — a sorting bucket, not a person. **The people are real; the parentage
+is not evidence.** Publish the person, not the link.
+
+**Expect repeated given names and do not merge them.** Four *Gian Giovanni Ivan Battista*, four
+*Guiseppe Josephus Josip*, three *Maria*. A child who died was very often replaced by a later child
+of the same name — which is also exactly how a records-matcher makes one person out of two.
+
 ### 5. Put the decision to the account holder yourself
 
 A peer session relayed *"David said do them all"* to three archives at once, then retracted it: he
@@ -79,9 +110,20 @@ the gate, see whether it notices. It should **FAIL and name the file and the par
 **And if your row floor moves, write it from a build you have just made**, with `ARCHIVE_OUT`
 pointed at it and `git status` read first.
 
+### 7. If a hand-off list arrives for YOUR surname, it is work, not correspondence
+
+The other side of this. When another archive sends you a list of people of your name that it draws
+and cannot link, **those are pages you are missing** — and somebody has already done the finding.
+Publish them under your own rule, with your own living check, and tell the sending archive when the
+slugs exist so its links can go in.
+
+**Do not publish a name you hold no record for just to close somebody else's percentage.** That is
+the same mistake in the other direction. Take the ones with dates and documents first.
+
 ### Report back with
 
 * unlinked **entries** and unlinked **distinct people**, separately;
 * the three-way split, with the bucket names quoted;
 * whether your comparator publishes its living people;
+* **the hand-off list you sent, and to which archive**;
 * **what you did not publish, and why.**
