@@ -307,3 +307,43 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def parents_closure(people, families, seed):
+    """Everyone in `seed`, plus their parents, plus THEIR parents, to the root.
+
+    WHY A CLOSURE AND NOT ONE PASS. This exists to close a dangling reference:
+    a person page that says «child of X» where X has no page. On 22 September
+    2026 the Kosina page showed «Pavao Kosina» unlinked directly above his own
+    daughter «Otilija Kosina» linked, because Pavao married in and Otilija is
+    Anka Blažević's child — and this archive had read three documents for him
+    and one for her.
+
+    One pass over the parents fixes the rows you are looking at and creates the
+    same fault one generation further out: 376 new people, each of whom now says
+    «child of Y» with Y unpublished. Iterating to a fixed point is the only form
+    of the rule that is actually true of every page. It took six rounds and 446
+    people, and it terminates because the tree does.
+
+    It is deliberately PARENTS ONLY. Adding siblings or spouses of the newly
+    published would walk sideways into the whole 15,643-person tree; a parent is
+    the one edge a person page always draws.
+    """
+    cur = set(seed)
+    frontier = set(cur)
+    while frontier:
+        nxt = set()
+        for pid in frontier:
+            p = people.get(pid)
+            if not p:
+                continue
+            for fid in p.get("famc", []) or []:
+                fam = families.get(fid) or {}
+                for role in ("husb", "wife"):
+                    v = fam.get(role)
+                    for x in (v if isinstance(v, list) else [v] if v else []):
+                        if x and x not in cur:
+                            nxt.add(x)
+        cur |= nxt
+        frontier = nxt
+    return cur

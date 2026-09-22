@@ -8,7 +8,7 @@ publishable; anything filtered out here never enters the build at all.
 import json, os, re, collections, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gedcom import load, display, born, died, year, ev, classify_living
-from ancestry import ancestors, gen_of, fold, kindred, SURNAMES, ROOT_PERSON
+from ancestry import ancestors, gen_of, fold, kindred, parents_closure, SURNAMES, ROOT_PERSON
 
 LIVING = {}
 def is_living(p): return LIVING.get(p["id"], True)
@@ -246,6 +246,24 @@ def canonical_place(place):
     return ", ".join(out)
 
 
+
+def documented_ids():
+    """GEDCOM ids published because a document has been read for them.
+
+    sources/documented.psv, one id per line with the reason. See that file.
+    """
+    import os as _os
+    path = _os.path.join(ROOT, "sources", "documented.psv")
+    out = set()
+    if not _os.path.exists(path):
+        return out
+    for line in open(path, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        out.add(line.split("|")[0].strip())
+    return out
+
 def by_ahn_ids(people, families):
     return list(ancestors(people, families, HEDVIGA).values())
 
@@ -269,9 +287,20 @@ def main():
     # take their father's name. Across the tree that hid 258 blood relatives,
     # 234 of them publishable. See ancestry.kindred().
     BLOOD = kindred(people, families, HEDVIGA)
-    emitted = set(by_ahn_ids(people, families)) | {
+    # AND A PERSON THIS ARCHIVE HAS OPENED A PAGE FOR GETS A PAGE. Blood is the
+    # rule and sources/documented.psv is the exception it needed: Pavao Kosina
+    # stood unlinked beside his own linked daughter because he married in, with
+    # three documents read for him against her one. See the file's own header
+    # for why this is a list and not a query.
+    DOCUMENTED = documented_ids()
+    emitted = set(by_ahn_ids(people, families)) | DOCUMENTED | {
         pid for pid, p in pub.items()
         if fold(p["surname"]) in keys_all or pid in BLOOD}
+    # AND THEN THE PARENTS OF ALL OF THEM, TO THE ROOT. A page that says
+    # «child of X» must be able to link X. One pass moves the fault one
+    # generation out; the closure is the only form of the rule that is true of
+    # every page. See ancestry.parents_closure().
+    emitted = {pid for pid in parents_closure(people, families, emitted) if pid in pub}
     for pid in sorted(emitted):
         if pid in pub:
             SLUGS[pid] = slug(pub[pid])
@@ -297,10 +326,13 @@ def main():
     dump("line.json", spine)
 
     # ---- the register ------------------------------------------------------
-    keys = keys_all
+    # ONE SOURCE OF TRUTH. This loop used to re-derive the rule — surname or
+    # blood — and drifted from `emitted` above the moment a third and fourth
+    # door were added (documented.psv, then the parents closure). Now it asks
+    # the set that was already computed.
     reg = []
     for pid, p in pub.items():
-        if fold(p["surname"]) not in keys and pid not in BLOOD:
+        if pid not in emitted:
             continue
         r = person(p)
         r["rel"] = relations(p, people, families)

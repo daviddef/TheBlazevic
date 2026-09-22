@@ -1453,8 +1453,8 @@
    }
   ],
   "n": 226,
-  "matched": 22,
-  "unmatched": 204,
+  "matched": 23,
+  "unmatched": 203,
   "contested": [
    {
     "person": "Kate Špalj Spalj",
@@ -1752,6 +1752,132 @@
   "stones": [
    {
     "cemetery": "Senj municipal cemetery",
+    "stone": "«TIHI DOM OBITELJI BORAS - MILKOVIĆ», Croatian arms carved at the head [full-res pass: the death year is 1954, not the 1950 first recorded]",
+    "photos": [
+     "IMG_8140"
+    ],
+    "people": [
+     {
+      "surname": "Boras",
+      "given": "Budimir",
+      "born": "1894",
+      "died": "1954",
+      "stone": "«TIHI DOM OBITELJI BORAS - MILKOVIĆ», Croatian arms carved at the head [full-res pass: the death year is 1954, not the 1950 first recorded]",
+      "conf": "r",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "budimir-boras",
+      "archiveName": "Budimir Boras",
+      "archiveBorn": "FROM 17 MAR 1894",
+      "archiveDied": "20 MAR 1954"
+     },
+     {
+      "surname": "Boras",
+      "given": "Marica",
+      "born": "1904",
+      "died": "1980",
+      "stone": "same stone, «R. MILKOVIĆ»",
+      "conf": "r",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "marica-milkovic",
+      "archiveName": "Marica Milkovic",
+      "archiveBorn": "1904",
+      "archiveDied": "1980",
+      "viaMarriedName": true
+     },
+     {
+      "surname": "Boras",
+      "given": "Ante",
+      "born": "1923",
+      "died": "1942",
+      "stone": "same stone",
+      "conf": "r",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "anton-boras-2",
+      "archiveName": "Anton Boras",
+      "archiveBorn": "13 MAR 1923",
+      "archiveDied": "1942"
+     },
+     {
+      "surname": "Boras",
+      "given": "Fabijana",
+      "born": "1926",
+      "died": "1926",
+      "stone": "same stone",
+      "conf": "r",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "fabiana-boras",
+      "archiveName": "Fabiana Boras",
+      "archiveBorn": "10 JAN 1926",
+      "archiveDied": "24 JAN 1926"
+     },
+     {
+      "surname": "Boras",
+      "given": "Domagoj",
+      "born": "1940",
+      "died": "19??",
+      "stone": "same stone [full-res pass: the death year runs off the frame; the 1998 first recorded was a contact-sheet guess]",
+      "conf": "p",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 73
+     },
+     {
+      "surname": "Boras",
+      "given": "Fabo",
+      "born": "1878",
+      "died": "19??",
+      "stone": "same stone [full-res pass: the given name is FABO, not Pavo; the death year runs off the frame]",
+      "conf": "p",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 73
+     },
+     {
+      "surname": "Boras",
+      "given": "Marija",
+      "born": "1880",
+      "died": "",
+      "stone": "same stone, «R. BUTKOVIĆ»",
+      "conf": "?",
+      "photos": [
+       "IMG_8140"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "uncertain, not to be relied on",
+      "group": 73
+     }
+    ],
+    "known": 4,
+    "unknown": 3
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
     "stone": "family tomb, four names cut in the face; the register says he was born 1 Mar 1892, so the stone is one year out on the birth and right on the death",
     "photos": [
      "IMG_8055"
@@ -1833,127 +1959,6 @@
     ],
     "known": 4,
     "unknown": 0
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "«TIHI DOM OBITELJI BORAS - MILKOVIĆ», Croatian arms carved at the head [full-res pass: the death year is 1954, not the 1950 first recorded]",
-    "photos": [
-     "IMG_8140"
-    ],
-    "people": [
-     {
-      "surname": "Boras",
-      "given": "Budimir",
-      "born": "1894",
-      "died": "1954",
-      "stone": "«TIHI DOM OBITELJI BORAS - MILKOVIĆ», Croatian arms carved at the head [full-res pass: the death year is 1954, not the 1950 first recorded]",
-      "conf": "r",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73,
-      "slug": "budimir-boras",
-      "archiveName": "Budimir Boras",
-      "archiveBorn": "FROM 17 MAR 1894",
-      "archiveDied": "20 MAR 1954"
-     },
-     {
-      "surname": "Boras",
-      "given": "Marica",
-      "born": "1904",
-      "died": "1980",
-      "stone": "same stone, «R. MILKOVIĆ»",
-      "conf": "r",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73
-     },
-     {
-      "surname": "Boras",
-      "given": "Ante",
-      "born": "1923",
-      "died": "1942",
-      "stone": "same stone",
-      "conf": "r",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73,
-      "slug": "anton-boras-2",
-      "archiveName": "Anton Boras",
-      "archiveBorn": "13 MAR 1923",
-      "archiveDied": "1942"
-     },
-     {
-      "surname": "Boras",
-      "given": "Fabijana",
-      "born": "1926",
-      "died": "1926",
-      "stone": "same stone",
-      "conf": "r",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73,
-      "slug": "fabiana-boras",
-      "archiveName": "Fabiana Boras",
-      "archiveBorn": "10 JAN 1926",
-      "archiveDied": "24 JAN 1926"
-     },
-     {
-      "surname": "Boras",
-      "given": "Domagoj",
-      "born": "1940",
-      "died": "19??",
-      "stone": "same stone [full-res pass: the death year runs off the frame; the 1998 first recorded was a contact-sheet guess]",
-      "conf": "p",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 73
-     },
-     {
-      "surname": "Boras",
-      "given": "Fabo",
-      "born": "1878",
-      "died": "19??",
-      "stone": "same stone [full-res pass: the given name is FABO, not Pavo; the death year runs off the frame]",
-      "conf": "p",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 73
-     },
-     {
-      "surname": "Boras",
-      "given": "Marija",
-      "born": "1880",
-      "died": "",
-      "stone": "same stone, «R. BUTKOVIĆ»",
-      "conf": "?",
-      "photos": [
-       "IMG_8140"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "uncertain, not to be relied on",
-      "group": 73
-     }
-    ],
-    "known": 3,
-    "unknown": 4
    },
    {
     "cemetery": "Senj municipal cemetery",
@@ -7281,7 +7286,12 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 73
+    "group": 73,
+    "slug": "marica-milkovic",
+    "archiveName": "Marica Milkovic",
+    "archiveBorn": "1904",
+    "archiveDied": "1980",
+    "viaMarriedName": true
    },
    {
     "surname": "Boras",

@@ -103,7 +103,7 @@
    "Antić",
    "Antic"
   ],
-  "published": 5,
+  "published": 6,
   "ancestors": [
    {
     "ahn": 24,
@@ -143,7 +143,7 @@
    "Jelličić",
    "Jellicic"
   ],
-  "published": 4,
+  "published": 5,
   "ancestors": [
    {
     "ahn": 25,
@@ -182,7 +182,7 @@
   "spellings": [
    "Sekula"
   ],
-  "published": 9,
+  "published": 11,
   "ancestors": [
    {
     "ahn": 43,
@@ -399,9 +399,13 @@
   "key": "oreskovic",
   "label": "Orešković / Oreskovic",
   "spellings": [
-   "Orešković / Oreskovic"
+   "Orešković / Oreskovic",
+   "Oreskovic",
+   "Oreskovich / Oreskovic",
+   "Oresković",
+   "Orešković"
   ],
-  "published": 5,
+  "published": 11,
   "ancestors": [
    {
     "ahn": 21,
@@ -418,12 +422,16 @@
     "place": ""
    }
   ],
-  "from": 1809,
+  "from": 1796,
   "to": 1852,
   "places": [
    {
     "place": "Otočac",
-    "n": 3
+    "n": 4
+   },
+   {
+    "place": "Otocac Croatia",
+    "n": 1
    }
   ]
  },
@@ -432,9 +440,10 @@
   "label": "Loncaric",
   "spellings": [
    "Loncaric",
-   "Lončarić"
+   "Lončarić",
+   "Loncarich"
   ],
-  "published": 4,
+  "published": 10,
   "ancestors": [
    {
     "ahn": 49,
@@ -464,9 +473,10 @@
   "key": "brozovic",
   "label": "Brozović",
   "spellings": [
-   "Brozović"
+   "Brozović",
+   "Brozovic"
   ],
-  "published": 2,
+  "published": 3,
   "ancestors": [
    {
     "ahn": 51,
@@ -531,7 +541,7 @@
    "Tomljanovic",
    "Tomljanović"
   ],
-  "published": 4,
+  "published": 14,
   "ancestors": [
    {
     "ahn": 111,
@@ -548,19 +558,19 @@
     "place": "Montani  Stanište"
    }
   ],
-  "from": 1879,
+  "from": 1831,
   "to": 1896,
   "places": [
    {
     "place": "Senj",
-    "n": 2
+    "n": 3
    },
    {
-    "place": "Montani Stanište",
+    "place": "Mrzli Dol #30",
     "n": 1
    },
    {
-    "place": "Montani  Stanište",
+    "place": "Smokvica",
     "n": 1
    }
   ]

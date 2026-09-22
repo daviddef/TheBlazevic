@@ -597,15 +597,19 @@
   },
   {
    "key": "pavelic",
-   "n": 38,
+   "n": 66,
    "forms": [
     {
      "spelling": "Pavelic",
-     "n": 13,
-     "from": 1847,
+     "n": 31,
+     "from": 1824,
      "to": 1898,
-     "median": 1877,
+     "median": 1875,
      "places": [
+      {
+       "place": "Mrzli Dol",
+       "n": 4
+      },
       {
        "place": "#23 Mrzli Dol",
        "n": 3
@@ -613,27 +617,48 @@
       {
        "place": "Croatia",
        "n": 1
-      },
-      {
-       "place": "#",
-       "n": 1
       }
      ]
     },
     {
      "spelling": "Pavelić",
-     "n": 11,
-     "from": 1874,
+     "n": 20,
+     "from": 1832,
      "to": 1927,
-     "median": 1889,
+     "median": 1886,
      "places": [
       {
        "place": "Mrzli Dol",
-       "n": 6
+       "n": 7
       },
       {
        "place": "Mrzli Dol #",
-       "n": 3
+       "n": 6
+      },
+      {
+       "place": "Bile",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Pavelich",
+     "n": 7,
+     "from": 1876,
+     "to": 1925,
+     "median": 1900,
+     "places": [
+      {
+       "place": "Mrzli Dol",
+       "n": 2
+      },
+      {
+       "place": "Krivi Put",
+       "n": 2
+      },
+      {
+       "place": "Carson Lake (historical)",
+       "n": 2
       }
      ]
     },
@@ -655,27 +680,6 @@
      ]
     },
     {
-     "spelling": "Pavelich",
-     "n": 6,
-     "from": 1876,
-     "to": 1925,
-     "median": 1921,
-     "places": [
-      {
-       "place": "Krivi Put",
-       "n": 2
-      },
-      {
-       "place": "Carson Lake (historical)",
-       "n": 2
-      },
-      {
-       "place": "Mrzli Dol",
-       "n": 1
-      }
-     ]
-    },
-    {
      "spelling": "Pavelich (born Pavelić)",
      "n": 1,
      "from": 1893,
@@ -687,6 +691,41 @@
        "n": 1
       }
      ]
+    }
+   ]
+  },
+  {
+   "key": "spalj",
+   "n": 16,
+   "forms": [
+    {
+     "spelling": "Špalj / Spalj",
+     "n": 15,
+     "from": 1871,
+     "to": 1894,
+     "median": 1888,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 7
+      },
+      {
+       "place": "Sv. Jelena",
+       "n": 2
+      },
+      {
+       "place": "Krmpote",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Špalj",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
     }
    ]
   },
@@ -727,29 +766,253 @@
    ]
   },
   {
+   "key": "tomljanovic",
+   "n": 14,
+   "forms": [
+    {
+     "spelling": "Tomljanovic",
+     "n": 10,
+     "from": 1870,
+     "to": 1896,
+     "median": 1879,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "spelling": "Tomljanović",
+     "n": 4,
+     "from": 1831,
+     "to": 1858,
+     "median": 1858,
+     "places": [
+      {
+       "place": "Mrzli Dol #",
+       "n": 1
+      },
+      {
+       "place": "Smokvica",
+       "n": 1
+      },
+      {
+       "place": "Montani Stanište",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "krmpotic",
-   "n": 7,
+   "n": 13,
    "forms": [
     {
      "spelling": "Krmpotić",
-     "n": 6,
-     "from": 1881,
+     "n": 9,
+     "from": 1799,
      "to": 1894,
-     "median": 1888,
+     "median": 1885,
      "places": [
       {
        "place": "Senj",
        "n": 6
+      },
+      {
+       "place": "Krivi Put",
+       "n": 2
       }
      ]
     },
     {
      "spelling": "Krmpotic",
-     "n": 1,
+     "n": 4,
      "from": 1864,
-     "to": 1864,
-     "median": 1864,
+     "to": 1871,
+     "median": 1871,
      "places": []
+    }
+   ]
+  },
+  {
+   "key": "oreskovic",
+   "n": 11,
+   "forms": [
+    {
+     "spelling": "Orešković / Oreskovic",
+     "n": 7,
+     "from": 1809,
+     "to": 1852,
+     "median": 1837,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 3
+      },
+      {
+       "place": "Otocac Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Oreskovic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Oreskovich / Oreskovic",
+     "n": 1,
+     "from": 1796,
+     "to": 1796,
+     "median": 1796,
+     "places": []
+    },
+    {
+     "spelling": "Oresković",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Orešković",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "babic",
+   "n": 10,
+   "forms": [
+    {
+     "spelling": "Babić",
+     "n": 6,
+     "from": 1837,
+     "to": 1891,
+     "median": 1890,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "Babić / Babic",
+     "n": 2,
+     "from": 1836,
+     "to": 1845,
+     "median": 1845,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Babich / Babic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Babić / Babic / Babich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "loncaric",
+   "n": 10,
+   "forms": [
+    {
+     "spelling": "Loncaric",
+     "n": 7,
+     "from": 1851,
+     "to": 1853,
+     "median": 1853,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Lončarić",
+     "n": 2,
+     "from": 1741,
+     "to": 1777,
+     "median": 1777,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Loncarich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "antic",
+   "n": 6,
+   "forms": [
+    {
+     "spelling": "Antić",
+     "n": 4,
+     "from": 1739,
+     "to": 1847,
+     "median": 1806,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "Antic",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -790,72 +1053,62 @@
    ]
   },
   {
-   "key": "antic",
-   "n": 5,
+   "key": "sojat",
+   "n": 6,
    "forms": [
     {
-     "spelling": "Antić",
+     "spelling": "Sojat",
      "n": 4,
-     "from": 1739,
-     "to": 1847,
-     "median": 1806,
-     "places": [
-      {
-       "place": "Selce",
-       "n": 4
-      }
-     ]
-    },
-    {
-     "spelling": "Antic",
-     "n": 1,
      "from": null,
      "to": null,
      "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Šojat",
+     "n": 2,
+     "from": 1801,
+     "to": 1825,
+     "median": 1825,
      "places": [
       {
-       "place": "Selce",
-       "n": 1
+       "place": "Krivi Put",
+       "n": 2
       }
      ]
     }
    ]
   },
   {
-   "key": "babic",
+   "key": "butkovic",
    "n": 5,
    "forms": [
     {
-     "spelling": "Babić",
-     "n": 3,
-     "from": 1887,
-     "to": 1891,
-     "median": 1890,
+     "spelling": "Butkovic",
+     "n": 4,
+     "from": 1872,
+     "to": 1880,
+     "median": 1880,
      "places": [
       {
-       "place": "Senj",
-       "n": 3
+       "place": "krivi put",
+       "n": 1
       }
      ]
     },
     {
-     "spelling": "Babić / Babic",
-     "n": 2,
-     "from": 1836,
-     "to": 1845,
-     "median": 1845,
-     "places": [
-      {
-       "place": "Otočac",
-       "n": 1
-      }
-     ]
+     "spelling": "Butkovic / Butković",
+     "n": 1,
+     "from": 1838,
+     "to": 1838,
+     "median": 1838,
+     "places": []
     }
    ]
   },
   {
    "key": "jellicic",
-   "n": 4,
+   "n": 5,
    "forms": [
     {
      "spelling": "Jelličić",
@@ -872,7 +1125,7 @@
     },
     {
      "spelling": "Jellicic",
-     "n": 1,
+     "n": 2,
      "from": 1851,
      "to": 1851,
      "median": 1851,
@@ -886,84 +1139,82 @@
    ]
   },
   {
-   "key": "loncaric",
-   "n": 4,
+   "key": "karic",
+   "n": 5,
    "forms": [
     {
-     "spelling": "Loncaric",
-     "n": 2,
-     "from": 1851,
-     "to": 1853,
-     "median": 1853,
+     "spelling": "Karic",
+     "n": 3,
+     "from": 1870,
+     "to": 1948,
+     "median": 1898,
      "places": [
       {
-       "place": "Selce",
-       "n": 2
+       "place": "Azanja",
+       "n": 1
+      },
+      {
+       "place": "Krnjevo",
+       "n": 1
       }
      ]
     },
     {
-     "spelling": "Lončarić",
+     "spelling": "Karić",
      "n": 2,
-     "from": 1741,
-     "to": 1777,
-     "median": 1777,
+     "from": 1920,
+     "to": 1946,
+     "median": 1946,
      "places": [
       {
-       "place": "Selce",
-       "n": 2
+       "place": "Smederevo",
+       "n": 1
+      },
+      {
+       "place": "Beograd",
+       "n": 1
       }
      ]
     }
    ]
   },
   {
-   "key": "tomljanovic",
-   "n": 4,
+   "key": "maric",
+   "n": 5,
    "forms": [
     {
-     "spelling": "Tomljanovic",
-     "n": 2,
-     "from": 1879,
-     "to": 1896,
-     "median": 1896,
-     "places": [
-      {
-       "place": "Senj",
-       "n": 2
-      }
-     ]
+     "spelling": "Marić",
+     "n": 4,
+     "from": 1858,
+     "to": 1858,
+     "median": 1858,
+     "places": []
     },
     {
-     "spelling": "Tomljanović",
-     "n": 2,
+     "spelling": "Marich",
+     "n": 1,
      "from": null,
      "to": null,
      "median": null,
-     "places": [
-      {
-       "place": "Montani Stanište",
-       "n": 1
-      },
-      {
-       "place": "Montani  Stanište",
-       "n": 1
-      }
-     ]
+     "places": []
     }
    ]
   },
   {
    "key": "adamic",
-   "n": 3,
+   "n": 4,
    "forms": [
     {
      "spelling": "Adamic / Adamich",
-     "n": 2,
-     "from": 1834,
+     "n": 3,
+     "from": 1813,
      "to": 1836,
-     "median": 1836,
+     "median": 1834,
      "places": [
+      {
+       "place": "Otocac",
+       "n": 1
+      },
       {
        "place": "Otočac",
        "n": 1
@@ -976,6 +1227,117 @@
      "from": 1822,
      "to": 1822,
      "median": 1822,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "mlinaric",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Mlinarich",
+     "n": 3,
+     "from": 1836,
+     "to": 1838,
+     "median": 1838,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Mlinarić / Mlinarich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "raslic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Raslich",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Raslić",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Rašlić / Rashlic / Rashlich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "brozovic",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Brozović",
+     "n": 2,
+     "from": 1784,
+     "to": 1784,
+     "median": 1784,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Brozovic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "gercevic",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Gercević",
+     "n": 2,
+     "from": 1836,
+     "to": 1845,
+     "median": 1845,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Gercević / Gercevich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
      "places": []
     }
    ]
@@ -1013,6 +1375,55 @@
    ]
   },
   {
+   "key": "laskarin",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Laškarin",
+     "n": 2,
+     "from": 1836,
+     "to": 1847,
+     "median": 1847,
+     "places": []
+    },
+    {
+     "spelling": "Laškarin / Laskarin",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "miletic",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Miletic",
+     "n": 2,
+     "from": 1848,
+     "to": 1848,
+     "median": 1848,
+     "places": [
+      {
+       "place": "Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Miletić / Miletic",
+     "n": 1,
+     "from": 1833,
+     "to": 1833,
+     "median": 1833,
+     "places": []
+    }
+   ]
+  },
+  {
    "key": "pekass",
    "n": 3,
    "forms": [
@@ -1040,29 +1451,112 @@
    ]
   },
   {
-   "key": "karic",
+   "key": "ferkovic",
    "n": 2,
    "forms": [
     {
-     "spelling": "Karic",
+     "spelling": "Ferkovic",
      "n": 1,
-     "from": 1948,
-     "to": 1948,
-     "median": 1948,
+     "from": null,
+     "to": null,
+     "median": null,
      "places": []
     },
     {
-     "spelling": "Karić",
+     "spelling": "Ferković / Ferkovic",
      "n": 1,
-     "from": 1946,
-     "to": 1946,
-     "median": 1946,
-     "places": [
-      {
-       "place": "Beograd",
-       "n": 1
-      }
-     ]
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "markovic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Markovic / Markovich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Marković",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "premuz",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Premuz",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Premuž",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "ratkovic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Ratkovich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Ratković",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "ruzic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Ruzic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Ruzić",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
     }
    ]
   }
@@ -1111,7 +1605,7 @@
    "spouse": "Joannis \"Ivan\" Perpić"
   },
   {
-   "slug": "maria-3",
+   "slug": "maria-11",
    "name": "Maria",
    "given": "Maria",
    "surname": "",
@@ -1177,6 +1671,325 @@
    "spouse": "Angelo Bacchi"
   },
   {
+   "slug": "martha-2",
+   "name": "Martha",
+   "given": "Martha",
+   "surname": "",
+   "byear": 1767,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": "Thomas Tomo Thomo Žubrinić Xubrinich"
+  },
+  {
+   "slug": "lucia-3",
+   "name": "Lucia",
+   "given": "Lucia",
+   "surname": "",
+   "byear": 1769,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Stephanus Stephani Žubrinić Xubrinich"
+  },
+  {
+   "slug": "mathea",
+   "name": "Mathea",
+   "given": "Mathea",
+   "surname": "",
+   "byear": 1772,
+   "sex": "F",
+   "place": "Gologorica",
+   "ahn": null,
+   "spouse": "Leonardus Defranceschi"
+  },
+  {
+   "slug": "joanna-3",
+   "name": "Joanna",
+   "given": "Joanna",
+   "surname": "",
+   "byear": 1774,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Matthaeus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "margarita-3",
+   "name": "Margarita",
+   "given": "Margarita",
+   "surname": "",
+   "byear": 1775,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić Zubrinic"
+  },
+  {
+   "slug": "maria-5",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1780,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonius Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "barbara",
+   "name": "Barbara",
+   "given": "Barbara",
+   "surname": "",
+   "byear": 1781,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Stephanus Žubrinić"
+  },
+  {
+   "slug": "anna-4",
+   "name": "Anna",
+   "given": "Anna",
+   "surname": "",
+   "byear": 1783,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Matthias Žubrinić Zubrinic"
+  },
+  {
+   "slug": "catharina-7",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": 1784,
+   "sex": "F",
+   "place": "Prozor",
+   "ahn": null,
+   "spouse": "Josephus Josip Žubrinić Zubrinic Xubrinich"
+  },
+  {
+   "slug": "magdalena-3",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": 1784,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić Xubrinich"
+  },
+  {
+   "slug": "magdalena-4",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": 1784,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "ursula-3",
+   "name": "Ursula",
+   "given": "Ursula",
+   "surname": "",
+   "byear": 1787,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Elias Ilija Žubrinić Xubrinich"
+  },
+  {
+   "slug": "helena",
+   "name": "Helena",
+   "given": "Helena",
+   "surname": "",
+   "byear": 1788,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "George Untersinger"
+  },
+  {
+   "slug": "lucia-2",
+   "name": "Lucia",
+   "given": "Lucia",
+   "surname": "",
+   "byear": 1790,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Gregorius Gregory Žubrinić Zubrinic Xubrinich"
+  },
+  {
+   "slug": "anna-3",
+   "name": "Anna",
+   "given": "Anna",
+   "surname": "",
+   "byear": 1792,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": "Marcus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "maria-10",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1793,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Michael Miho Michaël Miko Žubrinić Xubrinich"
+  },
+  {
+   "slug": "magdalena-7",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": 1795,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Žubrinić Xubrinich"
+  },
+  {
+   "slug": "anna-2",
+   "name": "Anna",
+   "given": "Anna",
+   "surname": "",
+   "byear": 1796,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonius Žubrinić Zubrinic Xubrinich"
+  },
+  {
+   "slug": "maria-baptised-margarita",
+   "name": "Maria [Baptised Margarita]",
+   "given": "Maria [Baptised Margarita]",
+   "surname": "",
+   "byear": 1797,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": "Lucas Žubrinić Xubrinich"
+  },
+  {
+   "slug": "margarita-4",
+   "name": "Margarita",
+   "given": "Margarita",
+   "surname": "",
+   "byear": 1798,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mihovil Mihat Kalanj"
+  },
+  {
+   "slug": "margarita-2",
+   "name": "Margarita",
+   "given": "Margarita",
+   "surname": "",
+   "byear": 1804,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Michael Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "anna-5",
+   "name": "Anna",
+   "given": "Anna",
+   "surname": "",
+   "byear": 1809,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jacobi Kraljich"
+  },
+  {
+   "slug": "maria-9",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1809,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Phillipus Žubrinić"
+  },
+  {
+   "slug": "martha-3",
+   "name": "Martha",
+   "given": "Martha",
+   "surname": "",
+   "byear": 1810,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić Xubrinich"
+  },
+  {
+   "slug": "magdalena-5",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": 1815,
+   "sex": "F",
+   "place": "Otočac",
+   "ahn": null,
+   "spouse": "Franciscus Francisci Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "francisca-2",
+   "name": "Francisca",
+   "given": "Francisca",
+   "surname": "",
+   "byear": 1819,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonius Defranceschi"
+  },
+  {
+   "slug": "dorothea",
+   "name": "Dorothea",
+   "given": "Dorothea",
+   "surname": "",
+   "byear": 1822,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgius Žubrinić"
+  },
+  {
+   "slug": "maria-7",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1827,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić Xubrinich"
+  },
+  {
+   "slug": "maria-2",
+   "name": "Maria?",
+   "given": "Maria?",
+   "surname": "",
+   "byear": 1835,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josip Joso Blažević"
+  },
+  {
    "slug": "theresia",
    "name": "Theresia",
    "given": "Theresia",
@@ -1188,7 +2001,7 @@
    "spouse": "Carolus Oftovic"
   },
   {
-   "slug": "catharina-3",
+   "slug": "catharina-9",
    "name": "Catharina",
    "given": "Catharina",
    "surname": "",
@@ -1199,7 +2012,18 @@
    "spouse": ""
   },
   {
-   "slug": "maria-2",
+   "slug": "kata-2",
+   "name": "Kata",
+   "given": "Kata",
+   "surname": "",
+   "byear": 1848,
+   "sex": "F",
+   "place": "Mrzli Dol",
+   "ahn": null,
+   "spouse": "Martin Blažević"
+  },
+  {
+   "slug": "maria-6",
    "name": "Maria",
    "given": "Maria",
    "surname": "",
@@ -1210,7 +2034,7 @@
    "spouse": ""
   },
   {
-   "slug": "marija",
+   "slug": "marija-2",
    "name": "Marija",
    "given": "Marija",
    "surname": "",
@@ -1232,6 +2056,28 @@
    "spouse": ""
   },
   {
+   "slug": "tonka",
+   "name": "Tonka",
+   "given": "Tonka",
+   "surname": "",
+   "byear": 1858,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Franjo Blažević"
+  },
+  {
+   "slug": "mary-frances",
+   "name": "Mary Frances",
+   "given": "Mary Frances",
+   "surname": "",
+   "byear": 1860,
+   "sex": "F",
+   "place": "Newtown",
+   "ahn": null,
+   "spouse": "Anton Boras"
+  },
+  {
    "slug": "christophorus",
    "name": "Christophorus",
    "given": "Christophorus",
@@ -1241,6 +2087,28 @@
    "place": "Senj",
    "ahn": null,
    "spouse": ""
+  },
+  {
+   "slug": "kosara",
+   "name": "Kosara",
+   "given": "Kosara",
+   "surname": "",
+   "byear": 1863,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Todor Jankovic"
+  },
+  {
+   "slug": "kate-2",
+   "name": "Kate",
+   "given": "Kate",
+   "surname": "",
+   "byear": 1864,
+   "sex": "F",
+   "place": "Mrzli Dol",
+   "ahn": null,
+   "spouse": "Joso Josip Blažević"
   },
   {
    "slug": "luce",
@@ -1254,7 +2122,29 @@
    "spouse": ""
   },
   {
-   "slug": "marija-2",
+   "slug": "marija-4",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": 1876,
+   "sex": "F",
+   "place": "Krivi Put",
+   "ahn": null,
+   "spouse": "Nikola Blažević"
+  },
+  {
+   "slug": "francika",
+   "name": "Francika",
+   "given": "Francika",
+   "surname": "",
+   "byear": 1886,
+   "sex": "F",
+   "place": "Sv. Jelena",
+   "ahn": null,
+   "spouse": "Ivan Blažević"
+  },
+  {
+   "slug": "marija-5",
    "name": "Marija",
    "given": "Marija",
    "surname": "",
@@ -1298,6 +2188,688 @@
    "spouse": ""
   },
   {
+   "slug": "anna-bubic-2",
+   "name": "Anna Bubic",
+   "given": "Anna Bubic",
+   "surname": "",
+   "byear": 1922,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonius Sestan"
+  },
+  {
+   "slug": "ana-2",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivan Blažević"
+  },
+  {
+   "slug": "ana-3",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivan Blažević"
+  },
+  {
+   "slug": "ana-4",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Simon Perpić"
+  },
+  {
+   "slug": "ana-5",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Anton Blažević"
+  },
+  {
+   "slug": "ana-6",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Paulus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "anna",
+   "name": "Anna",
+   "given": "Anna",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgii Papich"
+  },
+  {
+   "slug": "ann",
+   "name": "Annæ",
+   "given": "Annæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josephi Papić (Papa)"
+  },
+  {
+   "slug": "ann-2",
+   "name": "Annæ",
+   "given": "Annæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonü Papich Loncsarich"
+  },
+  {
+   "slug": "ann-3",
+   "name": "Annæ",
+   "given": "Annæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Papić (Papa)"
+  },
+  {
+   "slug": "antonia",
+   "name": "Antonia",
+   "given": "Antonia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Juraj Georgii Georgius Kalanj Callein"
+  },
+  {
+   "slug": "antonia-2",
+   "name": "Antonia",
+   "given": "Antonia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Marci Marcus Kalanj"
+  },
+  {
+   "slug": "antonija",
+   "name": "Antonija",
+   "given": "Antonija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Toma Tomljanovic"
+  },
+  {
+   "slug": "cathar",
+   "name": "Cathar",
+   "given": "Cathar",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Papić (Papa)"
+  },
+  {
+   "slug": "catharina-3",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Michael Miho Michaël Žubrinić"
+  },
+  {
+   "slug": "catharina-4",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jakobus Perpić"
+  },
+  {
+   "slug": "catharina-5",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Papić (Papa)"
+  },
+  {
+   "slug": "catharina-6",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Leonardus"
+  },
+  {
+   "slug": "catharina-8",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Michael Žubrinić Xubrinich"
+  },
+  {
+   "slug": "catharina-10",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josephus Kalanj"
+  },
+  {
+   "slug": "catharin",
+   "name": "Catharinæ",
+   "given": "Catharinæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Pauli Papić (Papa)"
+  },
+  {
+   "slug": "catharin-2",
+   "name": "Catharinæ",
+   "given": "Catharinæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgü Papić (Papa)"
+  },
+  {
+   "slug": "catharin-3",
+   "name": "Catharinæ",
+   "given": "Catharinæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josephi Papić (Papa)"
+  },
+  {
+   "slug": "francisca",
+   "name": "Francisca",
+   "given": "Francisca",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Are Tonius ? Blažević"
+  },
+  {
+   "slug": "francisca-3",
+   "name": "Francisca",
+   "given": "Francisca",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Casparus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "francisc",
+   "name": "Franciscæ",
+   "given": "Franciscæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Papić (Papa)"
+  },
+  {
+   "slug": "franica-antonia",
+   "name": "Franica Antonia",
+   "given": "Franica Antonia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Anton Blažević"
+  },
+  {
+   "slug": "gertruda",
+   "name": "Gertruda",
+   "given": "Gertruda",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "hellena",
+   "name": "Hellena",
+   "given": "Hellena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mattheus Žubrinić"
+  },
+  {
+   "slug": "illegitimate",
+   "name": "Illegitimate",
+   "given": "Illegitimate",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Theresia Blažević"
+  },
+  {
+   "slug": "ivka",
+   "name": "Ivka",
+   "given": "Ivka",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Marko Prpic"
+  },
+  {
+   "slug": "ivka-2",
+   "name": "Ivka",
+   "given": "Ivka",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jakov Blažević"
+  },
+  {
+   "slug": "joanna",
+   "name": "Joanna",
+   "given": "Joanna",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Toma Tomo Žubrinić"
+  },
+  {
+   "slug": "joanna-2",
+   "name": "Joanna",
+   "given": "Joanna",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Žubrinić Xubrinich"
+  },
+  {
+   "slug": "juliana",
+   "name": "Juliana",
+   "given": "Juliana",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josephus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "kata",
+   "name": "Kata",
+   "given": "Kata",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Nikola Blažević"
+  },
+  {
+   "slug": "kate",
+   "name": "Kate",
+   "given": "Kate",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jakov Perpic"
+  },
+  {
+   "slug": "leonardus",
+   "name": "Leonardus",
+   "given": "Leonardus",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Catharina"
+  },
+  {
+   "slug": "lucija",
+   "name": "Lucija",
+   "given": "Lucija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josip \"Joso\" Blažević"
+  },
+  {
+   "slug": "magdalena",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgie Perpic"
+  },
+  {
+   "slug": "magdalena-2",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Matthæus Matteus Mat Žubrinić Xubrinich"
+  },
+  {
+   "slug": "magdalena-6",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "mandalina",
+   "name": "Mandalina",
+   "given": "Mandalina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Juan Ivan Ive Žubrinić"
+  },
+  {
+   "slug": "mandalina-2",
+   "name": "Mandalina",
+   "given": "Mandalina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Cacic"
+  },
+  {
+   "slug": "margarit",
+   "name": "Margaritæ",
+   "given": "Margaritæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ignatü Papić (Papa)"
+  },
+  {
+   "slug": "maria-3",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgius Jure Perpić Prpic"
+  },
+  {
+   "slug": "maria-4",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Juan Ivan Ive Žubrinić"
+  },
+  {
+   "slug": "maria-8",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Žubrinić Kraljcich"
+  },
+  {
+   "slug": "mariae",
+   "name": "Mariae",
+   "given": "Mariae",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Vincenti Sestan"
+  },
+  {
+   "slug": "marija",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "Novi Vinodolski",
+   "ahn": null,
+   "spouse": "Roko Pericic"
+  },
+  {
+   "slug": "marija-3",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ilija Blažević"
+  },
+  {
+   "slug": "marija-6",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jakov Blažević"
+  },
+  {
+   "slug": "marije",
+   "name": "Marije",
+   "given": "Marije",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Tone Prpic"
+  },
+  {
+   "slug": "marije-2",
+   "name": "Marije",
+   "given": "Marije",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivana Blažević"
+  },
+  {
+   "slug": "mari",
+   "name": "Mariæ",
+   "given": "Mariæ",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mathiæ Papić (Papa)"
+  },
+  {
+   "slug": "marta",
+   "name": "Marta",
+   "given": "Marta",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Filip Blažević"
+  },
+  {
+   "slug": "martha",
+   "name": "Martha",
+   "given": "Martha",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Antonius Blažević"
+  },
+  {
+   "slug": "mathia",
+   "name": "Mathia",
+   "given": "Mathia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Juan Ivan Ive Žubrinić"
+  },
+  {
+   "slug": "matia",
+   "name": "Matia",
+   "given": "Matia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Anton Janušić"
+  },
+  {
+   "slug": "matia-2",
+   "name": "Matia",
+   "given": "Matia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivan Prpic"
+  },
+  {
+   "slug": "ruby",
+   "name": "Ruby",
+   "given": "Ruby",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mathew John Boras"
+  },
+  {
+   "slug": "ruza",
+   "name": "Ruza",
+   "given": "Ruza",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Josip Blažević"
+  },
+  {
    "slug": "slavka",
    "name": "Slavka",
    "given": "Slavka",
@@ -1309,6 +2881,61 @@
    "spouse": ""
   },
   {
+   "slug": "tereza",
+   "name": "Tereza",
+   "given": "Tereza",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Franjo Frane Kalanj"
+  },
+  {
+   "slug": "ursa",
+   "name": "Ursa",
+   "given": "Ursa",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mile Kalanj"
+  },
+  {
+   "slug": "ursina",
+   "name": "Ursina",
+   "given": "Ursina",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivanova Papić (Papa)"
+  },
+  {
+   "slug": "ursula-2",
+   "name": "Ursula",
+   "given": "Ursula",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Papić (Papa)"
+  },
+  {
+   "slug": "viero-loncaric",
+   "name": "Viero Loncaric",
+   "given": "Viero Loncaric",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivana Papić (Papa)"
+  },
+  {
    "slug": "vincentia",
    "name": "Vincentia",
    "given": "Vincentia",
@@ -1317,7 +2944,51 @@
    "sex": "F",
    "place": "",
    "ahn": null,
+   "spouse": "Stephanus Žubrinić"
+  },
+  {
+   "slug": "vincentia-2",
+   "name": "Vincentia",
+   "given": "Vincentia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
    "spouse": ""
+  },
+  {
+   "slug": "vincenza",
+   "name": "Vincenza",
+   "given": "Vincenza",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jacobus Jacov Jacob Žubrinić Zubrinic Xubrinic"
+  },
+  {
+   "slug": "maria-kostelacz-jergovic",
+   "name": "Maria Kostelacz Jergovic?",
+   "given": "Maria",
+   "surname": "Kostelacz / Jergovic?",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Juan Ivan Ive Žubrinić"
+  },
+  {
+   "slug": "joanna-miletic",
+   "name": "Joanna Miletic?",
+   "given": "Joanna",
+   "surname": "Miletic?",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Petar Petrus Kalanj Kallayn"
   }
  ]
 }

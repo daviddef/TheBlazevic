@@ -1,0 +1,25 @@
+# PUBLISHED BECAUSE THIS ARCHIVE HAS READ A DOCUMENT FOR THEM.
+#
+# The rule for a person page is Hedviga's BLOOD — her cognatic kindred, which is
+# what tools/ancestry.py:kindred() computes. It is a good rule and on 22 September
+# 2026 it showed its edge: the Kosina page listed «Pavao Kosina» unlinked beside
+# his own daughter «Otilija Kosina» linked, because Pavao married in and Otilija
+# is Anka Blažević's child. Pavao has THREE documents read out in this archive and
+# Otilija has one.
+#
+# So a second door: A PERSON THIS ARCHIVE HAS OPENED A PAGE FOR GETS A PAGE.
+#
+# WHY IT IS A LIST AND NOT A QUERY. The obvious implementation is «anyone with a
+# row in readings.psv», and it adds nobody — because tools/datecheck.py REFUSES a
+# readings row whose slug names no published person, so by construction every
+# reading already names somebody who has a page. The set is circular. Breaking it
+# needs a hand-written list, which is also the honest thing: each row states what
+# was read, and a reader can check.
+#
+# This is NOT the 376 people who are parents of published people. It is much
+# smaller and it is bounded by work actually done, so it cannot sprawl.
+#
+#   gedcom id | name, for reading | what has been read
+@I504979@|Martin Martinus Kosina|Senj marriage of 12 January 1888 at 4x, which gave «Kranjska župa sv. Martin kod Krainburg» and so the whole Slovene line; and his own baptism, Kranj-Šmartin 16 November 1841, book p.64 - born unehelich at Oberfeichting No. 9 to Gertraud Kosina
+@I504978@|Pavao Kosina|His baptism, Senj births p.223 entry 37, born 15 March 1894 and baptised 16 April, with his DEATH written above his name in the margin; the Senj marriage of 20 November 1919; and the family gravestone photographed at Senj
+@I504981@|Antonius Joannes "Antun" Kosina|His baptism of 13 May 1891 and his marriage to Anka Kasunić, both from the Senj parish index filed under the Latin «Senia» - INDEX ONLY, and the reason this family was findable at all

@@ -53,6 +53,18 @@ SETTLED = {
     # The four below arrived on 21 September with the Kosina research. Every one
     # resembles somebody only in a GIVEN NAME and a year; not one shares a
     # surname or a parent, which is the test this file applies everywhere else.
+    # 22 September 2026, AND THIS ONE IS THE FILE'S OWN WARNING COMING TRUE.
+    # Petrus Uroda had no candidate at all until publication gained a parents
+    # closure that afternoon and 443 people arrived at once, one of them a
+    # Petrus born a year from his. A settle that depends on WHO IS PUBLISHED has
+    # a shelf life; this one depends on the men, so it does not.
+    "Petrus Jacobus Uroda":
+        "baptised at Karlobag on 2 July 1767 and BURIED THERE ON 7 NOVEMBER of "
+        "the same year, an infant of four months — the death index says so. "
+        "Petrus Defranceschi of 1768 is a different surname, a different family "
+        "and a man who lived. A shared given name and a year apart is the whole "
+        "resemblance",
+
     # 22 September 2026, and the same shape again: a Slovene woman in Carniola
     # against a Croatian woman of the same given name and year, where the year
     # on the found row is a REGISTER ENTRY and not a birth.

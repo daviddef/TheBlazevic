@@ -5,10 +5,20 @@
    "kind": "births",
    "holds": "1650-1900",
    "verified": "VERIFIED — the film target itself says 1650-1786; earliest leaves are in CROATIAN, not Latin",
-   "n": 132,
-   "reachable": 120,
+   "n": 137,
+   "reachable": 125,
    "ahn": [],
    "people": [
+    {
+     "slug": "juraj-georgii-georgius-kalanj-callein",
+     "name": "Juraj Georgii Georgius Kalanj Callein",
+     "year": 1762,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "4 APR 1762",
+     "place": "Klenovica, Croatia"
+    },
     {
      "slug": "katarina-catha-kalanj",
      "name": "Katarina Catha Kalanj",
@@ -18,6 +28,16 @@
      "inside": true,
      "date": "1 SEP 1765",
      "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "ivan-joannem-joannes-kalanj-kallayn-callayn",
+     "name": "Ivan Joannem Joannes Kalanj Kallayn Callayn",
+     "year": 1798,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JUL 1798",
+     "place": "Klenovica"
     },
     {
      "slug": "petar-petrus-kalanj-kallayn",
@@ -48,6 +68,16 @@
      "inside": true,
      "date": "19 AUG 1804",
      "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "marija-kabalin",
+     "name": "Marija Kabalin",
+     "year": 1819,
+     "village": "novi vinodolski",
+     "ahn": null,
+     "inside": true,
+     "date": "1819",
+     "place": "Novi Vinodolski, Croatia"
     },
     {
      "slug": "franjo-think-this-is-wrong-kalanj",
@@ -178,6 +208,16 @@
      "inside": true,
      "date": "5 DEC 1841",
      "place": "Povile, Primorje-Gorski Kotar, Croatia"
+    },
+    {
+     "slug": "maria-lucia-komadina",
+     "name": "Maria Lucia Komadina",
+     "year": 1841,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "ABT 1841",
+     "place": "Klenovica 17, Klenovica, Croatia"
     },
     {
      "slug": "franjo-kalanj",
@@ -598,6 +638,16 @@
      "inside": true,
      "date": "14 AUG 1871",
      "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
+     "slug": "marija-pericic-vranjesinka-pericic-vranjesa",
+     "name": "Marija Peričić Vranješinka Peričić Vranješa",
+     "year": 1871,
+     "village": "novi vinodolski",
+     "ahn": null,
+     "inside": true,
+     "date": "15 AUG 1871",
+     "place": "Novi Vinodolski"
     },
     {
      "slug": "michael-kalanj",
@@ -1216,8 +1266,8 @@
    "kind": "births",
    "holds": "1734-1894",
    "verified": "marriages verified end to end",
-   "n": 138,
-   "reachable": 116,
+   "n": 147,
+   "reachable": 123,
    "ahn": [
     3,
     6
@@ -1251,6 +1301,26 @@
      "ahn": null,
      "inside": true,
      "date": "1835",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anton-ivan-babic",
+     "name": "Anton Ivan \"Ante\" Babić",
+     "year": 1837,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1837",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "paulina-bellobalbic",
+     "name": "Paulina Bellobalbic",
+     "year": 1837,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1837",
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
@@ -1321,6 +1391,16 @@
      "ahn": null,
      "inside": true,
      "date": "24 JUN 1855",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "nikula-niko-nikola-rivosechi",
+     "name": "Nikula Niko Nikola Rivosechi",
+     "year": 1855,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1855",
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
@@ -1594,6 +1674,16 @@
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
+     "slug": "franjo-zupan",
+     "name": "Franjo ŽUPAN",
+     "year": 1870,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "6 DEC 1870",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
      "slug": "franciscus-paul-boras",
      "name": "Franciscus Paul Boras",
      "year": 1872,
@@ -1681,6 +1771,16 @@
      "ahn": null,
      "inside": true,
      "date": "1875",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "katarina-janusic",
+     "name": "Katarina Janušić",
+     "year": 1876,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1876",
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
@@ -2194,7 +2294,7 @@
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
-     "slug": "marija-2",
+     "slug": "marija-5",
      "name": "Marija",
      "year": 1890,
      "village": "senj",
@@ -2222,6 +2322,16 @@
      "inside": true,
      "date": "1890",
      "place": "Senj, Croatia"
+    },
+    {
+     "slug": "antonius-joannes-kosina",
+     "name": "Antonius Joannes \"Antun\" Kosina",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "13 MAY 1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
      "slug": "bozica-lucija-papic",
@@ -2382,6 +2492,16 @@
      "inside": true,
      "date": "1894",
      "place": "Senj, Croatia"
+    },
+    {
+     "slug": "pavao-kosina",
+     "name": "Pavao Kosina",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "15 MAR 1894",
+     "place": "Senj, Croatia"
     }
    ]
   },
@@ -2390,7 +2510,7 @@
    "kind": "births",
    "holds": "1834-1858",
    "verified": "marriages verified images 129-147",
-   "n": 150,
+   "n": 160,
    "reachable": 106,
    "ahn": [
     10,
@@ -3168,7 +3288,7 @@
      "place": "Otočac, Croatia"
     },
     {
-     "slug": "maria-2",
+     "slug": "maria-6",
      "name": "Maria",
      "year": 1848,
      "village": "otocac",
@@ -3464,12 +3584,22 @@
    "kind": "births",
    "holds": "1847-1884",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 131,
-   "reachable": 69,
+   "n": 149,
+   "reachable": 77,
    "ahn": [
     7
    ],
    "people": [
+    {
+     "slug": "kata-2",
+     "name": "Kata",
+     "year": 1848,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1848",
+     "place": "Mrzli Dol, Senj, Croatia"
+    },
     {
      "slug": "maria-blazevic-2",
      "name": "Maria Blažević",
@@ -3479,6 +3609,16 @@
      "inside": true,
      "date": "3 FEB 1850",
      "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ivan-pavelic-3",
+     "name": "Ivan Pavelić",
+     "year": 1851,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "2 NOV 1851",
+     "place": "Mrzli Dol #7, Lika-Senj, Croatia"
     },
     {
      "slug": "antonia-blazevic",
@@ -3511,6 +3651,16 @@
      "place": "6 Mrzli Dol, Lika-Senj, Croatia"
     },
     {
+     "slug": "martinus-dujo-pavelic",
+     "name": "Martinus Dujo Pavelic",
+     "year": 1853,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "22 MAY 1853",
+     "place": "#68 Mrzli dol, Croatia"
+    },
+    {
      "slug": "nikola-prpic",
      "name": "Nikola Prpic",
      "year": 1853,
@@ -3519,6 +3669,16 @@
      "inside": true,
      "date": "1853",
      "place": "Krivi Put 129, Senj, Lika, Croatia"
+    },
+    {
+     "slug": "marko-pavelic-4",
+     "name": "Marko Pavelić",
+     "year": 1855,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "4 APR 1855",
+     "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia"
     },
     {
      "slug": "mile-blazevic-4",
@@ -3699,6 +3859,36 @@
      "inside": true,
      "date": "1862",
      "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "marija-pavelic",
+     "name": "Marija Pavelic",
+     "year": 1862,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "24 JAN 1862",
+     "place": "27, Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "mihovil-pavelic-2",
+     "name": "Mihovil Pavelić",
+     "year": 1862,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1 FEB 1862",
+     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "mile-pavelic",
+     "name": "Mile Pavelic",
+     "year": 1862,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1 FEB 1862",
+     "place": "Mrzli Dol br. 30, Lika-Senj, Croatia"
     },
     {
      "slug": "josephus-blazevic-2",
@@ -3951,7 +4141,7 @@
      "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
     },
     {
-     "slug": "marija-pavelic-3",
+     "slug": "marija-pavelic-5",
      "name": "Marija Pavelic",
      "year": 1873,
      "village": "mrzli dol",
@@ -4071,7 +4261,7 @@
      "place": "Klaricevac, Krivi Put, Croatia"
     },
     {
-     "slug": "marija-pavelic",
+     "slug": "marija-pavelic-3",
      "name": "Marija Pavelić",
      "year": 1878,
      "village": "mrzli dol",
@@ -4101,6 +4291,16 @@
      "place": "Mrzli Dol, Lika-Senj, Croatia"
     },
     {
+     "slug": "marija-butkovic",
+     "name": "Marija Butkovic",
+     "year": 1880,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "krivi put"
+    },
+    {
      "slug": "mile-mihovil-pavelic",
      "name": "Mile Mihovil Pavelic",
      "year": 1880,
@@ -4111,7 +4311,7 @@
      "place": "#23 Mrzli Dol, Lika-Senj, Croatia"
     },
     {
-     "slug": "marko-pavelic",
+     "slug": "marko-pavelic-3",
      "name": "Marko Pavelic",
      "year": 1882,
      "village": "mrzli dol",
@@ -4167,8 +4367,8 @@
    "kind": "deaths",
    "holds": "1878-1934",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 69,
-   "reachable": 63,
+   "n": 85,
+   "reachable": 74,
    "ahn": [],
    "people": [
     {
@@ -4199,6 +4399,16 @@
      "ahn": null,
      "inside": true,
      "date": "1885",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "kate-2",
+     "name": "Kate",
+     "year": 1886,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
      "place": "Mrzli Dol, Lika-Senj, Croatia"
     },
     {
@@ -4252,7 +4462,17 @@
      "place": "Mrzli Dol, Lika-Senj, Croatia"
     },
     {
-     "slug": "marija-pavelic-3",
+     "slug": "maria-sojath",
+     "name": "Maria Sojath",
+     "year": 1891,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "marija-pavelic-5",
      "name": "Marija Pavelic",
      "year": 1891,
      "village": "mrzli dol",
@@ -4260,6 +4480,16 @@
      "inside": true,
      "date": "13 JAN 1891",
      "place": "#23 Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "marija-pavelic-2",
+     "name": "Marija Pavelic",
+     "year": 1892,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "BEF 1892",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
     },
     {
      "slug": "antonija-prpic",
@@ -4322,6 +4552,16 @@
      "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
     },
     {
+     "slug": "marija-sojat-3",
+     "name": "Marija Šojat",
+     "year": 1896,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "29 MAR 1896",
+     "place": "#6 Mrzli dol, Lika-Senj, Croatia"
+    },
+    {
      "slug": "mihovil-prpic",
      "name": "Mihovil Prpić",
      "year": 1896,
@@ -4340,6 +4580,16 @@
      "inside": true,
      "date": "15 MAY 1897",
      "place": "#6 Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "antonia-tomljanovic",
+     "name": "Antonia Tomljanović",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "27 AUG 1897",
+     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
     },
     {
      "slug": "danica-pavelic",
@@ -4424,6 +4674,16 @@
     {
      "slug": "franjisca-blazevic",
      "name": "Franjisca Blažević",
+     "year": 1903,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1903",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-4",
+     "name": "Marija",
      "year": 1903,
      "village": "krivi put",
      "ahn": null,
@@ -4542,6 +4802,16 @@
      "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
     },
     {
+     "slug": "dujo-pavelic-2",
+     "name": "Dujo Pavelić",
+     "year": 1908,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "22 FEB 1908",
+     "place": "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
      "slug": "franjo-prpic",
      "name": "Franjo Prpić",
      "year": 1909,
@@ -4602,6 +4872,16 @@
      "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
     },
     {
+     "slug": "antonija-pavelic-2",
+     "name": "Antonija Pavelic",
+     "year": 1913,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1913",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
      "slug": "magdalena-blazevic",
      "name": "Magdalena Blažević",
      "year": 1914,
@@ -4610,6 +4890,16 @@
      "inside": true,
      "date": "1914",
      "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "martinus-dujo-pavelic",
+     "name": "Martinus Dujo Pavelic",
+     "year": 1914,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "26 JUN 1914",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
     },
     {
      "slug": "blaz-blazevic-2",
@@ -4630,6 +4920,16 @@
      "inside": true,
      "date": "17 MAY 1916",
      "place": "#148 Krivi Put"
+    },
+    {
+     "slug": "kata-2",
+     "name": "Kata",
+     "year": 1917,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1917",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
     },
     {
      "slug": "francika-blazevic",
@@ -4780,6 +5080,16 @@
      "inside": true,
      "date": "1931",
      "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marko-pavelic-4",
+     "name": "Marko Pavelić",
+     "year": 1932,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "8 FEB 1932",
+     "place": "14 Mrzli Dol, Krivi Put, Lika-Senj, Croatia"
     },
     {
      "slug": "ivan-blazevic-9",
@@ -5233,8 +5543,8 @@
    "kind": "deaths",
    "holds": "1820-1858,1859-1907",
    "verified": "marriages verified end to end",
-   "n": 63,
-   "reachable": 37,
+   "n": 67,
+   "reachable": 39,
    "ahn": [
     8,
     26,
@@ -5482,6 +5792,16 @@
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
+     "slug": "marija-kabalin",
+     "name": "Marija Kabalin",
+     "year": 1892,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1892",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
      "slug": "vincenco-papic",
      "name": "Vincenco Papić",
      "year": 1893,
@@ -5490,6 +5810,16 @@
      "inside": true,
      "date": "1893",
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vjekoslava-pulanic",
+     "name": "Vjekoslava \"Lojza\" Pulanic",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "23 NOV 1893",
+     "place": "Senj, Croatia"
     },
     {
      "slug": "vicentius-andreas-vincent-pilipic",
@@ -5618,10 +5948,20 @@
    "kind": "births",
    "holds": "1582-1882",
    "verified": "RESOLVED 20 Sept 2026 — Gologorica itself is NOT in the catalogue under any spelling; koha:725172 is the district town's book and it is the OLDEST this archive has ever reached. Whether Gologorica's people were written into it is NOT established",
-   "n": 23,
-   "reachable": 20,
+   "n": 28,
+   "reachable": 24,
    "ahn": [],
    "people": [
+    {
+     "slug": "mathea",
+     "name": "Mathea",
+     "year": 1772,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "20 FEB 1772",
+     "place": "Gologorica, Istra, Croatia"
+    },
     {
      "slug": "vincentius-sestan",
      "name": "Vincentius Sestan",
@@ -5640,6 +5980,16 @@
      "ahn": null,
      "inside": true,
      "date": "20 JUN 1809",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "sancta-alexandra-defranceschi",
+     "name": "Sancta-Alexandra Defranceschi",
+     "year": 1819,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "2 APR 1819",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -5710,6 +6060,16 @@
      "ahn": null,
      "inside": true,
      "date": "26 MAY 1848",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "rosa-defranceschi",
+     "name": "Rosa Defranceschi",
+     "year": 1848,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "7 JUN 1848",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -5800,6 +6160,16 @@
      "ahn": null,
      "inside": true,
      "date": "7 JUL 1862",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "anna-bubic",
+     "name": "Anna Bubic",
+     "year": 1863,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "25 JUL 1863",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -6036,11 +6406,182 @@
    ]
   },
   {
+   "parish": "Ledenice",
+   "kind": "births",
+   "holds": "1734-1894",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 18,
+   "reachable": 16,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "magdalena-kalanj-4",
+     "name": "Magdalena Kalanj",
+     "year": 1829,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "19 FEB 1829",
+     "place": "Ledenice"
+    },
+    {
+     "slug": "maria-marija-kalanj",
+     "name": "Maria Marija Kalanj",
+     "year": 1835,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "6 DEC 1835",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "anna-kalanj-4",
+     "name": "Anna Kalanj",
+     "year": 1838,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "23 SEP 1838",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "vincentia-catharina-kalanj",
+     "name": "Vincentia Catharina Kalanj",
+     "year": 1842,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1842",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "vincentia-kalanj",
+     "name": "Vincentia Kalanj",
+     "year": 1843,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "25 MAR 1843",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "joso-josip-josephus-kalanj",
+     "name": "Joso Josip Josephus Kalanj",
+     "year": 1851,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "24 MAR 1851",
+     "place": "Ledenice, Primorje-Gorski Kotar, Croatia"
+    },
+    {
+     "slug": "joannes-kalanj",
+     "name": "Joannes Kalanj",
+     "year": 1859,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "6 MAR 1859",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
+    },
+    {
+     "slug": "josephus-josip-kalanj-2",
+     "name": "Josephus Josip Kalanj",
+     "year": 1861,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "9 JUL 1861",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
+    },
+    {
+     "slug": "ivan-joannes-kalanj-3",
+     "name": "Ivan Joannes Kalanj",
+     "year": 1868,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "18 DEC 1868",
+     "place": "Ledenice, 22, Croatia"
+    },
+    {
+     "slug": "lucia-lucija-kalanj",
+     "name": "Lucia Lucija Kalanj",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "17 DEC 1870",
+     "place": "Ledenice, 22, Croatia"
+    },
+    {
+     "slug": "margareta-butorac",
+     "name": "Margareta Butorac",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "4 MAR 1870",
+     "place": "Ledenice"
+    },
+    {
+     "slug": "maria-marija-kalanj-3",
+     "name": "Maria Marija Kalanj",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "MAY 1870",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "georgius-kalanj-2",
+     "name": "Georgius Kalanj",
+     "year": 1872,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "APR 1872",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "anna-kalanj-3",
+     "name": "Anna Kalanj",
+     "year": 1874,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "FEB 1874",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "catharina-kalanj-2",
+     "name": "Catharina Kalanj",
+     "year": 1875,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "15 OCT 1875",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "mate-kalanj-4",
+     "name": "Mate Kalanj",
+     "year": 1878,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JAN 1878",
+     "place": "Ledenice, 74, Croatia"
+    }
+   ]
+  },
+  {
    "parish": "Krmpote-Vodice",
    "kind": "births",
    "holds": "1879-1896",
    "verified": "VERIFIED — label says 1815, film begins 1879",
-   "n": 40,
+   "n": 42,
    "reachable": 15,
    "ahn": [],
    "people": [
@@ -6197,173 +6738,12 @@
    ]
   },
   {
-   "parish": "Ledenice",
-   "kind": "births",
-   "holds": "1734-1894",
-   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 17,
-   "reachable": 15,
-   "ahn": [],
-   "people": [
-    {
-     "slug": "magdalena-kalanj-4",
-     "name": "Magdalena Kalanj",
-     "year": 1829,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "19 FEB 1829",
-     "place": "Ledenice"
-    },
-    {
-     "slug": "maria-marija-kalanj",
-     "name": "Maria Marija Kalanj",
-     "year": 1835,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "6 DEC 1835",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "anna-kalanj-4",
-     "name": "Anna Kalanj",
-     "year": 1838,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "23 SEP 1838",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "vincentia-catharina-kalanj",
-     "name": "Vincentia Catharina Kalanj",
-     "year": 1842,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "1842",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "vincentia-kalanj",
-     "name": "Vincentia Kalanj",
-     "year": 1843,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "25 MAR 1843",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "joso-josip-josephus-kalanj",
-     "name": "Joso Josip Josephus Kalanj",
-     "year": 1851,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "24 MAR 1851",
-     "place": "Ledenice, Primorje-Gorski Kotar, Croatia"
-    },
-    {
-     "slug": "joannes-kalanj",
-     "name": "Joannes Kalanj",
-     "year": 1859,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "6 MAR 1859",
-     "place": "Ledenice, Modrus-Fiume, Hungary"
-    },
-    {
-     "slug": "josephus-josip-kalanj-2",
-     "name": "Josephus Josip Kalanj",
-     "year": 1861,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "9 JUL 1861",
-     "place": "Ledenice, Modrus-Fiume, Hungary"
-    },
-    {
-     "slug": "ivan-joannes-kalanj-3",
-     "name": "Ivan Joannes Kalanj",
-     "year": 1868,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "18 DEC 1868",
-     "place": "Ledenice, 22, Croatia"
-    },
-    {
-     "slug": "lucia-lucija-kalanj",
-     "name": "Lucia Lucija Kalanj",
-     "year": 1870,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "17 DEC 1870",
-     "place": "Ledenice, 22, Croatia"
-    },
-    {
-     "slug": "maria-marija-kalanj-3",
-     "name": "Maria Marija Kalanj",
-     "year": 1870,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "MAY 1870",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "georgius-kalanj-2",
-     "name": "Georgius Kalanj",
-     "year": 1872,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "APR 1872",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "anna-kalanj-3",
-     "name": "Anna Kalanj",
-     "year": 1874,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "FEB 1874",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "catharina-kalanj-2",
-     "name": "Catharina Kalanj",
-     "year": 1875,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "15 OCT 1875",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "mate-kalanj-4",
-     "name": "Mate Kalanj",
-     "year": 1878,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "1 JAN 1878",
-     "place": "Ledenice, 74, Croatia"
-    }
-   ]
-  },
-  {
    "parish": "Karlobag",
    "kind": "births",
    "holds": "1691-1770,1771-1804,1804-1861",
    "verified": "VERIFIED 14 Sept 2026 - all three films opened. Also a Stanje dusa, 122 images, HDA 715 - by FAMILY number (no house numbers in this parish), alphabetical ONCE (images 8-75, then later additions running into the 1870s), communion columns 1844-1857",
-   "n": 13,
-   "reachable": 12,
+   "n": 14,
+   "reachable": 13,
    "ahn": [
     13,
     26,
@@ -6487,7 +6867,17 @@
      "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
     },
     {
-     "slug": "marija",
+     "slug": "matija-mrzljak",
+     "name": "Matija Mrzljak",
+     "year": 1843,
+     "village": "karlobag",
+     "ahn": null,
+     "inside": true,
+     "date": "9 SEP 1843",
+     "place": "KARLOBAG, Croatia"
+    },
+    {
+     "slug": "marija-2",
      "name": "Marija",
      "year": 1852,
      "village": "karlobag",
@@ -6495,6 +6885,127 @@
      "inside": true,
      "date": "24 JUN 1852",
      "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Novi Vinodolski",
+   "kind": "deaths",
+   "holds": "1704-1899",
+   "verified": "VERIFIED — the film target itself says 1650-1786; earliest leaves are in CROATIAN, not Latin",
+   "n": 36,
+   "reachable": 11,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "juraj-georgii-georgius-kalanj-callein",
+     "name": "Juraj Georgii Georgius Kalanj Callein",
+     "year": 1821,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 OCT 1821",
+     "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "petar-petrus-kalanj-kallayn",
+     "name": "Petar Petrus Kalanj Kallayn",
+     "year": 1848,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1848",
+     "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "marta-martha-martha",
+     "name": "Marta Martha",
+     "year": 1861,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "6 MAR 1861",
+     "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "ivan-joannem-joannes-kalanj-kallayn-callayn",
+     "name": "Ivan Joannem Joannes Kalanj Kallayn Callayn",
+     "year": 1871,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 JUL 1871",
+     "place": "Klenovica"
+    },
+    {
+     "slug": "marija-kalanj",
+     "name": "Marija Kalanj",
+     "year": 1875,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1 AUG 1875",
+     "place": "Klenovica"
+    },
+    {
+     "slug": "danijel-kalanj",
+     "name": "Danijel Kalanj",
+     "year": 1876,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "26 JUN 1876",
+     "place": "Klenovica, Croatia"
+    },
+    {
+     "slug": "danijel-kalanj-3",
+     "name": "Danijel Kalanj",
+     "year": 1876,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "26 JUN 1876",
+     "place": "Klenovica"
+    },
+    {
+     "slug": "ivan-joannes-kalanj",
+     "name": "Ivan Joannes Kalanj",
+     "year": 1877,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 JUL 1877",
+     "place": "Klenovica"
+    },
+    {
+     "slug": "daniel-kalanj-3",
+     "name": "Daniel Kalanj",
+     "year": 1878,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Povile 22, Croatia"
+    },
+    {
+     "slug": "joannes-bapt-kalanj",
+     "name": "Joannes Bapt Kalanj",
+     "year": 1882,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1882",
+     "place": "Povile 22, Croatia"
+    },
+    {
+     "slug": "katarina-kalanj",
+     "name": "Katarina Kalanj",
+     "year": 1897,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "27 JUL 1897",
+     "place": "Klenovica, Croatia"
     }
    ]
   },
@@ -6621,103 +7132,12 @@
    ]
   },
   {
-   "parish": "Novi Vinodolski",
-   "kind": "deaths",
-   "holds": "1704-1899",
-   "verified": "VERIFIED — the film target itself says 1650-1786; earliest leaves are in CROATIAN, not Latin",
-   "n": 29,
-   "reachable": 8,
-   "ahn": [],
-   "people": [
-    {
-     "slug": "petar-petrus-kalanj-kallayn",
-     "name": "Petar Petrus Kalanj Kallayn",
-     "year": 1848,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "1848",
-     "place": "Klenovica, Croatia"
-    },
-    {
-     "slug": "marija-kalanj",
-     "name": "Marija Kalanj",
-     "year": 1875,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "1 AUG 1875",
-     "place": "Klenovica"
-    },
-    {
-     "slug": "danijel-kalanj",
-     "name": "Danijel Kalanj",
-     "year": 1876,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "26 JUN 1876",
-     "place": "Klenovica, Croatia"
-    },
-    {
-     "slug": "danijel-kalanj-3",
-     "name": "Danijel Kalanj",
-     "year": 1876,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "26 JUN 1876",
-     "place": "Klenovica"
-    },
-    {
-     "slug": "ivan-joannes-kalanj",
-     "name": "Ivan Joannes Kalanj",
-     "year": 1877,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "19 JUL 1877",
-     "place": "Klenovica"
-    },
-    {
-     "slug": "daniel-kalanj-3",
-     "name": "Daniel Kalanj",
-     "year": 1878,
-     "village": "povile",
-     "ahn": null,
-     "inside": true,
-     "date": "1878",
-     "place": "Povile 22, Croatia"
-    },
-    {
-     "slug": "joannes-bapt-kalanj",
-     "name": "Joannes Bapt Kalanj",
-     "year": 1882,
-     "village": "povile",
-     "ahn": null,
-     "inside": true,
-     "date": "1882",
-     "place": "Povile 22, Croatia"
-    },
-    {
-     "slug": "katarina-kalanj",
-     "name": "Katarina Kalanj",
-     "year": 1897,
-     "village": "klenovica",
-     "ahn": null,
-     "inside": true,
-     "date": "27 JUL 1897",
-     "place": "Klenovica, Croatia"
-    }
-   ]
-  },
-  {
    "parish": "Ledenice",
    "kind": "deaths",
    "holds": "1734-1902",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 4,
-   "reachable": 3,
+   "n": 5,
+   "reachable": 4,
    "ahn": [],
    "people": [
     {
@@ -6749,6 +7169,16 @@
      "inside": true,
      "date": "11 APR 1873",
      "place": "Ledenice, Modrus-Fiume, Magyarország"
+    },
+    {
+     "slug": "lucia-komadina",
+     "name": "Lucia Komadina",
+     "year": 1875,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "29 NOV 1875",
+     "place": "Ledenice, Croatia"
     }
    ]
   },
@@ -6757,7 +7187,7 @@
    "kind": "deaths",
    "holds": "1780-1836,1834-1858,1859-1872",
    "verified": "marriages verified images 129-147",
-   "n": 3,
+   "n": 4,
    "reachable": 2,
    "ahn": [
     20
@@ -6790,7 +7220,7 @@
    "kind": "deaths",
    "holds": "1655-1691,1692-1847",
    "verified": "RESOLVED 20 Sept 2026 — Gologorica itself is NOT in the catalogue under any spelling; koha:725172 is the district town's book and it is the OLDEST this archive has ever reached. Whether Gologorica's people were written into it is NOT established",
-   "n": 1,
+   "n": 2,
    "reachable": 1,
    "ahn": [],
    "people": [
@@ -6807,6 +7237,16 @@
    ]
   },
   {
+   "parish": "Brinje",
+   "kind": "births",
+   "holds": "1888-1900",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 2,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
    "parish": "Crikvenica",
    "kind": "deaths",
    "holds": "1815-1908",
@@ -6821,7 +7261,17 @@
    "kind": "births",
    "holds": "1816-1858",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label — one film only, nothing after 1858",
-   "n": 6,
+   "n": 7,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
+   "parish": "Jablanac",
+   "kind": "births",
+   "holds": "1860-1895",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 1,
    "reachable": 0,
    "ahn": [],
    "people": []
@@ -6851,7 +7301,7 @@
    "kind": "deaths",
    "holds": "1702-1892",
    "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
-   "n": 3,
+   "n": 4,
    "reachable": 0,
    "ahn": [],
    "people": []
@@ -6861,7 +7311,7 @@
    "kind": "births",
    "holds": "1834-1857",
    "verified": "catalogue-verified 15 Sept 2026 — IT IS ITS OWN PARISH, koha:465540, not a village of Gospic. Births are ITEM 4 of roll 1419217, so the film number will not reach them. Nothing before 1834: ahnentafel 426 is a generation of about 1700 and is NOT on film here",
-   "n": 1,
+   "n": 2,
    "reachable": 0,
    "ahn": [],
    "people": []
@@ -6877,30 +7327,62 @@
    "people": []
   }
  ],
- "totalReachable": 657,
+ "totalReachable": 700,
  "unplacedVillages": [
   [
    "port pirie",
-   25
+   26
   ],
   [
    "zagreb",
    7
   ],
   [
+   "beograd",
+   5
+  ],
+  [
+   "fuzine",
+   3
+  ],
+  [
+   "smederevo",
+   3
+  ],
+  [
    "garesnica",
    2
   ],
   [
-   "fuzine",
+   "belgrade",
    2
   ],
   [
-   "beograd",
+   "baska",
+   2
+  ],
+  [
+   "krnjevo",
+   2
+  ],
+  [
+   "austria",
+   2
+  ],
+  [
+   "adelaide",
+   2
+  ],
+  [
+   "hibbing",
    2
   ],
   [
    "carson lake (historical)",
+   2
+  ],
+  [
+   "bile",
    2
   ],
   [
@@ -6924,11 +7406,11 @@
    1
   ],
   [
-   "tomasica",
+   "newtown",
    1
   ],
   [
-   "belgrade",
+   "tomasica",
    1
   ],
   [
@@ -6945,38 +7427,6 @@
   ],
   [
    "yugoslavia",
-   1
-  ],
-  [
-   "arizona",
-   1
-  ],
-  [
-   "sydney",
-   1
-  ],
-  [
-   "kurri kurri",
-   1
-  ],
-  [
-   "osijek",
-   1
-  ],
-  [
-   "be38",
-   1
-  ],
-  [
-   "austria",
-   1
-  ],
-  [
-   "pula",
-   1
-  ],
-  [
-   "trebinje",
    1
   ]
  ]

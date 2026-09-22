@@ -50,7 +50,7 @@
  {
   "id": "@I508660@",
   "name": "Maria Sojath",
-  "slug": null,
+  "slug": "maria-sojath",
   "cause": "namesake",
   "sev": 1,
   "note": "Too far apart for any slop in the dates to explain — so the link is wrong, not the dates. Usually a name reused down the line, or two people merged into one.",
@@ -67,7 +67,7 @@
  {
   "id": "@I511836@",
   "name": "Anna",
-  "slug": null,
+  "slug": "anna-5",
   "cause": "record",
   "sev": 1,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -157,7 +157,7 @@
  {
   "id": "@I508278@",
   "name": "Helena",
-  "slug": null,
+  "slug": "helena",
   "cause": "record",
   "sev": 1,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -222,7 +222,7 @@
  {
   "id": "@I511767@",
   "name": "Maria",
-  "slug": null,
+  "slug": "maria-9",
   "cause": "record",
   "sev": 1,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -237,7 +237,7 @@
  {
   "id": "@I511795@",
   "name": "Maria",
-  "slug": null,
+  "slug": "maria-10",
   "cause": "record",
   "sev": 1,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -269,6 +269,21 @@
   "n": 1
  },
  {
+  "id": "@I507975@",
+  "name": "Maria Nelida Purtscher Dibar",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "died-before-born"
+  ],
+  "rows": [
+   "born 2024, died 2009"
+  ],
+  "n": 1
+ },
+ {
   "id": "@I632@",
   "name": "Michael \"Mate\" Žubrinić / Zubrinic / Xubrinich",
   "slug": "michael-zubrinic-zubrinic-xubrinich-2",
@@ -280,6 +295,21 @@
   ],
   "rows": [
    "died 1863, but Nikola Žubrinić (Xubrinic) born 1880"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508049@",
+  "name": "Pasquina Giovanna Figoni",
+  "slug": null,
+  "cause": "record",
+  "sev": 1,
+  "note": "The dates as recorded genuinely cannot both be true.",
+  "kinds": [
+   "married-after-death"
+  ],
+  "rows": [
+   "died 1870, married 15 SEP 1902"
   ],
   "n": 1
  },
@@ -301,7 +331,7 @@
  {
   "id": "@I506362@",
   "name": "Vladimira Baricevic",
-  "slug": null,
+  "slug": "vladimira-baricevic",
   "cause": "record",
   "sev": 1,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -323,7 +353,7 @@
  {
   "id": "@I511836@",
   "name": "Anna",
-  "slug": null,
+  "slug": "anna-5",
   "cause": "generation",
   "sev": 2,
   "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
@@ -336,6 +366,21 @@
    "born 1809, Francisca Kraljich born 1820 — age 11"
   ],
   "n": 3
+ },
+ {
+  "id": "@I510963@",
+  "name": "Domenica Defranceschi",
+  "slug": null,
+  "cause": "generation",
+  "sev": 2,
+  "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born 1830, Maria Defranceschi born 1833 — age 3"
+  ],
+  "n": 1
  },
  {
   "id": "@I506032@",
@@ -417,7 +462,7 @@
  {
   "id": "@I506362@",
   "name": "Vladimira Baricevic",
-  "slug": null,
+  "slug": "vladimira-baricevic",
   "cause": "generation",
   "sev": 2,
   "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
@@ -433,7 +478,7 @@
  {
   "id": "@I509183@",
   "name": "Wolfgangus Volfgangus Adamic Adamich",
-  "slug": null,
+  "slug": "wolfgangus-volfgangus-adamic-adamich",
   "cause": "generation",
   "sev": 2,
   "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
@@ -448,7 +493,7 @@
  {
   "id": "@I509344@",
   "name": "ladislava (lada) bilubaric",
-  "slug": null,
+  "slug": "ladislava-lada-bilubaric",
   "cause": "generation",
   "sev": 2,
   "note": "A parent barely older than the child — a generation has been skipped, and a grandparent recorded as a parent.",
@@ -476,6 +521,23 @@
   "n": 1
  },
  {
+  "id": "@I510938@",
+  "name": "Antonius Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-too-young",
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1815, Maria Maddalena Defranceschi born 1825 — age 10",
+   "born BEF 1815, Domenica Defranceschi born 1829 — age 14"
+  ],
+  "n": 2
+ },
+ {
   "id": "@I510754@",
   "name": "Joanis Grach",
   "slug": null,
@@ -487,6 +549,21 @@
   ],
   "rows": [
    "born BEF 1750, Johanes Grach born 1762 — age 12"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510900@",
+  "name": "Natale Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 2,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-too-young"
+  ],
+  "rows": [
+   "born BEF 1830, Stella Appolonia Defranceschi born 1841 — age 11"
   ],
   "n": 1
  },
@@ -551,7 +628,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Anna» is a form of ana, and 62 of the 62 other people here who bear it are women"
+   "recorded M; «Anna» is a form of ana, and 94 of the 94 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -566,14 +643,14 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Ante» is a form of ante, and 52 of the 52 other people here who bear it are men"
+   "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men"
   ],
   "n": 1
  },
  {
   "id": "@I508408@",
   "name": "Ante Pavelic",
-  "slug": null,
+  "slug": "ante-pavelic",
   "cause": "sex",
   "sev": 2,
   "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
@@ -581,14 +658,14 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Ante» is a form of ante, and 52 of the 53 other people here who bear it are men"
+   "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men"
   ],
   "n": 1
  },
  {
   "id": "@I508482@",
   "name": "Ante Tomljanovic",
-  "slug": null,
+  "slug": "ante-tomljanovic",
   "cause": "sex",
   "sev": 2,
   "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
@@ -596,7 +673,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Ante» is a form of ante, and 52 of the 53 other people here who bear it are men"
+   "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -611,7 +688,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Franciscum» is a form of franjo, and 45 of the 48 other people here who bear it are men"
+   "recorded F; «Franciscum» is a form of franjo, and 50 of the 53 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -626,7 +703,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Franciscus» is a form of franjo, and 45 of the 49 other people here who bear it are men"
+   "recorded F; «Franciscus» is a form of franjo, and 50 of the 54 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -641,7 +718,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Franciscus» is a form of franjo, and 45 of the 48 other people here who bear it are men"
+   "recorded F; «Franciscus» is a form of franjo, and 50 of the 53 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -656,7 +733,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Franciscus» is a form of franjo, and 45 of the 48 other people here who bear it are men"
+   "recorded F; «Franciscus» is a form of franjo, and 50 of the 53 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -671,7 +748,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Frane» is a form of franjo, and 45 of the 48 other people here who bear it are men"
+   "recorded F; «Frane» is a form of franjo, and 50 of the 53 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -686,7 +763,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Ivan» is a form of ivan, and 116 of the 116 other people here who bear it are men"
+   "recorded F; «Ivan» is a form of ivan, and 124 of the 124 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -701,7 +778,22 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Ivana» is a form of ivana, and 21 of the 23 other people here who bear it are women"
+   "recorded M; «Ivana» is a form of ivana, and 31 of the 33 other people here who bear it are women"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I508823@",
+  "name": "Ivana Juhas",
+  "slug": null,
+  "cause": "sex",
+  "sev": 2,
+  "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
+  "kinds": [
+   "sex-contradicts-name"
+  ],
+  "rows": [
+   "recorded M; «Ivana» is a form of ivana, and 31 of the 34 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -716,7 +808,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Ivana» is a form of ivana, and 21 of the 23 other people here who bear it are women"
+   "recorded M; «Ivana» is a form of ivana, and 31 of the 33 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -731,7 +823,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Joannam» is a form of ivana, and 21 of the 23 other people here who bear it are women"
+   "recorded M; «Joannam» is a form of ivana, and 31 of the 33 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -746,7 +838,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Lucia» is a form of lucija, and 37 of the 40 other people here who bear it are women"
+   "recorded M; «Lucia» is a form of lucija, and 50 of the 53 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -761,7 +853,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Lucija» is a form of lucija, and 37 of the 40 other people here who bear it are women"
+   "recorded M; «Lucija» is a form of lucija, and 50 of the 53 other people here who bear it are women"
   ],
   "n": 1
  },
@@ -776,13 +868,28 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Maria» is a form of marija, and 138 of the 138 other people here who bear it are women"
+   "recorded M; «Maria» is a form of marija, and 192 of the 192 other people here who bear it are women"
   ],
   "n": 1
  },
  {
   "id": "@I511491@",
   "name": "Michaël MIchael Kostelacz",
+  "slug": "micha-l-michael-kostelacz",
+  "cause": "sex",
+  "sev": 2,
+  "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
+  "kinds": [
+   "sex-contradicts-name"
+  ],
+  "rows": [
+   "recorded F; «Michaël» is a form of mihovil, and 49 of the 49 other people here who bear it are men"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I507766@",
+  "name": "Michele C Defranceschi",
   "slug": null,
   "cause": "sex",
   "sev": 2,
@@ -791,7 +898,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Michaël» is a form of mihovil, and 42 of the 42 other people here who bear it are men"
+   "recorded F; «Michele» is a form of mihovil, and 49 of the 50 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -806,7 +913,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Nikola» is a form of nikola, and 32 of the 33 other people here who bear it are men"
+   "recorded F; «Nikola» is a form of nikola, and 36 of the 37 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -821,7 +928,7 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Nikula» is a form of nikola, and 32 of the 33 other people here who bear it are men"
+   "recorded F; «Nikula» is a form of nikola, and 36 of the 37 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -836,7 +943,22 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Paolo» is a form of pavao, and 23 of the 23 other people here who bear it are men"
+   "recorded F; «Paolo» is a form of pavao, and 26 of the 26 other people here who bear it are men"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I507801@",
+  "name": "Peter De Franceschi",
+  "slug": null,
+  "cause": "sex",
+  "sev": 2,
+  "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
+  "kinds": [
+   "sex-contradicts-name"
+  ],
+  "rows": [
+   "recorded F; «Peter» is a form of petar, and 22 of the 23 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -851,7 +973,22 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded F; «Petrus» is a form of petar, and 20 of the 20 other people here who bear it are men"
+   "recorded F; «Petrus» is a form of petar, and 22 of the 22 other people here who bear it are men"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510383@",
+  "name": "Stephanus Bujic",
+  "slug": null,
+  "cause": "sex",
+  "sev": 2,
+  "note": "The recorded sex and the recorded given name disagree, measured against how this archive's own records use that name. Which of the two is wrong is not settled here.",
+  "kinds": [
+   "sex-contradicts-name"
+  ],
+  "rows": [
+   "recorded F; «Stephanus» is a form of stjepan, and 27 of the 27 other people here who bear it are men"
   ],
   "n": 1
  },
@@ -866,7 +1003,157 @@
    "sex-contradicts-name"
   ],
   "rows": [
-   "recorded M; «Tonka» is a form of antonija, and 23 of the 23 other people here who bear it are women"
+   "recorded M; «Tonka» is a form of antonija, and 32 of the 32 other people here who bear it are women"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510942@",
+  "name": "Antonius Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1745, Vitorio Defranceschi born 1758 — age 13"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510918@",
+  "name": "Franciscus Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1855, Giovanni Joannes Baptista Defranceschi born 1869 — age 14"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510386@",
+  "name": "Giambattista De Franceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1765, Lucia De Franceschi born 1779 — age 14"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510382@",
+  "name": "Magdalena Defranceski",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1845, Stephanus Bujic born 1859 — age 14"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510367@",
+  "name": "Maria Defranceski",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1795, Josephus Premate born 1809 — age 14"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510997@",
+  "name": "Mattio Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1690, Antonio Defranceschi born 1704 — age 14"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510903@",
+  "name": "Natale Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1800, Angelo Defranceschi born 1815 — age 15"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I511253@",
+  "name": "Simone De Franceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1760, Josef De Franceschi born 1775 — age 15"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510957@",
+  "name": "Vitorio Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1720, Piero Anto Defranceschi born 1736 — age 16"
+  ],
+  "n": 1
+ },
+ {
+  "id": "@I510906@",
+  "name": "Vittorio Vitorio Defranceschi",
+  "slug": null,
+  "cause": "hedged",
+  "sev": 3,
+  "note": "A hedged date (BEF, AFT, Maybe) sitting against a firm one. The hedge is doing its job; this is imprecision, not error.",
+  "kinds": [
+   "parent-under-seventeen"
+  ],
+  "rows": [
+   "born BEF 1795, Perina Defranceschi born 1810 — age 15"
   ],
   "n": 1
  },
@@ -903,7 +1190,7 @@
  {
   "id": "@I511710@",
   "name": "Catharina",
-  "slug": null,
+  "slug": "catharina-7",
   "cause": "record",
   "sev": 3,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -918,7 +1205,7 @@
  {
   "id": "@I508277@",
   "name": "George Untersinger",
-  "slug": null,
+  "slug": "george-untersinger",
   "cause": "record",
   "sev": 3,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -948,7 +1235,7 @@
  {
   "id": "@I506364@",
   "name": "Marica Milkovic",
-  "slug": null,
+  "slug": "marica-milkovic",
   "cause": "record",
   "sev": 3,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -963,7 +1250,7 @@
  {
   "id": "@I508612@",
   "name": "Marija Šojat",
-  "slug": null,
+  "slug": "marija-sojat-3",
   "cause": "record",
   "sev": 3,
   "note": "The dates as recorded genuinely cannot both be true.",
@@ -978,7 +1265,7 @@
  {
   "id": "@I506436@",
   "name": "Matia Sekula",
-  "slug": null,
+  "slug": "matia-sekula",
   "cause": "record",
   "sev": 3,
   "note": "The dates as recorded genuinely cannot both be true.",

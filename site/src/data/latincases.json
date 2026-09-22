@@ -99,6 +99,17 @@
   "ahn": null
  },
  {
+  "id": "@I511834@",
+  "slug": "jacobi-kraljich",
+  "name": "Jacobi Kraljich",
+  "given": "Jacobi",
+  "recorded": "Jacobi",
+  "nominative": "Jacobus",
+  "case": "genitive",
+  "ancestor": false,
+  "ahn": null
+ },
+ {
   "id": "@I509020@",
   "slug": "jacobum-papic-papa",
   "name": "Jacobum Papić (Papa)",
@@ -319,6 +330,28 @@
   "ahn": null
  },
  {
+  "id": "@I509623@",
+  "slug": "mariae",
+  "name": "Mariae",
+  "given": "Mariae",
+  "recorded": "Mariae",
+  "nominative": "Maria",
+  "case": "genitive",
+  "ancestor": false,
+  "ahn": null
+ },
+ {
+  "id": "@I509668@",
+  "slug": "mariae-per",
+  "name": "Mariae Per",
+  "given": "Mariae",
+  "recorded": "Mariae",
+  "nominative": "Maria",
+  "case": "genitive",
+  "ancestor": false,
+  "ahn": null
+ },
+ {
   "id": "@I506355@",
   "slug": "mariam-boras",
   "name": "Mariam Boras",
@@ -469,6 +502,17 @@
   "recorded": "Simoni",
   "nominative": "Simon",
   "case": "dative",
+  "ancestor": false,
+  "ahn": null
+ },
+ {
+  "id": "@I508621@",
+  "slug": "stephani-pavelic",
+  "name": "Stephani Pavelic",
+  "given": "Stephani",
+  "recorded": "Stephani",
+  "nominative": "Stephanus",
+  "case": "genitive",
   "ancestor": false,
   "ahn": null
  }

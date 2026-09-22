@@ -1,9 +1,9 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 132,
-  "people": 95,
-  "derived": 51,
+  "rows": 135,
+  "people": 109,
+  "derived": 70,
   "onDirectLine": 0,
   "indexOnly": 20,
   "earliest": 1725,
@@ -12,7 +12,7 @@
  "kinds": [
   [
    "baptism",
-   43
+   45
   ],
   [
    "death",
@@ -28,7 +28,7 @@
   ],
   [
    "marriage",
-   14
+   15
   ],
   [
    "grave",
@@ -682,6 +682,20 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1841",
+   "cite": "Kranj-Šmartin (Carniola, now Slovenia), Krstna knjiga 1832-1870 book p.64, read 21 September 2026 — «born and baptised 16 November 1841, Oberfeichting (Zgornje Bitnje) No. 9, katholisch, Knaben», THE TICK IS IN THE UNEHELICH COLUMN and THE VATER COLUMN IS BLANK; mother «Gertraud Kosina, hüblnn. Tochter», a Häusler's daughter; godparents Lorenz Pizz and Maria Kashar; baptised by «Blas. Ulzhar, Coop.». The tree has only «1841». Matricula, NŠAL sig. 00886 image 65",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "indexOnly": false,
+   "slug": "martin-martinus-kosina",
+   "name": "Martin Martinus Kosina",
    "ahn": null
   },
   {
@@ -1343,6 +1357,20 @@
    "ahn": null
   },
   {
+   "kind": "marriage",
+   "year": "1888",
+   "cite": "Senj marriages p.209 entry 1, «1888 dne 12 siečnja», read at 4x — he is 47, a bachelor and a «trgovac», and the Locus Originis cell reads «KRANJSKA ŽUPA SV. MARTIN KOD KRAINBURG»: Carniola, the parish of St Martin near Kranj. HIS PARENTS' COLUMN GIVES «Gertruda Kozina, posjednica» AND A DASH WHERE THE FATHER BELONGS — the same absence the Kranj register recorded on the day he was born. Witnesses include «Ivan Boras, kr. pomorske straže nadstojnik», the bride's brother. photos/line/4505845-martin-kosina-and-angjelika-boras-marriage-1888.jpg",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/the-kosina-are-filed-under-senia.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+   "indexOnly": false,
+   "slug": "martin-martinus-kosina",
+   "name": "Martin Martinus Kosina",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1890",
    "cite": "Senj, baptised 1890 — «Joso Papić × Tonka Prpić»; ark 1:1:X9DP-3BD3. INDEX ONLY, and it gives no day",
@@ -1438,6 +1466,20 @@
    "indexOnly": false,
    "slug": "angelika-boras",
    "name": "Angelika Boras",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1894",
+   "cite": "Senj births p.223 entry 37 — born 15 ožujka 1894 and baptised 16 travnja 1894, «zakonit», of «Martin Kosina i Angjelika r. Boras» of Senj; godparents «Mihael Bosco, trgovac, i Franjo Berčić»; baptised by «Vinko Margan, kapelan». AND THE MARGIN CARRIES HIS DEATH: «† 8.X.1943» above his name, in the parish's own hand, where until then that date rested on the gravestone alone. A second annotation reads «vjenčan dne 20.XI.1919». photos/line/4505826-pavao-kosina-birth-1894.jpg",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/pavao-kosina-baptism-1894.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/pavao-kosina-baptism-1894.md",
+   "indexOnly": false,
+   "slug": "pavao-kosina",
+   "name": "Pavao Kosina",
    "ahn": null
   },
   {
@@ -4059,6 +4101,68 @@
    "direct": 1,
    "derived": 0
   },
+  "martin-martinus-kosina": {
+   "slug": "martin-martinus-kosina",
+   "name": "Martin Martinus Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1841",
+     "cite": "Kranj-Šmartin (Carniola, now Slovenia), Krstna knjiga 1832-1870 book p.64, read 21 September 2026 — «born and baptised 16 November 1841, Oberfeichting (Zgornje Bitnje) No. 9, katholisch, Knaben», THE TICK IS IN THE UNEHELICH COLUMN and THE VATER COLUMN IS BLANK; mother «Gertraud Kosina, hüblnn. Tochter», a Häusler's daughter; godparents Lorenz Pizz and Maria Kashar; baptised by «Blas. Ulzhar, Coop.». The tree has only «1841». Matricula, NŠAL sig. 00886 image 65",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1888",
+     "cite": "Senj marriages p.209 entry 1, «1888 dne 12 siečnja», read at 4x — he is 47, a bachelor and a «trgovac», and the Locus Originis cell reads «KRANJSKA ŽUPA SV. MARTIN KOD KRAINBURG»: Carniola, the parish of St Martin near Kranj. HIS PARENTS' COLUMN GIVES «Gertruda Kozina, posjednica» AND A DASH WHERE THE FATHER BELONGS — the same absence the Kranj register recorded on the day he was born. Witnesses include «Ivan Boras, kr. pomorske straže nadstojnik», the bride's brother. photos/line/4505845-martin-kosina-and-angjelika-boras-marriage-1888.jpg",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1894",
+     "cite": "Senj births p.223 entry 37 — born 15 ožujka 1894 and baptised 16 travnja 1894, «zakonit», of «Martin Kosina i Angjelika r. Boras» of Senj; godparents «Mihael Bosco, trgovac, i Franjo Berčić»; baptised by «Vinko Margan, kapelan». AND THE MARGIN CARRIES HIS DEATH: «† 8.X.1943» above his name, in the parish's own hand, where until then that date rested on the gravestone alone. A second annotation reads «vjenčan dne 20.XI.1919». photos/line/4505826-pavao-kosina-birth-1894.jpg",
+     "derived": true,
+     "via": "pavao-kosina",
+     "viaName": "Pavao Kosina",
+     "where": "notes/pavao-kosina-baptism-1894.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/pavao-kosina-baptism-1894.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "pavao-kosina": {
+   "slug": "pavao-kosina",
+   "name": "Pavao Kosina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1894",
+     "cite": "Senj births p.223 entry 37 — born 15 ožujka 1894 and baptised 16 travnja 1894, «zakonit», of «Martin Kosina i Angjelika r. Boras» of Senj; godparents «Mihael Bosco, trgovac, i Franjo Berčić»; baptised by «Vinko Margan, kapelan». AND THE MARGIN CARRIES HIS DEATH: «† 8.X.1943» above his name, in the parish's own hand, where until then that date rested on the gravestone alone. A second annotation reads «vjenčan dne 20.XI.1919». photos/line/4505826-pavao-kosina-birth-1894.jpg",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/pavao-kosina-baptism-1894.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/pavao-kosina-baptism-1894.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
   "angelika-boras": {
    "slug": "angelika-boras",
    "name": "Angelika Boras",
@@ -4440,9 +4544,60 @@
    "direct": 0,
    "derived": 1
   },
+  "helena-oreskovic": {
+   "slug": "helena-oreskovic",
+   "name": "Helena Orešković",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "«Graničar iz Šumećića Br. 10» — read earlier; the tree gives only «Otočac, Croatia»",
+     "derived": true,
+     "via": "thomas-toma-zubrinic",
+     "viaName": "Thomas Toma Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
   "michaelis-michael-miho-micha-l-zubrinic": {
    "slug": "michaelis-michael-miho-micha-l-zubrinic",
    "name": "Michaelis / Michael / Miho / Michaël \"Miko\" Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
+     "derived": true,
+     "via": "petrus-zubrinic",
+     "viaName": "Petrus Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac, 25 November 1851 — «Graničar iz Poljic N° 13», the same house as Petrus 1848",
+     "derived": true,
+     "via": "mate-zubrinic",
+     "viaName": "Mate Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "magdalena-mande-drazenovic-drazenovic": {
+   "slug": "magdalena-mande-drazenovic-drazenovic",
+   "name": "Magdalena Mande Draženović Drazenovic",
    "ahn": null,
    "rows": [
     {
@@ -4502,9 +4657,60 @@
    "direct": 0,
    "derived": 2
   },
+  "maria-markovic": {
+   "slug": "maria-markovic",
+   "name": "Maria Marković",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac, 4 November 1849 — «Graničar iz Šumećića Br. 5», Croatian entry",
+     "derived": true,
+     "via": "marta-zubrinic",
+     "viaName": "Marta Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac, 26 April 1852 — «Gregarius e Sumećica N° 5»; the register gives the mother as Marković, where the index says Maković",
+     "derived": true,
+     "via": "magdalena-zubrinic-5",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
   "michael-miho-micha-l-zubrinic-3": {
    "slug": "michael-miho-micha-l-zubrinic-3",
    "name": "Michael Miho Michaël Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac, 5 January 1852 — «miles gregarius e Prozor N° 50»",
+     "derived": true,
+     "via": "magdalena-zubrinic-3",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "anna-bobinac": {
+   "slug": "anna-bobinac",
+   "name": "Anna Bobinac",
    "ahn": null,
    "rows": [
     {
@@ -4542,6 +4748,26 @@
    "direct": 0,
    "derived": 1
   },
+  "marija-rogic": {
+   "slug": "marija-rogic",
+   "name": "Marija Rogić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1858",
+     "cite": "Otočac, 8 January 1858 — «Confiniarius e Prozor N° 50», confirming the birthplace the tree already carries",
+     "derived": true,
+     "via": "nikola-miko-zubrinic",
+     "viaName": "Nikola Miko Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
   "mio-zubrinic": {
    "slug": "mio-zubrinic",
    "name": "Mio Žubrinić",
@@ -4562,9 +4788,49 @@
    "direct": 0,
    "derived": 1
   },
+  "jele-oreskovic": {
+   "slug": "jele-oreskovic",
+   "name": "Jele Oresković",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac Rodjeni 1846-1858 — daughter of Mio (Michael) Žubrinić and Jele (Helena) Orešković, «e Šumećica N° 10». Recorded in found.psv as not in the tree; the tree has her, born 1850, with both parents matching",
+     "derived": true,
+     "via": "luce-zubrinic",
+     "viaName": "Luce Žubrinić",
+     "where": "notes/otocac-michael-house-numbers-2026-09-15.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-michael-house-numbers-2026-09-15.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
   "petar-vukelic": {
    "slug": "petar-vukelic",
    "name": "Petar Vukelić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1883",
+     "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+     "derived": true,
+     "via": "zvonimir-matei-vukelic",
+     "viaName": "Zvonimir Matei Vukelić",
+     "where": "notes/senj-1907-vukelic-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "vjekoslava-pulanic": {
+   "slug": "vjekoslava-pulanic",
+   "name": "Vjekoslava \"Lojza\" Pulanic",
    "ahn": null,
    "rows": [
     {
@@ -4605,6 +4871,26 @@
   "luka-lucas-kalanj": {
    "slug": "luka-lucas-kalanj",
    "name": "Luka Lucas Kalanj",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1888",
+     "cite": "Ledenice, 16 May 1888 — INDEX ONLY, «Marija Milka», parents «Luka Kalanj» and «Kata Kalanj»; ark 1:1:XQM9-8KKX. The tree carries the year alone and cites the image; the index supplies the day. The mother is Kata Miletić in the tree — the index has given her the father's surname",
+     "derived": true,
+     "via": "marija-milka-kalanj",
+     "viaName": "Marija Milka Kalanj",
+     "where": "notes/the-zeros-were-not-all-zeros.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-zeros-were-not-all-zeros.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "kata-miletic": {
+   "slug": "kata-miletic",
+   "name": "Kata Miletic",
    "ahn": null,
    "rows": [
     {
@@ -4706,6 +4992,70 @@
    "direct": 0,
    "derived": 5
   },
+  "marija-pericic-vranjesinka-pericic-vranjesa": {
+   "slug": "marija-pericic-vranjesinka-pericic-vranjesa",
+   "name": "Marija Peričić Vranješinka Peričić Vranješa",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1893",
+     "cite": "Novi Vinodolski, baptised 5 August 1893 — INDEX ONLY, «Rozalia Kalanj», father «Martin Kalanj», mother «Maria Peričić»; ark 1:1:XQMQ-QY3Q. The FIFTH child of this household and the one whose scan is NOT in the family's photo library, where the other four sat. The tree gives her birth as 4 July 1893, so the index puts a month between birth and baptism where her siblings' entries put days — unexplained, and a reason to open the page",
+     "derived": true,
+     "via": "rozalia-kalanj",
+     "viaName": "Rozalia Kalanj",
+     "where": "notes/novi-vinodolski-is-indexed-to-1899.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/novi-vinodolski-is-indexed-to-1899.md",
+     "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1894",
+     "cite": "Novi Vinodolski baptisms str. 278 no. 71 — «Ana, kći zakonita» of «Martin Kalanj Josipov, žena mu Marija rodj. Peričić»; born 5 November 1894, baptised 11 November 1894. The patronymic «Josipov» is the find: it matches the tree's Josip Kalanj independently of the tree. Read at 3x, where the mother's surname reads Peričić and not the Crnić it seemed at page scale",
+     "derived": true,
+     "via": "ana-kalanj",
+     "viaName": "Ana Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1896",
+     "cite": "Novi Vinodolski baptisms — born 29 July 1896, register scan held at 2,953 px. One of four consecutive siblings whose baptisms were sitting unattached in the family's own photo library",
+     "derived": true,
+     "via": "franciska-kalanj",
+     "viaName": "Franciska Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1898",
+     "cite": "Novi Vinodolski baptisms — born 4 March 1898, register scan held at 2,953 px. Her godparents are entered «Josip i Ana Defrancesco» — the child's aunt and uncle, which is what proves Ana and Martin Kalanj are sister and brother",
+     "derived": true,
+     "via": "zora-kalanj",
+     "viaName": "Zora Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1900",
+     "cite": "Novi Vinodolski baptisms — born 3 January 1900, register scan held at 2,953 px. The fourth of the four loose sibling scans",
+     "derived": true,
+     "via": "ivan-kalanj",
+     "viaName": "Ivan Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 5
+  },
   "josip-josephus-joso-kalanj-kalain-kallayn": {
    "slug": "josip-josephus-joso-kalanj-kalain-kallayn",
    "name": "Josip Josephus Joso Kalanj Kalain Kallayn",
@@ -4720,6 +5070,46 @@
      "viaName": "Anica / Ana / Anna \"Ana\" Kalanj",
      "where": "site/src/data/corrections.json",
      "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "rozalija-rosalia-rozalia-perkovic-perkovic-ferkovic-ferkovic": {
+   "slug": "rozalija-rosalia-rozalia-perkovic-perkovic-ferkovic-ferkovic",
+   "name": "Rozalija Rosalia Rozalia Perković Perkovic Ferkovic Ferković",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1864",
+     "cite": "Her 1864 baptism — born 3 January 1864 — enters her parents as «Josephus Kalanj» and «Rosalia nata Perković» at Klenovica 22, the same couple the tree gives her brother Martin, AND as «Brinjensis parochiae ruricolae» — country people of the parish of BRINJE. That line was read, transcribed and then not acted on: every search this archive has run for the Kalanji has been on the coast",
+     "derived": true,
+     "via": "anica-ana-anna-kalanj",
+     "viaName": "Anica / Ana / Anna \"Ana\" Kalanj",
+     "where": "site/src/data/corrections.json",
+     "href": "",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "gertruda": {
+   "slug": "gertruda",
+   "name": "Gertruda",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1841",
+     "cite": "Kranj-Šmartin (Carniola, now Slovenia), Krstna knjiga 1832-1870 book p.64, read 21 September 2026 — «born and baptised 16 November 1841, Oberfeichting (Zgornje Bitnje) No. 9, katholisch, Knaben», THE TICK IS IN THE UNEHELICH COLUMN and THE VATER COLUMN IS BLANK; mother «Gertraud Kosina, hüblnn. Tochter», a Häusler's daughter; godparents Lorenz Pizz and Maria Kashar; baptised by «Blas. Ulzhar, Coop.». The tree has only «1841». Matricula, NŠAL sig. 00886 image 65",
+     "derived": true,
+     "via": "martin-martinus-kosina",
+     "viaName": "Martin Martinus Kosina",
+     "where": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md",
      "indexOnly": false
     }
    ],
@@ -4769,6 +5159,26 @@
   "josip-josephus-boras": {
    "slug": "josip-josephus-boras",
    "name": "Josip / Josephus \"Jose / Pepe\" Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1857",
+     "cite": "Senj, 1 September 1857 — INDEX ONLY, «Angelicam Boras», father «Josephi Boras», mother «Mariæ Kabalin»; ark 1:1:QKMJ-SQMC. AGREES WITH THE TREE TO THE DAY",
+     "derived": true,
+     "via": "angelika-boras",
+     "viaName": "Angelika Boras",
+     "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "marija-kabalin": {
+   "slug": "marija-kabalin",
+   "name": "Marija Kabalin",
    "ahn": null,
    "rows": [
     {

@@ -761,6 +761,28 @@
    "from": "register"
   },
   {
+   "who": "Kosara",
+   "slug": "kosara",
+   "what": "Domacica",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Gertruda",
+   "slug": "gertruda",
+   "what": "landlady",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
    "who": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić",
    "slug": "georgius-juraj-joannis-papa-antic-papic",
    "what": "farmhand or laborer. (tezak)",
@@ -893,6 +915,39 @@
    "from": "tree"
   },
   {
+   "who": "Andjelija Hranisavljevic",
+   "slug": "andjelija-hranisavljevic",
+   "what": "Gazdarica",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Todor Jankovic",
+   "slug": "todor-jankovic",
+   "what": "Sapundžija",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Jelena Jankovic",
+   "slug": "jelena-jankovic",
+   "what": "Uciteljica",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
    "who": "Josip Josephus Joso Kalanj Kalain Kallayn",
    "slug": "josip-josephus-joso-kalanj-kalain-kallayn",
    "what": "Farmer",
@@ -904,9 +959,64 @@
    "from": "tree"
   },
   {
+   "who": "Marko Karic",
+   "slug": "marko-karic",
+   "what": "Industrijalac, mlinar ratnik 1912-1914",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Bogdan Karic",
+   "slug": "bogdan-karic",
+   "what": "Sajdzija",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Branislav \"Branko\" Karić",
+   "slug": "branislav-karic",
+   "what": "Službenik",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
    "who": "Predrag \"Peco\" Karić",
    "slug": "predrag-karic",
    "what": "Službenik",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Martin Martinus Kosina",
+   "slug": "martin-martinus-kosina",
+   "what": "Negotiator",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Fabo Milkovic",
+   "slug": "fabo-milkovic",
+   "what": "podvornik",
    "english": "",
    "family": null,
    "place": "",
@@ -954,6 +1064,39 @@
    "english": "",
    "family": "papic",
    "place": "Senj",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Zora Pavelich",
+   "slug": "zora-pavelich",
+   "what": "Secretary",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Marko Pavelić",
+   "slug": "marko-pavelic-4",
+   "what": "Farmer",
+   "english": "",
+   "family": null,
+   "place": "Mrzli Dol br. 14",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Marko Pavelić",
+   "slug": "marko-pavelic-4",
+   "what": "Casket maker per Mary Diderich phone conv June 18 2016",
+   "english": "",
+   "family": null,
+   "place": "",
    "year": "",
    "source": "family tree",
    "from": "tree"
@@ -1014,6 +1157,17 @@
    "from": "tree"
   },
   {
+   "who": "VJEKOSLAV ŽUPAN",
+   "slug": "vjekoslav-zupan",
+   "what": "posjednik-trgovac (zidar po zvanju)",
+   "english": "",
+   "family": null,
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
    "who": "Joannes Juan Ivan Ive Žubrinić",
    "slug": "joannes-juan-ivan-ive-zubrinic-7",
    "what": "Forest Ranger",
@@ -1037,8 +1191,8 @@
   }
  ],
  "fromRegister": 76,
- "fromTree": 25,
- "published": 1460,
+ "fromTree": 39,
+ "published": 1833,
  "strata": [
   {
    "name": "Karlobag — the port town",
@@ -1872,5 +2026,5 @@
   }
  ],
  "placed": 79,
- "unplaced": 22
+ "unplaced": 36
 }
