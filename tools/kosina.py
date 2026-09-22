@@ -46,6 +46,49 @@ import gedcom  # noqa: E402
 SURNAME = "kosina"
 
 
+
+# The Carniolan generations, in descent order, from sources/found.psv. Named
+# explicitly rather than pattern-matched: this is a claim about five people and
+# it should be legible as one, not inferred from a string that might drift.
+CARNIOLAN = [
+    ("Matthaeus Kosinar",
+     "witness at Franz's marriage in 1800, signing with a cross",
+     "Father or brother of Franz — and nothing says which. The oldest of the name reached."),
+    ("Franz Kosinar",
+     "b. about 1776 · m. 27 October 1800 · Feichting house 10",
+     "Martin's grandfather. A Häusler. Named at his daughter's baptism in 1814 "
+     "and his son's marriage in 1833."),
+    ("Maria \"Mina\" Domshan",
+     "b. about 1780 · m. 27 October 1800, aged 20",
+     "Martin's grandmother. Written «Dortshen» in 1800, «Do[m]shan» in 1814 and "
+     "«Tom[sh]shan» in 1833 — three clerks, and not smoothed into one."),
+    ("Johann Kosina",
+     "b. about 1802–03 · m. 6 January 1833 · Oberfeichting house 9",
+     "Martin's uncle, and the householder of the house Martin was born in."),
+    ("Gertraud \"Gertruda\" Kosina",
+     "baptised 18 March 1814, Feichting house 10",
+     "MARTIN'S MOTHER — the «Gertruda» the tree knows only as a name. "
+     "Twenty-seven when she bore him, and unmarried."),
+]
+
+
+def carniolan_above():
+    """The five people above Martin, read out of registers and not in the tree."""
+    rows = []
+    path = os.path.join(ROOT, "sources", "found.psv")
+    cites = {}
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            if line.startswith("#") or line.count("|") < 6:
+                continue
+            f = [x.strip() for x in line.split("|")]
+            cites[f[0]] = f[6]
+    for name, when, what in CARNIOLAN:
+        rows.append({"name": name, "when": when, "what": what,
+                     "cite": cites.get(name, "")})
+    return rows
+
+
 def main():
     P, F = gedcom.load()
     living = gedcom.classify_living(P, F)
@@ -119,7 +162,18 @@ def main():
     dead = [r for r in order if not r["living"]]
     lost = [r for r in dead if year(r["died"]) == 1943]
 
+    # THE GENERATIONS THE TREE DOES NOT HAVE. Everything above Martin was read
+    # out of the Carniolan registers on 21-22 September 2026 and is in no tree
+    # anywhere, so it lives in sources/found.psv beside the tree rather than in
+    # it — this archive does not edit the GEDCOM. But a reader should not have
+    # to know which FILE a person is kept in: the descent table showed Martin
+    # with «child of Gertruda» and nothing above him while four documented
+    # ancestors sat in a second table further down the page. They are emitted
+    # here so the one table can show the whole line, each marked for what it is.
+    above = carniolan_above()
+
     doc = {
+        "above": above,
         "note": ("The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are "
                  "outside this archive's eight published surnames, so they appear in no "
                  "people.json and on no family page. The living rule is applied here: anyone "

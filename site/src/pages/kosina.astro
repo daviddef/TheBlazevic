@@ -354,12 +354,25 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
   </section>
 
   <section class="blk">
-    <div class="lab">Four generations</div>
-    <h2>The descent, as the tree has it</h2>
+    <div class="lab">Six generations</div>
+    <h2>The descent</h2>
+    <p class="lede"><strong>Two sources, one table.</strong> The rows below Martin come from the
+    family tree. <strong>The five above him are in no tree anywhere</strong> — they were read out
+    of the Carniolan registers on 21 and 22 September 2026 and are recorded beside the tree rather
+    than in it, because <strong>this archive does not edit the tree</strong>. They are marked.</p>
     <table class="reg">
       <thead><tr><th style="width:26%">Who</th><th style="width:22%">Lived</th>
         <th>In this household</th></tr></thead>
-      <tbody>{K.people.map((p) => (
+      <tbody>
+        {(K.above || []).map((a) => (
+          <tr class="above">
+            <td><strong>{a.name}</strong>
+              <span class="tag">read from the register · not in the tree</span></td>
+            <td class="dek mono">{a.when}</td>
+            <td class="dek">{a.what}</td>
+          </tr>
+        ))}
+        {K.people.map((p) => (
         <tr>
           <td><strong>{p.name}</strong>
             {p.living && <span class="dek" style="display:block">living — named only, no dates published</span>}</td>
@@ -374,34 +387,15 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
         </tr>
       ))}</tbody>
     </table>
-    <div class="note" style="margin-top:1.2rem"><strong>THE TABLE ABOVE IS THE TREE, AND THE TREE
-    STOPS AT MARTIN. THIS ARCHIVE NO LONGER DOES.</strong>
-    <span style="display:block;margin-top:.6rem">It is built from the family tree, so it can only
-    show people the tree holds — and <strong>two generations above Martin were read out of the
-    Carniolan registers on 21 and 22 September 2026 and are in no tree anywhere.</strong> They are
-    not added to it here, because <strong>this archive does not edit the tree</strong>; they stand
-    beside it in <a href={u("/found/")}>the people this tree does not have</a>.</span></div>
+    <div class="note" style="margin-top:1.2rem"><strong>THE TREE STOPS AT MARTIN. THIS TABLE DOES
+    NOT, AND THE DIFFERENCE IS THE TINTED ROWS.</strong>
+    <span style="display:block;margin-top:.6rem">Everything from Martin down is the family tree.
+    <strong>The five above him were read out of the registers of Kranj–Šmartin in Carniola on 21
+    and 22 September 2026 and are in no tree anywhere</strong> — they are recorded in
+    <a href={u("/found/")}>the people this tree does not have</a> and drawn here beside it.
+    <strong>This archive does not edit the tree</strong>; it puts what it has read next to it and
+    says which is which.</span></div>
 
-    <table class="reg" style="margin-top:1.4rem">
-      <thead><tr><th style="width:34%">Above Martin, from the registers</th><th>What names them</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Franz Kosinar</strong>, <em>Häusler</em><br />
-          × <strong>Maria «Mina» Do[m]shan</strong>
-          <span class="dek" style="display:block">Martin's grandparents · four generations above
-          Hedviga</span></td>
-          <td class="dek">Named at their daughter's baptism, <strong>18 March 1814</strong>, and at
-          their son's marriage, <strong>6 January 1833</strong>. Kranj–Šmartin.</td></tr>
-        <tr><td><strong>Gertraud Kosina</strong>, baptised <strong>18 March 1814</strong>
-          <span class="dek" style="display:block">Martin's mother — the «Gertruda» of the tree</span></td>
-          <td class="dek">Her son's baptism of <strong>16 November 1841</strong> names her and
-          <strong>leaves the father's column blank</strong>. The Senj marriage of 1888 names her
-          again, fifty-four years later, as <em>posjednica</em>.</td></tr>
-        <tr><td><strong>Johann Kosina</strong>, b. c.1802–03
-          <span class="dek" style="display:block">her brother · Martin's uncle</span></td>
-          <td class="dek">Householder of <strong>Oberfeichting no. 9</strong> — <strong>the house
-          Martin was born in</strong>. Married Luzia Labornik, 6 January 1833.</td></tr>
-      </tbody>
-    </table>
     <p class="dek" style="margin-top:1rem"><strong>Every name in the table above is a link now, and
     on 22 September it was not.</strong> Publication was <strong>Hedviga's blood</strong>, so Anka
     Blažević's children had pages while <strong>Martin, the elder Antun and Pavao</strong> — who
@@ -917,4 +911,13 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     the family tree, with the living-person rule applied in the data rather than the template.
     <a href={u("/worklist/")}>The work list row that governs this page →</a></p>
   </section>
+
+<style>
+  /* The generations that are NOT in the tree, marked so a reader can see which
+     claim rests on a register this archive opened and which on the GEDCOM. */
+  .above td { background: var(--accent-wash); }
+  .above .tag { display: block; font-family: var(--sans); font-size: 10.5px;
+    letter-spacing: .04em; text-transform: uppercase; color: var(--accent);
+    margin-top: 3px; }
+</style>
 </Base>
