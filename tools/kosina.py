@@ -51,24 +51,28 @@ SURNAME = "kosina"
 # explicitly rather than pattern-matched: this is a claim about five people and
 # it should be legible as one, not inferred from a string that might drift.
 CARNIOLAN = [
-    ("Matthaeus Kosinar",
+    ("Matthaeus Kosinar", None,
      "witness at Franz's marriage in 1800, signing with a cross",
      "Father or brother of Franz — and nothing says which. The oldest of the name reached."),
-    ("Franz Kosinar",
+    ("Franz Kosinar", 1775,
      "b. about 1775–76 · m. 27 October 1800 · d. 22 January 1849, aged 73",
      "Martin's grandfather. A Häusler at Feichting house 10, and an Ausnehmer — "
      "retired — by the end. He died at Oberfeichting 9, in his son's house: "
      "THE HOUSE HIS GRANDSON MARTIN WAS BORN IN eight years earlier."),
-    ("Maria \"Mina\" Domshan",
+    ("Maria \"Mina\" Domshan", 1780,
      "b. about 1780 · m. 27 October 1800, aged 20",
      "Martin's grandmother. Written «Dortshen» in 1800, «Do[m]shan» in 1814 and "
      "«Tom[sh]shan» in 1833 — three clerks, and not smoothed into one."),
-    ("Johann Kosina",
+    ("Johann Kosina", 1802,
      "b. about 1802–03 · m. 6 January 1833 · Oberfeichting house 9",
-     "Martin's uncle, and the householder of the house Martin was born in. His "
-     "wife Lucia Labornik died there in 1850, aged 55, of the same pneumonia "
-     "that took his father twenty-two months before."),
-    ("Gertraud \"Gertruda\" Kosina",
+     "Martin's uncle, and the householder of the house Martin was born in."),
+    ("Lucia Labornik", 1795,
+     "b. about 1795 · m. 6 January 1833, aged 38 · d. 30 November 1850, aged 55",
+     "Johann's wife — Martin's aunt by marriage rather than his blood, and the "
+     "woman keeping the house he was born in. She died there of the same "
+     "pneumonia as her father-in-law, twenty-two months after him, and that is "
+     "why Johann is beside a second wife by 1853."),
+    ("Gertraud \"Gertruda\" Kosina", 1814,
      "baptised 18 March 1814, Feichting house 10",
      "MARTIN'S MOTHER — the «Gertruda» the tree knows only as a name. "
      "Twenty-seven when she bore him, and unmarried."),
@@ -86,8 +90,8 @@ def carniolan_above():
                 continue
             f = [x.strip() for x in line.split("|")]
             cites[f[0]] = f[6]
-    for name, when, what in CARNIOLAN:
-        rows.append({"name": name, "when": when, "what": what,
+    for name, born, when, what in CARNIOLAN:
+        rows.append({"name": name, "born": born, "when": when, "what": what,
                      "cite": cites.get(name, "")})
     return rows
 
@@ -175,6 +179,12 @@ def main():
     # here so the one table can show the whole line, each marked for what it is.
     above = carniolan_above()
 
+    # THE HEADLINE NUMBERS MUST COUNT THE PEOPLE THE PAGE SHOWS. They did not,
+    # for a day: the page said «Ten people, four generations» and «1841 earliest
+    # birth» while six documented ancestors sat in its own first table, one of
+    # them born in 1775. A generated statistic that quietly excludes half the
+    # evidence is worse than no statistic, because a reader trusts a number.
+    above_years = [r["born"] for r in above if r["born"]]
     doc = {
         "above": above,
         "note": ("The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are "
@@ -183,10 +193,16 @@ def main():
                  "who may be alive is given by GIVEN NAME ALONE and carries no date, and "
                  "neither their surname nor their dates enter this file."),
         "counts": {
-            "people": len(order),
+            # `people` and `earliest` COUNT THE CARNIOLAN GENERATIONS TOO, because
+            # the page shows them and a reader counts what they can see.
+            "people": len(order) + len(above),
+            "inTree": len(order),
+            "above": len(above),
             "living": sum(1 for r in order if r["living"]),
             "lostIn1943": len(lost),
-            "earliest": min([y for y in (year(r["born"]) for r in dead) if y] or [None]),
+            "earliest": min([y for y in (year(r["born"]) for r in dead) if y]
+                            + above_years or [None]),
+            "generations": 6,
         },
         "lostIn1943": [r["id"] for r in lost],
         "people": order,
@@ -195,8 +211,9 @@ def main():
         json.dump(doc, fh, ensure_ascii=False, indent=1)
         fh.write("\n")
     c = doc["counts"]
-    print(f"kosina.json — {c['people']} people, {c['living']} presumed living and dateless, "
-          f"{c['lostIn1943']} dead in 1943")
+    print(f"kosina.json — {c['people']} people ({c['inTree']} in the tree, {c['above']} read "
+          f"from the registers), earliest birth {c['earliest']}, {c['living']} presumed living "
+          f"and dateless, {c['lostIn1943']} dead in 1943")
     return 0
 
 

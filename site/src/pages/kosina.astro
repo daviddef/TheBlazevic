@@ -54,13 +54,13 @@ const pavao = K.people.find((p) => p.name === "Pavao Kosina");
 const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
 ---
 <Base title="The Kosina"
-  eyebrow="Senj — and two of this archive's eight surnames meet in one household"
-  dek={`Ten people, four generations, and an autumn that took three of them — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
+  eyebrow={`Senj and Carniola — ${C.generations} generations, ${C.inTree} of them in the family tree and ${C.above} read out of the registers`}
+  dek={`${C.people} people across ${C.generations} generations, from a Slovene cottager's household of the 1770s to an autumn in Senj that took three of them in thirteen months — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
 
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{C.people}</div><div class="l">people</div></div>
-      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth</div></div>
+      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth — Franz Kosinar, Carniola</div></div>
       <div class="stat"><div class="n">{C.lostIn1943}</div><div class="l">dead in 1943</div></div>
     </div>
     <p class="lede">This archive publishes <strong>eight surnames</strong>, and Kosina is not one of
@@ -451,6 +451,12 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
           1833</strong> to Lucia Labornik. <strong>Son of Franz, brother of Gertraud.</strong>
           <span class="dek" style="display:block">Source: Poročna knjiga 1816–1855, book p. 35 ·
           sig. 00899, image 37</span></td></tr>
+        <tr><th>Lucia Labornik</th><td>b. about <strong>1795</strong>; m. <strong>6 January
+          1833</strong> to Johann, aged 38; <strong>d. 30 November 1850, aged 55</strong>.
+          <strong>Johann's wife — not Martin's blood, but the woman keeping the house he was born
+          in.</strong> <span class="dek" style="display:block">Sources: Poročna knjiga 1816–1855,
+          book p. 35 · sig. 00899, image 37. Mrliška knjiga 1836–1869, book p. 71 · sig. 00895,
+          image 72.</span></td></tr>
         <tr><th>Matthäus Kosinar</th><td>Witness at Franz's marriage, 1800. <strong>Father or
           brother of Franz — unproven, and should go in as a note rather than a link.</strong></td></tr>
       </table>
