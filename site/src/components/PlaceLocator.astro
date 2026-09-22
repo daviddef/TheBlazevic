@@ -1,0 +1,242 @@
+---
+/* Where one place actually is, with the ground drawn under it.
+
+   WHY THIS EXISTS. A place page carried the prose, the people and the films
+   and no picture at all, so a reader met "Krivi Put" and had no way to know it
+   is a scatter of hamlets in the mountains behind Senj rather than a town on
+   the water. The atlas has every coordinate this archive owns and the place
+   page was the one view that did not use them.
+
+   WHY IT IS NOT A PLOT. The kit's PlaceSpark argues the case and then reverses
+   it in its own docstring: "an archive that has not got a coastline should not
+   draw one … and that was the wrong call". At the size of ONE PLACE the
+   reversal matters more, not less. A ring of unlabelled dots around a centre
+   tells you nothing you did not already know; the same dots over the Velebit
+   coast tell you the sea is four kilometres west and the county line runs
+   behind the ridge. So the geography comes from the kit's own `outlinesIn`,
+   which below eight degrees of width hands back PROVINCE LINES AND RIVERS as
+   well as the coast and the national borders.
+
+   THE FRAME IS CHOSEN BY THE NEIGHBOURS, not by a fixed radius. A place with
+   company gets a tight frame and a place on its own gets a wide one, so both
+   are legible; it is clamped at each end so a lone outlier does not zoom to a
+   field and Senj does not zoom to the Adriatic.
+
+     place    the atlas row this page is about
+     places   every atlas row, for the neighbours
+     u        the archive's url helper
+*/
+import { outlinesIn } from "@daviddef/archive-kit/lib/outlines.js";
+
+const { place, places = [], u = (x) => x } = Astro.props;
+
+const W = 760, H = 420, PAD = 26;
+const num = (v) => (v === null || v === undefined || v === "" ? null : Number(v));
+const lat0 = num(place?.lat), lon0 = num(place?.lon);
+const ok = lat0 !== null && lon0 !== null && Number.isFinite(lat0) && Number.isFinite(lon0);
+
+/* Great-circle distance and a compass point, both only ever shown to one
+   decimal and eight directions — the coordinates behind them are a village
+   centroid, and more precision than that would be a lie about the source. */
+const R = 6371;
+const rad = (d) => (d * Math.PI) / 180;
+function km(aLat, aLon, bLat, bLon) {
+  const dLat = rad(bLat - aLat), dLon = rad(bLon - aLon);
+  const h = Math.sin(dLat / 2) ** 2 +
+    Math.cos(rad(aLat)) * Math.cos(rad(bLat)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+const COMPASS = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
+function bearing(aLat, aLon, bLat, bLon) {
+  const y = Math.sin(rad(bLon - aLon)) * Math.cos(rad(bLat));
+  const x = Math.cos(rad(aLat)) * Math.sin(rad(bLat)) -
+    Math.sin(rad(aLat)) * Math.cos(rad(bLat)) * Math.cos(rad(bLon - aLon));
+  const deg = (Math.atan2(y, x) * 180) / Math.PI;
+  return COMPASS[Math.round(((deg + 360) % 360) / 45) % 8];
+}
+
+let view = null;
+if (ok) {
+  /* THE ATLAS HOLDS THE SAME TOWN MORE THAN ONCE. «Senj» and «Senj, Lika-Senj
+     County» are two rows with one pair of coordinates, and the first draft of
+     this map drew Senj three times and then told the reader its nearest
+     neighbour was Senj, nought point nought kilometres away. Folded by name,
+     keeping the row that carries the most people. */
+  const fold = (x) => (x || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  const here = fold(place.name);
+  const byName = new Map();
+  for (const p of places) {
+    const lat = num(p.lat), lon = num(p.lon);
+    if (lat === null || lon === null || !Number.isFinite(lat) || !Number.isFinite(lon)) continue;
+    /* And folded by POSITION as well as by name, because the same town is in
+       here as «Otočac», «Otocac Croatia» and «Otočac/Smokvica Krmpotska» on
+       one pair of coordinates — three names, one place, and the caption said
+       the three nearest places were all twenty kilometres east. */
+    const key = `${p.lat.toFixed(4)},${p.lon.toFixed(4)}`;
+    const nm = fold(p.name);
+    if (!nm || nm === here) continue;
+    if (Math.abs(p.lat - lat0) < 5e-4 && Math.abs(p.lon - lon0) < 5e-4) continue;
+    const prev = byName.get(key);
+    if (!prev || (Number(p.n) || 0) > (Number(prev.n) || 0)) byName.set(key, { ...p, lat, lon });
+  }
+  const others = [...byName.values()]
+    .map((p) => ({ ...p, km: km(lat0, lon0, p.lat, p.lon) }))
+    .sort((a, b) => a.km - b.km);
+
+  /* Far enough out to hold the sixth neighbour, and never so far that the
+     place itself becomes a speck or so near that it becomes a field. */
+  const sixth = others[5]?.km ?? others[others.length - 1]?.km ?? 20;
+  const radiusKm = Math.min(95, Math.max(13, sixth * 1.45));
+  const dLat = radiusKm / 111.32;
+  const dLon = dLat / Math.max(0.2, Math.cos(rad(lat0)));
+  const aspect = (W - PAD * 2) / (H - PAD * 2);
+
+  const frame = {
+    w: lon0 - dLon * aspect, e: lon0 + dLon * aspect,
+    s: lat0 - dLat, n: lat0 + dLat,
+  };
+  const k = Math.cos(rad(lat0));
+  const sx = (W - PAD * 2) / ((frame.e - frame.w) * k);
+  const sy = (H - PAD * 2) / (frame.n - frame.s);
+  const scale = Math.min(sx, sy);
+  const px = (lon, lat) => [
+    W / 2 + (lon - lon0) * k * scale,
+    H / 2 - (lat - lat0) * scale,
+  ];
+
+  const o = outlinesIn(frame);
+  const toPaths = (rings) => rings.map((r) => {
+    let d = "";
+    for (const [lon, lat] of r) {
+      const [x, y] = px(lon, lat);
+      d += (d ? "L" : "M") + x.toFixed(1) + " " + y.toFixed(1);
+    }
+    return d;
+  }).filter((d) => d.indexOf("L") > 0);
+
+  /* Only the neighbours that actually fall in the picture. A place is not
+     dragged to the edge here the way the spark does it: this is a locator, and
+     a dot on the border of a locator reads as a place that is there. */
+  const inFrame = others.filter((p) =>
+    p.lon >= frame.w && p.lon <= frame.e && p.lat >= frame.s && p.lat <= frame.n);
+
+  const dots = inFrame.map((p) => {
+    const [x, y] = px(p.lon, p.lat);
+    return { ...p, x, y, r: Math.max(3, Math.min(6, 2.6 + Math.sqrt(Number(p.n) || 0) * 0.55)) };
+  });
+
+  /* Labels biggest-first, and only where nothing has been written already. */
+  const taken = [];
+  const fits = (b) => !taken.some((t) =>
+    b.x1 > t.x0 && b.x0 < t.x1 && b.y1 > t.y0 && b.y0 < t.y1);
+  const [fx, fy] = px(lon0, lat0);
+  taken.push({ x0: fx - 6, y0: fy - 22, x1: fx + 10 + place.name.length * 8.4, y1: fy + 8 });
+
+  const labelled = [];
+  for (const p of [...dots].sort((a, b) => (Number(b.n) || 0) - (Number(a.n) || 0))) {
+    const wpx = p.name.length * 6.1 + 12;
+    const box = { x0: p.x + 7, y0: p.y - 8, x1: p.x + 7 + wpx, y1: p.y + 6 };
+    const left = box.x1 > W - 4;
+    const b2 = left ? { x0: p.x - 7 - wpx, y0: box.y0, x1: p.x - 7, y1: box.y1 } : box;
+    if (b2.x0 < 2 || !fits(b2)) continue;
+    taken.push(b2);
+    labelled.push({ ...p, anchor: left ? "end" : "start", lx: left ? p.x - 8 : p.x + 8 });
+    if (labelled.length >= 11) break;
+  }
+
+  /* A scale bar with a round number of kilometres, sized to the drawing. */
+  /* `scale` is pixels per degree of latitude, so a kilometre is scale/111.32
+     pixels. The first draft inverted that and drew a bar the width of the
+     whole picture labelled «20 km». */
+  const kmPerPx = 111.32 / scale;
+  const target = (W - PAD * 2) * 0.22 * kmPerPx;
+  const nice = [1, 2, 5, 10, 20, 25, 50, 100].reduce((a, b) =>
+    Math.abs(b - target) < Math.abs(a - target) ? b : a);
+  const barPx = nice / kmPerPx;
+
+  view = {
+    fx, fy,
+    coast: toPaths(o.land), borders: toPaths(o.borders),
+    provinces: toPaths(o.provinces), rivers: toPaths(o.rivers),
+    dots, labelled, barPx, nice,
+    near: others.slice(0, 3).map((p) => ({
+      name: p.name, href: p.href,
+      km: p.km < 10 ? p.km.toFixed(1) : String(Math.round(p.km)),
+      dir: bearing(lat0, lon0, p.lat, p.lon),
+    })),
+    radiusKm: Math.round(radiusKm),
+  };
+}
+---
+{view && (
+  <figure class="loc">
+    <svg viewBox={`0 0 ${W} ${H}`} role="img"
+         aria-label={`Locator map: ${place.name} and the places around it`}>
+      {view.coast.map((d) => <path d={d} class="loc-land" />)}
+      {view.rivers.map((d) => <path d={d} class="loc-river" />)}
+      {view.provinces.map((d) => <path d={d} class="loc-prov" />)}
+      {view.borders.map((d) => <path d={d} class="loc-border" />)}
+
+      {view.dots.map((p) => <circle cx={p.x} cy={p.y} r={p.r} class="loc-dot" />)}
+      {view.labelled.map((p) => (
+        <text x={p.lx} y={p.y + 4} text-anchor={p.anchor} class="loc-lbl">{p.name}</text>
+      ))}
+
+      <circle cx={view.fx} cy={view.fy} r="9.5" class="loc-halo" />
+      <circle cx={view.fx} cy={view.fy} r="6" class="loc-here" />
+      <text x={view.fx} y={view.fy - 14} text-anchor="middle" class="loc-name">{place.name}</text>
+
+      <g class="loc-n" transform="translate(26,30)">
+        <text x="0" y="0" class="loc-lbl">N</text>
+        <path d="M18 2 L18 -12 M14 -8 L18 -13 L22 -8" class="loc-arrow" />
+      </g>
+      <g transform={`translate(${W - PAD - view.barPx},${H - 22})`}>
+        <path d={`M0 0 L0 6 M0 3 L${view.barPx} 3 M${view.barPx} 0 L${view.barPx} 6`} class="loc-arrow" />
+        <text x={view.barPx / 2} y="-4" text-anchor="middle" class="loc-lbl">{view.nice} km</text>
+      </g>
+    </svg>
+    <figcaption>
+      <strong>{place.name}</strong>{" "}at {Number(place.lat).toFixed(4)}° N, {Number(place.lon).toFixed(4)}° E
+      {place.fix === "approx" && <span class="dek"> · coordinate approximate</span>}
+      {view.near.length > 0 && (
+        <span style="display:block">Nearest in this archive: {view.near.map((n, i) => (
+          <>{i > 0 && " · "}<a href={u(n.href)}>{n.name}</a>{" "}{n.km} km {n.dir}</>
+        ))}</span>
+      )}
+      <span class="dek" style="display:block">Coast, national and provincial boundaries and rivers
+        are drawn from the archive kit's own outlines, clipped to about {view.radiusKm} km around
+        the place. Every dot is somewhere this archive can put a person.</span>
+    </figcaption>
+  </figure>
+)}
+
+<style>
+  .loc { margin: 0 0 1.6rem; padding: 0; }
+  .loc svg { width: 100%; height: auto; display: block;
+    border: 1px solid var(--rule); border-radius: 3px; background: var(--panel); }
+  .loc figcaption { font-family: var(--sans); font-size: 12.5px; line-height: 1.6;
+    color: var(--ink-2); margin-top: 8px; }
+
+  /* THE SHORE IS A LINE, NOT A FILL, and the first draft learned why. A coast
+     ring that runs off the frame — which the Croatian mainland always does at
+     this size — is closed by SVG straight across the picture, and the winding
+     rule then fills whichever side it feels like. It filled the Adriatic and
+     left the Velebit blank, so the map said the sea was the land.
+     The kit's spark washes its land at eight per cent for exactly this reason:
+     at that weight it does not matter which side won, and the STROKE carries
+     the information. Same here. */
+  .loc-land { fill: var(--ink); fill-opacity: .07;
+    stroke: var(--ink-3); stroke-opacity: .65; stroke-width: 1; }
+  .loc-border { fill: none; stroke: var(--ink-3); stroke-opacity: .5;
+    stroke-width: 1.1; stroke-dasharray: 5 3; }
+  .loc-prov { fill: none; stroke: var(--ink-3); stroke-opacity: .32;
+    stroke-width: .8; stroke-dasharray: 2 3; }
+  .loc-river { fill: none; stroke: var(--r-croatia); stroke-opacity: .45; stroke-width: 1; }
+
+  .loc-dot { fill: var(--ink-3); fill-opacity: .8; }
+  .loc-halo { fill: var(--panel); stroke: var(--accent); stroke-width: 1.2; }
+  .loc-here { fill: var(--accent); }
+  .loc-lbl { font-family: var(--sans); font-size: 11.5px; fill: var(--ink-2); }
+  .loc-name { font-family: var(--serif); font-size: 17px; font-weight: 600; fill: var(--accent); }
+  .loc-arrow { fill: none; stroke: var(--ink-3); stroke-width: 1.2; }
+</style>

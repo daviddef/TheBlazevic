@@ -16,4 +16,10 @@ export default defineConfig({
   base: '/TheBlazevic',
   build: { format: 'directory' },
   redirects,
+  /* The kit is BUNDLED, not externalised. Its lib/outlines.js does a plain
+     `import RAW from "../data/outlines.json"`, which Vite handles and Node's
+     own ESM loader refuses without an import attribute. A kit .astro component
+     gets transformed either way, so this never bit until a page of this
+     archive imported kit/lib directly — PlaceLocator, for the coastline. */
+  vite: { ssr: { noExternal: ['@daviddef/archive-kit'] } },
 });
