@@ -55,16 +55,19 @@ CARNIOLAN = [
      "witness at Franz's marriage in 1800, signing with a cross",
      "Father or brother of Franz — and nothing says which. The oldest of the name reached."),
     ("Franz Kosinar",
-     "b. about 1776 · m. 27 October 1800 · Feichting house 10",
-     "Martin's grandfather. A Häusler. Named at his daughter's baptism in 1814 "
-     "and his son's marriage in 1833."),
+     "b. about 1775–76 · m. 27 October 1800 · d. 22 January 1849, aged 73",
+     "Martin's grandfather. A Häusler at Feichting house 10, and an Ausnehmer — "
+     "retired — by the end. He died at Oberfeichting 9, in his son's house: "
+     "THE HOUSE HIS GRANDSON MARTIN WAS BORN IN eight years earlier."),
     ("Maria \"Mina\" Domshan",
      "b. about 1780 · m. 27 October 1800, aged 20",
      "Martin's grandmother. Written «Dortshen» in 1800, «Do[m]shan» in 1814 and "
      "«Tom[sh]shan» in 1833 — three clerks, and not smoothed into one."),
     ("Johann Kosina",
      "b. about 1802–03 · m. 6 January 1833 · Oberfeichting house 9",
-     "Martin's uncle, and the householder of the house Martin was born in."),
+     "Martin's uncle, and the householder of the house Martin was born in. His "
+     "wife Lucia Labornik died there in 1850, aged 55, of the same pneumonia "
+     "that took his father twenty-two months before."),
     ("Gertraud \"Gertruda\" Kosina",
      "baptised 18 March 1814, Feichting house 10",
      "MARTIN'S MOTHER — the «Gertruda» the tree knows only as a name. "
