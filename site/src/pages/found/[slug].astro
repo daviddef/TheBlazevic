@@ -1,0 +1,104 @@
+---
+/* One page for one person the family tree does not have.
+ *
+ * These people have been in sources/found.psv since 15 September and readable
+ * only as a row in a table: a name a reader could see and not click, sitting
+ * beside the linked names of everybody the GEDCOM happens to know. The
+ * asymmetry had nothing to do with evidence — Pavao Kosina had three documents
+ * read for him and his daughter one, and she was the one with a page.
+ *
+ * WHAT THIS DOES NOT DO. It does not merge them into the tree. The slug is the
+ * archive's own and names a page under /found/; nothing enters people.json and
+ * nothing pretends the MyHeritage export knows these people. That separation is
+ * what the project rests on and found.psv's header is right to insist on it.
+ * The page states, on its face, that the tree has never heard of them.
+ *
+ * The two rows carrying an ahnentafel number are NOT given a page here: they
+ * are readings about somebody the archive already publishes — Georgius Uroda
+ * is ahnentafel 108 and has a page as «Georgi Uroda» — and a second page for a
+ * published person is the merge fault running backwards.
+ */
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import F from "../../data/found.json";
+import ancestors from "../../data/ancestors.json";
+
+export function getStaticPaths() {
+  return F.rows
+    .filter((r) => !r.ahn)                 // the published two keep their own page
+    .map((r) => ({ params: { slug: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+
+/* "son of ahnentafel 10 and 11, brother of ahnentafel 5" — every number in the
+   relation is a position on the direct line, and every position the archive
+   publishes has a page. Linked in place, so the sentence stays the archive's
+   own words and becomes navigable rather than being rewritten. */
+const byAhn = new Map(ancestors.filter((a) => a.ahn != null).map((a) => [a.ahn, a]));
+/* «son of ahnentafel 10 and 11» names TWO people and writes the word once.
+   Twenty-nine of these relations do it, and a pattern that only matches the
+   number carrying the word links the father and leaves the mother as plain
+   text — the very asymmetry these pages exist to remove. A bare number is
+   taken as an ahnentafel only where it follows one that said so, joined by
+   "and" or a comma, so a year or a house number elsewhere in the sentence is
+   never mistaken for a position on the line. */
+const parts = String(r.relation).split(/(\bahnentafel\s+\d+(?:\s*(?:,|and)\s*\d+)*)/gi);
+const link = (n, text) => {
+  const a = byAhn.get(Number(n));
+  return a && a.slug ? { text, href: `/people/${a.slug}/`, who: a.name } : { text };
+};
+const kin = parts.flatMap((piece) => {
+  if (!/^ahnentafel\s+\d+/i.test(piece)) return [{ text: piece }];
+  const out = [];
+  const re = /(\d+)|([^\d]+)/g;
+  let m;
+  while ((m = re.exec(piece)) !== null) {
+    out.push(m[1] ? link(m[1], m[1]) : { text: m[2] });
+  }
+  return out;
+});
+const named = kin.filter((k) => k.href);
+---
+<Base
+  title={r.name}
+  eyebrow="Read out of a register, and not in the family tree"
+  dek={`${r.event ? r.event.charAt(0).toUpperCase() + r.event.slice(1) : "Recorded"}${r.date ? `, ${r.date}` : ""}${r.place ? `, ${r.place}` : ""} — ${r.relation}.`}>
+
+  <section class="blk">
+    <div class="note"><strong>The family tree has never heard of this person.</strong> Every other
+    person page in this archive is a record the MyHeritage export holds. This one is not: it exists
+    because the register was read at the page, and it is kept <em>beside</em> the tree rather than
+    put into it. The tree is an export and this archive does not edit it.
+    <a href={u("/found/")}>The whole list, and why it exists →</a></div>
+  </section>
+
+  <section class="blk">
+    <h2>What the register says</h2>
+    <dl class="fm-dl">
+      {r.event ? <><dt>Event</dt><dd>{r.event}</dd></> : null}
+      {r.date ? <><dt>Date</dt><dd class="mono">{r.date}</dd></> : null}
+      {r.place ? <><dt>Place</dt><dd>{r.place}</dd></> : null}
+      <dt>Citation</dt><dd style="font-size:.94em">{r.citation}</dd>
+    </dl>
+  </section>
+
+  <section class="blk">
+    <h2>How they attach to the line</h2>
+    <p class="lede">{kin.map((k) => (
+      k.href
+        ? <a href={u(k.href)} title={k.who}>{k.text}</a>
+        : <Fragment>{k.text}</Fragment>
+    ))}</p>
+    {named.length === 0 ? (
+      <p class="dek">The relation is recorded in the archive's own words and names no position on
+      the direct line, so there is nobody here to link to yet.</p>
+    ) : (
+      <p class="dek">An <strong>ahnentafel</strong> number is a position on the direct line —
+      doubling at every generation — and each one above links to the person who holds it.</p>
+    )}
+  </section>
+
+  <section class="blk">
+    <p class="cap"><a href={u("/found/")}>← All {F.count} people found beside the tree</a></p>
+  </section>
+</Base>

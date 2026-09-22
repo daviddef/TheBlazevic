@@ -19,9 +19,16 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
     ahnentafel 54's baptism named his father and his mother and <strong>there was nowhere to put
     them</strong>. This is the nowhere.</p>
     <p><strong>{F.count} people, {F.onDirectLine} of them on the direct line.</strong> They are
-    deliberately given <strong>no slugs</strong> and are <strong>not merged</strong>: the tree is an
-    export from MyHeritage and this archive does not edit it. What it does instead is put its own
-    reading beside it, with the citation, so the two can be compared rather than blended.</p>
+    <strong>not merged</strong> into the tree: it is an export from MyHeritage and this archive does
+    not edit it. What it does instead is put its own reading beside it, with the citation, so the two
+    can be compared rather than blended.</p>
+    <p>Since 22 September each of them also has <strong>a page of its own</strong>. A name a reader
+    cannot click, sitting beside names they can, says something about what the family tree happens to
+    hold and nothing about the evidence &mdash; and here the evidence is the point. The slug behind
+    that page is <strong>this archive's, not the tree's</strong>, and nothing about it enters the
+    export. The two rows carrying an ahnentafel number are not given one, because those readings are
+    about somebody already published: Georgius Uroda is ahnentafel 108 and has a page as
+    <a href={u("/people/georgi-uroda/")}>Georgi Uroda</a>.</p>
     <div class="note"><strong>This list has been wrong, and the way it was wrong is worth
     knowing.</strong> «Not in the tree» was once decided by searching the published people — and a
     person can be in the tree with <strong>no page of their own</strong>, as a parent, a spouse, a
@@ -40,7 +47,9 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
         <th>What the page says</th></tr></thead>
       <tbody>{direct.map((r) => (
         <tr>
-          <td><strong>{r.name}</strong>
+          <td>{r.ahn
+          ? <strong>{r.name}</strong>
+          : <a href={u(`/found/${r.slug}/`)}><strong>{r.name}</strong></a>}
             <span class="dek" style="display:block">ahnentafel {r.ahn} — {r.relation}</span></td>
           <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
             <span style="display:block">{r.event}</span></td>
@@ -60,7 +69,9 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
         <th>What the page says</th></tr></thead>
       <tbody>{rest.map((r) => (
         <tr>
-          <td><strong>{r.name}</strong>
+          <td>{r.ahn
+          ? <strong>{r.name}</strong>
+          : <a href={u(`/found/${r.slug}/`)}><strong>{r.name}</strong></a>}
             <span class="dek" style="display:block">{r.relation}</span></td>
           <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
             <span style="display:block">{r.event}</span></td>
