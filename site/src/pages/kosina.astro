@@ -1,8 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { u } from "../lib/url.js";
 import K from "../data/kosina.json";
+import D from "../data/kosina-descent.json";
 import people from "../data/people.json";
 // Kosina is not one of this archive's eight published surnames, so there is no
 // generated family page for them. FIVE OF THE TEN now have a person page all the
@@ -52,6 +54,131 @@ const line = (id) => { const p = by[id]; if (!p) return "";
 const martin = K.people.find((p) => p.name.includes("Martin"));
 const pavao = K.people.find((p) => p.name === "Pavao Kosina");
 const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
+
+/* ===================================================================
+   THE DESCENT, drawn the way the rest of the estate now draws one.
+
+   It was a three-column table — Who / Lived / In this household — with the
+   register-only people tinted above the tree people. The tint said the right
+   thing and the table could not. A table has no room for a marriage, so the
+   couple who are the whole point of half these rows sat inside a sentence in
+   the third column; and the ten people the FAMILY TREE holds were not links
+   at all, though nine of them have had a page since 21 September.
+
+   The ladder is the same evidence in the shape the estate now draws: oldest
+   at the top, the wife in her own column beside her husband and not after
+   the word "and", the children in one strip, and each parent's brothers and
+   sisters under that parent.
+
+   WHAT MOVED AND WHAT DID NOT. Every one of the six `above` and every one of
+   the ten `people` is here. Four of the six were never a generation of their
+   own — MATTHÄUS is Franz's brother, JOHANN is Gertraud's, LUCIA is Johann's
+   wife — so they sit where they belong instead of in a queue that implied a
+   descent they are not on. Nobody lost their evidence: each row's «The
+   evidence» fold carries the `what` and the `cite` of every person named in
+   it, per person and labelled, so the citation for Maria Dortschen is still
+   Maria Dortschen's.
+
+   `household` STAYS OUT, as a descent that mixes proven descent with
+   probable kinship stops being a descent. The exception is the three infants
+   — Elisabeth, Maria and Valentin ARE Franz and Maria's children by their
+   own baptisms, so they are drawn as children of that marriage. MARIA
+   KOSINAR THE ELDER and MARGARETHA, the two the archive can only call
+   «probably kin», keep their own section above and are named nowhere here.
+
+   THE ARRANGEMENT IS IN `data/kosina-descent.json` AND NOT IN THIS PAGE,
+   because the arrangement is itself a finding — which of the six is on the
+   line, who is whose brother, which child carried it on. What is below is
+   only the resolver: a slug becomes a /found/ link, a GEDCOM id becomes a
+   /people/ link, and a `cite` list becomes the evidence fold. No name and no
+   date is typed here that kosina.json or people.json already holds.
+
+   SLUGS ARE READ, NEVER RECOMPUTED. found.py disambiguates a repeated name
+   with its year and kosina.json carries the result. Deriving it again here
+   would be a second implementation of somebody else's rule, and it would
+   drift.
+   =================================================================== */
+const A = Object.fromEntries((K.above || []).map((a) => [a.slug, a]));
+const H = Object.fromEntries((K.household || []).map((h) => [h.slug, h]));
+const reg = (slug) => A[slug] || H[slug] || null;
+
+/* RAW paths, NOT based. `Descent` calls the `u` it is handed on every href it
+   draws, so a path based here would come out /TheBlazevic/TheBlazevic/… —
+   which is the fault that put a double base on four D'Arcy pages. PersonTree's
+   `node()` above bases its own, because PersonTree does not. */
+const foundHref = (slug) => (slug ? `/found/${slug}/` : null);
+const personHref = (id) => {
+  const r = byId[id];
+  return r && r.slug ? `/people/${r.slug}/` : null;
+};
+/* A tree person's dates, with the living rule asked again at the point of
+   use: kosina.json already withholds the dates of anyone who may be alive,
+   and this does not take that on trust. */
+const treeDates = (id) => {
+  const k = by[id];
+  if (!k || k.living) return "";
+  return [k.born, k.died].filter(Boolean).join(" – ");
+};
+/* One card. A card names a register person by slug, a tree person by GEDCOM
+   id, or — for the two children of Johann and Lucia, who are in neither file
+   — by a bare name, which gets no link because there is no page to link to. */
+const card = (c) => {
+  const r = c.found ? reg(c.found) : null;
+  const t = c.person ? by[c.person] || byId[c.person] : null;
+  return {
+    name: c.name || (r && r.name) || (t && t.name) || "",
+    href: c.found ? foundHref(c.found) : c.person ? personHref(c.person) : null,
+    dates: c.person ? treeDates(c.person) : c.dates || "",
+    line: !!c.line,
+    note: c.note || undefined,
+  };
+};
+const rowSide = (r, kind) => {
+  const f = kind === "spouse" ? r.spouseFound : r.found;
+  const i = kind === "spouse" ? r.spousePerson : r.person;
+  const g = f ? reg(f) : null;
+  const t = i ? by[i] || byId[i] : null;
+  const explicit = kind === "spouse" ? r.spouseName : r.name;
+  return {
+    name: explicit || (g && g.name) || (t && t.name) || "",
+    href: f ? foundHref(f) : i ? personHref(i) : null,
+  };
+};
+
+const descentRows = D.rows.map((r) => {
+  const him = rowSide(r, "self");
+  const her = rowSide(r, "spouse");
+  const cited = (r.cite || []).map(reg).filter(Boolean);
+  return {
+    gen: r.gen, era: r.era, via: r.via,
+    name: him.name, href: him.href,
+    born: r.born || "", died: r.died || "", trade: r.trade || "",
+    spouse: her.name, spouseHref: her.href,
+    spouseBorn: r.spouseBorn || "", spouseAlt: r.spouseAlt || "",
+    place: r.place || "", married: r.married || "",
+    confidence: r.fromRegister ? D.register : "",
+    children: (r.children || []).map(card),
+    /* Anka's brothers and sisters are not listed in the arrangement file —
+       they are read live out of people.json, so that the day somebody adds a
+       Blažević sibling to the tree, this row gains them. That is the joint
+       this whole page is about, and it should not need editing to stay true. */
+    hisSiblings: (r.hisSiblings || []).map(card),
+    herSiblings: r.herSiblingsFrom
+      ? (((byId[r.herSiblingsFrom] || {}).rel || {}).siblings || []).map((x) => ({
+          name: x.name,
+          href: x.slug ? `/people/${x.slug}/` : null,
+          dates: [x.born, x.died].filter(Boolean).join("–") || "",
+        }))
+      : (r.herSiblings || []).map(card),
+    hisLabel: r.hisLabel, herLabel: r.herLabel,
+    hisNone: r.hisNone, herNone: r.herNone,
+    note: [
+      r.note || "",
+      ...cited.map((c) => `<strong>${c.name}.</strong> ${c.what}`),
+    ].filter(Boolean).join("<br><br>"),
+    sources: cited.map((c) => ({ label: c.name, note: c.cite })),
+  };
+});
 ---
 <Base title="The Kosina"
   eyebrow={`Senj and Carniola — ${C.generations} generations · ${C.inTree} people from the family tree, ${C.above} read out of the parish registers, and ${C.household} more of the same household`}
@@ -539,8 +666,8 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
   <section class="blk">
     <div class="lab">Six generations</div>
     <h2>The descent</h2>
-    <p class="lede"><strong>Two sources, one table</strong> — and the tinted rows are the
-    better-evidenced half, not the weaker one.</p>
+    <p class="lede"><strong>Two sources, one ladder</strong> — and the rows carrying a
+    <em>«parish register»</em> pill are the better-evidenced half, not the weaker one.</p>
 
     <div class="note" style="margin-top:1rem">
       <strong>What «the family tree» means here, because it is not obvious.</strong>
@@ -553,8 +680,8 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       <strong>beside</strong> the tree instead of quietly slipping them in — so that you can always
       tell which statement came from a document and which came from the tree.</p>
       <p style="margin:.6rem 0 0"><strong>So «not in the family tree» does not mean «not
-      proven».</strong> It means nobody has typed them in yet. <strong>Look at what the two halves
-      of this table actually cite.</strong> Martin's own row says <em>«1841»</em> and offers no
+      proven».</strong> It means nobody has typed them in yet. <strong>Look at what the two kinds of row
+      actually cite.</strong> Martin's own row says <em>«1841»</em> and offers no
       source at all. <strong>Gertraud's gives a day, a house number and the page of the register it
       was read from.</strong> The tinted rows are the ones with documents behind them.</p>
       <p style="margin:.6rem 0 0"><strong>What decides which side a person falls on is not
@@ -606,38 +733,11 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
           <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 130 ·
           sig. 00894, image 66</span></td></tr>
       </table>
-      <p class="dek" style="margin-top:.8rem">Once they are in the tree, they will appear in the
-      lower half of this table on the next build and the tint will go away by itself.</p>
+      <p class="dek" style="margin-top:.8rem">Once they are in the tree, their pills will go away
+      by themselves on the next build and their names will point at <span class="mono">/people/</span>
+      instead of <span class="mono">/found/</span>.</p>
     </details>
-    <table class="reg">
-      <thead><tr><th style="width:26%">Who</th><th style="width:22%">Lived</th>
-        <th>In this household</th></tr></thead>
-      <tbody>
-        {(K.above || []).map((a) => (
-          <tr class="above">
-            <td>{a.slug
-                  ? <a href={u(`/found/${a.slug}/`)}><strong>{a.name}</strong></a>
-                  : <strong>{a.name}</strong>}
-              <span class="tag">parish register · not yet in the family tree</span></td>
-            <td class="dek mono">{a.when}</td>
-            <td class="dek">{a.what}</td>
-          </tr>
-        ))}
-        {K.people.map((p) => (
-        <tr>
-          <td><strong>{p.name}</strong>
-            {p.living && <span class="dek" style="display:block">living — named only, no dates published</span>}</td>
-          <td class="dek mono">{p.living ? "—" : ([p.born, p.died].filter(Boolean).join(" – ") || "—")}
-            {!p.living && p.bornPlace && <span class="dek" style="display:block">b. {p.bornPlace}</span>}
-            {!p.living && p.diedPlace && <span class="dek" style="display:block">d. {p.diedPlace}</span>}</td>
-          <td class="dek">
-            {p.parents.length > 0 && <span style="display:block">child of {p.parents.map((x) => x.name).join(" and ")}</span>}
-            {p.spouses.length > 0 && <span style="display:block">married {p.spouses.map((x) => x.name).join(", ")}</span>}
-            {p.children.length > 0 && <span style="display:block">{p.children.length} {p.children.length === 1 ? "child" : "children"}</span>}
-          </td>
-        </tr>
-      ))}</tbody>
-    </table>
+    <Descent rows={descentRows} u={u} archiveKey="blazevic" />
     <div class="note" style="margin-top:1.2rem"><strong>THE FAMILY TREE STOPS AT MARTIN. THE
     DOCUMENTS DO NOT.</strong>
     <span style="display:block;margin-top:.6rem">Everything from Martin down was already in the
@@ -646,7 +746,7 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     <a href={u("/found/")}>the people this tree does not have</a> — which is exactly what that page
     is for.</span></div>
 
-    <p class="dek" style="margin-top:1rem"><strong>Every name in the table above is a link now, and
+    <p class="dek" style="margin-top:1rem"><strong>Every name in the ladder above is a link now, and
     on 22 September it was not.</strong> Publication was <strong>Hedviga's blood</strong>, so Anka
     Blažević's children had pages while <strong>Martin, the elder Antun and Pavao</strong> — who
     married into the family or fathered into it — had none, even though this archive had read more
