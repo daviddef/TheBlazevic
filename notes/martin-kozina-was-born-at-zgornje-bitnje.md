@@ -3,7 +3,8 @@
 > **CORRECTED 22 September 2026.** This note eliminated Gertraud's own baptism on 21 September
 > and the elimination was wrong. She is the 1814 entry, the brother's marriage proves it, and
 > the struck-out reasoning is kept below where it happened. **Martin's grandparents are now
-> named: Franz Kosinar and Maria «Mina» Do[m]shan.**
+> named: Franz Kosinar and Maria «Mina» Do[m]shan — and their own marriage of 27 October 1800
+> has since been found, which also explains the house numbers this note called «not tight».**
 
 **21 September 2026.** The Senj marriage of 12 January 1888 gave the parish — *«Kranjska župa
 sv. Martin kod Krainburg»* — and this archive had gone no further, because Croatian registers
@@ -159,15 +160,51 @@ these registers use for *Marija*. **Same couple.**
 **Gertraud was not a lodger and not a stranger. She was the householder's sister**, and she bore
 her son under her brother's roof seven years after he brought a wife into it.
 
-### Two things that are still not tight, and are recorded as such
+## 22 September, later: their own marriage, and the house numbers explained
 
-* **The house numbers differ by one.** Gertraud is baptised at **house 10** in 1814 and Johann
-  marries into **house 9** in 1833. Adjacent numbers in one hamlet, thirty years apart, with a
-  land reform in between — but it is not the same digit and it is not being pretended that it is.
-* **«Maria» in 1814 and «Mina» in 1833**, and a surname written across two lines the first time
-  and abbreviated the second. Recorded as read, at full magnification, and not smoothed.
-* **The 1818 candidate is now moot but not disproved** — «Lukas Ko[s]in…», house 12, whose
-  terminal could not be read. She would be a different father's daughter.
+The marriage book **1780–1815** has no index either, so images 30–35 were cropped to the
+Bräutigam column and read as strips. It is on image 33, under **1800**:
+
+> **Den 27ten [8ber] · Feichting b. St. Joh. · 10 · FRANZ KOSINAR · katholisch · 24 · ledig**
+> × **MARIA DORTSHEN · katholisch · 20 · ledig**
+> *Beystände:* **MATTHÄUS KOSINAR** — signing with a cross — and **Simon Rauth**, *Bauern*
+> *Married by* Matthäus Lauts, coop., Pfarrer St. Martin
+
+**27 October 1800. So Franz was born about 1776 and Maria about 1780**, and they married at
+twenty-four and twenty.
+
+### And the one loose end from yesterday closes itself
+
+This note said the house numbers were *«not tight»* — **Gertraud baptised at house 10 in 1814,
+Johann marrying into house 9 in 1833** — and left it standing rather than explain it away.
+
+**The marriage answers it. Franz and Maria set up at FEICHTING HOUSE 10 in 1800.** That is the
+family house: their daughter Gertraud is baptised in it in 1814. **Johann, marrying in 1833,
+went next door to number 9** — and that is where his sister bore Martin in 1841.
+
+**House 10 is the parents' house. House 9 is the brother's.** Nothing was wrong; the archive
+simply did not yet have the deed.
+
+### A third Kosinar, and the oldest one reached
+
+**MATTHÄUS KOSINAR**, witness, **signing with a cross because he could not write.** A man of the
+same surname standing witness for a twenty-four-year-old groom is most likely his father or his
+brother, and **nothing here says which**. He is the furthest back this family goes so far.
+
+### And the 1818 candidate is settled, not just moot
+
+The 1812–1831 index offered two Gertrauds and the 1818 one had a father whose surname could not
+be read at Matricula's resolution — *«Lukas Ko[s]in…»*, house 12. **He is on image 31 of this
+same marriage book: «LUKAS KOSINA, katholisch, 29, ledig», married 1799, so born about 1770.**
+A real man, a different household. **The 1818 Gertraud is his daughter, and the 1814 Gertraud is
+left with no rival.**
+
+### What is still not tight
+
+* **The mother's surname now has three renderings from three clerks** — **«Dortshen»** in 1800,
+  **«Maria Do[m]shan»** over two lines in 1814, **«Mina Tom[sh]shan»** in 1833. *Mina* is the
+  short form these registers use for *Marija*. Recorded as read and not smoothed.
+* **Matthäus is a relation and not a proven one.**
 
 ## What is next, and most of it is in the same free books
 ## What is next, and most of it is in the same free books

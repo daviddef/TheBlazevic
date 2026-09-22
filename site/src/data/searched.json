@@ -12,7 +12,7 @@
   "nothing": 16,
   "partial": 20,
   "pending": 6,
-  "yield": 62
+  "yield": 63
  },
  "read": [
   {
@@ -329,6 +329,22 @@
   }
  ],
  "rows": [
+  {
+   "src": "Matricula — Kranj–Šmartin marriages 1780–1815 (sig. 00901)",
+   "key": "web/matricula-kranj-marriage-1800",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00901/",
+   "what": "Franz Kosinar and Maria's own marriage — the generation above Martin's grandparents",
+   "when": "22 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "marriage",
+    "web"
+   ],
+   "got": "**FOUND. «Den 27ten [8ber 1800] · Feichting b. St. Joh. · 10 · FRANZ KOSINAR, katholisch, 24, ledig × MARIA DORTSHEN, katholisch, 20, ledig».** Witnesses **MATTHÄUS KOSINAR**, signing with a cross, and Simon Rauth, *Bauern*; married by Matthäus Lauts, coop. **So Franz was born about 1776 and Maria about 1780.** No index in this book either — images 30–35 were cropped to the Bräutigam column and read as strips.\n\n**IT EXPLAINS THE HOUSE NUMBERS THIS ARCHIVE HAD FLAGGED AS «NOT TIGHT».** Gertraud was baptised at house **10** in 1814 and Johann married into house **9** in 1833, and that was left standing rather than explained away. **Franz and Maria set up at Feichting house 10 in 1800** — the family house, where their daughter was baptised. **Johann went next door to 9**, and that is where his sister bore Martin in 1841. **House 10 is the parents'; house 9 is the brother's.**\n\n**MATTHÄUS KOSINAR is the oldest of this name reached** — father or brother of the groom, and nothing says which. He could not write.\n\n**And it settles the 1818 Gertraud rather than leaving her moot.** Her father, unreadable at Matricula's resolution as «Lukas Ko[s]in…», is on image 31: **«LUKAS KOSINA, katholisch, 29, ledig», married 1799**, born about 1770. A different household. **The 1814 Gertraud has no rival.**\n\n**Still open:** Franz's own baptism, about 1776, which falls in sig. 00883 (1747–1779); Maria's, about 1780; and who Matthäus was."
+  },
   {
    "src": "Matricula — Kranj–Šmartin marriages 1816–1855 (sig. 00899)",
    "key": "web/matricula-kranj-marriage-1833",

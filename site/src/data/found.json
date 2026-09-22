@@ -1,9 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 69,
+ "count": 71,
  "onDirectLine": 2,
  "places": {
   "Buenos Aires": 3,
+  "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
+  "Feichting bei St. Johann, župnija Kranj-Šmartin": 2,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Otocac": 1,
@@ -13,7 +15,7 @@
   "Senj": 5,
   "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 1,
   "Šumećica, Otočac": 2,
-  "župnija Kranj-Šmartin": 2,
+  "župnija Kranj-Šmartin": 1,
   "župnija Kranj-Šmartin, house 10": 1,
   "župnija Kranj-Šmartin, house 3": 1
  },
@@ -625,19 +627,37 @@
    "name": "Franz Kosinar",
    "ahn": null,
    "relation": "GRANDFATHER OF MARTIN KOZINA - father of Gertraud and Johann",
-   "event": "named as parent",
-   "date": "1814",
-   "place": "župnija Kranj-Šmartin",
-   "citation": "A HAEUSLER of the parish, named twice and never in person: as \"FRANZ KOSINAR, Hueblar\" at the baptism of his daughter GERTRAUD on 18 March 1814 (Krstna knjiga 1812-1831, book p.28), and as \"Franz Kosinar, Haeusler\" in the Aeltern des Braeutigams column at the marriage of his son JOHANN on 6 January 1833 (Poročna knjiga 1816-1855, book p.35). He is Martin Kozina's grandfather and therefore four generations above Hedviga. NOT IN THE TREE, and no baptism, marriage or death of his own has been looked for yet. Matricula, NSAL sig. 00885 image 15 and sig. 00899 image 37"
+   "event": "marriage",
+   "date": "27 October 1800",
+   "place": "Feichting bei St. Johann 10, župnija Kranj-Šmartin",
+   "citation": "Poročna knjiga Kranj-Šmartin 1780-1815, read 22 September 2026 - \"Den 27ten [8ber 1800] · Feichting b. St. Joh. · 10. · FRANZ KOSINAR · katholisch · 24 · ledig\" marrying \"MARIA DORTSHEN · katholisch · 20 · ledig\". Witnesses \"MATTHAEUS KOSINAR\" and \"Simon Rauth\", Bauern, Matthaeus signing with a cross; married by \"Matthaeus Lauts, coop.\", Pfarrer St. Martin. SO HE WAS BORN ABOUT 1776 and she about 1780. Named again as \"Franz Kosinar, Hueblar\" at his daughter GERTRAUD's baptism, 18 March 1814 at HOUSE 10 (sig. 00885 image 15), and as \"Franz Kosinar, Haeusler\" in the Aeltern des Braeutigams column at his son JOHANN's marriage of 6 January 1833 (sig. 00899 image 37). He is Martin Kozina's grandfather, four generations above Hedviga. His own baptism would be about 1776 and so in sig. 00883 (1747-1779), NOT looked for yet. Matricula, NSAL sig. 00901 image 33"
   },
   {
    "name": "Maria \"Mina\" Domshan",
    "ahn": null,
    "relation": "GRANDMOTHER OF MARTIN KOZINA - wife of Franz Kosinar",
-   "event": "named as parent",
-   "date": "1814",
+   "event": "marriage",
+   "date": "27 October 1800",
+   "place": "Feichting bei St. Johann, župnija Kranj-Šmartin",
+   "citation": "Poročna knjiga 1780-1815 - \"MARIA DORTSHEN, katholisch, 20, ledig\", marrying Franz Kosinar on 27 October 1800, SO BORN ABOUT 1780. THE SURNAME IS STILL NOT SECURE and now has three renderings from three clerks: \"Dortshen\" in 1800, \"Maria Do[m]shan\" written over two lines at her daughter's baptism in 1814, and \"Mina Tom[sh]shan\" at her son's marriage in 1833. MINA is the short form these registers use for Marija. Recorded as read, at full magnification, and NOT smoothed into one spelling. Matricula, NSAL sig. 00901 image 33, sig. 00885 image 15, sig. 00899 image 37"
+  },
+  {
+   "name": "Matthaeus Kosinar",
+   "ahn": null,
+   "relation": "witness at Franz Kosinar's marriage - probable father or brother, UNPROVEN",
+   "event": "named as witness",
+   "date": "27 October 1800",
+   "place": "Feichting bei St. Johann, župnija Kranj-Šmartin",
+   "citation": "Poročna knjiga Kranj-Šmartin 1780-1815 - one of the two Beystaende at the marriage of Franz Kosinar and Maria Dortshen, entered \"MATTHAEUS KOSINAR\" and SIGNING WITH A CROSS, so he could not write. The other witness is \"Simon Rauth\"; both are entered \"Bauern\". A man of the same surname standing witness for a 24-year-old groom is most likely his father or his brother, and NOTHING HERE SAYS WHICH. He is the oldest Kosinar this archive has reached. Matricula, NSAL sig. 00901 image 33"
+  },
+  {
+   "name": "Lukas Kosina",
+   "ahn": null,
+   "relation": "married 1799 aged 29 - father of the OTHER Gertraud, and not ours",
+   "event": "marriage",
+   "date": "1799",
    "place": "župnija Kranj-Šmartin",
-   "citation": "Entered \"MARIA DO[M]SHAN\" at her daughter Gertraud's baptism in 1814 and \"MINA TOM[SH]SHAN, Haeuslerin\" at her son Johann's marriage in 1833. THE SURNAME IS NOT SECURE - it is written across two lines in 1814 and abbreviated in 1833, and MINA is the short form these registers use for Marija. Recorded as read, at full magnification, and not smoothed into one spelling. Matricula, NSAL sig. 00885 image 15 and sig. 00899 image 37"
+   "citation": "Poročna knjiga Kranj-Šmartin 1780-1815 - \"LUKAS KOSINA, katholisch, 29, ledig\", married in 1799, so born about 1770. HE CLOSES AN OPEN QUESTION: the 1812-1831 baptismal index offered TWO Gertraud candidates, and the 1818 one (book p.72, house 12) had a father whose surname could not be read - \"Lukas Ko[s]in...\" - at the resolution Matricula serves. This is that man. The 1818 Gertraud is HIS daughter and not Franz's, which leaves the 1814 Gertraud as Martin's mother with no rival. Matricula, NSAL sig. 00901 image 31"
   }
  ]
 }
