@@ -54,13 +54,13 @@ const pavao = K.people.find((p) => p.name === "Pavao Kosina");
 const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
 ---
 <Base title="The Kosina"
-  eyebrow={`Senj and Carniola — ${C.generations} generations, ${C.inTree} of them in the family tree and ${C.above} read out of the registers`}
-  dek={`${C.people} people across ${C.generations} generations, from a Slovene cottager's household of the 1770s to an autumn in Senj that took three of them in thirteen months — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
+  eyebrow={`Senj and Carniola — ${C.generations} generations, ${C.inTree} of them in the family tree, ${C.above} read out of the registers and ${C.household} more in the same house`}
+  dek={`${C.people} people, from a Carniolan cottage where three infants died in eight years to an autumn in Senj that took three grown Kosina in thirteen months — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
 
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{C.people}</div><div class="l">people</div></div>
-      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth — Franz Kosinar, Carniola</div></div>
+      <div class="stat"><div class="n">{C.earliest}</div><div class="l">earliest birth — a Kosinar woman who died at 78, Carniola</div></div>
       <div class="stat"><div class="n">{C.lostIn1943}</div><div class="l">dead in 1943</div></div>
     </div>
     <p class="lede">This archive publishes <strong>eight surnames</strong>, and Kosina is not one of
@@ -227,21 +227,32 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       where his sister bore Martin in 1841. <strong>House 10 is the parents'. House 9 is the
       brother's.</strong> Nothing was wrong; the archive did not yet have the deed.</span></div>
 
-    <p style="margin-top:1.3rem"><strong>A third Kosinar, and the oldest one reached.</strong>
-    <strong>MATTHÄUS KOSINAR</strong> stood witness and <strong>signed with a cross, because he
-    could not write</strong>. A man of the same surname witnessing for a twenty-four-year-old
-    groom is most likely his father or his brother, and <strong>nothing here says which</strong>.</p>
+    <p style="margin-top:1.3rem"><strong>A third Kosinar — and for one day nobody could say what
+    he was.</strong> <strong>MATTHÄUS KOSINAR</strong> stood witness and <strong>signed with a
+    cross, because he could not write</strong>. A man of the same surname witnessing for a
+    twenty-four-year-old groom is most likely his father or his brother, and this page said for a
+    day that <em>nothing here says which</em>.</p>
+    <div class="note"><strong>His death says which.</strong> Mrliška knjiga 1812–1835, book p. 64:
+      <strong>«1819, den 16ten April · Ober-Feichting · 14 · MATTHÄUS KOSINA ·
+      <em>Keischler</em> · ALTER 45 · Rothlauf und Brand»</strong>.
+      <span style="display:block;margin-top:.6rem"><strong>Forty-five in 1819 is born about 1774.
+      Franz was born 1775–76.</strong> Two men born a year apart are not father and son —
+      <strong>so the man who could not sign his name in 1800 was Franz's brother, and he was
+      twenty-six when he stood up for him.</strong></span></div>
     <p><strong>And the 1818 candidate is settled rather than merely moot.</strong> Her unreadable
     father — <em>«Lukas Ko[s]in…»</em>, house 12 — is on image 31 of this same book:
     <strong>«LUKAS KOSINA, katholisch, 29, ledig», married 1799</strong>, so born about 1770. A
     real man and a different household. <strong>The 1814 Gertraud is left with no rival.</strong></p>
 
-    <div class="note"><strong>What is still not tight.</strong> The mother's surname now has
-      <strong>three renderings from three clerks</strong> — <strong>«Dortshen»</strong> in 1800,
-      <strong>«Maria Do[m]shan»</strong> written over two lines in 1814, and
-      <strong>«Mina Tom[sh]shan»</strong> in 1833. <em>Mina</em> is the short form these registers
-      use for <em>Marija</em>. <strong>Recorded as read, at full magnification, and not smoothed
-      into one spelling.</strong> And Matthäus is a relation, not a proven one.</div>
+    <div class="note"><strong>The mother's surname, from six clerks across thirty-three years.</strong>
+      <strong>«Dortshen»</strong> 1800 · <strong>«Dortschen»</strong> 1812 ·
+      <strong>«Do[m]shan»</strong> 1814 · <strong>«Dortschen»</strong> 1815 ·
+      <strong>«Dortschen»</strong> 1820 · <strong>«Tom[sh]shan»</strong> 1833.
+      <span style="display:block;margin-top:.6rem"><strong>Four of the six read Dortschen</strong>,
+      and the two that do not are this archive's own bracketed readings of a hand it found hard.
+      <strong>On 22 September 2026 this page changed its lead spelling to «Dortschen» and kept all
+      six.</strong> <em>Mina</em> is the short form these registers use for <em>Marija</em>, and one
+      clerk writes <em>Marina</em>.</span></div>
 
     <h3 style="margin-top:2rem">And one rung further up is a wall, for now</h3>
     <p><strong>Franz's own baptism is not in this parish.</strong> He was twenty-four in October
@@ -291,16 +302,112 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     same house and of the same pneumonia as his father, twenty-two months apart.</p>
 
     <div class="note"><strong>MARIA IS NOT THERE.</strong> The K section for 1836–1869 has Franz
-      and Luzia <strong>and nobody else</strong>. So Martin's grandmother died <strong>before 1836,
-      after 1869, or somewhere else entirely</strong>. The index for <strong>1812–1835</strong> has
-      its K section around images 126–128 and <strong>has not been read</strong>. That is the next
-      thing, and she is the last of these five without a death.</div>
+      and Luzia <strong>and nobody else</strong>. So the earlier index — <strong>1812–1835</strong>
+      — had to be read, and on <strong>22 September 2026</strong> it was, end to end.
+      <strong>It did not give her. It gave five other people.</strong></div>
 
     <p class="dek" style="margin-top:1.4rem"><strong>The scans are the archdiocese's, not ours</strong>,
     so they are transcribed here and linked rather than republished — index sig. <span class="mono">04632</span>
     image 246, register sig. <span class="mono">00886</span> image 65, at
-    <span class="mono">data.matricula-online.eu</span>. <strong>Next, in the same free books:
-    Gertraud's own baptism, her death, and whether Josef is her father.</strong></p>
+    <span class="mono">data.matricula-online.eu</span>. </p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Mrliška knjiga Kranj–Šmartin 1812–1835 · page 34</div>
+    <h2>The page we went to find one woman on, and found two</h2>
+    <p class="lede">The index for 1812–1835 lists <strong>«Kozina Maria — 34»</strong> under the
+    year 1816. Page 34 is the left leaf of the eighteenth opening, and the year is written across
+    the top of it. <strong>It carries two Maria Kozinar, four weeks apart, and neither of them is
+    Martin's grandmother.</strong></p>
+
+    <blockquote class="note"><strong>Den 27 [Februar 1816] · Z[ubern] · 4</strong><br />
+      <strong>MARIA KOZINAR</strong>, <em>Häubl.</em> · katholisch · weiblich ·
+      <strong>ALTER 78 Jahre</strong> · <em>Altersschwäche</em></blockquote>
+    <blockquote class="note" style="margin-top:.9rem"><strong>Den 31 [März 1816] · Oberfeichting · 9</strong><br />
+      <strong>MARIA KOZINAR</strong>, <em>Häubl.</em> · katholisch · weiblich ·
+      <strong>ALTER 3/4 Jahr</strong> · <em>Fraiß</em></blockquote>
+
+    <p style="margin-top:1.2rem"><strong>A woman of seventy-eight and a baby of nine months.</strong>
+    Maria Dortschen was twenty at her wedding in 1800, so in 1816 she was thirty-six. The first
+    woman was born about <strong>1738</strong> and the register says why she died — <em>Altersschwäche</em>,
+    the weakness of age. The second had lived three quarters of a year and died of
+    <em>Fraiß</em>, convulsions, which is what this book writes over almost every infant.
+    <strong>The index was not wrong. It listed both, one line under the other, and the archive had
+    only read the first line.</strong></p>
+
+    <div class="note"><strong>And the baby is Maria Dortschen's own daughter.</strong>
+      The baptismal index for 1812–1831 has a <strong>Kosina Maria</strong> at page 44 under 1815,
+      and page 44 reads: <strong>«den 8ten [August 1815] · Haus 10 · MARIA · ehelich · Vater:
+      FRANZ KOSINAR, <em>Häubler</em> · Mutter: MARIA DORTSCHEN»</strong>.
+      <span style="display:block;margin-top:.6rem">Born 8 August 1815, dead on 31 March 1816.
+      <strong>Seven and a half months — which is what three quarters of a year means in that
+      column.</strong> The woman we went looking for was not on page 34; <strong>her daughter
+      was.</strong></span></div>
+
+    <h3 style="margin-top:2rem">So the whole K section was read, and the house came with it</h3>
+    <p>Reading one page for one name is how a search gets long. The <strong>K</strong> section of the
+    1812–1835 death index runs across two openings and holds <strong>six Kozina</strong>; the
+    baptismal index for the same years holds <strong>eight</strong>. Read together they give a
+    household.</p>
+
+    <table class="reg">
+      <thead><tr><th style="width:24%">Who</th><th style="width:30%">What the register says</th>
+        <th>How they stand to the line</th></tr></thead>
+      <tbody>
+        {(K.household || []).map((h) => (
+          <tr class="above">
+            <td><strong>{h.name}</strong>
+              <span class="tag">parish register · not yet in the family tree</span></td>
+            <td class="dek mono">{h.when}</td>
+            <td class="dek">{h.what}
+              <span style="display:block;margin-top:.35rem"><strong>{h.how}</strong></span></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <div class="note" style="margin-top:1.2rem"><strong>One entry does more work than the rest.</strong>
+      Valentin was baptised on <strong>15 February 1820</strong> and buried on the <strong>29th</strong>,
+      aged one week — 1820 was a leap year, so the date is real. His baptism reads
+      <strong>«Ober-Feichting · 9 · VALENTIN · ehelich · Vater: FRANZ KOSINA, <em>Häubler</em> ·
+      Mutter: MARINA DORTSCHEN»</strong>.
+      <span style="display:block;margin-top:.6rem"><strong>It is the only record that puts Franz
+      himself at Oberfeichting 9 as the householder</strong> — twenty-one years before his grandson
+      Martin was born in that house, and twenty-nine before he died in it as an
+      <em>Ausnehmer</em>. The house was never his son's alone. <strong>It was his.</strong></span></div>
+
+    <div class="note" style="margin-top:1rem"><strong>Three children out of six did not live.</strong>
+      Elisabeth five months, Maria nine months, Valentin fourteen days — 1812, 1815 and 1820, in
+      one cottage. Gertraud, born between two of them in 1814, lived to bear Martin.
+      <span style="display:block;margin-top:.6rem"><strong>That is not a remarkable household. It
+      is an ordinary one</strong>, and it is the first time this archive has been able to say so
+      about anybody in Carniola.</span></div>
+
+    <h3 style="margin-top:2rem">Where Maria Dortschen's death is not</h3>
+    <p><strong>The search for it is now exhaustive for this parish</strong>, which is worth more
+    than another guess. The <strong>K</strong> section of the death index for
+    <strong>1812–1835</strong> holds Elisabeth 1813, two Maria in 1816, Matthäus 1819, Valentin 1820
+    and Margareth 1826. The <strong>K</strong> section for <strong>1836–1869</strong> holds Franz
+    1849 and Luzia 1850. <strong>She is in neither.</strong></p>
+    <p>She was alive in <strong>February 1820</strong>, at about forty, because Valentin was
+    baptised then and entered <em>ehelich</em>. So she died <strong>unindexed, after 1869 at
+    eighty-nine or more, or in another parish</strong> — and the next place to look is the death
+    registers of 1870–1890 and 1890–1911, which are also free.</p>
+
+    <div class="note"><strong>One thing this index got wrong, and it is worth saying.</strong>
+      It sends a reader to page <strong>132</strong> for Margareth Kozinar. <strong>She is on page
+      130</strong>, one opening earlier, in the house. Every other reference in the section landed
+      on the page it promised. <strong>An index that is right fifteen times and wrong once is still
+      the fastest way in — but the page number is a hint and not a fact.</strong></div>
+
+    <p class="dek" style="margin-top:1.4rem"><strong>The scans are the archdiocese's, not ours</strong>,
+    so they are transcribed here and linked rather than republished. Deaths 1812–1835, sig.
+    <span class="mono">00894</span>, images 4, 18, 33, 37 and 66; its index, sig.
+    <span class="mono">04634</span>, images 125–126. Baptisms 1812–1831, sig.
+    <span class="mono">00885</span>, images 4, 23 and 55; its index, sig.
+    <span class="mono">04631</span>, image 169. All at <span class="mono">data.matricula-online.eu</span>.
+    <strong>Still unread in the same free books: the baptisms of a Dorothea and a Marianna Kosina,
+    both 1813, and a second Maria in 1818.</strong></p>
   </section>
 
   <section class="blk">
@@ -428,8 +535,8 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
       source at all. <strong>Gertraud's gives a day, a house number and the page of the register it
       was read from.</strong> The tinted rows are the ones with documents behind them.</p>
       <p style="margin:.6rem 0 0"><strong>What decides which side a person falls on is not
-      evidence. It is only whether somebody has entered them into MyHeritage</strong> — and these
-      five have not been, yet.</p>
+      evidence. It is only whether somebody has entered them into MyHeritage</strong> — and none of
+      the tinted rows has been, yet.</p>
     </div>
 
     <details style="margin-top:1rem">
@@ -444,9 +551,10 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
           1800</strong>. <strong>Father of Gertraud and Johann.</strong>
           <span class="dek" style="display:block">Source: Poročna knjiga 1780–1815 · sig. 00901,
           image 33</span></td></tr>
-        <tr><th>Maria «Mina» Domshan</th><td>b. about <strong>1780</strong>; m. 27 October 1800.
-          <strong>Wife of Franz.</strong> <span class="dek" style="display:block">Same entry. The
-          surname is spelt three ways by three clerks and should go in as read.</span></td></tr>
+        <tr><th>Maria «Mina» Dortschen</th><td>b. about <strong>1780</strong>; m. 27 October 1800.
+          <strong>Wife of Franz, and mother of at least six.</strong> <span class="dek" style="display:block">Same
+          entry. Six clerks spell the surname six ways; four of them write <em>Dortschen</em> and
+          that is what should go in, with the others as a note.</span></td></tr>
         <tr><th>Johann Kosina</th><td>b. about <strong>1802–03</strong>; m. <strong>6 January
           1833</strong> to Lucia Labornik. <strong>Son of Franz, brother of Gertraud.</strong>
           <span class="dek" style="display:block">Source: Poročna knjiga 1816–1855, book p. 35 ·
@@ -457,8 +565,23 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
           in.</strong> <span class="dek" style="display:block">Sources: Poročna knjiga 1816–1855,
           book p. 35 · sig. 00899, image 37. Mrliška knjiga 1836–1869, book p. 71 · sig. 00895,
           image 72.</span></td></tr>
-        <tr><th>Matthäus Kosinar</th><td>Witness at Franz's marriage, 1800. <strong>Father or
-          brother of Franz — unproven, and should go in as a note rather than a link.</strong></td></tr>
+        <tr><th>Matthäus Kosinar</th><td>b. about <strong>1774</strong>; witness at Franz's
+          marriage 1800; <strong>d. 16 April 1819, aged 45</strong>, Oberfeichting 14.
+          <strong>Franz's brother</strong> — the age proves the generation, not the parents, so he
+          should go in as Franz's sibling with the doubt written down.
+          <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 64 ·
+          sig. 00894, image 33</span></td></tr>
+        <tr><th>Elisabeth, Maria and Valentin Kosinar</th><td>Children of Franz and Maria,
+          <strong>baptised 18 November 1812, 8 August 1815 and 15 February 1820</strong> and dead at
+          five months, nine months and fourteen days. <strong>Gertraud's brother and sisters.</strong>
+          <span class="dek" style="display:block">Sources: Krstna knjiga 1812–1831, book pp. 6, 44
+          and 108 · sig. 00885, images 4, 23 and 55. Mrliška knjiga 1812–1835, book pp. 6, 34 and 72
+          · sig. 00894, images 4, 18 and 37.</span></td></tr>
+        <tr><th>Margaretha Kosinar</th><td><strong>d. 14 March 1826, aged 45</strong>, a Häubler's
+          daughter at Oberfeichting 9. <strong>Probably Franz's sister; unproven, and should go in
+          as a note rather than a link.</strong>
+          <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 130 ·
+          sig. 00894, image 66</span></td></tr>
       </table>
       <p class="dek" style="margin-top:.8rem">Once they are in the tree, they will appear in the
       lower half of this table on the next build and the tint will go away by itself.</p>
@@ -493,7 +616,7 @@ const kids = pavao ? pavao.children.map((c) => by[c.id]).filter(Boolean) : [];
     <div class="note" style="margin-top:1.2rem"><strong>THE FAMILY TREE STOPS AT MARTIN. THE
     DOCUMENTS DO NOT.</strong>
     <span style="display:block;margin-top:.6rem">Everything from Martin down was already in the
-    tree. <strong>The five above him were read out of the parish registers of Kranj–Šmartin in
+    tree. <strong>The six above him were read out of the parish registers of Kranj–Šmartin in
     Carniola on 21 and 22 September 2026</strong>, and they are listed in
     <a href={u("/found/")}>the people this tree does not have</a> — which is exactly what that page
     is for.</span></div>

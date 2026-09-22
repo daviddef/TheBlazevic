@@ -12,7 +12,7 @@
   "nothing": 17,
   "partial": 21,
   "pending": 6,
-  "yield": 63
+  "yield": 64
  },
  "read": [
   {
@@ -329,6 +329,24 @@
   }
  ],
  "rows": [
+  {
+   "src": "Matricula — Kranj–Šmartin deaths 1812–1835 (sig. 00894) and its index (04634), with the baptismal index 04631",
+   "key": "web/matricula-kranj-deaths-1812",
+   "what": "Maria «Mina» Dortschen's death — the index sends a reader to page 34 for «Kozina Maria», 1816",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00894/",
+   "when": "22 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "death",
+    "baptism",
+    "web"
+   ],
+   "got": "**SHE IS NOT ON PAGE 34. TWO OTHER WOMEN OF HER NAME ARE** — and the index carries **two** «Kozina Maria — 34» lines, one directly under the other, which the first reading had missed.\n\n**«Den 27 [Februar 1816] · Z[ubern] · 4 · MARIA KOZINAR, Häubl. · weiblich · ALTER 78 Jahre · Altersschwäche»** — born about **1738**, a generation above Franz.\n\n**«Den 31 [März 1816] · Oberfeichting · 9 · MARIA KOZINAR, Häubl. · weiblich · ALTER 3/4 Jahr · Fraiß»** — and **this one is Maria Dortschen's own daughter**: the baptismal index gives «Kosina Maria — 44» for 1815 and book p.44 reads *«den 8ten August 1815 · Haus 10 · MARIA · ehelich · Vater: FRANZ KOSINAR, Häubler · Mutter: MARIA DORTSCHEN»*. Maria Dortschen was **36** in 1816.\n\n**THEN THE WHOLE K SECTION WAS READ, AND IT GAVE FIVE MORE PEOPLE.** Six Kozina in the death index 1812–1835 (images 125–126, the women of 1812–1822 in a *Dostavek* appendix at the back, **not** in the main run): Elisabeth 1813 p.6 · the two Marias 1816 p.34 · **Matthäus 1819 p.64** · **Valentin 1820 p.72** · **Margareth 1826, indexed p.132 and actually on p.130** — the one place this index is wrong.\n\n**MATTHÄUS WAS FRANZ'S BROTHER, NOT HIS FATHER.** *«1819, den 16ten April · Ober-Feichting · 14 · MATTHÄUS KOSINA · Keischler · ALTER 45 · Rothlauf und Brand»*. **45 in 1819 is born about 1774**; Franz was born 1775–76. He was twenty-six when he stood witness in 1800 and signed with a cross.\n\n**FRANZ HELD OBERFEICHTING 9 HIMSELF.** Valentin's baptism, book p.108: *«Den 15ten Hornung 1820 · Ober-Feichting · 9 · VALENTIN · ehelich · Vater: FRANZ KOSINA, HÄUBLER · Mutter: MARINA DORTSCHEN»*; buried the 29th, aged one week. **The only record that puts Franz at that house as the householder** — twenty-one years before Martin was born in it, twenty-nine before he died in it as an Ausnehmer.\n\n**THREE OF SIX CHILDREN DID NOT LIVE**: Elisabeth five months (1812–13), Maria nine months (1815–16), Valentin fourteen days (1820). Gertraud, born between two of them in 1814, bore Martin.\n\n**AND THE SURNAME IS DORTSCHEN.** Four of six clerks write it: 1800, 1812, 1815, 1820. The two that do not are this archive's own bracketed readings. The site's lead spelling changed.",
+   "missed": "**Maria Dortschen's death is in NEITHER parish index** — not 1812–1835 and not 1836–1869. She was alive in February 1820 at about forty. So she died unindexed, after 1869 at eighty-nine or more, or in another parish. The negative is now **exhaustive** rather than partial, which is the whole gain. Still unread in the same free books: **deaths 1870–1890 (03916) and 1890–1911 (03917)**, and three Kosina baptisms — Dorothea p.8 (1813), Marianna p.16 (1813), a second Maria p.84 (1818)."
+  },
   {
    "src": "Matricula — Kranj–Šmartin deaths 1836–1869 (sig. 00895, index 04635)",
    "key": "web/matricula-kranj-deaths",

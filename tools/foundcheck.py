@@ -68,7 +68,18 @@ SETTLED = {
     # 22 September 2026, and the same shape again: a Slovene woman in Carniola
     # against a Croatian woman of the same given name and year, where the year
     # on the found row is a REGISTER ENTRY and not a birth.
-    "Maria \"Mina\" Domshan":
+    # 22 September 2026, and the third time this exact shape has come up: a
+    # Carniolan woman against a Croatian one on a given name and a year that
+    # mean different things. This one is the plainest of the three, because
+    # the found row's year IS a birth and the two lives do not overlap.
+    "Maria Kosinar":
+        "baptised at Kranj-Šmartin on 8 August 1815 and BURIED THERE ON 31 "
+        "MARCH 1816, aged three quarters of a year — the register gives both "
+        "days. Maria Žubrinić of 1814 is a Croatian child four hundred "
+        "kilometres away who lived, with a different surname and different "
+        "parents. This one's parents are Franz Kosinar and Maria Dortschen",
+
+    "Maria \"Mina\" Dortschen":
         "named as a mother at Kranj-Šmartin in 1814, so born around 1790 — the "
         "1814 on her row is her daughter's baptism. Maria Žubrinić of 1814 is a "
         "newborn in Croatia, four hundred kilometres away, with a different "

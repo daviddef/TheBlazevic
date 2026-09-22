@@ -1,9 +1,16 @@
 # Martin Kozina was born at Zgornje Bitnje on 16 November 1841, and the register says «unehelich»
 
+> **SUPERSEDED IN PART, 22 September 2026, evening.** The death index for 1812–1835 has since
+> been read end to end. **Matthäus is Franz's brother and not his father** — he died in 1819 aged
+> 45. **Franz kept Oberfeichting 9 himself**, on the evidence of his son Valentin's baptism.
+> **Three of the six children did not live.** And **Maria's death is in neither parish index**, so
+> the «way to settle it is his DEATH» reasoning below worked for Franz and Matthäus and has run out
+> for her. See [the-k-section-gave-a-household.md](the-k-section-gave-a-household.md).
+
 > **CORRECTED 22 September 2026.** This note eliminated Gertraud's own baptism on 21 September
 > and the elimination was wrong. She is the 1814 entry, the brother's marriage proves it, and
 > the struck-out reasoning is kept below where it happened. **Martin's grandparents are now
-> named: Franz Kosinar and Maria «Mina» Do[m]shan — and their own marriage of 27 October 1800
+> named: Franz Kosinar and Maria «Mina» Dortschen — and their own marriage of 27 October 1800
 > has since been found, which also explains the house numbers this note called «not tight».**
 
 **21 September 2026.** The Senj marriage of 12 January 1888 gave the parish — *«Kranjska župa
@@ -152,7 +159,7 @@ these registers use for *Marija*. **Same couple.**
 
 | | |
 |---|---|
-| **Franz Kosinar**, *Häusler* × **Maria «Mina» Do[m]shan** | Martin's grandparents, and **four generations above Hedviga** |
+| **Franz Kosinar**, *Häusler* × **Maria «Mina» Dortschen** | Martin's grandparents, and **four generations above Hedviga** |
 | their daughter **Gertraud**, baptised **18 March 1814** | 27 years old when she bore Martin |
 | their son **Johann**, b. c.1802–03, married **6 January 1833** | the Häusler of Oberfeichting no. 9 |
 | **Martin**, born **16 November 1841** at Oberfeichting no. 9, *unehelich* | **in his uncle's house** |

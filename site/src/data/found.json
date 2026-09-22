@@ -1,19 +1,24 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 71,
+ "count": 76,
  "onDirectLine": 2,
  "places": {
+  "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
-  "Feichting bei St. Johann, župnija Kranj-Šmartin": 2,
+  "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Karlobag": 41,
   "Krivi Put": 5,
+  "Oberfeichting (Zgornje Bitnje) 14, župnija Kranj-Šmartin": 1,
+  "Oberfeichting (Zgornje Bitnje) 9, župnija Kranj-Šmartin": 2,
+  "Oberfeichting bei St. Ursula 9, župnija Kranj-Šmartin": 1,
   "Otocac": 1,
   "Otočac": 3,
   "Prozor, Otočac": 2,
   "Selce": 2,
   "Senj": 5,
   "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 2,
+  "house 10, died at Oberfeichting 9, župnija Kranj-Šmartin": 1,
   "Šumećica, Otočac": 2,
   "župnija Kranj-Šmartin": 1,
   "župnija Kranj-Šmartin, house 10": 1
@@ -700,23 +705,23 @@
    "slug": "franz-kosinar"
   },
   {
-   "name": "Maria \"Mina\" Domshan",
+   "name": "Maria \"Mina\" Dortschen",
    "ahn": null,
    "relation": "GRANDMOTHER OF MARTIN KOZINA - wife of Franz Kosinar",
    "event": "marriage",
    "date": "27 October 1800",
    "place": "Feichting bei St. Johann, župnija Kranj-Šmartin",
-   "citation": "Poročna knjiga 1780-1815 - \"MARIA DORTSHEN, katholisch, 20, ledig\", marrying Franz Kosinar on 27 October 1800, SO BORN ABOUT 1780. THE SURNAME IS STILL NOT SECURE and now has three renderings from three clerks: \"Dortshen\" in 1800, \"Maria Do[m]shan\" written over two lines at her daughter's baptism in 1814, and \"Mina Tom[sh]shan\" at her son's marriage in 1833. MINA is the short form these registers use for Marija. Recorded as read, at full magnification, and NOT smoothed into one spelling. HER DEATH IS NOT FOUND. The K section of the death index for 1836-1869 (sig. 04635, images 182-183) carries exactly TWO Kozina - Franz in 1849 and Luzia in 1850 - AND SHE IS NOT ONE OF THEM. So she died before 1836, or after 1869, or somewhere else. The index for 1812-1835 (sig. 04634) has a K section around images 126-128 and HAS NOT BEEN READ. Matricula, NSAL sig. 00901 image 33, sig. 00885 image 15, sig. 00899 image 37",
-   "slug": "maria-mina-domshan"
+   "citation": "Poročna knjiga 1780-1815 - \"MARIA DORTSHEN, katholisch, 20, ledig\", marrying Franz Kosinar on 27 October 1800, SO BORN ABOUT 1780. THE SURNAME, from six clerks across thirty-three years: \"Dortshen\" 1800 · \"Dortschen\" at Elisabeth's baptism 1812 · \"Do[m]shan\" at Gertraud's 1814 · \"Dortschen\" at Maria's 1815 · \"Dortschen\" at Valentin's 1820 · \"Tom[sh]shan\" at Johann's marriage 1833. FOUR OF THE SIX READ DORTSCHEN and the archive now leads with it; the other two are this archive's own bracketed readings and are kept as read. MINA is the short form these registers use for Marija, and one clerk writes MARINA. SHE BORE SIX CHILDREN THAT ARE NOW KNOWN: Johann about 1802, Elisabeth 1812, Gertraud 1814, Maria 1815, Valentin 1820, and three of those six died small. SHE WAS ALIVE IN FEBRUARY 1820, at about forty, because Valentin was baptised then and entered ehelich. HER DEATH IS STILL NOT FOUND, and the search is now exhaustive for this parish: the K section of the death index for 1812-1835 (sig. 04634, images 125-126) was read end to end on 22 September 2026 and holds SIX Kozina - Elisabeth 1813 p.6, TWO Maria 1816 both p.34, Matthäus 1819 p.64, Valentin 1820 p.72, Margareth 1826 p.132 - and the two 1816 Marias are a woman of 78 and a baby of nine months, NEITHER of them her. The index for 1836-1869 (sig. 04635) holds only Franz 1849 and Luzia 1850. So she died unindexed, or after 1869 at 89 or more, or in another parish. Matricula, NSAL sig. 00901 image 33, sig. 00885 images 4, 15, 23 and 55, sig. 00899 image 37",
+   "slug": "maria-mina-dortschen"
   },
   {
    "name": "Matthaeus Kosinar",
    "ahn": null,
-   "relation": "witness at Franz Kosinar's marriage - probable father or brother, UNPROVEN",
-   "event": "named as witness",
-   "date": "27 October 1800",
-   "place": "Feichting bei St. Johann, župnija Kranj-Šmartin",
-   "citation": "Poročna knjiga Kranj-Šmartin 1780-1815 - one of the two Beystaende at the marriage of Franz Kosinar and Maria Dortshen, entered \"MATTHAEUS KOSINAR\" and SIGNING WITH A CROSS, so he could not write. The other witness is \"Simon Rauth\"; both are entered \"Bauern\". A man of the same surname standing witness for a 24-year-old groom is most likely his father or his brother, and NOTHING HERE SAYS WHICH. He is the oldest Kosinar this archive has reached. Matricula, NSAL sig. 00901 image 33",
+   "relation": "witness at Franz Kosinar's marriage - and his DEATH says brother, not father",
+   "event": "death",
+   "date": "16 April 1819",
+   "place": "Oberfeichting (Zgornje Bitnje) 14, župnija Kranj-Šmartin",
+   "citation": "Poročna knjiga Kranj-Šmartin 1780-1815 - one of the two Beystände at the marriage of Franz Kosinar and Maria Dortschen on 27 October 1800, entered \"MATTHAEUS KOSINAR\" and SIGNING WITH A CROSS, so he could not write. The other witness is \"Simon Rauth\"; both are entered \"Bauern\". HIS DEATH, read 22 September 2026: Mrliška knjiga Kranj-Šmartin 1812-1835 book p.64 - \"1819, den 16ten April · Ober-Feichting · 14 · MATTHÄUS KOSINA · Keischler · katholisch · männlich · ALTER 45 · Rothlauf und Brand\". DIED 16 APRIL 1819, AGED 45, so born about 1774 - WHICH ANSWERS THE OPEN QUESTION. Franz was born 1775-76. Two men born a year or two apart are not father and son, so the man who stood witness in 1800 was FRANZ'S BROTHER and was twenty-six when he did it. He is the only Matthäus Kozina in the parish death index for 1812-1835. Matricula, NSAL sig. 00901 image 33 and sig. 00894 image 33",
    "slug": "matthaeus-kosinar"
   },
   {
@@ -728,6 +733,56 @@
    "place": "župnija Kranj-Šmartin",
    "citation": "Poročna knjiga Kranj-Šmartin 1780-1815 - \"LUKAS KOSINA, katholisch, 29, ledig\", married in 1799, so born about 1770. HE CLOSES AN OPEN QUESTION: the 1812-1831 baptismal index offered TWO Gertraud candidates, and the 1818 one (book p.72, house 12) had a father whose surname could not be read - \"Lukas Ko[s]in...\" - at the resolution Matricula serves. This is that man. The 1818 Gertraud is HIS daughter and not Franz's, which leaves the 1814 Gertraud as Martin's mother with no rival. Matricula, NSAL sig. 00901 image 31",
    "slug": "lukas-kosina"
+  },
+  {
+   "name": "Elisabeth Kosinar",
+   "ahn": null,
+   "relation": "DAUGHTER of Franz Kosinar and Maria Dortschen - died at five months",
+   "event": "baptism and death",
+   "date": "baptised 18 November 1812, died 11 April 1813",
+   "place": "Oberfeichting bei St. Ursula 9, župnija Kranj-Šmartin",
+   "citation": "BAPTISM: Krstna knjiga Kranj-Šmartin 1812-1831 book p.6 - \"18. [November 1812] · Haus 9 · ELISABETH · katholisch · weiblich · ehelich · Vater: FRANZ KOSINER · Mutter: MINA DORTSCHEN · Paten Jakob Dollenz and Elisabeth, signing with a cross · den 18ten um 3 Uhr früh\". DEATH: Mrliška knjiga 1812-1835 book p.6 - \"11. [April 1813] · Ober-Feichting W. Ursula · 9 · ELIZABETHA KOSINA · Tochter · katholisch · weiblich · ALTER 5 Monath · Fraiß\". FIVE MONTHS OLD, of convulsions. She is the first of the three children of this marriage the archive has found who did not live. Indexed as \"Kosina Elisabeth 6\" in BOTH the baptismal index 1812-1831 and the death index 1812-1835. Matricula, NSAL sig. 00885 image 4, sig. 00894 image 4, sig. 04631 image 169, sig. 04634 image 125",
+   "slug": "elisabeth-kosinar"
+  },
+  {
+   "name": "Maria Kosinar",
+   "ahn": null,
+   "relation": "DAUGHTER of Franz Kosinar and Maria Dortschen - died at nine months",
+   "event": "baptism and death",
+   "date": "baptised 8 August 1815, died 31 March 1816",
+   "place": "house 10, died at Oberfeichting 9, župnija Kranj-Šmartin",
+   "citation": "BAPTISM: Krstna knjiga Kranj-Šmartin 1812-1831 book p.44 - \"den 8ten [August 1815] · Haus 10 · MARIA · katholisch · weiblich · ehelich · Vater: FRANZ KOSINAR, Häubler · Mutter: MARIA DORTSCHEN · um 10 Uhr Nachmittag\". DEATH: Mrliška knjiga 1812-1835 book p.34 - \"den 31 [März 1816] · Oberfeichting · 9 · MARIA KOZINAR · Häubl[erskind] · katholisch · weiblich · ALTER 3/4 Jahr · Fraiß\". Born 8 August 1815 and dead on 31 March 1816 is seven and a half months, which is what three quarters of a year means in this column. SHE IS ONE OF THE TWO «Kozina Maria - 34» the death index lists for 1816, and she is the one a reader would be looking for. Matricula, NSAL sig. 00885 image 23, sig. 00894 image 18, sig. 04631 image 169, sig. 04634 image 126",
+   "slug": "maria-kosinar"
+  },
+  {
+   "name": "Valentin Kosina",
+   "ahn": null,
+   "relation": "SON of Franz Kosinar and Maria Dortschen - died at one week",
+   "event": "baptism and death",
+   "date": "baptised 15 February 1820, died 29 February 1820",
+   "place": "Oberfeichting (Zgornje Bitnje) 9, župnija Kranj-Šmartin",
+   "citation": "BAPTISM: Krstna knjiga Kranj-Šmartin 1812-1831 book p.108 - \"Den 15ten Hornung [February] 1820 · Ober-Feichting · 9 · VALENTIN · katholisch · männlich · ehelich · Vater: FRANZ KOSINA, HÄUBLER · Mutter: MARINA DORTSCHEN\". DEATH: Mrliška knjiga 1812-1835 book p.72 - \"Den 29ten Hornung · Ober-Feichting · 9 · VALENTIN KOSINA · Häubler · katholisch · männlich · ALTER 1 Woche · Fraiß\". Fourteen days. THIS ENTRY IS THE PROOF OF THE HOUSE: it is the only record that names Franz, names Oberfeichting 9 and names him HÄUBLER there, twenty-one years before his grandson Martin was born in that house and twenty-nine before he died in it himself. AND IT DATES THE MOTHER: Maria Dortschen was bearing children in February 1820, so she was alive at about forty. 1820 was a leap year, so the 29th of February is a real date. Matricula, NSAL sig. 00885 image 55, sig. 00894 image 37, sig. 04631 image 169, sig. 04634 image 125",
+   "slug": "valentin-kosina"
+  },
+  {
+   "name": "Margaretha Kosinar",
+   "ahn": null,
+   "relation": "a Kosinar woman of Franz's own generation, dying in Franz's house - UNPLACED",
+   "event": "death",
+   "date": "14 March 1826",
+   "place": "Oberfeichting (Zgornje Bitnje) 9, župnija Kranj-Šmartin",
+   "citation": "Mrliška knjiga Kranj-Šmartin 1812-1835 book p.130 - \"14. März [1826] · Ober-Feichting · 9 · MARGARETHA KOZINAR · Häublers-Tochter · katholisch · weiblich · ALTER 45\". BORN ABOUT 1781, and she died UNMARRIED - a Häubler's daughter at forty-five - IN THE HOUSE FRANZ KOSINAR KEPT. Franz was born 1775-76 and Matthäus about 1774, so a woman born about 1781 is of their generation and not of their children's: most likely FRANZ'S SISTER, living on in her brother's house. NOTHING HERE PROVES IT and no parents are named. The death index carries her as \"Kozina Margareth - 132\", one opening further on than the page she is actually written on, which is the only place this index has been caught out. Matricula, NSAL sig. 00894 image 66, sig. 04634 image 125",
+   "slug": "margaretha-kosinar"
+  },
+  {
+   "name": "Maria Kosinar the elder",
+   "ahn": null,
+   "relation": "a Kosinar woman born about 1738 - the oldest of the name yet reached - UNPLACED",
+   "event": "death",
+   "date": "27 February 1816",
+   "place": "\"Zubern\" 4, župnija Kranj-Šmartin",
+   "citation": "Mrliška knjiga Kranj-Šmartin 1812-1835 book p.34 - \"Den 27 [Februar 1816] · Z[ubern] · 4 · MARIA KOZINAR · Häubl · katholisch · weiblich · ALTER 78 Jahre · Altersschwäche\". SEVENTY-EIGHT, of old age, which puts her birth at about 1738 and makes her the oldest person of this name the archive has reached - a generation above Franz and Matthäus, who were born about 1775 and 1774. She is therefore a CANDIDATE FOR THEIR MOTHER and nothing more: the village is not Feichting, no husband is named, and this book names no parents. THE VILLAGE IS NOT SECURELY READ. It is written the same way twice on this page, house 4 both times, and at 9x it reads \"Zubern\" or \"Luberan\"; it is recorded as the clerk wrote it rather than resolved into a modern name. She is the SECOND of the two «Kozina Maria - 34» the index lists for 1816; the other is Franz's nine-month-old daughter. Matricula, NSAL sig. 00894 image 18, sig. 04634 image 126",
+   "slug": "maria-kosinar-the-elder"
   }
  ]
 }
