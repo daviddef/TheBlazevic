@@ -4,6 +4,8 @@ import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import { people, lifespan, surnameGroup } from "../lib/people.js";
 import { COPY } from "../lib/familyCopy.js";
+import Households from "@daviddef/archive-kit/components/Households.astro";
+import line from "../data/line.json";
 
 export function getStaticPaths() {
   return Object.keys(COPY).map((slug) => ({ params: { family: slug } }));
@@ -15,6 +17,56 @@ const copy = COPY[family];
 const keys = { prpic: ["prpic", "perpic"] }[family] || [family];
 const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
   .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
+
+/* THE FAMILY PAGES HAD NO TREE. Nine surnames, a page each, and every one
+   of them was prose followed by a flat list called "Everyone of the name"
+   — so a reader could see that this archive holds 116 Papići and not one
+   couple among them, nor which child of which couple the Blažević line
+   actually came down through.
+
+   Built from `rel`, which people.json already carries: a household per
+   couple, deduplicated on the pair, because when both spouses share the
+   surname the same marriage appears twice.
+
+   The kit's Households component is the one that draws this — a couple
+   and the children recorded under them, which is «the shape a register
+   actually records, which is not the shape of a pedigree». Nothing new
+   was written for it. */
+const BY_ID = new Map(people.map((p) => [p.id, p]));
+const ON_SPINE = new Set(line.map((g) => g.id));
+const seen = new Set();
+const households = [];
+for (const p of rows) {
+  const rel = p.rel || {};
+  const spouses = rel.spouses || [];
+  const kids = rel.children || [];
+  if (!spouses.length && !kids.length) continue;
+  const sp = spouses[0] || null;
+  const key = [p.id, sp ? sp.id : ""].sort().join("|");
+  if (seen.has(key)) continue;
+  seen.add(key);
+  households.push({
+    head: p.name,
+    headHref: p.slug ? `/people/${p.slug}/` : null,
+    spouse: sp ? sp.name : "",
+    spouseHref: sp && sp.slug ? `/people/${sp.slug}/` : null,
+    married: (sp && sp.married) || "",
+    born: p.byear ? String(p.byear) : "",
+    where: p.bornPlace || p.diedPlace || "",
+    children: kids.map((c) => {
+      const full = BY_ID.get(c.id) || {};
+      return {
+        name: c.name,
+        href: c.slug ? `/people/${c.slug}/` : null,
+        living: !!full.living,
+        dates: [c.born, c.died].filter(Boolean).join("\u2013") || "",
+        /* The one this archive came down through. Read off line.json by
+           id, so it is the spine's own answer and not a name match. */
+        line: ON_SPINE.has(c.id),
+      };
+    }),
+  });
+}
 ---
 <Base title={meta.label} eyebrow={copy.eyebrow} dek={copy.dek}>
   <section class="blk">
@@ -42,6 +94,17 @@ const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
     <h2>How the tree spells it</h2>
     <ul class="cols">{meta.spellings.map(([w, n]) => (
       <li><span class="mono">{w}</span> <span class="dim">× {n}</span></li>))}</ul>
+  </section>
+
+  <section class="blk">
+    <h2>The households</h2>
+    <p class="dek">A couple and the children recorded under them — the shape the
+    registers actually keep, as against the single child a pedigree keeps. Where a
+    child carried the Blažević line onward, the card says so.</p>
+    <Households rows={households} u={u} caveat={`These people are recorded as the
+      children of these couples. It is not a claim that they lived under one roof,
+      nor that any list is complete — infant deaths in particular go unrecorded in a
+      tree built from indexes.`} />
   </section>
 
   <section class="blk">

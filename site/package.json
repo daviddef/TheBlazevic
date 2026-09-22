@@ -23,7 +23,7 @@
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 3"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#06b289c46d99c0cbd4b8c4026888c9f6bc5d720e",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#1615b01d696bb07dd02dc8add40d58e3a4ef8e1e",
     "astro": "^5.18.2"
   },
   "devDependencies": {
