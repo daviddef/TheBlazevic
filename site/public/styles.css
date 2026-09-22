@@ -129,6 +129,48 @@ section.blk{padding:44px 0;border-bottom:1px solid var(--rule)}
 section.blk:last-child{border-bottom:0}
 section.blk h2{font-size:clamp(24px,3vw,34px)}
 section.blk > .dek{margin-top:10px}
+/* PARAGRAPHS NEED AIR, AND `p{margin:0}` MEANT THEY ONLY GOT IT WHEN THE AUTHOR
+   REMEMBERED. Every prose <p> on this site is a direct child of section.blk,
+   and spacing was being supplied one paragraph at a time by an inline
+   style="margin-top:1.2rem" — so wherever it was left off, two paragraphs ran
+   together into a wall of words. Asked for on 22 September 2026, at a phone
+   width, where the wall is worst. This gives every paragraph that FOLLOWS
+   another one a default gap; the inline styles are more specific and still
+   win, so nothing that was already spaced moves. */
+section.blk > p + p,
+section.blk > p + ul,
+section.blk > p + ol,
+section.blk > ul + p,
+section.blk > ol + p,
+section.blk > .grid + p,
+section.blk > table + p,
+section.blk > blockquote + p,
+section.blk > figure + p,
+section.blk > details + p,
+section.blk > .note + p,
+section.blk > p + .note,
+section.blk > p + blockquote,
+section.blk > p + table,
+section.blk > p + .grid,
+section.blk > .note + .note{margin-top:1.15rem}
+@media (max-width:620px){
+  section.blk > p + p,
+  section.blk > p + ul,
+  section.blk > p + ol,
+  section.blk > ul + p,
+  section.blk > ol + p,
+  section.blk > .grid + p,
+  section.blk > table + p,
+  section.blk > blockquote + p,
+  section.blk > figure + p,
+  section.blk > details + p,
+  section.blk > .note + p,
+  section.blk > p + .note,
+  section.blk > p + blockquote,
+  section.blk > p + table,
+  section.blk > p + .grid,
+  section.blk > .note + .note{margin-top:1.35rem}
+}
 .cardlink .nm{font-size:23px;line-height:1.15;font-weight:500;color:var(--ink)}
 .cardlink .alt{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:5px}
 .cardlink .txt{font-family:var(--sans);font-size:13px;line-height:1.55;color:var(--ink-2);margin-top:10px}
