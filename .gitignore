@@ -15,3 +15,9 @@ sources/media/files/
 # A private build directory, so a check never reads a dist another session is
 # halfway through writing.
 site/dist-verify/
+# And the per-session ones kit 2790d85 composes, because a private name that
+# everybody shares is not private — `outdir.suggest()` makes one per session,
+# so the pattern has to be ignored rather than the literal name. Untracked
+# build output in `git status` is how a scoped `git add` picks up somebody
+# else's tree, which has happened once in this repo already.
+site/dist-*/

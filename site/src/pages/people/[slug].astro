@@ -12,11 +12,39 @@ import dupes from "../../data/duplicates.json";
 import placefixes from "../../data/placefixes.json";
 import buckets from "../../data/buckets.json";
 import PersonTree from "../../components/PersonTree.astro";
+import found from "../../data/found.json";
+import ancestors from "../../data/ancestors.json";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
+
+/* PEOPLE READ IN A REGISTER FOR *THIS* PERSON, who are in no tree and so cannot
+   be relatives in the chart above. Added 23 September 2026 after an audit asked
+   whether the research reaches the pages: 44 people this archive has read a
+   document for were reachable only from /found/, and invisible on the page of
+   the very sibling or parent they were found beside. Joannis Georgius Uroda had
+   his father, his mother and five brothers and sisters in found.psv, with
+   citations, and his own page named none of them.
+   The join is the ahnentafel number the found row already writes in words —
+   «brother of ahnentafel 54» — so nothing new is asserted here; it is the same
+   sentence, read by the page it is about. */
+const ahnSlug = new Map(ancestors.filter((a) => a.ahn != null).map((a) => [a.ahn, a.slug]));
+const myAhn = (ancestors.find((a) => a.slug === p.slug) || {}).ahn;
+/* A found row that CARRIES an ahnentafel number is somebody the tree does hold —
+   they are published as an ancestor and deliberately have no /found/ page. Link
+   them where they actually live. check:kit caught this as two dead links the
+   first time this section was built, which is the gate doing its job on the very
+   fault this section exists to fix. */
+const whereIs = (r) => (r.ahn != null && ahnSlug.has(r.ahn))
+  ? u(`/people/${ahnSlug.get(r.ahn)}/`)
+  : (r.slug ? u(`/found/${r.slug}/`) : null);
+const foundHereRaw = myAhn == null ? [] : (found.rows || []).filter((r) =>
+  new RegExp(`ahnentafel\\s+(?:\\d+(?:\\s*(?:,|and)\\s*)?)*\\b${myAhn}\\b`, "i")
+    .test(r.relation || ""));
+const foundHere = foundHereRaw;
+const foundOutside = foundHereRaw.filter((r) => !(r.ahn != null && ahnSlug.has(r.ahn))).length;
 const occ = (p.occupations || []).filter((o) => o.what || o.where);
 const events = (p.events || []).filter((e) => e.date || e.place || e.note || e.detail);
 const notes = (p.notes || []).filter((n) => n && n.length > 2);
@@ -245,6 +273,40 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         ))}</tbody>
       </table>
       <p class="dek" style="margin-top:.7rem"><a href={u("/readings/")}>Every document this archive has read →</a></p>
+    </section>
+  )}
+
+  {foundHere.length > 0 && (
+    <section class="blk">
+      <div class="lab">Read in a register, for this person</div>
+      <h2>{foundHere.length === 1 ? "One more person" : `${foundHere.length} more people`} found
+        beside {p.given || p.name}</h2>
+      <p class="lede">Every one of these was read out of a parish register
+      <strong>for this person</strong> — named in an entry that is about
+      {" " + (p.given || p.name)}, or beside {p.sex === "F" ? "her" : "him"} in one.
+      {foundOutside > 0 && <span> <strong>{foundOutside === foundHere.length
+        ? "The family tree holds none of them"
+        : `The family tree holds ${foundHere.length - foundOutside} of them and not the other ${foundOutside}`}</strong>,
+        so {foundOutside === 1 ? "that one cannot" : "they cannot"} appear in the chart above.</span>}
+      <strong> This is evidence standing beside the tree rather than inside it.</strong></p>
+      <table class="reg">
+        <thead><tr><th style="width:26%">Who</th><th style="width:30%">How they stand to
+          {" " + (p.given || p.name)}</th><th>Read from</th></tr></thead>
+        <tbody>{foundHere.map((r) => (
+          <tr>
+            <td>{whereIs(r)
+                  ? <a href={whereIs(r)}><strong>{r.name}</strong></a>
+                  : <strong>{r.name}</strong>}
+              <span class="tag">{r.ahn != null && ahnSlug.has(r.ahn)
+                ? "in the family tree, on the direct line"
+                : "parish register · not yet in the family tree"}</span></td>
+            <td class="dek">{r.relation}</td>
+            <td class="dek">{r.event}{r.date ? `, ${r.date}` : ""}{r.place ? ` · ${r.place}` : ""}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+      <p class="dek" style="margin-top:.8rem"><a href={u("/found/")}>Everyone this tree does not
+      have →</a></p>
     </section>
   )}
 
