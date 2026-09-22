@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 67,
+ "count": 69,
  "onDirectLine": 2,
  "places": {
   "Buenos Aires": 3,
@@ -11,9 +11,11 @@
   "Prozor, Otočac": 2,
   "Selce": 2,
   "Senj": 5,
-  "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 2,
+  "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 1,
   "Šumećica, Otočac": 2,
-  "župnija Kranj-Šmartin": 1
+  "župnija Kranj-Šmartin": 2,
+  "župnija Kranj-Šmartin, house 10": 1,
+  "župnija Kranj-Šmartin, house 3": 1
  },
  "rows": [
   {
@@ -596,28 +598,46 @@
    "name": "Gertraud \"Gertruda\" Kosina",
    "ahn": null,
    "relation": "MOTHER OF MARTIN KOZINA - not in the tree at all",
-   "event": "named as parent",
-   "date": "16 November 1841",
-   "place": "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin",
-   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870, book p.64 - \"Gertraud Kosina, hueblnn. Tochter\", entered as the ONLY parent of Martin, born and baptised 16 November 1841; THE VATER COLUMN IS BLANK and the tick is in the UNEHELICH column. She is a Haeusler's daughter. In 1836 she stands godmother on the same register (book p.33) as \"Gertraud Kosina, Haeuslerstochter\". Forty-seven years later the Senj marriage of 12 January 1888 names her again - \"Gertruda Kozina, posjednica\" - with a dash where Martin's father belongs. TWO REGISTERS, TWO COUNTRIES, THE SAME ABSENCE. Matricula, NSAL sig. 00886, image 65"
+   "event": "baptism",
+   "date": "18 March 1814",
+   "place": "župnija Kranj-Šmartin, house 10",
+   "citation": "Krstna knjiga Kranj-Šmartin 1812-1831, book p.28 - \"den 18. Merz, Haus 10, Gertrud, ehelich, Vater: FRANZ KOSINAR, Hueblar, Mutter: MARIA DO[M]SHAN\". She was 27 when she bore Martin. HER BROTHER IS JOHANN: his marriage of 6 January 1833 gives his father as \"Franz Kosinar, Haeusler\" and his mother as \"Mina Tom[sh]shan, Haeuslerin\" - the same couple. RETRACTION: on 21 September 2026 this entry was ELIMINATED here on the grounds that the surname \"ends in a clear -r, so it is KOSNAR not Kosina\". That was wrong. The -r is how THIS clerk writes the family name, and he writes it identically for Johann, whose own children are entered KOSINA by the next clerk. One family, two hands. Matricula, NSAL sig. 00885 image 15 and sig. 00899 image 37"
   },
   {
    "name": "Johann Kosina",
    "ahn": null,
-   "relation": "Haeusler AT OBERFEICHTING No. 9 - the house Gertraud bore Martin in",
-   "event": "named as parent",
-   "date": "1834",
+   "relation": "BROTHER OF GERTRAUD, Haeusler at Oberfeichting No. 9",
+   "event": "marriage",
+   "date": "6 January 1833",
    "place": "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin",
-   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870 - \"Johann Kosina, Haeublnr\", a HAEUSLER, with \"Lucia Labornik\": ANTON baptised 20 January 1834 at OBERFEICHTING No. 9 (book p.18) and PETRUS on 29 June 1836 at OBERFEICHTING No. 9 (p.33). THE HOUSE IS THE POINT: Gertraud Kosina bore Martin at OBERFEICHTING No. 9 on 16 November 1841, five years after Johann's last recorded child there. She is entered a \"Haeuslerstochter\" and he is a Haeusler, and she stands godmother on his 1836 page. SHE WAS LIVING IN HIS HOUSEHOLD. Whether she is his sister or his daughter is NOT established - his marriage, sig. 00899 (1816-1855), would name his parents and settle it. The same man appears with a second wife \"Ursula Sedej\" on pp.130 and 144, children FRANZ 1853 and ANA 1856, where the register spells the surname KOZINA with a z; their houses were not checked. CORRECTED 21-22 September 2026: this row first read the given name as JOSEF, and the 1836 child as JOHAN. The register gives JOHANN and PETRUS. Matricula, NSAL sig. 00886, images 19, 34, 131, 145"
+   "citation": "Poročna knjiga Kranj-Šmartin 1816-1855, book p.35 - \"1833, 6. Jaenner, Obern feichting 9, JOHANN KOSINAR, Haeusler, katholisch, 30 Jahre, ledig\" marrying \"LUZIA LABORNIK, 38, ledig\". HIS PARENTS: \"Franz Kosinar, Haeusler\" and \"Mina Tom[sh]shan, Haeuslerin\". Born about 1802-03. THE BRIDE IS THE PROOF: Johann Kosina, Haeusler of Oberfeichting 9, had his first child with Lucia Labornik on 20 January 1834, a year and a fortnight later - so the house, the trade, the wife and the date all agree and the identification does not rest on the surname at all. Children ANTON 1834 and PETRUS 1836 at Oberfeichting 9; later children FRANZ 1853 and ANA 1856 with a second wife URSULA SEDEJ. Matricula, NSAL sig. 00899 image 37, sig. 00886 images 19 and 34"
   },
   {
    "name": "Lucia Labornik",
    "ahn": null,
    "relation": "first wife of Johann Kosina",
+   "event": "marriage",
+   "date": "6 January 1833",
+   "place": "župnija Kranj-Šmartin, house 3",
+   "citation": "Poročna knjiga Kranj-Šmartin 1816-1855, book p.35 - \"LUZIA LABORNIK\", house 3, 38 years, LEDIG - eight years older than her husband and marrying for the first time at thirty-eight. Her parents: \"Ma[thes] Labornik, Haeusler\" and \"Gertraud Mag[nishan], Haeuslerin\". Mother of Anton 1834 and Petrus 1836; she does not appear after 1836 and Johann is beside Ursula Sedej by 1853. Matricula, NSAL sig. 00899 image 37"
+  },
+  {
+   "name": "Franz Kosinar",
+   "ahn": null,
+   "relation": "GRANDFATHER OF MARTIN KOZINA - father of Gertraud and Johann",
    "event": "named as parent",
-   "date": "1834",
+   "date": "1814",
    "place": "župnija Kranj-Šmartin",
-   "citation": "Krstna knjiga Kranj-Šmartin 1832-1870, book pp.18 and 33 - entered as mother beside \"Johann Kosina, Haeublnr\" at the baptisms of Anton 1834 and Johan 1836. She does not appear after 1836; the same husband is beside \"Ursula Sedej\" by 1853. Matricula, NSAL sig. 00886, images 19 and 34"
+   "citation": "A HAEUSLER of the parish, named twice and never in person: as \"FRANZ KOSINAR, Hueblar\" at the baptism of his daughter GERTRAUD on 18 March 1814 (Krstna knjiga 1812-1831, book p.28), and as \"Franz Kosinar, Haeusler\" in the Aeltern des Braeutigams column at the marriage of his son JOHANN on 6 January 1833 (Poročna knjiga 1816-1855, book p.35). He is Martin Kozina's grandfather and therefore four generations above Hedviga. NOT IN THE TREE, and no baptism, marriage or death of his own has been looked for yet. Matricula, NSAL sig. 00885 image 15 and sig. 00899 image 37"
+  },
+  {
+   "name": "Maria \"Mina\" Domshan",
+   "ahn": null,
+   "relation": "GRANDMOTHER OF MARTIN KOZINA - wife of Franz Kosinar",
+   "event": "named as parent",
+   "date": "1814",
+   "place": "župnija Kranj-Šmartin",
+   "citation": "Entered \"MARIA DO[M]SHAN\" at her daughter Gertraud's baptism in 1814 and \"MINA TOM[SH]SHAN, Haeuslerin\" at her son Johann's marriage in 1833. THE SURNAME IS NOT SECURE - it is written across two lines in 1814 and abbreviated in 1833, and MINA is the short form these registers use for Marija. Recorded as read, at full magnification, and not smoothed into one spelling. Matricula, NSAL sig. 00885 image 15 and sig. 00899 image 37"
   }
  ]
 }

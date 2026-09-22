@@ -53,6 +53,15 @@ SETTLED = {
     # The four below arrived on 21 September with the Kosina research. Every one
     # resembles somebody only in a GIVEN NAME and a year; not one shares a
     # surname or a parent, which is the test this file applies everywhere else.
+    # 22 September 2026, and the same shape again: a Slovene woman in Carniola
+    # against a Croatian woman of the same given name and year, where the year
+    # on the found row is a REGISTER ENTRY and not a birth.
+    "Maria \"Mina\" Domshan":
+        "named as a mother at Kranj-Šmartin in 1814, so born around 1790 — the "
+        "1814 on her row is her daughter's baptism. Maria Žubrinić of 1814 is a "
+        "newborn in Croatia, four hundred kilometres away, with a different "
+        "surname and different parents",
+
     # 21 September 2026, from the Carniolan registers. A Slovene cottager's wife
     # at Kranj in 1836 against four Croatian women of the same given name and
     # year, three of them Žubrinić. Nothing but «Lucia» and «1836» is shared,

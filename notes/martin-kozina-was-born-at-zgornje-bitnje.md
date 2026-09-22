@@ -1,5 +1,10 @@
 # Martin Kozina was born at Zgornje Bitnje on 16 November 1841, and the register says «unehelich»
 
+> **CORRECTED 22 September 2026.** This note eliminated Gertraud's own baptism on 21 September
+> and the elimination was wrong. She is the 1814 entry, the brother's marriage proves it, and
+> the struck-out reasoning is kept below where it happened. **Martin's grandparents are now
+> named: Franz Kosinar and Maria «Mina» Do[m]shan.**
+
 **21 September 2026.** The Senj marriage of 12 January 1888 gave the parish — *«Kranjska župa
 sv. Martin kod Krainburg»* — and this archive had gone no further, because Croatian registers
 end at the border.
@@ -108,41 +113,63 @@ transcribed above and the books are two clicks away:
 **If the licence turns out to allow it, one crop of that single row is the most valuable
 photograph this family could put on a wall.**
 
-## Gertraud's own baptism was looked for the same day. It was NOT found, and one candidate was killed
+## CORRECTED 22 SEPTEMBER 2026 — she was found, and the elimination was mine
 
-**The index for 1812–1831 (sig. 04631) was fetched and its K section read** — twenty-four pages,
-the letter K on **image 169**. It offers **two Gertraud candidates** and the register settles one
-of them and not the other.
+**On 21 September this note eliminated a candidate and it should not have.** The reasoning is
+printed below, unchanged, because it is the useful part.
 
-### 1814, register page 28 — ELIMINATED
+### What was said, and why it was wrong
 
-Read at the page (sig. 00885, image 15 — **this older volume numbers two book pages to an
-image**, so page = 2 × (image − 1)):
+The 1812–1831 index gave **two Gertraud candidates**. The 1814 one was opened and struck out:
 
 > **«den 18. Merz · Haus 10 · Gertrud · ehelich · Vater: Franz Kosnar, Hüblar»**
+> *The father's surname ends in a clear «-r». It is **KOSNAR, not Kosina**.*
 
-**The father's surname ends in a clear «-r». It is KOSNAR, not Kosina** — and at index scale the
-two are almost the same mark. **The index said Kosina and the register said otherwise**, which is
-the whole reason this archive opens the page.
+**The letter was read correctly and the conclusion drawn from it was wrong.** The **-r** is simply
+how **this clerk** writes the family's name. He writes it the same way for her brother — and her
+brother's own children are entered **KOSINA** by the next clerk, in the next volume.
+**One family, two hands, and a surname that changes shape between them.**
 
-### 1818, register page 72 — NOT RESOLVED
+### What proved it: the marriage register
 
-> **«den 16ten Februar · [village] · Haus 12 · Gertrud · ehelich · Vater: Lukas Ko[s]in…»**
+The marriage book 1816–1855 carries an *«Aeltern des Bräutigams»* column, and page 35 has this:
 
-**The terminal of the surname cannot be read.** It is either **Kosina** or **Kosiner**, and the
-difference decides whether this is the right woman. **The birthplace is not identified either** —
-it reads something like *Lenzg*, which matches no village of the parish this archive can name.
+> **1833, 6. Jänner · Obern feichting **9** · JOHANN KOSINAR, Häusler, katholisch, **30**, ledig**
+> **× LUZIA LABORNIK, house 3, **38**, ledig**
+> ***des Vaters:*** **Franz Kosinar, Häusler** · ***der Mutter:*** **Mina Tom[sh]shan, Häuslerin**
+> *(the bride's own parents: Ma[thes] Labornik, Häusler, and Gertraud Mag[nishan], Häuslerin)*
 
-**Matricula serves these scans at 1500 pixels tall. The EXIF of the master says 3846.**
-**That is the whole obstacle**, and it is a small one: a request to the **Nadškofijski arhiv
-Ljubljana** for one page at full resolution would settle it in a sentence.
+**The identification does not rest on the surname at all.** Johann Kosina, *Häusler of
+Oberfeichting no. 9*, had his first child with **Lucia Labornik** on **20 January 1834** — a year
+and a fortnight after this wedding. **The house, the trade, the wife and the date all agree.**
 
-### So, honestly
+**And his father is FRANZ, a Häusler, with a wife whose surname is written Tom[sh]shan** — against
+the 1814 baptism's **Franz Kosinar, Hüblar** and **Maria Do[m]shan**. *Mina* is the short form
+these registers use for *Marija*. **Same couple.**
 
-**Gertraud Kosina's own baptism has not been found.** One candidate is dead, one is open, and it
-is entirely possible she was not baptised in this parish at all — a *Häuslerstochter* who bore a
-child at Zgornje Bitnje in 1841 could have been born anywhere in Carniola and come there to work.
+## So the line now runs two generations further back
 
+| | |
+|---|---|
+| **Franz Kosinar**, *Häusler* × **Maria «Mina» Do[m]shan** | Martin's grandparents, and **four generations above Hedviga** |
+| their daughter **Gertraud**, baptised **18 March 1814** | 27 years old when she bore Martin |
+| their son **Johann**, b. c.1802–03, married **6 January 1833** | the Häusler of Oberfeichting no. 9 |
+| **Martin**, born **16 November 1841** at Oberfeichting no. 9, *unehelich* | **in his uncle's house** |
+
+**Gertraud was not a lodger and not a stranger. She was the householder's sister**, and she bore
+her son under her brother's roof seven years after he brought a wife into it.
+
+### Two things that are still not tight, and are recorded as such
+
+* **The house numbers differ by one.** Gertraud is baptised at **house 10** in 1814 and Johann
+  marries into **house 9** in 1833. Adjacent numbers in one hamlet, thirty years apart, with a
+  land reform in between — but it is not the same digit and it is not being pretended that it is.
+* **«Maria» in 1814 and «Mina» in 1833**, and a surname written across two lines the first time
+  and abbreviated the second. Recorded as read, at full magnification, and not smoothed.
+* **The 1818 candidate is now moot but not disproved** — «Lukas Ko[s]in…», house 12, whose
+  terminal could not be read. She would be a different father's daughter.
+
+## What is next, and most of it is in the same free books
 ## What is next, and most of it is in the same free books
 
 1. **One page at full resolution** — sig. 00885, book page 72 — from NŠAL. It settles

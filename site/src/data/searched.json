@@ -12,7 +12,7 @@
   "nothing": 16,
   "partial": 20,
   "pending": 6,
-  "yield": 61
+  "yield": 62
  },
  "read": [
   {
@@ -329,6 +329,22 @@
   }
  ],
  "rows": [
+  {
+   "src": "Matricula — Kranj–Šmartin marriages 1816–1855 (sig. 00899)",
+   "key": "web/matricula-kranj-marriage-1833",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00899/",
+   "what": "Johann Kosina's marriage, for the «Aeltern des Bräutigams» column",
+   "when": "22 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "marriage",
+    "web"
+   ],
+   "got": "**FOUND ON THE NINTH OPENING SCANNED, AND IT NAMES MARTIN'S GRANDPARENTS.** The volume has no index, so images 29–44 were cropped to the Bräutigam columns and read as strips.\n\n**Book page 35: «1833, 6. Jänner · Obern feichting 9 · JOHANN KOSINAR, Häusler, katholisch, 30, ledig × LUZIA LABORNIK, house 3, 38, ledig». *des Vaters:* FRANZ KOSINAR, Häusler. *der Mutter:* MINA TOM[SH]SHAN, Häuslerin.** The bride's own parents are given as Ma[thes] Labornik, Häusler, and Gertraud Mag[nishan].\n\n**The identification does not rest on the surname.** Johann Kosina, Häusler of Oberfeichting 9, had his first child with **Lucia Labornik** on 20 January 1834 — a year and a fortnight later. House, trade, wife and date all agree.\n\n**AND IT RETRACTS YESTERDAY'S ELIMINATION.** The 1814 Gertraud was struck out here on the grounds that her father's surname «ends in a clear -r, so it is KOSNAR not Kosina». **The letter was read correctly and the conclusion was wrong**: the -r is how that clerk writes this family's name, and he writes it identically for Johann, whose children the next clerk enters as KOSINA. Her father is **Franz Kosinar, Hüblar**; her mother **Maria Do[m]shan**. **Same couple as Johann's parents. She is his sister.**\n\n**So: Gertraud baptised 18 March 1814, twenty-seven when she bore Martin in her brother's house; and Franz Kosinar and Maria «Mina» Do[m]shan are Martin's grandparents, four generations above Hedviga.**\n\n**Not tight, and said so:** the house is **10** in 1814 and **9** in 1833 — adjacent numbers, thirty years and a land reform apart, and not the same digit. And «Maria» against «Mina», with the surname written over two lines once and abbreviated once."
+  },
   {
    "src": "Matricula Online — Nadškofijski arhiv Ljubljana, parish of Kranj–Šmartin",
    "key": "web/matricula-kranj-smartin",
