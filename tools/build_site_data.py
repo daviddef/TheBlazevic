@@ -186,18 +186,69 @@ def clean(n):
     return n.strip()
 
 
-_slugs = {}
+# A PERSON'S URL IS MINTED ONCE AND NEVER RECOMPUTED.
+#
+# This used to build a fresh dict on every run and resolve a collision with
+# `while s in _slugs.values(): s = base-N`. The N was ITERATION ORDER, so the
+# moment a namesake was added, corrected or removed, every later namesake's
+# URL shifted. Not a risk — a thing that happened here: between faa46cd and
+# 73d36bf six men swapped URLs with each other, and anybody who had cited
+# /people/anton-blazevic-2/ was sent to a different man.
+#
+# data/person-slugs.json is the ledger. It is read first, used unchanged, and
+# appended to only for an id it has never seen. It is never edited, because a
+# URL that has been published is a promise; a removed person keeps their line
+# so the slug is not handed on to somebody else.
+_LEDGER_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            "..", "site", "src", "data", "person-slugs.json")
+try:
+    _ledger = json.load(open(_LEDGER_PATH, encoding="utf-8")).get("slugs", {})
+except Exception:
+    _ledger = {}
+_slugs = dict(_ledger)
+_minted = []
+
+
 def slug(p):
     if p["id"] in _slugs:
         return _slugs[p["id"]]
     base = re.sub(r"[^a-z0-9]+", "-",
                   f'{p["given"]} {p["surname"]}'.lower().translate(
                       str.maketrans("žćčšđáéíóúü", "zccsdaeiouu"))).strip("-") or "unknown"
+    taken = set(_slugs.values())
     s, n = base, 2
-    while s in _slugs.values():
+    while s in taken:
         s, n = f"{base}-{n}", n + 1
     _slugs[p["id"]] = s
+    _minted.append((p["id"], s))
     return s
+
+
+def write_slug_ledger():
+    """Append what was minted this run, and write the file EVERY run.
+
+    The first version returned early when nothing had been minted, which is
+    the obvious thing for an append-only file and was wrong here. regen.py
+    records which files each tool actually rewrote and refuses anything it
+    cannot account for — «ORPHAN: no tool in ORDER wrote it» — so a file that
+    exists and is only sometimes written looks exactly like a file whose
+    generator has been deleted. That check is right and it caught this.
+
+    So the ledger is rewritten on every run and its content is deterministic:
+    sorted by id, and byte-identical when nothing new was minted. It remains
+    append-only in the sense that matters — an id already in the file keeps
+    the slug it has, for ever.
+    """
+    try:
+        doc = json.load(open(_LEDGER_PATH, encoding="utf-8"))
+    except Exception:
+        doc = {"_why": ["Seeded by build_site_data.py"], "slugs": {}}
+    for pid, sl in _minted:
+        doc["slugs"].setdefault(pid, sl)   # setdefault: never overwrite
+    doc["slugs"] = dict(sorted(doc["slugs"].items()))
+    open(_LEDGER_PATH, "w", encoding="utf-8").write(
+        json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
+    return len(_minted)
 
 
 # The tree writes the same Croatian place many ways, because the county names
@@ -371,3 +422,9 @@ def dump(name, obj):
 
 if __name__ == "__main__":
     main()
+    # AFTER main(), not at module level: module-level code runs at
+    # import, before anything has been minted, and the first version
+    # of this wrote an empty ledger every run.
+    _n = write_slug_ledger()
+    if _n:
+        print(f"  person-slugs.json: {_n} new slug(s) frozen")
