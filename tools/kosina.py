@@ -78,8 +78,11 @@ CARNIOLAN = [
      "«Do[m]shan» of 1814 and «Tom[sh]shan» of 1833. The archive now leads with "
      "Dortschen and keeps all six."),
     ("Johann Kosina", 1802,
-     "b. about 1802–03 · m. 6 January 1833 · Oberfeichting house 9",
-     "Martin's uncle, and the householder of the house Martin was born in."),
+     "b. about 1802–03 · m. 6 January 1833 · d. 10 October 1868, aged 64, "
+     "at Zgornje Bitno 9",
+     "Martin's uncle, and the householder of the house Martin was born in — "
+     "a Häubler at his wedding and a Häubler at his death thirty-five years later, "
+     "in the same house both times."),
     ("Lucia Labornik", 1795,
      "b. about 1795 · m. 6 January 1833, aged 38 · d. 30 November 1850, aged 55",
      "Johann's wife — Martin's aunt by marriage rather than his blood, and the "
@@ -126,9 +129,13 @@ HOUSEHOLD = [
      "twenty-one years before Martin was born there.",
      "son of Franz and Maria"),
     ("Maria Kosinar the second", 1818,
-     "baptised 6 December 1818, Oberfeichting",
-     "Franz and Maria's sixth known child, and named for the sister who had died "
-     "twenty months before she was born. No death is known for her.",
+     "baptised 6 December 1818 · d. 6 January 1868, aged 49, unmarried, "
+     "at Zgornje Bitno 9",
+     "Franz and Maria's sixth known child, named for the sister who had died "
+     "twenty months before she was born. She turned 49 one month before she died, "
+     "so the register's age is exact. LIKE GERTRAUD SHE NEVER MARRIED AND NEVER "
+     "LEFT: both sisters are entered as lodgers in the house they were born in, "
+     "twelve years apart.",
      "daughter of Franz and Maria"),
     ("Ursula Kosina", 1760,
      "d. 1845 or 1846, aged 85, of Altersschwäche · Oberfeichting 13",
@@ -136,6 +143,12 @@ HOUSEHOLD = [
      "Oberfeichting house — neither Franz's 9 nor Matthäus's 14. A candidate for the "
      "generation above Franz and nothing more.",
      "probably kin — not proved"),
+    ("Franziska Kozina", 1853,
+     "d. 7 March 1864, aged 11, of measles · Oberfeichting 9",
+     "A Häubler's daughter at Johann's house. She may also be a correction: this "
+     "archive records Johann's child of 1853 as a FRANZ, and a girl of that year "
+     "in that house is probably the same child read as a man.",
+     "probably Johann and Ursula's daughter"),
     ("Joseph Kosina", 1841,
      "d. 27 March 1843, aged two, of Halsentzündung · Oberfeichting 9",
      "A Häubler's son at the house Johann held and Martin was born in, so almost "
