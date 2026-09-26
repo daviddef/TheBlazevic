@@ -81,6 +81,14 @@ SETTLED = {
         "kilometres away, with a different surname and different parents. A "
         "shared given name and a shared year is the whole resemblance",
 
+    "Maria Kozina of 1859":
+        "born AND baptised at Kranj-Šmartin on 7 August 1859, at Oberfeichting "
+        "(Zgornje Bitnje) house 9, to Johann Kozina, Hüblar, and Ursula Sedej — "
+        "the register gives the day twice, the sex column and both parents. The "
+        "candidates are Croatian children of 1858-59 four hundred kilometres "
+        "away, with different surnames and different parents; the resemblance is "
+        "a given name and a year",
+
     "Marija Kozina":
         "known only as a mother — «Marije roj. Kozina», wife of Kancijan Česen at "
         "Stražišče 84 in Carniola. THE 1892 ON HER ROW IS HER CHILD'S DEATH, not "

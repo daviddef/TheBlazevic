@@ -98,14 +98,16 @@ CARNIOLAN = [
 ]
 
 
-# THE HOUSE, as against the LINE. These five are not ancestors of Hedviga and
-# never will be: three are children of Franz and Maria who died small, and two
-# are Kosinar of Franz's own generation and older whose parents no register
-# here names. They were found on 22 September 2026 by reading the whole K
-# section of the Kranj-Šmartin death index for 1812-1835 rather than the one
-# page that had been asked for, and they are kept separate from CARNIOLAN
-# because a descent table that mixes proven descent with probable kinship stops
-# being a descent table. Each carries what the register says and no more.
+# THE HOUSE, as against the LINE. These are not ancestors of Hedviga and never
+# will be: children of Franz and Maria who died small, children of their son
+# Johann, and Kosinar of Franz's own generation and older whose parents no
+# register here names. The first of them were found on 22 September 2026 by
+# reading the whole K section of the Kranj-Šmartin death index for 1812-1835
+# rather than the one page that had been asked for, and the list has grown the
+# same way since — by reading a section end to end instead of a row. They are
+# kept separate from CARNIOLAN because a descent table that mixes proven descent
+# with probable kinship stops being a descent table. Each carries what the
+# register says and no more.
 HOUSEHOLD = [
     ("Maria Kosinar the elder", 1738,
      "d. 27 February 1816, aged 78, of Altersschwäche",
@@ -144,16 +146,29 @@ HOUSEHOLD = [
      "generation above Franz and nothing more.",
      "probably kin — not proved"),
     ("Franziska Kozina", 1853,
-     "d. 7 March 1864, aged 11, of measles · Oberfeichting 9",
-     "A Häubler's daughter at Johann's house. She may also be a correction: this "
-     "archive records Johann's child of 1853 as a FRANZ, and a girl of that year "
-     "in that house is probably the same child read as a man.",
-     "probably Johann and Ursula's daughter"),
+     "baptised 19 September 1853 · d. 7 March 1864, aged 11, of measles · "
+     "Oberfeichting 9",
+     "Johann and Ursula's daughter, and a correction now made: this archive "
+     "recorded their child of 1853 as a FRANZ. The register writes FRANCISCA and "
+     "TICKS MÄDCHEN. One child, not two, and the death register had her right for "
+     "eleven years before the baptismal one was asked.",
+     "daughter of Johann and Ursula"),
+    ("Maria Kozina of 1859", 1859,
+     "born and baptised 7 August 1859 · Oberfeichting 9",
+     "Johann and Ursula's third daughter, and the sixth Kozina baptism in a volume "
+     "this archive had counted five in. Found by reading the whole K section of the "
+     "index to settle that count, not by looking for her. She was nine when her "
+     "father died and she is not in the death register the archive has walked, so "
+     "she was alive in 1870; nothing else is known of her.",
+     "daughter of Johann and Ursula"),
     ("Joseph Kosina", 1841,
      "d. 27 March 1843, aged two, of Halsentzündung · Oberfeichting 9",
      "A Häubler's son at the house Johann held and Martin was born in, so almost "
      "certainly Johann and Lucia's, and a brother of Anton 1834 and Petrus 1836. This "
-     "book names no parents.",
+     "book names no parents — AND THE BAPTISMAL INDEX HAS NO JOSEPH. Its whole K "
+     "section was read end to end on 27 September 2026 and the six Kozina it holds "
+     "do not include him, so he was baptised outside the parish or that index missed "
+     "him, as the death index for these years missed nine.",
      "probably Johann and Lucia's son"),
     ("Marianna Kosina", 1814,
      "d. 10 January 1840, aged 26, unmarried, of Abzehrung · Breg 12",
