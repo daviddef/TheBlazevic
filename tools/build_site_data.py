@@ -102,6 +102,45 @@ def rel(pid, people):
             "died": year(died(q).get("date", ""))}
 
 
+def impossible_marriage(p, other, f, people):
+    """An EMPTY family record joined to somebody who died a child is not a marriage.
+
+    27 September 2026, from a kit gate and a peer session. @I508727@ PETRA PAPIĆ
+    was born in 1900 and died in 1902, and the tree gives her a husband: a record
+    with no name, no dates and no events, in a family with no children and no
+    marriage entry. Nothing in it is information.
+
+    It was still drawn — and because the husband record has no birth date, the
+    living rule cannot prove him dead and withholds him. So the chart stated
+    that SOMEBODY ALIVE TODAY IS MARRIED TO A GIRL WHO DIED AT TWO. The living
+    rule was working exactly as written; the edge underneath it was false.
+
+    This is deliberately the narrowest rule that removes it:
+      * the partner has no usable name AND no events at all, and
+      * the family holds no children and no marriage event, and
+      * this person died before twelve.
+    An unnamed partner WITH children is real — it is how a tree records the
+    other parent of a known child — and those are untouched. Across 1,833
+    published people exactly TWO families are wholly empty, and only this one
+    joins a child; the other is a woman who lived to 93, where a marriage is
+    merely unevidenced rather than impossible, and it stays.
+
+    This archive does not edit the GEDCOM. The record is left alone and the
+    disagreement is written down in corrections.json, which is where this
+    archive puts everything it will not silently repair.
+    """
+    q = people.get(other)
+    if not q:
+        return False
+    named = (q.get("name") or "").strip().strip("()").replace("unnamed", "").strip()
+    if named or q.get("events"):
+        return False
+    if f.get("chil") or f.get("events"):
+        return False
+    b, d = year(born(p).get("date", "")), year(died(p).get("date", ""))
+    return bool(b and d and (d - b) < 12)
+
+
 def relations(p, people, families):
     """Parents, spouses (with the marriage), siblings and children."""
     out = {"parents": [], "spouses": [], "siblings": [], "children": []}
@@ -126,6 +165,8 @@ def relations(p, people, families):
         other = f["wife"] if f["husb"] == p["id"] else f["husb"]
         m = next((e for e in f["events"] if e["kind"] == "marriage"), {})
         r = rel(other, people) if other else None
+        if r and impossible_marriage(p, other, f, people):
+            r = None
         if r:
             r = dict(r, marriedDate=m.get("date", ""), marriedPlace=m.get("place", ""))
             out["spouses"].append(r)
