@@ -173,12 +173,15 @@ HOUSEHOLD = [
      "do not include him, so he was baptised outside the parish or that index missed "
      "him, as the death index for these years missed nine.",
      "probably Johann and Lucia's son"),
-    ("Marianna Kosina", 1814,
-     "d. 10 January 1840, aged 26, unmarried, of Abzehrung · Breg 12",
-     "Born the same year as Gertraud and at a different village — a fourth Kosina "
-     "household in the parish, and a reminder that a name and a year together prove "
-     "nothing.",
-     "same surname, same parish — not kin on this evidence"),
+    ("Marianna Kosina", 1813,
+     "baptised 12 August 1813 · d. 10 January 1840, aged 26, unmarried, of "
+     "Abzehrung · Breg 12",
+     "LUKAS KOSINA'S DAUGHTER, and so a sister of the 1818 Gertraud this archive "
+     "had to rule out before Martin's mother could be settled. Her baptism gives "
+     "«Vater: LUKAS KOSINER, Kaischler» — and she dies a Keuschlerstochter at "
+     "twenty-six, which is the same word and the right age to the month. Born the "
+     "same year as the other Gertraud and at a village that is not Feichting.",
+     "daughter of Lukas — not of Franz's line"),
     ("Margaretha Kosinar", 1781,
      "d. 14 March 1826, aged 45, a Häubler's daughter, unmarried",
      "She died in Franz's house at forty-five, of his own generation. Most likely "
