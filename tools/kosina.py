@@ -140,10 +140,13 @@ HOUSEHOLD = [
      "twelve years apart.",
      "daughter of Franz and Maria"),
     ("Ursula Kosina", 1760,
-     "d. 1845 or 1846, aged 85, of Altersschwäche · Oberfeichting 13",
+     "d. 28 March 1845, aged 85, of Altersschwäche · Oberfeichting 13",
      "The second-oldest of the name this archive has reached, and at a THIRD "
-     "Oberfeichting house — neither Franz's 9 nor Matthäus's 14. A candidate for the "
-     "generation above Franz and nothing more.",
+     "Oberfeichting house — neither Franz's 9 nor Matthäus's 14. And she is entered "
+     "ABNEHMERIN: she had HELD that house and handed it over, the same institution "
+     "this register calls Franz an Ausnehmer for and Maria Dortschen an Auszüglerin. "
+     "The third Kosina house in the village was hers. Still only a candidate for the "
+     "generation above Franz — no parents, no husband, no children are named.",
      "probably kin — not proved"),
     ("Franziska Kozina", 1853,
      "baptised 19 September 1853 · d. 7 March 1864, aged 11, of measles · "

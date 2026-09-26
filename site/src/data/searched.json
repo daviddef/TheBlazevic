@@ -12,7 +12,7 @@
   "nothing": 17,
   "partial": 21,
   "pending": 6,
-  "yield": 67
+  "yield": 68
  },
  "read": [
   {
@@ -2823,6 +2823,22 @@
     "web"
    ],
    "got": "**The question was one column of one row.** This archive had recorded Johann Kozina's child of 1853 by Ursula Sedej as a **Franz**, and the death register had a **FRANZISKA KOZINA**, *weiblich*, dead of measles at Oberfeichting 9 on 7 March 1864 aged 11 — born about 1853. Two children, or one read as a man?\n\n**The index** (sig. 04632, image 246) gives **«213 — Kozina — 130»** under 1853, the given name written short and readable either way. **The register** (sig. 00886, book p. 130 = image 131) settles it: **19 September 1853 · Obr. Feichting · house 9 · FRANCISCA · ehelich**, father **Johann Kozina, Hüblar**, mother **Ursula Sedej**, godparents Johann Pevc and Marina Dolenc — and **the stroke stands in the MÄDCHEN column**, with a dot in Knaben. Read at 8×, then checked again by cropping the tick columns from the printed heading down to her line so the mark is placed by the column above it and not by eye. **One child. There is no Franz.**\n\n**And then the count.** While the index was open the whole **K** section was read through — entry 1 to entry 369, 1832 to 1870, four name columns on image 246 and three on image 247, at 3.4× — because this archive had said the volume held **five** Kozina baptisms, all opened. It holds **six**:\n\n| # | Year | Name | Book p. |\n| --- | --- | --- | --- |\n| 25 | 1834 | Anton Kozina | 18 |\n| 55 | 1836 | Petrus Kozina | 33 |\n| 104 | 1841 | Martin Kozina | 64 |\n| 213 | 1853 | Francisca Kozina | 130 |\n| 235 | 1856 | Ana Kozina | 144 |\n| 262 | 1859 | **Maria Kozina** | **159** |\n\n**Maria 1859 was new.** Page 159 was opened: **born and baptised 7 August 1859, Oberfeichting 9, Mädchen, ehelich**, father **Johann Kozina, Hüblar**, mother **Ursula Sedej**. A sixth child for Johann and a third for Ursula, found by counting rather than by searching.\n\n**What it did not give.** **No Joseph.** The Joseph Kozina who died at two at that house in March 1843 — born about 1841 — is not in this index at all. Either he was baptised outside the parish or this index missed him, as the death index for the same parish missed nine. An index proves what it contains and never what it omits."
+  },
+  {
+   "src": "Matricula — Kranj–Šmartin deaths 1836–1869 (sig. 00895), book p. 43 re-opened for its month heading",
+   "key": "web/matricula-kranj-smartin",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00895/",
+   "what": "The month and year of Ursula Kosina's death, which the first reading of this page left untranscribed",
+   "when": "27 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "death",
+    "web"
+   ],
+   "got": "**A date is not read off the line it sits on.** When this page was first walked, Ursula Kosina's entry gave a day — *28 gestorben, 30 begraben* — and nothing else, because the month heading sits above it in the same column. The row was published as **«the 28th of a month in 1845 or 1846»**, which is honest and is not a date.\n\n**Read from the head of the page down, it is 28 March 1845.** The printed year on the column is **1845**. The month headings run *Jänner* (29th), *Februar* (26th), ***März*** (2nd) — and from there the days run 2, 4, 6, 12, 13, 16, 18, 18, 25, **28**, 30 with no further heading, the last of them buried «1. April». Hers is the 28th, inside March; buried the 30th.\n\n**And the page gave something nobody had asked it for.** At ten times magnification the word under her name is **ABNEHMERIN** — the female of *Abnehmer*, and the same institution this register means by the ***Ausnehmer*** it calls **Franz Kosinar** at his death in 1849 and the ***Auszüglerin*** it calls **Maria Dortschen** at hers in 1841: a householder who has **handed the house over** and lives on the portion reserved out of it. **She had held Oberfeichting 13 and given it up.** The third Kosina house in that village was hers, and she was not a lodger in anyone's.\n\nFull entry: **«1845, März · 28. gestorben, 30. begraben · Ob. Feichting · 13 · URSCHULA KOSINA, Abnehmerin · katholisch · weiblich · ALTER 85 · Altersschwäche · versehen · idem»**. Born about 1760. **The letter-tabbed index for 1836–1869 does not list her** — she is one of the nine Kozina that walk turned up and it missed."
   }
  ]
 }
