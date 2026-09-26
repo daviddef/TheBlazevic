@@ -12,7 +12,7 @@
   "nothing": 17,
   "partial": 21,
   "pending": 6,
-  "yield": 65
+  "yield": 66
  },
  "read": [
   {
@@ -329,6 +329,23 @@
   }
  ],
  "rows": [
+  {
+   "src": "Matricula — Kranj–Šmartin deaths 1836–1869 (sig. 00895), the REGISTER walked page by page, not its index",
+   "key": "web/matricula-kranj-deaths-1836-walked",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00895/",
+   "what": "Maria «Mina» Dortschen and Johann Kosina — after the letter-tabbed index for these years was proved incomplete",
+   "when": "27 September 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "death",
+    "web"
+   ],
+   "got": "**MARIA «MINA» DORTSCHEN'S DEATH — the last of the six Carniolans without one.** Book p.27, April 1841:\n\n**«am 11. gestorben · am 13. begraben · OBERFEICHTING · 9 · MARIA KOSINA, AUSZÜGLERIN · katholisch · weiblich · ALTER 60 Jahre · Convulsionen · versehen»**\n\n**Auszüglerin** is the female of **Ausnehmer** — a householder who has handed over and lives on the *Ausnahm* — and it is the exact word this same register uses for **Franz** at his own death **in this same house** eight years later. **ALTER 60** puts her birth at about **1781**; she gave her age as **20** at her marriage in October 1800. **Oberfeichting 9** is the house Franz held in 1820, Johann kept from 1833, Franz died in, and Gertraud died in.\n\n**AND THE DATE IS THE ONE THAT MATTERS.** She died **11 April 1841**. Her grandson **Martin was born in that house on 16 November 1841** — seven months later. Gertraud was carrying him when her mother died.\n\n**THREE MORE KOZINA THE INDEX DOES NOT LIST**, in the first 105 pages:\n\n* **Marianna Kosina**, p.22 — 10 January 1840, **Breg 12**, *Keuschlerstochter*, **26**, Abzehrung. Born about 1814, the same year as Gertraud, at a different village. Possibly the «Kosina Marianna — 16» of the 1812–31 baptismal index that page 16 did not yield.\n* **Joseph Kosina**, p.33 — 27 March 1843, **Oberfeichting 9**, *Häublers Sohn*, **2**, Halsentzündung. Born about 1841 at the house Johann held: almost certainly Johann and Lucia's, and a brother of Anton 1834 and Petrus 1836.\n* **Ursula Kosina**, p.43 — 1845 or 1846, **Oberfeichting 13**, **85**, Altersschwäche. Born about **1760**, a generation above Franz, at a THIRD house of the name in one village.\n\n**SO THE INDEX FOR 1836–1869 IS WRONG BY AT LEAST FOUR.** It lists Franz 1849 and Luzia 1850 and nobody else. This archive cited its silence twice as evidence.",
+   "missed": "**Pages 106–174 are not yet read** — 69 openings, covering roughly 1853 to 1869. **Johann Kosina is expected there**: he was alive in 1856 when his daughter Ana was baptised, and he is in neither post-1869 register. Finishing the walk would give him and would make the negative exhaustive.\n\n**Joseph 1843 is a problem for an earlier count.** This archive has said the 1832–1870 baptismal volume holds FIVE Kozina baptisms, all opened. A boy born about 1841 should make six. Either that count missed him or he was baptised elsewhere."
+  },
   {
    "src": "Matricula — Kranj–Šmartin deaths 1870–1890 (sig. 03916) and 1890–1911 (sig. 03917), both read opening by opening",
    "key": "web/matricula-kranj-deaths-1890",

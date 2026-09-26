@@ -66,9 +66,13 @@ CARNIOLAN = [
      "1841. He did not move in with his son. He gave his son the house and "
      "stayed in it."),
     ("Maria \"Mina\" Dortschen", 1780,
-     "b. about 1780 · m. 27 October 1800, aged 20 · still bearing children in 1820",
+     "b. about 1781 · m. 27 October 1800, aged 20 · d. 11 April 1841, aged 60, "
+     "an Auszüglerin at Oberfeichting 9",
      "Martin's grandmother, and the mother of six children now known by name — "
-     "three of whom died before they were a year old. Six "
+     "three of whom died before they were a year old. SHE DIED IN THE HOUSE SHE HAD "
+     "HANDED OVER: «Auszüglerin» is the female of the «Ausnehmer» this same register "
+     "calls Franz at his own death in that house eight years later. AND HER GRANDSON "
+     "MARTIN WAS BORN IN IT SEVEN MONTHS AFTER SHE DIED IN IT. Six "
      "clerks wrote her surname across thirty-three years and FOUR OF THEM WROTE "
      "«Dortschen» — 1800, 1812, 1815, 1820 — against this archive's own bracketed "
      "«Do[m]shan» of 1814 and «Tom[sh]shan» of 1833. The archive now leads with "
@@ -126,6 +130,24 @@ HOUSEHOLD = [
      "Franz and Maria's sixth known child, and named for the sister who had died "
      "twenty months before she was born. No death is known for her.",
      "daughter of Franz and Maria"),
+    ("Ursula Kosina", 1760,
+     "d. 1845 or 1846, aged 85, of Altersschwäche · Oberfeichting 13",
+     "The second-oldest of the name this archive has reached, and at a THIRD "
+     "Oberfeichting house — neither Franz's 9 nor Matthäus's 14. A candidate for the "
+     "generation above Franz and nothing more.",
+     "probably kin — not proved"),
+    ("Joseph Kosina", 1841,
+     "d. 27 March 1843, aged two, of Halsentzündung · Oberfeichting 9",
+     "A Häubler's son at the house Johann held and Martin was born in, so almost "
+     "certainly Johann and Lucia's, and a brother of Anton 1834 and Petrus 1836. This "
+     "book names no parents.",
+     "probably Johann and Lucia's son"),
+    ("Marianna Kosina", 1814,
+     "d. 10 January 1840, aged 26, unmarried, of Abzehrung · Breg 12",
+     "Born the same year as Gertraud and at a different village — a fourth Kosina "
+     "household in the parish, and a reminder that a name and a year together prove "
+     "nothing.",
+     "same surname, same parish — not kin on this evidence"),
     ("Margaretha Kosinar", 1781,
      "d. 14 March 1826, aged 45, a Häubler's daughter, unmarried",
      "She died in Franz's house at forty-five, of his own generation. Most likely "
