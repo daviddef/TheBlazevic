@@ -156,9 +156,17 @@ HOUSEHOLD = [
      "TICKS MÄDCHEN. One child, not two, and the death register had her right for "
      "eleven years before the baptismal one was asked.",
      "daughter of Johann and Ursula"),
+    ("Ana Kozina", 1856,
+     "born and baptised 25 July 1856 · Oberfeichting 9",
+     "Johann and Ursula's second daughter. This archive carried her as «Ana 1856» "
+     "for six days on the strength of an index line; the page gives the day, the "
+     "house, the sex column and both parents. She was seven when Franziska died of "
+     "measles in that house and twelve when her father died in it, and nothing is "
+     "known of her after 1870.",
+     "daughter of Johann and Ursula"),
     ("Maria Kozina of 1859", 1859,
      "born and baptised 7 August 1859 · Oberfeichting 9",
-     "Johann and Ursula's third daughter, and the sixth Kozina baptism in a volume "
+     "Johann and Ursula's youngest, and the sixth Kozina baptism in a volume "
      "this archive had counted five in. Found by reading the whole K section of the "
      "index to settle that count, not by looking for her. She was nine when her "
      "father died and she is not in the death register the archive has walked, so "
