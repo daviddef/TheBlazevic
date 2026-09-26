@@ -15,6 +15,12 @@ export default defineConfig({
   site: 'https://daviddef.github.io',
   base: '/TheBlazevic',
   build: { format: 'directory' },
+  /* ARCHIVE_OUT was honoured by every kit TOOL and by nothing that writes.
+     `ARCHIVE_OUT=dist-mine npm run build` put the pages in dist/ and then sent
+     sitemap.py looking in dist-mine/, which does not exist — so the escape
+     hatch the kit offers when two sessions collide on one dist could not
+     actually be taken. 27 September 2026. */
+  outDir: process.env.ARCHIVE_OUT || 'dist',
   redirects,
   /* The kit is BUNDLED, not externalised. Its lib/outlines.js does a plain
      `import RAW from "../data/outlines.json"`, which Vite handles and Node's
