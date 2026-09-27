@@ -100,6 +100,7 @@ ORDER = [
     "kosina.py",
     "abroad.py",
     "readingsdata.py",
+    "trovedata.py",
     "notelinks.py",
     "whoindex.py",
 ]

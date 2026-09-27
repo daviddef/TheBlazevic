@@ -1,0 +1,31 @@
+# Verified Trove newspaper hits. ONE LINE PER ARTICLE WHOSE FETCHED OCR WAS
+# READ AND CONTAINS THE NAME. Nothing goes in here off a search-result count:
+# Trove's search is fuzzy and reports thousands of matches that contain no such
+# name, so the totals live in sources/searched.json as context and the findings
+# live here.
+#
+# tools/trove.py enumerates and fetches; a human reads; this file is written by
+# hand from what was read. tools/trovedata.py turns it into site/src/data/trove.json
+# and the page counts the rows rather than being told a number.
+#
+# date|paper|page|surname|who|what|articleid
+1893-07-15|South Australian Register (Adelaide)|3|Zubrinich|J. Zubrinich|«866. J. Zubrinich» in a Land Board list of WORKING MEN'S BLOCKS. Nine years off the boat and he is allotted land|53618896
+1897-05-01|The Chronicle (Adelaide) · District Councils|3|Zubrinich|Zubrinich's|«tenders to be called for rubbling near ZUBRINICH'S, hundred Pirie» — the district council describes a stretch of road by his name|87694879
+1900-08-22|Port Pirie Recorder and North Western Mail|2|Zubrinich|J. Zubrinich|Charged under the EDUCATION ACT for a child not at school. «His daughter attended, and said the child had SANDY BLIGHT for 18 months.» Dismissed|95436069
+1901-09-09|Evening Journal (Adelaide) · Coursing|3|Zubrinich|J. Zubrinich|«Mr. J. Zubrinich's KAISER, a bye» in the Plumpton coursing card, two hundred kilometres from home|207955909
+1901-09-11|Evening Journal (Adelaide) · Plumpton|3|Zubrinich|J. Zubrinich|«Mr. J. Zubrinich's brindle and white dog KAISER, Mat—Venus, a bye. … Sly Witch beat Kaiser»|207956118
+1902-09-27|Port Pirie Recorder · Port Pirie Show|3|Zubrinich|J. Zubrinich|«greyhound dog, J Zubrinich, J Merritt, 5» — placed in a class of five|95246591
+1909-05-15|Port Pirie Recorder · Football|3|Zubrinich|L. and Len Zubrinich|«L. Zubrinich» in the side and «Len Zubrinich» among the emergencies — two of them|95469234
+1909-12-01|Port Pirie Recorder · B Grade cricket|4|Zubrinich|L. Zubrinich|«L. Zubrinich, b F. Brown, 0» for the Foundrys against the Baltics|95472488
+1910-01-08|Port Pirie Recorder · Police Court|3|Zubrinich|John William Zubrinich|«John William Zubrinich was charged with having assaulted Catherine Haycock at Port Pirie on January 6»|95237243
+1910-01-15|Port Pirie Recorder|3|Zubrinich|J. W. Zubrinich|The adjourned charge; «Mr. Barwell, who appeared for defendant, stated that the parties had…». THE OUTCOME IS IN NEITHER NOTICE|95237346
+1911-08-09|Port Pirie Recorder · «Port Pirie Pioneers. A REUNION.»|5|Zubrinich|J. Zubrinich|Named in the roll of pioneers at the reunion dinner|95324947
+1911-10-06|The Areas' Express (Booyoolee) · school sports|3|Zubrinich|L. Zubrinich|«Boys' under 10, Pick-a-back — … L Zubrinich and O Loftus»|207102095
+1922-09-30|Barrier Miner (Broken Hill, NSW)|1|Zubrinich|M. Zubrinich|Playing for SOLOMONTOWN against Norths at Broken Hill; «M. Zubrinich had a shot, but the leather went out»|45585156
+1922-10-02|Barrier Miner (Broken Hill, NSW)|4|Zubrinich|«Weedie» and M. Zubrinich|Solomontown's side lists «Weedie» Zubrinich and M. Zubrinich — A NICKNAME, which no register ever gives|45585271
+1922-10-13|Barrier Miner (Broken Hill, NSW) · Advertising|2|Zubrinich|L. J. Zubrinich|«Football Wind-up. Invitations stand good. L. J. Zubrinich, Secretary» — he runs the socials at Waverley Hall|45586195
+1922-10-18|Barrier Miner (Broken Hill, NSW) · Advertising|2|Zubrinich|L. J. Zubrinich|«Star Cricket Social at Waverley Hall … Waltzing competition. L. J. Zubrinich, Hon. Secretary»|45586590
+1922-04-04|The Recorder (Port Pirie)|3|Xubrinich|M. Zubrinich|Shift-workers' cricket averages — the OCR reads the Z as an X. SAME FAMILY, NOT A SPELLING|95401952
+1922-07-11|The Recorder (Port Pirie)|3|Xubrinich|Mr Zubrinich|«Mr. Xubrinich made an impartial Central umpire» at Jamestown v Crystal Brook|102720791
+1925-10-13|The Register (Adelaide) · Country News|15|Zubrinick|Mrs M. Zubrinich|«Mrs. M. ZubrinIck» and «Mrs. Zubrlnich» IN THE SAME PARAGRAPH — the proof that the variants are OCR|64236815
+1926-05-28|The Advertiser (Adelaide) · Port Pirie shipworkers|25|Zubrinick|Mick and Morris Zubrinich|«Best players — Mick and Morris Zubrinick» — two given names at last, not initials|74291828
