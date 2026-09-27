@@ -1,3 +1,22 @@
+"""SUPERSEDED, AND KEPT ONLY SO NOBODY WRITES IT AGAIN.
+
+This is the archive's own sitemap writer. The build has not called it since
+the kit took the job over: site/package.json runs
+    node_modules/@daviddef/archive-kit/kit/tools/sitemap.py
+which resolves its output through kit/tools/outdir.py and therefore honours
+ARCHIVE_OUT. THIS FILE DOES NOT. It computes site/dist and takes no argument,
+so running it while a sibling session holds site/dist writes a sitemap for
+somebody else's build - which is the exact fault that was found in this
+archive's searchindex.py and check_site.py on 27 September 2026.
+
+It is not deleted because the estate keeps what it replaced and says why.
+It refuses to run instead.
+"""
+import sys
+sys.exit("tools/sitemap.py is superseded by the kit's sitemap.py, which "
+         "honours ARCHIVE_OUT. Run: npm run sitemap")
+
+# ---- the original, unreachable, kept for the record ----
 #!/usr/bin/env python3
 """Write sitemap.xml and robots.txt from what was actually built.
 

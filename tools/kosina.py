@@ -156,6 +156,16 @@ HOUSEHOLD = [
      "TICKS MÄDCHEN. One child, not two, and the death register had her right for "
      "eleven years before the baptismal one was asked.",
      "daughter of Johann and Ursula"),
+    ("Lukas Kosina the elder", 1740,
+     "named as the father of two Kosina girls baptised 1773 and 1779",
+     "A KOSINA FATHERING CHILDREN IN THE 1770s, and the generation this page "
+     "has been short of. The 1603–1779 baptismal index gives «Kosina Gertrud "
+     "(Lukas)» in 1773 and «Kosina Helena (Lukas)» in 1779 — and the Lukas this "
+     "archive already has was three years old in 1773. An older man of the same "
+     "name, fathering children exactly when Matthäus (b. ~1774), Franz (1775–76) "
+     "and Lukas (b. ~1770) were born. A candidate for their father and nothing "
+     "more: no entry yet read gives his wife, his house or his village.",
+     "probably kin — not proved"),
     ("Ana Kozina", 1856,
      "born and baptised 25 July 1856 · Oberfeichting 9",
      "Johann and Ursula's second daughter. This archive carried her as «Ana 1856» "
