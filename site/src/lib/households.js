@@ -13,6 +13,7 @@
    A person with neither spouse nor child is not a household and is left
    to the list of everyone of the name. */
 import { people, surnameGroup } from "./people.js";
+import { displayName, alsoRecordedAs } from "./displayName.js";
 
 const BY_ID = new Map(people.map((p) => [p.id, p]));
 
@@ -32,18 +33,29 @@ export function householdsOf(keys, onSpine = new Set()) {
     const key = [p.id, sp ? sp.id : ""].sort().join("|");
     if (seen.has(key)) continue;
     seen.add(key);
+    /* ONE NAME IN THE HEADING, the recorded one underneath. The MyHeritage
+       display name carries every alternate spelling in one field, so the cards
+       read «Mate Mathias Mathæus Kalanj Matheus Matÿ Kalanj». The tree is not
+       to be edited; this is display only, and nothing is dropped — the full
+       form goes into the card's own note. See lib/displayName.js. */
+    const alsoHead = alsoRecordedAs(p.name);
+    const alsoSp = sp ? alsoRecordedAs(sp.name) : "";
+    const asRecorded = [alsoHead, alsoSp].filter(Boolean);
     out.push({
-      head: p.name,
+      head: displayName(p.name),
       headHref: p.slug ? `/people/${p.slug}/` : null,
-      spouse: sp ? sp.name : "",
+      spouse: sp ? displayName(sp.name) : "",
       spouseHref: sp && sp.slug ? `/people/${sp.slug}/` : null,
+      note: asRecorded.length
+        ? `the tree records ${asRecorded.map((x) => `«${x}»`).join(" and ")}`
+        : "",
       married: (sp && sp.married) || "",
       born: p.byear ? String(p.byear) : "",
       where: p.bornPlace || p.diedPlace || "",
       children: kids.map((c) => {
         const full = BY_ID.get(c.id) || {};
         return {
-          name: c.name,
+          name: displayName(c.name),
           href: c.slug ? `/people/${c.slug}/` : null,
           living: !!full.living,
           dates: [c.born, c.died].filter(Boolean).join("–") || "",

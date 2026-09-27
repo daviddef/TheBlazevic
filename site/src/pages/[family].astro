@@ -28,6 +28,14 @@ const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
    The builder is in lib/households.js because the families index wants the
    same count and this estate keeps paying for logic written twice. */
 const households = householdsOf(keys, new Set(line.map((g) => g.id)));
+/* HOW MANY OF THE CARDS ARE EMPTY, counted rather than asserted. The audit of
+   27 September found 126 childless "households" across the eight pages and 41
+   with no spouse; they are kept — a marriage with no baptisms found is still a
+   marriage — but the page now says how many there are, because a reader
+   scrolling past forty blank cards deserves to know they are looking at a gap
+   in the tree and not at forty barren couples. */
+const childless = households.filter((h) => !h.children.length).length;
+const soleParent = households.filter((h) => !h.spouse).length;
 
 /* AND EVERY PERSON OF THE NAME, drawn as the front page draws a generation.
    Asked for on 22 September: the family pages should use the same shape as
@@ -51,10 +59,18 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
     </div>
   </section>
 
+  {/* THE PROSE USED TO BE ONE PARAGRAPH PER SECTION, however long, because the
+      template wrapped it in a single <p>. Writers worked round that with <br><br>,
+      which is a paragraph break that carries none of the page's paragraph spacing
+      and none of its furniture. On 27 September 2026 the copy was migrated to real
+      <p> tags and this became a set:html on the block itself — so a family section
+      can now use what /kosina/ uses: an <h3> turn, a <blockquote class="note"> for
+      what a register actually says, a <div class="note"> for an aside and a
+      <div class="fix"> for a retraction. */}
   {copy.body.map(([h, html]) => (
     <section class="blk">
       <h2>{h}</h2>
-      <p set:html={html.replace(/href='\//g, `href='${u("/")}`.replace("//", "/"))} />
+      <div set:html={html.replace(/href='\//g, `href='${u("/")}`.replace("//", "/"))} />
     </section>
   ))}
 
@@ -74,8 +90,20 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
     <h2>The households</h2>
     <p class="dek">A couple and the children recorded under them — the shape the
     registers actually keep, as against the single child a pedigree keeps. Where a
-    child carried the Blažević line onward, the card says so.</p>
-    <Households rows={households} u={u} caveat={`These people are recorded as the
+    child carried the Blažević line onward, the card says so. <strong>Oldest
+    first</strong>, which is the only order a family has.</p>
+    {childless > 0 && (
+      <div class="note"><strong>{childless} of these {households.length} couples have
+        no child recorded under them</strong>{soleParent > 0 && <>, and <strong>{soleParent}</strong>{" "}
+        are a single parent with no spouse in the tree at all</>}.
+        <span style="display:block;margin-top:.6rem">That is worth saying rather than
+        hiding, because <strong>it is a fact about the family tree and not about the
+        family</strong>. A couple reaches this archive childless when they were
+        entered from one index hit and nobody went back for the baptisms — and the
+        children most often missing are the ones who died small, who are exactly the
+        children a register does record and an index does not.</span></div>
+    )}
+    <Households rows={households} u={u} sort="given" caveat={`These people are recorded as the
       children of these couples. It is not a claim that they lived under one roof,
       nor that any list is complete — infant deaths in particular go unrecorded in a
       tree built from indexes.`} />
@@ -92,7 +120,10 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
   </section>
 
   <section class="blk">
-    <h2>Everyone of the name</h2>
+    <h2>Every person of the name, with where they were born</h2>
+    <p class="dek">The same people as the section above, flat and sortable by eye —
+    kept because it is the only place on this page that prints a birthplace beside
+    every name.</p>
     <table class="reg">
       <thead><tr><th>Name</th><th>Lived</th><th>Born at</th></tr></thead>
       <tbody>{rows.map((p) => (
