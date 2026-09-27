@@ -21,3 +21,9 @@ site/dist-verify/
 # build output in `git status` is how a scoped `git add` picks up somebody
 # else's tree, which has happened once in this repo already.
 site/dist-*/
+
+# API KEYS ARE NEVER COMMITTED. This repository is PUBLIC and publishes to
+# GitHub Pages, so a key in a tracked file is a key on the open web within
+# two minutes. Keys live in sources/keys/, which is ignored entire; the work
+# list records WHAT an archive can now reach, never the credential.
+sources/keys/

@@ -59,6 +59,76 @@ const au = people.filter((p) => /Australia|Port Pirie|Broken Hill|Whyalla|Quorn|
   </section>
 
   <section class="blk">
+    <h2>And then the newspapers, which had them all along</h2>
+    <p class="lede">Everything above comes from <strong>indexes</strong>. On <strong>27 September
+    2026</strong> this archive was given a <strong>Trove</strong> key by the National Library of
+    Australia, and eleven verified articles turned a row of dates into a life.</p>
+
+    <table class="reg" style="margin-top:1rem">
+      <thead><tr><th style="width:15%">When</th><th style="width:28%">Where</th><th>What it says</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">15 Jul 1893</td><td class="dek">South Australian Register</td>
+          <td><strong>«866. J. Zubrinich»</strong> in a Land Board list of
+          <strong><em>working men's blocks</em></strong>. <strong>Nine years off the boat and he is
+          allotted land.</strong></td></tr>
+        <tr><td class="mono">1 May 1897</td><td class="dek">The Chronicle · District Councils</td>
+          <td><strong>«Tenders to be called for rubbling near <em>Zubrinich's</em>, hundred
+          Pirie»</strong> — <strong>his place is a landmark in the council minutes</strong>, the way
+          a road gets described by whose gate it passes.</td></tr>
+        <tr class="above"><td class="mono">22 Aug 1900</td><td class="dek">Port Pirie Recorder, p. 2</td>
+          <td><strong>J. Zubrinich</strong>, charged under the <strong>Education Act</strong> for a
+          child not at school. <strong>«His daughter attended, and said the child had sandy blight
+          for 18 months.»</strong> <em>Dismissed.</em></td></tr>
+        <tr><td class="mono">Sep 1901</td><td class="dek">Plumpton, Adelaide · three papers</td>
+          <td><strong>Mr. J. Zubrinich's brindle-and-white dog KAISER</strong>, by <em>Mat</em> out
+          of <em>Venus</em>, drew a bye and was beaten by Sly Witch. <strong>He races greyhounds,
+          two hundred kilometres from home.</strong></td></tr>
+        <tr><td class="mono">27 Sep 1902</td><td class="dek">Port Pirie Show</td>
+          <td><strong>Greyhound dog — J. Zubrinich</strong>, placed in a class of five.</td></tr>
+        <tr><td class="mono">15 May 1909</td><td class="dek">Port Pirie Recorder · football</td>
+          <td><strong>L. Zubrinich</strong> in the side, and <strong>Len Zubrinich</strong> among
+          the emergencies — <strong>two of them</strong>.</td></tr>
+        <tr><td class="mono">1 Dec 1909</td><td class="dek">B Grade cricket, Baltics v Foundrys</td>
+          <td><strong>L. Zubrinich, b F. Brown, 0.</strong></td></tr>
+        <tr class="above"><td class="mono">Jan 1910</td><td class="dek">Police Court, Port Pirie</td>
+          <td><strong>John William Zubrinich</strong> charged with assaulting Catherine Haycock on
+          6 January; adjourned a week, <strong>Mr Barwell appearing for him</strong>.
+          <strong>The outcome is not in either notice</strong> and this archive does not have it.</td></tr>
+        <tr><td class="mono">9 Aug 1911</td><td class="dek">«Port Pirie Pioneers. A REUNION.»</td>
+          <td><strong>J. Zubrinich</strong> named in the roll of pioneers.</td></tr>
+        <tr><td class="mono">6 Oct 1911</td><td class="dek">The Areas' Express · school sports</td>
+          <td><strong>L. Zubrinich</strong> in the boys' under-ten pick-a-back.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note" style="margin-top:1.2rem"><strong>Read the first three together.</strong>
+      A man lands about 1884 with nothing; by <strong>1893</strong> he holds a working man's block;
+      by <strong>1897</strong> the district council describes a stretch of road by his name; and in
+      <strong>1900</strong> he is in the dock because a child of his has had
+      <strong><em>sandy blight</em></strong> — trachoma, the eye disease of dust and flies — for
+      <strong>eighteen months</strong>, and a daughter speaks for the family in court.
+      <span style="display:block;margin-top:.6rem"><strong>By 1911 he is a pioneer at a reunion
+      dinner.</strong> That is twenty-seven years, and not one of those facts was in this archive
+      the day before.</span></div>
+
+    <div class="note" style="margin-top:1rem"><strong>How it was done, and what the numbers
+      mean.</strong> The Trove API <strong>enumerates</strong> — one request returns every candidate
+      across a continent and a century with its date, paper, page and a direct link — and with this
+      key it returns <strong>no article text at all</strong>. The OCR has to come from the free
+      public page. <strong>Both halves are needed and neither does the other's job.</strong>
+      <span style="display:block;margin-top:.6rem"><strong>And the search is fuzzy, so the total is
+      not a finding.</strong> Trove reports <strong>9,263</strong> newspaper hits for
+      <em>Zubrinich</em> and <strong>8,790</strong> in South Australia. Quoting does not restrict it,
+      and the national list opens with a Sydney advertising column of 1888 and a pony-race card of
+      1893 that <strong>contain no such name</strong> — Trove is matching OCR garble.
+      <span style="display:block;margin-top:.6rem"><strong>But the top of the list is good.</strong>
+      Taking South Australia oldest-first and fetching each page, <strong>36 of the first 40 really
+      do contain the string</strong>. So the tool prints the two numbers separately and never lets
+      the big one stand for the small one — and the table above is built only from articles whose
+      fetched text was read.</span></span></div>
+  </section>
+
+  <section class="blk">
     <h2>How this branch joins the family</h2>
     <p class="note"><strong>Not yet proved.</strong> Ivan Žubrinić of Port Pirie is
     <em>in the tree</em>, and he is of the right name, the right town and the right generation to be
