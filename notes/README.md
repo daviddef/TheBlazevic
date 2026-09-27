@@ -2,7 +2,7 @@
 
 **There is no `/notes/` route, and that is deliberate.** The site carries the
 **argument**; these files carry the **working**. A reader meets one only when a
-page cites it — `tools/notelinks.py` turns a bare `notes/x.md` in a page into a
+page cites it — `tools/notelinks.py` turns a bare `notes/` + filename in a page into a
 link to the file on GitHub.
 
 That design has one failure mode, and on **28 September 2026** this archive was
