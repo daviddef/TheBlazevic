@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 135,
+  "rows": 136,
   "people": 109,
   "derived": 70,
   "onDirectLine": 0,
@@ -16,7 +16,7 @@
   ],
   [
    "death",
-   19
+   20
   ],
   [
    "baptism-of-child",
@@ -262,6 +262,20 @@
    "indexOnly": false,
    "slug": "catherina-catta-luckinic",
    "name": "Catherina (Catta) Luckinić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1791",
+   "cite": "Karlobag, 10 September 1791 — \"Dominus Georgius Uroda\", BURIED IN HIS OWN CRYPT. Found by following the 1806 marriage that names a groom as «Joannis filii defuncti Dñi Georgij Uroda» into the register BEFORE the 1804-1861 book, whose own alphabetical index nobody here had opened. DOMINUS and a private crypt are not the words this archive expected of the Urode",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/uroda-1791.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-1791.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
    "ahn": null
   },
   {
@@ -3167,6 +3181,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "death",
+     "year": "1791",
+     "cite": "Karlobag, 10 September 1791 — \"Dominus Georgius Uroda\", BURIED IN HIS OWN CRYPT. Found by following the 1806 marriage that names a groom as «Joannis filii defuncti Dñi Georgij Uroda» into the register BEFORE the 1804-1861 book, whose own alphabetical index nobody here had opened. DOMINUS and a private crypt are not the words this archive expected of the Urode",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/uroda-1791.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-1791.md",
+     "indexOnly": false
+    },
+    {
      "kind": "marriage-of-child",
      "year": "1807",
      "cite": "named as the groom's late father, «defti Georgii Uroda», Karlobag 17 June 1807",
@@ -3200,7 +3225,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 2
   },
   "michaeli-michaele-gerkacs-gergacs": {

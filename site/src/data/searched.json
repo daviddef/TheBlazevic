@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 18,
-  "partial": 21,
+  "partial": 22,
   "pending": 6,
   "yield": 72
  },
@@ -853,7 +853,7 @@
     "holdings",
     "otocac"
    ],
-   "got": "**The catalogue will say exactly what a film holds.** `/service/search/catalog/item/koha:<NNNNNN>` returns **`source.film_note[]`**, one entry per digital film with `digital_film_no`, `items`, `text` and `fs_indexed`. For Otočac it gives DGS **5482657** as «**Rođeni 1846-1858 · Umrli 1834-1858**, Items 1–2». One call, authoritative.\n\n**And a first reading of the film got it wrong, which is the finding.** `…/search/film/005482657?i=N` reports **483 images**, and images 250, 330, 410 and 465 are all baptisms, with **END OF ROLL** at 483. The conclusion drawn was that the deaths were not on the film. **They are.** Those images are not Otočac — the waypoint changes partway through and the breadcrumb on the later ones reads «Croatia, Church Books › Roman Catholic › **Pakrac** › Births 1781-1823».\n\n**The Otočac book is 218 images**, under waypoint `9RK1-Y4C:391644801,391674001`, and its breadcrumb names **both** items. The deaths are there: image **100** is April **1835**, **165** is page 149 of **1849**, **200** is page 221 of **1855**. **The film number concatenates two parishes' books and nothing in the viewer says so** except a breadcrumb the film-number URL does not display.\n\n**Three films this week, the same root.** **005481648**, catalogued as the Karlobag 1691–1804 baptisms, has 596 images and image 216 headed «*Godine 1845*». **005497948** is 802 images and at least three books. And **005482657** is 218 images of Otočac followed by Pakrac.\n\n**So the rule, paid for three times:** the **catalogue** for what exists, the **waypoint** to land in the right book, the **record index** for an ARK where the parish is indexed — and **record the ARK**. An ARK resolves to exactly one image, permanently. A film number resolves to a walk that may leave the parish without telling you.",
+   "got": "**The catalogue will say exactly what a film holds.** `/service/search/catalog/item/koha:<NNNNNN>` returns **`source.film_note[]`**, one entry per digital film with `digital_film_no`, `items`, `text` and `fs_indexed`. For Otočac it gives DGS **5482657** as «**Rođeni 1846-1858 · Umrli 1834-1858**, Items 1–2». One call, authoritative.\n\n**And a first reading of the film got it wrong, which is the finding.** `…/search/film/005482657?i=N` reports **483 images**, and images 250, 330, 410 and 465 are all baptisms, with **END OF ROLL** at 483. The conclusion drawn was that the deaths were not on the film. **They are.** Those images are not Otočac — the waypoint changes partway through and the breadcrumb on the later ones reads «Croatia, Church Books › Roman Catholic › **Pakrac** › Births 1781-1823».\n\n**The Otočac book is 218 images**, under waypoint `9RK1-Y4C:391644801,391674001`, and its breadcrumb names **both** items. The deaths are there: image **100** is April **1835**, **165** is page 149 of **1849**, **200** is page 221 of **1855**. **The film number concatenates two parishes' books and nothing in the viewer says so** except a breadcrumb the film-number URL does not display.\n\n**Three films this week, the same root.** **005481648**, catalogued as the Karlobag 1691–1804 baptisms, has 596 images and image 216 headed «*Godine 1845*». **005497948** is 802 images and at least three books. And **005482657** is 218 images of Otočac followed by Pakrac.\n\n**So the rule, paid for three times:** the **catalogue** for what exists, the **waypoint** to land in the right book, the **record index** for an ARK where the parish is indexed — and **record the ARK**. An ARK resolves to exactly one image, permanently. A film number resolves to a walk that may leave the parish without telling you.\n\n**Written up in** `notes/familysearch-film-structure.md`: a film number does not reach everything the film holds, which cost one sitting before it was understood.",
    "missed": null,
    "ev": [
     [
@@ -1400,7 +1400,7 @@
     "rijeka",
     "krmpote"
    ],
-   "got": "**Juraj's baptism is not reachable, and the reason rewrote the holdings table.**\n\nTwo sittings took parish ranges from the collection **waypoints**. The **catalogue item** goes a level deeper and lists the contents of every film, volume by volume, with the **DGS number** that reopens it. The query term is **`q.keywords`** — `q.text`, `q.anyPlace` and `q.placeString` are all rejected by that service, which is very likely why no earlier sitting used it. Six calls produced **`sources/familysearch/holdings.psv`: 79 films, named.**\n\n**Krmpote is worse than recorded.** One film, one item: ***Rođeni 1879–1896* and nothing else.** Not 1815–1896. Juraj was born in the 1860s, so his baptism is not in this book and **there is no other Krmpote book**. The plan that called it «the reachable target» was working from a label.\n\n**Four parishes were missing from the table entirely** — **Bribir** (its own parish, previously filed here as a *village of Grižane*, with registers back to **1678**), **Sv. Juraj kod Senja** (1695–1868), **Jurjevo**, and **Trsat**.\n\n**And Rijeka, carried as «unknown — NOT CHECKED», is filmed 1590–1920** with alphabetical *Kazalo* indexes.",
+   "got": "**Juraj's baptism is not reachable, and the reason rewrote the holdings table.**\n\nTwo sittings took parish ranges from the collection **waypoints**. The **catalogue item** goes a level deeper and lists the contents of every film, volume by volume, with the **DGS number** that reopens it. The query term is **`q.keywords`** — `q.text`, `q.anyPlace` and `q.placeString` are all rejected by that service, which is very likely why no earlier sitting used it. Six calls produced **`sources/familysearch/holdings.psv`: 79 films, named.**\n\n**Krmpote is worse than recorded.** One film, one item: ***Rođeni 1879–1896* and nothing else.** Not 1815–1896. Juraj was born in the 1860s, so his baptism is not in this book and **there is no other Krmpote book**. The plan that called it «the reachable target» was working from a label.\n\n**Four parishes were missing from the table entirely** — **Bribir** (its own parish, previously filed here as a *village of Grižane*, with registers back to **1678**), **Sv. Juraj kod Senja** (1695–1868), **Jurjevo**, and **Trsat**.\n\n**And Rijeka, carried as «unknown — NOT CHECKED», is filmed 1590–1920** with alphabetical *Kazalo* indexes.\n\n**The catalogue as actually read is in** `notes/holdings-2026-09-14.md`, and the map of where else the records are is in `notes/parish-harvest-map.md` — compiled by opening every relevant waypoint in *Croatia, Church Books, 1516–1994* and reading its event ranges, because **a catalogue label is a claim and the film is the evidence**.",
    "ev": [
     [
      "/searched/",
@@ -1998,7 +1998,7 @@
     "marriages",
     "ahn 4"
    ],
-   "got": "**The whole year is read and he is not in it.** 1888 runs from image 214 to image 221 and holds **39 marriages**, entry 1 on 12 January to entry 39 on 15 November. No Blažević married a Žubrinić at Senj that year. No Blažević married anyone.\n\nThat matters because **ahnentafel 4 has no birth date and no death date at all** — his wife has 1867–1931 and all four children have dates — and a marriage entry gives a groom's age, his father and his village in one line.\n\nIf they married in 1888 they married elsewhere, and the obvious elsewhere is the bride's parish: **Otočac, whose marriage register on film stops in 1872.** Krmpote has no marriage register filmed at all, Novi Vinodolski's stop in 1859, Ledenice's in 1882. **Three routes to this man's dates now end at the same wall.**\n\nThree entries were worth carrying away regardless: *Vinko Antić × Julka Vukelić* on 21 June — two of this archive's surnames marrying each other at Senj — *Martin Kozina × Anjelika Boras* in January, and *Josip Draženović × Marija Jovanović of Otočac* in September.",
+   "got": "**The whole year is read and he is not in it.** 1888 runs from image 214 to image 221 and holds **39 marriages**, entry 1 on 12 January to entry 39 on 15 November. No Blažević married a Žubrinić at Senj that year. No Blažević married anyone.\n\nThat matters because **ahnentafel 4 has no birth date and no death date at all** — his wife has 1867–1931 and all four children have dates — and a marriage entry gives a groom's age, his father and his village in one line.\n\nIf they married in 1888 they married elsewhere, and the obvious elsewhere is the bride's parish: **Otočac, whose marriage register on film stops in 1872.** Krmpote has no marriage register filmed at all, Novi Vinodolski's stop in 1859, Ledenice's in 1882. **Three routes to this man's dates now end at the same wall.**\n\nThree entries were worth carrying away regardless: *Vinko Antić × Julka Vukelić* on 21 June — two of this archive's surnames marrying each other at Senj — *Martin Kozina × Anjelika Boras* in January, and *Josip Draženović × Marija Jovanović of Otočac* in September.\n\n**The whole of 1888 is written out in** `notes/senj-1888-marriages.md` — all thirty-nine marriages, with what each one rules out. The note exists because a negative this size is only worth anything if the next person can see exactly what was covered.",
    "ev": [
     [
      "/open-questions/",
@@ -2400,7 +2400,7 @@
     "Novi Vinodolski",
     "holdings"
    ],
-   "got": "**The label holds and the hand is the surprise.** The film target says 1650–1786 and the earliest leaves are **in Croatian, not Latin** — the glagolitic littoral's own practice, a century before the Latin registers this archive is used to.\n\n**One hundred and twenty events** from this family are reachable in the Novi Vinodolski books. Nobody has read a line of them.",
+   "got": "**The label holds and the hand is the surprise.** The film target says 1650–1786 and the earliest leaves are **in Croatian, not Latin** — the glagolitic littoral's own practice, a century before the Latin registers this archive is used to.\n\n**One hundred and twenty events** from this family are reachable in the Novi Vinodolski books. Nobody has read a line of them.\n\n**Written up in** `notes/novi-vinodolski-1650.md`, which records the rule this reading produced: **open the film before trusting the label**.",
    "ev": [
     [
      "/harvest/",
@@ -2420,7 +2420,7 @@
     "census",
     "by-names"
    ],
-   "got": "**Household lists in Croatian, at images ~100–140 of a 579-image film** — and **the by-names again, in 1738, in a parish a day's walk from the others.** The practice this archive documented across ten surnames between 1806 and 1885 is visibly older and wider than its evidence.\n\n**The Blaževići on this page are not claimed.** They are Blaževići at Grižane in 1738 and nothing yet joins them to this family.",
+   "got": "**Household lists in Croatian, at images ~100–140 of a 579-image film** — and **the by-names again, in 1738, in a parish a day's walk from the others.** The practice this archive documented across ten surnames between 1806 and 1885 is visibly older and wider than its evidence.\n\n**The Blaževići on this page are not claimed.** They are Blaževići at Grižane in 1738 and nothing yet joins them to this family.\n\n**Written up in** `notes/grizane-1738-census.md` — a household census a century older than Otočac's, and in Croatian rather than Latin.",
    "ev": [
     [
      "/by-names/",
@@ -2920,6 +2920,21 @@
     "web"
    ],
    "got": "**All 94 openings of this volume have now been read** — images 58–94 on 27 September and **images 1–57 on the 28th** — with the groom's and the bride's surname columns cropped from each and tiled five and six to a sheet.\n\n**ANTON 1834 AND PETRUS 1836 DO NOT MARRY IN THIS PARISH.** Johann's two sons by Lucia Labornik are not in the volume that covers their twenties and thirties. Neither is in any death register this archive has walked either, so **they left**, and that is now a walked negative across both books rather than an absence of looking.\n\n**But the volume held the entry this archive most wanted, five openings from the end.** Book page 54, **28 May 1873**:\n\n> **Ženin:** Zgornje Bitno **72** · **MARTIN BRENK**, *gost* · 48 · **vdovec**\n> **Nevesta:** Zgornje Bitno **9** · **URŠULA SEDEJ, po ranjcim možu KOZINA, POSESTNICA** · **46** · **vdova**\n> *Roditelja nevestina:* **ANDREJ SEDEJ, GRUNTAR NA NOVI OSLICI**, in **JERA ROJE**\n> *Roditelja ženinova:* Anton Brenk, *gruntar*, in Maria Ravnikar · *priči* Janez Bašar and Lorenc Brenk, both signing with a cross\n\n**Johann Kozina's widow, remarrying five years after he died — and the entry gives four things the archive had none of.** **Her age**: 46 in 1873, so born about **1826–27**. **Her parents**: **Andrej Sedej and Jera Roje**, a generation nobody had reached. **Where she came from**: her father is a *gruntar* **na Novi Oslici** — **Nova Oselica**, in the Poljane valley south-west of Škofja Loka, twenty-five kilometres away and **in another parish**. And **what she had become**: ***posestnica*** — a property owner — **at Zgornje Bitno 9**, the house Johann had held as a *Häubler*.\n\n**It also settles a contradiction this archive had flagged and could not explain.** At her daughter Mina's marriage in 1883 the bride is *«gruntarska hči»* and Janez Kozina *«gruntar»*, against every other record of a man who was a *kajžar* all his life. **Her father was a gruntar and she was a posestnica.** The household had risen, and the 1883 clerk wrote what it had become.\n\n**And it confirms an inference made the same day from a negative.** The 1816–1855 volume was walked for Johann's second marriage and gave nothing, from which this archive concluded *she came from outside the parish* — on the rule that a marriage is celebrated in the bride's. **The conclusion was right, and this entry names the place.**"
+  },
+  {
+   "src": "ARHiNET / Hrvatski državni arhiv — the register search that replaced it",
+   "key": "web/hda",
+   "url": "https://www.arhinet.arhiv.hr/",
+   "what": "Croatian state archive holdings for every parish this family touches — run comprehensively at the account holder's instruction",
+   "when": "15 September 2026",
+   "outcome": "partial",
+   "tags": [
+    "croatia",
+    "archives",
+    "web",
+    "method"
+   ],
+   "got": "**ARHiNET is gone**, and what replaced it is a different search with different rules. The full account — what the old system did, what the new register search does, how to address it, and what it holds for these parishes — is in `notes/arhinet-and-the-hda-register-search.md`, which at **4,769 words** is the longest working paper in this archive.\n\n**It was recorded in that note and nowhere else until 28 September 2026**, when a gate found that seventeen notes were reachable from no page of this site. This row exists so that the search itself is in the register beside every other source, rather than only the writing-up of it."
   }
  ]
 }
