@@ -89,13 +89,26 @@ SETTLED = {
         "away, with different surnames and different parents; the resemblance is "
         "a given name and a year",
 
-    "Marija Kozina":
-        "known only as a mother — «Marije roj. Kozina», wife of Kancijan Česen at "
-        "Stražišče 84 in Carniola. THE 1892 ON HER ROW IS HER CHILD'S DEATH, not "
-        "her birth: she will have been born around 1860-70. The candidates are "
-        "Croatian girls BORN in 1892-93 — Marija Kalanj, Marija Boras and the "
-        "rest — so they are a generation out as well as four hundred kilometres "
-        "away, and share nothing but a given name",
+    "Franciška Kozina, married Kert":
+        "THE DATE ON HER ROW IS HER MARRIAGE, not her birth: she married "
+        "Ignacij Kert at Kranj–Šmartin in 1897 on her father's consent as an "
+        "under-age bride, so she was born after about 1873. The candidate is a "
+        "Croatian child born in 1896, four hundred kilometres away, who would "
+        "have been one year old",
+
+    "Marija Kozina, married Žiherl":
+        "THE DATE ON HER ROW IS HER MARRIAGE, not her birth: she married Anton "
+        "Žiherl at Kranj–Šmartin in 1898, daughter of Urban Kozina, kmet. The "
+        "candidates are Croatian children born in 1897–98, four hundred "
+        "kilometres away, who would have been infants at her wedding",
+
+    "Marija \"Mina\" Kozina":
+        "married Kancijan Česen at Stražišče in 1883, and her marriage entry "
+        "gives her birthplace as Zgornje Bitnje no. 9 and her parents as Janez "
+        "Kozina and Urša Sedej — so she is Johann Kozina's youngest daughter, "
+        "baptised there 7 August 1859. THE DATE ON HER ROW IS HER MARRIAGE. The "
+        "candidates are Croatian girls born in 1892-93, four hundred kilometres "
+        "away, sharing nothing but a given name",
 
     "Maria Kosinar":
         "baptised at Kranj-Šmartin on 8 August 1815 and BURIED THERE ON 31 "

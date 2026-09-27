@@ -18,7 +18,14 @@ import json, re, os, sys, glob, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
-DIST = os.path.join(ROOT, "site", "dist")
+# ARCHIVE_OUT IS WHERE THIS SESSION'S BUILD ACTUALLY WENT. astro.config.mjs has
+# honoured it since 26 September, so that sibling sessions sharing this working
+# tree do not overwrite one another's dist. This file did not, and on 27
+# September that was caught the hard way: a slug was renamed, the page was
+# rebuilt under the new name in dist-<name>, and this tool went on reading a
+# SIBLING'S site/dist and reporting on their build. A gate that reads the wrong
+# directory is worse than no gate, because it passes.
+DIST = os.path.join(ROOT, "site", os.environ.get("ARCHIVE_OUT") or "dist")
 
 
 def load(name):

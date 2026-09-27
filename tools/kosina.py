@@ -165,12 +165,17 @@ HOUSEHOLD = [
      "known of her after 1870.",
      "daughter of Johann and Ursula"),
     ("Maria Kozina of 1859", 1859,
-     "born and baptised 7 August 1859 · Oberfeichting 9",
-     "Johann and Ursula's youngest, and the sixth Kozina baptism in a volume "
-     "this archive had counted five in. Found by reading the whole K section of the "
-     "index to settle that count, not by looking for her. She was nine when her "
-     "father died and she is not in the death register the archive has walked, so "
-     "she was alive in 1870; nothing else is known of her.",
+     "born and baptised 7 August 1859 · Oberfeichting 9 · m. Kancijan Česen, "
+     "summer 1883, at Stražišče",
+     "Johann and Ursula's youngest, and the sixth Kozina baptism in a volume this "
+     "archive had counted five in — found by reading the whole K section of the "
+     "index to settle that count, not by looking for her. HER MARRIAGE, FOUND THE "
+     "SAME DAY, joins two rows of this file into one person: the entry gives her "
+     "as «rojena v Zgornjem Bitnju št. 9», daughter of «Janez Kozina, gruntar, in "
+     "Urša Sedej», living at the railway station at Podnart and twenty-three years "
+     "old. She is the Marija Kozina this archive carried as UNPLACED — the only "
+     "Kozina woman it found in twenty-five years of the 1890–1911 deaths, known "
+     "there only as the mother of two children who died at Stražišče 84.",
      "daughter of Johann and Ursula"),
     ("Joseph Kosina", 1841,
      "d. 27 March 1843, aged two, of Halsentzündung · Oberfeichting 9",
