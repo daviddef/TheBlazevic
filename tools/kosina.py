@@ -95,6 +95,17 @@ CARNIOLAN = [
      "only person on this page with a birth and a death both read at the page. "
      "Twenty-seven when she bore him, unmarried then and unmarried at the end, and "
      "she died in the house she bore him in, thirteen days short of sixty-six."),
+    ("Ursula \"Uršula\" Sedej", 1826,
+     "b. about 1826–27 · m. Johann 1853 (by inference) · widowed 1868 · m. Martin "
+     "Brenk 28 May 1873, aged 46",
+     "Johann's SECOND WIFE — Martin's aunt by marriage only, and the woman who "
+     "outlived the house's own name for what she was. She bore Franziska, Ana and "
+     "Maria there; when Johann died a Häubler in 1868, SHE HELD THE HOUSE, and by "
+     "her second marriage in 1873 the register calls her POSESTNICA — an owner. "
+     "Her parents, Andrej Sedej and Jera Roje, were farming people from Nova "
+     "Oselica in the Poljane valley, twenty-five kilometres off and in another "
+     "parish; neither her baptism nor her first marriage has yet been found "
+     "there."),
 ]
 
 
