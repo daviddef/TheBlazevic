@@ -1,12 +1,13 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 95,
+ "count": 99,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
+  "Holy Trinity, North Terrace, Adelaide": 1,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Nova Oselica, Poljane valley": 3,
@@ -17,11 +18,14 @@
   "Oberfeichting bei St. Ursula 9, župnija Kranj-Šmartin": 1,
   "Otocac": 1,
   "Otočac": 3,
+  "Pirie West, South Australia": 1,
   "Prozor, Otočac": 2,
   "Selce": 2,
   "Senj": 5,
+  "Solomontown, South Australia": 1,
   "Stražišče 84, župnija Kranj-Šmartin": 1,
   "Stražišče, župnija Kranj-Šmartin": 1,
+  "Whyalla Methodist Church, South Australia": 1,
   "Zgornje Bitnje (Oberfeichting) 9, župnija Kranj-Šmartin": 2,
   "Zgornje Bitno 9, župnija Kranj-Šmartin": 1,
   "baptised at house 27, died at Breg 12, župnija Kranj-Šmartin": 1,
@@ -981,6 +985,46 @@
    "place": "Oberfeichting (Zgornje Bitnje) 9, župnija Kranj-Šmartin",
    "citation": "Krstna knjiga Kranj-Šmartin 1832-1870 book p.159 - \"August 7. · 7. · Oberfeichting · 9 · MARIA · katholisch · Mädchen · ehelich · Vater: JOHANN KOZINA, Hüblar · Mutter: URSULA SEDEJ · Paten Urbas Verčič and Marianna Berčič\". BORN AND BAPTISED THE SAME DAY, 7 AUGUST 1859, at Oberfeichting 9 - Johann’s house, the house his father held before him and his nephew Martin was born in. She is Johann’s sixth known child and the third by Ursula Sedej, after Franziska 1853 and Ana 1856. HOW SHE WAS FOUND: not by looking for her. On 27 September 2026 the K section of the baptismal index for 1832-1870 was read end to end to settle a count, and she is entry 262 - \"Maria Kozina - 159\" - a name the archive had never carried. The count of FIVE Kozina baptisms in that volume was short by her. HER FATHER WAS SIXTY-ONE when she was born on this book’s own arithmetic - he died in 1868 aged 64 - so she was nine when she lost him, and her sister Franziska had died of measles in that house when she was four. WHAT IS NOT KNOWN is what became of her: she is not in the 1836-1869 death register, which this archive walked in full, so she was alive in 1870. AND WHAT BECAME OF HER IS NOW KNOWN, on the same day she was found. She married KANCIJAN ČESEN, a cottager’s son of STRAŽIŠČE 120, in the summer of 1883, aged 23 - and the marriage entry gives her residence as the RAILWAY STATION AT PODNART and her birthplace as \"rojena v Zgornjem Bitnju št. 9\", with her parents as JANEZ KOZINA, gruntar, and URŠA SEDEJ. SHE IS THEREFORE THE SAME WOMAN as the \"Marija Kozina\" this file carried as UNPLACED for six days - the only Kozina woman the archive found in twenty-five years of the 1890-1911 death register, known there only as the mother of two children who died at Stražišče 84 in 1892 and 1893. The two rows are one person and both now say so. Matricula, NSAL sig. 00886 image 160, sig. 04632 image 247, sig. 03919 image 15",
    "slug": "maria-kozina-of-1859"
+  },
+  {
+   "name": "Leonard John Zubrinich",
+   "ahn": null,
+   "relation": "infant son of Michael Valentine Zubrinić and Minnie Doris, not in the tree",
+   "event": "death",
+   "date": "23 May 1919",
+   "place": "Pirie West, South Australia",
+   "citation": "The Recorder (Port Pirie) 24 May 1919, Family Notices - \"ZUBRINICH. On the 23rd of May at the residence of his grandparents, 10th street, Pirie West, LEONARD JOHN, dearly loved infant son of M. and M. V. ZUBRINICH, AGED 5 WEEKS.\" So born about mid-April 1919. MICHAEL VALENTINE ZUBRINIĆ (1899-1985) is in this tree with no spouse and no children recorded; this infant and his mother are neither. Found by walking Trove's Family Notices category for Zubrinich in South Australia, 27-28 September 2026. Trove nla.news-article95415266",
+   "slug": "leonard-john-zubrinich"
+  },
+  {
+   "name": "Minnie Doris",
+   "ahn": null,
+   "relation": "wife of Michael Valentine Zubrinić - not in the tree",
+   "event": "marriage and death",
+   "date": "by 1919; died 9 December 1932",
+   "place": "Solomontown, South Australia",
+   "citation": "The Recorder (Port Pirie) 12 December 1932, Family Notices - \"ZUBRINICH. At Solomontown, on December 9, MINNIE DORIS, dearly beloved WIFE OF MICHAEL V. ZUBRINICH, aged 35 years. At Rest.\" Born about 1897. She and Michael had already lost an infant son, Leonard John, in 1919 - thirteen years before her own death at thirty-five. No maiden name given in this notice; not yet searched for. Trove nla.news-article96018781",
+   "slug": "minnie-doris"
+  },
+  {
+   "name": "Irene Dorothy Patten",
+   "ahn": null,
+   "relation": "wife of John Stephen Zubrinich - not in the tree",
+   "event": "marriage",
+   "date": "26 May 1928",
+   "place": "Whyalla Methodist Church, South Australia",
+   "citation": "The Recorder (Port Pirie) 7 June 1928, Family Notices, Wedding - \"ZUBRINICH – PATTEN. On May 26, in the Whyalla Methodist Church, by the Rev Howlings, JOHN STEPHEN, eldest son of Mr. and Mrs J. Zubrinich, of Solomontown, to IRENE DOROTHY, eldest daughter of Mr and Mrs F. Patten, Whyalla.\" JOHN STEPHEN ZUBRINICH (1907-1999) is in this tree with no spouse recorded. Her father is \"Mr F. Patten\" of Whyalla; not otherwise identified. Trove nla.news-article95785107",
+   "slug": "irene-dorothy-patten"
+  },
+  {
+   "name": "Asta Louise Hudson",
+   "ahn": null,
+   "relation": "wife of Leonard Francis Zubrinich - not in the tree",
+   "event": "marriage",
+   "date": "23 May 1936",
+   "place": "Holy Trinity, North Terrace, Adelaide",
+   "citation": "The Chronicle (Adelaide) 21 May 1936, Family Notices - \"HUDSON – ZUBRINICH. The marriage of ASTA LOUISE, only daughter of Mr. and Mrs. S. Hudson, of Bowden, to LEONARD FRANCIS, second son of Mr. and Mrs. J. Zubrinich, of Port Pirie, will be solemnised at Holy Trinity, North terrace, on May 23rd.\" LEONARD FRANCIS ZUBRINICH (1908-1981) is in this tree with no spouse recorded. The engagement was announced 31 December 1932 (The Advertiser); the marriage itself was more than three years later. Their son DARYL FRANCIS was born 10 June 1939 at Glenelg Private Hospital - The Advertiser 12 June 1939 names the mother \"nee Asta Hudson\", confirming the marriage held. Trove nla.news-article92339824, nla.news-article35189088, nla.news-article49811426",
+   "slug": "asta-louise-hudson"
   }
  ]
 }
