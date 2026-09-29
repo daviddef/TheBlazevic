@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 117,
+ "count": 120,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 7,
+  "Brinje, Croatia": 10,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1212,6 +1212,36 @@
    "place": "Križ Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 661, entry no. 9 - \"BORIĆ MILE\", bachelor, 26, of Križ Kamenica house 12, son of BORIĆ MILE and Stoja, married Mesić Mande, spinster, 18, of Brinje-Kamenica house 12. A witness on the same entry may also be a Perković, not confidently read. NOT IN THE TREE. The father is entered under the identical name, Mile Borić — read as written rather than corrected, since a shared name across a generation is exactly the pattern already seen with Niko Borić and Ive Borić elsewhere in this file. An eighth named Borić man, at a fourth Brinje-area house number.",
    "slug": "mile-boric"
+  },
+  {
+   "name": "Juraj Borić",
+   "ahn": null,
+   "relation": "son of Tome Borić and Jela, both of Brinje house 141 - not in the tree",
+   "event": "baptism",
+   "date": "3 February 1888",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 12, entry no. 11 - \"BORIĆ JURAJ\", male, born 3 February 1888 and baptised the next day, of Brinje house 141, son of BORIĆ TOME and BORIĆ JELA - the mother's own maiden surname is also entered as Borić, meaning this is a Borić man married to a Borić woman. Godparents Benić Juraj and Mrčić Manda. NOT IN THE TREE. A tenth and eleventh Borić name (Tome the father, Juraj the son) at a fifth Brinje-area house (141), and the first sign that the surname intermarried with itself at Brinje - worth watching for as the rest of this register is read, since a Borić-Borić marriage this early may be the root the later Borić households (Kamenica, Križ Kamenica, Brinje 126 and 142) all come down from.",
+   "slug": "juraj-boric"
+  },
+  {
+   "name": "Ane Kalanj",
+   "ahn": null,
+   "relation": "wife of Grgo Dražičević, of Brinje - not in the tree",
+   "event": "birth of a child",
+   "date": "13 February 1888",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 13, entry no. 15 - the birth of \"DRAŽIČEVIĆ JURAJ\", male, of Brinje house 196, names his mother's maiden surname as \"KALANJ ANE\". NOT IN THE TREE. The first Kalanj WOMAN this archive has found at Brinje, married out of the surname into the Dražičević family - one of the most frequently recorded surnames throughout this register. Not yet linked to Niko, Juro or Mijo Kalanj (this file), the three Kalanj men already found in the marriage volume, but a fourth branch of the surname at Brinje regardless.",
+   "slug": "ane-kalanj"
+  },
+  {
+   "name": "Ane Kalanj, wife of Krmarić Viol",
+   "ahn": null,
+   "relation": "wife of Viol Krmarić, of Brinje - not in the tree",
+   "event": "birth of a child",
+   "date": "28 April 1888",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 18 - the birth of \"KRMARIĆ MARIJA\", female, names her mother's maiden surname as \"KALANJ ANE\". NOT IN THE TREE. A SECOND WOMAN NAMED ANE KALANJ, KEPT SEPARATE FROM THE FIRST ON PURPOSE: this archive already holds an Ane Kalanj who married Grgo Dražičević and had a son Juraj on 13 February 1888 (this file, image 13) - only weeks before this birth. Whether this is the same woman recorded with a different husband by clerical error, two sisters both named Ana, or simply two unrelated Kalanj women sharing the parish's most common given name is not established and not guessed at. Both entries are kept as written.",
+   "slug": "ane-kalanj-wife-of-krmaric-viol"
   }
  ]
 }
