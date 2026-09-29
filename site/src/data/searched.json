@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 18,
-  "partial": 24,
+  "partial": 25,
   "pending": 6,
   "yield": 72
  },
@@ -2965,6 +2965,23 @@
     "papic"
    ],
    "got": "**A Papić plaque in a cemetery this archive has never surveyed, and a first read done entirely in the field.** David sent a phone photograph of a plaque reading «OBITELJI PAPIĆ» on a family monument in Klenovica belonging to the STIPANIĆ family — whether that placement marks a Papić who married into the Stipanić family, or two plots that simply share a wall, is not established. The photograph itself was too low-resolution for this archive to read the carved digits; what got read came from David standing in front of the stone and reading the worn digits by eye, then relaying them here, which is a different kind of evidence from this archive's own crop-and-enlarge practice at Otočac and Senj and is graded accordingly — recorded as **`sources/graves/klenovica-2026-09-29.psv`**, this archive's third photographed cemetery survey and its first single-plaque one.\n\n**Three names, none matched.** **Milka Papić** — died **1922**, born either **1822 or 1870** (the two readings not distinguished on site); **Nikola Papić** — born **1868**, died **1942**; **[A]ntonija Papić** — first letter of the given name worn, read as Antonija — born **1882**, died **1956**. Checked against both `people.json` and `found.psv`: no match on any of the three, and **no Papić in this tree is tied to Klenovica at all**. The one existing Papić cemetery record this archive holds is a different Milka Papić — ahnentafel 3, 1886–1971, carved under her married name at Senj (`sources/graves/senj-2024-10-09.psv`) — whose years do not overlap this one's under any reading. Same surname, same given name once, not the same woman, and Klenovica is a new place for the surname rather than a new fact about a line already held.\n\n**What is not established, stated plainly:** any relationship between Milka, Nikola and Antonija — siblings, a couple and a sibling, parent and children, all remain open; any connection to this archive's Senj-attested Papić line; and Milka's actual birth year. A closer photograph, or a second on-site look with raking light across the worn digits, would settle more of it than anything remote can."
+  },
+  {
+   "src": "FamilySearch — Brinje marriages 1888–1899, the first pass at the register this page has been asking for since 15 September",
+   "key": "fs/brinje-vjencani",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-9QTJ?cc=2040054&wc=9R26-82S",
+   "waypoint": "9R26-82S",
+   "what": "Every marriage entry, watching for Kalanj, Perković or Borić as either party, a parent, or a witness",
+   "when": "29 September 2026",
+   "outcome": "partial",
+   "pages": "493-511",
+   "tags": [
+    "kalanj",
+    "brinje",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**Opened at last.** DGS 005498262, Brinje's *Matična knjiga vjenčanih 1888–1899* — catalogued on 15 September, never actually read until today, and the single largest gap the `/kalanj/` page names in its own words. The book itself confirms the parish: its own title card, filmed via the Državni arhiv u Karlovcu, reads «ŽUPA: BRINJE».\n\n**Read: images 493 to 511 of 693** — the start of the book, entries roughly No. 1 through the mid-30s, spanning 1888 into 1889. Two images (509, 512) loaded too small or too incompletely tiled to read with confidence and want a second pass rather than a guess.\n\n**One Perković, so far — a witness, not a party.** Entry No. 7, **12 April 1888**: the groom is **Grgo Božičić**, a widower of Brinje-Križpolje; his witnesses are entered **Krznarić Luka** and **Perković Mate**. That is a live Perković in Brinje in 1888, independent of anything this archive already believed — the first direct confirmation from the register itself rather than from the emigration records that sent this archive here. No Kalanj and no Borić in this stretch, as either party, parent, or witness.\n\n**What is not yet answered:** the Kalanj × Perković marriage the Gospić letter asks about, and Josephus Kalanj and Rozalija Perković's own place in this book, if they appear in it at all — an 1864 baptism means their own marriage very likely predates 1888 and this book entirely. **664 pages of this film remain unread**: images 512–roughly 620ish still carry the rest of the marriage book (into 1899), and images 1–492 hold the Rođeni (births) volumes 1888–1900, which is where a Kalanj or Perković baptism, or a Perković appearing as a godparent, is actually likely to surface. DGS 005498263 (Umrli/deaths, 1888–1899) has not been opened at all."
   }
  ]
 }
