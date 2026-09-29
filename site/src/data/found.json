@@ -1,14 +1,16 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 103,
+ "count": 105,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
+  "Brinje, Croatia": 1,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
+  "Kamenica, Brinje parish, Croatia": 1,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Nova Oselica, Poljane valley": 3,
@@ -1068,6 +1070,26 @@
    "place": "Sacred Heart Cathedral, Broken Hill, New South Wales",
    "citation": "Barrier Miner (Broken Hill) 26 April 1947, Family Notices - \"ZUBRINICH — McAVANEY. The engagement is announced of IRENE DAWN, youngest daughter of Mr. and Mrs. L. J. Zubrinich, of 178 Murton Street, to EDWARD JOHN (Jack), only son of Mr. and Mrs. Herb McAvaney\". The marriage notice of 10 March 1948 gives the venue. A son, JOHN REX McAVANEY, was born 21 July 1949 at the B.H. and District Hospital - \"Mrs. McAvaney was formerly Miss Dawn Zubrinich\" - confirming the marriage held. Trove nla.news-article48495417, nla.news-article141690592, nla.news-article48609250",
    "slug": "irene-dawn-zubrinich-married-mcavaney"
+  },
+  {
+   "name": "Niko Kalanj",
+   "ahn": null,
+   "relation": "son of Juro Kalanj and Ana, of Brinje house 231 - not in the tree",
+   "event": "marriage",
+   "date": "16 [month illegible] 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 530, entry no. 13 - \"KALANJ NIKO\", bachelor, 40, of Brinje house 231, son of KALANJ JURO and ANA, married a widow recorded as MARIJA (surname read as \"Vučić\" or similar, not certain), 33, of Brinje house 198. Witnesses Zoričić Stjepan and Rimenović Tomo; officiated by the parish priest, signed \"Šrobi Šimun\". NOT IN THE TREE, AND NOT THE SAME GENERATION AS ANYONE PUBLISHED: the tree's Klenovica Kalanji begin on the coast with Petrus Kalanj and Magdalena Butković at house 22, born from the 1830s on. Niko, born about 1850, and his father JURO KALANJ, born perhaps the 1810s-1820s, are the first Kalanj men this archive has found actually resident at Brinje itself, independent of the bare parish name in the 1864 Klenovica baptism that first sent this archive looking. Whether Juro's family is an earlier generation of the same Klenovica line, or a separate Brinje branch, is not established.",
+   "slug": "niko-kalanj"
+  },
+  {
+   "name": "Vid Borić",
+   "ahn": null,
+   "relation": "son of Luka Borić, of Kamenica (a hamlet of Brinje parish) - not in the tree",
+   "event": "marriage",
+   "date": "27 [month illegible] 1890",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 530, entry no. 13 (facing page) - \"BORIĆ ___\", recorded here as \"Vid\" though the given name is genuinely hard to read and this is a best guess, not a confident transcription; widower(?), 25, of Kamenica house 17, son of BORIĆ LUKA, married a woman recorded as (Š)orić Kate, 20, of Brinje house 127. A second witness on the same entry is BORIĆ JOZO. NOT IN THE TREE: this archive's /kalanj/ page already names a Jure Borić of Brinje, from the 1910 Stipe Kalanj emigration papers, whose daughter Ana Borić married into the Papić family - this entry is the first independent confirmation from the parish register itself that Borić is a real, resident surname at Kamenica, with at least three men attested in 1890 (Luka, this groom, and Jozo). Whether any of them is kin to the Jure Borić already named on this archive's own page is not established.",
+   "slug": "vid-boric"
   }
  ]
 }
