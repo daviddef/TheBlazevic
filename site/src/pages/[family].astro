@@ -2,9 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
-import { people, lifespan, surnameGroup } from "../lib/people.js";
 import { COPY } from "../lib/familyCopy.js";
-import Households from "@daviddef/archive-kit/components/Households.astro";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { householdsOf, descentOf } from "../lib/households.js";
 import FOUND from "../data/found.json";
@@ -18,22 +16,23 @@ const meta = families.find((f) => f.slug === family);
 const copy = COPY[family];
 // Perpic folds into Prpic, as everywhere else here; every other family is itself.
 const keys = { prpic: ["prpic", "perpic"] }[family] || [family];
-const rows = people.filter((p) => keys.includes(surnameGroup(p.surname)))
-  .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
 
-/* THE FAMILY PAGES HAD NO TREE. Nine surnames, a page each, and every
-   one was prose followed by a flat list called "Everyone of the name" — so
-   a reader could see that this archive holds 116 Papići and not one couple
-   among them, nor which child of which couple the line came down through.
-   The builder is in lib/households.js because the families index wants the
-   same count and this estate keeps paying for logic written twice. */
+/* THREE SECTIONS BECAME ONE ON 29 SEPTEMBER 2026. This page used to draw
+   "The households" (couples, chip children), "Everyone of the name,
+   generation by generation" (the Descent tree) and a flat "Every person of
+   the name" table with a birthplace column, in that order — three renderings
+   of nearly the same people. Asked directly why a reader would see the same
+   couples three times, checking rather than assuming found that `descentOf`
+   below is already a strict superset of both: it includes everyone the
+   households builder excludes (anyone with neither spouse nor child, and
+   every found.psv register-only person the flat table never listed at all),
+   and it already prints a birthplace beside every name via `dsc-place` — the
+   flat table's own claim to be "the only place on this page that prints a
+   birthplace" was false the day the Descent section shipped. Only the
+   households builder's *count* of empty/single-parent couples was worth
+   keeping, so it stays, feeding the one honesty note below; the cards and
+   the flat table do not. */
 const households = householdsOf(keys, new Set(line.map((g) => g.id)));
-/* HOW MANY OF THE CARDS ARE EMPTY, counted rather than asserted. The audit of
-   27 September found 126 childless "households" across the eight pages and 41
-   with no spouse; they are kept — a marriage with no baptisms found is still a
-   marriage — but the page now says how many there are, because a reader
-   scrolling past forty blank cards deserves to know they are looking at a gap
-   in the tree and not at forty barren couples. */
 const childless = households.filter((h) => !h.children.length).length;
 const soleParent = households.filter((h) => !h.spouse).length;
 
@@ -87,13 +86,16 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
   </section>
 
   <section class="blk">
-    <h2>The households</h2>
-    <p class="dek">A couple and the children recorded under them — the shape the
-    registers actually keep, as against the single child a pedigree keeps. Where a
-    child carried the Blažević line onward, the card says so. <strong>Oldest
-    first</strong>, which is the only order a family has.</p>
+    <h2>Everyone of the name</h2>
+    <p class="dek">All <strong>{everyone.length}</strong> people this archive holds of the name,
+    oldest first, in the shape the front page uses — the couple in two columns with a birthplace
+    beside each name, the children beneath them, brothers and sisters under whichever of the two
+    they belong to. <strong>Oldest first</strong>, which is the only order a family has, and
+    everything is shut until you open it. The rows marked <em>parish register</em> are people read
+    off a page that the family tree has never had; they are not less proved, they are just not
+    typed in.</p>
     {childless > 0 && (
-      <div class="note"><strong>{childless} of these {households.length} couples have
+      <div class="note"><strong>{childless} of the {households.length} married couples here have
         no child recorded under them</strong>{soleParent > 0 && <>, and <strong>{soleParent}</strong>{" "}
         are a single parent with no spouse in the tree at all</>}.
         <span style="display:block;margin-top:.6rem">That is worth saying rather than
@@ -103,33 +105,6 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
         children most often missing are the ones who died small, who are exactly the
         children a register does record and an index does not.</span></div>
     )}
-    <Households rows={households} u={u} sort="given" caveat={`These people are recorded as the
-      children of these couples. It is not a claim that they lived under one roof,
-      nor that any list is complete — infant deaths in particular go unrecorded in a
-      tree built from indexes.`} />
-  </section>
-
-  <section class="blk">
-    <h2>Everyone of the name, generation by generation</h2>
-    <p class="dek">All <strong>{everyone.length}</strong> people this archive holds of the name,
-    oldest first, in the shape the front page uses — the couple in two columns, the children
-    beneath them, brothers and sisters under whichever of the two they belong to. Everything is
-    shut until you open it. The rows marked <em>parish register</em> are people read off a page
-    that the family tree has never had; they are not less proved, they are just not typed in.</p>
     <Descent rows={everyone} u={u} archiveKey="blazevic" families={familyDoors} />
-  </section>
-
-  <section class="blk">
-    <h2>Every person of the name, with where they were born</h2>
-    <p class="dek">The same people as the section above, flat and sortable by eye —
-    kept because it is the only place on this page that prints a birthplace beside
-    every name.</p>
-    <table class="reg">
-      <thead><tr><th>Name</th><th>Lived</th><th>Born at</th></tr></thead>
-      <tbody>{rows.map((p) => (
-        <tr><td><a href={u(`/people/${p.slug}/`)}>{p.name}</a>{p.ancestor &&
-          <span class="tag">ancestor</span>}</td>
-          <td class="mono">{lifespan(p)}</td><td class="dim">{p.bornPlace || ""}</td></tr>))}</tbody>
-    </table>
   </section>
 </Base>
