@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 123,
+ "count": 126,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 13,
+  "Brinje, Croatia": 16,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1272,6 +1272,36 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 106, entry no. 87 - \"BORIĆ IVO\", male, of Brinje house 191, son of BORIĆ IVAN and a mother entered under the same surname, BORIĆ. Witnesses Rekić Roko and a second name not confidently read. NOT IN THE TREE. A SECOND Borić-marries-Borić household, distinct from the one already in this file at house 141 (Tome Borić and Jela Borić) - two different Brinje houses where the surname intermarried with itself, which is starting to look less like an isolated event and more like a real feature of how this surname sits in the parish.",
    "slug": "ivo-boric"
+  },
+  {
+   "name": "Petar Borić",
+   "ahn": null,
+   "relation": "son of Tome Borić and Jela Borić, of Brinje house 141 - a sibling of Juraj Borić, this file - not in the tree",
+   "event": "baptism",
+   "date": "15 October 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 113, entry no. 115 - \"BORIĆ PETAR\", male, born 15 October 1890, of Brinje house 141, son of BORIĆ TOME and BORIĆ JELA. A margin note added decades later appears to record a civil-era event (illegible in full). NOT IN THE TREE. A SECOND CHILD of the same Borić-marries-Borić household already in this file (Juraj Borić, image 12, born 3 February 1888) - the same house number, the same two parent names, two and a half years apart. This is now a confirmed sibling pair, not just a repeated household.",
+   "slug": "petar-boric"
+  },
+  {
+   "name": "Viol Kalanj",
+   "ahn": null,
+   "relation": "of Brinje house 118, married to Zoričić Kate - not in the tree",
+   "event": "birth of a child",
+   "date": "26 December 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 116, entry no. 138 - the birth of \"KALANJ KATE\", female, of Brinje house 118, names her father as \"KALANJ VIOL\" and her mother as \"ZORIČIĆ KATE\". Witnesses Fumić Jure and Marija. NOT IN THE TREE. A THIRD Kalanj house number at Brinje, distinct from Niko and Juro's house 231 and Mijo and Mate's house 249 (both this file, from the marriage book) - a third resident Kalanj household, independent of the other two.",
+   "slug": "viol-kalanj"
+  },
+  {
+   "name": "Ivan Borić, witness at Brinje house 138",
+   "ahn": null,
+   "relation": "witness to the baptism of Radotić Dare, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "31 March 1891",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 122, entry no. 20 - the baptism of \"RADOTIĆ DARE\", female, of Brinje house 138, daughter of Radotić Niko and Lokmer Luce, names \"BORIĆ IVAN\" as a witness alongside Sertić Marija. NOT IN THE TREE. A witness only, no house number of his own given - kept separate from the several other Borić men already named Ivan/Ive in this file (Ive Borić of Kamenica, the fathers named Ivan at houses 126 and 191) since nothing here ties him to any of them.",
+   "slug": "ivan-boric-witness-at-brinje-house-138"
   }
  ]
 }

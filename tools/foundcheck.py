@@ -196,6 +196,18 @@ SETTLED = {
         "it is her son Tomo Vičić's, which names her only as his mother's "
         "maiden surname. A given name and a birth year four hundred "
         "kilometres from anywhere is the whole resemblance",
+    "Petar Borić":
+        "resembles Petar Kalanj (1890), a different surname and a different "
+        "family - Petar Borić's own row names his parents as Tome Borić and "
+        "Jela Borić of Brinje house 141, which the candidate has no "
+        "connection to. A given name and a birth year is the whole "
+        "resemblance",
+    "Ivan Borić, witness at Brinje house 138":
+        "resembles three men named Ivan, none surnamed Borić and none "
+        "placed at Brinje - a Krmpotić in-law, a Kalanj child of Josip "
+        "Kalanj born two years later, and an unrelated Perpić. This row "
+        "names him only as a witness to a Radotić baptism at Brinje house "
+        "138; the resemblance is a given name and a year",
 }
 
 
