@@ -189,6 +189,13 @@ SETTLED = {
         "surname, and the resemblance is the year of his own marriage matching "
         "another man's. Marko Perković's row names his father as Pere Perković "
         "of Novi Kut, Brinje parish, which the candidate has no connection to",
+    "Marija Borić, wife of Vičić Jure":
+        "resembles four Marija/Marije born around 1890-91, none surnamed "
+        "Borić and none placed at Brinje - a Papić, two Pavelić and one "
+        "unsourced 'published' entry. This row is not even her own baptism; "
+        "it is her son Tomo Vičić's, which names her only as his mother's "
+        "maiden surname. A given name and a birth year four hundred "
+        "kilometres from anywhere is the whole resemblance",
 }
 
 

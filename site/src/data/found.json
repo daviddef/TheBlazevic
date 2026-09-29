@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 120,
+ "count": 123,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 10,
+  "Brinje, Croatia": 13,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1242,6 +1242,36 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 18 - the birth of \"KRMARIĆ MARIJA\", female, names her mother's maiden surname as \"KALANJ ANE\". NOT IN THE TREE. A SECOND WOMAN NAMED ANE KALANJ, KEPT SEPARATE FROM THE FIRST ON PURPOSE: this archive already holds an Ane Kalanj who married Grgo Dražičević and had a son Juraj on 13 February 1888 (this file, image 13) - only weeks before this birth. Whether this is the same woman recorded with a different husband by clerical error, two sisters both named Ana, or simply two unrelated Kalanj women sharing the parish's most common given name is not established and not guessed at. Both entries are kept as written.",
    "slug": "ane-kalanj-wife-of-krmaric-viol"
+  },
+  {
+   "name": "Stjepan Borić",
+   "ahn": null,
+   "relation": "son of Stjepan Borić and a mother of maiden surname Vučetić, of Brinje house 28 - not in the tree",
+   "event": "baptism",
+   "date": "4 February 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 88, entry no. 16 - \"BORIĆ STJEPAN\", male, born 4 February 1890, of Brinje house 28, son of BORIĆ STJEPAN and VUČETIĆ [given name read as Ove or Ana, not fully certain]. Witnesses Perkić Mijo and [R]abotić Matija - Perkić, not Perković, a surname this archive has now met twice at Brinje and keeps distinct from it. NOT IN THE TREE. A father and son sharing the name Stjepan Borić, the same generational pattern already seen with Niko Borić and Mile Borić elsewhere in this file, at a Brinje house number (28) not yet recorded for the surname.",
+   "slug": "stjepan-boric"
+  },
+  {
+   "name": "Marija Borić, wife of Vičić Jure",
+   "ahn": null,
+   "relation": "mother of Vičić Tomo, of Brinje - not in the tree",
+   "event": "birth of a child",
+   "date": "10 February 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 89, entry no. 19 - the birth of \"VIČIĆ TOMO\", male, names his mother's maiden surname as \"BORIĆ MARIJA\". No house number is entered. NOT IN THE TREE. Another Borić woman married out of the surname, the same pattern already seen with Borić's own intermarriage (Tome Borić x Jela Borić, this file) and with the Kalanj women married into Dražičević and Krmarić - Borić now attested marrying into at least three other Brinje families (Hofjenc, Vičić, and itself).",
+   "slug": "marija-boric-wife-of-vicic-jure"
+  },
+  {
+   "name": "Ivo Borić",
+   "ahn": null,
+   "relation": "son of Ivan Borić and a mother also of the Borić surname, of Brinje house 191 - not in the tree",
+   "event": "baptism",
+   "date": "September 1890 [exact day not confidently read]",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 106, entry no. 87 - \"BORIĆ IVO\", male, of Brinje house 191, son of BORIĆ IVAN and a mother entered under the same surname, BORIĆ. Witnesses Rekić Roko and a second name not confidently read. NOT IN THE TREE. A SECOND Borić-marries-Borić household, distinct from the one already in this file at house 141 (Tome Borić and Jela Borić) - two different Brinje houses where the surname intermarried with itself, which is starting to look less like an isolated event and more like a real feature of how this surname sits in the parish.",
+   "slug": "ivo-boric"
   }
  ]
 }
