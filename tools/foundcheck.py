@@ -208,6 +208,13 @@ SETTLED = {
         "Kalanj born two years later, and an unrelated Perpić. This row "
         "names him only as a witness to a Radotić baptism at Brinje house "
         "138; the resemblance is a given name and a year",
+    "Marija Borić, wife of Frane Jurajić":
+        "resembles the same handful of Marija/Marije born 1890-92 this file "
+        "has already settled twice for other Borić women - a Papić, a "
+        "Boras, two Pavelić, and an unsourced 'published' entry, none "
+        "surnamed Borić and none at Brinje. This row is her son Ivo "
+        "Jurajić's baptism, not her own; the resemblance is a given name "
+        "and a birth year",
 }
 
 

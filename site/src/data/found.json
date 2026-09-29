@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 126,
+ "count": 128,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 16,
+  "Brinje, Croatia": 18,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1302,6 +1302,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 122, entry no. 20 - the baptism of \"RADOTIĆ DARE\", female, of Brinje house 138, daughter of Radotić Niko and Lokmer Luce, names \"BORIĆ IVAN\" as a witness alongside Sertić Marija. NOT IN THE TREE. A witness only, no house number of his own given - kept separate from the several other Borić men already named Ivan/Ive in this file (Ive Borić of Kamenica, the fathers named Ivan at houses 126 and 191) since nothing here ties him to any of them.",
    "slug": "ivan-boric-witness-at-brinje-house-138"
+  },
+  {
+   "name": "Marija Borić, wife of Frane Jurajić",
+   "ahn": null,
+   "relation": "mother of Jurajić Ivo, of Brinje - not in the tree",
+   "event": "birth of a child",
+   "date": "10 August 1891",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 137, entry no. 78 - the birth of \"JURAJIĆ IVO\", male, names his mother's maiden surname as \"BORIĆ MARIJA\". A witness on the same entry is \"BORIĆ GRGO\". NOT IN THE TREE. A fourth Borić woman married out of the surname (after the one at house 141 who married a Borić man, and the one who married into Vičić) - and a new Borić given name, Grgo, as witness alongside her.",
+   "slug": "marija-boric-wife-of-frane-jurajic"
+  },
+  {
+   "name": "Viol Borić",
+   "ahn": null,
+   "relation": "son of Niko Borić and Marica Bošnjić, of Brinje house 142 - not in the tree",
+   "event": "baptism",
+   "date": "2 September 1891",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 140, entry no. 93 - \"BORIĆ VIOL\", male, born 2 September 1891, of Brinje house 142, son of BORIĆ NIKO and BOŠNJIĆ MARICA. A margin note added decades later appears to record his own later civil marriage (not fully legible). NOT IN THE TREE. This is very likely the first child of the Niko Borić already in this file as a 25-year-old bachelor marrying in 1890 (marriage book, image 538) at the same house number, 142 - the timing fits exactly. It also bears on the open puzzle already logged for that Niko: a Marija Borić married out of house 142 around 1892-93 calling herself his daughter, which the ages never supported. A son born in September 1891 makes that impossibility sharper still - this Niko was raising an infant, not marrying off a grown daughter.",
+   "slug": "viol-boric"
   }
  ]
 }
