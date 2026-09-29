@@ -184,6 +184,11 @@ SETTLED = {
         "year this row's marriage happened to fall in. Ive Borić's own row "
         "names his father as Jozo Borić of Križ Kamenica, which the candidate "
         "does not touch at any point",
+    "Marko Perković":
+        "resembles Marko Ridjan 1895, married to Ana Papić — a different "
+        "surname, and the resemblance is the year of his own marriage matching "
+        "another man's. Marko Perković's row names his father as Pere Perković "
+        "of Novi Kut, Brinje parish, which the candidate has no connection to",
 }
 
 
