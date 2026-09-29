@@ -168,6 +168,16 @@ SETTLED = {
     "Ivan Defrančeski":
         "IN THE TREE — Hedviga Blažević's husband, born 1925, died 1995, "
         "unpublished. Kept here only until his grave is recorded against him",
+
+    # 29 September 2026, the Brinje marriage register. Eight candidates, not
+    # one of them a Borić, none of them at Brinje.
+    "Marija Borić":
+        "resembles Marija Kalanj (1893, two of them), Marija Boras (1892) and "
+        "five more, none surnamed Borić and none placed at Brinje. Her own "
+        "register entry names her father as Niko Borić of Brinje house 142, "
+        "which is the test this file applies everywhere else and none of the "
+        "eight candidates pass it — a given name and a year is the whole "
+        "resemblance",
 }
 
 
