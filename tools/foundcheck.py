@@ -215,6 +215,13 @@ SETTLED = {
         "surnamed Borić and none at Brinje. This row is her son Ivo "
         "Jurajić's baptism, not her own; the resemblance is a given name "
         "and a birth year",
+    "Marija Borić, wife of Jure Vičić":
+        "resembles the same handful of Marija/Marije born 1890-92 this file "
+        "has now settled three times for Borić women married out - a "
+        "Papić, a Boras, two Pavelić, and an unsourced 'published' entry, "
+        "none surnamed Borić and none at Brinje. This row is a second son "
+        "Tomo Vičić's baptism, not her own; the resemblance is a given "
+        "name and a birth year",
 }
 
 

@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 131,
+ "count": 133,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 19,
+  "Brinje, Croatia": 21,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1352,6 +1352,26 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 152, entry no. 138 - \"BORIĆ MARKO\", male, of Kamenica, father's column left blank, son of \"BORIĆ LUCE\" alone - the child takes his unmarried mother's surname. Witnesses Lovinčić Ivan and Borić Matija. NOT IN THE TREE. A Borić woman recorded without a husband, and a Borić witness (Matija) not yet tied to any household in this file - kept separate from the Luce Borić already here (daughter of Ivan/Ive Borić, Brinje house 126, married 1894) since nothing ties this Kamenica woman to that Brinje one beyond the shared given name and surname.",
    "slug": "luce-boric-of-kamenica"
+  },
+  {
+   "name": "Marija Borić, wife of Jure Vičić",
+   "ahn": null,
+   "relation": "mother of a second Vičić Tomo, of Brinje house 197 - not in the tree",
+   "event": "birth of a child",
+   "date": "21 December 1891",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 160, entry no. 170 - the birth of \"VIČIĆ TOMO\", male, of Brinje house 197, names his parents as \"VIČIĆ JURE\" and \"BORIĆ MARIJA\". NOT IN THE TREE. A puzzle worth stating plainly rather than resolving: this file already holds a birth of a \"VIČIĆ TOMO\" to a father named Vičić Jure and a mother of maiden surname Borić Marija, ten months earlier (10 February 1890, image 89, entry no. 19). Same father's name, same mother's maiden name, same child's name, twenty-two months apart. Read as written: either the same couple naming a second son after an elder Tomo who did not survive infancy - not unusual for this period - or the same event entered twice by the clerk. No document says which, and this row does not guess.",
+   "slug": "marija-boric-wife-of-jure-vicic"
+  },
+  {
+   "name": "Matija Borić",
+   "ahn": null,
+   "relation": "daughter of Tome Borić, of Brinje house 141 - a third sibling alongside Juraj and Petar Borić, this file - not in the tree",
+   "event": "baptism",
+   "date": "19 December 1892",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 165, entry no. 18 - \"BORIĆ MATIJA\", female, of Brinje house 141, daughter of BORIĆ TOME and a mother entered under the surname BORIĆ with the given name read as MATIJA - the same given name as the child's own, a reading not fully certain at this resolution. Witnesses Petak Tome and Mace. NOT IN THE TREE. A THIRD CHILD of the same Borić-marries-Borić household already in this file (Juraj, born 1888; Petar, born 1890) - the same house number and father's name, four and a half years after the first child. Whether the mother's name here is genuinely Matija, or a misreading of the Jela already recorded for this household, is not established.",
+   "slug": "matija-boric"
   }
  ]
 }
