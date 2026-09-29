@@ -1,17 +1,17 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 134,
+ "count": 136,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 21,
+  "Brinje, Croatia": 22,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 4,
+  "Kamenica, Brinje parish, Croatia": 5,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1383,6 +1383,26 @@
    "place": "Lučane, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 179, entry no. 73 - the birth of \"OVČARIĆ JORE\", male, of Lučane house 36, names his mother's maiden surname as \"BORIĆ OVE\". A witness on the same entry is \"BORIĆ MARKO\". NOT IN THE TREE. A seventh Borić woman married out of the surname, and the first Borić name this file has placed at Lučane - every other Borić household so far has been at Brinje itself, Kamenica, or Križ Kamenica. A new Borić given name, Marko, stands witness, not yet tied to any household.",
    "slug": "ove-boric-wife-of-ive-ovcaric"
+  },
+  {
+   "name": "Kate Borić",
+   "ahn": null,
+   "relation": "daughter of Niko Borić, of Kamenica house 24 - not in the tree",
+   "event": "baptism",
+   "date": "18 February 1893",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 201, entry no. 9 - \"BORIĆ KATE\", female, of Kamenica house 24, daughter of BORIĆ NIKO and RADOTIĆ DACE. Witnesses Javor Ivan and Luce. NOT IN THE TREE. This is the same house, 24, and almost certainly the same Niko Borić already in this file as father of Marija Borić, who married out of this house in 1897 - but that entry names his wife as Bare, not Dace Radotić recorded here. Not merged: either a second wife, or the same woman under two different names or a clerical inconsistency. Recorded as written, the question left open.",
+   "slug": "kate-boric"
+  },
+  {
+   "name": "Tome Borić, witness at Brinje house 101",
+   "ahn": null,
+   "relation": "witness to the baptism of Perlić Ane, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "8 January 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 201, entry no. 8 - the baptism of \"PERLIĆ ANE\", female, of Brinje house 101, daughter of Perlić Mijo and Vičić Kate, names \"BORIĆ TOME\" as a witness alongside Rakonić Roza. NOT IN THE TREE. A witness only, no house number of his own given - not yet tied to any household in this file, and kept separate from the several other men named Tome/Tomo already here.",
+   "slug": "tome-boric-witness-at-brinje-house-101"
   }
  ]
 }
