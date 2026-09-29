@@ -1,10 +1,10 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 105,
+ "count": 108,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
-  "Brinje, Croatia": 1,
+  "Brinje, Croatia": 3,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -13,6 +13,7 @@
   "Kamenica, Brinje parish, Croatia": 1,
   "Karlobag": 41,
   "Krivi Put": 5,
+  "Križ Kamenica, Brinje parish, Croatia": 1,
   "Nova Oselica, Poljane valley": 3,
   "Oberfeichting (Zgornje Bitnje) 13, župnija Kranj-Šmartin": 1,
   "Oberfeichting (Zgornje Bitnje) 14, župnija Kranj-Šmartin": 1,
@@ -1090,6 +1091,36 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 530, entry no. 13 (facing page) - \"BORIĆ ___\", recorded here as \"Vid\" though the given name is genuinely hard to read and this is a best guess, not a confident transcription; widower(?), 25, of Kamenica house 17, son of BORIĆ LUKA, married a woman recorded as (Š)orić Kate, 20, of Brinje house 127. A second witness on the same entry is BORIĆ JOZO. NOT IN THE TREE: this archive's /kalanj/ page already names a Jure Borić of Brinje, from the 1910 Stipe Kalanj emigration papers, whose daughter Ana Borić married into the Papić family - this entry is the first independent confirmation from the parish register itself that Borić is a real, resident surname at Kamenica, with at least three men attested in 1890 (Luka, this groom, and Jozo). Whether any of them is kin to the Jure Borić already named on this archive's own page is not established.",
    "slug": "vid-boric"
+  },
+  {
+   "name": "Juko Borić",
+   "ahn": null,
+   "relation": "son of Ivan Borić, of Brinje house 126 - not in the tree",
+   "event": "marriage",
+   "date": "7 July 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 533, entry no. 19 - \"BORIĆ JUKO\" (the given name could also be read \"Jako\"), widower, 38, of Brinje house 126, son of BORIĆ IVAN, married Zorčić Matija, spinster, 29, of Brinje house 85, daughter of Zorčić Ivan. Witnesses Javor Niko and a second name not confidently read. NOT IN THE TREE. The second Borić household this archive has found in one pass of one register image-range (493-539): this one at Brinje itself rather than the Kamenica hamlet where Vid Borić's family is recorded. Whether Ivan Borić's household and Luka Borić's household (see Vid Borić, this file) are related is not established.",
+   "slug": "juko-boric"
+  },
+  {
+   "name": "Miko Borić",
+   "ahn": null,
+   "relation": "widower, of Križ Kamenica - not in the tree",
+   "event": "marriage",
+   "date": "circa 1890",
+   "place": "Križ Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 535 - \"BORIĆ MIKO\", widower, 55, of \"Križ Kamenica\" house 33, married Ane Petrak, widow, 41, of Brinje house 143. The entry number and exact date were cut off at the edge of the frame and want a second look. NOT IN THE TREE. A third Borić household, and the second at Kamenica (after Luka and Vid Borić, this file) — Miko's own generation, born about 1835, is the earliest-born Borić this archive has yet put a year to.",
+   "slug": "miko-boric"
+  },
+  {
+   "name": "Niko Borić",
+   "ahn": null,
+   "relation": "of Brinje house 142 - not in the tree",
+   "event": "marriage",
+   "date": "24 [month illegible] 1890",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga vjenčanih 1888-1899 (DGS 005498262, waypoint 9R26-82S), image 538, entry no. 28 - \"BORIĆ NIKO\", bachelor, 25, of Brinje house 142, married a woman recorded as Bašić Marija (surname uncertain), spinster, 22, of Brinje house 105. A witness on the same entry may also be a Borić, not confidently read. NOT IN THE TREE. A fourth Borić man found across images 530-538 of this one register, alongside Luka, Vid, Ivan, Juko and Miko (this file) — Borić is not a marginal surname at Brinje parish, it is one of the more frequent grooms' surnames in these forty-odd images alone.",
+   "slug": "niko-boric"
   }
  ]
 }
