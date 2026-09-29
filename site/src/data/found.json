@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 136,
+ "count": 137,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 22,
+  "Brinje, Croatia": 23,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1403,6 +1403,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 201, entry no. 8 - the baptism of \"PERLIĆ ANE\", female, of Brinje house 101, daughter of Perlić Mijo and Vičić Kate, names \"BORIĆ TOME\" as a witness alongside Rakonić Roza. NOT IN THE TREE. A witness only, no house number of his own given - not yet tied to any household in this file, and kept separate from the several other men named Tome/Tomo already here.",
    "slug": "tome-boric-witness-at-brinje-house-101"
+  },
+  {
+   "name": "Stjepan Borić, son of Grgo Borić",
+   "ahn": null,
+   "relation": "son of Grgo Borić, of Brinje house 126 - not in the tree",
+   "event": "baptism",
+   "date": "20 August 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 203, entry no. 15 - \"BORIĆ STJEPAN\", male, of Brinje house 126, son of BORIĆ GRGO and MILAKOVIĆ MARIJA. Witnesses Milaković Grgo and Kate. NOT IN THE TREE. The same house number, 126, already in this file for Ivan/Ive Borić's children Juko (married 1890) and Luce (married 1894) - but the father here is named Grgo, not Ivan. Flagged rather than merged: Grgo could be a brother sharing the house, a second household at the same number, or the same man under a different name; none of this is established.",
+   "slug": "stjepan-boric-son-of-grgo-boric"
   }
  ]
 }
