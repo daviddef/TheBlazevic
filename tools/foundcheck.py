@@ -178,6 +178,12 @@ SETTLED = {
         "which is the test this file applies everywhere else and none of the "
         "eight candidates pass it — a given name and a year is the whole "
         "resemblance",
+    "Ive Borić":
+        "resembles Ivan 'Ive' John Pavelich (born Pavelić) 1893 — a different "
+        "surname on the coast, not Brinje, sharing only a nickname and the "
+        "year this row's marriage happened to fall in. Ive Borić's own row "
+        "names his father as Jozo Borić of Križ Kamenica, which the candidate "
+        "does not touch at any point",
 }
 
 
