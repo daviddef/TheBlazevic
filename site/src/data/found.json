@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 130,
+ "count": 131,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 3,
+  "Kamenica, Brinje parish, Croatia": 4,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1342,6 +1342,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 143, entry no. 104 - the birth of \"DRAŽIČEVIĆ MARIJA\", female, of Kamenica house 24, names her mother's maiden surname as \"BORIĆ MANOLE\". Witnesses Javor Ivan and Draženović Matija. NOT IN THE TREE. A sixth Borić woman married out of the surname - and worth watching rather than asserting: this archive's marriage book already holds a Marija Borić of this same address, Kamenica house 24, daughter of a second, distinct Niko Borić (married out in 1897, this file). Whether Manole is that Niko's sister, his wife under a different name, or simply a second unrelated Borić family sharing the house number is not established.",
    "slug": "manole-boric-wife-of-tomo-drazicevic"
+  },
+  {
+   "name": "Luce Borić, of Kamenica",
+   "ahn": null,
+   "relation": "unmarried mother of Marko Borić, of Kamenica - not in the tree",
+   "event": "birth of a child",
+   "date": "17 October 1891",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1888-1900 (DGS 005498262, waypoint 9R26-82S), image 152, entry no. 138 - \"BORIĆ MARKO\", male, of Kamenica, father's column left blank, son of \"BORIĆ LUCE\" alone - the child takes his unmarried mother's surname. Witnesses Lovinčić Ivan and Borić Matija. NOT IN THE TREE. A Borić woman recorded without a husband, and a Borić witness (Matija) not yet tied to any household in this file - kept separate from the Luce Borić already here (daughter of Ivan/Ive Borić, Brinje house 126, married 1894) since nothing ties this Kamenica woman to that Brinje one beyond the shared given name and surname.",
+   "slug": "luce-boric-of-kamenica"
   }
  ]
 }
