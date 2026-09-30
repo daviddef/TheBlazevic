@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 144,
+ "count": 145,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 27,
+  "Brinje, Croatia": 28,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1483,6 +1483,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 229, entry no. 120 - \"BORIĆ LUCE\", female, of Kamenica house 24, daughter of BORIĆ TOME and RADOTIĆ MARIJA. NOT IN THE TREE. A third birth at Kamenica house 24 in this file, after Marija Borić (married out 1897, father recorded as Niko Borić and Bare) and Kate Borić (born 1893, father Niko Borić and Radotić Dace) - but this child's father is entered as Tome, not Niko, and her mother as Radotić Marija, not Radotić Dace. Whether Tome is Niko's brother sharing the house, a second Borić household at the same number, or a scribal slip on the father's name is not established; kept as a separate person, not merged.",
    "slug": "luce-boric-daughter-of-tome-boric"
+  },
+  {
+   "name": "Anica Kalanj",
+   "ahn": null,
+   "relation": "daughter of Niko Kalanj and Marija Vučetić, of Brinje house 231 - not in the tree",
+   "event": "baptism",
+   "date": "21 August 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 235, entry no. 144 - \"KALANJ ANICA\" [given name partly worn, read with reasonable confidence], female, of Brinje house 231, daughter of KALANJ NIKO and VUČETIĆ MARIJA. Witnesses Vuković Stjepan and Vučetić Janja. NOT IN THE TREE. This is very likely the first confirmed child of Niko Kalanj, already the very first Kalanj household this archive found at Brinje (Vjenčani book, image 530: Niko Kalanj, bachelor, 40, son of Juro Kalanj, married a widow named Marija, 33, in 1890). The mother's maiden name here, Vučetić, matches cleanly with no contradiction - unlike the Kamenica house 24 puzzle elsewhere in this file, this is a clean confirmation that the marriage produced a household.",
+   "slug": "anica-kalanj"
   }
  ]
 }
