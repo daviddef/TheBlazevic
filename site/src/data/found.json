@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 166,
+ "count": 167,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 41,
+  "Brinje, Croatia": 42,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1703,6 +1703,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 335 - the baptism of a child of Milaković Ferole and Hobac Kate, of Brinje (no house number entered, exact date not captured in this image crop), names \"BORIĆ GRGO\" as a witness alongside a woman named Marica. NOT IN THE TREE. A second sighting of a Borić man witnessing a Milaković baptism - the first (this file, image 239, house 74) also paired him with a woman of a similar name, Marija. Plausibly the same recurring witness, but neither entry names a shared identity; kept as two sightings, not merged.",
    "slug": "grgo-boric-witness-at-a-milakovic-baptism-image-335"
+  },
+  {
+   "name": "Alojz Borić, witness at Brinje",
+   "ahn": null,
+   "relation": "witness to the baptism of Škorup Joso's child, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "circa 1895",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 338 - the baptism of a child of Škorup Joso and Milaković Marija, of Brinje, names \"BORIĆ ALOJZ\" as a witness alongside a woman whose surname is not confidently read, given name Marice. NOT IN THE TREE. A PLAUSIBLE, UNCONFIRMED CONNECTION: \"Alojz\" is the full form of the \"Lojze\" already in this file as father of Luce Borić at Kamenica house 83 (this file, image 244) - and that earlier entry's own witnesses were \"Škorup Ivo i Marija,\" the same Škorup surname appearing here. Not merged, since neither entry names the two as one man, but the double coincidence (name and surname) is stronger than most of this file's other unconfirmed links.",
+   "slug": "alojz-boric-witness-at-brinje"
   }
  ]
 }
