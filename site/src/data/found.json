@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 159,
+ "count": 161,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 37,
+  "Brinje, Croatia": 39,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1633,6 +1633,26 @@
    "place": "Lučane, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 279, entry no. 1 - the baptism of \"LOVINČIĆ OVE\", male, of Lučane house 28, son of Lovinčić Tome and Lovinčić Kate, names \"BORIĆ IVAN\" as a witness alongside Marija. NOT IN THE TREE. The first Borić name this file has placed at Lučane as a witness (a Borić woman, Ove, already married out to a Lučane household in 1893) - kept separate from the several other Borić men already named Ivan/Ive in this file, since nothing here ties him to any of them.",
    "slug": "ivan-boric-witness-at-lucane"
+  },
+  {
+   "name": "Marija Borić, wife of Vid Hofjevac",
+   "ahn": null,
+   "relation": "mother of Hofjevac Tome, of Brinje house 160 - not in the tree",
+   "event": "birth of a child",
+   "date": "3 January 1895",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 280, entry no. 5 - the birth of \"HOFJEVAC TOME\", male, of Brinje house 160, names his parents as \"HOFJEVAC VID\" and \"BORIĆ MARIJA\". A witness on the same entry is \"BORIĆ MANULE\". NOT IN THE TREE. An eighth woman named Marija Borić married out of the surname in this file - into the Hofjenc/Hofjevac family, the same family a Marija Borić already married into at house 142 (this file), though the spelling here is Hofjevac and the husband's name Vid, not Niko.",
+   "slug": "marija-boric-wife-of-vid-hofjevac"
+  },
+  {
+   "name": "Manole Borić, witness at Brinje house 160",
+   "ahn": null,
+   "relation": "witness to the baptism of Hofjevac Tome, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "3 January 1895",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 280, entry no. 5 - the baptism of \"HOFJEVAC TOME\", male, of Brinje house 160, son of Hofjevac Vid and Borić Marija, names \"BORIĆ MANULE\" as a witness alongside Jurašić Miko. NOT IN THE TREE. A plausible, unconfirmed match for the Manole Borić already in this file (wife of Tomo Dražičević, Kamenica house 24, and a witness at Kamenica in September 1894) - same given name, but this entry places her at Brinje itself rather than Kamenica, which is not established as the same woman.",
+   "slug": "manole-boric-witness-at-brinje-house-160"
   }
  ]
 }

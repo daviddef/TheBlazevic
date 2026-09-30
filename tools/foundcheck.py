@@ -265,6 +265,10 @@ SETTLED = {
         "Pavelić, a de Franceschi, a Prpić and a Belobarbić. This row "
         "names him only as a witness to a Lovinčić baptism at Lučane; the "
         "resemblance is a given name and a year",
+    "Marija Borić, wife of Vid Hofjevac":
+        "resembles a Papić and a Kalanj, neither surnamed Borić. This "
+        "row's own register entry names her husband as Vid Hofjevac of "
+        "Brinje house 160, which neither candidate touches",
 }
 
 
