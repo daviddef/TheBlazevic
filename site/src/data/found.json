@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 164,
+ "count": 165,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 14,
+  "Kamenica, Brinje parish, Croatia": 15,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1683,6 +1683,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 299, entry no. 81 - the baptism of \"SERTIĆ MILE\", male, of Kamenica house 5, son of Sertić Tadija and Vučetić Ruse, names \"BORIĆ STJEPAN\" as a witness alongside a second witness given only as \"Ove\" (possibly also surnamed Borić, the register naming both witnesses under one surname when they share it). NOT IN THE TREE. A new Borić given name (Stjepan) at Kamenica, kept separate from the several other Borić men already in this file since nothing ties him to any of them.",
    "slug": "stjepan-boric-witness-at-kamenica-house-5"
+  },
+  {
+   "name": "Marija Borić, witness at Kamenica (1895)",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Jure's child, of Kamenica - not in the tree",
+   "event": "witness at a baptism",
+   "date": "1895",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 327 - the baptism of a child of Sertić Jure and Dražičević Ave, of Kamenica, names \"BORIĆ MARIJA\" as a witness alongside Javor Ivan. NOT IN THE TREE. A ninth person in this file named Marija Borić; kept separate from all the others, including the Manole Borić already tracked as a witness at Kamenica, since nothing ties them together beyond the shared surname and hamlet.",
+   "slug": "marija-boric-witness-at-kamenica-1895"
   }
  ]
 }

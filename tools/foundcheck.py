@@ -269,6 +269,11 @@ SETTLED = {
         "resembles a Papić and a Kalanj, neither surnamed Borić. This "
         "row's own register entry names her husband as Vid Hofjevac of "
         "Brinje house 160, which neither candidate touches",
+    "Marija Borić, witness at Kamenica (1895)":
+        "resembles the same Papić and Kalanj already settled for the "
+        "Hofjevac entry above - neither surnamed Borić, neither placed at "
+        "Kamenica. This row names her only as a witness to a Sertić "
+        "baptism there",
 }
 
 
