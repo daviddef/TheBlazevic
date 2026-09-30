@@ -260,6 +260,11 @@ SETTLED = {
         "entirely, and neither candidate's parents match. This row's own "
         "register entry names her parents as Grgo Borić and Marija "
         "Milaković of Brinje house 126, which neither candidate touches",
+    "Ivan Borić, witness at Lučane":
+        "resembles four men named Ivan/Ive, none surnamed Borić - a "
+        "Pavelić, a de Franceschi, a Prpić and a Belobarbić. This row "
+        "names him only as a witness to a Lovinčić baptism at Lučane; the "
+        "resemblance is a given name and a year",
 }
 
 

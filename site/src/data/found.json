@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 158,
+ "count": 159,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -15,7 +15,7 @@
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
-  "Lučane, Brinje parish, Croatia": 1,
+  "Lučane, Brinje parish, Croatia": 2,
   "Nova Oselica, Poljane valley": 3,
   "Oberfeichting (Zgornje Bitnje) 13, župnija Kranj-Šmartin": 1,
   "Oberfeichting (Zgornje Bitnje) 14, župnija Kranj-Šmartin": 1,
@@ -1623,6 +1623,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 278, entry no. 153 - \"BORIĆ ANA\", female, born 25 December 1894, of Brinje house 126, daughter of BORIĆ GRGO and MILAKOVIĆ MARIJA. Witnesses Dražičević Mile i Kate. NOT IN THE TREE. A SECOND CHILD of the same household already in this file (Stjepan Borić, born August 1893, image 203) - the same house number and both parents' names, confirming Grgo Borić and Marija Milaković as a real, continuing household at house 126, not a single register entry. Whether this Grgo is the same man as Ivan/Ive Borić, whose children Juko and Luce were also tied to house 126, remains not established.",
    "slug": "ana-boric-daughter-of-grgo-boric"
+  },
+  {
+   "name": "Ivan Borić, witness at Lučane",
+   "ahn": null,
+   "relation": "witness to the baptism of Lovinčić Ove, of Lučane - not in the tree",
+   "event": "witness at a baptism",
+   "date": "27 December 1894",
+   "place": "Lučane, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 279, entry no. 1 - the baptism of \"LOVINČIĆ OVE\", male, of Lučane house 28, son of Lovinčić Tome and Lovinčić Kate, names \"BORIĆ IVAN\" as a witness alongside Marija. NOT IN THE TREE. The first Borić name this file has placed at Lučane as a witness (a Borić woman, Ove, already married out to a Lučane household in 1893) - kept separate from the several other Borić men already named Ivan/Ive in this file, since nothing here ties him to any of them.",
+   "slug": "ivan-boric-witness-at-lucane"
   }
  ]
 }
