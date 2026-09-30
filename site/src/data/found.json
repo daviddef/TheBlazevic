@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 150,
+ "count": 152,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 32,
+  "Brinje, Croatia": 34,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1543,6 +1543,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 248, entry no. 34 - the baptism of \"JELIĆ KATE\", female, of Brinje house 246, daughter of Jelić Marko and Smolčić Kate, names \"BORIĆ TRICA\" as a witness alongside Jelić Mande. The given name is not confidently read at this resolution - an unusual name, possibly a diminutive. NOT IN THE TREE. A witness only, no house number of her own given.",
    "slug": "trica-boric-witness-at-brinje-house-246"
+  },
+  {
+   "name": "Vid Borić, witness at Brinje house 132",
+   "ahn": null,
+   "relation": "witness to the baptism of Radotić Luce, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "30 May 1894",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 251, entry no. 46 - the baptism of \"RADOTIĆ LUCE\", female, of Brinje house 132, daughter of Radotić Tome and Mesić Marija, names \"BORIĆ VID\" as a witness alongside Radotić Luce (an adult of the same name as the child, not a duplicate entry). NOT IN THE TREE. A plausible, unconfirmed match for the Vid Borić already in this file (married 1890, son of Luka Borić, Kamenica house 17) - the given name is distinctive, but that earlier entry's own given name was itself a hard-to-read guess, not a confident transcription, so this link is tentative on both ends. No document names them as the same man.",
+   "slug": "vid-boric-witness-at-brinje-house-132"
+  },
+  {
+   "name": "Marija Borić, wife of Jure Krnarić",
+   "ahn": null,
+   "relation": "mother of Krnarić Manda, of Brinje - not in the tree",
+   "event": "birth of a child",
+   "date": "24 May 1894",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 251, entry no. 44 - the birth of \"KRNARIĆ MANDA\", female, of Brinje, no house number entered, names her parents as \"KRNARIĆ JURE\" and \"BORIĆ MARIJA\". NOT IN THE TREE. A sixth Borić woman named Marija married out of the surname (after the ones married into Hofjenc, a second Niko Borić's daughter at Kamenica, and twice into Vičić, and once into Jurajić) - kept separate from all of them, since none of those entries name a Krnarić connection and this one gives no house number to compare.",
+   "slug": "marija-boric-wife-of-jure-krnaric"
   }
  ]
 }

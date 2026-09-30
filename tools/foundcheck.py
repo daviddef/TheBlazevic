@@ -237,6 +237,12 @@ SETTLED = {
         "none surnamed Borić and none at Brinje. This row is a second son "
         "Tomo Vičić's baptism, not her own; the resemblance is a given "
         "name and a birth year",
+    "Marija Borić, wife of Jure Krnarić":
+        "resembles four Marija Kalanj born 1893-94 - a different surname "
+        "entirely, not even Borić, and the resemblance is a given name plus "
+        "her daughter's own 1894 birth year coincidentally matching theirs. "
+        "This row is her daughter Manda Krnarić's baptism, not her own; none "
+        "of the four candidates is surnamed Borić or tied to a Krnarić",
 }
 
 
