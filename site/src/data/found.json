@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 145,
+ "count": 147,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 28,
+  "Brinje, Croatia": 30,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1493,6 +1493,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 235, entry no. 144 - \"KALANJ ANICA\" [given name partly worn, read with reasonable confidence], female, of Brinje house 231, daughter of KALANJ NIKO and VUČETIĆ MARIJA. Witnesses Vuković Stjepan and Vučetić Janja. NOT IN THE TREE. This is very likely the first confirmed child of Niko Kalanj, already the very first Kalanj household this archive found at Brinje (Vjenčani book, image 530: Niko Kalanj, bachelor, 40, son of Juro Kalanj, married a widow named Marija, 33, in 1890). The mother's maiden name here, Vučetić, matches cleanly with no contradiction - unlike the Kamenica house 24 puzzle elsewhere in this file, this is a clean confirmation that the marriage produced a household.",
    "slug": "anica-kalanj"
+  },
+  {
+   "name": "Kate Borić, witness at Brinje house 85",
+   "ahn": null,
+   "relation": "witness to the baptism of Javor Frica, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "24 December 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 239, entry no. 159 - the baptism of \"JAVOR FRICA\", female, of Brinje house 85, daughter of Javor Ivan and Đorić Kate, names \"BORIĆ KATE\" as a witness alongside Jelačić Stjepan. NOT IN THE TREE. A witness only, no house number of her own given. Kept separate from the other women named Kate Borić already in this file; nothing ties them together.",
+   "slug": "kate-boric-witness-at-brinje-house-85"
+  },
+  {
+   "name": "Grgo Borić, witness at Brinje house 74",
+   "ahn": null,
+   "relation": "witness to the baptism of Milaković Marko, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "24 December 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 239, entry no. 160 - the baptism of \"MILAKOVIĆ MARKO\", male, of Brinje house 74, son of Milaković Marko and Milaković Kate, names \"BORIĆ GRGO\" as a witness alongside Marija. NOT IN THE TREE. A plausible match, not a confirmed one, for the Grgo Borić already in this file as father of Stjepan Borić at Brinje house 126 (born August 1893, four months earlier) - the same given name in the same parish in the same year, but no document names them as the same man.",
+   "slug": "grgo-boric-witness-at-brinje-house-74"
   }
  ]
 }
