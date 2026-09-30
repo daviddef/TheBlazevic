@@ -1,17 +1,17 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 148,
+ "count": 150,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 31,
+  "Brinje, Croatia": 32,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 8,
+  "Kamenica, Brinje parish, Croatia": 9,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1523,6 +1523,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 242, entry no. 9 - \"BORIĆ OVE\", female, born 10 January 1894 and registered the next day, of Brinje house 141, daughter of BORIĆ TOME and BORIĆ JELE. Witnesses Perkić Mijo i Kate (the recurring near-miss surname, distinct from Perković). NOT IN THE TREE. A FOURTH CHILD of the same Borić-marries-Borić household already in this file (Juraj, 1888; Petar, 1890; Matija, 1892) - the same house number and both parents' names, this time with no discrepancy in the mother's name. Kept separate from the Ove Borić already in this file (wife of Ivan Javor, house 41, a mother by 1891) - different generation, different house, no document ties them.",
    "slug": "ove-boric-daughter-of-tome-boric"
+  },
+  {
+   "name": "Luce Borić, daughter of Lojze Borić",
+   "ahn": null,
+   "relation": "daughter of Lojze Borić, of Kamenica house 83 - not in the tree",
+   "event": "baptism",
+   "date": "6 February 1894",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 244, entry no. 17 - \"BORIĆ LUCE\", female, born 6 February 1894, of Kamenica house 83, daughter of BORIĆ LOJZE and MESIĆ MANDA-MARIJA (the mother's given name entered with what reads as two names or a correction). Witnesses Škorup Ivo i Marija. A later hand added a civil-era annotation in the margin, not transcribed here. NOT IN THE TREE. A new Borić given name (Lojze) at a new Kamenica house number (83), distinct from the already-puzzling Kamenica house 24 - kept separate, no document ties this household to any other Borić in this file. A fourth person in this file named Luce Borić; nothing ties her to the other three (Brinje house 126, Kamenica unmarried mother, Kamenica house 24 daughter of Tome).",
+   "slug": "luce-boric-daughter-of-lojze-boric"
+  },
+  {
+   "name": "Trica Borić, witness at Brinje house 246",
+   "ahn": null,
+   "relation": "witness to the baptism of Jelić Kate, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "21 April 1894",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 248, entry no. 34 - the baptism of \"JELIĆ KATE\", female, of Brinje house 246, daughter of Jelić Marko and Smolčić Kate, names \"BORIĆ TRICA\" as a witness alongside Jelić Mande. The given name is not confidently read at this resolution - an unusual name, possibly a diminutive. NOT IN THE TREE. A witness only, no house number of her own given.",
+   "slug": "trica-boric-witness-at-brinje-house-246"
   }
  ]
 }
