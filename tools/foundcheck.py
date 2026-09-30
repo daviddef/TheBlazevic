@@ -255,6 +255,11 @@ SETTLED = {
         "year one apart. This row's own register entry names his parents as "
         "Niko Borić and Boletić Marija of Brinje house 148, which the "
         "candidate has no connection to",
+    "Ana Borić, daughter of Grgo Borić":
+        "resembles two Ana Kalanj born 1894-95 - a different surname "
+        "entirely, and neither candidate's parents match. This row's own "
+        "register entry names her parents as Grgo Borić and Marija "
+        "Milaković of Brinje house 126, which neither candidate touches",
 }
 
 
