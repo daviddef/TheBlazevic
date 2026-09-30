@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 179,
+ "count": 181,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 16,
+  "Kamenica, Brinje parish, Croatia": 18,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1833,6 +1833,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, continuing past 1897 with entry numbers unbroken), image 427, entry no. 70 - \"BORIĆ MARICA\", female, born 23 July 1898, of Brinje house 142, daughter of BORIĆ NIKO and BOJENIĆ MARICA. Witnesses (porodično i rodno ime prijavitelja) \"BORIĆ TOME\" i Hofjevac Marija. NOT IN THE TREE. A PROBABLE THIRD CHILD of the Niko Borić already in this file at house 142 (married 1890 to a wife recorded as Bašić Marija; first child Viol born 1891 to a wife recorded as Bošnjić Marica) - the mother's maiden name is entered a third way here, Bojenić, close enough in sound to Bašić/Bošnjić that all three may be the same woman under three scribal readings, or may not be; not merged, only noted. The witness BORIĆ TOME is kept separate from the Tome Borić already in this file as a lone 1893 witness at house 101 and from the Tome Borić heading his own household at Kamenica house 23, since nothing here ties any of them together.",
    "slug": "marica-boric-daughter-of-niko-boric-house-142"
+  },
+  {
+   "name": "Borić France, wife of Sertić Jure",
+   "ahn": null,
+   "relation": "mother of Sertić Niko, of Kamenica house 28 - not in the tree",
+   "event": "birth of a child",
+   "date": "10 October 1898",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries now numbering within calendar year 1898 rather than continuing the running count from item two), image 431, entry no. 86 - \"SERTIĆ NIKO\", male, born 10 October 1898, of Kamenica house 28, son of SERTIĆ JURE and BORIĆ FRANCE (an unusual given name, read as written). Witnesses \"BORIĆ VUJO\" and Sertić Ruže. NOT IN THE TREE. A NEW Sertić-Borić couple, kept separate from the Sertić Jure and Tauka Borić already in this file at Kamenica house 13 (parents of Ivan, born 1893, and Niko, born 1896) - a different house number and a different given name for the Borić wife, though the shared given name Jure for both Sertić husbands is left unexplained: possibly the same man with two households, possibly two different men, not established.",
+   "slug": "boric-france-wife-of-sertic-jure"
+  },
+  {
+   "name": "Borić Vujo, witness at Kamenica house 28",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Niko, of Kamenica - not in the tree",
+   "event": "witness at a baptism",
+   "date": "10 October 1898",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S), image 431, entry no. 86 - the baptism of \"SERTIĆ NIKO\", male, of Kamenica house 28, son of Sertić Jure and Borić France, names \"BORIĆ VUJO\" as a witness alongside Sertić Ruže. NOT IN THE TREE. A new Borić given name (Vujo), kept separate from all other Borić individuals already in this file since nothing ties him to any of them.",
+   "slug": "boric-vujo-witness-at-kamenica-house-28"
   }
  ]
 }
