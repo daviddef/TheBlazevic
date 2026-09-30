@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 156,
+ "count": 157,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 11,
+  "Kamenica, Brinje parish, Croatia": 12,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1603,6 +1603,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 266, entry no. 105 - \"BORIĆ MARKO\", male, born 19 September 1894, of Brinje house 148, son of BORIĆ NIKO and BOLETIĆ MARIJA. Witnesses Jelačić Tome i Julijana. NOT IN THE TREE. A third Niko Borić household in this file, at a house number (148) distinct from both the house-142 Niko Borić (married 1890 to Bašić Marija, this file) and the Kamenica house-24 Niko Borić (father of Marija/Kate/Luce, this file) - kept separate, since neither of the other two households names a wife called Boletić Marija.",
    "slug": "marko-boric"
+  },
+  {
+   "name": "Manole Borić, witness at Kamenica",
+   "ahn": null,
+   "relation": "witness to the baptism of Mesić Stjepan, of Kamenica - not in the tree",
+   "event": "witness at a baptism",
+   "date": "30 September 1894",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 267, entry no. 111 - the baptism of \"MESIĆ STJEPAN\", male, of Kamenica, son of Mesić Jure and Zorčić Marija, names \"BORIĆ MANOLE\" as a witness alongside Smaje Jure. NOT IN THE TREE. A plausible, unconfirmed match for the Manole Borić already in this file (wife of Tomo Dražičević, Kamenica house 24, a mother by 1891) - same given name, same hamlet, three years later, but no document names them as the same woman.",
+   "slug": "manole-boric-witness-at-kamenica"
   }
  ]
 }
