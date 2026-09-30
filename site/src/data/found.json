@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 174,
+ "count": 175,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 47,
+  "Brinje, Croatia": 48,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1783,6 +1783,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 370, entry no. 27 - the baptism of \"MILAKOVIĆ MANOLE\", female, of Brinje house 74, daughter of Milaković Grgo and Lasić Kate, names \"BORIĆ GRGO\" as a witness alongside a woman named Marica. NOT IN THE TREE. A THIRD SIGHTING of this exact pairing: the same Borić Grgo witnessing a Milaković baptism at the very same house 74 where he first appeared in this file (image 239, 1893), and paired with a woman named Marica, the same name paired with him at image 335. Whether all three sightings are the same man, kept separate from the Grgo Borić already in this file as father of Stjepan and Ana Borić at house 126, is not established - but the recurrence of both the house number and the witness's companion's name is the strongest pattern of its kind in this file.",
    "slug": "grgo-boric-witness-at-brinje-house-74-1897"
+  },
+  {
+   "name": "Viol Borić, witness at Brinje (image 381)",
+   "ahn": null,
+   "relation": "witness to a baptism at Brinje, exact child and date not captured in this scan - not in the tree",
+   "event": "witness at a baptism",
+   "date": "1897",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 381 - only the witness line survives at the very top of this photograph, reading \"BORIĆ VIOL i Vukorić Kate\" - the entry's own date, house number, child and parents are cut off above the frame the scan captured, evidently the tail end of an entry (probably no. 70) whose main body was not photographed in this item. NOT IN THE TREE. A new Borić given name (Viol, also a Kalanj given name already in this file, though not shared by the same person) - kept on record despite the incomplete citation, since the witness name itself is legible and clear.",
+   "slug": "viol-boric-witness-at-brinje-image-381"
   }
  ]
 }
