@@ -249,6 +249,12 @@ SETTLED = {
         "resemblance is a given name plus a birth year that belongs to the "
         "child she witnessed, not to her. None of the four is surnamed Borić "
         "or placed at Kamenica",
+    "Marko Borić":
+        "resembles Marko Ridjan 1895, married to Ana Papić - a different "
+        "surname on the coast, not Brinje, sharing only a given name and a "
+        "year one apart. This row's own register entry names his parents as "
+        "Niko Borić and Boletić Marija of Brinje house 148, which the "
+        "candidate has no connection to",
 }
 
 
