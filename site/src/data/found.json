@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 165,
+ "count": 166,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 40,
+  "Brinje, Croatia": 41,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1693,6 +1693,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 327 - the baptism of a child of Sertić Jure and Dražičević Ave, of Kamenica, names \"BORIĆ MARIJA\" as a witness alongside Javor Ivan. NOT IN THE TREE. A ninth person in this file named Marija Borić; kept separate from all the others, including the Manole Borić already tracked as a witness at Kamenica, since nothing ties them together beyond the shared surname and hamlet.",
    "slug": "marija-boric-witness-at-kamenica-1895"
+  },
+  {
+   "name": "Grgo Borić, witness at a Milaković baptism (image 335)",
+   "ahn": null,
+   "relation": "witness to the baptism of Milaković Ferole's child, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "circa 1895",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 335 - the baptism of a child of Milaković Ferole and Hobac Kate, of Brinje (no house number entered, exact date not captured in this image crop), names \"BORIĆ GRGO\" as a witness alongside a woman named Marica. NOT IN THE TREE. A second sighting of a Borić man witnessing a Milaković baptism - the first (this file, image 239, house 74) also paired him with a woman of a similar name, Marija. Plausibly the same recurring witness, but neither entry names a shared identity; kept as two sightings, not merged.",
+   "slug": "grgo-boric-witness-at-a-milakovic-baptism-image-335"
   }
  ]
 }
