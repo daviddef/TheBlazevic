@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 161,
+ "count": 162,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 39,
+  "Brinje, Croatia": 40,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1653,6 +1653,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 280, entry no. 5 - the baptism of \"HOFJEVAC TOME\", male, of Brinje house 160, son of Hofjevac Vid and Borić Marija, names \"BORIĆ MANULE\" as a witness alongside Jurašić Miko. NOT IN THE TREE. A plausible, unconfirmed match for the Manole Borić already in this file (wife of Tomo Dražičević, Kamenica house 24, and a witness at Kamenica in September 1894) - same given name, but this entry places her at Brinje itself rather than Kamenica, which is not established as the same woman.",
    "slug": "manole-boric-witness-at-brinje-house-160"
+  },
+  {
+   "name": "Marica Borić, daughter of Ive Borić",
+   "ahn": null,
+   "relation": "daughter of Ive Borić and Matija Borić, of Brinje house 141 - not in the tree",
+   "event": "baptism",
+   "date": "18 March 1895",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 286, entry no. 29 - \"BORIĆ MARICA\", female, born 18 March 1895, of Brinje house 141, daughter of BORIĆ IVE and BORIĆ MATIJA - the mother's own maiden surname is also entered as Borić, a second Borić-marries-Borić pairing at this exact house number. Witnesses Marković Mile i Kate. NOT IN THE TREE. A PUZZLE, STATED PLAINLY: this is the same house number already in this file for Juraj (1888), Petar (1890), Matija (1892) and Ove (1894), children of BORIĆ TOME and BORIĆ JELA - but here the father is entered as Ive, not Tome, and the mother as Matija, not Jela. The 1892 birth (Matija Borić, this file) already carried an uncertain reading of the mother's name as \"Matija,\" the same as the child's own name - whether that earlier entry, this one, or both point to a mother genuinely named Matija, a second Borić-Borić household sharing house 141, or a scribal confusion between two households is not established.",
+   "slug": "marica-boric-daughter-of-ive-boric"
   }
  ]
 }
