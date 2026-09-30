@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 152,
+ "count": 153,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 9,
+  "Kamenica, Brinje parish, Croatia": 10,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1563,6 +1563,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 251, entry no. 44 - the birth of \"KRNARIĆ MANDA\", female, of Brinje, no house number entered, names her parents as \"KRNARIĆ JURE\" and \"BORIĆ MARIJA\". NOT IN THE TREE. A sixth Borić woman named Marija married out of the surname (after the ones married into Hofjenc, a second Niko Borić's daughter at Kamenica, and twice into Vičić, and once into Jurajić) - kept separate from all of them, since none of those entries name a Krnarić connection and this one gives no house number to compare.",
    "slug": "marija-boric-wife-of-jure-krnaric"
+  },
+  {
+   "name": "Kate Borić, unmarried mother, of Kamenica",
+   "ahn": null,
+   "relation": "unmarried mother of Ove Borić, of Kamenica house 3 - not in the tree",
+   "event": "birth of a child",
+   "date": "3 July 1894",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 254, entry no. 57 - \"BORIĆ OVE\", female, of Kamenica house 3, father's column left blank, daughter of \"BORIĆ KATE\" alone - the child takes her unmarried mother's surname. NOT IN THE TREE. A second unmarried Borić mother in this file (after Luce Borić of Kamenica, this file, whose son Marko was born in 1891) - kept separate, since nothing ties the two Kamenica women together beyond the pattern itself. A new Kamenica house number (3) for the surname.",
+   "slug": "kate-boric-unmarried-mother-of-kamenica"
   }
  ]
 }
