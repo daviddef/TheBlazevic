@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 153,
+ "count": 154,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 10,
+  "Kamenica, Brinje parish, Croatia": 11,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1573,6 +1573,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 254, entry no. 57 - \"BORIĆ OVE\", female, of Kamenica house 3, father's column left blank, daughter of \"BORIĆ KATE\" alone - the child takes her unmarried mother's surname. NOT IN THE TREE. A second unmarried Borić mother in this file (after Luce Borić of Kamenica, this file, whose son Marko was born in 1891) - kept separate, since nothing ties the two Kamenica women together beyond the pattern itself. A new Kamenica house number (3) for the surname.",
    "slug": "kate-boric-unmarried-mother-of-kamenica"
+  },
+  {
+   "name": "Marija Borić, witness at Kamenica house 3",
+   "ahn": null,
+   "relation": "witness to the baptism of Ove Borić, of Kamenica - not in the tree",
+   "event": "witness at a baptism",
+   "date": "3 July 1894",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 254, entry no. 57 - the baptism of \"BORIĆ OVE\", female, of Kamenica house 3, illegitimate daughter of Borić Kate (this file), names \"BORIĆ MARIJA\" as a witness alongside Tomaš Jozo. NOT IN THE TREE. A seventh person in this file named Marija Borić; possibly a relative standing up for Kate Borić's child, but no document says so - kept separate from all the others of this name.",
+   "slug": "marija-boric-witness-at-kamenica-house-3"
   }
  ]
 }

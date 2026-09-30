@@ -243,6 +243,12 @@ SETTLED = {
         "her daughter's own 1894 birth year coincidentally matching theirs. "
         "This row is her daughter Manda Krnarić's baptism, not her own; none "
         "of the four candidates is surnamed Borić or tied to a Krnarić",
+    "Marija Borić, witness at Kamenica house 3":
+        "resembles the same four Marija Kalanj born 1893-94 already settled "
+        "for the Krnarić entry above - a different surname entirely, and the "
+        "resemblance is a given name plus a birth year that belongs to the "
+        "child she witnessed, not to her. None of the four is surnamed Borić "
+        "or placed at Kamenica",
 }
 
 
