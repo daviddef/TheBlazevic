@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 163,
+ "count": 164,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -11,7 +11,7 @@
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 13,
+  "Kamenica, Brinje parish, Croatia": 14,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1673,6 +1673,16 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 295, entry no. 65 - \"BORIĆ TOME\", male, born 24 June 1895, of Kamenica house 23, son of BORIĆ TOME and MESIĆ MANDA-MARIJA. Witnesses Jasenić Tome i Švegar Manole. NOT IN THE TREE. A PLAUSIBLE, UNCONFIRMED CONNECTION FLAGGED RATHER THAN MERGED: the mother's name, \"Mesić Manda-Marija,\" is entered in this exact double-given-name form for Luce Borić's mother too (this file, image 244, daughter of Lojze Borić at Kamenica house 83) - but the father there is Lojze, here Tome, and the house number differs (83 vs 23). Whether this is the same Mesić woman under two readings of her husband's name, two different Borić men who each married a woman named this way, or two unconnected households is not established.",
    "slug": "tome-boric-of-kamenica-house-23"
+  },
+  {
+   "name": "Stjepan Borić, witness at Kamenica house 5",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Mile, of Kamenica - not in the tree",
+   "event": "witness at a baptism",
+   "date": "17 August 1895",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 299, entry no. 81 - the baptism of \"SERTIĆ MILE\", male, of Kamenica house 5, son of Sertić Tadija and Vučetić Ruse, names \"BORIĆ STJEPAN\" as a witness alongside a second witness given only as \"Ove\" (possibly also surnamed Borić, the register naming both witnesses under one surname when they share it). NOT IN THE TREE. A new Borić given name (Stjepan) at Kamenica, kept separate from the several other Borić men already in this file since nothing ties him to any of them.",
+   "slug": "stjepan-boric-witness-at-kamenica-house-5"
   }
  ]
 }
