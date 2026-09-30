@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 139,
+ "count": 142,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 23,
+  "Brinje, Croatia": 26,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -1433,6 +1433,36 @@
    "place": "Kamenica, Brinje parish, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 215, entry no. 65 - the baptism of \"SERTIĆ IVAN\", male, of Kamenica house 5, son of Sertić Jure and Dražičević Ova, names \"BORIĆ JOZO\" as a witness alongside Mesić Toka. NOT IN THE TREE. Kept separate from the Jozo Borić already in this file (father of Ive Borić, of Križ Kamenica, married 1893) - both are Kamenica-area men of the same name at the same date, which makes them a plausible match, but nothing in either document names them as the same person.",
    "slug": "jozo-boric-witness-at-kamenica"
+  },
+  {
+   "name": "Jure Borić, witness at Brinje house 288",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Niko, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "25 June 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 216, entry no. 67 - the baptism of \"SERTIĆ NIKO\", male, of Brinje house 288, son of Sertić Miho and Pavlak Ove, names \"BORIĆ JURE\" as a witness alongside Matija. NOT IN THE TREE. A witness only, no house number of his own given - not yet tied to any household in this file.",
+   "slug": "jure-boric-witness-at-brinje-house-288"
+  },
+  {
+   "name": "Ana Borić, witness at Brinje house 289",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Kate, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "22 July 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 217, entry no. 71 - the baptism of \"SERTIĆ KATE\", female, of Brinje house 289, daughter of Sertić Mijo and Murat Manule, names \"BORIĆ ANA\" as a witness alongside Murat Tome. NOT IN THE TREE. A witness only, no house number of her own given - not yet tied to any household in this file.",
+   "slug": "ana-boric-witness-at-brinje-house-289"
+  },
+  {
+   "name": "Franjo Kalanj",
+   "ahn": null,
+   "relation": "son of Viol Kalanj and Kate Zoričić, of Brinje - a sibling of Kate Kalanj, this file - not in the tree",
+   "event": "baptism",
+   "date": "10 August 1893",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 218, entry no. 76 - \"KALANJ FRANJO\", male, of Brinje house 189, son of KALANJ VIOL and ZORIČIĆ KATE. NOT IN THE TREE. The same parents already in this file as Viol Kalanj and Zoričić Kate, whose daughter Kate was born December 1890 - confirming a second child and a real household, not a single register entry. The house number here, 189, does not match the 118 recorded for that earlier birth; whether the family moved, or one of the two numbers was misread, is not established.",
+   "slug": "franjo-kalanj"
   }
  ]
 }

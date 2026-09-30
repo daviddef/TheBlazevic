@@ -215,6 +215,21 @@ SETTLED = {
         "surnamed Borić and none at Brinje. This row is her son Ivo "
         "Jurajić's baptism, not her own; the resemblance is a given name "
         "and a birth year",
+    "Jure Borić, witness at Brinje house 288":
+        "resembles Jure Pavelić 1893, a different surname entirely - this "
+        "row names him only as a witness at a Sertić baptism, no house "
+        "number of his own given. The resemblance is a given name and a "
+        "year",
+    "Ana Borić, witness at Brinje house 289":
+        "resembles Ana Kalanj 1894, a different surname and a year off by "
+        "one - this row names her only as a witness at a Sertić baptism. "
+        "The resemblance is a given name and roughly a year",
+    "Franjo Kalanj":
+        "resembles two Franjo born 1893 in the tree, one a Kalanj - but "
+        "that Franjo Kalanj's mother is Margareta Butorac, and this row's "
+        "own register entry names the mother as Kate Zoričić, the same "
+        "woman already in this file as Viol Kalanj's wife since 1890. "
+        "Same given name and birth year, different parents entirely",
     "Marija Borić, wife of Jure Vičić":
         "resembles the same handful of Marija/Marije born 1890-92 this file "
         "has now settled three times for Borić women married out - a "
