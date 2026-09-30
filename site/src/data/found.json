@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 169,
+ "count": 170,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -15,7 +15,7 @@
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
-  "Lučane, Brinje parish, Croatia": 2,
+  "Lučane, Brinje parish, Croatia": 3,
   "Nova Oselica, Poljane valley": 3,
   "Oberfeichting (Zgornje Bitnje) 13, župnija Kranj-Šmartin": 1,
   "Oberfeichting (Zgornje Bitnje) 14, župnija Kranj-Šmartin": 1,
@@ -1733,6 +1733,16 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 345, entry no. 87 - the birth of \"HOFJEVAC LUKA\", male, of Brinje house 148, names his parents as \"HOFJEVAC JURE\" and \"PERKOVIĆ KATE\". Witnesses Hofjevac Pave i Blažanin Kar[a?]. NOT IN THE TREE. A fourth Perković individual in this file (after Đuso and her father Jozo at house 145, and Marko/Pere/Miko at Novi Kut) and the first Perković woman found - married into the same Hofjenc/Hofjevac family that has already absorbed several Borić women in this file. House 148 is the same number already in this file for Marko Borić, son of Niko Borić and Boletić Marija (image 266) - a coincidence noted, not asserted as meaningful, since the families (Hofjevac and Borić) are otherwise unconnected here.",
    "slug": "kate-perkovic-wife-of-jure-hofjevac"
+  },
+  {
+   "name": "Kate Borić, wife of Joso Domić",
+   "ahn": null,
+   "relation": "mother of Domić Luce, of Lučane - not in the tree",
+   "event": "birth of a child",
+   "date": "6 September 1896",
+   "place": "Lučane, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih 1893-1897 (DGS 005498262, waypoint 9R26-82S), image 348, entry no. 101 - the birth of \"DOMIĆ LUCE\", female, of Lučane, names her parents as \"DOMIĆ JOSO\" and \"BORIĆ KATE\" - both parents' own birthplace entered as Brinje, though the family now resides at Lučane. Witnesses Bičanić Marko i Domić Kate. NOT IN THE TREE. A fourth person in this file named Kate Borić; nothing ties her to the other three (Kamenica house 24 daughter of Niko, witness at house 85, unmarried mother at Kamenica house 3).",
+   "slug": "kate-boric-wife-of-joso-domic"
   }
  ]
 }
