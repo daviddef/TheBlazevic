@@ -264,6 +264,13 @@ SETTLED = {
         "entry above - a different surname on the coast, sharing only a "
         "given name. This row names her only as a witness to a Mesić "
         "baptism at Kamenica",
+    "Marija Borić, wife of Frane Vranić (1888)":
+        "resembles four Marijas born 1887-88 in the tree (Šestan, Babić, "
+        "Blažević and a Marija Milka Kalanj, a coastal child of Luka Kalanj) "
+        "- all infants on the coast, sharing only a given name and a decade. "
+        "This row's own register entry names her as the Borić wife of Frane "
+        "Vranić, of Brinje house 266, mother of a girl born in April 1888, "
+        "which none of them touches; not merged",
     "Marija Kalanj, wife of Ivan Mesić (1896)":
         "resembles Marija Anka Kalanj 1897 and Marija Papić 1896 in the tree "
         "- two Marijas born the same decade on the coast, one a Kalanj, but "
