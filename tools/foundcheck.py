@@ -254,6 +254,16 @@ SETTLED = {
         "before and on the coast, sharing only a given name. This row's own "
         "register entry names her parents as Viol Kalanj and Zoričić Kate of "
         "Brinje house 188, which the candidate has no connection to",
+    "Marija Borić, wife of Stipo Mesić":
+        "resembles Marija Blažević 1898 - a different surname, born a year "
+        "earlier on the coast, sharing only a given name and a decade. This "
+        "row's own register entry names her husband as Mesić Stipo of "
+        "Kamenica house 20, which the candidate has no connection to",
+    "Marija Borić, witness at Kamenica house 20":
+        "resembles the same Marija Blažević 1898 settled for the Mesić "
+        "entry above - a different surname on the coast, sharing only a "
+        "given name. This row names her only as a witness to a Mesić "
+        "baptism at Kamenica",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
