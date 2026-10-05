@@ -536,6 +536,27 @@ SETTLED = {
         "name and a year. This row is an adult informant named in a "
         "Brinje register entry, which none of the candidates touches; "
         "not merged",
+    "Marko Kalanj, son of Jure Kalanj and Franjica Bionović (house 188, 1896)":
+        "resembles a Marko infant of 1895-96 in the tree (a spouse or "
+        "child sharing only a first name and a year). This row is a "
+        "Brinje baptism naming its parents (Kalanj Jure x Bionović "
+        "Franjica, house 188), which the candidate does not touch; not "
+        "merged",
+    "Mate Kalanj and Manole, informants at Brinje house 176 (1896)":
+        "resembles an infant Mate of the 1890s in the tree (a coastal "
+        "child sharing only a first name and a few years). This row is "
+        "an adult informant named in a Brinje register entry, which "
+        "the candidate does not touch; not merged",
+    "Marija Kalanj, wife of Ivan Marinčić (Lučane 24, 1896)":
+        "resembles Marija Kalanj infants of the 1890s in the tree "
+        "(coastal children sharing a given name and surname). This row "
+        "is a married Kalanj woman of Lučane, mother of Marinčić "
+        "Marija, named in her own register entry; not merged",
+    "Marija Kalanj, informant at Brinje house 158 (1896)":
+        "resembles Marija Kalanj infants of the 1890s in the tree "
+        "(coastal children sharing a given name and surname). This row "
+        "is an adult informant named in a Brinje register entry; not "
+        "merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
