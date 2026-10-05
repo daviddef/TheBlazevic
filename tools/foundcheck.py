@@ -249,6 +249,11 @@ SETTLED = {
         "resemblance is a given name plus a birth year that belongs to the "
         "child she witnessed, not to her. None of the four is surnamed Borić "
         "or placed at Kamenica",
+    "Marija Kalanj, daughter of Viol Kalanj":
+        "resembles Marija Blažević 1898 - a different surname, born the year "
+        "before and on the coast, sharing only a given name. This row's own "
+        "register entry names her parents as Viol Kalanj and Zoričić Kate of "
+        "Brinje house 188, which the candidate has no connection to",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
