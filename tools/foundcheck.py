@@ -654,6 +654,43 @@ SETTLED = {
         "surnames, and this is a bride of 22 in her own marriage entry "
         "at Brinje house 118, sharing only a given name and a year; "
         "not merged",
+    "Marija Perlić, bride of 13 February 1893 (house 101)":
+        "resembles Marija infants of 1892-1893 in the tree - different "
+        "surnames, and this is a maiden of 35 in her own marriage "
+        "entry at Brinje house 101, sharing only a given name and a "
+        "decade; not merged",
+    "Ivan Javor, bridegroom of 29 January 1894 (house 82)":
+        "resembles Ivan infants of 1893-1894 in the tree - different "
+        "surnames, and this is a man of 29 in his own marriage entry, "
+        "sharing only the given name Ivan and a decade; not merged",
+    "Luka Javor, bridegroom of 29 January 1894 (house 76)":
+        "resembles Luka Martin Kalanj 1893 in the tree - a different "
+        "surname, sharing only the given name Luka and a decade; this "
+        "row is a bridegroom of 28 in his own marriage entry; not "
+        "merged",
+    "Ivan Borić, bridegroom of 8 April 1894 (house 126)":
+        "resembles Ivan infants of 1893-1894 in the tree - different "
+        "surnames, and this is a man of 23 in his own marriage entry, "
+        "sharing only the given name Ivan and a decade; not merged",
+    "Jure Perković, witness at the marriage of Dražanović Ivan and Šebalj Ruže (1894)":
+        "resembles Jure Pavelić 1893 in the tree - a different "
+        "surname, sharing only the given name Jure and a decade; this "
+        "row is a witness line in an 1894 Brinje marriage entry; not "
+        "merged",
+    "Marija Javor, widow, daughter of Perković Duka (marriage of 1895)":
+        "resembles Marija infants of 1894-1896 in the tree - different "
+        "surnames and, here, a widow in her own 1895 marriage entry, "
+        "sharing only a given name and a decade; not merged",
+    "Bare Perlić, bride of 26 January 1896 (house 101)":
+        "resembles Bare infants of 1890s in the tree - a different "
+        "surname, sharing only the given name; this row is a bride of "
+        "26 in her own marriage entry at Brinje house 101, born about "
+        "1870; not merged",
+    "Kate Perković, witness at the marriage of Bolešić Grgo and Vučetić Jela (1896)":
+        "resembles Kate children of the 1890s in the tree - different "
+        "surnames and generations; this row is an adult woman named in "
+        "a witness line of an 1896 Brinje marriage entry, sharing only "
+        "a given name; not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
