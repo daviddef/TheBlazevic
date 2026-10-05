@@ -362,6 +362,62 @@ SETTLED = {
         "Komadina Marko, of Brinje house 100, mother of a girl born in "
         "November 1889, which none of the candidates touches; not "
         "merged",
+    "Mate Kalanj, son of Jure Kalanj and Ane Vičić (house 249, 1890)":
+        "resembles three Mates born 1889-90 in the tree (Žunski, "
+        "Blažević and Pavelić) - coastal children and a spouse, none a "
+        "Kalanj of Brinje. This row own register entry names him as "
+        "the son of Kalanj Jure and Vičić Ane of Brinje house 249, "
+        "born in January 1890, which none of the candidates touches; "
+        "not merged",
+    "Marija Kalanj, daughter of Jure Kalanj and Franjica Bionović (house 188, 1890)":
+        "resembles four Marijas born 1890-91 in the tree (a published "
+        "Marija, Papić and two Pavelić) - coastal infants sharing only "
+        "a given name and a year. This row own register entry names "
+        "her as the daughter of Kalanj Jure and Bionović Franjica of "
+        "Brinje house 188, born on 3 June 1890, which none of the "
+        "candidates touches; not merged",
+    "Ivan Kalanj, son of Niko Kalanj and Marija Vučetić (house 231, 1891)":
+        "resembles Ivan Kalanj 1892, a child of Joso (Josephus) Kalanj "
+        "on the coast - same surname and first name, a year apart, "
+        "different place - and two other Ivans of 1890-91 with other "
+        "surnames. This row own register entry names his parents as "
+        "Niko Kalanj and Vučetić Marija of Brinje house 231, which "
+        "that coastal child family does not touch; not merged, though "
+        "the shared surname is the open question this archive has "
+        "carried since the first Brinje Kalanj was found",
+    "Marija Borić, daughter of Tome Borić and Marica Radotić (Kamenica 24, 1891)":
+        "resembles several Marijas born 1890-92 in the tree (a "
+        "published Marija, Papić, Boras and Pavelić) - coastal infants "
+        "sharing only a given name and a few years. This row own "
+        "register entry names her as the daughter of Borić Tome and "
+        "Radotić Marica of Kamenica house 24, which none of the "
+        "candidates touches; not merged",
+    "Ivan Borić and Marija Sertić, informants at Brinje house 139 (1891)":
+        "resembles Ivan Kalanj 1892, Ivan Krmpotić 1890 and Ivan "
+        "Perpić 1891 - infants and a spouse in the tree sharing only a "
+        "first name. This row names a Borić man only as an informant "
+        "at a Brinje birth in 1891, which none of them touches; not "
+        "merged",
+    "Marija Kalanj, daughter of Ferdo Kalanj and Ruže Krnarić (house 188, 1891)":
+        "resembles several Marijas born 1890-92 in the tree (a "
+        "published Marija, Papić, Boras and Pavelić) - coastal infants "
+        "sharing only a given name and a few years. This row own "
+        "register entry names her as the daughter of Kalanj Ferde and "
+        "Krnarić Ruže of Brinje house 188, which none of the "
+        "candidates touches; not merged",
+    "Josip Borić, son of Petar Borić and Ruže Zoričić (Kamenica 24, 1891)":
+        "resembles three Josips of 1890-92 in the tree (Blažević, "
+        "Papić and Glavičić) - coastal infants and a spouse sharing "
+        "only a given name and a year. This row own register entry "
+        "names him as the son of Borić Petar and Zoričić Ruže of "
+        "Kamenica house 24, which none of the candidates touches; not "
+        "merged",
+    "Ivan Borić and Ane, informants at Kamenica house 16 (1891)":
+        "resembles Ivan Kalanj 1892, Ivan Krmpotić 1890 and Ivan "
+        "Perpić 1891 - infants and a spouse in the tree sharing only a "
+        "first name. This row names a Borić man only as an informant "
+        "at a Kamenica birth in 1891, which none of them touches; not "
+        "merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
