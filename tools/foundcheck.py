@@ -461,6 +461,52 @@ SETTLED = {
         "entry names him as the son of Borić Lojze and Mesić Manole of "
         "Kamenica house 23, which none of the candidates touches; not "
         "merged",
+    "Marija Borić, wife of Franjo Jurajić (house 296, 1893)":
+        "resembles several Marijas born 1892-93 in the tree (two "
+        "coastal Marija Kalanj infants, a Boras, a Pavelić) - coastal "
+        "infants sharing only a given name and a year. This row is a "
+        "married Borić woman, mother of Jurajić Bare of Brinje house "
+        "296, named in her own register entry, which none of the "
+        "candidates touches; not merged",
+    "Marija Kalanj, wife of Ive Mesić (house 178, 1893)":
+        "resembles several Marija Kalanj infants of 1893 in the tree "
+        "(coastal children of Kalanj families) - infants sharing only "
+        "a given name and a surname, while this row is a married "
+        "Kalanj woman of Brinje, mother of Mesić Luce, named in her "
+        "own register entry; not merged",
+    "Mate Kalanj and Luce, informants at Brinje house 176 (1893)":
+        "resembles infants named Mate born 1892-94 in the tree (a "
+        "Blažević, a Miletić, a Pavelić) - coastal children sharing "
+        "only a first name and a year. This row is an adult couple "
+        "named as informants in a Brinje register entry, which none of "
+        "the candidates touches; not merged",
+    "Marija Kalanj, wife of Jure Fröhlich (house 68, 1894)":
+        "resembles Marija Kalanj infants of 1893-94 in the tree "
+        "(coastal children of Kalanj families) - infants sharing only "
+        "a name and a few years, while this row is a married Kalanj "
+        "woman of Brinje, mother of Fröhlich Jure, named in her own "
+        "register entry; not merged",
+    "Mate Kalanj and Kate Šebalj, informants at Brinje house 157 (1894)":
+        "resembles infants named Mate born 1892-94 in the tree "
+        "(coastal children sharing only a first name and a year). This "
+        "row is an adult informant named in a Brinje register entry, "
+        "which none of the candidates touches; not merged",
+    "Marko Borić, son of Niko Borić and Marija (house 148, 1894)":
+        "resembles Marko Ridjan 1895 in the tree (a spouse in the Papić "
+        "line, sharing only a first name and a year). This row is a Brinje "
+        "baptism entry that names its parents (Borić Niko x Marija, "
+        "house 148), which the candidate does not touch; not merged",
+    "Ivan Borić, informant at Kamenica house 13 (1894)":
+        "resembles Ivan infants of 1892-94 in the tree (coastal "
+        "children sharing only a first name and a few years). This row "
+        "is an adult informant named in a Brinje register entry, which "
+        "none of the candidates touches; not merged",
+    "Marija Kalanj, wife of Ivan Marinčić (Lučane, 1894)":
+        "resembles Marija Kalanj infants of 1893-94 in the tree "
+        "(coastal children of Kalanj families) - infants sharing only "
+        "a given name and a surname, while this row is a married "
+        "Kalanj woman of Lučane, mother of Marinčić Manole, named in "
+        "her own register entry; not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
