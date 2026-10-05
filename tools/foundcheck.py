@@ -691,6 +691,14 @@ SETTLED = {
         "surnames and generations; this row is an adult woman named in "
         "a witness line of an 1896 Brinje marriage entry, sharing only "
         "a given name; not merged",
+    "Bare Borić, bride of 15 January 1899 (Kamenica 23)":
+        "resembles Bare infants of the 1890s in the tree - a different "
+        "surname and a woman of 24 in her own marriage entry at "
+        "Kamenica 23, sharing only a given name; not merged",
+    "Matija Borić, widow Smoljić, bride of 3 July 1898 (Križpolje-Plašćica 168)":
+        "resembles Matija infants of the 1890s in the tree - different "
+        "surnames and, here, a widow of 48 in her own marriage entry, "
+        "sharing only a given name; not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
