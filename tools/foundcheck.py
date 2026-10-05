@@ -626,6 +626,34 @@ SETTLED = {
         "sharing only the given name Ivan. This row is an informants "
         "line naming a Javor man at a Lohmer birth in Brinje, which "
         "that child of the tree does not touch; not merged",
+    "Ivan Javor, widower bridegroom of 18 November 1888 (house 83)":
+        "resembles Ivan children of 1887-1888 in the tree - different "
+        "surnames, sharing only the given name Ivan and a year. This "
+        "row is a 70-year-old Javor widower of Brinje house 83 in his "
+        "own marriage entry, which none of those children touches; not "
+        "merged",
+    "Marija Javor, bride of 9 February 1890 (house 90)":
+        "resembles Marija children of 1890-1891 in the tree - "
+        "different surnames and, here, a bride of 22 in her own "
+        "marriage entry, sharing only a given name and a decade; not "
+        "merged",
+    "Marija Borić, widow Bišanić, bride of 23 November 1890":
+        "resembles Marija children of 1890-1891 in the tree - "
+        "different surnames and, here, a widow of 33 in her own "
+        "marriage entry, sharing only a given name and a decade; not "
+        "merged",
+    "Marija Kalanj, bride of 24 January 1892 (house 231)":
+        "resembles Marija Kalanj infants of 1893 in the tree (coastal "
+        "Klenovica children) and other Marija of 1892 - the surname "
+        "match is real but this row is a woman of 21 in her own 1892 "
+        "marriage entry at Brinje house 231, born about 1871 to Kalanj "
+        "Joso and Ruže, a different generation from any infant of "
+        "1893, and no document links her to the tree; not merged",
+    "Marija Javor, bride of 23 October 1892 (house 118)":
+        "resembles Marija infants of 1892-1893 in the tree - different "
+        "surnames, and this is a bride of 22 in her own marriage entry "
+        "at Brinje house 118, sharing only a given name and a year; "
+        "not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
