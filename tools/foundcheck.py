@@ -296,6 +296,72 @@ SETTLED = {
         "of Brinje house 188, which that child's family does not touch; not "
         "merged, though the shared surname is the open question this archive "
         "has carried since the first Brinje Kalanj was found",
+    "Kata Borić, informant at Kamenica house 8 (1888)":
+        "resembles Kata Blažević 1889 - a different surname, a year "
+        "later, on the coast, sharing only a given name. This row "
+        "names her only as an informant at a Mesić baptism at Kamenica "
+        "house 8, which the candidate has no connection to",
+    "Mile Kalanj, son of Tome Kalanj and Marija Kalanj (house 188, 1888)":
+        "resembles Mile Špalj 1888, a child of Matija Prpić on the "
+        "coast - a different surname sharing only the given name and "
+        "the year. This row own register entry names his parents as "
+        "Kalanj Tome and Kalanj Marija of Brinje house 188, which that "
+        "child family does not touch; not merged",
+    "Marija Kalanj, wife of Jure Fröhlich (1889)":
+        "resembles several Marijas born 1888-90 in the tree (Papić, "
+        "Šestan and a Marija Milka Kalanj, all infants on the coast) - "
+        "none a married woman of Brinje. This row own register entry "
+        "names her as the Kalanj wife of Fröhlich Jure, of Brinje "
+        "house 68, mother of a girl born in January 1889, which none "
+        "of the candidates touches; not merged",
+    "Marija Borić, daughter of Lojze Borić and Marija Mesić (Kamenica 23, 1889)":
+        "resembles several Marijas born 1888-90 in the tree (Papić, "
+        "Šestan and a Marija Milka Kalanj) - coastal infants sharing "
+        "only a given name and a decade. This row own register entry "
+        "names her as the daughter of Borić Lojze and Mesić Marija, of "
+        "Kamenica house 23, which none of the candidates touches; not "
+        "merged",
+    "Stjepan Borić, informant at Kamenica house 23 (1889)":
+        "resembles Stjepan Žubrinić 1888, a coastal child of Kata "
+        "Oršanić - a different surname sharing only a given name. This "
+        "row names a Borić man only as an informant at a Kamenica "
+        "birth in 1889, which the candidate has no connection to; not "
+        "merged",
+    "Stjepan Borić, informant at Lučane house 36 and Brinje house 60 (1889)":
+        "resembles Stjepan Žubrinić 1888, a coastal child of Kata "
+        "Oršanić - a different surname sharing only a given name. This "
+        "row names a Borić man only as an informant at two "
+        "Brinje-parish births in May 1889, which the candidate has no "
+        "connection to; not merged",
+    "Kate Perković, wife of Ivan Javor (1889)":
+        "resembles Kate Prpić 1890, a coastal child of Lucija - a "
+        "different surname, a year later, sharing only a given name. "
+        "This row own register entry names her as the Perković wife of "
+        "Javor Ivan, of Brinje house 70, mother of a boy born in "
+        "August 1889, which the candidate does not touch; not merged",
+    "Marija Borić, wife of Franjo Jurajić (house 286, 1889)":
+        "resembles several Marijas born 1888-90 in the tree (Papić, "
+        "Šestan, a Marija Milka Kalanj and one published Marija) - "
+        "coastal infants sharing only a given name and a decade. This "
+        "row own register entry names her as the Borić wife of Jurajić "
+        "Franjo, of Brinje house 286, mother of a girl born in "
+        "September 1889, which none of the candidates touches; not "
+        "merged",
+    "Marija Borić, wife of Jure Krnarić (house 208, 1889)":
+        "resembles several Marijas born 1888-90 in the tree (Papić, "
+        "Šestan, a Marija Milka Kalanj and a published Marija) - "
+        "coastal infants sharing only a given name and a decade. This "
+        "row own register entry names her as the Borić wife of Krnarić "
+        "Jure, of Brinje house 208, mother of a girl born in November "
+        "1889, which none of the candidates touches; not merged",
+    "Marija Perković, wife of Marko Komadina (1889)":
+        "resembles several Marijas born 1888-90 in the tree (Papić, "
+        "Šestan, a Marija Milka Kalanj and a published Marija) - "
+        "coastal infants sharing only a given name and a decade. This "
+        "row own register entry names her as the Perković wife of "
+        "Komadina Marko, of Brinje house 100, mother of a girl born in "
+        "November 1889, which none of the candidates touches; not "
+        "merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
