@@ -269,6 +269,18 @@ SETTLED = {
         "earlier on the coast, sharing only a given name. This row names her "
         "only as a witness to a Murat baptism at Brinje house 228, which the "
         "candidate has no connection to",
+    "Marija Kalanj, daughter of Jure Kalanj and Vučetić Manole (house 231, 1891)":
+        "resembles Marija 1890 and three other Marijas born 1890-92 in the "
+        "tree - none of them a Kalanj of Brinje. This row's own register "
+        "entry names her parents as Jure Kalanj and Vučetić Manole of Brinje "
+        "house 231, which none of the candidates touches",
+    "Petar Kalanj, son of Tome Kalanj and Nesić Marija":
+        "resembles Petar Kalanj 1890, a child of Joso (Josephus) Kalanj on "
+        "the coast - same surname, a year apart, different place. This row's "
+        "own register entry names his parents as Tome Kalanj and Nesić Marija "
+        "of Brinje house 188, which that child's family does not touch; not "
+        "merged, though the shared surname is the open question this archive "
+        "has carried since the first Brinje Kalanj was found",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
