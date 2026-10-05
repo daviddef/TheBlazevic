@@ -507,6 +507,35 @@ SETTLED = {
         "a given name and a surname, while this row is a married "
         "Kalanj woman of Lučane, mother of Marinčić Manole, named in "
         "her own register entry; not merged",
+    "Marija Borić, daughter of Vijo Borić and Ane Sertić (house 186, 1895)":
+        "resembles Marija infants of 1895 in the tree (coastal "
+        "children sharing only a given name and a year). This row is a "
+        "Brinje baptism entry naming its parents (Borić Vijo x Sertić "
+        "Ane, house 186), which none of the candidates touches; not "
+        "merged",
+    "Marija Mesić, wife of Tome Kalanj (house 188, 1895)":
+        "resembles Marija or Manole Kalanj infants of 1895 in the tree "
+        "(coastal children sharing a given name and a surname). This "
+        "row is a married Mesić woman of Brinje, mother of Kalanj "
+        "Manole, named in her own register entry (Kalanj Tome x Mesić "
+        "Marija, house 188), which none of the candidates touches; not "
+        "merged",
+    "Joso Borić and Marica Vranić, informants at Brinje house 124 (1895)":
+        "resembles a Joso born in the tree around 1895 (a coastal "
+        "child sharing only a first name and a year). This row is an "
+        "adult informant named in a Brinje register entry, which the "
+        "candidate does not touch; not merged",
+    "Marija Borić, informant at Kamenica house 5 (1895)":
+        "resembles Marija infants of 1895-96 in the tree (children "
+        "sharing only a given name and a year). This row is an adult "
+        "informant named in a Brinje register entry, which none of the "
+        "candidates touches; not merged",
+    "Marko Borić, informant at Brinje house 60 (1896)":
+        "resembles Marko Ridjan 1895 (a spouse in the Papić line) or "
+        "another Marko of 1895-96 in the tree, sharing only a first "
+        "name and a year. This row is an adult informant named in a "
+        "Brinje register entry, which none of the candidates touches; "
+        "not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
