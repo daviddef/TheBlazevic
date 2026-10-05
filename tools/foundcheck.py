@@ -557,6 +557,33 @@ SETTLED = {
         "(coastal children sharing a given name and surname). This row "
         "is an adult informant named in a Brinje register entry; not "
         "merged",
+    "Marija Borić, wife of Vid Hofjevac (house 160, 1896)":
+        "resembles Marija infants of 1896 in the tree (children "
+        "sharing only a given name and a year). This row is a married "
+        "Borić woman of Brinje, mother of Hofjevac Mile, named in her "
+        "own register entry; not merged",
+    "Marija Kalanj, wife of Jure Fröhlich (house 68, 1897)":
+        "resembles Marija Kalanj infants of the 1890s in the tree "
+        "(coastal children sharing a given name and surname). This row "
+        "is a married Kalanj woman of Brinje, mother of Fröhlich "
+        "Rosika, named in her own register entry; not merged",
+    "Marija Borić and Ferdo Milaković, informants at Kamenica house 27 (1897)":
+        "resembles Marija or Ferdo infants of the 1890s in the tree "
+        "(coastal children sharing only a given name and a few years). "
+        "This row is an adult informant pair named in a Brinje "
+        "register entry, which none of the candidates touches; not "
+        "merged",
+    "Rosa Borić and Marko Sertić, informants at Brinje house 138 (1897)":
+        "resembles an infant Rosa or Marko of the 1890s in the tree "
+        "(children sharing only a given name and a few years). This "
+        "row is an adult informant pair named in a Brinje register "
+        "entry, which the candidate does not touch; not merged",
+    "Marija Borić and Marko Hofjevac, informants at Brinje house 146 (1897)":
+        "resembles Marija or Marko infants of the 1890s in the tree "
+        "(coastal children sharing only a given name and a few years). "
+        "This row is an adult informant pair named in a Brinje "
+        "register entry, which none of the candidates touches; not "
+        "merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
