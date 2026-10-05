@@ -264,6 +264,14 @@ SETTLED = {
         "entry above - a different surname on the coast, sharing only a "
         "given name. This row names her only as a witness to a Mesić "
         "baptism at Kamenica",
+    "Marija Kalanj, wife of Ivan Mesić (1896)":
+        "resembles Marija Anka Kalanj 1897 and Marija Papić 1896 in the tree "
+        "- two Marijas born the same decade on the coast, one a Kalanj, but "
+        "neither a married woman of Brinje. This row's own register entry "
+        "names her as the wife of Mesić Ivan, of Brinje house 176, mother of "
+        "a child born in October 1896, which neither candidate touches; the "
+        "shared surname Kalanj is the open question this archive has carried "
+        "since the first Brinje Kalanj was found, and the row is not merged",
     "Marija Kalanj, witness at Brinje house 228":
         "resembles Marija Blažević 1898 - a different surname, born a year "
         "earlier on the coast, sharing only a given name. This row names her "
