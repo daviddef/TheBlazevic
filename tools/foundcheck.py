@@ -264,6 +264,11 @@ SETTLED = {
         "entry above - a different surname on the coast, sharing only a "
         "given name. This row names her only as a witness to a Mesić "
         "baptism at Kamenica",
+    "Marija Kalanj, witness at Brinje house 228":
+        "resembles Marija Blažević 1898 - a different surname, born a year "
+        "earlier on the coast, sharing only a given name. This row names her "
+        "only as a witness to a Murat baptism at Brinje house 228, which the "
+        "candidate has no connection to",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "

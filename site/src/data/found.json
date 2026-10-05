@@ -1,11 +1,11 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 204,
+ "count": 206,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 68,
+  "Brinje, Croatia": 70,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
@@ -2084,6 +2084,26 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 483, entry no. 137 - the baptism of \"KALANJ STIPE\", male, of Brinje house 249, son of Kalanj Mijo and Krnarić Manda, names \"KALANJ LUCE\" as a witness alongside Vučetić Stipe. NOT IN THE TREE. A witness only - a first Kalanj woman named Luce in this file (the surname reading is the usual one, with the usual Kalanj/Kalauj doubt in this hand); at the house of Mijo Kalanj, so most likely a relative of the child's father standing up for him.",
    "slug": "luce-kalanj-witness-at-brinje-house-249"
+  },
+  {
+   "name": "Marija Kalanj, witness at Brinje house 228",
+   "ahn": null,
+   "relation": "witness to the baptism of Murat Jure, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "20 December 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 485, entry no. 148 - the baptism of \"MURAT JURE\", male, born 17 and registered 20 December 1899, of Brinje house 228, son of Murat Jure and Rajković Marija, names \"KALANJ MARIJA\" as a witness alongside a Petrović Ove (surname read with some doubt). NOT IN THE TREE. A witness only, and the surname carries the usual Kalanj/Kalauj doubt of this hand (see Ruže Kalanj, this file). The given name Marija is that of Marija Vučetić, wife of Niko Kalanj of house 231 (this file), and of the Marija of the 1899 Vučetić-mother Kalanj entries at that house; whether this is that woman standing witness at another household is a plausible, unconfirmed link, not a merge.",
+   "slug": "marija-kalanj-witness-at-brinje-house-228"
+  },
+  {
+   "name": "Manole Borić, daughter of Grgo Borić and Marija Milaković (house 126)",
+   "ahn": null,
+   "relation": "daughter of Grgo Borić and Milaković Marija, of Brinje house 126 - a third child of that household - not in the tree",
+   "event": "baptism",
+   "date": "30 December 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries running to the end of the 1899 sequence and booked on 1 January), image 487, entry no. 155 - \"BORIĆ MANOLE\", female, born 30 December 1899 and registered 1 January (year written as 1899 in the entry, most likely 1900 by the date), of Brinje house 126, daughter of BORIĆ GRGO and MILAKOVIĆ MARIJA. Witnesses Blažanin Viol i Manola, matičar Vučetić Stipe. NOT IN THE TREE. A THIRD CHILD of the Grgo Borić and Marija Milaković household already in this file (Stjepan, born August 1893; Ana, born 25 December 1894), at the same house number, 126, and with both parents' names exactly as before - five years after the last child. This is the steadiest Grgo Borić household in the file, and the one that carries the Borić Grgo witness at house 74 (this file) only by the shared given name; whether those men are the same is still not established. The father is entered as Grgo, not Ivan or Ive, so the Ivan/Ive Borić of house 126 (father of Juko and the widow Luce, this file) is again not this man's household. Kept apart from the other Manole Borić in this file (daughter of Alojz Borić, house 23).",
+   "slug": "manole-boric-daughter-of-grgo-boric-and-marija-milakovic-house-126"
   }
  ]
 }
