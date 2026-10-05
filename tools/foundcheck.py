@@ -699,6 +699,61 @@ SETTLED = {
         "resembles Matija infants of the 1890s in the tree - different "
         "surnames and, here, a widow of 48 in her own marriage entry, "
         "sharing only a given name; not merged",
+    "Milka Borić, child of Ivan Borić and Matija, died aged 10 (house 141, 1889)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marija Borić, daughter of Tome Borić and Marica, died aged 4 (Kamenica 24, 1891)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Mate Kalanj, son of Jure Kalanj and Ane, died aged 12 months (house 249, 1891)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marija Borić, widow of 83 (Kamenica 28, 1891)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Jure Kalanj, son of Mijo Kalanj and Ane, died aged 5 (house 249, 1892)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Joso Borić, son of Niko Borić and Mare, died aged 6 (house 142, 1893)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marko Borić, son of Lojze Borić and Ruže, died aged 15 (Kamenica 23, 1894)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marko Kalanj, son of Jure Kalanj and Franjica, died aged 9 (house 188, 1894)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marija Borić, daughter of Vujo Borić and Ane, died aged 3 (house 126, 1897)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marija Borić, daughter of Ivan Borić and Matija, died aged 3 (house 141, 1897)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
+    "Marija Borić, daughter of Tomo Borić and Marica, died aged 8 (Kamenica 24, 1899)":
+        "a Brinje death entry that names its own Borić or Kalanj "
+        "parents or spouse and house; the tree candidates are children "
+        "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
+        "in other parishes, matching only on a given name and a year",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
