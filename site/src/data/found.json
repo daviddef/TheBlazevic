@@ -1,17 +1,17 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 187,
+ "count": 193,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
   "Brinje parish, Croatia": 3,
-  "Brinje, Croatia": 57,
+  "Brinje, Croatia": 61,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
-  "Kamenica, Brinje parish, Croatia": 19,
+  "Kamenica, Brinje parish, Croatia": 21,
   "Karlobag": 41,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
@@ -1913,6 +1913,66 @@
    "place": "Brinje, Croatia",
    "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 454, entry no. 24 - \"KALANJ MARIJA\", female, born 13 March 1899 and registered 16 March, of Brinje house 188, daughter of KALANJ VIOL and ZORIČIĆ KATE. Witnesses Draženović Joso i Manok, matičar Sertić Šimun. NOT IN THE TREE. A THIRD CHILD of the Viol Kalanj and Kate Zoričić household already in this file (Kate, December 1890, house 118; Franjo, August 1893, house 189) - the same two parents' names, eight years after the second. The house number is a third variant, 188, beside 118 and 189: all three are read as written, and a house number that drifts by one digit across three births to the same parents is probably a scribal habit in the register rather than three addresses. Kept separate from the several women named Marija Kalanj in the tree.",
    "slug": "marija-kalanj-daughter-of-viol-kalanj"
+  },
+  {
+   "name": "Bare Hofjevac, daughter of Hofjevac Viol and Marija Borić",
+   "ahn": null,
+   "relation": "daughter of Hofjevac Viol (earlier read Vid) and Borić Marija, of Brinje house 160 - a second child of that household - not in the tree",
+   "event": "baptism",
+   "date": "9 August 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 461, entry no. 51 - \"HOFJEVAC BARE\", female, born 9 August and registered 10 August 1899, of Brinje house 160, daughter of HOFJEVAC VIOL and BORIĆ MARIJA. Witnesses Hofjevac Marko i Bare, matičar Vučetić Stipe; later marginal notes in a twentieth-century hand. NOT IN THE TREE. A SECOND CHILD of the household already in this file as Marija Borić, wife of Vid Hofjevac (Hofjevac Tome, born 3 January 1895, house 160): the same house number and the same mother. The father's given name is entered here as Viol where the 1895 entry was read as Vid - the two short forms are close enough in this hand that one man under two readings is the natural explanation, not asserted. This is the same eighth Marija Borić already in this file, not a new woman.",
+   "slug": "bare-hofjevac-daughter-of-hofjevac-viol-and-marija-boric"
+  },
+  {
+   "name": "Kate Borić, wife of Petar Sertić",
+   "ahn": null,
+   "relation": "mother of Sertić Tomo, of Brinje house 128 - not in the tree",
+   "event": "birth of a child",
+   "date": "7 August 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 461, entry no. 52 - \"SERTIĆ TOMO\", male, born 7 August and registered 13 August 1899, of Brinje house 128, son of SERTIĆ PETAR and BORIĆ KATE. Witnesses Jelačić Tomo i BORIĆ JELA, matičar Vučetić Stipe. NOT IN THE TREE. A fifth woman named Kate Borić in this file, kept apart from the Kate Borić who was a witness at house 85, the unmarried mother at Kamenica, the wife of Joso Domić at Lučane and the Kate of Kamenica house 24, since nothing ties any of them together beyond the name. Sertić is the surname Borić women are found marrying into most often in this file: Luce Borić (widow, married Sertić Tove, Brinje 288, 1894), Tauka (Kamenica 13), Marija (married Sertić Tave, Kamenica 13, 1897), France (Kamenica 28) and now Kate (Brinje 128).",
+   "slug": "kate-boric-wife-of-petar-sertic"
+  },
+  {
+   "name": "Jela Borić, witness at Brinje house 128",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Tomo, of Brinje - not in the tree",
+   "event": "witness at a baptism",
+   "date": "13 August 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 461, entry no. 52 - the baptism of \"SERTIĆ TOMO\", male, of Brinje house 128, son of Sertić Petar and Borić Kate, names \"BORIĆ JELA\" as a witness alongside Jelačić Tomo. NOT IN THE TREE. A witness only. The only Borić woman called Jela already in this file is the mother of the house-141 Borić-marries-Borić household (Tome Borić and Jela Borić); this may be her standing up for a Borić relative's child, but nothing in the entry says so and she is not merged with her.",
+   "slug": "jela-boric-witness-at-brinje-house-128"
+  },
+  {
+   "name": "Joso Borić, son of Stipe Borić and Luce Sertić",
+   "ahn": null,
+   "relation": "son of Borić Stipe and Sertić Luce, of Kamenica house 23 - a third Borić household at that house number - not in the tree",
+   "event": "baptism",
+   "date": "18 August 1899",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 462, entry no. 55 - \"BORIĆ JOSO\", male, born 18 August and registered 20 August 1899, of Kamenica house 23, son of BORIĆ STIPE and SERTIĆ LUCE (both entered as of Kamenica). Witnesses Blažanin Šime i Marija. Later marginal notes dated 1924 and 1982 record his own later civil events (not fully read). NOT IN THE TREE. KAMENICA HOUSE 23 NOW HOLDS THREE BORIĆ FATHERS IN THIS FILE: Tome Borić (son Tome, 1895, wife Mesić Manda-Marija), Alojz Borić (daughter Manole, January 1899, wife Mesić Manola) and now Stipe Borić (this child, wife Sertić Luce). The wives differ (Mesić, Mesić, Sertić), so these read as three households sharing one house number - the same shape already seen at Kamenica house 24 - rather than one man under three names; but Stipe and the Borić Stjepan who witnessed a Sertić baptism at Kamenica house 5 in 1895 (this file) may be one man, which is a plausible, unconfirmed link and not a merge. Another Borić man marrying a Sertić woman: Sertić is again the partner surname.",
+   "slug": "joso-boric-son-of-stipe-boric-and-luce-sertic"
+  },
+  {
+   "name": "Kate Borić, wife of Marko Sertić",
+   "ahn": null,
+   "relation": "mother of Sertić Ruže, of Brinje house 127 - not in the tree",
+   "event": "birth of a child",
+   "date": "13 August 1899",
+   "place": "Brinje, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 462, entry no. 53 - \"SERTIĆ RUŽE\", female, born 13 August and registered 15 August 1899, of Brinje house 127, daughter of SERTIĆ MARKO and BORIĆ KATE. Witnesses Jurašić Jure i Mesić Ovca, matičar Vučetić Stipe. NOT IN THE TREE. A SIXTH KATE BORIĆ, AND A PUZZLE STATED RATHER THAN SMOOTHED: the baptism immediately before this one in the register (entry 52, born 7 August, Brinje house 128, this file) names a mother Borić Kate married to Sertić PETAR; this one, six days later at house 127, names a mother Borić Kate married to Sertić MARKO. Two different husbands, two neighbouring house numbers, one mother's name and surname, within a week - two different women both called Kate Borić who married into Sertić, or one woman and a scribal slip on the husband's name or the house. Not resolved, and not guessed at; the two rows are kept separate.",
+   "slug": "kate-boric-wife-of-marko-sertic"
+  },
+  {
+   "name": "Lojze Borić, witness at Kamenica house 5",
+   "ahn": null,
+   "relation": "witness to the baptism of Sertić Marko, of Kamenica house 5 - not in the tree",
+   "event": "witness at a baptism",
+   "date": "18 August 1899",
+   "place": "Kamenica, Brinje parish, Croatia",
+   "citation": "FamilySearch, Croatia Church Books 1516-1994, Brinje Matična knjiga rođenih (third item on the same film as DGS 005498262, waypoint 9R26-82S, entries numbering within calendar year 1899), image 462, entry no. 54 - the baptism of \"SERTIĆ MARKO\", male, born and registered 18 August 1899, of Kamenica house 5, son of Sertić Pave and Vučetić Marica, names \"BORIĆ LOJZE\" as a witness alongside a woman read as Anica (surname not given). NOT IN THE TREE. A witness only. \"Lojze\" is the short form of Alojz and is the name of the father of Luce Borić at Kamenica house 83 (this file, 1894); the same hamlet, a Sertić baptism, and a name already tied to Alojz Borić of Kamenica house 23 (this file, January 1899) make this a plausible, unconfirmed sighting of that same man - not merged. Kamenica house 5 is also the house where Borić Stjepan witnessed a Sertić baptism in 1895 (this file).",
+   "slug": "lojze-boric-witness-at-kamenica-house-5"
   }
  ]
 }
