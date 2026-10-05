@@ -754,6 +754,13 @@ SETTLED = {
         "parents or spouse and house; the tree candidates are children "
         "of other families (Pavelić, Blažević, Papić, Ridjan, Boras) "
         "in other parishes, matching only on a given name and a year",
+    "Petar Kalanj, son of Tome Kalanj and Marija, died aged 3 (house 181 as read, 1894)":
+        "a Brinje death entry that names its own Kalanj parents and "
+        "house; the one tree candidate, Viktor Petar, was BORN in 1894 "
+        "(a sibling of Roza Zorica Kalanj), while this Petar was "
+        "already three years old when he died in October 1894, so they "
+        "cannot be the same child; the match is on the given name "
+        "Petar and the year only.",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
