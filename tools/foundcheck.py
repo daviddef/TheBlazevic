@@ -254,7 +254,7 @@ SETTLED = {
         "before and on the coast, sharing only a given name. This row's own "
         "register entry names her parents as Viol Kalanj and Zoričić Kate of "
         "Brinje house 188, which the candidate has no connection to",
-    "Marija Borić, wife of Stipo Mesić":
+    "Matija Borić, wife of Stipo Mesić (Kamenica 20, 1899)":
         "resembles Marija Blažević 1898 - a different surname, born a year "
         "earlier on the coast, sharing only a given name and a decade. This "
         "row's own register entry names her husband as Mesić Stipo of "
@@ -584,6 +584,48 @@ SETTLED = {
         "This row is an adult informant pair named in a Brinje "
         "register entry, which none of the candidates touches; not "
         "merged",
+    "Marija Borić, wife of Niko Hofjevac (house 253, 1897)":
+        "resembles Marija infants of 1897 in the tree (children "
+        "sharing only a given name and a year). This row is a married "
+        "Borić woman of Brinje, mother of Hofjevac Marija, named in "
+        "her own register entry; not merged",
+    "Marija Kalanj and Viol Bartolović, informants at Brinje house 224 (1898)":
+        "resembles Marija Kalanj or Viol infants of the 1890s in the "
+        "tree (coastal children sharing a given name and a surname). "
+        "This row is an adult informant pair named in a Brinje "
+        "register entry; not merged",
+    "Marija Mesić, wife of Tome Kalanj (house 188, 1898)":
+        "resembles Marija or Franciska Kalanj infants of the 1890s in "
+        "the tree (coastal children sharing a given name and a "
+        "surname). This row is a married Mesić woman of Brinje, mother "
+        "of Kalanj Franciska, named in her own register entry; not "
+        "merged",
+    "Marija Borić, wife of Ivan Borić (house 141, 1898)":
+        "resembles Marija infants of the 1890s in the tree (children "
+        "sharing only a given name and a few years). This row is a "
+        "married Borić woman of Brinje, mother of Borić Ane, named in "
+        "her own register entry; not merged",
+    "Marija Boležić, wife of Niko Borić (house 142, 1898)":
+        "resembles Marija or Marica infants of 1898 in the tree "
+        "(children sharing only a given name and a year). This row is "
+        "a married woman of Brinje, mother of Borić Marica, named in "
+        "her own register entry (Borić Niko x Boležić Marija); not "
+        "merged",
+    "Marija Vuković, wife of Ive Borić (house 126, 1898)":
+        "resembles Marija or Niko infants of 1898 in the tree "
+        "(children sharing only a given name and a year). This row is "
+        "a baptism naming its parents (Borić Ive x Vuković Marija, "
+        "house 126), which none of the candidates touches; not merged",
+    "Marija Perkić, wife of Jure Vranić (house 265, 1898)":
+        "resembles Marija or Bare infants of 1898 in the tree "
+        "(children sharing only a given name and a year). This row is "
+        "a married woman of Brinje, mother of Vranić Bare, named in "
+        "her own register entry; not merged",
+    "Ivan Javor and Kate, informants at Brinje house 257 (1899)":
+        "resembles Ivan Kalanj 1900 in the tree - a different surname, "
+        "sharing only the given name Ivan. This row is an informants "
+        "line naming a Javor man at a Lohmer birth in Brinje, which "
+        "that child of the tree does not touch; not merged",
     "Marko Borić":
         "resembles Marko Ridjan 1895, married to Ana Papić - a different "
         "surname on the coast, not Brinje, sharing only a given name and a "
