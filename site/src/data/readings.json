@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 136,
+  "rows": 139,
   "people": 109,
   "derived": 70,
   "onDirectLine": 0,
@@ -16,7 +16,7 @@
   ],
   [
    "death",
-   20
+   22
   ],
   [
    "baptism-of-child",
@@ -36,7 +36,7 @@
   ],
   [
    "death-of-spouse",
-   4
+   5
   ],
   [
    "census",
@@ -405,6 +405,20 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1809",
+   "cite": "Karlobag Umrli 1804-1861 page 12 (image 125 left, DGS 5481649, waypoint 9RK1-HZK) — «19. [Sept.] Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34, provisa omnibus sacramentis obiit in Domino, atque in propria crypta in coemeterio existente humata est». READ FROM THE IMAGE. The day and month are the tree's to the day, the by-name «Maja» is the tree's, and the husband is Michael Gergacs; THE AGE DOES NOT FIT (34 in 1809 against a marriage of 1785 and a daughter baptised 1789) and is unresolved, so a second wife of the same husband cannot be ruled out. Not in the KAZALO under Tomljanović; ark 3:1:3QS7-L99C-G99J",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-deaths-1809-1828.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+   "indexOnly": false,
+   "slug": "lucia-maja-tomljanovic",
+   "name": "Lucia (Maja) Tomljanović",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1809",
    "cite": "named as mother, 1809 baptism of ahn 25",
@@ -433,6 +447,20 @@
    "ahn": null
   },
   {
+   "kind": "death-of-spouse",
+   "year": "1809",
+   "cite": "named as «uxor Michaelis Gergacs» on the entry of Lucia «Maja», Karlobag Umrli page 12, 19 September 1809 — so he was living in September 1809; ark 3:1:3QS7-L99C-G99J. See the age caution under Lucia",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-deaths-1809-1828.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+   "indexOnly": false,
+   "slug": "michaeli-michaele-gerkacs-gergacs",
+   "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1810",
    "cite": "Karlobag, 23 April 1810, entry 23",
@@ -444,6 +472,20 @@
    "indexOnly": false,
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1828",
+   "cite": "Karlobag Umrli 1804-1861 page 35 (image 138 right, DGS 5481649, waypoint 9RK1-HZK) — «28 Junii [margin, read; the KAZALO also reads 28] Josephus Pilepich Carlobagensis annorum 61 in communione S. Matris Ecclesiae animam Deo reddidit, cujus corpus die 29 h. sepultum est in coemeterio S. Caroli». READ FROM THE IMAGE, found through the KAZALO (P, image 185 right, 1828, folio 35). THE TREE SAYS 26 JUNE 1828, two days out against two readings, and the age 61 is a year over the tree's 60. A probable match for ahnentafel 52, not a proven one: the entry names no wife or parent; ark 3:1:3QSQ-G99C-G9HP",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-deaths-1809-1828.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+   "indexOnly": false,
+   "slug": "josephus-josip-pilipic",
+   "name": "Josephus (Josip) Pilipic",
    "ahn": null
   },
   {
@@ -3245,6 +3287,17 @@
      "indexOnly": false
     },
     {
+     "kind": "death-of-spouse",
+     "year": "1809",
+     "cite": "named as «uxor Michaelis Gergacs» on the entry of Lucia «Maja», Karlobag Umrli page 12, 19 September 1809 — so he was living in September 1809; ark 3:1:3QS7-L99C-G99J. See the age caution under Lucia",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-deaths-1809-1828.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+     "indexOnly": false
+    },
+    {
      "kind": "named-on-a-child-baptism",
      "year": "1789",
      "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
@@ -3256,7 +3309,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "oliva-maria-smojver": {
@@ -3819,9 +3872,20 @@
      "where": "notes/karlobag-the-index-calls-them-piberich.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-the-index-calls-them-piberich.md",
      "indexOnly": true
+    },
+    {
+     "kind": "death",
+     "year": "1828",
+     "cite": "Karlobag Umrli 1804-1861 page 35 (image 138 right, DGS 5481649, waypoint 9RK1-HZK) — «28 Junii [margin, read; the KAZALO also reads 28] Josephus Pilepich Carlobagensis annorum 61 in communione S. Matris Ecclesiae animam Deo reddidit, cujus corpus die 29 h. sepultum est in coemeterio S. Caroli». READ FROM THE IMAGE, found through the KAZALO (P, image 185 right, 1828, folio 35). THE TREE SAYS 26 JUNE 1828, two days out against two readings, and the age 61 is a year over the tree's 60. A probable match for ahnentafel 52, not a proven one: the entry names no wife or parent; ark 3:1:3QSQ-G99C-G9HP",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-deaths-1809-1828.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "marija-milka-kalanj": {
@@ -4458,6 +4522,37 @@
    "direct": 3,
    "derived": 0
   },
+  "lucia-maja-tomljanovic": {
+   "slug": "lucia-maja-tomljanovic",
+   "name": "Lucia (Maja) Tomljanović",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1809",
+     "cite": "Karlobag Umrli 1804-1861 page 12 (image 125 left, DGS 5481649, waypoint 9RK1-HZK) — «19. [Sept.] Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34, provisa omnibus sacramentis obiit in Domino, atque in propria crypta in coemeterio existente humata est». READ FROM THE IMAGE. The day and month are the tree's to the day, the by-name «Maja» is the tree's, and the husband is Michael Gergacs; THE AGE DOES NOT FIT (34 in 1809 against a marriage of 1785 and a daughter baptised 1789) and is unresolved, so a second wife of the same husband cannot be ruled out. Not in the KAZALO under Tomljanović; ark 3:1:3QS7-L99C-G99J",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-deaths-1809-1828.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1789",
+     "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
+     "derived": true,
+     "via": "mariam-gerkacs-gergacs",
+     "viaName": "Mariam Gerkacs (Gergacs)",
+     "where": "notes/karlobag-households-indexed.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -4867,26 +4962,6 @@
      "viaName": "Zvonimir Matei Vukelić",
      "where": "notes/senj-1907-vukelic-index.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
-     "indexOnly": true
-    }
-   ],
-   "direct": 0,
-   "derived": 1
-  },
-  "lucia-maja-tomljanovic": {
-   "slug": "lucia-maja-tomljanovic",
-   "name": "Lucia (Maja) Tomljanović",
-   "ahn": null,
-   "rows": [
-    {
-     "kind": "named-on-a-child-baptism",
-     "year": "1789",
-     "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
-     "derived": true,
-     "via": "mariam-gerkacs-gergacs",
-     "viaName": "Mariam Gerkacs (Gergacs)",
-     "where": "notes/karlobag-households-indexed.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-households-indexed.md",
      "indexOnly": true
     }
    ],
