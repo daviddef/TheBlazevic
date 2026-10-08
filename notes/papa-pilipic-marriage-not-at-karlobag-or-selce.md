@@ -42,4 +42,21 @@ nothing in it for the couple.
   neither was the Karlobag marriage KAZALO.
 * **The marriage may be outside all three parishes** (their son's baptism names no place of
   origin for the parents).
-* The whole of the Senj marriages 1820–1858 was left unread.
+* The Senj marriages 1820–1858 were **sampled, not walked**: image 302 (both pages: the Cathedral
+  entries of 27 January and 30 March 1856 and of 23 February, 14 June, 4 July and 25 October
+  1857), image 304 and the left page of image 274 were read, and the first entries of images
+  256–277 and 296–322 were looked at to learn the layout.
+
+## Senj afterwards, and why the walk was stopped
+
+The Senj volume is **not chronological even inside a page**: image 274, left page, opens with a
+prose entry of 20 January 1857 («Ego Philippus … Cooperator conjunxi») and then carries
+entries of 1832, 1852 and 1853 in tabular form; image 304 mixes 1855, 1841 and 1846; the
+Cathedral parish's own sequence (images 296–304) runs 1839, 1842, 1845, 1849 and then 1856–57.
+There is no way to go to 1856–57 and read it; the only complete method is every image.
+
+**And the reward is small.** The marriage would give a date, a place and witnesses. It would
+**not** give new parents: ahnentafel 12's are ahnentafel 24 and 25 (Josip Antić and Mara
+Jelličić, read at Selce) and ahnentafel 13's are 26 and 27 (Vicko Pilipić and Matija Uroda,
+read at Karlobag and Senj). A walk of about a hundred images for a date is not worth it ahead of
+rows that reach a missing person. **Row 4 is therefore parked rather than closed.**
