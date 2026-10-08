@@ -1285,5 +1285,50 @@
   "record": "The death belongs to her sister, not to her",
   "why": "ANTONIUS SESTAN and JOANNA DEFRANCESCHI had TWO daughters called Antonia. The elder, @I509448@, was born 16 July 1845 and carries a death tag WITH NO DATE. The younger, @I509450@, was born 11 February 1847 and carries a death of 4 August 1846. Read together they resolve: the elder Antonia died on 4 August 1846 aged twelve months, and the younger was born six months later and named for her. That is the commonest shape in these registers — a child who died replaced by a later child of the same name — and this archive has met it repeatedly. The date has been attached to the wrong sister. NOT PROVED: the parish register settles it and has not been opened. Left as an open disagreement rather than repaired, because the archive does not edit the tree and does not guess which field is wrong.",
   "href": "/people/antonia-sestan-2/"
+ },
+ {
+  "id": "@I1050@",
+  "kind": "disputed",
+  "what": "Death date",
+  "tree": "26 June 1828",
+  "record": "28 June 1828, aged 61, buried the 29th",
+  "why": "Karlobag deaths 1804-1861, page 35 (image 138 right-hand page): «Josephus Pilepich Carlobagensis annorum 61 … cujus corpus die 29 h. sepultum est». The margin reads 28 June and the volume's own alphabetical index (P, folio 35) reads 28 too; the burial is the next day, which fits a death on the 28th and a death on the 26th badly. The margin digit is a looped 8 that could be a 6 at the resolution reached. The entry names no wife or parent, so it is a PROBABLE match for ahnentafel 52 and not a proven one. The tree is not changed here.",
+  "href": "/people/josephus-josip-pilipic"
+ },
+ {
+  "id": "@I504627@",
+  "kind": "disputed",
+  "what": "Given name at death",
+  "tree": "Joannis Antić (Papa), died 27 February 1793, born 1739",
+  "record": "Antonius Antich Martini, died 27 February 1793, aged about 54",
+  "why": "Selce deaths 1790-1815, image 81 left page, house 34 as read: «Die 27a Februarii 793 Antonius Antich Martini annorum circiter 54». The day, month and age are the tree's and the given name is not: the register says Antonius, underlined, and Martini is not Papa. Three readings and none is chosen: the Karić tree has the right man and the wrong first name; it has the date and age from somewhere and attached them to a man it called Joannes; or this is a different Antich who died the same day at the same age. The entry is recorded as an Antich of the right age, NOT as a reading of ahnentafel 96.",
+  "href": "/people/joannis-antic-2"
+ },
+ {
+  "id": "@I1857@",
+  "kind": "disputed",
+  "what": "Age at death",
+  "tree": "Lucia (Maja) Tomljanović, died 19 September 1809, wife of Michael Gerkacs, married 2 November 1785",
+  "record": "«Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34», 19 September 1809",
+  "why": "Karlobag deaths 1804-1861, page 12 (image 125 left page). The day and month, the by-name Maja and the husband are the tree's. The age is not: 34 in 1809 is a birth about 1775, which would have her marry at ten in 1785 and bear Maria, ahnentafel 55, at fourteen in 1789. Either the age is wrong by about twenty years, or this is a different Lucia, also Michael Gergacs's wife, and a second marriage after 1789 is possible. NOT RESOLVED. She is not in the volume's index under Tomljanović.",
+  "href": "/people/lucia-maja-tomljanovic"
+ },
+ {
+  "id": "@I504630@",
+  "kind": "confirmed",
+  "what": "Death",
+  "tree": "Anna Papić, died 24 August 1807, born 1742",
+  "record": "Selce, 24 August 1807, «Anna uxor Pauli Lončarich Papich annorum circiter 65»",
+  "why": "Selce deaths 1790-1815, image 110 left page, house 134 as read. Day, month and age (about 65) agree with the tree, and the entry gives her own surname Papich beside her husband's, her first document as a Papić.",
+  "href": "/people/anna-papic"
+ },
+ {
+  "id": "@I504629@",
+  "kind": "confirmed",
+  "what": "Death",
+  "tree": "Pauli Lončarić, died 29 September 1811, born 1741",
+  "record": "Selce, 29 September 1811, «Paulus Lončarich viduus annorum circiter 70»",
+  "why": "Selce deaths 1790-1815, image 120 left page, printed page 111, house 134 as read — the same house as his wife's entry of 1807. Day, month, year and age agree with the tree, and viduus (widower) is right for a man widowed in 1807.",
+  "href": "/people/pauli-loncaric"
  }
 ]
