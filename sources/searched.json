@@ -3027,6 +3027,24 @@
    ],
    "got": "**Both are read from the images, and neither is clean.** **Ahnentafel 111**, image 125 left, page 12: «19 [Sept.] *Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34*» — the tree's day and month, the tree's by-name and the tree's husband, **but an age that cannot be the mother of a child baptised in 1789** (unresolved; a second wife of the same husband is not ruled out). She is **not in the KAZALO under Tomljanović**: found by turning to the September page. **Ahnentafel 52**, image 138 right, page 35: «*Josephus Pilepich Carlobagensis annorum 61*», margin read as **28 June 1828** (the KAZALO also reads 28) with burial on the 29th — **the tree has 26 June**, so the tree is two days out against two readings, and the age is a year over. A probable match, not a proven one: no wife or parent is named. Both rows are in `readings.psv`. Method: the waypoint enumerates 435 images; register images ~120–165, KAZALO ~168–192, left-hand page numbers run two to an image. [notes/karlobag-deaths-1809-1828.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md)",
    "missed": "The Karlobag deaths 1804–1861 were NOT walked: two entries were fetched, through the KAZALO and by page. The rest of 1809 and the whole of 1828 outside page 35 were not read entry by entry. Lucia's baptism and the 1785 marriage were not looked for, and no second Gergacs marriage was searched."
+  },
+  {
+   "src": "FamilySearch — Selce deaths (Umrli) 1790–1815, three ancestors found by year and page",
+   "key": "fs/selce-umrli-1790-1815-three",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9R2M-BZF",
+   "waypoint": "9R2M-BZF",
+   "what": "Ahnentafel 96 (d. 27 February 1793), 99 (d. 24 August 1807) and 98 (d. 29 September 1811), the three direct ancestors worklist row 25 had left in the Selce death book",
+   "when": "8 October 2026",
+   "outcome": "yield",
+   "pages": "81 (left, 1793), 110 (left, 1807), 120 (left, 1811); year headers checked on 70, 76-82, 88, 94, 100, 108-112, 114-122",
+   "tags": [
+    "papic",
+    "selce",
+    "familysearch",
+    "umrli"
+   ],
+   "got": "**Two of the three are clean; one has the wrong first name.** **Ahnentafel 99**, image 110 left: «24 Augusti 1807 *Anna uxor Pauli Lončarich Papich* annorum circiter 65», house 134 — the tree's day, month and age, and her first document as a Papić. **Ahnentafel 98**, image 120 left (printed page 111): «29 7bis 1811 *Paulus Lončarich viduus* annorum circiter 70», house 134 again — the tree's date and age, and *viduus* fits a man widowed in 1807. **Ahnentafel 96**, image 81 left: «27 Februarii 793 *Antonius Antich Martini* annorum circiter 54» — the tree's day, month and age, **but the register says Antonius where the tree says Joannis** and Martini is not Papa; recorded as an Antich of the right age who died that day, **not** confirmed as ahnentafel 96. [notes/selce-deaths-1793-1807-1811.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md)",
+   "missed": "Only the three entries were read; the deaths 1790-1815 were not walked and the pages around the entries were not read. No wife is named for ahnentafel 96, so ahnentafel 97 (Ursula) is still a name only. The Selce births and marriages items and the 1816-1886 deaths were not opened. Whether Papich in Anna's entry is a maiden name or a household by-name was not tested."
   }
  ]
 }

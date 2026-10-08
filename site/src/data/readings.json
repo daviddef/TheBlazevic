@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 139,
-  "people": 109,
+  "rows": 144,
+  "people": 112,
   "derived": 70,
   "onDirectLine": 0,
   "indexOnly": 20,
@@ -16,7 +16,7 @@
   ],
   [
    "death",
-   22
+   25
   ],
   [
    "baptism-of-child",
@@ -36,7 +36,7 @@
   ],
   [
    "death-of-spouse",
-   5
+   7
   ],
   [
    "census",
@@ -279,6 +279,20 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1793",
+   "cite": "Selce Umrli 1790-1815, image 81 left page (DGS 5482267, waypoint 9R2M-BZF) — «Die 27 Februarii 793 ANTONIUS Antich Martini annorum circiter 54 … sepultum est», domus 34 as read. READ FROM THE IMAGE. THE DAY, MONTH AND AGE ARE THE TREE'S BUT THE GIVEN NAME IS NOT: the tree has Joannis Antić (Papa), the register has Antonius, and Martini is not Papa. NOT CONFIRMED as ahnentafel 96; recorded as an Antonius Antich of about 54 who died at Selce on 27 Feb 1793; ark 3:1:3QS7-L99C-59DD-H",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths-1793-1807-1811.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+   "indexOnly": false,
+   "slug": "joannis-antic-2",
+   "name": "Joannis Antić",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1806",
    "cite": "named as father, 1806 baptism of ahn 24",
@@ -335,6 +349,20 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1807",
+   "cite": "Selce Umrli 1790-1815, image 110 left page (DGS 5482267, waypoint 9R2M-BZF) — «Die 24 Mensis Augusti anno ut supra 1807. Anna uxor Pauli Lončarich Papich annorum circiter 65 … sepultum est», domus 134 as read. READ FROM THE IMAGE. The day, month and age (b. about 1742) are the tree's; the entry gives her own surname Papich, her first document as a Papić; ark 3:1:3QS7-899C-5962-V",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths-1793-1807-1811.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+   "indexOnly": false,
+   "slug": "anna-papic",
+   "name": "Anna Papić",
+   "ahn": null
+  },
+  {
    "kind": "marriage-of-child",
    "year": "1807",
    "cite": "named as the groom's late father, «defti Georgii Uroda», Karlobag 17 June 1807",
@@ -388,6 +416,20 @@
    "indexOnly": false,
    "slug": "michaeli-michaele-gerkacs-gergacs",
    "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1807",
+   "cite": "named as her husband, «uxor Pauli Lončarich Papich», Selce Umrli image 110 left page, 24 August 1807, domus 134; ark 3:1:3QS7-899C-5962-V",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths-1793-1807-1811.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+   "indexOnly": false,
+   "slug": "pauli-loncaric",
+   "name": "Pauli Lončarić",
    "ahn": null
   },
   {
@@ -472,6 +514,34 @@
    "indexOnly": false,
    "slug": "matia-mathiam-georgiam-uroda",
    "name": "Matia (Mathiam Georgiam) Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1811",
+   "cite": "named as the dead man's late wife by the word «viduus» on Paulus Lončarich's entry of 29 September 1811 (she d. 24 Aug 1807), Selce Umrli image 120; ark 3:1:3QS7-899C-596R-H",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths-1793-1807-1811.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+   "indexOnly": false,
+   "slug": "anna-papic",
+   "name": "Anna Papić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1811",
+   "cite": "Selce Umrli 1790-1815, image 120 left page, printed page 111 (DGS 5482267, waypoint 9R2M-BZF) — «Die 29 7bis Aº 1811. Paulus Lončarich viduus annorum circiter 70 … sepultum est», domus 134 as read, the same house as his wife's entry of 1807. READ FROM THE IMAGE. The day, month, year and age (b. about 1741) are the tree's; ark 3:1:3QS7-899C-596R-H",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-deaths-1793-1807-1811.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+   "indexOnly": false,
+   "slug": "pauli-loncaric",
+   "name": "Pauli Lončarić",
    "ahn": null
   },
   {
@@ -4552,6 +4622,88 @@
    ],
    "direct": 1,
    "derived": 1
+  },
+  "anna-papic": {
+   "slug": "anna-papic",
+   "name": "Anna Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1807",
+     "cite": "Selce Umrli 1790-1815, image 110 left page (DGS 5482267, waypoint 9R2M-BZF) — «Die 24 Mensis Augusti anno ut supra 1807. Anna uxor Pauli Lončarich Papich annorum circiter 65 … sepultum est», domus 134 as read. READ FROM THE IMAGE. The day, month and age (b. about 1742) are the tree's; the entry gives her own surname Papich, her first document as a Papić; ark 3:1:3QS7-899C-5962-V",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths-1793-1807-1811.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1811",
+     "cite": "named as the dead man's late wife by the word «viduus» on Paulus Lončarich's entry of 29 September 1811 (she d. 24 Aug 1807), Selce Umrli image 120; ark 3:1:3QS7-899C-596R-H",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths-1793-1807-1811.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "pauli-loncaric": {
+   "slug": "pauli-loncaric",
+   "name": "Pauli Lončarić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death-of-spouse",
+     "year": "1807",
+     "cite": "named as her husband, «uxor Pauli Lončarich Papich», Selce Umrli image 110 left page, 24 August 1807, domus 134; ark 3:1:3QS7-899C-5962-V",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths-1793-1807-1811.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1811",
+     "cite": "Selce Umrli 1790-1815, image 120 left page, printed page 111 (DGS 5482267, waypoint 9R2M-BZF) — «Die 29 7bis Aº 1811. Paulus Lončarich viduus annorum circiter 70 … sepultum est», domus 134 as read, the same house as his wife's entry of 1807. READ FROM THE IMAGE. The day, month, year and age (b. about 1741) are the tree's; ark 3:1:3QS7-899C-596R-H",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths-1793-1807-1811.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "joannis-antic-2": {
+   "slug": "joannis-antic-2",
+   "name": "Joannis Antić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1793",
+     "cite": "Selce Umrli 1790-1815, image 81 left page (DGS 5482267, waypoint 9R2M-BZF) — «Die 27 Februarii 793 ANTONIUS Antich Martini annorum circiter 54 … sepultum est», domus 34 as read. READ FROM THE IMAGE. THE DAY, MONTH AND AGE ARE THE TREE'S BUT THE GIVEN NAME IS NOT: the tree has Joannis Antić (Papa), the register has Antonius, and Martini is not Papa. NOT CONFIRMED as ahnentafel 96; recorded as an Antonius Antich of about 54 who died at Selce on 27 Feb 1793; ark 3:1:3QS7-L99C-59DD-H",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-deaths-1793-1807-1811.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
   },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
