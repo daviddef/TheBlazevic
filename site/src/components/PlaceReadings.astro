@@ -1,0 +1,43 @@
+---
+/* The registers that have been READ for people in this place.
+
+   The kit's PlacePage lists the people and the films; it does not say which
+   documents have actually been opened and read out. sources/readings.psv does,
+   and tools/build_site_data.py turns it into data/readings.json. A reading
+   belongs to a place when its citation OPENS with the place's name — the
+   citations are written «Selce Umrli 1790-1815, image 110…», «Karlobag, 13
+   April 1725…» — so a reading is never attached to a place because the place
+   is merely mentioned somewhere in its text. A citation that does not open
+   with a place name is left out, and that is a limit and not a verdict.
+
+   Nothing here is typed: it is filtered from the same file the /readings page
+   is drawn from, so a place page cannot say a register was read when
+   /readings does not. */
+import R from "../data/readings.json";
+import { u } from "../lib/url.js";
+const { place } = Astro.props;
+const fold = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const base = fold(String(place.name || "").split(/[,(]/)[0]).trim();
+const re = base ? new RegExp("^\\W*" + base.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b") : null;
+const rows = re ? R.rows.filter((r) => re.test(fold(r.cite))) : [];
+const clip = (s, n) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + " …" : s);
+---
+{rows.length > 0 && (
+  <section class="blk">
+    <div class="lab">Registers read here</div>
+    <h2>{rows.length} document{rows.length === 1 ? "" : "s"} read out for people in {place.name}</h2>
+    <p class="dek">Each row is a reading in <a href={u("/readings/")}>the readings file</a>:
+    a register entry opened and transcribed for a named person, with the citation. «Index only»
+    means the indexed transcription was recorded and the image was not read.</p>
+    <table class="reg">
+      <thead><tr><th>Person</th><th>Document</th><th>Year</th><th>What was read</th></tr></thead>
+      <tbody>{rows.map((r) => (
+        <tr>
+          <td>{r.slug ? <a href={u("/people/" + r.slug + "/")}>{r.name || r.slug}</a> : (r.name || "")}</td>
+          <td class="mono">{r.kind}{r.indexOnly ? " (index only)" : ""}</td>
+          <td class="mono">{r.year}</td>
+          <td class="dek">{clip(r.cite, 230)}{r.href ? <> <a href={r.href}>note →</a></> : null}</td>
+        </tr>))}</tbody>
+    </table>
+  </section>
+)}
