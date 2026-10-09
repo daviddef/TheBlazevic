@@ -56,4 +56,20 @@ Luckinicha* (index, father «Vicka Luckinicha», no mother named). It does **not
   and 1728 were not searched, so a Luckinić baptism on another date in 1727 is not excluded.
 * Surnames are spelt variously in this hand (Lukatalich, Lukinić, Luckinich, Lukanić); a Luckinić under an unfamiliar
   spelling could have been missed.
-* The Kazalo was not used.
+* The Kazalo (the register's own index) was then read for the L column: see below.
+
+## The Kazalo, read afterwards
+
+The Kazalo's L section is on waypoint image **312** (K on its left page, L on its right page, M from 313). The L column lists
+name, day, month and **folio**, in date order; its first column runs folio 1 to about 101 with these spellings: *Locatelli,
+Lukšetich/Lukšić, Lazarich, Lenach, Lulich, Lucich.* Folio **44** (15 February) and **47** (29 June) are 1727, matching the
+leaf numbers on images 49 and 50. **There is no 30 March near folio 44, and no Luckinić at all** — nor an entry for Mare's
+13 April 1725 baptism (about folio 37), which the FamilySearch record index lists. The Kazalo therefore files this
+family under a different letter or spelling, or omits it, and **cannot be used to find them under L**. Not done: the second
+and third L columns (folios about 109–208) were read only for the surname, and no other letter was tried.
+
+## And May to August 1727, afterwards
+
+The right-hand page of image 49 (9 May – 19 August 1727) was then read for surnames at moderate zoom: Lukatalich, Bulanich,
+Dosetich, Gricikik, Jezicka, Humorovic and others, **no Luckinić except the godmother entry of 24 August**. September–December
+1727 (image 50, left page) and 1726 and 1728 were not read for the surname.
