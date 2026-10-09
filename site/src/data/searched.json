@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 25,
+  "nothing": 26,
   "partial": 24,
   "pending": 6,
   "yield": 80
@@ -3234,6 +3234,23 @@
    ],
    "got": "**No Marić, and no «Štrumbulko», among the baptisms of September 1834 to May 1835 at the size read.** The book is a printed Latin table, six or seven entries to a page, with the parents' surnames in the fourth column (Mišković, Kožić, Žubrinić, Radočić, Tomljanović and the like). **The film begins in September 1834**, so a baptism before that cannot be in it. Ahnentafel 10 (Nicolaus Žubrinić) was born 24 January 1834 and their first child is dated 1853, which puts her birth about 1830–1836: **at best half of the likely range is on this film**. The Otočac index lists only three Marić at Otočac in all (1844, 1844 and 1852), none of them hers. [notes/ana-maric-plan.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md)",
    "missed": "Only about four images of the roughly 25 that cover September 1834 to 1838 were read, at a size at which the surname in a cramped cell can be misread (Marić written Marich, Maraković and Marković look alike); images 12 to 36 were not read entry by entry; the right page of image 10 and the pages of image 11 were read quickly; the by-name Štrumbulko was looked for as well as Marić and not seen; her marriage (about 1850–52) is not in an indexed or filmed book that was looked at."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin baptisms 1747–1779 (sig. 00883), January–April 1773, read for Lukas Kosina's daughter Gertrud",
+   "key": "web/matricula-kranj-baptisms-1773",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00883/?pg=306",
+   "what": "The baptism the 1603–1779 index lists as «KOSINA GERTRUD (Lukas) 2.3.» under 1773, to test whether Lukas Kosina the elder lived at Oberfeichting 9 (the house is the test)",
+   "when": "9 October 2026",
+   "outcome": "nothing",
+   "pages": "book pages 306 (Dec 1772 – January 1773, both pages), 307 (January – February 1773, both pages), 308 (February – March 1773, both pages), 309 (April 1773, left page top only); page 302 (1772) and 304, 310 header lines checked",
+   "tags": [
+    "kosina",
+    "kranj-smartin",
+    "matricula",
+    "krstna"
+   ],
+   "got": "**1773 is found, and no Kosina or Kosiner baptism is in it on the date the index gives.** Page 306 right begins «1773 Januarij»; 307 holds January and February («Februarij» heading on the left page's lower half); **308 holds late February and «Martius» — and its first March entry is dated 10 March**, not 2 March, with Gertrud entries on 10 and 15 March to other couples (Thomas Pation × Barbara, Caspar × Helena). The parents' surnames read on these pages (Kerfal, Novak, Zakotnik, Gollmayr as baptiser, Pogacar, Sattler…) include no Kosina/Kosiner/Kozina; the house column reads «Superior Feichting» for several entries but none is Kosina. [notes/the-kozina-of-zgornje-bitnje.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kozina-of-zgornje-bitnje.md)",
+   "missed": "Surnames were read at about the page's own size on 18th-century Latin, with the parents' names in a cramped hand (a Kosiner could be read as another name); Helena (1779) was not looked for; only the top of page 309 was read; the index's «2.3.» may be a day in a different year or the index may be wrong, and that was not tested; page 305 and the rest of 1773 were not read."
   }
  ]
 }
