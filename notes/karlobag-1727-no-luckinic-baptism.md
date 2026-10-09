@@ -80,4 +80,4 @@ Images 47 (right page), 48 (both pages), 49 (both pages) and the left page of 50
 
 **The register has a gap.** Image 48's right-hand page ends with an entry of 4 May 1726; the leaf's back (image 49, left page) begins on 11 January 1727, and the January 1727 entry shows through at the foot of the earlier page. **Nothing from May to December 1726 is written between them.** If Catherina was born in the second half of 1726 her baptism is not in this volume's sequence, which would also explain why neither 30 March 1727 nor the Kazalo has her. That is a hypothesis, not a finding: the film may differ from the book, and the missing months may be written elsewhere.
 
-**Not done:** the right-hand page of image 50 and 1728 onwards; a search for where the May–December 1726 baptisms went.
+Image 50 was then read too: its right-hand page carries November 1727 to July 1729 in about ten entries, none a Luckinić child, with the lower third faded and not legible. **Not done:** anything after July 1729, the faded entries of 1728–29, and a search for where the May–December 1726 baptisms went.
