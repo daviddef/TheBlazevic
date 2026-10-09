@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 513,
+ "count": 515,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -12,7 +12,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 43,
+  "Karlobag": 45,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -5176,6 +5176,26 @@
    "place": "Selce",
    "citation": "Selce births 1778-1815 (DGS 5482267) image 12 right-hand page, left-margin number 106: «Die 18 8bris 1784 Nicolaus Spalj Capellanus localis baptizavit filium legitimum Joannis et Catharina [Br]ozovich nomine Petrum, levantibus Antonio et Helena Lončarich». READ FROM THE IMAGE 10 October 2026; ark 3:1:3QSQ-G99C-596K-Q. The surname's first letter is ambiguous in this hand (B or D, Brozović or Drobović) and the left-margin number is read as the house; the tree gives ahnentafel 102 and 103 as Joanni and Catharina Brozović, parents of a Margarita born 1784 at Selce, and the 1784 volume has no Margarita to them",
    "slug": "petrus-son-of-joannes-and-catharina-brozovic-as-read"
+  },
+  {
+   "name": "Jela (?), wife of Vicko Lukinich",
+   "ahn": null,
+   "relation": "GODMOTHER at a Karlobag baptism, WIFE OF A VICKO LUKINICH - her given name is a doubtful reading and differs from the Mara of 1726 and the Morica of 1727",
+   "event": "named as godmother",
+   "date": "11 August 1722",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691-1770 (DGS 5481648, waypoint 9RK1-3Y9) image 40 right-hand page, the first entry: «Na 11 Augusta 1722 Ja Pater Karlo Kapucin krstih sina Jure Ohuchnicha imenom Martina komu bi kum Jurko Rozanich a kuma Jele[?] … xena Vicka Lukinicha». READ FROM THE IMAGE 10 October 2026; the first letters of the godmother's name sit at a line break and are read as Jele, not certain. THREE names for the wife of a Vicko Luckinich in five years (1722 Jela?, 1726 Mara, 1727 Morica) is either one woman named loosely, or more than one Vicko Luckinich at Karlobag, or a second marriage; the register does not say, and none of the three entries names a child of theirs",
+   "slug": "jela-wife-of-vicko-lukinich"
+  },
+  {
+   "name": "Vicko Lukcinich, godfather",
+   "ahn": null,
+   "relation": "GODFATHER at a Karlobag baptism, 1724 - another sponsor mention of a Vicko Luckinich, not a child's entry",
+   "event": "named as godfather",
+   "date": "2 February 1724",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691-1770 (DGS 5481648, waypoint 9RK1-3Y9) image 44 left-hand page: «Na 2 Febrara 1724 … krstih kher Ivana Valichichi imenom Margarita koy bi kum Vicho Lukcinich a kuma Mara xena Marta Gerdanja[?]». READ FROM THE IMAGE 10 October 2026, surname spelt Lukcinich and read at one zoom. With the godfather of 21 December 1725 and the godmothers of 1722, 1726 and 1727 this is the fifth sponsor entry for a Vicko Luckinich or his wife in the 1719-1727 pages; none is a baptism of a child of theirs",
+   "slug": "vicko-lukcinich-godfather"
   }
  ]
 }
