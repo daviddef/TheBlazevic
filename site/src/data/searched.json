@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 27,
+  "nothing": 28,
   "partial": 24,
   "pending": 6,
   "yield": 83
@@ -3319,6 +3319,23 @@
    ],
    "got": "**30 hits, all 30 contain the name; 22 not already held, 4 entered.** Nearly all are the Broken Hill family of Leonard James Zubrinich and Eva Uhe, already on [the Port Pirie page](/port-pirie/) from earlier sweeps. **The new finding is on the other branch: a funeral notice of 27 June 1914 names «K. and J. Zubrinich» beside «Mrs. Alice Murphy», and the funeral notice of 16 July 1921 for Alice Murphy, relict of Stephen, lists «Mr. and Mrs. J. Zubrinich» among her children and their spouses.** With the 1917 In Memoriam (Kate and Jack, Stephen Murphy) this makes three notices over seven years of one Zubrinich couple inside the Murphy family; John William Zubrinich's tree spouse is Catherine Lucy Murphy and his eldest son is John Stephen. **Probable, not proved** — recorded on the Port Pirie page. Also entered: the burial of Eva Uhe's father William Ferdinand Uhe, Broken Hill, 19 January 1953.",
    "missed": "Only Family Notices for Zubrinich in NSW were run, with the name string required in the fetched OCR; Murphy, Buss and Uhe were not searched as surnames, and the Roman Catholic cemetery register for Alice Murphy (July 1921) and the 1906 St Mark's, Port Pirie marriage entry that would name Catherine Lucy Murphy's parents were not looked for. The other 18 unentered articles repeat events already held (the daughters' weddings, Verdun Paynter's death and its anniversaries) or are advertisements signed L. J. Zubrinich."
+  },
+  {
+   "src": "Trove — all newspapers, 1900–1909, Zubrinich, Zubrinic, Zubrenich (looking for the 1906 Zubrinich–Murphy wedding)",
+   "key": "web/trove-1900s-zubrinich-2026-10-10",
+   "url": "https://trove.nla.gov.au/",
+   "what": "A newspaper notice or report of the marriage the tree dates 5 December 1906 at St Mark's, Port Pirie (John William Zubrinich × Catherine Lucy Murphy), which would name her parents",
+   "when": "10 October 2026",
+   "outcome": "nothing",
+   "tags": [
+    "zubrinic",
+    "trove",
+    "australia",
+    "port-pirie",
+    "murphy"
+   ],
+   "got": "**No marriage notice or wedding report.** Trove holds 10 articles for Zubrinich, 2 for Zubrinic and 3 for Zubrenich in the whole decade, **none dated 1906 or 1907**: a 1900 school-attendance case (J. Zubrinich, his daughter attended), coursing results of September 1901 (J. Zubrinich's dog), the Port Pirie Show of 1902, a school picnic race of 1905 («I. Zubrenich»), and Len Zubrinich in Port Pirie football and cricket teams of 1909. A search of the Port Pirie Recorder for «wedding» and «marriage» with «Murphy» in 1906–07 returned three articles, none a Zubrinich wedding. Recorded as a negative result; it does not say the wedding was not reported, only that Trove's index holds no report of it under these spellings.",
+   "missed": "The OCR was not read for garbled spellings of Zubrinich beyond the three tried (Zubrinich, Zubrinic, Zubrenich) and Xubrinich and Zebrinich returned nothing; the Port Pirie Recorder's coverage of 1906 may be partial; the Advertiser's and Register's marriage columns were not read page by page. The marriage ENTRY (South Australian civil registration, or the St Mark's register) was not reached: FamilySearch was not signed in, and Broken Hill's council cemetery has no online register."
   }
  ]
 }
