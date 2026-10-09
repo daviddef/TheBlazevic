@@ -3154,6 +3154,24 @@
    ],
    "got": "**Neither candidate is at house 136.** **Martha 1853**: image 34 right page, entry 63, house **177** as read, father Ivan Perpić, mother «Lucia rodjenja Perpić». **Toma 1856**: image 46 right page, entry 88, house **111**, father Ivan Perpić, mother «Luce Perpić», with a later marginal note of his marriage on 23 January 1930. Ahnentafel 7 (Antonija, 1859, entry 51) is at **Krivi Put 136**, and the house number is how the register identifies a household, so these look like children of **other** Ivan × Lucia Perpić households. **That is a strong sign and not a proof**: the parents' names are the same pair, and a family can change house. Both rows in `found.psv` now say so. [notes/krivi-put-candidates-are-at-other-houses.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-candidates-are-at-other-houses.md) **And, in the same sitting, Stephanus 1861 was read**: image 78 left page, entry 109, born 13 December 1861 (the month is «10bris»), baptised 16 December, Joannes and Lucia Perpić, house 136 — the index was right and the tree's 13 October is wrong. [notes/stephanus-perpic-was-born-in-december-1861.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md)",
    "missed": "Only the two named entries were read for their house; the other 1853 and 1856 entries of house 136 were not looked for, so no true elder sibling of ahnentafel 7 at house 136 was found or excluded; the house digits were read from small cells at about three times the page's resolution, 177 less certainly than 111; Georgius 1868, Joanna 1874 and Josephus 1876 and Stephanus 1861 were not opened."
+  },
+  {
+   "src": "FamilySearch — Krivi Put births 1847–1884: the three younger candidate siblings of ahnentafel 7 read for their house numbers (1868, 1874, 1876)",
+   "key": "fs/krivi-put-candidates-1868-1876",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9R28-DP8",
+   "waypoint": "9R28-DP8",
+   "what": "Georgius (22 April 1868), Joanna (6 January 1874) and Josephus (7 July 1876), indexed as children of a Joannes and a Lucia Perpić, tested against ahnentafel 7's house, Krivi Put 136",
+   "when": "9 October 2026",
+   "outcome": "yield",
+   "pages": "images 122 (both pages, 1868), 181 (both pages, 1874), 226 (both pages, 1876); first entries only of images 116-132, 148-176, 180-210, 224-240",
+   "tags": [
+    "prpic",
+    "krivi-put",
+    "familysearch",
+    "krstena"
+   ],
+   "got": "**Two of the three are at house 135, one number from ahnentafel 7's 136; the third is somewhere else.** **Georgius 1868**: image 122 left, entry 51, born 22 April / baptised 23 April, «Joannes Perpić et Lucia nata Perpić», **Krivi put N° 135**. **Joanna 1874**: image 181 left, entry 11, born 6 / baptised 12 January, the same parents, **Krivi put N° D. 135** (facing page). **Josephus 1876**: image 226 left, entry 97, 7 July, «Joannes Perpić et Lucia nata», **«Klaričevac N° D. 82 / N° 163»**, with Josephus and Mathia Perpić as godparents. Ahnentafel 7 (1859) and Stephanus (1861) are at **136**. So Georgius and Joanna are **probable** siblings (same parents' names, adjacent number, a later renumbering is possible) and Josephus is **not shown** to be one. All three dates agree with the index. [notes/krivi-put-the-younger-children-and-their-houses.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-the-younger-children-and-their-houses.md)",
+   "missed": "Nothing in the register says 135 is 136 renumbered; the other children of house 135 and 136 for 1862-1873 were not looked for, so no marriage-era or household list was built; the facing-page house for Georgius 1868 was read for the entry only; the 1870s volume has a different form (Latin printed table) and only these three entries were read in it; Lucia's own surname in 1876 was cut off at the cell edge."
   }
  ]
 }
