@@ -3295,6 +3295,23 @@
    ],
    "got": "**Nothing found, and it was a sample, not a walk.** The volume is a printed form (*Geburts- und Tauf-Buch*), about 19 entries to a spread, **village and house number in the left column and father and mother in the right**, so a Kozina would be quick to spot. Pages **26 (February–April 1874)** and **28 (June–July 1874)** have no Kozina and no Kodran; a *Paul Kodrič, gost* appears in February 1874 (a different surname). **Years by image: 25–26 = early 1874, 28 = mid-1874, 40 = November–December 1875.**",
    "missed": "About 36 of the ~55 images that could hold her birth (1873–1879) were not read: images 27 and 29–30 failed to load when tried in a batch, and the rest were not attempted. A baptism of 1873–1879 for Franciška, and any for Marija Kozina (daughter of Urban Kozina and Marijana Gorjanc, age unknown), remain unfound. A first attempt at an image-reading helper failed on this volume; the viewer itself shows the page."
+  },
+  {
+   "src": "Trove — Family Notices, New South Wales, Zubrinich (Broken Hill): all 30 hits read",
+   "key": "web/trove-family-notices-nsw-2026-10-10",
+   "url": "https://trove.nla.gov.au/",
+   "what": "The New South Wales Family Notices for Zubrinich, which the 9 October sweep had not run",
+   "when": "10 October 2026",
+   "outcome": "yield",
+   "tags": [
+    "zubrinic",
+    "trove",
+    "australia",
+    "broken-hill",
+    "murphy"
+   ],
+   "got": "**30 hits, all 30 contain the name; 22 not already held, 4 entered.** Nearly all are the Broken Hill family of Leonard James Zubrinich and Eva Uhe, already on [the Port Pirie page](/port-pirie/) from earlier sweeps. **The new finding is on the other branch: a funeral notice of 27 June 1914 names «K. and J. Zubrinich» beside «Mrs. Alice Murphy», and the funeral notice of 16 July 1921 for Alice Murphy, relict of Stephen, lists «Mr. and Mrs. J. Zubrinich» among her children and their spouses.** With the 1917 In Memoriam (Kate and Jack, Stephen Murphy) this makes three notices over seven years of one Zubrinich couple inside the Murphy family; John William Zubrinich's tree spouse is Catherine Lucy Murphy and his eldest son is John Stephen. **Probable, not proved** — recorded on the Port Pirie page. Also entered: the burial of Eva Uhe's father William Ferdinand Uhe, Broken Hill, 19 January 1953.",
+   "missed": "Only Family Notices for Zubrinich in NSW were run, with the name string required in the fetched OCR; Murphy, Buss and Uhe were not searched as surnames, and the Roman Catholic cemetery register for Alice Murphy (July 1921) and the 1906 St Mark's, Port Pirie marriage entry that would name Catherine Lucy Murphy's parents were not looked for. The other 18 unentered articles repeat events already held (the daughters' weddings, Verdun Paynter's death and its anniversaries) or are advertisements signed L. J. Zubrinich."
   }
  ]
 }
