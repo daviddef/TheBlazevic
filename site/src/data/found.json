@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 515,
+ "count": 516,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -12,7 +12,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 45,
+  "Karlobag": 46,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -5196,6 +5196,16 @@
    "place": "Karlobag",
    "citation": "Karlobag births 1691-1770 (DGS 5481648, waypoint 9RK1-3Y9) image 44 left-hand page: «Na 2 Febrara 1724 … krstih kher Ivana Valichichi imenom Margarita koy bi kum Vicho Lukcinich a kuma Mara xena Marta Gerdanja[?]». READ FROM THE IMAGE 10 October 2026, surname spelt Lukcinich and read at one zoom. With the godfather of 21 December 1725 and the godmothers of 1722, 1726 and 1727 this is the fifth sponsor entry for a Vicko Luckinich or his wife in the 1719-1727 pages; none is a baptism of a child of theirs",
    "slug": "vicko-lukcinich-godfather"
+  },
+  {
+   "name": "Ana, daughter of Vicko Luckinich and Mare (read «Anu»)",
+   "ahn": null,
+   "relation": "THE BAPTISM THE INDEX AND THE TREE CALL «MARE LUCKINIĆ, 13 APRIL 1725» - READ FROM THE PAGE IT IS A DAUGHTER NAMED ANA, and MARE IS HER MOTHER",
+   "event": "baptism",
+   "date": "13 April 1725",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691-1770 (DGS 5481648, waypoint 9RK1-3Y9) image 47 left-hand page, near the foot (the entries of 4, 12 and 13 April 1725 are written there, out of sequence with the page's upper half): «Na 13 Aprilya 1725 Ja Pop Andrij Kollekar karstih [k]… Vicka Luckinicha, nyegove xene mare imen[om] Anu koy bi kum Sg. Karlo Slayner a k. sigra Xariya xena Janesa Dujara». READ FROM THE IMAGE 10 October 2026. By the pattern of this book (father, «nyegove xene» + the mother's name, «imenom» + the child's name) the mother is MARE and the child ANA; the right-hand ends of the first two lines are lost in the gutter, so the first line's «kher» is inferred. This is the only baptism to a Vicko Luckinich and a wife in the 1717-1725 pages read, it is dated the day the index and the tree give, and it makes the wife of Vicko in April 1725 MARE - the same as the godmother of March 1726 - and not the Jelena of 1718 and 1722",
+   "slug": "ana-daughter-of-vicko-luckinich-and-mare-read-anu"
   }
  ]
 }
