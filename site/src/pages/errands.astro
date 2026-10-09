@@ -1,0 +1,58 @@
+---
+/* Errands: the letters, in full.
+
+   The queue itself is the kit's component; this file only grades it. The
+   data is tools/errands.py's, which reads each letter's text out of requests/
+   so the page cannot drift from the file. The eyebrow is COUNTED from the
+   data, not typed. A state the data uses and `states` does not label is
+   counted and shown rather than drawn as a grey rule with no word. */
+import Base from "../layouts/Base.astro";
+import Errands from "@daviddef/archive-kit/components/Errands.astro";
+import { u } from "../lib/url.js";
+import { mdp } from "@daviddef/archive-kit/lib/md.js";
+import e from "../data/errands.json";
+
+const n = (k) => e.rows.filter((r) => r.state === k).length;
+const eyebrow = `${n("draft")} drafted, not sent · ${n("sent")} sent, waiting · ${n("answered")} answered`;
+const unlabelled = [...new Set(e.rows.map((r) => r.state).filter((k) => k && !e.states[k]))];
+
+const groups = ["draft", "sent", "answered"].map((k) => ({
+  label: e.states[k][0],
+  note: e.states[k][2],
+  rows: e.rows.filter((r) => r.state === k).map((r) => ({
+    n: r.n,
+    what: r.what,
+    who: `<strong>${r.where}</strong>`,
+    why: mdp(r.settles),
+    ref: r.file,
+    stateLabel: e.states[r.state][0],
+    colour: e.states[r.state][1],
+    draft: r.draft,
+    links: r.href ? [["Context", r.href]] : [],
+  })),
+}));
+---
+<Base title={e.title} eyebrow={eyebrow} dek={e.dek}>
+  <section class="blk">
+    <p class="lede">{e.lead}</p>
+    <div style="margin-top:1.1rem;display:flex;flex-wrap:wrap;gap:8px">
+      {Object.entries(e.states).map(([k, [label, colour, gloss]]) => (
+        <span class="chip" style={`border-color:${colour}`} title={gloss}>
+          <strong style={`color:${colour}`}>{label}</strong> {n(k)}
+        </span>
+      ))}
+    </div>
+    {unlabelled.length > 0 && (
+      <p class="small">Filed under a state this page has no entry for: {unlabelled.join(", ")}.</p>
+    )}
+  </section>
+
+  <section class="blk">
+    <Errands groups={groups} u={u} />
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <p class="note" set:html={mdp(e.close)} />
+    <p class="note"><span set:html={mdp(e.tallyNote)} /> <a href={u("/searched/")}>The search register →</a></p>
+  </section>
+</Base>

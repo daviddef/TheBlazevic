@@ -98,6 +98,7 @@ ORDER = [
     "searched.py",
     "indexcoverage.py",
     "kosina.py",
+    "errands.py",
     "abroad.py",
     "readingsdata.py",
     "trovedata.py",
