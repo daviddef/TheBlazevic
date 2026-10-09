@@ -3260,6 +3260,23 @@
    ],
    "got": "**South Australia, all 240: 218 articles contain the name, 211 new.** Verified by fetching each article's OCR. Decades: 1910s 6, 1920s 11, 1930s 27, 1940s 99, 1950s 63, 1970s 3, 1990s 2. **Twelve of the pre-1941 ones are now in `trove.psv`**, including: **John Zubrinich's death, 15 December 1930, aged 72** (the tree has 15 December 1930 and a birth of 6 March 1860, which makes him 70 — recorded as a disagreement on /corrections); the widow, sons and daughters; **a 1921 birth announced as «James Bernard» on the 10th and «Leslie Bernard» on the 12th** (a correction, not twins); the marriages of Phyllis (1936), Laurel (1937), Vida (1937) and Keith Leo (1938); and **Arthur Clive Zubrinich, 8 April 1940, aged 7**, who is in no tree. **Victoria and Western Australia: 0 Family Notices for Zubrinich; Queensland 1.** **Other surnames: Kalanj 2 (a 1989 Canberra birthday), Prpić 3 (a 1994 birthday), Blažević 3 (two June 1952 Broken Hill funeral notices for Ivica Blažević), Zubrinic 4 (the same Broken Hill family)** — the Kalanj and Prpić hits are living-person birthday columns and are not recorded.",
    "missed": "Only 12 of the 211 new SA articles were recorded: the 1940s and 1950s (162 of them) were NOT read notice by notice, and most are engagements, births and marriages of people who may be living, which this archive does not publish; no article after 1941 beyond the one child's death was entered. Ivica Blažević (Broken Hill, June 1952) is a lead and is not linked to any Blažević in the tree. The Kosina hits (83 in Family Notices, 18 in Victoria alone) were counted and not read — Kosina is a common surname in Poland and Bohemia and no Australian branch of ours is known. New South Wales and Queensland Zubrinich were not re-run. Trove's search is fuzzy; every count above is of articles whose OCR was fetched and contains the string."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin baptisms 1747–1779 (sig. 00883), April 1779, Helena Kosina",
+   "key": "web/matricula-kranj-baptisms-1779",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00883/?pg=358",
+   "what": "Helena, the second daughter the 1603–1779 index gives Lukas Kosina the elder («26.4.»), to read the parents' names and the house",
+   "when": "9 October 2026",
+   "outcome": "yield",
+   "pages": "book page 358 (both pages, March–May 1779), first-line checks of pages 352 and 362",
+   "tags": [
+    "kosina",
+    "kranj-smartin",
+    "matricula",
+    "krstna"
+   ],
+   "got": "**Found, and the house test points away from Oberfeichting 9.** Page 358, right-hand page, entry 26: «*Idem* [26 April] *Helena* — *Lucas Kosina et Helena Pernerza, Rustici*», godparents *Michael … et Nescha Zhekirnza*, baptised by the parish priest of St Martin, **locus «Sti Thomae» with the house read as 17.** So **Lukas Kosina the elder lived at St Thomas in 1779, not at Franz Kosinar's Oberfeichting 9**; his wife is Helena **Perner**. This does not exclude him as Franz's father (a household can move) and does not prove it. Page 358 is **March–May 1779** (the «Martius 1779» heading is at its top), so 1779 is at pages 358–362.",
+   "missed": "The locus and house number were read at about 3× the page; «17» is as read. Gertrud of 1773 was not found (pages 306–309). Lukas the elder's own baptism, marriage and death were not looked for, so nothing links him to Franz Kosinar either way. The rest of 1779 was not read for other Kosina."
   }
  ]
 }
