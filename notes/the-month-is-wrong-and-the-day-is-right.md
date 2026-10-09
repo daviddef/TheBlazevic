@@ -7,6 +7,11 @@
 > settled» and that «one opening decides» are **withdrawn**. Case two, Stephanus
 > Perpić, is still open and now stands alone. See **RESOLVED** at the foot.
 
+> **SUPERSEDED AGAIN, 9 October 2026 — Stephanus is resolved the other way.** His baptism
+> is read from the image: **13 December 1861**, as the index said, and the tree's October is
+> wrong ([stephanus-perpic-was-born-in-december-1861.md](stephanus-perpic-was-born-in-december-1861.md)).
+> The sentence below that his October is «more likely right» is withdrawn.
+
 *20 September 2026. Written as a hypothesis, then tested the same hour, and the
 test went against it. Kept in full because the shape of the argument is the
 useful part.*

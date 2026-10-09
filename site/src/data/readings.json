@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 144,
-  "people": 112,
+  "rows": 147,
+  "people": 113,
   "derived": 70,
   "onDirectLine": 0,
   "indexOnly": 20,
@@ -12,7 +12,7 @@
  "kinds": [
   [
    "baptism",
-   45
+   46
   ],
   [
    "death",
@@ -20,7 +20,7 @@
   ],
   [
    "baptism-of-child",
-   18
+   20
   ],
   [
    "marriage-of-child",
@@ -1186,6 +1186,48 @@
    "indexOnly": true,
    "slug": "antonija-tonka-perpic-prpic",
    "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1861",
+   "cite": "named as father, «Joannes Perpić», at the baptism of Stephanus, Krivi Put image 78 left page, entry 109, 13 December 1861, house 136",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+   "indexOnly": false,
+   "slug": "joannis-perpic",
+   "name": "Joannis \"Ivan\" Perpić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1861",
+   "cite": "named as mother, «Lucia Perpić», at the baptism of Stephanus, Krivi Put image 78 left page, entry 109, 13 December 1861, house 136",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+   "indexOnly": false,
+   "slug": "lucia",
+   "name": "Lucia \"Luca\"",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1861",
+   "cite": "Krivi Put births 1847-1884 (DGS 5494757, waypoint 9R28-DP8) image 78 left-hand page, entry 109 of 1861 — «13. 10bris 1861 [born], 16. 10bris 1861 [baptised], Stephanus Perpić, legit., Joannes Perpić & Lucia Perpić, Krivi put N° 136». READ FROM THE IMAGE. 10bris is DECEMBER (the entries run 30 Nov = 105, 1 Dec = 106, 7/8 Dec = 107, 13 Dec = 108 and 109, 26 Dec = 110, 29 Dec = 111, then «Annus 1862»), so he was born 13 DECEMBER 1861 and baptised 16 December: THE INDEX WAS RIGHT AND THE TREE'S 13 OCTOBER IS WRONG. House 136 is ahnentafel 7's house; ark 3:1:3QS7-899C-5C1V",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+   "indexOnly": false,
+   "slug": "stephanus-perpic",
+   "name": "Stephanus Perpić",
    "ahn": null
   },
   {
@@ -2633,6 +2675,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "baptism-of-child",
+     "year": "1861",
+     "cite": "named as father, «Joannes Perpić», at the baptism of Stephanus, Krivi Put image 78 left page, entry 109, 13 December 1861, house 136",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+     "indexOnly": false
+    },
+    {
      "kind": "marriage-of-child",
      "year": "1885",
      "cite": "named as \"Ivan Perpić, seljak\" at his daughter's marriage, Senj p.192 no.5",
@@ -2655,7 +2708,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "marcus-oreskovic-oreskovic": {
@@ -4705,6 +4758,57 @@
    "direct": 1,
    "derived": 0
   },
+  "stephanus-perpic": {
+   "slug": "stephanus-perpic",
+   "name": "Stephanus Perpić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1861",
+     "cite": "Krivi Put births 1847-1884 (DGS 5494757, waypoint 9R28-DP8) image 78 left-hand page, entry 109 of 1861 — «13. 10bris 1861 [born], 16. 10bris 1861 [baptised], Stephanus Perpić, legit., Joannes Perpić & Lucia Perpić, Krivi put N° 136». READ FROM THE IMAGE. 10bris is DECEMBER (the entries run 30 Nov = 105, 1 Dec = 106, 7/8 Dec = 107, 13 Dec = 108 and 109, 26 Dec = 110, 29 Dec = 111, then «Annus 1862»), so he was born 13 DECEMBER 1861 and baptised 16 December: THE INDEX WAS RIGHT AND THE TREE'S 13 OCTOBER IS WRONG. House 136 is ahnentafel 7's house; ark 3:1:3QS7-899C-5C1V",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "lucia": {
+   "slug": "lucia",
+   "name": "Lucia \"Luca\"",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1861",
+     "cite": "named as mother, «Lucia Perpić», at the baptism of Stephanus, Krivi Put image 78 left page, entry 109, 13 December 1861, house 136",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/stephanus-perpic-was-born-in-december-1861.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
+     "derived": true,
+     "via": "antonija-tonka-perpic-prpic",
+     "viaName": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+     "where": "notes/the-household-was-swept-and-she-was-left-out.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -5154,26 +5258,6 @@
      "viaName": "Marija Milka Kalanj",
      "where": "notes/the-zeros-were-not-all-zeros.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-zeros-were-not-all-zeros.md",
-     "indexOnly": true
-    }
-   ],
-   "direct": 0,
-   "derived": 1
-  },
-  "lucia": {
-   "slug": "lucia",
-   "name": "Lucia \"Luca\"",
-   "ahn": null,
-   "rows": [
-    {
-     "kind": "named-on-a-child-baptism",
-     "year": "1859",
-     "cite": "Krivi Put, born 12 May 1859, baptised 15 May 1859 — INDEX ONLY, «Antonia Perpić», father «Joannis Perpić», mother «Luciæ Perpić»; ark 1:1:XQM9-6NQ4. AGREES WITH THE TREE TO THE DAY, and the three-day gap to baptism is ordinary for this parish. The index gives the mother the father's surname, so it does not supply ahnentafel 15's maiden name",
-     "derived": true,
-     "via": "antonija-tonka-perpic-prpic",
-     "viaName": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
-     "where": "notes/the-household-was-swept-and-she-was-left-out.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-household-was-swept-and-she-was-left-out.md",
      "indexOnly": true
     }
    ],

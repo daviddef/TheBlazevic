@@ -52,6 +52,15 @@ marriages, four baptisms-of-child -- had been counting for no one. A reading
 filed against a person who does not exist is worse than a missing reading,
 because the file looks fuller than it is.
 
+A DISAGREEMENT THAT IS WRITTEN DOWN IS NOT A FAULT (added 9 October 2026). The
+tree is not edited here, so when a page is read and it contradicts the tree the
+disagreement lives in corrections.json (kind «corrected» or «disputed», and a
+«what» that names a date). A reading whose person has such an entry is counted
+as ACKNOWLEDGED and printed, not failed: the check exists to catch a citation
+that is wrong and nobody knows, and Stephanus Perpić (tree 13 October 1861,
+page 13 December 1861) is the opposite — known, documented, and published on
+/corrections. An unacknowledged disagreement still fails.
+
 Run: python3 tools/datecheck.py [--quiet]
 """
 import difflib
@@ -123,6 +132,11 @@ def main():
         for p in json.load(open(os.path.join(DATA, f), encoding="utf-8")):
             people.setdefault(p["slug"], p)
 
+    declared = set()
+    for c in json.load(open(os.path.join(DATA, "corrections.json"), encoding="utf-8")):
+        if c.get("kind") in ("corrected", "disputed") and "date" in str(c.get("what", "")).lower():
+            declared.add(c.get("id"))
+    acknowledged = []
     path = os.path.join(ROOT, "sources", "readings.psv")
     compared, bad, orphans = 0, [], []
     for line in open(path, encoding="utf-8"):
@@ -155,7 +169,10 @@ def main():
             continue
         compared += 1
         if not any(c == td for c in cands):
-            bad.append((slug, kind, td, cands))
+            if p.get("id") in declared:
+                acknowledged.append((slug, kind, td, cands))
+            else:
+                bad.append((slug, kind, td, cands))
 
     if orphans:
         print(f"FAIL  {len(orphans)} reading(s) name a person who does not exist:")
@@ -183,7 +200,13 @@ def main():
               "for was\n      a Croatian month, «srpnja», written into the citation as August.")
         return 1
     if not quiet:
-        print("ok    every dated reading agrees with the date this archive publishes")
+        print("ok    every dated reading agrees with the date this archive publishes"
+              + (f", or disagrees in a way corrections.json already records "
+                 f"({len(acknowledged)}: " + ", ".join(a[0] for a in acknowledged) + ")"
+                 if acknowledged else ""))
+    elif acknowledged:
+        print(f"datecheck: {len(acknowledged)} acknowledged disagreement(s): "
+              + ", ".join(a[0] for a in acknowledged))
     return 0
 
 
