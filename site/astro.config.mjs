@@ -9,7 +9,9 @@ import { defineConfig } from 'astro/config';
 const BASE = '/TheBlazevic';
 /* /married-in is now /marriages, on the estate's shared page shape. The address
    has been published, so it redirects rather than 404s. */
-const redirects = { '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/` };
+const redirects = { '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/`,
+  /* 9 October 2026: folded into /errands/, which is the same subject. */
+  '/photograph-these': `${BASE}/errands/#photographs` };
 
 export default defineConfig({
   site: 'https://daviddef.github.io',

@@ -99,6 +99,11 @@ if os.path.isdir(DIST):
         if href.startswith("/people/") and href != "/people/":
             continue                       # already indexed, and 1,086 of them
         src = open(f, encoding="utf-8").read()
+        # A redirect page is an address that moved, not a page: it has no body to find, and
+        # "Redirecting to: ..." was being offered as a search result. It stays built so the
+        # old address keeps working. (Same fix as Booyzen's indexer, 9 October 2026.)
+        if 'http-equiv="refresh"' in src[:600]:
+            continue
         title = re.search(r"<title>(.*?)</title>", src, re.S)
         title = html.unescape(TAG.sub("", title.group(1))).split(" — ")[0].strip() if title else ""
         dek = re.search(r'<meta name="description" content="(.*?)"', src, re.S)

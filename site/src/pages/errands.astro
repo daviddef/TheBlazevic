@@ -11,9 +11,29 @@ import Errands from "@daviddef/archive-kit/components/Errands.astro";
 import { u } from "../lib/url.js";
 import { mdp } from "@daviddef/archive-kit/lib/md.js";
 import e from "../data/errands.json";
+import Shotlist from "@daviddef/archive-kit/components/Shotlist.astro";
+import shots from "../data/photograph-these.json";
 
 const n = (k) => e.rows.filter((r) => r.state === k).length;
-const eyebrow = `${n("draft")} drafted, not sent · ${n("sent")} sent, waiting · ${n("answered")} answered`;
+/* 9 October 2026. «Photograph these» folded in here. It is an errand in every field the
+   kit's Errands row has: a place, why the picture is worth the trip, what it would settle,
+   and nobody asked yet. The difference is only WHO is asked, which is anybody standing in
+   Croatia with a phone, so it keeps its own list, graded by how much effort the trip is
+   worth, under its own heading. /photograph-these/ redirects to #photographs. */
+const PRI = { "first": ["Go here first", "var(--terra)"],
+              "when passing": ["When you are passing", "#8a7f5c"],
+              "if you get there": ["If you get that far", "var(--rule-strong)"] };
+const ORDER = ["first", "when passing", "if you get there"];
+const unlabelledShots = [...new Set(shots.jobs.map((j) => j.pri).filter((k) => !PRI[k]))];
+const shotGroups = ORDER
+  .map((pri) => ({
+    label: PRI[pri][0],
+    rows: shots.jobs.filter((j) => j.pri === pri).map((j) => ({
+      where: j.where, what: j.what, why: j.why, colour: PRI[pri][1],
+    })),
+  }))
+  .filter((g) => g.rows.length);
+const eyebrow = `${n("draft")} drafted, not sent · ${n("sent")} sent, waiting · ${n("answered")} answered · ${shots.jobs.length} places to photograph`;
 const unlabelled = [...new Set(e.rows.map((r) => r.state).filter((k) => k && !e.states[k]))];
 
 const groups = ["draft", "sent", "answered"].map((k) => ({
@@ -49,6 +69,30 @@ const groups = ["draft", "sent", "answered"].map((k) => ({
 
   <section class="blk">
     <Errands groups={groups} u={u} />
+  </section>
+
+  <section class="blk" id="photographs">
+    <h2>Photographs only someone there can take</h2>
+    <p class="lede">This archive has been built from a family tree, a media library and about
+    thirty pages of parish register read on a screen. <strong>Nobody involved in it has stood in
+    any of these places.</strong> A phone is enough for all of it; none of this needs an
+    appointment, and most of it needs no permission.</p>
+    <p><strong>Photograph the whole thing and then the detail.</strong> A stone shot only close up
+    cannot be placed in its row; a stone shot only wide cannot be read. And photograph the ones
+    that look like nothing — a wrong house number is worth knowing too.</p>
+    <Shotlist groups={shotGroups} u={u} html={false} />
+    {unlabelledShots.length > 0 && (
+      <p class="small">Filed under an effort this page has no label for: {unlabelledShots.join(", ")}.</p>
+    )}
+    <h3 style="margin-top:2rem">And anything on paper</h3>
+    <table class="reg">
+      <thead><tr><th>What</th><th>Why it matters here</th></tr></thead>
+      <tbody>{shots.paper.map(([w, y]) => (
+        <tr><td><strong>{w}</strong></td><td class="dim">{y}</td></tr>))}</tbody>
+    </table>
+    <p style="margin-top:1.2rem">If you are holding a photograph and cannot say who is in it,
+    that is worth as much — <a href={u("/faces/")}>the contact sheet</a> is fifteen pictures this
+    archive cannot vouch for, and one conversation would close most of it.</p>
   </section>
 
   <section class="blk" style="border-bottom:0">
