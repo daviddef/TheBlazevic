@@ -1,0 +1,53 @@
+{
+ "_note": "Coordinates for the places this archive reads registers in that the shared kit gazetteer misses or puts in the wrong place. Each entry says where it came from. Written 9 October 2026. A coordinate is a claim: 'approx' means the place is NOT confirmed.",
+ "karlobag": {
+  "lat": 44.52792,
+  "lon": 15.0725,
+  "matched": "Općina Karlobag, Lika-Senj County, Croatia",
+  "kind": "boundary/administrative",
+  "conf": "exact",
+  "asked": "Karlobag, Croatia",
+  "via": "Karlobag, Croatia",
+  "why": "Nominatim (the kit's own geocoder) via the municipality centroid, 9 Oct 2026; the Record Atlas places Karlobag at 44.5284, 15.0729, which agrees to about 100 m. The shared gazetteer had no entry, so every Karlobag person was off the map."
+ },
+ "brinje": {
+  "lat": 44.99981,
+  "lon": 15.13127,
+  "matched": "Općina Brinje, Lika-Senj County, Croatia",
+  "kind": "boundary/administrative",
+  "conf": "exact",
+  "asked": "Brinje, Croatia",
+  "via": "Brinje, Croatia",
+  "why": "Nominatim via the municipality centroid, 9 Oct 2026; the Record Atlas has 45.0025, 15.13389, within about 200 m."
+ },
+ "nova oselica": {
+  "lat": 46.09325,
+  "lon": 14.028,
+  "matched": "Nova Oselica, Sovodenj, Gorenja vas-Poljane, 4225, Slovenia",
+  "kind": "place/village",
+  "conf": "exact",
+  "asked": "Nova Oselica, Slovenia",
+  "via": "Nova Oselica, Slovenia",
+  "why": "Nominatim, village, 9 Oct 2026. Nova Oselica is in the Poljane valley, Gorenja vas-Poljane."
+ },
+ "zgornje bitnje": {
+  "lat": 46.22075,
+  "lon": 14.33409,
+  "matched": "Zgornje Bitnje, Kranj, 4209, Slovenia",
+  "kind": "place/village",
+  "conf": "exact",
+  "asked": "Zgornje Bitnje, Slovenia",
+  "via": "Zgornje Bitnje, Slovenia",
+  "why": "Nominatim, village, 9 Oct 2026. The Kosina house, Oberfeichting No. 9, parish of Kranj-Smartin."
+ },
+ "selce": {
+  "lat": 45.15822,
+  "lon": 14.72067,
+  "matched": "Selce, Grad Crikvenica, Primorje-Gorski Kotar County, 51266, Croatia",
+  "kind": "boundary/administrative",
+  "conf": "approx",
+  "asked": "Selce, Croatia",
+  "via": "Selce, Croatia",
+  "why": "WHICH SELCE IS NOT CONFIRMED. There are several in Croatia: the shared gazetteer put this archive's Selce at Selce near Karlovac (45.51, 15.55), Nominatim's first answer was Selce in Moscenice (45.23, 14.25), and the Record Atlas places its Selce volumes at Selci Djakovacki in Slavonia (45.31, 18.35). The registers read here (Selce Umrli 1790-1815, priests of the Vinodol and Dobrinj district, a parish row beside Crikvenica in sources/parishes.psv) point at Selce by Crikvenica, which is what this entry uses; it is a best reading and not a document."
+ }
+}
