@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 511,
+ "count": 512,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -12,7 +12,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 42,
+  "Karlobag": 43,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -5156,6 +5156,16 @@
    "place": "župnija Kranj-Šmartin, Sv. Tomaž (Zgornje Bitnje) 17",
    "citation": "Krstna knjiga Kranj-Šmartin 1747-1779 (Matricula sig. 00883), book page 358 right-hand page, entry 26 — «Idem Helena, Lucas Kosina et Helena Pernerza Rustici», baptised 26 April 1779 (the index gave 26.4.); godparents Michael … and Nescha Zhekirnza; the parish priest of St Martin baptised her; the locus column reads «Sti Thomae» with the house number read as 17. The mother is Helena PERNER (as read). READ FROM THE IMAGE 9 October 2026. She is the second of Lukas Kosina's two daughters in the 1603-1779 index (Gertrud 1773 was not found on pages 306-309). Lukas Kosina the elder is NOT SHOWN to be Franz Kosinar's father: «Sti Thomae» is the Zgornje Bitnje neighbourhood (St Thomas is that village's filial church), so the place fits and the house number (17, as read) is inconclusive against Franz's later No. 9.",
    "slug": "helena-kosina-1779"
+  },
+  {
+   "name": "Mara, wife of Vicko Luckinich",
+   "ahn": null,
+   "relation": "GODMOTHER at a Karlobag baptism, WIFE OF VICKO LUCKINICH - the same woman as the Morica of 1727 or an earlier wife; not proved",
+   "event": "named as godmother",
+   "date": "10 March 1726",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691-1770 (DGS 5481648, waypoint 9RK1-3Y9) image 48 left-hand page, the entry «Na 10 Marca 1726 … krstih sina Simuna … bi kum Stipam Mili[ć]ich à kuma Mara Vicha Luchinicha». READ FROM THE IMAGE 10 October 2026. The wife of Vicko Luckinich is called MARA here and MORICA on 24 August 1727; both are ordinary forms of Marija and nothing in the book says whether it is one woman. The page also names a Vicko Luckinich as GODFATHER on 21 December 1725 (image 47 right-hand page, «bi kum Vicko Luckinich», the surname read at the page's own size)",
+   "slug": "mara-wife-of-vicko-luckinich"
   }
  ]
 }

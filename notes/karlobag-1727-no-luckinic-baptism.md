@@ -73,3 +73,11 @@ and third L columns (folios about 109–208) were read only for the surname, and
 The right-hand page of image 49 (9 May – 19 August 1727) was then read for surnames at moderate zoom: Lukatalich, Bulanich,
 Dosetich, Gricikik, Jezicka, Humorovic and others, **no Luckinić except the godmother entry of 24 August**. September–December
 1727 (image 50, left page) and 1726 and 1728 were not read for the surname.
+
+## 10 October 2026 — 1726 and the rest of 1727 read; a gap in the book
+
+Images 47 (right page), 48 (both pages), 49 (both pages) and the left page of 50 were read entry by entry at about 4x. **No Luckinić child is baptised in January–May 1726 or January–September 1727**; the Luckinići there are sponsors: *Vicko Luckinich* as godfather on 21 December 1725 (image 47), *Mara Vicha Luchinicha* as godmother on 10 March 1726 (image 48), *Morica* wife of Vicko on 24 August 1727. So Vicko's wife is called Mara in 1726 and Morica in 1727 — one woman by two forms of Marija, or two wives; the book does not say.
+
+**The register has a gap.** Image 48's right-hand page ends with an entry of 4 May 1726; the leaf's back (image 49, left page) begins on 11 January 1727, and the January 1727 entry shows through at the foot of the earlier page. **Nothing from May to December 1726 is written between them.** If Catherina was born in the second half of 1726 her baptism is not in this volume's sequence, which would also explain why neither 30 March 1727 nor the Kazalo has her. That is a hypothesis, not a finding: the film may differ from the book, and the missing months may be written elsewhere.
+
+**Not done:** the right-hand page of image 50 and 1728 onwards; a search for where the May–December 1726 baptisms went.
