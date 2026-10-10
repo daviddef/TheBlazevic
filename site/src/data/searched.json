@@ -9,10 +9,10 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 33,
+  "nothing": 34,
   "partial": 24,
   "pending": 6,
-  "yield": 84
+  "yield": 86
  },
  "read": [
   {
@@ -3448,6 +3448,65 @@
    ],
    "got": "**Found: «Koskina Franciscus Xaverius», son of «Lucas et Helena Kosina», baptised 3 December 1775, locus «S. Thomae» house 10 (page 330, right-hand page, second entry).** The month is December because the spread's left page opens December and the next spread's left page runs to 28 December and then carries the heading «1776 Januarij»; 3 December is the feast of St Francis Xavier. It is inside the window the two ages allow (28 October 1775 – 22 January 1776) and the house number 10 is the number Franz Kosinar's marriage (1800) and death (1849) entries give. **Probable, not proved:** the book spells the surname Kosina where the later entries write Kosinar, and the child is not called Franz. The index's K section (sig. 00872) did not list him. This makes **Lukas Kosina the elder and Helena Perner the probable parents of Franz**. In found.psv and on /kosina/.",
    "missed": "Only the pages around 3 December 1775 were read (330, 331). Matthäus (b. about 1774), the other candidate sibling, and any further children of Lucas and Helena in 1774–1778 were NOT looked for in the register. Helena's 1779 house number, read as 17 in the first pass, was not re-read and may be 10. The infant's cell and the parents' cell were read at about 6x and the surname's last letters (Kosina / Kosarsa) are not certain."
+  },
+  {
+   "src": "FamilySearch — Selce marriages 1790–1815 (DGS 5482267, Vjenčani), image 248, 18 November 1798: Joannes Antić × Martha Lončarić",
+   "key": "fs/selce-marriage-1798-antic-loncaric",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y",
+   "film": "005482267",
+   "what": "The marriage of ahnentafel 48 and 49, which the Selce baptism of 1806 and the deaths of 1829 imply and no document had been read for",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "image 248, left page (the entry of 18 November 1798 in close-up); the page's first entries were seen at 0.7 of the page's size",
+   "tags": [
+    "papic",
+    "antic",
+    "loncaric",
+    "selce",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**Found: «Die 18° 9bris [1798] … junxi Matrimonio Joannem filium Defunctorum Anto[nii] et Ursulae Antich, cum Martha filia Pauli et Annae Lončarich», witnesses Mathia Jellichich and Georgio Antich, house 27 as read, with a dispensation for double consanguinity in the fourth degree.** It names the parents of both ahnentafel 48 and 49: **Antonius and Ursula Antić (ahnentafel 96 and 97) and Paulus and Anna Lončarić (98 and 99)**, and it gives the groom's father as ANTONIUS, agreeing with the 1793 death entry and not with the tree's Joannis (on /corrections). Date 18 November 1798, found from image 248 after the marriage book was located by sampling (1791 at image 240, 1806 at 258). [notes/selce-marriage-1798-antic-loncaric.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md)",
+   "missed": "The groom's father's name is cut by the right edge («Anto…»); the house number 27 is as read; the other entries of 18 November 1798 and of 1797-1799 were not read, and images 241–247 (1791–1797) and 249–257 (1799–1805) still hold the possible first marriage of Georgi Jelličić and the marriage of ahnentafel 50 and 51."
+  },
+  {
+   "src": "FamilySearch — Selce marriages 1790–1815 (DGS 5482267, Vjenčani), image 251, 14 November 1800: Georgi Jelličić × Margarita Drozović",
+   "key": "fs/selce-marriage-1800-jellicic-drozovic",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y",
+   "film": "005482267",
+   "what": "The marriage of ahnentafel 50 and 51, which would name Margarita's parents (ahnentafel 102 and 103) and the groom's (100 and 101)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "images 249 (1799), 250 (1800), 251 (1800, both pages), 257 (1805); the entry in close-up on 251 left",
+   "tags": [
+    "papic",
+    "antic",
+    "jellicic",
+    "selce",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**Found: «Die 14. 9bris A° 1800 … junxi Matrimonio Georgium filium Mathiae et Margaritae Jellichich, cum Margarita filia Joannis et Catharinae Drozovich», witnesses Laurentio Alloy(?) and Joanne Drozovich.** It names the parents of ahnentafel 50 and 51: **Mathias and Margarita Jelličić (100, 101) and Joannes and Catharina (102, 103) — written DROZOVICH, not Brozović**; the surname is on /corrections together with Margarita's birth year (1784 would make her sixteen at the wedding). The earlier negative (1806–1811, and the 1783–85 baptisms) is explained: she married in 1800 and was born before 1783. The 1784 baptism of a Petrus to Joannes and Catharina «Brozovich» read on 10 October is a Drozovich baptism and probably her brother's. [notes/selce-marriage-1800-jellicic-drozovic.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md)",
+   "missed": "Entry 96's witnesses are read at one zoom; the date's month is «9bris» (November) read from the abbreviation and the day 14 from the same line; the house number 96 in the margin is as read. Images 241–247 (1791–1797) and 252–256 (1801–1804) were not read, and neither were most of the other entries of the 1800 mass days. Margarita's own baptism (about 1776–1781) was not looked for."
+  },
+  {
+   "src": "FamilySearch — Selce births 1778–1783 (DGS 5482267, Rođeni 1778–1815), images 8–11, read again for Margarita Drozović's baptism after her marriage of 1800 was found",
+   "key": "fs/selce-births-1778-83-drozovic",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+   "film": "005482267",
+   "what": "Margarita, daughter of Joannes and Catharina Drozovich, the bride of 14 November 1800 (ahnentafel 51), born before 1800 and not in 1783–85",
+   "when": "11 October 2026",
+   "outcome": "nothing",
+   "pages": "images 8 (1778, both pages), 9 (1779 and 1780, both pages), 10 (1781 and early 1782), 11 (1782 to 1783 left page lower half); 1783 right page and 1784 and Jan–Oct 1785 had been read on 10 October",
+   "tags": [
+    "papic",
+    "antic",
+    "selce",
+    "familysearch",
+    "krstena"
+   ],
+   "got": "**No Margarita to a Joannes and a Catharina Drozovich in 1778–1783** at the size read (the surname appears in these years only as sponsors: Joanne Drozovich, Barbara Drozovich; as parents Lucas and Barbara Drozovich, Gregorius and Helena Drozovich in 1779). Together with the clean 1783–85 pages, **her baptism is not on the Selce film from 1778 to October 1785, so she was probably born before the film opens in 1778** (a bride of about twenty-three in 1800) — or in another parish. The Drozović family is present at Selce all through these years.",
+   "missed": "Read band by band at 0.7 of the page's size and for the surname Drozovich/Brozovich and the name Margarita rather than every word; the lower part of image 9's right page (late 1780) and the top of image 11's left page (early 1782) were read only partly. Baptisms before 1778 are on no film this archive can read."
   }
  ]
 }

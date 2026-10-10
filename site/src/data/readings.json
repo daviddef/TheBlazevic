@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 147,
-  "people": 113,
+  "rows": 159,
+  "people": 118,
   "derived": 70,
   "onDirectLine": 0,
   "indexOnly": 20,
@@ -19,16 +19,16 @@
    25
   ],
   [
+   "marriage-of-child",
+   23
+  ],
+  [
    "baptism-of-child",
    20
   ],
   [
-   "marriage-of-child",
-   15
-  ],
-  [
    "marriage",
-   15
+   19
   ],
   [
    "grave",
@@ -290,6 +290,174 @@
    "indexOnly": false,
    "slug": "joannis-antic-2",
    "name": "Joannis Antić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1798",
+   "cite": "named as the bride's mother, «Annae Lončarich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "anna-papic",
+   "name": "Anna Papić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1798",
+   "cite": "Selce marriages 1790-1815 image 248 left (DGS 5482267): «Die 18° 9bris [1798] … junxi Matrimonio Joannem filium Defunctorum Anto[nii] et Ursulae Antich, cum Martha filia Pauli et Annae Lončarich», witnesses Mathia Jellichich and Georgio Antich; house 27 as read; image 248 of the film's 294",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "joannis-antic",
+   "name": "Joannis Antić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1798",
+   "cite": "named as the groom's late father, written «Anto[nii]» - agrees with the 1793 death entry's Antonius and not with the tree's Joannis",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "joannis-antic-2",
+   "name": "Joannis Antić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1798",
+   "cite": "the bride of the same entry: «Martha filia Pauli et Annae Lončarich»; dispensation 4th-and-4th double consanguinity, No 18",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "margarita-martha-loncaric",
+   "name": "Margarita (Martha) Lončarić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1798",
+   "cite": "named as the bride's father in the same entry",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "pauli-loncaric",
+   "name": "Pauli Lončarić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1798",
+   "cite": "named as the groom's mother, «Ursulae Antich», dead by 1798",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1798-antic-loncaric.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+   "indexOnly": false,
+   "slug": "ursula",
+   "name": "Ursula",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1800",
+   "cite": "named as the bride's mother, «Catharinae Drozovich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "catharina-2",
+   "name": "Catharina",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1800",
+   "cite": "Selce marriages 1790-1815 image 251 left (DGS 5482267), entry 96 of 14 November 1800: «junxi Matrimonio Georgium filium Mathiae et Margaritae Jellichich, cum Margarita filia Joannis et Catharinae Drozovich», witnesses Laurentio Alloy(?) and Joanne Drozovich",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "georgi-juraj-jellicic",
+   "name": "Georgi Juraj Jelličić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1800",
+   "cite": "named as the bride's father, «Joannis … Drozovich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "joanni-brozovic",
+   "name": "Joanni Brozović",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1800",
+   "cite": "named as the groom's mother, «Margaritae Jellichich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "margarita",
+   "name": "Margarita",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1800",
+   "cite": "the bride of the same entry, «Margarita filia Joannis et Catharinae Drozovich» - the surname reads DROZOVICH, not Brozović",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "margarita-brozovic",
+   "name": "Margarita Brozović",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1800",
+   "cite": "named as the groom's father, «Mathiae … Jellichich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+   "indexOnly": false,
+   "slug": "mathia-jellicic",
+   "name": "Mathia Jelličić",
    "ahn": null
   },
   {
@@ -2220,6 +2388,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1798",
+     "cite": "Selce marriages 1790-1815 image 248 left (DGS 5482267): «Die 18° 9bris [1798] … junxi Matrimonio Joannem filium Defunctorum Anto[nii] et Ursulae Antich, cum Martha filia Pauli et Annae Lončarich», witnesses Mathia Jellichich and Georgio Antich; house 27 as read; image 248 of the film's 294",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1806",
      "cite": "named as father, 1806 baptism of ahn 24",
@@ -2253,7 +2432,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 0
   },
   "margarita-martha-loncaric": {
@@ -2261,6 +2440,17 @@
    "name": "Margarita (Martha) Lončarić",
    "ahn": null,
    "rows": [
+    {
+     "kind": "marriage",
+     "year": "1798",
+     "cite": "the bride of the same entry: «Martha filia Pauli et Annae Lončarich»; dispensation 4th-and-4th double consanguinity, No 18",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
+    },
     {
      "kind": "baptism-of-child",
      "year": "1806",
@@ -2295,7 +2485,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 0
   },
   "maria-jellicic": {
@@ -2368,6 +2558,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1800",
+     "cite": "Selce marriages 1790-1815 image 251 left (DGS 5482267), entry 96 of 14 November 1800: «junxi Matrimonio Georgium filium Mathiae et Margaritae Jellichich, cum Margarita filia Joannis et Catharinae Drozovich», witnesses Laurentio Alloy(?) and Joanne Drozovich",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1809",
      "cite": "named as father, 1809 baptism of ahn 25",
@@ -2412,7 +2613,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 4,
+   "direct": 5,
    "derived": 0
   },
   "margarita-brozovic": {
@@ -2420,6 +2621,17 @@
    "name": "Margarita Brozović",
    "ahn": null,
    "rows": [
+    {
+     "kind": "marriage",
+     "year": "1800",
+     "cite": "the bride of the same entry, «Margarita filia Joannis et Catharinae Drozovich» - the surname reads DROZOVICH, not Brozović",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    },
     {
      "kind": "baptism-of-child",
      "year": "1809",
@@ -2454,7 +2666,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 0
   },
   "matia-mathiam-georgiam-uroda": {
@@ -4682,6 +4894,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage-of-child",
+     "year": "1798",
+     "cite": "named as the bride's mother, «Annae Lončarich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1807",
      "cite": "Selce Umrli 1790-1815, image 110 left page (DGS 5482267, waypoint 9R2M-BZF) — «Die 24 Mensis Augusti anno ut supra 1807. Anna uxor Pauli Lončarich Papich annorum circiter 65 … sepultum est», domus 134 as read. READ FROM THE IMAGE. The day, month and age (b. about 1742) are the tree's; the entry gives her own surname Papich, her first document as a Papić; ark 3:1:3QS7-899C-5962-V",
@@ -4704,7 +4927,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "pauli-loncaric": {
@@ -4712,6 +4935,17 @@
    "name": "Pauli Lončarić",
    "ahn": null,
    "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1798",
+     "cite": "named as the bride's father in the same entry",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
+    },
     {
      "kind": "death-of-spouse",
      "year": "1807",
@@ -4735,7 +4969,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "joannis-antic-2": {
@@ -4753,9 +4987,20 @@
      "where": "notes/selce-deaths-1793-1807-1811.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md",
      "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1798",
+     "cite": "named as the groom's late father, written «Anto[nii]» - agrees with the 1793 death entry's Antonius and not with the tree's Joannis",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "stephanus-perpic": {
@@ -4808,6 +5053,106 @@
    ],
    "direct": 1,
    "derived": 1
+  },
+  "ursula": {
+   "slug": "ursula",
+   "name": "Ursula",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1798",
+     "cite": "named as the groom's mother, «Ursulae Antich», dead by 1798",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1798-antic-loncaric.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mathia-jellicic": {
+   "slug": "mathia-jellicic",
+   "name": "Mathia Jelličić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1800",
+     "cite": "named as the groom's father, «Mathiae … Jellichich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "margarita": {
+   "slug": "margarita",
+   "name": "Margarita",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1800",
+     "cite": "named as the groom's mother, «Margaritae Jellichich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joanni-brozovic": {
+   "slug": "joanni-brozovic",
+   "name": "Joanni Brozović",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1800",
+     "cite": "named as the bride's father, «Joannis … Drozovich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "catharina-2": {
+   "slug": "catharina-2",
+   "name": "Catharina",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1800",
+     "cite": "named as the bride's mother, «Catharinae Drozovich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/selce-marriage-1800-jellicic-drozovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
   },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
