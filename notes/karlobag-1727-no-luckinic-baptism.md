@@ -91,3 +91,22 @@ Images 31–47 were read entry by entry (see the search register). **No Luckini�
 * Vicko's wife is therefore **Jelena (1718, 1722), then Mare (April 1725), Mara (March 1726), Morica (August 1727)** — a first wife and a second, Mare/Mara/Morica being one woman.
 
 Catherina's baptism is in none of it. A baptism before 1718, or in another register, remains. Image 42 of the film is a duplicate exposure of image 41.
+
+## Added 11 October 2026: November 1727 to the end of 1732 read, and the «faded» page is readable at 4x
+
+Karlobag births 1691-1804 (DGS 5481648, waypoint 9RK1-3Y9). **Numbering warning:** the viewer helper used in this
+session addresses these frames one higher than the table above, so the page this note calls image 50 is «51» in the
+helper and image 51 is «52»; the contents match (book page 91 carries 23 November 1727 to 29 July 1729 and is the
+page described above as faded). I read:
+
+* **book page 91** (right-hand page of the frame this note calls image 50): 23 and 24 November 1727, January and
+  March 1728, and the lower, faded third — at about 4x it is legible — through to 29 July 1729;
+* **book page 92** (left-hand page of the next frame): 30 October 1729 to 29 January 1730;
+* **book page 93**: January 1730 to the entry of 3 July? 1732 at its foot (the dates are out of sequence on these pages).
+
+**No Luckinić (Lukcinich) child in any of them**, and no Vicko Luckinić either as father or sponsor. So Catherina's
+baptism is now missing from **June 1717 to the end of 1732**, a much wider window than her death age of 70 (about
+1720) allows, which points more strongly to a missing leaf, a baptism in another place, or an age that is wrong, than
+to an overlooked entry. **Not done:** book page 94 onward (1732-33 and later), the order of the many entries that
+are out of date sequence, and any reading of every name on these pages at more than one zoom (names were read at one
+or two zooms, so a badly spelt Luckinić could have been passed).
