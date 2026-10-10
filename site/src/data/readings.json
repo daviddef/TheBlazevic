@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 162,
+  "rows": 165,
   "people": 118,
   "derived": 70,
   "onDirectLine": 0,
@@ -15,16 +15,16 @@
    46
   ],
   [
+   "marriage-of-child",
+   25
+  ],
+  [
    "death",
    25
   ],
   [
-   "marriage-of-child",
-   24
-  ],
-  [
    "marriage",
-   21
+   23
   ],
   [
    "baptism-of-child",
@@ -379,6 +379,20 @@
   {
    "kind": "marriage",
    "year": "1798",
+   "cite": "Karlobag marriages 1736-1804 image 343 right (DGS 5481649), 14 Feb 1798: «consensu Josephi viduei [Pilepich?] et Mariae filiae Vincenti [Smojver?]» - PROBABLE: surnames faint, date, first names and the father's given name fit; he is written as a widower",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "indexOnly": false,
+   "slug": "josephus-josip-pilipic",
+   "name": "Josephus (Josip) Pilipic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1798",
    "cite": "the bride of the same entry: «Martha filia Pauli et Annae Lončarich»; dispensation 4th-and-4th double consanguinity, No 18",
    "derived": false,
    "via": null,
@@ -388,6 +402,20 @@
    "indexOnly": false,
    "slug": "margarita-martha-loncaric",
    "name": "Margarita (Martha) Lončarić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1798",
+   "cite": "the bride, «Maria filia Vincenti» - probable, as above",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "indexOnly": false,
+   "slug": "oliva-maria-smojver",
+   "name": "Oliva Maria Smojver",
    "ahn": null
   },
   {
@@ -416,6 +444,20 @@
    "indexOnly": false,
    "slug": "ursula",
    "name": "Ursula",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1798",
+   "cite": "named (given name only) as the bride's father, «filiae Vincenti» - probable",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "indexOnly": false,
+   "slug": "vicentius-fabiano-smojver-vukic",
+   "name": "Vicentius Fabiano Smojver Vukić",
    "ahn": null
   },
   {
@@ -3031,9 +3073,20 @@
      "where": "notes/karlobag-1781-oliva-smojver.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
      "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1798",
+     "cite": "named (given name only) as the bride's father, «filiae Vincenti» - probable",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "caetano-bacchi": {
@@ -3704,9 +3757,20 @@
      "where": "notes/karlobag-1781-oliva-smojver.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md",
      "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1798",
+     "cite": "the bride, «Maria filia Vincenti» - probable, as above",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "oliva-andreana-bacchi": {
@@ -4273,6 +4337,17 @@
      "indexOnly": true
     },
     {
+     "kind": "marriage",
+     "year": "1798",
+     "cite": "Karlobag marriages 1736-1804 image 343 right (DGS 5481649), 14 Feb 1798: «consensu Josephi viduei [Pilepich?] et Mariae filiae Vincenti [Smojver?]» - PROBABLE: surnames faint, date, first names and the father's given name fit; he is written as a widower",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1828",
      "cite": "Karlobag Umrli 1804-1861 page 35 (image 138 right, DGS 5481649, waypoint 9RK1-HZK) — «28 Junii [margin, read; the KAZALO also reads 28] Josephus Pilepich Carlobagensis annorum 61 in communione S. Matris Ecclesiae animam Deo reddidit, cujus corpus die 29 h. sepultum est in coemeterio S. Caroli». READ FROM THE IMAGE, found through the KAZALO (P, image 185 right, 1828, folio 35). THE TREE SAYS 26 JUNE 1828, two days out against two readings, and the age 61 is a year over the tree's 60. A probable match for ahnentafel 52, not a proven one: the entry names no wife or parent; ark 3:1:3QSQ-G99C-G9HP",
@@ -4284,7 +4359,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "marija-milka-kalanj": {
