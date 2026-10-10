@@ -9,10 +9,10 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 34,
+  "nothing": 35,
   "partial": 24,
   "pending": 6,
-  "yield": 88
+  "yield": 89
  },
  "read": [
   {
@@ -3547,6 +3547,46 @@
    ],
    "got": "**Probably found: 14 February 1798, «consensu Josephi viduei [Pilepich?] et Mariae filiae Vincenti [Smojver?]», married by the chaplain Andreas Bagetich, witnesses Michael Barach and Josef Lazarich.** The date, the first names and the bride's father's given name (Vincentius, ahnentafel 106) fit the tree, and the groom is a widower. **Both surnames are faint, so it is recorded as probable.** [notes/karlobag-marriage-1798-pilepich-smojver.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md)",
    "missed": "The surnames of the groom and bride were not read cleanly at about 6x; the other entries of 1798 were not read; the groom's first wife and his parents are not named."
+  },
+  {
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649), images 313–316, January 1778 to August 1780, read for Vincentius Smojver Vukić × Oliva Bacchi (ahnentafel 106 and 107)",
+   "key": "fs/karlobag-marriages-1778-80-smojver",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+   "waypoint": "9RK1-HZK",
+   "what": "The marriage of ahnentafel 106 and 107, expected before ahnentafel 53's baptism of March 1781",
+   "when": "11 October 2026",
+   "outcome": "nothing",
+   "pages": "images 313 (1778), 314 (July 1778 – 1779), 315 (October 1779 – 1780), 316 (1780, both pages); the entries' groom, bride and witness names read at about 0.75 of the page",
+   "tags": [
+    "smojver",
+    "bacchi",
+    "karlobag",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**No Smojver × Bacchi marriage in the entries read of 1778 – August 1780.** A Vito Smojver appears twice as a witness (April 1778 and November 1779). The Latin of the 1770s is dense, heavily abbreviated and written on several lines an entry, with the bride's and groom's fathers named; each entry gives «filii quondam X et Y filiae Z».",
+   "missed": "The hand is hard to read at this size and entries were scanned for the names Smojver, Bacchi and Vukić rather than read through, so a miss is possible; 1777 and before (images 308–312), September 1780 onward, and the left page of 317 were not read. The marriage may be earlier than 1778: ahnentafel 53 need not be their first child."
+  },
+  {
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 324, 2 November 1785: Michael Gerkacs × Lucia Tomljanović",
+   "key": "fs/karlobag-marriage-1785-gerkacs-tomljanovic",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+   "waypoint": "9RK1-HZK",
+   "what": "The marriage of ahnentafel 110 (Michael Gerkacs) and 111 (Lucia «Maja» Tomljanović), and Paul Tomljanović's place",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "image 324 (both pages, 1785); images 320, 322, 323, 326 for the book's years",
+   "tags": [
+    "tomljanovic",
+    "gerkacs",
+    "papic",
+    "karlobag",
+    "montani-staniste",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**Found: «2. Novembris [1785] … consensu Michaelis filii defuncti Nicolai Gergacs et Luciae Pauli Tomljenovich, loci Mostani [Montani] Stanize», married by the parish priest Joes Antonius Frankovich, witnesses Antonius Gergacs and Joannes Kovacevich.** It names the groom's father (the late Nicolaus Gerkacs, ahnentafel 220, d. 30 October 1783) and the bride's father **Paul Tomljanović, «of Montani Stanize»** (ahnentafel 222), which is the first page-evidence for the settlement the tree gives and that `parishes.psv` records as unknown. [notes/karlobag-marriage-1785-gerkacs-tomljanovic.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md)",
+   "missed": "The place word is read once at about 6x and is not independently identified with Montani Stanište; the bride's mother is not named; the other entries of 1785 were not read."
   }
  ]
 }

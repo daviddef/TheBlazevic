@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 165,
-  "people": 118,
+  "rows": 169,
+  "people": 119,
   "derived": 70,
   "onDirectLine": 0,
   "indexOnly": 20,
@@ -16,15 +16,15 @@
   ],
   [
    "marriage-of-child",
+   27
+  ],
+  [
+   "marriage",
    25
   ],
   [
    "death",
    25
-  ],
-  [
-   "marriage",
-   23
   ],
   [
    "baptism-of-child",
@@ -276,6 +276,62 @@
    "indexOnly": false,
    "slug": "nicolaus-gerkacs",
    "name": "Nicolaus Gerkacs",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1785",
+   "cite": "the bride of the same entry, «Luciae [filiae] Pauli Tomljenovich, loci Montani Stanize»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "indexOnly": false,
+   "slug": "lucia-maja-tomljanovic",
+   "name": "Lucia (Maja) Tomljanović",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1785",
+   "cite": "Karlobag marriages 1736-1804 image 324 right (DGS 5481649), 2 Nov 1785: «consensu Michaelis filii defuncti Nicolai Gergacs et Luciae Pauli Tomljenovich, loci Mostani [Montani] Stanize», priest Joes Antonius Frankovich, witnesses Antonius Gergacs and Joannes Kovacevich",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "indexOnly": false,
+   "slug": "michaeli-michaele-gerkacs-gergacs",
+   "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1785",
+   "cite": "named as the groom's late father, «defuncti Nicolai Gergacs» - he died 30 October 1783",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "indexOnly": false,
+   "slug": "nicolaus-gerkacs",
+   "name": "Nicolaus Gerkacs",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1785",
+   "cite": "named as the bride's father, «Pauli Tomljenovich», with the place «Montani Stanize»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "indexOnly": false,
+   "slug": "pauli-tomljanovic",
+   "name": "Pauli Tomljanović",
    "ahn": null
   },
   {
@@ -3706,6 +3762,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1785",
+     "cite": "Karlobag marriages 1736-1804 image 324 right (DGS 5481649), 2 Nov 1785: «consensu Michaelis filii defuncti Nicolai Gergacs et Luciae Pauli Tomljenovich, loci Mostani [Montani] Stanize», priest Joes Antonius Frankovich, witnesses Antonius Gergacs and Joannes Kovacevich",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "indexOnly": false
+    },
+    {
      "kind": "marriage-of-child",
      "year": "1807",
      "cite": "named as the bride's father, «Maria filia Michaelis Gergas», Karlobag 17 June 1807",
@@ -3739,7 +3806,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 1
   },
   "oliva-maria-smojver": {
@@ -4133,9 +4200,20 @@
      "where": "notes/karlobag-1778-jacobus-pilepich.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md",
      "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1785",
+     "cite": "named as the groom's late father, «defuncti Nicolai Gergacs» - he died 30 October 1783",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "catherina-catta-luckinic": {
@@ -5002,6 +5080,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1785",
+     "cite": "the bride of the same entry, «Luciae [filiae] Pauli Tomljenovich, loci Montani Stanize»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1809",
      "cite": "Karlobag Umrli 1804-1861 page 12 (image 125 left, DGS 5481649, waypoint 9RK1-HZK) — «19. [Sept.] Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34, provisa omnibus sacramentis obiit in Domino, atque in propria crypta in coemeterio existente humata est». READ FROM THE IMAGE. The day and month are the tree's to the day, the by-name «Maja» is the tree's, and the husband is Michael Gergacs; THE AGE DOES NOT FIT (34 in 1809 against a marriage of 1785 and a daughter baptised 1789) and is unresolved, so a second wife of the same husband cannot be ruled out. Not in the KAZALO under Tomljanović; ark 3:1:3QS7-L99C-G99J",
@@ -5024,7 +5113,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "anna-papic": {
@@ -5323,6 +5412,26 @@
    ],
    "direct": 1,
    "derived": 1
+  },
+  "pauli-tomljanovic": {
+   "slug": "pauli-tomljanovic",
+   "name": "Pauli Tomljanović",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1785",
+     "cite": "named as the bride's father, «Pauli Tomljenovich», with the place «Montani Stanize»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
   },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
