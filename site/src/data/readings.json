@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 169,
+  "rows": 173,
   "people": 119,
   "derived": 70,
   "onDirectLine": 0,
@@ -16,11 +16,11 @@
   ],
   [
    "marriage-of-child",
-   27
+   29
   ],
   [
    "marriage",
-   25
+   27
   ],
   [
    "death",
@@ -150,6 +150,62 @@
    "indexOnly": true,
    "slug": "josephus-josip-pilipic",
    "name": "Josephus (Josip) Pilipic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1774",
+   "cite": "named as the bride's father and DEAD by 2 May 1774 («defuncti Caetani Bacchi») - which the tree's birth of 1779 cannot be",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1774",
+   "cite": "named as the groom's father, «filii Josephi Smojver, vulgo nuncupati Vukich»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "josiph-smojver-vukic",
+   "name": "Josiph Smojver Vukić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1774",
+   "cite": "the bride of the same entry, «Olivae filiae defuncti Caetani Bacchi»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "oliva-andreana-bacchi",
+   "name": "Oliva Andreana Bacchi",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1774",
+   "cite": "Karlobag marriages 1736-1804 image 306 right (DGS 5481649), 2 May 1774: «consensu Vincentii filii Josephi Smojver, vulgo nuncupati Vukich, ac Olivae filiae defuncti Caetani Bacchi», witnesses Dno Nicolao Jurich and Francisco [Lukulich?]",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "vicentius-fabiano-smojver-vukic",
+   "name": "Vicentius Fabiano Smojver Vukić",
    "ahn": null
   },
   {
@@ -3120,6 +3176,17 @@
      "indexOnly": false
     },
     {
+     "kind": "marriage",
+     "year": "1774",
+     "cite": "Karlobag marriages 1736-1804 image 306 right (DGS 5481649), 2 May 1774: «consensu Vincentii filii Josephi Smojver, vulgo nuncupati Vukich, ac Olivae filiae defuncti Caetani Bacchi», witnesses Dno Nicolao Jurich and Francisco [Lukulich?]",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1781",
      "cite": "named as father, «Vincentio… Smoyver, vulgò Vukić», Karlobag 11 March 1781",
@@ -3142,7 +3209,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 0
   },
   "caetano-bacchi": {
@@ -3150,6 +3217,17 @@
    "name": "Caetano Bacchi",
    "ahn": null,
    "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1774",
+     "cite": "named as the bride's father and DEAD by 2 May 1774 («defuncti Caetani Bacchi») - which the tree's birth of 1779 cannot be",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
     {
      "kind": "baptism",
      "year": "1779",
@@ -3162,7 +3240,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "mariam-gerkacs-gergacs": {
@@ -3846,6 +3924,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1774",
+     "cite": "the bride of the same entry, «Olivae filiae defuncti Caetani Bacchi»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1781",
      "cite": "named as mother, «et Oliva Smoyver, vulgò Vukić, Conjugibus», Karlobag 11 March 1781",
@@ -3857,7 +3946,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "toma-zubrinic": {
@@ -3959,6 +4048,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage-of-child",
+     "year": "1774",
+     "cite": "named as the groom's father, «filii Josephi Smojver, vulgo nuncupati Vukich»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1776",
      "cite": "Karlobag Umrli 1774-1804 folio 11 — «16 ejusdem [Maij] · Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus [Sacramentis] … in Domino obijt, atque die 17 … in Coemeterio Parochiali tumulatus»; found through the KAZALO's cross-reference «Vukich vide Smojver»; ark 3:1:3QS7-L99C-G3WG",
@@ -3981,7 +4081,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "ljubomir-blazevic": {

@@ -3553,7 +3553,7 @@
    "waypoint": "9RK1-HZK",
    "what": "The marriage of ahnentafel 106 and 107, expected before ahnentafel 53's baptism of March 1781",
    "when": "11 October 2026",
-   "outcome": "nothing",
+   "outcome": "yield",
    "pages": "images 313 (1778), 314 (July 1778 – 1779), 315 (October 1779 – 1780), 316 (1780, both pages); the entries' groom, bride and witness names read at about 0.75 of the page",
    "tags": [
     "smojver",
@@ -3562,7 +3562,7 @@
     "familysearch",
     "vjencani"
    ],
-   "got": "**No Smojver × Bacchi marriage in the entries read of 1778 – August 1780.** A Vito Smojver appears twice as a witness (April 1778 and November 1779). The Latin of the 1770s is dense, heavily abbreviated and written on several lines an entry, with the bride's and groom's fathers named; each entry gives «filii quondam X et Y filiae Z».",
+   "got": "**Not in 1778–1780 because it was earlier: FOUND on 2 May 1774 (image 306 right): «Vincentii filii Josephi Smojver, vulgo nuncupati Vukich, ac Olivae filiae defuncti Caetani Bacchi».** See the next row. In 1778–1780 a Vito Smojver appears twice as witness (April 1778, November 1779). **No Smojver × Bacchi marriage in the entries read of 1778 – August 1780.** A Vito Smojver appears twice as a witness (April 1778 and November 1779). The Latin of the 1770s is dense, heavily abbreviated and written on several lines an entry, with the bride's and groom's fathers named; each entry gives «filii quondam X et Y filiae Z».",
    "missed": "The hand is hard to read at this size and entries were scanned for the names Smojver, Bacchi and Vukić rather than read through, so a miss is possible; 1777 and before (images 308–312), September 1780 onward, and the left page of 317 were not read. The marriage may be earlier than 1778: ahnentafel 53 need not be their first child."
   },
   {
@@ -3585,6 +3585,25 @@
    ],
    "got": "**Found: «2. Novembris [1785] … consensu Michaelis filii defuncti Nicolai Gergacs et Luciae Pauli Tomljenovich, loci Mostani [Montani] Stanize», married by the parish priest Joes Antonius Frankovich, witnesses Antonius Gergacs and Joannes Kovacevich.** It names the groom's father (the late Nicolaus Gerkacs, ahnentafel 220, d. 30 October 1783) and the bride's father **Paul Tomljanović, «of Montani Stanize»** (ahnentafel 222), which is the first page-evidence for the settlement the tree gives and that `parishes.psv` records as unknown. [notes/karlobag-marriage-1785-gerkacs-tomljanovic.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md)",
    "missed": "The place word is read once at about 6x and is not independently identified with Montani Stanište; the bride's mother is not named; the other entries of 1785 were not read."
+  },
+  {
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 306, 2 May 1774: Vincentius Smojver × Oliva Bacchi",
+   "key": "fs/karlobag-marriage-1774-smojver-bacchi",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+   "waypoint": "9RK1-HZK",
+   "what": "The marriage of ahnentafel 106 (Vincentius Fabiano Smojver Vukić) and 107 (Oliva Andreana Bacchi), before ahnentafel 53's baptism of March 1781",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "image 306 (both pages, 1773–1774); the entry in close-up",
+   "tags": [
+    "smojver",
+    "bacchi",
+    "karlobag",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**Found: «2. Maij [1774] … consensu Vincentii filii Josephi Smojver, vulgo nuncupati Vukich, ac Olivae filiae defuncti Caetani Bacchi, eos per verba de praesenti solemniter conjunxi», witnesses Dno Nicolao Jurich and Francisco [Lukulich?].** It names the groom's father (Josephus Smojver, ahnentafel 212) and the bride's father **Caetanus Bacchi, already dead (ahnentafel 214)**, which **contradicts the tree's Caetano Bacchi born 12 January 1779** and with him ahnentafel 428 and 429 (on /corrections). Ahnentafel 53's baptism of 1781 is seven years after the marriage. [notes/karlobag-marriage-1774-smojver-bacchi.md](https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md)",
+   "missed": "The bride's surname and the witnesses are read at one zoom; the year comes from the heading above the entry; the other entries of 1773–1774 were not read; the elder Caetanus's own marriage, wife and parents are not known."
   }
  ]
 }
