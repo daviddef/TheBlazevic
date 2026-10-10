@@ -108,3 +108,23 @@ this archive does not edit the tree. Any archive that wants them has to decide t
 ## 11 October 2026 — Franz's baptism, and what it changes
 
 The 1603–1779 index had no Franz, and the register has him: **3 December 1775, Franciscus Xaverius Kosina, son of Lucas and Helena Kosina, S. Thomae No. 10.** Both of Franz's ages fit only 28 October 1775 – 22 January 1776, and house 10 is the number his marriage and death entries give. Probable, not proved (Kosina against Kosinar). If it holds, **Lukas Kosina the elder and Helena Perner are his parents**, the 1773 Gertrud and the 1779 Helena his sisters, and the house test of 9 October (inconclusive because Helena's entry read 17) comes out for rather than against — though the 1779 number should be re-read. **Third lesson of the same kind: the index proves what it contains.**
+
+## 11 October 2026 — the Kranj–Šmartin marriage register 1881–1899 walked: no marriage of Anna (b. 1856) or Maria (b. 1859)
+
+Row 73's third open item asked whether the marriage register (Matricula sig. 03919, **71 images, 1881 to
+November 1899, a printed Slovene table, four to six marriages to the page**) names the later lives of Anna (b. 1856)
+and Maria (b. 1859), Johann Kozina's daughters, who vanish from the death registers after 1870. I read the
+**groom-and-bride half of every page, images 3 to 70** (image 1 is the cover, 2 the title, 71 the back cover),
+looking for Kozina, Kosina, Kozin or Kosinar in either column.
+
+**Result: no Kozina groom and no Kozina bride whose age or place fits.** The one Kozina in the whole volume is
+**Marija Kozina, «gruntarja hči», of Čirče 23, born 6 February 1866, aged 32, single**, who married **Anton Žiherl**
+(widower, of Srednje Bitnje 18, born 9 January 1840) on **16 November 1898** — a different woman (Anna and Maria
+were born 1856 and 1859 at Zgornje Bitnje 9; Čirče is another village and her age gives 1866). Near-misses
+that are not Kozina: a «Marija Kosnar [Koščnar?], vdova» in October 1885 and a groom «Jakob Kosmač» in April 1882.
+
+**What this does not exclude.** Only the left-hand page of each opening (the groom and bride columns) was read, at
+screenshot size, so a misspelt Kozina could have passed; the right-hand page with the parents' names was not read;
+the volume begins in 1881 and ends in November 1899, so a marriage before 1881 (Anna would then be 25 or less) or after
+1899 is outside it; and a marriage in another parish (Kranj town, Stražišče's neighbours, her husband's home) is
+not excluded. The register would have named both parents of both parties had it held her.

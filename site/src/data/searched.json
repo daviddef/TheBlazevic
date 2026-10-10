@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 37,
+  "nothing": 38,
   "partial": 24,
   "pending": 6,
   "yield": 91
@@ -3667,6 +3667,24 @@
    ],
    "got": "Oliva + Bacchi (fuzzy) + Karlobag: five rows, none an Oliva Bacchi or Bachi in Karlobag. Caetan* + Bachi* + Karlobag 1720–1775: three rows, none a Caetanus. **A broader Bacchi (fuzzy) + Karlobag 1700–1810 search (878 rows, only the first ten read) leads with the index's «Caetani Antonÿ Bechi», 12 January 1779, parents Angelo Bechi and Catharina (the tree's Caetano) — the index spells the surname Bechi.**",
    "missed": "An index search is not a read: the births book (waypoint 9RK1-3Y9) for about 1740–1760 was not opened for Oliva, whose baptism may be there unindexed or under another spelling (Bachi, Baki, Bechi); the Karlobag burials book was not searched for the elder Caetanus."
+  },
+  {
+   "src": "Matricula — Kranj–Šmartin marriages 1881–1899 (sig. 03919), groom and bride columns of every opening, images 3–70",
+   "key": "web/matricula-kranj-marriages-1881-1899-kozina",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/03919/",
+   "what": "The marriages of Anna (b. 1856) and Maria (b. 1859), daughters of Johann Kozina and Ursula Sedej, who vanish from the death registers after 1870",
+   "when": "11 October 2026",
+   "outcome": "nothing",
+   "pages": "images 3-70 (of 71)",
+   "tags": [
+    "kosina",
+    "slovenia",
+    "carniola",
+    "marriage",
+    "web"
+   ],
+   "got": "Every opening's groom and bride columns read, January 1881 to November 1899 (several hundred marriages; the entries are numbered afresh each year and run to about 15–26 a year): **no Kozina/Kosina groom or bride that fits.** The one Kozina in the volume is Marija Kozina of Čirče 23, born 6 February 1866, who married the widower Anton Žiherl on 16 November 1898 — not Anna or Maria. The villages named are (Stražišče, Zgornje, Srednje and Spodnje Bitnje, Breg, Drulovka, Zabukovje).",
+   "missed": "The right-hand page of each opening (parents, witnesses) was not read; names read at screenshot size, so a badly spelt Kozina could have passed; the volume does not cover before 1881 or after 1899, nor another parish; Anna and Maria may have married elsewhere, died unmarried in a place not yet searched, or emigrated."
   }
  ]
 }
