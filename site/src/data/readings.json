@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 173,
+  "rows": 174,
   "people": 119,
   "derived": 70,
   "onDirectLine": 0,
@@ -41,6 +41,10 @@
   [
    "census",
    3
+  ],
+  [
+   "widowed-by",
+   1
   ],
   [
    "parish-identified",
@@ -136,6 +140,20 @@
    "indexOnly": false,
    "slug": "vicentius-fabiano-smojver-vukic",
    "name": "Vicentius Fabiano Smojver Vukić",
+   "ahn": null
+  },
+  {
+   "kind": "widowed-by",
+   "year": "1760",
+   "cite": "Karlobag marriages image 293 left, 20 Oct 1760: «Paulum Perpich et Annam viduam Caetani Bachi» - a Caetanus Bacchi dead by then (probably ahnentafel 214; not proved)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
    "ahn": null
   },
   {
@@ -3218,6 +3236,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "widowed-by",
+     "year": "1760",
+     "cite": "Karlobag marriages image 293 left, 20 Oct 1760: «Paulum Perpich et Annam viduam Caetani Bachi» - a Caetanus Bacchi dead by then (probably ahnentafel 214; not proved)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "marriage-of-child",
      "year": "1774",
      "cite": "named as the bride's father and DEAD by 2 May 1774 («defuncti Caetani Bacchi») - which the tree's birth of 1779 cannot be",
@@ -3240,7 +3269,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "mariam-gerkacs-gergacs": {

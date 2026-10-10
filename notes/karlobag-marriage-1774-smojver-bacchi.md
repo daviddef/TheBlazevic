@@ -34,3 +34,16 @@ Caetanus, so ahnentafel 428 and 429 revert to «not known». On /corrections.
 * The bride's surname «Bacchi» is as read (the final letters are cut by a line end); the witnesses are read at one
   zoom; «Vukich» is the word after «nuncupati» (read at about 6x).
 * The year 1774 is read from the page heading above the entry; the entries below it carry 26 June and 10 July.
+
+## Added later the same day: the elder Caetanus Bacchi was dead by October 1760
+
+Walking the marriage book backward for another search (image 293, left-hand page, year-heading «Anno Domini 1760»),
+the entry of **20 October 1760** reads, after «Idem eadem die»: «matrimonialiter copulavi **Paulum Perpich et Annam
+viduam Caetani Bachi**. Praesentibus testibus Joanne Mat[hosich] ac Petro Bovandich.» So a Caetanus Bacchi had **died
+before 20 October 1760**, leaving a widow ANNA who then married Paulus Perpich — a better fix on his death than the
+«before 2 May 1774» of the 1774 entry, and nothing like a man born in 1779.
+
+* It is **probably** the same Caetanus: Bacchi is a rare surname in this book and the 1774 bride's father is a dead
+  Caetanus Bacchi. NOT PROVED, because neither entry names the other, and Oliva is not called Anna's daughter anywhere.
+* If Oliva was Anna's daughter she was born before the father's death, so by about 1760 at the latest; she was married in 1774.
+* Perpich is spelt «Cerpich»/«Perpich» in the hand and was read at one zoom (the line is clear).
