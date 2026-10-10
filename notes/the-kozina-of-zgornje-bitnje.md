@@ -76,7 +76,7 @@ surname is the whole thread being followed, an index line is not yet a person of
 
 ## What is open, if anyone wants it
 
-* **Franz Kosinar's own baptism, c. 1775–76.** He is **not** in the 1603–1779 index, which was read
+* **~~Franz Kosinar's own baptism, c. 1775–76.~~ FOUND 11 October 2026 (probable): «Koskina Franciscus Xaverius», 3 December 1775, to Lucas and Helena Kosina, S. Thomae house 10 — Matricula sig. 00883 page 330 right; the year from the heading «1776 Januarij» on page 331.** The old entry follows: He is **not** in the 1603–1779 index, which was read
   end to end for 1772–79. The **register** (sig. 00883, 363 images) has not been walked for those
   four years, and until it is, *not in the index* is all that can be said.
 * **Lukas Kosina the elder**, who fathered *Kosina Gertrud* in 1773 and *Kosina Helena* in 1779 —
@@ -104,3 +104,7 @@ surname is the whole thread being followed, an index line is not yet a person of
 
 **Nothing here is in the shared GEDCOM.** These people sit *beside* the tree in `found.psv`, because
 this archive does not edit the tree. Any archive that wants them has to decide that for itself.
+
+## 11 October 2026 — Franz's baptism, and what it changes
+
+The 1603–1779 index had no Franz, and the register has him: **3 December 1775, Franciscus Xaverius Kosina, son of Lucas and Helena Kosina, S. Thomae No. 10.** Both of Franz's ages fit only 28 October 1775 – 22 January 1776, and house 10 is the number his marriage and death entries give. Probable, not proved (Kosina against Kosinar). If it holds, **Lukas Kosina the elder and Helena Perner are his parents**, the 1773 Gertrud and the 1779 Helena his sisters, and the house test of 9 October (inconclusive because Helena's entry read 17) comes out for rather than against — though the 1779 number should be re-read. **Third lesson of the same kind: the index proves what it contains.**

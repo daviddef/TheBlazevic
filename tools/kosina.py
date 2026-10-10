@@ -58,7 +58,7 @@ CARNIOLAN = [
      "and Franz was born 1775–76. He was twenty-six when he stood witness, and he "
      "could not write his own name."),
     ("Franz Kosinar", 1775,
-     "b. about 1775–76 · m. 27 October 1800 · d. 22 January 1849, aged 73",
+     "b. probably 3 December 1775 (S. Thomae 10) · m. 27 October 1800 · d. 22 January 1849, aged 73",
      "Martin's grandfather. A Häusler, and an Ausnehmer — a householder who has "
      "handed over — by the end. HE DIED AT OBERFEICHTING 9, THE HOUSE HE HELD "
      "HIMSELF IN 1820, on the evidence of his son Valentin's baptism; his son "
@@ -176,8 +176,12 @@ HOUSEHOLD = [
      "archive already has was three years old in 1773. An older man of the same "
      "name, fathering children exactly when Matthäus (b. ~1774), Franz (1775–76) "
      "and Lukas (b. ~1770) were born. A candidate for their father and nothing "
-     "more: no entry yet read gives his wife, his house or his village.",
-     "probably kin — not proved"),
+     "more: no entry yet read gives his wife, his house or his village. "
+     "UPDATE 11 OCTOBER 2026: a third child is found, Franciscus Xaverius Kosina, "
+     "baptised 3 December 1775 to Lucas and Helena Kosina, S. Thomae house 10 — "
+     "probably Franz Kosinar himself, whose marriage and death entries both give "
+     "house 10. His wife is Helena Perner.",
+     "probably Franz's father — not proved"),
     ("Ana Kozina", 1856,
      "born and baptised 25 July 1856 · Oberfeichting 9",
      "Johann and Ursula's second daughter. This archive carried her as «Ana 1856» "
