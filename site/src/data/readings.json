@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 159,
+  "rows": 162,
   "people": 118,
   "derived": 70,
   "onDirectLine": 0,
@@ -20,15 +20,15 @@
   ],
   [
    "marriage-of-child",
-   23
+   24
+  ],
+  [
+   "marriage",
+   21
   ],
   [
    "baptism-of-child",
    20
-  ],
-  [
-   "marriage",
-   19
   ],
   [
    "grave",
@@ -80,6 +80,48 @@
    "indexOnly": true,
    "slug": "mare-luckinic",
    "name": "Mare Luckinić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1747",
+   "cite": "the bride of the same entry, «Katta, heer pokoin[og] Vicha Luckinicha» - daughter of the late Vicko Luckinich",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "indexOnly": false,
+   "slug": "catherina-catta-luckinic",
+   "name": "Catherina (Catta) Luckinić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1747",
+   "cite": "Karlobag marriages 1736-1804 image 283 right (DGS 5481649), «Dan 22. Novembra … sakupih u S. Matrimonij Jakova Pillepicha ij Kattu heer pokoin[og] Vicha Luckinicha», witnesses Pop Nikula Jurich and Sig. Mattio Borri",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "indexOnly": false,
+   "slug": "jacob-pilipic",
+   "name": "Jacob Pilipic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1747",
+   "cite": "named as the bride's late father («pokojnog Vicha Luckinicha»): dead by 22 November 1747",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "indexOnly": false,
+   "slug": "vicentius-vicko-luckinic",
+   "name": "Vicentius (Vicko) Luckinić",
    "ahn": null
   },
   {
@@ -3744,6 +3786,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1747",
+     "cite": "Karlobag marriages 1736-1804 image 283 right (DGS 5481649), «Dan 22. Novembra … sakupih u S. Matrimonij Jakova Pillepicha ij Kattu heer pokoin[og] Vicha Luckinicha», witnesses Pop Nikula Jurich and Sig. Mattio Borri",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1778",
      "cite": "Karlobag Umrli 1774-1804 folio 17 — «10: Aprilis · D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est»; no age given; ark 3:1:3QS7-L99C-GSBG",
@@ -3766,7 +3819,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "josiph-smojver-vukic": {
@@ -4027,6 +4080,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage",
+     "year": "1747",
+     "cite": "the bride of the same entry, «Katta, heer pokoin[og] Vicha Luckinicha» - daughter of the late Vicko Luckinich",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1790",
      "cite": "Karlobag Umrli 1774-1804 folio 63 (right page of image 388) — «29 ejusdem [Maij] · Catharina annorum 70, vidua defti Jacobi [P]ilepich, obiit in Domino munita omnibus sacramentis, atque die 30 sepulta est». The tree's date to the day; the AGE DISAGREES — 70 in May 1790 puts her birth about 1720 where the tree says 30 Mar 1727. She is not in the KAZALO's L at all: a widow is indexed under her husband's surname; ark 3:1:3QS7-L99C-G3QY",
@@ -4049,7 +4113,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 1
   },
   "luce-zubrinic": {
@@ -5154,6 +5218,37 @@
    "direct": 1,
    "derived": 0
   },
+  "vicentius-vicko-luckinic": {
+   "slug": "vicentius-vicko-luckinic",
+   "name": "Vicentius (Vicko) Luckinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage-of-child",
+     "year": "1747",
+     "cite": "named as the bride's late father («pokojnog Vicha Luckinicha»): dead by 22 November 1747",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1725",
+     "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
+     "derived": true,
+     "via": "mare-luckinic",
+     "viaName": "Mare Luckinić",
+     "where": "notes/the-kosina-are-filed-under-senia.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -5792,26 +5887,6 @@
      "where": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md",
      "indexOnly": false
-    }
-   ],
-   "direct": 0,
-   "derived": 1
-  },
-  "vicentius-vicko-luckinic": {
-   "slug": "vicentius-vicko-luckinic",
-   "name": "Vicentius (Vicko) Luckinić",
-   "ahn": null,
-   "rows": [
-    {
-     "kind": "named-on-a-child-baptism",
-     "year": "1725",
-     "cite": "Karlobag, 13 April 1725 — INDEX ONLY, «Mare Luckinicha», father «Vicka Luckinicha», no mother named; ark 1:1:QKMX-Y4TT. She was in found.psv as a CANDIDATE sister of ahnentafel 105 from 20 September until 21 September, when publishing blood rather than surnames put her own tree record on the site — born 13 April 1725 to Vicentius Luckinić and Maria, the same day and the same father. The candidate and the person were always the same woman; the archive simply could not see one of them",
-     "derived": true,
-     "via": "mare-luckinic",
-     "viaName": "Mare Luckinić",
-     "where": "notes/the-kosina-are-filed-under-senia.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kosina-are-filed-under-senia.md",
-     "indexOnly": true
     }
    ],
    "direct": 0,
