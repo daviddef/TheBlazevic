@@ -96,3 +96,31 @@ Praesentibus Wolffgango Suvich ac Joanne Radkovich.» The father's surname is re
 is a witness on 28 July 1754 (image 289 left); the November 1767 bride of the entry noted on the work list was also
 «filiam defuncti Dominici Uroda». **A Dominicus Uroda, dead by 1767, with at least two daughters, is a Karlobag man of the
 right age to be a relative of Georgius Uroda (ahnentafel 108)** — a lead, not a link: nothing read says Georgius is his son.
+
+## Dominicus «Dume» Uroda was a regular marriage witness, 1744-1749
+
+Reading the marriage book back to January 1742 (images 280-286) for the Bacchi and Uroda names found no Bacchi (the 1753 wedding is the
+first) and no Uroda groom or bride, but **«Dume Uroda» / «Dominico Uroda» witnesses marriages again and again between 1744 and 1749**:
+in the Croatian-language pages «Dume Uroda» (January and February 1744, January, February and June 1745, 1746, January 1747) and, when the
+book turns to Latin in April 1748, «Dominico Uroda» (8 May, 5 and 7 October and 17 November 1748), roughly ten entries I counted by eye.
+So **Dominicus Uroda was an adult, settled Karlobag man from at least 1744 and dead by November 1767** (his daughter Maria's
+marriage then calls him «defuncti»), and his daughter Magdalena married in 1755. **He is the right age to be the father of Georgius
+Uroda (ahnentafel 108, b. about 1745-55) or of an older Georgius** — but not a word read says so, and Georgius's own baptism
+and marriage are still unfound. A baptism of a «Georgius» to Dominicus Uroda and a wife in 1745-55 would settle it; it was not looked for in
+the 1750-59 baptism pages read earlier except by eye for Bacchi, so **a targeted re-read of those pages for Uroda is the next test.**
+
+**Narrowing the Uroda marriage (index, 11 October 2026).** The FamilySearch index already lists a **Dominicus**, son of Georgius Uroda and Maria,
+baptised **6 May 1764** — the first known child. A boy named Dominicus at the first-born position fits the habit of naming a son
+after the father's father, which supports Dominicus «Dume» Uroda as Georgius's father (still not proved). It also means **the marriage of Georgius and Maria
+falls before about August 1763**, not «about 1771-76» as the work list first assumed — and the marriage book read for 1742-1776 shows no such entry, so it is
+either on one of the crossed-through or unread pages (1736-41; 302 left; 305 right), hiding behind a spelling of «Uroda» not recognised at one zoom, or
+outside Karlobag (the bride's parish). The 1756-1763 pages (images 290 right to 298) are the ones to re-read slowly.
+
+**Re-read of 1756-1763 (same day).** Images 290 right to 295 right (January 1756 to October 1763) were read again slowly, both pages of each opening: **no Uroda groom
+or bride, and no «Georgius» marrying a Maria**. Together with 1742-1755 earlier the same day, **the Karlobag marriage book holds no Georgius
+Uroda wedding from January 1742 to October 1763**; the unread parts are 1736-41 (images 278-279), the last weeks of 1763, and the two crossed-through pages.
+**One more fact narrows the guess:** Georgius Uroda's death entry (1791) gives his age as **72**, so he was **born about 1719** and was about 45 at the baptism of his
+first known child (Dominicus, 1764), 58 at ahnentafel 54's baptism (1777) and about 65 at the youngest known child (1784). A man of 45 siring a first child is possible but more naturally a
+**second marriage**: Maria would then be his second wife, married in the 1750s-60s somewhere, perhaps **outside Karlobag** (a bride from another parish is married in
+her own), and a first wife and earlier children would be in the 1740s pages, where no Georgius Uroda wedding was seen either. **Not resolved; do not take the
+«72» as exact** (ages in this book are often rounded), and nothing here shows Maria's origin.

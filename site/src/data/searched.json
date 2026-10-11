@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 38,
+  "nothing": 39,
   "partial": 24,
   "pending": 6,
   "yield": 93
@@ -3706,14 +3706,14 @@
    "missed": "Oliva's baptism: not 1750 to August 1759 at one zoom (a badly spelt entry could be passed); not read 1745–1749 and September 1759 – 1760; flaps and a loose slip hide parts of pages 226, 227 and 235 in some frames; Caetanus's own baptism and marriage to Anna (the marriage book 1736–1752 is unread for this); the elder generation 428/429 is therefore still not known."
   },
   {
-   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 284–290: Caetanus Bacchi's marriage, and the Georgius Uroda marriage, January 1749 – December 1755",
-   "key": "fs/karlobag-marriages-1749-55-bacchi",
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 280–290: Caetanus Bacchi's marriage, and the Georgius Uroda marriage, January 1742 – December 1755",
+   "key": "fs/karlobag-marriages-1742-55-bacchi",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
    "waypoint": "9RK1-HZK",
    "what": "The marriage of Caetanus Bacchi (ahnentafel 214) and his wife Anna, and any Georgius Uroda marriage, in the book's 1751–1755 pages",
    "when": "11 October 2026",
    "outcome": "yield",
-   "pages": "284 right, 285 (both), 286 left, 286 right, 287 (both), 288 (both), 289 (both), 290 left",
+   "pages": "280 right, 281 (both), 282 (both), 283 (both), 284 (both), 285 (both), 286 left, 286 right, 287 (both), 288 (both), 289 (both), 290 left",
    "tags": [
     "bacchi",
     "uroda",
@@ -3721,8 +3721,26 @@
     "familysearch",
     "vjencani"
    ],
-   "got": "**Found: 4 February 1753, «Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]»** (image 287 right), with witnesses Wolffgango Suvich and Joanne Radkovich. He is also a witness on 10 February 1754 and 30 January 1755. **No Georgius Uroda marriage in these pages**; a Dominicus Uroda's daughter Magdalena married Matthias Kriskovich on 5 February 1755, and a Jacobus Uroda is a witness in July 1754. Images 284–286 (January 1749 to November 1751) hold no Bacchi and no Uroda.",
-   "missed": "Images 278–283 (1736–1748) not read for this; names read at one zoom except the Bacchi entry; the father's surname Lukatelli is read from the full-page view; Caetanus's entry is a first marriage as far as these pages go, not shown to be his only one."
+   "got": "**Found: 4 February 1753, «Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]»** (image 287 right), with witnesses Wolffgango Suvich and Joanne Radkovich. He is also a witness on 10 February 1754 and 30 January 1755. **No Georgius Uroda marriage in these pages**; a Dominicus Uroda's daughter Magdalena married Matthias Kriskovich on 5 February 1755, and a Jacobus Uroda is a witness in July 1754. Images 280–286 (January 1742 to November 1751) hold no Bacchi and no Uroda groom or bride; **«Dume»/«Dominico Uroda» is a witness at about ten entries from 1744 to 1749** (Dominicus, dead by 1767, father of the 1755 and 1767 brides).",
+   "missed": "Images 278–279 and the left page of 280 (1736–1741) not read for this; names read at one zoom except the Bacchi entry; the father's surname Lukatelli is read from the full-page view; Caetanus's entry is a first marriage as far as these pages go, not shown to be his only one."
+  },
+  {
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 290 right – 295 right, re-read slowly: Georgius Uroda × Maria, January 1756 – October 1763",
+   "key": "fs/karlobag-marriages-1756-63-uroda-reread",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+   "waypoint": "9RK1-HZK",
+   "what": "The marriage of Georgius Uroda and Maria (ahnentafel 108 and 109), whose first known child Dominicus was baptised 6 May 1764",
+   "when": "11 October 2026",
+   "outcome": "nothing",
+   "pages": "290 right, 291 (both), 292 (both), 293 (both), 294 (both), 295 (both)",
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "Both pages of every opening re-read, January 1756 to 25 October 1763: **no Uroda groom or bride and no Georgius marrying a Maria.** With the earlier reads (1742–1755, 1763–1776) the book has no such wedding from January 1742 to the start of 1776 apart from the unread places below. The index puts the first known child on 6 May 1764, and his death entry (1791) gives Georgius an age of 72, so the marriage may have been outside Karlobag or a second marriage of an older man.",
+   "missed": "Images 278–279 (1736–1741), the left page of 280, the last weeks of 1763 on image 296, and the two crossed-through pages (302 left, 305 right) were not read; names read at one or two zooms."
   }
  ]
 }
