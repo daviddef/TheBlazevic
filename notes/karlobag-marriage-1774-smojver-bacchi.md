@@ -47,3 +47,24 @@ before 20 October 1760**, leaving a widow ANNA who then married Paulus Perpich �
   Caetanus Bacchi. NOT PROVED, because neither entry names the other, and Oliva is not called Anna's daughter anywhere.
 * If Oliva was Anna's daughter she was born before the father's death, so by about 1760 at the latest; she was married in 1774.
 * Perpich is spelt «Cerpich»/«Perpich» in the hand and was read at one zoom (the line is clear).
+
+## Added later the same day: the elder Caetanus Bacchi alive in 1753–55, with a wife Anna and a son Silvestro
+
+Reading the Karlobag baptism book for 1750–1759 for Oliva's own baptism (Karlobag births 1691-1804, DGS 5481648, waypoint
+9RK1-3Y9, book pages 200–241; the viewer helper's image numbers 112–135) turned up the family instead:
+
+* **18 March 1753** (book page 211, helper image 117 right): at the baptism of a daughter of Petar Tomljenovich, «bihu
+  kumi **Caietan Bachi, svojom xenom Annom**» — Caetanus Bacchi as sponsor with his wife Anna.
+* **27 May 1753** (page 212, image 118 left) and **late October 1755** (page 221, image 123 left, the line partly cut by the
+  page edge): «Caietan Bachi y Anne» again among the sponsors.
+* **2–3 January 1754** (page 215, image 119 right, the entry after 1 January): «krstih **Antola [Antonu?] Sylvestra,
+  sina Gajetana y Anne Bachi**», sponsors «Jose y Venera Dur[…]ch» — a **son, Sylvester, of Caetanus and Anna Bacchi**.
+  (The 18th-century hand writes the surname «Bachi»; the index has none of these.)
+
+So **Caetanus Bacchi was alive from March 1753 to at least October 1755 and dead by 20 October 1760, with a wife Anna** —
+the same Anna who is his widow in 1760. Together with the 1774 marriage this makes a consistent family: Caetanus and
+Anna, a son Sylvester (b. January 1754), a daughter Oliva (married 1774, so born before about 1759). **Oliva's own baptism
+is not on the pages read** — 1750 to about the end of August 1759 (flaps of cardboard and a loose slip hide parts of book
+pages 226–227 and 235 in some frames; the same pages show in the neighbouring frames; helper images 124 and 125 are the
+same pages twice). She may be older than 1750 (baptised 1745–49, unread) or younger than the pages read, or
+baptised elsewhere. Read at one zoom, names in the Croatian hand of 1750–57 and the Latin of the later pages.
