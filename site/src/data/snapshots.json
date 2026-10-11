@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 67,
- "images": 83,
+ "count": 71,
+ "images": 87,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1893,6 +1893,98 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1739-12-franica-uroda",
+   "entry": "karlobag-baptism-1739-12-franica-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, mid-December 1739 — Franica (as read), daughter of Dume Uroda and his wife EVA",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 82, right-hand page (book page 147, headed «Na 11 Xbra 1739»): the entry «Na 12 [or 17] Stoga», about a third of the way down",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SZ-B",
+   "says": "«Na 12 Stoga: Korstih ja Andrij Kolekar Plovan cher Dume urode i njegove xene Eve imenom Franica. Bi kum Mathio Milkovich a kuma [..] xena Pave Samonicha». A daughter named Franica to Dume Uroda and a wife named EVA — three years before Jerolina is Dume's wife in the same book. Read at about 3x; the month word is read as «Stoga» (December).",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line",
+   "entry": "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line.png",
+   "page": "",
+   "title": "Karlobag, 8 March 1734 — a child (name read as Dominico) of Dume Uroda, «alias Horaca» (as read), and his wife EVA",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 61, left-hand page (book page 106, headed «Na 14 Febora 1734»): the entry «Na 8 Marca 1734», about two-thirds of the way down",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
+   "says": "«Na 8 Marca 1734: Krstih sina Dume Urode alliti Horaca [or Kovaca] i njegove xene Eve imenom Dominico [?]. Bi kum Gior. Angelo Bakj[..] a kuma Marica xena Jane Mega [?]». A baptism to Dume Uroda and a wife named EVA five years before the Franica of December 1739 — the earliest child of this couple seen. The second word after «Dume Urode» (alias) is uncertain: Horaca or Kovaca. Read at about 3x; child's name and godparents' surnames are not firm.",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1733-01-antona-uroda",
+   "entry": "karlobag-baptism-1733-01-antona-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 16 January 1733 — Antona, daughter of «Sime» (index) or Dume (?) Uroda and his wife EVA",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 57, left-hand page (book page 100, headed «Na 1 Genvara 1733»): the third entry, «Na 16 Genvara 1733»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L937-1",
+   "says": "«Na 16 Genvara 1733: Ja Pop Andrij Kolekar Plovan krstih sina [Sime / Dume?] urode i njegove xene Eve imenom Antona. Bi kum Andro Kum[anovich?] soldat od Tortice … a kuma …». The FamilySearch index reads this father as SIME Uroda (baptism 16 January 1733, parents Sime Uroda and Eva). The first letter of the father's name is not firm: it may be a Dume with the capital misread. If it is Dume, Dume and Eva had Antona in January 1733, a child in March 1734 and Franica in December 1739. The same page is repeated on image 56 (duplicate frame).",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda",
+   "entry": "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 12 January 1737 — «kuma Eva xena Dume urode» (godmother, wife of Dume Uroda)",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 70, right-hand page, lower half: the entry «Na 12 Jenora 1737», third from the foot",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SC-Z",
+   "says": "«Na 12 Jenora 1737: Krstih cher Jve Berondicha [?] njegove xene Eve … ime Gasparina. Bi kum Mato Mato[vich?] a kuma Eva xena Dume urode.» Not a baptism of the Urodas' child: it shows Eva as Dume Uroda's wife in January 1737, between the 1734 baptism and the Franica of December 1739, so the Eva of 1733–39 is one woman. Read at about 3x.",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2158,7 +2250,11 @@
    "karlobag-baptism-1764-dominicus-uroda",
    "karlobag-baptism-1745-08-marta-uroda",
    "karlobag-baptism-1744-05-son-of-dume-uroda",
-   "karlobag-baptism-1742-son-of-dume-uroda"
+   "karlobag-baptism-1742-son-of-dume-uroda",
+   "karlobag-baptism-1739-12-franica-uroda",
+   "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line",
+   "karlobag-baptism-1733-01-antona-uroda",
+   "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda"
   ]
  }
 }
