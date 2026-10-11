@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 46,
- "images": 59,
+ "count": 47,
+ "images": 61,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1326,6 +1326,41 @@
    "captured": "11 October 2026",
    "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
+  },
+  {
+   "id": "kranj-baptism-1814-gertraud-kosinar",
+   "entry": "kranj-baptism-1814-gertraud-kosinar-right.jpg",
+   "page": "kranj-baptism-1814-gertraud-kosinar-left.jpg",
+   "title": "Kranj–Šmartin, 18 March 1814 — Gertraud, daughter of Franz Kosinar (Hüblar) and Maria Dortschen, house 10",
+   "film": "Krstna knjiga / Taufbuch Kranj–Šmartin 1812–1831 (Nadškofijski arhiv Ljubljana, Matricula sig. 00885)",
+   "where": "viewer pg=15, a spread (book page about 28): the LEFT page is headed «1814» with the dates March–April; the entry is its third row («Den 18 März», house 10, Gertraud); the RIGHT page is the facing half (godparents, priest and place columns), whose rows are not individually matched here",
+   "view": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00885/?pg=15",
+   "says": "Left: «1814 · Den 18 März · 10 · Gertraud · ehelich · Vater: Franz Kosinar, Hüblar · Mutter: Maria Dortschen». The right-hand page has the godparent and priest columns; it is kept for completeness, is hard to read at this size, and its rows are not matched to the left-hand rows. Gertraud was Martin Kozina's mother (she bore him in 1841 at 27). Reduced viewer images; the transcription is in the found-person row.",
+   "slugs": [
+    "gertraud-gertruda-kosina",
+    "franz-kosinar",
+    "maria-mina-dortschen"
+   ],
+   "people": [
+    {
+     "slug": "gertraud-gertruda-kosina",
+     "kind": "found",
+     "name": "Gertraud \"Gertruda\" Kosina"
+    },
+    {
+     "slug": "franz-kosinar",
+     "kind": "found",
+     "name": "Franz Kosinar"
+    },
+    {
+     "slug": "maria-mina-dortschen",
+     "kind": "found",
+     "name": "Maria \"Mina\" Dortschen"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
   }
  ],
  "bySlug": {
@@ -1542,13 +1577,18 @@
    "otocac-baptism-1856-stephanus-zubrinic"
   ],
   "franz-kosinar": [
-   "kranj-marriage-1800-kosinar-dortschen"
+   "kranj-marriage-1800-kosinar-dortschen",
+   "kranj-baptism-1814-gertraud-kosinar"
   ],
   "maria-mina-dortschen": [
-   "kranj-marriage-1800-kosinar-dortschen"
+   "kranj-marriage-1800-kosinar-dortschen",
+   "kranj-baptism-1814-gertraud-kosinar"
   ],
   "matthaeus-kosinar": [
    "kranj-marriage-1800-kosinar-dortschen"
+  ],
+  "gertraud-gertruda-kosina": [
+   "kranj-baptism-1814-gertraud-kosinar"
   ]
  }
 }

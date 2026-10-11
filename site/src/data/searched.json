@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 100
+  "yield": 101
  },
  "read": [
   {
@@ -3869,6 +3869,23 @@
    ],
    "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-marriage-1800-kosinar-dortschen). Page map for sig. 00901: viewer pg 30 = 1798, pg 33 = June–November 1800, pg 40 = 1805.",
    "missed": "The bride's parents and the witnesses are not transcribed here; see the working note."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin baptisms 1812–1831 (NŠAL sig. 00885), viewer pg=15: Gertraud Kosinar, 18 March 1814, re-photographed for the snapshot register",
+   "key": "web/matricula-kranj-00885-gertraud-kosinar-snapshot",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00885/?pg=15",
+   "what": "The baptism of Martin Kozina's mother, both halves of the spread",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "15, 29 (page map: pg 15 = March 1814, pg 29 = Aug-Sep 1816; image n is book pages 2n-3 to 2n-2)",
+   "tags": [
+    "kosina",
+    "kranj",
+    "matricula",
+    "krsteni"
+   ],
+   "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-baptism-1814-gertraud-kosinar). Page map for sig. 00885: viewer pg 15 = March–April 1814, pg 29 = August–September 1816.",
+   "missed": "The right-hand page (godparents, priest) is not legible at the reduced size."
   }
  ]
 }
