@@ -15,3 +15,7 @@
 ## The page itself (snapshots)
 
 [krivi-put-baptism-1859-antonija-perpic](https://daviddef.github.io/TheBlazevic/snapshots/#krivi-put-baptism-1859-antonija-perpic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+
+## Added the same day: her mother's maiden name is on her marriage
+
+The baptism page gives the mother only as «Lucia Perpić». **Her marriage entry does name her**: Senj marriages, 3 May 1885 (entry 5, image 196 of waypoint 9R2D-N3F), where Antonia's parents are «Ivan Perpić, seljak, i Luca **rođena Perpić**» — Lucia née Perpić, as this archive had already read on 13 September (notes/reading-2026-09-13-familysearch.md). Both pages of that marriage are now kept as a snapshot: [senj-marriage-1885-papic-perpic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-marriage-1885-papic-perpic).

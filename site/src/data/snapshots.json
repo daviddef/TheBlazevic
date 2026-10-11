@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 30,
- "images": 34,
+ "count": 36,
+ "images": 46,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -862,6 +862,192 @@
    "captured": "11 October 2026",
    "note": "notes/stephanus-perpic-was-born-in-december-1861.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md"
+  },
+  {
+   "id": "senj-marriage-1885-papic-perpic",
+   "entry": "senj-marriage-1885-papic-perpic-right.jpg",
+   "page": "senj-marriage-1885-papic-perpic-left.jpg",
+   "title": "Senj, 3 May 1885 — Josip Papić and Antonia Perpić (parents: Juraj Papa & Matia Pilipić; Ivan Perpić & Luca rođena Perpić)",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 196, a two-page spread: the LEFT page (printed 191) has the couple, places and ages, the RIGHT page (printed p. 192) the parents, witnesses and priest; the entry is no. 5, the middle row of both",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17PK",
+   "says": "Left: «5. 1885 dne 3 Svibnja · Josip Papić, bremenar, Senj, 27, neoženjen · Antonia Perpić, Krivi put / Senj, 25 [?]». Right: parents «Juraj Papa težak i Matia rođena Pilipić» and «Ivan Perpić seljak i Luca rođena Perpić», witnesses Franjo Perpić and Tomo Perpić, priest Mirko Babić kapelan. Names ahnentafel 12, 13, 14 and 15 and gives Lucia's maiden name as Perpić; the bride's age figure is blotted and read at one zoom.",
+   "slugs": [
+    "josip-anton-papic",
+    "antonija-tonka-perpic-prpic",
+    "georgius-juraj-joannis-papa-antic-papic",
+    "matia-matthea-pilipic",
+    "joannis-perpic",
+    "lucia"
+   ],
+   "people": [
+    {
+     "slug": "josip-anton-papic",
+     "kind": "people",
+     "name": "Josip Anton \"Joso\" Papić"
+    },
+    {
+     "slug": "antonija-tonka-perpic-prpic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic"
+    },
+    {
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "kind": "people",
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić"
+    },
+    {
+     "slug": "matia-matthea-pilipic",
+     "kind": "people",
+     "name": "Matia / Matthea \"Matija\" Pilipić"
+    },
+    {
+     "slug": "joannis-perpic",
+     "kind": "people",
+     "name": "Joannis \"Ivan\" Perpić"
+    },
+    {
+     "slug": "lucia",
+     "kind": "people",
+     "name": "Lucia \"Luca\""
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/reading-2026-09-13-familysearch.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-13-familysearch.md"
+  },
+  {
+   "id": "senj-marriage-1888-kozina-boras",
+   "entry": "senj-marriage-1888-kozina-boras-right.jpg",
+   "page": "senj-marriage-1888-kozina-boras-left.jpg",
+   "title": "Senj, 12 January 1888 — Martin Kozina of Kranj and Angjelika Boras",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 214, a two-page spread: the LEFT page (printed 210) has the couple, origin, domicile and ages, the RIGHT page (printed p. 209) the parents, witnesses and priest; the entry is no. 1, the top row of both",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1WMS",
+   "says": "Left: «1. 1888 dne 12 Siječnja · Martin Kozina, trgovac · Kranjska župa sv. Martina kod Kranjburg [Kranj] · Senj · rim. kat. · 47 · neoženjen — Angjelika Boras, šivačica · Senj · 30 · neudata». Right: parents «Gertruda Kozina, posjednica» (property-owner, with a dash where the father would be) and «Josip Boras, gradski stražar, i Maria rođena Kabalin»; witnesses Mile Crnković, trgovac, and Ivan Boras; priest Mirko Babić, kapelan; banns dispensed (read on 7 January 1888). The page that names Martin Kozina's origin as the parish of Kranj–Šmartin.",
+   "slugs": [
+    "martin-martinus-kosina",
+    "angelika-boras"
+   ],
+   "people": [
+    {
+     "slug": "martin-martinus-kosina",
+     "kind": "people",
+     "name": "Martin Martinus Kosina"
+    },
+    {
+     "slug": "angelika-boras",
+     "kind": "people",
+     "name": "Angelika Boras"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-came-from-carniola.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md"
+  },
+  {
+   "id": "senj-marriage-1913-nagoda-blazevic",
+   "entry": "senj-marriage-1913-nagoda-blazevic-left.jpg",
+   "page": "senj-marriage-1913-nagoda-blazevic-right.jpg",
+   "title": "Senj, 5 October 1913 — Josip Nagoda and Tereza Blažević, born 23 October 1888, of Krmpote",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 331, a two-page spread: the LEFT page (printed p. 326) has the couple, origin, domicile and birth dates, the RIGHT page the parents, witnesses and priest; the entry is no. 23, the last row of both",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-178S",
+   "says": "Left: «23. 1913 listopada 5 · Nagoda Josip, [occupation] · Blažević Tereza, radnica u tvornici duhana u Senju · Krmpote · born 1888 23/10, unmarried». Right: the bride's parents «Pavao Blažević i Marija rođ. Tomljanović, poljodjelci iz župe sv. Jakov Krmpote». Confirms the tree's birth date for Tereza (23 October 1888) and names her parents; Pavao and Marija are ahnentafel 4's brother and sister-in-law, not direct ancestors.",
+   "slugs": [
+    "terezija-tereza-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "terezija-tereza-blazevic",
+     "kind": "people",
+     "name": "Terezija (Tereza) Blažević"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/reading-2026-09-10.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md"
+  },
+  {
+   "id": "senj-marriage-1918-potocnjak-blazevic",
+   "entry": "senj-marriage-1918-potocnjak-blazevic-left.jpg",
+   "page": "senj-marriage-1918-potocnjak-blazevic-right.jpg",
+   "title": "Senj, 1 April 1918 — Vinko Potočnjak and Antonija Blažević, born 12 May 1884",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 353, a two-page spread: the LEFT page (printed p. 348) has the couple, the RIGHT page the parents, witnesses and priest; the entry is no. 5, the bottom row of both",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1QBL",
+   "says": "Left: «5. 1918 travnja 1 · Potočnjak Vinko [occupation], widower [read at one zoom], b. 1888 4/4 · Blažević Antonija, nadglednica u tvornici duhana, Senj, b. 1884 12/5, unmarried». Right: parents «Blažević Pavao i Marija rođ. Tomljanović, poljodjelci iz župe Krmpote», witnesses Josip Nagoda and Franjo Blažević, priest Josip Benac; banns read three times. The birth «1884 12/5» is the register's, where the tree says 17 May.",
+   "slugs": [
+    "antonija-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "antonija-blazevic",
+     "kind": "people",
+     "name": "Antonija Blažević"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/reading-2026-09-10.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md"
+  },
+  {
+   "id": "senj-marriage-1919-matijevic-blazevic",
+   "entry": "senj-marriage-1919-matijevic-blazevic-left.jpg",
+   "page": "senj-marriage-1919-matijevic-blazevic-right.jpg",
+   "title": "Senj, 12 May 1919 — Viktor Matijević and Katica Blažević, of Krmpote",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 360, a two-page spread: the LEFT page (printed p. 355) has the couple, the RIGHT page the parents, witnesses and priest; the entry is no. 18, the fourth row from the foot of the left page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-176N",
+   "says": "Left: «18. 1919 12 svibnja · Viktor Matijević [occupation], Senj · Katica Blažević, radnica u tvornici duhana, Krmpote / Senj, b. 1885 19/10». Right: the bride's parents «Pavao Blažević i Marija rođ. Tomljanović» and the groom's «Mate Matijević i Lucija rođ. Tomljanović». Confirms the tree's birth date for Katica.",
+   "slugs": [
+    "katica-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "katica-blazevic",
+     "kind": "people",
+     "name": "Katica \"Kata\" Blažević"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/reading-2026-09-10.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md"
+  },
+  {
+   "id": "senj-marriage-1919-kosina-blazevic",
+   "entry": "senj-marriage-1919-kosina-blazevic-left.jpg",
+   "page": "senj-marriage-1919-kosina-blazevic-right.jpg",
+   "title": "Senj, 20 November 1919 — Pavao Kosina and Anka Blažević (and, on 24 November, Antun Kosina)",
+   "film": "Senj marriages (Vjenčani) 1859–1920 (FamilySearch waypoint 9R2D-N3F)",
+   "where": "image 364, a two-page spread: the LEFT page (printed p. 359) has the couples, the RIGHT page the parents, witnesses and priest; the entries are no. 44 (the top row) and no. 46 (the third row)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-174V",
+   "says": "Left: «44. 1919 studenoga 20 · Pavao Kosina, trgovac, Senj, b. 1894 [day] · Anka Blažević, radnica u tvornici duhana, Otočac [?]/Senj, b. 1893» and «46. studenoga 24 · Antun Kosina, trgovac · Anka Kasnić? …». Right: both grooms' parents «+ Martin Kozina i Anđelika r. Boras»; Anka's «Juraj Blažević i Tereza r. Žubrinić» (ahnentafel 4 and 5). Names the same widow Anđelika Boras on two entries of one page.",
+   "slugs": [
+    "anka-blazevic",
+    "pavao-kosina",
+    "angelika-boras"
+   ],
+   "people": [
+    {
+     "slug": "anka-blazevic",
+     "kind": "people",
+     "name": "Anka Blažević"
+    },
+    {
+     "slug": "pavao-kosina",
+     "kind": "people",
+     "name": "Pavao Kosina"
+    },
+    {
+     "slug": "angelika-boras",
+     "kind": "people",
+     "name": "Angelika Boras"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-came-from-carniola.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md"
   }
  ],
  "bySlug": {
@@ -996,13 +1182,47 @@
    "karlobag-baptism-1777-uroda"
   ],
   "antonija-tonka-perpic-prpic": [
-   "krivi-put-baptism-1859-antonija-perpic"
+   "krivi-put-baptism-1859-antonija-perpic",
+   "senj-marriage-1885-papic-perpic"
   ],
   "joannis-perpic": [
-   "krivi-put-baptism-1861-stephanus-perpic"
+   "krivi-put-baptism-1861-stephanus-perpic",
+   "senj-marriage-1885-papic-perpic"
   ],
   "lucia": [
-   "krivi-put-baptism-1861-stephanus-perpic"
+   "krivi-put-baptism-1861-stephanus-perpic",
+   "senj-marriage-1885-papic-perpic"
+  ],
+  "josip-anton-papic": [
+   "senj-marriage-1885-papic-perpic"
+  ],
+  "georgius-juraj-joannis-papa-antic-papic": [
+   "senj-marriage-1885-papic-perpic"
+  ],
+  "matia-matthea-pilipic": [
+   "senj-marriage-1885-papic-perpic"
+  ],
+  "martin-martinus-kosina": [
+   "senj-marriage-1888-kozina-boras"
+  ],
+  "angelika-boras": [
+   "senj-marriage-1888-kozina-boras",
+   "senj-marriage-1919-kosina-blazevic"
+  ],
+  "terezija-tereza-blazevic": [
+   "senj-marriage-1913-nagoda-blazevic"
+  ],
+  "antonija-blazevic": [
+   "senj-marriage-1918-potocnjak-blazevic"
+  ],
+  "katica-blazevic": [
+   "senj-marriage-1919-matijevic-blazevic"
+  ],
+  "anka-blazevic": [
+   "senj-marriage-1919-kosina-blazevic"
+  ],
+  "pavao-kosina": [
+   "senj-marriage-1919-kosina-blazevic"
   ]
  }
 }

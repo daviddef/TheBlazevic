@@ -20,7 +20,7 @@ const first = s.entry || s.page;
     {s.film} · {s.where}.<br />
     {!compact && <span>{s.says}<br /></span>}
     <a href={s.view}>Open the image in the viewer →</a>
-    {s.entry && s.page && <span> · <a href={u(`/snaps/${s.page}`)}>the whole page</a></span>}
+    {s.entry && s.page && <span> · <a href={u(`/snaps/${s.page}`)}>the other page, or the whole page</a></span>}
     {s.note && <span> · <a href={s.noteUrl}>the working note</a></span>}
     {!compact && <span> · <a href={u(`/snapshots/#${s.id}`)}>all snapshots</a></span>}
   </figcaption>
