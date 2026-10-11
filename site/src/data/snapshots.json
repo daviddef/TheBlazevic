@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 71,
- "images": 87,
+ "count": 72,
+ "images": 88,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1985,6 +1985,29 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik",
+   "entry": "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik-line.png",
+   "page": "",
+   "title": "Karlobag, 7 June 1739 — marriage of Martin Svjata and Simona, daughter of the late DUME URODA «od Šibenika» (of Šibenik)",
+   "film": "Karlobag marriages (Vjenčani) 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 279, left-hand page: the entry headed «Dan 7: Junija», after the year heading «Letta 1739» and the entry of 28 May",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GHW",
+   "says": "«Dan 7: Junija. Andrij Kollekar Plovan sakupih u S. Matrimonij Martina Svjata [Sviata?] y Simonu pokoi[nog] Dume urode od Sibenika. Biha svidoki Tavia Kovacevich y Bartul Misich.» The wording matches the book's formula for a bride «Heer pokoi X» (daughter of the late X), though the word «Heer» is not written here. So: a DUME URODA from Šibenik, dead by June 1739, with a daughter Simona. The living Dume Uroda of the Karlobag baptisms (wife Eva, daughter Franica baptised December 1739) cannot be this man, so this is a second Dume Uroda — possibly the living Dume's father or another relation, not established — and the first sight of the family as Dalmatian. Read at about 3x.",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2254,7 +2277,8 @@
    "karlobag-baptism-1739-12-franica-uroda",
    "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line",
    "karlobag-baptism-1733-01-antona-uroda",
-   "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda"
+   "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda",
+   "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik"
   ]
  }
 }
