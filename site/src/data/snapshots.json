@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 43,
- "images": 53,
+ "count": 45,
+ "images": 57,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1245,6 +1245,52 @@
    "captured": "11 October 2026",
    "note": "notes/ana-maric-plan.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md"
+  },
+  {
+   "id": "kranj-baptism-1841-martin-kosina",
+   "entry": "kranj-baptism-1841-martin-kosina-right.jpg",
+   "page": "kranj-baptism-1841-martin-kosina-left.jpg",
+   "title": "Kranj–Šmartin, 16 November 1841 — Martin, born at Oberfeichting (Zgornje Bitnje) No. 9, to Gertraud Kosina, no father named",
+   "film": "Krstna knjiga Kranj–Šmartin 1832–1870 (Nadškofijski arhiv Ljubljana, Matricula sig. 00886)",
+   "where": "book page 64 (viewer pg=65, a spread): the LEFT page is headed «Jahr 1841» with the month «November»; the entry is its ninth row (Oberfeichting, house 9, name Martin); the RIGHT page carries the same row's parents, godparents and priest",
+   "view": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00886/?pg=65",
+   "says": "Left: «Jahr 1841 · November · born and baptised 16 November · Oberfeichting · 9 · Martin · katholisch · Knaben»; right, the same row: the Vater cell is empty and the Mutter cell reads «Gertraud Kosina». The tick in the Unehelich column is read in the working note, not re-checked in this reduced image. The two photographs are the viewer's own, reduced; row counting (ninth on each page) is how the two halves are matched.",
+   "slugs": [
+    "martin-martinus-kosina"
+   ],
+   "people": [
+    {
+     "slug": "martin-martinus-kosina",
+     "kind": "people",
+     "name": "Martin Martinus Kosina"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
+  },
+  {
+   "id": "kranj-marriage-1833-kosinar-labornik",
+   "entry": "kranj-marriage-1833-kosinar-labornik-right.jpg",
+   "page": "kranj-marriage-1833-kosinar-labornik-left.jpg",
+   "title": "Kranj–Šmartin, 6 January 1833 — Johann Kosinar, Häusler of Oberfeichting 9, and Luzia Labornik",
+   "film": "Poročna knjiga / Trauungsbuch Kranj–Šmartin 1816–1855 (Nadškofijski arhiv Ljubljana, Matricula sig. 00899)",
+   "where": "viewer pg=37, a spread (book page 35): the first row of the table, headed 1833; the LEFT page has the groom, the bride and their ages, the RIGHT page the parents of each, the witnesses and the priest",
+   "view": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00899/?pg=37",
+   "says": "Left: «1833 · 6. Jänner · Obern feichting · 9 · Johann Kosinar, Häusler · katholisch · 30 · ledig» and the bride «Obern feichting · 3 · Luzia Labornik · 38 · ledig». Right: the groom's parents «Franz Kosinar, Häusler» and «Mina Tomshan, Häuslerin» (read at one zoom), the bride's parents «Mathes Labornik, Häusler» and «Gertraud Magnishan, Häuslerin». The groom's father's name is the evidence that ties this household to the 1814 baptism of a Franz Kosinar. The occupation word (Häusler / Hüblar) and the parents' names are as read in the working note from the page at higher zoom; in these reduced images the occupation word is ambiguous and the page is cropped, not transcribed.",
+   "slugs": [
+    "martin-martinus-kosina"
+   ],
+   "people": [
+    {
+     "slug": "martin-martinus-kosina",
+     "kind": "people",
+     "name": "Martin Martinus Kosina"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
   }
  ],
  "bySlug": {
@@ -1400,7 +1446,9 @@
    "senj-marriage-1885-papic-perpic"
   ],
   "martin-martinus-kosina": [
-   "senj-marriage-1888-kozina-boras"
+   "senj-marriage-1888-kozina-boras",
+   "kranj-baptism-1841-martin-kosina",
+   "kranj-marriage-1833-kosinar-labornik"
   ],
   "angelika-boras": [
    "senj-marriage-1888-kozina-boras",

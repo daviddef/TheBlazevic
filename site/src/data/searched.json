@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 97
+  "yield": 99
  },
  "read": [
   {
@@ -3818,6 +3818,40 @@
    ],
    "got": "Three entries re-read and kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/). The September 1858 baptism of Marija was looked for at images 86–88 and not found: image 87's left page is a loose sheet laid over the book.",
    "missed": "The 1858 entry remains unread. The 1835 Otočac baptism (a different volume, 9RK1-N3B) is in the snapshots but was not walked."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin baptisms 1832–1870 (NŠAL sig. 00886), book page 64 (viewer pg=65): Martin Kosina, 16 November 1841, re-photographed for the snapshot register",
+   "key": "web/matricula-kranj-00886-martin-kosina-snapshot",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00886/?pg=65",
+   "what": "Martin Kosina's baptism (Oberfeichting 9), both halves of the spread",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "65",
+   "tags": [
+    "kosina",
+    "kranj",
+    "matricula",
+    "krsteni"
+   ],
+   "got": "Both halves kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-baptism-1841-martin-kosina): the ninth row of November 1841, Oberfeichting house 9, Martin; the mother's cell reads Gertraud Kosina and the father's is empty.",
+   "missed": "The unehelich tick was not re-checked in the reduced image; the marriage book (00899) and the 1775 and 1779 Kosina baptisms are not re-photographed."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin marriages 1816–1855 (NŠAL sig. 00899), viewer pg=37 (book page 35): Johann Kosinar × Luzia Labornik, 6 January 1833, re-photographed for the snapshot register",
+   "key": "web/matricula-kranj-00899-kosinar-labornik-snapshot",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00899/?pg=37",
+   "what": "The marriage that names Franz Kosinar, Häusler, as the groom's father",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "37",
+   "tags": [
+    "kosina",
+    "kranj",
+    "matricula",
+    "vjencani"
+   ],
+   "got": "Both halves kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-marriage-1833-kosinar-labornik): the first row of the 1833 page, Oberfeichting house 9, groom 30, bride of house 3 aged 38; the parents' columns are on the right-hand half.",
+   "missed": "Transcription stays in the working note; the reduced images do not settle the occupation word."
   }
  ]
 }

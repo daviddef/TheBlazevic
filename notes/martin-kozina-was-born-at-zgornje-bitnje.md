@@ -250,3 +250,8 @@ somewhere between about 1815 and 1860: **sig. 04634** (death index 1812–1835),
 3. **Whether Johann is her father or her brother.** His own marriage — sig. 00899, marriages 1816–1855 — would name his parents, and so would hers if she ever married.
 4. **Martin's leaving.** He was a *trgovac* in Senj by 1888. Between 1841 and 1888 there is a
    young man crossing from Carniola to the Adriatic, and nothing yet says when or why.
+
+## The page itself (snapshots)
+
+[kranj-baptism-1841-martin-kosina](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-baptism-1841-martin-kosina) — both halves of book page 64, Matricula sig. 00886; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[kranj-marriage-1833-kosinar-labornik](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-marriage-1833-kosinar-labornik) — the marriage of 6 January 1833, both halves of the spread, Matricula sig. 00899.
