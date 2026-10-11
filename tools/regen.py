@@ -90,6 +90,7 @@ ORDER = [
     "targets.py",
     "bynames.py",
     "found.py",
+    "snapshots.py",
     "register.py",
     "walls.py",
     "graves.py",

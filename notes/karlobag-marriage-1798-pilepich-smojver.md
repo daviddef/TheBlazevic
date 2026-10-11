@@ -30,3 +30,7 @@ Barach et Josepho Lazarich.»
 
 * The month word was read once at about 6x; the archdeacon's and chaplain's names are as read.
 * Witnesses Michael Barach and Josef Lazarich are not otherwise known in this archive.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-marriage-1798](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-marriage-1798). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

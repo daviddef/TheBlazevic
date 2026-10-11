@@ -128,3 +128,7 @@ screenshot size, so a misspelt Kozina could have passed; the right-hand page wit
 the volume begins in 1881 and ends in November 1899, so a marriage before 1881 (Anna would then be 25 or less) or after
 1899 is outside it; and a marriage in another parish (Kranj town, Stražišče's neighbours, her husband's home) is
 not excluded. The register would have named both parents of both parties had it held her.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [kranj-baptism-1775](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-baptism-1775). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

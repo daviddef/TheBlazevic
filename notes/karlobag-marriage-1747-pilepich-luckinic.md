@@ -31,3 +31,7 @@ Signor Matteo Borri.»
   «Vicha / Luckinicha»; the witnesses' names are read at one zoom.
 * Jakov is written «Pillepicha» (genitive/accusative), the same family as the Pilipići of Karlobag; his own father is
   not named.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-marriage-1747](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-marriage-1747). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

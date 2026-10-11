@@ -21,6 +21,8 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import F from "../../data/found.json";
+import snapshots from "../../data/snapshots.json";
+import Snapshot from "../../components/Snapshot.astro";
 import ancestors from "../../data/ancestors.json";
 
 export function getStaticPaths() {
@@ -29,6 +31,7 @@ export function getStaticPaths() {
     .map((r) => ({ params: { slug: r.slug }, props: { r } }));
 }
 const { r } = Astro.props;
+const snaps = (snapshots.bySlug[r.slug] || []).map((id) => snapshots.rows.find((s) => s.id === id)).filter(Boolean);
 
 /* "son of ahnentafel 10 and 11, brother of ahnentafel 5" — every number in the
    relation is a position on the direct line, and every position the archive
@@ -81,6 +84,13 @@ const named = kin.filter((k) => k.href);
       <dt>Citation</dt><dd style="font-size:.94em">{r.citation}</dd>
     </dl>
   </section>
+
+  {snaps.length > 0 && (
+    <section class="blk">
+      <h2>The register page</h2>
+      {snaps.map((s) => <Snapshot s={s} compact />)}
+    </section>
+  )}
 
   <section class="blk">
     <h2>How they attach to the line</h2>

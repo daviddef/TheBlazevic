@@ -7,6 +7,8 @@ import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
 import evidence from "../../data/evidence.json";
 import readings from "../../data/readings.json";
+import snapshots from "../../data/snapshots.json";
+import Snapshot from "../../components/Snapshot.astro";
 import linkage from "../../data/linkage.json";
 import dupes from "../../data/duplicates.json";
 import placefixes from "../../data/placefixes.json";
@@ -80,6 +82,8 @@ const ev = evidence[p.slug] || { state: "tree", media: 0 };
 // badge above says a document exists; until 20 September 2026 no page said
 // what it said. sources/readings.psv held 111 of these and was published nowhere.
 const read = (readings.bySlug[p.slug] || { rows: [] }).rows;
+// The register pages themselves, where this archive has kept a snapshot (from 11 October 2026).
+const snaps = (snapshots.bySlug[p.slug] || []).map((id) => snapshots.rows.find((s) => s.id === id)).filter(Boolean);
 // The same five states the coverage table counts, as a chip: the sentence
 // below says it properly, this says it at a glance. Colour by how far the
 // claim is from a record, not by how flattering it is.
@@ -273,6 +277,16 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         ))}</tbody>
       </table>
       <p class="dek" style="margin-top:.7rem"><a href={u("/readings/")}>Every document this archive has read →</a></p>
+    </section>
+  )}
+
+  {snaps.length > 0 && (
+    <section class="blk">
+      <div class="lab">{snaps.length} {snaps.length === 1 ? "page" : "pages"} kept</div>
+      <h2>The register pages themselves</h2>
+      <p class="dek">The page as it was read, with the film, the image number and a link to the
+      viewer. <a href={u("/snapshots/")}>What a snapshot is and is not →</a></p>
+      {snaps.map((s) => <Snapshot s={s} compact />)}
     </section>
   )}
 

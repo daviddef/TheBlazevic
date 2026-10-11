@@ -1,0 +1,592 @@
+{
+ "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
+ "count": 15,
+ "images": 19,
+ "rows": [
+  {
+   "id": "karlobag-marriage-1774",
+   "entry": "karlobag-marriage-1774-entry.jpg",
+   "page": "karlobag-marriage-1774-page.jpg",
+   "title": "Karlobag, 2 May 1774 — Vincentius Smojver «Vukich» and Oliva, daughter of the late Caetanus Bacchi",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 306, right-hand page: headed 1773, then «Anno Dni 1774»; the entry is the one with «Maij» in the left margin, the second under the 1774 heading",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3FD",
+   "says": "«Praemissis praemittendis et habito mutuo consensu Vincentii filii Josephi Smojver, vulgo nuncupati Vukich, ac Olivae filiae defti Caetani Bacchi, eos per verba de praesenti solemniter matrimonio conjunxi, praesentibus Dno Nicolao Jurich et Francisco [Lukulich?]». The year is read from the heading above; the witnesses at one zoom.",
+   "slugs": [
+    "vicentius-fabiano-smojver-vukic",
+    "oliva-andreana-bacchi",
+    "josiph-smojver-vukic",
+    "caetano-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "kind": "people",
+     "name": "Vicentius Fabiano Smojver Vukić"
+    },
+    {
+     "slug": "oliva-andreana-bacchi",
+     "kind": "people",
+     "name": "Oliva Andreana Bacchi"
+    },
+    {
+     "slug": "josiph-smojver-vukic",
+     "kind": "people",
+     "name": "Josiph Smojver Vukić"
+    },
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriage-1760",
+   "entry": "karlobag-marriage-1760-entry.jpg",
+   "page": "karlobag-marriage-1760-page.jpg",
+   "title": "Karlobag, 20 October 1760 — Paulus Perpich marries Anna, widow of Caetanus Bachi",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 293, left-hand page, headed «Anno Domini 1760»; the entry is the second of 20 October, the one beginning «Idem eadem die»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G77",
+   "says": "«Idem eadem die matrimonialiter copulavi Paulum Perpich et Annam viduam Caetani Bachi. Praesentibus testibus Joanno Mat[hosich] ac Petro Bevandich». Shows a Caetanus Bacchi dead by October 1760; probably the elder Caetanus (ahnentafel 214) — not proved.",
+   "slugs": [
+    "caetano-bacchi",
+    "anna-widow-of-caetanus-bacchi-married-paulus-perpich"
+   ],
+   "people": [
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    },
+    {
+     "slug": "anna-widow-of-caetanus-bacchi-married-paulus-perpich",
+     "kind": "found",
+     "name": "Anna, widow of Caetanus Bacchi (married Paulus Perpich)"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriage-1753",
+   "entry": "karlobag-marriage-1753-entry.jpg",
+   "page": "karlobag-marriage-1753-page.jpg",
+   "title": "Karlobag, 4 February 1753 — Caetanus Bachi marries Anna, daughter of the late Alexius Lukatelli",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 287, right-hand page: «Anno Domini 1752», then «Anno Domini 1753»; the entry is the last on the page, «Idem eadem die» after the 4 February entry",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-GCS",
+   "says": "«Idem eadem die matrimonialiter copulavi ad faciem Ecclesiae Cajetanum Bachi et Annam filiam defuncti Alexij Lukatelli. Praesentibus Wolffgango Suvich ac Joanne Radkovich». The father's surname is read from the full page.",
+   "slugs": [
+    "caetano-bacchi",
+    "anna-daughter-of-the-late-alexius-lukatelli-wife-of-caetanus-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    },
+    {
+     "slug": "anna-daughter-of-the-late-alexius-lukatelli-wife-of-caetanus-bacchi",
+     "kind": "found",
+     "name": "Anna, daughter of the late Alexius Lukatelli (wife of Caetanus Bacchi)"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriage-1747",
+   "entry": "",
+   "page": "karlobag-marriage-1747-page.jpg",
+   "title": "Karlobag, 22 November 1747 — Jakov Pilepich marries Katta, daughter of the late Vicko Luckinich",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 283, right-hand page, headed «Letta 1747»: the entry dated «Dan 22: Novembra», second from the foot of the 1747 block (Croatian text)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-GHR",
+   "says": "Croatian entry of the priest Andrij Kollekar joining «Jakova Lillepicha» (Pilepich) and «Kattu», the daughter «heer pokoif Vicka fucki[nicha]» — read as «daughter of the late Vicko Luckinich». The surnames are read at about 4x and are the least certain words.",
+   "slugs": [
+    "jacob-pilipic",
+    "catherina-catta-luckinic",
+    "vicentius-vicko-luckinic"
+   ],
+   "people": [
+    {
+     "slug": "jacob-pilipic",
+     "kind": "people",
+     "name": "Jacob Pilipic"
+    },
+    {
+     "slug": "catherina-catta-luckinic",
+     "kind": "people",
+     "name": "Catherina (Catta) Luckinić"
+    },
+    {
+     "slug": "vicentius-vicko-luckinic",
+     "kind": "people",
+     "name": "Vicentius (Vicko) Luckinić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1747-pilepich-luckinic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1747-pilepich-luckinic.md"
+  },
+  {
+   "id": "karlobag-marriage-1785",
+   "entry": "",
+   "page": "karlobag-marriage-1785-page.jpg",
+   "title": "Karlobag, 2 November 1785 — Michael Gerkacs and Lucia, daughter of Paul Tomljanovic of Montani Stanize",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 324, right-hand page, headed «Anno Dni 1785»: the third entry, in the left margin «2 Novemb»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G3Z4",
+   "says": "«… matrimonio conjunxi ego Joes Antonius Ivankovich Parochus … Michaelis filij defti Nicolai Gergacs et Luciae Pauli Tomljenovich Loci Mostani [Montani] Stanize». Gives the groom's late father (ahnentafel 220) and the bride's father (222).",
+   "slugs": [
+    "michaeli-michaele-gerkacs-gergacs",
+    "lucia-maja-tomljanovic",
+    "nicolaus-gerkacs",
+    "pauli-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "kind": "people",
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)"
+    },
+    {
+     "slug": "lucia-maja-tomljanovic",
+     "kind": "people",
+     "name": "Lucia (Maja) Tomljanović"
+    },
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    },
+    {
+     "slug": "pauli-tomljanovic",
+     "kind": "people",
+     "name": "Pauli Tomljanović"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md"
+  },
+  {
+   "id": "karlobag-marriage-1798",
+   "entry": "",
+   "page": "karlobag-marriage-1798-page.jpg",
+   "title": "Karlobag, 14 February 1798 — Josephus Pilepich (widower) and Maria, daughter of Vincentius (probable)",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 343, right-hand page, headed «Anno Dni 1798»: the second entry, in the left margin «14 Febr[uarij]»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G35T",
+   "says": "«… Josephi viduei [Pilepich?] et Mariae filiae Vincenti [Smojver?] …». Date, both first names and the father's given name fit; both surnames are faint, so the identification as ahnentafel 52 and 53 is probable, not proved.",
+   "slugs": [
+    "josephus-josip-pilipic",
+    "oliva-maria-smojver",
+    "vicentius-fabiano-smojver-vukic"
+   ],
+   "people": [
+    {
+     "slug": "josephus-josip-pilipic",
+     "kind": "people",
+     "name": "Josephus (Josip) Pilipic"
+    },
+    {
+     "slug": "oliva-maria-smojver",
+     "kind": "people",
+     "name": "Oliva Maria Smojver"
+    },
+    {
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "kind": "people",
+     "name": "Vicentius Fabiano Smojver Vukić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1798-pilepich-smojver.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1798-pilepich-smojver.md"
+  },
+  {
+   "id": "karlobag-marriage-1755-uroda",
+   "entry": "",
+   "page": "karlobag-marriage-1755-uroda-page.jpg",
+   "title": "Karlobag, 5 February 1755 — Matthias Kriskovich marries Magdalena, daughter of Dominicus Uroda",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 289, right-hand page: «Anno Domini 1754», then «1755»; the entry is the last on the page, «Die 5ta Febr»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GFZ",
+   "says": "«Matthiam Kriskovich et Magdalenam filiam Dominici Uroda. Praesentibus Nicolao Perpich ac Josepho Venerando». A Dominicus Uroda with a daughter marrying in 1755; not shown to be related to Georgius Uroda (ahnentafel 108).",
+   "slugs": [
+    "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich"
+   ],
+   "people": [
+    {
+     "slug": "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich",
+     "kind": "found",
+     "name": "Magdalena, daughter of Dominicus Uroda (wife of Matthias Kriskovich)"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriage-1767-uroda",
+   "entry": "karlobag-marriage-1767-uroda-entry.jpg",
+   "page": "karlobag-marriage-1767-uroda-page.jpg",
+   "title": "Karlobag, 13 November 1767 — a man of Senj marries Maria, daughter of the late Dominicus Uroda",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 300, right-hand page, headed «Anno Dni 1767»: the second entry, in the left margin «13 9bris»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G36T",
+   "says": "«… conjunxi Joannem [? underlined word] Senicensem et Mariam filiam defuncti Dominici Uroda, praesentibus testibus …». The groom's given name is read as Joannes (an earlier note of this archive said Josephus; the page reads Joannem, with an underlined word after it). Shows Dominicus Uroda dead by November 1767.",
+   "slugs": [],
+   "people": [],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-marriages-1748-uroda-witness",
+   "entry": "",
+   "page": "karlobag-marriages-1748-dominicus-uroda-page.jpg",
+   "title": "Karlobag, 1748 — «Dominico Uroda» a witness at marriages (3, 5 October and 17 November)",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 284, left-hand page, headed «Anno Domini 1748»: the entries of 3 and 5 October and 17 November each end «… et Dominico Uroda»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G72",
+   "says": "Dominicus «Dume» Uroda appears as witness about ten times between 1744 and 1749; this page shows three. He was an adult Karlobag man by 1744 and dead by 1767. He may be the father of Georgius Uroda (ahnentafel 108); nothing read says so.",
+   "slugs": [],
+   "people": [],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-births-1725-ana-luckinic",
+   "entry": "",
+   "page": "karlobag-births-1725-ana-luckinic-page.jpg",
+   "title": "Karlobag, 13 April 1725 — Ana, daughter of Vicko Luckinich and his wife Mare",
+   "film": "Karlobag births 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 47, left-hand page, in the viewer's numbering (about book page 31): the entries of April 1725 are written near the foot, out of date order",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99G-1",
+   "says": "«Na 13 Aprilya 1725 Ja Pop Andrij Kollekar karstih [k]… Vicka Luckinicha, nyegove xene mare imen[om] Anu koy bi kum Sg. Karlo Slayner …». Read as a daughter Ana to Vicko and Mare; the index and the tree make «Mare» the child. The same page carries the godfather entry of 1724.",
+   "slugs": [
+    "ana-daughter-of-vicko-luckinich-and-mare-read-anu",
+    "vicko-lukcinich-godfather",
+    "mare-luckinic"
+   ],
+   "people": [
+    {
+     "slug": "ana-daughter-of-vicko-luckinich-and-mare-read-anu",
+     "kind": "found",
+     "name": "Ana, daughter of Vicko Luckinich and Mare (read «Anu»)"
+    },
+    {
+     "slug": "vicko-lukcinich-godfather",
+     "kind": "found",
+     "name": "Vicko Lukcinich, godfather"
+    },
+    {
+     "slug": "mare-luckinic",
+     "kind": "people",
+     "name": "Mare Luckinić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1727-no-luckinic-baptism.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1727-no-luckinic-baptism.md"
+  },
+  {
+   "id": "karlobag-births-1753-bacchi-sponsor",
+   "entry": "",
+   "page": "karlobag-births-1753-bacchi-sponsor-page.jpg",
+   "title": "Karlobag, 18 March 1753 — «Caietan Bachi» and his wife Anna as sponsors",
+   "film": "Karlobag births 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 117, right-hand page, in the viewer's numbering (book page 211), headed «Letta 1753»: the entry «Dan 18: Marca» near the foot",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SN-V",
+   "says": "A baptism of a child of Petar Tomljenovich «Bihu kumi Caietan Bachi, svojom xenom Annom» — Caetanus with his wife Anna, six weeks after their wedding. Read at about 4x.",
+   "slugs": [
+    "caetano-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-births-1754-silvester-bacchi",
+   "entry": "",
+   "page": "karlobag-births-1754-silvester-bacchi-page.jpg",
+   "title": "Karlobag, early January 1754 — Silvester, son of Gaetanus and Anne Bachi",
+   "film": "Karlobag births 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 119, right-hand page, in the viewer's numbering (book page 215), headed «Letta 1754»: the second entry under «Dan 1 Genvara» (dated 2 or 3 January)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L994-1",
+   "says": "«… krstih Antola [Antonu?] Sylvestra sina Gajetana y Anne Bachi. Bihu kumi Jose y Venera Dur[…]ch». The first name is read at one zoom.",
+   "slugs": [
+    "silvester-son-of-gaetanus-and-anna-bachi",
+    "caetano-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "silvester-son-of-gaetanus-and-anna-bachi",
+     "kind": "found",
+     "name": "Silvester, son of Gaetanus and Anna Bachi"
+    },
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "selce-marriage-1798",
+   "entry": "",
+   "page": "selce-marriage-1798-antic-loncaric-page.jpg",
+   "title": "Selce, 18 October 1798 — Joannes Antić and Martha Lončarić",
+   "film": "Selce marriages 1790–1815 (DGS 5482267, FamilySearch waypoint 9R2M-BZF)",
+   "where": "image 248, left-hand page, headed «Anno 1798»: the second entry, numbered 27 in the margin",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-59DG-Z",
+   "says": "Latin entry of the chaplain Michael Kombol: «… Joannem filium defuncti Antonii et Ursulae Antich cum Martha filia Pauli et Annae Lonchasich», witnesses Mathia Jellichich and Georgio Antich. Names both sets of parents (ahnentafel 96–99).",
+   "slugs": [
+    "joannis-antic",
+    "margarita-martha-loncaric",
+    "joannis-antic-2",
+    "ursula",
+    "pauli-loncaric",
+    "anna-papic"
+   ],
+   "people": [
+    {
+     "slug": "joannis-antic",
+     "kind": "people",
+     "name": "Joannis Antić"
+    },
+    {
+     "slug": "margarita-martha-loncaric",
+     "kind": "people",
+     "name": "Margarita (Martha) Lončarić"
+    },
+    {
+     "slug": "joannis-antic-2",
+     "kind": "people",
+     "name": "Joannis Antić"
+    },
+    {
+     "slug": "ursula",
+     "kind": "people",
+     "name": "Ursula"
+    },
+    {
+     "slug": "pauli-loncaric",
+     "kind": "people",
+     "name": "Pauli Lončarić"
+    },
+    {
+     "slug": "anna-papic",
+     "kind": "people",
+     "name": "Anna Papić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/selce-marriage-1798-antic-loncaric.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1798-antic-loncaric.md"
+  },
+  {
+   "id": "selce-marriage-1800",
+   "entry": "",
+   "page": "selce-marriage-1800-jellicic-drozovic-page.jpg",
+   "title": "Selce, 14 October 1800 — Georgius Jelličić and Margaretha Drozović",
+   "film": "Selce marriages 1790–1815 (DGS 5482267, FamilySearch waypoint 9R2M-BZF)",
+   "where": "image 251, left-hand page, «Die 14 8bris Ao 1800»: the fourth entry, numbered 96 in the margin",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5963-H",
+   "says": "«… Georgium filium Mathiae et Margaritae Jellichich cum Margareta filia Joannis et Catharinae Drozovich, praesentibus Laurentio Allegri? et Joanne Drozovich». The bride's surname reads DROZOVICH, not the tree's Brozović. Names both sets of parents (ahnentafel 100–103).",
+   "slugs": [
+    "georgi-juraj-jellicic",
+    "margarita-brozovic",
+    "mathia-jellicic",
+    "margarita",
+    "joanni-brozovic",
+    "catharina-2"
+   ],
+   "people": [
+    {
+     "slug": "georgi-juraj-jellicic",
+     "kind": "people",
+     "name": "Georgi Juraj Jelličić"
+    },
+    {
+     "slug": "margarita-brozovic",
+     "kind": "people",
+     "name": "Margarita Brozović"
+    },
+    {
+     "slug": "mathia-jellicic",
+     "kind": "people",
+     "name": "Mathia Jelličić"
+    },
+    {
+     "slug": "margarita",
+     "kind": "people",
+     "name": "Margarita"
+    },
+    {
+     "slug": "joanni-brozovic",
+     "kind": "people",
+     "name": "Joanni Brozović"
+    },
+    {
+     "slug": "catharina-2",
+     "kind": "people",
+     "name": "Catharina"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/selce-marriage-1800-jellicic-drozovic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-marriage-1800-jellicic-drozovic.md"
+  },
+  {
+   "id": "kranj-baptism-1775",
+   "entry": "",
+   "page": "kranj-baptism-1775-franz-kosina-page.jpg",
+   "title": "Kranj–Šmartin, 3 December 1775 — Franciscus Xaverius Kosina, son of Lucas and Helena (probably Franz Kosinar)",
+   "film": "Krstna knjiga Kranj–Šmartin 1747–1779 (Nadškofijski arhiv Ljubljana, Matricula sig. 00883)",
+   "where": "page 330, right-hand page: the second row, day «3», baptiser «Zeller», locus «S. Thomae» with the number 10",
+   "view": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00883/?pg=330",
+   "says": "Infans «Koskina Franciscus Xaverius», parents «Lucas et Helena Kosarsa [Kosina]», «Domus Paroch. Local», S. Thomae 10. The year is read from the heading «1776 Januarij» two pages on. Probable, not proved, to be the Franz Kosinar who died 1849.",
+   "slugs": [
+    "franciscus-xaverius-kosina-son-of-lucas-and-helena"
+   ],
+   "people": [
+    {
+     "slug": "franciscus-xaverius-kosina-son-of-lucas-and-helena",
+     "kind": "found",
+     "name": "Franciscus Xaverius Kosina, son of Lucas and Helena"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/the-kozina-of-zgornje-bitnje.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kozina-of-zgornje-bitnje.md"
+  }
+ ],
+ "bySlug": {
+  "vicentius-fabiano-smojver-vukic": [
+   "karlobag-marriage-1774",
+   "karlobag-marriage-1798"
+  ],
+  "oliva-andreana-bacchi": [
+   "karlobag-marriage-1774"
+  ],
+  "josiph-smojver-vukic": [
+   "karlobag-marriage-1774"
+  ],
+  "caetano-bacchi": [
+   "karlobag-marriage-1774",
+   "karlobag-marriage-1760",
+   "karlobag-marriage-1753",
+   "karlobag-births-1753-bacchi-sponsor",
+   "karlobag-births-1754-silvester-bacchi"
+  ],
+  "anna-widow-of-caetanus-bacchi-married-paulus-perpich": [
+   "karlobag-marriage-1760"
+  ],
+  "anna-daughter-of-the-late-alexius-lukatelli-wife-of-caetanus-bacchi": [
+   "karlobag-marriage-1753"
+  ],
+  "jacob-pilipic": [
+   "karlobag-marriage-1747"
+  ],
+  "catherina-catta-luckinic": [
+   "karlobag-marriage-1747"
+  ],
+  "vicentius-vicko-luckinic": [
+   "karlobag-marriage-1747"
+  ],
+  "michaeli-michaele-gerkacs-gergacs": [
+   "karlobag-marriage-1785"
+  ],
+  "lucia-maja-tomljanovic": [
+   "karlobag-marriage-1785"
+  ],
+  "nicolaus-gerkacs": [
+   "karlobag-marriage-1785"
+  ],
+  "pauli-tomljanovic": [
+   "karlobag-marriage-1785"
+  ],
+  "josephus-josip-pilipic": [
+   "karlobag-marriage-1798"
+  ],
+  "oliva-maria-smojver": [
+   "karlobag-marriage-1798"
+  ],
+  "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich": [
+   "karlobag-marriage-1755-uroda"
+  ],
+  "ana-daughter-of-vicko-luckinich-and-mare-read-anu": [
+   "karlobag-births-1725-ana-luckinic"
+  ],
+  "vicko-lukcinich-godfather": [
+   "karlobag-births-1725-ana-luckinic"
+  ],
+  "mare-luckinic": [
+   "karlobag-births-1725-ana-luckinic"
+  ],
+  "silvester-son-of-gaetanus-and-anna-bachi": [
+   "karlobag-births-1754-silvester-bacchi"
+  ],
+  "joannis-antic": [
+   "selce-marriage-1798"
+  ],
+  "margarita-martha-loncaric": [
+   "selce-marriage-1798"
+  ],
+  "joannis-antic-2": [
+   "selce-marriage-1798"
+  ],
+  "ursula": [
+   "selce-marriage-1798"
+  ],
+  "pauli-loncaric": [
+   "selce-marriage-1798"
+  ],
+  "anna-papic": [
+   "selce-marriage-1798"
+  ],
+  "georgi-juraj-jellicic": [
+   "selce-marriage-1800"
+  ],
+  "margarita-brozovic": [
+   "selce-marriage-1800"
+  ],
+  "mathia-jellicic": [
+   "selce-marriage-1800"
+  ],
+  "margarita": [
+   "selce-marriage-1800"
+  ],
+  "joanni-brozovic": [
+   "selce-marriage-1800"
+  ],
+  "catharina-2": [
+   "selce-marriage-1800"
+  ],
+  "franciscus-xaverius-kosina-son-of-lucas-and-helena": [
+   "kranj-baptism-1775"
+  ]
+ }
+}

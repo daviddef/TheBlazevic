@@ -110,3 +110,7 @@ baptism is now missing from **June 1717 to the end of 1732**, a much wider windo
 to an overlooked entry. **Not done:** book page 94 onward (1732-33 and later), the order of the many entries that
 are out of date sequence, and any reading of every name on these pages at more than one zoom (names were read at one
 or two zooms, so a badly spelt Luckinić could have been passed).
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-births-1725-ana-luckinic](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-births-1725-ana-luckinic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

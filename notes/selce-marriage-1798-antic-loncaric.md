@@ -33,3 +33,7 @@ Michaël Kombol Capellanus Localis junxi Matrimonio **Joannem filium Defunctorum
 * The house number 27 is as read; Joannes Antić's house at his death in 1829 is 51 (and 56 is his wife's), so a
   move is possible and nothing here shows it.
 * The page was read at about 6x for the entry and only the entry; the others of the day were not.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [selce-marriage-1798](https://daviddef.github.io/TheBlazevic/snapshots/#selce-marriage-1798). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

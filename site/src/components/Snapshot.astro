@@ -1,0 +1,27 @@
+---
+/* One snapshot: the register page (or entry) as it was read, with where it is.
+ *
+ * `s` is a row of data/snapshots.json. The close crop of the entry, where there is one, is
+ * shown first and links to the whole page; the whole page is the picture when there is no
+ * crop. The caption always carries the film, the image number and the link to the viewer so
+ * a reader can open the original - FamilySearch images need a free sign-in - and the note
+ * the reading is argued in. It is evidence, reduced, not a substitute for the original. */
+import { u } from "../lib/url.js";
+const { s, compact = false } = Astro.props;
+const first = s.entry || s.page;
+---
+<figure class="doc snap" id={s.id}>
+  <a href={u(`/snaps/${s.page || s.entry}`)} title="The whole page, larger">
+    <img src={u(`/snaps/${first}`)} loading="lazy"
+         alt={`${s.title}. The register page as read: ${s.where}.`} />
+  </a>
+  <figcaption>
+    <strong>{s.title}</strong><br />
+    {s.film} · {s.where}.<br />
+    {!compact && <span>{s.says}<br /></span>}
+    <a href={s.view}>Open the image in the viewer →</a>
+    {s.entry && s.page && <span> · <a href={u(`/snaps/${s.page}`)}>the whole page</a></span>}
+    {s.note && <span> · <a href={s.noteUrl}>the working note</a></span>}
+    {!compact && <span> · <a href={u(`/snapshots/#${s.id}`)}>all snapshots</a></span>}
+  </figcaption>
+</figure>

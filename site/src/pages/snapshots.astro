@@ -1,0 +1,64 @@
+---
+import Base from "../layouts/Base.astro";
+import Snapshot from "../components/Snapshot.astro";
+import { u } from "../lib/url.js";
+import S from "../data/snapshots.json";
+
+/* Grouped by the book, so a reader sees which volumes have been opened and how far. */
+const books = [];
+for (const r of S.rows) {
+  let b = books.find((x) => x.film === r.film);
+  if (!b) books.push((b = { film: r.film, rows: [] }));
+  b.rows.push(r);
+}
+---
+<Base title="The Pages Themselves"
+  eyebrow={`${S.count} finds shown as they were read · ${S.images} images`}
+  dek="A photograph of the register page for each reading in this archive that has one — the film, the image number, the entry — so a claim can be checked against the page and not only against this site's account of it.">
+
+  <section class="blk">
+    <p class="lede">The readings on this site are transcriptions, and a transcription is only as
+    good as the person who made it. So for the finds that matter most, the page itself is kept
+    here, reduced to a readable size, with <strong>where it is</strong>: the film, the image
+    number, the position on the page, and a link to the viewer.</p>
+    <div class="note"><strong>What a snapshot is, and is not.</strong> It is the page as the
+    FamilySearch or Matricula viewer showed it on the day it was read, reduced to 800 px and kept
+    for citation. It is not a transcription — the words are in
+    <a href={u("/readings/")}>the readings</a>, <a href={u("/found/")}>the found people</a> and the
+    working notes — and it is not a licence: the originals belong to the parishes and archives
+    that keep the books, and the filmed images to FamilySearch and the Hrvatski državni arhiv
+    (Matricula images: Nadškofijski arhiv Ljubljana). The viewer links need a free sign-in. This
+    archive began keeping snapshots on <strong>11 October 2026</strong>; the readings made before
+    then have none yet, and <a href={u("/worklist/")}>the work list</a> says so.</div>
+  </section>
+
+  {books.map((b) => (
+    <section class="blk">
+      <div class="lab">{b.rows.length} {b.rows.length === 1 ? "find" : "finds"}</div>
+      <h2>{b.film}</h2>
+      {b.rows.map((r) => (
+        <div>
+          <Snapshot s={r} />
+          {r.people.length > 0 && (
+            <p class="dek" style="margin:.3rem 0 1.6rem">Supports: {r.people.map((p, i) => (
+              <Fragment>{i ? ", " : ""}<a href={u(p.kind === "found" ? `/found/${p.slug}/` : `/people/${p.slug}/`)}>{p.name}</a></Fragment>
+            ))}</p>
+          )}
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <section class="blk">
+    <div class="card">
+      <h3>Where this comes from</h3>
+      <p>The list is <span class="mono">sources/snapshots.psv</span>, one row per find, and the
+      images are in <span class="mono">site/public/snaps/</span>. <span class="mono">tools/snapshots.py</span>
+      refuses to build if an image is missing, if a person named does not exist on the site, if a
+      note is missing, or if an image is saved and no row explains it.</p>
+      <p><a href={u("/readings/")}>What the registers say →</a>{" · "}
+      <a href={u("/searched/")}>What has been read, by sitting →</a>{" · "}
+      <a href={u("/found/")}>Found beside the tree →</a></p>
+    </div>
+  </section>
+</Base>

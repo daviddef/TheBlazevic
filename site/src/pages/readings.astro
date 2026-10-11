@@ -2,6 +2,8 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import R from "../data/readings.json";
+import snapshots from "../data/snapshots.json";
+const snapOf = (slug) => (snapshots.bySlug[slug] || [])[0];
 // sources/readings.psv held 111 citations and was published nowhere: /searched
 // listed the sittings, a person page showed a state badge, and the register's
 // own words appeared on no page at all.
@@ -92,7 +94,8 @@ for (const r of byYear) {
               <span class="dek" style="display:block"><strong>index only</strong></span>}</td>
             <td class="dek">{r.cite}
               {r.href && <span style="display:block"><a href={r.href}>{r.where}</a></span>}
-              {!r.href && r.where && <span class="mono dek" style="display:block">{r.where}</span>}</td>
+              {!r.href && r.where && <span class="mono dek" style="display:block">{r.where}</span>}
+              {snapOf(r.slug) && <span style="display:block"><a href={u(`/snapshots/#${snapOf(r.slug)}`)}>the page itself →</a></span>}</td>
           </tr>
         ))}</tbody>
       </table>
