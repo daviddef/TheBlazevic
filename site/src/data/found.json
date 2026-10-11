@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 519,
+ "count": 521,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -12,7 +12,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 48,
+  "Karlobag": 50,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -5237,6 +5237,26 @@
    "place": "Karlobag",
    "citation": "Karlobag births 1691-1804 (DGS 5481648, waypoint 9RK1-3Y9) book page 215, right-hand page of the frame the viewer helper numbers 119, the entry after 1 January 1754: «krstih Antola [Antonu?] Sylvestra sina Gajetana y Anne Bachi. Bihu kumi Jose y Venera Dur[...]ch». READ FROM THE IMAGE 11 October 2026 at about 3x; the first name is read at one zoom and the day is 2 or 3. The same Caetan Bachi appears with his wife Anna as sponsor on 18 March 1753 (page 211) and, partly cut by the page edge, in late October 1755 (page 221). NOT PROVED to be the Caetanus of the 1774 marriage and the 1760 widow, but the surname is rare and the wife's name is the same. See notes/karlobag-marriage-1774-smojver-bacchi.md",
    "slug": "silvester-son-of-gaetanus-and-anna-bachi"
+  },
+  {
+   "name": "Anna, daughter of the late Alexius Lukatelli (wife of Caetanus Bacchi)",
+   "ahn": null,
+   "relation": "MARRIAGE OF CAETANUS BACCHI (PROBABLY AHNENTAFEL 214) AND ANNA LUKATELLI - 4 February 1753",
+   "event": "marriage",
+   "date": "4 February 1753",
+   "place": "Karlobag",
+   "citation": "Karlobag marriages 1736-1804 (DGS 5481649, waypoint 9RK1-HZK) image 287 right-hand page, under the heading «Anno Domini 1753»: «Die 4ta Febr: … Idem eadem die matrimonialiter copulavi ad faciem Ecclesiae Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]. Praesentibus Wolffgango Suvich ac Joanne Radkovich». READ FROM THE IMAGE 11 October 2026 at about 6x; the father's surname is read from the full-page view and the day as the 4th. Anna is the Anna of the sponsor entries of 1753-55, the mother of Silvester (January 1754) and the widow who married Paulus Perpich on 20 October 1760, on the evidence of the name alone. See notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "slug": "anna-daughter-of-the-late-alexius-lukatelli-wife-of-caetanus-bacchi"
+  },
+  {
+   "name": "Magdalena, daughter of Dominicus Uroda (wife of Matthias Kriskovich)",
+   "ahn": null,
+   "relation": "A URODA WOMAN OF THE 1750s - the daughter of a Dominicus Uroda, married 5 February 1755",
+   "event": "marriage",
+   "date": "5 February 1755",
+   "place": "Karlobag",
+   "citation": "Karlobag marriages 1736-1804 (DGS 5481649, waypoint 9RK1-HZK) image 289 right-hand page, the last entry of the page: «Die 5ta Febr. Jose: Suvich Admstr Matrimonialiter copulavi Mathiam Kriskovich et Magdalenam filiam Dominici Uroda. Praesentibus Nicolao Perpich ac Josepho Venerando». READ FROM THE IMAGE 11 October 2026. A Dominicus Uroda, dead by November 1767, when his daughter Maria married a Josephus of Senj (image 300), had at least these two daughters; NOT shown to be related to Georgius Uroda (ahnentafel 108). See notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "slug": "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich"
   }
  ]
 }

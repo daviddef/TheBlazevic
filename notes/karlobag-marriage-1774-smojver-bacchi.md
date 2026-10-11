@@ -68,3 +68,31 @@ is not on the pages read** — 1750 to about the end of August 1759 (flaps of ca
 pages 226–227 and 235 in some frames; the same pages show in the neighbouring frames; helper images 124 and 125 are the
 same pages twice). She may be older than 1750 (baptised 1745–49, unread) or younger than the pages read, or
 baptised elsewhere. Read at one zoom, names in the Croatian hand of 1750–57 and the Latin of the later pages.
+
+## Added later the same day: the marriage of Caetanus Bacchi and Anna Lukatelli, 4 February 1753 — and a correction to the paragraph above
+
+Karlobag marriages 1736-1804 (DGS 5481649, waypoint 9RK1-HZK), image 287 right-hand page (the heading «Anno Domini 1753»
+opens at 15 January; the entries run 15 January, 23 January, 4 February): «**Die 4ta Febr:** … *Idem eadem die
+matrimonialiter copulavi ad faciem Ecclesiae* **Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]**.
+Praesentibus Wolffgango Suvich ac Joanne Radkovich.» The father's surname is read from the full-page view
+(«Lukatelli», a Karlobag surname that fills the book) and the day as the 4th at about 6x.
+
+* **Caetanus Bacchi's marriage: 4 February 1753, to Anna, daughter of the late Alexius Lukatelli.**
+* It makes the 1753 sponsor «Caietan Bachi, svojom xenom Annom» (March 1753) a newly married couple, and the son Silvester of
+  January 1754 a child born eleven months after the wedding (no earlier child of theirs was seen).
+* He appears in the same book as a **witness** at marriages of **10 February 1754** (Joannes Basletich × Lucia Muhvach) and
+  **30 January 1755** (Michael Dieich × Matthia, widow of Jacobus Vorban) — an adult man living at Karlobag.
+* **Correction to the baptism paragraph above:** I wrote that Oliva could be older than 1750. If she is Anna's daughter
+  she was born **after the wedding of February 1753 and, because Silvester was born in January 1754, from about
+  October 1754 and before about 1760** — inside the pages I read for her (1754 to August 1759), where she was not seen at one
+  zoom, or in September 1759 – 1760, unread. She was then **14–19 at her wedding in 1774**. A child of an earlier marriage
+  of Caetanus is not excluded and would be older than 1753; none is known.
+* One entry looked like a second marriage and is not: on 12 August 1753 (image 288) the clerk wrote «Caietanum Bachi» and
+  struck it through before «Nicolaum Braikovich et Dorotheam filiam Marci Stoiavich».
+
+## Uroda leads from the same pages
+
+«Mathiam Kriskovich et Magdalenam filiam **Dominici Uroda**» married on 5 February 1755 (image 289 right), and «Jacobus Uroda»
+is a witness on 28 July 1754 (image 289 left); the November 1767 bride of the entry noted on the work list was also
+«filiam defuncti Dominici Uroda». **A Dominicus Uroda, dead by 1767, with at least two daughters, is a Karlobag man of the
+right age to be a relative of Georgius Uroda (ahnentafel 108)** — a lead, not a link: nothing read says Georgius is his son.

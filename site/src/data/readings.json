@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 176,
+  "rows": 178,
   "people": 119,
   "derived": 70,
   "onDirectLine": 0,
@@ -20,7 +20,7 @@
   ],
   [
    "marriage",
-   27
+   28
   ],
   [
    "death",
@@ -44,6 +44,10 @@
   ],
   [
    "sponsor",
+   1
+  ],
+  [
+   "witness",
    1
   ],
   [
@@ -147,9 +151,37 @@
    "ahn": null
   },
   {
+   "kind": "marriage",
+   "year": "1753",
+   "cite": "Karlobag marriages image 287 right, 4 Feb 1753: «Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]», witnesses Wolffgango Suvich and Joanne Radkovich (probably ahnentafel 214; not proved)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1754",
    "cite": "Karlobag baptisms page 215, early Jan 1754: «sina Gajetana y Anne Bachi» - a son Silvester of a Caetanus Bacchi and Anne (probably 214; not proved)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "caetano-bacchi",
+   "name": "Caetano Bacchi",
+   "ahn": null
+  },
+  {
+   "kind": "witness",
+   "year": "1754",
+   "cite": "Karlobag marriages image 289 left, 10 Feb 1754, and image 289 right, 30 Jan 1755: named among the witnesses («Caietano Bacchi»)",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -3279,9 +3311,31 @@
      "indexOnly": false
     },
     {
+     "kind": "marriage",
+     "year": "1753",
+     "cite": "Karlobag marriages image 287 right, 4 Feb 1753: «Cajetanum Bachi et Annam filiam defuncti Alexii [Lukatelli]», witnesses Wolffgango Suvich and Joanne Radkovich (probably ahnentafel 214; not proved)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "baptism-of-child",
      "year": "1754",
      "cite": "Karlobag baptisms page 215, early Jan 1754: «sina Gajetana y Anne Bachi» - a son Silvester of a Caetanus Bacchi and Anne (probably 214; not proved)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "witness",
+     "year": "1754",
+     "cite": "Karlobag marriages image 289 left, 10 Feb 1754, and image 289 right, 30 Jan 1755: named among the witnesses («Caietano Bacchi»)",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -3323,7 +3377,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 5,
+   "direct": 7,
    "derived": 0
   },
   "mariam-gerkacs-gergacs": {
