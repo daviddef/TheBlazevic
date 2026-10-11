@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 99
+  "yield": 100
  },
  "read": [
   {
@@ -3852,6 +3852,23 @@
    ],
    "got": "Both halves kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-marriage-1833-kosinar-labornik): the first row of the 1833 page, Oberfeichting house 9, groom 30, bride of house 3 aged 38; the parents' columns are on the right-hand half.",
    "missed": "Transcription stays in the working note; the reduced images do not settle the occupation word."
+  },
+  {
+   "src": "Matricula Online — Kranj–Šmartin marriages 1780–1815 (NŠAL sig. 00901), viewer pg=33: Franz Kosinar × Maria Dortschen, 27 October 1800, re-photographed for the snapshot register",
+   "key": "web/matricula-kranj-00901-kosinar-dortschen-snapshot",
+   "url": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00901/?pg=33",
+   "what": "The marriage of Martin Kozina's grandparents, both halves of the spread",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "30, 33, 40 (page map: pg 30 = 1798, 33 = Jun–Nov 1800, 40 = 1805)",
+   "tags": [
+    "kosina",
+    "kranj",
+    "matricula",
+    "vjencani"
+   ],
+   "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-marriage-1800-kosinar-dortschen). Page map for sig. 00901: viewer pg 30 = 1798, pg 33 = June–November 1800, pg 40 = 1805.",
+   "missed": "The bride's parents and the witnesses are not transcribed here; see the working note."
   }
  ]
 }

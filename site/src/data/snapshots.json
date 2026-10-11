@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 45,
- "images": 57,
+ "count": 46,
+ "images": 59,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1291,6 +1291,41 @@
    "captured": "11 October 2026",
    "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
+  },
+  {
+   "id": "kranj-marriage-1800-kosinar-dortschen",
+   "entry": "kranj-marriage-1800-kosinar-dortschen-right.jpg",
+   "page": "kranj-marriage-1800-kosinar-dortschen-left.jpg",
+   "title": "Kranj–Šmartin, 27 October 1800 — Franz Kosinar of Feichting (house 10), aged 24, and Maria Dortschen, aged 20",
+   "film": "Poročna knjiga / Trauungsbuch Kranj–Šmartin 1780–1815 (Nadškofijski arhiv Ljubljana, Matricula sig. 00901)",
+   "where": "viewer pg=33, a spread: the LEFT page is headed 1800 and runs June–November; the entry is its eighth row («Den 27ten» under October, Feichting, house 10, groom's age 24); the RIGHT page carries the same row's bride (age 20), her parents and the witnesses",
+   "view": "https://data.matricula-online.eu/sl/slovenia/ljubljana/kranj-smartin/00901/?pg=33",
+   "says": "Left: «1800 · October · den 27ten · Feichting b. St. Joh. · 10 · Franz Kosinar · katholisch · 24 · ledig». Right, the eighth row: the bride «Maria Dortschen · katholisch · 20 · ledig», her parents, the witnesses (one is Matthäus Kosinar per the working note) and the priest. The two halves are matched by counting ten rows on each page. German Kurrent at the viewer's default size; the names beyond the groom's and the ages are read in the working note at higher zoom, not from these reduced images.",
+   "slugs": [
+    "franz-kosinar",
+    "maria-mina-dortschen",
+    "matthaeus-kosinar"
+   ],
+   "people": [
+    {
+     "slug": "franz-kosinar",
+     "kind": "found",
+     "name": "Franz Kosinar"
+    },
+    {
+     "slug": "maria-mina-dortschen",
+     "kind": "found",
+     "name": "Maria \"Mina\" Dortschen"
+    },
+    {
+     "slug": "matthaeus-kosinar",
+     "kind": "found",
+     "name": "Matthaeus Kosinar"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/martin-kozina-was-born-at-zgornje-bitnje.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-was-born-at-zgornje-bitnje.md"
   }
  ],
  "bySlug": {
@@ -1505,6 +1540,15 @@
   ],
   "stephanus-zubrinic-1856": [
    "otocac-baptism-1856-stephanus-zubrinic"
+  ],
+  "franz-kosinar": [
+   "kranj-marriage-1800-kosinar-dortschen"
+  ],
+  "maria-mina-dortschen": [
+   "kranj-marriage-1800-kosinar-dortschen"
+  ],
+  "matthaeus-kosinar": [
+   "kranj-marriage-1800-kosinar-dortschen"
   ]
  }
 }
