@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 55,
- "images": 70,
+ "count": 57,
+ "images": 72,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1569,6 +1569,76 @@
    "captured": "11 October 2026",
    "note": "notes/reading-2026-09-10.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md"
+  },
+  {
+   "id": "karlobag-baptism-1810-matia-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1810-matia-uroda-page.jpg",
+   "title": "Karlobag, 23 April 1810 — Mathia Georgia, daughter of Georgius and Maria Uroda (godparents Jacobus Blazevich and Maria, wife of Joannes Uroda)",
+   "film": "Karlobag births (Rođeni) 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 19, right-hand page, headed «Anno Domini 1810» (book page 10): the entry in the margin «23. [April]», the row directly below the 15 April entry (the one beginning «Vincentiam Mariam…») and directly above the «24» entry",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G9V8",
+   "says": "«Mathiam Georgiam hodie natam a Georgio et Maria Uroda conjugibus hujus Parochiae baptizavi. Patrini fuerunt Jacobus Blazevich et Maria conjux Joannis Uroda». Ahnentafel 27's baptism: parents ahnentafel 54 and 55. The godfather is a Blazevich of Karlobag. Latin cursive read at about 1.5x; the left page of this image is headed 1809.",
+   "slugs": [
+    "matia-mathiam-georgiam-uroda",
+    "georgius-juraj-joannis-papa-antic-papic",
+    "mariam-gerkacs-gergacs"
+   ],
+   "people": [
+    {
+     "slug": "matia-mathiam-georgiam-uroda",
+     "kind": "people",
+     "name": "Matia (Mathiam Georgiam) Uroda"
+    },
+    {
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "kind": "people",
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić"
+    },
+    {
+     "slug": "mariam-gerkacs-gergacs",
+     "kind": "people",
+     "name": "Mariam Gerkacs (Gergacs)"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1810-uroda.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1810-uroda.md"
+  },
+  {
+   "id": "karlobag-baptism-1838-matia-pilipic",
+   "entry": "",
+   "page": "karlobag-baptism-1838-matia-pilipic-page.jpg",
+   "title": "Karlobag, 18 September 1838 — Matthea, daughter of the chamber shipmaster Vincentius Pilipich and Mathea Uroda",
+   "film": "Karlobag births (Rođeni) 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 58, left-hand page (book page 88), headed «Anno Domini 1838»: the second entry from the foot, margin «Die 18 Septemb.», just above «Die 20 Septemb.»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G9BN",
+   "says": "«Cooperator Carolus Perzevich baptizavit Mattheam filiam legitimam cammeralis nautae Vincentii Pilipich et Matheae Uroda conjugum hujus civitatis. Patrini fuerunt Antonius Kuchulian … et Oliva filia dicti Josephi Pilipich mercatoris». Ahnentafel 13's baptism, naming her parents (ahnentafel 26 and 27). The line is dense Latin at about 1.5x; the title cammeralis nauta (chamber seaman) is read here from the left-page line the working note transcribes.",
+   "slugs": [
+    "matia-matthea-pilipic",
+    "vicentius-andreas-vincent-pilipic",
+    "matia-mathiam-georgiam-uroda"
+   ],
+   "people": [
+    {
+     "slug": "matia-matthea-pilipic",
+     "kind": "people",
+     "name": "Matia / Matthea \"Matija\" Pilipić"
+    },
+    {
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "kind": "people",
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić"
+    },
+    {
+     "slug": "matia-mathiam-georgiam-uroda",
+     "kind": "people",
+     "name": "Matia (Mathiam Georgiam) Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1838-pilipic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md"
   }
  ],
  "bySlug": {
@@ -1695,7 +1765,8 @@
    "karlobag-baptism-1777-uroda"
   ],
   "mariam-gerkacs-gergacs": [
-   "karlobag-death-1834-maria-uroda"
+   "karlobag-death-1834-maria-uroda",
+   "karlobag-baptism-1810-matia-uroda"
   ],
   "joannis-georgius-georgio-uroda": [
    "karlobag-death-1834-maria-uroda",
@@ -1723,11 +1794,13 @@
   "georgius-juraj-joannis-papa-antic-papic": [
    "senj-marriage-1885-papic-perpic",
    "selce-baptism-1838-gregorius-antic",
-   "senj-baptism-1857-josip-papic"
+   "senj-baptism-1857-josip-papic",
+   "karlobag-baptism-1810-matia-uroda"
   ],
   "matia-matthea-pilipic": [
    "senj-marriage-1885-papic-perpic",
-   "senj-baptism-1857-josip-papic"
+   "senj-baptism-1857-josip-papic",
+   "karlobag-baptism-1838-matia-pilipic"
   ],
   "martin-martinus-kosina": [
    "senj-marriage-1888-kozina-boras",
@@ -1754,11 +1827,14 @@
    "senj-marriage-1919-kosina-blazevic"
   ],
   "matia-mathiam-georgiam-uroda": [
-   "senj-death-1886-matija-pilipic"
+   "senj-death-1886-matija-pilipic",
+   "karlobag-baptism-1810-matia-uroda",
+   "karlobag-baptism-1838-matia-pilipic"
   ],
   "vicentius-andreas-vincent-pilipic": [
    "senj-death-1886-matija-pilipic",
-   "senj-death-1897-vicko-pilipic"
+   "senj-death-1897-vicko-pilipic",
+   "karlobag-baptism-1838-matia-pilipic"
   ],
   "toma-tomislav-blazevic": [
    "senj-death-1907-toma-blazevic"

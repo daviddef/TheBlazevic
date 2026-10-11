@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 105
+  "yield": 106
  },
  "read": [
   {
@@ -3895,7 +3895,7 @@
    "what": "The deaths of ahnentafel 48 (1829), 24 (1850, cholera) and 25 (1882)",
    "when": "11 October 2026",
    "outcome": "yield",
-   "pages": "18, 54 right, 111 left",
+   "pages": "18, 54 right, 111 left, 17, 19 (looked at)",
    "tags": [
     "antic",
     "jellicic",
@@ -3904,7 +3904,7 @@
     "umrli"
    ],
    "got": "Three pages kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1829-joannes-antic). Map for this film (`9R2D-N32`, 117 images): image 18 = March 1829, 19 = 1829–30, 54 = October 1850 (the cholera page), 111 = Feb–July 1882. Images are single pages or two-page spreads, so check before counting pages.",
-   "missed": "Margarita Lončarić's death of 15 July 1829 was not found on images 18–19 (19's right page is 1830); the 1850 house number is not re-read."
+   "missed": "Margarita Lončarić's death of 15 July 1829 was looked for again on images 17 (Jan–Feb 1829), 18 (Mar–Jun) and 19 (Sep–Oct): the July–August 1829 leaf did not turn up between 18 and 19 and is probably one image the map counts differently; not found, not claimed. The 1850 house number is not re-read."
   },
   {
    "src": "FamilySearch — Selce births (Rođeni) 1778–1861 (waypoint 9R2M-BZF), images 47, 57, 186: the baptisms of 1806, 1809 and 1838, re-photographed for the snapshot register",
@@ -3963,6 +3963,25 @@
    ],
    "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#senj-baptism-1857-josip-papic). Map for Senj births 1756–1858 (`9R2M-L27`, 589 images): 562 = Feb 1857, 570 = Aug–Sep 1857, 571 R = 1 Nov 1857, 572 = 4–22 Nov and Dec 1857, 574 = Feb 1858, 581 = Oct 1858. Also in this volume: the Senj Latin entries are numbered per year and carry the baptising priest and godparents.",
    "missed": "The godmother's name in the entry is not read."
+  },
+  {
+   "src": "FamilySearch — Karlobag births (Rođeni) 1804–1861 (DGS 5481649, waypoint 9RK1-HZK), image 19: Mathia Uroda's baptism, 23 April 1810, re-photographed for the snapshot register",
+   "key": "fs/karlobag-births-1810-matia-uroda-snapshot",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G9V8",
+   "waypoint": "9RK1-HZK",
+   "what": "The baptism of ahnentafel 27 (it had been read from a MyHeritage scan)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "12, 16, 18, 19, 20, 56, 58, 59, 60 (map points); entries on 19 right and 58 left",
+   "tags": [
+    "uroda",
+    "pilipic",
+    "karlobag",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1810-matia-uroda). Map for Karlobag births 1804–1861 in this film (`9RK1-HZK`, same 435 images as the marriage books): image 12 = 1805, 16 = 1808, 18 = 1809, 19 = 1809 L / 1810 R, 20 = 1810–11. Godfather Jacobus Blazevich. The 18 September 1838 baptism (ahnentafel 13) is on image 58 left, kept as [a snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1838-matia-pilipic); image 59 = Sept 1839–1840, 60 = 1840–41.",
+   "missed": "Only the two entries were captured."
   }
  ]
 }

@@ -42,3 +42,7 @@ in 1810. The Blaževići of this archive are a Krmpote family two hundred
 kilometres north, and Blažević is among the commonest surnames in Croatia.
 **No connection is claimed**; it is recorded because the name is one of this
 archive's own and someone will otherwise notice it and wonder.
+
+## The page itself (snapshots)
+
+[karlobag-baptism-1810-matia-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1810-matia-uroda) — the entry from the FamilySearch image (19 of the Karlobag film); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

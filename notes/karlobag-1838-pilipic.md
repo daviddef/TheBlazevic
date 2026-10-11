@@ -61,3 +61,7 @@ That is worth fixing rather than remembering: `tools/coverage.py` decides the
 state from the data alone and has no way to learn that a page or a note has read
 a document. Until it can, **the number on `/coverage` overstates how much is
 unread.**
+
+## The page itself (snapshots)
+
+[karlobag-baptism-1838-matia-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1838-matia-pilipic) — the entry from the FamilySearch image (58, left page, of the Karlobag film); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
