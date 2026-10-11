@@ -74,3 +74,7 @@ Two more were **seen but not confirmed** and are deliberately not in the
 by-names list yet — «*Georgius Saldatich aliter Venesarich*» and «*Catharina
 Polich aliter Antich*», both image 304. They were read at a little over half
 scale, which is not a reading.
+
+## The page itself (snapshots)
+
+[selce-death-1829-joannes-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1829-joannes-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

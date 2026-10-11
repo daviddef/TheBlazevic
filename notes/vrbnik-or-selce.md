@@ -115,3 +115,7 @@ scan is Selce, where the births run **1778–1861**.
   Vrbnik film at this page, the question is closed in one look.
 * The **1835 marriage's *origo* columns**, if that register has them — it is a
   prose entry and may not.
+
+## The page itself (snapshots)
+
+[selce-baptism-1806-josephus-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-baptism-1806-josephus-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

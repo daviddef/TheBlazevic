@@ -111,3 +111,7 @@ and 49** (both 1829) near image **254** — but both 1829 estimates sit well
 outside the measured range and the film changes books more than once, so the page
 heading has to be checked before anything is read. Arks and the rest are in
 `sources/familysearch/film-005497948-selce-deaths.json`.
+
+## The page itself (snapshots)
+
+[selce-death-1882-maria-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1882-maria-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

@@ -69,3 +69,7 @@ of a missing page until the page numbers say so.**
 Image **311**, the same book, 1834: «***Vincentius Jurich, aliter Loveranich***»,
 Selce house 58, died 21 March 1834, aged 55. **Jurić ⟷ Loveranić**, a pair this
 archive did not have — see [the by-names](../site/src/data/bynames.json).
+
+## The page itself (snapshots)
+
+[selce-death-1850-osip-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1850-osip-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

@@ -65,3 +65,7 @@ made from it yesterday in both directions.
 
 The priest is **Michaël Rombol** in 1809 and **Vincentius Rombal** in 1835 and
 1838 — a family of parish priests at Selce across at least a generation.
+
+## The page itself (snapshots)
+
+[selce-baptism-1809-maria-jellicic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-baptism-1809-maria-jellicic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

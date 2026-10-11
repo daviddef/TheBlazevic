@@ -64,3 +64,7 @@ chain, and it is the step this archive said it was missing:
 
 Five documents, four of them now read at full resolution, and the by-name
 travels the whole way.
+
+## The page itself (snapshots)
+
+[selce-baptism-1838-gregorius-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-baptism-1838-gregorius-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

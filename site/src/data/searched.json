@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 101
+  "yield": 105
  },
  "read": [
   {
@@ -3886,6 +3886,83 @@
    ],
    "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#kranj-baptism-1814-gertraud-kosinar). Page map for sig. 00885: viewer pg 15 = March–April 1814, pg 29 = August–September 1816.",
    "missed": "The right-hand page (godparents, priest) is not legible at the reduced size."
+  },
+  {
+   "src": "FamilySearch — Selce deaths (Umrli) 1816–1886 (waypoint 9R2D-N32), images 18, 54, 111: Antić 1829, 1850 and Jeličić/Antić 1882, re-photographed for the snapshot register",
+   "key": "fs/selce-deaths-1816-86-antic-snapshots",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QQL",
+   "waypoint": "9R2D-N32",
+   "what": "The deaths of ahnentafel 48 (1829), 24 (1850, cholera) and 25 (1882)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "18, 54 right, 111 left",
+   "tags": [
+    "antic",
+    "jellicic",
+    "selce",
+    "familysearch",
+    "umrli"
+   ],
+   "got": "Three pages kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1829-joannes-antic). Map for this film (`9R2D-N32`, 117 images): image 18 = March 1829, 19 = 1829–30, 54 = October 1850 (the cholera page), 111 = Feb–July 1882. Images are single pages or two-page spreads, so check before counting pages.",
+   "missed": "Margarita Lončarić's death of 15 July 1829 was not found on images 18–19 (19's right page is 1830); the 1850 house number is not re-read."
+  },
+  {
+   "src": "FamilySearch — Selce births (Rođeni) 1778–1861 (waypoint 9R2M-BZF), images 47, 57, 186: the baptisms of 1806, 1809 and 1838, re-photographed for the snapshot register",
+   "key": "fs/selce-births-1806-1838-antic-snapshots",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-596J-2",
+   "waypoint": "9R2M-BZF",
+   "what": "The baptisms of ahnentafel 24 (1806), 25 (1809) and 12 (1838)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "47 left, 57 left, 186 right",
+   "tags": [
+    "antic",
+    "jellicic",
+    "selce",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "Three pages kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#selce-baptism-1806-josephus-antic). Map for the births film (`9R2M-BZF`, 294 images): image 47 = Jan–Apr 1806, 52 R = March 1808, 56 R = Jan–Mar 1809, 57 L = 22–29 March 1809, 58 = Sept–Oct 1809, 60 = 1810, 62 = Feb–Apr 1811, 186 R = March 1838.",
+   "missed": "Entries read from the page images at about 1.5x; the right-hand page of 47 (a VRBNIK-labelled note) was looked at, not transcribed."
+  },
+  {
+   "src": "FamilySearch — Selce marriages (Vjenčani) 1815–1878 (waypoint 9R2D-N35), image 26: the marriage of ahnentafel 24 × 25, 22 November 1835, re-photographed for the snapshot register",
+   "key": "fs/selce-marriages-1835-antic-jellicic-snapshot",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1Q7H",
+   "waypoint": "9R2D-N35",
+   "what": "The marriage of Josephus Antich Papa and Maria Jellicich (it had been read from a MyHeritage scan)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "26 (both pages)",
+   "tags": [
+    "antic",
+    "jellicic",
+    "selce",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#selce-marriage-1835-antic-jellicic): entry 81 of 1835, domus 51. Map for the Selce marriages 1815–1878 (`9R2D-N35`, 66 images): image 12 = November 1823, 20 = 1831, 24 = 1834, 26 = July–November 1835, 28 = 1837.",
+   "missed": "Years inferred from the page headers at about 1x; the witness names were not re-read."
+  },
+  {
+   "src": "FamilySearch — Senj births (Rođeni) 1756–1858 (waypoint 9R2M-L27), image 571: the baptism of ahnentafel 6, 1 November 1857, re-photographed for the snapshot register",
+   "key": "fs/senj-births-1857-josip-papic-snapshot",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-5TBF",
+   "waypoint": "9R2M-L27",
+   "what": "Josip Papić's baptism (Joannis Papa × Mathiae Pilipić)",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "562, 570, 571, 572, 574, 581 (map points), 571 right (the entry)",
+   "tags": [
+    "papic",
+    "antic",
+    "pilipic",
+    "senj",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "Kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#senj-baptism-1857-josip-papic). Map for Senj births 1756–1858 (`9R2M-L27`, 589 images): 562 = Feb 1857, 570 = Aug–Sep 1857, 571 R = 1 Nov 1857, 572 = 4–22 Nov and Dec 1857, 574 = Feb 1858, 581 = Oct 1858. Also in this volume: the Senj Latin entries are numbered per year and carry the baptising priest and godparents.",
+   "missed": "The godmother's name in the entry is not read."
   }
  ]
 }
