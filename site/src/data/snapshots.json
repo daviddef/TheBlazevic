@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 65,
- "images": 80,
+ "count": 67,
+ "images": 82,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1825,8 +1825,8 @@
    "page": "",
    "title": "Karlobag, 11 August 1745 — a daughter (Marta Franceskina, as read) of Dume Uroda and Jerolina",
    "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
-   "where": "image 100, left-hand page (book page 178): the entry «Na 11 Agusta 1745», about two-thirds of the way down. NOTE: the link below opens image 111 of the same volume (its ark was the one I kept); go to image 100 with the viewer's image box",
-   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+   "where": "image 100, left-hand page (book page 178): the entry «Na 11 Agusta 1745», about two-thirds of the way down.",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SG-2",
    "says": "«Na 11 Agusta 1745. Ja Pop Osip Xurich kersti cher Dume urode i xene Jerolime imenom Marta Franceskina [read at one zoom]. Bi kum Don Josep iz Kontra a kuma Lucia xena Uvje Xurica». The only baptism found of a child of Dume Uroda; it names his wife as Jerolina. Croatian text, read at about 3x; the child's second name is uncertain.",
    "slugs": [
     "dominicus-uroda"
@@ -1836,6 +1836,58 @@
      "slug": "dominicus-uroda",
      "kind": "found",
      "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1744-05-son-of-dume-uroda",
+   "entry": "karlobag-baptism-1744-05-son-of-dume-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 10 May 1744 — a son of Dume Uroda and Jerolime (name read as «Gratiova», uncertain)",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 96, left-hand page (book page 170): the entry «Na 10 Maia 1744», at the foot of the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S6-W",
+   "says": "«Na 10 Maia 1744. Korstih sina Dume urode i njegove [že]ne Jerolime imenom [Gratiova?]. Bi kum Dno Antonio Alfier [?] Johetoni [?] Gnor … a kuma Gospodjena Mi[…] Agnerin neputa …». Baptism of a SON of Dume Uroda and Jerolima; the child's name is not read with confidence. Croatian text, about 3x; the godparents' names are a poor reading.",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1742-son-of-dume-uroda",
+   "entry": "karlobag-baptism-1742-son-of-dume-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, mid-1742 — a son of Dume Uroda and his wife, the name read as «… Juria» (possibly Jurja/Georgius; not secure)",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 91, right-hand page (book page 161, «Na … Maja 1742» at its head): the last entry on the page, «Na 4 [month, read Ajmilo/Aprila?] 1742»; the month word is unclear, and it follows the entries of 3 and 4 June 1742, so it is probably a later 4th (July?)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9S5-D",
+   "says": "«Na 4: [month?] 1742. Korstih sina Dume urode i njegove xene [Jerolime?] imenom [Cvidora?] Juria. Bi kum Milo Bulinc(?) a kuma Marija xena Martina Vorbanovića». The child is a SON of Dume Uroda; the given name is two words, the second read as «Juria»/«Furia». Read at the page's full resolution; the first word of the name and the month are not read with confidence.",
+   "slugs": [
+    "dominicus-uroda",
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    },
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1971,7 +2023,8 @@
    "karlobag-baptism-1751-04-jerolima-uroda",
    "karlobag-baptism-1752-03-12-jure-uroda",
    "karlobag-baptism-1752-03-21-dume-uroda",
-   "karlobag-baptism-1752-04-03-jure-uroda"
+   "karlobag-baptism-1752-04-03-jure-uroda",
+   "karlobag-baptism-1742-son-of-dume-uroda"
   ],
   "mariam-gerkacs-gergacs": [
    "karlobag-death-1834-maria-uroda",
@@ -2103,7 +2156,9 @@
   ],
   "dominicus-uroda": [
    "karlobag-baptism-1764-dominicus-uroda",
-   "karlobag-baptism-1745-08-marta-uroda"
+   "karlobag-baptism-1745-08-marta-uroda",
+   "karlobag-baptism-1744-05-son-of-dume-uroda",
+   "karlobag-baptism-1742-son-of-dume-uroda"
   ]
  }
 }
