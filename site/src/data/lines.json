@@ -20,7 +20,7 @@
       [
        "1st child",
        "6 May 1764",
-       "Dominicus, their first child, baptised (his name is the argument that Georgius's father was a Dominicus)"
+       "Joannes Dominicus, their first child, baptised — godfather ANTONIO BARACH «OF ŠIBENIK» and Vincentia, wife of Joannes Margvart (re-read at 3x, 11 October 2026); the name Dominicus is the argument that Georgius's father was a Dominicus"
       ],
       [
        "8 children",
@@ -58,6 +58,11 @@
        "Brother Joannes?",
        "/karlobag",
        "Joannes, the 1784 child, married Maria Barletich in 1806; a Joannes Uroda × Maria baptise at Karlobag in 1810–11. Probably the same couple, not proved"
+      ],
+      [
+       "Šibenik?",
+       "/snapshots/#karlobag-baptism-1764-dominicus-uroda",
+       "His first child's godfather, Antonio Barach, is «of Šibenik» — a thread to the Dalmatian town, not a descent"
       ]
      ]
     },
@@ -65,7 +70,7 @@
      "key": "dume",
      "colour": "#b07a2a",
      "label": "Karlobag — Dume Uroda «alias Kovaca» × Eva, then Jerolina",
-     "conf": "DOCUMENTED 1733–1750 · HIS BAPTISM, PARENTS AND BOTH MARRIAGES NOT FOUND · THE BY-NAME KOVAČ POINTS AT THE KOVAČEVIĆ OF KARLOBAG · LINK TO GEORGIUS NOT PROVED",
+     "conf": "DOCUMENTED 1733–1750 · BAPTISM, PARENTS, MARRIAGES NOT FOUND · BY-NAME KOVAČ · LINK TO GEORGIUS NOT PROVED",
      "read": "The Dume Uroda reading →",
      "href": "/karlobag",
      "nodes": [
@@ -220,21 +225,21 @@
      "from": "sibenik",
      "to": "dume",
      "conf": "inferred",
-     "label": "same name, Šibenik — father or namesake?",
+     "label": "father or namesake?",
      "href": "/lines/#dume"
     },
     {
      "from": "dume",
      "to": "georgius",
      "conf": "inferred",
-     "label": "the 1742 son and Georgius?",
+     "label": "the 1742 son?",
      "href": "/lines/#dume"
     },
     {
      "from": "sibenik",
      "to": "drnis",
      "conf": "lore",
-     "label": "same district only",
+     "label": "same district",
      "href": "/lines/#drnis"
     }
    ],
@@ -366,7 +371,517 @@
      ]
     ],
     "betina": []
-   }
+   },
+   "slug": "uroda",
+   "eyebrow": "Uroda — six groups, one surname",
+   "note": "<strong>One spelling is not a search.</strong> The registers write <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index reads one Karlobag father as <em>Sime</em>, spells Dume's children <em>Urode</em> (so a search for <em>Uroda</em> misses them), and reads one Drniš father four ways (<em>Janpao, Ganpas, Pompio, Tomaso</em>) where the pages say <em>Pampao</em> and <em>Pompeo</em>. At Karlobag in 1734 a priest writes <strong>«Dume urode alliti Kovaca»</strong> — a by-name, a smith's — and before the 1730s the book has <em>no</em> Uroda at all, so a baptism of the man himself would sit under another surname. See <a href=\"{{base}}/by-names/\">The Second Name</a>.",
+   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804 and not in the index under any «Urod*» spelling; perhaps Šibenik), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik and Betina baptisms themselves</strong>."
+  },
+  {
+   "slug": "smojver",
+   "name": "Smojver",
+   "eyebrow": "Smojver — Karlobag and Cesarica",
+   "dek": "At Karlobag the name is written in two ways, with and without the by-name «Vukić», and a second large body of the exact spelling sits at Cesarica. Only the Vukić line is ours; the others are drawn apart until a register joins them.",
+   "lanes": [
+    {
+     "key": "vukic",
+     "colour": "#2f7f8c",
+     "label": "Karlobag — Smojver called «Vukić» (ours)",
+     "conf": "DOCUMENTED 1754–1798 · THE FATHER'S BAPTISM (1731) NOT YET READ",
+     "read": "The Smojver pages →",
+     "href": "/snapshots/#karlobag-marriage-1774",
+     "nodes": [
+      [
+       "Josiph",
+       "1731",
+       "Josiph Smojver, called Vukić, born (the tree's year; his baptism is on the Karlobag films and not yet read)"
+      ],
+      [
+       "Vicentius",
+       "18 Jan 1754",
+       "Vicentius Fabianus Smojver Vukić born — ahnentafel 106"
+      ],
+      [
+       "Marriage",
+       "2 May 1774",
+       "Vincentius Smojver «Vukich» marries Oliva, daughter of the late Caetanus Bacchi (ahnentafel 106 × 107)"
+      ],
+      [
+       "Death",
+       "16 May 1776",
+       "Josephus Smojver, called Vukcich, dies aged 45 — ahnentafel 212"
+      ],
+      [
+       "Oliva Maria",
+       "Mar 1781",
+       "Oliva Maria baptised, daughter of Vincentius Smojver «Vukich» and Oliva — ahnentafel 53"
+      ],
+      [
+       "Marriage",
+       "14 Feb 1798",
+       "Josephus Pilepich, widower, marries Maria, daughter of Vincentius — probably Oliva Maria"
+      ]
+     ],
+     "ends": [
+      [
+       "Pilipić, Vicko b. 1805",
+       "/direct-line",
+       "Oliva Maria (53) → Vicko Pilipić (26) → Matia (13) → Josip Papić (6) → Milka → Hedviga"
+      ]
+     ]
+    },
+    {
+     "key": "paulus",
+     "colour": "#b07a2a",
+     "label": "Karlobag — Paulus Smojver × Ursula (no «Vukić» written)",
+     "conf": "DOCUMENTED IN TWO ENTRIES, 1763 AND 1780 · THE HOUSEHOLD NOT FOLLOWED",
+     "read": "The 1763 baptism →",
+     "href": "/snapshots/#karlobag-baptism-1763-smojver-uroda-godparents",
+     "nodes": [
+      [
+       "Carolus",
+       "2 Nov 1763",
+       "Carolus baptised, son of Paulus and Ursula Smojver; Georgius and Maria Uroda are the godparents"
+      ],
+      [
+       "Vitus",
+       "17 May 1780",
+       "Vitus baptised, son of Paulo and Barbara Smojver, «hujus Civitatis» — Paulus again, with a wife Barbara where 1763 has Ursula"
+      ]
+     ],
+     "ends": [
+      [
+       "Same house as the Vukić?",
+       "/snapshots/#karlobag-baptism-1780-05-vitus-smojver",
+       "Neither entry writes «Vukić»; whether Paulus belongs to that house is not shown"
+      ]
+     ]
+    },
+    {
+     "key": "cesarica",
+     "colour": "#4f8a5b",
+     "label": "Cesarica — Smojver, 1810–1858 (index only)",
+     "conf": "INDEX ONLY · 138 LINES UNDER THE EXACT SPELLING · NOT OPENED · NO TIE TO KARLOBAG SHOWN",
+     "read": "Where it was found →",
+     "href": "/searched/",
+     "nodes": [
+      [
+       "Cesarica",
+       "1810",
+       "The earliest of 138 index lines at Cesarica under the exact spelling «Smojver»"
+      ],
+      [
+       "Cesarica",
+       "1858",
+       "The latest — the index runs to 1858 there"
+      ]
+     ],
+     "ends": [
+      [
+       "Cesarica",
+       "/searched/",
+       "A village a short way up the coast from Karlobag; the same name, in the same district"
+      ]
+     ]
+    }
+   ],
+   "bridges": [
+    {
+     "from": "vukic",
+     "to": "paulus",
+     "conf": "inferred",
+     "label": "same house?",
+     "href": "/lines/#smojver"
+    },
+    {
+     "from": "paulus",
+     "to": "cesarica",
+     "conf": "lore",
+     "label": "same name, same district",
+     "href": "/lines/#smojver"
+    }
+   ],
+   "unplaced": [
+    [
+     "Smojver at Vitipolis, Jablanac, Fiume and Senj, 1845–1906",
+     "/searched/",
+     "Forty-odd index lines in later decades, all after 1845: households that moved, probably out of the Karlobag–Cesarica stock, but not shown to"
+    ]
+   ],
+   "loose": [],
+   "sources": {
+    "vukic": [
+     [
+      "Marriage 1774",
+      "karlobag-marriage-1774"
+     ],
+     [
+      "Death 1776",
+      "karlobag-death-1776-smojver"
+     ],
+     [
+      "Oliva Maria 1781",
+      "karlobag-baptism-1781-oliva-smojver"
+     ],
+     [
+      "Marriage 1798",
+      "karlobag-marriage-1798"
+     ]
+    ],
+    "paulus": [
+     [
+      "Godparents 1763",
+      "karlobag-baptism-1763-smojver-uroda-godparents"
+     ],
+     [
+      "Vitus 1780",
+      "karlobag-baptism-1780-05-vitus-smojver"
+     ]
+    ],
+    "cesarica": []
+   },
+   "note": "<strong>Why two lanes at Karlobag.</strong> The tree's Smojver are called <em>Vukić</em> in the marriage of 1774 and the baptism of 1781 («Smojver Vukich»), and the 1776 death says <em>«called Vukcich»</em>. The Paulus Smojver who baptises in 1763 is written without it. A by-name marks which house of a surname is meant (see <a href=\"{{base}}/by-names/\">The Second Name</a>), so the two are kept apart until something says Paulus is a Vukić too.",
+   "owes": "For Smojver that is: <strong>Josiph's baptism of 1731</strong>, <strong>whether Paulus is a Vukić</strong>, and <strong>whether the Cesarica Smojver came from Karlobag or the other way</strong> (the Cesarica index lines begin in 1810 and the Karlobag ones in 1768, which may only mean that Cesarica's books are indexed from 1810)."
+  },
+  {
+   "slug": "pilipic",
+   "name": "Pilipić",
+   "eyebrow": "Pilipić — Karlobag, Vitipolis, Rijeka",
+   "dek": "The name is written Pilepich, Pilipich and Pilipić, and the index has it by the thousand in the Rijeka–Kastav area and at «Vitipolis». Only the Karlobag line of Jacobus, captain of the port, is ours.",
+   "lanes": [
+    {
+     "key": "karlobag",
+     "colour": "#2f7f8c",
+     "label": "Karlobag — Jacobus Pilepich, captain of the port (ours)",
+     "conf": "DOCUMENTED FROM 1747 · THE FATHER OF JACOBUS NOT FOUND",
+     "read": "The Karlobag pages →",
+     "href": "/karlobag",
+     "nodes": [
+      [
+       "Marriage",
+       "22 Nov 1747",
+       "Jakov Pilepich marries Katta, daughter of the late Vicko Luckinich"
+      ],
+      [
+       "Josephus",
+       "11 Mar 1768",
+       "Josephus born — ahnentafel 52"
+      ],
+      [
+       "Jacobus d.",
+       "10 Apr 1778",
+       "Jacobus Pilepich, captain of the port, buried in his own crypt — ahnentafel 104"
+      ],
+      [
+       "Catherina d.",
+       "29 May 1790",
+       "Catharina, aged 70, widow of the late Jacob Pilepich — ahnentafel 105"
+      ],
+      [
+       "Marriage",
+       "14 Feb 1798",
+       "Josephus Pilepich, widower, marries Maria, daughter of Vincentius (probably Oliva Maria Smojver)"
+      ],
+      [
+       "Josephus d.",
+       "28 Jun 1828",
+       "Josephus Pilepich dies, aged 61"
+      ],
+      [
+       "Matia",
+       "18 Sep 1838",
+       "Matthea baptised, daughter of the chamber shipmaster Vincentius Pilipich and Mathea Uroda — ahnentafel 13"
+      ]
+     ],
+     "ends": [
+      [
+       "Senj",
+       "/direct-line",
+       "Vicko Pilepić (26) dies at Senj in 1897, a retired financial guard; his daughter's line is Papić"
+      ]
+     ]
+    }
+   ],
+   "bridges": [],
+   "unplaced": [
+    [
+     "Pilepich at Vitipolis, 1737–1892 (107 index lines under this spelling)",
+     "/searched/",
+     "The largest body of the name in the index; not opened, no tie to Karlobag shown"
+    ],
+    [
+     "Pilepich/Pilipich at Rijeka (Fiume) and Kastav, 1626–1898",
+     "/searched/",
+     "Over a hundred lines at Fiume and fifty at Kastav; the name is old here (1620s) — an older stock than the Karlobag one"
+    ],
+    [
+     "Pilipich at Perušić (1747–1800) and Pakrac (1799–1815)",
+     "/searched/",
+     "Lika and Slavonia households; nothing links them to the Karlobag captain"
+    ],
+    [
+     "Pilipich at Senj, 1821–1838",
+     "/searched/",
+     "Eighteen lines at Senj before Vicko Pilepić arrives there"
+    ]
+   ],
+   "loose": [],
+   "sources": {
+    "karlobag": [
+     [
+      "Marriage 1747",
+      "karlobag-marriage-1747"
+     ],
+     [
+      "Death 1778",
+      "karlobag-death-1778-pilepich"
+     ],
+     [
+      "Death 1790",
+      "karlobag-death-1790-luckinic"
+     ],
+     [
+      "Marriage 1798",
+      "karlobag-marriage-1798"
+     ],
+     [
+      "Death 1828",
+      "karlobag-death-1828-pilepich"
+     ],
+     [
+      "Matia 1838",
+      "karlobag-baptism-1838-matia-pilipic"
+     ],
+     [
+      "Vicko 1897",
+      "senj-death-1897-vicko-pilipic"
+     ]
+    ]
+   },
+   "note": "<strong>Why only one lane.</strong> The index has well over a thousand lines of the name, but every cluster outside Karlobag is a body of index lines, not a family anyone has followed. They are listed below the figure as <em>not yet on any lane</em> rather than drawn as families: a lane is a household the registers show, and these have not been shown.",
+   "owes": "For Pilipić that is: <strong>the father of Jacobus</strong> (his age is not known and his baptism is in no Karlobag book read so far), and <strong>a second family of the name at Karlobag</strong> before anyone is called a stranger to it."
+  },
+  {
+   "slug": "bacchi",
+   "name": "Bacchi",
+   "eyebrow": "Bacchi — Karlobag, Pag, Drniš",
+   "dek": "A rare name, and the one with the best lead on this site: a Caietanus Bachi baptised at Pag in 1728, the son of a patrician, who may be the Caetanus who married at Karlobag in 1753.",
+   "lanes": [
+    {
+     "key": "karlobag",
+     "colour": "#2f7f8c",
+     "label": "Karlobag — Caetanus Bachi × Anna Lukatelli (ours)",
+     "conf": "DOCUMENTED 1753–1774 · HIS ORIGIN NOT NAMED IN ANY KARLOBAG ENTRY",
+     "read": "The Bacchi reading →",
+     "href": "/snapshots/#karlobag-marriage-1753",
+     "nodes": [
+      [
+       "Marriage",
+       "4 Feb 1753",
+       "Caetanus Bachi marries Anna, daughter of the late Alexius Lukatelli"
+      ],
+      [
+       "Sponsors",
+       "18 Mar 1753",
+       "«Caietan Bachi» and his wife Anna stand sponsors"
+      ],
+      [
+       "Silvester",
+       "Jan 1754",
+       "A son, Silvester, baptised"
+      ],
+      [
+       "Widow",
+       "20 Oct 1760",
+       "Anna, widow of Caetanus Bachi, marries Paulus Perpich — he is dead by then"
+      ],
+      [
+       "Oliva",
+       "2 May 1774",
+       "Oliva, daughter of the late Caetanus Bacchi, marries Vincentius Smojver «Vukich» — ahnentafel 107"
+      ]
+     ],
+     "ends": [
+      [
+       "Smojver Vukić",
+       "/lines/#smojver",
+       "Oliva (107) → Oliva Maria Smojver (53) → the Pilipić line"
+      ]
+     ]
+    },
+    {
+     "key": "pag",
+     "colour": "#b07a2a",
+     "label": "Pag — Dno Angelo Bachi, patrician",
+     "conf": "DOCUMENTED ON THE PAGE FOR 1728 · THE OTHER PAG ENTRIES INDEX ONLY",
+     "read": "The 1728 baptism →",
+     "href": "/snapshots/#pag-baptism-1728-caietanus-bachi",
+     "nodes": [
+      [
+       "Anna Maria",
+       "21 Jul 1725",
+       "Anna Maria baptised, daughter of Angelo Bachi and Oliva (index)"
+      ],
+      [
+       "Caietanus",
+       "14 Mar 1728",
+       "Caietanus Antonius Gregorius baptised, son of Dno Angelo Bachi, Patricio, and Dna Oliva — read from the page"
+      ],
+      [
+       "Oliva d.",
+       "9 Dec 1730",
+       "Oliva, wife of Angelo Bachi, buried (index); Angelo has Maria Elisabet 1732, Giones Antonius 1735 and Francisca 1737 by Hijeronima"
+      ],
+      [
+       "Antonius",
+       "1764–1778",
+       "Anto/Antonius Bachi × Cecilia baptise Hieronyma 1766, Angelus 1768, Joannes Andreas 1774; Antonius buried 1778 (index)"
+      ]
+     ],
+     "ends": [
+      [
+       "Caetanus of Karlobag?",
+       "/snapshots/#pag-baptism-1728-caietanus-bachi",
+       "Same rare given name, the right age (24 in 1753) and a Karlobag daughter called OLIVA like the Pag mother — but no Karlobag entry names his father or his birthplace"
+      ]
+     ]
+    },
+    {
+     "key": "angelo",
+     "colour": "#4a6fa5",
+     "label": "Karlobag — Angelo Bachi × Catharina (1779)",
+     "conf": "DOCUMENTED IN ONE ENTRY · THE TREE'S ANGELO COMES FROM HERE ONLY · NOT SHOWN TO BE RELATED TO CAETANUS",
+     "read": "The 1779 baptism →",
+     "href": "/snapshots/#karlobag-baptism-1779-01-caetanus-antonius-bacchi",
+     "nodes": [
+      [
+       "Caetanus A.",
+       "12 Jan 1779",
+       "Caetanus Antonius baptised, son of Angelo and Catharina Bachi — godparents the Captain Joannes Jankovich and Maria, wife of Dno Georgius Uroda"
+      ]
+     ],
+     "ends": [
+      [
+       "Named for the Pag Caietanus?",
+       "/snapshots/#pag-baptism-1728-caietanus-bachi",
+       "Caetanus Antonius is the Pag child's name of 1728 almost exactly; a family naming a boy after a dead uncle or father would do that — a question, not a finding"
+      ]
+     ]
+    },
+    {
+     "key": "drnis",
+     "colour": "#4f8a5b",
+     "label": "Drniš — Mariana Bachi, wife of Caporal Pompeo Uroda",
+     "conf": "DOCUMENTED ON THE PAGES, 1770–1780 · SHE IS A SOLDIER'S WIFE",
+     "read": "The Drniš pages →",
+     "href": "/snapshots/#drnis-baptism-1770-josepha-uroda",
+     "nodes": [
+      [
+       "Josepha",
+       "13 Mar 1770",
+       "Mariana Bachi and Pampao Uroda, «Militum», baptise Josepha"
+      ],
+      [
+       "Julia",
+       "26 Aug 1778",
+       "Maria Anna Bachi and Caporal Pompeo Uroda"
+      ],
+      [
+       "Joseph",
+       "23 Oct 1780",
+       "Domina Maria Anna Bauchi and Caporal Pompeo Uroda"
+      ]
+     ],
+     "ends": [
+      [
+       "A Bachi of Pag?",
+       "/lines/#bacchi",
+       "A Dalmatian town and a Dalmatian garrison; the same rare name, nothing more"
+      ]
+     ]
+    }
+   ],
+   "bridges": [
+    {
+     "from": "pag",
+     "to": "karlobag",
+     "conf": "inferred",
+     "label": "1728 = 1753?",
+     "href": "/lines/#bacchi"
+    },
+    {
+     "from": "angelo",
+     "to": "pag",
+     "conf": "lore",
+     "label": "same name again",
+     "href": "/lines/#bacchi"
+    }
+   ],
+   "unplaced": [],
+   "loose": [
+    [
+     "Bachi at Drnje, 1800–1819",
+     "/searched/",
+     "Ten index lines in the Podravina — a different stock of the name, far inland"
+    ],
+    [
+     "Bacchi at Kršan, 1869",
+     "/searched/",
+     "One line, Istria"
+    ]
+   ],
+   "sources": {
+    "karlobag": [
+     [
+      "Marriage 1753",
+      "karlobag-marriage-1753"
+     ],
+     [
+      "Sponsors 1753",
+      "karlobag-births-1753-bacchi-sponsor"
+     ],
+     [
+      "Silvester 1754",
+      "karlobag-births-1754-silvester-bacchi"
+     ],
+     [
+      "Widow 1760",
+      "karlobag-marriage-1760"
+     ],
+     [
+      "Marriage 1774",
+      "karlobag-marriage-1774"
+     ]
+    ],
+    "pag": [
+     [
+      "Caietanus 1728",
+      "pag-baptism-1728-caietanus-bachi"
+     ]
+    ],
+    "drnis": [
+     [
+      "Josepha 1770",
+      "drnis-baptism-1770-josepha-uroda"
+     ],
+     [
+      "Julia Magdalena 1778",
+      "drnis-baptism-1778-julia-magdalena-uroda"
+     ],
+     [
+      "Joseph 1780",
+      "drnis-baptism-1780-joseph-uroda"
+     ]
+    ],
+    "angelo": [
+     [
+      "Caetanus Antonius 1779",
+      "karlobag-baptism-1779-01-caetanus-antonius-bacchi"
+     ]
+    ]
+   },
+   "note": "<strong>What the 1728 page does and does not say.</strong> It names a child <em>Caietanus Antonius ac Gregorius</em>, born 12 March 1728, to <em>Dno Angelo Bachi, Patricio</em> and <em>Dna Oliva</em>, at Pag. On the Karlobag side everything is circumstance — the rare name, the age, a daughter called Oliva like the Pag mother. <strong>And the tree's Angelo (ahnentafel 428) is not evidence:</strong> he and his Catharina come only from a different baptism, of 12 January 1779, of a <em>Caetanus Antonius</em> at Karlobag whose godmother is Maria Uroda — a second Bachi household in the town, which the tree has wrongly welded onto the elder Caetanus. So the Pag baptism is a <strong>candidate, strong and unproved</strong>, and the 1779 household a separate lane.",
+   "owes": "For Bacchi that is: <strong>a Karlobag entry that names Caetanus's father or his town</strong> (the marriage of 1753 does not), <strong>his death before October 1760</strong> (Karlobag's death book begins in 1774, so that is not filmed), and <strong>the Pag baptisms of his siblings</strong> read from the pages, not the index."
   }
  ]
 }

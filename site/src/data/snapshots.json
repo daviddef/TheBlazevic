@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 81,
- "images": 97,
+ "count": 84,
+ "images": 100,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -2227,6 +2227,59 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "pag-baptism-1728-caietanus-bachi",
+   "entry": "pag-baptism-1728-caietanus-bachi-line.png",
+   "page": "",
+   "title": "Pag, 14 March 1728 — Caietanus Antonius Gregorius, son of Dno ANGELO BACHI, patrician, and Dna Oliva — a candidate for the Caetanus Bachi who married at Karlobag in 1753",
+   "film": "Pag baptisms, 1728 (FamilySearch Croatia, Church Books 1516–1994; index record 1:1:XQMM-RTYT)",
+   "where": "right-hand page of the opening, the last entry, headed «Anno Dni 1728 die 14 Martii»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-FKZ2",
+   "says": "«Anno Dni 1728 die 14 Martii. Ego Frater Gregorius … de licentia Rmi D. D. Joannis Franc. Mirovich Archiepi … baptizavi infantem natum die 12 eiusdem [mensis] de legitimo matrimonio procreatum ex Dno Angelo Bachi Patricio, et Dna Oliva Filia Dni Gasparo Lizavola [?] conjugibus. Cui imposui nomen Caietanus Antonius ac Gregorius. Patrini fuerunt Dns Laurentius Cassius [?] Strenuus Miles nomine Illmi ac Excmi Domini Antonij Zane dignissimi Comitis hujus civitatis Pagi, et Dna Lucia …» The father is a PATRICIAN of the island town of Pag, and the child is named CAIETANUS — the rare given name of the Caetanus Bachi who married Anna Lukatelli at Karlobag on 4 February 1753, aged 24 if this is he; a daughter of his at Karlobag is called OLIVA, like the mother here. (The tree's Angelo, ahnentafel 428, comes only from a DIFFERENT Karlobag baptism of 1779 — a Caetanus Antonius, son of Angelo and Catharina — so he is not evidence for this link; see the 1779 snapshot.) NOT PROVED: the Karlobag entries never name his father or birthplace, and the tree's mother is «Catharina». Pag lies a short crossing from Karlobag. The godfather's title and the mother's father's surname are not firm. Read at about 3x.",
+   "slugs": [
+    "caetano-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "caetano-bacchi",
+     "kind": "people",
+     "name": "Caetano Bacchi"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1780-05-vitus-smojver",
+   "entry": "karlobag-baptism-1780-05-vitus-smojver-line.jpg",
+   "page": "",
+   "title": "Karlobag, 17 May 1780 — Vitus, son of Paulo and Barbara Smojver, «hujus Civitatis»; godparents Simon Matthievich and Margarita Damiani Budak",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 214, left-hand page, headed «Anno Dni 1780»: the entry «17 ejusdem», after the 15th and before the 22nd (the month, May, is by its place on the page)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99M-9",
+   "says": "«17 ejusdem. M.R.D. Michaël Martinjazi Baptizavit Filium hodie Natum ex Paulo & Barbara Smojver, Conjugibus hujus Civitatis, cui impositum est nomen Viti. Patrini fuerunt Simon Matthievich & Margarita Damiani Budak.» A Paulus Smojver again at Karlobag, now with a wife Barbara (1763: Ursula) and written without the by-name «Vukić». Read at about 3x.",
+   "slugs": [],
+   "people": [],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1779-01-caetanus-antonius-bacchi",
+   "entry": "karlobag-baptism-1779-01-caetanus-antonius-bacchi-line.png",
+   "page": "",
+   "title": "Karlobag, 12 January 1779 — Caetanus Antonius, son of Angelo and Catharina Bachi; godparents the Captain Joannes Jankovich and Maria, wife of Dno Georgius Uroda",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 210, left-hand page, headed «Anno Dni 1779»: the entry «12 Januarij», the third from the top",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SQ-C",
+   "says": "«12 Januarij. M.R.D. Michael Martinaj Presbyter Curatus Loci Baptizavit infantem hodie natum ex Angelo & Catharina Bachi conjugibus hujatibus, cui impositum est nomen Caetani Antonij. Patrini fuerunt Dnus Capitaneus Joannes Jankovich et Dna Maria uxor Dni Georgij Uroda.» THIS IS THE BAPTISM THE TREE WRONGLY TAKES FOR THE ELDER CAETANUS BACCHI (ahnentafel 214, born 1779 «maybe»): a different, younger Caetanus Antonius, son of ANGELO and CATHARINA — a second Bacchi household at Karlobag in 1779 — and the godmother is MARIA, wife of Dominus Georgius Uroda (ahnentafel 109). Read at about 3x.",
+   "slugs": [],
+   "people": [],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2248,7 +2301,8 @@
    "karlobag-marriage-1760",
    "karlobag-marriage-1753",
    "karlobag-births-1753-bacchi-sponsor",
-   "karlobag-births-1754-silvester-bacchi"
+   "karlobag-births-1754-silvester-bacchi",
+   "pag-baptism-1728-caietanus-bachi"
   ],
   "anna-widow-of-caetanus-bacchi-married-paulus-perpich": [
    "karlobag-marriage-1760"

@@ -12,7 +12,7 @@
   "nothing": 41,
   "partial": 25,
   "pending": 6,
-  "yield": 111
+  "yield": 112
  },
  "read": [
   {
@@ -4130,6 +4130,26 @@
    ],
    "got": "**No marriage of Georgius and Maria** under any «Urod*» spelling. **The index does list Dume's children, under «Urode»:** Franica 1739, Giakova (Jakov) 10 May 1744, Marta 1745, **Lucia 17 December 1746** (new). Dume baptisms of 1690–1716: only three of April 1700 (Cerklyacić, Pavelić, Marasović) and one of 1706 (Sikić), none Uroda or Kovačević.",
    "missed": "The index is partial and spells early names in the dative; absence from it proves nothing about the register."
+  },
+  {
+   "src": "FamilySearch — index of Croatia, Church Books 1516–1994, counted by place through the search interface: Smojver, Pilipić, Gergacs, Luckinić and Bachi/Bacchi",
+   "key": "fs/index-surname-counts-karlobag-mother-side",
+   "url": "https://www.familysearch.org/en/search/record/results?q.surname=Bachi&q.surname.exact=on&f.collectionId=2040054",
+   "what": "Whether each Karlobag mother-side surname has a second family to be told apart from, and where the Bachi came from",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "tags": [
+    "karlobag",
+    "familysearch",
+    "index",
+    "smojver",
+    "pilipic",
+    "bacchi",
+    "gergacs",
+    "luckinic"
+   ],
+   "got": "Exact spellings counted by place. **Smojver** 522: Cesarica 138 (1810–1858), Karlobag 67 (1768–1861). **Pilipich/Pilepich** : Vitipolis 107+42, Fiume 58+8 (from 1632), Kastav 50, Perušić 9, Pakrac 12, Karlobag 37+6 (from 1814). **Gergacs** 25: Karlobag 17. **Luckinich** 12: Karlobag 10. **Bachi** 61: **Pag 12 (1725–1778)**, Karlobag 2, Drniš 2. At Pag: [Caietanus Antonius Gregorius, 14 March 1728, son of Dno Angelo Bachi, patrician](https://daviddef.github.io/TheBlazevic/snapshots/#pag-baptism-1728-caietanus-bachi) — a candidate for the Caetanus Bachi of Karlobag 1753. Also read: [Karlobag, 12 Jan 1779, Caetanus Antonius, son of Angelo and Catharina Bachi, Maria Uroda godmother](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1779-01-caetanus-antonius-bacchi) and [17 May 1780, Vitus, son of Paulo and Barbara Smojver](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1780-05-vitus-smojver).",
+   "missed": "Counts are of index lines, not households; the default search is phonetic and wildly overcounts, so only exact spellings were used and variants (Smoyver, Pilipić) may be missed."
   }
  ]
 }
