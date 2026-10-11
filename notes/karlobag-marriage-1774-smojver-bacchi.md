@@ -144,3 +144,11 @@ Both pages of images 112, 113, 114, 115 and 116 were read in half-page strips at
 * **A Jure Uroda is an adult Karlobag man in 1752 and stands with Dume's widow.** That fits Georgius (ahnentafel 108) being Dume's son, and it fits nothing else seen. It is **not proof**: Jure is the commonest given name in the book, and the only link is that two godparents of one child share a surname.
 * **It also changes the chronology.** If this Jure is ahnentafel 108 he was an adult by 1752 (a godparent is at least a teenager, probably older), so he was **born no later than about 1735**, which makes Maria (his wife by 1763) a **second** or late marriage, or him already about 30 at the first known child in 1764. The 1791 death entry gives no age; ahnentafel 54's father could be much older than the 1745–55 birth I had assumed.
 * **Unread:** images 117–143 (June 1752 – 1762) were read only for Bacchi; 100–111 (before 1750) not at all.
+
+## Karlobag births read back from October 1749 to November 1744 (images 98–111), 11 October 2026 (night)
+
+Both pages of images 98–111 were read in half-page strips at about 2x (the hand is large and legible, Croatian). **The session ended in the middle of the next stretch (images 97 and 96 were being opened and were NOT read).**
+* **No baptism of a Georgius/Jure Uroda, and no Uroda parent other than Dume, in these fifty-one months.**
+* **Dume (Dominicus) Uroda and his wife Jerolina are the parish's commonest godparents** — «bihu kumi Dume Uroda i Jerolima xena Dume Uroda» turns up on almost every page from 1745 to 1749, and «Dominik Uroda» as kum in 1746 and 1748. So a Uroda in a godparent line is NOT evidence of kinship; it is the usual sound of this parish. Dume is still «xena Dume» (Jerolina his wife, not widow) in December 1748; **«udova» first in April 1750**, so he died between those dates.
+* **One baptism of their own child: 11 August 1745, image 100 left, «Dume urode i xene Jerolime» — a daughter, name read as Marta Franceskina.** Snapshot [karlobag-baptism-1745-08-marta-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1745-08-marta-uroda).
+* **What this does to the «Jure Uroda» of 1752:** he is not Dume and Jerolina's baby baptised in 1744–49, and nothing here says he is their son either; if he was born before November 1744 his baptism is earlier still (images before 98).

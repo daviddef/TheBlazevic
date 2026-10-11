@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 108
+  "yield": 109
  },
  "read": [
   {
@@ -4020,6 +4020,25 @@
    ],
    "got": "**No Uroda child baptised.** Found five godparent entries ([snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1752-03-12-jure-uroda)): a widow Jerolima «udova … Dume Uroda» godmother on 23 Apr 1750, 25 Apr 1751, 21 Mar and 3 Apr 1752, and **«Jure Uroda» godfather with her on 12 Mar 1752**. Dume (Dominicus) Uroda was therefore dead by April 1750. Map: image 112 = Jan–Jun 1750 (book page 200), 113 = Sep 1750 – Feb 1751, 114 = Feb–Aug 1751, 115 = Aug 1751 – Feb 1752, 116 = Feb–Jun 1752.",
    "missed": "Read at about 2x in half-page strips; cursive godparent surnames can still be missed, so «no parent» is a probable negative, not a certain one. Not marked walked."
+  },
+  {
+   "src": "FamilySearch — Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 98–111 read entry by entry, November 1744 – October 1749: Uroda as parents or godparents",
+   "key": "fs/karlobag-births-1744-49-uroda-read",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+   "waypoint": "9RK1-3Y9",
+   "what": "A baptism of Georgius (Jure) Uroda, or any Uroda child, before the 1750 pages",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "98–111 (both pages of each, in half-page strips)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "**No baptism of a Jure/Georgius Uroda.** One baptism of a child of Dume Uroda and Jerolina, 11 August 1745 (image 100 left; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1745-08-marta-uroda)). Dume and Jerolina are the parish's regular godparents 1745–49 (so a Uroda godparent proves nothing about kin). Dume still alive in December 1748, «udova» from April 1750. Map: image 98 = Nov 1744–Feb 1745, 99 = Feb–Jun 1745, 100 = Jun–Dec 1745, 101 = Nov 1745–Jan 1746, 102 = Jan–Apr 1746, 103 = Apr–Jun 1746, 104 = Aug–Oct 1746, 105 = Nov 1746–Mar 1747, 106 = Mar–Oct 1747, 107 = Nov 1747–Mar 1748, 108 = Mar–Aug 1748, 109 = Aug 1748–Apr 1749, 110 = Apr–Oct 1749, 111 = Oct 1749.",
+   "missed": "Images 97 and earlier (before November 1744) not read; the cursive was read at about 2x and godparent lines in particular are easy to misread. Not marked walked. Image 100's ark was not saved; the link opens image 111 of the volume."
   }
  ]
 }

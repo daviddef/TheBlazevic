@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 64,
- "images": 79,
+ "count": 65,
+ "images": 80,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1818,6 +1818,29 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1745-08-marta-uroda",
+   "entry": "karlobag-baptism-1745-08-marta-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 11 August 1745 — a daughter (Marta Franceskina, as read) of Dume Uroda and Jerolina",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 100, left-hand page (book page 178): the entry «Na 11 Agusta 1745», about two-thirds of the way down. NOTE: the link below opens image 111 of the same volume (its ark was the one I kept); go to image 100 with the viewer's image box",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+   "says": "«Na 11 Agusta 1745. Ja Pop Osip Xurich kersti cher Dume urode i xene Jerolime imenom Marta Franceskina [read at one zoom]. Bi kum Don Josep iz Kontra a kuma Lucia xena Uvje Xurica». The only baptism found of a child of Dume Uroda; it names his wife as Jerolina. Croatian text, read at about 3x; the child's second name is uncertain.",
+   "slugs": [
+    "dominicus-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2079,7 +2102,8 @@
    "selce-marriage-1835-antic-jellicic"
   ],
   "dominicus-uroda": [
-   "karlobag-baptism-1764-dominicus-uroda"
+   "karlobag-baptism-1764-dominicus-uroda",
+   "karlobag-baptism-1745-08-marta-uroda"
   ]
  }
 }
