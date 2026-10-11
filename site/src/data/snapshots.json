@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 25,
- "images": 29,
+ "count": 30,
+ "images": 34,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -741,6 +741,127 @@
    "captured": "11 October 2026",
    "note": "notes/uroda-generation-found.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md"
+  },
+  {
+   "id": "selce-death-1793-antonius-antic",
+   "entry": "",
+   "page": "selce-death-1793-antonius-antic-page.jpg",
+   "title": "Selce, 27 February 1793 — Antonius Antich Martini, aged about 54 (the given name is Antonius, not the tree's Joannes)",
+   "film": "Selce deaths 1790–1815 (DGS 5482267, FamilySearch waypoint 9R2M-BZF)",
+   "where": "image 81, left-hand page, headed «Anno 1793»: the fourth entry, house number 34 in the margin",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59DD-H",
+   "says": "«Die 27a Februarii 793 Antonius Antich Martini annorum circiter 54 in communione S. Matris Ecclesiae … animam Deo creatori suo reddidit». The day, month and age are the tree's for ahnentafel 96; the first word is Antonius, underlined, where the tree has Joannes — recorded as evidence of an Antonius Antich, not as a settled reading of 96.",
+   "slugs": [
+    "joannis-antic-2"
+   ],
+   "people": [
+    {
+     "slug": "joannis-antic-2",
+     "kind": "people",
+     "name": "Joannis Antić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/selce-deaths-1793-1807-1811.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md"
+  },
+  {
+   "id": "selce-death-1807-anna-papic",
+   "entry": "",
+   "page": "selce-death-1807-anna-papic-page.jpg",
+   "title": "Selce, 24 August 1807 — Anna, wife of Paulus Lončarich Papich, aged about 65",
+   "film": "Selce deaths 1790–1815 (DGS 5482267, FamilySearch waypoint 9R2M-BZF)",
+   "where": "image 110, left-hand page: the first entry at the top, house number 134 in the margin; the page ends with the note that the parish of Selce was founded in November or December 1807",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V",
+   "says": "«Die 24a Mensis Augusti anno ut supra 1807. Anna uxor Pauli Lončarich Papich annorum circiter 65 in communione S. M. Ecclesiae … animam Deo creatori suo reddidit». Ahnentafel 99's death, entered with the by-name Papich.",
+   "slugs": [
+    "anna-papic"
+   ],
+   "people": [
+    {
+     "slug": "anna-papic",
+     "kind": "people",
+     "name": "Anna Papić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/selce-deaths-1793-1807-1811.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md"
+  },
+  {
+   "id": "selce-death-1811-pauli-loncaric",
+   "entry": "",
+   "page": "selce-death-1811-pauli-loncaric-page.jpg",
+   "title": "Selce, 29 September 1811 — Paulus Lončarich, widower, aged about 70",
+   "film": "Selce deaths 1790–1815 (DGS 5482267, FamilySearch waypoint 9R2M-BZF)",
+   "where": "image 120, RIGHT-hand page (printed page 111; the working note says left): the first entry at the top, «Die 29 7bis Ao 1811»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-596R-H",
+   "says": "«Die 29 7bis Ao 1811. Paulus Lončarich viduus annorum circiter 70 in communione S. M. Ecclesiae … animam Deo creatori suo reddidit». Ahnentafel 98's death; viduus fits the 1807 death of his wife; the house, 134, is read from the neighbouring left page's margin.",
+   "slugs": [
+    "pauli-loncaric"
+   ],
+   "people": [
+    {
+     "slug": "pauli-loncaric",
+     "kind": "people",
+     "name": "Pauli Lončarić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/selce-deaths-1793-1807-1811.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/selce-deaths-1793-1807-1811.md"
+  },
+  {
+   "id": "krivi-put-baptism-1859-antonija-perpic",
+   "entry": "",
+   "page": "krivi-put-baptism-1859-antonija-perpic-page.jpg",
+   "title": "Krivi Put, 12/15 May 1859 — Antonija Perpić, daughter of Joannes and Lucia Perpić, house 136",
+   "film": "Krivi Put births 1847–1884 (DGS 5494757, FamilySearch waypoint 9R28-DP8)",
+   "where": "image 64, left-hand page (printed page 110): entry 51, the fourth row of the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RNXT",
+   "says": "Born «12 Maji 1859», baptised «15 Maji 1859», Antonia Perpić, legit., parents «Joannis et Lucia Perpić», «Krivi put No 136», godparents Lucas and Anna Tomljanović. Ahnentafel 7's baptism, now read from the page (it had been index only).",
+   "slugs": [
+    "antonija-tonka-perpic-prpic"
+   ],
+   "people": [
+    {
+     "slug": "antonija-tonka-perpic-prpic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/krivi-put-antonija-perpic-1859-read-from-the-image.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antonija-perpic-1859-read-from-the-image.md"
+  },
+  {
+   "id": "krivi-put-baptism-1861-stephanus-perpic",
+   "entry": "",
+   "page": "krivi-put-baptism-1861-stephanus-perpic-page.jpg",
+   "title": "Krivi Put, 13/16 December 1861 — Stephanus Perpić, son of Joannes and Lucia Perpić, house 136",
+   "film": "Krivi Put births 1847–1884 (DGS 5494757, FamilySearch waypoint 9R28-DP8)",
+   "where": "image 78, left-hand page (printed page 134): entry 109, the fifth row, «10bris 1861» (December)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RNXH",
+   "says": "«13. 10bris 1861 [born], 16. 10bris 1861 [baptised], Stephanus Perpić, Joannes Perpić & Lucia Perpić, Krivi put No 136». 10bris is December: the entries on the page run 30 November, 1, 7, 13, 13, 26 and 29 December, then «Annus 1862». Names ahnentafel 14 and 15 and the house; the tree's 13 October is wrong.",
+   "slugs": [
+    "joannis-perpic",
+    "lucia"
+   ],
+   "people": [
+    {
+     "slug": "joannis-perpic",
+     "kind": "people",
+     "name": "Joannis \"Ivan\" Perpić"
+    },
+    {
+     "slug": "lucia",
+     "kind": "people",
+     "name": "Lucia \"Luca\""
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/stephanus-perpic-was-born-in-december-1861.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/stephanus-perpic-was-born-in-december-1861.md"
   }
  ],
  "bySlug": {
@@ -825,16 +946,19 @@
    "selce-marriage-1798"
   ],
   "joannis-antic-2": [
-   "selce-marriage-1798"
+   "selce-marriage-1798",
+   "selce-death-1793-antonius-antic"
   ],
   "ursula": [
    "selce-marriage-1798"
   ],
   "pauli-loncaric": [
-   "selce-marriage-1798"
+   "selce-marriage-1798",
+   "selce-death-1811-pauli-loncaric"
   ],
   "anna-papic": [
-   "selce-marriage-1798"
+   "selce-marriage-1798",
+   "selce-death-1807-anna-papic"
   ],
   "georgi-juraj-jellicic": [
    "selce-marriage-1800"
@@ -870,6 +994,15 @@
   ],
   "maria-uroda": [
    "karlobag-baptism-1777-uroda"
+  ],
+  "antonija-tonka-perpic-prpic": [
+   "krivi-put-baptism-1859-antonija-perpic"
+  ],
+  "joannis-perpic": [
+   "krivi-put-baptism-1861-stephanus-perpic"
+  ],
+  "lucia": [
+   "krivi-put-baptism-1861-stephanus-perpic"
   ]
  }
 }
