@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 84,
- "images": 100,
+ "count": 85,
+ "images": 101,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -245,8 +245,16 @@
    "where": "image 300, right-hand page, headed «Anno Dni 1767»: the second entry, in the left margin «13 9bris»",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G36T",
    "says": "«… conjunxi Joannem [? underlined word] Senicensem et Mariam filiam defuncti Dominici Uroda, praesentibus testibus …». The groom's given name is read as Joannes (an earlier note of this archive said Josephus; the page reads Joannem, with an underlined word after it). Shows Dominicus Uroda dead by November 1767.",
-   "slugs": [],
-   "people": [],
+   "slugs": [
+    "dume-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -260,8 +268,16 @@
    "where": "image 284, left-hand page, headed «Anno Domini 1748»: the entries of 3 and 5 October and 17 November each end «… et Dominico Uroda»",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G72",
    "says": "Dominicus «Dume» Uroda appears as witness about ten times between 1744 and 1749; this page shows three. He was an adult Karlobag man by 1744 and dead by 1767. He may be the father of Georgius Uroda (ahnentafel 108); nothing read says so.",
-   "slugs": [],
-   "people": [],
+   "slugs": [
+    "dume-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -1714,13 +1730,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
    "says": "Croatian-language baptism entry; the godparents are «Tadia Kovacevich i Jerolima udova Uroda» (read at about 2x). The first appearance of Jerolima, a widow named Uroda, in these pages.",
    "slugs": [
-    "georgi-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "georgi-uroda",
-     "kind": "people",
-     "name": "Georgi Uroda"
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1737,13 +1753,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SN-C",
    "says": "«… kumi Pop Miko Martin … i udova Jerolima Uroda»: the priest's own kin stand with her. Read at about 2x.",
    "slugs": [
-    "georgi-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "georgi-uroda",
-     "kind": "people",
-     "name": "Georgi Uroda"
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1760,9 +1776,15 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
    "says": "«… Martina i … Maxuran. Bihu kumi Jure Uroda i Gjerolima udova [Sokoić] Dume Uroda». A man called JURE URODA (Georgius) is godfather with the widow of a Dume (Dominicus) Uroda. The word between «udova» and «Dume» is read as Sokoić and is uncertain.",
    "slugs": [
+    "dume-uroda",
     "georgi-uroda"
    ],
    "people": [
+    {
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
+    },
     {
      "slug": "georgi-uroda",
      "kind": "people",
@@ -1783,13 +1805,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
    "says": "«… Ivana … bihu kumi Lorenco Curtellini [od Sibenika?] i Gjerolina udova Sokoić Dume Uroda». The widow is named with her husband's name Dume Uroda.",
    "slugs": [
-    "georgi-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "georgi-uroda",
-     "kind": "people",
-     "name": "Georgi Uroda"
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1806,9 +1828,15 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
    "says": "«Dan 3 Aprila … sina Pavla i Franice Bevandich. Bihu kumi Jure i Gjerolina udova [Sokoić] Dume Uroda». Here the godfather is written only «Jure»; a word «Uroda» appears to be written over the line above it, and I read this as the same Jure Uroda as on 12 March; not certain.",
    "slugs": [
+    "dume-uroda",
     "georgi-uroda"
    ],
    "people": [
+    {
+     "slug": "dume-uroda",
+     "kind": "found",
+     "name": "Dume Uroda"
+    },
     {
      "slug": "georgi-uroda",
      "kind": "people",
@@ -1829,13 +1857,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SG-2",
    "says": "«Na 11 Agusta 1745. Ja Pop Osip Xurich kersti cher Dume urode i xene Jerolime imenom Marta Franceskina [read at one zoom]. Bi kum Don Josep iz Kontra a kuma Lucia xena Uvje Xurica». The only baptism found of a child of Dume Uroda; it names his wife as Jerolina. Croatian text, read at about 3x; the child's second name is uncertain.",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1852,13 +1880,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S6-W",
    "says": "«Na 10 Maia 1744. Korstih sina Dume urode i njegove [že]ne Jerolime imenom [Gratiova?]. Bi kum Dno Antonio Alfier [?] Johetoni [?] Gnor … a kuma Gospodjena Mi[…] Agnerin neputa …». Baptism of a SON of Dume Uroda and Jerolima; the child's name is not read with confidence. Croatian text, about 3x; the godparents' names are a poor reading. THE FAMILYSEARCH INDEX READS THIS CHILD AS «GIAKOVA» (JAKOV, JACOBUS) — a son named Jakov, so not Georgius; found 11 October 2026 under the spelling «Urode».",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1875,14 +1903,14 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9S5-D",
    "says": "«Na 4: [month?] 1742. Korstih sina Dume urode i njegove xene [Jerolime?] imenom [Cvidora?] Juria. Bi kum Milo Bulinc(?) a kuma Marija xena Martina Vorbanovića». The child is a SON of Dume Uroda; the given name is two words, the second read as «Juria»/«Furia». Read at the page's full resolution; the first word of the name and the month are not read with confidence. RE-READ AT HIGHER MAGNIFICATION (second image): «Na 4: [Ajmila/Apmila, month not read] 1742 · [K]orstih sina Dume urode i njegove xene … imenom [Gvidora/Evidora] Juria [Furia], bi kum Milo Bulinc … a kuma Marija xena Martina …». «Sina Dume urode» (son of Dume Uroda) is clear; the child's name is two words, the first read as Gvidora/Evidora and the second as Juria/Furia; the month word is not Aprila (the entry follows 3 and 4 June) and is not read.",
    "slugs": [
-    "dominicus-uroda",
+    "dume-uroda",
     "georgi-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     },
     {
      "slug": "georgi-uroda",
@@ -1904,13 +1932,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SZ-B",
    "says": "«Na 12 Stoga: Korstih ja Andrij Kolekar Plovan cher Dume urode i njegove xene Eve imenom Franica. Bi kum Mathio Milkovich a kuma [..] xena Pave Samonicha». A daughter named Franica to Dume Uroda and a wife named EVA — three years before Jerolina is Dume's wife in the same book. Read at about 3x; the month word is read as «Stoga» (December).",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1927,13 +1955,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
    "says": "«Na 8 Marca 1734: Krstih sina Dume Urode alliti Kovaca [first read as Horaca] i njegove xene Eve imenom Dominico [?]. Bi kum Gior. Angelo Bakj[..] a kuma Marica xena Jane Mega [?]». A baptism to Dume Uroda and a wife named EVA five years before the Franica of December 1739 — the earliest child of this couple seen. The by-name after «alliti» was first read as Horaca; re-read at 3x on 11 October 2026 it is «kovaca» — a smith's by-name (kovač), which would tie Dume to the many Kovačević of Karlobag. Read at about 3x; child's name and godparents' surnames are not firm.",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1950,13 +1978,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L937-1",
    "says": "«Na 16 Genvara 1733: Ja Pop Andrij Kolekar Plovan krstih sina [Sime / Dume?] urode i njegove xene Eve imenom Antona. Bi kum Andro Kum[anovich?] soldat od Tortice … a kuma …». The FamilySearch index reads this father as SIME Uroda (baptism 16 January 1733, parents Sime Uroda and Eva). The first letter of the father's name is not firm: it may be a Dume with the capital misread. If it is Dume, Dume and Eva had Antona in January 1733, a child in March 1734 and Franica in December 1739. The same page is repeated on image 56 (duplicate frame).",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1973,13 +2001,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SC-Z",
    "says": "«Na 12 Jenora 1737: Krstih cher Jve Berondicha [?] njegove xene Eve … ime Gasparina. Bi kum Mato Mato[vich?] a kuma Eva xena Dume urode.» Not a baptism of the Urodas' child: it shows Eva as Dume Uroda's wife in January 1737, between the 1734 baptism and the Franica of December 1739, so the Eva of 1733–39 is one woman. Read at about 3x.",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda"
     }
    ],
    "captured": "11 October 2026",
@@ -1996,13 +2024,13 @@
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GHW",
    "says": "«Dan 7: Junija. Andrij Kollekar Plovan sakupih u S. Matrimonij Martina Svjata [Sviata?] y Simonu pokoi[nog] Dume urode od Sibenika. Biha svidoki Tavia Kovacevich y Bartul Misich.» The wording matches the book's formula for a bride «Heer pokoi X» (daughter of the late X), though the word «Heer» is not written here. So: a DUME URODA from Šibenik, dead by June 1739, with a daughter Simona. The living Dume Uroda of the Karlobag baptisms (wife Eva, daughter Franica baptised December 1739) cannot be this man, so this is a second Dume Uroda — possibly the living Dume's father or another relation, not established — and the first sight of the family as Dalmatian. Read at about 3x.",
    "slugs": [
-    "dominicus-uroda"
+    "dume-uroda-of-sibenik"
    ],
    "people": [
     {
-     "slug": "dominicus-uroda",
+     "slug": "dume-uroda-of-sibenik",
      "kind": "found",
-     "name": "Dominicus Uroda"
+     "name": "Dume Uroda of Šibenik"
     }
    ],
    "captured": "11 October 2026",
@@ -2018,8 +2046,16 @@
    "where": "the left-hand page of the opening, the second entry from the top, headed «Die 13 Martii 1770»; the margin names her «Josepha Uroda»",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-T9MF-4",
    "says": "«Ego Fr. Josephus Jakick Capuc. Baptizavi infantem natam sub die primae ejusdem [mensis], ex legitimis Conjugibus Pampao Uroda, et Mariana Bachi, Militum [Illustrissimi?] Domini Capi[tanei] Dulatti [?]. Cui nomen impositum Josepha. Patrinus fuit Stephanus Susszek et Catharina uxor Francisci Pasquali, omnes Militas.» A Franciscan baptises a girl born on the 1st of the month. The father is written PAMPAO (the index reads «Janpao»; 1778 reads «Pompio»), the mother's surname Bachi, and the household is a SOLDIER's, as are the godparents: a military family at Drniš, not a Karlobag one. The words after «Militum» (the captain's name) are not firm. Read at about 4x.",
-   "slugs": [],
-   "people": [],
+   "slugs": [
+    "pompeo-uroda"
+   ],
+   "people": [
+    {
+     "slug": "pompeo-uroda",
+     "kind": "found",
+     "name": "Pompeo Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -2033,8 +2069,16 @@
    "where": "left-hand page of the opening, the entry headed «Die 26 Augusti 1778» that follows the first of two entries of that date",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-T93P-D",
    "says": "«Die 26 Augusti 1778. Ego Fr. Elias Soldich Parochus Darnisii baptizavi infantem natum sub die 23 ejusdem, ex legitimis Conjugibus Caporal Pompeo Uroda et Maria Anna Bachi. Cui nomen impositum Julia Magdalena. Patrini fuerunt Domina Magdalena et Dominus Serdar Antonius Nachich hujus Parochiae.» The father is called CAPORAL — a corporal — and the godfather a SERDAR, a Venetian-Dalmatian militia rank: the same soldier household as in 1770, now spelled POMPEO. Read at about 3x.",
-   "slugs": [],
-   "people": [],
+   "slugs": [
+    "pompeo-uroda"
+   ],
+   "people": [
+    {
+     "slug": "pompeo-uroda",
+     "kind": "found",
+     "name": "Pompeo Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -2048,8 +2092,16 @@
    "where": "right-hand page of the opening, the entry at the top, headed «Die 23 Octobris 1780»",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-T93K-L",
    "says": "«Die 23 Octobris 1780. Ego Fr. Elias Soldich Parochus Curae Darnisij baptizavi infantem natum sub die 13 hujus, ex legitimis Conjugibus Domino Caporal Pompeo Uroda et Domina Maria Anna Bauchi. Cui nomen impositum Joseph. Patrinus fuit Dominus Angelus Sarich et Anna Maria …chin, omnes Milites.» THE INDEX READS THE FATHER AS «TOMASO»; THE PAGE READS POMPEO — so the Drniš baptisms of 1770, 1778 and 1780 are one man, Corporal Pompeo (Pampao) Uroda, and his wife Maria Anna Bachi/Bauchi, a soldier's household. Read at about 3x.",
-   "slugs": [],
-   "people": [],
+   "slugs": [
+    "pompeo-uroda"
+   ],
+   "people": [
+    {
+     "slug": "pompeo-uroda",
+     "kind": "found",
+     "name": "Pompeo Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -2275,6 +2327,29 @@
    "where": "image 210, left-hand page, headed «Anno Dni 1779»: the entry «12 Januarij», the third from the top",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SQ-C",
    "says": "«12 Januarij. M.R.D. Michael Martinaj Presbyter Curatus Loci Baptizavit infantem hodie natum ex Angelo & Catharina Bachi conjugibus hujatibus, cui impositum est nomen Caetani Antonij. Patrini fuerunt Dnus Capitaneus Joannes Jankovich et Dna Maria uxor Dni Georgij Uroda.» THIS IS THE BAPTISM THE TREE WRONGLY TAKES FOR THE ELDER CAETANUS BACCHI (ahnentafel 214, born 1779 «maybe»): a different, younger Caetanus Antonius, son of ANGELO and CATHARINA — a second Bacchi household at Karlobag in 1779 — and the godmother is MARIA, wife of Dominus Georgius Uroda (ahnentafel 109). Read at about 3x.",
+   "slugs": [
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "betina-baptism-1835-andrea-uroda",
+   "entry": "betina-baptism-1835-andrea-uroda-line.jpg",
+   "page": "",
+   "title": "Betina, 28 November 1835 — Andrea, son of Simeone Uroda and Giovanna Barran, both «a Betina»",
+   "film": "Betina baptisms, 1835 (FamilySearch Croatia, Church Books 1516–1994, reference 19; index record 1:1:QKMG-896Y; the printed Italian «Libro degli atti di nascita», Distretto di Sebenico, Circolo di Zara)",
+   "where": "left half of the printed table, entry no. 24; the second entry (no. 23) is Andrea and Nicolò, children of Antonio Moikin",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-YCSL",
+   "says": "Printed form, Italian: «Nato li 28 [ventotto] Novembre 1835 … Battezzato li 28 … Andrea» — masculine, legitimate; mother «Giovanna [Barran] a Betina»; father «Simeone Uroda a Betina»; the parents' marriage (25 February 1835, Betina) and the godfather «Andrea Barazic a Betina» in the columns to the right. The parents are Catholic and live at Betina, in the Šibenik district under Austrian Dalmatia, and nothing on the page says they came from anywhere. The 1829 baptism of Maria «Urodan» (image ref. 20) and the 1839 baptism of Antonio «Urada» (ref. 33) are the same printed form and were opened but add no origin. A resident Betina family of the 19th century, not a Karlobag one. Read at about 3x.",
    "slugs": [],
    "people": [],
    "captured": "11 October 2026",
@@ -2346,6 +2421,22 @@
   "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich": [
    "karlobag-marriage-1755-uroda"
   ],
+  "dume-uroda": [
+   "karlobag-marriage-1767-uroda",
+   "karlobag-marriages-1748-uroda-witness",
+   "karlobag-baptism-1750-04-jerolima-uroda",
+   "karlobag-baptism-1751-04-jerolima-uroda",
+   "karlobag-baptism-1752-03-12-jure-uroda",
+   "karlobag-baptism-1752-03-21-dume-uroda",
+   "karlobag-baptism-1752-04-03-jure-uroda",
+   "karlobag-baptism-1745-08-marta-uroda",
+   "karlobag-baptism-1744-05-son-of-dume-uroda",
+   "karlobag-baptism-1742-son-of-dume-uroda",
+   "karlobag-baptism-1739-12-franica-uroda",
+   "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line",
+   "karlobag-baptism-1733-01-antona-uroda",
+   "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda"
+  ],
   "ana-daughter-of-vicko-luckinich-and-mare-read-anu": [
    "karlobag-births-1725-ana-luckinic"
   ],
@@ -2407,10 +2498,7 @@
    "karlobag-baptism-1777-uroda",
    "karlobag-baptism-1763-smojver-uroda-godparents",
    "karlobag-baptism-1764-dominicus-uroda",
-   "karlobag-baptism-1750-04-jerolima-uroda",
-   "karlobag-baptism-1751-04-jerolima-uroda",
    "karlobag-baptism-1752-03-12-jure-uroda",
-   "karlobag-baptism-1752-03-21-dume-uroda",
    "karlobag-baptism-1752-04-03-jure-uroda",
    "karlobag-baptism-1742-son-of-dume-uroda",
    "karlobag-baptism-1767-petrus-jacobus-uroda",
@@ -2437,7 +2525,8 @@
    "karlobag-baptism-1772-maria-catharina-uroda",
    "karlobag-baptism-1773-maria-heva-uroda",
    "karlobag-baptism-1780-antonius-uroda",
-   "karlobag-baptism-1784-dominicus-christianus-uroda"
+   "karlobag-baptism-1784-dominicus-christianus-uroda",
+   "karlobag-baptism-1779-01-caetanus-antonius-bacchi"
   ],
   "antonija-tonka-perpic-prpic": [
    "krivi-put-baptism-1859-antonija-perpic",
@@ -2555,15 +2644,15 @@
    "selce-marriage-1835-antic-jellicic"
   ],
   "dominicus-uroda": [
-   "karlobag-baptism-1764-dominicus-uroda",
-   "karlobag-baptism-1745-08-marta-uroda",
-   "karlobag-baptism-1744-05-son-of-dume-uroda",
-   "karlobag-baptism-1742-son-of-dume-uroda",
-   "karlobag-baptism-1739-12-franica-uroda",
-   "karlobag-baptism-1734-03-dume-uroda-horaca-eva-line",
-   "karlobag-baptism-1733-01-antona-uroda",
-   "karlobag-baptism-1737-01-eva-kuma-wife-of-dume-uroda",
+   "karlobag-baptism-1764-dominicus-uroda"
+  ],
+  "dume-uroda-of-sibenik": [
    "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik"
+  ],
+  "pompeo-uroda": [
+   "drnis-baptism-1770-josepha-uroda",
+   "drnis-baptism-1778-julia-magdalena-uroda",
+   "drnis-baptism-1780-joseph-uroda"
   ]
  }
 }

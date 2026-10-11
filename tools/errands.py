@@ -124,7 +124,7 @@ def main():
         "dek": "Every letter this archive has written, in full - drafted, sent and answered - so that a draft is a page somebody can act from and not a file nobody opens.",
         "lead": "A reading that cannot be done from the films ends at a person: a parish priest, an archivist, a custodian. These are the letters to them. Each says who is being asked, what for, and what the answer would settle, and carries the text. Nothing on this page has been sent by the site; sending is a person's decision, and the state shown is the state of the letter.",
         "states": STATES,
-        "tallyNote": "A negative or a refused request is kept as a result, here and on [the search register](/searched/).",
+        "tallyNote": "A negative or a refused request is kept as a result, here and on the search register.",
         "close": "Where a letter has been answered, the answer is on the work list and the search register. A draft's address is marked to be confirmed where this archive has not verified it; nothing here invents a street or an inbox.",
         "unlisted": unlisted,
         "rows": rows,

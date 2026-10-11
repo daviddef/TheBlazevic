@@ -651,6 +651,15 @@ table.reg thead th{text-align:left;font-family:var(--sans);font-size:11px;font-w
   padding:0 14px 8px 0;border-bottom:1px solid var(--rule-strong)}
 table.reg td{padding:8px 14px 8px 0;border-bottom:1px solid var(--rule);vertical-align:top}
 table.reg tbody tr:hover{background:var(--panel)}
+/* Long unbreakable strings (note file names, URLs) in a register table forced the whole page
+   wider than a phone: 471px of table in a 375px viewport on /people/georgi-uroda/. Let them break. */
+table.reg td,table.reg th{overflow-wrap:anywhere;word-break:break-word}
+/* On a phone a wide data table scrolls inside itself instead of widening the page: /worklist/,
+   /found/, /searched/ and /sources/ were 388–634px wide in a 375px viewport. */
+@media (max-width:600px){
+  table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  code,.mono{overflow-wrap:anywhere;word-break:break-word}
+}
 .tblwrap{overflow-x:auto}
 
 /* Two- and three-column lists that stay readable when a name is long */
@@ -865,3 +874,5 @@ a.wholink:hover{border-bottom-style:solid;color:var(--accent)}
 }
 .ksearch input:focus{outline:none;border-color:var(--accent)}
 .ksearch input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* a letter draft holds long URLs and addresses; on /errands/ one of them pushed the page to 675px on a phone */
+.er-draft,.er-draft p,.er-row{overflow-wrap:anywhere;word-break:break-word}

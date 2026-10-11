@@ -126,8 +126,9 @@ export function descentOf(keys, onSpine = new Set(), found = []) {
       children: (rel.children || []).map(card),
       hisSiblings: (rel.siblings || []).map(card),
       herSiblings: hers.map(card),
-      hisLabel: String(p.name).split(" ")[0] + "’s",
-      herLabel: sp ? String(sp.name).split(" ")[0] + "’s" : "Theirs",
+      hisLabel: p.name ? String(p.name).split(" ")[0] + "’s" : "His",
+      /* a spouse the tree holds with no name at all printed «undefined’s» on six family pages */
+      herLabel: sp && sp.name ? String(sp.name).split(" ")[0] + "’s" : (sp ? "Her" : "Theirs"),
       sources: (p.sources || []).map((s) => ({ label: String(s).split(" — ")[0] })),
       confidence: (p.sources || []).length ? "in the family tree" : "",
     };

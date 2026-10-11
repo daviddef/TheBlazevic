@@ -1,11 +1,11 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 178,
+  "rows": 193,
   "people": 119,
   "derived": 70,
   "onDirectLine": 0,
-  "indexOnly": 20,
+  "indexOnly": 19,
   "earliest": 1725,
   "latest": 2005
  },
@@ -13,6 +13,10 @@
   [
    "baptism",
    46
+  ],
+  [
+   "baptism-of-child",
+   33
   ],
   [
    "marriage-of-child",
@@ -27,16 +31,16 @@
    25
   ],
   [
-   "baptism-of-child",
-   21
-  ],
-  [
    "grave",
    10
   ],
   [
    "death-of-spouse",
    7
+  ],
+  [
+   "named-on-a-child-baptism",
+   3
   ],
   [
    "census",
@@ -221,6 +225,90 @@
    "ahn": null
   },
   {
+   "kind": "named-on-a-child-baptism",
+   "year": "1763",
+   "cite": "Karlobag, 2 November 1763 — Georgius and Maria Uroda are godparents to Carolus, son of Paulus and Ursula Smojver (the first sight of them in a register)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "named-on-a-child-baptism",
+   "year": "1763",
+   "cite": "Karlobag, 2 November 1763 — Georgius and Maria Uroda are godparents to Carolus, son of Paulus and Ursula Smojver (the first sight of them in a register)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1764",
+   "cite": "Karlobag, 6 May 1764 — Joannes Dominicus; godparents Antonio Barach «of Šibenik» and Vincentia, wife of Joannes Margvart",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1764",
+   "cite": "Karlobag, 6 May 1764 — Joannes Dominicus; godparents Antonio Barach «of Šibenik» and Vincentia, wife of Joannes Margvart",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1767",
+   "cite": "Karlobag, 2 July 1767 — Petrus Jacobus; godparents the criminal judge Antonius Dorliga and the wife of Antonius Iurich",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1767",
+   "cite": "Karlobag, 2 July 1767 — Petrus Jacobus; godparents the criminal judge Antonius Dorliga and the wife of Antonius Iurich",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1768",
    "cite": "Karlobag, 11 March 1768 — INDEX ONLY, «Josephum Piberich», father «Jacobi Piberich», mother «Catharina»; ark 1:1:QKMX-YX3G. «Piberich» is the index's misreading and occurs nowhere else at Karlobag; the same couple are «Pillopich» in 1758 and «Pillepich» in 1762 and 1765",
@@ -232,6 +320,90 @@
    "indexOnly": true,
    "slug": "josephus-josip-pilipic",
    "name": "Josephus (Josip) Pilipic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1769",
+   "cite": "Karlobag, 28 December 1769 — Heva Joanna; godparents the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorligo",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1769",
+   "cite": "Karlobag, 28 December 1769 — Heva Joanna; godparents the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorligo",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1772",
+   "cite": "Karlobag, 29 April 1772 — Maria Catharina; godparents the Chancellor Josephus Kumanović and his wife Joanna",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1772",
+   "cite": "Karlobag, 29 April 1772 — Maria Catharina; godparents the Chancellor Josephus Kumanović and his wife Joanna",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1773",
+   "cite": "Karlobag, September 1773 — Maria Heva, «hujus loci Civibus»; godparents Antonius Pomsick and Aloysia, wife of Josephus Collini",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1773",
+   "cite": "Karlobag, September 1773 — Maria Heva, «hujus loci Civibus»; godparents Antonius Pomsick and Aloysia, wife of Josephus Collini",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
    "ahn": null
   },
   {
@@ -347,15 +519,29 @@
    "ahn": null
   },
   {
+   "kind": "named-on-a-child-baptism",
+   "year": "1779",
+   "cite": "Karlobag, 12 January 1779 — «Dna Maria uxor Dni Georgij Uroda» is godmother to Caetanus Antonius, son of Angelo and Catharina Bachi (godfather the Captain Joannes Jankovich)",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1780",
-   "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+   "cite": "Karlobag, 13 June 1780 — INDEX AND PAGE: read from the image on 11 October 2026 (image 214, snapshot karlobag-baptism-1780-antonius-uroda) — «ex Dno Georgio et Maria Uroda Conjugibus hujus Civitatis, cui impositum est nomen Antonius», godparents the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld. He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
    "derived": false,
    "via": null,
    "viaName": "",
    "where": "notes/three-found-people-were-in-the-tree-all-along.md",
    "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
-   "indexOnly": true,
+   "indexOnly": false,
    "slug": "anton-joanis-uroda",
    "name": "Anton Joanis Uroda",
    "ahn": null
@@ -414,6 +600,34 @@
    "indexOnly": false,
    "slug": "nicolaus-gerkacs",
    "name": "Nicolaus Gerkacs",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1784",
+   "cite": "Karlobag, 17 May 1784 — Dominicus Christianus Joannes, of Dno Georgio and Dna Maria; godparents Nicolaus Samanich and Heva, wife of Joannes Butorović",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "georgi-uroda",
+   "name": "Georgi Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1784",
+   "cite": "Karlobag, 17 May 1784 — Dominicus Christianus Joannes, of Dno Georgio and Dna Maria; godparents Nicolaus Samanich and Heva, wife of Joannes Butorović",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "indexOnly": false,
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
    "ahn": null
   },
   {
@@ -3924,6 +4138,83 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "named-on-a-child-baptism",
+     "year": "1763",
+     "cite": "Karlobag, 2 November 1763 — Georgius and Maria Uroda are godparents to Carolus, son of Paulus and Ursula Smojver (the first sight of them in a register)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1764",
+     "cite": "Karlobag, 6 May 1764 — Joannes Dominicus; godparents Antonio Barach «of Šibenik» and Vincentia, wife of Joannes Margvart",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1767",
+     "cite": "Karlobag, 2 July 1767 — Petrus Jacobus; godparents the criminal judge Antonius Dorliga and the wife of Antonius Iurich",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1769",
+     "cite": "Karlobag, 28 December 1769 — Heva Joanna; godparents the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorligo",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1772",
+     "cite": "Karlobag, 29 April 1772 — Maria Catharina; godparents the Chancellor Josephus Kumanović and his wife Joanna",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1773",
+     "cite": "Karlobag, September 1773 — Maria Heva, «hujus loci Civibus»; godparents Antonius Pomsick and Aloysia, wife of Josephus Collini",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1784",
+     "cite": "Karlobag, 17 May 1784 — Dominicus Christianus Joannes, of Dno Georgio and Dna Maria; godparents Nicolaus Samanich and Heva, wife of Joannes Butorović",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1791",
      "cite": "Karlobag, 10 September 1791 — \"Dominus Georgius Uroda\", BURIED IN HIS OWN CRYPT. Found by following the 1806 marriage that names a groom as «Joannis filii defuncti Dñi Georgij Uroda» into the register BEFORE the 1804-1861 book, whose own alphabetical index nobody here had opened. DOMINUS and a private crypt are not the words this archive expected of the Urode",
@@ -3959,16 +4250,16 @@
     {
      "kind": "named-on-a-child-baptism",
      "year": "1780",
-     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "cite": "Karlobag, 13 June 1780 — INDEX AND PAGE: read from the image on 11 October 2026 (image 214, snapshot karlobag-baptism-1780-antonius-uroda) — «ex Dno Georgio et Maria Uroda Conjugibus hujus Civitatis, cui impositum est nomen Antonius», godparents the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld. He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
      "derived": true,
      "via": "anton-joanis-uroda",
      "viaName": "Anton Joanis Uroda",
      "where": "notes/three-found-people-were-in-the-tree-all-along.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
-     "indexOnly": true
+     "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 9,
    "derived": 2
   },
   "michaeli-michaele-gerkacs-gergacs": {
@@ -5155,13 +5446,13 @@
     {
      "kind": "baptism",
      "year": "1780",
-     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "cite": "Karlobag, 13 June 1780 — INDEX AND PAGE: read from the image on 11 October 2026 (image 214, snapshot karlobag-baptism-1780-antonius-uroda) — «ex Dno Georgio et Maria Uroda Conjugibus hujus Civitatis, cui impositum est nomen Antonius», godparents the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld. He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
      "derived": false,
      "via": null,
      "viaName": "",
      "where": "notes/three-found-people-were-in-the-tree-all-along.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
-     "indexOnly": true
+     "indexOnly": false
     }
    ],
    "direct": 1,
@@ -5670,6 +5961,125 @@
    "direct": 1,
    "derived": 0
   },
+  "maria-uroda": {
+   "slug": "maria-uroda",
+   "name": "Maria Uroda",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1763",
+     "cite": "Karlobag, 2 November 1763 — Georgius and Maria Uroda are godparents to Carolus, son of Paulus and Ursula Smojver (the first sight of them in a register)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1764",
+     "cite": "Karlobag, 6 May 1764 — Joannes Dominicus; godparents Antonio Barach «of Šibenik» and Vincentia, wife of Joannes Margvart",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1767",
+     "cite": "Karlobag, 2 July 1767 — Petrus Jacobus; godparents the criminal judge Antonius Dorliga and the wife of Antonius Iurich",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1769",
+     "cite": "Karlobag, 28 December 1769 — Heva Joanna; godparents the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorligo",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1772",
+     "cite": "Karlobag, 29 April 1772 — Maria Catharina; godparents the Chancellor Josephus Kumanović and his wife Joanna",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1773",
+     "cite": "Karlobag, September 1773 — Maria Heva, «hujus loci Civibus»; godparents Antonius Pomsick and Aloysia, wife of Josephus Collini",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1779",
+     "cite": "Karlobag, 12 January 1779 — «Dna Maria uxor Dni Georgij Uroda» is godmother to Caetanus Antonius, son of Angelo and Catharina Bachi (godfather the Captain Joannes Jankovich)",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1784",
+     "cite": "Karlobag, 17 May 1784 — Dominicus Christianus Joannes, of Dno Georgio and Dna Maria; godparents Nicolaus Samanich and Heva, wife of Joannes Butorović",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1777",
+     "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
+     "derived": true,
+     "via": "joannis-georgius-georgio-uroda",
+     "viaName": "Joannis Georgius (Georgio) Uroda",
+     "where": "notes/uroda-generation-found.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1780",
+     "cite": "Karlobag, 13 June 1780 — INDEX AND PAGE: read from the image on 11 October 2026 (image 214, snapshot karlobag-baptism-1780-antonius-uroda) — «ex Dno Georgio et Maria Uroda Conjugibus hujus Civitatis, cui impositum est nomen Antonius», godparents the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld. He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
+     "derived": true,
+     "via": "anton-joanis-uroda",
+     "viaName": "Anton Joanis Uroda",
+     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 8,
+   "derived": 2
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -5729,37 +6139,6 @@
    ],
    "direct": 0,
    "derived": 1
-  },
-  "maria-uroda": {
-   "slug": "maria-uroda",
-   "name": "Maria Uroda",
-   "ahn": null,
-   "rows": [
-    {
-     "kind": "named-on-a-child-baptism",
-     "year": "1777",
-     "cite": "Karlobag, 22 Apr 1777, folio 36/37 — \"Infantem heri natum ex Georgio, et Maria Uroda, Conjugibus, hujus Loci, cui impositum est Nomen Joannis Georgij\"; born 21 Apr, godfather Illmus Dnus Pro-Colonellus Joannes",
-     "derived": true,
-     "via": "joannis-georgius-georgio-uroda",
-     "viaName": "Joannis Georgius (Georgio) Uroda",
-     "where": "notes/uroda-generation-found.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md",
-     "indexOnly": false
-    },
-    {
-     "kind": "named-on-a-child-baptism",
-     "year": "1780",
-     "cite": "Karlobag, 13 June 1780 — INDEX ONLY, father «Georgius», mother «Maria». He stood in found.psv as «brother of ahnentafel 54» from 15 September until 21 September, when publishing blood rather than surnames put his own tree record on the site: born the same day to the same parents. Uroda is not one of the eight surnames, which is the only reason he was ever «found» rather than known",
-     "derived": true,
-     "via": "anton-joanis-uroda",
-     "viaName": "Anton Joanis Uroda",
-     "where": "notes/three-found-people-were-in-the-tree-all-along.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/three-found-people-were-in-the-tree-all-along.md",
-     "indexOnly": true
-    }
-   ],
-   "direct": 0,
-   "derived": 2
   },
   "michael-miho-micha-l-zubrinic-xubrinic": {
    "slug": "michael-miho-micha-l-zubrinic-xubrinic",

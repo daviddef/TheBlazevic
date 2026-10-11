@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
-import { mdp } from "@daviddef/archive-kit/lib/md.js";
+import { mdp, md, mdNote } from "@daviddef/archive-kit/lib/md.js";
 import searched from "../data/searched.json";
 
 /* The three lists below used to be hardcoded here while the register lived in
@@ -37,6 +37,9 @@ const when = (t) => {
   const m = String(t || "").match(/(\d{1,2})?[^\d]*([A-Za-z]{3})[a-z]*\.?\s*(\d{4})/);
   return m ? +m[3] * 10000 + (monthN[m[2].toLowerCase()] || 0) * 100 + (+m[1] || 0) : 0;
 };
+/* inline markup plus site-local [links](/x/), which md() alone leaves as literal text */
+const LT = String.fromCharCode(60); // the compiler misreads a literal angle bracket in this fence
+const inl = (s) => md(s).replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, (_, a, h) => LT + "a href=\"" + u(h) + "\">" + a + LT + "/a>");
 const srows = [...searched.rows].sort((a, b) =>
   OUT[a.outcome].rank - OUT[b.outcome].rank || when(b.when) - when(a.when));
 const host = (url) => (url || "").startsWith("/")
@@ -89,10 +92,13 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
 
     <Searched u={u} nil={["Nothing", "Blocked"]} unit="sources"
       rows={srows.map((r) => ({
-        when: r.when, src: r.src, what: r.what, got: r.got,
+        /* THE COMPONENT TAKES HTML THE PAGE HAS ALREADY RENDERED. Since the register moved onto
+           the shared shape on 16 September the three text columns were passed raw, so every row
+           showed its **bold**, [links](/x/) and `code` as literal characters. */
+        when: r.when, src: r.src, what: inl(r.what), got: mdNote(r.got, u),
         outcome: OUT[r.outcome] ? OUT[r.outcome].label : r.outcome,
         href: r.url, tags: r.tags || [],
-        extra: r.missed ? `missed: ${r.missed}` : "",
+        extra: r.missed ? inl(`missed: ${r.missed}`) : "",
       }))} />
 
 
@@ -120,8 +126,8 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       <tbody>{HOLDINGS.map((h) => (
         <tr>
           <td><strong>{h.parish}</strong></td>
-          <td class="mono dek">{h.books}</td>
-          <td class={h.bad ? "warn" : "dek"}>{h.checked}</td>
+          <td class="mono dek" set:html={md(h.books)} />
+          <td class={h.bad ? "warn" : "dek"} set:html={md(h.checked)} />
         </tr>))}</tbody>
     </table>
 
@@ -150,8 +156,8 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
       <tbody>{UNREACHABLE.map((r) => (
         <tr>
           <td class="mono"><strong>{r.q}</strong></td>
-          <td>{r.want}</td>
-          <td class="dek">{r.why}</td>
+          <td set:html={md(r.want)} />
+          <td class="dek" set:html={md(r.why)} />
         </tr>))}</tbody>
     </table>
     <p class="dek" style="margin-top:1rem"><strong>Karlobag has a page of its own now</strong> —
@@ -175,8 +181,8 @@ const noDoc = coverage.filter((r) => r.state === "tree" || r.state === "named").
           <tr><th>Years opened</th><td class="mono">{r.years}</td></tr>
           <tr><th>Pages</th><td class="mono">{r.pages}</td></tr>
           {r.ref !== "—" && <tr><th>Shelfmark</th><td class="mono">{r.ref}</td></tr>}
-          <tr><th>What it gave</th><td>{r.got}</td></tr>
-          <tr><th class="warn">Not opened</th><td>{r.missed}</td></tr>
+          <tr><th>What it gave</th><td set:html={mdNote(r.got, u)} /></tr>
+          <tr><th class="warn">Not opened</th><td set:html={mdNote(r.missed, u)} /></tr>
         </tbody>
       </table>
     </section>

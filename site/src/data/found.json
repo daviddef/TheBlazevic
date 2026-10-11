@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 521,
+ "count": 524,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -8,11 +8,12 @@
   "Brinje, Croatia": 321,
   "Broken Hill, New South Wales": 2,
   "Buenos Aires": 3,
+  "Drniš": 1,
   "Feichting bei St. Johann 10, župnija Kranj-Šmartin": 1,
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 50,
+  "Karlobag": 52,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -5257,6 +5258,36 @@
    "place": "Karlobag",
    "citation": "Karlobag marriages 1736-1804 (DGS 5481649, waypoint 9RK1-HZK) image 289 right-hand page, the last entry of the page: «Die 5ta Febr. Jose: Suvich Admstr Matrimonialiter copulavi Mathiam Kriskovich et Magdalenam filiam Dominici Uroda. Praesentibus Nicolao Perpich ac Josepho Venerando». READ FROM THE IMAGE 11 October 2026. A Dominicus Uroda, dead by November 1767, when his daughter Maria married a Joannes of Senj (image 300), had at least these two daughters; NOT shown to be related to Georgius Uroda (ahnentafel 108). See notes/karlobag-marriage-1774-smojver-bacchi.md",
    "slug": "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich"
+  },
+  {
+   "name": "Dume Uroda",
+   "ahn": null,
+   "relation": "DUME (DOMINICUS) URODA, called KOVAČ, of Karlobag — husband of Eva, then of Jerolina; baptised children 1733–1746; dead by April 1750. NOT shown to be the father of ahnentafel 108 (Georgius)",
+   "event": "baptism",
+   "date": "8 March 1734",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), image 61 left: «Krstih sina Dume urode alliti Kovaca i njegove xene Eve imenom Dominico». Children read: Antona 1733 (the index says «Sime»), a child 1734, Franica 1739, a son 1742, Giakova (Jakov) 1744, Marta 1745, Lucia 1746; a regular witness and godparent 1744–49. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
+   "slug": "dume-uroda"
+  },
+  {
+   "name": "Dume Uroda of Šibenik",
+   "ahn": null,
+   "relation": "THE DEAD DUME URODA «od Šibenika» (of Šibenik, Dalmatia) — known only as the father of Simona, bride of 1739. Not the living Dume of the baptisms",
+   "event": "marriage",
+   "date": "7 June 1739",
+   "place": "Karlobag",
+   "citation": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 279 left: «Martina Svjata y Simonu pokoi[nog] Dume urode od Sibenika». See /lines/#uroda",
+   "slug": "dume-uroda-of-sibenik"
+  },
+  {
+   "name": "Pompeo Uroda",
+   "ahn": null,
+   "relation": "CAPORAL POMPEO (Pampao) URODA, a soldier at Drniš, Dalmatia — husband of Maria Anna Bachi; baptised children 1770–1780. A different family from the Karlobag Urode; the index spells him Janpao, Ganpas, Pompio and Tomaso",
+   "event": "baptism",
+   "date": "26 August 1778",
+   "place": "Drniš",
+   "citation": "Drniš baptisms (FamilySearch Croatia, Church Books 1516–1994, reference 112): «Caporal Pompeo Uroda et Maria Anna Bachi». See /lines/#uroda",
+   "slug": "pompeo-uroda"
   }
  ]
 }

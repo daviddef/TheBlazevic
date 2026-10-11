@@ -110,7 +110,7 @@ const cards = [
     <div class="photos">
       {cards.map(([f, cap]) => (
         <figure>
-          <img src={u(`/photos/line/${f}/`)} alt={cap} loading="lazy" />
+          <img src={u(`/photos/line/${f}`)} alt={cap} loading="lazy" />
           <figcaption>{cap}</figcaption>
         </figure>
       ))}

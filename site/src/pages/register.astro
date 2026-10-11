@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import register from "../data/register.json";
 import nf from "../data/namefold.json";
 /* THE REGISTER FOLDS TOO NOW. /people/ has folded spellings since it moved onto
@@ -77,7 +78,9 @@ const pretty = (g) => LABEL[g] || (groups.get(g)[0].surname || g);
     kind: KIND[r.kind] || r.kind,
     href: r.slug ? "/people/" + r.slug + "/" : "",
     chip: (r.kind === "swept" && !r.slug) ? "not in the tree" : "",
-    detail: r.detail,
+    /* the component takes HTML the page has already rendered, so the register's own
+       *italics* and ***bold*** were showing as asterisks (e.g. ***sin Matin***) */
+    detail: md(r.detail),
     source: r.source,
     sourceLabel: KIND[r.kind] || r.kind,
   })))} />
