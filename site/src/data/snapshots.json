@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 85,
- "images": 101,
+ "count": 86,
+ "images": 102,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -2355,6 +2355,29 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1739-jakomo-pilipich",
+   "entry": "karlobag-baptism-1739-jakomo-pilipich-line.png",
+   "page": "",
+   "title": "Karlobag, «30 [Oct or Nov] 1739» — Jakomo, son of a Jakov Pilipić; godparents Gn. Mik[ula] Zorović and Kate, wife of Gn. Antun Dorliga",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 82, left-hand page, the last entry on the page, headed «Na 30: [month] 1739»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SZ-B",
+   "says": "«Na 30: [Ovra] 1739: Korstih ja Plovan Andrij Kollekar korstih [sina] Jakova Pilipicha imenom Jakomo … [word not read: a place, perhaps «u kaštel»] … bi kum Gn. Mik[ula] Zorović a kuma Kate [Blizi?] Gn. Antona Dorliga.» THE INDEX DATES IT 30 NOVEMBER; THE MONTH WORD (an abbreviation ending «-ovra») COULD BE OCTOBER OR NOVEMBER AND IS NOT FIRM. The child's father is named «Jakov Pilipić» and the godparents are the town's gentry (Zorović; the wife of Antun Dorliga, who in 1767 is the criminal judge) — a man of standing, which fits a captain of the port. NO MOTHER IS NAMED. Several words in the middle of the entry are not read at this resolution. Read at about 3x.",
+   "slugs": [
+    "jacob-pilipic"
+   ],
+   "people": [
+    {
+     "slug": "jacob-pilipic",
+     "kind": "people",
+     "name": "Jacob Pilipic"
+    }
+   ],
+   "captured": "12 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2387,7 +2410,8 @@
   ],
   "jacob-pilipic": [
    "karlobag-marriage-1747",
-   "karlobag-death-1778-pilepich"
+   "karlobag-death-1778-pilepich",
+   "karlobag-baptism-1739-jakomo-pilipich"
   ],
   "catherina-catta-luckinic": [
    "karlobag-marriage-1747",
