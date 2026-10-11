@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 75,
- "images": 91,
+ "count": 81,
+ "images": 97,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1850,7 +1850,7 @@
    "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
    "where": "image 96, left-hand page (book page 170): the entry «Na 10 Maia 1744», at the foot of the page",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S6-W",
-   "says": "«Na 10 Maia 1744. Korstih sina Dume urode i njegove [že]ne Jerolime imenom [Gratiova?]. Bi kum Dno Antonio Alfier [?] Johetoni [?] Gnor … a kuma Gospodjena Mi[…] Agnerin neputa …». Baptism of a SON of Dume Uroda and Jerolima; the child's name is not read with confidence. Croatian text, about 3x; the godparents' names are a poor reading.",
+   "says": "«Na 10 Maia 1744. Korstih sina Dume urode i njegove [že]ne Jerolime imenom [Gratiova?]. Bi kum Dno Antonio Alfier [?] Johetoni [?] Gnor … a kuma Gospodjena Mi[…] Agnerin neputa …». Baptism of a SON of Dume Uroda and Jerolima; the child's name is not read with confidence. Croatian text, about 3x; the godparents' names are a poor reading. THE FAMILYSEARCH INDEX READS THIS CHILD AS «GIAKOVA» (JAKOV, JACOBUS) — a son named Jakov, so not Georgius; found 11 October 2026 under the spelling «Urode».",
    "slugs": [
     "dominicus-uroda"
    ],
@@ -1925,7 +1925,7 @@
    "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
    "where": "image 61, left-hand page (book page 106, headed «Na 14 Febora 1734»): the entry «Na 8 Marca 1734», about two-thirds of the way down",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
-   "says": "«Na 8 Marca 1734: Krstih sina Dume Urode alliti Horaca [or Kovaca] i njegove xene Eve imenom Dominico [?]. Bi kum Gior. Angelo Bakj[..] a kuma Marica xena Jane Mega [?]». A baptism to Dume Uroda and a wife named EVA five years before the Franica of December 1739 — the earliest child of this couple seen. The second word after «Dume Urode» (alias) is uncertain: Horaca or Kovaca. Read at about 3x; child's name and godparents' surnames are not firm.",
+   "says": "«Na 8 Marca 1734: Krstih sina Dume Urode alliti Kovaca [first read as Horaca] i njegove xene Eve imenom Dominico [?]. Bi kum Gior. Angelo Bakj[..] a kuma Marica xena Jane Mega [?]». A baptism to Dume Uroda and a wife named EVA five years before the Franica of December 1739 — the earliest child of this couple seen. The by-name after «alliti» was first read as Horaca; re-read at 3x on 11 October 2026 it is «kovaca» — a smith's by-name (kovač), which would tie Dume to the many Kovačević of Karlobag. Read at about 3x; child's name and godparents' surnames are not firm.",
    "slugs": [
     "dominicus-uroda"
    ],
@@ -2050,6 +2050,180 @@
    "says": "«Die 23 Octobris 1780. Ego Fr. Elias Soldich Parochus Curae Darnisij baptizavi infantem natum sub die 13 hujus, ex legitimis Conjugibus Domino Caporal Pompeo Uroda et Domina Maria Anna Bauchi. Cui nomen impositum Joseph. Patrinus fuit Dominus Angelus Sarich et Anna Maria …chin, omnes Milites.» THE INDEX READS THE FATHER AS «TOMASO»; THE PAGE READS POMPEO — so the Drniš baptisms of 1770, 1778 and 1780 are one man, Corporal Pompeo (Pampao) Uroda, and his wife Maria Anna Bachi/Bauchi, a soldier's household. Read at about 3x.",
    "slugs": [],
    "people": [],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1767-petrus-jacobus-uroda",
+   "entry": "karlobag-baptism-1767-petrus-jacobus-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 2 July 1767 — Petrus Jacobus, son of Georgius and Maria Uroda; godparents the criminal judge Antonius Dorliga and the wife of Antonius Iurich",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 161, left-hand page (book page 290, headed «Anno Dni 1767»): the first entry, «2 July»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99P-F",
+   "says": "«Ego Joannes Antonius Ivancovich Parochi Administrator baptizavi [Petrum] Jacobum filium legitimum jugalium Georgii et Mariae Uroda natum die 29 [Junii]. Levantibus e sacro fonte Dno Antonio Dorliga, Judice Criminali ac Dna [..]cica conjuge Dni Antonii Iurich.» The line is clipped at the right by the page curvature, so the child's first name and the godmother's own surname are not firm. The father's neighbours are officials, not kin that can be named.",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1769-heva-joanna-uroda",
+   "entry": "karlobag-baptism-1769-heva-joanna-uroda-line.jpg",
+   "page": "",
+   "title": "Karlobag, 28 December 1769 — Heva Joanna, daughter of Georgius and Maria Uroda; godparents the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorliga",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 173, right-hand page (book page 313, headed «Anno Dni 1769»): the entry «25 Xbris», above the heading «Anno Domini 1770»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SQ-F",
+   "says": "«Ego Jacobus Mallinarich Capellanus baptizavi Filiam die 28 hujus Mensis natam ex Georgio et Maria Uroda Conjugibus hujus Parochiae, cui impositum est nomen Heva Joanna. Patrini fuerunt Dnus Cancellarius Josephus Kumanovich et Dna Sancina Dorligo Antonij uxor.» (The margin says 25; the text says 28.)",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1772-maria-catharina-uroda",
+   "entry": "karlobag-baptism-1772-maria-catharina-uroda-line.jpg",
+   "page": "",
+   "title": "Karlobag, 29 April 1772 — Maria Catharina, daughter of Georgius and Maria Uroda; godparents the Chancellor Josephus Kumanović and his wife Joanna",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 187, left-hand page, headed «Anno Dni 1772»: the entry «29 ejusdem [Aprilis]», third on the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99D-Q",
+   "says": "«Rendus Dnus Jacobus Mallinarich Capellanus Cesaricensis baptizavit filiam heri natam ex Georgio et Maria Uroda Conjugibus hujus Parochiae cui impositum est Nomen Maria Catharina. Patrini fuere Dominus Josephus Kumarovich Cancellarius cum sua Dna Conjuge Joanna.» The same Chancellor as in 1769.",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1773-maria-heva-uroda",
+   "entry": "karlobag-baptism-1773-maria-heva-uroda-line.jpg",
+   "page": "",
+   "title": "Karlobag, September 1773 — Maria Heva, daughter of Georgius and Maria Uroda, «hujus loci Civibus»; godparents Antonius Pomsick and Aloysia, wife of Josephus Collini",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 191, right-hand page, headed «Anno Dni 1773»: the entry near the foot, before the first of October",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99R-B",
+   "says": "«Idem Admin[istrator] baptizavit Mariam Hevam filiam ante quinque dies natam ex Georgio et Maria Uroda hujus loci Civibus. Patrini de sacro fonte suscipientibus Dno Antonio Pomsick et Dna Aloysia conjuge Dni Josephi Collini.» The parents are called citizens (Cives) of the town.",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1780-antonius-uroda",
+   "entry": "karlobag-baptism-1780-antonius-uroda-line.jpg",
+   "page": "",
+   "title": "Karlobag, 13 June 1780 — Antonius, son of Dno Georgius and Maria Uroda; godparents the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 214, left-hand page, headed «Anno Dni 1780»: the last entry, «13 ejusdem» [June]",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99M-9",
+   "says": "«Idem qui supra Baptizavit Filium anteheri Natum ex Dno Georgio et Maria Uroda Conjugibus hujus Civitatis, cui impositum est nomen Antonius. Patrini fuerunt Dnus Vexillifer Antonius Klein, et Dna Catharina Conjux Dni pro Tribuni Joannis Kallinich de Zirfeld.» Both godparents are of the military garrison.",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1784-dominicus-christianus-uroda",
+   "entry": "karlobag-baptism-1784-dominicus-christianus-uroda-line.png",
+   "page": "",
+   "title": "Karlobag, 17 May 1784 — a son, Dominicus Christianus Joannes, of Dno Georgius and Dna Maria Uroda; godparents Nicolaus Samanich and Heva, wife of Joannes Butorović",
+   "film": "Karlobag births (Rođeni) 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 229, left-hand page, headed «Anno Dni 1784»: the second entry after «2 Moÿ», «17 ejusdem»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-S",
+   "says": "«Idem qui supra Capellanus loci baptizavi filium [heri] natum ex Dno Georgio et Dna Maria Uroda conjugibus hujus loci Parochiae. Cui impositum est nomen Dominici Cristiani Joannis. Levantibus e sacro fonte Dno Nicolao Samanich et Dna Heva uxore Dni Joannis Butorovic.» Georgius and Maria are Dominus and Domina here. The index lists this child as «Joannis».",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
@@ -2184,7 +2358,13 @@
    "karlobag-baptism-1752-03-12-jure-uroda",
    "karlobag-baptism-1752-03-21-dume-uroda",
    "karlobag-baptism-1752-04-03-jure-uroda",
-   "karlobag-baptism-1742-son-of-dume-uroda"
+   "karlobag-baptism-1742-son-of-dume-uroda",
+   "karlobag-baptism-1767-petrus-jacobus-uroda",
+   "karlobag-baptism-1769-heva-joanna-uroda",
+   "karlobag-baptism-1772-maria-catharina-uroda",
+   "karlobag-baptism-1773-maria-heva-uroda",
+   "karlobag-baptism-1780-antonius-uroda",
+   "karlobag-baptism-1784-dominicus-christianus-uroda"
   ],
   "mariam-gerkacs-gergacs": [
    "karlobag-death-1834-maria-uroda",
@@ -2197,7 +2377,13 @@
   "maria-uroda": [
    "karlobag-baptism-1777-uroda",
    "karlobag-baptism-1763-smojver-uroda-godparents",
-   "karlobag-baptism-1764-dominicus-uroda"
+   "karlobag-baptism-1764-dominicus-uroda",
+   "karlobag-baptism-1767-petrus-jacobus-uroda",
+   "karlobag-baptism-1769-heva-joanna-uroda",
+   "karlobag-baptism-1772-maria-catharina-uroda",
+   "karlobag-baptism-1773-maria-heva-uroda",
+   "karlobag-baptism-1780-antonius-uroda",
+   "karlobag-baptism-1784-dominicus-christianus-uroda"
   ],
   "antonija-tonka-perpic-prpic": [
    "krivi-put-baptism-1859-antonija-perpic",

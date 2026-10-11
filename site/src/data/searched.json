@@ -9,8 +9,8 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 40,
-  "partial": 24,
+  "nothing": 41,
+  "partial": 25,
   "pending": 6,
   "yield": 111
  },
@@ -4095,6 +4095,41 @@
    ],
    "got": "**Pompeo/Giampaolo/Tomaso Uroda × Maria Anna Bachi had their children baptised at Drniš (Šibenik): 13 March 1770, 5 April 1771, 26 August 1778, 23 October 1780** (four indexer spellings of probably one couple). Nothing links them to the Bacchi of Karlobag. **Betina (Šibenik) has another Uroda family**, with Simeone as the usual first name (children 1835–1854). **Barach** is a large Karlobag family (baptisms 1751–1825); **Margvart** is one household, Joannes × Vincentia (daughter baptised 7 November 1761). So the 1764 godparents are ordinary townspeople, and either surname is a candidate for Maria's maiden name. **Then the Drniš originals were opened (1770, 1778, 1780):** [1770](https://daviddef.github.io/TheBlazevic/snapshots/#drnis-baptism-1770-josepha-uroda) «Pampao Uroda … Militum», [1778](https://daviddef.github.io/TheBlazevic/snapshots/#drnis-baptism-1778-julia-magdalena-uroda) «Caporal Pompeo Uroda», [1780](https://daviddef.github.io/TheBlazevic/snapshots/#drnis-baptism-1780-joseph-uroda) «Caporal Pompeo Uroda» — the index's «Tomaso» is Pompeo, so one man, a corporal of the Dalmatian garrison, with Maria Anna Bachi.",
    "missed": "The 1771 Drniš entry and all the Betina records are index only; the Drniš volume's title and date range were not read off a catalogue page."
+  },
+  {
+   "src": "FamilySearch — Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), images 161, 173, 187, 191, 214, 229: the godparents at six baptisms of Georgius and Maria Uroda's children, 1767–1784",
+   "key": "fs/karlobag-births-1767-84-uroda-godparents",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99P-F",
+   "waypoint": "9RK1-3Y9",
+   "what": "Maria's maiden name, from a godparent who is her kin",
+   "when": "11 October 2026",
+   "outcome": "nothing",
+   "pages": "161, 173, 187, 191, 214, 229 (the entries only, in half-page strips)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "**No maiden name.** Godparents: 1767 the criminal judge Antonius Dorliga and the wife of Antonius Iurich; 1769 the Chancellor Josephus Kumanović and Sancina, wife of Antonius Dorligo; 1772 Kumanović and his wife Joanna; 1773 Antonius Pomsick and Aloysia, wife of Josephus Collini; 1780 the standard-bearer Antonius Klein and Catharina, wife of the pro-tribune Joannes Kallinich de Zirfeld; 1784 Nicolaus Samanich and Heva, wife of Joannes Butorović. Only Kumanović stands twice. Georgius and Maria are «Dominus» and «Domina», «Cives» of the town. Snapshots: [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1767-petrus-jacobus-uroda) · [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1769-heva-joanna-uroda) · [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1772-maria-catharina-uroda) · [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1773-maria-heva-uroda) · [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1780-antonius-uroda) · [https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1784-dominicus-christianus-uroda).",
+   "missed": "Only the entries were read, not the pages around them; the 1767 line is clipped at the right edge; 1764 and 1777 were read earlier."
+  },
+  {
+   "src": "FamilySearch — index of Croatia, Church Books 1516–1994: Uroda marriages 1745–1766 and Dume baptisms 1690–1716",
+   "key": "fs/index-uroda-marriage-and-dume-baptism",
+   "url": "https://www.familysearch.org/en/search/record/results?q.surname=Urod*&q.marriageLikeDate.from=1745&q.marriageLikeDate.to=1766&f.collectionId=2040054",
+   "what": "A marriage of Georgius Uroda and Maria; a baptism of Dume Uroda",
+   "when": "11 October 2026",
+   "outcome": "partial",
+   "tags": [
+    "uroda",
+    "familysearch",
+    "index",
+    "karlobag"
+   ],
+   "got": "**No marriage of Georgius and Maria** under any «Urod*» spelling. **The index does list Dume's children, under «Urode»:** Franica 1739, Giakova (Jakov) 10 May 1744, Marta 1745, **Lucia 17 December 1746** (new). Dume baptisms of 1690–1716: only three of April 1700 (Cerklyacić, Pavelić, Marasović) and one of 1706 (Sikić), none Uroda or Kovačević.",
+   "missed": "The index is partial and spells early names in the dative; absence from it proves nothing about the register."
   }
  ]
 }
