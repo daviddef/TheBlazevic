@@ -43,8 +43,15 @@ def main():
     for f in ("people.json", "ancestors.json"):
         for p in load(f):
             slugs.setdefault(p["slug"], ("people", p.get("name", p["slug"])))
+    by_ahn = {a["ahn"]: a for a in load("ancestors.json") if a.get("ahn") is not None}
     for r in load("found.json")["rows"]:
-        slugs.setdefault(r["slug"], ("found", r["name"]))
+        # A found row that carries an ahnentafel number is a reading about somebody the archive
+        # already publishes, and has NO page under /found/ (found/[slug].astro skips it). Point
+        # it at the published person instead, or the link is dead - which the build caught.
+        if r.get("ahn") and r["ahn"] in by_ahn:
+            slugs.setdefault(r["slug"], ("people", by_ahn[r["ahn"]]["name"], by_ahn[r["ahn"]]["slug"]))
+        else:
+            slugs.setdefault(r["slug"], ("found", r["name"]))
 
     rows, problems, seen_ids, seen_files = [], [], set(), {}
     for n, line in enumerate(open(SRC, encoding="utf-8"), 1):
@@ -78,7 +85,7 @@ def main():
             if s not in slugs:
                 problems.append(f"{sid}: slug {s} is not a person or found-person the site publishes")
             else:
-                people.append({"slug": s, "kind": slugs[s][0], "name": slugs[s][1]})
+                people.append({"slug": slugs[s][2] if len(slugs[s]) > 2 else s, "kind": slugs[s][0], "name": slugs[s][1]})
         if note and not os.path.exists(os.path.join(ROOT, note)):
             problems.append(f"{sid}: note {note} does not exist")
         rows.append({

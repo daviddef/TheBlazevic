@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 57,
- "images": 72,
+ "count": 59,
+ "images": 74,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1639,6 +1639,70 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-1838-pilipic.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1838-pilipic.md"
+  },
+  {
+   "id": "karlobag-baptism-1763-smojver-uroda-godparents",
+   "entry": "",
+   "page": "karlobag-baptism-1763-smojver-uroda-godparents-page.jpg",
+   "title": "Karlobag, 2 November 1763 — Georgius and his wife Maria Uroda stand godparents to Carolus, son of Paulus and Ursula Smojver",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 149, left-hand page (book page 266), headed «Anno Domini 1763»: the first entry on the page, «Die 2da Novembris»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99V-6",
+   "says": "«Die 2da Novembris. Josephus Suvich Parochus baptizavi Carolum filium Pauli et Ursulae Smoivar, levantibus e sacro Fonte patrinis Georgio ac ejus conjuge Maria Uroda». The first time this archive has seen Georgius and Maria Uroda together as a couple in a register, six months before the baptism of their first known child; the godchild's family name is written «Smoivar», read as Smojver (the surname of ahnentafel 212 and 106) but not proved to be the same family. The husband's surname is not written, only the wife's, and the page does not say these are ahnentafel 108 and 109.",
+   "slugs": [
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1764-dominicus-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1764-dominicus-uroda-page.jpg",
+   "title": "Karlobag, 6 May 1764 — Joannes Dominicus, son of Georgius and Maria Uroda (godparents Antonio Barach of Šibenik and Vincentia, wife of Joannes Margvart)",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 151, left-hand page (book page 270), headed «Anno Domini 1764»: the second entry, «Die 6ta May»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L998-Y",
+   "says": "«Die 6ta May. Jose: Suvich Parochus baptizavi Joannem Dominicum filium Georgij et Maria Uroda, levantibus a sacro Fonte patrinis Antonio Barach e [Šibenik] ac Vincentia conjuge Joannis Margvart». The child's name is JOANNES DOMINICUS, where the index has «Dominicum». The first known child of ahnentafel 108 and 109; one godfather is from Šibenik. Read at about 1.5x.",
+   "slugs": [
+    "dominicus-uroda",
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda",
+     "kind": "found",
+     "name": "Dominicus Uroda"
+    },
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -1762,7 +1826,9 @@
   ],
   "georgi-uroda": [
    "karlobag-death-1791-uroda",
-   "karlobag-baptism-1777-uroda"
+   "karlobag-baptism-1777-uroda",
+   "karlobag-baptism-1763-smojver-uroda-godparents",
+   "karlobag-baptism-1764-dominicus-uroda"
   ],
   "mariam-gerkacs-gergacs": [
    "karlobag-death-1834-maria-uroda",
@@ -1773,7 +1839,9 @@
    "karlobag-baptism-1777-uroda"
   ],
   "maria-uroda": [
-   "karlobag-baptism-1777-uroda"
+   "karlobag-baptism-1777-uroda",
+   "karlobag-baptism-1763-smojver-uroda-godparents",
+   "karlobag-baptism-1764-dominicus-uroda"
   ],
   "antonija-tonka-perpic-prpic": [
    "krivi-put-baptism-1859-antonija-perpic",
@@ -1889,6 +1957,9 @@
    "selce-death-1882-maria-antic",
    "selce-baptism-1809-maria-jellicic",
    "selce-marriage-1835-antic-jellicic"
+  ],
+  "dominicus-uroda": [
+   "karlobag-baptism-1764-dominicus-uroda"
   ]
  }
 }
