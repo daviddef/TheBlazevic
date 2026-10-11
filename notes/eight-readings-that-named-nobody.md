@@ -63,3 +63,7 @@ ejus nata Sekula*» — and she had nothing. She has a row now.
 
 **One case out of eight is not a systemic fault**, and it is worth saying so rather than
 building a tool for it.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [otocac-baptism-1835-maria-oreskovic](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-baptism-1835-maria-oreskovic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

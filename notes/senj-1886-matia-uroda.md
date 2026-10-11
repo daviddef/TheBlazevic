@@ -126,3 +126,7 @@ baptism wins without argument.
 He is **Pilepić** here and **Pilipić** on his wife's entry eleven years earlier —
 the same clerk's office, the same family, two spellings. Added to the list that
 already holds *Pilipić · Pillepich · Pilepić · Pipić*.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [senj-death-1886-matija-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1886-matija-pilipic); [senj-death-1897-vicko-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1897-vicko-pilipic); [senj-death-1907-toma-blazevic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1907-toma-blazevic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

@@ -62,3 +62,7 @@ have been read at full resolution.** The archive already has a rule about
 reading scans at full size before recording a date; this extends it. A null is a
 claim, and in a book that changes language partway through it is the most
 fragile claim available.
+
+## The page itself (snapshots)
+
+[otocac-death-1849-marija-findric](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-death-1849-marija-findric), with the film, the image number and a link to the viewer; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

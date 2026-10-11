@@ -66,3 +66,7 @@ Shumcchicza N° 2* straight into the *Nomen, Cognomen Defuncti* column, in the
 middle of the very years the baptisms go silent. **The Otočac deaths of
 1834–1858 are therefore a house-number source for 1836–1845, where the baptisms
 are not** — and that is worth more than one ancestor.
+
+## The page itself (snapshots)
+
+[otocac-death-1838-toma-zubrinic](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-death-1838-toma-zubrinic), with the film, the image number and a link to the viewer; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

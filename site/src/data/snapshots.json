@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 36,
- "images": 46,
+ "count": 43,
+ "images": 53,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1048,6 +1048,203 @@
    "captured": "11 October 2026",
    "note": "notes/martin-kozina-came-from-carniola.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/martin-kozina-came-from-carniola.md"
+  },
+  {
+   "id": "senj-death-1886-matija-pilipic",
+   "entry": "",
+   "page": "senj-death-1886-matija-pilipic-page.jpg",
+   "title": "Senj, 9 February 1886 — Matija Pilepić, wife of Vicko Pilepić, aged 78",
+   "film": "Senj deaths (Umrli) 1859–1907 (FamilySearch waypoint 9R2D-K6D)",
+   "where": "image 370, left-hand page: entry no. 13, the sixth row (the page is headed by the year 1886; entries of 29 January to 9 February)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1HVP",
+   "says": "«13. 1886 dne 9 veljače · Matija Pilepić, žena · Vicko Pilepić, fin. stražar u miru, njezin muž · Karlobag [birthplace] · Senj · rim. kat. · 78». Ahnentafel 27's death, naming her husband (ahnentafel 26) with his occupation. A printed Latin-and-Croatian table, read at about 3x.",
+   "slugs": [
+    "matia-mathiam-georgiam-uroda",
+    "vicentius-andreas-vincent-pilipic"
+   ],
+   "people": [
+    {
+     "slug": "matia-mathiam-georgiam-uroda",
+     "kind": "people",
+     "name": "Matia (Mathiam Georgiam) Uroda"
+    },
+    {
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "kind": "people",
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/senj-1886-matia-uroda.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md"
+  },
+  {
+   "id": "senj-death-1897-vicko-pilipic",
+   "entry": "",
+   "page": "senj-death-1897-vicko-pilipic-page.jpg",
+   "title": "Senj, 14 November 1897 — Vicko Pilepić, retired financial guard, widower, «navodno 93»",
+   "film": "Senj deaths (Umrli) 1859–1907 (FamilySearch waypoint 9R2D-K6D)",
+   "where": "image 513, left-hand page (printed p. 98): entry no. 70, the eighth row, «1897 studenoga 14»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14RR",
+   "says": "«70. 1897 studenoga 14 · Vicko Pilepić, finanse nadmernar [finan. nadzornik?] u miru · Udovac · Karlobag · Senj · rim. kat. · navodno 93 god.». Ahnentafel 26's death; the clerk marks the age as hearsay («navodno»), and the page gives no cause in this crop.",
+   "slugs": [
+    "vicentius-andreas-vincent-pilipic"
+   ],
+   "people": [
+    {
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "kind": "people",
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/senj-1886-matia-uroda.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md"
+  },
+  {
+   "id": "senj-death-1907-toma-blazevic",
+   "entry": "",
+   "page": "senj-death-1907-toma-blazevic-page.jpg",
+   "title": "Senj, 26 July 1907 — Toma Blažević, day-labourer, widower of the late Tereza, aged 69",
+   "film": "Senj deaths (Umrli) 1859–1907 (FamilySearch waypoint 9R2D-K6D)",
+   "where": "image 640, left-hand page (printed p. 225): entry no. 60, the fifth row, «1907 srpnja 26»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14XR",
+   "says": "«60. 1907 srpnja 26 · Blažević Toma, nadničar · Udovac iza pok. Tereze · [born] sv. Jakov Krmpote · Senj · Rk. · 69 god.». Ahnentafel 8's death: the register names his late wife Tereza (ahnentafel 9), putting her death before 1907. The cause column is on the right-hand page, which was not captured.",
+   "slugs": [
+    "toma-tomislav-blazevic",
+    "tereza-pecanic"
+   ],
+   "people": [
+    {
+     "slug": "toma-tomislav-blazevic",
+     "kind": "people",
+     "name": "Toma Tomislav Blazevic"
+    },
+    {
+     "slug": "tereza-pecanic",
+     "kind": "people",
+     "name": "Tereza Pećanić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/senj-1886-matia-uroda.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1886-matia-uroda.md"
+  },
+  {
+   "id": "otocac-baptism-1835-maria-oreskovic",
+   "entry": "",
+   "page": "otocac-baptism-1835-maria-oreskovic-page.jpg",
+   "title": "Otočac, 8 September 1835 — Maria Catharina Orešković, daughter of Marcus Oreskovich «adoptatus Sekula» and Lucia née Sekula, Dubrava 29",
+   "film": "Otočac births 1834–1846 (FamilySearch waypoint 9RK1-N3B; printed Latin table)",
+   "where": "image 13, right-hand half of the image (printed page number 10): entry no. 41, the second row, «1835 Septembris die 8va»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GRSC",
+   "says": "«Maria Catharina, filia legitima, Confiniarius ex Pago Dubrava N° D.29, Marcus Oreskovich, adoptatus [Sekula], et Lucia uxor ejus nata Sekula, Catholici», sponsors and the baptising chaplain Matthaeus Mattasich in the next columns; protocol no. 41. Ahnentafel 21's baptism, naming her parents (ahnentafel 42 and 43) and the house.",
+   "slugs": [
+    "maria-catharina-oreskovic-oreskovic",
+    "marcus-oreskovic-oreskovic",
+    "lucia-sekula"
+   ],
+   "people": [
+    {
+     "slug": "maria-catharina-oreskovic-oreskovic",
+     "kind": "people",
+     "name": "Maria Catharina Orešković Oreskovic"
+    },
+    {
+     "slug": "marcus-oreskovic-oreskovic",
+     "kind": "people",
+     "name": "Marcus Orešković Oreskovic"
+    },
+    {
+     "slug": "lucia-sekula",
+     "kind": "people",
+     "name": "Lucia Sekula"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/eight-readings-that-named-nobody.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/eight-readings-that-named-nobody.md"
+  },
+  {
+   "id": "otocac-death-1838-toma-zubrinic",
+   "entry": "",
+   "page": "otocac-death-1838-toma-zubrinic-page.jpg",
+   "title": "Otočac, 4 January 1838 — Thomas Xubrinich, border-guardsman, of Šumećica No. 2, aged 70",
+   "film": "Otočac births 1846–1858 and deaths 1834–1858 (FamilySearch waypoint 9RK1-Y4C)",
+   "where": "image 117, right-hand half (printed page 45): entry no. 3 of «Anno Domini 1838», the third row below the year heading",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-PVR4",
+   "says": "«1838 Januarii die 4ta · Thomas Xubrinich, Incola Otočanus Centuriae Confiniariae, ex Pago Shumechiza N° 2 · aet. 70 · Senectutis debilitas · … Matthaeus Mattasich, Administrator [priest]; protocol no. 3». Ahnentafel 40's death; the house, Šumećica 2, is the house of his son's and grandson's later baptisms.",
+   "slugs": [
+    "toma-zubrinic"
+   ],
+   "people": [
+    {
+     "slug": "toma-zubrinic",
+     "kind": "people",
+     "name": "Toma Žubrinić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/otocac-toma-zubrinic-1838.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-toma-zubrinic-1838.md"
+  },
+  {
+   "id": "otocac-death-1849-marija-findric",
+   "entry": "",
+   "page": "otocac-death-1849-marija-findric-page.jpg",
+   "title": "Otočac, 29 July 1849 — Maria Žubrinić, widow, aged 69, buried in the parish vault",
+   "film": "Otočac births 1846–1858 and deaths 1834–1858 (FamilySearch waypoint 9RK1-Y4C)",
+   "where": "image 167, left-hand half (printed page 153): entry no. 53, the third row, «Leta 1849 dne 29 Srpnja»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PVHR",
+   "says": "«Leta 1849 dne 29 Srpnja preminula je · Maria Žubrinić, udovica · 69 · slaboća starosti po dokazu liečnika · sa svetimi otajstvi umirućih providjena · u župničkoj grobnici»; protocol no. 53. Ahnentafel 41's death, entered under her married name; the register does not give her maiden name (Findrić), which comes from other documents. Read at about 3x in a Croatian-language table.",
+   "slugs": [
+    "marija-findric"
+   ],
+   "people": [
+    {
+     "slug": "marija-findric",
+     "kind": "people",
+     "name": "Marija Findrić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/otocac-marija-findric-1849.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md"
+  },
+  {
+   "id": "otocac-baptism-1856-stephanus-zubrinic",
+   "entry": "",
+   "page": "otocac-baptism-1856-stephanus-zubrinic-page.jpg",
+   "title": "Otočac, 3 July 1856 — Stephanus, son of Nicolaus Xubrinich and Anna «nata Štrumbulko», Šumećica No. 2",
+   "film": "Otočac births 1846–1858 and deaths 1834–1858 (FamilySearch waypoint 9RK1-Y4C)",
+   "where": "image 76, right-hand half (the page after 18 June 1856, printed number 137): entry no. 49, the seventh row, «Anno Domini 1856 die 3 Julii»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PK2C",
+   "says": "«Stephanus, filius legitimus, Romano-Catholicus · Confiniarius ex Pago Shumechiza N° 2 · [father] Nicolaus Xubrinich et [mother] Anna uxor ejus nata Štrumbulko [Strumbulko], Romano-Catholici», baptised by Josephus Mazuranić, parish priest; protocol no. 49. Names ahnentafel 10 and 11 and the house; the mother is entered here with the by-name Štrumbulko and in 1858 as Marić. The surnames are read at one zoom from a dense Latin table; the entry was found by the date and house number.",
+   "slugs": [
+    "nicolaus-zubrinic-xubrinic",
+    "ana-shambul-maric",
+    "stephanus-zubrinic-1856"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-zubrinic-xubrinic",
+     "kind": "people",
+     "name": "Nicolaus \"Nikola\" Žubrinić (Xubrinic)"
+    },
+    {
+     "slug": "ana-shambul-maric",
+     "kind": "people",
+     "name": "Ana Shambul Marić"
+    },
+    {
+     "slug": "stephanus-zubrinic-1856",
+     "kind": "found",
+     "name": "Stephanus Zubrinic"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/ana-maric-plan.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/ana-maric-plan.md"
   }
  ],
  "bySlug": {
@@ -1223,6 +1420,43 @@
   ],
   "pavao-kosina": [
    "senj-marriage-1919-kosina-blazevic"
+  ],
+  "matia-mathiam-georgiam-uroda": [
+   "senj-death-1886-matija-pilipic"
+  ],
+  "vicentius-andreas-vincent-pilipic": [
+   "senj-death-1886-matija-pilipic",
+   "senj-death-1897-vicko-pilipic"
+  ],
+  "toma-tomislav-blazevic": [
+   "senj-death-1907-toma-blazevic"
+  ],
+  "tereza-pecanic": [
+   "senj-death-1907-toma-blazevic"
+  ],
+  "maria-catharina-oreskovic-oreskovic": [
+   "otocac-baptism-1835-maria-oreskovic"
+  ],
+  "marcus-oreskovic-oreskovic": [
+   "otocac-baptism-1835-maria-oreskovic"
+  ],
+  "lucia-sekula": [
+   "otocac-baptism-1835-maria-oreskovic"
+  ],
+  "toma-zubrinic": [
+   "otocac-death-1838-toma-zubrinic"
+  ],
+  "marija-findric": [
+   "otocac-death-1849-marija-findric"
+  ],
+  "nicolaus-zubrinic-xubrinic": [
+   "otocac-baptism-1856-stephanus-zubrinic"
+  ],
+  "ana-shambul-maric": [
+   "otocac-baptism-1856-stephanus-zubrinic"
+  ],
+  "stephanus-zubrinic-1856": [
+   "otocac-baptism-1856-stephanus-zubrinic"
   ]
  }
 }

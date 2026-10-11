@@ -283,3 +283,7 @@ hypothesis — the element is not a Lika surname, so it is unlikely to be hers a
 a surname — and it is a warning: a reader who takes *«Shambul Marić»* at face
 value and searches the surname will land among people who are certainly not this
 family, with real records, in the wrong county.
+
+## The page itself (snapshots)
+
+Stephanus's baptism of 3 July 1856, Otočac image 76: [otocac-baptism-1856-stephanus-zubrinic](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-baptism-1856-stephanus-zubrinic). The 15 September 1858 entry of Marija (the «Anna Marić» reading) was looked for on 11 October 2026 at images 86–88 of the same film and **not found on the pages that read cleanly**: image 87's left page is a loose sheet laid over the page and carries only June–July 1858, and the right page jumps to November — so the September entry is probably under the loose sheet. Not captured.
