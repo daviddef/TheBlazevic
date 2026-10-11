@@ -1,0 +1,112 @@
+---
+import Base from "../layouts/Base.astro";
+import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
+import { u } from "../lib/url.js";
+import lines from "../data/lines.json";
+
+/* 11 October 2026. Asked for by David after seeing Defranceski's «Six families,
+   one surname»: did this archive have a picture like that? It had none, and
+   Uroda is the surname that needed it — three groups at Karlobag, a dead man of
+   Šibenik, and two Dalmatian families of the index all answer to the one name,
+   and a reader (or this archive) who met «Dume Uroda» twice would have merged
+   them.
+
+   The drawing is the kit's BranchRivers, which three archives had already
+   drawn by hand. The unplaced and loose footers are passed empty and listed
+   below the figure instead, with a sentence and a link each, which is more than
+   the figure can hold and keeps them on the page. WHAT IS THIS ARCHIVE'S ALONE
+   is the data, and the rule: a lane is a family the registers show, a dotted
+   bridge is a join no document makes, and nothing is merged until one does. */
+const set = lines.sets[0];
+const snap = (id) => u(`/snapshots/#${id}`);
+---
+<Base title="The Lines of a Name"
+      eyebrow="Uroda — six groups, one surname"
+      dek={set.dek}>
+
+  <section class="blk">
+    <p class="lede">
+      They are not one family, and nothing read so far says they were. The same name turns up at
+      Karlobag in three households, in the mouth of a dead man «of Šibenik», and in two Dalmatian
+      families of the index. <strong>So each gets a lane of its own.</strong> What is documented
+      goes on the lane; a join between lanes is drawn dotted and says what it rests on; nothing is
+      merged until a register joins it.
+    </p>
+  </section>
+
+  <section class="blk">
+    <figure class="rivers">
+      <BranchRivers rivers={{ ...set, unplaced: [], loose: [] }} caption="" />
+      <figcaption>
+        Hover or tab any dot and it says what the register behind it says; click again to go there.
+        <strong>The top lane is the only one this archive descends from.</strong> The dotted curves
+        are candidate joins between lanes, on evidence short of a document: «same name, Šibenik»
+        and «the 1742 son» are questions, not findings. A dotted end-point is a hope, not a link.
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="blk">
+    <div class="note"><strong>One spelling is not a search.</strong> The registers write
+    <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index
+    reads one Karlobag father as <em>Sime</em>, and one Drniš father four ways (<em>Janpao,
+    Ganpas, Pompio, Tomaso</em>). At Karlobag in 1734 a priest writes <strong>«Dume urode alliti
+    Horaca»</strong> — a by-name — and before the 1730s the book has <em>no</em> Uroda at all, so
+    a baptism of the man himself would sit under another surname. See
+    <a href={u("/by-names/")}>The Second Name</a>.</div>
+  </section>
+
+  <section class="blk" id="lines">
+    <div class="lab">What each line stands on</div>
+    <h2>The six groups, and the pages behind them</h2>
+    {set.lanes.map((l) => (
+      <div class="qa" id={l.key} style="margin:1.3rem 0">
+        <h3 style={`color:${l.colour}`}>{l.label}</h3>
+        <p class="dim mono" style="font-size:.78rem">{l.conf}</p>
+        <ol style="margin:.5rem 0 0;padding-left:1.2rem">
+          {l.nodes.map(([place, year, why]) => (
+            <li style="margin:.35rem 0"><strong>{place}</strong> · <span class="mono">{year}</span> — {why}</li>
+          ))}
+        </ol>
+        {set.sources[l.key]?.length > 0 && (
+          <p style="margin-top:.7rem">The pages themselves:
+            {set.sources[l.key].map(([label, id], i) => (
+              <>{i ? " · " : " "}<a href={snap(id)}>{label}</a></>
+            ))}
+          </p>
+        )}
+        {l.ends.map(([e, , why]) => (
+          <p class="dim" style="margin:.4rem 0 0">→ <strong>{e}</strong>: {why}</p>
+        ))}
+      </div>
+    ))}
+  </section>
+
+  <section class="blk">
+    <h2>Real households of the name, not yet on any lane</h2>
+    <ul style="padding-left:1.1rem">
+      {set.unplaced.map(([name, href, why]) => (
+        <li style="margin:.4rem 0"><a href={u(href)}><strong>{name}</strong></a> — {why}</li>
+      ))}
+    </ul>
+    <h2 style="margin-top:1.6rem">Attached to no line here</h2>
+    <ul style="padding-left:1.1rem">
+      {set.loose.map(([name, href, why]) => (
+        <li style="margin:.4rem 0"><a href={u(href)}><strong>{name}</strong></a> — {why}</li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="blk">
+    <div class="note"><strong>What each lane owes.</strong> A lane carries three things: what is
+    documented, what is inferred, and <em>what would have to be found to join it to another</em>.
+    For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name, in the 1700s),
+    <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804;
+    perhaps Dalmatia), <strong>Maria's maiden name</strong> (the 1764 godparents Barach and
+    Margvart are only candidates), and <strong>the Šibenik and Drniš baptisms themselves</strong>.
+    The full list is on <a href={u("/worklist/")}>the work list</a>. The Karlobag mother-side
+    surnames — Pilipić, Smojver, Gerkacs, Bacchi, Luckinić — will get the same page when each has
+    a second family of its name to be told apart from.</div>
+  </section>
+
+</Base>

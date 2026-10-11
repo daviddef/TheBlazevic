@@ -70,6 +70,7 @@ HAND_KEPT = {
     "namefold-extra.json":   "surname folding, the exceptions",
     "photograph-these.json": "what to photograph next time somebody is at a grave",
     "recent.json":           "what changed lately",
+    "lines.json":            "the lines of a surname — which families of one name are kept in separate lanes until a document joins them. Conclusions somebody reached",
 }
 
 ORDER = [
