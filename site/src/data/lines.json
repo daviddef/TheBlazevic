@@ -2,7 +2,7 @@
  "sets": [
   {
    "name": "Uroda",
-   "dek": "Six groups of one surname — three at Karlobag, one dead man of Šibenik, and two Dalmatian families of the index. Only the top lane is ours, and the joins between the others are drawn dotted because no document makes them.",
+   "dek": "Six groups of one surname — three at Karlobag, one dead man of Šibenik, and a soldier's family at Drniš and another at Betina. Only the top lane is ours, and the joins between the others are drawn dotted because no document makes them.",
    "lanes": [
     {
      "key": "georgius",
@@ -148,37 +148,37 @@
     {
      "key": "drnis",
      "colour": "#4f8a5b",
-     "label": "Drniš — Giampaolo / Pompeo × Maria Anna Bachi",
-     "conf": "INDEX ONLY · FOUR SPELLINGS OF ONE FATHER · THE ORIGINALS NOT OPENED · NO TIE TO KARLOBAG SHOWN",
-     "read": "Where it was found →",
-     "href": "/searched/",
+     "label": "Drniš — Caporal Pompeo Uroda × Maria Anna Bachi (soldiers)",
+     "conf": "DOCUMENTED ON THE PAGES, 1770–1780 · THE 1771 ENTRY STILL INDEX ONLY · A SOLDIER'S HOUSEHOLD · NO TIE TO KARLOBAG SHOWN",
+     "read": "The Drniš pages →",
+     "href": "/snapshots/#drnis-baptism-1770-josepha-uroda",
      "nodes": [
       [
        "Josepha",
        "13 Mar 1770",
-       "Josepha — father indexed «Janpao», mother Marana Bachi"
+       "Josepha, born 1 March — «Pampao Uroda» and Mariana Bachi, «Militum», godparents also soldiers (Franciscan Fr. Josephus Jakick)"
       ],
       [
-       "Dominica Oliva",
+       "Dominica",
        "5 Apr 1771",
-       "Dominica Oliva — «Ganpas» and Mariana Baich"
+       "Dominica Oliva — the index reads «Ganpas» and Mariana Baich; the page not yet opened"
       ],
       [
-       "Julia Magdalena",
+       "Julia",
        "26 Aug 1778",
-       "Julia Magdalena — «Pompio» and Maria Anna Bachi"
+       "Julia Magdalena — «Caporal Pompeo Uroda» and Maria Anna Bachi; the godfather a Serdar"
       ],
       [
        "Joseph",
        "23 Oct 1780",
-       "Joseph — «Tomaso» and Maria Anna Bauhi"
+       "Joseph — «Domino Caporal Pompeo Uroda» and Domina Maria Anna Bauchi; the index misreads the father as Tomaso"
       ]
      ],
      "ends": [
       [
-       "Šibenik district",
-       "/searched/",
-       "Drniš lies in the Šibenik hinterland, the same district Dume's «od Šibenika» names — a district, not a link"
+       "Soldiers of Drniš",
+       "/snapshots/#drnis-baptism-1778-julia-magdalena-uroda",
+       "A corporal of the Dalmatian garrison; a Šibenik-district name, but a district is not a link"
       ]
      ]
     },
@@ -351,7 +351,20 @@
       "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik"
      ]
     ],
-    "drnis": [],
+    "drnis": [
+     [
+      "Josepha 1770",
+      "drnis-baptism-1770-josepha-uroda"
+     ],
+     [
+      "Julia Magdalena 1778",
+      "drnis-baptism-1778-julia-magdalena-uroda"
+     ],
+     [
+      "Joseph 1780",
+      "drnis-baptism-1780-joseph-uroda"
+     ]
+    ],
     "betina": []
    }
   }
