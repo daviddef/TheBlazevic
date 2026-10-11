@@ -12,7 +12,7 @@
   "nothing": 39,
   "partial": 24,
   "pending": 6,
-  "yield": 107
+  "yield": 108
  },
  "read": [
   {
@@ -4001,6 +4001,25 @@
    ],
    "got": "**Found: 2 November 1763, Georgius and his wife Maria Uroda godparents to a child of Paulus and Ursula Smojver** (image 149), and the 6 May 1764 baptism of **Joannes Dominicus** (image 151), both kept as [snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1763-smojver-uroda-godparents). In July 1763 (image 148) a godmother reads as «Francesca Uroda» at one zoom, not checked. No Uroda appears as a parent on the other pages read. Map: image 145 = Jan 1763, 147 = Feb–Jun 1763, 148 = Jul–Dec 1763, 149 = Nov 1763–Feb 1764, 150 = Feb–Apr 1764, 151 = May–Jul 1764; image 324 is the END card of the 1771–1804 item and there is no births index in this film.",
    "missed": "The cursive was skimmed at about 1x and a surname in a godparent line is easy to miss; images 100–144 (1750–1762) were not read for Uroda. Cardboard flaps and a loose slip hide part of images 145 and 146."
+  },
+  {
+   "src": "FamilySearch — Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 112–116 read entry by entry, January 1750 – June 1752: Uroda as parents or godparents",
+   "key": "fs/karlobag-births-1750-52-uroda-read",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+   "waypoint": "9RK1-3Y9",
+   "what": "Any Uroda baptism or godparent entry, 1750–June 1752",
+   "when": "11 October 2026",
+   "outcome": "yield",
+   "pages": "112 (both, in strips), 113 (both), 114 (both), 115 (both), 116 (both)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "karlobag",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "**No Uroda child baptised.** Found five godparent entries ([snapshots](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1752-03-12-jure-uroda)): a widow Jerolima «udova … Dume Uroda» godmother on 23 Apr 1750, 25 Apr 1751, 21 Mar and 3 Apr 1752, and **«Jure Uroda» godfather with her on 12 Mar 1752**. Dume (Dominicus) Uroda was therefore dead by April 1750. Map: image 112 = Jan–Jun 1750 (book page 200), 113 = Sep 1750 – Feb 1751, 114 = Feb–Aug 1751, 115 = Aug 1751 – Feb 1752, 116 = Feb–Jun 1752.",
+   "missed": "Read at about 2x in half-page strips; cursive godparent surnames can still be missed, so «no parent» is a probable negative, not a certain one. Not marked walked."
   }
  ]
 }

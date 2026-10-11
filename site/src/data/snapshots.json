@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 59,
- "images": 74,
+ "count": 64,
+ "images": 79,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -1703,6 +1703,121 @@
    "captured": "11 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1750-04-jerolima-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1750-jerolima-uroda-line.png",
+   "title": "Karlobag, 23 April 1750 — Jerolima, widow (udova) Uroda, godmother",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 112, left-hand page (book page 200, «Lěto 1750»): the entry of «Dan 23 Apla», a crop of three lines",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+   "says": "Croatian-language baptism entry; the godparents are «Tadia Kovacevich i Jerolima udova Uroda» (read at about 2x). The first appearance of Jerolima, a widow named Uroda, in these pages.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1751-04-jerolima-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1751-jerolima-uroda-line.png",
+   "title": "Karlobag, 25 April 1751 — Jerolima, widow Uroda, godmother",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 114, right-hand page (book page 205 head, «Dan 25 Aprila 1751»): the first entry of the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SN-C",
+   "says": "«… kumi Pop Miko Martin … i udova Jerolima Uroda»: the priest's own kin stand with her. Read at about 2x.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1752-03-12-jure-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1752-03-12-jure-uroda-line.png",
+   "title": "Karlobag, 12 March 1752 — «Jure Uroda» and Jerolima, widow of Dume Uroda, godparents",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 116, left-hand page (book page 208, «Lěta 1752»): the entry of «Dan 12 Marca», fourth from the top",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
+   "says": "«… Martina i … Maxuran. Bihu kumi Jure Uroda i Gjerolima udova [Sokoić] Dume Uroda». A man called JURE URODA (Georgius) is godfather with the widow of a Dume (Dominicus) Uroda. The word between «udova» and «Dume» is read as Sokoić and is uncertain.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1752-03-21-dume-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1752-03-21-dume-uroda-line.png",
+   "title": "Karlobag, 21 March 1752 — Jerolina, widow [Sokoić] «Dume Uroda», godmother",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 116, left-hand page (book page 208), the entry of «Dan 21 Detto» (21 March) at the foot",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
+   "says": "«… Ivana … bihu kumi Lorenco Curtellini [od Sibenika?] i Gjerolina udova Sokoić Dume Uroda». The widow is named with her husband's name Dume Uroda.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1752-04-03-jure-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1752-04-03-jure-uroda-line.png",
+   "title": "Karlobag, 3 April 1752 — «Jure» and Jerolina, widow [Sokoić] Dume Uroda, godparents",
+   "film": "Karlobag births (Rođeni) 1691–1770 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 116, right-hand page (book page 209, «Dan 2 Aprila 1752»): the second entry, «Dan 3 Aprila»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9SP-G",
+   "says": "«Dan 3 Aprila … sina Pavla i Franice Bevandich. Bihu kumi Jure i Gjerolina udova [Sokoić] Dume Uroda». Here the godfather is written only «Jure»; a word «Uroda» appears to be written over the line above it, and I read this as the same Jure Uroda as on 12 March; not certain.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -1828,7 +1943,12 @@
    "karlobag-death-1791-uroda",
    "karlobag-baptism-1777-uroda",
    "karlobag-baptism-1763-smojver-uroda-godparents",
-   "karlobag-baptism-1764-dominicus-uroda"
+   "karlobag-baptism-1764-dominicus-uroda",
+   "karlobag-baptism-1750-04-jerolima-uroda",
+   "karlobag-baptism-1751-04-jerolima-uroda",
+   "karlobag-baptism-1752-03-12-jure-uroda",
+   "karlobag-baptism-1752-03-21-dume-uroda",
+   "karlobag-baptism-1752-04-03-jure-uroda"
   ],
   "mariam-gerkacs-gergacs": [
    "karlobag-death-1834-maria-uroda",
