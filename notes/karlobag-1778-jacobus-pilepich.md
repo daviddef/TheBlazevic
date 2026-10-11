@@ -108,3 +108,7 @@ difference between finding an ancestor and writing a null.
 **And the register agrees with the baptism, with a different connector.** 1776
 says ***dictus* Vukcich**; 1781 says ***vulgò* Vukić**. Same pair, two
 connectors, five years apart, in the same parish.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1778-pilepich](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1778-pilepich); [karlobag-death-1776-smojver](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1776-smojver); [karlobag-death-1783-gerkacs](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1783-gerkacs); [karlobag-death-1790-luckinic](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1790-luckinic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

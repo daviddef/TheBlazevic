@@ -83,3 +83,7 @@ has not demonstrated.**
 **1771–1804** are filmed on **DGS 5481648** with an index (*Kazalo rođeni A–V*).
 If his father is named there, the join is made or broken in one entry — and the
 book is the one this archive has already opened for other people.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1791-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1791-uroda). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

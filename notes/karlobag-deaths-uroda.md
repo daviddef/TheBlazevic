@@ -109,3 +109,7 @@ index is a finding aid and not a record. Both agreed with it. And the archive's
 own rule earned its keep again: the **1817** Georgius was the obvious answer,
 the one a hurried reader would have taken — and one word on a different page,
 *uxor*, killed it.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1834-maria-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1834-maria-uroda). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

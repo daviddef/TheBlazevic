@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 15,
- "images": 19,
+ "count": 25,
+ "images": 29,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -481,18 +481,281 @@
    "captured": "11 October 2026",
    "note": "notes/the-kozina-of-zgornje-bitnje.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/the-kozina-of-zgornje-bitnje.md"
+  },
+  {
+   "id": "karlobag-death-1778-pilepich",
+   "entry": "",
+   "page": "karlobag-death-1778-pilepich-page.jpg",
+   "title": "Karlobag, 10 April 1778 — Jacobus Pilepich, captain of the port, buried in his own crypt",
+   "film": "Karlobag deaths 1774–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 364, right-hand page (folio 17), headed «Anno Dni 1778»: the entry in the margin «10 Aprilis»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-GSBG",
+   "says": "«D. Jacobus Pilepich Capitaneus portûs, munitus omnibus Sacramentis per M.R. D. Andream Pintor Capellanum Loci, spiritum Deo reddidit … in propria Crypta in Parochiali Ecclesia existente … tumulatus est». Ahnentafel 104's death.",
+   "slugs": [
+    "jacob-pilipic"
+   ],
+   "people": [
+    {
+     "slug": "jacob-pilipic",
+     "kind": "people",
+     "name": "Jacob Pilipic"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1778-jacobus-pilepich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md"
+  },
+  {
+   "id": "karlobag-death-1776-smojver",
+   "entry": "",
+   "page": "karlobag-death-1776-smojver-page.jpg",
+   "title": "Karlobag, 16 May 1776 — Josephus Smojver, called Vukcich, aged 45",
+   "film": "Karlobag deaths 1774–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 361, right-hand page (folio 11), headed «Anno Dni 1776»: the second entry under «Maij»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3WG",
+   "says": "«Josephus Smojver dictus Vukcich, annorum 45, munitus omnibus Sacramentis obiit in Domino atque die 17 … tumulatus est». Ahnentafel 212's death; the age puts his birth about 1731.",
+   "slugs": [
+    "josiph-smojver-vukic"
+   ],
+   "people": [
+    {
+     "slug": "josiph-smojver-vukic",
+     "kind": "people",
+     "name": "Josiph Smojver Vukić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1778-jacobus-pilepich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md"
+  },
+  {
+   "id": "karlobag-death-1783-gerkacs",
+   "entry": "",
+   "page": "karlobag-death-1783-gerkacs-page.jpg",
+   "title": "Karlobag, 30 October 1783 — Nicolaus Gergacs, aged 66, died in his son Antonius's house",
+   "film": "Karlobag deaths 1774–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 376, right-hand page (folio 39), headed «Anno Dni 1783»: the entry «30 8bris»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-GSBH",
+   "says": "«Nicolaus Gergacs annorum 66, munitus omnibus sacramentis obiit in domo filij sui Antonij, et die 31 ejusdem sepultus est in Cemeterio laterali». Ahnentafel 220's death.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1778-jacobus-pilepich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md"
+  },
+  {
+   "id": "karlobag-death-1790-luckinic",
+   "entry": "",
+   "page": "karlobag-death-1790-luckinic-page.jpg",
+   "title": "Karlobag, 29 May 1790 — Catharina, aged 70, widow of the late Jacob Pilepich",
+   "film": "Karlobag deaths 1774–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 388, right-hand page (folio 63), headed «Anno Domini 1790»: the entry «29 ejusdem [Maij]», the last but one on the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3QY",
+   "says": "«Catharina annorum 70 vidua defti Dni Capitanei Jacobi Pilepich obiit in Domino munita omnibus sacramentis, atque die 30 sepulta est». Ahnentafel 105's death; the age 70 puts her birth about 1720, which no baptism of 1717–1732 supports.",
+   "slugs": [
+    "catherina-catta-luckinic"
+   ],
+   "people": [
+    {
+     "slug": "catherina-catta-luckinic",
+     "kind": "people",
+     "name": "Catherina (Catta) Luckinić"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1778-jacobus-pilepich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1778-jacobus-pilepich.md"
+  },
+  {
+   "id": "karlobag-death-1791-uroda",
+   "entry": "",
+   "page": "karlobag-death-1791-uroda-page.jpg",
+   "title": "Karlobag, 10 September 1791 — Dominus Georgius Uroda, buried in his own crypt (no age given)",
+   "film": "Karlobag deaths 1774–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 390, right-hand page (folio 67), headed «Anno Domini 1791»: the entry «10 ejusdem» under September, near the foot",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GSY8",
+   "says": "«Dñus Georgius Uroda, munitus omnibus Sacramentis, in domo sua obiit, atque die 12 sepultus est in propria sua Cripta ante fores Ecclesiae Parochialis existente». NO AGE is given, and no occupation. Ahnentafel 108's death.",
+   "slugs": [
+    "georgi-uroda"
+   ],
+   "people": [
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/uroda-1791.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-1791.md"
+  },
+  {
+   "id": "karlobag-death-1809-lucia-maja",
+   "entry": "",
+   "page": "karlobag-death-1809-lucia-maja-page.jpg",
+   "title": "Karlobag, 19 September 1809 — Lucia, called Maja, wife of Michael Gergacs, aged 34",
+   "film": "Karlobag deaths 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 125, left-hand page (page 12), headed «Annus Domini 1809»: the entry «19 [Sept]», fourth from the foot",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J",
+   "says": "«Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34, provisa omnibus sacramentis obiit in Domino, atque in propria crypta … humata est». Ahnentafel 111's death; an age of 34 cannot fit a marriage of 1785 and a daughter of 1789, so her age stays unresolved.",
+   "slugs": [
+    "lucia-maja-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "lucia-maja-tomljanovic",
+     "kind": "people",
+     "name": "Lucia (Maja) Tomljanović"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-deaths-1809-1828.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md"
+  },
+  {
+   "id": "karlobag-death-1828-pilepich",
+   "entry": "",
+   "page": "karlobag-death-1828-pilepich-page.jpg",
+   "title": "Karlobag, 28 June 1828 — Josephus Pilepich, aged 61",
+   "film": "Karlobag deaths 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 138, right-hand page (page 35), headed «Anno Domini 1828»: the entry of 28 June (margin «Junii»), about the fifth from the top",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G9HP",
+   "says": "«… Josephus Pilepich Carlobagensis annorum 61 in communione S. Matris Ecclesiae animam Deo reddidit, cujus corpus die 29 h. sepultum est in coemeterio S. Caroli». Ahnentafel 52's death, found through the book's index (KAZALO). The page is dense Latin and read at about 3x.",
+   "slugs": [
+    "josephus-josip-pilipic"
+   ],
+   "people": [
+    {
+     "slug": "josephus-josip-pilipic",
+     "kind": "people",
+     "name": "Josephus (Josip) Pilipic"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-deaths-1809-1828.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md"
+  },
+  {
+   "id": "karlobag-death-1834-maria-uroda",
+   "entry": "",
+   "page": "karlobag-death-1834-maria-uroda-page.jpg",
+   "title": "Karlobag, 6 August 1834 — Maria, wife of the fisherman Georgius Uroda, aged 45",
+   "film": "Karlobag deaths 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 149, right-hand page (folio 52), headed «Anno Domini 1834»: an entry in the upper half of the page, among those of July–August",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G991",
+   "says": "«Maria uxor piscatoris Georgii Uroda annorum 45 …», died 6 August 1834 and buried the 7th. Ahnentafel 55's death (née Gerkacs, married 1807); it names her husband, ahnentafel 54, as a fisherman, still alive. The entry is small and was read at about 4x; find it by the word «piscatoris».",
+   "slugs": [
+    "mariam-gerkacs-gergacs",
+    "joannis-georgius-georgio-uroda"
+   ],
+   "people": [
+    {
+     "slug": "mariam-gerkacs-gergacs",
+     "kind": "people",
+     "name": "Mariam Gerkacs (Gergacs)"
+    },
+    {
+     "slug": "joannis-georgius-georgio-uroda",
+     "kind": "people",
+     "name": "Joannis Georgius (Georgio) Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-deaths-uroda.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-uroda.md"
+  },
+  {
+   "id": "karlobag-baptism-1781-oliva-smojver",
+   "entry": "",
+   "page": "karlobag-baptism-1781-oliva-smojver-page.jpg",
+   "title": "Karlobag, March 1781 — Oliva Maria, daughter of Vincentius Smojver «Vukich» and Oliva",
+   "film": "Karlobag births 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 217, right-hand page (book page 65), headed «Anno Domini 1781»: the seventh entry, margin «Ejusdem» under March",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L998-5",
+   "says": "«Ego Joes Antonius Ivankovich Parochus Loci baptizavi infantem natam ex Vincentio et Oliva Smoyver, vulgo Vukich, Conjugibus hujus Civitatis, cui impositum est nomen Oliva Maria». Ahnentafel 53's baptism; the parents are 106 and 107, married 7 years earlier (see the 1774 marriage).",
+   "slugs": [
+    "oliva-maria-smojver",
+    "vicentius-fabiano-smojver-vukic",
+    "oliva-andreana-bacchi"
+   ],
+   "people": [
+    {
+     "slug": "oliva-maria-smojver",
+     "kind": "people",
+     "name": "Oliva Maria Smojver"
+    },
+    {
+     "slug": "vicentius-fabiano-smojver-vukic",
+     "kind": "people",
+     "name": "Vicentius Fabiano Smojver Vukić"
+    },
+    {
+     "slug": "oliva-andreana-bacchi",
+     "kind": "people",
+     "name": "Oliva Andreana Bacchi"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/karlobag-1781-oliva-smojver.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-1781-oliva-smojver.md"
+  },
+  {
+   "id": "karlobag-baptism-1777-uroda",
+   "entry": "",
+   "page": "karlobag-baptism-1777-uroda-page.jpg",
+   "title": "Karlobag, 21–22 April 1777 — Joannes Georgius, son of Georgius Uroda and Maria",
+   "film": "Karlobag births 1691–1804 (DGS 5481648, FamilySearch waypoint 9RK1-3Y9)",
+   "where": "image 202, right-hand page (book page 37), headed «Anno Dni 1777»: the entry under the margin «Aprilis», second from the foot («Ego Joes Antius … ex Georgio et Maria Uroda … Joannis Georgij»)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L991-3",
+   "says": "«Ego Joes Antius Ivankovich Parochus Loci baptizavi Infantem … ex Georgio et Maria Uroda Conjugibus hujus Loci, cui impositum est nomen Joannis Georgij». Ahnentafel 54's baptism, naming his parents (108 and 109); the godfather is a colonel. Read at about 3x.",
+   "slugs": [
+    "joannis-georgius-georgio-uroda",
+    "georgi-uroda",
+    "maria-uroda"
+   ],
+   "people": [
+    {
+     "slug": "joannis-georgius-georgio-uroda",
+     "kind": "people",
+     "name": "Joannis Georgius (Georgio) Uroda"
+    },
+    {
+     "slug": "georgi-uroda",
+     "kind": "people",
+     "name": "Georgi Uroda"
+    },
+    {
+     "slug": "maria-uroda",
+     "kind": "people",
+     "name": "Maria Uroda"
+    }
+   ],
+   "captured": "11 October 2026",
+   "note": "notes/uroda-generation-found.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/uroda-generation-found.md"
   }
  ],
  "bySlug": {
   "vicentius-fabiano-smojver-vukic": [
    "karlobag-marriage-1774",
-   "karlobag-marriage-1798"
+   "karlobag-marriage-1798",
+   "karlobag-baptism-1781-oliva-smojver"
   ],
   "oliva-andreana-bacchi": [
-   "karlobag-marriage-1774"
+   "karlobag-marriage-1774",
+   "karlobag-baptism-1781-oliva-smojver"
   ],
   "josiph-smojver-vukic": [
-   "karlobag-marriage-1774"
+   "karlobag-marriage-1774",
+   "karlobag-death-1776-smojver"
   ],
   "caetano-bacchi": [
    "karlobag-marriage-1774",
@@ -508,10 +771,12 @@
    "karlobag-marriage-1753"
   ],
   "jacob-pilipic": [
-   "karlobag-marriage-1747"
+   "karlobag-marriage-1747",
+   "karlobag-death-1778-pilepich"
   ],
   "catherina-catta-luckinic": [
-   "karlobag-marriage-1747"
+   "karlobag-marriage-1747",
+   "karlobag-death-1790-luckinic"
   ],
   "vicentius-vicko-luckinic": [
    "karlobag-marriage-1747"
@@ -520,19 +785,23 @@
    "karlobag-marriage-1785"
   ],
   "lucia-maja-tomljanovic": [
-   "karlobag-marriage-1785"
+   "karlobag-marriage-1785",
+   "karlobag-death-1809-lucia-maja"
   ],
   "nicolaus-gerkacs": [
-   "karlobag-marriage-1785"
+   "karlobag-marriage-1785",
+   "karlobag-death-1783-gerkacs"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785"
   ],
   "josephus-josip-pilipic": [
-   "karlobag-marriage-1798"
+   "karlobag-marriage-1798",
+   "karlobag-death-1828-pilepich"
   ],
   "oliva-maria-smojver": [
-   "karlobag-marriage-1798"
+   "karlobag-marriage-1798",
+   "karlobag-baptism-1781-oliva-smojver"
   ],
   "magdalena-daughter-of-dominicus-uroda-wife-of-matthias-kriskovich": [
    "karlobag-marriage-1755-uroda"
@@ -587,6 +856,20 @@
   ],
   "franciscus-xaverius-kosina-son-of-lucas-and-helena": [
    "kranj-baptism-1775"
+  ],
+  "georgi-uroda": [
+   "karlobag-death-1791-uroda",
+   "karlobag-baptism-1777-uroda"
+  ],
+  "mariam-gerkacs-gergacs": [
+   "karlobag-death-1834-maria-uroda"
+  ],
+  "joannis-georgius-georgio-uroda": [
+   "karlobag-death-1834-maria-uroda",
+   "karlobag-baptism-1777-uroda"
+  ],
+  "maria-uroda": [
+   "karlobag-baptism-1777-uroda"
   ]
  }
 }

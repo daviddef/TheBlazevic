@@ -55,3 +55,7 @@ page 65, and the March entries were there.
 the viewer's own number input holds the image number while `document.title`
 holds the current ARK; that pair is how to build a map of a film this archive
 has no map for.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-baptism-1781-oliva-smojver](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1781-oliva-smojver). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).

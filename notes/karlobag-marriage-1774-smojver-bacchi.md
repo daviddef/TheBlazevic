@@ -119,11 +119,11 @@ outside Karlobag (the bride's parish). The 1756-1763 pages (images 290 right to 
 **Re-read of 1756-1763 (same day).** Images 290 right to 295 right (January 1756 to October 1763) were read again slowly, both pages of each opening: **no Uroda groom
 or bride, and no «Georgius» marrying a Maria**. Together with 1742-1755 earlier the same day, **the Karlobag marriage book holds no Georgius
 Uroda wedding from January 1742 to October 1763**; the unread parts are 1736-41 (images 278-279), the last weeks of 1763, and the two crossed-through pages.
-**One more fact narrows the guess:** Georgius Uroda's death entry (1791) gives his age as **72**, so he was **born about 1719** and was about 45 at the baptism of his
-first known child (Dominicus, 1764), 58 at ahnentafel 54's baptism (1777) and about 65 at the youngest known child (1784). A man of 45 siring a first child is possible but more naturally a
-**second marriage**: Maria would then be his second wife, married in the 1750s-60s somewhere, perhaps **outside Karlobag** (a bride from another parish is married in
-her own), and a first wife and earlier children would be in the 1740s pages, where no Georgius Uroda wedding was seen either. **Not resolved; do not take the
-«72» as exact** (ages in this book are often rounded), and nothing here shows Maria's origin.
+**CORRECTION (same day, after the page itself was captured).** An earlier version of this paragraph said Georgius Uroda's death entry of 1791 gives his age as 72, so he
+was born about 1719 and Maria was probably a second wife. **That was wrong.** The «annorum 72, piscator» is the death entry of **ahnentafel 54** (Georgius, d. 1846); the 1791 entry
+for the *Dominus* Georgius Uroda (ahnentafel 108) **carries no age at all** — see the snapshot `karlobag-death-1791-uroda`. So **nothing is known of ahnentafel 108's age, and the
+«second marriage» guess has no support.** What stands is the narrowing from the baptisms: the first known child, Dominicus, was baptised 6 May 1764, so the marriage was before about August 1763, and the
+marriage book read for 1742-1776 shows no such entry — so it is behind an unrecognised spelling, on a page not read, or **outside Karlobag** (the bride's parish).
 
 ## The page itself (snapshots)
 

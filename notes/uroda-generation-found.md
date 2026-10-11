@@ -115,3 +115,7 @@ read. **A brother's wife in a godparent column did it.**
 **Ahnentafel 54 — Joannis Georgius Uroda — born 21 April 1777, baptised 22
 April 1777 at Karlobag, son of Georgius Uroda and Maria, with six siblings.**
 Read at the page, from a register, with the priest's own hand.
+
+## The page itself (snapshots)
+
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-baptism-1777-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1777-uroda). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
