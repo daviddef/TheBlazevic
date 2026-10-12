@@ -4476,6 +4476,28 @@
    ],
    "got": "No Vroda, Vrodich, Urodich or Uroda parent or godparent read in these 12 images. Not a finding of absence (see what was missed).",
    "missed": "THIS IS NOT A RELIABLE NEGATIVE. At a quarter scale the 1702–03 hand (cramped, many abbreviations, long entries with the parents' and godparents' names run together in the body) is only partly legible: some entries could be read word by word, others only by their shape, and the surname of the parents is often written once, in the middle of a line, among five other names. A Vroda in a line I could not read would be passed over. A reliable pass needs each page cut in halves at about half scale — roughly 1,400 screenshots for the 340 images — and has not been done. The better routes to a specific child are targeted: a known year, or a date taken from another register (a marriage, a death age)."
+  },
+  {
+   "src": "FamilySearch index — every Bachi / Bacchi / Baci / Bachy / Bacci line in «Croatia, Church Books, 1516–1994» (collection 2040054), with three pages then opened: Pag deaths 1764, Nin deaths 1768, Karlobag births 1715",
+   "key": "fs/index-bachi-pag-nin-karlobag",
+   "url": "https://www.familysearch.org/search/record/results?q.surname=Bachi&f.collectionId=2040054",
+   "waypoint": "9R2H-PYM",
+   "what": "A Pag or other record that names the father, brother or town of the Caetanus Bachi who married Anna Lukatelli at Karlobag on 4 February 1753 (dead by October 1760)",
+   "when": "13 October 2026",
+   "outcome": "partial",
+   "pages": "the index, queried as JSON with exact spellings Bachi, Bacchi, Baci, Bachy, Baccio, Bacci (148 lines; a given-name or father-name filter does not narrow it — the index is phonetic, so a hit list is not an absence); then three images opened and read at 4–5x: the Pag burial of 19 January 1764 (DGS 005494123 item 2), the Nin burial of 6 October 1768 (waypoint 9R2H-PYM) and the Karlobag baptism of October 1715. NOT read: the Pag marriage book 1737–1774 and births 1727–1736 (filmed, not indexed for Bachi), the Nin books, the Karlobag births of 1753–1760 for children of Caetanus and Anna",
+   "walked": false,
+   "tags": [
+    "bachi",
+    "bacchi",
+    "pag",
+    "nin",
+    "karlobag",
+    "familysearch",
+    "index"
+   ],
+   "got": "**No marriage, death or child of a Caetanus Bachi in Pag or Nin.** The index has the Pag father — **Angelus Bacchi, apothecary, died 19 January 1764 aged about 68** ([snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#pag-death-1764-01-angelus-bacchi-aromatarius)) — so Angelo lived 11 years after the Karlobag Caetanus's marriage and was alive when he died before 1760; his death names no son. **A Bachi household at Nin** ([Dna Viena Bachi, 6 October 1768](https://daviddef.github.io/TheBlazevic/snapshots/#nin-death-1768-10-dna-viena-bachi), Elisabetta 1777, Antonio 1787) — the mainland coast across from Pag; not shown to be the Pag family. **And a possible Bachi at Karlobag itself in 1715** — a son Luca of a Mikule «Bach[…]» ([snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1715-10-luca-son-of-mikule-bach)); the surname is cut by the page edge and the index's «Bachi» is not firm. A Karlobag baptism of 13 June 1761, «Georgius Stephanus, son of Jacobus and Catharina Bal[…]», is indexed «Baci» but the page's surname is hidden in the gutter and may be another name.",
+   "missed": "The index finds a spelling, not a family: Caetanus may be indexed under a spelling not tried (Bechi, Becchi, Baki, Bahi, Baxi) or not indexed at all, and the Pag marriage book (1737–1774) and births 1727–1736 are not in the index for this surname. A father or brother of Caetanus in a Pag or Karlobag record that names him «of Pag» would settle it and has not turned up. The Karlobag births of 1753–1760 were read only by eye for Bacchi."
   }
  ]
 }

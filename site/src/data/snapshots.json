@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 158,
- "images": 174,
+ "count": 161,
+ "images": 177,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -4050,6 +4050,75 @@
    "captured": "13 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "pag-death-1764-01-angelus-bacchi-aromatarius",
+   "entry": "pag-death-1764-01-angelus-bacchi-aromatarius-line.jpg",
+   "page": "",
+   "title": "Pag, 19 January 1764 — death of DNUS ANGELUS BACCHI, apothecary («Aromatarius»), aged about 68",
+   "film": "Pag deaths (FamilySearch Croatia, Church Books 1516–1994, DGS film 005494123 item 2; index record 1:1:XQM9-MT4W)",
+   "where": "a spread of the register, right-hand page, near the foot, headed «Anno Dni 1764 die 19 Januarij»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FJTY",
+   "says": "«Anno Dni 1764 die 19 Januarij. Obijt Dnus Angelus Bacchi Aromatarius in Comunione S. Matris Ecclesiae, cuius corpus sepultum est in Ecclesia totius [?] Insignis Collegiatae … confessus … Dno Cancellario Joanni Mestrovich … Sacramento Eucharistiae … annorum circiter 68.» Read at about 4x; the place is Pag by the index and by the Collegiate church; the register does not name the town in this entry. **Born about 1696 — the age of the Dno Angelo Bachi, patrician, whose son Caietanus Antonius Gregorius was baptised at Pag on 14 March 1728; the trade, apothecary, is new.** No son is named. The Caetanus Bachi who married at Karlobag on 4 February 1753 was dead by October 1760, so this death says nothing about him.",
+   "slugs": [
+    "angelus-bacchi-of-pag"
+   ],
+   "people": [
+    {
+     "slug": "angelus-bacchi-of-pag",
+     "kind": "found",
+     "name": "Angelus Bacchi of Pag"
+    }
+   ],
+   "captured": "13 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "nin-death-1768-10-dna-viena-bachi",
+   "entry": "nin-death-1768-10-dna-viena-bachi-line.jpg",
+   "page": "",
+   "title": "Nin, 6 October 1768 [the index says 1767] — death of DNA VIENA BACHI, who died suddenly and was buried in the chapel of the B.V.M. delle Purine",
+   "film": "Nin (Roman Catholic) births 1755–1797, 1825–1854, marriages and deaths (FamilySearch waypoint 9R2H-PYM, DGS film 005494105 item 7; index record 1:1:XQMM-LPL5)",
+   "where": "a spread of the deaths register in Italian, right-hand page, near the foot (the entry before 14 ottobre 1769)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-KQSP",
+   "says": "«Addì 6 ottobre 176[6/8]. Passò da questa a miglior vita Dna Viena Bachi la quale morì di morte improvvisa e fù sepolta in capella della B.V.M. delle Purine.» Read at about 5x; the last digit of the year is not firm (the entries around it run 1768–1769; the index says 6 October 1767). **A Bachi household at NIN in 1768–1787** — the index has two more Bachi burials in the same book, Elisabetta (12 May 1777) and Antonio (23 November 1787, with a Filippo Carleva) — Nin lies on the mainland across from Pag. Whether it is the Pag family of Angelo Bachi is not shown.",
+   "slugs": [
+    "viena-bachi-of-nin"
+   ],
+   "people": [
+    {
+     "slug": "viena-bachi-of-nin",
+     "kind": "found",
+     "name": "Viena Bachi of Nin"
+    }
+   ],
+   "captured": "13 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "karlobag-baptism-1715-10-luca-son-of-mikule-bach",
+   "entry": "karlobag-baptism-1715-10-luca-son-of-mikule-bach-line.jpg",
+   "page": "",
+   "title": "Karlobag, October 1715 — a son LUCA baptised to MIKULE BACH[…]; the index reads «Bachi??»",
+   "film": "Karlobag births 1691–1804 (FamilySearch, DGS film 005481648; index record 1:1:QKMX-YL4S)",
+   "where": "left-hand page, first entry, headed «Na 2? oktobra 1715» (a Croatian-language entry by the priest Anton Hreljanović)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L939-3",
+   "says": "«Na [2]1 oktobra 1715. Ja pop Anton Hreljanović krstih sina Mikule [Babi — struck out] Bach[…], imenom Luca, komu bi kum Volfa Ivich, a kuma njegova mat Marija.» Read at about 5x; the surname is cut by the edge of the left page after «Bach» and the scribe struck out a first spelling, so **«Bachi» is the index's reading, not a firm one — it may be Bačić or another name**. The name Luca is a man's (Luka) here, though the index files it as a woman. If it is Bachi it is a Bachi at Karlobag 38 years before the marriage of 1753, and the Caetanus of 1753 need not have come from Pag.",
+   "slugs": [
+    "luca-bach-of-karlobag"
+   ],
+   "people": [
+    {
+     "slug": "luca-bach-of-karlobag",
+     "kind": "found",
+     "name": "Luca Bach of Karlobag"
+    }
+   ],
+   "captured": "13 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -4444,6 +4513,15 @@
   "antonius-uroda-of-sibenik": [
    "sibenik-dolac-death-1742-01-marietta-daughter-of-magister-antonius-vroda",
    "sibenik-dolac-death-1742-07-dominica-daughter-of-magister-antonius-and-antonia-vrodda"
+  ],
+  "angelus-bacchi-of-pag": [
+   "pag-death-1764-01-angelus-bacchi-aromatarius"
+  ],
+  "viena-bachi-of-nin": [
+   "nin-death-1768-10-dna-viena-bachi"
+  ],
+  "luca-bach-of-karlobag": [
+   "karlobag-baptism-1715-10-luca-son-of-mikule-bach"
   ]
  }
 }
