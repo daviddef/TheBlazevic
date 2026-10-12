@@ -869,6 +869,186 @@ SETTLED = {
         "resembles Anna Papić (Papa) 1853 [children of franica-karsul] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
     "Franciscus Prpić groom of 1853 at Senj":
         "resembles Franciscus Sestan 1853 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucia Lončarić bride of Savretić 1823":
+        "resembles Lucia Žubrinić Xubrinich 1823 [children of anna-3]; Lucia Žubrinić Xubrinich 1822 [children of margarita-2]; Luce Lucia Simetović Šimatović Simatović 1823 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Georgius Savretić groom of 1823 with Boras witnesses":
+        "resembles Georgius Bellobalbic 1824 [siblings of paulina-bellobalbic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Boras witness at Senj marriage of 1823":
+        "resembles Josephus Žubrinić Xubrinich 1824 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Miškulin widow bride of Gregorius Smojver 1838":
+        "resembles Maria Žubrinić 1838 [children of lucia-jurjevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Smojver of Karlobag bride of Josephus Schwarz 1839":
+        "resembles Maria Žubrinić 1838 [children of lucia-jurjevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Schwarz corporal groom of 1839 with a Smojver bride of Karlobag":
+        "resembles Josephus Žubrinić Xubrinich 1840 [children of anna-smolcsich-smolcsich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Georgius Tomjanović groom of 1837 with a Smojver bride of Jablanac":
+        "resembles Martinus Georgius Žubrinić 1838 [children of maria-8]; Georgius Juraj (Joannis) Papa 'Jure' Antić Papić 1838 [children of josephum-antic]; Jure Juraj Georgius Grandic 1836 [children of margareta-barbalic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Vukelić of Sveti Juraj bride of Franciscus Thian 1826":
+        "resembles Maria Lisabetta Žubrinić Xubrinich 1827 [children of anna-3]; Maria 1827 [published]; Maria 1827 [spouses of martinus-georgius-zubrinic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Thian groom of 1826 with a Vukelić bride of Sveti Juraj":
+        "resembles Franciscus Žubrinić Xubrinich 1825 [children of maria-baptised-margarita] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Petrus Tomaić soldier groom of 1833 with a Krmpotić bride of St Salvator":
+        "resembles Petrus Kalanj 1833 [spouses of magdalena-butkovic-butkovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Orešković bride of Joannes Thian 1843":
+        "resembles Maria Sestan 1843 [children of joanna-defranceschi]; Maria Žubrinić 1844 [children of ana-untersinger] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Thian groom of 1843 with an Orešković bride":
+        "resembles Joannes Žubrinić Zubrinic Xubrinich 1844 [children of catharina-7]; Joannes Baptista Defranceschi 1842 [children of francisca-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Marija Orešković bride of Mathe Thian 1849":
+        "resembles Marija Butkovic 1850 [spouses of mate-andjulico] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Magličić bride of Ignatius Turkalj 1853 whose mother was an Orešković":
+        "resembles Maria Žubrinić Xubrinich 1853 [children of juliana]; Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Kalanj 1853 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria of Bescan bride of Casparus Paulus Babić 1856":
+        "resembles Maria Žubrinić Xubrinic 1857 [children of matia-banic]; Maria Perpic 1857 [spouses of ivan-blazevic-4]; Maria Magdalena Žubrinić 1855 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Petrus Vukelić widower of Krasno groom of 1833 with a Krmpotić widow":
+        "resembles Petrus Kalanj 1833 [spouses of magdalena-butkovic-butkovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonia Dvoić bride of Vitus Vukelić 1851":
+        "resembles Antonia Blažević 1851 [published]; Antonia Blažević 1852 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucia Butković of Ledenice bride of 1851":
+        "resembles Lucia Kalanj 1851 [children of magdalena-ferkovic]; Lucia Sekula 1851 [children of mande-mandalena-magdalena-kostelac] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Tomjanović bride of Joannes Vukelić 1851":
+        "resembles Francisca Žubrinić 1852 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Vukelić of Gospić groom of 1851":
+        "resembles Joannes Žubrinić 1852 [children of vincentia]; Joannes Sestan 1851 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Krmpotić bride of Franciscus Samarzia 1853":
+        "resembles Maria Žubrinić Xubrinich 1853 [children of juliana]; Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Kalanj 1853 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Samarzia widower soldier groom of 1853 with a Krmpotić bride":
+        "resembles Franciscus Sestan 1853 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Sučić widow bride of Josephus Boras 1851":
+        "resembles Maria Blažević 1850 [siblings of slavka]; Maria Talić 1850 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Boras groom of 1851 at Senj":
+        "resembles Josephus Josip Kalanj 1850 [children of antonius-kalanj]; Joso Josip Josephus Kalanj 1851 [children of antonius-kalanj]; Josephus Žubrinić Xubrinich 1852 [children of rosalia-marinic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina Stillin of Ledenice bride of Christophorus Babić 1851":
+        "resembles Catharina Žubrinić 1852 [children of luce-lucia-simetovic-simatovic-simatovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Petrinović of Novi bride of Michael Belobarbić 1852":
+        "resembles Francisca Žubrinić 1852 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Babić mariner groom of 1852 whose mother was née Jurčić":
+        "resembles Joannes Žubrinić 1852 [children of vincentia]; Joannes Sestan 1851 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Boras died Senj 1839 aged 50":
+        "resembles Josephus Žubrinić Xubrinich 1840 [children of anna-smolcsich-smolcsich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Anna Boras widow died Senj September 1841":
+        "resembles Anna Agatha Žubrinić 1841 [children of magdalena-mande-drazenovic-drazenovic]; Anna Dujmović 1841 [spouses of nicolaus-zubrinic-xubrinich-4] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucia widow Kraljikas aged 106 died Senj September 1836":
+        "resembles Lucia Žubrinić 1835 [children of maria-9]; Lucia Žubrinić Xubrinich Zubrinich 1835 [children of maria-begovich-begovic]; Lucia Mlinarich 1836 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina widow Kralj aged 84 died Senj November 1838":
+        "resembles Catharina Žubrinić Xubrinich 1837 [children of helena-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Eva Lukatelli widow aged 54 died Senj January 1844":
+        "resembles Eva Kostelacz 1844 [children of stephanus-kostelacz]; Eva Žubrinić 1845 [children of juliana-kostelacz] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joanna Krmpotić aged 60 died Senj December 1844":
+        "resembles Natalis Joanna Žubrinić 1845 [children of lucia-jurjevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Georgius Orešković drowned at sea aged 20 died Senj June 1827":
+        "resembles Georgius Žubrinić Xubrinich 1828 [children of maria-baptised-margarita] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Mathia Orešković aged 80 died Senj January 1848":
+        "resembles Mathia Maria Papić (Papa) 1847 [children of helena-carich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Perpić widow aged 63 died Senj September 1836":
+        "resembles Maria? 1835 [published]; Maria Marija Kalanj 1835 [children of antonius-kalanj]; Maria Žubrinić Xubrinich 1836 [children of magdalena-oreskovich-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Perpić aged 48 died Senj April 1841":
+        "resembles Maria Lucia Komadina 1841 [spouses of martin-martinus-kalanj]; Maria Žubrinić 1841 [children of helena-oreskovic]; Maria Žubrinić 1841 [children of maria-catharina-oreskovic-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Perpić frontier soldier aged 61 died Senj July 1842":
+        "resembles Josip Josephus Joso Kalanj 1841 [siblings of margareta-margaritum-kalanj]; Josephus Bogic 1842 [spouses of sabina-zubrinic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonia Perpić aged 35 died Senj February 1847":
+        "resembles Antonia Sestan 1847 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Pilipić infant died Senj January 1847":
+        "resembles Maria 1848 [published]; Maria Rosaria Antić 1847 [children of josephum-antic]; Maria Žubrinić 1848 [children of kate-babic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Perpić aged 25 died Senj 1848 faded":
+        "resembles Franciscus Xubrinich 1847 [children of catharina-raslich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Špalj Spal aged 80 died Senj 1820":
+        "resembles Joannes Juan Ivan Ive Žubrinić Zubrinic 1821 [children of margarita-3]; Joannes Žubrinić Xubrinich 1821 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonia Šojat aged 95 died Senj December 1830":
+        "resembles Antonia Tomljanović 1831 [spouses of dujo-pavelic-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Hellena Špalj aged 79 died Senj November 1831":
+        "resembles Hellena Žubrinić Xubrinich 1830 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina Špalj widow aged 78 died Senj August 1836":
+        "resembles Catharina Monica Žubrinić Xubrinich 1836 [children of martha-franczetich]; Catharina Žubrinić Xubrinich 1837 [children of helena-oreskovic]; Maria Catharina Orešković Oreskovic 1835 [children of marcus-oreskovic-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Michael Šojat aged 51 died Senj June 1846":
+        "resembles Miko Michael Sekula 1846 [children of mande-mandalena-magdalena-kostelac]; Michael Žubrinić 1847 [children of lucia-shimatovich]; Michael Žubrinić 1845 [children of luce-lucia-simetovic-simatovic-simatovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Tomljanović widow aged 60 died Senj April 1834":
+        "resembles Maria? 1835 [published]; Maria Marija Kalanj 1835 [children of antonius-kalanj]; Maria Catharina Orešković Oreskovic 1835 [children of marcus-oreskovic-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucas Tomljanović infant died Senj February 1842":
+        "resembles Lucas Žubrinić 1843 [children of maria-9] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Tomljanović aged 57 died Senj 1848":
+        "resembles Maria 1848 [published]; Maria Rosaria Antić 1847 [children of josephum-antic]; Maria Žubrinić 1848 [children of kate-babic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Petrus Vukelić aged 70 died Senj June 1825":
+        "resembles Petar Petrus Petrum Kalanj Kallayn 1825 [siblings of franjo-think-this-is-wrong-kalanj] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucas Vukelić died Senj January 1827":
+        "resembles Lucas Žubrinić Zubrinic Xubrinich 1826 [children of anna-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Vukelić aged 77 died Senj January 1836":
+        "resembles Joannes Juan Ivan Ive Žubrinić 1837 [spouses of kata-brajkovic]; Joannes Žubrinić Xubrinich 1836 [children of helena-czvetkovich]; Joannes Žubrinić Xubrinich 1837 [children of catharina-raslich-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Vukelić widow aged 70 died Senj January 1836":
+        "resembles Maria? 1835 [published]; Maria Marija Kalanj 1835 [children of antonius-kalanj]; Maria Žubrinić Xubrinich 1836 [children of magdalena-oreskovich-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Vukelić infant died Senj August 1836":
+        "resembles Joannes Juan Ivan Ive Žubrinić 1837 [spouses of kata-brajkovic]; Joannes Žubrinić Xubrinich 1836 [children of helena-czvetkovich]; Joannes Žubrinić Xubrinich 1837 [children of catharina-raslich-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Gasparus Vukelić infant died Senj January 1844":
+        "resembles Josephus Sestan 1844 [children of sancta-alexandra-defranceschi]; Josephus Žubrinić 1845 [children of maria-markovic]; Josephus Žubrinić 1845 [children of maria-markovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Vukelić aged 67 died Senj June 1847":
+        "resembles Joannes Žubrinić 1847 [siblings of theresia]; Joannes Spudicevich-Tomich 1846 [spouses of anna-kalanj-6]; Joannes Žubrinić 1846 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joanna Župan infant died Senj May 1835":
+        "resembles Joanna Žubrinić Kraljcich 1835 [children of maria-8] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina Župan widow aged 70 died Senj August 1836":
+        "resembles Catharina Monica Žubrinić Xubrinich 1836 [children of martha-franczetich]; Catharina Žubrinić Xubrinich 1837 [children of helena-oreskovic]; Maria Catharina Orešković Oreskovic 1835 [children of marcus-oreskovic-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Ivan Pilipić aged 60 died Senj November 1849":
+        "resembles Ivan Papić (Papa) 1850 [children of kate-loncaric]; Ivan Žubrinić 1850 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Vukelić aged 8 died Senj February 1850":
+        "resembles Maria Blažević 1850 [siblings of slavka]; Maria Talić 1850 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Babić aged 7 died Senj July 1850":
+        "resembles Maria Blažević 1850 [siblings of slavka]; Maria Talić 1850 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina Orešković aged 26 died Senj August 1851":
+        "resembles Catharina Žubrinić 1852 [children of luce-lucia-simetovic-simatovic-simatovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Anna Vukelić infant died Senj October 1851":
+        "resembles Ana Anna Kalanj 1851 [children of antonius-kalanj] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Belobarbić newborn died Senj May 1852":
+        "resembles Maria Žubrinić Xubrinich 1853 [children of juliana]; Maria Magdalena Kalanj 1853 [published]; Maria Antonia Žubrinić Xubrinich 1853 [children of apolonia-raslic-raslic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Vukelić theology student aged 26 died Senj June 1852":
+        "resembles Joannes Žubrinić 1852 [children of vincentia]; Joannes Sestan 1851 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Theresia Vukelić widow aged 72 died Senj January 1854":
+        "resembles Theresia Žubrinić 1854 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Belobarbić newborn died Senj February 1854":
+        "resembles Joannes Ivan Boras 1855 [spouses of vladimira-baricevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Boras aged 22 died Senj February 1854":
+        "resembles Franciscus Sestan 1853 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Ana Belobarbić infant died Senj March 1854":
+        "resembles Ana Nezak 'Anica' Boras 1854 [children of josip-josephus-boras] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Theresia Perpić infant died Senj June 1854":
+        "resembles Theresia Žubrinić 1854 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Anna Smojver aged 16 died Senj July 1854":
+        "resembles Anna Papić (Papa) 1853 [children of franica-karsul] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Vukelić aged 19 died Senj September 1854":
+        "resembles Franciscus Sestan 1853 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josephus Belobarbić infant died Senj December 1854":
+        "resembles Josephus Josip Rivosechi 1853 [children of maria-fabianic-fabiani] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Babić porter died Senj July 1855":
+        "resembles Joannes Ivan Boras 1855 [spouses of vladimira-baricevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Karić aged 22 died Senj April 1855":
+        "resembles Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Žubrinić 1855 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonius Babić aged 2 died Senj August 1855":
+        "resembles Antonius Defranceschi 1855 [children of francisca-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonius Belobarbić aged 14 died Senj August 1855":
+        "resembles Antonius Defranceschi 1855 [children of francisca-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Babić aged 6 died Senj August 1855":
+        "resembles Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Žubrinić 1855 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Romana Babić aged 4 died Senj August 1855":
+        "resembles Francisca Sestan 1856 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Babić aged 2 died Senj August 1855":
+        "resembles Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Žubrinić 1855 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Tomljanović aged 2 died Senj November 1855":
+        "resembles Joannes Ivan Boras 1855 [spouses of vladimira-baricevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Babić servant died Senj June 1856":
+        "resembles Francisca Sestan 1856 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Babić aged 2 died Senj August 1856":
+        "resembles Maria Žubrinić Xubrinic 1857 [children of matia-banic]; Maria Perpic 1857 [spouses of ivan-blazevic-4]; Maria Magdalena Žubrinić 1855 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joanna Smojver aged 57 died Senj October 1856":
+        "resembles Joanna Žubrinić 1856 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joanna Vukelić aged 2 died Senj January 1857":
+        "resembles Joanna Žubrinić 1856 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Babić aged 5 died Senj March 1857":
+        "resembles Maria Mariam 1858 [siblings of christophorus]; Maria Žubrinić Xubrinic 1857 [children of matia-banic]; Maria Blažević 1858 [children of anton-kljapo-blazevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Vukelić aged 2 died Senj April 1857":
+        "resembles Franciscus Sestan 1857 [children of sancta-alexandra-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Butković aged 5 died Senj August 1857":
+        "resembles Maria Mariam 1858 [siblings of christophorus]; Maria Žubrinić Xubrinic 1857 [children of matia-banic]; Maria Blažević 1858 [children of anton-kljapo-blazevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Jacobus Borić finance watchman aged 19 died Senj November 1857":
+        "resembles Jacobus Perpic 1858 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Anna Smojver widow aged 90 died Senj November 1858":
+        "resembles Maria Anna Antonia Boras 1859 [children of josip-josephus-boras]; Anna Kalanj 1859 [children of ivan-joannes-kalanj-2]; Anna Žubrinić 1857 [children of lucia-luce-pesun-posun] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
 }
 
 

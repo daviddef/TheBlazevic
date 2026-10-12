@@ -21,10 +21,12 @@ for sec in d.values():
     if not isinstance(sec, list): continue
     for r in sec:
         if isinstance(r, dict) and r.get("key") == "fs/senj-marriage-volume-walk":
+            if len(done) == 592:
+                print("all 592 images read: the row text was written by hand on 14 Oct 2026, left alone"); continue
             old = r["pages"]
             head = old.split(" IMAGES 10–79")[0]
             tail = " IMAGES 10–79" + old.split(" IMAGES 10–79", 1)[1].split(" Not read yet:")[0]
-            r["pages"] = "images %s read both pages (%d of 592; item 1, the 1734–1819 Latin-prose marriages, images 10–206, is done; item 2, 1820–1858, begins at image 209 and is a bundle of interleaved sequences)." % (fmt(dn), len(done)) + tail + " Not read yet: %s." % fmt(notread)
+            r["pages"] = "images %s read both pages (%d of 592; item 1, the 1734–1819 Latin-prose marriages, images 10–206, is done; item 2, 1820–1858, begins at image 209 and is a bundle of interleaved sequences)." % (fmt(dn), len(done)) + tail + ((" Not read yet: %s." % fmt(notread)) if notread else "")
             r["when"] = "14 October 2026"
             print(r["pages"])
 json.dump(d, open(S, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
