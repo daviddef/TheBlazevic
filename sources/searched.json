@@ -4220,14 +4220,14 @@
    "missed": "The pages were read at about 2x as strips, not name by name; the 1730–31 entries in particular should be re-read slowly. Kastav and Varaždin registers were not opened."
   },
   {
-   "src": "FamilySearch — Šibenik cathedral parish marriages 1693–1787 (waypoint 9R2C-W3R), images 344–345, January–September 1760: Georgius Uroda × Maria",
+   "src": "FamilySearch — Šibenik cathedral parish marriages 1752–1787 (waypoint 9R2C-W3R), images 313–359, May 1752 – November 1763: Georgius Uroda × Maria",
    "key": "fs/sibenik-marriages-1760-uroda",
    "url": "https://www.familysearch.org/ark:/61903/3:1:9R2C-W3R",
    "waypoint": "9R2C-W3R",
    "what": "The marriage of Georgius Uroda and Maria (ahnentafel 108 and 109), before November 1763",
    "when": "12 October 2026",
    "outcome": "nothing",
-   "pages": "344 (both pages), 345 (both pages)",
+   "pages": "313–359 (both pages of every image)",
    "walked": false,
    "tags": [
     "uroda",
@@ -4235,8 +4235,27 @@
     "familysearch",
     "vjencani"
    ],
-   "got": "**No Uroda in January–September 1760.** Page map: 344 = Jan–Apr 1760, 345 = Apr–Sep 1760, 352 = Jan–Feb 1762, 380 = Feb 1769 (about four images a year). Latin prose, about ten entries to an image, surnames noted in the left margin. The Šibenik index has no Uroda marriage.",
-   "missed": "Images 346–360 (late 1760 – 1763) not read; read at about 1.5x as half-page strips, names in this hand a probable negative only."
+   "got": "**No Uroda groom or bride, in any spelling I could recognise, from the first entry of the book (image 313, p. 1, 4 May 1752) to the end of November 1763.** Image 311 right is the title page («Liber Matrimoniorum 1752–1787»); the book proper starts at image 313 (the water-stained leaf 313 left and image 312 are blank), and the volume before it (image 300 is 1709) is an older book. Page map: 313 = May 1752, 314 = Oct–Nov 1752, 315 = Jan–May 1753, 316 = Mar–Jul 1753, 317 = Nov 1753, 319 = Jan–Feb 1754 (318 is a second frame of it), 320 = Mar–Jun 1754, 321–322 = Oct–Nov 1754, 323 = Jan–Feb 1755, 324 = Feb–Apr 1755, 325 = May–Sep 1755, 326 = Nov 1755–Jan 1756, 327 = Feb–May 1756, 328 = May–Jul 1756, 329 = Oct–Dec 1756, 330 = Feb 1757, 331 = Jun–Jul 1757, 332 = Jul–Oct 1757, 333/334 (duplicate frames) = Oct 1757, 335 = Nov 1757–Feb 1758, 336 = Mar–Jun 1758, 337–338 = Aug–Nov 1758, 339–343 = Jan–Dec 1759, 344–359 = Jan 1760–Nov 1763. Latin prose, four or five entries to a page, spouses' surnames noted in the left margin. The Šibenik index has no Uroda marriage. Barach of the S. Benedicti suburb turns up (14 Nov 1761, 5 Oct 1763) and is the only candidate for Maria's maiden name.",
+   "missed": "Read in half-page strips at 0.85 screenshot scale, names in a dense hand: a probable negative only. Images 335–336 and 340–343 were first read at poorer legibility; 335–336 were redone at 0.85 and 340–343 at 0.65–0.7 only. Entries after November 1763 (image 360 on) not read in this pass; the child's Karlobag baptism is of November 1763, so the marriage is earlier than that."
+  },
+  {
+   "src": "FamilySearch — Šibenik cathedral parish marriages 1752–1787 (waypoint 9R2C-W3R), images 360–382, December 1763 – January 1770: any Uroda",
+   "key": "fs/sibenik-marriages-1763-67-uroda",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:9R2C-W3R",
+   "waypoint": "9R2C-W3R",
+   "what": "Any Uroda groom, bride or witness in the Šibenik cathedral marriages after Georgius Uroda × Maria's marriage window (the Uroda of Šibenik lane)",
+   "when": "12 October 2026",
+   "outcome": "yield",
+   "pages": "360–382 (both pages of every image)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "sibenik",
+    "familysearch",
+    "vjencani"
+   ],
+   "got": "**No Uroda groom or bride, but a witness: «Dno Dominico Uroda» at the marriage of Joannes Grubisich and Ariana, daughter of the late Michael Boydanovich alias Pancora, on 3 June 1767 (image 373, left, first entry; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda)).** The first living Uroda in the Šibenik registers; no father, place or age is given, so he is not tied to the Karlobag Dominicus or Dume. Page map: 360 = Dec 1763–May 1764, 361 = May–Aug 1764, 362 = Nov 1764–Feb 1765, 363 = Feb–Aug 1765, 364 = Sep–Oct 1765, 365 = Nov 1765–Nov 1766 (sparse), 366 = Jan–Aug 1766 (a later hand), 367 = Feb–Apr 1766, 368 = Apr–Aug 1766, 369 = Aug–Nov 1766, 370 = Nov 1766–Jan 1767, 371 = Feb 1767, 372 = Feb–May 1767, 373 = Jun–Sep 1767, 374 = Sep–Nov 1767, 375 = Nov 1767–Feb 1768, 376 = Feb 1768, 377 = May–Oct 1768, 378 = Oct–Dec 1768, 379 = Dec 1768–Jan 1769, 380 = Feb 1769, 381 = May–Aug 1769, 382 = Aug 1769–Jan 1770. With 313–359 (the row above) the whole book is read from its first entry, May 1752, to January 1770: **eighteen years, one Uroda, a witness.**",
+   "missed": "Read in half-page strips at 0.85 screenshot scale, names in dense cursive: a probable negative for groom and bride, and a witness list is easy to miss. The page map for 365–367 is approximate. Image 382 left has an entry scribbled out at the top, and image 381 right ends in a patch of smeared ink (an entry of August 1769) that cannot be read. Entries after January 1770 (image 383 to about 466, to 1787) are not read; the Uroda baptised 1764–72 at Karlobag and the Drniš soldier family make a Šibenik marriage after 1770 possible for the next generation."
   }
  ]
 }

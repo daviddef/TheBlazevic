@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 86,
- "images": 102,
+ "count": 87,
+ "images": 103,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -2378,6 +2378,29 @@
    "captured": "12 October 2026",
    "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
+  },
+  {
+   "id": "sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda",
+   "entry": "sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda-line.jpg",
+   "page": "",
+   "title": "Šibenik, 3 June 1767 — marriage of Joannes Grubisich and Ariana, daughter of the late Michael Boydanovich alias Pancora; the witnesses include «Dno Dominico Uroda»",
+   "film": "Šibenik cathedral parish marriages 1752–1787 (FamilySearch waypoint 9R2C-W3R, 468 images)",
+   "where": "image 373, left-hand page, the first entry, headed «Anno Domini 1767 die vero 3tia mensis Junii»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-29R2",
+   "says": "«Ego Presbyter Josephus Caristo Rector Ecclesiae Parochialis S. Benedicti … Joannem filium Michaeli Grubisich ex Parochia Sanctae Mariae Vallis Viridis et Arianam [?] filiam relictae q. Michaelis Boydanovich alias Pancora, Parochiae S. Benedicti, in Ecclesia S. Francisci Fratrum Minorum Conventualium interrogavi … matrimonio conjunxi coram Testibus Matthaeo Xeravizza, et Dno Dominico Uroda, ac multis.» The witness's surname is read as Uroda (V-shaped initial, final «a»); the entry gives no father, place or age. The first Uroda seen in the Šibenik registers; NOT shown to be the Karlobag Dominicus or Dume. Read at about 3x.",
+   "slugs": [
+    "dominicus-uroda-of-sibenik"
+   ],
+   "people": [
+    {
+     "slug": "dominicus-uroda-of-sibenik",
+     "kind": "found",
+     "name": "Dominicus Uroda of Šibenik"
+    }
+   ],
+   "captured": "12 October 2026",
+   "note": "notes/karlobag-marriage-1774-smojver-bacchi.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1774-smojver-bacchi.md"
   }
  ],
  "bySlug": {
@@ -2677,6 +2700,9 @@
    "drnis-baptism-1770-josepha-uroda",
    "drnis-baptism-1778-julia-magdalena-uroda",
    "drnis-baptism-1780-joseph-uroda"
+  ],
+  "dominicus-uroda-of-sibenik": [
+   "sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda"
   ]
  }
 }

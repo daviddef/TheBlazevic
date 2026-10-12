@@ -126,10 +126,10 @@
     {
      "key": "sibenik",
      "colour": "#a8453a",
-     "label": "Šibenik — Dume Uroda, dead by 1739",
-     "conf": "DOCUMENTED IN ONE LINE · KNOWN ONLY THROUGH HIS DAUGHTER'S MARRIAGE",
-     "read": "The dead Dume of Šibenik →",
-     "href": "/found/dume-uroda-of-sibenik/",
+     "label": "Šibenik — Dume Uroda, dead by 1739; a Dno Dominico Uroda in 1767",
+     "conf": "DOCUMENTED IN TWO SEPARATE LINES · NO LINK BETWEEN THEM · NO LINK TO KARLOBAG",
+     "read": "The Šibenik Uroda →",
+     "href": "/found/dominicus-uroda-of-sibenik/",
      "nodes": [
       [
        "Dume of Šibenik",
@@ -140,6 +140,11 @@
        "Simona marries",
        "7 Jun 1739",
        "Martin Svjata marries Simona, «pokoi[nog] Dume urode od Šibenika» — daughter of the late Dume Uroda of Šibenik"
+      ],
+      [
+       "Dno Dominico Uroda",
+       "3 Jun 1767",
+       "A witness at a marriage in the cathedral parish of Šibenik (S. Benedicti): «coram Testibus Matthaeo Xeravizza, et Dno Dominico Uroda». The first living Uroda in the Šibenik registers; no father, place or age given. Whether he is a son or kinsman of the dead Dume, or the Dominicus of Karlobag, is not shown"
       ]
      ],
      "ends": [
@@ -354,6 +359,10 @@
      [
       "The 1739 marriage",
       "karlobag-marriage-1739-06-svjata-simona-uroda-sibenik"
+     ],
+     [
+      "The 1767 witness",
+      "sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda"
      ]
     ],
     "drnis": [
@@ -380,7 +389,7 @@
    "slug": "uroda",
    "eyebrow": "Uroda — six groups, one surname",
    "note": "<strong>One spelling is not a search.</strong> The registers write <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index reads one Karlobag father as <em>Sime</em>, spells Dume's children <em>Urode</em> (so a search for <em>Uroda</em> misses them), and reads one Drniš father four ways (<em>Janpao, Ganpas, Pompio, Tomaso</em>) where the pages say <em>Pampao</em> and <em>Pompeo</em>. At Karlobag in 1734 a priest writes <strong>«Dume urode alliti Kovaca»</strong> — a by-name, a smith's — and before the 1730s the book has <em>no</em> Uroda at all, so a baptism of the man himself would sit under another surname. See <a href=\"{{base}}/by-names/\">The Second Name</a>.",
-   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804 and not in the index under any «Urod*» spelling; perhaps Šibenik), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong> (the Betina and Drniš ones have been opened and are other families)."
+   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, and not in the Šibenik cathedral marriage book 1752–1770, which was read entry by entry; perhaps Varoš, Dolac or Grad, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong> (the Betina and Drniš ones have been opened and are other families)."
   },
   {
    "slug": "smojver",
