@@ -786,6 +786,12 @@ SETTLED = {
         "Hofjevac entry above - neither surnamed Borić, neither placed at "
         "Kamenica. This row names her only as a witness to a Sertić "
         "baptism there",
+    "Antonius Uroda of Šibenik":
+        "resembles Antonius Defranceschi of 1742, a sibling of "
+        "leonardus-defranceschi - a different surname entirely, and a "
+        "different place. This row is a Magister Antonius Vroda of the Dolac "
+        "suburb of Šibenik (married 30 Oct 1718 to Antonia, daughters buried "
+        "Jan and Jul 1742); the resemblance is a given name and a year",
 }
 
 
