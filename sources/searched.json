@@ -4519,6 +4519,26 @@
    ],
    "got": "**No Papa, Papić or Pilipić marriage in the Cathedral-parish sequence for 1855–57.** The entries of 27 January 1856, 29 March 1856, 23 February 1857, 14 June, 4 July and 25 October 1857 (image 302) and of 15 May, 22 November and a third 1857 entry (image 311, page 95) are read; none names a Juraj Papa, a Papić, or a Matia Pilipić. **The volume is not one book but a bundle of at least eight interleaved sequences** — a tabular «Matricula Copulatorum» of the Cathedral parish (1828–1857, pages 76–101), loose Latin lines of 1820s–1850s on the page edges, Croatian-language entries from 1849–51 (image 300), and further runs for other churches (St. Francis, B.V.M. ad Nives) — and **the same page can hold 1832, 1852 and 1857**.",
    "missed": "THIS IS NOT A COMPLETE WALK AND THE NEGATIVE IS FOR THE CATHEDRAL SEQUENCE ONLY. At a quarter scale the names of grooms and brides are read in each entry's first lines, but the hands are cramped; a Papa/Papić written «Pappa», «Papich» or in a Croatian entry on a page edge could be passed over. Images 319–525 (about 200) hold the other sequences and are unread, and there is no year-order to go by, so none can be skipped. A trial to read only the year column of many images at once (strips) was not legible. The marriage may also be in another parish altogether (Selce and Karlobag 1856–57 were read earlier and are not the place)."
+  },
+  {
+   "src": "FamilySearch — Senj marriages 1734–1819, 1820–1858 and deaths 1820–1858 (waypoint 9RK1-W3P, 592 images): FULL READ in progress, every image both pages",
+   "key": "fs/senj-marriage-volume-walk",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+   "waypoint": "9RK1-W3P",
+   "what": "Every marriage in the volume that names a Blažević, Žubrinić, Kalanj, Papić/Papa, Prpić, Boras, Šestan, Pavelić, Šojat, Krmpote, Orešković, Uroda, Pilipić or related surname — and, for work-list row 4, the marriage of Juraj Papa and Matia Pilipić (1856–57)",
+   "when": "14 October 2026",
+   "outcome": "partial",
+   "pages": "images 1–9 (covers, targets), 10–151 and 270–271, 296–318 read both pages. IMAGES 10–79 THROUGH A WINDOW THAT MISSED THE RIGHT EDGE OF EVERY PAGE (listed in the ledger as the strip pass); images 139–151 are Latin numbered entries of 1790–94 in a small hand, read coarsely (listed as the re-read pass). Control file sources/senj-walk-ledger.json; helper tools/senjwalk.py. Not read yet: images 152–269, 272–295, 319–592.",
+   "walked": false,
+   "tags": [
+    "senj",
+    "marriage",
+    "familysearch",
+    "full-read",
+    "row-4"
+   ],
+   "got": "Eleven entries so far that bear on the families researched, each a snapshot and a found person: a Matia Urolla of Zastva (1736), Krmpote grooms Marko Tomičić (1739) and a Pernich (1765, marrying a widow of Vid Šojat), Šojat grooms (1745, 1786), a Papić bride Katarina (1747), a Prpić bride Antonia (1788), a Blažević widow Anna (1768) and Blažević grooms Mate (1769) and Lorne (1779), and an Orešković adjutant of the Otočac regiment (1783).",
+   "missed": "This row is rewritten as the walk proceeds. The negative for any family is only for the images and windows listed under «pages»: the first 70 images missed the right edge of every page, the 1790s Latin entries are only coarsely read, and the hand of 1790–94 gives surnames in a second line that was often too small to read at this scale."
   }
  ]
 }
