@@ -9,10 +9,10 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 46,
+  "nothing": 45,
   "partial": 26,
   "pending": 6,
-  "yield": 121
+  "yield": 123
  },
  "read": [
   {
@@ -4425,14 +4425,14 @@
    "missed": "A margin scan at a quarter scale reads a surname only if it is written in the margin and legible: some margins are clipped by the spread's edge or crowded, and a Vroda written only in the body of an entry (as a godparent, or after 1701 when the margin has forenames only) would not be found. Images 330–672 (1702–1737) need an entry-by-entry reading; images 1–254 (1648–1692, the books before this one) were not opened, so the births of the elder Dominicus, of Lucietta and of any child before 1694 are unknown."
   },
   {
-   "src": "FamilySearch — Šibenik cathedral (S. Jacobi) births (waypoint 9R2D-MNY, the «Matična knjiga rođenih 1737–1768», images 10–26, December 1737 – about 1740): margin scan for the Uroda",
-   "key": "fs/sibenik-cathedral-births-1737-40-uroda",
+   "src": "FamilySearch — Šibenik cathedral (S. Jacobi) births (waypoint 9R2D-MNY, the «Matična knjiga rođenih 1737–1768», images 11–59, December 1737 – January 1744): margin scan for the Uroda",
+   "key": "fs/sibenik-cathedral-births-1737-43-uroda",
    "url": "https://www.familysearch.org/ark:/61903/3:1:9R2D-MNY",
    "waypoint": "9R2D-MNY",
-   "what": "A baptism of a son or daughter of Georgius Vroda (b. 1694), or of a Georgius Vroda b. 1730s who might be Georgius of Karlobag (ahnentafel 108)",
+   "what": "A baptism of a child of Georgius Vroda (b. 1694) or of Dominicus Vroda, or of a Georgius Vroda b. 1730s–40s who might be Georgius of Karlobag (ahnentafel 108)",
    "when": "13 October 2026",
-   "outcome": "nothing",
-   "pages": "images 11–26 (December 1737 – about 1740) as margin-only spreads at about a three-quarter scale; cover at image 10, front matter 1–9. The margin here carries forename and surname, but it is crowded, with many forenames only and several entries without a margin name. Not read: images 27–691 of the waypoint (about 1740–1812)",
+   "outcome": "yield",
+   "pages": "images 11–59 (December 1737 – January 1744) as margin-only spreads at about a three-quarter scale, with images 31 and 41 then read in full at about 4x; cover at image 10, front matter 1–9. The margin here carries forename and surname, but it is crowded, with many forenames only and several entries without a margin name. Not read: images 60–691 of the waypoint (about 1744–1812); image 60 (December 1743) was opened for its layout",
    "walked": false,
    "tags": [
     "uroda",
@@ -4441,8 +4441,28 @@
     "familysearch",
     "krsteni"
    ],
-   "got": "No Vroda, Urodich or Uroda margin name seen in images 11–26. Image 60 (December 1743), opened for its layout, names a «Dominus Georgius Vrode» and Antonia, wife of Terentius Lombardus, as godparents of a girl of the parish of S. Marci baptised in the cathedral — Georgius the master, alive in 1743; no new person.",
-   "missed": "A scan of the margins is not a reading: an Uroda child baptised under a margin forename only, or a Vroda named only as a godparent in the body of an entry, would not show. 650 images of this waypoint remain."
+   "got": "**Two children of Magister Dominicus and Flora Vroda of the parish of S. Marci** — baptised at home for danger of death and the ceremonies supplied at the cathedral: **Joseph Joannes, born 16 December 1739, ceremonies 7 June 1740** (image 31; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#sibenik-cathedral-birth-1740-06-joseph-joannes-son-of-magister-dominicus-and-flora-vroda)) and **Anna, born May 1741, ceremonies 6 August 1741** (image 41; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#sibenik-cathedral-birth-1741-08-anna-daughter-of-magister-dominicus-and-flora-vroda)). The Joannes of 1739 is very probably the «Joannes filius Dominici Uroda» of 1757. No Georgius Vroda baptism in the window — no son Georgius of the master Georgius born December 1737 – 1743 at the cathedral. Image 60 (December 1743) names a «Dominus Georgius Vrode» as godfather of a girl of S. Marci baptised in the cathedral — Georgius the master, alive in 1743; no new person. A «Cecilia V. Fondra» of the parish of All Saints (image 52) is not a Vroda.",
+   "missed": "A margin scan is not a reading: a child baptised under a margin forename only, a Vroda named only as a godparent in the body of an entry, and any entry on a page the strips clipped would not show; the second book's images 60–691 and the later book to 1812 remain. The Dolac births book (read entry by entry) did not hold these two children, so a household baptising in two places is not caught by either book alone."
+  },
+  {
+   "src": "FamilySearch — Šibenik, Dolac parish (S. Marci) deaths 1701–1783 (waypoint 9R2Z-C62), images 216–221 and 255–259 (September 1738 – September 1740 and October 1754 – March 1756): the Uroda",
+   "key": "fs/sibenik-dolac-deaths-1738-40-1754-56-uroda",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:9R2Z-C62",
+   "waypoint": "9R2Z-C62",
+   "what": "The death of the Magister Franciscus Uroda (dead by 6 May 1742), a Dume Uroda (dead by 7 June 1739), and of Georgius's wife and Dominicus after 1754",
+   "when": "13 October 2026",
+   "outcome": "yield",
+   "pages": "images 216–221 and 255–259 in full (both pages, top and bottom, at about 0.5x). Image 220 and image 221 show the same spread (July–September 1740). The 1701–1756 book ends at image 259 (March 1756); images 261–299 are a separate book «Matična knjiga umrlih 1756–1768» (end-label at 299) and are not read; the book from image 300 is 1768–1783. Not read: images 1–214 (1701–September 1738), 261–299 (1756–1768)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "sibenik",
+    "dolac",
+    "familysearch",
+    "umrli"
+   ],
+   "got": "**Franciscus: «Magister Franciscus Vroda … animam Deo reddidit», 15 November 1738, buried in the church of the Holy Trinity** (image 216; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#sibenik-dolac-death-1738-11-magister-franciscus-vroda)) — a month after he last stood godfather (12 October 1738). No Dume Uroda, no death of Georgius's wife and no Dominicus in the pages read: nothing in September 1738 – September 1740 or October 1754 – March 1756 beyond Franciscus.",
+   "missed": "Death entries carry no margin surnames, so every line was read by eye at about 0.5x; a Vroda in the middle of a long entry (a mother or a father named in a child's burial) could be passed over, so the finds are a minimum. Images 1–214 (1701–1738) and 261–299 (1756–1768) are unread: the deaths of the elder Dominicus (dead by 1746), of the dead Dume of 1739, of Georgius's wife and of Floria are open."
   }
  ]
 }
