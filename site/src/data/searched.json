@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 45,
-  "partial": 26,
+  "partial": 27,
   "pending": 6,
   "yield": 123
  },
@@ -4463,6 +4463,26 @@
    ],
    "got": "**Franciscus: «Magister Franciscus Vroda … animam Deo reddidit», 15 November 1738, buried in the church of the Holy Trinity** (image 216; [snapshot](https://daviddef.github.io/TheBlazevic/snapshots/#sibenik-dolac-death-1738-11-magister-franciscus-vroda)) — a month after he last stood godfather (12 October 1738). No Dume Uroda, no death of Georgius's wife and no Dominicus in the pages read: nothing in September 1738 – September 1740 or October 1754 – March 1756 beyond Franciscus.",
    "missed": "Death entries carry no margin surnames, so every line was read by eye at about 0.5x; a Vroda in the middle of a long entry (a mother or a father named in a child's burial) could be passed over, so the finds are a minimum. Images 1–214 (1701–1738) and 261–299 (1756–1768) are unread: the deaths of the elder Dominicus (dead by 1746), of the dead Dume of 1739, of Georgius's wife and of Floria are open."
+  },
+  {
+   "src": "FamilySearch — Šibenik cathedral (S. Jacobi) births (waypoint 9R28-SPJ, the «Liber Baptizatorum 1693–», images 330–341, July 1702 – October 1703): page-by-page reading for the Uroda",
+   "key": "fs/sibenik-cathedral-births-1702-03-uroda",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:9R28-SPJ",
+   "waypoint": "9R28-SPJ",
+   "what": "Further children of Magister Dominicus and Lucietta Vroda (b. 1698–1712), and any other Uroda household baptising at the cathedral",
+   "when": "13 October 2026",
+   "outcome": "partial",
+   "pages": "images 330–341, both pages of each, one page per screenshot at about a quarter scale (about 130 baptism entries). A trial of the page-by-page method for the 340 images 330–672 (1702–1737), where the margin carries forenames only. Not read: images 342–672 (October 1703 – 1737)",
+   "walked": false,
+   "tags": [
+    "uroda",
+    "sibenik",
+    "cathedral",
+    "familysearch",
+    "krsteni"
+   ],
+   "got": "No Vroda, Vrodich, Urodich or Uroda parent or godparent read in these 12 images. Not a finding of absence (see what was missed).",
+   "missed": "THIS IS NOT A RELIABLE NEGATIVE. At a quarter scale the 1702–03 hand (cramped, many abbreviations, long entries with the parents' and godparents' names run together in the body) is only partly legible: some entries could be read word by word, others only by their shape, and the surname of the parents is often written once, in the middle of a line, among five other names. A Vroda in a line I could not read would be passed over. A reliable pass needs each page cut in halves at about half scale — roughly 1,400 screenshots for the 340 images — and has not been done. The better routes to a specific child are targeted: a known year, or a date taken from another register (a marriage, a death age)."
   }
  ]
 }
