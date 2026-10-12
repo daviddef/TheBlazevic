@@ -819,6 +819,56 @@ SETTLED = {
         "resembles Catharina Perpic / Catharina Žubrinić of 1847 - other "
         "surnames, other parents. This row is an Ostoman bride, daughter of "
         "Matthias and Maria; the resemblance is a given name and a year",
+    "Antonia Babić of Novigrad bride of 1831":
+        "resembles Antonia Tomljanović 1831 [spouses of dujo-pavelic-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Gerbacz bride of Vincentius Uroda 1849":
+        "resembles Maria 1848 [published]; Maria Blažević 1850 [siblings of slavka]; Maria Žubrinić 1848 [children of kate-babic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Catharina widow of Stephanus Babić bride of 1857":
+        "resembles Catharina Papić (Papa) 1858 [children of margareta-loncaric] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonius Gerbac widower of Starigrad groom of 1857":
+        "resembles Antonius Blažević 1858 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Tomljenović of Karlobag bride of 1858":
+        "resembles Maria Mariam 1858 [siblings of christophorus]; Maria Žubrinić Xubrinic 1857 [children of matia-banic]; Maria Blažević 1858 [children of anton-kljapo-blazevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Lucas Glavicsich of Senj groom of 1858":
+        "resembles Luka Lucas Kalanj 1859 [children of maria-jovanovic-jovanovic-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Martha Lončarić widow of Linić bride of 1858":
+        "resembles Martha Žubrinić 1857 [children of maria-matasic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Vincentius Gerzic of Senj groom of 1858":
+        "resembles Franciscus Sestan 1857 [children of sancta-alexandra-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Lončarić bride of 1845":
+        "resembles Francisca Žubrinić 1846 [children of joanna]; Francisca Sestan 1846 [children of sancta-alexandra-defranceschi]; Francisca Žubrinić 1844 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Martinus Lenack groom of 1832 at Senj":
+        "resembles Martinus Žubrinić Xubrinich 1833 [children of anna-3]; Martinus Šojat 1831 [children of ivka-krmpotic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonia widow bride of Krmpotić 1830":
+        "resembles Antonia Tomljanović 1831 [spouses of dujo-pavelic-2] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Michael Krmpotić widower of Senj groom of 1830":
+        "resembles Michaellum Michael Kalanj 1831 [children of margarita-barichevic]; Michael Vukelic 1830 [spouses of stanislava-blazevic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Antonius Babić witness at Senj marriage of 1858":
+        "resembles Antonius Blažević 1858 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Ana Dragičević bride of Valerian Lukatella 1849":
+        "resembles Ana Anna Miletic 1848 [spouses of josip-josephus-joso-kalanj] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Butković bride of Lenac 1853":
+        "resembles Maria Žubrinić Xubrinich 1853 [children of juliana]; Maria Sestan 1854 [children of sancta-alexandra-defranceschi]; Maria Magdalena Kalanj 1853 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Jacobus Lenac groom of 1853 at Senj":
+        "resembles Jacobus Orešković Oreskovic 1852 [children of marcus-oreskovic-oreskovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Špalj bride of Malik 1820":
+        "resembles Francisca Kraljich 1820 [children of anna-5]; Francisca 1819 [published]; Francisca Žubrinić Xubrinich 1820 [children of martha-franczetich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Malik soldier groom of 1820 at Senj":
+        "resembles Joannes Juan Ivan Ive Žubrinić Zubrinic 1821 [children of margarita-3]; Joannes Žubrinić Xubrinich 1821 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Toma Pasquan groom of 1850 at Senj with a Žubrinić bride of Baška":
+        "resembles Toma Žubrinić 1851 [children of matia-banic]; Toma Žubrinić 1850 [children of maria-klobacar]; Toma Žubrinić 1849 [children of luce-lucia-simetovic-simatovic-simatovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Lenac bride of Perpich 1845":
+        "resembles Francisca Žubrinić 1846 [children of joanna]; Francisca Sestan 1846 [children of sancta-alexandra-defranceschi]; Francisca Žubrinić 1844 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Perpich groom of 1845 at Senj":
+        "resembles Joannes Žubrinić Zubrinic Xubrinich 1844 [children of catharina-7]; Joannes Spudicevich-Tomich 1846 [spouses of anna-kalanj-6]; Joannes Žubrinić 1846 [children of maria-kostelacz-jergovic] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Sbaich bride of Orichovich 1821":
+        "resembles Maria Žubrinić Zubrinic 1822 [children of anna-4]; Maria Sekula 1820 [children of maria-11]; Maria Žubrinić Zubrinic Xubrinich 1821 [children of catharina-7] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Thomas Orichovich groom of 1821 at Senj":
+        "resembles Thomas Žubrinić Xubrinich 1822 [children of magdalena-3]; Thomas Žubrinić 1822 [siblings of stephanus-zubrinic-6] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Anna Maria Theresia Brozinčević bride of Prpić 1853":
+        "resembles Anna Papić (Papa) 1853 [children of franica-karsul] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Prpić groom of 1853 at Senj":
+        "resembles Franciscus Sestan 1853 [children of joanna-defranceschi] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
 }
 
 
