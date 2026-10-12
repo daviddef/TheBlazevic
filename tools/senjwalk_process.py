@@ -16,14 +16,23 @@ for h in d["hits"]:
     p = PEOPLE.get(h["id"])
     if not p: print("no people entry for", h["id"]); continue
     name, headline, event, date, place = p
+    extra = PEOPLE.get(h["id"] + "-bride")
     slug = name.lower().replace(" ", "-").replace("«", "").replace("»", "")
     import unicodedata
     slug = "".join(c for c in unicodedata.normalize("NFD", slug) if unicodedata.category(c) != "Mn")
+    slugs = slug
+    if extra:
+        import unicodedata as _u
+        s2 = extra[0].lower().replace(" ", "-")
+        s2 = "".join(c for c in _u.normalize("NFD", s2) if _u.category(c) != "Mn")
+        slugs = slug + "," + s2
+        if not any(r.startswith(extra[0] + "|") for r in found):
+            found.append("|".join([extra[0], "", extra[1], extra[2], extra[3], extra[4], "(1) " + FILM + ", image %d: see the entry quoted in notes/senj-marriage-volume-walk.md and the snapshot of its groom's row (read at about 6x). See notes/senj-marriage-volume-walk.md" % h["image"]]))
     view = arks.get(str(h["image"]), "")
     side = "left-hand" if h["side"] == "L" else "right-hand"
     where = "image %d, %s page, %s" % (h["image"], side, h.get("where", "see the entry quoted"))
     if not any(r.startswith(h["id"] + "|") for r in snap):
-        snap.append("|".join([h["id"], h["id"] + "-line.jpg", "", "Senj, " + h["year"] + " — " + name, FILM, where, view, h["says"], slug, "14 October 2026", "notes/senj-marriage-volume-walk.md"]))
+        snap.append("|".join([h["id"], h["id"] + "-line.jpg", "", "Senj, " + h["year"] + " — " + name, FILM, where, view, h["says"], slugs, "14 October 2026", "notes/senj-marriage-volume-walk.md"]))
     if not any(r.startswith(name + "|") for r in found):
         cit = "(1) " + FILM + ", " + where + ": " + h["says"] + " (snapshotted; read at about 6x). See notes/senj-marriage-volume-walk.md"
         found.append("|".join([name, "", headline, event, date, place, cit]))

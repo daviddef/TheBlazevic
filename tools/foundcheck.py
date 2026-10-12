@@ -792,6 +792,33 @@ SETTLED = {
         "different place. This row is a Magister Antonius Vroda of the Dolac "
         "suburb of Šibenik (married 30 Oct 1718 to Antonia, daughters buried "
         "Jan and Jul 1742); the resemblance is a given name and a year",
+    "Vincentia Blažević widow bride of 1812":
+        "resembles Vincentia 1811, a spouse of jacobi-kraljich - a Kraljić, "
+        "not a Blažević. This row is a Blažević widow who married the "
+        "widower Petrus Bozijan at Senj on 18 August 1812; the resemblance "
+        "is a given name and a year",
+    "Maria Kalanj bride of Babić 1842":
+        "resembles Maria Lucia Komadina 1841 / Maria Sestan 1843 / Maria "
+        "Žubrinić 1841 - different surnames, different parents. This row is "
+        "a Kalanj bride of 1842, daughter of Jacobus and Magdalena; the "
+        "resemblance is a given name and a year",
+    "Antonius Babić of Senj groom of 1842":
+        "resembles Antonius Žubrinić / Antonius Oreskovic of 1842 - other "
+        "surnames, other parents. This row is a Babić, son of the late "
+        "Georgius Babić and Maria née Babić; the resemblance is a given name "
+        "and a year",
+    "Maria Bajsich bride of Babić 1847":
+        "resembles Maria Rosaria Antić / Maria Žubrinić of 1847-48 - other "
+        "surnames, other parents. This row is a Bajsich bride, daughter of "
+        "Martinus and Maria; the resemblance is a given name and a year",
+    "Franciscus Babić of Senj groom of 1847":
+        "resembles Franciscus Xubrinich 1847 - a Žubrinić, other parents. "
+        "This row is a Babić, son of Franciscus Babić and Dorothea née "
+        "Babić; the resemblance is a given name and a year",
+    "Catharina Ostoman bride of Babić 1848":
+        "resembles Catharina Perpic / Catharina Žubrinić of 1847 - other "
+        "surnames, other parents. This row is an Ostoman bride, daughter of "
+        "Matthias and Maria; the resemblance is a given name and a year",
 }
 
 

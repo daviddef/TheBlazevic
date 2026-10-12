@@ -4528,7 +4528,7 @@
    "what": "Every marriage in the volume that names a Blažević, Žubrinić, Kalanj, Papić/Papa, Prpić, Boras, Šestan, Pavelić, Šojat, Krmpote, Orešković, Uroda, Pilipić or related surname — and, for work-list row 4, the marriage of Juraj Papa and Matia Pilipić (1856–57)",
    "when": "14 October 2026",
    "outcome": "partial",
-   "pages": "images 1–9 (covers, targets), 10–151 and 270–271, 296–318 read both pages. IMAGES 10–79 THROUGH A WINDOW THAT MISSED THE RIGHT EDGE OF EVERY PAGE (listed in the ledger as the strip pass); images 139–151 are Latin numbered entries of 1790–94 in a small hand, read coarsely (listed as the re-read pass). Control file sources/senj-walk-ledger.json; helper tools/senjwalk.py. Not read yet: images 152–269, 272–295, 319–592.",
+   "pages": "images 1–245, 270–271, 296–307, 310–311, 314–318 read both pages (266 of 592; item 1, the 1734–1819 Latin-prose marriages, images 10–206, is done; item 2, 1820–1858, begins at image 209 and is a bundle of interleaved sequences). IMAGES 10–79 THROUGH A WINDOW THAT MISSED THE RIGHT EDGE OF EVERY PAGE (ledger strip pass); images 139–151 (1790–94) and 177–206 (1805–1819) are small Latin cursive read coarsely (ledger re-read pass). Control file sources/senj-walk-ledger.json; helper tools/senjwalk.py. Not read yet: 246–269, 272–295, 308–309, 312–313, 319–592.",
    "walked": false,
    "tags": [
     "senj",
@@ -4537,7 +4537,7 @@
     "full-read",
     "row-4"
    ],
-   "got": "Eleven entries so far that bear on the families researched, each a snapshot and a found person: a Matia Urolla of Zastva (1736), Krmpote grooms Marko Tomičić (1739) and a Pernich (1765, marrying a widow of Vid Šojat), Šojat grooms (1745, 1786), a Papić bride Katarina (1747), a Prpić bride Antonia (1788), a Blažević widow Anna (1768) and Blažević grooms Mate (1769) and Lorne (1779), and an Orešković adjutant of the Otočac regiment (1783).",
+   "got": "Eighteen entries so far that bear on the families researched, each a snapshot and a found person: a Matia Urolla of Zastva (1736), Krmpote grooms Marko Tomičić (1739) and a Pernich (1765, marrying a widow of Vid Šojat), Šojat grooms (1745, 1786), a Papić bride Katarina (1747), a Prpić bride Antonia (1788), a Blažević widow Anna (1768), Blažević grooms Mate (1769) and Lorne (1779), an Orešković adjutant of the Otočac regiment (1783), a Blažević widow Vincentia (1812), and a Fabijan Blažević who is a standing witness at Senj marriages 1802–1812 (and, on image 222, very probably the same man as a widower tailor marrying in 1832); four Babić marriages of 1842–1848 (Antonius Babić × Maria Kalanj 1842, Laurentius Babić × Anna Kupar 1842, Franciscus Babić 1847, Stephanus Babić 1848) — a Babić and a Kalanj in the one 1842 entry, none yet joined to a line of this archive.",
    "missed": "This row is rewritten as the walk proceeds. The negative for any family is only for the images and windows listed under «pages»: the first 70 images missed the right edge of every page, the 1790s Latin entries are only coarsely read, and the hand of 1790–94 gives surnames in a second line that was often too small to read at this scale."
   }
  ]
