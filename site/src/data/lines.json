@@ -126,8 +126,8 @@
     {
      "key": "sibenik",
      "colour": "#a8453a",
-     "label": "Šibenik — Dume Uroda, dead by 1739; a Dominicus Uroda and his son Joannes, 1756–1767",
-     "conf": "DOCUMENTED IN TWO SEPARATE LINES · NO LINK BETWEEN THEM · NO LINK TO KARLOBAG",
+     "label": "Šibenik — Dume Uroda, dead by 1739; masters Franciscus (1733), Georgius (1738), Dominicus (1741–67) and a Joannes",
+     "conf": "SEVEN SIGHTINGS OF THREE MASTERS, A SON AND A DAUGHTER · NO URODA'S OWN BAPTISM, MARRIAGE OR DEATH READ · NO LINK TO KARLOBAG",
      "read": "The Šibenik Uroda →",
      "href": "/found/dominicus-uroda-of-sibenik/",
      "nodes": [
@@ -142,9 +142,19 @@
        "Martin Svjata marries Simona, «pokoi[nog] Dume urode od Šibenika» — daughter of the late Dume Uroda of Šibenik"
       ],
       [
-       "Dominicus Uroda",
-       "11 Jan 1756",
-       "A witness at a marriage in the Dolac parish (S. Marci in Suburbio Maris), Šibenik: «praesentibus testibus Dominico Uroda et Michaele Cigo» — the first Uroda met in the Šibenik registers"
+       "Franciscus Uroda",
+       "25 Apr 1733 – 6 May 1742",
+       "Godfather («Mr Franciscus Vroda») at Dolac baptisms 25 Apr 1733, 30 Jan 1735 and, as «Magister», 12 Oct 1738 — the first Uroda met in any Šibenik register. Dead by 6 May 1742, when his daughter Antonia, wife of a Joannes Biliznich, is called «filia q. Francisci Vrodda de hac Parochia S. Marci»"
+      ],
+      [
+       "Magister Georgius Uroda",
+       "19 May 1738",
+       "Named as the husband of a godmother: «Dna … uxor Mri Georgij Vroda» — a master, already married, in 1738; his wife is not named Maria"
+      ],
+      [
+       "Magister Dominicus Uroda",
+       "1 Jan 1741 – 3 Jun 1767",
+       "Godfather («Magister Dominicus Vroda») at Dolac baptisms 1 Jan and 23 Apr 1741 (the second to a child of the same couple Franciscus stood godfather to in 1733 and 1735); a witness at Dolac marriages 11 Jan 1756, 11 Sep 1759 and 10 Aug 1762 and at the cathedral 3 Jun 1767"
       ],
       [
        "His son Joannes",
@@ -152,31 +162,21 @@
        "«testibus Joseph Fevetti, et Joanne filio Dominici Uroda» — a son of a Dominicus Uroda, of an age to witness"
       ],
       [
-       "Magister Dominicus",
-       "11 Sep 1759",
-       "«Magistro Domico [Dominico] Uroda, et Antonio Lucenti» — a master of a trade, Dolac parish"
-      ],
-      [
-       "Dno Dominico Uroda",
-       "10 Aug 1762",
-       "«Illmo Domino Angelo Semonich alias Perova, et Dno Dominico Uroda» — with the honorific, Dolac parish"
-      ],
-      [
-       "Dno Dominico Uroda",
-       "3 Jun 1767",
-       "«coram Testibus Matthaeo Xeravizza, et Dno Dominico Uroda» — cathedral parish (S. Benedicti)"
+       "Franciscus's daughter Antonia",
+       "6 May 1742",
+       "«Georgius filius Joannis [Presrou?] de Flumine, alias Biliznich, et Antoniae filiae q. Francisci Vrodda de hac Parochia S. Marci» — Antonia, a daughter of the late Franciscus Uroda, and her son Georgius BILIZNICH (not Uroda), born 17 April 1742"
       ]
      ],
      "ends": [
       [
        "Georgius's father?",
        "/found/dominicus-uroda-of-sibenik/",
-       "Georgius Uroda (ahnentafel 108) named his first son Dominicus in 1764 (a custom that points to a paternal grandfather of that name), and Dominicus Uroda of Šibenik has a son Joannes — but nothing read says Georgius is his son, nor that he came from Šibenik; a lead, not a link"
+       "Georgius Uroda of Karlobag (ahnentafel 108) named his first son Dominicus in 1764, and Dominicus Uroda of Šibenik has a son Joannes — but nothing read says Georgius is his son. There was also a Magister Georgius Uroda at Šibenik, married, in 1738: the Georgius of Karlobag cannot be that man if he first fathered a child in 1764, but could be his son or a namesake"
       ],
       [
-       "Dume's father?",
-       "/karlobag",
-       "The living Dume of Karlobag has a wife and baptises children in the same years, so he is a different man from the dead Dume of Šibenik; Dume and Dominicus are the same name, and none of the three is joined to another"
+       "Dume's sons?",
+       "/found/dume-uroda-of-sibenik/",
+       "The dead Dume of Šibenik (d. before 1739) is the one Šibenik Uroda with a recorded child (the bride Simona of 1739); Franciscus, Georgius and Dominicus, masters of the same years, are the obvious candidates for his sons, but no register read says so"
       ]
      ]
     },
@@ -404,6 +404,34 @@
      [
       "Cathedral marriage 1767",
       "sibenik-marriage-1767-06-grubisich-witness-dominicus-uroda"
+     ],
+     [
+      "Dolac baptism 1733 (Franciscus)",
+      "sibenik-dolac-baptism-1733-04-maria-maraglia-godfather-magister-franciscus-uroda"
+     ],
+     [
+      "Dolac baptism 1735 (Franciscus)",
+      "sibenik-dolac-baptism-1735-01-domica-godfather-magister-franciscus-uroda"
+     ],
+     [
+      "Dolac baptism 1738 (Georgius's wife)",
+      "sibenik-dolac-baptism-1738-05-lucia-dragovich-godmother-wife-of-georgius-uroda"
+     ],
+     [
+      "Dolac baptism 1738 (Franciscus)",
+      "sibenik-dolac-baptism-1738-10-maria-vidovich-godfather-magister-franciscus-uroda"
+     ],
+     [
+      "Dolac baptism 1741 (Dominicus)",
+      "sibenik-dolac-baptism-1741-01-joana-peresich-godfather-magister-dominicus-uroda"
+     ],
+     [
+      "Dolac baptism 1741 April (Dominicus)",
+      "sibenik-dolac-baptism-1741-04-domica-maraglia-godfather-magister-dominicus-uroda"
+     ],
+     [
+      "Dolac baptism 1742 (Franciscus's daughter)",
+      "sibenik-dolac-baptism-1742-05-georgius-biliznich-mother-antonia-daughter-of-franciscus-uroda"
      ]
     ],
     "drnis": [
