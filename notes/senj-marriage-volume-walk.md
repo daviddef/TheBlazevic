@@ -1,6 +1,6 @@
 # The Senj marriage and death volume (9RK1-W3P): every image read once, 13–14 October 2026
 
-The volume is FamilySearch waypoint **9RK1-W3P**, roll 290 of the Archive of Croatia in Zagreb (project YU00001), **592 images**. It is not one book but a bundle of interleaved sequences, so the only complete method was every image, both pages. The control file is `sources/senj-walk-ledger.json` (one entry per image, every hit, what is still owed), driven by `tools/senjwalk.py`. **All 592 images have been read once, and the strip pass of images 10–79 is done; the volume is NOT yet complete (re-reads of cramped hands are owed)** — see «What is still owed».
+The volume is FamilySearch waypoint **9RK1-W3P**, roll 290 of the Archive of Croatia in Zagreb (project YU00001), **592 images**. It is not one book but a bundle of interleaved sequences, so the only complete method was every image, both pages. The control file is `sources/senj-walk-ledger.json` (one entry per image, every hit, what is still owed), driven by `tools/senjwalk.py`. **All 592 images have been read once; the strip pass (images 10–79) and the second passes (images 58–67, 139–151, 177–206, the abbreviated 1820–30 death lines, the Croatian 1849–51 lines, the Pilepich/Perpich pages 472–473 and 475, and 505R) were done on 14–15 October 2026. The volume is read as completely as these registers allow, and what is left is listed under «What is still owed»** — see «What is still owed».
 
 ## What is in the volume (a map, by image)
 
@@ -20,13 +20,13 @@ The film continues on **roll 291**, which is not part of this volume.
 
 One page per screenshot, at about page scale, then a crop of every hit at the same scale kept as a snapshot (the image in `site/public/snaps/`, a row in `sources/snapshots.psv`, a found person). Names were read as written («Perpich», «Krepotich», «Wukellich») and are recorded as the page spells them; where a looped hand makes a surname doubtful it is marked «read with a query» in the snapshot. A death entry names a person at the end of life with usually no parents; the found-person text says so and never guesses a link. Very common Senj surnames (Lončarić, Antić, Jurčić, Butković, Barac) are kept as page-scale **seen rows** (`tools/senjwalk_seen.py`), with no found person.
 
-**The death register was read after the marriage register had been completed, in the order of the book**, initial by initial (B, K, O, P, S, T, V, Z carry most of the families), and the Croatian-and-Latin chronological register page by page. 252 readings, 308 people, 39 seen rows.
+**The death register was read after the marriage register had been completed, in the order of the book**, initial by initial (B, K, O, P, S, T, V, Z carry most of the families), and the Croatian-and-Latin chronological register page by page. 272 readings, 321 people, 39 seen rows.
 
 ## What it holds for the families researched
 
 By family, with every reading's date, image and snapshot. «m.» is a marriage entry, «d.» a death entry. None is joined to a line of this archive: the volume is a **place** (Senj) where these surnames lived and died, and no entry here names a parent of a person in the tree.
 
-### Vukelić (45)
+### Vukelić (44)
 
 - 7 January 1764 m. — Tome Vukelić witness 1764 (image 71R; [snapshot](/snapshots/#senj-marriage-1764-01-andrea-deskovic-ursula-witness-tome-vukelic))
 - December 1765 m. — Mihovil Vukelić groom 1765 (image ; [snapshot](/snapshots/#senj-marriage-1765-12-mihovil-vukelic-bride-widow-of-mikula-tomjenovic-magdalena))
@@ -58,7 +58,6 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 25 May 1851 m. — Vitus Vukelić tailor groom of 1851 from Kosinj (image 363L; [snapshot](/snapshots/#senj-marriage-1851-05-vitus-vukellich-antonia-dvoich))
 - 25 May 1851 m. — Antonia Dvoić bride of Vitus Vukelić 1851 (image 363L; [snapshot](/snapshots/#senj-marriage-1851-05-vitus-vukellich-antonia-dvoich-bride))
 - 19 August 1851 m. — Joannes Vukelić of Gospić groom of 1851 (image 363R; [snapshot](/snapshots/#senj-marriage-1851-08-joannes-vukelich-of-gospic-francisca-tomjanovich))
-- 19 August 1851 m. — Francisca Tomjanović bride of Joannes Vukelić 1851 (image 363R; [snapshot](/snapshots/#senj-marriage-1851-08-joannes-vukelich-of-gospic-francisca-tomjanovich-bride))
 - October 1851 d. — Anna Vukelić infant died Senj October 1851 (image 550R; [snapshot](/snapshots/#senj-death-1851-10-anna-vukellic-aged-1))
 - 29 April 1852 m. — Blasius Rossi groom of 1852 at Senj whose mother was née Vukelić (image 331L; [snapshot](/snapshots/#senj-marriage-1852-04-blasius-rossi-mother-anna-nee-vukelic))
 - 10 June 1852 d. — Joannes Vukelić theology student aged 26 died Senj June 1852 (image 553R; [snapshot](/snapshots/#senj-death-1852-06-joannes-wukelic-cleric-aged-26))
@@ -74,10 +73,13 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 13 April 1857 d. — Franciscus Vukelić aged 2 died Senj April 1857 (image 579L; [snapshot](/snapshots/#senj-death-1857-04-franciscus-son-of-matthaeus-vukelic-aged-2))
 - 22 June 1857 d. — Fridericus Vukelić aged 5 died Senj June 1857 (image 581L; [snapshot](/snapshots/#senj-death-1857-06-fridericus-son-of-centurion-petrus-vukelic-aged-5))
 
-### Babić (38)
+### Babić (41)
 
 - 29 April 1748 m. — Katarina Babić of Sv Juraj bride 1748 (image 45L; [snapshot](/snapshots/#senj-marriage-1748-04-jou-rokovic-of-lovran-katarina-daughter-of-matiya-babic))
 - February 1766 m. — Mate Babić groom 1766 (image 75R; [snapshot](/snapshots/#senj-marriage-1766-02-matu-babic-katarina-daughter-of-jure-sablic))
+- autumn 1814 m. — Georgius Babić groom 1814 (image 196R; [snapshot](/snapshots/#senj-marriage-1814-autumn-georgius-babic-citizen-of-sv-juraj-mathia-butkovic))
+- June 1815 m. — Joanna Babić bride 1815 (image 198R; [snapshot](/snapshots/#senj-marriage-1815-06-franciscus-jurcic-joanna-babic))
+- autumn 1815 m. — Franciscus Babić of Novigrad groom 1815 (image 199L; [snapshot](/snapshots/#senj-marriage-1815-autumn-franciscus-babic-of-novigrad-doima-babic))
 - 23 October 1831 m. — Antonia Babić of Novigrad bride of 1831 (image 255L; [snapshot](/snapshots/#senj-marriage-1831-10-christophorus-gerzanich-antonia-babich-novigrad-bride))
 - 23 January 1842 m. — Antonius Babić of Senj groom of 1842 (image 226L; [snapshot](/snapshots/#senj-marriage-1842-01-antonius-babich-maria-calanich))
 - 6 February 1842 m. — Laurentius Babić of Senj groom of 1842 (image 226L; [snapshot](/snapshots/#senj-marriage-1842-02-laurentius-babich-anna-kuppar))
@@ -115,10 +117,11 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 26 March 1857 d. — Maria Babić aged 5 died Senj March 1857 (image 579L; [snapshot](/snapshots/#senj-death-1857-03-maria-daughter-of-laurentius-babic-aged-5y6m))
 - 30 May 1858 m. — Antonius Babić witness at Senj marriage of 1858 (image 283R; [snapshot](/snapshots/#senj-marriage-1858-05-martinus-kirn-witness-antonius-babich))
 
-### Krmpotić (29)
+### Krmpotić (30)
 
 - 13 October 1739 m. — Marko Tomičić of Krmpote (image 23L; [snapshot](/snapshots/#senj-marriage-1739-10-marko-tomicic-of-krmpote))
 - 1765 m. — Pernich of Krmpote groom of 1765 (image 74L; [snapshot](/snapshots/#senj-marriage-1765-pernich-of-krmpote-widow-of-vid-sojat))
+- August 1790 m. — Martha Filipović of Krmpote bride 1790 (image 141R; [snapshot](/snapshots/#senj-marriage-1790-08-georgius-tomljan-otocac-soldier-martha-filipovic-of-krmpote-bride))
 - 23 January 1822 m. — Michael Krmpotić widower of Senj groom of 1822 (image 276R; [snapshot](/snapshots/#senj-marriage-1822-01-michael-krmpotich-widower-witness-franciscus-zubrinich))
 - 23 January 1822 m. — Stanislava widow bride of Krmpotić 1822 (image 276R; [snapshot](/snapshots/#senj-marriage-1822-01-michael-krmpotich-widower-witness-franciscus-zubrinich-bride))
 - 16 September 1824 d. — Marcus Krmpotić infant died Senj September 1824 (image 439L; [snapshot](/snapshots/#senj-death-1824-09-marcus-son-of-marcus-and-francisca-krmpotich-aged-1))
@@ -146,6 +149,38 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - April 1856 m. — Josepha Krmpotić widow bride of Jacobus Žerković 1856 (image 375L; [snapshot](/snapshots/#senj-marriage-1856-04-jacobus-zerkovic-widower-of-st-georgen-josepha-widow-krmpotich-bride))
 - 25 August 1856 d. — Thomas Vukelić Grenzer of Krmpote aged 26 died Senj August 1856 (image 576R; [snapshot](/snapshots/#senj-death-1856-08-thomas-vukelic-confiniarius-of-krmpote-aged-26))
 - 8 January 1858 d. — Gregorius Krmpotić Grenzer aged 75 died Senj January 1858 (image 582R; [snapshot](/snapshots/#senj-death-1858-01-gregorius-krmpotic-confiniarius-aged-75))
+
+### Tomljanović (29)
+
+- 18 February 1738 m. — Klara Tomljanović bride 1738 (image 18L; [snapshot](/snapshots/#senj-marriage-1738-02-antonio-speranci-klara-daughter-of-vule-tomjanovic))
+- 1738 m. — Pave Tomljanović witness 1738 (image 20R; [snapshot](/snapshots/#senj-marriage-1738-12-pera-stabar-klara-witness-pave-tomjanovic))
+- 14 May 1739 m. — Antonia Tomljanović bride 1739 (image 22R; [snapshot](/snapshots/#senj-marriage-1739-05-francisca-bexilva-antonia-daughter-of-jule-tomjanovic))
+- 2 October 1739 m. — Pave Tomljanović canon officiating priest 1739 (image 23R; [snapshot](/snapshots/#senj-marriage-1739-10-franu-parskovic-klara-celebrant-pop-pave-tomjanovic-canon))
+- 1741 m. — Perica Tomljanović canon celebrant 1741 (image 27R; [snapshot](/snapshots/#senj-marriage-1741-11-franu-roxanic-widow-celebrated-by-canon-perica-tomjanovic))
+- 18 January 1742 m. — Pero Tomljanović groom 1742 (image 28R; [snapshot](/snapshots/#senj-marriage-1742-01-pero-tomjanovic-margarita-celebrated-by-his-brother-pop-marko-tomjanovic))
+- 13 October 1751 m. — Jure Tomljanović groom 1751 (image 51L; [snapshot](/snapshots/#senj-marriage-1751-10-jure-tommyanovic-widower-mandalena))
+- January 1754 m. — Anton Tomljanović named in an entry of 1754 (image 58R; [snapshot](/snapshots/#senj-marriage-1754-01-anton-tomljanovic-named-in-entry-58r-top))
+- 24 April 1762 m. — Petar Tomljanović canon celebrant 1762 (image 69L; [snapshot](/snapshots/#senj-marriage-1762-04-canon-petar-tomljanovic-celebrant))
+- September 1764 m. — Petar Tomljanović canon celebrant 1764 (image 72R; [snapshot](/snapshots/#senj-marriage-1764-09-canon-petar-tomljanovic-celebrates))
+- August 1790 m. — Georgius Tomljan soldier of the Otočac regiment groom 1790 (image 141R; [snapshot](/snapshots/#senj-marriage-1790-08-georgius-tomljan-otocac-soldier-martha-filipovic-of-krmpote))
+- February 1831 d. — Gregorius Tomljanović son of Antonius died Senj February 1831 (image 505R; [snapshot](/snapshots/#senj-death-1831-02-gregorius-son-of-antonius-tomljanovic))
+- 31 March 1832 d. — Clara Tomljanović widow aged 60 died Senj March 1832 (image 505R; [snapshot](/snapshots/#senj-death-1832-03-clara-widow-tomljanovic-aged-60))
+- 25 February 1834 d. — Mattia Tomljanović infant died Senj February 1834 (image 506R; [snapshot](/snapshots/#senj-death-1834-02-mattia-daughter-of-matthias-tomljanovich-one-day))
+- 8 April 1834 d. — Maria Tomljanović widow aged 60 died Senj April 1834 (image 506R; [snapshot](/snapshots/#senj-death-1834-04-maria-widow-tomljanovich-aged-60))
+- 27 August 1837 m. — Georgius Tomjanović groom of 1837 with a Smojver bride of Jablanac (image 349L; [snapshot](/snapshots/#senj-marriage-1837-08-georgius-tomjanovich-vincentia-smojver-of-jablanac))
+- 27 August 1837 m. — Vincentia Smojver of Jablanac bride of Georgius Tomjanović 1837 (image 349L; [snapshot](/snapshots/#senj-marriage-1837-08-georgius-tomjanovich-vincentia-smojver-of-jablanac-bride))
+- 22 February 1842 d. — Lucas Tomljanović infant died Senj February 1842 (image 507R; [snapshot](/snapshots/#senj-death-1842-02-lucas-son-of-matthias-tomljanovich-aged-4-months))
+- 19 April 1843 d. — Mathias Tomljanović infant died Senj April 1843 (image 508L; [snapshot](/snapshots/#senj-death-1843-04-mathias-tomljanovich-aged-3))
+- 2 February 1845 m. — Bartholomaeus Tomjanović groom of 1845 with a Smojver bride of Jablanac (image 350R; [snapshot](/snapshots/#senj-marriage-1845-02-bartholomaeus-tomjanovich-lucia-smojver-of-jablanac))
+- 2 February 1845 m. — Lucia Smojver of Jablanac bride of Bartholomaeus Tomjanović 1845 (image 350R; [snapshot](/snapshots/#senj-marriage-1845-02-bartholomaeus-tomjanovich-lucia-smojver-of-jablanac-bride))
+- 6 December 1846 d. — Margaritha Tomljanović aged 9 died Senj December 1846 (image 509L; [snapshot](/snapshots/#senj-death-1846-12-margaritha-tomljanovich-aged-9))
+- 5 December 1847 d. — Virginia Tomljanović aged 4 died Senj December 1847 (image 509L; [snapshot](/snapshots/#senj-death-1847-12-virginia-tomljanovich-aged-4))
+- 1848 d. — Maria Tomljanović aged 57 died Senj 1848 (image 509R; [snapshot](/snapshots/#senj-death-1848-maria-tomljanovich-aged-57))
+- 19 August 1851 m. — Francisca Tomjanović bride of Joannes Vukelić 1851 (image 363R; [snapshot](/snapshots/#senj-marriage-1851-08-joannes-vukelich-of-gospic-francisca-tomjanovich-bride))
+- 17 September 1855 d. — Georgius Tomljanović of Krmpote aged 57 died Senj September 1855 (image 572L; [snapshot](/snapshots/#senj-death-1855-09-georgius-tomljanovic-confiniarius-of-krmpote-aged-57))
+- 15 November 1855 d. — Joannes Tomljanović aged 2 died Senj November 1855 (image 572R; [snapshot](/snapshots/#senj-death-1855-11-joannes-son-of-philippus-tomljanovic-aged-2y6m))
+- 24 February 1856 d. — Petrus Tomljanović aged 2 died Senj February 1856 (image 574L; [snapshot](/snapshots/#senj-death-1856-02-petrus-son-of-bartholomeus-tomljanovic-aged-2))
+- 2 June 1858 d. — Matthaeus Tomljanović retired watchman aged 54 died Senj June 1858 (image 585R; [snapshot](/snapshots/#senj-death-1858-06-matthaeus-tomljanovic-provisionatus-vigil-aged-54))
 
 ### Other (28)
 
@@ -178,32 +213,11 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - August 1858 m. — Franciscus Vincentius Gerzic of Senj groom of 1858 (image 261L; [snapshot](/snapshots/#senj-marriage-1858-08-franciscus-vincentius-gerzic-martha-loncarich-widow))
 - August 1858 m. — Martha Lončarić widow of Linić bride of 1858 (image 261L; [snapshot](/snapshots/#senj-marriage-1858-08-franciscus-vincentius-gerzic-martha-loncarich-widow-bride))
 
-### Tomljanović (20)
-
-- 18 February 1738 m. — Klara Tomljanović bride 1738 (image 18L; [snapshot](/snapshots/#senj-marriage-1738-02-antonio-speranci-klara-daughter-of-vule-tomjanovic))
-- 1738 m. — Pave Tomljanović witness 1738 (image 20R; [snapshot](/snapshots/#senj-marriage-1738-12-pera-stabar-klara-witness-pave-tomjanovic))
-- 14 May 1739 m. — Antonia Tomljanović bride 1739 (image 22R; [snapshot](/snapshots/#senj-marriage-1739-05-francisca-bexilva-antonia-daughter-of-jule-tomjanovic))
-- 2 October 1739 m. — Pave Tomljanović canon officiating priest 1739 (image 23R; [snapshot](/snapshots/#senj-marriage-1739-10-franu-parskovic-klara-celebrant-pop-pave-tomjanovic-canon))
-- 1741 m. — Perica Tomljanović canon celebrant 1741 (image 27R; [snapshot](/snapshots/#senj-marriage-1741-11-franu-roxanic-widow-celebrated-by-canon-perica-tomjanovic))
-- 18 January 1742 m. — Pero Tomljanović groom 1742 (image 28R; [snapshot](/snapshots/#senj-marriage-1742-01-pero-tomjanovic-margarita-celebrated-by-his-brother-pop-marko-tomjanovic))
-- 13 October 1751 m. — Jure Tomljanović groom 1751 (image 51L; [snapshot](/snapshots/#senj-marriage-1751-10-jure-tommyanovic-widower-mandalena))
-- 24 April 1762 m. — Petar Tomljanović canon celebrant 1762 (image 69L; [snapshot](/snapshots/#senj-marriage-1762-04-canon-petar-tomljanovic-celebrant))
-- September 1764 m. — Petar Tomljanović canon celebrant 1764 (image 72R; [snapshot](/snapshots/#senj-marriage-1764-09-canon-petar-tomljanovic-celebrates))
-- 25 February 1834 d. — Mattia Tomljanović infant died Senj February 1834 (image 506R; [snapshot](/snapshots/#senj-death-1834-02-mattia-daughter-of-matthias-tomljanovich-one-day))
-- 8 April 1834 d. — Maria Tomljanović widow aged 60 died Senj April 1834 (image 506R; [snapshot](/snapshots/#senj-death-1834-04-maria-widow-tomljanovich-aged-60))
-- 22 February 1842 d. — Lucas Tomljanović infant died Senj February 1842 (image 507R; [snapshot](/snapshots/#senj-death-1842-02-lucas-son-of-matthias-tomljanovich-aged-4-months))
-- 19 April 1843 d. — Mathias Tomljanović infant died Senj April 1843 (image 508L; [snapshot](/snapshots/#senj-death-1843-04-mathias-tomljanovich-aged-3))
-- 6 December 1846 d. — Margaritha Tomljanović aged 9 died Senj December 1846 (image 509L; [snapshot](/snapshots/#senj-death-1846-12-margaritha-tomljanovich-aged-9))
-- 5 December 1847 d. — Virginia Tomljanović aged 4 died Senj December 1847 (image 509L; [snapshot](/snapshots/#senj-death-1847-12-virginia-tomljanovich-aged-4))
-- 1848 d. — Maria Tomljanović aged 57 died Senj 1848 (image 509R; [snapshot](/snapshots/#senj-death-1848-maria-tomljanovich-aged-57))
-- 17 September 1855 d. — Georgius Tomljanović of Krmpote aged 57 died Senj September 1855 (image 572L; [snapshot](/snapshots/#senj-death-1855-09-georgius-tomljanovic-confiniarius-of-krmpote-aged-57))
-- 15 November 1855 d. — Joannes Tomljanović aged 2 died Senj November 1855 (image 572R; [snapshot](/snapshots/#senj-death-1855-11-joannes-son-of-philippus-tomljanovic-aged-2y6m))
-- 24 February 1856 d. — Petrus Tomljanović aged 2 died Senj February 1856 (image 574L; [snapshot](/snapshots/#senj-death-1856-02-petrus-son-of-bartholomeus-tomljanovic-aged-2))
-- 2 June 1858 d. — Matthaeus Tomljanović retired watchman aged 54 died Senj June 1858 (image 585R; [snapshot](/snapshots/#senj-death-1858-06-matthaeus-tomljanovic-provisionatus-vigil-aged-54))
-
-### Prpić / Perpić (16)
+### Prpić / Perpić (18)
 
 - 9 October 1788 m. — Antonia Prpić daughter of Matte (image 136R; [snapshot](/snapshots/#senj-marriage-1788-10-marko-salanic-antonia-prpic))
+- 29 February 1820 d. — Joannes Perpić newborn died Senj February 1820 (image 472R; [snapshot](/snapshots/#senj-death-1820-02-joannes-son-of-franciscus-perpic-after-emergency-baptism))
+- 6 October 1834 d. — Andreas Perpić aged 70 died Senj October 1834 (image 475R; [snapshot](/snapshots/#senj-death-1834-10-andreas-perpic-aged-70))
 - 22 September 1836 d. — Maria Perpić widow aged 63 died Senj September 1836 (image 476R; [snapshot](/snapshots/#senj-death-1836-09-maria-widow-perpich-aged-63))
 - 25 March 1837 d. — Apollonia Perpić widow aged 45 died suddenly Senj March 1837 (image 476R; [snapshot](/snapshots/#senj-death-1837-03-apollonia-widow-perpich-aged-45-died-suddenly))
 - 6 March 1840 d. — Franciscus Perpić aged 48 died Senj March 1840 (image 477R; [snapshot](/snapshots/#senj-death-1840-03-franciscus-perpich-aged-48))
@@ -237,6 +251,39 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 15 August 1851 d. — Catharina Orešković aged 26 died Senj August 1851 (image 549R; [snapshot](/snapshots/#senj-death-1851-08-catharina-oreskovic-aged-26))
 - 10 April 1853 m. — Maria Magličić bride of Ignatius Turkalj 1853 whose mother was an Orešković (image 352R; [snapshot](/snapshots/#senj-marriage-1853-04-ignatius-turkalj-maria-maglich-mother-oreskovich-bride))
 
+### Belobarbić (14)
+
+- 13 December 1849 d. — Petar Belobarbić aged 68 died Senj December 1849 (image 535R; [snapshot](/snapshots/#senj-death-1849-12-petar-belobarbich-aged-68))
+- 18 November 1849 m. — Ivan Belobarbić groom 1849 (image 345R; [snapshot](/snapshots/#senj-marriage-1849-11-ivan-belobarbic-vincenca-gregoric))
+- 31 August 1852 m. — Michael Belobarbić groom of 1852 with a bride of Novi in Vinodol (image 376L; [snapshot](/snapshots/#senj-marriage-1852-08-michael-belobarbic-francisca-petrinovic-of-novi))
+- 31 August 1852 m. — Francisca Petrinović of Novi bride of Michael Belobarbić 1852 (image 376L; [snapshot](/snapshots/#senj-marriage-1852-08-michael-belobarbic-francisca-petrinovic-of-novi-bride))
+- 22 May 1852 d. — Maria Belobarbić newborn died Senj May 1852 (image 553R; [snapshot](/snapshots/#senj-death-1852-05-maria-daughter-of-michael-belobarbic-one-day))
+- 8 February 1854 d. — Joannes Belobarbić newborn died Senj February 1854 (image 560L; [snapshot](/snapshots/#senj-death-1854-02-son-of-belobarbic-baptised-joannes-in-need))
+- 2 March 1854 d. — Ana Belobarbić infant died Senj March 1854 (image 560R; [snapshot](/snapshots/#senj-death-1854-03-ana-daughter-of-antonius-belobarbic-aged-4-months))
+- 6 December 1854 d. — Josephus Belobarbić infant died Senj December 1854 (image 564L; [snapshot](/snapshots/#senj-death-1854-12-josephus-son-of-georgius-belobarbic-aged-1y6m))
+- 14 August 1855 d. — Antonius Belobarbić aged 14 died Senj August 1855 (image 570L; [snapshot](/snapshots/#senj-death-1855-08-antonius-son-of-antonius-belobarbic-aged-14))
+- 3 January 1856 d. — Wolfgangus Belobarbić infant died Senj January 1856 (image 573R; [snapshot](/snapshots/#senj-death-1856-01-wolfgangus-son-of-georgius-belobarbic-aged-1y))
+- 22 February 1856 d. — Vincentia Belobarbić wife of Georgius aged 28 died Senj February 1856 (image 574L; [snapshot](/snapshots/#senj-death-1856-02-vincentia-wife-of-georgius-belobarbic-aged-28))
+- 22 March 1857 d. — Vincentia Belobarbić infant died Senj March 1857 (image 579L; [snapshot](/snapshots/#senj-death-1857-03-vincentia-daughter-of-antonius-belobarbic-aged-2-months))
+- 9 May 1857 d. — Matthaeus Belobarbić aged 7 died Senj May 1857 (image 579R; [snapshot](/snapshots/#senj-death-1857-05-matthaeus-son-of-georgius-belobarbic-aged-7))
+- 25 November 1858 d. — Andreas Belobarbić newborn died Senj November 1858 (image 588L; [snapshot](/snapshots/#senj-death-1858-11-andreas-son-of-michael-belobarbic-newborn))
+
+### Blažević (13)
+
+- 14 February 1754 m. — Anna Blažević bride of Josip Kosović 1754 (image 59L; [snapshot](/snapshots/#senj-marriage-1754-02-josip-kosovic-anna-daughter-of-the-late-ivan-blazevic))
+- March 1768 m. — Anna widow of Mate Blažević (image 82R; [snapshot](/snapshots/#senj-marriage-1768-03-anna-widow-of-mate-blazevic))
+- 23 January 1769 m. — Mate Blažević of Senj groom of 1769 (image 84L; [snapshot](/snapshots/#senj-marriage-1769-01-mate-blazevic-marries-a-widow))
+- February 1779 m. — Lorne Blažević groom of 1779 (image 104R; [snapshot](/snapshots/#senj-marriage-1779-02-lorne-blazevic-franica-fobber))
+- 1802–1812 m. — Fabianus Blažević witness at Senj 1802-1812 (image 193R; [snapshot](/snapshots/#senj-witness-fabianus-blazevich-1802-1812))
+- 18 August 1812 m. — Vincentia Blažević widow bride of 1812 (image 194L; [snapshot](/snapshots/#senj-marriage-1812-08-petrus-bozijan-widow-vincentia-blazevich))
+- 24 January 1830 d. — Margaritha Blažević died Senj January 1830 (image 384L; [snapshot](/snapshots/#senj-death-1830-01-margaritha-blazevich-aged-50))
+- 7 August 1830 d. — Francisca Blažević died Senj August 1830 (image 384L; [snapshot](/snapshots/#senj-death-1830-08-francisca-blazevich-aged-70))
+- 17 [?]bris 1832 m. — Fabianus Blažević widower tailor of Senj groom of 1832 (image 222R; [snapshot](/snapshots/#senj-marriage-1832-xbris-fabianus-blazevich-widower-tailor-margaritha))
+- 18 September 1840 d. — Margaritha Blažević died Senj September 1840 (image 390L; [snapshot](/snapshots/#senj-death-1840-09-margaritha-blazevich-aged-50))
+- April 1842 d. — Jacobus Blažević aged 10 died Senj April 1842 (image 391R; [snapshot](/snapshots/#senj-death-1842-04-jacobus-blazevich-aged-10))
+- 27 March 1844 d. — Fabianus Blažević widower aged 74 died Senj March 1844 (image 392R; [snapshot](/snapshots/#senj-death-1844-03-fabianus-blazevich-widower-aged-74))
+- 9 June 1850 m. — Georgius Blažević son of Ivan of Krmpote groom of 1850 (image 221R; [snapshot](/snapshots/#senj-marriage-1850-06-gergo-blazevic-of-krmpote-terezia-cacic))
+
 ### Butković (13)
 
 - 18 October 1735 m. — Katarina Butković of Ledenice bride 1735 (image 10R; [snapshot](/snapshots/#senj-marriage-1735-10-stipe-bukvic-katarina-daughter-of-mikula-butkovic-of-ledenice))
@@ -253,55 +300,25 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 18 August 1857 d. — Maria Butković aged 5 died Senj August 1857 (image 581R; [snapshot](/snapshots/#senj-death-1857-08-maria-daughter-of-georgius-butkovic-aged-5y6m))
 - 23 December 1858 d. — Simeon Butković aged 1 died Senj December 1858 (image 588R; [snapshot](/snapshots/#senj-death-1858-12-simeon-son-of-georgius-butkovic-aged-1y6m))
 
-### Smojver (13)
+### Pilipić (13)
 
-- 1 August 1831 d. — Simon Smojver aged 70 died Senj August 1831 (image 492R; [snapshot](/snapshots/#senj-death-1831-08-simon-smojver-aged-70))
-- 27 August 1837 m. — Georgius Tomjanović groom of 1837 with a Smojver bride of Jablanac (image 349L; [snapshot](/snapshots/#senj-marriage-1837-08-georgius-tomjanovich-vincentia-smojver-of-jablanac))
-- 27 August 1837 m. — Vincentia Smojver of Jablanac bride of Georgius Tomjanović 1837 (image 349L; [snapshot](/snapshots/#senj-marriage-1837-08-georgius-tomjanovich-vincentia-smojver-of-jablanac-bride))
-- November 1838 m. — Gregorius Smojver of Jablanac groom of 1838 (image 340L; [snapshot](/snapshots/#senj-marriage-1838-11-gregorius-smojver-of-jablanac-widow-maria-miskulin))
-- November 1838 m. — Maria Miškulin widow bride of Gregorius Smojver 1838 (image 340L; [snapshot](/snapshots/#senj-marriage-1838-11-gregorius-smojver-of-jablanac-widow-maria-miskulin-bride))
-- 30 January 1839 m. — Josephus Schwarz corporal groom of 1839 with a Smojver bride of Karlobag (image 340R; [snapshot](/snapshots/#senj-marriage-1839-01-josephus-schwarz-maria-smojver-of-karlobag))
-- 30 January 1839 m. — Maria Smojver of Karlobag bride of Josephus Schwarz 1839 (image 340R; [snapshot](/snapshots/#senj-marriage-1839-01-josephus-schwarz-maria-smojver-of-karlobag-bride))
-- 20 February 1841 d. — Gregorius Smojver aged 26 died Senj February 1841 (image 498R; [snapshot](/snapshots/#senj-death-1841-02-gregorius-smojver-aged-26))
-- 2 February 1845 m. — Bartholomaeus Tomjanović groom of 1845 with a Smojver bride of Jablanac (image 350R; [snapshot](/snapshots/#senj-marriage-1845-02-bartholomaeus-tomjanovich-lucia-smojver-of-jablanac))
-- 2 February 1845 m. — Lucia Smojver of Jablanac bride of Bartholomaeus Tomjanović 1845 (image 350R; [snapshot](/snapshots/#senj-marriage-1845-02-bartholomaeus-tomjanovich-lucia-smojver-of-jablanac-bride))
-- 26 July 1854 d. — Anna Smojver aged 16 died Senj July 1854 (image 562R; [snapshot](/snapshots/#senj-death-1854-07-anna-smojver-aged-16))
-- 25 October 1856 d. — Joanna Smojver aged 57 died Senj October 1856 (image 577L; [snapshot](/snapshots/#senj-death-1856-10-joanna-smojver-servant-aged-57))
-- 10 November 1858 d. — Anna Smojver widow aged 90 died Senj November 1858 (image 588L; [snapshot](/snapshots/#senj-death-1858-11-anna-widow-smojver-aged-90))
+- July 1824 d. — Matthaeus Pilipić child died Senj July 1824 (image 473L; [snapshot](/snapshots/#senj-death-1824-07-matthaeus-son-of-joannes-pilipic))
+- September 1826 d. — Stephana Pilipić daughter of Joannes died Senj September 1826 (image 473L; [snapshot](/snapshots/#senj-death-1826-09-stephana-daughter-of-joannes-pilipic))
+- November 1826 d. — Nicolaus Pilipić aged 3 died Senj November 1826 (image 473L; [snapshot](/snapshots/#senj-death-1826-11-nicolaus-son-of-antonius-pilipic-aged-3))
+- June 1827 d. — Francisca Pilipić daughter of Franciscus died Senj June 1827 (image 473L; [snapshot](/snapshots/#senj-death-1827-06-francisca-daughter-of-franciscus-pilipic))
+- 1830 d. — Anna Pilipić aged 1 died Senj 1830 (image 473R; [snapshot](/snapshots/#senj-death-1830-anna-daughter-of-joannes-pilipic-aged-1))
+- 16 June 1831 d. — Catharina widow Pilipić aged 86 died Senj June 1831 (image 474R; [snapshot](/snapshots/#senj-death-1831-32-catharina-widow-pilipich-aged-86-and-franciscus-son-of-andreas-pilipich-aged-6))
+- 28 September 1833 d. — Anna Pilipić daughter of Vitus died Senj September 1833 (image 475L; [snapshot](/snapshots/#senj-death-1833-anna-daughter-of-vitus-pilipich-and-antonia-daughter-of-joannes-pilipich))
+- 29 April 1839 d. — Franciscus Pilipović aged 50 died Senj April 1839 (image 477L; [snapshot](/snapshots/#senj-death-1839-04-franciscus-pilipovich-aged-50))
+- 28 January 1847 d. — Maria Pilipić infant died Senj January 1847 (image 482L; [snapshot](/snapshots/#senj-death-1847-01-maria-pilepich-aged-9-months-and-1847-02-antonia-perpich-aged-35))
+- 26 March 1849 d. — Ignatz Pilipić infant died Senj March 1849 (image 531L; [snapshot](/snapshots/#senj-death-1849-03-ignatz-pilepich-aged-5-months))
+- 19 November 1849 d. — Ivan Pilipić aged 60 died Senj November 1849 (image 535L; [snapshot](/snapshots/#senj-death-1849-11-ivan-pilepich-aged-60))
+- 12 April 1854 d. — Margaritha Pilipić widow aged 56 died Senj April 1854 (image 561R; [snapshot](/snapshots/#senj-death-1854-04-margaritha-widow-pilepic-aged-56))
+- 26 April 1854 d. — Elisabeta Pilipić aged 4 died Senj April 1854 (image 561R; [snapshot](/snapshots/#senj-death-1854-04-elisabeta-daughter-of-victor-pilepic-aged-4))
 
-### Belobarbić (13)
+### Boras (11)
 
-- 13 December 1849 d. — Petar Belobarbić aged 68 died Senj December 1849 (image 535R; [snapshot](/snapshots/#senj-death-1849-12-petar-belobarbich-aged-68))
-- 31 August 1852 m. — Michael Belobarbić groom of 1852 with a bride of Novi in Vinodol (image 376L; [snapshot](/snapshots/#senj-marriage-1852-08-michael-belobarbic-francisca-petrinovic-of-novi))
-- 31 August 1852 m. — Francisca Petrinović of Novi bride of Michael Belobarbić 1852 (image 376L; [snapshot](/snapshots/#senj-marriage-1852-08-michael-belobarbic-francisca-petrinovic-of-novi-bride))
-- 22 May 1852 d. — Maria Belobarbić newborn died Senj May 1852 (image 553R; [snapshot](/snapshots/#senj-death-1852-05-maria-daughter-of-michael-belobarbic-one-day))
-- 8 February 1854 d. — Joannes Belobarbić newborn died Senj February 1854 (image 560L; [snapshot](/snapshots/#senj-death-1854-02-son-of-belobarbic-baptised-joannes-in-need))
-- 2 March 1854 d. — Ana Belobarbić infant died Senj March 1854 (image 560R; [snapshot](/snapshots/#senj-death-1854-03-ana-daughter-of-antonius-belobarbic-aged-4-months))
-- 6 December 1854 d. — Josephus Belobarbić infant died Senj December 1854 (image 564L; [snapshot](/snapshots/#senj-death-1854-12-josephus-son-of-georgius-belobarbic-aged-1y6m))
-- 14 August 1855 d. — Antonius Belobarbić aged 14 died Senj August 1855 (image 570L; [snapshot](/snapshots/#senj-death-1855-08-antonius-son-of-antonius-belobarbic-aged-14))
-- 3 January 1856 d. — Wolfgangus Belobarbić infant died Senj January 1856 (image 573R; [snapshot](/snapshots/#senj-death-1856-01-wolfgangus-son-of-georgius-belobarbic-aged-1y))
-- 22 February 1856 d. — Vincentia Belobarbić wife of Georgius aged 28 died Senj February 1856 (image 574L; [snapshot](/snapshots/#senj-death-1856-02-vincentia-wife-of-georgius-belobarbic-aged-28))
-- 22 March 1857 d. — Vincentia Belobarbić infant died Senj March 1857 (image 579L; [snapshot](/snapshots/#senj-death-1857-03-vincentia-daughter-of-antonius-belobarbic-aged-2-months))
-- 9 May 1857 d. — Matthaeus Belobarbić aged 7 died Senj May 1857 (image 579R; [snapshot](/snapshots/#senj-death-1857-05-matthaeus-son-of-georgius-belobarbic-aged-7))
-- 25 November 1858 d. — Andreas Belobarbić newborn died Senj November 1858 (image 588L; [snapshot](/snapshots/#senj-death-1858-11-andreas-son-of-michael-belobarbic-newborn))
-
-### Blažević (12)
-
-- March 1768 m. — Anna widow of Mate Blažević (image 82R; [snapshot](/snapshots/#senj-marriage-1768-03-anna-widow-of-mate-blazevic))
-- 23 January 1769 m. — Mate Blažević of Senj groom of 1769 (image 84L; [snapshot](/snapshots/#senj-marriage-1769-01-mate-blazevic-marries-a-widow))
-- February 1779 m. — Lorne Blažević groom of 1779 (image 104R; [snapshot](/snapshots/#senj-marriage-1779-02-lorne-blazevic-franica-fobber))
-- 1802–1812 m. — Fabianus Blažević witness at Senj 1802-1812 (image 193R; [snapshot](/snapshots/#senj-witness-fabianus-blazevich-1802-1812))
-- 18 August 1812 m. — Vincentia Blažević widow bride of 1812 (image 194L; [snapshot](/snapshots/#senj-marriage-1812-08-petrus-bozijan-widow-vincentia-blazevich))
-- 24 January 1830 d. — Margaritha Blažević died Senj January 1830 (image 384L; [snapshot](/snapshots/#senj-death-1830-01-margaritha-blazevich-aged-50))
-- 7 August 1830 d. — Francisca Blažević died Senj August 1830 (image 384L; [snapshot](/snapshots/#senj-death-1830-08-francisca-blazevich-aged-70))
-- 17 [?]bris 1832 m. — Fabianus Blažević widower tailor of Senj groom of 1832 (image 222R; [snapshot](/snapshots/#senj-marriage-1832-xbris-fabianus-blazevich-widower-tailor-margaritha))
-- 18 September 1840 d. — Margaritha Blažević died Senj September 1840 (image 390L; [snapshot](/snapshots/#senj-death-1840-09-margaritha-blazevich-aged-50))
-- April 1842 d. — Jacobus Blažević aged 10 died Senj April 1842 (image 391R; [snapshot](/snapshots/#senj-death-1842-04-jacobus-blazevich-aged-10))
-- 27 March 1844 d. — Fabianus Blažević widower aged 74 died Senj March 1844 (image 392R; [snapshot](/snapshots/#senj-death-1844-03-fabianus-blazevich-widower-aged-74))
-- 9 June 1850 m. — Georgius Blažević son of Ivan of Krmpote groom of 1850 (image 221R; [snapshot](/snapshots/#senj-marriage-1850-06-gergo-blazevic-of-krmpote-terezia-cacic))
-
-### Boras (10)
-
+- May 1816 m. — Maria Borach Boras query bride 1816 (image 200L; [snapshot](/snapshots/#senj-marriage-1816-05-josephus-hanich-maria-borach))
 - 1823 m. — Georgius Savretić groom of 1823 with Boras witnesses (image 335L; [snapshot](/snapshots/#senj-marriage-1823-georgius-savretic-lucia-lonaric-witnesses-joannes-laurentius-boras))
 - 7 May 1823 m. — Josephus Boras witness at Senj marriage of 1823 (image ; [snapshot](/snapshots/#senj-marriage-1823-05-bride-from-dalmatia-witness-josephus-boras))
 - 27 April 1828 m. — Joseph Boras witness at Senj marriage of 1828 (image 360L; [snapshot](/snapshots/#senj-marriage-1828-04-paulus-vukelich-catharina-miskulin-witness-joseph-boras))
@@ -313,16 +330,17 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 1 February 1851 m. — Maria Sučić widow bride of Josephus Boras 1851 (image 375R; [snapshot](/snapshots/#senj-marriage-1851-02-josephus-boras-widower-maria-sucic-bride))
 - 23 February 1854 d. — Franciscus Boras aged 22 died Senj February 1854 (image 560L; [snapshot](/snapshots/#senj-death-1854-02-franciscus-boras-aged-22))
 
-### Pilipić (8)
+### Smojver (9)
 
-- 16 June 1831 d. — Catharina widow Pilipić aged 86 died Senj June 1831 (image 474R; [snapshot](/snapshots/#senj-death-1831-32-catharina-widow-pilipich-aged-86-and-franciscus-son-of-andreas-pilipich-aged-6))
-- 28 September 1833 d. — Anna Pilipić daughter of Vitus died Senj September 1833 (image 475L; [snapshot](/snapshots/#senj-death-1833-anna-daughter-of-vitus-pilipich-and-antonia-daughter-of-joannes-pilipich))
-- 29 April 1839 d. — Franciscus Pilipović aged 50 died Senj April 1839 (image 477L; [snapshot](/snapshots/#senj-death-1839-04-franciscus-pilipovich-aged-50))
-- 28 January 1847 d. — Maria Pilipić infant died Senj January 1847 (image 482L; [snapshot](/snapshots/#senj-death-1847-01-maria-pilepich-aged-9-months-and-1847-02-antonia-perpich-aged-35))
-- 26 March 1849 d. — Ignatz Pilipić infant died Senj March 1849 (image 531L; [snapshot](/snapshots/#senj-death-1849-03-ignatz-pilepich-aged-5-months))
-- 19 November 1849 d. — Ivan Pilipić aged 60 died Senj November 1849 (image 535L; [snapshot](/snapshots/#senj-death-1849-11-ivan-pilepich-aged-60))
-- 12 April 1854 d. — Margaritha Pilipić widow aged 56 died Senj April 1854 (image 561R; [snapshot](/snapshots/#senj-death-1854-04-margaritha-widow-pilepic-aged-56))
-- 26 April 1854 d. — Elisabeta Pilipić aged 4 died Senj April 1854 (image 561R; [snapshot](/snapshots/#senj-death-1854-04-elisabeta-daughter-of-victor-pilepic-aged-4))
+- 1 August 1831 d. — Simon Smojver aged 70 died Senj August 1831 (image 492R; [snapshot](/snapshots/#senj-death-1831-08-simon-smojver-aged-70))
+- November 1838 m. — Gregorius Smojver of Jablanac groom of 1838 (image 340L; [snapshot](/snapshots/#senj-marriage-1838-11-gregorius-smojver-of-jablanac-widow-maria-miskulin))
+- November 1838 m. — Maria Miškulin widow bride of Gregorius Smojver 1838 (image 340L; [snapshot](/snapshots/#senj-marriage-1838-11-gregorius-smojver-of-jablanac-widow-maria-miskulin-bride))
+- 30 January 1839 m. — Josephus Schwarz corporal groom of 1839 with a Smojver bride of Karlobag (image 340R; [snapshot](/snapshots/#senj-marriage-1839-01-josephus-schwarz-maria-smojver-of-karlobag))
+- 30 January 1839 m. — Maria Smojver of Karlobag bride of Josephus Schwarz 1839 (image 340R; [snapshot](/snapshots/#senj-marriage-1839-01-josephus-schwarz-maria-smojver-of-karlobag-bride))
+- 20 February 1841 d. — Gregorius Smojver aged 26 died Senj February 1841 (image 498R; [snapshot](/snapshots/#senj-death-1841-02-gregorius-smojver-aged-26))
+- 26 July 1854 d. — Anna Smojver aged 16 died Senj July 1854 (image 562R; [snapshot](/snapshots/#senj-death-1854-07-anna-smojver-aged-16))
+- 25 October 1856 d. — Joanna Smojver aged 57 died Senj October 1856 (image 577L; [snapshot](/snapshots/#senj-death-1856-10-joanna-smojver-servant-aged-57))
+- 10 November 1858 d. — Anna Smojver widow aged 90 died Senj November 1858 (image 588L; [snapshot](/snapshots/#senj-death-1858-11-anna-widow-smojver-aged-90))
 
 ### Šojat (7)
 
@@ -334,9 +352,10 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 6 December 1838 d. — Laurentius Šojat widower aged 80 died Senj December 1838 (image 497L; [snapshot](/snapshots/#senj-death-1838-12-laurentius-widower-sojat-aged-80))
 - 15 June 1846 d. — Michael Šojat aged 51 died Senj June 1846 (image 503L; [snapshot](/snapshots/#senj-death-1846-06-mikael-sojat-aged-51))
 
-### Špalj (6)
+### Špalj (7)
 
 - 28 May 1747 m. — Matia Špalj lieutenant of Krmpote groom 1747 (image 42R; [snapshot](/snapshots/#senj-marriage-1747-05-matia-spalj-lieutenant-of-krmpote-barbara-simanic))
+- 23 January 1814 m. — Maria Špalj bride 1814 (image 195L; [snapshot](/snapshots/#senj-marriage-1814-01-thomas-starich-maria-spalj))
 - 2 July 1820 m. — Francisca Špalj bride of Malik 1820 (image ; [snapshot](/snapshots/#senj-marriage-1820-07-joannes-malik-soldier-customs-bride-francisca-spalj-bride))
 - 1820 d. — Joannes Špalj Spal aged 80 died Senj 1820 (image 490R; [snapshot](/snapshots/#senj-death-1820-03-joannes-spal-aged-80))
 - 27 November 1828 d. — Joannes Špalj Spal died Senj November 1828 (image 491R; [snapshot](/snapshots/#senj-death-1828-11-joannes-spal))
@@ -389,6 +408,11 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - 3 September 1836 d. — Lucia widow Kraljikas aged 106 died Senj September 1836 (image 443R; [snapshot](/snapshots/#senj-death-1836-09-lucia-widow-kraljikas-aged-106))
 - November 1838 d. — Catharina widow Kralj aged 84 died Senj November 1838 (image 444L; [snapshot](/snapshots/#senj-death-1838-11-catharina-widow-kralj-aged-84))
 
+### Pavelić (2)
+
+- April 1793 m. — Thomas Pavelić groom 1793 (image 149R; [snapshot](/snapshots/#senj-marriage-1793-04-thomas-pavelic-magdalena))
+- 21 October 1849 m. — Josip Pavetić groom 1849 (image 345R; [snapshot](/snapshots/#senj-marriage-1849-10-josip-pavetic))
+
 ### Kalanj (1)
 
 - 23 January 1842 m. — Maria Kalanj bride of Babić 1842 (image 226L; [snapshot](/snapshots/#senj-marriage-1842-01-antonius-babich-maria-calanich-bride))
@@ -411,9 +435,12 @@ By family, with every reading's date, image and snapshot. «m.» is a marriage e
 - **Smojver** — an Anna Smojver, a widow of 90, died on 10 November 1858 (the oldest Smojver in the volume).
 - **No Papa × Pilipić marriage of 1856–57 (work-list row 4) is in the volume.** The Pilipić (Pilepich) deaths are of other households (Ivan, 60, 1849; a Margaritha, widow, from S. Georgius in the Otočac regiment, 1854; Elisabeta, daughter of Victor, 1854).
 
-## What is still owed (the volume is not complete)
+## What is still owed
 
-1. **The strip pass, images 10–79, is DONE** (14 October 2026, the whole page at page scale): it added 37 readings — the earliest Tomljanović (three priests of Senj, Pave, Perica and Marko, 1739–42, and their brother Pero; later the canon Petar, 1762–64), Butković (Ledenice 1735, Karlobag 1736, Brinje 1746, Savil 1750, witnesses 1763 and 1767), Vukelić (1764–66), Babić (1748, 1765–66), a Papić groom (1746), Lieutenant Matia Špalj of Krmpote (1747), Šojat (1737, 1754) and Borić (1741, 1752). **But images 58–67 (1753–61) are in a cramped hand that does not read reliably at page scale**, so the strip pass over them is not a firm negative; they are in the ledger under `reread_todo` «cramped-1753-1760».
-2. **The re-reads** (`reread_todo`): images 139–151 and 177–206 (small Latin cursive of 1790–94 and 1805–19); the abbreviated one-line death entries of 1820–30 (read at page scale); the Croatian lines of 1849–51; the page-scale seen rows; the twelve Pilepich rows of image 473; 505R (Clara Tom?anovich, a widow of 1832, and a Gregorius, son of Antonius Tom…novich, 1831, both at the head of the page).
-3. **Roll 291**, where this film continues (not part of waypoint 9RK1-W3P).
-4. **The marriages 1859 and later and the baptisms** are in other waypoints; this volume contains none.
+The first pass, the strip pass and the second passes are done. What the reading cannot give, and what is left:
+
+1. **Weak negatives.** The one-line death entries of 1820–30 (images 237R, 238R, 248R, 262R, 268R, 269L, 333R) are so abbreviated and so fast a hand that, even at about 1.5x, many surnames are not made out; the cramped 1753–61 hand (images 58–67) was re-read at about 2x and is legible, but the fast 1805–19 Latin cursive was read at about 1.5x, where the second line of a groom's entry can still hide a surname. For every family the registers read here, **a «not found» is a statement about what was legible, not about what the page holds.**
+2. **The 39 page-scale seen rows** (Lončarić, Antić, Jurčić, Butković-by-spelling, Barac) were read at page scale and are not found persons; zoom before using any.
+3. **Roll 291**, where this film continues, is not part of waypoint 9RK1-W3P and has not been opened.
+4. **The marriages after 1858 and the baptisms** are in other waypoints; this volume contains none, and a death register names no parents.
+5. A **Vukelić/Belobarbić/Babić household reconstruction** from these entries would need the Senj baptisms (work-list row 29) to name parents.

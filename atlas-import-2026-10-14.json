@@ -117,6 +117,11 @@
    "where": "",
    "made": "2026-10-13"
   },
+  "pavelic": {
+   "name": "Pavelić",
+   "where": "",
+   "made": "2026-10-13"
+  },
   "booyzen": {
    "name": "Booyzen",
    "where": "",
@@ -347,7 +352,7 @@
     },
     "blazevic": {
      "state": "found",
-     "since": "2026-10-14",
+     "since": "2026-10-15",
      "note": "FamilySearch — a film number can hold two parishes, and this one does"
     },
     "uroda": {
@@ -445,6 +450,11 @@
      "since": "2026-10-14",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Borić entries (3 marriage, 1 death)"
     },
+    "pavelic": {
+     "state": "found",
+     "since": "2026-10-15",
+     "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read: the Pavelić entries (2 marriage)"
+    },
     "kolbe": {
      "state": "found",
      "since": "2026-10-09",
@@ -462,7 +472,7 @@
     },
     "defranceschi": {
      "state": "found",
-     "since": "2026-10-12",
+     "since": "2026-10-13",
      "note": "MEDULIN DEATHS 1801–1899 — frames 3–31 of 40 read, every entry column scanned; two Defranceschi found, the rest a nil"
     },
     "falco": {
@@ -1438,7 +1448,7 @@
      "note": "FamilySearch — Senj marriages 1734–1819, 1820–1858 and deaths 1820–1858 (waypoint 9RK1-W3P, 592 images): the 1856–57 marriage of Juraj Papa and Matia "
     },
     "blazevic": {
-     "since": "2026-10-14",
+     "since": "2026-10-15",
      "state": "found",
      "note": "FamilySearch — Senj marriages 1734–1819, 1820–1858 and deaths 1820–1858 (waypoint 9RK1-W3P, 592 images): every image, both pages, read; the strip pass",
      "done": [
@@ -1617,6 +1627,17 @@
      "since": "2026-10-14",
      "state": "found",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Uroda entries (2 marriage, 0 death)",
+     "done": [
+      [
+       1,
+       592
+      ]
+     ]
+    },
+    "pavelic": {
+     "since": "2026-10-15",
+     "state": "found",
+     "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read: the Pavelić entries (2 marriage)",
      "done": [
       [
        1,
@@ -2714,7 +2735,7 @@
      "done": [
       [
        4,
-       20
+       58
       ]
      ]
     }

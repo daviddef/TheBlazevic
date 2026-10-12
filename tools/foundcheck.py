@@ -1049,6 +1049,20 @@ SETTLED = {
         "resembles Jacobus Perpic 1858 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
     "Anna Smojver widow aged 90 died Senj November 1858":
         "resembles Maria Anna Antonia Boras 1859 [children of josip-josephus-boras]; Anna Kalanj 1859 [children of ivan-joannes-kalanj-2]; Anna Žubrinić 1857 [children of lucia-luce-pesun-posun] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Špalj bride 1814":
+        "resembles Maria Žubrinić 1814 [children of barbara] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Franciscus Babić of Novigrad groom 1815":
+        "resembles Franciscus Francisci Žubrinić Xubrinich Zubrinic 1815 [spouses of magdalena-5] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Ivan Belobarbić groom 1849":
+        "resembles Ivan Papić (Papa) 1850 [children of kate-loncaric]; Ivan Žubrinić 1850 [published] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Josip Pavetić groom 1849":
+        "resembles Josephus Josip Kalanj 1850 [children of antonius-kalanj] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Francisca Pilipić daughter of Franciscus died Senj June 1827":
+        "resembles Francisca Žubrinić Xubrinich 1827 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Gregorius Tomljanović son of Antonius died Senj February 1831":
+        "resembles Gregorius Josephus Žubrinić 1832 [children of maria-9] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Joannes Perpić newborn died Senj February 1820":
+        "resembles Joannes Juan Ivan Ive Žubrinić Zubrinic 1821 [children of margarita-3]; Joannes Žubrinić Xubrinich 1821 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
 }
 
 
