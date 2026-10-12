@@ -126,11 +126,31 @@
     {
      "key": "sibenik",
      "colour": "#a8453a",
-     "label": "Šibenik (Dolac) — the name from 1703 to 1767; Franciscus with Anna and a master by 1725; a Georgius (dead by 1757) and his son Dominicus, a master with a wife Floria; a Joannes; the dead Dume of 1739",
-     "conf": "THE NAME AT DOLAC WITHOUT A BREAK 1703–1767 · ONE FATHER NAMED: DOMINICUS, SON OF THE LATE GEORGIUS (1757) · NO BAPTISM OF A GEORGIUS, DOMINICUS OR DUME AT DOLAC TO 1762 · NO LINK TO KARLOBAG",
+     "label": "Šibenik (Dolac) — the name from 1687 to 1767; four households by 1692; Franciscus with Anna, a master by 1725; a Georgius (dead by 1757) and his son Dominicus, a master with a wife Floria; a Joannes; the dead Dume of 1739",
+     "conf": "THE NAME AT DOLAC WITHOUT A BREAK 1687–1767 · FOUR HOUSEHOLDS BY 1692 · ONE FATHER NAMED: DOMINICUS, SON OF THE LATE GEORGIUS (1757) · NO BAPTISM OF A GEORGIUS, DOMINICUS OR DUME IN ANY DOLAC BOOK 1685–1762 · NO LINK TO KARLOBAG",
      "read": "The Šibenik Uroda →",
      "href": "/found/dominicus-uroda-of-sibenik/",
      "nodes": [
+      [
+       "Dominicus Vroda (wife Ursula)",
+       "1687 – 1693",
+       "Godfather 19 Apr 1687 and 22 Feb 1693; «Dominus Vrodich & Vrsula eius coniunx» Jan 1689; father of Lucia (31 Jul 1692) — the earliest Uroda in any Šibenik register; an Aurelia of 17 Sep 1693 (mother Silvia [?]) is doubtful"
+      ],
+      [
+       "Thomas Vrodich (wife Catarina)",
+       "1687 – 1692",
+       "Godfather's wife Catarina in Apr 1687 and 17 Sep 1692; a daughter Justina, old enough to be a godmother, 2 Aug 1692"
+      ],
+      [
+       "Lucas Vrodi (wife Mariota)",
+       "1692 – 1698",
+       "Sons Antonius (6 Aug 1692) and Michael (13 Jul 1698) — the household of Simeon (1705) and Paulus Antonius (1710)"
+      ],
+      [
+       "Paulus Vroda (wife Anastasia, later Stanislava [?])",
+       "1691 – 1695",
+       "Godfather's wife Anastasia 2 Dec 1691; godfather with Stanislava [?] 24 Aug 1693; a «Stanca Vroda» godmother Jul 1695"
+      ],
       [
        "Joannes and Ursula Vroda",
        "1703 – 1705",
@@ -201,7 +221,7 @@
       [
        "Georgius's father?",
        "/found/dominicus-uroda-of-sibenik/",
-       "Georgius Uroda of Karlobag (ahnentafel 108) named his first son Dominicus in 1764. At Šibenik a Dominicus Uroda, a master, is «filius qd. Georgij Vroda» (1757) — a Georgius, dead by then, and a Dominicus. If Georgius of Karlobag is a son of that Dominicus he is named for his grandfather and his first son for his father; that is a pattern in the names, not a document, and the Dolac books of 1701–1762 hold no baptism of him. There was also a Magister Georgius Uroda at Šibenik, married, in 1738: the Georgius of Karlobag cannot be that man if he first fathered a child in 1764, but he could be a grandson or a namesake"
+       "Georgius Uroda of Karlobag (ahnentafel 108) named his first son Dominicus in 1764. At Šibenik a Dominicus Uroda, a master, is «filius qd. Georgij Vroda» (1757) — a Georgius, dead by then, and a Dominicus. If Georgius of Karlobag is a son of that Dominicus he is named for his grandfather and his first son for his father; that is a pattern in the names, not a document, and none of the three Dolac baptism books (1685–1762) holds a baptism of him. There was also a Magister Georgius Uroda at Šibenik, married, in 1738: the Georgius of Karlobag cannot be that man if he first fathered a child in 1764, but he could be a grandson or a namesake"
       ],
       [
        "Dume's sons?",
@@ -412,6 +432,54 @@
     ],
     "sibenik": [
      [
+      "Dolac baptism 1687 (Dominicus Vroda and Catarina, wife of Thomas Vrodich)",
+      "sibenik-dolac-baptism-1687-04-anastasia-godparents-dominicus-vroda-and-catarina-wife-of-thomas-vrodich"
+     ],
+     [
+      "Dolac baptism 1689 (Dominus Vrodich and Ursula)",
+      "sibenik-dolac-baptism-1689-01-joanna-sevelich-godparents-dominus-vrodich-and-ursula"
+     ],
+     [
+      "Dolac baptism 1691 (Anastasia, wife of Paulus Vroda)",
+      "sibenik-dolac-baptism-1691-12-catharina-sintich-godparents-anastasia-wife-of-paulus-vroda"
+     ],
+     [
+      "Dolac baptism 1692 (Lucia, daughter of Dominicus Vrodi and Ursula)",
+      "sibenik-dolac-baptism-1692-07-lucia-daughter-of-dominicus-vrodi-and-ursula"
+     ],
+     [
+      "Dolac baptism Aug 1692 (Justina, daughter of Thomas Vroda)",
+      "sibenik-dolac-baptism-1692-08-elias-boghcrich-godmother-justina-daughter-of-thomas-vroda"
+     ],
+     [
+      "Dolac baptism Aug 1692 (Antonius, son of Lucas Vrodi)",
+      "sibenik-dolac-baptism-1692-08-antonius-son-of-luca-vrodi"
+     ],
+     [
+      "Dolac baptism Sep 1692 (Catharina, wife of Thomas Vroda)",
+      "sibenik-dolac-baptism-1692-09-joannes-galiotovich-godmother-catharina-wife-of-thomas-vroda"
+     ],
+     [
+      "Dolac baptism 1693 (Dominicus Vrodi godfather)",
+      "sibenik-dolac-baptism-1693-02-catharina-croglienich-godfather-dominicus-vrodi"
+     ],
+     [
+      "Dolac baptism Aug 1693 (Paulus Vroda and wife)",
+      "sibenik-dolac-baptism-1693-08-paulina-miglianich-godparents-paulus-vroda-and-stanislava"
+     ],
+     [
+      "Dolac baptism Sep 1693 (Aurelia; doubtful)",
+      "sibenik-dolac-baptism-1693-09-aurelia-daughter-of-domini-and-silvia-vroda"
+     ],
+     [
+      "Dolac baptism 1695 (Stanca Vroda)",
+      "sibenik-dolac-baptism-1695-07-joanna-godmother-stanca-vroda"
+     ],
+     [
+      "Dolac baptism 1698 (Michael, son of Lucas and Marieta Vrodich)",
+      "sibenik-dolac-baptism-1698-07-michael-son-of-lucas-and-marieta-vrodich"
+     ],
+     [
       "Dolac baptism 1703 (Joannes and Ursula)",
       "sibenik-dolac-baptism-1703-01-paulus-son-of-joannes-uroda-and-ursula"
      ],
@@ -596,7 +664,7 @@
    "slug": "uroda",
    "eyebrow": "Uroda — six groups, one surname",
    "note": "<strong>One spelling is not a search.</strong> The registers write <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index reads one Karlobag father as <em>Sime</em>, spells Dume's children <em>Urode</em> (so a search for <em>Uroda</em> misses them), and reads one Drniš father four ways (<em>Janpao, Ganpas, Pompio, Tomaso</em>) where the pages say <em>Pampao</em> and <em>Pompeo</em>. At Karlobag in 1734 a priest writes <strong>«Dume urode alliti Kovaca»</strong> — a by-name, a smith's — and before the 1730s the book has <em>no</em> Uroda at all, so a baptism of the man himself would sit under another surname. See <a href=\"{{base}}/by-names/\">The Second Name</a>.",
-   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, not in the Šibenik cathedral marriage book 1752–1770 nor the Dolac parish marriage book 1752–1764, both read entry by entry; perhaps Varoš before 1764, whose book begins only that year, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong>: both Dolac baptism books (1701–1731 and 1731–1762) are now read through — no baptism of a Georgius, Dominicus or Dume Uroda, but a Dominicus «son of the late Georgius» (1757); still to read are the cathedral births (1648–1812) and the Varoš births (1711–1767), where the baptism of a Georgius or a Dominicus, or of a «Georgius filius Dominici», would say whose son Georgius of Karlobag is (the Betina and Drniš ones have been opened and are other families)."
+   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, not in the Šibenik cathedral marriage book 1752–1770 nor the Dolac parish marriage book 1752–1764, both read entry by entry; perhaps Varoš before 1764, whose book begins only that year, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong>: all three Dolac baptism books (1685–1700, 1701–1731 and 1731–1762) are now read through — no baptism of a Georgius, Dominicus or Dume Uroda, but a Dominicus «son of the late Georgius» (1757); still to read are the cathedral births (1648–1812) and the Varoš births (1711–1767), where the baptism of a Georgius or a Dominicus, or of a «Georgius filius Dominici», would say whose son Georgius of Karlobag is (the Betina and Drniš ones have been opened and are other families)."
   },
   {
    "slug": "smojver",

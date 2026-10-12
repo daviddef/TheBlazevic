@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 531,
+ "count": 533,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -43,7 +43,7 @@
   "house 10, died at Oberfeichting 9, župnija Kranj-Šmartin": 1,
   "house 12, župnija Kranj-Šmartin": 1,
   "Šibenik, Dolac and cathedral parishes": 1,
-  "Šibenik, Dolac parish (S. Marci)": 6,
+  "Šibenik, Dolac parish (S. Marci)": 8,
   "Šumećica, Otočac": 2,
   "župnija Kranj-Šmartin": 6,
   "župnija Kranj-Šmartin, S. Thomae (Zgornje Bitnje) 10": 1,
@@ -5322,6 +5322,26 @@
    "slug": "georgius-uroda-of-sibenik"
   },
   {
+   "name": "Dominicus Vroda of Šibenik",
+   "ahn": null,
+   "relation": "A DOMINICUS VRODA [VRODI, VRODICH] AT ŠIBENIK (DOLAC) 1687–1693, MARRIED TO URSULA, FATHER OF A DAUGHTER LUCIA (1692) — godfather on 19 April 1687 (with Catarina, wife of a Thomas Vrodich), in January 1689 («Dominus Vrodich & Vrsula eius coniunx») and on 22 February 1693; on 31 July 1692 the father of Lucia, by Ursula; possibly the father of an Aurelia of 17 September 1693 («filia Domini et Salvi [Silvia?] Vroda», doubtful). The earliest Uroda met in any Šibenik register. NOT shown to be the Dominicus Uroda of 1726–1767 (**who is «filius qd. Georgij»**), nor to be kin of the Joannes, Lucas, Thomas, Paulus or Franciscus Uroda households of 1691–1721",
+   "event": "baptism (as godfather; as father)",
+   "date": "19 April 1687; 6 [or 8] January 1689; 31 July 1692; 22 February 1693; 17 September 1693 [?]",
+   "place": "Šibenik, Dolac parish (S. Marci)",
+   "citation": "(1) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1685–1700 (FamilySearch waypoint 9R24-1XW, the first book), image 9, 19 April 1687: «Patrini fuerunt Dominicus Vroda et Catarina uxor Thome Vrodich». (2) image 11, January 1689: «Patrini fuerunt Dominus Vrodich & Vrsula eius coniunx». (3) image 23, 31 July 1692: «ex Dominico Vrodi, & Ursula coniugibus: Cui nomen impositum est Lucia». (4) image 25, 22 February 1693: «Patrini fuerunt Dominicus Vrodi, & Ursula uxor Hieronymi Trapilei». (5) image 26, 17 September 1693: «Aurelia filia Domini [Dominici?] et Salvi [Silvia?] Vroda coniugum» (doubtful). READ FROM THE IMAGES 12 October 2026 at about 4x. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
+   "slug": "dominicus-vroda-of-sibenik"
+  },
+  {
+   "name": "Paulus Vroda of Šibenik",
+   "ahn": null,
+   "relation": "A PAULUS VRODA AT ŠIBENIK (DOLAC) 1691–1695, MARRIED TO ANASTASIA (1691) AND TO A «STANISLAVA» [?] (1693), A GODFATHER — named as the husband of the godmother Anastasia on 2 December 1691 and, with a wife written Stanislava [?], as godfather to Paulina Miglianich on 24 August 1693; a «Stanca Vroda» is godmother in July 1695 (possibly the same wife). No child of his is met. NOT shown to be kin of any other Uroda",
+   "event": "baptism (as the godmother's husband; as godfather)",
+   "date": "2 December 1691; 24 August 1693; July 1695 [Stanca]",
+   "place": "Šibenik, Dolac parish (S. Marci)",
+   "citation": "(1) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1685–1700 (FamilySearch waypoint 9R24-1XW, the first book), image 20, 2 December 1691: «Patrini fuerunt Joannes Rupcich & Anastasia coniunx Pauli Vroda». (2) image 25, 24 August 1693: «Patrini fuerunt Paulus Vroda et Stanislava [?] uxor eiusdem». (3) image 29, July 1695: «Patrini fuerunt D. Gerolimus Trapileus et Stanca Vroda». READ FROM THE IMAGES 12 October 2026 at about 4x. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
+   "slug": "paulus-vroda-of-sibenik"
+  },
+  {
    "name": "Joannes Uroda of Šibenik",
    "ahn": null,
    "relation": "A JOANNES URODA (VRODA, VRODICH), MARRIED TO URSULA, AT ŠIBENIK 1703–1705 — the father of Paulus (baptised January 1703) and of Antonius (baptised 31 May 1705) in the Dolac parish; the earliest Uroda met in any Šibenik register, thirty years before the Magister Franciscus (1733). Whether he is the father of Franciscus, Georgius and Dominicus, a brother of the dead Dume, or neither, is NOT shown",
@@ -5334,21 +5354,21 @@
   {
    "name": "Lucas Uroda of Šibenik",
    "ahn": null,
-   "relation": "A LUCAS VRODICH [URODIĆ] AT ŠIBENIK 1705–1710 — the father of Simeon (27 October 1705) and of Paulus Antonius (16 January 1710), baptised in the Dolac parish; a second Uroda household of 1705, on the page unconnected to Joannes and Ursula, and at the 1710 baptism a godmother of the same surname («Urobich») stands. NOT shown to be kin of any other Uroda",
+   "relation": "A LUCAS VRODI [VRODICH, URODIĆ] AT ŠIBENIK 1692–1710, MARRIED TO MARIOTA [MARIETA] (1692, 1698), FATHER OF ANTONIUS (1692), MICHAEL (1698), SIMEON (1705) AND PAULUS ANTONIUS (1710) — the Lucas Vrodi of 6 August 1692 (wife Mariota) and the Lucas Vrodich of 13 July 1698 (wife Marieta) fits the Lucas Vrodich of 1705–1710, so a household of four children over eighteen years; whether it is one man or a father and a son of the name is not shown. the father of Simeon (27 October 1705) and of Paulus Antonius (16 January 1710), baptised in the Dolac parish; a second Uroda household of 1705, on the page unconnected to Joannes and Ursula, and at the 1710 baptism a godmother of the same surname («Urobich») stands. NOT shown to be kin of any other Uroda",
    "event": "baptism (as father)",
-   "date": "27 October 1705; 16 January 1710",
+   "date": "6 August 1692; 13 July 1698; 27 October 1705; 16 January 1710",
    "place": "Šibenik, Dolac parish (S. Marci)",
-   "citation": "(1) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1701–1784 (FamilySearch waypoint 9R2C-L2Q), image 20 right-hand page (p. 16), second entry: «Die 27 8bris 1705 … Baptizavi infantulum natum ex legitimis Conjugibus [Lucas et …] (Conj: Vrodich) cui nomen impositum fuit Simeon. Patrini fuere Dominicus Condoguari ex Civitate et Brigida uxor q. Gasparini Bra[…]». (2) the same book, image 35 right-hand page (p. 30), last entry: «Die 16 Januarii 1710. Paulus Antonius filius Lucae [?] et [Joannae?] Vrodich Conjugum … Patrini fuerunt Simon Jarich, et [Eida/Lida] Urobich». READ FROM THE IMAGES 12 October 2026 at about 3x; the given name Lucas and the mothers' names are partly lost in shadow or doubtful. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
+   "citation": "(0) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1685–1700 (FamilySearch waypoint 9R24-1XW, the first book): image 24, 6 August 1692: «ex Luca Vrodi, & Mariota coniugibus: cui nomen impositum est Antonius»; image 34, 13 July 1698: «ex … Dno Luca et Marietta Vrodich cui nomen impositum fuit Michael» (both snapshotted). (1) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1701–1784 (FamilySearch waypoint 9R2C-L2Q), image 20 right-hand page (p. 16), second entry: «Die 27 8bris 1705 … Baptizavi infantulum natum ex legitimis Conjugibus [Lucas et …] (Conj: Vrodich) cui nomen impositum fuit Simeon. Patrini fuere Dominicus Condoguari ex Civitate et Brigida uxor q. Gasparini Bra[…]». (2) the same book, image 35 right-hand page (p. 30), last entry: «Die 16 Januarii 1710. Paulus Antonius filius Lucae [?] et [Joannae?] Vrodich Conjugum … Patrini fuerunt Simon Jarich, et [Eida/Lida] Urobich». READ FROM THE IMAGES 12 October 2026 at about 3x; the given name Lucas and the mothers' names are partly lost in shadow or doubtful. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
    "slug": "lucas-uroda-of-sibenik"
   },
   {
    "name": "Thomas Uroda of Šibenik",
    "ahn": null,
-   "relation": "A THOMAS VRODICH [URODIĆ], MARRIED TO ANASTASIA, AT ŠIBENIK IN 1706 — the father of a baptised son Paulus in the Dolac parish; a third Uroda household of 1703–1706 (with Joannes and Ursula, and Lucas). NOT shown to be kin of any other Uroda",
-   "event": "baptism (as father)",
-   "date": "14 May 1706",
+   "relation": "A THOMAS VRODA [VRODICH, URODIĆ] AT ŠIBENIK 1687–1706, MARRIED TO CATHARINA (1687, 1692) AND TO ANASTASIA (1706), A FATHER AND A GODFATHER — in April 1687 named as the husband of the godmother Catarina, and in 1692 («Justina filia Thome Vroda», a daughter old enough to be a godmother; «Catharina uxor Thome Vrode», 17 September) — then, in 1706, the father of Paulus by Anastasia. The same man with a second wife, or a son of the same name, is not shown. the father of a baptised son Paulus in the Dolac parish; a third Uroda household of 1703–1706 (with Joannes and Ursula, and Lucas). NOT shown to be kin of any other Uroda",
+   "event": "baptism (as father); as godfather's wife and father of a godmother",
+   "date": "April 1687; 2 August 1692; 17 September 1692; 14 May 1706",
    "place": "Šibenik, Dolac parish (S. Marci)",
-   "citation": "Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1701–1784 (FamilySearch waypoint 9R2C-L2Q), image 22 left-hand page, first entry: «Die 14 Maji 1706 … Baptizavi infantulum natum ex legitimis Conjugibus V. Thoma et Anastasia Conjug. Vrodich, cui nomen impositum Paulus. Patrini fuerunt Marcus et Catarina Conjuges Liatich». READ FROM THE IMAGE 12 October 2026 at about 3x. No origin or age is given. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
+   "citation": "(0) Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1685–1700 (FamilySearch waypoint 9R24-1XW, the first book): image 9, April 1687: «Dominicus Vroda et Catarina uxor Thome Vrodich»; image 23, 2 August 1692: «Justina filia Thome Vroda»; image 24, 17 September 1692: «Catharina uxor Thome Vrode» (all snapshotted). Šibenik, Dolac parish (S. Marci in Suburbio Maris) births 1701–1784 (FamilySearch waypoint 9R2C-L2Q), image 22 left-hand page, first entry: «Die 14 Maji 1706 … Baptizavi infantulum natum ex legitimis Conjugibus V. Thoma et Anastasia Conjug. Vrodich, cui nomen impositum Paulus. Patrini fuerunt Marcus et Catarina Conjuges Liatich». READ FROM THE IMAGE 12 October 2026 at about 3x. No origin or age is given. See notes/karlobag-marriage-1774-smojver-bacchi.md and /lines/#uroda",
    "slug": "thomas-uroda-of-sibenik"
   },
   {
