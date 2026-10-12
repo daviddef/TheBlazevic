@@ -83,7 +83,7 @@ register image, the page says so.
 ```bash
 cd site
 npm install
-npm run dev      # http://localhost:4324/TheBlazevic
+npm run dev      # http://localhost:4324/
 npm run build    # static output in site/dist
 ```
 

@@ -1,12 +1,16 @@
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages project site. To serve from a custom domain later,
-// set base to '/' and site to that domain.
+// Served from its own domain since 12 October 2026: blazevic.defranceski.com
+// (CNAME -> daviddef.github.io, site/public/CNAME). It was a GitHub Pages
+// project site at https://daviddef.github.io/TheBlazevic/; GitHub redirects
+// that address, path kept, to the custom domain, so links already published
+// still work. archives.json keys this archive on base "" (BASE_URL stripped of
+// its trailing slash), which is what astro's base '/' yields.
 /* Phase 1 of the seven-archive standardisation: this page was called
    /changed while its own data file was already corrections.json, and four
    other archives call the same page /corrections. Renamed; the old address
    is kept alive because it has been linked to. */
-const BASE = '/TheBlazevic';
+const BASE = '';
 /* /married-in is now /marriages, on the estate's shared page shape. The address
    has been published, so it redirects rather than 404s. */
 const redirects = { '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/`,
@@ -14,8 +18,8 @@ const redirects = { '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/
   '/photograph-these': `${BASE}/errands/#photographs` };
 
 export default defineConfig({
-  site: 'https://daviddef.github.io',
-  base: '/TheBlazevic',
+  site: 'https://blazevic.defranceski.com',
+  base: '/',
   build: { format: 'directory' },
   /* ARCHIVE_OUT was honoured by every kit TOOL and by nothing that writes.
      `ARCHIVE_OUT=dist-mine npm run build` put the pages in dist/ and then sent

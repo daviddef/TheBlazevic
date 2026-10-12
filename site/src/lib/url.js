@@ -1,5 +1,5 @@
 // Prefix a site-root path with the deployment base, so the same links work at
-// https://daviddef.github.io/TheBlazevic/ and at a custom domain later.
+// the old https://daviddef.github.io/TheBlazevic/ and at https://blazevic.defranceski.com/.
 //
 // Astro builds with format:'directory', so every page is served at a path with
 // a trailing slash. Linking to "/senj" makes GitHub Pages issue a 301 to
