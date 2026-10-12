@@ -39,10 +39,20 @@ const SITE_URL = "https://daviddef.github.io";
 const share = dek || description ||
   "An evidence-first archive of Hedviga Blažević and the four families behind her.";
 const on = (h) => here === u(h).replace(/\/$/, "");
-/* which of the seven this is, worked out the same way the ring does */
-const thisArchive = ring.archives.find(
+/* which of the seven this is, worked out the same way the ring does.
+   base alone is not unique any more: every archive on its own domain has base "",
+   so find() returned the first of them (the Defranceschi entry) and VisitCount
+   logged this archive's visits to thedefranceski.goatcounter.com. The origin
+   settles it. This is inlined, the same logic as the kit's lib/ring.js whoami(),
+   because a layout cannot import that file or the JSON bare (Node's ESM loader
+   refuses a JSON import without an attribute outside Vite's resolution). */
+const originOf = (x) => { try { return new URL(x).origin; } catch { return ""; } };
+const SITE_ORIGIN = originOf(import.meta.env.SITE || "");
+const onBase = ring.archives.filter(
   (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
 );
+const thisArchive =
+  (SITE_ORIGIN && onBase.find((a) => originOf(a.url) === SITE_ORIGIN)) || onBase[0];
 ---
 <html lang="en" data-base={u("")}>
 <head>
