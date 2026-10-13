@@ -38,6 +38,12 @@ FAMILIES = [
     ("vukelic",  "Vukelić",  "of Senj — Milka Papić's first husband's people"),
     ("boras",    "Boras",    "of Senj, married into the Papići and the Prpići"),
     ("sestan",   "Šestan",   "of Gologorica in Istria — and connected to this family only through a sorting label"),
+    # Five names added 14 October 2026, each with a real register behind it.
+    ("pavelic",     "Pavelić",     "of Mrzli Dol above Senj — the in-laws the Blaževići kept marrying, and a branch that went to Minnesota"),
+    ("tomljanovic", "Tomljanović", "of Karlobag and Senj — ahnentafel 111, and the canons of Senj cathedral"),
+    ("krmpotic",    "Krmpotić",    "of Senj, Krivi Put and Krmpote — a Frontier name read in the Senj registers"),
+    ("babic",       "Babić",       "of Senj, porters and mariners — and the cholera of August 1855"),
+    ("spalj",       "Špalj",       "of Senj and Krmpote — a lieutenant of 1747 and the women who outlived him"),
 ]
 
 # Placeholder rows the working tree carries that are not people at all: sorting

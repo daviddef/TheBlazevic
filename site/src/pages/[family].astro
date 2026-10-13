@@ -4,7 +4,7 @@ import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import { COPY } from "../lib/familyCopy.js";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
-import { householdsOf, descentOf } from "../lib/households.js";
+import { householdsOf, descentOf, familyKeys } from "../lib/households.js";
 import FOUND from "../data/found.json";
 import line from "../data/line.json";
 
@@ -15,7 +15,7 @@ const { family } = Astro.params;
 const meta = families.find((f) => f.slug === family);
 const copy = COPY[family];
 // Perpic folds into Prpic, as everywhere else here; every other family is itself.
-const keys = { prpic: ["prpic", "perpic"] }[family] || [family];
+const keys = familyKeys(family);
 
 /* THREE SECTIONS BECAME ONE ON 29 SEPTEMBER 2026. This page used to draw
    "The households" (couples, chip children), "Everyone of the name,

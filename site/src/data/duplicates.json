@@ -936,6 +936,30 @@
   {
    "tier": "rejected — different parents",
    "surname": "pavelic",
+   "given": "mile",
+   "byear": 1862,
+   "n": 2,
+   "place": "Mrzli Dol br. 30",
+   "date": "1 FEB 1862",
+   "ids": [
+    "@I508480@",
+    "@I508510@"
+   ],
+   "names": [
+    "Mile Pavelic",
+    "Mile Pavelic"
+   ],
+   "slugs": [
+    "mile-pavelic",
+    "mile-pavelic-2"
+   ],
+   "dyears": [
+    1939
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
    "given": "marta",
    "byear": 1875,
    "n": 2,
@@ -958,25 +982,173 @@
   {
    "tier": "rejected — different parents",
    "surname": "pavelic",
+   "given": "ivan",
+   "byear": 1888,
+   "n": 3,
+   "place": "Mrzli Dol",
+   "date": "16 MAY 1888",
+   "ids": [
+    "@I512278@",
+    "@I512349@",
+    "@I512307@"
+   ],
+   "names": [
+    "Ivan Pavelić",
+    "Ivan Pavelić",
+    "Ivan Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "ivan-pavelic-4",
+    "ivan-pavelic-6",
+    "ivan-pavelic-blazevic"
+   ],
+   "dyears": [
+    1906
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "jure",
+   "byear": 1890,
+   "n": 2,
+   "place": "Mrzli Dol",
+   "date": "13 APR 1890",
+   "ids": [
+    "@I512305@",
+    "@I512350@"
+   ],
+   "names": [
+    "Jure Pavelić",
+    "Jure Pavelić"
+   ],
+   "slugs": [
+    "jure-pavelic-2",
+    "jure-pavelic-3"
+   ],
+   "dyears": [
+    1964
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "marija",
+   "byear": 1891,
+   "n": 2,
+   "place": "Mrzli Dol",
+   "date": "18 SEP 1891",
+   "ids": [
+    "@I512351@",
+    "@I512308@"
+   ],
+   "names": [
+    "Marija Pavelić",
+    "Marija Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "marija-pavelic-10",
+    "marija-pavelic-blazevic"
+   ],
+   "dyears": [
+    1911
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "antonija",
+   "byear": 1893,
+   "n": 2,
+   "place": "Mrzli Dol",
+   "date": "3 JUN 1893",
+   "ids": [
+    "@I512352@",
+    "@I512309@"
+   ],
+   "names": [
+    "Antonija Pavelić",
+    "Antonija Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "antonija-pavelic-3",
+    "antonija-pavelic-blazevic"
+   ],
+   "dyears": [
+    1904
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "josip",
+   "byear": 1895,
+   "n": 2,
+   "place": "Mrzli Dol",
+   "date": "18 MAR 1895",
+   "ids": [
+    "@I512353@",
+    "@I512310@"
+   ],
+   "names": [
+    "Josip Pavelić",
+    "Josip Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "josip-pavelic-2",
+    "josip-pavelic-blazevic"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
    "given": "danica",
    "byear": 1897,
-   "n": 2,
+   "n": 3,
    "place": "Mrzli Dol",
    "date": null,
    "ids": [
     "@I508595@",
+    "@I512354@",
     "@I512311@"
    ],
    "names": [
     "Danica Pavelic",
+    "Danica Pavelić",
     "Danica Pavelić (Blazevic)"
    ],
    "slugs": [
     "danica-pavelic",
+    "danica-pavelic-3",
     "danica-pavelic-blazevic"
    ],
    "dyears": [
     1897
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "pavelic",
+   "given": "dujo",
+   "byear": 1904,
+   "n": 2,
+   "place": "Mrzli Dol #30",
+   "date": "3 FEB 1904",
+   "ids": [
+    "@I512356@",
+    "@I512313@"
+   ],
+   "names": [
+    "Dujo Pavelić",
+    "Dujo Pavelić (Blazevic)"
+   ],
+   "slugs": [
+    "dujo-pavelic-3",
+    "dujo-pavelic-blazevic"
+   ],
+   "dyears": [
+    1904
    ]
   },
   {
@@ -1439,7 +1611,7 @@
   }
  ],
  "extra": 30,
- "published": 1833,
- "rejected": 33,
+ "published": 1904,
+ "rejected": 40,
  "live": 29
 }

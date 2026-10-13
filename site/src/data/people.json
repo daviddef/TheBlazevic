@@ -4240,6 +4240,62 @@
   }
  },
  {
+  "id": "@I508498@",
+  "slug": "ane",
+  "name": "Ane",
+  "given": "Ane",
+  "surname": "",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": null,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Franjo Tomljanovic",
+     "slug": "franjo-tomljanovic-2",
+     "id": "@I508497@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Luce Tomljanovic",
+     "slug": "luce-tomljanovic",
+     "id": "@I508496@",
+     "born": 1866,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I509107@",
   "slug": "anna",
   "name": "Anna",
@@ -5368,6 +5424,62 @@
      "slug": "joannam-papic-papa",
      "id": "@I509037@",
      "born": 1845,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508834@",
+  "slug": "francika-2",
+  "name": "Francika",
+  "given": "Francika",
+  "surname": "",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": null,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Mijo Tomljanovic",
+     "slug": "mijo-tomljanovic",
+     "id": "@I508833@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Matijo Tomljanovic",
+     "slug": "matijo-tomljanovic",
+     "id": "@I504993@",
+     "born": 1876,
      "died": null
     }
    ]
@@ -10263,6 +10375,312 @@
   }
  },
  {
+  "id": "@I506388@",
+  "slug": "jacov-babic",
+  "name": "Jacov Babic",
+  "given": "Jacov",
+  "surname": "Babic",
+  "nick": "",
+  "sex": "M",
+  "born": "1889",
+  "bornPlace": "Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1889,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1889",
+    "place": "Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "babic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Ivan Babic",
+     "slug": "ivan-babic",
+     "id": "@I504991@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Kate Vukelic",
+     "slug": "kate-vukelic",
+     "id": "@I506387@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I504990@",
+  "slug": "ginro-babic",
+  "name": "Ginro Babic",
+  "given": "Ginro",
+  "surname": "Babic",
+  "nick": "",
+  "sex": "M",
+  "born": "16 APR 1890",
+  "bornPlace": "Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1890,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "16 APR 1890",
+    "place": "Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "babic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Ivan Babic",
+     "slug": "ivan-babic",
+     "id": "@I504991@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Karelina Skota",
+     "slug": "karelina-skota",
+     "id": "@I506389@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Antonija \"Tonka\" Blažević",
+     "slug": "antonija-blazevic-2",
+     "id": "@I500049@",
+     "born": 1884,
+     "died": 1969,
+     "marriedDate": "1 DEC 1912",
+     "marriedPlace": "Senj, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I504991@",
+  "slug": "ivan-babic",
+  "name": "Ivan Babic",
+  "given": "Ivan",
+  "surname": "Babic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "babic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Kate Vukelic",
+     "slug": "kate-vukelic",
+     "id": "@I506387@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    },
+    {
+     "name": "Karelina Skota",
+     "slug": "karelina-skota",
+     "id": "@I506389@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Jacov Babic",
+     "slug": "jacov-babic",
+     "id": "@I506388@",
+     "born": 1889,
+     "died": null
+    },
+    {
+     "name": "Ginro Babic",
+     "slug": "ginro-babic",
+     "id": "@I504990@",
+     "born": 1890,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I506386@",
+  "slug": "marijana-babic",
+  "name": "Marijana Babic",
+  "given": "Marijana",
+  "surname": "Babic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "babic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Josip Papić",
+     "slug": "josip-papic",
+     "id": "@I506385@",
+     "born": 1890,
+     "died": null,
+     "marriedDate": "18 MAR 1923",
+     "marriedPlace": "Senj, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508847@",
+  "slug": "roza-babic",
+  "name": "Roza Babic",
+  "given": "Roza",
+  "surname": "Babic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "babic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Blaz Glavicic",
+     "slug": null,
+     "id": "@I508846@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Katica Glavicic",
+     "slug": null,
+     "id": "@I508845@",
+     "born": 1887,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I511506@",
   "slug": "catharina-babich-babic",
   "name": "Catharina Babich Babic",
@@ -10292,7 +10710,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -10362,7 +10780,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10454,7 +10872,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10529,7 +10947,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10604,7 +11022,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10672,7 +11090,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -10728,7 +11146,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -10791,7 +11209,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10859,7 +11277,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [
     {
@@ -10920,7 +11338,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "babic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -16005,7 +16423,7 @@
    "spouses": [
     {
      "name": "Josephus Pavelic",
-     "slug": null,
+     "slug": "josephus-pavelic",
      "id": "@I508440@",
      "born": 1815,
      "died": null,
@@ -18396,7 +18814,7 @@
    "spouses": [
     {
      "name": "Francesca Pavelic",
-     "slug": null,
+     "slug": "francesca-pavelic",
      "id": "@I508426@",
      "born": 1855,
      "died": null,
@@ -19147,7 +19565,7 @@
    "spouses": [
     {
      "name": "Lucas Pavelic",
-     "slug": null,
+     "slug": "lucas-pavelic",
      "id": "@I508434@",
      "born": 1844,
      "died": null,
@@ -20821,7 +21239,7 @@
    "spouses": [
     {
      "name": "Marko Pavelic",
-     "slug": null,
+     "slug": "marko-pavelic-5",
      "id": "@I508454@",
      "born": 1846,
      "died": null,
@@ -21093,7 +21511,7 @@
    "spouses": [
     {
      "name": "Tome Pavelic",
-     "slug": null,
+     "slug": "tome-pavelic",
      "id": "@I508476@",
      "born": 1862,
      "died": null,
@@ -21184,56 +21602,56 @@
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-6",
      "id": "@I512349@",
      "born": 1888,
      "died": 1906
     },
     {
      "name": "Jure Pavelić",
-     "slug": null,
+     "slug": "jure-pavelic-3",
      "id": "@I512350@",
      "born": 1890,
      "died": 1964
     },
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-10",
      "id": "@I512351@",
      "born": 1891,
      "died": 1911
     },
     {
      "name": "Antonija Pavelić",
-     "slug": null,
+     "slug": "antonija-pavelic-3",
      "id": "@I512352@",
      "born": 1893,
      "died": 1904
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic-2",
      "id": "@I512353@",
      "born": 1895,
      "died": null
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-3",
      "id": "@I512354@",
      "born": 1897,
      "died": 1897
     },
     {
      "name": "Kata Pavelić",
-     "slug": null,
+     "slug": "kata-pavelic-2",
      "id": "@I512355@",
      "born": 1898,
      "died": 1904
     },
     {
      "name": "Dujo Pavelić",
-     "slug": null,
+     "slug": "dujo-pavelic-3",
      "id": "@I512356@",
      "born": 1904,
      "died": 1904
@@ -23800,7 +24218,7 @@
    "spouses": [
     {
      "name": "Ginro Babic",
-     "slug": null,
+     "slug": "ginro-babic",
      "id": "@I504990@",
      "born": 1890,
      "died": null,
@@ -39802,7 +40220,7 @@
    "spouses": [
     {
      "name": "Luce Tomljanovic",
-     "slug": null,
+     "slug": "luce-tomljanovic",
      "id": "@I508496@",
      "born": 1866,
      "died": null,
@@ -45885,7 +46303,7 @@
    "spouses": [
     {
      "name": "Ivan Krmpotic",
-     "slug": null,
+     "slug": "ivan-krmpotic",
      "id": "@I506425@",
      "born": 1890,
      "died": null,
@@ -62110,7 +62528,7 @@
    "spouses": [
     {
      "name": "Elias Tomljanovic",
-     "slug": null,
+     "slug": "elias-tomljanovic",
      "id": "@I512700@",
      "born": 1840,
      "died": null,
@@ -90333,7 +90751,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -90354,11 +90772,66 @@
    "spouses": [
     {
      "name": "Mile Krmpotic",
-     "slug": null,
+     "slug": "mile-krmpotic",
      "id": "@I508458@",
      "born": null,
      "died": null,
      "marriedDate": "1882",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508545@",
+  "slug": "mandalena-krmpotic",
+  "name": "Mandalena Krmpotic",
+  "given": "Mandalena",
+  "surname": "Krmpotic",
+  "nick": "",
+  "sex": "F",
+  "born": "1866",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1866,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1866",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Filip Prpic",
+     "slug": "filip-prpic",
+     "id": "@I508544@",
+     "born": 1870,
+     "died": null,
+     "marriedDate": "1892",
      "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
     }
    ],
@@ -90403,7 +90876,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -90427,6 +90900,76 @@
      "died": 1910
     }
    ]
+  }
+ },
+ {
+  "id": "@I506425@",
+  "slug": "ivan-krmpotic",
+  "name": "Ivan Krmpotic",
+  "given": "Ivan",
+  "surname": "Krmpotic",
+  "nick": "",
+  "sex": "M",
+  "born": "10 JUN 1890",
+  "bornPlace": "Veljun, Croatia",
+  "died": "",
+  "diedPlace": "Senj, Croatia",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1890,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "10 JUN 1890",
+    "place": "Veljun, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Juraj Krmpotic",
+     "slug": "juraj-krmpotic",
+     "id": "@I508811@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Marija Pavelic",
+     "slug": "marija-pavelic-7",
+     "id": "@I508812@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Paulina Boras",
+     "slug": "paulina-boras",
+     "id": "@I506424@",
+     "born": 1895,
+     "died": null,
+     "marriedDate": "1917",
+     "marriedPlace": "Senj, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
   }
  },
  {
@@ -90459,7 +91002,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -90521,6 +91064,62 @@
   }
  },
  {
+  "id": "@I508811@",
+  "slug": "juraj-krmpotic",
+  "name": "Juraj Krmpotic",
+  "given": "Juraj",
+  "surname": "Krmpotic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Marija Pavelic",
+     "slug": "marija-pavelic-7",
+     "id": "@I508812@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Ivan Krmpotic",
+     "slug": "ivan-krmpotic",
+     "id": "@I506425@",
+     "born": 1890,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I508456@",
   "slug": "lovre-krmpotic",
   "name": "Lovre Krmpotic",
@@ -90550,7 +91149,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -90574,6 +91173,54 @@
      "died": null
     }
    ]
+  }
+ },
+ {
+  "id": "@I508458@",
+  "slug": "mile-krmpotic",
+  "name": "Mile Krmpotic",
+  "given": "Mile",
+  "surname": "Krmpotic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Tereza Krmpotic",
+     "slug": "tereza-krmpotic",
+     "id": "@I508457@",
+     "born": 1864,
+     "died": null,
+     "marriedDate": "1882",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
   }
  },
  {
@@ -90616,7 +91263,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -90641,14 +91288,14 @@
    "siblings": [
     {
      "name": "Juko Krmpotić",
-     "slug": null,
+     "slug": "juko-krmpotic",
      "id": "@I511428@",
      "born": 1805,
      "died": 1880
     },
     {
      "name": "Ilija Krmpotić",
-     "slug": null,
+     "slug": "ilija-krmpotic",
      "id": "@I511429@",
      "born": 1815,
      "died": null
@@ -90694,6 +91341,146 @@
   }
  },
  {
+  "id": "@I511428@",
+  "slug": "juko-krmpotic",
+  "name": "Juko Krmpotić",
+  "given": "Juko",
+  "surname": "Krmpotić",
+  "nick": "",
+  "sex": "M",
+  "born": "1805",
+  "bornPlace": "Veljun, Lika-Senj, Croatia",
+  "died": "4 DEC 1880",
+  "diedPlace": "Veljun, Lika-Senj, Croatia",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1805,
+  "dyear": 1880,
+  "sources": [
+   "FamilySearch Family Tree"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1805",
+    "place": "Veljun, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "4 DEC 1880",
+    "place": "Veljun, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Andrje or Dujo Krmpotić",
+     "slug": "andrje-or-dujo-krmpotic",
+     "id": "@I511427@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Ivka Krmpotić",
+     "slug": "ivka-krmpotic",
+     "id": "@I508897@",
+     "born": 1799,
+     "died": 1833
+    },
+    {
+     "name": "Ilija Krmpotić",
+     "slug": "ilija-krmpotic",
+     "id": "@I511429@",
+     "born": 1815,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I511429@",
+  "slug": "ilija-krmpotic",
+  "name": "Ilija Krmpotić",
+  "given": "Ilija",
+  "surname": "Krmpotić",
+  "nick": "",
+  "sex": "M",
+  "born": "1815",
+  "bornPlace": "Veljun, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1815,
+  "dyear": null,
+  "sources": [
+   "FamilySearch Family Tree"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1815",
+    "place": "Veljun, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "krmpotic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Andrje or Dujo Krmpotić",
+     "slug": "andrje-or-dujo-krmpotic",
+     "id": "@I511427@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Ivka Krmpotić",
+     "slug": "ivka-krmpotic",
+     "id": "@I508897@",
+     "born": 1799,
+     "died": 1833
+    },
+    {
+     "name": "Juko Krmpotić",
+     "slug": "juko-krmpotic",
+     "id": "@I511428@",
+     "born": 1805,
+     "died": 1880
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508370@",
   "slug": "mile-vatroslav-krmpotic",
   "name": "Mile Vatroslav Krmpotić",
@@ -90730,7 +91517,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -90826,7 +91613,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -90922,7 +91709,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -91018,7 +91805,7 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QSQ-G99X-17HZ?cc=2040054&wc=9R2D-JWL%3A391644801%2C391920301%2C391809001 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Senj (Senj) > Births (Rođeni) 1878-1894 > image 161 of 269; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -91124,7 +91911,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -91220,7 +92007,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [
     {
@@ -91303,7 +92090,7 @@
   ],
   "notes": [],
   "events": [],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [],
    "spouses": [],
@@ -91318,14 +92105,14 @@
     },
     {
      "name": "Juko Krmpotić",
-     "slug": null,
+     "slug": "juko-krmpotic",
      "id": "@I511428@",
      "born": 1805,
      "died": 1880
     },
     {
      "name": "Ilija Krmpotić",
-     "slug": null,
+     "slug": "ilija-krmpotic",
      "id": "@I511429@",
      "born": 1815,
      "died": null
@@ -91370,7 +92157,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "krmpotic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -98757,7 +99544,7 @@
    "spouses": [
     {
      "name": "Matijo Tomljanovic",
-     "slug": null,
+     "slug": "matijo-tomljanovic",
      "id": "@I504993@",
      "born": 1876,
      "died": null,
@@ -99366,7 +100153,7 @@
    "spouses": [
     {
      "name": "Marijana Babic",
-     "slug": null,
+     "slug": "marijana-babic",
      "id": "@I506386@",
      "born": null,
      "died": null,
@@ -99375,7 +100162,7 @@
     },
     {
      "name": "Mandom Tomljanovic",
-     "slug": null,
+     "slug": "mandom-tomljanovic",
      "id": "@I509149@",
      "born": null,
      "died": null,
@@ -109543,6 +110330,61 @@
   }
  },
  {
+  "id": "@I508440@",
+  "slug": "josephus-pavelic",
+  "name": "Josephus Pavelic",
+  "given": "Josephus",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1815",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1815,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1815",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Anna Blažević",
+     "slug": "anna-blazevic",
+     "id": "@I508439@",
+     "born": 1821,
+     "died": null,
+     "marriedDate": "1875",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
   "id": "@I508514@",
   "slug": "marija-pavelic-2",
   "name": "Marija Pavelic",
@@ -109579,7 +110421,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -109642,7 +110484,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -109666,6 +110508,179 @@
      "died": null
     }
    ]
+  }
+ },
+ {
+  "id": "@I508434@",
+  "slug": "lucas-pavelic",
+  "name": "Lucas Pavelic",
+  "given": "Lucas",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1844",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1844,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1844",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Antonia Blažević",
+     "slug": "antonia-blazevic-2",
+     "id": "@I508433@",
+     "born": 1851,
+     "died": null,
+     "marriedDate": "1873",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508454@",
+  "slug": "marko-pavelic-5",
+  "name": "Marko Pavelic",
+  "given": "Marko",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1846",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1846,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1846",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Marija Blažević",
+     "slug": "marija-blazevic-4",
+     "id": "@I508453@",
+     "born": 1857,
+     "died": null,
+     "marriedDate": "1879",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I509766@",
+  "slug": "marta-pavelic-4",
+  "name": "Marta Pavelic",
+  "given": "Marta",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "F",
+  "born": "22 FEB 1846",
+  "bornPlace": "68 Mrzlidol, Lika-Senj, Croatia",
+  "died": "8 SEP 1914",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1846,
+  "dyear": 1914,
+  "sources": [
+   "Pavelić Web Site — Marta Pavelic"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "22 FEB 1846",
+    "place": "68 Mrzlidol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "8 SEP 1914",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Ana Vukelic",
+     "slug": "ana-vukelic",
+     "id": "@I509765@",
+     "born": 1823,
+     "died": 1900
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Martinus Dujo Pavelic",
+     "slug": "martinus-dujo-pavelic",
+     "id": "@I508422@",
+     "born": 1853,
+     "died": 1914
+    }
+   ],
+   "children": []
   }
  },
  {
@@ -109705,7 +110720,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -109767,7 +110782,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -109792,7 +110807,7 @@
    "siblings": [
     {
      "name": "Marta Pavelic",
-     "slug": null,
+     "slug": "marta-pavelic-4",
      "id": "@I509766@",
      "born": 1846,
      "died": 1914
@@ -109873,6 +110888,132 @@
   }
  },
  {
+  "id": "@I508426@",
+  "slug": "francesca-pavelic",
+  "name": "Francesca Pavelic",
+  "given": "Francesca",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "F",
+  "born": "1855",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1855,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "birth",
+    "date": "1855",
+    "place": "",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Josephus Blažević",
+     "slug": "josephus-blazevic",
+     "id": "@I508425@",
+     "born": 1846,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508472@",
+  "slug": "juro-pavelic",
+  "name": "Juro Pavelic",
+  "given": "Juro",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1859",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1859,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1859",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Pavelic",
+     "slug": "pavelic",
+     "id": "@I508520@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Marija Prpić",
+     "slug": "marija-prpic-4",
+     "id": "@I508471@",
+     "born": 1869,
+     "died": null,
+     "marriedDate": "1884",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Mate Pavelic",
+     "slug": "mate-pavelic",
+     "id": "@I508522@",
+     "born": 1865,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508446@",
   "slug": "marija-pavelic",
   "name": "Marija Pavelic",
@@ -109911,7 +111052,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110005,7 +111146,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110103,6 +111244,217 @@
   }
  },
  {
+  "id": "@I508510@",
+  "slug": "mile-pavelic-2",
+  "name": "Mile Pavelic",
+  "given": "Mile",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1862",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1862,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "birth",
+    "date": "1862",
+    "place": "",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Juka? Pavelic",
+     "slug": "juka-pavelic",
+     "id": "@I508511@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Anta? Tomljanovic",
+     "slug": "anta-tomljanovic",
+     "id": "@I508512@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Franjica Prpic",
+     "slug": "franjica-prpic",
+     "id": "@I508509@",
+     "born": 1867,
+     "died": null,
+     "marriedDate": "1887",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508476@",
+  "slug": "tome-pavelic",
+  "name": "Tome Pavelic",
+  "given": "Tome",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1862",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1862,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1862",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Joso Pavelic",
+     "slug": "joso-pavelic",
+     "id": "@I508477@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Marija Vukelic",
+     "slug": "marija-vukelic",
+     "id": "@I508478@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Marija Blažević",
+     "slug": "marija-blazevic-5",
+     "id": "@I508475@",
+     "born": 1858,
+     "died": null,
+     "marriedDate": "1884",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508522@",
+  "slug": "mate-pavelic",
+  "name": "Mate Pavelic",
+  "given": "Mate",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "1865",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1865,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1865",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Pavelic",
+     "slug": "pavelic",
+     "id": "@I508520@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Ivka Prpic",
+     "slug": "ivka-prpic-2",
+     "id": "@I508523@",
+     "born": 1865,
+     "died": null,
+     "marriedDate": "1888",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Juro Pavelic",
+     "slug": "juro-pavelic",
+     "id": "@I508472@",
+     "born": 1859,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508485@",
   "slug": "ivan-pavelic",
   "name": "Ivan Pavelic",
@@ -110139,7 +111491,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110220,7 +111572,7 @@
     "note": "Tuberculosis per notation in Krivi Put Our Lady of Snow, baptismal book. Why does death record show mother's name as Stanka?"
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110344,7 +111696,7 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-L99X-557X?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Deaths (Umrli) 1878-1934 > image 167 of 608; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110404,7 +111756,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110476,7 +111828,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110602,7 +111954,7 @@
     "note": "per notation in Our Lady of Snow birth book"
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110728,7 +112080,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -110882,7 +112234,7 @@
     "note": "per Kriviput Parish records, #35 Mrzlidol p320"
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -111006,7 +112358,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -111068,7 +112420,7 @@
     "note": "per Sanja Frigan Pavelic Report email dated 05 Dec 2017.  Located record in church books.  Tuberculosis."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -111192,7 +112544,7 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QSQ-G99X-5R8P?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Deaths (Umrli) 1878-1934 > image 254 of 608; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -111261,7 +112613,7 @@
     "note": "died of cancer in Croatia.  Per Matt (linesman) Pavelich, Slavka died in Zagreb at age 92."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -111378,7 +112730,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111443,7 +112795,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111516,7 +112868,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111572,7 +112924,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111593,6 +112945,118 @@
      "slug": "ivan-pavelic",
      "id": "@I508485@",
      "born": 1867,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508477@",
+  "slug": "joso-pavelic",
+  "name": "Joso Pavelic",
+  "given": "Joso",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Marija Vukelic",
+     "slug": "marija-vukelic",
+     "id": "@I508478@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Tome Pavelic",
+     "slug": "tome-pavelic",
+     "id": "@I508476@",
+     "born": 1862,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508511@",
+  "slug": "juka-pavelic",
+  "name": "Juka? Pavelic",
+  "given": "Juka?",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Anta? Tomljanovic",
+     "slug": "anta-tomljanovic",
+     "id": "@I508512@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mile Pavelic",
+     "slug": "mile-pavelic-2",
+     "id": "@I508510@",
+     "born": 1862,
      "died": null
     }
    ]
@@ -111628,7 +113092,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111684,7 +113148,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111705,6 +113169,62 @@
      "slug": "martha-blazevic",
      "id": "@I508429@",
      "born": 1849,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508812@",
+  "slug": "marija-pavelic-7",
+  "name": "Marija Pavelic",
+  "given": "Marija",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Juraj Krmpotic",
+     "slug": "juraj-krmpotic",
+     "id": "@I508811@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Ivan Krmpotic",
+     "slug": "ivan-krmpotic",
+     "id": "@I506425@",
+     "born": 1890,
      "died": null
     }
    ]
@@ -111740,7 +113260,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111796,7 +113316,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111852,7 +113372,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111908,7 +113428,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111964,7 +113484,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -111986,6 +113506,51 @@
      "id": "@I508595@",
      "born": 1897,
      "died": 1897
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508520@",
+  "slug": "pavelic",
+  "name": "Pavelic",
+  "given": "",
+  "surname": "Pavelic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [],
+  "family": "pavelic",
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Juro Pavelic",
+     "slug": "juro-pavelic",
+     "id": "@I508472@",
+     "born": 1859,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelic",
+     "slug": "mate-pavelic",
+     "id": "@I508522@",
+     "born": 1865,
+     "died": null
     }
    ]
   }
@@ -112020,7 +113585,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -112076,7 +113641,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -112190,7 +113755,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -112358,7 +113923,7 @@
     "note": "info from Matt Pavelich Jr."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -112568,7 +114133,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -112742,7 +114307,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -112774,42 +114339,42 @@
    "siblings": [
     {
      "name": "Franjo Pavelić",
-     "slug": null,
+     "slug": "franjo-pavelic-2",
      "id": "@I512284@",
      "born": 1891,
      "died": 1891
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic",
      "id": "@I512285@",
      "born": 1892,
      "died": 1892
     },
     {
      "name": "Mate Pavelić",
-     "slug": null,
+     "slug": "mate-pavelic-3",
      "id": "@I512286@",
      "born": 1893,
      "died": 1896
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic",
      "id": "@I512287@",
      "born": 1896,
      "died": 1897
     },
     {
      "name": "Krešimir Pavelić",
-     "slug": null,
+     "slug": "kresimir-pavelic",
      "id": "@I512289@",
      "born": 1898,
      "died": 1960
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-2",
      "id": "@I512280@",
      "born": 1902,
      "died": 1905
@@ -112823,21 +114388,21 @@
     },
     {
      "name": "Zvonimir Pavelić",
-     "slug": null,
+     "slug": "zvonimir-pavelic",
      "id": "@I512282@",
      "born": 1906,
      "died": 1942
     },
     {
      "name": "Matija Pavelić",
-     "slug": null,
+     "slug": "matija-pavelic-3",
      "id": "@I512288@",
      "born": 1909,
      "died": 1909
     },
     {
      "name": "Anka Pavelić",
-     "slug": null,
+     "slug": "anka-pavelic-2",
      "id": "@I512283@",
      "born": 1910,
      "died": 1920
@@ -112943,7 +114508,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -113034,7 +114599,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -113146,7 +114711,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -113364,7 +114929,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -113529,7 +115094,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -113547,7 +115112,7 @@
    "children": [
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-9",
      "id": "@I512342@",
      "born": 1860,
      "died": 1915
@@ -113561,42 +115126,42 @@
     },
     {
      "name": "Katarina Pavelić",
-     "slug": null,
+     "slug": "katarina-pavelic",
      "id": "@I512343@",
      "born": 1864,
      "died": null
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic-2",
      "id": "@I512344@",
      "born": 1866,
      "died": null
     },
     {
      "name": "Grga Pavelić",
-     "slug": null,
+     "slug": "grga-pavelic",
      "id": "@I512345@",
      "born": 1868,
      "died": 1952
     },
     {
      "name": "Antonia Pavelić",
-     "slug": null,
+     "slug": "antonia-pavelic",
      "id": "@I512346@",
      "born": 1869,
      "died": null
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-5",
      "id": "@I512347@",
      "born": 1871,
      "died": null
     },
     {
      "name": "Lucija Pavelić",
-     "slug": null,
+     "slug": "lucija-pavelic-2",
      "id": "@I512348@",
      "born": 1877,
      "died": null
@@ -113643,7 +115208,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -113780,7 +115345,7 @@
     "note": "Godparents:Kum: Toma Tomljanović; Kuma: Marta Pavelić"
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -113798,35 +115363,35 @@
    "children": [
     {
      "name": "Franjo Pavelić",
-     "slug": null,
+     "slug": "franjo-pavelic-2",
      "id": "@I512284@",
      "born": 1891,
      "died": 1891
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic",
      "id": "@I512285@",
      "born": 1892,
      "died": 1892
     },
     {
      "name": "Mate Pavelić",
-     "slug": null,
+     "slug": "mate-pavelic-3",
      "id": "@I512286@",
      "born": 1893,
      "died": 1896
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic",
      "id": "@I512287@",
      "born": 1896,
      "died": 1897
     },
     {
      "name": "Krešimir Pavelić",
-     "slug": null,
+     "slug": "kresimir-pavelic",
      "id": "@I512289@",
      "born": 1898,
      "died": 1960
@@ -113840,7 +115405,7 @@
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-2",
      "id": "@I512280@",
      "born": 1902,
      "died": 1905
@@ -113854,82 +115419,208 @@
     },
     {
      "name": "Zvonimir Pavelić",
-     "slug": null,
+     "slug": "zvonimir-pavelic",
      "id": "@I512282@",
      "born": 1906,
      "died": 1942
     },
     {
      "name": "Matija Pavelić",
-     "slug": null,
+     "slug": "matija-pavelic-3",
      "id": "@I512288@",
      "born": 1909,
      "died": 1909
     },
     {
      "name": "Anka Pavelić",
-     "slug": null,
+     "slug": "anka-pavelic-2",
      "id": "@I512283@",
      "born": 1910,
      "died": 1920
     },
     {
      "name": "Milan Pavelić",
-     "slug": null,
+     "slug": "milan-pavelic",
      "id": "@I512273@",
      "born": 1878,
      "died": 1938
     },
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-8",
      "id": "@I512274@",
      "born": 1880,
      "died": null
     },
     {
      "name": "Lucija Pavelić",
-     "slug": null,
+     "slug": "lucija-pavelic",
      "id": "@I512275@",
      "born": 1881,
      "died": 1928
     },
     {
      "name": "Kata Pavelić",
-     "slug": null,
+     "slug": "kata-pavelic",
      "id": "@I512276@",
      "born": 1884,
      "died": 1886
     },
     {
      "name": "Matija Pavelić",
-     "slug": null,
+     "slug": "matija-pavelic-2",
      "id": "@I512277@",
      "born": 1884,
      "died": null
     },
     {
      "name": "Marko Pavelić",
-     "slug": null,
+     "slug": "marko-pavelic-6",
      "id": "@I512272@",
      "born": 1887,
      "died": 1968
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-4",
      "id": "@I512278@",
      "born": 1888,
      "died": null
     },
     {
      "name": "Mate Pavelić",
-     "slug": null,
+     "slug": "mate-pavelic-2",
      "id": "@I512279@",
      "born": 1890,
      "died": 1890
     }
    ]
+  }
+ },
+ {
+  "id": "@I512342@",
+  "slug": "marija-pavelic-9",
+  "name": "Marija Pavelić",
+  "given": "Marija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "28 FEB 1860",
+  "bornPlace": "Mrzli Dol 30, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "7 JUN 1915",
+  "diedPlace": "Mrzli Dol 29, Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "",
+  "burial": "Krivi Put, Općina Senj, Lika-Senj County, Croatia",
+  "baptised": "3 MAR 1860",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1860,
+  "dyear": 1915,
+  "sources": [
+   "Pavelić Web Site — Marija Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "28 FEB 1860",
+    "place": "Mrzli Dol 30, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "3 MAR 1860",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "7 JUN 1915",
+    "place": "Mrzli Dol 29, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
   }
  },
  {
@@ -113971,7 +115662,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114003,49 +115694,49 @@
    "siblings": [
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-9",
      "id": "@I512342@",
      "born": 1860,
      "died": 1915
     },
     {
      "name": "Katarina Pavelić",
-     "slug": null,
+     "slug": "katarina-pavelic",
      "id": "@I512343@",
      "born": 1864,
      "died": null
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic-2",
      "id": "@I512344@",
      "born": 1866,
      "died": null
     },
     {
      "name": "Grga Pavelić",
-     "slug": null,
+     "slug": "grga-pavelic",
      "id": "@I512345@",
      "born": 1868,
      "died": 1952
     },
     {
      "name": "Antonia Pavelić",
-     "slug": null,
+     "slug": "antonia-pavelic",
      "id": "@I512346@",
      "born": 1869,
      "died": null
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-5",
      "id": "@I512347@",
      "born": 1871,
      "died": null
     },
     {
      "name": "Lucija Pavelić",
-     "slug": null,
+     "slug": "lucija-pavelic-2",
      "id": "@I512348@",
      "born": 1877,
      "died": null
@@ -114061,61 +115752,677 @@
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-6",
      "id": "@I512349@",
      "born": 1888,
      "died": 1906
     },
     {
      "name": "Jure Pavelić",
-     "slug": null,
+     "slug": "jure-pavelic-3",
      "id": "@I512350@",
      "born": 1890,
      "died": 1964
     },
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-10",
      "id": "@I512351@",
      "born": 1891,
      "died": 1911
     },
     {
      "name": "Antonija Pavelić",
-     "slug": null,
+     "slug": "antonija-pavelic-3",
      "id": "@I512352@",
      "born": 1893,
      "died": 1904
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic-2",
      "id": "@I512353@",
      "born": 1895,
      "died": null
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-3",
      "id": "@I512354@",
      "born": 1897,
      "died": 1897
     },
     {
      "name": "Kata Pavelić",
-     "slug": null,
+     "slug": "kata-pavelic-2",
      "id": "@I512355@",
      "born": 1898,
      "died": 1904
     },
     {
      "name": "Dujo Pavelić",
-     "slug": null,
+     "slug": "dujo-pavelic-3",
      "id": "@I512356@",
      "born": 1904,
      "died": 1904
     }
    ]
+  }
+ },
+ {
+  "id": "@I512343@",
+  "slug": "katarina-pavelic",
+  "name": "Katarina Pavelić",
+  "given": "Katarina",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "14 APR 1864",
+  "bornPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "17 APR 1864",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Hrvatska",
+  "occupations": [],
+  "byear": 1864,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Katarina Pavelić (Prpić)"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "14 APR 1864",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "17 APR 1864",
+    "place": "Krivi Put, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512344@",
+  "slug": "ruza-pavelic-2",
+  "name": "Ruža Pavelić",
+  "given": "Ruža",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "28 MAR 1866",
+  "bornPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "30 MAR 1866",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1866,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Ruža Pavelić (Prpić)"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "28 MAR 1866",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "30 MAR 1866",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "30 MAR 1866",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512345@",
+  "slug": "grga-pavelic",
+  "name": "Grga Pavelić",
+  "given": "Grga",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "15 MAR 1868",
+  "bornPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "15 OCT 1952",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "Groblje Mirogoj, Zagreb, Hrvatska",
+  "baptised": "15 MAR 1868",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1868,
+  "dyear": 1952,
+  "sources": [
+   "Pavelić Web Site — Grga Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "15 MAR 1868",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "15 MAR 1868",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "15 MAR 1868",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "15 OCT 1952",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Groblje Mirogoj, Zagreb, Hrvatska",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512346@",
+  "slug": "antonia-pavelic",
+  "name": "Antonia Pavelić",
+  "given": "Antonia",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "20 FEB 1869",
+  "bornPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "21 FEB 1869",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1869,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Antonia Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "20 FEB 1869",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "21 FEB 1869",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "21 FEB 1869",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512347@",
+  "slug": "ivan-pavelic-5",
+  "name": "Ivan Pavelić",
+  "given": "Ivan",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "21 JUL 1871",
+  "bornPlace": "Mrzli Dol #30, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1871,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Ivan Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "21 JUL 1871",
+    "place": "Mrzli Dol #30, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic-2",
+     "id": "@I512348@",
+     "born": 1877,
+     "died": null
+    }
+   ],
+   "children": []
   }
  },
  {
@@ -114157,7 +116464,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114231,6 +116538,125 @@
   }
  },
  {
+  "id": "@I512348@",
+  "slug": "lucija-pavelic-2",
+  "name": "Lucija Pavelić",
+  "given": "Lucija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "9 MAY 1877",
+  "bornPlace": "Mrzli Dol #30, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "10 MAY 1877",
+  "baptisedPlace": "Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1877,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Lucija Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "9 MAY 1877",
+    "place": "Mrzli Dol #30, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "christening",
+    "date": "10 MAY 1877",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-2",
+     "id": "@I512340@",
+     "born": 1832,
+     "died": 1908
+    },
+    {
+     "name": "Antonia Tomljanović",
+     "slug": "antonia-tomljanovic",
+     "id": "@I512341@",
+     "born": 1831,
+     "died": 1897
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-9",
+     "id": "@I512342@",
+     "born": 1860,
+     "died": 1915
+    },
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Katarina Pavelić",
+     "slug": "katarina-pavelic",
+     "id": "@I512343@",
+     "born": 1864,
+     "died": null
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic-2",
+     "id": "@I512344@",
+     "born": 1866,
+     "died": null
+    },
+    {
+     "name": "Grga Pavelić",
+     "slug": "grga-pavelic",
+     "id": "@I512345@",
+     "born": 1868,
+     "died": 1952
+    },
+    {
+     "name": "Antonia Pavelić",
+     "slug": "antonia-pavelic",
+     "id": "@I512346@",
+     "born": 1869,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-5",
+     "id": "@I512347@",
+     "born": 1871,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508604@",
   "slug": "marija-pavelic-3",
   "name": "Marija Pavelić",
@@ -114276,7 +116702,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114344,6 +116770,158 @@
      "id": "@I508608@",
      "born": 1893,
      "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512273@",
+  "slug": "milan-pavelic",
+  "name": "Milan Pavelić",
+  "given": "Milan",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "30 NOV 1878",
+  "bornPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "died": "14 JUN 1938",
+  "diedPlace": "Zagreb, Grad Zagreb, Croatia",
+  "cause": "",
+  "burial": "Groblje Mirogoj, Zagreb, Hrvatska",
+  "baptised": "1 DEC 1878",
+  "baptisedPlace": "Gospa Snježne [Our Lady of Snow RC Church], Parish of Krivi Put, Lika-Senj, Croatia",
+  "occupations": [
+   {
+    "what": "Jesuit Priest",
+    "where": ""
+   }
+  ],
+  "byear": 1878,
+  "dyear": 1938,
+  "sources": [
+   "Pavelich Web Site — Rev. Milan Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "30 NOV 1878",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "14 JUN 1938",
+    "place": "Zagreb, Grad Zagreb, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Groblje Mirogoj, Zagreb, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "1 DEC 1878",
+    "place": "Gospa Snježne [Our Lady of Snow RC Church], Parish of Krivi Put, Lika-Senj, Croatia",
+    "detail": "Rite of Baptism celebrated by Rev. Father Šimon Serdoef, parish priest",
+    "note": "Godparents:Kum: Petar Perpić; Kuma: the girl, Ruža Perpić [daughter of] Mijat Perpić"
+   },
+   {
+    "kind": "education",
+    "date": "1898",
+    "place": "Senj, Croatia",
+    "detail": "graduated 'gymnasium'",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "1902",
+    "place": "Zagreb, Croatia",
+    "detail": "Studied theology in Zagreb.  Served as a chaplain in Bakar and Crikvenica, then as parish administrator in Krasno, and finally as a parish priest in Kompolje.",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "1911",
+    "place": "",
+    "detail": "Worked as an editor for Rijeka Newsletter.  Eventually he returned to the service as a catechist in Sušak, a confessor for the Sent seminary and for the Sisters of Mercy in Zagreb.",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "1924",
+    "place": "",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
     }
    ],
    "children": []
@@ -114430,7 +117008,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114504,6 +117082,258 @@
   }
  },
  {
+  "id": "@I512274@",
+  "slug": "marija-pavelic-8",
+  "name": "Marija Pavelić",
+  "given": "Marija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "21 FEB 1880",
+  "bornPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "22 FEB 1880",
+  "baptisedPlace": "Gospe Snježne [Our Lady of Snow RC Church]Krivi Put, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1880,
+  "dyear": null,
+  "sources": [
+   "Pavelich Web Site — Marija Pavelić, \"Markova/Dujela\" (Unknown)"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "21 FEB 1880",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "",
+    "place": "",
+    "detail": "Croatian",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "25 NOV 1906",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "22 FEB 1880",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church]Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": "Godparents:Kum: Mile Tomljanovć; Kuma: Ana Pavelić"
+   },
+   {
+    "kind": "event",
+    "date": "25 NOV 1906",
+    "place": "",
+    "detail": "per Stalis dusa Krivi Put",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "",
+    "place": "",
+    "detail": "left home young and lived on the river (per priest Milan Pavelich biography)",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512275@",
+  "slug": "lucija-pavelic",
+  "name": "Lucija Pavelić",
+  "given": "Lucija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "17 NOV 1881",
+  "bornPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "died": "1928",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "20 NOV 1881",
+  "baptisedPlace": "Mrzli Dol, Lika-Senj, Croatia",
+  "occupations": [],
+  "byear": 1881,
+  "dyear": 1928,
+  "sources": [
+   "Pavelich Web Site — Lucija Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "17 NOV 1881",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1928",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "baptism",
+    "date": "20 NOV 1881",
+    "place": "Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "https://familysearch.org/pal:/MM9.3.1/TH-1971-28345-12167-47?cc=2040054&wc=9R28-DP8:391644801,392355601,392355602 entry #115 godparents: Dujo Pavelic standing for Marko Filipovic & Marija Pavelic",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508601@",
   "slug": "franjo-pavelic",
   "name": "Franjo Pavelić",
@@ -114542,7 +117372,7 @@
     "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-5P54?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Deaths (Umrli) 1878-1934 > image 252 of 608; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114616,6 +117446,223 @@
   }
  },
  {
+  "id": "@I512276@",
+  "slug": "kata-pavelic",
+  "name": "Kata Pavelić",
+  "given": "Kata",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "17 SEP 1884",
+  "bornPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "died": "12 JAN 1886",
+  "diedPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "cause": "At young age",
+  "burial": "Our Lady of Snow Parish Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1884,
+  "dyear": 1886,
+  "sources": [
+   "Pavelich Web Site — Kata Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "17 SEP 1884",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "12 JAN 1886",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": "FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-55KN?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) &amp;gt; Krivi Put &amp;gt; Deaths (Umrli) 1878-1934 &amp;gt; image 103 of 608; Arhiva Hrvatske"
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Our Lady of Snow Parish Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512277@",
+  "slug": "matija-pavelic-2",
+  "name": "Matija Pavelić",
+  "given": "Matija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "17 SEP 1884",
+  "bornPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1884,
+  "dyear": null,
+  "sources": [
+   "Pavelich Web Site — Matija Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "17 SEP 1884",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I509433@",
   "slug": "marko-pavelic-2",
   "name": "Marko Pavelić",
@@ -114662,7 +117709,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114694,56 +117741,56 @@
    "siblings": [
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-6",
      "id": "@I512349@",
      "born": 1888,
      "died": 1906
     },
     {
      "name": "Jure Pavelić",
-     "slug": null,
+     "slug": "jure-pavelic-3",
      "id": "@I512350@",
      "born": 1890,
      "died": 1964
     },
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-10",
      "id": "@I512351@",
      "born": 1891,
      "died": 1911
     },
     {
      "name": "Antonija Pavelić",
-     "slug": null,
+     "slug": "antonija-pavelic-3",
      "id": "@I512352@",
      "born": 1893,
      "died": 1904
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic-2",
      "id": "@I512353@",
      "born": 1895,
      "died": null
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-3",
      "id": "@I512354@",
      "born": 1897,
      "died": 1897
     },
     {
      "name": "Kata Pavelić",
-     "slug": null,
+     "slug": "kata-pavelic-2",
      "id": "@I512355@",
      "born": 1898,
      "died": 1904
     },
     {
      "name": "Dujo Pavelić",
-     "slug": null,
+     "slug": "dujo-pavelic-3",
      "id": "@I512356@",
      "born": 1904,
      "died": 1904
@@ -114821,7 +117868,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -114927,6 +117974,440 @@
   }
  },
  {
+  "id": "@I512272@",
+  "slug": "marko-pavelic-6",
+  "name": "Marko Pavelić",
+  "given": "Marko",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "16 JAN 1887",
+  "bornPlace": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "18 SEP 1968",
+  "diedPlace": "Sault Ste. Marie, Algoma District, Ontario, Canada",
+  "cause": "",
+  "burial": "Holy Sepulchre Cemetery, Sault Ste. Marie, Algoma District, Ontario, Canada",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [
+   {
+    "what": "Farmer",
+    "where": ""
+   }
+  ],
+  "byear": 1887,
+  "dyear": 1968,
+  "sources": [
+   "Pavelich Web Site — Marko Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "16 JAN 1887",
+    "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "18 SEP 1968",
+    "place": "Sault Ste. Marie, Algoma District, Ontario, Canada",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Holy Sepulchre Cemetery, Sault Ste. Marie, Algoma District, Ontario, Canada",
+    "detail": "Holy Sepulchre Cemetery, Block E Lot 28S, Grave 4",
+    "note": ""
+   },
+   {
+    "kind": "immigration",
+    "date": "ABT 15 AUG 1913",
+    "place": "Trieste, Italy",
+    "detail": "Travelling aboard the vessel Kaiser Franz Josef, steerage. Passengers #96-104 & #107-120 all born in Hungary, Croatian ethnics. 96-104 destined for Lytton, BC and 107-120 to Sault Ste. Marie - all to be employed as farm labourers.",
+    "note": ""
+   },
+   {
+    "kind": "immigration",
+    "date": "30 AUG 1913",
+    "place": "Ellis Island, New York, USA",
+    "detail": "Arrival at Ellis Island, stated intent of travel via CP Railway to Sault Ste. Marie, ON, Canada as farm labourer",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "",
+    "place": "",
+    "detail": "Dujelini OR Dujela (latter inscribed as nadimak on grandfather's headstone)",
+    "note": ""
+   },
+   {
+    "kind": "census",
+    "date": "JUN 1921",
+    "place": "Korah Tp, Algoma West, Ontario, Canada",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "residence",
+    "date": "1 JUN 1921",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "naturalisation",
+    "date": "6 OCT 1922",
+    "place": "Sault Ste. Marie, Ontario, Algoma, Canada",
+    "detail": "Canadian Citizenship",
+    "note": ""
+   },
+   {
+    "kind": "residence",
+    "date": "1945",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "residence",
+    "date": "1 JUN 1931",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "",
+    "place": "Trieste, Italy",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "30 AUG 1913",
+    "place": "New York, New York, USA",
+    "detail": "Age 26 on the Kaiser Franz Josef departing from Trieste, Italy",
+    "note": ""
+   },
+   {
+    "kind": "residence",
+    "date": "JUN 1921",
+    "place": "",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512278@",
+  "slug": "ivan-pavelic-4",
+  "name": "Ivan Pavelić",
+  "given": "Ivan",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "16 MAY 1888",
+  "bornPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [
+   {
+    "what": "Chief of Police for Lika Province per my father Mark Pavelic. Ivan was his uncle.",
+    "where": "Krivi Put, Lika-Senj, Croatia"
+   },
+   {
+    "what": "Policeman.  See Status Annum Mrzli dol #14 p267 'oružnik'",
+    "where": ""
+   }
+  ],
+  "byear": 1888,
+  "dyear": null,
+  "sources": [
+   "Pavelich Web Site — Ivan Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "16 MAY 1888",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-2",
+     "id": "@I512279@",
+     "born": 1890,
+     "died": 1890
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512349@",
+  "slug": "ivan-pavelic-6",
+  "name": "Ivan Pavelić",
+  "given": "Ivan",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "26 MAR 1888",
+  "bornPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "died": "28 JUN 1906",
+  "diedPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "cause": "",
+  "burial": "Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1888,
+  "dyear": 1906,
+  "sources": [
+   "Pavelić Web Site — Ivan Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "26 MAR 1888",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "28 JUN 1906",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "29 JUN 1906",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508607@",
   "slug": "marta-pavelic-2",
   "name": "Marta Pavelić",
@@ -114958,7 +118439,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115084,7 +118565,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115165,6 +118646,783 @@
   }
  },
  {
+  "id": "@I512350@",
+  "slug": "jure-pavelic-3",
+  "name": "Jure Pavelić",
+  "given": "Jure",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "13 APR 1890",
+  "bornPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "1964",
+  "diedPlace": "Barcs, Hungary",
+  "cause": "",
+  "burial": "Barcs, Somogy, Hungary",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1890,
+  "dyear": 1964,
+  "sources": [
+   "Pavelić Web Site — Jure Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "13 APR 1890",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1964",
+    "place": "Barcs, Hungary",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "1964",
+    "place": "Barcs, Somogy, Hungary",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "21 SEP 1913",
+    "place": "",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512279@",
+  "slug": "mate-pavelic-2",
+  "name": "Mate Pavelić",
+  "given": "Mate",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "4 JAN 1890",
+  "bornPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "died": "4 JAN 1890",
+  "diedPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "cause": "Premature birth",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1890,
+  "dyear": 1890,
+  "sources": [
+   "Pavelich Web Site — Mate Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "4 JAN 1890",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": "The infant, Mate, lived 2 hours. Source: FamilySearch.org - Croatia, Church Books, 1516-1994 Roman Catholic (Rimokatolička crkva) Krivi Put Deaths (Umrli) 1878-1934"
+   },
+   {
+    "kind": "death",
+    "date": "4 JAN 1890",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": "Entry #4 - 04 Jan 1890 Mate Pavelic, baby. Father - Marko Pavelic. Mother - + Ana Pavelić rodj. Filipović (cross prior to name indicates he is deceased), peasants. Age at death - 2 hours. Officiant: Fr. Danij Barice."
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "Mate was buried 6/90 (June 1890) in the parish cemetery (Our Lady of Snow Catholic Church, Parish of Krivi Put) - Source: FamilySearch.org - Croatia, Church Books, 1516-1994 Roman Catholic (Rimokatolička crkva) Krivi Put Deaths (Umrli) 1878-1934",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Milan Pavelić",
+     "slug": "milan-pavelic",
+     "id": "@I512273@",
+     "born": 1878,
+     "died": 1938
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-8",
+     "id": "@I512274@",
+     "born": 1880,
+     "died": null
+    },
+    {
+     "name": "Lucija Pavelić",
+     "slug": "lucija-pavelic",
+     "id": "@I512275@",
+     "born": 1881,
+     "died": 1928
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic",
+     "id": "@I512276@",
+     "born": 1884,
+     "died": 1886
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-2",
+     "id": "@I512277@",
+     "born": 1884,
+     "died": null
+    },
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-6",
+     "id": "@I512272@",
+     "born": 1887,
+     "died": 1968
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "id": "@I512278@",
+     "born": 1888,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512284@",
+  "slug": "franjo-pavelic-2",
+  "name": "Franjo Pavelić",
+  "given": "Franjo",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "23 JAN 1891",
+  "bornPlace": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "24 APR 1891",
+  "diedPlace": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "Oganj - fever",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1891,
+  "dyear": 1891,
+  "sources": [
+   "Pavelich Web Site — Franjo Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "23 JAN 1891",
+    "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "24 APR 1891",
+    "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512351@",
+  "slug": "marija-pavelic-10",
+  "name": "Marija Pavelić",
+  "given": "Marija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "18 SEP 1891",
+  "bornPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "died": "10 NOV 1911",
+  "diedPlace": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "",
+  "burial": "Krivi Put, Općina Senj, Lika-Senj County, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1891,
+  "dyear": 1911,
+  "sources": [
+   "Pavelić Web Site — Marija Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "18 SEP 1891",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "10 NOV 1911",
+    "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "12 NOV 1911",
+    "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512285@",
+  "slug": "ruza-pavelic",
+  "name": "Ruža Pavelić",
+  "given": "Ruža",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "EST 1 FEB 1892",
+  "bornPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "died": "6 MAY 1892",
+  "diedPlace": "Mrzli Dol, br 14 Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "kasalj - cough [whooping cough?]",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1892,
+  "dyear": 1892,
+  "sources": [
+   "Pavelich Web Site — Ruža Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "EST 1 FEB 1892",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "6 MAY 1892",
+    "place": "Mrzli Dol, br 14 Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512352@",
+  "slug": "antonija-pavelic-3",
+  "name": "Antonija Pavelić",
+  "given": "Antonija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "3 JUN 1893",
+  "bornPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "died": "12 JAN 1904",
+  "diedPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "cause": "",
+  "burial": "Krivi Put, Lika-Senj, Hrvatska",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1893,
+  "dyear": 1904,
+  "sources": [
+   "Pavelić Web Site — Antonija Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "3 JUN 1893",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "12 JAN 1904",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "14 JAN 1904",
+    "place": "Krivi Put, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508608@",
   "slug": "jure-pavelic",
   "name": "Jure Pavelić",
@@ -115196,7 +119454,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115270,6 +119528,1063 @@
   }
  },
  {
+  "id": "@I512286@",
+  "slug": "mate-pavelic-3",
+  "name": "Mate Pavelić",
+  "given": "Mate",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "14 FEB 1893",
+  "bornPlace": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "10 FEB 1896",
+  "diedPlace": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "grlica - diptheria",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1893,
+  "dyear": 1896,
+  "sources": [
+   "Pavelich Web Site — Mate Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "14 FEB 1893",
+    "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "10 FEB 1896",
+    "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512353@",
+  "slug": "josip-pavelic-2",
+  "name": "Josip Pavelić",
+  "given": "Josip",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "18 MAR 1895",
+  "bornPlace": "Mrzli Dol, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "United States",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1895,
+  "dyear": null,
+  "sources": [
+   "Pavelić Web Site — Josip Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "18 MAR 1895",
+    "place": "Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "United States",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512287@",
+  "slug": "josip-pavelic",
+  "name": "Josip Pavelić",
+  "given": "Josip",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "6 JAN 1896",
+  "bornPlace": "Mrzli Dol 14, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "25 JUN 1897",
+  "diedPlace": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+  "cause": "kaslaj hripavac - whooping cough",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1896,
+  "dyear": 1897,
+  "sources": [
+   "Pavelich Web Site — Josip Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "6 JAN 1896",
+    "place": "Mrzli Dol 14, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "25 JUN 1897",
+    "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512354@",
+  "slug": "danica-pavelic-3",
+  "name": "Danica Pavelić",
+  "given": "Danica",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "JAN 1897",
+  "bornPlace": "Mrzli Dol #30, Lika-Senj, Hrvatska",
+  "died": "29 AUG 1897",
+  "diedPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "cause": "",
+  "burial": "Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1897,
+  "dyear": 1897,
+  "sources": [
+   "Pavelić Web Site — Danica Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "JAN 1897",
+    "place": "Mrzli Dol #30, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "29 AUG 1897",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "31 AUG 1897",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "Bračni drug: Marko Pavelić, MIŠKOV",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512355@",
+  "slug": "kata-pavelic-2",
+  "name": "Kata Pavelić",
+  "given": "Kata",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "24 JUN 1898",
+  "bornPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "died": "1 JAN 1904",
+  "diedPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "cause": "",
+  "burial": "Krivi Put, Lika-Senj, Hrvatska",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1898,
+  "dyear": 1904,
+  "sources": [
+   "Pavelić Web Site — Kata Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "24 JUN 1898",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1 JAN 1904",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "3 JAN 1904",
+    "place": "Krivi Put, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Dujo Pavelić",
+     "slug": "dujo-pavelic-3",
+     "id": "@I512356@",
+     "born": 1904,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512289@",
+  "slug": "kresimir-pavelic",
+  "name": "Krešimir Pavelić",
+  "given": "Krešimir",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "3 MAR 1898",
+  "bornPlace": "#14 Mrzli Dol, Lika-Senj, Croatia",
+  "died": "22 NOV 1960",
+  "diedPlace": "Zagreb, Grad Zagreb, Croatia",
+  "cause": "",
+  "burial": "Mirogoj, Zagreb, Grad Zagreb, City of Zagreb, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1898,
+  "dyear": 1960,
+  "sources": [
+   "Pavelich Web Site — Krešimir Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "3 MAR 1898",
+    "place": "#14 Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "22 NOV 1960",
+    "place": "Zagreb, Grad Zagreb, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Mirogoj, Zagreb, Grad Zagreb, City of Zagreb, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512280@",
+  "slug": "danica-pavelic-2",
+  "name": "Danica Pavelić",
+  "given": "Danica",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "1 JAN 1902",
+  "bornPlace": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "4 AUG 1905",
+  "diedPlace": "Mrzli Dol, br. 14, Lika-Senj, Croatia",
+  "cause": "susica - tuberculosis",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1902,
+  "dyear": 1905,
+  "sources": [
+   "Pavelich Web Site — Danica Pavelić, \"Markova/Dujela\""
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1 JAN 1902",
+    "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "4 AUG 1905",
+    "place": "Mrzli Dol, br. 14, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512356@",
+  "slug": "dujo-pavelic-3",
+  "name": "Dujo Pavelić",
+  "given": "Dujo",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "3 FEB 1904",
+  "bornPlace": "Mrzli Dol #30, Lika-Senj, Hrvatska",
+  "died": "24 AUG 1904",
+  "diedPlace": "Mrzli Dol, Lika-Senj, Hrvatska",
+  "cause": "",
+  "burial": "Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1904,
+  "dyear": 1904,
+  "sources": [
+   "Pavelić Web Site — Dujo Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "3 FEB 1904",
+    "place": "Mrzli Dol #30, Lika-Senj, Hrvatska",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "24 AUG 1904",
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "26 AUG 1904",
+    "place": "Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mihovil Pavelić",
+     "slug": "mihovil-pavelic-2",
+     "id": "@I511444@",
+     "born": 1862,
+     "died": 1939
+    },
+    {
+     "name": "Francika Blažević",
+     "slug": "francika-blazevic-3",
+     "id": "@I511443@",
+     "born": 1860,
+     "died": 1922
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-2",
+     "id": "@I509433@",
+     "born": 1885,
+     "died": 1962
+    },
+    {
+     "name": "Ivan Pavelić",
+     "slug": "ivan-pavelic-6",
+     "id": "@I512349@",
+     "born": 1888,
+     "died": 1906
+    },
+    {
+     "name": "Jure Pavelić",
+     "slug": "jure-pavelic-3",
+     "id": "@I512350@",
+     "born": 1890,
+     "died": 1964
+    },
+    {
+     "name": "Marija Pavelić",
+     "slug": "marija-pavelic-10",
+     "id": "@I512351@",
+     "born": 1891,
+     "died": 1911
+    },
+    {
+     "name": "Antonija Pavelić",
+     "slug": "antonija-pavelic-3",
+     "id": "@I512352@",
+     "born": 1893,
+     "died": 1904
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic-2",
+     "id": "@I512353@",
+     "born": 1895,
+     "died": null
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-3",
+     "id": "@I512354@",
+     "born": 1897,
+     "died": 1897
+    },
+    {
+     "name": "Kata Pavelić",
+     "slug": "kata-pavelic-2",
+     "id": "@I512355@",
+     "born": 1898,
+     "died": 1904
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I512088@",
   "slug": "marija-pavelic-6",
   "name": "Marija Pavelić",
@@ -115316,7 +120631,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115393,6 +120708,419 @@
   }
  },
  {
+  "id": "@I512282@",
+  "slug": "zvonimir-pavelic",
+  "name": "Zvonimir Pavelić",
+  "given": "Zvonimir",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "19 SEP 1906",
+  "bornPlace": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+  "died": "1942",
+  "diedPlace": "Bilac, Modruš, Karlovačka Županija, Croatia",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1906,
+  "dyear": 1942,
+  "sources": [
+   "Pavelich Web Site — Zvonimir Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "19 SEP 1906",
+    "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1942",
+    "place": "Bilac, Modruš, Karlovačka Županija, Croatia",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512288@",
+  "slug": "matija-pavelic-3",
+  "name": "Matija Pavelić",
+  "given": "Matija",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "M",
+  "born": "13 FEB 1909",
+  "bornPlace": "Mrzli Dol 14, Lika-Senj, Croatia",
+  "died": "19 FEB 1909",
+  "diedPlace": "Mrzli Dol 14, Lika-Senj, Croatia",
+  "cause": "kasalj - cough",
+  "burial": "Cemetery of Gospa Snježna  (Our Lady of Snow) Roman Catholic Church in the parish of Krivi Put",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1909,
+  "dyear": 1909,
+  "sources": [
+   "Pavelich Web Site — Matija Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "13 FEB 1909",
+    "place": "Mrzli Dol 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "19 FEB 1909",
+    "place": "Mrzli Dol 14, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Cemetery of Gospa Snježna  (Our Lady of Snow) Roman Catholic Church in the parish of Krivi Put",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Anka Pavelić",
+     "slug": "anka-pavelic-2",
+     "id": "@I512283@",
+     "born": 1910,
+     "died": 1920
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512283@",
+  "slug": "anka-pavelic-2",
+  "name": "Anka Pavelić",
+  "given": "Anka",
+  "surname": "Pavelić",
+  "nick": "",
+  "sex": "F",
+  "born": "6 JUL 1910",
+  "bornPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "died": "2 SEP 1920",
+  "diedPlace": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+  "cause": "upala gr'la = pneumonia",
+  "burial": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1910,
+  "dyear": 1920,
+  "sources": [
+   "Pavelich Web Site — Anka Pavelić"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "6 JUL 1910",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "2 SEP 1920",
+    "place": "Mrzli Dol br. 14, Lika-Senj, Croatia",
+    "detail": "Y",
+    "note": ""
+   },
+   {
+    "kind": "burial",
+    "date": "",
+    "place": "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "family": "pavelic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Marko Pavelić",
+     "slug": "marko-pavelic-4",
+     "id": "@I512270@",
+     "born": 1855,
+     "died": 1932
+    },
+    {
+     "name": "Ana Prpić",
+     "slug": "ana-prpic-3",
+     "id": "@I512271@",
+     "born": 1867,
+     "died": 1945
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Franjo Pavelić",
+     "slug": "franjo-pavelic-2",
+     "id": "@I512284@",
+     "born": 1891,
+     "died": 1891
+    },
+    {
+     "name": "Ruža Pavelić",
+     "slug": "ruza-pavelic",
+     "id": "@I512285@",
+     "born": 1892,
+     "died": 1892
+    },
+    {
+     "name": "Mate Pavelić",
+     "slug": "mate-pavelic-3",
+     "id": "@I512286@",
+     "born": 1893,
+     "died": 1896
+    },
+    {
+     "name": "Josip Pavelić",
+     "slug": "josip-pavelic",
+     "id": "@I512287@",
+     "born": 1896,
+     "died": 1897
+    },
+    {
+     "name": "Krešimir Pavelić",
+     "slug": "kresimir-pavelic",
+     "id": "@I512289@",
+     "born": 1898,
+     "died": 1960
+    },
+    {
+     "name": "Zora Pavelich",
+     "slug": "zora-pavelich",
+     "id": "@I511430@",
+     "born": 1900,
+     "died": 1990
+    },
+    {
+     "name": "Danica Pavelić",
+     "slug": "danica-pavelic-2",
+     "id": "@I512280@",
+     "born": 1902,
+     "died": 1905
+    },
+    {
+     "name": "Vjerica Pavelić \"MarkovaDujela\"",
+     "slug": null,
+     "id": "@I512281@",
+     "born": 1903,
+     "died": 1985
+    },
+    {
+     "name": "Zvonimir Pavelić",
+     "slug": "zvonimir-pavelic",
+     "id": "@I512282@",
+     "born": 1906,
+     "died": 1942
+    },
+    {
+     "name": "Matija Pavelić",
+     "slug": "matija-pavelic-3",
+     "id": "@I512288@",
+     "born": 1909,
+     "died": 1909
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I512104@",
   "slug": "ana-pavelic-3",
   "name": "Ana Pavelić",
@@ -115431,7 +121159,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -115503,7 +121231,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115611,7 +121339,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115695,7 +121423,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115786,7 +121514,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -115848,7 +121576,7 @@
   ],
   "notes": [],
   "events": [],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -115933,7 +121661,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116059,7 +121787,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116185,7 +121913,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116304,7 +122032,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116430,7 +122158,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116556,7 +122284,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -116682,7 +122410,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "pavelic",
   "rel": {
    "parents": [
     {
@@ -123998,7 +129726,7 @@
    "spouses": [
     {
      "name": "Mate Pavelic",
-     "slug": null,
+     "slug": "mate-pavelic",
      "id": "@I508522@",
      "born": 1865,
      "died": null,
@@ -124468,7 +130196,7 @@
    "spouses": [
     {
      "name": "Mile Pavelic",
-     "slug": null,
+     "slug": "mile-pavelic-2",
      "id": "@I508510@",
      "born": 1862,
      "died": null,
@@ -124956,7 +130684,7 @@
    "spouses": [
     {
      "name": "Mandalena Krmpotic",
-     "slug": null,
+     "slug": "mandalena-krmpotic",
      "id": "@I508545@",
      "born": 1866,
      "died": null,
@@ -135283,35 +141011,35 @@
    "children": [
     {
      "name": "Franjo Pavelić",
-     "slug": null,
+     "slug": "franjo-pavelic-2",
      "id": "@I512284@",
      "born": 1891,
      "died": 1891
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic",
      "id": "@I512285@",
      "born": 1892,
      "died": 1892
     },
     {
      "name": "Mate Pavelić",
-     "slug": null,
+     "slug": "mate-pavelic-3",
      "id": "@I512286@",
      "born": 1893,
      "died": 1896
     },
     {
      "name": "Josip Pavelić",
-     "slug": null,
+     "slug": "josip-pavelic",
      "id": "@I512287@",
      "born": 1896,
      "died": 1897
     },
     {
      "name": "Krešimir Pavelić",
-     "slug": null,
+     "slug": "kresimir-pavelic",
      "id": "@I512289@",
      "born": 1898,
      "died": 1960
@@ -135325,7 +141053,7 @@
     },
     {
      "name": "Danica Pavelić",
-     "slug": null,
+     "slug": "danica-pavelic-2",
      "id": "@I512280@",
      "born": 1902,
      "died": 1905
@@ -135339,21 +141067,21 @@
     },
     {
      "name": "Zvonimir Pavelić",
-     "slug": null,
+     "slug": "zvonimir-pavelic",
      "id": "@I512282@",
      "born": 1906,
      "died": 1942
     },
     {
      "name": "Matija Pavelić",
-     "slug": null,
+     "slug": "matija-pavelic-3",
      "id": "@I512288@",
      "born": 1909,
      "died": 1909
     },
     {
      "name": "Anka Pavelić",
-     "slug": null,
+     "slug": "anka-pavelic-2",
      "id": "@I512283@",
      "born": 1910,
      "died": 1920
@@ -135419,7 +141147,7 @@
    "spouses": [
     {
      "name": "Juro Pavelic",
-     "slug": null,
+     "slug": "juro-pavelic",
      "id": "@I508472@",
      "born": 1859,
      "died": null,
@@ -144569,6 +150297,62 @@
   }
  },
  {
+  "id": "@I506389@",
+  "slug": "karelina-skota",
+  "name": "Karelina Skota",
+  "given": "Karelina",
+  "surname": "Skota",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": null,
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Ivan Babic",
+     "slug": "ivan-babic",
+     "id": "@I504991@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Ginro Babic",
+     "slug": "ginro-babic",
+     "id": "@I504990@",
+     "born": 1890,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I509429@",
   "slug": "juraj-slonjsak",
   "name": "Juraj Slonjšak",
@@ -145611,6 +151395,218 @@
   }
  },
  {
+  "id": "@I512700@",
+  "slug": "elias-tomljanovic",
+  "name": "Elias Tomljanovic",
+  "given": "Elias",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "1840",
+  "bornPlace": "Krivi Put",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1840,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1840",
+    "place": "Krivi Put",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Tomljanovic",
+     "slug": "tomljanovic",
+     "id": "@I512715@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Vincentia Catharina Kalanj",
+     "slug": "vincentia-catharina-kalanj",
+     "id": "@I512699@",
+     "born": 1842,
+     "died": null,
+     "marriedDate": "SEP 1866",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Maria Tomljanovic",
+     "slug": "maria-tomljanovic",
+     "id": "@I512717@",
+     "born": 1847,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I512717@",
+  "slug": "maria-tomljanovic",
+  "name": "Maria Tomljanovic",
+  "given": "Maria",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "1847",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1847,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1847",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Tomljanovic",
+     "slug": "tomljanovic",
+     "id": "@I512715@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Miles Martinus Miletic",
+     "slug": null,
+     "id": "@I512718@",
+     "born": 1846,
+     "died": null,
+     "marriedDate": "OCT 1873",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Elias Tomljanovic",
+     "slug": "elias-tomljanovic",
+     "id": "@I512700@",
+     "born": 1840,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
+  "id": "@I508496@",
+  "slug": "luce-tomljanovic",
+  "name": "Luce Tomljanovic",
+  "given": "Luce",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "1866",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1866,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1866",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Franjo Tomljanovic",
+     "slug": "franjo-tomljanovic-2",
+     "id": "@I508497@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Ane",
+     "slug": "ane",
+     "id": "@I508498@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Nikola Blažević",
+     "slug": "nikola-blazevic-2",
+     "id": "@I508495@",
+     "born": null,
+     "died": null,
+     "marriedDate": "1886",
+     "marriedPlace": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
   "id": "@I506403@",
   "slug": "franjo-tomljanovic",
   "name": "Franjo Tomljanovic",
@@ -145647,7 +151643,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [
     {
@@ -145689,6 +151685,76 @@
   }
  },
  {
+  "id": "@I504993@",
+  "slug": "matijo-tomljanovic",
+  "name": "Matijo Tomljanovic",
+  "given": "Matijo",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "19 FEB 1876",
+  "bornPlace": "Br 18, Mrzli Dol, Lika-Senj, Croatia",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1876,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "19 FEB 1876",
+    "place": "Br 18, Mrzli Dol, Lika-Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Mijo Tomljanovic",
+     "slug": "mijo-tomljanovic",
+     "id": "@I508833@",
+     "born": null,
+     "died": null
+    },
+    {
+     "name": "Francika",
+     "slug": "francika-2",
+     "id": "@I508834@",
+     "born": null,
+     "died": null
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Marija Papić",
+     "slug": "marija-papic",
+     "id": "@I504992@",
+     "born": 1885,
+     "died": 1981,
+     "marriedDate": "10 SEP 1911",
+     "marriedPlace": "Senj, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
   "id": "@I508393@",
   "slug": "matija-tomljanovic",
   "name": "Matija Tomljanovic",
@@ -145725,7 +151791,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [
     {
@@ -145785,7 +151851,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [
     {
@@ -145806,6 +151872,134 @@
    "spouses": [],
    "siblings": [],
    "children": []
+  }
+ },
+ {
+  "id": "@I506417@",
+  "slug": "ana-tomljanovic-3",
+  "name": "Ana Tomljanovic",
+  "given": "Ana",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "1 JAN 1899",
+  "bornPlace": "",
+  "died": "1978",
+  "diedPlace": "Senj",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1899,
+  "dyear": 1978,
+  "sources": [
+   "Grlica Web Site — https://www.myheritage.com/person-1500138_OYYV6NN54IMLYQ7PR6E7QYU2YSRQCWI_OYYV6NN54IMLYQ7PR6E7QYU2YSRQCWI/ana-tomljanovic"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1 JAN 1899",
+    "place": "",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1978",
+    "place": "Senj",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Mihovil Tomljanovic",
+     "slug": "mihovil-tomljanovic",
+     "id": "@I506416@",
+     "born": 1901,
+     "died": 1941,
+     "marriedDate": "10 AUG 1924",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "withheld": true
+    },
+    {
+     "withheld": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I506416@",
+  "slug": "mihovil-tomljanovic",
+  "name": "Mihovil Tomljanovic",
+  "given": "Mihovil",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "1901",
+  "bornPlace": "Podbila",
+  "died": "1941",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1901,
+  "dyear": 1941,
+  "sources": [
+   "Grlica Web Site — https://www.myheritage.com/person-1500144_OYYV6NN54IMLYQ7PR6E7QYU2YSRQCWI_OYYV6NN54IMLYQ7PR6E7QYU2YSRQCWI/mihovil-tomljanovic"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "1901",
+    "place": "Podbila",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "1941",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Ana Tomljanovic",
+     "slug": "ana-tomljanovic-3",
+     "id": "@I506417@",
+     "born": 1899,
+     "died": 1978,
+     "marriedDate": "10 AUG 1924",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "withheld": true
+    },
+    {
+     "withheld": true
+    }
+   ]
   }
  },
  {
@@ -145838,7 +152032,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -145894,7 +152088,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -145956,6 +152150,62 @@
   }
  },
  {
+  "id": "@I508512@",
+  "slug": "anta-tomljanovic",
+  "name": "Anta? Tomljanovic",
+  "given": "Anta?",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Juka? Pavelic",
+     "slug": "juka-pavelic",
+     "id": "@I508511@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Mile Pavelic",
+     "slug": "mile-pavelic-2",
+     "id": "@I508510@",
+     "born": 1862,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I508482@",
   "slug": "ante-tomljanovic",
   "name": "Ante Tomljanovic",
@@ -145985,7 +152235,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146007,6 +152257,62 @@
      "id": "@I508480@",
      "born": 1862,
      "died": 1939
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I508497@",
+  "slug": "franjo-tomljanovic-2",
+  "name": "Franjo Tomljanovic",
+  "given": "Franjo",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Ane",
+     "slug": "ane",
+     "id": "@I508498@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Luce Tomljanovic",
+     "slug": "luce-tomljanovic",
+     "id": "@I508496@",
+     "born": 1866,
+     "died": null
     }
    ]
   }
@@ -146048,7 +152354,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146104,7 +152410,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146138,6 +152444,110 @@
   }
  },
  {
+  "id": "@I506427@",
+  "slug": "lucija-tomljanovic",
+  "name": "Lucija Tomljanovic",
+  "given": "Lucija",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Mate Matijovic",
+     "slug": null,
+     "id": "@I506426@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Victor Matijovic",
+     "slug": null,
+     "id": "@I504983@",
+     "born": 1886,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I509149@",
+  "slug": "mandom-tomljanovic",
+  "name": "Mandom Tomljanovic",
+  "given": "Mandom",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "F",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Josip Papić",
+     "slug": "josip-papic",
+     "id": "@I506385@",
+     "born": 1890,
+     "died": null,
+     "marriedDate": "1929",
+     "marriedPlace": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ],
+   "siblings": [],
+   "children": []
+  }
+ },
+ {
   "id": "@I508308@",
   "slug": "marija-tomljanovic-2",
   "name": "Marija Tomljanovic",
@@ -146167,7 +152577,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146222,6 +152632,62 @@
   }
  },
  {
+  "id": "@I508833@",
+  "slug": "mijo-tomljanovic",
+  "name": "Mijo Tomljanovic",
+  "given": "Mijo",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [
+    {
+     "name": "Francika",
+     "slug": "francika-2",
+     "id": "@I508834@",
+     "born": null,
+     "died": null,
+     "marriedDate": "",
+     "marriedPlace": ""
+    }
+   ],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Matijo Tomljanovic",
+     "slug": "matijo-tomljanovic",
+     "id": "@I504993@",
+     "born": 1876,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
   "id": "@I511603@",
   "slug": "toma-tomljanovic",
   "name": "Toma Tomljanovic",
@@ -146251,7 +152717,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146272,6 +152738,51 @@
      "slug": "franjo-tomljanovic",
      "id": "@I506403@",
      "born": 1870,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I512715@",
+  "slug": "tomljanovic",
+  "name": "Tomljanovic",
+  "given": "",
+  "surname": "Tomljanovic",
+  "nick": "",
+  "sex": "M",
+  "born": "",
+  "bornPlace": "",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": null,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [],
+  "family": "tomljanovic",
+  "rel": {
+   "parents": [],
+   "spouses": [],
+   "siblings": [],
+   "children": [
+    {
+     "name": "Elias Tomljanovic",
+     "slug": "elias-tomljanovic",
+     "id": "@I512700@",
+     "born": 1840,
+     "died": null
+    },
+    {
+     "name": "Maria Tomljanovic",
+     "slug": "maria-tomljanovic",
+     "id": "@I512717@",
+     "born": 1847,
      "died": null
     }
    ]
@@ -146316,7 +152827,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146334,7 +152845,7 @@
    "children": [
     {
      "name": "Marija Pavelić",
-     "slug": null,
+     "slug": "marija-pavelic-9",
      "id": "@I512342@",
      "born": 1860,
      "died": 1915
@@ -146348,42 +152859,42 @@
     },
     {
      "name": "Katarina Pavelić",
-     "slug": null,
+     "slug": "katarina-pavelic",
      "id": "@I512343@",
      "born": 1864,
      "died": null
     },
     {
      "name": "Ruža Pavelić",
-     "slug": null,
+     "slug": "ruza-pavelic-2",
      "id": "@I512344@",
      "born": 1866,
      "died": null
     },
     {
      "name": "Grga Pavelić",
-     "slug": null,
+     "slug": "grga-pavelic",
      "id": "@I512345@",
      "born": 1868,
      "died": 1952
     },
     {
      "name": "Antonia Pavelić",
-     "slug": null,
+     "slug": "antonia-pavelic",
      "id": "@I512346@",
      "born": 1869,
      "died": null
     },
     {
      "name": "Ivan Pavelić",
-     "slug": null,
+     "slug": "ivan-pavelic-5",
      "id": "@I512347@",
      "born": 1871,
      "died": null
     },
     {
      "name": "Lucija Pavelić",
-     "slug": null,
+     "slug": "lucija-pavelic-2",
      "id": "@I512348@",
      "born": 1877,
      "died": null
@@ -146437,7 +152948,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [
@@ -146565,7 +153076,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [
     {
@@ -146636,7 +153147,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "tomljanovic",
   "rel": {
    "parents": [],
    "spouses": [],
@@ -147456,7 +153967,7 @@
    "children": [
     {
      "name": "Marta Pavelic",
-     "slug": null,
+     "slug": "marta-pavelic-4",
      "id": "@I509766@",
      "born": 1846,
      "died": 1914
@@ -147699,7 +154210,7 @@
    "spouses": [
     {
      "name": "Ivan Babic",
-     "slug": null,
+     "slug": "ivan-babic",
      "id": "@I504991@",
      "born": null,
      "died": null,
@@ -147711,7 +154222,7 @@
    "children": [
     {
      "name": "Jacov Babic",
-     "slug": null,
+     "slug": "jacov-babic",
      "id": "@I506388@",
      "born": 1889,
      "died": null
@@ -147811,7 +154322,7 @@
    "spouses": [
     {
      "name": "Joso Pavelic",
-     "slug": null,
+     "slug": "joso-pavelic",
      "id": "@I508477@",
      "born": null,
      "died": null,
@@ -147823,7 +154334,7 @@
    "children": [
     {
      "name": "Tome Pavelic",
-     "slug": null,
+     "slug": "tome-pavelic",
      "id": "@I508476@",
      "born": 1862,
      "died": null
@@ -152126,7 +158637,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [],
    "spouses": [
@@ -152189,7 +158700,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152264,7 +158775,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152339,7 +158850,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152414,7 +158925,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152496,7 +159007,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152564,7 +159075,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152646,7 +159157,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152714,7 +159225,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152796,7 +159307,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152864,7 +159375,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -152932,7 +159443,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [
     {
@@ -153017,7 +159528,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [],
    "spouses": [
@@ -153087,7 +159598,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [],
    "spouses": [
@@ -153150,7 +159661,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [],
    "spouses": [
@@ -153227,7 +159738,7 @@
     "note": ""
    }
   ],
-  "family": null,
+  "family": "spalj",
   "rel": {
    "parents": [],
    "spouses": [

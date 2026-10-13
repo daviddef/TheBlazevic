@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Families from "@daviddef/archive-kit/components/Families.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
+import { COPY } from "../lib/familyCopy.js";
 import { householdsOf, familyKeys } from "../lib/households.js";
 
 /* 22 September 2026. The card is the kit's. What this archive can put behind
@@ -12,8 +13,10 @@ import { householdsOf, familyKeys } from "../lib/households.js";
    draws the marriages generation by generation. Three archives, one
    argument, three kinds of evidence, and the component requires none of them.
 
-   The four that ARE Hedviga's grandparents link to their own pages and the
-   four that married in do not, because only the first four have one. */
+   Every family with a page links to it. That used to be only the first four,
+   and the other four had pages for weeks that nothing on this index pointed
+   to; on 14 October 2026 five more were added and the link now follows the
+   page, not a hand-kept list. */
 const OURS = ["blazevic", "zubrinic", "papic", "prpic"];
 /* THE INDEX COUNTED PEOPLE AND SAID NOTHING ABOUT COUPLES. Each family
    page now draws its households — fifty-seven on Papić — and the index
@@ -26,8 +29,8 @@ const HH = Object.fromEntries(
 const groups = [{
   rows: families.map((f) => ({
     label: f.label,
-    href: OURS.includes(f.slug) ? `/${f.slug}/` : null,
-    hrefLabel: OURS.includes(f.slug) ? "The family" : null,
+    href: COPY[f.slug] ? `/${f.slug}/` : null,
+    hrefLabel: COPY[f.slug] ? "The family" : null,
     gloss: f.dek,
     count: f.count,
     countLabel: "people",
@@ -41,17 +44,19 @@ const groups = [{
 }];
 ---
 <Base title="The Families"
-  eyebrow="Eight surnames"
-  dek="The four that make Hedviga's grandparents, and four more that married into them. Counts are of published people only — the living are not here."
+  eyebrow="Thirteen surnames"
+  dek="The four that make Hedviga's grandparents, and nine more that married into them or sit beside them in the registers. Counts are of published people only — the living are not here."
 >
   <section class="blk">
     <Families groups={groups} u={u} html={false} />
   </section>
   <section class="blk">
-    <p class="note">Kalanj, Vukelić, Boras and Šestan are here because they married into the line
-    and because the tree carries them in bulk — <strong>213 Kalanj</strong> alone, nearly all of
-    them at <strong>Klenovica</strong> and <strong>Povile</strong> on the Vinodol coast. They are
-    not ancestors of Hedviga in every case; they are the surrounding world.
+    <p class="note">The nine after the first four are here because they married into the line
+    and because the tree or the Senj registers carry them in bulk — <strong>{families.find((f) => f.slug === "kalanj").count} Kalanj</strong> alone, nearly all of
+    them at <strong>Klenovica</strong> and <strong>Povile</strong> on the Vinodol coast.
+    Pavelić, Tomljanović, Krmpotić, Babić and Špalj are the newest: each is built from the tree
+    and from the Senj marriage-and-death volume read in October 2026, and Tomljanović holds
+    ahnentafel 111. Most are not ancestors of Hedviga; they are the surrounding world.
     <a href={u("/people/")}>The full register →</a></p>
   </section>
 </Base>

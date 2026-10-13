@@ -1073,7 +1073,7 @@
    "slug": "zora-pavelich",
    "what": "Secretary",
    "english": "",
-   "family": null,
+   "family": "pavelic",
    "place": "",
    "year": "",
    "source": "family tree",
@@ -1084,7 +1084,7 @@
    "slug": "marko-pavelic-4",
    "what": "Farmer",
    "english": "",
-   "family": null,
+   "family": "pavelic",
    "place": "Mrzli Dol br. 14",
    "year": "",
    "source": "family tree",
@@ -1095,7 +1095,51 @@
    "slug": "marko-pavelic-4",
    "what": "Casket maker per Mary Diderich phone conv June 18 2016",
    "english": "",
-   "family": null,
+   "family": "pavelic",
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Milan Pavelić",
+   "slug": "milan-pavelic",
+   "what": "Jesuit Priest",
+   "english": "",
+   "family": "pavelic",
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Marko Pavelić",
+   "slug": "marko-pavelic-6",
+   "what": "Farmer",
+   "english": "",
+   "family": "pavelic",
+   "place": "",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Ivan Pavelić",
+   "slug": "ivan-pavelic-4",
+   "what": "Chief of Police for Lika Province per my father Mark Pavelic. Ivan was his uncle.",
+   "english": "",
+   "family": "pavelic",
+   "place": "Krivi Put, Lika-Senj, Croatia",
+   "year": "",
+   "source": "family tree",
+   "from": "tree"
+  },
+  {
+   "who": "Ivan Pavelić",
+   "slug": "ivan-pavelic-4",
+   "what": "Policeman.  See Status Annum Mrzli dol #14 p267 'oružnik'",
+   "english": "",
+   "family": "pavelic",
    "place": "",
    "year": "",
    "source": "family tree",
@@ -1191,8 +1235,8 @@
   }
  ],
  "fromRegister": 76,
- "fromTree": 39,
- "published": 1833,
+ "fromTree": 43,
+ "published": 1904,
  "strata": [
   {
    "name": "Karlobag — the port town",
@@ -1341,8 +1385,19 @@
   {
    "name": "The hill villages — Krmpote, Smokvica, Krivi Put",
    "blurb": "Seljaci and težaci, almost without exception. Where a register gives anything else it is usually the household, not the man.",
-   "n": 9,
+   "n": 10,
    "rows": [
+    {
+     "who": "Ivan Pavelić",
+     "slug": "ivan-pavelic-4",
+     "what": "Chief of Police for Lika Province per my father Mark Pavelic. Ivan was his uncle.",
+     "english": "",
+     "family": "pavelic",
+     "place": "Krivi Put, Lika-Senj, Croatia",
+     "year": "",
+     "source": "family tree",
+     "from": "tree"
+    },
     {
      "who": "Joannis \"Ivan\" Perpić",
      "slug": "joannis-perpic",
@@ -2025,6 +2080,6 @@
    ]
   }
  ],
- "placed": 79,
- "unplaced": 36
+ "placed": 80,
+ "unplaced": 39
 }

@@ -5,7 +5,7 @@ The place list carries only a name and a count. The names of the people come
 from people.json, which records a birthplace for 611 of its 1,245 — and every
 one of those carries a slug, so each name on the map links to its own page.
 """
-import json, os, re, sys
+import json, os, re, sys, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "site", "node_modules",
                                 "@daviddef", "archive-kit", "kit", "tools"))
@@ -88,7 +88,10 @@ def local_gazetteer(gaz, names):
 # places.json (which comes from the tree) has no row for them. People are the
 # FOUND people, beside the tree, and link to their /found/ pages.
 EXTRA = [
-    ("Brinje, Croatia", r"\bBrinje\b", "Brinje, Lika-Senj, Croatia: the parish whose 1888-1899 births, marriages and deaths were read for Kalanj, Boric and Perkovic."),
+    ("Brinje, Croatia", r"\bBrinje\b|^(Križ )?Kamenica|^Lu[čc]ane|^Pla[šs][ćc]ica", "Brinje, Lika-Senj, Croatia: the parish whose 1888-1899 births, marriages and deaths were read for Kalanj, Boric and Perkovic. The readings are filed under its villages — Kamenica, Lučane, Plašćica — and all are gathered here."),
+    ("Šibenik, Croatia", r"^Šibenik", "Šibenik, Dalmatia: the cathedral parish's births 1737-1768, read for the Uroda of Šibenik — a dead man of the name whom no document joins to the Karlobag family."),
+    ("Pag, Croatia", r"^Pag\b", "Pag, on its island: the deaths register (DGS 005494123, item 2), one reading — an Angelus Bacchi of Pag."),
+    ("Drniš, Croatia", r"^Drni[šs]", "Drniš, Dalmatia: the baptisms, one reading — a corporal named Pompeo Uroda, a soldier's family."),
     ("Nova Oselica, Slovenia", r"Nova Oselica|Neuosliz|Oslic", "Nova Oselica, Poljane valley, Slovenia: Ursula Sedej's parish, on Matricula."),
     ("Zgornje Bitnje, Slovenia", r"Bitnj|Bitno|Oberfeichting|Kranj.?.martin", "Zgornje Bitnje (Oberfeichting), near Kranj, Slovenia: the Kosina house, in the parish of Kranj-Smartin, on Matricula."),
 ]
@@ -124,15 +127,42 @@ def main():
         if p and r.get("name"):
             who.setdefault(p, []).append(r)
     rows = []
+    # ONE ROW PER PLACE, NOT PER SPELLING. The tree writes Karlobag three ways
+    # and Mrzli Dol fifteen (with and without a house number), and each
+    # spelling used to become its own page: karlobag, karlobag-2, karlobag-3.
+    # They are grouped here on the village name with the house number and the
+    # county stripped off, and the people and counts are summed.
+    def base(n):
+        n = str(n).split(",")[0]
+        n = re.sub(r"#\s*\d+|\bbr\.?\s*\d+|\bkbr\.?\s*\d+", "", n, flags=re.I)
+        n = re.sub(r"^\s*\d+\s+|\s+\d+\s*$", "", n)
+        n = unicodedata.normalize("NFD", n.lower()).encode("ascii", "ignore").decode()
+        n = re.sub(r"\s+", " ", n).strip()
+        return re.sub(r"^(\w[\w ]*?) croatia$", r"\1", n)
+
+    def clean(n):
+        n = re.sub(r"#\s*\d+|\bbr\.?\s*\d+|\bkbr\.?\s*\d+", "", n.split(",")[0], flags=re.I)
+        n = re.sub(r"^\s*\d+\s+|\s+\d+\s*$", "", n)
+        return re.sub(r"\s+", " ", n).strip()
+
+    groups = {}
     for p in places:
-        name = p["place"]
-        ppl = who.get(name, [])
+        groups.setdefault(base(p["place"]), []).append(p)
+    for key, ps in groups.items():
+        ps = sorted(ps, key=lambda q: -(q.get("n") or 0))
+        ppl, seen = [], set()
+        for q in ps:
+            for x in who.get(q["place"], []):
+                if x.get("slug") not in seen:
+                    seen.add(x.get("slug")); ppl.append(x)
+        name = next((q["place"] for q in ps if G.find(q["place"], gaz)), ps[0]["place"])
+        shown = min(ps, key=lambda q: (bool(re.search(r"[#\d]", q["place"].split(",")[0])), -(q.get("n") or 0)))
         hit = G.find(name, gaz)
-        key = (round(hit["lat"], 4), round(hit["lon"], 4)) if hit else None
-        f = list(films.get(key, {}).values())
+        key_c = (round(hit["lat"], 4), round(hit["lon"], 4)) if hit else None
+        f = list(films.get(key_c, {}).values())
         rows.append({
-            "name": name.split(",")[0].strip() or name,
-            "_lookup": name, "cat": cat(name), "n": p.get("n") or 0,
+            "name": clean(shown["place"]) or name,
+            "_lookup": name, "cat": cat(name), "n": sum(q.get("n") or 0 for q in ps),
             "films": f[:30], "nfilms": len(f),
             "what": name,
             "people": [{"n": x["name"], "w": f"/people/{x['slug']}/" if x.get("slug") else None}

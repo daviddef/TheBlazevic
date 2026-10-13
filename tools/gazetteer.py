@@ -35,7 +35,8 @@ ALIAS = {"perpic": "prpic"}
 # Povile, Ledenice and Novi Vinodolski appeared nowhere on this site despite
 # holding 139 published people between them.
 SURNAMES = ("blazevic", "zubrinic", "papic", "prpic", "kalanj",
-            "boras", "sestan", "vukelic")
+            "boras", "sestan", "vukelic",
+            "pavelic", "tomljanovic", "krmpotic", "babic", "spalj")
 
 def key(sn):
     f = fold(sn)

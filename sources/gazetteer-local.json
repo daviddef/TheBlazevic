@@ -49,5 +49,45 @@
   "asked": "Selce, Croatia",
   "via": "Selce, Croatia",
   "why": "WHICH SELCE IS NOT CONFIRMED. There are several in Croatia: the shared gazetteer put this archive's Selce at Selce near Karlovac (45.51, 15.55), Nominatim's first answer was Selce in Moscenice (45.23, 14.25), and the Record Atlas places its Selce volumes at Selci Djakovacki in Slavonia (45.31, 18.35). The registers read here (Selce Umrli 1790-1815, priests of the Vinodol and Dobrinj district, a parish row beside Crikvenica in sources/parishes.psv) point at Selce by Crikvenica, which is what this entry uses; it is a best reading and not a document."
+ },
+ "šibenik": {
+  "lat": 43.73404,
+  "lon": 15.89664,
+  "matched": "Šibenik, Croatia",
+  "kind": "place/town",
+  "conf": "exact",
+  "asked": "Šibenik, Croatia",
+  "via": "Šibenik, Croatia",
+  "why": "Taken from the Record Atlas place list (data/places.json), 14 Oct 2026: 43.73404, 15.89664. The place has register readings in this archive and no tree person born there, so it had no page."
+ },
+ "pag": {
+  "lat": 44.445,
+  "lon": 15.0575,
+  "matched": "Pag, Croatia",
+  "kind": "place/town",
+  "conf": "exact",
+  "asked": "Pag, Croatia",
+  "via": "Pag, Croatia",
+  "why": "Taken from the Record Atlas place list (data/places.json), 14 Oct 2026: 44.445, 15.0575. The place has register readings in this archive and no tree person born there, so it had no page."
+ },
+ "drniš": {
+  "lat": 43.86283,
+  "lon": 16.16007,
+  "matched": "Drniš, Croatia",
+  "kind": "place/town",
+  "conf": "exact",
+  "asked": "Drniš, Croatia",
+  "via": "Drniš, Croatia",
+  "why": "Taken from the Record Atlas place list (data/places.json), 14 Oct 2026: 43.86283, 16.16007. The place has register readings in this archive and no tree person born there, so it had no page."
+ },
+ "mrzli dol": {
+  "lat": 45.03371,
+  "lon": 14.9891,
+  "matched": "Mrzli Dol, Croatia",
+  "kind": "place/village",
+  "conf": "exact",
+  "asked": "Mrzli Dol, Croatia",
+  "via": "Mrzli Dol, Croatia",
+  "why": "Taken from the Record Atlas place list (data/places.json), 14 Oct 2026: 45.03371, 14.9891, about 2 km from Krivi Put (45.0322, 14.9614), which is where the registers put it. The shared gazetteer had no entry, so every Mrzli Dol row was unplaced."
  }
 }

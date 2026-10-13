@@ -70,7 +70,12 @@ export function householdsOf(keys, onSpine = new Set()) {
 }
 
 /* Perpic folds into Prpic, as everywhere else here. */
-export const familyKeys = (slug) => ({ prpic: ["prpic", "perpic"] }[slug] || [slug]);
+export const familyKeys = (slug) => ({
+  prpic: ["prpic", "perpic"],
+  /* The Karlobag index writes Tomljanović as Tomljenovich, and the Senj
+     register as Tomjanovich. Same name, same families of Latin scribes. */
+  tomljanovic: ["tomljanovic", "tomljenovic", "tomjanovic"],
+}[slug] || [slug]);
 
 /* EVERY PERSON OF ONE SURNAME, AS A DESCENT ROW.
  *
@@ -139,7 +144,17 @@ export function descentOf(keys, onSpine = new Set(), found = []) {
      belong in the list of their own family rather than in a separate table
      further down the page. The pill says which side of that line they fall
      on, because it is a fact about the tree and not about the evidence. */
-  const mine = found.filter((r) => keys.includes(surnameGroup(String(r.name).split(" ").pop())));
+  /* A found person's name is "Given Surname" followed, for the Senj readings, by
+     a description — «Maria Kalanj bride of Babić 1842» — so the surname is not
+     always the last word. It is the word at position 1, 2 or 3, and the
+     description comes after it; a surname that turns up later is somebody
+     else's spouse, and is deliberately not matched. */
+  const words = (n) => String(n).split(" ");
+  const mine = found.filter((r) => {
+    const w = words(r.name);
+    return keys.includes(surnameGroup(w[w.length - 1])) ||
+      w.slice(1, 4).some((t) => keys.includes(surnameGroup(t)));
+  });
   for (const r of mine) {
     rows.push({
       name: r.name,

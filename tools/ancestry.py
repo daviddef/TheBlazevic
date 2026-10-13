@@ -43,6 +43,15 @@ SURNAMES = {
     "vukelic":  ["vukelic"],
     "boras":    ["boras"],
     "sestan":   ["sestan"],
+    # 14 October 2026: the Senj marriage-and-death volume (9RK1-W3P) put real
+    # registers behind five more names that marry into the line, so each now
+    # gets a page. Pavelic is the Mrzli Dol in-laws of the Blazevici (58 in the
+    # tree); Tomljanovic holds ahnentafel 111; the rest are Senj and Krivi Put.
+    "pavelic":     ["pavelic"],
+    "tomljanovic": ["tomljanovic"],
+    "krmpotic":    ["krmpotic"],
+    "babic":       ["babic"],
+    "spalj":       ["spalj"],
 }
 
 # every spelling that belongs to a family -> that family's key
