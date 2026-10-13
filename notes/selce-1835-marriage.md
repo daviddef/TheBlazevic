@@ -105,4 +105,4 @@ line, **12 are marked *scanned*** — an image attached, nothing read out. The
 
 ## The page itself (snapshots)
 
-[selce-marriage-1835-antic-jellicic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-marriage-1835-antic-jellicic) — the same entry, now from the FamilySearch image (26 of Selce marriages 1815–1878); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[selce-marriage-1835-antic-jellicic](https://blazevic.defranceski.com/snapshots/#selce-marriage-1835-antic-jellicic) — the same entry, now from the FamilySearch image (26 of Selce marriages 1815–1878); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

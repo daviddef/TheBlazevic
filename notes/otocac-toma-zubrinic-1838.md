@@ -69,4 +69,4 @@ are not** — and that is worth more than one ancestor.
 
 ## The page itself (snapshots)
 
-[otocac-death-1838-toma-zubrinic](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-death-1838-toma-zubrinic), with the film, the image number and a link to the viewer; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[otocac-death-1838-toma-zubrinic](https://blazevic.defranceski.com/snapshots/#otocac-death-1838-toma-zubrinic), with the film, the image number and a link to the viewer; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

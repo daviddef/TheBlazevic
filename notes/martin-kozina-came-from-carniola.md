@@ -96,5 +96,5 @@ archive does not yet know which of them is wrong.
 
 ## The page itself (snapshots)
 
-[senj-marriage-1888-kozina-boras](https://daviddef.github.io/TheBlazevic/snapshots/#senj-marriage-1888-kozina-boras) — both pages of the spread, image 214, with the film, the image number and a viewer link; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
-Also the 1919 marriages of his sons: [senj-marriage-1919-kosina-blazevic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-marriage-1919-kosina-blazevic).
+[senj-marriage-1888-kozina-boras](https://blazevic.defranceski.com/snapshots/#senj-marriage-1888-kozina-boras) — both pages of the spread, image 214, with the film, the image number and a viewer link; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).
+Also the 1919 marriages of his sons: [senj-marriage-1919-kosina-blazevic](https://blazevic.defranceski.com/snapshots/#senj-marriage-1919-kosina-blazevic).

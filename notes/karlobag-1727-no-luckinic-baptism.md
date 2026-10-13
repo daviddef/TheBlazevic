@@ -113,4 +113,4 @@ or two zooms, so a badly spelt Luckinić could have been passed).
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [karlobag-births-1725-ana-luckinic](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-births-1725-ana-luckinic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-births-1725-ana-luckinic](https://blazevic.defranceski.com/snapshots/#karlobag-births-1725-ana-luckinic). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

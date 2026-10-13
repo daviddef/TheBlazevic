@@ -77,4 +77,4 @@ scale, which is not a reading.
 
 ## The page itself (snapshots)
 
-[selce-death-1829-joannes-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1829-joannes-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[selce-death-1829-joannes-antic](https://blazevic.defranceski.com/snapshots/#selce-death-1829-joannes-antic); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

@@ -86,4 +86,4 @@ book is the one this archive has already opened for other people.
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1791-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1791-uroda). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1791-uroda](https://blazevic.defranceski.com/snapshots/#karlobag-death-1791-uroda). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

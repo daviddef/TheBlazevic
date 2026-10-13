@@ -64,4 +64,4 @@ unread.**
 
 ## The page itself (snapshots)
 
-[karlobag-baptism-1838-matia-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1838-matia-pilipic) — the entry from the FamilySearch image (58, left page, of the Karlobag film); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[karlobag-baptism-1838-matia-pilipic](https://blazevic.defranceski.com/snapshots/#karlobag-baptism-1838-matia-pilipic) — the entry from the FamilySearch image (58, left page, of the Karlobag film); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

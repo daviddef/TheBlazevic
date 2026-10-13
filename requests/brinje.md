@@ -68,7 +68,7 @@ Lika emigration, that list is yours.
 
 ## What we would do with it
 
-Publish it in full, with the shelfmark, at **daviddef.github.io/TheBlazevic**,
+Publish it in full, with the shelfmark, at **blazevic.defranceski.com/**,
 and say plainly that we had the parish wrong for the life of the archive.
 
 *Hvala vam unaprijed na svakoj pomoći.*

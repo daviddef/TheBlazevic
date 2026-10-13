@@ -68,4 +68,4 @@ The priest is **Michaël Rombol** in 1809 and **Vincentius Rombal** in 1835 and
 
 ## The page itself (snapshots)
 
-[selce-baptism-1809-maria-jellicic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-baptism-1809-maria-jellicic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[selce-baptism-1809-maria-jellicic](https://blazevic.defranceski.com/snapshots/#selce-baptism-1809-maria-jellicic); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

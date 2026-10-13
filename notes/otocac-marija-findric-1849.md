@@ -65,4 +65,4 @@ fragile claim available.
 
 ## The page itself (snapshots)
 
-[otocac-death-1849-marija-findric](https://daviddef.github.io/TheBlazevic/snapshots/#otocac-death-1849-marija-findric), with the film, the image number and a link to the viewer; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[otocac-death-1849-marija-findric](https://blazevic.defranceski.com/snapshots/#otocac-death-1849-marija-findric), with the film, the image number and a link to the viewer; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

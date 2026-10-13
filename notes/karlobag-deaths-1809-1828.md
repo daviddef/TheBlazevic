@@ -88,4 +88,4 @@ the page:
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1809-lucia-maja](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1809-lucia-maja). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/). Also [karlobag-death-1828-pilepich](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-death-1828-pilepich).
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-death-1809-lucia-maja](https://blazevic.defranceski.com/snapshots/#karlobag-death-1809-lucia-maja). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/). Also [karlobag-death-1828-pilepich](https://blazevic.defranceski.com/snapshots/#karlobag-death-1828-pilepich).

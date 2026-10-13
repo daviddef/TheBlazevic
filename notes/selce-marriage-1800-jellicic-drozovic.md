@@ -34,4 +34,4 @@ detecto, ego Michaël Kombol C.L. junxi Matrimonio **Georgium filium Mathiae et 
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [selce-marriage-1800](https://daviddef.github.io/TheBlazevic/snapshots/#selce-marriage-1800). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+Kept on the site, with the film, the image number and a link to the viewer: [selce-marriage-1800](https://blazevic.defranceski.com/snapshots/#selce-marriage-1800). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

@@ -54,4 +54,4 @@ also put entry 109 at the very end of 1861 (June is about entry 59, August about
 
 ## The page itself (snapshots)
 
-[krivi-put-baptism-1861-stephanus-perpic](https://daviddef.github.io/TheBlazevic/snapshots/#krivi-put-baptism-1861-stephanus-perpic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[krivi-put-baptism-1861-stephanus-perpic](https://blazevic.defranceski.com/snapshots/#krivi-put-baptism-1861-stephanus-perpic); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

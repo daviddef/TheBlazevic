@@ -45,4 +45,4 @@ archive's own and someone will otherwise notice it and wonder.
 
 ## The page itself (snapshots)
 
-[karlobag-baptism-1810-matia-uroda](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1810-matia-uroda) — the entry from the FamilySearch image (19 of the Karlobag film); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[karlobag-baptism-1810-matia-uroda](https://blazevic.defranceski.com/snapshots/#karlobag-baptism-1810-matia-uroda) — the entry from the FamilySearch image (19 of the Karlobag film); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

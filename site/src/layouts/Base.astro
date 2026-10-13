@@ -35,7 +35,6 @@ const nav = [
 const here = Astro.url.pathname.replace(/\/$/, "");
 // Absolute URL for the sharing tags. Without these every page shared to a
 // phone or a group chat renders as a bare grey link.
-const SITE_URL = "https://daviddef.github.io";
 const share = dek || description ||
   "An evidence-first archive of Hedviga Blažević and the four families behind her.";
 const on = (h) => here === u(h).replace(/\/$/, "");

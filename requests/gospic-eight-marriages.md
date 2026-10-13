@@ -124,7 +124,7 @@ shape of what we are missing.
 ## What we would do with it
 
 Publish it in full, with the shelfmark, on a free public archive at
-**daviddef.github.io/TheBlazevic** — and say plainly which of our own claims it
+**blazevic.defranceski.com/** — and say plainly which of our own claims it
 corrected. We publish our errors as a matter of course, including, this month,
 the collapse of our theory that an epidemic struck this family in 1845.
 

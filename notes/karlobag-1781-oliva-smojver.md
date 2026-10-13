@@ -58,4 +58,4 @@ has no map for.
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [karlobag-baptism-1781-oliva-smojver](https://daviddef.github.io/TheBlazevic/snapshots/#karlobag-baptism-1781-oliva-smojver). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+Kept on the site, with the film, the image number and a link to the viewer: [karlobag-baptism-1781-oliva-smojver](https://blazevic.defranceski.com/snapshots/#karlobag-baptism-1781-oliva-smojver). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

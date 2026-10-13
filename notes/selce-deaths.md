@@ -114,4 +114,4 @@ heading has to be checked before anything is read. Arks and the rest are in
 
 ## The page itself (snapshots)
 
-[selce-death-1882-maria-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1882-maria-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[selce-death-1882-maria-antic](https://blazevic.defranceski.com/snapshots/#selce-death-1882-maria-antic); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

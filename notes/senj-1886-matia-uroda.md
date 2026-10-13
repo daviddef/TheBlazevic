@@ -129,4 +129,4 @@ already holds *Pilipić · Pillepich · Pilepić · Pipić*.
 
 ## The page itself (snapshots)
 
-Kept on the site, with the film, the image number and a link to the viewer: [senj-death-1886-matija-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1886-matija-pilipic); [senj-death-1897-vicko-pilipic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1897-vicko-pilipic); [senj-death-1907-toma-blazevic](https://daviddef.github.io/TheBlazevic/snapshots/#senj-death-1907-toma-blazevic). Snapshots began on 11 October 2026; see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+Kept on the site, with the film, the image number and a link to the viewer: [senj-death-1886-matija-pilipic](https://blazevic.defranceski.com/snapshots/#senj-death-1886-matija-pilipic); [senj-death-1897-vicko-pilipic](https://blazevic.defranceski.com/snapshots/#senj-death-1897-vicko-pilipic); [senj-death-1907-toma-blazevic](https://blazevic.defranceski.com/snapshots/#senj-death-1907-toma-blazevic). Snapshots began on 11 October 2026; see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

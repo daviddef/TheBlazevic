@@ -72,4 +72,4 @@ archive did not have — see [the by-names](../site/src/data/bynames.json).
 
 ## The page itself (snapshots)
 
-[selce-death-1850-osip-antic](https://daviddef.github.io/TheBlazevic/snapshots/#selce-death-1850-osip-antic); see [/snapshots/](https://daviddef.github.io/TheBlazevic/snapshots/).
+[selce-death-1850-osip-antic](https://blazevic.defranceski.com/snapshots/#selce-death-1850-osip-antic); see [/snapshots/](https://blazevic.defranceski.com/snapshots/).

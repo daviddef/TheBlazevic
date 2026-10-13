@@ -19,7 +19,7 @@ pages by anybody.
 been read for them and there is still no page anywhere in the estate. The clearest single example:
 
 > **Ruža de Franceschi, 10 December 1903 – 29 March 1939**, married Miro Jarmacky. She is
-> transcribed off a gravestone on [/grave/](https://daviddef.github.io/TheBlazevic/grave/) —
+> transcribed off a gravestone on [/grave/](https://blazevic.defranceski.com/grave/) —
 > *«RUŽA JARMACKI rođena DEFRANCESCHI ✻1903 †1939»* — with a birth date, a death date, a married
 > name and a husband. **This estate has read her stone and she has no page.**
 

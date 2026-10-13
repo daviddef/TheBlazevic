@@ -72,7 +72,7 @@ It now reports **21 corrections quoting a register, 1 disproof, and nothing miss
 The request that started this was «make sure everything researched is on the site». **One
 thing genuinely was not**: `sources/familysearch/indexed.psv`, the table that decides how
 every register row is planned, was read by no tool and shown on no page. It is now at
-[`/indexed/`](https://daviddef.github.io/TheBlazevic/indexed/).
+[`/indexed/`](https://blazevic.defranceski.com/indexed/).
 
 **But the traffic ran the other way too, and harder.** The site was ahead of the evidence
 file, and a note written this morning reached a false conclusion because it never looked
