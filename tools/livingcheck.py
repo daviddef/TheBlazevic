@@ -952,8 +952,11 @@ def selftest_ged(w):
                   and fold(ged.display[i]) not in ged.nm_held.dead_folded and ged.nm_held.forbidden)
     held_name = ged.display[held_i]
     held_dated = next((i for i in sorted(ged.held) if two(i) and any(date_forms(e.get("date", ""))
-                                                                    for e in ged.people[i]["events"])), held_i)
-    hd = sorted(date_forms(next(e for e in ged.people[held_dated]["events"] if date_forms(e.get("date", "")))["date"]))[0] if held_dated else None
+                                                                    for e in ged.people[i]["events"])), None)
+    hd = None
+    if held_dated:
+        hd = sorted(date_forms(next(e for e in ged.people[held_dated]["events"]
+                                    if date_forms(e.get("date", "")))["date"]))[0]
     named_i = next(iter(sorted(ged.named)))
     dead_i = next(i for i in sorted(ged.dead) if two(i)
                   and any(e["kind"] in ("death", "burial") for e in ged.people[i]["events"])
