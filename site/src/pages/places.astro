@@ -40,9 +40,9 @@ import atlas from "../../public/atlas-data.json";
     House numbers are kept, because in Frontier registers the house number <em>is</em> the
     family.</p>
     <Places u={u} rows={places.map((p) => ({
-      name: p.place,
+      name: p.place || "Place not stated",
       n: p.n,
-      href: "/people/?q=" + encodeURIComponent(p.place),
+      href: p.place ? "/people/?q=" + encodeURIComponent(p.place) : null,
     }))} />
   </section>
   <section class="blk">

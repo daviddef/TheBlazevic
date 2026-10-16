@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import { u } from "../lib/url.js";
 import lines from "../data/lines.json";
+import { md, plain } from "@daviddef/archive-kit/lib/md.js";
 
 /* 11 October 2026. THE PAGE LOOPS OVER lines.sets NOW: Uroda was the first, and the
    Karlobag mother-side surnames follow it as further sets in the same file.
@@ -21,6 +22,16 @@ import lines from "../data/lines.json";
    is the data, and the rule: a lane is a family the registers show, a dotted
    bridge is a join no document makes, and nothing is merged until one does. */
 const sets = lines.sets;
+/* The drawing shows each reason as plain text in a tooltip, so the **bold** and «quote»
+   markers are taken out for it; the lists below the figure render them. */
+const forDrawing = (set) => ({
+  ...set, unplaced: [], loose: [],
+  lanes: set.lanes.map((l) => ({
+    ...l,
+    nodes: l.nodes.map((n) => [n[0], n[1], plain(n[2]), ...n.slice(3)]),
+    ends: (l.ends || []).map((e) => [e[0], e[1], plain(e[2]), ...e.slice(3)]),
+  })),
+});
 const snap = (id) => u(`/snapshots/#${id}`);
 ---
 <Base title="The Lines of a Name"
@@ -45,7 +56,7 @@ const snap = (id) => u(`/snapshots/#${id}`);
       <p class="dim">{set.dek}</p>
 
       <figure class="rivers">
-        <BranchRivers rivers={{ ...set, unplaced: [], loose: [] }} caption="" />
+        <BranchRivers rivers={forDrawing(set)} caption="" />
         <figcaption>
           Hover or tab any dot and it says what the register behind it says; click again to go there.
           <strong>The top lane is the one this archive descends from.</strong> The dotted curves are
@@ -63,7 +74,7 @@ const snap = (id) => u(`/snapshots/#${id}`);
           <p class="dim mono" style="font-size:.78rem">{l.conf}</p>
           <ol style="margin:.5rem 0 0;padding-left:1.2rem">
             {l.nodes.map(([place, year, why]) => (
-              <li style="margin:.35rem 0"><strong>{place}</strong> · <span class="mono">{year}</span> — {why}</li>
+              <li style="margin:.35rem 0"><strong>{place}</strong> · <span class="mono">{year}</span> — <Fragment set:html={md(why)} /></li>
             ))}
           </ol>
           {set.sources?.[l.key]?.length > 0 && (
@@ -74,7 +85,7 @@ const snap = (id) => u(`/snapshots/#${id}`);
             </p>
           )}
           {l.ends.map(([e, , why]) => (
-            <p class="dim" style="margin:.4rem 0 0">→ <strong>{e}</strong>: {why}</p>
+            <p class="dim" style="margin:.4rem 0 0">→ <strong>{e}</strong>: <Fragment set:html={md(why)} /></p>
           ))}
         </div>
       ))}

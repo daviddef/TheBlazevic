@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan } from "../../lib/people.js";
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
@@ -314,8 +315,8 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
               <span class="tag">{r.ahn != null && ahnSlug.has(r.ahn)
                 ? "in the family tree, on the direct line"
                 : "parish register · not yet in the family tree"}</span></td>
-            <td class="dek">{r.relation}</td>
-            <td class="dek">{r.event}{r.date ? `, ${r.date}` : ""}{r.place ? ` · ${r.place}` : ""}</td>
+            <td class="dek" set:html={md(r.relation)} />
+            <td class="dek" set:html={md(`${r.event}${r.date ? `, ${r.date}` : ""}${r.place ? ` · ${r.place}` : ""}`)} />
           </tr>
         ))}</tbody>
       </table>

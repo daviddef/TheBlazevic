@@ -10,6 +10,7 @@ import Base from "../layouts/Base.astro";
 import Errands from "@daviddef/archive-kit/components/Errands.astro";
 import { u } from "../lib/url.js";
 import { mdp } from "@daviddef/archive-kit/lib/md.js";
+import { emphasis } from "@daviddef/archive-kit/lib/emphasis.js";
 import e from "../data/errands.json";
 import Shotlist from "@daviddef/archive-kit/components/Shotlist.astro";
 import shots from "../data/photograph-these.json";
@@ -36,6 +37,16 @@ const shotGroups = ORDER
 const eyebrow = `${n("draft")} drafted, not sent · ${n("sent")} sent, waiting · ${n("answered")} answered · ${shots.jobs.length} places to photograph`;
 const unlabelled = [...new Set(e.rows.map((r) => r.state).filter((k) => k && !e.states[k]))];
 
+/* The drafts are the letters as they will be sent, already escaped and broken into lines by
+   tools/errands.py, and they carry **bold** and `code` markers for the email. The markers are
+   turned into markup here and the prose is left exactly as written. */
+const BR = "<br>\n";
+const draftHtml = (d) => d && d.split(BR + BR).map((para) =>
+  /* a letter is hard-wrapped, so a **bold** run can start on one line and end on the next;
+     the markers are read across the line breaks of ONE paragraph, never across a blank line */
+  emphasis(para.split(BR).join("\u0001")).split("\u0001").join(BR)
+    .replace(/`([^`\n]+)`/g, "<code>$1</code>")).join(BR + BR);
+
 const groups = ["draft", "sent", "answered"].map((k) => ({
   label: e.states[k][0],
   note: e.states[k][2],
@@ -46,8 +57,8 @@ const groups = ["draft", "sent", "answered"].map((k) => ({
     why: mdp(r.settles),
     ref: r.file,
     stateLabel: e.states[r.state][0],
-    colour: e.states[r.state][1],
-    draft: r.draft,
+    colour: `var(--st-${r.state}, ${e.states[r.state][1]})`,
+    draft: draftHtml(r.draft),
     links: r.href ? [["Context", r.href]] : [],
   })),
 }));
@@ -57,8 +68,8 @@ const groups = ["draft", "sent", "answered"].map((k) => ({
     <p class="lede">{e.lead}</p>
     <div style="margin-top:1.1rem;display:flex;flex-wrap:wrap;gap:8px">
       {Object.entries(e.states).map(([k, [label, colour, gloss]]) => (
-        <span class="chip" style={`border-color:${colour}`} title={gloss}>
-          <strong style={`color:${colour}`}>{label}</strong> {n(k)}
+        <span class="chip" style={`border-color:var(--st-${k}, ${colour})`} title={gloss}>
+          <strong style={`color:var(--st-${k}, ${colour})`}>{label}</strong> {n(k)}
         </span>
       ))}
     </div>

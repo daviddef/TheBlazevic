@@ -21,6 +21,7 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import F from "../../data/found.json";
+import { md, plain } from "@daviddef/archive-kit/lib/md.js";
 import snapshots from "../../data/snapshots.json";
 import Snapshot from "../../components/Snapshot.astro";
 import ancestors from "../../data/ancestors.json";
@@ -61,11 +62,20 @@ const kin = parts.flatMap((piece) => {
   return out;
 });
 const named = kin.filter((k) => k.href);
+/* The relation may carry **bold** or «quotes» that run across a link, so the markup is
+   applied to the whole sentence, with each link held as a placeholder, and the anchors
+   put back afterwards. */
+const esc = (x) => String(x).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+const relationHtml = md(kin.map((k, i) => (k.href ? `\u0001${i}\u0001` : k.text)).join(""))
+  .replace(/\u0001(\d+)\u0001/g, (_, i) => {
+    const k = kin[+i];
+    return `<a href="${u(k.href)}" title="${esc(k.who)}">${esc(k.text)}</a>`;
+  });
 ---
 <Base
   title={r.name}
   eyebrow="Read out of a register, and not in the family tree"
-  dek={`${r.event ? r.event.charAt(0).toUpperCase() + r.event.slice(1) : "Recorded"}${r.date ? `, ${r.date}` : ""}${r.place ? `, ${r.place}` : ""} — ${r.relation}.`}>
+  dek={`${r.event ? r.event.charAt(0).toUpperCase() + r.event.slice(1) : "Recorded"}${r.date ? `, ${r.date}` : ""}${r.place ? `, ${r.place}` : ""} — ${plain(r.relation)}.`}>
 
   <section class="blk">
     <div class="note"><strong>The family tree has never heard of this person.</strong> Every other
@@ -78,10 +88,10 @@ const named = kin.filter((k) => k.href);
   <section class="blk">
     <h2>What the register says</h2>
     <dl class="fm-dl">
-      {r.event ? <><dt>Event</dt><dd>{r.event}</dd></> : null}
+      {r.event ? <><dt>Event</dt><dd set:html={md(r.event)} /></> : null}
       {r.date ? <><dt>Date</dt><dd class="mono">{r.date}</dd></> : null}
       {r.place ? <><dt>Place</dt><dd>{r.place}</dd></> : null}
-      <dt>Citation</dt><dd style="font-size:.94em">{r.citation}</dd>
+      <dt>Citation</dt><dd style="font-size:.94em" set:html={md(r.citation)} />
     </dl>
   </section>
 
@@ -94,11 +104,7 @@ const named = kin.filter((k) => k.href);
 
   <section class="blk">
     <h2>How they attach to the line</h2>
-    <p class="lede">{kin.map((k) => (
-      k.href
-        ? <a href={u(k.href)} title={k.who}>{k.text}</a>
-        : <Fragment>{k.text}</Fragment>
-    ))}</p>
+    <p class="lede" set:html={relationHtml} />
     {named.length === 0 ? (
       <p class="dek">The relation is recorded in the archive's own words and names no position on
       the direct line, so there is nobody here to link to yet.</p>

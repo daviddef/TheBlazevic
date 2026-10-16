@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import F from "../data/found.json";
+import { md, plain } from "@daviddef/archive-kit/lib/md.js";
 // People read out of a register whom the GEDCOM does not have. They have been
 // recorded in sources/found.psv since September and published nowhere, which
 // is what work-list row 22 was about. Two of them are on the direct line.
@@ -50,10 +51,10 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
           <td>{r.ahn
           ? <strong>{r.name}</strong>
           : <a href={u(`/found/${r.slug}/`)}><strong>{r.name}</strong></a>}
-            <span class="dek" style="display:block">ahnentafel {r.ahn} — {r.relation}</span></td>
+            <span class="dek" style="display:block">ahnentafel {r.ahn} — <Fragment set:html={md(r.relation)} /></span></td>
           <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
-            <span style="display:block">{r.event}</span></td>
-          <td style="font-size:.92em">{r.citation}</td>
+            <span style="display:block" set:html={md(r.event)} /></td>
+          <td style="font-size:.92em" set:html={md(r.citation)} />
         </tr>))}</tbody>
     </table>
   </section>
@@ -72,10 +73,10 @@ const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
           <td>{r.ahn
           ? <strong>{r.name}</strong>
           : <a href={u(`/found/${r.slug}/`)}><strong>{r.name}</strong></a>}
-            <span class="dek" style="display:block">{r.relation}</span></td>
+            <span class="dek" style="display:block" set:html={md(r.relation)} /></td>
           <td class="dek">{r.place}<span style="display:block" class="mono">{r.date}</span>
-            <span style="display:block">{r.event}</span></td>
-          <td style="font-size:.92em">{r.citation}</td>
+            <span style="display:block" set:html={md(r.event)} /></td>
+          <td style="font-size:.92em" set:html={md(r.citation)} />
         </tr>))}</tbody>
     </table>
   </section>

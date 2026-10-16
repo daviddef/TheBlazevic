@@ -5,9 +5,36 @@ import line from "../data/line.json";
 /* One person = one GEDCOM record. The tree is the authority on identity here;
    this archive's job is to say how well each record is evidenced, not to merge
    or split people behind the reader's back. */
+/* TEXT THAT WAS ESCAPED BEFORE IT REACHED THE DATA. Some strings in the tree export
+   carry an HTML entity as text (&scaron; for š) and some were escaped twice
+   (&amp;gt; for >). A template escapes text once more on the way out, so the reader
+   saw "du&scaron;a" and "&amp;gt;" in citations. Decoded here, once, on the way in:
+   decoding until nothing changes, and only for the entities the tree actually uses,
+   so a bare & in a URL (…?cc=2040054&wc=…) is never touched. */
+const NAMED = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", scaron: "\u0161", Scaron: "\u0160",
+  ccaron: "\u010d", Ccaron: "\u010c", cacute: "\u0107", Cacute: "\u0106", zcaron: "\u017e",
+  Zcaron: "\u017d", dstrok: "\u0111", Dstrok: "\u0110", deg: "\u00b0", laquo: "\u00ab", raquo: "\u00bb" };
+const ENT = /&(?:([A-Za-z]+)|#(\d+)|#x([0-9a-fA-F]+));/g;
+export const deent = (s) => {
+  if (typeof s !== "string" || !s.includes("&")) return s;
+  let prev;
+  do {
+    prev = s;
+    s = s.replace(ENT, (m, name, dec, hex) => {
+      if (name) return NAMED[name] ?? m;
+      const cp = dec ? parseInt(dec, 10) : parseInt(hex, 16);
+      return cp > 0 && cp < 0x110000 ? String.fromCodePoint(cp) : m;
+    });
+  } while (s !== prev);
+  return s;
+};
+const clean = (v) => Array.isArray(v) ? v.map(clean)
+  : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, clean(x)]))
+  : deent(v);
+
 const byId = new Map();
-for (const r of register) byId.set(r.id, { ...r });
-for (const a of ancestors) byId.set(a.id, { ...(byId.get(a.id) || {}), ...a, ancestor: true });
+for (const r of register) byId.set(r.id, clean(r));
+for (const a of ancestors) byId.set(a.id, { ...(byId.get(a.id) || {}), ...clean(a), ancestor: true });
 for (const s of line) byId.set(s.id, { ...(byId.get(s.id) || {}), ...s, ancestor: true, spine: true });
 
 export const people = [...byId.values()];

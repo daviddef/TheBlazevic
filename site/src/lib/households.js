@@ -13,6 +13,7 @@
    A person with neither spouse nor child is not a household and is left
    to the list of everyone of the name. */
 import { people, surnameGroup } from "./people.js";
+import { md, plain } from "@daviddef/archive-kit/lib/md.js";
 import { displayName, alsoRecordedAs } from "./displayName.js";
 
 const BY_ID = new Map(people.map((p) => [p.id, p]));
@@ -166,8 +167,8 @@ export function descentOf(keys, onSpine = new Set(), found = []) {
       spouse: "",
       spouseAlt: "",
       confidence: "parish register · not yet in the family tree",
-      note: r.relation ? `${r.relation}.` : "",
-      sources: r.citation ? [{ label: r.citation }] : [],
+      note: r.relation ? md(`${r.relation}.`) : "",
+      sources: r.citation ? [{ label: plain(r.citation) }] : [],
       children: [], hisSiblings: [], herSiblings: [],
     });
   }
