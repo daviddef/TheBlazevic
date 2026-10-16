@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 194,
+  "rows": 196,
   "people": 122,
   "derived": 72,
   "onDirectLine": 0,
@@ -20,7 +20,7 @@
   ],
   [
    "marriage-of-child",
-   29
+   31
   ],
   [
    "marriage",
@@ -701,6 +701,20 @@
    "ahn": null
   },
   {
+   "kind": "marriage-of-child",
+   "year": "1789",
+   "cite": "Karlobag marriages image 330 right (folio 53), 27 July 1789 — «Barbarae filiae Pauli Tomljanovich loci Stanište», bride of Joannes Medvidich, widower; READ FROM THE IMAGE; a probable second daughter, not proved to be Lucia's sister",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "indexOnly": false,
+   "slug": "pauli-tomljanovic",
+   "name": "Pauli Tomljanović",
+   "ahn": null
+  },
+  {
    "kind": "death",
    "year": "1790",
    "cite": "Karlobag Umrli 1774-1804 folio 63 (right page of image 388) — «29 ejusdem [Maij] · Catharina annorum 70, vidua defti Jacobi [P]ilepich, obiit in Domino munita omnibus sacramentis, atque die 30 sepulta est». The tree's date to the day; the AGE DISAGREES — 70 in May 1790 puts her birth about 1720 where the tree says 30 Mar 1727. She is not in the KAZALO's L at all: a widow is indexed under her husband's surname; ark 3:1:3QS7-L99C-G3QY",
@@ -740,6 +754,20 @@
    "indexOnly": false,
    "slug": "joannis-antic-2",
    "name": "Joannis Antić",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1795",
+   "cite": "Karlobag marriages image 340 left (folio 122), 25 May 1795 — «Thoma filiae Pauli Tomljenovich loci Stanizte», bride of Philippus Gerpich of Ledenice, widower; READ FROM THE IMAGE, bride's given name uncertain",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "indexOnly": false,
+   "slug": "pauli-tomljanovic",
+   "name": "Pauli Tomljanović",
    "ahn": null
   },
   {
@@ -5970,9 +5998,31 @@
      "where": "notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1785-gerkacs-tomljanovic.md",
      "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1789",
+     "cite": "Karlobag marriages image 330 right (folio 53), 27 July 1789 — «Barbarae filiae Pauli Tomljanovich loci Stanište», bride of Joannes Medvidich, widower; READ FROM THE IMAGE; a probable second daughter, not proved to be Lucia's sister",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage-of-child",
+     "year": "1795",
+     "cite": "Karlobag marriages image 340 left (folio 122), 25 May 1795 — «Thoma filiae Pauli Tomljenovich loci Stanizte», bride of Philippus Gerpich of Ledenice, widower; READ FROM THE IMAGE, bride's given name uncertain",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 3,
    "derived": 0
   },
   "maria-uroda": {

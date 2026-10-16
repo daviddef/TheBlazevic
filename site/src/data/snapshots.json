@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 475,
- "images": 491,
+ "count": 477,
+ "images": 494,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11353,6 +11353,52 @@
    "captured": "17 October 2026",
    "note": "notes/karlobag-gergacs-children-1787-1801.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-gergacs-children-1787-1801.md"
+  },
+  {
+   "id": "karlobag-marriage-1789-medvidich-tomljanovic",
+   "entry": "karlobag-marriage-1789-medvidich-tomljanovic-entry.jpg",
+   "page": "karlobag-marriage-1789-medvidich-tomljanovic-page.jpg",
+   "title": "Karlobag, 27 July 1789 — Joannes Medvidich, widower, and Barbara, daughter of Paulus Tomljanovich of Stanište",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 330, right-hand page (folio 53), headed «Anno Dni 1789»: the fourth entry, margin «27 Julij»; the entry in two strips, left half above and right half below",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3CY",
+   "says": "«… consensu Joannis vidui Medvidich vicariani Brušanensis et Barbarae filiae Pauli Tomljanovich loci Stanište hujus Parochiae … conjunxi ego Joes Antonius Frankovich Parochus loci, praesentibus testibus Nicolao Margar et Thoma Lazarich seniore». The same father's name and hamlet as the bride's father of 1785 (ahnentafel 222): a probable sister of Lucia, not proved.",
+   "slugs": [
+    "pauli-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "pauli-tomljanovic",
+     "kind": "people",
+     "name": "Pauli Tomljanović"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md"
+  },
+  {
+   "id": "karlobag-marriage-1795-gerpich-thoma-tomljanovic",
+   "entry": "karlobag-marriage-1795-gerpich-thoma-tomljanovic-entry.jpg",
+   "page": "",
+   "title": "Karlobag, 25 May 1795 — Philippus Gerpich of Ledenice, widower, and Thoma, daughter of Paulus Tomljanovich of Stanište",
+   "film": "Karlobag marriages 1736–1804 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 340, left-hand page (folio 122), headed «Anno 1795»: the fourth entry, margin «25 Maij»; entry in two strips (the bride's name is the second line, left strip)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G38M",
+   "says": "«… consensu Philippi vidui Gerpich Ledenicensis et Thoma filiae Pauli Tomljenovich loci Stanizte hujus [Parochiae] … matrimonio conjunxi ego Joes Antes Frankovich». The bride's given name reads Thoma at about 4x and is unusual for a woman; the father's name, surname and hamlet are plain.",
+   "slugs": [
+    "pauli-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "pauli-tomljanovic",
+     "kind": "people",
+     "name": "Pauli Tomljanović"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md"
   }
  ],
  "bySlug": {
@@ -11408,7 +11454,9 @@
    "karlobag-death-1783-gerkacs"
   ],
   "pauli-tomljanovic": [
-   "karlobag-marriage-1785"
+   "karlobag-marriage-1785",
+   "karlobag-marriage-1789-medvidich-tomljanovic",
+   "karlobag-marriage-1795-gerpich-thoma-tomljanovic"
   ],
   "josephus-josip-pilipic": [
    "karlobag-marriage-1798",

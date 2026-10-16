@@ -9,10 +9,10 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 45,
+  "nothing": 46,
   "partial": 43,
   "pending": 6,
-  "yield": 142
+  "yield": 143
  },
  "read": [
   {
@@ -5193,6 +5193,52 @@
      "Tomljanović"
     ]
    ]
+  },
+  {
+   "outcome": "yield",
+   "tags": [
+    "tomljanovic",
+    "uroda",
+    "karlobag",
+    "familysearch"
+   ],
+   "waypoint": "9RK1-HZK",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054",
+   "when": "17 Oct 2026",
+   "ev": [
+    [
+     "/tomljanovic/",
+     "Tomljanović"
+    ]
+   ],
+   "src": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649), January 1789 to March 1801",
+   "key": "fs/karlobag-marriages-1789-1801-gergacs",
+   "what": "Whether Michael Gergacs (b. 1762) married again between 1789 and 1801; images 330–346, both pages, groom names read",
+   "pages": "330-346 (both pages of each)",
+   "got": "**No marriage of a Michael Gergacs/Gerkacs** in 1789–March 1801 (read at page scale, names at the head of each entry; not a full transcription, so not marked walked). No entries between 27 Jan and 8 Oct 1793 (folios 119–120 consecutive). Found instead two further brides, daughters of a Paulus Tomljanović of Stanište: Barbara (27 July 1789, image 330 right) and Thoma (25 May 1795, image 340 left) — [snapshot](/snapshots/#karlobag-marriage-1789-medvidich-tomljanovic), [snapshot](/snapshots/#karlobag-marriage-1795-gerpich-thoma-tomljanovic). Notes: notes/karlobag-gergacs-wife-search-1789-1801.md, notes/karlobag-tomljanovic-daughters-1789-1795.md."
+  },
+  {
+   "outcome": "nothing",
+   "tags": [
+    "tomljanovic",
+    "uroda",
+    "karlobag",
+    "familysearch"
+   ],
+   "waypoint": "9RK1-HZK",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054",
+   "when": "17 Oct 2026",
+   "ev": [
+    [
+     "/tomljanovic/",
+     "Tomljanović"
+    ]
+   ],
+   "src": "FamilySearch — Karlobag deaths (Umrli) 1774–1804, January 1788 to January 1801",
+   "key": "fs/karlobag-deaths-1788-1801-gergacs-wife",
+   "what": "Whether a wife of Michael Gergacs died before 1809, which would mean a second Lucia; images 384–405, both pages, names read",
+   "pages": "384-405 (both pages of each; 397 repeats 396)",
+   "got": "**No death of a wife of Michael Gergacs** from January 1788 to January 1801 (page-scale read, not a full transcription). A «Lucia, widow of Vincentius Gerxetich» (Dec 1799) is another surname. Weakly favours one Lucia and a wrong age in the 1809 entry; a first wife could have died elsewhere. Note: notes/karlobag-gergacs-wife-search-1789-1801.md."
   }
  ]
 }
