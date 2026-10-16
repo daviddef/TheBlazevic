@@ -40,9 +40,9 @@ NOTES = os.path.join(ROOT, "notes")
 # is a decision, not a parking space.
 NOT_FOR_READERS = {
     "integrity-audit-triage-2026-10-17.md":
-        "a working triage of the 13 October cloud integrity audit, with decisions "
-        "still pending; it discusses a person the archive holds out as living "
-        "(without naming her) and is not a finding for readers.",
+        "a working triage of the 13 October cloud integrity audit against the "
+        "archive's own /impossible/ and corrections records; internal, with "
+        "decisions still pending, and not a finding for readers.",
     "dossier-ancestors.txt":
         "a generated dump of the direct line, superseded by site/src/data/"
         "ancestors.json which every page reads. Kept because it is what the "

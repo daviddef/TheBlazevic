@@ -1063,6 +1063,50 @@ SETTLED = {
         "resembles Gregorius Josephus Žubrinić 1832 [children of maria-9] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
     "Joannes Perpić newborn died Senj February 1820":
         "resembles Joannes Juan Ivan Ive Žubrinić Zubrinic 1821 [children of margarita-3]; Joannes Žubrinić Xubrinich 1821 [children of lucia-gercsevich] - a different surname and different parents in the tree; the resemblance is a given name and a year. This row is a Senj-volume walk reading (13-14 Oct 2026), see notes/senj-marriage-volume-walk.md",
+    "Maria Uroda":
+        "resembles Maria Johanna \\\"de Beer\\\" Hattingh 1778 and Maria van Rooyen 1778, South African (Cape) families in the tree; the resemblance is a given name and a year. This is Maria, wife of Georgius Uroda of Karlobag, named in her son's 1777 baptism entry (a FamilySearch register image). Settled 17 October 2026 on the register and the place.",
+    "Maria Catharina Uroda":
+        "resembles Maria Elizabeth Kruger 1771 and Hester Maria van der Merwe 1772, South African (Cape) families; a given name and a year. This is a Karlobag baptism of 1772 to Georgius Uroda and Maria (FamilySearch index). Settled 17 October 2026.",
+    "Anna Oliva Vukics":
+        "resembles Anna Maria van der Merwe 1785, a spouse in a South African (Cape) family; a given name and a year. This is a Karlobag baptism of 1785 to Vincentio Vukics and Oliva (FamilySearch index). Settled 17 October 2026.",
+    "Margaritha Maria Uroda":
+        "resembles Margaritha Žurga 1811, who is in the tree as born at Čabar, daughter of Josip Žurga and Jelena, wife of Pius Car, and dead in 1896. This is a Karlobag baptism of 1810 to Joanne Uroda and Maria (FamilySearch index); different surname, parents and place. Settled 17 October 2026.",
+    "Margaretha Kosinar":
+        "resembles Margaretha Wilhelmina Elizabeth Mary Kolbe 1826, born in 1826 in the tree. This row is a DEATH of 14 March 1826 of a Kosinar woman at Oberfeichting, parish Kranj-Šmartin (the death register, a Matricula Online scan); a death year is being matched to a birth year, and the families are different. Settled 17 October 2026.",
+    "Maria Kosinar the elder":
+        "resembles Maria Francina Elizabeth Kotze 1815, born in 1815 in the tree. This row is a DEATH of 27 February 1816 of a woman of 78 at Zubern, parish Kranj-Šmartin (the death register, a Matricula Online scan); a death year matched to a birth year, different family. Settled 17 October 2026.",
+    "Petrus, son of Joannes and Catharina Brozović (as read)":
+        "resembles Petrus Kruger 1785, a child in a South African (Cape) family; a given name and a year. This is a Selce baptism of 18 October 1784 (FamilySearch DGS 5482267, image 12). Settled 17 October 2026.",
+    "Anna, widow of Caetanus Bacchi (married Paulus Perpich)":
+        "resembles Anna Christina Elizabeth Hattingh 1759, Anna Johanna Maria Oosthuizen 1760 and Anna Catharina de Lange 1759, all South African (Cape) births. This row is a WIDOW remarrying at Karlobag on 20 October 1760 (FamilySearch DGS 5481649): a woman who had already been married, not a baby of 1759. Settled 17 October 2026.",
+    "Anna widow of Mate Blažević":
+        "resembles Anna Elizabeth Pretorius 1767 (twice), a South African (Cape) family; this row is a WIDOW marrying at Senj in March 1768 (FamilySearch waypoint 9RK1-W3P, image 82), a woman of a generation earlier. Settled 17 October 2026.",
+    "Maria Orešković widow bride of Savretić 1832":
+        "resembles Maria Fernasar Tornasar 1832, a spouse of an Istrian Defranceschi born in 1825, and Johanna Maria Susanna Schoeman 1832, a Cape child. This row is a WIDOW remarrying at Senj on 9 May 1832 (image 336); a woman born in 1832 cannot be a widow bride in 1832. Settled 17 October 2026.",
+    "Jacobus Žerković widower groom of 1856 with a Krmpotić widow bride":
+        "resembles Hendrik Bernardus Jacobus Van Biljon 1857, a Cape child born a year later; this row is a WIDOWER marrying at Senj in April 1856 (FamilySearch, image 375). Settled 17 October 2026.",
+    "Jacobus Blažević aged 10 died Senj April 1842":
+        "resembles Jacobus Nicolaas Booyzen 1841 and Petrus Jacobus Van Biljon 1843, Cape children; a different surname and a different country, matched on a given name and a year. This is a boy of 10 buried at Senj in April 1842 (FamilySearch, image 391). Settled 17 October 2026.",
+    "Maria Krmpotić daughter of Michael of St Salvator died Senj 1825":
+        "resembles Maria Rossiter 1824, Charlotte Maria D'Arcy 1825 and Catherine Maria Sophia Kolbe 1825, English and Cape births. This row is a death at Senj on 2 September 1825 of the daughter of a Michael Krmpotić of St Salvator (FamilySearch, image 439); a death year matched to birth years. Settled 17 October 2026.",
+    "Franciscus Pilipović aged 50 died Senj April 1839":
+        "resembles Franciscus Francesco Liberatus de Franceschi 1840, an Istrian child born the year after this man died aged 50 (born about 1789). Different surname, different life. FamilySearch, image 477. Settled 17 October 2026.",
+    "Franciscus Perpić aged 48 died Senj March 1840":
+        "resembles Franciscus Francesco Liberatus de Franceschi 1840, an Istrian child born in the year this man of 48 (born about 1792) died. FamilySearch, image 477. Settled 17 October 2026.",
+    "Petar Belobarbić aged 68 died Senj December 1849":
+        "resembles Petar Kovačina 1849, born 29 June 1849 at Draga and dead in 1904; this is a man of 68 (born about 1781) buried at Senj on 13 December 1849 (FamilySearch, image 535). Settled 17 October 2026.",
+    "Petar Župan infant died Senj May 1850":
+        "resembles Petar Kovačina 1849, whom the tree has born 29 June 1849 and dying on 3 November 1904, married to Ursula Stojčić; this Petar Župan was an infant who died at Senj on 31 May 1850 (FamilySearch, image 540). A different surname and an infant who did not live to 1904. Settled 17 October 2026.",
+    "Johannes Babić customs watchman aged 54 died Senj March 1851":
+        "resembles Johannes Petrus Botha 1852, a Cape child born the year after; this is a man of 54 (born about 1797) buried at Senj on 1 March 1851 (FamilySearch, image 548). Settled 17 October 2026.",
+    "Ursula Babić aged 3 died Senj August 1855":
+        "resembles Ursula Stojčić, whom the tree has born 30 August 1856 at Crikvenica and dead in 1938; this Ursula Babić was a child of 3 buried at Senj on 27 August 1855 (FamilySearch, image 570), a year before the other was born. Settled 17 October 2026.",
+    "Katarina Butković of Ledenice bride 1735":
+        "resembles Katarina, whom the tree has born 23 November 1736 at Crikvenica; this row is a BRIDE at Senj on 18 October 1735 (FamilySearch, image 10), a year before that Katarina was born. Settled 17 October 2026.",
+    "Franjo Butković of Karlobag groom 1736":
+        "resembles Franjo Stojčić, whom the tree has born 3 October 1736 at Crikvenica; this row is a GROOM at Senj on 13 February 1736 (FamilySearch, image 12), months before that Franjo was born, and the surname differs. Settled 17 October 2026.",
+    "Maria Borach Boras query bride 1816":
+        "resembles Maria Francina Elizabeth Kotze 1815, a Cape child born a year earlier; this row is a bride at Senj in May 1816 (FamilySearch, image 200). Settled 17 October 2026.",
 }
 
 
@@ -1087,24 +1131,7 @@ def year(s):
 # gate can say so and still fail for any OTHER row. Deciding one means moving it to
 # SETTLED with a reason, or taking the row out; the rows from 847 on need a human.
 PENDING_SINCE = "16 October 2026"
-PENDING = {
-    33: "Maria Uroda", 37: "Maria Catharina Uroda", 69: "Anna Oliva Vukics",
-    80: "Margaritha Maria Uroda", 116: "Margaretha Kosinar", 117: "Maria Kosinar the elder",
-    551: "Petrus, son of Joannes and Catharina Brozović (as read)",
-    556: "Anna, widow of Caetanus Bacchi (married Paulus Perpich)",
-    581: "Anna widow of Mate Blažević", 646: "Maria Orešković widow bride of Savretić 1832",
-    691: "Jacobus Žerković widower groom of 1856 with a Krmpotić widow bride",
-    702: "Jacobus Blažević aged 10 died Senj April 1842",
-    705: "Maria Krmpotić daughter of Michael of St Salvator died Senj 1825",
-    722: "Franciscus Pilipović aged 50 died Senj April 1839",
-    723: "Franciscus Perpić aged 48 died Senj March 1840",
-    774: "Petar Belobarbić aged 68 died Senj December 1849",
-    776: "Petar Župan infant died Senj May 1850",
-    782: "Johannes Babić customs watchman aged 54 died Senj March 1851",
-    815: "Ursula Babić aged 3 died Senj August 1855",
-    847: "Katarina Butković of Ledenice bride 1735", 848: "Franjo Butković of Karlobag groom 1736",
-    885: "Maria Borach Boras query bride 1816",
-}
+PENDING = {}
 
 
 def main():

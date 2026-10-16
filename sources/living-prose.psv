@@ -13,15 +13,4 @@
 # page. Removing a row here is the goal; adding one needs a reason.
 #
 # page|count|why
-arolsen|1|a date from a transcribed extract, printed with the card
-certificate|1|a date from a certificate transcribed in full
-sources|1|the same date, quoted in the account of the certificate
-people/marica-milkovic|1|a correction quotes a tree entry's birth date to show the tree is wrong
-people/domianus-perpic|1|a correction quotes a tree entry's birth date to show the tree is wrong
-people/maria-sojath|1|the same correction as on the husband's page
-impossible|1|a contradiction listed with the tree entry's own date
-corrections|3|the corrections quote the tree entries' dates side by side with the registers
-site/src/data/corrections.json|1|the corrections file quotes a tree entry's birth date to show the tree is wrong (hand-kept; it is the text of /corrections/)
-site/src/data/sources.json|1|the account of the certificate, quoting the same date (hand-kept; it is the text of /sources/)
-site/src/pages/arolsen.astro|1|the page source of /arolsen/: the same date as in the built page
-site/src/pages/certificate.astro|1|the page source of /certificate/: the same date as in the built page
+# EMPTIED 17 October 2026: every row above was removed when the dates came off the hand-written pages (decision A of 16 October 2026). No page may carry a living person's full date now; the kit's checkprose.py and tools/livingcheck.py rule GED-DATE both fail on one.
