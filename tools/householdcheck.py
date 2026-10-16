@@ -110,6 +110,11 @@ def rows():
 
 
 def main():
+    nrows = sum(1 for _ in rows())
+    if not nrows:
+        print("  FAIL  household  0 found.psv rows parsed (empty or not pipe-delimited) -- "
+              "nothing was examined")
+        sys.exit(1)
     household = household_names()
     given = given_names(household)
     bad = []

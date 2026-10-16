@@ -38,8 +38,10 @@ PAT   = re.compile(r"(?<![\w.])(" + NUM + r")\s*(?:</strong>\s*)?(?:</?[a-z][^>]
 
 # Years, ordinals and dates are not counts. 1,000-4,000 are almost always years here.
 def is_year(tok):
-    t = tok.replace(",", "")
-    return len(t) == 4 and t.isdigit() and 1400 <= int(t) <= 2100
+    # A comma means the author wrote a QUANTITY ("1,833 people"); a year is never written so.
+    if "," in tok:
+        return False
+    return len(tok) == 4 and tok.isdigit() and 1400 <= int(tok) <= 2100
 
 
 def allowed():
@@ -85,6 +87,9 @@ def main():
         for rel, ln, tok, noun, ctx in hits:
             print(f"  {rel}:{ln}  «{tok} {noun}»")
             print(f"      {ctx}")
+    if not pages:
+        print(f"  FAIL  numbers    0 data-backed pages under {PAGES} -- nothing was examined")
+        return 1
     if not hits:
         print(f"  ok    numbers    {pages} data-backed page(s), no hand-typed count")
         return 0

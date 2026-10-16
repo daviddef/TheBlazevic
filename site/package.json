@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4324",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:repo && npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav",
+    "build": "npm run check:pin && npm run check:repo && npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav",
     "preview": "astro preview --port 4324",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist \"${ARCHIVE_OUT:-dist}\"",
@@ -28,7 +28,8 @@
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --data src/data/people.json --born born --died died --max 1",
     "check:datalinks": "python3 ../tools/datalinks.py",
     "check:notes": "python3 ../tools/notescheck.py",
-    "check:household": "python3 ../tools/householdcheck.py"
+    "check:household": "python3 ../tools/householdcheck.py",
+    "check:snapshots": "python3 ../tools/snapshots.py"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#9c66e9cb99a5c855388ec29240013cb230b0f30d",

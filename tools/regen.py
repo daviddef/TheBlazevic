@@ -136,6 +136,10 @@ def check():
         return 1
     want = json.load(open(STAMP, encoding="utf-8"))["files"]
     have = stamp_now()
+    if not have or not want:
+        print(f"no derived files to compare (on disk {len(have)}, in stamp {len(want)}) -- "
+              f"refusing to call that a match")
+        return 1
     bad = []
     for f in sorted(set(want) | set(have)):
         if want.get(f) != have.get(f):

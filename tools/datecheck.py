@@ -174,6 +174,10 @@ def main():
             else:
                 bad.append((slug, kind, td, cands))
 
+    if not compared:
+        print("FAIL  datecheck compared 0 readings -- readings.psv is empty, mangled, or "
+              "no row carries a full date; a pass here would examine nobody")
+        return 1
     if orphans:
         print(f"FAIL  {len(orphans)} reading(s) name a person who does not exist:")
         for slug, kind, year in orphans:
@@ -204,7 +208,9 @@ def main():
               + (f", or disagrees in a way corrections.json already records "
                  f"({len(acknowledged)}: " + ", ".join(a[0] for a in acknowledged) + ")"
                  if acknowledged else ""))
-    elif acknowledged:
+    else:
+        print(f"datecheck: {compared} readings compared")
+    if quiet and acknowledged:
         print(f"datecheck: {len(acknowledged)} acknowledged disagreement(s): "
               + ", ".join(a[0] for a in acknowledged))
     return 0

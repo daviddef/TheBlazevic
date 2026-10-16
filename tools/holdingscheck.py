@@ -54,6 +54,10 @@ def main():
     held = {r[2]: r for r in rows("holdings.psv", 4) if r[2]}
     cat = {r[2]: r for r in rows("filmnotes.psv", 6)}
 
+    if not cat or not held:
+        print(f"FAIL  holdings.psv has {len(held)} film(s) and filmnotes.psv has {len(cat)}; "
+              f"nothing was compared, so nothing can be said to agree")
+        return 1
     fails = []
     missing = sorted(set(cat) - set(held))
     extra = sorted(set(held) - set(cat))
@@ -91,8 +95,7 @@ def main():
         for f in fails:
             print("      " + f)
         return 1
-    if not quiet:
-        print("ok    every film is in both files and no year is invented")
+    print(f"ok    holdings: {len(cat)} film(s) compared, every one in both files, no year invented")
     return 0
 
 
