@@ -1,9 +1,9 @@
 :root{
   --ground:#EDEBE5; --panel:#F7F6F2; --panel-2:#E3E1D9;
-  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#7C8A91;
+  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#59646A;
   --rule:#D3D0C7; --rule-strong:#B6B2A6;
   --accent:#8E2456; --accent-2:#B0396C; --accent-wash:#F3E3EB;
-  --ochre:#9A6B18; --terra:#A8442B;
+  --ochre:#835B14; --terra:#A8442B;
   --r-feudal:#7C8A91; --r-venice:#B08322; --r-habsburg:#3E5A66; --r-napo:#9184A8;
   --r-italy:#4E7A55; --r-german:#4A4340; --r-yugo:#A8442B; --r-croatia:#1F5C6B;
   --r-modern:#3F6B52;
@@ -15,7 +15,7 @@
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
-  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#83929A;
   --rule:#2A3841; --rule-strong:#3F515C;
   --accent:#E886B0; --accent-2:#F0A8C8; --accent-wash:#331A26;
   --ochre:#D2A24A; --terra:#D97A5F;
@@ -34,7 +34,7 @@
      D'Arcy palette and has to move with it, or the toggle disagrees with the
      system setting. */
   --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
-  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#83929A;
   --rule:#2A3841; --rule-strong:#3F515C;
   --accent:#E886B0; --accent-2:#F0A8C8; --accent-wash:#331A26;
   --ochre:#D2A24A; --terra:#D97A5F;
@@ -189,7 +189,7 @@ section.blk > .note + .note{margin-top:1.15rem}
 .house .parents{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}
 .house .par{flex:1;min-width:180px;font-family:var(--serif);font-size:18px;line-height:1.25;color:var(--ink);
   padding:10px 14px;border:1px solid var(--rule-strong);border-radius:2px;background:var(--ground)}
-.house .pl{display:block;font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.14em;
+.house .pl{display:block;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.14em;
   text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
 .house .join{width:26px;align-self:center;height:1.5px;background:var(--rule-strong);flex:0 0 26px}
 .house .drop{width:1.5px;height:20px;background:var(--rule-strong);margin:0 auto}
@@ -216,7 +216,7 @@ section.blk > .note + .note{margin-top:1.15rem}
 .gen .via{display:flex;flex-wrap:wrap;align-items:center;gap:9px;font-family:var(--sans);font-size:12.5px;
   color:var(--ink-2);margin:14px 0 10px;padding-left:2px}
 .gen .via b{color:var(--ink);font-weight:500}
-.ped .pl{display:block;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.14em;
+.ped .pl{display:block;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.14em;
   text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
 .ped .py{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:4px;
   font-variant-numeric:tabular-nums}
@@ -268,7 +268,7 @@ section.blk > .note + .note{margin-top:1.15rem}
   border:1px solid var(--accent);border-radius:2px;padding:2px 8px}
 .hc.kv{border-left-color:var(--r-croatia)} .hc.istria{border-left-color:var(--r-venice)}
 .hc.dalmatia{border-left-color:var(--r-yugo)}
-.hc.linked::after{content:"linked";font-family:var(--sans);font-size:9.5px;letter-spacing:.12em;
+.hc.linked::after{content:"linked";font-family:var(--sans);font-size:11px;letter-spacing:.12em;
   text-transform:uppercase;color:var(--accent)}
 .detail{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:20px 22px;
   position:sticky;top:112px;display:flex;flex-direction:column;gap:12px;max-height:78vh;overflow:auto}
@@ -281,7 +281,7 @@ section.blk > .note + .note{margin-top:1.15rem}
 .hit{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;padding:12px 4px;
   border-bottom:1px solid var(--rule);text-decoration:none;color:inherit;align-items:baseline}
 .hit:hover{background:var(--panel)}
-.hit .k{font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.13em;
+.hit .k{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink-3);padding-top:3px}
 .hit .t{font-family:var(--sans);font-size:14.5px;font-weight:500;color:var(--ink);line-height:1.35}
 .hit .s{font-family:var(--sans);font-size:12.5px;color:var(--ink-2);line-height:1.45;margin-top:2px}
@@ -321,7 +321,7 @@ section.blk > .note + .note{margin-top:1.15rem}
 /* ---- grouped navigation ---- */
 nav.grouped{display:flex;flex-wrap:wrap;gap:4px 22px;align-items:baseline}
 nav.grouped .grp{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 11px}
-nav.grouped .gl{font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.15em;
+nav.grouped .gl{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.15em;
   text-transform:uppercase;color:var(--ink-3);opacity:.75;margin-right:1px}
 nav.grouped a{font-family:var(--sans);font-size:13px;color:var(--ink-2);text-decoration:none;
   padding:2px 0;border-bottom:1.5px solid transparent}
@@ -356,7 +356,7 @@ nav.grouped a.on{color:var(--ink);border-bottom-color:var(--terra)}/* ---- navig
   nav.grouped .grp{display:flex;flex-wrap:wrap;gap:2px 20px;align-items:baseline;
     padding:12px 0 8px;border-bottom:1px solid var(--rule)}
   nav.grouped .grp:last-child{border-bottom:0}
-  nav.grouped .gl{display:block;flex:0 0 100%;margin-bottom:5px;font-size:9.5px;color:var(--ink-3)}
+  nav.grouped .gl{display:block;flex:0 0 100%;margin-bottom:5px;font-size:11px;color:var(--ink-3)}
   nav.grouped a{display:inline-block;font-size:15.5px;line-height:1.5;padding:5px 0;border-bottom:0}
   nav.grouped a.on{color:var(--terra);font-weight:600}
 }
@@ -477,7 +477,7 @@ header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 .topnav .panel a:hover{background:var(--accent-wash);color:var(--accent)}
 .topnav .panel a.on{color:var(--ink);font-weight:600;background:var(--panel-2)}
 .findbtn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;
-  text-decoration:none;margin-left:10px;color:#fff!important;background:var(--accent);
+  text-decoration:none;margin-left:10px;color:var(--on-accent)!important;background:var(--accent);
   padding:8px 15px;border-radius:999px;white-space:nowrap}
 .findbtn:hover{background:var(--accent-2)}
 .burger{display:none!important;align-items:center;gap:9px;font-family:var(--sans);font-size:13px;
@@ -486,7 +486,7 @@ header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 .drawer{border-top:1px solid var(--rule);background:var(--panel);padding:16px 0 22px;max-height:70vh;overflow:auto}
 .drawer .dgrp{padding:10px 0;border-bottom:1px solid var(--rule)}
 .drawer .dgrp:last-child{border-bottom:0}
-.drawer .gl{display:block;font-family:var(--sans);font-size:9.5px;font-weight:600;
+.drawer .gl{display:block;font-family:var(--sans);font-size:11px;font-weight:600;
   letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
 .drawer a{display:inline-block;font-family:var(--sans);font-size:14px;color:var(--ink-2);
   text-decoration:none;padding:5px 12px 5px 0}
@@ -626,9 +626,9 @@ li{margin:5px 0}/* the hero{position:relative;margin:0 0 10px;border-radius:14px
 .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.6rem}
 .btn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;
   font-weight:600;letter-spacing:.02em;text-decoration:none;border-radius:3px;
-  padding:12px 16px;background:var(--accent);color:#FBF8F1;border:1px solid var(--accent);
+  padding:12px 16px;background:var(--accent);color:var(--on-accent);border:1px solid var(--accent);
   transition:background .15s,border-color .15s,color .15s}
-.btn:hover{background:var(--accent-2);border-color:var(--accent-2);color:#FBF8F1}
+.btn:hover{background:var(--accent-2);border-color:var(--accent-2);color:var(--on-accent)}
 .btn.ghost{background:transparent;color:var(--accent);border-color:var(--rule-strong)}
 .btn.ghost:hover{background:var(--accent-wash);border-color:var(--accent);color:var(--accent)}
 
@@ -706,7 +706,7 @@ ul.eventlog .lab{display:inline-block;margin-right:10px}
 ul.srclist{list-style:none;padding:0}
 
 /* Small inline marker beside a name in the register */
-.tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+.tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--accent);border:1px solid var(--accent-wash);background:var(--accent-wash);
   border-radius:2px;padding:1px 5px;margin-left:8px;vertical-align:2px}
 
@@ -766,7 +766,7 @@ ul.kin .yrs{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-l
   border:1px solid var(--rule-strong);background:var(--panel);color:var(--ink-2);cursor:pointer;
   transition:background .12s,border-color .12s,color .12s}
 .chip:hover{border-color:var(--accent);color:var(--accent)}
-.chip.on{background:var(--accent);border-color:var(--accent);color:#FBF8F1}
+.chip.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
 .count{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:12px}
 
 /* A correction, shown on the person's own page rather than buried in prose */
@@ -809,11 +809,22 @@ a.wholink:hover{border-bottom-style:solid;color:var(--accent)}
    and sit at 3.3-4.4:1 on the panel, which is under the line for 10px
    uppercase, so the two levels that used them get dedicated values instead —
    checked against all four light papers and all three dark ones. */
-:root{ --ev-inferred:#7A5200; --ev-family:#5F584A; }
+:root{ --ev-inferred:#7A5200; --ev-family:#5F584A;
+  --on-accent:#FFFFFF; --paper:var(--panel); --bad:#9B2C2C;
+  /* state colours the kit's work list and the errands page set inline as hex; the hex is
+     kept for the border and the dot, and the TEXT in that colour reads from these */
+  --st-draft:#B04A16; --st-sent:#7A5C00; --st-answered:#12703F;
+  --wl-running:#1E5F8C; --wl-next:#865A0D; --wl-blocked:#A54515; --wl-done:#12703F; --wl-struck:#626262; }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --ev-inferred:#E0B45C; --ev-family:#B0A796;
+  --on-accent:#101820; --bad:#D87474;
+  --st-draft:#E56E31; --st-sent:#B78A00; --st-answered:#1BA65D;
+  --wl-running:#3E98D6; --wl-next:#E9A020; --wl-blocked:#E56E31; --wl-done:#1BA65D; --wl-struck:#919191;
 }}
-:root[data-theme="dark"]{ --ev-inferred:#E0B45C; --ev-family:#B0A796; }
+:root[data-theme="dark"]{ --ev-inferred:#E0B45C; --ev-family:#B0A796;
+  --on-accent:#101820; --bad:#D87474;
+  --st-draft:#E56E31; --st-sent:#B78A00; --st-answered:#1BA65D;
+  --wl-running:#3E98D6; --wl-next:#E9A020; --wl-blocked:#E56E31; --wl-done:#1BA65D; --wl-struck:#919191; }
 
 /* ---- the shared evidence ladder --------------------------------------- *
  * Five levels, one meaning across all seven archives. Colour carries the
@@ -876,3 +887,39 @@ a.wholink:hover{border-bottom-style:solid;color:var(--accent)}
 .ksearch input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 /* a letter draft holds long URLs and addresses; on /errands/ one of them pushed the page to 675px on a phone */
 .er-draft,.er-draft p,.er-row{overflow-wrap:anywhere;word-break:break-word}
+
+/* ---- phone width (16 October 2026 audit) -------------------------------
+   Pages were 1-130px wider than a 390px phone for three reasons. A long
+   unbroken citation or address (a FamilySearch URL in a note, or in the
+   place line under the heading) cannot wrap, so it pushes the whole column
+   out. A one-column grid track defaults to min-content, so a card holding a
+   table of long place names was as wide as its longest name. And the
+   citation table on a person page is wider than the phone. Wrap the long
+   strings, let the track shrink, and let a table scroll inside itself. */
+main{overflow-wrap:break-word}
+blockquote.note,.pagehead .dek,.src,.eventlog li,.credit,figcaption{overflow-wrap:anywhere}
+@media (max-width:600px){
+  .grid.two{grid-template-columns:minmax(0,1fr)}
+  .card{min-width:0}
+}
+
+/* ---- contrast: the shared components' own colours (16 October 2026) -------
+   The person chart takes its node ground from --paper, which this stylesheet never
+   defined, so it fell back to white in BOTH schemes and drew pale ink on white in
+   the dark one (1.25:1). The kit's work list and errands rows colour their state
+   words with fixed hex values written for a light page; the same words are drawn
+   here from variables that change with the scheme. The kit is not edited. */
+.ptree .mar,.ptree .via{font-size:11px}
+.wl-lab span[style*="1E5F8C" i]{color:var(--wl-running)!important}
+.wl-lab span[style*="E9A020" i]{color:var(--wl-next)!important}
+.wl-lab span[style*="B04A16" i],.wl-stale{color:var(--wl-blocked)!important}
+.wl-lab span[style*="12703F" i]{color:var(--wl-done)!important}
+.wl-lab span[style*="7A7A7A" i]{color:var(--wl-struck)!important}
+.wl-pill[data-wl="running"]{--c:var(--wl-running)!important}
+.wl-pill[data-wl="next"]{--c:var(--wl-next)!important}
+.wl-pill[data-wl="blocked"]{--c:var(--wl-blocked)!important}
+.wl-pill[data-wl="done"]{--c:var(--wl-done)!important}
+.wl-pill[data-wl="struck"]{--c:var(--wl-struck)!important}
+main .ptree .via-disputed .via,main .ptree .node.disputed .via,main .ptree .node.disputed .nm::after{color:var(--bad)}
+/* the opening line sits on the photograph, above the part of the caption the gradient reaches */
+.hero .kick{text-shadow:0 1px 4px rgba(8,22,28,.85)}
