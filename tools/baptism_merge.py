@@ -8,14 +8,17 @@ to disk here before the next one. Only lines whose place is the parish of Senj (
   baptism_merge.py RESULT.json
 """
 import json, os, re, sys
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "sources", "senj-baptism-index2.tsv")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# default: Senj. For another parish: baptism_merge.py RESULT.json "Krivi Put" krivi-put-baptism-index.tsv
+PLACE = sys.argv[2] if len(sys.argv) > 2 else "Senj"
+OUT = os.path.join(ROOT, "sources", sys.argv[3] if len(sys.argv) > 3 else "senj-baptism-index2.tsv")
 t = json.load(open(sys.argv[1]))[0]["text"]
 t, _ = json.JSONDecoder().raw_decode(t)
 d = json.loads(t)
 have = set()
 if os.path.exists(OUT):
     have = {l.split("\t")[0] for l in open(OUT, encoding="utf-8") if l.strip()}
-new = [l for l in d["lines"] if re.search(r"@Senj\b", l) and l.split("\t")[0] not in have]
+new = [l for l in d["lines"] if re.search(r"@" + re.escape(PLACE) + r"\b", l) and l.split("\t")[0] not in have]
 with open(OUT, "a", encoding="utf-8") as f:
     for l in new: f.write(l + "\n")
 print("polled %d, new Senj %d, total %d, queue %s, done %s" % (d["n"], len(new), len(have) + len(new), d["q"],
