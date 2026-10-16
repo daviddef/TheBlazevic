@@ -160,7 +160,12 @@ export function descentOf(keys, onSpine = new Set(), found = [], pred = null) {
      description comes after it; a surname that turns up later is somebody
      else's spouse, and is deliberately not matched. */
   const words = (n) => String(n).split(" ");
+  /* A found row that carries an ahnentafel number is one of the two (Georgius and Maria Uroda,
+     ahnentafel 108 and 109) that publishing blood put in the tree and on /people/; they have no
+     /found/ page, and they are already in `ours`. Listing them again as «not yet in the family
+     tree» was wrong and made two dead links the day Uroda got its own page. */
   const mine = found.filter((r) => {
+    if (r.ahn) return false;
     const w = words(r.name);
     return keys.includes(surnameGroup(w[w.length - 1])) ||
       w.slice(1, 4).some((t) => keys.includes(surnameGroup(t)));
