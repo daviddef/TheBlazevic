@@ -131,8 +131,7 @@ media does not export. They changed the archive's own conclusions:
 - **The Blažević grave at Senj** carries **OTO BLAŽEVIĆ ✳1923 †1945** and, on a later plaque,
   **LEO** and **KATA** — corroborating Nives Blažević's account of Oto's death in exact detail,
   including two burials added sixty years afterwards.
-- **A sworn translation of the Yugoslav birth extract for Ivan Defranceski** (Senj Hospital,
-  17 December 1951; reg. 152/1954) confirms Hedviga's own birth from a state record, gives her
+- **A sworn translation of the Yugoslav birth extract for Ivan Defranceski** (reg. 152/1954) confirms Hedviga's own birth from a state record, gives her
   husband's nationality as **Italian**, and was certified for the **Supreme Court of South
   Africa** — emigration paperwork as well as a birth record.
 - **Three Arolsen Archives cards** place Hedviga's husband, aged **sixteen**, in Germany:

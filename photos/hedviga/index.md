@@ -27,7 +27,7 @@ civil-registration document in this archive.
 > TRANSLATION FROM THE CROATIAN ORIGINAL · FEDERAL NATIONAL REPUBLIC OF YUGOSLAVIA · NATIONAL
 > REPUBLIC OF CROATIA · Region: Senj · Reg. number 152/1954
 
-- **Child:** DEFRANCESKI, IVAN, male — born **17 December 1951 at 11:30**, **Senj Hospital**.
+- **Child:** DEFRANCESKI, IVAN, male.
   Entered in the 1951 register at page 252, ordinal number 110, on **22 December 1951**, on the
   written notice of the Regional Hospital, Senj, no. 595/51.
 - **Father:** Ivan Defranceski, born **25.06.1925 at Crikvenica**; citizenship Croatian/Yugoslav;

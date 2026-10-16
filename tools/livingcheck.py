@@ -542,24 +542,28 @@ def first_dates(text, forbid, owners_names):
     return found
 
 
-DATA_EXT = (".json", ".tsv", ".psv", ".csv", ".txt", ".xml")
+BINARY_EXT = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf", ".woff", ".woff2", ".ttf",
+              ".zip", ".gz", ".mp4", ".mov")
 
 
 def tracked_corpus():
-    """Every TRACKED data file (json, tsv, psv, csv, txt, xml), by `git ls-files`
-    and not by walking the disk: a file that is not tracked is not one the
-    repository will publish, and the gate that scans the disk would pass on files
-    the build is about to ship (rule FILES-UNTRACKED closes the other half)."""
+    """EVERY TRACKED TEXT FILE (data, tsv, psv, markdown, README, notes, templates,
+    scripts), by `git ls-files` and not by walking the disk: a file that is not
+    tracked is not one the repository will publish, and a gate that scans the disk
+    passes on files the build is about to ship (rule FILES-UNTRACKED closes the other
+    half). Every committed file in these repositories is public, so a living
+    person's date in a README or a note is as public as one on a page."""
     out = {}
     files = tracked_files()
     if files is None:
         return out
     for f in files:
-        if not f.endswith(DATA_EXT) or f.endswith("package-lock.json"):
+        if f.lower().endswith(BINARY_EXT) or f.endswith("package-lock.json"):
             continue
         try:
-            out["tracked:" + f] = open(os.path.join(ROOT, f), encoding="utf-8", errors="replace").read()
-        except OSError:
+            with open(os.path.join(ROOT, f), encoding="utf-8") as fh:
+                out["tracked:" + f] = fh.read()
+        except (OSError, UnicodeDecodeError):
             pass
     return out
 
@@ -988,6 +992,27 @@ def selftest_ged(w):
     if hd:
         res.append(scan("a held-out person's date beside their name", "GED-DATE",
                         {"tracked:site/src/data/x.json": f'{{"n":"{ged.display[held_dated]}","d":"{hd}"}}'}))
+    # THE TWO FILES THAT WERE NOT SCANNED, and every other tracked text file: a living
+    # person's full date in a README or a note. The planted person and date are
+    # synthetic (a name no one has and the year 1799), fed through the same
+    # machinery that holds the real dates.
+    forms = date_forms("3 MAY 1799")
+    ged.forbid.update({f: {"@IZZ@"} for f in forms})
+    ged.owner_names["@IZZ@"] = {"zzplant zzperson"}
+    try:
+        tc = tracked_corpus()
+        for path in ("README.md", "photos/hedviga/index.md"):
+            on = f"tracked:{path}" in tc
+            print(f"  {'caught ' if on else 'MISSED '}   {path} is in the scanned set of tracked files  [GED-DATE]")
+            res.append(on)
+            res.append(scan(f"a living person's full date (planted, 1799) in {path}", "GED-DATE",
+                            {f"tracked:{path}": "Zzplant Zzperson, born 3 May 1799, extract"}))
+        res.append(scan("the same in a tracked note", "GED-DATE",
+                        {"tracked:notes/x.md": "Zzplant Zzperson 3 May 1799"}))
+    finally:
+        for f in forms:
+            ged.forbid.pop(f, None)
+        ged.owner_names.pop("@IZZ@", None)
     res.append(data("a person the rule HOLDS OUT given a living page", "GED-DEAD",
                     lambda w2: (w2["living"].append({"slug": "zzplant", "name": "Zz Plant", "town": "", "country": "",
                                                      "living": True, "rel": {}}), w2["ledger"].__setitem__("zzplant", held_i))))
