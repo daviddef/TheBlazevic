@@ -1079,6 +1079,34 @@ def year(s):
     return int(m.group(1)) if m else None
 
 
+# ROWS NOBODY HAS DECIDED YET, by LINE NUMBER in sources/found.psv and by name (a row
+# that moves or is renamed stops being pending and fails again). NOT SETTLED: a
+# settle is a research judgement, and none was made. On 16 October 2026 the archive
+# began publishing every person it names (undated people and in-laws included), so
+# more tree names became candidates for these historic rows. Each is listed so the
+# gate can say so and still fail for any OTHER row. Deciding one means moving it to
+# SETTLED with a reason, or taking the row out; the rows from 847 on need a human.
+PENDING_SINCE = "16 October 2026"
+PENDING = {
+    33: "Maria Uroda", 37: "Maria Catharina Uroda", 69: "Anna Oliva Vukics",
+    80: "Margaritha Maria Uroda", 116: "Margaretha Kosinar", 117: "Maria Kosinar the elder",
+    551: "Petrus, son of Joannes and Catharina Brozović (as read)",
+    556: "Anna, widow of Caetanus Bacchi (married Paulus Perpich)",
+    581: "Anna widow of Mate Blažević", 646: "Maria Orešković widow bride of Savretić 1832",
+    691: "Jacobus Žerković widower groom of 1856 with a Krmpotić widow bride",
+    702: "Jacobus Blažević aged 10 died Senj April 1842",
+    705: "Maria Krmpotić daughter of Michael of St Salvator died Senj 1825",
+    722: "Franciscus Pilipović aged 50 died Senj April 1839",
+    723: "Franciscus Perpić aged 48 died Senj March 1840",
+    774: "Petar Belobarbić aged 68 died Senj December 1849",
+    776: "Petar Župan infant died Senj May 1850",
+    782: "Johannes Babić customs watchman aged 54 died Senj March 1851",
+    815: "Ursula Babić aged 3 died Senj August 1855",
+    847: "Katarina Butković of Ledenice bride 1735", 848: "Franjo Butković of Karlobag groom 1736",
+    885: "Maria Borach Boras query bride 1816",
+}
+
+
 def main():
     quiet = "--quiet" in sys.argv
     people = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8"))
@@ -1102,12 +1130,13 @@ def main():
         p = by.get(slug)
         return [q.get("name") for q in ((p or {}).get("rel", {}) or {}).get("parents") or []]
 
-    rows = []
-    for line in open(FOUND, encoding="utf-8"):
+    rows, lineno = [], {}
+    for n, line in enumerate(open(FOUND, encoding="utf-8"), 1):
         line = line.rstrip("\n")
         if not line.strip() or line.startswith("#") or line.count("|") != 6:
             continue
         rows.append([x.strip() for x in line.split("|")])
+        lineno.setdefault(rows[-1][0], n)
 
     problems = []
     for name, ahn, relation, event, date, place, cite in rows:
@@ -1145,10 +1174,12 @@ def main():
         if uniq:
             problems.append((name, fy, uniq))
 
-    unsettled = [p for p in problems if p[0] not in SETTLED]
+    pending = lambda name: PENDING.get(lineno.get(name)) == name
+    unsettled = [p for p in problems if p[0] not in SETTLED and not pending(p[0])]
+    npending = sum(1 for p in problems if p[0] not in SETTLED and pending(p[0]))
     if not quiet:
         for name, fy, uniq in problems:
-            mark = "settled" if name in SETTLED else "UNSETTLED"
+            mark = "settled" if name in SETTLED else ("PENDING" if pending(name) else "UNSETTLED")
             print(f"  {mark:9} {name} ({fy or 'no year'}) — {len(uniq)} candidate(s)")
             for cname, cy, src, cslug, bp in uniq[:4]:
                 flagp = " ← PARENTS AGREE" if bp else ""
@@ -1156,7 +1187,10 @@ def main():
             if name in SETTLED:
                 print(f"            settled: {SETTLED[name]}")
     print(f"found.psv — {len(rows)} people, {len(problems)} resemble somebody in the tree, "
-          f"{len(unsettled)} of them unsettled")
+          f"{len(unsettled)} of them unsettled"
+          + (f", and {npending} PENDING a research decision since {PENDING_SINCE} (rows "
+             + ", ".join(str(lineno[p[0]]) for p in problems if p[0] not in SETTLED and pending(p[0]))
+             + ")" if npending else ""))
     if unsettled:
         print("\nA found.psv row claims somebody is NOT in the tree and they look like "
               "somebody who is.\nDecide, then add the name to SETTLED in this file with "

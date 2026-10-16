@@ -923,3 +923,7 @@ blockquote.note,.pagehead .dek,.src,.eventlog li,.credit,figcaption{overflow-wra
 main .ptree .via-disputed .via,main .ptree .node.disputed .via,main .ptree .node.disputed .nm::after{color:var(--bad)}
 /* the opening line sits on the photograph, above the part of the caption the gradient reaches */
 .hero .kick{text-shadow:0 1px 4px rgba(8,22,28,.85)}
+
+/* The kit's descent card (.dsc-rail / .dsc-card) is 380px wide inside a 354px column on a phone:
+   /kosina/ measured 398px at a 390px width after the kit re-pin of 16 October 2026. Let it shrink. */
+.dsc-rail,.dsc-card{max-width:100%;min-width:0;box-sizing:border-box}
