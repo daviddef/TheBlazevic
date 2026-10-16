@@ -64,6 +64,36 @@ FAMILIES = [
     ("spalj",       "Špalj",       "of Senj and Krmpote — a lieutenant of 1747 and the women who outlived him"),
 ]
 
+# FAMILY PAGES THAT DO NOT OPEN A DOOR. Added 17 October 2026 (family-pages audit).
+# These twelve are names the direct line itself carries - an ancestor of Hedviga
+# is a Lončarić, an Uroda, a Smojver - and each has had no page of its own, only a
+# row on /connected/. A page here is built from people the archive ALREADY
+# publishes (by blood, by the direct line, by the parents closure), so a name in
+# this list is NOT a door in `keys_all` below: adding a surname there would
+# publish every bearer of it in the GEDCOM, and the brief was to describe the
+# archive's people, not to add to them. The keys are the archive's own fold()
+# keys (surnames.json already groups the spellings); "Smojver Vukić" is the tree's
+# double surname and the lines page says Smojver is the byname of a Vukić
+# household at Karlobag; "Shambul Marić" is the tree's name for Marić (notes/
+# ana-sumbul-maric.md: "the surname to search is Marić"). Nothing is merged that
+# the archive has not already grouped in its own notes.
+# (slug, label, gloss, fold keys). The gloss says only what the data says.
+PAGE_FAMILIES = [
+    ("loncaric",  "Lončarić",  "of Selce and Senj — on the direct line at ahnentafel 49 and 98", ["loncaric"]),
+    ("oreskovic", "Orešković", "of Otočac — on the direct line at ahnentafel 21 and 42", ["oreskovic"]),
+    ("sekula",    "Sekula",    "on the direct line at ahnentafel 43, 84 and 86", ["sekula"]),
+    ("maric",     "Marić",     "ahnentafel 11 and 22, whom the tree files under «Shambul Marić»", ["maric", "shambul maric"]),
+    ("antic",     "Antić",     "of Selce — on the direct line at ahnentafel 24, 48 and 96", ["antic"]),
+    ("pilipic",   "Pilipić",   "of Karlobag — on the direct line at ahnentafel 13, 26, 52 and 104", ["pilipic"]),
+    ("brozovic",  "Brozović",  "on the direct line at ahnentafel 51 and 102", ["brozovic"]),
+    ("jellicic",  "Jelličić",  "of Selce — on the direct line at ahnentafel 25, 50 and 100", ["jellicic"]),
+    ("uroda",     "Uroda",     "of Karlobag — on the direct line at ahnentafel 27, 54, 108 and 109", ["uroda"]),
+    ("luckinic",  "Luckinić",  "of Karlobag — on the direct line at ahnentafel 105, 210 and 211", ["luckinic"]),
+    ("gerkacs",   "Gerkacs",   "of Karlobag, written Gerkacs (Gergacs) in the tree — ahnentafel 55, 110 and 220", ["gerkacs"]),
+    ("smojver",   "Smojver",   "of Karlobag, called Vukić — ahnentafel 53, 106 and 212", ["smojver", "smojver vukic"]),
+]
+PAGE_KEYS = {sl: ks for sl, _, _, ks in PAGE_FAMILIES}
+
 # Placeholder rows the working tree carries that are not people at all: sorting
 # buckets, "to be sorted" stubs, and bracketed group labels. These are research
 # scaffolding, not ancestors, and publishing them as people would be a lie.
@@ -249,7 +279,8 @@ def person(p, ahn=None):
             for e in p["events"] if e["kind"] not in ("occupation",)
         ],
     }
-    out["family"] = next((sl for sl, ks in SURNAMES.items() if fold(p["surname"]) in ks), None)
+    out["family"] = next((sl for sl, ks in SURNAMES.items() if fold(p["surname"]) in ks), None) \
+        or next((sl for sl, ks in PAGE_KEYS.items() if fold(p["surname"]) in ks), None)
     if ahn:
         out["ahn"], out["gen"] = ahn, gen_of(ahn)
     return out
@@ -585,8 +616,8 @@ def main():
     dump("people.json", reg)
 
     fam = []
-    for sl, label, dek in FAMILIES:
-        ks = SURNAMES[sl]
+    for sl, label, dek in FAMILIES + [(s, l, d) for s, l, d, _ in PAGE_FAMILIES]:
+        ks = SURNAMES.get(sl) or PAGE_KEYS[sl]
         rows = [r for r in reg if fold(r["surname"]) in ks]
         yrs = [r["byear"] for r in rows if r["byear"]]
         pls = collections.Counter(canonical_place(r["bornPlace"]) for r in rows if r["bornPlace"])

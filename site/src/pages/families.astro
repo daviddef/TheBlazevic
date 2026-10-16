@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import { COPY } from "../lib/familyCopy.js";
 import { householdsOf, familyKeys } from "../lib/households.js";
+import marriedin from "../data/marriedin.json";
 
 /* 22 September 2026. The card is the kit's. What this archive can put behind
    the claim is NOT people — it has no member list — so it gives what it does
@@ -26,8 +27,7 @@ const OURS = ["blazevic", "zubrinic", "papic", "prpic"];
 const HH = Object.fromEntries(
   families.map((f) => [f.slug, householdsOf(familyKeys(f.slug)).length]));
 
-const groups = [{
-  rows: families.map((f) => ({
+const rowOf = (f) => ({
     label: f.label,
     href: COPY[f.slug] ? `/${f.slug}/` : null,
     hrefLabel: COPY[f.slug] ? "The family" : null,
@@ -37,15 +37,30 @@ const groups = [{
     facts: [
       ["Births span", `${f.earliest ?? "?"} – ${f.latest ?? "?"}`],
       ["Spellings", String(f.spellings.length)],
-      ["Chief place", f.places[0] ? f.places[0][0] : "—"],
+      ["Chief place", f.places[0] ? f.places[0][0].split(",")[0] : "—"],
       ["Couples", HH[f.slug] ? String(HH[f.slug]) : "none recorded"],
     ],
-  })),
-}];
+  });
+/* TWELVE MORE, 17 OCTOBER 2026. The thirteen above are the families the archive set out to follow.
+   The twelve below are the names the direct line itself carries - an ancestor of Hedviga is a
+   Lončarić, an Uroda, a Smojver - and until today each was a row on /connected/ and nothing more.
+   They are marked by `auto` in familyCopy.js; the list is that, not a second hand-kept one. */
+const isAuto = (f) => COPY[f.slug] && COPY[f.slug].auto;
+const first = families.filter((f) => !isAuto(f));
+const direct = families.filter(isAuto);
+/* The names on /connected/ that still have no page, read off marriedin.json against the pages there are. */
+const has = (k) => families.some((f) => familyKeys(f.slug).includes(k));
+const pending = marriedin.filter((m) => !has(m.key) && !m.key.split(" ").every(has));
+const groups = [
+  { label: "The names the archive set out to follow", rows: first.map(rowOf) },
+  { label: "The other names on the direct line",
+    note: "each is carried by an ancestor of Hedviga, and each page is built from the archive's own data",
+    rows: direct.map(rowOf) },
+];
 ---
 <Base title="The Families"
-  eyebrow="Thirteen surnames"
-  dek="The four that make Hedviga's grandparents, and nine more that married into them or sit beside them in the registers. Counts are of published people who have died; the living are named on their own pages and are not counted here."
+  eyebrow={`${families.length} surnames`}
+  dek={`The four that make Hedviga's grandparents, nine more that married into them or sit beside them in the registers, and ${direct.length} more that the direct line itself carries. Counts are of published people who have died; the living are named on their own pages and are not counted here.`}
 >
   <section class="blk">
     <Families groups={groups} u={u} html={false} />
@@ -58,5 +73,12 @@ const groups = [{
     and from the Senj marriage-and-death volume read in October 2026, and Tomljanović holds
     ahnentafel 111. Most are not ancestors of Hedviga; they are the surrounding world.
     <a href={u("/people/")}>The full register →</a></p>
+    <p class="note">The {direct.length} in the second list are surnames of Hedviga&rsquo;s own ancestors that had a row on
+    <a href={u("/connected/")}>the families who married in</a> and no page; they are taken in the order of direct
+    ancestors first and then published people, and the twelve is a cap, not a finding.
+    {pending.length > 0 && <>{pending.length === 1 ? "One name" : `${pending.length} names`} on that list still
+    {pending.length === 1 ? " has" : " have"} no page: {pending.map((m) => m.label).join(", ")}.</>}
+    Each page says only what the archive&rsquo;s data says, and says how well each person is known.
+    <a href={u("/marriages/")}>The marriages, in full →</a></p>
   </section>
 </Base>

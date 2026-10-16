@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan } from "../../lib/people.js";
+import { COPY } from "../../lib/familyCopy.js";
 import { md } from "@daviddef/archive-kit/lib/md.js";
 import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
@@ -235,7 +236,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
       {occ.length > 0 && (
         <tr><th>Occupation</th><td>{occ.map((o) => (
           <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
-      {p.family && <tr><th>Line</th><td><a href={u(`/${["blazevic","zubrinic","papic","prpic"].includes(p.family) ? p.family : "families"}`)}>{p.surname}</a> · <a href={u(`/people/?fam=${p.family}`)}>everyone of the name →</a></td></tr>}
+      {p.family && <tr><th>Line</th><td><a href={u(`/${COPY[p.family] ? p.family : "families"}`)}>{p.surname}</a> · <a href={u(`/people/?fam=${p.family}`)}>everyone of the name →</a></td></tr>}
       {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}{p.gen === 1 ? "" : ", a direct ancestor of Hedviga"}</td></tr>}
       <tr><th>Record</th><td class="mono">{p.id}</td></tr>
     </table>

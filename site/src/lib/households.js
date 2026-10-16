@@ -18,9 +18,14 @@ import { displayName, alsoRecordedAs } from "./displayName.js";
 
 const BY_ID = new Map(people.map((p) => [p.id, p]));
 
-export function householdsOf(keys, onSpine = new Set()) {
+/* `pred`, when given, replaces the surname test. The twelve families added on 17 October
+   2026 pick their people by `p.family` (set by tools/build_site_data.py from the archive's
+   own fold(), which collapses «Orešković / Oreskovic»); surnameGroup() does not collapse a
+   slash and would have left seven of Orešković's thirteen off the page. The older families
+   are untouched and still pass no predicate. */
+export function householdsOf(keys, onSpine = new Set(), pred = null) {
   const rows = people
-    .filter((p) => keys.includes(surnameGroup(p.surname)))
+    .filter(pred || ((p) => keys.includes(surnameGroup(p.surname))))
     .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
 
   const seen = new Set();
@@ -73,6 +78,10 @@ export function householdsOf(keys, onSpine = new Set()) {
 /* Perpic folds into Prpic, as everywhere else here. */
 export const familyKeys = (slug) => ({
   prpic: ["prpic", "perpic"],
+  /* The two families whose tree surname is a double: see PAGE_FAMILIES in
+     tools/build_site_data.py for why each is the family it is. */
+  maric: ["maric", "shambul maric"],
+  smojver: ["smojver", "smojver vukic"],
   /* The Karlobag index writes Tomljanović as Tomljenovich, and the Senj
      register as Tomjanovich. Same name, same families of Latin scribes. */
   tomljanovic: ["tomljanovic", "tomljenovic", "tomjanovic"],
@@ -95,10 +104,10 @@ export const familyKeys = (slug) => ({
  * SIBLINGS COME FROM EACH SIDE'S OWN RECORD, never from the other's, so the
  * two columns say what each person's family actually is.
  */
-export function descentOf(keys, onSpine = new Set(), found = []) {
+export function descentOf(keys, onSpine = new Set(), found = [], pred = null) {
   const BY_ID2 = new Map(people.map((p) => [p.id, p]));
   const ours = people
-    .filter((p) => keys.includes(surnameGroup(p.surname)))
+    .filter(pred || ((p) => keys.includes(surnameGroup(p.surname))))
     .sort((a, b) => (a.byear || 9999) - (b.byear || 9999));
 
   const card = (x) => {

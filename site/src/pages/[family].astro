@@ -7,6 +7,12 @@ import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { householdsOf, descentOf, familyKeys } from "../lib/households.js";
 import FOUND from "../data/found.json";
 import line from "../data/line.json";
+import { people as ALL, surnameGroup } from "../lib/people.js";
+import evidence from "../data/evidence.json";
+import readings from "../data/readings.json";
+import snapshots from "../data/snapshots.json";
+import linesData from "../data/lines.json";
+import questions from "../data/questions.json";
 
 export function getStaticPaths() {
   return Object.keys(COPY).map((slug) => ({ params: { family: slug } }));
@@ -32,7 +38,12 @@ const keys = familyKeys(family);
    households builder's *count* of empty/single-parent couples was worth
    keeping, so it stays, feeding the one honesty note below; the cards and
    the flat table do not. */
-const households = householdsOf(keys, new Set(line.map((g) => g.id)));
+/* THE TWELVE FAMILIES ADDED ON 17 OCTOBER 2026 (copy.auto) pick their people by p.family,
+   which tools/build_site_data.py sets from the archive's own fold() — so «Orešković /
+   Oreskovic» is one family here as it is on /name/. The older families keep the surname test. */
+const auto = !!copy.auto;
+const pred = auto ? (p) => p.family === family : null;
+const households = householdsOf(keys, new Set(line.map((g) => g.id)), pred);
 const childless = households.filter((h) => !h.children.length).length;
 const soleParent = households.filter((h) => !h.spouse).length;
 
@@ -47,9 +58,105 @@ const soleParent = households.filter((h) => !h.spouse).length;
    a pill saying which side of the tree they fall on — a fact about the
    MyHeritage export, not about the evidence. */
 const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }));
-const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || []);
+const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [], pred);
+
+/* ---- THE AUTO FAMILIES: everything below is read off the archive's data -------------------
+   Nothing in this block is a claim of its own. The people are the published people of the
+   name; the states are evidence.json's; the readings and snapshots are the ones already
+   attached to those people (readings.json, snapshots.json, in the research owner's words);
+   the lane text is lines.json's; the ties are the spouses and parents the tree records. */
+const mine = auto ? ALL.filter((p) => p.family === family).sort((a, b) => (a.byear || 9999) - (b.byear || 9999)) : [];
+const direct = mine.filter((p) => p.ahn).sort((a, b) => a.ahn - b.ahn);
+const EVLABEL = {
+  read: "Read", line: "Direct line", scanned: "Scanned, not read",
+  indexed: "In an index", tree: "Tree only", disputed: "Disputed",
+};
+const EVSAYS = {
+  read: "a register or certificate has been read for this person",
+  line: "a direct ancestor, with no record of their own read here",
+  scanned: "an image is attached to them that has not been read out",
+  indexed: "an index names them — somebody else’s transcription, not a document read here",
+  tree: "everything here comes from the family tree, and is unverified",
+  disputed: "this archive has shown something recorded about them to be wrong",
+};
+const stateOf = (p) => (evidence[p.slug] || { state: "tree" }).state;
+const states = Object.keys(EVLABEL)
+  .map((k) => [k, mine.filter((p) => stateOf(p) === k).length])
+  .filter(([, n]) => n > 0);
+const foundOnly = auto ? everyone.length - mine.length : 0;
+
+/* One entry that names two people (a baptism names father and mother) is ONE reading, so
+   the rows are merged on year and citation and the people listed together. */
+const readMap = new Map();
+if (auto) {
+  for (const p of mine) {
+    for (const r of (readings.bySlug[p.slug] || { rows: [] }).rows) {
+      const k = `${r.year}|${r.cite}`;
+      const e = readMap.get(k) || { r, people: [], allDerived: true };
+      e.people.push(p);
+      if (!r.derived) e.allDerived = false;
+      readMap.set(k, e);
+    }
+  }
+}
+const readRows = [...readMap.values()]
+  .sort((a, b) => (parseInt(a.r.year, 10) || 9999) - (parseInt(b.r.year, 10) || 9999));
+const readPeople = new Set(readRows.flatMap((x) => x.people.map((p) => p.slug))).size;
+const snapIds = auto ? [...new Set(mine.flatMap((p) => snapshots.bySlug[p.slug] || []))] : [];
+const snapRows = snapIds.map((id) => snapshots.rows.find((s) => s.id === id)).filter(Boolean);
+
+const lineSet = auto ? linesData.sets.find((s) => keys.includes(surnameGroup(s.name))) : null;
+
+/* The families the name is tied to by a marriage or a parent, from the tree's own spouse and
+   parent links. A living person is never counted or named here. */
+const doorOf = (grp) => families.find((f) => familyKeys(f.slug).includes(grp));
+const ties = new Map();
+const tie = (p, other, how) => {
+  if (!other || other.living) return;
+  const rec = other.id ? ALL.find((q) => q.id === other.id) : null;
+  if (!rec || rec.family === family) return;
+  const label = (rec.surname || "").split("(")[0].trim();
+  const grp = surnameGroup(rec.surname);
+  if (!label || !grp) return;
+  const door = rec.family ? families.find((f) => f.slug === rec.family) : doorOf(grp);
+  const k = door ? door.slug : grp;
+  const e = ties.get(k) || { label: door ? door.label : label, slug: door ? door.slug : null,
+    marriage: 0, parent: 0, names: new Map() };
+  e[how] += 1;
+  e.names.set(rec.slug, rec.name);
+  ties.set(k, e);
+};
+if (auto) {
+  for (const p of mine) {
+    for (const s of (p.rel || {}).spouses || []) tie(p, s, "marriage");
+    for (const s of (p.rel || {}).parents || []) tie(p, s, "parent");
+  }
+}
+const tieRows = [...ties.values()].sort((a, b) =>
+  (b.marriage + b.parent) - (a.marriage + a.parent) || a.label.localeCompare(b.label)).slice(0, 14);
+
+const fold = (s) => String(s || "").toLowerCase().replace(/[ž]/g, "z").replace(/[ćč]/g, "c")
+  .replace(/š/g, "s").replace(/đ/g, "d");
+const qWords = [...new Set(keys.flatMap((k) => k.split(" ")).flatMap((k) => (k.endsWith("ic") ? [k, k + "h"] : [k])))];
+const qre = new RegExp("\\b(" + qWords.join("|") + ")\\b", "i");
+const qRows = auto ? questions.rows.filter((r) => qre.test(fold(r.q))) : [];
+
+const span = (a, b) => (a && b ? (a === b ? `${a}` : `${a} to ${b}`) : a ? `from ${a}` : "");
+const eyebrow = auto
+  ? (meta.places.length
+      ? [...new Map(meta.places.map(([pl]) => { const n = pl.split(",")[0].trim();
+          return [fold(n).replace(/\s+croatia$/, ""), n.replace(/\s+Croatia$/i, "")]; })).values()].slice(0, 3).join(", ")
+      : "Place not recorded in the tree")
+  : copy.eyebrow;
+const dekLine = auto
+  ? `${meta.count} published ${meta.count === 1 ? "person" : "people"}${meta.earliest ? `, born ${span(meta.earliest, meta.latest)}` : ""}` +
+    `${direct.length ? `, and ${direct.length} of them direct ancestors of Hedviga` : ""}. ` +
+    `${meta.dek.charAt(0).toUpperCase()}${meta.dek.slice(1)}.`
+  : copy.dek;
+const cut = (s, n = 320) => { s = String(s || ""); if (s.length <= n) return s;
+  const c = s.slice(0, n); return c.slice(0, c.lastIndexOf(" ")) + " …"; };
 ---
-<Base title={meta.label} eyebrow={copy.eyebrow} dek={copy.dek}>
+<Base title={meta.label} eyebrow={eyebrow} dek={dekLine}>
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{meta.count}</div><div class="l">published people</div></div>
@@ -57,6 +164,48 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
       <div class="stat"><div class="n">{meta.spellings.length}</div><div class="l">distinct spellings in the tree</div></div>
     </div>
   </section>
+
+
+  {auto && (
+    <section class="blk">
+      <h2>What this page holds</h2>
+      <p>The archive publishes <strong>{meta.count}</strong> {meta.count === 1 ? "person" : "people"} of the
+      name {meta.label}{meta.earliest ? <>, the earliest born in {meta.earliest}</> : null}.
+      {direct.length > 0 && <> <strong>{direct.length}</strong> of them {direct.length === 1 ? "is a direct ancestor" : "are direct ancestors"} of
+      Hedviga, at ahnentafel {direct.map((p) => p.ahn).join(", ")}.</>}
+      {foundOnly > 0 && <> A further <strong>{foundOnly}</strong> {foundOnly === 1 ? "is" : "are"} read out of a
+      parish register and not in the family tree at all; they are listed with the rest, marked
+      <em> parish register</em>.</>}
+      {" "}Counts are of people who have died; anyone living is named on their own page and is not counted here.
+      Every statement on this page is read off the archive&rsquo;s own data, and the page adds no claim of its own.</p>
+      <div class="note"><strong>How we know.</strong> The family tree is a MyHeritage export. It is a witness, not
+      a source: <em>Tree only</em> below means the family tree is all there is for that person.
+      <a href={u("/method/")}>The method →</a></div>
+      <table class="kv">
+        {states.map(([k, n]) => (
+          <tr><th>{EVLABEL[k]}</th><td><strong>{n}</strong> &mdash; {EVSAYS[k]}</td></tr>))}
+      </table>
+    </section>
+  )}
+
+  {auto && direct.length > 0 && (
+    <section class="blk">
+      <h2>In the direct line</h2>
+      <p class="dek">{direct.length === 1 ? "The one ancestor" : `The ${direct.length} ancestors`} of Hedviga who carry
+      the name, by ahnentafel number (Ahn.). Each links to the person&rsquo;s own page, where the sources are.</p>
+      <table class="reg">
+        <thead><tr><th>Ahn.</th><th>Name</th><th>Lived</th><th>Born at</th><th>How we know</th></tr></thead>
+        <tbody>{direct.map((p) => (
+          <tr>
+            <td class="mono" title="ahnentafel number">{p.ahn}</td>
+            <td><a href={u(`/people/${p.slug}/`)}>{p.name}</a></td>
+            <td class="mono">{p.byear || p.dyear ? `${p.byear || "?"}–${p.dyear || "?"}` : "dates unknown"}</td>
+            <td class="dek">{(p.bornPlace || "").split(",")[0] || "—"}</td>
+            <td class="dek">{EVLABEL[stateOf(p)]}</td>
+          </tr>))}</tbody>
+      </table>
+    </section>
+  )}
 
   {/* THE PROSE USED TO BE ONE PARAGRAPH PER SECTION, however long, because the
       template wrapped it in a single <p>. Writers worked round that with <br><br>,
@@ -66,18 +215,99 @@ const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [
       can now use what /kosina/ uses: an <h3> turn, a <blockquote class="note"> for
       what a register actually says, a <div class="note"> for an aside and a
       <div class="fix"> for a retraction. */}
-  {copy.body.map(([h, html]) => (
+  {(copy.body || []).map(([h, html]) => (
     <section class="blk">
       <h2>{h}</h2>
       <div set:html={html.replace(/href='\//g, `href='${u("/")}`.replace("//", "/"))} />
     </section>
   ))}
 
+
+  {auto && lineSet && (
+    <section class="blk">
+      <h2>The name in the lines page</h2>
+      <p>{lineSet.dek}</p>
+      <ul>{lineSet.lanes.map((l) => (
+        <li><strong>{l.label}</strong> <span class="dim">&mdash; {l.conf}</span></li>))}</ul>
+      <p class="dek"><a href={u(`/lines/#${lineSet.slug}`)}>The lines page, in full →</a></p>
+    </section>
+  )}
+
+  {auto && readRows.length > 0 && (
+    <section class="blk">
+      <h2>What the registers say</h2>
+      <p class="dek"><strong>{readRows.length}</strong> {readRows.length === 1 ? "reading" : "readings"} attached to
+      {" "}{readPeople} of the people above, each in the citation&rsquo;s own words, oldest first; an entry that names two of them is one reading.
+      A reading marked <em>named on</em> is a register naming the person on somebody else&rsquo;s entry,
+      which is not the same as a register being about them.</p>
+      <details>
+        <summary>Open the {readRows.length} {readRows.length === 1 ? "reading" : "readings"}</summary>
+        <table class="reg">
+          <thead><tr><th style="width:8%">Year</th><th style="width:14%">Document</th>
+            <th style="width:20%">Person</th><th>The citation</th></tr></thead>
+          <tbody>{readRows.map(({ r, people: ps, allDerived }) => (
+            <tr>
+              <td class="mono">{r.year}</td>
+              <td class="dek"><strong>{r.kind}</strong>{r.indexOnly && <span class="dek" style="display:block">index only</span>}</td>
+              <td>{ps.map((p, i) => (<>{i ? ", " : ""}<a href={u(`/people/${p.slug}/`)}>{p.name}</a></>))}</td>
+              <td class="dek">{r.cite}{allDerived && <span class="dek" style="display:block">Named on {r.viaName || r.via}&rsquo;s entry rather than their own.</span>}</td>
+            </tr>))}</tbody>
+        </table>
+      </details>
+      <p class="dek" style="margin-top:.7rem"><a href={u("/readings/")}>Every document this archive has read →</a></p>
+    </section>
+  )}
+
+  {auto && snapRows.length > 0 && (
+    <section class="blk">
+      <h2>The register pages themselves</h2>
+      <p class="dek">{snapRows.length === 1 ? "A page" : `${snapRows.length} pages`} kept as {snapRows.length === 1 ? "a snapshot" : "snapshots"} for the people above, with the film,
+      the image number and a link to the viewer. <a href={u("/snapshots/")}>What a snapshot is and is not →</a></p>
+      <ul>{snapRows.map((s) => (
+        <li><a href={u(`/snapshots/#${s.id}`)}>{s.title}</a></li>))}</ul>
+    </section>
+  )}
+
+  {auto && qRows.length > 0 && (
+    <section class="blk">
+      <h2>Where the name is an open question</h2>
+      <p class="dek">{qRows.length === 1 ? "A question" : "Questions"} on the archive&rsquo;s own list that
+      name{qRows.length === 1 ? "s" : ""} {meta.label}. <a href={u("/open-questions/")}>The open questions →</a></p>
+      {qRows.map((r) => (
+        <details>
+          <summary><span class="mono dim">{r.n}</span> {r.q} <span class="dim">&mdash; {r.state}</span></summary>
+          <div set:html={String(r.known || "").replace(/href='\//g, `href='${u("/")}`.replace("//", "/"))} />
+        </details>))}
+    </section>
+  )}
+
+  {auto && tieRows.length > 0 && (
+    <section class="blk">
+      <h2>Who they are tied to</h2>
+      <p class="dek">The other surnames that the family tree joins to this one by a marriage or by a parent,
+      most often first. A name with a family page links to it. This is the tree&rsquo;s own record; it is not
+      a statement that the two families were connected before the marriage.</p>
+      <table class="reg">
+        <thead><tr><th>Family</th><th style="width:12%">Marriages</th><th style="width:12%">Parents</th><th>People</th></tr></thead>
+        <tbody>{tieRows.map((e) => (
+          <tr>
+            <td>{e.slug ? <a href={u(`/${e.slug}/`)}>{e.label}</a> : e.label}</td>
+            <td class="mono">{e.marriage || "—"}</td>
+            <td class="mono">{e.parent || "—"}</td>
+            <td class="dek">{[...e.names].slice(0, 4).map(([sl, nm], i) => (
+              <>{i ? ", " : ""}<a href={u(`/people/${sl}/`)}>{nm}</a></>))}{e.names.size > 4 ? ` and ${e.names.size - 4} more` : ""}</td>
+          </tr>))}</tbody>
+      </table>
+    </section>
+  )}
+
+  {meta.places.length > 0 && (
   <section class="blk">
     <h2>Where they were born</h2>
     <ul class="cols">{meta.places.map(([pl, n]) => (
       <li><span class="mono dim">{n}</span> {pl}</li>))}</ul>
   </section>
+  )}
 
   <section class="blk">
     <h2>How the tree spells it</h2>

@@ -156,3 +156,14 @@ export const COPY = {
     ],
   },
 };
+
+/* TWELVE FAMILIES WITH NO HAND-WRITTEN NARRATIVE (17 October 2026). Each is a name the
+   direct line itself carries, and each had a row on /connected/ but no page. `auto` makes
+   [family].astro build the page from the archive's own data — the people, the direct line,
+   the readings and snapshots already attached to them, the Lines of a Name set where there
+   is one, the marriages — and say nothing the data does not. When the research owner has a
+   paragraph to add, it goes in `body` here like any other family's. */
+for (const slug of ["loncaric", "oreskovic", "sekula", "maric", "antic", "pilipic",
+                    "brozovic", "jellicic", "uroda", "luckinic", "gerkacs", "smojver"]) {
+  COPY[slug] = { auto: true, body: [] };
+}

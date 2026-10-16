@@ -1,0 +1,11 @@
+# Surnames on the direct line (ancestors.json, grouped by the archive's own fold) that have no family page yet,
+# and why. tools/familycheck.py refuses a direct-line surname that is neither a page nor listed here, and refuses a
+# line here once the surname has a page. key | reason.
+#
+# 17 October 2026: the audit capped new pages at twelve, ranked direct-line first and then by published people
+# (ties broken by how many notes and readings the research files hold). These four are the direct-line surnames
+# below the cap. Each is a real candidate for the next page; none is a judgement that the family does not matter.
+bacchi | over the twelve-page cap: 3 published people, 3 direct ancestors (ahnentafel 107, 214, 428); the Lines of a Name page already has a Bacchi set
+pekass | over the twelve-page cap: 3 published people, 3 direct ancestors (ahnentafel 213, 426, 427); appears in the Smojver page's ties
+findric | over the twelve-page cap: 1 published person, 1 direct ancestor (ahnentafel 41)
+pecanic | over the twelve-page cap: 1 published person, 1 direct ancestor (ahnentafel 9)
