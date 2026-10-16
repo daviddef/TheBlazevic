@@ -13,8 +13,9 @@ import people from "../data/people.json";
 // Anka Blazevic's children are blood. The five without one are the Slovene male
 // line, who married in, and two who may be living.
 // Everything here comes from data/kosina.json, which tools/kosina.py builds from
-// the GEDCOM and which applies the living rule in the DATA, so a person who may be
-// alive carries no date at all, not merely none on the page.
+// the GEDCOM and which applies the living rule in the DATA, so a person who is
+// living carries no date at all, not merely none on the page: a name, a town and a
+// country, and a slug for the page every named person has.
 const by = Object.fromEntries(K.people.map((p) => [p.id, p]));
 
 /* 22 September 2026. THE PAGE NEVER DREW THE JOINT.
@@ -110,7 +111,7 @@ const reg = (slug) => A[slug] || H[slug] || null;
    `node()` above bases its own, because PersonTree does not. */
 const foundHref = (slug) => (slug ? `/found/${slug}/` : null);
 const personHref = (id) => {
-  const r = byId[id];
+  const r = byId[id] || by[id];
   return r && r.slug ? `/people/${r.slug}/` : null;
 };
 /* A tree person's dates, with the living rule asked again at the point of
@@ -200,8 +201,8 @@ const descentRows = D.rows.map((r) => {
     somebody else's gravestone.</strong></p>
     <p><strong>The rule changed on 21 September 2026.</strong> What decides publication now is
     <em>descent</em> and not the spelling of a surname, so everyone drawn on this page has a page
-    of their own — apart from two who may still be living, and those two are named and nothing
-    more.</p>
+    of their own. {C.living > 0 && <span>{C.living === 1 ? "One of them is" : `${C.living} of them are`}
+    {" "}living, and is named here with their town and country and nothing more.</span>}</p>
     <p><strong>They join this family twice over.</strong> In 1919 <strong>Pavao Kosina</strong>
     married <a href={u("/people/anka-blazevic/")}><strong>Anka Blažević</strong></a>, the daughter
     of <strong>Juraj Blažević</strong> and <strong>Tereza Žubrinić</strong> —

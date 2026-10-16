@@ -923,3 +923,9 @@ blockquote.note,.pagehead .dek,.src,.eventlog li,.credit,figcaption{overflow-wra
 main .ptree .via-disputed .via,main .ptree .node.disputed .via,main .ptree .node.disputed .nm::after{color:var(--bad)}
 /* the opening line sits on the photograph, above the part of the caption the gradient reaches */
 .hero .kick{text-shadow:0 1px 4px rgba(8,22,28,.85)}
+/* ---- phone width after the kit moved to 0a56c86 (16 October 2026) ----------
+   The kit's descent row stacks at 760px with a bare `1fr`, which lets the card's own
+   minimum content width push the page 8px past a 390px screen (the Kosina page). The
+   column is allowed to shrink. A rule with more weight than the kit's, because the
+   component's style block comes after this stylesheet in the page. */
+@media (max-width:760px){ .dsc .dsc-gen{grid-template-columns:minmax(0,1fr)} }

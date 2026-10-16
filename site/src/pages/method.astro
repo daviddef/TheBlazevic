@@ -2,6 +2,9 @@
 import Base from "../layouts/Base.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
+import rule from "../data/livingrule.json";
+import living from "../data/living.json";
+const n = (x) => x.toLocaleString("en");
 ---
 <Base title="Method"
   eyebrow="How to read anything on this site"
@@ -55,49 +58,56 @@ import { u } from "../lib/url.js";
     </table>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="living">
     <div class="lab">The rule that governs the whole build</div>
-    <h2>Living people are not here</h2>
-    <p class="lede">They are not hidden, not gated, not present in the output. The rule is applied
-    once, in <code class="mono">classify_living()</code>, at the boundary between the research data
-    and the published site.</p>
-    <p>Because thousands of people in a tree this size carry no dates at all, judging each by their
-    own record alone marks every one of them living — safe, but useless. So the build computes an
-    <strong>upper bound on each person's birth year</strong> from their own events, their children's
-    births, their marriages and their parents' bounds, and publishes somebody only when
-    <em>even the latest year they could have been born</em> is more than a century ago.</p>
+    <h2>A living person is named, and nothing more</h2>
+    <p class="lede">A living person (80 or younger, with no death recorded) is named with their
+    relationships and their town and country, and nothing more. No dates, no records, no sources,
+    no photograph, no structured data. Their page is kept out of search engines and out of the
+    sitemap, and so is a name page whose every bearer is living.</p>
+    <p>The rule is the one definition all the family archives share (<code class="mono">living_rule.py</code>
+    in the shared kit), applied once, in <code class="mono">tools/build_site_data.py</code>, at the
+    boundary between the research data and the published site: the generator never writes a living
+    person's dates, events, notes, sources, occupations, burial or cause of death to any file the
+    site reads. A build gate (<code class="mono">check:living-v2</code>) reads the built pages, the sitemap and
+    the search index and refuses the build if any of it breaks; on a machine that holds the family
+    tree it also works out who is living again, independently of the generator, and checks every
+    built and committed file for a person who is held out or a living person's date.</p>
     <ul class="plain">
-      <li>a recorded birth or christening → born in that year, exactly</li>
-      <li>any recorded event in year E → born no later than E</li>
-      <li>a child born in year C → born no later than C − 14</li>
-      <li>a marriage in year M → born no later than M − 14</li>
-      <li>a parent whose bound is P → born no later than P + 60</li>
+      <li><strong>Living</strong> is born {rule.rule.livingIfBornWithinYears} years ago or less, counted by year
+        (this year minus the birth year), with no death or burial recorded and no public source.</li>
+      <li><strong>A recorded death or burial is a death</strong>, with a date or without one.</li>
+      <li><strong>A public source</strong> — a citation from a record collection such as FamilySearch,
+        Findmypast or the MyHeritage records — means a person is not treated as living, and what that
+        source says may be shown. A family-tree entry (a Geni or WikiTree profile, a family's own
+        website, a GEDCOM) is not a public source and does not count.</li>
+      <li><strong>No birth year</strong> means a person cannot be shown to be 80 or younger, so is not
+        living by this test.</li>
     </ul>
-    <p style="margin-top:1rem">Every step is a real bound, never a guess, and a recorded birth is
-    never overridden by inference. On the current export that judges
-    <strong>2,034 of 15,643</strong> people living. A living spouse, parent or child is not named on
-    anybody else's page either. <strong>A removal request is honoured within days, without argument
+    <p style="margin-top:1rem">On the current export that judges
+    <strong>{n(rule.judged.living)} of {n(rule.peopleInTree)}</strong> people living. Of those,
+    <strong>{n(living.length)}</strong> are named on this site, because a page here names them; the
+    rest are in the tree and are not named anywhere. <strong>Every person this archive names has a
+    page of their own</strong>, and a person nothing here names stays unpublished.</p>
+    <p style="margin-top:1rem"><strong>Possible children are held out.</strong> A person who is not
+    recorded dead, has no public source, and is either under 18 by year or has no birth year and a
+    living parent, is not published at all: no page, and no name as anybody's relative.
+    {n(rule.judged.heldOut)} people in the tree are held out on that test. The rule is recorded
+    by rule and never by person, in <code class="mono">site/src/data/livingrule.json</code>.</p>
+    <p style="margin-top:1rem"><strong>The town and country</strong> are the birthplace in the tree
+    cut down to the town and the country: the county, the region, a street, a hospital or a house
+    number is dropped before anything is written. A residence or a census place of a living person
+    is never read. Of the {n(living.length)} named, {n(rule.published.livingWithTownAndCountry)} have a
+    town and a country, {n(rule.published.livingTownOnly)} a town only,
+    {n(rule.published.livingCountryOnly)} a country only and
+    {n(rule.published.livingNoPlace)} no place.</p>
+    <p style="margin-top:1rem"><strong>A removal request is honoured within days, without argument
     and without requiring a reason.</strong></p>
-
-    <div class="note" style="margin-top:1.3rem"><strong>This is stricter than its sister
-    archives, and the difference is deliberate.</strong> The
-    <a href="https://archive.defranceski.com/" rel="noopener">Defranceschi archive</a>
-    publishes living people <em>by name only — no dates, no places, no photographs</em>, and the
-    Falco archive moved to the same rule in September 2026, naming 104 of them. This archive names
-    <strong>none of its 2,034</strong>.<br /><br />
-    Two reasons, and only one of them is principle. The scale is different — 2,034 living people
-    against Falco's 104 — and a rule that is comfortable for a hundred relatives is a different
-    proposition for two thousand. And this archive is about <strong>one woman who died in
-    2001</strong>: almost nothing it argues depends on anybody alive. Where a living person is the
-    only link in a chain, the page says <em>“living, withheld”</em> and the chain is shown broken
-    rather than quietly completed.<br /><br />
-    <strong>It is a divergence, not an oversight</strong>, and it is written here so that a reader
-    moving between the family sites is not left wondering which rule is in force.</div>
   </section>
 
   <section class="blk">
     <h2>An online family tree is a witness, not a source</h2>
-    <p>The spine here is a MyHeritage tree of <strong>15,643 people</strong>. Most “sources” attached
+    <p>The spine here is a MyHeritage tree of <strong>{n(rule.peopleInTree)} people</strong>. Most “sources” attached
     to people in it are <em>other trees</em> — <em>Geni World Family Tree</em>,
     <em>Boras Web Site</em>, <em>Grlica Web Site</em>, <em>Janicic</em>,
     <em>Marko Karic rodoslov</em>. When four trees agree, that is four witnesses who may all have
