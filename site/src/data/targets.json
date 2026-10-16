@@ -1,12 +1,1546 @@
 {
  "books": [
   {
+   "parish": "Senj",
+   "kind": "births",
+   "holds": "1734-1894",
+   "verified": "marriages verified end to end",
+   "n": 181,
+   "reachable": 152,
+   "ahn": [
+    3,
+    6
+   ],
+   "people": [
+    {
+     "slug": "eduardus-boras",
+     "name": "Eduardus Boras",
+     "year": 1820,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1820",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "thomas-boras",
+     "name": "Thomas Boras",
+     "year": 1823,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1823",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "georgius-bellobalbic",
+     "name": "Georgius Bellobalbic",
+     "year": 1824,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1824",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anton-blazevic-2",
+     "name": "Anton Blažević",
+     "year": 1835,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1835",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anton-ivan-babic",
+     "name": "Anton Ivan \"Ante\" Babić",
+     "year": 1837,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1837",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "paulina-bellobalbic",
+     "name": "Paulina Bellobalbic",
+     "year": 1837,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1837",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "valentinus-pilipic",
+     "name": "Valentinus Pilipic",
+     "year": 1848,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "9 FEB 1848",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "joanna-basic",
+     "name": "Joanna Basic",
+     "year": 1849,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1849",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "rosa-blazevic",
+     "name": "Rosa Blažević",
+     "year": 1852,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1852",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ana-nezak-boras",
+     "name": "Ana Nezak \"Anica\" Boras",
+     "year": 1854,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1854",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "conradum-blazevic",
+     "name": "Conradum Blažević",
+     "year": 1854,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "19 FEB 1854",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "marija-vukelic-2",
+     "name": "Marija Vukelic",
+     "year": 1854,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1854",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "gregorium-blazevic",
+     "name": "Gregorium Blažević",
+     "year": 1855,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "3 SEP 1855",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "joannes-ivan-boras",
+     "name": "Joannes Ivan Boras",
+     "year": 1855,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "24 JUN 1855",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "nikula-niko-nikola-rivosechi",
+     "name": "Nikula Niko Nikola Rivosechi",
+     "year": 1855,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1855",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "toma-anton-bozo-lenac",
+     "name": "Toma Anton Bozo Lenac",
+     "year": 1855,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1855",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "angelika-boras",
+     "name": "Angelika Boras",
+     "year": 1857,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1 SEP 1857",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "josip-anton-papic",
+     "name": "Josip Anton \"Joso\" Papić",
+     "year": 1857,
+     "village": "senj",
+     "ahn": 6,
+     "inside": true,
+     "date": "1 NOV 1857",
+     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "elisabetham-catharinam-prpic-perpic",
+     "name": "Elisabetham Catharinam Prpic Perpic",
+     "year": 1858,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "20 NOV 1858",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "maria-mariam-mariam",
+     "name": "Maria Mariam",
+     "year": 1858,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "26 MAR 1858",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mate-loncaric-2",
+     "name": "Mate Loncaric",
+     "year": 1858,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1858",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "nadala-prpic-perpic",
+     "name": "Nadala Prpic Perpic",
+     "year": 1858,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1858",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "maria-anna-antonia-boras",
+     "name": "Maria Anna Antonia Boras",
+     "year": 1859,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "15 JUL 1859",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "joannes-juan-ivan-ive-john-zubrinic",
+     "name": "Joannes Juan Ivan Ive John Žubrinić",
+     "year": 1860,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "6 MAR 1860",
+     "place": "Senj, Split-Dalmatia, Croatia"
+    },
+    {
+     "slug": "mate-andjulico",
+     "name": "Mate Andjulico",
+     "year": 1860,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1860",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "stephannes-papic",
+     "name": "Stephannes Papić",
+     "year": 1860,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "16 AUG 1860",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franciska-prpic",
+     "name": "Franciska \"Franka\" Prpic",
+     "year": 1861,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1861",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "georgius-jure-albertus-blazevic",
+     "name": "Georgius Jure Albertus Blažević",
+     "year": 1861,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "12 APR 1861",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "martha-zubrinic-zubrinic",
+     "name": "Martha Žubrinić Zubrinic",
+     "year": 1861,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "21 APR 1861",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "christina-maria-boras",
+     "name": "Christina Maria Boras",
+     "year": 1862,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "27 MAY 1862",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "christina-matia-prpic-perpic",
+     "name": "Christina Matia Prpic Perpic",
+     "year": 1862,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "24 MAY 1862",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "georgius-paschalis-rivosechi",
+     "name": "Georgius Paschalis Rivosechi",
+     "year": 1862,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "19 APR 1862",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mikula-jurcic",
+     "name": "Mikula Jurcic",
+     "year": 1862,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1862",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "martinus-prpic-perpic",
+     "name": "Martinus Prpic Perpic",
+     "year": 1863,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "11 NOV 1863",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "philippus-jacobus-papic",
+     "name": "Philippus Jacobus Papić",
+     "year": 1863,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "13 MAY 1863",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "blasius-boras",
+     "name": "Blasius \"Blaz\" Boras",
+     "year": 1864,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "2 FEB 1864",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "stjepan-papic",
+     "name": "Stjepan \"Stipe\" Papić",
+     "year": 1864,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1864",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "francisca-papic",
+     "name": "Francisca Papić",
+     "year": 1866,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "26 MAR 1866",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franciscus-prpic-perpic",
+     "name": "Franciscus Prpic Perpic",
+     "year": 1866,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1866",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "josip-prpic-5",
+     "name": "Josip Prpic",
+     "year": 1866,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1866",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-blazevic-10",
+     "name": "Marija Blažević",
+     "year": 1867,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1867",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antonius-josip-papic",
+     "name": "Antonius Josip \"Anton\" Papić",
+     "year": 1868,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "8 JUN 1868",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "johana-jurcic",
+     "name": "Johana Jurcic",
+     "year": 1868,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1868",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "francisca-blazevic",
+     "name": "Francisca Blažević",
+     "year": 1870,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1870",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "francisca-helena-blazevic",
+     "name": "Francisca Helena Blažević",
+     "year": 1870,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "30 JUL 1870",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franciscus-grandic",
+     "name": "Franciscus Grandic",
+     "year": 1870,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1870",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franjo-zupan",
+     "name": "Franjo ŽUPAN",
+     "year": 1870,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "6 DEC 1870",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "paval-loncaric",
+     "name": "Paval Loncaric",
+     "year": 1871,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1871",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franciscus-paul-boras",
+     "name": "Franciscus Paul Boras",
+     "year": 1872,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1872",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "joanna-johanna-papic",
+     "name": "Joanna Johanna Papić",
+     "year": 1872,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "21 JUN 1872",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "frane-franjo-franciscus-papic",
+     "name": "Frane Franjo Franciscus Papić",
+     "year": 1873,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "27 JUL 1873",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia`"
+    },
+    {
+     "slug": "joannes-belobaric",
+     "name": "Joannes Belobaric",
+     "year": 1873,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1873",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "petrus-grandic",
+     "name": "Petrus Grandic",
+     "year": 1873,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1873",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "stanislava-spalj-spalj",
+     "name": "Stanislava Špalj Spalj",
+     "year": 1873,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1873",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antonius-vincentius-ignatius-blazevic",
+     "name": "Antonius Vincentius Ignatius Blažević",
+     "year": 1874,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "JUL 1874",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "clementi-ursula-vukelic",
+     "name": "Clementi Ursula Vukelić",
+     "year": 1875,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1875",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "gaspar-grandic",
+     "name": "Gaspar Grandic",
+     "year": 1875,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1875",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "maria-matthia-belobaric",
+     "name": "Maria Matthia Belobaric",
+     "year": 1875,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1875",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mathea-spalj-spalj",
+     "name": "Mathea Špalj Spalj",
+     "year": 1875,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1875",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antonius-grandic",
+     "name": "Antonius Grandic",
+     "year": 1876,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1876",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "katarina-janusic",
+     "name": "Katarina Janušić",
+     "year": 1876,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1876",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mate-matthias-grzanic",
+     "name": "Mate Matthias Grzanic",
+     "year": 1876,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "19 FEB 1876",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "simeon-grzin",
+     "name": "Simeon Grzin",
+     "year": 1876,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1876",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "georgina-vukelic",
+     "name": "Georgina Vukelić",
+     "year": 1877,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1877",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "maria-barbara-grandic",
+     "name": "Maria Barbara Grandic",
+     "year": 1877,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1877",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "maria-carmela-prpic",
+     "name": "Maria Carmela Prpic",
+     "year": 1877,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1877",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vinko-glavas",
+     "name": "Vinko Glavaš",
+     "year": 1877,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "5 APR 1877",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "hermina-prpic",
+     "name": "Hermina Prpic",
+     "year": 1878,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "ivanja-tereza-bacic",
+     "name": "Ivanja Tereza Bacic",
+     "year": 1878,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "johana-maria-prpic",
+     "name": "Johana Maria Prpic",
+     "year": 1878,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "stanko-vukelic",
+     "name": "Stanko Vukelić",
+     "year": 1878,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "filip-anton-grzin",
+     "name": "Filip Anton Grzin",
+     "year": 1879,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "filipina-apolonia-grzin",
+     "name": "Filipina Apolonia Grzin",
+     "year": 1879,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "ivan-nell",
+     "name": "Ivan Nell",
+     "year": 1879,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "21 NOV 1879",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "kata-car",
+     "name": "Kata Car",
+     "year": 1879,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "matija-tomljanovic",
+     "name": "Matija Tomljanovic",
+     "year": 1879,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "anton-desanti",
+     "name": "Anton Desanti",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "8 JUN 1880",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "josip-prpic",
+     "name": "Josip Prpic",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "josip-prpic-6",
+     "name": "Josip Prpic",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "lucija-belobarbic",
+     "name": "Lucija Belobarbic",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "silva-angjelika-rivosechi",
+     "name": "Silva Angjelika Rivosechi",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "vinko-vukelic",
+     "name": "Vinko Vukelić",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vjenceslav-loncaric-2",
+     "name": "Vjenceslav Loncaric",
+     "year": 1880,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "22 JUL 1880",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "albin-ivan-grzin",
+     "name": "Albin Ivan Grzin",
+     "year": 1881,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1881",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "linda-elizabeta-vukelic",
+     "name": "Linda Elizabeta Vukelić",
+     "year": 1881,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1881",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "mile-vatroslav-krmpotic",
+     "name": "Mile Vatroslav Krmpotić",
+     "year": 1881,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1881",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "virgil-maria-rivosechi",
+     "name": "Virgil Maria Rivosechi",
+     "year": 1881,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1881",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "milka-rivosechi",
+     "name": "Milka Rivosechi",
+     "year": 1882,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1882",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "anton-frane-krmpotic",
+     "name": "Anton Frane Krmpotić",
+     "year": 1883,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "27 JUL 1883",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "julius-prpic",
+     "name": "Julius Prpic",
+     "year": 1883,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1883",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "zvonimir-matei-vukelic",
+     "name": "Zvonimir Matei Vukelić",
+     "year": 1883,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "13 JAN 1883",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ettore-scarpa",
+     "name": "Ettore Scarpa",
+     "year": 1884,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JUL 1884",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "frane-belobarbic",
+     "name": "Frane Belobarbic",
+     "year": 1884,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1884",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "bozica-ana-rivosechi",
+     "name": "Bozica Ana Rivosechi",
+     "year": 1885,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1885",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "josip-blazevic-3",
+     "name": "Josip \"Joso\" Blažević",
+     "year": 1885,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1885",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "marija-papic",
+     "name": "Marija Papić",
+     "year": 1885,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "11 AUG 1885",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "slavka-katarina-krmpotic",
+     "name": "Slavka Katarina Krmpotić",
+     "year": 1885,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "26 OCT 1885",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "kate-spalj-spalj",
+     "name": "Kate Špalj Spalj",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "maria-belobarbic",
+     "name": "Maria Belobarbic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marijan-vincenza-boras",
+     "name": "Marijan Vincenza Boras",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "melchior-drnjevic",
+     "name": "Melchior Drnjevic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "5 JAN 1886",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "milka-lucia-papic",
+     "name": "Milka Lucia Papic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": 3,
+     "inside": true,
+     "date": "9 OCT 1886",
+     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "nikula-zubrinic",
+     "name": "Nikula Zubrinic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "olga-oktavia-prpic",
+     "name": "Olga Oktavia Prpic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "sime-papic",
+     "name": "Sime Papić",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "stjepan-nikula-rivosechi",
+     "name": "Stjepan Nikula Rivosechi",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "victor-matijovic",
+     "name": "Victor Matijovic",
+     "year": 1886,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "27 JUL 1886",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "ambroz-vjekoslav-rivosechi",
+     "name": "Ambroz Vjekoslav Rivosechi",
+     "year": 1887,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ana-spalj-spalj",
+     "name": "Ana Špalj Spalj",
+     "year": 1887,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "ivan-frane-grandic",
+     "name": "Ivan Frane Grandic",
+     "year": 1887,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia`"
+    },
+    {
+     "slug": "marija-babic",
+     "name": "Marija Babić",
+     "year": 1887,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "olga-stimac",
+     "name": "Olga Štimac",
+     "year": 1887,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "25 JAN 1887",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "ana-papic",
+     "name": "Ana \"Anica\" Papić",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "25 MAY 1888",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "franjo-boras",
+     "name": "Franjo Boras",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1 OCT 1888",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franjo-fabianic",
+     "name": "Franjo Fabianic",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "4 AUG 1888",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-pepica-spalj-spalj",
+     "name": "Marija Pepica Špalj Spalj",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1888",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marijan-krmpotic",
+     "name": "Marijan Krmpotić",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1888",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "vinko-potocinjak",
+     "name": "Vinko Potocinjak",
+     "year": 1888,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "4 APR 1888",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franjo-papic",
+     "name": "Franjo Papić",
+     "year": 1889,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1889",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "gjorja-papic",
+     "name": "Gjorja Papić",
+     "year": 1889,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1889",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "jacov-babic",
+     "name": "Jacov Babic",
+     "year": 1889,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1889",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "tonica-grandic",
+     "name": "Tonica Grandic",
+     "year": 1889,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1889",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ana-babic",
+     "name": "Ana Babić",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anton-krmpotic",
+     "name": "Anton Krmpotić",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "francika-biljan",
+     "name": "Francika Biljan",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "8 JUL 1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ginro-babic",
+     "name": "Ginro Babic",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "16 APR 1890",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "josip-papic",
+     "name": "Josip Papić",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "18 MAR 1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "kate-prpic-2",
+     "name": "Kate Prpic",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-5",
+     "name": "Marija",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "16 JUN 1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-carmela-papic",
+     "name": "Marija Carmela Papić",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1890",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mate-blazevic-3",
+     "name": "Mate Blažević",
+     "year": 1890,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1890",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "antonius-joannes-kosina",
+     "name": "Antonius Joannes \"Antun\" Kosina",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "13 MAY 1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "bozica-lucija-papic",
+     "name": "Bozica Lucija Papić",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "6 DEC 1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "bozica-tonka-papic",
+     "name": "Bozica Tonka Papić",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "9 DEC 1891",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "jure-milkan-spalj-spalj",
+     "name": "Jure Milkan Špalj Spalj",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marijan-blazevic-3",
+     "name": "Marijan Blažević",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mirko-babic",
+     "name": "Mirko Babić",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vjenceslav-loncaric",
+     "name": "Vjenceslav Loncaric",
+     "year": 1891,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "15 SEP 1891",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "juraj-sucic",
+     "name": "Juraj Sučić",
+     "year": 1892,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1892",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-boras",
+     "name": "Marija Boras",
+     "year": 1892,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "23 JAN 1892",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mile-prpic",
+     "name": "Mile Prpic",
+     "year": 1892,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "9 MAR 1892",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "franjo-dion-kermpotic",
+     "name": "Franjo Dion Kermpotic",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "klara-spalj-spalj",
+     "name": "Klara Špalj Spalj",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marijam-grandic",
+     "name": "Marijam Grandic",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "tonica-klotilola-papic",
+     "name": "Tonica Klotilola? Papić",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vicenco-marijan-papic",
+     "name": "Vicenco Marijan Papić",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "vincenco-papic",
+     "name": "Vincenco Papić",
+     "year": 1893,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivan-belobarbic",
+     "name": "Ivan Belobarbic",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "15 FEB 1894",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivan-juraj-prpic",
+     "name": "Ivan Juraj Prpic",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1894",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "josip-anton-blazevic",
+     "name": "Josip Anton Blažević",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1894",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "leon-davorim-krmpotic",
+     "name": "Leon Davorim Krmpotić",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1894",
+     "place": "Senj, Croatia"
+    },
+    {
+     "slug": "pavao-kosina",
+     "name": "Pavao Kosina",
+     "year": 1894,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "15 MAR 1894",
+     "place": "Senj, Croatia"
+    }
+   ]
+  },
+  {
    "parish": "Novi Vinodolski",
    "kind": "births",
    "holds": "1650-1900",
    "verified": "VERIFIED — the film target itself says 1650-1786; earliest leaves are in CROATIAN, not Latin",
-   "n": 137,
-   "reachable": 125,
+   "n": 155,
+   "reachable": 143,
    "ahn": [],
    "people": [
     {
@@ -78,6 +1612,16 @@
      "inside": true,
      "date": "1819",
      "place": "Novi Vinodolski, Croatia"
+    },
+    {
+     "slug": "nikolaum-nicolaus-kalanj-callayn",
+     "name": "Nikolaum Nicolaus Kalanj Callayn",
+     "year": 1823,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1 SEP 1823",
+     "place": "Klenovica"
     },
     {
      "slug": "franjo-think-this-is-wrong-kalanj",
@@ -220,6 +1764,16 @@
      "place": "Klenovica 17, Klenovica, Croatia"
     },
     {
+     "slug": "julius-kovacina",
+     "name": "Julius Kovačina",
+     "year": 1842,
+     "village": "novi vinodolski",
+     "ahn": null,
+     "inside": true,
+     "date": "30 OCT 1842",
+     "place": "Novi Vinodolski, Croatia"
+    },
+    {
      "slug": "franjo-kalanj",
      "name": "Franjo Kalanj",
      "year": 1856,
@@ -360,6 +1914,16 @@
      "place": "Klenovica 22, Klenovica, Croatia"
     },
     {
+     "slug": "mathia-2",
+     "name": "Mathia",
+     "year": 1862,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 SEP 1862",
+     "place": "Klenovica 23, Klenovica, Croatia"
+    },
+    {
      "slug": "petrus-kalanj-3",
      "name": "Petrus Kalanj",
      "year": 1862,
@@ -488,6 +2052,16 @@
      "inside": true,
      "date": "11 MAY 1866",
      "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
+     "slug": "lucas-butkovic-butkovic",
+     "name": "Lucas Butković Butkovic",
+     "year": 1866,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "20 OCT 1866",
+     "place": "Povile 8, Croatia"
     },
     {
      "slug": "lucas-kalanj",
@@ -690,6 +2264,16 @@
      "place": "Povile 22, Croatia"
     },
     {
+     "slug": "josephus-miletic",
+     "name": "Josephus Miletic",
+     "year": 1874,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "MAR 1874",
+     "place": "Povile 30, Croatia"
+    },
+    {
      "slug": "maria-marija-kalanj-2",
      "name": "Maria Marija Kalanj",
      "year": 1874,
@@ -780,6 +2364,16 @@
      "place": "Povile 22, Croatia"
     },
     {
+     "slug": "maria-marija-miletic",
+     "name": "Maria Marija Miletic",
+     "year": 1876,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "16 APR 1876",
+     "place": "Povile 30, Croatia"
+    },
+    {
      "slug": "daniel-kalanj-3",
      "name": "Daniel Kalanj",
      "year": 1877,
@@ -810,6 +2404,16 @@
      "place": "Povile 22, Croatia"
     },
     {
+     "slug": "kata-miletic-2",
+     "name": "Kata Miletic",
+     "year": 1878,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JUL 1878",
+     "place": "Povile 30, Croatia"
+    },
+    {
      "slug": "mate-kalanj-3",
      "name": "Mate Kalanj",
      "year": 1878,
@@ -830,6 +2434,26 @@
      "place": "Klenovica, Croatia"
     },
     {
+     "slug": "barbara-miletic",
+     "name": "Barbara Miletic",
+     "year": 1879,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Povile 30, Croatia"
+    },
+    {
+     "slug": "gergo-miletic",
+     "name": "Gergo Miletic",
+     "year": 1880,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Povile 19, Croatia"
+    },
+    {
      "slug": "klara-kalanj",
      "name": "Klara Kalanj",
      "year": 1880,
@@ -838,6 +2462,16 @@
      "inside": true,
      "date": "MAY 1880",
      "place": "Povile 22, Croatia"
+    },
+    {
+     "slug": "tonka-miletic",
+     "name": "Tonka Miletic",
+     "year": 1880,
+     "village": "povile",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Povile 19, Croatia"
     },
     {
      "slug": "lucija-kalanj-3",
@@ -870,6 +2504,16 @@
      "place": "Povile 22, Croatia"
     },
     {
+     "slug": "petar-ljudevit-augustin",
+     "name": "Petar Ljudevit Augustin",
+     "year": 1884,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1884",
+     "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
      "slug": "ana-kalanj-4",
      "name": "Ana Kalanj",
      "year": 1885,
@@ -900,6 +2544,16 @@
      "place": "Klenovica 22, Klenovica, Croatia"
     },
     {
+     "slug": "marija-9",
+     "name": "Marija",
+     "year": 1886,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
      "slug": "stjepan-vladimir-kalanj",
      "name": "Stjepan Vladimir Kalanj",
      "year": 1886,
@@ -922,6 +2576,16 @@
     {
      "slug": "fabijan-kalanj",
      "name": "Fabijan Kalanj",
+     "year": 1887,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
+     "slug": "lovre-bogoljub",
+     "name": "Lovre Bogoljub",
      "year": 1887,
      "village": "klenovica",
      "ahn": null,
@@ -958,6 +2622,16 @@
      "inside": true,
      "date": "1888",
      "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
+     "slug": "magdalena-cvitkovic",
+     "name": "Magdalena Cvitković",
+     "year": 1888,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "29 OCT 1888",
+     "place": "Klenovica"
     },
     {
      "slug": "marija-milka-kalanj",
@@ -1070,6 +2744,16 @@
      "place": "Klenovica 23, Klenovica, Croatia"
     },
     {
+     "slug": "mihovil-milan-venceslav-milan",
+     "name": "Mihovil Milan Venceslav",
+     "year": 1891,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
      "slug": "ivan-kalanj-6",
      "name": "Ivan Kalanj",
      "year": 1892,
@@ -1088,6 +2772,16 @@
      "inside": true,
      "date": "1892",
      "place": "Klenovica 36, Klenovica, Croatia"
+    },
+    {
+     "slug": "mate-miletic",
+     "name": "Mate Miletic",
+     "year": 1892,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1892",
+     "place": "Klenovica 19, Klenovica, Croatia"
     },
     {
      "slug": "anton-kalanj-2",
@@ -1190,6 +2884,26 @@
      "place": "Klenovica 36, Klenovica, Croatia"
     },
     {
+     "slug": "mihovil-miletic",
+     "name": "Mihovil Miletic",
+     "year": 1894,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1894",
+     "place": "Klenovica 19, Klenovica, Croatia"
+    },
+    {
+     "slug": "viktor-petar",
+     "name": "Viktor Petar",
+     "year": 1894,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "1894",
+     "place": "Klenovica 22, Klenovica, Croatia"
+    },
+    {
      "slug": "ana-kalanj-3",
      "name": "Ana Kalanj",
      "year": 1895,
@@ -1262,1276 +2976,12 @@
    ]
   },
   {
-   "parish": "Senj",
-   "kind": "births",
-   "holds": "1734-1894",
-   "verified": "marriages verified end to end",
-   "n": 149,
-   "reachable": 125,
-   "ahn": [
-    3,
-    6
-   ],
-   "people": [
-    {
-     "slug": "eduardus-boras",
-     "name": "Eduardus Boras",
-     "year": 1820,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1820",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "thomas-boras",
-     "name": "Thomas Boras",
-     "year": 1823,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1823",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "anton-blazevic-2",
-     "name": "Anton Blažević",
-     "year": 1835,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1835",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "anton-ivan-babic",
-     "name": "Anton Ivan \"Ante\" Babić",
-     "year": 1837,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1837",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "paulina-bellobalbic",
-     "name": "Paulina Bellobalbic",
-     "year": 1837,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1837",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "valentinus-pilipic",
-     "name": "Valentinus Pilipic",
-     "year": 1848,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "9 FEB 1848",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "rosa-blazevic",
-     "name": "Rosa Blažević",
-     "year": 1852,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1852",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ana-nezak-boras",
-     "name": "Ana Nezak \"Anica\" Boras",
-     "year": 1854,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1854",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "conradum-blazevic",
-     "name": "Conradum Blažević",
-     "year": 1854,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "19 FEB 1854",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "marija-vukelic-2",
-     "name": "Marija Vukelic",
-     "year": 1854,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1854",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "gregorium-blazevic",
-     "name": "Gregorium Blažević",
-     "year": 1855,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "3 SEP 1855",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "joannes-ivan-boras",
-     "name": "Joannes Ivan Boras",
-     "year": 1855,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "24 JUN 1855",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "nikula-niko-nikola-rivosechi",
-     "name": "Nikula Niko Nikola Rivosechi",
-     "year": 1855,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1855",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "angelika-boras",
-     "name": "Angelika Boras",
-     "year": 1857,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1 SEP 1857",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "josip-anton-papic",
-     "name": "Josip Anton \"Joso\" Papić",
-     "year": 1857,
-     "village": "senj",
-     "ahn": 6,
-     "inside": true,
-     "date": "1 NOV 1857",
-     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "elisabetham-catharinam-prpic-perpic",
-     "name": "Elisabetham Catharinam Prpic Perpic",
-     "year": 1858,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "20 NOV 1858",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "maria-mariam-mariam",
-     "name": "Maria Mariam",
-     "year": 1858,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "26 MAR 1858",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "nadala-prpic-perpic",
-     "name": "Nadala Prpic Perpic",
-     "year": 1858,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1858",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "maria-anna-antonia-boras",
-     "name": "Maria Anna Antonia Boras",
-     "year": 1859,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "15 JUL 1859",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "joannes-juan-ivan-ive-john-zubrinic",
-     "name": "Joannes Juan Ivan Ive John Žubrinić",
-     "year": 1860,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "6 MAR 1860",
-     "place": "Senj, Split-Dalmatia, Croatia"
-    },
-    {
-     "slug": "mate-andjulico",
-     "name": "Mate Andjulico",
-     "year": 1860,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1860",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "stephannes-papic",
-     "name": "Stephannes Papić",
-     "year": 1860,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "16 AUG 1860",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "franciska-prpic",
-     "name": "Franciska \"Franka\" Prpic",
-     "year": 1861,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1861",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "georgius-jure-albertus-blazevic",
-     "name": "Georgius Jure Albertus Blažević",
-     "year": 1861,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "12 APR 1861",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "martha-zubrinic-zubrinic",
-     "name": "Martha Žubrinić Zubrinic",
-     "year": 1861,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "21 APR 1861",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "christina-maria-boras",
-     "name": "Christina Maria Boras",
-     "year": 1862,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "27 MAY 1862",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "christina-matia-prpic-perpic",
-     "name": "Christina Matia Prpic Perpic",
-     "year": 1862,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "24 MAY 1862",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "mikula-jurcic",
-     "name": "Mikula Jurcic",
-     "year": 1862,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1862",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "martinus-prpic-perpic",
-     "name": "Martinus Prpic Perpic",
-     "year": 1863,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "11 NOV 1863",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "philippus-jacobus-papic",
-     "name": "Philippus Jacobus Papić",
-     "year": 1863,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "13 MAY 1863",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "blasius-boras",
-     "name": "Blasius \"Blaz\" Boras",
-     "year": 1864,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "2 FEB 1864",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "stjepan-papic",
-     "name": "Stjepan \"Stipe\" Papić",
-     "year": 1864,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1864",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "francisca-papic",
-     "name": "Francisca Papić",
-     "year": 1866,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "26 MAR 1866",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "franciscus-prpic-perpic",
-     "name": "Franciscus Prpic Perpic",
-     "year": 1866,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1866",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "josip-prpic-5",
-     "name": "Josip Prpic",
-     "year": 1866,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1866",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-blazevic-10",
-     "name": "Marija Blažević",
-     "year": 1867,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1867",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "antonius-josip-papic",
-     "name": "Antonius Josip \"Anton\" Papić",
-     "year": 1868,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "8 JUN 1868",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "johana-jurcic",
-     "name": "Johana Jurcic",
-     "year": 1868,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1868",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "francisca-blazevic",
-     "name": "Francisca Blažević",
-     "year": 1870,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1870",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "francisca-helena-blazevic",
-     "name": "Francisca Helena Blažević",
-     "year": 1870,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "30 JUL 1870",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "franjo-zupan",
-     "name": "Franjo ŽUPAN",
-     "year": 1870,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "6 DEC 1870",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "franciscus-paul-boras",
-     "name": "Franciscus Paul Boras",
-     "year": 1872,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1872",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "joanna-johanna-papic",
-     "name": "Joanna Johanna Papić",
-     "year": 1872,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "21 JUN 1872",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "frane-franjo-franciscus-papic",
-     "name": "Frane Franjo Franciscus Papić",
-     "year": 1873,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "27 JUL 1873",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia`"
-    },
-    {
-     "slug": "joannes-belobaric",
-     "name": "Joannes Belobaric",
-     "year": 1873,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1873",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "stanislava-spalj-spalj",
-     "name": "Stanislava Špalj Spalj",
-     "year": 1873,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1873",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "antonius-vincentius-ignatius-blazevic",
-     "name": "Antonius Vincentius Ignatius Blažević",
-     "year": 1874,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "JUL 1874",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "clementi-ursula-vukelic",
-     "name": "Clementi Ursula Vukelić",
-     "year": 1875,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1875",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "maria-matthia-belobaric",
-     "name": "Maria Matthia Belobaric",
-     "year": 1875,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1875",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "mathea-spalj-spalj",
-     "name": "Mathea Špalj Spalj",
-     "year": 1875,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1875",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "katarina-janusic",
-     "name": "Katarina Janušić",
-     "year": 1876,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1876",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "simeon-grzin",
-     "name": "Simeon Grzin",
-     "year": 1876,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1876",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "georgina-vukelic",
-     "name": "Georgina Vukelić",
-     "year": 1877,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1877",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "maria-carmela-prpic",
-     "name": "Maria Carmela Prpic",
-     "year": 1877,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1877",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "hermina-prpic",
-     "name": "Hermina Prpic",
-     "year": 1878,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1878",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "ivanja-tereza-bacic",
-     "name": "Ivanja Tereza Bacic",
-     "year": 1878,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1878",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "johana-maria-prpic",
-     "name": "Johana Maria Prpic",
-     "year": 1878,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1878",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "stanko-vukelic",
-     "name": "Stanko Vukelić",
-     "year": 1878,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1878",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "filip-anton-grzin",
-     "name": "Filip Anton Grzin",
-     "year": 1879,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1879",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "filipina-apolonia-grzin",
-     "name": "Filipina Apolonia Grzin",
-     "year": 1879,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1879",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "matija-tomljanovic",
-     "name": "Matija Tomljanovic",
-     "year": 1879,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1879",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "josip-prpic",
-     "name": "Josip Prpic",
-     "year": 1880,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1880",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "josip-prpic-6",
-     "name": "Josip Prpic",
-     "year": 1880,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1880",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "lucija-belobarbic",
-     "name": "Lucija Belobarbic",
-     "year": 1880,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1880",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "silva-angjelika-rivosechi",
-     "name": "Silva Angjelika Rivosechi",
-     "year": 1880,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1880",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "vinko-vukelic",
-     "name": "Vinko Vukelić",
-     "year": 1880,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1880",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "albin-ivan-grzin",
-     "name": "Albin Ivan Grzin",
-     "year": 1881,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1881",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "linda-elizabeta-vukelic",
-     "name": "Linda Elizabeta Vukelić",
-     "year": 1881,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1881",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "mile-vatroslav-krmpotic",
-     "name": "Mile Vatroslav Krmpotić",
-     "year": 1881,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1881",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "virgil-maria-rivosechi",
-     "name": "Virgil Maria Rivosechi",
-     "year": 1881,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1881",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "milka-rivosechi",
-     "name": "Milka Rivosechi",
-     "year": 1882,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1882",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "anton-frane-krmpotic",
-     "name": "Anton Frane Krmpotić",
-     "year": 1883,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "27 JUL 1883",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "julius-prpic",
-     "name": "Julius Prpic",
-     "year": 1883,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1883",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "zvonimir-matei-vukelic",
-     "name": "Zvonimir Matei Vukelić",
-     "year": 1883,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "13 JAN 1883",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "frane-belobarbic",
-     "name": "Frane Belobarbic",
-     "year": 1884,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1884",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "bozica-ana-rivosechi",
-     "name": "Bozica Ana Rivosechi",
-     "year": 1885,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1885",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "josip-blazevic-3",
-     "name": "Josip \"Joso\" Blažević",
-     "year": 1885,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1885",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "marija-papic",
-     "name": "Marija Papić",
-     "year": 1885,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "11 AUG 1885",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "slavka-katarina-krmpotic",
-     "name": "Slavka Katarina Krmpotić",
-     "year": 1885,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "26 OCT 1885",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "kate-spalj-spalj",
-     "name": "Kate Špalj Spalj",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "maria-belobarbic",
-     "name": "Maria Belobarbic",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marijan-vincenza-boras",
-     "name": "Marijan Vincenza Boras",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "milka-lucia-papic",
-     "name": "Milka Lucia Papic",
-     "year": 1886,
-     "village": "senj",
-     "ahn": 3,
-     "inside": true,
-     "date": "9 OCT 1886",
-     "place": "Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "nikula-zubrinic",
-     "name": "Nikula Zubrinic",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "olga-oktavia-prpic",
-     "name": "Olga Oktavia Prpic",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "sime-papic",
-     "name": "Sime Papić",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "stjepan-nikula-rivosechi",
-     "name": "Stjepan Nikula Rivosechi",
-     "year": 1886,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ambroz-vjekoslav-rivosechi",
-     "name": "Ambroz Vjekoslav Rivosechi",
-     "year": 1887,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1887",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ana-spalj-spalj",
-     "name": "Ana Špalj Spalj",
-     "year": 1887,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1887",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "ivan-frane-grandic",
-     "name": "Ivan Frane Grandic",
-     "year": 1887,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1887",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia`"
-    },
-    {
-     "slug": "marija-babic",
-     "name": "Marija Babić",
-     "year": 1887,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1887",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "ana-papic",
-     "name": "Ana \"Anica\" Papić",
-     "year": 1888,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "25 MAY 1888",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "franjo-boras",
-     "name": "Franjo Boras",
-     "year": 1888,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1 OCT 1888",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-pepica-spalj-spalj",
-     "name": "Marija Pepica Špalj Spalj",
-     "year": 1888,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1888",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marijan-krmpotic",
-     "name": "Marijan Krmpotić",
-     "year": 1888,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1888",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "franjo-papic",
-     "name": "Franjo Papić",
-     "year": 1889,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1889",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "gjorja-papic",
-     "name": "Gjorja Papić",
-     "year": 1889,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1889",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "jacov-babic",
-     "name": "Jacov Babic",
-     "year": 1889,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1889",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "tonica-grandic",
-     "name": "Tonica Grandic",
-     "year": 1889,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1889",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ana-babic",
-     "name": "Ana Babić",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "anton-krmpotic",
-     "name": "Anton Krmpotić",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ginro-babic",
-     "name": "Ginro Babic",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "16 APR 1890",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "josip-papic",
-     "name": "Josip Papić",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "18 MAR 1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "kate-prpic-2",
-     "name": "Kate Prpic",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-5",
-     "name": "Marija",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "16 JUN 1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-carmela-papic",
-     "name": "Marija Carmela Papić",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1890",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "mate-blazevic-3",
-     "name": "Mate Blažević",
-     "year": 1890,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1890",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "antonius-joannes-kosina",
-     "name": "Antonius Joannes \"Antun\" Kosina",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "13 MAY 1891",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "bozica-lucija-papic",
-     "name": "Bozica Lucija Papić",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "6 DEC 1891",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "bozica-tonka-papic",
-     "name": "Bozica Tonka Papić",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "9 DEC 1891",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "jure-milkan-spalj-spalj",
-     "name": "Jure Milkan Špalj Spalj",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1891",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marijan-blazevic-3",
-     "name": "Marijan Blažević",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1891",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "mirko-babic",
-     "name": "Mirko Babić",
-     "year": 1891,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1891",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-boras",
-     "name": "Marija Boras",
-     "year": 1892,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "23 JAN 1892",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "mile-prpic",
-     "name": "Mile Prpic",
-     "year": 1892,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "9 MAR 1892",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "franjo-dion-kermpotic",
-     "name": "Franjo Dion Kermpotic",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "klara-spalj-spalj",
-     "name": "Klara Špalj Spalj",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marijam-grandic",
-     "name": "Marijam Grandic",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "tonica-klotilola-papic",
-     "name": "Tonica Klotilola? Papić",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "vicenco-marijan-papic",
-     "name": "Vicenco Marijan Papić",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "vincenco-papic",
-     "name": "Vincenco Papić",
-     "year": 1893,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ivan-juraj-prpic",
-     "name": "Ivan Juraj Prpic",
-     "year": 1894,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1894",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "josip-anton-blazevic",
-     "name": "Josip Anton Blažević",
-     "year": 1894,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1894",
-     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "leon-davorim-krmpotic",
-     "name": "Leon Davorim Krmpotić",
-     "year": 1894,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "1894",
-     "place": "Senj, Croatia"
-    },
-    {
-     "slug": "pavao-kosina",
-     "name": "Pavao Kosina",
-     "year": 1894,
-     "village": "senj",
-     "ahn": null,
-     "inside": true,
-     "date": "15 MAR 1894",
-     "place": "Senj, Croatia"
-    }
-   ]
-  },
-  {
    "parish": "Otocac",
    "kind": "births",
    "holds": "1834-1858",
    "verified": "marriages verified images 129-147",
-   "n": 160,
-   "reachable": 106,
+   "n": 161,
+   "reachable": 107,
    "ahn": [
     10,
     21
@@ -2575,6 +3025,16 @@
      "ahn": null,
      "inside": true,
      "date": "1834",
+     "place": "Otočac, Croatia"
+    },
+    {
+     "slug": "joanna-zubrinic-kraljcich",
+     "name": "Joanna Žubrinić Kraljcich",
+     "year": 1835,
+     "village": "otocac",
+     "ahn": null,
+     "inside": true,
+     "date": "24 MAY 1835",
      "place": "Otočac, Croatia"
     },
     {
@@ -3601,11 +4061,992 @@
   },
   {
    "parish": "Krivi Put",
+   "kind": "deaths",
+   "holds": "1878-1934",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 109,
+   "reachable": 97,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "kate-perpic",
+     "name": "Kate Perpic",
+     "year": 1879,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1879",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "jure-perpic",
+     "name": "Jure Perpic",
+     "year": 1882,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1882",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "luce-3",
+     "name": "Luce",
+     "year": 1883,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1883",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "martinus-sojat",
+     "name": "Martinus Šojat",
+     "year": 1884,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "14 APR 1884",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antona-blazevic-2",
+     "name": "Antona Blažević",
+     "year": 1885,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1885",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "kata-pavelic",
+     "name": "Kata Pavelić",
+     "year": 1886,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "12 JAN 1886",
+     "place": "#14 Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "kate-2",
+     "name": "Kate",
+     "year": 1886,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "marija-blazevic-8",
+     "name": "Marija Blažević",
+     "year": 1886,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1886",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "luce-2",
+     "name": "Luce",
+     "year": 1887,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1887",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "domianus-perpic",
+     "name": "Domianus \"Domian\" Perpić",
+     "year": 1888,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1888",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "luce-prpic",
+     "name": "Luce Prpic",
+     "year": 1888,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1888",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ruza-blazevic-2",
+     "name": "Ruza Blažević",
+     "year": 1889,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1889",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "mate-pavelic-2",
+     "name": "Mate Pavelić",
+     "year": 1890,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "4 JAN 1890",
+     "place": "Mrzli Dol br. 14, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "franjo-pavelic-2",
+     "name": "Franjo Pavelić",
+     "year": 1891,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "24 APR 1891",
+     "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "maria-sojath",
+     "name": "Maria Sojath",
+     "year": 1891,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1891",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "marija-pavelic-5",
+     "name": "Marija Pavelic",
+     "year": 1891,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "13 JAN 1891",
+     "place": "#23 Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "simun-sojat",
+     "name": "Simun Šojat",
+     "year": 1891,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "20 DEC 1891",
+     "place": "Krivi Put, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "marija-pavelic-2",
+     "name": "Marija Pavelic",
+     "year": 1892,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "BEF 1892",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ruza-pavelic",
+     "name": "Ruža Pavelić",
+     "year": 1892,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "6 MAY 1892",
+     "place": "Mrzli Dol, br 14 Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "antonija-prpic",
+     "name": "Antonija Prpic",
+     "year": 1893,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "katarina-prpic",
+     "name": "Katarina Prpic",
+     "year": 1893,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1893",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivan-blazevic-19",
+     "name": "Ivan Blažević",
+     "year": 1896,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "10 FEB 1896",
+     "place": "Mrzli Dol 6, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "ivan-blazevic-13",
+     "name": "Ivan Blažević",
+     "year": 1896,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1896",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ivan-perpic-2",
+     "name": "Ivan Perpić",
+     "year": 1896,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1896",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "josip-perpic",
+     "name": "Josip Perpić",
+     "year": 1896,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1896",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "marija-sojat-3",
+     "name": "Marija Šojat",
+     "year": 1896,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "29 MAR 1896",
+     "place": "#6 Mrzli dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "mate-pavelic-3",
+     "name": "Mate Pavelić",
+     "year": 1896,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "10 FEB 1896",
+     "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "mihovil-prpic",
+     "name": "Mihovil Prpić",
+     "year": 1896,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1896",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "anton-kljapo-blazevic",
+     "name": "Anton Kljapo Blažević",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "15 MAY 1897",
+     "place": "#6 Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "antonia-tomljanovic",
+     "name": "Antonia Tomljanović",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "27 AUG 1897",
+     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "danica-pavelic",
+     "name": "Danica Pavelic",
+     "year": 1897,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1897",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "danica-pavelic-3",
+     "name": "Danica Pavelić",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "29 AUG 1897",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
+    },
+    {
+     "slug": "danica-pavelic-blazevic",
+     "name": "Danica Pavelić (Blazevic)",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "29 AUG 1897",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "franjo-pavelic",
+     "name": "Franjo Pavelić",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "13 AUG 1897",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ivan-pavelic-2",
+     "name": "Ivan Pavelic",
+     "year": 1897,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1897",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "josip-pavelic",
+     "name": "Josip Pavelić",
+     "year": 1897,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "25 JUN 1897",
+     "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "ivan-blazevic-12",
+     "name": "Ivan Blažević",
+     "year": 1900,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1900",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ruza-prpic-3",
+     "name": "Ruza Prpić",
+     "year": 1900,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1900",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "jure-blazevic",
+     "name": "Jure Blažević",
+     "year": 1902,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1902",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "danica-blazevic",
+     "name": "Danica Blažević",
+     "year": 1903,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1903",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "franjisca-blazevic",
+     "name": "Franjisca Blažević",
+     "year": 1903,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1903",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-4",
+     "name": "Marija",
+     "year": 1903,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1903",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "matija-sojat",
+     "name": "Matija Šojat",
+     "year": 1903,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "10 MAR 1903",
+     "place": "Krivi Put, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "antonija-pavelic-3",
+     "name": "Antonija Pavelić",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "12 JAN 1904",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
+    },
+    {
+     "slug": "antonija-pavelic-blazevic",
+     "name": "Antonija Pavelić (Blazevic)",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "12 JAN 1904",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "dujo-pavelic-3",
+     "name": "Dujo Pavelić",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "24 AUG 1904",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
+    },
+    {
+     "slug": "dujo-pavelic-blazevic",
+     "name": "Dujo Pavelić (Blazevic)",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "24 AUG 1904",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "kata-pavelic-2",
+     "name": "Kata Pavelić",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JAN 1904",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
+    },
+    {
+     "slug": "katica-pavelic-blazevic",
+     "name": "Katica Pavelić (Blazevic)",
+     "year": 1904,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JAN 1904",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "marija-perpic",
+     "name": "Marija Perpić",
+     "year": 1904,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1904",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "ana-7",
+     "name": "Ana",
+     "year": 1905,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1905",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "danica-pavelic-2",
+     "name": "Danica Pavelić",
+     "year": 1905,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "4 AUG 1905",
+     "place": "Mrzli Dol, br. 14, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "josip-blazevic-5",
+     "name": "Josip Blažević",
+     "year": 1905,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1905",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marko-blazevic-3",
+     "name": "Marko Blažević",
+     "year": 1905,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1905",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivan-pavelic-6",
+     "name": "Ivan Pavelić",
+     "year": 1906,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "28 JUN 1906",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
+    },
+    {
+     "slug": "ivan-pavelic-blazevic",
+     "name": "Ivan Pavelić (Blazevic)",
+     "year": 1906,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "28 JUN 1906",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "marijan-blazevic-2",
+     "name": "Marijan Blažević",
+     "year": 1906,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1906",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "petrus-perpic",
+     "name": "Petrus Perpić",
+     "year": 1906,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1906",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "marta-blazevic-2",
+     "name": "Marta Blažević",
+     "year": 1907,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1907",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anton-prpic",
+     "name": "Anton Prpić",
+     "year": 1908,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1908",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
+    },
+    {
+     "slug": "dujo-pavelic-2",
+     "name": "Dujo Pavelić",
+     "year": 1908,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "22 FEB 1908",
+     "place": "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "franjo-prpic",
+     "name": "Franjo Prpić",
+     "year": 1909,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "28 MAR 1909",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija"
+    },
+    {
+     "slug": "matija-pavelic-3",
+     "name": "Matija Pavelić",
+     "year": 1909,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "19 FEB 1909",
+     "place": "Mrzli Dol 14, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "kresimir-blazevic",
+     "name": "Kresimir Blažević",
+     "year": 1910,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1910",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mile-blazevic-2",
+     "name": "Mile Blažević",
+     "year": 1910,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1910",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antonija-blazevic-4",
+     "name": "Antonija Blažević",
+     "year": 1911,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "17 FEB 1911",
+     "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija"
+    },
+    {
+     "slug": "marija-blazevic-6",
+     "name": "Marija Blažević",
+     "year": 1911,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1911",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-pavelic-10",
+     "name": "Marija Pavelić",
+     "year": 1911,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "10 NOV 1911",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "marija-pavelic-blazevic",
+     "name": "Marija Pavelić (Blazevic)",
+     "year": 1911,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "10 NOV 1911",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "antonija-pavelic-2",
+     "name": "Antonija Pavelic",
+     "year": 1913,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1913",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-7",
+     "name": "Marija",
+     "year": 1913,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1913",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "magdalena-blazevic",
+     "name": "Magdalena Blažević",
+     "year": 1914,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1914",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "martinus-dujo-pavelic",
+     "name": "Martinus Dujo Pavelic",
+     "year": 1914,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "26 JUN 1914",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "blaz-blazevic-2",
+     "name": "Blaž Blažević",
+     "year": 1915,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1915",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marija-pavelic-9",
+     "name": "Marija Pavelić",
+     "year": 1915,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "7 JUN 1915",
+     "place": "Mrzli Dol 29, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "anka-pavelic",
+     "name": "Anka Pavelic",
+     "year": 1916,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "17 MAY 1916",
+     "place": "#148 Krivi Put"
+    },
+    {
+     "slug": "kata-2",
+     "name": "Kata",
+     "year": 1917,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1917",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "francika-blazevic",
+     "name": "Francika Blažević",
+     "year": 1918,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1918",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivka-blazevic-2",
+     "name": "Ivka Blažević",
+     "year": 1918,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1918",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "luca-blazevic",
+     "name": "Luca Blažević",
+     "year": 1918,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1918",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "nikola-blazevic-3",
+     "name": "Nikola Blažević",
+     "year": 1918,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1918",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "anka-pavelic-2",
+     "name": "Anka Pavelić",
+     "year": 1920,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "2 SEP 1920",
+     "place": "Mrzli Dol br. 14, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "nikola-blazevic-6",
+     "name": "Nikola Blažević",
+     "year": 1921,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1921",
+     "place": "Mrzli Dol, Senj, Croatia"
+    },
+    {
+     "slug": "francika-blazevic-3",
+     "name": "Francika Blažević",
+     "year": 1922,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "9 MAY 1922",
+     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "franciska-franjica-blazevic",
+     "name": "Franciska Franjica Blažević",
+     "year": 1922,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "9 MAY 1922",
+     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "franjica-blazevic",
+     "name": "Franjica Blažević",
+     "year": 1922,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "9 MAY 1922",
+     "place": "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "ane-blazevic",
+     "name": "Ane Blažević",
+     "year": 1924,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1924",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ane-blazevic-4",
+     "name": "Ane Blažević",
+     "year": 1924,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "4 JUN 1924",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "milka-pavelic-2",
+     "name": "Milka Pavelić",
+     "year": 1924,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "12 AUG 1924",
+     "place": "Krivi Put, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "francika-3",
+     "name": "Francika",
+     "year": 1925,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1925",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ruze-prpic",
+     "name": "Ruze Prpic",
+     "year": 1929,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1929",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "antonia-blazevic",
+     "name": "Antonia Blažević",
+     "year": 1930,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "3 AUG 1930",
+     "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "milan-blazevic",
+     "name": "Milan Blazevic",
+     "year": 1930,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1930",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ivan-blazevic-10",
+     "name": "Ivan Blazevic",
+     "year": 1931,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1931",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "marko-pavelic-4",
+     "name": "Marko Pavelić",
+     "year": 1932,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "8 FEB 1932",
+     "place": "14 Mrzli Dol, Krivi Put, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ivan-blazevic-9",
+     "name": "Ivan Blažević",
+     "year": 1933,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1933",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "ana-blazevic-2",
+     "name": "Ana Blažević",
+     "year": 1934,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1934",
+     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Krivi Put",
    "kind": "births",
    "holds": "1847-1884",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 183,
-   "reachable": 90,
+   "n": 192,
+   "reachable": 93,
    "ahn": [
     7
    ],
@@ -3629,6 +5070,16 @@
      "inside": true,
      "date": "3 FEB 1850",
      "place": "Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "ana-7",
+     "name": "Ana",
+     "year": 1851,
+     "village": "mrzli dol",
+     "ahn": null,
+     "inside": true,
+     "date": "1851",
+     "place": "Mrzli Dol, Senj, Croatia"
     },
     {
      "slug": "ivan-pavelic-3",
@@ -3719,6 +5170,16 @@
      "inside": true,
      "date": "8 SEP 1855",
      "place": "Mrzli Dol 6, Općina Senj, Ličko-senjska županija, Croatia"
+    },
+    {
+     "slug": "luce-3",
+     "name": "Luce",
+     "year": 1856,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1856",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
     },
     {
      "slug": "luce-2",
@@ -4391,6 +5852,16 @@
      "place": "#14 Mrzli Dol, Lika-Senj, Croatia"
     },
     {
+     "slug": "nikola-sojat",
+     "name": "Nikola Šojat",
+     "year": 1878,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "1878",
+     "place": "Krivi Put, Lika-Senj, Croatia"
+    },
+    {
      "slug": "eva-pavelic",
      "name": "Eva Pavelić",
      "year": 1880,
@@ -4509,917 +5980,6 @@
      "inside": true,
      "date": "17 SEP 1884",
      "place": "#14 Mrzli Dol, Lika-Senj, Croatia"
-    }
-   ]
-  },
-  {
-   "parish": "Krivi Put",
-   "kind": "deaths",
-   "holds": "1878-1934",
-   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 102,
-   "reachable": 90,
-   "ahn": [],
-   "people": [
-    {
-     "slug": "kate-perpic",
-     "name": "Kate Perpic",
-     "year": 1879,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1879",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "jure-perpic",
-     "name": "Jure Perpic",
-     "year": 1882,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1882",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "antona-blazevic-2",
-     "name": "Antona Blažević",
-     "year": 1885,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1885",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "kata-pavelic",
-     "name": "Kata Pavelić",
-     "year": 1886,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "12 JAN 1886",
-     "place": "#14 Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "kate-2",
-     "name": "Kate",
-     "year": 1886,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "marija-blazevic-8",
-     "name": "Marija Blažević",
-     "year": 1886,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1886",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "luce-2",
-     "name": "Luce",
-     "year": 1887,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1887",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "domianus-perpic",
-     "name": "Domianus \"Domian\" Perpić",
-     "year": 1888,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1888",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "luce-prpic",
-     "name": "Luce Prpic",
-     "year": 1888,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1888",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "ruza-blazevic-2",
-     "name": "Ruza Blažević",
-     "year": 1889,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1889",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "mate-pavelic-2",
-     "name": "Mate Pavelić",
-     "year": 1890,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "4 JAN 1890",
-     "place": "Mrzli Dol br. 14, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "franjo-pavelic-2",
-     "name": "Franjo Pavelić",
-     "year": 1891,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "24 APR 1891",
-     "place": "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "maria-sojath",
-     "name": "Maria Sojath",
-     "year": 1891,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1891",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "marija-pavelic-5",
-     "name": "Marija Pavelic",
-     "year": 1891,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "13 JAN 1891",
-     "place": "#23 Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "marija-pavelic-2",
-     "name": "Marija Pavelic",
-     "year": 1892,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "BEF 1892",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ruza-pavelic",
-     "name": "Ruža Pavelić",
-     "year": 1892,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "6 MAY 1892",
-     "place": "Mrzli Dol, br 14 Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "antonija-prpic",
-     "name": "Antonija Prpic",
-     "year": 1893,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "katarina-prpic",
-     "name": "Katarina Prpic",
-     "year": 1893,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1893",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ivan-blazevic-19",
-     "name": "Ivan Blažević",
-     "year": 1896,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "10 FEB 1896",
-     "place": "Mrzli Dol 6, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "ivan-blazevic-13",
-     "name": "Ivan Blažević",
-     "year": 1896,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1896",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "ivan-perpic-2",
-     "name": "Ivan Perpić",
-     "year": 1896,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1896",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "josip-perpic",
-     "name": "Josip Perpić",
-     "year": 1896,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1896",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "marija-sojat-3",
-     "name": "Marija Šojat",
-     "year": 1896,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "29 MAR 1896",
-     "place": "#6 Mrzli dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "mate-pavelic-3",
-     "name": "Mate Pavelić",
-     "year": 1896,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "10 FEB 1896",
-     "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "mihovil-prpic",
-     "name": "Mihovil Prpić",
-     "year": 1896,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1896",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "anton-kljapo-blazevic",
-     "name": "Anton Kljapo Blažević",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "15 MAY 1897",
-     "place": "#6 Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "antonia-tomljanovic",
-     "name": "Antonia Tomljanović",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "27 AUG 1897",
-     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "danica-pavelic",
-     "name": "Danica Pavelic",
-     "year": 1897,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1897",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "danica-pavelic-3",
-     "name": "Danica Pavelić",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "29 AUG 1897",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
-    },
-    {
-     "slug": "danica-pavelic-blazevic",
-     "name": "Danica Pavelić (Blazevic)",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "29 AUG 1897",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "franjo-pavelic",
-     "name": "Franjo Pavelić",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "13 AUG 1897",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "ivan-pavelic-2",
-     "name": "Ivan Pavelic",
-     "year": 1897,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1897",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "josip-pavelic",
-     "name": "Josip Pavelić",
-     "year": 1897,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "25 JUN 1897",
-     "place": "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "ivan-blazevic-12",
-     "name": "Ivan Blažević",
-     "year": 1900,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1900",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ruza-prpic-3",
-     "name": "Ruza Prpić",
-     "year": 1900,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1900",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "jure-blazevic",
-     "name": "Jure Blažević",
-     "year": 1902,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1902",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "danica-blazevic",
-     "name": "Danica Blažević",
-     "year": 1903,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1903",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "franjisca-blazevic",
-     "name": "Franjisca Blažević",
-     "year": 1903,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1903",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-4",
-     "name": "Marija",
-     "year": 1903,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1903",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "antonija-pavelic-3",
-     "name": "Antonija Pavelić",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "12 JAN 1904",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
-    },
-    {
-     "slug": "antonija-pavelic-blazevic",
-     "name": "Antonija Pavelić (Blazevic)",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "12 JAN 1904",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "dujo-pavelic-3",
-     "name": "Dujo Pavelić",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "24 AUG 1904",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
-    },
-    {
-     "slug": "dujo-pavelic-blazevic",
-     "name": "Dujo Pavelić (Blazevic)",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "24 AUG 1904",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "kata-pavelic-2",
-     "name": "Kata Pavelić",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1 JAN 1904",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
-    },
-    {
-     "slug": "katica-pavelic-blazevic",
-     "name": "Katica Pavelić (Blazevic)",
-     "year": 1904,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1 JAN 1904",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "marija-perpic",
-     "name": "Marija Perpić",
-     "year": 1904,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1904",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "danica-pavelic-2",
-     "name": "Danica Pavelić",
-     "year": 1905,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "4 AUG 1905",
-     "place": "Mrzli Dol, br. 14, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "josip-blazevic-5",
-     "name": "Josip Blažević",
-     "year": 1905,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1905",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marko-blazevic-3",
-     "name": "Marko Blažević",
-     "year": 1905,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1905",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ivan-pavelic-6",
-     "name": "Ivan Pavelić",
-     "year": 1906,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "28 JUN 1906",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska"
-    },
-    {
-     "slug": "ivan-pavelic-blazevic",
-     "name": "Ivan Pavelić (Blazevic)",
-     "year": 1906,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "28 JUN 1906",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "marijan-blazevic-2",
-     "name": "Marijan Blažević",
-     "year": 1906,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1906",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "petrus-perpic",
-     "name": "Petrus Perpić",
-     "year": 1906,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1906",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "marta-blazevic-2",
-     "name": "Marta Blažević",
-     "year": 1907,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1907",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "anton-prpic",
-     "name": "Anton Prpić",
-     "year": 1908,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1908",
-     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
-    },
-    {
-     "slug": "dujo-pavelic-2",
-     "name": "Dujo Pavelić",
-     "year": 1908,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "22 FEB 1908",
-     "place": "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "franjo-prpic",
-     "name": "Franjo Prpić",
-     "year": 1909,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "28 MAR 1909",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija"
-    },
-    {
-     "slug": "matija-pavelic-3",
-     "name": "Matija Pavelić",
-     "year": 1909,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "19 FEB 1909",
-     "place": "Mrzli Dol 14, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "kresimir-blazevic",
-     "name": "Kresimir Blažević",
-     "year": 1910,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1910",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "mile-blazevic-2",
-     "name": "Mile Blažević",
-     "year": 1910,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1910",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "antonija-blazevic-4",
-     "name": "Antonija Blažević",
-     "year": 1911,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "17 FEB 1911",
-     "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija"
-    },
-    {
-     "slug": "marija-blazevic-6",
-     "name": "Marija Blažević",
-     "year": 1911,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1911",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-pavelic-10",
-     "name": "Marija Pavelić",
-     "year": 1911,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "10 NOV 1911",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "marija-pavelic-blazevic",
-     "name": "Marija Pavelić (Blazevic)",
-     "year": 1911,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "10 NOV 1911",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "antonija-pavelic-2",
-     "name": "Antonija Pavelic",
-     "year": 1913,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1913",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "magdalena-blazevic",
-     "name": "Magdalena Blažević",
-     "year": 1914,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1914",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "martinus-dujo-pavelic",
-     "name": "Martinus Dujo Pavelic",
-     "year": 1914,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "26 JUN 1914",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "blaz-blazevic-2",
-     "name": "Blaž Blažević",
-     "year": 1915,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1915",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marija-pavelic-9",
-     "name": "Marija Pavelić",
-     "year": 1915,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "7 JUN 1915",
-     "place": "Mrzli Dol 29, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "anka-pavelic",
-     "name": "Anka Pavelic",
-     "year": 1916,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "17 MAY 1916",
-     "place": "#148 Krivi Put"
-    },
-    {
-     "slug": "kata-2",
-     "name": "Kata",
-     "year": 1917,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1917",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "francika-blazevic",
-     "name": "Francika Blažević",
-     "year": 1918,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1918",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ivka-blazevic-2",
-     "name": "Ivka Blažević",
-     "year": 1918,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1918",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "luca-blazevic",
-     "name": "Luca Blažević",
-     "year": 1918,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1918",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "nikola-blazevic-3",
-     "name": "Nikola Blažević",
-     "year": 1918,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1918",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "anka-pavelic-2",
-     "name": "Anka Pavelić",
-     "year": 1920,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "2 SEP 1920",
-     "place": "Mrzli Dol br. 14, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "nikola-blazevic-6",
-     "name": "Nikola Blažević",
-     "year": 1921,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "1921",
-     "place": "Mrzli Dol, Senj, Croatia"
-    },
-    {
-     "slug": "francika-blazevic-3",
-     "name": "Francika Blažević",
-     "year": 1922,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "9 MAY 1922",
-     "place": "Mrzli Dol #30, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "franciska-franjica-blazevic",
-     "name": "Franciska Franjica Blažević",
-     "year": 1922,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "9 MAY 1922",
-     "place": "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "franjica-blazevic",
-     "name": "Franjica Blažević",
-     "year": 1922,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "9 MAY 1922",
-     "place": "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia"
-    },
-    {
-     "slug": "ane-blazevic",
-     "name": "Ane Blažević",
-     "year": 1924,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1924",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ane-blazevic-4",
-     "name": "Ane Blažević",
-     "year": 1924,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "4 JUN 1924",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "milka-pavelic-2",
-     "name": "Milka Pavelić",
-     "year": 1924,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "12 AUG 1924",
-     "place": "Krivi Put, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "ruze-prpic",
-     "name": "Ruze Prpic",
-     "year": 1929,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1929",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "antonia-blazevic",
-     "name": "Antonia Blažević",
-     "year": 1930,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "3 AUG 1930",
-     "place": "Mrzli Dol, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "milan-blazevic",
-     "name": "Milan Blazevic",
-     "year": 1930,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1930",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ivan-blazevic-10",
-     "name": "Ivan Blazevic",
-     "year": 1931,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1931",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "marko-pavelic-4",
-     "name": "Marko Pavelić",
-     "year": 1932,
-     "village": "mrzli dol",
-     "ahn": null,
-     "inside": true,
-     "date": "8 FEB 1932",
-     "place": "14 Mrzli Dol, Krivi Put, Lika-Senj, Croatia"
-    },
-    {
-     "slug": "ivan-blazevic-9",
-     "name": "Ivan Blažević",
-     "year": 1933,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1933",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
-    },
-    {
-     "slug": "ana-blazevic-2",
-     "name": "Ana Blažević",
-     "year": 1934,
-     "village": "krivi put",
-     "ahn": null,
-     "inside": true,
-     "date": "1934",
-     "place": "Krivi Put, Općina Senj, Lika-Senj County, Croatia"
     }
    ]
   },
@@ -5853,8 +6413,8 @@
    "kind": "deaths",
    "holds": "1820-1858,1859-1907",
    "verified": "marriages verified end to end",
-   "n": 69,
-   "reachable": 39,
+   "n": 76,
+   "reachable": 40,
    "ahn": [
     8,
     26,
@@ -6029,6 +6589,16 @@
      "ahn": null,
      "inside": true,
      "date": "22 MAY 1883",
+     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
+    },
+    {
+     "slug": "mande",
+     "name": "Mande",
+     "year": 1883,
+     "village": "senj",
+     "ahn": null,
+     "inside": true,
+     "date": "1883",
      "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia"
     },
     {
@@ -6254,14 +6824,746 @@
    ]
   },
   {
+   "parish": "Crikvenica",
+   "kind": "deaths",
+   "holds": "1815-1908",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 66,
+   "reachable": 35,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "marija-car-car-korosan",
+     "name": "Marija Car Korošan",
+     "year": 1815,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "11 OCT 1815",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "jelena-zupan",
+     "name": "Jelena Župan",
+     "year": 1817,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "22 MAY 1817",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "josip-car-marusic",
+     "name": "Josip Car Marušić",
+     "year": 1817,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "11 DEC 1817",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "margaretha-jankovic",
+     "name": "Margaretha Jankovic",
+     "year": 1817,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 JUL 1817",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "jakov-katnic",
+     "name": "Jakov Katnic",
+     "year": 1818,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 MAR 1818",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ursula-car",
+     "name": "Ursula Car",
+     "year": 1834,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "16 OCT 1834",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "grgur-car-korosan",
+     "name": "Grgur Car Korošan",
+     "year": 1835,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "3 JAN 1835",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "nikola-stojcic",
+     "name": "Nikola Stojčić",
+     "year": 1835,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "2 MAR 1835",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "jelena-ivancic-ivancic-pandur",
+     "name": "Jelena Ivančić Pandur",
+     "year": 1836,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "23 JUL 1836",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "augustin-stojcic",
+     "name": "Augustin Stojčić",
+     "year": 1842,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "8 AUG 1842",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "magdalena-8",
+     "name": "Magdalena",
+     "year": 1844,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "4 SEP 1844",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ana-stojcic",
+     "name": "Ana Stojčić",
+     "year": 1849,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 JAN 1849",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "pavao-car-hreljincic",
+     "name": "Pavao Car Hreljincic",
+     "year": 1852,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "22 APR 1852",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "pio-franjo-car",
+     "name": "Pio Franjo Car",
+     "year": 1857,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "24 MAR 1857",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "ivan-car-marusic",
+     "name": "Ivan Car Marušić",
+     "year": 1860,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "22 JUL 1860",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "helena-jelena-czar",
+     "name": "Helena Jelena Czar",
+     "year": 1864,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "25 JUN 1864",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "pius-pio-car",
+     "name": "Pius Pio Car",
+     "year": 1867,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "24 APR 1867",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "pius-pio-czar",
+     "name": "Pius Pio Czar",
+     "year": 1868,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "21 SEP 1868",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "nikola-car-korosan",
+     "name": "Nikola Car Korošan",
+     "year": 1870,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "29 MAY 1870",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "jelena-car-korosan",
+     "name": "Jelena Car Korošan",
+     "year": 1872,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "29 JAN 1872",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "marija-skoda-skovich",
+     "name": "Marija Skoda Skovich",
+     "year": 1877,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 FEB 1877",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ignac-ignatius-stojcic",
+     "name": "Ignac Ignatius Stojčić",
+     "year": 1880,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "12 JUN 1880",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "vjekoslava-car",
+     "name": "Vjekoslava Car",
+     "year": 1880,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "4 OCT 1880",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "barbara-car-marusic",
+     "name": "Barbara Car Marušić",
+     "year": 1883,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 JUL 1883",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "georgius-czar",
+     "name": "Georgius Czar",
+     "year": 1892,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 DEC 1892",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ivan-de-franceschi",
+     "name": "Ivan de Franceschi",
+     "year": 1896,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "27 MAR 1896",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "margaritha-zurga",
+     "name": "Margaritha Žurga",
+     "year": 1896,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 JAN 1896",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "josipa-ursula-car-car-marusic",
+     "name": "Josipa Ursula Car Marušić",
+     "year": 1897,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "20 JAN 1897",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "josipa-kovacina",
+     "name": "Josipa Kovačina",
+     "year": 1898,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 SEP 1898",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "jakov-car",
+     "name": "Jakov Car",
+     "year": 1902,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 OCT 1902",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "petar-kovacina-2",
+     "name": "Petar Kovačina",
+     "year": 1904,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "3 NOV 1904",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "alojz-alo-sius-aloijsius-vjekoslav-pius-car",
+     "name": "Alojz Aloÿsius Aloijsius Vjekoslav Pius Car",
+     "year": 1905,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "27 MAR 1905",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "marijana-stjefa-stjepanka-de-franceschi",
+     "name": "Marijana Stjefa Stjepanka de Franceschi",
+     "year": 1905,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "29 SEP 1905",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "marija-de-franceschi",
+     "name": "Marija de Franceschi",
+     "year": 1906,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "6 FEB 1906",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ana-car",
+     "name": "Ana Car",
+     "year": 1908,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "8 APR 1908",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Ledenice",
+   "kind": "births",
+   "holds": "1734-1894",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 36,
+   "reachable": 34,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "magdalena-kalanj-4",
+     "name": "Magdalena Kalanj",
+     "year": 1829,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "19 FEB 1829",
+     "place": "Ledenice"
+    },
+    {
+     "slug": "maria-marija-kalanj",
+     "name": "Maria Marija Kalanj",
+     "year": 1835,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "6 DEC 1835",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "anna-kalanj-4",
+     "name": "Anna Kalanj",
+     "year": 1838,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "23 SEP 1838",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "vincentia-catharina-kalanj",
+     "name": "Vincentia Catharina Kalanj",
+     "year": 1842,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1842",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "vincentia-kalanj",
+     "name": "Vincentia Kalanj",
+     "year": 1843,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "25 MAR 1843",
+     "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "joso-josip-josephus-kalanj",
+     "name": "Joso Josip Josephus Kalanj",
+     "year": 1851,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "24 MAR 1851",
+     "place": "Ledenice, Primorje-Gorski Kotar, Croatia"
+    },
+    {
+     "slug": "anton-krpan",
+     "name": "Anton Krpan",
+     "year": 1852,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1852",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
+    },
+    {
+     "slug": "joannes-kalanj",
+     "name": "Joannes Kalanj",
+     "year": 1859,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "6 MAR 1859",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
+    },
+    {
+     "slug": "josephus-josip-kalanj-2",
+     "name": "Josephus Josip Kalanj",
+     "year": 1861,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "9 JUL 1861",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
+    },
+    {
+     "slug": "maria-marija-marija",
+     "name": "Maria Marija",
+     "year": 1861,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "25 MAY 1861",
+     "place": "Ledenice, 86, Croatia"
+    },
+    {
+     "slug": "natalis-grguric",
+     "name": "Natalis Grgurić",
+     "year": 1862,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "27 DEC 1862",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "stanislaus-ferkovic-ferkovic",
+     "name": "Stanislaus Ferkovic Ferković",
+     "year": 1863,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "7 MAY 1863",
+     "place": "Ledenice, 86, Croatia"
+    },
+    {
+     "slug": "lucija-lucia-grguric",
+     "name": "Lucija Lucia Grgurić",
+     "year": 1865,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "13 NOV 1865",
+     "place": "Ledenice, 22, Croatia"
+    },
+    {
+     "slug": "grgur-paden",
+     "name": "Grgur Pađen",
+     "year": 1866,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1 MAR 1866",
+     "place": "Ledenice"
+    },
+    {
+     "slug": "ivan-joannes-kalanj-3",
+     "name": "Ivan Joannes Kalanj",
+     "year": 1868,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "18 DEC 1868",
+     "place": "Ledenice, 22, Croatia"
+    },
+    {
+     "slug": "marcus-grguric",
+     "name": "Marcus Grgurić",
+     "year": 1868,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "26 APR 1868",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "lucia-lucija-kalanj",
+     "name": "Lucia Lucija Kalanj",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "17 DEC 1870",
+     "place": "Ledenice, 22, Croatia"
+    },
+    {
+     "slug": "margareta-butorac",
+     "name": "Margareta Butorac",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "4 MAR 1870",
+     "place": "Ledenice"
+    },
+    {
+     "slug": "maria-marija-kalanj-3",
+     "name": "Maria Marija Kalanj",
+     "year": 1870,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "MAY 1870",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "anna-grguric",
+     "name": "Anna Grgurić",
+     "year": 1871,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1 FEB 1871",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "georgius-kalanj-2",
+     "name": "Georgius Kalanj",
+     "year": 1872,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "APR 1872",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "margaritha-grguric",
+     "name": "Margaritha Grgurić",
+     "year": 1872,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "APR 1872",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "andreas-krpan",
+     "name": "Andreas Krpan",
+     "year": 1873,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "NOV 1873",
+     "place": "Ledenice, 94, Croatia"
+    },
+    {
+     "slug": "anna-gerguric",
+     "name": "Anna Gergurić",
+     "year": 1874,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1874",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "anna-kalanj-3",
+     "name": "Anna Kalanj",
+     "year": 1874,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "FEB 1874",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "catharina-kalanj-2",
+     "name": "Catharina Kalanj",
+     "year": 1875,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "15 OCT 1875",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "georgius-krpan",
+     "name": "Georgius Krpan",
+     "year": 1875,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "APR 1875",
+     "place": "Ledenice, 94, Croatia"
+    },
+    {
+     "slug": "lucija-grguric",
+     "name": "Lucija Grgurić",
+     "year": 1877,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "18 MAY 1877",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "maria-marija-krpan",
+     "name": "Maria Marija Krpan",
+     "year": 1877,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "4 APR 1877",
+     "place": "Ledenice, 94, Croatia"
+    },
+    {
+     "slug": "mate-kalanj-4",
+     "name": "Mate Kalanj",
+     "year": 1878,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1 JAN 1878",
+     "place": "Ledenice, 74, Croatia"
+    },
+    {
+     "slug": "tonka-krpan",
+     "name": "Tonka Krpan",
+     "year": 1878,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "10 SEP 1878",
+     "place": "Ledenice, 94, Croatia"
+    },
+    {
+     "slug": "marija-gerguric",
+     "name": "Marija Gergurić",
+     "year": 1880,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1880",
+     "place": "Ledenice, 27, Croatia"
+    },
+    {
+     "slug": "marko-krpan",
+     "name": "Marko Krpan",
+     "year": 1881,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "1881",
+     "place": "Ledenice, 94, Croatia"
+    },
+    {
+     "slug": "anton-antonius-rudolph-rudolf-defranceschi",
+     "name": "Anton / Antonius Rudolph / Rudolf \"Ante\" Defranceschi",
+     "year": 1890,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "20 JAN 1890",
+     "place": "Ledenice / Klenovica 22, Klenovica, Croatia"
+    }
+   ]
+  },
+  {
    "parish": "Pazin",
    "kind": "births",
    "holds": "1582-1882",
    "verified": "RESOLVED 20 Sept 2026 — Gologorica itself is NOT in the catalogue under any spelling; koha:725172 is the district town's book and it is the OLDEST this archive has ever reached. Whether Gologorica's people were written into it is NOT established",
-   "n": 28,
-   "reachable": 24,
+   "n": 34,
+   "reachable": 30,
    "ahn": [],
    "people": [
+    {
+     "slug": "johannes-giovanni-gian-battista-de-franceschi",
+     "name": "Johannes / Giovanni Gian Battista \"Ivan / John\" de Franceschi",
+     "year": 1750,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "1750",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "petrus-defranceschi",
+     "name": "Petrus Defranceschi",
+     "year": 1768,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "17 SEP 1768",
+     "place": "Gologorica, Istra, Croatia"
+    },
     {
      "slug": "mathea",
      "name": "Mathea",
@@ -6280,6 +7582,26 @@
      "ahn": null,
      "inside": true,
      "date": "28 MAR 1780",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "franciscus-antonio-antonius-defranceschi",
+     "name": "Franciscus Antonio Antonius Defranceschi",
+     "year": 1785,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 APR 1785",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "giovanni-battista-de-franceschi",
+     "name": "Giovanni Battista \"Ivan / John\" de Franceschi",
+     "year": 1787,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 AUG 1787",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -6310,6 +7632,16 @@
      "ahn": null,
      "inside": true,
      "date": "19 FEB 1830",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "anastasia-krismanic",
+     "name": "Anastasia Krismanic",
+     "year": 1836,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 DEC 1836",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -6400,6 +7732,16 @@
      "ahn": null,
      "inside": true,
      "date": "28 MAR 1851",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "franciscus-defranceschi",
+     "name": "Franciscus Defranceschi",
+     "year": 1851,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "27 DEC 1851",
      "place": "Gologorica, Istra, Croatia"
     },
     {
@@ -6501,6 +7843,307 @@
      "inside": true,
      "date": "27 DEC 1879",
      "place": "Gologorica, Istra, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Crikvenica",
+   "kind": "births",
+   "holds": "1815-1896",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
+   "n": 79,
+   "reachable": 29,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "rajmond-car",
+     "name": "Rajmond Car",
+     "year": 1830,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "13 NOV 1830",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "alojz-alo-sius-aloijsius-vjekoslav-pius-car",
+     "name": "Alojz Aloÿsius Aloijsius Vjekoslav Pius Car",
+     "year": 1833,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "7 JAN 1833",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "josip-car",
+     "name": "Josip Car",
+     "year": 1835,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 MAR 1835",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "barbara-stojcic",
+     "name": "Barbara Stojčić",
+     "year": 1838,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "4 DEC 1838",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "margareta-ana-leopoldina-car",
+     "name": "Margareta Ana Leopoldina Car",
+     "year": 1838,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "2 MAR 1838",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "pio-franjo-car",
+     "name": "Pio Franjo Car",
+     "year": 1841,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "27 JAN 1841",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "augustin-stojcic",
+     "name": "Augustin Stojčić",
+     "year": 1842,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "2 AUG 1842",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "vincenza-vincentia-car-hreljincic",
+     "name": "Vincenza Vincentia Car Hreljinčić",
+     "year": 1842,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "5 APR 1842",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "ana-car",
+     "name": "Ana Car",
+     "year": 1843,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "24 JUN 1843",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "stjepan-filip-car",
+     "name": "Stjepan Filip Car",
+     "year": 1845,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "1 AUG 1845",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "margareta-stojcic",
+     "name": "Margareta Stojčić",
+     "year": 1847,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 JUL 1847",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "jakov-car",
+     "name": "Jakov Car",
+     "year": 1849,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "25 JUL 1849",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "ivan-car",
+     "name": "Ivan Car",
+     "year": 1853,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "21 JUN 1853",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "ursula-stojcic",
+     "name": "Ursula Stojčić",
+     "year": 1856,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "30 AUG 1856",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "helena-jelena-czar",
+     "name": "Helena Jelena Czar",
+     "year": 1864,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 MAY 1864",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "pius-pio-car",
+     "name": "Pius Pio Car",
+     "year": 1866,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 NOV 1866",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "anton-car",
+     "name": "Anton Car",
+     "year": 1868,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "1868",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "gregor-car",
+     "name": "Gregor Car",
+     "year": 1871,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 APR 1871",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "henrik-hinko-stipanic",
+     "name": "Henrik Hinko Stipanić",
+     "year": 1871,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "19 NOV 1871",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "maria-car",
+     "name": "Maria Car",
+     "year": 1873,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "10 MAY 1873",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "jelena-car-2",
+     "name": "Jelena Car",
+     "year": 1875,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "2 MAY 1875",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "beata-blazenka-car",
+     "name": "Beata Blaženka Car",
+     "year": 1877,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "1 AUG 1877",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "petar-kovacina",
+     "name": "Petar Kovačina",
+     "year": 1877,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "25 AUG 1877",
+     "place": "Crikvenica 119, Crikvenica 119"
+    },
+    {
+     "slug": "vjekoslava-car",
+     "name": "Vjekoslava Car",
+     "year": 1880,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "7 MAY 1880",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "ivan-car-2",
+     "name": "Ivan Car",
+     "year": 1889,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "21 JUN 1889",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "marijana-stjefa-stjepanka-de-franceschi",
+     "name": "Marijana Stjefa Stjepanka de Franceschi",
+     "year": 1892,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "8 DEC 1892",
+     "place": "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia"
+    },
+    {
+     "slug": "ivan-de-franceschi",
+     "name": "Ivan de Franceschi",
+     "year": 1894,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "11 APR 1894",
+     "place": "Crikvenica"
+    },
+    {
+     "slug": "ursula-kovacina",
+     "name": "Ursula Kovačina",
+     "year": 1895,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "28 FEB 1895",
+     "place": "Crikvenica, Croatia"
+    },
+    {
+     "slug": "zorica-de-franceschi",
+     "name": "Zorica De Franceschi",
+     "year": 1896,
+     "village": "crikvenica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 DEC 1896",
+     "place": "Crikvenica, Croatia"
     }
    ]
   },
@@ -6716,177 +8359,6 @@
    ]
   },
   {
-   "parish": "Ledenice",
-   "kind": "births",
-   "holds": "1734-1894",
-   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 18,
-   "reachable": 16,
-   "ahn": [],
-   "people": [
-    {
-     "slug": "magdalena-kalanj-4",
-     "name": "Magdalena Kalanj",
-     "year": 1829,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "19 FEB 1829",
-     "place": "Ledenice"
-    },
-    {
-     "slug": "maria-marija-kalanj",
-     "name": "Maria Marija Kalanj",
-     "year": 1835,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "6 DEC 1835",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "anna-kalanj-4",
-     "name": "Anna Kalanj",
-     "year": 1838,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "23 SEP 1838",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "vincentia-catharina-kalanj",
-     "name": "Vincentia Catharina Kalanj",
-     "year": 1842,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "1842",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "vincentia-kalanj",
-     "name": "Vincentia Kalanj",
-     "year": 1843,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "25 MAR 1843",
-     "place": "Ledenice, Croatia"
-    },
-    {
-     "slug": "joso-josip-josephus-kalanj",
-     "name": "Joso Josip Josephus Kalanj",
-     "year": 1851,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "24 MAR 1851",
-     "place": "Ledenice, Primorje-Gorski Kotar, Croatia"
-    },
-    {
-     "slug": "joannes-kalanj",
-     "name": "Joannes Kalanj",
-     "year": 1859,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "6 MAR 1859",
-     "place": "Ledenice, Modrus-Fiume, Hungary"
-    },
-    {
-     "slug": "josephus-josip-kalanj-2",
-     "name": "Josephus Josip Kalanj",
-     "year": 1861,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "9 JUL 1861",
-     "place": "Ledenice, Modrus-Fiume, Hungary"
-    },
-    {
-     "slug": "ivan-joannes-kalanj-3",
-     "name": "Ivan Joannes Kalanj",
-     "year": 1868,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "18 DEC 1868",
-     "place": "Ledenice, 22, Croatia"
-    },
-    {
-     "slug": "lucia-lucija-kalanj",
-     "name": "Lucia Lucija Kalanj",
-     "year": 1870,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "17 DEC 1870",
-     "place": "Ledenice, 22, Croatia"
-    },
-    {
-     "slug": "margareta-butorac",
-     "name": "Margareta Butorac",
-     "year": 1870,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "4 MAR 1870",
-     "place": "Ledenice"
-    },
-    {
-     "slug": "maria-marija-kalanj-3",
-     "name": "Maria Marija Kalanj",
-     "year": 1870,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "MAY 1870",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "georgius-kalanj-2",
-     "name": "Georgius Kalanj",
-     "year": 1872,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "APR 1872",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "anna-kalanj-3",
-     "name": "Anna Kalanj",
-     "year": 1874,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "FEB 1874",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "catharina-kalanj-2",
-     "name": "Catharina Kalanj",
-     "year": 1875,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "15 OCT 1875",
-     "place": "Ledenice, 74, Croatia"
-    },
-    {
-     "slug": "mate-kalanj-4",
-     "name": "Mate Kalanj",
-     "year": 1878,
-     "village": "ledenice",
-     "ahn": null,
-     "inside": true,
-     "date": "1 JAN 1878",
-     "place": "Ledenice, 74, Croatia"
-    }
-   ]
-  },
-  {
    "parish": "Krmpote-Vodice",
    "kind": "births",
    "holds": "1879-1896",
@@ -7052,8 +8524,8 @@
    "kind": "births",
    "holds": "1691-1770,1771-1804,1804-1861",
    "verified": "VERIFIED 14 Sept 2026 - all three films opened. Also a Stanje dusa, 122 images, HDA 715 - by FAMILY number (no house numbers in this parish), alphabetical ONCE (images 8-75, then later additions running into the 1870s), communion columns 1844-1857",
-   "n": 14,
-   "reachable": 13,
+   "n": 15,
+   "reachable": 14,
    "ahn": [
     13,
     26,
@@ -7167,6 +8639,16 @@
      "place": "Karlobag"
     },
     {
+     "slug": "eduard-tomlenovic",
+     "name": "Eduard Tomlenovic",
+     "year": 1836,
+     "village": "karlobag",
+     "ahn": null,
+     "inside": true,
+     "date": "1836",
+     "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia"
+    },
+    {
      "slug": "matia-matthea-pilipic",
      "name": "Matia / Matthea \"Matija\" Pilipić",
      "year": 1838,
@@ -7203,8 +8685,8 @@
    "kind": "deaths",
    "holds": "1704-1899",
    "verified": "VERIFIED — the film target itself says 1650-1786; earliest leaves are in CROATIAN, not Latin",
-   "n": 36,
-   "reachable": 11,
+   "n": 38,
+   "reachable": 12,
    "ahn": [],
    "people": [
     {
@@ -7308,6 +8790,16 @@
      "place": "Povile 22, Croatia"
     },
     {
+     "slug": "nikolaum-nicolaus-kalanj-callayn",
+     "name": "Nikolaum Nicolaus Kalanj Callayn",
+     "year": 1894,
+     "village": "klenovica",
+     "ahn": null,
+     "inside": true,
+     "date": "25 AUG 1894",
+     "place": "Klenovica"
+    },
+    {
      "slug": "katarina-kalanj",
      "name": "Katarina Kalanj",
      "year": 1897,
@@ -7316,6 +8808,127 @@
      "inside": true,
      "date": "27 JUL 1897",
      "place": "Klenovica, Croatia"
+    }
+   ]
+  },
+  {
+   "parish": "Pazin",
+   "kind": "deaths",
+   "holds": "1655-1691,1692-1847",
+   "verified": "RESOLVED 20 Sept 2026 — Gologorica itself is NOT in the catalogue under any spelling; koha:725172 is the district town's book and it is the OLDEST this archive has ever reached. Whether Gologorica's people were written into it is NOT established",
+   "n": 13,
+   "reachable": 11,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "pietro-defranceschi-2",
+     "name": "Pietro Defranceschi",
+     "year": 1701,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "30 SEP 1701",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "gian-giovanni-ivan-battista-defranceschi",
+     "name": "Gian Giovanni Ivan Battista Defranceschi",
+     "year": 1743,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "11 SEP 1743",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "vicenzo-defranceschi",
+     "name": "Vicenzo Defranceschi",
+     "year": 1758,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "24 APR 1758",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "leonardus-defranceschi-4",
+     "name": "Leonardus Defranceschi",
+     "year": 1773,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "14 MAR 1773",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "pietro-defranceschi-3",
+     "name": "Pietro Defranceschi",
+     "year": 1781,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "8 SEP 1781",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "guiseppe-josephus-josip-defranceschi",
+     "name": "Guiseppe Josephus Josip Defranceschi",
+     "year": 1787,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "30 DEC 1787",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "mattia-defranceschi",
+     "name": "Mattia Defranceschi",
+     "year": 1797,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "29 MAR 1797",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "antonius-defranceschi-4",
+     "name": "Antonius Defranceschi",
+     "year": 1802,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "17 SEP 1802",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "gian-giovanni-ivan-battista-defranceschi-4",
+     "name": "Gian Giovanni Ivan Battista Defranceschi",
+     "year": 1813,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "23 JAN 1813",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "maria-defranceschi",
+     "name": "Maria Defranceschi",
+     "year": 1826,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "28 FEB 1826",
+     "place": "Gologorica, Istra, Croatia"
+    },
+    {
+     "slug": "antonia-sestan-2",
+     "name": "Antonia Sestan",
+     "year": 1846,
+     "village": "gologorica",
+     "ahn": null,
+     "inside": true,
+     "date": "4 AUG 1846",
+     "place": "Gologorica, Istra, Croatia"
     }
    ]
   },
@@ -7446,8 +9059,8 @@
    "kind": "deaths",
    "holds": "1734-1902",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 5,
-   "reachable": 4,
+   "n": 6,
+   "reachable": 5,
    "ahn": [],
    "people": [
     {
@@ -7489,6 +9102,16 @@
      "inside": true,
      "date": "29 NOV 1875",
      "place": "Ledenice, Croatia"
+    },
+    {
+     "slug": "maria-marija-krpan",
+     "name": "Maria Marija Krpan",
+     "year": 1877,
+     "village": "ledenice",
+     "ahn": null,
+     "inside": true,
+     "date": "8 JUN 1877",
+     "place": "Ledenice, Modrus-Fiume, Hungary"
     }
    ]
   },
@@ -7526,23 +9149,44 @@
    ]
   },
   {
-   "parish": "Pazin",
+   "parish": "Grizane",
    "kind": "deaths",
-   "holds": "1655-1691,1692-1847",
-   "verified": "RESOLVED 20 Sept 2026 — Gologorica itself is NOT in the catalogue under any spelling; koha:725172 is the district town's book and it is the OLDEST this archive has ever reached. Whether Gologorica's people were written into it is NOT established",
+   "holds": "1735-1894",
+   "verified": "census VERIFIED — Stanje dusa 1738 at images ~100-140 of the 579-image film, in CROATIAN, household lists",
+   "n": 1,
+   "reachable": 1,
+   "ahn": [],
+   "people": [
+    {
+     "slug": "barbara-car-car-korosan",
+     "name": "Barbara Car Korošan",
+     "year": 1804,
+     "village": "grizane",
+     "ahn": null,
+     "inside": true,
+     "date": "10 JAN 1804",
+     "place": "Grižane"
+    }
+   ]
+  },
+  {
+   "parish": "Rijeka",
+   "kind": "births",
+   "holds": "1594-1891,1900-1901",
+   "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
    "n": 2,
    "reachable": 1,
    "ahn": [],
    "people": [
     {
-     "slug": "antonia-sestan-2",
-     "name": "Antonia Sestan",
+     "slug": "joannes-spudicevich-tomich",
+     "name": "Joannes Spudicevich-Tomich",
      "year": 1846,
-     "village": "gologorica",
+     "village": "rijeka",
      "ahn": null,
      "inside": true,
-     "date": "4 AUG 1846",
-     "place": "Gologorica, Istra, Croatia"
+     "date": "ABT 1846",
+     "place": "Rijeka, Modrus-Fiume, Hungary"
     }
    ]
   },
@@ -7550,16 +9194,6 @@
    "parish": "Brinje",
    "kind": "births",
    "holds": "1888-1900",
-   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 2,
-   "reachable": 0,
-   "ahn": [],
-   "people": []
-  },
-  {
-   "parish": "Crikvenica",
-   "kind": "deaths",
-   "holds": "1815-1908",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
    "n": 3,
    "reachable": 0,
@@ -7577,11 +9211,21 @@
    "people": []
   },
   {
+   "parish": "Dramalj, Sv. Jelena",
+   "kind": "deaths",
+   "holds": "1816-1858",
+   "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label — one film only, nothing after 1858",
+   "n": 1,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
    "parish": "Jablanac",
    "kind": "births",
    "holds": "1860-1895",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 1,
+   "n": 2,
    "reachable": 0,
    "ahn": [],
    "people": []
@@ -7598,20 +9242,10 @@
   },
   {
    "parish": "Rijeka",
-   "kind": "births",
-   "holds": "1594-1891,1900-1901",
-   "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
-   "n": 1,
-   "reachable": 0,
-   "ahn": [],
-   "people": []
-  },
-  {
-   "parish": "Rijeka",
    "kind": "deaths",
    "holds": "1702-1892",
    "verified": "CATALOGUE-VERIFIED 14 Sept 2026 — it IS filmed, 1590-1920, and was carried here as \"not checked\". BUT births jump 1891 -> 1900, so LJUBOMIR'S 1892 BAPTISM IS IN THE GAP and is not on film. Marriages 1866-1891 (DGS 5497940) end at 9 AUGUST 1891 - read to the end 14 Sept 2026, April to August has no Blazevic and no Zubrinic, and a marriage after that date is in the SAME FILMING GAP as Ljubomir's baptism. Alphabetical Kazalo indexes exist for births and deaths",
-   "n": 4,
+   "n": 6,
    "reachable": 0,
    "ahn": [],
    "people": []
@@ -7627,6 +9261,16 @@
    "people": []
   },
   {
+   "parish": "Sv. Juraj (kod Senja)",
+   "kind": "births",
+   "holds": "1697-1852",
+   "verified": "catalogue-verified 14 Sept 2026 — not previously in this table",
+   "n": 1,
+   "reachable": 0,
+   "ahn": [],
+   "people": []
+  },
+  {
    "parish": "unknown",
    "kind": "births",
    "holds": "unknown",
@@ -7637,107 +9281,107 @@
    "people": []
   }
  ],
- "totalReachable": 731,
+ "totalReachable": 891,
  "unplacedVillages": [
+  [
+   "cape town",
+   109
+  ],
+  [
+   "hartland",
+   109
+  ],
+  [
+   "stellenbosch",
+   88
+  ],
+  [
+   "graaff-reinet",
+   79
+  ],
+  [
+   "paarl",
+   78
+  ],
+  [
+   "brisbane",
+   68
+  ],
+  [
+   "cape of good hope",
+   66
+  ],
+  [
+   "drakenstein",
+   61
+  ],
+  [
+   "tulbagh",
+   60
+  ],
+  [
+   "england",
+   49
+  ],
+  [
+   "south africa",
+   49
+  ],
+  [
+   "cradock",
+   40
+  ],
+  [
+   "arienzo",
+   37
+  ],
+  [
+   "braunton",
+   37
+  ],
+  [
+   "de caep de goede hoop",
+   36
+  ],
+  [
+   "cape",
+   36
+  ],
+  [
+   "gola glava",
+   31
+  ],
+  [
+   "hornby",
+   27
+  ],
+  [
+   "cape province",
+   26
+  ],
   [
    "port pirie",
    26
   ],
   [
-   "zagreb",
-   9
+   "berkeley",
+   25
   ],
   [
-   "beograd",
-   5
+   "cape colony",
+   24
   ],
   [
-   "veljun",
-   4
+   "kaap de goede hoop",
+   23
   ],
   [
-   "fuzine",
-   3
+   "swellendam",
+   23
   ],
   [
-   "smederevo",
-   3
-  ],
-  [
-   "garesnica",
-   2
-  ],
-  [
-   "belgrade",
-   2
-  ],
-  [
-   "baska",
-   2
-  ],
-  [
-   "krnjevo",
-   2
-  ],
-  [
-   "austria",
-   2
-  ],
-  [
-   "adelaide",
-   2
-  ],
-  [
-   "mrzlidol",
-   2
-  ],
-  [
-   "hibbing",
-   2
-  ],
-  [
-   "carson lake (historical)",
-   2
-  ],
-  [
-   "barcs",
-   2
-  ],
-  [
-   "united states",
-   2
-  ],
-  [
-   "bile",
-   2
-  ],
-  [
-   "quorn",
-   2
-  ],
-  [
-   "port germein",
-   2
-  ],
-  [
-   "whyalla",
-   2
-  ],
-  [
-   "south australia",
-   2
-  ],
-  [
-   "johannesburg",
-   1
-  ],
-  [
-   "newtown",
-   1
-  ],
-  [
-   "tomasica",
-   1
+   "biddestone",
+   23
   ]
  ]
 }

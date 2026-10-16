@@ -2,11 +2,11 @@
  "variants": [
   {
    "key": "zubrinic",
-   "n": 399,
+   "n": 400,
    "forms": [
     {
      "spelling": "Žubrinić",
-     "n": 201,
+     "n": 202,
      "from": 1765,
      "to": 1888,
      "median": 1845,
@@ -258,11 +258,11 @@
   },
   {
    "key": "blazevic",
-   "n": 220,
+   "n": 228,
    "forms": [
     {
      "spelling": "Blažević",
-     "n": 198,
+     "n": 206,
      "from": 1750,
      "to": 1958,
      "median": 1867,
@@ -273,7 +273,7 @@
       },
       {
        "place": "Senj",
-       "n": 22
+       "n": 24
       },
       {
        "place": "Krmpote",
@@ -385,18 +385,18 @@
   },
   {
    "key": "prpic",
-   "n": 155,
+   "n": 159,
    "forms": [
     {
      "spelling": "Prpic",
-     "n": 82,
+     "n": 84,
      "from": 1822,
-     "to": 1894,
-     "median": 1870,
+     "to": 1962,
+     "median": 1871,
      "places": [
       {
        "place": "Krivi Put",
-       "n": 23
+       "n": 24
       },
       {
        "place": "Senj",
@@ -444,7 +444,7 @@
     },
     {
      "spelling": "Perpić",
-     "n": 16,
+     "n": 17,
      "from": 1820,
      "to": 1904,
      "median": 1872,
@@ -461,7 +461,7 @@
     },
     {
      "spelling": "Prpić",
-     "n": 8,
+     "n": 9,
      "from": 1830,
      "to": 1895,
      "median": 1865,
@@ -526,6 +526,67 @@
      "to": 1919,
      "median": 1919,
      "places": []
+    }
+   ]
+  },
+  {
+   "key": "pretorius",
+   "n": 120,
+   "forms": [
+    {
+     "spelling": "Pretorius",
+     "n": 116,
+     "from": 1642,
+     "to": 1928,
+     "median": 1783,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 16
+      },
+      {
+       "place": "Cape Town",
+       "n": 8
+      },
+      {
+       "place": "Drakenstein",
+       "n": 7
+      }
+     ]
+    },
+    {
+     "spelling": "Pretorius (Prætorius)",
+     "n": 3,
+     "from": 1654,
+     "to": 1680,
+     "median": 1674,
+     "places": [
+      {
+       "place": "Emmerik",
+       "n": 1
+      },
+      {
+       "place": "Cape Province",
+       "n": 1
+      },
+      {
+       "place": "Cape Town",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "PRETORIUS",
+     "n": 1,
+     "from": 1596,
+     "to": 1596,
+     "median": 1596,
+     "places": [
+      {
+       "place": "Bentheim",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -597,11 +658,11 @@
   },
   {
    "key": "pavelic",
-   "n": 111,
+   "n": 114,
    "forms": [
     {
      "spelling": "Pavelić",
-     "n": 52,
+     "n": 54,
      "from": 1832,
      "to": 1927,
      "median": 1889,
@@ -622,7 +683,7 @@
     },
     {
      "spelling": "Pavelic",
-     "n": 44,
+     "n": 45,
      "from": 1815,
      "to": 1898,
      "median": 1862,
@@ -695,19 +756,524 @@
    ]
   },
   {
+   "key": "botha",
+   "n": 76,
+   "forms": [
+    {
+     "spelling": "Botha",
+     "n": 74,
+     "from": 1660,
+     "to": 1859,
+     "median": 1754,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 13
+      },
+      {
+       "place": "Stellenbosch",
+       "n": 6
+      },
+      {
+       "place": "Drakenstein",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "spelling": "Botha (Both)",
+     "n": 1,
+     "from": 1653,
+     "to": 1653,
+     "median": 1653,
+     "places": [
+      {
+       "place": "Wagenheim",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Botha / Bota",
+     "n": 1,
+     "from": 1718,
+     "to": 1718,
+     "median": 1718,
+     "places": [
+      {
+       "place": "Swellendam",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "defranceschi",
+   "n": 58,
+   "forms": [
+    {
+     "spelling": "Defranceschi",
+     "n": 56,
+     "from": 1673,
+     "to": 1890,
+     "median": 1789,
+     "places": [
+      {
+       "place": "Gologorica",
+       "n": 17
+      },
+      {
+       "place": "Gračišće",
+       "n": 2
+      },
+      {
+       "place": "Gracisce",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "DeFranceschi",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Defranceschi / Defranceski",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "d'arcy",
+   "n": 48,
+   "forms": [
+    {
+     "spelling": "D'Arcy",
+     "n": 40,
+     "from": 1594,
+     "to": 1927,
+     "median": 1794,
+     "places": [
+      {
+       "place": "Brisbane",
+       "n": 13
+      },
+      {
+       "place": "Hornby",
+       "n": 6
+      },
+      {
+       "place": "Barbados",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "D'ARCY",
+     "n": 3,
+     "from": 1619,
+     "to": 1717,
+     "median": 1620,
+     "places": [
+      {
+       "place": "Hornby Castle",
+       "n": 1
+      },
+      {
+       "place": "Westminster St James",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "d'Arcy",
+     "n": 3,
+     "from": 1716,
+     "to": 1792,
+     "median": 1784,
+     "places": [
+      {
+       "place": "Portsmouth",
+       "n": 2
+      },
+      {
+       "place": "London",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "D'arcy",
+     "n": 2,
+     "from": 1570,
+     "to": 1598,
+     "median": 1598,
+     "places": [
+      {
+       "place": "Hornby Castle",
+       "n": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "schoeman",
+   "n": 37,
+   "forms": [
+    {
+     "spelling": "Schoeman",
+     "n": 35,
+     "from": 1703,
+     "to": 1893,
+     "median": 1821,
+     "places": [
+      {
+       "place": "Cradock",
+       "n": 5
+      },
+      {
+       "place": "Queenstown",
+       "n": 5
+      },
+      {
+       "place": "Stellenbosch",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Schoeman (Schumann)",
+     "n": 2,
+     "from": 1700,
+     "to": 1728,
+     "median": 1728,
+     "places": [
+      {
+       "place": "Mecklenburg-Voorpommere",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kolbe",
+   "n": 32,
+   "forms": [
+    {
+     "spelling": "Kolbe",
+     "n": 31,
+     "from": 1699,
+     "to": 1846,
+     "median": 1808,
+     "places": [
+      {
+       "place": "London",
+       "n": 4
+      },
+      {
+       "place": "Graaff-Reinet",
+       "n": 3
+      },
+      {
+       "place": "London c1810 London",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Kolbe (twin)",
+     "n": 1,
+     "from": 1836,
+     "to": 1836,
+     "median": 1836,
+     "places": [
+      {
+       "place": "Burgersdorp",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "de franceschi",
+   "n": 29,
+   "forms": [
+    {
+     "spelling": "de Franceschi",
+     "n": 22,
+     "from": 1750,
+     "to": 1908,
+     "median": 1859,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 6
+      },
+      {
+       "place": "Gracisce",
+       "n": 4
+      },
+      {
+       "place": "Gologorica",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "De Franceschi",
+     "n": 7,
+     "from": 1896,
+     "to": 1896,
+     "median": 1896,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "de lange",
+   "n": 29,
+   "forms": [
+    {
+     "spelling": "de Lange",
+     "n": 26,
+     "from": 1667,
+     "to": 1806,
+     "median": 1781,
+     "places": [
+      {
+       "place": "Felde",
+       "n": 3
+      },
+      {
+       "place": "Graaff-Reinet",
+       "n": 3
+      },
+      {
+       "place": "Cape Town",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "De Lange",
+     "n": 3,
+     "from": 1650,
+     "to": 1666,
+     "median": 1662,
+     "places": [
+      {
+       "place": "Etten-Leur",
+       "n": 1
+      },
+      {
+       "place": "Holtrop",
+       "n": 1
+      },
+      {
+       "place": "Zandhoven",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van biljon",
+   "n": 29,
+   "forms": [
+    {
+     "spelling": "van Biljon",
+     "n": 22,
+     "from": 1685,
+     "to": 1854,
+     "median": 1793,
+     "places": [
+      {
+       "place": "Burgersdorp",
+       "n": 4
+      },
+      {
+       "place": "Drakenstein",
+       "n": 2
+      },
+      {
+       "place": "Paarl",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Van Biljon",
+     "n": 6,
+     "from": 1754,
+     "to": 1857,
+     "median": 1845,
+     "places": [
+      {
+       "place": "Burgersdorp",
+       "n": 2
+      },
+      {
+       "place": "Cape de Good Hope South Africa",
+       "n": 1
+      },
+      {
+       "place": "Cradock",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "VAN BILJON",
+     "n": 1,
+     "from": 1810,
+     "to": 1810,
+     "median": 1810,
+     "places": [
+      {
+       "place": "Graaff-Reinet",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van der merwe",
+   "n": 29,
+   "forms": [
+    {
+     "spelling": "van der Merwe",
+     "n": 23,
+     "from": 1622,
+     "to": 1805,
+     "median": 1772,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 4
+      },
+      {
+       "place": "Paarl",
+       "n": 2
+      },
+      {
+       "place": "Graaff-Reinet",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "van Der Merwe",
+     "n": 3,
+     "from": 1739,
+     "to": 1780,
+     "median": 1772,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 1
+      },
+      {
+       "place": "Stellenbosch",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van Der Merwe",
+     "n": 2,
+     "from": 1707,
+     "to": 1791,
+     "median": 1791,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      },
+      {
+       "place": "C. P.",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van der Merwe",
+     "n": 1,
+     "from": 1697,
+     "to": 1697,
+     "median": 1697,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "reed",
+   "n": 28,
+   "forms": [
+    {
+     "spelling": "Reed",
+     "n": 25,
+     "from": 1675,
+     "to": 1797,
+     "median": 1750,
+     "places": [
+      {
+       "place": "Braunton",
+       "n": 25
+      }
+     ]
+    },
+    {
+     "spelling": "REED",
+     "n": 3,
+     "from": 1643,
+     "to": 1711,
+     "median": 1685,
+     "places": [
+      {
+       "place": "Braunton",
+       "n": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "tomljanovic",
-   "n": 26,
+   "n": 28,
    "forms": [
     {
      "spelling": "Tomljanovic",
-     "n": 22,
+     "n": 24,
      "from": 1840,
-     "to": 1901,
-     "median": 1876,
+     "to": 1928,
+     "median": 1879,
      "places": [
       {
        "place": "Senj",
-       "n": 4
+       "n": 5
       },
       {
        "place": "Krivi Put",
@@ -744,8 +1310,21 @@
   },
   {
    "key": "krmpotic",
-   "n": 19,
+   "n": 27,
    "forms": [
+    {
+     "spelling": "Krmpotic",
+     "n": 16,
+     "from": 1864,
+     "to": 1890,
+     "median": 1871,
+     "places": [
+      {
+       "place": "Veljun",
+       "n": 1
+      }
+     ]
+    },
     {
      "spelling": "Krmpotić",
      "n": 11,
@@ -766,16 +1345,255 @@
        "n": 2
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "key": "mountjoy",
+   "n": 25,
+   "forms": [
     {
-     "spelling": "Krmpotic",
-     "n": 8,
-     "from": 1864,
-     "to": 1890,
-     "median": 1871,
+     "spelling": "Mountjoy",
+     "n": 24,
+     "from": 1583,
+     "to": 1828,
+     "median": 1700,
      "places": [
       {
-       "place": "Veljun",
+       "place": "Biddestone",
+       "n": 11
+      },
+      {
+       "place": "Cradock",
+       "n": 4
+      },
+      {
+       "place": "Wiltshire",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Mountjoy,",
+     "n": 1,
+     "from": 1666,
+     "to": 1666,
+     "median": 1666,
+     "places": [
+      {
+       "place": "Biddestone",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "atkinson",
+   "n": 22,
+   "forms": [
+    {
+     "spelling": "Atkinson",
+     "n": 21,
+     "from": 1725,
+     "to": 1888,
+     "median": 1854,
+     "places": [
+      {
+       "place": "Brisbane",
+       "n": 7
+      },
+      {
+       "place": "Limerick",
+       "n": 5
+      },
+      {
+       "place": "Limerick City",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "ATKINSON",
+     "n": 1,
+     "from": 1838,
+     "to": 1838,
+     "median": 1838,
+     "places": [
+      {
+       "place": "Limerick",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "saniger",
+   "n": 21,
+   "forms": [
+    {
+     "spelling": "Saniger",
+     "n": 19,
+     "from": 1679,
+     "to": 1808,
+     "median": 1744,
+     "places": [
+      {
+       "place": "Berkeley",
+       "n": 16
+      },
+      {
+       "place": "Christened in Berkeley",
+       "n": 2
+      },
+      {
+       "place": "Berkley",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "SANIGER",
+     "n": 1,
+     "from": 1805,
+     "to": 1805,
+     "median": 1805,
+     "places": [
+      {
+       "place": "Berkley",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Saniger,",
+     "n": 1,
+     "from": 1803,
+     "to": 1803,
+     "median": 1803,
+     "places": [
+      {
+       "place": "Berkley",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vukelic",
+   "n": 20,
+   "forms": [
+    {
+     "spelling": "Vukelić",
+     "n": 13,
+     "from": 1875,
+     "to": 1938,
+     "median": 1881,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 8
+      }
+     ]
+    },
+    {
+     "spelling": "Vukelic",
+     "n": 7,
+     "from": 1823,
+     "to": 1907,
+     "median": 1854,
+     "places": [
+      {
+       "place": "#8 Alan",
+       "n": 1
+      },
+      {
+       "place": "Senj",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "miletic",
+   "n": 19,
+   "forms": [
+    {
+     "spelling": "Miletic",
+     "n": 16,
+     "from": 1846,
+     "to": 1894,
+     "median": 1878,
+     "places": [
+      {
+       "place": "Povile",
+       "n": 6
+      },
+      {
+       "place": "Klenovica",
+       "n": 2
+      },
+      {
+       "place": "Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Miletić",
+     "n": 2,
+     "from": 1858,
+     "to": 1858,
+     "median": 1858,
+     "places": []
+    },
+    {
+     "spelling": "Miletić / Miletic",
+     "n": 1,
+     "from": 1833,
+     "to": 1833,
+     "median": 1833,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "visser",
+   "n": 19,
+   "forms": [
+    {
+     "spelling": "Visser",
+     "n": 18,
+     "from": 1620,
+     "to": 1698,
+     "median": 1680,
+     "places": [
+      {
+       "place": "Cape Town",
+       "n": 5
+      },
+      {
+       "place": "Ommen",
+       "n": 4
+      },
+      {
+       "place": "Cape of Good Hope",
+       "n": 4
+      }
+     ]
+    },
+    {
+     "spelling": "Visser (B5)",
+     "n": 1,
+     "from": 1665,
+     "to": 1665,
+     "median": 1665,
+     "places": [
+      {
+       "place": "Middelburg",
        "n": 1
       }
      ]
@@ -784,7 +1602,7 @@
   },
   {
    "key": "spalj",
-   "n": 16,
+   "n": 17,
    "forms": [
     {
      "spelling": "Špalj / Spalj",
@@ -808,12 +1626,162 @@
      ]
     },
     {
+     "spelling": "Spalj",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Spasovac",
+       "n": 1
+      }
+     ]
+    },
+    {
      "spelling": "Špalj",
      "n": 1,
      "from": null,
      "to": null,
      "median": null,
      "places": []
+    }
+   ]
+  },
+  {
+   "key": "coetzer",
+   "n": 16,
+   "forms": [
+    {
+     "spelling": "Coetzer",
+     "n": 14,
+     "from": 1686,
+     "to": 1806,
+     "median": 1758,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 4
+      },
+      {
+       "place": "Dutch Cape Colony",
+       "n": 3
+      },
+      {
+       "place": "Reichstadt",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Coetzer (Coetser)",
+     "n": 2,
+     "from": 1752,
+     "to": 1754,
+     "median": 1754,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kotze",
+   "n": 16,
+   "forms": [
+    {
+     "spelling": "Kotze",
+     "n": 14,
+     "from": 1692,
+     "to": 1862,
+     "median": 1815,
+     "places": [
+      {
+       "place": "South Africa",
+       "n": 2
+      },
+      {
+       "place": "de Caep de Goede Hoop",
+       "n": 1
+      },
+      {
+       "place": "Drakenstein",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kotze (Coetzë)",
+     "n": 1,
+     "from": 1730,
+     "to": 1730,
+     "median": 1730,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kotze (Kotse Kotzee Coetze Coetzé Coetzee  Coetzeë)",
+     "n": 1,
+     "from": 1652,
+     "to": 1652,
+     "median": 1652,
+     "places": [
+      {
+       "place": "Königstein",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sutton",
+   "n": 16,
+   "forms": [
+    {
+     "spelling": "SUTTON",
+     "n": 8,
+     "from": 1535,
+     "to": 1603,
+     "median": 1593,
+     "places": [
+      {
+       "place": "Averham",
+       "n": 7
+      },
+      {
+       "place": "Mansfield",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Sutton",
+     "n": 8,
+     "from": 1561,
+     "to": 1663,
+     "median": 1597,
+     "places": [
+      {
+       "place": "Averham",
+       "n": 4
+      },
+      {
+       "place": "Rushton",
+       "n": 1
+      },
+      {
+       "place": "West Farleigh",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -879,112 +1847,20 @@
    ]
   },
   {
-   "key": "vukelic",
+   "key": "loncaric",
    "n": 15,
    "forms": [
     {
-     "spelling": "Vukelić",
-     "n": 8,
-     "from": 1875,
-     "to": 1913,
-     "median": 1880,
-     "places": [
-      {
-       "place": "Senj",
-       "n": 7
-      }
-     ]
-    },
-    {
-     "spelling": "Vukelic",
-     "n": 7,
-     "from": 1823,
-     "to": 1907,
-     "median": 1854,
-     "places": [
-      {
-       "place": "#8 Alan",
-       "n": 1
-      },
-      {
-       "place": "Senj",
-       "n": 1
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "key": "oreskovic",
-   "n": 11,
-   "forms": [
-    {
-     "spelling": "Orešković / Oreskovic",
-     "n": 7,
-     "from": 1809,
-     "to": 1852,
-     "median": 1837,
-     "places": [
-      {
-       "place": "Otočac",
-       "n": 3
-      },
-      {
-       "place": "Otocac Croatia",
-       "n": 1
-      }
-     ]
-    },
-    {
-     "spelling": "Oreskovic",
-     "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
-    },
-    {
-     "spelling": "Oreskovich / Oreskovic",
-     "n": 1,
-     "from": 1796,
-     "to": 1796,
-     "median": 1796,
-     "places": []
-    },
-    {
-     "spelling": "Oresković",
-     "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
-    },
-    {
-     "spelling": "Orešković",
-     "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": [
-      {
-       "place": "Otočac",
-       "n": 1
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "key": "loncaric",
-   "n": 10,
-   "forms": [
-    {
      "spelling": "Loncaric",
-     "n": 7,
+     "n": 12,
      "from": 1851,
-     "to": 1853,
-     "median": 1853,
+     "to": 1891,
+     "median": 1871,
      "places": [
+      {
+       "place": "Senj",
+       "n": 4
+      },
       {
        "place": "Selce",
        "n": 2
@@ -1015,6 +1891,635 @@
    ]
   },
   {
+   "key": "van deventer",
+   "n": 14,
+   "forms": [
+    {
+     "spelling": "van Deventer",
+     "n": 11,
+     "from": 1538,
+     "to": 1713,
+     "median": 1701,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 2
+      },
+      {
+       "place": "Paarl",
+       "n": 2
+      },
+      {
+       "place": "Oldenzaal",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van Deventer",
+     "n": 2,
+     "from": 1519,
+     "to": 1692,
+     "median": 1692,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van Deventer (Dempter)",
+     "n": 1,
+     "from": 1550,
+     "to": 1550,
+     "median": 1550,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "oreskovic",
+   "n": 13,
+   "forms": [
+    {
+     "spelling": "Orešković / Oreskovic",
+     "n": 7,
+     "from": 1809,
+     "to": 1852,
+     "median": 1837,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 3
+      },
+      {
+       "place": "Otocac Croatia",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Oreskovic",
+     "n": 2,
+     "from": 1842,
+     "to": 1842,
+     "median": 1842,
+     "places": []
+    },
+    {
+     "spelling": "Orešković",
+     "n": 2,
+     "from": 1846,
+     "to": 1846,
+     "median": 1846,
+     "places": [
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Oreskovich / Oreskovic",
+     "n": 1,
+     "from": 1796,
+     "to": 1796,
+     "median": 1796,
+     "places": []
+    },
+    {
+     "spelling": "Oresković",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "sojat",
+   "n": 13,
+   "forms": [
+    {
+     "spelling": "Šojat",
+     "n": 7,
+     "from": 1801,
+     "to": 1878,
+     "median": 1828,
+     "places": [
+      {
+       "place": "Krivi Put",
+       "n": 6
+      },
+      {
+       "place": "Francikovac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Sojat",
+     "n": 6,
+     "from": 1844,
+     "to": 1844,
+     "median": 1844,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "butkovic",
+   "n": 11,
+   "forms": [
+    {
+     "spelling": "Butkovic",
+     "n": 8,
+     "from": 1841,
+     "to": 1880,
+     "median": 1872,
+     "places": [
+      {
+       "place": "krivi put",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Butković / Butkovic",
+     "n": 2,
+     "from": 1866,
+     "to": 1866,
+     "median": 1866,
+     "places": [
+      {
+       "place": "Povile",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Butkovic / Butković",
+     "n": 1,
+     "from": 1838,
+     "to": 1838,
+     "median": 1838,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "karic",
+   "n": 11,
+   "forms": [
+    {
+     "spelling": "Karic",
+     "n": 9,
+     "from": 1870,
+     "to": 1948,
+     "median": 1923,
+     "places": [
+      {
+       "place": "Azanja",
+       "n": 1
+      },
+      {
+       "place": "Krnjevo",
+       "n": 1
+      },
+      {
+       "place": "Beograd",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Karić",
+     "n": 2,
+     "from": 1920,
+     "to": 1946,
+     "median": 1946,
+     "places": [
+      {
+       "place": "Smederevo",
+       "n": 1
+      },
+      {
+       "place": "Beograd",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "von degenfeld",
+   "n": 10,
+   "forms": [
+    {
+     "spelling": "von Degenfeld",
+     "n": 7,
+     "from": 1556,
+     "to": 1645,
+     "median": 1634,
+     "places": [
+      {
+       "place": "Ehrstaedt",
+       "n": 1
+      },
+      {
+       "place": "Neuhaus near Schorndorf",
+       "n": 1
+      },
+      {
+       "place": "Strassburg",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Von Degenfeld",
+     "n": 3,
+     "from": 1552,
+     "to": 1643,
+     "median": 1643,
+     "places": [
+      {
+       "place": "Neuhaus",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "defranceski",
+   "n": 9,
+   "forms": [
+    {
+     "spelling": "Defranceski",
+     "n": 8,
+     "from": 1911,
+     "to": 1953,
+     "median": 1921,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 5
+      },
+      {
+       "place": "Senj",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Defranceski / Defranceschi",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "kovacina",
+   "n": 9,
+   "forms": [
+    {
+     "spelling": "Kovačina",
+     "n": 6,
+     "from": 1842,
+     "to": 1902,
+     "median": 1895,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 4
+      },
+      {
+       "place": "Novi Vinodolski",
+       "n": 1
+      },
+      {
+       "place": "Draga",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kovačina / Kovacina",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": [
+      {
+       "place": "Jastrebarsko",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kovačina Kovacina",
+     "n": 1,
+     "from": 1900,
+     "to": 1900,
+     "median": 1900,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van dyk",
+   "n": 9,
+   "forms": [
+    {
+     "spelling": "van Dyk",
+     "n": 4,
+     "from": 1697,
+     "to": 1799,
+     "median": 1781,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      },
+      {
+       "place": "Piketberg",
+       "n": 1
+      },
+      {
+       "place": "Piketberg Tulbagh",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van Dyk",
+     "n": 3,
+     "from": 1717,
+     "to": 1731,
+     "median": 1727,
+     "places": [
+      {
+       "place": "Cape of Good Hope",
+       "n": 1
+      },
+      {
+       "place": "Paarl",
+       "n": 1
+      },
+      {
+       "place": "cape town",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "VAN DYK",
+     "n": 1,
+     "from": 1726,
+     "to": 1726,
+     "median": 1726,
+     "places": [
+      {
+       "place": "Swartland",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "van Dyk (Van Dyk)",
+     "n": 1,
+     "from": 1736,
+     "to": 1736,
+     "median": 1736,
+     "places": [
+      {
+       "place": "Cape of Good Hope",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "praetorius",
+   "n": 8,
+   "forms": [
+    {
+     "spelling": "Praetorius",
+     "n": 7,
+     "from": 1644,
+     "to": 1662,
+     "median": 1648,
+     "places": [
+      {
+       "place": "Goeree",
+       "n": 4
+      },
+      {
+       "place": "Emmenk",
+       "n": 2
+      },
+      {
+       "place": "Emmerik Holland",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Praetorius (Schout Barents, Barends, Pretorius)",
+     "n": 1,
+     "from": 1614,
+     "to": 1614,
+     "median": 1614,
+     "places": [
+      {
+       "place": "Shuttdorp",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "von der pfalz",
+   "n": 8,
+   "forms": [
+    {
+     "spelling": "von der Pfalz",
+     "n": 5,
+     "from": 1658,
+     "to": 1675,
+     "median": 1661,
+     "places": [
+      {
+       "place": "Schwetzingen",
+       "n": 2
+      },
+      {
+       "place": "Heidelberg",
+       "n": 2
+      },
+      {
+       "place": "Schloss Friedrichsburg",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "von der Pfalz (Wittelsbach, Pfalz-Simmern)",
+     "n": 2,
+     "from": 1671,
+     "to": 1672,
+     "median": 1672,
+     "places": [
+      {
+       "place": "Schloss Friedrichsburg",
+       "n": 1
+      },
+      {
+       "place": "Heidelberg",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "von der Pfalz (Wittelsbach, Pfalz-Simmern Wittelsbach)",
+     "n": 1,
+     "from": 1617,
+     "to": 1617,
+     "median": 1617,
+     "places": [
+      {
+       "place": "Heidelberg",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "attalic",
+   "n": 7,
+   "forms": [
+    {
+     "spelling": "Attalich",
+     "n": 5,
+     "from": 1835,
+     "to": 1847,
+     "median": 1847,
+     "places": [
+      {
+       "place": "Otocac Croatia",
+       "n": 1
+      },
+      {
+       "place": "Otočac",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Attalic",
+     "n": 1,
+     "from": 1835,
+     "to": 1835,
+     "median": 1835,
+     "places": []
+    },
+    {
+     "spelling": "Attalich / Attalić",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "buljubasic",
+   "n": 7,
+   "forms": [
+    {
+     "spelling": "Buljubasic",
+     "n": 6,
+     "from": 1853,
+     "to": 1885,
+     "median": 1882,
+     "places": [
+      {
+       "place": "Batalage",
+       "n": 6
+      }
+     ]
+    },
+    {
+     "spelling": "Buljubašić",
+     "n": 1,
+     "from": 1878,
+     "to": 1878,
+     "median": 1878,
+     "places": [
+      {
+       "place": "Batalage",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van rooyen",
+   "n": 7,
+   "forms": [
+    {
+     "spelling": "van Rooyen",
+     "n": 6,
+     "from": 1737,
+     "to": 1785,
+     "median": 1778,
+     "places": [
+      {
+       "place": "Swellendam",
+       "n": 2
+      },
+      {
+       "place": "Drakenstein",
+       "n": 1
+      },
+      {
+       "place": "Graaff-Reinet",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van Rooyen",
+     "n": 1,
+     "from": 1780,
+     "to": 1780,
+     "median": 1780,
+     "places": [
+      {
+       "place": "Cape Town",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "antic",
    "n": 6,
    "forms": [
@@ -1041,6 +2546,82 @@
       {
        "place": "Selce",
        "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "krüger",
+   "n": 6,
+   "forms": [
+    {
+     "spelling": "Krüger",
+     "n": 4,
+     "from": 1688,
+     "to": 1751,
+     "median": 1698,
+     "places": [
+      {
+       "place": "Pritzwalk",
+       "n": 3
+      }
+     ]
+    },
+    {
+     "spelling": "Krüger (Kröger)",
+     "n": 2,
+     "from": 1582,
+     "to": 1633,
+     "median": 1633,
+     "places": [
+      {
+       "place": "Altenwerder",
+       "n": 1
+      },
+      {
+       "place": "Altona",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mountjoy gent",
+   "n": 6,
+   "forms": [
+    {
+     "spelling": "Mountjoy Gent",
+     "n": 4,
+     "from": 1510,
+     "to": 1588,
+     "median": 1562,
+     "places": [
+      {
+       "place": "England",
+       "n": 2
+      },
+      {
+       "place": "Copford",
+       "n": 1
+      },
+      {
+       "place": "Marlborough",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Mountjoy, gent",
+     "n": 2,
+     "from": 1668,
+     "to": 1694,
+     "median": 1694,
+     "places": [
+      {
+       "place": "Biddestone",
+       "n": 2
       }
      ]
     }
@@ -1083,55 +2664,129 @@
    ]
   },
   {
-   "key": "sojat",
+   "key": "retief",
    "n": 6,
    "forms": [
     {
-     "spelling": "Sojat",
+     "spelling": "Retief",
      "n": 4,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
-    },
-    {
-     "spelling": "Šojat",
-     "n": 2,
-     "from": 1801,
-     "to": 1825,
-     "median": 1825,
+     "from": 1631,
+     "to": 1671,
+     "median": 1667,
      "places": [
       {
-       "place": "Krivi Put",
+       "place": "Menars",
        "n": 2
+      },
+      {
+       "place": "Aunay",
+       "n": 1
+      },
+      {
+       "place": "East Cape",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "RETIEF",
+     "n": 2,
+     "from": 1602,
+     "to": 1663,
+     "median": 1663,
+     "places": [
+      {
+       "place": "Mer",
+       "n": 1
       }
      ]
     }
    ]
   },
   {
-   "key": "butkovic",
-   "n": 5,
+   "key": "stuart",
+   "n": 6,
    "forms": [
     {
-     "spelling": "Butkovic",
+     "spelling": "Stuart",
      "n": 4,
-     "from": 1872,
-     "to": 1880,
-     "median": 1880,
+     "from": 1598,
+     "to": 1618,
+     "median": 1606,
      "places": [
       {
-       "place": "krivi put",
+       "place": "Greenwich Palace",
+       "n": 2
+      },
+      {
+       "place": "Dalkeith Palace",
+       "n": 1
+      },
+      {
+       "place": "Heidelberg",
        "n": 1
       }
      ]
     },
     {
-     "spelling": "Butkovic / Butković",
+     "spelling": "STUART",
      "n": 1,
-     "from": 1838,
-     "to": 1838,
-     "median": 1838,
+     "from": 1596,
+     "to": 1596,
+     "median": 1596,
+     "places": [
+      {
+       "place": "Falkland Palace",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Stuart (født stuart), I of England & Ireland, IV of Scotland",
+     "n": 1,
+     "from": 1566,
+     "to": 1566,
+     "median": 1566,
+     "places": [
+      {
+       "place": "Edinburgh Castle",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "brozovic",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "Brozovich",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Brozović",
+     "n": 2,
+     "from": 1784,
+     "to": 1784,
+     "median": 1784,
+     "places": [
+      {
+       "place": "Selce",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Brozovic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
      "places": []
     }
    ]
@@ -1169,46 +2824,6 @@
    ]
   },
   {
-   "key": "karic",
-   "n": 5,
-   "forms": [
-    {
-     "spelling": "Karic",
-     "n": 3,
-     "from": 1870,
-     "to": 1948,
-     "median": 1898,
-     "places": [
-      {
-       "place": "Azanja",
-       "n": 1
-      },
-      {
-       "place": "Krnjevo",
-       "n": 1
-      }
-     ]
-    },
-    {
-     "spelling": "Karić",
-     "n": 2,
-     "from": 1920,
-     "to": 1946,
-     "median": 1946,
-     "places": [
-      {
-       "place": "Smederevo",
-       "n": 1
-      },
-      {
-       "place": "Beograd",
-       "n": 1
-      }
-     ]
-    }
-   ]
-  },
-  {
    "key": "maric",
    "n": 5,
    "forms": [
@@ -1227,6 +2842,167 @@
      "to": null,
      "median": null,
      "places": []
+    }
+   ]
+  },
+  {
+   "key": "noel",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "Noel",
+     "n": 4,
+     "from": 1540,
+     "to": 1673,
+     "median": 1642,
+     "places": [
+      {
+       "place": "England",
+       "n": 1
+      },
+      {
+       "place": "Kirkby Mallory",
+       "n": 1
+      },
+      {
+       "place": "MARKET BOSWORTH",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Noel (Nowell)",
+     "n": 1,
+     "from": 1604,
+     "to": 1604,
+     "median": 1604,
+     "places": [
+      {
+       "place": "Solihull",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "rousseau",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "Rousseau",
+     "n": 4,
+     "from": 1590,
+     "to": 1711,
+     "median": 1666,
+     "places": [
+      {
+       "place": "?",
+       "n": 1
+      },
+      {
+       "place": "France",
+       "n": 1
+      },
+      {
+       "place": "Blois",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Rousseau,",
+     "n": 1,
+     "from": 1666,
+     "to": 1666,
+     "median": 1666,
+     "places": [
+      {
+       "place": "Route d'Orléans",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van as",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "van As",
+     "n": 3,
+     "from": 1609,
+     "to": 1695,
+     "median": 1637,
+     "places": [
+      {
+       "place": "Harlingen",
+       "n": 1
+      },
+      {
+       "place": "de Caep de Goede Hoop",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Van As",
+     "n": 1,
+     "from": 1695,
+     "to": 1695,
+     "median": 1695,
+     "places": [
+      {
+       "place": "Cape Town",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "van AS",
+     "n": 1,
+     "from": 1666,
+     "to": 1666,
+     "median": 1666,
+     "places": [
+      {
+       "place": "Harlingen",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zupan",
+   "n": 5,
+   "forms": [
+    {
+     "spelling": "ŽUPAN",
+     "n": 4,
+     "from": 1845,
+     "to": 1902,
+     "median": 1901,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Župan",
+     "n": 1,
+     "from": 1739,
+     "to": 1739,
+     "median": 1739,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -1257,6 +3033,178 @@
      "from": 1822,
      "to": 1822,
      "median": 1822,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "de jager",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "De Jager",
+     "n": 3,
+     "from": 1711,
+     "to": 1765,
+     "median": 1740,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      },
+      {
+       "place": "Swellendam Overberg  Western Cape South Africa",
+       "n": 1
+      },
+      {
+       "place": "Swellendam",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "de Jager",
+     "n": 1,
+     "from": 1750,
+     "to": 1750,
+     "median": 1750,
+     "places": [
+      {
+       "place": "Western Cape",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ferkovic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Ferkovic / Ferković",
+     "n": 2,
+     "from": 1857,
+     "to": 1863,
+     "median": 1863,
+     "places": [
+      {
+       "place": "Ledenice",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Ferkovic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Ferković / Ferkovic",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "jovanovic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Jovanovic",
+     "n": 2,
+     "from": 1861,
+     "to": 1881,
+     "median": 1881,
+     "places": [
+      {
+       "place": "Blizonje",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "Jovanovic / Jovanović",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "kruger b7c8",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Kruger, B7C8",
+     "n": 3,
+     "from": 1751,
+     "to": 1777,
+     "median": 1757,
+     "places": [
+      {
+       "place": "Kaap de Goede Hoop",
+       "n": 1
+      },
+      {
+       "place": "Cape Town",
+       "n": 1
+      },
+      {
+       "place": "Die Bad",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kruger, b7c8",
+     "n": 1,
+     "from": 1761,
+     "to": 1761,
+     "median": 1761,
+     "places": [
+      {
+       "place": "Graaff-Reinet",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "markovic",
+   "n": 4,
+   "forms": [
+    {
+     "spelling": "Marković",
+     "n": 2,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "Markovic",
+     "n": 1,
+     "from": 1812,
+     "to": 1812,
+     "median": 1812,
+     "places": []
+    },
+    {
+     "spelling": "Markovic / Markovich",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
      "places": []
     }
    ]
@@ -1319,29 +3267,187 @@
    ]
   },
   {
-   "key": "brozovic",
+   "key": "",
    "n": 3,
    "forms": [
     {
-     "spelling": "Brozović",
+     "spelling": "(Prætorius)",
      "n": 2,
-     "from": 1784,
-     "to": 1784,
-     "median": 1784,
+     "from": 1648,
+     "to": 1650,
+     "median": 1650,
      "places": [
       {
-       "place": "Selce",
+       "place": "Oudorp",
+       "n": 2
+      }
+     ]
+    },
+    {
+     "spelling": "(Kreugel) Krúger",
+     "n": 1,
+     "from": 1721,
+     "to": 1721,
+     "median": 1721,
+     "places": [
+      {
+       "place": "Cape Town",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "coney",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "CONEY",
+     "n": 2,
+     "from": 1561,
+     "to": 1575,
+     "median": 1575,
+     "places": [
+      {
+       "place": "Bassingthorpe",
+       "n": 1
+      },
+      {
+       "place": "Frampton",
        "n": 1
       }
      ]
     },
     {
-     "spelling": "Brozovic",
+     "spelling": "Coney",
      "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
+     "from": 1568,
+     "to": 1568,
+     "median": 1568,
+     "places": [
+      {
+       "place": "Basingthorpe",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "coetser",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Coetser",
+     "n": 1,
+     "from": 1759,
+     "to": 1759,
+     "median": 1759,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Coetser (Coetzer)",
+     "n": 1,
+     "from": 1764,
+     "to": 1764,
+     "median": 1764,
+     "places": [
+      {
+       "place": "de Caep de Goede Hoop",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Coetser Coetzer",
+     "n": 1,
+     "from": 1749,
+     "to": 1749,
+     "median": 1749,
+     "places": [
+      {
+       "place": "Waveren",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "coetzee",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Coetzee",
+     "n": 2,
+     "from": 1740,
+     "to": 1741,
+     "median": 1741,
+     "places": [
+      {
+       "place": "Cape Colony",
+       "n": 1
+      },
+      {
+       "place": "Paarl",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Coetzee (Coetzeë Kotzé)",
+     "n": 1,
+     "from": 1743,
+     "to": 1743,
+     "median": 1743,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "du toit",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "du Toit",
+     "n": 2,
+     "from": 1703,
+     "to": 1746,
+     "median": 1746,
+     "places": [
+      {
+       "place": "Kleinbosch",
+       "n": 1
+      },
+      {
+       "place": "Cape Town",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Du Toit",
+     "n": 1,
+     "from": 1693,
+     "to": 1693,
+     "median": 1693,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -1405,6 +3511,42 @@
    ]
   },
   {
+   "key": "hartwig",
+   "n": 3,
+   "forms": [
+    {
+     "spelling": "Hartwig",
+     "n": 2,
+     "from": 1645,
+     "to": 1660,
+     "median": 1660,
+     "places": [
+      {
+       "place": "Prussia",
+       "n": 1
+      },
+      {
+       "place": "Siegen",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Hartwig (Hartung) (Premoller)",
+     "n": 1,
+     "from": 1668,
+     "to": 1668,
+     "median": 1668,
+     "places": [
+      {
+       "place": "Sadenbeck",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
    "key": "laskarin",
    "n": 3,
    "forms": [
@@ -1422,33 +3564,6 @@
      "from": null,
      "to": null,
      "median": null,
-     "places": []
-    }
-   ]
-  },
-  {
-   "key": "miletic",
-   "n": 3,
-   "forms": [
-    {
-     "spelling": "Miletic",
-     "n": 2,
-     "from": 1848,
-     "to": 1848,
-     "median": 1848,
-     "places": [
-      {
-       "place": "Croatia",
-       "n": 1
-      }
-     ]
-    },
-    {
-     "spelling": "Miletić / Miletic",
-     "n": 1,
-     "from": 1833,
-     "to": 1833,
-     "median": 1833,
      "places": []
     }
    ]
@@ -1481,11 +3596,43 @@
    ]
   },
   {
-   "key": "ferkovic",
+   "key": "de beer",
    "n": 2,
    "forms": [
     {
-     "spelling": "Ferkovic",
+     "spelling": "De Beer",
+     "n": 1,
+     "from": 1754,
+     "to": 1754,
+     "median": 1754,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "de Beer",
+     "n": 1,
+     "from": 1748,
+     "to": 1748,
+     "median": 1748,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "du plooy",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Du Plooy",
      "n": 1,
      "from": null,
      "to": null,
@@ -1493,7 +3640,88 @@
      "places": []
     },
     {
-     "spelling": "Ferković / Ferkovic",
+     "spelling": "du Plooy",
+     "n": 1,
+     "from": 1720,
+     "to": 1720,
+     "median": 1720,
+     "places": [
+      {
+       "place": "Stellenbosch",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "du preez",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Du Preez",
+     "n": 1,
+     "from": 1729,
+     "to": 1729,
+     "median": 1729,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "du Preez",
+     "n": 1,
+     "from": 1778,
+     "to": 1778,
+     "median": 1778,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "dujmovic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Dujmovic",
+     "n": 1,
+     "from": 1841,
+     "to": 1841,
+     "median": 1841,
+     "places": []
+    },
+    {
+     "spelling": "Dujmović",
+     "n": 1,
+     "from": 1841,
+     "to": 1841,
+     "median": 1841,
+     "places": []
+    }
+   ]
+  },
+  {
+   "key": "fabianic",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Fabianic",
+     "n": 1,
+     "from": 1888,
+     "to": 1888,
+     "median": 1888,
+     "places": [
+      {
+       "place": "Senj",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Fabianic / Fabiani",
      "n": 1,
      "from": null,
      "to": null,
@@ -1503,24 +3731,93 @@
    ]
   },
   {
-   "key": "markovic",
+   "key": "kostrencic",
    "n": 2,
    "forms": [
     {
-     "spelling": "Markovic / Markovich",
+     "spelling": "Kostrencic",
      "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
+     "from": 1762,
+     "to": 1762,
+     "median": 1762,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 1
+      }
+     ]
     },
     {
-     "spelling": "Marković",
+     "spelling": "Kostrenčić",
      "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
+     "from": 1875,
+     "to": 1875,
+     "median": 1875,
      "places": []
+    }
+   ]
+  },
+  {
+   "key": "kotzé",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Kotzé (Coetzee Kotse)",
+     "n": 1,
+     "from": 1734,
+     "to": 1734,
+     "median": 1734,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Kotzé (Coétzee)",
+     "n": 1,
+     "from": 1732,
+     "to": 1732,
+     "median": 1732,
+     "places": [
+      {
+       "place": "Drakenstein",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "oosthuijssen",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Oosthuijssen",
+     "n": 1,
+     "from": 1705,
+     "to": 1705,
+     "median": 1705,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Oosthuijssen / Oosthúijsz",
+     "n": 1,
+     "from": 1160,
+     "to": 1160,
+     "median": 1160,
+     "places": [
+      {
+       "place": "Weert",
+       "n": 1
+      }
+     ]
     }
    ]
   },
@@ -1589,9 +3886,156 @@
      "places": []
     }
    ]
+  },
+  {
+   "key": "slier",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "SLIER",
+     "n": 1,
+     "from": 1791,
+     "to": 1791,
+     "median": 1791,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "Slier (Schleher)",
+     "n": 1,
+     "from": 1797,
+     "to": 1797,
+     "median": 1797,
+     "places": [
+      {
+       "place": "Tulbagh",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van breda",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Van Breda",
+     "n": 1,
+     "from": 1630,
+     "to": 1630,
+     "median": 1630,
+     "places": [
+      {
+       "place": "Delft",
+       "n": 1
+      }
+     ]
+    },
+    {
+     "spelling": "van Breda",
+     "n": 1,
+     "from": 1665,
+     "to": 1665,
+     "median": 1665,
+     "places": [
+      {
+       "place": "Delft",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van eeden",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Van Eeden",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
+    },
+    {
+     "spelling": "van Eeden",
+     "n": 1,
+     "from": 1620,
+     "to": 1620,
+     "median": 1620,
+     "places": [
+      {
+       "place": "France",
+       "n": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "van rooijen",
+   "n": 2,
+   "forms": [
+    {
+     "spelling": "Van Rooijen",
+     "n": 1,
+     "from": 1765,
+     "to": 1765,
+     "median": 1765,
+     "places": []
+    },
+    {
+     "spelling": "van Rooijen",
+     "n": 1,
+     "from": 1721,
+     "to": 1721,
+     "median": 1721,
+     "places": [
+      {
+       "place": "Paarl",
+       "n": 1
+      }
+     ]
+    }
+   ]
   }
  ],
  "crossed": [
+  {
+   "id": "@I504845@",
+   "given": "Alice",
+   "surname": "GRISWOLD or Greswald",
+   "candidates": [
+    "greswald",
+    "griswold"
+   ],
+   "siblings": [],
+   "bucket": false,
+   "settledBy": null,
+   "suggests": null
+  },
+  {
+   "id": "@I506865@",
+   "given": "Jeanne",
+   "surname": "Granger or de Fief / Viffe",
+   "candidates": [
+    "de fief",
+    "granger",
+    "viffe"
+   ],
+   "siblings": [
+    "de Fief"
+   ],
+   "bucket": false,
+   "settledBy": "de fief",
+   "suggests": null
+  },
   {
    "id": "@I508743@",
    "given": "Luca",
@@ -1701,6 +4145,160 @@
    "spouse": "Angelo Bacchi"
   },
   {
+   "slug": "hedwig-von-oldenburg",
+   "name": "Hedwig von Oldenburg",
+   "given": "Hedwig von Oldenburg",
+   "surname": "",
+   "byear": 1233,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Christian III, Count of Oldenburg"
+  },
+  {
+   "slug": "christian-iii-count-of-oldenburg",
+   "name": "Christian III, Count of Oldenburg",
+   "given": "Christian III, Count of Oldenburg",
+   "surname": "",
+   "byear": 1250,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Hedwig von Oldenburg"
+  },
+  {
+   "slug": "juliana-2",
+   "name": "Juliana",
+   "given": "Juliana",
+   "surname": "",
+   "byear": 1334,
+   "sex": "F",
+   "place": "Ormesby",
+   "ahn": null,
+   "spouse": "John Darcy, Lord D'arcy, Lord Conyers"
+  },
+  {
+   "slug": "catryn",
+   "name": "Catryn",
+   "given": "Catryn",
+   "surname": "",
+   "byear": 1599,
+   "sex": "F",
+   "place": "Wangenheim",
+   "ahn": null,
+   "spouse": "Johannes (Hans) Both (Botha)"
+  },
+  {
+   "slug": "joanne",
+   "name": "Joanne",
+   "given": "Joanne",
+   "surname": "",
+   "byear": 1600,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Nicolas Prévost"
+  },
+  {
+   "slug": "dirk-martens-gerdes",
+   "name": "Dirk Martens Gerdes",
+   "given": "Dirk Martens Gerdes",
+   "surname": "",
+   "byear": 1628,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Tütter Harmens Gerdes"
+  },
+  {
+   "slug": "tutter-harmens-gerdes",
+   "name": "Tütter Harmens Gerdes",
+   "given": "Tütter Harmens Gerdes",
+   "surname": "",
+   "byear": 1629,
+   "sex": "F",
+   "place": "Holtrop",
+   "ahn": null,
+   "spouse": "Dirk Martens Gerdes"
+  },
+  {
+   "slug": "hiske",
+   "name": "Hiske",
+   "given": "Hiske",
+   "surname": "",
+   "byear": 1630,
+   "sex": "F",
+   "place": "Wiesens",
+   "ahn": null,
+   "spouse": "Herman Mennen Harmens"
+  },
+  {
+   "slug": "mary",
+   "name": "Mary",
+   "given": "Mary",
+   "surname": "",
+   "byear": 1653,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "William Sanigar"
+  },
+  {
+   "slug": "antje",
+   "name": "Antje",
+   "given": "Antje",
+   "surname": "",
+   "byear": 1689,
+   "sex": "F",
+   "place": "Butforte",
+   "ahn": null,
+   "spouse": "Dirch Hinrichs de Lange"
+  },
+  {
+   "slug": "sarah",
+   "name": "Sarah",
+   "given": "Sarah",
+   "surname": "",
+   "byear": 1718,
+   "sex": "F",
+   "place": "Bisley",
+   "ahn": null,
+   "spouse": "William Jones"
+  },
+  {
+   "slug": "elizabeth",
+   "name": "Elizabeth",
+   "given": "Elizabeth",
+   "surname": "",
+   "byear": 1720,
+   "sex": "F",
+   "place": "Ashton Underhill",
+   "ahn": null,
+   "spouse": "Edward Cotton"
+  },
+  {
+   "slug": "katarina",
+   "name": "Katarina",
+   "given": "Katarina",
+   "surname": "",
+   "byear": 1736,
+   "sex": "F",
+   "place": "Crikvenica",
+   "ahn": null,
+   "spouse": "Franjo Stojčić"
+  },
+  {
+   "slug": "theresia-2",
+   "name": "Theresia",
+   "given": "Theresia",
+   "surname": "",
+   "byear": 1766,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannes Žubrinić"
+  },
+  {
    "slug": "martha-2",
    "name": "Martha",
    "given": "Martha",
@@ -1710,6 +4308,17 @@
    "place": "Otočac",
    "ahn": null,
    "spouse": "Thomas Tomo Thomo Žubrinić Xubrinich"
+  },
+  {
+   "slug": "magdalena-8",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": 1768,
+   "sex": "F",
+   "place": "Crikvenica",
+   "ahn": null,
+   "spouse": "Jakov Katnic"
   },
   {
    "slug": "lucia-3",
@@ -1855,6 +4464,17 @@
    "spouse": "Gregorius Gregory Žubrinić Zubrinic Xubrinich"
   },
   {
+   "slug": "lucia-4",
+   "name": "Lucia",
+   "given": "Lucia",
+   "surname": "",
+   "byear": 1790,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Marcus Žubrinić Xubrinich"
+  },
+  {
    "slug": "anna-3",
    "name": "Anna",
    "given": "Anna",
@@ -1899,6 +4519,17 @@
    "spouse": "Antonius Žubrinić Zubrinic Xubrinich"
   },
   {
+   "slug": "martha-5",
+   "name": "Martha",
+   "given": "Martha",
+   "surname": "",
+   "byear": 1796,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Stephanus Žubrinić Xubrinich"
+  },
+  {
    "slug": "maria-baptised-margarita",
    "name": "Maria [Baptised Margarita]",
    "given": "Maria [Baptised Margarita]",
@@ -1919,6 +4550,28 @@
    "place": "",
    "ahn": null,
    "spouse": "Mihovil Mihat Kalanj"
+  },
+  {
+   "slug": "harriet-reynolds",
+   "name": "Harriet Reynolds",
+   "given": "Harriet Reynolds",
+   "surname": "",
+   "byear": 1803,
+   "sex": "F",
+   "place": "Worlingworth",
+   "ahn": null,
+   "spouse": "James Taylor"
+  },
+  {
+   "slug": "helena-3",
+   "name": "Helena",
+   "given": "Helena",
+   "surname": "",
+   "byear": 1804,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Michael Žubrinić"
   },
   {
    "slug": "margarita-2",
@@ -1943,6 +4596,17 @@
    "spouse": "Jacobi Kraljich"
   },
   {
+   "slug": "magdalena-9",
+   "name": "Magdalena?",
+   "given": "Magdalena?",
+   "surname": "",
+   "byear": 1809,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Matthius Žubrinić Xubrinich"
+  },
+  {
    "slug": "maria-9",
    "name": "Maria",
    "given": "Maria",
@@ -1965,6 +4629,28 @@
    "spouse": "Joannes Žubrinić Xubrinich"
   },
   {
+   "slug": "vincentia-3",
+   "name": "Vincentia",
+   "given": "Vincentia",
+   "surname": "",
+   "byear": 1811,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jacobi Kraljich"
+  },
+  {
+   "slug": "rosaria",
+   "name": "Rosaria",
+   "given": "Rosaria",
+   "surname": "",
+   "byear": 1812,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joannis Žubrinić Xubrinich Zubrinic"
+  },
+  {
    "slug": "magdalena-5",
    "name": "Magdalena",
    "given": "Magdalena",
@@ -1974,6 +4660,17 @@
    "place": "Otočac",
    "ahn": null,
    "spouse": "Franciscus Francisci Žubrinić Xubrinich Zubrinic"
+  },
+  {
+   "slug": "mande",
+   "name": "Mande",
+   "given": "Mande",
+   "surname": "",
+   "byear": 1818,
+   "sex": "F",
+   "place": "Jablanac",
+   "ahn": null,
+   "spouse": "Josip Prpic"
   },
   {
    "slug": "francisca-2",
@@ -1996,6 +4693,17 @@
    "place": "",
    "ahn": null,
    "spouse": "Georgius Žubrinić"
+  },
+  {
+   "slug": "maria-12",
+   "name": "Maria",
+   "given": "Maria",
+   "surname": "",
+   "byear": 1827,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Martinus Georgius Žubrinić"
   },
   {
    "slug": "maria-7",
@@ -2064,6 +4772,17 @@
    "spouse": ""
   },
   {
+   "slug": "ana-7",
+   "name": "Ana",
+   "given": "Ana",
+   "surname": "",
+   "byear": 1851,
+   "sex": "F",
+   "place": "Mrzli Dol",
+   "ahn": null,
+   "spouse": "Mijat Blažević"
+  },
+  {
    "slug": "marija-2",
    "name": "Marija",
    "given": "Marija",
@@ -2075,6 +4794,39 @@
    "spouse": "Albert Dosen"
   },
   {
+   "slug": "jerina",
+   "name": "Jerina",
+   "given": "Jerina",
+   "surname": "",
+   "byear": 1855,
+   "sex": "F",
+   "place": "Batalage",
+   "ahn": null,
+   "spouse": "Lazar Buljubasic"
+  },
+  {
+   "slug": "francika-3",
+   "name": "Francika",
+   "given": "Francika",
+   "surname": "",
+   "byear": 1856,
+   "sex": "F",
+   "place": "Krivi Put",
+   "ahn": null,
+   "spouse": "Josip Blažević"
+  },
+  {
+   "slug": "luce-3",
+   "name": "Luce",
+   "given": "Luce",
+   "surname": "",
+   "byear": 1856,
+   "sex": "F",
+   "place": "Krivi Put",
+   "ahn": null,
+   "spouse": "Tome Perpić"
+  },
+  {
    "slug": "luce-2",
    "name": "Luce",
    "given": "Luce",
@@ -2082,6 +4834,17 @@
    "byear": 1856,
    "sex": "F",
    "place": "Krivi Put",
+   "ahn": null,
+   "spouse": "Petar Perpić"
+  },
+  {
+   "slug": "petar",
+   "name": "Petar",
+   "given": "Petar",
+   "surname": "",
+   "byear": 1856,
+   "sex": "M",
+   "place": "",
    "ahn": null,
    "spouse": ""
   },
@@ -2097,6 +4860,17 @@
    "spouse": "Franjo Blažević"
   },
   {
+   "slug": "mary-catherine",
+   "name": "Mary Catherine",
+   "given": "Mary Catherine",
+   "surname": "",
+   "byear": 1860,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "mary-frances",
    "name": "Mary Frances",
    "given": "Mary Frances",
@@ -2108,6 +4882,17 @@
    "spouse": "Anton Boras"
   },
   {
+   "slug": "catharina-11",
+   "name": "Catharina",
+   "given": "Catharina",
+   "surname": "",
+   "byear": 1861,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "christophorus",
    "name": "Christophorus",
    "given": "Christophorus",
@@ -2115,6 +4900,28 @@
    "byear": 1861,
    "sex": "M",
    "place": "Senj",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "juhas-daniel",
+   "name": "Juhas Daniel",
+   "given": "Juhas Daniel",
+   "surname": "",
+   "byear": 1862,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Zora Blažević"
+  },
+  {
+   "slug": "mathia-2",
+   "name": "Mathia",
+   "given": "Mathia",
+   "surname": "",
+   "byear": 1862,
+   "sex": "F",
+   "place": "Klenovica",
    "ahn": null,
    "spouse": ""
   },
@@ -2141,6 +4948,39 @@
    "spouse": "Joso Josip Blažević"
   },
   {
+   "slug": "marija-7",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": 1864,
+   "sex": "F",
+   "place": "Krivi Put",
+   "ahn": null,
+   "spouse": "Pave Blažević"
+  },
+  {
+   "slug": "ivka-3",
+   "name": "Ivka",
+   "given": "Ivka",
+   "surname": "",
+   "byear": 1865,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Mate Prpić"
+  },
+  {
+   "slug": "elizabeth-3",
+   "name": "Elizabeth",
+   "given": "Elizabeth",
+   "surname": "",
+   "byear": 1875,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "luce",
    "name": "Luce",
    "given": "Luce",
@@ -2163,6 +5003,17 @@
    "spouse": "Nikola Blažević"
   },
   {
+   "slug": "petar-ljudevit-augustin",
+   "name": "Petar Ljudevit Augustin",
+   "given": "Petar Ljudevit Augustin",
+   "surname": "",
+   "byear": 1884,
+   "sex": "M",
+   "place": "Klenovica",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "francika",
    "name": "Francika",
    "given": "Francika",
@@ -2174,6 +5025,28 @@
    "spouse": "Ivan Blažević"
   },
   {
+   "slug": "marija-9",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": 1886,
+   "sex": "F",
+   "place": "Klenovica",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "lovre-bogoljub",
+   "name": "Lovre Bogoljub",
+   "given": "Lovre Bogoljub",
+   "surname": "",
+   "byear": 1887,
+   "sex": "M",
+   "place": "Klenovica",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "marija-5",
    "name": "Marija",
    "given": "Marija",
@@ -2183,6 +5056,17 @@
    "place": "Senj",
    "ahn": null,
    "spouse": "Mate Ludvik Zunski"
+  },
+  {
+   "slug": "viktor-petar",
+   "name": "Viktor Petar",
+   "given": "Viktor Petar",
+   "surname": "",
+   "byear": 1894,
+   "sex": "M",
+   "place": "Klenovica",
+   "ahn": null,
+   "spouse": ""
   },
   {
    "slug": "sulka",
@@ -2218,6 +5102,17 @@
    "spouse": ""
   },
   {
+   "slug": "stanka",
+   "name": "Stanka",
+   "given": "Stanka",
+   "surname": "",
+   "byear": 1913,
+   "sex": "F",
+   "place": "mostar",
+   "ahn": null,
+   "spouse": "kreso Boras"
+  },
+  {
    "slug": "anna-bubic-2",
    "name": "Anna Bubic",
    "given": "Anna Bubic",
@@ -2227,6 +5122,50 @@
    "place": "",
    "ahn": null,
    "spouse": "Antonius Sestan"
+  },
+  {
+   "slug": "miroslava-mira",
+   "name": "Miroslava (Mira)",
+   "given": "Miroslava (Mira)",
+   "surname": "",
+   "byear": 1937,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "marijana",
+   "name": "Marijana",
+   "given": "Marijana",
+   "surname": "",
+   "byear": 1950,
+   "sex": "F",
+   "place": "Rijeka",
+   "ahn": null,
+   "spouse": "Koko Boras"
+  },
+  {
+   "slug": "australia-nz-de-franceschis",
+   "name": "AUSTRALIA NZ: De Franceschis",
+   "given": "AUSTRALIA NZ: De Franceschis",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "austria-de-franceschi",
+   "name": "AUSTRIA: De Franceschi",
+   "given": "AUSTRIA: De Franceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
   },
   {
    "slug": "ana-2",
@@ -2295,6 +5234,17 @@
    "spouse": "Franjo Tomljanovic"
   },
   {
+   "slug": "ane-2",
+   "name": "Ane",
+   "given": "Ane",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Joso Josip Blažević"
+  },
+  {
    "slug": "anna",
    "name": "Anna",
    "given": "Anna",
@@ -2304,6 +5254,17 @@
    "place": "",
    "ahn": null,
    "spouse": "Georgii Papich"
+  },
+  {
+   "slug": "anna-of-brandenburg",
+   "name": "Anna of Brandenburg",
+   "given": "Anna of Brandenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Frederick I of Denmark"
   },
   {
    "slug": "ann",
@@ -2370,6 +5331,39 @@
    "place": "",
    "ahn": null,
    "spouse": "Toma Tomljanovic"
+  },
+  {
+   "slug": "brazil-defranceschi",
+   "name": "BRAZIL: Defranceschi",
+   "given": "BRAZIL: Defranceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "barbara-2",
+   "name": "Barbara",
+   "given": "Barbara",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "brindley-stoke",
+   "name": "Brindley Stoke",
+   "given": "Brindley Stoke",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
   },
   {
    "slug": "cathar",
@@ -2482,6 +5476,127 @@
    "spouse": "Josephi Papić (Papa)"
   },
   {
+   "slug": "christian-i-of-denmark",
+   "name": "Christian I of Denmark",
+   "given": "Christian I of Denmark",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Dorothea of Brandenburg"
+  },
+  {
+   "slug": "christian-iii-of-denmark",
+   "name": "Christian III of Denmark",
+   "given": "Christian III of Denmark",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Dorothea Lauenburg"
+  },
+  {
+   "slug": "christian-v-count-of-oldenburg",
+   "name": "Christian V, Count of Oldenburg",
+   "given": "Christian V, Count of Oldenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Countess Agnes of Honstein"
+  },
+  {
+   "slug": "conrad-i-of-oldenburg",
+   "name": "Conrad I of Oldenburg",
+   "given": "Conrad I of Oldenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ingeborg of Brunswick"
+  },
+  {
+   "slug": "countess-agnes-of-honstein",
+   "name": "Countess Agnes of Honstein",
+   "given": "Countess Agnes of Honstein",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Christian V, Count of Oldenburg"
+  },
+  {
+   "slug": "dietrich-of-oldenburg",
+   "name": "Dietrich of Oldenburg",
+   "given": "Dietrich of Oldenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Helvig of Schauenburg"
+  },
+  {
+   "slug": "dirkje",
+   "name": "Dirkje",
+   "given": "Dirkje",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Cornelis Knoetzen"
+  },
+  {
+   "slug": "dorothea-of-brandenburg",
+   "name": "Dorothea of Brandenburg",
+   "given": "Dorothea of Brandenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Christian I of Denmark"
+  },
+  {
+   "slug": "eliza",
+   "name": "Eliza",
+   "given": "Eliza",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Paul Cole Atkinson"
+  },
+  {
+   "slug": "elizabeth-2",
+   "name": "Elizabeth",
+   "given": "Elizabeth",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "David? Neagle"
+  },
+  {
+   "slug": "ellen",
+   "name": "Ellen",
+   "given": "Ellen",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Mulcahy"
+  },
+  {
    "slug": "francika-2",
    "name": "Francika",
    "given": "Francika",
@@ -2537,6 +5652,28 @@
    "spouse": "Anton Blažević"
   },
   {
+   "slug": "frederick-i-of-denmark",
+   "name": "Frederick I of Denmark",
+   "given": "Frederick I of Denmark",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Anna of Brandenburg"
+  },
+  {
+   "slug": "gerd-martens",
+   "name": "Gerd Martens",
+   "given": "Gerd Martens",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Grete Martens"
+  },
+  {
    "slug": "gertruda",
    "name": "Gertruda",
    "given": "Gertruda",
@@ -2546,6 +5683,39 @@
    "place": "",
    "ahn": null,
    "spouse": ""
+  },
+  {
+   "slug": "grete-martens",
+   "name": "Grete Martens",
+   "given": "Grete Martens",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Gerd Martens"
+  },
+  {
+   "slug": "hedwig-of-diepholz",
+   "name": "Hedwig of Diepholz",
+   "given": "Hedwig of Diepholz",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "John II, Count of Oldenburg"
+  },
+  {
+   "slug": "helena-2",
+   "name": "Helena",
+   "given": "Helena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Georgius Czar"
   },
   {
    "slug": "hellena",
@@ -2559,6 +5729,50 @@
    "spouse": "Mattheus Žubrinić"
   },
   {
+   "slug": "helvig-of-schauenburg",
+   "name": "Helvig of Schauenburg",
+   "given": "Helvig of Schauenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Dietrich of Oldenburg"
+  },
+  {
+   "slug": "herman-seiden",
+   "name": "Herman Seiden",
+   "given": "Herman Seiden",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "hima-hyma",
+   "name": "Hima (Hyma)",
+   "given": "Hima (Hyma)",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Haussmann Seyde Harmens"
+  },
+  {
+   "slug": "huibrecht-slabbarts",
+   "name": "Huibrecht (Slabbarts)",
+   "given": "Huibrecht (Slabbarts)",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Gerrit Cloete"
+  },
+  {
    "slug": "illegitimate",
    "name": "Illegitimate",
    "given": "Illegitimate",
@@ -2568,6 +5782,28 @@
    "place": "",
    "ahn": null,
    "spouse": "Theresia Blažević"
+  },
+  {
+   "slug": "ingeborg-of-brunswick",
+   "name": "Ingeborg of Brunswick",
+   "given": "Ingeborg of Brunswick",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Conrad I of Oldenburg"
+  },
+  {
+   "slug": "ivan",
+   "name": "Ivan",
+   "given": "Ivan",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Lucija Loncaric Papić (Papa)"
   },
   {
    "slug": "ivka",
@@ -2614,6 +5850,28 @@
    "spouse": "Thomas Žubrinić Xubrinich"
   },
   {
+   "slug": "john-ii-count-of-oldenburg",
+   "name": "John II, Count of Oldenburg",
+   "given": "John II, Count of Oldenburg",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Hedwig of Diepholz"
+  },
+  {
+   "slug": "josipa-eskinja",
+   "name": "Josipa Eškinja",
+   "given": "Josipa Eškinja",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Kristian Blažević"
+  },
+  {
    "slug": "juliana",
    "name": "Juliana",
    "given": "Juliana",
@@ -2623,6 +5881,17 @@
    "place": "",
    "ahn": null,
    "spouse": "Josephus Žubrinić Xubrinich"
+  },
+  {
+   "slug": "karma",
+   "name": "Karma",
+   "given": "Karma",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Tomislav Boras"
   },
   {
    "slug": "kata",
@@ -2645,6 +5914,39 @@
    "place": "",
    "ahn": null,
    "spouse": "Jakov Perpic"
+  },
+  {
+   "slug": "katica",
+   "name": "Katica",
+   "given": "Katica",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Leo Blažević"
+  },
+  {
+   "slug": "klara",
+   "name": "Klara",
+   "given": "Klara",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Anton Prpić"
+  },
+  {
+   "slug": "koka",
+   "name": "Koka",
+   "given": "Koka",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivan Anton Defranceski"
   },
   {
    "slug": "leonardus",
@@ -2702,6 +6004,17 @@
    "spouse": "Joannis Žubrinić Xubrinich Zubrinic"
   },
   {
+   "slug": "magdalena-10",
+   "name": "Magdalena",
+   "given": "Magdalena",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Lucas Sekula"
+  },
+  {
    "slug": "mandalina",
    "name": "Mandalina",
    "given": "Mandalina",
@@ -2722,6 +6035,17 @@
    "place": "",
    "ahn": null,
    "spouse": "Joannes Cacic"
+  },
+  {
+   "slug": "margarita-5",
+   "name": "Margarita",
+   "given": "Margarita",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ignatium Papić (Papa)"
   },
   {
    "slug": "margarit",
@@ -2801,6 +6125,17 @@
    "spouse": "Ilija Blažević"
   },
   {
+   "slug": "marija-8",
+   "name": "Marija",
+   "given": "Marija",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Ivan Blažević"
+  },
+  {
    "slug": "marija-6",
    "name": "Marija",
    "given": "Marija",
@@ -2856,6 +6191,17 @@
    "spouse": "Filip Blažević"
   },
   {
+   "slug": "martha-4",
+   "name": "Martha",
+   "given": "Martha",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Jacobus Orešković Oreskovic"
+  },
+  {
    "slug": "martha",
    "name": "Martha",
    "given": "Martha",
@@ -2865,6 +6211,17 @@
    "place": "",
    "ahn": null,
    "spouse": "Antonius Blažević"
+  },
+  {
+   "slug": "mary-2",
+   "name": "Mary?",
+   "given": "Mary?",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Thomas Hall Larman"
   },
   {
    "slug": "mathia",
@@ -2900,6 +6257,50 @@
    "spouse": "Ivan Prpic"
   },
   {
+   "slug": "matia-3",
+   "name": "Matia",
+   "given": "Matia",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Gerga Blažević"
+  },
+  {
+   "slug": "mimke-harmens",
+   "name": "Mimke Harmens",
+   "given": "Mimke Harmens",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "n",
+   "name": "N",
+   "given": "N",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Friederike Susanna Frederica von Schönburg"
+  },
+  {
+   "slug": "puerto-rico-de-franceschi",
+   "name": "PUERTO RICO: De Franceschi",
+   "given": "PUERTO RICO: De Franceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "ruby",
    "name": "Ruby",
    "given": "Ruby",
@@ -2922,6 +6323,28 @@
    "spouse": "Josip Blažević"
   },
   {
+   "slug": "slovenija-defranceschi",
+   "name": "SLOVENIJA: Defranceschi",
+   "given": "SLOVENIJA: Defranceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "switzerland-defranceschi",
+   "name": "SWITZERLAND: Defranceschi",
+   "given": "SWITZERLAND: Defranceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
    "slug": "slavka",
    "name": "Slavka",
    "given": "Slavka",
@@ -2942,6 +6365,50 @@
    "place": "",
    "ahn": null,
    "spouse": "Franjo Frane Kalanj"
+  },
+  {
+   "slug": "thomas",
+   "name": "Thomas",
+   "given": "Thomas",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Juliana Žubrinić"
+  },
+  {
+   "slug": "uk-defranceschi",
+   "name": "UK: Defranceschi",
+   "given": "UK: Defranceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "usa-de-franceschi",
+   "name": "USA: De Franceschi",
+   "given": "USA: De Franceschi",
+   "surname": "",
+   "byear": null,
+   "sex": "U",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "ulbet-berends",
+   "name": "Ulbet Berends",
+   "given": "Ulbet Berends",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
   },
   {
    "slug": "ursa",
@@ -3021,6 +6488,50 @@
    "spouse": "Jacobus Jacov Jacob Žubrinić Zubrinic Xubrinic"
   },
   {
+   "slug": "zagreb-defranceski-s",
+   "name": "ZAGREB Defranceski's",
+   "given": "ZAGREB Defranceski's",
+   "surname": "",
+   "byear": null,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": ""
+  },
+  {
+   "slug": "wife-2",
+   "name": "wife 2",
+   "given": "wife 2",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Bogdan \"Boban\" Karic"
+  },
+  {
+   "slug": "wife1",
+   "name": "wife1",
+   "given": "wife1",
+   "surname": "",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "Bogdan \"Boban\" Karic"
+  },
+  {
+   "slug": "unknown",
+   "name": "? ?",
+   "given": "?",
+   "surname": "?",
+   "byear": null,
+   "sex": "F",
+   "place": "?",
+   "ahn": null,
+   "spouse": "? Rousseau"
+  },
+  {
    "slug": "maria-kostelacz-jergovic",
    "name": "Maria Kostelacz Jergovic?",
    "given": "Maria",
@@ -3041,6 +6552,28 @@
    "place": "",
    "ahn": null,
    "spouse": "Petar Petrus Kalanj Kallayn"
+  },
+  {
+   "slug": "agnes-isabel-scott",
+   "name": "Agnes Isabel Scott?",
+   "given": "Agnes Isabel",
+   "surname": "Scott?",
+   "byear": null,
+   "sex": "F",
+   "place": "",
+   "ahn": null,
+   "spouse": "John Wright"
+  },
+  {
+   "slug": "antonius-spiera",
+   "name": "Antonius Spiera ?",
+   "given": "Antonius",
+   "surname": "Spiera ?",
+   "byear": 1822,
+   "sex": "M",
+   "place": "",
+   "ahn": null,
+   "spouse": "Stanislav Perpic"
   }
  ]
 }

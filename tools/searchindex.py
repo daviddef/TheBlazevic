@@ -50,7 +50,12 @@ def add(kind, title, sub, href, extra=""):
 
 
 # ---- people --------------------------------------------------------------
+# THE DEAD ONLY. A living person is never a row here, and neither is any page of
+# theirs: people.json and ancestors.json hold nobody who is living, and a page
+# that says noindex is left out of the narrative loop below (every living
+# person's page, and every name page whose bearers are all living).
 people = list({p["id"]: p for p in L("people.json") + L("ancestors.json")}.values())
+skipped_noindex = 0
 ev = L("evidence.json") if os.path.exists(os.path.join(D, "evidence.json")) else {}
 for p in people:
     yrs = f"{p.get('born') or '?'}–{p.get('died') or '?'}"
@@ -104,6 +109,12 @@ if os.path.isdir(DIST):
         # old address keeps working. (Same fix as Booyzen's indexer, 9 October 2026.)
         if 'http-equiv="refresh"' in src[:600]:
             continue
+        # A page that says noindex is not offered to a search engine, and it is
+        # not offered by this one either: every living person's page, and every
+        # name page whose bearers are all living.
+        if re.search(r'name=["\']robots["\'][^>]*noindex', src[:4000], re.I):
+            skipped_noindex += 1
+            continue
         title = re.search(r"<title>(.*?)</title>", src, re.S)
         title = html.unescape(TAG.sub("", title.group(1))).split(" — ")[0].strip() if title else ""
         dek = re.search(r'<meta name="description" content="(.*?)"', src, re.S)
@@ -114,14 +125,15 @@ if os.path.isdir(DIST):
         # tells the story.
         m = re.search(r"<main\b[^>]*>(.*?)</main>", src, re.S | re.I)
         body = TAG.sub(" ", STRIP.sub(" ", m.group(1) if m else src))
-        body = html.unescape(re.sub(r"\s+", " ", body))[:14000]
-        add("Page", title, dek[:120], href, body)
+        body = html.unescape(re.sub(r"\s+", " ", body))
+        add("Page", title, dek[:120], href, body[:14000])
         seen.add(href)
 
 out = os.path.join(ROOT, "site", "public", "searchindex.json")
 json.dump(rows, open(out, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 import collections
 print(f"{len(rows)} entries -> {os.path.relpath(out, ROOT)}")
+print(f"  living: {skipped_noindex} noindex page(s) left out of the index")
 for k, n in collections.Counter(r["k"] for r in rows).most_common():
     print(f"  {n:>5}  {k}")
 print(f"  {os.path.getsize(out) // 1024} KB")

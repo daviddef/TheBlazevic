@@ -216,6 +216,102 @@
   },
   {
    "tier": "same day and same parents",
+   "surname": "jones",
+   "given": "lydia",
+   "byear": 1770,
+   "n": 2,
+   "place": "Wotton-under-Edge",
+   "date": "13 MAR 1770",
+   "ids": [
+    "@I1131@",
+    "@I501669@"
+   ],
+   "names": [
+    "Lydia Jones",
+    "Lydia Jones"
+   ],
+   "slugs": [
+    "lydia-jones",
+    "lydia-jones-2"
+   ],
+   "dyears": [
+    1851
+   ]
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "patinger",
+   "given": "margaretha",
+   "byear": 1760,
+   "n": 2,
+   "place": "Graaff-Reinet",
+   "date": "1 JUN 1760",
+   "ids": [
+    "@I505626@",
+    "@I505625@"
+   ],
+   "names": [
+    "Margaretha Maria Patinger",
+    "Maria Margaretha Patinger"
+   ],
+   "slugs": [
+    "margaretha-maria-patinger",
+    "maria-margaretha-patinger"
+   ],
+   "dyears": [
+    1847
+   ]
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "reed",
+   "given": "william",
+   "byear": 1685,
+   "n": 2,
+   "place": "Braunton",
+   "date": "2 AUG 1685",
+   "ids": [
+    "@I511907@",
+    "@I512327@"
+   ],
+   "names": [
+    "William REED",
+    "William Reed"
+   ],
+   "slugs": [
+    "william-reed-2",
+    "william-reed-3"
+   ],
+   "dyears": [
+    1756
+   ]
+  },
+  {
+   "tier": "same day and same parents",
+   "surname": "van biljon",
+   "given": "anna sophia",
+   "byear": 1850,
+   "n": 2,
+   "place": "Burgersdorp",
+   "date": "24 MAR 1850",
+   "ids": [
+    "@I503904@",
+    "@I504867@"
+   ],
+   "names": [
+    "Anna Sophia van Biljon",
+    "Anna Sophia van Biljon"
+   ],
+   "slugs": [
+    "anna-sophia-van-biljon",
+    "anna-sophia-van-biljon-2"
+   ],
+   "dyears": [
+    1904
+   ]
+  },
+  {
+   "tier": "same day and same parents",
    "surname": "zubrinic",
    "given": "catharina",
    "byear": 1840,
@@ -328,6 +424,78 @@
   },
   {
    "tier": "same day, and the same death day",
+   "surname": "botha",
+   "given": "johannes",
+   "byear": 1695,
+   "n": 2,
+   "place": "Drakenstein",
+   "date": "1 MAY 1695",
+   "ids": [
+    "@I504523@",
+    "@I506858@"
+   ],
+   "names": [
+    "Johannes Botha",
+    "Johannes Botha"
+   ],
+   "slugs": [
+    "johannes-botha",
+    "johannes-botha-2"
+   ],
+   "dyears": [
+    1779
+   ]
+  },
+  {
+   "tier": "same day, and the same death day",
+   "surname": "botha",
+   "given": "anna sophia",
+   "byear": 1723,
+   "n": 2,
+   "place": "Paarl",
+   "date": "23 AUG 1723",
+   "ids": [
+    "@I510296@",
+    "@I504370@"
+   ],
+   "names": [
+    "Anna Sophia Botha",
+    "Anna Sophia Catharina Botha"
+   ],
+   "slugs": [
+    "anna-sophia-botha",
+    "anna-sophia-catharina-botha"
+   ],
+   "dyears": [
+    1779
+   ]
+  },
+  {
+   "tier": "same day, and the same death day",
+   "surname": "carstens",
+   "given": "hermann johannes",
+   "byear": 1674,
+   "n": 2,
+   "place": "Ostenfeld (Husum)",
+   "date": null,
+   "ids": [
+    "@I511953@",
+    "@I511935@"
+   ],
+   "names": [
+    "Johannes Hermann (Hermanus) Carstens",
+    "Johannes Hermann Carstens"
+   ],
+   "slugs": [
+    "johannes-hermann-hermanus-carstens",
+    "johannes-hermann-carstens"
+   ],
+   "dyears": [
+    1727
+   ]
+  },
+  {
+   "tier": "same day, and the same death day",
    "surname": "kalanj",
    "given": "danijel",
    "byear": 1829,
@@ -348,6 +516,54 @@
    ],
    "dyears": [
     1876
+   ]
+  },
+  {
+   "tier": "same day, and the same death day",
+   "surname": "pretorius",
+   "given": "gerhardus petrus",
+   "byear": 1780,
+   "n": 2,
+   "place": "Cape Town",
+   "date": "31 DEC 1780",
+   "ids": [
+    "@I505373@",
+    "@I505390@"
+   ],
+   "names": [
+    "Gerhardus Petrus Pretorius",
+    "Gerhardus Petrus Pretorius"
+   ],
+   "slugs": [
+    "gerhardus-petrus-pretorius",
+    "gerhardus-petrus-pretorius-2"
+   ],
+   "dyears": [
+    1880
+   ]
+  },
+  {
+   "tier": "same day, and the same death day",
+   "surname": "van as",
+   "given": "catharina",
+   "byear": 1695,
+   "n": 2,
+   "place": "Cape Town",
+   "date": "31 JUL 1695",
+   "ids": [
+    "@I511936@",
+    "@I511954@"
+   ],
+   "names": [
+    "Catharina Van As",
+    "Catharina (Mollvanger Sprengler) van As"
+   ],
+   "slugs": [
+    "catharina-van-as",
+    "catharina-mollvanger-sprengler-van-as"
+   ],
+   "dyears": [
+    1758
    ]
   },
   {
@@ -447,6 +663,54 @@
   },
   {
    "tier": "same year, same parents, and one record is a fragment",
+   "surname": "botha",
+   "given": "maria",
+   "byear": 1722,
+   "n": 2,
+   "place": "Paarl",
+   "date": "29 MAR 1722",
+   "ids": [
+    "@I510322@",
+    "@I511350@"
+   ],
+   "names": [
+    "Maria Botha",
+    "Maria Botha"
+   ],
+   "slugs": [
+    "maria-botha",
+    "maria-botha-2"
+   ],
+   "dyears": [
+    1739
+   ]
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "coetzer",
+   "given": "jacobus johannes",
+   "byear": 1754,
+   "n": 2,
+   "place": "Swellendam",
+   "date": "24 DEC 1754",
+   "ids": [
+    "@I505345@",
+    "@I506962@"
+   ],
+   "names": [
+    "Jacobus Johannes Coetzer",
+    "Johannes Jacobus Coetzer (Coetser)"
+   ],
+   "slugs": [
+    "jacobus-johannes-coetzer",
+    "johannes-jacobus-coetzer-coetser"
+   ],
+   "dyears": [
+    1825
+   ]
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
    "surname": "kalanj",
    "given": "ivan",
    "byear": 1942,
@@ -491,6 +755,52 @@
    ],
    "dyears": [
     2009
+   ]
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "reed",
+   "given": "richard",
+   "byear": 1711,
+   "n": 2,
+   "place": "Braunton",
+   "date": "30 MAY 1711",
+   "ids": [
+    "@I512329@",
+    "@I512330@"
+   ],
+   "names": [
+    "Richard REED",
+    "Richard Reed"
+   ],
+   "slugs": [
+    "richard-reed-2",
+    "richard-reed-3"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year, same parents, and one record is a fragment",
+   "surname": "venter",
+   "given": "jacob",
+   "byear": 1736,
+   "n": 2,
+   "place": "Stellenbosch",
+   "date": "22 JUL 1736",
+   "ids": [
+    "@I508245@",
+    "@I508246@"
+   ],
+   "names": [
+    "Jacob Venter",
+    "Jacob Venter"
+   ],
+   "slugs": [
+    "jacob-venter",
+    "jacob-venter-2"
+   ],
+   "dyears": [
+    1740
    ]
   },
   {
@@ -556,6 +866,76 @@
    "slugs": [
     "magdalena-zubrinic",
     "magdalena-zubrinic-9"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "same year and place",
+   "surname": "degenfeld",
+   "given": "christoph hans",
+   "byear": 1550,
+   "n": 2,
+   "place": "Ehrstaedt",
+   "date": null,
+   "ids": [
+    "@I502828@",
+    "@I502829@"
+   ],
+   "names": [
+    "Hans Christoph Degenfeld",
+    "Hans Christoph Degenfeld"
+   ],
+   "slugs": [
+    "hans-christoph-degenfeld",
+    "hans-christoph-degenfeld-2"
+   ],
+   "dyears": [
+    1613
+   ]
+  },
+  {
+   "tier": "same year and place",
+   "surname": "helm",
+   "given": "valtin veltin",
+   "byear": 1581,
+   "n": 2,
+   "place": "Helmenhube",
+   "date": null,
+   "ids": [
+    "@I503991@",
+    "@I503988@"
+   ],
+   "names": [
+    "Veltin \"Valtin\" Helm",
+    "Veltin \"Veltin\" Helm"
+   ],
+   "slugs": [
+    "veltin-valtin-helm",
+    "veltin-helm"
+   ],
+   "dyears": [
+    1633
+   ]
+  },
+  {
+   "tier": "same year and place",
+   "surname": "pretorius",
+   "given": "anna elizabeth",
+   "byear": 1767,
+   "n": 2,
+   "place": "South Africa",
+   "date": "20 SEP 1767",
+   "ids": [
+    "@I505379@",
+    "@I505385@"
+   ],
+   "names": [
+    "Anna Elizabeth Pretorius",
+    "Anna Elizabeth Pretorius"
+   ],
+   "slugs": [
+    "anna-elizabeth-pretorius-2",
+    "anna-elizabeth-pretorius-3"
    ],
    "dyears": []
   },
@@ -649,6 +1029,30 @@
   },
   {
    "tier": "same year only",
+   "surname": "rossouw",
+   "given": "maria",
+   "byear": 1693,
+   "n": 2,
+   "place": "Cape Town",
+   "date": null,
+   "ids": [
+    "@I504466@",
+    "@I506836@"
+   ],
+   "names": [
+    "Maria Marais Rossouw",
+    "Maria Rossouw"
+   ],
+   "slugs": [
+    "maria-marais-rossouw",
+    "maria-rossouw"
+   ],
+   "dyears": [
+    1766
+   ]
+  },
+  {
+   "tier": "same year only",
    "surname": "zubrinic",
    "given": "michael",
    "byear": 1802,
@@ -668,6 +1072,56 @@
     "michael-zubrinic-xubrinich-zubrinic"
    ],
    "dyears": []
+  },
+  {
+   "tier": "rejected — two death years",
+   "surname": "helm",
+   "given": "hans",
+   "byear": 1612,
+   "n": 2,
+   "place": "Bad Oldesloe",
+   "date": "6 JAN 1612",
+   "ids": [
+    "@I503986@",
+    "@I504057@"
+   ],
+   "names": [
+    "Hans Helm",
+    "Jochim Hans Helm"
+   ],
+   "slugs": [
+    "hans-helm-2",
+    "jochim-hans-helm"
+   ],
+   "dyears": [
+    1687,
+    1698
+   ]
+  },
+  {
+   "tier": "rejected — two death years",
+   "surname": "maartens",
+   "given": "anthonius joannes",
+   "byear": 1654,
+   "n": 2,
+   "place": "Grijpskerke",
+   "date": null,
+   "ids": [
+    "@I503972@",
+    "@I505850@"
+   ],
+   "names": [
+    "Joannes Anthonius \"Maarten van Grijpskerk\" Maartens",
+    "Joannes Anthonius Maartens"
+   ],
+   "slugs": [
+    "joannes-anthonius-maartens",
+    "joannes-anthonius-maartens-2"
+   ],
+   "dyears": [
+    1701,
+    1707
+   ]
   },
   {
    "tier": "rejected — two birth days",
@@ -694,6 +1148,30 @@
    ]
   },
   {
+   "tier": "rejected — two birth days",
+   "surname": "van der merwe",
+   "given": "anna",
+   "byear": 1704,
+   "n": 2,
+   "place": "Paarl",
+   "date": "20 MAY 1704",
+   "ids": [
+    "@I504524@",
+    "@I506859@"
+   ],
+   "names": [
+    "Anna van der Merwe",
+    "Anna van der Merwe"
+   ],
+   "slugs": [
+    "anna-van-der-merwe",
+    "anna-van-der-merwe-2"
+   ],
+   "dyears": [
+    1738
+   ]
+  },
+  {
    "tier": "rejected — one died a child and the other married",
    "surname": "zubrinic",
    "given": "thomas",
@@ -715,6 +1193,275 @@
    ],
    "dyears": [
     1829
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "johannes lodewyk",
+   "byear": 1688,
+   "n": 2,
+   "place": "Cape Town",
+   "date": "5 SEP 1688",
+   "ids": [
+    "@I504381@",
+    "@I506835@"
+   ],
+   "names": [
+    "Lodewyk Johannes Pretorius",
+    "Lodewyk Pretorius"
+   ],
+   "slugs": [
+    "lodewyk-johannes-pretorius",
+    "lodewyk-pretorius"
+   ],
+   "dyears": [
+    1718
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "anna maria",
+   "byear": 1741,
+   "n": 2,
+   "place": "Drakenstein",
+   "date": "10 SEP 1741",
+   "ids": [
+    "@I506815@",
+    "@I510297@"
+   ],
+   "names": [
+    "Anna Maria Pretorius",
+    "Anna Maria Pretorius"
+   ],
+   "slugs": [
+    "anna-maria-pretorius",
+    "anna-maria-pretorius-2"
+   ],
+   "dyears": [
+    1798
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "magdalena margaretha",
+   "byear": 1745,
+   "n": 2,
+   "place": "Cape of Good Hope",
+   "date": "31 OCT 1745",
+   "ids": [
+    "@I504373@",
+    "@I510332@"
+   ],
+   "names": [
+    "Magdalena Margaretha Pretorius",
+    "Magdalena Pretorius"
+   ],
+   "slugs": [
+    "magdalena-margaretha-pretorius",
+    "magdalena-pretorius-2"
+   ],
+   "dyears": []
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "martha sophia",
+   "byear": 1747,
+   "n": 3,
+   "place": "Tulbagh",
+   "date": "3 DEC 1747",
+   "ids": [
+    "@I504374@",
+    "@I510300@",
+    "@I510333@"
+   ],
+   "names": [
+    "Martha Sophia Pretorius",
+    "Martha Sophia Pretorius",
+    "Martha Sophia Pretorius"
+   ],
+   "slugs": [
+    "martha-sophia-pretorius",
+    "martha-sophia-pretorius-2",
+    "martha-sophia-pretorius-3"
+   ],
+   "dyears": [
+    1798
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "johannes lodewicus",
+   "byear": 1749,
+   "n": 3,
+   "place": "Tulbach",
+   "date": "21 SEP 1749",
+   "ids": [
+    "@I504375@",
+    "@I510301@",
+    "@I510334@"
+   ],
+   "names": [
+    "Johannes Lodewicus Pretorius",
+    "Johannes Lodewicus Pretorius",
+    "Johannes Lodewicus Pretorius"
+   ],
+   "slugs": [
+    "johannes-lodewicus-pretorius-2",
+    "johannes-lodewicus-pretorius-5",
+    "johannes-lodewicus-pretorius-6"
+   ],
+   "dyears": [
+    1794
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "jacobus willem",
+   "byear": 1751,
+   "n": 2,
+   "place": "Aan de Breede Rivier",
+   "date": "11 NOV 1751",
+   "ids": [
+    "@I504376@",
+    "@I510335@"
+   ],
+   "names": [
+    "Willem Jacobus Pretorius",
+    "Willem Jacobus Pretorius"
+   ],
+   "slugs": [
+    "willem-jacobus-pretorius",
+    "willem-jacobus-pretorius-2"
+   ],
+   "dyears": [
+    1836
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "carel",
+   "byear": 1754,
+   "n": 2,
+   "place": "Drakenstein",
+   "date": "19 MAY 1754",
+   "ids": [
+    "@I510336@",
+    "@I504340@"
+   ],
+   "names": [
+    "Carel Pretorius",
+    "Carel Sarel Pretorius"
+   ],
+   "slugs": [
+    "carel-pretorius",
+    "carel-sarel-pretorius"
+   ],
+   "dyears": [
+    1838
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "hendrik stephanus",
+   "byear": 1759,
+   "n": 2,
+   "place": "Tulbagh",
+   "date": "8 JAN 1759",
+   "ids": [
+    "@I510304@",
+    "@I510337@"
+   ],
+   "names": [
+    "Hendrik Stephanus Pretorius",
+    "Hendrik Stephanus Pretorius"
+   ],
+   "slugs": [
+    "hendrik-stephanus-pretorius-2",
+    "hendrik-stephanus-pretorius-3"
+   ],
+   "dyears": [
+    1870
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "jacobus petrus",
+   "byear": 1761,
+   "n": 2,
+   "place": "Cape of Good Hope",
+   "date": "6 MAY 1761",
+   "ids": [
+    "@I504219@",
+    "@I510320@"
+   ],
+   "names": [
+    "Petrus Jacobus Pretorius",
+    "Petrus Jacobus Pretorius"
+   ],
+   "slugs": [
+    "petrus-jacobus-pretorius-2",
+    "petrus-jacobus-pretorius-4"
+   ],
+   "dyears": [
+    1830
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "pretorius",
+   "given": "hester",
+   "byear": 1764,
+   "n": 2,
+   "place": "Drakenstein",
+   "date": "21 APR 1764",
+   "ids": [
+    "@I504379@",
+    "@I510338@"
+   ],
+   "names": [
+    "Hester Pretorius",
+    "Hester Pretorius"
+   ],
+   "slugs": [
+    "hester-pretorius",
+    "hester-pretorius-3"
+   ],
+   "dyears": [
+    1827
+   ]
+  },
+  {
+   "tier": "rejected — different parents by surname",
+   "surname": "schoeman",
+   "given": "daniel wilhelmus",
+   "byear": 1862,
+   "n": 2,
+   "place": "Cape Colony",
+   "date": "7 DEC 1862",
+   "ids": [
+    "@I511918@",
+    "@I917@"
+   ],
+   "names": [
+    "Daniel Wilhelmus Schoeman",
+    "Daniel Wilhelmus Schoeman"
+   ],
+   "slugs": [
+    "daniel-wilhelmus-schoeman-3",
+    "daniel-wilhelmus-schoeman-4"
+   ],
+   "dyears": [
+    1863,
+    1931
    ]
   },
   {
@@ -785,6 +1532,54 @@
    ],
    "dyears": [
     1969
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "darcy",
+   "given": "philip",
+   "byear": 1626,
+   "n": 2,
+   "place": "Hornby",
+   "date": null,
+   "ids": [
+    "@I502863@",
+    "@I502911@"
+   ],
+   "names": [
+    "Philip Darcy",
+    "Philip Darcy"
+   ],
+   "slugs": [
+    "philip-darcy",
+    "philip-darcy-2"
+   ],
+   "dyears": [
+    1626
+   ]
+  },
+  {
+   "tier": "rejected — different parents",
+   "surname": "darcy",
+   "given": "john",
+   "byear": 1630,
+   "n": 2,
+   "place": "Hornby",
+   "date": null,
+   "ids": [
+    "@I502865@",
+    "@I502912@"
+   ],
+   "names": [
+    "John Darcy",
+    "John Darcy"
+   ],
+   "slugs": [
+    "john-darcy",
+    "john-darcy-3"
+   ],
+   "dyears": [
+    1630
    ]
   },
   {
@@ -1610,8 +2405,8 @@
    "dyears": []
   }
  ],
- "extra": 30,
- "published": 1904,
- "rejected": 40,
- "live": 29
+ "extra": 47,
+ "published": 4488,
+ "rejected": 56,
+ "live": 46
 }

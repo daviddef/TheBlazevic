@@ -182,7 +182,7 @@
   "inTree": 10,
   "above": 7,
   "household": 13,
-  "living": 2,
+  "living": 1,
   "lostIn1943": 3,
   "earliest": 1738,
   "generations": 6
@@ -434,7 +434,7 @@
    "children": [
     {
      "id": "@I510795@",
-     "name": "Ivan Christian"
+     "name": "Ivan Christian Kosina"
     }
    ],
    "siblings": [
@@ -538,13 +538,13 @@
   },
   {
    "id": "@I510795@",
-   "name": "Ivan Christian",
-   "surname": "",
+   "name": "Ivan Christian Kosina",
+   "surname": "Kosina",
    "born": "",
    "bornPlace": "",
    "died": "",
    "diedPlace": "",
-   "living": true,
+   "living": false,
    "parents": [
     {
      "id": "@I506276@",

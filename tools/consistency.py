@@ -40,6 +40,13 @@ def approx(datestr):
 
 
 people, families = load()
+# A LIVING PERSON'S DATES NEVER REACH A COMMITTED FILE, and a held-out person is
+# not published at all (tools/livingset.py, the kit's rule). This sweep reports
+# dates and names, so it does not see them: they are taken out of the tree before
+# anything is checked, and every loop below already skips an id that is missing.
+import livingset
+_cls = livingset.classify(people, families)
+people = {i: p for i, p in people.items() if i not in _cls["living"] and i not in _cls["held"]}
 
 # Entries that are labels rather than people; ages computed against them mean nothing.
 BUCKET_PARENT = re.compile(
@@ -59,11 +66,10 @@ for x in pub:
         for r in (grp if isinstance(grp, list) else []):
             if isinstance(r, dict) and r.get("id"):
                 SCOPE.add(r["id"])
-# and the parents/children of those, so a join is checked from both ends
-for fid, f in families.items():
-    members = [f.get("husb"), f.get("wife")] + list(f.get("chil") or [])
-    if any(m in SCOPE for m in members if m):
-        SCOPE.update(m for m in members if m)
+# (THE PARENTS AND CHILDREN OF THOSE USED TO BE ADDED HERE, so a join was checked
+# from both ends. Since 16 October 2026 every person this archive names has a page,
+# so the relation lists above already reach the other end of every join; widening
+# further named people who have no page, which the archive no longer does.)
 
 def relevant(pid):
     return pid in SCOPE and not JUNK.search(display(people[pid]) or "")

@@ -1,0 +1,54 @@
+---
+/* A LIVING PERSON'S PAGE: a name, a relationship, a town and a country.
+ *
+ * The standard David ruled on 16 October 2026 for every archive. What a living
+ * person has here is exactly what is below and nothing else: no dates, no
+ * events, no records, no sources, no notes, no photographs, no tree record id,
+ * no structured data. The page is noindex, which is also what keeps it out of
+ * the sitemap, and the search index leaves it out on the same test.
+ *
+ * The data this reads (site/src/data/living.json) is written by
+ * tools/build_site_data.py and carries only id, slug, name, town, country and
+ * the relations, so there is nothing more here to leave out.
+ */
+import Base from "../layouts/Base.astro";
+import PersonTree from "./PersonTree.astro";
+import { u } from "../lib/url.js";
+
+const { p } = Astro.props;
+const place = [p.town, p.country].filter(Boolean).join(", ");
+const rel = p.rel || {};
+const kin = (rel.parents?.length || 0) + (rel.spouses?.length || 0)
+  + (rel.siblings?.length || 0) + (rel.children?.length || 0);
+const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "")
+  .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
+---
+<Base title={p.name} eyebrow="A living person"
+      dek="Named here with their relationships and their town and country, and nothing more."
+      noindex unstructured>
+  <section class="blk">
+    <table class="kv"><tbody>
+      <tr><th>Name</th><td>{p.name}</td></tr>
+      {place ? <tr><th>Place</th><td>{place}</td></tr> : null}
+    </tbody></table>
+    <p class="note" style="margin-top:1.2rem"><strong>A living person (80 or younger, with no death
+    recorded) is named with their relationships and their town and country, and nothing more.</strong>
+    There are no dates here, no records, no
+    photograph and no sources, and this page is kept out of search engines and out of the sitemap.
+    <a href={u("/method/#living")}>The rule, and how to have a name removed →</a></p>
+  </section>
+
+  {kin > 0 && (
+    <section class="blk">
+      <h2>Family</h2>
+      <PersonTree person={{ ...p, living: true }} parents={rel.parents || []}
+                  spouses={rel.spouses || []} children={rel.children || []}
+                  siblings={rel.siblings || []} />
+    </section>
+  )}
+
+  <section class="blk">
+    <p class="dek"><a href={u(`/who/${slugify(p.name)}/`)}>Everyone in this archive called
+    {" "}{p.name} →</a></p>
+  </section>
+</Base>

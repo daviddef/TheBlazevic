@@ -4,14 +4,32 @@
 The living-person rule is applied here, once, at the boundary between the
 research data and the published build. Anything that reaches site/src/data is
 publishable; anything filtered out here never enters the build at all.
+
+THE RULE, SINCE 16 OCTOBER 2026 (David, standard v2): who is living, and who is
+held out, is decided by the KIT's living_rule.py through tools/livingset.py, not
+here. Living is 80 or younger by year with no death or burial recorded; a public
+source means not living; no birth year means not living. A living person is
+NAMED, with their relationships and their full town and country, and nothing
+more: they get a row in living.json carrying ONLY slug, name, town, country and
+relations, and a page. Nothing else about a living person (no date, event,
+record, source, note, occupation, burial, cause) ever reaches a file under
+site/src/data. The only people published nowhere are those held out: an
+undated person with a living parent, who might be a child.
+
+EVERY PERSON THE ARCHIVE NAMES HAS A PAGE. A person who is named in a relation
+list of somebody published (or tagged on a published photograph) is published
+too, living or dead. That does not cascade: the page of a person who is only
+there because somebody named them lists only relatives who already have pages.
 """
 import json, os, re, collections, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gedcom import load, display, born, died, year, ev, classify_living
+import livingset
 from ancestry import ancestors, gen_of, fold, kindred, parents_closure, SURNAMES, ROOT_PERSON
 
 LIVING = {}
-def is_living(p): return LIVING.get(p["id"], True)
+HELD = set()      # held out: undated with a living parent. See livingset.py.
+def is_living(p): return LIVING.get(p["id"], False)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "site", "src", "data")
@@ -89,20 +107,19 @@ SLUGS = {}
 
 
 def rel(pid, people):
-    """A relative, named only if this build publishes them.
+    """A relative, as the relation lists carry them. None for a sorting stub and
+    for anybody held out (no name as anyone's relative).
 
-    The living-person rule is not just "omit their page": a living person must
-    not be named on anybody else's page either. So a relative who is living, or
-    who is one of the tree's sorting stubs, is returned as a withheld marker
-    rather than a name.
+    A LIVING relative is a name, a slug and the flag: no year, and NO tree id.
+    (Every tool that reads this file and then goes back to the GEDCOM does so by
+    id; consistency.py widens its scope from the ids in these lists, and a
+    living person's id would carry it to the whole of their record.)
     """
     q = people.get(pid)
-    if q is None:
+    if q is None or junk(q) or pid in HELD:
         return None
     if is_living(q):
-        return {"withheld": True}
-    if junk(q):
-        return None
+        return {"name": display(q), "slug": SLUGS.get(pid), "living": True}
     return {"name": display(q), "slug": SLUGS.get(pid), "id": q["id"],
             "born": year(born(q).get("date", "")),
             "died": year(died(q).get("date", ""))}
@@ -147,39 +164,64 @@ def impossible_marriage(p, other, f, people):
     return bool(b and d and (d - b) < 12)
 
 
-def relations(p, people, families):
-    """Parents, spouses (with the marriage), siblings and children."""
+def kin(p, people, families):
+    """The ids around a person, by relation, and the marriage a spouse came with.
+    The walk that relations() draws and that the build uses to decide whom the
+    archive names."""
     out = {"parents": [], "spouses": [], "siblings": [], "children": []}
     for fid in p["famc"]:
         f = families.get(fid)
         if not f:
             continue
         for k in ("husb", "wife"):
-            r = rel(f[k], people) if f[k] else None
-            if r:
-                out["parents"].append(r)
+            if f[k]:
+                out["parents"].append((f[k], None))
         for c in f["chil"]:
-            if c == p["id"]:
-                continue
-            r = rel(c, people)
-            if r:
-                out["siblings"].append(r)
+            if c != p["id"]:
+                out["siblings"].append((c, None))
     for fid in p["fams"]:
         f = families.get(fid)
         if not f:
             continue
         other = f["wife"] if f["husb"] == p["id"] else f["husb"]
         m = next((e for e in f["events"] if e["kind"] == "marriage"), {})
-        r = rel(other, people) if other else None
-        if r and impossible_marriage(p, other, f, people):
-            r = None
-        if r:
-            r = dict(r, marriedDate=m.get("date", ""), marriedPlace=m.get("place", ""))
-            out["spouses"].append(r)
+        if other and not (not is_living(p) and impossible_marriage(p, other, f, people)):
+            out["spouses"].append((other, m))
         for c in f["chil"]:
-            r = rel(c, people)
-            if r:
-                out["children"].append(r)
+            out["children"].append((c, None))
+    return out
+
+
+def named_ids(p, people, families):
+    """Everybody this person's relation lists would name."""
+    out = set()
+    for grp in kin(p, people, families).values():
+        for pid, _ in grp:
+            q = people.get(pid)
+            if q is not None and not junk(q) and pid not in HELD:
+                out.add(pid)
+    return out
+
+
+def relations(p, people, families, allowed=None):
+    """Parents, spouses (with the marriage), siblings and children.
+
+    allowed: when given, only relatives who already have pages are listed. The
+    page of somebody who is published only because another page names them uses
+    this, so that naming a person does not name their whole family in turn."""
+    out = {"parents": [], "spouses": [], "siblings": [], "children": []}
+    for gname, grp in kin(p, people, families).items():
+        for pid, m in grp:
+            if allowed is not None and pid not in allowed:
+                continue
+            r = rel(pid, people)
+            if not r:
+                continue
+            if gname == "spouses" and not r.get("living") and not is_living(p):
+                # a marriage date is a date of a living person's life when either
+                # partner is living, so it is only written for two dead people
+                r = dict(r, marriedDate=m.get("date", ""), marriedPlace=m.get("place", ""))
+            out[gname].append(r)
     return out
 
 
@@ -211,6 +253,79 @@ def person(p, ahn=None):
     if ahn:
         out["ahn"], out["gen"] = ahn, gen_of(ahn)
     return out
+
+
+# ---- the living: name, relationship, town and country ----------------------
+#
+# A living person's place is their BIRTH place, reduced to a town and a country
+# and nothing between. The tree writes "House 12, Town, County, Region, Country"
+# and sometimes a hospital or a street; the county, the region and anything that
+# looks like an address are dropped here, in the generator, so that no finer
+# place than a town ever reaches a committed file. Residence, census and every
+# other place of a living person are never read.
+COUNTRIES = {
+    "croatia", "serbia", "bosnia and herzegovina", "slovenia", "montenegro",
+    "north macedonia", "macedonia", "kosovo", "austria", "germany", "italy",
+    "hungary", "switzerland", "france", "netherlands", "belgium", "luxembourg",
+    "united kingdom", "england", "scotland", "wales", "ireland", "sweden",
+    "norway", "denmark", "finland", "poland", "czech republic", "slovakia",
+    "romania", "bulgaria", "greece", "turkey", "russia", "ukraine", "israel",
+    "spain", "portugal", "south africa", "zimbabwe", "zambia", "namibia",
+    "botswana", "mozambique", "kenya", "australia", "new zealand", "canada",
+    "united states", "argentina", "chile", "brazil", "uruguay", "venezuela",
+    "yugoslavia", "austria-hungary", "czechoslovakia", "rhodesia",
+    "soviet union", "ussr",
+}
+COUNTRY_ALIAS = {
+    "hrvatska": "Croatia", "republic of croatia": "Croatia", "srbija": "Serbia",
+    "slovenija": "Slovenia", "osterreich": "Austria", "deutschland": "Germany",
+    "italia": "Italy", "usa": "United States", "u.s.a.": "United States",
+    "united states of america": "United States", "us": "United States",
+    "uk": "United Kingdom", "great britain": "United Kingdom",
+    "republic of south africa": "South Africa", "bosna i hercegovina": "Bosnia and Herzegovina",
+    "magyarorszag": "Hungary", "crna gora": "Montenegro",
+}
+COUNTRY_SPECIAL = {"austria-hungary": "Austria-Hungary", "ussr": "USSR"}
+ADDRESSY = re.compile(
+    r"\d|\b(street|st\.?|road|rd\.?|avenue|ave\.?|drive|lane|place|court|"
+    r"hospital|clinic|infirmary|maternity|nursing|home|hotel|farm|"
+    r"ulica|ul\.|cesta|trg|bolnica|klinika|porodili[sš]te|"
+    r"strasse|stra\u00dfe|platz|spital|krankenhaus)\b", re.I)
+
+
+def town_country(place):
+    """(town, country) out of a tree place string; either may be empty."""
+    parts = [x.strip() for x in re.split(r"\s*,\s*", place or "") if x.strip()]
+    if not parts:
+        return "", ""
+    country = ""
+    last = parts[-1]
+    k = _key(last)
+    if COUNTRY_ALIAS.get(k) or k in COUNTRIES:
+        country = COUNTRY_ALIAS.get(k) or COUNTRY_SPECIAL.get(k) or " ".join(
+            w if w == "and" else w.capitalize() for w in last.lower().split())
+        parts = parts[:-1]
+    town = ""
+    for x in parts:
+        if ADDRESSY.search(x) or _key(x) in _COUNTY:
+            continue
+        town = x
+        break
+    return town, country
+
+
+def living_row(p, people, families, allowed=None):
+    """The ONLY thing written about a living person who has a page.
+
+    The slug is the key everything joins on (the id of the tree record is not
+    written: nothing downstream may be able to find the rest of the record from
+    here); nothing else is kept besides the name, the town and country, and the
+    relations themselves.
+    """
+    town, country = town_country(born(p).get("place", ""))
+    return {"slug": SLUGS[p["id"]], "name": display(p),
+            "town": town, "country": country, "living": True,
+            "rel": relations(p, people, families, allowed)}
 
 
 TAG = re.compile(r"<[^>]+>")
@@ -366,42 +481,72 @@ def by_ahn_ids(people, families):
     return list(ancestors(people, families, HEDVIGA).values())
 
 
+def media_tagged_ids(people):
+    """Everybody tagged on a media item the build publishes (sources/media)."""
+    ex = {k for k, v in json.load(open(os.path.join(ROOT, "sources", "media", "classification.json"),
+                                       encoding="utf-8")).items()
+          if not k.startswith("_") and v == "excluded"}
+    out = set()
+    for name in ("manifest.psv", "local.psv"):
+        path = os.path.join(ROOT, "sources", "media", name)
+        if not os.path.exists(path):
+            continue
+        for line in open(path, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if not line or line.startswith("#") or line.count("|") < 6:
+                continue
+            f = line.split("|")
+            if f[0] in ex:
+                continue
+            for pid in f[5].split(","):
+                try:
+                    gid = "@I%d@" % (int(pid) - 4000000)
+                except ValueError:
+                    continue
+                if gid in people:
+                    out.add(gid)
+    return out
+
+
 def main():
-    global LIVING
+    global LIVING, HELD
     people, families = load()
-    LIVING = classify_living(people, families)
+    cls = livingset.classify(people, families)
+    LIVING = {pid: pid in cls["living"] for pid in people}
+    HELD = set(cls["held"])
     os.makedirs(OUT, exist_ok=True)
 
-    pub = {pid: p for pid, p in people.items() if not is_living(p) and not junk(p)}
-    print(f"{len(people)} people; {sum(LIVING.values())} judged living; {len(pub)} publishable")
+    # everybody who is not held out and is a person and not a sorting stub
+    avail = {pid: p for pid, p in people.items() if pid not in HELD and not junk(p)}
+    print(f"{len(people)} people; {len(cls['living'])} living, {len(HELD)} held out, "
+          f"{len(avail) - sum(1 for i in avail if LIVING[i])} not living and available")
 
     # Slugs must exist for everybody the build will emit *before* relationships
     # are written, or a parent link points at a page that has no slug yet.
     keys_all = {k for ks in SURNAMES.values() for k in ks}
-    # BLOOD IS PUBLISHED, NOT ONLY THE NAME. Until 21 September 2026 the test was
-    # «is the surname one of the eight», which is how a family is FILED and not
-    # what a family IS. Hedviga's aunt married a Kosina and her five children —
-    # Hedviga's first cousins — appeared nowhere, because a daughter's children
-    # take their father's name. Across the tree that hid 258 blood relatives,
-    # 234 of them publishable. See ancestry.kindred().
+    # BLOOD IS PUBLISHED, NOT ONLY THE NAME (see ancestry.kindred()), and a person
+    # this archive has opened a page for gets a page (sources/documented.psv).
     BLOOD = kindred(people, families, HEDVIGA)
-    # AND A PERSON THIS ARCHIVE HAS OPENED A PAGE FOR GETS A PAGE. Blood is the
-    # rule and sources/documented.psv is the exception it needed: Pavao Kosina
-    # stood unlinked beside his own linked daughter because he married in, with
-    # three documents read for him against her one. See the file's own header
-    # for why this is a list and not a query.
     DOCUMENTED = documented_ids()
-    emitted = set(by_ahn_ids(people, families)) | DOCUMENTED | {
-        pid for pid, p in pub.items()
+    base = set(by_ahn_ids(people, families)) | DOCUMENTED | {
+        pid for pid, p in avail.items()
         if fold(p["surname"]) in keys_all or pid in BLOOD}
-    # AND THEN THE PARENTS OF ALL OF THEM, TO THE ROOT. A page that says
-    # «child of X» must be able to link X. One pass moves the fault one
-    # generation out; the closure is the only form of the rule that is true of
-    # every page. See ancestry.parents_closure().
-    emitted = {pid for pid in parents_closure(people, families, emitted) if pid in pub}
+    # AND THEN THE PARENTS OF ALL OF THEM, TO THE ROOT, so that a page that says
+    # "child of X" can link X (see ancestry.parents_closure()).
+    base = {pid for pid in parents_closure(people, families, base) if pid in avail}
+    # EVERY PERSON THE ARCHIVE NAMES HAS A PAGE (David, 16 October 2026). A relative
+    # named on a published page, and anybody tagged on a published photograph, is
+    # published too. This is one step and does not cascade: see relations(allowed=).
+    named = set()
+    for pid in base:
+        named |= named_ids(people[pid], people, families)
+    named |= {i for i in media_tagged_ids(people) if i in avail}
+    emitted = base | (named & set(avail))
+    only_named = emitted - base
     for pid in sorted(emitted):
-        if pid in pub:
-            SLUGS[pid] = slug(pub[pid])
+        SLUGS[pid] = slug(people[pid])
+    print(f"  published: {len(base)} by the old doors, {len(only_named)} more because the archive names them "
+          f"({sum(1 for i in only_named if LIVING[i])} living, {sum(1 for i in only_named if not LIVING[i])} not)")
 
     # ---- the direct line and every ancestor -------------------------------
     by_ahn = ancestors(people, families, HEDVIGA)
@@ -411,7 +556,7 @@ def main():
         if is_living(p) or junk(p):
             continue
         r = person(p, ahn)
-        r["rel"] = relations(p, people, families)
+        r["rel"] = relations(p, people, families, None if pid in base else emitted)
         anc.append(r)
     dump("ancestors.json", anc)
 
@@ -429,11 +574,12 @@ def main():
     # door were added (documented.psv, then the parents closure). Now it asks
     # the set that was already computed.
     reg = []
-    for pid, p in pub.items():
-        if pid not in emitted:
+    for pid in sorted(emitted):
+        p = people[pid]
+        if LIVING[pid]:
             continue
         r = person(p)
-        r["rel"] = relations(p, people, families)
+        r["rel"] = relations(p, people, families, None if pid in base else emitted)
         reg.append(r)
     reg.sort(key=lambda r: (r["surname"], r["byear"] or 9999, r["name"]))
     dump("people.json", reg)
@@ -458,6 +604,67 @@ def main():
             if r[k]:
                 pc[canonical_place(r[k])] += 1
     dump("places.json", [{"place": k, "n": v} for k, v in pc.most_common(60)])
+
+    # ---- the living: a name, relationships, a town and a country -----------
+    liv = [living_row(people[pid], people, families, None if pid in base else emitted)
+           for pid in sorted((i for i in emitted if LIVING[i]),
+                             key=lambda i: (display(people[i]).lower(), i))]
+    dump("living.json", liv)
+    write_living_rule(cls, people, emitted, base)
+    print(f"  living: {len(liv)} with a page, {sum(1 for r in liv if r['town'])} with a town, "
+          f"{sum(1 for r in liv if r['country'] and not r['town'])} country only, "
+          f"{sum(1 for r in liv if not r['town'] and not r['country'])} no place")
+
+
+def write_living_rule(cls, people, emitted, base):
+    """sources/living-rule.json: the rule in force, and counts. BY RULE AND NEVER
+    BY PERSON: not an id, a name, a place or a date."""
+    import living_rule as lr
+    ty = cls["today_year"]
+    doc = {
+        "_why": ["How this archive decides who is living and who is held out, as David ruled on "
+                 "16 October 2026 (standard v2). The test itself is the kit's: "
+                 "kit/tools/living_rule.py, through tools/livingset.py. Written by "
+                 "tools/build_site_data.py on every full run. It records the RULE AND COUNTS; it "
+                 "never records a person: no id, no name, no place, no date.",
+                 "tools/livingcheck.py recomputes who is living from the tree with the kit's rule, "
+                 "independently of the generator, and refuses the build when this file disagrees."],
+        "ruled": "2026-10-16",
+        "kitRule": {"livingYears": lr.LIVING_YEARS, "ageByYear": True, "yearOfReckoning": ty},
+        "rules": [
+            {"id": "living", "rule": "Born 80 years ago or less by year (this year minus the birth "
+                                     "year), with no death or burial recorded, and no citation from a "
+                                     "public record source."},
+            {"id": "recorded-dead", "rule": "A death or burial event in the tree, dated or not, or a "
+                                            "death read in sources/documented.psv, or a grave photograph "
+                                            "tagged with them, or a surveyed stone with their name, birth "
+                                            "year and a death year, means dead."},
+            {"id": "no-birth-year", "rule": "Nobody with no birth year is living: it cannot be shown "
+                                             "that they are 80 or younger."},
+            {"id": "held-out", "rule": "An undated person (no birth year) with a living parent, not "
+                                        "recorded dead and with no public source, is held out: no page, "
+                                        "no name as anyone's relative."},
+            {"id": "children", "rule": "A child with a known birth year under 18 is NOT held out. They "
+                                        "follow the standard: name, relationships, town and country, a "
+                                        "page, no dates, noindex."},
+            {"id": "named-have-pages", "rule": "Every person the archive names (a relative on a "
+                                                "published page, or tagged on a published photograph) "
+                                                "has a person page. Not recursive."},
+        ],
+        "counts": {
+            "peopleInTree": len(people),
+            "living": len(cls["living"]),
+            "heldOut": len(cls["held"]),
+            "livingWithPage": sum(1 for i in emitted if i in cls["living"]),
+            "deadWithPage": sum(1 for i in emitted if i not in cls["living"]),
+            "publishedOnlyBecauseNamed": len(emitted) - len(base),
+            "deadOnOtherRecord": len(cls["extra_dead"]),
+        },
+    }
+    path = os.path.join(ROOT, "sources", "living-rule.json")
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
 
 
 def dump(name, obj):

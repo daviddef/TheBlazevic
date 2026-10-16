@@ -1,0 +1,25 @@
+# Pages whose HAND-WRITTEN text already carries a full date that the family tree attaches to a
+# person this archive judges living (tools/gedcom.py classify_living), found on 16 October 2026
+# the first time tools/livingcheck.py looked with the GEDCOM beside it. Before that day the only
+# date gate (the kit's checkliving.py) read flags in committed data, and the data held none.
+#
+# THIS FILE NAMES THE PAGE AND HOW MANY. It never records the date or the person: a list of living
+# people's dates is exactly what must not be committed. A page listed here may carry up to that
+# many; one more fails the build (tools/livingcheck.py, rule GED-DATE).
+#
+# These are research prose (marriage certificates, corrections, a tree error the archive reports)
+# and were NOT rewritten when the living standard was adopted. Each is somebody's decision to make:
+# either the person is in fact dead and the tree lacks the death, or the date should come off the
+# page. Removing a row here is the goal; adding one needs a reason.
+#
+# page|count|why
+arolsen|1|the card for a man the tree gives no death; his marriage date is printed with the card
+certificate|1|a marriage certificate transcribed in full, naming a man the tree gives no death
+sources|1|the same marriage date, quoted in the account of the certificate
+people/marica-milkovic|1|a correction quotes a tree entry's birth date to show the tree is wrong
+people/domianus-perpic|1|a correction quotes a tree entry's birth date to show the tree is wrong
+people/maria-sojath|1|the same correction as on the husband's page
+impossible|1|a contradiction listed with the tree entry's own date
+corrections|3|the corrections quote the tree entries' dates side by side with the registers
+site/src/data/corrections.json|1|the corrections file quotes a tree entry's birth date to show the tree is wrong (hand-kept; it is the text of /corrections/)
+site/src/data/sources.json|1|the account of the certificate, quoting its marriage date (hand-kept; it is the text of /sources/)

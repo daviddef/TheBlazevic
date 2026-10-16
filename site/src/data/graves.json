@@ -1465,8 +1465,8 @@
    }
   ],
   "n": 230,
-  "matched": 24,
-  "unmatched": 206,
+  "matched": 25,
+  "unmatched": 205,
   "contested": [
    {
     "person": "Kate Špalj Spalj",
@@ -2059,6 +2059,54 @@
     "unknown": 1
    },
    {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "full dates 17 VII 1927 - 10 XII 1976",
+    "photos": [
+     "IMG_8087"
+    ],
+    "people": [
+     {
+      "surname": "Boras",
+      "given": "Budimir",
+      "born": "1927",
+      "died": "1976",
+      "stone": "full dates 17 VII 1927 - 10 XII 1976",
+      "conf": "r",
+      "photos": [
+       "IMG_8087"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "budimir-boras-2",
+      "archiveName": "Budimir Boras",
+      "archiveBorn": "17 JUL 1927",
+      "archiveDied": "1976"
+     },
+     {
+      "surname": "Boras",
+      "given": "Sonja",
+      "born": "1933",
+      "died": "2022",
+      "stone": "same stone, «BORAS SONJA R. ŽIC», full dates 26 XII 1933 - 9 II 2022",
+      "conf": "r",
+      "photos": [
+       "IMG_8087"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 73,
+      "slug": "sonja-zic",
+      "archiveName": "Sonja Zic",
+      "archiveBorn": "",
+      "archiveDied": "9 FEB 2022",
+      "viaMarriedName": true
+     }
+    ],
+    "known": 2,
+    "unknown": 0
+   },
+   {
     "cemetery": "Otočac municipal cemetery",
     "stone": "family tomb, arch carved ZUBRINIC, wrought-iron cross, four plates, ivy-covered",
     "photos": [
@@ -2124,6 +2172,77 @@
       "cemetery": "Otočac municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
       "group": 1
+     }
+    ],
+    "known": 1,
+    "unknown": 3
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "ŠOJAT, four names",
+    "photos": [
+     "IMG_8153"
+    ],
+    "people": [
+     {
+      "surname": "Šojat",
+      "given": "Nikola",
+      "born": "1878",
+      "died": "1965",
+      "stone": "ŠOJAT, four names",
+      "conf": "p",
+      "photos": [
+       "IMG_8153"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 95,
+      "slug": "nikola-sojat",
+      "archiveName": "Nikola Šojat",
+      "archiveBorn": "1878",
+      "archiveDied": ""
+     },
+     {
+      "surname": "Šojat",
+      "given": "Milan",
+      "born": "1907",
+      "died": "1983",
+      "stone": "same stone as Nikola 1878",
+      "conf": "p",
+      "photos": [
+       "IMG_8153"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 95
+     },
+     {
+      "surname": "Šojat",
+      "given": "Nikola",
+      "born": "1939",
+      "died": "",
+      "stone": "same stone; death year cut as «20»",
+      "conf": "p",
+      "photos": [
+       "IMG_8153"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 95
+     },
+     {
+      "surname": "Šojat",
+      "given": "Ana",
+      "born": "1941",
+      "died": "",
+      "stone": "same stone; death year cut as «20»",
+      "conf": "p",
+      "photos": [
+       "IMG_8153"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 95
      }
     ],
     "known": 1,
@@ -2441,49 +2560,6 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
       "group": 71
-     }
-    ],
-    "known": 1,
-    "unknown": 1
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "full dates 17 VII 1927 - 10 XII 1976",
-    "photos": [
-     "IMG_8087"
-    ],
-    "people": [
-     {
-      "surname": "Boras",
-      "given": "Budimir",
-      "born": "1927",
-      "died": "1976",
-      "stone": "full dates 17 VII 1927 - 10 XII 1976",
-      "conf": "r",
-      "photos": [
-       "IMG_8087"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73,
-      "slug": "budimir-boras-2",
-      "archiveName": "Budimir Boras",
-      "archiveBorn": "17 JUL 1927",
-      "archiveDied": "1976"
-     },
-     {
-      "surname": "Boras",
-      "given": "Sonja",
-      "born": "1933",
-      "died": "2022",
-      "stone": "same stone, «BORAS SONJA R. ŽIC», full dates 26 XII 1933 - 9 II 2022",
-      "conf": "r",
-      "photos": [
-       "IMG_8087"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 73
      }
     ],
     "known": 1,
@@ -3129,77 +3205,6 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
       "group": 85
-     }
-    ],
-    "known": 0,
-    "unknown": 4
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "ŠOJAT, four names",
-    "photos": [
-     "IMG_8153"
-    ],
-    "people": [
-     {
-      "surname": "Šojat",
-      "given": "Nikola",
-      "born": "1878",
-      "died": "1965",
-      "stone": "ŠOJAT, four names",
-      "conf": "p",
-      "photos": [
-       "IMG_8153"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95,
-      "slug": null,
-      "archiveName": "Nikola Šojat",
-      "archiveBorn": "",
-      "archiveDied": ""
-     },
-     {
-      "surname": "Šojat",
-      "given": "Milan",
-      "born": "1907",
-      "died": "1983",
-      "stone": "same stone as Nikola 1878",
-      "conf": "p",
-      "photos": [
-       "IMG_8153"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
-     },
-     {
-      "surname": "Šojat",
-      "given": "Nikola",
-      "born": "1939",
-      "died": "",
-      "stone": "same stone; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8153"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
-     },
-     {
-      "surname": "Šojat",
-      "given": "Ana",
-      "born": "1941",
-      "died": "",
-      "stone": "same stone; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8153"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
      }
     ],
     "known": 0,
@@ -7383,7 +7388,12 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 73
+    "group": 73,
+    "slug": "sonja-zic",
+    "archiveName": "Sonja Zic",
+    "archiveBorn": "",
+    "archiveDied": "9 FEB 2022",
+    "viaMarriedName": true
    },
    {
     "surname": "Boras",
@@ -8146,9 +8156,9 @@
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
     "group": 95,
-    "slug": null,
+    "slug": "nikola-sojat",
     "archiveName": "Nikola Šojat",
-    "archiveBorn": "",
+    "archiveBorn": "1878",
     "archiveDied": ""
    },
    {
@@ -8575,10 +8585,10 @@
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
     "group": 107,
-    "slug": null,
+    "slug": "ivan-anton-defranceski",
     "archiveName": "Ivan Anton Defranceski",
-    "archiveBorn": "",
-    "archiveDied": ""
+    "archiveBorn": "25 JUN 1925",
+    "archiveDied": "30 OCT 1995"
    },
    {
     "surname": "Žubrinić",

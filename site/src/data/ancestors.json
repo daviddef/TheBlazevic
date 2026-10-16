@@ -69,7 +69,7 @@
    "spouses": [
     {
      "name": "Ivan Anton Defranceski",
-     "slug": null,
+     "slug": "ivan-anton-defranceski",
      "id": "@I16@",
      "born": 1925,
      "died": 1995,
@@ -77,13 +77,17 @@
      "marriedPlace": ""
     },
     {
-     "withheld": true,
+     "name": "Ladislav Carr",
+     "slug": "ladislav-carr",
+     "id": "@I61@",
+     "born": null,
+     "died": null,
      "marriedDate": "",
      "marriedPlace": ""
     },
     {
      "name": "Santou (Shemtov) Isaac Codron",
-     "slug": null,
+     "slug": "santou-shemtov-isaac-codron",
      "id": "@I62@",
      "born": 1913,
      "died": 1997,
@@ -137,13 +141,21 @@
    ],
    "children": [
     {
-     "withheld": true
+     "name": "Ladislava \"Ada\" Defranceski",
+     "slug": "ladislava-defranceski",
+     "living": true
     },
     {
-     "withheld": true
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski-2",
+     "living": true
     },
     {
-     "withheld": true
+     "name": "Robert \"Robbie\" Defranceski",
+     "slug": "robert-defranceski",
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     }
    ]
   }

@@ -145,10 +145,14 @@ def load(path=GED):
                 alts.append(extra.value.replace("/", "").strip())
 
             srcs = []
+            cites = []          # every string a citation carries, for the living rule only
             for s in r.all("SOUR"):
                 v = s.value.strip()
                 if v.startswith("@"):
                     d = sources_by_id.get(v, {})
+                    cites.append(" | ".join(x for x in (
+                        d.get("title"), d.get("abbr"), d.get("publication"),
+                        (d.get("text") or "")[:300], s.val("PAGE")) if x))
                     t = d.get("title") or d.get("abbr") or ""
                     if s.val("PAGE"):
                         t = (t + " — " + s.val("PAGE")).strip(" —")
@@ -156,6 +160,7 @@ def load(path=GED):
                         srcs.append(t)
                 elif v:
                     srcs.append(v)
+                    cites.append(v)
 
             people[r.xref] = {
                 "id": r.xref,
@@ -168,6 +173,7 @@ def load(path=GED):
                 "events": _events(r),
                 "notes": _notes(r, notes_by_id),
                 "sources": srcs,
+                "cites": cites,
                 "famc": [k.value for k in r.all("FAMC")],   # family as child
                 "fams": [k.value for k in r.all("FAMS")],   # family as spouse
                 "uid": r.val("_UID"),

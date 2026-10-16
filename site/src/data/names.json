@@ -37,49 +37,74 @@
    "note": "The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it."
   }
  ],
- "totalForms": 345,
- "attested": 176,
- "aids": 169,
+ "totalForms": 362,
+ "attested": 207,
+ "aids": 155,
  "rows": [
+  {
+   "canon": "aeltgen",
+   "label": "Aeltgen",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 2,
+   "forms": 1,
+   "attested": 1,
+   "people": 2,
+   "tokens": 2,
+   "commonest": "aeltgen",
+   "langs": {
+    "german": [
+     {
+      "form": "Aeltgen",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
   {
    "canon": "ana",
    "label": "Ana",
    "sex": "f",
-   "sexDisputed": false,
-   "men": 0,
-   "women": 97,
+   "sexDisputed": true,
+   "men": 1,
+   "women": 213,
    "forms": 12,
    "attested": 7,
-   "people": 97,
-   "tokens": 91,
-   "commonest": "ana",
+   "people": 214,
+   "tokens": 185,
+   "commonest": "anna",
    "langs": {
     "croatian": [
      {
       "form": "Ana",
       "note": "",
-      "seen": 38,
+      "seen": 44,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Ane",
       "note": "",
-      "seen": 11,
+      "seen": 12,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Anica",
       "note": "diminutive",
-      "seen": 3,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Anka",
       "note": "diminutive",
-      "seen": 4,
+      "seen": 6,
       "notNominative": "",
       "case": ""
      },
@@ -109,7 +134,7 @@
      {
       "form": "Anna",
       "note": "",
-      "seen": 33,
+      "seen": 117,
       "notNominative": "",
       "case": ""
      },
@@ -161,27 +186,27 @@
    "canon": "andrija",
    "label": "Andrija",
    "sex": "m",
-   "sexDisputed": false,
-   "men": 12,
-   "women": 0,
+   "sexDisputed": true,
+   "men": 19,
+   "women": 1,
    "forms": 7,
-   "attested": 3,
-   "people": 12,
-   "tokens": 12,
+   "attested": 4,
+   "people": 20,
+   "tokens": 20,
    "commonest": "andreas",
    "langs": {
     "croatian": [
      {
       "form": "Andre",
       "note": "",
-      "seen": 4,
+      "seen": 5,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Andrija",
       "note": "",
-      "seen": 1,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      }
@@ -190,7 +215,7 @@
      {
       "form": "Andrea",
       "note": "a man's name in Italian",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -199,7 +224,7 @@
      {
       "form": "Andreas",
       "note": "",
-      "seen": 7,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      },
@@ -237,12 +262,12 @@
    "label": "Ante",
    "sex": "m",
    "sexDisputed": true,
-   "men": 58,
+   "men": 76,
    "women": 3,
    "forms": 11,
-   "attested": 6,
-   "people": 61,
-   "tokens": 60,
+   "attested": 7,
+   "people": 79,
+   "tokens": 75,
    "commonest": "antonius",
    "langs": {
     "croatian": [
@@ -256,7 +281,7 @@
      {
       "form": "Anton",
       "note": "",
-      "seen": 22,
+      "seen": 28,
       "notNominative": "",
       "case": ""
      },
@@ -286,7 +311,7 @@
      {
       "form": "Antonio",
       "note": "",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -295,7 +320,7 @@
      {
       "form": "Antonius",
       "note": "",
-      "seen": 32,
+      "seen": 40,
       "notNominative": "",
       "case": ""
      },
@@ -320,7 +345,7 @@
      {
       "form": "Anton",
       "note": "",
-      "seen": 22,
+      "seen": 28,
       "notNominative": "",
       "case": ""
      }
@@ -335,26 +360,34 @@
      }
     ]
    },
-   "oblique": []
+   "oblique": [
+    {
+     "name": "Antonio Falco",
+     "slug": "antonio-falco",
+     "recorded": "Antonio",
+     "case": "ablative",
+     "ahn": null
+    }
+   ]
   },
   {
    "canon": "antonija",
    "label": "Antonija",
    "sex": "f",
-   "sexDisputed": false,
-   "men": 0,
-   "women": 34,
+   "sexDisputed": true,
+   "men": 1,
+   "women": 37,
    "forms": 9,
    "attested": 6,
-   "people": 34,
-   "tokens": 32,
+   "people": 38,
+   "tokens": 36,
    "commonest": "antonia",
    "langs": {
     "croatian": [
      {
       "form": "Antonija",
       "note": "",
-      "seen": 14,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      },
@@ -368,7 +401,7 @@
      {
       "form": "Tonka",
       "note": "diminutive",
-      "seen": 2,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      },
@@ -391,7 +424,7 @@
      {
       "form": "Antonia",
       "note": "",
-      "seen": 14,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      },
@@ -407,7 +440,7 @@
      {
       "form": "Antonia",
       "note": "",
-      "seen": 14,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      }
@@ -416,7 +449,57 @@
      {
       "form": "Antónia",
       "note": "",
-      "seen": 14,
+      "seen": 15,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "argentina",
+   "label": "Argentina",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 1,
+   "women": 0,
+   "forms": 1,
+   "attested": 1,
+   "people": 1,
+   "tokens": 2,
+   "commonest": "argentina",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Argentina",
+      "note": "written as a given name in the tree",
+      "seen": 2,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "barend",
+   "label": "Barend",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 4,
+   "women": 0,
+   "forms": 1,
+   "attested": 1,
+   "people": 4,
+   "tokens": 4,
+   "commonest": "barend",
+   "langs": {
+    "german": [
+     {
+      "form": "Barend",
+      "note": "",
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
@@ -429,26 +512,26 @@
    "label": "Blaz",
    "sex": "",
    "sexDisputed": false,
-   "men": 4,
+   "men": 6,
    "women": 0,
    "forms": 6,
    "attested": 2,
-   "people": 4,
-   "tokens": 3,
+   "people": 6,
+   "tokens": 4,
    "commonest": "blaz",
    "langs": {
     "croatian": [
      {
       "form": "Blaž",
       "note": "",
-      "seen": 3,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Blaz",
       "note": "without the diacritic, as an index will hold it",
-      "seen": 3,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
@@ -493,6 +576,38 @@
    "oblique": []
   },
   {
+   "canon": "blazenka",
+   "label": "Blazenka",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 3,
+   "forms": 2,
+   "attested": 2,
+   "people": 3,
+   "tokens": 3,
+   "commonest": "blazenka",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Blazenka",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "Blazenka?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "bozica",
    "label": "Bozica",
    "sex": "",
@@ -525,23 +640,80 @@
    "oblique": []
   },
   {
+   "canon": "branko",
+   "label": "Branko",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 2,
+   "women": 0,
+   "forms": 1,
+   "attested": 1,
+   "people": 2,
+   "tokens": 2,
+   "commonest": "branko",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Branko",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
+   "canon": "david",
+   "label": "David",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 11,
+   "women": 0,
+   "forms": 2,
+   "attested": 2,
+   "people": 11,
+   "tokens": 11,
+   "commonest": "david",
+   "langs": {
+    "english": [
+     {
+      "form": "David",
+      "note": "",
+      "seen": 10,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "David?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "elizabeta",
    "label": "Elizabeta",
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 19,
+   "women": 90,
    "forms": 9,
    "attested": 3,
-   "people": 19,
-   "tokens": 15,
+   "people": 90,
+   "tokens": 27,
    "commonest": "helena",
    "langs": {
     "croatian": [
      {
       "form": "Jelena",
       "note": "",
-      "seen": 4,
+      "seen": 12,
       "notNominative": "",
       "case": ""
      },
@@ -571,7 +743,7 @@
      {
       "form": "Helena",
       "note": "",
-      "seen": 10,
+      "seen": 14,
       "notNominative": "",
       "case": ""
      },
@@ -625,25 +797,25 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 35,
+   "women": 50,
    "forms": 8,
    "attested": 5,
-   "people": 35,
-   "tokens": 35,
+   "people": 50,
+   "tokens": 42,
    "commonest": "francisca",
    "langs": {
     "croatian": [
      {
       "form": "Francika",
       "note": "",
-      "seen": 5,
+      "seen": 8,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Franciska",
       "note": "",
-      "seen": 5,
+      "seen": 6,
       "notNominative": "",
       "case": ""
      },
@@ -666,7 +838,7 @@
      {
       "form": "Francisca",
       "note": "",
-      "seen": 24,
+      "seen": 27,
       "notNominative": "",
       "case": ""
      },
@@ -691,7 +863,7 @@
      {
       "form": "Franciska",
       "note": "",
-      "seen": 5,
+      "seen": 6,
       "notNominative": "",
       "case": ""
      }
@@ -704,12 +876,12 @@
    "label": "Franjo",
    "sex": "m",
    "sexDisputed": true,
-   "men": 52,
-   "women": 4,
+   "men": 60,
+   "women": 5,
    "forms": 10,
    "attested": 4,
-   "people": 56,
-   "tokens": 55,
+   "people": 65,
+   "tokens": 64,
    "commonest": "franjo",
    "langs": {
     "croatian": [
@@ -723,7 +895,7 @@
      {
       "form": "Franjo",
       "note": "",
-      "seen": 27,
+      "seen": 29,
       "notNominative": "",
       "case": ""
      },
@@ -755,7 +927,7 @@
      {
       "form": "Franciscus",
       "note": "",
-      "seen": 20,
+      "seen": 27,
       "notNominative": "",
       "case": ""
      },
@@ -824,12 +996,12 @@
    "label": "Grgur",
    "sex": "m",
    "sexDisputed": false,
-   "men": 13,
+   "men": 21,
    "women": 0,
    "forms": 7,
-   "attested": 4,
-   "people": 13,
-   "tokens": 11,
+   "attested": 5,
+   "people": 21,
+   "tokens": 14,
    "commonest": "gregorius",
    "langs": {
     "latin": [
@@ -866,7 +1038,7 @@
      {
       "form": "Grgur",
       "note": "",
-      "seen": 0,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      }
@@ -897,19 +1069,19 @@
    "label": "Ilija",
    "sex": "m",
    "sexDisputed": false,
-   "men": 12,
+   "men": 13,
    "women": 0,
    "forms": 6,
    "attested": 3,
-   "people": 12,
-   "tokens": 11,
-   "commonest": "ilija",
+   "people": 13,
+   "tokens": 12,
+   "commonest": "elias",
    "langs": {
     "latin": [
      {
       "form": "Elias",
       "note": "",
-      "seen": 5,
+      "seen": 6,
       "notNominative": "",
       "case": ""
      },
@@ -962,20 +1134,20 @@
    "canon": "ivan",
    "label": "Ivan",
    "sex": "m",
-   "sexDisputed": false,
-   "men": 129,
-   "women": 0,
-   "forms": 16,
-   "attested": 6,
-   "people": 129,
-   "tokens": 125,
-   "commonest": "ivan",
+   "sexDisputed": true,
+   "men": 240,
+   "women": 1,
+   "forms": 17,
+   "attested": 8,
+   "people": 241,
+   "tokens": 231,
+   "commonest": "john",
    "langs": {
     "italian": [
      {
       "form": "Giovanni",
       "note": "",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -984,7 +1156,7 @@
      {
       "form": "Joannes",
       "note": "",
-      "seen": 49,
+      "seen": 59,
       "notNominative": "",
       "case": ""
      },
@@ -1021,7 +1193,14 @@
      {
       "form": "Ivan",
       "note": "",
-      "seen": 59,
+      "seen": 74,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "Ivan?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
       "notNominative": "",
       "case": ""
      },
@@ -1058,7 +1237,7 @@
      {
       "form": "John",
       "note": "",
-      "seen": 3,
+      "seen": 82,
       "notNominative": "",
       "case": ""
      },
@@ -1099,6 +1278,13 @@
     ]
    },
    "oblique": [
+    {
+     "name": "Joanne",
+     "slug": "joanne",
+     "recorded": "Joanne",
+     "case": "ablative",
+     "ahn": null
+    },
     {
      "name": "Joanne Papich",
      "slug": "joanne-papich",
@@ -1205,25 +1391,25 @@
    "sex": "f",
    "sexDisputed": true,
    "men": 3,
-   "women": 31,
+   "women": 92,
    "forms": 13,
    "attested": 7,
-   "people": 34,
-   "tokens": 34,
-   "commonest": "joanna",
+   "people": 95,
+   "tokens": 80,
+   "commonest": "johanna",
    "langs": {
     "croatian": [
      {
       "form": "Ivana",
       "note": "",
-      "seen": 4,
+      "seen": 5,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Ivka",
       "note": "diminutive",
-      "seen": 13,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      },
@@ -1253,14 +1439,14 @@
      {
       "form": "Joanna",
       "note": "",
-      "seen": 14,
+      "seen": 18,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Johanna",
       "note": "",
-      "seen": 1,
+      "seen": 40,
       "notNominative": "",
       "case": ""
      },
@@ -1301,7 +1487,7 @@
      {
       "form": "Johanna",
       "note": "",
-      "seen": 1,
+      "seen": 40,
       "notNominative": "",
       "case": ""
      }
@@ -1310,7 +1496,7 @@
      {
       "form": "Johanna",
       "note": "",
-      "seen": 1,
+      "seen": 40,
       "notNominative": "",
       "case": ""
      }
@@ -1323,19 +1509,19 @@
    "label": "Jakov",
    "sex": "m",
    "sexDisputed": false,
-   "men": 14,
+   "men": 73,
    "women": 0,
    "forms": 9,
    "attested": 4,
-   "people": 14,
-   "tokens": 13,
+   "people": 73,
+   "tokens": 46,
    "commonest": "jacobus",
    "langs": {
     "croatian": [
      {
       "form": "Jakov",
       "note": "",
-      "seen": 4,
+      "seen": 7,
       "notNominative": "",
       "case": ""
      },
@@ -1358,14 +1544,14 @@
      {
       "form": "Jacob",
       "note": "",
-      "seen": 1,
+      "seen": 13,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Jacobus",
       "note": "",
-      "seen": 7,
+      "seen": 25,
       "notNominative": "",
       "case": ""
      },
@@ -1428,10 +1614,10 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 1,
+   "women": 7,
    "forms": 4,
    "attested": 0,
-   "people": 1,
+   "people": 7,
    "tokens": 0,
    "commonest": "",
    "langs": {
@@ -1473,38 +1659,63 @@
    "oblique": []
   },
   {
+   "canon": "joan",
+   "label": "Joan",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 5,
+   "forms": 1,
+   "attested": 1,
+   "people": 5,
+   "tokens": 5,
+   "commonest": "joan",
+   "langs": {
+    "english": [
+     {
+      "form": "Joan",
+      "note": "",
+      "seen": 5,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "josip",
    "label": "Josip",
    "sex": "m",
    "sexDisputed": false,
-   "men": 81,
+   "men": 110,
    "women": 0,
    "forms": 13,
-   "attested": 5,
-   "people": 81,
-   "tokens": 78,
-   "commonest": "josephus",
+   "attested": 7,
+   "people": 110,
+   "tokens": 107,
+   "commonest": "josip",
    "langs": {
     "italian": [
      {
       "form": "Giuseppe",
       "note": "",
-      "seen": 0,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
     ],
     "english": [
      {
-      "form": "Joe",
-      "note": "the form of arrival",
-      "seen": 0,
+      "form": "Joseph",
+      "note": "",
+      "seen": 10,
       "notNominative": "",
       "case": ""
      },
      {
-      "form": "Joseph",
-      "note": "",
+      "form": "Joe",
+      "note": "the form of arrival",
       "seen": 0,
       "notNominative": "",
       "case": ""
@@ -1514,7 +1725,7 @@
      {
       "form": "Josephus",
       "note": "",
-      "seen": 32,
+      "seen": 39,
       "notNominative": "",
       "case": ""
      },
@@ -1537,7 +1748,7 @@
      {
       "form": "Josip",
       "note": "",
-      "seen": 32,
+      "seen": 40,
       "notNominative": "",
       "case": ""
      },
@@ -1633,18 +1844,18 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 3,
+   "women": 6,
    "forms": 7,
    "attested": 2,
-   "people": 3,
-   "tokens": 3,
-   "commonest": "josepha",
+   "people": 6,
+   "tokens": 6,
+   "commonest": "josipa",
    "langs": {
     "croatian": [
      {
       "form": "Josipa",
       "note": "",
-      "seen": 1,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      },
@@ -1709,19 +1920,19 @@
    "label": "Juraj",
    "sex": "m",
    "sexDisputed": false,
-   "men": 41,
+   "men": 75,
    "women": 0,
    "forms": 14,
    "attested": 6,
-   "people": 41,
-   "tokens": 39,
-   "commonest": "jure",
+   "people": 75,
+   "tokens": 71,
+   "commonest": "george",
    "langs": {
     "croatian": [
      {
       "form": "Juraj",
       "note": "",
-      "seen": 7,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      },
@@ -1765,7 +1976,7 @@
      {
       "form": "George",
       "note": "",
-      "seen": 1,
+      "seen": 24,
       "notNominative": "",
       "case": ""
      }
@@ -1774,7 +1985,7 @@
      {
       "form": "Georgius",
       "note": "",
-      "seen": 12,
+      "seen": 17,
       "notNominative": "",
       "case": ""
      },
@@ -1858,10 +2069,10 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 3,
+   "women": 6,
    "forms": 5,
    "attested": 0,
-   "people": 3,
+   "people": 6,
    "tokens": 0,
    "commonest": "",
    "langs": {
@@ -1917,25 +2128,25 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 85,
+   "women": 122,
    "forms": 11,
    "attested": 7,
-   "people": 85,
-   "tokens": 83,
+   "people": 122,
+   "tokens": 118,
    "commonest": "catharina",
    "langs": {
     "latin": [
      {
       "form": "Catarina",
       "note": "",
-      "seen": 1,
+      "seen": 2,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Catharina",
       "note": "",
-      "seen": 43,
+      "seen": 69,
       "notNominative": "",
       "case": ""
      },
@@ -1951,21 +2162,21 @@
      {
       "form": "Kata",
       "note": "short form",
-      "seen": 13,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Katarina",
       "note": "",
-      "seen": 8,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Katica",
       "note": "diminutive",
-      "seen": 4,
+      "seen": 6,
       "notNominative": "",
       "case": ""
      },
@@ -1981,7 +2192,7 @@
      {
       "form": "Kate",
       "note": "",
-      "seen": 13,
+      "seen": 15,
       "notNominative": "",
       "case": ""
      }
@@ -2050,16 +2261,41 @@
    "oblique": []
   },
   {
+   "canon": "ljubica",
+   "label": "Ljubica",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 3,
+   "forms": 1,
+   "attested": 1,
+   "people": 3,
+   "tokens": 3,
+   "commonest": "ljubica",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Ljubica",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "lucija",
    "label": "Lucija",
    "sex": "f",
    "sexDisputed": true,
    "men": 4,
-   "women": 54,
+   "women": 60,
    "forms": 8,
    "attested": 4,
-   "people": 58,
-   "tokens": 47,
+   "people": 64,
+   "tokens": 51,
    "commonest": "lucia",
    "langs": {
     "latin": [
@@ -2073,7 +2309,7 @@
      {
       "form": "Lucia",
       "note": "",
-      "seen": 31,
+      "seen": 33,
       "notNominative": "",
       "case": ""
      },
@@ -2096,7 +2332,7 @@
      {
       "form": "Lucija",
       "note": "",
-      "seen": 14,
+      "seen": 16,
       "notNominative": "",
       "case": ""
      },
@@ -2134,19 +2370,19 @@
    "label": "Luka",
    "sex": "m",
    "sexDisputed": true,
-   "men": 14,
-   "women": 8,
+   "men": 16,
+   "women": 9,
    "forms": 7,
    "attested": 3,
-   "people": 22,
-   "tokens": 20,
+   "people": 25,
+   "tokens": 23,
    "commonest": "lucas",
    "langs": {
     "latin": [
      {
       "form": "Lucas",
       "note": "",
-      "seen": 9,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      },
@@ -2162,14 +2398,14 @@
      {
       "form": "Luce",
       "note": "short form",
-      "seen": 8,
+      "seen": 9,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Luka",
       "note": "",
-      "seen": 3,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
@@ -2210,14 +2446,21 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 40,
-   "forms": 7,
-   "attested": 4,
-   "people": 40,
-   "tokens": 40,
+   "women": 66,
+   "forms": 8,
+   "attested": 5,
+   "people": 66,
+   "tokens": 66,
    "commonest": "magdalena",
    "langs": {
     "croatian": [
+     {
+      "form": "Magdalena?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
+      "notNominative": "",
+      "case": ""
+     },
      {
       "form": "Manda",
       "note": "short form",
@@ -2235,7 +2478,7 @@
      {
       "form": "Mande",
       "note": "short form",
-      "seen": 4,
+      "seen": 5,
       "notNominative": "",
       "case": ""
      },
@@ -2251,7 +2494,7 @@
      {
       "form": "Magdalena",
       "note": "",
-      "seen": 31,
+      "seen": 55,
       "notNominative": "",
       "case": ""
      }
@@ -2278,23 +2521,55 @@
    "oblique": []
   },
   {
+   "canon": "margaret",
+   "label": "Margaret",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 21,
+   "forms": 2,
+   "attested": 2,
+   "people": 21,
+   "tokens": 21,
+   "commonest": "margaret",
+   "langs": {
+    "english": [
+     {
+      "form": "Margaret",
+      "note": "",
+      "seen": 20,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "Margaret?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "margarita",
    "label": "Margarita",
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 39,
+   "women": 103,
    "forms": 8,
    "attested": 5,
-   "people": 39,
-   "tokens": 36,
-   "commonest": "marta",
+   "people": 103,
+   "tokens": 80,
+   "commonest": "martha",
    "langs": {
     "croatian": [
      {
       "form": "Margareta",
       "note": "",
-      "seen": 5,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      },
@@ -2310,21 +2585,21 @@
      {
       "form": "Margaretha",
       "note": "",
-      "seen": 1,
+      "seen": 19,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Margarita",
       "note": "",
-      "seen": 8,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Martha",
       "note": "a DIFFERENT name that this archive's fold treats as one",
-      "seen": 10,
+      "seen": 28,
       "notNominative": "",
       "case": ""
      }
@@ -2397,11 +2672,11 @@
    "sex": "f",
    "sexDisputed": true,
    "men": 1,
-   "women": 197,
-   "forms": 12,
-   "attested": 11,
-   "people": 198,
-   "tokens": 189,
+   "women": 342,
+   "forms": 13,
+   "attested": 13,
+   "people": 343,
+   "tokens": 334,
    "commonest": "maria",
    "langs": {
     "croatian": [
@@ -2429,14 +2704,14 @@
      {
       "form": "Marija",
       "note": "",
-      "seen": 80,
+      "seen": 94,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Mica",
       "note": "diminutive",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -2445,7 +2720,7 @@
      {
       "form": "Maria",
       "note": "",
-      "seen": 95,
+      "seen": 177,
       "notNominative": "",
       "case": ""
      },
@@ -2475,7 +2750,14 @@
      {
       "form": "Mary",
       "note": "",
-      "seen": 2,
+      "seen": 49,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "Mary?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -2484,7 +2766,7 @@
      {
       "form": "Maria",
       "note": "",
-      "seen": 95,
+      "seen": 177,
       "notNominative": "",
       "case": ""
      }
@@ -2493,7 +2775,7 @@
      {
       "form": "Mária",
       "note": "",
-      "seen": 95,
+      "seen": 177,
       "notNominative": "",
       "case": ""
      }
@@ -2549,19 +2831,19 @@
    "label": "Martin",
    "sex": "m",
    "sexDisputed": false,
-   "men": 19,
+   "men": 24,
    "women": 0,
    "forms": 5,
    "attested": 3,
-   "people": 19,
-   "tokens": 19,
-   "commonest": "martin",
+   "people": 24,
+   "tokens": 24,
+   "commonest": "martinus",
    "langs": {
     "croatian": [
      {
       "form": "Martin",
       "note": "",
-      "seen": 10,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      }
@@ -2570,7 +2852,7 @@
      {
       "form": "Martinus",
       "note": "",
-      "seen": 8,
+      "seen": 12,
       "notNominative": "",
       "case": ""
      },
@@ -2608,26 +2890,26 @@
    "label": "Matija",
    "sex": "m",
    "sexDisputed": true,
-   "men": 42,
-   "women": 18,
+   "men": 51,
+   "women": 20,
    "forms": 18,
    "attested": 11,
-   "people": 60,
-   "tokens": 58,
+   "people": 71,
+   "tokens": 68,
    "commonest": "mate",
    "langs": {
     "croatian": [
      {
       "form": "Mate",
       "note": "short form",
-      "seen": 21,
+      "seen": 27,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Matija",
       "note": "",
-      "seen": 8,
+      "seen": 9,
       "notNominative": "",
       "case": ""
      },
@@ -2657,7 +2939,7 @@
      {
       "form": "Mathias",
       "note": "",
-      "seen": 6,
+      "seen": 7,
       "notNominative": "",
       "case": ""
      },
@@ -2671,14 +2953,14 @@
      {
       "form": "Matia",
       "note": "",
-      "seen": 8,
+      "seen": 9,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Matthaeus",
       "note": "",
-      "seen": 4,
+      "seen": 5,
       "notNominative": "",
       "case": ""
      },
@@ -2777,19 +3059,19 @@
    "label": "Mihovil",
    "sex": "m",
    "sexDisputed": true,
-   "men": 51,
+   "men": 66,
    "women": 1,
    "forms": 12,
    "attested": 8,
-   "people": 52,
-   "tokens": 49,
+   "people": 67,
+   "tokens": 56,
    "commonest": "michael",
    "langs": {
     "latin": [
      {
       "form": "Michael",
       "note": "",
-      "seen": 30,
+      "seen": 33,
       "notNominative": "",
       "case": ""
      },
@@ -2812,14 +3094,14 @@
      {
       "form": "Miho",
       "note": "short form",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Mihovil",
       "note": "",
-      "seen": 13,
+      "seen": 16,
       "notNominative": "",
       "case": ""
      },
@@ -2842,7 +3124,7 @@
      {
       "form": "Michael",
       "note": "",
-      "seen": 30,
+      "seen": 33,
       "notNominative": "",
       "case": ""
      }
@@ -2869,7 +3151,7 @@
      {
       "form": "Michael",
       "note": "",
-      "seen": 30,
+      "seen": 33,
       "notNominative": "",
       "case": ""
      }
@@ -2906,12 +3188,12 @@
    "label": "Nikola",
    "sex": "m",
    "sexDisputed": true,
-   "men": 36,
+   "men": 52,
    "women": 2,
    "forms": 11,
    "attested": 6,
-   "people": 38,
-   "tokens": 36,
+   "people": 54,
+   "tokens": 48,
    "commonest": "nikola",
    "langs": {
     "croatian": [
@@ -2925,7 +3207,7 @@
      {
       "form": "Nikola",
       "note": "",
-      "seen": 15,
+      "seen": 21,
       "notNominative": "",
       "case": ""
      },
@@ -2939,7 +3221,7 @@
      {
       "form": "Nikula",
       "note": "",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      },
@@ -2955,7 +3237,7 @@
      {
       "form": "Nicolaus",
       "note": "",
-      "seen": 14,
+      "seen": 19,
       "notNominative": "",
       "case": ""
      },
@@ -3018,18 +3300,18 @@
    "sex": "",
    "sexDisputed": false,
    "men": 0,
-   "women": 2,
+   "women": 4,
    "forms": 2,
    "attested": 2,
-   "people": 2,
-   "tokens": 2,
+   "people": 4,
+   "tokens": 4,
    "commonest": "olga",
    "langs": {
     "croatian": [
      {
       "form": "Olga",
       "note": "",
-      "seen": 2,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
@@ -3038,7 +3320,7 @@
      {
       "form": "Olga",
       "note": "the same in every language that has it",
-      "seen": 2,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      }
@@ -3052,10 +3334,10 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 4,
+   "women": 5,
    "forms": 8,
    "attested": 5,
-   "people": 4,
+   "people": 5,
    "tokens": 4,
    "commonest": "paulina",
    "langs": {
@@ -3133,19 +3415,19 @@
    "label": "Pavao",
    "sex": "m",
    "sexDisputed": false,
-   "men": 26,
+   "men": 33,
    "women": 0,
    "forms": 10,
-   "attested": 6,
-   "people": 26,
-   "tokens": 24,
+   "attested": 7,
+   "people": 33,
+   "tokens": 31,
    "commonest": "paulus",
    "langs": {
     "english": [
      {
       "form": "Paul",
       "note": "",
-      "seen": 0,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      }
@@ -3154,7 +3436,7 @@
      {
       "form": "Paulus",
       "note": "",
-      "seen": 8,
+      "seen": 9,
       "notNominative": "",
       "case": ""
      },
@@ -3177,14 +3459,14 @@
      {
       "form": "Paval",
       "note": "",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Pavao",
       "note": "",
-      "seen": 6,
+      "seen": 8,
       "notNominative": "",
       "case": ""
      },
@@ -3258,19 +3540,26 @@
    "label": "Petar",
    "sex": "m",
    "sexDisputed": true,
-   "men": 22,
+   "men": 68,
    "women": 1,
-   "forms": 9,
-   "attested": 3,
-   "people": 23,
-   "tokens": 23,
+   "forms": 10,
+   "attested": 8,
+   "people": 69,
+   "tokens": 69,
    "commonest": "petrus",
    "langs": {
     "croatian": [
      {
       "form": "Petar",
       "note": "",
-      "seen": 9,
+      "seen": 17,
+      "notNominative": "",
+      "case": ""
+     },
+     {
+      "form": "Petar?",
+      "note": "written with a question mark in the tree; kept as it is",
+      "seen": 1,
       "notNominative": "",
       "case": ""
      },
@@ -3293,7 +3582,7 @@
      {
       "form": "Peter",
       "note": "",
-      "seen": 0,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      }
@@ -3302,7 +3591,7 @@
      {
       "form": "Petrus",
       "note": "",
-      "seen": 13,
+      "seen": 37,
       "notNominative": "",
       "case": ""
      },
@@ -3318,7 +3607,7 @@
      {
       "form": "Pietro",
       "note": "",
-      "seen": 0,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      }
@@ -3327,7 +3616,7 @@
      {
       "form": "Peter",
       "note": "",
-      "seen": 0,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      }
@@ -3336,7 +3625,7 @@
      {
       "form": "Péter",
       "note": "",
-      "seen": 0,
+      "seen": 10,
       "notNominative": "",
       "case": ""
      }
@@ -3350,18 +3639,18 @@
    "sex": "",
    "sexDisputed": false,
    "men": 0,
-   "women": 10,
+   "women": 11,
    "forms": 1,
    "attested": 1,
-   "people": 10,
-   "tokens": 10,
+   "people": 11,
+   "tokens": 11,
    "commonest": "ruza",
    "langs": {
     "croatian": [
      {
       "form": "Ruza",
       "note": "",
-      "seen": 10,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      }
@@ -3374,26 +3663,26 @@
    "label": "Simun",
    "sex": "",
    "sexDisputed": false,
-   "men": 5,
+   "men": 10,
    "women": 0,
    "forms": 8,
    "attested": 2,
-   "people": 5,
-   "tokens": 2,
+   "people": 10,
+   "tokens": 3,
    "commonest": "simun",
    "langs": {
     "croatian": [
      {
       "form": "Šimun",
       "note": "",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Simun",
       "note": "without the diacritic, as an index will hold it",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
       "case": ""
      }
@@ -3466,19 +3755,19 @@
    "label": "Stjepan",
    "sex": "m",
    "sexDisputed": false,
-   "men": 27,
+   "men": 36,
    "women": 0,
    "forms": 10,
    "attested": 3,
-   "people": 27,
-   "tokens": 27,
+   "people": 36,
+   "tokens": 36,
    "commonest": "stephanus",
    "langs": {
     "latin": [
      {
       "form": "Stephanus",
       "note": "",
-      "seen": 18,
+      "seen": 24,
       "notNominative": "",
       "case": ""
      },
@@ -3517,7 +3806,7 @@
      {
       "form": "Stjepan",
       "note": "",
-      "seen": 6,
+      "seen": 9,
       "notNominative": "",
       "case": ""
      },
@@ -3571,18 +3860,18 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 23,
+   "women": 26,
    "forms": 8,
-   "attested": 3,
-   "people": 23,
-   "tokens": 20,
+   "attested": 4,
+   "people": 26,
+   "tokens": 23,
    "commonest": "theresia",
    "langs": {
     "italian": [
      {
       "form": "Teresa",
       "note": "",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -3598,7 +3887,7 @@
      {
       "form": "Terezija",
       "note": "",
-      "seen": 1,
+      "seen": 2,
       "notNominative": "",
       "case": ""
      }
@@ -3607,7 +3896,7 @@
      {
       "form": "Theresia",
       "note": "",
-      "seen": 10,
+      "seen": 11,
       "notNominative": "",
       "case": ""
      },
@@ -3654,19 +3943,19 @@
    "label": "Toma",
    "sex": "m",
    "sexDisputed": false,
-   "men": 39,
+   "men": 81,
    "women": 0,
    "forms": 9,
-   "attested": 5,
-   "people": 39,
-   "tokens": 37,
+   "attested": 6,
+   "people": 81,
+   "tokens": 79,
    "commonest": "thomas",
    "langs": {
     "latin": [
      {
       "form": "Thomas",
       "note": "",
-      "seen": 24,
+      "seen": 60,
       "notNominative": "",
       "case": ""
      },
@@ -3682,7 +3971,7 @@
      {
       "form": "Toma",
       "note": "",
-      "seen": 10,
+      "seen": 14,
       "notNominative": "",
       "case": ""
      },
@@ -3696,14 +3985,14 @@
      {
       "form": "Tomislav",
       "note": "a DIFFERENT name, folded here by the tool",
-      "seen": 1,
+      "seen": 2,
       "notNominative": "",
       "case": ""
      },
      {
       "form": "Tomo",
       "note": "short form",
-      "seen": 0,
+      "seen": 1,
       "notNominative": "",
       "case": ""
      }
@@ -3712,7 +4001,7 @@
      {
       "form": "Thomas",
       "note": "",
-      "seen": 24,
+      "seen": 60,
       "notNominative": "",
       "case": ""
      }
@@ -3739,17 +4028,42 @@
    "oblique": []
   },
   {
+   "canon": "uruguay",
+   "label": "Uruguay",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 1,
+   "women": 0,
+   "forms": 1,
+   "attested": 1,
+   "people": 1,
+   "tokens": 2,
+   "commonest": "uruguay",
+   "langs": {
+    "croatian": [
+     {
+      "form": "Uruguay",
+      "note": "written as a given name in the tree",
+      "seen": 2,
+      "notNominative": "",
+      "case": ""
+     }
+    ]
+   },
+   "oblique": []
+  },
+  {
    "canon": "vinko",
    "label": "Vinko",
    "sex": "m",
    "sexDisputed": false,
-   "men": 13,
+   "men": 17,
    "women": 0,
    "forms": 8,
    "attested": 4,
-   "people": 13,
-   "tokens": 10,
-   "commonest": "vincentius",
+   "people": 17,
+   "tokens": 13,
+   "commonest": "vinko",
    "langs": {
     "latin": [
      {
@@ -3785,7 +4099,7 @@
      {
       "form": "Vinko",
       "note": "",
-      "seen": 1,
+      "seen": 4,
       "notNominative": "",
       "case": ""
      },

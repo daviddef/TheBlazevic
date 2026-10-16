@@ -36,6 +36,13 @@
    "family": "zubrinic"
   },
   {
+   "name": "PLACEHOLDERS Defranceschi's for Investigation (not real)",
+   "id": "@I507283@",
+   "children": 22,
+   "published": 20,
+   "family": "defranceschi's for investigation"
+  },
+  {
    "name": "Selce Other Working Papić (Papa)",
    "id": "@I508969@",
    "children": 23,
@@ -141,6 +148,13 @@
    "family": "papic"
   },
   {
+   "name": "Unknown Other Llorens Lerena",
+   "id": "@I510127@",
+   "children": 3,
+   "published": 3,
+   "family": "llorens lerena"
+  },
+  {
    "name": "G Žubrinić Xubrinich Zubrinic",
    "id": "@I511575@",
    "children": 3,
@@ -169,11 +183,25 @@
    "family": "zubrinic"
   },
   {
+   "name": "Unknown Grach",
+   "id": "@I507281@",
+   "children": 2,
+   "published": 2,
+   "family": "grac"
+  },
+  {
    "name": "1831-1860 Birth - Selce Papić (Papa)",
    "id": "@I509098@",
    "children": 2,
    "published": 2,
    "family": "papic"
+  },
+  {
+   "name": "Unknown DeFranceschi",
+   "id": "@I509629@",
+   "children": 2,
+   "published": 2,
+   "family": "defranceschi"
   },
   {
    "name": "C Žubrinić Xubrinich Zubrinic",
@@ -211,11 +239,18 @@
    "family": "zubrinic"
   },
   {
-   "name": "PLACEHOLDERS Defranceschi's for Investigation (not real)",
-   "id": "@I507283@",
-   "children": 22,
+   "name": "UNKNOWN Falco",
+   "id": "@I512372@",
+   "children": 2,
+   "published": 2,
+   "family": "falco"
+  },
+  {
+   "name": "Unknown",
+   "id": "@I505827@",
+   "children": 1,
    "published": 1,
-   "family": "defranceschi's for investigation"
+   "family": "—"
   },
   {
    "name": "1861-1899 Birth - Selce Papić (Papa)",
@@ -223,13 +258,6 @@
    "children": 1,
    "published": 1,
    "family": "papic"
-  },
-  {
-   "name": "Unknown DeFranceschi",
-   "id": "@I509629@",
-   "children": 2,
-   "published": 1,
-   "family": "defranceschi"
   },
   {
    "name": "W Žubrinić Xubrinich Zubrinic",
@@ -258,6 +286,13 @@
    "children": 1,
    "published": 1,
    "family": "zubrinic"
+  },
+  {
+   "name": "Unknown",
+   "id": "@I512778@",
+   "children": 1,
+   "published": 1,
+   "family": "—"
   }
  ],
  "orphaned": [
@@ -472,11 +507,39 @@
    "parent": "Unknown Sorting Working Blažević"
   },
   {
+   "id": "@I506156@",
+   "name": "Guiseppe \"Joseph\" DeFranceschi",
+   "slug": "guiseppe-defranceschi",
+   "family": "defranceschi",
+   "parent": "Unknown DeFranceschi"
+  },
+  {
    "id": "@I507283@",
    "name": "PLACEHOLDERS Defranceschi's for Investigation (not real)",
    "slug": "placeholders-defranceschi-s-for-investigation-not-real",
    "family": "defranceschi's for investigation",
    "parent": "Unknown DeFranceschi"
+  },
+  {
+   "id": "@I511267@",
+   "name": "Argentina Lerena",
+   "slug": "argentina-lerena",
+   "family": "lerena",
+   "parent": "Unknown Other Llorens Lerena"
+  },
+  {
+   "id": "@I510164@",
+   "name": "Uruguay Lerena",
+   "slug": "uruguay-lerena",
+   "family": "lerena",
+   "parent": "Unknown Other Llorens Lerena"
+  },
+  {
+   "id": "@I502507@",
+   "name": "Roberto Llorens",
+   "slug": "roberto-llorens",
+   "family": "llorens",
+   "parent": "Unknown Other Llorens Lerena"
   },
   {
    "id": "@I509012@",
@@ -1426,7 +1489,7 @@
  ],
  "islands": [
   {
-   "n": 578,
+   "n": 2995,
    "home": true,
    "families": [
     [
@@ -1434,29 +1497,29 @@
      215
     ],
     [
-     "boras",
-     55
+     "pretorius",
+     120
     ],
     [
-     "blazevic",
-     51
+     "",
+     92
     ]
    ],
-   "from": 1717,
+   "from": 1160,
    "to": 1958,
    "bridge": {
-    "id": "@I3446@",
-    "name": "Nicolaus Gerkacs",
-    "slug": "nicolaus-gerkacs",
-    "byear": 1717,
-    "place": "Karlobag, Ličko-senjska županija, Croatia",
+    "id": "@I503970@",
+    "name": "Johannes Oosthuijssen Oosthúijsz",
+    "slug": "johannes-oosthuijssen-oosthuijsz",
+    "byear": 1160,
+    "place": "Weert, Limburg, Netherlands",
     "children": 1,
-    "window": "1735–1747"
+    "window": "1178–1190"
    },
    "slugs": []
   },
   {
-   "n": 305,
+   "n": 331,
    "home": false,
    "families": [
     [
@@ -1465,28 +1528,28 @@
     ],
     [
      "",
-     16
+     20
     ],
     [
      "kraljic",
-     9
+     12
     ]
    ],
-   "from": 1769,
-   "to": 1888,
+   "from": 1766,
+   "to": 1893,
    "bridge": {
-    "id": "@I511689@",
-    "name": "Nicolai Žubrinić",
-    "slug": "nicolai-zubrinic",
-    "byear": 1769,
+    "id": "@I506574@",
+    "name": "Theresia",
+    "slug": "theresia-2",
+    "byear": 1766,
     "place": "",
-    "children": 2,
-    "window": "1787–1799"
+    "children": 0,
+    "window": "1784–1796"
    },
    "slugs": []
   },
   {
-   "n": 160,
+   "n": 170,
    "home": false,
    "families": [
     [
@@ -1499,7 +1562,7 @@
     ],
     [
      "",
-     9
+     14
     ]
    ],
    "from": 1794,
@@ -1516,7 +1579,37 @@
    "slugs": []
   },
   {
-   "n": 88,
+   "n": 140,
+   "home": false,
+   "families": [
+    [
+     "sestan",
+     54
+    ],
+    [
+     "defranceschi",
+     52
+    ],
+    [
+     "",
+     15
+    ]
+   ],
+   "from": 1673,
+   "to": 1947,
+   "bridge": {
+    "id": "@I509684@",
+    "name": "Gian Giovanni Ivan Battista Defranceschi",
+    "slug": "gian-giovanni-ivan-battista-defranceschi",
+    "byear": 1673,
+    "place": "Gologorica, Istra, Croatia",
+    "children": 0,
+    "window": "1691–1703"
+   },
+   "slugs": []
+  },
+  {
+   "n": 90,
    "home": false,
    "families": [
     [
@@ -1546,37 +1639,7 @@
    "slugs": []
   },
   {
-   "n": 75,
-   "home": false,
-   "families": [
-    [
-     "sestan",
-     54
-    ],
-    [
-     "",
-     6
-    ],
-    [
-     "defranceschi",
-     6
-    ]
-   ],
-   "from": 1766,
-   "to": 1947,
-   "bridge": {
-    "id": "@I509461@",
-    "name": "Leonardus Defranceschi",
-    "slug": "leonardus-defranceschi",
-    "byear": 1766,
-    "place": "",
-    "children": 1,
-    "window": "1784–1796"
-   },
-   "slugs": []
-  },
-  {
-   "n": 59,
+   "n": 68,
    "home": false,
    "families": [
     [
@@ -1585,7 +1648,7 @@
     ],
     [
      "",
-     9
+     10
     ],
     [
      "zupan",
@@ -1606,7 +1669,7 @@
    "slugs": []
   },
   {
-   "n": 52,
+   "n": 57,
    "home": false,
    "families": [
     [
@@ -1614,12 +1677,12 @@
      41
     ],
     [
-     "",
-     4
+     "untersinger",
+     7
     ],
     [
-     "untersinger",
-     3
+     "",
+     4
     ]
    ],
    "from": 1765,
@@ -1636,24 +1699,24 @@
    "slugs": []
   },
   {
-   "n": 47,
+   "n": 53,
    "home": false,
    "families": [
     [
      "prpic",
-     22
+     24
     ],
     [
      "perpic",
-     17
+     18
     ],
     [
      "",
-     4
+     6
     ]
    ],
    "from": 1820,
-   "to": 1904,
+   "to": 1962,
    "bridge": {
     "id": "@I508659@",
     "name": "Domianus \"Domian\" Perpić",
@@ -1662,6 +1725,36 @@
     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary",
     "children": 4,
     "window": "1838–1850"
+   },
+   "slugs": []
+  },
+  {
+   "n": 34,
+   "home": false,
+   "families": [
+    [
+     "zubrinic",
+     26
+    ],
+    [
+     "",
+     6
+    ],
+    [
+     "dujmovic",
+     1
+    ]
+   ],
+   "from": 1767,
+   "to": 1848,
+   "bridge": {
+    "id": "@I511740@",
+    "name": "Martha",
+    "slug": "martha-2",
+    "byear": 1767,
+    "place": "Otočac, Croatia",
+    "children": 1,
+    "window": "1785–1797"
    },
    "slugs": []
   },
@@ -1696,36 +1789,6 @@
    "slugs": []
   },
   {
-   "n": 31,
-   "home": false,
-   "families": [
-    [
-     "zubrinic",
-     26
-    ],
-    [
-     "",
-     4
-    ],
-    [
-     "oreskovic",
-     1
-    ]
-   ],
-   "from": 1767,
-   "to": 1848,
-   "bridge": {
-    "id": "@I511740@",
-    "name": "Martha",
-    "slug": "martha-2",
-    "byear": 1767,
-    "place": "Otočac, Croatia",
-    "children": 1,
-    "window": "1785–1797"
-   },
-   "slugs": []
-  },
-  {
    "n": 30,
    "home": false,
    "families": [
@@ -1756,7 +1819,7 @@
    "slugs": []
   },
   {
-   "n": 25,
+   "n": 29,
    "home": false,
    "families": [
     [
@@ -1773,7 +1836,7 @@
     ]
    ],
    "from": 1812,
-   "to": 1887,
+   "to": 1890,
    "bridge": {
     "id": "@I509182@",
     "name": "Magdalena Žubrinić",
@@ -1786,7 +1849,7 @@
    "slugs": []
   },
   {
-   "n": 24,
+   "n": 26,
    "home": false,
    "families": [
     [
@@ -1798,7 +1861,7 @@
      2
     ],
     [
-     "mudrovcic madrovcic",
+     "bogic",
      1
     ]
    ],
@@ -1816,12 +1879,12 @@
    "slugs": []
   },
   {
-   "n": 21,
+   "n": 23,
    "home": false,
    "families": [
     [
      "rivosechi",
-     8
+     10
     ],
     [
      "prpic",
@@ -1835,13 +1898,43 @@
    "from": 1853,
    "to": 1887,
    "bridge": {
-    "id": "@I508991@",
-    "name": "Mathiam Tereziam Prpic Perpic",
-    "slug": "mathiam-tereziam-prpic-perpic",
+    "id": "@I508965@",
+    "name": "Josephus Josip Rivosechi",
+    "slug": "josephus-josip-rivosechi",
     "byear": 1853,
     "place": "",
-    "children": 0,
+    "children": 1,
     "window": "1871–1883"
+   },
+   "slugs": []
+  },
+  {
+   "n": 16,
+   "home": false,
+   "families": [
+    [
+     "grandic",
+     11
+    ],
+    [
+     "blazevic",
+     2
+    ],
+    [
+     "barbalic",
+     1
+    ]
+   ],
+   "from": 1836,
+   "to": 1894,
+   "bridge": {
+    "id": "@I508334@",
+    "name": "Jure Juraj Georgius Grandic",
+    "slug": "jure-juraj-georgius-grandic",
+    "byear": 1836,
+    "place": "Baska, Croatia",
+    "children": 9,
+    "window": "1854–1866"
    },
    "slugs": []
   },
@@ -1868,6 +1961,66 @@
     "place": "",
     "children": 1,
     "window": "1792–1804"
+   },
+   "slugs": []
+  },
+  {
+   "n": 12,
+   "home": false,
+   "families": [
+    [
+     "zubrinic",
+     8
+    ],
+    [
+     "",
+     3
+    ],
+    [
+     "franczetic",
+     1
+    ]
+   ],
+   "from": 1795,
+   "to": 1836,
+   "bridge": {
+    "id": "@I511698@",
+    "name": "Martha Franczetich",
+    "slug": "martha-franczetich",
+    "byear": 1795,
+    "place": "",
+    "children": 6,
+    "window": "1813–1825"
+   },
+   "slugs": []
+  },
+  {
+   "n": 11,
+   "home": false,
+   "families": [
+    [
+     "prpic",
+     6
+    ],
+    [
+     "pavelic",
+     3
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   "from": 1835,
+   "to": 1869,
+   "bridge": {
+    "id": "@I508470@",
+    "name": "Franjo Prpić",
+    "slug": "franjo-prpic",
+    "byear": 1835,
+    "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija",
+    "children": 2,
+    "window": "1853–1865"
    },
    "slugs": []
   },
@@ -1902,90 +2055,30 @@
    "slugs": []
   },
   {
-   "n": 11,
-   "home": false,
-   "families": [
-    [
-     "zubrinic",
-     8
-    ],
-    [
-     "",
-     2
-    ],
-    [
-     "franczetic",
-     1
-    ]
-   ],
-   "from": 1795,
-   "to": 1836,
-   "bridge": {
-    "id": "@I511698@",
-    "name": "Martha Franczetich",
-    "slug": "martha-franczetich",
-    "byear": 1795,
-    "place": "",
-    "children": 6,
-    "window": "1813–1825"
-   },
-   "slugs": []
-  },
-  {
-   "n": 10,
-   "home": false,
-   "families": [
-    [
-     "grandic",
-     6
-    ],
-    [
-     "blazevic",
-     2
-    ],
-    [
-     "barbalic",
-     1
-    ]
-   ],
-   "from": 1836,
-   "to": 1894,
-   "bridge": {
-    "id": "@I508334@",
-    "name": "Jure Juraj Georgius Grandic",
-    "slug": "jure-juraj-georgius-grandic",
-    "byear": 1836,
-    "place": "Baska, Croatia",
-    "children": 9,
-    "window": "1854–1866"
-   },
-   "slugs": []
-  },
-  {
    "n": 10,
    "home": false,
    "families": [
     [
      "prpic",
-     6
-    ],
-    [
-     "pavelic",
-     3
+     4
     ],
     [
      "blazevic",
+     3
+    ],
+    [
+     "",
      1
     ]
    ],
    "from": 1835,
-   "to": 1869,
+   "to": 1890,
    "bridge": {
-    "id": "@I508470@",
-    "name": "Franjo Prpić",
-    "slug": "franjo-prpic",
+    "id": "@I508416@",
+    "name": "Maria?",
+    "slug": "maria-2",
     "byear": 1835,
-    "place": "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija",
+    "place": "",
     "children": 2,
     "window": "1853–1865"
    },
@@ -2026,36 +2119,6 @@
    "home": false,
    "families": [
     [
-     "prpic",
-     4
-    ],
-    [
-     "blazevic",
-     3
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": 1835,
-   "to": 1890,
-   "bridge": {
-    "id": "@I508416@",
-    "name": "Maria?",
-    "slug": "maria-2",
-    "byear": 1835,
-    "place": "",
-    "children": 2,
-    "window": "1853–1865"
-   },
-   "slugs": []
-  },
-  {
-   "n": 9,
-   "home": false,
-   "families": [
-    [
      "babic",
      5
     ],
@@ -2078,6 +2141,66 @@
     "place": "Senj, Croatia",
     "children": 3,
     "window": "1855–1867"
+   },
+   "slugs": []
+  },
+  {
+   "n": 9,
+   "home": false,
+   "families": [
+    [
+     "krmpotic",
+     7
+    ],
+    [
+     "drnjevic",
+     1
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1881,
+   "to": 1894,
+   "bridge": {
+    "id": "@I508370@",
+    "name": "Mile Vatroslav Krmpotić",
+    "slug": "mile-vatroslav-krmpotic",
+    "byear": 1881,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1899–1911"
+   },
+   "slugs": []
+  },
+  {
+   "n": 9,
+   "home": false,
+   "families": [
+    [
+     "prpic",
+     7
+    ],
+    [
+     "perpic",
+     1
+    ],
+    [
+     "tomaic",
+     1
+    ]
+   ],
+   "from": 1871,
+   "to": 1881,
+   "bridge": {
+    "id": "@I508884@",
+    "name": "Franjo Prpic",
+    "slug": "franjo-prpic-2",
+    "byear": 1871,
+    "place": "Sv. Jelena, Croatia",
+    "children": 0,
+    "window": "1889–1901"
    },
    "slugs": []
   },
@@ -2142,6 +2265,36 @@
    "home": false,
    "families": [
     [
+     "prpic",
+     3
+    ],
+    [
+     "blazevic",
+     2
+    ],
+    [
+     "pavelic",
+     2
+    ]
+   ],
+   "from": 1824,
+   "to": 1883,
+   "bridge": {
+    "id": "@I508514@",
+    "name": "Marija Pavelic",
+    "slug": "marija-pavelic-2",
+    "byear": 1824,
+    "place": "Mrzli Dol, Lika-Senj, Croatia",
+    "children": 1,
+    "window": "1842–1854"
+   },
+   "slugs": []
+  },
+  {
+   "n": 8,
+   "home": false,
+   "families": [
+    [
      "zubrinic",
      7
     ],
@@ -2160,58 +2313,6 @@
     "place": "",
     "children": 6,
     "window": "1809–1821"
-   },
-   "slugs": []
-  },
-  {
-   "n": 8,
-   "home": false,
-   "families": [
-    [
-     "krmpotic",
-     7
-    ],
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": 1881,
-   "to": 1894,
-   "bridge": {
-    "id": "@I508370@",
-    "name": "Mile Vatroslav Krmpotić",
-    "slug": "mile-vatroslav-krmpotic",
-    "byear": 1881,
-    "place": "Senj, Croatia",
-    "children": 0,
-    "window": "1899–1911"
-   },
-   "slugs": []
-  },
-  {
-   "n": 8,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     7
-    ],
-    [
-     "perpic",
-     1
-    ]
-   ],
-   "from": 1871,
-   "to": 1881,
-   "bridge": {
-    "id": "@I508884@",
-    "name": "Franjo Prpic",
-    "slug": "franjo-prpic-2",
-    "byear": 1871,
-    "place": "Sv. Jelena, Croatia",
-    "children": 0,
-    "window": "1889–1901"
    },
    "slugs": []
   },
@@ -2272,28 +2373,28 @@
    "home": false,
    "families": [
     [
+     "spalj",
+     5
+    ],
+    [
+     "belobarbic",
+     1
+    ],
+    [
      "prpic",
-     3
-    ],
-    [
-     "blazevic",
-     2
-    ],
-    [
-     "pavelic",
-     2
+     1
     ]
    ],
-   "from": 1824,
-   "to": 1883,
+   "from": 1886,
+   "to": 1894,
    "bridge": {
-    "id": "@I508514@",
-    "name": "Marija Pavelic",
-    "slug": "marija-pavelic-2",
-    "byear": 1824,
-    "place": "Mrzli Dol, Lika-Senj, Croatia",
-    "children": 1,
-    "window": "1842–1854"
+    "id": "@I508344@",
+    "name": "Kate Špalj Spalj",
+    "slug": "kate-spalj-spalj",
+    "byear": 1886,
+    "place": "Senj, Općina Senj, Lika-Senj County, Croatia",
+    "children": 0,
+    "window": "1904–1916"
    },
    "slugs": []
   },
@@ -2320,6 +2421,66 @@
     "place": "Senj, Croatia",
     "children": 0,
     "window": "1903–1915"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
+     "zubrinic kraljcic",
+     3
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "zubrinic",
+     1
+    ]
+   ],
+   "from": 1806,
+   "to": 1838,
+   "bridge": {
+    "id": "@I511679@",
+    "name": "Thomas Žubrinić Kraljcich",
+    "slug": "thomas-zubrinic-kraljcich",
+    "byear": 1806,
+    "place": "Otočac, Croatia",
+    "children": 3,
+    "window": "1824–1836"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     3
+    ],
+    [
+     "",
+     2
+    ],
+    [
+     "loncaric",
+     1
+    ]
+   ],
+   "from": 1862,
+   "to": 1897,
+   "bridge": {
+    "id": "@I508822@",
+    "name": "Juhas Daniel",
+    "slug": "juhas-daniel",
+    "byear": 1862,
+    "place": "",
+    "children": 0,
+    "window": "1880–1892"
    },
    "slugs": []
   },
@@ -2380,6 +2541,36 @@
     "place": "",
     "children": 0,
     "window": "1887–1899"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     2
+    ],
+    [
+     "prpic",
+     2
+    ],
+    [
+     "sojat",
+     2
+    ]
+   ],
+   "from": 1843,
+   "to": 1844,
+   "bridge": {
+    "id": "@I508465@",
+    "name": "Joso Blažević",
+    "slug": "joso-blazevic",
+    "byear": 1843,
+    "place": "",
+    "children": 0,
+    "window": "1861–1873"
    },
    "slugs": []
   },
@@ -2504,6 +2695,36 @@
    "home": false,
    "families": [
     [
+     "jurcic",
+     3
+    ],
+    [
+     "lenac",
+     1
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1855,
+   "to": 1868,
+   "bridge": {
+    "id": "@I508369@",
+    "name": "Toma Anton Bozo Lenac",
+    "slug": "toma-anton-bozo-lenac",
+    "byear": 1855,
+    "place": "Senj, Croatia",
+    "children": 0,
+    "window": "1873–1885"
+   },
+   "slugs": []
+  },
+  {
+   "n": 6,
+   "home": false,
+   "families": [
+    [
      "prpic",
      6
     ]
@@ -2518,32 +2739,6 @@
     "place": "Krivi Put 79, Croatia",
     "children": 0,
     "window": "1888–1900"
-   },
-   "slugs": []
-  },
-  {
-   "n": 6,
-   "home": false,
-   "families": [
-    [
-     "spalj",
-     5
-    ],
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": 1886,
-   "to": 1894,
-   "bridge": {
-    "id": "@I508344@",
-    "name": "Kate Špalj Spalj",
-    "slug": "kate-spalj-spalj",
-    "byear": 1886,
-    "place": "Senj, Općina Senj, Lika-Senj County, Croatia",
-    "children": 0,
-    "window": "1904–1916"
    },
    "slugs": []
   },
@@ -2570,6 +2765,32 @@
     "place": "",
     "children": 3,
     "window": "1820–1832"
+   },
+   "slugs": []
+  },
+  {
+   "n": 5,
+   "home": false,
+   "families": [
+    [
+     "",
+     3
+    ],
+    [
+     "zubrinic",
+     2
+    ]
+   ],
+   "from": 1800,
+   "to": 1848,
+   "bridge": {
+    "id": "@I511663@",
+    "name": "Thomas Žubrinić Xubrinich Zubrinic",
+    "slug": "thomas-zubrinic-xubrinich-zubrinic",
+    "byear": 1800,
+    "place": "",
+    "children": 1,
+    "window": "1818–1830"
    },
    "slugs": []
   },
@@ -2742,32 +2963,6 @@
    "home": false,
    "families": [
     [
-     "",
-     2
-    ],
-    [
-     "zubrinic",
-     2
-    ]
-   ],
-   "from": 1800,
-   "to": 1848,
-   "bridge": {
-    "id": "@I511663@",
-    "name": "Thomas Žubrinić Xubrinich Zubrinic",
-    "slug": "thomas-zubrinic-xubrinich-zubrinic",
-    "byear": 1800,
-    "place": "",
-    "children": 1,
-    "window": "1818–1830"
-   },
-   "slugs": []
-  },
-  {
-   "n": 4,
-   "home": false,
-   "families": [
-    [
      "papic",
      3
     ],
@@ -2794,25 +2989,129 @@
    "home": false,
    "families": [
     [
-     "blazevic",
-     3
+     "papic",
+     2
     ],
     [
      "",
      1
+    ],
+    [
+     "brozovic",
+     1
     ]
    ],
-   "from": 1888,
-   "to": 1897,
+   "from": null,
+   "to": null,
+   "bridge": null,
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "blazevic",
+     2
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "pavelic",
+     1
+    ]
+   ],
+   "from": 1846,
+   "to": 1846,
    "bridge": {
-    "id": "@I508851@",
-    "name": "Andjelija Blažević",
-    "slug": "andjelija-blazevic",
-    "byear": 1888,
-    "place": "Krmpote",
+    "id": "@I508461@",
+    "name": "Marko Blažević",
+    "slug": "marko-blazevic",
+    "byear": 1846,
+    "place": "",
     "children": 0,
-    "window": "1906–1918"
+    "window": "1864–1876"
    },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "perpic",
+     2
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "tomlenovic",
+     1
+    ]
+   ],
+   "from": 1836,
+   "to": 1858,
+   "bridge": {
+    "id": "@I508378@",
+    "name": "Eduard Tomlenovic",
+    "slug": "eduard-tomlenovic",
+    "byear": 1836,
+    "place": "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia",
+    "children": 0,
+    "window": "1854–1866"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "perpic",
+     2
+    ],
+    [
+     "",
+     1
+    ],
+    [
+     "spiera ?",
+     1
+    ]
+   ],
+   "from": 1822,
+   "to": 1836,
+   "bridge": {
+    "id": "@I509237@",
+    "name": "Antonius Spiera ?",
+    "slug": "antonius-spiera",
+    "byear": 1822,
+    "place": "",
+    "children": 0,
+    "window": "1840–1852"
+   },
+   "slugs": []
+  },
+  {
+   "n": 4,
+   "home": false,
+   "families": [
+    [
+     "",
+     2
+    ],
+    [
+     "papic",
+     2
+    ]
+   ],
+   "from": null,
+   "to": null,
+   "bridge": null,
    "slugs": []
   },
   {
@@ -2838,32 +3137,6 @@
     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
     "children": 0,
     "window": "1891–1903"
-   },
-   "slugs": []
-  },
-  {
-   "n": 4,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     2
-    ],
-    [
-     "prpic",
-     2
-    ]
-   ],
-   "from": 1843,
-   "to": 1843,
-   "bridge": {
-    "id": "@I508465@",
-    "name": "Joso Blažević",
-    "slug": "joso-blazevic",
-    "byear": 1843,
-    "place": "",
-    "children": 0,
-    "window": "1861–1873"
    },
    "slugs": []
   },
@@ -3100,32 +3373,6 @@
    "home": false,
    "families": [
     [
-     "jurcic",
-     3
-    ],
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": 1862,
-   "to": 1868,
-   "bridge": {
-    "id": "@I508364@",
-    "name": "Mikula Jurcic",
-    "slug": "mikula-jurcic",
-    "byear": 1862,
-    "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
-    "children": 0,
-    "window": "1880–1892"
-   },
-   "slugs": []
-  },
-  {
-   "n": 4,
-   "home": false,
-   "families": [
-    [
      "prpic",
      4
     ]
@@ -3330,24 +3577,6 @@
    "home": false,
    "families": [
     [
-     "papic",
-     2
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
      "blazevic",
      2
     ],
@@ -3366,114 +3595,6 @@
     "place": "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia",
     "children": 0,
     "window": "1888–1900"
-   },
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
-     "blazevic",
-     2
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": 1846,
-   "to": 1846,
-   "bridge": {
-    "id": "@I508461@",
-    "name": "Marko Blažević",
-    "slug": "marko-blazevic",
-    "byear": 1846,
-    "place": "",
-    "children": 0,
-    "window": "1864–1876"
-   },
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
-     "perpic",
-     2
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": 1858,
-   "to": 1858,
-   "bridge": {
-    "id": "@I508377@",
-    "name": "Ivka Perpic",
-    "slug": "ivka-perpic",
-    "byear": 1858,
-    "place": "Krivi Put, Croatia",
-    "children": 0,
-    "window": "1876–1888"
-   },
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
-     "perpic",
-     2
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": 1836,
-   "to": 1836,
-   "bridge": {
-    "id": "@I508771@",
-    "name": "Stanislav Perpic",
-    "slug": "stanislav-perpic",
-    "byear": 1836,
-    "place": "Krivi Put",
-    "children": 0,
-    "window": "1854–1866"
-   },
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
-     "",
-     1
-    ],
-    [
-     "zubrinic",
-     1
-    ],
-    [
-     "zubrinic kraljcic",
-     1
-    ]
-   ],
-   "from": 1806,
-   "to": 1838,
-   "bridge": {
-    "id": "@I511679@",
-    "name": "Thomas Žubrinić Kraljcich",
-    "slug": "thomas-zubrinic-kraljcich",
-    "byear": 1806,
-    "place": "Otočac, Croatia",
-    "children": 3,
-    "window": "1824–1836"
    },
    "slugs": []
   },
@@ -3501,24 +3622,6 @@
     "children": 0,
     "window": "1904–1916"
    },
-   "slugs": []
-  },
-  {
-   "n": 3,
-   "home": false,
-   "families": [
-    [
-     "papic",
-     2
-    ],
-    [
-     "",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
    "slugs": []
   },
   {
@@ -3714,6 +3817,58 @@
    "home": false,
    "families": [
     [
+     "",
+     1
+    ],
+    [
+     "prpic",
+     1
+    ]
+   ],
+   "from": 1818,
+   "to": 1818,
+   "bridge": {
+    "id": "@I508755@",
+    "name": "Mande",
+    "slug": "mande",
+    "byear": 1818,
+    "place": "Jablanac, Croatia",
+    "children": 0,
+    "window": "1836–1848"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
+     "",
+     1
+    ],
+    [
+     "papic",
+     1
+    ]
+   ],
+   "from": 1806,
+   "to": 1806,
+   "bridge": {
+    "id": "@I509079@",
+    "name": "Lucija Loncaric Papić (Papa)",
+    "slug": "lucija-loncaric-papic-papa",
+    "byear": 1806,
+    "place": "Selce, Croatia",
+    "children": 0,
+    "window": "1824–1836"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
      "blazevic",
      1
     ],
@@ -3766,6 +3921,32 @@
    "home": false,
    "families": [
     [
+     "grah",
+     1
+    ],
+    [
+     "sestan",
+     1
+    ]
+   ],
+   "from": 1864,
+   "to": 1872,
+   "bridge": {
+    "id": "@I510745@",
+    "name": "Josephus Grah",
+    "slug": "josephus-grah",
+    "byear": 1864,
+    "place": "",
+    "children": 0,
+    "window": "1882–1894"
+   },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
      "prpic",
      2
     ]
@@ -3781,6 +3962,24 @@
     "children": 0,
     "window": "1890–1902"
    },
+   "slugs": []
+  },
+  {
+   "n": 2,
+   "home": false,
+   "families": [
+    [
+     "prpic",
+     1
+    ],
+    [
+     "spalj",
+     1
+    ]
+   ],
+   "from": null,
+   "to": null,
+   "bridge": null,
    "slugs": []
   },
   {
@@ -3802,21 +4001,13 @@
    "home": false,
    "families": [
     [
-     "papic",
+     "grah's for investigation",
      1
     ]
    ],
-   "from": 1806,
-   "to": 1806,
-   "bridge": {
-    "id": "@I509079@",
-    "name": "Lucija Loncaric Papić (Papa)",
-    "slug": "lucija-loncaric-papic-papa",
-    "byear": 1806,
-    "place": "Selce, Croatia",
-    "children": 0,
-    "window": "1824–1836"
-   },
+   "from": null,
+   "to": null,
+   "bridge": null,
    "slugs": []
   },
   {
@@ -3876,59 +4067,9 @@
    "to": null,
    "bridge": null,
    "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "prpic",
-     1
-    ]
-   ],
-   "from": null,
-   "to": null,
-   "bridge": null,
-   "slugs": []
-  },
-  {
-   "n": 1,
-   "home": false,
-   "families": [
-    [
-     "sestan",
-     1
-    ]
-   ],
-   "from": 1872,
-   "to": 1872,
-   "bridge": {
-    "id": "@I510746@",
-    "name": "Rosa Sestan",
-    "slug": "rosa-sestan-4",
-    "byear": 1872,
-    "place": "",
-    "children": 0,
-    "window": "1890–1902"
-   },
-   "slugs": []
   }
  ],
- "islandCount": 95,
+ "islandCount": 96,
  "standing": [
   {
    "family": "adamic",
@@ -3956,13 +4097,13 @@
   },
   {
    "family": "attalic",
-   "published": 5,
+   "published": 7,
    "connected": 0,
    "pct": 0
   },
   {
    "family": "bacic",
-   "published": 2,
+   "published": 3,
    "connected": 0,
    "pct": 0
   },
@@ -3985,6 +4126,12 @@
    "pct": 0
   },
   {
+   "family": "basic",
+   "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "begovic",
    "published": 1,
    "connected": 0,
@@ -3992,13 +4139,25 @@
   },
   {
    "family": "belobarbic",
-   "published": 4,
+   "published": 5,
    "connected": 0,
    "pct": 0
   },
   {
    "family": "belobaric",
    "published": 3,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "bener",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "biljan",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4010,6 +4169,12 @@
   },
   {
    "family": "bobinac",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "bogic",
    "published": 1,
    "connected": 0,
    "pct": 0
@@ -4027,8 +4192,8 @@
    "pct": 0
   },
   {
-   "family": "brajkovic",
-   "published": 2,
+   "family": "bronzini",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4051,6 +4216,12 @@
    "pct": 0
   },
   {
+   "family": "bulant",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "bunevcsevic",
    "published": 1,
    "connected": 0,
@@ -4059,12 +4230,6 @@
   {
    "family": "cacic",
    "published": 2,
-   "connected": 0,
-   "pct": 0
-  },
-  {
-   "family": "car",
-   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4081,8 +4246,8 @@
    "pct": 0
   },
   {
-   "family": "defranceschi",
-   "published": 6,
+   "family": "de franceski",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4093,13 +4258,13 @@
    "pct": 0
   },
   {
-   "family": "defranceski",
-   "published": 2,
+   "family": "depras",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
   {
-   "family": "depras",
+   "family": "desanti",
    "published": 1,
    "connected": 0,
    "pct": 0
@@ -4117,14 +4282,20 @@
    "pct": 0
   },
   {
+   "family": "drnjevic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "duimovic",
    "published": 1,
    "connected": 0,
    "pct": 0
   },
   {
-   "family": "fabianic",
-   "published": 1,
+   "family": "dujmovic",
+   "published": 2,
    "connected": 0,
    "pct": 0
   },
@@ -4153,6 +4324,18 @@
    "pct": 0
   },
   {
+   "family": "glavas",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "glavinic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "gormley",
    "published": 1,
    "connected": 0,
@@ -4165,8 +4348,20 @@
    "pct": 0
   },
   {
+   "family": "grah",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "grah's for investigation",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "grandic",
-   "published": 6,
+   "published": 11,
    "connected": 0,
    "pct": 0
   },
@@ -4177,7 +4372,19 @@
    "pct": 0
   },
   {
+   "family": "hammerl",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "jelicic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "jovannovic",
    "published": 1,
    "connected": 0,
    "pct": 0
@@ -4190,6 +4397,18 @@
   },
   {
    "family": "jurjevic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "kapus",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "karshuil",
    "published": 1,
    "connected": 0,
    "pct": 0
@@ -4232,7 +4451,13 @@
   },
   {
    "family": "kraljic",
-   "published": 9,
+   "published": 12,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "krismanic",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4255,6 +4480,12 @@
    "pct": 0
   },
   {
+   "family": "lenac",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "loncharic",
    "published": 1,
    "connected": 0,
@@ -4273,6 +4504,12 @@
    "pct": 0
   },
   {
+   "family": "mancelic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "mariam",
    "published": 1,
    "connected": 0,
@@ -4286,7 +4523,7 @@
   },
   {
    "family": "markovic",
-   "published": 2,
+   "published": 4,
    "connected": 0,
    "pct": 0
   },
@@ -4309,6 +4546,12 @@
    "pct": 0
   },
   {
+   "family": "modric",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "mrzljak",
    "published": 1,
    "connected": 0,
@@ -4322,6 +4565,18 @@
   },
   {
    "family": "murphy",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "nell",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "oftovic",
    "published": 1,
    "connected": 0,
    "pct": 0
@@ -4353,6 +4608,12 @@
   {
    "family": "paric",
    "published": 2,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "pavelic markova dujela",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4412,7 +4673,7 @@
   },
   {
    "family": "rivosechi",
-   "published": 8,
+   "published": 10,
    "connected": 0,
    "pct": 0
   },
@@ -4460,7 +4721,7 @@
   },
   {
    "family": "sojat",
-   "published": 6,
+   "published": 13,
    "connected": 0,
    "pct": 0
   },
@@ -4472,7 +4733,25 @@
   },
   {
    "family": "spalj",
-   "published": 16,
+   "published": 17,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "spiera ?",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "susic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "szogic",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4489,6 +4768,18 @@
    "pct": 0
   },
   {
+   "family": "tintor",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "tomaic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "tomic",
    "published": 1,
    "connected": 0,
@@ -4501,8 +4792,20 @@
    "pct": 0
   },
   {
+   "family": "tomlenovic",
+   "published": 1,
+   "connected": 0,
+   "pct": 0
+  },
+  {
    "family": "untersinger",
-   "published": 3,
+   "published": 7,
+   "connected": 0,
+   "pct": 0
+  },
+  {
+   "family": "uranic",
+   "published": 1,
    "connected": 0,
    "pct": 0
   },
@@ -4514,63 +4817,57 @@
   },
   {
    "family": "zubrinic kraljcic",
-   "published": 1,
+   "published": 3,
    "connected": 0,
    "pct": 0
-  },
-  {
-   "family": "zupan",
-   "published": 4,
-   "connected": 0,
-   "pct": 0
-  },
-  {
-   "family": "pavelic",
-   "published": 111,
-   "connected": 6,
-   "pct": 5
   },
   {
    "family": "zubrinic",
-   "published": 399,
-   "connected": 21,
-   "pct": 5
-  },
-  {
-   "family": "prpic",
-   "published": 118,
-   "connected": 7,
+   "published": 400,
+   "connected": 22,
    "pct": 6
   },
   {
+   "family": "pavelic",
+   "published": 114,
+   "connected": 8,
+   "pct": 7
+  },
+  {
+   "family": "prpic",
+   "published": 121,
+   "connected": 8,
+   "pct": 7
+  },
+  {
    "family": "perpic",
-   "published": 37,
+   "published": 38,
    "connected": 3,
    "pct": 8
   },
   {
-   "family": "krmpotic",
-   "published": 19,
-   "connected": 2,
-   "pct": 11
+   "family": "defranceschi",
+   "published": 58,
+   "connected": 6,
+   "pct": 10
   },
   {
-   "family": "loncaric",
-   "published": 10,
-   "connected": 2,
+   "family": "kostelac",
+   "published": 6,
+   "connected": 1,
+   "pct": 17
+  },
+  {
+   "family": "zupan",
+   "published": 5,
+   "connected": 1,
    "pct": 20
   },
   {
    "family": "blazevic",
-   "published": 220,
-   "connected": 51,
-   "pct": 23
-  },
-  {
-   "family": "kostelac",
-   "published": 4,
-   "connected": 1,
-   "pct": 25
+   "published": 228,
+   "connected": 59,
+   "pct": 26
   },
   {
    "family": "babic",
@@ -4585,16 +4882,52 @@
    "pct": 27
   },
   {
-   "family": "butkovic",
+   "family": "brajkovic",
+   "published": 3,
+   "connected": 1,
+   "pct": 33
+  },
+  {
+   "family": "glavicic",
+   "published": 3,
+   "connected": 1,
+   "pct": 33
+  },
+  {
+   "family": "loncaric",
+   "published": 15,
+   "connected": 5,
+   "pct": 33
+  },
+  {
+   "family": "krmpotic",
+   "published": 27,
+   "connected": 10,
+   "pct": 37
+  },
+  {
+   "family": "oreskovic",
+   "published": 13,
+   "connected": 5,
+   "pct": 38
+  },
+  {
+   "family": "brozovic",
    "published": 5,
    "connected": 2,
    "pct": 40
   },
   {
-   "family": "oreskovic",
+   "family": "fabianic",
+   "published": 2,
+   "connected": 1,
+   "pct": 50
+  },
+  {
+   "family": "butkovic",
    "published": 11,
-   "connected": 5,
-   "pct": 45
+   "connected": 6,
+   "pct": 55
   },
   {
    "family": "sekula",
@@ -4603,16 +4936,16 @@
    "pct": 55
   },
   {
-   "family": "tomljanovic",
-   "published": 26,
-   "connected": 15,
-   "pct": 58
-  },
-  {
    "family": "jellicic",
    "published": 5,
    "connected": 3,
    "pct": 60
+  },
+  {
+   "family": "tomljanovic",
+   "published": 28,
+   "connected": 17,
+   "pct": 61
   },
   {
    "family": "antic",
@@ -4621,16 +4954,28 @@
    "pct": 67
   },
   {
-   "family": "brozovic",
+   "family": "defranceski",
+   "published": 9,
+   "connected": 6,
+   "pct": 67
+  },
+  {
+   "family": "gomercic",
    "published": 3,
    "connected": 2,
    "pct": 67
   },
   {
    "family": "vukelic",
-   "published": 15,
-   "connected": 10,
-   "pct": 67
+   "published": 20,
+   "connected": 15,
+   "pct": 75
+  },
+  {
+   "family": "de franceschi",
+   "published": 29,
+   "connected": 22,
+   "pct": 76
   },
   {
    "family": "maric",
@@ -4639,7 +4984,79 @@
    "pct": 80
   },
   {
+   "family": "car",
+   "published": 22,
+   "connected": 20,
+   "pct": 91
+  },
+  {
+   "family": "?",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "abbot",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "adelmann von adelmannsfelden",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "aelbrecht",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "alberts",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "annecchino",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "anspac",
+   "published": 10,
+   "connected": 10,
+   "pct": 100
+  },
+  {
    "family": "antic papic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "apker",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ariens",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "arricole",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "assenberg",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4651,9 +5068,57 @@
    "pct": 100
   },
   {
+   "family": "atkinson",
+   "published": 22,
+   "connected": 22,
+   "pct": 100
+  },
+  {
+   "family": "atwell",
+   "published": 22,
+   "connected": 22,
+   "pct": 100
+  },
+  {
+   "family": "aucamp",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ayston",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "bacchi",
    "published": 3,
    "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "baeson",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "baetens",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "baker",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "balinovac",
+   "published": 9,
+   "connected": 9,
    "pct": 100
   },
   {
@@ -4675,9 +5140,105 @@
    "pct": 100
   },
   {
+   "family": "barry",
+   "published": 25,
+   "connected": 25,
+   "pct": 100
+  },
+  {
+   "family": "barry i",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "barry ii",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "basson",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "basson b2",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "basson b5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bayley",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "beecham",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bellaerts",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bellasyse",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "bellobalbic",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "belulovic cvetkovic",
    "published": 2,
    "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "berkshire",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "berriman",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "beyers",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "bezuidenhout",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bilovic",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4687,9 +5248,195 @@
    "pct": 100
   },
   {
+   "family": "blackbourne",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "blackhallhole",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "blaisdell",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "blanguart",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "blom",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "blum",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "boespinck",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bonner",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "boonen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bootha",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "booysen",
+   "published": 20,
+   "connected": 20,
+   "pct": 100
+  },
+  {
+   "family": "booyzen",
+   "published": 24,
+   "connected": 24,
+   "pct": 100
+  },
+  {
+   "family": "booÿsen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "boras",
-   "published": 55,
-   "connected": 55,
+   "published": 62,
+   "connected": 62,
+   "pct": 100
+  },
+  {
+   "family": "boric",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "boskovic",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "bosman",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "bota",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "both",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "botha",
+   "published": 76,
+   "connected": 76,
+   "pct": 100
+  },
+  {
+   "family": "bowen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "brailey",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "brand",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "braunton",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "brayley",
+   "published": 18,
+   "connected": 18,
+   "pct": 100
+  },
+  {
+   "family": "brems",
+   "published": 8,
+   "connected": 8,
+   "pct": 100
+  },
+  {
+   "family": "brewer",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "brits",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "bronkhorst",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "brozicevic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "buitenkamp",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "buljubasic",
+   "published": 7,
+   "connected": 7,
    "pct": 100
   },
   {
@@ -4700,6 +5447,12 @@
   },
   {
    "family": "buryevcevic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "busljeta",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4717,7 +5470,607 @@
    "pct": 100
   },
   {
+   "family": "buys",
+   "published": 8,
+   "connected": 8,
+   "pct": 100
+  },
+  {
+   "family": "buys buijs",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "bötticher",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "böttlicher",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "car car korosan",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "car car marusic",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "car hreljincic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "car korosan",
+   "published": 7,
+   "connected": 7,
+   "pct": 100
+  },
+  {
+   "family": "car marusic",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "carr",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "carstens",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "cartwright",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "castkovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "caulkwell",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cecil",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cerovecki",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "chetwood",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "claasen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "claasz",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "claesdochter",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "claesdochter van egmont van egmond",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cloete",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "cloeten",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "cochrane",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "codron",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "coetser",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "coetze",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "coetze kotze coetzee coetsee",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "coetzee",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "coetzer",
+   "published": 16,
+   "connected": 16,
+   "pct": 100
+  },
+  {
+   "family": "cole",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "collins",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "combrink",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "coney",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "coney [knight of bassingthorpe]",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "conyers",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "cornelis",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cornelisz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cotton",
+   "published": 17,
+   "connected": 17,
+   "pct": 100
+  },
+  {
+   "family": "crafford",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "creec",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "crisci",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "croger",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "cumberland",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cuyper",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "cvitkovic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "czar",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "d\"arcy",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "d'arcy",
+   "published": 48,
+   "connected": 48,
+   "pct": 100
+  },
+  {
+   "family": "d'arcy lord conyers",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "dabridgecourt",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "dabridgecourt of longdon hall",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "darcy",
+   "published": 22,
+   "connected": 22,
+   "pct": 100
+  },
+  {
+   "family": "dayman",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "de beaumont",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "de beer",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "de coninck koningh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de fief",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de goede",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "de grebber",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "de jager",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "de knuidt",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de koningh sm de coningh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de la batte",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de la legh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de lange",
+   "published": 29,
+   "connected": 29,
+   "pct": 100
+  },
+  {
+   "family": "de leener",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de roeck",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de savoye",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de viffe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de villiers",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "de vries",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "de wit",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "debery",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "degenfeld",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "delange",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "delong fransen langet",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "deyman",
+   "published": 7,
+   "connected": 7,
+   "pct": 100
+  },
+  {
+   "family": "di lucia",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "dixie",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "dosen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "dove",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "dowdall",
+   "published": 16,
+   "connected": 16,
+   "pct": 100
+  },
+  {
+   "family": "dowdle",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "downing",
+   "published": 31,
+   "connected": 31,
+   "pct": 100
+  },
+  {
+   "family": "drew",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "du mornay",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "du plooy",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "du pont",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "du preez",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "du toit",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "dunning",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "duyf",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "duÿf",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "eli",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "enslin",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "erasmus",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "esterhu",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "esterhuijsen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "esterhuizen",
+   "published": 7,
+   "connected": 7,
+   "pct": 100
+  },
+  {
+   "family": "esterhuysen",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4729,9 +6082,75 @@
    "pct": 100
   },
   {
-   "family": "ferkovic",
+   "family": "falco",
+   "published": 31,
+   "connected": 31,
+   "pct": 100
+  },
+  {
+   "family": "falcone",
    "published": 2,
    "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "farnham",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fauconberg nee bromflete",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "featherstone",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ferbokovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ferkovic",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "ferkovic ferkovic frkovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fernasar",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "fernasar tornasar",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ferrara",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "fick",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4747,19 +6166,373 @@
    "pct": 100
   },
   {
+   "family": "fleming",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "foote",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fortman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fourie",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fowler",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "fritz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "frodsham",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "fullwood",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "galtets",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "garden",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "gardner",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gautz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gent",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gerguric",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
    "family": "gerkacs",
    "published": 3,
    "connected": 3,
    "pct": 100
   },
   {
-   "family": "gomercic",
+   "family": "gerrits",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "gillard",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gojnic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "grac",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "granger",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "granger or de fief viffe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gravenegg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gregovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "grguric",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "grguric gerguric",
    "published": 2,
    "connected": 2,
    "pct": 100
   },
   {
+   "family": "griswold or greswald",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "grobbelaar b6c3d5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "grobelaar",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "grobler",
+   "published": 13,
+   "connected": 13,
+   "pct": 100
+  },
+  {
+   "family": "grzanic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "gvozdovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "güstrow",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hancock",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "hansen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hardung",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "harlocke",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "harmens",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "hart",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "hartherly",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hartley",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hartung",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "hartwig",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "harvey",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hattingh",
+   "published": 24,
+   "connected": 24,
+   "pct": 100
+  },
+  {
+   "family": "heard",
+   "published": 13,
+   "connected": 13,
+   "pct": 100
+  },
+  {
+   "family": "heddon",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "helm",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "herd",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "hofman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "holford",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "hollaverd",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hollowford",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "holtz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hooper",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "horwood",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "howard",
+   "published": 11,
+   "connected": 11,
+   "pct": 100
+  },
+  {
    "family": "hranisavljevic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hreljincic",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "hunt",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "huper",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hyland",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "hörsel horsel horrel",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4771,9 +6544,69 @@
    "pct": 100
   },
   {
-   "family": "jankovic",
+   "family": "ivancic ivancic pandur",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ivkovic",
+   "published": 12,
+   "connected": 12,
+   "pct": 100
+  },
+  {
+   "family": "jacob",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jacobsdr kröger",
    "published": 2,
    "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "jacobz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jankovic",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "jansdogter",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "janse visser",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jansen",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "janssen",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "jansz van staden",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4783,9 +6616,69 @@
    "pct": 100
   },
   {
+   "family": "jaspers",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jasperz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jaubert",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jewell",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "johanssen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jones",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "jordaan",
+   "published": 14,
+   "connected": 14,
+   "pct": 100
+  },
+  {
+   "family": "joubert",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "jovanovic",
-   "published": 2,
-   "connected": 2,
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "jung",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "jurenec",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4798,6 +6691,12 @@
    "family": "kalanj",
    "published": 215,
    "connected": 215,
+   "pct": 100
+  },
+  {
+   "family": "kalanj callayn",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4814,24 +6713,354 @@
   },
   {
    "family": "karic",
-   "published": 5,
-   "connected": 5,
+   "published": 11,
+   "connected": 11,
+   "pct": 100
+  },
+  {
+   "family": "kasunic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "katnic",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "keeling",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "kemp",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kent",
+   "published": 10,
+   "connected": 10,
+   "pct": 100
+  },
+  {
+   "family": "kern",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "keysers",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kickers",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "king",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kinnear",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "knoetzen",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "kolbe",
+   "published": 32,
+   "connected": 32,
    "pct": 100
   },
   {
    "family": "komadina",
+   "published": 12,
+   "connected": 12,
+   "pct": 100
+  },
+  {
+   "family": "kosina",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "kostrencic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "kotze",
+   "published": 16,
+   "connected": 16,
+   "pct": 100
+  },
+  {
+   "family": "kotzee",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "kotzé",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "kovacina",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "kralj",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "krpan",
    "published": 7,
    "connected": 7,
    "pct": 100
   },
   {
-   "family": "kosina",
-   "published": 8,
-   "connected": 8,
+   "family": "krugel",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
-   "family": "krpan",
+   "family": "kruger",
+   "published": 39,
+   "connected": 39,
+   "pct": 100
+  },
+  {
+   "family": "kruger a3b7c1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger a5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c11",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c12",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c14",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c2d2e2f3",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c2d2e2f5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c2d2e2f6",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c2d2e2f8",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c2d2e2f9",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "kruger b7c8",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "kröger",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "krüger",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "kuhleman",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "kynge",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "l'hermitte",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "laramy",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "larman",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "lauenburg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "lazarevic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "le bleu",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "le febre",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "le févre le febre le febvre lefebvre de peronne eekhoff",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "le meassier",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "le roux",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "le strange",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "leigh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "leij",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "leij van de caap",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "leis",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "lerena",
+   "published": 11,
+   "connected": 11,
+   "pct": 100
+  },
+  {
+   "family": "levi",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "lewis",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ley",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ley b3",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4843,9 +7072,93 @@
    "pct": 100
   },
   {
+   "family": "llorens",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "long",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "loots",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "louw",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "love",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "lubbe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "lucic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "luckinic",
    "published": 4,
    "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "lyon",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "maartens",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "maione",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "maione majone",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mandakovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mandic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "marija",
+   "published": 1,
+   "connected": 1,
    "pct": 100
   },
   {
@@ -4855,9 +7168,81 @@
    "pct": 100
   },
   {
+   "family": "martone",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "matijovic",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "matson",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "mauritz tol",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mayney",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mei",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "menthing meyntjies",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "merzljak",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "meyer",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "meyntinghs meyntes meyntjes meintjies mentinghs bosc rooleemo wiederholt wiederhold",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "milan",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mildmay",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "miletic",
-   "published": 3,
-   "connected": 3,
+   "published": 19,
+   "connected": 19,
    "pct": 100
   },
   {
@@ -4868,6 +7253,114 @@
   },
   {
    "family": "milkovic",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "milletic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mordaunt",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "morgillo",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "morris",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "mountjoy",
+   "published": 25,
+   "connected": 25,
+   "pct": 100
+  },
+  {
+   "family": "mountjoy gent",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "mulcahy",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "murdoc",
+   "published": 20,
+   "connected": 20,
+   "pct": 100
+  },
+  {
+   "family": "musthill",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "myburgh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "nagoda",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "neagle",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "neel",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "nel",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "neville",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "noel",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "nortje",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "o'brien",
    "published": 2,
    "connected": 2,
    "pct": 100
@@ -4879,13 +7372,103 @@
    "pct": 100
   },
   {
+   "family": "oliver",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "olivier",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "oosthuijssen",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "oosthuijzen",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "oosthuizen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "orell",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "oreskovic oreskovic sekula",
    "published": 2,
    "connected": 2,
    "pct": 100
   },
   {
+   "family": "owen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pacey",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "paden",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "padjen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pain",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pajdas",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "palatinate-simmern",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "parker",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "patinger",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "pavesic",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4897,15 +7480,51 @@
    "pct": 100
   },
   {
+   "family": "peckard",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "peckerd",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "peden",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "peevers",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "pekass",
    "published": 3,
    "connected": 3,
    "pct": 100
   },
   {
-   "family": "pericic",
+   "family": "pemoiler",
    "published": 1,
    "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pemoller hartwig",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pericic",
+   "published": 2,
+   "connected": 2,
    "pct": 100
   },
   {
@@ -4921,9 +7540,123 @@
    "pct": 100
   },
   {
+   "family": "pesce",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "pese",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "petrovic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "philpe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pickerd",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pietersen",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "pijl",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
    "family": "pilipic",
    "published": 6,
    "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "podravac",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "potocinjak",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "praetorius",
+   "published": 8,
+   "connected": 8,
+   "pct": 100
+  },
+  {
+   "family": "praetorius schout",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pretorius",
+   "published": 120,
+   "connected": 120,
+   "pct": 100
+  },
+  {
+   "family": "pretorius b5c3d7e1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pretorius louw",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "prevost",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "price",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "prpic selaj",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pruvost prevot prévost prévot provo",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "prévost",
+   "published": 5,
+   "connected": 5,
    "pct": 100
   },
   {
@@ -4933,9 +7666,231 @@
    "pct": 100
   },
   {
+   "family": "purdon",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "pötter",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "reed",
+   "published": 28,
+   "connected": 28,
+   "pct": 100
+  },
+  {
+   "family": "regan",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "retief",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "retif",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "richards",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ridjan",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "rikat",
    "published": 1,
    "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "rivetti",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "rokeby",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "rosseau",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "rossiter",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "rossouw",
+   "published": 17,
+   "connected": 17,
+   "pct": 100
+  },
+  {
+   "family": "rousseau",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "rousseau rosseau rossouw",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "rukavina",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "sabina",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "salamon",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "sanigar",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "saniger",
+   "published": 21,
+   "connected": 21,
+   "pct": 100
+  },
+  {
+   "family": "saulus",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "scanlan",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "scarpa",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schalks van der merwe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schalkszoon van der merwe",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schleher",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schoeman",
+   "published": 37,
+   "connected": 37,
+   "pct": 100
+  },
+  {
+   "family": "schoemann",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schomberg",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "schomberg marquess of harwic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schout pretorius",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schulte",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schönberg auf wesel",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "schütz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "scott?",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "screec",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "selaj",
+   "published": 2,
+   "connected": 2,
    "pct": 100
   },
   {
@@ -4951,13 +7906,73 @@
    "pct": 100
   },
   {
+   "family": "short",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "skoda",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "skota",
    "published": 1,
    "connected": 1,
    "pct": 100
   },
   {
+   "family": "slabbert",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "slabbert sv prog",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "slee",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "slier",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "slier schleher",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "slier schleher sleps",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "slipcevic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
    "family": "slonjsak",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "smith",
    "published": 1,
    "connected": 1,
    "pct": 100
@@ -4975,9 +7990,243 @@
    "pct": 100
   },
   {
+   "family": "smyth",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "smythe",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "sneyd",
+   "published": 55,
+   "connected": 55,
+   "pct": 100
+  },
+  {
+   "family": "snijman",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "snow",
+   "published": 25,
+   "connected": 25,
+   "pct": 100
+  },
+  {
+   "family": "snowe",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "snyman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "sofronic",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "spaeroogh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "spudicevich-tomic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "st leger",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "st. leger",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stefan von cronstetten",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stephens",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "steyn",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stimac",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stipanic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stojcic",
+   "published": 11,
+   "connected": 11,
+   "pct": 100
+  },
+  {
+   "family": "strange",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "strydom",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "stuart",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "stuart king of england scotland and ireland",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stuart prince of england",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stuart prince of scotland",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "stuart prince of wales",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "sucic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "suhren",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "sutton",
+   "published": 16,
+   "connected": 16,
+   "pct": 100
+  },
+  {
+   "family": "tanner",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "taylor",
+   "published": 13,
+   "connected": 13,
+   "pct": 100
+  },
+  {
+   "family": "temple",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "theunisse",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "theys",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "tol",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "tol thol",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "trick",
+   "published": 28,
+   "connected": 28,
+   "pct": 100
+  },
+  {
    "family": "trkovic",
    "published": 1,
    "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "ulbeds",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "uphill",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "uptets",
+   "published": 2,
+   "connected": 2,
    "pct": 100
   },
   {
@@ -4985,10 +8234,748 @@
    "published": 5,
    "connected": 5,
    "pct": 100
+  },
+  {
+   "family": "uxoris",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van angola",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van as",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "van bengale",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "van biljon",
+   "published": 29,
+   "connected": 29,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c4",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c6d3",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c6d5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c6d6",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon b2c8",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van biljon c6d1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van billion",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van billion b2c2",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van breda",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van de caap",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van de caep",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den berg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den bosc",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "van den bosc b3",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den bosc sv prog",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den bossche",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den bossche ziii 6231",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den broeck",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van den broeck jacobs",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den broecke",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van den burgh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van der linde",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van der merwe",
+   "published": 29,
+   "connected": 29,
+   "pct": 100
+  },
+  {
+   "family": "van der piet",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van der vyver",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van der watt",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van deventer",
+   "published": 14,
+   "connected": 14,
+   "pct": 100
+  },
+  {
+   "family": "van dijk",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van dijk van dyk",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van dyk",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "van eeden",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van egmond",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "van emmenes",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "van emmenes a1,b1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van emmenes b4",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van emmenes sv prog",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van negapatnam",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van rooijen",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van rooyen",
+   "published": 7,
+   "connected": 7,
+   "pct": 100
+  },
+  {
+   "family": "van schil",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "van schout",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van staden",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van staden b1c2d8",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "van staden b1c3",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van todelingen",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "van weij",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "van wijk",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "vaux",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "veitc",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "veldtman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "venter",
+   "published": 18,
+   "connected": 18,
+   "pct": 100
+  },
+  {
+   "family": "venter b5c3",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "venter holman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "venter sv y-prog 1",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "venter van staden",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "verburgh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "vermeulen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "veselic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "victor pretorius starrenburgh",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "victors",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "victorsz",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "viljoen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "visage",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "visscher b5",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "visser",
+   "published": 19,
+   "connected": 19,
+   "pct": 100
+  },
+  {
+   "family": "visser a4 sv prog",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "visser b2c11",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "visser b7",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von adelmannsfelden",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von degenfeld",
+   "published": 10,
+   "connected": 10,
+   "pct": 100
+  },
+  {
+   "family": "von degenfield",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von dempter",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "von dempter van deventer",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von der pfalz",
+   "published": 8,
+   "connected": 8,
+   "pct": 100
+  },
+  {
+   "family": "von der pfalz-simmern",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von der pflaz king of bohemia",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von diepholz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von guenderrode",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von oldenburg",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "von rietberg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von schomberg",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "von schomburg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von schönberg",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "von schönburg",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "von tecklenburg",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "von wildeshausen",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "voortman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "voortman fortman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "vorster",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "wagenaar",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "wakefield",
+   "published": 9,
+   "connected": 9,
+   "pct": 100
+  },
+  {
+   "family": "wakefield **",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "walewijns",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "walker",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "walters",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "ward",
+   "published": 4,
+   "connected": 4,
+   "pct": 100
+  },
+  {
+   "family": "waterman",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "watt",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "whiite",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "white",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "wilkins",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "willemse",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "willemsz",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "wright",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "wybourn",
+   "published": 5,
+   "connected": 5,
+   "pct": 100
+  },
+  {
+   "family": "wynandsz bezuijdenhout bezuidenhout",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "zampiello",
+   "published": 12,
+   "connected": 12,
+   "pct": 100
+  },
+  {
+   "family": "zdraveski",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "zecevic",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "zic",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "zimbardo",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "zmaric",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
+  },
+  {
+   "family": "zu pfalz",
+   "published": 6,
+   "connected": 6,
+   "pct": 100
+  },
+  {
+   "family": "zunski",
+   "published": 1,
+   "connected": 1,
+   "pct": 100
+  },
+  {
+   "family": "zurga",
+   "published": 3,
+   "connected": 3,
+   "pct": 100
+  },
+  {
+   "family": "zyllenhardt",
+   "published": 2,
+   "connected": 2,
+   "pct": 100
   }
  ],
- "connected": 554,
- "publishedTotal": 1777,
+ "connected": 2903,
+ "publishedTotal": 4262,
  "specific": {
   "agree": 9,
   "disagree": 0,
@@ -4999,5 +8986,5 @@
   "disagree": 13,
   "blank": 105
  },
- "hanging": 286
+ "hanging": 315
 }

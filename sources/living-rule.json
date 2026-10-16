@@ -1,0 +1,47 @@
+{
+ "_why": [
+  "How this archive decides who is living and who is held out, as David ruled on 16 October 2026 (standard v2). The test itself is the kit's: kit/tools/living_rule.py, through tools/livingset.py. Written by tools/build_site_data.py on every full run. It records the RULE AND COUNTS; it never records a person: no id, no name, no place, no date.",
+  "tools/livingcheck.py recomputes who is living from the tree with the kit's rule, independently of the generator, and refuses the build when this file disagrees."
+ ],
+ "ruled": "2026-10-16",
+ "kitRule": {
+  "livingYears": 80,
+  "ageByYear": true,
+  "yearOfReckoning": 2026
+ },
+ "rules": [
+  {
+   "id": "living",
+   "rule": "Born 80 years ago or less by year (this year minus the birth year), with no death or burial recorded, and no citation from a public record source."
+  },
+  {
+   "id": "recorded-dead",
+   "rule": "A death or burial event in the tree, dated or not, or a death read in sources/documented.psv, or a grave photograph tagged with them, or a surveyed stone with their name, birth year and a death year, means dead."
+  },
+  {
+   "id": "no-birth-year",
+   "rule": "Nobody with no birth year is living: it cannot be shown that they are 80 or younger."
+  },
+  {
+   "id": "held-out",
+   "rule": "An undated person (no birth year) with a living parent, not recorded dead and with no public source, is held out: no page, no name as anyone's relative."
+  },
+  {
+   "id": "children",
+   "rule": "A child with a known birth year under 18 is NOT held out. They follow the standard: name, relationships, town and country, a page, no dates, noindex."
+  },
+  {
+   "id": "named-have-pages",
+   "rule": "Every person the archive names (a relative on a published page, or tagged on a published photograph) has a person page. Not recursive."
+  }
+ ],
+ "counts": {
+  "peopleInTree": 15643,
+  "living": 462,
+  "heldOut": 92,
+  "livingWithPage": 47,
+  "deadWithPage": 4488,
+  "publishedOnlyBecauseNamed": 1652,
+  "deadOnOtherRecord": 17
+ }
+}

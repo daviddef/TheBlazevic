@@ -227,7 +227,7 @@ def row_for(people, families, pid, ahn=None):
     if REDACT and is_living(p):
         # The same rule the site build applies, applied here too, because this
         # repository is public and these files are committed to it.
-        return {"ahn": ahn or "", "gen": gen_of(ahn) if ahn else "", "id": p["id"],
+        return {"ahn": ahn or "", "gen": gen_of(ahn) if ahn else "", "id": "",
                 "mh": "", "name": "— living, withheld —", "sex": "", "born": "",
                 "born_place": "", "died": "", "died_place": "", "cause": "",
                 "burial": "", "occupation": "", "spouses": "", "living": "yes",
@@ -278,9 +278,14 @@ def write(path, rows):
 def main():
     global LIVING
     people, families = load()
-    LIVING = classify_living(people, families)
+    # Redacted: everybody living, and everybody held out (tools/livingset.py, the
+    # kit's rule). These TSVs are research dumps and carry far more than the
+    # standard lets a living person show, so they show nothing of them.
+    import livingset
+    cls = livingset.classify(people, families)
+    LIVING = {pid: pid in cls["living"] or pid in cls["held"] for pid in people}
     print(f"{len(people)} people, {len(families)} families "
-          f"({sum(LIVING.values())} judged living)")
+          f"({len(cls['living'])} living, {len(cls['held'])} held out)")
 
     by_ahn = ancestors(people, families, ROOT_PERSON)
     print(f"\n{len(by_ahn)} ancestors of the root person "

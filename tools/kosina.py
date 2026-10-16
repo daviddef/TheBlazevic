@@ -280,11 +280,14 @@ def carniolan_household():
 
 def main():
     P, F = gedcom.load()
-    living = gedcom.classify_living(P, F)
+    # WHO IS LIVING IS THE KIT'S RULE (tools/livingset.py), and anybody HELD OUT
+    # (an undated person with a living parent) is not in this file at all.
+    import livingset
+    cls = livingset.classify(P, F)
+    HELD = cls["held"]
 
     def is_living(pid):
-        v = living.get(pid)
-        return bool(v) if not isinstance(v, dict) else bool(v.get("living"))
+        return pid in cls["living"]
 
     def name_of(pid):
         """Given name only when they may be alive -- see the docstring."""
@@ -314,7 +317,8 @@ def main():
             "living": alive,
         }
 
-    kos = [pid for pid in P if (P[pid].get("surname") or "").lower().find(SURNAME) >= 0]
+    kos = [pid for pid in P if (P[pid].get("surname") or "").lower().find(SURNAME) >= 0
+           and pid not in HELD]
     people = {pid: person(pid) for pid in kos}
 
     # The households, so the page can draw descent rather than list names.
@@ -325,21 +329,21 @@ def main():
             fam = F.get(f) or {}
             for role in ("husb", "wife"):
                 o = fam.get(role)
-                if o in P:
+                if o in P and o not in HELD:
                     rec["parents"].append({"id": o, "name": name_of(o)})
             for c in (fam.get("chil") or []):
-                if c != pid and c in P:
+                if c != pid and c in P and c not in HELD:
                     rec["siblings"].append({"id": c, "name": name_of(c)})
         for f in (P[pid].get("fams") or []):
             fam = F.get(f) or {}
             o = fam.get("wife") if fam.get("husb") == pid else fam.get("husb")
-            if o in P:
+            if o in P and o not in HELD:
                 m = fam.get("marr") or {}
                 rec["spouses"].append({"id": o, "name": name_of(o),
                                        "married": m.get("date") or "",
                                        "place": m.get("place") or ""})
             for c in (fam.get("chil") or []):
-                if c in P:
+                if c in P and c not in HELD:
                     rec["children"].append({"id": c, "name": name_of(c)})
 
     def year(s):
