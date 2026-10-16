@@ -1186,6 +1186,15 @@ def main():
                 print(f"            {cname} {cy or '?'} [{src}]{flagp}")
             if name in SETTLED:
                 print(f"            settled: {SETTLED[name]}")
+    # A PENDING ROW THAT IS NO LONGER A PROBLEM, OR WAS SETTLED, MUST COME OFF THE LIST:
+    # the list may only shrink, and one that is left standing would hide the next fault.
+    live = {p[0] for p in problems}
+    stale = [ln for ln, nm in sorted(PENDING.items())
+             if lineno.get(nm) != ln or nm not in live or nm in SETTLED]
+    if stale:
+        print(f"PENDING rows no longer pending (settled, resolved, moved or renamed): {stale} — "
+              "take them out of PENDING")
+        unsettled = unsettled or [("stale pending", None, [])]
     print(f"found.psv — {len(rows)} people, {len(problems)} resemble somebody in the tree, "
           f"{len(unsettled)} of them unsettled"
           + (f", and {npending} PENDING a research decision since {PENDING_SINCE} (rows "

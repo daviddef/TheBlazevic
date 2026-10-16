@@ -93,7 +93,10 @@ try:
     # answered in corrections.json. Answering is a research task: the count may
     # only go DOWN, and any contradiction beyond these 137 fails the build.
     PENDING_SILENT = 137
-    if len(silent) <= PENDING_SILENT:
+    if len(silent) < PENDING_SILENT:
+        check("contradictions annotated on the person: the ratchet must come down", [len(silent)],
+              lambda b: f"{b} unanswered now, PENDING_SILENT is {PENDING_SILENT}: lower it to {b}")
+    elif len(silent) == PENDING_SILENT:
         print(f"ok    contradictions annotated on the person: {len(silent)} of the {PENDING_SILENT} "
               "pending since 16 October 2026 are unanswered (ratchet; it may only go down)")
     else:
