@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 473,
- "images": 489,
+ "count": 474,
+ "images": 490,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11295,6 +11295,41 @@
    "captured": "16 October 2026",
    "note": "notes/reading-2026-09-10.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/reading-2026-09-10.md"
+  },
+  {
+   "id": "senj-baptism-1837-ante-babic",
+   "entry": "senj-baptism-1837-ante-babic-entry.jpg",
+   "page": "",
+   "title": "Senj baptisms (cathedral book), p. 25, entry 71 — Joannes Antonius Babić, baptised 17 May 1837, son of the porter Augustinus Babić and Maria Jurčić",
+   "film": "Senj births (Rođeni) 1756–1858 (FamilySearch waypoint 9R2M-L27, 589 images)",
+   "where": "image 254 of 589, right-hand page (p. 25), entry 71",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51B9",
+   "says": "«1837 die 17 Maij in Ecclesia Cathedrali … baptisatus est» — Joannes Antonius, filius legitimus, Romano Catholicus; conditio Bajulus; parents «Augustinus Babich, conjux ejus Maria nata Jurcich, Romano Catholici». Latin, upright hand, legible; the godparents are not transcribed. The register gives a baptism date and no birth date. This is the baptism of the tree's Anton Ivan «Ante» Babić, the one entry of his seven siblings and himself that the FamilySearch index lacked.",
+   "slugs": [
+    "anton-ivan-babic",
+    "augustin-babic",
+    "maria-jurcic"
+   ],
+   "people": [
+    {
+     "slug": "anton-ivan-babic",
+     "kind": "people",
+     "name": "Anton Ivan \"Ante\" Babić"
+    },
+    {
+     "slug": "augustin-babic",
+     "kind": "people",
+     "name": "Augustin Babić"
+    },
+    {
+     "slug": "maria-jurcic",
+     "kind": "people",
+     "name": "Maria Jurcic"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/senj-baptism-1837-ante-babic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md"
   }
  ],
  "bySlug": {
@@ -12671,6 +12706,15 @@
   ],
   "josip-spalj-spalj": [
    "senj-birth-1886-milka-lucia-papic"
+  ],
+  "anton-ivan-babic": [
+   "senj-baptism-1837-ante-babic"
+  ],
+  "augustin-babic": [
+   "senj-baptism-1837-ante-babic"
+  ],
+  "maria-jurcic": [
+   "senj-baptism-1837-ante-babic"
   ]
  }
 }

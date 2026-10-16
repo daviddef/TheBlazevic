@@ -12,7 +12,7 @@
   "nothing": 45,
   "partial": 43,
   "pending": 6,
-  "yield": 140
+  "yield": 141
  },
  "read": [
   {
@@ -5146,6 +5146,29 @@
     [
      "/krmpotic/",
      "Krmpotić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Senj births 1756–1858, the cathedral book, one spread of 1837",
+   "key": "fs/senj-births-cathedral-1837",
+   "what": "Ante Babić's baptism, 1837 (the one entry of eight siblings the index lacked)",
+   "when": "17 Oct 2026",
+   "outcome": "yield",
+   "tags": [
+    "babic",
+    "senj",
+    "familysearch",
+    "baptisms"
+   ],
+   "waypoint": "9R2M-L27",
+   "pages": "254",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51B9?cc=2040054",
+   "got": "**Found: p. 25, entry 71, 17 May 1837** — [senj-baptism-1837-ante-babic](/snapshots/#senj-baptism-1837-ante-babic). *Joannes Antonius*, son of the porter (*bajulus*) Augustinus Babich and Maria née Jurcich. One spread read (image 254 of 589); the cathedral book has 10 entries to a spread, so it is a small book, and the volume holds other sequences that were not opened. The waypoint's image list is not in reliable year order.",
+   "ev": [
+    [
+     "/babic/",
+     "Babić"
     ]
    ]
   }
