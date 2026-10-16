@@ -160,7 +160,9 @@ def untracked_files():
     out = git("ls-files", "-z", "--others", "--exclude-standard")
     if out is None:
         return None
-    return [x for x in out.split("\0") if x and x.startswith(tuple(d + "/" for d in SCANNED_DIRS))]
+    # compiled python (CI's register.py import leaves one in sources/) is not a file anybody publishes
+    return [x for x in out.split("\0") if x and x.startswith(tuple(d + "/" for d in SCANNED_DIRS))
+            and "__pycache__" not in x and not x.endswith(".pyc")]
 
 
 def load_world(dist):
