@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 474,
- "images": 490,
+ "count": 475,
+ "images": 491,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11330,6 +11330,29 @@
    "captured": "17 October 2026",
    "note": "notes/senj-baptism-1837-ante-babic.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md"
+  },
+  {
+   "id": "karlobag-death-1809-lucia-maja-age",
+   "entry": "karlobag-death-1809-lucia-maja-age.jpg",
+   "page": "",
+   "title": "Karlobag, 19 September 1809 — the age in Lucia «Maja» Gergacs's death entry, re-read at full resolution: 34",
+   "film": "Karlobag deaths 1804–1861 (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 125, left-hand page (page 12), the entry «19» fourth from the foot: top strip the whole line, lower strip the age at about 4x",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J",
+   "says": "«Lucia, vulgo Maja, uxor Michaelis Gergacs, annorum 34, provisa omnibus sacramentis». Re-read at level 13 (full size) on 17 October 2026: the first figure is a 3 (two humps) and the second a 4 with a loop; it is not 44. The age as written is 34; whether it is right is a separate question.",
+   "slugs": [
+    "lucia-maja-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "lucia-maja-tomljanovic",
+     "kind": "people",
+     "name": "Lucia (Maja) Tomljanović"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/karlobag-gergacs-children-1787-1801.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-gergacs-children-1787-1801.md"
   }
  ],
  "bySlug": {
@@ -11377,7 +11400,8 @@
   ],
   "lucia-maja-tomljanovic": [
    "karlobag-marriage-1785",
-   "karlobag-death-1809-lucia-maja"
+   "karlobag-death-1809-lucia-maja",
+   "karlobag-death-1809-lucia-maja-age"
   ],
   "nicolaus-gerkacs": [
    "karlobag-marriage-1785",
