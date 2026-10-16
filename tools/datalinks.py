@@ -92,8 +92,10 @@ def main():
 
     # 2. /found/<slug>/ links from pages and data that no longer resolve
     slugs = found_slugs()
-    if slugs is None:
-        print("  note  datalinks  found.json is not built yet; slug check skipped")
+    if slugs is None or not slugs:
+        print("  FAIL  datalinks  found.json is missing or holds no rows, so no /found/ "
+              "link can be resolved; refusing to pass on an unasked question")
+        sys.exit(1)
     else:
         files = sorted(glob.glob(os.path.join(PAGES, "**", "*.astro"), recursive=True))
         files += [os.path.join(DATA, n) for n in FOUND_DATA

@@ -5115,6 +5115,32 @@
      "Boras"
     ]
    ]
+  },
+  {
+   "src": "FamilySearch index — Krivi Put births and burials, Pavelić, Krmpotić and neighbours",
+   "key": "fs/krivi-put-baptism-index",
+   "what": "Index hits for Krivi Put (the Mrzli Dol parish) for Pavelić, Krmpotić, Špalj and Blažević in all roles (Krmpotić mother-role part only); Tomljanović and Babić not reached",
+   "when": "17 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "pavelic",
+    "krmpotic",
+    "krivi-put",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "About 1,300 Krivi Put records kept in `sources/krivi-put-baptism-index.tsv`, roughly 720 of them baptisms (from 1847). **Backs two Pavelić facts**: Domnus Pavelić (14 February 1847, Stephanus Pavelich × Ana Blasevich) and Mile Blažević (9 August 1854, Nikola Blažević × Marija Pavelić). **Adds a child to Antun Krmpotić**: an Ana baptised 14 February 1878. **Not found:** Martinus Dujo Pavelić's baptism (1853). The query was stopped partway, so the other surnames are not covered, and the index's paging is unreliable for big windows. Index only; no page opened. Špalj: 136 records, a Krivi Put name from 1847. Blažević: a good many at Krivi Put, 1849 onward; Petar Blažević (1883) to Mile Blažević and Marija Pavelić backs a marriage the tree holds. The Blažević index records have not been matched person by person against the tree: a first automated match joined only 8 tree people with parent names to index baptisms (6 agree to the day, 1 differs by a month, 1 is probably a different child of the same parents).",
+   "ev": [
+    [
+     "/pavelic/",
+     "Pavelić"
+    ],
+    [
+     "/krmpotic/",
+     "Krmpotić"
+    ]
+   ]
   }
  ]
 }

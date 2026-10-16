@@ -76,11 +76,14 @@ def cited_names():
 
 def main():
     if not os.path.isdir(NOTES):
-        print("  ok    notes      no notes/ directory")
-        return
+        print("  FAIL  notes      no notes/ directory -- nothing was examined")
+        sys.exit(1)
     cited = cited_names()
     on_disk = sorted(os.path.basename(p) for p in glob.glob(os.path.join(NOTES, "*"))
                      if os.path.isfile(p))
+    if not on_disk:
+        print("  FAIL  notes      notes/ holds no files -- nothing was examined")
+        sys.exit(1)
     orphans, excused = [], 0
     for name in on_disk:
         if name in cited:

@@ -1130,13 +1130,21 @@ def main():
         p = by.get(slug)
         return [q.get("name") for q in ((p or {}).get("rel", {}) or {}).get("parents") or []]
 
-    rows, lineno = [], {}
+    rows, malformed, lineno = [], [], {}
     for n, line in enumerate(open(FOUND, encoding="utf-8"), 1):
         line = line.rstrip("\n")
-        if not line.strip() or line.startswith("#") or line.count("|") != 6:
+        if not line.strip() or line.startswith("#"):
+            continue
+        if line.count("|") != 6:
+            malformed.append(n)
             continue
         rows.append([x.strip() for x in line.split("|")])
         lineno.setdefault(rows[-1][0], n)
+    if malformed or not rows or not people:
+        print(f"found.psv — REFUSED: {len(rows)} usable row(s), {len(people)} published "
+              f"people, {len(malformed)} malformed line(s) {malformed[:10]}; a check that "
+              f"examined nobody has not passed")
+        return 1
 
     problems = []
     for name, ahn, relation, event, date, place, cite in rows:
