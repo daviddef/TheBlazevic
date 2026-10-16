@@ -1,9 +1,9 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 193,
-  "people": 119,
-  "derived": 70,
+  "rows": 194,
+  "people": 122,
+  "derived": 72,
   "onDirectLine": 0,
   "indexOnly": 19,
   "earliest": 1725,
@@ -12,7 +12,7 @@
  "kinds": [
   [
    "baptism",
-   46
+   47
   ],
   [
    "baptism-of-child",
@@ -1412,6 +1412,20 @@
    "indexOnly": false,
    "slug": "maria-jellicic",
    "name": "Maria Jelličić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1837",
+   "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-baptism-1837-ante-babic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md",
+   "indexOnly": false,
+   "slug": "anton-ivan-babic",
+   "name": "Anton Ivan \"Ante\" Babić",
    "ahn": null
   },
   {
@@ -6080,6 +6094,26 @@
    "direct": 8,
    "derived": 2
   },
+  "anton-ivan-babic": {
+   "slug": "anton-ivan-babic",
+   "name": "Anton Ivan \"Ante\" Babić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1837",
+     "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-baptism-1837-ante-babic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -6747,6 +6781,46 @@
      "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
      "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "augustin-babic": {
+   "slug": "augustin-babic",
+   "name": "Augustin Babić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1837",
+     "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
+     "derived": true,
+     "via": "anton-ivan-babic",
+     "viaName": "Anton Ivan \"Ante\" Babić",
+     "where": "notes/senj-baptism-1837-ante-babic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-jurcic": {
+   "slug": "maria-jurcic",
+   "name": "Maria Jurcic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1837",
+     "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
+     "derived": true,
+     "via": "anton-ivan-babic",
+     "viaName": "Anton Ivan \"Ante\" Babić",
+     "where": "notes/senj-baptism-1837-ante-babic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md",
+     "indexOnly": false
     }
    ],
    "direct": 0,
