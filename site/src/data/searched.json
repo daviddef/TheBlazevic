@@ -12,7 +12,7 @@
   "nothing": 45,
   "partial": 43,
   "pending": 6,
-  "yield": 141
+  "yield": 142
  },
  "read": [
   {
@@ -5169,6 +5169,28 @@
     [
      "/babic/",
      "Babić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Karlobag baptisms to Michael Gergacs and Lucia, 1780–1815",
+   "key": "fs/karlobag-gergacs-index",
+   "what": "Baptisms with father surname Gergacs/Gerkacs/Gerkacz/Jerkacs at Karlobag: whether one Lucia or two bore Michael's children",
+   "when": "17 Oct 2026",
+   "outcome": "yield",
+   "tags": [
+    "tomljanovic",
+    "uroda",
+    "karlobag",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "**Five baptisms, 1787–1801, all with mother Lucia** — Magdalena (1787), Maria (1789, ahnentafel 55), Catharina (1794), Bartholomæus (1797), Mathia (1801); four are not in the tree. Does not settle one Lucia versus two: a five-year gap lies between 1789 and 1794. Index only; the 1809 death page is not re-read. Note: notes/karlobag-gergacs-children-1787-1801.md.",
+   "ev": [
+    [
+     "/tomljanovic/",
+     "Tomljanović"
     ]
    ]
   }

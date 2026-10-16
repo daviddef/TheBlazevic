@@ -37,7 +37,7 @@ and borne Maria, ahnentafel 55, at **fourteen** in August 1789. Either the age i
 the register (this register's ages are good to a year or two elsewhere — her daughter's was
 exact — so a wrong age by twenty years would be unusual), or this is a **different Lucia,
 also Michael Gergacs's wife**: a second marriage after 1789 would fit an age of 34, and the
-by-name «Maja» might then be a coincidence of a common nickname. **This archive does not
+by-name «Maja» might then be a coincidence of a common nickname. **Addendum 17 October 2026: five baptisms of 1787–1801 name Michael's wife as Lucia and add four children, but cannot tell one Lucia from two (a five-year gap lies between 1789 and 1794) — see [karlobag-gergacs-children-1787-1801.md](karlobag-gergacs-children-1787-1801.md).** The age is not re-read here. Original text: **This archive does not
 choose.** The entry is recorded as evidence that a Lucia «Maja», wife of Michael Gergacs,
 died on the day the tree says; it is not recorded as evidence of her age or birth.
 
