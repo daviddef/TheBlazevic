@@ -47,8 +47,10 @@ const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "")
     </section>
   )}
 
-  <section class="blk">
-    <p class="dek"><a href={u(`/who/${slugify(p.name)}/`)}>Everyone in this archive called
-    {" "}{p.name} →</a></p>
-  </section>
+  {slugify(p.name) && (
+    <section class="blk">
+      <p class="dek"><a href={u(`/who/${slugify(p.name)}/`)}>Everyone in this archive called
+      {" "}{p.name} →</a></p>
+    </section>
+  )}
 </Base>

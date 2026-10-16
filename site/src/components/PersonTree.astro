@@ -18,8 +18,11 @@
  * the tree. Where a link IS documented, the correction block above the chart
  * says so in words.
  *
- * Living relatives arrive already withheld from the data layer and are drawn as
- * a gap, never as a name.
+ * A living relative is drawn as a NAME and nothing else (since 16 October 2026):
+ * no years, no mark of evidence, a link only where the archive has a page for
+ * them. Until that day they were drawn as a gap. The data layer
+ * (tools/build_site_data.py) never hands this component more than a name, a slug
+ * and a flag, so there is nothing here to withhold.
  */
 import { u } from "../lib/url.js";
 import evidence from "../data/evidence.json";
@@ -30,7 +33,7 @@ const { person: p, parents = [], spouses = [], children = [], siblings = [] } = 
 
 const st = (r) => (r.slug && evidence[r.slug]?.state) || (r.slug ? "tree" : "none");
 const yrs = (r) => {
-  if (r.withheld) return "";
+  if (r.living) return "";
   const b = r.born, d = r.died;
   if (b && d) return `${b}–${d}`;
   if (b) return `b. ${b}`;
@@ -47,22 +50,29 @@ const WORD = {
 // records-matcher invents one person out of two.
 const clash = (rows) => {
   const seen = {};
-  for (const r of rows) if (!r.withheld) seen[r.name] = (seen[r.name] || 0) + 1;
+  for (const r of rows) if (!r.living) seen[r.name] = (seen[r.name] || 0) + 1;
   return Object.entries(seen).filter(([, n]) => n > 1).map(([n]) => n);
 };
 const clashKids = clash(children);
 const clashOther = [...new Set([...clash(siblings), ...clash(parents)])];
 
 const all = [...parents, ...spouses, ...children, ...siblings];
-const withheld = all.filter((r) => r.withheld).length;
-const nopage = all.filter((r) => !r.withheld && !r.slug).length;
-const counted = all.filter((r) => !r.withheld && r.slug);
+const living = all.filter((r) => r.living).length;
+const nopage = all.filter((r) => !r.living && !r.slug).length;
+const counted = all.filter((r) => !r.living && r.slug);
 const evidenced = counted.filter((r) => ["read", "scanned"].includes(st(r))).length;
 
-/* A withheld relative is a gap with a legend where the name would be, never a
-   name. A relative outside the eight surnames has no page to link to. */
-const row = (r, gapText) => r.withheld
-  ? { gap: true, name: gapText }
+/* A living relative is a name and a link: no years, no evidence mark. Every
+   person this archive names has a page of their own. */
+const LIVING_MARK = "living";
+const row = (r) => r.living
+  ? {
+      name: r.name,
+      href: r.slug ? u("/people/" + r.slug) : undefined,
+      dates: "",
+      cls: "via-none",
+      mark: LIVING_MARK,
+    }
   : {
       name: r.name,
       href: r.slug ? u("/people/" + r.slug) : undefined,
@@ -71,24 +81,24 @@ const row = (r, gapText) => r.withheld
       mark: r.slug ? WORD[st(r)] : "not published here",
       title: r.slug ? "What is known of them: " + WORD[st(r)] : undefined,
     };
-const spouse = (r) => r.withheld
-  ? { gap: true, name: "— living, withheld —" }
-  : {
-      ...row(r, ""),
-      mar: r.marriedDate ? "married " + r.marriedDate : "married",
-      dates: r.slug ? yrs(r) : "",
-    };
-const kin = (r) => row(r, "— living, withheld —");
+const spouse = (r) => ({
+  ...row(r),
+  mar: r.living ? "married" : (r.marriedDate ? "married " + r.marriedDate : "married"),
+  dates: r.living ? "" : (r.slug ? yrs(r) : ""),
+});
+const isLiving = !!p.living;
 ---
 <PersonTree
-  self={{ name: p.name,
-          dates: (p.born || p.died) ? `${p.born || "?"}–${p.died || "?"}` : "",
-          gen: p.ahn ? `generation ${p.gen} · ahnentafel ${p.ahn}` : "",
-          note: p.ahn ? "" : p.surname }}
-  parents={parents.map(kin)}
+  self={isLiving
+    ? { name: p.name, dates: "", gen: "", note: LIVING_MARK, noteCls: "living" }
+    : { name: p.name,
+        dates: (p.born || p.died) ? `${p.born || "?"}–${p.died || "?"}` : "",
+        gen: p.ahn ? `generation ${p.gen} · ahnentafel ${p.ahn}` : "",
+        note: p.ahn ? "" : p.surname }}
+  parents={parents.map(row)}
   spouses={spouses.map(spouse)}
-  children={children.map(kin)}
-  siblings={siblings.map((r) => row(r, "— withheld —"))}
+  children={children.map(row)}
+  siblings={siblings.map(row)}
   keys={[
     { cls: "line", label: "a direct ancestor" },
     { cls: "read", label: "a record has been read for them" },
@@ -97,16 +107,24 @@ const kin = (r) => row(r, "— living, withheld —");
   ]}
 >
   <Fragment slot="notes">
-    <p class="note-line"><strong>The mark describes the person, not the link.</strong> Of the
+    {isLiving && (
+      <p class="note-line"><strong>This is a living person, so only their relationships are
+      drawn.</strong> Relatives who have died keep the years and the marks they have on their
+      own pages; a relative who is living is named and nothing more. The links are from the
+      family tree, and nothing here has been checked against a record.
+      {living > 0 && <span> {living} {living === 1 ? "relative is" : "relatives are"} living.</span>}</p>
+    )}
+    {!isLiving && (<p class="note-line"><strong>The mark describes the person, not the link.</strong> Of the
     {" "}{counted.length} relatives drawn here, <strong>{evidenced}</strong> have a document of
     their own in this archive — but that is not the same as a document tying them to
     <em> this</em> person. <strong>This archive holds no separate proof for most parent–child
     links</strong>; where it does, the note above this chart says so in words.
     {nopage > 0 && <span> {nopage} {nopage === 1 ? "relative is" : "relatives are"} named in the
       tree but fall outside <a href={u("/families/")}>the eight surnames</a> and have no page.</span>}
-    {withheld > 0 && <span> {withheld} {withheld === 1 ? "is" : "are"} judged
-      <strong> living</strong> and withheld from this build entirely.</span>}
-    </p>
+    {living > 0 && <span> {living} {living === 1 ? "is" : "are"} living, and
+      {living === 1 ? " is" : " are"} named here with nothing more: no dates, no records, no
+      evidence mark.</span>}
+    </p>)}
 
     {clashKids.length > 0 && (
       <p class="warn"><strong>Two children here carry one name</strong> — {clashKids.join(", ")}.

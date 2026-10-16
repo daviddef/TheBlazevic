@@ -5,6 +5,7 @@ import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+import living from "../../data/living.json";
 
 function slugify(s) {
   return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -15,8 +16,16 @@ const by = new Map();
 for (const p of people) {
   if (!p.name) continue;
   const k = slugify(p.name);
+  if (!k) continue;
   if (!by.has(k)) by.set(k, { name: p.name, n: 0 });
   by.get(k).n += 1;
+}
+/* A living person is counted under a name that somebody who has died also bore.
+   A name borne ONLY by the living is not listed here: its page is kept out of
+   search engines, and an index that anyone can crawl is the wrong place for it. */
+for (const p of living) {
+  const k = slugify(p.name);
+  if (by.has(k)) by.get(k).n += 1;
 }
 const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
   .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));

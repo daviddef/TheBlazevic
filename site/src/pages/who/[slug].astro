@@ -5,28 +5,39 @@ import Base from "../../layouts/Base.astro";
 import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+import living from "../../data/living.json";
 
 export function getStaticPaths() {
   const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
   const by = new Map();
-  for (const p of people) {
+  /* THE LIVING ARE BEARERS OF A NAME TOO. A name page whose every bearer is
+     living is noindex (and carries no canonical, because there is nothing
+     else to point at); a page with at least one person who has died stays
+     as it was and lists the living bearers by name, town and country. */
+  for (const p of [...people, ...living]) {
     if (!p.name || !p.slug) continue;
     const k = slugify(p.name);
+    if (!k) continue;           // a name with no letters or digits has no name page
     if (!by.has(k)) by.set(k, { name: p.name, rows: [] });
     by.get(k).rows.push(p);
   }
-  return [...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v }));
+  return [...by.entries()].map(([slug, v]) =>
+    ({ params: { slug }, props: { ...v, allLiving: v.rows.every((r) => r.living) } }));
 }
 
-const { name, rows } = Astro.props;
-const listed = rows.map(p => ({
+const { name, rows, allLiving } = Astro.props;
+const listed = rows.map(p => p.living ? ({
+  name: p.name, slug: p.slug,
+  life: "living — named only",
+  where: [p.town, p.country].filter(Boolean).join(", "),
+}) : ({
   name: p.name, slug: p.slug,
   life: [p.born, p.died].filter(Boolean).join(" – "),
   where: p.bornPlace || p.diedPlace || "",
 }));
 ---
-<Base title={name}
+<Base title={name} noindex={allLiving}
       eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
       dek={rows.length > 1
         ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`

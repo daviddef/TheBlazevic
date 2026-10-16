@@ -12,6 +12,7 @@ import recent from "../data/recent.json";
 import line from "../data/line.json";
 import families from "../data/families.json";
 import register from "../data/people.json";
+import livingRows from "../data/living.json";
 import ancestors from "../data/ancestors.json";
 import atlas from "../../public/atlas-data.json";
 import sov from "../data/sovereignty.json";
@@ -38,15 +39,12 @@ const zubrinic = families.find((f) => f.slug === "zubrinic");
    columns are read off their own records — hers from hers, never his
    standing in for both. */
 const REL = new Map(register.map((r) => [r.id, r.rel || {}]));
-const REC = new Map(register.map((r) => [r.id, r]));
-const cardOf = (x) => {
-  const full = REC.get(x.id) || {};
-  return {
-    name: x.name,
-    href: x.slug && !full.living ? `/people/${x.slug}/` : null,
-    dates: full.living ? "" : [x.born, x.died].filter(Boolean).join("\u2013"),
-  };
-};
+const cardOf = (x) => ({
+  name: x.name,
+  /* every person this archive names has a page; a living person carries no years */
+  href: x.slug ? `/people/${x.slug}/` : null,
+  dates: x.living ? "" : [x.born, x.died].filter(Boolean).join("\u2013"),
+});
 const spineRows = line.map((p) => {
   const rel = REL.get(p.id) || {};
   const sp = (rel.spouses || [])[0] || null;
@@ -123,8 +121,9 @@ const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }
 
   
   <p class="lede" style="margin-top:14px">
-    It is a public archive with one rule: <b>living people are absent from this build</b> — not
-    hidden, not gated, never written into the site at all. And a second rule,
+    It is a public archive with one rule: <b>a living person (80 or younger, with no death
+    recorded) is named with their relationships and their town and country, and nothing more</b>.
+    And a second rule,
     which is harder: <b>every claim says how well it is known</b>.
     <span class="chip doc" style="padding:2px 8px;font-size:10px">Documented</span>
     <span class="chip inf" style="padding:2px 8px;font-size:10px">Inferred</span>
@@ -243,7 +242,7 @@ const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }
     [blazevic.earliest, "the earliest Blažević birth year in the tree", u("/how-far-back/")],
     [zubrinic.count, "Žubrinići — of a surname held by about 312 people on earth", u("/families/")],
     [35, "people born at one address: Krivi Put 136", u("/places/")],
-    [2034, "people judged living and withheld from this build entirely", u("/method/")],
+    [livingRows.length, "living people, each named with relationships, a town and a country and nothing more", u("/method/#living")],
   ]} />
 
   <section class="blk" style="border-bottom:0">

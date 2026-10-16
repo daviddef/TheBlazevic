@@ -21,23 +21,17 @@ const surplus = (D.groups || []).filter((g) => !g.tier.startsWith("rejected"))
 const distinct = rows.length - surplus;
 const pctLinked = Math.round(100 * B.connected / B.publishedTotal);
 
-/* WHY 13% OF THE CHILDREN THIS ARCHIVE DRAWS ARE NOT LINKS, decomposed rather
-   than asserted. Asked on 23 September 2026 after a sibling session measured
-   «2,497 children drawn, 2,167 linked» against five archives that link 100%,
-   and read the shortfall as the estate's last content gap.
-   It is three different things and only one of them is a gap:
-     * a living person this archive WITHHOLDS — no name, no page, by policy;
+/* WHY SOME OF THE CHILDREN THIS ARCHIVE DRAWS ARE NOT LINKS, decomposed rather
+   than asserted. Every person the archive names has a page since 16 October
+   2026, so what is left is what is not a person or is not a named relative:
      * a MyHeritage sorting bucket, which is a label and not a person;
-     * a real person of a surname this archive does not publish.
-   The comparison is also not like-for-like: the archives at 100% publish a
-   name-only page for their living people, so every child links. This one
-   withholds them, and scores lower for showing the gap instead of filling it.
+     * a real person of a surname this archive does not publish, drawn as a bare
+       child of somebody who is published and not yet given a page.
    All of it is counted here, never typed. */
 const kidRows = people.flatMap((p) => (p.rel && p.rel.children) || []);
 const kidsLinked = kidRows.filter((c) => c.slug).length;
-const kidsWithheld = kidRows.filter((c) => !c.slug && c.withheld).length;
-const unlinkedIds = new Set(kidRows.filter((c) => !c.slug && !c.withheld && c.id).map((c) => c.id));
-const unlinkedPeople = [...new Set(kidRows.filter((c) => !c.slug && !c.withheld).map((c) => c.id))];
+const unlinkedIds = new Set(kidRows.filter((c) => !c.slug && c.id).map((c) => c.id));
+const unlinkedPeople = [...new Set(kidRows.filter((c) => !c.slug).map((c) => c.id))];
 const byId = new Map(kidRows.filter((c) => c.id).map((c) => [c.id, c]));
 const isLabel = (n) => !!n && (/[:,]/.test(n) || /^[A-Z][A-Z &'\-]{3,}/.test(n)
   || /\b(Unknown|Sorting|Working|Lines)\b/i.test(n));
@@ -56,7 +50,7 @@ const franceschi = Object.entries(kidSur)
   .filter(([s]) => /franceschi|franceski/i.test(s)).reduce((a, [, n]) => a + n, 0);
 ---
 <Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
-  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not here. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
+  dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not listed here; each has a page of their own, with their relationships and their town and country and nothing more. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
 
 <NameLists here="people" u={u} />
 
@@ -127,11 +121,6 @@ const franceschi = Object.entries(kidSur)
     link <strong>{kidsLinked.toLocaleString()}</strong> of them. <strong>The rest is not one thing,
     and only part of it is a gap.</strong></p>
     <table class="kv">
-      <tr><th class="warn">{kidsWithheld} withheld</th><td><strong>Living people.</strong> They are
-        drawn as an unnamed slot with no page, deliberately. It is the rule this
-        archive applies everywhere: a person who may be alive gets no page, and in most places not
-        even a name. <strong>These can never become links</strong>, and an archive that scores 100%
-        here is one that publishes a name-only page for its living relatives instead.</td></tr>
       <tr><th class="warn">{unlinkedLabels} labels</th><td><strong>Not people.</strong> MyHeritage
         <a href={u("/buckets/")}>sorting buckets</a> standing where a parent or child should be —
         «AUSTRIA: De Franceschi», «ZAGREB Defranceski's». A page for one of these would be a page

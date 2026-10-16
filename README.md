@@ -45,18 +45,20 @@ Krmpotska** — and of Otočac, Krivi Put, Selce, Karlobag, Port Pirie and Johan
 | **Disputed** | Asserted in the family record but unsupported, or contradicted, by what can be seen. |
 | **Family lore** | Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history. |
 
-**Living people are omitted from the build entirely** — not hidden, not gated, not present in the
-output. The rule is applied once, in `classify_living()` in `tools/gedcom.py`, at the boundary
-between the research data and the published site.
-
-Because thousands of people in a tree this size carry no dates at all, judging each by their own
-record alone marks every one of them living — safe, but useless. So the build computes an **upper
-bound on each person's birth year** from their own events, their children's births, their marriages
-and their parents' bounds, and publishes somebody only when *even the latest year they could have
-been born* is more than a century ago. Every step is a real bound, never a guess, and a recorded
-birth is never overridden by inference. On the current export that judges **2,034 of 15,643** people
-living. A living spouse, parent or child is not named on anybody else's page either. A removal
-request is honoured within days, without argument and without requiring a reason.
+**A living person (80 or younger, with no death recorded) is named with their relationships and their
+town and country, and nothing more.** No dates, no records, no sources, no photograph, no structured
+data; their page is `noindex` (which also keeps it out of the sitemap and the search index), and so is
+a name page whose every bearer is living. The test is the estate's one rule, `kit/tools/living_rule.py`,
+used through `tools/livingset.py`: living is born 80 years ago or less by year with no death or burial
+recorded (a death read in `documented.psv`, a grave photograph or a surveyed stone count as recorded); a
+citation from a public record source means not living; nobody without a birth year is living. A person
+with no birth year and a living parent is **held out**: no page, no name as anyone's relative (the rule,
+by rule and never by person, is in `sources/living-rule.json`). Every person the archive names has a page.
+The rule is applied once, in `tools/build_site_data.py`, which never writes a living person's dates,
+events, notes, sources, occupations, burial or cause of death to anything under `site/src/data`. The gate
+is `tools/livingcheck.py` (`npm run check:living-standard`, part of `npm run build`): it recomputes who is
+living from the tree, independently of the generator, and `--selftest` plants a fault for every rule. A
+removal request is honoured within days, without argument and without requiring a reason.
 
 Two further things the build does, and admits to:
 

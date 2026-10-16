@@ -6,12 +6,14 @@ import Base from "../layouts/Base.astro";
 import About from "@daviddef/archive-kit/components/About.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
+import living from "../data/living.json";
 import places from "../data/places.json";
 import register from "../data/register.json";
 import corrections from "../data/corrections.json";
 
 const holds = [
-  { n: people.length, what: "people named", href: "/people/" },
+  { n: people.length, what: "people who have died, each with a page", href: "/people/" },
+  { n: living.length, what: "living people, each with a name, relationships, a town and a country and nothing more", href: "/method/#living" },
   { n: register.length, what: "records in the register", href: "/register/" },
   { n: places.length, what: "places", href: "/places/" },
   { n: corrections.length, what: "corrections it has made to itself", href: "/corrections/" },
@@ -20,5 +22,6 @@ const holds = [
 <Base title="About"
       eyebrow="What this archive is, and what it will not say"
       dek="Every claim here carries one of five words, every correction it has had to make is published, and living people are named and nothing more. What it holds is counted from its own data, not asserted.">
-  <About holds={holds} u={u} name="The Blažević Archive" />
+  <About holds={holds} u={u} name="The Blažević Archive"
+    living="A living person (80 or younger, with no death recorded) is named with their relationships and their town and country, and nothing more." />
 </Base>

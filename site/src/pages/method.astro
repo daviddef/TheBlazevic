@@ -55,44 +55,51 @@ import { u } from "../lib/url.js";
     </table>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="living">
     <div class="lab">The rule that governs the whole build</div>
-    <h2>Living people are not here</h2>
-    <p class="lede">They are not hidden, not gated, not present in the output. The rule is applied
-    once, in <code class="mono">classify_living()</code>, at the boundary between the research data
-    and the published site.</p>
-    <p>Because thousands of people in a tree this size carry no dates at all, judging each by their
-    own record alone marks every one of them living — safe, but useless. So the build computes an
-    <strong>upper bound on each person's birth year</strong> from their own events, their children's
-    births, their marriages and their parents' bounds, and publishes somebody only when
-    <em>even the latest year they could have been born</em> is more than a century ago.</p>
+    <h2>A living person is named, and nothing more</h2>
+    <p class="lede">A living person (80 or younger, with no death recorded) is named with their
+    relationships and their town and country, and nothing more. No dates, no records, no sources, no
+    photograph, no structured data. Their page is kept out of search engines and out of the sitemap,
+    and so is a name page whose every bearer is living.</p>
+    <p>The rule is the one every family archive shares, written once in the kit
+    (<code class="mono">kit/tools/living_rule.py</code>) and used here through
+    <code class="mono">tools/livingset.py</code>:</p>
     <ul class="plain">
-      <li>a recorded birth or christening → born in that year, exactly</li>
-      <li>any recorded event in year E → born no later than E</li>
-      <li>a child born in year C → born no later than C − 14</li>
-      <li>a marriage in year M → born no later than M − 14</li>
-      <li>a parent whose bound is P → born no later than P + 60</li>
+      <li><strong>Living</strong> is born 80 years ago or less, counted by year (this year minus the
+        birth year), with no death or burial recorded.</li>
+      <li><strong>A death or a burial in the tree</strong>, dated or not, means dead; so does a death
+        read in <code class="mono">sources/documented.psv</code>, a grave photograph, or a surveyed stone
+        that carries their name, birth year and a death year.</li>
+      <li><strong>A public source</strong> (a citation from FamilySearch, a MyHeritage record
+        collection, Findmypast and the others the kit lists) means the person is not treated as
+        living. A private family-tree entry does not count.</li>
+      <li><strong>Nobody with no birth year</strong> is living: it cannot be shown that they are 80
+        or younger.</li>
+      <li><strong>A child follows the same rule.</strong> A child with a known birth year is named like
+        any living person.</li>
+      <li><strong>Held out:</strong> an undated person (no birth year) with a living parent, who might
+        be a child, is not published at all: no page and no name as anyone's relative. The rule is
+        written down, by rule and never by person, in
+        <code class="mono">sources/living-rule.json</code>.</li>
     </ul>
-    <p style="margin-top:1rem">Every step is a real bound, never a guess, and a recorded birth is
-    never overridden by inference. On the current export that judges
-    <strong>2,034 of 15,643</strong> people living. A living spouse, parent or child is not named on
-    anybody else's page either. <strong>A removal request is honoured within days, without argument
-    and without requiring a reason.</strong></p>
-
-    <div class="note" style="margin-top:1.3rem"><strong>This is stricter than its sister
-    archives, and the difference is deliberate.</strong> The
-    <a href="https://archive.defranceski.com/" rel="noopener">Defranceschi archive</a>
-    publishes living people <em>by name only — no dates, no places, no photographs</em>, and the
-    Falco archive moved to the same rule in September 2026, naming 104 of them. This archive names
-    <strong>none of its 2,034</strong>.<br /><br />
-    Two reasons, and only one of them is principle. The scale is different — 2,034 living people
-    against Falco's 104 — and a rule that is comfortable for a hundred relatives is a different
-    proposition for two thousand. And this archive is about <strong>one woman who died in
-    2001</strong>: almost nothing it argues depends on anybody alive. Where a living person is the
-    only link in a chain, the page says <em>“living, withheld”</em> and the chain is shown broken
-    rather than quietly completed.<br /><br />
-    <strong>It is a divergence, not an oversight</strong>, and it is written here so that a reader
-    moving between the family sites is not left wondering which rule is in force.</div>
+    <p style="margin-top:1rem">The generator (<code class="mono">tools/build_site_data.py</code>) never
+    writes a living person's dates, events, notes, sources, occupations, burial or cause of death to any
+    file the site reads, and a build gate (<code class="mono">check:living-standard</code>) recomputes who
+    is living from the tree with the kit's rule, independently, and refuses the build if any of it breaks.</p>
+    <p style="margin-top:1rem"><strong>The town and country</strong> are the birthplace in the tree, cut
+    down to the town and the country: the county, the region, a street, an address, a hospital or a care
+    home is dropped before anything is written. A residence or a census place of a living person is never
+    read.</p>
+    <p style="margin-top:1rem"><strong>Every person this archive names has a page of their own</strong>,
+    living or dead: a relative on somebody's family chart, or somebody tagged on a photograph, is a person
+    with a page. It does not spread: a person who is published only because somebody named them lists only
+    the relatives who already have pages.</p>
+    <p style="margin-top:1rem"><strong>A removal request is honoured within days, without argument and
+    without requiring a reason.</strong></p>
+    <div class="note" style="margin-top:1.3rem">Until 16 October 2026 this archive named none of its
+    living people, drew them as a gap, and judged somebody living unless a century had passed. All the
+    family archives now follow one standard, and this page says what this one does under it.</div>
   </section>
 
   <section class="blk">

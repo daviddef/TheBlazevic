@@ -17,9 +17,14 @@ import buckets from "../../data/buckets.json";
 import PersonTree from "../../components/PersonTree.astro";
 import found from "../../data/found.json";
 import ancestors from "../../data/ancestors.json";
+import living from "../../data/living.json";
+import LivingPerson from "../../components/LivingPerson.astro";
 
+/* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: a name, a
+   town and a country, a family chart, and nothing else (components/LivingPerson).
+   Everything below the frontmatter is the page of a person who has died. */
 export function getStaticPaths() {
-  return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+  return [...people, ...living].map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
 
@@ -117,6 +122,7 @@ const dup = (dupes.groups || []).find(
 const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
   .filter((x) => x.slug !== p.slug) : [];
 ---
+{p.living ? <LivingPerson p={p} /> : (
 <Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
 
@@ -471,3 +477,4 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
   )}
 
 </Base>
+)}
