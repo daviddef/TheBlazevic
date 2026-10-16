@@ -676,13 +676,13 @@ class Ged:
                     if x.get("living") and fold(x["name"]) not in self.named_fold:
                         out.append(("GED-DEAD", r.get("slug", "?"),
                                     "a living relation entry whose name is nobody the rule names"))
-                    elif not x.get("living") and x.get("id") in self.living:
+                    elif not x.get("living") and x.get("id") in (self.living | self.held):
                         out.append(("GED-LIVEDEAD", r.get("slug", "?"),
                                     "a relation entry carries a living person's years as if they had died"))
         for r in list(w["people"]) + list(w["ancestors"]):
-            if r.get("id") in self.living:
+            if r.get("id") in (self.living | self.held):
                 out.append(("GED-LIVEDEAD", r.get("slug", "?"),
-                            "a living person is published as somebody who has died"))
+                            "a living or held-out person is published as somebody who has died"))
         rule = w.get("rule") or {}
         counts = rule.get("counts") or {}
         want = {"living": len(self.living), "heldOut": len(self.held),
@@ -1035,9 +1035,8 @@ def selftest_ged(w):
     src = next(((i, s_) for i in (ids[k] for k in ids) for s_ in ged.people[i]["sources"] if len(s_) >= 12), None)
     if src:
         slug = next(k for k, v in ids.items() if v == src[0])
-        res.append(scan("a source the tree holds for a published living person, on their page", "GED-SOURCE",
-                        {"dist:" + page_path(slug): f"<li>{htmllib.escape(src[1])}</li>"}) or
-                   hit("a source on their page", "GED-SOURCE", rule_ged(w, ged, {"dist:" + page_path(slug): f"<li>{htmllib.escape(src[1])}</li>"})[0]))
+        res.append(hit("a source the tree holds for a published living person, on their page", "GED-SOURCE",
+                       rule_ged(w, ged, {"dist:" + page_path(slug): f"<li>{htmllib.escape(src[1])}</li>"})[0]))
     else:
         print("  note      no published living person has a source string to plant; GED-SOURCE not exercised")
     return ok and all(res)
