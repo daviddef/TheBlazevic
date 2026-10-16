@@ -11,15 +11,6 @@
  {
   "kind": "child-after-parent-death",
   "sev": 1,
-  "id": "@I506363@",
-  "name": "Budimir Boras",
-  "slug": "budimir-boras",
-  "msg": "died 20 MAR 1954, but Vladimira Boras born 1960",
-  "cause": "record"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 1,
   "id": "@I508659@",
   "name": "Domianus \"Domian\" Perpić",
   "slug": "domianus-perpic",
@@ -47,42 +38,6 @@
  {
   "kind": "child-after-parent-death",
   "sev": 1,
-  "id": "@I504977@",
-  "name": "Ivan de Franceschi",
-  "slug": null,
-  "msg": "died 27 MAR 1896, but Anamarija Anisija Franceschi born 1938",
-  "cause": "namesake"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 1,
-  "id": "@I504977@",
-  "name": "Ivan de Franceschi",
-  "slug": null,
-  "msg": "died 27 MAR 1896, but Maja Franceschi born 1941",
-  "cause": "namesake"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 1,
-  "id": "@I504977@",
-  "name": "Ivan de Franceschi",
-  "slug": null,
-  "msg": "died 27 MAR 1896, but Vjeko Josip Franceschi born 1941",
-  "cause": "namesake"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 1,
-  "id": "@I504977@",
-  "name": "Ivan de Franceschi",
-  "slug": null,
-  "msg": "died 27 MAR 1896, but Ante Tonči Franceschi born 1944",
-  "cause": "namesake"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 1,
   "id": "@I506361@",
   "name": "Joannes Ivan Boras",
   "slug": "joannes-ivan-boras",
@@ -103,7 +58,7 @@
   "sev": 1,
   "id": "@I509424@",
   "name": "Luka Katnic",
-  "slug": null,
+  "slug": "luka-katnic",
   "msg": "died 10 DEC 1755, but Margaretha Jankovic born 1757",
   "cause": "record"
  },
@@ -112,7 +67,7 @@
   "sev": 1,
   "id": "@I509424@",
   "name": "Luka Katnic",
-  "slug": null,
+  "slug": "luka-katnic",
   "msg": "died 10 DEC 1755, but Magdalena born 1768",
   "cause": "record"
  },
@@ -279,48 +234,12 @@
   "cause": "record"
  },
  {
-  "kind": "died-before-born",
-  "sev": 1,
-  "id": "@I507975@",
-  "name": "Maria Nelida Purtscher Dibar",
-  "slug": null,
-  "msg": "born 2024, died 2009",
-  "cause": "record"
- },
- {
   "kind": "impossible-generation-gap",
   "sev": 1,
   "id": "@I3443@",
   "name": "Caetano Bacchi",
   "slug": "caetano-bacchi",
   "msg": "born 12 January 1779 (Maybe), but through undated Oliva Andreana Bacchi the grandchild Oliva Maria Smojver is born 1781 — 2 years for two generations",
-  "cause": "hedged"
- },
- {
-  "kind": "married-after-death",
-  "sev": 1,
-  "id": "@I508049@",
-  "name": "Pasquina Giovanna Figoni",
-  "slug": null,
-  "msg": "died 1870, married 15 SEP 1902",
-  "cause": "record"
- },
- {
-  "kind": "married-before-birth",
-  "sev": 1,
-  "id": "@I509568@",
-  "name": "Hector Defranceschi",
-  "slug": null,
-  "msg": "born 22 JAN 1896, married 16 FEB 1835",
-  "cause": "record"
- },
- {
-  "kind": "child-after-parent-death",
-  "sev": 2,
-  "id": "@I506126@",
-  "name": "Antonio de Franceschi",
-  "slug": null,
-  "msg": "died AFT 1926, but Bruno de Franceschi born 1939",
   "cause": "hedged"
  },
  {
@@ -373,7 +292,7 @@
   "sev": 2,
   "id": "@I509189@",
   "name": "Hellena Bellobalbic",
-  "slug": null,
+  "slug": "hellena-bellobalbic",
   "msg": "born 1868, married 1868 — age 0",
   "cause": "record"
  },
@@ -403,42 +322,6 @@
   "slug": "anna-5",
   "msg": "born 1809, Francisca Kraljich born 1820 — age 11",
   "cause": "generation"
- },
- {
-  "kind": "parent-too-young",
-  "sev": 2,
-  "id": "@I510938@",
-  "name": "Antonius Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1815, Maria Maddalena Defranceschi born 1825 — age 10",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-too-young",
-  "sev": 2,
-  "id": "@I510963@",
-  "name": "Domenica Defranceschi",
-  "slug": null,
-  "msg": "born 1830, Maria Defranceschi born 1833 — age 3",
-  "cause": "generation"
- },
- {
-  "kind": "parent-too-young",
-  "sev": 2,
-  "id": "@I506032@",
-  "name": "Franciscus Antonio Antonius Defranceschi",
-  "slug": null,
-  "msg": "born 13 APR 1785, Mattheus / Matio \"Matolin\" di Franceschi / Defranceski born 1794 — age 9",
-  "cause": "generation"
- },
- {
-  "kind": "parent-too-young",
-  "sev": 2,
-  "id": "@I510754@",
-  "name": "Joanis Grach",
-  "slug": null,
-  "msg": "born BEF 1750, Johanes Grach born 1762 — age 12",
-  "cause": "hedged"
  },
  {
   "kind": "parent-too-young",
@@ -488,15 +371,6 @@
  {
   "kind": "parent-too-young",
   "sev": 2,
-  "id": "@I510900@",
-  "name": "Natale Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1830, Stella Appolonia Defranceschi born 1841 — age 11",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-too-young",
-  "sev": 2,
   "id": "@I511689@",
   "name": "Nicolai Žubrinić",
   "slug": "nicolai-zubrinic",
@@ -508,7 +382,7 @@
   "sev": 2,
   "id": "@I506125@",
   "name": "Teresa Grach",
-  "slug": null,
+  "slug": "teresa-grach",
   "msg": "born 1753, Giuseppe / Josephus \"Joseph\" Defranceschi born 1765 — age 12",
   "cause": "generation"
  },
@@ -553,8 +427,8 @@
   "sev": 2,
   "id": "@I512813@",
   "name": "Anna Grgurić",
-  "slug": null,
-  "msg": "recorded M; «Anna» is a form of ana, and 97 of the 97 other people here who bear it are women",
+  "slug": "anna-grguric",
+  "msg": "recorded M; «Anna» is a form of ana, and 108 of the 108 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -563,7 +437,7 @@
   "id": "@I508527@",
   "name": "Ante Blažević",
   "slug": "ante-blazevic",
-  "msg": "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men",
+  "msg": "recorded F; «Ante» is a form of ante, and 72 of the 74 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -572,7 +446,7 @@
   "id": "@I508408@",
   "name": "Ante Pavelic",
   "slug": "ante-pavelic",
-  "msg": "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men",
+  "msg": "recorded F; «Ante» is a form of ante, and 72 of the 74 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -581,7 +455,7 @@
   "id": "@I508482@",
   "name": "Ante Tomljanovic",
   "slug": "ante-tomljanovic",
-  "msg": "recorded F; «Ante» is a form of ante, and 58 of the 60 other people here who bear it are men",
+  "msg": "recorded F; «Ante» is a form of ante, and 72 of the 74 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -590,7 +464,7 @@
   "id": "@I509008@",
   "name": "Franciscum Papić (Papa)",
   "slug": "franciscum-papic-papa",
-  "msg": "recorded F; «Franciscum» is a form of franjo, and 52 of the 55 other people here who bear it are men",
+  "msg": "recorded F; «Franciscum» is a form of franjo, and 59 of the 63 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -598,8 +472,8 @@
   "sev": 2,
   "id": "@I509235@",
   "name": "Franciscus Grandic",
-  "slug": null,
-  "msg": "recorded F; «Franciscus» is a form of franjo, and 52 of the 56 other people here who bear it are men",
+  "slug": "franciscus-grandic",
+  "msg": "recorded F; «Franciscus» is a form of franjo, and 59 of the 63 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -608,7 +482,7 @@
   "id": "@I508665@",
   "name": "Franciscus Prpic",
   "slug": "franciscus-prpic",
-  "msg": "recorded F; «Franciscus» is a form of franjo, and 52 of the 55 other people here who bear it are men",
+  "msg": "recorded F; «Franciscus» is a form of franjo, and 59 of the 63 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -617,7 +491,7 @@
   "id": "@I506517@",
   "name": "Franciscus Xubrinich",
   "slug": "franciscus-xubrinich",
-  "msg": "recorded F; «Franciscus» is a form of franjo, and 52 of the 55 other people here who bear it are men",
+  "msg": "recorded F; «Franciscus» is a form of franjo, and 59 of the 63 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -626,7 +500,7 @@
   "id": "@I508355@",
   "name": "Frane Prpic",
   "slug": "frane-prpic",
-  "msg": "recorded F; «Frane» is a form of franjo, and 52 of the 55 other people here who bear it are men",
+  "msg": "recorded F; «Frane» is a form of franjo, and 59 of the 63 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -634,8 +508,8 @@
   "sev": 2,
   "id": "@I509080@",
   "name": "Ivan",
-  "slug": null,
-  "msg": "recorded F; «Ivan» is a form of ivan, and 129 of the 129 other people here who bear it are men",
+  "slug": "ivan",
+  "msg": "recorded F; «Ivan» is a form of ivan, and 151 of the 151 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -644,16 +518,7 @@
   "id": "@I508709@",
   "name": "Ivana Blažević",
   "slug": "ivana-blazevic-2",
-  "msg": "recorded M; «Ivana» is a form of ivana, and 31 of the 33 other people here who bear it are women",
-  "cause": "sex"
- },
- {
-  "kind": "sex-contradicts-name",
-  "sev": 2,
-  "id": "@I508823@",
-  "name": "Ivana Juhas",
-  "slug": null,
-  "msg": "recorded M; «Ivana» is a form of ivana, and 31 of the 34 other people here who bear it are women",
+  "msg": "recorded M; «Ivana» is a form of ivana, and 35 of the 37 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -662,7 +527,7 @@
   "id": "@I509089@",
   "name": "Ivana Papić (Papa)",
   "slug": "ivana-papic-papa",
-  "msg": "recorded M; «Ivana» is a form of ivana, and 31 of the 33 other people here who bear it are women",
+  "msg": "recorded M; «Ivana» is a form of ivana, and 35 of the 37 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -671,7 +536,7 @@
   "id": "@I509037@",
   "name": "Joannam Papić (Papa)",
   "slug": "joannam-papic-papa",
-  "msg": "recorded M; «Joannam» is a form of ivana, and 31 of the 33 other people here who bear it are women",
+  "msg": "recorded M; «Joannam» is a form of ivana, and 35 of the 37 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -680,7 +545,7 @@
   "id": "@I511490@",
   "name": "Lucia Žubrinić Xubrinich",
   "slug": "lucia-zubrinic-xubrinich",
-  "msg": "recorded M; «Lucia» is a form of lucija, and 54 of the 57 other people here who bear it are women",
+  "msg": "recorded M; «Lucia» is a form of lucija, and 59 of the 62 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -689,7 +554,7 @@
   "id": "@I509079@",
   "name": "Lucija Loncaric Papić (Papa)",
   "slug": "lucija-loncaric-papic-papa",
-  "msg": "recorded M; «Lucija» is a form of lucija, and 54 of the 57 other people here who bear it are women",
+  "msg": "recorded M; «Lucija» is a form of lucija, and 59 of the 62 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -698,7 +563,7 @@
   "id": "@I512815@",
   "name": "Maria Marija Kalanj",
   "slug": "maria-marija-kalanj-3",
-  "msg": "recorded M; «Maria» is a form of marija, and 197 of the 197 other people here who bear it are women",
+  "msg": "recorded M; «Maria» is a form of marija, and 225 of the 225 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -707,16 +572,7 @@
   "id": "@I511491@",
   "name": "Michaël MIchael Kostelacz",
   "slug": "micha-l-michael-kostelacz",
-  "msg": "recorded F; «Michaël» is a form of mihovil, and 51 of the 51 other people here who bear it are men",
-  "cause": "sex"
- },
- {
-  "kind": "sex-contradicts-name",
-  "sev": 2,
-  "id": "@I507766@",
-  "name": "Michele C Defranceschi",
-  "slug": null,
-  "msg": "recorded F; «Michele» is a form of mihovil, and 51 of the 52 other people here who bear it are men",
+  "msg": "recorded F; «Michaël» is a form of mihovil, and 56 of the 56 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -725,7 +581,7 @@
   "id": "@I512651@",
   "name": "Nikola Kalanj",
   "slug": "nikola-kalanj",
-  "msg": "recorded F; «Nikola» is a form of nikola, and 36 of the 37 other people here who bear it are men",
+  "msg": "recorded F; «Nikola» is a form of nikola, and 46 of the 47 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -734,25 +590,7 @@
   "id": "@I508319@",
   "name": "Nikula Zubrinic",
   "slug": "nikula-zubrinic",
-  "msg": "recorded F; «Nikula» is a form of nikola, and 36 of the 37 other people here who bear it are men",
-  "cause": "sex"
- },
- {
-  "kind": "sex-contradicts-name",
-  "sev": 2,
-  "id": "@I506300@",
-  "name": "Paolo Paula Eriavaz",
-  "slug": null,
-  "msg": "recorded F; «Paolo» is a form of pavao, and 26 of the 26 other people here who bear it are men",
-  "cause": "sex"
- },
- {
-  "kind": "sex-contradicts-name",
-  "sev": 2,
-  "id": "@I507801@",
-  "name": "Peter De Franceschi",
-  "slug": null,
-  "msg": "recorded F; «Peter» is a form of petar, and 22 of the 23 other people here who bear it are men",
+  "msg": "recorded F; «Nikula» is a form of nikola, and 46 of the 47 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -761,16 +599,7 @@
   "id": "@I512874@",
   "name": "Petrus Kalanj",
   "slug": "petrus-kalanj-4",
-  "msg": "recorded F; «Petrus» is a form of petar, and 22 of the 22 other people here who bear it are men",
-  "cause": "sex"
- },
- {
-  "kind": "sex-contradicts-name",
-  "sev": 2,
-  "id": "@I510383@",
-  "name": "Stephanus Bujic",
-  "slug": null,
-  "msg": "recorded F; «Stephanus» is a form of stjepan, and 27 of the 27 other people here who bear it are men",
+  "msg": "recorded F; «Petrus» is a form of petar, and 38 of the 38 other people here who bear it are men",
   "cause": "sex"
  },
  {
@@ -778,8 +607,8 @@
   "sev": 2,
   "id": "@I512749@",
   "name": "Tonka Miletic",
-  "slug": null,
-  "msg": "recorded M; «Tonka» is a form of antonija, and 34 of the 34 other people here who bear it are women",
+  "slug": "tonka-miletic",
+  "msg": "recorded M; «Tonka» is a form of antonija, and 37 of the 37 other people here who bear it are women",
   "cause": "sex"
  },
  {
@@ -830,15 +659,6 @@
  {
   "kind": "mother-too-old",
   "sev": 3,
-  "id": "@I506364@",
-  "name": "Marica Milkovic",
-  "slug": "marica-milkovic",
-  "msg": "born 1904, Vladimira Boras born 1960 — age 56",
-  "cause": "record"
- },
- {
-  "kind": "mother-too-old",
-  "sev": 3,
   "id": "@I506436@",
   "name": "Matia Sekula",
   "slug": "matia-sekula",
@@ -857,47 +677,11 @@
  {
   "kind": "parent-under-seventeen",
   "sev": 3,
-  "id": "@I510938@",
-  "name": "Antonius Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1815, Domenica Defranceschi born 1829 — age 14",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510942@",
-  "name": "Antonius Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1745, Vitorio Defranceschi born 1758 — age 13",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510918@",
-  "name": "Franciscus Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1855, Giovanni Joannes Baptista Defranceschi born 1869 — age 14",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
   "id": "@I508277@",
   "name": "George Untersinger",
   "slug": "george-untersinger",
   "msg": "born 25 MAR 1787, Rosalia Untersinger born 1802 — age 15",
   "cause": "record"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510386@",
-  "name": "Giambattista De Franceschi",
-  "slug": null,
-  "msg": "born BEF 1765, Lucia De Franceschi born 1779 — age 14",
-  "cause": "hedged"
  },
  {
   "kind": "parent-under-seventeen",
@@ -913,27 +697,9 @@
   "sev": 3,
   "id": "@I506124@",
   "name": "Johannes / Giovanni Gian Battista \"Ivan / John\" de Franceschi",
-  "slug": null,
+  "slug": "johannes-giovanni-gian-battista-de-franceschi",
   "msg": "born 1750, Giuseppe / Josephus \"Joseph\" Defranceschi born 1765 — age 15",
   "cause": "record"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510382@",
-  "name": "Magdalena Defranceski",
-  "slug": null,
-  "msg": "born BEF 1845, Stephanus Bujic born 1859 — age 14",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510367@",
-  "name": "Maria Defranceski",
-  "slug": null,
-  "msg": "born BEF 1795, Josephus Premate born 1809 — age 14",
-  "cause": "hedged"
  },
  {
   "kind": "parent-under-seventeen",
@@ -943,42 +709,6 @@
   "slug": "marija-sojat-3",
   "msg": "born 13 MAR 1825, Anton Martin (Tone) Blažević born 1840 — age 15",
   "cause": "record"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510997@",
-  "name": "Mattio Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1690, Antonio Defranceschi born 1704 — age 14",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510903@",
-  "name": "Natale Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1800, Angelo Defranceschi born 1815 — age 15",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I3452@",
-  "name": "Ruzica Petrovic",
-  "slug": null,
-  "msg": "born 1868, Ivana Jovanovic born 1881 — age 13",
-  "cause": "record"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I511253@",
-  "name": "Simone De Franceschi",
-  "slug": null,
-  "msg": "born BEF 1760, Josef De Franceschi born 1775 — age 15",
-  "cause": "hedged"
  },
  {
   "kind": "parent-under-seventeen",
@@ -994,26 +724,8 @@
   "sev": 3,
   "id": "@I55@",
   "name": "Ursula Kovačina",
-  "slug": null,
+  "slug": "ursula-kovacina",
   "msg": "born 28 FEB 1895, Josip Petar \"Pepo/Pepe\" Defranceski born 1911 — age 16",
   "cause": "record"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510957@",
-  "name": "Vitorio Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1720, Piero Anto Defranceschi born 1736 — age 16",
-  "cause": "hedged"
- },
- {
-  "kind": "parent-under-seventeen",
-  "sev": 3,
-  "id": "@I510906@",
-  "name": "Vittorio Vitorio Defranceschi",
-  "slug": null,
-  "msg": "born BEF 1795, Perina Defranceschi born 1810 — age 15",
-  "cause": "hedged"
  }
 ]

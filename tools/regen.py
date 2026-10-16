@@ -75,6 +75,7 @@ HAND_KEPT = {
 
 ORDER = [
     "build_site_data.py",
+    "ancestry.py",     # data/*.tsv, from the published set build_site_data.py just wrote
     "build_media.py",
     "surnames.py",
     "given_names.py",

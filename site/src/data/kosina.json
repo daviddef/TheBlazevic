@@ -176,13 +176,13 @@
    "slug": "margaretha-kosinar"
   }
  ],
- "note": "The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are outside this archive's eight published surnames, so they appear in no people.json and on no family page. The living rule is applied here: anyone who may be alive is given by GIVEN NAME ALONE and carries no date, and neither their surname nor their dates enter this file.",
+ "note": "The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are outside this archive's eight published surnames, so they have no family page. The living rule is applied here: a living person is named with their town and country and carries no date, and a possible minor is not in this file.",
  "counts": {
   "people": 30,
   "inTree": 10,
   "above": 7,
   "household": 13,
-  "living": 2,
+  "living": 1,
   "lostIn1943": 3,
   "earliest": 1738,
   "generations": 6
@@ -195,6 +195,7 @@
  "people": [
   {
    "id": "@I504979@",
+   "slug": "martin-martinus-kosina",
    "name": "Martin Martinus Kosina",
    "surname": "Kosina",
    "born": "1841",
@@ -230,6 +231,7 @@
   },
   {
    "id": "@I504981@",
+   "slug": "antonius-joannes-kosina",
    "name": "Antonius Joannes \"Antun\" Kosina",
    "surname": "Kosina",
    "born": "13 MAY 1891",
@@ -265,6 +267,7 @@
   },
   {
    "id": "@I504978@",
+   "slug": "pavao-kosina",
    "name": "Pavao Kosina",
    "surname": "Kosina",
    "born": "15 MAR 1894",
@@ -321,6 +324,7 @@
   },
   {
    "id": "@I506274@",
+   "slug": "otilija-kosina",
    "name": "Otilija Kosina",
    "surname": "Kosina",
    "born": "1920",
@@ -361,6 +365,7 @@
   },
   {
    "id": "@I501774@",
+   "slug": "antun-anton-kosina",
    "name": "Antun Anton Kosina",
    "surname": "Kosina",
    "born": "11 FEB 1921",
@@ -382,7 +387,8 @@
    "children": [
     {
      "id": "@I506270@",
-     "name": "Paula"
+     "name": "Paula Kosina",
+     "living": true
     }
    ],
    "siblings": [
@@ -406,6 +412,7 @@
   },
   {
    "id": "@I506276@",
+   "slug": "oskar-kosina",
    "name": "Oskar Kosina",
    "surname": "Kosina",
    "born": "4 SEP 1922",
@@ -423,18 +430,11 @@
      "name": "Anka Blažević"
     }
    ],
-   "spouses": [
-    {
-     "id": "@I510796@",
-     "name": "(unnamed)",
-     "married": "",
-     "place": ""
-    }
-   ],
+   "spouses": [],
    "children": [
     {
      "id": "@I510795@",
-     "name": "Ivan Christian"
+     "name": "Ivan Christian Kosina"
     }
    ],
    "siblings": [
@@ -458,6 +458,7 @@
   },
   {
    "id": "@I506275@",
+   "slug": "neda-kosina",
    "name": "Neda Kosina",
    "surname": "Kosina",
    "born": "1924",
@@ -498,6 +499,7 @@
   },
   {
    "id": "@I506336@",
+   "slug": "krizan-kosina",
    "name": "Krizan Kosina",
    "surname": "Kosina",
    "born": "3 MAY 1940",
@@ -538,21 +540,18 @@
   },
   {
    "id": "@I510795@",
-   "name": "Ivan Christian",
-   "surname": "",
+   "slug": "ivan-christian-kosina",
+   "name": "Ivan Christian Kosina",
+   "surname": "Kosina",
    "born": "",
    "bornPlace": "",
    "died": "",
    "diedPlace": "",
-   "living": true,
+   "living": false,
    "parents": [
     {
      "id": "@I506276@",
      "name": "Oskar Kosina"
-    },
-    {
-     "id": "@I510796@",
-     "name": "(unnamed)"
     }
    ],
    "spouses": [],
@@ -561,13 +560,16 @@
   },
   {
    "id": "@I506270@",
-   "name": "Paula",
-   "surname": "",
+   "slug": "paula-kosina",
+   "name": "Paula Kosina",
+   "surname": "Kosina",
    "born": "",
    "bornPlace": "",
    "died": "",
    "diedPlace": "",
    "living": true,
+   "town": "",
+   "country": "Germany",
    "parents": [
     {
      "id": "@I501774@",

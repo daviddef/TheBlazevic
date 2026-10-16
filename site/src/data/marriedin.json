@@ -401,11 +401,11 @@
   "spellings": [
    "Orešković / Oreskovic",
    "Oreskovic",
+   "Orešković",
    "Oreskovich / Oreskovic",
-   "Oresković",
-   "Orešković"
+   "Oresković"
   ],
-  "published": 11,
+  "published": 13,
   "ancestors": [
    {
     "ahn": 21,
@@ -443,7 +443,7 @@
    "Lončarić",
    "Loncarich"
   ],
-  "published": 10,
+  "published": 15,
   "ancestors": [
    {
     "ahn": 49,
@@ -461,22 +461,27 @@
    }
   ],
   "from": 1741,
-  "to": 1853,
+  "to": 1891,
   "places": [
    {
     "place": "Selce",
+    "n": 4
+   },
+   {
+    "place": "Senj",
     "n": 4
    }
   ]
  },
  {
   "key": "brozovic",
-  "label": "Brozović",
+  "label": "Brozovich",
   "spellings": [
+   "Brozovich",
    "Brozović",
    "Brozovic"
   ],
-  "published": 3,
+  "published": 5,
   "ancestors": [
    {
     "ahn": 51,
@@ -541,7 +546,7 @@
    "Tomljanovic",
    "Tomljanović"
   ],
-  "published": 26,
+  "published": 28,
   "ancestors": [
    {
     "ahn": 111,
@@ -559,11 +564,11 @@
    }
   ],
   "from": 1831,
-  "to": 1901,
+  "to": 1928,
   "places": [
    {
     "place": "Senj",
-    "n": 4
+    "n": 5
    },
    {
     "place": "Krivi Put",

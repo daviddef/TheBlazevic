@@ -21,6 +21,12 @@ LOCAL = os.path.join(ROOT, "sources", "media", "local.psv")
 OUT = os.path.join(ROOT, "site", "src", "data", "media.json")
 
 people, families = load()
+# THE LIVING RULE (16 October 2026): no photograph of a living person, and nobody held
+# out is named. An item tagged with anybody the rule calls living or holds out is not
+# published, because the picture is of them; a tag is a name, and a name needs a page.
+import livingset  # noqa: E402
+_cls = livingset.classify(people, families)
+NOT_SHOWN = _cls["living"] | _cls["held"]
 try:
     reg = {p["id"]: p for p in json.load(
         open(os.path.join(ROOT, "site", "src", "data", "people.json"), encoding="utf-8"))}
@@ -63,6 +69,9 @@ for line in manifest_lines():
     ext = "pdf" if typ == "document" else "jpg"
     fn = f"{mid}-{slugify(name)}.{ext}".replace(" ", "-")
     tagged = []
+    if any(f'@I{int(pid) - 4000000}@' in NOT_SHOWN for pid in ppl.split(",") if pid.strip().isdigit()):
+        dropped.append((mid, "tagged with a person who is living or held out"))
+        continue
     for pid in ppl.split(","):
         gid = f'@I{int(pid) - 4000000}@'
         p = people.get(gid)

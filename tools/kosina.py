@@ -16,20 +16,13 @@ about half of Senj. PAVAO KOSINA WAS KILLED ON THE SECOND DAY, and his stone
 says so in the word used for a violent death: *pog.*, poginuo. Of a household of
 seven, three were dead within thirteen months.
 
-THE LIVING RULE IS APPLIED HERE AND NOT BY HAND. Two of the ten have no death
-and may be alive. Under this estate's `named-bare` policy a living person may be
-NAMED and no date of theirs may be published, so this tool runs the same
-classifier the build checks against and strips the dates itself. A page written
-by hand would have published a birth year for a woman born in 1964.
-
-AND SINCE 21 SEPTEMBER 2026, NOT THE SURNAME EITHER. A living person is given
-here by GIVEN NAME ALONE, everywhere a name is emitted -- their own row and every
-mention of them as somebody's child, parent, sibling or spouse. The reason is
-that a surname plus a first name plus a country is an identification, and this
-page carries the country. `named-bare` was always meant to mean "enough that the
-family recognises them, not enough that a stranger can find them", and a full
-name on a public genealogy page is the wrong side of that line. The surname does
-not reach the JSON at all, so no template can leak it back.
+THE LIVING RULE IS APPLIED HERE AND NOT BY HAND. Since 16 October 2026 it is the
+estate's one rule (kit/tools/living_rule.py, through tools/livingset.py): a living
+person (80 or younger, no death recorded, no public source) is NAMED, in full, with
+their town and country and their relationships, and nothing more -- no date, no
+surname-less name, no record. A possible minor is held out and is not in this file
+at all, not even as somebody's child. Before that day a living Kosina was given by
+given name alone (David, 21 September 2026); that ruling is replaced.
 
 Reads  the GEDCOM, via tools/gedcom.py
 Writes site/src/data/kosina.json
@@ -42,6 +35,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gedcom  # noqa: E402
+import livingset  # noqa: E402
+import build_site_data as bsd  # noqa: E402  (town_country only)
 
 SURNAME = "kosina"
 
@@ -280,67 +275,79 @@ def carniolan_household():
 
 def main():
     P, F = gedcom.load()
-    living = gedcom.classify_living(P, F)
+    cls = livingset.classify(P, F)
+    living, held = cls["living"], cls["held"]
+    ledger = json.load(open(os.path.join(DATA, "person-slugs.json"), encoding="utf-8"))["slugs"]
 
     def is_living(pid):
-        v = living.get(pid)
-        return bool(v) if not isinstance(v, dict) else bool(v.get("living"))
+        return pid in living
+
+    def listed(pid):
+        """A held-out person is not in this file at all, and neither is a sorting
+        stub or an unnamed record: not a person, and nothing a page could name."""
+        return pid in P and pid not in held and not bsd.junk(P[pid])
 
     def name_of(pid):
-        """Given name only when they may be alive -- see the docstring."""
-        full = gedcom.display(P[pid]) or ""
-        if not is_living(pid):
-            return full
-        sur = (P[pid].get("surname") or "").strip()
-        if not sur:
-            return full
-        out = " ".join(w for w in full.split() if w.strip('"\u201c\u201d') != sur)
-        return out or full
+        return gedcom.display(P[pid]) or ""
 
     def person(pid):
         b, d = gedcom.born(P[pid]), gedcom.died(P[pid])
         alive = is_living(pid)
-        return {
+        rec = {
             "id": pid,
+            "slug": ledger.get(pid, ""),
             "name": name_of(pid),
-            # The surname of a living person never enters this file.
-            "surname": "" if alive else (P[pid].get("surname") or "").strip(),
-            # NAMED AND NOTHING MORE when they may be alive. The dates are not
-            # merely hidden from the page; they never enter the data file.
+            "surname": (P[pid].get("surname") or "").strip(),
+            # A LIVING PERSON IS A NAME AND A PLACE. The dates are not merely
+            # hidden from the page; they never enter the data file.
             "born": "" if alive else (b.get("date") or ""),
             "bornPlace": "" if alive else (b.get("place") or ""),
             "died": "" if alive else (d.get("date") or ""),
             "diedPlace": "" if alive else (d.get("place") or ""),
             "living": alive,
         }
+        if alive:
+            bp = b if b.get("place") else (gedcom.ev(P[pid], "christening")
+                                           or gedcom.ev(P[pid], "baptism") or {})
+            rec["town"], rec["country"], _ = bsd.town_country(bp.get("place", ""))
+        return rec
 
-    kos = [pid for pid in P if (P[pid].get("surname") or "").lower().find(SURNAME) >= 0]
+    kos = [pid for pid in P if (P[pid].get("surname") or "").lower().find(SURNAME) >= 0
+           and listed(pid)]
     people = {pid: person(pid) for pid in kos}
 
     # The households, so the page can draw descent rather than list names.
     for pid in kos:
         rec = people[pid]
         rec["parents"], rec["spouses"], rec["children"], rec["siblings"] = [], [], [], []
+
+        def ref(o):
+            r = {"id": o, "name": name_of(o)}
+            if is_living(o):
+                r["living"] = True
+            return r
+
         for f in (P[pid].get("famc") or []):
             fam = F.get(f) or {}
             for role in ("husb", "wife"):
                 o = fam.get(role)
-                if o in P:
-                    rec["parents"].append({"id": o, "name": name_of(o)})
+                if listed(o):
+                    rec["parents"].append(ref(o))
             for c in (fam.get("chil") or []):
-                if c != pid and c in P:
-                    rec["siblings"].append({"id": c, "name": name_of(c)})
+                if c != pid and listed(c):
+                    rec["siblings"].append(ref(c))
         for f in (P[pid].get("fams") or []):
             fam = F.get(f) or {}
             o = fam.get("wife") if fam.get("husb") == pid else fam.get("husb")
-            if o in P:
+            if listed(o):
                 m = fam.get("marr") or {}
-                rec["spouses"].append({"id": o, "name": name_of(o),
-                                       "married": m.get("date") or "",
-                                       "place": m.get("place") or ""})
+                sp = ref(o)
+                if not is_living(o) and not is_living(pid):
+                    sp.update({"married": m.get("date") or "", "place": m.get("place") or ""})
+                rec["spouses"].append(sp)
             for c in (fam.get("chil") or []):
-                if c in P:
-                    rec["children"].append({"id": c, "name": name_of(c)})
+                if listed(c):
+                    rec["children"].append(ref(c))
 
     def year(s):
         import re
@@ -373,10 +380,9 @@ def main():
         "above": above,
         "household": house,
         "note": ("The Kosina of Senj, gathered from the GEDCOM by tools/kosina.py. They are "
-                 "outside this archive's eight published surnames, so they appear in no "
-                 "people.json and on no family page. The living rule is applied here: anyone "
-                 "who may be alive is given by GIVEN NAME ALONE and carries no date, and "
-                 "neither their surname nor their dates enter this file."),
+                 "outside this archive's eight published surnames, so they have no family page. "
+                 "The living rule is applied here: a living person is named with their town and "
+                 "country and carries no date, and a possible minor is not in this file."),
         "counts": {
             # `people` and `earliest` COUNT THE CARNIOLAN GENERATIONS TOO, because
             # the page shows them and a reader counts what they can see.

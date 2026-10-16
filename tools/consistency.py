@@ -46,24 +46,25 @@ BUCKET_PARENT = re.compile(
     r"\bbrothers?\b|\bsisters?\b|to be sorted|for sorting|\bsorting\b|"
     r"\bworking\b|it seems|not real|investigation|\d{4}\s*-\s*\d{4}\s*birth", re.I)
 
-# This export carries six families. Scope to the ones this archive publishes,
-# plus anyone named in one of its relation lists - otherwise the sweep reports
-# the Booyzen and D'Arcy trees' problems as though they were ours.
+# This export carries six families. Scope to the people this archive publishes
+# AND WHO HAVE DIED - people.json and ancestors.json hold nobody else - otherwise
+# the sweep reports the Booyzen and D'Arcy trees' problems as though they were
+# ours.
+#
+# Until 16 October 2026 the scope was widened to "anyone named in one of its
+# relation lists, and the parents/children of those, so a join is checked from
+# both ends". That widening reached people the archive does not publish, and under
+# the living-people standard it can reach a living person or a held-out child: a
+# row here carries a name and a date, and a living person has neither to give.
+# Scope is now exactly the published dead, as a pivot AND as the other person in
+# a message. Every relation list names only people who have a page, so a join to
+# a published person is still checked from both ends; one to a living person is
+# not checked at all, because it could only be said with their date.
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                     "site", "src", "data")
 pub = json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8")) + \
       json.load(open(os.path.join(DATA, "ancestors.json"), encoding="utf-8"))
 SCOPE = {x["id"] for x in pub}
-for x in pub:
-    for grp in (x.get("rel") or {}).values():
-        for r in (grp if isinstance(grp, list) else []):
-            if isinstance(r, dict) and r.get("id"):
-                SCOPE.add(r["id"])
-# and the parents/children of those, so a join is checked from both ends
-for fid, f in families.items():
-    members = [f.get("husb"), f.get("wife")] + list(f.get("chil") or [])
-    if any(m in SCOPE for m in members if m):
-        SCOPE.update(m for m in members if m)
 
 def relevant(pid):
     return pid in SCOPE and not JUNK.search(display(people[pid]) or "")
@@ -129,7 +130,7 @@ for fid, f in families.items():
         pby, _ = ym(pb.get("date"))
         pdy, _ = ym(pd.get("date"))
         for cid in f.get("chil", []):
-            if cid not in people or JUNK.search(display(people[cid]) or ""):
+            if cid not in SCOPE or JUNK.search(display(people[cid]) or ""):
                 continue
             cby, _ = ym(born(people[cid]).get("date"))
             if not cby:
@@ -189,12 +190,12 @@ for pid in list(people):
     if not ay:
         continue
     for mid in kids.get(pid, []):                      # the child
-        if mid not in people or JUNK.search(display(people[mid]) or ""):
+        if mid not in SCOPE or JUNK.search(display(people[mid]) or ""):
             continue
         if ym(born(people[mid]).get("date"))[0]:
             continue                                   # dated: pairwise saw it
         for gid in kids.get(mid, []):                  # the grandchild
-            if gid not in people or JUNK.search(display(people[gid]) or ""):
+            if gid not in SCOPE or JUNK.search(display(people[gid]) or ""):
                 continue
             gy, _ = ym(born(people[gid]).get("date"))
             # two generations need roughly two puberties between them; 24 years

@@ -12,14 +12,36 @@ Three outputs:
 Ahnentafel is used rather than a home-made numbering because it is the standard
 and because it makes a gap obvious: a missing number is a missing ancestor.
 """
-import csv, os, sys, collections
-from gedcom import load, display, lifespan, born, died, year, ev, classify_living
+import csv, json, os, sys, collections
+from gedcom import load, display, lifespan, born, died, year, ev
+import livingset
 
+# THE LIVING RULE (16 October 2026, kit/tools/living_rule.py via livingset.py).
+# These files are committed to a public repository, so they hold exactly the
+# people the site publishes and nothing else: a possible minor is held out and a
+# person nobody on the site names is not in them; a living person is a name and
+# a town and country; a person who has died is as before. PUBLISHED is read from
+# the committed site data, so the files and the site cannot disagree.
 LIVING = {}
+PUBLISHED = {}      # id -> None (dead, published) or (town, country) (living, named)
 
 
 def is_living(p):
     return LIVING.get(p["id"], True)
+
+
+def load_published():
+    data = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "site", "src", "data")
+    J = lambda n: json.load(open(os.path.join(data, n), encoding="utf-8"))
+    ledger = J("person-slugs.json")["slugs"]
+    by_slug = {v: k for k, v in ledger.items()}
+    pub = {}
+    for r in J("people.json") + J("ancestors.json"):
+        pub[r["id"]] = None
+    for r in J("living.json"):
+        pub[by_slug[r["slug"]]] = (r.get("town", ""), r.get("country", ""))
+    return pub
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -224,17 +246,20 @@ REDACT = True   # never write a living person's details to a committed file
 
 def row_for(people, families, pid, ahn=None):
     p = people[pid]
-    if REDACT and is_living(p):
-        # The same rule the site build applies, applied here too, because this
-        # repository is public and these files are committed to it.
-        return {"ahn": ahn or "", "gen": gen_of(ahn) if ahn else "", "id": p["id"],
-                "mh": "", "name": "— living, withheld —", "sex": "", "born": "",
-                "born_place": "", "died": "", "died_place": "", "cause": "",
-                "burial": "", "occupation": "", "spouses": "", "living": "yes",
+    if is_living(p):
+        # A living person is a name, a town and a country and a relationship; no id
+        # (it would lead back to the whole record), no date, no source, nothing.
+        town, country = PUBLISHED.get(pid) or ("", "")
+        sp = [s for s, _, _ in spouse_of(people, families, pid) if s in PUBLISHED]
+        return {"ahn": ahn or "", "gen": gen_of(ahn) if ahn else "", "id": "",
+                "mh": "", "name": display(p), "sex": "", "born": "",
+                "born_place": ", ".join(x for x in (town, country) if x), "died": "",
+                "died_place": "", "cause": "", "burial": "", "occupation": "",
+                "spouses": " | ".join(display(people[s]) for s in sp), "living": "yes",
                 "n_notes": "", "sources": ""}
     b, d = born(p), died(p)
     bur = ev(p, "burial") or {}
-    sp = spouse_of(people, families, pid)
+    sp = [t for t in spouse_of(people, families, pid) if t[0] in PUBLISHED]
     return {
         "ahn": ahn or "",
         "gen": gen_of(ahn) if ahn else "",
@@ -249,12 +274,12 @@ def row_for(people, families, pid, ahn=None):
         "cause": d.get("cause", ""),
         "burial": bur.get("place", ""),
         "occupation": occupation(p),
-        # A living spouse is named nowhere, even on a deceased person's row.
+        # A person is named only if the site publishes them; a living spouse is a
+        # name with no marriage date, because the date is a date of their life.
         "spouses": " | ".join(
-            ("— living, withheld —" if is_living(people[s]) else display(people[s]))
-            + (f' (m. {dt})' if dt and not is_living(people[s]) else "")
+            display(people[s]) + (f' (m. {dt})' if dt and not is_living(people[s]) else "")
             for s, dt, _ in sp),
-        "living": "yes" if is_living(p) else "",
+        "living": "",
         "n_notes": len(p["notes"]),
         "sources": " | ".join(p["sources"][:4]),
     }
@@ -276,11 +301,14 @@ def write(path, rows):
 
 
 def main():
-    global LIVING
+    global LIVING, PUBLISHED
     people, families = load()
-    LIVING = classify_living(people, families)
+    cls = livingset.classify(people, families)
+    LIVING = {pid: pid in cls["living"] for pid in people}
+    PUBLISHED = load_published()
     print(f"{len(people)} people, {len(families)} families "
-          f"({sum(LIVING.values())} judged living)")
+          f"({len(cls['living'])} judged living, {len(cls['held'])} held out, "
+          f"{len(PUBLISHED)} published)")
 
     by_ahn = ancestors(people, families, ROOT_PERSON)
     print(f"\n{len(by_ahn)} ancestors of the root person "
@@ -298,7 +326,8 @@ def main():
     write(os.path.join(DATA, "blazevic-spine.tsv"), spine)
 
     for slug, keys in SURNAMES.items():
-        hits = [p for p in people.values() if fold(p["surname"]) in keys]
+        hits = [p for p in people.values() if fold(p["surname"]) in keys
+                and p["id"] in PUBLISHED]
         hits.sort(key=lambda p: year(born(p).get("date", "")) or 9999)
         write(os.path.join(DATA, f"surname-{slug}.tsv"),
               [row_for(people, families, p["id"]) for p in hits])

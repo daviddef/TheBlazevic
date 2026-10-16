@@ -111,6 +111,30 @@ def _notes(node, notes_by_id):
     return [n for n in out if n]
 
 
+def _cites(node, sources_by_id):
+    """Every SOUR under an INDI record at any depth, as 'title — page'."""
+    out = []
+
+    def walk(n):
+        for k in n.kids:
+            if k.tag == "SOUR":
+                v = k.value.strip()
+                if v.startswith("@"):
+                    d = sources_by_id.get(v, {})
+                    t = d.get("title") or d.get("abbr") or ""
+                    if k.val("PAGE"):
+                        t = (t + " — " + k.val("PAGE")).strip(" —")
+                    if t:
+                        out.append(t)
+                elif v:
+                    out.append(v)
+            else:
+                walk(k)
+
+    walk(node)
+    return out
+
+
 def load(path=GED):
     """Return (people, families) as dicts keyed by GEDCOM xref."""
     records = parse(path)
@@ -159,6 +183,13 @@ def load(path=GED):
 
             people[r.xref] = {
                 "id": r.xref,
+                # FOR THE LIVING TEST ONLY (tools/livingset.py); never written to a
+                # committed file. A recorded death or burial, dated or not, even a
+                # bare «1 BURI» that _events() drops for having nothing in it.
+                "death_recorded": any(k.tag in ("DEAT", "BURI", "CREM") for k in r.kids),
+                # every citation the tree attaches to the person or to any of their
+                # events, as "title — page url"; the same shape as `sources`
+                "cites": _cites(r, sources_by_id),
                 "name": raw.replace("/", "").strip() or "(unnamed)",
                 "given": given.strip(),
                 "surname": surn.strip(),

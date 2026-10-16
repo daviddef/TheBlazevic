@@ -1,0 +1,38 @@
+{
+ "_why": [
+  "How this archive decides who is living and who is held out of the build, as David ruled on 16 October 2026 (the living-people standard, version 2). The test itself is kit/tools/living_rule.py; tools/livingset.py only adapts this tree to it. Written by tools/build_site_data.py on every full run. It records RULES AND COUNTS. It never records a person: no id, no name, no place, no date.",
+  "The method page reads this file for its counts. tools/livingcheck.py reads it; with the GEDCOM present it also recomputes who is living from the tree, with the kit's rule and without this generator, and refuses the build when the two disagree."
+ ],
+ "ruled": "2026-10-16",
+ "asOfYear": 2026,
+ "rule": {
+  "livingIfBornWithinYears": 80,
+  "minorUnderYears": 18,
+  "recordedDeathOrBurialMeansDead": true,
+  "publicSourceMeansNotLiving": true,
+  "noBirthYearMeansNotLiving": true,
+  "heldOutIds": 0
+ },
+ "peopleInTree": 15643,
+ "judged": {
+  "living": 462,
+  "heldOut": 133,
+  "heldOutMinorByYear": 41,
+  "heldOutNoBirthYearWithLivingParent": 92,
+  "deadByRecordedDeathWithinEightyYears": 111,
+  "notLivingByPublicSource": 0,
+  "notLivingNoBirthYear": 1402,
+  "notLivingOverEightyYears": 672,
+  "kitWouldCallPublicButCitationIsATree": 20
+ },
+ "published": {
+  "livingNamed": 28,
+  "pagesGivenBecauseANamedPageNamesThem": 364,
+  "pagesByTheArchivesOwnTest": 2028,
+  "livingWithTownAndCountry": 16,
+  "livingTownOnly": 2,
+  "livingCountryOnly": 6,
+  "livingNoPlace": 4,
+  "livingPlaceCutDownFromAnAddressLikePart": 0
+ }
+}

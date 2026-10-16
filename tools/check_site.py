@@ -47,7 +47,7 @@ def check(label, bad, fmt):
 
 
 # ---- links ---------------------------------------------------------------
-slugs = {p["slug"] for f in ("people.json", "ancestors.json", "line.json")
+slugs = {p["slug"] for f in ("people.json", "ancestors.json", "line.json", "living.json")
          for p in load(f)}
 bad = set()
 for f in glob.glob(os.path.join(ROOT, "site", "src", "pages", "**", "*.astro"),

@@ -9,7 +9,7 @@ import json, re, glob, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
 
-slugs = {p["slug"] for f in ("people.json", "ancestors.json", "line.json")
+slugs = {p["slug"] for f in ("people.json", "ancestors.json", "line.json", "living.json")
          for p in json.load(open(os.path.join(DATA, f), encoding="utf-8"))}
 
 bad = []

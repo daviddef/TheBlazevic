@@ -34,6 +34,14 @@ DATA = os.path.join(ROOT, "site", "src", "data")
 people = list({p["id"]: p for p in
                json.load(open(os.path.join(DATA, "people.json"), encoding="utf-8")) +
                json.load(open(os.path.join(DATA, "ancestors.json"), encoding="utf-8"))}.values())
+# A LIVING PERSON IS A BEARER OF A NAME TOO. living.json carries a name and a
+# slug, nothing else, so the forms offered are the recorded name and the first
+# and last words of it. Counting them is what stops a name from linking to a dead
+# man when a living one answers to it as well.
+for _r in json.load(open(os.path.join(DATA, "living.json"), encoding="utf-8")):
+    _w = re.sub(r"\s*\(.*?\)\s*", " ", _r["name"]).split()
+    people.append({"id": "living:" + _r["slug"], "slug": _r["slug"], "name": " ".join(_w),
+                   "given": _w[0] if len(_w) > 1 else "", "surname": _w[-1] if len(_w) > 1 else ""})
 
 
 def clean(n):
