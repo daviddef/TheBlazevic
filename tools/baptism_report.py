@@ -85,7 +85,7 @@ out = ["# Senj baptisms, from the FamilySearch index (14–16 October 2026)", ""
  "", "**What it is not.** These are the indexer's transcriptions of the entries, with the parents the entry names. "
  "No filmed page has been opened for any of them, so none has a snapshot, and every spelling and date below is "
  "the index's, not a reading. They are the places to open, and a few of them are marked as such below.", "",
- "**Coverage.** 67 surname spellings were paged to the end, each in 15-year date windows from 1690 to 1900 (a window with more than 5,900 entries is halved). Spellings not tried, such as variants with a *y*, *w* or a doubled letter, are not here. "
+ "**Coverage, and a blind spot.** 67 surname spellings were paged, each in 15-year date windows from 1690 to 1900 (a window with more than 5,900 entries is halved). **The paging is not reliable for common surnames:** the index returns its results in an order that shifts between pages, so a window of thousands of entries loses some. A second sweep by father's and mother's surname (47 queries) raised the Babić baptisms from 19 to 86 and found Augustinus Babich's five Senj baptisms (1826–1840) that the surname sweep never returned; for the other families it added few, so their surname sweeps were nearer complete. So a family absent from a year here is not shown to be absent; and spellings not tried (a *y*, a *w*, a doubled letter) are not here at all. "
  "**What it cannot say.** The index is not complete: it is a volunteer transcription, and it reaches Senj "
  "baptisms of 1739–1861 in three overlapping collections. A family's absence from a year is not evidence "
  "that it was not baptising.", ""]
