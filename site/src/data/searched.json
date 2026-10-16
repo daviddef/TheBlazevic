@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 45,
-  "partial": 30,
+  "partial": 42,
   "pending": 6,
   "yield": 140
  },
@@ -2157,7 +2157,7 @@
     "Senj",
     "baptisms"
    ],
-   "got": "**Her own baptism at str. 122** — and a registrar's margin added in **1971** citing her death entry at page 280, line 37. A parish clerk closed the loop eighty-five years later and left the reference behind for us.\n\n**Her eight siblings' baptisms are attached in the tree as images and none has been read.**",
+   "got": "**Her own baptism at str. 122** — and a registrar's margin added in **1971** citing her death entry at page 280, line 37. A parish clerk closed the loop eighty-five years later and left the reference behind for us.\n\n**Her eight siblings' baptisms are attached in the tree as images and none has been read.**\n\n**Re-read at full resolution on 16 October 2026** and kept as a snapshot: [senj-birth-1886-milka-lucia-papic](/snapshots/#senj-birth-1886-milka-lucia-papic) — image 140 of the Senj births 1878–1894 (waypoint 9R2D-JWL). Born 9 and baptised 17 October; the FamilySearch index has them as 9 and 17 *November* (it reads *listopada* as November).",
    "ev": [
     [
      "/milka/",
@@ -4870,6 +4870,258 @@
    "got": "2 entries bearing on Pavelić: Thomas Pavelić, groom, April 1793 (image 149R), and a Josip «Pavetich» (read with a query), groom, October 1849 (345R); each a snapshot and a found person. None is joined to a line of this archive.",
    "missed": "The negative for any family is only for what the registers made legible at the scales used. Three caveats stand: (1) the abbreviated one-line death entries of 1820–30 and the fast 1805–19 cursive are only partly legible even at 1.5–2x, so a surname in them can be missed; (2) a death register names no parents; (3) the 39 seen rows (Lončarić, Antić, Jurčić, Barac) are page-scale only. The film continues on roll 291, which is not in this waypoint.",
    "walked_note": "every image read, both pages; second passes done; see «missed»"
+  },
+  {
+   "src": "FamilySearch index — Senj-parish baptisms, 67 surname spellings",
+   "key": "fs/senj-baptism-index",
+   "what": "Every record of the Senj parish for the archive's surnames in Croatia, Church Books 1516–1994, paged by surname and by 15-year date window (1690–1900); the index, not the pages",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "senj",
+    "familysearch",
+    "index",
+    "baptisms"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "**About a thousand Senj records kept** in `sources/senj-baptism-index2.tsv` and written up in notes/senj-baptism-index.md. **Not walked:** this is the volunteer transcription, not the registers, so an absent child is not evidence of anything. **One trap found:** in the Senj births 1878–1894 the index reads *listopada* (October) as November — read from the page for Milka Lucia Papić, [senj-birth-1886-milka-lucia-papic](/snapshots/#senj-birth-1886-milka-lucia-papic) — and its months there are unverified.",
+   "ev": [
+    [
+     "/snapshots/",
+     "Snapshots"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Krmpotić",
+   "key": "fs/senj-baptism-index-krmpotic",
+   "what": "Index hits for Krmpotić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "krmpotic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Antun Krmpotić's six children confirmed at Senj and a **seventh, Ivan Petar (1892), found** that the tree lacks; Michael Kermpotich's baptisms of 1825 and 1834.",
+   "ev": [
+    [
+     "/krmpotic/",
+     "Krmpotić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Špalj",
+   "key": "fs/senj-baptism-index-spalj",
+   "what": "Index hits for Špalj in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "spalj",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "31 Špalj children, 1822–1894; **Daniel Špalj and Franciscaina Perpić baptise at Senj in 1854 and 1857**, the bridge to the 1870s households; the 1880s households confirmed.",
+   "ev": [
+    [
+     "/spalj/",
+     "Špalj"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Babić",
+   "key": "fs/senj-baptism-index-babic",
+   "what": "Index hits for Babić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "babic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Marija (1887), Mirko (1891) and Jakov (1889) confirmed; **no baptism of Ante (1837), his brother Joannes or any child of Augustinus Babić and Maria Jurčić is indexed.**",
+   "ev": [
+    [
+     "/babic/",
+     "Babić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Tomljanović",
+   "key": "fs/senj-baptism-index-tomljanovic",
+   "what": "Index hits for Tomljanović in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "tomljanovic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "135 Tomljanović children, 1820–1894; **nothing reaches back to Lucia (ahnentafel 111)**; Ivan Blažević × Marija Tomljanović's children (1885–94) and Matija (1879) confirmed.",
+   "ev": [
+    [
+     "/tomljanovic/",
+     "Tomljanović"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Pavelić",
+   "key": "fs/senj-baptism-index-pavelic",
+   "what": "Index hits for Pavelić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "pavelic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Only two Pavelić children in the Senj parish (1763, 1766) — the Mrzli Dol Pavelići were baptised at Krivi Put; Ivan Juraj Prpić (1894) confirms Antonija Pavelić × Petar Prpić.",
+   "ev": [
+    [
+     "/pavelic/",
+     "Pavelić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Prpić",
+   "key": "fs/senj-baptism-index-prpic",
+   "what": "Index hits for Prpić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "prpic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "About 175 Prpić or Perpić children and mothers at Senj, 1740–1894; every Špalj, Krmpotić and Babić household above has a Prpić wife.",
+   "ev": [
+    [
+     "/prpic/",
+     "Prpić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Papić",
+   "key": "fs/senj-baptism-index-papic",
+   "what": "Index hits for Papić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "papic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Milka Lucia Papić's baptism (the index's months wrong) and her brother Josip (1890) and sister Božica Tonka (1891).",
+   "ev": [
+    [
+     "/papic/",
+     "Papić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Kalanj",
+   "key": "fs/senj-baptism-index-kalanj",
+   "what": "Index hits for Kalanj in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "kalanj",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "**Kate Kalanj and Lovre Cvitković: seven children baptised at Senj, 1883–1894** — a Kalanj marriage the tree does not hold at Senj.",
+   "ev": [
+    [
+     "/kalanj/",
+     "Kalanj"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Žubrinić",
+   "key": "fs/senj-baptism-index-zubrinic",
+   "what": "Index hits for Žubrinić in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "zubrinic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "One Žubrinić child (Nikula, 1886) and six children of 1849–58 with a *Zubranić* mother; no Žubrinić baptism earlier.",
+   "ev": [
+    [
+     "/zubrinic/",
+     "Žubrinić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Blažević",
+   "key": "fs/senj-baptism-index-blazevic",
+   "what": "Index hits for Blažević in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "blazevic",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Six children of the name baptised in the Senj parish and seven more with a Blažević mother — the village Blaževići are in the Krmpote and Krivi Put books, not these.",
+   "ev": [
+    [
+     "/blazevic/",
+     "Blažević"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Senj baptisms for Boras",
+   "key": "fs/senj-baptism-index-boras",
+   "what": "Index hits for Boras in the Senj parish, all spellings",
+   "when": "14–16 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "boras",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "Five Boras children, 1821–1894, and Pavao Kosina (1894), son of Angelika Boras and Martin Kosina.",
+   "ev": [
+    [
+     "/boras/",
+     "Boras"
+    ]
+   ]
   }
  ]
 }

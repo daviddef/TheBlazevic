@@ -50,6 +50,13 @@ REQUIRED = ("src", "key", "what", "when", "outcome", "got")
 KEY_RE = re.compile(r"^[a-z0-9]+(?:[-/][a-z0-9]+)*$")
 
 
+def family_slugs():
+    try:
+        return {f["slug"] for f in json.load(open(os.path.join(os.path.dirname(PAGES), "data", "families.json"), encoding="utf-8"))}
+    except (OSError, ValueError, KeyError):
+        return set()
+
+
 def page_exists(href):
     slug = href.strip("/")
     if not slug:
@@ -57,8 +64,8 @@ def page_exists(href):
     for cand in (f"{slug}.astro", os.path.join(slug, "index.astro")):
         if os.path.exists(os.path.join(PAGES, cand)):
             return True
-    # /who/… and /people/… are generated from the tree
-    return slug.split("/")[0] in {"who", "people"}
+    # /who/… and /people/… are generated from the tree, and so is every family page ([family].astro)
+    return slug.split("/")[0] in {"who", "people"} | family_slugs()
 
 
 def main():

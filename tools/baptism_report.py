@@ -30,6 +30,8 @@ FAMS = [  # slug, label, surname stems (folded, -ich -> -ic)
     ("uroda", "Uroda", ["uroda", "urode"]),
 ]
 
+NOT_THE_NAME = ("spoljar", "spaljselj")  # other surnames that merely start the same way
+
 def fold(s):
     s = unicodedata.normalize("NFD", s.lower()).encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-z]", "", s)
@@ -62,6 +64,7 @@ def fam_of(rec):
         for n in names:
             f = fold(n.split()[-1]) if n.split() else ""
             f2 = fold(n)
+            if any(f.startswith(x) for x in NOT_THE_NAME[:2]): continue
             if any(f.startswith(s) or (len(s) > 4 and s in f2) for s in stems):
                 hit.append(slug); break
     return hit
@@ -82,26 +85,43 @@ out = ["# Senj baptisms, from the FamilySearch index (14–16 October 2026)", ""
  "", "**What it is not.** These are the indexer's transcriptions of the entries, with the parents the entry names. "
  "No filmed page has been opened for any of them, so none has a snapshot, and every spelling and date below is "
  "the index's, not a reading. They are the places to open, and a few of them are marked as such below.", "",
+ "**Coverage.** 67 surname spellings were paged to the end, each in 15-year date windows from 1690 to 1900 (a window with more than 5,900 entries is halved). Spellings not tried, such as variants with a *y*, *w* or a doubled letter, are not here. "
  "**What it cannot say.** The index is not complete: it is a volunteer transcription, and it reaches Senj "
  "baptisms of 1739–1861 in three overlapping collections. A family's absence from a year is not evidence "
- "that it was not baptising ([an absent mark is not a record](method.md)).", ""]
+ "that it was not baptising.", ""]
+
+def own(r, stems):
+    f = fold(r["name"].split()[-1]) if r["name"].split() else ""
+    if any(f.startswith(x) for x in NOT_THE_NAME[:2]): return False
+    return any(f.startswith(s) for s in stems)
+
+INTRO = os.path.join(ROOT, "sources", "senj-baptism-index-intro.md")
+if os.path.exists(INTRO):
+    out += [open(INTRO, encoding="utf-8").read().rstrip("\n"), ""]
+
 for slug, label, stems in FAMS:
     rs = by.get(slug, [])
     if not rs: continue
-    bap = []
+    bap_own, bap_par = [], []
     other = collections.Counter()
     for r in rs:
         bf = [f for f in r["facts"] if f[0] == "Baptism" and re.search(r"^Senj\b", f[2])]
-        if bf: bap.append((year(bf[0][1]) or 0, bf[0][1], r))
+        if bf:
+            (bap_own if own(r, stems) else bap_par).append((year(bf[0][1]) or 0, bf[0][1], r))
         else:
             for f in r["facts"]:
                 if f[2].startswith("Senj"): other[f[0]] += 1
-    bap.sort(key=lambda x: (x[0], x[1]))
-    out += ["## %s" % label, "", "%d baptisms at Senj (%s–%s)%s." % (len(bap), bap[0][0] if bap else "?", bap[-1][0] if bap else "?",
-            "; also %s" % ", ".join("%d %s" % (n, k.lower()) for k, n in other.items()) if other else ""), ""]
-    if bap:
-        out += ["| year | baptised | father | mother | |", "|---|---|---|---|---|"]
-        for y, d, r in bap:
+    bap_own.sort(key=lambda x: (x[0], x[1])); bap_par.sort(key=lambda x: (x[0], x[1]))
+    yrs = [x[0] for x in bap_own + bap_par if x[0]]
+    out += ["## %s" % label, "",
+            "%d baptisms of a child named %s, and %d in which a %s is named as a parent (%s–%s)%s." % (
+                len(bap_own), label.split(" /")[0], len(bap_par), label.split(" /")[0],
+                min(yrs) if yrs else "?", max(yrs) if yrs else "?",
+                "; the index also holds %s at Senj for the name" % ", ".join("%d %s" % (n, k.lower()) for k, n in other.items()) if other else ""), ""]
+    for title, lst in (("The child bears the name", bap_own), ("The name is a parent's", bap_par)):
+        if not lst: continue
+        out += ["**%s**" % title, "", "| baptised | child | father | mother | |", "|---|---|---|---|---|"]
+        for y, d, r in lst:
             out.append("| %s | %s | %s | %s | %s |" % (d or y, r["name"], parents(r, "Father"), parents(r, "Mother"), link(r)))
         out.append("")
 open(OUT, "w", encoding="utf-8").write("\n".join(out) + "\n")
