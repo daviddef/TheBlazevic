@@ -1,10 +1,10 @@
 # Senj baptisms, from the FamilySearch index (14–16 October 2026)
 
-**What this is.** The index of *Croatia, Church Books, 1516–1994* (collection 2040054), paged by surname and by date, keeping every record whose place is the parish of **Senj**. 1173 records were saved, and the families of this archive account for 855 of them.
+**What this is.** The index of *Croatia, Church Books, 1516–1994* (collection 2040054), paged by surname and by date, keeping every record whose place is the parish of **Senj**. 1211 records were saved, and the families of this archive account for 893 of them.
 
 **What it is not.** These are the indexer's transcriptions of the entries, with the parents the entry names. No filmed page has been opened for any of them, so none has a snapshot, and every spelling and date below is the index's, not a reading. They are the places to open, and a few of them are marked as such below.
 
-**Coverage, and a blind spot.** 67 surname spellings were paged, each in 15-year date windows from 1690 to 1900 (a window with more than 5,900 entries is halved). **The paging is not reliable for common surnames:** the index returns its results in an order that shifts between pages, so a window of thousands of entries loses some. A search by a parent's name found five Senj baptisms of Augustinus Babich's children (1826–1840) that the surname sweep never returned. So a family absent from a year here is not shown to be absent; and spellings not tried (a *y*, a *w*, a doubled letter) are not here at all. **What it cannot say.** The index is not complete: it is a volunteer transcription, and it reaches Senj baptisms of 1739–1861 in three overlapping collections. A family's absence from a year is not evidence that it was not baptising.
+**Coverage, and a blind spot.** 67 surname spellings were paged, each in 15-year date windows from 1690 to 1900 (a window with more than 5,900 entries is halved). **The paging is not reliable for common surnames:** the index returns its results in an order that shifts between pages, so a window of thousands of entries loses some. A second sweep by father's and mother's surname (47 queries) raised the Babić baptisms from 19 to 86 and found Augustinus Babich's five Senj baptisms (1826–1840) that the surname sweep never returned; for the other families it added few, so their surname sweeps were nearer complete. So a family absent from a year here is not shown to be absent; and spellings not tried (a *y*, a *w*, a doubled letter) are not here at all. **What it cannot say.** The index is not complete: it is a volunteer transcription, and it reaches Senj baptisms of 1739–1861 in three overlapping collections. A family's absence from a year is not evidence that it was not baptising.
 
 ## What the index adds to the families on this site
 
@@ -14,7 +14,7 @@ Each line below was checked against the tree (`site/src/data/people.json`) when 
 2. **Treat every month in the 1878–1894 Senj births as unverified.** Against six tree people with full dates, the index agrees on August and December and disagrees on three others: 16 June 1890 appears as August, 27 July 1883 as August, and two October births (26 and 9 October) as November. The month names of this volume are Croatian and the index looks to have mapped at least *lipnja*, *srpnja* and *listopada* wrongly. The **day** and the **year** matched in every case. Months in the tables below are the index's, not the register's.
 3. **Antun Krmpotić × Marija Prpić: all six children in the tree are baptised at Senj, and there is a seventh.** Mile Vatroslav (1881), Anton Frane (1883), Slavka Katarina (1885), Marijan (1888), Anton (1890) and Leon Favorin (1894) are all indexed with Antun as father and a mother written Papić, Perpić or Prpić — the same woman. **Ivan Petar, baptised 27 August 1892, father Anton Kermpotić, mother Marija Perpić, is in the index and not in the tree.**
 4. **Ivan Blažević × Marija Tomljanović, Senj, 1885–1894.** Four of the five children the tree gives them (Josip 1885, Ivan 1888, Marijan 1891, Josip Anton 1894) are indexed. This is a second Blažević–Tomljanović household beside Pavao Blažević × Marija Tomljanović of Smokvica; the tree already carries both, and the index keeps them apart.
-5. **Babić — and the sweep's blind spot.** Marija (1887) and Mirko (1891), children of Ante Babić and Tereza Prpić, are indexed; so is Jakov (15 August 1889), son of Ivan Babić and Kate Vukelić. **The surname sweep found none of the baptisms of Ante's brothers and sisters.** A query by the father's name — Augustinus Babich — returned seven children of Augustinus Babić and Maria Jurčić (Turcicz, Turcich, Furcić): Hellena Francisca 1826, Joannes 1828, Casparus Paulus 1832, Nicolaus Ambrosius 1834, Antonius Joannes (Ante, b. 1837, not baptism-indexed), Philipina Jacobina 1840 and Theresia 1842–1856, and their marriages: **Ante married first Catharina Zoričić and then Tereza Perpić** (Šimun Perpić × Ana Tomljanović); Joannes married Jacoba Fabris and later Margaritha Pavelić. See `sources/babic-augustinus-family-index.txt`.
+5. **Babić — and the sweep's blind spot.** Marija (1887) and Mirko (1891), children of Ante Babić and Tereza Prpić, are indexed; so is Jakov (15 August 1889), son of Ivan Babić and Kate Vukelić. **The surname sweep found none of the baptisms of Ante's brothers and sisters.** A query by the father's name — Augustinus Babich — returned seven children of Augustinus Babić and Maria Jurčić (Turcicz, Turcich, Furcić): Hellena Francisca 1826, Joannes 1828, Casparus Paulus 1832, Nicolaus Ambrosius 1834, Antonius Joannes (Ante, b. 1837, not baptism-indexed), Philipina Jacobina 1840 and Theresia 1842–1856, and their marriages: **Ante married first Catharina Zoričić and then Tereza Perpić** (Šimun Perpić × Ana Tomljanović); Joannes married Jacoba Fabris and later Margaritha Pavelić. See `sources/babic-augustinus-family-index.txt`. **A second sweep, by the father's and the mother's surname (47 queries, 17 October), raised the Babić baptisms from 19 to 86**; it also found Ante's first marriage's children — Vinko (1878, buried 1883) and Antonija (1880–1902), to Tone Babić and Katarina Zoričić — and a second Marija born and buried in 1888.
 6. **Špalj: the 1850s bridge.** Danielis Spalj and Franciscaina Perpić have children baptised at Senj on 1 December 1854 and 22 February 1857, so **Daniel Špalj of the 1870s households was very probably already at Senj in the 1850s** (same wife's name, 17 years earlier); Ilija Spalj and Lucija Perpić baptise three (1851–57); Lovre Spalj and Marie Perpich one in 1849. The households of the 1880s are confirmed: Kata (Joso Špalj × Ana Prpić), Ana and Martin (Franjo × Marta Prpić), Marija Pepica, Jure Milkan and Lucija (Joso × Ana), Mile and Klara (Mate × Matija Perpić). Prpić or Perpić mothers recur from 1849, though not in every household (a Sojat in 1853, a Tomljanović in 1858).
 7. **Pavelić.** The sweep found only two Pavelić children in the Senj parish (1763 and 1766); the Mrzli Dol Pavelići were baptised elsewhere — the tree cites the Krivi Put births 1847–1884 — and are not in this index at all. One entry does confirm a marriage in the tree: **Ivan Juraj Prpić, October 1894, son of Petar Prpić and Antonija Pavelić**.
 8. **Uroda and Pilipić.** Valentinus Pillipich, baptised 9 February 1848, is the son of **Vincent Pillipich and Mathia Uroda** — ahnentafel 26 and 27 — and the tree's Valentinus Pilipić is entered with exactly that date. Two Uroda families the tree does not hold are also indexed at Senj: Vinzenza Urode and Marie Jerbac (Michaela, 8 October 1850) and Joannes Uroda and Josepha Marasić (Ignatius Blasius, 1 February 1857). They are leads, not joins.
@@ -25,7 +25,7 @@ Each line below was checked against the tree (`site/src/data/people.json`) when 
 
 ## Blažević
 
-6 baptisms of a child named Blažević, and 7 in which a Blažević is named as a parent (1835–1894); the index also holds 12 burial at Senj for the name.
+6 baptisms of a child named Blažević, and 7 in which a Blažević is named as a parent (1835–1894); the index also holds 13 burial at Senj for the name.
 
 **The child bears the name**
 
@@ -73,12 +73,13 @@ Each line below was checked against the tree (`site/src/data/people.json`) when 
 
 ## Kalanj
 
-0 baptisms of a child named Kalanj, and 7 in which a Kalanj is named as a parent (1883–1894); the index also holds 1 burial at Senj for the name.
+0 baptisms of a child named Kalanj, and 8 in which a Kalanj is named as a parent (1844–1894); the index also holds 1 burial at Senj for the name.
 
 **The name is a parent's**
 
 | baptised | child | father | mother | |
 |---|---|---|---|---|
+| 2 August 1844 | Franciscus Babich | Antonius Babich | Maria Calanich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SC1Y) |
 | 21 Nov 1883 | Rozarija Cvitković | Lovre Cvitković | Kata Kalanj | [index](https://www.familysearch.org/ark:/61903/1:1:X9DP-3YZ3) |
 | 26 Aug 1885 | Ana Cvitko | Lovre Cvitko | Kate Kalanj | [index](https://www.familysearch.org/ark:/61903/1:1:X9D5-SH24) |
 | 26 Aug 1885 | Jakov Cvitko | Lovre Cvitko | Kate Kalanj | [index](https://www.familysearch.org/ark:/61903/1:1:X9D5-SH29) |
@@ -129,7 +130,7 @@ Each line below was checked against the tree (`site/src/data/people.json`) when 
 
 ## Tomljanović
 
-135 baptisms of a child named Tomljanović, and 57 in which a Tomljanović is named as a parent (1820–1894); the index also holds 34 burial at Senj for the name.
+135 baptisms of a child named Tomljanović, and 57 in which a Tomljanović is named as a parent (1820–1894); the index also holds 42 burial at Senj for the name.
 
 **The child bears the name**
 
@@ -379,21 +380,50 @@ Each line below was checked against the tree (`site/src/data/people.json`) when 
 
 ## Babić
 
-57 baptisms of a child named Babić, and 82 in which a Babić is named as a parent (1820–1894); the index also holds 37 burial at Senj for the name.
+86 baptisms of a child named Babić, and 82 in which a Babić is named as a parent (1820–1894); the index also holds 37 burial at Senj for the name.
 
 **The child bears the name**
 
 | baptised | child | father | mother | |
 |---|---|---|---|---|
 | 29 November 1820 | Martham Babich |  | Mariæ Babich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SM13) |
+| 29 January 1823 | Mariam Babich | Francisci Babich | Doimnæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SFXV) |
+| 24 April 1824 | Marcum Babich | Georgü Babich | Ursulæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SFF5) |
+| 31 May 1825 | Antoniam Babich | Georgü Babich | Mariæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9L8L) |
+| 23 December 1826 | Victoriam Theresiam Babich | Josephi Babich | Mariæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9L6M) |
+| 28 March 1826 | Hellenam Francisam Babich | Augustini Babich | Mariæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9LD4) |
+| 6 May 1827 | Joannam Babich | Francisci Babich | Dominiæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S34Z) |
+| 9 April 1827 | Georgium Babich | Georgü Babich | Margarithæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S349) |
+| 23 June 1828 | Joanem Babich | Augustini Babich | Mariæ | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S3CC) |
+| 4 January 1832 | Gasparus Babich | Angustinus Babich | Maria | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9G4C) |
+| 4 January 1832 | Paulus Babich | Angustinus Babich | Maria | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9G4D) |
+| 6 October 1832 | Lucas Babich | Antonius Babich | Mathias | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9GHW) |
+| 6 October 1832 | Franciscus Babich | Antonius Babich | Mathias | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9GH3) |
 | 6 November 1834 | Nicolaus Ambrosius Babicz | Augustinus Babicz | Mariæ Turcicz | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SSZC) |
 | 23 December 1835 | Victoria Natala Babich | Michäel Babich | Vincentia Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SSDS) |
+| 16 October 1836 | Cathedrali Babich | Joanes Babich | Juliana Valincich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S6M6) |
 | 2 October 1839 | Maria Francisca Babich | Michaelis Babich | Viceneza Zupan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9GF9) |
+| 8 June 1839 | Antonius Formosus Babich | Antonius Babich | Mathia Lenacz | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9GXN) |
+| 24 April 1840 | Philipina Jacobina Babich | Augustinus Babich | Maria Turcich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-9GN9) |
 | 15 August 1841 | Maria Clara Babich | Michaelis Babich | Vincentia Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SQ5C) |
+| 17 April 1842 | Georgius Babich | Laurentius Babich | Anna Xappan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91DG) |
 | 26 January 1842 | Joañes Babicz |  | Martha Babicz | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91D7) |
+| 7 April 1842 | Georgius Cosma Babich | Antonius Babich | Kata Lenacz | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91D4) |
+| 13 July 1843 | Jacobus Franciscus Babich | Antonius Babich | Maria Pulanich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SCYP) |
+| 19 February 1843 | Mathias Babich | Antonius Babich | Mathia Lenacz | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SCBB) |
 | 31 December 1843 | Casparus Babić | Laurentius Babić | Anna Zupan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SCBN) |
+| 10 July 1844 | Maria Magdalena Babich | Michaelis Babich | Vincentia Suppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SC1L) |
+| 2 August 1844 | Franciscus Babich | Antonius Babich | Maria Calanich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SC1Y) |
 | 17 March 1845 | Josepha Babich | Laurentius Babich | Anna Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SVY8) |
+| 2 October 1845 | Martha Babich | Andræa Babich | Antonia Biandcek | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SVB8) |
+| 30 July 1845 | Maria Dominica Babich | Antonius Babich | Maria Palanich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SVYT) |
+| 15 October 1846 | Eduardus Petrus Babich | Joannes Babich | Juliana Valincich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-916R) |
+| 29 October 1846 | Volfangus Babich | Laurentius Babich | Anna Luppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91X9) |
+| 21 October 1847 | Ursula Johanna Babich | Franciscus Babich | Maria Bassich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91F9) |
+| 27 June 1847 | Petrus Babich | Franciscus Babich | Maria Ronche | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91XG) |
+| 17 May 1848 | Antonia Babich | Stephanus Babich | Catharina Ostermann | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91NZ) |
 | 9 August 1848 | Laurentius Babich | Laurentius Babich | Anna Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SH6V) |
+| 9 January 1848 | Antonius Paulus Babich | Antonius Babich | Maria Pulanich | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-91FZ) |
 | 16 May 1850 | Henrico Elia Babić | Antona Babić | Marije Pulanić | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-SMC6) |
 | 23 September 1850 | Casma Michael Babić | Lovre Babić | Anne Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S8XR) |
 | 11 September 1851 | Mariam Babić | Laurentü Babić | Annæ Zuppan | [index](https://www.familysearch.org/ark:/61903/1:1:QKMJ-S56F) |
