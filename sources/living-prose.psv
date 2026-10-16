@@ -1,0 +1,31 @@
+# Hand-written text that already carries a FULL DATE the family tree attaches to a person the
+# living rule (kit living_rule.py, 16 October 2026) calls living, found the first time
+# tools/livingcheck.py looked with the GEDCOM beside it. Eight files, in two groups:
+#
+#   A. a state birth-register extract, transcribed in full: a birth date (with a hospital and a time)
+#      of a person born in 1951. /certificate/ is the transcription; /sources/ and
+#      site/src/data/sources.json quote it; photos/hedviga/index.md is the photograph note that
+#      first transcribed it; README.md names the same extract by its issue date, which is the same
+#      day, so the date there is Hedviga's certificate and not the birth, and is listed because the
+#      gate cannot tell the two apart.
+#   B. a correction that quotes a tree entry's BIRTH DATE for a woman born in 1960 to show that an
+#      attachment does not hold: /people/marica-milkovic/, /corrections/ and
+#      site/src/data/corrections.json.
+#
+# THIS FILE NAMES THE FILE AND HOW MANY. It never records the date or the person: a list of living
+# people's dates is exactly what must not be committed. A file listed here may carry up to that many;
+# one more fails the build (tools/livingcheck.py, rules GED-DATE and GED-YEAR).
+#
+# These are research prose and were NOT rewritten (David, 16 October 2026): each is somebody's
+# decision, either the date comes off the page or the page stands as the research record. Removing
+# a row here is the goal; adding one needs a reason.
+#
+# file or page|count|kind|why
+certificate|1|birth date, hospital and time (transcribed state extract)|group A
+sources|1|birth date (quotes the extract)|group A
+site/src/data/sources.json|1|birth date (quotes the extract)|group A, the data behind /sources/
+photos/hedviga/index.md|1|birth date, hospital and time (photograph note)|group A, a research note
+README.md|1|issue date of the extract, which is also the birth date|group A, coincidence the gate cannot tell apart
+people/marica-milkovic|1|birth date (quoted from a tree entry in a correction)|group B
+corrections|1|birth date (quoted from a tree entry in a correction)|group B
+site/src/data/corrections.json|2|birth date, and the birth year on two lines (quoted from a tree entry in a correction)|group B, the data behind /corrections/ and the person page

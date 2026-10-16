@@ -45,18 +45,35 @@ Krmpotska** — and of Otočac, Krivi Put, Selce, Karlobag, Port Pirie and Johan
 | **Disputed** | Asserted in the family record but unsupported, or contradicted, by what can be seen. |
 | **Family lore** | Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history. |
 
-**Living people are omitted from the build entirely** — not hidden, not gated, not present in the
-output. The rule is applied once, in `classify_living()` in `tools/gedcom.py`, at the boundary
-between the research data and the published site.
+**A living person (80 or younger, with no death recorded) is named with their relationships and
+their town and country, and nothing more.** No dates, no records, no sources, no photograph, no
+structured data; their page is `noindex` (so it is out of the sitemap and the search index), and so
+is a name page whose every bearer is living. The test for who is living is the estate's one
+definition, `living_rule.py` in the shared archive kit, adapted to this tree in
+`tools/livingset.py` and applied once, in `tools/build_site_data.py`, at the boundary between the
+research data and the published site:
 
-Because thousands of people in a tree this size carry no dates at all, judging each by their own
-record alone marks every one of them living — safe, but useless. So the build computes an **upper
-bound on each person's birth year** from their own events, their children's births, their marriages
-and their parents' bounds, and publishes somebody only when *even the latest year they could have
-been born* is more than a century ago. Every step is a real bound, never a guess, and a recorded
-birth is never overridden by inference. On the current export that judges **2,034 of 15,643** people
-living. A living spouse, parent or child is not named on anybody else's page either. A removal
-request is honoured within days, without argument and without requiring a reason.
+- **Living** is born 80 years ago or less (this year minus the birth year), with no death or burial
+  recorded (dated or not) and no citation from a public record source. A family-tree entry (a Geni
+  or WikiTree profile, a family's own website) is not a public source and does not count.
+- **A recorded death or burial is a death. No birth year** means a person cannot be shown to be 80
+  or younger, so is not living by this test.
+- **Possible children are held out**: somebody not recorded dead, with no public source, who is under
+  18 by year, or has no birth year and a living parent, is not published at all: no page, and not
+  named as anybody's relative.
+- **Every person the archive names has a page of their own.** A relative named on a page is given
+  one; the relatives of *that* person are named on their page only where they already have one, so
+  naming does not walk on across a tree of 15,643 people. A person nobody names stays unpublished.
+
+On the current export that judges **462 of 15,643** people living, of whom **28** are named on this
+site and 133 are held out. `site/src/data/livingrule.json` records the rule and the counts, never a
+person. The generator never writes a living person's dates, events, notes, sources, occupations or
+photographs to any file, and a build gate (`tools/livingcheck.py`, `npm run check:living-v2`)
+reads the built pages, the sitemap and the search index and refuses the build if any of it breaks;
+on a machine that holds the tree it also works out who is living again, independently of the
+generator, and scans every built and tracked file for a held-out person or a living person's
+date. Every rule has a planted fault in `--selftest` that must be caught. A removal request is
+honoured within days, without argument and without requiring a reason.
 
 Two further things the build does, and admits to:
 
