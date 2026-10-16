@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 196,
+  "rows": 197,
   "people": 122,
   "derived": 72,
   "onDirectLine": 0,
@@ -24,7 +24,7 @@
   ],
   [
    "marriage",
-   28
+   29
   ],
   [
    "death",
@@ -1185,6 +1185,20 @@
    "viaName": "",
    "where": "notes/karlobag-deaths-1809-1828.md",
    "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-deaths-1809-1828.md",
+   "indexOnly": false,
+   "slug": "michaeli-michaele-gerkacs-gergacs",
+   "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1809",
+   "cite": "Karlobag marriages image 232 left (folio 6), 8 October 1809 — «Michaelis vidui Gargács et Marthae viduae defti Laurentii Kovacevich»; READ FROM THE IMAGE; a widower nineteen days after Lucia's burial; his second marriage on this evidence",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/karlobag-marriage-1809-gergacs-martha.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1809-gergacs-martha.md",
    "indexOnly": false,
    "slug": "michaeli-michaele-gerkacs-gergacs",
    "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
@@ -4343,6 +4357,17 @@
      "indexOnly": false
     },
     {
+     "kind": "marriage",
+     "year": "1809",
+     "cite": "Karlobag marriages image 232 left (folio 6), 8 October 1809 — «Michaelis vidui Gargács et Marthae viduae defti Laurentii Kovacevich»; READ FROM THE IMAGE; a widower nineteen days after Lucia's burial; his second marriage on this evidence",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/karlobag-marriage-1809-gergacs-martha.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1809-gergacs-martha.md",
+     "indexOnly": false
+    },
+    {
      "kind": "named-on-a-child-baptism",
      "year": "1789",
      "cite": "Karlobag, August 1789 — «Mariam Gergacs», of «Michaele Gergacs» and «Lucia»; ark 1:1:QKMX-YJP7. INDEX ONLY, not read from the image, and it gives the month without the day. The tree says 11 August 1789 and the index does not contradict it",
@@ -4354,7 +4379,7 @@
      "indexOnly": true
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 1
   },
   "oliva-maria-smojver": {

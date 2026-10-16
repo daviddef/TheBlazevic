@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 477,
- "images": 494,
+ "count": 478,
+ "images": 496,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11399,6 +11399,35 @@
    "captured": "17 October 2026",
    "note": "notes/karlobag-tomljanovic-daughters-1789-1795.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-tomljanovic-daughters-1789-1795.md"
+  },
+  {
+   "id": "karlobag-marriage-1809-gergacs-martha",
+   "entry": "karlobag-marriage-1809-gergacs-martha-entry.jpg",
+   "page": "karlobag-marriage-1809-gergacs-martha-page.jpg",
+   "title": "Karlobag, 8 October 1809 — Michael Gergacs, widower, and Martha, widow of Laurentius Kovacevich",
+   "film": "Karlobag marriages 1736–1804 and after (DGS 5481649, FamilySearch waypoint 9RK1-HZK)",
+   "where": "image 232, left-hand page (folio 6), headed «Annus Domini 1809»: the fifth entry, margin «8 Octobris»; the entry in two strips (left half above, right half below)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-GJ9",
+   "says": "«… consensu Michaelis vidui Gargács et Marthae viduae defti Laurentii Kovacevich, eos solemniter per verba de praesenti … conjunxit A.V. Pater Maurinus Molinarich Capucinus, praesentibus testibus Martino Kovacevich … et Joanne Naglich». He is a widower nineteen days after Lucia's burial; her name is not given.",
+   "slugs": [
+    "michaeli-michaele-gerkacs-gergacs",
+    "lucia-maja-tomljanovic"
+   ],
+   "people": [
+    {
+     "slug": "michaeli-michaele-gerkacs-gergacs",
+     "kind": "people",
+     "name": "Michaeli (Michaele) Gerkacs (Gergacs)"
+    },
+    {
+     "slug": "lucia-maja-tomljanovic",
+     "kind": "people",
+     "name": "Lucia (Maja) Tomljanović"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/karlobag-marriage-1809-gergacs-martha.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/karlobag-marriage-1809-gergacs-martha.md"
   }
  ],
  "bySlug": {
@@ -11442,12 +11471,14 @@
    "karlobag-marriage-1747"
   ],
   "michaeli-michaele-gerkacs-gergacs": [
-   "karlobag-marriage-1785"
+   "karlobag-marriage-1785",
+   "karlobag-marriage-1809-gergacs-martha"
   ],
   "lucia-maja-tomljanovic": [
    "karlobag-marriage-1785",
    "karlobag-death-1809-lucia-maja",
-   "karlobag-death-1809-lucia-maja-age"
+   "karlobag-death-1809-lucia-maja-age",
+   "karlobag-marriage-1809-gergacs-martha"
   ],
   "nicolaus-gerkacs": [
    "karlobag-marriage-1785",

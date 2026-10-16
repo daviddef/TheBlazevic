@@ -15,7 +15,7 @@
 | Ante Boraš → Ladislava (Lada) Bilubaric, b. 1922 | On /impossible/ (generation, age 9). | Known; the mother's birth year is wrong (probably 1912, unproved). |
 | Antonija Butković → Marko Butković (b. 1872, she b. 1880) | On /impossible/ (age 8). | Known; wrong father or wrong date. |
 | Nicolaus Kraljich (b. 1807) → mother Anna «b. 1809» | On /impossible/ (age 3 against her child of 1812). | Known; Anna's birth year is wrong. |
-| Stephanus Žubrinić (b. 1833) → mother Maria, d. 1831 | On /impossible/ (record). | Known; probably a second wife not in the tree. |
+| Stephanus Žubrinić (b. 1833) → mother Maria, d. 1831 | On /impossible/ (record). | Known; probably a second wife not in the tree: the Otočac index has a Michael Žubrinić with a wife **Catharina** and children with the same given names ([note](zubrinic-michael-miko-second-wife-index.md)); not proved. |
 | Stephanus Žubrinić (b. 1769) → Nicolai «BEF 1769» | On /impossible/ (hedged). | Not an error: «before 1769» is compatible. |
 | Gregorius Žubrinić, lifespan 111 | On /impossible/ (namesake). | Known. |
 | Antonia Šestan, died 1846 before born 1847 | On /impossible/ (record). | Known. |
