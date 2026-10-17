@@ -1,0 +1,573 @@
+{
+ "title": "The Blažević Archive",
+ "front": {
+  "label": "Front matter",
+  "intro": "The cover, what this archive is and what it will not say, and the rules it keeps.",
+  "chapters": [
+   {
+    "path": "/",
+    "title": "The cover",
+    "blurb": "One woman, four families, and the mountain they were planted on."
+   },
+   {
+    "path": "/about/",
+    "title": "About",
+    "blurb": "Every claim carries one of five words; every correction is published; living people are named and nothing more."
+   },
+   {
+    "path": "/method/",
+    "title": "Method",
+    "blurb": "Every claim carries a confidence, so a reader can disagree with the reasoning instead of taking the conclusion on trust."
+   }
+  ]
+ },
+ "parts": [
+  {
+   "id": "mountain",
+   "numeral": "I",
+   "title": "A mountain planted on purpose",
+   "flags": "🇭🇷",
+   "intro": "Smokvica Krmpotska and Krivi Put were settled on purpose, by refugees the Habsburgs planted on an empty mountain to hold it. With one exception, every place in this archive before 1884 lies within a day's walk of the Velebit. These chapters are the Bunjevci and the Frontier, Senj and Karlobag, the map, and the names the registers wrote the family under.",
+   "chapters": [
+    {
+     "path": "/bunjevci/",
+     "title": "The Bunjevci",
+     "blurb": "Smokvica Krmpotska and Krivi Put were settled on purpose, by refugees the Habsburgs planted on an empty mountain."
+    },
+    {
+     "path": "/frontier/",
+     "title": "The Frontier",
+     "blurb": "One Latin word in an 1834 baptismal entry puts the family inside the Habsburg Military Frontier."
+    },
+    {
+     "path": "/senj/",
+     "title": "Senj",
+     "blurb": "Senj made this family and then stopped being able to feed it."
+    },
+    {
+     "path": "/karlobag/",
+     "title": "Karlobag",
+     "blurb": "A small town under the Velebit where this family's mothers came from."
+    },
+    {
+     "path": "/atlas/",
+     "title": "The Atlas",
+     "blurb": "Every place this archive can put a person in: Senj, its hinterland and the Kvarner coast."
+    },
+    {
+     "path": "/gazetteer/",
+     "title": "The Map",
+     "blurb": "Every town the name appears in, and what the records there consist of."
+    },
+    {
+     "path": "/name/",
+     "title": "The Names",
+     "blurb": "Blažević is the seventeenth commonest surname in Croatia; Žubrinić is held by about three hundred people on earth."
+    },
+    {
+     "path": "/by-names/",
+     "title": "The Second Name",
+     "blurb": "A household by-name is a second name that identifies which family of a surname you mean."
+    },
+    {
+     "path": "/your-name/",
+     "title": "Say Your Name",
+     "blurb": "One person, written down by six clerks in six languages: type a given name and see every form."
+    }
+   ]
+  },
+  {
+   "id": "lines",
+   "numeral": "II",
+   "title": "Four families, and the lines under them",
+   "flags": "🇭🇷",
+   "intro": "The archive follows four surnames with a page each, Blažević, Žubrinić, Papić and Prpić, while the descent runs through more than twenty. The drawn line comes first and then each family in turn, with the names of Selce, Otočac and Karlobag that the direct line carries. The registers take the line back to about 1717, in four parishes, and no further.",
+   "chapters": [
+    {
+     "path": "/families/",
+     "title": "The Families",
+     "blurb": "The four that make the grandparents, and the names the direct line itself carries.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/trees/",
+     "title": "The trees",
+     "blurb": "Every family this archive follows, most of them webs rather than lines.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/direct-line/",
+     "title": "The Spine",
+     "blurb": "From a boy born about 1750 to Hedviga at Senj in 1926, with the joint that cannot yet bear weight marked.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/tree/",
+     "title": "Our line, drawn",
+     "blurb": "The whole of what this archive knows of her ancestry, as one chart.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/how-far-back/",
+     "title": "How Far Back",
+     "blurb": "To about 1717, in four parishes, and no further.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/lines/",
+     "title": "The Lines of a Name",
+     "blurb": "Wherever the registers show several households of one name, each gets a lane of its own.",
+     "group": "The line, drawn"
+    },
+    {
+     "path": "/blazevic/",
+     "title": "Blažević",
+     "blurb": "The name the archive carries: eight generations out of a Bunjevac settlement.",
+     "group": "Blažević of Smokvica Krmpotska"
+    },
+    {
+     "path": "/zubrinic/",
+     "title": "Žubrinić",
+     "blurb": "The rarest name in the archive and the least resolved.",
+     "group": "Žubrinić and Orešković of Otočac"
+    },
+    {
+     "path": "/zubrinic-roots/",
+     "title": "The Žubrinić Fragments",
+     "blurb": "Joining the Žubrinići is the largest piece of work left in the archive.",
+     "group": "Žubrinić and Orešković of Otočac"
+    },
+    {
+     "path": "/oreskovic/",
+     "title": "Orešković",
+     "blurb": "On the direct line at ahnentafel 21 and 42.",
+     "group": "Žubrinić and Orešković of Otočac"
+    },
+    {
+     "path": "/papic/",
+     "title": "Papić",
+     "blurb": "Porters and load-carriers on the Senj waterfront who bought an inn, and merchants at Karlobag.",
+     "group": "Papić of Senj"
+    },
+    {
+     "path": "/prpic/",
+     "title": "Prpić",
+     "blurb": "Thirty-five people born at one house number over four generations, in Krivi Put.",
+     "group": "Prpić of Krivi Put"
+    },
+    {
+     "path": "/antic/",
+     "title": "Antić",
+     "blurb": "Of Selce, on the direct line at ahnentafel 24, 48 and 96.",
+     "group": "Selce"
+    },
+    {
+     "path": "/jellicic/",
+     "title": "Jelličić",
+     "blurb": "Of Selce, on the direct line at ahnentafel 25, 50 and 100.",
+     "group": "Selce"
+    },
+    {
+     "path": "/loncaric/",
+     "title": "Lončarić",
+     "blurb": "Of Selce and Senj, on the direct line at ahnentafel 49 and 98.",
+     "group": "Selce"
+    },
+    {
+     "path": "/tomljanovic/",
+     "title": "Tomljanović",
+     "blurb": "Of Karlobag and Senj: ahnentafel 111, died at Karlobag in 1809.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/pilipic/",
+     "title": "Pilipić",
+     "blurb": "Of Karlobag, on the direct line at ahnentafel 13, 26, 52 and 104.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/uroda/",
+     "title": "Uroda",
+     "blurb": "Of Karlobag, on the direct line at ahnentafel 27, 54, 108 and 109.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/luckinic/",
+     "title": "Luckinić",
+     "blurb": "Of Karlobag, on the direct line at ahnentafel 105, 210 and 211.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/gerkacs/",
+     "title": "Gerkacs",
+     "blurb": "Of Karlobag, written Gerkacs (Gergacs) in the tree: ahnentafel 55, 110 and 220.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/smojver/",
+     "title": "Smojver",
+     "blurb": "Of Karlobag, called Vukić: ahnentafel 53, 106 and 212.",
+     "group": "Karlobag"
+    },
+    {
+     "path": "/sekula/",
+     "title": "Sekula",
+     "blurb": "On the direct line at ahnentafel 43, 84 and 86.",
+     "group": "Other names on the direct line"
+    },
+    {
+     "path": "/brozovic/",
+     "title": "Brozović",
+     "blurb": "On the direct line at ahnentafel 51 and 102.",
+     "group": "Other names on the direct line"
+    },
+    {
+     "path": "/maric/",
+     "title": "Marić",
+     "blurb": "Ahnentafel 11 and 22, whom the tree files under «Shambul Marić».",
+     "group": "Other names on the direct line"
+    }
+   ]
+  },
+  {
+   "id": "lives",
+   "numeral": "III",
+   "title": "A port, a war, and the Highveld",
+   "flags": "🇭🇷 🇩🇪 🇬🇷 🇿🇦 🇦🇺 🇺🇸",
+   "intro": "Hedviga was born in a dying port on the Adriatic and died seventy-five years later on the Highveld, having crossed a world war, a country that stopped existing, and two continents. These chapters hold her life and her mother's, the town in 1943, the papers and pictures that survive, and the work that took others of the family to Port Pirie and to America.",
+   "chapters": [
+    {
+     "path": "/hedviga/",
+     "title": "Hedviga",
+     "blurb": "Born in a dying port on the Adriatic, died seventy-five years later on the Highveld.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/milka/",
+     "title": "Milka",
+     "blurb": "Her mother, the best-documented person in the archive.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/marriage-1920/",
+     "title": "The Wedding of 1920",
+     "blurb": "One page of a parish register closes the gap this archive was built around.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/senj-1943/",
+     "title": "Senj, 1943",
+     "blurb": "Half the town was destroyed in two days.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/oto/",
+     "title": "The Brother",
+     "blurb": "Her brother died at twenty-two in the last year of the war; the family keeps two accounts of how.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/rhodes/",
+     "title": "Rhodes",
+     "blurb": "Her second husband was born on Rhodes in 1913 and died in South Africa in 1997.",
+     "group": "Hedviga and her people"
+    },
+    {
+     "path": "/certificate/",
+     "title": "The Certificate",
+     "blurb": "A sworn English translation of a Yugoslav birth extract: the one state document in the archive.",
+     "group": "The papers"
+    },
+    {
+     "path": "/arolsen/",
+     "title": "The Arolsen Cards",
+     "blurb": "Three German index cards place her husband in a factory in Württemberg at the age of sixteen.",
+     "group": "The papers"
+    },
+    {
+     "path": "/grave/",
+     "title": "The Grave",
+     "blurb": "Six names on one family plot, and one of them is not buried in it.",
+     "group": "The papers"
+    },
+    {
+     "path": "/stones/",
+     "title": "The Stones",
+     "blurb": "Names read off photographs of the memorials themselves.",
+     "group": "The papers"
+    },
+    {
+     "path": "/pictures/",
+     "title": "The Pictures",
+     "blurb": "Register scans, gravestones and portraits that the GEDCOM never carried.",
+     "group": "The papers"
+    },
+    {
+     "path": "/faces/",
+     "title": "The Faces",
+     "blurb": "A contact sheet to be shown to the family: every picture attached to a name in the tree.",
+     "group": "The papers"
+    },
+    {
+     "path": "/work/",
+     "title": "What They Did",
+     "blurb": "The tree records a trade for sixteen people; the registers record one for almost everybody.",
+     "group": "Work and leaving"
+    },
+    {
+     "path": "/port-pirie/",
+     "title": "Port Pirie",
+     "blurb": "One man left Senj for a lead-smelting town on the far side of the world, and his name changed on arrival.",
+     "group": "Work and leaving"
+    },
+    {
+     "path": "/america/",
+     "title": "The Other Emigration",
+     "blurb": "Youngstown, Johnstown, Brooklyn, Leadville, Calumet and Chicago: records that were never looked for.",
+     "group": "Work and leaving"
+    },
+    {
+     "path": "/abroad/",
+     "title": "The Catch Abroad",
+     "blurb": "Every record the commercial indexes returned for the family's emigrant surnames.",
+     "group": "Work and leaving"
+    }
+   ]
+  },
+  {
+   "id": "join",
+   "numeral": "IV",
+   "title": "How the lines join",
+   "flags": "🇭🇷 🇺🇸",
+   "intro": "A pedigree takes one person per generation and drops the rest. These chapters look instead at who the families marry repeatedly, at the cousins, and at the families that married into the line or sit beside it in the registers, among them the Kosina household of Senj.",
+   "chapters": [
+    {
+     "path": "/connected/",
+     "title": "Who They Married",
+     "blurb": "Who a family marries repeatedly: a German name inside the Military Frontier, and more.",
+     "group": "Marriage and cousins"
+    },
+    {
+     "path": "/marriages/",
+     "title": "The Marriages",
+     "blurb": "This archive follows four surnames; the descent runs through more than twenty.",
+     "group": "Marriage and cousins"
+    },
+    {
+     "path": "/bloodline/",
+     "title": "Blood relatives",
+     "blurb": "Choose a person: parents above, brothers and sisters beside, children below, and through them the cousins.",
+     "group": "Marriage and cousins"
+    },
+    {
+     "path": "/kosina/",
+     "title": "The Kosina",
+     "blurb": "30 people, from a Carniolan cottage to an autumn in Senj; the family an aunt married into.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/kalanj/",
+     "title": "Kalanj",
+     "blurb": "Looked for at Klenovica; their own baptismal entry calls them country people of the parish of Brinje.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/vukelic/",
+     "title": "Vukelić",
+     "blurb": "The smallest family on the site, and the answer to who Milka Papić married before Ljubomir Blažević.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/boras/",
+     "title": "Boras",
+     "blurb": "Fifty-five people joined to Hedviga without scaffolding, and the least-researched family on the site.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/pavelic/",
+     "title": "Pavelić",
+     "blurb": "The family the Blaževići of Mrzli Dol kept marrying, with a branch at Hibbing, Minnesota.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/krmpotic/",
+     "title": "Krmpotić",
+     "blurb": "A name that shares its stem with the villages above Senj, written Krmpotich, Krampotich and Kermpotich.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/babic/",
+     "title": "Babić",
+     "blurb": "Thirty-five readings from the Senj registers, and the seven Babić children dead in August 1855.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/spalj/",
+     "title": "Špalj",
+     "blurb": "Sixteen people, four households, and in every one the wife is a Prpić.",
+     "group": "Families that married in or sit beside the line"
+    },
+    {
+     "path": "/sestan/",
+     "title": "Šestan",
+     "blurb": "Fifty-five people connected only through a single node the tree itself labels not real.",
+     "group": "Families that married in or sit beside the line"
+    }
+   ]
+  },
+  {
+   "id": "everyone",
+   "numeral": "V",
+   "title": "Everyone, and everything in order",
+   "intro": "The people, every name, the places, the register and the people found beside the tree, then the timeline. A person's page belongs to its index chapter here and links back to it.",
+   "chapters": [
+    {
+     "path": "/people/",
+     "title": "The People",
+     "blurb": "Everybody in the tree carrying one of the archive's eight surnames who is judged dead."
+    },
+    {
+     "path": "/who/",
+     "title": "Every Name",
+     "blurb": "Every name in the archive, and how many different people bore it."
+    },
+    {
+     "path": "/places/",
+     "title": "Places",
+     "blurb": "With one exception, every place before 1884 lies within a day's walk of the Velebit."
+    },
+    {
+     "path": "/register/",
+     "title": "The Register",
+     "blurb": "Every entry caught: the raw catch, not a family tree."
+    },
+    {
+     "path": "/found/",
+     "title": "People Found Beside the Tree",
+     "blurb": "People read off a page that the family tree has never heard of, kept beside the tree."
+    },
+    {
+     "path": "/timeline/",
+     "title": "The Timeline",
+     "blurb": "Senj alone ran through the Uskoks, the Military Frontier, Austria–Hungary and Yugoslavia."
+    }
+   ]
+  },
+  {
+   "id": "how-we-know",
+   "numeral": "VI",
+   "title": "How we know, and what is missing",
+   "intro": "Every claim here carries a confidence. These chapters keep the sources, the registers read and not read, the open questions and the corrections in the open, so that a gap is not mistaken for a fact.",
+   "chapters": [
+    {
+     "path": "/sources/",
+     "title": "Sources",
+     "blurb": "A family tree, a set of Croatian parish registers reachable through FamilySearch, and national surname statistics.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/indexed/",
+     "title": "Which Books Are Indexed",
+     "blurb": "An indexed book is a search box; an unindexed one is a sitting in front of a film.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/searched/",
+     "title": "What Has Been Read",
+     "blurb": "So that a null is not lost: which volumes have been read, and which have not.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/readings/",
+     "title": "What the Registers Actually Say",
+     "blurb": "Every document read off a page, with the citation in the register's own words.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/snapshots/",
+     "title": "The Pages Themselves",
+     "blurb": "A photograph of the register page for each reading that has one.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/coverage/",
+     "title": "What Rests on a Document",
+     "blurb": "What each page's evidence is, person by person, added up.",
+     "group": "What it rests on"
+    },
+    {
+     "path": "/open-questions/",
+     "title": "Open Questions",
+     "blurb": "Written down so no reader mistakes a gap for a fact; each says what would close it.",
+     "group": "What is missing"
+    },
+    {
+     "path": "/harvest/",
+     "title": "What Is Left to Read",
+     "blurb": "Every person whose birth or death was written in a parish whose films are reachable.",
+     "group": "What is missing"
+    },
+    {
+     "path": "/hungarian-press/",
+     "title": "The Hungarian Press",
+     "blurb": "Lika and the Kvarner were administered from Budapest; the press of that administration had never been searched.",
+     "group": "What is missing"
+    },
+    {
+     "path": "/errands/",
+     "title": "Errands",
+     "blurb": "Every letter this archive has written, in full: drafted, sent and answered.",
+     "group": "What is missing"
+    },
+    {
+     "path": "/worklist/",
+     "title": "The work list",
+     "blurb": "What is being done here, as opposed to what is known.",
+     "group": "What is missing"
+    },
+    {
+     "path": "/corrections/",
+     "title": "Corrections",
+     "blurb": "The claims made here and then withdrawn, kept in the open.",
+     "group": "What was wrong"
+    },
+    {
+     "path": "/changes/",
+     "title": "What changed",
+     "blurb": "Every change this archive has recorded about itself, newest first.",
+     "group": "What was wrong"
+    },
+    {
+     "path": "/impossible/",
+     "title": "What Cannot Be True",
+     "blurb": "Things in one record that cannot all be true at once.",
+     "group": "What was wrong"
+    },
+    {
+     "path": "/duplicates/",
+     "title": "The Same Person, Twice",
+     "blurb": "One person counted as two, and how that inflates every number.",
+     "group": "What was wrong"
+    },
+    {
+     "path": "/buckets/",
+     "title": "Labels Where the Father Should Be",
+     "blurb": "Labels where the father should be: removed from the people, not yet from the parents.",
+     "group": "What was wrong"
+    }
+   ]
+  }
+ ],
+ "inherit": {
+  "/people/": "/people/",
+  "/who/": "/who/",
+  "/places/": "/places/",
+  "/found/": "/found/"
+ },
+ "outside": [
+  "/search/",
+  "/changed/",
+  "/married-in/",
+  "/photograph-these/"
+ ]
+}

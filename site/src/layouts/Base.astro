@@ -10,6 +10,11 @@ import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import ring from "@daviddef/archive-kit/data/archives.json";
+/* THE BOOK (17 October 2026): every page of the site is a chapter of one book (src/data/book.json);
+   the running head and the Previous / Next read the page's own path, so no page passes anything. */
+import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
+import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
+import book from "../data/book.json";
 /* noindex: <meta name="robots" content="noindex">, which also takes the page out
    of the sitemap (the kit's sitemap.py reads each built page).
    unstructured: no JSON-LD at all. A living person's page carries none, because
@@ -101,6 +106,7 @@ const thisArchive =
     ))}</div>
   </div>
 </header>
+<BookHead book={book} u={u} />
 
 <main id="main" tabindex="-1">
   <div class="wrap">
@@ -114,6 +120,8 @@ const thisArchive =
     <slot />
   </div>
 </main>
+
+<BookFoot book={book} u={u} />
 
 <footer class="site">
   <div class="wrap">

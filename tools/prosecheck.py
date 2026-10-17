@@ -16,7 +16,8 @@ THE FEED
 
 WHICH FILES. The kit reads site/src/pages, notes/, docs/ and top-level markdown by default. Added here, because
 a person edits them by hand and the kit's generated-data gates do not read them: sources.json, corrections.json,
-questions.json, errands.json, worklist.json and lib/familyCopy.js. People.json and the other generated data stay
+questions.json, errands.json, worklist.json, book.json (the book's part titles, introductions and one-line chapter
+blurbs, written by hand) and lib/familyCopy.js. People.json and the other generated data stay
 with their generators' own scrub gates (tools/livingcheck.py).
 
 WHAT THIS DOES THAT THE KIT'S GATE CANNOT: it builds the feed (the kit cannot read the GEDCOM), it says plainly
@@ -41,7 +42,8 @@ FEED = os.path.join(PRIVATE, "living-feed.json")
 ALLOW = os.path.join(PRIVATE, "prose-allow.json")
 KIT = os.path.join(ROOT, "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools")
 INCLUDE = ["site/src/data/sources.json", "site/src/data/corrections.json", "site/src/data/questions.json",
-           "site/src/data/errands.json", "site/src/data/worklist.json", "site/src/lib/familyCopy.js"]
+           "site/src/data/errands.json", "site/src/data/worklist.json", "site/src/data/book.json",
+           "site/src/lib/familyCopy.js"]
 
 
 def ged_available():

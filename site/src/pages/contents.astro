@@ -1,0 +1,16 @@
+---
+/* The Contents of the book: the whole site, every page placed, in the order the story is told.
+   Nothing here is typed in except src/data/book.json, which is checked against the built site
+   (npm run check:book) so a page that nobody placed fails the build. */
+import Base from "../layouts/Base.astro";
+import BookContents from "@daviddef/archive-kit/components/BookContents.astro";
+import { u } from "../lib/url.js";
+import book from "../data/book.json";
+---
+<Base title="Contents"
+      eyebrow="The whole archive, read as one book"
+      dek="Six parts and the front matter, in the order the story is told. The menus are shortcuts to the same pages; nothing has moved and every address is the same.">
+  <section class="blk">
+    <BookContents book={book} u={u} />
+  </section>
+</Base>

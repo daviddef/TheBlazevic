@@ -954,3 +954,12 @@ main .wl-one .wl-note{max-width:none}
 main .wl-one .wl-note>:not(.scroll):not(table){max-width:70ch}
 main .wl-one .wl-note>hr{margin-left:0}
 main .prose,main section.blk>ul:not(.cols):not(.sp):not(.spine),main section.blk>ol:not(.cols):not(.sp):not(.spine){max-width:min(100%,54rem)}
+
+/* THE BOOK (17 October 2026). The running head, the Previous / Next, the Contents and the part openers come from the
+   kit and read this archive's own tokens (--ink, --ink-2, --ink-3, --rule, --panel, --accent, --sans, --serif), which
+   already match. What is mapped here is the column: the kit's head and foot are as wide, and as padded, as .wrap. */
+:root{--bk-width:var(--maxw)}
+body .bk-head .bk-row,body .bk-foot{padding-left:28px;padding-right:28px}
+@media (max-width:520px){
+  body .bk-head .bk-row,body .bk-foot{padding-left:18px;padding-right:18px}
+}
