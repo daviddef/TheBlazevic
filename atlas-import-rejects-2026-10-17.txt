@@ -13888,6 +13888,15 @@
    "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
   },
   {
+   "archive": "Lerena Family",
+   "src": "FamilySearch record index - Estefania Lerena, born 1820-1840, Uruguay: the baptism of Estefania herself, and her daughter's 1884 marriage at",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Luwinski Family",
    "src": "Genealogia w Archiwach — USC Szubin Miasto, marriages 1874 (sygn. 141, 6/1792/0/2.2/141), scan 10, read at the image through the Loris IIIF ",
    "url": "https://www.genealogiawarchiwach.pl/",
@@ -16676,6 +16685,15 @@
    "host": "",
    "provider": "antenati",
    "why": "row carries no URL"
+  },
+  {
+   "archive": "Mazza Family",
+   "src": "Antenati — RIPOSTO Morti 1821–1875 swept for SIMONE NICOTRA and MARIANNA DAIDONE (49 of 50 years that exist)",
+   "url": "",
+   "sourceMarked": true,
+   "host": "",
+   "provider": "antenati",
+   "why": "row carries no URL"
   }
  ],
  "pagesRefused": [
@@ -17892,9 +17910,9 @@
   },
   {
    "archive": "Blazevic Family",
-   "src": "FamilySearch — Vodice marriages 1826–1857, the name index of 1844–1856 (images 88–90)",
-   "segment": "89 (both pages), 90 (left page and the start of the right), 1844–1856 index lines",
-   "why": "year-like, not a page: 1844–1856",
+   "src": "FamilySearch — Vodice marriages 1826–1857, the name index of 1844–1857 (images 88–90)",
+   "segment": "89 (both pages), 90 (both pages), the index lines of 1844–1857, read to the end",
+   "why": "year-like, not a page: 1844–1857",
    "tiedToVolume": true
   },
   {
