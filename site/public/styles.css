@@ -930,3 +930,27 @@ main .ptree .via-disputed .via,main .ptree .node.disputed .via,main .ptree .node
 /* The kit's descent card (.dsc-rail / .dsc-card) is 380px wide inside a 354px column on a phone:
    /kosina/ measured 398px at a 390px width after the kit re-pin of 16 October 2026. Let it shrink. */
 .dsc-rail,.dsc-card{max-width:100%;min-width:0;box-sizing:border-box}
+
+/* ---- layout: table cells, nested tables and one content column (17 October 2026) ----
+   1. Cells wrapped with overflow-wrap:anywhere (here on table.reg, and inherited from the kit's
+      .wl-note), which lets a column shrink to ONE character: "Rođ/enih", a date over three lines,
+      a name a letter a line. break-word keeps a column as wide as its longest word and breaks a
+      word only when it cannot fit. Phones are unchanged: below 600px a table scrolls inside itself.
+   2. On a wide page a date or year-range cell (td.small.mono, table.reg td.mono) is kept wide enough for "17 Oct 2026" or
+      "1783–1849" on one line. nowrap is NOT used: .mono cells also carry prose (/impossible/ went
+      102px past the page with it), and one long date list ("13 Sept 2026 · again 15 Sept 2026")
+      widened the whole WHEN column on /searched/.
+   3. A table inside a work-list note was as wide as the note's reading measure (70ch, 487px) in a
+      1024px row. The note's prose keeps that measure; its tables take the row.
+   2b. Between 601 and 999px a header may wrap at a space: /gazetteer/ was 11px wider than a 768px screen
+      because five nowrap headers would not fit (th is nowrap sitewide).
+   4. Prose and plain lists stop at one measure (54rem); tables, figures and cards keep the column. */
+main table td,main table th,
+main table.reg td,main table.reg th{overflow-wrap:break-word;word-break:normal;hyphens:manual}
+@media (min-width:1000px){main td.small.mono,main table.reg td.mono{min-width:12ch}}
+@media (min-width:601px) and (max-width:999px){main table th{white-space:normal}}
+main .scroll,main .tblwrap{width:100%;max-width:100%;box-sizing:border-box}
+main .wl-one .wl-note{max-width:none}
+main .wl-one .wl-note>:not(.scroll):not(table){max-width:70ch}
+main .wl-one .wl-note>hr{margin-left:0}
+main .prose,main section.blk>ul:not(.cols):not(.sp):not(.spine),main section.blk>ol:not(.cols):not(.sp):not(.spine){max-width:min(100%,54rem)}
