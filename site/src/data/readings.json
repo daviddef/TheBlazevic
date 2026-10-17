@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 214,
+  "rows": 219,
   "people": 134,
   "derived": 72,
   "onDirectLine": 0,
@@ -12,11 +12,11 @@
  "kinds": [
   [
    "baptism",
-   48
+   49
   ],
   [
    "baptism-of-child",
-   33
+   35
   ],
   [
    "marriage-of-child",
@@ -28,7 +28,7 @@
   ],
   [
    "death",
-   26
+   27
   ],
   [
    "census",
@@ -40,7 +40,7 @@
   ],
   [
    "death-of-spouse",
-   7
+   8
   ],
   [
    "named-on-a-child-baptism",
@@ -1346,6 +1346,34 @@
   },
   {
    "kind": "death",
+   "year": "1821",
+   "cite": "Otočac deaths image 266 left, «In Aug.» 1ª — «Obiit sine Sacramentis ob negligentiam Domesticorum Jacobus Kralich», age 41; identified by name, age and his wife's death, not by a house number; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-M3PL",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1821-jacobus-kralich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+   "indexOnly": false,
+   "slug": "jacobi-kraljich",
+   "name": "Jacobi Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1821",
+   "cite": "Otočac deaths image 264 right, «In Februario» 6ª 1821 — «Maria uxor Jacobi Kralich», age 36; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-MSV9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1821-jacobus-kralich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+   "indexOnly": false,
+   "slug": "jacobi-kraljich",
+   "name": "Jacobi Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "death",
    "year": "1828",
    "cite": "Karlobag Umrli 1804-1861 page 35 (image 138 right, DGS 5481649, waypoint 9RK1-HZK) — «28 Junii [margin, read; the KAZALO also reads 28] Josephus Pilepich Carlobagensis annorum 61 in communione S. Matris Ecclesiae animam Deo reddidit, cujus corpus die 29 h. sepultum est in coemeterio S. Caroli». READ FROM THE IMAGE, found through the KAZALO (P, image 185 right, 1828, folio 35). THE TREE SAYS 26 JUNE 1828, two days out against two readings, and the age 61 is a year over the tree's 60. A probable match for ahnentafel 52, not a proven one: the entry names no wife or parent; ark 3:1:3QSQ-G99C-G9HP",
    "derived": false,
@@ -1569,6 +1597,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism-of-child",
+   "year": "1836",
+   "cite": "Otočac births 1834–1846, 19 April 1836 — «Nicolaus Kraljich et Anna uxor ejus nata Xubrinich», Prozor No. 40; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1821-jacobus-kralich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+   "indexOnly": false,
+   "slug": "anna-zubrinic-xubrinich",
+   "name": "Anna Žubrinić Xubrinich",
+   "ahn": null
+  },
+  {
    "kind": "census",
    "year": "1836",
    "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Georgius filius dicti [Nicolai] · 19 April 1836»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
@@ -1594,6 +1636,34 @@
    "indexOnly": false,
    "slug": "georgius-kraljich",
    "name": "Georgius Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1836",
+   "cite": "Otočac births 1834–1846, 19 April 1836 — «Georgius, filius legitimus … ex Pago Prozor N° 40», protocol no. 24; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1821-jacobus-kralich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+   "indexOnly": false,
+   "slug": "georgius-kraljich",
+   "name": "Georgius Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1836",
+   "cite": "Otočac births 1834–1846, 19 April 1836 — «Georgius … Pago Prozor N° 40 · Nicolaus Kraljich et Anna uxor ejus nata Xubrinich»; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1821-jacobus-kralich.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+   "indexOnly": false,
+   "slug": "nicolaus-nicolai-kraljich",
+   "name": "Nicolaus Nicolai Kraljich",
    "ahn": null
   },
   {
@@ -6504,9 +6574,20 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846, 19 April 1836 — «Georgius … Pago Prozor N° 40 · Nicolaus Kraljich et Anna uxor ejus nata Xubrinich»; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1821-jacobus-kralich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+     "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "jacobi-kraljich": {
@@ -6524,9 +6605,31 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1821",
+     "cite": "Otočac deaths image 266 left, «In Aug.» 1ª — «Obiit sine Sacramentis ob negligentiam Domesticorum Jacobus Kralich», age 41; identified by name, age and his wife's death, not by a house number; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-M3PL",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1821-jacobus-kralich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1821",
+     "cite": "Otočac deaths image 264 right, «In Februario» 6ª 1821 — «Maria uxor Jacobi Kralich», age 36; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-MSV9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1821-jacobus-kralich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 3,
    "derived": 0
   },
   "mattheus-kraljich": {
@@ -6606,9 +6709,20 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "baptism",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846, 19 April 1836 — «Georgius, filius legitimus … ex Pago Prozor N° 40», protocol no. 24; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1821-jacobus-kralich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+     "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "petronilla-kraljich": {
@@ -6717,9 +6831,20 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846, 19 April 1836 — «Nicolaus Kraljich et Anna uxor ejus nata Xubrinich», Prozor No. 40; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1821-jacobus-kralich.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "antonia-pekass-pekkas": {

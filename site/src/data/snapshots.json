@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 488,
- "images": 513,
+ "count": 491,
+ "images": 519,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11706,6 +11706,111 @@
    "captured": "17 October 2026",
    "note": "notes/otocac-census-kraljich-1807.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md"
+  },
+  {
+   "id": "otocac-death-1821-08-jacobus-kralich",
+   "entry": "otocac-death-1821-08-jacobus-kralich-entry.jpg",
+   "page": "otocac-death-1821-08-jacobus-kralich-page.jpg",
+   "title": "Otočac deaths, 1 August 1821 — Jacobus Kralich, aged 41, died without the sacraments «ob negligentiam Domesticorum»",
+   "film": "Otočac Deaths (Umrli) 1780–1836, the third item of the census film (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 266, left-hand page (archive frame 509), under the month heading «In Aug.», the first entry (left margin «1ª», age «41»)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-M3PL?cc=2040054",
+   "says": "«In Aug. · 1ª Obiit sine Sacramentis ob negligentiam Domesticorum Jacobus Kralich et sepultus est in Coemeterio Ssmae Trinitatis · ann. [41]»: he died without the sacraments through the negligence of his household, and was buried at the Holy Trinity cemetery. The year is that of the page headed «Anno 1821» on image 264 (the year's total, 22 adults and 39 children, is at the foot of image 266). Identification: the prose register of these years gives no village or house number, so this Jacobus Kralich is the tree's Jacobus by name, by his age (41, so born about 1780) and by the death of «Maria uxor Jacobi Kralich», aged 36, on 6 February 1821 (the mother of children born 1807–1820 would be about that age), and because the Otočac census calls Nicolaus and Stephanus «filius defti Jacobi»: not by a house number. The age was read once in the right margin, and the entry above it also carries «41».",
+   "slugs": [
+    "jacobi-kraljich",
+    "nicolaus-nicolai-kraljich",
+    "mattheus-kraljich",
+    "stephanus-kraljich-2"
+   ],
+   "people": [
+    {
+     "slug": "jacobi-kraljich",
+     "kind": "people",
+     "name": "Jacobi Kraljich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    },
+    {
+     "slug": "mattheus-kraljich",
+     "kind": "people",
+     "name": "Mattheus Kraljich"
+    },
+    {
+     "slug": "stephanus-kraljich-2",
+     "kind": "people",
+     "name": "Stephanus Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-death-1821-jacobus-kralich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md"
+  },
+  {
+   "id": "otocac-death-1821-02-maria-uxor-jacobi-kralich",
+   "entry": "otocac-death-1821-02-maria-uxor-jacobi-kralich-entry.jpg",
+   "page": "otocac-death-1821-02-maria-uxor-jacobi-kralich-page.jpg",
+   "title": "Otočac deaths, 6 February 1821 — Maria, wife of Jacobus Kralich, aged 36",
+   "film": "Otočac Deaths (Umrli) 1780–1836, the third item of the census film (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 264, right-hand page (archive frame 507), under «Anno 1821 · In Januario» and then «In Februario», the last entry of the page (left margin «6ª», age «36»)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-MSV9?cc=2040054",
+   "says": "«In Februario · 6ª Obiit in Dño: Maria uxor Jacobi Kralich: provisa omnibus SS. Sacramentis morientium, et sepulta est in Coemeterio Ssmae Trinitatis · annor. 36»: she died with the sacraments, six months before Jacobus. No maiden name is given. The «Anno 1821» heading was read at full size. The same identification caution applies as to Jacobus's own entry: no village or house is given.",
+   "slugs": [
+    "jacobi-kraljich",
+    "nicolaus-nicolai-kraljich"
+   ],
+   "people": [
+    {
+     "slug": "jacobi-kraljich",
+     "kind": "people",
+     "name": "Jacobi Kraljich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-death-1821-jacobus-kralich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md"
+  },
+  {
+   "id": "otocac-baptism-1836-04-georgius-kraljic-prozor-40",
+   "entry": "otocac-baptism-1836-04-georgius-kraljic-prozor-40-entry.jpg",
+   "page": "otocac-baptism-1836-04-georgius-kraljic-prozor-40-page.jpg",
+   "title": "Otočac, 19 April 1836 — Georgius, son of Nicolaus Kraljich and Anna née Xubrinich, Prozor No. 40",
+   "film": "Otočac births (Rođeni) 1834–1846 (FamilySearch waypoint 9RK1-N3B)",
+   "where": "the spread of April–May 1836, left-hand page, the second row: «Anno 1836 Aprilis die 19», protocol no. 24",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G5YB?cc=2040054",
+   "says": "«Georgius, filius legitimus Catholicus · Confiniarius ex Pago Prozor N° 40 · Nicolaus Kraljich et Anna uxor ejus nata Xubrinich, Catholici · patrini: the Centurio Wigiliarum Magister and Anna filia defti Andreae [Waš…] · baptised by Matthaeus Mattasich, Cooperator». It puts the family at **Prozor No. 40** (so house No. 40 of the census is Prozor No. 40) and gives the mother's maiden name, the tree's Anna Žubrinić. The sponsor's surname is not read.",
+   "slugs": [
+    "georgius-kraljich",
+    "nicolaus-nicolai-kraljich",
+    "anna-zubrinic-xubrinich"
+   ],
+   "people": [
+    {
+     "slug": "georgius-kraljich",
+     "kind": "people",
+     "name": "Georgius Kraljich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    },
+    {
+     "slug": "anna-zubrinic-xubrinich",
+     "kind": "people",
+     "name": "Anna Žubrinić Xubrinich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-death-1821-jacobus-kralich.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md"
   }
  ],
  "bySlug": {
@@ -13108,21 +13213,29 @@
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
    "otocac-census-kraljich-house-40-children-of-nicolaus",
    "otocac-census-kraljich-house-53-nicolaus-adoptatus",
-   "otocac-census-kraljich-anna-uxor-nicolai-1809"
+   "otocac-census-kraljich-anna-uxor-nicolai-1809",
+   "otocac-death-1821-08-jacobus-kralich",
+   "otocac-death-1821-02-maria-uxor-jacobi-kralich",
+   "otocac-baptism-1836-04-georgius-kraljic-prozor-40"
   ],
   "jacobi-kraljich": [
-   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
+   "otocac-death-1821-08-jacobus-kralich",
+   "otocac-death-1821-02-maria-uxor-jacobi-kralich"
   ],
   "mattheus-kraljich": [
-   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
+   "otocac-death-1821-08-jacobus-kralich"
   ],
   "stephanus-kraljich-2": [
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
-   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus",
+   "otocac-death-1821-08-jacobus-kralich"
   ],
   "georgius-kraljich": [
    "otocac-census-kraljich-house-40-children-of-nicolaus",
-   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus",
+   "otocac-baptism-1836-04-georgius-kraljic-prozor-40"
   ],
   "petronilla-kraljich": [
    "otocac-census-kraljich-house-40-children-of-nicolaus",
@@ -13138,7 +13251,8 @@
    "otocac-census-kraljich-house-53-nicolaus-adoptatus"
   ],
   "anna-zubrinic-xubrinich": [
-   "otocac-census-kraljich-anna-uxor-nicolai-1809"
+   "otocac-census-kraljich-anna-uxor-nicolai-1809",
+   "otocac-baptism-1836-04-georgius-kraljic-prozor-40"
   ]
  }
 }
