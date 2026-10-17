@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 491,
- "images": 519,
+ "count": 492,
+ "images": 521,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11811,6 +11811,35 @@
    "captured": "17 October 2026",
    "note": "notes/otocac-death-1821-jacobus-kralich.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md"
+  },
+  {
+   "id": "otocac-death-1843-04-anna-uxor-nicolai-kraljic",
+   "entry": "otocac-death-1843-04-anna-uxor-nicolai-kraljic-entry.jpg",
+   "page": "otocac-death-1843-04-anna-uxor-nicolai-kraljic-page.jpg",
+   "title": "Otočac deaths, 27 April 1843 — Anna, wife of Nicolaus Kraljić, aged 33",
+   "film": "Otočac births (Rođeni) 1846–1858 and deaths (Umrli) 1834–1858 (FamilySearch waypoint 9RK1-Y4C, 218 images)",
+   "where": "image 140, right-hand page (printed page 100), the second row, protocol no. 40",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PVRM?cc=2040054",
+   "says": "«1843 Aprilis 27 · Anna consors Nicolai Kraljić Confiniarii · 33 annorum · Inflammatio Pulmonum»: the wife of Nicolaus Kraljić, border-guardsman, died of inflammation of the lungs at 33. The tree's Anna Žubrinić Xubrinich, b. 5 September 1809, would be 33 years 7 months; she was alive in March 1840 (Vincentia's baptism) and is struck in the census. The 1843 table gives no village or house, so the identification is by the husband's name, the age and the family's dates. The row below, Vilhelmina, a child of 9, is another family.",
+   "slugs": [
+    "anna-zubrinic-xubrinich",
+    "nicolaus-nicolai-kraljich"
+   ],
+   "people": [
+    {
+     "slug": "anna-zubrinic-xubrinich",
+     "kind": "people",
+     "name": "Anna Žubrinić Xubrinich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-death-1843-anna-kraljic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md"
   }
  ],
  "bySlug": {
@@ -13216,7 +13245,8 @@
    "otocac-census-kraljich-anna-uxor-nicolai-1809",
    "otocac-death-1821-08-jacobus-kralich",
    "otocac-death-1821-02-maria-uxor-jacobi-kralich",
-   "otocac-baptism-1836-04-georgius-kraljic-prozor-40"
+   "otocac-baptism-1836-04-georgius-kraljic-prozor-40",
+   "otocac-death-1843-04-anna-uxor-nicolai-kraljic"
   ],
   "jacobi-kraljich": [
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
@@ -13252,7 +13282,8 @@
   ],
   "anna-zubrinic-xubrinich": [
    "otocac-census-kraljich-anna-uxor-nicolai-1809",
-   "otocac-baptism-1836-04-georgius-kraljic-prozor-40"
+   "otocac-baptism-1836-04-georgius-kraljic-prozor-40",
+   "otocac-death-1843-04-anna-uxor-nicolai-kraljic"
   ]
  }
 }

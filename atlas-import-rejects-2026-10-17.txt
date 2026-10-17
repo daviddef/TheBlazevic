@@ -12853,6 +12853,24 @@
    "why": "«antenati.cultura.gov.it» is Antenati, which this atlas holds, but the link names no waypoint it can pin a volume to"
   },
   {
+   "archive": "Falco Family",
+   "src": "**ARCHIVIO DI STATO DI BENEVENTO — ruoli matricolari, indice onomastico** (the archive's own site; the class field is labelled «anni dal 183",
+   "url": "https://asbn.cultura.gov.it/ruoli-matricolari",
+   "sourceMarked": false,
+   "host": "asbn.cultura.gov.it",
+   "provider": null,
+   "why": "no provider in this atlas claims «asbn.cultura.gov.it» — add it to data/providers.json, or to `hosts` on the provider that owns it if it is a regional site"
+  },
+  {
+   "archive": "Falco Family",
+   "src": "**NAA PASSENGER ARRIVALS INDEX — FALCO, Francesca; FALCO, Carmine** (as a guest). Item 12100311 (ss Sydney, 1964), all 42 images fetched; it",
+   "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/PassengerSearch.aspx",
+   "sourceMarked": true,
+   "host": "recordsearch.naa.gov.au",
+   "provider": "naa",
+   "why": "«recordsearch.naa.gov.au» is National Archives of Australia — RecordSearch, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
    "archive": "Lerena Family",
    "src": "",
    "url": "",
@@ -13935,6 +13953,15 @@
   {
    "archive": "Lerena Family",
    "src": "FamilySearch record index - Teresa Leonar with spouse Pedro Lerena, marriage 1855-1868; and the Catedral christening of their daughter Manue",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
+   "archive": "Lerena Family",
+   "src": "FamilySearch record index - children of Servando Gonzalez and Estefania Lerena, Uruguay Catholic Church Records 1726-2000; and the San Jose ",
    "url": "https://www.familysearch.org/search/collection/4134697",
    "sourceMarked": true,
    "host": "familysearch.org",
@@ -18272,8 +18299,8 @@
   {
    "archive": "Defranceski Family",
    "src": "PULA BIRTHS INDEX (9R28-3TR, 1857–95) — the whole D section (images 56–72, vols VI–X) and the F sect",
-   "segment": "index F: images 77–82 (1864–85). F for 1885–95 (images 83–88) and the other initials (E and G–Z, where «De Franceschi» is not filed) NOT rea",
-   "why": "year-like, not a page: 1864–85, 1885–95",
+   "segment": "index F: images 77–88 (1864–95, all of it)",
+   "why": "year-like, not a page: 1864–95",
    "tiedToVolume": true
   },
   {

@@ -30,7 +30,7 @@ The FamilySearch index names the parents of **Georgius Kraljich, baptised 19 Apr
 
 > «Georgius, filius legitimus Catholicus · Confiniarius ex Pago **Prozor N° 40** · **Nicolaus Kraljich et Anna uxor ejus nata Xubrinich**, Catholici»
 
-So **the tree's Anna Žubrinić has her maiden name on a document** (the baptism), and her birth date on another (the census, «5 7bris 1809»); and **house No. 40 of the census is Prozor No. 40**. An earlier version of the Kraljić note said the Žubrinić was unsupported; that was written before this baptism was read and is withdrawn (see [corrections](/corrections/)). A **Nicolaus Kraljich of Dubrava** with a wife **Lucia née Orešković** had a Josephus baptised on 9 May 1848; he is by village almost certainly a different man, and the tree's Nicolaus is not shown to have died in 1845 or after by it.
+So **the tree's Anna Žubrinić has her maiden name on a document** (the baptism), and her birth date on another (the census, «5 7bris 1809»); and **house No. 40 of the census is Prozor No. 40**. An earlier version of the Kraljić note said the Žubrinić was unsupported; that was written before this baptism was read and is withdrawn (see [corrections](/corrections/)). Anna died on 27 April 1843, aged 33 ([otocac-death-1843-anna-kraljic.md](otocac-death-1843-anna-kraljic.md)). A **Nicolaus Kraljich of Dubrava** with a wife **Lucia née Orešković** had a Josephus baptised on 9 May 1848; he is by village almost certainly a different man, and the tree's Nicolaus is not shown to have died in 1845 or after by it.
 
 ## Cautions
 

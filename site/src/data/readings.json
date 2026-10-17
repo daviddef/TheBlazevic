@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 219,
+  "rows": 221,
   "people": 134,
   "derived": 72,
   "onDirectLine": 0,
@@ -28,7 +28,7 @@
   ],
   [
    "death",
-   27
+   28
   ],
   [
    "census",
@@ -40,7 +40,7 @@
   ],
   [
    "death-of-spouse",
-   8
+   9
   ],
   [
    "named-on-a-child-baptism",
@@ -1804,6 +1804,34 @@
    "indexOnly": false,
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1843",
+   "cite": "Otočac deaths 1834–1858 image 140 right, protocol no. 40 — «1843 Aprilis 27 · Anna consors Nicolai Kraljić Confiniarii · 33 annorum · Inflammatio Pulmonum»; identified by the husband's name, her age and her dates, not a house number; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PVRM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1843-anna-kraljic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md",
+   "indexOnly": false,
+   "slug": "anna-zubrinic-xubrinich",
+   "name": "Anna Žubrinić Xubrinich",
+   "ahn": null
+  },
+  {
+   "kind": "death-of-spouse",
+   "year": "1843",
+   "cite": "Otočac deaths 1834–1858 image 140 right, protocol no. 40 — «Anna consors Nicolai Kraljić Confiniarii», 27 April 1843, aged 33: he was alive then; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PVRM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1843-anna-kraljic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md",
+   "indexOnly": false,
+   "slug": "nicolaus-nicolai-kraljich",
+   "name": "Nicolaus Nicolai Kraljich",
    "ahn": null
   },
   {
@@ -6585,9 +6613,20 @@
      "where": "notes/otocac-death-1821-jacobus-kralich.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
      "indexOnly": false
+    },
+    {
+     "kind": "death-of-spouse",
+     "year": "1843",
+     "cite": "Otočac deaths 1834–1858 image 140 right, protocol no. 40 — «Anna consors Nicolai Kraljić Confiniarii», 27 April 1843, aged 33: he was alive then; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PVRM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1843-anna-kraljic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md",
+     "indexOnly": false
     }
    ],
-   "direct": 3,
+   "direct": 4,
    "derived": 0
   },
   "jacobi-kraljich": {
@@ -6842,9 +6881,20 @@
      "where": "notes/otocac-death-1821-jacobus-kralich.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1821-jacobus-kralich.md",
      "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1843",
+     "cite": "Otočac deaths 1834–1858 image 140 right, protocol no. 40 — «1843 Aprilis 27 · Anna consors Nicolai Kraljić Confiniarii · 33 annorum · Inflammatio Pulmonum»; identified by the husband's name, her age and her dates, not a house number; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PVRM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1843-anna-kraljic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md",
+     "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "antonia-pekass-pekkas": {
