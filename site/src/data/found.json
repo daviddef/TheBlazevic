@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 860,
+ "count": 861,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -26,7 +26,7 @@
   "Oberfeichting (Zgornje Bitnje), župnija Kranj-Šmartin": 1,
   "Oberfeichting bei St. Ursula 9, župnija Kranj-Šmartin": 1,
   "Otocac": 1,
-  "Otočac": 3,
+  "Otočac": 4,
   "Otočac, house No. 53": 2,
   "Oxide Street Methodist Church, Broken Hill, New South Wales": 1,
   "Pag": 1,
@@ -8654,6 +8654,16 @@
    "place": "Otočac, house No. 53",
    "citation": "Otočac Stanje duša image 86 right, house No. 53 — «Matthias Dujmovich · 31 Jan 1768» (struck), with «Vitus filius dicti» and Vitus's children; Nicolaus is «adopt. Kraljić ex N° 40» in his household; ark 3:1:3QS7-899F-M3D1",
    "slug": "matthias-dujmovic"
+  },
+  {
+   "name": "Maria Kralich",
+   "ahn": null,
+   "relation": "probable wife of Jacobus Kraljich and mother of Nicolaus (b. 1807), Matthaeus, Stephanus and Francisca",
+   "event": "death",
+   "date": "6 February 1821",
+   "place": "Otočac",
+   "citation": "Otočac deaths 1780-1836 image 264 right - «Obiit in Dño: Maria uxor Jacobi Kralich ... annor. 36»; no maiden name; identification by name, age and the date, not by a house number; ark 3:1:3QS7-L99F-MSV9",
+   "slug": "maria-kralich"
   }
  ]
 }

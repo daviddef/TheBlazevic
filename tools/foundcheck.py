@@ -1107,6 +1107,8 @@ SETTLED = {
         "resembles Franjo Stojčić, whom the tree has born 3 October 1736 at Crikvenica; this row is a GROOM at Senj on 13 February 1736 (FamilySearch, image 12), months before that Franjo was born, and the surname differs. Settled 17 October 2026.",
     "Maria Borach Boras query bride 1816":
         "resembles Maria Francina Elizabeth Kotze 1815, a Cape child born a year earlier; this row is a bride at Senj in May 1816 (FamilySearch, image 200). Settled 17 October 2026.",
+    "Maria Kralich":
+        "resembles Maria Žubrinić Zubrinic 1822 [children of anna-4]; Maria Sekula 1820 [children of maria-11]; Maria Žubrinić Zubrinic Xubrinich 1821 [children of catharina-7]; Maria Žubrinić Xubrinich 1822 [children of maria-baptised-margarita] - a woman of 36 who died in 1821 (born about 1785), the probable wife of Jacobus Kraljich, against four infant Marias born 1820-1822 of other families; the resemblance is a given name and a year. This row is the Otočac deaths reading of 17 Oct 2026, see notes/otocac-death-1821-jacobus-kralich.md",
 }
 
 

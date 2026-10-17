@@ -1400,10 +1400,18 @@
  },
  {
   "id": "@I511547@",
-  "kind": "disputed",
-  "what": "Anna's maiden name",
+  "kind": "confirmed",
+  "what": "Maiden name and birth date",
   "tree": "Anna Žubrinić Xubrinich, b. 5 September 1809, wife of Nicolaus",
-  "record": "«Anna uxor Nicolai · 5 7bris 1809» (struck), image 76 right, house No. 40, with no maiden name; at house No. 53 (image 86) the wife entered next is «Felicitas uxor Nicolai nata Banich»",
-  "why": "The birth date is the census's, to the day. The maiden name Žubrinić is not on either page for her: the only «nata Žubrinić» in house No. 53 is Mathia, the wife of Stephanus. Where the tree's «Žubrinić» came from is not known; and the census names a second woman, Felicitas, as a wife of a Nicolaus in house No. 53 (which Nicolaus is not stated, but the other Nicolaus there is a child of 1837)."
+  "record": "The baptism of her son Georgius, 19 April 1836 (Prozor No. 40): «Nicolaus Kraljich et Anna uxor ejus nata Xubrinich». The census, image 76 right, house No. 40: «Anna uxor Nicolai · 5 7bris 1809» (struck)",
+  "why": "Both halves of the tree's entry now stand on a document: the date on the census (to the day, but with no surname) and the maiden name on the baptism (with no date). House No. 40 of the census is Prozor No. 40 by the baptism, so the two are the same woman. A first version of this correction (17 October, earlier) said the Žubrinić was unsupported; that was written before the 1836 baptism was read, and is withdrawn. Felicitas née Banich, entered at house No. 53, is a further woman entered as wife of a Nicolaus there (which Nicolaus is not stated)."
+ },
+ {
+  "id": "@I511834@",
+  "kind": "upgraded",
+  "what": "Jacobus Kraljich: death and wife",
+  "tree": "No death date; wives «Anna (b. 1809)» and «Vincentia (b. 1811)», neither found",
+  "record": "Otočac deaths 1821: «Maria uxor Jacobi Kralich», 6 February, aged 36 (image 264); «Jacobus Kralich», 1 August, aged 41, died without the sacraments (image 266)",
+  "why": "The census calls his sons «filius defti Jacobi», and the death register has a Jacobus Kralich of the right age in 1821, six months after a «Maria uxor Jacobi Kralich» of the age to be their mother. The identification is by name, age and date, not by a house number (the prose register of those years gives none). The tree's wives Anna and Vincentia are not found; Anna b. 1809 is Nicolaus's wife, and the mother is probably Maria. The orphans were 13, 9, 4 and 1."
  }
 ]
