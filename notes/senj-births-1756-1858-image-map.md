@@ -40,21 +40,37 @@
 | 394 | right page headed «1822» or «1823» (prose) |
 | 380 | a printed tabular *Matricula Baptisatorum*, page 137 (year not read) |
 
-## What this means for 1807–1820 (second pass, 17 October 2026)
+## What this means for 1807–1820 (third pass, 17 October 2026: the two reads)
 
-An earlier version of this note said an 1806 sequence began on image 336 and that 1807–1820 were near images 330–339. **That was wrong: the «1806» was «1846»** (image 336's left page, read at 4x, is entries of 1846–1847). The second pass read the top of about 35 spreads across the whole volume. **Result: no image dated 1790–1819 was found.**
+An earlier version of this note said an 1806 sequence began on image 336. **That was wrong: the «1806» was «1846».** The two reads asked for then are now done, and **neither found any entry dated 1790–1819.**
 
-| Images | What they are |
+### Read one: the Croatian-language prose book, images 12–229 (anchors read at full size unless marked)
+
+| Image | What was read |
 |---|---|
-| 1–229 (sampled at 12, 20, 40, 60, 70, 100, 120, 130, 150, 180, 195, 205, 215, 225) | **Croatian-language prose baptisms of the 1700s** (the priest writes «Ja Plovan Kuhačević krstih…»; «Primer i Plovan Juraj Homolich»), page counters about 107 to 312; dated points: **215 = 1749, 225 = 1751, 12 = «Lato 1758»**. Image 230 is a film target card (Arhiv Hrvatske Zagreb). |
-| 240, 250 | tabular cathedral baptisms: 240 = 1848, 250 = 1833 |
-| 320–336 | tabular cathedral sequence on both pages of each spread, **1840–1847** (324, 328 and 332 also read: 1841, 1831?, 1838–39 on left pages) |
-| **338 right page** | Latin prose headed **«1820»**, page 101, a cooperator's entries («Petrus Kovacich cooperator baptizavit…»); the prose book continues to images 340 (Nov 1823–1824) and 394 (1822/23 heading) |
-| 344, 350, 356 | tabular entries of 1833–1834 and later |
-| 395–584 | proved by the index, 1822–1858 (section 1) |
+| 12 | «Lato 1758» (page 107), Plovan Juraj Homolich |
+| 18 | «Leto 1760» (page 112/117) |
+| 20–58 | pages 113–156, the same Homolich/Vukašović hands, no year heading read; a «December» heading at 38 (page 131) |
+| 62–74 | page 159–165, Plovan Luka Kuhačević and Ivan Hreljanović |
+| **76** | **«1736»**, a year heading at page 167 |
+| 78–86 | Plovan Kuhačević, pages 169–177 |
+| 155–193 | pages 243–292, Homolich, Vukašović, Pop Sime Ivković; no year heading read |
+| 195–198 | «Febrara», «Maj», «Novemvar» on pages 281–284 (the book is sparse here, about 3–5 pages a year) |
+| **215, 225** | **1749 and 1751** (both read at full size) |
+| 230 | a film target card (Arhiv Hrvatske, Zagreb) |
 
-* **What is NOT in the volume as sampled: the 1790s to 1819.** The Croatian-language book runs to the 1750s–60s (and perhaps beyond on pages not sampled), the Latin prose book is **seen from 1820 (338 right, page 101)**, and nothing between was found. **That does not prove a gap:** the Croatian book could continue through the 1760s–1790s in the unsampled leaves, and a Latin book of the 1800–1819 years could stand under another page counter. But **the Kraljić baptisms of 1807–1820 may not be on this film at all**, and the parish itself (Senj cathedral, *Matična knjiga krštenih*) may be the only holder.
-* **Next step if wanted:** read the left-page years of images **151–229 at 4x, one in five** (the Croatian book's later leaves), and the Latin prose right pages of **338 backwards through 330–337 and forwards through 341–393**, at the month headings. And, in parallel, the Senj parish letter on the Errands page is the other route.
+The book is **not in date order by page**: pages 107–158 (images 12–60) are 1758–60 and after, pages 159–322 (images 62–229) are the 1730s–1751. I read **no year later than 1760 in it**, and the images with no year read (30–60 and 90–190) are inferred from the monotone page counters (167 = 1736, 299 = 1749, 309 = 1751) and from the priests' names, not proved.
+
+### Read two: the Latin pages, images 230–394 (about 30 left pages, 233–326 at every third or fourth image; about 38 right pages, 330–393 at every second image)
+
+* **The Latin prose book is 1820–1829 only:** right-page headings **1820 (338, page 101), 1823 (339, page 102), 1826 (340–341, page 103)** read at full size, and 1820s headings at 359, 371, 373 (1826), 385 read at fit zoom; left-page prose at **326 = 1829** (full size), 280 = 1824, 243 = 1824, 246 = 1829, 286 = 1828.
+* **The tabular books are 1831–1848:** 233 = «Anno 1832» (a title leaf), 236 = 1833, 249 = 1831, 253 = 1836, 256 = 1838, 263 = 1834, 266 = 1840, 273 = 1834, 276 = 1845, 283 = 1844, 293 = 1842, 296 = 1846, 303 = 1841, 306 = 1831, 309 = 1840, 315 = 1832, 318 = 1838, 322 = 1843, 260 = 1841, 239 = 1846, 330 = 1834, 331 = 1837, 337 = 1846, 343–347 = 1832–37, plus the right-page tabular runs of 349–393.
+* **Nothing before 1820 turned up on any of those left and right pages.**
+
+### What it means
+
+* **On the page, the film has the Croatian book (1736–1751 and 1758–60 and a little after) and then nothing until the Latin prose of 1820.** The years **1761–1819 were not found anywhere in the volume**, which is a coverage gap, not proof of one: the leaves not read are most of the left pages and about half the right pages in 230–394, images 30–60 and 90–190 as to their years, and images 395–589 beyond the index points.
+* **So the Kraljić baptisms of 1807–1820 are probably not on this film.** The route left is the Senj parish itself (the letter drafted on the Errands page).
 * **Nothing was searched for a Kraljich.** This note is a map and a pointer, not a reading.
 
 ## Method, so that the map can be extended

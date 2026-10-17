@@ -1373,7 +1373,7 @@
     },
     "blazevic": {
      "since": "2026-10-17",
-     "state": "found",
+     "state": "searched",
      "note": "FamilySearch — Senj births 1756–1858 (waypoint 9R2M-L27): a year-to-image map"
     }
    },
@@ -3762,6 +3762,24 @@
     [
      4,
      72
+    ]
+   ]
+  },
+  "volume:9R2Z-BZC": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGES 1848–1878 (9R2Z-BZC, «Trauungs-Buch des k.k. Marine-Corps … Tomus …») — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1848-1878",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     8,
+     209
     ]
    ]
   },
