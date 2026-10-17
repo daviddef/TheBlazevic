@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 206,
-  "people": 130,
+  "rows": 214,
+  "people": 134,
   "derived": 72,
   "onDirectLine": 0,
   "indexOnly": 19,
@@ -31,12 +31,12 @@
    26
   ],
   [
-   "grave",
-   10
+   "census",
+   17
   ],
   [
-   "census",
-   9
+   "grave",
+   10
   ],
   [
    "death-of-spouse",
@@ -1135,6 +1135,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1807",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 (Matthias Dujmović's household) — «Nicolaus adopt[atus] Kraljić ex N° 40 · 29 9bris 1807»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "nicolaus-nicolai-kraljich",
+   "name": "Nicolaus Nicolai Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "death-of-spouse",
    "year": "1807",
    "cite": "named as her husband, «uxor Pauli Lončarich Papich», Selce Umrli image 110 left page, 24 August 1807, domus 134; ark 3:1:3QS7-899C-5962-V",
@@ -1146,6 +1160,20 @@
    "indexOnly": false,
    "slug": "pauli-loncaric",
    "name": "Pauli Lončarić",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1809",
+   "cite": "Otočac Stanje duša image 76 right, house No. 40 — «Anna uxor Nicolai · 5 7bris 1809» (struck), no maiden name; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "anna-zubrinic-xubrinich",
+   "name": "Anna Žubrinić Xubrinich",
    "ahn": null
   },
   {
@@ -1291,7 +1319,21 @@
   {
    "kind": "census",
    "year": "1817",
-   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 9bris 1817» (Novembris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 7bris 1817» (7bris = September; the glyph differs from Nicolaus's 9bris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "stephanus-kraljich-2",
+   "name": "Stephanus Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1817",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Stephanus frater Nicolai · 7 7bris 1817»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -1541,6 +1583,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1836",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Georgius filius Nicolai · 19 April 1836»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "georgius-kraljich",
+   "name": "Georgius Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1837",
    "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
@@ -1597,6 +1653,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1838",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Petronilla filia Nicolai» (struck), May 1838; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "petronilla-kraljich",
+   "name": "Petronilla Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "death",
    "year": "1838",
    "cite": "Otočac Umrli 1834-1858 p. 45 entry 3 of 1838 — «1838. Januarii die 4ta · Thomas Xubrinich, Confiniarius, ex Pago Shumcchicza N° 2 · An. 70 · Senectutis Debilitas»; ark 3:1:3QS7-L99C-PVR4",
@@ -1622,6 +1692,20 @@
    "indexOnly": false,
    "slug": "vicentius-andreas-vincent-pilipic",
    "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1840",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Vincentia [filia Nicolai]» 12 Martii 1840; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "vincentia-kraljich",
+   "name": "Vincentia Kraljich",
    "ahn": null
   },
   {
@@ -1737,6 +1821,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1848",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Maria filia Stephani» (struck), July 1848; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "maria-kraljich",
+   "name": "Maria Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1848",
    "cite": "Otočac, 28 June 1848 — «Rusticus e Poljica N° 13»; the tree gives no birthplace",
@@ -1748,6 +1846,20 @@
    "indexOnly": false,
    "slug": "petrus-zubrinic",
    "name": "Petrus Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1848",
+   "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Mathia uxor Stephani nata Žubrinić», «Maria filia Stephani · July 1848»; the brother Stephanus of 1817 is very probably this man; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "stephanus-kraljich",
+   "name": "Stephanus Kraljich",
    "ahn": null
   },
   {
@@ -6381,9 +6493,20 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1807",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 (Matthias Dujmović's household) — «Nicolaus adopt[atus] Kraljić ex N° 40 · 29 9bris 1807»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "jacobi-kraljich": {
@@ -6434,7 +6557,18 @@
     {
      "kind": "census",
      "year": "1817",
-     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 9bris 1817» (Novembris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 7bris 1817» (7bris = September; the glyph differs from Nicolaus's 9bris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1817",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Stephanus frater Nicolai · 7 7bris 1817»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -6443,7 +6577,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "georgius-kraljich": {
@@ -6461,9 +6595,20 @@
      "where": "notes/otocac-census-kraljich-1807.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
      "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1836",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Georgius filius Nicolai · 19 April 1836»; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
     }
    ],
-   "direct": 1,
+   "direct": 2,
    "derived": 0
   },
   "petronilla-kraljich": {
@@ -6475,6 +6620,97 @@
      "kind": "census",
      "year": "1838",
      "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Petronilla filia Nicolai · 26 Maij 1838»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "census",
+     "year": "1838",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Petronilla filia Nicolai» (struck), May 1838; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "stephanus-kraljich": {
+   "slug": "stephanus-kraljich",
+   "name": "Stephanus Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1848",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Mathia uxor Stephani nata Žubrinić», «Maria filia Stephani · July 1848»; the brother Stephanus of 1817 is very probably this man; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-kraljich": {
+   "slug": "maria-kraljich",
+   "name": "Maria Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1848",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Maria filia Stephani» (struck), July 1848; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "vincentia-kraljich": {
+   "slug": "vincentia-kraljich",
+   "name": "Vincentia Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1840",
+     "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Vincentia [filia Nicolai]» 12 Martii 1840; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anna-zubrinic-xubrinich": {
+   "slug": "anna-zubrinic-xubrinich",
+   "name": "Anna Žubrinić Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1809",
+     "cite": "Otočac Stanje duša image 76 right, house No. 40 — «Anna uxor Nicolai · 5 7bris 1809» (struck), no maiden name; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
      "derived": false,
      "via": null,
      "viaName": "",

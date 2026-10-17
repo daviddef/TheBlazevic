@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 858,
+ "count": 860,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -27,6 +27,7 @@
   "Oberfeichting bei St. Ursula 9, župnija Kranj-Šmartin": 1,
   "Otocac": 1,
   "Otočac": 3,
+  "Otočac, house No. 53": 2,
   "Oxide Street Methodist Church, Broken Hill, New South Wales": 1,
   "Pag": 1,
   "Pirie West, South Australia": 1,
@@ -8633,6 +8634,26 @@
    "place": "Senj",
    "citation": "(1) Senj marriages (Vjenčani) 1734–1819, 1820–1858 and deaths 1820–1858 (FamilySearch waypoint 9RK1-W3P, 592 images), image 475, right-hand page, image 475R, entry 27: «1834 die 6 Octobris: Andreas Perpick, 70, Debilitas Virium, provisus, Ad S. Vitum, Biancini? Coop., N° 27.» One of the tabular rows of the Senj death register (Matricula Defunctorum 1820–1848, the P section; FamilySearch waypoint 9RK1-W3P), image 475 right page, entry 27. Read in the SECOND PASS at about 2x of a third of the page (the first pass at page scale had flagged this entry as a possible Prpić). A man born about 1764; the surname's second half is written «-pick»/«-pich» in a looped hand, so Perpić is a reading with a query (snapshotted; read at about 6x). See notes/senj-marriage-volume-walk.md",
    "slug": "andreas-perpic-aged-70-died-senj-october-1834"
+  },
+  {
+   "name": "Felicitas Banić",
+   "ahn": null,
+   "relation": "wife of Nicolaus Kraljić (entered «uxor Nicolai nata Banich»), Otočac house No. 53",
+   "event": "census entry",
+   "date": "before 1846",
+   "place": "Otočac, house No. 53",
+   "citation": "Otočac Stanje duša image 86 right (archive frame 329), house No. 53 — «Felicitas uxor Nicolai nata Banich», no date entered; the surname is read once; which Nicolaus is not stated; ark 3:1:3QS7-899F-M3D1",
+   "slug": "felicitas-banic"
+  },
+  {
+   "name": "Matthias Dujmović",
+   "ahn": null,
+   "relation": "head of house No. 53, into which Nicolaus Kraljić was adopted",
+   "event": "census entry",
+   "date": "31 January 1768",
+   "place": "Otočac, house No. 53",
+   "citation": "Otočac Stanje duša image 86 right, house No. 53 — «Matthias Dujmovich · 31 Jan 1768» (struck), with «Vitus filius dicti» and Vitus's children; Nicolaus is «adopt. Kraljić ex N° 40» in his household; ark 3:1:3QS7-899F-M3D1",
+   "slug": "matthias-dujmovic"
   }
  ]
 }

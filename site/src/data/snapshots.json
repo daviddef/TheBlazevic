@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 486,
- "images": 510,
+ "count": 488,
+ "images": 513,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11551,7 +11551,7 @@
    "film": "Otočac Church Census (Stanje duša) 1710–1846, filmed with Deaths 1780–1836 and Marriages 1859–1872 (FamilySearch waypoint 9R2D-16X, 384 images)",
    "where": "image 76, left-hand page (printed archive number 319), the first household on the page, house No. 40, the first six rows: Georgius Kraljich at the head, then the entries for Nicolaus, Matthaeus, Franciscus, Georgius and Stephanus",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
-   "says": "«[No. 40] Georgius Kraljich · 29 Martij 1778 · [struck, carried to house No. 53] Nicolaus filius defti Jacobi · 29 9bris 1807 · «845» · Matthaeus · 5 Febr 1812 · Franciscus filius Georgij · 12 Junij 1814 · Georgius · 17 April 1814 · [struck, No. 53] Stephanus filius defti Jacobi · 7 9bris 1817 · «845»». «Defti» = defuncti, «of the late»: the father Jacobus was dead by the time the line was written. The month of Nicolaus's and Stephanus's dates is written «9bris», the Latin abbreviation for Novembris (as «8bris» is October on the next rows); the tree has Nicolaus on «29 SEP 1807». The dates and the numbers beside them were read at about 0.55x and the month glyph at full size; the year digits of Georgius (1778), Franciscus and the second Georgius were read once and are not firm. The household's own relationships (who Georgius Kraljich was to the brothers) are not stated on the page.",
+   "says": "«[No. 40] Georgius Kraljich · 29 Martij 1778 · [struck, carried to house No. 53] Nicolaus filius defti Jacobi · 29 9bris 1807 · «845» · Matthaeus · 5 Febr 1812 · Franciscus filius Georgij · 12 Junij 1814 · Georgius · 17 April 1814 · [struck, No. 53] Stephanus filius defti Jacobi · 7 7bris 1817 · «845»». «Defti» = defuncti, «of the late»: the father Jacobus was dead by the time the line was written. Nicolaus's month is written «9bris», the Latin abbreviation for Novembris (the same glyph stands on Vitus's row at house No. 53, and Stephanus's «7bris», September, is a visibly different glyph on the row below it there); the tree has Nicolaus on «29 SEP 1807». Nicolaus's date is repeated at house No. 53 (image 86): see the snapshot otocac-census-kraljich-house-53-nicolaus-adoptatus. The dates and the numbers beside them were read at about 0.55x and the month glyph at full size; the year digits of Georgius (1778), Franciscus and the second Georgius were read once and are not firm. The household's own relationships (who Georgius Kraljich was to the brothers) are not stated on the page.",
    "slugs": [
     "nicolaus-nicolai-kraljich",
     "jacobi-kraljich",
@@ -11608,6 +11608,94 @@
      "slug": "petronilla-kraljich",
      "kind": "people",
      "name": "Petronilla Kraljich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-census-kraljich-1807.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md"
+  },
+  {
+   "id": "otocac-census-kraljich-house-53-nicolaus-adoptatus",
+   "entry": "otocac-census-kraljich-house-53-nicolaus-adoptatus-entry.jpg",
+   "page": "otocac-census-kraljich-house-53-nicolaus-adoptatus-page.jpg",
+   "title": "Otočac status animarum, house No. 53 (Matthias Dujmović) — «Nicolaus adopt. Kraljić ex N° 40», «Stephanus frater Nicolai», their children and wives",
+   "film": "Otočac Church Census (Stanje duša) 1710–1846, filmed with Deaths 1780–1836 and Marriages 1859–1872 (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 86, right-hand page (archive frame 329), the first household on the page, house No. 53: sixteen rows from «Matthias Dujmovich» to «Maria filia Stephani»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-M3D1?cc=2040054",
+   "says": "«53 Matthias Dujmovich · 31 Jan 1768 · Vitus filius dicti · 1 9bris 180[7?] · Nicolaus filius Viti · 3 10bris 1837 · Nicolaus adopt[atus] Kraljić ex N° 40 · 29 9bris 1807 · Stephanus frater Nicolai · 7 7bris 1817 · Georgius filius Nicolai · 19 April 1836 · [struck] Maria uxor Matthiae · Catharina filia Gregorii Dujmovich · 6 Martii 1800 · Maria uxor Viti · Lucia filia Viti · 6 Junii 1836 · Felicitas uxor Nicolai nata Banich · Francisca filia Viti · Mathia uxor Stephani nata Žubrinić · [struck] Petronilla filia Nicolai · 1838 · Vincentia dicto · 12 Martii 1840 · Maria filia Stephani · July 1848». The adoption note repeats Nicolaus's date from house No. 40. The month glyphs of Nicolaus (9bris) and Stephanus (7bris) were compared at full size. Which Nicolaus is the husband of Felicitas is not stated (the only other Nicolaus in the house is a child of 1837); that Vincentia and Petronilla are Nicolaus's daughters is from the rows, not from a stated mother. Felicitas's surname «Banich» is read once.",
+   "slugs": [
+    "nicolaus-nicolai-kraljich",
+    "stephanus-kraljich-2",
+    "stephanus-kraljich",
+    "georgius-kraljich",
+    "petronilla-kraljich",
+    "vincentia-kraljich",
+    "maria-kraljich"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    },
+    {
+     "slug": "stephanus-kraljich-2",
+     "kind": "people",
+     "name": "Stephanus Kraljich"
+    },
+    {
+     "slug": "stephanus-kraljich",
+     "kind": "people",
+     "name": "Stephanus Kraljich"
+    },
+    {
+     "slug": "georgius-kraljich",
+     "kind": "people",
+     "name": "Georgius Kraljich"
+    },
+    {
+     "slug": "petronilla-kraljich",
+     "kind": "people",
+     "name": "Petronilla Kraljich"
+    },
+    {
+     "slug": "vincentia-kraljich",
+     "kind": "people",
+     "name": "Vincentia Kraljich"
+    },
+    {
+     "slug": "maria-kraljich",
+     "kind": "people",
+     "name": "Maria Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-census-kraljich-1807.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md"
+  },
+  {
+   "id": "otocac-census-kraljich-anna-uxor-nicolai-1809",
+   "entry": "otocac-census-kraljich-anna-uxor-nicolai-1809-entry.jpg",
+   "page": "",
+   "title": "Otočac status animarum, house No. 40 — «Anna uxor Nicolai · 5 7bris 1809» (struck)",
+   "film": "Otočac Church Census (Stanje duša) 1710–1846, filmed with Deaths 1780–1836 and Marriages 1859–1872 (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 76, right-hand page (archive frame 319), the first rows of house No. 40, the fifth row, above «Lucia filia Francisci · 4 Julii 1845»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
+   "says": "«Anna uxor Nicolai [struck] · 5 7bris 1809»: no maiden name entered. The birth date is the tree's date for Anna Žubrinić Xubrinich, to the day; the name Žubrinić is not on this page. She is in house No. 40, in the run of rows that begins «Maria uxor Francisci», and which Nicolaus she is the wife of is not stated (the Nicolaus of house No. 40 with children Josephus, Georgius and Petronilla is the likeliest).",
+   "slugs": [
+    "anna-zubrinic-xubrinich",
+    "nicolaus-nicolai-kraljich"
+   ],
+   "people": [
+    {
+     "slug": "anna-zubrinic-xubrinich",
+     "kind": "people",
+     "name": "Anna Žubrinić Xubrinich"
     },
     {
      "slug": "nicolaus-nicolai-kraljich",
@@ -13018,7 +13106,9 @@
   ],
   "nicolaus-nicolai-kraljich": [
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
-   "otocac-census-kraljich-house-40-children-of-nicolaus"
+   "otocac-census-kraljich-house-40-children-of-nicolaus",
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus",
+   "otocac-census-kraljich-anna-uxor-nicolai-1809"
   ],
   "jacobi-kraljich": [
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
@@ -13027,13 +13117,28 @@
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
   ],
   "stephanus-kraljich-2": [
-   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
   ],
   "georgius-kraljich": [
-   "otocac-census-kraljich-house-40-children-of-nicolaus"
+   "otocac-census-kraljich-house-40-children-of-nicolaus",
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
   ],
   "petronilla-kraljich": [
-   "otocac-census-kraljich-house-40-children-of-nicolaus"
+   "otocac-census-kraljich-house-40-children-of-nicolaus",
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+  ],
+  "stephanus-kraljich": [
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+  ],
+  "vincentia-kraljich": [
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+  ],
+  "maria-kraljich": [
+   "otocac-census-kraljich-house-53-nicolaus-adoptatus"
+  ],
+  "anna-zubrinic-xubrinich": [
+   "otocac-census-kraljich-anna-uxor-nicolai-1809"
   ]
  }
 }

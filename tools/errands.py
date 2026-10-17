@@ -34,7 +34,7 @@ STATES = {
 ROWS = [
     ("EMAIL-zupa-otocac.txt", "draft",
      "Župni ured Otočac (address to confirm from the diocese's directory)",
-     "Ana Marić's baptism (about 1830-1836) and her marriage to Nikola Žubrinić (about 1850-1852); and, added 17 October, the baptisms of the Kraljić brothers (Nicolaus 1807, Matthaeus 1812, Stephanus 1817), their parents' marriage and father's burial",
+     "Ana Marić's baptism (about 1830-1836) and her marriage to Nikola Žubrinić (about 1850-1852); and, added 17 October, the baptisms of the Kraljić brothers (Nicolaus 1807, Matthaeus 1812, Stephanus 1817), their parents' marriage and father's burial, their adoption into house No. 53, and Nicolaus's marriage or marriages",
      "Ahnentafel 11 is the emptiest person on the direct line: a name, two tree links and nothing else. Her baptism would name ahnentafel 22 and 23 and the house; the marriage would name both sets of parents. The filmed baptisms begin in September 1834 and the filmed marriages in 1859, so neither is on any film this archive can read. The Kraljić brothers are «filius defti Jacobi» on the Otočac status animarum (image 76), so their baptisms of 1807-1817 and their parents are in books before the film begins; the Senj books were the wrong place to look.",
      "/worklist/"),
     ("EMAIL-zupa-karlobag.txt", "draft",
