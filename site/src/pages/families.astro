@@ -52,7 +52,15 @@ const direct = families.filter(isAuto);
 const has = (k) => families.some((f) => familyKeys(f.slug).includes(k));
 const pending = marriedin.filter((m) => !has(m.key) && !m.key.split(" ").every(has));
 const groups = [
-  { label: "The names the archive set out to follow", rows: first.map(rowOf) },
+  { label: "The names the archive set out to follow", rows: [
+      ...first.map(rowOf),
+      /* THE DEFRANCESCHI NAME IS A LINK OUT, NOT A PAGE. Its people and the families around them are held in the
+         Defranceschi archive, and a page here would repeat that archive for the same people; so this is one row with
+         no count, as Lerena's has for Booyzen. */
+      { label: "Defranceschi", slug: "defranceschi", count: null, countLabel: "", gloss: "", facts: [],
+        note: "The Defranceschi name has its own archive, which holds these people and the families around them.",
+        href: "https://archive.defranceski.com/", hrefLabel: "The Defranceschi Archive" },
+    ] },
   { label: "The other names on the direct line",
     note: "each is carried by an ancestor of Hedviga, and each page is built from the archive's own data",
     rows: direct.map(rowOf) },
@@ -63,7 +71,7 @@ const groups = [
   dek={`The four that make Hedviga's grandparents, nine more that married into them or sit beside them in the registers, and ${direct.length} more that the direct line itself carries. Counts are of published people who have died; the living are named on their own pages and are not counted here.`}
 >
   <section class="blk">
-    <Families groups={groups} u={u} html={false} />
+    <Families groups={groups} u={(p) => (/^https?:/.test(p) ? p : u(p))} html={false} />
   </section>
   <section class="blk">
     <p class="note">The nine after the first four are here because they married into the line
