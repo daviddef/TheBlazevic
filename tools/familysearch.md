@@ -413,3 +413,24 @@ This film shoots some openings twice. A 24×24 mean-threshold perceptual hash of
 each left page separates them without ambiguity: **adjacent duplicates score
 ≈30/576 bits apart, genuinely different openings ≈100/576**. On item 3 it found
 194≡193, 197≡196 and 218≡217 — three openings that did not need reading.
+
+## Reading a whole book fast (17 October 2026): download first, read from files
+
+The slow way was one screenshot per half page (about 80 round trips for a 78-image run). The fast way
+keeps the pane busy and the conversation quiet:
+
+1. `tools/fs_prefetch.js` in the pane: queue the pages (about 15 s a page, 6 tiles in flight with a
+   15 ms gap, no bot-manager trouble in a 13-page batch); a batch of 6 pages comes back as ONE tool
+   result of about 15 MB, which the tool saves to a file instead of showing.
+2. `python3 tools/fs_unpack.py SPILL OUTDIR 140,141,...` writes each page's columns and a **sheet**
+   (`tools/fs_sheet.py`, needs ffmpeg): the full page height of both pages at about half source size in
+   one 1900x950 image. A page reads in one view with no cut-off rows, against two or three screenshots
+   before, and the files stay on disk for later sessions and for `sips` crops (snapshots).
+3. `tools/vision_ocr.swift` (macOS Vision) is a **candidate finder only**: on these hands it read
+   «Anna consors Nicolaj Kraljie Confimari» at confidence 1.00 but garbled about half of the other
+   lines, so it can flag a name and can never clear a page. Read the sheet by eye.
+
+What did not work: the local sink in `fs_reader.js` (`__send`, POST to 127.0.0.1:8799). From the browser
+pane every route to 127.0.0.1 failed (fetch, no-cors, an image load) though the sink answered from the
+shell. Use the spill file. Also: the pane closes between turns and drops the page globals; re-inject
+`fetchWindow`, `__arksD` (waypoint list) and `fs_prefetch.js` at the start of each turn.
