@@ -10,7 +10,7 @@ handwriting for about half the lines, so it can point at a name but can never cl
 """
 import json, base64, sys, os, subprocess
 spill, out, first = sys.argv[1:4]
-sc = sys.argv[4] if len(sys.argv) > 4 else "0.5"; n = sys.argv[5] if len(sys.argv) > 5 else "2"
+sc = sys.argv[4] if len(sys.argv) > 4 else "0.5"; n = sys.argv[5] if len(sys.argv) > 5 else "2"; grid = sys.argv[6:7]
 t = json.load(open(spill, encoding="utf-8"))[0]["text"]
 arr = json.loads(t[: t.rindex("]") + 1])
 nums = [int(x) for x in first.split(",")] if "," in first else [int(first) + i for i in range(len(arr) // 2)]
@@ -19,5 +19,5 @@ for k, num in enumerate(nums):
     for j, side in enumerate("LR"):
         open(os.path.join(out, "p%d-%s.jpg" % (num, side)), "wb").write(base64.b64decode(arr[2 * k + j]))
     subprocess.check_call([sys.executable, os.path.join(here, "fs_sheet.py"), os.path.join(out, "p%d-L.jpg" % num),
-                           os.path.join(out, "p%d-R.jpg" % num), os.path.join(out, "sheet-%d.jpg" % num), sc, n], stdout=subprocess.DEVNULL)
+                           os.path.join(out, "p%d-R.jpg" % num), os.path.join(out, "sheet-%d.jpg" % num), sc, n] + grid, stdout=subprocess.DEVNULL)
     print("image", num, "sheet-%d.jpg" % num)
