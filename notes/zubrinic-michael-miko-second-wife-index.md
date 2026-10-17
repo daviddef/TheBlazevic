@@ -15,4 +15,4 @@ The tree's **Josephus (1836)** and **Theresia (1844 in the tree, 1841 here)** ha
 
 **What this suggests, and what it does not.** If this Michael is the tree's, **his later children were borne by a Catharina, not by Maria**, who had died in 1831: the tree's single wife slot holds two women, and a second wife is missing from it. **It is not proved**: Otočac had several Michaels, the index gives no ages and no house numbers, and the tree's Theresia is dated three years off. A page read (the Otočac births of 1836 and 1841, with the house number) would tie the family.
 
-**Update, same day:** the two entries for Josephus (1836) and Theresia (1841) were read from the page: Michael and Catharina, who was herself born a Žubrinić, of Prazor No. 7 ([note](otocac-zubrinic-michael-catharina-1836-1841.md)).
+**Update, same day:** the two entries for Josephus (1836) and Theresia (1841) were read from the page: Michael and Catharina, who was herself born a Žubrinić, of Prozor ([note](otocac-zubrinic-michael-catharina-1836-1841.md)).

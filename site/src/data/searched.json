@@ -10,9 +10,9 @@
  "counts": {
   "blocked": 4,
   "nothing": 46,
-  "partial": 45,
+  "partial": 47,
   "pending": 6,
-  "yield": 145
+  "yield": 147
  },
  "read": [
   {
@@ -5319,11 +5319,100 @@
    "waypoint": "9RK1-N3B",
    "pages": "16 (right), 46 (right); images 43-47 for the years",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G5KN?cc=2040054",
-   "got": "**Found:** Josephus, 19 Feb 1836, to Michaël Xubrinich and Catharina née Xubrinich, Prazor No. 7 — [snapshot](/snapshots/#otocac-baptism-1836-josephus-xubrinich); Theresia, 14 Oct 1841, to Michaël and Catharina Žubrinić — [snapshot](/snapshots/#otocac-baptism-1841-theresia-zubrinic). The mother is a Catharina who was herself a Žubrinić, not the tree's Maria (d. 1831), so a second wife is missing from the tree IF this is the tree's Michael (not proved: several Michaels at Otočac). Note: notes/otocac-zubrinic-michael-catharina-1836-1841.md.",
+   "got": "**Found:** Josephus, 19 Feb 1836, to Michaël Xubrinich and Catharina née Xubrinich, Prozor — [snapshot](/snapshots/#otocac-baptism-1836-josephus-xubrinich); Theresia, 14 Oct 1841, to Michaël and Catharina Žubrinić — [snapshot](/snapshots/#otocac-baptism-1841-theresia-zubrinic). The mother is a Catharina who was herself a Žubrinić, not the tree's Maria (d. 1831), so a second wife is missing from the tree IF this is the tree's Michael (not proved: several Michaels at Otočac). Note: notes/otocac-zubrinic-michael-catharina-1836-1841.md.",
    "ev": [
     [
      "/zubrinic-roots/",
      "Žubrinić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Otočac deaths 1780–1836 (DGS 5498269), April 1831",
+   "key": "fs/otocac-death-1831-maria-zubrinic",
+   "what": "Whether the tree's Maria (wife of Michael Žubrinić b. 1793) died in 1831 and where; the marriage of Michael and Catharina is not on film (Otočac marriages on film begin 1859)",
+   "when": "17 Oct 2026",
+   "outcome": "yield",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch"
+   ],
+   "waypoint": "9R2D-16X",
+   "pages": "300 (left page, April–May 1831); 200, 250, 340 opened for the years",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-MQHT?cc=2040054",
+   "got": "**Found: 24 April 1831, «Maria uxor Michaelis Xubrinich … aetatis suae 38 annorum, ex febri nervosa»**, at Prozor — [snapshot](/snapshots/#otocac-death-1831-maria-zubrinic). Agrees with the tree's Maria (b. 1793, d. 1831). With the 1836 and 1841 baptisms, the tree's Michael very probably had a second wife, Catharina née Žubrinić, who is not in the tree. House number not firm. Note: notes/otocac-death-1831-maria-zubrinic.md.",
+   "ev": [
+    [
+     "/zubrinic-roots/",
+     "Žubrinić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Boraš (all spellings) births 1853–1912 and the page of the Senj baptism of 2 November 1888",
+   "key": "fs/boras-wife-of-joannes-ivan-index",
+   "what": "Who bore the children of Joannes Ivan Boraš (b. 1855, Senj); and a Kraljić mother in the tree born 1809",
+   "when": "17 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "boras",
+    "kraljich",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "waypoint": "9R2D-JWL",
+   "pages": "Senj births 1878–1894 book, the spread of 2 November 1888 (one image)",
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "63 Boras records, 4 at Senj; **none a child of Joannes Ivan, no marriage of his indexed.** The 1886 and 1888 Boras baptisms at Senj are illegitimate daughters of an Anica Boras (the 1888 page was opened: illegitimate, mother only) and must not be attached to him. Kraljić: no baptism of a Nicolaus/Mattheus/Stephanus/Francisca Kraljich of 1807–1823 to a father Jacobus is indexed; the mother's birth year 1809 is probably copied from the wife's. No source found for either; routes named. Note: notes/boras-kraljich-source-search-2026-10-17.md.",
+   "ev": [
+    [
+     "/boras/",
+     "Boraš"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Krivi Put births 1847–1884 and marriages 1880: Antun Krmpotić",
+   "key": "fs/krivi-put-antun-krmpotic-1854-1880",
+   "what": "Antun Krmpotić's own baptism and parents; the index search under the exact spelling Krmpotić had missed him (Kermpotić)",
+   "when": "17 Oct 2026",
+   "outcome": "yield",
+   "tags": [
+    "krmpotic",
+    "krivi-put",
+    "familysearch"
+   ],
+   "waypoint": "9R28-DP8",
+   "pages": "39 (right page, protocol entry 57); the 1880 marriage spread (one image); images 36-40 opened for the years",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-R8DL?cc=2040054",
+   "got": "**Found: baptised 11 June 1854, Anton, son of Leo Kermpotić and Tereza née Beondić** — [snapshot](/snapshots/#krivi-put-baptism-1854-antun-krmpotic); **married 3 October 1880 Marija Perpić (19), daughter of Mate and Kata Perpić**; he a cobbler of «Veljun» aged 26 — [snapshot](/snapshots/#krivi-put-marriage-1880-antun-krmpotic). Found through the spelling Kermpotić (the exact Krmpotić search missed it). Index months again wrong (Lipnja = June, Listopada = October). Note: notes/krivi-put-antun-krmpotic-1854-and-1880.md.",
+   "ev": [
+    [
+     "/krmpotic/",
+     "Krmpotić"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch index — Daniel Špalj (ten spellings), baptisms 1815–1845 and his children at Senj",
+   "key": "fs/spalj-daniel-baptism-index",
+   "what": "Daniel Špalj's own baptism and marriage; his children at Senj",
+   "when": "17 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "spalj",
+    "senj",
+    "familysearch",
+    "index"
+   ],
+   "url": "https://www.familysearch.org/search/collection/2040054",
+   "got": "**No baptism of a Daniel Špalj** under ten spellings, 1815–1845; the Senj baptisms of 1820–1858 are indexed, so he was not baptised there. **A third child found: Matthia, 26 February 1852 (spelt Spaly × Penpic)**, so Daniel and Francesca were married before February 1852 and at Senj in 1852, 1854 and 1857. The marriage is not in the Senj volume as walked. Probably born at Krmpote, Vodice or Ledenice, which have no film before the 1850s. Note: notes/spalj-daniel-index-search-2026-10-17.md.",
+   "ev": [
+    [
+     "/spalj/",
+     "Špalj"
     ]
    ]
   }

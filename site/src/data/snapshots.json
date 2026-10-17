@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 480,
- "images": 499,
+ "count": 484,
+ "images": 507,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11433,11 +11433,11 @@
    "id": "otocac-baptism-1836-josephus-xubrinich",
    "entry": "otocac-baptism-1836-josephus-xubrinich-entry.jpg",
    "page": "",
-   "title": "Otočac, 19 February 1836 — Josephus, son of Michaël Xubrinich and Catharina née Xubrinich, Prazor No. 7",
+   "title": "Otočac, 19 February 1836 — Josephus, son of Michaël Xubrinich and Catharina née Xubrinich, Prozor",
    "film": "Otočac births 1834–1846 (FamilySearch waypoint 9RK1-N3B)",
    "where": "image 16, right-hand page (protocol page 14): entry 11, «1836 Februarii die 19»",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-GRH4",
-   "says": "«Josephus filius legitimus Catholicus · confiniarius ex Pago Prazor No 7 · Michaël Xubrinich et Catharina uxor ejus nata Xubrinich, Catholici». A Michael with a wife who was herself a Žubrinić.",
+   "says": "«Josephus filius legitimus Catholicus · confiniarius ex Pago Prozor No 7 · Michaël Xubrinich et Catharina uxor ejus nata Xubrinich, Catholici». A Michael with a wife who was herself a Žubrinić.",
    "slugs": [],
    "people": [],
    "captured": "17 October 2026",
@@ -11458,6 +11458,90 @@
    "captured": "17 October 2026",
    "note": "notes/otocac-zubrinic-michael-catharina-1836-1841.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-zubrinic-michael-catharina-1836-1841.md"
+  },
+  {
+   "id": "otocac-death-1831-maria-zubrinic",
+   "entry": "otocac-death-1831-maria-zubrinic-entry.jpg",
+   "page": "otocac-death-1831-maria-zubrinic-page.jpg",
+   "title": "Otočac, 24 April 1831 — Maria, wife of Michael Xubrinich, aged 38, of Prozor",
+   "film": "Otočac deaths 1780–1836 (DGS 5498269, FamilySearch waypoint 9R2D-16X)",
+   "where": "image 300, left-hand page, headed «In Aprili 1831»: the entry with «Prozor» and «24» in the margin",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-MQHT",
+   "says": "«Obiit in Dño Maria uxor Michaelis Xubrinich, provisa omnibus SS. Sacramentis morientium, aetatis suae 38 annorum, ex febri nervosa, et sepulta in Coemeterio hujus Parochialis Ecclesiae SS. Trinitatis». Agrees with the tree's Maria (b. 1793, d. 1831); the house number is not firm.",
+   "slugs": [
+    "maria-10"
+   ],
+   "people": [
+    {
+     "slug": "maria-10",
+     "kind": "people",
+     "name": "Maria"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-death-1831-maria-zubrinic.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1831-maria-zubrinic.md"
+  },
+  {
+   "id": "senj-birth-1888-twins-anica-boras",
+   "entry": "senj-birth-1888-twins-anica-boras-entry.jpg",
+   "page": "senj-birth-1888-twins-anica-boras-page.jpg",
+   "title": "Senj, 2 November 1888 — twins Frane and Rozalia, illegitimate, to Anica Boras, a servant",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL)",
+   "where": "the spread of the baptisms of 1888, entries 93–94 («1888 listopada 1/2»), the left page, columns child / legitimacy / mother",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1QNG",
+   "says": "«Frane · Rozalia · nezakonito · Anica Boras, kći Jose i Marije, poslužnjinja · Dvojci» (twins). Not children of Joannes Ivan Boraš: no father is named.",
+   "slugs": [],
+   "people": [],
+   "captured": "17 October 2026",
+   "note": "notes/boras-kraljich-source-search-2026-10-17.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/boras-kraljich-source-search-2026-10-17.md"
+  },
+  {
+   "id": "krivi-put-baptism-1854-antun-krmpotic",
+   "entry": "krivi-put-baptism-1854-antun-krmpotic-entry.jpg",
+   "page": "krivi-put-baptism-1854-antun-krmpotic-page.jpg",
+   "title": "Krivi Put, 11 June 1854 — Anton, son of Leo Kermpotić and Tereza née Beondić (Biondić)",
+   "film": "Krivi Put births 1847–1884 (FamilySearch waypoint 9R28-DP8)",
+   "where": "image 39, right-hand page, protocol entry 57: «1854 dne 11. Lipnja»; the margin «Iz Veljuna N° 132»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-R8DL",
+   "says": "«1854 dne 11. Lipnja Kod B.D.M. od Sniga Karstjen jest Anton zakoniti Sin Leona Kermpotić i Therese rodjene Beondić. Kumuvahu Mile Kermpotić i Luce Kermpotić». Lipnja is June (the index has July). Gives Antun's parents.",
+   "slugs": [
+    "anton-antun-krmpotic"
+   ],
+   "people": [
+    {
+     "slug": "anton-antun-krmpotic",
+     "kind": "people",
+     "name": "Anton Antun Krmpotić"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md"
+  },
+  {
+   "id": "krivi-put-marriage-1880-antun-krmpotic",
+   "entry": "krivi-put-marriage-1880-antun-krmpotic-entry.jpg",
+   "page": "krivi-put-marriage-1880-antun-krmpotic-page.jpg",
+   "title": "Krivi Put, 3 October 1880 — Antona Krmpotić, cobbler, 26, and Marija Perpić, 19",
+   "film": "Krivi Put marriages (FamilySearch, Croatia Church Books, collection 2040054)",
+   "where": "the spread of 1880, entry 14 («1880 Listopada dne 3»): the left page for the couple, the right page for their parents",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-R3C",
+   "says": "«Antona Krmpotić opančar, Veljun br. 157, 26, neoženjen — Marija Perpić, Krivi Put br. 117, 19, neudata»; the parents: «Leo Krmpotić i Tereza rod. Biondić» and «Mate Perpić i Kate rod. Perpić». Listopada is October (the index has November).",
+   "slugs": [
+    "anton-antun-krmpotic"
+   ],
+   "people": [
+    {
+     "slug": "anton-antun-krmpotic",
+     "kind": "people",
+     "name": "Anton Antun Krmpotić"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md"
   }
  ],
  "bySlug": {
@@ -12848,6 +12932,13 @@
   ],
   "maria-jurcic": [
    "senj-baptism-1837-ante-babic"
+  ],
+  "maria-10": [
+   "otocac-death-1831-maria-zubrinic"
+  ],
+  "anton-antun-krmpotic": [
+   "krivi-put-baptism-1854-antun-krmpotic",
+   "krivi-put-marriage-1880-antun-krmpotic"
   ]
  }
 }

@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 197,
-  "people": 122,
+  "rows": 200,
+  "people": 124,
   "derived": 72,
   "onDirectLine": 0,
   "indexOnly": 19,
@@ -12,7 +12,7 @@
  "kinds": [
   [
    "baptism",
-   47
+   48
   ],
   [
    "baptism-of-child",
@@ -24,11 +24,11 @@
   ],
   [
    "marriage",
-   29
+   30
   ],
   [
    "death",
-   25
+   26
   ],
   [
    "grave",
@@ -1290,6 +1290,20 @@
   },
   {
    "kind": "death",
+   "year": "1831",
+   "cite": "Otočac deaths image 300 left, 24 April 1831 — «Maria uxor Michaelis Xubrinich … aetatis suae 38 annorum, ex febri nervosa»; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-MQHT; Prozor, house number not firm",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-death-1831-maria-zubrinic.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1831-maria-zubrinic.md",
+   "indexOnly": false,
+   "slug": "maria-10",
+   "name": "Maria",
+   "ahn": null
+  },
+  {
+   "kind": "death",
    "year": "1832",
    "cite": "Selce, 1 Apr 1832, house 39 — \"Georgius Jellicich, Antonii\"",
    "derived": false,
@@ -1765,6 +1779,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1854",
+   "cite": "Krivi Put births image 39 right, entry 57, 11 June 1854 — «Anton zakoniti Sin Leona Kermpotić i Therese rodjene Beondić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-R8DL; the margin «Iz Veljuna N° 132»",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "indexOnly": false,
+   "slug": "anton-antun-krmpotic",
+   "name": "Anton Antun Krmpotić",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1856",
    "cite": "named as mother, \"Anna nata Štrumbulko\", Otočac 3 Jul 1856, same house — the by-name attested",
@@ -1958,6 +1986,20 @@
    "indexOnly": false,
    "slug": "anica-ana-anna-kalanj",
    "name": "Anica / Ana / Anna \"Ana\" Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1880",
+   "cite": "Krivi Put marriages, entry 14, 3 October 1880 — «Antona Krmpotić, opančar, 26, and Marija Perpić, 19»; parents Leo Krmpotić × Tereza Biondić and Mate Perpić × Kata Perpić; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-R3C",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+   "indexOnly": false,
+   "slug": "anton-antun-krmpotic",
+   "name": "Anton Antun Krmpotić",
    "ahn": null
   },
   {
@@ -6187,6 +6229,57 @@
     }
    ],
    "direct": 1,
+   "derived": 0
+  },
+  "maria-10": {
+   "slug": "maria-10",
+   "name": "Maria",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1831",
+     "cite": "Otočac deaths image 300 left, 24 April 1831 — «Maria uxor Michaelis Xubrinich … aetatis suae 38 annorum, ex febri nervosa»; READ FROM THE IMAGE; ark 3:1:3QS7-L99F-MQHT; Prozor, house number not firm",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-death-1831-maria-zubrinic.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1831-maria-zubrinic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anton-antun-krmpotic": {
+   "slug": "anton-antun-krmpotic",
+   "name": "Anton Antun Krmpotić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1854",
+     "cite": "Krivi Put births image 39 right, entry 57, 11 June 1854 — «Anton zakoniti Sin Leona Kermpotić i Therese rodjene Beondić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-R8DL; the margin «Iz Veljuna N° 132»",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1880",
+     "cite": "Krivi Put marriages, entry 14, 3 October 1880 — «Antona Krmpotić, opančar, 26, and Marija Perpić, 19»; parents Leo Krmpotić × Tereza Biondić and Mate Perpić × Kata Perpić; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-R3C",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
    "derived": 0
   },
   "antonia-pekass-pekkas": {

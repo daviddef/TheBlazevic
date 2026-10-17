@@ -1,0 +1,23 @@
+# Looking for a source for the Boraš and Kraljić tree problems (17 October 2026)
+
+From [integrity-audit-triage-2026-10-17.md](integrity-audit-triage-2026-10-17.md): two clusters need a document. FamilySearch index and one page read; nothing in the tree changed.
+
+## Boraš: the wife of Joannes Ivan Boraš (b. 1855)
+
+The tree gives **Joannes Ivan Boras (b. 24 June 1855, Senj; d. 1926; son of Josip Boraš and Marija Kabalin)** a wife whose own birth date is a copy of her youngest daughter's, and children born 1888–1907 (and a later «Blazenka» hung on him). The question: who bore the children?
+
+* **Surname search, FamilySearch *Croatia, Church Books*, Boras, Boraš, Borasz, Borash, as principal, father or spouse, births 1853–1912: 63 records, 4 at Senj.** None names Joannes Ivan as a father. The index has **no marriage of Joannes Ivan Boraš** (the Senj marriages of 1878–94 are in it, so it is probably not under this spelling or not at Senj) and **none of the tree's children of 1888–1894** at Senj, although the Senj births of 1878–1894 are indexed.
+* **What the index does have is a different family that could be mistaken for his:** *Marija Vincenza Boras*, baptised 1886 at Senj, and *Frane Rozalia Boras*, born 1 November 1888 and baptised 2 November, both to **Anica Boras**, mother only (QKMJ-/X9D5- records X9D5-9T58 and X9D5-XZP4), and a *Rozalia Boras* buried in November 1888 with a father «Anta Boras» (6B47-GFS4). **The page of the 1888 baptism was opened (the Senj births 1878–1894 book, entries 93–94, 2 November 1888, [snapshot](https://blazevic.defranceski.com/snapshots/#senj-birth-1888-twins-anica-boras)): twins, Frane and Rozalia, both entered as illegitimate (*nezakonito*), the mother Anica Boras, daughter of Jose and Marija, a servant (*poslužnjinja*), no father named; the marginal note says one died on 18 December 1943.** So these are daughters of an unmarried Anica, **not** children of Joannes Ivan, and they must not be hung on him.
+* **The sister Angelika Boraš**, baptised 1 September 1857 at Senj to Josephus Boras and Maria Kabalin (QKMJ-SQMC), is Joannes Ivan's sister: she is the Angelika Boras who appears as the mother of Pavao Kosina, baptised 1894 at Senj (father Martin Kosina).
+* **A second search, by the wife's side and by the father's name:** mother's surname Baričević (six spellings), or father «Ivan»/«Joannes» with surname Boras, Borac or Borač, children born 1880–1910: **70 records, none at Senj and none a Boras.** The wife recorded in the tree (a Baričević) is not found as a mother in the index either.
+* **Result: the index cannot say who bore his children.** The route is the page: the Senj births 1878–1894 (waypoint 9R2D-JWL), entries of 1888, 1891, 1892 and 1894 for a father Ivan Boraš, which the index has not captured; or his Senj marriage (about 1885–87).
+
+## Kraljić: Nicolaus Kraljich (b. 29 September 1807) and his mother «Anna, born 1809»
+
+* The mother has no parents, no place and the **same birth year, 1809, as Nicolaus's own wife, Anna Žubrinić Xubrinich (b. 1809)**. A mother born two years after her son, with the same name and year as his wife, is almost certainly **the wife's birth year copied onto the mother** (a slot filled twice), not a second error. Her other children are dated 1812, 1817 and 1820.
+* **The index has no baptism of a Nicolaus, Mattheus, Stephanus or Francisca Kraljich of 1807–1823 to a father Jacobus.** Kraljić baptisms of those years appear at Međurić, Šljivoševci and Vrbje (Slavonia), and one at Prozor in 1810 (Joannes, to Vitus Kraljich and Helena); none is Jacobus's. **The Otočac births begin in 1834 and the Senj births of 1807–1820 are not indexed**, so the tree's children were baptised in a book the index does not reach.
+* **Result: no source found.** A page read of the Senj births 1756–1858 (waypoint 9R2M-L27, 589 images; the cathedral book, entries 1807–1820) or the Otočac *status animarum* (images 9–120, households with birth dates) is the route; neither was walked here.
+
+## Maria Žubrinić (d. 1831) and her children to 1844
+
+Resolved on the page, see [otocac-death-1831-maria-zubrinic.md](otocac-death-1831-maria-zubrinic.md): she died on 24 April 1831, aged 38, and the later children are Catharina née Žubrinić's.
