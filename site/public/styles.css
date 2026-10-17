@@ -957,9 +957,11 @@ main .prose,main section.blk>ul:not(.cols):not(.sp):not(.spine),main section.blk
 
 /* THE BOOK (17 October 2026). The running head, the Previous / Next, the Contents and the part openers come from the
    kit and read this archive's own tokens (--ink, --ink-2, --ink-3, --rule, --panel, --accent, --sans, --serif), which
-   already match. What is mapped here is the column: the kit's head and foot are as wide, and as padded, as .wrap. */
+   already match. What is mapped here is the column: the head's text and the foot's rule run exactly as wide as .wrap's content. */
 :root{--bk-width:var(--maxw)}
-body .bk-head .bk-row,body .bk-foot{padding-left:28px;padding-right:28px}
+body .bk-head .bk-row{padding-left:28px;padding-right:28px}
+body .bk-foot.bk-foot{box-sizing:border-box;width:calc(100% - 56px);max-width:calc(var(--maxw) - 56px);padding-left:0;padding-right:0}
 @media (max-width:520px){
-  body .bk-head .bk-row,body .bk-foot{padding-left:18px;padding-right:18px}
+  body .bk-head .bk-row{padding-left:18px;padding-right:18px}
+  body .bk-foot.bk-foot{width:calc(100% - 36px)}
 }
