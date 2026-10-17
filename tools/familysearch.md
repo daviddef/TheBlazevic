@@ -434,3 +434,5 @@ What did not work: the local sink in `fs_reader.js` (`__send`, POST to 127.0.0.1
 pane every route to 127.0.0.1 failed (fetch, no-cors, an image load) though the sink answered from the
 shell. Use the spill file. Also: the pane closes between turns and drops the page globals; re-inject
 `fetchWindow`, `__arksD` (waypoint list) and `fs_prefetch.js` at the start of each turn.
+
+**Measured 17 Oct 2026:** 78 pages (Otočac deaths images 140-217) took about 20 minutes to download in the background (13-16 s a page) and were read from 78 sheets, with 6-9 pages returned per tool call (15-24 MB spills). Overlap the cut strips (fs_sheet.py does, 170 px) or a row on the cut is lost; check the strip joins with a seam montage. Read for the surname AND its adoptive forms («X adoptatus Y»).
