@@ -70,6 +70,7 @@ HAND_KEPT = {
     "namefold-extra.json":   "surname folding, the exceptions",
     "photograph-these.json": "what to photograph next time somebody is at a grave",
     "recent.json":           "what changed lately",
+    "book.json":             "the book: where every page of the site sits in the story, the part titles and introductions and the one-line chapter blurbs. Written by hand and held to the built site by checkbook",
     "lines.json":            "the lines of a surname — which families of one name are kept in separate lanes until a document joins them. Conclusions somebody reached",
 }
 
