@@ -18,3 +18,7 @@ A Nicolaus who is a father in 1740 could well be born about 1717 (he would be 23
 **Where it could be tested.** The Mrežnica births, marriages and deaths are on film under waypoint **9R2M-C6D** (the atlas lists Births 1718–1725 and 1728–1761, Marriages 1726–1761, Deaths 1726–59, Births 1762–1774, 588 images; the births of 1766 are around image 510). Latin prose, entries grouped by village. What to look for: further children of Nicolaus and Margarita (Antonius, Michael, born 1746–62), a death of a Nicolaus Gergacz at Mrežnica before about 1760, or a marriage.
 
 **Not the same family.** The index shows many **Gergich** (Kostajnica, Kobaš, Osijek, Našice, Nova Gradiška): a different surname, in Slavonia, and no evidence connects it to the Karlobag Gergacs.
+
+## A look at the Mrežnica film, 17 October 2026 (not a read)
+
+Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of January 1763; 1763 begins on 481). **The register is hand-written Latin grouped under village headings (Podvenac, Novaki, Vrbovac, Mikalich and others), about a dozen baptisms to a page, in a cramped cursive in which surnames are not reliably legible at page scale.** Nothing was searched for or recorded from them. A read for a Gergacz household would have to start from a village (the index gives none for the 1740 and 1745 entries) and would be a page-by-page walk of 1746–1762 in a hand this hard; **the index, not the pages, is the efficient route, and it has no Antonius or Michael to a Nicolaus**. Left open, not attempted.
