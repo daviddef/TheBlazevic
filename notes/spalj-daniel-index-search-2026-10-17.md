@@ -21,3 +21,12 @@ The tree's **Daniel Špalj** has no dates and no place, a wife **Francesca Prpi�
 ## Result
 
 **Daniel Špalj's baptism is not reachable on any film or index this archive can open**, and the better reading is that he was born about 1820–1830 at **Krmpote, Vodice or Ledenice** (where his children later lived: Krmpote 152) and came to Senj before 1852. Two routes remain: the Senj marriage entry of about 1850–51 (a second read of the 1850–51 pages of the Senj volume, which the walk read once) and an entry in his children's later registers that names his parents (the Krmpote births from 1879 name grandparents only by chance).
+
+## A look at the books Daniel's own entries would be in (17 October 2026, nothing read for him)
+
+Opened only to see what they are; **no Špalj entry was looked for or recorded from them**.
+
+* **Vodice marriages 1826–1857 (waypoint 9R24-W3N, 395 images).** Image 10 is the title «Registro Matrimoniale Canonico-Civile, dal 8 Gennajo 1826 al 20 Giu 1828»; the marriage registers are Italian-language printed forms, and **images 88–90 are a name INDEX by year** (1844 to 1857, one line per marriage, surnames of both spouses, «Spaljan»-type forms among them: the 1849–1851 lines show «Sperljan», «Spertjan» and «Sper(t)lian», which looks like the local spelling of Špalj/Šperljan, not Špalj). The index is legible at 2x; **a read of the 1844–1851 lines for «Sperljan/Spertjan con … Perpić» would find Daniel's marriage if he married at Vodice**, which is the first thing to try, because the Senj volume has no marriage and the family later lived at Krmpote 152, in the Vodice parish.
+* **Ledenice births 1820–1861 (waypoint 9R2F-4WP, 510 images)** are in a mixed layout (an alphabetical name index near image 100 and a tabular register from about image 160): too heavy to walk for a surname the index cannot find.
+
+Left for the next sitting: the Vodice marriage index lines for 1844–1851, then the marriage entry itself.
