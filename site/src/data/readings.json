@@ -1,8 +1,8 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 200,
-  "people": 124,
+  "rows": 206,
+  "people": 130,
   "derived": 72,
   "onDirectLine": 0,
   "indexOnly": 19,
@@ -35,15 +35,15 @@
    10
   ],
   [
+   "census",
+   9
+  ],
+  [
    "death-of-spouse",
    7
   ],
   [
    "named-on-a-child-baptism",
-   3
-  ],
-  [
-   "census",
    3
   ],
   [
@@ -1065,6 +1065,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1807",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — named as the late (defti) father of Nicolaus (1807) and Stephanus (1817); no wife named on the page; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "jacobi-kraljich",
+   "name": "Jacobi Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "marriage",
    "year": "1807",
    "cite": "Karlobag, 17 June 1807, folio 4 — «Georgii filij defti Georgii Uroda et Maria filia Michaelis Gergas»; ark 3:1:3QSQ-G99C-G2N",
@@ -1104,6 +1118,20 @@
    "indexOnly": false,
    "slug": "michaeli-michaele-gerkacs-gergacs",
    "name": "Michaeli (Michaele) Gerkacs (Gergacs)",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1807",
+   "cite": "Otočac Stanje duša image 76 left (printed no. 319), house No. 40 — «Nicolaus filius defti Jacobi · 29 9bris 1807» (9bris = Novembris; the tree says 29 September); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "nicolaus-nicolai-kraljich",
+   "name": "Nicolaus Nicolai Kraljich",
    "ahn": null
   },
   {
@@ -1244,6 +1272,34 @@
    "indexOnly": false,
    "slug": "pauli-loncaric",
    "name": "Pauli Lončarić",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1812",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Matthaeus · 5 Febr 1812», struck, in the run of the late Jacobus's sons (the father's name is not repeated for him); READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "mattheus-kraljich",
+   "name": "Mattheus Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1817",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 9bris 1817» (Novembris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "stephanus-kraljich-2",
+   "name": "Stephanus Kraljich",
    "ahn": null
   },
   {
@@ -1471,6 +1527,20 @@
    "ahn": null
   },
   {
+   "kind": "census",
+   "year": "1836",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Georgius filius dicti [Nicolai] · 19 April 1836»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "georgius-kraljich",
+   "name": "Georgius Kraljich",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1837",
    "cite": "Senj baptisms (cathedral book) p. 25 entry 71, READ FROM THE IMAGE — «1837 die 17 Maij … Joannes Antonius», filius legitimus, conditio Bajulus, parents «Augustinus Babich, conjux ejus Maria nata Jurcich». A baptism date; no birth date is given.",
@@ -1510,6 +1580,20 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": null
+  },
+  {
+   "kind": "census",
+   "year": "1838",
+   "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Petronilla filia Nicolai · 26 Maij 1838»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-census-kraljich-1807.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+   "indexOnly": false,
+   "slug": "petronilla-kraljich",
+   "name": "Petronilla Kraljich",
    "ahn": null
   },
   {
@@ -6280,6 +6364,126 @@
     }
    ],
    "direct": 2,
+   "derived": 0
+  },
+  "nicolaus-nicolai-kraljich": {
+   "slug": "nicolaus-nicolai-kraljich",
+   "name": "Nicolaus Nicolai Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1807",
+     "cite": "Otočac Stanje duša image 76 left (printed no. 319), house No. 40 — «Nicolaus filius defti Jacobi · 29 9bris 1807» (9bris = Novembris; the tree says 29 September); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "jacobi-kraljich": {
+   "slug": "jacobi-kraljich",
+   "name": "Jacobi Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1807",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — named as the late (defti) father of Nicolaus (1807) and Stephanus (1817); no wife named on the page; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mattheus-kraljich": {
+   "slug": "mattheus-kraljich",
+   "name": "Mattheus Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1812",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Matthaeus · 5 Febr 1812», struck, in the run of the late Jacobus's sons (the father's name is not repeated for him); READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "stephanus-kraljich-2": {
+   "slug": "stephanus-kraljich-2",
+   "name": "Stephanus Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1817",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Stephanus filius defti Jacobi · 7 9bris 1817» (Novembris); struck and carried to house No. 53; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "georgius-kraljich": {
+   "slug": "georgius-kraljich",
+   "name": "Georgius Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1836",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Georgius filius dicti [Nicolai] · 19 April 1836»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "petronilla-kraljich": {
+   "slug": "petronilla-kraljich",
+   "name": "Petronilla Kraljich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "census",
+     "year": "1838",
+     "cite": "Otočac Stanje duša image 76 left, house No. 40 — «Petronilla filia Nicolai · 26 Maij 1838»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99F-M3PM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-census-kraljich-1807.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
    "derived": 0
   },
   "antonia-pekass-pekkas": {

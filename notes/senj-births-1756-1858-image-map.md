@@ -70,7 +70,7 @@ The book is **not in date order by page**: pages 107–158 (images 12–60) are 
 ### What it means
 
 * **On the page, the film has the Croatian book (1736–1751 and 1758–60 and a little after) and then nothing until the Latin prose of 1820.** The years **1761–1819 were not found anywhere in the volume**, which is a coverage gap, not proof of one: the leaves not read are most of the left pages and about half the right pages in 230–394, images 30–60 and 90–190 as to their years, and images 395–589 beyond the index points.
-* **So the Kraljić baptisms of 1807–1820 are probably not on this film.** The route left is the Senj parish itself (the letter drafted on the Errands page).
+* **So the Kraljić baptisms of 1807–1820 are not on this film, and were never Senj's:** the Kraljić brothers turned out to be of **Otočac** (the status animarum, image 76: [otocac-census-kraljich-1807.md](otocac-census-kraljich-1807.md)), and the route left is the Otočac parish, as section 4 of the Otočac draft on the Errands page.
 * **Nothing was searched for a Kraljich.** This note is a map and a pointer, not a reading.
 
 ## Method, so that the map can be extended

@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 484,
- "images": 507,
+ "count": 486,
+ "images": 510,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11542,6 +11542,82 @@
    "captured": "17 October 2026",
    "note": "notes/krivi-put-antun-krmpotic-1854-and-1880.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antun-krmpotic-1854-and-1880.md"
+  },
+  {
+   "id": "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
+   "entry": "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus-entry.jpg",
+   "page": "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus-page.jpg",
+   "title": "Otočac status animarum, the Kraljich household, house No. 40 — «Nicolaus filius defti Jacobi», born «29 9bris 1807»",
+   "film": "Otočac Church Census (Stanje duša) 1710–1846, filmed with Deaths 1780–1836 and Marriages 1859–1872 (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 76, left-hand page (printed archive number 319), the first household on the page, house No. 40, the first six rows: Georgius Kraljich at the head, then the entries for Nicolaus, Matthaeus, Franciscus, Georgius and Stephanus",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
+   "says": "«[No. 40] Georgius Kraljich · 29 Martij 1778 · [struck, carried to house No. 53] Nicolaus filius defti Jacobi · 29 9bris 1807 · «845» · Matthaeus · 5 Febr 1812 · Franciscus filius Georgij · 12 Junij 1814 · Georgius · 17 April 1814 · [struck, No. 53] Stephanus filius defti Jacobi · 7 9bris 1817 · «845»». «Defti» = defuncti, «of the late»: the father Jacobus was dead by the time the line was written. The month of Nicolaus's and Stephanus's dates is written «9bris», the Latin abbreviation for Novembris (as «8bris» is October on the next rows); the tree has Nicolaus on «29 SEP 1807». The dates and the numbers beside them were read at about 0.55x and the month glyph at full size; the year digits of Georgius (1778), Franciscus and the second Georgius were read once and are not firm. The household's own relationships (who Georgius Kraljich was to the brothers) are not stated on the page.",
+   "slugs": [
+    "nicolaus-nicolai-kraljich",
+    "jacobi-kraljich",
+    "mattheus-kraljich",
+    "stephanus-kraljich-2"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    },
+    {
+     "slug": "jacobi-kraljich",
+     "kind": "people",
+     "name": "Jacobi Kraljich"
+    },
+    {
+     "slug": "mattheus-kraljich",
+     "kind": "people",
+     "name": "Mattheus Kraljich"
+    },
+    {
+     "slug": "stephanus-kraljich-2",
+     "kind": "people",
+     "name": "Stephanus Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-census-kraljich-1807.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md"
+  },
+  {
+   "id": "otocac-census-kraljich-house-40-children-of-nicolaus",
+   "entry": "otocac-census-kraljich-house-40-children-of-nicolaus-entry.jpg",
+   "page": "",
+   "title": "Otočac status animarum, house No. 40 — the children «Josephus filius Nicolai», Georgius (19 April 1836) and «Petronilla filia Nicolai» (26 May 1838)",
+   "film": "Otočac Church Census (Stanje duša) 1710–1846, filmed with Deaths 1780–1836 and Marriages 1859–1872 (FamilySearch waypoint 9R2D-16X, 384 images)",
+   "where": "image 76, left-hand page (printed archive number 319), the lower rows of the same household (house No. 40): Thomas, Michael, Josephus, Georgius, Petronilla, Clara",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
+   "says": "«Josephus filius Nicolai · 28 8bris 18[3?]· [struck] Georgius filius dicti · 19 April 1836 · Petronilla filia Nicolai · 26 Maij 1838»: the census source of the tree's «Georgius Kraljich b. 19 April 1836» and «Petronilla b. 1838». The father is entered only as «Nicolai»; that he is the Nicolaus of the rows above is the tree's reading and is not stated on the page. The year of Josephus's date was not read.",
+   "slugs": [
+    "georgius-kraljich",
+    "petronilla-kraljich",
+    "nicolaus-nicolai-kraljich"
+   ],
+   "people": [
+    {
+     "slug": "georgius-kraljich",
+     "kind": "people",
+     "name": "Georgius Kraljich"
+    },
+    {
+     "slug": "petronilla-kraljich",
+     "kind": "people",
+     "name": "Petronilla Kraljich"
+    },
+    {
+     "slug": "nicolaus-nicolai-kraljich",
+     "kind": "people",
+     "name": "Nicolaus Nicolai Kraljich"
+    }
+   ],
+   "captured": "17 October 2026",
+   "note": "notes/otocac-census-kraljich-1807.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-census-kraljich-1807.md"
   }
  ],
  "bySlug": {
@@ -12939,6 +13015,25 @@
   "anton-antun-krmpotic": [
    "krivi-put-baptism-1854-antun-krmpotic",
    "krivi-put-marriage-1880-antun-krmpotic"
+  ],
+  "nicolaus-nicolai-kraljich": [
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
+   "otocac-census-kraljich-house-40-children-of-nicolaus"
+  ],
+  "jacobi-kraljich": [
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+  ],
+  "mattheus-kraljich": [
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+  ],
+  "stephanus-kraljich-2": [
+   "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus"
+  ],
+  "georgius-kraljich": [
+   "otocac-census-kraljich-house-40-children-of-nicolaus"
+  ],
+  "petronilla-kraljich": [
+   "otocac-census-kraljich-house-40-children-of-nicolaus"
   ]
  }
 }
