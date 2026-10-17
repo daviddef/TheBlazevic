@@ -1859,6 +1859,18 @@
    "where": "senj",
    "href": "/TheMap/place/senj/"
   },
+  "volume:9R24-W3N": {
+   "by": {
+    "spalj": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "FamilySearch — Vodice marriages 1826–1857, the name index of 1844–1856 (images 88–90)"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1826-1857 Deaths (Umrli) 1826-1861",
+   "where": "vodice",
+   "href": "/TheMap/place/vodice/"
+  },
   "source:billiongraves": {
    "by": {
     "kolbe": {
@@ -3387,6 +3399,78 @@
      173
     ]
    ]
+  },
+  "volume:9R28-FMQ": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL HOSPITAL DEATHS 1874–1891 (9R28-FMQ) — walked end to end: ONE Defranceschi, Francisca Antonia (daughter of Johann), d. 4 Aug 1882"
+    }
+   },
+   "t": "Deaths (Umrli) 1874-1891",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     4,
+     195
+    ]
+   ]
+  },
+  "volume:9R2F-7MQ": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH DEATHS 1895–1900 (9R2F-7MQ) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Deaths (Umrli) 1895-1900",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     7,
+     77
+    ]
+   ]
+  },
+  "volume:9R2C-7MW": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL PARISH DEATHS 1864–1879 (9R2C-7MW) — walked end to end: ONE Defranceschi, Anton (son of Johann), d. 2 Oct 1874 aged 4 months"
+    }
+   },
+   "t": "Deaths (Umrli) 1864-1879",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     5,
+     305
+    ]
+   ]
+  },
+  "volume:9R2Z-K6L": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL PARISH BAPTISMS 1876–1884 (9R2Z-K6L) — Francisca Antonia Defranceschi, b. 24 Jan 1878, father Johann of Galignana",
+     "done": [
+      [
+       5,
+       91
+      ]
+     ]
+    }
+   },
+   "t": "Baptisms (Krsteni) 1876-1884",
+   "where": "pula",
+   "href": "/TheMap/place/pula/"
   },
   "volume:MC55-FNT": {
    "by": {
