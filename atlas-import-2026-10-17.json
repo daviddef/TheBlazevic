@@ -1,6 +1,6 @@
 {
  "v": 2,
- "exported": "2026-10-16",
+ "exported": "2026-10-17",
  "lines": {
   "blazevic": {
    "name": "Blažević",
@@ -16,6 +16,11 @@
    "name": "Žubrinić",
    "where": "",
    "made": "2026-09-29"
+  },
+  "gerkacs": {
+   "name": "Gerkacs",
+   "where": "",
+   "made": "2026-10-17"
   },
   "pilipic": {
    "name": "Pilipić",
@@ -207,6 +212,11 @@
    "where": "",
    "made": "2026-09-29"
   },
+  "forchia": {
+   "name": "Forchia",
+   "where": "",
+   "made": "2026-10-17"
+  },
   "lerena": {
    "name": "Lerena",
    "where": "",
@@ -310,7 +320,7 @@
     },
     "sneyd": {
      "state": "found",
-     "since": "2026-10-11",
+     "since": "2026-10-17",
      "note": "Shropshire Parish Registers, Diocese of St Asaph — eight printed volumes, read entire"
     },
     "wakefield": {
@@ -337,7 +347,7 @@
     "mazza": {
      "state": "written",
      "note": "CEMLA — Argentine immigration",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "CEMLA — Centro de Estudios Migratorios Latinoamericanos",
@@ -352,7 +362,7 @@
     },
     "zubrinic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Otočac deaths: ahnentafel 40 and 41 both read, and a false null corrected"
     },
     "blazevic": {
@@ -397,7 +407,7 @@
     },
     "tomljanovic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 324, 2 November 1785: Michael Gerkacs × Lucia Tomljanović"
     },
     "bacchi": {
@@ -417,12 +427,12 @@
     },
     "babic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Babić entries (19 marriage, 20 death)"
     },
     "krmpotic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Krmpotić entries (19 marriage, 13 death)"
     },
     "butkovic": {
@@ -437,7 +447,7 @@
     },
     "boras": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Boras entries (6 marriage, 4 death)"
     },
     "sojat": {
@@ -447,7 +457,7 @@
     },
     "spalj": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read once: the Špalj entries (2 marriage, 4 death)"
     },
     "boric": {
@@ -457,8 +467,13 @@
     },
     "pavelic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch — Senj marriage and death volume 9RK1-W3P, every image read: the Pavelić entries (2 marriage)"
+    },
+    "gerkacs": {
+     "state": "found",
+     "since": "2026-10-17",
+     "note": "FamilySearch index — Gergacs/Gerkacs baptisms 1735–1770 with a father Nicolaus, anywhere"
     },
     "kolbe": {
      "state": "found",
@@ -477,17 +492,17 @@
     },
     "defranceschi": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "MEDULIN DEATHS 1801–1899 — frames 3–31 of 40 read, every entry column scanned; two Defranceschi found, the rest a nil"
     },
     "falco": {
      "state": "blocked",
      "note": "FamilySearch — the parish marriage act of Nunziata Falco, 13 November 1855, ark 3Q9M-CSMY-B7H3-C (film 007786827, Arienzo marriages 1754–1900)",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "lerena": {
      "state": "found",
-     "since": "2026-10-13",
+     "since": "2026-10-17",
      "note": "FamilySearch — Uruguay, registros parroquiales 1726-2000; Nuestra Señora del Carmen, Cordón, Montevideo"
     },
     "pelaez": {
@@ -771,7 +786,7 @@
     "falco": {
      "state": "searched",
      "note": "FindMyPast, on subscription, September 2026 — every family surname searched with name variants on, worldwide and filtered to Australia & New Zealand.",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "lerena": {
      "state": "found",
@@ -785,7 +800,7 @@
     },
     "luwinski": {
      "state": "found",
-     "since": "2026-10-13",
+     "since": "2026-10-16",
      "note": "Findmypast — Passenger Lists Leaving UK 1890-1960 (TNA BT 27), FORM REVISIONS sampled across three eras"
     },
     "mazza": {
@@ -833,7 +848,7 @@
     "falco": {
      "state": "searched",
      "note": "**TROVE — searched through the API**, 27 September 2026, with a key David obtained (valid to December 2026). *The previous verdict was reached…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "lerena": {
      "state": "searched",
@@ -964,7 +979,7 @@
      "note": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649), images 313–316, January 1778 to August 1780, read for Vincentius Smojver Vukić × Oliva Bacc"
     },
     "tomljanovic": {
-     "since": "2026-10-11",
+     "since": "2026-10-17",
      "state": "found",
      "note": "FamilySearch — Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 324, 2 November 1785: Michael Gerkacs × Lucia Tomljanović",
      "done": [
@@ -975,6 +990,14 @@
       [
        322,
        323
+      ],
+      [
+       330,
+       346
+      ],
+      [
+       384,
+       405
       ]
      ]
     },
@@ -1097,6 +1120,17 @@
      "since": "2026-10-11",
      "state": "found",
      "note": "FamilySearch — Krivi Put births 1847–1884 (DGS 5494757, waypoint 9R28-DP8), image 64 left: Antonija Perpić's baptism, 15 May 1859, read from the image"
+    },
+    "krmpotic": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "FamilySearch — Krivi Put births 1847–1884 and marriages 1880: Antun Krmpotić",
+     "done": [
+      [
+       36,
+       40
+      ]
+     ]
     }
    },
    "t": "Births (Rođeni) 1847-1884",
@@ -1212,7 +1246,7 @@
   "volume:9RK1-N3B": {
    "by": {
     "zubrinic": {
-     "since": "2026-10-10",
+     "since": "2026-10-17",
      "state": "searched",
      "note": "FamilySearch — Otočac births 1834–1846 (waypoint 9RK1-N3B), September 1834 to May 1835, read for Ana «Šumbul» Marić's own baptism",
      "done": [
@@ -1223,6 +1257,10 @@
       [
        12,
        28
+      ],
+      [
+       43,
+       47
       ]
      ]
     }
@@ -1319,6 +1357,17 @@
       [
        574,
        574
+      ]
+     ]
+    },
+    "babic": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "FamilySearch — Senj births 1756–1858, the cathedral book, one spread of 1837",
+     "done": [
+      [
+       254,
+       254
       ]
      ]
     }
@@ -1705,7 +1754,7 @@
     },
     "spalj": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch index — Senj baptisms for Špalj"
     },
     "babic": {
@@ -1715,12 +1764,12 @@
     },
     "tomljanovic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch index — Senj baptisms for Tomljanović"
     },
     "pavelic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch index — Senj baptisms for Pavelić"
     },
     "prpic": {
@@ -1740,13 +1789,18 @@
     },
     "zubrinic": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch index — Senj baptisms for Žubrinić"
     },
     "boras": {
      "state": "found",
-     "since": "2026-10-16",
+     "since": "2026-10-17",
      "note": "FamilySearch index — Senj baptisms for Boras"
+    },
+    "gerkacs": {
+     "state": "found",
+     "since": "2026-10-17",
+     "note": "FamilySearch index — Gergacs/Gerkacs baptisms 1735–1770 with a father Nicolaus, anywhere"
     },
     "defranceschi": {
      "state": "found",
@@ -1756,6 +1810,54 @@
    },
    "t": "Croatia, Church Books, 1516-1994",
    "href": "https://www.familysearch.org/search/collection/2040054"
+  },
+  "volume:9R2D-16X": {
+   "by": {
+    "zubrinic": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "FamilySearch — Otočac deaths 1780–1836 (DGS 5498269), April 1831",
+     "done": [
+      [
+       200,
+       200
+      ],
+      [
+       250,
+       250
+      ]
+     ]
+    }
+   },
+   "t": "Church Census (Stanje duša) 1710-1846 Marriages (Vjenčani) 1859-1872 Deaths (Umrli) 1780-1836, 1859-1872",
+   "where": "otocac",
+   "href": "/TheMap/place/otocac/"
+  },
+  "volume:9R2D-JWL": {
+   "by": {
+    "boras": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "FamilySearch index — Boraš (all spellings) births 1853–1912 and the page of the Senj baptism of 2 November 1888",
+     "done": [
+      [
+       170,
+       170
+      ],
+      [
+       206,
+       239
+      ],
+      [
+       260,
+       263
+      ]
+     ]
+    }
+   },
+   "t": "Births (Rođeni) 1878-1894",
+   "where": "senj",
+   "href": "/TheMap/place/senj/"
   },
   "source:billiongraves": {
    "by": {
@@ -1800,6 +1902,11 @@
      "state": "searched",
      "since": "2026-10-11",
      "note": "FreeBMD — marriages, surname D'Arcy, forename George, 1837–1890"
+    },
+    "luwinski": {
+     "state": "found",
+     "since": "2026-10-16",
+     "note": "FreeBMD — Hitchin deaths, births and marriages, 1862 to 1918 (George William Castle, Caroline Wallis, George Castle, Giddings)"
     }
    },
    "t": "FreeBMD / FreeREG / FreeCEN",
@@ -1815,12 +1922,12 @@
     "defranceschi": {
      "state": "blocked",
      "note": "Geneanet",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "falco": {
      "state": "searched",
      "note": "Geneanet, 15 September 2026. ANNECCHINO, ZAMPIELLO and ARRICALE searched in full; the site had been cited here only once, in a list of…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "mazza": {
      "state": "searched",
@@ -1846,32 +1953,37 @@
     "falco": {
      "state": "searched",
      "note": "Arienzo BIRTH register, 1814 — ANTENATI `an_ua14411`, **66 images**. **Every act read**, images 2–61 (the rest are blank forms, certificates and the…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "annecchino": {
      "state": "found",
      "note": "Arienzo PROCESSETTI (marriage supplements), 1860 — ANTENATI `an_ua14207`, 479 images. **Bundle 3 read out, images 25–42.** The first Arienzo…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "carfora": {
      "state": "searched",
      "note": "Arienzo BIRTH register, 1831 — ANTENATI `an_ua14428`, 100 images. **Read a THIRD time, at the parents band, for a name that is not Falco.**",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "morgillo": {
      "state": "found",
      "note": "Arienzo PROCESSETTI, 1845 — ANTENATI `an_ua14190`, 432 images. **Bundle 3 read out, images 27–39.** The second Arienzo processetti bundle opened in…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "di-guida": {
      "state": "searched",
      "note": "Arienzo civil DEATH registers — the annual **tavole alfabetiche** of `an_ua14360` (1858, images 2–5) and `an_ua14361` (1859, images 3–4), and the…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "arricale": {
      "state": "found",
      "note": "Arienzo **PROCESSETTI 1859** — ANTENATI `an_ua14206`, **350 images**. *A volume nothing in this archive had ever mentioned: `tools/isitread.py` found…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
+    },
+    "forchia": {
+     "state": "found",
+     "note": "**FORCHIA, NATI 1883 — acts 35 and 37 read from the image**, and the volume's own alphabetical table (image 41) read to find them. Both Annecchino…",
+     "since": "2026-10-17"
     },
     "mazza": {
      "state": "searched",
@@ -1931,6 +2043,11 @@
      "state": "searched",
      "since": "2026-10-08",
      "note": "FreeREG - Northam (St Margaret) and Bideford, Devon: parish register coverage checked before searching"
+    },
+    "luwinski": {
+     "state": "searched",
+     "since": "2026-10-17",
+     "note": "FreeREG — Hertfordshire, Middlesex and Buckinghamshire baptisms for BURCH and APPLEYARD"
     }
    },
    "t": "FreeREG",
@@ -1978,7 +2095,7 @@
     "falco": {
      "state": "found",
      "note": "**NAA RecordSearch — the PASSENGER ARRIVALS index**, searched 28 September 2026 as a guest, no login. `PassengerSearch.aspx`, surname **FALCO**, all…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     },
     "mazza": {
      "state": "written",
@@ -2015,7 +2132,12 @@
     "falco": {
      "state": "searched",
      "note": "The National Archives (UK), Discovery — discovery.nationalarchives.gov.uk, 17 September 2026. The catalogue over TNA's own holdings at Kew plus some…",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
+    },
+    "lerena": {
+     "state": "found",
+     "since": "2026-10-16",
+     "note": "UK National Archives Discovery - series AIR 54, South Africa Air Force: Operations Record Books, searched for '12 Squadron' (catalogue only; no book…"
     }
    },
    "t": "The National Archives — Discovery",
@@ -2171,6 +2293,10 @@
       [
        6,
        7
+      ],
+      [
+       11,
+       12
       ],
       [
        25,
@@ -2447,7 +2573,7 @@
     "defranceschi": {
      "state": "blocked",
      "note": "WikiTree",
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "WikiTree",
@@ -2935,7 +3061,13 @@
     "defranceschi": {
      "since": "2026-10-16",
      "state": "found",
-     "note": "⭐⭐ PULA MARRIAGES 1882–1892 (9R28-VZW) — ONE ENTRY, followed from Pomer: Antonius Defranceschi, b. Ližnjan 20 Apr 1848, widower of Euphemia Radešić (d"
+     "note": "⭐⭐ PULA MARRIAGES 1882–1892 (9R28-VZW) — ONE ENTRY, followed from Pomer: Antonius Defranceschi, b. Ližnjan 20 Apr 1848, widower of Euphemia Radešić (d",
+     "done": [
+      [
+       36,
+       374
+      ]
+     ]
     }
    },
    "t": "Marriages (Vjenčani) 1882-1892",
@@ -2947,12 +3079,314 @@
     "defranceschi": {
      "since": "2026-10-16",
      "state": "found",
-     "note": "PULA DEATHS 1864–1893 (9R2C-T3D) — ONE OPENING, found by date: Euphemia Radešić (wife of Antonius Defranceschi) d. 1 May 1890, and a newborn Joannes d"
+     "note": "PULA DEATHS 1864–1893 (9R2C-T3D) — ONE OPENING, found by date: Euphemia Radešić (wife of Antonius Defranceschi) d. 1 May 1890, and a newborn Joannes d",
+     "done": [
+      [
+       706,
+       706
+      ]
+     ]
     }
    },
    "t": "Deaths (Umrli) 1864-1893",
    "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     4,
+     164
+    ],
+    [
+     169,
+     710
+    ]
+   ]
+  },
+  "volume:9R2Z-3T1": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA BIRTHS 1887–1896 (9R2Z-3T1) — from the births INDEX (9R28-3TR) to page 165: Antonius Georgius, born 9 April 1894, son of Antonius Defranceschi «e",
+     "done": [
+      [
+       69,
+       72
+      ]
+     ]
+    }
+   },
+   "t": "Births (Rođeni) 1887-1896",
+   "where": "pula",
    "href": "/TheMap/place/pula/"
+  },
+  "volume:9R28-3TR": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA BIRTHS INDEX (9R28-3TR, 1857–95) — the whole D section (images 56–72, vols VI–X) and the F section 1864–85 (images 77–82) read page by page: five"
+    }
+   },
+   "t": "Birth Index (Kazalo rođeni) 1857-1895",
+   "where": "pula",
+   "href": "/TheMap/place/pula/"
+  },
+  "volume:9R28-VZN": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "POLA k.u.k. NAVAL PARISH — Sterb-Register 1866–1913 (9R28-FMD, 67 images) and Trauungs-Buch 1866–1918 (9R28-VZN, 60 images): both read; one Defrancesc"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1866-1918",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     8,
+     66
+    ]
+   ]
+  },
+  "volume:9R28-T3F": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA MARRIAGES 1864–Aug 1877 (9R28-T3F) — read IN ORDER, every entry: ONE Defranceschi marriage, 1 June 1868 — Franciscus «da Gallignana» × Eufemia Fr",
+     "done": [
+      [
+       400,
+       558
+      ],
+      [
+       563,
+       647
+      ]
+     ]
+    }
+   },
+   "t": "Marriages (Vjenčani) 1685-1818, 1815-1877",
+   "where": "pula",
+   "href": "/TheMap/place/pula/"
+  },
+  "volume:9R28-N38": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA MARRIAGES 1874–83 (9R28-N38) — a Defranceschi MOTHER: Antonius Dobrez, carpenter, b. Visinada 30 Mar 1855, marries at Pola in Feb 1883; parents «",
+     "done": [
+      [
+       60,
+       189
+      ]
+     ]
+    }
+   },
+   "t": "Marriages (Vjenčani) 1874-1883",
+   "where": "pula",
+   "href": "/TheMap/place/pula/"
+  },
+  "volume:9R2X-4WP": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA MARRIAGES 1892–1901 (9R2X-4WP) — read IN ORDER, Nov 1892 – Sep 1901 (end of roll): TWO Defranceschi-mother marriages — ⭐⭐ Catharina Defranceschi ",
+     "done": [
+      [
+       6,
+       344
+      ]
+     ]
+    }
+   },
+   "t": "Marriages (Vjenčani) 1892-1901",
+   "where": "pula",
+   "href": "/TheMap/place/pula/"
+  },
+  "volume:9R2D-YWP": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-16",
+     "state": "found",
+     "note": "PULA DEATHS 1893–98 (9R2D-YWP) — read IN ORDER, every entry, May 1893 – 15 Oct 1898 (end of roll): FOUR groups — ⭐⭐ the old Antonio of Ližnjan 17 (189"
+    }
+   },
+   "t": "Deaths (Umrli) 1893-1898",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     6,
+     205
+    ]
+   ]
+  },
+  "volume:9R28-MNY": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL PARISH MARRIAGES 1867–81 (9R28-MNY) — walked end to end: ONE Defranceschi, Johann «Marinediener», b. Galignana, son of Franziska née Salomo"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1867-1881",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     4,
+     285
+    ]
+   ]
+  },
+  "volume:9R28-VZH": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGES 1881–95 (9R28-VZH) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1881-1891",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     205
+    ]
+   ]
+  },
+  "volume:9R28-2NP": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGES 1891–1898 (9R28-2NP) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1891-1898",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     218
+    ]
+   ]
+  },
+  "volume:9R28-L2C": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH BANNS / MARRIAGE-LICENCE REGISTER 1892–1902 (9R28-L2C) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1892-1902",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     121
+    ]
+   ]
+  },
+  "volume:9R28-DPJ": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGE LICENCE / BANNS REGISTER 1898–1904 (9R28-DPJ) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1898-1904",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     301
+    ]
+   ]
+  },
+  "volume:9R28-2NY": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGES 1867 (9R28-2NY) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1867",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     6,
+     49
+    ]
+   ]
+  },
+  "volume:9R28-RM8": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "searched",
+     "note": "POLA NAVAL PARISH MARRIAGES 1918 (9R28-RM8) — walked end to end: NO Defranceschi"
+    }
+   },
+   "t": "Marriages (Vjenčani) 1918",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     269
+    ]
+   ]
+  },
+  "volume:9R28-6YS": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL PARISH DEATHS 1879–1886 (9R28-6YS) — walked end to end: ONE Defranceschi, Paula Pietra (wife of Johann), d. 27 Feb 1883"
+    }
+   },
+   "t": "Deaths (Umrli) 1879-1886",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     197
+    ]
+   ]
+  },
+  "volume:9R28-N35": {
+   "by": {
+    "defranceschi": {
+     "since": "2026-10-17",
+     "state": "found",
+     "note": "POLA NAVAL PARISH DEATHS 1886–1895 (9R28-N35) — walked end to end: ONE Defranceschi, Eugen Josef (son of Johann), d. 10 Nov 1890"
+    }
+   },
+   "t": "Deaths (Umrli) 1886-1895",
+   "where": "pula",
+   "href": "/TheMap/place/pula/",
+   "walked": [
+    [
+     3,
+     173
+    ]
+   ]
   },
   "volume:MC55-FNT": {
    "by": {
@@ -2973,7 +3407,7 @@
        946
       ]
      ],
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "Nati, matrimoni, morti 1866-1876 Nati, matrimoni 1877 Pubblicazioni 1866 Cittadinanze 1866-69, 1871-1872, 1875-1877",
@@ -3057,7 +3491,7 @@
        70
       ]
      ],
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "Morti, cittadinanze 1879 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1800-1893 Nati 1894",
@@ -3097,7 +3531,7 @@
        549
       ]
      ],
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1878 Nati, pubblicazioni, matrimoni 1879",
@@ -3177,7 +3611,7 @@
        2626
       ]
      ],
-     "since": "2026-10-16"
+     "since": "2026-10-17"
     }
    },
    "t": "Cittadinanze, morti 1877 Nati, matrimoni, morti, pubblicazioni 1878-1900 Cittadinanze 1879-81, 1883, 1885, 1887-89",
@@ -3310,12 +3744,45 @@
    "by": {
     "lerena": {
      "state": "searched",
-     "since": "2026-10-12",
+     "since": "2026-10-17",
      "note": "South African Government Gazette via Gazettes.Africa - the surname across all 54,441 South African gazettes, 1910-2026, all five result pages walked"
     }
    },
    "t": "Gazettes.Africa",
    "href": "https://gazettes.africa"
+  },
+  "source:sandf-documentation-centre": {
+   "by": {
+    "lerena": {
+     "state": "written",
+     "since": "2026-10-16",
+     "note": "SANDF Documentation Centre (Department of Defence Archives), Pretoria - emailed a request for Nuno Fernando LERENA's personnel file"
+    }
+   },
+   "t": "SANDF Documentation Centre (Department of Defence Archives), Pretoria",
+   "href": "https://www.dod.mil.za/"
+  },
+  "source:saairforce-forum": {
+   "by": {
+    "lerena": {
+     "state": "found",
+     "since": "2026-10-16",
+     "note": "The SAAF Forum (an unofficial South African Air Force website and forum) - read for a way to find a man in 12 Squadron"
+    }
+   },
+   "t": "The SAAF Forum (an unofficial South African Air Force website and forum)",
+   "href": "https://www.saairforce.co.za/"
+  },
+  "collection:https://www.familysearch.org/search/collection/1837849": {
+   "by": {
+    "lerena": {
+     "state": "found",
+     "since": "2026-10-17",
+     "note": "FamilySearch - Uruguay, Civil Registration, 1879-2020: the Montevideo death registrations of Benito Larranaga (1885) and Jose Maria Larranaga (1890)"
+    }
+   },
+   "t": "Uruguay, Civil Registration, 1879-2020",
+   "href": "https://www.familysearch.org/search/collection/1837849"
   },
   "source:genealogia-w-archiwach": {
    "by": {
@@ -3392,6 +3859,17 @@
    },
    "t": "Yad Vashem — Central Database of Shoah Victims' Names",
    "href": "https://collections.yadvashem.org/en/names"
+  },
+  "source:tombo": {
+   "by": {
+    "luwinski": {
+     "state": "searched",
+     "since": "2026-10-17",
+     "note": "Digitarq — the exact name JOAQUIM JÚLIO DE FIGUEIREDO, and the Torre do Tombo personnel file"
+    }
+   },
+   "t": "Torre do Tombo / Digitarq",
+   "href": "https://digitarq.arquivos.pt/"
   }
  }
 }
