@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 47,
-  "partial": 47,
+  "partial": 48,
   "pending": 6,
   "yield": 147
  },
@@ -5435,6 +5435,29 @@
     [
      "/spalj/",
      "Špalj"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Senj births 1756–1858 (waypoint 9R2M-L27): a year-to-image map",
+   "key": "fs/senj-births-image-map-2026-10-17",
+   "what": "Where 1807–1820 (and every year to 1858) sits among the 589 images, for the Kraljić search and later Senj work",
+   "when": "17 Oct 2026",
+   "outcome": "partial",
+   "tags": [
+    "senj",
+    "kraljich",
+    "familysearch",
+    "map"
+   ],
+   "waypoint": "9R2M-L27",
+   "pages": "map only: 75 indexed baptisms located (images 395–584, 1822–1858); spreads at 12, 320, 328, 332–336, 338, 340, 360, 380, 394 opened for their years",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51B9?cc=2040054",
+   "got": "**The volume is a bundle of interleaved books.** Index-proved: 395 = 1822–23, 398 = 1827, 405 = 1836, 408 = 1839, 454 = 1843, 466 = 1845, 481–482 = 1849, 490–584 = 1850–58. Eyeballed: 333–335 = a tabular cathedral sequence of 1840–44; **336 left page = 1806**, so 1807–1820 are probably about images 330–339 (the same spreads carry 1840s entries on other pages). The index has no Senj baptism before 1822 in this waypoint. A map and a pointer only; no Kraljich searched. Note: notes/senj-births-1756-1858-image-map.md.",
+   "ev": [
+    [
+     "/boras/",
+     "Boraš"
     ]
    ]
   }
