@@ -20,6 +20,7 @@ import found from "../../data/found.json";
 import ancestors from "../../data/ancestors.json";
 import living from "../../data/living.json";
 import LivingPerson from "../../components/LivingPerson.astro";
+import AlsoIn from "@daviddef/archive-kit/components/AlsoIn.astro";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: a name, a
    town and a country, a family chart, and nothing else (components/LivingPerson).
@@ -218,6 +219,12 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
   )}
 
   <section class="blk">
+    {/* ALSO DOCUMENTED IN ANOTHER ARCHIVE (16 October 2026). One person documented in two archives
+        is two pages by design and the pages can disagree about what is known. The kit draws one
+        plain line ONLY for a pair marked CONFIRMED in kit/data/cross-archive.json. This sits inside
+        the not-living branch, because a living page is a name, relationships and a place and gets
+        no pointer. tools/check_also_in.py reads the built pages to prove it. */}
+    <AlsoIn archive="blazevic" path={`/people/${p.slug}/`} />
     <table class="kv">
       {p.born && <tr><th>Born</th><td>{p.born}{p.bornPlace &&
         <>, <a href={u(`/people/?q=${encodeURIComponent(p.bornPlace.split(",")[0])}`)}>{p.bornPlace}</a></>}</td></tr>}

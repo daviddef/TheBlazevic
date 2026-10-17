@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4324",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:repo && npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:living-standard && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav",
+    "build": "npm run check:pin && npm run check:repo && npm run atlas && astro build && npm run sitemap && npm run check:living && npm run check:living-standard && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:alsoin && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav",
     "preview": "astro preview --port 4324",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist \"${ARCHIVE_OUT:-dist}\"",
@@ -24,6 +24,7 @@
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 2",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:familypages": "python3 ../tools/familycheck.py --selftest && python3 ../tools/familycheck.py --dist \"${ARCHIVE_OUT:-dist}\"",
+    "check:alsoin": "python3 ../tools/check_also_in.py --selftest && python3 ../tools/check_also_in.py",
     "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 3",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
