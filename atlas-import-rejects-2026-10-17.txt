@@ -13924,6 +13924,24 @@
    "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
   },
   {
+   "archive": "Lerena Family",
+   "src": "FamilySearch record index - Pedro Lerena with spouse Teresa, died 1879-1901; and the Cordon baptism of 12 December 1828 it surfaced",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
+   "archive": "Lerena Family",
+   "src": "FamilySearch record index - Teresa Leonar with spouse Pedro Lerena, marriage 1855-1868; and the Catedral christening of their daughter Manue",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Luwinski Family",
    "src": "Genealogia w Archiwach — USC Szubin Miasto, marriages 1874 (sygn. 141, 6/1792/0/2.2/141), scan 10, read at the image through the Loris IIIF ",
    "url": "https://www.genealogiawarchiwach.pl/",
@@ -14273,6 +14291,15 @@
    "host": "digitarq.arquivos.pt",
    "provider": "tombo",
    "why": "«digitarq.arquivos.pt» is Torre do Tombo / Digitarq, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "Findmypast — the 1871 and 1881 censuses and Hertfordshire Baptisms, for Caroline Wallis of Weston",
+   "url": "https://www.findmypast.com.au/search/results?datasetname=1871+england%2c+wales+%26+scotland+census&firstname=caroline&keywordsplace=weston&yearofbirth=1863&yearofbirth_offset=2",
+   "sourceMarked": true,
+   "host": "findmypast.com.au",
+   "provider": "findmypast",
+   "why": "«findmypast.com.au» is Findmypast, which this atlas holds, but the link names no waypoint it can pin a volume to"
   },
   {
    "archive": "Mazza Family",
@@ -16739,6 +16766,15 @@
    "host": "",
    "provider": "antenati",
    "why": "row carries no URL"
+  },
+  {
+   "archive": "Mazza Family",
+   "src": "Antenati — MACCHIA Morti 1866–1875 swept for SIMONE NICOTRA and MARIANNA DAIDONE (8 of 10 years; 1868-69 have no volume)",
+   "url": "",
+   "sourceMarked": true,
+   "host": "",
+   "provider": "antenati",
+   "why": "row carries no URL"
   }
  ],
  "pagesRefused": [
@@ -17963,7 +17999,7 @@
   {
    "archive": "Blazevic Family",
    "src": "FamilySearch — Senj births 1756–1858 (waypoint 9R2M-L27): a year-to-image map",
-   "segment": "map only: 75 indexed baptisms located (images 395–584, 1822–1858)",
+   "segment": "map only: 75 indexed baptisms located (images 395–584, 1822–1858) plus the tops of about 35 spreads across images 1–394 read for their years",
    "why": "year-like, not a page: 1822–1858",
    "tiedToVolume": true
   },

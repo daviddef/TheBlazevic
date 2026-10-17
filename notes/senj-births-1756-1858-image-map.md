@@ -33,18 +33,29 @@
 | 328 | entries of «1831 … January» (tabular) |
 | 332 | left page entries of «1838», right page «1839 Dec 17» (tabular) |
 | **333, 334, 335** | **one tabular cathedral sequence, entries 37–62: 1840 (333), 1842 (334), 1844 (335)**, the cooperator Petrus Fiorrenich |
-| 336 | left page entries headed **«1806»**; right page tabular, entries 81–82, a spread of the same book |
+| 336 | **the left page is 1846–1847** (entries «1846 Die 19 Septembris … 1847 Die 22 Julii», protocol number 80), read at 4x; the «1806» first written here was a misreading of «1846» from a small crop. The right page (entries 81–82) is the same sequence. |
 | 338 | left page entries of «1848», right page Latin prose entries (the 1820s hand) |
 | 340 | prose entries of «Nov [1823]», a heading «1824» |
 | 360 | entries of «1830» and «1832» |
 | 394 | right page headed «1822» or «1823» (prose) |
 | 380 | a printed tabular *Matricula Baptisatorum*, page 137 (year not read) |
 
-## What this means for 1807–1820
+## What this means for 1807–1820 (second pass, 17 October 2026)
 
-* **There is a tabular baptism sequence of the cathedral parish that starts in 1806 on image 336, left page** (entries numbered, protocol numbers 81, 82 on the same spread). The years **1807–1820 are most probably the images just before and after 336** (about 330–339), but **the same spreads carry 1840–1848 on their other pages**, so a spread is not one year. The first thing to do is to read the left-page year of images **336, 337, 339, 341, 342–345** at 4x and fix each.
-* The prose entries of images 338–340 and 394 are **1820s**, not 1810s.
-* **Nothing was searched for a Kraljich on these pages.** This note is a map and a pointer, not a reading.
+An earlier version of this note said an 1806 sequence began on image 336 and that 1807–1820 were near images 330–339. **That was wrong: the «1806» was «1846»** (image 336's left page, read at 4x, is entries of 1846–1847). The second pass read the top of about 35 spreads across the whole volume. **Result: no image dated 1790–1819 was found.**
+
+| Images | What they are |
+|---|---|
+| 1–229 (sampled at 12, 20, 40, 60, 70, 100, 120, 130, 150, 180, 195, 205, 215, 225) | **Croatian-language prose baptisms of the 1700s** (the priest writes «Ja Plovan Kuhačević krstih…»; «Primer i Plovan Juraj Homolich»), page counters about 107 to 312; dated points: **215 = 1749, 225 = 1751, 12 = «Lato 1758»**. Image 230 is a film target card (Arhiv Hrvatske Zagreb). |
+| 240, 250 | tabular cathedral baptisms: 240 = 1848, 250 = 1833 |
+| 320–336 | tabular cathedral sequence on both pages of each spread, **1840–1847** (324, 328 and 332 also read: 1841, 1831?, 1838–39 on left pages) |
+| **338 right page** | Latin prose headed **«1820»**, page 101, a cooperator's entries («Petrus Kovacich cooperator baptizavit…»); the prose book continues to images 340 (Nov 1823–1824) and 394 (1822/23 heading) |
+| 344, 350, 356 | tabular entries of 1833–1834 and later |
+| 395–584 | proved by the index, 1822–1858 (section 1) |
+
+* **What is NOT in the volume as sampled: the 1790s to 1819.** The Croatian-language book runs to the 1750s–60s (and perhaps beyond on pages not sampled), the Latin prose book is **seen from 1820 (338 right, page 101)**, and nothing between was found. **That does not prove a gap:** the Croatian book could continue through the 1760s–1790s in the unsampled leaves, and a Latin book of the 1800–1819 years could stand under another page counter. But **the Kraljić baptisms of 1807–1820 may not be on this film at all**, and the parish itself (Senj cathedral, *Matična knjiga krštenih*) may be the only holder.
+* **Next step if wanted:** read the left-page years of images **151–229 at 4x, one in five** (the Croatian book's later leaves), and the Latin prose right pages of **338 backwards through 330–337 and forwards through 341–393**, at the month headings. And, in parallel, the Senj parish letter on the Errands page is the other route.
+* **Nothing was searched for a Kraljich.** This note is a map and a pointer, not a reading.
 
 ## Method, so that the map can be extended
 
