@@ -108,3 +108,52 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 
 **What it adds.** The Mrežnica test for the Karlobag Antonius is now complete for 1735–1761: **he is not a baptised son of the Mrežnica Nicolaus**. That does not make the Mrežnica Gergacz and the Karlobag Gerkacs unrelated; Nicolaus Gerkacs of Karlobag (b. about 1717) could be a **brother or cousin** of the Mrežnica Nicolaus, or of Joannes, and the Michael Gergach of 1756 is a further adult of the name. **Limits:** read at reduced scale, not entry by entry at full size; the hand of the 1740s is hard, and a Gergacz godparent in an entry could be missed in a page read at that scale. The births before December 1735, the misbound leaves of October 1761 – April 1762 and the births of 1763 onward are still unread.
 
+
+## The surname at Mrežnica before 1740 is **Jargat** (18 October 2026)
+
+**How it turned up.** Reading the earliest Mrežnica births (images 7–12, October 1718 – April 1719) the hand wrote a surname «Jargat» / «Jergat» in the village Varos, twice: **18 November 1718** (image 7) and **30 December 1718** (image 8). The index had been searched in eleven Gergacs-type spellings and never in this one. Searched now, exactly, in the Croatia Church Books collection: **«Jargat» has 48 records, 19 of them baptisms at Mrežnica between 1704 and 1723**, and later ones. The first letter is drawn like a J in this hand (the godparents' «Gergath» of 17 February 1745 is written the same way), which makes **Jargat/Jargath** and **Gergach/Gergath** possibly one surname read two ways by the scribe and the indexers; **that is a hypothesis, not shown** (see the correction below).
+
+**The Jargat baptisms at Mrežnica in the index** (father × mother, as indexed):
+
+| baptised | child | parents |
+|---|---|---|
+| 5 Apr 1704 | Dore | Jure Jargat × Ana Polović |
+| 19 Mar 1705 | Ive | Lovro Jargat × Jele Vranić |
+| 15 Nov 1709 | Marko | Lovro Jargat × Mare Bosanac |
+| 1 Apr 1710 | Mijo | Ive Jargat × Kate Novosel |
+| 10 Aug 1710 | Petar | Mato Jargat × Jele Šeketa |
+| 12 Aug 1712 | Jure | Mato Jargat × Jele Šeketa |
+| 24 Sep 1712 | Bare | Lovro Jargat × Mare Bosanac |
+| 6 Nov 1713 | Mare | Lovro Jargat × Ana Smrnik |
+| 25 Feb 1716 | Mato | Lovro Jargat × Jele |
+| 25 Aug 1716 | Ive | Ive Jargat × Kate Novosel |
+| **18 Nov 1718** | **Nikola** | **Lovro Jargat × Kate Magličić** |
+| **30 Dec 1718** | **Mijo** | **Petar Jargat × Kate Car** |
+| 28 Nov 1719 | Bare | Petar Jargat × Kate Car |
+| 10 Jun 1720 | Petar | Ive Jargat × Kate |
+| 5 Aug 1720 | Lovro | Lovro Jargat × Kate |
+| 26 Mar 1723 | Helena | Joannes Jargat × Catharina |
+
+(Three different men named Lovro/Laurentius, Ive, Mato, Petar, Jure and Joannes: **several Jargat households**, with the mothers' names repeating, so the table is not one family tree.) After 1723 the index has **Barbara Jargat** (17 Oct 1742, Michaelis Jargat × Anna Petvak), **Barbara Jargat** (16 May 1750, Joannis Jargat × Catharinae Juraich), **Nicolaus Gergach** (**21 Aug 1760**, Joanis Gergach × Chatharinae Kisin) and **Helena Jergath** (1 Jul 1775, Joannis Jergath × Annae Brazdichich).
+
+**Read on the page** (images 7 and 8, [snapshot](/snapshots/#mreznica-baptism-1718-11-nikola-jargat), [snapshot](/snapshots/#mreznica-baptism-1718-12-mijo-jargat)): the **18 November 1718** entry is the baptism of a son of **Laurentius (Lovro) Jargat** and Catharina née Magličić (under *Varos*; the date line is bled through and unreadable, so **date, the child's name Nikola and the mother's surname are the index's**, matched by father, village and position); the **30 December 1718** entry reads «Baptisatus est Michael filius leg. **Petri Jargat** et Catharina nata Car; patrini Joannes Juanich et Margaretha nata Benich».
+
+**What it changes.**
+
+* **If the two spellings are one surname**, the Mrežnica Nicolaus Gergacz (children 1740, 1745), the Joannes and Anna Gergath of 1745 and the Michael Gergach of 1756 belong to a family **already at Mrežnica for a generation before them**, not an incomer. If they are two surnames, the Jargat are a separate long-standing family and the Gergacz remain unexplained.
+* **Nikola Jargat, baptised 18 November 1718**, is the one baptism of a Nicolaus in the right years. He would be **21 at Petrus's baptism (1740)** and **64 years 11 months at the Karlobag Nicolaus's death on 30 October 1783**, where the death record says «aged 66» (born about 1717; ages in these registers are rough). **That is a candidate, not an identification**: no document says that the Nikola of 1718, the Nicolaus of 1740 and 1745, and the Nicolaus of Karlobag are one man; a Nicolaus with this surname could also have been baptised in the years 1724–1739 not yet read, or before 1718 in the book that is missing (the film's births start in October 1718).
+* **The marriage and death searches above looked for «Gergacz»-type spellings only.** They must be repeated for **Jargat / Jergat / Gergat**: the Mrežnica marriage book 1726–1761 and the deaths 1728–1759 may carry the family under the older spelling.
+* **The Karlobag Antonius** (groom of 1769, born 1748 or earlier) is not an indexed baptism at Karlobag (no Karlobag record under any of these spellings before 1779), and was not baptised at Mrežnica after July 1745 (read). If Nicolaus left Mrežnica after Anna's baptism (July 1745), **Antonius may have been baptised at Karlobag in 1746–48**, in a book that has been read for Uroda and Bacchi but never for this name: the next test.
+
+**Limits.** The 1718–19 pages are badly bled through (writing from the other side shows through) and **image 10 is a faint, show-through leaf not read at this scale**; images 7, 8, 9, 11 and 12 were read for the surname at about 0.6 of source size only. Nothing here connects the Mrežnica Jargat to Karlobag.
+
+### Correction and extension, same day: what the pages and the index say about Jargat
+
+**Read on the page, images 1–29 (October 1718 to 10 March 1721), every page, sheets at about 0.6 of source size.** Images 1–6 are film targets; the register begins on image 7 (a 1718 hand, badly bled through; image 10 a faint show-through leaf, not read). The hand from March 1719 is clear. **Jargat/Jargats entries seen: 18 Nov 1718 (Lovro's son), 30 Dec 1718 (Petar's son Michael), 28 Nov 1719 (Petar Jargat × Kate Car, as indexed), 5 Jan 1720 (a Joannes Jargat as godfather), 10 Jun 1720 («Joannis Jargats et Catharina»; Petrus), 5 Aug 1720 («Laurentij Jargats et Catharina»; Laurentius) and an August 1720 «Michael Jugats [Jargats]» household.** In 1720 the scribe writes the final **-ts** plainly, so the 1740–45 «Gergacz/Gergach/Gergath» is a different ending written by a different hand; **no entry in images 1–29 has a G-initial Gergacz**. Nothing here is an Antonius.
+
+**The index shows the Jargath family at Mrežnica long after 1723**: «Jargath» (exact) has **70 records**, baptisms at Mrežnica in **1730, 1743 (Nicolaus, son of Joannis Jargath × Catharina Czvilak, 26 July 1743), 1763, 1773, 1812, 1814, 1817, 1830, 1841, 1846**; no Antonius. So the family is **continuous at Mrežnica to the 1800s as Jargat/Jargath**, a separate and long line. **The Nicolaus Jargath of 26 July 1743 falls in images 140–215, which I read for Gergacz-type spellings only**: he is a child of a Joannes, not the father Nicolaus sought, but the earlier reads (1735–1761 births, marriages, deaths) did not look for Jargat/Jargath and **must be redone for that spelling** before the Mrežnica negatives mean more than «no Gergacz». The **Gergacz** index spelling (492 records) is broad and mostly elsewhere.
+
+**What this does to the earlier paragraph.** I wrote that the first letter «is drawn like a J» so the two spellings are one surname. The 1718 scribe's initial is J-like; the 1745 «Gergath» godparents' initial, on the full-resolution crop, is G. **So the identity of the two surnames is open.** Nikola Jargat (b. 18 Nov 1718) therefore remains one candidate among a Jargat family at Mrežnica, not a lead toward the Karlobag Nicolaus.
+
+**Still unread:** births images 30–139 (March 1721 – November 1735); and the Karlobag births 1746–48, which a rate-limit of the image service (HTTP 429 on tiles from about 20:25 on 18 October; the index API still answered) stopped me downloading.
+

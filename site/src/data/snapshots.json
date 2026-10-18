@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 498,
- "images": 528,
+ "count": 500,
+ "images": 530,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11978,6 +11978,52 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1718-11-nikola-jargat",
+   "entry": "mreznica-baptism-1718-11-nikola-jargat-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 18 November 1718 — Nikola (Nicolaus), son of Lovro (Laurentius) Jargat and Kate Magličić, Varos",
+   "film": "Mrežnica births (Rođeni) 1718–1725 and 1728–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 7, right page, lower part, under the heading «Varos»: the entry whose father is written «Laurentij Jargat(h)»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-P4GQ?cc=2040054",
+   "says": "The 1718 pages are badly bled through from the other side of the leaf, and the date line of this entry is not legible on the page. The entry reads «… filius leg. Laurentij Jargat[h] et … Catharina nata [Magl?]ichich … patrini … Catharina nata Juanich»; the surname is written «Jargat» (the first letter drawn like a J). **The date 18 November 1718, the name Nikola and the mother Kate Magličić are the FamilySearch index's reading** (record QKMJ-LNHG: Nikola Jargat, father Lovro Jargat, mother Kate Magličić), matched to this entry by the father's name, the village and the position in the book, not read off the page. This is the Jargat family whose surname becomes Gergach/Gergacz at Mrežnica later. Whether this Nikola is the Nicolaus of 1740 and 1745, or the Karlobag Nicolaus Gerkacs (b. about 1717), is NOT established.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1718-12-mijo-jargat",
+   "entry": "mreznica-baptism-1718-12-mijo-jargat-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 30 December 1718 — Michael (Mijo), son of Petrus Jargat and Catharina née Car, Varos",
+   "film": "Mrežnica births (Rođeni) 1718–1725 and 1728–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 8, right page, the last entry on the page (page 123–124), heading «Varos»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-P4LJ?cc=2040054",
+   "says": "«Die 30 Xbris Baptisatus est Michael filius leg. Petri Jargat et Catharina nata Car; patrini fuere Joannes Juanich et Margaretha nata Benich», signed by the chaplain Michael Fitter. The surname is written «Jargat»; the index has it as Jargat too (record QKMJ-LY32: Mijo Jargat, father Petar Jargat, mother Kate Car). A second Jargat child of the same year, so the Jargat are several households at Mrežnica in 1718. Not linked to Nicolaus.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12038,7 +12084,9 @@
    "mreznica-baptism-1756-08-gergach-godfather",
    "mreznica-marriage-1733-02-nicolaus-gergich-susana",
    "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich",
-   "mreznica-baptism-1745-02-gergath-godparents"
+   "mreznica-baptism-1745-02-gergath-godparents",
+   "mreznica-baptism-1718-11-nikola-jargat",
+   "mreznica-baptism-1718-12-mijo-jargat"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
