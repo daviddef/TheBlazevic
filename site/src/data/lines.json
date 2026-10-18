@@ -2,7 +2,7 @@
  "sets": [
   {
    "name": "Uroda",
-   "dek": "Six groups of one surname — three at Karlobag, one dead man of Šibenik, and a soldier's family at Drniš and another at Betina. Only the top lane is ours, and the joins between the others are drawn dotted because no document makes them.",
+   "dek": "Five groups of one surname — two at Karlobag, one dead man of Šibenik, and a soldier's family at Drniš and another at Betina. Only the top lane is ours, and the joins between the others are drawn dotted because no document makes them.",
    "lanes": [
     {
      "key": "georgius",
@@ -331,21 +331,21 @@
      "to": "dume",
      "conf": "inferred",
      "label": "father or namesake?",
-     "href": "/lines/#dume"
+     "href": "/lines/#uroda-dume"
     },
     {
      "from": "dume",
      "to": "georgius",
      "conf": "inferred",
      "label": "the 1742 son?",
-     "href": "/lines/#dume"
+     "href": "/lines/#uroda-dume"
     },
     {
      "from": "sibenik",
      "to": "drnis",
      "conf": "lore",
      "label": "same district",
-     "href": "/lines/#drnis"
+     "href": "/lines/#uroda-drnis"
     }
    ],
    "unplaced": [
@@ -767,7 +767,7 @@
     ]
    },
    "slug": "uroda",
-   "eyebrow": "Uroda — six groups, one surname",
+   "eyebrow": "Uroda — five groups, one surname",
    "note": "<strong>One spelling is not a search.</strong> The registers write <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index reads one Karlobag father as <em>Sime</em>, spells Dume's children <em>Urode</em> (so a search for <em>Uroda</em> misses them), and reads one Drniš father four ways (<em>Janpao, Ganpas, Pompio, Tomaso</em>) where the pages say <em>Pampao</em> and <em>Pompeo</em>. At Karlobag in 1734 a priest writes <strong>«Dume urode alliti Kovaca»</strong> — a by-name, a smith's — and before the 1730s the book has <em>no</em> Uroda at all, so a baptism of the man himself would sit under another surname. See <a href=\"{{base}}/by-names/\">The Second Name</a>.",
    "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, not in the Šibenik cathedral marriage book 1752–1770 nor the Dolac parish marriage book 1752–1764, both read entry by entry; perhaps Varoš before 1764, whose book begins only that year, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong>: all three Dolac baptism books (1685–1700, 1701–1731 and 1731–1762) are now read through — no baptism of a Georgius, Dominicus or Dume Uroda, but a Dominicus «son of Magister Georgius» (1746, the Dolac marriage book) and «son of the late Georgius» (1757); the Dolac marriage book 1701–1764 is read to its end (no marriage of Georgius, Dominicus or Dume); the Dolac deaths book is read for September 1738 – March 1756 (Franciscus died 15 Nov 1738) (Georgius died 17 August 1754; a Magister Antonius with daughters buried 1742; a Lucia, widow of a Magister Dominicus, 1746) but not for 1738–1740, 1754–1757 or before 1738; the cathedral births are read only as a margin scan for 1693–1702 (which found Georgius's own baptism, 6 Oct 1694, and his brother Simeon) and 1737–1744 (which found two more children of Dominicus and Flora); still to read are the cathedral births 1702–1737 and after 1740 and before 1693, and the Varoš births (1711–1767), where the baptism of a Georgius or a Dominicus, or of a «Georgius filius Dominici», would say whose son Georgius of Karlobag is (the Betina and Drniš ones have been opened and are other families)."
   },
