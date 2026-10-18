@@ -59,6 +59,7 @@ const soleParent = households.filter((h) => !h.spouse).length;
    MyHeritage export, not about the evidence. */
 const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }));
 const everyone = descentOf(keys, new Set(line.map((g) => g.id)), FOUND.rows || [], pred);
+const regRows = everyone.filter((r) => String(r.confidence || "").startsWith("parish register")).length;
 
 /* ---- THE AUTO FAMILIES: everything below is read off the archive's data -------------------
    Nothing in this block is a claim of its own. The people are the published people of the
@@ -317,7 +318,8 @@ const cut = (s, n = 320) => { s = String(s || ""); if (s.length <= n) return s;
 
   <section class="blk">
     <h2>Everyone of the name</h2>
-    <p class="dek">All <strong>{everyone.length}</strong> people this archive holds of the name,
+    <p class="dek">All <strong>{everyone.length}</strong> people this archive holds of the name{regRows > 0 && everyone.length - regRows === meta.count && <>
+    &mdash; the {everyone.length - regRows} published from the tree and {regRows} read out of a parish register and not in it</>},
     oldest first, in the shape the front page uses — the couple in two columns with a birthplace
     beside each name, the children beneath them, brothers and sisters under whichever of the two
     they belong to. <strong>Oldest first</strong>, which is the only order a family has, and
