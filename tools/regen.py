@@ -106,6 +106,7 @@ ORDER = [
     "readingsdata.py",
     "trovedata.py",
     "notelinks.py",
+    "build_records.py",
     "names_index.py",
 ]
 

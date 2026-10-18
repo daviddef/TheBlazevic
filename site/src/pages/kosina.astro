@@ -7,6 +7,7 @@ import K from "../data/kosina.json";
 import people from "../data/people.json";
 import D from "../data/kosina-descent.json";
 import people from "../data/people.json";
+import Rec from "../components/Rec.astro";
 // Kosina is not one of this archive's eight published surnames, so there is no
 // generated family page for them. FIVE OF THE TEN now have a person page all the
 // same: publication was changed on 21 September 2026 from surname to DESCENT, and
@@ -220,7 +221,7 @@ const descentRows = D.rows.map((r) => {
     <p class="lede">The 1888 marriage named the parish. This archive stopped at the border,
     because Croatian registers do. <strong>They did not have to: the Nadškofijski arhiv Ljubljana
     publishes its books free on Matricula, and the parish is there under its own name —
-    Kranj–Šmartin.</strong></p>
+    <Rec id="matricula-kranj-smartin">Kranj–Šmartin</Rec>.</strong></p>
     <blockquote class="note">Baptismal index, Kranj–Šmartin 1832–1870 —<br />
       <strong>104 — Martin Kozina — 64</strong>, under <strong>1841</strong></blockquote>
     <table class="kv" style="margin-top:1.3rem">
@@ -288,7 +289,7 @@ const descentRows = D.rows.map((r) => {
       daughter dead of measles at Oberfeichting 9 on 7 March 1864, <strong>aged eleven</strong> —
       born about 1853. Either a twin, a second child of the same year, or the same child read as a
       man.</p>
-      <p style="margin-top:.6rem"><strong>The baptismal page settles it.</strong> Book p. 130:
+      <p style="margin-top:.6rem"><strong>The baptismal page settles it.</strong> <Rec id="matricula-kranj-smartin-00886">Book p. 130</Rec>:
       <strong>19 September 1853 · Obr. Feichting · house 9 · FRANCISCA · ehelich</strong>, father
       <em>Johann Kozina, Hüblar</em>, mother <em>Ursula Sedej</em>, godparents Johann Pevc and
       Marina Dolenc — and <strong>the stroke stands in the MÄDCHEN column</strong>, with a dot in
@@ -337,7 +338,7 @@ const descentRows = D.rows.map((r) => {
     <strong>The entries from 1853 on spell the surname KOZINA with a z</strong>, which is the
     spelling the Senj priest reached for in 1888.</p>
     <p><strong>And what settles it is his marriage.</strong> The marriage register for 1816–1855
-    (sig. 00899) has a column headed <em>«Aeltern des Bräutigams»</em> — <strong>the groom's
+    (<Rec id="matricula-kranj-smartin-00899">sig. 00899</Rec>) has a column headed <em>«Aeltern des Bräutigams»</em> — <strong>the groom's
     parents</strong>. <strong>Find Johann's marriage and you have Gertraud's parents too, if she is
     his sister.</strong> The volume carries no index and runs to seventy-seven pages, so it is a
     scan rather than a lookup, and it is the next thing to do.</p>
@@ -399,7 +400,7 @@ const descentRows = D.rows.map((r) => {
 
     <h3 style="margin-top:2rem">And then their own marriage, which explains the houses</h3>
     <p>The 1780–1815 marriage book has no index either, so images 30–35 were cropped to the
-    <em>Bräutigam</em> column and read as strips. It is on image 33, under <strong>1800</strong>.</p>
+    <em>Bräutigam</em> column and read as strips. It is on <Rec id="matricula-kranj-smartin-00901-p33">image 33</Rec>, under <strong>1800</strong>.</p>
     <blockquote class="note"><strong>Den 27ten [8ber] · Feichting b. St. Joh. · 10</strong><br />
       <strong>FRANZ KOSINAR</strong>, katholisch, <strong>24</strong>, ledig<br />
       × <strong>MARIA DORTSHEN</strong>, katholisch, <strong>20</strong>, ledig<br />
@@ -425,7 +426,7 @@ const descentRows = D.rows.map((r) => {
     cross, because he could not write</strong>. A man of the same surname witnessing for a
     twenty-four-year-old groom is most likely his father or his brother, and this page said for a
     day that <em>nothing here says which</em>.</p>
-    <div class="note"><strong>His death says which.</strong> Mrliška knjiga 1812–1835, book p. 64:
+    <div class="note"><strong>His death says which.</strong> Mrliška knjiga 1812–1835, <Rec id="matricula-kranj-smartin-00894">book p. 64</Rec>:
       <strong>«1819, den 16ten April · Ober-Feichting · 14 · MATTHÄUS KOSINA ·
       <em>Keischler</em> · ALTER 45 · Rothlauf und Brand»</strong>.
       <span style="display:block;margin-top:.6rem"><strong>Forty-five in 1819 is born about 1774.
@@ -433,7 +434,7 @@ const descentRows = D.rows.map((r) => {
       <strong>so the man who could not sign his name in 1800 was Franz's brother, and he was
       twenty-six when he stood up for him.</strong></span></div>
     <p><strong>And the 1818 candidate is settled rather than merely moot.</strong> Her father —
-    read for a week as <em>«Lukas Ko[s]in…»</em>, house 12 — is on image 31 of this same book:
+    read for a week as <em>«Lukas Ko[s]in…»</em>, house 12 — is on image 31 of <Rec id="matricula-kranj-smartin-00901">this same book</Rec>:
     <strong><a href={u("/found/lukas-kosina/")}>«LUKAS KOSINA, katholisch, 29, ledig»</a>, married 1799</strong>, so born about 1770. A
     real man and a different household. <strong>The 1814 Gertraud is left with no rival.</strong></p>
     <div class="note" style="margin-top:1.1rem"><strong>And on 27 September 2026 he stopped being
@@ -453,7 +454,7 @@ const descentRows = D.rows.map((r) => {
       place name.</strong></span>
       <span style="display:block;margin-top:.6rem">The 1812–31 index also lists a
       <strong>«Kosina Marianna — 16»</strong> under 1813, which this page had reported as an entry
-      that page 16 would not yield. <strong>It yields it.</strong> Book p. 16:
+      that page 16 would not yield. <strong>It yields it.</strong> <Rec id="matricula-kranj-smartin-00885">Book p. 16</Rec>:
       <strong>«12 August 1813 · Haus 27 · MARIANNA · ehelich · Vater: LUKAS KOSINER,
       <em>Kaischler</em> · Mutter: LUZIA O[k]lin[t]sh»</strong>. Same father, same wife's given
       name, five years apart.</span>
@@ -563,7 +564,7 @@ const descentRows = D.rows.map((r) => {
 
     <p class="dek" style="margin-top:1.4rem"><strong>The scans are the archdiocese's, not ours</strong>,
     so they are transcribed here and linked rather than republished — index sig. <span class="mono">04632</span>
-    image 246, register sig. <span class="mono">00886</span> image 65, at
+    image 246, register <Rec id="matricula-kranj-smartin-00886-p65">sig. <span class="mono">00886</span> image 65</Rec>, at
     <span class="mono">data.matricula-online.eu</span>. </p>
   </section>
 
@@ -681,7 +682,7 @@ const descentRows = D.rows.map((r) => {
 
     <h3 id="maria-found" style="margin-top:2rem">Where Maria Dortschen's death is — 27 September 2026</h3>
     <p class="lede">The index said she was not in 1836–1869. <strong>The register says she is.</strong>
-    Book page 27, April 1841:</p>
+    <Rec id="matricula-kranj-smartin-00895">Book page 27</Rec>, April 1841:</p>
     <blockquote class="note"><strong>am 11. gestorben · am 13. begraben · OBERFEICHTING · 9</strong><br />
       <strong>MARIA KOSINA</strong>, <em>Auszüglerin</em> · katholisch · weiblich ·
       <strong>ALTER 60 Jahre</strong> · <em>Convulsionen</em> · versehen</blockquote>
@@ -870,7 +871,7 @@ const descentRows = D.rows.map((r) => {
     <div class="fix" style="margin-top:1.1rem"><h3>Her death, found by looking for the wrong name</h3>
       <p>This archive walked the 1890–1911 death register opening by opening looking for
       <strong>KOZINA</strong> and found her two children and not her. On 28 September it was walked
-      again for <strong>ČESEN</strong>. Book page 45, entry 33:</p>
+      again for <strong>ČESEN</strong>. <Rec id="matricula-kranj-smartin-03917">Book page 45</Rec>, entry 33:</p>
       <blockquote class="note"><strong>1895, April · 2. umrla, 3. pokopana · STRAŽIŠČE 84</strong><br />
         <strong>MARIJA ČESEN</strong>, <em>hišarja in sitarja žena</em> · katoliške · ženskega ·
         <strong>starost 35 let</strong> · <strong><em>OTROŠKA MRZLICA</em></strong> · previdena
@@ -897,7 +898,7 @@ const descentRows = D.rows.map((r) => {
 
     <div class="note" style="margin-top:1rem"><strong>And walking those two registers turned up two
       Kozina farming households nobody knew about.</strong> Neither volume has an index, so both were
-      read end to end — <strong>sig. 03918 from 1874, and sig. 03919 in full, all seventy-one
+      read end to end — <strong><Rec id="matricula-kranj-smartin-03918">sig. 03918</Rec> from 1874, and <Rec id="matricula-kranj-smartin-03919">sig. 03919</Rec> in full, all seventy-one
       openings</strong>.
       <span style="display:block;margin-top:.6rem"><strong>Three Kozina brides in twenty-five
       years.</strong> Mina in 1883; <strong>Franciška</strong>, daughter of <strong>Jožef Kozina,
@@ -953,12 +954,12 @@ const descentRows = D.rows.map((r) => {
     open rather than explained away.</p>
 
     <p class="dek" style="margin-top:1.4rem"><strong>The scans are the archdiocese's, not ours</strong>,
-    so they are transcribed here and linked rather than republished. Deaths 1812–1835, sig.
-    <span class="mono">00894</span>, images 4, 18, 33, 37 and 66; its index, sig.
-    <span class="mono">04634</span>, images 125–126. Baptisms 1812–1831, sig.
-    <span class="mono">00885</span>, images 4, 5, 9, 23, 43 and 55; its index, sig.
+    so they are transcribed here and linked rather than republished. Deaths 1812–1835, <Rec id="matricula-kranj-smartin-00894">sig.
+    <span class="mono">00894</span></Rec>, images 4, 18, 33, 37 and 66; its index, sig.
+    <span class="mono">04634</span>, images 125–126. Baptisms 1812–1831, <Rec id="matricula-kranj-smartin-00885">sig.
+    <span class="mono">00885</span></Rec>, images 4, 5, 9, 23, 43 and 55; its index, sig.
     <span class="mono">04631</span>, image 169. Deaths 1870–1890, sig. <span class="mono">03916</span>,
-    and 1890–1911, sig. <span class="mono">03917</span>, read opening by opening. All at
+    and 1890–1911, <Rec id="matricula-kranj-smartin-03917">sig. <span class="mono">03917</span></Rec>, read opening by opening. All at
     <span class="mono">data.matricula-online.eu</span>.</p>
   </section>
 
@@ -1076,12 +1077,12 @@ const descentRows = D.rows.map((r) => {
           <span class="tag">parish register · not yet in the family tree</span></td>
           <td class="dek mono">1896 — 1896</td>
           <td class="dek">Senj deaths, indexed · «Martin Kosina × Angjelina Kosina» ·
-            <span class="mono">ark 1:1:6B47-LG4G</span></td></tr>
+            <span class="mono"><Rec ark="1:1:6B47-LG4G">ark 1:1:6B47-LG4G</Rec></span></td></tr>
         <tr class="above"><td><a href={u("/found/josip-kosina/")}><strong>Josip Kosina</strong></a>
           <span class="tag">parish register · not yet in the family tree</span></td>
           <td class="dek mono">1896 — 1896</td>
           <td class="dek">Senj deaths, indexed · the same household ·
-            <span class="mono">ark 1:1:6B47-LGH2</span></td></tr>
+            <span class="mono"><Rec ark="1:1:6B47-LGH2">ark 1:1:6B47-LGH2</Rec></span></td></tr>
       </tbody>
     </table>
     <div class="note" style="margin-top:1.1rem"><strong>Two infants of one household, born and
@@ -1131,11 +1132,11 @@ const descentRows = D.rows.map((r) => {
         <tr><th>Gertraud Kosina</th><td>b. <strong>18 March 1814</strong>, Feichting house 10,
           Kranj–Šmartin. <strong>Mother of Martin.</strong>
           <span class="dek" style="display:block">Source: Krstna knjiga Kranj–Šmartin 1812–1831,
-          book p. 28 · NŠAL sig. 00885, image 15</span></td></tr>
+          book p. 28 · NŠAL <Rec id="matricula-kranj-smartin-00885-p15">sig. 00885, image 15</Rec></span></td></tr>
         <tr><th>Franz Kosinar</th><td>b. probably <strong>3 December 1775</strong> (S. Thomae 10); m. <strong>27 October
           1800</strong>. <strong>Father of Gertraud and Johann.</strong>
-          <span class="dek" style="display:block">Source: Poročna knjiga 1780–1815 · sig. 00901,
-          image 33</span></td></tr>
+          <span class="dek" style="display:block">Source: Poročna knjiga 1780–1815 · <Rec id="matricula-kranj-smartin-00901-p33">sig. 00901,
+          image 33</Rec></span></td></tr>
         <tr><th>Maria «Mina» Dortschen</th><td>b. about <strong>1780</strong>; m. 27 October 1800.
           <strong>Wife of Franz, and mother of at least six.</strong> <span class="dek" style="display:block">Same
           entry. Six clerks spell the surname six ways; four of them write <em>Dortschen</em> and
@@ -1143,30 +1144,30 @@ const descentRows = D.rows.map((r) => {
         <tr><th>Johann Kosina</th><td>b. about <strong>1802–03</strong>; m. <strong>6 January
           1833</strong> to Lucia Labornik. <strong>Son of Franz, brother of Gertraud.</strong>
           <span class="dek" style="display:block">Source: Poročna knjiga 1816–1855, book p. 35 ·
-          sig. 00899, image 37</span></td></tr>
+          <Rec id="matricula-kranj-smartin-00899-p37">sig. 00899, image 37</Rec></span></td></tr>
         <tr><th>Lucia Labornik</th><td>b. about <strong>1795</strong>; m. <strong>6 January
           1833</strong> to Johann, aged 38; <strong>d. 30 November 1850, aged 55</strong>.
           <strong>Johann's wife — not Martin's blood, but the woman keeping the house he was born
           in.</strong> <span class="dek" style="display:block">Sources: Poročna knjiga 1816–1855,
-          book p. 35 · sig. 00899, image 37. Mrliška knjiga 1836–1869, book p. 71 · sig. 00895,
+          book p. 35 · <Rec id="matricula-kranj-smartin-00899-p37">sig. 00899, image 37</Rec>. Mrliška knjiga 1836–1869, book p. 71 · <Rec id="matricula-kranj-smartin-00895">sig. 00895</Rec>,
           image 72.</span></td></tr>
         <tr><th>Matthäus Kosinar</th><td>b. about <strong>1774</strong>; witness at Franz's
           marriage 1800; <strong>d. 16 April 1819, aged 45</strong>, Oberfeichting 14.
           <strong>Franz's brother</strong> — the age proves the generation, not the parents, so he
           should go in as Franz's sibling with the doubt written down.
           <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 64 ·
-          sig. 00894, image 33</span></td></tr>
+          <Rec id="matricula-kranj-smartin-00894">sig. 00894</Rec>, image 33</span></td></tr>
         <tr><th>Elisabeth, Maria and Valentin Kosinar</th><td>Children of Franz and Maria,
           <strong>baptised 18 November 1812, 8 August 1815 and 15 February 1820</strong> and dead at
           five months, nine months and fourteen days. <strong>Gertraud's brother and sisters.</strong>
           <span class="dek" style="display:block">Sources: Krstna knjiga 1812–1831, book pp. 6, 44
-          and 108 · sig. 00885, images 4, 23 and 55. Mrliška knjiga 1812–1835, book pp. 6, 34 and 72
-          · sig. 00894, images 4, 18 and 37.</span></td></tr>
+          and 108 · <Rec id="matricula-kranj-smartin-00885">sig. 00885</Rec>, images 4, 23 and 55. Mrliška knjiga 1812–1835, book pp. 6, 34 and 72
+          · <Rec id="matricula-kranj-smartin-00894">sig. 00894</Rec>, images 4, 18 and 37.</span></td></tr>
         <tr><th>Margaretha Kosinar</th><td><strong>d. 14 March 1826, aged 45</strong>, an
           unmarried daughter of the cottage at Oberfeichting 9. <strong>Probably Franz's sister; unproven, and should go in
           as a note rather than a link.</strong>
           <span class="dek" style="display:block">Source: Mrliška knjiga 1812–1835, book p. 130 ·
-          sig. 00894, image 66</span></td></tr>
+          <Rec id="matricula-kranj-smartin-00894">sig. 00894</Rec>, image 66</span></td></tr>
       </table>
       <p class="dek" style="margin-top:.8rem">Once they are in the tree, their pills will go away
       by themselves on the next build and their names will point at <span class="mono">/people/</span>
@@ -1809,7 +1810,7 @@ const descentRows = D.rows.map((r) => {
   <section class="blk">
     <div class="note" style="margin-top:1.2rem"><strong>The reading that produced this household is
       written out in full.</strong> <code>notes/the-k-section-gave-a-household.md</code> is the
-      account of the evening the archive went to book page 34 for one woman's death and came back
+      account of the evening the archive went to <Rec id="matricula-kranj-smartin-00894">book page 34</Rec> for one woman's death and came back
       with ten people: what was cropped, at what magnification, in what order, and which readings
       were wrong first.
       <span style="display:block;margin-top:.6rem">It is kept because <strong>the method is the
@@ -1824,7 +1825,7 @@ const descentRows = D.rows.map((r) => {
     <strong>28 October 1775 and 22 January 1776</strong>. The 1603–1779 baptismal index (sig. 00872)
     was read end to end for 1772–1779 and has <strong>no Franz Kosinar</strong> in those years, and this
     page said so, adding that <em>not in the index</em> was all it could say.</p>
-    <div class="note"><strong>The register has him.</strong> Kranj–Šmartin baptisms (sig. 00883),
+    <div class="note"><strong>The register has him.</strong> Kranj–Šmartin baptisms (<Rec id="matricula-kranj-smartin-00883-p330">sig. 00883</Rec>),
       <strong>page 330, right-hand page, second entry</strong>: day <strong>3</strong>, Infans
       <strong>«Koskina Franciscus Xaverius»</strong>, Parentes <strong>«Lucas et Helena Kosina»</strong>,
       locus <strong>«S. Thomae», house 10</strong>. The month is December — the same spread's left page
@@ -1878,7 +1879,7 @@ const descentRows = D.rows.map((r) => {
     <h3 style="margin-top:2rem">And the last unknown woman in the house turns out to have owned it</h3>
     <p><strong>Ursula Sedej</strong> bore Johann three daughters and this archive knew nothing else
     about her — no age, no parents, no village. Her marriage to Johann is <strong>not</strong> in the
-    Kranj–Šmartin book: the 1816–1855 register was walked across book pages 66 to 71, April 1850 to
+    Kranj–Šmartin book: the <Rec id="matricula-kranj-smartin-00899">1816–1855 register</Rec> was walked across book pages 66 to 71, April 1850 to
     February 1853, and holds no Kozina. <strong>A marriage is celebrated in the bride's parish</strong>,
     so she came from outside — which was as far as the negative could take it.</p>
     <p>Then the <strong>1856–1881</strong> volume was walked in full for a different question, and
@@ -1927,7 +1928,7 @@ const descentRows = D.rows.map((r) => {
 
     <div class="fix" style="margin-top:1.2rem"><h3>Nova Oselica, opened the same evening — and it did
       not settle</h3>
-      <p>Eleven volumes, confirmed free on Matricula, no login. <strong>Neither register has a name
+      <p>Eleven volumes, confirmed free on <Rec id="matricula-nova-oselica">Matricula</Rec>, no login. <strong>Neither register has a name
       index</strong>, so this was a walk rather than a lookup, and it did not reach the end.</p>
       <p style="margin-top:.6rem"><strong>Sedej is confirmed as a real, resident family there.</strong>
       Gertraud Sedej and Catharina Sedej are mothers of two different brides marrying in
@@ -1943,7 +1944,7 @@ const descentRows = D.rows.map((r) => {
       Andreas Sedej in October 1826, so Maria Briz cannot be an earlier wife.)</strong></p>
       <p style="margin-top:.6rem"><strong>Ursula's own baptism was not found in that walk — and it
       was found on 8 October, in the volume before.</strong> <em>(Added 8 October 2026.)</em>
-      <strong>Nova Oselica, <em>Krstna knjiga 1785–1826</em> (sig. 01583), image 134:</strong>
+      <strong>Nova Oselica, <em>Krstna knjiga 1785–1826</em> (sig. 01583), <Rec id="matricula-nova-oselica-01583-p134">image 134</Rec>:</strong>
       «<em>Die 2da Octobris 1826. Ursula filia legitima Andreae Sedej rustici et ejus conjugis
       Gertrudis natae Roje</em> … <em>nata hodie mane hora 9ª</em>». <strong>Born and baptised 2
       October 1826</strong>, so her age of 46 in May 1873 is exact; <strong>the father is Andreas
@@ -1976,7 +1977,7 @@ const descentRows = D.rows.map((r) => {
       them</strong>, and <strong>a married woman is not always under her maiden name</strong> — and
       the five things still open.
       <span style="display:block;margin-top:.6rem">It matters to them for one reason above the
-      others: <strong>Kranj–Šmartin is on Matricula, free, and needs no login.</strong> Every other
+      others: <strong>Kranj–Šmartin is on <Rec id="matricula-kranj-smartin">Matricula</Rec>, free, and needs no login.</strong> Every other
       archive in this estate is waiting on FamilySearch for something. <strong>This parish is open
       right now.</strong></span></div>
 
@@ -2007,7 +2008,7 @@ const descentRows = D.rows.map((r) => {
         <a href={u("/found/petar-kasuniz/")}><strong>Petar Kasuniž</strong></a> and
         <a href={u("/found/marija-turina/")}><strong>Marija Turina</strong></a> as her father and
         mother. He died at <strong>thirty-four</strong>.
-        <span class="dek" style="display:block">Senj marriages, indexed · ark 1:1:X9D5-MWF2</span></td></tr>
+        <span class="dek" style="display:block">Senj marriages, indexed · <Rec ark="1:1:X9D5-MWF2">ark 1:1:X9D5-MWF2</Rec></span></td></tr>
       <tr><th>Oskar's wife</th><td><strong>Unnamed in the tree</strong>, though their son is in it —
         <strong>but named on a page of Oskar's own paybook as <a href="#paybook">Jelka, born Benci,
         of Marija Bistrica</a></strong> (16 October 2026). Where and when they married is still open.</td></tr>

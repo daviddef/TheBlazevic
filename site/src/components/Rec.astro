@@ -1,0 +1,18 @@
+---
+/* A citation that can be followed: <Rec id="karlobag-death-1834-maria-uroda">folio 52</Rec>. The words between the tags are
+ * the citation the page already had; this only wraps them in the link to the record (the linking standard, L3). The kit's
+ * Rec does the work; this wrapper hands it the archive's records table (src/data/records.json, written by
+ * tools/build_records.py from the data the archive already holds) and lets a FamilySearch record be named by its ark:
+ *
+ *   <Rec id="matricula-kranj-smartin-00899-p37">sig. 00899, image 37</Rec>
+ *   <Rec ark="1:1:6B47-LG4G">ark 1:1:6B47-LG4G</Rec>
+ *
+ * LINK-ONLY. No row of the table carries a plate, so no image is ever drawn: FamilySearch frames and Matricula pages are
+ * link-only everywhere in this archive. An id the table does not hold stops the build.
+ */
+import KitRec from "@daviddef/archive-kit/components/Rec.astro";
+import records from "../data/records.json";
+const { ark, id, ...rest } = Astro.props;
+const rid = ark ? "fs-" + String(ark).replace(/:/g, "-") : id;
+---
+<KitRec records={records} id={rid} {...rest}><slot /></KitRec>

@@ -7,6 +7,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import W from "../data/walls.json";
 import searched from "../data/searched.json";
+import Rec from "../components/Rec.astro";
 
 const karlobagWalls = Object.values(W.walls).filter((w) => w.parish === "Karlobag");
 const reachable = karlobagWalls.filter((w) => /in range/.test(w.label)).length;
@@ -130,26 +131,26 @@ const holding = searched.holdings.find((h) => h.parish === "Karlobag");
     <figure class="doc">
       <blockquote class="prose"><em>Maria uxor piscatoris Georgii Uroda annorum 45 … die 7ª hujus
       sepultum est Carlobagi in cœmeterio communi, confessa mihi Perxevich…</em></blockquote>
-      <figcaption class="mono dek">Karlobag deaths, folio 52 — 6 August 1834</figcaption>
+      <figcaption class="mono dek">Karlobag deaths, <Rec id="karlobag-death-1834-maria-uroda">folio 52</Rec> — 6 August 1834</figcaption>
     </figure>
     <p style="margin-top:1rem">The date is the tree's exactly. The age — <em>annorum 45</em>, born
     about 1789 — is the tree's exactly. And she is <strong><em>uxor</em>, not <em>vidua</em></strong>.
     Her husband was alive that day, which <strong>rules out the Georgius Uroda who died in 1808 and
     the one who died in 1817</strong> — the obvious answer, the one a hurried reader takes. It also
     gives ahnentafel 54 a trade nothing here knew: <strong><em>piscator</em>, a fisherman</strong>.</p>
-    <p class="note" style="margin-top:1rem"><strong>And he is still not dated.</strong> Folio 66,
+    <p class="note" style="margin-top:1rem"><strong>And he is still not dated.</strong> <Rec id="fs-film-005481649">Folio 66</Rec>,
     11 January 1846: <em>«Georgius Uroda annorum 72, piscator»</em> — same name, same trade, the only
     Georgius to die after his wife. But 72 in 1846 means born about <strong>1774</strong> against the
     tree's <strong>22 April 1777</strong>. Three years out, and this archive is not calling that a
     match.</p>
     <div class="note" style="margin-top:1rem"><strong>Two more ancestors read from the same book, on
     7 October 2026 — and neither is clean.</strong>
-    <span style="display:block;margin-top:.5rem"><strong>Ahnentafel 52</strong>, page 35: <em>«Josephus
+    <span style="display:block;margin-top:.5rem"><strong>Ahnentafel 52</strong>, <Rec id="karlobag-death-1828-pilepich">page 35</Rec>: <em>«Josephus
     Pilepich Carlobagensis annorum 61»</em>, found through the index under P. The register gives
     <strong>28 June 1828</strong> in the margin and the index agrees; the burial is the 29th. <strong>The
     tree has 26 June.</strong> It is a probable match and not a proven one — the entry names no wife
     or parent.</span>
-    <span style="display:block;margin-top:.5rem"><strong>Ahnentafel 111</strong>, page 12: <em>«Lucia,
+    <span style="display:block;margin-top:.5rem"><strong>Ahnentafel 111</strong>, <Rec id="karlobag-death-1809-lucia-maja">page 12</Rec>: <em>«Lucia,
     vulgo Maja, uxor Michaelis Gergacs, annorum 34»</em>, <strong>19 September 1809</strong> — the
     tree's day, by-name and husband, <strong>but an age that would have her marry at ten in 1785</strong>.
     She is not in the index under Tomljanović, because a wife is indexed under her husband's name: she
@@ -204,7 +205,7 @@ const holding = searched.holdings.find((h) => h.parish === "Karlobag");
     <p class="lede">This archive carried the Urode as fishermen. In the 1770s they were
     nothing of the kind.</p>
 
-    <p><strong>Ahnentafel 54's own baptism, read at the page.</strong> Karlobag, folio 36/37,
+    <p><strong>Ahnentafel 54's own baptism, read at the page.</strong> Karlobag, <Rec id="karlobag-baptism-1777-uroda">folio 36/37</Rec>,
     <em>Anno Dñi 1777</em>, under <em>Aprilis</em>:</p>
     <blockquote><p><em>Ego <strong>Joës Antonius Ivankovich, Parochus Loci</strong>, baptizavi
     Infantem <strong>heri natum</strong> ex <strong>Georgio, et Maria Uroda, Conjugibus, hujus
@@ -218,7 +219,7 @@ const holding = searched.holdings.find((h) => h.parish === "Karlobag");
     <em>Pro-Colonellus</em> to stand for a fisherman's son.</p>
 
     <p><strong>The father died in his own crypt.</strong> The death index of 1774–1804 — a book
-    nobody here had opened — carries six Urode, and folio 67 of the register, <em>Anno Domini
+    nobody here had opened — carries six Urode, and <Rec id="karlobag-death-1791-uroda">folio 67</Rec> of the register, <em>Anno Domini
     1791</em>, says why the style mattered:</p>
     <blockquote><p><em><strong>Dñus Georgius Uroda</strong>, munitus omnibus Sacramentis,
     [in domo] sua obiit, atque die <strong>12ᵃ</strong> sepultus est <strong>in propria [sua
