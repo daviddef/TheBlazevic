@@ -12871,6 +12871,15 @@
    "why": "«recordsearch.naa.gov.au» is National Archives of Australia — RecordSearch, which this atlas holds, but the link names no waypoint it can pin a volume to"
   },
   {
+   "archive": "Falco Family",
+   "src": "**FAMILYSEARCH — Italy, Benevento, Civil Registration (State Archive), 1810–1942, the BROWSE TREE walked from the collection root to Forchia",
+   "url": "https://www.familysearch.org/en/search/image/index?owc=https://www.familysearch.org/service/cds/recapi/collections/2475030/waypoints",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Lerena Family",
    "src": "",
    "url": "",
@@ -14041,6 +14050,15 @@
    "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
   },
   {
+   "archive": "Lerena Family",
+   "src": "FamilySearch full-text search - \"Pedro Lerena\" \"Teresa Leonor\", filtered to Uruguay; the Montevideo Marriage Dispensation Records and the ex",
+   "url": "https://www.familysearch.org/search/full-text",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Luwinski Family",
    "src": "Genealogia w Archiwach — USC Szubin Miasto, marriages 1874 (sygn. 141, 6/1792/0/2.2/141), scan 10, read at the image through the Loris IIIF ",
    "url": "https://www.genealogiawarchiwach.pl/",
@@ -14399,6 +14417,33 @@
    "host": "findmypast.com.au",
    "provider": "findmypast",
    "why": "«findmypast.com.au» is Findmypast, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeBMD — the March 1851 marriage page at Hitchin, and two deaths",
+   "url": "https://www.freebmd.org.uk/cgi/search.pl",
+   "sourceMarked": true,
+   "host": "freebmd.org.uk",
+   "provider": "freebmd",
+   "why": "«freebmd.org.uk» is FreeBMD / FreeREG / FreeCEN, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeCEN — the 1851 census of Hertfordshire, Wallis and Field born in the county",
+   "url": "https://www.freecen.org.uk/search_queries/new",
+   "sourceMarked": false,
+   "host": "freecen.org.uk",
+   "provider": null,
+   "why": "no provider in this atlas claims «freecen.org.uk» — add it to data/providers.json, or to `hosts` on the provider that owns it if it is a regional site"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeREG — Weston Holy Trinity baptisms and marriages, 1815 to 1851, Wallis and Field",
+   "url": "https://www.freereg.org.uk/search_queries/new",
+   "sourceMarked": true,
+   "host": "freereg.org.uk",
+   "provider": "freereg",
+   "why": "«freereg.org.uk» is FreeREG, which this atlas holds, but the link names no waypoint it can pin a volume to"
   },
   {
    "archive": "Mazza Family",
@@ -18107,6 +18152,13 @@
    "src": "FamilySearch — Otočac Deaths 1780–1836 (the census film), images 264–266: the 1821 burials of Maria ",
    "segment": "264, 266 (265 looked at as a spread)",
    "why": "not counted as read: «looked at»",
+   "tiedToVolume": true
+  },
+  {
+   "archive": "Blazevic Family",
+   "src": "FamilySearch — Mrežnica births 1728–1761 and 1762–1789 (waypoint 9R2M-C6D): the two Gergacz entries ",
+   "segment": "330-344 (Dec 1759 - 18 Oct 1761)",
+   "why": "year-like, not a page: 1759 - 18",
    "tiedToVolume": true
   },
   {

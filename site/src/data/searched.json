@@ -9,7 +9,7 @@
  ],
  "counts": {
   "blocked": 4,
-  "nothing": 49,
+  "nothing": 50,
   "partial": 48,
   "pending": 6,
   "yield": 151
@@ -5614,6 +5614,29 @@
     [
      "/corrections/",
      "Corrections"
+    ]
+   ]
+  },
+  {
+   "src": "FamilySearch — Mrežnica births 1728–1761 and 1762–1789 (waypoint 9R2M-C6D): the two Gergacz entries and a read of 1759–1762 for a Nicolaus's children",
+   "key": "fs/mreznica-gergacz-read-2026-10-18",
+   "what": "Whether the Mrežnica Nicolaus Gergacz (children 1740, 1745) is the Karlobag Nicolaus Gerkacs's family: more children, Antonius or Michael",
+   "when": "18 Oct 2026",
+   "outcome": "nothing",
+   "tags": [
+    "gerkacs",
+    "karlobag",
+    "mreznica",
+    "familysearch"
+   ],
+   "waypoint": "9R2M-C6D",
+   "pages": "182, 215 (the indexed entries); 330-344 (Dec 1759 - 18 Oct 1761); 474-479 (May-Dec 1762)",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCJX?cc=2040054",
+   "got": "Kept as [snapshots](/snapshots/#mreznica-baptism-1740-11-petrus-gergacz) and [snapshots](/snapshots/#mreznica-baptism-1745-07-anna-gergacz). The two entries read at the page: Petrus, 29 Nov 1740, village Petrakovo Berdo; Anna, 7 July 1745, village Belaj (so two villages, and the mother's name written Veiknich then Verbanich). **No other Gergacz child of a Nicolaus in the pages read** (Dec 1759 - Oct 1761 and May - Dec 1762, every entry). **The births book 1728-1761 ends 18 Oct 1761 and the 1762-1789 book begins May 1762 after a «Torn page(s)» target**, so the baptisms of Oct 1761 - April 1762, where a Michael of about 1762 would be, are in neither book as filmed (the film note says a few births are misbound near the end of the 1762 book, not read). **Not read: the births of 1746-1759**, where an Antonius would be. Nothing links the Mrežnica Nicolaus to Karlobag. Note: notes/gergacs-nicolaus-origin-index-search.md.",
+   "ev": [
+    [
+     "/karlobag/",
+     "Karlobag"
     ]
    ]
   }
