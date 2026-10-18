@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 492,
- "images": 521,
+ "count": 494,
+ "images": 523,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11840,6 +11840,52 @@
    "captured": "17 October 2026",
    "note": "notes/otocac-death-1843-anna-kraljic.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-death-1843-anna-kraljic.md"
+  },
+  {
+   "id": "mreznica-baptism-1740-11-petrus-gergacz",
+   "entry": "mreznica-baptism-1740-11-petrus-gergacz-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 29 November 1740 — Petrus, son of Nicolaus «Pergáer» (Gergacz) and Margarita née «Veiknich», Petrakovo Berdo",
+   "film": "Mrežnica births (Rođeni) 1728–1761 and 1762–1789 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 182, left page, foot: the entry under «Pechurkovs Berdo», «Die 29 Baptizavi Petrum filium Nicolai …»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCJX?cc=2040054",
+   "says": "«Die 29 Baptizavi Petrum filium Nicolai Pergáer et Margarita nata Veiknich coniugum. PP. Joannes Sitschak et Barbara Silischka»: the index reads the surname Gergacz and the mother Veiknich. The month is not on the line: November is from the index and from the page standing before the December heading. The 1740 hand is dense and the surname is read in a form («Pergáer») that is not certain. No link to the Karlobag Gerkacs is established.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1745-07-anna-gergacz",
+   "entry": "mreznica-baptism-1745-07-anna-gergacz-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 7 July 1745 — Anna, daughter of Nicolaus Gergacz and Margarita née Verbanich, Belaj",
+   "film": "Mrežnica births (Rođeni) 1728–1761 and 1762–1789 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 215, right page, top (page 144): the entry under «Bellai», «Die 7 Julij»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PCRV?cc=2040054",
+   "says": "«Die 7 Julij Baptizata est filia Anna legitima Nicolai Gergach et Margaritha nata Verbanich coniugum. PP. Mathias Polya et Barbara Stischak»: the second known child of this couple; the village is Belaj, not Petrakovo Berdo as in 1740, and the mother's maiden name is written differently (Verbanich, not Veiknich). No link to the Karlobag Gerkacs is established.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -11894,7 +11940,9 @@
   ],
   "nicolaus-gerkacs": [
    "karlobag-marriage-1785",
-   "karlobag-death-1783-gerkacs"
+   "karlobag-death-1783-gerkacs",
+   "mreznica-baptism-1740-11-petrus-gergacz",
+   "mreznica-baptism-1745-07-anna-gergacz"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
