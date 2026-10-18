@@ -50,3 +50,19 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 * **A Michael Gergach in 1756** (the godfather above) is an adult at Mrežnica eleven years after Anna's baptism: a brother of Nicolaus, a son of another Gergacz, or a relative of the Milchich mother Dorothea. He is a lead for a Gergacz line there, **not for the Karlobag Michael, born about 1762**.
 * **A relative, not a child:** the index and these pages show a **Dorothea Gergacz, wife of Joannes Milchich of Vellemerich**, with children baptised 1752, 1754 and 1756, and a **Margarita Gergacz, wife of Joannes Thomasich**, with a child of 1766. Nothing says how they relate to Nicolaus; they show that the surname existed at Mrežnica beyond his household.
 * **A different line to test:** the death of a Nicolaus Gergacz at Mrežnica (Deaths 1726–1759 are images about 400–470: image 466 is a death page of 1756) would say whether Nicolaus was still there after 1745.
+
+
+## The Mrežnica marriages, January 1726 to November 1744, 18 October 2026
+
+**What was read.** The marriages 1726–1761 of waypoint 9R2M-C6D begin at **image 346** (a first page headed «1726»); **images 346–374, every page, both pages of each image, January 1726 to the end of 1744**, were read by eye from sheets at about 0.6 of source size (the marriage hand is much clearer than the births of the 1740s). The aim was Nicolaus Gergacz's marriage to **Margarita** (their children of 1740 and 1745), and any marriage of an Antonius, Michael or other Gergacz.
+
+**Result.**
+
+* **No marriage of a Nicolaus Gergacz (any spelling) to a Margarita, in 1726–1744.** So the couple's marriage, which must be before November 1740 (Petrus's baptism), is **not in the marriage book as filmed**: it was before 1726, or elsewhere, or under a spelling not recognised. If before 1726, **Nicolaus was born in the 1690s–1700s, not about 1717**, which is the age the Karlobag death record gives the Karlobag Nicolaus (d. 1783, aged 66).
+* **One near miss, not a match:** **2 February 1733, Vellemerich (image 358, left page)**: «Copulati sunt **Nicolaus Gergich** cum Susana [surname not read], praesent. Joanne Geherich [?] et Margarita Milchich» ([snapshot](/snapshots/#mreznica-marriage-1733-02-nicolaus-gergich-susana)). The surname is written «Gergich», a form that could be a fast **Gergacz**; the bride is **Susana**, not Margarita. It is either another Nicolaus or the same man's **first marriage**, with Margarita a second wife. **Not established.**
+* **A different surname to keep apart:** **Gerginchich** / **Gergurich** (Mrežnica, 1730s–1740s: e.g. «Nicolaus Gerginchich et Helena Prakovich», 19 November 1743, image 373; «Michael Gerginchich cum Helena», 1732) is not Gergacz.
+* **No Gergacz groom or bride of any other name** in the pages read.
+
+**What it does not show.** The marriages 1745–1761 (images 375 to about 430), the deaths 1726–1759 and the Mrežnica births after 1762 are not read, and the reading was at reduced scale, not entry by entry at full size.
+
+**What it adds to the question.** The Mrežnica Nicolaus **married before 1726, or not at Mrežnica**: if before 1726 he is **too old** to be the Karlobag Nicolaus (b. about 1717), which is a reason to doubt the link. A **Nicolaus Gergich who married a Susana in 1733** is the nearest thing in the book to a first marriage of a man of the right age. Nothing ties either to Karlobag.

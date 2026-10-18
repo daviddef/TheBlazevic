@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 495,
- "images": 524,
+ "count": 496,
+ "images": 525,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11909,6 +11909,29 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-marriage-1733-02-nicolaus-gergich-susana",
+   "entry": "mreznica-marriage-1733-02-nicolaus-gergich-susana-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 2 February 1733 — Nicolaus «Gergich» marries Susana, Vellemerich",
+   "film": "Mrežnica marriages (Vjenčani) 1726–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 358, left page, lower half, page 283–284, under the heading «Vellemerich»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PCMD?cc=2040054",
+   "says": "«Die 2 Febr. Copulati sunt Nicolaus Gergich cum Susana [surname illegible] praesent. Joanne Gehevich [?] et Margarita Milchich per [parochum]»: a Nicolaus whose surname is written «Gergich» (a form that could be Gergacz written fast) marries a Susana at Vellemerich in 1733. The Mrežnica Nicolaus Gergacz of 1740 and 1745 has a wife Margarita (Veiknich/Verbanich), so this is either another man or a first wife (Susana) before Margarita. The bride's surname is not read. Not established as the same man.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -11966,7 +11989,8 @@
    "karlobag-death-1783-gerkacs",
    "mreznica-baptism-1740-11-petrus-gergacz",
    "mreznica-baptism-1745-07-anna-gergacz",
-   "mreznica-baptism-1756-08-gergach-godfather"
+   "mreznica-baptism-1756-08-gergach-godfather",
+   "mreznica-marriage-1733-02-nicolaus-gergich-susana"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
