@@ -39,10 +39,14 @@ WHO IS INDEXED (people[]). A person who
   * has a name of two words or more. A bare given name is never indexed.
   The living are never indexed, and a name a living person bears is not indexed either: it is left plain.
 
-WHAT IS AMBIGUOUS (ambiguous[]). A name that two or more people with a /people/ page bear, every bearer of whom is a
-dead person of the tree (no living bearer, no register find), AND whose bearers are exactly the people listed on one
-name page, /who/<slug>/ (src/pages/who/[slug].astro: everyone whose full name has that slug). The name is sent to that
-page. The people table's search (/people/?q=) was tried first and rejected: it does not fold accents, so «Ana
+WHAT IS AMBIGUOUS (ambiguous[]). A name that two or more people with a page bear, every bearer of whom is a dead person
+of the tree OR a register find whose NAME FIELD IS A NAME (a clean find: the same test as above, and old enough to be
+certainly dead), AND whose bearers are exactly the people listed on one name page, /who/<slug>/ (src/pages/who/[slug].astro:
+everyone whose full name has that slug, and under them the clean finds of that name, from src/data/who-finds.json, which
+this tool writes). The name is sent to that page. A name that a descriptive find also bears («Marija Borić, wife of ...»),
+a living person bears, or a find from 1900 on bears is left plain: 716 of the 861 finds have no clean name field, and the
+tool never splits a description into a name (18 October 2026, the linking standard's L2). A name borne only by finds gets
+no name page (the page exists for names the tree or the living list holds). The people table's search (/people/?q=) was tried first and rejected: it does not fold accents, so «Ana
 Blazevic» finds nobody who is written Blažević, and a name's bearers are rarely all written one way. A name that fails
 either test stays plain text.
 
@@ -71,6 +75,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "site", "src", "data")
 OUT = os.path.join(DATA, "names-index.json")
+WHOF = os.path.join(DATA, "who-finds.json")
 PRIVATE = os.path.join(os.path.dirname(ROOT), "private", "blazevic")
 LIVING_OUT = os.path.join(PRIVATE, "autolink-living.json")
 FEED = os.path.join(PRIVATE, "living-feed.json")
@@ -201,7 +206,8 @@ def committed_bearers():
             continue                                  # published as an ancestor under /people/
         out.append({"kind": "found", "slug": r["slug"], "url": "/found/%s/" % r["slug"], "name": r["name"],
                     "forms": variants({"name": r["name"]}) if plain_found_name(r["name"]) else set(),
-                    "claims": found_claims(r["name"]), "indexable": not found_year_late(r)})
+                    "claims": found_claims(r["name"]), "indexable": not found_year_late(r),
+                    "clean": plain_found_name(r["name"]), "date": r.get("date") or "", "place": r.get("place") or ""})
     for r in load("living.json"):
         out.append({"kind": "living", "slug": r["slug"], "url": "/people/%s/" % r["slug"], "name": r["name"],
                     "forms": variants({"name": r["name"]}), "indexable": False})
@@ -297,14 +303,16 @@ def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None):
         if len(idxs) < 2 or len(k.split()) < 2 or k in living_keys:
             continue
         bs = [bearers[j] for j in idxs]
-        if any(x["kind"] != "person" for x in bs):
+        # every bearer is a dead person of the tree or a clean, old find that writes this very name in its name field
+        if any(not (x["kind"] == "person" or (x["kind"] == "found" and x["indexable"] and x["forms"]
+                                              and any(fold(f) == k for f in x["forms"]))) for x in bs):
             stats["ambiguous_not_all_tree"] += 1
             continue
         if not usable(next(f for j in idxs for f in sorted(bearers[j]["forms"]) if fold(f) == k)):
             stats["unusable"] += 1
             continue
         pages = {slugify(x["name"]) for x in bs}
-        if len(pages) != 1 or who.get(next(iter(pages))) != {x["slug"] for x in bs}:
+        if len(pages) != 1 or who.get(next(iter(pages))) != {x["url"] for x in bs}:
             stats["ambiguous_no_page"] += 1
             continue
         forms = {}
@@ -333,14 +341,39 @@ def slugify(s):
 
 
 def who_pages():
-    """slug -> set of person slugs listed on /who/<slug>/ (people.json and living.json, as the page does)."""
+    """slug -> set of addresses listed on /who/<slug>/: the people of people.json and living.json, as the page does, and
+    the clean, old finds of who_finds()."""
     out = {}
     for p in load("people.json") + load("living.json"):
         if p.get("name") and p.get("slug"):
             k = slugify(p["name"])
             if k:
-                out.setdefault(k, set()).add(p["slug"])
+                out.setdefault(k, set()).add("/people/%s/" % p["slug"])
+    for k, rows in who_finds().items():
+        out.setdefault(k, set()).update("/found/%s/" % r["slug"] for r in rows)
     return out
+
+
+def who_finds():
+    """slug of a name page -> the finds listed under the people of that name: a find with no ahnentafel number (it has a
+    /found/ page), whose name field is a name (plain_found_name) and which is certainly dead (no date from 1900 on). Only
+    for a name page that exists for another reason (a person of people.json or living.json bears the name): a name borne only
+    by finds gets no page. src/data/who-finds.json is this, written by this tool and read by the page."""
+    pages = set()
+    for p in load("people.json") + load("living.json"):
+        if p.get("name") and p.get("slug"):
+            k = slugify(p["name"])
+            if k:
+                pages.add(k)
+    out = {}
+    for r in load("found.json")["rows"]:
+        if r.get("ahn") or not r.get("slug") or not plain_found_name(r["name"]) or found_year_late(r):
+            continue
+        k = slugify(r["name"])
+        if k in pages:
+            out.setdefault(k, []).append({"slug": r["slug"], "name": clean(r["name"]), "date": r.get("date") or "",
+                                          "place": r.get("place") or ""})
+    return {k: sorted(v, key=lambda x: (x["name"], x["slug"])) for k, v in sorted(out.items())}
 
 
 def dumps(idx):
@@ -439,6 +472,10 @@ def cmd_write():
     idx, stats, bearers, ged = full_index()
     pub, _ = build(bearers)
     open(OUT, "w", encoding="utf-8").write(dumps(idx))
+    wf = who_finds()
+    open(WHOF, "w", encoding="utf-8").write(json.dumps(wf, ensure_ascii=False, indent=0, separators=(",", ":")) + "\n")
+    print("names  %d name pages list a clean find under the people of that name (%d finds)"
+          % (len(wf), sum(len(v) for v in wf.values())))
     print("names  %d people (%d aliases), %d ambiguous names (%d aliases); %s" % (
         stats["people"], stats["aliases"], stats["ambiguous"], stats["ambiguous_aliases"],
         "GEDCOM present: names a living, held-out or unpublished person also bears were dropped (%d, %d)"
@@ -494,12 +531,20 @@ def cmd_check():
     lnames = {fold(f) for b in bearers if b["kind"] == "living" for f in b["forms"]}
     liv = sum(1 for r in have["people"] + have["ambiguous"]
               if r["url"] in living or any(fold(n) in lnames for n in [r["name"]] + r.get("aliases", [])))
+    bad = 0
+    wf_want = who_finds()
+    try:
+        wf_have = json.load(open(WHOF, encoding="utf-8"))
+    except (OSError, ValueError):
+        wf_have = None
+    if wf_have != wf_want:
+        print("  FAIL  src/data/who-finds.json is not what the committed data derives (run tools/names_index.py)")
+        bad = 1
     if not have["people"]:
         print("names-index  EMPTY: a check that examined nothing has not passed")
         return 1
     print("names-index  %d people, %d ambiguous in the committed file; the committed-data re-derivation holds %d, %d"
           % (len(have["people"]), len(have["ambiguous"]), len(want["people"]), len(want["ambiguous"])))
-    bad = 0
     if extra:
         print("  FAIL  %d name or alias in the committed index is not derivable from the committed data" % len(extra))
         bad = 1
@@ -515,7 +560,8 @@ def cmd_check():
 
 
 def selftest():
-    who = {"zzpero-zzkovic": {"c", "d"}}
+    who = {"zzpero-zzkovic": {"/people/c/", "/people/d/"}, "zzvida-zzlist": {"/people/k/", "/found/l/"},
+           "zzjosa-zzclaim": {"/people/m/", "/found/n/"}, "zzmila-zzlate": {"/people/o/", "/found/p/"}}
     bearers = [
         {"kind": "person", "slug": "a", "url": "/people/a/", "name": "Zzivo Zzakan", "forms": variants({"name": "Zzivo Zzakan"}), "indexable": True},
         {"kind": "person", "slug": "b", "url": "/people/b/", "name": "Zzmaria Zzakan", "forms": variants({"name": "Zzmaria Žžakan"}), "indexable": True},
@@ -527,6 +573,20 @@ def selftest():
         {"kind": "living", "slug": "h", "url": "/people/h/", "name": "Zzana Zzlive", "forms": variants({"name": "Zzana Zzlive"}), "indexable": False},
         {"kind": "found", "slug": "i", "url": "/found/i/", "name": "Zzdora Zzrecent", "forms": variants({"name": "Zzdora Zzrecent"}), "indexable": False},
         {"kind": "person", "slug": "j", "url": "/people/j/", "name": "Zzbara Zzunique", "forms": variants({"name": "Zzbara Zzunique"}), "indexable": True},
+        # a tree person and a CLEAN find of one name, both dead, on one name page: ambiguous, sent to the page
+        {"kind": "person", "slug": "k", "url": "/people/k/", "name": "Zzvida Zzlist", "forms": variants({"name": "Zzvida Zzlist"}), "indexable": True},
+        {"kind": "found", "slug": "l", "url": "/found/l/", "name": "Zzvida Zzlist", "forms": variants({"name": "Zzvida Zzlist"}),
+         "claims": found_claims("Zzvida Zzlist"), "indexable": True},
+        # the same, plus a DESCRIPTIVE find that bears the name («Zzjosa Zzclaim, wife of ...»): left plain, nothing is guessed
+        {"kind": "person", "slug": "m", "url": "/people/m/", "name": "Zzjosa Zzclaim", "forms": variants({"name": "Zzjosa Zzclaim"}), "indexable": True},
+        {"kind": "found", "slug": "n", "url": "/found/n/", "name": "Zzjosa Zzclaim", "forms": variants({"name": "Zzjosa Zzclaim"}),
+         "claims": found_claims("Zzjosa Zzclaim"), "indexable": True},
+        {"kind": "found", "slug": "q", "url": "/found/q/", "name": "Zzjosa Zzclaim, wife of Zzpero, died aged 40", "forms": set(),
+         "claims": found_claims("Zzjosa Zzclaim, wife of Zzpero, died aged 40"), "indexable": True},
+        # a find from 1900 on bears the name: the name stays plain (the living rule)
+        {"kind": "person", "slug": "o", "url": "/people/o/", "name": "Zzmila Zzlate", "forms": variants({"name": "Zzmila Zzlate"}), "indexable": True},
+        {"kind": "found", "slug": "p", "url": "/found/p/", "name": "Zzmila Zzlate", "forms": variants({"name": "Zzmila Zzlate"}),
+         "claims": found_claims("Zzmila Zzlate"), "indexable": False},
     ]
     idx, st = build(bearers, who=who)
     names = {r["url"]: r for r in idx["people"]}
@@ -536,6 +596,10 @@ def selftest():
         ("the accented spelling is an alias of its one bearer", "/people/a/" in names),
         ("two spellings of one name, two bearers: ambiguous, sent to the one name page", "zzpero zzkovic" in amb and idx["ambiguous"][0]["url"] == "/who/zzpero-zzkovic/" and "/people/c/" not in names and "/people/d/" not in names),
         ("a find and a tree man of one name: neither is unique", "/people/f/" not in names and "/found/e/" not in names),
+        ("a tree person and a clean old find of one name: ambiguous, sent to the one name page that lists both",
+         "zzvida zzlist" in amb and "/people/k/" not in names and "/found/l/" not in names),
+        ("a descriptive find that bears the name keeps it plain", "zzjosa zzclaim" not in amb and "/people/m/" not in names),
+        ("a find from 1900 on keeps the name plain", "zzmila zzlate" not in amb and "/found/p/" not in names and "/people/o/" not in names),
         ("a name a living person bears is left plain", "/people/g/" not in names and "zzana zzlive" not in amb),
         ("a recent find is not indexed", "/found/i/" not in names),
         ("no living address is indexed", "/people/h/" not in names),

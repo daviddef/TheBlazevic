@@ -6,6 +6,8 @@ import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import living from "../../data/living.json";
+import whoFinds from "../../data/who-finds.json";
+import NamesakesFinds from "../../components/NamesakesFinds.astro";
 
 export function getStaticPaths() {
   const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -22,11 +24,14 @@ export function getStaticPaths() {
     if (!by.has(k)) by.set(k, { name: p.name, rows: [] });
     by.get(k).rows.push(p);
   }
+  /* The finds listed under a name (src/data/who-finds.json, written by tools/names_index.py): people read out of a register
+     whose name field IS a name and who are certainly dead. They are listed for a name that is a page already; a name
+     borne only by finds gets no page. */
   return [...by.entries()].map(([slug, v]) =>
-    ({ params: { slug }, props: { ...v, allLiving: v.rows.every((r) => r.living) } }));
+    ({ params: { slug }, props: { ...v, finds: whoFinds[slug] || [], allLiving: v.rows.every((r) => r.living) } }));
 }
 
-const { name, rows, allLiving } = Astro.props;
+const { name, rows, finds, allLiving } = Astro.props;
 const listed = rows.map(p => p.living ? ({
   name: p.name, slug: p.slug,
   life: "living — named only",
@@ -38,12 +43,14 @@ const listed = rows.map(p => p.living ? ({
 }));
 ---
 <Base title={name} noindex={allLiving} noautolink={true}
-      eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
-      dek={rows.length > 1
-        ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`
+      eyebrow={rows.length + finds.length > 1 ? `${rows.length + finds.length} people of this name` : "One person of this name"}
+      dek={rows.length + finds.length > 1
+        ? `${rows.length + finds.length} different people in this archive were called ${name}. This page tells them apart.`
         : `Everyone in this archive called ${name}.`}>
   <section class="blk">
-    <Namesakes name={name} people={listed} base={u("/")} />
+    {finds.length
+      ? <NamesakesFinds name={name} people={listed} finds={finds} base={u("/")} />
+      : <Namesakes name={name} people={listed} base={u("/")} />}
     <p class="dek" style="margin-top:1.6rem">A name is not a person. Every entry above has its own
     page, because they are different people — see <a href={u("/method/#ladder")}>how this archive
     grades what it says</a>.</p>
