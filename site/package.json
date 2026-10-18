@@ -43,7 +43,7 @@
     "check:snapshots": "python3 ../tools/snapshots.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#ef1a93c668021ef00954bab409d2daa33e35bbf9",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#3a30314611778bf22f3f27204079aa123494ca14",
     "astro": "^5.18.2"
   },
   "devDependencies": {
