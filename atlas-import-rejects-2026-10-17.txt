@@ -14086,6 +14086,15 @@
    "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
   },
   {
+   "archive": "Lerena Family",
+   "src": "FamilySearch image viewer, film 008143327: San Jose de Mayo Baptism Records 1828-1836, images 22-104 stepped through with each image's machi",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Luwinski Family",
    "src": "Genealogia w Archiwach — USC Szubin Miasto, marriages 1874 (sygn. 141, 6/1792/0/2.2/141), scan 10, read at the image through the Loris IIIF ",
    "url": "https://www.genealogiawarchiwach.pl/",
@@ -14493,6 +14502,24 @@
   {
    "archive": "Luwinski Family",
    "src": "FreeREG — Weston marriages and baptisms, Phillips and Philips, Wright, 1730 to 1795",
+   "url": "https://www.freereg.org.uk/search_queries/new",
+   "sourceMarked": true,
+   "host": "freereg.org.uk",
+   "provider": "freereg",
+   "why": "«freereg.org.uk» is FreeREG, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeREG and Hertfordshire Names Online — the Wright line of Esther Wright: Weston, Stevenage, Wallington and the parishes about",
+   "url": "https://www.freereg.org.uk/search_queries/new",
+   "sourceMarked": true,
+   "host": "freereg.org.uk",
+   "provider": "freereg",
+   "why": "«freereg.org.uk» is FreeREG, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeREG and Hertfordshire Names Online — John and Sarah Wright of Stevenage",
    "url": "https://www.freereg.org.uk/search_queries/new",
    "sourceMarked": true,
    "host": "freereg.org.uk",
@@ -18206,13 +18233,6 @@
    "src": "FamilySearch — Otočac Deaths 1780–1836 (the census film), images 264–266: the 1821 burials of Maria ",
    "segment": "264, 266 (265 looked at as a spread)",
    "why": "not counted as read: «looked at»",
-   "tiedToVolume": true
-  },
-  {
-   "archive": "Blazevic Family",
-   "src": "FamilySearch — Mrežnica births 1728–1761 and 1762–1789 (waypoint 9R2M-C6D): the two Gergacz entries ",
-   "segment": "330-344 (Dec 1759 - 18 Oct 1761)",
-   "why": "year-like, not a page: 1759 - 18",
    "tiedToVolume": true
   },
   {

@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 494,
- "images": 523,
+ "count": 495,
+ "images": 524,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11886,6 +11886,29 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1756-08-gergach-godfather",
+   "entry": "mreznica-baptism-1756-08-gergach-godfather-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 27 August 1756 — Margaretha, daughter of Matthias Juschich, godfather «Michaele Gergach», Pallovich",
+   "film": "Mrežnica births (Rođeni) 1728–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 310, left page, the top entry of 27 August under the heading «Pallovich»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PHY3?cc=2040054",
+   "says": "«Die 27 Bapt est Margaretha filia legit Mathie Juschich et Anna nata Pollovich, levant Michaele Gergach et Helena Sakim virgine per me Petr Zellinschak Capell loci»: a Michael Gergach as godfather at Mrežnica in 1756. The entry is of another family and does not make him a relative of Nicolaus. The viewer link is image 310's own ark; the position in the waypoint's list of 588 is 310.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -11942,7 +11965,8 @@
    "karlobag-marriage-1785",
    "karlobag-death-1783-gerkacs",
    "mreznica-baptism-1740-11-petrus-gergacz",
-   "mreznica-baptism-1745-07-anna-gergacz"
+   "mreznica-baptism-1745-07-anna-gergacz",
+   "mreznica-baptism-1756-08-gergach-godfather"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
