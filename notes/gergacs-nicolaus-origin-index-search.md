@@ -77,3 +77,19 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 **So no death of a Nicolaus Gergacz, of a Margarita Gergacz or of the Michael Gergach of 1756 is on the film from 1728 to April 1759**, apart from the missing years (1753–55, 1757) and the loss at the torn leaves. A Nicolaus alive at Mrežnica in 1745 who died there in 1746–52 or 1758–59 would be in the pages read, and **is not**.
 
 **What this adds.** With the births 1745–1761 and the marriages 1726–1761 also read, **the Mrežnica Nicolaus Gergacz leaves no trace at Mrežnica after the baptism of Anna in July 1745**: no further child, no marriage, no death. He may have died in the missing years, or left the parish after 1745 (the 1740 and 1745 baptisms are from different villages). Leaving is the only reading that would be compatible with a Nicolaus Gerkacs at Karlobag, and **that is a possibility, not a link**: Karlobag's Nicolaus (b. about 1717, d. 1783) has no known birth, and nothing places a Mrežnica Gergacz at Karlobag. The one other new Gergacz is the **Michael Gergach, godfather in 1756**. Limits: read at reduced scale, not entry by entry at full size; the hand of the 1740s is hard.
+
+
+## The Karlobag side: Antonius Gergacs's marriage, 26 November 1769 (18 October 2026)
+
+**New document.** Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), **image 303, left page** (book page 50, «Anno Dni 1769»): «*habito mutuo consensu* **Antonij filij Nicolai Gergacs** *et* **Franciscae filiae Michaelis Berkliacich** *eos solemniter … per verba de praesenti matrimonio conjunxi*», on 26 November 1769, the second entry of the day ([snapshot](/snapshots/#karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich)). Found by reading images 301–303 of the marriage book (1767–70) at full size after the index showed no Gergacs record at Karlobag before December 1777.
+
+**What it gives.**
+
+* **Nicolaus Gerkacs was alive in November 1769** (the entry says «filij Nicolai», not «defuncti»; in 1785 his son Michael is «filii defuncti Nicolai», and he died on 30 October 1783). So the **Gergacs family is at Karlobag by 1769**, eight years before the first indexed Gergacs baptism there (1777).
+* **Antonius's wife Francisca is the daughter of Michael Berkliacich** (a Karlobag surname), the Francisca of every Gergacs baptism of 1777–88.
+* **Antonius was born in or before about 1748** (a groom of 1769, at 21 or more). **Nicolaus, born about 1717, was then about 31 or younger at Antonius's birth**, which is possible, and **Nicolaus, if he had Antonius at Mrežnica, would have him before the baptism of Anna (July 1745) or just after**: the Mrežnica births of August 1745 to 1761 were read in full and have **no Antonius to a Nicolaus Gergacz**. So **if Antonius was born at Mrežnica it was before July 1745 (the births of 1735–July 1745, images about 100–215, are not read; the index has none)**; otherwise he, and Nicolaus, came from somewhere else.
+* **No place of origin is given for the groom or his father.** The marriage entries of these years name a village for some grooms and brides and none for others, so the absence of a place for Antonius is no evidence either way.
+
+**Caution.** The witness «Jacobo Mathievich et …» was not read to the end. The Antonius here is identified with the Antonius of 1783 and 1785 by the name, the surname spelling and the wife's name Francisca, which every later baptism carries; a different Antonius Gergacs is possible but there is no other Gergacs at Karlobag before 1777.
+
+**What it leaves open.** Where Nicolaus and Antonius came from. The remaining filmed tests: the **Mrežnica births 1735–July 1745** for an Antonius to a Nicolaus, and, on the Karlobag side, the **baptisms of Antonius's own children in 1777–88 (godparents)** and any **Gergacs death entry that names an origin**.

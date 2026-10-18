@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 861,
+ "count": 862,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -13,7 +13,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 53,
+  "Karlobag": 54,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -212,7 +212,7 @@
    "event": "named in his father's death entry",
    "date": "30 October 1783",
    "place": "Karlobag",
-   "citation": "Karlobag Umrli 1774-1804 folio 39 — his father «obiit … in domo filij sui Antonij», died in this son's house. Not in the published tree; the Gerkacs collaterals are not published at all; ark 3:1:3QS7-L99C-GSBH",
+   "citation": "Karlobag Umrli 1774-1804 folio 39 — his father «obiit … in domo filij sui Antonij», died in this son's house. ALSO: he married Francisca, daughter of Michael Berkliacich, at Karlobag on 26 November 1769 (Karlobag marriages 1736-1804 image 303 left page, «Antonij filij Nicolai Gergacs et Franciscae filiae Michaelis Berkliacich», his father then alive; ark 3:1:3QSQ-G99C-G3ZT). Not in the published tree; the Gerkacs collaterals are not published at all; ark 3:1:3QS7-L99C-GSBH",
    "slug": "antonius-gergacs"
   },
   {
@@ -8664,6 +8664,16 @@
    "place": "Otočac",
    "citation": "Otočac deaths 1780-1836 image 264 right - «Obiit in Dño: Maria uxor Jacobi Kralich ... annor. 36»; no maiden name; identification by name, age and the date, not by a house number; ark 3:1:3QS7-L99F-MSV9",
    "slug": "maria-kralich"
+  },
+  {
+   "name": "Francisca Berkliacich (Berkljačić)",
+   "ahn": null,
+   "relation": "wife of Antonius Gergacs, mother of his children of 1777-1788",
+   "event": "marriage",
+   "date": "26 November 1769",
+   "place": "Karlobag",
+   "citation": "Karlobag marriages 1736-1804 image 303 left page, «Franciscae filiae Michaelis Berkliacich»; her father is Michael Berkliacich; not in the published tree; ark 3:1:3QSQ-G99C-G3ZT",
+   "slug": "francisca-berkliacich-berkljacic"
   }
  ]
 }

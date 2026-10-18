@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 496,
- "images": 525,
+ "count": 497,
+ "images": 527,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11932,6 +11932,29 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich",
+   "entry": "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich-entry.jpg",
+   "page": "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich-page.jpg",
+   "title": "Karlobag, 26 November 1769 — Antonius, son of Nicolaus Gergacs, marries Francisca, daughter of Michael Berkliacich",
+   "film": "Karlobag marriages (Vjenčani) 1736–1804 (FamilySearch waypoint 9RK1-HZK, 435 images)",
+   "where": "image 303, left page (book page 50, headed «Anno Dni 1769»), the second entry on the page, «eadem die» after the entry of 26 November",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G3ZT?cc=2040054",
+   "says": "«Praemissis eodem modo denuntiationibus, nullóque emerso impedimento ac habito mutuo consensu Antonij filij Nicolai Gergacs et Franciscae filiae Michaelis Berkliacich eos solemniter, ego Ant. Francovich Parochiae Administrator per verba de praesenti matrimonio conjunxi. Testibus Jacobo Mathievich et [not read]». The groom is named with his father **Nicolaus** (not «defuncti»: he was alive in November 1769) and no place of origin; the bride's father is a Berkliacich (Berkljačić), a Karlobag name. The day is that of the entry above («26 Novembris»). Antonius is the Antonius Gergacs of the 1783 death and the 1785 marriage witness, and the father of the Karlobag baptisms of 1777–88 (the mother is Francisca in each). This is the earliest Gergacs document at Karlobag, eight years before Antonius's first indexed child.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -11990,7 +12013,8 @@
    "mreznica-baptism-1740-11-petrus-gergacz",
    "mreznica-baptism-1745-07-anna-gergacz",
    "mreznica-baptism-1756-08-gergach-godfather",
-   "mreznica-marriage-1733-02-nicolaus-gergich-susana"
+   "mreznica-marriage-1733-02-nicolaus-gergich-susana",
+   "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",

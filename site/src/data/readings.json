@@ -1,7 +1,7 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 221,
+  "rows": 222,
   "people": 134,
   "derived": 72,
   "onDirectLine": 0,
@@ -20,7 +20,7 @@
   ],
   [
    "marriage-of-child",
-   31
+   32
   ],
   [
    "marriage",
@@ -348,6 +348,20 @@
    "indexOnly": false,
    "slug": "maria-uroda",
    "name": "Maria Uroda",
+   "ahn": null
+  },
+  {
+   "kind": "marriage-of-child",
+   "year": "1769",
+   "cite": "Karlobag marriages 1736–1804 image 303 left, 26 Nov 1769 — «Antonij filij Nicolai Gergacs et Franciscae filiae Michaelis Berkliacich»: Nicolaus is alive (not «defuncti») and his son Antonius marries at Karlobag; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G3ZT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/gergacs-nicolaus-origin-index-search.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md",
+   "indexOnly": false,
+   "slug": "nicolaus-gerkacs",
+   "name": "Nicolaus Gerkacs",
    "ahn": null
   },
   {
@@ -5122,6 +5136,17 @@
    "ahn": null,
    "rows": [
     {
+     "kind": "marriage-of-child",
+     "year": "1769",
+     "cite": "Karlobag marriages 1736–1804 image 303 left, 26 Nov 1769 — «Antonij filij Nicolai Gergacs et Franciscae filiae Michaelis Berkliacich»: Nicolaus is alive (not «defuncti») and his son Antonius marries at Karlobag; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G3ZT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/gergacs-nicolaus-origin-index-search.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md",
+     "indexOnly": false
+    },
+    {
      "kind": "death",
      "year": "1783",
      "cite": "Karlobag Umrli 1774-1804 folio 39 (right page of image 376, whose left page is printed «38. — Anno Dñi 1783») — «30 8bris · Nicolaus Gergacs annorum 66, munitus omnibus sacramentis obiit … in domo filij sui Antonij, et die 31: ejusdem … sepultus est in Cœmeterio … Laterali ex parte dextra Ecclesiæ Parochialis hujus»; ark 3:1:3QS7-L99C-GSBH",
@@ -5144,7 +5169,7 @@
      "indexOnly": false
     }
    ],
-   "direct": 2,
+   "direct": 3,
    "derived": 0
   },
   "catherina-catta-luckinic": {
