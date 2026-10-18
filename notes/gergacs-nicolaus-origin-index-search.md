@@ -157,3 +157,52 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 
 **Still unread:** births images 30–139 (March 1721 – November 1735); and the Karlobag births 1746–48, which a rate-limit of the image service (HTTP 429 on tiles from about 20:25 on 18 October; the index API still answered) stopped me downloading.
 
+
+## The Karlobag births, October 1736 – February 1751, read for a Gerkacs (18 October 2026)
+
+**What was read.** Karlobag births 1691–1770, DGS 5481648, waypoint **9RK1-3Y9**, **images 69–112, every page, both pages of each image, October 1736 to February 1751** (book pages 124–203; image 83 is a duplicate frame of 84), downloaded at half size (deep-zoom level 12; the Croatian hand of Collekor, Xuvich and Suvich reads at that size) and read by eye, one whole spread to a view. The aim: **an Antonius, or any child of a Nicolaus Gerkacs/Gergacs, baptised at Karlobag before the 1769 marriage of Antonius**, in case the family was at Karlobag before or after Nicolaus's children were baptised at Mrežnica (November 1740 and July 1745).
+
+**Result.** **No Gerkacs, Gergacs, Gergach, Jargat or any near form as a father, mother, child or godparent in these 44 images.** The nearest forms are not the surname: **«Gerka / Jerka»** is the woman's name (Jerolima) in «xena Antona Dobrovicha Gerka» (14 Nov and 5 Dec 1745) and «Gerka Dobrovich» (1745); «Janesa **Jerka**» (30 May 1746); **Gerseth/Gersetich**, **Cerpich/Berpich**, **Berklacich** (the surname of Antonius's wife's family, here as father and godfather). Cards laid over a page on images 78, 87, 88 and 106 (image 73 ends on 20 January 1738 with half a page blank and image 74 begins on 19 February: the film shows no entry in between) are lifted on the neighbouring image, so no entry is lost; the godfather «Janes Jerko soldat od Ortice» (18 April 1740) is a given name. The Karlobag Gerkacs are **not at Karlobag as baptising parents in 1740–51**.
+
+**What it adds.** Antonius (groom of 1769, born 1748 or earlier) is **not a Karlobag baptism of October 1736 – February 1751**, as well as not a Mrežnica baptism of 1735–61. He was born **before August 1740** or elsewhere, which fits a man born in or before 1740 who married at about 29, or a Nicolaus who was not yet at Karlobag. **Not yet read for the name:** Karlobag births before October 1736 (images before 69; images 56–111 had been read only for *Uroda*) and the Mrežnica births before December 1735 (images 30–139; 1–29 read).
+
+
+## The end of the Mrežnica births book as filmed (18 October 2026)
+
+Waypoint 9R2M-C6D, **images 579–588**: 585–588 are the film's end-of-roll targets (the last names «Župa Mrežnica … Matična knjiga rođenih 1762–17.., vjenčanih 1761–, umrlih 1761–», roll 204, «nastavak na filmu 205»); **images 579–584 are the births of January–March 1774 in order** (book pages 104–109), in the Latin hand of the 1770s with Gergach-type names absent. **So the births 1762–1789 book as filmed ends with 1774 and no misbound pages of 1761–62 sit at its end**; the winter 1761–62 baptisms (October 1761 – April 1762) are therefore **in neither book as filmed**, as already noted, and the question of a Michael Gergacz born about 1762 cannot be tested there. Read by eye at half size, one spread to a view.
+
+
+## The index for Jargat / Jargath / Gergach / Gergacz at Mrežnica, all spellings (18 October 2026)
+
+**Query.** The FamilySearch persona search (Croatia Church Books, collection 2040054), exact surname, twelve spellings (Jargat, Jargath, Jargats, Jargatz, Gergach, Gergacz, Gergacs, Gergath, Gergat, Gergats, Jergat, Jergath), every record with a Mrežnica event: **125 distinct records, all of them baptisms; none is a marriage or a death.** So **no marriage and no death of any Jargat/Gergach is indexed at Mrežnica**: the marriage and death books can be tested only on the pages.
+
+**Who is a Nicolaus (any role).**
+
+| record | surname as indexed | father × mother |
+|---|---|---|
+| baptised 18 Nov 1718 | Jargat | Lovro × Kate Magličić |
+| baptised 26 Jul 1743 | Jargath | Joannes × Catharina Czvilak |
+| baptised 12 Jul 1814 | Jargath | Joannes × Anna Sheketha |
+| baptised 25 Nov 1817 | Jargath | Petrus × Barbara Derovdelich |
+| baptised 21 Feb 1830 | Jargath | Petrus × Barbara Dervodelich |
+| **baptised 21 Aug 1760** | **Gergach** | **Joannes × Catharina Kisin** |
+| baptised 29 Nov 1740 (Petrus) / 7 Jul 1745 (Anna) | Gergacz | **Nicolaus** × Margarita Veiknich / Verbanich |
+
+**What this shows.** The father **Joannes** is indexed as «Jargath» in 1743, 1750 (wife Catharina Juraich) and 1775 (wife Anna Brazdichich), and as «**Gergach**» in 1760 (wife Catharina Kisin): the **same given name, the same parish and the same surname in two spellings**, which is what the pages' G/J hand predicts (a Joannes Jargat godfather at 5 January 1720 on image 20; the godparents «Joannes Gergath et Anna Gergath» of 17 February 1745, image 212). So **Jargat/Jargath and Gergach/Gergath are very probably one surname at Mrežnica**, spelt by whoever wrote the entry (this upgrades the doubt of the earlier paragraph; it is still the indexer's and my reading, and no record states it). The **Nicolaus of 1740 and 1745 is the only Nicolaus «Gergacz» as father**; the 1718 baptism of **Nikola Jargat** is the only baptism of a Nicolaus-of-this-surname in the books as filmed before 1743. That makes the **candidate chain** Nikola Jargat (b. 18 Nov 1718) → Nicolaus Gergacz × Margarita (children 1740, 1745) → ? at Karlobag, but **the Nikola of 1718 would be 21 at Petrus's baptism, and 64 at the Karlobag death «aged 66»**: possible, **nothing proves it**.
+
+**What this leaves for the pages.** Marriage of a Nicolaus Jargat/Gergat to a Margarita before November 1740 (the marriage book as filmed begins 1726; the Gergacz-spelling read found none), and any **Jargat/Jargath** death or marriage 1726–1761 that my earlier by-eye reads did not name because they were looking for the G-initial form.
+
+
+## The Mrežnica marriages 1726 – October 1740 re-read for the Jargat spelling (18 October 2026)
+
+**Why.** The earlier marriage read looked for G-initial forms. With the index showing «Jargat/Jargath» as the family's spelling (see above), **images 346–369 (January 1726 to October 1740, every page, both pages of each image, sheets at about 0.6 of source size)** were read again, looking for **Jargat, Jargath, Jargats, Jasgat, Jergat, Gergat**, and for **any Nicolaus marrying a Margarita** before the baptism of Petrus (29 November 1740). (Image 364 repeats image 363 on the film.)
+
+**Result.**
+
+* **No marriage of a Nicolaus Jargat/Gergach/Gergacz (any spelling), to a Margarita or to anyone, in January 1726 – October 1740.** Nor a Nicolaus marrying a Margarita Veiknich or Verbanich. So **the marriage of Nicolaus and Margarita, parents of Petrus (1740) and Anna (1745), is not in the Mrežnica marriage book as filmed**: it was before 1726, in another parish, or under a form of either name I did not recognise.
+* **The Jargat marriages that are there** (each cropped and kept): **17 February 1729**, Michael Jargath × Catharina Milchich, Mikichevo Berdo (image 352, [snapshot](/snapshots/#mreznica-marriage-1729-02-michael-jargath)); **4 May 1733**, Joannes Jargath × Helena Ljubichich, witness Georgius Jargath, Mikichevo Berdo (image 359, [snapshot](/snapshots/#mreznica-marriage-1733-05-joannes-jargath)); **22 January 1736**, Nicolaus Perakovich × the widow Catharina «Jasgat» (probably Jargat), Mikichevo Berdo (image 362, [snapshot](/snapshots/#mreznica-marriage-1736-01-perakovich-jasgat)); **4 July 1738**, Michael Petrak, widower × the widow Barbara Jargat, Duga Resa (image 365, [snapshot](/snapshots/#mreznica-marriage-1738-07-petrak-barbara-jargat)); and Helena **Jargatka** as a witness in January 1739 (image 366). The surname is **written Jargath/Jargat in the marriage book through 1738**, so the family's spelling in the 1720s–30s is J-initial, as the baptisms of 1718–20 show.
+
+**What it does to the candidate.** **Nikola Jargat, baptised 18 November 1718**, would have been 20–22 in 1738–40. **No marriage of a Nicolaus Jargat is in the book for those years**, so if Nikola married before Petrus's birth in November 1740 he did so elsewhere; and if he is the Petrus's father he married at 21 or less, which the book does not show. This weakens the candidate; it does not rule it out (the books as filmed may omit leaves). **Limits:** by eye at reduced scale, in a cursive where a Jargath/Gergath difference is not always clear; marriages after October 1740 (images 370–416) were read earlier only for G-initial forms and **not yet** for Jargat.
+
+**Mrežnica births 1721–1735 (images 30–139): opened, not read.** Images 30–35 (March – December 1721) were downloaded and looked at: the 1721 hand is small, the leaves are bled through from the other side, and **at page scale I cannot clear a surname**, so no result is claimed for them or for images 36–139. For these years the index (the Jargat/Jargath records listed above, which run 1704–1723, then 1730) stands in for the pages: it is an index, not a read, and a baptism missing from it would be missing here too. A proper read of images 30–139 needs entry-by-entry crops at full size (about 110 images), which has not been done.
+
