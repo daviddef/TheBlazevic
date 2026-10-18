@@ -11,7 +11,7 @@ This tool turns those rows into site/src/data/era-places.json and refuses to pas
     python3 ../tools/build_era.py --check               build gate: the file is what the rows build, every place string a note could be drawn
                                                         for has a row, and no row is stale
     python3 ../tools/build_era.py --snapshot <Record Atlas>/site/public/context.json [--report drops.json]
-                                                        also rebuild src/data/era-snapshot.json (version 4) from the Atlas's versioned
+                                                        also rebuild src/data/era-snapshot.json (version 5) from the Atlas's versioned
                                                         contract (the deliberate refresh: nothing in a build ever reads the Atlas). The rings and
                                                         bboxes come from the contract (1.8.0 and later). --report writes, per region, how many eras
                                                         were refused and why (counts only).
