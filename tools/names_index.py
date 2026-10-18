@@ -134,8 +134,12 @@ def variants(p):
     if given and surname:
         surnames = [x.strip().strip('"') for x in re.split(r"\s*/\s*", surname)]
         surnames = [x for x in surnames if len(x) > 2] or [surname]
-        givens = [x.strip().strip('"') for x in re.split(r"\s*/\s*", given)]
-        for g in list(givens):
+        raw = [x.strip() for x in re.split(r"\s*/\s*", given)]
+        givens = [x.strip('"') for x in raw]
+        for g in raw:
+            # The nickname is read from the given name AS WRITTEN. Stripping the outer quotes first (as this did until
+            # 18 October 2026) ate the closing quote of «Antonija "Tonka"», so that woman bore no «Antonija Prpic» and
+            # an infant of that name was the only one the index knew: a link to the wrong person.
             inline = re.findall(r'"([^"]{3,})"', g)
             bare = re.sub(r'\s*"[^"]*"\s*', " ", g).strip()
             if bare and bare != g:
