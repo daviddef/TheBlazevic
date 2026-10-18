@@ -72,6 +72,11 @@ HAND_KEPT = {
     "recent.json":           "what changed lately",
     "book.json":             "the book: where every page of the site sits in the story, the part titles and introductions and the one-line chapter blurbs. Written by hand and held to the built site by checkbook",
     "lines.json":            "the lines of a surname — which families of one name are kept in separate lanes until a document joins them. Conclusions somebody reached",
+    "era-places.json":       "the place -> Record Atlas region table behind the «at the time» notes, built by tools/build_era.py from data/era-ground.tsv and "
+                             "data/era-towns.tsv (a decision made place by place, not derived from the GEDCOM); check:era-ground holds the file to the rows",
+    "era-snapshot.json":     "the Record Atlas's region eras as this archive committed them, rebuilt deliberately by tools/build_era.py --snapshot from a copy of "
+                             "the Atlas's context.json (the file records the contract's version and sha256); nothing in a build reads the Atlas; check:era holds "
+                             "the built pages to it",
 }
 
 ORDER = [

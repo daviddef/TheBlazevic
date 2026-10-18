@@ -21,6 +21,9 @@ import ancestors from "../../data/ancestors.json";
 import living from "../../data/living.json";
 import LivingPerson from "../../components/LivingPerson.astro";
 import AlsoIn from "@daviddef/archive-kit/components/AlsoIn.astro";
+import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
+import { eraAt, plainYear, fold as eraFold } from "@daviddef/archive-kit/lib/era.js";
+import eraSnapshot from "../../data/era-snapshot.json";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: a name, a
    town and a country, a family chart, and nothing else (components/LivingPerson).
@@ -29,6 +32,35 @@ export function getStaticPaths() {
   return [...people, ...living].map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
+
+/* AN «AT THE TIME» NOTE beside a dated place (kit/docs/era-notes.md; David, 18 October 2026): who held that ground in that year, from the Record
+   Atlas's REGION eras, as this archive committed them (src/data/era-snapshot.json, rebuilt deliberately by tools/build_era.py --snapshot; the place ->
+   region table is data/era-ground.tsv). Context about the ground, never a claim about the family: it says where it came from ("per the Record Atlas"), and
+   where the data does not support it there is nothing. NEVER on a living, held-out or noindex page: this page decides (a living person is rendered by
+   LivingPerson, which has no events; people.json holds no living person), and the build gate check:era fails any note found on one.
+   Where a note can be drawn: the Born, Baptised and Died rows, and the events list for the kinds that happen in a place (ERA_KINDS; keep in step with
+   tools/build_era.py). The date must be a plain one: plainYear gives no year for «ABT 1840», «BEF 1850», «BET 1850 AND 1855», «TO 1861», so those get no
+   note, and eraAt gives none for a year within max(5, the Atlas's margin) years of an era's start or end where the era is approximate or contested
+   about its bounds, for an era contested about its regime or a part, a shorthand regime, a place near a ring edge whose neighbour across it differs, a
+   place with no region, or the quiet rule (the era still running from 1990). The kit does not handle the old-style year (England and Ireland began the year
+   on 25 March until 1752, Scotland until 1600), so the three British regions give no note before 1753 (kit/docs/era-notes.md says an archive that has
+   such events must hand null). */
+const noNotes = !!p.living;
+const ERA_KINDS = new Set(["birth", "christening", "baptism", "death", "burial", "residence", "census", "immigration", "naturalisation"]);
+const OLD_STYLE = new Set(["england", "scotland", "ireland"]);
+const yearOf = (d) => { const m = /(\d{4})$/.exec(String(d || "").trim()); return m ? Number(m[1]) : null; };
+const eraOn = (place, date) => {
+  if (noNotes || !place || !date) return null;
+  const year = plainYear(date, yearOf(date));
+  if (year === null) return null;
+  const key = eraFold(place);
+  const region = Object.prototype.hasOwnProperty.call(eraSnapshot.places || {}, key) ? eraSnapshot.places[key] : null;
+  if (typeof region === "string" && OLD_STYLE.has(region) && year < 1753) return null;
+  return eraAt(eraSnapshot, place, year);
+};
+const bornEra = eraOn(p.bornPlace, p.born);
+const baptisedEra = eraOn(p.baptisedPlace, p.baptised);
+const diedEra = eraOn(p.diedPlace, p.died);
 
 /* PEOPLE READ IN A REGISTER FOR *THIS* PERSON, who are in no tree and so cannot
    be relatives in the chart above. Added 23 September 2026 after an audit asked
@@ -227,10 +259,10 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
     <AlsoIn archive="blazevic" path={`/people/${p.slug}/`} />
     <table class="kv">
       {p.born && <tr><th>Born</th><td>{p.born}{p.bornPlace &&
-        <>, <a href={u(`/people/?q=${encodeURIComponent(p.bornPlace.split(",")[0])}`)}>{p.bornPlace}</a></>}</td></tr>}
-      {p.baptised && <tr><th>Baptised</th><td>{p.baptised}{p.baptisedPlace ? `, ${p.baptisedPlace}` : ""}</td></tr>}
+        <>, <a href={u(`/people/?q=${encodeURIComponent(p.bornPlace.split(",")[0])}`)}>{p.bornPlace}</a></>}<EraNote era={bornEra} /></td></tr>}
+      {p.baptised && <tr><th>Baptised</th><td>{p.baptised}{p.baptisedPlace ? `, ${p.baptisedPlace}` : ""}<EraNote era={baptisedEra} /></td></tr>}
       {p.died && <tr><th>Died</th><td>{p.died}{p.diedPlace &&
-        <>, <a href={u(`/people/?q=${encodeURIComponent(p.diedPlace.split(",")[0])}`)}>{p.diedPlace}</a></>}</td></tr>}
+        <>, <a href={u(`/people/?q=${encodeURIComponent(p.diedPlace.split(",")[0])}`)}>{p.diedPlace}</a></>}<EraNote era={diedEra} /></td></tr>}
       {badPlaces.map((f) => (
         <tr><th class="warn">Place</th><td>
           <strong>The {f.field} place above names the wrong town.</strong> It reads
@@ -398,7 +430,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
         {events.map((e) => (
           <li>
             <span class="lab">{e.kind}</span>
-            <strong>{e.date}</strong> {e.place}
+            <strong>{e.date}</strong> {e.place}{ERA_KINDS.has(e.kind) && e.place ? <EraNote era={eraOn(e.place, e.date)} /> : null}
             {e.detail && e.detail !== "Y" && <div class="src">{e.detail}</div>}
             {e.note && <div class="src">{e.note}</div>}
           </li>

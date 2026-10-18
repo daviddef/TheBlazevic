@@ -1,0 +1,412 @@
+# Where each town named in data/era-ground.tsv is, for ONE purpose: tools/build_era.py hands the point to the kit's erasnap.py, which REFUSES a place
+# whose point falls inside a DIFFERENT region's ring than the one it was given, or within 15 km of its own region's ring edge unless a region across the
+# edge carries the same label in that year (the rings are "approximate by design"). It decides nothing else: the region of a place is the row in
+# data/era-ground.tsv, which was chosen from these points and the contract's rings.
+# how: the source of the point. «archive gazetteer-local» and «kit gazetteer-overrides» are hand-set coordinates with their own reason in
+# sources/gazetteer-local.json and the kit's data; «kit gazetteer cache» is the kit's shared Nominatim cache, exact matches only; «GeoNames (country,
+# pop n)» is the Record Atlas's GeoNames gazetteer (read only), with the population of the place chosen; «hand» is written by hand to two decimals.
+town	lat	lon	how
+<Hartland (50.994, -4.481)	50.994	-4.481	GeoNames (GB, pop 910)
+Alberton (-26.268, 28.122)	-26.268	28.122	GeoNames (ZA, pop 121536)
+Aller (51.059, -2.857)	51.059	-2.857	kit gazetteer cache: exact
+Aller (51.060, -2.858)	51.06	-2.858	GeoNames (GB, pop 0; 2 same-name places all in one ring)
+Amerongen (52.002, 5.460)	52.002	5.46	GeoNames (NL, pop 5085)
+Amersfoort (52.155, 5.388)	52.155	5.388	GeoNames (NL, pop 139914)
+Amsterdam (52.374, 4.890)	52.374	4.89	GeoNames (NL, pop 741636)
+Arienzo (41.024, 14.497)	41.024	14.497	kit gazetteer cache: exact
+Arpaia (41.036, 14.547)	41.036	14.547	kit gazetteer cache: exact
+Arpaia (41.037, 14.552)	41.037	14.552	GeoNames (IT, pop 1886)
+Ashton (53.489, -2.099)	53.489	-2.099	GeoNames (GB, pop 43675; 9 same-name places all in one ring)
+Ashton Under Hill (52.041, -2.006)	52.041	-2.006	GeoNames (GB, pop 753)
+Ashton Underhill (52.041, -2.006)	52.041	-2.006	GeoNames (GB, pop 753)
+Ashton under Hill (52.041, -2.006)	52.041	-2.006	GeoNames (GB, pop 753)
+Aston (53.364, -1.301)	53.364	-1.301	kit gazetteer cache: exact
+Averham (53.082, -0.861)	53.082	-0.861	GeoNames (GB, pop 0)
+Averham (53.083, -0.860)	53.083	-0.86	kit gazetteer cache: exact
+Ayr (55.463, -4.634)	55.463	-4.634	GeoNames (GB, pop 46260)
+Ayr (55.500, -4.500)	55.5	-4.5	kit gazetteer cache: exact
+BENONI (-26.189, 28.321)	-26.189	28.321	GeoNames (ZA, pop 605344)
+BETHULIE (-30.499, 25.975)	-30.499	25.975	GeoNames (ZA, pop 7783)
+Ballymodan (51.744, -8.740)	51.744	-8.74	kit gazetteer cache: exact
+Bandon (51.746, -8.737)	51.746	-8.737	kit gazetteer cache: exact
+Bandon (51.747, -8.742)	51.747	-8.742	GeoNames (IE, pop 6957) [from the later place name 'Bandon']
+Barcs (45.960, 17.459)	45.96	17.459	GeoNames (HU, pop 12116)
+Barnstaple (51.080, -4.058)	51.08	-4.058	GeoNames (GB, pop 31616)
+Barrowby (52.916, -0.691)	52.916	-0.691	GeoNames (GB, pop 1952; the other same-name places have under a twentieth of its population) [from the later place name 'Barrowby']
+Baska (44.970, 14.753)	44.97	14.753	GeoNames (HR, pop 899)
+Bassingthorpe (52.846, -0.567)	52.846	-0.567	kit gazetteer cache: exact
+Bassingthorpe. Lincolnshire. England (52.846, -0.567)	52.846	-0.567	kit gazetteer cache: exact
+Batalage (44.523, 19.864)	44.523	19.864	GeoNames (RS, pop 0)
+Bath (51.375, -2.362)	51.375	-2.362	GeoNames (GB, pop 101557)
+Bath (51.381, -2.360)	51.381	-2.36	kit gazetteer cache: exact
+Beaufort West (-32.357, 22.583)	-32.357	22.583	GeoNames (ZA, pop 44737)
+Bedworth (52.479, -1.469)	52.479	-1.469	GeoNames (GB, pop 31090)
+Belgrade (44.804, 20.465)	44.804	20.465	GeoNames (RS, pop 1273651)
+Benevento (41.131, 14.778)	41.131	14.778	GeoNames (IT, pop 58418; the other same-name places have under a twentieth of its population)
+Benoni (-26.189, 28.321)	-26.189	28.321	GeoNames (ZA, pop 605344) [from the later place name 'Benoni']
+Bergrivier (-32.926, 18.328)	-32.926	18.328	GeoNames (ZA, pop 0)
+Berkeley (51.691, -2.459)	51.691	-2.459	GeoNames (GB, pop 2034; the other same-name places have under a twentieth of its population)
+Berkley (51.244, -2.274)	51.244	-2.274	GeoNames (GB, pop 0)
+Bethulie (-30.499, 25.975)	-30.499	25.975	GeoNames (ZA, pop 7783)
+Beugen (51.674, 5.938)	51.674	5.938	GeoNames (NL, pop 0)
+Biddestone (51.461, -2.198)	51.461	-2.198	GeoNames (GB, pop 498)
+Bideford (51.017, -4.208)	51.017	-4.208	GeoNames (GB, pop 28672)
+Bilsdale (54.374, -1.119)	54.374	-1.119	GeoNames (GB, pop 1841)
+Bishopwearmouth (54.908, -1.393)	54.908	-1.393	GeoNames (GB, pop 0)
+Bisley (51.752, -2.141)	51.752	-2.141	GeoNames (GB, pop 936; 3 same-name places all in one ring)
+Bisley (51.753, -2.141)	51.753	-2.141	kit gazetteer cache: exact
+Blizonje (44.364, 19.923)	44.364	19.923	GeoNames (RS, pop 0)
+Bloemfontein (-29.121, 26.214)	-29.121	26.214	GeoNames (ZA, pop 556637)
+Boksburg (-26.212, 28.260)	-26.212	28.26	GeoNames (ZA, pop 445168)
+Boulia (-22.911, 139.909)	-22.911	139.909	GeoNames (AU, pop 372)
+Braband (51.833, 4.333)	51.833	4.333	GeoNames (NL, pop 0)
+Bradwell (53.040, -2.233)	53.04	-2.233	kit gazetteer cache: exact
+Brakel (51.818, 5.090)	51.818	5.09	GeoNames (NL, pop 2555; the other same-name places have under a twentieth of its population)
+Brankovina (44.347, 19.898)	44.347	19.898	GeoNames (RS, pop 0)
+Braunton (51.108, -4.161)	51.108	-4.161	GeoNames (GB, pop 9525)
+Breede River (-33.520, 19.217)	-33.52	19.217	GeoNames (ZA, pop 0)
+Brighton (50.828, -0.140)	50.828	-0.14	GeoNames (GB, pop 283870; the other same-name places have under a twentieth of its population)
+Brimpsfield (51.812, -2.090)	51.812	-2.09	GeoNames (GB, pop 0)
+Brinje (45.000, 15.131)	45.0	15.131	archive gazetteer-local: exact
+Brisbane (-27.468, 153.028)	-27.468	153.028	GeoNames (AU, pop 2780063) [from the later place name 'Brisbane']
+Brisbane (-27.469, 153.024)	-27.469	153.024	kit gazetteer cache: exact
+Brisbane City (-27.468, 153.028)	-27.468	153.028	GeoNames (AU, pop 2780063)
+Bristol (51.455, -2.597)	51.455	-2.597	GeoNames (GB, pop 479024)
+Bronkhorstspruit (-25.810, 28.742)	-25.81	28.742	GeoNames (ZA, pop 41209)
+Buckland Brewer (50.965, -4.253)	50.965	-4.253	GeoNames (GB, pop 0)
+Cape Town (-33.926, 18.423)	-33.926	18.423	GeoNames (ZA, pop 4772846)
+Cape Town (-33.929, 18.417)	-33.929	18.417	kit gazetteer cache: exact
+Capua (41.105, 14.213)	41.105	14.213	GeoNames (IT, pop 15438)
+Cardiff (51.480, -3.180)	51.48	-3.18	GeoNames (GB, pop 372089)
+Caserta (41.204, 14.117)	41.204	14.117	kit gazetteer cache: exact
+Ceres (-33.369, 19.311)	-33.369	19.311	GeoNames (ZA, pop 41596)
+Charters Towers (-20.077, 146.263)	-20.077	146.263	GeoNames (AU, pop 8040)
+Chatham (51.379, 0.528)	51.379	0.528	GeoNames (GB, pop 80596; the other same-name places have under a twentieth of its population)
+Cheddleton (53.069, -2.042)	53.069	-2.042	GeoNames (GB, pop 2947)
+Chelmsford (51.735, 0.473)	51.735	0.473	kit gazetteer cache: exact
+Chelmsford (51.736, 0.470)	51.736	0.47	GeoNames (GB, pop 111511)
+Chelsea (51.487, -0.169)	51.487	-0.169	GeoNames (GB, pop 60000)
+Chippenham (51.460, -2.125)	51.46	-2.125	GeoNames (GB, pop 35800; the other same-name places have under a twentieth of its population)
+Chipping (53.883, -2.583)	53.883	-2.583	GeoNames (GB, pop 618; 2 same-name places all in one ring)
+Claremont (-33.981, 18.465)	-33.981	18.465	GeoNames (ZA, pop 14531)
+Clermont (-22.824, 147.636)	-22.824	147.636	GeoNames (AU, pop 3401)
+Clifton (52.038, -0.303)	52.038	-0.303	kit gazetteer cache: exact
+Clovelly (50.999, -4.399)	50.999	-4.399	GeoNames (GB, pop 0)
+Constable Burton (54.313, -1.748)	54.313	-1.748	GeoNames (GB, pop 0)
+Copford (51.881, 0.801)	51.881	0.801	GeoNames (GB, pop 0)
+Cork City (51.898, -8.471)	51.898	-8.471	GeoNames (IE, pop 224004)
+Corsham (51.434, -2.184)	51.434	-2.184	GeoNames (GB, pop 13369)
+Craddock (-32.164, 25.619)	-32.164	25.619	GeoNames (ZA, pop 43936)
+Cradock (-32.164, 25.619)	-32.164	25.619	GeoNames (ZA, pop 43936)
+Crikvenica (45.174, 14.693)	45.174	14.693	kit gazetteer cache: exact
+Crikvenica (45.177, 14.693)	45.177	14.693	GeoNames (HR, pop 6239)
+Curry Mallet (50.988, -2.961)	50.988	-2.961	GeoNames (GB, pop 306)
+Dal Josafat (-33.697, 19.014)	-33.697	19.014	GeoNames (ZA, pop 0)
+Dalkeith (55.893, -3.068)	55.893	-3.068	GeoNames (GB, pop 12720)
+Darfield (53.534, -1.376)	53.534	-1.376	GeoNames (GB, pop 8246) [from the later place name 'Darfield']
+Davenham (53.237, -2.511)	53.237	-2.511	kit gazetteer cache: exact
+Delft (52.007, 4.356)	52.007	4.356	GeoNames (NL, pop 95060) [from the later place name 'Delft']
+Delmas (-26.147, 28.683)	-26.147	28.683	GeoNames (ZA, pop 92046)
+Deventer (52.255, 6.164)	52.255	6.164	GeoNames (NL, pop 97331)
+Devonport (50.378, -4.175)	50.378	-4.175	GeoNames (GB, pop 0)
+Douglas (55.557, -3.848)	55.557	-3.848	kit gazetteer cache: exact
+Drakenstein (-33.750, 19.000)	-33.75	19.0	hand: centre of the Drakenstein district (Paarl and Wellington), 2 decimals [from the later place name 'Drakenstein']
+Dramalj (45.193, 14.668)	45.193	14.668	GeoNames (HR, pop 1366)
+Drogheda (53.715, -6.352)	53.715	-6.352	kit gazetteer cache: exact
+Dublin (53.333, -6.249)	53.333	-6.249	GeoNames (IE, pop 1024027)
+Dunboyne (53.419, -6.474)	53.419	-6.474	GeoNames (IE, pop 7272) [from the later place name 'Dunboyne']
+Dundee (56.469, -2.975)	56.469	-2.975	GeoNames (GB, pop 148210)
+Dunfermline (56.072, -3.459)	56.072	-3.459	GeoNames (GB, pop 54990)
+Durban (-29.858, 31.029)	-29.858	31.029	GeoNames (ZA, pop 3338026)
+East Winch (52.720, 0.512)	52.72	0.512	GeoNames (GB, pop 779)
+Edensor (53.227, -1.626)	53.227	-1.626	GeoNames (GB, pop 0)
+Edinburgh (55.952, -3.196)	55.952	-3.196	GeoNames (GB, pop 514990)
+Eenzaamheid (-28.052, 28.712)	-28.052	28.712	GeoNames (ZA, pop 0)
+Egmond aan Zee (52.620, 4.627)	52.62	4.627	GeoNames (NL, pop 2505)
+Etten-Leur (51.571, 4.637)	51.571	4.637	GeoNames (NL, pop 1)
+Exeter (50.724, -3.527)	50.724	-3.527	GeoNames (GB, pop 130709)
+Falmer (50.865, -0.077)	50.865	-0.077	GeoNames (GB, pop 0)
+Finsbury (51.528, -0.107)	51.528	-0.107	GeoNames (GB, pop 0)
+Flumen (45.327, 14.442)	45.327	14.442	GeoNames (HR, pop 107964)
+Forchia (41.031, 14.536)	41.031	14.536	GeoNames (IT, pop 615)
+Fordsburg (-26.250, 27.833)	-26.25	27.833	GeoNames (ZA, pop 0)
+Fort Beaufort (-32.775, 26.634)	-32.775	26.634	GeoNames (ZA, pop 58419)
+Frampton (51.770, -2.364)	51.77	-2.364	GeoNames (GB, pop 1432; the other same-name places have under a twentieth of its population)
+Francikovac (44.996, 14.954)	44.996	14.954	GeoNames (HR, pop 0)
+Frankfurt am Main (50.115, 8.684)	50.115	8.684	GeoNames (DE, pop 650000)
+Franschhoek (-33.911, 19.120)	-33.911	19.12	GeoNames (ZA, pop 20000)
+Fuzine (45.305, 14.716)	45.305	14.716	GeoNames (HR, pop 597)
+GRAAF-REINET (-32.252, 24.531)	-32.252	24.531	GeoNames (ZA, pop 62896)
+Geisenheim (49.985, 7.968)	49.985	7.968	GeoNames (DE, pop 11949)
+George (-33.963, 22.462)	-33.963	22.462	GeoNames (ZA, pop 188580)
+Germiston (-26.215, 28.164)	-26.215	28.164	GeoNames (ZA, pop 255863)
+Ghent (51.050, 3.717)	51.05	3.717	GeoNames (BE, pop 265086)
+Glen Lynden (-32.535, 25.995)	-32.535	25.995	GeoNames (ZA, pop 0)
+Glenview (-26.767, 153.017)	-26.767	153.017	GeoNames (AU, pop 1192; the other same-name places have under a twentieth of its population)
+Gola Glava (44.396, 19.859)	44.396	19.859	GeoNames (RS, pop 0)
+Gologorica (45.258, 14.034)	45.258	14.034	kit gazetteer cache: exact
+Gornja Grabovica (44.317, 19.900)	44.317	19.9	GeoNames (RS, pop 0)
+Graaf Reinet (-32.252, 24.531)	-32.252	24.531	GeoNames (ZA, pop 62896)
+Graaff Reinet (-32.252, 24.531)	-32.252	24.531	GeoNames (ZA, pop 62896)
+Graaff Reinette (-32.252, 24.531)	-32.252	24.531	GeoNames (ZA, pop 62896)
+Graaff-Reinet (-32.252, 24.531)	-32.252	24.531	GeoNames (ZA, pop 62896)
+Grabova Lokva (45.025, 15.022)	45.025	15.022	GeoNames (HR, pop 0)
+Gracisce (45.219, 14.011)	45.219	14.011	GeoNames (HR, pop 418)
+Gračišće (45.219, 14.011)	45.219	14.011	GeoNames (HR, pop 418)
+Greenwich (51.478, -0.012)	51.478	-0.012	GeoNames (GB, pop 30578; the other same-name places have under a twentieth of its population)
+Grižane (45.201, 14.722)	45.201	14.722	GeoNames (HR, pop 818)
+Grižane-Belgrad (45.201, 14.722)	45.201	14.722	GeoNames (HR, pop 818)
+Groningen (53.219, 6.567)	53.219	6.567	GeoNames (NL, pop 244807)
+Groot Marico (-25.597, 26.417)	-25.597	26.417	GeoNames (ZA, pop 4054)
+Gympie (-26.190, 152.660)	-26.19	152.66	kit gazetteer cache: exact
+HARTLAND (50.994, -4.481)	50.994	-4.481	GeoNames (GB, pop 910)
+Haarlem (52.381, 4.637)	52.381	4.637	GeoNames (NL, pop 162543)
+Haddington (55.956, -2.783)	55.956	-2.783	GeoNames (GB, pop 9020)
+Hanley (53.025, -2.174)	53.025	-2.174	GeoNames (GB, pop 0)
+Hardenberg (52.576, 6.619)	52.576	6.619	GeoNames (NL, pop 57909; the other same-name places have under a twentieth of its population)
+Harrismith (-28.273, 29.130)	-28.273	29.13	GeoNames (ZA, pop 33390)
+Hartland (50.994, -4.481)	50.994	-4.481	GeoNames (GB, pop 910)
+Hasselt (50.931, 5.338)	50.931	5.338	GeoNames (BE, pop 77651; the other same-name places have under a twentieth of its population)
+Hawkshead (54.375, -2.999)	54.375	-2.999	GeoNames (GB, pop 0)
+Henford (50.729, -4.312)	50.729	-4.312	GeoNames (GB, pop 0)
+Hertogenbosch (51.699, 5.304)	51.699	5.304	GeoNames (NL, pop 160783)
+Himley (52.518, -2.177)	52.518	-2.177	kit gazetteer cache: exact
+Himley (52.519, -2.182)	52.519	-2.182	GeoNames (GB, pop 462)
+Hoboken (51.176, 4.348)	51.176	4.348	GeoNames (BE, pop 34443)
+Hofmeyr (-31.654, 25.804)	-31.654	25.804	GeoNames (ZA, pop 4410) [from the later place name 'Hofmeyr']
+Holborn (51.517, -0.120)	51.517	-0.12	GeoNames (GB, pop 13023)
+Holsworthy (50.812, -4.354)	50.812	-4.354	GeoNames (GB, pop 2641)
+Hornby (54.113, -2.637)	54.113	-2.637	GeoNames (GB, pop 468; 3 same-name places all in one ring)
+Hornby (54.444, -1.441)	54.444	-1.441	kit gazetteer cache: exact
+Hornsby (54.843, -2.755)	54.843	-2.755	GeoNames (GB, pop 0)
+Hull (53.745, -0.335)	53.745	-0.335	GeoNames (GB, pop 314018)
+Jansenville (-32.943, 24.672)	-32.943	24.672	GeoNames (ZA, pop 6723)
+Johannesburg (-26.202, 28.044)	-26.202	28.044	GeoNames (ZA, pop 9418183) [from the later place name 'Johannesburg']
+Johannesburg (-26.205, 28.050)	-26.205	28.05	kit gazetteer cache: exact
+KARLOBAG (44.528, 15.072)	44.528	15.072	archive gazetteer-local: exact
+Kaapstad (-33.926, 18.423)	-33.926	18.423	GeoNames (ZA, pop 4772846)
+Karlobag (44.528, 15.072)	44.528	15.072	archive gazetteer-local: exact
+Kaštelir (45.303, 13.685)	45.303	13.685	GeoNames (HR, pop 305)
+Keele (53.004, -2.287)	53.004	-2.287	GeoNames (GB, pop 3953)
+Keele (53.004, -2.288)	53.004	-2.288	kit gazetteer cache: exact
+Kennington (51.167, 0.885)	51.167	0.885	GeoNames (GB, pop 4178; 3 same-name places all in one ring)
+Kermpote (45.089, 14.934)	45.089	14.934	kit gazetteer-overrides: approx
+Kings Worthy (51.089, -1.298)	51.089	-1.298	GeoNames (GB, pop 4388)
+Kingswear (50.349, -3.568)	50.349	-3.568	GeoNames (GB, pop 0)
+Kingswinford (52.498, -2.169)	52.498	-2.169	GeoNames (GB, pop 20000)
+Kirkby (53.481, -2.892)	53.481	-2.892	GeoNames (GB, pop 45564; 4 same-name places all in one ring)
+Kirkby Fleetham (54.346, -1.566)	54.346	-1.566	GeoNames (GB, pop 560)
+Kirkby Mallory (52.602, -1.330)	52.602	-1.33	kit gazetteer cache: exact
+Klaricevac (45.017, 14.918)	45.017	14.918	GeoNames (HR, pop 0)
+Klein Drakenstein (-33.750, 19.000)	-33.75	19.0	hand: centre of the Drakenstein district (Paarl and Wellington), 2 decimals
+Klein-Drakenstein (-33.750, 19.000)	-33.75	19.0	hand: centre of the Drakenstein district (Paarl and Wellington), 2 decimals
+Klenovica (45.103, 14.846)	45.103	14.846	kit gazetteer cache: exact
+Koo (-33.691, 19.849)	-33.691	19.849	GeoNames (ZA, pop 0)
+Krivi Put (45.032, 14.963)	45.032	14.963	GeoNames (HR, pop 39)
+Krivi Put (45.032, 14.964)	45.032	14.964	kit gazetteer cache: exact
+Krk (45.027, 14.575)	45.027	14.575	GeoNames (HR, pop 3935)
+Krmpote (45.089, 14.934)	45.089	14.934	kit gazetteer cache: exact
+Krmpote (45.112, 14.981)	45.112	14.981	GeoNames (HR, pop 0)
+Krmpotske Vodice (45.112, 14.981)	45.112	14.981	GeoNames (HR, pop 0)
+Krnjevo (44.409, 21.053)	44.409	21.053	GeoNames (RS, pop 0)
+Kroonstad (-27.650, 27.235)	-27.65	27.235	GeoNames (ZA, pop 117152)
+Krugersdorp (-26.086, 27.775)	-26.086	27.775	GeoNames (ZA, pop 378821)
+Lambeth (51.496, -0.112)	51.496	-0.112	GeoNames (GB, pop 6000) [from the later place name 'Lambeth']
+Langdon (51.177, 1.317)	51.177	1.317	GeoNames (GB, pop 0; 2 same-name places all in one ring)
+Lebbeke (51.005, 4.135)	51.005	4.135	GeoNames (BE, pop 17372)
+Ledenice (45.137, 14.841)	45.137	14.841	kit gazetteer cache: exact
+Ledenice (45.139, 14.842)	45.139	14.842	GeoNames (HR, pop 164)
+Leicester (52.639, -1.132)	52.639	-1.132	GeoNames (GB, pop 368600) [from the later place name 'Leicester']
+Leiden (52.158, 4.493)	52.158	4.493	GeoNames (NL, pop 119713)
+Limerick (52.653, -8.611)	52.653	-8.611	kit gazetteer cache: exact
+Limerick (52.661, -8.630)	52.661	-8.63	kit gazetteer cache: exact
+Limerick (52.665, -8.623)	52.665	-8.623	GeoNames (IE, pop 102287)
+Limerick City (52.665, -8.623)	52.665	-8.623	GeoNames (IE, pop 102287)
+Linlithgow (55.976, -3.604)	55.976	-3.604	GeoNames (GB, pop 12840)
+Long Ashton (51.430, -2.661)	51.43	-2.661	GeoNames (GB, pop 5254)
+Long Ashton (51.430, -2.662)	51.43	-2.662	kit gazetteer cache: exact
+Loxhore (51.130, -3.979)	51.13	-3.979	GeoNames (GB, pop 0)
+Lutwyche (-27.423, 153.034)	-27.423	153.034	GeoNames (AU, pop 3369)
+Lydenburg (-25.096, 30.444)	-25.096	30.444	GeoNames (ZA, pop 49605)
+Lyme Regis (50.727, -2.935)	50.727	-2.935	GeoNames (GB, pop 4712)
+Lymington (50.759, -1.538)	50.759	-1.538	GeoNames (GB, pop 14858)
+MARKET BOSWORTH (52.624, -1.402)	52.624	-1.402	GeoNames (GB, pop 2097)
+Madeley (53.000, -2.333)	53.0	-2.333	GeoNames (GB, pop 3893; the other same-name places have under a twentieth of its population)
+Madeley (53.000, -2.338)	53.0	-2.338	kit gazetteer cache: exact
+Mainz (49.982, 8.280)	49.982	8.28	GeoNames (DE, pop 222889; the other same-name places have under a twentieth of its population)
+Malmesbury (-33.461, 18.727)	-33.461	18.727	GeoNames (ZA, pop 43009)
+Mansfield (53.133, -1.200)	53.133	-1.2	GeoNames (GB, pop 171958; the other same-name places have under a twentieth of its population)
+Market Bosworth (52.624, -1.402)	52.624	-1.402	GeoNames (GB, pop 2097)
+Market Drayton (52.905, -2.490)	52.905	-2.49	GeoNames (GB, pop 11773)
+Marlborough (51.420, -1.730)	51.42	-1.73	GeoNames (GB, pop 8395; the other same-name places have under a twentieth of its population)
+Marylebone (51.525, -0.168)	51.525	-0.168	GeoNames (GB, pop 12157; the other same-name places have under a twentieth of its population)
+Masham (54.223, -1.657)	54.223	-1.657	GeoNames (GB, pop 1205)
+Meldert (50.934, 4.135)	50.934	4.135	GeoNames (BE, pop 2972; 3 same-name places all in one ring)
+Middelburg (-31.493, 25.006)	-31.493	25.006	GeoNames (ZA, pop 22380; the other same-name places have under a twentieth of its population)
+Morwenstow (50.907, -4.550)	50.907	-4.55	GeoNames (GB, pop 0)
+Moulsham (51.727, 0.468)	51.727	0.468	GeoNames (GB, pop 0)
+Mrzli Dol (45.034, 14.989)	45.034	14.989	archive gazetteer-local: exact
+Mrzli dol (45.034, 14.989)	45.034	14.989	archive gazetteer-local: exact
+Nambour (-26.626, 152.959)	-26.626	152.959	GeoNames (AU, pop 11482)
+Newlands (-33.978, 18.448)	-33.978	18.448	GeoNames (ZA, pop 5343; the other same-name places have under a twentieth of its population)
+Northam (51.033, -4.217)	51.033	-4.217	GeoNames (GB, pop 7668; the other same-name places have under a twentieth of its population)
+Norwich (52.628, 1.298)	52.628	1.298	GeoNames (GB, pop 143135)
+Novi Vinodolski (45.128, 14.789)	45.128	14.789	kit gazetteer cache: exact
+Nun Appleton (53.852, -1.158)	53.852	-1.158	GeoNames (GB, pop 0)
+Odijk (52.053, 5.236)	52.053	5.236	GeoNames (NL, pop 5480)
+Ohrigstad (-24.747, 30.565)	-24.747	30.565	GeoNames (ZA, pop 0)
+Ommen (52.521, 6.421)	52.521	6.421	GeoNames (NL, pop 11820)
+Opwijk (50.967, 4.184)	50.967	4.184	GeoNames (BE, pop 12045)
+Ormesby (54.550, -1.183)	54.55	-1.183	GeoNames (GB, pop 0)
+Osijek (45.551, 18.694)	45.551	18.694	GeoNames (HR, pop 75535; the other same-name places have under a twentieth of its population)
+Ossington (53.175, -0.870)	53.175	-0.87	kit gazetteer cache: exact
+Oswestry (52.862, -3.055)	52.862	-3.055	GeoNames (GB, pop 18743)
+Otocac (44.869, 15.236)	44.869	15.236	kit gazetteer cache: exact
+Otocac (44.869, 15.238)	44.869	15.238	GeoNames (HR, pop 3852; the other same-name places have under a twentieth of its population)
+Otocac Croatia (44.869, 15.236)	44.869	15.236	kit gazetteer cache: exact
+Otočac (44.869, 15.236)	44.869	15.236	kit gazetteer cache: exact
+Otočac (44.869, 15.238)	44.869	15.238	GeoNames (HR, pop 3852; the other same-name places have under a twentieth of its population)
+Ouddorp (51.812, 3.935)	51.812	3.935	GeoNames (NL, pop 5930)
+Oudorp (52.633, 4.774)	52.633	4.774	GeoNames (NL, pop 0)
+Overijse (50.774, 4.535)	50.774	4.535	GeoNames (BE, pop 23486)
+Paarl (-33.734, 18.975)	-33.734	18.975	GeoNames (ZA, pop 236910) [from the later place name 'Paarl']
+Pambukovica (44.441, 19.923)	44.441	19.923	GeoNames (RS, pop 0)
+Pearston (-32.582, 25.138)	-32.582	25.138	GeoNames (ZA, pop 5410) [from the later place name 'Pearston']
+Pietermaritzburg (-29.617, 30.393)	-29.617	30.393	GeoNames (ZA, pop 839327)
+Piketberg (-32.903, 18.757)	-32.903	18.757	GeoNames (ZA, pop 14862) [from the later place name 'Piketberg']
+Plomin (45.137, 14.181)	45.137	14.181	GeoNames (HR, pop 96)
+Podvinje (45.190, 18.027)	45.19	18.027	GeoNames (HR, pop 3057)
+Pomer (44.824, 13.896)	44.824	13.896	GeoNames (HR, pop 491)
+Poreč (45.226, 13.595)	45.226	13.595	GeoNames (HR, pop 8841; the other same-name places have under a twentieth of its population)
+Porlock (51.209, -3.596)	51.209	-3.596	GeoNames (GB, pop 1213)
+Portsmouth (50.799, -1.091)	50.799	-1.091	GeoNames (GB, pop 208100; the other same-name places have under a twentieth of its population)
+Potchefstroom (-26.717, 27.100)	-26.717	27.1	GeoNames (ZA, pop 178285)
+Povile (45.117, 14.824)	45.117	14.824	GeoNames (HR, pop 220)
+Pozarevac (44.621, 21.188)	44.621	21.188	GeoNames (RS, pop 41736)
+Pretoria (-25.745, 28.188)	-25.745	28.188	GeoNames (ZA, pop 2112693)
+Prince Albert (-33.225, 22.027)	-33.225	22.027	GeoNames (ZA, pop 13136) [from the later place name 'Prince Albert']
+Prizna (44.606, 14.968)	44.606	14.968	GeoNames (HR, pop 27)
+Prozor (43.822, 17.609)	43.822	17.609	GeoNames (BA, pop 10349; the other same-name places have under a twentieth of its population)
+Prozor (44.843, 15.271)	44.843	15.271	GeoNames (HR, pop 940)
+Pula (44.868, 13.848)	44.868	13.848	GeoNames (HR, pop 52220)
+Pulderbos (51.217, 4.694)	51.217	4.694	GeoNames (BE, pop 2819)
+Putney (51.461, -0.218)	51.461	-0.218	GeoNames (GB, pop 77140)
+Queenstown (-31.898, 26.875)	-31.898	26.875	GeoNames (ZA, pop 118599) [from the later place name 'Queenstown']
+Randfontein (-26.184, 27.702)	-26.184	27.702	GeoNames (ZA, pop 133654)
+Richmond (51.462, -0.306)	51.462	-0.306	GeoNames (GB, pop 21469; 3 same-name places all in one ring)
+Rijeka (45.327, 14.442)	45.327	14.442	kit gazetteer cache: exact
+Rockhampton (-23.378, 150.513)	-23.378	150.513	kit gazetteer cache: exact
+Rockhampton City (-23.380, 150.506)	-23.38	150.506	GeoNames (AU, pop 81021)
+Rosario (-32.947, -60.639)	-32.947	-60.639	GeoNames (AR, pop 948312; the other same-name places have under a twentieth of its population)
+Rotterdam (51.922, 4.479)	51.922	4.479	GeoNames (NL, pop 868135) [from the later place name 'Rotterdam']
+Rowley Regis (52.483, -2.044)	52.483	-2.044	GeoNames (GB, pop 1001)
+Rushton (53.161, -2.117)	53.161	-2.117	kit gazetteer cache: exact
+Rustenburg (-25.668, 27.242)	-25.668	27.242	GeoNames (ZA, pop 373695)
+SENJ (44.989, 14.906)	44.989	14.906	kit gazetteer-overrides: exact
+SOLIHULL West Midlands England (52.413, -1.777)	52.413	-1.777	kit gazetteer cache: exact
+Saffron Walden (52.022, 0.241)	52.022	0.241	kit gazetteer cache: exact
+Sampford-Arundel (50.962, -3.269)	50.962	-3.269	GeoNames (GB, pop 0)
+San Felice (41.237, 13.968)	41.237	13.968	kit gazetteer cache: exact
+Sandgate (-27.321, 153.070)	-27.321	153.07	kit gazetteer cache: exact
+Santa Maria a Vico (41.027, 14.465)	41.027	14.465	kit gazetteer cache: exact
+Sedbury (51.640, -2.659)	51.64	-2.659	GeoNames (GB, pop 0)
+Selce (45.158, 14.721)	45.158	14.721	archive gazetteer-local: approx
+Senj (44.989, 14.906)	44.989	14.906	kit gazetteer-overrides: exact
+Shirwell (51.118, -4.006)	51.118	-4.006	GeoNames (GB, pop 0)
+Shoreditch (51.525, -0.077)	51.525	-0.077	GeoNames (GB, pop 0; 2 same-name places all in one ring)
+Shorne (51.414, 0.430)	51.414	0.43	GeoNames (GB, pop 0)
+Skanderborg (56.034, 9.932)	56.034	9.932	GeoNames (DK, pop 13543) [from the later place name 'Skanderborg']
+Skelton (53.725, -0.842)	53.725	-0.842	GeoNames (GB, pop 6538; 4 same-name places all in one ring)
+Smederevo (44.664, 20.928)	44.664	20.928	GeoNames (RS, pop 62000)
+Smiljan (44.564, 15.318)	44.564	15.318	GeoNames (HR, pop 392)
+Smithfield (-30.214, 26.531)	-30.214	26.531	GeoNames (ZA, pop 5725)
+Smokvica Krmpotska (45.087, 14.852)	45.087	14.852	GeoNames (HR, pop 29)
+Smokvica Krmpotska (45.087, 14.853)	45.087	14.853	kit gazetteer cache: exact
+Soho (51.514, -0.135)	51.514	-0.135	GeoNames (GB, pop 19634)
+Solihull (52.414, -1.781)	52.414	-1.781	GeoNames (GB, pop 126577)
+Somerset East (-32.722, 25.588)	-32.722	25.588	GeoNames (ZA, pop 22553)
+Somerset-East (-32.722, 25.588)	-32.722	25.588	GeoNames (ZA, pop 22553) [from the later place name 'Somerset-East']
+Somerton (51.954, -1.276)	51.954	-1.276	GeoNames (GB, pop 4225; the other same-name places have under a twentieth of its population)
+South Brisbane (-27.480, 153.020)	-27.48	153.02	GeoNames (AU, pop 8658)
+South Leith (55.976, -3.170)	55.976	-3.17	GeoNames (GB, pop 0)
+Spasovac (44.973, 14.921)	44.973	14.921	GeoNames (HR, pop 0)
+Speyer (49.321, 8.431)	49.321	8.431	GeoNames (DE, pop 50343)
+Spring Gardens (51.246, -2.329)	51.246	-2.329	GeoNames (GB, pop 0; 4 same-name places all in one ring)
+Springs (-26.250, 28.400)	-26.25	28.4	GeoNames (ZA, pop 186394)
+Stafford (52.805, -2.116)	52.805	-2.116	GeoNames (GB, pop 70145)
+Stanwell (51.454, -0.478)	51.454	-0.478	GeoNames (GB, pop 11279)
+Stellenbosch (-33.935, 18.867)	-33.935	18.867	GeoNames (ZA, pop 96228) [from the later place name 'Stellenbosch']
+Stepney (51.517, -0.043)	51.517	-0.043	GeoNames (GB, pop 16238; the other same-name places have under a twentieth of its population)
+Sterling (56.119, -3.937)	56.119	-3.937	GeoNames (GB, pop 37910)
+Steynsburg (-31.296, 25.823)	-31.296	25.823	GeoNames (ZA, pop 8642)
+Stierstadt (50.183, 8.584)	50.183	8.584	GeoNames (DE, pop 0)
+Stirling (56.119, -3.937)	56.119	-3.937	GeoNames (GB, pop 37910)
+Stokesley (54.470, -1.193)	54.47	-1.193	GeoNames (GB, pop 4757) [from the later place name 'Stokesley']
+Stoughton (51.254, -0.596)	51.254	-0.596	GeoNames (GB, pop 0; 3 same-name places all in one ring)
+Stourbridge (52.456, -2.143)	52.456	-2.143	GeoNames (GB, pop 56950)
+Strand (52.396, -9.111)	52.396	-9.111	GeoNames (IE, pop 0)
+Strasbourg (48.584, 7.745)	48.584	7.745	GeoNames (FR, pop 274845)
+Streatham (51.429, -0.132)	51.429	-0.132	GeoNames (GB, pop 58055)
+Sunderland (54.905, -1.382)	54.905	-1.382	GeoNames (GB, pop 170134; the other same-name places have under a twentieth of its population)
+Surlingham (52.607, 1.420)	52.607	1.42	GeoNames (GB, pop 542)
+Swellendam (-34.023, 20.442)	-34.023	20.442	GeoNames (ZA, pop 20993) [from the later place name 'Swellendam']
+Teddington (51.422, -0.331)	51.422	-0.331	GeoNames (GB, pop 9615; the other same-name places have under a twentieth of its population)
+Tilburg (51.556, 5.091)	51.556	5.091	GeoNames (NL, pop 221947)
+Toowong (-27.483, 152.983)	-27.483	152.983	GeoNames (AU, pop 10780)
+Toowoomba (-27.561, 151.953)	-27.561	151.953	kit gazetteer cache: exact
+Toowoomba (-27.561, 151.954)	-27.561	151.954	GeoNames (AU, pop 142163)
+Toowoomba Queensland (-27.561, 151.953)	-27.561	151.953	kit gazetteer cache: exact
+Toowoomba Queensland Australia (-27.561, 151.953)	-27.561	151.953	kit gazetteer cache: exact
+Trebinje (42.712, 18.344)	42.712	18.344	GeoNames (BA, pop 33178)
+Tulbach (-33.286, 19.141)	-33.286	19.141	GeoNames (ZA, pop 10745)
+Tulbagh (-33.286, 19.141)	-33.286	19.141	GeoNames (ZA, pop 10745)
+UTRECHT (-27.659, 30.322)	-27.659	30.322	GeoNames (ZA, pop 8486)
+Uitenhage (-33.756, 25.401)	-33.756	25.401	GeoNames (ZA, pop 291052)
+Utrecht (52.091, 5.122)	52.091	5.122	GeoNames (NL, pop 376435)
+Vaalbank (-29.922, 26.115)	-29.922	26.115	GeoNames (ZA, pop 0)
+Ventersdorp (-26.314, 26.822)	-26.314	26.822	GeoNames (ZA, pop 26446)
+Villa di Rovigno (45.106, 13.716)	45.106	13.716	GeoNames (HR, pop 1339)
+Vollenhove (52.681, 5.954)	52.681	5.954	GeoNames (NL, pop 3955)
+Vrededorp (-26.200, 28.083)	-26.2	28.083	GeoNames (ZA, pop 0)
+Weert (51.252, 5.707)	51.252	5.707	GeoNames (NL, pop 48662; the other same-name places have under a twentieth of its population)
+Welcombe (50.938, -4.523)	50.938	-4.523	GeoNames (GB, pop 0)
+Wellington (-33.640, 19.011)	-33.64	19.011	GeoNames (ZA, pop 55543; the other same-name places have under a twentieth of its population) [from the later place name 'Wellington']
+Wepener (-29.729, 27.038)	-29.729	27.038	GeoNames (ZA, pop 11446)
+Werkhoven (52.025, 5.244)	52.025	5.244	GeoNames (NL, pop 1990)
+West Anstey (51.035, -3.638)	51.035	-3.638	GeoNames (GB, pop 0)
+West Farleigh (51.250, 0.454)	51.25	0.454	GeoNames (GB, pop 0)
+West Leigh (50.868, -0.971)	50.868	-0.971	GeoNames (GB, pop 0; 3 same-name places all in one ring)
+Westdene (-26.175, 27.988)	-26.175	27.988	GeoNames (ZA, pop 0; 2 same-name places all in one ring)
+Westervoort (51.956, 5.972)	51.956	5.972	GeoNames (NL, pop 5635) [from the later place name 'Westervoort']
+Westleigh (51.033, -4.183)	51.033	-4.183	GeoNames (GB, pop 0; 3 same-name places all in one ring)
+Wilrijk (51.167, 4.395)	51.167	4.395	GeoNames (BE, pop 41403)
+Winburg (-28.518, 27.009)	-28.518	27.009	GeoNames (ZA, pop 16862)
+Windsor (51.483, -0.600)	51.483	-0.6	GeoNames (GB, pop 31560; the other same-name places have under a twentieth of its population)
+Witfield (-26.187, 28.206)	-26.187	28.206	GeoNames (ZA, pop 0)
+Wolstanton (53.030, -2.216)	53.03	-2.216	GeoNames (GB, pop 0)
+Worcester (-33.647, 19.448)	-33.647	19.448	GeoNames (ZA, pop 127597)
+Worlingworth (52.269, 1.254)	52.269	1.254	GeoNames (GB, pop 802)
+Wotton (51.838, -1.003)	51.838	-1.003	GeoNames (GB, pop 0; 3 same-name places all in one ring)
+Wotton Under Edge (51.632, -2.345)	51.632	-2.345	GeoNames (GB, pop 5627)
+Wotton under Edge (51.632, -2.345)	51.632	-2.345	GeoNames (GB, pop 5627)
+Wotton-under-Edge (51.632, -2.345)	51.632	-2.345	GeoNames (GB, pop 5627)
+Yeovil (50.942, -2.632)	50.942	-2.632	GeoNames (GB, pop 50176)
+Zagreb (45.813, 15.977)	45.813	15.977	kit gazetteer cache: exact
+Zagreb (45.814, 15.978)	45.814	15.978	GeoNames (HR, pop 663592) [from the later place name 'Zagreb']
+Zandhoven (51.215, 4.662)	51.215	4.662	GeoNames (BE, pop 12306)
+Zeeland (51.697, 5.676)	51.697	5.676	GeoNames (NL, pop 4750; the other same-name places have under a twentieth of its population)
+Zoetermeer (52.057, 4.493)	52.057	4.493	GeoNames (NL, pop 115845)
+Zonnemaire (51.713, 3.951)	51.713	3.951	GeoNames (NL, pop 600)
+Zuidhorn (53.247, 6.403)	53.247	6.403	GeoNames (NL, pop 7075; the other same-name places have under a twentieth of its population)
+cape town (-33.929, 18.417)	-33.929	18.417	kit gazetteer cache: exact
+drakenstein (-33.750, 19.000)	-33.75	19.0	hand: centre of the Drakenstein district (Paarl and Wellington), 2 decimals
+krivi put (45.032, 14.964)	45.032	14.964	kit gazetteer cache: exact
+mostar (43.343, 17.808)	43.343	17.808	GeoNames (BA, pop 104518)
+mrzli dol (45.034, 14.989)	45.034	14.989	archive gazetteer-local: exact
+s-Hertogenbosch (51.699, 5.304)	51.699	5.304	GeoNames (NL, pop 160783)
+senj (44.989, 14.906)	44.989	14.906	kit gazetteer-overrides: exact
+smiljan (44.564, 15.318)	44.564	15.318	GeoNames (HR, pop 392)
+toowoomba (-27.561, 151.954)	-27.561	151.954	GeoNames (AU, pop 142163)
+tulbagh (-33.286, 19.141)	-33.286	19.141	GeoNames (ZA, pop 10745)
+Čepić (45.208, 14.136)	45.208	14.136	GeoNames (HR, pop 225; 2 same-name places all in one ring)
+Šumećica (44.861, 15.203)	44.861	15.203	GeoNames (HR, pop 0)

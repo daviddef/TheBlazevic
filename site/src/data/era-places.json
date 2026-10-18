@@ -1,0 +1,6377 @@
+{
+ "_about": "Built by tools/build_era.py from data/era-ground.tsv and data/era-towns.tsv. Place as printed -> {region, lat, lon}, or null where no Atlas region clearly covers it. Read by kit erasnap.py.",
+ "places": {
+  "\"Bloemspruit\" distrik Smithfield": null,
+  "\"Croatia, Church Books, 1516-1994, \" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-RDG2?cc=2040054&wc=9R28-DP8%3A391644801%2C392355601%2C392355602 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Births (Rođeni) 1847-1884 > image 6 of 382; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb.": null,
+  "\"Croatia, Church Books, 1516-1994, \" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-L99X-RXJQ?cc=2040054&wc=9R28-DP8%3A391644801%2C392355601%2C392355602 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Births (Rođeni) 1847-1884 > image 92 of 382; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb.": null,
+  "\"Croatia, Church Books, 1516-1994, \" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QSQ-G99X-1QQR?cc=2040054&wc=9R2D-JWL%3A391644801%2C391920301%2C391809001 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Senj (Senj) > Births (Rođeni) 1878-1894 > image 265 of 269; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb.": null,
+  "\"Ezelsklip\", Burgersdorp, Oos-Kaap, Suid-Afrika": null,
+  "\"Overis in Brabant\", Netherlands": null,
+  "\"Roydon\" Farm Cemetery, Fincham's Nek, Queenstown, Eastern Cape, South Africa": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "\"Roydon\" Farm, Fincham's Nek, Queenstown, Eastern Cape, South Africa": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "#14 Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#148 Krivi Put": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "#23 Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#23, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#25 Mrzlidol": null,
+  "#55 Sojatski Dolac Lika-Senj, Croatia": null,
+  "#6 Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#6 Mrzli dol": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#6 Mrzli dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#68 Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#68 Mrzli dol, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "#8 Alan, Lika-Senj, Croatia": null,
+  "''Angeliersbosch'', Malmesbury, Swartberg, Cape, South Africa": null,
+  "'Besammieshoek'": null,
+  "'Grootdam', Cradock": null,
+  "'Leeuwkloof', Prince Albert, Cape Town, South Africa": null,
+  "'Leeuwkloof', Prince Albert, Cape, ZA": {
+   "lat": -33.225,
+   "lon": 22.027,
+   "region": "cape"
+  },
+  "'s-Hertogenbosch, 's-Hertogenbosch, North Brabant, Netherlands": {
+   "lat": 51.699,
+   "lon": 5.304,
+   "region": "netherlands"
+  },
+  "(about)   Limerick City, Ireland": null,
+  "(unmarried vp)": null,
+  "(vp)": null,
+  "1 North Quay, Brisbane, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "10 Plumstead Common Road, Plumstead": null,
+  "130 Guinness Bldgs, No, London, England": null,
+  "14 Mrzli Dol, Krivi Put, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "14 Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "1500 East Third Avenue Hibbing, Minnesota, United States": null,
+  "1680 29 dito (Mart) Anna Jan Cornelisz Bombam en Catarina Harmensz. NGK Kaapstad.": null,
+  "1705. 26 Julij. Hester. d' Vader Pierre Roùsseaù, d' Moeder, Anne Retiff, d' getùijgen Claude Marais, en Marie Moùij. Drakenstein": null,
+  "1724, Den 11de Junij, Anna Doghter van Bernardus van Billion en Maria Walters, Getuijgen C. Gobregts en Maria Des Pres. Drakenstein.": null,
+  "180 Beersen Street, Cradock, Cape Colony, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "194 Main Street, Pretoria, Transvaal, South Africa": {
+   "lat": -25.745,
+   "lon": 28.188,
+   "region": "transvaal"
+  },
+  "2 Fore Street, Northam, Devon, England": {
+   "lat": 51.033,
+   "lon": -4.217,
+   "region": "england"
+  },
+  "2 Park Terrace, Northam": null,
+  "2 Rose Villas, Middlesex, England": null,
+  "23 68 Mrzli Dol, Lika-Senj, Croatia": null,
+  "23 Geneva Place, Bideford": null,
+  "23, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "26 Aug 1697 Gedoopt een Kind van Armozijn van de Caep gen:t Machteltie halfs. NGK Kaapstad.": null,
+  "26 Fore Street, Northam": null,
+  "27, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "29 Coldharbour, Bideford, Devon": null,
+  "30 Junij 1697 gedoopt het kint van Gerrit Janse Visser & Johanna Tielemans, onder getuijgen van Laarentje Laurentius, gent Mier...tie. NGK Kaapstad.": null,
+  "34 Florence Villas, Observatory, Wynburg, South Africa": null,
+  "34 Lamb's Conduit Street, London, England": null,
+  "37 Thomas Street, Birmingham": null,
+  "5. Kingsley Terrace, Bideford, Devon, England": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "52 Arthur St, Chelsea, London, England": {
+   "lat": 51.487,
+   "lon": -0.169,
+   "region": "england"
+  },
+  "6 Chancery Pl, Lambeth, Surrey, England": {
+   "lat": 51.496,
+   "lon": -0.112,
+   "region": "england"
+  },
+  "6 Dec 1807 London, Church Street, Soho Square buried 11 Dec 1807 London, The Strand - St Mariens Childrens Churchyard": null,
+  "6 Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "63 Kelly Lake, Stunts Township, St Louis, Minnesota, United States": null,
+  "63, Carson Lake, Stuntz Twp, St Louis, Minnesota, USA": null,
+  "68 Mrzlidol, Lika-Senj, Croatia": null,
+  "68, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "8 Alan": null,
+  "80. Hamilton Street, Devonport, Devon, England": {
+   "lat": 50.378,
+   "lon": -4.175,
+   "region": "england"
+  },
+  "85 Rheeden Street, Forest Hill, Johannesburg, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "9 Hendon Road, Bishopwearmouth, Sunderland, Durham, England": {
+   "lat": 54.908,
+   "lon": -1.393,
+   "region": "england"
+  },
+  "9 Jan 1792, London, St James, Westminster": null,
+  "<Ehrstaedt, Heidelberg, Baden, Germany>": null,
+  "<Hartland, Devon, Eng>": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "?Sunderland, Durham, England? Ireland High Seas?": null,
+  "Aagtekerke, Walcheren, Middelburg, Zeeland, Nederland": null,
+  "Aan de Breede Rivier, Cape of Good Hope, South Africa": null,
+  "Abbey, Westminster, Greater London, England": null,
+  "Adelaide St, North Brisbane, Queensland, Australia": null,
+  "Adelaide, South Australia": null,
+  "Adelaide, South Australia, Australia": null,
+  "AgterZuurberg, Dist Colesberg, Cape Colony, South Africa": null,
+  "Albany, Cape Colony, South Africa": null,
+  "Albany, Kaapkolonie, Suid Afrika": null,
+  "Albert, Cape Province, South Africa": null,
+  "Alberton, Johannesburg, South Africa": {
+   "lat": -26.268,
+   "lon": 28.122,
+   "region": "transvaal"
+  },
+  "Algoa Bay, Port Elizabeth, Oost-Kaap, Zuid-Afrika": null,
+  "Algoe Bay, Eastern Cape, South Africa": null,
+  "Aliwal North, Cape Province, South Africa": null,
+  "Aller, Somerset, England": {
+   "lat": 51.059,
+   "lon": -2.857,
+   "region": "england"
+  },
+  "Alservorstadt Pfarre, Josefstadt, Vienna, Austria": null,
+  "Altenwerder, Altona, Grafschaft Holstein-Pinneberg, Denmark (now Germany)": null,
+  "Altenwerder, Altona, Grafschaft Holstein-Pinneberg, Dänemark": null,
+  "Altona": null,
+  "Altona, Grafschaft Holstein-Pinneberg, Dänemark": null,
+  "Altona, Hamburg, Grafschaft Pinneberg-Holstein, Denmark (now. Germany)": null,
+  "Altona, Herrschaft Pinneberg, Herzogtum Holstein, Denmark": null,
+  "Altona, Herrschaft Pinneberg, Herzogtum Holstein, Dänemark (now Germany)": null,
+  "Amerongen, Utrecht, Nederland": {
+   "lat": 52.002,
+   "lon": 5.46,
+   "region": "netherlands"
+  },
+  "Amersfoort, Utrecht, Netherlands": {
+   "lat": 52.155,
+   "lon": 5.388,
+   "region": "netherlands"
+  },
+  "Amsterdam Nederland": null,
+  "Amsterdam, Government of Amsterdam, North Holland, Netherlands": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, Holland": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, Netherlands": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, Noord-Holland, Nederland": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, Noord-Holland, Netherlands": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, North Holland, Netherlands": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Amsterdam, North Holland, Netherlands.": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Ann-street, Breakfast Creek, `Brisbane, Queensland, Australia": null,
+  "Antwerpen, Belgium": null,
+  "Antwerpen, Vlaams, Gewest, Belgium": null,
+  "Ao' 1680 den 2 Junii Aeltie Gerrit Vissger en Jannetie Dielmansz .NGK Cape Town": null,
+  "Aram, England": null,
+  "Ardrossan Cemetery, Ardrossan, South Australia, Australia": null,
+  "Ardrossan, South Australia, Australia": null,
+  "Arienzo, Caserta, Campania, Italia": {
+   "lat": 41.024,
+   "lon": 14.497,
+   "region": "campania"
+  },
+  "Arienzo, Caserta, Campania, Italy": {
+   "lat": 41.024,
+   "lon": 14.497,
+   "region": "campania"
+  },
+  "Arizona": null,
+  "Arpaia, Benevento, Campania, Italia": {
+   "lat": 41.037,
+   "lon": 14.552,
+   "region": "campania"
+  },
+  "Arpaia, Benevento, Italy": {
+   "lat": 41.037,
+   "lon": 14.552,
+   "region": "campania"
+  },
+  "Arpaia, Italy": {
+   "lat": 41.037,
+   "lon": 14.552,
+   "region": "campania"
+  },
+  "Arpaia, Provincia di Benevento, Campania, Italy": {
+   "lat": 41.036,
+   "lon": 14.547,
+   "region": "campania"
+  },
+  "Ashton Under Hill, Gloucestershire, England": {
+   "lat": 52.041,
+   "lon": -2.006,
+   "region": "england"
+  },
+  "Ashton Underhill, Gloucester, England": {
+   "lat": 52.041,
+   "lon": -2.006,
+   "region": "england"
+  },
+  "Ashton Underhill, Gloucestershire, England": {
+   "lat": 52.041,
+   "lon": -2.006,
+   "region": "england"
+  },
+  "Ashton under Hill, Gloucestershire, England, United Kingdom": {
+   "lat": 52.041,
+   "lon": -2.006,
+   "region": "england"
+  },
+  "Ashton, Underhil, Gloucestershire, England": {
+   "lat": 53.489,
+   "lon": -2.099,
+   "region": "england"
+  },
+  "Ashton, Underhill, Gloucestershire, England": {
+   "lat": 52.041,
+   "lon": -2.006,
+   "region": "england"
+  },
+  "Aston, Yorkshire": {
+   "lat": 53.364,
+   "lon": -1.301,
+   "region": "england"
+  },
+  "Auckland, New Zealand": null,
+  "Aunay, Blois, France": null,
+  "Aunay, Blois, Loir-Et-Cher, France": null,
+  "Australia": null,
+  "Autun, Saône-et-Loire, Bourgogne-Franche-Comté, France": null,
+  "Averham Park, Nottinghamshire, England": {
+   "lat": 53.082,
+   "lon": -0.861,
+   "region": "england"
+  },
+  "Averham Park, Nottinghamshire. England": {
+   "lat": 53.082,
+   "lon": -0.861,
+   "region": "england"
+  },
+  "Averham, Nottingham": null,
+  "Averham, Nottingham, England": {
+   "lat": 53.082,
+   "lon": -0.861,
+   "region": "england"
+  },
+  "Averham, Nottinghamshire, England": {
+   "lat": 53.083,
+   "lon": -0.86,
+   "region": "england"
+  },
+  "Averham, Nottinghamshire, England, United Kingdom": {
+   "lat": 53.082,
+   "lon": -0.861,
+   "region": "england"
+  },
+  "Averham, Nottinghamshire, UK": {
+   "lat": 53.083,
+   "lon": -0.86,
+   "region": "england"
+  },
+  "Ayr, Ayr, Scotland": {
+   "lat": 55.463,
+   "lon": -4.634,
+   "region": "scotland"
+  },
+  "Ayr, Scotland": {
+   "lat": 55.5,
+   "lon": -4.5,
+   "region": "scotland"
+  },
+  "Azanja": null,
+  "Bacharach, Darmstadt, Rhineland-Palatinate, Germany": null,
+  "Bad Oldesloe, Stormarn, Odenwaldkreis Schleswig-Holstein Gammelsbach, Beerfelden, Erbach, Starkenburg Darmstadt, Hessen, Germany": null,
+  "Bad Oldesloe, Stormarn, Schleswig-Holstein, Deutschland": null,
+  "Baden-Wuerttemberg, Germany": null,
+  "Baden-Württemberg, Baden-Württemberg, Germany": null,
+  "Baden-Württemberg, Deutschland": null,
+  "Ballymodan Parish, Bandon, County Cork, Province of Munster, Ireland": {
+   "lat": 51.747,
+   "lon": -8.742,
+   "region": "ireland"
+  },
+  "Ballymodan, Bandon, Cor, Ireland": {
+   "lat": 51.747,
+   "lon": -8.742,
+   "region": "ireland"
+  },
+  "Ballymodan, Bandon, Ireland": {
+   "lat": 51.744,
+   "lon": -8.74,
+   "region": "ireland"
+  },
+  "Balmoral Cemetery, Brisbane, Qld. 8-290": null,
+  "Bandon, Ballymodan, County Cork, Ireland": {
+   "lat": 51.747,
+   "lon": -8.742,
+   "region": "ireland"
+  },
+  "Bandon, County Cork, Ireland": {
+   "lat": 51.746,
+   "lon": -8.737,
+   "region": "ireland"
+  },
+  "Barbados": null,
+  "Barbados, Caribbean": null,
+  "Barcs, Hungary": {
+   "lat": 45.96,
+   "lon": 17.459,
+   "region": "hungary"
+  },
+  "Barcs, Somogy, Hungary": {
+   "lat": 45.96,
+   "lon": 17.459,
+   "region": "hungary"
+  },
+  "Bardal, Hemnes, Nordland, Norge": null,
+  "Barkley East, Eastern Cape, South Africa": null,
+  "Barkley East, South Africa": null,
+  "Barkley Oos, Kaap Provinsie": null,
+  "Barkly East, Cape Colony, South Africa": null,
+  "Barkly East, Cape Province, South Africa": null,
+  "Barkly East, Drakensberg District, EC, South Africa": null,
+  "Barkly East, Drakensberg District, Eastern Cape, South Africa": null,
+  "Barkly East, Wodehouse, Cape Colony, South Africa": null,
+  "Barkly West, Cape Province, South Africa": null,
+  "Barkly, Eastern Cape Province, South Africa": null,
+  "Barkly, Queensland, Australia": null,
+  "Barkly-Oos": null,
+  "Barkly-Oos Gereformeerde Kerk, Cape Province, South Africa": null,
+  "Barnstable Hospital in Devon": null,
+  "Barnstaple, Devon, England": {
+   "lat": 51.08,
+   "lon": -4.058,
+   "region": "england"
+  },
+  "Barnstaple, Devon, UK": {
+   "lat": 51.08,
+   "lon": -4.058,
+   "region": "england"
+  },
+  "Barnstaple, Devonshire, England": {
+   "lat": 51.08,
+   "lon": -4.058,
+   "region": "england"
+  },
+  "Barry, Carcoar, New South Wales, Australia": null,
+  "Basel, Basel-Stadt, Basel-Stadt, Switzerland": null,
+  "Basingthorpe, Lincolnshire, England": null,
+  "Baska, Croatia": {
+   "lat": 44.97,
+   "lon": 14.753,
+   "region": "kvarner"
+  },
+  "Bassingthorpe, Lincolnshire, England": {
+   "lat": 52.846,
+   "lon": -0.567,
+   "region": "england"
+  },
+  "Bassingthorpe. Lincolnshire. England": {
+   "lat": 52.846,
+   "lon": -0.567,
+   "region": "england"
+  },
+  "Batalage": null,
+  "Batalage, Serbia": {
+   "lat": 44.523,
+   "lon": 19.864,
+   "region": "serbia"
+  },
+  "Batavia, Dutch East Indies": null,
+  "Bath, Somerset, England": {
+   "lat": 51.381,
+   "lon": -2.36,
+   "region": "england"
+  },
+  "Bath, Somersetshire, England, Kingdom of Great Britain": {
+   "lat": 51.375,
+   "lon": -2.362,
+   "region": "england"
+  },
+  "Beacon Bay, East London, South Africa": null,
+  "Beaufort West, Cape Province, South Africa": {
+   "lat": -32.357,
+   "lon": 22.583,
+   "region": "cape"
+  },
+  "Beaufort, Cape Province, South Africa": null,
+  "Bedford": null,
+  "Bedworth, Leicestershire, England, UK.": {
+   "lat": 52.479,
+   "lon": -1.469,
+   "region": "england"
+  },
+  "Beerfelden, Hessen Lande, Germany": null,
+  "Beerfelden, Oberzent, Odenwaldkreis, Hessen, Deutschland": null,
+  "Beerfelden, Odenwaldkreis, Hessen, Germany": null,
+  "Bega, Bega Valley Shire Council, New South Wales, Australia": null,
+  "Bega, New South Wales, Australia": null,
+  "Begraven in de kerk te Opwijk": null,
+  "Begraven in de kerk te Opwijk.": null,
+  "Belfort, Territoire de Belfort, Franche-Comté, France": null,
+  "Belgium": null,
+  "Belgrade, City of Belgrade, Hadzi Djerina 6, Serbia": {
+   "lat": 44.804,
+   "lon": 20.465,
+   "region": "serbia"
+  },
+  "Belgrade, City of Belgrade, Serbia": {
+   "lat": 44.804,
+   "lon": 20.465,
+   "region": "serbia"
+  },
+  "Belgrade, City of Belgrade, [no name], Serbia": {
+   "lat": 44.804,
+   "lon": 20.465,
+   "region": "serbia"
+  },
+  "Belgrade, Serbia": {
+   "lat": 44.804,
+   "lon": 20.465,
+   "region": "serbia"
+  },
+  "Belguim": null,
+  "Benevento, Campania, Italy": {
+   "lat": 41.131,
+   "lon": 14.778,
+   "region": "campania"
+  },
+  "Benevento, Province of Benevento, Campania, Italy": {
+   "lat": 41.131,
+   "lon": 14.778,
+   "region": "campania"
+  },
+  "Bentheim, Schüttorf, Niedersachsen, Deutschland": null,
+  "Bentheim, Schüttorf, Niedersachsen, Germany": null,
+  "Beograd": null,
+  "Beograd, Grad Beograd, Serbia": null,
+  "Beograd, Hektoroviceva 20": null,
+  "Beograd, Srbija": null,
+  "Bergrivier, Suid Afrika, Kaap": {
+   "lat": -32.926,
+   "lon": 18.328,
+   "region": "western-cape"
+  },
+  "Berkeley, Glou, England": {
+   "lat": 51.691,
+   "lon": -2.459,
+   "region": "england"
+  },
+  "Berkeley, Gloucester, Eng.": {
+   "lat": 51.691,
+   "lon": -2.459,
+   "region": "england"
+  },
+  "Berkeley, Gloucester, England": {
+   "lat": 51.691,
+   "lon": -2.459,
+   "region": "england"
+  },
+  "Berkeley, Gloucester, England\\": {
+   "lat": 51.691,
+   "lon": -2.459,
+   "region": "england"
+  },
+  "Berkeley, Gloucestershire, England": {
+   "lat": 51.691,
+   "lon": -2.459,
+   "region": "england"
+  },
+  "Berkley, Gloucester, England": {
+   "lat": 51.244,
+   "lon": -2.274,
+   "region": "england"
+  },
+  "Berlin, Brandenburg, Prussia": null,
+  "Berlin, Brandenburg, Prussia, Germany": null,
+  "Bethel, Paarl, South Africa": null,
+  "Bethulie": {
+   "lat": -30.499,
+   "lon": 25.975,
+   "region": "orange-free-state"
+  },
+  "Bethulie, Orange Free State, South Africa": {
+   "lat": -30.499,
+   "lon": 25.975,
+   "region": "orange-free-state"
+  },
+  "Bethulie, Vrijstaat, Zuid-Afrika": {
+   "lat": -30.499,
+   "lon": 25.975,
+   "region": "orange-free-state"
+  },
+  "Beugen, North Brabant, Netherlands": {
+   "lat": 51.674,
+   "lon": 5.938,
+   "region": "netherlands"
+  },
+  "Beunos Aires, Argentina": null,
+  "Biddestone Manor, Wiltshire, England": null,
+  "Biddestone St Nicholas, Wiltshire": null,
+  "Biddestone St Nicholas, Wiltshire, England": null,
+  "Biddestone, WIltshire": {
+   "lat": 51.461,
+   "lon": -2.198,
+   "region": "england"
+  },
+  "Biddestone, WIltshire, England": {
+   "lat": 51.461,
+   "lon": -2.198,
+   "region": "england"
+  },
+  "Biddestone, Wiltshire": {
+   "lat": 51.461,
+   "lon": -2.198,
+   "region": "england"
+  },
+  "Biddestone, Wiltshire, England": {
+   "lat": 51.461,
+   "lon": -2.198,
+   "region": "england"
+  },
+  "Biddestone, Wiltshire, England, United Kingdom": {
+   "lat": 51.461,
+   "lon": -2.198,
+   "region": "england"
+  },
+  "Biddlestone Manor, Wiltshire Parish, England": null,
+  "Biddulph, Huron, Canada West, Canada": null,
+  "Biddulph, Middlesex North, Ontario, Canada": null,
+  "Bideford, Devon, England": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Bideford, Devon, England, United Kingdom": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Bideford, Devonshire": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Bideford, United Kingdom": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Bilac, Modruš, Karlovačka Županija, Croatia": null,
+  "Bile": null,
+  "Bile, Krmpote": null,
+  "Bilsdale Midcable, North Riding. Yorkshire, England, United Kingdom": null,
+  "Bisley, Gloucester, England": {
+   "lat": 51.752,
+   "lon": -2.141,
+   "region": "england"
+  },
+  "Bisley, Gloucestershire, England": {
+   "lat": 51.753,
+   "lon": -2.141,
+   "region": "england"
+  },
+  "Blaaskraal, Tarka": null,
+  "Blaauwkrantz Massacre near Weenen, Natal, South Africa": null,
+  "Blankenese, Grafschaft Holstein-Pinneberg, Dänemark": null,
+  "Blankenese, Herrschaft Pinneberg, Herrzogtum Holstein, Denmark": null,
+  "Blankenese, Herrschaft Pinneberg, Hzgt. Holstein, Dänemark": null,
+  "Blankenese, Herrschaft Pinneberg, Hzgt. Holstein, Dänemark, (now Germany)": null,
+  "Blizonje, Serbia": {
+   "lat": 44.364,
+   "lon": 19.923,
+   "region": "serbia"
+  },
+  "Bloemfontein, Free State, South Africa": {
+   "lat": -29.121,
+   "lon": 26.214,
+   "region": "orange-free-state"
+  },
+  "Bloemfontein, Mangaung, Vrijstaat, Zuid-Afrika": {
+   "lat": -29.121,
+   "lon": 26.214,
+   "region": "orange-free-state"
+  },
+  "Bloemhof, Burgersdorp": null,
+  "Blois, Loir-et-Cher, Centre, France": null,
+  "Blois, Orleanais, France": null,
+  "Boksburg, Ekurhuleni, GP, South Africa": {
+   "lat": -26.212,
+   "lon": 28.26,
+   "region": "transvaal"
+  },
+  "Boksburg, Gauteng, South Africa": {
+   "lat": -26.212,
+   "lon": 28.26,
+   "region": "transvaal"
+  },
+  "Boomplaatz, Hofmeyr, Stormberg District, Eastern Cape, South Africa": {
+   "lat": -31.654,
+   "lon": 25.804,
+   "region": "cape"
+  },
+  "Bootmans Drift, Drakenstein, Cape of Good Hope, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Boplaas 185, farm cemetery_1 (Memorial wall), Ceres, Western Cape, South Africa": {
+   "lat": -33.369,
+   "lon": 19.311,
+   "region": "western-cape"
+  },
+  "Boplaas, Ceres, Western Cape, South Africa": {
+   "lat": -33.369,
+   "lon": 19.311,
+   "region": "western-cape"
+  },
+  "Bosca?": null,
+  "Boston, Suffolk County, Massachusetts, United States": null,
+  "Bosworth Hall, Leicester, Leicestershire, England": {
+   "lat": 52.639,
+   "lon": -1.132,
+   "region": "england"
+  },
+  "Boulia, Boulia Shire, Queensland, Australia": {
+   "lat": -22.911,
+   "lon": 139.909,
+   "region": "queensland"
+  },
+  "Br 114, Smokvica Krmpotska, Primorsko-goranska županija, Croatia": {
+   "lat": 45.087,
+   "lon": 14.852,
+   "region": "kvarner"
+  },
+  "Br 18, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Br 34, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Br 35, Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Braamfontein Cemetery, Johannesburg, Cape Colony, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Braband, Netherlands": {
+   "lat": 51.833,
+   "lon": 4.333,
+   "region": "netherlands"
+  },
+  "Brabant, South Holland, Netherlands": null,
+  "Bradwell, England": {
+   "lat": 53.04,
+   "lon": -2.233,
+   "region": "england"
+  },
+  "Braidwood, Palerang Council, New South Wales, Australia": null,
+  "Brak Rivier, Cape Province, South Africa": null,
+  "Brakel, Gelderland, Nederland": {
+   "lat": 51.818,
+   "lon": 5.09,
+   "region": "netherlands"
+  },
+  "Brakkefontein aan die Bergrivier, Caap de Goede Hoop, Suid Afrika": null,
+  "Brakrivier, Calvinia, Cape Colony, South Africa": null,
+  "Brakrivier, Calvinia, Cape Province, South Africa": null,
+  "Brakrivier, Cape Province, South Africa": null,
+  "Brandenburg, Germany": null,
+  "Brankovina, Serbia": {
+   "lat": 44.347,
+   "lon": 19.898,
+   "region": "serbia"
+  },
+  "Braunton, Devon": {
+   "lat": 51.108,
+   "lon": -4.161,
+   "region": "england"
+  },
+  "Braunton, Devon, England": {
+   "lat": 51.108,
+   "lon": -4.161,
+   "region": "england"
+  },
+  "Braunton, Devon, England, United Kingdom": {
+   "lat": 51.108,
+   "lon": -4.161,
+   "region": "england"
+  },
+  "Braunton, Devonshire, England": {
+   "lat": 51.108,
+   "lon": -4.161,
+   "region": "england"
+  },
+  "Breede River, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.52,
+   "lon": 19.217,
+   "region": "western-cape"
+  },
+  "Breitenfeld, Altmarkkreis Salzwedel, Saxony-Anhalt [Germany]": null,
+  "Breslau, Germany": null,
+  "Brighton, Brighton & Hove, UK": {
+   "lat": 50.828,
+   "lon": -0.14,
+   "region": "england"
+  },
+  "Brimpsfield, Gloucester, England": {
+   "lat": 51.812,
+   "lon": -2.09,
+   "region": "england"
+  },
+  "Brinja, Br. 60, Croatia": null,
+  "Brinje, Croatia": {
+   "lat": 45.0,
+   "lon": 15.131,
+   "region": "vojna-krajina"
+  },
+  "Brisbane": {
+   "lat": -27.469,
+   "lon": 153.024,
+   "region": "queensland"
+  },
+  "Brisbane Q'ld Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane QLD, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane Qld Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane, Brisbane, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane, QLD, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane, Qld, Aust.": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Brisbane, Queensland": null,
+  "Brisbane, Queensland, Australia": {
+   "lat": -27.469,
+   "lon": 153.024,
+   "region": "queensland"
+  },
+  "Bristol, City of Bristol, UK": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "Bristol, England": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "Bristol, Gloucester, England": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "Bristol, Gloucestershire, England": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "Broad Clyst, Devon, England": null,
+  "Broken Hill, New South Wales, Australia": null,
+  "Bronkhorstspruit, South Africa": {
+   "lat": -25.81,
+   "lon": 28.742,
+   "region": "transvaal"
+  },
+  "Bronkhorstspruit, Tshwane, Gauteng, South Africa": {
+   "lat": -25.81,
+   "lon": 28.742,
+   "region": "transvaal"
+  },
+  "Brookehouse, Chedulton, England": null,
+  "Buckland Brewer, Devon, England": {
+   "lat": 50.965,
+   "lon": -4.253,
+   "region": "england"
+  },
+  "Buckland Brewer, Devon, England, United Kingdom": {
+   "lat": 50.965,
+   "lon": -4.253,
+   "region": "england"
+  },
+  "Buckland Brewer, Devonshire, England": {
+   "lat": 50.965,
+   "lon": -4.253,
+   "region": "england"
+  },
+  "Bucklandbury, Devon, England, United Kingdom": null,
+  "Buckwall, Somerset": null,
+  "Buffelsfontein, Pearston, Eastern Cape, South Africa": {
+   "lat": -32.582,
+   "lon": 25.138,
+   "region": "cape"
+  },
+  "Burg Spreewald, Brandenburg, Prussia": null,
+  "Burgersdorp": null,
+  "Burgersdorp, , Cape Colony, South Africa": null,
+  "Burgersdorp, Albert, Cape Colony, South Africa": null,
+  "Burgersdorp, Albert, Cape Province, South Africa": null,
+  "Burgersdorp, Cape Colony, Drakensberg District, Eastern Cape, South Africa": null,
+  "Burgersdorp, Cape Colony, South Africa": null,
+  "Burgersdorp, Cape Province, South Africa": null,
+  "Burgersdorp, Drakensberg District, Eastern Cape, South Africa": null,
+  "Burgersdorp, EC, South Africa": null,
+  "Burgersdorp, East Cape, South Africa": null,
+  "Burgersdorp, Eastern Cape, South Africa": null,
+  "Burgersdorp, Gariep, Eastern Cape, South Africa": null,
+  "Burgersdorp, South Africa": null,
+  "Buried 19 Nov 1808 London, The Strand - St Mariens Childrens Churchyard": null,
+  "Buried London, The Strand - St Mariens Childrens Churchyard": null,
+  "Bushmans River, South Africa": null,
+  "Butcombe Som Eng": null,
+  "Butforte, Wittmund, Nedersachen, Germany": null,
+  "Buttforde, Deutschland (Germany)": null,
+  "Buttforde, Wittmund, Hannover, Preußen, Deutschland (Germany)": null,
+  "Buttforde, Wittmund, NDS, Germany": null,
+  "C-Prvn Co, S-Af": null,
+  "C. P., South Africa": null,
+  "Caap de Goede Hoop": null,
+  "Caap de Goede Hoop, Suid Afrika": null,
+  "Caep de Goede Hoop SA": null,
+  "Caep de Goede Hoop, SA": null,
+  "Caep de Goede Hoop, South Africa": null,
+  "Calais, Pas-de-Calais, Nord-Pas-de-Calais, France": null,
+  "Calais-Est, Calais, Pas-de-Calais, Nord-Pas-de-Calais, France": null,
+  "Caledonrivier, Orange Freestate": null,
+  "Camdebo, Dutch Cape Colony": null,
+  "Camdeboo, Cape of Good Hope, South Africa": null,
+  "Canada": null,
+  "Cape": null,
+  "Cape Colony": null,
+  "Cape Colony South Africa": null,
+  "Cape Colony, South Africa": null,
+  "Cape Colony.": null,
+  "Cape Good Hope, South Africa": null,
+  "Cape Of Good Hope, South Africa": null,
+  "Cape Of Good Hope, South Africa (Rep.)": null,
+  "Cape Prov, South Africa": null,
+  "Cape Province / South Africa": null,
+  "Cape Province, South Africa": null,
+  "Cape Province, Sudáfrica": null,
+  "Cape South Africa": null,
+  "Cape Town": {
+   "lat": -33.929,
+   "lon": 18.417,
+   "region": "western-cape"
+  },
+  "Cape Town Cape Colony": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town Western Cape South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, C.P. S.Afr.": null,
+  "Cape Town, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Caep de Goede Hoop, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Colony": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Colony [South Africa]": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Colony, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Of Good Hope": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Of Good Hope, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Province": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Province, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Province, South Africa, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape Town, Western Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape of Good Hope": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape of Good Hope, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape, S.Afr.": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, City of Cape Town Metropolitan Municipality, WC, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Tulbagh, Western Cape Province, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, WC, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, Western Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape Town, [South Africa]": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape de Good Hope South Africa": null,
+  "Cape of Good Hope": null,
+  "Cape of Good Hope Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape of Good Hope, Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Cape of Good Hope, Dutch Cape Colony, [South Africa]": null,
+  "Cape of Good Hope, South Africa": null,
+  "Cape province, South africa": null,
+  "Cape, Cape Province, South Africa": null,
+  "Cape, SA": null,
+  "Cape, South Africa": null,
+  "Cape, South Africa, Cape, South Africa": null,
+  "Cape, South Africa.": null,
+  "Cape, [South Africa]": null,
+  "Capetown, Cape Prov., So.Afr.": null,
+  "Cappeln, Schlewig-Holstein, Germany": null,
+  "Capua, Caserta, Campania, Italia": {
+   "lat": 41.105,
+   "lon": 14.213,
+   "region": "campania"
+  },
+  "Carcoar, NSW, Australia": null,
+  "Cardiff, Glamorgan, Wales": {
+   "lat": 51.48,
+   "lon": -3.18,
+   "region": "england"
+  },
+  "Caroluspoort, Bo-Seekoeirivier, Cape, South Africa": null,
+  "Carson Lake (historical), St. Louis, Minnesota, United States": null,
+  "Caserta, Campania, Italia": {
+   "lat": 41.204,
+   "lon": 14.117,
+   "region": "campania"
+  },
+  "Caserta, Campania, Italy": {
+   "lat": 41.204,
+   "lon": 14.117,
+   "region": "campania"
+  },
+  "Castle Church, Stafford, England": {
+   "lat": 52.805,
+   "lon": -2.116,
+   "region": "england"
+  },
+  "Castle Combe, Wiltshire": null,
+  "Castle Street, Northam N Devon, Devon, England": null,
+  "Cathedral (St. Mary), Limerick, Limerick, Ireland": {
+   "lat": 52.665,
+   "lon": -8.623,
+   "region": "ireland"
+  },
+  "Cathedral Church of Saint Mary the Virgin, Chelmsford, Chelmsford, Essex, England, United Kingdom": {
+   "lat": 51.736,
+   "lon": 0.47,
+   "region": "england"
+  },
+  "Cavendish Road, Coorparoo, Brisbane, Qld": null,
+  "Cemetery of Gospa Snježna  (Our Lady of Snow) Roman Catholic Church in the parish of Krivi Put": null,
+  "Centenary Memorial Gardens, Brisbane": null,
+  "Centenary Memorial Gardens, Sumner": null,
+  "Chapel Royal Holyrood, Edinburgh, Midlothian, Scotland": {
+   "lat": 55.952,
+   "lon": -3.196,
+   "region": "scotland"
+  },
+  "Chapel Royal at Holyroodhouse": null,
+  "Chapel Royal in Holyrood Palace, Edinburgh, Scotland": {
+   "lat": 55.952,
+   "lon": -3.196,
+   "region": "scotland"
+  },
+  "Chapel Royal, Stirling, Stirlingshire, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Charters Towers, Queensland, Australia": {
+   "lat": -20.077,
+   "lon": 146.263,
+   "region": "queensland"
+  },
+  "Chatham, Kent, England": {
+   "lat": 51.379,
+   "lon": 0.528,
+   "region": "england"
+  },
+  "Chatham, Medway, England, United Kingdom": {
+   "lat": 51.379,
+   "lon": 0.528,
+   "region": "england"
+  },
+  "Chatham, Medway, UK": {
+   "lat": 51.379,
+   "lon": 0.528,
+   "region": "england"
+  },
+  "Chatham, UK": {
+   "lat": 51.379,
+   "lon": 0.528,
+   "region": "england"
+  },
+  "Cheddleton, Staffordshire, England": {
+   "lat": 53.069,
+   "lon": -2.042,
+   "region": "england"
+  },
+  "Chelmsford, Essex, England": {
+   "lat": 51.735,
+   "lon": 0.473,
+   "region": "england"
+  },
+  "Cheltenham in Gloucestershire": null,
+  "Chippenham, Wiltshire, England": {
+   "lat": 51.46,
+   "lon": -2.125,
+   "region": "england"
+  },
+  "Chipping, Lancashire, England": {
+   "lat": 53.883,
+   "lon": -2.583,
+   "region": "england"
+  },
+  "Christened in Berkeley, Gloucester, England": null,
+  "Church Street, Sunderland, Sunderland, Durham, England": {
+   "lat": 54.905,
+   "lon": -1.382,
+   "region": "england"
+  },
+  "Civilian War Dead": null,
+  "Claremont, Cape Town, Cape Province, South Africa": {
+   "lat": -33.981,
+   "lon": 18.465,
+   "region": "western-cape"
+  },
+  "Clarkenwell, Finsbury, London, Middlesex, England": null,
+  "Clermont, Queensland, Australia": {
+   "lat": -22.824,
+   "lon": 147.636,
+   "region": "queensland"
+  },
+  "Clifton, Bedfordshire, England": {
+   "lat": 52.038,
+   "lon": -0.303,
+   "region": "england"
+  },
+  "Clovelly, Devon ENGLAND": {
+   "lat": 50.999,
+   "lon": -4.399,
+   "region": "england"
+  },
+  "Clovelly, Devon, England": {
+   "lat": 50.999,
+   "lon": -4.399,
+   "region": "england"
+  },
+  "Colesberg, Bo-Karoo, Northern Cape, South Africa": null,
+  "Colesberg, Cape Colony, South Africa": null,
+  "Colesberg, Cape Province, South Africa": null,
+  "Colesberg, Cape of Good Hope, South Africa": null,
+  "Colesberg, Colesberg, Cape Colony, South Africa": null,
+  "Colesberg, Eenzaamheid, Free State, Cape, South Afirca": null,
+  "Colesberg, Eenzaamheid, Orange Free State, Cape, South Afirca": null,
+  "Colesburg, Cape Colony, South Africa": null,
+  "College Street, St Luke Chelsea, Middlesex, England": null,
+  "Constable Burton Hall, Leyburn, Yorkshire": {
+   "lat": 54.313,
+   "lon": -1.748,
+   "region": "england"
+  },
+  "Contermanskloof, Tjigerberg, Cape, South Africa": null,
+  "Cooremacht, Delft, Zuid Holland, Netherlands": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Cooremarcht, Delft, Zuid-Holland, Netherlands": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Copford, Essex, England": {
+   "lat": 51.881,
+   "lon": 0.801,
+   "region": "england"
+  },
+  "Cork, Cork City, Cork, Ireland": {
+   "lat": 51.898,
+   "lon": -8.471,
+   "region": "ireland"
+  },
+  "Cork, County Cork, Ireland": null,
+  "Cork, Ireland": null,
+  "Cork, Ireland ( we believe this to be)": null,
+  "Cornacrieve Cornacreeve, Co. Monaghan, Ireland": null,
+  "Cornwall, England": null,
+  "Corsham Court, Wiltshire, England": null,
+  "Corsham, Wiltshire, England": {
+   "lat": 51.434,
+   "lon": -2.184,
+   "region": "england"
+  },
+  "County Cavan, Ireland": null,
+  "County Cork, Ireland": null,
+  "Coycordin-Kent, England": null,
+  "Craddock, Cape, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock": null,
+  "Cradock district": null,
+  "Cradock, Cape Colony, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Cape Province, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Cape of Good Hope, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Cape, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Eastern Cape, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Kaap die Goeie Hoop, Suid Afrika": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Kaap, Suid Afrika": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, S.A.": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Cradock, Stormberg District, Eastern Cape, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Crikvenica": {
+   "lat": 45.174,
+   "lon": 14.693,
+   "region": "kvarner"
+  },
+  "Crikvenica 119, Crikvenica 119": {
+   "lat": 45.177,
+   "lon": 14.693,
+   "region": "kvarner"
+  },
+  "Crikvenica, Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.177,
+   "lon": 14.693,
+   "region": "kvarner"
+  },
+  "Crikvenica, Croatia": {
+   "lat": 45.177,
+   "lon": 14.693,
+   "region": "kvarner"
+  },
+  "Crikvenica, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.177,
+   "lon": 14.693,
+   "region": "kvarner"
+  },
+  "Croatia": null,
+  "Croatia, Austria": null,
+  "Curry Mallet, England, United Kingdom": {
+   "lat": 50.988,
+   "lon": -2.961,
+   "region": "england"
+  },
+  "Curry Mallet, Somerset, England": {
+   "lat": 50.988,
+   "lon": -2.961,
+   "region": "england"
+  },
+  "Curry Mallet, Somerset, England, United Kingdom": {
+   "lat": 50.988,
+   "lon": -2.961,
+   "region": "england"
+  },
+  "Dal Josafat, Cape, South Africa": {
+   "lat": -33.697,
+   "lon": 19.014,
+   "region": "western-cape"
+  },
+  "Dal Josafat, South Africa": {
+   "lat": -33.697,
+   "lon": 19.014,
+   "region": "western-cape"
+  },
+  "Dalkeith Palace, Dalkeith, Mid-Lothian, Scotland": {
+   "lat": 55.893,
+   "lon": -3.068,
+   "region": "scotland"
+  },
+  "Damfontein": null,
+  "Darcy Meynill, Yorkshire, Cattaraugus County, New York, United States": null,
+  "Darling Downs": null,
+  "Davenham, Chester, Eng.": {
+   "lat": 53.237,
+   "lon": -2.511,
+   "region": "england"
+  },
+  "De Aar, NC, South Africa": null,
+  "De Hoop farm, Graaff-Reinet": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "De Hoop, Paarl, Western Cape, South Africa": null,
+  "Death Notice: KAB 3493/1904": null,
+  "Deelt een graf met haar echtgenoot., Burgersdorp Old Cemetery, Burgersdorp, Eastern Cape, South Africa": null,
+  "Deinschwang, near Amberg, Upper Palatinate": null,
+  "Delft, Delft, South Holland, The Netherlands": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Delft, South Holland, Netherlands": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Delft, Zuid-Holland, Nederland": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Delmas, Transvaal, South Africa": {
+   "lat": -26.147,
+   "lon": 28.683,
+   "region": "transvaal"
+  },
+  "Den 2 Febrùarij 1727. K: Ernst Hendrik. V: Barnardùs van Belliijon M: Marija Walthirs. G: Hendrik van der Wat. Drakenstein.": null,
+  "Denmark": null,
+  "Deventer, Gelderland, The Netherlands": {
+   "lat": 52.255,
+   "lon": 6.164,
+   "region": "netherlands"
+  },
+  "Devon": null,
+  "Devon County Asylum, Devon": null,
+  "Devonshire, England": null,
+  "Devonshire, England, United Kingdom": null,
+  "Devonshire, United Kingdom": null,
+  "Die Bad, Agtersuurberg, Graaff-Reinet": null,
+  "Died Smithfield (VAB: MHG K1470 (1906), Free State, BETHULIE district, Ruigtevlei, farm cemetery": {
+   "lat": -30.499,
+   "lon": 25.975,
+   "region": "orange-free-state"
+  },
+  "Died young": null,
+  "Different  Farm \"Wurtemburg\" field-cornetcy of Rhenosterberg, Knapdaar, District Colesberg, Cape, South Africa": null,
+  "District Albert, South Africa": null,
+  "District Colesberg, Eastern Cape, South Africa": null,
+  "District of Cradock, South Africa": null,
+  "District of Somerset, Cape Colony": null,
+  "Dombroy, Calais, Pas-de-Calais, Nord-Pas-de-Calais, France": null,
+  "Dombroy, Nord-Pas-de-Calais, France": null,
+  "Dompfarrei-Katholisch, Freiburg, Freiburg, Baden, Germany": null,
+  "Doornbult, \"Wyk\" Zandrivier, Dist. Windburg, OVS, Suid-Afrika": null,
+  "Dordrecht": null,
+  "Dordrecht Gereformeerde Kerk, Cape Province, South Africa": null,
+  "Dordrecht, Cape Colony, South Africa": null,
+  "Dordrecht, Cape Province, South Africa": null,
+  "Dordrecht, Emalahleni, Chris Hani, Oost-Kaap, Zuid-Afrika": null,
+  "Dordrecht, Stormberg District, Eastern Cape, South Africa": null,
+  "Dordrecht, Wodehouse, Cape Province, South Africa": null,
+  "Douglas, Lanarkshire, Scotland": {
+   "lat": 55.557,
+   "lon": -3.848,
+   "region": "scotland"
+  },
+  "Draai om, Waschbank, Wodehouse": null,
+  "Draga, Rijeka Municipality, Croatia": null,
+  "Drakenstein": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein Municipality, Cape Winelands, WC, South Africa": null,
+  "Drakenstein Region, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein Suid Afrika, Paarl, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Drakenstein, Breede River District, Western Cape, Cape of Good Hope, Dutch Cape Colony, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Col., So. Afr.": null,
+  "Drakenstein, Cape Colony, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Of  Good Hope, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Of Good Hope, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Province, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape Winelands, WC, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape of Good Hope": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape of Good Hope, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape, South Africa(Paarl)": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Cape, South Africa.": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Dutch Cape Colony": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Dutch Cape Colony, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Kaap de Goede Hoop": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Kaap de Goede Hoop, Suid Afrika": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Kaap de Goede Hoop, Suid-Afrika": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Kaapkolonie": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Middelburg, Cape Province, South Africa": null,
+  "Drakenstein, Paarl, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Paarl, Cape Province, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Paarl, Cape Winelands, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Paarl, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Paarl, Dutch Cape Colony, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Paarl, Western Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Southern, Limpopo, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Stellenbosch, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Stellenbosch, Kaap de Goede Hoop": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Stellenbosch, Western Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Suid Afrika, Kaap": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, The Cape of Good Hope, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Western Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, Western Cape, South Africa.": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, de Caep de Goede Hoop, Dutch Cape Colony": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Drakenstein, de Caep de Goede Hoop, Dutch Cape Colony [South Africa]": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Dramalj, Općina Crikvenica, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.193,
+   "lon": 14.668,
+   "region": "kvarner"
+  },
+  "Drayton & Toowoomba Cementry": null,
+  "Drayton and Toowomba Cemetery, Toowoomba, Queensland (PRES3-007-0012)": {
+   "lat": -27.561,
+   "lon": 151.954,
+   "region": "queensland"
+  },
+  "Drivers Field, Gloucester, England": null,
+  "Drogheda, County Louth, Ireland": {
+   "lat": 53.715,
+   "lon": -6.352,
+   "region": "ireland"
+  },
+  "Drooge Rijskloof, Piketberg, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -32.903,
+   "lon": 18.757,
+   "region": "western-cape"
+  },
+  "Druyten, Netherlands": null,
+  "Družetić": null,
+  "Dundee, Angus, Scotland": {
+   "lat": 56.469,
+   "lon": -2.975,
+   "region": "scotland"
+  },
+  "Dundee, Scotland": {
+   "lat": 56.469,
+   "lon": -2.975,
+   "region": "scotland"
+  },
+  "Dunfermline Palace, Dunfermline, Fife, Scotland": {
+   "lat": 56.072,
+   "lon": -3.459,
+   "region": "scotland"
+  },
+  "Dunfermline Palace, Fife, Scotland": null,
+  "Dunfermline, Scotland": {
+   "lat": 56.072,
+   "lon": -3.459,
+   "region": "scotland"
+  },
+  "Dunfirmline, Fife, Scotland, Great Britain": null,
+  "Durban, Natal, South Africa": {
+   "lat": -29.858,
+   "lon": 31.029,
+   "region": "natal"
+  },
+  "Dutch Cape Colony": null,
+  "Dutch Cape Colony, South Africa": null,
+  "Dutch Reformed Church, Cape Town, Cape of Good Hope, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Dutch Reformed Church, Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Dutton Park / South Brisbane Cemetery, 8B-332": null,
+  "Dutton Park / South Brisbane Cemetery, 8B-333": null,
+  "Dutton Park, Queensland, Australia": null,
+  "Dürnau/Biberach/BW": null,
+  "EVANGELISCH, HEUTINGSHEIM, NECKARKREIS, WUERTTEMBERG": null,
+  "East Cape, South Africa": null,
+  "East Cemetery East London, Buffalo City Metropolitan Municipality, Eastern Cape, South Africa": null,
+  "East Friesland": null,
+  "East London, Cape Province, South Africa": null,
+  "East Winch, East Winch, Norfolk, England": {
+   "lat": 52.72,
+   "lon": 0.512,
+   "region": "england"
+  },
+  "East Winch, Norfolk, England": {
+   "lat": 52.72,
+   "lon": 0.512,
+   "region": "england"
+  },
+  "Eastern Cape, South Africa": null,
+  "Eddington Cemetery, Victoria, Australia": null,
+  "Edensor, Derbyshire, England": {
+   "lat": 53.227,
+   "lon": -1.626,
+   "region": "england"
+  },
+  "Edinburgh Castle, Edinburgh, Midlothian, Scotland": {
+   "lat": 55.952,
+   "lon": -3.196,
+   "region": "scotland"
+  },
+  "Edingen, Baden-Württemberg, Deutschland(HRR)": null,
+  "Eensaamheid, Groot Drakenstein, South Africa": null,
+  "Eenzaamheid": null,
+  "Eenzaamheid, Thabo Mofutsanyane, Free State, South Africa": {
+   "lat": -28.052,
+   "lon": 28.712,
+   "region": "orange-free-state"
+  },
+  "Egmond aan Zee, North Holland, Netherlands": {
+   "lat": 52.62,
+   "lon": 4.627,
+   "region": "netherlands"
+  },
+  "Ehrstaedt, Heidelberg, Baden, Germany": null,
+  "Ehrstaedt, Heidelburg, Baden, Germany": null,
+  "Ehrstaedt, Heidlberg, Baden, Germany": null,
+  "Elands Drift, Cradock, Cape Colony, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Elliot, Cape Province, South Africa": null,
+  "Elliot, Elliot, Stormberg District, Eastern Cape, South Africa": null,
+  "Elliot, Stormberg District, Eastern Cape, South Africa": null,
+  "Ellis Island, New York, USA": null,
+  "Eltonhead, Lancashire, England": null,
+  "Emmaville Cemetery, New South Wales, Australia": null,
+  "Emmaville District, New South Wales, Australia": null,
+  "Emmenk, Nederland": null,
+  "Emmerich, Düsseldorf, North Rhine-Westphalia, Germany": null,
+  "Emmerich, Germany": null,
+  "Emmerich, Nord-Rhein, Westphalia, Germany": null,
+  "Emmerich, Nordrhein-Westfalen, Germany": null,
+  "Emmerich, Rees, Rhein, Prussia(Germany)": null,
+  "Emmerik Holland": null,
+  "Emmerik, Netherlands/Germany": null,
+  "Emmerik, Westervoort, Netherlands": {
+   "lat": 51.956,
+   "lon": 5.972,
+   "region": "netherlands"
+  },
+  "Emmirik, Nederland": null,
+  "Emu Park, Queensland, Australia": null,
+  "England": {
+   "region": "england"
+  },
+  "England, Great Britain, United Kingdom": {
+   "region": "england"
+  },
+  "England, United Kingdom": {
+   "region": "england"
+  },
+  "Engmond Aan Zee, North Holland, Netherlands": null,
+  "Enschede, Overijssel, Netherlands": null,
+  "Enslindale Farm, Hartley District, Rhodesia": null,
+  "Eselsfonteijn, Bokkeveld, de Caep de Goede Hoop, Dutch Cape Colony": null,
+  "Etten-Leur, Etten-Leur, North Brabant, The Netherlands": {
+   "lat": 51.571,
+   "lon": 4.637,
+   "region": "netherlands"
+  },
+  "Evangelisch, Blomberg, Lippe, Germany": null,
+  "Evangelisch, Rheda, Westfalen, Prussia": null,
+  "Evangelisch, Siegen, Westfalen, Prussia": null,
+  "Everton, Potchefstroom, South Africa": null,
+  "Exeter, Devon, England": {
+   "lat": 50.724,
+   "lon": -3.527,
+   "region": "england"
+  },
+  "Ezelsgat, Colesberg, Venterstad, Northern Cape, South Africa": null,
+  "Falkland Palace, Fife, Scotland": null,
+  "Falmer, The City of Brighton and Hove, England, United Kingdom": {
+   "lat": 50.865,
+   "lon": -0.077,
+   "region": "england"
+  },
+  "Farm \"Nooitgedacht\", District Vryheid, Orange Free State, South Africa": null,
+  "Farm \"Roodekop\", district of Ladybrand": null,
+  "Farm - Tafelkop": null,
+  "Farm Caroluspoort, Colesberg, Bo-Seekoeirivier, Cape Colony, South Africa": null,
+  "Farm Rietgat, Winburg, Lejweleputswa, Free State, South Africa": {
+   "lat": -28.518,
+   "lon": 27.009,
+   "region": "orange-free-state"
+  },
+  "Felde, Ammerland, Niedersachsen, Germany": null,
+  "Felde, Aurich, Niedersachen, Germany.": null,
+  "Felde, Aurich, Niedersachsen, Germany": null,
+  "Felde, Niedersachsen, Germany": null,
+  "Flinksfontein, Cape, ZA": null,
+  "Flumen, Croatia": {
+   "lat": 45.327,
+   "lon": 14.442,
+   "region": "kvarner"
+  },
+  "Forchia, Benevento, Campania, Italy": {
+   "lat": 41.031,
+   "lon": 14.536,
+   "region": "campania"
+  },
+  "Forchia, Italy": {
+   "lat": 41.031,
+   "lon": 14.536,
+   "region": "campania"
+  },
+  "Forde Hall, Warwickshire, England": null,
+  "Fordsburg, Johannesburg, Transvaal, South Africa": {
+   "lat": -26.25,
+   "lon": 27.833,
+   "region": "transvaal"
+  },
+  "Forest Hill, Johannesburg, Transvaal, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Fort Beaufort, Amatole, Eastern Cape, South Africa": {
+   "lat": -32.775,
+   "lon": 26.634,
+   "region": "cape"
+  },
+  "Fort Wiltshire, Cape Colony": null,
+  "Fort de Lincq, France": null,
+  "Frampton, Gloucestershire, England": {
+   "lat": 51.77,
+   "lon": -2.364,
+   "region": "england"
+  },
+  "France": null,
+  "France?": null,
+  "Francikovac 75, Krivi Put, Općina Senj, Lika-Senj County, Croatia": {
+   "lat": 44.996,
+   "lon": 14.954,
+   "region": "kvarner"
+  },
+  "Frankfurt am Main, Frankfurt am Main, Hessen, Deutschland": null,
+  "Frankfurt am Main, Hesse-Nassau, Germany": {
+   "lat": 50.115,
+   "lon": 8.684,
+   "region": "frankfurt"
+  },
+  "Frankfurt am Main, Hessen, Deutschland": null,
+  "Franschhoek, Cape of Good Hope, South Africa": {
+   "lat": -33.911,
+   "lon": 19.12,
+   "region": "western-cape"
+  },
+  "Franschhoek, Paarl, Cape Province, South Africa": {
+   "lat": -33.911,
+   "lon": 19.12,
+   "region": "western-cape"
+  },
+  "Franschhoek, Western Cape, South Africa": {
+   "lat": -33.911,
+   "lon": 19.12,
+   "region": "western-cape"
+  },
+  "Franschoek, Dordrecht, Cape Province, South Africa": null,
+  "Franschoek, Drakenstein, Cape of Good Hope, South Africa.": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Franschoek, Western Cape, South Africa": null,
+  "Free State, South Africa": null,
+  "Frere Hall, Warwickshire, England": null,
+  "Friederichsburg, Mannhiem, Baden, Germany": null,
+  "Friedrichsburg, Mannheim, Baden": null,
+  "Funnix, Germany": null,
+  "Fuzine, Croatia": {
+   "lat": 45.305,
+   "lon": 14.716,
+   "region": "kvarner"
+  },
+  "GAREŠNICA, Croatia": null,
+  "GAREŠNICA, Yugoslavia": null,
+  "GRAAF-REINET": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Gammelsbach": null,
+  "Gammelsbach, Beerfelden, Darmstadt, Hessen, Germany": null,
+  "Gammelsbach, Duitsland": null,
+  "Gammelsbach, Erbach, Hessen, Germany": null,
+  "Gammelsbach, Erbach, Starkenburg, Hessen, Germany": null,
+  "Gammelsbach, Germany": null,
+  "Gammelsbach, Starkenburg, Hessen, Duitsland": null,
+  "Gammelsbach, Starkenburg, Hessen, Germany": null,
+  "Gammelsbach, Starkenburg, germany": null,
+  "Gammelsback, Germany": null,
+  "Ganges Delta, Bengal, Bangladesh, India": null,
+  "Ganges Delta, Bengal, India": null,
+  "Gansgat, Colesberg, Bo-Karoo, Northern Cape, South Africa": null,
+  "Gansgat, Colesberg, Cape Colony [South Africa]": null,
+  "Garešnica, kajgana": null,
+  "Gauteng, BENONI, Rynsoord cemetery": {
+   "lat": -26.189,
+   "lon": 28.321,
+   "region": "transvaal"
+  },
+  "Geelhoutboom, Sondagsrivier, South Africa": null,
+  "Geisenhain, Thüringen, Germany": null,
+  "Geisenheim, Germany": {
+   "lat": 49.985,
+   "lon": 7.968,
+   "region": "rhenish-hesse"
+  },
+  "Geneva Place, Bideford, Bideford, Devon, England": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "George The Martyr, Queen's Square, London, England": null,
+  "George, Cape Province, South Africa": {
+   "lat": -33.963,
+   "lon": 22.462,
+   "region": "cape"
+  },
+  "George, South Cape DC, Western Cape, South Africa": {
+   "lat": -33.963,
+   "lon": 22.462,
+   "region": "cape"
+  },
+  "Germany": null,
+  "Germany, Europe": null,
+  "Germiston, East Rand, GP, South Africa": {
+   "lat": -26.215,
+   "lon": 28.164,
+   "region": "transvaal"
+  },
+  "Germiston, Gauteng, South Africa": {
+   "lat": -26.215,
+   "lon": 28.164,
+   "region": "transvaal"
+  },
+  "Germiston, Transvaal, South Africa": {
+   "lat": -26.215,
+   "lon": 28.164,
+   "region": "transvaal"
+  },
+  "Gerret, soon van Albert Immenes, en Catrina van den Bos, getuijge Arij van Wijck, en Cornelia Helmes: den 4 Janrij 1705. Stellenbosch": null,
+  "Ghent, East Flanders, Belgium": {
+   "lat": 51.05,
+   "lon": 3.717,
+   "region": "belgium"
+  },
+  "Gildesgaard, Nylarsker, Bornholm, Denmark": null,
+  "Gilling, Sedbury Park, Yorkshire, England": null,
+  "Glamorgan, Monmouthshire, United Kingdom": null,
+  "Glen Lyden, Oos Kaap, Suid Afroka": null,
+  "Glen Lynden": null,
+  "Glen Lynden, Cape Colony, South Africa": {
+   "lat": -32.535,
+   "lon": 25.995,
+   "region": "cape"
+  },
+  "Gleniffer, Elliot, Cape Colony, South Africa": null,
+  "Glenmore, District of Barkly East, South Africa": null,
+  "Globleben, Tangermünde, Saxony-Anhalt, Deutschland": null,
+  "Gloucestershire": null,
+  "Gloucestershire, England": null,
+  "Goeree, Netherlands": null,
+  "Goeree, Oudorp, Netherlands": null,
+  "Gola Glava": null,
+  "Gola Glava, Kolubara District, Serbia": {
+   "lat": 44.396,
+   "lon": 19.859,
+   "region": "serbia"
+  },
+  "Gola Glava, Serbia": {
+   "lat": 44.396,
+   "lon": 19.859,
+   "region": "serbia"
+  },
+  "Gold Park, Ontario, Canada": null,
+  "Gologorica, Istra, Croatia": {
+   "lat": 45.258,
+   "lon": 14.034,
+   "region": "istria-central"
+  },
+  "Good Hope, South Africa": null,
+  "Gorica": null,
+  "Gornja Grabovica, Serbia": {
+   "lat": 44.317,
+   "lon": 19.9,
+   "region": "serbia"
+  },
+  "Gospa Snježne [Our Lady of Snow RC Church], Parish of Krivi Put, Lika-Senj, Croatia": null,
+  "Gospa snežnja (Our Lady of Snow) RC Church, Parish of Krivi Put": null,
+  "Gospe Snježne [Our Lady of Snow RC Church] Cemetery, Krivi Put, Lika-Senj, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Gospe Snježne [Our Lady of Snow RC Church], Parish of Krivi Put, Lika-Senj, Croatia": null,
+  "Gospe Snježne [Our Lady of Snow RC Church]Krivi Put, Lika-Senj, Croatia": null,
+  "Goulburn, New South Wales, Australia": null,
+  "Graaf Reinet": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaf Reinet District": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaf Reinet, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaf Reniet, Wes kaap, Suid Afrika": null,
+  "Graaf-Reinett, Cape of Good Hope, South Africa": null,
+  "Graaf_Reinett, Cape of Good Hope, South Africa": null,
+  "Graaff Reinet": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet district, Dutch Cape Colony, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, Cape Col., South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, Cape Province, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, Cape, [South Africa]": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, S.A.": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinet, South Africa, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinette": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff Reinette, Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet Cape South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet Western District Eastern Cape South": null,
+  "Graaff-Reinet, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Camdeboo, Cacadu, Oost-Kaap, Zuid-Afrika": null,
+  "Graaff-Reinet, Cape": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape Colony (of the Batavian Republic), South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape Colony, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape Province, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape of Good Hope, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape of Good Hope, South Africa.": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Cape, South Africa.": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Dutch Cape Colony": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, EC, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Graaff-Reinet, Cape Province, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Oos Kaap, Suid-Afrika": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Oos-Kaap, Suid -Afrika": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Western District, Eastern Cape, Sou": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinet, Western District, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Graaff-Reinett, Cape Of Good Hope, South Africa": null,
+  "Graaff-Reinett, Cape of Good Hope, South Africa": null,
+  "Grabova Lokva, Lika-Senj, Croatia": {
+   "lat": 45.025,
+   "lon": 15.022,
+   "region": "kvarner"
+  },
+  "Grabova Lokva, Lika-Senj, Hrvatska": {
+   "lat": 45.025,
+   "lon": 15.022,
+   "region": "kvarner"
+  },
+  "Gracisce, Istra, Croatia": {
+   "lat": 45.219,
+   "lon": 14.011,
+   "region": "istria-central"
+  },
+  "Graham Street, South Brisbane, Queensland, Australia": {
+   "lat": -27.48,
+   "lon": 153.02,
+   "region": "queensland"
+  },
+  "Grahamstad": null,
+  "Grave X2C7, churchyard of Northam parish church": null,
+  "Gravenhage, Zuid Holland, Nederlande": null,
+  "Gravesend, Kent, England": null,
+  "Gračišće": null,
+  "Gračišće, Croatia": {
+   "lat": 45.219,
+   "lon": 14.011,
+   "region": "istria-central"
+  },
+  "Gračišće, Galižana, Općina Vodnjan, Istria County, Croatia": {
+   "lat": 45.219,
+   "lon": 14.011,
+   "region": "istria-central"
+  },
+  "Gračišće, Istria, Croatia": {
+   "lat": 45.219,
+   "lon": 14.011,
+   "region": "istria-central"
+  },
+  "Great Fish River, Albany, Eastern Cape, South Africa": null,
+  "Greater London, Lambeth, Surrey": {
+   "lat": 51.496,
+   "lon": -0.112,
+   "region": "england"
+  },
+  "Greenwich Palace, Greenwich, Kent, England": {
+   "lat": 51.478,
+   "lon": -0.012,
+   "region": "england"
+  },
+  "Greenwich Palace, Richmond, Surrey, England": {
+   "lat": 51.462,
+   "lon": -0.306,
+   "region": "england"
+  },
+  "Grijpskerk, Groningen, Netherlands": {
+   "lat": 53.219,
+   "lon": 6.567,
+   "region": "netherlands"
+  },
+  "Grijpskerk, Zuidhorn, Groningen, Netherlands": {
+   "lat": 53.247,
+   "lon": 6.403,
+   "region": "netherlands"
+  },
+  "Grijpskerke, Veere, Zeeland, Netherlands": null,
+  "Grižane": {
+   "lat": 45.201,
+   "lon": 14.722,
+   "region": "kvarner"
+  },
+  "Grižane-Belgrad, Općina Vinodolska Općina, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.201,
+   "lon": 14.722,
+   "region": "kvarner"
+  },
+  "Groblje Mirogoj, Zagreb, Hrvatska": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Groblje Miroševac, Zagreb, Hrvatska": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Groot Dam, Cradock District, Cape Province.": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Groot Marico, Transvaal, South Africa": {
+   "lat": -25.597,
+   "lon": 26.417,
+   "region": "transvaal"
+  },
+  "Grypskerk, Netherlands": null,
+  "Gryskerk, Netherlands": null,
+  "Guines, Pas-de-Calais, Nord-Pas-de-Calais, France": null,
+  "Gunsteling, Cradock, Kaapkolonie, Suid-Afrika": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Guînes": null,
+  "Guînes, Pas-de-Calais, France": null,
+  "Gympie, Queensland, Australia": {
+   "lat": -26.19,
+   "lon": 152.66,
+   "region": "queensland"
+  },
+  "HARTLAND, DEVON, ENGLAND": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Haarlem, Noord-Holland, Netherlands": {
+   "lat": 52.381,
+   "lon": 4.637,
+   "region": "netherlands"
+  },
+  "Haarlemmermeer, Nederlande": null,
+  "Haddington, Scotland": {
+   "lat": 55.956,
+   "lon": -2.783,
+   "region": "scotland"
+  },
+  "Hamburg, Germany": null,
+  "Hamel, Nord, Nord-Pas-de-Calais, France": null,
+  "Hamelin, Lower Saxony, Germany": null,
+  "Hamelin, Lower Saxony, Germany, Germany": null,
+  "Hameln, Hameln-Pyrmont, Niedersachsen, Germany": null,
+  "Hameln, Hanover, Prussia, Germany": null,
+  "Hameln, Niedersachsen, Germany": null,
+  "Hamlets of Casthorpe, Barrowby, Lincolnshire, England": {
+   "lat": 52.916,
+   "lon": -0.691,
+   "region": "england"
+  },
+  "Hampton Court Palace, Richmond, Greater London, United Kingdom": {
+   "lat": 51.462,
+   "lon": -0.306,
+   "region": "england"
+  },
+  "Hampton, Province of New Hampshire": null,
+  "Hamwood, Dunboyne, Meath, Ireland": {
+   "lat": 53.419,
+   "lon": -6.474,
+   "region": "ireland"
+  },
+  "Hanley Castle, Worcestershire": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Hanley, Stafford, England": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Hanley, Stoke-on-Trent, England, United Kingdom": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Hanley, Stoke-on-Trent, Staffordshire, England": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Hanley, Worcestershire, England": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Hanover, Bo-Karoo, Northern Cape, South Africa": null,
+  "Hanover, Cape Province, South Africa": null,
+  "Hanover, Lower Saxony, Germany": null,
+  "Harare, Harare Province, Zimbabwe": null,
+  "Hardenberg, Nederland": {
+   "lat": 52.576,
+   "lon": 6.619,
+   "region": "netherlands"
+  },
+  "Hardenberg, Overijssel, Netherlands": {
+   "lat": 52.576,
+   "lon": 6.619,
+   "region": "netherlands"
+  },
+  "Harlingen, Friesland, Netherlands": null,
+  "Harlingen, Friesland, Niederlande": null,
+  "Harrismith, Thabo Mofutsanyane, Free State, South Africa": {
+   "lat": -28.273,
+   "lon": 29.13,
+   "region": "orange-free-state"
+  },
+  "Hartland, Devon": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon ENGLAND": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, Eng": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, Eng.": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, England, Hartland, Devon, England, United Kingdom": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, England, United Kingdom": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon, UK": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon., Eng.": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devon., England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devonshire Eng": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devonshire, Eng.": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devonshire, England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devonshire, England, Hartland, Devon, England, United Kingdom": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Devonshire, England, United Kingdom": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hartland, Torridge, Devonshire, England, United Kingdom": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "Hasselt, Brabant Wallon [Belgium]": null,
+  "Hasselt, Limburg, Vlaams Gewest, Belgium": {
+   "lat": 50.931,
+   "lon": 5.338,
+   "region": "belgium"
+  },
+  "Hatcott, Devon, England, United Kingdom": null,
+  "Hawkshead, England": {
+   "lat": 54.375,
+   "lon": -2.999,
+   "region": "england"
+  },
+  "Hazekraal, Cape of Good Hope, Dutch Cape Colony": null,
+  "Heidelberg, BAden, Germany": null,
+  "Heidelberg, Baden, Deutschland(HRR)": null,
+  "Heidelberg, Baden, Germany": null,
+  "Heidelberg, Banyule City, Victoria, Australia": null,
+  "Heidelberg, Bayern, Deutschland(HRR)": null,
+  "Heidelberg, Deuschland(HRR)": null,
+  "Heidelberg, Karlsruhe, Baden-Wurttemberg, Germany": null,
+  "Heidelberg, Karlsruhe, Baden-Württemberg, Germany": null,
+  "Heidelberg, Pfalz, Deutschland((HRR)": null,
+  "Heidelberg, Pfalz, Deutschland(HRR)": null,
+  "Helmenhube, Germany": null,
+  "Hemnes, Nordland, Norge": null,
+  "Hendkrans": null,
+  "Henford, Devon, England": {
+   "lat": 50.729,
+   "lon": -4.312,
+   "region": "england"
+  },
+  "Hentland, Barkly East, Cape Province, South Africa": null,
+  "Herford, Hessen, Deutschland(HRR)": null,
+  "Herrenhausen, Hannover, Braunschweig-Lüneburg, Deutschland(HRR)": null,
+  "Hertogenbosch, The Netherlands": {
+   "lat": 51.699,
+   "lon": 5.304,
+   "region": "netherlands"
+  },
+  "Hervormde Kerk. Oudedorp, Overflakke": null,
+  "Hessen, Germany": null,
+  "Hexriver Valley, Swellendam, Cape of Good Hope, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Hexrivier": null,
+  "Hibbing, St Louis, Minnesota, USA": null,
+  "Hibbing, St. Louis, Minnesota, United States": null,
+  "Hildesheim, Duitsland": null,
+  "Hildesheim, Niedersachsen, Germany": null,
+  "Hildesheim, Niedersachsen, Hansa Verein": null,
+  "Hillingdon House, Middlesex, London, England": null,
+  "Himley Hall, Himley Staffs": null,
+  "Himley Hall, Staffordshire, England": {
+   "lat": 52.519,
+   "lon": -2.182,
+   "region": "england"
+  },
+  "Himley, Staffordshire, England": {
+   "lat": 52.518,
+   "lon": -2.177,
+   "region": "england"
+  },
+  "Hoboken, Vlaams Gewest, Antwerp, Belgium": {
+   "lat": 51.176,
+   "lon": 4.348,
+   "region": "belgium"
+  },
+  "Holborn, London, England": {
+   "lat": 51.517,
+   "lon": -0.12,
+   "region": "england"
+  },
+  "Holland Park West, Brisbane City, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Holland, Netherlands": null,
+  "Holsworthy, Devon, England": {
+   "lat": 50.812,
+   "lon": -4.354,
+   "region": "england"
+  },
+  "Holtrop, Aurich, Niedersachsen, Germany": null,
+  "Holtrop, Großefehn, NDS, Germany": null,
+  "Holy Sepulchre Cemetery, Sault Ste. Marie, Algoma District, Ontario, Canada": null,
+  "Holy Trinity, Kingswinford, Stafford, England": {
+   "lat": 52.498,
+   "lon": -2.169,
+   "region": "england"
+  },
+  "Home Sweet Terrace, Northam": null,
+  "Hooglandse Kerk, Leiden, Leiden, Zuid-Holland, The Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Hooglandse Kerk, Leiden, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Hopetown, Bo-Karoo, Northern Cape, South Africa": null,
+  "Hornby": null,
+  "Hornby Castle, North Riding, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby Castle, York, England, Great Britain": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby Castle, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby Castle, nr Bedale, Yorkshire": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby Castle, nr Bedale, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, North Riding, Yorkshire": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, North Riding, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, Richmondshire District, North Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, West Riding, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, York, England, Kingdom of Great Britain": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, Yorks, Eng": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, Yorkshire": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Hornby, Yorkshire, England": {
+   "lat": 54.444,
+   "lon": -1.441,
+   "region": "england"
+  },
+  "Hornsby Castle, England": {
+   "lat": 54.843,
+   "lon": -2.755,
+   "region": "england"
+  },
+  "Horsham Cemetery, Victoria, Australia": null,
+  "Horsham, Horsham Rural City, Victoria, Australia": null,
+  "Hotten": null,
+  "Hrvatska": null,
+  "Hull, East Riding of Yorkshire, England, United Kingdom": {
+   "lat": 53.745,
+   "lon": -0.335,
+   "region": "england"
+  },
+  "Indwe, South Africa": null,
+  "Interment in parish cemetery, Gospa snježna (Our Lady of Snow) RC Church, parish of Krivi Put.": null,
+  "Interred drayton and toowoomba cemetery pres-001-0024, Toowoomba Queensland": null,
+  "Ireland": {
+   "region": "ireland"
+  },
+  "Irishtown, Ballymodan Parish, Bandon, County Cork, Province of Munster, Ireland": null,
+  "Italia": null,
+  "Italy": null,
+  "Jablanac, Croatia": null,
+  "Jan Harmansgat, Swellendam, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Jansenville, Western District, Eastern Cape, South Africa": {
+   "lat": -32.943,
+   "lon": 24.672,
+   "region": "cape"
+  },
+  "Jastrebarsko, Croatia": null,
+  "Jautina": null,
+  "Johannesburg": null,
+  "Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Johannesburg, Gauteng, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Johannesburg, South Africa": {
+   "lat": -26.205,
+   "lon": 28.05,
+   "region": "transvaal"
+  },
+  "Johannesburg, Transvaal, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Jonkershoek, Stellenbosch, Cape of Good Hope, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "KARLOBAG, Croatia": {
+   "lat": 44.528,
+   "lon": 15.072,
+   "region": "vojna-krajina"
+  },
+  "Kaals Spruit, Orange Free State, South Africa": null,
+  "Kaap": null,
+  "Kaap de Goede Hoop": null,
+  "Kaap de Goede Hoop, Dutch Cape Colony (South Africa)": null,
+  "Kaap de Goede Hoop, Dutch Cape Colony, VOC": null,
+  "Kaap de Goede Hoop, Kaap Kolonie": null,
+  "Kaap de Goede Hoop, SA": null,
+  "Kaap de Goede Hoop, Suid Afrika": null,
+  "Kaap de Goede Hoop, Suid-Afrika": null,
+  "Kaap, Suid Afrika": null,
+  "Kaapkolonie": null,
+  "Kaapkolonie, South Africa": null,
+  "Kaapkolonie, Suid Afrika": null,
+  "Kaapkolonie, Suid-Afrika": null,
+  "Kaapstad": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kaapstad, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kaapstad, Kaap de Goede Hoop, Suid Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kaapstad, Kaap de Goede Hoop, Suid-Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kaapstad, Wes Kaap, Suid Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kaapstad, Western Cape Province, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Kalverhoek, Barkly East, Cape Colony, South Africa": null,
+  "Kap der Guten Hoffnung, South Africa": null,
+  "Kap der Guten Hoffnung, Südafrika": null,
+  "Karlobag": {
+   "lat": 44.528,
+   "lon": 15.072,
+   "region": "vojna-krajina"
+  },
+  "Karlobag, Ličko-senjska županija, Croatia": {
+   "lat": 44.528,
+   "lon": 15.072,
+   "region": "vojna-krajina"
+  },
+  "Karlobag, Općina Karlobag, Ličko-senjska županija, Croatia": {
+   "lat": 44.528,
+   "lon": 15.072,
+   "region": "vojna-krajina"
+  },
+  "Kasperskop, Tarka": null,
+  "Kaštelir, Istra, Croatia": {
+   "lat": 45.303,
+   "lon": 13.685,
+   "region": "istria-west"
+  },
+  "Keele, Staffordshire": {
+   "lat": 53.004,
+   "lon": -2.287,
+   "region": "england"
+  },
+  "Keele, Staffordshire, England": {
+   "lat": 53.004,
+   "lon": -2.288,
+   "region": "england"
+  },
+  "Keele, Staffordshire-Inglaterra": null,
+  "Kempsey, Kempsey Shire Council, New South Wales, Australia": null,
+  "Kempsey, New South Wales, Australia": null,
+  "Kennington, Surrey, England": {
+   "lat": 51.167,
+   "lon": 0.885,
+   "region": "england"
+  },
+  "Kensington House, London, Middlesex, England": null,
+  "Kent Co., , England": null,
+  "Kent, England": null,
+  "Kent, England, UK": null,
+  "Kent, Kent, England": null,
+  "Kermpote, Sv. Jakov": {
+   "lat": 45.089,
+   "lon": 14.934,
+   "region": "kvarner"
+  },
+  "Keurfontein, Cradock, Stormberg District, Eastern Cape, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "King Henry's Chapel": null,
+  "King, Postmasburg, Cape Province, South Africa": null,
+  "Kings Worthy, Hampshire, England, United Kingdom": {
+   "lat": 51.089,
+   "lon": -1.298,
+   "region": "england"
+  },
+  "Kingston, Ulster County, New York, United States": null,
+  "Kingston, Ulster, New York, USA": null,
+  "Kingswear, Devon, England": {
+   "lat": 50.349,
+   "lon": -3.568,
+   "region": "england"
+  },
+  "Kington St Michael, Wiltshire": null,
+  "Kington St Michael, Wiltshire, England": null,
+  "Kirkby Fleetham, North Riding, Yorkshire, England": {
+   "lat": 54.346,
+   "lon": -1.566,
+   "region": "england"
+  },
+  "Kirkby Fleetham, North Yorkshire, England": {
+   "lat": 54.346,
+   "lon": -1.566,
+   "region": "england"
+  },
+  "Kirkby Mallory, Leicestershire, England": {
+   "lat": 52.602,
+   "lon": -1.33,
+   "region": "england"
+  },
+  "Kirkby Mallory, Leics.": null,
+  "Kirkby, Leicestershire, England": {
+   "lat": 53.481,
+   "lon": -2.892,
+   "region": "england"
+  },
+  "Kirn, Bad Kreuznach, Rhineland, Prussia, Germany": null,
+  "Klaas Smits Rivier, Queenstown, Cape Colony, South Africa": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "Klaricevac, Krivi Put, Croatia": {
+   "lat": 45.017,
+   "lon": 14.918,
+   "region": "kvarner"
+  },
+  "Klein Drakenstein, Paarl, WC, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Klein Haas Fontein, Cape, South Africa": null,
+  "Klein Marsfontein, Bethulie, Xhariep, Free State, South Africa": {
+   "lat": -30.499,
+   "lon": 25.975,
+   "region": "orange-free-state"
+  },
+  "Klein-Drakenstein, Paarl, Cape Province, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "Kleinbosch, Wellington, Cape of Good Hope": {
+   "lat": -33.64,
+   "lon": 19.011,
+   "region": "western-cape"
+  },
+  "Kleine Bergrivier aan die Kleine Berg, Kaap": null,
+  "Kleine Bergrivier, Cape of Good Hope, South Africa": null,
+  "Kleinmölsen, Thuringia, Germany": null,
+  "Klenovica": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 17, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 19, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 22, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 23, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 28, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 36, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 37, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 38, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica 59, Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klenovica, Croatia": {
+   "lat": 45.103,
+   "lon": 14.846,
+   "region": "kvarner"
+  },
+  "Klipfontein, District Albert, Burgersdorp, Cape Colony, South Africa": null,
+  "Kljenovica, Croatia": null,
+  "Knapdaar, Suid-Middelve": null,
+  "Kneveton Manor, Nottinghamshire, England": null,
+  "Knoffelsvlei, Colesberg, Bo-Karoo, Northern Cape, South Africa": null,
+  "Knoffelvlei, Rhenosterberg, Cape Colony": null,
+  "Knoffelvlei, Rhenosterberg, South Africa": null,
+  "Kokstad, Cape, ZA": null,
+  "Koningskraal, Dordrecht": null,
+  "Koo, Kaap, Suid Afrika": {
+   "lat": -33.691,
+   "lon": 19.849,
+   "region": "western-cape"
+  },
+  "Koppiesfontein, Winburg, Orange Free State, South Africa": {
+   "lat": -28.518,
+   "lon": 27.009,
+   "region": "orange-free-state"
+  },
+  "Korah Tp, Algoma West, Ontario, Canada": null,
+  "Kornelia, de vader albert van Immenes, Moeder Trijntie van den Bos, getùijgen Joannes Bockelenberg en Jannetie van den Bos, d' 5e xbr 1706. Stellenbosch": null,
+  "Kraaifontein, Burgersdorp": null,
+  "Kraaifontein, Burgersdorp, Eastern Cape, South Africa": null,
+  "Kramberg, South Africa": null,
+  "Krivi Put": {
+   "lat": 45.032,
+   "lon": 14.964,
+   "region": "kvarner"
+  },
+  "Krivi Put 113, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 124, Senj, Lika, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 129, Senj, Lika, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 136, Senj, Lika, Austria-Hungary": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 136, Senj, Lika, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 79, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put 82, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put, Croatia": {
+   "lat": 45.032,
+   "lon": 14.964,
+   "region": "kvarner"
+  },
+  "Krivi Put, Lika-Senj, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put, Lika-Senj, Croatia, Yugoslavia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put, Lika-Senj, Hrvatska": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Krivi Put, Općina Senj, Lika-Senj County, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Kriviput Br.9, Croatia": null,
+  "Kriviput, Croatia": null,
+  "Krk, Croatia": {
+   "lat": 45.027,
+   "lon": 14.575,
+   "region": "kvarner"
+  },
+  "Krmpote": {
+   "lat": 45.089,
+   "lon": 14.934,
+   "region": "kvarner"
+  },
+  "Krmpote 124, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Krmpote 152, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Krmpote 82, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Krmpote, Općina Novi Vinodolski, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Krmpote, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.089,
+   "lon": 14.934,
+   "region": "kvarner"
+  },
+  "Krmpotske Vodice, Grad Novi Vinodolski, Primorsko-goranska županija, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Krnjevo": null,
+  "Krnjevo, Podunavlje District, Serbia": {
+   "lat": 44.409,
+   "lon": 21.053,
+   "region": "serbia"
+  },
+  "Kroonstad, , Free State, South Africa": {
+   "lat": -27.65,
+   "lon": 27.235,
+   "region": "orange-free-state"
+  },
+  "Kruis, Sneeuberg": null,
+  "Kruysfontein, Suid Afrika, Kaap": null,
+  "Kršna Glava": null,
+  "Kurri Kurri, New South Wales, Australia": null,
+  "Kutina": null,
+  "Kwaggas Fontyn, District Cradock, South Africa": null,
+  "Kwazulu-Natal, UTRECHT district, Puntje 330, Saxony farm cemetery": {
+   "lat": -27.659,
+   "lon": 30.322,
+   "region": "natal"
+  },
+  "Köln": null,
+  "Königstein, Bayern, Germany": null,
+  "Königstein, Sakse, Germany, Europe": null,
+  "L'Arc de Orleans, Loiret, France": null,
+  "Lady Grey": null,
+  "Lady Grey E/Cape": null,
+  "Lady Grey, Barkly East, Cape Province, South Africa": null,
+  "Lady Grey, Eastern Cape, South Africa": null,
+  "Lage, Lippe-Detmold, Bentheim": null,
+  "Lambeth, Surrey, England": {
+   "lat": 51.496,
+   "lon": -0.112,
+   "region": "england"
+  },
+  "Land Van Waveren (Tulbagh), Cape of Good Hope, South Africa": null,
+  "Land van Waveren, Cape of Good Hope, South Africa": null,
+  "Land van Waveren, Cape, South Africa": null,
+  "Land van Waveren, Land van Waveren, Cape of Good Hope, South Africa": null,
+  "Land van Waveren, de Caep de Goede Hoop, Dutch Cape Colony": null,
+  "Langdijck, Delft, Zuid-Holland, Nederland": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "Langdon Hall, Warwick, England": null,
+  "Langdon Hall, Warwickshire, England": {
+   "lat": 51.177,
+   "lon": 1.317,
+   "region": "england"
+  },
+  "Le 14 Octobre Lannee 1696 - Ellizabet fille de pierre Rousseau et hanna Retif, Le temoins et francois Retif et marie hanna. Drakenstein": null,
+  "Lebbeke, Belgium": {
+   "lat": 51.005,
+   "lon": 4.135,
+   "region": "belgium"
+  },
+  "Ledenice": {
+   "lat": 45.137,
+   "lon": 14.841,
+   "region": "kvarner"
+  },
+  "Ledenice / Klenovica 22, Klenovica, Croatia": null,
+  "Ledenice, 22, Croatia": {
+   "lat": 45.137,
+   "lon": 14.841,
+   "region": "kvarner"
+  },
+  "Ledenice, 27, Croatia": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Ledenice, 74, Croatia": {
+   "lat": 45.137,
+   "lon": 14.841,
+   "region": "kvarner"
+  },
+  "Ledenice, 86, Croatia": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Ledenice, 94, Croatia": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Ledenice, Croatia": {
+   "lat": 45.137,
+   "lon": 14.841,
+   "region": "kvarner"
+  },
+  "Ledenice, Modrus-Fiume, Hungary": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Ledenice, Modrus-Fiume, Magyarország": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Ledenice, Primorje-Gorski Kotar, Croatia": {
+   "lat": 45.139,
+   "lon": 14.842,
+   "region": "kvarner"
+  },
+  "Leeuwberg, Bloemfontein, Mangaung, Vrijstaat, Zuid-Afrika": {
+   "lat": -29.121,
+   "lon": 26.214,
+   "region": "orange-free-state"
+  },
+  "Leicester House, St. Martin's-in-the-Fields, London, England": null,
+  "Leiden, Dutch Republic": null,
+  "Leiden, Leiden, Zuid-Holland, The Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Leiden, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Leiden, Zuid Holland, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Leiden, Zuid-Holland, Nederland": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Leine Schloss, Hannover, Braunschweig-Lüneburg, Deutschland(HRR)": null,
+  "Lethabo, Transvaal, South Africa": null,
+  "Libertas, Stellenbosch, Kaap, Suid Afrika": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Lika-Senj, Croatia": null,
+  "Lille, Nord, Nord-Pas-de-Calais, France": null,
+  "Limerick City, Ireland": {
+   "lat": 52.665,
+   "lon": -8.623,
+   "region": "ireland"
+  },
+  "Limerick, County Limerick, Ireland": {
+   "lat": 52.653,
+   "lon": -8.611,
+   "region": "ireland"
+  },
+  "Limerick, Ireland": {
+   "lat": 52.661,
+   "lon": -8.63,
+   "region": "ireland"
+  },
+  "Limerick, Limerick, Ireland": {
+   "lat": 52.665,
+   "lon": -8.623,
+   "region": "ireland"
+  },
+  "Linar, Istra, Croatia": null,
+  "Lincolnshire, England": null,
+  "Linlithgow Palace, Lothian, Scotland": null,
+  "Linlithgow, Linlithgowshire, Scotland": {
+   "lat": 55.976,
+   "lon": -3.604,
+   "region": "scotland"
+  },
+  "Little Busby, Stokesley, Yorkshire": {
+   "lat": 54.47,
+   "lon": -1.193,
+   "region": "england"
+  },
+  "Littleham Manor, Devonshire, England": null,
+  "Loeriesfontein, Cambedoo, Cape Province": null,
+  "Loeriesfontein, Cambedoo, Cape Province, South Africa": null,
+  "Loeriesfontein, Camdeboo, Cape Colony, South Africa": null,
+  "London c11 Jun 1794 London, Westminster, St James": null,
+  "London c18 Aug 1813 Westminster, Soho - St Anne's": null,
+  "London c1810 London, Soho, St Anne's": {
+   "lat": 51.514,
+   "lon": -0.135,
+   "region": "england"
+  },
+  "London, Arnold Place, Newington buried London, St Mariens, The Strand in the Churchyard": null,
+  "London, Church Street, Soho Square": null,
+  "London, England": null,
+  "London, England, United Kingdom": null,
+  "London, Lambeth": {
+   "lat": 51.496,
+   "lon": -0.112,
+   "region": "england"
+  },
+  "London, Lambeth, England": {
+   "lat": 51.496,
+   "lon": -0.112,
+   "region": "england"
+  },
+  "London, London, Greater London, England, United Kingdom": null,
+  "London, Middlesex, England": null,
+  "London, Middlesex, England, Kingdom of Great Britain": null,
+  "London, Middlesex, England, United Kingdom": null,
+  "London, Shoreditch, England": {
+   "lat": 51.525,
+   "lon": -0.077,
+   "region": "england"
+  },
+  "London, c 12 Mar 1805 Westminster, Soho - St Anne\\'s": null,
+  "London, c3 Feb 1807 Westminster, Soho - St Anne's": null,
+  "Long Ashton, Som., Eng.": {
+   "lat": 51.43,
+   "lon": -2.661,
+   "region": "england"
+  },
+  "Long Ashton, Somerset": {
+   "lat": 51.43,
+   "lon": -2.661,
+   "region": "england"
+  },
+  "Long Ashton, Somerset, Eng": {
+   "lat": 51.43,
+   "lon": -2.662,
+   "region": "england"
+  },
+  "Long Ashton, Somerset, England": {
+   "lat": 51.43,
+   "lon": -2.662,
+   "region": "england"
+  },
+  "Los Angeles, California, United States": null,
+  "Lower Gunstone, Bideford, Devon": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Lower Gunstone, Bideford, Devonshire, England": {
+   "lat": 51.017,
+   "lon": -4.208,
+   "region": "england"
+  },
+  "Loxhore, parish, Devon, England": {
+   "lat": 51.13,
+   "lon": -3.979,
+   "region": "england"
+  },
+  "Lutwyche Cemetery, Brisbane, Queensland (Port. GP5, Sect. 36A, Grave 92)": null,
+  "Lutwyche Cemetery, Brisbane, Queensland (Port. GP5, Sect. 42A, Grave 23)": null,
+  "Lutwyche Cemetery, Brisbane, Queensland (Port. GP5, Sect. 42A, Grave 78)": null,
+  "Lutwyche Cemetery, Brisbane, Queensland, Australia (Port. GP5, Sect. 42A, Grave 77)": null,
+  "Lutwyche, Queensland, Australia": {
+   "lat": -27.423,
+   "lon": 153.034,
+   "region": "queensland"
+  },
+  "Lydenburg, Ehlanzeni, Mpumalanga, South Africa": {
+   "lat": -25.096,
+   "lon": 30.444,
+   "region": "transvaal"
+  },
+  "Lydenburg, Mpumalanga, South Africa": {
+   "lat": -25.096,
+   "lon": 30.444,
+   "region": "transvaal"
+  },
+  "Lyme Regis, Dorset": {
+   "lat": 50.727,
+   "lon": -2.935,
+   "region": "england"
+  },
+  "Lymington, Hampshire": {
+   "lat": 50.759,
+   "lon": -1.538,
+   "region": "england"
+  },
+  "Lyndoch Camp, Cape Province, South Africa": null,
+  "MALA MLINSKA, Croatia": null,
+  "MARKET BOSWORTH, LEICESTER, ENGLAND": {
+   "lat": 52.624,
+   "lon": -1.402,
+   "region": "england"
+  },
+  "Maclear, Cape Province, South Africa": null,
+  "Madeley, Shropshire, England": {
+   "lat": 53.0,
+   "lon": -2.333,
+   "region": "england"
+  },
+  "Madeley, Stafford, England": {
+   "lat": 53.0,
+   "lon": -2.333,
+   "region": "england"
+  },
+  "Madeley, Staffordshire, England": {
+   "lat": 53.0,
+   "lon": -2.338,
+   "region": "england"
+  },
+  "Madeley, Staffordshire, England, United Kingdom": {
+   "lat": 53.0,
+   "lon": -2.333,
+   "region": "england"
+  },
+  "Mainz, Rheinhessen, Hessen Lande, Germany": {
+   "lat": 49.982,
+   "lon": 8.28,
+   "region": "rhenish-hesse"
+  },
+  "Maitland Cemetery Number 1, Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Maket Drayton, Shropshire, England": null,
+  "Malabar, India": null,
+  "Malmesbury, WC, South Africa": {
+   "lat": -33.461,
+   "lon": 18.727,
+   "region": "western-cape"
+  },
+  "Maloney Street, Toowoomba, Queensland, Australia": {
+   "lat": -27.561,
+   "lon": 151.954,
+   "region": "queensland"
+  },
+  "Manor Owen, Barkley East, Eastern Cape, South Africa": null,
+  "Manor Owen, Barkly East, Eastern Cape, South Africa": null,
+  "Manor Owen, Barkly East, Eastern Cape, South Africa ( Johnsons Leap Farm)": null,
+  "Mansfield, Nottingham, England": {
+   "lat": 53.133,
+   "lon": -1.2,
+   "region": "england"
+  },
+  "Mansfield, Nottinghamshire, England": {
+   "lat": 53.133,
+   "lon": -1.2,
+   "region": "england"
+  },
+  "Maple Hill Cemetery, Hibbing, Minnesota, United States": null,
+  "Maple Hill Cemetery, Hibbing, St. Louis, Minnesota, United States": null,
+  "Maple Hill Cemetery, Hibbing, St. Louis, Minnesota, United States of America": null,
+  "Marck, Pas-de-Calais, Nord-Pas-de-Calais, France": null,
+  "Marcq, Calais, France": null,
+  "Marcq, Nord, Nord-Pas-de-Calais, France": null,
+  "Marcq-en-Baroeul, Nord, Nord-Pas-de-Calais, France": null,
+  "Market Bosworth, Leicester, England": {
+   "lat": 52.624,
+   "lon": -1.402,
+   "region": "england"
+  },
+  "Market Bosworth, Leicestershire, England": {
+   "lat": 52.624,
+   "lon": -1.402,
+   "region": "england"
+  },
+  "Market Bosworth, Leicestershire, England, UK.": {
+   "lat": 52.624,
+   "lon": -1.402,
+   "region": "england"
+  },
+  "Market Drayton, Shropshire, England": {
+   "lat": 52.905,
+   "lon": -2.49,
+   "region": "england"
+  },
+  "Marlborough, Wiltshire, England": {
+   "lat": 51.42,
+   "lon": -1.73,
+   "region": "england"
+  },
+  "Marrickville, New South Wales": null,
+  "Maryborough Cemetery, Maryborough, Queensland (Plot: Monumental L, Grave 410)": null,
+  "Maryborough, Queensland": null,
+  "Marylebone, London, Greater London, England, United Kingdom": {
+   "lat": 51.525,
+   "lon": -0.168,
+   "region": "england"
+  },
+  "Matatiele, Cape Province, South Africa": null,
+  "Mayfair, South Africa": null,
+  "Mecklenburg-Voorpommere, Duitsland": null,
+  "Meldert, Belgium": {
+   "lat": 50.934,
+   "lon": 4.135,
+   "region": "belgium"
+  },
+  "Menars, Loir-et-Cher, Centre, France": null,
+  "Menars-La-Ville, France": null,
+  "Mer (Menars-la-ville) near Blois, France": null,
+  "Mer, By Blois, France": null,
+  "Mereworth (Kent) England": null,
+  "Middelburg": null,
+  "Middelburg, Cape, South Africa": {
+   "lat": -31.493,
+   "lon": 25.006,
+   "region": "cape"
+  },
+  "Middelburg, Zeeland, Nederland": null,
+  "Middlesex, England": null,
+  "Mirogoj, Zagreb, City of Zagreb, Croatia": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Mirogoj, Zagreb, Grad Zagreb, City of Zagreb, Croatia": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Mission Hills, Los Angeles, Los Angeles, California, United States": null,
+  "Modderfontein aan Kafferrivier, South Africa": null,
+  "Modderfontein, Albert, South Africa": null,
+  "Monsterberg, Albany, Cape Colony": null,
+  "Montani  Stanište": null,
+  "Montani Stanište": null,
+  "Mooihoek, Burgersdorp, Cape Colony, South Africa": null,
+  "Mooloolah Cemetery, Glenview, Sunshine Coast Regional, Queensland, Australia": {
+   "lat": -26.767,
+   "lon": 153.017,
+   "region": "queensland"
+  },
+  "Moreton Bay": null,
+  "Morrissey Street, Woolloongabba, Queensland, Australia": null,
+  "Morton by Bourne, Lincolnshire, England": null,
+  "Morwenstow, Cornwall, England": {
+   "lat": 50.907,
+   "lon": -4.55,
+   "region": "england"
+  },
+  "Morwenstow, Cornwall, England, United Kingdom": {
+   "lat": 50.907,
+   "lon": -4.55,
+   "region": "england"
+  },
+  "Moulsham Hall, Essex, England": {
+   "lat": 51.727,
+   "lon": 0.468,
+   "region": "england"
+  },
+  "Mount Thompson Crematorium, Brisbane, Queensland (Cremated)": null,
+  "Mrzli Dol #30, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol #30, Lika-Senj, Hrvatska": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol #30, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol #6, Krivi Put, Senj, Hrvatska": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol #6, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol #7, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 14, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 14, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 29, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 30, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 6, Grad Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 6, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol 6, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol br. 14, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol br. 14, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol br. 30, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol br. 6, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, Lika-Senj, Hrvatska": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, Lika-Senj, Hrvatska, Jugoslavija": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, br 14 Općina Senj, Ličko-senjska županija, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mrzli Dol, br. 14, Lika-Senj, Croatia": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "Mt Thompson Memorial Gardens, Holland Park, Brisbane City, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "NG Kerk, Drakenstein, Kaap de Goede Hoop": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NG Kerk, Drakenstein, Kaap, Suid Afrika": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NG Kerk, Drakenstein, WC, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NG-Kerk, Stellenbosch, Cape of Good Hope": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "NGK Cape Town, Cape, South Africa": null,
+  "NGK Drakenstein": null,
+  "NGK Drakenstein, Drakenstein, Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NGK Kaapstad": null,
+  "NGK Kaapstad, Cape Town, Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "NGK Kaapstad., Cape Town, Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "NGK Stellenbosch": null,
+  "NGK, Cape Town": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "NGK, Cape Town, Western Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "NGK, Drakenstein, Kaap, Suid Afrika": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NGK, Drakenstein, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "NGK, Kaapstad, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "NGK, Paarl, Cape of Good Hope": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Nambour, Sunshine Coast Regional, Queensland, Australia": {
+   "lat": -26.626,
+   "lon": 152.959,
+   "region": "queensland"
+  },
+  "Nederduits Gereformeerde Kerk, Potchefstroom, Transvaal, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Nederduitsch Gereformeerde Kerk Stellenbosch": null,
+  "Nederduitsche Gereformeerde Kerk, Kaapstad, Caepe de Goeie Hoop": null,
+  "Nederduitsche Gereformeerde Kerk, Stellenbosch, Kaap de Goeie Hoop": null,
+  "Nederduitse Gereformeerde Kerk, Cape Town, Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Neeritter, Cape Colony, South Africa": null,
+  "Negroponte, Greece": null,
+  "Nether Skyers, Darfield, Yorkshire": {
+   "lat": 53.534,
+   "lon": -1.376,
+   "region": "england"
+  },
+  "Netherlands": null,
+  "Neuhaus near Neckar, Wuertt": null,
+  "Neuhaus near Schorndorf, Neckar, Wuertt.": null,
+  "Neuhaus, Jagst, Wuertt": null,
+  "Neuhaus, Neckar, Wuertt": null,
+  "Neuhrus near Schorndorf, Neckar, Wuertt.": null,
+  "New Park, Yorkshire": null,
+  "New South Wales, Australia": null,
+  "New York, New York, United States": null,
+  "Newborough, Yorkshire, England": null,
+  "Newlands, Cape Province, South Africa, Cape Town, City of Cape Town Metropolitan Municipality, WC, South Africa": {
+   "lat": -33.978,
+   "lon": 18.448,
+   "region": "western-cape"
+  },
+  "Newtown, 2042, Australia": null,
+  "Newtown, Fairfield, Connecticut, America": null,
+  "Niedersachse, Germany": null,
+  "Nienstedten, Herrschaft Pinneberg, Herzogtum Holstein, Dänemark": null,
+  "Nienstedten, Schleswig-Holstein, Preußen, Deutschland": null,
+  "No 3, Well St, Hanley, Staffordshire, England": {
+   "lat": 53.025,
+   "lon": -2.174,
+   "region": "england"
+  },
+  "Noodhulp, Wodehouse, Dordrecht, Cape Colony, South Africa": null,
+  "Noodhulp, Wodehouse, South Africa": null,
+  "Noord-Holland, Nederland": null,
+  "Norfolk, England": null,
+  "Norhvilla home, Benoni, Gauteng, South Africa": {
+   "lat": -26.189,
+   "lon": 28.321,
+   "region": "transvaal"
+  },
+  "North Holland, Netherlands": null,
+  "North Street, Northam, Devonshire": {
+   "lat": 51.033,
+   "lon": -4.217,
+   "region": "england"
+  },
+  "North Yorkshire, England, United Kingdom": null,
+  "Northam parish church. Old grave no. XB28 – K8": null,
+  "Northam, Devon": {
+   "lat": 51.033,
+   "lon": -4.217,
+   "region": "england"
+  },
+  "Northam, Devon, England": {
+   "lat": 51.033,
+   "lon": -4.217,
+   "region": "england"
+  },
+  "Northam, Devonshire": {
+   "lat": 51.033,
+   "lon": -4.217,
+   "region": "england"
+  },
+  "Northern Ireland": null,
+  "Norwich, England": {
+   "lat": 52.628,
+   "lon": 1.298,
+   "region": "england"
+  },
+  "Norwich, England, United Kingdom": {
+   "lat": 52.628,
+   "lon": 1.298,
+   "region": "england"
+  },
+  "Novi Vinodolski": {
+   "lat": 45.128,
+   "lon": 14.789,
+   "region": "kvarner"
+  },
+  "Novi Vinodolski, Croatia": {
+   "lat": 45.128,
+   "lon": 14.789,
+   "region": "kvarner"
+  },
+  "Novi Vinodolski, Krmpote": null,
+  "Nudgee Cemetery, Brisbane": null,
+  "Nudgee Cemetery, brisbane": null,
+  "Nun Appleton, Yorkshire, England": {
+   "lat": 53.852,
+   "lon": -1.158,
+   "region": "england"
+  },
+  "Nundah Cemetery, Brisbane": null,
+  "Ober-Sensbach, Oberzent, Odenwaldkreis, Deutschland": null,
+  "Oberkaufungen, Kassel, Hesse-Nassau, Prussia Germany": null,
+  "Oberwesel, Germany": null,
+  "Odijk, Bunnik, Utrecht, Netherlands": {
+   "lat": 52.053,
+   "lon": 5.236,
+   "region": "netherlands"
+  },
+  "Of Friedrichsburg, Mnnhm, Bdn": null,
+  "Of, Friedrichsburg, Mannheim, Baden": null,
+  "Of, Hornby Castle, Yorkshire, England": {
+   "lat": 54.113,
+   "lon": -2.637,
+   "region": "england"
+  },
+  "Of, Oplnd, Nrwy": null,
+  "Ohrigstad, Southern, Limpopo, South Africa": {
+   "lat": -24.747,
+   "lon": 30.565,
+   "region": "transvaal"
+  },
+  "Old Jewry, London": null,
+  "Old Jewry, London, London, England": null,
+  "Old grave no. XB28 – K8, Northam parish church": null,
+  "Oldenzaal, Overijssel, Nederland": null,
+  "Ommen": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, , Overijssel, Netherlands": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, Nederland": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, Overijsel, Holland": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, Overijssel, Friesland, Nederland": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, Overijssel, Nederland": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Ommen, Overijssel, Netherlands": {
+   "lat": 52.521,
+   "lon": 6.421,
+   "region": "netherlands"
+  },
+  "Opwijk, Belgie": {
+   "lat": 50.967,
+   "lon": 4.184,
+   "region": "belgium"
+  },
+  "Opwijk, België": {
+   "lat": 50.967,
+   "lon": 4.184,
+   "region": "belgium"
+  },
+  "Opwijk, Brabant Flamand, Belgique": {
+   "lat": 50.967,
+   "lon": 4.184,
+   "region": "belgium"
+  },
+  "Opwijk, Flemish Region, Belgium": {
+   "lat": 50.967,
+   "lon": 4.184,
+   "region": "belgium"
+  },
+  "Opwijk, Vlaams-Brabant, Belgium": {
+   "lat": 50.967,
+   "lon": 4.184,
+   "region": "belgium"
+  },
+  "Orange Free State, South Africa": null,
+  "Ormesby, Lincolnshire, England": {
+   "lat": 54.55,
+   "lon": -1.183,
+   "region": "england"
+  },
+  "Ormidale, Barkly East, Eastern Cape, South Africa": null,
+  "Osijek": {
+   "lat": 45.551,
+   "lon": 18.694,
+   "region": "slavonia"
+  },
+  "Ossington, Nottinghamshire, England": {
+   "lat": 53.175,
+   "lon": -0.87,
+   "region": "england"
+  },
+  "Ostenfeld (Husum), Schleswig-Holstein, Deutschland": null,
+  "Ostfriesland, Preussen, Wittmund, NDS, Germany": null,
+  "Oswestry, Shropshire, England, United Kingdom": {
+   "lat": 52.862,
+   "lon": -3.055,
+   "region": "england"
+  },
+  "Othmarschen, Altona, Grafschaft Holstein-Pinneberg, Dänemark": null,
+  "Othmarschen, Altona, Grafschaft Holstein-Pinneberg, Herzogtum Holstein": null,
+  "Otocac": {
+   "lat": 44.869,
+   "lon": 15.236,
+   "region": "vojna-krajina"
+  },
+  "Otocac Croatia": {
+   "lat": 44.869,
+   "lon": 15.236,
+   "region": "vojna-krajina"
+  },
+  "Otocac, Croatia": {
+   "lat": 44.869,
+   "lon": 15.236,
+   "region": "vojna-krajina"
+  },
+  "Otocac/Smokvica Krmpotska, Općina Novi Vinodolski, Primorsko-goranska županija, Croatia": {
+   "lat": 45.128,
+   "lon": 14.789,
+   "region": "kvarner"
+  },
+  "Otočac": {
+   "lat": 44.869,
+   "lon": 15.236,
+   "region": "vojna-krajina"
+  },
+  "Otočac, Croatia": {
+   "lat": 44.869,
+   "lon": 15.236,
+   "region": "vojna-krajina"
+  },
+  "Otočac, Općina Otočac, Lika-Senj County, Croatia": {
+   "lat": 44.869,
+   "lon": 15.238,
+   "region": "vojna-krajina"
+  },
+  "Oud Beyerland, Rotterdam, Netherlands": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Oud-Beijerland  Zuid-Holland Nederland": null,
+  "Ouddorp, Goedereede, Zuid-Holland, Netherlands": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Ouddorp, Goeree-Overflakkee, South Holland, Netherlands": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Ouddorp, Goeree-Overflakkee, South Holland, The Netherlands": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Ouddorp, Nederland": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Ouddorp, Overflakkee Province, Island of Goedereede (Goeree), Holland": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Ouddorp, South Holland, Netherlands": {
+   "lat": 51.812,
+   "lon": 3.935,
+   "region": "netherlands"
+  },
+  "Oude Byerland, Amsterdam, North Holland, Netherland": {
+   "lat": 52.374,
+   "lon": 4.89,
+   "region": "netherlands"
+  },
+  "Oudorp, Noord-Holland, Netherlands": {
+   "lat": 52.633,
+   "lon": 4.774,
+   "region": "netherlands"
+  },
+  "Our Lady of Snow Parish Cemetery, Krivi Put, Lika-Senj, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Overberg District, Swellendam, Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Overberg Swellendam-distrik": null,
+  "Overijse, Flemish Brabant, Vlaams Gewest, Belgium": {
+   "lat": 50.774,
+   "lon": 4.535,
+   "region": "belgium"
+  },
+  "POPOVAČA, Croatia": null,
+  "Paarl": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl (Drakenstein)": null,
+  "Paarl, Brede River DC, Western Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Brede Rivier": null,
+  "Paarl, Breede River DC, Western Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Caap de Goede Hoop": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape Colony, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape Of Good Hope, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape Province, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape of Good Hope": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape of Good Hope, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape, So Afr": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape, South Afica": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, Cape of Good Hope, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, Dutch Cape Colony, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, K  de G  H, Suid-Afrika": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, Kaap de Goede Hoop, Suid-Afrika": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Drakenstein, de Caep de Goede Hoop, Dutch Cape Colony": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Dutch Cape Colony, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Paarl, Cape Province, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Suid-Afrika": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, WC, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paarl, Western Cape, South Africa": {
+   "lat": -33.734,
+   "lon": 18.975,
+   "region": "western-cape"
+  },
+  "Paddington Cemetery, Brisbane, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "Pag, Croatia": null,
+  "Palace of Whitehall, London, England": null,
+  "Pambukovica": null,
+  "Pambukovica, Kolubara District, Serbia": {
+   "lat": 44.441,
+   "lon": 19.923,
+   "region": "serbia"
+  },
+  "Pambukovica, Serbia": {
+   "lat": 44.441,
+   "lon": 19.923,
+   "region": "serbia"
+  },
+  "Parish of Elmore": null,
+  "Parkham, Devon, Eng.": null,
+  "Parkham, Devon, England": null,
+  "Parramatta, New South Wales, Australia": null,
+  "Philippolis, Orange Free State, South Africa": null,
+  "Pietermaritzburg, Indlovu DC, KwaZulu-Natal, South Africa": {
+   "lat": -29.617,
+   "lon": 30.393,
+   "region": "natal"
+  },
+  "Pieterskerk, Leiden, Holland, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Piketberg": {
+   "lat": -32.903,
+   "lon": 18.757,
+   "region": "western-cape"
+  },
+  "Piketberg Tulbagh": null,
+  "Pirot": null,
+  "Plaas Driefontein, Driefontein, Colesberg, Cape Colony, South Africa": null,
+  "Plaas kruis voor Sneeuberg": null,
+  "Plomin, Istria, Croatia": {
+   "lat": 45.137,
+   "lon": 14.181,
+   "region": "istria-central"
+  },
+  "Plot #7719A, Woltemade Cemetery, Maitland, Kaapstad, West-Kaap, Zuid-Afrika": null,
+  "Plymouth": null,
+  "Podbila": null,
+  "Podvinje, Croatia": {
+   "lat": 45.19,
+   "lon": 18.027,
+   "region": "slavonia"
+  },
+  "Pomer, Istra, Croatia": {
+   "lat": 44.824,
+   "lon": 13.896,
+   "region": "istria-south"
+  },
+  "Poreč, Croatia": {
+   "lat": 45.226,
+   "lon": 13.595,
+   "region": "istria-west"
+  },
+  "Porlock, Minehead, Somerset, England": {
+   "lat": 51.209,
+   "lon": -3.596,
+   "region": "england"
+  },
+  "Porlock, Somerset, England": {
+   "lat": 51.209,
+   "lon": -3.596,
+   "region": "england"
+  },
+  "Port Germein, South Australia, Australia": null,
+  "Port Pirie Cemetery": null,
+  "Port Pirie cemetery, South Australia": null,
+  "Port Pirie, South Australia": null,
+  "Port Pirie, South Australia, Australia": null,
+  "Port Pirie, South Australia, Australia; Port Pirie Cemetery": null,
+  "Portlock, Somerset, England": null,
+  "Portsmouth, Hampshire": {
+   "lat": 50.799,
+   "lon": -1.091,
+   "region": "england"
+  },
+  "Portsmouth, Hampshire, England": {
+   "lat": 50.799,
+   "lon": -1.091,
+   "region": "england"
+  },
+  "Portsmouth, Hampshire, England or West Indies": {
+   "lat": 50.799,
+   "lon": -1.091,
+   "region": "england"
+  },
+  "Portsmouth, Southampton, United Kingdom": {
+   "lat": 50.799,
+   "lon": -1.091,
+   "region": "england"
+  },
+  "Potchefstroom Gereformeerde Kerk, Transvaal, South Africa": null,
+  "Potchefstroom Hervormde kerk, Transvaal, South Africa": null,
+  "Potchefstroom, , Transvaal, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Potchefstroom, NW, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Potchefstroom, North West, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Potchefstroom, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Potchefstroom, Transvaal, South Africa": {
+   "lat": -26.717,
+   "lon": 27.1,
+   "region": "transvaal"
+  },
+  "Povile 19, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Povile 22, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Povile 23, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Povile 30, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Povile 8, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Povile, Primorje-Gorski Kotar, Croatia": {
+   "lat": 45.117,
+   "lon": 14.824,
+   "region": "kvarner"
+  },
+  "Pozarevac": {
+   "lat": 44.621,
+   "lon": 21.188,
+   "region": "serbia"
+  },
+  "Pozières, Somme, Picardie, France": null,
+  "Praha, Böhmen, Deutschland(HRR)": null,
+  "President Brand Cemetery, Bloemfontein, Free State, South Africa": {
+   "lat": -29.121,
+   "lon": 26.214,
+   "region": "orange-free-state"
+  },
+  "Pretoria South Africa": null,
+  "Pretoria, Mt Fletcher, Cape Province, South Africa": null,
+  "Pretoria, Transvaal, South Africa": {
+   "lat": -25.745,
+   "lon": 28.188,
+   "region": "transvaal"
+  },
+  "Pretoriuskloof, Graaf Reinet": null,
+  "Primrose Cemetery": null,
+  "Prince Albert, Western Cape, South Africa": {
+   "lat": -33.225,
+   "lon": 22.027,
+   "region": "cape"
+  },
+  "Pritzwalk, BB, Germany": null,
+  "Pritzwalk, Brandenburg, Germany": null,
+  "Pritzwalk, Ostprignitz, Brandenburg, Germany": null,
+  "Pritzwalk, Prignitz, Brandenburg, Germany": null,
+  "Prizna, Croatia": {
+   "lat": 44.606,
+   "lon": 14.968,
+   "region": "vojna-krajina"
+  },
+  "Probably Homildon, Northumberland, England": null,
+  "Probably Riebeek Kasteel": null,
+  "Prozor 245": null,
+  "Prozor 46, Otočac, Croatia": {
+   "lat": 44.843,
+   "lon": 15.271,
+   "region": "vojna-krajina"
+  },
+  "Prozor 50": null,
+  "Prozor, Herzegovina-Neretva Canton, Federation of Bosnia and Herzegovina, Bosnia and Herzegovina": {
+   "lat": 43.822,
+   "lon": 17.609,
+   "region": "bosnia"
+  },
+  "Prussia": null,
+  "Prussia, Berlin, Germany": null,
+  "Prussia, Germany": null,
+  "Pula, Croatia": {
+   "lat": 44.868,
+   "lon": 13.848,
+   "region": "istria-south"
+  },
+  "Pulderbos": {
+   "lat": 51.217,
+   "lon": 4.694,
+   "region": "belgium"
+  },
+  "Pulderbos, Zandhoven, Antwerpen, Vlaanderen, Belgium": {
+   "lat": 51.217,
+   "lon": 4.694,
+   "region": "belgium"
+  },
+  "Putney, Surrey, England": {
+   "lat": 51.461,
+   "lon": -0.218,
+   "region": "england"
+  },
+  "Queenland, Australia": null,
+  "Queensland Australia": {
+   "region": "queensland"
+  },
+  "Queensland, Australia": {
+   "region": "queensland"
+  },
+  "Queensland, australia": {
+   "region": "queensland"
+  },
+  "Queenstown": null,
+  "Queenstown, Cape Colony, South Africa": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "Queenstown, Cape Province, South Africa": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "Queenstown, Cape of Good Hope, South Africa.": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "Queenstown, Kaap, Suid Afrika": {
+   "lat": -31.898,
+   "lon": 26.875,
+   "region": "cape"
+  },
+  "Quorn, South Australia, Australia": null,
+  "Rab, Croatia": null,
+  "Radelpoort, Colesberg, Bo-Karoo, Northern Cape, South Africa": null,
+  "Ramljane, Croatia": null,
+  "Rancho Palos Verdes, Los Angeles, California, United States of America": null,
+  "Randfontein, West Rand, Gauteng, South Africa": {
+   "lat": -26.184,
+   "lon": 27.702,
+   "region": "transvaal"
+  },
+  "Ratzeburg, Schleswig-Holstein, Deutschland": null,
+  "Reichstadt": null,
+  "Renosterhoek, Cape, South Africa": null,
+  "Renosterkop (Rhenoster Kop), Northern Cape, South Africa": null,
+  "Rheboksfontein, Agter-Zuurberg, district Graaf-Reinet": null,
+  "Rhenosterberg, Colesberg district": null,
+  "Rhenosterfontein, Potchefstroom, Transvaal, South Africa": null,
+  "Rhenosterhoek, Cape Colony, South Africa": null,
+  "Rhodes": null,
+  "Rhodes, Barkly East, Cape Province, South Africa": null,
+  "Richmond District, Wise, Virginia, United States": null,
+  "Richmond, Henrico, Virginia, United States": null,
+  "Rietpoort, Waterberg": null,
+  "Rijeka": {
+   "lat": 45.327,
+   "lon": 14.442,
+   "region": "kvarner"
+  },
+  "Rijeka, Croatia": {
+   "lat": 45.327,
+   "lon": 14.442,
+   "region": "kvarner"
+  },
+  "Rijeka, Modrus-Fiume, Hungary": {
+   "lat": 45.327,
+   "lon": 14.442,
+   "region": "kvarner"
+  },
+  "Risely, London, Eng.": null,
+  "Rockhampton City, Rockhampton Regional, Queensland, Australia": {
+   "lat": -23.38,
+   "lon": 150.506,
+   "region": "queensland"
+  },
+  "Rockhampton, AU": null,
+  "Rockhampton, Queensland": null,
+  "Rockhampton, Queensland, Australia": {
+   "lat": -23.378,
+   "lon": 150.513,
+   "region": "queensland"
+  },
+  "Rookwood Necropolis: Catholic, Sydney, New South Wales, Australia": null,
+  "Rosario, Rosario Department, Santa Fe Province, Argentina": {
+   "lat": -32.947,
+   "lon": -60.639,
+   "region": "santafe"
+  },
+  "Rostock, Rostock, Mecklenburg-Vorpommern, Germany": null,
+  "Rotterdam Netherlands": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Rotterdam, Netherlands": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Rotterdam, South Holland, The Netherlands": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Rotterdam, Zuid-Holland, Nederland": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Rotterdam, Zuid-Holland, The Netherlands": {
+   "lat": 51.922,
+   "lon": 4.479,
+   "region": "netherlands"
+  },
+  "Rouen, Haute-Normandie (Région), France": null,
+  "Rouen, Seine-Maritime, Haute-Normandie, France": null,
+  "Route d'Orléans, Mer, Loir-et-Cher, Centre, France": null,
+  "Rowley Regis, Stafford, England": {
+   "lat": 52.483,
+   "lon": -2.044,
+   "region": "england"
+  },
+  "Rowley Regis, Staffordshire, England": {
+   "lat": 52.483,
+   "lon": -2.044,
+   "region": "england"
+  },
+  "Rowley Regis, West Midlands, England, United Kingdom": {
+   "lat": 52.483,
+   "lon": -2.044,
+   "region": "england"
+  },
+  "Rushton, Spencer, Staffordshire, England": {
+   "lat": 53.161,
+   "lon": -2.117,
+   "region": "england"
+  },
+  "Rust en Vrede, Dal Josaphat, Suid Afrika, Kaap": null,
+  "Rustenburg, Bojanala, North West, South Africa": {
+   "lat": -25.668,
+   "lon": 27.242,
+   "region": "transvaal"
+  },
+  "Rustenburg, Transvaal, South Africa": {
+   "lat": -25.668,
+   "lon": 27.242,
+   "region": "transvaal"
+  },
+  "Río Negro Río Negro, Uruguay": null,
+  "SANDENBECK, GERMANY": null,
+  "SENJ, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "SOLIHULL West Midlands England": {
+   "lat": 52.413,
+   "lon": -1.777,
+   "region": "england"
+  },
+  "ST. MARY'S, Limerick, Ireland": {
+   "lat": 52.665,
+   "lon": -8.623,
+   "region": "ireland"
+  },
+  "Saardam, Netherlands": null,
+  "Sadenbeck, Berlin, Germany": null,
+  "Sadenbeck, Brandenburg, Preussen, Germany": null,
+  "Sadenbeck, In der Prignitz, Brandenburgland, Germany": null,
+  "Sadenbeck, Prignitz, Brandenburg, Prussia": null,
+  "Sadenbeck, Prignitz, Brandenburgland, Deutschland": null,
+  "Sadenbeck, Prignitz, Brandenburgland, Germany": null,
+  "Saffron Walden": {
+   "lat": 52.022,
+   "lon": 0.241,
+   "region": "england"
+  },
+  "Saint Andrew, Holborn, London, England": {
+   "lat": 51.517,
+   "lon": -0.12,
+   "region": "england"
+  },
+  "Saint Anne Soho, Westminster, London, England": {
+   "lat": 51.514,
+   "lon": -0.135,
+   "region": "england"
+  },
+  "Saint Anne, Soho, Westminster, London, England": {
+   "lat": 51.514,
+   "lon": -0.135,
+   "region": "england"
+  },
+  "Saint Dunstan, Stepney, Middlesex, England": {
+   "lat": 51.517,
+   "lon": -0.043,
+   "region": "england"
+  },
+  "Saint James, Westminster, London, England": null,
+  "Saint Mark, Kennington, London, England": {
+   "lat": 51.167,
+   "lon": 0.885,
+   "region": "england"
+  },
+  "Saint Martin In The Fields, Westminster, London, England": null,
+  "Saint Martin-in-the-fields Churchyard, Greater London, England": null,
+  "Saint-Tricat, Pas-de-Calais, France": null,
+  "Salisbury, Essex, Province of Massachusetts Bay, New England": null,
+  "Salisbury, Rhodesia": null,
+  "Sampford-Arundel, Somerset, England": {
+   "lat": 50.962,
+   "lon": -3.269,
+   "region": "england"
+  },
+  "Samsonskloof, Swaershoek, Cape, South Africa": null,
+  "San Felice, Caserta, Campania, Italia": {
+   "lat": 41.237,
+   "lon": 13.968,
+   "region": "campania"
+  },
+  "Sandebeck, Höxter, Westphalia, Prussia, Germany": null,
+  "Sandebeck, Westfalen, Preussen": null,
+  "Sandenbeck, Germany": null,
+  "Sandgate, Queensland, Australia": {
+   "lat": -27.321,
+   "lon": 153.07,
+   "region": "queensland"
+  },
+  "Santa Maria A Vico, Nola, Terra Di Lavoro": null,
+  "Santa Maria a Vico, Caserta, Campania, Italia": {
+   "lat": 41.027,
+   "lon": 14.465,
+   "region": "campania"
+  },
+  "Sault Sainte Marie, Algoma District, Ontario, Canada": null,
+  "Sault Ste. Marie, Algoma District, Ontario, Canada": null,
+  "Sault Ste. Marie, Ontario, Algoma, Canada": null,
+  "Saumur, Haute-Vienne, Limousin, France": null,
+  "Saumur, Maine-et-Loire, Pays de la Loire, France": null,
+  "Schloss Friedrichsburg, Mannheim, Germ": null,
+  "Schloss Friedrichsburg, Mannheim, Pfalz, Deutschland(HRR)": null,
+  "Schloss Herrenhausen, Hannover, Braunschweig-Luneburg, Deutschland": null,
+  "Schwetzingen, Rhein-Neckar-Kreis, Baden-Württemberg, Deutschland": null,
+  "Schüttorf, Münster, Lower Saxony, Germany": null,
+  "Schüttorf, Niedersachsen, Deutschland": null,
+  "Scotland": {
+   "region": "scotland"
+  },
+  "Sedbury, Yorkshire, England": {
+   "lat": 51.64,
+   "lon": -2.659,
+   "region": "england"
+  },
+  "Selce": {
+   "lat": 45.158,
+   "lon": 14.721,
+   "region": "kvarner"
+  },
+  "Selce, Croatia": {
+   "lat": 45.158,
+   "lon": 14.721,
+   "region": "kvarner"
+  },
+  "Senj": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Croa": null,
+  "Senj, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Croatia, Senj, Općina Senj, Lika-Senj County, Croatia`": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Lika, Austria-Hungary": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Lika-Senj, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Općina Senj, Lika-Senj County, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, Split-Dalmatia, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Senj, with Tereza Blazevic, his grandmother": null,
+  "Shirwell Parish, Devon, England": {
+   "lat": 51.118,
+   "lon": -4.006,
+   "region": "england"
+  },
+  "Shirwell, Devon, England": {
+   "lat": 51.118,
+   "lon": -4.006,
+   "region": "england"
+  },
+  "Shirwell, Devon., Eng.": {
+   "lat": 51.118,
+   "lon": -4.006,
+   "region": "england"
+  },
+  "Shirwell, Devonshire, England": {
+   "lat": 51.118,
+   "lon": -4.006,
+   "region": "england"
+  },
+  "Shorne, Kent, England": {
+   "lat": 51.414,
+   "lon": 0.43,
+   "region": "england"
+  },
+  "Shuttdorp, Leiden, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Siegen, Siegen, Westphalia, Prussia, Germany": null,
+  "Siegen, Westfalen, Preussen, Germany": null,
+  "Siegen, Westfalen, Preußen, Germany": null,
+  "Skanderborg Castle, Kingdom of Denmark": null,
+  "Skanderborg slot, Skanderborg, Danmark": {
+   "lat": 56.034,
+   "lon": 9.932,
+   "region": "denmark"
+  },
+  "Skelton, Yorkshire, England": {
+   "lat": 53.725,
+   "lon": -0.842,
+   "region": "england"
+  },
+  "Slave Logde, Cape, South Africa": null,
+  "Smederevo": {
+   "lat": 44.664,
+   "lon": 20.928,
+   "region": "serbia"
+  },
+  "Smederevo, Podunavlje District, Serbia": {
+   "lat": 44.664,
+   "lon": 20.928,
+   "region": "serbia"
+  },
+  "Smiljan, Općina Gospić, Lika-Senj County, Croatia": {
+   "lat": 44.564,
+   "lon": 15.318,
+   "region": "vojna-krajina"
+  },
+  "Smithfield": null,
+  "Smithfield, Orange Free State, South Africa": {
+   "lat": -30.214,
+   "lon": 26.531,
+   "region": "orange-free-state"
+  },
+  "Smithfield, Xhariep, Free State, South Africa": {
+   "lat": -30.214,
+   "lon": 26.531,
+   "region": "orange-free-state"
+  },
+  "Smokvica Krmpotska": {
+   "lat": 45.087,
+   "lon": 14.853,
+   "region": "kvarner"
+  },
+  "Smokvica Krmpotska / Krmpote": null,
+  "Smokvica Krmpotska, Općina Novi Vinodolski, Primorsko-goranska županija, Croatia": {
+   "lat": 45.087,
+   "lon": 14.852,
+   "region": "kvarner"
+  },
+  "Smokvica, Krmpote, Općina Smokvica, Dubrovačko-neretvanska županija, Croatia": null,
+  "Smokvica, Senj, Croatia": null,
+  "Sneeuberg, Cape Colony": null,
+  "Sneeuberg, Dutch Cape Colony": null,
+  "Soho, Middlesex, England": {
+   "lat": 51.514,
+   "lon": -0.135,
+   "region": "england"
+  },
+  "Sojat Dol 54": null,
+  "Solihul, Warwickshire, England": null,
+  "Solihull, Warwickshire, England": {
+   "lat": 52.414,
+   "lon": -1.781,
+   "region": "england"
+  },
+  "Solomontown, South Australia, Australia": null,
+  "Somerset East, Cape Province, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Somerset East, Cape, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Somerset East, Somerset East, Cape Province, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Somerset East, Swaershoek, Cape, South Africa, Somerset East, Cape, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Somerset, Cape Colony, South Africa": null,
+  "Somerset, Cape Province, South Africa": null,
+  "Somerset, England": null,
+  "Somerset, South Africa": null,
+  "Somerton, Somerset": {
+   "lat": 51.954,
+   "lon": -1.276,
+   "region": "england"
+  },
+  "Somerton, Somerset, England": {
+   "lat": 51.954,
+   "lon": -1.276,
+   "region": "england"
+  },
+  "South Africa": null,
+  "South Africa, Cape": null,
+  "South Africa, Cape, Cape": null,
+  "South Australia, Australia": null,
+  "South Brisbane Cemetery, Brisbane, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "South Brisbane, Brisbane City, Queensland, Australia": {
+   "lat": -27.48,
+   "lon": 153.02,
+   "region": "queensland"
+  },
+  "South Brisbane, Queensland, Australia": {
+   "lat": -27.48,
+   "lon": 153.02,
+   "region": "queensland"
+  },
+  "South Leith, Midlothian, Scotland": {
+   "lat": 55.976,
+   "lon": -3.17,
+   "region": "scotland"
+  },
+  "South Rockhampton Cemetery, Rockhampton, Queensland (Sect. 1, Grave 236)": null,
+  "South Rockhampton Cemetery, Rockhampton, Queensland (Sect. 15, Grave 3013)": null,
+  "South Strabane, Washington, Pennsylvania, United States": null,
+  "Spasovac, Croatia": {
+   "lat": 44.973,
+   "lon": 14.921,
+   "region": "kvarner"
+  },
+  "Speyer, Rhineland-Palatinate, Deutschland": {
+   "lat": 49.321,
+   "lon": 8.431,
+   "region": "palatinate"
+  },
+  "Spioenkop, Burgersdorp Dist Albert, Eastern Cape, South Africa": null,
+  "Spitskop agter Sneeuberg, Cape of Good Hope, South Africa": null,
+  "Spitskop, Indlovu DC, KwaZulu-Natal, South Africa": null,
+  "Spreeufontein, Tarkastad, Tarka, Cape Province, South Africa": null,
+  "Spring Gardens, London, England": {
+   "lat": 51.246,
+   "lon": -2.329,
+   "region": "england"
+  },
+  "Spring Hill, Brisbane, Queensland, Australia": null,
+  "Springs, Springs, Transvaal, South Africa": {
+   "lat": -26.25,
+   "lon": 28.4,
+   "region": "transvaal"
+  },
+  "Springs, Transvaal, South Africa": {
+   "lat": -26.25,
+   "lon": 28.4,
+   "region": "transvaal"
+  },
+  "Srbija": null,
+  "St Amand les Eaux, Nord-Pas-de-Calais, France": null,
+  "St Anns, Middlesex": null,
+  "St Bartholomews, City, London": null,
+  "St Cyriacus Kirche, Dürnau": null,
+  "St Dominic’s, Wynberg parish, Cape Town, South Africa": null,
+  "St Dunstan and All Saints, Stepney, Middlesex, England": {
+   "lat": 51.517,
+   "lon": -0.043,
+   "region": "england"
+  },
+  "St Gennys, Cornwall, United Kingdom": null,
+  "St George Chaple, Windsor, Berkshire, England": {
+   "lat": 51.483,
+   "lon": -0.6,
+   "region": "england"
+  },
+  "St James St, Finsbury, Middlesex, England": {
+   "lat": 51.528,
+   "lon": -0.107,
+   "region": "england"
+  },
+  "St James, London, Middlesex, England": null,
+  "St James, Westminster, Middlesex, England": null,
+  "St James-Westminster-London, Middlesex, EnglandGreat Britain": null,
+  "St John the Baptist, Leamington, Warwickshire, England, United Kingdom": null,
+  "St Mariens, The Strand, London, England": null,
+  "St Martin in the Fields, London, England": null,
+  "St Mary's, Masham, Yorkshire": {
+   "lat": 54.223,
+   "lon": -1.657,
+   "region": "england"
+  },
+  "St Mary, Cornwall, England": null,
+  "St Michael le Belfrey, York": null,
+  "St Munchin's, Limerick": null,
+  "St Olave'S, York": null,
+  "St Patrick Cathedral, Dublin, Ireland": {
+   "lat": 53.333,
+   "lon": -6.249,
+   "region": "ireland"
+  },
+  "St Paul, Bristol, Gloucestershire, England": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "St Pauls, London, England": null,
+  "St Philip & Jacob, Bristol": null,
+  "St Quivox, Ayrshire, Scotland, United Kingdom": null,
+  "St. Anne's, Soho, Westminister, UK, Westminster, London, England, United Kingdom": {
+   "lat": 51.514,
+   "lon": -0.135,
+   "region": "england"
+  },
+  "St. Helena konsentrasie kamp": null,
+  "St. Hilda's, Bilsdale, North Riding, Yorkshire, England, United Kingdom": {
+   "lat": 54.374,
+   "lon": -1.119,
+   "region": "england"
+  },
+  "St. James Palace, London, Middlesex, Englan": null,
+  "St. James Palace, London, Middlesex, England, Kingdom of England": null,
+  "St. James Palace, Westminster, Middlesex, England": null,
+  "St. James Sydney, New South Wales, Australia": null,
+  "St. James', Westminster, Middlesex, England": null,
+  "St. James, Westinster, England": null,
+  "St. James, Westminster Saint James the Less, London, England": null,
+  "St. Joris Kapel, Oude Kerk, Delft, Netherlands": {
+   "lat": 52.007,
+   "lon": 4.356,
+   "region": "netherlands"
+  },
+  "St. Margaret’s parish church in Northam": null,
+  "St. Mary’s Anglican Church": null,
+  "St. Mary’s, Northam": null,
+  "St. Olaves, Yorkshire, England": null,
+  "St. Pauls Hammersmith, Middlesex, england": null,
+  "Stafford, Virginia, British Colonial America": null,
+  "Staffordshire, England": null,
+  "Staffordshire, England, United Kingdom": null,
+  "Stanwell Park, Middlesex, England": {
+   "lat": 51.454,
+   "lon": -0.478,
+   "region": "england"
+  },
+  "Steenschuer, Leiden, Netherlands": {
+   "lat": 52.158,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Steinbach am Tanus, Hessen, Germany": null,
+  "Steinbach, Gießen, Hessen, Deutschland": null,
+  "Stellenbosch Cape South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch Cape of Good Hope": null,
+  "Stellenbosch Cape of Good Hope South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Brede River DC, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Breede River DC, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Breede River Dc, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Caap de Goede Hoop": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Caap de Goede Hoop, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Caep de Goede Hoop (South Africa)": null,
+  "Stellenbosch, Cape Col., So. Afr.": null,
+  "Stellenbosch, Cape Colony, So. Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Colony, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Of Good Hope, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Province, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Town, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape of Good Hope, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Dutch Cape Colony [South Africa]": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Dutch Cape Colony, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Kaap de Goede Hoop": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Kaap de Goede Hoop, Suid-Afrika": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Kaap, Suid Afrika": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Kaapkolonie, Suid Afrika": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Suid Afrika, Kaap": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, Western Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, de Caep de Goede Hoop": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, de Caep de Goede Hoop (South Africa)": null,
+  "Stellenbosch, de Caep de Goede Hoop, Dutch Cape Colony": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stellenbosch, de Caep de Goede Hoop, Dutch Cape Colony [South Africa]": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Stepney, Middlesex, England": {
+   "lat": 51.517,
+   "lon": -0.043,
+   "region": "england"
+  },
+  "Sterkfontein Cemetery, Krugersdorp, Mogale, West Rand, Gauteng, South Africa": {
+   "lat": -26.086,
+   "lon": 27.775,
+   "region": "transvaal"
+  },
+  "Sterkfontein, Cape Colony.": null,
+  "Sterkspruit (Farm), Lydenburg, Mpumalanga, South Africa": {
+   "lat": -25.096,
+   "lon": 30.444,
+   "region": "transvaal"
+  },
+  "Sterling Cathedral, Sterling, Mid-Lothian, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Sterling Cathedral, Sterling, Midlothian, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Stettin, Randow, Pomerania, Prussia, Germany": null,
+  "Stettin, Szczecin, Poland": null,
+  "Steynsburg": {
+   "lat": -31.296,
+   "lon": 25.823,
+   "region": "cape"
+  },
+  "Stierstadt, Hochtaunuskreis, Hesse, Germany": {
+   "lat": 50.183,
+   "lon": 8.584,
+   "region": "frankfurt"
+  },
+  "Stierstadt, Oberursel (Taunus), Hochtaunuskreis, Hessen, Germany": null,
+  "Stirling Castle, Stirling, Stirlingshire, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Stirling, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Stirling, Stirlingshire, Scotland": {
+   "lat": 56.119,
+   "lon": -3.937,
+   "region": "scotland"
+  },
+  "Stockburn, Durham, England": null,
+  "Stoke Damerel, Devon, England": null,
+  "Stokesley, Yorkshire": {
+   "lat": 54.47,
+   "lon": -1.193,
+   "region": "england"
+  },
+  "Stormberg, Colesberg": null,
+  "Stoughton, Leicestershire, England": {
+   "lat": 51.254,
+   "lon": -0.596,
+   "region": "england"
+  },
+  "Stourbridge, West Midlands, England, United Kingdom": {
+   "lat": 52.456,
+   "lon": -2.143,
+   "region": "england"
+  },
+  "Strackholt, Aurich, Niedersachsen, Germany": null,
+  "Stralsund, Germany": null,
+  "Stralsund, Pommern, Preussen": null,
+  "Strand, Limerick, Ireland": {
+   "lat": 52.396,
+   "lon": -9.111,
+   "region": "ireland"
+  },
+  "Strasbourg, Bas-Rhin, France": {
+   "lat": 48.584,
+   "lon": 7.745,
+   "region": "alsace-lorraine"
+  },
+  "Strassburg, Kärnten, Austria.": null,
+  "Streatham, Durham, England": {
+   "lat": 51.429,
+   "lon": -0.132,
+   "region": "england"
+  },
+  "Streatlam, Durham, England": null,
+  "Stroughton Grange, Leicestershire, England": null,
+  "Strydfontein, Barkly-Oos": null,
+  "Stuntz, St. Louis, Minnesota, USA": null,
+  "Sturminster Marshall, Dorset, England": null,
+  "Suevres, Loit-et-Cher, Centre, France": null,
+  "Suid Afrika": null,
+  "Suid Afrika, Kaap": null,
+  "Suid-Afrika": null,
+  "Suid-Afrika.": null,
+  "Suid-Afrika., South Africa": null,
+  "Surenberg / Zierenberg, Hesse-Kassel [Germany]": null,
+  "Surie, Kamdeboo, Graaff-Reinet, Kaapkolonie, Suid Afrika": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Surlingham, England, United Kingdom": {
+   "lat": 52.607,
+   "lon": 1.42,
+   "region": "england"
+  },
+  "Sussex, England": null,
+  "Suévres, Orléanais, France": null,
+  "Sušak": null,
+  "Sv. Jakov, Krmpote, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Sv. Jakov, Krmpote, Primorje-Gorski Kotar County, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Sv. Jelena": null,
+  "Sv. Jelena Br 152": null,
+  "Sv. Jelena, Croatia": null,
+  "Sv. Jelena, Krivi Put Br 130, Croatia": {
+   "lat": 45.032,
+   "lon": 14.963,
+   "region": "kvarner"
+  },
+  "Sv. Jelena, Senj, Croatia": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "Sv. Juraj, Krmpote, Croatia": {
+   "lat": 45.112,
+   "lon": 14.981,
+   "region": "kvarner"
+  },
+  "Sveti Križ, Croatia": null,
+  "Swaershoek, Somerset East, Cape Province, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Swartland": null,
+  "Swartland, Cape Colony, South Africa": null,
+  "Swartland, Cape Province, South Africa": null,
+  "Swartland, Cape province, South Africa": null,
+  "Swartland, Cape, South Africa": null,
+  "Swartland, Malmesbury, West Coast DC, Western Cape, South Africa": {
+   "lat": -33.461,
+   "lon": 18.727,
+   "region": "western-cape"
+  },
+  "Swartland, Suid-Afrika": null,
+  "Swellendam Overberg  Western Cape South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape Colony, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape Province, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape of Good Hope": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape of Good Hope, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Dutch Cape Colony, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Kaap de Goede Hoop, Dutch Cape Colony (South Africa)": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Kaap de Goede Hoop, Dutch Cape Colony, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Overberg DC, Western Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Overberg District Municipality, Western Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Overberg, Western Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Suid Afrika, Kaap": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Swellendam, Overberg District Municipality, Western Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, WC, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Swellendam, Western Cape, South Africa": {
+   "lat": -34.023,
+   "lon": 20.442,
+   "region": "western-cape"
+  },
+  "Sydney, New South Wales, Australia": null,
+  "Syon Hill, London, Middlesex, England, Kingdom of Great Britain": null,
+  "TOMAŠICA": null,
+  "TOMAŠICA, Croatia": null,
+  "Table Mountain National Park, Cape Town, Cape Town, Western Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Taken off coast of Brazil as slave": null,
+  "Tarka, Cape Province, South Africa": null,
+  "Tarka, Cradock, Cape Colony, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Tarka, South Africa": null,
+  "Teddington, Middlesex, England": {
+   "lat": 51.422,
+   "lon": -0.331,
+   "region": "england"
+  },
+  "Tennelohg, Nurnberg [Germany]": null,
+  "The Thomas farm, in Cory (Curry Mallet), Somersetshire, England": null,
+  "Theobalds Palace, Chestnut, Hertfordshire, England": null,
+  "Thomas, Cory, Somerset, England": null,
+  "Tilburg": {
+   "lat": 51.556,
+   "lon": 5.091,
+   "region": "netherlands"
+  },
+  "Toowong Cemetery 304 Birdwood Terrace, Toowong, QLD, Australia": {
+   "lat": -27.483,
+   "lon": 152.983,
+   "region": "queensland"
+  },
+  "Toowong Cemetery 304 Birdwood Terrace, Toowong, QLD, Australia, Portion 1, Section 49, Plot No: 15/16": {
+   "lat": -27.483,
+   "lon": 152.983,
+   "region": "queensland"
+  },
+  "Toowong Cemetery, Brisbane Queensland, Australia": null,
+  "Toowong Cemetery, Queensland, Australia": null,
+  "Toowong Cemetery, Queensland, Australia, Portion 1, Section 49, Plot No: 15/16": null,
+  "Toowong Cemetery, Toowong, Brisbane City, Queensland, Australia": {
+   "lat": -27.483,
+   "lon": 152.983,
+   "region": "queensland"
+  },
+  "Toowong Cemetery, Toowong, Brisbane, Queensland (Port. 13, Sect. 73, Grave 1)": null,
+  "Toowong Cemetery, Toowong, Brisbane, Queensland (Port. 13, Sect. 73, Grave 12)": null,
+  "Toowong Cemetery, Toowong, Brisbane, Queensland (Port. 4, Sect. 35, Grave 3-4)": null,
+  "Toowong, Queensland, Australia": {
+   "lat": -27.483,
+   "lon": 152.983,
+   "region": "queensland"
+  },
+  "Toowong, Queensland, Australia (Grave location 13-17-1)": null,
+  "Toowoomba": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Toowoomba Cemetery, Queensland, Australia": null,
+  "Toowoomba Crematorium / Toowoomba Garden of Remembrance - Plot WOMK6-C11": null,
+  "Toowoomba Q'ld  Australia": {
+   "lat": -27.561,
+   "lon": 151.954,
+   "region": "queensland"
+  },
+  "Toowoomba Queensland": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Toowoomba Queensland Australia": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Toowoomba, Queensland Australia": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Toowoomba, Queensland, Australia": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Toowoomba, Toowoomba Region, Queensland, Australia": {
+   "lat": -27.561,
+   "lon": 151.954,
+   "region": "queensland"
+  },
+  "Toowoomba, australia": {
+   "lat": -27.561,
+   "lon": 151.953,
+   "region": "queensland"
+  },
+  "Trebinje": {
+   "lat": 42.712,
+   "lon": 18.344,
+   "region": "bosnia"
+  },
+  "Trieste, Italy": null,
+  "Tubagh district, Dutch Cape Colony [South Africa]": null,
+  "Tulbach": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbach, , Cape of Good Hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbach, Cape Colony, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbach, Cape Province, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbach, Cape Province, South Africa, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbach, Cape of Good Hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh Ngk, Tulbagh, Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, , Cape of Good Hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Brede River DC, Western Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Breede River DC, Western Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Caap de Goede Hoop, Suid Afrika": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Colony": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Colony, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Of Good Hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Of Good Hope, South Africa (Rep.)": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Province": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Province, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Winelands, WC, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape of Good Hope": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape of Good Hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape of good hope, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Dutch Cape Colony": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Dutch Cape Colony, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Kaap, Suid Afrika": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Tulbagh, Cape Province, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Tulbagh, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, WC, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, Western Cape, South Africa": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, de Caep de Goede Hoop, Dutch Cape Colony": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, de Caep de Goede Hoop, Dutch Cape Colony [South Africa]": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Tulbagh, de Caep de Goede Hoop, Dutch Cape Colony, [South Africa]": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "Turin, Italy": null,
+  "Twyfelfontein dist Smithfield": null,
+  "Tyrone, Tyrone, Ireland": null,
+  "Tönning, Schleswig-Holstein, Deutschland": null,
+  "USA": null,
+  "Ub": null,
+  "Ugie, Cape Colony, South Africa": null,
+  "Uitenhage, Port Elizabeth, Eastern Cape, South Africa": {
+   "lat": -33.756,
+   "lon": 25.401,
+   "region": "cape"
+  },
+  "Uitenhage, Uitenhage, Cape Province, South Africa": {
+   "lat": -33.756,
+   "lon": 25.401,
+   "region": "cape"
+  },
+  "Umtata, , Cape Province, South Africa": null,
+  "United States": null,
+  "Upper Stormberg Division, District Albert, Cape Province, South Africa": null,
+  "Utrecht, Nederland": {
+   "lat": 52.091,
+   "lon": 5.122,
+   "region": "netherlands"
+  },
+  "Utrecht, Netherlands": {
+   "lat": 52.091,
+   "lon": 5.122,
+   "region": "netherlands"
+  },
+  "Utrecht, Utrecht, Nederland": {
+   "lat": 52.091,
+   "lon": 5.122,
+   "region": "netherlands"
+  },
+  "Utrecht, Utrecht, Netherlands": {
+   "lat": 52.091,
+   "lon": 5.122,
+   "region": "netherlands"
+  },
+  "Vaalbank, Free State, South Africa": {
+   "lat": -29.922,
+   "lon": 26.115,
+   "region": "orange-free-state"
+  },
+  "Vallei Josafat": null,
+  "Vallei Josafat, t' Land van Waveren, Cape of Good Hope, South Africa": null,
+  "Velde, Detern, NDS, Germany": null,
+  "Velde, Leer, Niedersachsen, Germany": null,
+  "Veljun, Croatia": null,
+  "Veljun, Lika-Senj, Croatia": null,
+  "Ventersdorp, North West, South Africa": {
+   "lat": -26.314,
+   "lon": 26.822,
+   "region": "transvaal"
+  },
+  "Venterskloof, Swartberg": null,
+  "Verguide Vlies, Somerset-East, Eastern Cape, South Africa": {
+   "lat": -32.722,
+   "lon": 25.588,
+   "region": "cape"
+  },
+  "Villa di Rovigno": {
+   "lat": 45.106,
+   "lon": 13.716,
+   "region": "istria-south"
+  },
+  "Virginia, St. Louis, Minnesota, United States": null,
+  "Vischgat Rhenosterberg, Graaff-Reinet, Western District, Eastern Cape, South Africa": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Vleeschbank, Riebeeck Kasteel, Caap de Goede Hoop, Suid Afrika": null,
+  "Vleeschbank, Riebeeck-Kasteel": null,
+  "Vlekpoort, Cradock, Cape Province, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Vlooikraal, Klaassmitsrivier, Suid Afrika": null,
+  "Vollenhove, Overijssel, Netherlands": {
+   "lat": 52.681,
+   "lon": 5.954,
+   "region": "netherlands"
+  },
+  "Vollenhove, Steenwijkerland, Overijssel, Nederland": {
+   "lat": 52.681,
+   "lon": 5.954,
+   "region": "netherlands"
+  },
+  "Vollenhove, Steenwijkerland, Overijssel, Nederland, Germany": null,
+  "Vrededorp, Johannesburg, Transvaal, South Africa": {
+   "lat": -26.2,
+   "lon": 28.083,
+   "region": "transvaal"
+  },
+  "Waaikraal": null,
+  "Wagenheim, Sachsen-Coburg-Gotha, Thuringen [Germany]": null,
+  "Wagenheim, Sachsen-Coburg-Gotha, Thuringen, Germany": null,
+  "Wagenmakersvallei, Cape Town, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "Waikumete Cemetery": null,
+  "Walden, Essex, England": null,
+  "Wangenheim Near Sachsen-Coburg-Gotha, Thüringen, Bundesrepublik Deutschland": null,
+  "Wangenheim, Gotha, Thueringen, Germany": null,
+  "Wangenheim, Gotha, Thüringen, Germany": null,
+  "Wangenheim, GothaDeutschland": null,
+  "Wangenheim, Near Sachsen-Coburg-Gotha, Thuringia, Germany": null,
+  "Wangenheim, Thuringia, Germany": null,
+  "Warten, Friesland, Netherlands": null,
+  "Waterloo Lane, Bristol, Gloucester, England": {
+   "lat": 51.455,
+   "lon": -2.597,
+   "region": "england"
+  },
+  "Waterval, Albert, Cape Province, South Africa": null,
+  "Waveren": null,
+  "Waveren, Cape Winelands, Western Cape, South Africa": null,
+  "Waveren, Cape, South Africa": null,
+  "Waveren, de Caep de Goede Hoop, Dutch Cape Colony": null,
+  "Week St Mary, Cornwall, England": null,
+  "Weert, Limburg, Netherlands": {
+   "lat": 51.252,
+   "lon": 5.707,
+   "region": "netherlands"
+  },
+  "Welcombe, Devon, England": {
+   "lat": 50.938,
+   "lon": -4.523,
+   "region": "england"
+  },
+  "Welcombe, Devon, England, United Kingdom": {
+   "lat": 50.938,
+   "lon": -4.523,
+   "region": "england"
+  },
+  "Wellington, Cape Winelands, Western Cape, South Africa": {
+   "lat": -33.64,
+   "lon": 19.011,
+   "region": "western-cape"
+  },
+  "Wellington, Western Cape, South Africa": {
+   "lat": -33.64,
+   "lon": 19.011,
+   "region": "western-cape"
+  },
+  "Wepener, Orange Free State, South Africa": {
+   "lat": -29.729,
+   "lon": 27.038,
+   "region": "orange-free-state"
+  },
+  "Werkhoven, Bunnik, Utrecht, Netherlands": {
+   "lat": 52.025,
+   "lon": 5.244,
+   "region": "netherlands"
+  },
+  "Wesel, Nordrhein-Westfalen, Deutschland": null,
+  "Wesel, Preussen": null,
+  "West Anstey, Devon, England": {
+   "lat": 51.035,
+   "lon": -3.638,
+   "region": "england"
+  },
+  "West Farleigh, Kent, England": {
+   "lat": 51.25,
+   "lon": 0.454,
+   "region": "england"
+  },
+  "West Farleigh, Kent, UK": {
+   "lat": 51.25,
+   "lon": 0.454,
+   "region": "england"
+  },
+  "West Leigh by Coldridge, Devon, England": null,
+  "West Leigh, Devonshire": {
+   "lat": 50.868,
+   "lon": -0.971,
+   "region": "england"
+  },
+  "West Park Cemetery, Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "West Park Cemetery, Johannesburg, Gauteng, South Africa": {
+   "lat": -26.202,
+   "lon": 28.044,
+   "region": "transvaal"
+  },
+  "Westdene, Johannesburg, Transvaal, South Africa": {
+   "lat": -26.175,
+   "lon": 27.988,
+   "region": "transvaal"
+  },
+  "Westekerk, Amsterdam": null,
+  "Western Cape, South Africa": null,
+  "Westervoort, Gelderland, Netherlands": {
+   "lat": 51.956,
+   "lon": 5.972,
+   "region": "netherlands"
+  },
+  "Westhausen, Gotha, Thüringen, Germany": null,
+  "Westhoek, Brabant Wallon, Belgium": null,
+  "Westkapelle, Nederland": null,
+  "Westleigh, Devon": {
+   "lat": 51.033,
+   "lon": -4.183,
+   "region": "england"
+  },
+  "Westleigh, Devon, England": {
+   "lat": 51.033,
+   "lon": -4.183,
+   "region": "england"
+  },
+  "Westley Nr Bideford, Devon, England": null,
+  "Westminster Abbey, London, Middlesex, England": null,
+  "Westminster Abbey, Westminster, Greater London, England": null,
+  "Westminster Abbey, Westminster, Middlesex, England": null,
+  "Westminster Abby, Westminster, Middlesex, England": null,
+  "Westminster St Anne, London, Greater London, England, United Kingdom": null,
+  "Westminster St James, Middlesex, England, Kingdom of Great Britain": null,
+  "Westminster abbey, Westminster, London, England": null,
+  "Westminster, City of Westminster, Greater London, England": null,
+  "Westminster, London, Greater London, England, United Kingdom": null,
+  "Westminster, London, Middlesex, England": null,
+  "Westminster, Middlesex": null,
+  "Westminster, Middlesex, England": null,
+  "Westphalia, Prussia, Germany": null,
+  "Westwood, Queensland, Australia": null,
+  "Wey, Germany": null,
+  "Wey, Rynprovinsie, The Netherlands": null,
+  "Whittier, Los Angeles, California, United States": null,
+  "Whyalla cemetery, South Australia": null,
+  "Whyalla, South Australia, Australia": null,
+  "Wiesens, Aurich, Lower Saxony, Germany": null,
+  "Wildebeestfontein, Caledon River, Free State, South Africa": null,
+  "Willibrordkirche, Wesel, Nordrhein-Westfalen, Deutschland": null,
+  "Willowdene Nursing Home, Benoni, East Rand, Gauteng, South Africa": {
+   "lat": -26.189,
+   "lon": 28.321,
+   "region": "transvaal"
+  },
+  "Wilrijk, Antwerp, Belgium": {
+   "lat": 51.167,
+   "lon": 4.395,
+   "region": "belgium"
+  },
+  "Wilrijk, Antwerpen, Belgium": {
+   "lat": 51.167,
+   "lon": 4.395,
+   "region": "belgium"
+  },
+  "Wiltshire": null,
+  "Wiltshire, England": null,
+  "Winburg, Free State, South Africa": {
+   "lat": -28.518,
+   "lon": 27.009,
+   "region": "orange-free-state"
+  },
+  "Winburg, Lejweleputswa, Free State, South Africa": {
+   "lat": -28.518,
+   "lon": 27.009,
+   "region": "orange-free-state"
+  },
+  "Winburg, Winburg, Orange Free State, South Africa": {
+   "lat": -28.518,
+   "lon": 27.009,
+   "region": "orange-free-state"
+  },
+  "Windsor, West Berkshire, UK": {
+   "lat": 51.483,
+   "lon": -0.6,
+   "region": "england"
+  },
+  "Winkbourne Nottinghamshire": null,
+  "Winton, Queensland, Australia": null,
+  "Witfield, Boksburg, Transvaal, South Africa": {
+   "lat": -26.187,
+   "lon": 28.206,
+   "region": "transvaal"
+  },
+  "Witvlucht, Graaff-Reinet, Cape Colony": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "Wodehouse, Cape Province, South Africa": null,
+  "Wodehouse, Eastern Cape, South Africa": null,
+  "Wolfenbüttel, Braunschweig-Lüneburg, Deutschland(HRR)": null,
+  "Wollingworth, Suffolk, England": null,
+  "Wolstanton, Stafford, England": {
+   "lat": 53.03,
+   "lon": -2.216,
+   "region": "england"
+  },
+  "Wolstanton, Staffordshire, England": {
+   "lat": 53.03,
+   "lon": -2.216,
+   "region": "england"
+  },
+  "Wolvekop, Albert": null,
+  "Woodbrook, Queen's, Ireland": null,
+  "Woodbrook, Queens County, Ireland": null,
+  "Woolley, Moorwinstow, Cornwall, England": null,
+  "Worcester, Brede River DC, Western Cape, South Africa": {
+   "lat": -33.647,
+   "lon": 19.448,
+   "region": "western-cape"
+  },
+  "Worcester, Cape Colony, South Africa": {
+   "lat": -33.647,
+   "lon": 19.448,
+   "region": "western-cape"
+  },
+  "Worcester, Cape of Good Hope, South Africa": {
+   "lat": -33.647,
+   "lon": 19.448,
+   "region": "western-cape"
+  },
+  "Worlingworth": {
+   "lat": 52.269,
+   "lon": 1.254,
+   "region": "england"
+  },
+  "Worlingworth, Suffolk, England": {
+   "lat": 52.269,
+   "lon": 1.254,
+   "region": "england"
+  },
+  "Wotton Under Edge, Gloucester, England": {
+   "lat": 51.632,
+   "lon": -2.345,
+   "region": "england"
+  },
+  "Wotton under Edge, Gloucestershire, England": {
+   "lat": 51.632,
+   "lon": -2.345,
+   "region": "england"
+  },
+  "Wotton under Edge, Gloucestershire, England, United Kingdom": {
+   "lat": 51.632,
+   "lon": -2.345,
+   "region": "england"
+  },
+  "Wotton, Under Edge, Glocester, England": {
+   "lat": 51.838,
+   "lon": -1.003,
+   "region": "england"
+  },
+  "Wotton, Under Edge, Glocester, u, k": null,
+  "Wotton-under-Edge, England, UK": {
+   "lat": 51.632,
+   "lon": -2.345,
+   "region": "england"
+  },
+  "Wotton-under-Edge, Gloucestershire, England": {
+   "lat": 51.632,
+   "lon": -2.345,
+   "region": "england"
+  },
+  "Wrisse, Aurich, Niedersachsen, Germany": null,
+  "Wynberg, Cape Province, South Africa": null,
+  "Württemberg, Baden-Württemberg, Germany": null,
+  "Württemberg, Bayern, Germany": null,
+  "Württemberg, bayern, Germany": null,
+  "Würzburg, Würzburg, Bavaria, Germany": null,
+  "Yarraville, Victoria, Australia": null,
+  "Yeovil, Somerset, England": {
+   "lat": 50.942,
+   "lon": -2.632,
+   "region": "england"
+  },
+  "Yorks Co., Eng.": null,
+  "Yorkshire, England": null,
+  "Yugoslavia": null,
+  "Zagreb": {
+   "lat": 45.813,
+   "lon": 15.977,
+   "region": "civil-croatia"
+  },
+  "Zagreb, City of Zagreb, Croatia": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Zagreb, Croatia": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Zagreb, Grad Zagreb, Croatia": {
+   "lat": 45.814,
+   "lon": 15.978,
+   "region": "civil-croatia"
+  },
+  "Zandhoven": {
+   "lat": 51.215,
+   "lon": 4.662,
+   "region": "belgium"
+  },
+  "Zandhoven, Antwerp, Flanders, Belgium": {
+   "lat": 51.215,
+   "lon": 4.662,
+   "region": "belgium"
+  },
+  "Zeeland, Netherlands": {
+   "lat": 51.697,
+   "lon": 5.676,
+   "region": "netherlands"
+  },
+  "Zeerust, Marico, Noordwest, Zuid-Afrika": null,
+  "Zevenfontein, South Africa": null,
+  "Zijn vrouw is later bijgezet in het graf., Burgersdorp Old Cemetery, Burgersdorp, Cape, South Africa": null,
+  "Zoetermeer, Netherlands": {
+   "lat": 52.057,
+   "lon": 4.493,
+   "region": "netherlands"
+  },
+  "Zonnemaire, Zeeland, Netherlands": {
+   "lat": 51.713,
+   "lon": 3.951,
+   "region": "netherlands"
+  },
+  "Zoutendal, Stellenbosch": null,
+  "Zoutendal, Stellenbosch, Cape, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "Zoutpansberg, Transvaal, South Africa": null,
+  "Zwagershoek, Cradock, Cape Province, South Africa": {
+   "lat": -32.164,
+   "lon": 25.619,
+   "region": "cape"
+  },
+  "Zwagershoek, South Africa": null,
+  "[South Africa]": null,
+  "ashes were scattered in the Memorial Gardens at the Borough Cemetery, Bouncers Lane, Cheltenham": null,
+  "be38, Otocac, Croatia": {
+   "lat": 44.869,
+   "lon": 15.238,
+   "region": "vojna-krajina"
+  },
+  "buried London, The Strand - St Mariens Childrens Churchyard": null,
+  "c Dec 29, 1795, London, Soho, St Anne's": null,
+  "cape town": {
+   "lat": -33.929,
+   "lon": 18.417,
+   "region": "western-cape"
+  },
+  "de Bruins Poort, Eastern Cape, South Africa": null,
+  "de Caep de Goede Hoop": null,
+  "de Caep de Goede Hoop (Cape Town), Dutch Cape Colony": null,
+  "de Caep de Goede Hoop, Dutch Cape Colony": null,
+  "de Caep de Goede Hoop, Dutch Cape Colony [South Africa]": null,
+  "de Caep de Goede Hoop, Dutch Cape Colony, [South Africa]": null,
+  "de Caep de Goede Hoop, South Africa": null,
+  "de Comskloof (farm), Camdeboo, Graaff Reinet District, Dutch Cape Colony, [South Africa]": {
+   "lat": -32.252,
+   "lon": 24.531,
+   "region": "cape"
+  },
+  "dist Graaff-Reinet, Oos-Kaap, Suid-Afrika": null,
+  "drakenstein, Cape, south Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "e Olifantsberg (farm), beyond the Breede River, Dutch Cape Colony, [South Africa]": null,
+  "geb. Alberts": null,
+  "in bondage, Cape Town, Cape, South Africa": {
+   "lat": -33.926,
+   "lon": 18.423,
+   "region": "western-cape"
+  },
+  "in de kerk van Opwijk.": null,
+  "jablanac": null,
+  "krivi put": {
+   "lat": 45.032,
+   "lon": 14.964,
+   "region": "kvarner"
+  },
+  "kutina": null,
+  "likely Baydon, Wiltshire, England": null,
+  "mostar": {
+   "lat": 43.343,
+   "lon": 17.808,
+   "region": "bosnia"
+  },
+  "mrzli dol 6, Lika-Senj, Kroatien": {
+   "lat": 45.034,
+   "lon": 14.989,
+   "region": "kvarner"
+  },
+  "of Aller, Som., Eng.": {
+   "lat": 51.06,
+   "lon": -2.858,
+   "region": "england"
+  },
+  "of Bedworth and Stoughton, Leicestershire, England": null,
+  "of Cape of Good Hope, South Africa.": null,
+  "of Cape, South Africa": null,
+  "of Drakenstein, Cape Colony, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "of Drakenstein, Cape, S-Af": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "of Drakenstein, Cape, South Africa": {
+   "lat": -33.75,
+   "lon": 19.0,
+   "region": "western-cape"
+  },
+  "of England": null,
+  "of Graff Reinett, Cape Colony, S Africa": null,
+  "of Hartland, Devon, Eng.": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "of Hartland, Devon, England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "of Hartland, Devon., Eng.": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "of Hartland, Devonshire, England": {
+   "lat": 50.994,
+   "lon": -4.481,
+   "region": "england"
+  },
+  "of Morwenstow, Cor., Engl.": null,
+  "of Paarl (Drakenstein), C Prvn, S Af": null,
+  "of Parkham, Devon, Eng.": null,
+  "of Parkham, Devon, England": null,
+  "of St Quivox, Ayr, Sctl": null,
+  "of St Quivox, Ayrshire, Scotland": null,
+  "of Stellenbosch, C Prvn, S Af": null,
+  "of Stellenbosch, Cape Province, South Africa": {
+   "lat": -33.935,
+   "lon": 18.867,
+   "region": "western-cape"
+  },
+  "of, Cape Province, South Africa": null,
+  "plot 8B, South Brisbane Cemetery, Brisbane, Queensland, Australia": {
+   "lat": -27.468,
+   "lon": 153.028,
+   "region": "queensland"
+  },
+  "possibly Baydon, Wiltshire, England": null,
+  "senj": {
+   "lat": 44.989,
+   "lon": 14.906,
+   "region": "kvarner"
+  },
+  "smiljan": {
+   "lat": 44.564,
+   "lon": 15.318,
+   "region": "vojna-krajina"
+  },
+  "toowoomba, qld, australia": {
+   "lat": -27.561,
+   "lon": 151.954,
+   "region": "queensland"
+  },
+  "tulbagh, de Caep de Goede Hoop, Dutch Cape Colony": {
+   "lat": -33.286,
+   "lon": 19.141,
+   "region": "western-cape"
+  },
+  "v Bommel Leiden, Netherlands": null,
+  "v Bommel NL": null,
+  "v Nymegen": null,
+  " 5 Aug 1814 London, The Strand, St Mariens": null,
+  "Čabar, Općina Čabar, Primorje-Gorski Kotar County, Croatia": null,
+  "Čepić": {
+   "lat": 45.208,
+   "lon": 14.136,
+   "region": "istria-central"
+  },
+  "Šumećica 2, Otočac, Općina Otočac, Lika-Senj County, Croatia": {
+   "lat": 44.861,
+   "lon": 15.203,
+   "region": "vojna-krajina"
+  }
+ }
+}

@@ -39,3 +39,16 @@ to `site/.standardfloor.json`, which may only go down; counts, never a name. Rai
   data work an author or a reader of the registers does, after which they flow into the index by themselves.
 - What an author alone can settle (bare given names, surname-first forms, the quoted press lists, the Karlobag census
   address) is listed in `~/Downloads/audit-briefs/links/blazevic-editorial.md`.
+
+## The "at the time" notes (18 October 2026)
+
+A quiet line under a dated place on a deceased person's page (the Born, Baptised and Died rows and the events list): who held that ground in
+that year, from the Record Atlas's region eras (kit `kit/docs/era-notes.md`). Text only, "per the Record Atlas" (or "per this archive's own
+research" where the Atlas era was seeded from the estate's own sovereignty file), and nothing wherever the data does not support it.
+
+- `data/era-ground.tsv` is the decision: each place string as printed -> a region, or `-`. `data/era-towns.tsv` holds the points the kit's
+  edge rule checks against the rings. `tools/build_era.py` builds `site/src/data/era-places.json` from them and `--check`s them against the data
+  (a new place string in `people.json` fails the build until it has a row). `--snapshot <copy of the Atlas's context.json>` rebuilds
+  `site/src/data/era-snapshot.json` (version 4) with the recorded `--unassessed allow`; refresh it deliberately and review the diff.
+- Never on a living page: `check:era` (the kit's `checkera.py`) reads the built pages. The three British regions give no note before 1753 (old-style year).
+- The notes are not part of a page's text for the search index or the names index (`tools/searchindex.py` skips person pages and strips `<style>`).
