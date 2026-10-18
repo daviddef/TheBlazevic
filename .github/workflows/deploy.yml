@@ -36,13 +36,15 @@ jobs:
 
       - name: Regenerate the derived data that does not need the GEDCOM
         # Eleven of twelve tools need sources/*.ged, which is gitignored because
-        # it carries every living person in full. These three read committed
-        # JSON only, and whoindex in particular is trusted at runtime by the
-        # auto-linker - a stale slug there points a reader at a dead page.
+        # it carries every living person in full. These two read committed
+        # JSON only. The names index the build-time linker uses is NOT
+        # regenerated here: a local run also drops names that a living or
+        # held-out person bears (people CI cannot see), so CI uses the committed
+        # file and proves, in `npm run build` (tools/autolink_run.py), that it
+        # is no looser than the committed data allows.
         run: |
           python3 tools/register.py
           python3 tools/coverage.py
-          python3 tools/whoindex.py
       - name: Build
         run: npm run build
         working-directory: site

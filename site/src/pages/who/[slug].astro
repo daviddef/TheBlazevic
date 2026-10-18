@@ -37,7 +37,7 @@ const listed = rows.map(p => p.living ? ({
   where: p.bornPlace || p.diedPlace || "",
 }));
 ---
-<Base title={name} noindex={allLiving}
+<Base title={name} noindex={allLiving} noautolink={true}
       eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
       dek={rows.length > 1
         ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`

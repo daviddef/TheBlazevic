@@ -25,7 +25,7 @@ const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "")
 ---
 <Base title={p.name} eyebrow="A living person"
       dek="Named here with their relationships and their town and country, and nothing more."
-      noindex unstructured>
+      noindex unstructured noautolink={true}>
   <section class="blk">
     <table class="kv"><tbody>
       <tr><th>Name</th><td>{p.name}</td></tr>

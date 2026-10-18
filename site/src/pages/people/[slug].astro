@@ -125,7 +125,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
   .filter((x) => x.slug !== p.slug) : [];
 ---
 {p.living ? <LivingPerson p={p} /> : (
-<Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname}
+<Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname} noautolink
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
 
   {dup && dupOther.length > 0 && (

@@ -18,8 +18,15 @@ import book from "../data/book.json";
 /* noindex: <meta name="robots" content="noindex">, which also takes the page out
    of the sitemap (the kit's sitemap.py reads each built page).
    unstructured: no JSON-LD at all. A living person's page carries none, because
-   structured data exists to be harvested. */
-const { title, description = "", dek, eyebrow, bare, noindex, unstructured } = Astro.props;
+   structured data exists to be harvested.
+   noautolink: the kit's build-time name linker (tools/names_index.py, kit autolink.py) leaves
+   this page alone. true = the whole of <main>; "dek" = only the lead line under the title.
+   Left alone, on purpose: a page that is itself a record (a person, a find, a name page) carries
+   its own links in its own template, and its subject's name would be linked to the page it is on;
+   and the pages that quote registers word for word (/snapshots/, /readings/, /register/,
+   /searched/, every Snapshot figure), where a witness is a name in a transcription and a link would
+   say he is the tree's man of that name. */
+const { title, description = "", dek, eyebrow, bare, noindex, unstructured, noautolink } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline", "The Timeline"], ["/how-far-back", "How Far Back"]]],
@@ -108,13 +115,13 @@ const thisArchive =
 </header>
 <BookHead book={book} u={u} />
 
-<main id="main" tabindex="-1">
+<main id="main" tabindex="-1" data-no-autolink={noautolink === true ? "" : undefined}>
   <div class="wrap">
     {!bare && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>
-        {dek && <p class="dek lead">{dek}</p>}
+        {dek && <p class="dek lead" data-no-autolink={noautolink ? "" : undefined}>{dek}</p>}
       </div>
     )}
     <slot />
@@ -168,6 +175,5 @@ const thisArchive =
     });
   })();
 </script>
-  <script src={u("/wholink.js") + v("wholink.js")} defer></script>
 </body>
 </html>

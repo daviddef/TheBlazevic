@@ -434,17 +434,11 @@ a.stat:hover .go{opacity:1}
 #onthispage { margin: 0 0 30px }
 main section > h2 { scroll-margin-top: 18px }
 
-/* person links injected by wholink.js */
-a.wholink{
-  color:inherit;
-  text-decoration:none;
-  border-bottom:1px dotted var(--rule,#c9c2b6);
-  transition:border-color .15s,background .15s;
-}
-a.wholink:hover{
-  border-bottom-color:var(--accent,#9a3b26);
-  background:color-mix(in srgb,var(--accent,#9a3b26) 8%,transparent);
-}
+/* Person names the build links (kit autolink.py marks them a[data-autolink]): drawn exactly as a person link
+   typed by hand in the prose, which is the global `a` rule above. Restated here because a page's own scoped
+   <style> can restyle `a` and the added anchor carries no scoped attribute. (This replaces a.wholink, which
+   public/wholink.js injected in the browser until 18 October 2026.) */
+a[data-autolink]{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
 
 /* Home-page banner — used only when an image has been placed at /art/banner.webp */
 .banner { margin: 0 0 30px; }
@@ -803,9 +797,6 @@ figure.hero{margin:0}
   .hero .kick{font-size:10px;letter-spacing:.14em;line-height:1.5;display:block}
 }
 
-/* auto-linked person names, added by wholink.js */
-a.wholink{border-bottom:1px dotted var(--accent);text-decoration:none;color:inherit}
-a.wholink:hover{border-bottom-style:solid;color:var(--accent)}
 
 
 /* The ladder's own two colours. --ochre and --ink-3 are page-furniture tones

@@ -11,7 +11,7 @@ import { md } from "@daviddef/archive-kit/lib/md.js";
 const { s, compact = false } = Astro.props;
 const first = s.entry || s.page;
 ---
-<figure class="doc snap" id={s.id}>
+<figure class="doc snap" id={s.id} data-no-autolink>
   <a href={u(`/snaps/${s.page || s.entry}`)} title="The whole page, larger">
     <img src={u(`/snaps/${first}`)} loading="lazy"
          alt={`${s.title}. The register page as read: ${s.where}.`} />

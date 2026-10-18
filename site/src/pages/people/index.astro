@@ -49,7 +49,7 @@ const kidSurTop = Object.entries(kidSur).sort((a, b) => b[1] - a[1]).slice(0, 6)
 const franceschi = Object.entries(kidSur)
   .filter(([s]) => /franceschi|franceski/i.test(s)).reduce((a, [, n]) => a + n, 0);
 ---
-<Base title="The People" eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
+<Base title="The People" noautolink={true} eyebrow={`${rows.length.toLocaleString()} published records, about ${distinct.toLocaleString()} distinct people`}
   dek="Everybody in the tree carrying one of this archive's eight surnames, who is judged dead and is not a working placeholder. Living people are not listed here; each has a page of their own, with their relationships and their town and country and nothing more. This is a count of RECORDS, not of people: some are the same person entered twice, and a published record is not a proven relative. Both caveats are quantified below.">
 
 <NameLists here="people" u={u} />

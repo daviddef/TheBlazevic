@@ -10,7 +10,7 @@ const direct = F.rows.filter((r) => r.ahn);
 const rest = F.rows.filter((r) => !r.ahn);
 const places = Object.entries(F.places).sort((a, b) => b[1] - a[1]);
 ---
-<Base title="People Found Beside the Tree"
+<Base title="People Found Beside the Tree" noautolink={true}
   eyebrow="Read out of a register, and not in the GEDCOM"
   dek={`${F.count} people this archive has read off a page and the family tree has never heard of — ${F.onDirectLine} of them direct ancestors. They are kept beside the tree rather than put into it, and the reason is a rule, not an oversight.`}>
 

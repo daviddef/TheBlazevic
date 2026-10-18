@@ -74,7 +74,7 @@ const relationHtml = md(kin.map((k, i) => (k.href ? `\u0001${i}\u0001` : k.text)
 ---
 <Base
   title={r.name}
-  eyebrow="Read out of a register, and not in the family tree"
+  eyebrow="Read out of a register, and not in the family tree" noautolink={true}
   dek={`${r.event ? r.event.charAt(0).toUpperCase() + r.event.slice(1) : "Recorded"}${r.date ? `, ${r.date}` : ""}${r.place ? `, ${r.place}` : ""} — ${plain(r.relation)}.`}>
 
   <section class="blk">
