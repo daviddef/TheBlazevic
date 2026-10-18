@@ -14059,6 +14059,33 @@
    "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
   },
   {
+   "archive": "Lerena Family",
+   "src": "FamilySearch full-text search - \"Pedro A. Lerena\" \"Teresa Leonard\", filtered to Uruguay; the Cordon baptism of Amelia, 1863, and the Vicario",
+   "url": "https://www.familysearch.org/search/full-text",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
+   "archive": "Lerena Family",
+   "src": "FamilySearch full-text (Uruguay filter) and record index - the marriage ACT of Pedro Antonio Lerena and Teresa Leonard, June 1861 or soon af",
+   "url": "https://www.familysearch.org/search/full-text",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
+   "archive": "Lerena Family",
+   "src": "FamilySearch record index - Pedro Lerena with spouse Trinidad Morales (484 results) and Trinidad Morales, died 1862-1872, spouse surname Ler",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "sourceMarked": true,
+   "host": "familysearch.org",
+   "provider": "familysearch",
+   "why": "cites a DGS film number or image ark; the atlas indexes waypoints and the two do not overlap"
+  },
+  {
    "archive": "Luwinski Family",
    "src": "Genealogia w Archiwach — USC Szubin Miasto, marriages 1874 (sygn. 141, 6/1792/0/2.2/141), scan 10, read at the image through the Loris IIIF ",
    "url": "https://www.genealogiawarchiwach.pl/",
@@ -14439,6 +14466,33 @@
   {
    "archive": "Luwinski Family",
    "src": "FreeREG — Weston Holy Trinity baptisms and marriages, 1815 to 1851, Wallis and Field",
+   "url": "https://www.freereg.org.uk/search_queries/new",
+   "sourceMarked": true,
+   "host": "freereg.org.uk",
+   "provider": "freereg",
+   "why": "«freereg.org.uk» is FreeREG, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeREG — Weston, Clothall and Wallington registers, 1740 to 1879, Wallis, Field, Phillips, Foster and Wallduck",
+   "url": "https://www.freereg.org.uk/search_queries/new",
+   "sourceMarked": true,
+   "host": "freereg.org.uk",
+   "provider": "freereg",
+   "why": "«freereg.org.uk» is FreeREG, which this atlas holds, but the link names no waypoint it can pin a volume to"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "Hertfordshire Names Online — wills, licences, marriages and poor-law indexes, Phillips of Weston",
+   "url": "https://www.hertfordshire.gov.uk/ufs/ufsmain?formid=HALS_INDEXES",
+   "sourceMarked": false,
+   "host": "hertfordshire.gov.uk",
+   "provider": null,
+   "why": "no provider in this atlas claims «hertfordshire.gov.uk» — add it to data/providers.json, or to `hosts` on the provider that owns it if it is a regional site"
+  },
+  {
+   "archive": "Luwinski Family",
+   "src": "FreeREG — Weston marriages and baptisms, Phillips and Philips, Wright, 1730 to 1795",
    "url": "https://www.freereg.org.uk/search_queries/new",
    "sourceMarked": true,
    "host": "freereg.org.uk",
