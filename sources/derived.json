@@ -1,6 +1,7 @@
 {
  "note": "sha256[:16] of each DERIVED file at last full regeneration. Hand-kept files are listed separately and deliberately not hashed \u2014 see HAND_KEPT in tools/regen.py.",
  "handKept": [
+  "book.json",
   "corrections.json",
   "kosina-descent.json",
   "lines.json",
@@ -46,7 +47,7 @@
   "places.json": "18d260139483e6b7",
   "readings.json": "7b6a0e6da9afb4ea",
   "register.json": "36f8cbaf19c2d40e",
-  "searched.json": "0203eee0543e038d",
+  "searched.json": "2dec7316ee0221f3",
   "snapshots.json": "cabd8005a2c264bf",
   "surnames.json": "b0689279a3026094",
   "targets.json": "37ff4931531ec54a",

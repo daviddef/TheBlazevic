@@ -37,6 +37,7 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 
 | Images | What | Result |
 |---|---|---|
+| **216–272** | the births book **from August 1745 (the day after Anna's baptism) to December 1752**, both pages of every image, read from sheets at about 0.6 of source size (image 239 and 240 are two photographs of the same spread) | **No Gergacz child** of any parent; the only Gergacz in these pages is the **mother** «Dorothea Pergaez/Gergacz» of Joannes Milichich of Vellemerich (baptism 11 August 1752), already in the index |
 | **330–344** | the births book of 1728–1761 from **December 1759 to its last entry, 18 October 1761** (image 344; the marriages 1726–1761 begin at 346), every entry of 15 pages read | **No Gergacz** (any spelling) |
 | **474–479** | the births book 1762–1789 from its first page (**May 1762**, image 474) to **December 1762** | **No Gergacz** |
 
@@ -45,5 +46,6 @@ Images 480 (right) and 481 (left) of waypoint 9R2M-C6D were opened (the pages of
 **What this does and does not show.**
 
 * **Nothing links the Mrežnica Nicolaus to Karlobag's Nicolaus Gerkacs.** No Antonius or Michael to a Nicolaus Gergacz turns up in the pages read, and the pages read are about a year and a half of births.
-* **Not read: the births of 1746–1759 (images about 215–329), the very years in which an Antonius of 1745–55 would be baptised** — about 115 images, and the page for Anna of 1745 is one of them. Whether to read them is the next decision.
+* **Read now: 1745–1752 (images 216–272) and December 1759–1761 (330–344). Still not read: January 1753 to November 1759 (images 273–329), about 57 images.** Antonius, if the Karlobag Antonius is this Nicolaus's son, would have been born between about 1740 and 1760 (his own children were baptised at Karlobag from 1777), so 1745–1752 was the likeliest stretch and shows no child of a Nicolaus Gergacz.
+* **A relative, not a child:** the index and these pages show a **Dorothea Gergacz, wife of Joannes Milchich of Vellemerich**, with children baptised 1752, 1754 and 1756, and a **Margarita Gergacz, wife of Joannes Thomasich**, with a child of 1766. Nothing says how they relate to Nicolaus; they show that the surname existed at Mrežnica beyond his household.
 * **A different line to test:** the death of a Nicolaus Gergacz at Mrežnica (Deaths 1726–1759 are images about 400–470: image 466 is a death page of 1756) would say whether Nicolaus was still there after 1745.
