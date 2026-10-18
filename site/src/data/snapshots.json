@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 497,
- "images": 527,
+ "count": 498,
+ "images": 528,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -11955,6 +11955,29 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1745-02-gergath-godparents",
+   "entry": "mreznica-baptism-1745-02-gergath-godparents-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 17 February 1745 — Joannes, son of Mathias Pallovich, godparents Joannes Gergath and Anna Gergath, Pallovichi",
+   "film": "Mrežnica births (Rođeni) 1728–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 212, right page (page 141), the entry of 17 February under the heading «Pallovichij», in the lower half",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCFW?cc=2040054",
+   "says": "«Die 17 Febr. Bapt est filius Joannes legitimus Mathiae Pallovich et Helenae natae Dervodetich coniugum. PP. Joannes Gergath et Anna Gergath»: an adult couple Joannes and Anna written Gergath as godparents at Mrežnica five months before the baptism of Anna to Nicolaus Gergach (7 July 1745). Read from the page at full resolution; the first letter of the surname is a G in the hand's usual form, and the ending -th is the writer's -ch. The entry is of another family and does not make them relatives of Nicolaus; no baptism of a child to a Joannes Gergath was seen in images 140–215.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "18 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12014,7 +12037,8 @@
    "mreznica-baptism-1745-07-anna-gergacz",
    "mreznica-baptism-1756-08-gergach-godfather",
    "mreznica-marriage-1733-02-nicolaus-gergich-susana",
-   "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich"
+   "karlobag-marriage-1769-11-antonius-gergacs-francisca-berkliacich",
+   "mreznica-baptism-1745-02-gergath-godparents"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
