@@ -1,0 +1,252 @@
+{
+ "version": 1,
+ "scope": "main",
+ "include": [
+  "/kosina/",
+  "/port-pirie/",
+  "/america/",
+  "/stones/",
+  "/frontier/",
+  "/karlobag/",
+  "/hungarian-press/",
+  "/zubrinic-roots/",
+  "/connected/",
+  "/rhodes/",
+  "/senj/",
+  "/hedviga/"
+ ],
+ "exclude": [],
+ "new_page_max": 0,
+ "names": {
+  "entry_prefixes": [
+   "/people/",
+   "/who/",
+   "/found/"
+  ],
+  "read_blocks": [
+   "blockquote",
+   "div.note",
+   "figcaption"
+  ],
+  "include_tables": false,
+  "skip": [],
+  "stop_words": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December",
+   "Januarii",
+   "Februarii",
+   "Martii",
+   "Aprilis",
+   "Maii",
+   "Junii",
+   "Julii",
+   "Augusti",
+   "Septembris",
+   "Octobris",
+   "Novembris",
+   "Decembris",
+   "Image",
+   "Images",
+   "Book",
+   "Folio",
+   "Film",
+   "Source",
+   "Sources",
+   "Register",
+   "Registers",
+   "Matricula",
+   "Krstna",
+   "Poročna",
+   "Mrliška",
+   "Knjiga",
+   "Index",
+   "Witnesses",
+   "Witness",
+   "Godparents",
+   "Neither",
+   "Whether",
+   "Ahnentafel",
+   "Parish",
+   "Born",
+   "Died",
+   "Married",
+   "Father",
+   "Mother",
+   "Son",
+   "Daughter",
+   "Wife",
+   "Husband",
+   "Widow",
+   "Children",
+   "Brother",
+   "Sister",
+   "Entry",
+   "Same",
+   "Corrected",
+   "House",
+   "Dominus",
+   "Dnus",
+   "Papa",
+   "Chancellor",
+   "Pro",
+   "Pop",
+   "Recte",
+   "Mag"
+  ],
+  "surname_words": [
+   "Croatia",
+   "Africa",
+   "Argentina",
+   "Yugoslavia",
+   "Australia",
+   "Zagreb",
+   "Crikvenica",
+   "Rovinj",
+   "August",
+   "June",
+   "Dominus",
+   "Papa",
+   "Recte",
+   "III",
+   "Smojver",
+   "Kosiner",
+   "Oreskovich",
+   "Santou"
+  ],
+  "not_names": [
+   "^(Santa|San|Sveti|Sv\\.?|Saint|Mount|Monte|Lake|New|North|South|East|West|Great|Little|Holy|Our|Port|Fort|Cape)\\b",
+   "^(St|Sveta|Sveti|Open|Family|Find|Pro|De|Vidua|Obnovio|Waverley|Marija Bistrica)\\b",
+   "\\b(Waverley Hall|Marija Bistrica|Island|Street|Road|Church|Parish|Croatia|Slovenia|Hungary|Senj|Karlobag|Selce|Krivi|Kranj|Šmartin|Smartin|Ljubljana|Zagreb|Australia|Queensland|Adelaide|Pirie|Archive|Archives|Register|Census|Index|Library|Press|Film|Trove|Matricula|FamilySearch|MyHeritage|Ancestry|Compass|Recorder|Advertiser)\\b",
+   "(?i)^(family tree stops|denatorum josephi|maria theresa$|again the same|anton entry carries|bore martin|disease as franz|lukas ko$)"
+  ],
+  "allow": []
+ },
+ "citations": {
+  "blocks": [
+   "p",
+   "li",
+   "dd",
+   "blockquote",
+   "div.note",
+   "tr",
+   "figcaption"
+  ],
+  "patterns": [
+   {
+    "id": "image",
+    "flags": "i",
+    "regex": "\\b(?:images?|img)\\s+~?\\d+"
+   },
+   {
+    "id": "sig",
+    "flags": "i",
+    "regex": "\\b(?:sig\\.?|signature)\\s*\\d{4,5}"
+   },
+   {
+    "id": "bookp",
+    "flags": "i",
+    "regex": "\\bbook\\s+(?:pp?\\.|pages?)\\s*\\d+|\\bbook page\\s+\\d+|\\bpage\\s+\\d+\\b(?=,\\s*(?:right|left))"
+   },
+   {
+    "id": "folio",
+    "flags": "i",
+    "regex": "\\b(?:folio|fol\\.)\\s*\\d+"
+   },
+   {
+    "id": "dgs",
+    "regex": "\\bDGS\\s*\\d+"
+   },
+   {
+    "id": "ark",
+    "regex": "\\b(?:ark:/|ark\\s+[0-9]:[0-9]:[A-Z0-9-]{8,}|3:1:[A-Z0-9-]{8,}|1:1:[A-Z0-9-]{8,})"
+   },
+   {
+    "id": "waypoint",
+    "regex": "\\b9[A-Z0-9]{3}-[A-Z0-9]{3}\\b"
+   },
+   {
+    "id": "troveart",
+    "flags": "i",
+    "regex": "\\bFamily Notices\\b.*\\bp\\.\\s*\\d+"
+   },
+   {
+    "id": "snap",
+    "flags": "i",
+    "regex": "\\b(?P<pl>Karlobag|Selce|Senj|Šibenik|Otočac|Kranj|Krivi(?: Put)?|Drniš|Pag|Nin|Betina|Mrežnica)\\b[^.;:«»]{0,70}?\\b(?P<y>1[5-9]\\d\\d)\\b(?=[^«»]{0,160}?\\b(?:images?\\s+\\d|folio\\s+\\d|fol\\.\\s*\\d|book\\s+p))",
+    "key": "{pl}-{y}"
+   },
+   {
+    "id": "manifest",
+    "flags": "i",
+    "regex": "\\bmanifests?\\b|\\bpassenger lists?\\b"
+   },
+   {
+    "id": "census",
+    "flags": "i",
+    "regex": "\\b(?:\\d{4}\\s+)?(?:household |church )?census(?:es)?\\b"
+   },
+   {
+    "id": "trove",
+    "flags": "i",
+    "regex": "\\bTrove\\b"
+   },
+   {
+    "id": "matricula",
+    "flags": "i",
+    "regex": "\\bMatricula\\b|\\bNŠAL\\b"
+   }
+  ],
+  "record_links": {
+   "prefixes": [
+    "/snapshots/",
+    "/readings/",
+    "/sources/",
+    "/searched/",
+    "/documents/"
+   ],
+   "hosts": [
+    "familysearch.org",
+    "matricula-online.eu",
+    "nla.gov.au",
+    "arcanum.com",
+    "findagrave.com",
+    "arolsen-archives.org",
+    "antenati.cultura.gov.it",
+    "myheritage.com"
+   ],
+   "url_contains": [],
+   "fragments": [
+    "#snap-"
+   ]
+  },
+  "next_block_max_chars": 240
+ },
+ "scans": {
+  "image_patterns": [
+   {
+    "regex": "/snaps/(?P<pl>karlobag|selce|senj|sibenik|otocac|kranj|krivi|drnis|pag|nin|betina|mreznica)[a-z-]*?-(?P<y>1[5-9]\\d\\d)",
+    "key": "{pl}-{y}"
+   }
+  ],
+  "aliases": {},
+  "link_only": [
+   "snap",
+   "matricula"
+  ]
+ },
+ "allow_prefixes": [
+  "/people/",
+  "/who/",
+  "/found/"
+ ]
+}
