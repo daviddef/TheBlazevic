@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 504,
- "images": 534,
+ "count": 505,
+ "images": 535,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -12116,6 +12116,29 @@
    "captured": "18 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "mreznica-baptism-1730-02-gregorius-nicolai-jugath",
+   "entry": "mreznica-baptism-1730-02-gregorius-nicolai-jugath-entry.jpg",
+   "page": "",
+   "title": "Mrežnica, 20 February 1730 — Gregorius, son of Nicolaus Jugath and Anna, Gallovichi",
+   "film": "Mrežnica births (Rođeni) 1718–1725 and 1728–1761 (FamilySearch waypoint 9R2M-C6D, 588 images)",
+   "where": "image 86, left page, upper part, under the heading «Gallovichi»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-PWYP?cc=2040054",
+   "says": "«Die 20 Febr. Baptizavi filium Gregorium legitimo thoro natum Nicolai Jugath et Anna coniugum, cujus fuere [patrini] Joannes Billichich et Catharina Gallovich»: a **Nicolaus Jugath** (the Jargat/Jargath surname in the form Jugat/Jugath) is the father of a son in 1730, with a wife **Anna**, not Margarita. If he is the Nicolaus Gergacz of 1740 and 1745 (wife Margarita Veiknich/Verbanich) she would be a second wife; that is NOT shown. The father was married by 1729, so born before about 1708, which makes him older than the Nikola Jargat baptised 18 November 1718. No document links him to Karlobag.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "19 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12182,7 +12205,8 @@
    "mreznica-marriage-1729-02-michael-jargath",
    "mreznica-marriage-1733-05-joannes-jargath",
    "mreznica-marriage-1736-01-perakovich-jasgat",
-   "mreznica-marriage-1738-07-petrak-barbara-jargat"
+   "mreznica-marriage-1738-07-petrak-barbara-jargat",
+   "mreznica-baptism-1730-02-gregorius-nicolai-jugath"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
