@@ -259,7 +259,7 @@ Waypoint 9R2M-C6D, **images 579–588**: 585–588 are the film's end-of-roll ta
 **Limits.** Sheet readings, not cropped; the 1722 Jargath/Jakarch of 17 February 1723 is uncertain; image 54 unread. **Still to read: images 62–139 (April 1725 – November 1735)**, the stretch in which a Nicolaus born about 1717–18 is already out of the births, and in which the **Nikola Jargat of 18 November 1718** (image 7) has no further trace in the books read so far.
 
 
-## The Karlobag births before October 1736: images 1–44 read (19 October 2026)
+## The Karlobag births before October 1736: images 1–44 read (19 October 2026), 45–69 added 25 October 2026
 
 **Read.** Waypoint **9RK1-3Y9** (Births 1691–1770, DGS 5481648), **images 1–44 in the viewer's numbering, both pages of each image, covering the book from its start to April 1724** (the cover and flyleaves, then the baptisms of 1694–1724 in the hands of Pop Anton Hreljanović, Pop Juraj Ivić and Pop Andrija Kolekar, written in Croatian: «kerstih … sina … imenom … komu bi kum …»), downloaded at half size (deep-zoom level 12) and read by eye, one spread to a view. Image 42 repeats image 43; **image 45 (April–June 1724) came out blank and is to be re-fetched**. Images 46–69 (June 1724 – October 1736) are **not yet read**.
 
@@ -297,4 +297,21 @@ Waypoint 9R2M-C6D, **images 579–588**: 585–588 are the film's end-of-roll ta
 * **Nothing links either to the Karlobag Nicolaus Gerkacs** (b. about 1717, d. 1783; son Antonius, married 1769). A man married by 1729 would have been **born before about 1708**, which does not fit «aged 66» in 1783, so the **1730 Nicolaus Jugath is not the Karlobag Nicolaus** on age; the 1740–45 Nicolaus Gergacz could be.
 
 **Limits.** All readings of images 62–139 are by eye from sheets, not cropped except the entries named; the 1725–28 hand is hard; image 54 unread. **The Mrežnica births 1718–1761 are now read for this surname except image 54 and the lost winter 1761–62.**
+
+
+## The Karlobag births, April 1724 – November 1736 (images 45–69) read: the whole book to 1751 is now covered (25 October 2026)
+
+**Read.** Waypoint **9RK1-3Y9**, **images 45–69 in the viewer's numbering, both pages of each image, April 1724 to November 1736** (book pages 80–123; image 51 repeats image 50; image 59 and 60 follow 1735 and 1736 in order), downloaded at half size (deep-zoom level 12) and read by eye, one spread to a view. The page «Bleed Through» labels on 1734–35 mark the show-through of the other side of the leaf, which makes some lines on 54–56 harder to read.
+
+**Result.** **No Gerkacs, Gergacs, Gergach, Jargat or Jargath in any role (child, parent, godparent, witness) in images 45–69.** The near forms are other names: **«Janesa Gerka»** (10 November 1735, image 66; the father is Janesa, called Gerka, his wife Marijana: a given name, not the surname), **Gerzetich/Gerxetich/Garzetich** (Andre Gerzetich, a frequent godfather), **Gelinich/Gelicich**, **Gerseth**, **Berklacich/Barklyacich**.
+
+**With the earlier reads, Karlobag births 1694 – February 1751 (images 1–113) have now all been read for this surname**, apart from the pages the film does not carry (image 74 ends on 20 January 1738 and 75 begins on 19 February: no entry between). **No Gerkacs/Gergacs is baptised at Karlobag at any time in those 57 years.**
+
+**What that settles.**
+
+* **The Karlobag Nicolaus (b. about 1717) was not baptised at Karlobag**, so he came from elsewhere: the answer the registers give is *incomer*, as the 1769 and 1783 entries already implied.
+* **His son Antonius (groom of 1769, b. 1748 or earlier) was not baptised at Karlobag**, and was not baptised at Mrežnica either (1718–1761 read), so his baptism is in a parish not yet identified.
+* The births of 1751–1770 at Karlobag remain read only for *Uroda* and *Bacchi*, so **later children of Nicolaus at Karlobag are untested** for this name.
+
+**Limits.** Half-size reading by eye; hurried hands and show-through on 1734–35; a surname written in an unfamiliar form could be missed.
 
