@@ -176,26 +176,23 @@ def read_stone_file(path):
     return meta, rows
 
 
-WITHHELD_STONES = []     # (surname, given) of stone rows the living rule keeps off the page; counted, never printed
+WITHHELD_STONES = []     # (surname, given) of stone rows the living rule keeps off the page; only the COUNT is ever printed
 
 
 def _window_row(r):
     """THE LIVING WINDOW, applied to a stone (25 October 2026). A person born within the last 80 years (the cutoff
     is livingset.cutoff_year(), never a number written here) is living unless a death is recorded. A stone IS a
-    record of a death, but only when its death year is read: a row whose death year is blank is a person born in
-    the window with no death on the page, and would print as «1958–?». Two ways out, and no third:
-      * the survey note says the death year was CUT («death year cut as «20»»): the stone does carry a death,
-        its century is read, so the row prints «20??» (a partial year is still a death, and says no more);
-      * otherwise the row is WITHHELD, counted, and not printed.
-    A row whose death year is read is untouched. Read by the gate as the same rule (tools/livingyears.py)."""
+    record of a death, but only when its death year is READ: a row whose death year is blank is a person born
+    in the window with no death on the page, and would print as «<year>–?». That includes a stone whose death
+    year stops at the century («death year cut as «20»», «never finished»): a family stone is often carved
+    with the century in advance for the survivors, so a century is not a death. Such a row is WITHHELD: counted,
+    not printed, not in graves.json. A row whose death year is read (or partly read, e.g. «196?») is untouched.
+    The gate reads the same rule from the data (tools/livingyears.py, ROW-BIRTH and ROW-OPEN)."""
     by = year(r["born"])
-    if by is None or by < livingset.cutoff_year() or re.search(r"\b(1[5-9]\d\d|20\d\d)\b", r["died"] or ""):
+    if by is None or by < livingset.cutoff_year():
         return r
-    if (r["died"] or "").strip() and re.search(r"\d", r["died"]):
-        return r                                    # a partial year already (e.g. «196?»): a death is recorded
-    m = re.search(r"death year cut as [«\"'](\d{1,3})[»\"']", r["stone"])
-    if m:
-        r["died"] = m.group(1) + "?" * (4 - len(m.group(1)))
+    d = (r["died"] or "").strip()
+    if re.search(r"\b(1[5-9]\d\d|20\d\d)\b", d) or re.search(r"\d{3}\?", d):
         return r
     WITHHELD_STONES.append((r["surname"], r["given"]))
     return None
@@ -659,6 +656,8 @@ def main():
               f"survey(s) ({conf}), {stones['matched']} matched, "
               f"{len(stones['stones'])} shared stones, "
               f"{len(stones['conflicts'])} date disagreements")
+        print(f"           withheld under the living window: {len(WITHHELD_STONES)} stone row(s) born in "
+              f"{livingset.cutoff_year()} or later with no death year read")
 
 
 if __name__ == "__main__":
