@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 506,
- "images": 536,
+ "count": 507,
+ "images": 537,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -12162,6 +12162,29 @@
    "captured": "25 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "karlobag-slip-1762-09-mihat-gargay-bazetich",
+   "entry": "karlobag-slip-1762-09-mihat-gargay-bazetich-entry.jpg",
+   "page": "",
+   "title": "Karlobag, a slip pasted at 12 September 1762 — «Mihat Gargay alias Bazetich u Šibniku» (a baptism done at Šibenik, noted in the Karlobag book)",
+   "film": "Karlobag births (Rođeni) 1691–1770 (FamilySearch waypoint 9RK1-3Y9, DGS 5481648)",
+   "where": "image 146, left page (book page 260), a loose paper slip pasted over the margin beside the foot of the page, at the place of the entry of 12 September 1762; the card that covers the right page on image 145 is lifted on 146",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L9S8-7?cc=2040054",
+   "says": "The slip, in a different hand, reads as far as it can be read at full size: «12 7bra 1762. Mihat Gargay alias Bazetich u Šibniku od V. C. Gospodina Dominica Zdure [?] … biku kumovi Jandra Matich a kuma Maria Kelgor [?] … Lekulichka [?]»: **a Michael «Gargay» (also called Bazetich) baptised at Šibenik, entered at Karlobag by a slip**, with godparents Jandra Matich and Maria. Several words are uncertain (the father's name, the godmother's surname, the last word), and the surname is written **Gargay**, not Gergach/Gerkacs. Recorded only because a Karlobag Michael Gerkacs was born about 1762 and the archive's Uroda work is at Šibenik; **no connection is shown**.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "25 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12230,7 +12253,8 @@
    "mreznica-marriage-1736-01-perakovich-jasgat",
    "mreznica-marriage-1738-07-petrak-barbara-jargat",
    "mreznica-baptism-1730-02-gregorius-nicolai-jugath",
-   "karlobag-baptism-1753-08-lovro-nikola-gergach"
+   "karlobag-baptism-1753-08-lovro-nikola-gergach",
+   "karlobag-slip-1762-09-mihat-gargay-bazetich"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
