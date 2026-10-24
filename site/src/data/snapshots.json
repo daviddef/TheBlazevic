@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 507,
- "images": 537,
+ "count": 508,
+ "images": 538,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -12185,6 +12185,29 @@
    "captured": "25 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "karlobag-marriage-1766-06-carnkovich-baretich-alias-gergach",
+   "entry": "karlobag-marriage-1766-06-carnkovich-baretich-alias-gergach-entry.jpg",
+   "page": "",
+   "title": "Karlobag, 29 June 1766 — Antonius Carnkovich marries Mattia, daughter of Nicolaus «Baretich alias Gergach»",
+   "film": "Karlobag marriages (Vjenčani) 1736–1804 (FamilySearch waypoint 9RK1-HZK, DGS 5481649)",
+   "where": "list position 298 of the waypoint's 435 (the viewer's right-hand page, headed «Anno Dni 1766», book page 21), the second entry of 29 June: «Idem eadem die ut supra …»",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3FK?cc=2040054",
+   "says": "«Idem eadem die ut supra matrimonialiter copulavi ad faciem Ecclesiae Antonium filium defuncti Georgii Carnkovich et Matti[am] filiam Nicolai Baretich alias Gergach, praesentibus Joanne Starcevich ac Martino Jellinich»: in 1766 a **Nicolaus «Baretich» called «alias Gergach»** is the father of the bride Mattia, at Karlobag. **The surname Gergach is here a by-name (alias) of a family called Baretich**, which no other entry read has shown. The priest is Josephus Šuvić. Read at full size from the page; the bride's name is cut by the line end («Matti-/am»). **Whether this Nicolaus is the Nicolaus Gerkacs (b. about 1717, d. 30 October 1783) is likely but not stated** (same given name, same by-name, same town); if he is, Mattia is a daughter of his and a sister of Antonius and of Michael. The viewer link is this image's own ark; earlier notes number this stretch of the book one lower than the list position used here (the arks are exact, the image numbers may differ by one).",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "25 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12254,7 +12277,8 @@
    "mreznica-marriage-1738-07-petrak-barbara-jargat",
    "mreznica-baptism-1730-02-gregorius-nicolai-jugath",
    "karlobag-baptism-1753-08-lovro-nikola-gergach",
-   "karlobag-slip-1762-09-mihat-gargay-bazetich"
+   "karlobag-slip-1762-09-mihat-gargay-bazetich",
+   "karlobag-marriage-1766-06-carnkovich-baretich-alias-gergach"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",
