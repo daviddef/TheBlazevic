@@ -460,9 +460,7 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
+     "living": true
     }
    ],
    "siblings": [],
@@ -749,9 +747,7 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
+     "living": true
     }
    ],
    "children": [
@@ -836,9 +832,7 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
+     "living": true
     },
     {
      "name": "Gayle Diane Williams",
@@ -1028,9 +1022,7 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
+     "living": true
     }
    ],
    "children": [
@@ -1424,9 +1416,7 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
+     "living": true
     },
     {
      "name": "Gayle Diane Williams",
@@ -1621,6 +1611,62 @@
     }
    ],
    "children": []
+  }
+ },
+ {
+  "slug": "robert-defranceski",
+  "name": "Robert \"Robbie\" Defranceski",
+  "town": "Senj",
+  "country": "Croatia",
+  "living": true,
+  "rel": {
+   "parents": [
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski",
+     "id": "@I16@",
+     "born": 1925,
+     "died": 1995
+    },
+    {
+     "name": "Hedviga \"Seka\" Blažević",
+     "slug": "hedviga-blazevic",
+     "id": "@I17@",
+     "born": 1926,
+     "died": 2001
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Gayle Diane Williams",
+     "slug": "gayle-diane-williams",
+     "living": true
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Ladislava \"Ada\" Defranceski",
+     "slug": "ladislava-defranceski",
+     "living": true
+    },
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski-2",
+     "living": true
+    }
+   ],
+   "children": [
+    {
+     "name": "Nicole Defranceski",
+     "slug": "nicole-defranceski",
+     "living": true
+    },
+    {
+     "name": "Kirsten Defranceski",
+     "slug": "kirsten-defranceski",
+     "living": true
+    }
+   ]
   }
  },
  {

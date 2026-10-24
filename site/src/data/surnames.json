@@ -2154,37 +2154,6 @@
    ]
   },
   {
-   "key": "defranceski",
-   "n": 9,
-   "forms": [
-    {
-     "spelling": "Defranceski",
-     "n": 8,
-     "from": 1911,
-     "to": 1953,
-     "median": 1921,
-     "places": [
-      {
-       "place": "Crikvenica",
-       "n": 5
-      },
-      {
-       "place": "Senj",
-       "n": 1
-      }
-     ]
-    },
-    {
-     "spelling": "Defranceski / Defranceschi",
-     "n": 1,
-     "from": null,
-     "to": null,
-     "median": null,
-     "places": []
-    }
-   ]
-  },
-  {
    "key": "kovacina",
    "n": 9,
    "forms": [
@@ -2308,6 +2277,33 @@
        "n": 1
       }
      ]
+    }
+   ]
+  },
+  {
+   "key": "defranceski",
+   "n": 8,
+   "forms": [
+    {
+     "spelling": "Defranceski",
+     "n": 7,
+     "from": 1911,
+     "to": 1925,
+     "median": 1915,
+     "places": [
+      {
+       "place": "Crikvenica",
+       "n": 5
+      }
+     ]
+    },
+    {
+     "spelling": "Defranceski / Defranceschi",
+     "n": 1,
+     "from": null,
+     "to": null,
+     "median": null,
+     "places": []
     }
    ]
   },

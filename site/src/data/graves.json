@@ -1461,12 +1461,12 @@
     "file": "senj-2024-10-09.psv",
     "cemetery": "Senj municipal cemetery",
     "photographed": "9 October 2024",
-    "n": 195
+    "n": 187
    }
   ],
-  "n": 230,
+  "n": 222,
   "matched": 25,
-  "unmatched": 205,
+  "unmatched": 197,
   "contested": [
    {
     "person": "Kate Špalj Spalj",
@@ -1481,12 +1481,12 @@
   "confidence": [
    [
     "r",
-    148,
+    144,
     "read at full resolution"
    ],
    [
     "p",
-    57,
+    53,
     "read at contact-sheet scale — digits unverified"
    ],
    [
@@ -1498,7 +1498,7 @@
   "cemeteries": [
    [
     "Senj municipal cemetery",
-    195
+    187
    ],
    [
     "Otočac municipal cemetery",
@@ -1634,31 +1634,31 @@
   "surnames": [
    [
     "Prpić",
-    45
+    44
    ],
    [
     "Papić",
-    25
+    24
    ],
    [
     "Zubrinic",
     21
    ],
    [
-    "Špalj",
-    19
-   ],
-   [
     "Vukelić",
     18
    ],
    [
-    "Šojat",
-    14
+    "Špalj",
+    18
    ],
    [
     "Rukavina",
-    13
+    12
+   ],
+   [
+    "Šojat",
+    12
    ],
    [
     "Boras",
@@ -1683,10 +1683,6 @@
    [
     "Sekula",
     4
-   ],
-   [
-    "Gržin",
-    3
    ],
    [
     "Krmpotić",
@@ -1734,6 +1730,10 @@
    ],
    [
     "Glowatzky",
+    1
+   ],
+   [
+    "Gržin",
     1
    ],
    [
@@ -2196,7 +2196,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95,
+      "group": 94,
       "slug": "nikola-sojat",
       "archiveName": "Nikola Šojat",
       "archiveBorn": "1878",
@@ -2214,7 +2214,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
+      "group": 94
      },
      {
       "surname": "Šojat",
@@ -2228,7 +2228,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
+      "group": 94
      },
      {
       "surname": "Šojat",
@@ -2242,7 +2242,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 95
+      "group": 94
      }
     ],
     "known": 1,
@@ -2267,7 +2267,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 108,
+      "group": 106,
       "slug": "ivan-zubrinic-2",
       "archiveName": "Ivan Žubrinić",
       "archiveBorn": "16 AUG 1887",
@@ -2285,7 +2285,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 108
+      "group": 106
      },
      {
       "surname": "Žubrinić",
@@ -2299,7 +2299,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 108
+      "group": 106
      }
     ],
     "known": 1,
@@ -2662,87 +2662,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "OBITELJ RUKAVINA",
-    "photos": [
-     "IMG_8113"
-    ],
-    "people": [
-     {
-      "surname": "Rukavina",
-      "given": "Luka",
-      "born": "1901",
-      "died": "1944",
-      "stone": "OBITELJ RUKAVINA",
-      "conf": "p",
-      "photos": [
-       "IMG_8113"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 103
-     },
-     {
-      "surname": "Rukavina",
-      "given": "Ana",
-      "born": "1905",
-      "died": "2001",
-      "stone": "same stone as Luka",
-      "conf": "p",
-      "photos": [
-       "IMG_8113"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 103
-     },
-     {
-      "surname": "Rukavina",
-      "given": "Rina",
-      "born": "1936",
-      "died": "1996",
-      "stone": "same stone as Luka",
-      "conf": "p",
-      "photos": [
-       "IMG_8113"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 103
-     },
-     {
-      "surname": "Rukavina",
-      "given": "Ante",
-      "born": "1958",
-      "died": "",
-      "stone": "same stone; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8113"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 103
-     },
-     {
-      "surname": "Rukavina",
-      "given": "Nevenka",
-      "born": "1944",
-      "died": "",
-      "stone": "same stone; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8113"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 103
-     }
-    ],
-    "known": 0,
-    "unknown": 5
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "«OVDJE POČIVA U MIRU BOŽJEM»; tree: Stephannes Papić, b. 16 Aug 1860, d. 8 Jul 1917",
     "photos": [
      "IMG_8119"
@@ -2803,73 +2722,6 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
       "group": 29
-     }
-    ],
-    "known": 0,
-    "unknown": 4
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "OBITELJ PAPIĆ, four names",
-    "photos": [
-     "IMG_8073"
-    ],
-    "people": [
-     {
-      "surname": "Papić",
-      "given": "Franjo",
-      "born": "1909",
-      "died": "1980",
-      "stone": "OBITELJ PAPIĆ, four names",
-      "conf": "r",
-      "photos": [
-       "IMG_8073"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 33
-     },
-     {
-      "surname": "Papić",
-      "given": "Hilda",
-      "born": "1919",
-      "died": "2010",
-      "stone": "same stone as Franjo",
-      "conf": "r",
-      "photos": [
-       "IMG_8073"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 33
-     },
-     {
-      "surname": "Papić",
-      "given": "Stanislav",
-      "born": "1943",
-      "died": "",
-      "stone": "same stone; death year cut as «20» and never finished",
-      "conf": "r",
-      "photos": [
-       "IMG_8073"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 33
-     },
-     {
-      "surname": "Papić",
-      "given": "Anka",
-      "born": "1948",
-      "died": "",
-      "stone": "same stone; death year cut as «20» and never finished",
-      "conf": "r",
-      "photos": [
-       "IMG_8073"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 33
      }
     ],
     "known": 0,
@@ -3011,73 +2863,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "OBITELJ ŠPALJ",
-    "photos": [
-     "IMG_8090"
-    ],
-    "people": [
-     {
-      "surname": "Špalj",
-      "given": "Vlade",
-      "born": "1920",
-      "died": "1985",
-      "stone": "OBITELJ ŠPALJ",
-      "conf": "r",
-      "photos": [
-       "IMG_8090"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 70
-     },
-     {
-      "surname": "Špalj",
-      "given": "Nevenka",
-      "born": "1928",
-      "died": "2003",
-      "stone": "same stone as Vlade",
-      "conf": "r",
-      "photos": [
-       "IMG_8090"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 70
-     },
-     {
-      "surname": "Špalj",
-      "given": "Ivan",
-      "born": "1953",
-      "died": "2009",
-      "stone": "same stone as Vlade",
-      "conf": "r",
-      "photos": [
-       "IMG_8090"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 70
-     },
-     {
-      "surname": "Špalj",
-      "given": "Kata",
-      "born": "1962",
-      "died": "",
-      "stone": "same stone as Vlade; death year cut as «20»",
-      "conf": "r",
-      "photos": [
-       "IMG_8090"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 70
-     }
-    ],
-    "known": 0,
-    "unknown": 4
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "OBITELJ BUTORAC, four names",
     "photos": [
      "IMG_8082"
@@ -3211,6 +2996,73 @@
     "unknown": 4
    },
    {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "OBITELJ RUKAVINA",
+    "photos": [
+     "IMG_8113"
+    ],
+    "people": [
+     {
+      "surname": "Rukavina",
+      "given": "Luka",
+      "born": "1901",
+      "died": "1944",
+      "stone": "OBITELJ RUKAVINA",
+      "conf": "p",
+      "photos": [
+       "IMG_8113"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 101
+     },
+     {
+      "surname": "Rukavina",
+      "given": "Ana",
+      "born": "1905",
+      "died": "2001",
+      "stone": "same stone as Luka",
+      "conf": "p",
+      "photos": [
+       "IMG_8113"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 101
+     },
+     {
+      "surname": "Rukavina",
+      "given": "Rina",
+      "born": "1936",
+      "died": "1996",
+      "stone": "same stone as Luka",
+      "conf": "p",
+      "photos": [
+       "IMG_8113"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 101
+     },
+     {
+      "surname": "Rukavina",
+      "given": "Nevenka",
+      "born": "1944",
+      "died": "",
+      "stone": "same stone; death year cut as «20»",
+      "conf": "p",
+      "photos": [
+       "IMG_8113"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at contact-sheet scale — digits unverified",
+      "group": 101
+     }
+    ],
+    "known": 0,
+    "unknown": 4
+   },
+   {
     "cemetery": "Klenovica cemetery",
     "stone": "marble plaque, OBITELJ PAPIC, mounted on the Stipanic family monument; birth year read on site as either 1822 or 1870, the two not distinguished",
     "photos": [
@@ -3315,6 +3167,59 @@
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
       "group": 32
+     }
+    ],
+    "known": 0,
+    "unknown": 3
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
+    "stone": "OBITELJ PAPIĆ, four names",
+    "photos": [
+     "IMG_8073"
+    ],
+    "people": [
+     {
+      "surname": "Papić",
+      "given": "Franjo",
+      "born": "1909",
+      "died": "1980",
+      "stone": "OBITELJ PAPIĆ, four names",
+      "conf": "r",
+      "photos": [
+       "IMG_8073"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 33
+     },
+     {
+      "surname": "Papić",
+      "given": "Hilda",
+      "born": "1919",
+      "died": "2010",
+      "stone": "same stone as Franjo",
+      "conf": "r",
+      "photos": [
+       "IMG_8073"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 33
+     },
+     {
+      "surname": "Papić",
+      "given": "Stanislav",
+      "born": "1943",
+      "died": "",
+      "stone": "same stone; death year cut as «20» and never finished",
+      "conf": "r",
+      "photos": [
+       "IMG_8073"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 33
      }
     ],
     "known": 0,
@@ -3699,6 +3604,59 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
+    "stone": "OBITELJ ŠPALJ",
+    "photos": [
+     "IMG_8090"
+    ],
+    "people": [
+     {
+      "surname": "Špalj",
+      "given": "Vlade",
+      "born": "1920",
+      "died": "1985",
+      "stone": "OBITELJ ŠPALJ",
+      "conf": "r",
+      "photos": [
+       "IMG_8090"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 70
+     },
+     {
+      "surname": "Špalj",
+      "given": "Nevenka",
+      "born": "1928",
+      "died": "2003",
+      "stone": "same stone as Vlade",
+      "conf": "r",
+      "photos": [
+       "IMG_8090"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 70
+     },
+     {
+      "surname": "Špalj",
+      "given": "Ivan",
+      "born": "1953",
+      "died": "2009",
+      "stone": "same stone as Vlade",
+      "conf": "r",
+      "photos": [
+       "IMG_8090"
+      ],
+      "cemetery": "Senj municipal cemetery",
+      "confNote": "read at full resolution",
+      "group": 70
+     }
+    ],
+    "known": 0,
+    "unknown": 3
+   },
+   {
+    "cemetery": "Senj municipal cemetery",
     "stone": "«OVDJE POČIVAJU», joint portrait",
     "photos": [
      "IMG_8061"
@@ -3981,7 +3939,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 94
+      "group": 93
      },
      {
       "surname": "Šojat",
@@ -3995,7 +3953,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 94
+      "group": 93
      },
      {
       "surname": "Kojić",
@@ -4009,7 +3967,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 94
+      "group": 93
      }
     ],
     "known": 0,
@@ -4034,7 +3992,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 99
+      "group": 97
      },
      {
       "surname": "Krmpotić",
@@ -4048,7 +4006,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 99
+      "group": 97
      },
      {
       "surname": "Krmpotić",
@@ -4062,7 +4020,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at full resolution",
-      "group": 99
+      "group": 97
      }
     ],
     "known": 0,
@@ -4087,7 +4045,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 101
+      "group": 99
      },
      {
       "surname": "Rukavina",
@@ -4101,7 +4059,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 101
+      "group": 99
      },
      {
       "surname": "Rukavina",
@@ -4115,7 +4073,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 101
+      "group": 99
      }
     ],
     "known": 0,
@@ -4140,7 +4098,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 102
+      "group": 100
      },
      {
       "surname": "Rukavina",
@@ -4154,7 +4112,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 102
+      "group": 100
      },
      {
       "surname": "Rukavina",
@@ -4168,7 +4126,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "uncertain, not to be relied on",
-      "group": 102
+      "group": 100
      }
     ],
     "known": 0,
@@ -4193,7 +4151,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "uncertain, not to be relied on",
-      "group": 105
+      "group": 103
      },
      {
       "surname": "Babić",
@@ -4207,7 +4165,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 105
+      "group": 103
      },
      {
       "surname": "Babić",
@@ -4221,7 +4179,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 105
+      "group": 103
      }
     ],
     "known": 0,
@@ -4863,45 +4821,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "loose OBITELJ PRPIĆ plate propped against the same grave",
-    "photos": [
-     "IMG_8129"
-    ],
-    "people": [
-     {
-      "surname": "Prpić",
-      "given": "Kata",
-      "born": "1946",
-      "died": "2020",
-      "stone": "loose OBITELJ PRPIĆ plate propped against the same grave",
-      "conf": "p",
-      "photos": [
-       "IMG_8129"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 60
-     },
-     {
-      "surname": "Prpić",
-      "given": "Grga",
-      "born": "1950",
-      "died": "",
-      "stone": "same loose plate; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8129"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 60
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "OBITELJSKA GROBNICA, «PRPIĆ STEFANIJA ROD TOMLJANOVIĆ»",
     "photos": [
      "IMG_8154"
@@ -5097,45 +5016,6 @@
    },
    {
     "cemetery": "Senj municipal cemetery",
-    "stone": "OBITELJ ŠOJAT, loose plate; death year cut as «20»",
-    "photos": [
-     "IMG_8151"
-    ],
-    "people": [
-     {
-      "surname": "Šojat",
-      "given": "Nikola",
-      "born": "1953",
-      "died": "",
-      "stone": "OBITELJ ŠOJAT, loose plate; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8151"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 93
-     },
-     {
-      "surname": "Šojat",
-      "given": "Anica",
-      "born": "1957",
-      "died": "",
-      "stone": "same loose plate; death year cut as «20»",
-      "conf": "p",
-      "photos": [
-       "IMG_8151"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 93
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
     "stone": "full dates 15 II 1883 - 18 X 1957",
     "photos": [
      "IMG_8158"
@@ -5153,7 +5033,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 96
+      "group": 95
      },
      {
       "surname": "Šojat",
@@ -5167,46 +5047,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 96
-     }
-    ],
-    "known": 0,
-    "unknown": 2
-   },
-   {
-    "cemetery": "Senj municipal cemetery",
-    "stone": "GRŽIN; death year cut as «20»",
-    "photos": [
-     "IMG_8159"
-    ],
-    "people": [
-     {
-      "surname": "Gržin",
-      "given": "Ivan-Ico",
-      "born": "1955",
-      "died": "",
-      "stone": "GRŽIN; death year cut as «20»",
-      "conf": "r",
-      "photos": [
-       "IMG_8159"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 98
-     },
-     {
-      "surname": "Gržin",
-      "given": "Anka-Dunja",
-      "born": "1957",
-      "died": "",
-      "stone": "same stone; death year cut as «20»",
-      "conf": "r",
-      "photos": [
-       "IMG_8159"
-      ],
-      "cemetery": "Senj municipal cemetery",
-      "confNote": "read at full resolution",
-      "group": 98
+      "group": 95
      }
     ],
     "known": 0,
@@ -5231,7 +5072,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 100
+      "group": 98
      },
      {
       "surname": "Rukavina",
@@ -5245,7 +5086,7 @@
       ],
       "cemetery": "Senj municipal cemetery",
       "confNote": "read at contact-sheet scale — digits unverified",
-      "group": 100
+      "group": 98
      }
     ],
     "known": 0,
@@ -6218,20 +6059,6 @@
    },
    {
     "surname": "Papić",
-    "given": "Anka",
-    "born": "1948",
-    "died": "",
-    "stone": "same stone; death year cut as «20» and never finished",
-    "conf": "r",
-    "photos": [
-     "IMG_8073"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at full resolution",
-    "group": 33
-   },
-   {
-    "surname": "Papić",
     "given": "Marica",
     "born": "1898",
     "died": "1940",
@@ -6983,20 +6810,6 @@
    },
    {
     "surname": "Prpić",
-    "given": "Grga",
-    "born": "1950",
-    "died": "",
-    "stone": "same loose plate; death year cut as «20»",
-    "conf": "p",
-    "photos": [
-     "IMG_8129"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 60
-   },
-   {
-    "surname": "Prpić",
     "given": "Stefanija",
     "born": "1911",
     "died": "1977",
@@ -7290,20 +7103,6 @@
     "born": "1953",
     "died": "2009",
     "stone": "same stone as Vlade",
-    "conf": "r",
-    "photos": [
-     "IMG_8090"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at full resolution",
-    "group": 70
-   },
-   {
-    "surname": "Špalj",
-    "given": "Kata",
-    "born": "1962",
-    "died": "",
-    "stone": "same stone as Vlade; death year cut as «20»",
     "conf": "r",
     "photos": [
      "IMG_8090"
@@ -8075,34 +7874,6 @@
    },
    {
     "surname": "Šojat",
-    "given": "Nikola",
-    "born": "1953",
-    "died": "",
-    "stone": "OBITELJ ŠOJAT, loose plate; death year cut as «20»",
-    "conf": "p",
-    "photos": [
-     "IMG_8151"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 93
-   },
-   {
-    "surname": "Šojat",
-    "given": "Anica",
-    "born": "1957",
-    "died": "",
-    "stone": "same loose plate; death year cut as «20»",
-    "conf": "p",
-    "photos": [
-     "IMG_8151"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 93
-   },
-   {
-    "surname": "Šojat",
     "given": "Ivica",
     "born": "1922",
     "died": "1959",
@@ -8113,7 +7884,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 94
+    "group": 93
    },
    {
     "surname": "Šojat",
@@ -8127,7 +7898,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 94
+    "group": 93
    },
    {
     "surname": "Kojić",
@@ -8141,7 +7912,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 94
+    "group": 93
    },
    {
     "surname": "Šojat",
@@ -8155,7 +7926,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 95,
+    "group": 94,
     "slug": "nikola-sojat",
     "archiveName": "Nikola Šojat",
     "archiveBorn": "1878",
@@ -8173,7 +7944,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 95
+    "group": 94
    },
    {
     "surname": "Šojat",
@@ -8187,7 +7958,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 95
+    "group": 94
    },
    {
     "surname": "Šojat",
@@ -8201,7 +7972,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 95
+    "group": 94
    },
    {
     "surname": "Šojat",
@@ -8215,7 +7986,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 96
+    "group": 95
    },
    {
     "surname": "Šojat",
@@ -8229,7 +8000,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 96
+    "group": 95
    },
    {
     "surname": "Gržin",
@@ -8243,35 +8014,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 97
-   },
-   {
-    "surname": "Gržin",
-    "given": "Ivan-Ico",
-    "born": "1955",
-    "died": "",
-    "stone": "GRŽIN; death year cut as «20»",
-    "conf": "r",
-    "photos": [
-     "IMG_8159"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at full resolution",
-    "group": 98
-   },
-   {
-    "surname": "Gržin",
-    "given": "Anka-Dunja",
-    "born": "1957",
-    "died": "",
-    "stone": "same stone; death year cut as «20»",
-    "conf": "r",
-    "photos": [
-     "IMG_8159"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at full resolution",
-    "group": 98
+    "group": 96
    },
    {
     "surname": "Krmpotić",
@@ -8285,7 +8028,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 99
+    "group": 97
    },
    {
     "surname": "Krmpotić",
@@ -8299,7 +8042,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 99
+    "group": 97
    },
    {
     "surname": "Krmpotić",
@@ -8313,7 +8056,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 99
+    "group": 97
    },
    {
     "surname": "Rukavina",
@@ -8327,7 +8070,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 100
+    "group": 98
    },
    {
     "surname": "Rukavina",
@@ -8341,7 +8084,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 100
+    "group": 98
    },
    {
     "surname": "Rukavina",
@@ -8355,7 +8098,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 101
+    "group": 99
    },
    {
     "surname": "Rukavina",
@@ -8369,7 +8112,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 101
+    "group": 99
    },
    {
     "surname": "Rukavina",
@@ -8383,7 +8126,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 101
+    "group": 99
    },
    {
     "surname": "Rukavina",
@@ -8397,7 +8140,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 102
+    "group": 100
    },
    {
     "surname": "Rukavina",
@@ -8411,7 +8154,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 102
+    "group": 100
    },
    {
     "surname": "Rukavina",
@@ -8425,7 +8168,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "uncertain, not to be relied on",
-    "group": 102
+    "group": 100
    },
    {
     "surname": "Rukavina",
@@ -8439,7 +8182,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 103
+    "group": 101
    },
    {
     "surname": "Rukavina",
@@ -8453,7 +8196,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 103
+    "group": 101
    },
    {
     "surname": "Rukavina",
@@ -8467,21 +8210,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 103
-   },
-   {
-    "surname": "Rukavina",
-    "given": "Ante",
-    "born": "1958",
-    "died": "",
-    "stone": "same stone; death year cut as «20»",
-    "conf": "p",
-    "photos": [
-     "IMG_8113"
-    ],
-    "cemetery": "Senj municipal cemetery",
-    "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 103
+    "group": 101
    },
    {
     "surname": "Rukavina",
@@ -8495,7 +8224,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 103
+    "group": 101
    },
    {
     "surname": "Babić",
@@ -8509,7 +8238,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 104
+    "group": 102
    },
    {
     "surname": "Babić",
@@ -8523,7 +8252,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "uncertain, not to be relied on",
-    "group": 105
+    "group": 103
    },
    {
     "surname": "Babić",
@@ -8537,7 +8266,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 105
+    "group": 103
    },
    {
     "surname": "Babić",
@@ -8551,7 +8280,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at contact-sheet scale — digits unverified",
-    "group": 105
+    "group": 103
    },
    {
     "surname": "Katalinić",
@@ -8566,7 +8295,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "uncertain, not to be relied on",
-    "group": 106
+    "group": 104
    },
    {
     "surname": "Defrančeski",
@@ -8584,7 +8313,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 107,
+    "group": 105,
     "slug": "ivan-anton-defranceski",
     "archiveName": "Ivan Anton Defranceski",
     "archiveBorn": "25 JUN 1925",
@@ -8602,7 +8331,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 108,
+    "group": 106,
     "slug": "ivan-zubrinic-2",
     "archiveName": "Ivan Žubrinić",
     "archiveBorn": "16 AUG 1887",
@@ -8620,7 +8349,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 108
+    "group": 106
    },
    {
     "surname": "Žubrinić",
@@ -8634,7 +8363,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "read at full resolution",
-    "group": 108
+    "group": 106
    },
    {
     "surname": "Plivelić",
@@ -8648,7 +8377,7 @@
     ],
     "cemetery": "Senj municipal cemetery",
     "confNote": "uncertain, not to be relied on",
-    "group": 109
+    "group": 107
    }
   ]
  }

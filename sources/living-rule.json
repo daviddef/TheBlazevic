@@ -12,7 +12,11 @@
  "rules": [
   {
    "id": "living",
-   "rule": "Born 80 years ago or less by year (this year minus the birth year), with no death or burial recorded, and no citation from a public record source."
+   "rule": "Born 80 years ago or less by year (this year minus the birth year), with no death or burial recorded. A citation from a public record source does NOT release somebody who has a birth year (25 October 2026): a source can show that a person was born or arrived, never that they have died. The window's edge is one derived constant, livingset.cutoff_year()."
+  },
+  {
+   "id": "hold",
+   "rule": "A person in the window whose only death is an undated flag in the tree, named in data/living-hold.tsv, is held as living until the death is confirmed."
   },
   {
    "id": "recorded-dead",
@@ -37,11 +41,12 @@
  ],
  "counts": {
   "peopleInTree": 15643,
-  "living": 462,
+  "living": 463,
   "heldOut": 92,
-  "livingWithPage": 47,
-  "deadWithPage": 4488,
+  "livingWithPage": 48,
+  "deadWithPage": 4487,
   "publishedOnlyBecauseNamed": 1652,
-  "deadOnOtherRecord": 17
+  "deadOnOtherRecord": 17,
+  "heldAsLivingUntilConfirmed": 1
  }
 }

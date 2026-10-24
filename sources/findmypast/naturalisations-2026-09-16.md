@@ -146,8 +146,8 @@ Senj, and no relation established.
 ## Brinje is confirmed as an emigration source, in the clerks' own spelling
 
 > **Vid Peter Karakas**, born **26 September 1920**, birth place as transcribed
-> **«Brinje Plasca, Yugoslavia»** · wife *Helen* b.1930 · children *Kenneth*
-> 1952, *Mark* 1953 · Nassau County, NY, **1953**
+> **«Brinje Plasca, Yugoslavia»** · wife *Helen* b.1930 · two sons
+> · Nassau County, NY, **1953**
 
 **Brinje AND Plašćica in one field.** The trial of 13 September found seven
 Kalanj manifests giving *«Brinje, Plaščica, Kurjak and Velgovica»* — four places

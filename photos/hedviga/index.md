@@ -13,8 +13,8 @@ The tree's individual id is **`4000000 + n`** for GEDCOM record `@In@` — Hedvi
 | File | Caption in the tree | What it shows |
 |---|---|---|
 | `hedviga-01-504176.jpg` | *1595624858.9990501* | Multi-generational group in a garden, *c.* 1950s. Two older women seated centre in black — widows' mourning dress. Eleven people. |
-| `hedviga-02-504174.jpg` | *1595623527.3429132* | Five people and a dog outdoors beside a truck, *c.* late 1950s. Boy on a bicycle, man in a singlet. |
-| `hedviga-03-504173.jpg` | *1595623527.234048* | A family of five on a seafront balustrade, *c.* 1953–54. Man in suit holding a baby in a bonnet; woman in a dark coat; a girl and a small child in a beret. **Very likely Ivan and Hedviga with Ladislava, Ivan and the infant Robert.** |
+| ~~`hedviga-02-504174.jpg`~~ | *withheld* | **Not kept or shown (25 October 2026): it shows children of the family, who are living, and this archive shows no photograph of a living person.** See `sources/media/withheld.psv`. |
+| ~~`hedviga-03-504173.jpg`~~ | *withheld* | **Not kept or shown (25 October 2026): it shows children of the family, who are living, and this archive shows no photograph of a living person.** See `sources/media/withheld.psv`. |
 | `hedviga-04-501105-ivan-birth-certificate-translated.jpg` | *Ivan Defranceski Birth Certificate - Translated* | **A document, not a photograph.** See below. |
 | `hedviga-05-500852-granny-heddies-photos-25.jpg` | *Granny Heddies Photos-25* | Colour, *c.* 1980s. Woman with dark bouffant and large sunglasses beside a man and two children, CRT television and VCR behind. **The woman matches the portrait below.** |
 | `hedviga-06-500804.jpg` | *1134835622* | Portrait, *c.* late 1960s. Woman in a bold floral print raising a glass, sunglasses in the other hand. **Almost certainly Hedviga herself** — the best likeness in the set. |
@@ -28,8 +28,8 @@ civil-registration document in this archive.
 > REPUBLIC OF CROATIA · Region: Senj · Reg. number 152/1954
 
 - **Child:** DEFRANCESKI, IVAN, male.
-  Entered in the 1951 register at page 252, ordinal number 110, on the
-  written notice of the Regional Hospital, Senj, no. 595/51.
+  Entered in the register at page 252, ordinal number 110, on the
+  written notice of the Regional Hospital, Senj (the child is living: the year and the notice number are withheld).
 - **Father:** Ivan Defranceski, born **25.06.1925 at Crikvenica**; citizenship Croatian/Yugoslav;
   **nationality Italian**; profession **electro-mechanic**; resident Crikvenica.
 - **Mother:** Hedviga, *née* **Blazevic**, born **03.08.1926 at Senj**; citizenship FNRJ;
@@ -44,8 +44,8 @@ civil-registration document in this archive.
    rather than from the family tree.
 2. **It records the father's nationality as Italian**, which the tree does not. The Defranceski /
    de Franceschi line was Italian-identified inside Yugoslav Croatia.
-3. **Both parents were resident at Crikvenica in 1951**, though the birth was at Senj hospital —
-   which explains why Ladislava (1948) is recorded born at Crikvenica and the boys at Senj.
+3. **Both parents were resident at Crikvenica at the time**, though the birth was at Senj hospital —
+   which explains why the first child is recorded born at Crikvenica and the boys at Senj.
 4. **It was translated for the Supreme Court of South Africa.** A Yugoslav birth extract is
    translated by a South African sworn translator for one reason: an immigration or status
    application. This is paperwork from the family's departure, and it dates the intent.

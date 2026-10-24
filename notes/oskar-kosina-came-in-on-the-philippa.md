@@ -56,7 +56,7 @@ a clerk what he was, and the clerk writing it down.**
   two four-year-olds are twins or one age is wrong. **Croatian names, Adriatic Austrians, sailing
   from Trieste — and nothing but the surname joins them to this family.**
 * **IVAN KOSINA, 27, single, 30 November 1928**, from **Hamburg**, born «VELIC», a farm labourer.
-  **He is NOT Ivan Christian.** Oskar's son was born in Argentina after October 1947; this man was
+  **He is NOT Ivan Christian.** Oskar's son was born in Argentina a generation later; this man was
   born about **1901**. The names collide and the dates cannot.
 * **MICHAL KOSINA, 42, Polish, 15 January 1929**, from Cherbourg — the Polish Kosina, of the
   village in the Subcarpathian, and no relation.
