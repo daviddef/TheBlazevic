@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 505,
- "images": 535,
+ "count": 506,
+ "images": 536,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -12139,6 +12139,29 @@
    "captured": "19 October 2026",
    "note": "notes/gergacs-nicolaus-origin-index-search.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
+  },
+  {
+   "id": "karlobag-baptism-1753-08-lovro-nikola-gergach",
+   "entry": "karlobag-baptism-1753-08-lovro-nikola-gergach-entry.jpg",
+   "page": "",
+   "title": "Karlobag, 9 August 1753 — Lovro (Laurentius), son of Mikula (Nicolaus) and Marda Gergach",
+   "film": "Karlobag births (Rođeni) 1691–1770 (FamilySearch waypoint 9RK1-3Y9, DGS 5481648)",
+   "where": "image 118, right page (book page 213), headed «Letta 1753»: the entry under «Dan 9: Agusta», two lines below the page's middle",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SN-Z?cc=2040054",
+   "says": "«Dan 9: Agusta. Admstr Pop Jos: Suvich kerstih Lovru sina Mikule y Marde Gergach. Kumi Marko Milletich y Gele Kriskovich»: a **son Lovro, born to Mikula and Marda Gergach** (the surname written after the wife's name, as the entries do for both parents), with godparents Marko Milletich and Gele Kriskovich. **Mikula is the Croatian form of Nikola, Nicolaus.** Read at full size. This is the **earliest Karlobag record of the Gergach/Gerkacs family known to the archive**: 1753, sixteen years before the marriage of Antonius (1769) and 24 years before the first indexed Gergacs baptism (1777). The mother's name is written «Marde» (Marta or Magdalena: not certain), not Margarita. The index does not carry this entry. Whether this Mikula is the Nicolaus Gerkacs (b. about 1717, d. 1783) is likely (same surname, same town, same given name) but not stated by the entry.",
+   "slugs": [
+    "nicolaus-gerkacs"
+   ],
+   "people": [
+    {
+     "slug": "nicolaus-gerkacs",
+     "kind": "people",
+     "name": "Nicolaus Gerkacs"
+    }
+   ],
+   "captured": "25 October 2026",
+   "note": "notes/gergacs-nicolaus-origin-index-search.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gergacs-nicolaus-origin-index-search.md"
   }
  ],
  "bySlug": {
@@ -12206,7 +12229,8 @@
    "mreznica-marriage-1733-05-joannes-jargath",
    "mreznica-marriage-1736-01-perakovich-jasgat",
    "mreznica-marriage-1738-07-petrak-barbara-jargat",
-   "mreznica-baptism-1730-02-gregorius-nicolai-jugath"
+   "mreznica-baptism-1730-02-gregorius-nicolai-jugath",
+   "karlobag-baptism-1753-08-lovro-nikola-gergach"
   ],
   "pauli-tomljanovic": [
    "karlobag-marriage-1785",

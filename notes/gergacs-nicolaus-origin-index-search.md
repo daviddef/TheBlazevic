@@ -315,3 +315,17 @@ Waypoint 9R2M-C6D, **images 579–588**: 585–588 are the film's end-of-roll ta
 
 **Limits.** Half-size reading by eye; hurried hands and show-through on 1734–35; a surname written in an unfamiliar form could be missed.
 
+
+## A Gergach at Karlobag in 1753: Mikula and Marda, son Lovro (25 October 2026)
+
+**New document.** Karlobag births 1691–1770, waypoint **9RK1-3Y9**, **image 118, right page (book page 213), headed «Letta 1753»**, the entry of **9 August 1753**: «Admstr Pop Jos: Suvich kerstih **Lovru sina Mikule y Marde Gergach**. Kumi Marko Milletich y Gele Kriskovich» ([snapshot](/snapshots/#karlobag-baptism-1753-08-lovro-nikola-gergach)). Read at full size from the page: **a son Lovro, born to Mikula and Marda Gergach**, godparents Marko Milletich and Gele Kriskovich. **Mikula is the Croatian form of Nikola, Nicolaus**; the surname is written once after the wife's name, as the entries do for both parents.
+
+**What it says, and what it does not.**
+
+* **This is the earliest Karlobag record of the family known to the archive**: **1753**, sixteen years before the marriage of Antonius (1769) and twenty-four years before the first indexed Gergacs baptism (1777). It is **not in the FamilySearch index**, which is why the index searches of 17 October found nothing earlier.
+* **A Mikula/Nicolaus Gergach is a father at Karlobag by August 1753**, which makes him a plausible **Nicolaus Gerkacs (b. about 1717, d. 30 October 1783)**: same surname, same town, same given name, and a man of about 36 with children. **It is not stated by the entry**, and the mother's name «Marda» (Marta or Magdalena, not certain) is **not Margarita**, the wife of the Mrežnica Nicolaus Gergacz (1740, 1745). So **if he is the Mrežnica man, Margarita had died or he had married again by 1753**; if not, the Mrežnica Nicolaus is a different man.
+* **The Karlobag Gerkacs therefore arrived before August 1753**, and after February 1751 (images 70–113 had no Gerkacs). **They are in the window February 1751 – August 1753**, or they came with a child already born and Lovro was the first baptised at Karlobag.
+* **Lovro (Laurentius) is a new child** (not Antonius, not Michael); he may be the Lovro of later records.
+
+**The Karlobag births 1751–1770 read so far for this surname:** images **114–123** (February 1751 – February 1756). Besides the 1753 entry, **no other Gergach/Gerkacs** in those images; near forms are other surnames («Anne Lerk/Jerka», «Gerseth/Jerzetich», «Berklacich»). **Images 124–177 (February 1756 – 1770) are still to read** for a Gergach/Gerkacs: Antonius, Michael and any other children of Mikula/Nicolaus, godparent entries, and a second wife.
+
