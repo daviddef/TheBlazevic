@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4324",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:repo && npm run check:records && npm run atlas && astro build && npm run autolink && npm run sitemap && npm run check:book && npm run check:living && npm run check:living-standard && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:alsoin && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav && npm run check:links && npm run check:rec && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
+    "build": "npm run check:pin && npm run check:repo && npm run check:records && npm run atlas && astro build && npm run autolink && npm run sitemap && npm run check:book && npm run check:living && npm run check:living-standard && npm run check:living-years && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:alsoin && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav && npm run check:links && npm run check:rec && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
     "preview": "astro preview --port 4324",
     "autolink": "python3 ../tools/autolink_run.py",
     "check:links": "python3 ../tools/autolink_run.py --gate",
@@ -18,6 +18,7 @@
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist \"${ARCHIVE_OUT:-dist}\"",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist \"${ARCHIVE_OUT:-dist}\" --data src/data --policy named-bare",
     "check:living-standard": "python3 ../tools/livingcheck.py --selftest",
+    "check:living-years": "python3 ../tools/livingyears.py --selftest",
     "check:prose": "python3 ../tools/prosecheck.py",
     "check:prose:build": "python3 ../tools/prosecheck.py --selftest && python3 ../tools/prosecheck.py --not-run-ok",
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",

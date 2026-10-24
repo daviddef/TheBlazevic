@@ -11,6 +11,7 @@ so it is applied here and the GEDCOM ids are what the site stores.
 import json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gedcom import load, display, born, died, year
+import livingset
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAN = os.path.join(ROOT, "sources", "media", "manifest.psv")
@@ -21,6 +22,19 @@ LOCAL = os.path.join(ROOT, "sources", "media", "local.psv")
 OUT = os.path.join(ROOT, "site", "src", "data", "media.json")
 
 people, families = load()
+# WHO IS LIVING OR HELD OUT is the one rule (tools/livingset.py). A living person has no photograph in
+# this archive (David's standard, 16 October 2026), so any item tagged with one is withheld here, before
+# it reaches media.json, and so is any item listed in sources/media/withheld.psv: a photograph that SHOWS
+# living people although the tree tags only somebody who has died (25 October 2026).
+_cls = livingset.classify(people, families)
+SHOWS_LIVING = _cls["living"] | _cls["held"]
+WITHHELD = {}
+_wpath = os.path.join(ROOT, "sources", "media", "withheld.psv")
+if os.path.exists(_wpath):
+    for _l in open(_wpath, encoding="utf-8"):
+        if _l.strip() and not _l.startswith("#") and "|" in _l:
+            _f = [x.strip() for x in _l.rstrip("\n").split("|")]
+            WITHHELD[_f[0]] = _f[1] if len(_f) > 1 else ""
 try:
     reg = {p["id"]: p for p in json.load(
         open(os.path.join(ROOT, "site", "src", "data", "people.json"), encoding="utf-8"))}
@@ -60,6 +74,12 @@ def manifest_lines():
 rows, dropped = [], []
 for line in manifest_lines():
     mid, typ, name, w, h, ppl, url = line.split("|")
+    if mid in WITHHELD:
+        dropped.append((mid, "withheld: shows living people"))
+        continue
+    if any(f'@I{int(pid) - 4000000}@' in SHOWS_LIVING for pid in ppl.split(",") if pid.strip().isdigit()):
+        dropped.append((mid, "withheld: tagged with a living person"))
+        continue
     ext = "pdf" if typ == "document" else "jpg"
     fn = f"{mid}-{slugify(name)}.{ext}".replace(" ", "-")
     tagged = []

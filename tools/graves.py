@@ -42,8 +42,12 @@ Writes site/src/data/graves.json.
 import json
 import os
 import re
+import sys
 import unicodedata
 from datetime import date
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import livingset  # noqa: E402  (the one rule, and the one cutoff)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -165,10 +169,36 @@ def read_stone_file(path):
     stem = os.path.basename(path)[:-4]
     meta.setdefault("cemetery", stem.split("-")[0].title())
     meta.setdefault("photographed", "")
+    rows = [r for r in (_window_row(r) for r in rows) if r]
     for r in rows:
         r["cemetery"] = meta["cemetery"]
         r["confNote"] = CONF.get(r["conf"], CONF["?"])
     return meta, rows
+
+
+WITHHELD_STONES = []     # (surname, given) of stone rows the living rule keeps off the page; counted, never printed
+
+
+def _window_row(r):
+    """THE LIVING WINDOW, applied to a stone (25 October 2026). A person born within the last 80 years (the cutoff
+    is livingset.cutoff_year(), never a number written here) is living unless a death is recorded. A stone IS a
+    record of a death, but only when its death year is read: a row whose death year is blank is a person born in
+    the window with no death on the page, and would print as «1958–?». Two ways out, and no third:
+      * the survey note says the death year was CUT («death year cut as «20»»): the stone does carry a death,
+        its century is read, so the row prints «20??» (a partial year is still a death, and says no more);
+      * otherwise the row is WITHHELD, counted, and not printed.
+    A row whose death year is read is untouched. Read by the gate as the same rule (tools/livingyears.py)."""
+    by = year(r["born"])
+    if by is None or by < livingset.cutoff_year() or re.search(r"\b(1[5-9]\d\d|20\d\d)\b", r["died"] or ""):
+        return r
+    if (r["died"] or "").strip() and re.search(r"\d", r["died"]):
+        return r                                    # a partial year already (e.g. «196?»): a death is recorded
+    m = re.search(r"death year cut as [«\"'](\d{1,3})[»\"']", r["stone"])
+    if m:
+        r["died"] = m.group(1) + "?" * (4 - len(m.group(1)))
+        return r
+    WITHHELD_STONES.append((r["surname"], r["given"]))
+    return None
 
 
 def given_index():

@@ -14,6 +14,11 @@ and so could never fail here: the data held no living flag and the build held no
 living page. That gate still runs. This one enforces the rule the archive now
 keeps, and it can fail, which is the point (see --selftest).
 
+A SIBLING GATE, tools/livingyears.py (25 October 2026), asks the question this one cannot: what is PRINTED anywhere in the
+build or its data, for anybody with no death, whatever any flag says (a year, a «b.», a «born in», an open range, a data
+row, a photograph, a name beside the year). This file starts from the people the tree judges living; that one starts from
+the page. Both are in the build chain.
+
 WHAT IT READS. The built pages, dist/sitemap.xml, dist/searchindex.json, and
 the committed data (living.json, people.json, ancestors.json). It never needs
 the GEDCOM, so CI runs all of it. When the GEDCOM IS present (a local build) it
@@ -584,17 +589,22 @@ def independent_status(people, livingset):
     import living_rule as lr
     ty = lr.this_year()
     extra, _ = livingset.extra_dead(people)
+    holds = livingset.hold_ids()      # data/living-hold.tsv: an undated death flag held as living until David confirms
 
     def dead(i, p):
-        return any(e["kind"] in ("death", "burial") for e in p["events"]) or i in extra
+        return (any(e["kind"] in ("death", "burial") for e in p["events"]) and i not in holds) or i in extra
 
     def by(p):
         ev = lambda k: next((e for e in p["events"] if e["kind"] == k), None)
         m = re.search(r"\b(\d{4})\b", (ev("birth") or ev("christening") or ev("baptism") or {}).get("date", "") or "")
         return int(m.group(1)) if m else None
-    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), p.get("cites", ()), ty)}
+    # A DATED person is judged by year and death alone (25 October 2026): the kit's rule lets any public-source
+    # citation make a person 80 or younger "not living", which is how a man aged 78 was published as dead in
+    # the Mazza archive. An undated person is unchanged. (Kit gap, reported; tools/livingyears.py pins this.)
+    cites = lambda p: () if by(p) is not None else p.get("cites", ())
+    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty)}
     held = {i for i, p in people.items() if i not in living and lr.is_held_out(
-        i, by(p), dead(i, p), p.get("cites", ()),
+        i, by(p), any(e["kind"] in ("death", "burial") for e in p["events"]) or i in extra, p.get("cites", ()),
         any(par in living for par in p.get("parents", [])), (), ty)}
     return living, held
 
@@ -916,7 +926,7 @@ def selftest_rule():
         "@IZ6@": person("@IZ6@", born=Y - 81),                                    # 81 by year: not living
         "@IZ7@": person("@IZ7@", parents=["@IZ1@"]),                              # no birth year, living parent: HELD
         "@IZ8@": person("@IZ8@", parents=["@IZ2@"]),                              # no birth year, dead parent: neither
-        "@IZ9@": person("@IZ9@", born=Y - 40, cites=["FamilySearch Family Tree"]),  # a public source: not living
+        "@IZ9@": person("@IZ9@", born=Y - 40, cites=["FamilySearch Family Tree"]),  # a public source: STILL living (dated)
         "@IZA@": person("@IZA@", born=Y - 40, cites=["MyHeritage Family Tree | tree profile"]),  # private tree: living
         "@IZB@": person("@IZB@", parents=["@IZ1@"], cites=["FamilySearch"]),      # undated, public source: not held
         "@IZC@": person("@IZC@", born=1799),                                      # a planted ancient birth: not living
@@ -933,7 +943,7 @@ def selftest_rule():
             "81 by year is not living": "@IZ6@" not in living,
             "no birth year and a living parent is held out": "@IZ7@" in held and "@IZ7@" not in living,
             "no birth year and a dead parent is not held out": "@IZ8@" not in held and "@IZ8@" not in living,
-            "a public source means not living": "@IZ9@" not in living,
+            "a public source does NOT release a dated person (the Mazza case)": "@IZ9@" in living,
             "a private tree entry does not": "@IZA@" in living,
             "undated with a public source is not held out": "@IZB@" not in held,
             "a birth in 1799 is not living": "@IZC@" not in living,

@@ -1,0 +1,8 @@
+# People the tree flags as dead with NO date and nothing else, who are 80 or younger by year, held as LIVING (named with
+# relationships and town/country only: no date, no record, no photograph) until David confirms the death.
+# Read by tools/livingset.py (the generator) and tools/livingyears.py (the gate). One row: id|reason. No name, no date here.
+# A row is refused if the person has a dated death or burial, a documented death, a grave photograph or a stone.
+# To release somebody: take the row out and run tools/regen.py.
+#
+# id|reason
+@I18@|25 Oct 2026: the tree records a death with a place and no date; no second source in this archive; the Defranceschi archive says deceased. Held as living until confirmed.

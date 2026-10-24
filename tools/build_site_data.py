@@ -255,6 +255,41 @@ def relations(p, people, families, allowed=None):
     return out
 
 
+def _redactions():
+    """data/living-redact.tsv: id|find|replace|why. A dead person's free text (a eulogy kept in the tree's notes) that
+    prints the birth year of somebody who is LIVING. `find` is the words around the year with {Y} where the year is
+    (so the file itself holds no year); `replace` says «[year withheld]». The text is otherwise untouched. A row that no
+    longer matches its notes, or matches a year outside the living window, stops the build (the tree changed: look again)."""
+    out = {}
+    path = os.path.join(ROOT, "data", "living-redact.tsv")
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            if line.startswith("#") or line.count("|") < 3:
+                continue
+            f = line.rstrip("\n").split("|")
+            out.setdefault(f[0].strip(), []).append((f[1], f[2]))
+    return out
+
+
+REDACT = _redactions()
+
+
+def redacted_notes(p):
+    notes = [clean(n) for n in p["notes"] if clean(n)]
+    cut = livingset.cutoff_year()
+    for find, repl in REDACT.get(p["id"], []):
+        rx = re.compile(re.escape(find).replace(re.escape("{Y}"), r"((?:19|20)\d\d)"))
+        hit = [i for i, n in enumerate(notes) if rx.search(n)]
+        if not hit:
+            sys.exit(f"data/living-redact.tsv: a row for {p['id']} no longer matches its notes: {find[:40]!r}")
+        for i in hit:
+            for m in rx.finditer(notes[i]):
+                if not cut <= int(m.group(1)) <= livingset.lr.this_year():
+                    sys.exit(f"data/living-redact.tsv: a row for {p['id']} matches a year outside the living window")
+            notes[i] = rx.sub(lambda m: repl, notes[i])
+    return notes
+
+
 def person(p, ahn=None):
     b, d = born(p), died(p)
     bur, chr_ = ev(p, "burial") or {}, ev(p, "christening") or ev(p, "baptism") or {}
@@ -272,7 +307,7 @@ def person(p, ahn=None):
         ],
         "byear": year(b.get("date", "")), "dyear": year(d.get("date", "")),
         "sources": p["sources"][:6],
-        "notes": [clean(n) for n in p["notes"] if clean(n)],
+        "notes": redacted_notes(p),
         "events": [
             {"kind": e["kind"], "date": e.get("date", ""), "place": e.get("place", ""),
              "detail": (e.get("detail") or "").strip()[:600], "note": (e.get("note") or "").strip()[:900]}
@@ -664,8 +699,14 @@ def write_living_rule(cls, people, emitted, base):
         "kitRule": {"livingYears": lr.LIVING_YEARS, "ageByYear": True, "yearOfReckoning": ty},
         "rules": [
             {"id": "living", "rule": "Born 80 years ago or less by year (this year minus the birth "
-                                     "year), with no death or burial recorded, and no citation from a "
-                                     "public record source."},
+                                     "year), with no death or burial recorded. A citation from a public "
+                                     "record source does NOT release somebody who has a birth year (25 "
+                                     "October 2026): a source can show that a person was born or "
+                                     "arrived, never that they have died. The window's edge is one "
+                                     "derived constant, livingset.cutoff_year()."},
+            {"id": "hold", "rule": "A person in the window whose only death is an undated flag in the "
+                                   "tree, named in data/living-hold.tsv, is held as living until the "
+                                   "death is confirmed."},
             {"id": "recorded-dead", "rule": "A death or burial event in the tree, dated or not, or a "
                                             "death read in sources/documented.psv, or a grave photograph "
                                             "tagged with them, or a surveyed stone with their name, birth "
@@ -690,6 +731,7 @@ def write_living_rule(cls, people, emitted, base):
             "deadWithPage": sum(1 for i in emitted if i not in cls["living"]),
             "publishedOnlyBecauseNamed": len(emitted) - len(base),
             "deadOnOtherRecord": len(cls["extra_dead"]),
+            "heldAsLivingUntilConfirmed": len(cls.get("holds", {})),
         },
     }
     path = os.path.join(ROOT, "sources", "living-rule.json")

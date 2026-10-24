@@ -43,6 +43,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import livingset  # noqa: E402  (the one living rule, and the one cutoff)
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
 FMP = os.path.join(ROOT, "sources", "findmypast")
@@ -101,6 +104,21 @@ def main():
         n = int(result) if result.isdigit() else None
         probes.append({"kind": kind, "query": query, "set": rset, "result": result,
                        "n": n, "means": means, "zero": n == 0})
+
+    # THE LIVING WINDOW (25 October 2026). An index row that gives the BIRTH of somebody born within the last
+    # 80 years (livingset.cutoff_year()) with no death in the row is a living person's birth, name and place:
+    # not published. A public index does not release them (the kit's rule gap, see livingset.py). Counted, not named.
+    cut = livingset.cutoff_year()
+
+    def in_window(born, died):
+        m = re.search(r"\b(\d{4})\b", born or "")
+        return bool(m) and int(m.group(1)) >= cut and not died
+
+    held_back = sum(1 for r in recs if in_window(r["born"], r["died"]))
+    recs = [r for r in recs if not in_window(r["born"], r["died"])]
+    held_back += sum(1 for r in sa if r["kind"] == "birth" and r["year"].isdigit() and int(r["year"]) >= cut)
+    sa = [r for r in sa if not (r["kind"] == "birth" and r["year"].isdigit() and int(r["year"]) >= cut)]
+    print(f"  withheld under the living window: {held_back} index row(s) giving a birth in {cut} or later")
 
     # An address repeated across roll years is a household standing still, which
     # is a claim no single record makes.

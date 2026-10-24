@@ -1,0 +1,9 @@
+# Free text of somebody who has DIED (a eulogy kept in the tree's notes) that prints the birth year of somebody who is LIVING.
+# tools/build_site_data.py replaces `find` with `replace` in that person's notes; nothing else in the text changes.
+# `find` is the words around the year with {Y} where the year is, so this file holds no year. A row that no longer matches, or that
+# matches a year outside the living window, stops the build. No name of a living person is written in it.
+#
+# id|find|replace|why
+@I20@|I was born in {Y} and they moved|I was born in [year withheld] and they moved|the speaker, a living son, gives his own birth year
+@I20@|Gayle in {Y} and Graham in {Y}|Gayle in [year withheld] and Graham in [year withheld]|two living children's birth years
+@I20@|{Y} saw the arrival of his first grandchildren|[year withheld] saw the arrival of his first grandchildren|the birth year of living grandchildren

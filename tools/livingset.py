@@ -3,9 +3,29 @@
 
 THE RULE is the kit's, not this archive's: kit/tools/living_rule.py (David's
 ruling of 16 October 2026, standard v2). Living is 80 or younger BY YEAR with no
-death or burial recorded; a public source means not living; no birth year means
-not living; the only people held out are an UNDATED person with a living parent.
-This module only gathers what the rule needs from the tree.
+death or burial recorded; no birth year means not living; the only people held
+out are an UNDATED person with a living parent. This module gathers what the rule
+needs from the tree, and applies it with TWO CORRECTIONS the kit's rule lacks
+(25 October 2026, found the same day in the Mazza archive):
+
+  * A PUBLIC-SOURCE CITATION DOES NOT RELEASE A DATED PERSON. The kit's
+    `is_living` returns False for anybody who carries a citation from a public
+    source (FamilySearch, a passenger index, ...) whatever their birth year, on
+    the reasoning that "what that source says may be shown". A source can show
+    that somebody was born or arrived; it cannot show that they are dead. So for
+    a person WITH a birth year no citation is passed (`cites_for_living`): the
+    year and the absence of a death decide, alone. An undated person is unchanged.
+    (Kit gap, reported, not edited here. In this tree no living person was
+    affected: every dated person under 81 who carries a public source also has a
+    death recorded. The gate in livingcheck.py asserts the corrected behaviour.)
+  * A DEATH THAT IS ONLY AN UNDATED FLAG IS NOT YET A DEATH FOR SOMEBODY 80 OR
+    YOUNGER WHO IS NAMED IN data/living-hold.tsv: a person the tree flags dead
+    with no date, no record and no second source, whom David has not confirmed.
+    They are treated as living (masked) until he does. The file lists id and
+    reason; the gate refuses a hold on anybody with a dated death.
+
+THE CUTOFF. `cutoff_year()` is the one place the window's edge is computed:
+this year minus the kit's LIVING_YEARS. The generators and every gate import it.
 
 WHAT "RECORDED DEAD" MEANS HERE (all of these make a person dead):
   * a death or a burial event in the tree, dated or not;
@@ -137,16 +157,60 @@ def birth_year(person):
     return gedcom.year(gedcom.born(person).get("date", ""))
 
 
+def cutoff_year(today_year=None):
+    """THE cutoff, derived and never written down as a number: a birth year at or
+    after this is within the window, so the person is living unless a death is
+    recorded. 2026 - 80 = 1946. Used by the generators and by every gate."""
+    return (today_year or lr.this_year()) - lr.LIVING_YEARS
+
+
+def cites_for_living(person):
+    """The citations the LIVING test may see for a person: none for somebody with
+    a birth year (see the module docstring); all of them for somebody without."""
+    return [] if birth_year(person) is not None else person.get("cites", ())
+
+
+HOLD = os.path.join(ROOT, "data", "living-hold.tsv")
+
+
+def hold_ids():
+    """{id: reason} from data/living-hold.tsv: people the tree flags dead with no
+    date and nothing else, held as living until David confirms the death."""
+    out = {}
+    if os.path.exists(HOLD):
+        for line in open(HOLD, encoding="utf-8"):
+            if line.startswith("#") or "|" not in line:
+                continue
+            f = [x.strip() for x in line.rstrip("\n").split("|")]
+            if re.fullmatch(r"@I\d+@", f[0]):
+                out[f[0]] = f[1] if len(f) > 1 else ""
+    return out
+
+
+def dated_death(person):
+    """A death or burial event that carries a date (a year is enough)."""
+    return any(e["kind"] in ("death", "burial") and gedcom.year(e.get("date", ""))
+               for e in person["events"])
+
+
 def classify(people, families, today_year=None):
     """-> dict. living: set. held: set (undated with a living parent). Everyone
     else is not living and is handled as an ordinary person who has died."""
     ty = today_year or lr.this_year()
     extra, by = extra_dead(people)
     status = {}
+    holds = {i: why for i, why in hold_ids().items() if i in people}
+    for i in holds:
+        if dated_death(people[i]) or i in extra:
+            raise SystemExit(f"data/living-hold.tsv holds {i}, who has a dated death or other evidence of one: "
+                             "take the row out (a hold is only for an undated flag)")
+        b = birth_year(people[i])
+        if b is None or ty - b > lr.LIVING_YEARS:
+            raise SystemExit(f"data/living-hold.tsv holds {i}, who is not within the window: take the row out")
     living = set()
     for i, p in people.items():
-        dead = recorded_in_tree(p) or i in extra
-        if lr.is_living(birth_year(p), dead, p.get("cites", ()), ty):
+        dead = (recorded_in_tree(p) and i not in holds) or i in extra
+        if lr.is_living(birth_year(p), dead, cites_for_living(p), ty):
             living.add(i)
     held = set()
     for i, p in people.items():
@@ -156,16 +220,17 @@ def classify(people, families, today_year=None):
         parent_living = any(par in living for par in p.get("parents", []))
         if lr.is_held_out(i, birth_year(p), dead, p.get("cites", ()), parent_living, (), ty):
             held.add(i)
-    return {"living": living, "held": held, "extra_dead": extra, "extra_by": by, "today_year": ty}
+    return {"living": living, "held": held, "extra_dead": extra, "extra_by": by, "today_year": ty,
+            "holds": holds}
 
 
 def why_not_living(person, i, extra, ty):
     """For the report: why somebody the old rule called living is not living now."""
     if recorded_in_tree(person) or i in extra:
         return "recorded death or burial"
-    if lr.public_source(person.get("cites", ())):
-        return "public source"
     b = birth_year(person)
+    if lr.public_source(cites_for_living(person)):
+        return "public source (undated person)"
     if b is None:
         return "no birth year"
     if ty - b > lr.LIVING_YEARS:

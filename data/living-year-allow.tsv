@@ -1,0 +1,7 @@
+# DECISIONS for tools/livingyears.py: a year inside the living window that may be printed beside somebody the tree does not
+# record as dead. A row is a decision with a reason; no living person's name belongs here. A hit is allowed when its year is
+# the row's year AND one of the `near` tokens (separated by ;) is within 150 characters of it. The id lets PUBDEATH and
+# ROW-BIRTH skip the person's own data rows.
+#
+# id|year|near|why
+@I508661@|1962|georgius;prpic;perpic;krivi put 136;austria hungary ceased|A TYPO in the tree, not a living person: the birth year 1962 cannot be the son of people who died generations earlier. The archive's own /impossible/ and /corrections/ pages record it as a typo and give the evidence. Decided 25 Oct 2026 (David's brief to the session: leave).

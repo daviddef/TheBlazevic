@@ -52,3 +52,24 @@ archive's own research", marked `data-era-seeded="1"`, where the Atlas era was s
   `site/src/data/era-snapshot.json` (version 5) with the recorded `--unassessed allow`; refresh it deliberately and review the diff.
 - Never on a living page: `check:era` (the kit's `checkera.py`) reads the built pages. The three British regions give no note before 1753 (old-style year).
 - The notes are not part of a page's text for the search index or the names index (`tools/searchindex.py` skips person pages and strips `<style>`).
+
+## The living window (25 October 2026)
+
+Somebody born within the last 80 years with no death recorded is living: named with relationships and town and country only
+(no year, no date, no record, no photograph, no structured data). The edge is ONE derived constant, `livingset.cutoff_year()`
+(this year minus the kit's `LIVING_YEARS`: 1946 in 2026), imported by the generators and by `tools/livingyears.py`.
+
+- **A public source does not release a dated person.** The kit's `living_rule.is_living` returns False for anybody who carries a
+  public-source citation (FamilySearch, a passenger index), whatever their birth year; the same hole put a living man's year on the
+  Mazza archive (25 October 2026). `livingset.cites_for_living` passes no citations for somebody with a birth year. The exemption belongs in the kit
+  (kit gap, reported, not edited here).
+- **`data/living-hold.tsv`**: people the tree flags dead with an UNDATED flag and nothing else, held as living until David confirms.
+  Refused for anybody with a dated death. **`data/living-redact.tsv`**: a dead person's free text that prints a living person's year.
+  **`data/living-year-allow.tsv`**: a decision, with a reason, to print a window year (a typo in the tree). **`sources/media/withheld.psv`**:
+  photographs that show living people; their files are not kept.
+- **`npm run check:living-years`** (`tools/livingyears.py --selftest`, in the build chain) asks what is PRINTED, not what a flag says:
+  ROW-BIRTH (a data row), ROW-OPEN («<year>–?»), TXT-BDOT («b. <year>»), TXT-BORN («born in <country> after <month> <year>»), MEDIA, HOLD,
+  RULE, and, with the GEDCOM beside it (local only), TREE-NAME, TREE-GIVEN («<name> in <year>»), TREE-DATE and PUBDEATH. Every rule has a
+  planted fault in `--selftest`. A generated person page's Born label is the generator's: it is checked as a data row.
+- A stone survey row born in the window with no death year is either printed «20??» (the survey says the death year was cut) or
+  withheld (`tools/graves.py`); an index row giving a window birth is withheld (`tools/abroad.py`).
