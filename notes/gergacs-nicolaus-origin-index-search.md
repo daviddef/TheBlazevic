@@ -346,3 +346,14 @@ Waypoint 9R2M-C6D, **images 579–588**: 585–588 are the film's end-of-roll ta
 
 **What that leaves.** The slip says only «u Šibniku» and a priest «V. C. Gospodin Dominic Zdure [?]», no church. The other Šibenik births book on the film, **S. Marci at Dolac (waypoint 9R2C-L2Q), as filmed ends on 14 March 1762** (see the Šibenik Dolac read of 17–18 October), so a Dolac baptism of September 1762 is **not on the film**. The slip therefore **cannot be tested** further, and nothing links its Michael to the Karlobag Michael Gerkacs. **Limits:** half-size, by eye; the 1762 hand is a hurried cursive; the right-hand pages only were read in full.
 
+
+## Did Mikula marry Marda at Karlobag? The marriage book, November 1748 – October 1756 (25 October 2026)
+
+**Why.** The 1753 entry gives a wife Marda, not Margarita. If Mikula (Nicolaus) took her as a second wife, or married her on arrival, the marriage would be in the Karlobag marriage book (DGS 5481649, waypoint **9RK1-HZK**, 435 images; positions are the waypoint's list order, which matches the viewer's numbering, e.g. 303 = 1769).
+
+**Read.** Positions **284–290, both pages of each, full width (the first attempt with a cropped width cut the line ends off and was thrown away), 27 November 1748 to 7 October 1756**, by eye at about 0.67 of source size. The entries are in Latin («matrimonialiter copulavi ad faciem Ecclesiae … filiam defuncti …, praesentibus testibus …»), the priest Josip Šuvić, groom first.
+
+**Result.** **No Gergach, Gerkacs or Jargat as groom, bride, bride's father or witness in November 1748 – October 1756.** The near forms are other surnames («Gersetich/Gerseth» 1753, «Gerko» as a witness 1754, «Jerka»). So **Mikula and Marda did not marry at Karlobag between November 1748 and October 1756**, i.e. not in the window in which Lovro (August 1753) and any older child must have been conceived, **if they married at all there**. Together with the births this makes the likeliest reading **a family that arrived at Karlobag already married**, with the wedding in the place they came from.
+
+**Limits.** By eye; the 1736–48 marriages (positions 278–283) are not yet read for this name (positions 278–279 were seen only with the line ends cropped off and cannot be counted); marriages after October 1756 not read for this name apart from 1767–70 (Antonius's, 1769) and 1789–1801.
+
