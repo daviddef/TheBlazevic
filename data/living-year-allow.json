@@ -1,0 +1,26 @@
+{
+  "_about": "Decisions for the kit's printed-year gate (kit/tools/livingyears.py, run by npm run check:living --years). Each entry removes its text from what the gate reads and carries its reason. Counts and slugs only: no living person's name or year belongs here. The older registry, data/living-year-allow.tsv, belongs to tools/livingyears.py and is read as it stands.",
+  "allow": [
+    {
+      "text": "entered as born in 1962",
+      "why": "A typing slip in the tree, not a birth: this archive's own correction (corrections.json) records that the man's parents died in 1888 and 1891 and that his birth entry cites a register that ends in 1884. His person page is held to the living form under the kit rule until David confirms the slip (slug georgius-prpic)."
+    },
+    {
+      "text": "Georgius Prpić born 1962",
+      "why": "The same typing slip, quoted by the archive's own 'cannot be true' correction on his father's page (slug domianus-perpic). Not a living person's birth; see the first entry."
+    },
+    {
+      "text": "Georgius Prpic born 1962",
+      "why": "The same typing slip, quoted unaccented in the archive's own list of disputed dates (corrections.json). Not a living person's birth; see the first entry."
+    },
+    {
+      "text": "nobody was born there in 1962",
+      "why": "The same correction's argument that Austria-Hungary ceased to exist in 1918, so a birth there in 1962 is impossible. A year in an argument, not a birth."
+    },
+    {
+      "text": "Born</th><td>14 DEC 1949",
+      "file": "people/jeanette-marie-lerena/index.html",
+      "why": "A deceased person: the data records her death on 6 June 2021 and the page's heading prints 1949 to 2021. The kit gate's 90-character look-ahead for the death word is passed by the era note's inline style sitting between the Born and Died rows (kit finding, reported, not edited)."
+    }
+  ]
+}

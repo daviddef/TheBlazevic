@@ -591,8 +591,24 @@ def independent_status(people, livingset):
     extra, _ = livingset.extra_dead(people)
     holds = livingset.hold_ids()      # data/living-hold.tsv: an undated death flag held as living until David confirms
 
+    def dkind(p):
+        # the kit's own classifier, called here again and not taken from the generator: a burial, a date, a place,
+        # a cause or a note on a death is a RECORD; a death that is only «Y» is a bare FLAG (kit 341af33)
+        ks = []
+        for e in p["events"]:
+            if e["kind"] == "burial":
+                ks.append("record")
+            elif e["kind"] == "death":
+                more = any(e.get(k) for k in ("cause", "note", "agency", "type"))
+                ks.append(lr.death_kind(died=e.get("date", ""), death_place=e.get("place", ""), dead_flag=True,
+                                        death_recorded=more))
+        return "record" if "record" in ks else ("flag" if ks else None)
+
     def dead(i, p):
-        return (any(e["kind"] in ("death", "burial") for e in p["events"]) and i not in holds) or i in extra
+        return (dkind(p) == "record" and i not in holds) or i in extra
+
+    def flag(i, p):
+        return dkind(p) == "flag" and i not in holds and i not in extra
 
     def by(p):
         ev = lambda k: next((e for e in p["events"] if e["kind"] == k), None)
@@ -602,10 +618,10 @@ def independent_status(people, livingset):
     # citation make a person 80 or younger "not living", which is how a man aged 78 was published as dead in
     # the Mazza archive. An undated person is unchanged. (Kit gap, reported; tools/livingyears.py pins this.)
     cites = lambda p: () if by(p) is not None else p.get("cites", ())
-    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty)}
+    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty, undated_dead=flag(i, p))}
     held = {i for i, p in people.items() if i not in living and lr.is_held_out(
-        i, by(p), any(e["kind"] in ("death", "burial") for e in p["events"]) or i in extra, p.get("cites", ()),
-        any(par in living for par in p.get("parents", [])), (), ty)}
+        i, by(p), dkind(p) == "record" or i in extra, p.get("cites", ()),
+        any(par in living for par in p.get("parents", [])), (), ty, undated_dead=dkind(p) == "flag" and i not in extra)}
     return living, held
 
 
@@ -630,7 +646,14 @@ class Ged:
         # every date of every living person, held out or not
         self.forbid = {}
         for i in self.living:
+            by = livingset.birth_year(self.people[i])
             for e in self.people[i]["events"]:
+                # an event dated BEFORE the person's own birth year is a typing slip in the tree (a christening of
+                # 1884 for somebody born in 1984), not a date of theirs: it would only collide with a dead
+                # person's date. The tree's own error stays in the tree.
+                ey = self.gedcom.year(e.get("date", ""))
+                if by is not None and ey is not None and ey < by:
+                    continue
                 for f in date_forms(e.get("date", "")):
                     self.forbid.setdefault(f, set()).add(i)
         self.owner_names = {i: {fold(x) for x in livingnames.phrases_of(self.display[i])}
@@ -907,9 +930,12 @@ def selftest_rule():
     import livingset
     Y = livingset.lr.this_year()
 
-    def person(i, born=None, events=(), parents=(), cites=()):
+    def person(i, born=None, events=(), parents=(), cites=(), death_date=None):
         ev = [{"kind": k, "date": "", "place": "", "detail": "Y", "note": "", "agency": "",
                "type": "", "cause": "", "tag": k.upper()} for k in events]
+        if death_date is not None:
+            ev.append({"kind": "death", "date": death_date, "place": "", "detail": "Y", "note": "", "agency": "",
+                       "type": "", "cause": "", "tag": "DEAT"})
         if born is not None:
             ev.insert(0, {"kind": "birth", "date": f"1 JAN {born}", "place": "", "detail": "", "note": "",
                           "agency": "", "type": "", "cause": "", "tag": "BIRT"})
@@ -920,7 +946,7 @@ def selftest_rule():
     P = {
         "@IZ1@": person("@IZ1@", born=Y - 40),                                    # an adult, living
         "@IZ2@": person("@IZ2@", born=Y - 40, events=["burial"]),                 # undated burial: dead
-        "@IZ3@": person("@IZ3@", born=Y - 40, events=["death"]),                  # undated death: dead
+        "@IZ3@": person("@IZ3@", born=Y - 40, events=["death"]),                  # a bare death FLAG, born in the window: LIVING (kit 341af33)
         "@IZ4@": person("@IZ4@", born=Y - 10, parents=["@IZ1@"]),                 # a child with a birth year: NAMED
         "@IZ5@": person("@IZ5@", born=Y - 80),                                    # 80 by year: living
         "@IZ6@": person("@IZ6@", born=Y - 81),                                    # 81 by year: not living
@@ -930,6 +956,10 @@ def selftest_rule():
         "@IZA@": person("@IZA@", born=Y - 40, cites=["MyHeritage Family Tree | tree profile"]),  # private tree: living
         "@IZB@": person("@IZB@", parents=["@IZ1@"], cites=["FamilySearch"]),      # undated, public source: not held
         "@IZC@": person("@IZC@", born=1799),                                      # a planted ancient birth: not living
+        "@IZD@": person("@IZD@", born=Y - 40, death_date="2 FEB " + str(Y - 3)),  # a dated death: dead
+        "@IZE@": person("@IZE@", born=1799, events=["death"]),                    # a bare flag, born long ago: dead
+        "@IZF@": person("@IZF@", events=["death"]),                               # a bare flag, no birth year: dead
+        "@IZG@": person("@IZG@", born=Y - 40, events=["death"], cites=["FamilySearch Family Tree"]),  # flag + public source: living
     }
     mine = {}
     for label, (living, held) in (("generator", (lambda c: (c["living"], c["held"]))(livingset.classify(P, {}))),
@@ -937,7 +967,11 @@ def selftest_rule():
         mine[label] = {
             "an adult with nothing recorded is living": "@IZ1@" in living and "@IZ1@" not in held,
             "an undated burial is a death": "@IZ2@" not in living,
-            "an undated death is a death": "@IZ3@" not in living,
+            "a bare death flag does NOT make somebody born inside the window dead": "@IZ3@" in living,
+            "a dated death does": "@IZD@" not in living,
+            "a bare flag for somebody born long ago is a death": "@IZE@" not in living,
+            "a bare flag and no birth year is a death": "@IZF@" not in living and "@IZF@" not in held,
+            "a bare flag plus a public source still leaves a dated person living": "@IZG@" in living,
             "a child with a known birth year is living and NOT held out": "@IZ4@" in living and "@IZ4@" not in held,
             "80 by year is living": "@IZ5@" in living,
             "81 by year is not living": "@IZ6@" not in living,

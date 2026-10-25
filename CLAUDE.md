@@ -59,12 +59,18 @@ Somebody born within the last 80 years with no death recorded is living: named w
 (no year, no date, no record, no photograph, no structured data). The edge is ONE derived constant, `livingset.cutoff_year()`
 (this year minus the kit's `LIVING_YEARS`: 1946 in 2026), imported by the generators and by `tools/livingyears.py`.
 
-- **A public source does not release a dated person.** The kit's `living_rule.is_living` returns False for anybody who carries a
-  public-source citation (FamilySearch, a passenger index), whatever their birth year; the same hole put a living man's year on the
-  Mazza archive (25 October 2026). `livingset.cites_for_living` passes no citations for somebody with a birth year. The exemption belongs in the kit
-  (kit gap, reported, not edited here).
-- **`data/living-hold.tsv`**: people the tree flags dead with an UNDATED flag and nothing else, held as living until David confirms.
-  Refused for anybody with a dated death. **`data/living-redact.tsv`**: a dead person's free text that prints a living person's year.
+- **The kit carries the rule (341af33, 25 October 2026).** `living_rule.is_living` no longer lets a public-source citation or a
+  bare death flag release anybody born inside the window. `tools/livingset.py` passes `undated_dead=True` for a DEAT event that is
+  only `Y` (no date, no place, no cause or note, no burial: `death_evidence() == "flag"`) and `recorded_dead` for a real record.
+  `cites_for_living` is kept working beside the kit and is redundant; delete it once the kit gate has run clean for a release.
+  The one person whose status changed is a tree typo (a birth year after the parents' deaths): that person is held to the living form
+  and listed for David, with the correction text that quotes the year registered in `data/living-year-allow.json`.
+- **`npm run check:living` also runs the kit's printed-year gate** (`--years --config standard.json --strict-allow`): its registry is
+  `data/living-year-allow.json` (`{allow:[{text, why, file?}]}`, a reason of 8 characters or more; the text is matched in the RAW
+  built file, so a snippet inside HTML carries its tags), named in `site/standard.json` under `living_years`. It runs beside
+  `tools/livingyears.py`, which keeps its own registry (`data/living-year-allow.tsv`).
+- **`data/living-hold.tsv`**: people the tree records dead with a place and no date, held as living until David confirms.
+  Refused for anybody with a dated death. (A bare flag needs no hold: the kit keeps such a person living.) **`data/living-redact.tsv`**: a dead person's free text that prints a living person's year.
   **`data/living-year-allow.tsv`**: a decision, with a reason, to print a window year (a typo in the tree). **`sources/media/withheld.psv`**:
   photographs that show living people; their files are not kept.
 - **`npm run check:living-years`** (`tools/livingyears.py --selftest`, in the build chain) asks what is PRINTED, not what a flag says:

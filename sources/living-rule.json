@@ -12,15 +12,15 @@
  "rules": [
   {
    "id": "living",
-   "rule": "Born 80 years ago or less by year (this year minus the birth year), with no death or burial recorded. A citation from a public record source does NOT release somebody who has a birth year (25 October 2026): a source can show that a person was born or arrived, never that they have died. The window's edge is one derived constant, livingset.cutoff_year()."
+   "rule": "Born 80 years ago or less by year (this year minus the birth year), with no death RECORD. A citation from a public record source does NOT release somebody who has a birth year, and a bare death flag (a death event that is only Y: no date, no place, no burial) is not a record for them either: the kit's rule since 341af33. A source can show that a person was born or arrived, never that they have died. The window's edge is one derived constant, livingset.cutoff_year()."
   },
   {
    "id": "hold",
-   "rule": "A person in the window whose only death is an undated flag in the tree, named in data/living-hold.tsv, is held as living until the death is confirmed."
+   "rule": "A person in the window whose only death is a death with a place and no date, named in data/living-hold.tsv, is held as living until the death is confirmed."
   },
   {
    "id": "recorded-dead",
-   "rule": "A death or burial event in the tree, dated or not, or a death read in sources/documented.psv, or a grave photograph tagged with them, or a surveyed stone with their name, birth year and a death year, means dead."
+   "rule": "A dated death or burial in the tree, a death with a place, cause or note, or a death read in sources/documented.psv, or a grave photograph tagged with them, or a surveyed stone with their name, birth year and a death year, means dead. A bare death flag means dead only for somebody with no birth year or born before the window."
   },
   {
    "id": "no-birth-year",
@@ -41,12 +41,13 @@
  ],
  "counts": {
   "peopleInTree": 15643,
-  "living": 463,
-  "heldOut": 92,
-  "livingWithPage": 48,
-  "deadWithPage": 4487,
+  "living": 489,
+  "heldOut": 95,
+  "livingWithPage": 49,
+  "deadWithPage": 4486,
   "publishedOnlyBecauseNamed": 1652,
   "deadOnOtherRecord": 17,
-  "heldAsLivingUntilConfirmed": 1
+  "heldAsLivingUntilConfirmed": 1,
+  "livingOnlyBecauseTheDeathIsABareFlag": 5619
  }
 }

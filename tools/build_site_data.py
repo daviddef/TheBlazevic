@@ -699,18 +699,22 @@ def write_living_rule(cls, people, emitted, base):
         "kitRule": {"livingYears": lr.LIVING_YEARS, "ageByYear": True, "yearOfReckoning": ty},
         "rules": [
             {"id": "living", "rule": "Born 80 years ago or less by year (this year minus the birth "
-                                     "year), with no death or burial recorded. A citation from a public "
-                                     "record source does NOT release somebody who has a birth year (25 "
-                                     "October 2026): a source can show that a person was born or "
-                                     "arrived, never that they have died. The window's edge is one "
-                                     "derived constant, livingset.cutoff_year()."},
-            {"id": "hold", "rule": "A person in the window whose only death is an undated flag in the "
-                                   "tree, named in data/living-hold.tsv, is held as living until the "
+                                     "year), with no death RECORD. A citation from a public record "
+                                     "source does NOT release somebody who has a birth year, and a bare "
+                                     "death flag (a death event that is only Y: no date, no place, no "
+                                     "burial) is not a record for them either: the kit's rule since "
+                                     "341af33. A source can show that a person was born or arrived, "
+                                     "never that they have died. The window's edge is one derived "
+                                     "constant, livingset.cutoff_year()."},
+            {"id": "hold", "rule": "A person in the window whose only death is a death with a place and "
+                                   "no date, named in data/living-hold.tsv, is held as living until the "
                                    "death is confirmed."},
-            {"id": "recorded-dead", "rule": "A death or burial event in the tree, dated or not, or a "
-                                            "death read in sources/documented.psv, or a grave photograph "
-                                            "tagged with them, or a surveyed stone with their name, birth "
-                                            "year and a death year, means dead."},
+            {"id": "recorded-dead", "rule": "A dated death or burial in the tree, a death with a place, "
+                                            "cause or note, or a death read in sources/documented.psv, "
+                                            "or a grave photograph tagged with them, or a surveyed stone "
+                                            "with their name, birth year and a death year, means dead. "
+                                            "A bare death flag means dead only for somebody with no "
+                                            "birth year or born before the window."},
             {"id": "no-birth-year", "rule": "Nobody with no birth year is living: it cannot be shown "
                                              "that they are 80 or younger."},
             {"id": "held-out", "rule": "An undated person (no birth year) with a living parent, not "
@@ -732,6 +736,7 @@ def write_living_rule(cls, people, emitted, base):
             "publishedOnlyBecauseNamed": len(emitted) - len(base),
             "deadOnOtherRecord": len(cls["extra_dead"]),
             "heldAsLivingUntilConfirmed": len(cls.get("holds", {})),
+            "livingOnlyBecauseTheDeathIsABareFlag": len(cls.get("flag_only", ())),
         },
     }
     path = os.path.join(ROOT, "sources", "living-rule.json")

@@ -40,8 +40,9 @@ THE RULES (each is a name in the output and in --selftest):
   MEDIA       a photograph tagged with somebody who is living (or held out); a file the withheld list
               names that is still in site/public or in the build.
   HOLD        a row of data/living-hold.tsv for somebody with a dated death, or outside the window.
-  PUBDEATH    (needs the tree) a published person in the window whose only death is an UNDATED flag, who is
-              neither held (data/living-hold.tsv) nor decided (data/living-year-allow.tsv).
+  PUBDEATH    (needs the tree) a person in the window whose only death is a bare FLAG (a DEAT event that is only «Y»)
+              published AS DEAD, who is neither held (data/living-hold.tsv) nor decided (data/living-year-allow.tsv).
+              The kit's rule (341af33) keeps such a person living, so none should be found.
   RULE        the living rule itself, on a synthetic tree: the Mazza case (a dated person with a public
               source is living), the edge year, a recorded death, the hold. Generator and gate must agree.
   EMPTY       a build with nothing to check does not pass.
@@ -377,27 +378,46 @@ def independent_status(people, tuned=True):
     extra, _ = livingset.extra_dead(people)
     holds = livingset.hold_ids()
 
+    def dkind(p):
+        # the kit's own classifier, called here again and not taken from the generator: a burial, a date, a place,
+        # a cause or a note on a death is a RECORD; a death that is only «Y» is a bare FLAG (kit 341af33)
+        ks = []
+        for e in p["events"]:
+            if e["kind"] == "burial":
+                ks.append("record")
+            elif e["kind"] == "death":
+                more = any(e.get(k) for k in ("cause", "note", "agency", "type"))
+                ks.append(lr.death_kind(died=e.get("date", ""), death_place=e.get("place", ""), dead_flag=True,
+                                        death_recorded=more))
+        return "record" if "record" in ks else ("flag" if ks else None)
+
     def dead(i, p):
-        return (any(e["kind"] in ("death", "burial") for e in p["events"]) and i not in holds) or i in extra
+        return (dkind(p) == "record" and i not in holds) or i in extra
+
+    def flag(i, p):
+        return dkind(p) == "flag" and i not in holds and i not in extra
 
     def by(p):
         ev = lambda k: next((e for e in p["events"] if e["kind"] == k), None)
         m = re.search(r"\b(\d{4})\b", (ev("birth") or ev("christening") or ev("baptism") or {}).get("date", "") or "")
         return int(m.group(1)) if m else None
     cites = (lambda p: () if by(p) is not None else p.get("cites", ())) if tuned else (lambda p: p.get("cites", ()))
-    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty)}
+    living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty, undated_dead=flag(i, p))}
     held = {i for i, p in people.items() if i not in living and lr.is_held_out(
-        i, by(p), any(e["kind"] in ("death", "burial") for e in p["events"]) or i in extra, p.get("cites", ()),
-        any(par in living for par in p.get("parents", [])), (), ty)}
+        i, by(p), dkind(p) == "record" or i in extra, p.get("cites", ()),
+        any(par in living for par in p.get("parents", [])), (), ty, undated_dead=dkind(p) == "flag" and i not in extra)}
     return living, held
 
 
 def synthetic_tree():
     Y = TODAY
 
-    def person(i, born=None, events=(), parents=(), cites=()):
+    def person(i, born=None, events=(), parents=(), cites=(), death_date=None):
         ev = [{"kind": k, "date": "", "place": "", "detail": "Y", "note": "", "agency": "", "type": "",
                "cause": "", "tag": k.upper()} for k in events]
+        if death_date is not None:
+            ev.append({"kind": "death", "date": death_date, "place": "", "detail": "Y", "note": "", "agency": "",
+                       "type": "", "cause": "", "tag": "DEAT"})
         if born is not None:
             ev.insert(0, {"kind": "birth", "date": f"1 JAN {born}", "place": "", "detail": "", "note": "",
                           "agency": "", "type": "", "cause": "", "tag": "BIRT"})
@@ -407,14 +427,16 @@ def synthetic_tree():
     pub = ["FamilySearch Family Tree", "recordsearch.naa.gov.au passenger index"]
     return {
         "@IZ1@": person("@IZ1@", born=Y - 78, cites=pub),                 # THE MAZZA CASE: 78, no death, public sources
-        "@IZ2@": person("@IZ2@", born=Y - 78, cites=pub, events=["death"]),  # the same, with a death recorded: dead
+        "@IZ2@": person("@IZ2@", born=Y - 78, cites=pub, death_date="2 FEB %d" % (Y - 3)),  # the same, with a death recorded: dead
         "@IZ3@": person("@IZ3@", born=Y - 80),                            # the edge: 80 by year is living
         "@IZ4@": person("@IZ4@", born=Y - 81),                            # 81 is not
         "@IZ5@": person("@IZ5@", born=Y - 40),                            # an adult with nothing recorded
         "@IZ6@": person("@IZ6@", parents=["@IZ5@"], cites=["FamilySearch"]),  # undated, public source: not held
         "@IZ7@": person("@IZ7@", parents=["@IZ5@"]),                      # undated, living parent: held out
-        "@IZ8@": person("@IZ8@", born=Y - 60, events=["death"]),          # undated death: dead (kit rule)
+        "@IZ8@": person("@IZ8@", born=Y - 60, events=["death"]),          # a bare death FLAG, born in the window: LIVING (kit 341af33)
         "@IZ9@": person("@IZ9@", born=CUT - 1),                           # one year outside the window
+        "@IZA@": person("@IZA@", born=CUT - 1, events=["death"]),         # a bare flag, born one year outside: dead
+        "@IZB@": person("@IZB@", events=["death"]),                       # a bare flag and no birth year: dead
     }
 
 
@@ -436,13 +458,18 @@ def selftest_rule():
         "undated with a public source is neither living nor held": ("@IZ6@" not in g_l and "@IZ6@" not in g_h,
                                                                     "@IZ6@" not in k_l and "@IZ6@" not in k_h),
         "undated with a living parent is held out": ("@IZ7@" in g_h, "@IZ7@" in k_h),
-        "an undated death is a death": ("@IZ8@" not in g_l, "@IZ8@" not in k_l),
+        "a bare death flag does NOT make somebody born inside the window dead": ("@IZ8@" in g_l, "@IZ8@" in k_l),
+        "a bare flag one year outside the window is a death": ("@IZA@" not in g_l, "@IZA@" not in k_l),
+        "a bare flag and no birth year is a death": ("@IZB@" not in g_l and "@IZB@" not in g_h,
+                                                     "@IZB@" not in k_l and "@IZB@" not in k_h),
         "one year outside the window is not living": ("@IZ9@" not in g_l, "@IZ9@" not in k_l),
         "the cutoff is derived, not typed": (livingset.cutoff_year() == TODAY - lr.LIVING_YEARS,
                                              livingset.cutoff_year(TODAY + 1) == TODAY + 1 - lr.LIVING_YEARS),
     }
     res = {f"{k} (generator, gate)": a and b for k, (a, b) in want.items()}
-    res["the old rule (every citation passed) calls the Mazza case NOT living: the control differs"] = "@IZ1@" not in old_l
+    # Before kit 341af33 this control showed that the kit's rule, given every citation, called the Mazza case NOT living,
+    # so the archive withheld the citations itself. The kit does it now: the two answers AGREE, and the control pins that.
+    res["the kit's rule alone, given every citation, now also keeps the Mazza case living (kit 341af33): the control agrees"] = "@IZ1@" in old_l
     # a hold: the generator must refuse a hold on somebody with a dated death
     return res
 
@@ -545,7 +572,13 @@ class Tree:
         # TREE-DATE: the full date, beside the name
         low = text.lower().replace("\u00a0", " ")
         for form, ids in self.dates.items():
-            if str(int(re.search(r"\d{4}", form).group(0))) in ft and (form in low or fold(form) in ft):
+            fy = int(re.search(r"\d{4}", form).group(0))
+            if str(fy) in ft and (form in low or fold(form) in ft):
+                # a decision in data/living-year-allow.tsv (a typo in the tree) allows its own year beside its own token
+                k = ft.find(fold(form))
+                seg = ft[max(0, k - 150): k + len(form) + 150] if k >= 0 else ft
+                if allowed_fold(seg, fy, allow):
+                    continue
                 for i in ids:
                     if any(ph in ft for ph in self.names.get(i, ())):
                         out.append(("TREE-DATE", where, "a full birth date beside the person's name"))
@@ -569,9 +602,10 @@ class Tree:
             b = livingset.birth_year(p)
             if not window(b):
                 continue
-            if any(e["kind"] in ("death", "burial") for e in p["events"]) and not livingset.dated_death(p) \
+            if livingset.death_evidence(p) == "flag" \
                     and i not in extra and i not in self.holds and i not in allow_ids:
-                out.append(("PUBDEATH", r.get("slug", i), "in the window, published, and the only death is an undated flag"))
+                out.append(("PUBDEATH", r.get("slug", i), "in the window, published AS DEAD, and the only death is a bare flag "
+                            "(the kit's rule keeps them living: a page of the living form, no year)"))
         return out
 
 
@@ -810,7 +844,7 @@ def selftest(w, allow, tree, findings, quiet=False):
         res.append(got)
         # PUBDEATH: an undated-flag death in the window, published, neither held nor decided
         und = next((i for i, p in t.people.items() if window(livingset.birth_year(p)) and
-                    any(e["kind"] in ("death", "burial") for e in p["events"]) and not livingset.dated_death(p)
+                    livingset.death_evidence(p) == "flag"
                     and i not in t.holds and i not in {a[0] for a in allow}), None)
         if und:
             w3 = clone(w)

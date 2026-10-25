@@ -518,6 +518,56 @@
   }
  },
  {
+  "slug": "georgius-prpic",
+  "name": "Georgius Prpic",
+  "town": "Senj",
+  "country": "Austria-Hungary",
+  "living": true,
+  "rel": {
+   "parents": [
+    {
+     "name": "Domianus \"Domian\" Perpić",
+     "slug": "domianus-perpic",
+     "id": "@I508659@",
+     "born": 1820,
+     "died": 1888
+    },
+    {
+     "name": "Maria Sojath",
+     "slug": "maria-sojath",
+     "id": "@I508660@",
+     "born": 1823,
+     "died": 1891
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Jacobus Perpic",
+     "slug": "jacobus-perpic",
+     "id": "@I508683@",
+     "born": 1858,
+     "died": null
+    },
+    {
+     "name": "Jure Perpic",
+     "slug": "jure-perpic",
+     "id": "@I508687@",
+     "born": 1862,
+     "died": 1882
+    },
+    {
+     "name": "Mathia Prpic",
+     "slug": "mathia-prpic",
+     "id": "@I508670@",
+     "born": 1865,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "slug": "giuseppina-falco",
   "name": "Giuseppina Falco",
   "town": "Benevento",
