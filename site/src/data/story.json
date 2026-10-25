@@ -97,8 +97,8 @@
             { "id": "anton", "name": "Anton", "years": "no year", "grade": "lore", "person": "anton-blazevic-5" }
           ] },
           { "kind": "grandchildren", "nodes": [
-            { "id": "toma-g", "name": "Toma", "years": "b. 1838", "grade": "lore", "person": "toma-tomislav-blazevic" },
-            { "id": "mate", "name": "Mate", "years": "no year", "grade": "lore", "person": "mate-blazevic-2" }
+            { "id": "toma-g", "name": "Toma", "years": "b. 1838", "grade": "lore", "person": "toma-tomislav-blazevic", "of": "anton" },
+            { "id": "mate", "name": "Mate", "years": "no year", "grade": "lore", "person": "mate-blazevic-2", "of": "anton" }
           ] }
         ]
       },
@@ -542,7 +542,7 @@
         },
         {
           "id": "us-2", "grade": "doc",
-          "text": "Ivan Anton married Cheryl Lerena, whom the archive places at Johannesburg, in South Africa. Their son is David, who keeps this archive; its own entry places him at Johannesburg too. David's two sons, A. and M., carry the name on, and the archive places one of them at Brisbane, in Australia. All of them are living, and by this archive's rule the living are named with their relationships and their towns and nothing more; the two youngest, by their initials only.",
+          "text": "Ivan Anton married Cheryl Lerena, whom the archive places at Johannesburg, in South Africa. Their son is David, who keeps this archive; its own entry places him at Johannesburg too. David's two sons, A. and M., carry the name on. All of them are living, and by this archive's rule the living are named with their relationships and their towns and nothing more; the two youngest, by their initials only.",
           "evidence": [{ "href": "/about/", "why": "About: the rule for the living" }]
         },
         {
@@ -563,8 +563,8 @@
           ] },
           { "kind": "children", "nodes": [{ "id": "david", "name": "David", "living": true }] },
           { "kind": "grandchildren", "nodes": [
-            { "id": "a", "name": "A.", "living": true, "minor": true },
-            { "id": "m", "name": "M.", "living": true, "minor": true }
+            { "id": "a", "name": "A.", "living": true, "minor": true, "of": "david" },
+            { "id": "m", "name": "M.", "living": true, "minor": true, "of": "david" }
           ] }
         ]
       },
