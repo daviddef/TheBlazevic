@@ -1,0 +1,680 @@
+{
+  "_note": "The family story at /story/ (25 October 2026): the direct line of this archive, the male Blažević line of the Spine (/direct-line/, line.json, ahnentafel 128 to 1), told as a short book in the kit's contract (kit/docs/story.md, checked by kit/tools/checkfamilystory.py through `npm run check:familystory`). Written by hand from the archive's own pages and data; every sentence traces to a line of the fact ledger kept with the working files. Paragraph grades are the grade of the weakest claim. World paragraphs marked history are listed in closing.notes for David to approve. Living people are named with relationships and towns only, with no dates; David's sons by initials. Map points: data/era-towns.tsv (this archive's own gazetteer rows); the three country markers are placed by hand at the middle of the country, as the Defranceschi story does.",
+  "title": "Off the Mountain",
+  "eyebrow": "The story · eight generations and the living · Smokvica Krmpotska to Senj, Johannesburg and Brisbane",
+  "dek": "The line this archive is named for, told once as a short book: a village planted on a mountain, a house number, a port the railway went around, a tobacco factory, a war, and a long road south. Under each chapter, a small family tree and the documents it rests on; two maps follow the moves. Every paragraph says how well it is known.",
+  "prologue": {
+    "title": "Start here",
+    "paragraphs": [
+      {
+        "id": "start-1", "grade": "doc",
+        "text": "This is the short version of a long archive: the Blažević line, told in order, from a village on the mountain above the Vinodol coast to the port of Senj, and from Senj to Johannesburg and Brisbane. It is meant to be read in one sitting. It is a first telling, and [corrections](/corrections/) are welcome.",
+        "evidence": [{ "href": "/direct-line/", "why": "The Spine: the line this book follows, generation by generation" }]
+      },
+      {
+        "id": "start-2", "grade": "doc",
+        "text": "Everything said here about a person comes from a paper the archive has read, or is marked when it does not. A small mark ends each paragraph: **doc** where a document says so, **inf** where the archive reasons from documents, **lore** where it rests on the family's tree or the family's memory. A paragraph takes the mark of its weakest sentence, and every mark links to the evidence.",
+        "evidence": [{ "href": "/method/", "why": "Method: why every claim carries a confidence" }]
+      },
+      {
+        "id": "start-3", "grade": "doc",
+        "text": "Some passages are set in under the words *In the world around them*. They describe the place and the years, never what these particular people did or saw. Their marks say where the detail comes from: **archive** for this archive's own pages, **history** for general history, listed at the foot of the page.",
+        "evidence": [{ "href": "/method/", "why": "Method: what is a document and what is not" }]
+      },
+      {
+        "id": "start-4", "grade": "doc",
+        "text": "The registers wrote the name Blažević and the family's tree often Blazevic; the man of the third chapter is Juraj in one entry and Jurko in another. This book counts the generations from the earliest, where [the Spine](/direct-line/) counts them from Hedviga. Each chapter ends with *The papers for this chapter*.",
+        "evidence": [{ "href": "/blazevic/", "why": "The Blažević page: how the tree spells the name" }]
+      }
+    ]
+  },
+  "ribbon": {
+    "note": "One card for each generation, counted from the earliest; the Spine counts the other way, from Hedviga. Each card names that generation's person and where he or she came from, the place a paper later finds them where it differs, and whom they married and where that person came from. No wife is named for the first four. The outline carries the evidence for where they came from: solid documented, dashed inferred, dotted the family's tree.",
+    "cards": [
+      { "name": "Mateša Blažević", "years": "b. 1750", "origin": "Smokvica Krmpotska", "originGrade": "lore", "spouse": "", "spouseOrigin": "", "atPlace": "", "atYear": "", "living": false, "chapter": "mountain", "person": "matesa-blazevic", "glyph": "hill", "title": "The earliest on the line, from the family's tree only; no register read for him" },
+      { "name": "Grgica Blažević", "years": "b. 1770", "origin": "Smokvica Krmpotska", "originGrade": "lore", "spouse": "", "spouseOrigin": "", "atPlace": "", "atYear": "", "living": false, "chapter": "mountain", "person": "grgica-blazevic", "glyph": "hill", "title": "The family's tree only" },
+      { "name": "Ilija Blažević", "years": "b. 1790", "origin": "Smokvica Krmpotska", "originGrade": "lore", "spouse": "", "spouseOrigin": "", "atPlace": "", "atYear": "", "living": false, "chapter": "mountain", "person": "ilija-blazevic", "glyph": "field", "title": "The family's tree, placed at Smokvica Krmpotska" },
+      { "name": "Anton Blažević", "years": "", "origin": "Smokvica Krmpotska", "originGrade": "lore", "spouse": "", "spouseOrigin": "", "atPlace": "", "atYear": "", "living": false, "chapter": "mountain", "person": "anton-blazevic-5", "glyph": "field", "title": "Toma's father in the family's tree; no year at all" },
+      { "name": "Toma Blažević", "years": "1838–1907", "origin": "Smokvica Krmpotska", "originGrade": "doc", "spouse": "Tereza Pećanić", "spouseOrigin": "place not known", "atPlace": "Senj", "atYear": "1907", "living": false, "chapter": "house114", "person": "toma-tomislav-blazevic", "spousePerson": "tereza-pecanic", "glyph": "gable", "title": "At house 114 in 1882 and 1884 by the baptisms; a day labourer dying at Senj in 1907" },
+      { "name": "Juraj «Jurko» Blažević", "years": "† before 1920", "origin": "Smokvica Krmpotska", "originGrade": "inf", "spouse": "Tereza Žubrinić", "spouseOrigin": "of Otočac", "atPlace": "Rijeka", "atYear": "1892", "living": false, "chapter": "jurko", "person": "juraj-georgius-jure-blazevic", "spousePerson": "tereza-zubrinic-zubrinic", "glyph": "field", "title": "At Smokvica 114 in 1895; that he came from Toma's household is the archive's inference" },
+      { "name": "Ljubomir Blažević", "years": "1892–1966", "origin": "Rijeka", "originGrade": "doc", "spouse": "Milka Papić", "spouseOrigin": "of Senj", "atPlace": "Senj", "atYear": "1920", "living": false, "chapter": "sailor", "person": "ljubomir-blazevic", "spousePerson": "milka-lucia-papic", "glyph": "wave", "title": "Born at Rijeka by his marriage entry; a sailor at Senj" },
+      { "name": "Hedviga Blažević", "years": "1926–2001", "origin": "Senj", "originGrade": "doc", "spouse": "Ivan Defranceski", "spouseOrigin": "of Crikvenica", "atPlace": "Crikvenica", "atYear": "", "living": false, "chapter": "highveld", "person": "hedviga-blazevic", "spousePerson": "ivan-anton-defranceski", "glyph": "ship", "title": "Born at Senj, confirmed by a register extract; resident at Crikvenica by the same extract" },
+      { "name": "Ivan Anton", "years": "", "origin": "Senj", "originGrade": "doc", "spouse": "Cheryl Lerena", "spouseOrigin": "of Johannesburg", "atPlace": "", "atYear": "", "living": true, "chapter": "us", "spouseLiving": true, "glyph": "gable", "title": "Living: named with a relationship and a town, nothing more" }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "mountain", "numeral": "I", "title": "A mountain planted on purpose", "place": "Smokvica Krmpotska", "years": "about 1750–1838",
+      "paragraphs": [
+        {
+          "id": "mountain-1", "grade": "doc",
+          "text": "When the death of an old day labourer was written into the Senj register in July 1907, the column for his birthplace held not a village but a parish: *sv. Jakov Krmpote*, St James of Krmpote. That parish's book holds the village of Smokvica Krmpotska, and in it, if anywhere, are the first five generations of this line. Nobody has yet opened it.",
+          "evidence": [{ "href": "/blazevic/", "why": "The Blažević page: «the parish, which is named and unopened»" }]
+        },
+        {
+          "id": "mountain-2", "grade": "lore",
+          "text": "What stands in its place is the family's tree. It begins with [Mateša Blažević](person:matesa-blazevic), born in 1750, and comes down through [Grgica](person:grgica-blazevic), born in 1770, to [Ilija](person:ilija-blazevic), born in 1790 at Smokvica Krmpotska. It gives Ilija four sons, Luka, Josip, Ilija and [Anton](person:anton-blazevic-5), and Anton two, Toma and Mate. It names no wife for any of these men, and gives Anton no year at all. Where it cites anything, it cites other people's trees: another family's genealogy and the Geni world tree. This book tells these four men as the tree tells them, and no more.",
+          "evidence": [{ "href": "/lines/#blazevic-smokvica", "why": "The Smokvica lane: «the family tree only, no record of his own read here»" }]
+        },
+        {
+          "id": "mountain-3", "register": "world", "worldSource": "archive",
+          "text": "Smokvica Krmpotska is not an old village. In 1605 about fifty families from the Krmpote district near Zemunik, behind Zadar, were settled at Lič near Fužine, and further waves down to 1647 planted the hinterland of Senj: Ledenice, Krmpote, Krivi Put, the Senjska draga. They were Bunjevci, Catholics who had left their homeland under Ottoman pressure, and they brought the name of the district they had left with them. Smokvica Krmpotska means Smokvica of the Krmpote people. It was frontier policy: the settlers got land and grazing, and the Habsburg Military Frontier got an armed and loyal population on the empty ground behind Senj.",
+          "evidence": [{ "kind": "archive", "href": "/bunjevci/", "why": "The Bunjevci: the planting of the Senj mountain, 1605–1647" }]
+        },
+        {
+          "id": "mountain-4", "grade": "inf",
+          "text": "No record in this archive calls a Blažević a Bunjevac, and the archive says so. What the papers give is birth in villages the Bunjevci founded and peopled, under a surname common in them. That is a strong inference, and it is offered as one.",
+          "evidence": [{ "href": "/bunjevci/", "why": "The Bunjevci: «asserted here by place, not by document»" }]
+        },
+        {
+          "id": "mountain-5", "register": "world", "worldSource": "archive",
+          "text": "In the registers of these villages a family is its house number. The priests of Krmpote and Krivi Put wrote a number against every child, and a settled household could keep the same one for a century. In 1835 Krivi Put, another of these settlements, was the seat of a captain's post, with ninety-eight houses and 1,246 people. That is the scale of the world this family was born into.",
+          "evidence": [{ "kind": "archive", "href": "/bunjevci/", "why": "The Bunjevci: house numbers, and Krivi Put in 1835" }]
+        },
+        {
+          "id": "mountain-6", "register": "world", "worldSource": "history",
+          "text": "The ground behind the Vinodol coast is karst, bare limestone with little soil. In the hill villages of this country a living was usually made from sheep and goats and from small fields in the hollows, cleared of stone and walled with what came out of them; maize, potatoes, beans and cabbage were the common food, and a house was built of the stone it stood on. No paper says what was grown at Smokvica, what was eaten there, or what the house looked like.",
+          "evidence": [{ "kind": "history", "href": "#world-H1", "why": "General history of the karst villages of the Croatian Littoral" }],
+          "tbc": "General ethnography of the region, not a document about this village; listed under H1 for checking."
+        },
+        {
+          "id": "mountain-7", "grade": "doc",
+          "text": "Blažević is not a rare name. It is the seventeenth commonest surname in Croatia, and most of its bearers live far from here. Of the two hundred and twenty-eight people of the name this archive publishes from the family's tree, fifty-nine are joined to this line; the rest are kept apart, in lanes of their own, until a document joins them. A shared surname is not a shared descent.",
+          "evidence": [{ "href": "/lines/#blazevic", "why": "The lines of a name: 228 published, 59 joined to the line" }]
+        }
+      ],
+      "tree": {
+        "glyph": "hill",
+        "note": "Every outline here is dotted: these four generations come from the family's tree, with no register read for any of them. Grgica's father, Mateša, born 1750, is the earliest name on the line.",
+        "thread": "anton",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "grgica", "name": "Grgica Blažević", "years": "b. 1770, son of Mateša", "grade": "lore", "person": "grgica-blazevic" }] },
+          { "kind": "couple", "nodes": [{ "id": "ilija", "name": "Ilija Blažević", "years": "b. 1790, Smokvica Krmpotska", "grade": "lore", "person": "ilija-blazevic" }] },
+          { "kind": "children", "nodes": [
+            { "id": "luka", "name": "Luka", "years": "b. 1812", "grade": "lore", "person": "luka-blazevic" },
+            { "id": "josip", "name": "Josip", "years": "1818–1910", "grade": "lore", "person": "josip-blazevic" },
+            { "id": "ilija-mile", "name": "Ilija", "years": "1828–1922", "grade": "lore", "person": "ilija-mile-blazevic" },
+            { "id": "anton", "name": "Anton", "years": "no year", "grade": "lore", "person": "anton-blazevic-5" }
+          ] },
+          { "kind": "grandchildren", "nodes": [
+            { "id": "toma-g", "name": "Toma", "years": "b. 1838", "grade": "lore", "person": "toma-tomislav-blazevic" },
+            { "id": "mate", "name": "Mate", "years": "no year", "grade": "lore", "person": "mate-blazevic-2" }
+          ] }
+        ]
+      },
+      "quote": {
+        "label": "1907 · Senj", "title": "A parish, not a village",
+        "text": "«sv. Jakov Krmpote»",
+        "source": "Senj deaths 1907, page 225, entry 60: the birthplace column for Toma Blažević",
+        "hardLimit": "It names the parish that should hold the five generations above Toma. Nobody has yet read that parish's book."
+      },
+      "papers": [
+        { "title": "The Smokvica lane", "href": "/lines/#blazevic-smokvica" },
+        { "title": "The Bunjevci", "href": "/bunjevci/" },
+        { "title": "The Blažević page", "href": "/blazevic/" },
+        { "title": "Ilija Blažević", "href": "person:ilija-blazevic" },
+        { "title": "How far back", "href": "/how-far-back/" },
+        { "title": "The Spine, generations five to eight", "href": "/direct-line/" }
+      ]
+    },
+    {
+      "id": "house114", "numeral": "II", "title": "House 114", "place": "Smokvica Krmpotska · Senj", "years": "1838–1907",
+      "paragraphs": [
+        {
+          "id": "house114-1", "grade": "doc",
+          "text": "In the summer of 1882 the priest of Krmpote baptised a boy called Ivan, born the day before. He wrote the parents as Toma Blažević and Terezija, born Pećanić, *seljaci*, peasants, and under residence a village and a number: *Smokvica kbroj 114*. The godfather was a Pere Pećanić, of the mother's own name. Two years later the same book entered a daughter, Tonka, to the same couple at the same number.",
+          "evidence": [{ "href": "/bunjevci/", "why": "The Bunjevci: the zadruga at Smokvica 114, the baptisms of 1882 and 1884" }]
+        },
+        {
+          "id": "house114-2", "grade": "lore",
+          "text": "By the family's tree [Toma](person:toma-tomislav-blazevic) had been born at that number himself, on 27 January 1838. The tree marries him to [Tereza Pećanić](person:tereza-pecanic) on 21 November 1858 and gives them a son, Anton, in 1860, then Marija in 1880, Ivan, Tonka, and the son this book follows, Juraj, with no year.",
+          "evidence": [{ "href": "person:toma-tomislav-blazevic", "why": "Toma's page: the tree's dates and children" }]
+        },
+        {
+          "id": "house114-3", "grade": "inf",
+          "text": "The number was not one family. In 1890 the same book put Pavao Blažević and his wife at Smokvica 114 as well, and this Pavao was the son of Luka, not of Toma; by the tree, Luka and Toma's father Anton were both sons of Ilija, so Pavao and Toma were first cousins. Over thirteen years the archive has found three couples at the one number. It first read the number as a household, and corrected itself: it marks a kin-group, the descendants of Ilija, and cannot by itself say which man in it was whose father.",
+          "evidence": [{ "href": "/bunjevci/", "why": "The Bunjevci: «What it cost this archive»" }]
+        },
+        {
+          "id": "house114-4", "register": "world", "worldSource": "archive",
+          "text": "A house like this was a *zadruga*, the South Slav extended household, in which married brothers and cousins lived under one roof and one number and held the land in common. It was the ordinary form of tenure in the Military Frontier, where a household, not a man, owed the regiment its service, and it lasted in these settlements long after the Frontier itself was abolished in 1881.",
+          "evidence": [{ "kind": "archive", "href": "/bunjevci/", "why": "The Bunjevci: how these households actually worked" }]
+        },
+        {
+          "id": "house114-5", "grade": "doc",
+          "text": "Toma did not die on the mountain. On 26 July 1907 the town of Senj entered him in its death book: *Blažević Toma, nadničar*, a day labourer, *udovac iza pok. Tereze*, widower of the late Tereza, born in the parish of sv. Jakov Krmpote, sixty-nine years old. Sixty-nine in July 1907 agrees with the tree's birth in January 1838. He died of tuberculosis, with the sacraments, and was buried two days later in the cemetery of sv. Vid.",
+          "evidence": [{ "href": "/snapshots/#senj-death-1907-toma-blazevic", "why": "Senj deaths 1907, page 225, entry 60, the page itself" }]
+        },
+        {
+          "id": "house114-6", "grade": "doc",
+          "text": "He was not alone on that page. A few rows above him a tobacco-factory worker of thirty had died of the same disease a few days before, and a coachman of twenty-four was entered as *ustrieljen*, shot, without the sacraments. It is one week of one small town, on one sheet.",
+          "evidence": [{ "href": "/blazevic/", "why": "The Blažević page: «He is not alone on that page»" }]
+        },
+        {
+          "id": "house114-7", "grade": "inf",
+          "text": "No paper says when Toma came down to Senj, or why. In 1884 he was a peasant at house 114; in 1907 he was a day labourer in the town. Between those two lines lies the move off the mountain that the archive calls the hinge of the whole line, and Toma made it himself, some time after 1884, when he was already past forty-five.",
+          "evidence": [{ "href": "/blazevic/", "why": "The Blažević page: «The hinge is one man coming off the mountain»" }]
+        },
+        {
+          "id": "house114-8", "register": "world", "worldSource": "archive",
+          "text": "The town he came down to was old and failing. Senj sits under the Velebit at the head of the Senjska draga, where the bura comes off the mountain hard enough to stop traffic. For centuries it had been the port where the roads from the Lika met the sea: timber, wool and livestock came down and went out through it. Then in 1873 the railway from Karlovac to Rijeka opened, and did not come to Senj. The traffic followed the rails, and the port's trade never recovered.",
+          "evidence": [{ "kind": "archive", "href": "/senj/", "why": "Senj: the town the railway went around" }]
+        },
+        {
+          "id": "house114-9", "register": "world", "worldSource": "archive",
+          "text": "Senj was a town of incomers. On one page of its baptisms in 1885, four of the eight mothers were entered not by a trade but by the parish they had come from, one of them from Krivi Put.",
+          "evidence": [{ "kind": "archive", "href": "/senj/", "why": "Senj: «a town of incomers, and the register says where from»" }]
+        },
+        {
+          "id": "house114-10", "grade": "doc",
+          "text": "When Tonka married at Senj in December 1912, the priest wrote her parents out in plain Croatian: *††Toma i [Tereza Blažević](person:tereza-pecanic), poljodjelci iz sela Smokvica kbr. 114*. Toma and his wife Tereza, both dead, farmers from the village of Smokvica, house 114. Her husband, Ginro Babić, was a supervisor in the tobacco factory at Rijeka, and she went there with him.",
+          "evidence": [{ "href": "/open-questions/", "why": "Open questions 1b and 8: the 1912 marriage" }]
+        },
+        {
+          "id": "house114-11", "grade": "inf",
+          "text": "Of Tereza the papers give a name, a maiden name and a husband who outlived her. The tree says she died before 1850, which cannot be: the registers show her bearing children in 1882 and 1884. The death book of 1907 is the only bound anyone has, and it says she was dead by that July. Her own death entry has not been found.",
+          "evidence": [{ "href": "/blazevic/", "why": "The Blažević page: «Terezija Pećanić, and the pok. Tereza of 1907»" }]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "The thread to the next chapter is dashed: no paper names Juraj's father. The godparents of 1895 point to Toma, and the archive reads him as Toma's son.",
+        "thread": "juraj",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "anton-up", "name": "Anton Blažević", "years": "his father, by the tree", "grade": "lore", "person": "anton-blazevic-5" }] },
+          { "kind": "couple", "nodes": [
+            { "id": "toma", "name": "Toma Blažević", "years": "1838–1907, day labourer", "grade": "doc", "person": "toma-tomislav-blazevic" },
+            { "id": "tereza-p", "name": "Tereza Pećanić", "years": "† by 1907", "grade": "doc", "person": "tereza-pecanic" }
+          ] },
+          { "kind": "children", "nodes": [
+            { "id": "anton-c", "name": "Anton", "years": "1860–1907", "grade": "lore", "person": "anton-blazevic" },
+            { "id": "marija", "name": "Marija", "years": "b. 1880", "grade": "lore", "person": "marija-blazevic-2" },
+            { "id": "ivan-c", "name": "Ivan", "years": "1882–1942", "grade": "doc", "person": "ivan-blazevic" },
+            { "id": "tonka", "name": "Tonka", "years": "1884–1969", "grade": "doc", "person": "antonija-blazevic-2" },
+            { "id": "juraj", "name": "Juraj «Jurko»", "years": "† before 1920", "grade": "inf", "person": "juraj-georgius-jure-blazevic" }
+          ] }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1907 · Senj", "title": "A day labourer, a widower",
+          "text": "«Blažević Toma, nadničar · Udovac iza pok. Tereze · sv. Jakov Krmpote · Senj · 69 god.»",
+          "source": "Senj deaths 1907, page 225, entry 60",
+          "hardLimit": "It names his late wife without her surname, and it does not name one of his children."
+        }
+      ],
+      "papers": [
+        { "title": "Toma's death, 1907", "href": "/snapshots/#senj-death-1907-toma-blazevic" },
+        { "title": "The zadruga at Smokvica 114", "href": "/bunjevci/" },
+        { "title": "Toma Blažević", "href": "person:toma-tomislav-blazevic" },
+        { "title": "Tereza Pećanić", "href": "person:tereza-pecanic" },
+        { "title": "Senj, the town the railway went around", "href": "/senj/" },
+        { "title": "What they did", "href": "/work/" }
+      ]
+    },
+    {
+      "id": "jurko", "numeral": "III", "title": "Jurko, a peasant of Smokvica", "place": "Smokvica Krmpotska · Rijeka · Otočac", "years": "1867–1931",
+      "paragraphs": [
+        {
+          "id": "jurko-1", "grade": "doc",
+          "text": "In April 1895 the priest of Krmpote baptised a boy, Marijan, four days old. He wrote the parents as *Jurko Blažević i Tereza rođ. Žubrinić*, and against them one shortened word, *selj.*, peasants. They lived at Smokvica, house 114. The godparents were two more Blaževići: Ive, entered as *sin Tomin*, son of Toma, and Marija, entered as *ćer Tomina*, daughter of Toma.",
+          "evidence": [{ "href": "/open-questions/", "why": "Open question 1b: the baptism of 1895, Krmpote register page 168, entry 26" }]
+        },
+        {
+          "id": "jurko-2", "grade": "inf",
+          "text": "It is the first paper that gives [Juraj](person:juraj-georgius-jure-blazevic) a trade, and the first that writes his name the way his neighbours must have said it. Two more registers name him, both after he had gone. Anka's marriage at Senj in November 1919 and Ljubomir's in December 1920 give the same parents, Juraj Blažević and Tereza, born Žubrinić, and in 1920 the priest wrote *mrt.*, dead, against them. Tereza lived until 1931, so the word is most likely his alone: Juraj was dead before December 1920. No paper gives his birth, his death, or where either happened.",
+          "evidence": [{ "href": "/marriage-1920/", "why": "The Wedding of 1920: «Juraj was already dead»" }]
+        },
+        {
+          "id": "jurko-3", "grade": "inf",
+          "text": "Whose son Juraj was, no paper says. The family's tree makes him Toma's. The archive weighs two things. The house number puts him among Ilija's descendants and cannot single out his father. The godparents do more: Toma had a son Ivan, born in 1882, and by the tree a daughter Marija, born in 1880, and godparents were chosen; a man's own brother and sister were the usual choice. The archive reads Juraj as Toma's son, and says that it is reading.",
+          "evidence": [{ "href": "/open-questions/", "why": "Open question 1b: «the godparents close the circle»" }]
+        },
+        {
+          "id": "jurko-4", "grade": "inf",
+          "text": "The children came in three places in six years, and they mark the household's road. [Ljubomir](person:ljubomir-blazevic) was born at Rijeka on 1 March 1892, by his own marriage entry. [Anka](person:anka-blazevic) followed in 1893, and her marriage entry, as the archive reads it, gives Otočac, Tereza's town. [Marijan](person:marijan-blazevic) was born at Smokvica in 1895, and Ruža, by the tree, in December 1897, at Otočac or Smokvica; the tree writes both. Rijeka, then the mother's town, then the father's village.",
+          "evidence": [{ "href": "/direct-line/", "why": "The Spine: «the mother's town and the father's village»" }],
+          "tbc": "Anka's place in the 1919 entry is read with a query on the archive's snapshot of the page."
+        },
+        {
+          "id": "jurko-5", "grade": "doc",
+          "text": "Ljubomir's own baptism cannot yet be read. Rijeka's parish books are filmed from 1590, but its birth register for 1892 to 1899 is missing from the film and from its index, and his entry falls in the gap twice over. A letter asking Rijeka for it has been drafted.",
+          "evidence": [{ "href": "/open-questions/", "why": "Open question 13: the Rijeka entry cannot be reached" }]
+        },
+        {
+          "id": "jurko-6", "register": "world", "worldSource": "history",
+          "text": "In those years Rijeka, Fiume to its Italian and Hungarian speakers, was the Hungarian crown's port on the Adriatic, governed apart from the rest of Croatia. Since 1873 it had been the port with the railway, the one Senj had lost its trade to.",
+          "evidence": [
+            { "kind": "history", "href": "#world-H3", "why": "General history: Fiume under the Hungarian crown" },
+            { "kind": "archive", "href": "/senj/", "why": "Senj: 1873, the railway goes to Rijeka" }
+          ],
+          "tbc": "Listed under H3 for checking."
+        },
+        {
+          "id": "jurko-7", "grade": "lore",
+          "text": "[Tereza Žubrinić](person:tereza-zubrinic-zubrinic) was born at Otočac on 29 November 1867, by the family's tree; the Otočac baptisms on film stop nine years short of her, so the entry has not been read. The tree gives her one word for a life, *domaćica*, housewife. It makes her the daughter of [Nicolaus Žubrinić](person:nicolaus-zubrinic-xubrinic), whose own baptism at Otočac in January 1834 the archive has read: the priest entered his father's condition as *Confiniarius*, a frontiersman, of the hamlet of Šumećica, house 24.",
+          "evidence": [{ "href": "/frontier/", "why": "The Frontier: the Otočac baptism of 1834" }]
+        },
+        {
+          "id": "jurko-8", "register": "world", "worldSource": "archive",
+          "text": "Otočac lies inland from Senj, across the Velebit in the Gacka valley: a Frontier captaincy since 1553 and, under Maria Theresa, the headquarters of a regiment. In the Military Frontier a man held his land from the Emperor on condition of hereditary service; he was a soldier who farmed, in a household that owed a man to the regiment. The Frontier was not abolished until 1881.",
+          "evidence": [{ "kind": "archive", "href": "/frontier/", "why": "The Frontier: what a Confiniarius was" }]
+        },
+        {
+          "id": "jurko-9", "grade": "inf",
+          "text": "The archive sets Tereza's people beside Juraj's. Žubrinići of the Otočac district held posts the state paid for: forest wardens, a master of the watch, the wife of a gaol-keeper, and at Senj in 1910 a controller of the town's excise. The Blaževići of Smokvica 114 were peasants, and then day labourers. Two of Hedviga's four families held office, the archive says, and two did not; they meet in Juraj's children.",
+          "evidence": [{ "href": "/frontier/", "why": "The Frontier: «six posts, four generations, one surname»" }]
+        },
+        {
+          "id": "jurko-10", "grade": "doc",
+          "text": "Tereza lived until 1931 and is buried at Senj. Her stone in the town cemetery reads BLAŽEVIĆ TEREZA, 1867 and 1931, under her married name, and at its foot, faint in the granite: OBNOVIO POP ANTE KOSINA, 1991. Restored by Father Ante Kosina, Anka's son, her grandson, sixty years after she died. The family also keeps a studio portrait it says is of her; the attribution is the family's, not a document's.",
+          "evidence": [{ "href": "/kosina/", "why": "The Kosina: «And then a Kosina went back and mended a grave»" }]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "The thread down from Toma is dashed: the godparents of 1895 point to him, and no paper names Juraj's father. Ruža's dotted outline is the family's tree alone.",
+        "thread": "ljubomir",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "toma-up", "name": "Toma Blažević", "years": "1838–1907", "grade": "inf", "person": "toma-tomislav-blazevic" }] },
+          { "kind": "couple", "nodes": [
+            { "id": "juraj-c", "name": "Juraj «Jurko» Blažević", "years": "peasant, 1895; † before 1920", "grade": "doc", "person": "juraj-georgius-jure-blazevic" },
+            { "id": "tereza-z", "name": "Tereza Žubrinić", "years": "1867–1931, of Otočac", "grade": "doc", "person": "tereza-zubrinic-zubrinic" }
+          ] },
+          { "kind": "children", "nodes": [
+            { "id": "ljubomir", "name": "Ljubomir", "years": "1892–1966, born at Rijeka", "grade": "doc", "person": "ljubomir-blazevic" },
+            { "id": "anka", "name": "Anka", "years": "1893–1953", "grade": "doc", "person": "anka-blazevic" },
+            { "id": "marijan", "name": "Marijan", "years": "b. 1895", "grade": "doc", "person": "marijan-blazevic" },
+            { "id": "ruza", "name": "Ruža", "years": "b. 1897", "grade": "lore", "person": "ruza-blazevic" }
+          ] }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1895 · Smokvica Krmpotska", "title": "The son and the daughter of a Toma",
+          "text": "«Jurko Blažević i Tereza rođ. Žubrinić, selj. · Smokvica kbr. 114»",
+          "source": "Krmpote (Sv. Jakov) baptisms, 1895, page 168, entry 26: Marijan",
+          "hardLimit": "The godparents are a son and a daughter of a Toma. The priest gave them a father's name and did not give Jurko one."
+        },
+        {
+          "label": "1920 · Senj", "title": "Named, and already dead",
+          "text": "«Juraj Blažević i Tereza r. Žubrinić · mrt.»",
+          "source": "Senj marriages, 8 December 1920, page 366, entry 41: the groom's parents",
+          "hardLimit": "It names him and says he is dead. It gives no date, no place and no father."
+        }
+      ],
+      "plates": ["tereza-portrait", "tereza-stone"],
+      "papers": [
+        { "title": "Question 1b: whose son Juraj was", "href": "/open-questions/" },
+        { "title": "The Wedding of 1920", "href": "/marriage-1920/" },
+        { "title": "Anka's marriage, 1919", "href": "/snapshots/#senj-marriage-1919-kosina-blazevic" },
+        { "title": "Juraj Blažević", "href": "person:juraj-georgius-jure-blazevic" },
+        { "title": "Tereza Žubrinić", "href": "person:tereza-zubrinic-zubrinic" },
+        { "title": "The Frontier", "href": "/frontier/" },
+        { "title": "Žubrinić", "href": "/zubrinic/" },
+        { "title": "Tereza's stone, and the Kosina", "href": "/kosina/" }
+      ]
+    },
+    {
+      "id": "sailor", "numeral": "IV", "title": "The sailor and the tobacco factory", "place": "Senj", "years": "1886–1971",
+      "paragraphs": [
+        {
+          "id": "sailor-1", "grade": "doc",
+          "text": "On 8 December 1920 Ljubomir Blažević married at Senj, in the cathedral. The priest entered him as *mornar*, a sailor, born at Rijeka on 1 March 1892, living at Senj, a bachelor. The bride was [Milka](person:milka-lucia-papic) Vukelić, a worker in the tobacco factory, born at Senj on 9 October 1886, and a widow. The banns had been read three times, and the bishop's office had granted a dispensation four days before. One witness was a barber whose surname runs into the column rule and cannot be read; the other, Vinko Tijan, was a clerk in the tobacco factory.",
+          "evidence": [{ "href": "/marriage-1920/", "why": "Senj marriages 1920, page 366, entry 41, read at full resolution" }]
+        },
+        {
+          "id": "sailor-2", "grade": "doc",
+          "text": "Milka was a daughter of the waterfront. When she was baptised in October 1886 her father, [Josip Papić](person:josip-anton-papic), was entered as a *trhonoša*, a man who carried other people's goods on his back for a fee, and so was her godfather. Her mother, [Tonka](person:antonija-tonka-perpic-prpic), was a Prpić of Krivi Put, up on the mountain. Josip's trade moves across the family's papers, porter, labourer and, by 1907, innkeeper: the porter, as the archive puts it, kept the money and bought a bar.",
+          "evidence": [{ "href": "/milka/", "why": "Milka: Senj baptisms 1886, page 122, entry 96, and her father's four trades" }]
+        },
+        {
+          "id": "sailor-3", "grade": "lore",
+          "text": "She had married first at twenty-one, in November 1907, [Zvonimir Vukelić](person:zvonimir-matei-vukelic), an innkeeper's assistant, and she was already a worker in the tobacco factory. The tree gives them two children, Miroslava, called Mica, born in 1907, and Josip, born in 1913. Zvonimir died in 1915, at thirty-two, and nothing in the archive says how. Milka was a widow at twenty-eight, with a girl of eight and a boy of two, and for five years no paper shows what she did.",
+          "evidence": [{ "href": "/milka/", "why": "Milka: the first marriage, Senj 1907, page 294, entry 30" }]
+        },
+        {
+          "id": "sailor-4", "register": "world", "worldSource": "archive",
+          "text": "Tobacco was a state monopoly. An imperial patent of 20 November 1850 extended it to Croatia, Slavonia and the Military Frontier, and state factories followed; Senj's was one of them. In a town whose port had died it was women's work, indoors, waged and steady. On ten pages of Senj marriages between 1909 and 1919 most of the brides are entered as tobacco-factory workers, and the register shows the whole ladder of the floor: worker, doorman, machinist, master, supervisor, senior clerk.",
+          "evidence": [
+            { "kind": "archive", "href": "/senj/", "why": "Senj: the tobacco factory" },
+            { "kind": "archive", "href": "/open-questions/", "why": "Open question 8: the factory, counted across ten pages" }
+          ]
+        },
+        {
+          "id": "sailor-5", "grade": "lore",
+          "text": "Milka was a worker in 1907 and still a worker in 1920, in the same words. The family's tree remembers her as a supervisor of workers at the cigarette factory, and gives its address, Ulica Stjepana Radića 4, now a textile factory. Her sister-in-law Anka worked the same floor. In a town where the men of these families are written down as day labourers, porters and sailors, the archive notes, the steady wage was hers.",
+          "evidence": [{ "href": "/milka/", "why": "Milka: the factory, over a lifetime" }]
+        },
+        {
+          "id": "sailor-6", "grade": "lore",
+          "text": "Of [Ljubomir](person:ljubomir-blazevic) the papers say less. He was a sailor in 1920, and the tree adds fisherman. No paper says on what boats he sailed, or where. The tree gives the couple seven children: Leo in 1920, Karmela, called Carmen, in 1922, [Oto](person:oto-blazevic) in 1923, Hedviga in 1926, Ljubomir in 1929, Mario in 1933, and Anton, for whom it has no year. Hedviga was the fourth.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: what the record gives, her brothers and sisters" }]
+        },
+        {
+          "id": "sailor-7", "register": "world", "worldSource": "history",
+          "text": "The state changed around them. In 1918 the coast passed into the new Kingdom of Serbs, Croats and Slovenes, called Yugoslavia from 1929. In April 1941 the country was invaded and divided, and Senj spent the next two years under Italian occupation. When Italy capitulated in September 1943, Senj, with its harbour and its road up to the Lika, became one of the most important Partisan ports on the coast.",
+          "evidence": [
+            { "kind": "history", "href": "#world-H4", "why": "General history of Yugoslavia, 1918–1941" },
+            { "kind": "archive", "href": "/senj-1943/", "why": "Senj, 1943: what happened" }
+          ],
+          "tbc": "The names and dates of the states are listed under H4 for checking."
+        },
+        {
+          "id": "sailor-8", "register": "world", "worldSource": "archive",
+          "text": "On 7 and 8 October 1943 German aircraft bombed the town and the harbour. Fifty-two people were killed, thirty of them people of the town; about half of Senj was destroyed to its foundations, and only about a quarter of its buildings could still be lived in.",
+          "evidence": [{ "kind": "archive", "href": "/senj-1943/", "why": "Senj, 1943: figures from the Croatian scholarly literature" }]
+        },
+        {
+          "id": "sailor-9", "grade": "doc",
+          "text": "The bombing reached the family. Anka's husband, [Pavao Kosina](person:pavao-kosina), was killed on the second day; his stone calls him an innocent victim of the air raid on Senj, and it was raised by his wife and his sons. Their daughter Neda had died a month before, and her stone too calls her the victim of an air attack; another daughter, Otilija, died that November. Hedviga was seventeen. Her brother Oto was about twenty.",
+          "evidence": [{ "href": "/senj-1943/", "why": "Senj, 1943: the Kosina stones" }]
+        },
+        {
+          "id": "sailor-10", "grade": "lore",
+          "text": "Oto did not come home from the war. The family keeps two accounts of how he died in 1945. One, set down in the tree in the name of Hedviga's husband, says a snake bit him. The other, from a niece, says he was killed in the war somewhere in Slavonia, that his grave is unknown, and that his name was put on the family grave instead, where Leo and Katica were later laid. The family stone at Senj carries OTO BLAŽEVIĆ, 1923 and 1945, and a later plaque below it carries Leo and Kata, as she said. That supports the witness. It does not settle the cause.",
+          "evidence": [{ "href": "/oto/", "why": "The Brother: two accounts, and the stone" }]
+        },
+        {
+          "id": "sailor-11", "register": "world", "worldSource": "archive",
+          "text": "In the last winter of the war the Syrmian Front ran across Syrmia and Slavonia, from October 1944 to April 1945. The Partisans lost more than 13,500 dead on it, many of them young men from newly liberated Croatia, and thousands were buried where they fell. An unknown grave was the ordinary end, not the strange one.",
+          "evidence": [{ "kind": "archive", "href": "/oto/", "why": "The Brother: what the second account fits" }]
+        },
+        {
+          "id": "sailor-12", "grade": "doc",
+          "text": "Ljubomir died at Senj in 1966, and Milka on 7 September 1971; her death was written into the margin of her own baptism. Their names are cut on the family stone at Senj: LJUBOMIR BLAŽEVIĆ, with the year 1891, and MILKA BLAŽEVIĆ, born Papić. The stone has Ljubomir's birth a year early. His marriage entry, written in his lifetime from his baptismal certificate, gives 1892, and the archive follows the register. The stone gives Milka her father's name, not the Vukelić name she married under in 1920.",
+          "evidence": [{ "href": "/grave/", "why": "The Grave: what is cut into the Blažević plot" }]
+        }
+      ],
+      "tree": {
+        "glyph": "wave",
+        "note": "Leo, Oto and Mario are on the family stone, so their outlines are solid; Karmela, the younger Ljubomir and Anton are the family's tree. Milka's two children by her first marriage, Mica and Josip Vukelić, Hedviga's half-sister and half-brother, are not drawn.",
+        "thread": "hedviga",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "juraj-up", "name": "Juraj Blažević", "years": "† before 1920", "grade": "doc", "person": "juraj-georgius-jure-blazevic" }] },
+          { "kind": "couple", "nodes": [
+            { "id": "ljubomir-c", "name": "Ljubomir Blažević", "years": "1892–1966, sailor", "grade": "doc", "person": "ljubomir-blazevic" },
+            { "id": "milka", "name": "Milka Papić", "years": "1886–1971, tobacco worker", "grade": "doc", "person": "milka-lucia-papic" }
+          ] },
+          { "kind": "children", "nodes": [
+            { "id": "leo", "name": "Leo", "years": "1920–2008", "grade": "doc", "person": "leo-blazevic" },
+            { "id": "karmela", "name": "Karmela «Carmen»", "years": "1922–1987", "grade": "lore", "person": "karmela-karmen-blazevic" },
+            { "id": "oto", "name": "Oto", "years": "1923–1945", "grade": "doc", "person": "oto-blazevic" },
+            { "id": "hedviga", "name": "Hedviga «Seka»", "years": "1926–2001", "grade": "doc", "person": "hedviga-blazevic" },
+            { "id": "ljubomir-y", "name": "Ljubomir", "years": "1929–2007", "grade": "lore", "person": "ljubomir-blazevic-2" },
+            { "id": "mario", "name": "Mario", "years": "1933–1984", "grade": "doc", "person": "mario-blazevic" },
+            { "id": "anton-y", "name": "Anton", "years": "no year", "grade": "lore", "person": "anton-blazevic-6" }
+          ] }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1920 · Senj", "title": "A sailor and a widow, in the cathedral",
+          "text": "«Ljubomir Blažević, mornar · Rijeka · 1892, 1/III · Milka Vukelić, radnica u tvornici duhana · udova»",
+          "source": "Senj marriages, 8 December 1920, page 366, entry 41",
+          "hardLimit": "It says she was a widow. The family's tree had never mentioned her first marriage."
+        },
+        {
+          "label": "1945 · Senj", "title": "A name on a stone",
+          "text": "«OTO BLAŽEVIĆ ✳ 1923 † 1945»",
+          "source": "The Blažević family stone, Senj",
+          "hardLimit": "A name on a stone is not a burial. It does not say where he died, or how."
+        }
+      ],
+      "plates": ["blazevic-stone"],
+      "papers": [
+        { "title": "The Wedding of 1920", "href": "/marriage-1920/" },
+        { "title": "Milka", "href": "/milka/" },
+        { "title": "Ljubomir Blažević", "href": "person:ljubomir-blazevic" },
+        { "title": "Senj and the factory", "href": "/senj/" },
+        { "title": "Senj, 1943", "href": "/senj-1943/" },
+        { "title": "The Brother", "href": "/oto/" },
+        { "title": "The Grave", "href": "/grave/" },
+        { "title": "Papić", "href": "/papic/" }
+      ]
+    },
+    {
+      "id": "highveld", "numeral": "V", "title": "From Senj to the Highveld", "place": "Senj · Crikvenica · Johannesburg", "years": "1926–2001",
+      "paragraphs": [
+        {
+          "id": "highveld-1", "grade": "doc",
+          "text": "The one state paper in this archive is a translation. Somebody took an extract from the register of births at Senj, made for the birth of one of Hedviga's sons, to a sworn translator for the Supreme Court of South Africa, and had it put into English. Under the mother it reads: Hedviga, née Blazevic, born 03.08.1926, Senj; citizenship FNRJ; nationality Croatian; profession housewife; resident Crikvenica. It is the only paper that confirms [her](person:hedviga-blazevic) birth from outside the family's tree.",
+          "evidence": [{ "href": "/certificate/", "why": "The Certificate: what it says" }]
+        },
+        {
+          "id": "highveld-2", "grade": "doc",
+          "text": "Beside her the same paper names the father, her husband, [Ivan Defranceski](person:ivan-anton-defranceski) of Crikvenica: an electro-mechanic, a Yugoslav citizen of Italian nationality, born at Crikvenica the summer before she was. Both were living at Crikvenica, his town, and the child was born in the hospital at Senj. He had spent part of the war, from the age of sixteen, as a labourer in a German power works; three index cards from Württemberg say so.",
+          "evidence": [{ "href": "/certificate/", "why": "The Certificate: the father's entry" }, { "href": "/arolsen/", "why": "The Arolsen cards" }]
+        },
+        {
+          "id": "highveld-3", "grade": "lore",
+          "text": "She was born into a town whose port had died half a century before, the fourth of seven children. Her mother supervised women rolling cigarettes; her father went to sea. She was fourteen in April 1941, when the war reached the coast and the Independent State of Croatia was declared; seventeen when half the town came down; and eighteen when the war ended and her brother did not come home.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: the shape of the life" }],
+          "tbc": "The ages are counted from her birth on 3 August 1926; the archive's Hedviga page gives fifteen and nineteen."
+        },
+        {
+          "id": "highveld-4", "grade": "lore",
+          "text": "The family remembers that Hedviga sang at the Hotel Therapia in Crikvenica, her husband's town. It is the only thing anyone has ever said about what she did; the tree records no occupation for her at all.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: family lore, recorded September 2026" }]
+        },
+        {
+          "id": "highveld-5", "register": "world", "worldSource": "archive",
+          "text": "The Therapia opened in 1895 as the Nadvojvoda Josip, the Archduke Joseph, with a hundred and twenty beds, and took its new name in 1899, when a hydropathic institute was set up inside it. With the Miramare of 1906 it turned Crikvenica into a health resort of Austria-Hungary. The building still stands and is still a hotel, renamed the Kvarner Palace after 2013, so the room she is remembered singing in can still be walked into.",
+          "evidence": [{ "kind": "archive", "href": "/hedviga/", "why": "Hedviga: «And the venue is checkable, which lore rarely is»" }]
+        },
+        {
+          "id": "highveld-6", "grade": "lore",
+          "text": "The family also remembers that they left in 1948. The papers do not allow it: the couple's children were born in Yugoslavia, at Crikvenica and at Senj, and the family was still there for years afterwards. The archive's guess is that the remembered year has attached itself to some other event, which is the commonest fault in a family's memory, and it says that this is a guess.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: «They went in 1948»" }]
+        },
+        {
+          "id": "highveld-7", "grade": "lore",
+          "text": "Then the papers stop for more than twenty years. The next line the archive holds about Hedviga is an arrival in South Africa in April 1975, from the family's tree, and against it two words: from Zimbabwe. A whole country is known only from those. No passenger list, permit, school enrolment or naturalisation file has yet been looked for. The translation of the Senj extract was made for an official application in South Africa, the archive reasons, but the translator's date cannot be read, so it does not say when the leaving began.",
+          "evidence": [{ "href": "/open-questions/", "why": "Open question 1f: twenty years and more, an emigration and a whole country" }]
+        },
+        {
+          "id": "highveld-8", "register": "world", "worldSource": "history",
+          "text": "In those years the country was not yet called Zimbabwe. It was Southern Rhodesia, then Rhodesia, and took the name Zimbabwe in 1980.",
+          "evidence": [{ "kind": "history", "href": "#world-H5", "why": "General history of Rhodesia and Zimbabwe" }],
+          "tbc": "Listed under H5 for checking."
+        },
+        {
+          "id": "highveld-9", "grade": "lore",
+          "text": "The tree gives her a second husband, [Santou Isaac Codron](person:santou-shemtov-isaac-codron), called Shemtov, born on Rhodes in 1913 and married to her about 1973, which puts the marriage in the Rhodesian years. He died in South Africa in 1997. How a man born into the Jewish community of Rhodes came to be alive in Africa after the war, the archive has not found. The tree names one more husband, Ladislav Carr, with no date and no place, and nothing else in the archive speaks of him.",
+          "evidence": [{ "href": "/rhodes/", "why": "Rhodes: everything held on him" }]
+        },
+        {
+          "id": "highveld-10", "register": "world", "worldSource": "archive",
+          "text": "Codron is a Rhodes Sephardic name. Jews from Rhodes had been going to southern Africa since the 1890s, to the Belgian Congo, Southern Rhodesia and South Africa, and Sephardim from Rhodes founded a synagogue at Salisbury, now Harare, in 1932. In July 1944 the community still on the island was deported to Auschwitz; roughly one in eleven survived.",
+          "evidence": [{ "kind": "archive", "href": "/rhodes/", "why": "Rhodes: what happened to the community he was born into" }]
+        },
+        {
+          "id": "highveld-11", "grade": "lore",
+          "text": "Whatever ended her marriage to Ivan, he went back and she did not. He died at Senj on 30 October 1995. She died at Johannesburg on 30 October 2001, six years later to the day, of a cancer the tree names plainly. Both dates come from the tree, not from certificates, and a shared date is exactly what memory tidies into place; the archive records the coincidence and claims nothing by it.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: «30 October»" }]
+        },
+        {
+          "id": "highveld-12", "grade": "inf",
+          "text": "The family's photographs, recovered from its online tree, hold one picture the archive takes to be almost certainly her: a woman in a bold floral print raising a glass, about the late 1960s.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: the pictures" }]
+        }
+      ],
+      "tree": {
+        "glyph": "ship",
+        "note": "Her children are drawn as living people are, by first name and with no dates; one has died, and the archive holds no date for his death.",
+        "thread": "ivan-anton",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "ljubomir-up", "name": "Ljubomir Blažević", "years": "1892–1966", "grade": "doc", "person": "ljubomir-blazevic" }] },
+          { "kind": "couple", "nodes": [
+            { "id": "hedviga-c", "name": "Hedviga Blažević", "years": "1926–2001", "grade": "doc", "person": "hedviga-blazevic" },
+            { "id": "ivan-d", "name": "Ivan Defranceski", "years": "1925–1995, of Crikvenica", "grade": "doc", "person": "ivan-anton-defranceski" }
+          ] },
+          { "kind": "children", "nodes": [
+            { "id": "ada", "name": "Ada", "living": true },
+            { "id": "ivan-anton", "name": "Ivan Anton", "living": true },
+            { "id": "robert", "name": "Robert «Robbie»", "years": "†", "grade": "lore", "person": "robert-defranceski" }
+          ] }
+        ]
+      },
+      "quote": {
+        "label": "Senj · in English", "title": "The one state paper",
+        "text": "«Hedviga, née Blazevic — born 03.08.1926, Senj; citizenship FNRJ; nationality Croatian; profession housewife; resident Crikvenica»",
+        "source": "Extract from the register of births, Senj, in a sworn English translation for the Supreme Court of South Africa",
+        "hardLimit": "The translator's date cannot be read, so it does not say when the family began to leave."
+      },
+      "plates": ["hedviga-portrait"],
+      "papers": [
+        { "title": "Hedviga", "href": "/hedviga/" },
+        { "title": "The Certificate", "href": "/certificate/" },
+        { "title": "The Arolsen cards", "href": "/arolsen/" },
+        { "title": "Rhodes", "href": "/rhodes/" },
+        { "title": "Question 1f: the twenty years", "href": "/open-questions/" },
+        { "title": "Hedviga Blažević", "href": "person:hedviga-blazevic" }
+      ]
+    },
+    {
+      "id": "us", "numeral": "VI", "title": "And then it is us", "place": "Croatia · South Africa · Australia", "years": "",
+      "paragraphs": [
+        {
+          "id": "us-1", "grade": "doc",
+          "text": "Hedviga's children were three: Ladislava, called Ada, whom this archive places at Crikvenica; Ivan Anton, whom it places at Senj; and Robert, called Robbie, who has died. The family confirmed his death to the archive, and no date for it is recorded.",
+          "evidence": [{ "href": "/hedviga/", "why": "Hedviga: her children, by name and town" }]
+        },
+        {
+          "id": "us-2", "grade": "doc",
+          "text": "Ivan Anton married Cheryl Lerena, whom the archive places at Johannesburg, in South Africa. Their son is David, who keeps this archive; its own entry places him at Johannesburg too. David's two sons, A. and M., carry the name on, and the archive places one of them at Brisbane, in Australia. All of them are living, and by this archive's rule the living are named with their relationships and their towns and nothing more; the two youngest, by their initials only.",
+          "evidence": [{ "href": "/about/", "why": "About: the rule for the living" }]
+        },
+        {
+          "id": "us-3", "grade": "doc",
+          "text": "So the line runs from a house number on a mountain planted on purpose to a port the railway went around, and from there south: Smokvica Krmpotska, Rijeka, Otočac, Senj, Crikvenica, Johannesburg, Brisbane. Papers in Latin, Croatian and English. A name written Blažević and Blazevic. And then it is us.",
+          "evidence": [{ "href": "/direct-line/", "why": "The Spine, the whole line" }]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Living people are drawn as filled nodes, by first name, with no dates; David's two sons by their initials only.",
+        "thread": "david",
+        "rows": [
+          { "kind": "above", "nodes": [{ "id": "hedviga-up", "name": "Hedviga Blažević", "years": "1926–2001", "grade": "doc", "person": "hedviga-blazevic" }] },
+          { "kind": "couple", "nodes": [
+            { "id": "ivan-anton-u", "name": "Ivan Anton", "living": true },
+            { "id": "cheryl", "name": "Cheryl", "living": true }
+          ] },
+          { "kind": "children", "nodes": [{ "id": "david", "name": "David", "living": true }] },
+          { "kind": "grandchildren", "nodes": [
+            { "id": "a", "name": "A.", "living": true, "minor": true },
+            { "id": "m", "name": "M.", "living": true, "minor": true }
+          ] }
+        ]
+      },
+      "papers": [
+        { "title": "The Spine", "href": "/direct-line/" },
+        { "title": "Hedviga", "href": "/hedviga/" },
+        { "title": "About: the living", "href": "/about/" }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "coast", "title": "Off the mountain", "chapter": "jurko",
+      "extent": { "west": 14.25, "east": 15.45, "south": 44.74, "north": 45.42, "projection": "equirectangular" },
+      "places": [
+        { "id": "smokvica", "name": "Smokvica Krmpotska", "lat": 45.087, "lon": 14.853, "chapter": "house114", "dx": 8, "dy": -9, "note": "house 114, 1882–1895" },
+        { "id": "senj", "name": "Senj", "lat": 44.989, "lon": 14.906, "chapter": "house114", "dx": -8, "dy": 14, "anchor": "end", "note": "Toma dies there, 1907" },
+        { "id": "rijeka", "name": "Rijeka", "lat": 45.327, "lon": 14.442, "chapter": "jurko", "dx": 8, "dy": -8, "note": "Ljubomir born, 1892" },
+        { "id": "otocac", "name": "Otočac", "lat": 44.869, "lon": 15.236, "chapter": "jurko", "dx": -8, "dy": 14, "anchor": "end", "note": "Tereza's town; Anka, 1893" },
+        { "id": "krivi-put", "name": "Krivi Put", "lat": 45.032, "lon": 14.964, "chapter": "sailor", "dx": 8, "dy": 4, "note": "Milka's mother, a Prpić" },
+        { "id": "crikvenica", "name": "Crikvenica", "lat": 45.174, "lon": 14.693, "chapter": "highveld", "dx": -8, "dy": -8, "anchor": "end", "note": "Hedviga and Ivan, resident" }
+      ],
+      "legs": [
+        { "from": "smokvica", "to": "senj", "grade": "doc", "chapter": "house114", "years": "1884 → 1907", "evidence": "/snapshots/#senj-death-1907-toma-blazevic", "bend": 0.25 },
+        { "from": "smokvica", "to": "rijeka", "grade": "inf", "chapter": "jurko", "years": "by 1892", "evidence": "/marriage-1920/", "bend": 0.2, "labelOffset": [-30, 14] },
+        { "from": "rijeka", "to": "otocac", "grade": "inf", "chapter": "jurko", "years": "1892 → 1893", "evidence": "/direct-line/", "bend": -0.32 },
+        { "from": "otocac", "to": "smokvica", "grade": "inf", "chapter": "jurko", "years": "1893 → 1895", "evidence": "/open-questions/", "bend": -0.1 },
+        { "from": "krivi-put", "to": "senj", "grade": "doc", "chapter": "sailor", "years": "1859 → 1885", "evidence": "/senj/", "bend": -0.3, "labelOffset": [22, 10] },
+        { "from": "senj", "to": "crikvenica", "grade": "doc", "chapter": "highveld", "evidence": "/certificate/", "bend": -0.2 }
+      ],
+      "regions": [
+        { "label": "VELEBIT", "lat": 44.86, "lon": 15.02, "radius": 0 },
+        { "label": "KVARNER", "lat": 45.1, "lon": 14.47, "radius": 0 }
+      ]
+    },
+    {
+      "id": "world", "title": "Out into the world", "chapter": "highveld",
+      "extent": { "west": -20, "east": 160, "south": -42, "north": 56, "projection": "equirectangular" },
+      "places": [
+        { "id": "senj", "name": "Senj", "lat": 44.989, "lon": 14.906, "chapter": "house114", "dx": 6, "dy": -6 },
+        { "id": "zimbabwe", "name": "Zimbabwe (then Rhodesia)", "lat": -19.0, "lon": 29.8, "chapter": "highveld", "country": true, "dx": 10, "dy": -8 },
+        { "id": "johannesburg", "name": "Johannesburg", "lat": -26.205, "lon": 28.05, "chapter": "highveld", "dx": 9, "dy": 6 },
+        { "id": "south-africa", "name": "South Africa", "lat": -28.817, "lon": 24.992, "chapter": "us", "country": true, "living": true, "dx": -8, "dy": 14, "anchor": "end" },
+        { "id": "australia", "name": "Australia", "lat": -25.3, "lon": 134.0, "chapter": "us", "country": true, "living": true, "dx": 0, "dy": 18, "anchor": "middle" }
+      ],
+      "legs": [
+        { "from": "senj", "to": "zimbabwe", "grade": "lore", "chapter": "highveld", "routeKnown": false, "evidence": "/open-questions/" },
+        { "from": "zimbabwe", "to": "johannesburg", "grade": "lore", "chapter": "highveld", "years": "1975", "evidence": "/hedviga/", "bend": 0.3, "labelOffset": [-36, 4] },
+        { "from": "south-africa", "to": "australia", "grade": "inf", "chapter": "us", "living": true, "routeKnown": false, "evidence": "/about/" }
+      ]
+    }
+  ],
+  "closing": {
+    "after": {
+      "title": "And the families beside the line",
+      "text": "Around this line sit families the archive follows as well: the [Kosina](/kosina/) household that Anka married into, from a Carniolan cottage to an autumn in Senj; the Žubrinići who went to [Port Pirie](/port-pirie/) in South Australia about 1884, joined to this line so far by nothing but a rare name and a small district; and the Blaževići of Mrzli Dol and of Senj itself, whom no document joins to Smokvica 114. They are here because the names are shared, and the archive keeps them apart until a paper joins them.",
+      "links": [
+        { "title": "The Lines of a Name", "href": "/lines/" },
+        { "title": "The Kosina", "href": "/kosina/" },
+        { "title": "Port Pirie", "href": "/port-pirie/" }
+      ]
+    },
+    "unknown": {
+      "title": "What we do not know",
+      "lead": "Every chapter has its silences. These are the ones a letter, an afternoon in a reading room or a request by name could break.",
+      "items": [
+        { "text": "**The parish book nobody has opened.** The register of sv. Jakov Krmpote should hold Juraj's baptism and the five generations above Toma that now rest on the family's tree alone.", "href": "/blazevic/" },
+        { "text": "**Whose son Juraj was.** His own baptism, his marriage to Tereza before 1892, or the marriages of Marijan and Ruža, each of which would name his parents again.", "href": "/open-questions/" },
+        { "text": "**Ljubomir's baptism at Rijeka.** The 1892 entry is not on the film; a letter to Rijeka asking for it is drafted and waiting.", "href": "/open-questions/" },
+        { "text": "**When Tereza Pećanić died.** Her death entry should be in the same Senj register that gave Toma's.", "href": "/blazevic/" },
+        { "text": "**How Oto died.** The register of war victims and the Croatian State Archives, searched for Oto Blažević of Senj, would end the question either way.", "href": "/oto/" },
+        { "text": "**What the Senj death register of 1943 says** of Pavao, Neda and Otilija Kosina: cause and place for all three.", "href": "/senj-1943/" },
+        { "text": "**The twenty years between Senj and Johannesburg.** Rhodesian immigration files at Harare, South African residence papers, and the translator's date on the certificate.", "href": "/open-questions/" },
+        { "text": "**The two deaths of 30 October.** Certificates from Senj and from Johannesburg.", "href": "/open-questions/" }
+      ]
+    },
+    "papers": {
+      "title": "Read the papers",
+      "lead": "This book is the front door. The evidence is behind it.",
+      "links": [
+        { "title": "The Spine", "href": "/direct-line/", "why": "the eight generations, a row each, with the joint that cannot yet bear weight marked" },
+        { "title": "The Lines of a Name", "href": "/lines/#blazevic-smokvica", "why": "the Smokvica lane, node by node, and the Blaževići who are not ours" },
+        { "title": "The Bunjevci", "href": "/bunjevci/", "why": "why these villages exist at all, and the zadruga at house 114" },
+        { "title": "The Frontier", "href": "/frontier/", "why": "Tereza Žubrinić's people at Otočac" },
+        { "title": "Senj", "href": "/senj/", "why": "the town the railway went around, and the tobacco factory" },
+        { "title": "The Wedding of 1920", "href": "/marriage-1920/", "why": "the page that names Juraj and Tereza" },
+        { "title": "Milka", "href": "/milka/", "why": "the best-documented person in the archive" },
+        { "title": "Senj, 1943", "href": "/senj-1943/", "why": "the bombing, and Anka's household" },
+        { "title": "The Brother", "href": "/oto/", "why": "Oto, and the two accounts" },
+        { "title": "Hedviga", "href": "/hedviga/", "why": "her life, and what is remembered of it" },
+        { "title": "The Certificate", "href": "/certificate/", "why": "the one state paper" },
+        { "title": "The Pages Themselves", "href": "/snapshots/", "why": "the register pages this archive has read" },
+        { "title": "Open Questions", "href": "/open-questions/", "why": "what would settle each doubt" }
+      ]
+    },
+    "notes": {
+      "title": "Where the world comes from",
+      "lead": "Passages marked history draw on general history rather than on this archive's own pages; these are the claims, for checking.",
+      "items": [
+        { "key": "H1", "claim": "The hill villages of the karst behind the Vinodol coast and Senj lived from sheep and goats and small stone-walled fields in the hollows; maize, potatoes, beans and cabbage were common food; houses were built of local stone.", "source": "Standard regional geography and ethnography of the Croatian Littoral and Lika (e.g. Hrvatska enciklopedija, «Krš»; «Hrvatsko primorje»)." },
+        { "key": "H3", "claim": "In 1892 Rijeka (Fiume) was governed under the Hungarian crown apart from the rest of Croatia (the corpus separatum, 1868–1918).", "source": "Standard Austro-Hungarian administrative history (e.g. Hrvatska enciklopedija, «Rijeka»)." },
+        { "key": "H4", "claim": "In 1918 the coast passed into the Kingdom of Serbs, Croats and Slovenes, called Yugoslavia from 1929; in April 1941 the country was invaded and partitioned.", "source": "Standard history of Yugoslavia." },
+        { "key": "H5", "claim": "The country Hedviga came from in 1975 was Southern Rhodesia, then Rhodesia; it took the name Zimbabwe in 1980.", "source": "Standard history of Zimbabwe." }
+      ]
+    },
+    "mapNote": "The maps: coastlines and borders from Natural Earth (public domain, naturalearthdata.com), simplified and clipped for this page. Town dots stand at this archive's own gazetteer coordinates (data/era-towns.tsv) and only where a paper puts the family. The three country markers are placed by hand at the middle of the country and name no town: Zimbabwe, the only place the family's tree gives for Hedviga's years before 1975, and South Africa and Australia for the living, with no dates. A solid leg has a document at each end; a dashed leg is inferred; a dotted leg is the family's tree or memory; a route nobody has recorded is listed under the map and not drawn."
+  },
+  "conflicts": [
+    {"chapter": "house114", "note": "The archive's own pages differ about the neighbour above Toma on the 1907 page: the Blažević page has the tobacco-factory worker two entries above him and three days earlier; the register list has her as entry 59, the row above, «five days before», with a date three days before. This book says only a few rows above and a few days before."},
+    {"chapter": "highveld", "note": "The archive's Hedviga page says in one place that her first two children were born in Yugoslavia, and in another that her second and third were born at Senj; the certificate page has the first at Crikvenica and the two boys at Senj. This book says only that the children were born at Crikvenica and Senj."},
+    {"chapter": "highveld", "note": "The archive's Hedviga page makes her fifteen when the Independent State of Croatia was declared and nineteen when the war ended; counted from her birth on 3 August 1926 she was fourteen in April 1941 and eighteen in May 1945. This book counts from the birth."}
+  ]
+}

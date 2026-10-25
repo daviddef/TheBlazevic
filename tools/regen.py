@@ -71,6 +71,8 @@ HAND_KEPT = {
     "photograph-these.json": "what to photograph next time somebody is at a grave",
     "recent.json":           "what changed lately",
     "book.json":             "the book: where every page of the site sits in the story, the part titles and introductions and the one-line chapter blurbs. Written by hand and held to the built site by checkbook",
+    "story.json":            "the family story at /story/: the direct line told as a short book, in the kit's contract (kit/docs/story.md). Written by hand from "
+                             "the archive's own pages and held to the built site by check:story",
     "lines.json":            "the lines of a surname — which families of one name are kept in separate lanes until a document joins them. Conclusions somebody reached",
     "era-places.json":       "the place -> Record Atlas region table behind the «at the time» notes, built by tools/build_era.py from data/era-ground.tsv and "
                              "data/era-towns.tsv (a decision made place by place, not derived from the GEDCOM); check:era-ground holds the file to the rows",

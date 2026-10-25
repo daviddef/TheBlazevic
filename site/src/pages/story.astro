@@ -1,0 +1,44 @@
+---
+/* THE STORY (25 October 2026): the direct line told once as a short book, the reader's first page.
+   Everything that is not this family is the kit's (StoryBook, StoryRibbon, LineTree, StoryMap; kit/docs/story.md).
+   This archive supplies the data, src/data/story.json, written by hand from its own pages, and the plates below.
+   `npm run check:story` holds the data and the built page to the kit's contract (kit/tools/checkfamilystory.py).
+
+   The plates are photographs this archive already shows on its own pages, never a register frame: FamilySearch frames
+   are link-only here (site/standard.json, scans.link_only), so the registers are linked from the text, not drawn. */
+import Base from "../layouts/Base.astro";
+import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
+import book from "../data/story.json";
+import { u } from "../lib/url.js";
+
+const personHref = (slug) => u(`/people/${slug}/`);
+const plateIndex = {
+  "tereza-portrait": {
+    src: "/photos/line/4500806-tereza-zubrinic.jpg", w: 1067, h: 1600,
+    title: "Tereza Žubrinić (1867–1931), a studio portrait, undated",
+    holder: "The family's own collection, by way of MyHeritage. The attribution is the family's, not a document's.",
+    alt: "A studio portrait of a woman, undated, which the family says is Tereza Žubrinić",
+  },
+  "tereza-stone": {
+    src: "/photos/line/4502256-tereza-grave-senj.jpg", w: 960, h: 1280,
+    title: "BLAŽEVIĆ TEREZA ✻1867 †1931, Senj municipal cemetery",
+    holder: "Photographed 9 October 2024. Restored, the foot of the stone says, by Fr. Ante Kosina, 1991.",
+    alt: "A gravestone at Senj reading Blažević Tereza, 1867 to 1931",
+  },
+  "blazevic-stone": {
+    src: "/photos/line/4503429-blazevic-grave.jpg", w: 1200, h: 1600,
+    title: "The Blažević plot at Senj: Ljubomir, Milka, Oto, Mario; Kata and Leo on the later plaque",
+    holder: "From the family's photographs. Oto's name is on the stone; his grave is unknown.",
+    alt: "The Blažević family grave at Senj, with Oto's name on it",
+  },
+  "hedviga-portrait": {
+    src: "/photos/hedviga/hedviga-06-500804.jpg", w: 1205, h: 1600,
+    title: "Almost certainly Hedviga, about the late 1960s",
+    holder: "From the family's photographs. The identification is the archive's, from the likeness, not from a caption.",
+    alt: "Portrait of a woman in a bold floral print raising a glass, late 1960s",
+  },
+};
+---
+<Base title={book.title} eyebrow={book.eyebrow} dek={book.dek}>
+  <StoryBook book={book} personHref={personHref} u={u} plateIndex={plateIndex} />
+</Base>
