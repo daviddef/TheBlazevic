@@ -1,0 +1,10 @@
+# ONE MAN RECORDED TWICE, CONFIRMED BY THE OWNER OF THE TREE, MERGED FOR PUBLICATION WITHOUT EDITING THE TREE (25 October 2026).
+# Applied by tools/gedcom.py (apply_merges) on every load, so the generators and the gates see one tree with one man in it.
+# The surviving record is the better-sourced one; the retired record's page address redirects to the survivor
+# (site/src/data/merged.json, which tools/build_site_data.py writes, read by site/astro.config.mjs); the retired record's name is kept on the
+# survivor as «also recorded as»; both records' citations are kept; the build STOPS where the two records give a different date, place,
+# cause or sex (nothing is chosen silently). tools/consistency.py reads the tree as exported and applies none of it.
+# The identification itself is written on the page What changed (site/src/data/corrections.json, the entry for the survivor).
+#
+# surviving id|retired id|source|grade
+@I508661@|@I508687@|family confirmation, David Defranceski, 25 October 2026|family lore

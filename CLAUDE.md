@@ -75,6 +75,19 @@ Somebody born within the last 80 years with no death recorded is living: named w
   commit). Current rows: one corrected birth year (Georgius Prpić, 1962 to 1862), one confirmed death (Robert, family
   confirmation by David, 25 October 2026). Ivan Anton Defranceski (the second of the name) is NOT changed: the Defranceschi archive
   records a death in 2026; this archive holds none.
+- **A third record kept beside the tree: a merge the owner confirms (25 October 2026).** `data/tree-merges.tsv`
+  (surviving id|retired id|source|grade), applied by `gedcom.apply_merges` after the overlays and before the parent links.
+  The first row: Georgius Prpić (survivor: the better-sourced, with the day and the register of his birth) and Jure Perpic
+  (the Croatian form of Georgius; died 1882) are ONE man, confirmed by the tree's owner (the source on the row names him). The retired person leaves the
+  people, every family names the survivor (a child listed twice in a family is listed once: he is no longer his own
+  brother), the facts are folded in (an empty or flag-only event is filled, a plain date made exact by the other record's
+  date of the same year, both citations kept; a different date, place, cause or sex STOPS the build: nothing is chosen
+  silently), the retired name is kept as `alt_names` / `merged` («Also recorded as» on the page), and
+  `site/src/data/merged.json` (written by `build_site_data.py`, read by `astro.config.mjs`) turns the retired
+  `/people/<slug>/` and, where nobody else bears the name, `/who/<slug>/` into Astro redirect stubs. The slug stays in
+  `person-slugs.json` for ever. `load(corrected=False)` applies none of it. The merge is written up on /corrections/ (the
+  entry for the survivor in `corrections.json`). Regenerate with `python3 tools/regen.py` (and `tools/ancestry.py` for
+  `data/surname-*.tsv`), then rebuild the search index. Nothing is merged on a resemblance: /duplicates/ still only reports.
 - **`npm run check:living` also runs the kit's printed-year gate** (`--years --config standard.json --strict-allow`): its registry is
   `data/living-year-allow.json` (`{allow:[{text, why, file?}]}`, a reason of 8 characters or more; the text is matched in the RAW
   built file, so a snippet inside HTML carries its tags), named in `site/standard.json` under `living_years`. It runs beside

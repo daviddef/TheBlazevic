@@ -133,7 +133,8 @@ DEAD_ROW_KEYS = {"id", "slug", "name", "given", "surname", "nick", "sex", "born"
                  "died", "diedPlace", "cause", "burial", "baptised", "baptisedPlace",
                  "occupations", "byear", "dyear", "sources", "notes", "events", "family",
                  "ahn", "gen", "rel",
-                 "deathRecorded"}      # the kit's key for a death recorded without a date (build_site_data.person; in-window people only)
+                 "deathRecorded",      # the kit's key for a death recorded without a date (build_site_data.person; in-window people only)
+                 "merged"}             # «also recorded as»: the retired tree record of a man merged on the owner's confirmation (data/tree-merges.tsv; the dead only)
 
 
 def load_rule():

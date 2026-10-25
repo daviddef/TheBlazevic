@@ -164,9 +164,142 @@ def apply_overlays(people):
     return people
 
 
+# Events that happen once in a life: two records of one man hold one of each, and the two are combined, not listed twice.
+ONCE = ("birth", "death", "burial", "christening", "baptism")
+HEDGE = re.compile(r"\b(ABT|BEF|AFT|EST|CAL|BET|FROM|TO|INT|ABOUT|BEFORE|AFTER)\b", re.I)
+
+
+def _fold_text(s):
+    return re.sub(r"\s+", " ", (s or "").strip().casefold())
+
+
+def _date_parts(d):
+    """How many parts of a date are written: '26 MAR 1862' 3, 'MAR 1862' 2, '1862' 1, no year 0. A hedged date is 0."""
+    d = (d or "").strip()
+    if not d or HEDGE.search(d) or not re.search(r"\b\d{4}\b", d):
+        return 0
+    return len(d.split())
+
+
+def _event_empty(e):
+    return not any(e.get(k) for k in ("date", "place", "cause", "note", "agency", "type"))
+
+
+def _merge_event(keep, drop, label, why):
+    """Fold the event `drop` into `keep` (two records of one man's birth, or of his death). Returns True when `keep` took
+    anything from `drop`. Nothing is picked silently: where both records give a fact and the two do not agree, the build
+    stops, and a person decides how both readings are to be printed."""
+    took = False
+    # the date: a plain date may be made exact by the other record's date of the same year (1862 and 26 MAR 1862)
+    a, b = (keep.get("date") or "").strip(), (drop.get("date") or "").strip()
+    if b and not a:
+        keep["date"], took = b, True
+    elif a and b and _fold_text(a) != _fold_text(b):
+        fa, fb = _fold_text(a), _fold_text(b)
+        if not (_date_parts(a) and _date_parts(b) and year(a) == year(b)
+                and (fa.endswith(" " + fb) or fb.endswith(" " + fa) or fa == fb)):
+            raise SystemExit(f"data/tree-merges.tsv: {why}: the two records give a different {label} date ({a!r} and {b!r}). "
+                             f"Nothing is chosen silently: decide how both readings are printed, then extend apply_merges")
+        if _date_parts(b) > _date_parts(a):
+            keep["date"], took = b, True
+    # the place: equal, or one a leading part of the other, or one empty
+    a, b = (keep.get("place") or "").strip(), (drop.get("place") or "").strip()
+    if b and not a:
+        keep["place"], took = b, True
+    elif a and b and _fold_text(a) != _fold_text(b):
+        fa, fb = _fold_text(a), _fold_text(b)
+        if fa.startswith(fb):
+            pass
+        elif fb.startswith(fa):
+            keep["place"], took = b, True
+        else:
+            raise SystemExit(f"data/tree-merges.tsv: {why}: the two records give a different {label} place ({a!r} and {b!r})")
+    for k in ("cause", "agency", "type", "detail"):
+        a, b = (keep.get(k) or "").strip(), (drop.get(k) or "").strip()
+        if b and not a:
+            keep[k], took = b, True
+        elif a and b and a != b and k != "detail":
+            raise SystemExit(f"data/tree-merges.tsv: {why}: the two records give a different {label} {k} ({a!r} and {b!r})")
+    a, b = (keep.get("note") or "").strip(), (drop.get("note") or "").strip()
+    if b and b not in a:
+        keep["note"], took = (a + " " + b).strip() if a else b, True
+    return took
+
+
+def apply_merges(people, families):
+    """ONE MAN RECORDED TWICE, CONFIRMED BY THE OWNER OF THE TREE (25 October 2026), WITHOUT EDITING THE TREE.
+
+    data/tree-merges.tsv   surviving id|retired id|source|grade
+        The two records are one person. The surviving record stays; the retired one leaves the people this archive
+        publishes, every family that named it names the survivor (a child listed twice in one family is listed once, so a
+        man is no longer his own brother), its facts are folded into the survivor's (an event the survivor lacks is taken;
+        an event that is only a flag is filled from the other record; a plain date is made exact by the other record's date
+        of the same year; both citations are kept), and its name is kept as a variant (`alt_names`) and in `merged`, which
+        the generators print as «also recorded as». Where the two records give a different date, place, cause or sex the
+        build STOPS: nothing is chosen silently. The retired page address redirects to the survivor
+        (site/src/data/merged.json, astro.config.mjs), and the correction is written on the page What changed.
+
+        Applied after apply_overlays (a corrected year is what the other record is compared with) and before the parent
+        links are made. load(corrected=False) is the tree as exported and applies none of it.
+    """
+    for row in _tsv("tree-merges.tsv"):
+        keep, drop, source, grade = (row + ["", "", "", ""])[:4]
+        why = f"{keep} <- {drop}"
+        for pid in (keep, drop):
+            if pid not in people:
+                raise SystemExit(f"data/tree-merges.tsv: {pid} is not in the tree")
+        if keep == drop:
+            raise SystemExit(f"data/tree-merges.tsv: {keep} cannot be merged with itself")
+        if not source or not grade:
+            raise SystemExit(f"data/tree-merges.tsv: {why}: a merge needs its source and its grade")
+        k, d = people[keep], people[drop]
+        if k.get("sex") and d.get("sex") and k["sex"] != d["sex"]:
+            raise SystemExit(f"data/tree-merges.tsv: {why}: the two records give a different sex")
+        # a parent and a child, or two spouses, are not one person
+        for f in families.values():
+            members = {f["husb"], f["wife"]}
+            if keep in members and drop in members:
+                raise SystemExit(f"data/tree-merges.tsv: {why}: the two are the two spouses of one family")
+            if (keep in members and drop in f["chil"]) or (drop in members and keep in f["chil"]):
+                raise SystemExit(f"data/tree-merges.tsv: {why}: one is a parent of the other")
+        took = []
+        for dev in d["events"]:
+            same = [e for e in k["events"] if e["kind"] == dev["kind"]]
+            if dev["kind"] in ONCE and same:
+                if _merge_event(same[0], dev, dev["kind"], why):
+                    took.append(same[0])
+            elif not any(e["kind"] == dev["kind"] and e.get("date") == dev.get("date") and e.get("place") == dev.get("place")
+                         and e.get("detail") == dev.get("detail") for e in same):
+                k["events"].append(dict(dev))
+                took.append(k["events"][-1])
+        for e in took:
+            e["merged"] = True
+            tail = "(Folded in from the tree's second record of this man, one person on the tree owner's confirmation: /corrections/.)"
+            if tail not in (e.get("note") or ""):
+                e["note"] = ((e.get("note") or "") + " " + tail).strip()
+        k["sources"] = list(dict.fromkeys(list(k["sources"]) + list(d["sources"])))
+        k["cites"] = list(dict.fromkeys(list(k["cites"]) + list(d["cites"])))
+        k["notes"] = list(dict.fromkeys(list(k["notes"]) + list(d["notes"])))
+        own = display(k)
+        alts = [display(d)] + list(d.get("alt_names") or [])
+        k["alt_names"] = [n for n in dict.fromkeys(list(k.get("alt_names") or []) + alts) if n and n != own]
+        k["merged"] = list(k.get("merged") or []) + [
+            {"id": drop, "name": display(d), "given": d["given"], "surname": d["surname"], "source": source, "grade": grade}]
+        for f in families.values():
+            if f["husb"] == drop:
+                f["husb"] = keep
+            if f["wife"] == drop:
+                f["wife"] = keep
+            f["chil"] = list(dict.fromkeys(keep if c == drop else c for c in f["chil"]))
+        k["famc"] = list(dict.fromkeys(list(k["famc"]) + list(d["famc"])))
+        k["fams"] = list(dict.fromkeys(list(k["fams"]) + list(d["fams"])))
+        del people[drop]
+    return people
+
+
 def load(path=GED, corrected=True):
     """Return (people, families) as dicts keyed by GEDCOM xref. `corrected=False` is the tree exactly as it was
-    exported (tools/consistency.py: /impossible/ reports what the tree says); see apply_overlays."""
+    exported (tools/consistency.py: /impossible/ reports what the tree says); see apply_overlays and apply_merges."""
     records = parse(path)
 
     notes_by_id = {}
@@ -245,6 +378,10 @@ def load(path=GED, corrected=True):
                 "notes": _notes(r, notes_by_id),
             }
 
+    if corrected:
+        apply_overlays(people)
+        apply_merges(people, families)
+
     # back-links, so a person knows their parents without a family lookup
     for f in families.values():
         for c in f["chil"]:
@@ -256,8 +393,6 @@ def load(path=GED, corrected=True):
     for p in people.values():
         p.setdefault("parents", [])
 
-    if corrected:
-        apply_overlays(people)
     return people, families
 
 

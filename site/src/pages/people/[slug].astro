@@ -176,7 +176,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
               ? "Same given name, birth year and place, parents agreeing where both are named"
               : "Same given name and birth year only — the weakest tier"}</td></tr>
         </table>
-        <p style="margin-top:.9rem"><strong>Nothing has been merged.</strong> This archive
+        <p style="margin-top:.9rem"><strong>Nothing has been merged on a resemblance.</strong> This archive
         <a href={u("/method/")}>reports the tree rather than editing it</a>, and here the tree holds
         one person more than once. The count of published people on this site is therefore slightly
         higher than the number of actual people. <a href={u("/duplicates/")}>How this is judged →</a></p>
@@ -277,7 +277,12 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
           <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
       {p.family && <tr><th>Line</th><td><a href={u(`/${COPY[p.family] ? p.family : "families"}`)}>{p.surname}</a> · <a href={u(`/people/?fam=${p.family}`)}>everyone of the name →</a></td></tr>}
       {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}{p.gen === 1 ? "" : ", a direct ancestor of Hedviga"}</td></tr>}
-      <tr><th>Record</th><td class="mono">{p.id}</td></tr>
+      {(p.merged || []).length > 0 && (
+        <tr><th>Also recorded as</th><td>{p.merged.map((m, i) => (
+          <span>{i > 0 && ", "}<strong>{m.name}</strong></span>))}
+          <div class="dim" style="margin-top:.4rem">The family tree entered this man twice, once under each name. {p.merged.map((m) => m.source).join("; ")}:
+          the two records are one person, published here as one. <a href={u("/corrections/")}>What changed →</a></div></td></tr>)}
+      <tr><th>Record</th><td class="mono">{p.id}{(p.merged || []).map((m) => <span class="dim"> · also {m.id}</span>)}</td></tr>
     </table>
   </section>
 

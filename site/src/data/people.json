@@ -297329,9 +297329,9 @@
    "spouses": [],
    "siblings": [
     {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
+     "name": "Georgius Prpic",
+     "slug": "georgius-prpic",
+     "id": "@I508661@",
      "born": 1862,
      "died": 1882
     },
@@ -297340,13 +297340,6 @@
      "slug": "mathia-prpic",
      "id": "@I508670@",
      "born": 1865,
-     "died": null
-    },
-    {
-     "name": "Georgius Prpic",
-     "slug": "georgius-prpic",
-     "id": "@I508661@",
-     "born": 1862,
      "died": null
     }
    ],
@@ -297444,88 +297437,6 @@
      "id": "@I508679@",
      "born": 1873,
      "died": 1873
-    }
-   ],
-   "children": []
-  }
- },
- {
-  "id": "@I508687@",
-  "slug": "jure-perpic",
-  "name": "Jure Perpic",
-  "given": "Jure",
-  "surname": "Perpic",
-  "nick": "",
-  "sex": "M",
-  "born": "1862",
-  "bornPlace": "Krivi Put 136, Senj, Lika, Austria-Hungary",
-  "died": "1882",
-  "diedPlace": "Krivi Put 136, Senj, Lika, Austria-Hungary",
-  "cause": "",
-  "burial": "",
-  "baptised": "",
-  "baptisedPlace": "",
-  "occupations": [],
-  "byear": 1862,
-  "dyear": 1882,
-  "sources": [],
-  "notes": [],
-  "events": [
-   {
-    "kind": "birth",
-    "date": "1862",
-    "place": "Krivi Put 136, Senj, Lika, Austria-Hungary",
-    "detail": "",
-    "note": ""
-   },
-   {
-    "kind": "death",
-    "date": "1882",
-    "place": "Krivi Put 136, Senj, Lika, Austria-Hungary",
-    "detail": "Y",
-    "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-55TB?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Deaths (Umrli) 1878-1934 > image 56 of 608; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
-   }
-  ],
-  "family": "prpic",
-  "rel": {
-   "parents": [
-    {
-     "name": "Domianus \"Domian\" Perpić",
-     "slug": "domianus-perpic",
-     "id": "@I508659@",
-     "born": 1820,
-     "died": 1888
-    },
-    {
-     "name": "Maria Sojath",
-     "slug": "maria-sojath",
-     "id": "@I508660@",
-     "born": 1823,
-     "died": 1891
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Jacobus Perpic",
-     "slug": "jacobus-perpic",
-     "id": "@I508683@",
-     "born": 1858,
-     "died": null
-    },
-    {
-     "name": "Mathia Prpic",
-     "slug": "mathia-prpic",
-     "id": "@I508670@",
-     "born": 1865,
-     "died": null
-    },
-    {
-     "name": "Georgius Prpic",
-     "slug": "georgius-prpic",
-     "id": "@I508661@",
-     "born": 1862,
-     "died": null
     }
    ],
    "children": []
@@ -299131,9 +299042,9 @@
      "died": null
     },
     {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
+     "name": "Georgius Prpic",
+     "slug": "georgius-prpic",
+     "id": "@I508661@",
      "born": 1862,
      "died": 1882
     },
@@ -299142,13 +299053,6 @@
      "slug": "mathia-prpic",
      "id": "@I508670@",
      "born": 1865,
-     "died": null
-    },
-    {
-     "name": "Georgius Prpic",
-     "slug": "georgius-prpic",
-     "id": "@I508661@",
-     "born": 1862,
      "died": null
     }
    ]
@@ -322432,15 +322336,15 @@
   "sex": "M",
   "born": "26 MAR 1862",
   "bornPlace": "Krivi Put 136, Senj, Lika, Austria-Hungary",
-  "died": "",
-  "diedPlace": "",
+  "died": "1882",
+  "diedPlace": "Krivi Put 136, Senj, Lika, Austria-Hungary",
   "cause": "",
   "burial": "",
   "baptised": "",
   "baptisedPlace": "",
   "occupations": [],
   "byear": 1862,
-  "dyear": null,
+  "dyear": 1882,
   "sources": [],
   "notes": [],
   "events": [
@@ -322453,10 +322357,19 @@
    },
    {
     "kind": "death",
-    "date": "",
-    "place": "",
+    "date": "1882",
+    "place": "Krivi Put 136, Senj, Lika, Austria-Hungary",
     "detail": "Y",
-    "note": ""
+    "note": "\"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-55TB?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Deaths (Umrli) 1878-1934 > image 56 of 608; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb. (Folded in from the tree's second record of this man, one person on the tree owner's confirmation: /corrections/.)"
+   }
+  ],
+  "merged": [
+   {
+    "id": "@I508687@",
+    "name": "Jure Perpic",
+    "slug": "jure-perpic",
+    "source": "family confirmation, David Defranceski, 25 October 2026",
+    "grade": "family lore"
    }
   ],
   "family": "prpic",
@@ -322485,13 +322398,6 @@
      "id": "@I508683@",
      "born": 1858,
      "died": null
-    },
-    {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
-     "born": 1862,
-     "died": 1882
     },
     {
      "name": "Mathia Prpic",
@@ -323101,18 +323007,11 @@
      "died": null
     },
     {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
-     "born": 1862,
-     "died": 1882
-    },
-    {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
      "id": "@I508661@",
      "born": 1862,
-     "died": null
+     "died": 1882
     }
    ],
    "children": []
@@ -376381,9 +376280,9 @@
      "died": null
     },
     {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
+     "name": "Georgius Prpic",
+     "slug": "georgius-prpic",
+     "id": "@I508661@",
      "born": 1862,
      "died": 1882
     },
@@ -376392,13 +376291,6 @@
      "slug": "mathia-prpic",
      "id": "@I508670@",
      "born": 1865,
-     "died": null
-    },
-    {
-     "name": "Georgius Prpic",
-     "slug": "georgius-prpic",
-     "id": "@I508661@",
-     "born": 1862,
      "died": null
     }
    ]

@@ -23,7 +23,7 @@ there because somebody named them lists only relatives who already have pages.
 """
 import json, os, re, collections, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from gedcom import load, display, born, died, year, ev, classify_living
+from gedcom import load, display, born, died, year, ev, classify_living, _tsv as gedcom_tsv
 import livingset
 from ancestry import ancestors, gen_of, fold, kindred, parents_closure, SURNAMES, ROOT_PERSON
 
@@ -322,6 +322,11 @@ def person(p, ahn=None):
     if (by is not None and by >= livingset.cutoff_year() and not d.get("date")
             and livingset.death_evidence(p) == "record"):
         out["deathRecorded"] = True
+    # TWO RECORDS OF ONE MAN, CONFIRMED BY THE OWNER OF THE TREE (data/tree-merges.tsv, gedcom.apply_merges): the retired record's
+    # name is printed as «also recorded as», with its tree id; its page address redirects here (merged.json, astro.config.mjs).
+    if p.get("merged"):
+        out["merged"] = [{"id": m["id"], "name": m["name"], "slug": _slugs.get(m["id"]), "source": m["source"], "grade": m["grade"]}
+                         for m in p["merged"]]
     out["family"] = next((sl for sl, ks in SURNAMES.items() if fold(p["surname"]) in ks), None) \
         or next((sl for sl, ks in PAGE_KEYS.items() if fold(p["surname"]) in ks), None)
     if ahn:
@@ -685,9 +690,49 @@ def main():
                              key=lambda i: (display(people[i]).lower(), i))]
     dump("living.json", liv)
     write_living_rule(cls, people, emitted, base)
+    write_merged(people, emitted)
     print(f"  living: {len(liv)} with a page, {sum(1 for r in liv if r['town'])} with a town, "
           f"{sum(1 for r in liv if r['country'] and not r['town'])} country only, "
           f"{sum(1 for r in liv if not r['town'] and not r['country'])} no place")
+
+
+def who_slug(name):
+    """The address of a name page, as site/src/pages/who/[slug].astro makes it."""
+    import unicodedata
+    n = unicodedata.normalize("NFD", str(name or ""))
+    n = "".join(c for c in n if not unicodedata.category(c) == "Mn")
+    return re.sub(r"[^A-Za-z0-9]+", "-", n).strip("-").lower()
+
+
+def write_merged(people, emitted):
+    """site/src/data/merged.json: each merge in data/tree-merges.tsv, with the addresses the retired record had.
+
+    The retired person page (/people/<slug>/) and name page (/who/<slug>/) become redirect stubs to the survivor's
+    (site/astro.config.mjs reads this file). The name page is only redirected when nobody else bears the name: a
+    namesake keeps it. The slug of the retired record is read from the ledger (person-slugs.json), which keeps the
+    line of a removed person so the address is never handed to anybody else. A merge of a living or held-out person
+    stops the build: nothing here is for them."""
+    rows = []
+    bearers = {who_slug(display(people[i])) for i in emitted}
+    for row in gedcom_tsv("tree-merges.tsv"):
+        keep, drop, source, grade = (row + ["", "", "", ""])[:4]
+        if keep not in people or keep not in emitted:
+            sys.exit(f"data/tree-merges.tsv: {keep} is not a published person")
+        if LIVING.get(keep) or keep in HELD:
+            sys.exit(f"data/tree-merges.tsv: {keep} is living or held out: nothing is merged for a living person")
+        merged = {m["id"]: m for m in people[keep].get("merged", [])}
+        if drop not in merged:
+            sys.exit(f"data/tree-merges.tsv: {drop} was not merged into {keep}")
+        if drop not in _slugs:
+            sys.exit(f"data/tree-merges.tsv: {drop} has no line in person-slugs.json, so its published address is unknown")
+        dwho, kwho = who_slug(merged[drop]["name"]), who_slug(display(people[keep]))
+        rows.append({
+            "survivor": {"id": keep, "slug": SLUGS[keep], "name": display(people[keep]), "who": kwho},
+            "retired": {"id": drop, "slug": _slugs[drop], "name": merged[drop]["name"],
+                        "who": dwho if dwho and dwho != kwho and dwho not in bearers else None},
+            "source": source, "grade": grade,
+        })
+    dump("merged.json", rows)
 
 
 def write_living_rule(cls, people, emitted, base):

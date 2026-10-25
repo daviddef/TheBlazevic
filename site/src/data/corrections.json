@@ -580,10 +580,20 @@
   "kind": "disputed",
   "label": "Disputed — the tree's year does not hold, and is corrected here",
   "what": "His own birth year is corrected to 1862 on this page",
-  "tree": "Entered with the year 1962 (26 March), at Krivi Put 136, Senj, Lika, Austria-Hungary; death marked, with no date",
+  "tree": "Entered with the year 1962 (26 March), at Krivi Put 136, Senj, Lika, Austria-Hungary; death marked, with no date or place",
   "record": "Published here as 26 March 1862: the year corrected, the day and month as the tree gives them",
-  "why": "Corrected on 26 October 2026 on the evidence set out against his parents' pages and on the page What Cannot Be True: his father died in 1888 and his mother in 1891, Austria-Hungary ceased to exist in 1918, and the register the tree itself cites for the entry (Krivi Put births) ends in 1884. Only the year is changed. The tree file is not edited: the correction is written down in this archive's data (data/tree-corrections.tsv) and applied when the pages are built, and What Cannot Be True still reports the tree's own year. The tree marks his death without a date or a place, and none is added here.",
+  "why": "Corrected on 26 October 2026 on the evidence set out against his parents' pages and on the page What Cannot Be True: his father died in 1888 and his mother in 1891, Austria-Hungary ceased to exist in 1918, and the register the tree itself cites for the entry (Krivi Put births) ends in 1884. Only the year is changed. The tree file is not edited: the correction is written down in this archive's data (data/tree-corrections.tsv) and applied when the pages are built, and What Cannot Be True still reports the tree's own year. The tree marks his death without a date or a place; the death now shown on his page (1882) comes from the other record of him, merged into this one on 25 October 2026 (the entry below), and no date is invented.",
   "href": "/impossible"
+ },
+ {
+  "id": "@I508661@",
+  "kind": "corrected",
+  "label": "Corrected — two records, one man, published as one",
+  "what": "Georgius Prpić and Jure Perpic are one man, entered in the tree twice",
+  "tree": "Two people, each listed as the other's brother: Georgius Prpic (born 26 March in a year the tree writes as 1962, death marked with no date or place) and Jure Perpic (born 1862, died 1882), both children of Domianus Perpić and Maria Sojath at Krivi Put 136, Senj",
+  "record": "One man: Georgius Prpić, born 26 March 1862 and died in 1882, both at Krivi Put 136. Jure is the Croatian form of Georgius",
+  "why": "The owner of the family tree confirmed on 25 October 2026 that these are one man. Nothing in the two records disagrees: the same parents, the same house, and the same birth year once the tree's typo (1962) is corrected. One record gives the day (26 March) and cites the Krivi Put birth register (image 81); the other gives the death (1882) and cites the Krivi Put death register (image 56). Georgius's record is the one kept, because it is the one that carries the day and the register of his birth and the one this archive had already corrected; both citations are now on his page. Jure Perpic is kept as a name he was also recorded under, and the old address (/people/jure-perpic/) leads here. A man cannot be his own brother, so the family lists no longer show him as one: his parents' pages and his siblings' pages now name him once. His death, which his page had marked without a date, reads 1882 at Krivi Put 136 from the other record; nothing is invented. The tree file is not edited: the merge is written down in this archive's data (data/tree-merges.tsv) and applied when the pages are built.",
+  "href": "/duplicates"
  },
  {
   "id": "@I506361@",
