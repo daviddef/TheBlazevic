@@ -39,7 +39,7 @@ ROWS = [
      "/worklist/"),
     ("EMAIL-zupa-karlobag.txt", "draft",
      "Župni ured Karlobag (address to confirm from the diocese's directory)",
-     "Catherina «Catta» Luckinić's baptism (the tree says 30 March 1727), and a Luckinić household of the 1720s",
+     "Catherina «Catta» Luckinić's baptism (the tree says 30 March 1727), and a Luckinić household of the 1720s; and (added 25 October) where the Gergach/Gerkacs family of Mikula (Nicolaus), seen at Karlobag from 1753, came from, and what «Baretich alias Gergach» (1766) means",
      "Ahnentafel 105 has a death entry and no birth. The baptism book for 1727 was read and carries no Luckinić on the tree's date, and the book's own index lists none. A parish can say whether leaves are missing or another volume holds her.",
      "/worklist/"),
     ("EMAIL-nadbiskupija.txt", "draft",
