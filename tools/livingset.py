@@ -20,6 +20,16 @@ parent. This module gathers what the rule needs from the tree and passes it on:
     on the Mazza archive). `cites_for_living` below passes none for somebody with
     a birth year as it did before; it is redundant with the kit and is kept
     working beside it, to be deleted once the kit gate has run clean for a release.
+  * POSSIBLE MINORS ARE NOT PUBLISHED AT ALL (David, 25 October 2026, after a sweep found children named in full on
+    sister archives). The kit's `possible_minor` holds out only an UNDATED person with a living parent and says in
+    so many words that a child with a KNOWN birth year follows the ordinary living standard (David, 16 October). David's
+    ruling of 25 October supersedes that: every possible minor is held out. The kit is not edited from here (KIT GAP,
+    reported): this module computes the supplement from the tree, `minor_ids()`, and passes it to the kit's own
+    `is_held_out` as `held_ids`, so the kit still decides everything else. A POSSIBLE MINOR is somebody with no death
+    record who is (a) born this year minus MINOR_YEARS (18) or later, or (b) undated with a parent born in
+    PARENT_BORN_FROM (1975) or later. A held-out minor is not published anywhere: no page, no name page, no name as
+    anybody's relative, no photograph, no entry in any list or index. They stay in `living` (they are living) and
+    are in `held` as well.
   * `data/living-hold.tsv` still names somebody the tree records dead with a place
     and no date, and nothing else, whom David has not confirmed. They are treated
     as living (masked) until he does. The gate refuses a hold on anybody with a
@@ -212,6 +222,40 @@ def dated_death(person):
                for e in person["events"])
 
 
+MINOR_YEARS = 18             # born this year minus this, or later: a possible minor (2008 in 2026; a year of margin
+                             # on the people who turned 18 this year, whose birthday the tree may not give)
+PARENT_BORN_FROM = 1975      # an UNDATED person with a parent born in this year or later: a possible minor
+
+
+def minor_birth_cut(today_year=None):
+    """Born in this year or later (with no death record): a possible minor. Derived, never typed."""
+    return int(today_year or lr.this_year()) - MINOR_YEARS
+
+
+def minor_ids(people, today_year=None, holds=(), extra=()):
+    """The ids of POSSIBLE MINORS (the module docstring): no death record, and either born in minor_birth_cut() or
+    later, or undated with a parent born in PARENT_BORN_FROM or later. An undated person the tree calls dead by a bare
+    flag is dead (the kit's rule for the undated) and is not a minor. Nobody is named here."""
+    ty = int(today_year or lr.this_year())
+    cut = minor_birth_cut(ty)
+    out = set()
+    for i, p in people.items():
+        kind = death_evidence(p)
+        if (kind == "record" and i not in holds) or i in extra:
+            continue
+        b = birth_year(p)
+        if b is not None:
+            if b >= cut:
+                out.add(i)
+        elif kind != "flag":
+            for par in p.get("parents", []):
+                pb = birth_year(people[par]) if par in people else None
+                if pb is not None and pb >= PARENT_BORN_FROM:
+                    out.add(i)
+                    break
+    return out
+
+
 def classify(people, families, today_year=None):
     """-> dict. living: set. held: set (undated with a living parent). Everyone
     else is not living and is handled as an ordinary person who has died."""
@@ -237,16 +281,17 @@ def classify(people, families, today_year=None):
         if lr.is_living(birth_year(p), record, cites_for_living(p), ty, undated_dead=flag):
             living.add(i)
     held = set()
+    minors = minor_ids(people, ty, holds, extra)
     for i, p in people.items():
-        if i in living:
+        if i in living and i not in minors:
             continue
         kind = death_evidence(p)
         record = kind == "record" or i in extra
         flag = kind == "flag" and not record
         parent_living = any(par in living for par in p.get("parents", []))
-        if lr.is_held_out(i, birth_year(p), record, p.get("cites", ()), parent_living, (), ty, undated_dead=flag):
+        if lr.is_held_out(i, birth_year(p), record, p.get("cites", ()), parent_living, minors, ty, undated_dead=flag):
             held.add(i)
-    return {"living": living, "held": held, "flag_only": flag_only, "extra_dead": extra, "extra_by": by, "today_year": ty,
+    return {"living": living, "held": held, "minors": minors, "flag_only": flag_only, "extra_dead": extra, "extra_by": by, "today_year": ty,
             "holds": holds}
 
 

@@ -426,9 +426,23 @@ def independent_status(people, tuned=True):
         return int(m.group(1)) if m else None
     cites = (lambda p: () if by(p) is not None else p.get("cites", ())) if tuned else (lambda p: p.get("cites", ()))
     living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty, undated_dead=flag(i, p))}
-    held = {i for i, p in people.items() if i not in living and lr.is_held_out(
+    # POSSIBLE MINORS (David, 25 October 2026), written out again here and not taken from livingset.minor_ids: no death
+    # record, and born this year minus 18 or later, or undated (no bare death flag) with a parent born in 1975 or later.
+    # They are living and are held out (published nowhere); the kit's is_held_out is given them as held_ids.
+    minors = set()
+    for i, p in people.items():
+        if dead(i, p):
+            continue
+        b = by(p)
+        if b is not None:
+            if b >= ty - 18:
+                minors.add(i)
+        elif dkind(p) != "flag" and any((by(people[q]) or 0) >= 1975 for q in p.get("parents", []) if q in people):
+            minors.add(i)
+    held = {i for i, p in people.items() if (i not in living or i in minors) and lr.is_held_out(
         i, by(p), dkind(p) == "record" or i in extra, p.get("cites", ()),
-        any(par in living for par in p.get("parents", [])), (), ty, undated_dead=dkind(p) == "flag" and i not in extra)}
+        any(par in living for par in p.get("parents", [])), minors, ty,
+        undated_dead=dkind(p) == "flag" and i not in extra)}
     return living, held
 
 
@@ -454,12 +468,24 @@ def synthetic_tree():
         "@IZ3@": person("@IZ3@", born=Y - 80),                            # the edge: 80 by year is living
         "@IZ4@": person("@IZ4@", born=Y - 81),                            # 81 is not
         "@IZ5@": person("@IZ5@", born=Y - 40),                            # an adult with nothing recorded
-        "@IZ6@": person("@IZ6@", parents=["@IZ5@"], cites=["FamilySearch"]),  # undated, public source: not held
+        "@IZ6@": person("@IZ6@", parents=["@IZ5@"], cites=["FamilySearch"]),  # undated, public source, parent born Y-40: HELD (possible minor, 25 Oct 2026)
+        "@IZL@": person("@IZL@", born=1950, events=["burial"]),            # a parent born 1950, dead
+        "@IZM@": person("@IZM@", parents=["@IZL@"], cites=["FamilySearch"]),  # undated, public source, old parent: neither
         "@IZ7@": person("@IZ7@", parents=["@IZ5@"]),                      # undated, living parent: held out
         "@IZ8@": person("@IZ8@", born=Y - 60, events=["death"]),          # a bare death FLAG, born in the window: LIVING (kit 341af33)
         "@IZ9@": person("@IZ9@", born=CUT - 1),                           # one year outside the window
         "@IZA@": person("@IZA@", born=CUT - 1, events=["death"]),         # a bare flag, born one year outside: dead
         "@IZB@": person("@IZB@", events=["death"]),                       # a bare flag and no birth year: dead
+        # POSSIBLE MINORS (25 October 2026)
+        "@IZC@": person("@IZC@", born=Y - 10, parents=["@IZ5@"]),         # a child with a birth year: living AND held out
+        "@IZD@": person("@IZD@", born=Y - 18),                            # the edge: this year minus 18 is a possible minor
+        "@IZE@": person("@IZE@", born=Y - 19),                            # one year older: an adult, not held
+        "@IZF@": person("@IZF@", born=Y - 3, events=["burial"]),          # a child who has died: not living, not held
+        "@IZG@": person("@IZG@", born=1976, death_date="3 MAR 2001"),     # a parent born in 1976, dead
+        "@IZH@": person("@IZH@", parents=["@IZG@"]),                      # undated, parent born 1976 though dead: held (no living parent for the kit)
+        "@IZI@": person("@IZI@", born=1974, death_date="3 MAR 2001"),     # a parent born in 1974, dead
+        "@IZJ@": person("@IZJ@", parents=["@IZI@"]),                      # undated, parent born 1974, dead: not held
+        "@IZK@": person("@IZK@", events=["death"], parents=["@IZ5@"]),    # undated, bare flag, parent born 1986: dead, not held
     }
 
 
@@ -478,14 +504,26 @@ def selftest_rule():
         "80 by year is living (the edge)": ("@IZ3@" in g_l, "@IZ3@" in k_l),
         "81 by year is not living": ("@IZ4@" not in g_l, "@IZ4@" not in k_l),
         "an adult with nothing recorded is living": ("@IZ5@" in g_l, "@IZ5@" in k_l),
-        "undated with a public source is neither living nor held": ("@IZ6@" not in g_l and "@IZ6@" not in g_h,
-                                                                    "@IZ6@" not in k_l and "@IZ6@" not in k_h),
+        "undated with a public source and an old parent is neither living nor held": ("@IZM@" not in g_l and "@IZM@" not in g_h,
+                                                                                      "@IZM@" not in k_l and "@IZM@" not in k_h),
+        "undated with a public source but a parent born 1975 or later IS held out": ("@IZ6@" in g_h, "@IZ6@" in k_h),
         "undated with a living parent is held out": ("@IZ7@" in g_h, "@IZ7@" in k_h),
         "a bare death flag does NOT make somebody born inside the window dead": ("@IZ8@" in g_l, "@IZ8@" in k_l),
         "a bare flag one year outside the window is a death": ("@IZA@" not in g_l, "@IZA@" not in k_l),
         "a bare flag and no birth year is a death": ("@IZB@" not in g_l and "@IZB@" not in g_h,
                                                      "@IZB@" not in k_l and "@IZB@" not in k_h),
         "one year outside the window is not living": ("@IZ9@" not in g_l, "@IZ9@" not in k_l),
+        "a child with a birth year is living AND held out (possible minor)": ("@IZC@" in g_l and "@IZC@" in g_h,
+                                                                              "@IZC@" in k_l and "@IZC@" in k_h),
+        "born this year minus 18 is a possible minor": ("@IZD@" in g_h, "@IZD@" in k_h),
+        "born this year minus 19 is not": ("@IZE@" not in g_h, "@IZE@" not in k_h),
+        "a child who has died is neither living nor held out": ("@IZF@" not in g_l and "@IZF@" not in g_h,
+                                                                "@IZF@" not in k_l and "@IZF@" not in k_h),
+        "undated with a parent born in 1975 or later is held out even when that parent has died":
+            ("@IZH@" in g_h, "@IZH@" in k_h),
+        "undated with a parent born in 1974 and dead is not held out": ("@IZJ@" not in g_h, "@IZJ@" not in k_h),
+        "undated with a bare death flag is dead, not a minor": ("@IZK@" not in g_h and "@IZK@" not in g_l,
+                                                                "@IZK@" not in k_h and "@IZK@" not in k_l),
         "the cutoff is derived, not typed": (livingset.cutoff_year() == TODAY - lr.LIVING_YEARS,
                                              livingset.cutoff_year(TODAY + 1) == TODAY + 1 - lr.LIVING_YEARS),
     }

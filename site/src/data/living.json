@@ -1,35 +1,5 @@
 [
  {
-  "slug": "alessio-david-defranceski",
-  "name": "Alessio David Defranceski",
-  "town": "Brisbane",
-  "country": "Australia",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "David Ivan Defranceski",
-     "slug": "david-ivan-defranceski",
-     "living": true
-    },
-    {
-     "name": "Cristina Adele D'Arcy",
-     "slug": "cristina-adele-d-arcy",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Mateo Cristian Defranceski",
-     "slug": "mateo-cristian-defranceski",
-     "living": true
-    }
-   ],
-   "children": []
-  }
- },
- {
   "slug": "boris-boras",
   "name": "Boris Boras",
   "town": "Rijeka",
@@ -58,13 +28,7 @@
      "living": true
     }
    ],
-   "children": [
-    {
-     "name": "Mateo Boras",
-     "slug": "mateo-boras",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -102,23 +66,7 @@
      "living": true
     }
    ],
-   "children": [
-    {
-     "name": "Nikka Šelaj",
-     "slug": "nikka-selaj",
-     "living": true
-    },
-    {
-     "name": "Noa Šelaj",
-     "slug": "noa-selaj",
-     "living": true
-    },
-    {
-     "name": "Luka David Šelaj",
-     "slug": "luka-david-selaj",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -300,18 +248,7 @@
      "living": true
     }
    ],
-   "children": [
-    {
-     "name": "Alessio David Defranceski",
-     "slug": "alessio-david-defranceski",
-     "living": true
-    },
-    {
-     "name": "Mateo Cristian Defranceski",
-     "slug": "mateo-cristian-defranceski",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -341,18 +278,7 @@
     }
    ],
    "siblings": [],
-   "children": [
-    {
-     "name": "Alessio David Defranceski",
-     "slug": "alessio-david-defranceski",
-     "living": true
-    },
-    {
-     "name": "Mateo Cristian Defranceski",
-     "slug": "mateo-cristian-defranceski",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -424,27 +350,6 @@
      "living": true
     }
    ],
-   "children": []
-  }
- },
- {
-  "slug": "filip-blazevic-3",
-  "name": "Filip Blažević",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Petra Cerovečki",
-     "slug": "petra-cerovecki",
-     "id": "@I642@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [],
    "children": []
   }
  },
@@ -779,49 +684,6 @@
     }
    ],
    "siblings": [],
-   "children": [
-    {
-     "name": "Riley Apker",
-     "slug": "riley-apker",
-     "living": true
-    },
-    {
-     "name": "Madison Apker",
-     "slug": "madison-apker",
-     "living": true
-    }
-   ]
-  }
- },
- {
-  "slug": "karla-blazevic",
-  "name": "Karla Blažević",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Kristian Blažević",
-     "slug": "kristian-blazevic",
-     "living": true
-    },
-    {
-     "name": "Josipa Eškinja",
-     "slug": "josipa-eskinja",
-     "id": "@I501527@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Lucija Blažević",
-     "slug": "lucija-blazevic-2",
-     "living": true
-    }
-   ],
    "children": []
   }
  },
@@ -973,18 +835,7 @@
      "living": true
     }
    ],
-   "children": [
-    {
-     "name": "Karla Blažević",
-     "slug": "karla-blazevic",
-     "living": true
-    },
-    {
-     "name": "Lucija Blažević",
-     "slug": "lucija-blazevic-2",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -1100,81 +951,6 @@
     }
    ],
    "siblings": [],
-   "children": [
-    {
-     "name": "Marko Karić",
-     "slug": "marko-karic-2",
-     "living": true
-    }
-   ]
-  }
- },
- {
-  "slug": "lucija-blazevic-2",
-  "name": "Lucija Blažević",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Kristian Blažević",
-     "slug": "kristian-blazevic",
-     "living": true
-    },
-    {
-     "name": "Josipa Eškinja",
-     "slug": "josipa-eskinja",
-     "id": "@I501527@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Karla Blažević",
-     "slug": "karla-blazevic",
-     "living": true
-    }
-   ],
-   "children": []
-  }
- },
- {
-  "slug": "luka-david-selaj",
-  "name": "Luka David Šelaj",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Boris Šelaj",
-     "slug": "boris-selaj",
-     "living": true
-    },
-    {
-     "name": "Danijela Prpić Šelaj",
-     "slug": "danijela-prpic-selaj",
-     "id": "@I645@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Nikka Šelaj",
-     "slug": "nikka-selaj",
-     "living": true
-    },
-    {
-     "name": "Noa Šelaj",
-     "slug": "noa-selaj",
-     "living": true
-    }
-   ],
    "children": []
   }
  },
@@ -1194,36 +970,6 @@
     }
    ],
    "siblings": [],
-   "children": []
-  }
- },
- {
-  "slug": "madison-apker",
-  "name": "Madison Apker",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Mark Robin Apker",
-     "slug": "mark-robin-apker",
-     "living": true
-    },
-    {
-     "name": "Karen",
-     "slug": "karen",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Riley Apker",
-     "slug": "riley-apker",
-     "living": true
-    }
-   ],
    "children": []
   }
  },
@@ -1288,90 +1034,6 @@
     }
    ],
    "siblings": [],
-   "children": [
-    {
-     "name": "Riley Apker",
-     "slug": "riley-apker",
-     "living": true
-    },
-    {
-     "name": "Madison Apker",
-     "slug": "madison-apker",
-     "living": true
-    }
-   ]
-  }
- },
- {
-  "slug": "marko-karic-2",
-  "name": "Marko Karić",
-  "town": "Zemun",
-  "country": "Serbia",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Nenad Karic",
-     "slug": "nenad-karic",
-     "living": true
-    },
-    {
-     "name": "Ljiljana",
-     "slug": "ljiljana",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [],
-   "children": []
-  }
- },
- {
-  "slug": "mateo-boras",
-  "name": "Mateo Boras",
-  "town": "Rijeka",
-  "country": "Croatia",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Boris Boras",
-     "slug": "boris-boras",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [],
-   "children": []
-  }
- },
- {
-  "slug": "mateo-cristian-defranceski",
-  "name": "Mateo Cristian Defranceski",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "David Ivan Defranceski",
-     "slug": "david-ivan-defranceski",
-     "living": true
-    },
-    {
-     "name": "Cristina Adele D'Arcy",
-     "slug": "cristina-adele-d-arcy",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Alessio David Defranceski",
-     "slug": "alessio-david-defranceski",
-     "living": true
-    }
-   ],
    "children": []
   }
  },
@@ -1404,13 +1066,7 @@
     }
    ],
    "siblings": [],
-   "children": [
-    {
-     "name": "Marko Karić",
-     "slug": "marko-karic-2",
-     "living": true
-    }
-   ]
+   "children": []
   }
  },
  {
@@ -1439,43 +1095,6 @@
     {
      "name": "Kirsten Defranceski",
      "slug": "kirsten-defranceski",
-     "living": true
-    }
-   ],
-   "children": []
-  }
- },
- {
-  "slug": "nikka-selaj",
-  "name": "Nikka Šelaj",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Boris Šelaj",
-     "slug": "boris-selaj",
-     "living": true
-    },
-    {
-     "name": "Danijela Prpić Šelaj",
-     "slug": "danijela-prpic-selaj",
-     "id": "@I645@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Noa Šelaj",
-     "slug": "noa-selaj",
-     "living": true
-    },
-    {
-     "name": "Luka David Šelaj",
-     "slug": "luka-david-selaj",
      "living": true
     }
    ],
@@ -1536,43 +1155,6 @@
   }
  },
  {
-  "slug": "noa-selaj",
-  "name": "Noa Šelaj",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Boris Šelaj",
-     "slug": "boris-selaj",
-     "living": true
-    },
-    {
-     "name": "Danijela Prpić Šelaj",
-     "slug": "danijela-prpic-selaj",
-     "id": "@I645@",
-     "born": null,
-     "died": null
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Nikka Šelaj",
-     "slug": "nikka-selaj",
-     "living": true
-    },
-    {
-     "name": "Luka David Šelaj",
-     "slug": "luka-david-selaj",
-     "living": true
-    }
-   ],
-   "children": []
-  }
- },
- {
   "slug": "paula-kosina",
   "name": "Paula Kosina",
   "town": "",
@@ -1590,36 +1172,6 @@
    ],
    "spouses": [],
    "siblings": [],
-   "children": []
-  }
- },
- {
-  "slug": "riley-apker",
-  "name": "Riley Apker",
-  "town": "",
-  "country": "",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Mark Robin Apker",
-     "slug": "mark-robin-apker",
-     "living": true
-    },
-    {
-     "name": "Karen",
-     "slug": "karen",
-     "living": true
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Madison Apker",
-     "slug": "madison-apker",
-     "living": true
-    }
-   ],
    "children": []
   }
  },

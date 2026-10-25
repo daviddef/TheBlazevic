@@ -486,6 +486,15 @@ def write_slug_ledger():
         doc = {"_why": ["Seeded by build_site_data.py"], "slugs": {}}
     for pid, sl in _minted:
         doc["slugs"].setdefault(pid, sl)   # setdefault: never overwrite
+    # A POSSIBLE MINOR HAS NO LINE HERE (David, 25 October 2026). A slug is a name and this file is public: a child who
+    # was published before the ruling has their id and their address taken out, the one exception to "never deleted".
+    # The address then answers 404 and may be handed to a namesake. Held-out people are never minted, so only the
+    # minors who had been published are removed; tools/livingcheck.py (GED-MINOR) fails the build if one comes back.
+    removed = [pid for pid in list(doc["slugs"]) if pid in HELD]
+    for pid in removed:
+        del doc["slugs"][pid]
+    if removed:
+        print(f"  person-slugs.json: {len(removed)} held-out person(s) taken out of the ledger")
     doc["slugs"] = dict(sorted(doc["slugs"].items()))
     open(_LEDGER_PATH, "w", encoding="utf-8").write(
         json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
@@ -593,10 +602,17 @@ def main():
     cls = livingset.classify(people, families)
     LIVING = {pid: pid in cls["living"] for pid in people}
     HELD = set(cls["held"])
+    MINORS = set(cls["minors"])
     os.makedirs(OUT, exist_ok=True)
 
     # everybody who is not held out and is a person and not a sorting stub
     avail = {pid: p for pid, p in people.items() if pid not in HELD and not junk(p)}
+    # POSSIBLE MINORS ARE NOT PUBLISHED (David, 25 October 2026; tools/livingset.py minor_ids) but they still count as
+    # the CHILDREN THEY ARE when the archive decides whose ancestors it carries: a child's mother's whole line was
+    # published because the child is a blood descendant of the root, and unpublishing the child must not unpublish
+    # that line (588 dead people on the first run). `avail_all` decides WHO ELSE is published, as it did before;
+    # the minors are taken out of the result, below, and are in HELD so nobody is drawn beside them.
+    avail_all = {pid: p for pid, p in people.items() if pid not in (HELD - MINORS) and not junk(p)}
     print(f"{len(people)} people; {len(cls['living'])} living, {len(HELD)} held out, "
           f"{len(avail) - sum(1 for i in avail if LIVING[i])} not living and available")
 
@@ -608,11 +624,11 @@ def main():
     BLOOD = kindred(people, families, HEDVIGA)
     DOCUMENTED = documented_ids()
     base = set(by_ahn_ids(people, families)) | DOCUMENTED | {
-        pid for pid, p in avail.items()
+        pid for pid, p in avail_all.items()
         if fold(p["surname"]) in keys_all or pid in BLOOD}
     # AND THEN THE PARENTS OF ALL OF THEM, TO THE ROOT, so that a page that says
     # "child of X" can link X (see ancestry.parents_closure()).
-    base = {pid for pid in parents_closure(people, families, base) if pid in avail}
+    base = {pid for pid in parents_closure(people, families, base) if pid in avail_all} - MINORS
     # EVERY PERSON THE ARCHIVE NAMES HAS A PAGE (David, 16 October 2026). A relative
     # named on a published page, and anybody tagged on a published photograph, is
     # published too. This is one step and does not cascade: see relations(allowed=).
@@ -773,9 +789,14 @@ def write_living_rule(cls, people, emitted, base):
             {"id": "held-out", "rule": "An undated person (no birth year) with a living parent, not "
                                         "recorded dead and with no public source, is held out: no page, "
                                         "no name as anyone's relative."},
-            {"id": "children", "rule": "A child with a known birth year under 18 is NOT held out. They "
-                                        "follow the standard: name, relationships, town and country, a "
-                                        "page, no dates, noindex."},
+            {"id": "minors", "rule": "A POSSIBLE MINOR is held out and published nowhere: no page, no name page, "
+                                     "no name as anyone's relative, no photograph, no entry in any list or index. "
+                                     "A possible minor is somebody with no death record who is born this year minus "
+                                     "18 or later, or is undated with a parent born in 1975 or later (David, 25 "
+                                     "October 2026; it replaces the 16 October rule that a child with a known birth "
+                                     "year follows the ordinary living standard). The kit's living_rule.py does not "
+                                     "hold them out (KIT GAP): tools/livingset.py minor_ids() computes them and "
+                                     "passes them to the kit's is_held_out as held_ids. They remain living."},
             {"id": "named-have-pages", "rule": "Every person the archive names (a relative on a "
                                                 "published page, or tagged on a published photograph) "
                                                 "has a person page. Not recursive."},
@@ -784,6 +805,7 @@ def write_living_rule(cls, people, emitted, base):
             "peopleInTree": len(people),
             "living": len(cls["living"]),
             "heldOut": len(cls["held"]),
+            "minorsHeld": len(cls["minors"]),
             "livingWithPage": sum(1 for i in emitted if i in cls["living"]),
             "deadWithPage": sum(1 for i in emitted if i not in cls["living"]),
             "publishedOnlyBecauseNamed": len(emitted) - len(base),

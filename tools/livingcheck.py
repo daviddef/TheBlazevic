@@ -588,6 +588,15 @@ def independent_status(people, livingset):
     """(living, held) from the KIT's living_rule.py, written out again here and not
     taken from the generator. Only the lookups for 'recorded dead on another
     record' (a death read, a grave photograph, a stone) are shared with it."""
+    return independent_status3(people, livingset)[:2]
+
+
+def independent_status3(people, livingset):
+    """(living, held, minors). POSSIBLE MINORS (David, 25 October 2026) are written out here AGAIN, sharing nothing
+    with livingset.minor_ids: somebody with no death record who is born this year minus 18 or later, or has no birth
+    year (and no bare death flag) and a parent born in 1975 or later. They are living AND held out (not published at
+    all); the kit's own is_held_out is called with them as held_ids, as the generator does. KIT GAP: the kit's
+    possible_minor leaves every child with a birth year published."""
     import living_rule as lr
     ty = lr.this_year()
     extra, _ = livingset.extra_dead(people)
@@ -621,10 +630,21 @@ def independent_status(people, livingset):
     # the Mazza archive. An undated person is unchanged. (Kit gap, reported; tools/livingyears.py pins this.)
     cites = lambda p: () if by(p) is not None else p.get("cites", ())
     living = {i for i, p in people.items() if lr.is_living(by(p), dead(i, p), cites(p), ty, undated_dead=flag(i, p))}
-    held = {i for i, p in people.items() if i not in living and lr.is_held_out(
+    minors = set()
+    for i, p in people.items():
+        if dead(i, p):
+            continue
+        b = by(p)
+        if b is not None:
+            if b >= ty - 18:
+                minors.add(i)
+        elif dkind(p) != "flag" and any((by(people[q]) or 0) >= 1975 for q in p.get("parents", []) if q in people):
+            minors.add(i)
+    held = {i for i, p in people.items() if (i not in living or i in minors) and lr.is_held_out(
         i, by(p), dkind(p) == "record" or i in extra, p.get("cites", ()),
-        any(par in living for par in p.get("parents", [])), (), ty, undated_dead=dkind(p) == "flag" and i not in extra)}
-    return living, held
+        any(par in living for par in p.get("parents", [])), minors, ty,
+        undated_dead=dkind(p) == "flag" and i not in extra)}
+    return living, held, minors
 
 
 class Ged:
@@ -638,7 +658,7 @@ class Ged:
         self.gedcom, self.livingset = gedcom, livingset
         self.people, self.families = gedcom.load()
         # WHO IS LIVING, recomputed HERE with the kit's rule and not by the generator.
-        self.living, self.held = independent_status(self.people, livingset)
+        self.living, self.held, self.minors = independent_status3(self.people, livingset)
         self.named = self.living - self.held
         self.display = {i: gedcom.display(p) for i, p in self.people.items()}
         self.dead = set(self.people) - self.living - self.held
@@ -664,6 +684,19 @@ class Ged:
         # name, anywhere in the tree: those are subtracted and counted
         all_dead_names = set(pub_dead) | {self.display[i] for i in self.dead}
         self.nm_held = livingnames.Names([self.display[i] for i in self.held], all_dead_names)
+        self.nm_minor = livingnames.Names([self.display[i] for i in self.minors], all_dead_names)
+        # A SLUG IS A NAME (/people/<slug>/, a ratchet's page keys, a ledger): a hyphenated form is not found by the name
+        # scan. A possible minor's slug, with or without a namesake's -N, is searched for as a whole token, unless it is
+        # the slug of somebody the archive publishes (a namesake) or the name is borne by one (a /who/ page).
+        pub_rows = list(w["people"]) + list(w["ancestors"]) + list(w["living"])
+        pub_slugs = {r["slug"] for r in pub_rows if r.get("slug")}
+        pub_who = {slugify(r["name"]) for r in pub_rows if r.get("name")}
+        base = {slugify(self.display[i]) for i in self.minors}
+        base = {b for b in base if b and b.count("-") >= 1 and b not in pub_who}
+        self.minor_slug_re = (re.compile(r"(?<![a-z0-9-])(?:%s)(?:-\d+)?(?![a-z0-9-])"
+                                         % "|".join(re.escape(b) for b in sorted(base, key=len, reverse=True)))
+                              if base else None)
+        self.pub_slugs = pub_slugs
         self.nm_unpub = livingnames.Names(
             [self.display[i] for i in self.living - self.held if fold(self.display[i]) not in pubfold],
             pub_dead)
@@ -682,6 +715,14 @@ class Ged:
             n = self.nm_held.count_hits(text)
             if n:
                 out.append(("GED-HELD", where, f"{n} held-out person's name is in the file"))
+            # --- possible minors (David, 25 October 2026): published nowhere, so no id and no name, anywhere -------
+            mids = {m.group(0) for m in RECORDID.finditer(text)} & self.minors
+            n = self.nm_minor.count_hits(text)
+            if self.minor_slug_re is not None and "-" in text:
+                n += sum(1 for m in self.minor_slug_re.finditer(text.lower()) if m.group(0) not in self.pub_slugs)
+            if mids or n:
+                out.append(("GED-MINOR", where, "a possible minor is in the file (%d tree id(s), %d name(s)); possible "
+                                                "minors are published nowhere" % (len(mids), n)))
             # --- dates of any living person -----------------------------------
             hits = first_dates(text, self.forbid, self.owner_names)
             if hits:
@@ -706,6 +747,8 @@ class Ged:
             i = by_slug.get(r["slug"])
             if i is None:
                 out.append(("GED-DEAD", r["slug"], "a living row whose slug is not in the frozen ledger"))
+            elif i in self.minors:
+                out.append(("GED-MINOR", r["slug"], "a possible minor has a living page; they are published nowhere"))
             elif i in self.held:
                 out.append(("GED-DEAD", r["slug"], "a person the rule HOLDS OUT has a page"))
             elif i not in self.living:
@@ -726,7 +769,7 @@ class Ged:
                             "a living or held-out person is published as somebody who has died"))
         rule = w.get("rule") or {}
         counts = rule.get("counts") or {}
-        want = {"living": len(self.living), "heldOut": len(self.held),
+        want = {"living": len(self.living), "heldOut": len(self.held), "minorsHeld": len(self.minors),
                 "livingWithPage": len(w["living"]), "deadWithPage": len(w["people"])}
         for k, v in want.items():
             if counts.get(k) != v:
@@ -953,15 +996,25 @@ def selftest_rule():
         "@IZ5@": person("@IZ5@", born=Y - 80),                                    # 80 by year: living
         "@IZ6@": person("@IZ6@", born=Y - 81),                                    # 81 by year: not living
         "@IZ7@": person("@IZ7@", parents=["@IZ1@"]),                              # no birth year, living parent: HELD
-        "@IZ8@": person("@IZ8@", parents=["@IZ2@"]),                              # no birth year, dead parent: neither
+        "@IZP@": person("@IZP@", born=1960, events=["burial"]),                   # a parent born 1960, dead
+        "@IZ8@": person("@IZ8@", parents=["@IZP@"]),                              # no birth year, dead parent born 1960: neither
+        "@IZR@": person("@IZR@", parents=["@IZP@"], cites=["FamilySearch"]),      # undated, public source, old dead parent: not held
         "@IZ9@": person("@IZ9@", born=Y - 40, cites=["FamilySearch Family Tree"]),  # a public source: STILL living (dated)
         "@IZA@": person("@IZA@", born=Y - 40, cites=["MyHeritage Family Tree | tree profile"]),  # private tree: living
-        "@IZB@": person("@IZB@", parents=["@IZ1@"], cites=["FamilySearch"]),      # undated, public source: not held
+        "@IZB@": person("@IZB@", parents=["@IZ1@"], cites=["FamilySearch"]),      # undated, public source, parent born Y-40: HELD (supplement)
         "@IZC@": person("@IZC@", born=1799),                                      # a planted ancient birth: not living
         "@IZD@": person("@IZD@", born=Y - 40, death_date="2 FEB " + str(Y - 3)),  # a dated death: dead
         "@IZE@": person("@IZE@", born=1799, events=["death"]),                    # a bare flag, born long ago: dead
         "@IZF@": person("@IZF@", events=["death"]),                               # a bare flag, no birth year: dead
         "@IZG@": person("@IZG@", born=Y - 40, events=["death"], cites=["FamilySearch Family Tree"]),  # flag + public source: living
+        # POSSIBLE MINORS (David, 25 October 2026): held out and published nowhere
+        "@IZH@": person("@IZH@", born=Y - 18),                                    # the edge: this year minus 18
+        "@IZI@": person("@IZI@", born=Y - 19),                                    # one year older: an adult
+        "@IZJ@": person("@IZJ@", born=Y - 3, events=["burial"]),                  # a child who has died: neither
+        "@IZK@": person("@IZK@", born=1976, death_date="3 MAR 2001"),             # a parent born 1976, dead
+        "@IZL@": person("@IZL@", parents=["@IZK@"]),                              # undated, that parent's child: held (the kit would not)
+        "@IZM@": person("@IZM@", born=1974, death_date="3 MAR 2001"),             # a parent born 1974, dead
+        "@IZN@": person("@IZN@", parents=["@IZM@"]),                              # undated, that parent's child: not held
     }
     mine = {}
     for label, (living, held) in (("generator", (lambda c: (c["living"], c["held"]))(livingset.classify(P, {}))),
@@ -974,14 +1027,20 @@ def selftest_rule():
             "a bare flag for somebody born long ago is a death": "@IZE@" not in living,
             "a bare flag and no birth year is a death": "@IZF@" not in living and "@IZF@" not in held,
             "a bare flag plus a public source still leaves a dated person living": "@IZG@" in living,
-            "a child with a known birth year is living and NOT held out": "@IZ4@" in living and "@IZ4@" not in held,
+            "a child with a known birth year is living AND held out (possible minor)": "@IZ4@" in living and "@IZ4@" in held,
+            "born this year minus 18 is a possible minor": "@IZH@" in held and "@IZH@" in living,
+            "born this year minus 19 is not": "@IZI@" not in held,
+            "a child who has died is neither living nor held": "@IZJ@" not in held and "@IZJ@" not in living,
+            "undated, a parent born 1976 (dead): held out, though the kit alone would not": "@IZL@" in held,
+            "undated, a parent born 1974 (dead): not held": "@IZN@" not in held,
             "80 by year is living": "@IZ5@" in living,
             "81 by year is not living": "@IZ6@" not in living,
             "no birth year and a living parent is held out": "@IZ7@" in held and "@IZ7@" not in living,
-            "no birth year and a dead parent is not held out": "@IZ8@" not in held and "@IZ8@" not in living,
+            "no birth year and a dead parent born 1960 is not held out": "@IZ8@" not in held and "@IZ8@" not in living,
             "a public source does NOT release a dated person (the Mazza case)": "@IZ9@" in living,
             "a private tree entry does not": "@IZA@" in living,
-            "undated with a public source is not held out": "@IZB@" not in held,
+            "undated with a public source is not held out when the parent is old": "@IZR@" not in held and "@IZR@" not in living,
+            "undated with a public source but a parent born 1975 or later IS held out (the supplement)": "@IZB@" in held,
             "a birth in 1799 is not living": "@IZC@" not in living,
         }
     res = {}
@@ -1000,10 +1059,11 @@ def selftest_ged(w):
     ok = not base
     G = ged.gedcom
     two = lambda i: len(ged.display[i].split()) >= 2
-    held_i = next(i for i in sorted(ged.held) if two(i)
+    held_i = next(i for i in sorted(ged.held - ged.minors) if two(i)
                   and fold(ged.display[i]) not in ged.nm_held.dead_folded and ged.nm_held.forbidden)
     held_name = ged.display[held_i]
-    held_dated = next((i for i in sorted(ged.held) if two(i) and any(date_forms(e.get("date", ""))
+    held_dated = next((i for i in sorted(ged.held & ged.living) if two(i) and re.fullmatch(r"[\w ]+", ged.display[i])
+                       and any(date_forms(e.get("date", ""))
                                                                     for e in ged.people[i]["events"])), None)
     hd = None
     if held_dated:
@@ -1029,6 +1089,38 @@ def selftest_ged(w):
         mut(w2)
         return hit(label, rule, ged.data_rules(w2))
 
+    # POSSIBLE MINORS (David, 25 October 2026): published nowhere. The planted name is a real minor's, read from the tree.
+    minor_i = next((i for i in sorted(ged.minors)
+                    if any(ph in ged.nm_minor.forbidden for ph in livingnames.folded_phrases(ged.display[i]))), None)
+    print(f"  control   possible minors held out by the tree: {len(ged.minors)} "
+          f"({len(ged.minors & ged.living)} living, {len(ged.minors - ged.living)} undated)  [expect > 0]")
+    ok = ok and bool(ged.minors) and minor_i is not None
+    if minor_i:
+        minor_name = ged.display[minor_i]
+        res.append(scan("a possible minor's NAME on a built page", "GED-MINOR",
+                        {"dist:people/x/index.html": f"<p>{minor_name}</p>"}))
+        res.append(scan("a possible minor's NAME in a search index", "GED-MINOR",
+                        {"dist:searchindex.json": '[{"k":"Person","t":"%s"}]' % minor_name}))
+        slug_i = next((i for i in sorted(ged.minors) if slugify(ged.display[i]) in
+                       {m.group(0) for m in [ged.minor_slug_re.search(slugify(ged.display[i]))] if m}), None)
+        if slug_i:
+            res.append(scan("a possible minor's SLUG in a ratchet file keyed by page", "GED-MINOR",
+                            {"tracked:site/.linkfloor.json": '{"pages": {"/people/%s/": 0}}' % slugify(ged.display[slug_i])}))
+        else:
+            print("  MISSED    no possible minor has a slug that can be searched for"); res.append(False)
+        res.append(scan("a possible minor's NAME in a derived data file", "GED-MINOR",
+                        {"tracked:site/src/data/x.json": '{"name":"%s"}' % minor_name}))
+        res.append(scan("a possible minor's TREE ID in a served page", "GED-MINOR",
+                        {"dist:index.html": "<!-- %s -->" % minor_i}))
+        res.append(data("a possible minor given a living page", "GED-MINOR",
+                        lambda w2: (w2["living"].append({"slug": "zzplant", "name": "Zz Plant", "town": "", "country": "",
+                                                         "living": True, "rel": {}}), w2["ledger"].__setitem__(minor_i, "zzplant"))))
+        res.append(data("a possible minor named as a living relative", "GED-DEAD",
+                        lambda w2: w2["people"][0]["rel"]["children"].append(
+                            {"name": minor_name, "slug": None, "living": True})))
+        res.append(data("the record of the rule saying a different number of minors held", "GED-RULE",
+                        lambda w2: w2.__setitem__("rule", {**w2["rule"], "counts": {**w2["rule"]["counts"],
+                                                                                 "minorsHeld": w2["rule"]["counts"]["minorsHeld"] + 1}})))
     res.append(scan("a held-out person's NAME in a derived data file", "GED-HELD",
                     {"tracked:site/src/data/x.json": '{"name":"%s"}' % held_name}))
     res.append(scan("a held-out person's TREE ID in a served page", "GED-HELD",
@@ -1063,10 +1155,10 @@ def selftest_ged(w):
         ged.owner_names.pop("@IZZ@", None)
     res.append(data("a person the rule HOLDS OUT given a living page", "GED-DEAD",
                     lambda w2: (w2["living"].append({"slug": "zzplant", "name": "Zz Plant", "town": "", "country": "",
-                                                     "living": True, "rel": {}}), w2["ledger"].__setitem__("zzplant", held_i))))
+                                                     "living": True, "rel": {}}), w2["ledger"].__setitem__(held_i, "zzplant"))))
     res.append(data("a person the tree records as DEAD given a living page", "GED-DEAD",
                     lambda w2: (w2["living"].append({"slug": "zzplant", "name": "Zz Plant", "town": "", "country": "",
-                                                     "living": True, "rel": {}}), w2["ledger"].__setitem__("zzplant", dead_i))))
+                                                     "living": True, "rel": {}}), w2["ledger"].__setitem__(dead_i, "zzplant"))))
     res.append(data("a recorded-dead person named as a living relative", "GED-DEAD",
                     lambda w2: w2["people"][0]["rel"]["children"].append(
                         {"name": ged.display[dead_i], "slug": None, "living": True})))

@@ -31,8 +31,8 @@
    "rule": "An undated person (no birth year) with a living parent, not recorded dead and with no public source, is held out: no page, no name as anyone's relative."
   },
   {
-   "id": "children",
-   "rule": "A child with a known birth year under 18 is NOT held out. They follow the standard: name, relationships, town and country, a page, no dates, noindex."
+   "id": "minors",
+   "rule": "A POSSIBLE MINOR is held out and published nowhere: no page, no name page, no name as anyone's relative, no photograph, no entry in any list or index. A possible minor is somebody with no death record who is born this year minus 18 or later, or is undated with a parent born in 1975 or later (David, 25 October 2026; it replaces the 16 October rule that a child with a known birth year follows the ordinary living standard). The kit's living_rule.py does not hold them out (KIT GAP): tools/livingset.py minor_ids() computes them and passes them to the kit's is_held_out as held_ids. They remain living."
   },
   {
    "id": "named-have-pages",
@@ -42,8 +42,9 @@
  "counts": {
   "peopleInTree": 15642,
   "living": 487,
-  "heldOut": 95,
-  "livingWithPage": 47,
+  "heldOut": 137,
+  "minorsHeld": 67,
+  "livingWithPage": 35,
   "deadWithPage": 4487,
   "publishedOnlyBecauseNamed": 1652,
   "deadOnOtherRecord": 17,

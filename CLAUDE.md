@@ -59,6 +59,19 @@ Somebody born within the last 80 years with no death recorded is living: named w
 (no year, no date, no record, no photograph, no structured data). The edge is ONE derived constant, `livingset.cutoff_year()`
 (this year minus the kit's `LIVING_YEARS`: 1946 in 2026), imported by the generators and by `tools/livingyears.py`.
 
+- **Possible minors are published nowhere (David, 25 October 2026).** The kit holds out only an UNDATED person with a living parent and
+  leaves every child with a known birth year published (David's 16 October ruling); the sweep of 25 October found 12 children with pages
+  and their names on their parents' pages. `livingset.minor_ids()` is the archive-side supplement (KIT GAP, not edited): no death record and
+  born this year minus `MINOR_YEARS` (18: 2008 in 2026) or later, or undated (no bare death flag) with a parent born in `PARENT_BORN_FROM`
+  (1975) or later, whether or not that parent is alive. They go to the kit's own `is_held_out` as `held_ids`, so they are in `held` (and still in
+  `living`): no page, no name page, no name as a relative, no photograph, no list or index entry, and no line in `person-slugs.json` (the one
+  exception to "never deleted": an id and a name are on that line and the file is public). `build_site_data.py` keeps deciding WHO ELSE is
+  published as if they were there (a child's mother's line was published because the child is a blood descendant), then drops them: without that
+  588 dead people went with the two sons. Both gates recompute the minors from the tree with code of their own (`livingcheck.independent_status3`,
+  `livingyears.independent_status`), and `livingcheck.py` fails GED-MINOR when a minor's id or name is in any built or tracked file or has a
+  living page (planted faults in `--selftest`, which needs no tree, and `--selftest-ged`, which does). **CI has no tree, so GED-MINOR does not run
+  there**; what CI keeps is `sources/living-rule.json` (`minorsHeld`, the `minors` rule) under `regen.py --check`, and the committed
+  `names-index.json`, which carries no held-out bearer.
 - **The kit carries the rule (341af33, 25 October 2026).** `living_rule.is_living` no longer lets a public-source citation or a
   bare death flag release anybody born inside the window. `tools/livingset.py` passes `undated_dead=True` for a DEAT event that is
   only `Y` (no date, no place, no cause or note, no burial: `death_evidence() == "flag"`) and `recorded_dead` for a real record.
