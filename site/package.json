@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4324",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:repo && npm run check:records && npm run atlas && astro build && npm run autolink && npm run sitemap && npm run check:book && npm run check:living && npm run check:living-standard && npm run check:living-years && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:alsoin && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav && npm run check:links && npm run check:rec && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
+    "build": "npm run check:pin && npm run check:repo && npm run check:records && npm run atlas && astro build && npm run autolink && npm run sitemap && npm run check:book && npm run check:living && npm run check:living-standard && npm run check:living-years && npm run check:prose:build && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:found && npm run check:snapshots && npm run check:numbers && npm run check:holdings && npm run check:dates && npm run check:stamp && npm run check:pages && npm run check:familypages && npm run check:alsoin && npm run check:inline && npm run check:rows && npm run check:datalinks && npm run check:notes && npm run check:household && npm run check:nav && npm run check:lines && npm run check:links && npm run check:rec && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
     "preview": "astro preview --port 4324",
     "autolink": "python3 ../tools/autolink_run.py",
     "check:links": "python3 ../tools/autolink_run.py --gate",
@@ -33,6 +33,7 @@
     "check:familypages": "python3 ../tools/familycheck.py --selftest && python3 ../tools/familycheck.py --dist \"${ARCHIVE_OUT:-dist}\"",
     "check:alsoin": "python3 ../tools/check_also_in.py --selftest && python3 ../tools/check_also_in.py",
     "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",
+    "check:lines": "python3 ../tools/living_slugs.py && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --lines src/data/lines.json --dist \"${ARCHIVE_OUT:-dist}\" --config standard.json --living ../../private/blazevic/living-slugs.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --selftest",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 3",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
     "check:numbers": "python3 ../tools/numbercheck.py",

@@ -10,65 +10,69 @@
      "key": "smokvica",
      "colour": "#2f7f8c",
      "label": "Smokvica Krmpotska, then Senj — Toma Blažević, day labourer (ours)",
-     "conf": "EIGHT GENERATIONS FROM 1750 · FIVE IN A PARISH BOOK NOBODY HAS OPENED · TOMA'S 1907 DEATH READ",
      "read": "The Blažević page →",
      "href": "/blazevic/",
      "nodes": [
-      [
-       "Mateša",
-       "1750",
-       "Mateša Blažević, born 1750 — the earliest on the line (ahnentafel 128), placed at Smokvica Krmpotska; the family tree only, no record of his own read here"
-      ],
-      [
-       "Grgica",
-       "1770",
-       "Grgica Blažević, born 1770 (ahnentafel 64) — the family tree only"
-      ],
-      [
-       "Ilija",
-       "1790",
-       "Ilija Blažević, born 1790 (ahnentafel 32), at Smokvica Krmpotska in the family tree; Luka and Anton are both his sons"
-      ],
-      [
-       "Anton",
-       "—",
-       "Anton Blažević, Toma's father (ahnentafel 16), at Smokvica Krmpotska in the family tree; no birth year"
-      ],
-      [
-       "Toma",
-       "1838",
-       "Toma born 27 January 1838 at house 114, Smokvica Krmpotska (ahnentafel 8) — the tree's date; his death entry gives his birthplace as the parish Sv. Jakov Krmpote"
-      ],
-      [
-       "Br. 114",
-       "1882–84",
-       "Toma recorded at Br. 114, Smokvica Krmpotska, with Terezija Pećanić at the baptisms of Ivan (1882) and Tonka (1884)"
-      ],
-      [
-       "Frane",
-       "1890",
-       "The baptism of 2 August 1890, the control document: Pave Blažević and Marija rođ. Tomljanović are at Smokvica 114 too, and that Pavao is the son of Luka, not of Toma — three distinct families under one number across thirteen years. Pavao and Toma are first cousins, and Smokvica 114 is a zadruga"
-      ],
-      [
-       "Ljubomir",
-       "1892",
-       "Ljubomir born 1 March 1892 at Rijeka (ahnentafel 2)"
-      ],
-      [
-       "Juraj",
-       "1895",
-       "«Jurko Blažević i Tereza rođ. Žubrinić, selj.» at Smokvica kbr. 114 (ahnentafel 4) — the number places him in Ilija's kin-group and does not say which man fathered him"
-      ],
-      [
-       "Toma d.",
-       "1907",
-       "Toma Blažević, nadničar, widower of the late Tereza, aged 69, dies at Senj of tuberculosis on 26 July 1907 — Senj deaths 1907, page 225, entry 60"
-      ],
-      [
-       "Hedviga",
-       "1926",
-       "Hedviga born at Senj (ahnentafel 1); she dies at Johannesburg in 2001"
-      ]
+      {
+       "place": "Mateša",
+       "year": "1750",
+       "why": "Mateša Blažević, born 1750 — the earliest on the line (ahnentafel 128), placed at Smokvica Krmpotska; the family tree only, no record of his own read here",
+       "evidence": "tree"
+      },
+      {
+       "place": "Grgica",
+       "year": "1770",
+       "why": "Grgica Blažević, born 1770 (ahnentafel 64) — the family tree only",
+       "evidence": "tree"
+      },
+      {
+       "place": "Ilija",
+       "year": "1790",
+       "why": "Ilija Blažević, born 1790 (ahnentafel 32), at Smokvica Krmpotska in the family tree; Luka and Anton are both his sons",
+       "evidence": "tree"
+      },
+      {
+       "place": "Anton",
+       "year": "—",
+       "why": "Anton Blažević, Toma's father (ahnentafel 16), at Smokvica Krmpotska in the family tree; no birth year",
+       "evidence": "tree"
+      },
+      {
+       "place": "Toma",
+       "year": "1838",
+       "why": "Toma born 27 January 1838 at house 114, Smokvica Krmpotska (ahnentafel 8) — the tree's date; his death entry gives his birthplace as the parish Sv. Jakov Krmpote",
+       "evidence": "tree"
+      },
+      {
+       "place": "Br. 114",
+       "year": "1882–84",
+       "why": "Toma recorded at Br. 114, Smokvica Krmpotska, with Terezija Pećanić at the baptisms of Ivan (1882) and Tonka (1884)"
+      },
+      {
+       "place": "Frane",
+       "year": "1890",
+       "why": "The baptism of 2 August 1890, the control document: Pave Blažević and Marija rođ. Tomljanović are at Smokvica 114 too, and that Pavao is the son of Luka, not of Toma — three distinct families under one number across thirteen years. Pavao and Toma are first cousins, and Smokvica 114 is a zadruga"
+      },
+      {
+       "place": "Ljubomir",
+       "year": "1892",
+       "why": "Ljubomir born 1 March 1892 at Rijeka (ahnentafel 2)"
+      },
+      {
+       "place": "Juraj",
+       "year": "1895",
+       "why": "«Jurko Blažević i Tereza rođ. Žubrinić, selj.» at Smokvica kbr. 114 (ahnentafel 4) — the number places him in Ilija's kin-group and does not say which man fathered him"
+      },
+      {
+       "place": "Toma d.",
+       "year": "1907",
+       "why": "Toma Blažević, nadničar, widower of the late Tereza, aged 69, dies at Senj of tuberculosis on 26 July 1907 — Senj deaths 1907, page 225, entry 60"
+      },
+      {
+       "place": "Hedviga",
+       "year": "1926",
+       "why": "Hedviga born at Senj (ahnentafel 1); she dies at Johannesburg in 2001"
+      }
      ],
      "ends": [
       [
@@ -81,125 +85,155 @@
        "/direct-line",
        "The line ends with a woman who died in Johannesburg"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1882,
+      null
+     ],
+     "statusNote": "the five before Toma are the tree's, in a parish book nobody has opened",
+     "detail": "EIGHT GENERATIONS FROM 1750 · FIVE IN A PARISH BOOK NOBODY HAS OPENED · TOMA'S 1907 DEATH READ"
     },
     {
      "key": "mrzli-dol",
      "colour": "#b07a2a",
      "label": "Mrzli Dol and Krivi Put — the Blaževići who married Pavelići (not ours)",
-     "conf": "TREE ONLY · 57 OF THE NAME IN A PART OF THE TREE OF 170 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Ane",
-       "1794",
-       "Ane Blažević, born 1794, no place and no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1812–1824)"
-      ],
-      [
-       "Anton Kljapo",
-       "1824",
-       "Anton Kljapo Blažević (2 May 1824 – 15 May 1897) and Marija Šojat (b. 1825), Mrzli Dol 6 in the tree: nine children recorded, 1840–1865"
-      ],
-      [
-       "Maria × Pavelić",
-       "1850",
-       "Maria Blažević (b. 1850) and Ivan Pavelić (b. 1851): eight children recorded, 1874–1893"
-      ],
-      [
-       "Antonia × Pavelić",
-       "1852",
-       "Antonia Blažević (b. 1852) and Martinus Dujo Pavelić (b. 1853): ten children recorded, 1873–1898"
-      ],
-      [
-       "Francika × Pavelić",
-       "1860",
-       "Francika Blažević (b. 1860) and Mihovil Pavelić (b. 1862): nine children recorded, 1885–1904"
-      ],
-      [
-       "57 of the name",
-       "1794–1930",
-       "Of the 57 Blaževići here, 26 are placed at Mrzli Dol, 7 at Krivi Put and 24 have no place. The 170 are 73 Pavelić, 57 Blažević, 6 Prpić, 4 Krmpotić and the rest other names; Mrzli Dol houses 6, 14, 23, 29 and 30 are written for them"
-      ]
+      {
+       "place": "Ane",
+       "year": "1794",
+       "why": "Ane Blažević, born 1794, no place and no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1812–1824)",
+       "evidence": "tree"
+      },
+      {
+       "place": "Anton Kljapo",
+       "year": "1824",
+       "why": "Anton Kljapo Blažević (2 May 1824 – 15 May 1897) and Marija Šojat (b. 1825), Mrzli Dol 6 in the tree: nine children recorded, 1840–1865",
+       "evidence": "tree"
+      },
+      {
+       "place": "Maria × Pavelić",
+       "year": "1850",
+       "why": "Maria Blažević (b. 1850) and Ivan Pavelić (b. 1851): eight children recorded, 1874–1893",
+       "evidence": "tree"
+      },
+      {
+       "place": "Antonia × Pavelić",
+       "year": "1852",
+       "why": "Antonia Blažević (b. 1852) and Martinus Dujo Pavelić (b. 1853): ten children recorded, 1873–1898",
+       "evidence": "tree"
+      },
+      {
+       "place": "Francika × Pavelić",
+       "year": "1860",
+       "why": "Francika Blažević (b. 1860) and Mihovil Pavelić (b. 1862): nine children recorded, 1885–1904",
+       "evidence": "tree"
+      },
+      {
+       "place": "57 of the name",
+       "year": "1794–1930",
+       "why": "Of the 57 Blaževići here, 26 are placed at Mrzli Dol, 7 at Krivi Put and 24 have no place. The 170 are 73 Pavelić, 57 Blažević, 6 Prpić, 4 Krmpotić and the rest other names; Mrzli Dol houses 6, 14, 23, 29 and 30 are written for them",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 57 of the name in a part of the tree of 170 · nothing joins it to our line",
+     "detail": "TREE ONLY · 57 OF THE NAME IN A PART OF THE TREE OF 170 · NOTHING JOINS IT TO OUR LINE"
     },
     {
      "key": "senj",
      "colour": "#a8453a",
      "label": "Senj, Krmpotske Vodice and Fuzine — a 68-person part of the tree (not ours)",
-     "conf": "TREE ONLY · 36 OF THE NAME IN A PART OF THE TREE OF 68 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Theresia Cacic",
-       "1829",
-       "Theresia Cacic, born 1829, with three children — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1847–1859); her husband is a Gregorius Blažević"
-      ],
-      [
-       "Gregorius",
-       "1852–1855",
-       "Gregorius Blažević and Theresia Cacic: three children recorded, 1852–1855"
-      ],
-      [
-       "Antonius",
-       "1858–1861",
-       "Antonius Blažević and Anna Buhovic: three children recorded, 1858–1861"
-      ],
-      [
-       "Ante",
-       "1869–1874",
-       "Antonius «Ante» Blažević and Francisca Gosler (Gofsler): three children recorded, 1869–1874"
-      ],
-      [
-       "Pavao",
-       "1881–1890",
-       "Pavao Blažević and Vincencija Blažević: five children recorded, 1881–1890"
-      ],
-      [
-       "36 of the name",
-       "1835–1901",
-       "Of the 36 Blaževići here, 9 are placed at Senj, 9 at Krmpotske Vodice, Krmpote or Sv. Jakov (the parish Toma's death entry gives as his birthplace), 1 at Fuzine, 1 at Sveti Križ, and 16 have no place"
-      ]
+      {
+       "place": "Theresia Cacic",
+       "year": "1829",
+       "why": "Theresia Cacic, born 1829, with three children — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1847–1859); her husband is a Gregorius Blažević",
+       "evidence": "tree"
+      },
+      {
+       "place": "Gregorius",
+       "year": "1852–1855",
+       "why": "Gregorius Blažević and Theresia Cacic: three children recorded, 1852–1855",
+       "evidence": "tree"
+      },
+      {
+       "place": "Antonius",
+       "year": "1858–1861",
+       "why": "Antonius Blažević and Anna Buhovic: three children recorded, 1858–1861",
+       "evidence": "tree"
+      },
+      {
+       "place": "Ante",
+       "year": "1869–1874",
+       "why": "Antonius «Ante» Blažević and Francisca Gosler (Gofsler): three children recorded, 1869–1874",
+       "evidence": "tree"
+      },
+      {
+       "place": "Pavao",
+       "year": "1881–1890",
+       "why": "Pavao Blažević and Vincencija Blažević: five children recorded, 1881–1890",
+       "evidence": "tree"
+      },
+      {
+       "place": "36 of the name",
+       "year": "1835–1901",
+       "why": "Of the 36 Blaževići here, 9 are placed at Senj, 9 at Krmpotske Vodice, Krmpote or Sv. Jakov (the parish Toma's death entry gives as his birthplace), 1 at Fuzine, 1 at Sveti Križ, and 16 have no place",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 36 of the name in a part of the tree of 68 · nothing joins it to our line",
+     "detail": "TREE ONLY · 36 OF THE NAME IN A PART OF THE TREE OF 68 · NOTHING JOINS IT TO OUR LINE"
     },
     {
      "key": "mrzli-dol-6",
      "colour": "#7a6aa0",
      "label": "Mrzli Dol 6 — Antona Blažević and Marija Sojat's children, and the Pavelići (not ours)",
-     "conf": "TREE ONLY · 10 OF THE NAME IN A PART OF THE TREE OF 30 · TWO OF ITS COUPLES ARE ALSO IN THE 170",
      "read": "The Same Person, Twice →",
      "href": "/duplicates/",
      "nodes": [
-      [
-       "Antona × Sojat",
-       "1853–1863",
-       "Antona Blažević and Marija Sojat: four children recorded — Ivan 1853, Mile 1855, Franjica 1860, Marko 1863 — whom the 170 also gives to Anton Kljapo Blažević and Marija Šojat"
-      ],
-      [
-       "Mile × Pavelić",
-       "1883–1887",
-       "Mile Blažević (b. 1855) and Marija Pavelić (b. 1862): three children recorded, 1883–1887"
-      ],
-      [
-       "Mile Pavelić",
-       "1885–1904",
-       "Mile Pavelić (b. 1862) and Franjica Blažević (b. 1860): nine children recorded, 1885–1904 — the same nine, by name and year, that the 170 gives to Mihovil Pavelić and Francika Blažević"
-      ],
-      [
-       "Marko × Prpić",
-       "1894–1910",
-       "Marko Blažević (b. 1863) and Kate Prpić (b. 1863): two children recorded, 1894–1910"
-      ],
-      [
-       "10 of the name",
-       "1853–1910",
-       "Of the 10 Blaževići here, 6 are placed at Mrzli Dol (houses 6 and 30 are written for the part) and 4 have no place"
-      ]
+      {
+       "place": "Antona × Sojat",
+       "year": "1853–1863",
+       "why": "Antona Blažević and Marija Sojat: four children recorded — Ivan 1853, Mile 1855, Franjica 1860, Marko 1863 — whom the 170 also gives to Anton Kljapo Blažević and Marija Šojat",
+       "evidence": "tree"
+      },
+      {
+       "place": "Mile × Pavelić",
+       "year": "1883–1887",
+       "why": "Mile Blažević (b. 1855) and Marija Pavelić (b. 1862): three children recorded, 1883–1887",
+       "evidence": "tree"
+      },
+      {
+       "place": "Mile Pavelić",
+       "year": "1885–1904",
+       "why": "Mile Pavelić (b. 1862) and Franjica Blažević (b. 1860): nine children recorded, 1885–1904 — the same nine, by name and year, that the 170 gives to Mihovil Pavelić and Francika Blažević",
+       "evidence": "tree"
+      },
+      {
+       "place": "Marko × Prpić",
+       "year": "1894–1910",
+       "why": "Marko Blažević (b. 1863) and Kate Prpić (b. 1863): two children recorded, 1894–1910",
+       "evidence": "tree"
+      },
+      {
+       "place": "10 of the name",
+       "year": "1853–1910",
+       "why": "Of the 10 Blaževići here, 6 are placed at Mrzli Dol (houses 6 and 30 are written for the part) and 4 have no place",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 10 of the name in a part of the tree of 30 · two of its couples are also in the 170",
+     "detail": "TREE ONLY · 10 OF THE NAME IN A PART OF THE TREE OF 30 · TWO OF ITS COUPLES ARE ALSO IN THE 170"
     }
    ],
    "bridges": [
@@ -211,140 +245,6 @@
      "href": "/lines/#blazevic"
     }
    ],
-   "unplaced": [
-    [
-     "Anna, daughter of the late Ivan Blažević, Senj 1754",
-     "/found/anna-blazevic-bride-of-josip-kosovic-1754/",
-     "Read from the Senj marriage register: bride of Josip Kosović on 14 February 1754, her father already dead. Not in the tree"
-    ],
-    [
-     "Anna, widow of Mate Blažević, Senj 1768",
-     "/found/anna-widow-of-mate-blazevic/",
-     "Read from the Senj marriage register: marries a Gergo in March 1768, her husband Mate already dead. Not in the tree"
-    ],
-    [
-     "Mate Blažević, groom at Senj, 23 January 1769",
-     "/found/mate-blazevic-of-senj-groom-of-1769/",
-     "Read from the Senj marriage register: marries a widow whose name and place are not legible at the size read, and need a closer look. Not in the tree"
-    ],
-    [
-     "Lorne (Lorenz?) Blažević, groom at Senj, February 1779",
-     "/found/lorne-blazevic-groom-of-1779/",
-     "Read from the Senj marriage register: marries a Franica, the forename and the bride's surname both doubtful. Not in the tree"
-    ],
-    [
-     "Fabianus Blažević, tailor of Senj, 1802–1844",
-     "/found/fabianus-blazevic-widower-aged-74-died-senj-march-1844/",
-     "Read from the Senj registers in three entries: a standing witness at marriages 1802–1812, a widower tailor marrying a widow in 1832, dead on 27 March 1844 aged 74 — very probably one man. No parents or wife named. Not in the tree"
-    ],
-    [
-     "Vincentia Blažević, widow, Senj 1812",
-     "/found/vincentia-blazevic-widow-bride-of-1812/",
-     "Read from the Senj marriage register: marries the widower Petrus Bozijan on 18 August 1812, with Fabianus Blažević a witness; her late husband is not named. Not in the tree"
-    ],
-    [
-     "Margaritha Blažević, died at Senj 24 January 1830",
-     "/found/margaritha-blazevic-died-senj-january-1830/",
-     "Read from the Senj death register: aged about 50, no husband or parents named. Not in the tree"
-    ],
-    [
-     "Francisca Blažević, died at Senj 7 August 1830",
-     "/found/francisca-blazevic-died-senj-august-1830/",
-     "Read from the Senj death register: aged 70, no husband or parents named. Not in the tree"
-    ],
-    [
-     "Margaritha Blažević, died at Senj 18 September 1840",
-     "/found/margaritha-blazevic-died-senj-september-1840/",
-     "Read from the Senj death register: aged 50, with the sacraments, no husband or parents named. Not in the tree"
-    ],
-    [
-     "Jacobus Blažević, aged 10, died at Senj April 1842",
-     "/found/jacobus-blazevic-aged-10-died-senj-april-1842/",
-     "Read from the Senj death register: no parents named. Not in the tree"
-    ],
-    [
-     "Georgius Blažević, son of Ivan, of Krmpote, groom at Senj 9 June 1850",
-     "/found/georgius-blazevic-son-of-ivan-of-krmpote-groom-of-1850/",
-     "Read from the Senj marriage register: aged 21, of the mountain of Krmpote, marrying Tereza Čačić; born about 1829. Not in the tree — compare the Blažević of Krmpote on the archive's own lines"
-    ],
-    [
-     "Mrzli Dol: 6 of the name in 7 people, born 1907–1920",
-     "/buckets/",
-     "The tree only. Four are placed at Mrzli Dol; nothing joins the seven to any lane"
-    ],
-    [
-     "Senj: 6 of the name in 7 people, born 1885–1894",
-     "/buckets/",
-     "The tree only. Four are placed at Senj; one of the seven is a Tomljanović; nothing joins them to any lane"
-    ],
-    [
-     "4 of the name in 5 people, born 1865–1906",
-     "/buckets/",
-     "The tree only. One is placed, at Mrzli Dol; one of the five is a Krmpotić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 10 people, born 1871–1876",
-     "/buckets/",
-     "The tree only. No place is recorded for the three; two others of the ten are placed at Senj, and four of the ten are Prpić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 8 people, born 1858–1860",
-     "/buckets/",
-     "The tree only. No place is recorded; two of the eight are Pavelić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 6 people, born 1888–1897",
-     "/buckets/",
-     "The tree only. One is placed at Sv. Jakov and one at Krmpote — the parish Toma's death entry names — and one other of the six at Senj; nothing joins them to any lane"
-    ],
-    [
-     "Mrzli Dol: 3 of the name in 6 people, born 1864",
-     "/buckets/",
-     "The tree only. Three of the six are placed at Mrzli Dol; two are Prpić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 5 people, born 1854–1863",
-     "/buckets/",
-     "The tree only. One is placed, at Mrzli Dol; one of the five is a Perpić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 5 people, born 1857–1867",
-     "/buckets/",
-     "The tree only. No place is recorded; one of the five is a Pavelić; nothing joins them to any lane"
-    ],
-    [
-     "3 of the name in 3 people, no birth year",
-     "/buckets/",
-     "The tree only. One is placed, at Krmpote; nothing joins them to any lane"
-    ],
-    [
-     "19 smaller parts of the tree, 29 of the name",
-     "/buckets/",
-     "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the 96 islands"
-    ]
-   ],
-   "loose": [
-    [
-     "Antonius Blažević, merchant, Senj — Georgius, baptised 28 April 1861",
-     "/searched/",
-     "A baptism once carried in the tree as a possible Juraj, opened and read at full resolution: the father is a mercator and the mother Anna née Trbuhović, where Juraj's father Toma was a day labourer. A different family — the father decides"
-    ],
-    [
-     "Blaževići at Grižane, 1738",
-     "/searched/",
-     "On a household census a century older than Otočac's, in another parish. They are not claimed: nothing yet joins them to this family"
-    ],
-    [
-     "Sixty-six Blažević memorials in Croatia",
-     "/searched/",
-     "Almost all at Mrkopalj in Gorski Kotar and at Lovinac, which are other families; the cemeteries of this family's own villages hold none on Find a Grave"
-    ],
-    [
-     "Ivica Blažević, Broken Hill, June 1952",
-     "/searched/",
-     "Two funeral notices in the Trove family notices. He is not in the tree, and nothing read ties him to any Blažević in it"
-    ]
-   ],
    "sources": {
     "smokvica": [
      [
@@ -354,7 +254,162 @@
     ]
    },
    "note": "<strong>The tree and the registers say different things about this name, and this page keeps them apart.</strong> The tree publishes 228 Blaževići. 59 of them are joined to Hedviga by ordinary parent, child and marriage links: that is the top lane. The other 169 fall into 32 separate parts of the tree that nothing joins to hers. The three biggest are drawn as lanes below it and marked <em>tree only</em>, because no register has been read for them here; the other 29 are listed under the figure. Blažević is the 17th commonest surname in Croatia (7,216 bearers there), densest in counties that are none of this family's, so a shared surname is <em>not</em> evidence of shared descent: the lower lanes and the lists are not “maybe ours”, they are “not shown to be ours”. The only households of the name outside the top lane that a register shows are the Senj ones of 1754–1850, listed apart. The dotted join is one the tree supplies itself: two couples of the 30-person part are entered again, with the same children by name and year, in the 170-person part under other spellings. See <a href=\"{{base}}/buckets/\">Labels Where the Father Should Be</a>, <a href=\"{{base}}/duplicates/\">The Same Person, Twice</a> and <a href=\"{{base}}/by-names/\">The Second Name</a>.",
-   "owes": "For Blažević that is: <strong>the parish book of Sv. Jakov Krmpote</strong> (named in Toma's death entry and not opened; it should hold Juraj, Anton, Ilija, Grgica and Mateša), <strong>which man of Ilija's kin-group fathered Juraj</strong> (house 114 places him in the group and cannot go further), <strong>Terezija Pećanić's death</strong> (in the Senj register that gave Toma's), and, for the lower lanes, <strong>one marriage entry each</strong>: the tree's own candidates are Ane Blažević (b. 1794) for the 170-person part, a marriage about 1812–1824, and Theresia Cacic (b. 1829) for the 68-person part, about 1847–1859. A register read for Mrzli Dol houses 6 and 30 would say whether the 30-person part and the 170-person part are one family."
+   "owes": "For Blažević that is: <strong>the parish book of Sv. Jakov Krmpote</strong> (named in Toma's death entry and not opened; it should hold Juraj, Anton, Ilija, Grgica and Mateša), <strong>which man of Ilija's kin-group fathered Juraj</strong> (house 114 places him in the group and cannot go further), <strong>Terezija Pećanić's death</strong> (in the Senj register that gave Toma's), and, for the lower lanes, <strong>one marriage entry each</strong>: the tree's own candidates are Ane Blažević (b. 1794) for the 170-person part, a marriage about 1812–1824, and Theresia Cacic (b. 1829) for the 68-person part, about 1847–1859. A register read for Mrzli Dol houses 6 and 30 would say whether the 30-person part and the 170-person part are one family.",
+   "pens": [
+    {
+     "id": "register-households",
+     "kind": "not-yet-placed",
+     "note": "Households of the name that the Senj registers show, 1754–1850, and the tree does not hold. None is shown to belong to any lane here.",
+     "items": [
+      [
+       "Anna, daughter of the late Ivan Blažević, Senj 1754",
+       "/found/anna-blazevic-bride-of-josip-kosovic-1754/",
+       "Read from the Senj marriage register: bride of Josip Kosović on 14 February 1754, her father already dead. Not in the tree"
+      ],
+      [
+       "Anna, widow of Mate Blažević, Senj 1768",
+       "/found/anna-widow-of-mate-blazevic/",
+       "Read from the Senj marriage register: marries a Gergo in March 1768, her husband Mate already dead. Not in the tree"
+      ],
+      [
+       "Mate Blažević, groom at Senj, 23 January 1769",
+       "/found/mate-blazevic-of-senj-groom-of-1769/",
+       "Read from the Senj marriage register: marries a widow whose name and place are not legible at the size read, and need a closer look. Not in the tree"
+      ],
+      [
+       "Lorne (Lorenz?) Blažević, groom at Senj, February 1779",
+       "/found/lorne-blazevic-groom-of-1779/",
+       "Read from the Senj marriage register: marries a Franica, the forename and the bride's surname both doubtful. Not in the tree"
+      ],
+      [
+       "Fabianus Blažević, tailor of Senj, 1802–1844",
+       "/found/fabianus-blazevic-widower-aged-74-died-senj-march-1844/",
+       "Read from the Senj registers in three entries: a standing witness at marriages 1802–1812, a widower tailor marrying a widow in 1832, dead on 27 March 1844 aged 74 — very probably one man. No parents or wife named. Not in the tree"
+      ],
+      [
+       "Vincentia Blažević, widow, Senj 1812",
+       "/found/vincentia-blazevic-widow-bride-of-1812/",
+       "Read from the Senj marriage register: marries the widower Petrus Bozijan on 18 August 1812, with Fabianus Blažević a witness; her late husband is not named. Not in the tree"
+      ],
+      [
+       "Margaritha Blažević, died at Senj 24 January 1830",
+       "/found/margaritha-blazevic-died-senj-january-1830/",
+       "Read from the Senj death register: aged about 50, no husband or parents named. Not in the tree"
+      ],
+      [
+       "Francisca Blažević, died at Senj 7 August 1830",
+       "/found/francisca-blazevic-died-senj-august-1830/",
+       "Read from the Senj death register: aged 70, no husband or parents named. Not in the tree"
+      ],
+      [
+       "Margaritha Blažević, died at Senj 18 September 1840",
+       "/found/margaritha-blazevic-died-senj-september-1840/",
+       "Read from the Senj death register: aged 50, with the sacraments, no husband or parents named. Not in the tree"
+      ],
+      [
+       "Jacobus Blažević, aged 10, died at Senj April 1842",
+       "/found/jacobus-blazevic-aged-10-died-senj-april-1842/",
+       "Read from the Senj death register: no parents named. Not in the tree"
+      ],
+      [
+       "Georgius Blažević, son of Ivan, of Krmpote, groom at Senj 9 June 1850",
+       "/found/georgius-blazevic-son-of-ivan-of-krmpote-groom-of-1850/",
+       "Read from the Senj marriage register: aged 21, of the mountain of Krmpote, marrying Tereza Čačić; born about 1829. Not in the tree — compare the Blažević of Krmpote on the archive's own lines"
+      ]
+     ]
+    },
+    {
+     "id": "tree-parts",
+     "kind": "not-yet-placed",
+     "head": "Other parts of the tree — not yet placed on any of these lines",
+     "note": "The tree's other Blaževići sit in separate parts of it that nothing joins to the direct line. The biggest three are drawn as lanes above; these are the rest, listed by size. They are the tree's alone: no register has been read for them here.",
+     "items": [
+      [
+       "Mrzli Dol: 6 of the name in 7 people, born 1907–1920",
+       "/buckets/",
+       "The tree only. Four are placed at Mrzli Dol; nothing joins the seven to any lane"
+      ],
+      [
+       "Senj: 6 of the name in 7 people, born 1885–1894",
+       "/buckets/",
+       "The tree only. Four are placed at Senj; one of the seven is a Tomljanović; nothing joins them to any lane"
+      ],
+      [
+       "4 of the name in 5 people, born 1865–1906",
+       "/buckets/",
+       "The tree only. One is placed, at Mrzli Dol; one of the five is a Krmpotić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 10 people, born 1871–1876",
+       "/buckets/",
+       "The tree only. No place is recorded for the three; two others of the ten are placed at Senj, and four of the ten are Prpić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 8 people, born 1858–1860",
+       "/buckets/",
+       "The tree only. No place is recorded; two of the eight are Pavelić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 6 people, born 1888–1897",
+       "/buckets/",
+       "The tree only. One is placed at Sv. Jakov and one at Krmpote — the parish Toma's death entry names — and one other of the six at Senj; nothing joins them to any lane"
+      ],
+      [
+       "Mrzli Dol: 3 of the name in 6 people, born 1864",
+       "/buckets/",
+       "The tree only. Three of the six are placed at Mrzli Dol; two are Prpić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 5 people, born 1854–1863",
+       "/buckets/",
+       "The tree only. One is placed, at Mrzli Dol; one of the five is a Perpić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 5 people, born 1857–1867",
+       "/buckets/",
+       "The tree only. No place is recorded; one of the five is a Pavelić; nothing joins them to any lane"
+      ],
+      [
+       "3 of the name in 3 people, no birth year",
+       "/buckets/",
+       "The tree only. One is placed, at Krmpote; nothing joins them to any lane"
+      ],
+      [
+       "19 smaller parts of the tree, 29 of the name",
+       "/buckets/",
+       "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the 96 islands"
+      ]
+     ],
+     "count": 66
+    },
+    {
+     "id": "loose",
+     "kind": "different-stock",
+     "note": "Attached to no line here: nothing read ties them to any lane, so they are kept apart rather than guessed into one.",
+     "items": [
+      [
+       "Antonius Blažević, merchant, Senj — Georgius, baptised 28 April 1861",
+       "/searched/",
+       "A baptism once carried in the tree as a possible Juraj, opened and read at full resolution: the father is a mercator and the mother Anna née Trbuhović, where Juraj's father Toma was a day labourer. A different family — the father decides"
+      ],
+      [
+       "Blaževići at Grižane, 1738",
+       "/searched/",
+       "On a household census a century older than Otočac's, in another parish. They are not claimed: nothing yet joins them to this family"
+      ],
+      [
+       "Sixty-six Blažević memorials in Croatia",
+       "/searched/",
+       "Almost all at Mrkopalj in Gorski Kotar and at Lovinac, which are other families; the cemeteries of this family's own villages hold none on Find a Grave"
+      ],
+      [
+       "Ivica Blažević, Broken Hill, June 1952",
+       "/searched/",
+       "Two funeral notices in the Trove family notices. He is not in the tree, and nothing read ties him to any Blažević in it"
+      ]
+     ]
+    }
+   ]
   },
   {
    "name": "Uroda",
@@ -364,45 +419,44 @@
      "key": "georgius",
      "colour": "#2f7f8c",
      "label": "Karlobag — Georgius × Maria (ours)",
-     "conf": "DOCUMENTED FROM 1763 · HIS BAPTISM, HIS PARENTS AND THEIR MARRIAGE NOT FOUND",
      "read": "The Karlobag pages →",
      "href": "/karlobag",
      "nodes": [
-      [
-       "Godparents",
-       "2 Nov 1763",
-       "Georgius and Maria Uroda are godparents to a child of Paulus and Ursula Smojver — the first sight of them in a register"
-      ],
-      [
-       "1st child",
-       "6 May 1764",
-       "Joannes Dominicus, their first child, baptised — godfather ANTONIO BARACH «OF ŠIBENIK» and Vincentia, wife of Joannes Margvart (re-read at 3x, 11 October 2026); the name Dominicus is the argument that Georgius's father was a Dominicus"
-      ],
-      [
-       "8 children",
-       "1764–1784",
-       "Eight children in the index: Dominicus 1764, Petrus Jacobus 1767, Heva Joanna 1769, Maria Catharina 1772, Heva 1773, Joannes Georgius 1777, Anton Joannis 1780, Joannes 1784"
-      ],
-      [
-       "Joannes G.",
-       "22 Apr 1777",
-       "Joannes Georgius baptised — ahnentafel 54, with both parents named"
-      ],
-      [
-       "Death",
-       "10 Sep 1791",
-       "Dominus Georgius Uroda dies and is buried in his own crypt before the church doors — no age given"
-      ],
-      [
-       "Marriage",
-       "17 Jun 1807",
-       "Georgius, son of the late Georgius, marries Maria Gerkacs (ahnentafel 54 × 55)"
-      ],
-      [
-       "Matia 27",
-       "23 Apr 1810",
-       "Matia baptised, ahnentafel 27 — whose daughter Matia Pilipić (13) is the mother of Josip Papić"
-      ]
+      {
+       "place": "Godparents",
+       "year": "2 Nov 1763",
+       "why": "Georgius and Maria Uroda are godparents to a child of Paulus and Ursula Smojver — the first sight of them in a register"
+      },
+      {
+       "place": "1st child",
+       "year": "6 May 1764",
+       "why": "Joannes Dominicus, their first child, baptised — godfather ANTONIO BARACH «OF ŠIBENIK» and Vincentia, wife of Joannes Margvart (re-read at 3x, 11 October 2026); the name Dominicus is the argument that Georgius's father was a Dominicus"
+      },
+      {
+       "place": "8 children",
+       "year": "1764–1784",
+       "why": "Eight children in the index: Dominicus 1764, Petrus Jacobus 1767, Heva Joanna 1769, Maria Catharina 1772, Heva 1773, Joannes Georgius 1777, Anton Joannis 1780, Joannes 1784"
+      },
+      {
+       "place": "Joannes G.",
+       "year": "22 Apr 1777",
+       "why": "Joannes Georgius baptised — ahnentafel 54, with both parents named"
+      },
+      {
+       "place": "Death",
+       "year": "10 Sep 1791",
+       "why": "Dominus Georgius Uroda dies and is buried in his own crypt before the church doors — no age given"
+      },
+      {
+       "place": "Marriage",
+       "year": "17 Jun 1807",
+       "why": "Georgius, son of the late Georgius, marries Maria Gerkacs (ahnentafel 54 × 55)"
+      },
+      {
+       "place": "Matia 27",
+       "year": "23 Apr 1810",
+       "why": "Matia baptised, ahnentafel 27 — whose daughter Matia Pilipić (13) is the mother of Josip Papić"
+      }
      ],
      "ends": [
       [
@@ -420,56 +474,62 @@
        "/snapshots/#karlobag-baptism-1764-dominicus-uroda",
        "His first child's godfather, Antonio Barach, is «of Šibenik» — a thread to the Dalmatian town, not a descent"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1763,
+      null
+     ],
+     "statusNote": "his baptism, his parents and their marriage not found",
+     "detail": "DOCUMENTED FROM 1763 · HIS BAPTISM, HIS PARENTS AND THEIR MARRIAGE NOT FOUND"
     },
     {
      "key": "dume",
      "colour": "#b07a2a",
      "label": "Karlobag — Dume Uroda «alias Kovaca» × Eva, then Jerolina",
-     "conf": "DOCUMENTED 1733–1750 · BAPTISM, PARENTS, MARRIAGES NOT FOUND · BY-NAME KOVAČ · LINK TO GEORGIUS NOT PROVED",
      "read": "The Dume Uroda page →",
      "href": "/found/dume-uroda/",
      "nodes": [
-      [
-       "Antona",
-       "16 Jan 1733",
-       "Antona baptised to «Sime [or Dume?] Uroda» and Eva — the index reads Sime, the first letter is not firm"
-      ],
-      [
-       "Alias",
-       "8 Mar 1734",
-       "A child, Dominico as read, to «Dume Uroda alias Kovaca» — a smith's by-name — and Eva; first read as «Horaca», re-read at 3x as «kovaca»"
-      ],
-      [
-       "Eva",
-       "12 Jan 1737",
-       "Eva is godmother, «xena Dume urode» — one Eva, 1733 to 1739"
-      ],
-      [
-       "Franica",
-       "Dec 1739",
-       "Franica, daughter of Dume Uroda and Eva"
-      ],
-      [
-       "Jerolina",
-       "1742–1745",
-       "Jerolina is his wife; a son in 1742 (name ends «Juria»), Giakova (Jakov) on 10 May 1744 as the index reads him, Marta on 11 Aug 1745, Lucia on 17 Dec 1746"
-      ],
-      [
-       "Witness",
-       "1744–1749",
-       "A witness at marriages about ten times, and the parish's commonest godparent with Jerolina"
-      ],
-      [
-       "Widow",
-       "Apr 1750",
-       "Jerolima is «udova … Dume Uroda» — he died between December 1748 and April 1750 (no filmed death book)"
-      ],
-      [
-       "Daughters",
-       "1755 · 1767",
-       "Magdalena (1755) and Maria (1767, «of the late Dominicus») marry — daughters of a Dominicus Uroda, probably his"
-      ]
+      {
+       "place": "Antona",
+       "year": "16 Jan 1733",
+       "why": "Antona baptised to «Sime [or Dume?] Uroda» and Eva — the index reads Sime, the first letter is not firm"
+      },
+      {
+       "place": "Alias",
+       "year": "8 Mar 1734",
+       "why": "A child, Dominico as read, to «Dume Uroda alias Kovaca» — a smith's by-name — and Eva; first read as «Horaca», re-read at 3x as «kovaca»"
+      },
+      {
+       "place": "Eva",
+       "year": "12 Jan 1737",
+       "why": "Eva is godmother, «xena Dume urode» — one Eva, 1733 to 1739"
+      },
+      {
+       "place": "Franica",
+       "year": "Dec 1739",
+       "why": "Franica, daughter of Dume Uroda and Eva"
+      },
+      {
+       "place": "Jerolina",
+       "year": "1742–1745",
+       "why": "Jerolina is his wife; a son in 1742 (name ends «Juria»), Giakova (Jakov) on 10 May 1744 as the index reads him, Marta on 11 Aug 1745, Lucia on 17 Dec 1746"
+      },
+      {
+       "place": "Witness",
+       "year": "1744–1749",
+       "why": "A witness at marriages about ten times, and the parish's commonest godparent with Jerolina"
+      },
+      {
+       "place": "Widow",
+       "year": "Apr 1750",
+       "why": "Jerolima is «udova … Dume Uroda» — he died between December 1748 and April 1750 (no filmed death book)"
+      },
+      {
+       "place": "Daughters",
+       "year": "1755 · 1767",
+       "why": "Magdalena (1755) and Maria (1767, «of the late Dominicus») marry — daughters of a Dominicus Uroda, probably his"
+      }
      ],
      "ends": [
       [
@@ -477,126 +537,132 @@
        "/karlobag",
        "The 1742 son «… Juria» might be Georgius, and a Jure Uroda is godfather beside Dume's widow in 1752 — neither shows it"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1733,
+      1750
+     ],
+     "statusNote": "baptism, parents and marriages not found · link to Georgius not proved",
+     "detail": "DOCUMENTED 1733–1750 · BAPTISM, PARENTS, MARRIAGES NOT FOUND · BY-NAME KOVAČ · LINK TO GEORGIUS NOT PROVED"
     },
     {
      "key": "sibenik",
      "colour": "#a8453a",
      "label": "Šibenik (Dolac) — the name from 1687 to 1767; four households by 1692; Franciscus with Anna, a master by 1725; Georgius (b. 6 Oct 1694, son of Dominicus and Lucietta; d. 1754) and his son Dominicus, an elder Dominicus (dead by 1746), Antonius (m. Antonia 1718); a Joannes; the dead Dume of 1739",
-     "conf": "THE NAME AT DOLAC WITHOUT A BREAK 1687–1767 · FOUR HOUSEHOLDS BY 1692 · GEORGIUS (BAPTISED 10 OCT 1694 AT THE CATHEDRAL, SON OF DOMINICUS AND LUCIETTA; D. 17 AUG 1754) FATHER OF DOMINICUS · NO BAPTISM OF A GEORGIUS, DOMINICUS OR DUME IN ANY DOLAC BOOK 1685–1762 · NO LINK TO KARLOBAG",
      "read": "The Šibenik Uroda →",
      "href": "/found/dominicus-uroda-of-sibenik/",
      "nodes": [
-      [
-       "Dominicus Vroda (wife Ursula)",
-       "1687 – 1693",
-       "Godfather 19 Apr 1687 and 22 Feb 1693; «Dominus Vrodich & Vrsula eius coniunx» Jan 1689; father of Lucia (31 Jul 1692) — the earliest Uroda in any Šibenik register; an Aurelia of 17 Sep 1693 (mother Silvia [?]) is doubtful"
-      ],
-      [
-       "Magister Dominicus Vrodda (wife Lucietta [Lucia]) — parents of Georgius",
-       "10 Oct 1694; 14 [Oct] 1696",
-       "Baptised at the cathedral for the Dolac parish: Georgius (born 6 Oct 1694) and Simeon (1696), «ex Coningibus Magistro Domco ac Lucia Vrodda». Lucia is very probably the Lucia, «ux. q. Mag: Dominici Vrodda», aged about 77, who died on 21 Jun 1746 — so this is the elder Magister Dominicus. Whether he is the Dominicus × Ursula of 1687–93 (a second marriage?) is not shown"
-      ],
-      [
-       "Thomas Vrodich (wife Catarina)",
-       "1687 – 1692",
-       "Godfather's wife Catarina in Apr 1687 and 17 Sep 1692; a daughter Justina, old enough to be a godmother, 2 Aug 1692"
-      ],
-      [
-       "Lucas Vrodi (wife Mariota)",
-       "1692 – 1698",
-       "Sons Antonius (6 Aug 1692) and Michael (13 Jul 1698) — the household of Simeon (1705) and Paulus Antonius (1710); a daughter Michaela baptised at the cathedral in Jan 1694 to «Magister Lucas and Maria Vrodal» (in no Dolac book)"
-      ],
-      [
-       "Paulus Vroda (wife Anastasia, later Stanislava [?])",
-       "1691 – 1695",
-       "Godfather's wife Anastasia 2 Dec 1691; godfather with Stanislava [?] 24 Aug 1693; a «Stanca Vroda» godmother Jul 1695"
-      ],
-      [
-       "Joannes and Ursula Vroda",
-       "1703 – 1705",
-       "Sons Paulus (28 Jan 1703) and Antonius (31 May 1705) baptised in the Dolac parish — the earliest Uroda household met in any Šibenik register"
-      ],
-      [
-       "Lucas Vrodich",
-       "27 Oct 1705; 16 Jan 1710",
-       "Sons Simeon (1705) and Paulus Antonius (1710) baptised in the Dolac parish"
-      ],
-      [
-       "Thomas and Anastasia Vrodich",
-       "14 May 1706",
-       "Son Paulus baptised in the Dolac parish"
-      ],
-      [
-       "Antonius Vroda (dead by 1701) and his son Lucas",
-       "13 Nov 1701",
-       "Lucas, «filius qm Antonij Vroda», marries Francisca, daughter of the late Joannes Loveta — a father Antonius in the generation before the 1680s–90s households"
-      ],
-      [
-       "Thomas Vrodich marries Anastasia",
-       "8 Jan 1702",
-       "Thomas Vrodich, widowed of Catarina (1687, 1692) or a namesake, marries Anastasia — the mother of Paulus, baptised 1706"
-      ],
-      [
-       "Paulus Vrodich (dead by 1710) and his son Antonius",
-       "Oct 1710",
-       "Antonius, «filius qdm Pauli Vrodich», marries the widow Anna — Paulus is the Paulus Vroda of 1691–95"
-      ],
-      [
-       "Magister Antonius Vroda (wife Antonia)",
-       "1718 – 1742",
-       "Antonius, son of Lucas Vrodich, marries Antonia on 30 Oct 1718; daughters Marietta (buried 18 Jan 1742) and Dominica (about 13, buried 19 Jul 1742) are «filia Magistri Antonij Vroda»"
-      ],
-      [
-       "Franciscus Vrodich [Urode] (wife Anna, later a Lucia?)",
-       "1710 – 1721",
-       "Son Paulus (23 Oct 1710), daughter Stanislava (21 Nov 1712) and son Franciscus Antonius (born 3 [Oct] 1721, «filius Francisci Urode et Annae») by Anna; daughter SIMONA (21 Oct 1715) by a «Lucia [?]» — the first Franciscus; the master Franciscus of 1725–38 (dead by 1742) is this man or his namesake son"
-      ],
-      [
-       "Georgius Urodich",
-       "1715? – 1721",
-       "Godfather «Georgius Urodich» at Dolac baptisms on 28 Jan 1720 and 27 Dec 1721, perhaps already «D. Georgius Vrodi[ch?]» on 28 Oct 1715 and the Magister Georgius of 1738 — one man or several is not shown"
-      ],
-      [
-       "Dume of Šibenik",
-       "before 1739",
-       "Dume Uroda «od Šibenika» — Dalmatia — nothing else is known of him"
-      ],
-      [
-       "Simona marries",
-       "7 Jun 1739",
-       "Martin Svjata marries Simona, «pokoi[nog] Dume urode od Šibenika» — daughter of the late Dume Uroda of Šibenik"
-      ],
-      [
-       "Magister Franciscus Uroda",
-       "19 Mar 1725 – 15 Nov 1738",
-       "Godfather («Mr / Dñ Francus Vroda», nearly always beside an Angela Julioli) at Dolac baptisms on 19 Mar 1725, 6 Jul and 26 Oct 1728, 7 Jan, 23 Aug and 12 Sep 1729 and 12 Feb 1730, and again 25 Apr 1733, 30 Jan 1735 and, as «Magister», 12 Oct 1738. Dead by 6 May 1742, when his daughter Antonia, wife of a Joannes Biliznich, is called «filia q. Francisci Vrodda de hac Parochia S. Marci» — and dead on 15 Nov 1738 («Magister Franciscus Vroda», buried at the Holy Trinity)"
-      ],
-      [
-       "Georgius Uroda (Magister; born 6 Oct 1694, died 17 Aug 1754)",
-       "1715? – 17 Aug 1754",
-       "**Baptised in the cathedral on 10 Oct 1694, «ex Coniugibus Dominico et Lucietta Vroda»** — the age at death, «60», fits to the month. Godfather «Georgius Urodich» at Dolac 28 Jan 1720 and 27 Dec 1721 (perhaps already 28 Oct 1715); a master, already married, in 1738 («uxor Mri Georgij Vroda»; his wife is not named Maria); ALIVE on 4 Aug 1746, when «Dominico Vrodda, filio Magistri Georgii» is a witness; and DEAD by 13 Feb 1757, when his son Dominicus is called «filius qd. Georgij Vroda»; very probably the «Dominus Georgius Vroda aetatis annorum 60» who died on 17 Aug 1754 and was buried at S. Dominic; a daughter Magdalena, «filia Magistri Georgii Vrode», was buried 29 Oct 1740"
-      ],
-      [
-       "Magister Dominicus Uroda (son of the late Georgius)",
-       "27 Jan 1726 [?]; 1741 – 3 Jun 1767",
-       "A «Mr. Domcus [Dominicus?] Vroda» is godfather at Dolac on 27 Jan 1726; godfather («Magister Dominicus Vroda») 1 Jan and 23 Apr 1741; father, with a wife FLORIA, of Lucia (born 12 Dec 1744) and Vittoria (born 10 May 1745); godfather 27 Jun 1749, 20 Mar 1752 and 6 Jul 1755; on 4 Aug 1746 a witness «Dominicus Vrodda, filius Magistri Georgii»; on 13 Feb 1757 «Dominicus filius qd. Georgij Vroda»; on 11 Sep 1757 «Dominicus Vroda Pictor» (a painter); witness at Dolac marriages 11 Jan 1756, 11 Sep 1759 and 10 Aug 1762 and at the cathedral 3 Jun 1767. Two masters of the name seem to be mixed here: a Lucia «ux. q. Mag. Dominici Vrodda», aged about 77, dies on 21 Jun 1746, so an ELDER Magister Dominicus was dead by then; the younger, son of Georgius, has an infant son Paulus buried 7 Jan 1744 — and at the cathedral: Joseph Joannes (born 16 Dec 1739, ceremonies 7 Jun 1740) and Anna (born May 1741; 6 Aug 1741), «filius/filia Magistri Dominici et Florae Vroda», in no Dolac book"
-      ],
-      [
-       "His son Joannes",
-       "27 Sep 1757",
-       "«testibus Joseph Fevetti, et Joanne filio Dominici Uroda» — a son of a Dominicus Uroda, of an age to witness"
-      ],
-      [
-       "Antonia Vrodda, wife of Joannes Mestrovich alias Calafat",
-       "23 Oct 1746",
-       "Mother of Franceschina, baptised at Dolac 23 October 1746 — an Uroda daughter, her father not named"
-      ],
-      [
-       "Franciscus's daughter Antonia",
-       "6 May 1742",
-       "«Georgius filius Joannis [Presrou?] de Flumine, alias Biliznich, et Antoniae filiae q. Francisci Vrodda de hac Parochia S. Marci» — Antonia, a daughter of the late Franciscus Uroda, and her son Georgius BILIZNICH (not Uroda), born 17 April 1742"
-      ]
+      {
+       "place": "Dominicus Vroda (wife Ursula)",
+       "year": "1687 – 1693",
+       "why": "Godfather 19 Apr 1687 and 22 Feb 1693; «Dominus Vrodich & Vrsula eius coniunx» Jan 1689; father of Lucia (31 Jul 1692) — the earliest Uroda in any Šibenik register; an Aurelia of 17 Sep 1693 (mother Silvia [?]) is doubtful"
+      },
+      {
+       "place": "Magister Dominicus Vrodda (wife Lucietta [Lucia]) — parents of Georgius",
+       "year": "10 Oct 1694; 14 [Oct] 1696",
+       "why": "Baptised at the cathedral for the Dolac parish: Georgius (born 6 Oct 1694) and Simeon (1696), «ex Coningibus Magistro Domco ac Lucia Vrodda». Lucia is very probably the Lucia, «ux. q. Mag: Dominici Vrodda», aged about 77, who died on 21 Jun 1746 — so this is the elder Magister Dominicus. Whether he is the Dominicus × Ursula of 1687–93 (a second marriage?) is not shown"
+      },
+      {
+       "place": "Thomas Vrodich (wife Catarina)",
+       "year": "1687 – 1692",
+       "why": "Godfather's wife Catarina in Apr 1687 and 17 Sep 1692; a daughter Justina, old enough to be a godmother, 2 Aug 1692"
+      },
+      {
+       "place": "Lucas Vrodi (wife Mariota)",
+       "year": "1692 – 1698",
+       "why": "Sons Antonius (6 Aug 1692) and Michael (13 Jul 1698) — the household of Simeon (1705) and Paulus Antonius (1710); a daughter Michaela baptised at the cathedral in Jan 1694 to «Magister Lucas and Maria Vrodal» (in no Dolac book)"
+      },
+      {
+       "place": "Paulus Vroda (wife Anastasia, later Stanislava [?])",
+       "year": "1691 – 1695",
+       "why": "Godfather's wife Anastasia 2 Dec 1691; godfather with Stanislava [?] 24 Aug 1693; a «Stanca Vroda» godmother Jul 1695"
+      },
+      {
+       "place": "Joannes and Ursula Vroda",
+       "year": "1703 – 1705",
+       "why": "Sons Paulus (28 Jan 1703) and Antonius (31 May 1705) baptised in the Dolac parish — the earliest Uroda household met in any Šibenik register"
+      },
+      {
+       "place": "Lucas Vrodich",
+       "year": "27 Oct 1705; 16 Jan 1710",
+       "why": "Sons Simeon (1705) and Paulus Antonius (1710) baptised in the Dolac parish"
+      },
+      {
+       "place": "Thomas and Anastasia Vrodich",
+       "year": "14 May 1706",
+       "why": "Son Paulus baptised in the Dolac parish"
+      },
+      {
+       "place": "Antonius Vroda (dead by 1701) and his son Lucas",
+       "year": "13 Nov 1701",
+       "why": "Lucas, «filius qm Antonij Vroda», marries Francisca, daughter of the late Joannes Loveta — a father Antonius in the generation before the 1680s–90s households"
+      },
+      {
+       "place": "Thomas Vrodich marries Anastasia",
+       "year": "8 Jan 1702",
+       "why": "Thomas Vrodich, widowed of Catarina (1687, 1692) or a namesake, marries Anastasia — the mother of Paulus, baptised 1706"
+      },
+      {
+       "place": "Paulus Vrodich (dead by 1710) and his son Antonius",
+       "year": "Oct 1710",
+       "why": "Antonius, «filius qdm Pauli Vrodich», marries the widow Anna — Paulus is the Paulus Vroda of 1691–95"
+      },
+      {
+       "place": "Magister Antonius Vroda (wife Antonia)",
+       "year": "1718 – 1742",
+       "why": "Antonius, son of Lucas Vrodich, marries Antonia on 30 Oct 1718; daughters Marietta (buried 18 Jan 1742) and Dominica (about 13, buried 19 Jul 1742) are «filia Magistri Antonij Vroda»"
+      },
+      {
+       "place": "Franciscus Vrodich [Urode] (wife Anna, later a Lucia?)",
+       "year": "1710 – 1721",
+       "why": "Son Paulus (23 Oct 1710), daughter Stanislava (21 Nov 1712) and son Franciscus Antonius (born 3 [Oct] 1721, «filius Francisci Urode et Annae») by Anna; daughter SIMONA (21 Oct 1715) by a «Lucia [?]» — the first Franciscus; the master Franciscus of 1725–38 (dead by 1742) is this man or his namesake son"
+      },
+      {
+       "place": "Georgius Urodich",
+       "year": "1715? – 1721",
+       "why": "Godfather «Georgius Urodich» at Dolac baptisms on 28 Jan 1720 and 27 Dec 1721, perhaps already «D. Georgius Vrodi[ch?]» on 28 Oct 1715 and the Magister Georgius of 1738 — one man or several is not shown"
+      },
+      {
+       "place": "Dume of Šibenik",
+       "year": "before 1739",
+       "why": "Dume Uroda «od Šibenika» — Dalmatia — nothing else is known of him"
+      },
+      {
+       "place": "Simona marries",
+       "year": "7 Jun 1739",
+       "why": "Martin Svjata marries Simona, «pokoi[nog] Dume urode od Šibenika» — daughter of the late Dume Uroda of Šibenik"
+      },
+      {
+       "place": "Magister Franciscus Uroda",
+       "year": "19 Mar 1725 – 15 Nov 1738",
+       "why": "Godfather («Mr / Dñ Francus Vroda», nearly always beside an Angela Julioli) at Dolac baptisms on 19 Mar 1725, 6 Jul and 26 Oct 1728, 7 Jan, 23 Aug and 12 Sep 1729 and 12 Feb 1730, and again 25 Apr 1733, 30 Jan 1735 and, as «Magister», 12 Oct 1738. Dead by 6 May 1742, when his daughter Antonia, wife of a Joannes Biliznich, is called «filia q. Francisci Vrodda de hac Parochia S. Marci» — and dead on 15 Nov 1738 («Magister Franciscus Vroda», buried at the Holy Trinity)"
+      },
+      {
+       "place": "Georgius Uroda (Magister; born 6 Oct 1694, died 17 Aug 1754)",
+       "year": "1715? – 17 Aug 1754",
+       "why": "**Baptised in the cathedral on 10 Oct 1694, «ex Coniugibus Dominico et Lucietta Vroda»** — the age at death, «60», fits to the month. Godfather «Georgius Urodich» at Dolac 28 Jan 1720 and 27 Dec 1721 (perhaps already 28 Oct 1715); a master, already married, in 1738 («uxor Mri Georgij Vroda»; his wife is not named Maria); ALIVE on 4 Aug 1746, when «Dominico Vrodda, filio Magistri Georgii» is a witness; and DEAD by 13 Feb 1757, when his son Dominicus is called «filius qd. Georgij Vroda»; very probably the «Dominus Georgius Vroda aetatis annorum 60» who died on 17 Aug 1754 and was buried at S. Dominic; a daughter Magdalena, «filia Magistri Georgii Vrode», was buried 29 Oct 1740"
+      },
+      {
+       "place": "Magister Dominicus Uroda (son of the late Georgius)",
+       "year": "27 Jan 1726 [?]; 1741 – 3 Jun 1767",
+       "why": "A «Mr. Domcus [Dominicus?] Vroda» is godfather at Dolac on 27 Jan 1726; godfather («Magister Dominicus Vroda») 1 Jan and 23 Apr 1741; father, with a wife FLORIA, of Lucia (born 12 Dec 1744) and Vittoria (born 10 May 1745); godfather 27 Jun 1749, 20 Mar 1752 and 6 Jul 1755; on 4 Aug 1746 a witness «Dominicus Vrodda, filius Magistri Georgii»; on 13 Feb 1757 «Dominicus filius qd. Georgij Vroda»; on 11 Sep 1757 «Dominicus Vroda Pictor» (a painter); witness at Dolac marriages 11 Jan 1756, 11 Sep 1759 and 10 Aug 1762 and at the cathedral 3 Jun 1767. Two masters of the name seem to be mixed here: a Lucia «ux. q. Mag. Dominici Vrodda», aged about 77, dies on 21 Jun 1746, so an ELDER Magister Dominicus was dead by then; the younger, son of Georgius, has an infant son Paulus buried 7 Jan 1744 — and at the cathedral: Joseph Joannes (born 16 Dec 1739, ceremonies 7 Jun 1740) and Anna (born May 1741; 6 Aug 1741), «filius/filia Magistri Dominici et Florae Vroda», in no Dolac book"
+      },
+      {
+       "place": "His son Joannes",
+       "year": "27 Sep 1757",
+       "why": "«testibus Joseph Fevetti, et Joanne filio Dominici Uroda» — a son of a Dominicus Uroda, of an age to witness"
+      },
+      {
+       "place": "Antonia Vrodda, wife of Joannes Mestrovich alias Calafat",
+       "year": "23 Oct 1746",
+       "why": "Mother of Franceschina, baptised at Dolac 23 October 1746 — an Uroda daughter, her father not named"
+      },
+      {
+       "place": "Franciscus's daughter Antonia",
+       "year": "6 May 1742",
+       "why": "«Georgius filius Joannis [Presrou?] de Flumine, alias Biliznich, et Antoniae filiae q. Francisci Vrodda de hac Parochia S. Marci» — Antonia, a daughter of the late Franciscus Uroda, and her son Georgius BILIZNICH (not Uroda), born 17 April 1742"
+      }
      ],
      "ends": [
       [
@@ -609,36 +675,42 @@
        "/found/dume-uroda-of-sibenik/",
        "The dead Dume of Šibenik (d. before 1739) is the one Šibenik Uroda with a recorded child (the bride Simona of 1739); Franciscus, Georgius and Dominicus, masters of the same years, are candidates for his sons, but no register read says so — and the one father named at Šibenik is «Georgius» (1757), not Dume"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1687,
+      1767
+     ],
+     "statusNote": "no link to Karlobag",
+     "detail": "THE NAME AT DOLAC WITHOUT A BREAK 1687–1767 · FOUR HOUSEHOLDS BY 1692 · GEORGIUS (BAPTISED 10 OCT 1694 AT THE CATHEDRAL, SON OF DOMINICUS AND LUCIETTA; D. 17 AUG 1754) FATHER OF DOMINICUS · NO BAPTISM OF A GEORGIUS, DOMINICUS OR DUME IN ANY DOLAC BOOK 1685–1762 · NO LINK TO KARLOBAG"
     },
     {
      "key": "drnis",
      "colour": "#4f8a5b",
      "label": "Drniš — Caporal Pompeo Uroda × Maria Anna Bachi (soldiers)",
-     "conf": "DOCUMENTED ON THE PAGES, 1770–1780 · THE 1771 ENTRY STILL INDEX ONLY · A SOLDIER'S HOUSEHOLD · NO TIE TO KARLOBAG SHOWN",
      "read": "The Pompeo Uroda page →",
      "href": "/found/pompeo-uroda/",
      "nodes": [
-      [
-       "Josepha",
-       "13 Mar 1770",
-       "Josepha, born 1 March — «Pampao Uroda» and Mariana Bachi, «Militum», godparents also soldiers (Franciscan Fr. Josephus Jakick)"
-      ],
-      [
-       "Dominica",
-       "5 Apr 1771",
-       "Dominica Oliva — the index reads «Ganpas» and Mariana Baich; the page not yet opened"
-      ],
-      [
-       "Julia",
-       "26 Aug 1778",
-       "Julia Magdalena — «Caporal Pompeo Uroda» and Maria Anna Bachi; the godfather a Serdar"
-      ],
-      [
-       "Joseph",
-       "23 Oct 1780",
-       "Joseph — «Domino Caporal Pompeo Uroda» and Domina Maria Anna Bauchi; the index misreads the father as Tomaso"
-      ]
+      {
+       "place": "Josepha",
+       "year": "13 Mar 1770",
+       "why": "Josepha, born 1 March — «Pampao Uroda» and Mariana Bachi, «Militum», godparents also soldiers (Franciscan Fr. Josephus Jakick)"
+      },
+      {
+       "place": "Dominica",
+       "year": "5 Apr 1771",
+       "why": "Dominica Oliva — the index reads «Ganpas» and Mariana Baich; the page not yet opened"
+      },
+      {
+       "place": "Julia",
+       "year": "26 Aug 1778",
+       "why": "Julia Magdalena — «Caporal Pompeo Uroda» and Maria Anna Bachi; the godfather a Serdar"
+      },
+      {
+       "place": "Joseph",
+       "year": "23 Oct 1780",
+       "why": "Joseph — «Domino Caporal Pompeo Uroda» and Domina Maria Anna Bauchi; the index misreads the father as Tomaso"
+      }
      ],
      "ends": [
       [
@@ -646,31 +718,37 @@
        "/snapshots/#drnis-baptism-1778-julia-magdalena-uroda",
        "A corporal of the Dalmatian garrison; a Šibenik-district name, but a district is not a link"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1770,
+      1780
+     ],
+     "statusNote": "the 1771 entry still index only · no tie to Karlobag shown",
+     "detail": "DOCUMENTED ON THE PAGES, 1770–1780 · THE 1771 ENTRY STILL INDEX ONLY · A SOLDIER'S HOUSEHOLD · NO TIE TO KARLOBAG SHOWN"
     },
     {
      "key": "betina",
      "colour": "#7a6aa0",
      "label": "Betina — Simeone Uroda and his sons",
-     "conf": "DOCUMENTED ON THE PAGE FOR 1835 · NINETEENTH CENTURY · NO ORIGIN WRITTEN · NOT KNOWN TO TOUCH KARLOBAG",
      "read": "The 1835 baptism →",
      "href": "/snapshots/#betina-baptism-1835-andrea-uroda",
      "nodes": [
-      [
-       "Maria",
-       "1829",
-       "Maria, daughter of Pietro «Urodan» and Domenica Cucia"
-      ],
-      [
-       "Andrea",
-       "1835",
-       "Andrea baptised 28 Nov — Simeone Uroda and Giovanna Barran, both «a Betina»; the printed Italian birth register of the Šibenik district (page read)"
-      ],
-      [
-       "Simeone's children",
-       "1847–1854",
-       "Simeone and Giovanna have children (Ghelttrada 1847, Andriana 1853, Giocomo 1854); Antonio × Anna 1849, Giovanni × Chetanina Magapin 1850"
-      ]
+      {
+       "place": "Maria",
+       "year": "1829",
+       "why": "Maria, daughter of Pietro «Urodan» and Domenica Cucia"
+      },
+      {
+       "place": "Andrea",
+       "year": "1835",
+       "why": "Andrea baptised 28 Nov — Simeone Uroda and Giovanna Barran, both «a Betina»; the printed Italian birth register of the Šibenik district (page read)"
+      },
+      {
+       "place": "Simeone's children",
+       "year": "1847–1854",
+       "why": "Simeone and Giovanna have children (Ghelttrada 1847, Andriana 1853, Giocomo 1854); Antonio × Anna 1849, Giovanni × Chetanina Magapin 1850"
+      }
      ],
      "ends": [
       [
@@ -678,7 +756,14 @@
        "/searched/",
        "«Simeone» is the commonest first name here, and the 1733 index line at Karlobag reads «Sime» Uroda — the same sort of name, not the same man"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1835,
+      null
+     ],
+     "statusNote": "no origin written · not known to touch Karlobag",
+     "detail": "DOCUMENTED ON THE PAGE FOR 1835 · NINETEENTH CENTURY · NO ORIGIN WRITTEN · NOT KNOWN TO TOUCH KARLOBAG"
     }
    ],
    "bridges": [
@@ -703,40 +788,6 @@
      "label": "same district",
      "href": "/lines/#uroda-drnis"
     }
-   ],
-   "unplaced": [
-    [
-     "Antonio × Antonia, Karlobag 1805–1807",
-     "/karlobag",
-     "Anna Catharina 1805 and Josephus 1807 in the index; Antonio Uroda has no known father. Probably from the Dume or Georgius line, but nothing read says which"
-    ],
-    [
-     "Petrus × Theresia, Karlobag 1794",
-     "/karlobag",
-     "Francisca 1794 and Vincentia Maria Anna in the index; the death index buries a «Uroda Petrus»"
-    ],
-    [
-     "Dominicus × Anna, Karlobag 1826",
-     "/karlobag",
-     "Jacobus Philippus 1826; named for the Dominicus of the 1750s, whom nothing joins"
-    ],
-    [
-     "Georgius × Justina, Karlobag 1843",
-     "/karlobag",
-     "Maria Francisca 1843 — a Georgius of the next generation after ahnentafel 54"
-    ]
-   ],
-   "loose": [
-    [
-     "Stefano × Paola Schibolla, b. 1822, m. 1848",
-     "/searched/",
-     "Son of Antonio Uroda and Antonia Budek; the place is not stated in the index line seen"
-    ],
-    [
-     "Valentinus × Pietra Margetich, m. 1900",
-     "/searched/",
-     "Michael Marianus Uroda, b. 1874, married Rosa Sinković — «Croazia», no parish seen"
-    ]
    ],
    "sources": {
     "georgius": [
@@ -1125,7 +1176,53 @@
    "slug": "uroda",
    "eyebrow": "Uroda — five groups, one surname",
    "note": "<strong>One spelling is not a search.</strong> The registers write <em>Uroda</em>, <em>urode</em>, <em>vrode</em>, <em>Urodan</em>, <em>Urada</em>; the index reads one Karlobag father as <em>Sime</em>, spells Dume's children <em>Urode</em> (so a search for <em>Uroda</em> misses them), and reads one Drniš father four ways (<em>Janpao, Ganpas, Pompio, Tomaso</em>) where the pages say <em>Pampao</em> and <em>Pompeo</em>. At Karlobag in 1734 a priest writes <strong>«Dume urode alliti Kovaca»</strong> — a by-name, a smith's — and before the 1730s the book has <em>no</em> Uroda at all, so a baptism of the man himself would sit under another surname. See <a href=\"{{base}}/by-names/\">The Second Name</a>.",
-   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, not in the Šibenik cathedral marriage book 1752–1770 nor the Dolac parish marriage book 1752–1764, both read entry by entry; perhaps Varoš before 1764, whose book begins only that year, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong>: all three Dolac baptism books (1685–1700, 1701–1731 and 1731–1762) are now read through — no baptism of a Georgius, Dominicus or Dume Uroda, but a Dominicus «son of Magister Georgius» (1746, the Dolac marriage book) and «son of the late Georgius» (1757); the Dolac marriage book 1701–1764 is read to its end (no marriage of Georgius, Dominicus or Dume); the Dolac deaths book is read for September 1738 – March 1756 (Franciscus died 15 Nov 1738) (Georgius died 17 August 1754; a Magister Antonius with daughters buried 1742; a Lucia, widow of a Magister Dominicus, 1746) but not for 1738–1740, 1754–1757 or before 1738; the cathedral births are read only as a margin scan for 1693–1702 (which found Georgius's own baptism, 6 Oct 1694, and his brother Simeon) and 1737–1744 (which found two more children of Dominicus and Flora); still to read are the cathedral births 1702–1737 and after 1740 and before 1693, and the Varoš births (1711–1767), where the baptism of a Georgius or a Dominicus, or of a «Georgius filius Dominici», would say whose son Georgius of Karlobag is (the Betina and Drniš ones have been opened and are other families)."
+   "owes": "For Uroda that is: <strong>Dume's baptism</strong> (likely under the by-name Kovač, in the 1700s), <strong>the marriage of Georgius and Maria</strong> (not in Karlobag's marriage book 1736–1804, not in the index under any «Urod*» spelling, not in the Šibenik cathedral marriage book 1752–1770 nor the Dolac parish marriage book 1752–1764, both read entry by entry; perhaps Varoš before 1764, whose book begins only that year, or a place not filmed), <strong>Maria's maiden name</strong> (Barach, of Šibenik, is the best candidate — her first child's godfather), and <strong>the Šibenik baptisms themselves</strong>: all three Dolac baptism books (1685–1700, 1701–1731 and 1731–1762) are now read through — no baptism of a Georgius, Dominicus or Dume Uroda, but a Dominicus «son of Magister Georgius» (1746, the Dolac marriage book) and «son of the late Georgius» (1757); the Dolac marriage book 1701–1764 is read to its end (no marriage of Georgius, Dominicus or Dume); the Dolac deaths book is read for September 1738 – March 1756 (Franciscus died 15 Nov 1738) (Georgius died 17 August 1754; a Magister Antonius with daughters buried 1742; a Lucia, widow of a Magister Dominicus, 1746) but not for 1738–1740, 1754–1757 or before 1738; the cathedral births are read only as a margin scan for 1693–1702 (which found Georgius's own baptism, 6 Oct 1694, and his brother Simeon) and 1737–1744 (which found two more children of Dominicus and Flora); still to read are the cathedral births 1702–1737 and after 1740 and before 1693, and the Varoš births (1711–1767), where the baptism of a Georgius or a Dominicus, or of a «Georgius filius Dominici», would say whose son Georgius of Karlobag is (the Betina and Drniš ones have been opened and are other families).",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Antonio × Antonia, Karlobag 1805–1807",
+       "/karlobag",
+       "Anna Catharina 1805 and Josephus 1807 in the index; Antonio Uroda has no known father. Probably from the Dume or Georgius line, but nothing read says which"
+      ],
+      [
+       "Petrus × Theresia, Karlobag 1794",
+       "/karlobag",
+       "Francisca 1794 and Vincentia Maria Anna in the index; the death index buries a «Uroda Petrus»"
+      ],
+      [
+       "Dominicus × Anna, Karlobag 1826",
+       "/karlobag",
+       "Jacobus Philippus 1826; named for the Dominicus of the 1750s, whom nothing joins"
+      ],
+      [
+       "Georgius × Justina, Karlobag 1843",
+       "/karlobag",
+       "Maria Francisca 1843 — a Georgius of the next generation after ahnentafel 54"
+      ]
+     ]
+    },
+    {
+     "id": "loose",
+     "kind": "different-stock",
+     "note": "Attached to no line here: nothing read ties them to any lane, so they are kept apart rather than guessed into one.",
+     "items": [
+      [
+       "Stefano × Paola Schibolla, b. 1822, m. 1848",
+       "/searched/",
+       "Son of Antonio Uroda and Antonia Budek; the place is not stated in the index line seen"
+      ],
+      [
+       "Valentinus × Pietra Margetich, m. 1900",
+       "/searched/",
+       "Michael Marianus Uroda, b. 1874, married Rosa Sinković — «Croazia», no parish seen"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "smojver",
@@ -1137,40 +1234,39 @@
      "key": "vukic",
      "colour": "#2f7f8c",
      "label": "Karlobag — Smojver called «Vukić» (ours)",
-     "conf": "DOCUMENTED 1754–1798 · THE FATHER'S BAPTISM (1731) NOT YET READ",
      "read": "The Smojver pages →",
      "href": "/snapshots/#karlobag-marriage-1774",
      "nodes": [
-      [
-       "Josiph",
-       "1731",
-       "Josiph Smojver, called Vukić, born (the tree's year; his baptism is on the Karlobag films and not yet read)"
-      ],
-      [
-       "Vicentius",
-       "18 Jan 1754",
-       "Vicentius Fabianus Smojver Vukić born — ahnentafel 106"
-      ],
-      [
-       "Marriage",
-       "2 May 1774",
-       "Vincentius Smojver «Vukich» marries Oliva, daughter of the late Caetanus Bacchi (ahnentafel 106 × 107)"
-      ],
-      [
-       "Death",
-       "16 May 1776",
-       "Josephus Smojver, called Vukcich, dies aged 45 — ahnentafel 212"
-      ],
-      [
-       "Oliva Maria",
-       "Mar 1781",
-       "Oliva Maria baptised, daughter of Vincentius Smojver «Vukich» and Oliva — ahnentafel 53"
-      ],
-      [
-       "Marriage",
-       "14 Feb 1798",
-       "Josephus Pilepich, widower, marries Maria, daughter of Vincentius — probably Oliva Maria"
-      ]
+      {
+       "place": "Josiph",
+       "year": "1731",
+       "why": "Josiph Smojver, called Vukić, born (the tree's year; his baptism is on the Karlobag films and not yet read)"
+      },
+      {
+       "place": "Vicentius",
+       "year": "18 Jan 1754",
+       "why": "Vicentius Fabianus Smojver Vukić born — ahnentafel 106"
+      },
+      {
+       "place": "Marriage",
+       "year": "2 May 1774",
+       "why": "Vincentius Smojver «Vukich» marries Oliva, daughter of the late Caetanus Bacchi (ahnentafel 106 × 107)"
+      },
+      {
+       "place": "Death",
+       "year": "16 May 1776",
+       "why": "Josephus Smojver, called Vukcich, dies aged 45 — ahnentafel 212"
+      },
+      {
+       "place": "Oliva Maria",
+       "year": "Mar 1781",
+       "why": "Oliva Maria baptised, daughter of Vincentius Smojver «Vukich» and Oliva — ahnentafel 53"
+      },
+      {
+       "place": "Marriage",
+       "year": "14 Feb 1798",
+       "why": "Josephus Pilepich, widower, marries Maria, daughter of Vincentius — probably Oliva Maria"
+      }
      ],
      "ends": [
       [
@@ -1178,26 +1274,32 @@
        "/direct-line",
        "Oliva Maria (53) → Vicko Pilipić (26) → Matia (13) → Josip Papić (6) → Milka → Hedviga"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1754,
+      1798
+     ],
+     "statusNote": "the father's baptism (1731) not yet read",
+     "detail": "DOCUMENTED 1754–1798 · THE FATHER'S BAPTISM (1731) NOT YET READ"
     },
     {
      "key": "paulus",
      "colour": "#b07a2a",
      "label": "Karlobag — Paulus Smojver × Ursula (no «Vukić» written)",
-     "conf": "DOCUMENTED IN TWO ENTRIES, 1763 AND 1780 · THE HOUSEHOLD NOT FOLLOWED",
      "read": "The 1763 baptism →",
      "href": "/snapshots/#karlobag-baptism-1763-smojver-uroda-godparents",
      "nodes": [
-      [
-       "Carolus",
-       "2 Nov 1763",
-       "Carolus baptised, son of Paulus and Ursula Smojver; Georgius and Maria Uroda are the godparents"
-      ],
-      [
-       "Vitus",
-       "17 May 1780",
-       "Vitus baptised, son of Paulo and Barbara Smojver, «hujus Civitatis» — Paulus again, with a wife Barbara where 1763 has Ursula"
-      ]
+      {
+       "place": "Carolus",
+       "year": "2 Nov 1763",
+       "why": "Carolus baptised, son of Paulus and Ursula Smojver; Georgius and Maria Uroda are the godparents"
+      },
+      {
+       "place": "Vitus",
+       "year": "17 May 1780",
+       "why": "Vitus baptised, son of Paulo and Barbara Smojver, «hujus Civitatis» — Paulus again, with a wife Barbara where 1763 has Ursula"
+      }
      ],
      "ends": [
       [
@@ -1205,26 +1307,34 @@
        "/snapshots/#karlobag-baptism-1780-05-vitus-smojver",
        "Neither entry writes «Vukić»; whether Paulus belongs to that house is not shown"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1763,
+      1780
+     ],
+     "statusNote": "two entries only · the household not followed",
+     "detail": "DOCUMENTED IN TWO ENTRIES, 1763 AND 1780 · THE HOUSEHOLD NOT FOLLOWED"
     },
     {
      "key": "cesarica",
      "colour": "#4f8a5b",
      "label": "Cesarica — Smojver, 1810–1858 (index only)",
-     "conf": "INDEX ONLY · 138 LINES UNDER THE EXACT SPELLING · NOT OPENED · NO TIE TO KARLOBAG SHOWN",
      "read": "Where it was found →",
      "href": "/searched/",
      "nodes": [
-      [
-       "Cesarica",
-       "1810",
-       "The earliest of 138 index lines at Cesarica under the exact spelling «Smojver»"
-      ],
-      [
-       "Cesarica",
-       "1858",
-       "The latest — the index runs to 1858 there"
-      ]
+      {
+       "place": "Cesarica",
+       "year": "1810",
+       "why": "The earliest of 138 index lines at Cesarica under the exact spelling «Smojver»",
+       "evidence": "indexed"
+      },
+      {
+       "place": "Cesarica",
+       "year": "1858",
+       "why": "The latest — the index runs to 1858 there",
+       "evidence": "indexed"
+      }
      ],
      "ends": [
       [
@@ -1232,7 +1342,10 @@
        "/searched/",
        "A village a short way up the coast from Karlobag; the same name, in the same district"
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "statusNote": "index only, never opened · 138 lines under the exact spelling · no tie to Karlobag shown",
+     "detail": "INDEX ONLY · 138 LINES UNDER THE EXACT SPELLING · NOT OPENED · NO TIE TO KARLOBAG SHOWN"
     }
    ],
    "bridges": [
@@ -1251,19 +1364,6 @@
      "href": "/lines/#smojver"
     }
    ],
-   "unplaced": [
-    [
-     "Early Smojver households at Karlobag, 1718–1746 (index only)",
-     "/searched/",
-     "Duim Smojver baptises Marta 1718, Jakov 1721, Martha 1725 and Anica 1735; Marko in 1729; an Osip Smojver and Franica baptise Francisko on 25 Oct 1733; Pavle and Anica baptise Marica in 1737; Morko, Adam in 1746. Households of the name before the «Vukić» Josiph (b. about 1731) and Paulus (1763) — none shown to be his parents. The Osip of 1733 cannot be the Josiph who died aged 45 in 1776"
-    ],
-    [
-     "Smojver at Vitipolis, Jablanac, Fiume and Senj, 1845–1906",
-     "/searched/",
-     "Forty-odd index lines in later decades, all after 1845: households that moved, probably out of the Karlobag–Cesarica stock, but not shown to"
-    ]
-   ],
-   "loose": [],
    "sources": {
     "vukic": [
      [
@@ -1296,7 +1396,26 @@
     "cesarica": []
    },
    "note": "<strong>Why two lanes at Karlobag.</strong> The tree's Smojver are called <em>Vukić</em> in the marriage of 1774 and the baptism of 1781 («Smojver Vukich»), and the 1776 death says <em>«called Vukcich»</em>. The Paulus Smojver who baptises in 1763 is written without it. A by-name marks which house of a surname is meant (see <a href=\"{{base}}/by-names/\">The Second Name</a>), so the two are kept apart until something says Paulus is a Vukić too.",
-   "owes": "For Smojver that is: <strong>Josiph's baptism of 1731</strong>, <strong>whether Paulus is a Vukić</strong>, and <strong>whether the Cesarica Smojver came from Karlobag or the other way</strong> (the Cesarica index lines begin in 1810 and the Karlobag ones in 1768, which may only mean that Cesarica's books are indexed from 1810)."
+   "owes": "For Smojver that is: <strong>Josiph's baptism of 1731</strong>, <strong>whether Paulus is a Vukić</strong>, and <strong>whether the Cesarica Smojver came from Karlobag or the other way</strong> (the Cesarica index lines begin in 1810 and the Karlobag ones in 1768, which may only mean that Cesarica's books are indexed from 1810).",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Early Smojver households at Karlobag, 1718–1746 (index only)",
+       "/searched/",
+       "Duim Smojver baptises Marta 1718, Jakov 1721, Martha 1725 and Anica 1735; Marko in 1729; an Osip Smojver and Franica baptise Francisko on 25 Oct 1733; Pavle and Anica baptise Marica in 1737; Morko, Adam in 1746. Households of the name before the «Vukić» Josiph (b. about 1731) and Paulus (1763) — none shown to be his parents. The Osip of 1733 cannot be the Josiph who died aged 45 in 1776"
+      ],
+      [
+       "Smojver at Vitipolis, Jablanac, Fiume and Senj, 1845–1906",
+       "/searched/",
+       "Forty-odd index lines in later decades, all after 1845: households that moved, probably out of the Karlobag–Cesarica stock, but not shown to"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "pilipic",
@@ -1308,60 +1427,63 @@
      "key": "karlobag",
      "colour": "#2f7f8c",
      "label": "Karlobag — Jacobus Pilepich, captain of the port (ours)",
-     "conf": "DOCUMENTED FROM 1747 · NO PILIPIĆ BAPTISM AT KARLOBAG BEFORE 1739 · ORIGIN UNPROVED, KASTAV THE CANDIDATE",
      "read": "The Karlobag pages →",
      "href": "/karlobag",
      "nodes": [
-      [
-       "Jakov",
-       "30 [Oct/Nov] 1739",
-       "A Jakov (Jakomo) Pilipić baptises a Jakov at Karlobag — the first Pilipić in a Karlobag baptism (index); the captain's marriage to Katta is 1747, his children 1748–56 (Matia Simuna, Lucia, Maria Vicenza, Andria Mikula, Karla Adelbrand) — read from the page: godparents the gentry (Zorović; the wife of Antun Dorliga), no mother named"
-      ],
-      [
-       "Marriage",
-       "22 Nov 1747",
-       "Jakov Pilepich marries Katta, daughter of the late Vicko Luckinich"
-      ],
-      [
-       "Josephus",
-       "11 Mar 1768",
-       "Josephus born — ahnentafel 52"
-      ],
-      [
-       "Jacobus d.",
-       "10 Apr 1778",
-       "Jacobus Pilepich, captain of the port, buried in his own crypt — ahnentafel 104"
-      ],
-      [
-       "Catherina d.",
-       "29 May 1790",
-       "Catharina, aged 70, widow of the late Jacob Pilepich — ahnentafel 105"
-      ],
-      [
-       "Marriage",
-       "14 Feb 1798",
-       "Josephus Pilepich, widower, marries Maria, daughter of Vincentius (probably Oliva Maria Smojver)"
-      ],
-      [
-       "Josephus d.",
-       "28 Jun 1828",
-       "Josephus Pilepich dies, aged 61"
-      ],
-      [
-       "Joso",
-       "1835",
-       "Joso born at Karlobag on 14 October 1835, son of Vincentius (Vicko) Pilipić and Matia Uroda — in the family tree only; the tree cites a Karlobag church census (Stanje duša) page for the birth, and nothing about him has been read here"
-      ],
-      [
-       "Matia",
-       "18 Sep 1838",
-       "Matthea baptised, daughter of the chamber shipmaster Vincentius Pilipich and Mathea Uroda — ahnentafel 13"
-      ],
-      [
-       "Valentinus",
-       "1848",
-       "Valentinus born at Senj on 9 February 1848, son of Vincentius (Vicko) Pilipić and Matia Uroda — in the family tree only, no source cited, and nothing about him has been read here"
-      ]
+      {
+       "place": "Jakov",
+       "year": "30 [Oct/Nov] 1739",
+       "why": "A Jakov (Jakomo) Pilipić baptises a Jakov at Karlobag — the first Pilipić in a Karlobag baptism (index); the captain's marriage to Katta is 1747, his children 1748–56 (Matia Simuna, Lucia, Maria Vicenza, Andria Mikula, Karla Adelbrand) — read from the page: godparents the gentry (Zorović; the wife of Antun Dorliga), no mother named"
+      },
+      {
+       "place": "Marriage",
+       "year": "22 Nov 1747",
+       "why": "Jakov Pilepich marries Katta, daughter of the late Vicko Luckinich"
+      },
+      {
+       "place": "Josephus",
+       "year": "11 Mar 1768",
+       "why": "Josephus born — ahnentafel 52"
+      },
+      {
+       "place": "Jacobus d.",
+       "year": "10 Apr 1778",
+       "why": "Jacobus Pilepich, captain of the port, buried in his own crypt — ahnentafel 104"
+      },
+      {
+       "place": "Catherina d.",
+       "year": "29 May 1790",
+       "why": "Catharina, aged 70, widow of the late Jacob Pilepich — ahnentafel 105"
+      },
+      {
+       "place": "Marriage",
+       "year": "14 Feb 1798",
+       "why": "Josephus Pilepich, widower, marries Maria, daughter of Vincentius (probably Oliva Maria Smojver)"
+      },
+      {
+       "place": "Josephus d.",
+       "year": "28 Jun 1828",
+       "why": "Josephus Pilepich dies, aged 61"
+      },
+      {
+       "place": "Joso",
+       "year": "1835",
+       "why": "Joso born at Karlobag on 14 October 1835, son of Vincentius (Vicko) Pilipić and Matia Uroda — in the family tree only; the tree cites a Karlobag church census (Stanje duša) page for the birth, and nothing about him has been read here",
+       "person": "joso-pilipic",
+       "evidence": "tree"
+      },
+      {
+       "place": "Matia",
+       "year": "18 Sep 1838",
+       "why": "Matthea baptised, daughter of the chamber shipmaster Vincentius Pilipich and Mathea Uroda — ahnentafel 13"
+      },
+      {
+       "place": "Valentinus",
+       "year": "1848",
+       "why": "Valentinus born at Senj on 9 February 1848, son of Vincentius (Vicko) Pilipić and Matia Uroda — in the family tree only, no source cited, and nothing about him has been read here",
+       "person": "valentinus-pilipic",
+       "evidence": "tree"
+      }
      ],
      "ends": [
       [
@@ -1374,38 +1496,17 @@
        "/lines/#pilipic",
        "Two Jacobus Pilepich were baptised at Kastav: 5 Jul 1705 (son of Georgius and Ursula) and 25 Jun 1708 (son of Martin and Margarita). Either would be 39–42 at the 1747 marriage — a candidate for the captain, index only, no Karlobag entry names his origin"
       ]
-     ]
+     ],
+     "status": "inferred",
+     "span": [
+      1747,
+      null
+     ],
+     "statusNote": "origin unproved, Kastav the candidate",
+     "detail": "DOCUMENTED FROM 1747 · NO PILIPIĆ BAPTISM AT KARLOBAG BEFORE 1739 · ORIGIN UNPROVED, KASTAV THE CANDIDATE"
     }
    ],
    "bridges": [],
-   "unplaced": [
-    [
-     "Jakov Pilipić, father of a Jakov baptised 30 Nov 1739",
-     "/searched/",
-     "Older than the captain's own children (1748–56): the captain himself with an earlier marriage, or his father or brother. Not read from the page"
-    ],
-    [
-     "Pilepich at Vitipolis, 1737–1892 (107 index lines under this spelling)",
-     "/searched/",
-     "The largest body of the name in the index; not opened, no tie to Karlobag shown"
-    ],
-    [
-     "Pilepich/Pilipich at Rijeka (Fiume) and Kastav, 1626–1898",
-     "/searched/",
-     "Over a hundred lines at Fiume and fifty at Kastav; the name is old here (1620s) — an older stock than the Karlobag one"
-    ],
-    [
-     "Pilipich at Perušić (1747–1800) and Pakrac (1799–1815)",
-     "/searched/",
-     "Lika and Slavonia households; nothing links them to the Karlobag captain"
-    ],
-    [
-     "Pilipich at Senj, 1821–1838",
-     "/searched/",
-     "Eighteen lines at Senj before Vicko Pilepić arrives there"
-    ]
-   ],
-   "loose": [],
    "sources": {
     "karlobag": [
      [
@@ -1443,7 +1544,41 @@
     ]
    },
    "note": "<strong>Why only one lane.</strong> The index has well over a thousand lines of the name, but every cluster outside Karlobag is a body of index lines, not a family anyone has followed. They are listed below the figure as <em>not yet on any lane</em> rather than drawn as families: a lane is a household the registers show, and these have not been shown.",
-   "owes": "For Pilipić that is: <strong>the captain's baptism</strong> (not at Karlobag: the index has no Pilipić baptism there before 1739, and 1700–1730 holds none under any spelling — so probably at Kastav or Rijeka, where two Jacobus Pilepich of 1705 and 1708 are the candidates), <strong>whether the Jakov of 1739 is he</strong>, and <strong>a second family of the name at Karlobag</strong> before anyone is called a stranger to it."
+   "owes": "For Pilipić that is: <strong>the captain's baptism</strong> (not at Karlobag: the index has no Pilipić baptism there before 1739, and 1700–1730 holds none under any spelling — so probably at Kastav or Rijeka, where two Jacobus Pilepich of 1705 and 1708 are the candidates), <strong>whether the Jakov of 1739 is he</strong>, and <strong>a second family of the name at Karlobag</strong> before anyone is called a stranger to it.",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Jakov Pilipić, father of a Jakov baptised 30 Nov 1739",
+       "/searched/",
+       "Older than the captain's own children (1748–56): the captain himself with an earlier marriage, or his father or brother. Not read from the page"
+      ],
+      [
+       "Pilepich at Vitipolis, 1737–1892 (107 index lines under this spelling)",
+       "/searched/",
+       "The largest body of the name in the index; not opened, no tie to Karlobag shown"
+      ],
+      [
+       "Pilepich/Pilipich at Rijeka (Fiume) and Kastav, 1626–1898",
+       "/searched/",
+       "Over a hundred lines at Fiume and fifty at Kastav; the name is old here (1620s) — an older stock than the Karlobag one"
+      ],
+      [
+       "Pilipich at Perušić (1747–1800) and Pakrac (1799–1815)",
+       "/searched/",
+       "Lika and Slavonia households; nothing links them to the Karlobag captain"
+      ],
+      [
+       "Pilipich at Senj, 1821–1838",
+       "/searched/",
+       "Eighteen lines at Senj before Vicko Pilepić arrives there"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "bacchi",
@@ -1455,35 +1590,34 @@
      "key": "karlobag",
      "colour": "#2f7f8c",
      "label": "Karlobag — Caetanus Bachi × Anna Lukatelli (ours)",
-     "conf": "DOCUMENTED 1753–1774 · HIS ORIGIN NOT NAMED IN ANY KARLOBAG ENTRY",
      "read": "The Bacchi reading →",
      "href": "/snapshots/#karlobag-marriage-1753",
      "nodes": [
-      [
-       "Marriage",
-       "4 Feb 1753",
-       "Caetanus Bachi marries Anna, daughter of the late Alexius Lukatelli"
-      ],
-      [
-       "Sponsors",
-       "18 Mar 1753",
-       "«Caietan Bachi» and his wife Anna stand sponsors"
-      ],
-      [
-       "Silvester",
-       "Jan 1754",
-       "A son, Silvester, baptised"
-      ],
-      [
-       "Widow",
-       "20 Oct 1760",
-       "Anna, widow of Caetanus Bachi, marries Paulus Perpich — he is dead by then"
-      ],
-      [
-       "Oliva",
-       "2 May 1774",
-       "Oliva, daughter of the late Caetanus Bacchi, marries Vincentius Smojver «Vukich» — ahnentafel 107"
-      ]
+      {
+       "place": "Marriage",
+       "year": "4 Feb 1753",
+       "why": "Caetanus Bachi marries Anna, daughter of the late Alexius Lukatelli"
+      },
+      {
+       "place": "Sponsors",
+       "year": "18 Mar 1753",
+       "why": "«Caietan Bachi» and his wife Anna stand sponsors"
+      },
+      {
+       "place": "Silvester",
+       "year": "Jan 1754",
+       "why": "A son, Silvester, baptised"
+      },
+      {
+       "place": "Widow",
+       "year": "20 Oct 1760",
+       "why": "Anna, widow of Caetanus Bachi, marries Paulus Perpich — he is dead by then"
+      },
+      {
+       "place": "Oliva",
+       "year": "2 May 1774",
+       "why": "Oliva, daughter of the late Caetanus Bacchi, marries Vincentius Smojver «Vukich» — ahnentafel 107"
+      }
      ],
      "ends": [
       [
@@ -1496,46 +1630,52 @@
        "",
        "A son Luca baptised in October 1715 to a «Mikule Bach[…]» — the index reads «Bachi??», the page cuts the word and shows a struck-out first spelling, so it may be Bačić. If it is Bachi, Caetanus (1753) need not have come from Pag. Not proved either way."
       ]
-     ]
+     ],
+     "status": "origin-unknown",
+     "span": [
+      1753,
+      1774
+     ],
+     "statusNote": "his origin is not named in any Karlobag entry",
+     "detail": "DOCUMENTED 1753–1774 · HIS ORIGIN NOT NAMED IN ANY KARLOBAG ENTRY"
     },
     {
      "key": "pag",
      "colour": "#b07a2a",
      "label": "Pag — Dno Angelo Bachi, patrician",
-     "conf": "DOCUMENTED ON THE PAGE FOR 1728 · THE OTHER PAG ENTRIES INDEX ONLY",
      "read": "The 1728 baptism →",
      "href": "/snapshots/#pag-baptism-1728-caietanus-bachi",
      "nodes": [
-      [
-       "Anna Maria",
-       "21 Jul 1725",
-       "Anna Maria baptised, daughter of Angelo Bachi and Oliva (index)"
-      ],
-      [
-       "Caietanus",
-       "14 Mar 1728",
-       "Caietanus Antonius Gregorius baptised, son of Dno Angelo Bachi, Patricio, and Dna Oliva — read from the page"
-      ],
-      [
-       "Oliva d.",
-       "9 Dec 1730",
-       "Oliva, wife of Angelo Bachi, buried (index); Angelo has Maria Elisabet 1732, Giones Antonius 1735 and Francisca 1737 by Hijeronima"
-      ],
-      [
-       "Angelo d. (apothecary)",
-       "19 Jan 1764",
-       "«Dnus Angelus Bacchi Aromatarius», aged about 68 — read from the page; born about 1696, the age of the Pag father of 1728. Names no son"
-      ],
-      [
-       "Antonius",
-       "1764–1778",
-       "Anto/Antonius Bachi × Cecilia baptise Hieronyma 1766, Angelus 1768, Joannes Andreas 1774; Antonius buried 1778 (index)"
-      ],
-      [
-       "Bachi at Nin",
-       "1768–1787",
-       "Dna Viena Bachi buried 6 Oct 1768 (read from the page); Elisabetta 1777 and Antonio 1787 in the same register (index) — the mainland coast across from Pag; not shown to be the same family"
-      ]
+      {
+       "place": "Anna Maria",
+       "year": "21 Jul 1725",
+       "why": "Anna Maria baptised, daughter of Angelo Bachi and Oliva (index)"
+      },
+      {
+       "place": "Caietanus",
+       "year": "14 Mar 1728",
+       "why": "Caietanus Antonius Gregorius baptised, son of Dno Angelo Bachi, Patricio, and Dna Oliva — read from the page"
+      },
+      {
+       "place": "Oliva d.",
+       "year": "9 Dec 1730",
+       "why": "Oliva, wife of Angelo Bachi, buried (index); Angelo has Maria Elisabet 1732, Giones Antonius 1735 and Francisca 1737 by Hijeronima"
+      },
+      {
+       "place": "Angelo d. (apothecary)",
+       "year": "19 Jan 1764",
+       "why": "«Dnus Angelus Bacchi Aromatarius», aged about 68 — read from the page; born about 1696, the age of the Pag father of 1728. Names no son"
+      },
+      {
+       "place": "Antonius",
+       "year": "1764–1778",
+       "why": "Anto/Antonius Bachi × Cecilia baptise Hieronyma 1766, Angelus 1768, Joannes Andreas 1774; Antonius buried 1778 (index)"
+      },
+      {
+       "place": "Bachi at Nin",
+       "year": "1768–1787",
+       "why": "Dna Viena Bachi buried 6 Oct 1768 (read from the page); Elisabetta 1777 and Antonio 1787 in the same register (index) — the mainland coast across from Pag; not shown to be the same family"
+      }
      ],
      "ends": [
       [
@@ -1543,21 +1683,27 @@
        "/snapshots/#pag-baptism-1728-caietanus-bachi",
        "Same rare given name, the right age (24 in 1753) and a Karlobag daughter called OLIVA like the Pag mother — but no Karlobag entry names his father or his birthplace"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1728,
+      1764
+     ],
+     "statusNote": "the other Pag entries are index only",
+     "detail": "DOCUMENTED ON THE PAGE FOR 1728 · THE OTHER PAG ENTRIES INDEX ONLY"
     },
     {
      "key": "angelo",
      "colour": "#4a6fa5",
      "label": "Karlobag — Angelo Bachi × Catharina (1779)",
-     "conf": "DOCUMENTED IN ONE ENTRY · THE TREE'S ANGELO COMES FROM HERE ONLY · NOT SHOWN TO BE RELATED TO CAETANUS",
      "read": "The 1779 baptism →",
      "href": "/snapshots/#karlobag-baptism-1779-01-caetanus-antonius-bacchi",
      "nodes": [
-      [
-       "Caetanus A.",
-       "12 Jan 1779",
-       "Caetanus Antonius baptised, son of Angelo and Catharina Bachi — godparents the Captain Joannes Jankovich and Maria, wife of Dno Georgius Uroda"
-      ]
+      {
+       "place": "Caetanus A.",
+       "year": "12 Jan 1779",
+       "why": "Caetanus Antonius baptised, son of Angelo and Catharina Bachi — godparents the Captain Joannes Jankovich and Maria, wife of Dno Georgius Uroda"
+      }
      ],
      "ends": [
       [
@@ -1565,31 +1711,37 @@
        "/snapshots/#pag-baptism-1728-caietanus-bachi",
        "Caetanus Antonius is the Pag child's name of 1728 almost exactly; a family naming a boy after a dead uncle or father would do that — a question, not a finding"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1779,
+      1779
+     ],
+     "statusNote": "one entry · not shown to be related to Caetanus",
+     "detail": "DOCUMENTED IN ONE ENTRY · THE TREE'S ANGELO COMES FROM HERE ONLY · NOT SHOWN TO BE RELATED TO CAETANUS"
     },
     {
      "key": "drnis",
      "colour": "#4f8a5b",
      "label": "Drniš — Mariana Bachi, wife of Caporal Pompeo Uroda",
-     "conf": "DOCUMENTED ON THE PAGES, 1770–1780 · SHE IS A SOLDIER'S WIFE",
      "read": "The Drniš pages →",
      "href": "/snapshots/#drnis-baptism-1770-josepha-uroda",
      "nodes": [
-      [
-       "Josepha",
-       "13 Mar 1770",
-       "Mariana Bachi and Pampao Uroda, «Militum», baptise Josepha"
-      ],
-      [
-       "Julia",
-       "26 Aug 1778",
-       "Maria Anna Bachi and Caporal Pompeo Uroda"
-      ],
-      [
-       "Joseph",
-       "23 Oct 1780",
-       "Domina Maria Anna Bauchi and Caporal Pompeo Uroda"
-      ]
+      {
+       "place": "Josepha",
+       "year": "13 Mar 1770",
+       "why": "Mariana Bachi and Pampao Uroda, «Militum», baptise Josepha"
+      },
+      {
+       "place": "Julia",
+       "year": "26 Aug 1778",
+       "why": "Maria Anna Bachi and Caporal Pompeo Uroda"
+      },
+      {
+       "place": "Joseph",
+       "year": "23 Oct 1780",
+       "why": "Domina Maria Anna Bauchi and Caporal Pompeo Uroda"
+      }
      ],
      "ends": [
       [
@@ -1597,7 +1749,14 @@
        "/lines/#bacchi",
        "A Dalmatian town and a Dalmatian garrison; the same rare name, nothing more"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1770,
+      1780
+     ],
+     "statusNote": "she is a soldier's wife",
+     "detail": "DOCUMENTED ON THE PAGES, 1770–1780 · SHE IS A SOLDIER'S WIFE"
     }
    ],
    "bridges": [
@@ -1615,19 +1774,6 @@
      "label": "same name again",
      "href": "/lines/#bacchi"
     }
-   ],
-   "unplaced": [],
-   "loose": [
-    [
-     "Bachi at Drnje, 1800–1819",
-     "/searched/",
-     "Ten index lines in the Podravina — a different stock of the name, far inland"
-    ],
-    [
-     "Bacchi at Kršan, 1869",
-     "/searched/",
-     "One line, Istria"
-    ]
    ],
    "sources": {
     "karlobag": [
@@ -1692,7 +1838,26 @@
     ]
    },
    "note": "<strong>What the 1728 page does and does not say.</strong> It names a child <em>Caietanus Antonius ac Gregorius</em>, born 12 March 1728, to <em>Dno Angelo Bachi, Patricio</em> and <em>Dna Oliva</em>, at Pag. On the Karlobag side everything is circumstance — the rare name, the age, a daughter called Oliva like the Pag mother. <strong>And the tree's Angelo (ahnentafel 428) is not evidence:</strong> he and his Catharina come only from a different baptism, of 12 January 1779, of a <em>Caetanus Antonius</em> at Karlobag whose godmother is Maria Uroda — a second Bachi household in the town, which the tree has wrongly welded onto the elder Caetanus. So the Pag baptism is a <strong>candidate, strong and unproved</strong>, and the 1779 household a separate lane.",
-   "owes": "For Bacchi that is: <strong>a Karlobag entry that names Caetanus's father or his town</strong> (the marriage of 1753 does not), <strong>his death before October 1760</strong> (Karlobag's death book begins in 1774, so that is not filmed), and <strong>the Pag baptisms of his siblings</strong> read from the pages, not the index."
+   "owes": "For Bacchi that is: <strong>a Karlobag entry that names Caetanus's father or his town</strong> (the marriage of 1753 does not), <strong>his death before October 1760</strong> (Karlobag's death book begins in 1774, so that is not filmed), and <strong>the Pag baptisms of his siblings</strong> read from the pages, not the index.",
+   "pens": [
+    {
+     "id": "loose",
+     "kind": "different-stock",
+     "note": "Attached to no line here: nothing read ties them to any lane, so they are kept apart rather than guessed into one.",
+     "items": [
+      [
+       "Bachi at Drnje, 1800–1819",
+       "/searched/",
+       "Ten index lines in the Podravina — a different stock of the name, far inland"
+      ],
+      [
+       "Bacchi at Kršan, 1869",
+       "/searched/",
+       "One line, Istria"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "papic",
@@ -1704,55 +1869,54 @@
      "key": "senj",
      "colour": "#2f7f8c",
      "label": "Selce, then Senj — Josip «Joso» Papić, load-carrier and innkeeper (ours)",
-     "conf": "DOCUMENTED FROM 1807 · 1857 BAPTISM AND 1885 MARRIAGE READ · 31 OF THE NAME IN THIS PART OF THE TREE",
      "read": "The Papić page →",
      "href": "/papic/",
      "nodes": [
-      [
-       "Anna",
-       "1742",
-       "Anna Papić, born 1742 at Selce (ahnentafel 99); her death on 24 August 1807, aged about 65, is entered «uxor Pauli Lončarich Papich» at house 134 — her own surname on a document for the first time"
-      ],
-      [
-       "Vinodol",
-       "1806",
-       "A baptismal entry for Josephum at Vinodol enters his mother as «matre Marthe Antich Papa» — both names on one line, eighty years before the tree's Papić (Papa)"
-      ],
-      [
-       "Juraj",
-       "1838",
-       "Georgius Juraj (Joannis) Papa «Jure» Antić Papić born 11 March 1838 at Selce (ahnentafel 12), a težak (farm labourer) — the tree's date; the register enters him as Papa"
-      ],
-      [
-       "Matija",
-       "1838",
-       "Matia Pilipić born 18 September 1838 at Karlobag (ahnentafel 13), of the Karlobag line of Jacobus, captain of the port — the Pilipić lane"
-      ],
-      [
-       "Josip",
-       "1857",
-       "Josephus baptised at Senj on 1 November 1857, son of Joannes Papa and Mathia Pilipić (ahnentafel 6); the surname «Papa» is underlined as in Selce"
-      ],
-      [
-       "Marriage",
-       "1885",
-       "Josip Papić, bremenar, of Senj, aged 27, marries, on 3 May 1885, Antonia Perpić of Krivi Put, aged 25; his father is entered Juraj Papa, težak, his mother Matia rođ. Pilipić — Senj marriages page 192, entry 5"
-      ],
-      [
-       "Milka",
-       "1886",
-       "Milka Lucia born 9 October, baptised 17 October (ahnentafel 3); her father is entered as a trhonoša"
-      ],
-      [
-       "Inn",
-       "1907",
-       "At Milka's wedding Josip is entered as a gostioničar — an innkeeper"
-      ],
-      [
-       "Josip d.",
-       "1939",
-       "Josip Papić dies at Senj on 19 November 1939"
-      ]
+      {
+       "place": "Anna",
+       "year": "1742",
+       "why": "Anna Papić, born 1742 at Selce (ahnentafel 99); her death on 24 August 1807, aged about 65, is entered «uxor Pauli Lončarich Papich» at house 134 — her own surname on a document for the first time"
+      },
+      {
+       "place": "Vinodol",
+       "year": "1806",
+       "why": "A baptismal entry for Josephum at Vinodol enters his mother as «matre Marthe Antich Papa» — both names on one line, eighty years before the tree's Papić (Papa)"
+      },
+      {
+       "place": "Juraj",
+       "year": "1838",
+       "why": "Georgius Juraj (Joannis) Papa «Jure» Antić Papić born 11 March 1838 at Selce (ahnentafel 12), a težak (farm labourer) — the tree's date; the register enters him as Papa"
+      },
+      {
+       "place": "Matija",
+       "year": "1838",
+       "why": "Matia Pilipić born 18 September 1838 at Karlobag (ahnentafel 13), of the Karlobag line of Jacobus, captain of the port — the Pilipić lane"
+      },
+      {
+       "place": "Josip",
+       "year": "1857",
+       "why": "Josephus baptised at Senj on 1 November 1857, son of Joannes Papa and Mathia Pilipić (ahnentafel 6); the surname «Papa» is underlined as in Selce"
+      },
+      {
+       "place": "Marriage",
+       "year": "1885",
+       "why": "Josip Papić, bremenar, of Senj, aged 27, marries, on 3 May 1885, Antonia Perpić of Krivi Put, aged 25; his father is entered Juraj Papa, težak, his mother Matia rođ. Pilipić — Senj marriages page 192, entry 5"
+      },
+      {
+       "place": "Milka",
+       "year": "1886",
+       "why": "Milka Lucia born 9 October, baptised 17 October (ahnentafel 3); her father is entered as a trhonoša"
+      },
+      {
+       "place": "Inn",
+       "year": "1907",
+       "why": "At Milka's wedding Josip is entered as a gostioničar — an innkeeper"
+      },
+      {
+       "place": "Josip d.",
+       "year": "1939",
+       "why": "Josip Papić dies at Senj on 19 November 1939"
+      }
      ],
      "ends": [
       [
@@ -1760,48 +1924,63 @@
        "/senj",
        "The family is at Senj from the 1857 baptism; Milka supervised workers at the town's cigarette factory"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1807,
+      null
+     ],
+     "statusNote": "1857 baptism and 1885 marriage read · 31 of the name in this part of the tree",
+     "detail": "DOCUMENTED FROM 1807 · 1857 BAPTISM AND 1885 MARRIAGE READ · 31 OF THE NAME IN THIS PART OF THE TREE"
     },
     {
      "key": "selce",
      "colour": "#b07a2a",
      "label": "Selce — Papić (Papa) and the Lončarići they married (not shown to be ours)",
-     "conf": "TREE ONLY · 56 OF THE NAME IN A PART OF THE TREE OF 90 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Jure",
-       "1786",
-       "Jure Lončarić Papić (Papa), born 1786 at Selce, no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1804–1816)"
-      ],
-      [
-       "Papich",
-       "1793–1794",
-       "Joannis Papich and Helena Loncharich (a child in 1793); Georgii Papich and Anna (a child in 1794)"
-      ],
-      [
-       "Joanes",
-       "1818",
-       "Joanes Papić (Papa) and Anna Marich: three children recorded, all in 1818"
-      ],
-      [
-       "Mathiae",
-       "1838–1842",
-       "Mathiæ Papić (Papa) and Mariæ: two children recorded, 1838–1842"
-      ],
-      [
-       "Four couples",
-       "1849–1853",
-       "Anton Papić (Papa) and Ursa Ružić (1849–1851); Blaž Papić (Papa) and Jelena «Jele» Car (1849–1853); Jure Papić (Papa) and Franica Karsul (1850–1853); Mate Lončarić and Franica Papić (Papa) (1851–1853): two children recorded to each couple"
-      ],
-      [
-       "56 of the name",
-       "1786–1875",
-       "Of the 56 Papići here, 28 are placed at Selce and 28 have no place; 6 of the 90 are Lončarić and 2 Antić"
-      ]
+      {
+       "place": "Jure",
+       "year": "1786",
+       "why": "Jure Lončarić Papić (Papa), born 1786 at Selce, no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1804–1816)",
+       "evidence": "tree"
+      },
+      {
+       "place": "Papich",
+       "year": "1793–1794",
+       "why": "Joannis Papich and Helena Loncharich (a child in 1793); Georgii Papich and Anna (a child in 1794)",
+       "evidence": "tree"
+      },
+      {
+       "place": "Joanes",
+       "year": "1818",
+       "why": "Joanes Papić (Papa) and Anna Marich: three children recorded, all in 1818",
+       "evidence": "tree"
+      },
+      {
+       "place": "Mathiae",
+       "year": "1838–1842",
+       "why": "Mathiæ Papić (Papa) and Mariæ: two children recorded, 1838–1842",
+       "evidence": "tree"
+      },
+      {
+       "place": "Four couples",
+       "year": "1849–1853",
+       "why": "Anton Papić (Papa) and Ursa Ružić (1849–1851); Blaž Papić (Papa) and Jelena «Jele» Car (1849–1853); Jure Papić (Papa) and Franica Karsul (1850–1853); Mate Lončarić and Franica Papić (Papa) (1851–1853): two children recorded to each couple",
+       "evidence": "tree"
+      },
+      {
+       "place": "56 of the name",
+       "year": "1786–1875",
+       "why": "Of the 56 Papići here, 28 are placed at Selce and 28 have no place; 6 of the 90 are Lončarić and 2 Antić",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 56 of the name in a part of the tree of 90 · nothing joins it to our line",
+     "detail": "TREE ONLY · 56 OF THE NAME IN A PART OF THE TREE OF 90 · NOTHING JOINS IT TO OUR LINE"
     }
    ],
    "bridges": [
@@ -1813,44 +1992,6 @@
      "href": "/lines/#papic"
     }
    ],
-   "unplaced": [
-    [
-     "Antona Papić, groom at Senj, 30 January 1746",
-     "/found/antona-papic-groom-1746/",
-     "Read from the Senj marriage register: marries Jelena, daughter of a Fra[..]vot of Grobnik — the first Papić groom of the Senj marriage volume. Not in the tree"
-    ],
-    [
-     "Katarina, daughter of Matia Papić, bride at Senj, 11 October 1747",
-     "/found/katarina-papic-daughter-of-matia/",
-     "Read from the Senj marriage register: marries Anton Juretić of Bakar. Not placed in the Papić family of the archive, and not in the tree"
-    ],
-    [
-     "5 of the name in 11 people, born 1875–1901",
-     "/buckets/",
-     "The tree only. Placed at Selce; 4 with no place. Among the others: Lončarić 1. Nothing joins them to any lane."
-    ],
-    [
-     "Selce: 4 of the name in 6 people, born 1858–1862",
-     "/buckets/",
-     "The tree only. Placed at Selce (2); 2 with no place. Among the others: Lončarić 1. Nothing joins them to any lane."
-    ],
-    [
-     "Selce: 3 of the name in 4 people, born 1838–1843",
-     "/buckets/",
-     "The tree only. Placed at Selce (2); 1 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Selce: 3 of the name in 4 people, born 1850–1853",
-     "/buckets/",
-     "The tree only. Placed at Selce (2); 1 with no place. Among the others: Brozović 1. Nothing joins them to any lane."
-    ],
-    [
-     "9 smaller parts of the tree, 14 of the name",
-     "/buckets/",
-     "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
-    ]
-   ],
-   "loose": [],
    "sources": {
     "senj": [
      [
@@ -1872,7 +2013,51 @@
     ]
    },
    "note": "<strong>The tree and the registers say different things about this name, and this page keeps them apart.</strong> The tree publishes 116 Papići. 31 are joined to Hedviga by ordinary parent, child and marriage links: that is the top lane. The other 85 fall into 14 separate parts of the tree that nothing joins to hers. The biggest is drawn as a lane and marked <em>tree only</em>, because no register has been read for it here; the other 13 are listed under the figure, with the two Papići the Senj marriage register shows and the tree does not hold. The name is written three ways in the registers — <em>Papa</em> (a by-name), <em>Antić</em> and <em>Papić</em> — so a search under one spelling misses the others: see <a href=\"{{base}}/by-names/\">The Second Name</a>. The tree writes <em>Papić (Papa)</em> for much of the family; <a href=\"{{base}}/buckets/\">Labels Where the Father Should Be</a> says what its 85 are joined by.",
-   "owes": "For Papić that is: <strong>whether Antić and Papić were ever two families</strong> (the alternation is proved back to 1806 and unexplained; the Vinodol and Selce registers before 1806 would say), <strong>the marriage of Juraj Papa and Matija Pilipić</strong> (just before 1 November 1857; not on the Karlobag or Selce marriage pages for 1856 and 1857, and the Senj marriage book for those years is not in date order, so it can only be found by walking it), and, for the Selce part, <strong>one marriage entry</strong>: the tree's own candidate is Jure Lončarić Papić (Papa), b. 1786, a marriage about 1804–1816."
+   "owes": "For Papić that is: <strong>whether Antić and Papić were ever two families</strong> (the alternation is proved back to 1806 and unexplained; the Vinodol and Selce registers before 1806 would say), <strong>the marriage of Juraj Papa and Matija Pilipić</strong> (just before 1 November 1857; not on the Karlobag or Selce marriage pages for 1856 and 1857, and the Senj marriage book for those years is not in date order, so it can only be found by walking it), and, for the Selce part, <strong>one marriage entry</strong>: the tree's own candidate is Jure Lončarić Papić (Papa), b. 1786, a marriage about 1804–1816.",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Antona Papić, groom at Senj, 30 January 1746",
+       "/found/antona-papic-groom-1746/",
+       "Read from the Senj marriage register: marries Jelena, daughter of a Fra[..]vot of Grobnik — the first Papić groom of the Senj marriage volume. Not in the tree"
+      ],
+      [
+       "Katarina, daughter of Matia Papić, bride at Senj, 11 October 1747",
+       "/found/katarina-papic-daughter-of-matia/",
+       "Read from the Senj marriage register: marries Anton Juretić of Bakar. Not placed in the Papić family of the archive, and not in the tree"
+      ],
+      [
+       "5 of the name in 11 people, born 1875–1901",
+       "/buckets/",
+       "The tree only. Placed at Selce; 4 with no place. Among the others: Lončarić 1. Nothing joins them to any lane."
+      ],
+      [
+       "Selce: 4 of the name in 6 people, born 1858–1862",
+       "/buckets/",
+       "The tree only. Placed at Selce (2); 2 with no place. Among the others: Lončarić 1. Nothing joins them to any lane."
+      ],
+      [
+       "Selce: 3 of the name in 4 people, born 1838–1843",
+       "/buckets/",
+       "The tree only. Placed at Selce (2); 1 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Selce: 3 of the name in 4 people, born 1850–1853",
+       "/buckets/",
+       "The tree only. Placed at Selce (2); 1 with no place. Among the others: Brozović 1. Nothing joins them to any lane."
+      ],
+      [
+       "9 smaller parts of the tree, 14 of the name",
+       "/buckets/",
+       "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "prpic",
@@ -1884,40 +2069,39 @@
      "key": "krivi-put",
      "colour": "#2f7f8c",
      "label": "Krivi Put 136 — Antonija «Tonka» Perpić, born in the Frontier village (ours)",
-     "conf": "DOCUMENTED FROM 1859 · HER BAPTISM AND 1885 MARRIAGE READ · 11 OF THE NAME IN THIS PART OF THE TREE",
      "read": "The Prpić page →",
      "href": "/prpic/",
      "nodes": [
-      [
-       "Ivan",
-       "undated",
-       "Joannes «Ivan» Perpić, a seljak (peasant) of Krivi Put (ahnentafel 14), and Lucia «Luca», born Perpić (ahnentafel 15) — the bride's parents as the 1885 marriage entry names them"
-      ],
-      [
-       "Antonija",
-       "1859",
-       "Antonia born 12 May at Krivi Put No 136, baptised 15 May: «Antonia Perpić, legit., Joannis et Lucia Perpić», godparents Lucas and Anna Tomljanović; the conditio column reads Confiniar., a household of the Military Frontier — Krivi Put births 1847–1884, entry 51"
-      ],
-      [
-       "Stephanus",
-       "1861",
-       "Stephanus born to Joannes and Lucia Perpić at Krivi Put No 136, baptised 16 October 1861 — a brother, at the same house"
-      ],
-      [
-       "Marriage",
-       "1885",
-       "On 3 May 1885 Antonia Perpić of Krivi Put, resident at Senj, aged 25, marries Josip Papić, bremenar; her parents are Ivan Perpić, seljak, and Luca rođ. Perpić, and the witnesses are Franjo and Toma Perpić — Senj marriages page 192, entry 5"
-      ],
-      [
-       "Milka",
-       "1886",
-       "Milka Lucia born at Senj on 9 October, baptised 17 October: «Josip Papić, trhonoša, i Tonka rođ. Prpić»"
-      ],
-      [
-       "Antonija d.",
-       "1935",
-       "Antonija dies at Senj on 2 February 1935; she is buried at Mirogoj in Zagreb, and nothing in the record says why"
-      ]
+      {
+       "place": "Ivan",
+       "year": "undated",
+       "why": "Joannes «Ivan» Perpić, a seljak (peasant) of Krivi Put (ahnentafel 14), and Lucia «Luca», born Perpić (ahnentafel 15) — the bride's parents as the 1885 marriage entry names them"
+      },
+      {
+       "place": "Antonija",
+       "year": "1859",
+       "why": "Antonia born 12 May at Krivi Put No 136, baptised 15 May: «Antonia Perpić, legit., Joannis et Lucia Perpić», godparents Lucas and Anna Tomljanović; the conditio column reads Confiniar., a household of the Military Frontier — Krivi Put births 1847–1884, entry 51"
+      },
+      {
+       "place": "Stephanus",
+       "year": "1861",
+       "why": "Stephanus born to Joannes and Lucia Perpić at Krivi Put No 136, baptised 16 October 1861 — a brother, at the same house"
+      },
+      {
+       "place": "Marriage",
+       "year": "1885",
+       "why": "On 3 May 1885 Antonia Perpić of Krivi Put, resident at Senj, aged 25, marries Josip Papić, bremenar; her parents are Ivan Perpić, seljak, and Luca rođ. Perpić, and the witnesses are Franjo and Toma Perpić — Senj marriages page 192, entry 5"
+      },
+      {
+       "place": "Milka",
+       "year": "1886",
+       "why": "Milka Lucia born at Senj on 9 October, baptised 17 October: «Josip Papić, trhonoša, i Tonka rođ. Prpić»"
+      },
+      {
+       "place": "Antonija d.",
+       "year": "1935",
+       "why": "Antonija dies at Senj on 2 February 1935; she is buried at Mirogoj in Zagreb, and nothing in the record says why"
+      }
      ],
      "ends": [
       [
@@ -1925,79 +2109,100 @@
        "/papic/",
        "She married into the Papići of Senj in 1885 and is Hedviga's grandmother"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1859,
+      null
+     ],
+     "statusNote": "her baptism and 1885 marriage read · 11 of the name in this part of the tree",
+     "detail": "DOCUMENTED FROM 1859 · HER BAPTISM AND 1885 MARRIAGE READ · 11 OF THE NAME IN THIS PART OF THE TREE"
     },
     {
      "key": "krivi-put-136",
      "colour": "#b07a2a",
      "label": "Krivi Put 136 — Domianus Perpić's household (not shown to be ours)",
-     "conf": "TREE ONLY · 42 OF THE NAME IN A PART OF THE TREE OF 53 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Domianus",
-       "1820",
-       "Domianus «Domian» Perpić, born 1820 at Krivi Put 136, with Maria Sojath (b. 1823): the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1838–1850); four children recorded"
-      ],
-      [
-       "Antonius",
-       "1858–1873",
-       "Antonius Perpić and Catharina Krmpotić: six children recorded, 1858–1873"
-      ],
-      [
-       "Petrus",
-       "1859–1873",
-       "Petrus Perpić (b. 1828) and Ana Tomljanović: six children recorded, 1859–1873"
-      ],
-      [
-       "Jakov",
-       "1891–1895",
-       "Jakov Perpić and Ruza Prpić: two children recorded, 1891–1895"
-      ],
-      [
-       "42 of the name",
-       "from 1820",
-       "Of the 42 Prpići and Perpići here, 26 are placed at Krivi Put 136, 2 at Krivi Put 82, 1 elsewhere and 13 have no place; the 53 people are 42 Prpić and Perpić, 1 Tomljanović, 1 Krmpotić and 9 of other names"
-      ]
+      {
+       "place": "Domianus",
+       "year": "1820",
+       "why": "Domianus «Domian» Perpić, born 1820 at Krivi Put 136, with Maria Sojath (b. 1823): the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1838–1850); four children recorded",
+       "evidence": "tree"
+      },
+      {
+       "place": "Antonius",
+       "year": "1858–1873",
+       "why": "Antonius Perpić and Catharina Krmpotić: six children recorded, 1858–1873",
+       "evidence": "tree"
+      },
+      {
+       "place": "Petrus",
+       "year": "1859–1873",
+       "why": "Petrus Perpić (b. 1828) and Ana Tomljanović: six children recorded, 1859–1873",
+       "evidence": "tree"
+      },
+      {
+       "place": "Jakov",
+       "year": "1891–1895",
+       "why": "Jakov Perpić and Ruza Prpić: two children recorded, 1891–1895",
+       "evidence": "tree"
+      },
+      {
+       "place": "42 of the name",
+       "year": "from 1820",
+       "why": "Of the 42 Prpići and Perpići here, 26 are placed at Krivi Put 136, 2 at Krivi Put 82, 1 elsewhere and 13 have no place; the 53 people are 42 Prpić and Perpić, 1 Tomljanović, 1 Krmpotić and 9 of other names",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 42 of the name in a part of the tree of 53 · nothing joins it to our line",
+     "detail": "TREE ONLY · 42 OF THE NAME IN A PART OF THE TREE OF 53 · NOTHING JOINS IT TO OUR LINE"
     },
     {
      "key": "senj",
      "colour": "#a8453a",
      "label": "Senj — Franciscus Perpić and Anna Brozinićević, and the Rivosechi (not shown to be ours)",
-     "conf": "TREE ONLY · 10 OF THE NAME IN A PART OF THE TREE OF 23 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Franciscus",
-       "1853–1866",
-       "Franjo Franciscus Perpić and Anna Brozinićević: seven children recorded, 1853–1866. The Senj marriage book has a Franciscus Prpić marrying an Anna Maria Theresia Brozinčević on 6 February 1853 — the same two names; whether it is this couple is not shown"
-      ],
-      [
-       "Benedictus",
-       "1853–1862",
-       "Benedictus «Benedeto» Rivosechi and Maria Fabianić: three children recorded, 1853–1862"
-      ],
-      [
-       "Dametar",
-       "1857",
-       "Dametar Perpić and Ivka Šojat: one child recorded, 1857"
-      ],
-      [
-       "Nikola × Nadala",
-       "1880–1887",
-       "Nikola Rivosechi (b. 1855) and Nadala Prpić Perpić (b. 1858): six children recorded, 1880–1887"
-      ],
-      [
-       "10 of the name",
-       "1853–1866",
-       "Of the 23 people here, 15 are placed at Senj; the part has the Rivosechi as its other name, and its earliest dated person is the Rivosechi Josephus Josip, b. 1853"
-      ]
+      {
+       "place": "Franciscus",
+       "year": "1853–1866",
+       "why": "Franjo Franciscus Perpić and Anna Brozinićević: seven children recorded, 1853–1866. The Senj marriage book has a Franciscus Prpić marrying an Anna Maria Theresia Brozinčević on 6 February 1853 — the same two names; whether it is this couple is not shown",
+       "evidence": "tree"
+      },
+      {
+       "place": "Benedictus",
+       "year": "1853–1862",
+       "why": "Benedictus «Benedeto» Rivosechi and Maria Fabianić: three children recorded, 1853–1862",
+       "evidence": "tree"
+      },
+      {
+       "place": "Dametar",
+       "year": "1857",
+       "why": "Dametar Perpić and Ivka Šojat: one child recorded, 1857",
+       "evidence": "tree"
+      },
+      {
+       "place": "Nikola × Nadala",
+       "year": "1880–1887",
+       "why": "Nikola Rivosechi (b. 1855) and Nadala Prpić Perpić (b. 1858): six children recorded, 1880–1887",
+       "evidence": "tree"
+      },
+      {
+       "place": "10 of the name",
+       "year": "1853–1866",
+       "why": "Of the 23 people here, 15 are placed at Senj; the part has the Rivosechi as its other name, and its earliest dated person is the Rivosechi Josephus Josip, b. 1853",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 10 of the name in a part of the tree of 23 · nothing joins it to our line",
+     "detail": "TREE ONLY · 10 OF THE NAME IN A PART OF THE TREE OF 23 · NOTHING JOINS IT TO OUR LINE"
     }
    ],
    "bridges": [
@@ -2009,109 +2214,6 @@
      "href": "/lines/#prpic"
     }
    ],
-   "unplaced": [
-    [
-     "Georgius (1868) and Joanna (1874), children of Joannes and Lucia Perpić at Krivi Put 135",
-     "/found/georgius-perpic/",
-     "A Krivi Put baptism index entry, read from the image on 9 October 2026: the same parents' names as Antonija's, at house 135 where she is at 136 — probable, not proved. Not in the tree"
-    ],
-    [
-     "Josephus, 1876, son of Joannes and Lucia Perpić, Klaričevac 82",
-     "/found/josephus-perpic/",
-     "A Krivi Put baptism index entry, read from the image on 9 October 2026: the same parents' names, but at Klaričevac 82 (also numbered 163), not at 135 or 136; this archive does not call him her brother. Not in the tree"
-    ],
-    [
-     "Martha (1853, house 177) and Tomu (1856, house 111), children of an Ivan Perpić and a Lucia",
-     "/found/martha-perpic/",
-     "Krivi Put baptism index entries, read from the images on 9 October 2026: not at Antonija's house 136, though the parents' names are the same pair, so a house change cannot be ruled out; this archive does not call them her brother and sister. Not in the tree"
-    ],
-    [
-     "Anna, widow of Caetanus Bacchi, marries Paulus Perpich at Karlobag, 20 October 1760",
-     "/found/anna-widow-of-caetanus-bacchi-married-paulus-perpich/",
-     "Read from the Karlobag marriage register: probably the widow of ahnentafel 214, the elder Caetanus Bacchi being dead by that date. Not in the tree"
-    ],
-    [
-     "Antonia Prpić, daughter of Matte, bride at Senj, 9 October 1788",
-     "/found/antonia-prpic-daughter-of-matte/",
-     "Read from the Senj marriage register: marries Marko Šalanić, son of Luka. Not placed in the Prpić family of the archive, and not in the tree"
-    ],
-    [
-     "Joannes Perpich and Francisca Lenac, married at the Senj cathedral, 16 December 1845",
-     "/found/joannes-perpich-groom-of-1845-at-senj/",
-     "Read from the Senj marriage register: he is aged 22 and of the Senj parish, she 20, daughter of Georgius and Matthaea Lenac. Not in the tree"
-    ],
-    [
-     "Franciscus Prpić and Anna Maria Theresia Brozinčević, married at the Senj cathedral, 6 February 1853",
-     "/found/franciscus-prpic-groom-of-1853-at-senj/",
-     "Read from the Senj marriage register: he is a bachelor of 22, son of Franciscus and Antonia née Basić; she is 22. Not in the tree — compare the Senj part of the tree drawn above"
-    ],
-    [
-     "Perpić deaths at Senj, 1820–1854: fourteen entries",
-     "/found/maria-perpic-widow-aged-63-died-senj-september-1836/",
-     "Read from the Senj death registers: a newborn Joannes (1820), Andreas aged 70 (1834), the widows Maria (1836) and Apollonia (1837), Franciscus aged 48 (1840), Maria aged 48 and the child Vitus (1841), the frontier soldier Josephus aged 61 (1842), an infant Augustinus (1844), Antonia aged 35 (1847), Josephus aged 50 and Franciscus aged 25 (1848), Martin aged 34 (1849) and the infant Theresia (1854). No families are linked. Not in the tree"
-    ],
-    [
-     "Mrzli Dol: 6 of the name in 11 people, born 1835–1869",
-     "/buckets/",
-     "The tree only. Placed at Mrzli Dol (3); 3 with no place. Among the others: Pavelić 3, Blažević 1. Nothing joins them to any lane."
-    ],
-    [
-     "4 of the name in 10 people, born 1872–1890",
-     "/buckets/",
-     "The tree only. Placed at Senj, Mrzli Dol; 2 with no place. Among the others: Blažević 3. Nothing joins them to any lane."
-    ],
-    [
-     "Krivi Put: 8 of the name in 9 people, born 1871–1881",
-     "/buckets/",
-     "The tree only. Placed at Krivi Put (3), Sv. Jelena, Senj; 3 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Senj: 7 of the name in 8 people, born 1866–1880",
-     "/buckets/",
-     "The tree only. Placed at Senj (5); 2 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Krivi Put: 3 of the name in 8 people, born 1853–1883",
-     "/buckets/",
-     "The tree only. Placed at Krivi Put (2); 1 with no place. Among the others: Pavelić 2, Blažević 2. Nothing joins them to any lane."
-    ],
-    [
-     "Krivi Put: 6 of the name in 6 people, born 1870–1878",
-     "/buckets/",
-     "The tree only. Placed at Krivi Put (4), Sv. Jelena, Senj. Nothing joins them to any lane."
-    ],
-    [
-     "4 of the name in 4 people, born 1883",
-     "/buckets/",
-     "The tree only. Placed at Krivi Put, Senj; 2 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "3 of the name in 4 people, born 1871–1875",
-     "/buckets/",
-     "The tree only. Placed at Krmpote, Krivi Put; 1 with no place. Among the others: Tomljanović 1. Nothing joins them to any lane."
-    ],
-    [
-     "3 of the name in 3 people, born 1874",
-     "/buckets/",
-     "The tree only. Placed at Krivi Put; 2 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "6 of the name in the 170-person part drawn on the Blažević lane",
-     "/lines/#blazevic",
-     "The tree only: six Prpići sit in the Mrzli Dol part with the Blaževići and Pavelići"
-    ],
-    [
-     "3 of the name in the 30-person part drawn on the Blažević lane",
-     "/lines/#blazevic",
-     "The tree only: three Prpići sit in the Mrzli Dol 6 part"
-    ],
-    [
-     "31 smaller parts of the tree, 43 of the name",
-     "/buckets/",
-     "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
-    ]
-   ],
-   "loose": [],
    "sources": {
     "krivi-put": [
      [
@@ -2133,7 +2235,116 @@
     ]
    },
    "note": "<strong>The tree and the registers say different things about this name, and this page keeps them apart.</strong> The tree publishes 159 Prpići and Perpići (one name here: a decision, recorded as one). 11 are joined to Hedviga by ordinary parent, child and marriage links: that is the top lane. The other 148 fall into 44 separate parts of the tree that nothing joins to hers. The two biggest are drawn as lanes and marked <em>tree only</em>, because no register has been read for them here; the rest are listed under the figure, with the Perpići the Krivi Put, Senj and Karlobag registers show and the tree does not hold. The dotted join rests on one fact, a shared house number: Antonija was born at Krivi Put 136, and 26 of the people in the 53-person part are placed there. A house number is how the Frontier registers identify a household, and it places Antonija inside the village, which is real and worth having; it does not say that the two households are one. See <a href=\"{{base}}/buckets/\">Labels Where the Father Should Be</a> and <a href=\"{{base}}/by-names/\">The Second Name</a>.",
-   "owes": "For Prpić that is: <strong>who held Krivi Put 136 before 1820</strong> (the Krivi Put baptisms run from 1847; anything earlier is at Senj or Krmpote, neither walked for this surname), <strong>whether Lucia Perpić is kin to her husband</strong> (the 1885 marriage gives her maiden name as Perpić too), <strong>why Antonija is buried at Mirogoj</strong>, and, for the Krivi Put 136 part, <strong>one marriage entry</strong>: the tree's own candidate is Domianus Perpić, b. 1820 at Krivi Put 136, a marriage about 1838–1850 — the house number means the entry can be found without a name index."
+   "owes": "For Prpić that is: <strong>who held Krivi Put 136 before 1820</strong> (the Krivi Put baptisms run from 1847; anything earlier is at Senj or Krmpote, neither walked for this surname), <strong>whether Lucia Perpić is kin to her husband</strong> (the 1885 marriage gives her maiden name as Perpić too), <strong>why Antonija is buried at Mirogoj</strong>, and, for the Krivi Put 136 part, <strong>one marriage entry</strong>: the tree's own candidate is Domianus Perpić, b. 1820 at Krivi Put 136, a marriage about 1838–1850 — the house number means the entry can be found without a name index.",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Georgius (1868) and Joanna (1874), children of Joannes and Lucia Perpić at Krivi Put 135",
+       "/found/georgius-perpic/",
+       "A Krivi Put baptism index entry, read from the image on 9 October 2026: the same parents' names as Antonija's, at house 135 where she is at 136 — probable, not proved. Not in the tree"
+      ],
+      [
+       "Josephus, 1876, son of Joannes and Lucia Perpić, Klaričevac 82",
+       "/found/josephus-perpic/",
+       "A Krivi Put baptism index entry, read from the image on 9 October 2026: the same parents' names, but at Klaričevac 82 (also numbered 163), not at 135 or 136; this archive does not call him her brother. Not in the tree"
+      ],
+      [
+       "Martha (1853, house 177) and Tomu (1856, house 111), children of an Ivan Perpić and a Lucia",
+       "/found/martha-perpic/",
+       "Krivi Put baptism index entries, read from the images on 9 October 2026: not at Antonija's house 136, though the parents' names are the same pair, so a house change cannot be ruled out; this archive does not call them her brother and sister. Not in the tree"
+      ],
+      [
+       "Anna, widow of Caetanus Bacchi, marries Paulus Perpich at Karlobag, 20 October 1760",
+       "/found/anna-widow-of-caetanus-bacchi-married-paulus-perpich/",
+       "Read from the Karlobag marriage register: probably the widow of ahnentafel 214, the elder Caetanus Bacchi being dead by that date. Not in the tree"
+      ],
+      [
+       "Antonia Prpić, daughter of Matte, bride at Senj, 9 October 1788",
+       "/found/antonia-prpic-daughter-of-matte/",
+       "Read from the Senj marriage register: marries Marko Šalanić, son of Luka. Not placed in the Prpić family of the archive, and not in the tree"
+      ],
+      [
+       "Joannes Perpich and Francisca Lenac, married at the Senj cathedral, 16 December 1845",
+       "/found/joannes-perpich-groom-of-1845-at-senj/",
+       "Read from the Senj marriage register: he is aged 22 and of the Senj parish, she 20, daughter of Georgius and Matthaea Lenac. Not in the tree"
+      ],
+      [
+       "Franciscus Prpić and Anna Maria Theresia Brozinčević, married at the Senj cathedral, 6 February 1853",
+       "/found/franciscus-prpic-groom-of-1853-at-senj/",
+       "Read from the Senj marriage register: he is a bachelor of 22, son of Franciscus and Antonia née Basić; she is 22. Not in the tree — compare the Senj part of the tree drawn above"
+      ],
+      [
+       "Perpić deaths at Senj, 1820–1854: fourteen entries",
+       "/found/maria-perpic-widow-aged-63-died-senj-september-1836/",
+       "Read from the Senj death registers: a newborn Joannes (1820), Andreas aged 70 (1834), the widows Maria (1836) and Apollonia (1837), Franciscus aged 48 (1840), Maria aged 48 and the child Vitus (1841), the frontier soldier Josephus aged 61 (1842), an infant Augustinus (1844), Antonia aged 35 (1847), Josephus aged 50 and Franciscus aged 25 (1848), Martin aged 34 (1849) and the infant Theresia (1854). No families are linked. Not in the tree"
+      ],
+      [
+       "Mrzli Dol: 6 of the name in 11 people, born 1835–1869",
+       "/buckets/",
+       "The tree only. Placed at Mrzli Dol (3); 3 with no place. Among the others: Pavelić 3, Blažević 1. Nothing joins them to any lane."
+      ],
+      [
+       "4 of the name in 10 people, born 1872–1890",
+       "/buckets/",
+       "The tree only. Placed at Senj, Mrzli Dol; 2 with no place. Among the others: Blažević 3. Nothing joins them to any lane."
+      ],
+      [
+       "Krivi Put: 8 of the name in 9 people, born 1871–1881",
+       "/buckets/",
+       "The tree only. Placed at Krivi Put (3), Sv. Jelena, Senj; 3 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Senj: 7 of the name in 8 people, born 1866–1880",
+       "/buckets/",
+       "The tree only. Placed at Senj (5); 2 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Krivi Put: 3 of the name in 8 people, born 1853–1883",
+       "/buckets/",
+       "The tree only. Placed at Krivi Put (2); 1 with no place. Among the others: Pavelić 2, Blažević 2. Nothing joins them to any lane."
+      ],
+      [
+       "Krivi Put: 6 of the name in 6 people, born 1870–1878",
+       "/buckets/",
+       "The tree only. Placed at Krivi Put (4), Sv. Jelena, Senj. Nothing joins them to any lane."
+      ],
+      [
+       "4 of the name in 4 people, born 1883",
+       "/buckets/",
+       "The tree only. Placed at Krivi Put, Senj; 2 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "3 of the name in 4 people, born 1871–1875",
+       "/buckets/",
+       "The tree only. Placed at Krmpote, Krivi Put; 1 with no place. Among the others: Tomljanović 1. Nothing joins them to any lane."
+      ],
+      [
+       "3 of the name in 3 people, born 1874",
+       "/buckets/",
+       "The tree only. Placed at Krivi Put; 2 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "6 of the name in the 170-person part drawn on the Blažević lane",
+       "/lines/#blazevic",
+       "The tree only: six Prpići sit in the Mrzli Dol part with the Blaževići and Pavelići"
+      ],
+      [
+       "3 of the name in the 30-person part drawn on the Blažević lane",
+       "/lines/#blazevic",
+       "The tree only: three Prpići sit in the Mrzli Dol 6 part"
+      ],
+      [
+       "31 smaller parts of the tree, 43 of the name",
+       "/buckets/",
+       "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
+      ]
+     ]
+    }
+   ]
   },
   {
    "slug": "zubrinic",
@@ -2145,35 +2356,34 @@
      "key": "otocac",
      "colour": "#2f7f8c",
      "label": "Šumećica and Otočac — Nicolaus «Nikola» Žubrinić and his daughter Tereza (ours)",
-     "conf": "DOCUMENTED FROM 1834 · TOMA'S 1838 DEATH READ · MICHAEL DISPUTED · 22 OF THE NAME IN THIS PART OF THE TREE",
      "read": "The Žubrinić page →",
      "href": "/zubrinic/",
      "nodes": [
-      [
-       "Toma",
-       "1768",
-       "Thomas Xubrinich, born 1768 at Šumećica 2 (ahnentafel 40); his death on 4 January 1838, aged 70, is entered «Incola Otočanus Centuriae Confiniariae, ex Pago Shumechiza N° 2»"
-      ],
-      [
-       "Michael",
-       "1811",
-       "Michael «Mate» Žubrinić, born 1811 at Otočac, died 1863 (ahnentafel 20) — the tree's dates; this archive has shown something recorded about him to be wrong, and marks him disputed"
-      ],
-      [
-       "Nicolaus",
-       "1834",
-       "Nicolaus baptised at Otočac on 24 January 1834 (ahnentafel 10); the priest writes the father's name «Michaël XUBRINICH» and underlines it, gives the household as Confiniarius ex Pago Shumechia N° 24, and names a pensioned master of the watch and the wife of a forest warden as godparents"
-      ],
-      [
-       "Stephanus",
-       "1856",
-       "Stephanus baptised at Otočac on 3 July 1856, son of Nicolaus Xubrinich and Anna née Štrumbulko, Confiniarius ex Pago Shumechiza N° 2 — a brother of Tereza's; read from the Otočac births, not in the tree"
-      ],
-      [
-       "Tereza",
-       "1867",
-       "Tereza born 29 November 1867 at Otočac (ahnentafel 5), Hedviga's grandmother; she dies in 1931"
-      ]
+      {
+       "place": "Toma",
+       "year": "1768",
+       "why": "Thomas Xubrinich, born 1768 at Šumećica 2 (ahnentafel 40); his death on 4 January 1838, aged 70, is entered «Incola Otočanus Centuriae Confiniariae, ex Pago Shumechiza N° 2»"
+      },
+      {
+       "place": "Michael",
+       "year": "1811",
+       "why": "Michael «Mate» Žubrinić, born 1811 at Otočac, died 1863 (ahnentafel 20) — the tree's dates; this archive has shown something recorded about him to be wrong, and marks him disputed"
+      },
+      {
+       "place": "Nicolaus",
+       "year": "1834",
+       "why": "Nicolaus baptised at Otočac on 24 January 1834 (ahnentafel 10); the priest writes the father's name «Michaël XUBRINICH» and underlines it, gives the household as Confiniarius ex Pago Shumechia N° 24, and names a pensioned master of the watch and the wife of a forest warden as godparents"
+      },
+      {
+       "place": "Stephanus",
+       "year": "1856",
+       "why": "Stephanus baptised at Otočac on 3 July 1856, son of Nicolaus Xubrinich and Anna née Štrumbulko, Confiniarius ex Pago Shumechiza N° 2 — a brother of Tereza's; read from the Otočac births, not in the tree"
+      },
+      {
+       "place": "Tereza",
+       "year": "1867",
+       "why": "Tereza born 29 November 1867 at Otočac (ahnentafel 5), Hedviga's grandmother; she dies in 1931"
+      }
      ],
      "ends": [
       [
@@ -2181,120 +2391,149 @@
        "/blazevic/",
        "Tereza married into the Blaževići of Smokvica 114: Juraj is entered in 1895 beside «Tereza rođ. Žubrinić»"
       ]
-     ]
+     ],
+     "status": "documented",
+     "span": [
+      1834,
+      null
+     ],
+     "statusNote": "Toma's 1838 death read · Michael disputed · 22 in this part of the tree",
+     "detail": "DOCUMENTED FROM 1834 · TOMA'S 1838 DEATH READ · MICHAEL DISPUTED · 22 OF THE NAME IN THIS PART OF THE TREE"
     },
     {
      "key": "otocac-331",
      "colour": "#b07a2a",
      "label": "Otočac — the Žubrinići of the 331-person part of the tree (not shown to be ours)",
-     "conf": "TREE ONLY · 202 OF THE NAME IN A PART OF THE TREE OF 331 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Theresia",
-       "1766",
-       "Theresia, born 1766, no place and no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1784–1796)"
-      ],
-      [
-       "Michael «Miko»",
-       "1793",
-       "Michael «Miko» Žubrinić Xubrinich (b. 1793) and Maria (b. 1793): six children recorded, 1822–1844"
-      ],
-      [
-       "Nicolaus",
-       "1798",
-       "Nicolaus Žubrinić Xubrinich (b. 1798) and Magdalena Orešković (b. 1796): four children recorded, 1822–1836"
-      ],
-      [
-       "Joannes",
-       "1815",
-       "Joannes Žubrinić (b. 1815) and Lucia Jurjevich (b. 1809): six children recorded, 1834–1848"
-      ],
-      [
-       "Michael",
-       "1817",
-       "Michael Žubrinić (b. 1817) and Magdalena Mande Draženović (b. 1816): five children recorded, 1839–1851"
-      ],
-      [
-       "202 of the name",
-       "1769–1888",
-       "Of the 202 Žubrinići here, 64 are placed at Otočac, 2 at Senj, 1 at Baška, and 135 have no place. Some of its people are entered twice as possible duplicates: see The Same Person, Twice"
-      ]
+      {
+       "place": "Theresia",
+       "year": "1766",
+       "why": "Theresia, born 1766, no place and no children recorded — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1784–1796)",
+       "evidence": "tree"
+      },
+      {
+       "place": "Michael «Miko»",
+       "year": "1793",
+       "why": "Michael «Miko» Žubrinić Xubrinich (b. 1793) and Maria (b. 1793): six children recorded, 1822–1844",
+       "evidence": "tree"
+      },
+      {
+       "place": "Nicolaus",
+       "year": "1798",
+       "why": "Nicolaus Žubrinić Xubrinich (b. 1798) and Magdalena Orešković (b. 1796): four children recorded, 1822–1836",
+       "evidence": "tree"
+      },
+      {
+       "place": "Joannes",
+       "year": "1815",
+       "why": "Joannes Žubrinić (b. 1815) and Lucia Jurjevich (b. 1809): six children recorded, 1834–1848",
+       "evidence": "tree"
+      },
+      {
+       "place": "Michael",
+       "year": "1817",
+       "why": "Michael Žubrinić (b. 1817) and Magdalena Mande Draženović (b. 1816): five children recorded, 1839–1851",
+       "evidence": "tree"
+      },
+      {
+       "place": "202 of the name",
+       "year": "1769–1888",
+       "why": "Of the 202 Žubrinići here, 64 are placed at Otočac, 2 at Senj, 1 at Baška, and 135 have no place. Some of its people are entered twice as possible duplicates: see The Same Person, Twice",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 202 of the name in a part of the tree of 331 · nothing joins it to our line",
+     "detail": "TREE ONLY · 202 OF THE NAME IN A PART OF THE TREE OF 331 · NOTHING JOINS IT TO OUR LINE"
     },
     {
      "key": "port-pirie",
      "colour": "#4f8a5b",
      "label": "Port Pirie, South Australia — the Zubrinich (not shown to be ours)",
-     "conf": "TREE ONLY · 41 OF THE NAME IN A PART OF THE TREE OF 57 · NOTHING JOINS IT TO OUR LINE",
      "read": "The Žubrinić page →",
      "href": "/zubrinic/",
      "nodes": [
-      [
-       "Casparus × Helena",
-       "1765–1767",
-       "Casparus Žubrinić Xubrinich (b. 1767) and Helena Žubrinić (b. 1765): four children recorded, 1793–1810 — the earliest in this part of the tree, a year from our Toma"
-      ],
-      [
-       "Elias × Ana",
-       "1806",
-       "Elias Ilija Žubrinić Xubrinich (b. 1806) and Ana Untersinger (b. 1807): seven children recorded, 1830–1844"
-      ],
-      [
-       "Ivan «John»",
-       "1860",
-       "Ivan «John» Žubrinić (b. 1860, d. 1930) and Rose Gormley (b. 1860): fourteen children recorded, 1885–1909; about 1884 he reached Port Pirie, and from his first child in 1885 the family is registered as Zubrinich"
-      ],
-      [
-       "John William",
-       "1885",
-       "John William Zubrinich (b. 1885) and Catherine Lucy Murphy (b. 1885): four children recorded, 1907–1924"
-      ],
-      [
-       "41 of the name",
-       "1765–1924",
-       "Of the 57 people here, 26 are placed at Port Pirie and 3 at Otočac; the rest are at Adelaide, Whyalla, Quorn, Port Germein, Broken Hill, Solomontown, Ardrossan and elsewhere in South Australia"
-      ]
+      {
+       "place": "Casparus × Helena",
+       "year": "1765–1767",
+       "why": "Casparus Žubrinić Xubrinich (b. 1767) and Helena Žubrinić (b. 1765): four children recorded, 1793–1810 — the earliest in this part of the tree, a year from our Toma",
+       "evidence": "tree"
+      },
+      {
+       "place": "Elias × Ana",
+       "year": "1806",
+       "why": "Elias Ilija Žubrinić Xubrinich (b. 1806) and Ana Untersinger (b. 1807): seven children recorded, 1830–1844",
+       "evidence": "tree"
+      },
+      {
+       "place": "Ivan «John»",
+       "year": "1860",
+       "why": "Ivan «John» Žubrinić (b. 1860, d. 1930) and Rose Gormley (b. 1860): fourteen children recorded, 1885–1909; about 1884 he reached Port Pirie, and from his first child in 1885 the family is registered as Zubrinich",
+       "evidence": "tree"
+      },
+      {
+       "place": "John William",
+       "year": "1885",
+       "why": "John William Zubrinich (b. 1885) and Catherine Lucy Murphy (b. 1885): four children recorded, 1907–1924",
+       "evidence": "tree"
+      },
+      {
+       "place": "41 of the name",
+       "year": "1765–1924",
+       "why": "Of the 57 people here, 26 are placed at Port Pirie and 3 at Otočac; the rest are at Adelaide, Whyalla, Quorn, Port Germein, Broken Hill, Solomontown, Ardrossan and elsewhere in South Australia",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 41 of the name in a part of the tree of 57 · nothing joins it to our line",
+     "detail": "TREE ONLY · 41 OF THE NAME IN A PART OF THE TREE OF 57 · NOTHING JOINS IT TO OUR LINE"
     },
     {
      "key": "prozor",
      "colour": "#a8453a",
      "label": "Prozor — Josephus Žubrinić (b. 1782) and his sons (not shown to be ours)",
-     "conf": "TREE ONLY · 26 OF THE NAME IN A PART OF THE TREE OF 32 · NOTHING JOINS IT TO OUR LINE",
      "read": "Labels where the father should be →",
      "href": "/buckets/",
      "nodes": [
-      [
-       "Josephus",
-       "1782",
-       "Josephus Josip Žubrinić (b. 1782, Prozor 46) and Catharina (b. 1784): eight children recorded, 1806–1844 — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1800–1812)"
-      ],
-      [
-       "Gregorius",
-       "1785",
-       "Gregorius Gregory Žubrinić (b. 1785) and Lucia (b. 1790): five children recorded, 1812–1825"
-      ],
-      [
-       "Antonius",
-       "1796",
-       "Antonius Žubrinić (b. 1796) and Anna (b. 1796): three children recorded, 1821–1831; and with Maria Premuz, one in 1847"
-      ],
-      [
-       "Michael",
-       "1826",
-       "Michael Žubrinić (b. 1826) and Marija Rogić: seven children recorded, 1858–1874. A Josephus was baptised on 3 July 1855 to a Michael Žubrinić and a Maria Rogić at Prozor N° 50, read from the Otočac births and not in the tree; his brother Nikola Miko, b. 8 January 1858, is in the tree"
-      ],
-      [
-       "26 of the name",
-       "1782–1874",
-       "Of the 26 Žubrinići here, 8 are placed at Prozor 50, 1 at Prozor 46, 6 at Otočac, and 11 have no place"
-      ]
+      {
+       "place": "Josephus",
+       "year": "1782",
+       "why": "Josephus Josip Žubrinić (b. 1782, Prozor 46) and Catharina (b. 1784): eight children recorded, 1806–1844 — the earliest dated person in this part of the tree, and the one the tree would search for first (a marriage about 1800–1812)",
+       "evidence": "tree"
+      },
+      {
+       "place": "Gregorius",
+       "year": "1785",
+       "why": "Gregorius Gregory Žubrinić (b. 1785) and Lucia (b. 1790): five children recorded, 1812–1825",
+       "evidence": "tree"
+      },
+      {
+       "place": "Antonius",
+       "year": "1796",
+       "why": "Antonius Žubrinić (b. 1796) and Anna (b. 1796): three children recorded, 1821–1831; and with Maria Premuz, one in 1847",
+       "evidence": "tree"
+      },
+      {
+       "place": "Michael",
+       "year": "1826",
+       "why": "Michael Žubrinić (b. 1826) and Marija Rogić: seven children recorded, 1858–1874. A Josephus was baptised on 3 July 1855 to a Michael Žubrinić and a Maria Rogić at Prozor N° 50, read from the Otočac births and not in the tree; his brother Nikola Miko, b. 8 January 1858, is in the tree",
+       "evidence": "tree"
+      },
+      {
+       "place": "26 of the name",
+       "year": "1782–1874",
+       "why": "Of the 26 Žubrinići here, 8 are placed at Prozor 50, 1 at Prozor 46, 6 at Otočac, and 11 have no place",
+       "evidence": "tree"
+      }
      ],
-     "ends": []
+     "ends": [],
+     "status": "origin-unknown",
+     "statusNote": "Tree only · 26 of the name in a part of the tree of 32 · nothing joins it to our line",
+     "detail": "TREE ONLY · 26 OF THE NAME IN A PART OF THE TREE OF 32 · NOTHING JOINS IT TO OUR LINE"
     }
    ],
    "bridges": [
@@ -2313,84 +2552,6 @@
      "href": "/lines/#zubrinic"
     }
    ],
-   "unplaced": [
-    [
-     "Children of a Michael Žubrinić and Maria Marković, Otočac and Šumećica 5, 1846–1858",
-     "/found/mathias-zubrinic/",
-     "Read from the Otočac births 1846–1858: Maria Magdalena Theresia (1846, a Confiniarius household), Mathias (1855, Šumećica N° 5) and Stephanus (1858, Šumećica N° 5). Not in the tree"
-    ],
-    [
-     "Maria, baptised 28 November 1858, daughter of Michael Žubrinić and Magdalena Glavinić, Prozor N° 49",
-     "/found/maria-zubrinic/",
-     "Read from the Otočac births. Not in the tree"
-    ],
-    [
-     "Žubrinići of Baška (Krk) at Senj, 1850–1855",
-     "/found/catharina-zubrinic-of-baska-bride-of-pasquan-1850/",
-     "Read from the Senj registers: Catharina, aged 21, daughter of Mathe Žubrinić and Hellena, marries Toma Pasquan on 28 April 1850; Hellena Žubrinić, a native of Baška, aged 60, dies at Senj on 27 June 1855. Not in the tree"
-    ],
-    [
-     "Mihovil Žubrinić, aged 47, died at Senj, 8 August 1849",
-     "/found/mihovil-zubrinic-aged-47-died-senj-august-1849/",
-     "Read from the Croatian-language death register of Senj. Not in the tree"
-    ],
-    [
-     "Georgius Zubranić [Žubrinić], witness at a Senj marriage, 6 February 1853",
-     "/found/georgius-zubranic-witness-at-senj-marriage-of-1853/",
-     "Read from the Senj marriage register; not placed. Not in the tree"
-    ],
-    [
-     "Zubrinich at Pirie West and Broken Hill, 1919–1948",
-     "/found/leonard-john-zubrinich/",
-     "Four records read from Australian notices: an infant son of Michael Valentine Zubrinich and Minnie Doris (Pirie West, 1919), and three marriages of the daughters of Leonard James Zubrinich and Eva Uhe (Broken Hill, 1943–1948). Not in the tree"
-    ],
-    [
-     "Otočac: 14 of the name in 29 people, born 1812–1887",
-     "/buckets/",
-     "The tree only. Placed at Otočac (4), Senj (3), Bosca?; 6 with no place. Among the others: Orešković 1, Vukelić 1. Nothing joins them to any lane."
-    ],
-    [
-     "Otočac: 21 of the name in 26 people, born 1784–1847",
-     "/buckets/",
-     "The tree only. Placed at Otočac (3); 18 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Otočac: 9 of the name in 12 people, born 1781–1848",
-     "/buckets/",
-     "The tree only. Placed at Otočac (4); 5 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Otočac: 8 of the name in 12 people, born 1802–1836",
-     "/buckets/",
-     "The tree only. Placed at Otočac (3); 5 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "Otočac: 7 of the name in 9 people, born 1777–1861",
-     "/buckets/",
-     "The tree only. Placed at Otočac (3), Senj; 3 with no place. Among the others: Sekula 1. Nothing joins them to any lane."
-    ],
-    [
-     "7 of the name in 8 people, born 1791–1835",
-     "/buckets/",
-     "The tree only. Placed at Otočac; 6 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "6 of the name in 7 people, born 1780–1828",
-     "/buckets/",
-     "The tree only. No place is recorded for them. Nothing joins them to any lane."
-    ],
-    [
-     "Otočac: 4 of the name in 5 people, born 1802–1830",
-     "/buckets/",
-     "The tree only. Placed at Otočac (3); 1 with no place. Nothing joins them to any lane."
-    ],
-    [
-     "4 smaller parts of the tree, 7 of the name",
-     "/buckets/",
-     "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
-    ]
-   ],
-   "loose": [],
    "sources": {
     "otocac": [
      [
@@ -2404,7 +2565,91 @@
     ]
    },
    "note": "<strong>The tree and the registers say different things about this name, and this page keeps them apart.</strong> The tree publishes 400 Žubrinići, written twelve ways. 22 are joined to Hedviga by ordinary parent, child and marriage links: that is the top lane. The other 378 fall into 16 separate parts of the tree that nothing joins to hers. The four biggest are drawn as lanes and marked <em>tree only</em>, because no Otočac register has been read for them here; the other 12 are listed under the figure, with the Žubrinići the registers show and the tree does not hold. About 312 people on earth carry this surname, so a Žubrinić in a register in this district is probably kin — which is a reason to look, not a join. The first dotted join is the one the Žubrinić page itself names: our line and the Australian line are not joined by anything, though their earliest men are born a year apart in the same district. See <a href=\"{{base}}/buckets/\">Labels Where the Father Should Be</a>, <a href=\"{{base}}/zubrinic-roots/\">The Žubrinić Fragments</a> and <a href=\"{{base}}/duplicates/\">The Same Person, Twice</a>.",
-   "owes": "For Žubrinić that is: <strong>whether the Australians are ours</strong> (the Otočac baptisms of the 1860s would settle it), <strong>the godparent column of the Otočac registers for every year but two</strong> (it gives a rank to every godparent and has been read for two entries out of hundreds), and, for the tree-only parts, <strong>one marriage entry each</strong>: the tree's own candidates are Theresia, b. 1766, for the 331-person part (a marriage about 1784–1796), Helena Žubrinić, b. 1765, for the Port Pirie part (about 1783–1795), and Josephus Žubrinić, b. 1782 at Prozor 46, with eight children, for the Prozor part (about 1800–1812)."
+   "owes": "For Žubrinić that is: <strong>whether the Australians are ours</strong> (the Otočac baptisms of the 1860s would settle it), <strong>the godparent column of the Otočac registers for every year but two</strong> (it gives a rank to every godparent and has been read for two entries out of hundreds), and, for the tree-only parts, <strong>one marriage entry each</strong>: the tree's own candidates are Theresia, b. 1766, for the 331-person part (a marriage about 1784–1796), Helena Žubrinić, b. 1765, for the Port Pirie part (about 1783–1795), and Josephus Žubrinić, b. 1782 at Prozor 46, with eight children, for the Prozor part (about 1800–1812).",
+   "pens": [
+    {
+     "id": "unplaced",
+     "kind": "not-yet-placed",
+     "note": "Documented households of the name that are on none of the lanes above: nothing read so far places them.",
+     "items": [
+      [
+       "Children of a Michael Žubrinić and Maria Marković, Otočac and Šumećica 5, 1846–1858",
+       "/found/mathias-zubrinic/",
+       "Read from the Otočac births 1846–1858: Maria Magdalena Theresia (1846, a Confiniarius household), Mathias (1855, Šumećica N° 5) and Stephanus (1858, Šumećica N° 5). Not in the tree"
+      ],
+      [
+       "Maria, baptised 28 November 1858, daughter of Michael Žubrinić and Magdalena Glavinić, Prozor N° 49",
+       "/found/maria-zubrinic/",
+       "Read from the Otočac births. Not in the tree"
+      ],
+      [
+       "Žubrinići of Baška (Krk) at Senj, 1850–1855",
+       "/found/catharina-zubrinic-of-baska-bride-of-pasquan-1850/",
+       "Read from the Senj registers: Catharina, aged 21, daughter of Mathe Žubrinić and Hellena, marries Toma Pasquan on 28 April 1850; Hellena Žubrinić, a native of Baška, aged 60, dies at Senj on 27 June 1855. Not in the tree"
+      ],
+      [
+       "Mihovil Žubrinić, aged 47, died at Senj, 8 August 1849",
+       "/found/mihovil-zubrinic-aged-47-died-senj-august-1849/",
+       "Read from the Croatian-language death register of Senj. Not in the tree"
+      ],
+      [
+       "Georgius Zubranić [Žubrinić], witness at a Senj marriage, 6 February 1853",
+       "/found/georgius-zubranic-witness-at-senj-marriage-of-1853/",
+       "Read from the Senj marriage register; not placed. Not in the tree"
+      ],
+      [
+       "Zubrinich at Pirie West and Broken Hill, 1919–1948",
+       "/found/leonard-john-zubrinich/",
+       "Four records read from Australian notices: an infant son of Michael Valentine Zubrinich and Minnie Doris (Pirie West, 1919), and three marriages of the daughters of Leonard James Zubrinich and Eva Uhe (Broken Hill, 1943–1948). Not in the tree"
+      ],
+      [
+       "Otočac: 14 of the name in 29 people, born 1812–1887",
+       "/buckets/",
+       "The tree only. Placed at Otočac (4), Senj (3), Bosca?; 6 with no place. Among the others: Orešković 1, Vukelić 1. Nothing joins them to any lane."
+      ],
+      [
+       "Otočac: 21 of the name in 26 people, born 1784–1847",
+       "/buckets/",
+       "The tree only. Placed at Otočac (3); 18 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Otočac: 9 of the name in 12 people, born 1781–1848",
+       "/buckets/",
+       "The tree only. Placed at Otočac (4); 5 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Otočac: 8 of the name in 12 people, born 1802–1836",
+       "/buckets/",
+       "The tree only. Placed at Otočac (3); 5 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "Otočac: 7 of the name in 9 people, born 1777–1861",
+       "/buckets/",
+       "The tree only. Placed at Otočac (3), Senj; 3 with no place. Among the others: Sekula 1. Nothing joins them to any lane."
+      ],
+      [
+       "7 of the name in 8 people, born 1791–1835",
+       "/buckets/",
+       "The tree only. Placed at Otočac; 6 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "6 of the name in 7 people, born 1780–1828",
+       "/buckets/",
+       "The tree only. No place is recorded for them. Nothing joins them to any lane."
+      ],
+      [
+       "Otočac: 4 of the name in 5 people, born 1802–1830",
+       "/buckets/",
+       "The tree only. Placed at Otočac (3); 1 with no place. Nothing joins them to any lane."
+      ],
+      [
+       "4 smaller parts of the tree, 7 of the name",
+       "/buckets/",
+       "The tree only: one or two of the name to a part. Listed on the buckets page with the rest of the islands"
+      ]
+     ]
+    }
+   ]
   }
  ]
 }

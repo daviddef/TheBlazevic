@@ -249,6 +249,10 @@
   "/who/",
   "/found/"
  ],
+ "lines": {
+  "exclusive": true,
+  "personBase": "/people/"
+ },
  "living_years": {
   "allow_file": "../data/living-year-allow.json",
   "allow_prefixes": [],

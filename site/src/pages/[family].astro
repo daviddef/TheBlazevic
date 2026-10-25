@@ -12,6 +12,7 @@ import evidence from "../data/evidence.json";
 import readings from "../data/readings.json";
 import snapshots from "../data/snapshots.json";
 import linesData from "../data/lines.json";
+import { statusLine } from "@daviddef/archive-kit/lib/lines.js";
 import questions from "../data/questions.json";
 
 export function getStaticPaths() {
@@ -229,7 +230,7 @@ const cut = (s, n = 320) => { s = String(s || ""); if (s.length <= n) return s;
       <h2>The name in the lines page</h2>
       <p>{lineSet.dek}</p>
       <ul>{lineSet.lanes.map((l) => (
-        <li><strong>{l.label}</strong> <span class="dim">&mdash; {l.conf}</span></li>))}</ul>
+        <li><strong>{l.label}</strong> <span class="dim">&mdash; {statusLine(l).text}</span></li>))}</ul>
       <p class="dek"><a href={u(`/lines/#${lineSet.slug}`)}>The lines page, in full →</a></p>
     </section>
   )}

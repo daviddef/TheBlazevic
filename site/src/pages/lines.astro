@@ -4,6 +4,7 @@ import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import { u } from "../lib/url.js";
 import lines from "../data/lines.json";
 import { md, plain } from "@daviddef/archive-kit/lib/md.js";
+import { statusLine, ledger, TIER_WORD } from "@daviddef/archive-kit/lib/lines.js";
 
 /* 11 October 2026. THE PAGE LOOPS OVER lines.sets NOW: Uroda was the first, and the
    Karlobag mother-side surnames follow it as further sets in the same file.
@@ -16,22 +17,38 @@ import { md, plain } from "@daviddef/archive-kit/lib/md.js";
    them.
 
    The drawing is the kit's BranchRivers, which three archives had already
-   drawn by hand. The unplaced and loose footers are passed empty and listed
-   below the figure instead, with a sentence and a link each, which is more than
-   the figure can hold and keeps them on the page. WHAT IS THIS ARCHIVE'S ALONE
-   is the data, and the rule: a lane is a family the registers show, a dotted
-   bridge is a join no document makes, and nothing is merged until one does. */
+   drawn by hand. WHAT IS THIS ARCHIVE'S ALONE is the data, and the rule: a lane is a family the
+   registers show, a dotted bridge is a join no document makes, and nothing is merged until one does.
+
+   25 OCTOBER 2026, KIT 341af33: every lane now states a STATUS (documented, origin inferred, origin
+   unknown) and a documented span, the households of the name that are on no lane are PENS with a
+   note and a count the figure derives (the page used to pass them empty and list them below), and a
+   node that rests on the tree alone says so (`evidence: tree`, drawn hollow). `npm run check:lines`
+   holds the data to its own claims. The lane's own full evidence line, which the page printed from
+   `conf`, is `detail` now: `conf` beside a status is ignored by the figure. */
 const sets = lines.sets;
 /* The drawing shows each reason as plain text in a tooltip, so the **bold** and «quote»
    markers are taken out for it; the lists below the figure render them. */
+const pl = (a) => [a[0], a[1], plain(a[2]), ...a.slice(3)];
 const forDrawing = (set) => ({
-  ...set, unplaced: [], loose: [],
+  ...set,
+  title: `The lines of the ${set.name} name, and the households of it that are on none of them`,
   lanes: set.lanes.map((l) => ({
     ...l,
-    nodes: l.nodes.map((n) => [n[0], n[1], plain(n[2]), ...n.slice(3)]),
-    ends: (l.ends || []).map((e) => [e[0], e[1], plain(e[2]), ...e.slice(3)]),
+    nodes: l.nodes.map((n) => ({ ...n, why: plain(n.why) })),
+    ends: (l.ends || []).map(pl),
   })),
+  pens: (set.pens || []).map((p) => ({ ...p, items: (p.items || []).map(pl) })),
 });
+/* the counts the page prints come from the data and are never typed */
+const tally = (set) => {
+  const L = ledger(set);
+  const tiers = Object.entries(L.tiers).filter(([, n]) => n > 0).map(([k, n]) => `${n} ${TIER_WORD[k]}`).join(", ");
+  return `${L.lanes} ${L.lanes === 1 ? "line" : "lines"} drawn (${tiers})`
+    + (L.households ? ` · ${L.households} ${L.households === 1 ? "entry" : "entries"} on none of them` : "")
+    + (L.otherStock ? ` · ${L.otherStock} kept apart` : "")
+    + (L.bridges ? ` · ${L.bridges} candidate ${L.bridges === 1 ? "join" : "joins"}` : "");
+};
 const snap = (id) => u(`/snapshots/#${id}`);
 ---
 <Base title="The Lines of a Name"
@@ -54,6 +71,7 @@ const snap = (id) => u(`/snapshots/#${id}`);
       <div class="lab">{set.eyebrow}</div>
       <h2>{set.name}</h2>
       <p class="dim">{set.dek}</p>
+      <p class="dim mono" style="font-size:.78rem">{tally(set)}</p>
 
       <figure class="rivers">
         <BranchRivers rivers={forDrawing(set)} caption="" />
@@ -71,10 +89,12 @@ const snap = (id) => u(`/snapshots/#${id}`);
       {set.lanes.map((l) => (
         <div class="qa" id={`${set.slug}-${l.key}`} style="margin:1.3rem 0">
           <h3 style={`color:${l.colour}`}>{l.label}</h3>
-          <p class="dim mono" style="font-size:.78rem">{l.conf}</p>
+          <p class="dim mono" style="font-size:.78rem">{statusLine(l).text}</p>
+          {l.detail && <p class="dim mono" style="font-size:.74rem;margin-top:-.4rem">{l.detail}</p>}
           <ol style="margin:.5rem 0 0;padding-left:1.2rem">
-            {l.nodes.map(([place, year, why]) => (
-              <li style="margin:.35rem 0"><strong>{place}</strong> · <span class="mono">{year}</span> — <Fragment set:html={md(why)} /></li>
+            {l.nodes.map((n) => (
+              <li style="margin:.35rem 0"><strong>{n.place}</strong> · <span class="mono">{n.year}</span> — <Fragment set:html={md(n.why)} />
+                {n.evidence === "tree" && <span class="dim"> (the tree alone)</span>}</li>
             ))}
           </ol>
           {set.sources?.[l.key]?.length > 0 && (
@@ -90,22 +110,6 @@ const snap = (id) => u(`/snapshots/#${id}`);
         </div>
       ))}
 
-      {set.unplaced?.length > 0 && (<>
-        <h3>Households of the name, not yet on any lane</h3>
-        <ul style="padding-left:1.1rem">
-          {set.unplaced.map(([name, href, why]) => (
-            <li style="margin:.4rem 0"><a href={u(href)}><strong>{name}</strong></a> — {why}</li>
-          ))}
-        </ul>
-      </>)}
-      {set.loose?.length > 0 && (<>
-        <h3 style="margin-top:1.4rem">Attached to no line here</h3>
-        <ul style="padding-left:1.1rem">
-          {set.loose.map(([name, href, why]) => (
-            <li style="margin:.4rem 0"><a href={u(href)}><strong>{name}</strong></a> — {why}</li>
-          ))}
-        </ul>
-      </>)}
       {set.owes && <div class="note" style="margin-top:1.4rem"><strong>What this name still owes.</strong> <Fragment set:html={set.owes} /></div>}
     </section>
   ))}
@@ -119,11 +123,3 @@ const snap = (id) => u(`/snapshots/#${id}`);
   </section>
 
 </Base>
-
-<style is:global>
-  /* The kit draws its two footers («real households not yet placed», «a different
-     stock of a very common name», and a hard-coded note about the commonest patronymic
-     in Italy) even when both lists are empty. This page lists them in prose under the
-     figure, so the empty footer group — always the last child of the svg — is hidden. */
-  .rivers svg > g:last-child { display: none; }
-</style>
