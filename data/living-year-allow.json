@@ -3,15 +3,24 @@
   "allow": [
     {
       "text": "entered as born in 1962",
-      "why": "A typing slip in the tree, not a birth: this archive's own correction (corrections.json) records that the man's parents died in 1888 and 1891 and that his birth entry cites a register that ends in 1884. His person page is held to the living form under the kit rule until David confirms the slip (slug georgius-prpic)."
+      "why": "A typing slip in the tree, not a birth: this archive's own correction (corrections.json) records that the man's parents died in 1888 and 1891 and that his birth entry cites a register that ends in 1884. His year is corrected to 1862 on his page (data/tree-corrections.tsv, 26 October 2026) and he is a deceased person again; this is the correction quoting the tree's year (slug georgius-prpic)."
     },
     {
       "text": "Georgius Prpić born 1962",
-      "why": "The same typing slip, quoted by the archive's own 'cannot be true' correction on his father's page (slug domianus-perpic). Not a living person's birth; see the first entry."
+      "why": "The same typing slip, quoted by the archive's own 'cannot be true' correction on his father's page (slug domianus-perpic), and by the corrections list of the tree's wrong dates. Not a living person's birth; see the first entry."
     },
     {
       "text": "Georgius Prpic born 1962",
-      "why": "The same typing slip, quoted unaccented in the archive's own list of disputed dates (corrections.json). Not a living person's birth; see the first entry."
+      "why": "The same typing slip, quoted unaccented in the archive's own list of disputed dates (corrections.json) and in What Cannot Be True, which reports what the tree says. Not a living person's birth; see the first entry."
+    },
+    {
+      "text": "Georgius Prpic</a> born 1962",
+      "why": "The same typing slip, as What Cannot Be True prints it where the name is a link to his page (the autolinker links him now he has died again). Not a living person's birth; see the first entry."
+    },
+    {
+      "text": "georgius prpic born 1962",
+      "file": "searchindex.json",
+      "why": "The same typing slip, as the search index holds What Cannot Be True's list, folded to lower case. Not a living person's birth; see the first entry."
     },
     {
       "text": "nobody was born there in 1962",
@@ -21,6 +30,20 @@
       "text": "Born</th><td>14 DEC 1949",
       "file": "people/jeanette-marie-lerena/index.html",
       "why": "A deceased person: the data records her death on 6 June 2021 and the page's heading prints 1949 to 2021. The kit gate's 90-character look-ahead for the death word is passed by the era note's inline style sitting between the Born and Died rows (kit finding, reported, not edited)."
+    },
+    {
+      "text": "Robert &quot;Robbie&quot; Defranceski</span><span class=\"dt\">b. 1953",
+      "why": "His birth year in the family chart chip on the pages of his relatives. A deceased person: the tree records his death with a place and no date, and the family confirmation of 25 October 2026 is written on his death event (data/death-confirmations.tsv); his people row carries deathRecorded. The kit gate's dead-name excuse folds the name without its quotes but the page prints the nickname in quotes (kit finding, reported, not edited)."
+    },
+    {
+      "text": "Born</th><td>23 APR 1953",
+      "file": "people/robert-defranceski/index.html",
+      "why": "His own page's Born row. A deceased person: the tree records his death with a place and no date, and the family confirmation of 25 October 2026 is written on his death event (data/death-confirmations.tsv); his people row carries deathRecorded. The kit gate's dead-name excuse folds the name without its quotes but the page prints the nickname in quotes (kit finding, reported, not edited)."
+    },
+    {
+      "text": "Robert \"Robbie\" Defranceski</a></td><td class>b. 23 APR 1953",
+      "file": "register/index.html",
+      "why": "His row in the register of everyone the tree names. A deceased person: the tree records his death with a place and no date, and the family confirmation of 25 October 2026 is written on his death event (data/death-confirmations.tsv); his people row carries deathRecorded. The kit gate's dead-name excuse folds the name without its quotes but the page prints the nickname in quotes (kit finding, reported, not edited)."
     }
   ]
 }

@@ -111,8 +111,62 @@ def _notes(node, notes_by_id):
     return [n for n in out if n]
 
 
-def load(path=GED):
-    """Return (people, families) as dicts keyed by GEDCOM xref."""
+def _tsv(name):
+    """Rows of data/<name>: `|`-separated, `#` lines and blanks skipped."""
+    path = os.path.join(ROOT, "data", name)
+    rows = []
+    if os.path.exists(path):
+        for line in open(path, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if line.strip() and not line.startswith("#"):
+                rows.append([x.strip() for x in line.split("|")])
+    return rows
+
+
+def apply_overlays(people):
+    """The two things this archive records about the tree WITHOUT editing the GEDCOM (26 October 2026):
+
+    data/tree-corrections.tsv   id|event|tree year|corrected year|source
+        A typing slip in a year (a birth after the parents' deaths), corrected in what the archive PUBLISHES. The day and
+        month the tree gives are kept; only the year changes. The event's note says it was corrected and where the
+        correction is written (the source is the archive's own correction note in corrections.json). A row whose tree
+        year no longer matches the tree stops the build: the tree changed, look again. tools/consistency.py reads the
+        tree WITHOUT this (load(corrected=False)): /impossible/ reports what the tree says.
+    data/death-confirmations.tsv   id|source|grade
+        A death the tree records with a place and no date, confirmed by the family. The confirmation is written on the
+        death event as its source and grade (and is not a date: none is invented). It is a RECORDED, sourced death, which
+        the kit's living rule counts (a bare flag does not free anybody born in the window).
+    """
+    for pid, event, was, now, source in (r[:5] for r in _tsv("tree-corrections.tsv")):
+        p = people.get(pid)
+        if p is None:
+            raise SystemExit(f"data/tree-corrections.tsv: {pid} is not in the tree")
+        if event != "birth":
+            raise SystemExit(f"data/tree-corrections.tsv: only a birth year can be corrected here, not {event!r}")
+        e = ev(p, "birth")
+        if not e or not e.get("date") or year(e["date"]) != int(was):
+            raise SystemExit(f"data/tree-corrections.tsv: {pid} no longer has a birth year of {was} in the tree: look again")
+        e["date"] = re.sub(r"\b%s\b" % was, now, e["date"])
+        e["corrected_from"] = int(was)
+        e["note"] = ("Year corrected by this archive; the correction and its evidence are recorded under What changed (/corrections/) "
+                     "and What Cannot Be True (/impossible/). " + (e.get("note") or "")).strip()
+    for pid, source, grade in (r[:3] for r in _tsv("death-confirmations.tsv")):
+        p = people.get(pid)
+        if p is None:
+            raise SystemExit(f"data/death-confirmations.tsv: {pid} is not in the tree")
+        e = ev(p, "death")
+        if not e:
+            raise SystemExit(f"data/death-confirmations.tsv: {pid} has no death event in the tree")
+        if year(e.get("date", "")):
+            raise SystemExit(f"data/death-confirmations.tsv: {pid} already has a dated death: take the row out")
+        e["note"] = ("Source: %s. Grade: %s." % (source, grade) + " " + (e.get("note") or "")).strip()
+        e["confirmed"] = True
+    return people
+
+
+def load(path=GED, corrected=True):
+    """Return (people, families) as dicts keyed by GEDCOM xref. `corrected=False` is the tree exactly as it was
+    exported (tools/consistency.py: /impossible/ reports what the tree says); see apply_overlays."""
     records = parse(path)
 
     notes_by_id = {}
@@ -202,6 +256,8 @@ def load(path=GED):
     for p in people.values():
         p.setdefault("parents", [])
 
+    if corrected:
+        apply_overlays(people)
     return people, families
 
 

@@ -132,7 +132,8 @@ SCANNED_DIRS = ("site/src", "site/public", "data", "sources")
 DEAD_ROW_KEYS = {"id", "slug", "name", "given", "surname", "nick", "sex", "born", "bornPlace",
                  "died", "diedPlace", "cause", "burial", "baptised", "baptisedPlace",
                  "occupations", "byear", "dyear", "sources", "notes", "events", "family",
-                 "ahn", "gen", "rel"}
+                 "ahn", "gen", "rel",
+                 "deathRecorded"}      # the kit's key for a death recorded without a date (build_site_data.person; in-window people only)
 
 
 def load_rule():

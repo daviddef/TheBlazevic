@@ -39,13 +39,16 @@ def approx(datestr):
         re.search(r"\b(ABT|BEF|AFT|EST|CAL|BET|FROM|TO)\b", datestr.upper()))
 
 
-people, families = load()
+# THE TREE AS EXPORTED, for the sweep: /impossible/ reports what the tree says, so a year this archive has corrected for
+# publication (data/tree-corrections.tsv, gedcom.apply_overlays) is still the tree's year here. WHO IS LIVING is decided on
+# the corrected tree (the person the correction frees is not living, so the contradiction about him is reported again).
+people, families = load(corrected=False)
 # A LIVING PERSON'S DATES NEVER REACH A COMMITTED FILE, and a held-out person is
 # not published at all (tools/livingset.py, the kit's rule). This sweep reports
 # dates and names, so it does not see them: they are taken out of the tree before
 # anything is checked, and every loop below already skips an id that is missing.
 import livingset
-_cls = livingset.classify(people, families)
+_cls = livingset.classify(*load())
 people = {i: p for i, p in people.items() if i not in _cls["living"] and i not in _cls["held"]}
 
 # Entries that are labels rather than people; ages computed against them mean nothing.

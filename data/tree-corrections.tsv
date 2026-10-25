@@ -1,0 +1,9 @@
+# A YEAR THIS ARCHIVE CORRECTS FOR PUBLICATION, WITHOUT EDITING THE TREE (26 October 2026).
+# Applied by tools/gedcom.py (apply_overlays) on every load, so the generators and the gates see one corrected tree.
+# tools/consistency.py reads the tree as exported, so /impossible/ still reports what the tree says.
+# Only the YEAR changes (the day and month the tree gives are kept). A row whose tree year no longer matches the tree stops the build.
+# The source is the archive's own correction note in site/src/data/corrections.json, which carries the evidence; the page of the
+# person says it was corrected and links to it.
+#
+# id|event|tree year|corrected year|source
+@I508661@|birth|1962|1862|corrections.json: «His son's birth year is a typo, and the place proves it» (id @I508659@), «Georgius Prpić's birth year» (id @I508660@) and his own «birth year is corrected» (id @I508661@)

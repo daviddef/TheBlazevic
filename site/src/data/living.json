@@ -460,7 +460,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     }
    ],
    "siblings": [],
@@ -512,56 +514,6 @@
      "name": "Graham Lindsay D'Arcy",
      "slug": "graham-lindsay-d-arcy",
      "living": true
-    }
-   ],
-   "children": []
-  }
- },
- {
-  "slug": "georgius-prpic",
-  "name": "Georgius Prpic",
-  "town": "Senj",
-  "country": "Austria-Hungary",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Domianus \"Domian\" Perpić",
-     "slug": "domianus-perpic",
-     "id": "@I508659@",
-     "born": 1820,
-     "died": 1888
-    },
-    {
-     "name": "Maria Sojath",
-     "slug": "maria-sojath",
-     "id": "@I508660@",
-     "born": 1823,
-     "died": 1891
-    }
-   ],
-   "spouses": [],
-   "siblings": [
-    {
-     "name": "Jacobus Perpic",
-     "slug": "jacobus-perpic",
-     "id": "@I508683@",
-     "born": 1858,
-     "died": null
-    },
-    {
-     "name": "Jure Perpic",
-     "slug": "jure-perpic",
-     "id": "@I508687@",
-     "born": 1862,
-     "died": 1882
-    },
-    {
-     "name": "Mathia Prpic",
-     "slug": "mathia-prpic",
-     "id": "@I508670@",
-     "born": 1865,
-     "died": null
     }
    ],
    "children": []
@@ -797,7 +749,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     }
    ],
    "children": [
@@ -882,7 +836,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     },
     {
      "name": "Gayle Diane Williams",
@@ -1072,7 +1028,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     }
    ],
    "children": [
@@ -1466,7 +1424,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     },
     {
      "name": "Gayle Diane Williams",
@@ -1661,62 +1621,6 @@
     }
    ],
    "children": []
-  }
- },
- {
-  "slug": "robert-defranceski",
-  "name": "Robert \"Robbie\" Defranceski",
-  "town": "Senj",
-  "country": "Croatia",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Ivan Anton Defranceski",
-     "slug": "ivan-anton-defranceski",
-     "id": "@I16@",
-     "born": 1925,
-     "died": 1995
-    },
-    {
-     "name": "Hedviga \"Seka\" Blažević",
-     "slug": "hedviga-blazevic",
-     "id": "@I17@",
-     "born": 1926,
-     "died": 2001
-    }
-   ],
-   "spouses": [
-    {
-     "name": "Gayle Diane Williams",
-     "slug": "gayle-diane-williams",
-     "living": true
-    }
-   ],
-   "siblings": [
-    {
-     "name": "Ladislava \"Ada\" Defranceski",
-     "slug": "ladislava-defranceski",
-     "living": true
-    },
-    {
-     "name": "Ivan Anton Defranceski",
-     "slug": "ivan-anton-defranceski-2",
-     "living": true
-    }
-   ],
-   "children": [
-    {
-     "name": "Nicole Defranceski",
-     "slug": "nicole-defranceski",
-     "living": true
-    },
-    {
-     "name": "Kirsten Defranceski",
-     "slug": "kirsten-defranceski",
-     "living": true
-    }
-   ]
   }
  },
  {

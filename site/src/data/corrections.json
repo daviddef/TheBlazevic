@@ -576,6 +576,16 @@
   "href": "/impossible"
  },
  {
+  "id": "@I508661@",
+  "kind": "disputed",
+  "label": "Disputed — the tree's year does not hold, and is corrected here",
+  "what": "His own birth year is corrected to 1862 on this page",
+  "tree": "Entered with the year 1962 (26 March), at Krivi Put 136, Senj, Lika, Austria-Hungary; death marked, with no date",
+  "record": "Published here as 26 March 1862: the year corrected, the day and month as the tree gives them",
+  "why": "Corrected on 26 October 2026 on the evidence set out against his parents' pages and on the page What Cannot Be True: his father died in 1888 and his mother in 1891, Austria-Hungary ceased to exist in 1918, and the register the tree itself cites for the entry (Krivi Put births) ends in 1884. Only the year is changed. The tree file is not edited: the correction is written down in this archive's data (data/tree-corrections.tsv) and applied when the pages are built, and What Cannot Be True still reports the tree's own year. The tree marks his death without a date or a place, and none is added here.",
+  "href": "/impossible"
+ },
+ {
   "id": "@I506361@",
   "kind": "disputed",
   "what": "Vladimira Baricević cannot be the mother of his children",

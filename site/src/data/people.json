@@ -53039,7 +53039,9 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
-     "living": true
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
     }
    ]
   }
@@ -144184,6 +144186,97 @@
     {
      "name": "Robert \"Robbie\" Defranceski",
      "slug": "robert-defranceski",
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I18@",
+  "slug": "robert-defranceski",
+  "name": "Robert \"Robbie\" Defranceski",
+  "given": "Robert",
+  "surname": "Defranceski",
+  "nick": "Robbie",
+  "sex": "M",
+  "born": "23 APR 1953",
+  "bornPlace": "Senj, Croatia",
+  "died": "",
+  "diedPlace": "Johannesburg, South Africa",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1953,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "death",
+    "date": "",
+    "place": "Johannesburg, South Africa",
+    "detail": "Y",
+    "note": "Source: family confirmation, David Defranceski, 25 October 2026. Grade: family lore."
+   },
+   {
+    "kind": "birth",
+    "date": "23 APR 1953",
+    "place": "Senj, Croatia",
+    "detail": "",
+    "note": ""
+   }
+  ],
+  "deathRecorded": true,
+  "family": null,
+  "rel": {
+   "parents": [
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski",
+     "id": "@I16@",
+     "born": 1925,
+     "died": 1995
+    },
+    {
+     "name": "Hedviga \"Seka\" Blažević",
+     "slug": "hedviga-blazevic",
+     "id": "@I17@",
+     "born": 1926,
+     "died": 2001
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Gayle Diane Williams",
+     "slug": "gayle-diane-williams",
+     "living": true
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Ladislava \"Ada\" Defranceski",
+     "slug": "ladislava-defranceski",
+     "living": true
+    },
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski-2",
+     "living": true
+    }
+   ],
+   "children": [
+    {
+     "name": "Nicole Defranceski",
+     "slug": "nicole-defranceski",
+     "living": true
+    },
+    {
+     "name": "Kirsten Defranceski",
+     "slug": "kirsten-defranceski",
      "living": true
     }
    ]
@@ -297252,7 +297345,9 @@
     {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
-     "living": true
+     "id": "@I508661@",
+     "born": 1862,
+     "died": null
     }
    ],
    "children": []
@@ -297428,7 +297523,9 @@
     {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
-     "living": true
+     "id": "@I508661@",
+     "born": 1862,
+     "died": null
     }
    ],
    "children": []
@@ -299050,7 +299147,9 @@
     {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
-     "living": true
+     "id": "@I508661@",
+     "born": 1862,
+     "died": null
     }
    ]
   }
@@ -322324,6 +322423,88 @@
   }
  },
  {
+  "id": "@I508661@",
+  "slug": "georgius-prpic",
+  "name": "Georgius Prpic",
+  "given": "Georgius",
+  "surname": "Prpic",
+  "nick": "",
+  "sex": "M",
+  "born": "26 MAR 1862",
+  "bornPlace": "Krivi Put 136, Senj, Lika, Austria-Hungary",
+  "died": "",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1862,
+  "dyear": null,
+  "sources": [],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "26 MAR 1862",
+    "place": "Krivi Put 136, Senj, Lika, Austria-Hungary",
+    "detail": "",
+    "note": "Year corrected by this archive; the correction and its evidence are recorded under What changed (/corrections/) and What Cannot Be True (/impossible/). \"Croatia, Church Books, 1516-1994,\" database with images, FamilySearch (https://familysearch.org/ark:/61903/3:1:3QS7-899X-RNSB?cc=2040054&wc=9R28-DP8%3A391644801%2C392355601%2C392355602 : 16 July 2014), Roman Catholic (Rimokatolička crkva) > Krivi Put > Births (Rođeni) 1847-1884 > image 81 of 382; Arhiva Hrvatske u Zagrebu (Croatia State Archives), Zagreb."
+   },
+   {
+    "kind": "death",
+    "date": "",
+    "place": "",
+    "detail": "Y",
+    "note": ""
+   }
+  ],
+  "family": "prpic",
+  "rel": {
+   "parents": [
+    {
+     "name": "Domianus \"Domian\" Perpić",
+     "slug": "domianus-perpic",
+     "id": "@I508659@",
+     "born": 1820,
+     "died": 1888
+    },
+    {
+     "name": "Maria Sojath",
+     "slug": "maria-sojath",
+     "id": "@I508660@",
+     "born": 1823,
+     "died": 1891
+    }
+   ],
+   "spouses": [],
+   "siblings": [
+    {
+     "name": "Jacobus Perpic",
+     "slug": "jacobus-perpic",
+     "id": "@I508683@",
+     "born": 1858,
+     "died": null
+    },
+    {
+     "name": "Jure Perpic",
+     "slug": "jure-perpic",
+     "id": "@I508687@",
+     "born": 1862,
+     "died": 1882
+    },
+    {
+     "name": "Mathia Prpic",
+     "slug": "mathia-prpic",
+     "id": "@I508670@",
+     "born": 1865,
+     "died": null
+    }
+   ],
+   "children": []
+  }
+ },
+ {
   "id": "@I508665@",
   "slug": "franciscus-prpic",
   "name": "Franciscus Prpic",
@@ -322929,7 +323110,9 @@
     {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
-     "living": true
+     "id": "@I508661@",
+     "born": 1862,
+     "died": null
     }
    ],
    "children": []
@@ -376214,7 +376397,9 @@
     {
      "name": "Georgius Prpic",
      "slug": "georgius-prpic",
-     "living": true
+     "id": "@I508661@",
+     "born": 1862,
+     "died": null
     }
    ]
   }

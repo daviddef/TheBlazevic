@@ -63,13 +63,23 @@ Somebody born within the last 80 years with no death recorded is living: named w
   bare death flag release anybody born inside the window. `tools/livingset.py` passes `undated_dead=True` for a DEAT event that is
   only `Y` (no date, no place, no cause or note, no burial: `death_evidence() == "flag"`) and `recorded_dead` for a real record.
   `cites_for_living` is kept working beside the kit and is redundant; delete it once the kit gate has run clean for a release.
-  The one person whose status changed is a tree typo (a birth year after the parents' deaths): that person is held to the living form
-  and listed for David, with the correction text that quotes the year registered in `data/living-year-allow.json`.
+  The one person whose status changed was a tree typo (a birth year after the parents' deaths): withheld as living on 25 October, he
+  is deceased again since 26 October (below). The correction text that still quotes the tree's year is registered in `data/living-year-allow.json`.
+- **Two records kept beside the tree, never in it (26 October 2026; applied by `gedcom.apply_overlays` on every `load()`).**
+  `data/tree-corrections.tsv` (id|event|tree year|corrected year|source): a typing slip in a YEAR, corrected for publication, day and
+  month kept; the event's note says so and the source is the archive's own correction note in `corrections.json`; a row whose tree
+  year no longer matches stops the build. `tools/consistency.py` reads the tree AS EXPORTED (`load(corrected=False)`) so
+  /impossible/ still reports what the tree says (who is living is decided on the corrected tree). `data/death-confirmations.tsv`
+  (id|source|grade): a death the tree records with a place and no date, confirmed by the family; the source and grade are printed
+  on the death event, no date is invented, and it is a RECORDED death for the kit (take the hold in `living-hold.tsv` out in the same
+  commit). Current rows: one corrected birth year (Georgius Prpić, 1962 to 1862), one confirmed death (Robert, family
+  confirmation by David, 25 October 2026). Ivan Anton Defranceski (the second of the name) is NOT changed: the Defranceschi archive
+  records a death in 2026; this archive holds none.
 - **`npm run check:living` also runs the kit's printed-year gate** (`--years --config standard.json --strict-allow`): its registry is
   `data/living-year-allow.json` (`{allow:[{text, why, file?}]}`, a reason of 8 characters or more; the text is matched in the RAW
   built file, so a snippet inside HTML carries its tags), named in `site/standard.json` under `living_years`. It runs beside
   `tools/livingyears.py`, which keeps its own registry (`data/living-year-allow.tsv`).
-- **`data/living-hold.tsv`**: people the tree records dead with a place and no date, held as living until David confirms.
+- **`data/living-hold.tsv`**: people the tree records dead with a place and no date, held as living until David confirms (empty now: confirm with `data/death-confirmations.tsv`).
   Refused for anybody with a dated death. (A bare flag needs no hold: the kit keeps such a person living.) **`data/living-redact.tsv`**: a dead person's free text that prints a living person's year.
   **`data/living-year-allow.tsv`**: a decision, with a reason, to print a window year (a typo in the tree). **`sources/media/withheld.psv`**:
   photographs that show living people; their files are not kept.

@@ -203,7 +203,7 @@ def dead_slugs(w):
 
 
 def row_has_death(r):
-    if any(r.get(k) not in (None, "", [], {}, False) for k in DEATH_KEYS):
+    if any(r.get(k) not in (None, "", [], {}, False) for k in DEATH_KEYS) or r.get("deathRecorded") is True:
         return True
     return any(isinstance(e, dict) and e.get("kind") in ("death", "burial") for e in (r.get("events") or []))
 
@@ -243,14 +243,36 @@ def rule_rows(w, allow):
     return out
 
 
-def scan_text(where, text, allow, born_label_ok=False):
-    """TXT-BDOT, TXT-BORN, ROW-OPEN over one text."""
+def dead_in_window(w):
+    """[(folded name, birth year)] for every published row of somebody born inside the window whose data records a death
+    (a death year, a death place, a death event, the kit's deathRecorded). Their birth year may be printed beside their own
+    name even when the death has no date (26 October 2026: a death confirmed by the family has a place and no date, so the
+    page reads «1953–?» and the relatives' chips «b. 1953», and no death word follows the year)."""
+    out = set()
+    for doc in w["json"].values():
+        for r in rows_in(doc):
+            if not isinstance(r, dict):
+                continue
+            nm = fold(r.get("name") or "")
+            b = next((year_of(r[k]) for k in BIRTH_KEYS if k in r and year_of(r[k])), None)
+            if len(nm) >= 7 and " " in nm and window(b) and (row_has_death(r) or r.get("deathRecorded") is True):
+                out.add((nm, b))
+    return sorted(out)
+
+
+def scan_text(where, text, allow, born_label_ok=False, deadwin=()):
+    """TXT-BDOT, TXT-BORN, ROW-OPEN over one text. `deadwin` is dead_in_window(): a window year directly after the
+    NAME of a person whose data records a death, and equal to that person's birth year, is not a living person's year."""
     out = []
 
     def skip(m, tail_len=70, check_death=True):
         y = int(m.group(1))
         if not window(y):
             return True
+        if deadwin:
+            before = fold(text[max(0, m.start() - 70): m.start()])
+            if any(by == y and nm in before for nm, by in deadwin):
+                return True
         if check_death:
             tail = text[m.end(): m.end() + tail_len]
             if DEATH_BESIDE.search(tail) or DASH_YEAR.match(tail):
@@ -285,8 +307,9 @@ def corpus(w):
 
 def rule_text(w, allow, corp=None):
     out = []
+    dw = dead_in_window(w)
     for where, (text, label_ok) in (corp or corpus(w)).items():
-        out += scan_text(where, text, allow, label_ok)
+        out += scan_text(where, text, allow, label_ok, dw)
     return out
 
 
@@ -791,6 +814,14 @@ def selftest(w, allow, tree, findings, quiet=False):
         return good
     res.append(passes("a dead person's range and «b. YYYY d. YYYY» pass", planted_page(
         f"<p>Zz Planted ({y_in}–{y_in + 1}) and Zz Other b. {y_in} d. {y_in + 2}</p>")))
+    def dead_undated(w2, c2):
+        planted_json([{"name": "Zz Planted", "born": f"23 APR {y_in}", "deathRecorded": True, "diedPlace": "Town"}])(w2, c2)
+        planted_page(f"<p>Zz Planted {y_in}–? Town</p><p>Zz Planted b. {y_in}</p>")(w2, c2)
+    res.append(passes("a death recorded without a date lets its own name carry its own birth year", dead_undated))
+    def not_this_name(w2, c2):
+        planted_json([{"name": "Zz Planted", "born": f"23 APR {y_in}", "deathRecorded": True}])(w2, c2)
+        planted_page(f"<p>Zz Another b. {y_in}</p>")(w2, c2)
+    res.append(plant("the dead person's year beside somebody else's name", "TXT-BDOT", not_this_name))
     res.append(passes("a year just outside the window passes", planted_page(f"<p>Zz was born in {y_out} and b. {y_out}.</p>")))
     res.append(passes("a recorded death in the row passes", planted_json([{"name": "Zz", "born": y_in, "died": y_in + 1}])))
     res.append(passes("a death event in the row passes", planted_json(

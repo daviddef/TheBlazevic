@@ -83,6 +83,15 @@
  {
   "kind": "child-after-parent-death",
   "sev": 1,
+  "id": "@I508659@",
+  "name": "Domianus \"Domian\" Perpić",
+  "slug": "domianus-perpic",
+  "msg": "died 1888, but Georgius Prpic born 1962",
+  "cause": "namesake"
+ },
+ {
+  "kind": "child-after-parent-death",
+  "sev": 1,
   "id": "@I504289@",
   "name": "Dorithe Harlocke",
   "slug": "dorithe-harlocke",
@@ -529,6 +538,15 @@
   "slug": "maria-margrita-visser-b2c11",
   "msg": "died 1724, but Floris Brand born 1745",
   "cause": "record"
+ },
+ {
+  "kind": "child-after-parent-death",
+  "sev": 1,
+  "id": "@I508660@",
+  "name": "Maria Sojath",
+  "slug": "maria-sojath",
+  "msg": "died 1891, but Georgius Prpic born 1962",
+  "cause": "namesake"
  },
  {
   "kind": "child-after-parent-death",
@@ -2239,6 +2257,15 @@
   "slug": "maria-elizabeth-pretorius",
   "msg": "born 9 DEC 1714, Johannes Arnoldus Theron born 1765 — age 51",
   "cause": "record"
+ },
+ {
+  "kind": "mother-too-old",
+  "sev": 3,
+  "id": "@I508660@",
+  "name": "Maria Sojath",
+  "slug": "maria-sojath",
+  "msg": "born 1823, Georgius Prpic born 1962 — age 139",
+  "cause": "namesake"
  },
  {
   "kind": "mother-too-old",

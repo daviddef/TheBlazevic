@@ -314,6 +314,14 @@ def person(p, ahn=None):
             for e in p["events"] if e["kind"] not in ("occupation",)
         ],
     }
+    # A PERSON BORN INSIDE THE LIVING WINDOW whose death is RECORDED but has no date (a place, a family confirmation): the row says
+    # so with deathRecorded, the kit's own key for "a register line records the death, undated", so that its printed-year gate reads
+    # the row as a person who has died (it reads died / deathPlace / deathRecorded and does not know this archive's diedPlace).
+    # Not written for anybody else: a dated death says it already, and a bare flag is not a record.
+    by = year(b.get("date", ""))
+    if (by is not None and by >= livingset.cutoff_year() and not d.get("date")
+            and livingset.death_evidence(p) == "record"):
+        out["deathRecorded"] = True
     out["family"] = next((sl for sl, ks in SURNAMES.items() if fold(p["surname"]) in ks), None) \
         or next((sl for sl, ks in PAGE_KEYS.items() if fold(p["surname"]) in ks), None)
     if ahn:

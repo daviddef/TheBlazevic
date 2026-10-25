@@ -5,7 +5,7 @@
    "kind": "births",
    "holds": "1734-1894",
    "verified": "marriages verified end to end",
-   "n": 180,
+   "n": 181,
    "reachable": 152,
    "ahn": [
     3,
@@ -5045,8 +5045,8 @@
    "kind": "births",
    "holds": "1847-1884",
    "verified": "catalogue-verified 14 Sept 2026 — film notes agree with the waypoint label",
-   "n": 191,
-   "reachable": 93,
+   "n": 192,
+   "reachable": 94,
    "ahn": [
     7
    ],
@@ -5340,6 +5340,16 @@
      "inside": true,
      "date": "1862",
      "place": "Br 35, Mrzli Dol, Lika-Senj, Croatia"
+    },
+    {
+     "slug": "georgius-prpic",
+     "name": "Georgius Prpic",
+     "year": 1862,
+     "village": "krivi put",
+     "ahn": null,
+     "inside": true,
+     "date": "26 MAR 1862",
+     "place": "Krivi Put 136, Senj, Lika, Austria-Hungary"
     },
     {
      "slug": "jure-perpic",
@@ -9281,7 +9291,7 @@
    "people": []
   }
  ],
- "totalReachable": 891,
+ "totalReachable": 892,
  "unplacedVillages": [
   [
    "cape town",

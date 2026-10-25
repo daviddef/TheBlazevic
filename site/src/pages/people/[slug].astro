@@ -219,7 +219,7 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
   {fixes.length > 0 && fixes.map((c) => (
     <section class="blk">
       <div class={`fix ${c.kind}`}>
-        <div class="lab">{KIND[c.kind]}</div>
+        <div class="lab">{c.label || KIND[c.kind]}</div>
         <h2 style="margin-top:.3rem">{c.what}</h2>
         <table class="kv tight" style="margin-top:.6rem">
           <tr><th>The tree says</th><td>{c.tree}</td></tr>

@@ -1,0 +1,8 @@
+# A DEATH THE TREE RECORDS WITH A PLACE AND NO DATE, CONFIRMED BY THE FAMILY (26 October 2026).
+# Applied by tools/gedcom.py (apply_overlays): the source and grade are written on the person's death event and printed
+# there. NO DATE IS INVENTED: the death stays undated. A confirmed death is a RECORDED death for the kit's living rule
+# (a bare flag never frees anybody born in the window; a recorded, sourced death does). Refused for a person with a dated death.
+# Replaces the hold in data/living-hold.tsv (take the hold out in the same commit).
+#
+# id|source|grade
+@I18@|family confirmation, David Defranceski, 25 October 2026|family lore
