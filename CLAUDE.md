@@ -38,7 +38,7 @@ to `site/.standardfloor.json`, which may only go down; counts, never a name. Rai
   716 of the 861 finds have a description, not a name, in the name field and are never split by machine; splitting them is
   data work an author or a reader of the registers does, after which they flow into the index by themselves.
 - What an author alone can settle (bare given names, surname-first forms, the quoted press lists, the Karlobag census
-  address) is listed in `~/Downloads/audit-briefs/links/blazevic-editorial.md`.
+  address) is listed in `~/Projects/Family Projects/_from Downloads/audit-briefs/links/blazevic-editorial.md`.
 
 ## The "at the time" notes (18 October 2026)
 
