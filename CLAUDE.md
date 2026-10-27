@@ -53,6 +53,27 @@ archive's own research", marked `data-era-seeded="1"`, where the Atlas era was s
 - Never on a living page: `check:era` (the kit's `checkera.py`) reads the built pages. The three British regions give no note before 1753 (old-style year).
 - The notes are not part of a page's text for the search index or the names index (`tools/searchindex.py` skips person pages and strips `<style>`).
 
+## The ribbon flags (27 October 2026)
+
+Mini flags in the header row of every ribbon card (/story/ and the family pages' ribbons), the kit's design (`kit/docs/ribbon-flags.md`):
+for each place a card names, the flag of the state that held it in the card's year, and today's country's flag where that differs, or
+alone where the era cannot be said. Hate-symbol and occupation regimes are never drawn (the kit's decision). The art is the kit's copy
+of the Flags Atlas, resolved by the build: nothing is copied into `public/`.
+
+- The kit chooses every flag. `tools/ribbon_flags.py` (in regen's ORDER; committed JSON only, so CI runs `--check`) runs the kit's
+  `ribbonflags.run()` and writes `site/src/data/ribbon-flags.json`; `src/lib/ribbonFlags.js` puts them on the cards where the story page
+  and `FamilyLine.astro` draw the ribbons. They are NOT written into `story.json` / `family-lines.json`: at kit 1fa6b54 the kit's own
+  contracts for those files (checkfamilystory, checkfamilyribbon `--strict`) reject a card's `flags`. When the kit's schemas learn the
+  field, the cards can carry them and this file can go. `npm run flags` regenerates it.
+- `site/src/data/flag-countries.json` (hand-kept): today's country where this archive's own evidence settles a place the kit's table
+  cannot (Šumećica and Prozor are the Otočac villages; Feichting/Oberfeichting are Bitnje, Slovenia), or null where the place is not
+  located (Montani Stanište). One line per place, each with its evidence in `_evidence`. Never guess a country.
+- `npm run check:ribbonflags` (in the build): `ribbon_flags.py --check`, then `--gate` (the kit's `ribbonflags.py --check` and
+  `checkribbonflags.py` on the built pages, run on copies of the cards with the flags put back), and the kit gate's selftest. The box gate (`kit/tools/checkflagfit.mjs`: no card grows by a pixel with its flags) needs Chrome and
+  playwright-core, so it is run locally, not in CI.
+- With the committed snapshot every era flag is silent here (Kvarner and Senj eras are contested or refused, Karlobag is an edge
+  place, the Military Frontier has no flag in the kit's table), so the cards show today's flags only.
+
 ## The living window (25 October 2026)
 
 Somebody born within the last 80 years with no death recorded is living: named with relationships and town and country only

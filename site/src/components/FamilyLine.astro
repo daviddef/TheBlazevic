@@ -18,8 +18,10 @@ import familyLines from "../data/family-lines.json";
 import familyPages from "../data/family-pages.json";
 import directLine from "../data/direct-line.json";
 import { u } from "../lib/url.js";
+import { familyWithFlags } from "../lib/ribbonFlags.js";
 const { family } = Astro.props;
-const fam = familyLines.families.find((f) => f.id === family);
+/* the cards' mini flags (src/data/ribbon-flags.json, made by tools/ribbon_flags.py with the kit's ribbonflags.py) put on them */
+const fam = familyWithFlags(familyLines.families.find((f) => f.id === family));
 const page = familyPages.pages.find((p) => p.id === family);
 /* a card's person is a person page (/people/<slug>/), or, for somebody read out of a register and not in the tree (the
    first Kosina generations), «found:<slug>», whose page is /found/<slug>/ */

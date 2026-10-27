@@ -1,0 +1,15 @@
+{
+  "_note": "Today's country of a ribbon card's place, where this archive's own evidence settles it and the kit's table cannot (kit/docs/ribbon-flags.md, the --countries file). Card text as the card prints it -> ISO code, or null: the archive decides there is no country to name. Written by hand, one line per place, each with its evidence below; read by tools/ribbon_flags.py (which writes ribbon-flags.json with the kit's ribbonflags.py) and by the kit's checkribbonflags.py in check:ribbonflags.",
+  "_evidence": {
+    "Šumećica": "A village of Otočac parish: the Otočac registers write «e Šumećica N° 2» in the Conditio column (notes/otocac-house-numbers.md, notes/ana-maric-plan.md) and the parish's village list names it (notes/image-75-reads-vivoz-and-the-film-enumerates.md); the tree's own place string is «Šumećica 2, Otočac, Općina Otočac, Lika-Senj County, Croatia», and data/era-ground.tsv puts it at Šumećica (44.861, 15.203), Croatia. The kit lists the bare name as ambiguous; in this archive it is the Otočac village.",
+    "Prozor": "Prozor near Otočac, where the Žubrinić houses 40, 46 and 50 stood (the Otočac registers; notes/otocac-death-1831-maria-zubrinic.md, notes/otocac-census-kraljich-1807.md). The tree geocodes the Žubrinić death at Prozor to Prozor in the Herzegovina-Neretva Canton, and this archive records that as the tree's geocoding error (corrections.json, the «Trebinje» entry: «Prozor near Otočac ... two hundred kilometres away and across a border»). The kit lists the bare name as ambiguous; in this archive it is the Otočac village.",
+    "Feichting": "Feichting is Bitnje, in the parish of Kranj–Šmartin, Carniola (kosina-descent.json: «Feichting house 10, Kranj–Šmartin, Carniola»; notes/the-k-section-gave-a-household.md), today in Slovenia.",
+    "Oberfeichting": "Oberfeichting is Zgornje Bitnje (Zgornje Bitno), parish of Kranj–Šmartin, Carniola (notes/the-k-section-gave-a-household.md: «Zgornje Bitno is Oberfeichting»; notes/martin-kozina-was-born-at-zgornje-bitnje.md), today in Slovenia.",
+    "Montani Stanište": "null, deliberately: the place word of a Karlobag marriage entry («Mostani Stanize», read once) that no gazetteer finds (data/era-ground.tsv) and that is not a parish; its identification is the tree's and not independently checked (notes/karlobag-marriage-1785-gerkacs-tomljanovic.md). Not located, so no country is named."
+  },
+  "Šumećica": "HR",
+  "Prozor": "HR",
+  "Feichting": "SI",
+  "Oberfeichting": "SI",
+  "Montani Stanište": null
+}

@@ -8,9 +8,13 @@
    are link-only here (site/standard.json, scans.link_only), so the registers are linked from the text, not drawn. */
 import Base from "../layouts/Base.astro";
 import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
-import book from "../data/story.json";
+import storyData from "../data/story.json";
+import { storyWithFlags } from "../lib/ribbonFlags.js";
 import directLine from "../data/direct-line.json";
 import { u } from "../lib/url.js";
+
+/* the ribbon cards' mini flags (src/data/ribbon-flags.json, tools/ribbon_flags.py) put on the cards; the text is story.json's */
+const book = storyWithFlags(storyData);
 
 const personHref = (slug) => u(`/people/${slug}/`);
 const plateIndex = {

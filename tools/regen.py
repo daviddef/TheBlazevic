@@ -73,6 +73,8 @@ HAND_KEPT = {
     "book.json":             "the book: where every page of the site sits in the story, the part titles and introductions and the one-line chapter blurbs. Written by hand and held to the built site by checkbook",
     "story.json":            "the family story at /story/: the direct line told as a short book, in the kit's contract (kit/docs/story.md). Written by hand from "
                              "the archive's own pages and held to the built site by check:story",
+    "flag-countries.json":   "today's country of a ribbon card's place where this archive's own evidence settles it (kit/docs/ribbon-flags.md, --countries): "
+                             "a decision made place by place, each with its evidence in the file; read by tools/ribbon_flags.py",
     "lines.json":            "the lines of a surname — which families of one name are kept in separate lanes until a document joins them. Conclusions somebody reached",
     "era-places.json":       "the place -> Record Atlas region table behind the «at the time» notes, built by tools/build_era.py from data/era-ground.tsv and "
                              "data/era-towns.tsv (a decision made place by place, not derived from the GEDCOM); check:era-ground holds the file to the rows",
@@ -118,6 +120,9 @@ ORDER = [
     # the family pages' ribbons and the direct-line file: reads committed JSON only (story.json and lines.json, which are
     # hand-kept, among them), so CI also runs it, as `check:directline` (tools/family_ribbon.py --check)
     "family_ribbon.py",
+    # the ribbon cards' mini flags (ribbon-flags.json), chosen by the kit's ribbonflags.py from story.json, family-lines.json, the era
+    # snapshot and flag-countries.json: committed JSON only, so CI also runs it, as check:ribbonflags (tools/ribbon_flags.py --check)
+    "ribbon_flags.py",
 ]
 
 

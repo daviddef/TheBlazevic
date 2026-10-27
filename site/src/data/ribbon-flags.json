@@ -1,0 +1,1557 @@
+{
+ "_note": "Made by tools/ribbon_flags.py with the kit's ribbonflags.py from story.json, family-lines.json, era-snapshot.json and flag-countries.json; do not edit by hand. The ribbons put these on their cards (src/lib/ribbonFlags.js).",
+ "story": [
+  {
+   "name": "Mateša Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "lore"
+    }
+   ]
+  },
+  {
+   "name": "Grgica Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "lore"
+    }
+   ]
+  },
+  {
+   "name": "Ilija Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "lore"
+    }
+   ]
+  },
+  {
+   "name": "Anton Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "lore"
+    }
+   ]
+  },
+  {
+   "name": "Toma Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "at",
+     "place": "Senj",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "at Senj: Croatia today",
+     "grade": "doc"
+    }
+   ]
+  },
+  {
+   "name": "Juraj «Jurko» Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Smokvica Krmpotska",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Smokvica Krmpotska: Croatia today",
+     "grade": "inf"
+    },
+    {
+     "kind": "today",
+     "line": "at",
+     "place": "Rijeka",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "at Rijeka: Croatia today",
+     "grade": "inf"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Otočac",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "spouse of Otočac: Croatia today",
+     "grade": "inf"
+    }
+   ]
+  },
+  {
+   "name": "Ljubomir Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Rijeka",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Rijeka: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "at",
+     "place": "Senj",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "at Senj: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Senj",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "spouse of Senj: Croatia today",
+     "grade": "doc"
+    }
+   ]
+  },
+  {
+   "name": "Hedviga Blažević",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Senj",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Senj: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "at",
+     "place": "Crikvenica",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "at Crikvenica: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Crikvenica",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "spouse of Crikvenica: Croatia today",
+     "grade": "doc"
+    }
+   ]
+  },
+  {
+   "name": "Ivan Anton",
+   "flags": [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Senj",
+     "svg": "croatia-flags--era-1990.svg",
+     "flag": "croatia-flags--era-1990",
+     "country": "HR",
+     "year": null,
+     "label": "from Senj: Croatia today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Johannesburg",
+     "svg": "south-africa-flags--era-1994.svg",
+     "flag": "south-africa-flags--era-1994",
+     "country": "ZA",
+     "year": null,
+     "label": "spouse of Johannesburg: South Africa today",
+     "grade": "doc"
+    }
+   ]
+  }
+ ],
+ "families": {
+  "blazevic": [
+   {
+    "name": "Mateša Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Grgica Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Ilija Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Anton Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Toma Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Juraj «Jurko» Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Smokvica Krmpotska: Croatia today",
+      "grade": "inf"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Rijeka",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Rijeka: Croatia today",
+      "grade": "inf"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Otočac: Croatia today",
+      "grade": "inf"
+     }
+    ]
+   },
+   {
+    "name": "Ljubomir Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Rijeka",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Rijeka: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Senj: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Hedviga Blažević",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Crikvenica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Crikvenica: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Crikvenica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Crikvenica: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "zubrinic": [
+   {
+    "name": "Toma Žubrinić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Šumećica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Šumećica: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Michael «Mate» Žubrinić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Otočac: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Prozor",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Prozor: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Otočac: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Nicolaus «Nikola» Žubrinić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Otočac: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Tereza Žubrinić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Otočac: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Smokvica Krmpotska",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Smokvica Krmpotska: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "papic": [
+   {
+    "name": "Georgius «Jure» Papić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Josip Papić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Krivi Put",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Krivi Put: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Milka Papić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Rijeka",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Rijeka: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "prpic": [
+   {
+    "name": "Joannis «Ivan» Perpić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Krivi Put",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Krivi Put: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Krivi Put",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Krivi Put: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Antonija «Tonka» Perpić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Krivi Put",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Krivi Put: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Senj: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "kalanj": [
+   {
+    "name": "Josip Kallayn",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Klenovica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Klenovica: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Brinje",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Brinje: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Anica «Ana» Kalanj",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Klenovica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Klenovica: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Crikvenica",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Crikvenica: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Gračišće",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Gračišće: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   }
+  ],
+  "kosina": [
+   {
+    "name": "Franz Kosinar",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Feichting",
+      "svg": "slovenia-flags--era-1991.svg",
+      "flag": "slovenia-flags--era-1991",
+      "country": "SI",
+      "year": null,
+      "label": "from Feichting: Slovenia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Gertraud «Gertruda» Kosina",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Feichting",
+      "svg": "slovenia-flags--era-1991.svg",
+      "flag": "slovenia-flags--era-1991",
+      "country": "SI",
+      "year": null,
+      "label": "from Feichting: Slovenia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Martin Kosina",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Oberfeichting",
+      "svg": "slovenia-flags--era-1991.svg",
+      "flag": "slovenia-flags--era-1991",
+      "country": "SI",
+      "year": null,
+      "label": "from Oberfeichting: Slovenia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Senj: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Pavao Kosina",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Otočac: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "vukelic": [
+   {
+    "name": "Petar Vukelić",
+    "flags": []
+   },
+   {
+    "name": "Zvonimir Vukelić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Senj: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "tomljanovic": [
+   {
+    "name": "Pauli Tomljanović",
+    "flags": []
+   },
+   {
+    "name": "Lucia Tomljanović",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Karlobag: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   }
+  ],
+  "loncaric": [
+   {
+    "name": "Pauli Lončarić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Margarita Lončarić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "oreskovic": [
+   {
+    "name": "Marcus Oreskovic",
+    "flags": []
+   },
+   {
+    "name": "Maria Oreskovic",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Otočac: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Otočac: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   }
+  ],
+  "sekula": [
+   {
+    "name": "Michael Sekula",
+    "flags": []
+   },
+   {
+    "name": "Lucia Sekula",
+    "flags": []
+   }
+  ],
+  "maric": [
+   {
+    "name": "Ana Marić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Otočac",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Otočac: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "antic": [
+   {
+    "name": "Joannis Antić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Selce: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Joannis Antić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Josephum Antić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "pilipic": [
+   {
+    "name": "Jacob Pilipic",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Josephus Pilipic",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   },
+   {
+    "name": "Vicentius Pilipić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Matia Pilipić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "brozovic": [
+   {
+    "name": "Joanni Brozović",
+    "flags": []
+   },
+   {
+    "name": "Margarita Brozović",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Selce: Croatia today",
+      "grade": "lore"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "lore"
+     }
+    ]
+   }
+  ],
+  "jellicic": [
+   {
+    "name": "Mathia Jelličić",
+    "flags": []
+   },
+   {
+    "name": "Georgi Jelličić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Maria Jelličić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Selce: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Selce",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Selce: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "uroda": [
+   {
+    "name": "Georgi Uroda",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Joannis Uroda",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Matia Uroda",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Senj",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Senj: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "luckinic": [
+   {
+    "name": "Vicentius Luckinić",
+    "flags": []
+   },
+   {
+    "name": "Catherina Luckinić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "gerkacs": [
+   {
+    "name": "Nicolaus Gerkacs",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Michaeli Gerkacs",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Mariam Gerkacs",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ],
+  "smojver": [
+   {
+    "name": "Josiph Vukić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "at",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "at Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Vicentius Vukić",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   },
+   {
+    "name": "Oliva Smojver",
+    "flags": [
+     {
+      "kind": "today",
+      "line": "from",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "from Karlobag: Croatia today",
+      "grade": "doc"
+     },
+     {
+      "kind": "today",
+      "line": "spouse",
+      "place": "Karlobag",
+      "svg": "croatia-flags--era-1990.svg",
+      "flag": "croatia-flags--era-1990",
+      "country": "HR",
+      "year": null,
+      "label": "spouse of Karlobag: Croatia today",
+      "grade": "doc"
+     }
+    ]
+   }
+  ]
+ }
+}
