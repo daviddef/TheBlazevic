@@ -29,7 +29,7 @@
    "figcaption"
   ],
   "include_tables": false,
-  "skip": [],
+  "skip": ["span.flag-credit"],
   "stop_words": [
    "January",
    "February",
