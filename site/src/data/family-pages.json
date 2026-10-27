@@ -1,0 +1,332 @@
+{
+ "_note": "Made by tools/family_ribbon.py: every family page of the menu, what its ribbon draws and why. The families of the menu «The families», in its order: the 25 surname pages and /kosina/.",
+ "pages": [
+  {
+   "id": "blazevic",
+   "title": "Blažević",
+   "page": "/blazevic/",
+   "drawn": "ribbon and connections",
+   "generations": 8,
+   "connections": 7,
+   "grades": [
+    "doc",
+    "inf",
+    "lore"
+   ],
+   "foot": "hedviga-blazevic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "zubrinic",
+   "title": "Žubrinić",
+   "page": "/zubrinic/",
+   "drawn": "ribbon and connections",
+   "generations": 4,
+   "connections": 2,
+   "grades": [
+    "doc"
+   ],
+   "foot": "tereza-zubrinic-zubrinic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "papic",
+   "title": "Papić",
+   "page": "/papic/",
+   "drawn": "ribbon and connections",
+   "generations": 3,
+   "connections": 2,
+   "grades": [
+    "doc",
+    "lore"
+   ],
+   "foot": "milka-lucia-papic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "prpic",
+   "title": "Prpić",
+   "page": "/prpic/",
+   "drawn": "ribbon and connections",
+   "generations": 2,
+   "connections": 1,
+   "grades": [
+    "doc"
+   ],
+   "foot": "antonija-tonka-perpic-prpic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "kalanj",
+   "title": "Kalanj",
+   "page": "/kalanj/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "anica-ana-anna-kalanj",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Kalanj married or was a parent of anyone on the story's line; the family is further up its tree. Anica Kalanj was the mother of Anton Defranceschi, the father of Ivan Defranceski, who is on our line."
+  },
+  {
+   "id": "kosina",
+   "title": "Kosina",
+   "page": "/kosina/",
+   "drawn": "ribbon, not connected",
+   "generations": 4,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Kosina married or was a parent of anyone on the story's line. Pavao Kosina married Anka Blažević, a daughter of Juraj Blažević, who is on our line."
+  },
+  {
+   "id": "vukelic",
+   "title": "Vukelić",
+   "page": "/vukelic/",
+   "drawn": "ribbon and connections",
+   "generations": 2,
+   "connections": 1,
+   "grades": [
+    "doc"
+   ],
+   "foot": "zvonimir-matei-vukelic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "boras",
+   "title": "Boras",
+   "page": "/boras/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Boras is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": "No Boras married or was a parent of anyone on the story's line. Franjo Boras married Bozica Papić, a sister of Milka Papić, who is on our line."
+  },
+  {
+   "id": "sestan",
+   "title": "Šestan",
+   "page": "/sestan/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Šestan is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "pavelic",
+   "title": "Pavelić",
+   "page": "/pavelic/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Pavelić is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": "No Pavelić married or was a parent of anyone on the story's line. Antonija Pavelic was the mother of Mile Prpic, the husband of Franka Papić, a sister of Milka Papić, who is on our line."
+  },
+  {
+   "id": "tomljanovic",
+   "title": "Tomljanović",
+   "page": "/tomljanovic/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "lucia-maja-tomljanovic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Tomljanović married or was a parent of anyone on the story's line; the family is further up its tree. Lucia Tomljanović was the mother of Mariam Gerkacs, the mother of Matia Uroda, the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "krmpotic",
+   "title": "Krmpotić",
+   "page": "/krmpotic/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Krmpotić is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "babic",
+   "title": "Babić",
+   "page": "/babic/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Babić is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": "No Babić married or was a parent of anyone on the story's line. Ginro Babic married Antonija Blažević, a daughter of Toma Blažević, who is on our line."
+  },
+  {
+   "id": "spalj",
+   "title": "Špalj",
+   "page": "/spalj/",
+   "drawn": "no ribbon, not connected",
+   "generations": 0,
+   "connections": 0,
+   "grades": [],
+   "foot": null,
+   "noRibbonWhy": "no Špalj is an ancestor of anyone on our line, and the archive keeps no one line of the name to draw",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "loncaric",
+   "title": "Lončarić",
+   "page": "/loncaric/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "margarita-martha-loncaric",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Lončarić married or was a parent of anyone on the story's line; the family is further up its tree. Margarita Lončarić was the mother of Josephum Antić, the father of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "oreskovic",
+   "title": "Orešković",
+   "page": "/oreskovic/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "maria-catharina-oreskovic-oreskovic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Orešković married or was a parent of anyone on the story's line; the family is further up its tree. Maria Oreskovic was the mother of Nicolaus Žubrinić, the father of Tereza Žubrinić, who is on our line."
+  },
+  {
+   "id": "sekula",
+   "title": "Sekula",
+   "page": "/sekula/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "lucia-sekula",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Sekula married or was a parent of anyone on the story's line; the family is further up its tree. Lucia Sekula was the mother of Maria Oreskovic, the mother of Nicolaus Žubrinić, the father of Tereza Žubrinić, who is on our line."
+  },
+  {
+   "id": "maric",
+   "title": "Marić",
+   "page": "/maric/",
+   "drawn": "ribbon and connections",
+   "generations": 1,
+   "connections": 1,
+   "grades": [
+    "lore"
+   ],
+   "foot": "ana-shambul-maric",
+   "noRibbonWhy": "",
+   "notConnectedWhy": ""
+  },
+  {
+   "id": "antic",
+   "title": "Antić",
+   "page": "/antic/",
+   "drawn": "ribbon, not connected",
+   "generations": 3,
+   "connections": 0,
+   "grades": [],
+   "foot": "josephum-antic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Antić married or was a parent of anyone on the story's line; the family is further up its tree. Josephum Antić was the father of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "pilipic",
+   "title": "Pilipić",
+   "page": "/pilipic/",
+   "drawn": "ribbon, not connected",
+   "generations": 4,
+   "connections": 0,
+   "grades": [],
+   "foot": "matia-matthea-pilipic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Pilipić married or was a parent of anyone on the story's line; the family is further up its tree. Matia Pilipić was the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "brozovic",
+   "title": "Brozović",
+   "page": "/brozovic/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "margarita-brozovic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Brozović married or was a parent of anyone on the story's line; the family is further up its tree. Margarita Brozović was the mother of Maria Jelličić, the mother of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "jellicic",
+   "title": "Jelličić",
+   "page": "/jellicic/",
+   "drawn": "ribbon, not connected",
+   "generations": 3,
+   "connections": 0,
+   "grades": [],
+   "foot": "maria-jellicic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Jelličić married or was a parent of anyone on the story's line; the family is further up its tree. Maria Jelličić was the mother of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "uroda",
+   "title": "Uroda",
+   "page": "/uroda/",
+   "drawn": "ribbon, not connected",
+   "generations": 3,
+   "connections": 0,
+   "grades": [],
+   "foot": "matia-mathiam-georgiam-uroda",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Uroda married or was a parent of anyone on the story's line; the family is further up its tree. Matia Uroda was the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "luckinic",
+   "title": "Luckinić",
+   "page": "/luckinic/",
+   "drawn": "ribbon, not connected",
+   "generations": 2,
+   "connections": 0,
+   "grades": [],
+   "foot": "catherina-catta-luckinic",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Luckinić married or was a parent of anyone on the story's line; the family is further up its tree. Catherina Luckinić was the mother of Josephus Pilipic, the father of Vicentius Pilipić, the father of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "gerkacs",
+   "title": "Gerkacs",
+   "page": "/gerkacs/",
+   "drawn": "ribbon, not connected",
+   "generations": 3,
+   "connections": 0,
+   "grades": [],
+   "foot": "mariam-gerkacs-gergacs",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Gerkacs married or was a parent of anyone on the story's line; the family is further up its tree. Mariam Gerkacs was the mother of Matia Uroda, the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  },
+  {
+   "id": "smojver",
+   "title": "Smojver",
+   "page": "/smojver/",
+   "drawn": "ribbon, not connected",
+   "generations": 3,
+   "connections": 0,
+   "grades": [],
+   "foot": "oliva-maria-smojver",
+   "noRibbonWhy": "",
+   "notConnectedWhy": "No Smojver married or was a parent of anyone on the story's line; the family is further up its tree. Oliva Smojver was the mother of Vicentius Pilipić, the father of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+  }
+ ]
+}

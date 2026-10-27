@@ -1,0 +1,42 @@
+---
+/* THE TOP OF A FAMILY PAGE (27 October 2026): the family's own line of generations, drawn as the story draws ours, and
+ * under it HOW OUR LINE CONNECTS. Asked for by David: the mini horizontal tree of /story/ on every family page, the
+ * places our direct line touches the family in small blocks, and our line in its own colour (the kit's tint).
+ *
+ * Everything drawn here is data made by tools/family_ribbon.py from the archive's own data (its header says how each
+ * card, grade and block is decided): src/data/family-lines.json for a family with a line to draw, which the kit's
+ * FamilyRibbon draws and kit/tools/checkfamilyribbon.py holds to the built page; src/data/family-pages.json for every
+ * family page, so a family with no line to draw (Babić, Boras ...: no line of the name is in the line's own tree, and
+ * none is chosen for it) still says plainly that it is not connected to our line yet, in the ribbon's own block and
+ * words. Nothing here is typed by hand.
+ *
+ *   family   the page's family id (the slug of families.json, or "kosina") */
+import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
+import "@daviddef/archive-kit/styles/story.css";
+import "@daviddef/archive-kit/styles/familyribbon.css";
+import familyLines from "../data/family-lines.json";
+import familyPages from "../data/family-pages.json";
+import directLine from "../data/direct-line.json";
+import { u } from "../lib/url.js";
+const { family } = Astro.props;
+const fam = familyLines.families.find((f) => f.id === family);
+const page = familyPages.pages.find((p) => p.id === family);
+/* a card's person is a person page (/people/<slug>/), or, for somebody read out of a register and not in the tree (the
+   first Kosina generations), «found:<slug>», whose page is /found/<slug>/ */
+const personHref = (s) => (String(s).startsWith("found:") ? u(`/found/${String(s).slice(6)}/`) : u(`/people/${s}/`));
+---
+{fam ? (
+  <section class="blk fam-line">
+    <FamilyRibbon family={fam} directLine={directLine} personHref={personHref} u={u} />
+  </section>
+) : page && (
+  <section class="blk fam-line">
+    <div class="fr" data-family-page={page.id} aria-label={`${page.title}: how our line connects`}>
+      <div class="fr-conn" data-connections="0">
+        <h3 class="fr-ch">How our line connects</h3>
+        <p class="fr-nc" data-not-connected="1"><b>Not connected to our line yet.</b>{page.notConnectedWhy ? <>{" "}{page.notConnectedWhy}</> : null}</p>
+        <p class="fr-note">No line of generations is drawn for the name: {page.noRibbonWhy}.</p>
+      </div>
+    </div>
+  </section>
+)}

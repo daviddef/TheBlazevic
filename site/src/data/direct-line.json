@@ -1,0 +1,91 @@
+{
+ "_note": "Made by kit/tools/directline.py from the story's ribbon; do not edit by hand.",
+ "generationLabel": "generation",
+ "people": [
+  {
+   "slug": "matesa-blazevic",
+   "generation": 1,
+   "storyChapter": "mountain",
+   "name": "Mateša Blažević"
+  },
+  {
+   "slug": "grgica-blazevic",
+   "generation": 2,
+   "storyChapter": "mountain",
+   "name": "Grgica Blažević"
+  },
+  {
+   "slug": "ilija-blazevic",
+   "generation": 3,
+   "storyChapter": "mountain",
+   "name": "Ilija Blažević"
+  },
+  {
+   "slug": "anton-blazevic-5",
+   "generation": 4,
+   "storyChapter": "mountain",
+   "name": "Anton Blažević"
+  },
+  {
+   "slug": "toma-tomislav-blazevic",
+   "generation": 5,
+   "storyChapter": "house114",
+   "name": "Toma Blažević"
+  },
+  {
+   "slug": "juraj-georgius-jure-blazevic",
+   "generation": 6,
+   "storyChapter": "jurko",
+   "name": "Juraj «Jurko» Blažević"
+  },
+  {
+   "slug": "ljubomir-blazevic",
+   "generation": 7,
+   "storyChapter": "sailor",
+   "name": "Ljubomir Blažević"
+  },
+  {
+   "slug": "hedviga-blazevic",
+   "generation": 8,
+   "storyChapter": "highveld",
+   "name": "Hedviga Blažević"
+  }
+ ],
+ "partners": [
+  {
+   "slug": "tereza-pecanic",
+   "generation": 5,
+   "storyChapter": "house114",
+   "partnerOf": "toma-tomislav-blazevic",
+   "name": "Tereza Pećanić"
+  },
+  {
+   "slug": "tereza-zubrinic-zubrinic",
+   "generation": 6,
+   "storyChapter": "jurko",
+   "partnerOf": "juraj-georgius-jure-blazevic",
+   "name": "Tereza Žubrinić"
+  },
+  {
+   "slug": "milka-lucia-papic",
+   "generation": 7,
+   "storyChapter": "sailor",
+   "partnerOf": "ljubomir-blazevic",
+   "name": "Milka Papić"
+  },
+  {
+   "slug": "ivan-anton-defranceski",
+   "generation": 8,
+   "storyChapter": "highveld",
+   "partnerOf": "hedviga-blazevic",
+   "name": "Ivan Defranceski"
+  }
+ ],
+ "unlinked": [
+  {
+   "generation": 9,
+   "storyChapter": "us",
+   "name": "Ivan Anton"
+  }
+ ]
+}

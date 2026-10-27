@@ -8,6 +8,10 @@ import people from "../data/people.json";
 import D from "../data/kosina-descent.json";
 import people from "../data/people.json";
 import Rec from "../components/Rec.astro";
+import FamilyLine from "../components/FamilyLine.astro";
+import directLine from "../data/direct-line.json";
+import { directMap, OURS_LEGEND } from "@daviddef/archive-kit/lib/directline.js";
+import "@daviddef/archive-kit/styles/ours.css";
 // Kosina is not one of this archive's eight published surnames, so there is no
 // generated family page for them. FIVE OF THE TEN now have a person page all the
 // same: publication was changed on 21 September 2026 from surname to DESCENT, and
@@ -40,10 +44,13 @@ const anka = byId[ANKA];
    parent there produced /who/juraj-georgius-jure-georgius-george-blazevic and
    a 404 for /who/juraj-georgius-jure-blazevic. Two routes, two slugs, and the
    link checker caught the difference. */
+/* 27 October 2026: a relative on our direct line (direct-line.json, made from the story) is tinted, as everywhere. */
+const DM = directMap(directLine);
 const node = (r) => ({
   name: r.name,
   href: r.slug ? u(`/people/${r.slug}/`) : null,
   dates: [r.born, r.died].filter(Boolean).join("–") || null,
+  ours: r.slug && DM.has(r.slug) ? r.slug : undefined,
 });
 const ankaRel = anka ? anka.rel : { parents: [], spouses: [], children: [], siblings: [] };
 const kosinaKids = (ankaRel.children || []).map(node);
@@ -186,6 +193,8 @@ const descentRows = D.rows.map((r) => {
 <Base title="The Kosina"
   eyebrow={`Senj and Carniola — ${C.generations} generations · ${C.inTree} people from the family tree, ${C.above} read out of the parish registers, and ${C.household} more of the same household`}
   dek={`${C.people} people, from a Carniolan cottage where three infants died in eight years to an autumn in Senj that took three grown Kosina in thirteen months — the family Hedviga's own aunt married into, and for a long time the family this archive could not see.`}>
+  <FamilyLine family="kosina" />
+
 
   <section class="blk">
     <div class="grid three">
@@ -1253,6 +1262,9 @@ const descentRows = D.rows.map((r) => {
           childGroups={kosinaKids.length ? [{ label: `${kosinaKids.length} Kosina children`, rows: kosinaKids }] : []}
           always={true}
         />
+        {[...(ankaRel.parents || []), ...(ankaRel.spouses || []), ...(ankaRel.siblings || [])].some((r) => r.slug && DM.has(r.slug)) && (
+          <p class="ours-leg"><span class="ours-sw"></span>{OURS_LEGEND}</p>
+        )}
       </div>
     )}
     <p class="small" style="margin-top:1rem">Ljubomir is on

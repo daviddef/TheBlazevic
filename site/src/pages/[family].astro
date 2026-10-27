@@ -14,6 +14,7 @@ import snapshots from "../data/snapshots.json";
 import linesData from "../data/lines.json";
 import { statusLine } from "@daviddef/archive-kit/lib/lines.js";
 import questions from "../data/questions.json";
+import FamilyLine from "../components/FamilyLine.astro";
 
 export function getStaticPaths() {
   return Object.keys(COPY).map((slug) => ({ params: { family: slug } }));
@@ -159,6 +160,8 @@ const cut = (s, n = 320) => { s = String(s || ""); if (s.length <= n) return s;
   const c = s.slice(0, n); return c.slice(0, c.lastIndexOf(" ")) + " …"; };
 ---
 <Base title={meta.label} eyebrow={eyebrow} dek={dekLine}>
+  <FamilyLine family={family} />
+
   <section class="blk">
     <div class="grid three">
       <div class="stat"><div class="n">{meta.count}</div><div class="l">published people</div></div>

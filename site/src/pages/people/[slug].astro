@@ -24,6 +24,8 @@ import AlsoIn from "@daviddef/archive-kit/components/AlsoIn.astro";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
 import { eraAt, plainYear, fold as eraFold } from "@daviddef/archive-kit/lib/era.js";
 import eraSnapshot from "../../data/era-snapshot.json";
+import OursBand from "@daviddef/archive-kit/components/OursBand.astro";
+import directLine from "../../data/direct-line.json";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: a name, a
    town and a country, a family chart, and nothing else (components/LivingPerson).
@@ -159,6 +161,9 @@ const dupOther = dup ? dup.names.map((n, i) => ({ n, slug: dup.slugs[i] }))
 {p.living ? <LivingPerson p={p} /> : (
 <Base title={p.name} eyebrow={p.ancestor ? `Direct ancestor · generation ${p.gen ?? "—"}` : p.surname} noautolink
       dek={`${lifespan(p)}${p.bornPlace ? " · " + p.bornPlace : ""}`}>
+  {/* 27 October 2026: «On our direct line · generation n», for the people of the story's ribbon and the spouses it marks
+      as our ancestors (src/data/direct-line.json, made from the story); the kit draws nothing for anyone else. */}
+  <OursBand directLine={directLine} slug={p.slug} u={u} />
 
   {dup && dupOther.length > 0 && (
     <section class="blk">

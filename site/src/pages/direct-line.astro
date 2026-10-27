@@ -6,6 +6,7 @@ import line from "../data/line.json";
 import families from "../data/families.json";
 import ancestors from "../data/ancestors.json";
 import register from "../data/people.json";
+import directLine from "../data/direct-line.json";
 
 const byGen = {};
 for (const a of ancestors) (byGen[a.gen] ||= []).push(a);
@@ -35,6 +36,8 @@ const spineRows = line.map((p) => {
     gen: p.gen,
     name: p.name,
     href: `/people/${p.slug}/`,
+    // the row's person, so the kit tints the rows on our direct line (direct-line.json, made from the story)
+    person: p.slug,
     spouse: ((rel.spouses || [])[0] || {}).name || "",
     spouseHref: ((rel.spouses || [])[0] || {}).slug
       ? `/people/${((rel.spouses || [])[0] || {}).slug}/` : null,
@@ -73,7 +76,7 @@ const familyDoors = families.map((f) => ({ label: f.label, href: `/${f.slug}/` }
   dek="From a boy born about 1750 in a village barely a century old, down to Hedviga at Senj in 1926. This is the line the tree asserts — with the joint that cannot yet bear weight marked as such.">
 
   <section class="blk">
-    <Spine u={u} rows={spineRows} archiveKey="blazevic" families={familyDoors} />
+    <Spine u={u} rows={spineRows} archiveKey="blazevic" families={familyDoors} directLine={directLine} />
     <p class="note"><strong>{sourced} of {line.length}</strong> generations on this spine carry a
     source string in the tree; <strong>{line.length - sourced}</strong> carry none. And a source
     string here most often means another online tree.

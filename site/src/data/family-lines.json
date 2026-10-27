@@ -1,0 +1,1265 @@
+{
+ "_note": "Made by tools/family_ribbon.py from the archive's own data (see its header); do not edit by hand.",
+ "families": [
+  {
+   "id": "blazevic",
+   "title": "Blažević",
+   "page": "/blazevic/",
+   "status": "origin-unknown",
+   "statusNote": "the five before Toma are the tree's, in a parish book nobody has opened",
+   "span": [
+    1882,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Mateša Blažević",
+     "years": "b. 1750",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "lore",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "matesa-blazevic",
+     "title": "The earliest on the line, from the family's tree only; no register read for him"
+    },
+    {
+     "name": "Grgica Blažević",
+     "years": "b. 1770",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "lore",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "grgica-blazevic",
+     "title": "The family's tree only"
+    },
+    {
+     "name": "Ilija Blažević",
+     "years": "b. 1790",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "lore",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "ilija-blazevic",
+     "title": "The family's tree, placed at Smokvica Krmpotska"
+    },
+    {
+     "name": "Anton Blažević",
+     "years": "",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "lore",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "anton-blazevic-5",
+     "title": "Toma's father in the family's tree; no year at all"
+    },
+    {
+     "name": "Toma Blažević",
+     "years": "1838–1907",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "doc",
+     "spouse": "Tereza Pećanić",
+     "spouseOrigin": "place not known",
+     "atPlace": "Senj",
+     "atYear": "1907",
+     "living": false,
+     "person": "toma-tomislav-blazevic",
+     "spousePerson": "tereza-pecanic",
+     "title": "At house 114 in 1882 and 1884 by the baptisms; a day labourer dying at Senj in 1907"
+    },
+    {
+     "name": "Juraj «Jurko» Blažević",
+     "years": "† before 1920",
+     "origin": "Smokvica Krmpotska",
+     "originGrade": "inf",
+     "spouse": "Tereza Žubrinić",
+     "spouseOrigin": "of Otočac",
+     "atPlace": "Rijeka",
+     "atYear": "1892",
+     "living": false,
+     "person": "juraj-georgius-jure-blazevic",
+     "spousePerson": "tereza-zubrinic-zubrinic",
+     "title": "At Smokvica 114 in 1895; that he came from Toma's household is the archive's inference"
+    },
+    {
+     "name": "Ljubomir Blažević",
+     "years": "1892–1966",
+     "origin": "Rijeka",
+     "originGrade": "doc",
+     "spouse": "Milka Papić",
+     "spouseOrigin": "of Senj",
+     "atPlace": "Senj",
+     "atYear": "1920",
+     "living": false,
+     "person": "ljubomir-blazevic",
+     "spousePerson": "milka-lucia-papic",
+     "title": "Born at Rijeka by his marriage entry; a sailor at Senj"
+    },
+    {
+     "name": "Hedviga Blažević",
+     "years": "1926–2001",
+     "origin": "Senj",
+     "originGrade": "doc",
+     "spouse": "Ivan Defranceski",
+     "spouseOrigin": "of Crikvenica",
+     "atPlace": "Crikvenica",
+     "atYear": "",
+     "living": false,
+     "person": "hedviga-blazevic",
+     "spousePerson": "ivan-anton-defranceski",
+     "title": "Born at Senj, confirmed by a register extract; resident at Crikvenica by the same extract"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "grgica-blazevic",
+     "ourGeneration": 2,
+     "ourName": "Grgica Blažević",
+     "theirSlug": "matesa-blazevic",
+     "theirName": "Mateša Blažević",
+     "relation": "son of",
+     "grade": "lore",
+     "storyHref": "/story/#mountain",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "ilija-blazevic",
+     "ourGeneration": 3,
+     "ourName": "Ilija Blažević",
+     "theirSlug": "grgica-blazevic",
+     "theirName": "Grgica Blažević",
+     "relation": "son of",
+     "grade": "lore",
+     "storyHref": "/story/#mountain",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "anton-blazevic-5",
+     "ourGeneration": 4,
+     "ourName": "Anton Blažević",
+     "theirSlug": "ilija-blazevic",
+     "theirName": "Ilija Blažević",
+     "relation": "son of",
+     "grade": "lore",
+     "storyHref": "/story/#mountain",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "toma-tomislav-blazevic",
+     "ourGeneration": 5,
+     "ourName": "Toma Blažević",
+     "theirSlug": "anton-blazevic-5",
+     "theirName": "Anton Blažević",
+     "relation": "son of",
+     "grade": "lore",
+     "storyHref": "/story/#house114",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "juraj-georgius-jure-blazevic",
+     "ourGeneration": 6,
+     "ourName": "Juraj «Jurko» Blažević",
+     "theirSlug": "toma-tomislav-blazevic",
+     "theirName": "Toma Blažević",
+     "relation": "son of",
+     "grade": "inf",
+     "storyHref": "/story/#jurko",
+     "note": "The thread down from Toma is dashed: the godparents of 1895 point to him, and no paper names Juraj's father.",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "ljubomir-blazevic",
+     "ourGeneration": 7,
+     "ourName": "Ljubomir Blažević",
+     "theirSlug": "juraj-georgius-jure-blazevic",
+     "theirName": "Juraj «Jurko» Blažević",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#sailor",
+     "note": "Named together in Senj marriages (Vjenčani) p. 366 entry 41 (1920).",
+     "theirOrigin": "of Smokvica Krmpotska"
+    },
+    {
+     "ourSlug": "hedviga-blazevic",
+     "ourGeneration": 8,
+     "ourName": "Hedviga Blažević",
+     "theirSlug": "ljubomir-blazevic",
+     "theirName": "Ljubomir Blažević",
+     "relation": "daughter of",
+     "grade": "lore",
+     "storyHref": "/story/#highveld",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Rijeka"
+    }
+   ]
+  },
+  {
+   "id": "zubrinic",
+   "title": "Žubrinić",
+   "page": "/zubrinic/",
+   "status": "documented",
+   "statusNote": "Toma's 1838 death read · Michael disputed · 22 in this part of the tree",
+   "span": [
+    1834,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Toma Žubrinić",
+     "years": "1768–1838",
+     "origin": "Šumećica",
+     "originGrade": "doc",
+     "spouse": "Marija Findrić",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "toma-zubrinic",
+     "spousePerson": "marija-findric",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Michael «Mate» Žubrinić",
+     "years": "1811–1863",
+     "origin": "Otočac",
+     "originGrade": "lore",
+     "spouse": "Maria Oreskovic",
+     "spouseOrigin": "of Otočac",
+     "atPlace": "Prozor",
+     "atYear": "1863",
+     "living": false,
+     "person": "michael-zubrinic-zubrinic-xubrinich-2",
+     "spousePerson": "maria-catharina-oreskovic-oreskovic",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    },
+    {
+     "name": "Nicolaus «Nikola» Žubrinić",
+     "years": "b. 1834",
+     "origin": "Otočac",
+     "originGrade": "doc",
+     "spouse": "Ana Marić",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "nicolaus-zubrinic-xubrinic",
+     "spousePerson": "ana-shambul-maric",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Tereza Žubrinić",
+     "years": "1867–1931",
+     "origin": "Otočac",
+     "originGrade": "doc",
+     "spouse": "Juraj «Jurko» Blažević",
+     "spouseOrigin": "of Smokvica Krmpotska",
+     "atPlace": "Senj",
+     "atYear": "1931",
+     "living": false,
+     "person": "tereza-zubrinic-zubrinic",
+     "spousePerson": "juraj-georgius-jure-blazevic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "juraj-georgius-jure-blazevic",
+     "ourGeneration": 6,
+     "ourName": "Juraj «Jurko» Blažević",
+     "theirSlug": "tereza-zubrinic-zubrinic",
+     "theirName": "Tereza Žubrinić",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#jurko",
+     "note": "Named together in Senj marriages p. 366 entry 41 (1920).",
+     "theirOrigin": "of Otočac"
+    },
+    {
+     "ourSlug": "ljubomir-blazevic",
+     "ourGeneration": 7,
+     "ourName": "Ljubomir Blažević",
+     "theirSlug": "tereza-zubrinic-zubrinic",
+     "theirName": "Tereza Žubrinić",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#jurko",
+     "note": "Named together in Senj marriages (Vjenčani) p. 366 entry 41 (1920).",
+     "theirOrigin": "of Otočac"
+    }
+   ]
+  },
+  {
+   "id": "papic",
+   "title": "Papić",
+   "page": "/papic/",
+   "status": "documented",
+   "statusNote": "1857 baptism and 1885 marriage read · 31 of the name in this part of the tree",
+   "span": [
+    1807,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Georgius «Jure» Papić",
+     "years": "1838–1912",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Matia Pilipić",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "Senj",
+     "atYear": "1912",
+     "living": false,
+     "person": "georgius-juraj-joannis-papa-antic-papic",
+     "spousePerson": "matia-matthea-pilipic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Josip Papić",
+     "years": "1857–1939",
+     "origin": "Senj",
+     "originGrade": "doc",
+     "spouse": "Antonija «Tonka» Perpić",
+     "spouseOrigin": "of Krivi Put",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "josip-anton-papic",
+     "spousePerson": "antonija-tonka-perpic-prpic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Milka Papić",
+     "years": "1886–1971",
+     "origin": "Senj",
+     "originGrade": "doc",
+     "spouse": "Ljubomir Blažević",
+     "spouseOrigin": "of Rijeka",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "milka-lucia-papic",
+     "spousePerson": "ljubomir-blazevic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "ljubomir-blazevic",
+     "ourGeneration": 7,
+     "ourName": "Ljubomir Blažević",
+     "theirSlug": "milka-lucia-papic",
+     "theirName": "Milka Papić",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#sailor",
+     "note": "Named together in Senj marriages (Vjenčani) p. 366 entry 41 (1920).",
+     "theirOrigin": "of Senj"
+    },
+    {
+     "ourSlug": "hedviga-blazevic",
+     "ourGeneration": 8,
+     "ourName": "Hedviga Blažević",
+     "theirSlug": "milka-lucia-papic",
+     "theirName": "Milka Papić",
+     "relation": "daughter of",
+     "grade": "lore",
+     "storyHref": "/story/#sailor",
+     "note": "From the family's tree; no register entry naming the parent has been read here.",
+     "theirOrigin": "of Senj"
+    }
+   ]
+  },
+  {
+   "id": "prpic",
+   "title": "Prpić",
+   "page": "/prpic/",
+   "status": "documented",
+   "statusNote": "her baptism and 1885 marriage read · 11 of the name in this part of the tree",
+   "span": [
+    1859,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Joannis «Ivan» Perpić",
+     "years": "",
+     "origin": "Krivi Put",
+     "originGrade": "doc",
+     "spouse": "Lucia \"Luca\"",
+     "spouseOrigin": "of Krivi Put",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "joannis-perpic",
+     "spousePerson": "lucia",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Antonija «Tonka» Perpić",
+     "years": "1859–1935",
+     "origin": "Krivi Put",
+     "originGrade": "doc",
+     "spouse": "Josip Papić",
+     "spouseOrigin": "of Senj",
+     "atPlace": "Senj",
+     "atYear": "1935",
+     "living": false,
+     "person": "antonija-tonka-perpic-prpic",
+     "spousePerson": "josip-anton-papic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "milka-lucia-papic",
+     "ourGeneration": 7,
+     "ourName": "Milka Papić",
+     "theirSlug": "antonija-tonka-perpic-prpic",
+     "theirName": "Antonija «Tonka» Perpić",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#sailor",
+     "note": "Named together in Senj baptisms Str. 122 entry 96 (1886).",
+     "theirOrigin": "of Krivi Put"
+    }
+   ]
+  },
+  {
+   "id": "kalanj",
+   "title": "Kalanj",
+   "page": "/kalanj/",
+   "status": "origin-unknown",
+   "statusNote": "1 of 2 generations read from a register",
+   "span": [
+    1826,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Josip Kallayn",
+     "years": "1826–1910",
+     "origin": "Klenovica",
+     "originGrade": "doc",
+     "spouse": "Rozalija Ferković",
+     "spouseOrigin": "of Brinje",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "josip-josephus-joso-kalanj-kalain-kallayn",
+     "spousePerson": "rozalija-rosalia-rozalia-perkovic-perkovic-ferkovic-ferkovic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Anica «Ana» Kalanj",
+     "years": "1864–1936",
+     "origin": "Klenovica",
+     "originGrade": "lore",
+     "spouse": "Josephus Franceschi",
+     "spouseOrigin": "of Gračišće",
+     "atPlace": "Crikvenica",
+     "atYear": "1936",
+     "living": false,
+     "person": "anica-ana-anna-kalanj",
+     "spousePerson": "josephus-de-franceschi",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    }
+   ],
+   "notConnected": {
+    "why": "No Kalanj married or was a parent of anyone on the story's line; the family is further up its tree. Anica Kalanj was the mother of Anton Defranceschi, the father of Ivan Defranceski, who is on our line."
+   }
+  },
+  {
+   "id": "kosina",
+   "title": "Kosina",
+   "page": "/kosina/",
+   "status": "documented",
+   "statusNote": "4 of 4 generations read from a register",
+   "span": [
+    1775,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Franz Kosinar",
+     "years": "1775–1849",
+     "origin": "Feichting",
+     "originGrade": "doc",
+     "spouse": "Maria «Mina» Dortschen",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "found:franz-kosinar",
+     "title": "Read out of a parish register; not in the family tree",
+     "spouseHref": "/found/maria-mina-dortschen/"
+    },
+    {
+     "name": "Gertraud «Gertruda» Kosina",
+     "years": "1814–1880",
+     "origin": "Feichting",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "found:gertraud-gertruda-kosina",
+     "title": "Read out of a parish register; not in the family tree"
+    },
+    {
+     "name": "Martin Kosina",
+     "years": "b. 1841",
+     "origin": "Oberfeichting",
+     "originGrade": "doc",
+     "spouse": "Angelika Boras",
+     "spouseOrigin": "of Senj",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "martin-martinus-kosina",
+     "spousePerson": "angelika-boras",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Pavao Kosina",
+     "years": "1894–1943",
+     "origin": "Senj",
+     "originGrade": "doc",
+     "spouse": "Anka Blažević",
+     "spouseOrigin": "of Otočac",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "pavao-kosina",
+     "spousePerson": "anka-blazevic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Kosina married or was a parent of anyone on the story's line. Pavao Kosina married Anka Blažević, a daughter of Juraj Blažević, who is on our line."
+   }
+  },
+  {
+   "id": "vukelic",
+   "title": "Vukelić",
+   "page": "/vukelic/",
+   "status": "documented",
+   "statusNote": "2 of 2 generations read from a register",
+   "span": [
+    1883,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Petar Vukelić",
+     "years": "† 1918",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Vjekoslava «Lojza» Pulanic",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "petar-vukelic",
+     "spousePerson": "vjekoslava-pulanic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Zvonimir Vukelić",
+     "years": "1883–1915",
+     "origin": "Senj",
+     "originGrade": "doc",
+     "spouse": "Milka Papić",
+     "spouseOrigin": "of Senj",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "zvonimir-matei-vukelic",
+     "spousePerson": "milka-lucia-papic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "milka-lucia-papic",
+     "ourGeneration": 7,
+     "ourName": "Milka Papić",
+     "theirSlug": "zvonimir-matei-vukelic",
+     "theirName": "Zvonimir Vukelić",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#sailor",
+     "note": "Named together in Senj marriages p. 294 entry 30 (1907).",
+     "theirOrigin": "of Senj"
+    }
+   ]
+  },
+  {
+   "id": "tomljanovic",
+   "title": "Tomljanović",
+   "page": "/tomljanovic/",
+   "status": "origin-unknown",
+   "statusNote": "1 of 2 generations read from a register",
+   "cards": [
+    {
+     "name": "Pauli Tomljanović",
+     "years": "",
+     "origin": "Montani Stanište",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "pauli-tomljanovic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Lucia Tomljanović",
+     "years": "† 1809",
+     "origin": "Montani Stanište",
+     "originGrade": "lore",
+     "spouse": "Michaeli Gerkacs",
+     "spouseOrigin": "place not known",
+     "atPlace": "Karlobag",
+     "atYear": "1809",
+     "living": false,
+     "person": "lucia-maja-tomljanovic",
+     "spousePerson": "michaeli-michaele-gerkacs-gergacs",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    }
+   ],
+   "notConnected": {
+    "why": "No Tomljanović married or was a parent of anyone on the story's line; the family is further up its tree. Lucia Tomljanović was the mother of Mariam Gerkacs, the mother of Matia Uroda, the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "loncaric",
+   "title": "Lončarić",
+   "page": "/loncaric/",
+   "status": "documented",
+   "statusNote": "2 of 2 generations read from a register",
+   "span": [
+    1741,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Pauli Lončarić",
+     "years": "1741–1811",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Anna Papić",
+     "spouseOrigin": "place not known",
+     "atPlace": "Selce",
+     "atYear": "1811",
+     "living": false,
+     "person": "pauli-loncaric",
+     "spousePerson": "anna-papic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Margarita Lončarić",
+     "years": "1777–1829",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Joannis Antić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "margarita-martha-loncaric",
+     "spousePerson": "joannis-antic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Lončarić married or was a parent of anyone on the story's line; the family is further up its tree. Margarita Lončarić was the mother of Josephum Antić, the father of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "oreskovic",
+   "title": "Orešković",
+   "page": "/oreskovic/",
+   "status": "origin-unknown",
+   "statusNote": "1 of 2 generations read from a register",
+   "span": [
+    1809,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Marcus Oreskovic",
+     "years": "b. 1809",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Lucia Sekula",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "marcus-oreskovic-oreskovic",
+     "spousePerson": "lucia-sekula",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Maria Oreskovic",
+     "years": "b. 1835",
+     "origin": "Otočac",
+     "originGrade": "lore",
+     "spouse": "Michael «Mate» Žubrinić",
+     "spouseOrigin": "of Otočac",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-catharina-oreskovic-oreskovic",
+     "spousePerson": "michael-zubrinic-zubrinic-xubrinich-2",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    }
+   ],
+   "notConnected": {
+    "why": "No Orešković married or was a parent of anyone on the story's line; the family is further up its tree. Maria Oreskovic was the mother of Nicolaus Žubrinić, the father of Tereza Žubrinić, who is on our line."
+   }
+  },
+  {
+   "id": "sekula",
+   "title": "Sekula",
+   "page": "/sekula/",
+   "status": "origin-unknown",
+   "statusNote": "1 of 2 generations read from a register",
+   "span": [
+    1815,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Michael Sekula",
+     "years": "",
+     "origin": "",
+     "originGrade": "lore",
+     "spouse": "Maria ?",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "michael-michaelis-sekula",
+     "spousePerson": "maria",
+     "title": "A direct ancestor, with no record of their own read here"
+    },
+    {
+     "name": "Lucia Sekula",
+     "years": "b. 1815",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Marcus Oreskovic",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "lucia-sekula",
+     "spousePerson": "marcus-oreskovic-oreskovic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Sekula married or was a parent of anyone on the story's line; the family is further up its tree. Lucia Sekula was the mother of Maria Oreskovic, the mother of Nicolaus Žubrinić, the father of Tereza Žubrinić, who is on our line."
+   }
+  },
+  {
+   "id": "maric",
+   "title": "Marić",
+   "page": "/maric/",
+   "status": "documented",
+   "statusNote": "1 of 1 generation read from a register",
+   "cards": [
+    {
+     "name": "Ana Marić",
+     "years": "",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Nicolaus «Nikola» Žubrinić",
+     "spouseOrigin": "of Otočac",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "ana-shambul-maric",
+     "spousePerson": "nicolaus-zubrinic-xubrinic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "tereza-zubrinic-zubrinic",
+     "ourGeneration": 6,
+     "ourName": "Tereza Žubrinić",
+     "theirSlug": "ana-shambul-maric",
+     "theirName": "Ana Marić",
+     "relation": "daughter of",
+     "grade": "lore",
+     "storyHref": "/story/#jurko",
+     "note": "From the family's tree; no register entry naming the parent has been read here."
+    }
+   ]
+  },
+  {
+   "id": "antic",
+   "title": "Antić",
+   "page": "/antic/",
+   "status": "origin-unknown",
+   "statusNote": "2 of 3 generations read from a register",
+   "span": [
+    1765,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Joannis Antić",
+     "years": "1739–1793",
+     "origin": "",
+     "originGrade": "lore",
+     "spouse": "Ursula",
+     "spouseOrigin": "place not known",
+     "atPlace": "Selce",
+     "atYear": "1793",
+     "living": false,
+     "person": "joannis-antic-2",
+     "spousePerson": "ursula",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    },
+    {
+     "name": "Joannis Antić",
+     "years": "1765–1829",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Margarita Lončarić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "joannis-antic",
+     "spousePerson": "margarita-martha-loncaric",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Josephum Antić",
+     "years": "1806–1850",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Maria Jelličić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "josephum-antic",
+     "spousePerson": "maria-jellicic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Antić married or was a parent of anyone on the story's line; the family is further up its tree. Josephum Antić was the father of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "pilipic",
+   "title": "Pilipić",
+   "page": "/pilipic/",
+   "status": "inferred",
+   "statusNote": "origin unproved, Kastav the candidate",
+   "span": [
+    1747,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Jacob Pilipic",
+     "years": "† 1778",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Catherina Luckinić",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "jacob-pilipic",
+     "spousePerson": "catherina-catta-luckinic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Josephus Pilipic",
+     "years": "1768–1828",
+     "origin": "Karlobag",
+     "originGrade": "lore",
+     "spouse": "Oliva Smojver",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "josephus-josip-pilipic",
+     "spousePerson": "oliva-maria-smojver",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    },
+    {
+     "name": "Vicentius Pilipić",
+     "years": "1805–1897",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Matia Uroda",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "Senj",
+     "atYear": "1897",
+     "living": false,
+     "person": "vicentius-andreas-vincent-pilipic",
+     "spousePerson": "matia-mathiam-georgiam-uroda",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Matia Pilipić",
+     "years": "1838–1911",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Georgius «Jure» Papić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "Senj",
+     "atYear": "1911",
+     "living": false,
+     "person": "matia-matthea-pilipic",
+     "spousePerson": "georgius-juraj-joannis-papa-antic-papic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Pilipić married or was a parent of anyone on the story's line; the family is further up its tree. Matia Pilipić was the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "brozovic",
+   "title": "Brozović",
+   "page": "/brozovic/",
+   "status": "origin-unknown",
+   "statusNote": "1 of 2 generations read from a register",
+   "cards": [
+    {
+     "name": "Joanni Brozović",
+     "years": "",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Catharina",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "joanni-brozovic",
+     "spousePerson": "catharina-2",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Margarita Brozović",
+     "years": "1784–1842",
+     "origin": "",
+     "originGrade": "lore",
+     "spouse": "Georgi Jelličić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "Selce",
+     "atYear": "1842",
+     "living": false,
+     "person": "margarita-brozovic",
+     "spousePerson": "georgi-juraj-jellicic",
+     "title": "This archive has shown something recorded about this person to be wrong"
+    }
+   ],
+   "notConnected": {
+    "why": "No Brozović married or was a parent of anyone on the story's line; the family is further up its tree. Margarita Brozović was the mother of Maria Jelličić, the mother of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "jellicic",
+   "title": "Jelličić",
+   "page": "/jellicic/",
+   "status": "documented",
+   "statusNote": "3 of 3 generations read from a register",
+   "span": [
+    1767,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Mathia Jelličić",
+     "years": "",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Margarita",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "mathia-jellicic",
+     "spousePerson": "margarita",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Georgi Jelličić",
+     "years": "1767–1832",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Margarita Brozović",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "georgi-juraj-jellicic",
+     "spousePerson": "margarita-brozovic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Maria Jelličić",
+     "years": "1809–1882",
+     "origin": "Selce",
+     "originGrade": "doc",
+     "spouse": "Josephum Antić",
+     "spouseOrigin": "of Selce",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-jellicic",
+     "spousePerson": "josephum-antic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Jelličić married or was a parent of anyone on the story's line; the family is further up its tree. Maria Jelličić was the mother of Georgius Papić, the father of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "uroda",
+   "title": "Uroda",
+   "page": "/uroda/",
+   "status": "origin-unknown",
+   "statusNote": "his baptism, his parents and their marriage not found",
+   "span": [
+    1763,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Georgi Uroda",
+     "years": "† 1791",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Maria Uroda",
+     "spouseOrigin": "place not known",
+     "atPlace": "Karlobag",
+     "atYear": "1791",
+     "living": false,
+     "person": "georgi-uroda",
+     "spousePerson": "maria-uroda",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Joannis Uroda",
+     "years": "b. 1777",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Mariam Gerkacs",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "joannis-georgius-georgio-uroda",
+     "spousePerson": "mariam-gerkacs-gergacs",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Matia Uroda",
+     "years": "1810–1886",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Vicentius Pilipić",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "Senj",
+     "atYear": "1886",
+     "living": false,
+     "person": "matia-mathiam-georgiam-uroda",
+     "spousePerson": "vicentius-andreas-vincent-pilipic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Uroda married or was a parent of anyone on the story's line; the family is further up its tree. Matia Uroda was the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "luckinic",
+   "title": "Luckinić",
+   "page": "/luckinic/",
+   "status": "documented",
+   "statusNote": "2 of 2 generations read from a register",
+   "span": [
+    1727,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Vicentius Luckinić",
+     "years": "",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Maria Luckinić",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "vicentius-vicko-luckinic",
+     "spousePerson": "maria-luckinic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Catherina Luckinić",
+     "years": "1727–1790",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Jacob Pilipic",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "catherina-catta-luckinic",
+     "spousePerson": "jacob-pilipic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Luckinić married or was a parent of anyone on the story's line; the family is further up its tree. Catherina Luckinić was the mother of Josephus Pilipic, the father of Vicentius Pilipić, the father of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "gerkacs",
+   "title": "Gerkacs",
+   "page": "/gerkacs/",
+   "status": "documented",
+   "statusNote": "3 of 3 generations read from a register",
+   "span": [
+    1717,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Nicolaus Gerkacs",
+     "years": "1717–1783",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Karlobag",
+     "atYear": "1783",
+     "living": false,
+     "person": "nicolaus-gerkacs",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Michaeli Gerkacs",
+     "years": "1762–1836",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Lucia Tomljanović",
+     "spouseOrigin": "of Montani Stanište",
+     "atPlace": "Karlobag",
+     "atYear": "1836",
+     "living": false,
+     "person": "michaeli-michaele-gerkacs-gergacs",
+     "spousePerson": "lucia-maja-tomljanovic",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Mariam Gerkacs",
+     "years": "1789–1834",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Joannis Uroda",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "mariam-gerkacs-gergacs",
+     "spousePerson": "joannis-georgius-georgio-uroda",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Gerkacs married or was a parent of anyone on the story's line; the family is further up its tree. Mariam Gerkacs was the mother of Matia Uroda, the mother of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  },
+  {
+   "id": "smojver",
+   "title": "Smojver",
+   "page": "/smojver/",
+   "status": "origin-unknown",
+   "statusNote": "the father's baptism (1731) not yet read",
+   "span": [
+    1754,
+    1798
+   ],
+   "cards": [
+    {
+     "name": "Josiph Vukić",
+     "years": "1731–1776",
+     "origin": "",
+     "originGrade": "doc",
+     "spouse": "Antonia Pekass",
+     "spouseOrigin": "place not known",
+     "atPlace": "Karlobag",
+     "atYear": "1776",
+     "living": false,
+     "person": "josiph-smojver-vukic",
+     "spousePerson": "antonia-pekass-pekkas",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Vicentius Vukić",
+     "years": "b. 1754",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Oliva Bacchi",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "vicentius-fabiano-smojver-vukic",
+     "spousePerson": "oliva-andreana-bacchi",
+     "title": "A register or certificate has been read for this person"
+    },
+    {
+     "name": "Oliva Smojver",
+     "years": "b. 1781",
+     "origin": "Karlobag",
+     "originGrade": "doc",
+     "spouse": "Josephus Pilipic",
+     "spouseOrigin": "of Karlobag",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "oliva-maria-smojver",
+     "spousePerson": "josephus-josip-pilipic",
+     "title": "A register or certificate has been read for this person"
+    }
+   ],
+   "notConnected": {
+    "why": "No Smojver married or was a parent of anyone on the story's line; the family is further up its tree. Oliva Smojver was the mother of Vicentius Pilipić, the father of Matia Pilipić, the mother of Josip Papić, the father of Milka Papić, who is on our line."
+   }
+  }
+ ]
+}

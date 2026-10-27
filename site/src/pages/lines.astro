@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import { u } from "../lib/url.js";
 import lines from "../data/lines.json";
+import directLine from "../data/direct-line.json";
 import { md, plain } from "@daviddef/archive-kit/lib/md.js";
 import { statusLine, ledger, TIER_WORD } from "@daviddef/archive-kit/lib/lines.js";
 
@@ -74,7 +75,7 @@ const snap = (id) => u(`/snapshots/#${id}`);
       <p class="dim mono" style="font-size:.78rem">{tally(set)}</p>
 
       <figure class="rivers">
-        <BranchRivers rivers={forDrawing(set)} caption="" />
+        <BranchRivers rivers={forDrawing(set)} caption="" directLine={directLine} />
         <figcaption>
           Hover or tab any dot and it says what the register behind it says; click again to go there.
           <strong>The top lane is the one this archive descends from.</strong> The dotted curves are

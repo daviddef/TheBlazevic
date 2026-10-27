@@ -115,6 +115,9 @@ ORDER = [
     "notelinks.py",
     "build_records.py",
     "names_index.py",
+    # the family pages' ribbons and the direct-line file: reads committed JSON only (story.json and lines.json, which are
+    # hand-kept, among them), so CI also runs it, as `check:directline` (tools/family_ribbon.py --check)
+    "family_ribbon.py",
 ]
 
 
