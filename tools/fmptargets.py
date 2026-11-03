@@ -45,18 +45,11 @@ OUT = os.path.join(ROOT, "sources", "findmypast", "targets.psv")
 
 BORN_FROM, BORN_TO = 1840, 1910
 
-# The surname spellings this archive has actually met, per folded surname. These
-# are not guesses: each one has been searched and returned records.
-SPELLINGS = {
-    "zubrinic": "Zubrinic / Zubrinich / Zubrinick / Zubrinec",
-    "blazevic": "Blazevic / Blasevich / Blazevich",
-    "papic": "Papic / Papich / Papa",
-    "prpic": "Prpic / Prpich / Perpic / Perpich",
-    "kalanj": "Kalanj / Kalan / Kalanich",
-    "sestan": "Sestan / Shestan",
-    "boras": "Boras / Borash",
-    "vukelic": "Vukelic / Vukelich",
-}
+# Surname spellings are NOT kept here. The one catalogue is the Record Atlas's
+# (data/surname-families.json, shown on every surname page and on /surname-families/).
+# Run, before searching:
+#   python3 "../Record Atlas/scripts/surname_variants.py" terms <Surname>
+SPELLINGS_POINTER = "Record Atlas: surname_variants.py terms"
 
 # Which language to offer first. The index on the other end is American or
 # Australian, so the name the clerk there wrote comes first and the register's
@@ -123,7 +116,7 @@ def main():
         rows.append((surname, given, str(by),
                      (p.get("bornPlace") or "").split(",")[0].strip() or "—",
                      p.get("slug") or "", str(p.get("ahn") or ""),
-                     SPELLINGS.get(fold(surname), "—"),
+                     SPELLINGS_POINTER + " " + surname if surname != "—" else "—",
                      ", ".join(alt) if alt else "—"))
     rows.sort(key=lambda r: (fold(r[0]), r[2], fold(r[1])))
 
@@ -144,7 +137,7 @@ def main():
 # 191 records and gives AUSTRALIA, ZUBRINIC a DIFFERENT 119 and gives LIKA.
 #
 # THE TWO SPELLING COLUMNS ARE NOT THE SAME KIND OF THING.
-#   surname spellings   forms this archive HAS SEARCHED and got records from.
+#   surname spellings   a pointer to the Record Atlas catalogue (no list kept here).
 #   given forms         every form of that given name, vernacular and English
 #                       FIRST because the index on the other end is American or
 #                       Australian, Latin LAST because it is what the tree says
@@ -176,7 +169,7 @@ def main():
 # no Defranceski in Passenger Lists Leaving UK 1890-1960. They went to South
 # Africa and this service has neither end of the voyage.
 #
-# surname|given|born|birthplace|slug|ahn|surname spellings to try|given forms to try
+# surname|given|born|birthplace|slug|ahn|surname spellings (see the Record Atlas catalogue)|given forms to try
 """
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write(head)
