@@ -33,7 +33,11 @@ FOLD = str.maketrans({"z": "z", "c": "c", "c": "c", "s": "s", "d": "d",
                       "Z": "z", "C": "c", "C": "c", "S": "s", "D": "d"})
 
 
-# slug -> the folded keys that belong to that family name
+# slug -> the folded keys that belong to that family name.
+# This is a PAGE-GROUPING key (which family page a person lands on), not a list of
+# spellings. Spellings live only in the Record Atlas catalogue: run
+#   python3 "../Record Atlas/scripts/surname_variants.py" terms <Surname>
+# before searching, and `add` any new form there. Do not extend this table to record one.
 SURNAMES = {
     "blazevic": ["blazevic"],
     "zubrinic": ["zubrinic"],
