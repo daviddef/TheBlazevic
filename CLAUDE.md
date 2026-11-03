@@ -10,6 +10,10 @@ open a register, write to an archive, or find a source the atlas does
 not list — as you do it, not in a sweep at the end. Record the
 FamilySearch waypoint, not just the film number; the skill explains why.
 
+## Surname spellings
+
+Surname spellings come only from the Record Atlas catalogue: run `terms` before searching, `cover` before any nil, `add` for every new spelling, `publish` once at the end. Keep no variants list here.
+
 ## Snapshots
 
 Every reading made from a filmed or Matricula page gets a snapshot of the page kept on the site:
