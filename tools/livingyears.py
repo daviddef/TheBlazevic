@@ -531,8 +531,54 @@ def selftest_rule():
     # Before kit 341af33 this control showed that the kit's rule, given every citation, called the Mazza case NOT living,
     # so the archive withheld the citations itself. The kit does it now: the two answers AGREE, and the control pins that.
     res["the kit's rule alone, given every citation, now also keeps the Mazza case living (kit 341af33): the control agrees"] = "@IZ1@" in old_l
+    res.update(selftest_confirmations(P))
     # a hold: the generator must refuse a hold on somebody with a dated death
     return res
+
+
+def selftest_confirmations(P):
+    """data/death-confirmations.tsv with a YEAR (5 November 2026): a death the tree does not record at all is added, as a
+    year and a source, only on a row that names both and only where it cannot contradict the tree. Every refusal is a planted
+    fault that must STOP the build (gedcom.apply_death_confirmations raises SystemExit), and the accepted row must make a
+    person born inside the window not living, in the generator and in this gate, while a bare flag still does not."""
+    import gedcom
+    src, grade = "family confirmation, Zz Planted, 1 January 2026", "family lore"
+    yr = str(TODAY - 1)
+
+    def run(rows):
+        P2 = copy.deepcopy({k: v for k, v in P.items()})
+        try:
+            gedcom.apply_death_confirmations(P2, rows, this_year=TODAY)
+            return P2, None
+        except SystemExit as e:
+            return P2, str(e)
+    out = {}
+    P2, err = run([["@IZ5@", src, grade, yr]])
+    deaths = [e for e in P2["@IZ5@"]["events"] if e["kind"] == "death"]
+    shaped = (err is None and len(deaths) == 1 and deaths[0]["date"] == yr and not deaths[0]["place"] and not deaths[0]["cause"]
+              and src in deaths[0]["note"] and grade in deaths[0]["note"])
+    out["a confirmed year adds ONE death event: the year, the source and the grade, no day, place or cause"] = shaped
+    g = livingset.classify(P2, {})
+    k_l, _ = independent_status(P2)
+    out["a sourced year-only death frees somebody born inside the window (generator, gate)"] = (
+        "@IZ5@" not in g["living"] and "@IZ5@" not in k_l and "@IZ5@" in livingset.classify(P, {})["living"])
+    out["a bare death flag still does not (the control beside it)"] = "@IZ8@" in g["living"] and "@IZ8@" in k_l
+    refused = {
+        "a year for somebody who already has a death event is refused": [["@IZ8@", src, grade, yr]],
+        "a year for somebody who has a burial event is refused": [["@IZF@", src, grade, yr]],
+        "a three-column row for somebody with no death event is refused": [["@IZ5@", src, grade]],
+        "a three-column row for somebody with a dated death is refused": [["@IZ2@", src, grade]],
+        "a year after this year is refused": [["@IZ5@", src, grade, str(TODAY + 1)]],
+        "a year before the person's own birth year is refused": [["@IZ5@", src, grade, str(TODAY - 41)]],
+        "a year that is not four digits is refused": [["@IZ5@", src, grade, "26"]],
+        "a row with no source is refused": [["@IZ5@", "", grade, yr]],
+        "a row with no grade is refused": [["@IZ5@", src, "", yr]],
+        "a row for somebody not in the tree is refused": [["@IZNOPE@", src, grade, yr]],
+    }
+    for label, rows in refused.items():
+        _, err = run(rows)
+        out[label] = err is not None
+    return out
 
 
 # ---- the tree (local builds) ---------------------------------------------------

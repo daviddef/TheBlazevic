@@ -168,7 +168,9 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
-     "living": true
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
     },
     {
      "name": "Lynn Derrick Luwinski",
@@ -262,7 +264,9 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
-     "living": true
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
     },
     {
      "name": "Cheryl Anne Lerena",
@@ -616,59 +620,6 @@
   }
  },
  {
-  "slug": "ivan-anton-defranceski-2",
-  "name": "Ivan Anton Defranceski",
-  "town": "Senj",
-  "country": "Croatia",
-  "living": true,
-  "rel": {
-   "parents": [
-    {
-     "name": "Ivan Anton Defranceski",
-     "slug": "ivan-anton-defranceski",
-     "id": "@I16@",
-     "born": 1925,
-     "died": 1995
-    },
-    {
-     "name": "Hedviga \"Seka\" Blažević",
-     "slug": "hedviga-blazevic",
-     "id": "@I17@",
-     "born": 1926,
-     "died": 2001
-    }
-   ],
-   "spouses": [
-    {
-     "name": "Cheryl Anne Lerena",
-     "slug": "cheryl-anne-lerena",
-     "living": true
-    }
-   ],
-   "siblings": [
-    {
-     "name": "Ladislava \"Ada\" Defranceski",
-     "slug": "ladislava-defranceski",
-     "living": true
-    },
-    {
-     "name": "Robert \"Robbie\" Defranceski",
-     "slug": "robert-defranceski",
-     "id": "@I18@",
-     "born": 1953,
-     "died": null
-    }
-   ],
-   "children": [
-    {
-     "name": "David Ivan Defranceski",
-     "slug": "david-ivan-defranceski",
-     "living": true
-    }
-   ]
-  }
- },
- {
   "slug": "karen",
   "name": "Karen",
   "town": "",
@@ -874,7 +825,9 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
-     "living": true
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
     },
     {
      "name": "Robert \"Robbie\" Defranceski",

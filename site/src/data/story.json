@@ -39,7 +39,7 @@
       { "name": "Juraj «Jurko» Blažević", "years": "† before 1920", "origin": "Smokvica Krmpotska", "originGrade": "inf", "spouse": "Tereza Žubrinić", "spouseOrigin": "of Otočac", "atPlace": "Rijeka", "atYear": "1892", "living": false, "chapter": "jurko", "person": "juraj-georgius-jure-blazevic", "spousePerson": "tereza-zubrinic-zubrinic", "spouseDirect": true, "glyph": "field", "title": "At Smokvica 114 in 1895; that he came from Toma's household is the archive's inference" },
       { "name": "Ljubomir Blažević", "years": "1892–1966", "origin": "Rijeka", "originGrade": "doc", "spouse": "Milka Papić", "spouseOrigin": "of Senj", "atPlace": "Senj", "atYear": "1920", "living": false, "chapter": "sailor", "person": "ljubomir-blazevic", "spousePerson": "milka-lucia-papic", "spouseDirect": true, "glyph": "wave", "title": "Born at Rijeka by his marriage entry; a sailor at Senj" },
       { "name": "Hedviga Blažević", "years": "1926–2001", "origin": "Senj", "originGrade": "doc", "spouse": "Ivan Defranceski", "spouseOrigin": "of Crikvenica", "atPlace": "Crikvenica", "atYear": "", "living": false, "chapter": "highveld", "person": "hedviga-blazevic", "spousePerson": "ivan-anton-defranceski", "spouseDirect": true, "glyph": "ship", "title": "Born at Senj, confirmed by a register extract; resident at Crikvenica by the same extract" },
-      { "name": "Ivan Anton", "years": "", "origin": "Senj", "originGrade": "doc", "spouse": "Cheryl Lerena", "spouseOrigin": "of Johannesburg", "atPlace": "", "atYear": "", "living": true, "chapter": "us", "spouseLiving": true, "glyph": "gable", "title": "Living: named with a relationship and a town, nothing more" }
+      { "name": "Ivan Anton", "years": "1951–2026", "origin": "Senj", "originGrade": "doc", "spouse": "Cheryl Lerena", "spouseOrigin": "of Johannesburg", "atPlace": "", "atYear": "2026", "living": false, "chapter": "us", "spouseLiving": true, "glyph": "gable", "title": "Died in 2026, on the family's word; the archive holds no day, place or cause" }
     ]
   },
   "chapters": [
@@ -501,7 +501,7 @@
       ],
       "tree": {
         "glyph": "ship",
-        "note": "Her children are drawn as living people are, by first name and with no dates; one has died, and the archive holds no date for his death.",
+        "note": "Her living child is drawn as living people are, by first name and with no dates; two have died: Ivan Anton in 2026, and Robbie, whose death carries no date.",
         "thread": "ivan-anton",
         "rows": [
           { "kind": "above", "nodes": [{ "id": "ljubomir-up", "name": "Ljubomir Blažević", "years": "1892–1966", "grade": "doc", "person": "ljubomir-blazevic" }] },
@@ -511,7 +511,7 @@
           ] },
           { "kind": "children", "nodes": [
             { "id": "ada", "name": "Ada", "living": true },
-            { "id": "ivan-anton", "name": "Ivan Anton", "living": true },
+            { "id": "ivan-anton", "name": "Ivan Anton", "years": "1951–2026", "grade": "lore", "person": "ivan-anton-defranceski-2" },
             { "id": "robert", "name": "Robert «Robbie»", "years": "†", "grade": "lore", "person": "robert-defranceski" }
           ] }
         ]
@@ -537,12 +537,12 @@
       "paragraphs": [
         {
           "id": "us-1", "grade": "doc",
-          "text": "Hedviga's children were three: Ladislava, called Ada, whom this archive places at Crikvenica; Ivan Anton, whom it places at Senj; and Robert, called Robbie, who has died. The family confirmed his death to the archive, and no date for it is recorded.",
+          "text": "Hedviga's children were three: Ladislava, called Ada, whom this archive places at Crikvenica; Ivan Anton, whom it places at Senj; and Robert, called Robbie, who has died. The family confirmed Robbie's death to the archive, and no date for it is recorded. Ivan Anton has died too, in 2026: his family has told the archive so, and it holds no day, place or cause for the death.",
           "evidence": [{ "href": "/hedviga/", "why": "Hedviga: her children, by name and town" }]
         },
         {
           "id": "us-2", "grade": "doc",
-          "text": "Ivan Anton married Cheryl Lerena, whom the archive places at Johannesburg, in South Africa. Their son is David, who keeps this archive; its own entry places him at Johannesburg too. David's two sons, A. and M., carry the name on. All of them are living, and by this archive's rule the living are named with their relationships and their towns and nothing more; the two youngest, by their initials only.",
+          "text": "Ivan Anton married Cheryl Lerena, whom the archive places at Johannesburg, in South Africa. Their son is David, who keeps this archive; its own entry places him at Johannesburg too. David's two sons, A. and M., carry the name on. Cheryl, David and his sons are living, and by this archive's rule the living are named with their relationships and their towns and nothing more; the two youngest, by their initials only.",
           "evidence": [{ "href": "/about/", "why": "About: the rule for the living" }]
         },
         {
@@ -553,12 +553,12 @@
       ],
       "tree": {
         "glyph": "gable",
-        "note": "Living people are drawn as filled nodes, by first name, with no dates; David's two sons by their initials only.",
+        "note": "Living people are drawn as filled nodes, by first name, with no dates; David's two sons by their initials only. Ivan Anton, who has died, is drawn with his years.",
         "thread": "david",
         "rows": [
           { "kind": "above", "nodes": [{ "id": "hedviga-up", "name": "Hedviga Blažević", "years": "1926–2001", "grade": "doc", "person": "hedviga-blazevic" }] },
           { "kind": "couple", "nodes": [
-            { "id": "ivan-anton-u", "name": "Ivan Anton", "living": true },
+            { "id": "ivan-anton-u", "name": "Ivan Anton", "years": "1951–2026", "grade": "lore", "person": "ivan-anton-defranceski-2" },
             { "id": "cheryl", "name": "Cheryl", "living": true }
           ] },
           { "kind": "children", "nodes": [{ "id": "david", "name": "David", "living": true }] },

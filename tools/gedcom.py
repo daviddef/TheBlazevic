@@ -132,10 +132,13 @@ def apply_overlays(people):
         correction is written (the source is the archive's own correction note in corrections.json). A row whose tree
         year no longer matches the tree stops the build: the tree changed, look again. tools/consistency.py reads the
         tree WITHOUT this (load(corrected=False)): /impossible/ reports what the tree says.
-    data/death-confirmations.tsv   id|source|grade
+    data/death-confirmations.tsv   id|source|grade[|year]
         A death the tree records with a place and no date, confirmed by the family. The confirmation is written on the
         death event as its source and grade (and is not a date: none is invented). It is a RECORDED, sourced death, which
         the kit's living rule counts (a bare flag does not free anybody born in the window).
+        With a fourth column, a YEAR, the person has NO death or burial event in the tree at all and the family says only
+        that they died that year (5 November 2026): a year-only death event is added, carrying the source and grade. See
+        apply_death_confirmations for what stops the build.
     """
     for pid, event, was, now, source in (r[:5] for r in _tsv("tree-corrections.tsv")):
         p = people.get(pid)
@@ -150,16 +153,54 @@ def apply_overlays(people):
         e["corrected_from"] = int(was)
         e["note"] = ("Year corrected by this archive; the correction and its evidence are recorded under What changed (/corrections/) "
                      "and What Cannot Be True (/impossible/). " + (e.get("note") or "")).strip()
-    for pid, source, grade in (r[:3] for r in _tsv("death-confirmations.tsv")):
+    apply_death_confirmations(people, _tsv("death-confirmations.tsv"))
+    return people
+
+
+def apply_death_confirmations(people, rows, this_year=None):
+    """data/death-confirmations.tsv, applied. Three columns (id|source|grade): the tree already records a death with a place
+    and no date; the confirmation is written on that event. Four columns (id|source|grade|year): the tree records NO death
+    and NO burial for the person; a death event is ADDED that carries the year and nothing else, with the source and the
+    grade printed as its note (no day, month, place or cause is ever invented). Either way the person has a sourced, recorded
+    death for the kit's living rule. What a bare flag cannot do (free somebody born in the window) a family confirmation can,
+    and ONLY a row here, naming its source and its grade, can add a death: a row stops the build when
+      * the person is not in the tree, or has a DATED death (take the row out);
+      * a year is given and the person already has a death or a burial event (use the three-column form, which fills the event
+        and invents no year), or no year is given and the person has no death event (the three-column form needs one);
+      * the year is not four digits, is after this year, or is before the person's own birth year;
+      * the source or the grade is empty (a death with nobody to answer for it is the bare flag the kit refuses to believe)."""
+    import datetime
+    ty = this_year or datetime.date.today().year
+    for row in rows:
+        pid, source, grade = (list(row) + ["", "", ""])[:3]
+        yr = row[3].strip() if len(row) > 3 else ""
+        where = "data/death-confirmations.tsv: " + pid
         p = people.get(pid)
         if p is None:
-            raise SystemExit(f"data/death-confirmations.tsv: {pid} is not in the tree")
+            raise SystemExit(f"{where} is not in the tree")
+        if not source.strip() or not grade.strip():
+            raise SystemExit(f"{where}: a confirmed death needs its source and its grade")
         e = ev(p, "death")
+        if yr:
+            if e or ev(p, "burial"):
+                raise SystemExit(f"{where} already has a death or a burial event in the tree: use the three-column form, "
+                                 f"which fills the event and invents no year")
+            if not re.fullmatch(r"\d{4}", yr):
+                raise SystemExit(f"{where}: the year {yr!r} is not four digits")
+            by = year(born(p).get("date", ""))
+            if int(yr) > ty:
+                raise SystemExit(f"{where}: the year {yr} is after {ty}")
+            if by is not None and int(yr) < by:
+                raise SystemExit(f"{where}: the year {yr} is before the person's birth year {by}")
+            p["events"].append({"kind": "death", "tag": "DEAT", "date": yr, "place": "", "detail": "", "cause": "",
+                                "note": "Source: %s. Grade: %s." % (source.strip(), grade.strip()),
+                                "agency": "", "type": "", "confirmed": True, "year_only": True})
+            continue
         if not e:
-            raise SystemExit(f"data/death-confirmations.tsv: {pid} has no death event in the tree")
+            raise SystemExit(f"{where} has no death event in the tree: give the year as a fourth column to add one")
         if year(e.get("date", "")):
-            raise SystemExit(f"data/death-confirmations.tsv: {pid} already has a dated death: take the row out")
-        e["note"] = ("Source: %s. Grade: %s." % (source, grade) + " " + (e.get("note") or "")).strip()
+            raise SystemExit(f"{where} already has a dated death: take the row out")
+        e["note"] = ("Source: %s. Grade: %s." % (source.strip(), grade.strip()) + " " + (e.get("note") or "")).strip()
         e["confirmed"] = True
     return people
 

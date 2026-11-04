@@ -210,15 +210,16 @@
    "name": "Ivan Anton",
    "flags": [
     {
-     "kind": "today",
+     "kind": "era",
      "line": "from",
      "place": "Senj",
-     "svg": "croatia-flags--era-1990.svg",
-     "flag": "croatia-flags--era-1990",
-     "country": "HR",
-     "year": null,
-     "label": "from Senj: Croatia today",
-     "grade": "doc"
+     "svg": "croatia-flags--era-1946.svg",
+     "flag": "croatia-flags--era-1946",
+     "era": "kvarner--era-1945",
+     "year": 1951,
+     "label": "from Senj, 1951: Yugoslavia then",
+     "grade": "doc",
+     "assessed": true
     },
     {
      "kind": "today",
