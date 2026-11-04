@@ -272,6 +272,10 @@ for r in NAMES["rows"]:
     BEARERS[r["canon"]] = (r["men"], r["women"])
     for forms in r["langs"].values():
         for f in forms:
+            # the Atlas's own claim: a case-by-case form is sometimes another name
+            # (Joan, Luca, Luce), so it proves nothing about the person carrying it
+            if f.get("status") == "case-by-case":
+                FORM_GROUP[fold(f["form"])].add("?ambiguous")
             FORM_GROUP[fold(f["form"])].add(r["canon"])
 
 COUNTED = {x["id"] for x in pub}   # exactly who names.py's tallies include
@@ -300,6 +304,8 @@ for pid, p in people.items():
     if sex not in ("M", "F") or not first:
         continue
     groups = sorted(FORM_GROUP.get(fold(first), ()))
+    if "?ambiguous" in groups:
+        continue                    # the Atlas calls this form case-by-case
     verdicts = [against_the_name(c, sex, pid in COUNTED) for c in groups]
     if not groups or not all(verdicts):
         continue                    # unknown name, or one group does not object

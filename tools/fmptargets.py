@@ -25,7 +25,7 @@ baptismal entry, and ten times the Latin ACCUSATIVE, because the priest wrote
     firstname=josephus   0
     firstname=giuseppe   0
 
-So the forms column is built from sources/givennames.psv by way of names.json,
+So the forms column is built from the Record Atlas given-name catalogue by way of names.json,
 and it is ORDERED BY USEFULNESS rather than alphabetically — the vernacular and
 the English first, because the index being searched is an American or Australian
 one, and the Latin last, because it is what the tree says and the least likely
@@ -142,7 +142,7 @@ def main():
 #                       FIRST because the index on the other end is American or
 #                       Australian, Latin LAST because it is what the tree says
 #                       and the least likely to be in any index outside a church.
-#                       Built from sources/givennames.psv. Latin CASE endings are
+#                       Built from the Record Atlas catalogue (names.json). Latin CASE endings are
 #                       deliberately never offered: "Gregorium" is grammar, not a
 #                       name anyone was called or indexed under.
 #
@@ -155,7 +155,7 @@ def main():
 # 0 for Josephus. It does not expand across the languages a parish was written in.
 #
 # {unknown} of the {len(rows)} rows have no variant group, so their given-forms cell is "—".
-# That is a gap in sources/givennames.psv, not a statement that the name has no
+# That is a gap in the Atlas given-name catalogue, not a statement that the name has no
 # other forms.
 #
 # TWO THINGS THE TRIAL LEARNED THAT SAVE A DAY.

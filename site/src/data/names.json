@@ -1,5 +1,5 @@
 {
- "note": "Every form of every given name this archive holds, filed by the language that wrote it. Built by tools/names.py from sources/givennames.psv and the records themselves; nothing here is marked attested by hand.",
+ "note": "Every form of every given name this archive holds, filed by the language that wrote it. Built by tools/names.py from the Record Atlas given-name catalogue and the records themselves; nothing here is marked attested by hand.",
  "languages": [
   {
    "key": "latin",
@@ -37,9 +37,9 @@
    "note": "The language of arrival — Ellis Island, Port Pirie, Broken Hill, Johannesburg. Usually the last change a name makes, and usually the one that hides a family from the archive that lost it."
   }
  ],
- "totalForms": 362,
- "attested": 207,
- "aids": 155,
+ "totalForms": 469,
+ "attested": 188,
+ "aids": 281,
  "rows": [
   {
    "canon": "aeltgen",
@@ -60,10 +60,14 @@
       "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -72,106 +76,161 @@
    "sex": "f",
    "sexDisputed": true,
    "men": 1,
-   "women": 213,
-   "forms": 12,
+   "women": 232,
+   "forms": 15,
    "attested": 7,
-   "people": 214,
+   "people": 233,
    "tokens": 185,
    "commonest": "anna",
    "langs": {
-    "croatian": [
-     {
-      "form": "Ana",
-      "note": "",
-      "seen": 44,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Ane",
-      "note": "",
-      "seen": 12,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Anica",
-      "note": "diminutive",
-      "seen": 4,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Anka",
-      "note": "diminutive",
-      "seen": 6,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Ankica",
-      "note": "double diminutive",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Hana",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "latin": [
      {
       "form": "Agna",
       "note": "as one clerk wrote it",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Anna",
       "note": "",
       "seen": 117,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 961
      },
      {
-      "form": "Annam",
+      "form": "Annæ",
       "note": "",
-      "seen": 1,
-      "notNominative": "accusative",
-      "case": "accusative"
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 21
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Ana",
+      "note": "",
+      "seen": 44,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 67
+     },
+     {
+      "form": "Ane",
+      "note": "",
+      "seen": 12,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 12
+     },
+     {
+      "form": "Anica",
+      "note": "diminutive",
+      "seen": 4,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
+     },
+     {
+      "form": "Anka",
+      "note": "diminutive",
+      "seen": 6,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     },
+     {
+      "form": "Ankica",
+      "note": "double diminutive",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Hana",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "english": [
+     {
+      "form": "Ann",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
      {
       "form": "Anne",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Annie",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "italian": [
+     {
+      "form": "Annam",
+      "note": "",
+      "seen": 1,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 20
+     },
+     {
+      "form": "Anzoletta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      }
     ],
     "hungarian": [
      {
-      "form": "Ilona",
+      "form": "Annuska",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Annam Parich",
@@ -189,35 +248,39 @@
    "sexDisputed": true,
    "men": 19,
    "women": 1,
-   "forms": 7,
+   "forms": 12,
    "attested": 4,
    "people": 20,
    "tokens": 20,
    "commonest": "andreas",
    "langs": {
-    "croatian": [
+    "italian": [
      {
       "form": "Andre",
       "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
      },
      {
-      "form": "Andrija",
-      "note": "",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
       "form": "Andrea",
-      "note": "a man's name in Italian",
+      "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 71
+     },
+     {
+      "form": "Andra",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ],
     "latin": [
@@ -226,14 +289,36 @@
       "note": "",
       "seen": 11,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 93
+     },
+     {
+      "form": "Andrae",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Andreæ",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 23
      },
      {
       "form": "Andream",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "english": [
@@ -242,19 +327,54 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Andrija",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Andro",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
+     {
+      "form": "Andor",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "András",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -264,8 +384,8 @@
    "sexDisputed": true,
    "men": 76,
    "women": 3,
-   "forms": 11,
-   "attested": 7,
+   "forms": 13,
+   "attested": 6,
    "people": 79,
    "tokens": 75,
    "commonest": "antonius",
@@ -276,60 +396,27 @@
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Anton",
-      "note": "",
-      "seen": 28,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 8
      },
      {
       "form": "Antun",
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      },
      {
       "form": "Tone",
       "note": "short form",
       "seen": 1,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Toni",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Antonio",
-      "note": "",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Antonius",
-      "note": "",
-      "seen": 40,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Antonium",
-      "note": "",
-      "seen": 0,
-      "notNominative": "accusative",
-      "case": "accusative"
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "english": [
@@ -338,7 +425,38 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
+     },
+     {
+      "form": "Antony",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 44
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Anto",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 95
+     },
+     {
+      "form": "Toni",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "german": [
@@ -347,7 +465,49 @@
       "note": "",
       "seen": 28,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 105
+     }
+    ],
+    "latin": [
+     {
+      "form": "Antonius",
+      "note": "",
+      "seen": 40,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 285
+     },
+     {
+      "form": "Antonii",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 61
+     },
+     {
+      "form": "Antonium",
+      "note": "",
+      "seen": 0,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 10
+     }
+    ],
+    "italian": [
+     {
+      "form": "Antonio",
+      "note": "",
+      "seen": 1,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 426
      }
     ],
     "hungarian": [
@@ -356,10 +516,19 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [
+    {
+     "form": "Antonÿ",
+     "why": "The ÿ is the clerk's ligature for a double i: Antonii, the genitive. A letterform, not an English or Dutch spelling."
+    }
+   ],
+   "notSame": [],
    "oblique": [
     {
      "name": "Antonio Falco",
@@ -377,72 +546,39 @@
    "sexDisputed": true,
    "men": 1,
    "women": 37,
-   "forms": 9,
-   "attested": 6,
+   "forms": 13,
+   "attested": 5,
    "people": 38,
    "tokens": 36,
    "commonest": "antonia",
    "langs": {
-    "croatian": [
-     {
-      "form": "Antonija",
-      "note": "",
-      "seen": 15,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Tonica",
-      "note": "diminutive",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Tonka",
-      "note": "diminutive",
-      "seen": 4,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Antica",
-      "note": "diminutive",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Toncika",
-      "note": "diminutive",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Antonia",
-      "note": "",
-      "seen": 15,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Antoniam",
-      "note": "",
-      "seen": 0,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
     "italian": [
      {
       "form": "Antonia",
       "note": "",
       "seen": 15,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 206
+     },
+     {
+      "form": "Anta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
+     },
+     {
+      "form": "Antonietta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
@@ -451,10 +587,101 @@
       "note": "",
       "seen": 15,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 191
+     }
+    ],
+    "latin": [
+     {
+      "form": "Antoniae",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 19
+     },
+     {
+      "form": "Antoniæ",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 19
+     },
+     {
+      "form": "Antoniam",
+      "note": "",
+      "seen": 0,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Antonija",
+      "note": "",
+      "seen": 15,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 20
+     },
+     {
+      "form": "Tonica",
+      "note": "diminutive",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     },
+     {
+      "form": "Tonka",
+      "note": "diminutive",
+      "seen": 4,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
+     },
+     {
+      "form": "Antica",
+      "note": "diminutive",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Toncika",
+      "note": "diminutive",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Antonie",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -470,16 +697,20 @@
    "tokens": 2,
    "commonest": "argentina",
    "langs": {
-    "croatian": [
+    "latin": [
      {
       "form": "Argentina",
-      "note": "written as a given name in the tree",
+      "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -501,10 +732,14 @@
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -526,41 +761,18 @@
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      },
      {
       "form": "Blaz",
       "note": "without the diacritic, as an index will hold it",
       "seen": 4,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Blasius",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Blaise",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Biagio",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ],
     "hungarian": [
@@ -569,10 +781,47 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "italian": [
+     {
+      "form": "Biagio",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Blaise",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "latin": [
+     {
+      "form": "Blasius",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -581,10 +830,10 @@
    "sex": "",
    "sexDisputed": false,
    "men": 0,
-   "women": 3,
-   "forms": 2,
-   "attested": 2,
-   "people": 3,
+   "women": 2,
+   "forms": 1,
+   "attested": 1,
+   "people": 2,
    "tokens": 3,
    "commonest": "blazenka",
    "langs": {
@@ -592,19 +841,16 @@
      {
       "form": "Blazenka",
       "note": "",
-      "seen": 2,
+      "seen": 3,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Blazenka?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -626,17 +872,23 @@
       "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
      },
      {
       "form": "Bozica",
       "note": "without the diacritic, as an index will hold it",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -658,10 +910,14 @@
       "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -669,11 +925,11 @@
    "label": "David",
    "sex": "",
    "sexDisputed": false,
-   "men": 11,
+   "men": 10,
    "women": 0,
-   "forms": 2,
-   "attested": 2,
-   "people": 11,
+   "forms": 1,
+   "attested": 1,
+   "people": 10,
    "tokens": 11,
    "commonest": "david",
    "langs": {
@@ -681,62 +937,78 @@
      {
       "form": "David",
       "note": "",
-      "seen": 10,
+      "seen": 11,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "David?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
-   "canon": "elizabeta",
-   "label": "Elizabeta",
-   "sex": "f",
+   "canon": "elena",
+   "label": "Elena",
+   "sex": "",
    "sexDisputed": false,
    "men": 0,
-   "women": 90,
-   "forms": 9,
-   "attested": 3,
-   "people": 90,
-   "tokens": 27,
+   "women": 1,
+   "forms": 11,
+   "attested": 2,
+   "people": 1,
+   "tokens": 26,
    "commonest": "helena",
    "langs": {
-    "croatian": [
+    "italian": [
      {
-      "form": "Jelena",
-      "note": "",
-      "seen": 12,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Ela",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Elizabeta",
+      "form": "Elena",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 101
      },
      {
-      "form": "Jela",
-      "note": "short form",
+      "form": "Elenam",
+      "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Ellena",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 41
+     },
+     {
+      "form": "Ellenam",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Helen",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "latin": [
@@ -745,42 +1017,70 @@
       "note": "",
       "seen": 14,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 71
      },
      {
-      "form": "Helenam",
-      "note": "",
-      "seen": 1,
-      "notNominative": "accusative",
-      "case": "accusative"
-     },
-     {
-      "form": "Elisabetha",
+      "form": "Helenæ",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 35
      }
     ],
-    "english": [
+    "german": [
      {
-      "form": "Elizabeth",
+      "form": "Helene",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
      {
-      "form": "Erzsébet",
+      "form": "Ilona",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 0
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Jelena",
+      "note": "",
+      "seen": 12,
+      "notNominative": "",
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 12
+     },
+     {
+      "form": "Jela",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [
+    {
+     "form": "Helenả",
+     "why": "Not a clerk at all: an indexing artefact, a stray hook on the final a. It is why a name search can miss the entry."
+    }
+   ],
+   "notSame": [],
    "oblique": [
     {
      "name": "Helenam Papić (Papa)",
@@ -792,62 +1092,281 @@
    ]
   },
   {
+   "canon": "elizabeta",
+   "label": "Elizabeta",
+   "sex": "f",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 77,
+   "forms": 13,
+   "attested": 1,
+   "people": 77,
+   "tokens": 1,
+   "commonest": "helenam",
+   "langs": {
+    "latin": [
+     {
+      "form": "Helenam",
+      "note": "",
+      "seen": 1,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 1
+     },
+     {
+      "form": "Elisabet",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Elisabetę",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
+     },
+     {
+      "form": "Elisabetha",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
+     }
+    ],
+    "german": [
+     {
+      "form": "Elisabeth",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 11
+     }
+    ],
+    "italian": [
+     {
+      "form": "Elisabetta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 65
+     },
+     {
+      "form": "Elisabettha",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Ela",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Elizabeta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Jelisava",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Elizabeth",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Erzsébet",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Erzsi",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ]
+   },
+   "slips": [],
+   "notSame": [],
+   "oblique": []
+  },
+  {
    "canon": "franciska",
    "label": "Franciska",
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 50,
-   "forms": 8,
-   "attested": 5,
-   "people": 50,
+   "women": 62,
+   "forms": 13,
+   "attested": 4,
+   "people": 62,
    "tokens": 42,
    "commonest": "francisca",
    "langs": {
+    "italian": [
+     {
+      "form": "Francisca",
+      "note": "",
+      "seen": 27,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 130
+     },
+     {
+      "form": "Franca",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 28
+     },
+     {
+      "form": "Francesca",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 83
+     }
+    ],
     "croatian": [
      {
       "form": "Francika",
       "note": "",
       "seen": 8,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Franciska",
-      "note": "",
-      "seen": 6,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 8
      },
      {
       "form": "Franka",
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Fanika",
       "note": "diminutive",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Franica",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "latin": [
      {
-      "form": "Francisca",
+      "form": "Franciscae",
       "note": "",
-      "seen": 27,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 27
+     },
+     {
+      "form": "Franciscæ",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 27
      },
      {
       "form": "Franciscam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 23
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Franciska",
+      "note": "",
+      "seen": 6,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 12
+     }
+    ],
+    "german": [
+     {
+      "form": "Franziska",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ],
     "english": [
@@ -856,19 +1375,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "hungarian": [
-     {
-      "form": "Franciska",
-      "note": "",
-      "seen": 6,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -876,51 +1390,61 @@
    "label": "Franjo",
    "sex": "m",
    "sexDisputed": true,
-   "men": 60,
+   "men": 67,
    "women": 5,
-   "forms": 10,
+   "forms": 17,
    "attested": 4,
-   "people": 65,
+   "people": 72,
    "tokens": 64,
    "commonest": "franjo",
    "langs": {
-    "croatian": [
-     {
-      "form": "Frane",
-      "note": "",
-      "seen": 6,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Franjo",
-      "note": "",
-      "seen": 29,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Fran",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Franc",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "italian": [
+     {
+      "form": "Francescho",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     },
      {
       "form": "Francesco",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 339
+     },
+     {
+      "form": "Franco",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 54
+     }
+    ],
+    "english": [
+     {
+      "form": "Francis",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     },
+     {
+      "form": "Frank",
+      "note": "the form of arrival",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
      }
     ],
     "latin": [
@@ -929,23 +1453,74 @@
       "note": "",
       "seen": 27,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 160
      },
      {
       "form": "Franciscum",
       "note": "",
       "seen": 2,
       "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "english": [
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 25
+     },
      {
-      "form": "Frank",
-      "note": "the form of arrival",
+      "form": "Francisci",
+      "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 60
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Frane",
+      "note": "",
+      "seen": 6,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
+     },
+     {
+      "form": "Franjo",
+      "note": "",
+      "seen": 29,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 30
+     },
+     {
+      "form": "Fran",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Franc",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Frano",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "german": [
@@ -954,7 +1529,20 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 28
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Checo",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -963,10 +1551,23 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Feri",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Francisci Perpich",
@@ -996,11 +1597,11 @@
    "label": "Grgur",
    "sex": "m",
    "sexDisputed": false,
-   "men": 21,
+   "men": 23,
    "women": 0,
-   "forms": 7,
+   "forms": 11,
    "attested": 5,
-   "people": 21,
+   "people": 23,
    "tokens": 14,
    "commonest": "gregorius",
    "langs": {
@@ -1010,14 +1611,38 @@
       "note": "",
       "seen": 7,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 36
      },
      {
       "form": "Gregorium",
       "note": "",
       "seen": 1,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 1
+     },
+     {
+      "form": "Gregorii",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 34
+     }
+    ],
+    "italian": [
+     {
+      "form": "Gregorio",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 78
      }
     ],
     "croatian": [
@@ -1026,30 +1651,27 @@
       "note": "short form",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Grgica",
       "note": "diminutive",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Grgur",
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Gregory",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      }
     ],
     "hungarian": [
@@ -1058,10 +1680,45 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Gergő",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Gregor",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Gregory",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -1083,14 +1740,18 @@
       "note": "",
       "seen": 6,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
      },
      {
       "form": "Eliam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "croatian": [
@@ -1099,14 +1760,18 @@
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Ilija",
       "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
      }
     ],
     "english": [
@@ -1115,7 +1780,9 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -1124,10 +1791,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -1135,12 +1806,12 @@
    "label": "Ivan",
    "sex": "m",
    "sexDisputed": true,
-   "men": 240,
-   "women": 1,
-   "forms": 17,
+   "men": 326,
+   "women": 2,
+   "forms": 30,
    "attested": 8,
-   "people": 241,
-   "tokens": 231,
+   "people": 328,
+   "tokens": 236,
    "commonest": "john",
    "langs": {
     "italian": [
@@ -1149,7 +1820,45 @@
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 453
+     },
+     {
+      "form": "Joan",
+      "note": "",
+      "seen": 5,
+      "notNominative": "",
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 23
+     },
+     {
+      "form": "Gio",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 161
+     },
+     {
+      "form": "Gioanni",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
+     },
+     {
+      "form": "Giovan",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "latin": [
@@ -1158,79 +1867,148 @@
       "note": "",
       "seen": 59,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 291
      },
      {
       "form": "Joannem",
       "note": "",
       "seen": 2,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 53
      },
      {
       "form": "Joannis",
       "note": "",
       "seen": 11,
       "notNominative": "genitive",
-      "case": "genitive"
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 99
+     },
+     {
+      "form": "Gioannes",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
+     },
+     {
+      "form": "Gioannis",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 28
      },
      {
       "form": "Ioannes",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Joanni",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
      },
      {
       "form": "Joann",
       "note": "",
       "seen": 0,
       "notNominative": "abbreviated",
-      "case": "abbreviated"
+      "case": "abbreviated",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "croatian": [
      {
       "form": "Ivan",
       "note": "",
-      "seen": 74,
+      "seen": 75,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Ivan?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 108
      },
      {
       "form": "Ive",
       "note": "short form",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Ivica",
       "note": "diminutive",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Ivo",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Jovan",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Hans",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Johann",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 35
+     },
+     {
+      "form": "Johannes",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 51
      }
     ],
     "english": [
@@ -1239,44 +2017,95 @@
       "note": "",
       "seen": 82,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 94
      },
      {
       "form": "Juan",
       "note": "as written in an Australian index",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "venetian": [
+     {
+      "form": "Nane",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Zan",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Zanne",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "Zuane",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "german": [
+      "case": "",
+      "status": "attested",
+      "seenAll": 21
+     },
      {
-      "form": "Johann",
+      "form": "Zuanne",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 67
      }
     ],
     "hungarian": [
+     {
+      "form": "Jancsi",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "János",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [
+    {
+     "form": "JVAN",
+     "why": "A German clerk's J for a Croatian I."
+    }
+   ],
+   "notSame": [],
    "oblique": [
     {
      "name": "Joanne",
@@ -1391,48 +2220,96 @@
    "sex": "f",
    "sexDisputed": true,
    "men": 3,
-   "women": 92,
-   "forms": 13,
-   "attested": 7,
-   "people": 95,
+   "women": 87,
+   "forms": 15,
+   "attested": 5,
+   "people": 90,
    "tokens": 80,
    "commonest": "johanna",
    "langs": {
+    "italian": [
+     {
+      "form": "Johanna",
+      "note": "",
+      "seen": 40,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 174
+     },
+     {
+      "form": "Giovana",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     },
+     {
+      "form": "Giovanna",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 91
+     }
+    ],
     "croatian": [
      {
       "form": "Ivana",
       "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 11
      },
      {
       "form": "Ivka",
       "note": "diminutive",
       "seen": 15,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
      },
      {
       "form": "Iva",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Ivanka",
       "note": "diminutive",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Janja",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Jovana",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "latin": [
@@ -1441,21 +2318,38 @@
       "note": "",
       "seen": 18,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Johanna",
-      "note": "",
-      "seen": 40,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 66
      },
      {
       "form": "Joannam",
       "note": "",
       "seen": 2,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 21
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Zuana",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 13
+     },
+     {
+      "form": "Zuanna",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 25
      }
     ],
     "english": [
@@ -1464,44 +2358,25 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Joan",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Giovanna",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "german": [
-     {
-      "form": "Johanna",
-      "note": "",
-      "seen": 40,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
      {
-      "form": "Johanna",
+      "form": "Janka",
       "note": "",
-      "seen": 40,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -1511,74 +2386,90 @@
    "sexDisputed": false,
    "men": 73,
    "women": 0,
-   "forms": 9,
+   "forms": 10,
    "attested": 4,
    "people": 73,
    "tokens": 46,
    "commonest": "jacobus",
    "langs": {
-    "croatian": [
-     {
-      "form": "Jakov",
-      "note": "",
-      "seen": 7,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jaco",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jakob",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Jacob",
-      "note": "",
-      "seen": 13,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jacobus",
-      "note": "",
-      "seen": 25,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jacobum",
-      "note": "",
-      "seen": 1,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
     "italian": [
      {
       "form": "Giacomo",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 97
+     },
+     {
+      "form": "Jacomo",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "english": [
+     {
+      "form": "Jacob",
+      "note": "",
+      "seen": 13,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 13
+     },
      {
       "form": "James",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "latin": [
+     {
+      "form": "Jacobus",
+      "note": "",
+      "seen": 25,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 44
+     },
+     {
+      "form": "Jacobum",
+      "note": "",
+      "seen": 1,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Jakov",
+      "note": "",
+      "seen": 7,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
+     },
+     {
+      "form": "Jaco",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -1587,10 +2478,25 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Jakob",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Jacobi Kraljich",
@@ -1612,29 +2518,33 @@
    "canon": "jakovina",
    "label": "Jakovina",
    "sex": "f",
-   "sexDisputed": false,
-   "men": 0,
+   "sexDisputed": true,
+   "men": 1,
    "women": 7,
-   "forms": 4,
+   "forms": 5,
    "attested": 0,
-   "people": 7,
+   "people": 8,
    "tokens": 0,
    "commonest": "",
    "langs": {
-    "croatian": [
+    "italian": [
      {
-      "form": "Jakobina",
+      "form": "Giacoma",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 29
      },
      {
-      "form": "Jakovina",
+      "form": "Jacobina",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
      }
     ],
     "latin": [
@@ -1643,44 +2553,34 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 17
      }
     ],
-    "english": [
+    "croatian": [
      {
-      "form": "Jacobina",
+      "form": "Jakobina",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ]
-   },
-   "oblique": []
-  },
-  {
-   "canon": "joan",
-   "label": "Joan",
-   "sex": "",
-   "sexDisputed": false,
-   "men": 0,
-   "women": 5,
-   "forms": 1,
-   "attested": 1,
-   "people": 5,
-   "tokens": 5,
-   "commonest": "joan",
-   "langs": {
-    "english": [
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
-      "form": "Joan",
+      "form": "Jakovina",
       "note": "",
-      "seen": 5,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -1690,7 +2590,7 @@
    "sexDisputed": false,
    "men": 110,
    "women": 0,
-   "forms": 13,
+   "forms": 16,
    "attested": 7,
    "people": 110,
    "tokens": 107,
@@ -1702,83 +2602,27 @@
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Joseph",
-      "note": "",
-      "seen": 10,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 205
      },
      {
-      "form": "Joe",
-      "note": "the form of arrival",
+      "form": "Bepo",
+      "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Josephus",
-      "note": "",
-      "seen": 39,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
-      "form": "Josephi",
+      "form": "Pepi",
       "note": "",
-      "seen": 3,
-      "notNominative": "genitive",
-      "case": "genitive"
-     },
-     {
-      "form": "Josephum",
-      "note": "",
-      "seen": 2,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "croatian": [
-     {
-      "form": "Josip",
-      "note": "",
-      "seen": 40,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Joso",
-      "note": "short form",
-      "seen": 9,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jospi",
-      "note": "a slip for Josip",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jozo",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Pepe",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "german": [
@@ -1787,19 +2631,137 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 52
+     }
+    ],
+    "english": [
+     {
+      "form": "Joseph",
+      "note": "",
+      "seen": 10,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 84
+     },
+     {
+      "form": "Joe",
+      "note": "the form of arrival",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "latin": [
+     {
+      "form": "Josephus",
+      "note": "",
+      "seen": 39,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 162
+     },
+     {
+      "form": "Josephi",
+      "note": "",
+      "seen": 3,
+      "notNominative": "genitive",
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 74
+     },
+     {
+      "form": "Josephum",
+      "note": "",
+      "seen": 2,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 22
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Josip",
+      "note": "",
+      "seen": 40,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 79
+     },
+     {
+      "form": "Joso",
+      "note": "short form",
+      "seen": 9,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
+     },
+     {
+      "form": "Jozo",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Pepe",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Bepi",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
+     {
+      "form": "Jóska",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "József",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [
+    {
+     "form": "Jospi",
+     "why": "A slip for the name, noted by the Blažević archive."
+    }
+   ],
+   "notSame": [],
    "oblique": [
     {
      "name": "Josephi \"Josephus\" Boras",
@@ -1844,54 +2806,31 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 6,
-   "forms": 7,
+   "women": 8,
+   "forms": 9,
    "attested": 2,
-   "people": 6,
+   "people": 8,
    "tokens": 6,
    "commonest": "josipa",
    "langs": {
-    "croatian": [
-     {
-      "form": "Josipa",
-      "note": "",
-      "seen": 4,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jozefa",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Josepha",
-      "note": "",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Josephine",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "italian": [
+     {
+      "form": "Giuseppa",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 11
+     },
      {
       "form": "Giuseppina",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 20
      }
     ],
     "german": [
@@ -1900,7 +2839,60 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     }
+    ],
+    "latin": [
+     {
+      "form": "Josepha",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
+     },
+     {
+      "form": "Josephae",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Josepham",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 43
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Josipa",
+      "note": "",
+      "seen": 4,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
+     }
+    ],
+    "english": [
+     {
+      "form": "Josephine",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -1909,10 +2901,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -1920,65 +2916,23 @@
    "label": "Juraj",
    "sex": "m",
    "sexDisputed": false,
-   "men": 74,
+   "men": 75,
    "women": 0,
-   "forms": 14,
+   "forms": 17,
    "attested": 6,
-   "people": 74,
+   "people": 75,
    "tokens": 70,
    "commonest": "george",
    "langs": {
-    "croatian": [
-     {
-      "form": "Juraj",
-      "note": "",
-      "seen": 11,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jure",
-      "note": "short form",
-      "seen": 15,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Djuro",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Gjuka",
-      "note": "diminutive",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Gjuro",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jurko",
-      "note": "diminutive",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "english": [
      {
       "form": "George",
       "note": "",
       "seen": 24,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 24
      }
     ],
     "latin": [
@@ -1987,28 +2941,45 @@
       "note": "",
       "seen": 17,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 42
      },
      {
       "form": "Georgii",
       "note": "",
       "seen": 1,
       "notNominative": "genitive",
-      "case": "genitive"
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 18
      },
      {
       "form": "Georgium",
       "note": "",
       "seen": 2,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 14
+     },
+     {
+      "form": "Georgü",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
      },
      {
       "form": "Georgio",
       "note": "",
       "seen": 0,
       "notNominative": "dative or ablative",
-      "case": "dative or ablative"
+      "case": "dative or ablative",
+      "status": "attested",
+      "seenAll": 10
      }
     ],
     "italian": [
@@ -2017,7 +2988,76 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 59
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Juraj",
+      "note": "",
+      "seen": 11,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 36
+     },
+     {
+      "form": "Jure",
+      "note": "short form",
+      "seen": 15,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 25
+     },
+     {
+      "form": "Djuro",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Gjuka",
+      "note": "diminutive",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Gjuro",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Jurko",
+      "note": "diminutive",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Zorzi",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
      }
     ],
     "german": [
@@ -2026,7 +3066,9 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -2035,10 +3077,23 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Gyuri",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Georgii Papich",
@@ -2076,29 +3131,15 @@
    "tokens": 0,
    "commonest": "",
    "langs": {
-    "croatian": [
-     {
-      "form": "Gjurdja",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Jurja",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "latin": [
      {
       "form": "Georgia",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "english": [
@@ -2107,7 +3148,9 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "italian": [
@@ -2116,10 +3159,34 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Gjurdja",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Jurja",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2128,10 +3195,10 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 122,
-   "forms": 11,
+   "women": 143,
+   "forms": 15,
    "attested": 7,
-   "people": 122,
+   "people": 143,
    "tokens": 118,
    "commonest": "catharina",
    "langs": {
@@ -2141,69 +3208,36 @@
       "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      },
      {
       "form": "Catharina",
       "note": "",
       "seen": 69,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 156
      },
      {
       "form": "Catharinam",
       "note": "",
       "seen": 1,
       "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "croatian": [
-     {
-      "form": "Kata",
-      "note": "short form",
-      "seen": 15,
-      "notNominative": "",
-      "case": ""
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 23
      },
      {
-      "form": "Katarina",
-      "note": "",
-      "seen": 10,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Katica",
-      "note": "diminutive",
-      "seen": 6,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Catta",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Kate",
-      "note": "",
-      "seen": 15,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "german": [
-     {
-      "form": "Katharina",
+      "form": "Catharinæ",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 46
      }
     ],
     "italian": [
@@ -2212,19 +3246,112 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
+     },
+     {
+      "form": "Cattarina",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 103
+     },
+     {
+      "form": "Catterina",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 54
+     }
+    ],
+    "english": [
+     {
+      "form": "Kate",
+      "note": "",
+      "seen": 15,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 17
+     },
+     {
+      "form": "Catherine",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Kata",
+      "note": "short form",
+      "seen": 15,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 19
+     },
+     {
+      "form": "Katarina",
+      "note": "",
+      "seen": 10,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 28
+     },
+     {
+      "form": "Katica",
+      "note": "diminutive",
+      "seen": 6,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     },
+     {
+      "form": "Catta",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Katharina",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 22
      }
     ],
     "hungarian": [
      {
       "form": "Katalin",
-      "note": "and this archive holds a KATALYN Zubrinich",
+      "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Catharinam Papić (Papa)",
@@ -2254,10 +3381,14 @@
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2279,10 +3410,14 @@
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2290,42 +3425,81 @@
    "label": "Lucija",
    "sex": "f",
    "sexDisputed": true,
-   "men": 4,
-   "women": 60,
-   "forms": 8,
+   "men": 2,
+   "women": 51,
+   "forms": 10,
    "attested": 4,
-   "people": 64,
-   "tokens": 51,
+   "people": 53,
+   "tokens": 58,
    "commonest": "lucia",
    "langs": {
-    "latin": [
+    "italian": [
      {
-      "form": "Luca",
-      "note": "",
-      "seen": 2,
+      "form": "Luce",
+      "note": "short form",
+      "seen": 9,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 10
      },
      {
       "form": "Lucia",
       "note": "",
       "seen": 33,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 168
      },
      {
-      "form": "Luce?",
-      "note": "the scan is not readable at this point",
+      "form": "Lutia",
+      "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 21
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Lúcia",
+      "note": "",
+      "seen": 33,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 135
+     }
+    ],
+    "latin": [
+     {
+      "form": "Luciae",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 11
+     },
+     {
+      "form": "Luciæ",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 11
      },
      {
       "form": "Luciam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "croatian": [
@@ -2334,14 +3508,9 @@
       "note": "",
       "seen": 16,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Luce",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 16
      }
     ],
     "english": [
@@ -2350,32 +3519,38 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
-    "italian": [
+    "german": [
      {
-      "form": "Luca",
+      "form": "Luzia",
       "note": "",
-      "seen": 2,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
    "canon": "luka",
    "label": "Luka",
    "sex": "m",
-   "sexDisputed": true,
-   "men": 16,
-   "women": 9,
+   "sexDisputed": false,
+   "men": 14,
+   "women": 0,
    "forms": 7,
    "attested": 3,
-   "people": 25,
-   "tokens": 23,
+   "people": 14,
+   "tokens": 16,
    "commonest": "lucas",
    "langs": {
     "latin": [
@@ -2384,48 +3559,29 @@
       "note": "",
       "seen": 10,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
      },
      {
       "form": "Lucam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "croatian": [
-     {
-      "form": "Luce",
-      "note": "short form",
-      "seen": 9,
-      "notNominative": "",
-      "case": ""
-     },
      {
       "form": "Luka",
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Luke",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Luca",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ],
     "hungarian": [
@@ -2434,10 +3590,47 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Lukas",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Luke",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "italian": [
+     {
+      "form": "Luca",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 41
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2446,66 +3639,100 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 66,
-   "forms": 8,
-   "attested": 5,
-   "people": 66,
+   "women": 65,
+   "forms": 10,
+   "attested": 4,
+   "people": 65,
    "tokens": 66,
    "commonest": "magdalena",
    "langs": {
-    "croatian": [
+    "italian": [
      {
-      "form": "Magdalena?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Manda",
-      "note": "short form",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mandalena",
+      "form": "Madalena",
       "note": "",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mande",
-      "note": "short form",
-      "seen": 5,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Magda",
-      "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 27
+     },
+     {
+      "form": "Maddalena",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 77
      }
     ],
     "latin": [
      {
       "form": "Magdalena",
       "note": "",
-      "seen": 55,
+      "seen": 56,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
+      "case": "",
+      "status": "attested",
+      "seenAll": 157
+     },
      {
-      "form": "Maddalena",
+      "form": "Magdalenae",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Manda",
+      "note": "short form",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     },
+     {
+      "form": "Mandalena",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Mande",
+      "note": "short form",
+      "seen": 5,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
+     },
+     {
+      "form": "Magda",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Magdalene",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -2514,42 +3741,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
-   "oblique": []
-  },
-  {
-   "canon": "margaret",
-   "label": "Margaret",
-   "sex": "",
-   "sexDisputed": false,
-   "men": 0,
-   "women": 21,
-   "forms": 2,
-   "attested": 2,
-   "people": 21,
-   "tokens": 21,
-   "commonest": "margaret",
-   "langs": {
-    "english": [
-     {
-      "form": "Margaret",
-      "note": "",
-      "seen": 20,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Margaret?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
-     }
-    ]
-   },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2558,12 +3757,12 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 103,
-   "forms": 8,
-   "attested": 5,
-   "people": 103,
-   "tokens": 80,
-   "commonest": "martha",
+   "women": 44,
+   "forms": 10,
+   "attested": 4,
+   "people": 44,
+   "tokens": 61,
+   "commonest": "margaret",
    "langs": {
     "croatian": [
      {
@@ -2571,55 +3770,78 @@
       "note": "",
       "seen": 11,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Marta",
-      "note": "a DIFFERENT name that this archive's fold treats as one",
-      "seen": 12,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 13
      }
     ],
-    "latin": [
+    "german": [
      {
       "form": "Margaretha",
       "note": "",
       "seen": 19,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 37
      },
      {
-      "form": "Margarita",
+      "form": "Margarete",
       "note": "",
-      "seen": 10,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
-     {
-      "form": "Martha",
-      "note": "a DIFFERENT name that this archive's fold treats as one",
-      "seen": 28,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "german": [
      {
       "form": "Margarethe",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
-    "english": [
+    "latin": [
      {
-      "form": "Margaret",
+      "form": "Margarita",
+      "note": "",
+      "seen": 10,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 132
+     },
+     {
+      "form": "Margaritae",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 23
+     },
+     {
+      "form": "Margaritæ",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 23
+     }
+    ],
+    "italian": [
+     {
+      "form": "Margherita",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 22
      }
     ],
     "hungarian": [
@@ -2628,42 +3850,34 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Margaret",
+      "note": "",
+      "seen": 21,
+      "notNominative": "",
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 20
      }
     ]
    },
-   "oblique": []
-  },
-  {
-   "canon": "mariae",
-   "label": "Mariae",
-   "sex": "",
-   "sexDisputed": false,
-   "men": 0,
-   "women": 4,
-   "forms": 2,
-   "attested": 2,
-   "people": 4,
-   "tokens": 4,
-   "commonest": "mariae",
-   "langs": {
-    "latin": [
-     {
-      "form": "Mariae",
-      "note": "the Latin genitive or dative standing in a register as if it were the name — «filia Mariae»",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mariæ",
-      "note": "the same, with the ae ligature the clerk actually wrote",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     }
-    ]
-   },
+   "slips": [],
+   "notSame": [
+    {
+     "form": "Marta",
+     "why": "A different name that this archive's own search fold treated as one; kept apart here."
+    },
+    {
+     "form": "Martha",
+     "why": "A different name that this archive's own search fold treated as one; kept apart here."
+    }
+   ],
    "oblique": []
   },
   {
@@ -2672,11 +3886,11 @@
    "sex": "f",
    "sexDisputed": true,
    "men": 1,
-   "women": 342,
-   "forms": 13,
-   "attested": 13,
-   "people": 343,
-   "tokens": 334,
+   "women": 353,
+   "forms": 15,
+   "attested": 12,
+   "people": 354,
+   "tokens": 338,
    "commonest": "maria",
    "langs": {
     "croatian": [
@@ -2685,102 +3899,148 @@
       "note": "short form",
       "seen": 1,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mare",
-      "note": "short form",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      },
      {
       "form": "Marica",
       "note": "diminutive",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      },
      {
       "form": "Marija",
       "note": "",
       "seen": 94,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 106
      },
      {
       "form": "Mica",
       "note": "diminutive",
       "seen": 1,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Maria",
-      "note": "",
-      "seen": 177,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Maria?",
-      "note": "the register's own question mark, kept — the clerk was unsure and this archive does not resolve it for him",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Marria",
-      "note": "as one clerk wrote it",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mariam",
-      "note": "",
-      "seen": 4,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "english": [
-     {
-      "form": "Mary",
-      "note": "",
-      "seen": 49,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mary?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "italian": [
      {
+      "form": "Mare",
+      "note": "short form",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
+     },
+     {
       "form": "Maria",
       "note": "",
-      "seen": 177,
+      "seen": 178,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3154
+     },
+     {
+      "form": "Marie",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 14
+     },
+     {
+      "form": "Marietta",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 36
      }
     ],
     "hungarian": [
      {
       "form": "Mária",
       "note": "",
-      "seen": 177,
+      "seen": 178,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1577
+     },
+     {
+      "form": "Mari",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "latin": [
+     {
+      "form": "Mariae",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 87
+     },
+     {
+      "form": "Mariæ",
+      "note": "",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 87
+     },
+     {
+      "form": "Marria",
+      "note": "as one clerk wrote it",
+      "seen": 1,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     },
+     {
+      "form": "Mariam",
+      "note": "",
+      "seen": 4,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 88
+     }
+    ],
+    "english": [
+     {
+      "form": "Mary",
+      "note": "",
+      "seen": 50,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 63
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Mariae",
@@ -2827,13 +4087,64 @@
    ]
   },
   {
+   "canon": "marta",
+   "label": "Marta",
+   "sex": "",
+   "sexDisputed": false,
+   "men": 0,
+   "women": 40,
+   "forms": 3,
+   "attested": 3,
+   "people": 40,
+   "tokens": 40,
+   "commonest": "martha",
+   "langs": {
+    "italian": [
+     {
+      "form": "Marta",
+      "note": "",
+      "seen": 12,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 46
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Márta",
+      "note": "",
+      "seen": 12,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 23
+     }
+    ],
+    "latin": [
+     {
+      "form": "Martha",
+      "note": "",
+      "seen": 28,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     }
+    ]
+   },
+   "slips": [],
+   "notSame": [],
+   "oblique": []
+  },
+  {
    "canon": "martin",
    "label": "Martin",
    "sex": "m",
    "sexDisputed": false,
    "men": 24,
    "women": 0,
-   "forms": 5,
+   "forms": 7,
    "attested": 3,
    "people": 24,
    "tokens": 24,
@@ -2845,7 +4156,29 @@
       "note": "",
       "seen": 11,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 32
+     }
+    ],
+    "italian": [
+     {
+      "form": "Martina",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 23
+     },
+     {
+      "form": "Martino",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 17
      }
     ],
     "latin": [
@@ -2854,23 +4187,27 @@
       "note": "",
       "seen": 12,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 20
      },
      {
       "form": "Martinum",
       "note": "",
       "seen": 1,
       "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "italian": [
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 2
+     },
      {
-      "form": "Martino",
+      "form": "Martini",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ],
     "hungarian": [
@@ -2879,10 +4216,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -2890,11 +4231,11 @@
    "label": "Matija",
    "sex": "m",
    "sexDisputed": true,
-   "men": 51,
+   "men": 55,
    "women": 20,
-   "forms": 18,
-   "attested": 11,
-   "people": 71,
+   "forms": 26,
+   "attested": 12,
+   "people": 75,
    "tokens": 68,
    "commonest": "mate",
    "langs": {
@@ -2904,100 +4245,193 @@
       "note": "short form",
       "seen": 27,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 27
      },
      {
       "form": "Matija",
       "note": "",
       "seen": 9,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      },
      {
       "form": "Matej",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Matij",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Mato",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "latin": [
      {
       "form": "Mathaeus",
-      "note": "one t — the spelling that was outside the fold until 17 Sept 2026",
+      "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 60
      },
      {
       "form": "Mathias",
       "note": "",
       "seen": 7,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 26
      },
      {
       "form": "Mathæus",
-      "note": "the same, with the ligature the priest wrote",
+      "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 60
      },
      {
       "form": "Matia",
       "note": "",
       "seen": 9,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      },
      {
       "form": "Matthaeus",
       "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Matthias",
-      "note": "",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
      },
      {
       "form": "Matthæus",
-      "note": "the commonest ligature spelling here",
+      "note": "",
       "seen": 5,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
      },
      {
       "form": "Mathiam",
       "note": "",
       "seen": 2,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 2
+     },
+     {
+      "form": "Matheus",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 29
+     },
+     {
+      "form": "Mathæi",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 56
      },
      {
       "form": "Matthea",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Mattheus",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      },
      {
       "form": "Mattheam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
+     }
+    ],
+    "italian": [
+     {
+      "form": "Matio",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
+     },
+     {
+      "form": "Matteo",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 150
+     },
+     {
+      "form": "Mattia",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 28
+     },
+     {
+      "form": "Mattio",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 139
      }
     ],
     "german": [
@@ -3006,7 +4440,18 @@
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Matthias",
+      "note": "",
+      "seen": 1,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "english": [
@@ -3015,28 +4460,34 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Matteo",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
+     {
+      "form": "Máté",
+      "note": "",
+      "seen": 27,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "Mátyás",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Mathiam Papić (Papa)",
@@ -3062,71 +4513,40 @@
    "men": 66,
    "women": 1,
    "forms": 12,
-   "attested": 8,
+   "attested": 6,
    "people": 67,
    "tokens": 56,
    "commonest": "michael",
    "langs": {
-    "latin": [
+    "german": [
      {
       "form": "Michael",
       "note": "",
       "seen": 33,
       "notNominative": "",
-      "case": ""
-     },
+      "case": "",
+      "status": "attested",
+      "seenAll": 161
+     }
+    ],
+    "latin": [
      {
       "form": "Michaelem",
       "note": "",
       "seen": 1,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Michaelis",
       "note": "",
       "seen": 1,
       "notNominative": "genitive",
-      "case": "genitive"
-     }
-    ],
-    "croatian": [
-     {
-      "form": "Miho",
-      "note": "short form",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mihovil",
-      "note": "",
-      "seen": 16,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mijo",
-      "note": "short form",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Mihael",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Michael",
-      "note": "",
-      "seen": 33,
-      "notNominative": "",
-      "case": ""
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 12
      }
     ],
     "italian": [
@@ -3135,25 +4555,74 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "venetian": [
+      "case": "",
+      "status": "attested",
+      "seenAll": 21
+     },
      {
       "form": "Michiel",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
+     },
+     {
+      "form": "Michiela",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 39
+     },
+     {
+      "form": "Michiele",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 8
      }
     ],
-    "german": [
+    "croatian": [
      {
-      "form": "Michael",
-      "note": "",
-      "seen": 33,
+      "form": "Miho",
+      "note": "short form",
+      "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Mihovil",
+      "note": "",
+      "seen": 16,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 16
+     },
+     {
+      "form": "Mijo",
+      "note": "short form",
+      "seen": 2,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
+     },
+     {
+      "form": "Mihael",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -3162,10 +4631,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Michaelem Papić (Papa)",
@@ -3188,11 +4661,11 @@
    "label": "Nikola",
    "sex": "m",
    "sexDisputed": true,
-   "men": 52,
+   "men": 53,
    "women": 2,
-   "forms": 11,
+   "forms": 17,
    "attested": 6,
-   "people": 54,
+   "people": 55,
    "tokens": 48,
    "commonest": "nikola",
    "langs": {
@@ -3202,58 +4675,101 @@
       "note": "short form",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Nikola",
       "note": "",
       "seen": 21,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 21
      },
      {
       "form": "Nikolas",
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Nikula",
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Mikula",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Niko",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
-    "latin": [
+    "italian": [
      {
-      "form": "Nicolaus",
-      "note": "",
-      "seen": 19,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Nicolai",
-      "note": "",
-      "seen": 1,
-      "notNominative": "genitive",
-      "case": "genitive"
-     },
-     {
-      "form": "Nicolaum",
+      "form": "Niccolo",
       "note": "",
       "seen": 0,
-      "notNominative": "accusative",
-      "case": "accusative"
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 71
+     },
+     {
+      "form": "Nicolaa",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 5
+     },
+     {
+      "form": "Nicolo",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 66
+     },
+     {
+      "form": "Nicoló",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 66
+     },
+     {
+      "form": "Nicolò",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 66
      }
     ],
     "english": [
@@ -3262,16 +4778,49 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      }
     ],
-    "italian": [
+    "latin": [
      {
-      "form": "Nicolò",
+      "form": "Nicolaus",
+      "note": "",
+      "seen": 19,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 44
+     },
+     {
+      "form": "Nicolai",
+      "note": "",
+      "seen": 1,
+      "notNominative": "genitive",
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 25
+     },
+     {
+      "form": "Nicolaum",
+      "note": "",
+      "seen": 0,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Nikolaus",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
@@ -3280,10 +4829,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Nicolai Žubrinić",
@@ -3301,8 +4854,8 @@
    "sexDisputed": false,
    "men": 0,
    "women": 4,
-   "forms": 2,
-   "attested": 2,
+   "forms": 1,
+   "attested": 1,
    "people": 4,
    "tokens": 4,
    "commonest": "olga",
@@ -3310,22 +4863,17 @@
     "croatian": [
      {
       "form": "Olga",
-      "note": "",
-      "seen": 4,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "german": [
-     {
-      "form": "Olga",
       "note": "the same in every language that has it",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 8
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -3335,8 +4883,8 @@
    "sexDisputed": false,
    "men": 0,
    "women": 5,
-   "forms": 8,
-   "attested": 5,
+   "forms": 6,
+   "attested": 3,
    "people": 5,
    "tokens": 4,
    "commonest": "paulina",
@@ -3347,46 +4895,36 @@
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Paulina",
       "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
      },
      {
       "form": "Pava",
-      "note": "short form — and one of them is the Boras entered twice",
+      "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      },
      {
       "form": "Pavla",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Paulina",
-      "note": "",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Pauline",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "italian": [
@@ -3395,19 +4933,25 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
-    "hungarian": [
+    "english": [
      {
-      "form": "Paulina",
+      "form": "Pauline",
       "note": "",
-      "seen": 2,
+      "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -3417,19 +4961,41 @@
    "sexDisputed": false,
    "men": 33,
    "women": 0,
-   "forms": 10,
+   "forms": 11,
    "attested": 7,
    "people": 33,
    "tokens": 31,
    "commonest": "paulus",
    "langs": {
-    "english": [
+    "italian": [
+     {
+      "form": "Paoli",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Paolo",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 82
+     }
+    ],
+    "german": [
      {
       "form": "Paul",
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 19
      }
     ],
     "latin": [
@@ -3438,21 +5004,27 @@
       "note": "",
       "seen": 9,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 34
      },
      {
       "form": "Pauli",
       "note": "",
       "seen": 3,
       "notNominative": "genitive",
-      "case": "genitive"
+      "case": "genitive",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Paulum",
       "note": "",
       "seen": 1,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "croatian": [
@@ -3461,37 +5033,36 @@
       "note": "",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Pavao",
       "note": "",
       "seen": 8,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      },
      {
       "form": "Pave",
       "note": "short form",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      },
      {
       "form": "Pavle",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Paolo",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "hungarian": [
@@ -3500,10 +5071,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Pauli Lončarić",
@@ -3540,11 +5115,11 @@
    "label": "Petar",
    "sex": "m",
    "sexDisputed": true,
-   "men": 68,
+   "men": 67,
    "women": 1,
-   "forms": 10,
-   "attested": 8,
-   "people": 69,
+   "forms": 12,
+   "attested": 6,
+   "people": 68,
    "tokens": 69,
    "commonest": "petrus",
    "langs": {
@@ -3552,64 +5127,29 @@
      {
       "form": "Petar",
       "note": "",
-      "seen": 17,
+      "seen": 18,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Petar?",
-      "note": "written with a question mark in the tree; kept as it is",
-      "seen": 1,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 26
      },
      {
       "form": "Pere",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Pero",
       "note": "short form",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Peter",
-      "note": "",
-      "seen": 10,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Petrus",
-      "note": "",
-      "seen": 37,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Petrum",
-      "note": "",
-      "seen": 1,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "italian": [
-     {
-      "form": "Pietro",
-      "note": "",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ],
     "german": [
@@ -3618,7 +5158,9 @@
       "note": "",
       "seen": 10,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 52
      }
     ],
     "hungarian": [
@@ -3627,10 +5169,83 @@
       "note": "",
       "seen": 10,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 26
+     }
+    ],
+    "latin": [
+     {
+      "form": "Petrus",
+      "note": "",
+      "seen": 37,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 103
+     },
+     {
+      "form": "Petrum",
+      "note": "",
+      "seen": 1,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "attested",
+      "seenAll": 23
+     },
+     {
+      "form": "Petri",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 10
+     }
+    ],
+    "italian": [
+     {
+      "form": "Pietro",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 292
+     },
+     {
+      "form": "Pier",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     },
+     {
+      "form": "Pieto",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
+     }
+    ],
+    "venetian": [
+     {
+      "form": "Piero",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 52
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -3639,23 +5254,85 @@
    "sex": "",
    "sexDisputed": false,
    "men": 0,
-   "women": 11,
-   "forms": 1,
-   "attested": 1,
-   "people": 11,
+   "women": 23,
+   "forms": 6,
+   "attested": 2,
+   "people": 23,
    "tokens": 11,
    "commonest": "ruza",
    "langs": {
+    "latin": [
+     {
+      "form": "Rosa",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 153
+     }
+    ],
+    "english": [
+     {
+      "form": "Rose",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "italian": [
+     {
+      "form": "Rosina",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 7
+     }
+    ],
     "croatian": [
+     {
+      "form": "Ruža",
+      "note": "",
+      "seen": 11,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 8
+     },
      {
       "form": "Ruza",
       "note": "",
       "seen": 11,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 19
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Rózsa",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [
+    {
+     "form": "Roza",
+     "why": "A list that spelt the name differently from the parish register of the place she came from."
+    }
+   ],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -3663,53 +5340,32 @@
    "label": "Simun",
    "sex": "",
    "sexDisputed": false,
-   "men": 10,
+   "men": 13,
    "women": 0,
-   "forms": 8,
+   "forms": 7,
    "attested": 2,
-   "people": 10,
+   "people": 13,
    "tokens": 3,
    "commonest": "simun",
    "langs": {
-    "croatian": [
-     {
-      "form": "Šimun",
-      "note": "",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Simun",
-      "note": "without the diacritic, as an index will hold it",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
     "latin": [
      {
       "form": "Simeon",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      },
      {
       "form": "Simon",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Simon",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 68
      }
     ],
     "italian": [
@@ -3718,28 +5374,52 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 6
      }
     ],
-    "german": [
+    "croatian": [
      {
-      "form": "Simon",
+      "form": "Šimun",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Simun",
+      "note": "without the diacritic, as an index will hold it",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Sime",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "hungarian": [
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
-      "form": "Simon",
+      "form": "Šime",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Simoni Pekass (Pekkas)",
@@ -3757,72 +5437,21 @@
    "sexDisputed": false,
    "men": 36,
    "women": 0,
-   "forms": 10,
+   "forms": 14,
    "attested": 3,
    "people": 36,
    "tokens": 36,
    "commonest": "stephanus",
    "langs": {
-    "latin": [
+    "german": [
      {
-      "form": "Stephanus",
-      "note": "",
-      "seen": 24,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Stephanum",
-      "note": "",
-      "seen": 0,
-      "notNominative": "accusative",
-      "case": "accusative"
-     }
-    ],
-    "english": [
-     {
-      "form": "Stephen",
+      "form": "Stefan",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Steve",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "croatian": [
-     {
-      "form": "Stipan",
-      "note": "",
-      "seen": 3,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Stjepan",
-      "note": "",
-      "seen": 9,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Stevo",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Stipe",
-      "note": "short form",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "italian": [
@@ -3831,7 +5460,105 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 77
+     },
+     {
+      "form": "Steffano",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "latin": [
+     {
+      "form": "Stephanus",
+      "note": "",
+      "seen": 24,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 63
+     },
+     {
+      "form": "Stephanum",
+      "note": "",
+      "seen": 0,
+      "notNominative": "accusative",
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Stephen",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Steve",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Steven",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "croatian": [
+     {
+      "form": "Stipan",
+      "note": "",
+      "seen": 3,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
+     },
+     {
+      "form": "Stjepan",
+      "note": "",
+      "seen": 9,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
+     },
+     {
+      "form": "Stevo",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Stipe",
+      "note": "short form",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
@@ -3840,10 +5567,23 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Pista",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": [
     {
      "name": "Stephani Pavelic",
@@ -3860,10 +5600,10 @@
    "sex": "f",
    "sexDisputed": false,
    "men": 0,
-   "women": 26,
-   "forms": 8,
+   "women": 27,
+   "forms": 11,
    "attested": 4,
-   "people": 26,
+   "people": 27,
    "tokens": 23,
    "commonest": "theresia",
    "langs": {
@@ -3873,7 +5613,18 @@
       "note": "",
       "seen": 1,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 103
+     },
+     {
+      "form": "Teresia",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 13
      }
     ],
     "croatian": [
@@ -3882,30 +5633,18 @@
       "note": "",
       "seen": 9,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 9
      },
      {
       "form": "Terezija",
       "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "latin": [
-     {
-      "form": "Theresia",
-      "note": "",
-      "seen": 11,
-      "notNominative": "",
-      "case": ""
-     },
-     {
-      "form": "Terezia",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ],
     "english": [
@@ -3914,7 +5653,9 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "german": [
@@ -3923,19 +5664,63 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
+     }
+    ],
+    "latin": [
+     {
+      "form": "Theresia",
+      "note": "",
+      "seen": 11,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 107
+     },
+     {
+      "form": "Terezia",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
+     {
+      "form": "Theresiam",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 15
      }
     ],
     "hungarian": [
+     {
+      "form": "Teréz",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     },
      {
       "form": "Terézia",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -3943,11 +5728,11 @@
    "label": "Toma",
    "sex": "m",
    "sexDisputed": false,
-   "men": 81,
+   "men": 79,
    "women": 0,
    "forms": 9,
-   "attested": 6,
-   "people": 81,
+   "attested": 5,
+   "people": 79,
    "tokens": 79,
    "commonest": "thomas",
    "langs": {
@@ -3957,62 +5742,76 @@
       "note": "",
       "seen": 60,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 150
      },
      {
       "form": "Thomam",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
-    "croatian": [
+    "italian": [
      {
       "form": "Toma",
       "note": "",
       "seen": 14,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 17
      },
+     {
+      "form": "Tomaso",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 13
+     },
+     {
+      "form": "Tommaso",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 20
+     }
+    ],
+    "croatian": [
      {
       "form": "Tome",
       "note": "short form",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      },
      {
       "form": "Tomislav",
-      "note": "a DIFFERENT name, folded here by the tool",
+      "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "case-by-case",
+      "seenAll": 0
      },
      {
       "form": "Tomo",
       "note": "short form",
       "seen": 1,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Thomas",
-      "note": "",
-      "seen": 60,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "italian": [
-     {
-      "form": "Tommaso",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 1
      }
     ],
     "hungarian": [
@@ -4021,10 +5820,14 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -4040,16 +5843,20 @@
    "tokens": 2,
    "commonest": "uruguay",
    "langs": {
-    "croatian": [
+    "latin": [
      {
       "form": "Uruguay",
-      "note": "written as a given name in the tree",
+      "note": "",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -4059,7 +5866,7 @@
    "sexDisputed": false,
    "men": 17,
    "women": 0,
-   "forms": 8,
+   "forms": 11,
    "attested": 4,
    "people": 17,
    "tokens": 13,
@@ -4071,21 +5878,36 @@
       "note": "as the clerk spelt it",
       "seen": 3,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Vincentius",
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 42
+     },
+     {
+      "form": "Vincentii",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "attested",
+      "seenAll": 3
      },
      {
       "form": "Vincentium",
       "note": "",
       "seen": 0,
       "notNominative": "accusative",
-      "case": "accusative"
+      "case": "accusative",
+      "status": "rule",
+      "seenAll": 0
      }
     ],
     "croatian": [
@@ -4094,30 +5916,27 @@
       "note": "short form",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 2
      },
      {
       "form": "Vinko",
       "note": "",
       "seen": 4,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      },
      {
       "form": "Vincenc",
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Vincent",
-      "note": "",
-      "seen": 0,
-      "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ],
     "italian": [
@@ -4126,10 +5945,47 @@
       "note": "",
       "seen": 0,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 31
+     }
+    ],
+    "hungarian": [
+     {
+      "form": "Vince",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "english": [
+     {
+      "form": "Vincent",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
+     }
+    ],
+    "german": [
+     {
+      "form": "Vinzenz",
+      "note": "",
+      "seen": 0,
+      "notNominative": "",
+      "case": "",
+      "status": "lead",
+      "seenAll": 0
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   },
   {
@@ -4139,8 +5995,8 @@
    "sexDisputed": false,
    "men": 1,
    "women": 1,
-   "forms": 2,
-   "attested": 2,
+   "forms": 1,
+   "attested": 1,
    "people": 2,
    "tokens": 2,
    "commonest": "zdenka",
@@ -4148,22 +6004,17 @@
     "croatian": [
      {
       "form": "Zdenka",
-      "note": "",
-      "seen": 2,
-      "notNominative": "",
-      "case": ""
-     }
-    ],
-    "english": [
-     {
-      "form": "Zdenka",
       "note": "as an Australian or American index would hold it",
       "seen": 2,
       "notNominative": "",
-      "case": ""
+      "case": "",
+      "status": "attested",
+      "seenAll": 4
      }
     ]
    },
+   "slips": [],
+   "notSame": [],
    "oblique": []
   }
  ]

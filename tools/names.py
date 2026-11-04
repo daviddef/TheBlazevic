@@ -34,7 +34,12 @@ registers» when thirty-one per cent of them did not, and that is the failure
 this gate exists to prevent.
 
 Reads  sources/languages.psv        key → label, note: the archive's own languages
-       sources/givennames.psv       canon|form|lang|note|case, written by hand
+       site/src/data/given-names.json  the Record Atlas's given-name catalogue (a committed snapshot of
+                                    https://recordatlas.org/given-names.json, fetched with the Archive
+                                    Kit's tools/atlas_given_names.py). THE FORMS LIVE ONLY THERE: this
+                                    archive keeps no table of its own (it was sources/givennames.psv
+                                    until 4 November 2026). To add a form, add it to the Atlas with its
+                                    evidence (given_name_variants.py add, then publish), then refetch.
        site/src/data/givennames.json  the fold, and what the records contain
        site/src/data/latincases.json  which people are recorded in an oblique case
 Writes site/src/data/names.json
@@ -47,7 +52,7 @@ import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
-PSV = os.path.join(ROOT, "sources", "givennames.psv")
+SNAP = os.path.join(DATA, "given-names.json")
 
 LANGS_PSV = os.path.join(ROOT, "sources", "languages.psv")
 
@@ -126,55 +131,83 @@ def main():
     for canon, counts in given["observed"].items():
         for form, n in counts.items():
             attested.setdefault(canon, {})
-            attested[canon][fold(form)] = attested[canon].get(fold(form), 0) + n
+            # A reading the clerk's hand left doubtful, «Ivan?», is a reading of the
+            # base form: the Atlas catalogues the form, not our doubt about the ink.
+            k = fold(form).rstrip("? ")
+            attested[canon][k] = attested[canon].get(k, 0) + n
 
-    rows, seen, fails = [], set(), []
-    for line in open(PSV, encoding="utf-8"):
-        line = line.rstrip("\n")
-        if not line.strip() or line.startswith("#"):
-            continue
-        parts = [p.strip() for p in line.split("|")]
-        if len(parts) < 3:
-            continue
-        canon, form, lang = parts[0], parts[1], parts[2]
-        # The table is written in lower case because it is a matching key. A
-        # name is a name and gets its capital back before anybody reads it.
-        if form[:1].islower():
-            form = form[:1].upper() + form[1:]
-        note = parts[3] if len(parts) > 3 else ""
-        # THE FIFTH COLUMN, and the fallback that lets sister archives keep
-        # four. `case` used to be derived from `note` -- if the note read
-        # «genitive» it became the case -- so a form could carry a case OR a
-        # remark and never both. It is its own column now. A four-column row
-        # still behaves exactly as it did.
-        case = parts[4] if len(parts) > 4 else ""
-        if not case and note in CASES:
-            case = note
-        if case and case not in CASES:
-            fails.append(f"{PSV}: «{form}» declares an unknown notNominative value "
-                         f"«{case}» — the vocabulary is "
-                         f"{' · '.join(sorted(NOT_NOMINATIVE))}")
-        rows.append({"canon": canon, "form": form, "lang": lang,
-                     "note": note, "case": case})
-        seen.add((canon, fold(form)))
+    # THE FORMS COME FROM THE ATLAS. One Atlas row is one name across languages; our
+    # own canons (given_names.py's groups, which the records are filed under) are mapped
+    # onto the Atlas row that lists them. Where the Atlas has put two of our canons in one
+    # row (Ivan and Joan are Giovanni there) they become one row here, as the Atlas says.
+    atlas = json.load(open(SNAP, encoding="utf-8"))
+    arows = atlas["rows"]
+    where = {}                                    # folded form -> Atlas row indexes
+    for i, ar in enumerate(arows):
+        for lang, fl in ar["langs"].items():
+            for f in fl:
+                where.setdefault(fold(f["form"]), set()).add(i)
+    fails = []
+    for i, ar in enumerate(arows):
+        for lang in ar["langs"]:
+            if lang not in LANGNAME:
+                fails.append(f"{SNAP}: «{ar['canon']}» has a form filed under «{lang}», "
+                             f"which sources/languages.psv does not name")
 
-    known = set(given["groups"]) | set(given["observed"])
-    for r in rows:
-        if r["canon"] not in known:
-            fails.append(f"{PSV}: «{r['canon']}» is not a name group given_names.py builds")
-        if r["lang"] not in LANGNAME:
-            fails.append(f"{PSV}: «{r['form']}» is filed under an unknown language «{r['lang']}»")
-
-    # THE GATE THAT MATTERS, and it runs in the direction that can hurt. A form
-    # this archive HAS met and this file does not list is a form the page will
-    # not offer — which is the whole defect being fixed, reappearing quietly.
+    # THE GATE THAT MATTERS, and it runs in the direction that can hurt. A form this
+    # archive HAS met and the Atlas does not list is a form the page will not offer.
+    # The fix is never a local table: add the form to the Atlas with its evidence
+    # (given_name_variants.py add ..., then publish, then refetch the snapshot).
+    # A reading marked doubtful with a trailing «?» is the base form, not a new one.
     for canon, forms in attested.items():
         for f in forms:
-            if (canon, f) not in seen:
-                fails.append(f"{PSV}: the records contain «{f}» for {canon} and this file "
+            if f.rstrip("? ") not in where:
+                fails.append(f"records contain «{f}» for {canon} and the Atlas catalogue "
                              f"does not list it — the page would not offer it")
     if fails:
-        print(f"FAIL  {len(fails)} problem(s) in the given-name table:")
+        print(f"FAIL  {len(fails)} problem(s) between the records and the Atlas given-name catalogue:")
+        for f in sorted(set(fails))[:24]:
+            print("        " + f)
+        return 1
+
+    known = set(given["groups"]) | set(given["observed"])
+    canons_of = {}                                # Atlas row index -> our canons that map to it
+    for c in sorted(known):
+        for i in where.get(fold(c), ()):
+            canons_of.setdefault(i, []).append(c)
+    # WHERE AN OBSERVED FORM IS COUNTED. The Atlas files Helena, Luca and Martha as names
+    # of their own, where this archive's grouping (given_names.py) had put them under
+    # Elizabeta, Lucija and Margarita. A form goes to the Atlas row reachable from the
+    # canon the records filed it under; if no such row lists it, to the row(s) that do,
+    # and that row then appears on the page under the Atlas's own id.
+    ours_of, extra = {}, set()
+    for c, forms in attested.items():
+        for f, n in forms.items():
+            cand = where.get(f, set())
+            prim = [i for i in cand if c in canons_of.get(i, [])]
+            for i in (prim or sorted(cand)):
+                ours_of.setdefault(i, {})
+                ours_of[i][f] = ours_of[i].get(f, 0) + n
+                if i not in canons_of:
+                    extra.add(i)
+    for i in extra:
+        canons_of[i] = [arows[i]["id"]]
+    # a name's first-listed canon is the one the records use most
+    rows = []
+    for i, cs in canons_of.items():
+        ar = arows[i]
+        cs.sort(key=lambda c: (-sum(attested.get(c, {}).values()), c))
+        for lang, fl in ar["langs"].items():
+            for f in fl:
+                rows.append({"canon": cs[0], "canons": cs, "ai": i, "form": f["form"], "lang": lang,
+                             "note": f.get("note", ""), "case": f.get("notNominative", "") or f.get("case", ""),
+                             "status": f.get("status", ""), "seenAll": f.get("seenAll", f.get("seen", 0))})
+    for r in rows:
+        if r["case"] and r["case"] not in CASES:
+            fails.append(f"{SNAP}: «{r['form']}» declares an unknown notNominative value "
+                         f"«{r['case']}» — the vocabulary is {' · '.join(sorted(NOT_NOMINATIVE))}")
+    if fails:
+        print(f"FAIL  {len(fails)} problem(s) in the Atlas given-name snapshot:")
         for f in sorted(set(fails))[:24]:
             print("        " + f)
         return 1
@@ -188,11 +221,14 @@ def main():
              "case": l["case"], "ahn": l.get("ahn")})
 
     out, n_att, n_aid = [], 0, 0
-    for canon in sorted(set(r["canon"] for r in rows)):
-        mine = [r for r in rows if r["canon"] == canon]
+    for ai in sorted(canons_of, key=lambda i: canons_of[i][0]):
+        canon = canons_of[ai][0]
+        cs = canons_of[ai]
+        mine = [r for r in rows if r["ai"] == ai]
+        ours = ours_of.get(ai, {})                 # what THESE records hold of THIS row's forms
         by_lang = {}
         for r in mine:
-            hit = attested.get(canon, {}).get(fold(r["form"]), 0)
+            hit = ours.get(fold(r["form"]), 0)
             n_att, n_aid = (n_att + 1, n_aid) if hit else (n_att, n_aid + 1)
             by_lang.setdefault(r["lang"], []).append({
                 "form": r["form"], "note": r["note"], "seen": hit,
@@ -203,19 +239,26 @@ def main():
                 # in the pinned kit — and this comment is how anybody knows that.
                 "notNominative": r["case"],
                 "case": r["case"],
+                # the catalogue's own claim for the form, and the count of every
+                # archive; `seen` above stays THIS archive's, so the page says only
+                # what these records hold
+                "status": r["status"], "seenAll": r["seenAll"],
             })
         for v in by_lang.values():
             v.sort(key=lambda x: (not x["seen"], bool(x["case"]), fold(x["form"])))
-        top = sorted(attested.get(canon, {}).items(), key=lambda kv: -kv[1])
+        top = sorted(ours.items(), key=lambda kv: -kv[1])
         # ONE PERSON, ONCE. Summing over the rows counts a bearer again for
         # every language the form is filed under, and eighteen forms are filed
         # under two or three: «Maria» is Latin, Italian and Hungarian, so the
         # one person written Maria and recorded M was three men here, and the
         # page said so out loud. Fold first, then count.
-        forms = {fold(r["form"]) for r in mine}
+        # A form the Atlas marks case-by-case (Joan, Luca, Luce: the same letters are
+        # sometimes this name and sometimes another's) says nothing about who bore THIS
+        # name, so it is left out of the tally; it stays listed, with its status.
+        forms = {fold(r["form"]) for r in mine if r["status"] != "case-by-case"}
         men = sum(bysex.get(f, {}).get("m", 0) for f in forms)
         women = sum(bysex.get(f, {}).get("f", 0) for f in forms)
-        asserted = given.get("sex", {}).get(canon, "")
+        asserted = next((given.get("sex", {}).get(c) for c in cs if given.get("sex", {}).get(c)), "")
         out.append({
             "canon": canon,
             # The matching key is lower case; a name is a name and gets its
@@ -232,23 +275,24 @@ def main():
             "men": men,
             "women": women,
             "forms": len(mine),
-            "attested": sum(1 for r in mine
-                            if attested.get(canon, {}).get(fold(r["form"]), 0)),
+            "attested": sum(1 for r in mine if ours.get(fold(r["form"]), 0)),
             # PEOPLE MEANS PEOPLE. It used to be the sum of the occurrence
             # counts, which disagreed with men+women in 21 of 39 rows, and the
             # shared component renders it as a count of bearers. `tokens` is the
             # occurrences, which is a different and also useful number.
             "people": men + women,
-            "tokens": sum(attested.get(canon, {}).values()),
+            "tokens": sum(ours.values()),
             "commonest": top[0][0] if top else "",
             "langs": by_lang,
+            "slips": arows[ai].get("slips", []),
+            "notSame": arows[ai].get("notSame", []),
             "oblique": [p for f, ps in oblique.items()
                         if any(fold(r["form"]) == f for r in mine) for p in ps],
         })
 
     doc = {
         "note": ("Every form of every given name this archive holds, filed by the language "
-                 "that wrote it. Built by tools/names.py from sources/givennames.psv and the "
+                 "that wrote it. Built by tools/names.py from the Record Atlas given-name catalogue and the "
                  "records themselves; nothing here is marked attested by hand."),
         "languages": LANGS,
         "totalForms": n_att + n_aid,

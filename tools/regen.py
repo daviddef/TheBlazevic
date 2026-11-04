@@ -61,6 +61,10 @@ HAND_KEPT = {
                              "carried it on. Conclusions somebody reached from a "
                              "document; kosina.py must not write it",
     "worklist.json":         "the work list",
+    "given-names.json":      "a committed snapshot of the Record Atlas given-name catalogue "
+                             "(https://recordatlas.org/given-names.json), fetched with the "
+                             "Archive Kit's tools/atlas_given_names.py; not written by any tool here, "
+                             "and read by names.py",
     "corrections.json":      "where this archive disagrees with the tree",
     "questions.json":        "the open questions",
     "sources.json":          "what this archive is built from",
