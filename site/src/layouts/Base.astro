@@ -26,7 +26,7 @@ import book from "../data/book.json";
    and the pages that quote registers word for word (/snapshots/, /readings/, /register/,
    /searched/, every Snapshot figure), where a witness is a name in a transcription and a link would
    say he is the tree's man of that name. */
-const { title, description = "", dek, eyebrow, bare, noindex, unstructured, noautolink } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex, unstructured, noautolink, ownHeader } = Astro.props;
 const SITE = "The Blažević Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/story/", "The Story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline", "The Timeline"], ["/how-far-back", "How Far Back"]]],
@@ -120,7 +120,7 @@ const thisArchive =
 
 <main id="main" tabindex="-1" data-no-autolink={noautolink === true ? "" : undefined}>
   <div class="wrap">
-    {!bare && (
+    {!bare && !ownHeader && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>

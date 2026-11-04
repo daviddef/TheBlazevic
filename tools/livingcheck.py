@@ -39,8 +39,10 @@ THE RULES (each is a name in the output and in --selftest):
   PAGE-MEDIA   and no image, video, audio, frame or embed.
   PAGE-YEAR    and no year anywhere in <main>, outside a dead relative's own
                dates in the family chart.
-  PAGE-ROWS    and only the rows Name and Place, with the place being exactly
-               the town and country in the data.
+  PAGE-ROWS    and no record table at all (people pages v2: the page is the kit's
+               PersonPage, whose living page is the name as its heading, one line
+               with the place, exactly the town and country in the data, and the
+               family chart); any table row other than Name and Place is a breach.
   PAGE-LINKS   and no link out of the archive (no record to follow).
   PAGE-RECORD  and no tree record id.
   WHO-NOINDEX  a name page whose bearers are all living says noindex,
@@ -335,12 +337,12 @@ def page_rules(html, row, who="?", path=None):
         out.append(("PAGE-ROWS", who, "rows other than Name and Place: " + ", ".join(sorted(set(ths) - {"Name", "Place"}))))
     if row is not None:
         want = ", ".join(x for x in (row.get("town"), row.get("country")) if x)
-        got = re.search(r"<th[^>]*>\s*Place\s*</th>\s*<td[^>]*>(.*?)</td>", main, re.S)
+        got = re.search(r'<p class="pplace">(.*?)</p>', main, re.S)
         if want and (not got or text_of(got.group(1)) != want):
             out.append(("PAGE-ROWS", who, "the Place row is not exactly the town and country"))
         if not want and got:
             out.append(("PAGE-ROWS", who, "a Place row for a person with no place in the data"))
-        nm = re.search(r"<th[^>]*>\s*Name\s*</th>\s*<td[^>]*>(.*?)</td>", main, re.S)
+        nm = re.search(r"<h1[^>]*>(.*?)</h1>", main, re.S)
         if not nm or text_of(nm.group(1)) != row.get("name"):
             out.append(("PAGE-ROWS", who, "the Name row is not the name in the data"))
     return out
@@ -864,11 +866,11 @@ def selftest(w, quiet=False):
     results.append(plant("a bare year in the page body", "PAGE-YEAR",
                          edit_page(r0["slug"], into_main("<p>b. 1799</p>"))))
     results.append(plant("a Born row in the record table", "PAGE-ROWS",
-                         edit_page(r0["slug"], lambda h: h.replace("</table>", "<tr><th>Born</th><td>x</td></tr></table>", 1))))
+                         edit_page(r0["slug"], into_main("<table><tr><th>Born</th><td>x</td></tr></table>"))))
     results.append(plant("a malformed record table", "PAGE-ROWS",
-                         edit_page(r0["slug"], lambda h: h.replace("</table>", "", 1))))
+                         edit_page(r0["slug"], into_main("<table><tr><td>x</td></tr>"))))
     results.append(plant("a longer place than town and country", "PAGE-ROWS",
-                         edit_page(r0["slug"], lambda h: h.replace(r0["town"], "12 High Street, " + r0["town"], 1))))
+                         edit_page(r0["slug"], lambda h: h.replace('<p class="pplace">', '<p class="pplace">12 High Street, ', 1))))
     results.append(plant("a link to a record out of the archive", "PAGE-LINKS",
                          edit_page(r0["slug"], into_main('<a href="https://www.myheritage.com/x">record</a>'))))
     results.append(plant("a tree record id in a living page", "PAGE-RECORD",

@@ -27,18 +27,8 @@
       "why": "The same correction's argument that Austria-Hungary ceased to exist in 1918, so a birth there in 1962 is impossible. A year in an argument, not a birth."
     },
     {
-      "text": "Born</th><td>14 DEC 1949",
-      "file": "people/jeanette-marie-lerena/index.html",
-      "why": "A deceased person: the data records her death on 6 June 2021 and the page's heading prints 1949 to 2021. The kit gate's 90-character look-ahead for the death word is passed by the era note's inline style sitting between the Born and Died rows (kit finding, reported, not edited)."
-    },
-    {
       "text": "Robert &quot;Robbie&quot; Defranceski</span><span class=\"dt\">b. 1953",
       "why": "His birth year in the family chart chip on the pages of his relatives. A deceased person: the tree records his death with a place and no date, and the family confirmation of 25 October 2026 is written on his death event (data/death-confirmations.tsv); his people row carries deathRecorded. The kit gate's dead-name excuse folds the name without its quotes but the page prints the nickname in quotes (kit finding, reported, not edited)."
-    },
-    {
-      "text": "Born</th><td>23 APR 1953",
-      "file": "people/robert-defranceski/index.html",
-      "why": "His own page's Born row. A deceased person: the tree records his death with a place and no date, and the family confirmation of 25 October 2026 is written on his death event (data/death-confirmations.tsv); his people row carries deathRecorded. The kit gate's dead-name excuse folds the name without its quotes but the page prints the nickname in quotes (kit finding, reported, not edited)."
     },
     {
       "text": "Robert \"Robbie\" Defranceski</a></td><td class>b. 23 APR 1953",
