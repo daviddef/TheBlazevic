@@ -108,11 +108,20 @@ Somebody born within the last 80 years with no death recorded is living: named w
   month kept; the event's note says so and the source is the archive's own correction note in `corrections.json`; a row whose tree
   year no longer matches stops the build. `tools/consistency.py` reads the tree AS EXPORTED (`load(corrected=False)`) so
   /impossible/ still reports what the tree says (who is living is decided on the corrected tree). `data/death-confirmations.tsv`
-  (id|source|grade): a death the tree records with a place and no date, confirmed by the family; the source and grade are printed
-  on the death event, no date is invented, and it is a RECORDED death for the kit (take the hold in `living-hold.tsv` out in the same
-  commit). Current rows: one corrected birth year (Georgius Prpić, 1962 to 1862), one confirmed death (Robert, family
-  confirmation by David, 25 October 2026). Ivan Anton Defranceski (the second of the name) is NOT changed: the Defranceschi archive
-  records a death in 2026; this archive holds none.
+  (id|source|grade[|year]): a death confirmed by the family. Three columns: the tree records the death with a place and no date; the source and
+  grade are printed on the death event, no date is invented, and it is a RECORDED death for the kit (take the hold in `living-hold.tsv` out in
+  the same commit). **Four columns, the last a YEAR (5 November 2026): the tree records NO death and NO burial for the person**, and the family
+  says only that they died that year; `gedcom.apply_death_confirmations` ADDS a death event that carries the year and nothing else (no day, month,
+  place or cause), with the source and grade as its note. It stops the build when the person already has a death or burial event (use three
+  columns), when the year is not four digits, is after this year or before the person's birth year, or when the source or the grade is empty;
+  `livingyears.py --selftest` plants each of these. A sourced, dated death frees somebody born in the window; a bare flag still does not.
+  Current rows: one corrected birth year (Georgius Prpić, 1962 to 1862), two confirmed deaths: Robert (family confirmation by David, 25 October
+  2026; the tree's death has a place and no date) and Ivan Anton Defranceski, the second of the name (family confirmation by David,
+  5 November 2026, grade family lore; died 2026; year only, the tree had no death). His page prints the birth date the tree holds (17 December
+  1951), as Robert's does, and his wife Cheryl, his son David and David's sons stay LIVING exactly as before. His card on /story/ carries no
+  `person` key on purpose: a linked Defranceski card would put a second family on the story's line, and `family_ribbon.py` (`line_family()`) would
+  then drop the Blažević page's connections. His tree nodes link to his page. The Defranceschi archive records the same death (roster row
+  ivan-defranceski-1951).
 - **A third record kept beside the tree: a merge the owner confirms (25 October 2026).** `data/tree-merges.tsv`
   (surviving id|retired id|source|grade), applied by `gedcom.apply_merges` after the overlays and before the parent links.
   The first row: Georgius Prpić (survivor: the better-sourced, with the day and the register of his birth) and Jure Perpic

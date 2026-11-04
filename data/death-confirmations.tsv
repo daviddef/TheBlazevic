@@ -4,5 +4,11 @@
 # (a bare flag never frees anybody born in the window; a recorded, sourced death does). Refused for a person with a dated death.
 # Replaces the hold in data/living-hold.tsv (take the hold out in the same commit).
 #
-# id|source|grade
+# A FOURTH COLUMN, A YEAR (5 November 2026), is for a person the tree records with NO death and NO burial at all, whom the
+# family says died that year and no more: a death event is ADDED with that year only (no day, month, place or cause), the
+# source and the grade printed on it. Refused if the person already has a death or burial event (use three columns), if the
+# year is not four digits, is after this year or before the person's birth year, or if the source or the grade is empty.
+#
+# id|source|grade[|year]
 @I18@|family confirmation, David Defranceski, 25 October 2026|family lore
+@I5@|family confirmation, David Defranceski, 5 November 2026|family lore|2026

@@ -53023,7 +53023,9 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
-     "living": true
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
     },
     {
      "name": "Robert \"Robbie\" Defranceski",
@@ -144164,6 +144166,95 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
+    },
+    {
+     "name": "Robert \"Robbie\" Defranceski",
+     "slug": "robert-defranceski",
+     "id": "@I18@",
+     "born": 1953,
+     "died": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "@I5@",
+  "slug": "ivan-anton-defranceski-2",
+  "name": "Ivan Anton Defranceski",
+  "given": "Ivan Anton",
+  "surname": "Defranceski",
+  "nick": "",
+  "sex": "M",
+  "born": "17 DEC 1951",
+  "bornPlace": "Senj, Croatia",
+  "died": "2026",
+  "diedPlace": "",
+  "cause": "",
+  "burial": "",
+  "baptised": "",
+  "baptisedPlace": "",
+  "occupations": [],
+  "byear": 1951,
+  "dyear": 2026,
+  "sources": [
+   "Geni World Family Tree — https://www.myheritage.com/research/record-40000-56313130/private-defranceski-born-blažević-in-geni-world-family-tree"
+  ],
+  "notes": [],
+  "events": [
+   {
+    "kind": "birth",
+    "date": "17 DEC 1951",
+    "place": "Senj, Croatia",
+    "detail": "",
+    "note": ""
+   },
+   {
+    "kind": "event",
+    "date": "",
+    "place": "",
+    "detail": "Had diptheria as a 2 year old. Neat died. Prieat came over to do last rights in a 50/50 survive or die. Log. Term throat problems",
+    "note": ""
+   },
+   {
+    "kind": "death",
+    "date": "2026",
+    "place": "",
+    "detail": "",
+    "note": "Source: family confirmation, David Defranceski, 5 November 2026. Grade: family lore."
+   }
+  ],
+  "family": null,
+  "rel": {
+   "parents": [
+    {
+     "name": "Ivan Anton Defranceski",
+     "slug": "ivan-anton-defranceski",
+     "id": "@I16@",
+     "born": 1925,
+     "died": 1995
+    },
+    {
+     "name": "Hedviga \"Seka\" Blažević",
+     "slug": "hedviga-blazevic",
+     "id": "@I17@",
+     "born": 1926,
+     "died": 2001
+    }
+   ],
+   "spouses": [
+    {
+     "name": "Cheryl Anne Lerena",
+     "slug": "cheryl-anne-lerena",
+     "living": true
+    }
+   ],
+   "siblings": [
+    {
+     "name": "Ladislava \"Ada\" Defranceski",
+     "slug": "ladislava-defranceski",
      "living": true
     },
     {
@@ -144172,6 +144263,13 @@
      "id": "@I18@",
      "born": 1953,
      "died": null
+    }
+   ],
+   "children": [
+    {
+     "name": "David Ivan Defranceski",
+     "slug": "david-ivan-defranceski",
+     "living": true
     }
    ]
   }
@@ -144248,7 +144346,9 @@
     {
      "name": "Ivan Anton Defranceski",
      "slug": "ivan-anton-defranceski-2",
-     "living": true
+     "id": "@I5@",
+     "born": 1951,
+     "died": 2026
     }
    ],
    "children": [
