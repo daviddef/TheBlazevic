@@ -283,7 +283,7 @@ const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidD
 
     {LS && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
     {LS && (rootsLinks.people || []).includes(String(p.id).replace(/@/g, "")) && <Fragment slot="where"><PersonRootsViews pid={String(p.id).replace(/@/g, "")} u={u} /></Fragment>}
-    {LS && <Fragment slot="lore"><PersonLore claims={LS.lore} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
+    {LS && <Fragment slot="lore"><PersonLore claims={LS.lore || []} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
 
     {/* THE CHART'S OWN NOTES: what the marks mean here, and the same name twice in one row */}
     <Fragment slot="chart-notes">
@@ -451,14 +451,14 @@ const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidD
 
     {LS && LS.photos && (
       <Fragment slot="media">
-        <p class="dek" set:html={md(LS.photosDek)}></p>
+        {LS.photosDek && <p class="dek" set:html={md(LS.photosDek)}></p>}
         <div class="photos">
           {LS.photos.map((ph) => (
             <figure><img src={u(ph.src)} loading="lazy" alt={ph.alt} /><figcaption set:html={ph.cap}></figcaption></figure>
           ))}
-          {LS.withheld.map((w) => (<figure><figcaption set:html={w}></figcaption></figure>))}
+          {(LS.withheld || []).map((w) => (<figure><figcaption set:html={w}></figcaption></figure>))}
         </div>
-        <p class="note" set:html={LS.photosNote}></p>
+        {LS.photosNote && <p class="note" set:html={LS.photosNote}></p>}
       </Fragment>
     )}
     {!LS && mine.length > 0 && (
