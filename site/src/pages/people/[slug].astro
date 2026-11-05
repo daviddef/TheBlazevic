@@ -30,6 +30,8 @@ import PS from "@daviddef/archive-kit/data/public-sources.json";
 import { isLiving as isLivingKit, isHeldOut, lifespan as kitLifespan, displayName } from "@daviddef/archive-kit/lib/person.js";
 import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
 import PersonLore from "@daviddef/archive-kit/components/PersonLore.astro";
+import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
+import rootsLinks from "../../../public/roots-links.json";
 import { storyOf, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
 import { STORIES } from "../../lib/lifeStories.js";
 import directLine from "../../data/direct-line.json";
@@ -280,6 +282,7 @@ const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidD
               edgeLevel={false} directLine={directLine} storyHref={u("/story/")} now={RULE.now} sources={PS}>
 
     {LS && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {LS && (rootsLinks.people || []).includes(String(p.id).replace(/@/g, "")) && <Fragment slot="where"><PersonRootsViews pid={String(p.id).replace(/@/g, "")} u={u} /></Fragment>}
     {LS && <Fragment slot="lore"><PersonLore claims={LS.lore} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
 
     {/* THE CHART'S OWN NOTES: what the marks mean here, and the same name twice in one row */}

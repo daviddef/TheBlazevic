@@ -10,6 +10,9 @@ site/.astro/
 site/dist/
 site/public/atlas-data.json
 sources/*.ged
+# Roots & Routes: the intermediate GEDCOM written from people.json (tools/build-tree-page.py), rebuilt every time
+data/tree-page/people.ged
+data/tree-page/slugs.json
 sources/media/files/
 
 # A private build directory, so a check never reads a dist another session is
