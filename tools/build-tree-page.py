@@ -54,6 +54,17 @@ def atlas_path():
 def gdate(v):
     v = "" if v is None else str(v).strip()
     return v
+def husband_wife(p, other_id):
+    """The husband and wife slots of a family, the same whichever of the two is being read. A recorded M is the husband, a recorded F the wife; a couple where
+    the record holds no sex for either (or neither is decisive) is ordered by id, so it is ONE family, not two. The slot says nothing about anybody's sex."""
+    a, b = p["id"], other_id
+    sa, sb = p.get("sex"), (people_by_id.get(other_id) or [{}])[0].get("sex")
+    if sa == "M" and sb != "M": return a, b
+    if sb == "M" and sa != "M": return b, a
+    if sa == "F" and sb != "F": return b, a
+    if sb == "F" and sa != "F": return a, b
+    return (a, b) if a <= b else (b, a)
+
 def write_ged(people, path):
     ids = {p["id"] for p in people}
     out = ["0 HEAD", "1 CHAR UTF-8"]
@@ -67,16 +78,17 @@ def write_ged(people, path):
         sex = {r["id"]: next((q["sex"] for q in people_by_id.get(r["id"], [])), "") for r in par}
         f = next((r["id"] for r in par if sex.get(r["id"]) == "M"), None)
         m = next((r["id"] for r in par if sex.get(r["id"]) == "F"), None)
-        if not (f or m) and par:  # a parent of unrecorded sex: first is the father, second the mother, as the tree lists them
-            f = par[0]["id"]; m = par[1]["id"] if len(par) > 1 else None
+        unk = [r["id"] for r in par if sex.get(r["id"]) not in ("M", "F")]   # a parent whose sex the record does not hold fills the slot that is empty, in the order the tree lists them; the slot says nothing about sex
+        if not f and unk: f = unk.pop(0)
+        if not m and unk: m = unk.pop(0)
         if f or m: fam_of_child[p["id"]] = fam(f, m)
         for s in (p.get("rel") or {}).get("spouses", []):
             if s.get("id") in ids:
-                a, b = (p["id"], s["id"]) if p.get("sex") == "M" else (s["id"], p["id"])
+                a, b = husband_wife(p, s["id"])
                 k = fam(a, b)
                 if k not in fam_of_spouse[p["id"]]: fam_of_spouse[p["id"]].append(k)
     for p in people:
-        out += ["0 %s INDI" % p["id"], "1 NAME %s /%s/" % (p.get("given") or "", p.get("surname") or ""), "1 SEX %s" % (p.get("sex") or "M")]
+        out += ["0 %s INDI" % p["id"], "1 NAME %s /%s/" % (p.get("given") or "", p.get("surname") or ""), "1 SEX %s" % (p.get("sex") if p.get("sex") in ("M", "F") else "U")]   # never inferred from a name: no recorded sex is U
         if p.get("born") or p.get("bornPlace") or p.get("byear"):
             out.append("1 BIRT"); out.append("2 DATE %s" % gdate(p.get("born") or p.get("byear")))
             if p.get("bornPlace"): out.append("2 PLAC %s" % p["bornPlace"])
@@ -169,10 +181,22 @@ def build(a):
         if p["page"] is None: p.pop("page")
     t["lines"] = [{"sur": f["label"], "host": HOST} for f in top] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Family line", "lineLabel": "Family line"})
+    mark_relative_places(t, people)
     drop_conflicts(t, tree)
     keep_death_place(t, people)
     add_routes(t, people)
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
+
+def mark_relative_places(t, people):
+    """The converter puts a person whose own birth place it cannot resolve (none recorded, or a string the place map does not place) at a relative's birth place, and
+    says so only in its report (placed_from_relative). The page can say it on the card (`bpe`: «place taken from a relative, not recorded», and an asterisk), so it does:
+    every person whose drawn birth place is not the place their own record names gets it."""
+    pm = jl(os.path.join(OUT, "place_map.json"))
+    own = {p["id"].strip("@"): (pm.get(p["bornPlace"]) or {}).get("name") if p.get("bornPlace") else None for p in people}
+    n = 0
+    for p in t["people"]:
+        if own.get(p["id"]) != p["bp"]: p["bpe"] = True; n += 1
+    print("relative's place: %d people are drawn at a relative's birth place and marked so on the page" % n)
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in tree.report.json (conflicts) for the

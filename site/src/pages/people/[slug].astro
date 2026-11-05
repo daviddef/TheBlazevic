@@ -27,13 +27,13 @@ import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro"
 import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import PS from "@daviddef/archive-kit/data/public-sources.json";
-import { isLiving as isLivingKit, isHeldOut, lifespan as kitLifespan, displayName } from "@daviddef/archive-kit/lib/person.js";
+import { isLiving as isLivingKit, isHeldOut as isHeldOutKit, lifespan as kitLifespan, displayName } from "@daviddef/archive-kit/lib/person.js";
 import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
 import PersonLore from "@daviddef/archive-kit/components/PersonLore.astro";
 import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
-import rootsLinks from "../../../public/roots-links.json";
-import { storyOf, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
+import { storyOf, hasStory, ancestryOf, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
 import { STORIES } from "../../lib/lifeStories.js";
+import { bySlug, hasPage, livingSlugs, drawn, TREE_BY, gedYear } from "../../lib/storyFamily.js";
 import directLine from "../../data/direct-line.json";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: the kit's PersonPage draws a living person as a name, a relationship,
@@ -177,7 +177,6 @@ const RULE = { now: new Date().getFullYear(), sources: PS, heldIds: [] };
    drawn there; the record table says it in words («before 14 May 1713») and the year it contains still goes to the living rule through birthYear. */
 const MONS = { JAN: "Jan", FEB: "Feb", MAR: "Mar", APR: "Apr", MAY: "May", JUN: "Jun", JUL: "Jul", AUG: "Aug", SEP: "Sep", OCT: "Oct", NOV: "Nov", DEC: "Dec" };
 const monthName = (m) => ({ JAN: "January", FEB: "February", MAR: "March", APR: "April", MAY: "May", JUN: "June", JUL: "July", AUG: "August", SEP: "September", OCT: "October", NOV: "November", DEC: "December" })[m] || m;
-const gedYear = (v) => { const m = /\b(1[0-9]\d\d|20\d\d|[5-9]\d\d)\b/.exec(String(v ?? "")); return m ? Number(m[1]) : null; };
 const canonDate = (v) => {
   if (v == null || v === "") return undefined;
   const t = String(v).trim().replace(/\s+/g, " ");
@@ -242,31 +241,58 @@ const counted = allRel.filter((r) => !r.living && r.slug);
 const nEvidenced = counted.filter((r) => ["read", "scanned"].includes(stateOf(r))).length;
 const LEDE = LIVE ? "" : p.ahn ? `A direct ancestor of Hedviga: generation ${p.gen}, ahnentafel ${p.ahn}.` : (p.bornPlace ? `Born at ${p.bornPlace.split(",")[0]}.` : "");
 
-/* STORY MODE (people pages v2): a person whose life is told in full (src/lib/lifeStories.js, hand-written prose that used to be a page of its own) is drawn
-   as the kit's timeline, whose first stop, «Where they came from», is the family, and not as a chart. The family comes from the same relatives the chart
-   would draw, under the same living rule: a living relative is a name and a relationship and nothing else. */
+/* STORY MODE (people pages v2, kit PERSON-PAGE-SPEC.md 2a): every page that has a life to tell tells it on the kit's timeline, whose first stop, «Where
+   they came from», is the family, and not as a chart. The family comes from the same relatives the chart would draw, under the same living rule: a living
+   relative is a name and a relationship and nothing else, and a relative the rule holds out is not drawn at all. A life told in full by hand
+   (src/lib/lifeStories.js: Hedviga, Milka, Oto) keeps its own prose and takes precedence; for every other person the stops come from the data only (the
+   parents and grandparents, the line of fathers, the brothers and sisters, the children), exactly as the kit lays them. This archive's own words about a
+   person are the notes the tree carries (the section «Notes and corrections»); they are researchers' working notes («is this him?», a pasted link), not an
+   account of a life, so they are not cut into chapters and stay where they are, in full. A person with nothing to tell (no parent, brother or sister, child
+   or hand-written life) keeps the chart page. The living are never in story mode. */
 const LS = !LIVE && STORIES[p.slug] ? STORIES[p.slug](u) : null;
-const bySlug = new Map(people.map((q) => [q.slug, q]));
-const hasPage = new Set([...bySlug.keys(), ...living.map((q) => q.slug)]);
+const livingRow = (r) => r.living === true || livingSlugs.has(r.slug);
+/* an undated relative with a living parent is held out (kit isHeldOut): not drawn, not counted */
+const heldOutRow = (r) => {
+  if (livingRow(r) || (r.born != null && r.born !== "") || (r.died != null && r.died !== "")) return false;
+  const q = bySlug.get(r.slug);
+  const parentLiving = !!q && ((q.rel && q.rel.parents) || []).some((pp) => livingRow(pp) || isLivingKit({ id: pp.id || pp.slug, born: canonDate(pp.born), died: canonDate(pp.died), ...ruleOf(pp.born, pp.died), citations: [] }, RULE));
+  return isHeldOutKit({ id: r.id || r.slug, ...ruleOf(r.born, r.died), citations: [] }, { ...RULE, parentLiving });
+};
 const card = (r, relName) => {
-  const living = r.living === true || isLivingKit({ id: r.id || r.slug, born: canonDate(r.born), died: canonDate(r.died), ...ruleOf(r.born, r.died), saidLiving: r.living === true || undefined, citations: [] }, RULE);
+  if (heldOutRow(r)) return null;
+  const living = livingRow(r) || isLivingKit({ id: r.id || r.slug, born: canonDate(r.born), died: canonDate(r.died), ...ruleOf(r.born, r.died), saidLiving: r.living === true || undefined, citations: [] }, RULE);
   const b = r.born != null && r.born !== "" ? String(r.born) : "", d = r.died != null && r.died !== "" ? String(r.died) : "";
   return { id: r.id || r.slug, rel: relName, living, name: displayName(r.name, { style: "titleCase" }), place: "",
-    dates: living ? "" : d ? `${b || "?"} – ${d}` : b ? `${b} –` : "", href: r.slug && hasPage.has(r.slug) ? u(`/people/${r.slug}/`) : "" };
+    dates: living ? "" : d ? `${b || "?"} \u2013 ${d}` : b ? `${b} \u2013` : "", href: r.slug && hasPage.has(r.slug) ? u(`/people/${r.slug}/`) : "" };
 };
-const parentCards = (rows, sexNames) => rows.map((r, i) => card(r, sexNames[(bySlug.get(r.slug) || {}).sex] || sexNames[i === 0 ? "M" : "F"]));
-const FAM = LS ? (() => {
+/* The words for a relative say only what the record says: a recorded sex gives Father / Mother, a sex the record does not hold gives the neutral word.
+   The order the tree lists two parents says nothing about which is which. */
+const WORD = { M: ["Father", "father"], F: ["Mother", "mother"] };
+const FAM = !LIVE ? (() => {
+  const some = (list) => list.filter(Boolean);
   const par = parents.map((r) => ({ r, q: bySlug.get(r.slug) }));
   const grand = [];
   for (const { r, q } of par) {
-    const side = q && q.sex === "F" ? "Mother's" : "Father's";
+    if (heldOutRow(r)) continue;
+    const side = q && WORD[q.sex] ? `${WORD[q.sex][0]}'s` : "Parent's";
     const gp = (q && q.rel && q.rel.parents) || [];
-    gp.forEach((g, i) => grand.push(card(g, `${side} ${(bySlug.get(g.slug) || {}).sex === "F" || (!bySlug.get(g.slug) && i === 1) ? "mother" : "father"}`)));
+    gp.forEach((g) => { const w = (bySlug.get(g.slug) || {}).sex; grand.push(card(g, `${side} ${WORD[w] ? WORD[w][1] : "parent"}`)); });
   }
-  return { parents: parentCards(parents, { M: "Father", F: "Mother" }), grand, hasGrand: grand.length > 0,
-           siblings: siblings.map((r) => card(r, "Brother or sister")), children: children.map((r) => card(r, "Child")), spouses: [] };
+  const gcards = some(grand);
+  return { parents: some(parents.map((r) => card(r, (WORD[(bySlug.get(r.slug) || {}).sex] || ["Parent"])[0]))), grand: gcards, hasGrand: gcards.length > 0,
+           siblings: some(siblings.map((r) => card(r, "Brother or sister"))), children: some(children.map((r) => card(r, "Child"))), spouses: [] };
 })() : null;
-const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidDate(p.died) }, []) : [];
+/* the line of fathers above the parents, as far as the record goes (kit ancestryOf); where a parent's sex is not recorded the line stops there. The three
+   hand-written lives are left as they were and have none. */
+const THREADS = FAM && !LS && TREE_BY[p.id] ? ancestryOf(TREE_BY, p.id, null, RULE) : [];
+const STORY = FAM ? storyOf(LS ? LS.chapters : [], FAM, [], { b: saidDate(p.born), d: saidDate(p.died) }, THREADS) : [];
+const STORYMODE = !LIVE && !!FAM && (!!LS || hasStory(STORY));
+const PID = String(p.id).replace(/@/g, "");
+/* a spouse is told in the record table: the story's stops hold no spouse. A living spouse is a name and nothing more (no date, no place). */
+const spouseLine = (r) => ({ name: displayName(r.name, { style: "titleCase" }), href: r.slug && hasPage.has(r.slug) ? u(`/people/${r.slug}/`) : "",
+  living: livingRow(r) || isLivingKit({ id: r.id || r.slug, born: canonDate(r.born), died: canonDate(r.died), ...ruleOf(r.born, r.died), saidLiving: r.living === true || undefined, citations: [] }, RULE),
+  married: r.marriedDate ? saidDate(r.marriedDate) : "", where: r.marriedPlace || "" });
+const SPOUSES = STORYMODE && !LS ? spouses.filter((r) => !heldOutRow(r)).map(spouseLine) : [];
 ---
 {LIVE ? (
 <Base title={p.name} noindex unstructured noautolink={true} ownHeader
@@ -281,8 +307,8 @@ const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidD
               registerHref={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}
               edgeLevel={false} directLine={directLine} storyHref={u("/story/")} now={RULE.now} sources={PS}>
 
-    {LS && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
-    {LS && (rootsLinks.people || []).includes(String(p.id).replace(/@/g, "")) && <Fragment slot="where"><PersonRootsViews pid={String(p.id).replace(/@/g, "")} u={u} /></Fragment>}
+    {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {STORYMODE && drawn.has(PID) && <Fragment slot="where"><PersonRootsViews pid={PID} u={u} /></Fragment>}
     {LS && <Fragment slot="lore"><PersonLore claims={LS.lore || []} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
 
     {/* THE CHART'S OWN NOTES: what the marks mean here, and the same name twice in one row */}
@@ -337,6 +363,9 @@ const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidD
         {occ.length > 0 && (
           <tr><th>Occupation</th><td>{occ.map((o) => (
             <div>{o.what}{o.where ? <span class="dim"> — {o.where}</span> : null}</div>))}</td></tr>)}
+        {SPOUSES.length > 0 && (
+          <tr><th>Married to</th><td>{SPOUSES.map((r, i) => (
+            <div>{r.href ? <a href={r.href}>{r.name}</a> : r.name}{!r.living && (r.married || r.where) && <span class="dim"> — {[r.married && `married ${r.married}`, r.where].filter(Boolean).join(", ")}</span>}</div>))}</td></tr>)}
         {p.family && <tr><th>Line</th><td><a href={u(`/${COPY[p.family] ? p.family : "families"}`)}>{p.surname}</a> · <a href={u(`/people/?fam=${p.family}`)}>everyone of the name →</a></td></tr>}
         {p.ahn && <tr><th>Ahnentafel</th><td class="mono">{p.ahn} — generation {p.gen}{p.gen === 1 ? "" : ", a direct ancestor of Hedviga"}</td></tr>}
         {(p.merged || []).length > 0 && (
