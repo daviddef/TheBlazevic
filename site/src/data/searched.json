@@ -589,7 +589,7 @@
      "The Same Person, Twice"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -804,7 +804,7 @@
    "missed": "",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -816,7 +816,7 @@
   {
    "src": "FamilySearch — Otočac deaths 1780–1836, the earlier book, read end to end",
    "key": "fs/otocac-deaths-1780",
-   "url": "/oto/",
+   "url": "/people/oto-blazevic/",
    "what": "Whether the Thomas Žubrinić the census leaves a widow for is in the parish's earlier death book",
    "when": "15 September 2026",
    "outcome": "yield",
@@ -831,7 +831,7 @@
    "missed": "**No house number for the 1808 man, and none is available.** The entry gives a name, an age, the sacraments and the priest. What would turn him from a candidate into an identification is the **1805 baptism of Paulus Žubrinić at Obilje**, naming his father and house — and Otočac births begin in 1834, marriages in 1859. Neither is in the digitised holdings, so FamilySearch has nothing further to offer on this man.\n\n**A claim this register had published, now retracted.** The earlier reading of 1828–36 said the pre-1828 years *give a name and an age and no house*, and that was the stated reason for leaving ninety images unread. It was generalised from images 227–250. The 1789 hand marks the village on nearly every entry.\n\n**Two sweep-scale readings that magnification reversed**, both recorded because either would have been published as a find. *Martha Xubrinich*, 20 March 1805, reads *an. 40* at page scale — born about 1765, a month after the Obilje Paulus, a tidy match for the census's Martha born 1767. At full resolution it is **an. 50**: born about 1755, and not that woman. And a January 1792 line reads as *Obijt Thomas Xubrinich et filia Matthia* — a dead Thomas. Enlarged, it is **genitive**: *Thomæ Xubrinich **filia** Matthia*, the daughter of a Thomas Žubrinić, dead two hours after a midwife's baptism. The opposite reading — a Thomas **alive** and fathering in 1792.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1043,7 +1043,7 @@
    "missed": "**No stone names anyone already in the tree, and that is the honest headline.** The direct line at Otočac dies before these memorials begin: ahnentafel 5 is buried at **Senj**, and ahnentafel 10, 20, 40 and 42 have no death date at all. Every dated stone here is later than the people this archive can name.\n\n**Nothing has been joined.** A gravestone is a memorial, not a register — carved by the living, often long afterwards, and wrong often enough to matter: the Senj stone in this archive gives Ljubomir's birth as **1891** where the register says **1892**. The Venceslav identification is an argument from a name, a town and an age, and it is labelled as one.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1096,7 +1096,7 @@
    "missed": "**The index's ARK points at the opening, not the row**, so each entry costs two or three crops to locate; the page the index calls *Mathias Žubrinić, 3 January 1855* has a **Marković** family in its sixth row. **Seven indexed Michael Žubrinić entries between 1847 and 1858 are still unread**, and with them the rest of the house map.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1352,7 +1352,7 @@
    "got": "**The tree's Lucca is not in the register, and this time the negative can be trusted.**\n\nWhen this was first noticed the objection was obvious: *the index may simply not cover 1853*. **It does.** Otočac Žubrinić entries by year —\n\n| 1851 | 1852 | **1853** | 1854 | 1855 |\n|---|---|---|---|---|\n| 15 | 8 | **13** | 9 | 11 |\n\n**1853 sits in the middle of its neighbours.** It is not a gap.\n\nAnd in that year there is **no Lucca and no Luce Žubrinić baptised at Otočac**, and **no child at all to a father called Nicolaus**. The only Lucia of 1853 is **Lucia *Kostelac***, daughter of Stephanus Kostelac and Barbara Žubrinić — a Žubrinić mother, not a Žubrinić child. The Žubrinić Lucias either side are **Luce, 30 June 1850**, to *Mio Žubrinić and Jele Orešković*, and **Lucia, 16 March 1855**, to *Jacobus Žubrinić and Martha*.\n\n**So the entry that would make ahnentafel 10 a father at nineteen has no register behind it.** The tree gives Tereza a sister Lucca born 1853 and dead in 1871; the parish that would have baptised her, in a year the index covers normally, did not.\n\n**Stated carefully:** an index is a finding aid, not a register, and a single missed page is always possible. But the density test is the thing that was missing in the morning, and it has now been run.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1377,7 +1377,7 @@
    "got": "**The index gives the image, and that is worth more than any single reading.** The search service is `/service/search/hr/v2/personas`, and each entry's payload carries **the image ARK** beside the child, the date and both parents — so an indexed baptism can be opened at the page without hunting a film for it. **No earlier sitting used this.**\n\nTwo cautions found the hard way: **`q.birthLikePlace` does not bind** — the place has to be filtered in hand on the string **«Otočac, Küstenland, Austria»** — and **every baptism is indexed twice**, once per parent role, so a raw count doubles.\n\n**276 Otočac Žubrinić entries, 1834–1862 — about 138 baptisms.** Normalising the index's own spelling scatter (*Zubrinić · Žubrinić · Xubrinić · Žubrinich · Zabrinić · Dubrinić · **Bubrinić***), the fathers run **Joannes ~22 · Michael ~23 · Matthaeus 7 · Franciscus 6 · Georgius 5 · Thomas 5 · Nicolaus 2**.\n\n**Michael's twenty-three are to at least eight different mothers** — Maria, Catharina, Magdalena, Helena, Maria Marković, Maria Rogić, Magdalena Draženović, Anna Bobinac, Maria Maković, Helena Orešković. **That is not one man; it is a village full of Michaels**, which is precisely the trap question 4d is about.\n\n**And a correction to this morning's plan.** The redirection assumed every baptism writes «e Šumećica N° X» into the *Conditio* column. **The 1834–1846 book does not** — its *Conditio* holds a single status word, checked at December 1839 and March 1845. The 1846–1858 book does. **The house numbers are readable for 1846–1858 and the first years of 1834, and not in between.**",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1473,7 +1473,7 @@
      "The Hungarian press"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -1513,7 +1513,7 @@
    "got": "**The house numbers were not reached. The map of the book was.**\n\nAnd it is the right instrument. A household census lists *Pagus, Domus, Nomina Familiæ* and birth dates together — a Žubrinić household whole instead of one baptism at a time — and it reaches back **a hundred and twenty-four years before the baptismal register begins.**\n\nThe last sitting wrote this census off as a **110-opening sweep with an unreadable village margin**. Both halves of that are now wrong. The *Pagus* is written **bottom-to-top** in the gutter, so a −90° rotation renders it upside down — **rotate +90° and it is plain**. Twenty-two openings surveyed that way give the village order of the whole census: *Ottosaz · Luka · Dubrava (Biskupljak) · Novoselia · Lieška · Kostelievo Selo · Obilje · Beljue · **Shumechicza** · Luka · **Extinctæ***.\n\n**Šumećica is images 102–106. Five openings — the whole village.** The job is no longer a sweep.\n\nRead at the page: **Domus 9, Josephus Dašović**, nine people, with *Anna uxor Petri nata Žunić*; **Domus 4, Mattheus Orehović**, fourteen, with *Martha uxor Georgii nata Orehović*. The **N° Domus numbers are not in order** — 9 on image 102, 4 on image 103 — so the book cannot be walked to a house number; all five openings have to be read.\n\n**And a negative worth stating.** No Žubrinić household has appeared at Šumećica in the openings read so far. Two of the five are unread, so this is **not** a finding — but the census carries births to **1846**, and ahnentafel 20 is *«Confiniarius, ex pago Shumechicza N° 24»* in **January 1834**. A man in the village then should be in a book current to 1846. The ***Extinctæ*** section at 108–109 is the second place to look.\n\nFamilySearch then refused the session: 403 on an ark fetched successfully minutes earlier, still 403 after forty seconds. **The block, not the blip.** The next sitting is three openings and then two — half an hour.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1542,7 +1542,7 @@
      "By-names"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1592,7 +1592,7 @@
      "The Hungarian press"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -1681,7 +1681,7 @@
    "got": "**She is the emptiest person on the direct line** — a name, two tree links, and nothing else. Her father is a **surname with no given name**; her mother **is not in the tree at all**.\n\n**The name is probably not her name.** MyHeritage carries her as *«Ana Shambul Marić»* and, elsewhere, *«rođen Shumbul Marić»*. This archive has seen that shape before: the **nadimak**, the household name written beside the surname and underlined by the priest — *Antich Papa*, *Jellichich dictis Jurešina*. **«Shumbul Marić» looks like a by-name flattened into a double surname by a tree program.** If so the surname to search is **Marić**, and **Šumbul** is the house name — the only thing separating this family from every other Marić in Lika. *(Hypothesis. It is deliberately not being added to the by-names data, which holds only phrases read off a page.)*\n\n**What is reachable, cheapest first.** The couple's children are Lucca (1853), Marija (about 15 Sept 1858), Jacobus and Tereza (1867); **Otočac births are filmed 1834–1858**. So **Lucca's and Marija's baptisms are both inside the book** — and the Otočac entries already read name the mother with her maiden surname and fix the household by village and **house number**. Then **Ana's own baptism**, about 1834–1838, which names **both her parents** — two walls in one entry. Then the **Stanje duša**, where a Marić household would appear with dates of birth for everyone in it.\n\n**What is not reachable, and is said so:** their **marriage** (by 1852; the Otočac marriage film begins 1859) and **Tereza's own baptism** of 1867 (the birth film stops at 1858).\n\n**And one thing to check before building on any of it:** Nikola was **nineteen** when Lucca was born. That is possible, and it is also the shape of a wrong attachment — the same confusion as the two men called Michaël in question 4d.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -1852,7 +1852,7 @@
      "Senj"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -2160,7 +2160,7 @@
    "got": "**Her own baptism at str. 122** — and a registrar's margin added in **1971** citing her death entry at page 280, line 37. A parish clerk closed the loop eighty-five years later and left the reference behind for us.\n\n**Her eight siblings' baptisms are attached in the tree as images and none has been read.**\n\n**Re-read at full resolution on 16 October 2026** and kept as a snapshot: [senj-birth-1886-milka-lucia-papic](/snapshots/#senj-birth-1886-milka-lucia-papic) — image 140 of the Senj births 1878–1894 (waypoint 9R2D-JWL). Born 9 and baptised 17 October; the FamilySearch index has them as 9 and 17 *November* (it reads *listopada* as November).",
    "ev": [
     [
-     "/milka/",
+     "/people/milka-lucia-papic/",
      "Milka"
     ]
    ]
@@ -2244,7 +2244,7 @@
    "got": "**Nicolaus, 1834, at Šumećica 24, *Confiniarius*** — and a **Josephus in 1845 whose mother is née Marković where the 1834 mother is née Orešković.** Five Frontier offices came out of the godparent columns of two pages.\n\nThe two mothers are the whole of question 4d: **one Michaël Žubrinić with two wives, or two men of the same name.** The books that would settle it — Otočac marriages before 1834, and deaths 1834–45 — are unopened.",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ],
     [
@@ -2267,7 +2267,7 @@
    "got": "Images 129–147 verified against their printed pages — pag. 10 is 1862, pag. 18 is 1865. **One entry read out in full and deliberately not claimed.** On 14 September the identification was revised *down*: the 1859 marriage is now **less** likely to be his, and the note says so rather than quietly dropping it.\n\nThe register has no column this archive wanted: **it does not give the fathers' villages.**",
    "ev": [
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -2563,7 +2563,7 @@
      "America"
     ],
     [
-     "/oto/",
+     "/people/oto-blazevic/",
      "Otočac"
     ]
    ]
@@ -2681,7 +2681,7 @@
    "got": "**An entire country known from two words on a later record.** No route into it has been identified yet, which is a different thing from having searched and found nothing — and this row exists so the difference stays visible.",
    "ev": [
     [
-     "/hedviga/",
+     "/people/hedviga-blazevic/",
      "Hedviga"
     ],
     [
