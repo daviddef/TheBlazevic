@@ -54,6 +54,17 @@ def atlas_path():
 def gdate(v):
     v = "" if v is None else str(v).strip()
     return v
+def husband_wife(p, other_id):
+    """The husband and wife slots of a family, the same whichever of the two is being read. A recorded M is the husband, a recorded F the wife; a couple where
+    the record holds no sex for either (or neither is decisive) is ordered by id, so it is ONE family, not two. The slot says nothing about anybody's sex."""
+    a, b = p["id"], other_id
+    sa, sb = p.get("sex"), (people_by_id.get(other_id) or [{}])[0].get("sex")
+    if sa == "M" and sb != "M": return a, b
+    if sb == "M" and sa != "M": return b, a
+    if sa == "F" and sb != "F": return b, a
+    if sb == "F" and sa != "F": return a, b
+    return (a, b) if a <= b else (b, a)
+
 def write_ged(people, path):
     ids = {p["id"] for p in people}
     out = ["0 HEAD", "1 CHAR UTF-8"]
@@ -67,16 +78,17 @@ def write_ged(people, path):
         sex = {r["id"]: next((q["sex"] for q in people_by_id.get(r["id"], [])), "") for r in par}
         f = next((r["id"] for r in par if sex.get(r["id"]) == "M"), None)
         m = next((r["id"] for r in par if sex.get(r["id"]) == "F"), None)
-        if not (f or m) and par:  # a parent of unrecorded sex: first is the father, second the mother, as the tree lists them
-            f = par[0]["id"]; m = par[1]["id"] if len(par) > 1 else None
+        unk = [r["id"] for r in par if sex.get(r["id"]) not in ("M", "F")]   # a parent whose sex the record does not hold fills the slot that is empty, in the order the tree lists them; the slot says nothing about sex
+        if not f and unk: f = unk.pop(0)
+        if not m and unk: m = unk.pop(0)
         if f or m: fam_of_child[p["id"]] = fam(f, m)
         for s in (p.get("rel") or {}).get("spouses", []):
             if s.get("id") in ids:
-                a, b = (p["id"], s["id"]) if p.get("sex") == "M" else (s["id"], p["id"])
+                a, b = husband_wife(p, s["id"])
                 k = fam(a, b)
                 if k not in fam_of_spouse[p["id"]]: fam_of_spouse[p["id"]].append(k)
     for p in people:
-        out += ["0 %s INDI" % p["id"], "1 NAME %s /%s/" % (p.get("given") or "", p.get("surname") or ""), "1 SEX %s" % (p.get("sex") or "M")]
+        out += ["0 %s INDI" % p["id"], "1 NAME %s /%s/" % (p.get("given") or "", p.get("surname") or ""), "1 SEX %s" % (p.get("sex") if p.get("sex") in ("M", "F") else "U")]   # never inferred from a name: no recorded sex is U
         if p.get("born") or p.get("bornPlace") or p.get("byear"):
             out.append("1 BIRT"); out.append("2 DATE %s" % gdate(p.get("born") or p.get("byear")))
             if p.get("bornPlace"): out.append("2 PLAC %s" % p["bornPlace"])
