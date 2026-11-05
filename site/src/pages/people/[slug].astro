@@ -3,7 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people, lifespan } from "../../lib/people.js";
 import { COPY } from "../../lib/familyCopy.js";
-import { md } from "@daviddef/archive-kit/lib/md.js";
+import { md, mdNote } from "@daviddef/archive-kit/lib/md.js";
 import corrections from "../../data/corrections.json";
 import media from "../../data/media.json";
 import latin from "../../data/latincases.json";
@@ -27,7 +27,11 @@ import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro"
 import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import PS from "@daviddef/archive-kit/data/public-sources.json";
-import { isLiving as isLivingKit, isHeldOut, lifespan as kitLifespan } from "@daviddef/archive-kit/lib/person.js";
+import { isLiving as isLivingKit, isHeldOut, lifespan as kitLifespan, displayName } from "@daviddef/archive-kit/lib/person.js";
+import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
+import PersonLore from "@daviddef/archive-kit/components/PersonLore.astro";
+import { storyOf, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
+import { STORIES } from "../../lib/lifeStories.js";
 import directLine from "../../data/direct-line.json";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: the kit's PersonPage draws a living person as a name, a relationship,
@@ -235,6 +239,32 @@ const nNoPage = allRel.filter((r) => !r.living && !r.slug).length;
 const counted = allRel.filter((r) => !r.living && r.slug);
 const nEvidenced = counted.filter((r) => ["read", "scanned"].includes(stateOf(r))).length;
 const LEDE = LIVE ? "" : p.ahn ? `A direct ancestor of Hedviga: generation ${p.gen}, ahnentafel ${p.ahn}.` : (p.bornPlace ? `Born at ${p.bornPlace.split(",")[0]}.` : "");
+
+/* STORY MODE (people pages v2): a person whose life is told in full (src/lib/lifeStories.js, hand-written prose that used to be a page of its own) is drawn
+   as the kit's timeline, whose first stop, «Where they came from», is the family, and not as a chart. The family comes from the same relatives the chart
+   would draw, under the same living rule: a living relative is a name and a relationship and nothing else. */
+const LS = !LIVE && STORIES[p.slug] ? STORIES[p.slug](u) : null;
+const bySlug = new Map(people.map((q) => [q.slug, q]));
+const hasPage = new Set([...bySlug.keys(), ...living.map((q) => q.slug)]);
+const card = (r, relName) => {
+  const living = r.living === true || isLivingKit({ id: r.id || r.slug, born: canonDate(r.born), died: canonDate(r.died), ...ruleOf(r.born, r.died), saidLiving: r.living === true || undefined, citations: [] }, RULE);
+  const b = r.born != null && r.born !== "" ? String(r.born) : "", d = r.died != null && r.died !== "" ? String(r.died) : "";
+  return { id: r.id || r.slug, rel: relName, living, name: displayName(r.name, { style: "titleCase" }), place: "",
+    dates: living ? "" : d ? `${b || "?"} – ${d}` : b ? `${b} –` : "", href: r.slug && hasPage.has(r.slug) ? u(`/people/${r.slug}/`) : "" };
+};
+const parentCards = (rows, sexNames) => rows.map((r, i) => card(r, sexNames[(bySlug.get(r.slug) || {}).sex] || sexNames[i === 0 ? "M" : "F"]));
+const FAM = LS ? (() => {
+  const par = parents.map((r) => ({ r, q: bySlug.get(r.slug) }));
+  const grand = [];
+  for (const { r, q } of par) {
+    const side = q && q.sex === "F" ? "Mother's" : "Father's";
+    const gp = (q && q.rel && q.rel.parents) || [];
+    gp.forEach((g, i) => grand.push(card(g, `${side} ${(bySlug.get(g.slug) || {}).sex === "F" || (!bySlug.get(g.slug) && i === 1) ? "mother" : "father"}`)));
+  }
+  return { parents: parentCards(parents, { M: "Father", F: "Mother" }), grand, hasGrand: grand.length > 0,
+           siblings: siblings.map((r) => card(r, "Brother or sister")), children: children.map((r) => card(r, "Child")), spouses: [] };
+})() : null;
+const STORY = LS ? storyOf(LS.chapters, FAM, [], { b: saidDate(p.born), d: saidDate(p.died) }, []) : [];
 ---
 {LIVE ? (
 <Base title={p.name} noindex unstructured noautolink={true} ownHeader
@@ -245,9 +275,12 @@ const LEDE = LIVE ? "" : p.ahn ? `A direct ancestor of Hedviga: generation ${p.g
 ) : (
 <Base title={p.name} noautolink ownHeader
       dek={[kitLifespan(kitDates.born, kitDates.died, { years: false }), DIED_NO_DATE && LATE ? "died, date not recorded" : "", p.bornPlace].filter(Boolean).join(" · ") || undefined}>
-  <PersonPage person={KPERSON} lede={LEDE} peopleHref={u("/people/")}
+  <PersonPage person={KPERSON} lede={LS ? LS.lede : LEDE} peopleHref={u("/people/")}
               registerHref={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}
               edgeLevel={false} directLine={directLine} storyHref={u("/story/")} now={RULE.now} sources={PS}>
+
+    {LS && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {LS && <Fragment slot="lore"><PersonLore claims={LS.lore} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
 
     {/* THE CHART'S OWN NOTES: what the marks mean here, and the same name twice in one row */}
     <Fragment slot="chart-notes">
@@ -413,7 +446,19 @@ const LEDE = LIVE ? "" : p.ahn ? `A direct ancestor of Hedviga: generation ${p.g
       </Fragment>
     )}
 
-    {mine.length > 0 && (
+    {LS && LS.photos && (
+      <Fragment slot="media">
+        <p class="dek" set:html={md(LS.photosDek)}></p>
+        <div class="photos">
+          {LS.photos.map((ph) => (
+            <figure><img src={u(ph.src)} loading="lazy" alt={ph.alt} /><figcaption set:html={ph.cap}></figcaption></figure>
+          ))}
+          {LS.withheld.map((w) => (<figure><figcaption set:html={w}></figcaption></figure>))}
+        </div>
+        <p class="note" set:html={LS.photosNote}></p>
+      </Fragment>
+    )}
+    {!LS && mine.length > 0 && (
       <Fragment slot="media">
         <p class="dek">{mine.filter((m) => m.kind === "document").length} document{
           mine.filter((m) => m.kind === "document").length === 1 ? "" : "s"} and {
@@ -494,7 +539,7 @@ const LEDE = LIVE ? "" : p.ahn ? `A direct ancestor of Hedviga: generation ${p.g
                       ? <span>It is the <strong>only</strong> parent this record has, so nothing documented
                         attaches this person to anyone.</span>
                       : <span>The other parent is a real record.</span>}</span>
-                  : <span>Every route from <a href={u("/hedviga/")}>Hedviga</a> to this person passes
+                  : <span>Every route from <a href={u("/people/hedviga-blazevic/")}>Hedviga</a> to this person passes
                     through a <strong>sorting label</strong> — a working note sitting where an ancestor
                     should be.</span>}
                 {" "}This is not a claim that the person is invented; the register entries behind them are

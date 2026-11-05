@@ -25,7 +25,9 @@ for (const m of merged) {
    has been published, so it redirects rather than 404s. */
 const redirects = { ...mergedRedirects, '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/`,
   /* 9 October 2026: folded into /errands/, which is the same subject. */
-  '/photograph-these': `${BASE}/errands/#photographs` };
+  '/photograph-these': `${BASE}/errands/#photographs`,
+  /* 5 November 2026: Hedviga's own page is her person page, in story mode (src/lib/lifeStories.js). */
+  '/hedviga': `${BASE}/people/hedviga-blazevic/` };
 
 export default defineConfig({
   site: 'https://blazevic.defranceski.com',
