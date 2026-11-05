@@ -169,10 +169,22 @@ def build(a):
         if p["page"] is None: p.pop("page")
     t["lines"] = [{"sur": f["label"], "host": HOST} for f in top] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Family line", "lineLabel": "Family line"})
+    mark_relative_places(t, people)
     drop_conflicts(t, tree)
     keep_death_place(t, people)
     add_routes(t, people)
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
+
+def mark_relative_places(t, people):
+    """The converter puts a person whose own birth place it cannot resolve (none recorded, or a string the place map does not place) at a relative's birth place, and
+    says so only in its report (placed_from_relative). The page can say it on the card (`bpe`: «place taken from a relative, not recorded», and an asterisk), so it does:
+    every person whose drawn birth place is not the place their own record names gets it."""
+    pm = jl(os.path.join(OUT, "place_map.json"))
+    own = {p["id"].strip("@"): (pm.get(p["bornPlace"]) or {}).get("name") if p.get("bornPlace") else None for p in people}
+    n = 0
+    for p in t["people"]:
+        if own.get(p["id"]) != p["bp"]: p["bpe"] = True; n += 1
+    print("relative's place: %d people are drawn at a relative's birth place and marked so on the page" % n)
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in tree.report.json (conflicts) for the
