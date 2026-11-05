@@ -22,7 +22,7 @@ python3 tools/build-tree-page.py --check           # exit 1 if the page is older
 ```
 
 Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Projects/Record Atlas`), read only. The skill's scripts are vendored in
-`tools/tree-page/` (the family-tree-page skill, template 1.6.0), so CI and other sessions do not depend on `~/.claude`.
+`tools/tree-page/` (the family-tree-page skill, template 1.7.0), so CI and other sessions do not depend on `~/.claude`.
 
 ## What is and is not on the page
 
@@ -32,7 +32,9 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   Record Atlas catalogue's to say; nothing here lists them.
 - **Places are never guessed.** 911 place strings come from `data/era-ground.tsv` (the town and point decided for each string as printed, with country from the
   Atlas's `geo.country_of` on the point); 21 from `place-additions.json`; the rest the Atlas names uniquely. A string that is more than one place, or names a
-  country only, stays unresolved: the person is drawn at a relative's birth place (1,855 people, said on the page) or, with no relative placed, not drawn (307).
+  country only, stays unresolved: the person is drawn at a relative's birth place (1,855 people, each marked `bpe` so the card carries an asterisk and the profile says "place taken from a relative, not recorded") or, with no relative placed, not drawn (307).
+- **Sex is what the record holds.** `people.json` holds M, F or U (29 drawn people are U); the adapter writes U wherever there is no recorded sex and never infers one
+  from a name or from the order two parents are listed. The viewer then says parent, child, spouse, sibling, "uncle or aunt" for them.
 - **Estimated years are flagged**: "c. 1809" is a birth estimated from a parent, child or spouse; "1809–?" is a death not recorded.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed in `tree.report.json` under `conflicts`.
 - **The death place is the place the record states.** The converter takes a later residence as the death place; `keep_death_place` puts the recorded one back.
