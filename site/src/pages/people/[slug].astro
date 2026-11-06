@@ -31,6 +31,8 @@ import { isLiving as isLivingKit, isHeldOut as isHeldOutKit, lifespan as kitLife
 import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
 import PersonLore from "@daviddef/archive-kit/components/PersonLore.astro";
 import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
+import PersonLooked from "@daviddef/archive-kit/components/PersonLooked.astro";
+import { lookedFor, OUTCOMES as LOOKED_OUTCOMES } from "../../lib/looked.js";
 import { storyOf, hasStory, ancestryOf, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
 import { STORIES } from "../../lib/lifeStories.js";
 import { bySlug, hasPage, livingSlugs, drawn, TREE_BY, gedYear } from "../../lib/storyFamily.js";
@@ -288,6 +290,10 @@ const THREADS = FAM && !LS && TREE_BY[p.id] ? ancestryOf(TREE_BY, p.id, null, RU
 const STORY = FAM ? storyOf(LS ? LS.chapters : [], FAM, [], { b: saidDate(p.born), d: saidDate(p.died) }, THREADS) : [];
 const STORYMODE = !LIVE && !!FAM && (!!LS || hasStory(STORY));
 const PID = String(p.id).replace(/@/g, "");
+/* WHERE WE HAVE LOOKED (kit #looked, 5 November 2026): the searches in the search register made for this person's surname family at their places, by tag and never
+   by person, and the volumes the Record Atlas lists there that nobody has opened for the name. Story mode only and never a living person's page; null (no section)
+   unless a search or a place held matches. How the rows are matched, and what is left out, is the header of tools/build_looked.py. */
+const LOOKED = STORYMODE ? lookedFor(p) : null;
 /* a spouse is told in the record table: the story's stops hold no spouse. A living spouse is a name and nothing more (no date, no place). */
 const spouseLine = (r) => ({ name: displayName(r.name, { style: "titleCase" }), href: r.slug && hasPage.has(r.slug) ? u(`/people/${r.slug}/`) : "",
   living: livingRow(r) || isLivingKit({ id: r.id || r.slug, born: canonDate(r.born), died: canonDate(r.died), ...ruleOf(r.born, r.died), saidLiving: r.living === true || undefined, citations: [] }, RULE),
@@ -309,6 +315,7 @@ const SPOUSES = STORYMODE && !LS ? spouses.filter((r) => !heldOutRow(r)).map(spo
 
     {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => mdNote(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
     {STORYMODE && drawn.has(PID) && <Fragment slot="where"><PersonRootsViews pid={PID} u={u} /></Fragment>}
+    {LOOKED && <Fragment slot="looked"><PersonLooked rows={LOOKED.rows} places={LOOKED.places} names={LOOKED.names} span={LOOKED.span} outcomes={LOOKED_OUTCOMES} cap={8} u={u} moreHref="/searched/" moreLabel="the search register" /></Fragment>}
     {LS && <Fragment slot="lore"><PersonLore claims={LS.lore || []} u={u} md={(x) => mdNote(x)} dek={LS.loreDek} /></Fragment>}
 
     {/* THE CHART'S OWN NOTES: what the marks mean here, and the same name twice in one row */}
