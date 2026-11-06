@@ -1,0 +1,4601 @@
+{
+"_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
+"built": "2026-11-07",
+"catalogueBuilt": "2026-11-05",
+"inputs": {
+"site/src/data/searched.json": "0e66dc4931b40904",
+"site/src/data/people.json": "4bd1d3053e68446a",
+"site/src/data/families.json": "73c8a9ff2b7b8892",
+"site/src/data/living.json": "347436be3b469fca",
+"data/tree-page/atlas-data.json": "b3ca46064c07a647",
+"data/tree-page/place_map.json": "eaa79ba0b7913a00"
+},
+"surnameKey": {
+"antic": "antic",
+"babic": "babic",
+"bacchi": "bacchi",
+"blazevic": "blazevic",
+"boras": "boras",
+"boric": "boric",
+"butkovic": "butkovic",
+"codron": "codron",
+"gerkacs": "gerkacs",
+"jellicic": "jellicic",
+"kalanj": "kalanj",
+"kraljich": "kraljich",
+"krmpotic": "krmpotic",
+"loncaric": "loncaric",
+"loncarich": "loncaric",
+"luckinic": "luckinic",
+"maric": "maric",
+"marich": "maric",
+"murphy": "murphy",
+"oreskovic": "oreskovic",
+"papic": "papic",
+"papich": "papic",
+"pavelic": "pavelic",
+"pavelich": "pavelic",
+"perpic": "prpic",
+"perpich": "prpic",
+"pilipic": "pilipic",
+"prpic": "prpic",
+"smojver": "smojver",
+"sojat": "sojat",
+"spalj": "spalj",
+"tomljanovic": "tomljanovic",
+"uroda": "uroda",
+"vukelic": "vukelic",
+"xubrinich": "zubrinic",
+"zubrinic": "zubrinic",
+"zubrinich": "zubrinic"
+},
+"labels": {
+"antic": "Antić",
+"babic": "Babić",
+"bacchi": "Bacchi",
+"blazevic": "Blažević",
+"boras": "Boras",
+"boric": "Boric",
+"butkovic": "Butković",
+"codron": "Codron",
+"gerkacs": "Gerkacs",
+"jellicic": "Jelličić",
+"kalanj": "Kalanj",
+"kraljich": "Kraljich",
+"krmpotic": "Krmpotić",
+"loncaric": "Lončarić",
+"luckinic": "Luckinić",
+"maric": "Marić",
+"murphy": "Murphy",
+"oreskovic": "Orešković",
+"papic": "Papić",
+"pavelic": "Pavelić",
+"pilipic": "Pilipić",
+"prpic": "Prpić",
+"smojver": "Smojver",
+"sojat": "Šojat",
+"spalj": "Špalj",
+"tomljanovic": "Tomljanović",
+"uroda": "Uroda",
+"vukelic": "Vukelić",
+"zubrinic": "Žubrinić"
+},
+"placeAlias": {
+"krmpotevodice": "krmpote"
+},
+"rows": [
+{
+"id": 264,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 1–113, 1694 – February 1751: the whole stretch read for a Gerkacs/Gergacs baptism",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Whether the Karlobag Gerkacs (Nicolaus b. c.1717; Antonius b. 1748 or earlier) was baptised at Karlobag before Feb 1751",
+"when": "25 Oct 2026",
+"ord": 20261025,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S3-T?cc=2040054",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"gerkacs": [
+"covered"
+]
+}
+},
+{
+"id": 271,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 114–176, February 1751 – December 1770 (the end of the book), read for a Gerkacs/Gergach; one hit, 9 August 1753 (image 118)",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Whether a Gerkacs/Gergach child of a Nicolaus is baptised at Karlobag after Feb 1751, and when the family first appears",
+"when": "25 Oct 2026",
+"ord": 20261025,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SN-Z?cc=2040054",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 272,
+"src": "FamilySearch",
+"volume": "Šibenik cathedral (S. Jacobi) births 1737–1812 (waypoint 9R2D-MNY), images 222–226, June – October 1762: the baptism named by the Karlobag slip (Mihat Gargay alias Bazetich)",
+"years": "1737–1812",
+"span": [
+1737,
+1812
+],
+"what": "Whether the Michael «Gargay» of the Karlobag slip of 12 Sept 1762 was baptised at the Šibenik cathedral",
+"when": "25 Oct 2026",
+"ord": 20261025,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-RWDT?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 273,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), list positions 280–298, January 1741 – August 1766: read for a Gergach/Gerkacs marriage (Mikula × Marda); one hit, 29 June 1766",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "Whether Mikula (Nicolaus) Gergach married Marda at Karlobag before the baptism of Lovro (Aug 1753)",
+"when": "25 Oct 2026",
+"ord": 20261025,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G3FK?cc=2040054",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 270,
+"src": "FamilySearch",
+"volume": "Mrežnica births 1718–1761 (waypoint 9R2M-C6D), images 30–139, March 1721 – autumn 1735, read at full size for Jargat/Gergacz and any Nicolaus",
+"years": "1718–1761",
+"span": [
+1718,
+1761
+],
+"what": "Whether a Nicolaus Jargat/Gergacz, or a child of one, is in the Mrežnica births of 1721-35",
+"when": "19 Oct 2026",
+"ord": 20261019,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-P44N?cc=2040054",
+"volumes": []
+},
+{
+"id": 258,
+"src": "FamilySearch",
+"volume": "Mrežnica births 1728–1761 and 1762–1789 (waypoint 9R2M-C6D): the two Gergacz entries and a read of 1759–1762 for a Nicolaus's children",
+"years": "1728–1789",
+"span": [
+1728,
+1789
+],
+"what": "Whether the Mrežnica Nicolaus Gergacz (children 1740, 1745) is the Karlobag Nicolaus Gerkacs's family: more children, Antonius or Michael",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCJX?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 259,
+"src": "FamilySearch",
+"volume": "Mrežnica marriages 1726–1761 (waypoint 9R2M-C6D), images 346–416: a read for a Gergacz marriage, January 1726 to October 1761 (the whole book)",
+"years": "1726–1761",
+"span": [
+1726,
+1761
+],
+"what": "The marriage of the Mrežnica Nicolaus Gergacz and Margarita (children 1740, 1745), and any Gergacz marriage",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PCMD?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 260,
+"src": "FamilySearch",
+"volume": "Mrežnica deaths 1726–1759 (waypoint 9R2M-C6D), images 419–469: the whole book as filmed, January 1728 to April 1759",
+"years": "1726–1759",
+"span": [
+1726,
+1759
+],
+"what": "Whether and when the Mrežnica Nicolaus Gergacz (or a Margarita Gergacz) died at Mrežnica",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCJX?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 261,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (waypoint 9RK1-HZK), images 301–304: Antonius Gergacs's marriage of 26 November 1769",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "Where Nicolaus Gerkacs's family came from: the earliest Gergacs document at Karlobag",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G3ZT?cc=2040054",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 262,
+"src": "FamilySearch",
+"volume": "Mrežnica births 1728–1761 (waypoint 9R2M-C6D), images 140–215: December 1735 to July 1745, every page, for a child of a Nicolaus Gergacz (Antonius or any other)",
+"years": "1728–1761",
+"span": [
+1728,
+1761
+],
+"what": "Whether an Antonius (b. about 1748 or earlier, the groom of Karlobag 1769) or any other child of a Nicolaus Gergacz was baptised at Mrežnica before Anna's baptism of July 1745",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCFW?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 263,
+"src": "FamilySearch index and Mrežnica births (waypoint 9R2M-C6D), images 7–12: the surname «Jargat» at Mrežnica 1704–1723…",
+"volume": "",
+"years": "1704–1723",
+"span": [
+1704,
+1723
+],
+"what": "Whether the Mrežnica Gergacz family has an older form of the surname, and whether a Nicolaus b. about 1717-18 is on film",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-P4GQ?cc=2040054",
+"volumes": []
+},
+{
+"id": 265,
+"src": "FamilySearch",
+"volume": "Mrežnica births 1762–1774 (waypoint 9R2M-C6D), images 579–588: the end of the book as filmed",
+"years": "1762–1774",
+"span": [
+1762,
+1774
+],
+"what": "Whether misbound pages of October 1761 - April 1762 sit at the end of the 1762-1789 births book",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PHY3?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 266,
+"src": "FamilySearch index",
+"volume": "every Jargat / Jargath / Gergach / Gergacz / Gergath record with a Mrežnica event, twelve exact spellings (collection 2040054)",
+"years": "",
+"span": null,
+"what": "Whether the Mrežnica Jargat and Gergach/Gergacz are one surname, and who is a Nicolaus",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 267,
+"src": "FamilySearch",
+"volume": "Mrežnica marriages 1726–1761 (waypoint 9R2M-C6D), images 346–416, the whole book re-read for the Jargat spelling",
+"years": "1726–1761",
+"span": [
+1726,
+1761
+],
+"what": "Whether a Nicolaus Jargat/Gergacz married a Margarita before Nov 1740; where Jargat marriages stand in the book",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "yield",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PCML?cc=2040054",
+"volumes": []
+},
+{
+"id": 268,
+"src": "FamilySearch",
+"volume": "Mrežnica deaths 1728–1759 (waypoint 9R2M-C6D), images 419–469, the whole book re-read for the Jargat spelling",
+"years": "1728–1759",
+"span": [
+1728,
+1759
+],
+"what": "Whether a Nicolaus Jargat/Gergacz or a Margarita Jargat/Gergacz died at Mrežnica 1728-1759",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PCJX?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 269,
+"src": "FamilySearch",
+"volume": "Mrežnica births 1728–1761 (waypoint 9R2M-C6D), images 216–344, August 1745 – December 1761, re-read for the Jargat spelling",
+"years": "1728–1761",
+"span": [
+1728,
+1761
+],
+"what": "Whether a Nicolaus Jargat/Gergach/Gergacz fathers any child at Mrežnica after July 1745",
+"when": "18 Oct 2026",
+"ord": 20261018,
+"outcome": "nothing",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PCRV?cc=2040054",
+"volumes": [],
+"nil": {
+"gerkacs": [
+"unknown"
+]
+}
+},
+{
+"id": 237,
+"src": "FamilySearch index",
+"volume": "Krivi Put births and burials, Pavelić, Krmpotić and neighbours",
+"years": "",
+"span": null,
+"what": "Index hits for Krivi Put (the Mrzli Dol parish) for Pavelić, Krmpotić, Špalj and Blažević in all roles (Krmpotić mother-role part only); Tomljanović and Babić not reached",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"krmpotic",
+"pavelic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 238,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858, the cathedral book, one spread of 1837",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Ante Babić's baptism, 1837 (the one entry of eight siblings the index lacked)",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"babic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51B9?cc=2040054",
+"volumes": [
+"9R2M-L27"
+]
+},
+{
+"id": 239,
+"src": "FamilySearch index",
+"volume": "Karlobag baptisms to Michael Gergacs and Lucia, 1780–1815",
+"years": "1780–1815",
+"span": [
+1780,
+1815
+],
+"what": "Baptisms with father surname Gergacs/Gerkacs/Gerkacz/Jerkacs at Karlobag: whether one Lucia or two bore Michael's children",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"tomljanovic",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 240,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649), January 1789 to March 1801",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "Whether Michael Gergacs (b. 1762) married again between 1789 and 1801; images 330–346, both pages, groom names read",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"tomljanovic",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 241,
+"src": "FamilySearch",
+"volume": "Karlobag deaths (Umrli) 1774–1804, January 1788 to January 1801",
+"years": "1774–1804",
+"span": [
+1774,
+1804
+],
+"what": "Whether a wife of Michael Gergacs died before 1809, which would mean a second Lucia; images 384–405, both pages, names read",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "nothing",
+"surnames": [
+"tomljanovic",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054",
+"volumes": [
+"9RK1-HZK"
+],
+"nil": {
+"tomljanovic": [
+"unknown"
+],
+"uroda": [
+"unknown"
+]
+}
+},
+{
+"id": 242,
+"src": "FamilySearch index",
+"volume": "Gergacs/Gerkacs baptisms 1735–1770 with a father Nicolaus, anywhere",
+"years": "1735–1770",
+"span": [
+1735,
+1770
+],
+"what": "Where Nicolaus Gerkacs (ahnentafel 220, b. about 1717, d. 1783 at Karlobag) came from: eleven spellings, fathers Nicolaus, children Antonius or Michael",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"gerkacs"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 243,
+"src": "FamilySearch",
+"volume": "Karlobag marriages, image 232 (1809)",
+"years": "",
+"span": null,
+"what": "Whether Michael Gergacs remarried after Lucia's death on 19 September 1809",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"tomljanovic",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-GJ9?cc=2040054",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 244,
+"src": "FamilySearch index",
+"volume": "Otočac baptisms 1832–1846, Žubrinić fathers named Michael",
+"years": "1832–1846",
+"span": [
+1832,
+1846
+],
+"what": "Who bore the children of Michael Žubrinić (b. 1793) born after his wife Maria died in 1831",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 245,
+"src": "FamilySearch",
+"volume": "Otočac births 1834–1846, two entries (1836 and 1841) for Michael Žubrinić and Catharina",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "Whether the Michael Žubrinić with a wife Catharina (index) is the tree's Michael b. 1793, and who his later children's mother was",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G5KN?cc=2040054",
+"volumes": [
+"9RK1-N3B"
+]
+},
+{
+"id": 246,
+"src": "FamilySearch",
+"volume": "Otočac deaths 1780–1836 (DGS 5498269), April 1831",
+"years": "1780–1836",
+"span": [
+1780,
+1836
+],
+"what": "Whether the tree's Maria (wife of Michael Žubrinić b. 1793) died in 1831 and where; the marriage of Michael and Catharina is not on film (Otočac marriages on film begin 1859)",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-MQHT?cc=2040054",
+"volumes": [
+"9R2D-16X"
+]
+},
+{
+"id": 247,
+"src": "FamilySearch index",
+"volume": "Boraš (all spellings) births 1853–1912 and the page of the Senj baptism of 2 November 1888",
+"years": "1853–1912",
+"span": [
+1853,
+1912
+],
+"what": "Who bore the children of Joannes Ivan Boraš (b. 1855, Senj); and a Kraljić mother in the tree born 1809",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"boras",
+"kraljich"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": [
+"9R2D-JWL"
+]
+},
+{
+"id": 248,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 and marriages 1880: Antun Krmpotić",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Antun Krmpotić's own baptism and parents; the index search under the exact spelling Krmpotić had missed him (Kermpotić)",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"krmpotic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-R8DL?cc=2040054",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 249,
+"src": "FamilySearch index",
+"volume": "Daniel Špalj (ten spellings), baptisms 1815–1845 and his children at Senj",
+"years": "1815–1845",
+"span": [
+1815,
+1845
+],
+"what": "Daniel Špalj's own baptism and marriage; his children at Senj",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"spalj"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 251,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858 (waypoint 9R2M-L27): a year-to-image map",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Where 1807–1820 (and every year to 1858) sits among the 589 images, for the Kraljić search and later Senj work",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "nothing",
+"surnames": [
+"kraljich"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51B9?cc=2040054",
+"volumes": [
+"9R2M-L27"
+],
+"nil": {
+"kraljich": [
+"unknown"
+]
+}
+},
+{
+"id": 252,
+"src": "FamilySearch",
+"volume": "Otočac Church Census (Stanje duša) 1710–1846, image 76: the Kraljich household, house No. 40",
+"years": "1710–1846",
+"span": [
+1710,
+1846
+],
+"what": "The Kraljić brothers of 1807–1817 (Nicolaus, Matthaeus, Stephanus), sons of the late Jacobus",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"kraljich",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
+"volumes": [
+"9R2D-16X"
+]
+},
+{
+"id": 253,
+"src": "FamilySearch",
+"volume": "Otočac Church Census (Stanje duša) 1710–1846, image 86: house No. 53, where Nicolaus Kraljić was adopted",
+"years": "1710–1846",
+"span": [
+1710,
+1846
+],
+"what": "The house the Kraljić brothers were carried to (No. 53), and Nicolaus's wife and children",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"kraljich",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-M3D1?cc=2040054",
+"volumes": [
+"9R2D-16X"
+]
+},
+{
+"id": 254,
+"src": "FamilySearch",
+"volume": "Otočac Deaths 1780–1836 (the census film), images 264–266: the 1821 burials of Maria and Jacobus Kralich",
+"years": "1780–1836",
+"span": [
+1780,
+1836
+],
+"what": "Jacobus Kraljić's burial, between Stephanus's conception (late 1816) and the census",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"kraljich"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-M3PL?cc=2040054",
+"volumes": [
+"9R2D-16X"
+]
+},
+{
+"id": 255,
+"src": "FamilySearch",
+"volume": "Otočac births 1834–1846, the spread of April–May 1836: Georgius Kraljich, Prozor No. 40",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "Nicolaus Kraljić's wife and house",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "yield",
+"surnames": [
+"kraljich",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G5YB?cc=2040054",
+"volumes": [
+"9RK1-N3B"
+]
+},
+{
+"id": 256,
+"src": "FamilySearch",
+"volume": "Otočac Deaths 1834–1858, the 1843 entry of Anna, wife of Nicolaus Kraljić, and a name-column scan of 1843–1858 for his own",
+"years": "1834–1858",
+"span": [
+1834,
+1858
+],
+"what": "Nicolaus Kraljić's death at Prozor No. 40",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "partial",
+"surnames": [
+"kraljich",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PVRM?cc=2040054",
+"volumes": [
+"9RK1-Y4C"
+]
+},
+{
+"id": 257,
+"src": "FamilySearch",
+"volume": "Otočac Deaths 1859–1872 (item 4 of the census film), images 336–379: a scan for Nicolaus Kraljić",
+"years": "1859–1872",
+"span": [
+1859,
+1872
+],
+"what": "Nicolaus Kraljić's death, 1859 to the end of the book",
+"when": "17 Oct 2026",
+"ord": 20261017,
+"outcome": "nothing",
+"surnames": [
+"kraljich"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-M3PM?cc=2040054",
+"volumes": [
+"9R2D-16X"
+],
+"nil": {
+"kraljich": [
+"unknown"
+]
+}
+},
+{
+"id": 226,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Krmpotić",
+"years": "",
+"span": null,
+"what": "Index hits for Krmpotić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"krmpotic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 227,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Špalj",
+"years": "",
+"span": null,
+"what": "Index hits for Špalj in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"spalj"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 228,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Babić",
+"years": "",
+"span": null,
+"what": "Index hits for Babić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"babic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 229,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Tomljanović",
+"years": "",
+"span": null,
+"what": "Index hits for Tomljanović in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"tomljanovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 230,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Pavelić",
+"years": "",
+"span": null,
+"what": "Index hits for Pavelić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"pavelic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 231,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Prpić",
+"years": "",
+"span": null,
+"what": "Index hits for Prpić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 232,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Papić",
+"years": "",
+"span": null,
+"what": "Index hits for Papić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"papic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 233,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Kalanj",
+"years": "",
+"span": null,
+"what": "Index hits for Kalanj in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"kalanj"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 234,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Žubrinić",
+"years": "",
+"span": null,
+"what": "Index hits for Žubrinić in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 235,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Blažević",
+"years": "",
+"span": null,
+"what": "Index hits for Blažević in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"blazevic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 236,
+"src": "FamilySearch index",
+"volume": "Senj baptisms for Boras",
+"years": "",
+"span": null,
+"what": "Index hits for Boras in the Senj parish, all spellings",
+"when": "14–16 Oct 2026",
+"ord": 20261016,
+"outcome": "partial",
+"surnames": [
+"boras"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/collection/2040054",
+"volumes": []
+},
+{
+"id": 123,
+"src": "Klenovica cemetery",
+"volume": "one plaque, found on a visit and read out by phone",
+"years": "",
+"span": null,
+"what": "OBITELJI PAPIĆ, a marble plaque mounted on the Stipanić family monument, three names",
+"when": "29 September 2026",
+"ord": 20260029,
+"outcome": "partial",
+"surnames": [
+"papic"
+],
+"places": [
+"klenovica"
+],
+"href": "",
+"volumes": []
+},
+{
+"id": 124,
+"src": "FamilySearch",
+"volume": "Brinje marriages 1888–1899, the first pass at the register this page has been asking for since 15 September",
+"years": "1888–1899",
+"span": [
+1888,
+1899
+],
+"what": "Every marriage entry, watching for Kalanj, Perković or Borić as either party, a parent, or a witness",
+"when": "29 September 2026",
+"ord": 20260029,
+"outcome": "yield",
+"surnames": [
+"kalanj"
+],
+"places": [
+"brinje"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-9QTJ?cc=2040054&wc=9R26-82S",
+"volumes": [
+"9R26-82S"
+]
+},
+{
+"id": 125,
+"src": "FamilySearch",
+"volume": "Brinje births 1888–1900, opened the same day the marriage book was finished",
+"years": "1888–1900",
+"span": [
+1888,
+1900
+],
+"what": "Every birth entry, watching child, father and mother's maiden surname for Kalanj, Perković or Borić",
+"when": "29 September 2026",
+"ord": 20260029,
+"outcome": "yield",
+"surnames": [
+"kalanj"
+],
+"places": [
+"brinje"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-93N1?cc=2040054&wc=9R26-82S",
+"volumes": [
+"9R26-82S"
+]
+},
+{
+"id": 118,
+"src": "Trove",
+"volume": "National Library of Australia, digitised newspapers (API key, to December 2026)",
+"years": "",
+"span": null,
+"what": "The Australian Žubrinići — Ivan, who reached Port Pirie about 1884, and the Zubrinich family after him",
+"when": "27 September 2026",
+"ord": 20260027,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"portpirie"
+],
+"href": "https://trove.nla.gov.au/about/create-something/using-api",
+"volumes": []
+},
+{
+"id": 20,
+"src": "Senj municipal cemetery",
+"volume": "105 photographs from October 2024, read out",
+"years": "",
+"span": null,
+"what": "Whether the Senj cemetery names anyone this archive already holds",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"papic",
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "",
+"volumes": []
+},
+{
+"id": 21,
+"src": "FamilySearch",
+"volume": "Karlobag deaths 1774–1804: all four ancestors read, and where the index hides a widow",
+"years": "1774–1804",
+"span": [
+1774,
+1804
+],
+"what": "Ahnentafel 104, 105, 212 and 220 — four exact death dates inside one volume",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"gerkacs",
+"luckinic",
+"pilipic",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/film/005481649?i=363",
+"volumes": []
+},
+{
+"id": 22,
+"src": "Župa Krmpote, via Ledenice",
+"volume": "answered, and it moves the question",
+"years": "",
+"span": null,
+"what": "Juraj Blažević's baptism, marriage and death; the Butorac household; a Krmpote stanje duša",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "nothing",
+"surnames": [
+"blazevic"
+],
+"places": [
+"krmpote"
+],
+"href": "",
+"volumes": [],
+"nil": {
+"blazevic": [
+"unknown"
+]
+}
+},
+{
+"id": 23,
+"src": "FamilySearch",
+"volume": "Otočac deaths: ahnentafel 40 and 41 both read, and a false null corrected",
+"years": "",
+"span": null,
+"what": "The deaths of ahnentafel 40 (4 Jan 1838) and ahnentafel 41 (29 Jul 1849)",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/image/index?owc=9RK1-Y4C%3A391644801%2C391674001%3Fcc%3D2040054&cc=2040054",
+"volumes": [
+"9RK1-Y4C"
+]
+},
+{
+"id": 24,
+"src": "FamilySearch",
+"volume": "Otočac deaths 1780–1836, the earlier book, read end to end",
+"years": "1780–1836",
+"span": [
+1780,
+1836
+],
+"what": "Whether the Thomas Žubrinić the census leaves a widow for is in the parish's earlier death book",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "/people/oto-blazevic/",
+"volumes": []
+},
+{
+"id": 26,
+"src": "Državni arhiv u Rijeci",
+"volume": "answered, and it is a refusal",
+"years": "",
+"span": null,
+"what": "Ljubomir Blažević's 1892 Rijeka baptism, three post-1907 Senj deaths, Krmpote before 1879, and any status animarum",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "nothing",
+"surnames": [
+"blazevic"
+],
+"places": [
+"rijeka"
+],
+"href": "https://www.riarhiv.hr/",
+"volumes": [],
+"nil": {
+"blazevic": [
+"unknown"
+]
+}
+},
+{
+"id": 27,
+"src": "FamilySearch",
+"volume": "Senj deaths, all three ancestors read, and the age column exposed",
+"years": "",
+"span": null,
+"what": "The deaths of ahnentafel 8, 26 and 27",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"pilipic",
+"uroda"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1HVP?cc=2040054",
+"volumes": []
+},
+{
+"id": 29,
+"src": "FamilySearch",
+"volume": "Selce deaths: four ancestors read, the cholera of 1850, and the by-name «Papa» again",
+"years": "",
+"span": null,
+"what": "The deaths of ahnentafel 24, 25, 48 and 49",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"antic",
+"jellicic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/en/search/film/005497948?i=396",
+"volumes": []
+},
+{
+"id": 30,
+"src": "FamilySearch",
+"volume": "Karlobag baptisms 1771–1804, ahnentafel 53 at the page",
+"years": "1771–1804",
+"span": [
+1771,
+1804
+],
+"what": "The baptism of Oliva Maria Smojver, born March 1781",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L998-5?cc=2040054",
+"volumes": []
+},
+{
+"id": 31,
+"src": "FamilySearch",
+"volume": "Karlobag marriages, folios 4 and 6 read entry by entry",
+"years": "",
+"span": null,
+"what": "Ahnentafel 54's marriage — Uroda × Gerkacs, 1804–1810",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/film/005481649?i=230",
+"volumes": []
+},
+{
+"id": 32,
+"src": "Otočac cemetery",
+"volume": "photographed on the ground, October 2024",
+"years": "",
+"span": null,
+"what": "Whether the churchyard names anyone this archive already holds",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "",
+"volumes": []
+},
+{
+"id": 34,
+"src": "FamilySearch",
+"volume": "Šumećica by house number, from the Otočac Conditio column",
+"years": "",
+"span": null,
+"what": "The fifteen indexed Michael Žubrinić baptisms of 1846–58, by house number",
+"when": "14–15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac",
+"sumecica"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 35,
+"src": "FamilySearch",
+"volume": "Tonka Blažević's baptism, and an index that is wrong",
+"years": "",
+"span": null,
+"what": "25 October 1884 by this archive's reading against 27 November 1884 by the index",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"blazevic"
+],
+"places": [
+"krmpote"
+],
+"href": "https://www.familysearch.org/search/film/005494763",
+"volumes": []
+},
+{
+"id": 36,
+"src": "FamilySearch record index",
+"volume": "ahnentafel 6's baptism, ahnentafel 7's parents, a new Antić child",
+"years": "",
+"span": null,
+"what": "Items 1, 2 and 3 of the standing list",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"antic",
+"papic",
+"prpic"
+],
+"places": [
+"selce",
+"senj"
+],
+"href": "https://www.familysearch.org/search/record/results?f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 38,
+"src": "Arcanum",
+"volume": "the Smojvers of Karlobag in the Hungarian state record",
+"years": "",
+"span": null,
+"what": "The four Smojvers in the 1884 officials' directory, followed up",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://adt.arcanum.com/en/",
+"volumes": []
+},
+{
+"id": 40,
+"src": "FamilySearch record index",
+"volume": "Krmpote-Vodice, the children of ahnentafel 8 and 9",
+"years": "",
+"span": null,
+"what": "Juraj Blažević's baptism, and whether Ledenice or Novi Vinodolski holds it",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "partial",
+"surnames": [
+"blazevic"
+],
+"places": [
+"krmpote"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Blazevic&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 41,
+"src": "FamilySearch record index",
+"volume": "the Karlobag Urode, and a generation added",
+"years": "",
+"span": null,
+"what": "Ahnentafel 54's baptism, his parents, and who married in 1806",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Uroda&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 42,
+"src": "FamilySearch",
+"volume": "Karlobag, the death index of 1774–1804",
+"years": "1774–1804",
+"span": [
+1774,
+1804
+],
+"what": "The Georgius Uroda whom the 1806 marriage calls «defunctus»",
+"when": "15 September 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/film/005481649",
+"volumes": []
+},
+{
+"id": 57,
+"placeOnly": true,
+"src": "Župni ured Senj",
+"volume": "one letter sent, no reply yet",
+"years": "",
+"span": null,
+"what": "",
+"when": "14–15 Sept 2026",
+"ord": 20260015,
+"outcome": "pending",
+"surnames": [],
+"places": [
+"krmpote",
+"rijeka",
+"senj"
+],
+"href": "",
+"volumes": []
+},
+{
+"id": 224,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read: the Pavelić entries (2 marriage)",
+"years": "",
+"span": null,
+"what": "Every Pavelić entry met in the Senj marriages 1734–1858 and deaths 1820–1858; see the full row fs/senj-marriage-volume-walk for the method and the caveats",
+"when": "13–15 October 2026",
+"ord": 20260015,
+"outcome": "yield",
+"surnames": [
+"pavelic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 43,
+"src": "FamilySearch",
+"volume": "Rijeka marriages, April to the end of the book",
+"years": "",
+"span": null,
+"what": "Juraj Blažević × Tereza Žubrinić, the marriage question 1b asks for",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "nothing",
+"surnames": [
+"blazevic",
+"zubrinic"
+],
+"places": [
+"rijeka"
+],
+"href": "https://www.familysearch.org/search/film/005497940",
+"volumes": [],
+"nil": {
+"blazevic": [
+"missed",
+"Blazevich"
+],
+"zubrinic": [
+"missed",
+"Xubrinic",
+"Xubrinić",
+"Xubrinich",
+"Zubrinich"
+]
+}
+},
+{
+"id": 44,
+"src": "FamilySearch",
+"volume": "Karlobag marriages, folios 2 to 6 read out",
+"years": "",
+"span": null,
+"what": "Ahnentafel 54's marriage — and what was there instead",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/film/005481649",
+"volumes": []
+},
+{
+"id": 45,
+"src": "FamilySearch record index",
+"volume": "Otočac, 1853, tested for density",
+"years": "",
+"span": null,
+"what": "Lucca Žubrinić, born 1853, the tree's sister for Tereza",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "nothing",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
+"volumes": [],
+"nil": {
+"zubrinic": [
+"missed",
+"Xubrinic",
+"Xubrinić",
+"Xubrinich",
+"Zubrinich"
+]
+}
+},
+{
+"id": 46,
+"src": "FamilySearch record index",
+"volume": "the Otočac Žubrinić baptisms, and the ARK trick",
+"years": "",
+"span": null,
+"what": "Rebuilding the Šumećica Žubrinić households by house number",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Zubrinic&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 47,
+"src": "FamilySearch catalogue",
+"volume": "every parish this family touches, film by film",
+"years": "",
+"span": null,
+"what": "Juraj Blažević's baptism at Krmpote — and, when that failed, what FamilySearch actually holds",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"blazevic"
+],
+"places": [
+"krmpote",
+"rijeka"
+],
+"href": "https://www.familysearch.org/search/catalog/results",
+"volumes": []
+},
+{
+"id": 48,
+"src": "FamilySearch",
+"volume": "Rijeka, and the answer to question 13",
+"years": "",
+"span": null,
+"what": "Ljubomir Blažević's baptism, Rijeka, 1892 — and Juraj's marriage to Tereza before it",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "nothing",
+"surnames": [
+"blazevic",
+"zubrinic"
+],
+"places": [
+"rijeka"
+],
+"href": "https://www.familysearch.org/search/film/005497940",
+"volumes": [],
+"nil": {
+"blazevic": [
+"unknown"
+],
+"zubrinic": [
+"unknown"
+]
+}
+},
+{
+"id": 49,
+"src": "FamilySearch",
+"volume": "Karlobag marriages, the folio-to-image map",
+"years": "",
+"span": null,
+"what": "Ahnentafel 54's marriage — Joannis Georgius Uroda × Maria Gerkacs",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "partial",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/search/film/005481649",
+"volumes": []
+},
+{
+"id": 50,
+"src": "Arcanum",
+"volume": "the second harvest, searching the places instead of the surnames",
+"years": "",
+"span": null,
+"what": "Šumećica, Smojver, Uroda, Pećanić, Dašović in the Hungarian press and gazetteers",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"smojver",
+"zubrinic"
+],
+"places": [
+"sumecica"
+],
+"href": "https://adt.arcanum.com/en/",
+"volumes": []
+},
+{
+"id": 52,
+"src": "FamilySearch",
+"volume": "Otočac Status animarum, the village map and the Šumećica block",
+"years": "",
+"span": null,
+"what": "Domus 2 and Domus 24 at Šumećica — whether ahnentafel 10 stayed in his father's house or moved",
+"when": "14 September 2026",
+"ord": 20260014,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/film/005498269",
+"volumes": []
+},
+{
+"id": 54,
+"src": "Find a Grave",
+"volume": "CODRON, on Rhodes, at Auschwitz and at Cape Town",
+"years": "",
+"span": null,
+"what": "The question the Rhodes page had been asking itself since it was written",
+"when": "14 Sept 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"codron"
+],
+"places": [
+"rhodes"
+],
+"href": "https://www.findagrave.com/memorial/search?lastname=Codron",
+"volumes": []
+},
+{
+"id": 208,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Vukelić entries (15 marriage, 33 death)",
+"years": "",
+"span": null,
+"what": "Every Vukelić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"vukelic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 209,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Babić entries (19 marriage, 20 death)",
+"years": "",
+"span": null,
+"what": "Every Babić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"babic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 210,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Krmpotić entries (19 marriage, 13 death)",
+"years": "",
+"span": null,
+"what": "Every Krmpotić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"krmpotic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 211,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Tomljanović entries (9 marriage, 11 death)",
+"years": "",
+"span": null,
+"what": "Every Tomljanović entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"tomljanovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 212,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Butković entries (10 marriage, 4 death)",
+"years": "",
+"span": null,
+"what": "Every Butković entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"butkovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 213,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Smojver entries (8 marriage, 5 death)",
+"years": "",
+"span": null,
+"what": "Every Smojver entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"smojver"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 214,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Prpić entries (5 marriage, 11 death)",
+"years": "",
+"span": null,
+"what": "Every Prpić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 215,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Orešković entries (8 marriage, 6 death)",
+"years": "",
+"span": null,
+"what": "Every Orešković entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"oreskovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 216,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Boras entries (6 marriage, 4 death)",
+"years": "",
+"span": null,
+"what": "Every Boras entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"boras"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 217,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Šojat entries (4 marriage, 3 death)",
+"years": "",
+"span": null,
+"what": "Every Šojat entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"sojat"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 218,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Špalj entries (2 marriage, 4 death)",
+"years": "",
+"span": null,
+"what": "Every Špalj entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"spalj"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 219,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Žubrinić entries (3 marriage, 2 death)",
+"years": "",
+"span": null,
+"what": "Every Žubrinić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 220,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Kalanj entries (1 marriage, 0 death)",
+"years": "",
+"span": null,
+"what": "Every Kalanj entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"kalanj"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 221,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Papić entries (2 marriage, 0 death)",
+"years": "",
+"span": null,
+"what": "Every Papić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"papic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 222,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Borić entries (3 marriage, 1 death)",
+"years": "",
+"span": null,
+"what": "Every Borić entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"boric"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 223,
+"src": "FamilySearch",
+"volume": "Senj marriage and death volume 9RK1-W3P, every image read once: the Uroda entries (2 marriage, 0 death)",
+"years": "",
+"span": null,
+"what": "Every Uroda entry met in the Senj marriages 1734–1858 and deaths 1820–1858 (one read of all 592 images); see the full row fs/senj-marriage-volume-walk for the method, the caveats and what is still owed",
+"when": "14 October 2026",
+"ord": 20260014,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 205,
+"src": "FamilySearch index",
+"volume": "every Bachi / Bacchi / Baci / Bachy / Bacci line in «Croatia, Church Books, 1516–1994» (collection 2040054), with three pages then opened: Pag deaths 1764, Nin deaths 1768, Karlobag births 1715",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "A Pag or other record that names the father, brother or town of the Caetanus Bachi who married Anna Lukatelli at Karlobag on 4 February 1753 (dead by October 1760)",
+"when": "13 October 2026",
+"ord": 20260013,
+"outcome": "partial",
+"surnames": [
+"bacchi"
+],
+"places": [
+"karlobag",
+"pag"
+],
+"href": "https://www.familysearch.org/search/record/results?q.surname=Bachi&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 206,
+"src": "FamilySearch",
+"volume": "Senj marriages 1734–1819, 1820–1858 and deaths 1820–1858 (waypoint 9RK1-W3P, 592 images): the 1856–57 marriage of Juraj Papa and Matia Pilipić (work-list row 4)",
+"years": "1734–1858",
+"span": [
+1734,
+1858
+],
+"what": "The marriage of Juraj Papa (b. 1838 Selce) and Matia Pilipić (b. 1838 Karlobag), before their son's baptism at Senj on 1 November 1857",
+"when": "13 October 2026",
+"ord": 20260013,
+"outcome": "partial",
+"surnames": [
+"pilipic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:9RK1-W3P",
+"volumes": [
+"9RK1-W3P"
+]
+},
+{
+"id": 149,
+"src": "FamilySearch",
+"volume": "Selce marriages 1790–1815 (DGS 5482267, Vjenčani), images 258–262, 1806 to 1811, read for Georgi Jelličić × Margarita Brozović and Joannis Antić × Margarita Lončarić",
+"years": "1790–1815",
+"span": [
+1790,
+1815
+],
+"what": "The marriage of ahnentafel 50 and 51 (Georgi Jelličić × Margarita Brozović), which would name Margarita's parents (ahnentafel 102 and 103), and that of ahnentafel 48 and 49",
+"when": "10-11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"antic",
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y",
+"volumes": [
+"9R2M-BZF"
+],
+"nil": {
+"antic": [
+"covered"
+],
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 151,
+"src": "FamilySearch",
+"volume": "Selce marriages 1790–1815 (DGS 5482267, Vjenčani), image 248, 18 November 1798: Joannes Antić × Martha Lončarić",
+"years": "1790–1815",
+"span": [
+1790,
+1815
+],
+"what": "The marriage of ahnentafel 48 and 49, which the Selce baptism of 1806 and the deaths of 1829 imply and no document had been read for",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"loncaric",
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y",
+"volumes": [
+"9R2M-BZF"
+]
+},
+{
+"id": 152,
+"src": "FamilySearch",
+"volume": "Selce marriages 1790–1815 (DGS 5482267, Vjenčani), image 251, 14 November 1800: Georgi Jelličić × Margarita Drozović",
+"years": "1790–1815",
+"span": [
+1790,
+1815
+],
+"what": "The marriage of ahnentafel 50 and 51, which would name Margarita's parents (ahnentafel 102 and 103) and the groom's (100 and 101)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"jellicic",
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y",
+"volumes": [
+"9R2M-BZF"
+]
+},
+{
+"id": 153,
+"src": "FamilySearch",
+"volume": "Selce births 1778–1783 (DGS 5482267, Rođeni 1778–1815), images 8–11, read again for Margarita Drozović's baptism after her marriage of 1800 was found",
+"years": "1778–1815",
+"span": [
+1778,
+1815
+],
+"what": "Margarita, daughter of Joannes and Catharina Drozovich, the bride of 14 November 1800 (ahnentafel 51), born before 1800 and not in 1783–85",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"antic",
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9R2M-BZF"
+],
+"nil": {
+"antic": [
+"unknown"
+],
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 154,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 283, 22 November 1747: Jakov Pilepich × Katta Luckinich",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of ahnentafel 104 (Jacob Pilipić) and 105 (Catherina «Catta» Luckinić), which the tree dates 22 November 1747 and for which no document had been read",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"luckinic",
+"papic",
+"pilipic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 155,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 343, 14 February 1798: Josephus Pilepich × Maria, daughter of Vincentius",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of ahnentafel 52 (Josephus Pilipić) and 53 (Oliva Maria Smojver), which the tree dates 14 February 1798",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"papic",
+"pilipic",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 156,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649), images 313–316, January 1778 to August 1780, read for Vincentius Smojver Vukić × Oliva Bacchi (ahnentafel 106 and 107)",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of ahnentafel 106 and 107, expected before ahnentafel 53's baptism of March 1781",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"bacchi",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 157,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 324, 2 November 1785: Michael Gerkacs × Lucia Tomljanović",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of ahnentafel 110 (Michael Gerkacs) and 111 (Lucia «Maja» Tomljanović), and Paul Tomljanović's place",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"gerkacs",
+"papic",
+"tomljanovic"
+],
+"places": [
+"karlobag",
+"montanistaniste"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 158,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), image 306, 2 May 1774: Vincentius Smojver × Oliva Bacchi",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of ahnentafel 106 (Vincentius Fabiano Smojver Vukić) and 107 (Oliva Andreana Bacchi), before ahnentafel 53's baptism of March 1781",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"bacchi",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 159,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 290–310: the Georgius Uroda × Maria marriage, not found January 1756 – November 1776",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of Georgius Uroda and Maria (ahnentafel 108 and 109), whose son Joannes Georgius was baptised on 22 April 1777",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+],
+"nil": {
+"uroda": [
+"covered"
+]
+}
+},
+{
+"id": 160,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), book pages 91–93: November 1727 – 1732, for a Luckinić baptism",
+"years": "1691–1804",
+"span": [
+1691,
+1804
+],
+"what": "Catherina «Catta» Luckinić's baptism (ahnentafel 105, tree date 30 March 1727, death age 70 in 1790): the 1728–1732 pages that the 1727 note left as faded and unread",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"luckinic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"luckinic": [
+"covered"
+]
+}
+},
+{
+"id": 161,
+"src": "FamilySearch record search, «Croatia, Church Books, 1516-1994»",
+"volume": "Bacchi / Bachi, Oliva and Caetano, Karlobag 1700–1810",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "A baptism for Oliva Bacchi (ahnentafel 107) and any record of the elder Caetanus Bacchi (214), before opening the births book",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"bacchi",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/record/results?q.surname=Bacchi&q.anyPlace=Karlobag&q.anyDate.from=1700&q.anyDate.to=1810",
+"volumes": [],
+"nil": {
+"bacchi": [
+"covered"
+],
+"smojver": [
+"unknown"
+]
+}
+},
+{
+"id": 163,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), book pages 200–241, January 1750 – August 1759: Oliva Bacchi's baptism",
+"years": "1691–1804",
+"span": [
+1691,
+1804
+],
+"what": "The baptism of Oliva Andreana Bacchi (ahnentafel 107, married 1774, father Caetanus dead by 1760), and any trace of her parents",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"bacchi",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 164,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 280–290: Caetanus Bacchi's marriage, and the Georgius Uroda marriage, January 1742 – December 1755",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of Caetanus Bacchi (ahnentafel 214) and his wife Anna, and any Georgius Uroda marriage, in the book's 1751–1755 pages",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"bacchi",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 165,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 290 right – 295 right, re-read slowly: Georgius Uroda × Maria, January 1756 – October 1763",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriage of Georgius Uroda and Maria (ahnentafel 108 and 109), whose first known child Dominicus was baptised 6 May 1764",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59D2-C",
+"volumes": [
+"9RK1-HZK"
+],
+"nil": {
+"uroda": [
+"covered"
+]
+}
+},
+{
+"id": 166,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (DGS 5494757, waypoint 9R28-DP8), image 64 left: Antonija Perpić's baptism, 15 May 1859, read from the image",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "The baptism of ahnentafel 7 (Antonija «Tonka» Perpić), which the readings file held as INDEX ONLY",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RNXT",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 167,
+"src": "FamilySearch",
+"volume": "Senj marriages (Vjenčani) 1859–1920 (waypoint 9R2D-N3F), images 196, 214, 331, 353, 360, 364: the Papić, Kozina and Blažević marriages, 1885–1919, both pages of each spread",
+"years": "1859–1920",
+"span": [
+1859,
+1920
+],
+"what": "Marriages of ahnentafel 6×7 (1885), Martin Kozina×Angjelika Boras (1888), Tereza Blažević (1913), Antonija (1918), Katica (1919) and the Kosina sons (1919), re-read from the images and kept as snapshots",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"papic",
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17PK",
+"volumes": [
+"9R2D-N3F"
+]
+},
+{
+"id": 168,
+"src": "FamilySearch",
+"volume": "Senj deaths (Umrli) 1859–1907 (waypoint 9R2D-K6D), images 370, 513, 640: Pilepić 1886 and 1897, Toma Blažević 1907",
+"years": "1859–1907",
+"span": [
+1859,
+1907
+],
+"what": "The deaths of ahnentafel 27 (1886), 26 (1897) and 8 (1907)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"pilipic",
+"uroda"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14XR",
+"volumes": [
+"9R2D-K6D"
+]
+},
+{
+"id": 169,
+"src": "FamilySearch",
+"volume": "Otočac births 1846–1858 and deaths 1834–1858 (waypoint 9RK1-Y4C), images 76 and 117, 167: Žubrinić baptism 1856, deaths 1838 and 1849",
+"years": "1834–1858",
+"span": [
+1834,
+1858
+],
+"what": "Baptism of Stephanus Žubrinić 1856 and the deaths of Thomas Xubrinich 1838 and Maria Žubrinić 1849 (ahnentafel 10 and 11's family)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"oreskovic",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-PVR4",
+"volumes": [
+"9RK1-Y4C"
+]
+},
+{
+"id": 174,
+"src": "FamilySearch",
+"volume": "Selce deaths (Umrli) 1816–1886 (waypoint 9R2D-N32), images 18, 54, 111: Antić 1829, 1850 and Jeličić/Antić 1882, re-photographed for the snapshot register",
+"years": "1816–1886",
+"span": [
+1816,
+1886
+],
+"what": "The deaths of ahnentafel 48 (1829), 24 (1850, cholera) and 25 (1882)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"jellicic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QQL",
+"volumes": [
+"9R2D-N32"
+]
+},
+{
+"id": 175,
+"src": "FamilySearch",
+"volume": "Selce births (Rođeni) 1778–1861 (waypoint 9R2M-BZF), images 47, 57, 186: the baptisms of 1806, 1809 and 1838, re-photographed for the snapshot register",
+"years": "1778–1861",
+"span": [
+1778,
+1861
+],
+"what": "The baptisms of ahnentafel 24 (1806), 25 (1809) and 12 (1838)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"jellicic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-596J-2",
+"volumes": [
+"9R2M-BZF"
+]
+},
+{
+"id": 176,
+"src": "FamilySearch",
+"volume": "Selce marriages (Vjenčani) 1815–1878 (waypoint 9R2D-N35), image 26: the marriage of ahnentafel 24 × 25, 22 November 1835, re-photographed for the snapshot register",
+"years": "1815–1878",
+"span": [
+1815,
+1878
+],
+"what": "The marriage of Josephus Antich Papa and Maria Jellicich (it had been read from a MyHeritage scan)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"jellicic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1Q7H",
+"volumes": [
+"9R2D-N35"
+]
+},
+{
+"id": 177,
+"src": "FamilySearch",
+"volume": "Senj births (Rođeni) 1756–1858 (waypoint 9R2M-L27), image 571: the baptism of ahnentafel 6, 1 November 1857, re-photographed for the snapshot register",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Josip Papić's baptism (Joannis Papa × Mathiae Pilipić)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"antic",
+"papic",
+"pilipic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-5TBF",
+"volumes": [
+"9R2M-L27"
+]
+},
+{
+"id": 178,
+"src": "FamilySearch",
+"volume": "Karlobag births (Rođeni) 1804–1861 (DGS 5481649, waypoint 9RK1-HZK), image 19: Mathia Uroda's baptism, 23 April 1810, re-photographed for the snapshot register",
+"years": "1804–1861",
+"span": [
+1804,
+1861
+],
+"what": "The baptism of ahnentafel 27 (it had been read from a MyHeritage scan)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"pilipic",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G9V8",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 179,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 145–151, July 1762 – May 1764: looking for Georgius Uroda × Maria before their first child",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "A Uroda couple as parents, or any entry for Georgius Uroda, before 6 May 1764",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"smojver",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99V-6",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 180,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 112–116 read entry by entry, January 1750 – June 1752: Uroda as parents or godparents",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Any Uroda baptism or godparent entry, 1750–June 1752",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L99N-1",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 181,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 56–111 read entry by entry, January 1733 – October 1749: Uroda as parents or godparents",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "A baptism of Georgius (Jure) Uroda, or any Uroda child, or Dume Uroda's earlier family, before the 1750 pages",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S6-W",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 182,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770 (DGS 5481648, waypoint 9RK1-3Y9), images 12–17 and 52–55, 1706–1712 and 1729–1732: Dume Uroda's own baptism and parents",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "A baptism of Dume (Dominicus) Uroda, born about 1700–1712, or any Uroda parent before 1733",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"uroda": [
+"covered"
+]
+}
+},
+{
+"id": 183,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (DGS 5481649, waypoint 9RK1-HZK), images 278–281, February 1736 – 1744: Dume Uroda's marriages",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "The marriages of Dume Uroda (to Eva, before 1733, and to Jerolina, 1740–42) and any other Uroda marriage 1736–44",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GHW",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 184,
+"src": "FamilySearch",
+"volume": "index of Croatia, Church Books 1516–1994: Uroda in Drniš and Betina (Šibenik), Pompeo × Bachi, and the Barach and Margvart households of Karlobag",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "Where the Bachi marriage of Pompeo Uroda was; who the 1764 godparents Antonio Barach and Vincentia Margvart were",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/record/results?q.surname=Uroda&q.anyPlace=Drni%C5%A1&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 185,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), images 161, 173, 187, 191, 214, 229: the godparents at six baptisms of Georgius and Maria Uroda's children, 1767–1784",
+"years": "1691–1804",
+"span": [
+1691,
+1804
+],
+"what": "Maria's maiden name, from a godparent who is her kin",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L99P-F",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"uroda": [
+"unknown"
+]
+}
+},
+{
+"id": 186,
+"src": "FamilySearch",
+"volume": "index of Croatia, Church Books 1516–1994: Uroda marriages 1745–1766 and Dume baptisms 1690–1716",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "A marriage of Georgius Uroda and Maria; a baptism of Dume Uroda",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "partial",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/record/results?q.surname=Urod*&q.marriageLikeDate.from=1745&q.marriageLikeDate.to=1766&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 187,
+"src": "FamilySearch",
+"volume": "index of Croatia, Church Books 1516–1994, counted by place through the search interface: Smojver, Pilipić, Gergacs, Luckinić and Bachi/Bacchi",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "Whether each Karlobag mother-side surname has a second family to be told apart from, and where the Bachi came from",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "yield",
+"surnames": [
+"bacchi",
+"luckinic",
+"pilipic",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/en/search/record/results?q.surname=Bachi&q.surname.exact=on&f.collectionId=2040054",
+"volumes": []
+},
+{
+"id": 188,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1804 (waypoint 9RK1-3Y9), images 8–11, December 1697 – October 1705: a Dume or Simona child of Duim Kovačević",
+"years": "1691–1804",
+"span": [
+1691,
+1804
+],
+"what": "A baptism of a Dume (Duima) or a Simona to Duim Kovačević, testing whether the dead «Dume Uroda od Šibenika» of 1739 was Duim Kovačević",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"uroda": [
+"covered"
+]
+}
+},
+{
+"id": 189,
+"src": "FamilySearch",
+"volume": "Karlobag marriages 1736–1804 (waypoint 9RK1-HZK), image 287, 4 February 1753, re-read for the origin of Caetanus Bachi",
+"years": "1736–1804",
+"span": [
+1736,
+1804
+],
+"what": "A father or a town for Caetanus Bachi",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "nothing",
+"surnames": [
+"bacchi"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-GCS",
+"volumes": [
+"9RK1-HZK"
+],
+"nil": {
+"bacchi": [
+"unknown"
+]
+}
+},
+{
+"id": 191,
+"src": "FamilySearch",
+"volume": "index of Croatia, Church Books 1516–1994 and Karlobag births images 28–30, 36, 52–53: the baptisms of Jacob Pilipić (104), Josiph Smojver Vukić (212) and Nicolaus Gerkacs (220)",
+"years": "1516–1994",
+"span": [
+1516,
+1994
+],
+"what": "The baptisms of ahnentafel 104 (b. about 1705–25), 212 (b. 1730–31) and 220 (b. about 1717)",
+"when": "11 October 2026",
+"ord": 20260011,
+"outcome": "partial",
+"surnames": [
+"pilipic",
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9SF-W",
+"volumes": [
+"9RK1-3Y9"
+]
+},
+{
+"id": 143,
+"src": "Trove",
+"volume": "Family Notices, New South Wales, Zubrinich (Broken Hill): all 30 hits read",
+"years": "",
+"span": null,
+"what": "The New South Wales Family Notices for Zubrinich, which the 9 October sweep had not run",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "yield",
+"surnames": [
+"murphy",
+"zubrinic"
+],
+"places": [
+"brokenhill"
+],
+"href": "https://trove.nla.gov.au/",
+"volumes": []
+},
+{
+"id": 144,
+"src": "Trove",
+"volume": "all newspapers, 1900–1909, Zubrinich, Zubrinic, Zubrenich (looking for the 1906 Zubrinich–Murphy wedding)",
+"years": "1900–1909",
+"span": [
+1900,
+1909
+],
+"what": "A newspaper notice or report of the marriage the tree dates 5 December 1906 at St Mark's, Port Pirie (John William Zubrinich × Catherine Lucy Murphy), which would name her parents",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "nothing",
+"surnames": [
+"murphy",
+"zubrinic"
+],
+"places": [
+"portpirie"
+],
+"href": "https://trove.nla.gov.au/",
+"volumes": [],
+"nil": {
+"murphy": [
+"covered"
+],
+"zubrinic": [
+"missed",
+"Xubrinic",
+"Xubrinić",
+"Xubrinich"
+]
+}
+},
+{
+"id": 145,
+"src": "FamilySearch",
+"volume": "Karlobag baptisms 1691–1770 (waypoint 9RK1-3Y9), images 47–50: 1726 and 1727 read for a Luckinić baptism",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Catherina «Catta» Luckinić (tree: baptised 30 March 1727): the rest of 1727 and the whole of 1726, for any Luckinić baptism and for the register's own continuity",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "nothing",
+"surnames": [
+"luckinic",
+"papic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L938-6",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"luckinic": [
+"covered"
+],
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 146,
+"src": "FamilySearch",
+"volume": "Selce baptisms 1778–1785 (DGS 5482267, Rođeni 1778–1815), read for Margarita Brozović, the tree's birth of 1784",
+"years": "1778–1815",
+"span": [
+1778,
+1815
+],
+"what": "The baptism of Margarita Brozović (ahnentafel 51), which the tree gives as 1784 at Selce to Joanni Brozović and Catharina (ahnentafel 102, 103)",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "nothing",
+"surnames": [
+"antic",
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-596K-Q",
+"volumes": [
+"9R2M-BZF"
+],
+"nil": {
+"antic": [
+"unknown"
+],
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 147,
+"src": "FamilySearch",
+"volume": "Karlobag baptisms 1691–1770 (waypoint 9RK1-3Y9), images 31–46: January 1718 to July 1725 read for a Luckinić baptism",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Catherina «Catta» Luckinić: her death entry of 29 May 1790 gives «annorum 70», which points to a birth about 1720, not the tree's 30 March 1727; and the index's «Mare Luckinić, 13 April 1725»",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "nothing",
+"surnames": [
+"luckinic",
+"papic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L938-6",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"luckinic": [
+"covered"
+],
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 148,
+"src": "FamilySearch",
+"volume": "Otočac births 1834–1846 (waypoint 9RK1-N3B), images 12–27, May 1835 to October 1837, read entry by entry for Ana «Šumbul» Marić's baptism",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "Ahnentafel 11's own baptism: a daughter Ana or Anna to a father Marić (or a mother née Šumbul/Štrumbulko), which would name ahnentafel 22 and 23",
+"when": "10 October 2026",
+"ord": 20260010,
+"outcome": "nothing",
+"surnames": [
+"maric",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9RK1-N3B",
+"volumes": [
+"9RK1-N3B"
+],
+"nil": {
+"maric": [
+"missed",
+"Marich"
+],
+"zubrinic": [
+"unknown"
+]
+}
+},
+{
+"id": 134,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884, the two candidate elder siblings of ahnentafel 7 read for their house numbers",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Martha (baptised 29 July 1853) and Toma (14 December 1856), indexed as children of an Ivan and Lucia Perpić, tested against ahnentafel 7's house number, Krivi Put 136",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9R28-DP8",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 135,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884: the three younger candidate siblings of ahnentafel 7 read for their house numbers (1868, 1874, 1876)",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Georgius (22 April 1868), Joanna (6 January 1874) and Josephus (7 July 1876), indexed as children of a Joannes and a Lucia Perpić, tested against ahnentafel 7's house, Krivi Put 136",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9R28-DP8",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 136,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770: 1727 read for Catherina «Catta» Luckinić (ahnentafel 105, tree 30 March 1727)",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "Her baptism, which the tree dates 30 March 1727, in the volume the Kazalo (index) points to; read by year instead of through the Kazalo",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "nothing",
+"surnames": [
+"papic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L938-6?cc=2040054&wc=9RK1-3Y9",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 137,
+"src": "FamilySearch",
+"volume": "Karlobag births 1691–1770, the Kazalo (index), L column read for Luckinić",
+"years": "1691–1770",
+"span": [
+1691,
+1770
+],
+"what": "A Luckinić entry for ahnentafel 105 (Catherina, tree 30 March 1727) or her sister Mare (13 April 1725) in the register's own alphabetical index, which gives name, day, month and folio",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "nothing",
+"surnames": [
+"papic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L938-6?cc=2040054&wc=9RK1-3Y9",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"papic": [
+"unknown"
+]
+}
+},
+{
+"id": 138,
+"src": "FamilySearch",
+"volume": "Otočac births 1834–1846 (waypoint 9RK1-N3B), September 1834 to May 1835, read for Ana «Šumbul» Marić's own baptism",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "Ahnentafel 11's own baptism (born, by her first child's date of 1853, about 1830–1836), which would name ahnentafel 22 and 23",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "nothing",
+"surnames": [
+"maric",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9RK1-N3B",
+"volumes": [
+"9RK1-N3B"
+],
+"nil": {
+"maric": [
+"unknown"
+],
+"zubrinic": [
+"unknown"
+]
+}
+},
+{
+"id": 140,
+"src": "Trove",
+"volume": "Family Notices, South Australia, Zubrinich: all 240 hits read, plus Victoria, Western Australia and Queensland, Zubrinic, Kalanj, Prpić and Blažević",
+"years": "",
+"span": null,
+"what": "The rest of the South Australia Family Notices for Zubrinich (the first 50 were done on 28 September), and the Family Notices category for the states and surnames not yet queried",
+"when": "9 October 2026",
+"ord": 20260009,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"portpirie"
+],
+"href": "https://trove.nla.gov.au/",
+"volumes": []
+},
+{
+"id": 128,
+"src": "FamilySearch",
+"volume": "Selce deaths (Umrli) 1790–1815, three ancestors found by year and page",
+"years": "1790–1815",
+"span": [
+1790,
+1815
+],
+"what": "Ahnentafel 96 (d. 27 February 1793), 99 (d. 24 August 1807) and 98 (d. 29 September 1811), the three direct ancestors worklist row 25 had left in the Selce death book",
+"when": "8 October 2026",
+"ord": 20260008,
+"outcome": "yield",
+"surnames": [
+"papic"
+],
+"places": [
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5962-V?cc=2040054&wc=9R2M-BZF",
+"volumes": [
+"9R2M-BZF"
+]
+},
+{
+"id": 129,
+"src": "FamilySearch",
+"volume": "marriages of 1856–1857 at Karlobag and Selce, read for Juraj Papa × Matia Pilipić (ahnentafel 12 × 13); the Senj marriages 1820–1858 mapped, not read",
+"years": "1820–1858",
+"span": [
+1820,
+1858
+],
+"what": "The marriage of ahnentafel 12 (Juraj Papa, b. 1838 Selce) and 13 (Matia Pilipić, b. 1838 Karlobag), which must fall before their son's baptism of 1 November 1857",
+"when": "8 October 2026",
+"ord": 20260008,
+"outcome": "nothing",
+"surnames": [
+"papic"
+],
+"places": [
+"karlobag",
+"selce"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054&wc=9RK1-HZK",
+"volumes": [
+"9RK1-HZK"
+],
+"nil": {
+"papic": [
+"missed",
+"Papić",
+"Papic",
+"Papich"
+]
+}
+},
+{
+"id": 127,
+"src": "FamilySearch",
+"volume": "Karlobag deaths (Umrli) 1804–1861, two ancestors found through the KAZALO and by page",
+"years": "1804–1861",
+"span": [
+1804,
+1861
+],
+"what": "Ahnentafel 111 (Lucia «Maja», d. 19 September 1809) and ahnentafel 52 (Josephus Pilipić, d. June 1828), the two ancestors worklist row 24 still had open",
+"when": "7 October 2026",
+"ord": 20260007,
+"outcome": "yield",
+"surnames": [
+"papic"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-G99J?cc=2040054&wc=9RK1-HZK",
+"volumes": [
+"9RK1-HZK"
+]
+},
+{
+"id": 126,
+"src": "FamilySearch",
+"volume": "Brinje deaths (Umrli) 1888–1899, read to the end of the volume and then re-read page by page",
+"years": "1888–1899",
+"span": [
+1888,
+1899
+],
+"what": "Every death entry, watching the deceased, parents, spouse and house for Kalanj, Borić or Perković, to find what joins the Brinje households to one another or to Klenovica",
+"when": "6 October 2026",
+"ord": 20260006,
+"outcome": "yield",
+"surnames": [
+"kalanj"
+],
+"places": [
+"brinje"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-9SHB?cc=2040054&wc=9R2D-W32",
+"volumes": [
+"9R2D-W32"
+]
+},
+{
+"id": 77,
+"placeOnly": true,
+"src": "FamilySearch",
+"volume": "Senj marriages, 1734–1858",
+"years": "",
+"span": null,
+"what": "",
+"when": "not yet",
+"ord": 0,
+"outcome": "pending",
+"surnames": [],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/search/catalog/results?q.text=Senj",
+"volumes": []
+},
+{
+"id": 93,
+"placeOnly": true,
+"src": "FamilySearch",
+"volume": "Brinje births, marriages and deaths 1888–1900",
+"years": "",
+"span": null,
+"what": "",
+"when": "not yet",
+"ord": 0,
+"outcome": "pending",
+"surnames": [],
+"places": [
+"brinje"
+],
+"href": "https://www.familysearch.org/search/catalog/results?q.text=Brinje",
+"volumes": []
+}
+],
+"places": {
+"brinje": {
+"name": "Brinje",
+"atlas": "brinje",
+"volumes": [
+{
+"id": "9R2D-W32",
+"t": "Deaths (Umrli) 1888-1899",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-162V?cc=2040054&wc=9R2D-W32%3A391644801%2C392418401%2C391938001",
+"f": 1888,
+"to": 1899
+},
+{
+"id": "9R26-82S",
+"t": "Births (Rođeni) 1888-1900 Marriages (Vjenčani) 1888-1899",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-9Q79?cc=2040054&wc=9R26-82S%3A391644801%2C392418401%2C392418402",
+"f": 1888,
+"to": 1900
+}
+],
+"catalogued": 0,
+"held": {
+"parish": "Brinje",
+"books": "Births 1888-1900 · Marriages 1888-1899 · Deaths 1888-1899",
+"checked": "Not spot-checked.",
+"bad": false
+}
+},
+"brokenhill": {
+"name": "Broken Hill",
+"atlas": null,
+"volumes": [],
+"catalogued": 0
+},
+"karlobag": {
+"name": "Karlobag",
+"atlas": "karlobag",
+"volumes": [
+{
+"id": "9RK1-3Y9",
+"t": "Births (Rođeni) 1691-1770 Births (Rođeni) 1771-1804 Birth Index (Kazalo rođeni)",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L938-6?cc=2040054&wc=9RK1-3Y9%3A391644801%2C391849401%2C391849402",
+"f": 1691,
+"to": 1804
+},
+{
+"id": "9RK1-HZK",
+"t": "Births (Rođeni) 1804-1861 Birth Index (Kazalo rođeni), Deaths (Umrli) 1804-1861 Death Index (Kazalo umrli), Marriages (Vjenčani) 1804-1861 Marriage Index…",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-G9P2?cc=2040054&wc=9RK1-HZK%3A391644801%2C391849401%2C954388001",
+"f": 1736,
+"to": 1861
+},
+{
+"id": "9R26-PTY",
+"t": "Church Census (Stanje duša)",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-33YV?cc=2040054&wc=9R26-PTY%3A391644801%2C391849401%2C391648801",
+"f": null,
+"to": null
+}
+],
+"catalogued": 0,
+"held": {
+"parish": "Karlobag",
+"books": "Births 1691-1770, 1771-1804, 1804-1861 · Marriages 1736-1804, 1804-1861 · Deaths 1774-1804, 1804-1861 · AND a Church Census (Stanje duša)",
+"checked": "VERIFIED 14 September 2026 — all three films opened, 327 + 435 + 122 images. Image 4 is 1723 and image 6 is the 1690s; image 300 of the second film is the marriages of 1767, image 360 its deaths of…",
+"bad": false
+}
+},
+"klenovica": {
+"name": "Klenovica",
+"atlas": "klenovica",
+"volumes": [],
+"catalogued": 0
+},
+"kriviput": {
+"name": "Krivi Put",
+"atlas": "kriviput",
+"volumes": [
+{
+"id": "9R28-DP8",
+"t": "Births (Rođeni) 1847-1884",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-R6CV?cc=2040054&wc=9R28-DP8%3A391644801%2C392355601%2C392355602",
+"f": 1847,
+"to": 1884
+},
+{
+"id": "9R28-3TL",
+"t": "Marriages (Vjenčani) 1871-1894",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RQ5?cc=2040054&wc=9R28-3TL%3A391644801%2C392355601%2C392355701",
+"f": 1871,
+"to": 1894
+},
+{
+"id": "9R28-92C",
+"t": "Deaths (Umrli) 1878-1934",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5TG9?cc=2040054&wc=9R28-92C%3A391644801%2C392355601%2C392355801",
+"f": 1878,
+"to": 1934
+}
+],
+"catalogued": 0
+},
+"krmpote": {
+"name": "Krmpote",
+"atlas": "krmpote",
+"volumes": [
+{
+"id": "9R2Z-FMX",
+"t": "Births (Rođeni) 1815-1896",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-PL6L?cc=2040054&wc=9R2Z-FMX%3A391644801%2C392356601%2C392356602",
+"f": 1815,
+"to": 1896
+}
+],
+"catalogued": 0,
+"held": {
+"parish": "Krmpote-Vodice",
+"books": "Births 1815-1896 — and NO marriage register, and no deaths",
+"checked": "LABEL WRONG. Image 10 is page 2 and reads 1879; image 188 is page 177 and reads 1896. The film is 1879-1896.",
+"bad": true
+}
+},
+"montanistaniste": {
+"name": "Montani Stanište",
+"atlas": null,
+"volumes": [],
+"catalogued": 0
+},
+"otocac": {
+"name": "Otočac",
+"atlas": "otocac",
+"volumes": [
+{
+"id": "9R2D-16X",
+"t": "Church Census (Stanje duša) 1710-1846 Marriages (Vjenčani) 1859-1872 Deaths (Umrli) 1780-1836, 1859-1872",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-MQSJ?cc=2040054&wc=9R2D-16X%3A391644801%2C391674001%2C391979501",
+"f": 1710,
+"to": 1872
+},
+{
+"id": "9RK1-N3B",
+"t": "Births (Rođeni) 1834-1846",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-GRW5?cc=2040054&wc=9RK1-N3B%3A391644801%2C391674001%2C391979302",
+"f": 1834,
+"to": 1846
+},
+{
+"id": "9RK1-Y4C",
+"t": "Births (Rođeni) 1846-1858 Deaths (Umrli) 1834-1858",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-P233?cc=2040054&wc=9RK1-Y4C%3A391644801%2C391674001%2C391979401",
+"f": 1834,
+"to": 1858
+},
+{
+"id": "9R2W-823",
+"t": "Marriages (Vjenčani) 1918 Deaths (Umrli) 1918",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-64B9?cc=2040054&wc=9R2W-823%3A391644501%2C391674001%2C391674002",
+"f": 1918,
+"to": 1918
+}
+],
+"catalogued": 0,
+"held": {
+"parish": "Otočac",
+"books": "Births 1834-1846, 1846-1858 · Deaths 1780-1836, 1834-1858, 1859-1872 · Marriages 1859-1872 · Church Census (Stanje duša) 1710-1846",
+"checked": "Marriages verified: images 129-147, pag. 10 = 1862, pag. 18 = 1865. Census film target confirms 1710-1846.",
+"bad": false
+}
+},
+"pag": {
+"name": "Pag",
+"atlas": "pag",
+"volumes": [
+{
+"id": "9R24-DPX",
+"t": "Births (Rođeni) 1577-1590",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-FKT2?cc=2040054&wc=9R24-DPX%3A391644801%2C392207701%2C392207702",
+"f": 1577,
+"to": 1590
+},
+{
+"id": "9R24-DPP",
+"t": "Births (Rođeni) 1590-1617",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-F2DC?cc=2040054&wc=9R24-DPP%3A391644801%2C392207701%2C392207801",
+"f": 1590,
+"to": 1617
+},
+{
+"id": "9R24-823",
+"t": "Births (Rođeni) 1617-1632",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FVG7?cc=2040054&wc=9R24-823%3A391644801%2C392207701%2C392207901",
+"f": 1617,
+"to": 1632
+},
+{
+"id": "9R2H-BZQ",
+"t": "Births (Rođeni) 1634-1644",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-KWNW?cc=2040054&wc=9R2H-BZQ%3A391644801%2C392207701%2C392208001",
+"f": 1634,
+"to": 1644
+},
+{
+"id": "9R2H-YWB",
+"t": "Births (Rođeni) 1644-1673",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-KW6J?cc=2040054&wc=9R2H-YWB%3A391644801%2C392207701%2C392208101",
+"f": 1644,
+"to": 1673
+},
+{
+"id": "9R2H-T36",
+"t": "Births (Rođeni) 1673-1684",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-KQP9?cc=2040054&wc=9R2H-T36%3A391644801%2C392207701%2C392208301",
+"f": 1673,
+"to": 1684
+},
+{
+"id": "9R2H-BZ3",
+"t": "Births (Rođeni) 1684-1691",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-KQ5T?cc=2040054&wc=9R2H-BZ3%3A391644801%2C392207701%2C392208401",
+"f": 1684,
+"to": 1691
+},
+{
+"id": "9R2W-T3B",
+"t": "Deaths (Umrli) 1684-1691",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-X57D?cc=2040054&wc=9R2W-T3B%3A391644801%2C392207701%2C392212001",
+"f": 1684,
+"to": 1691
+},
+{
+"id": "9R2H-T3D",
+"t": "Births (Rođeni) 1691-1701",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-K7GP?cc=2040054&wc=9R2H-T3D%3A391644801%2C392207701%2C392208501",
+"f": 1691,
+"to": 1701
+},
+{
+"id": "9R2H-YWR",
+"t": "Births (Rođeni) 1701-1722",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-K4R3?cc=2040054&wc=9R2H-YWR%3A391644801%2C392207701%2C392208601",
+"f": 1701,
+"to": 1722
+},
+{
+"id": "9R2H-Y4S",
+"t": "Births (Rođeni) 1721-1727",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-KWZH?cc=2040054&wc=9R2H-Y4S%3A391644801%2C392207701%2C392208701",
+"f": 1721,
+"to": 1727
+},
+{
+"id": "9R24-824",
+"t": "Births (Rođeni) 1727-1736",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-FV5K?cc=2040054&wc=9R24-824%3A391644801%2C392207701%2C392208801",
+"f": 1727,
+"to": 1736
+},
+{
+"id": "9R24-C6L",
+"t": "Births (Rođeni) 1736-1757",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FNY5?cc=2040054&wc=9R24-C6L%3A391644801%2C392207701%2C392208901",
+"f": 1736,
+"to": 1757
+},
+{
+"id": "9R2W-VZF",
+"t": "Births (Rođeni) 1757-1759",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-XJJK?cc=2040054&wc=9R2W-VZF%3A391644801%2C392207701%2C392209001",
+"f": 1757,
+"to": 1759
+},
+{
+"id": "9R2W-VZS",
+"t": "Births (Rođeni) 1759-1774",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-XNX8?cc=2040054&wc=9R2W-VZS%3A391644801%2C392207701%2C392209101",
+"f": 1759,
+"to": 1774
+},
+{
+"id": "9R2W-J4F",
+"t": "Births (Rođeni) 1775-1776",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-XFQM?cc=2040054&wc=9R2W-J4F%3A391644801%2C392207701%2C392209201",
+"f": 1775,
+"to": 1776
+},
+{
+"id": "9R2W-J4H",
+"t": "Births (Rođeni) 1786-1788",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-XF48?cc=2040054&wc=9R2W-J4H%3A391644801%2C392207701%2C392209401",
+"f": 1786,
+"to": 1788
+},
+{
+"id": "9R2W-J4C",
+"t": "Births (Rođeni) 1788-1804",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-XXJ2?cc=2040054&wc=9R2W-J4C%3A391644801%2C392207701%2C392209501",
+"f": 1788,
+"to": 1804
+},
+{
+"id": "9R24-HZS",
+"t": "Births (Rođeni) 1804-1821",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FXVG?cc=2040054&wc=9R24-HZS%3A391644801%2C392207701%2C392209601",
+"f": 1804,
+"to": 1821
+},
+{
+"id": "9R24-448",
+"t": "Births (Rođeni) 1822-1826",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-F6HP?cc=2040054&wc=9R24-448%3A391644801%2C392207701%2C392209701",
+"f": 1822,
+"to": 1826
+},
+{
+"id": "9R24-4WR",
+"t": "Births (Rođeni) 1824-1830",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-F6C7?cc=2040054&wc=9R24-4WR%3A391644801%2C392207701%2C392209801",
+"f": 1824,
+"to": 1830
+},
+{
+"id": "9R28-7MN",
+"t": "Birth Index (Kazalo rođeni), Marriages (Vjenčani), Deaths (Umrli) 1825-1892",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-5761?cc=2040054&wc=9R28-7MN%3A391644801%2C392207701%2C392216101",
+"f": 1825,
+"to": 1892
+},
+{
+"id": "9R24-WQF",
+"t": "Births (Rođeni) 1826-1828",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-FDRY?cc=2040054&wc=9R24-WQF%3A391644801%2C392207701%2C392209901",
+"f": 1826,
+"to": 1828
+},
+{
+"id": "9R24-W3X",
+"t": "Births (Rođeni) 1828-1836",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FDWW?cc=2040054&wc=9R24-W3X%3A391644801%2C392207701%2C392210001",
+"f": 1828,
+"to": 1836
+},
+{
+"id": "9R24-44N",
+"t": "Births (Rođeni) 1830-1836",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-FX3X?cc=2040054&wc=9R24-44N%3A391644801%2C392207701%2C392210101",
+"f": 1830,
+"to": 1836
+},
+{
+"id": "9R24-44Z",
+"t": "Births (Rođeni) 1836-1840",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FDBD?cc=2040054&wc=9R24-44Z%3A391644801%2C392207701%2C392210201",
+"f": 1836,
+"to": 1840
+},
+{
+"id": "9R24-44S",
+"t": "Births (Rođeni) 1837-1841",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-FDY6?cc=2040054&wc=9R24-44S%3A391644801%2C392207701%2C392210301",
+"f": 1837,
+"to": 1841
+},
+{
+"id": "9R24-WQZ",
+"t": "Births (Rođeni) 1840-1844",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-FDZQ?cc=2040054&wc=9R24-WQZ%3A391644801%2C392207701%2C392210401",
+"f": 1840,
+"to": 1844
+},
+{
+"id": "9R2H-2JQ",
+"t": "Births (Rođeni) 1841-1845",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-KSQF?cc=2040054&wc=9R2H-2JQ%3A391644801%2C392207701%2C392210501",
+"f": 1841,
+"to": 1845
+},
+{
+"id": "9R2H-K6Y",
+"t": "Births (Rođeni) 1844-1851",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-KSZ5?cc=2040054&wc=9R2H-K6Y%3A391644801%2C392207701%2C392210601",
+"f": 1844,
+"to": 1851
+},
+{
+"id": "9R2C-RMD",
+"t": "Death Index (Kazalo umrli) 1850-1900",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5HS1?cc=2040054&wc=9R2C-RMD%3A391644801%2C392207701%2C392216301",
+"f": 1850,
+"to": 1900
+},
+{
+"id": "9R2H-PY3",
+"t": "Births (Rođeni) 1851-1863",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-K3SH?cc=2040054&wc=9R2H-PY3%3A391644801%2C392207701%2C392205101",
+"f": 1851,
+"to": 1863
+},
+{
+"id": "9R2Z-KX3",
+"t": "Births (Rođeni) 1863-1867",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-P4WF?cc=2040054&wc=9R2Z-KX3%3A391644801%2C392207701%2C392213901",
+"f": 1863,
+"to": 1867
+},
+{
+"id": "9R2Z-KX9",
+"t": "Births (Rođeni) 1867-1870",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-PWLJ?cc=2040054&wc=9R2Z-KX9%3A391644801%2C392207701%2C392214001",
+"f": 1867,
+"to": 1870
+},
+{
+"id": "9R2Z-K6Y",
+"t": "Births (Rođeni) 1870-1873",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-PWJS?cc=2040054&wc=9R2Z-K6Y%3A391644801%2C392207701%2C392214101",
+"f": 1870,
+"to": 1873
+},
+{
+"id": "9R2Z-K62",
+"t": "Births (Rođeni) 1873-1876",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-P713?cc=2040054&wc=9R2Z-K62%3A391644801%2C392207701%2C392214201",
+"f": 1873,
+"to": 1876
+},
+{
+"id": "9R2Z-Y4S",
+"t": "Births (Rođeni) 1876-1880",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5VVL?cc=2040054&wc=9R2Z-Y4S%3A391644801%2C392207701%2C392214301",
+"f": 1876,
+"to": 1880
+},
+{
+"id": "9R2Z-YW5",
+"t": "Births (Rođeni) 1880-1884",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-5NX7?cc=2040054&wc=9R2Z-YW5%3A391644801%2C392207701%2C392214401",
+"f": 1880,
+"to": 1884
+},
+{
+"id": "9R2Z-YWY",
+"t": "Births (Rođeni) 1884-1887",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-5NSK?cc=2040054&wc=9R2Z-YWY%3A391644801%2C392207701%2C392214501",
+"f": 1884,
+"to": 1887
+},
+{
+"id": "9R2Z-T3F",
+"t": "Births (Rođeni) 1887-1891 Births (Rođeni) 1888-1898",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-5FWF?cc=2040054&wc=9R2Z-T3F%3A391644801%2C392207701%2C392214601",
+"f": 1887,
+"to": 1898
+}
+],
+"catalogued": 0
+},
+"portpirie": {
+"name": "Port Pirie",
+"atlas": "port-pirie",
+"volumes": [],
+"catalogued": 0
+},
+"rhodes": {
+"name": "Rhodes",
+"atlas": null,
+"volumes": [],
+"catalogued": 0
+},
+"rijeka": {
+"name": "Rijeka",
+"atlas": "rijeka",
+"volumes": [
+{
+"id": "9RKB-7MQ",
+"t": "Births (Rođeni) 1594-1606 Baptisms (Krsteni) 1597, 1603, 1606, 1611 Marriages (Vjenčani) 1590-1608 Births (Rođeni) 1606-1608",
+"u": "https://www.familysearch.org/ark:/61903/3:1:939V-5NSD-C8?cc=2040054&wc=9RKB-7MQ%3A391644801%2C391712301%2C954382301",
+"f": 1590,
+"to": 1611
+},
+{
+"id": "9RKB-7M3",
+"t": "Births (Rođeni) 1608-1635 Marriages (Vjenčani) 1608-1635",
+"u": "https://www.familysearch.org/ark:/61903/3:1:939V-5NSZ-LD?cc=2040054&wc=9RKB-7M3%3A391644801%2C391712301%2C391712501",
+"f": 1608,
+"to": 1635
+},
+{
+"id": "9R2Z-J4S",
+"t": "Births (Rođeni) 1635-1674 Marriages (Vjenčani) 1635-1674 Baptisms (Krsteni) 1632, 1642, 1645",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-PQHZ?cc=2040054&wc=9R2Z-J4S%3A391644801%2C391712301%2C391712901",
+"f": 1632,
+"to": 1674
+},
+{
+"id": "9R2Z-ZJW",
+"t": "Births (Rođeni) 1675-1695",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-PSDD?cc=2040054&wc=9R2Z-ZJW%3A391644801%2C391712301%2C391713101",
+"f": 1675,
+"to": 1695
+},
+{
+"id": "9R28-2NT",
+"t": "Births (Rođeni) 1695-1705 Marriages (Vjenčani) 1675-1705 Baptisms (Krsteni) 1688",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RGXB?cc=2040054&wc=9R28-2NT%3A391644801%2C391712301%2C391713501",
+"f": 1675,
+"to": 1705
+},
+{
+"id": "9R26-YWG",
+"t": "Deaths (Umrli) 1702-1765, 1737-1765",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-QXP9?cc=2040054&wc=9R26-YWG%3A391644801%2C391712301%2C391726301",
+"f": 1702,
+"to": 1765
+},
+{
+"id": "9R28-K6F",
+"t": "Births (Rođeni) 1706-1720 Marriages (Vjenčani) 1706-1720",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-RPHF?cc=2040054&wc=9R28-K6F%3A391644801%2C391712301%2C391713801",
+"f": 1706,
+"to": 1720
+},
+{
+"id": "9R28-K6D",
+"t": "Births (Rođeni) 1721-1733 Marriages (Vjenčani) 1721-1733",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-RLFW?cc=2040054&wc=9R28-K6D%3A391644801%2C391712301%2C391714001",
+"f": 1721,
+"to": 1733
+},
+{
+"id": "9R2X-ZNT",
+"t": "Births (Rođeni) 1734-1749 Marriages (Vjenčani) 1734-1753",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-WH9D?cc=2040054&wc=9R2X-ZNT%3A391644801%2C391712301%2C391714201",
+"f": 1734,
+"to": 1753
+},
+{
+"id": "9R2X-C62",
+"t": "Births (Rođeni) 1749-1769 Marriages (Vjenčani) 1753-1776",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-W42V?cc=2040054&wc=9R2X-C62%3A391644801%2C391712301%2C391714501",
+"f": 1749,
+"to": 1776
+},
+{
+"id": "9R26-YWL",
+"t": "Deaths (Umrli) 1766-1815, 1789-1807, 1815-1854",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-QNZ3?cc=2040054&wc=9R26-YWL%3A391644801%2C391712301%2C391727601",
+"f": 1766,
+"to": 1854
+},
+{
+"id": "9R2X-82Q",
+"t": "Births (Rođeni) 1769-1786 Marriages (Vjenčani) 1777-1787",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-WCKV?cc=2040054&wc=9R2X-82Q%3A391644801%2C391712301%2C391714801",
+"f": 1769,
+"to": 1787
+},
+{
+"id": "9R2X-PYW",
+"t": "Birth Index (Kazalo rođeni) 1770-1840",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-D6ZS?cc=2040054&wc=9R2X-PYW%3A391644801%2C391712301%2C391721901",
+"f": 1770,
+"to": 1840
+},
+{
+"id": "9R2X-DPX",
+"t": "Births (Rođeni) 1786-1812 Marriages (Vjenčani) 1787-1809",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-HSJ?cc=2040054&wc=9R2X-DPX%3A391644801%2C391712301%2C391715201",
+"f": 1786,
+"to": 1812
+},
+{
+"id": "9R2X-DP6",
+"t": "Births (Rođeni) 1789-1807 Marriages (Vjenčani) 1789-1807",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-4825?cc=2040054&wc=9R2X-DP6%3A391644801%2C391712301%2C391715601",
+"f": 1789,
+"to": 1807
+},
+{
+"id": "9R26-16X",
+"t": "Birth Index (Kazalo rođeni) 1800-1868",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-QWJQ?cc=2040054&wc=9R26-16X%3A391644801%2C391712301%2C391722201",
+"f": 1800,
+"to": 1868
+},
+{
+"id": "9R2X-RM3",
+"t": "Death Index (Kazalo umrli), Marriages (Vjenčani) 1812",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-D8WP?cc=2040054&wc=9R2X-RM3%3A391644801%2C391712301%2C391721501",
+"f": 1812,
+"to": 1812
+},
+{
+"id": "9R2X-FMQ",
+"t": "Births (Rođeni) 1812-1834",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-H9N8?cc=2040054&wc=9R2X-FMQ%3A391644801%2C391712301%2C391715801",
+"f": 1812,
+"to": 1834
+},
+{
+"id": "9R2X-PY4",
+"t": "Births (Rođeni) 1813 Marriages (Vjenčani) 1813 Deaths (Umrli) 1813",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-D6R8?cc=2040054&wc=9R2X-PY4%3A391644801%2C391712301%2C391721801",
+"f": 1813,
+"to": 1813
+},
+{
+"id": "9R2X-PYH",
+"t": "Births (Rođeni) 1813 Marriages (Vjenčani) 1813 Marriages (Vjenčani) 1813 Deaths (Umrli) 1813",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-DXQ5?cc=2040054&wc=9R2X-PYH%3A391644801%2C391712301%2C391721601",
+"f": 1813,
+"to": 1813
+},
+{
+"id": "9R2F-FM9",
+"t": "Births (Rođeni) 1815-1828, 1834-1838",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-K6HT?cc=2040054&wc=9R2F-FM9%3A391644801%2C391712301%2C391716101",
+"f": 1815,
+"to": 1838
+},
+{
+"id": "9R2D-L2W",
+"t": "Death Index (Kazalo umrli) 1816-1888",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1CGS?cc=2040054&wc=9R2D-L2W%3A391644801%2C391712301%2C391730401",
+"f": 1816,
+"to": 1888
+},
+{
+"id": "9R2F-6TL",
+"t": "Deaths (Umrli) 1828-1859",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-KZP?cc=2040054&wc=9R2F-6TL%3A391644801%2C391712301%2C391728101",
+"f": 1828,
+"to": 1859
+},
+{
+"id": "9R2F-N3D",
+"t": "Births (Rođeni) 1838-1850",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-KSJD?cc=2040054&wc=9R2F-N3D%3A391644801%2C391712301%2C391716601",
+"f": 1838,
+"to": 1850
+},
+{
+"id": "9R2D-2NL",
+"t": "Death Index (Kazalo umrli) 1848-1898",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1HB8?cc=2040054&wc=9R2D-2NL%3A391644801%2C391712301%2C391730701",
+"f": 1848,
+"to": 1898
+},
+{
+"id": "9R2X-HZ3",
+"t": "Births (Rođeni) 1850-1859",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-WQRS?cc=2040054&wc=9R2X-HZ3%3A391644801%2C391712301%2C391717201",
+"f": 1850,
+"to": 1859
+},
+{
+"id": "9R2X-MNT",
+"t": "Births (Rođeni) 1860-1867",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-QZFY?cc=2040054&wc=9R2X-MNT%3A391644801%2C391712301%2C391717601",
+"f": 1860,
+"to": 1867
+},
+{
+"id": "9R2D-W35",
+"t": "Deaths (Umrli) 1860-1870",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-19DT?cc=2040054&wc=9R2D-W35%3A391644801%2C391712301%2C391726801",
+"f": 1860,
+"to": 1870
+},
+{
+"id": "9R26-BZN",
+"t": "Birth Index (Kazalo rođeni) 1866-1884, 1880-1889",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99F-QQNQ?cc=2040054&wc=9R26-BZN%3A391644801%2C391712301%2C391722801",
+"f": 1866,
+"to": 1889
+},
+{
+"id": "9R2X-L29",
+"t": "Births (Rođeni) 1867-1874",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-89NM?cc=2040054&wc=9R2X-L29%3A391644801%2C391712301%2C391718301",
+"f": 1867,
+"to": 1874
+},
+{
+"id": "9R2D-N38",
+"t": "Deaths (Umrli) 1870-1883",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17FT?cc=2040054&wc=9R2D-N38%3A391644801%2C391712301%2C391729001",
+"f": 1870,
+"to": 1883
+},
+{
+"id": "9R2F-MNL",
+"t": "Births (Rođeni) 1874-1880",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-6CYB?cc=2040054&wc=9R2F-MNL%3A391644801%2C391712301%2C391719001",
+"f": 1874,
+"to": 1880
+},
+{
+"id": "9R2X-GPD",
+"t": "Births (Rođeni) 1880-1886",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99F-84WW?cc=2040054&wc=9R2X-GPD%3A391644801%2C391712301%2C391719701",
+"f": 1880,
+"to": 1886
+},
+{
+"id": "9R2D-7M6",
+"t": "Deaths (Umrli) 1883-1891",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-19FF?cc=2040054&wc=9R2D-7M6%3A391644801%2C391712301%2C391729601",
+"f": 1883,
+"to": 1891
+},
+{
+"id": "9R2C-2N1",
+"t": "Births (Rođeni) 1886-1890",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-L85W?cc=2040054&wc=9R2C-2N1%3A391644801%2C391712301%2C391720401",
+"f": 1886,
+"to": 1890
+},
+{
+"id": "9R2X-PY3",
+"t": "Births (Rođeni) 1890-1891",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-DD8P?cc=2040054&wc=9R2X-PY3%3A391644801%2C391712301%2C391721301",
+"f": 1890,
+"to": 1891
+},
+{
+"id": "9R2D-L2H",
+"t": "Deaths (Umrli) 1891-1892",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1CBZ?cc=2040054&wc=9R2D-L2H%3A391644801%2C391712301%2C391730101",
+"f": 1891,
+"to": 1892
+},
+{
+"id": "9R26-16V",
+"t": "Birth Index (Kazalo rođeni) 1895-1902",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-QWQ3?cc=2040054&wc=9R26-16V%3A391644801%2C391712301%2C391723001",
+"f": 1895,
+"to": 1902
+},
+{
+"id": "9R26-1XM",
+"t": "Birth Index (Kazalo rođeni) 1896-1920",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-Q4S1?cc=2040054&wc=9R26-1XM%3A391644801%2C391712301%2C391723401",
+"f": 1896,
+"to": 1920
+},
+{
+"id": "9R26-16J",
+"t": "Births (Rođeni) 1900-1901",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-QWL8?cc=2040054&wc=9R26-16J%3A391644801%2C391712301%2C391723601",
+"f": 1900,
+"to": 1901
+}
+],
+"catalogued": 19
+},
+"selce": {
+"name": "Selce",
+"atlas": "selce",
+"volumes": [
+{
+"id": "9R2M-BZF",
+"t": "Births (Rođeni) 1778-1815 Deaths (Umrli) 1790-1815 Births (Rođeni) 1816-1861 Marriages (Vjenčani) 1790-1815",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5962-Y?cc=2040054&wc=9R2M-BZF%3A391644801%2C391919101%2C391919102",
+"f": 1778,
+"to": 1861
+},
+{
+"id": "9R2D-N35",
+"t": "Marriages (Vjenčani) 1815-1878",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QL7?cc=2040054&wc=9R2D-N35%3A391644801%2C391919101%2C391919201",
+"f": 1815,
+"to": 1878
+},
+{
+"id": "9R2D-N32",
+"t": "Deaths (Umrli) 1816-1886",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-13T7?cc=2040054&wc=9R2D-N32%3A391644801%2C391919101%2C391919301",
+"f": 1816,
+"to": 1886
+}
+],
+"catalogued": 0
+},
+"senj": {
+"name": "Senj",
+"atlas": "senj",
+"volumes": [
+{
+"id": "9RK1-T3F",
+"t": "Births (Rođeni) 1734-1756",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-PV4W?cc=2040054&wc=9RK1-T3F%3A391644801%2C391920301%2C391902501",
+"f": 1734,
+"to": 1756
+},
+{
+"id": "9RK1-W3P",
+"t": "Marriages (Vjenčani) 1734-1819 Marriages (Vjenčani) 1820-1858 Deaths (Umrli) 1820-1848 Deaths (Umrli) 1849-1858",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-L42V?cc=2040054&wc=9RK1-W3P%3A391644801%2C391920301%2C391920701",
+"f": 1734,
+"to": 1858
+},
+{
+"id": "9R2M-L27",
+"t": "Births (Rođeni) 1756-1858",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5YLC?cc=2040054&wc=9R2M-L27%3A391644801%2C391920301%2C391920401",
+"f": 1756,
+"to": 1858
+},
+{
+"id": "9R2D-JW5",
+"t": "Births (Rođeni) 1859-1877",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-137H?cc=2040054&wc=9R2D-JW5%3A391644801%2C391920301%2C391699301",
+"f": 1859,
+"to": 1877
+},
+{
+"id": "9R2D-K6D",
+"t": "Deaths (Umrli) 1859-1907",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14XF?cc=2040054&wc=9R2D-K6D%3A391644801%2C391920301%2C391921401",
+"f": 1859,
+"to": 1907
+},
+{
+"id": "9R2D-N3F",
+"t": "Marriages (Vjenčani) 1859-1920",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-179M?cc=2040054&wc=9R2D-N3F%3A391644801%2C391920301%2C391921101",
+"f": 1859,
+"to": 1920
+},
+{
+"id": "9R2D-JWL",
+"t": "Births (Rođeni) 1878-1894",
+"u": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17FP?cc=2040054&wc=9R2D-JWL%3A391644801%2C391920301%2C391809001",
+"f": 1878,
+"to": 1894
+}
+],
+"catalogued": 3,
+"how": "the Atlas place senj (Senj (Senj)), found by name and position: this archive's place map has no Atlas id for it",
+"held": {
+"parish": "Senj",
+"books": "Births 1734-1894 · Deaths 1820-1858, 1859-1907 · Marriages 1734-1858, 1859-1920",
+"checked": "Marriages verified end to end — image 196 is p.192 (1885), image 371 is p.366 (1920).",
+"bad": false
+}
+},
+"sumecica": {
+"name": "Šumećica",
+"atlas": null,
+"volumes": [],
+"catalogued": 0
+}
+},
+"stats": {
+"a surname but no place the people records name": 53,
+"internal (the archive's own data audits, not a source)": 9,
+"shown on person pages (by tag)": 150,
+"no surname tag": 59,
+"wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
+},
+"totals": {
+"register": 274,
+"shown": 153
+}
+}
