@@ -86,14 +86,21 @@ LANGNAME = {l["key"]: l["label"] for l in LANGS}
 # called `people` holding occurrence counts, which this file also had. What the
 # column answers is WHY THIS FORM IS NOT THE NOMINATIVE.
 #
-# The vocabulary stays closed and stays as this archive measured it. A sister
-# archive proposed splitting «dative or ablative» into two, and in a Latin
-# register that is a distinction without a difference: the dative and the ablative
-# are formally identical in most declensions, and a clerk writing «Josepho» has
-# not told you which he meant. Splitting them would invite a guess. A closed list
-# that prints itself on failure is worth more than a finer one that cannot be
-# applied.
-NOT_NOMINATIVE = {"accusative", "genitive", "dative or ablative", "abbreviated"}
+# The vocabulary stays closed, but it is the Atlas's now: the catalogue spells a case on
+# its own (dative, ablative, vocative) or as a pair («dative/ablative», «dative, ablative»,
+# «dative or ablative»), where this archive once held only «dative or ablative» because in a
+# Latin register the two are formally identical and a clerk writing «Josepho» has not told
+# you which he meant. The page only prints the label, so nothing here depends on the split.
+# A value is accepted when every part of it is a real case name or «abbreviated»; anything
+# else still stops the build and prints this list.
+NOT_NOMINATIVE = {"accusative", "genitive", "dative", "ablative", "vocative", "nominative", "abbreviated"}
+
+
+def case_ok(v):
+    parts = [p.strip() for p in re.split(r"\s*(?:,|/|\bor\b)\s*", v) if p.strip()]
+    return bool(parts) and all(p in NOT_NOMINATIVE for p in parts)
+
+
 CASES = NOT_NOMINATIVE  # the old name, until the shared component stops reading it
 
 
@@ -147,12 +154,20 @@ def main():
         for lang, fl in ar["langs"].items():
             for f in fl:
                 where.setdefault(fold(f["form"]), set()).add(i)
+    # The archive's own languages (sources/languages.psv) come first, in its order and its
+    # words. A language only the Atlas catalogues (Slovene, Portuguese, ... it seeds forms in
+    # fifty) is named by the Atlas's own list in the snapshot and follows them; one the Atlas
+    # lists in neither place is still a failure below.
+    for l in atlas.get("languages", []):
+        if l["key"] not in LANGNAME:
+            LANGS.append({"key": l["key"], "label": l["label"], "note": l.get("note", "")})
+            LANGNAME[l["key"]] = l["label"]
     fails = []
     for i, ar in enumerate(arows):
         for lang in ar["langs"]:
             if lang not in LANGNAME:
                 fails.append(f"{SNAP}: «{ar['canon']}» has a form filed under «{lang}», "
-                             f"which sources/languages.psv does not name")
+                             f"which neither sources/languages.psv nor the snapshot's language list names")
 
     # THE GATE THAT MATTERS, and it runs in the direction that can hurt. A form this
     # archive HAS met and the Atlas does not list is a form the page will not offer.
@@ -203,9 +218,9 @@ def main():
                              "note": f.get("note", ""), "case": f.get("notNominative", "") or f.get("case", ""),
                              "status": f.get("status", ""), "seenAll": f.get("seenAll", f.get("seen", 0))})
     for r in rows:
-        if r["case"] and r["case"] not in CASES:
+        if r["case"] and not case_ok(r["case"]):
             fails.append(f"{SNAP}: «{r['form']}» declares an unknown notNominative value "
-                         f"«{r['case']}» — the vocabulary is {' · '.join(sorted(NOT_NOMINATIVE))}")
+                         f"«{r['case']}» — the vocabulary is {' · '.join(sorted(NOT_NOMINATIVE))}, alone or paired")
     if fails:
         print(f"FAIL  {len(fails)} problem(s) in the Atlas given-name snapshot:")
         for f in sorted(set(fails))[:24]:
