@@ -274,6 +274,15 @@ for r in NAMES["rows"]:
         for f in forms:
             # the Atlas's own claim: a case-by-case form is sometimes another name
             # (Joan, Luca, Luce), so it proves nothing about the person carrying it
+            # A LEAD IS NEVER A FINDING (the Atlas's own rule for its given-name catalogue), and a
+            # Latin case ending is a clerk's grammar, not a name anyone bears. Both reach the
+            # catalogue from outside the records (Jean from Wiktionary, Joanne and Johanne as the
+            # ablative of Joannes) and neither is evidence about the sex of a person called that:
+            # when they were counted, four women (Jean, Jean, Joanne, Johanne Jacobsdr) were
+            # flagged against a name the Atlas only suggests. Only a form met on a record, or
+            # one a named rule makes mechanical, may object to a recorded sex.
+            if f.get("status") == "lead" or f.get("notNominative"):
+                continue
             if f.get("status") == "case-by-case":
                 FORM_GROUP[fold(f["form"])].add("?ambiguous")
             FORM_GROUP[fold(f["form"])].add(r["canon"])
