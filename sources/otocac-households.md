@@ -2,6 +2,9 @@
 
 Built from `sources/otocac-zubrinic-table.tsv` (1279 rows) after the events pass (`events.tsv`, 938 events, event ids given as `X16-D012` etc.) with the strip-report corrections and the zoom checks applied. Names are as written; modern forms only in parentheses. Nothing is inferred beyond what a record says. No living people appear (latest entry 1872).
 
+Full-zoom check, 10 November 2026 (made after this file was built; the households and chains below have NOT been rebuilt from it). The 165 medium and low table rows were re-read at level 13; the verdicts are in the table's `verified` column and each event's `status` in `events.tsv` is now `zoom_confirmed`, `zoom_stem`, `zoom_unsettled` or `zoom_lookalike` where one of its table rows was zoomed. Read an event below as NOT established if it has `zoom_lookalike` (the name is another name: N3B-B059, N3B-B115, N3B-B120, N3B-B132, N3B-B135, N3B-B149, Y4C-B235, X16-M008, X16-M010) or `zoom_unsettled` (27 events, listed in `events.tsv`). The high-confidence rows are first-pass readings, not re-zoomed.
+
+
 Conventions. House = village plus house number as read; a village name is normalised (Grozor/Prosor = Prozor, Shumec/Šumeć = Šumećica, Police/Paljice = Poljice) while the original spelling stays in `events.tsv`. `(?)` after a number = number read as doubtful or alternative. "also at" = the entry names a second house. Status tags show only when not `read_by_reader`. An event whose house number is blank or illegible is in section 1.3, not in a household. The 1780s X16 deaths carry a "Serie/Numero" that is not a house number; they are not used here.
 
 ## 1. Households (place and house number)
