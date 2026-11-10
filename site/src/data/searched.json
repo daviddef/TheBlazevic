@@ -10,7 +10,7 @@
  "counts": {
   "blocked": 4,
   "nothing": 58,
-  "partial": 48,
+  "partial": 51,
   "pending": 6,
   "yield": 158
  },
@@ -5979,6 +5979,54 @@
      "Karlobag"
     ]
    ]
+  },
+  {
+   "src": "FamilySearch — Otočac Births 1834–1846 (N3B), every page read for the surname Žubrinić in all its spellings",
+   "key": "fs/otocac-births-1834-46-zubrinic",
+   "what": "every Žubrinić, and every mother née, godparent and father of that name, in the Otočac baptism register 1834–1846",
+   "when": "10 Nov 2026",
+   "outcome": "partial",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch"
+   ],
+   "waypoint": "9RK1-N3B",
+   "pages": "1-73 (every page, by crop reader; hits not yet all checked at the plate)",
+   "url": "https://www.familysearch.org/search/catalog/",
+   "got": "All 73 images read by page-crop readers in two half-page crops each; 302 mentions of the name were recorded (father, mother née, godparent, spouse of a godmother). A reader's hit is not a finding until it is zoomed: the doubtful spellings were zoomed and are in the zoom-check file, the rest are marked read_by_reader. Spellings as written: Xubrinich, Zubrinich, Žubrinić, with a looped capital that the clerks write as X, Z, Ž, K or J. Findings table (one row per mention, every hit still to be checked at the plate except those in the zoom-check file): sources/otocac-zubrinic-table.tsv; events and households: sources/otocac-events.tsv and sources/otocac-households.md."
+  },
+  {
+   "src": "FamilySearch — Otočac Births 1846–1858 and Deaths 1834–1858 (Y4C), read for the surname Žubrinić",
+   "key": "fs/otocac-y4c-zubrinic",
+   "what": "every Žubrinić in the baptisms 1846–1858 and the deaths 1834–1858 of Otočac",
+   "when": "10 Nov 2026",
+   "outcome": "partial",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch"
+   ],
+   "waypoint": "9RK1-Y4C",
+   "pages": "1-217 (page-crop readers; hits not yet all checked at the plate)",
+   "url": "https://www.familysearch.org/search/catalog/",
+   "got": "Images 1-217 read; 473 mentions recorded. **Gap: the deaths Nrus 12-29 (February to 10 May 1852, book pages 189-190) are not on the film between the openings 187|188 and 191|192, so any Žubrinić death of those months is not seen.** Marriages 1834-1858 are not in this volume. Images beyond 217 belong to another parish. Findings table (one row per mention, every hit still to be checked at the plate except those in the zoom-check file): sources/otocac-zubrinic-table.tsv; events and households: sources/otocac-events.tsv and sources/otocac-households.md."
+  },
+  {
+   "src": "FamilySearch — Otočac census (Status Animarum), Marriages 1859–1872 and Deaths 1780–1836 and 1859–1872 (X16)",
+   "key": "fs/otocac-x16-zubrinic",
+   "what": "every Žubrinić in the deaths 1780–1836 and 1859–1872 and the marriages 1859–1872 of Otočac, and the census households the index points to",
+   "when": "10 Nov 2026",
+   "outcome": "partial",
+   "tags": [
+    "zubrinic",
+    "otocac",
+    "familysearch"
+   ],
+   "waypoint": "9R2D-16X",
+   "pages": "deaths 1780-1836 153-332 (first pass of left and right pages, then a second pass over the left-page line ends); marriages 129-152; deaths 1859-72 336-379; census household pages 51-55, 62-63, 81-85, 100-104, 106-109 only",
+   "url": "https://www.familysearch.org/search/catalog/",
+   "got": "504 mentions recorded in the deaths and marriages. **The 1780–1836 deaths carry no mothers' maiden names or godparents; the census (images 9-122) was read only for the households the index names, and the census pages numbered 186-205 (Šumećica 2, 5, 6, Poljice 19 by the index) were not found in the film's order and are not read.** Entries that read like Žubrinić but are another name were moved out (Xubchich 1783, Zubeich 1806, Zubzich 1812: Žubčić type; Zubesich 1833). Findings table (one row per mention, every hit still to be checked at the plate except those in the zoom-check file): sources/otocac-zubrinic-table.tsv; events and households: sources/otocac-events.tsv and sources/otocac-households.md."
   }
  ]
 }
