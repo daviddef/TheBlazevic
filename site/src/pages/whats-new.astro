@@ -1,0 +1,13 @@
+---
+import Base from "../layouts/Base.astro";
+import WhatsNew from "@daviddef/archive-kit/components/WhatsNew.astro";
+import { pulse } from "../lib/pulse.js";
+---
+<Base
+  title="What's new"
+  eyebrow="Fresh from the workbench"
+  dek="Here is what has been read and found in this archive lately, newest first. The full lines are on the What Has Been Read and Corrections pages."
+  description="What is new in the Blažević Archive: the registers and sources read each day and what they gave, newest first."
+  noautolink={true}>
+  <WhatsNew pulse={pulse} askHref="/open-questions/" tries="Žubrinić, Smokvica, Otočac" />
+</Base>
