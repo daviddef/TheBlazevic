@@ -9,4 +9,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 KIT = os.path.join(HERE, "..", "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools", "menu_inventory.py")
 os.chdir(os.path.join(HERE, ".."))
 g = {"__file__": os.path.join(HERE, "menu_inventory.py"), "__name__": "__main__"}
-exec(compile(open(KIT, encoding="utf-8").read(), KIT, "exec"), g)
+src = open(KIT, encoding="utf-8").read()
+# The kit's "where does a block now stand" index skips every page under /person/, /people/ and /who/ (written for archives where those are
+# directories of person pages). Here /people/ and /who/ are themselves menu pages, so their own index pages are kept in the index; the pages
+# below them (/who/<name>/) are still skipped, as the kit intends. Same local patch as Mazza's; the kit is not edited.
+OLD = 'if url.startswith(("/person/", "/people/", "/who/")):'
+NEW = 'if url.startswith(("/person/", "/people/", "/who/")) and url not in ("/people/", "/who/"):'
+assert OLD in src, "kit menu_inventory.py changed: re-check this override"
+exec(compile(src.replace(OLD, NEW), KIT, "exec"), g)
