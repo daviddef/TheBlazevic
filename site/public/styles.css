@@ -478,6 +478,10 @@ header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 .topnav .panel.wide{left:auto;right:0;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);gap:4px 14px;max-width:94vw;padding:12px;overflow-x:visible}
 .topnav .panel.wide a{white-space:normal}
 .topnav .panel .pg{display:flex;flex-direction:column;min-width:0}
+/* a long list in one group (Places & families > The families, 13 Nov 2026): one A to Z run that flows down the first column and on into the second */
+.topnav .panel.wide:has(.pg.cols2){grid-auto-columns:minmax(210px,1fr)}
+.topnav .panel .pg.cols2{display:block;column-count:2;column-gap:14px;grid-column:span 2}
+.topnav .panel .pg.cols2>*{display:block;break-inside:avoid}
 .topnav .panel a.ph{font-weight:600;color:var(--ink);letter-spacing:.01em;border-bottom:1px solid var(--rule);border-radius:8px 8px 0 0;margin-bottom:4px}
 .topnav .panel .ps{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);padding:11px 11px 3px}
 .drawer .dsub{margin:2px 0 8px;display:flex;flex-direction:column}

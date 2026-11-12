@@ -3,9 +3,12 @@
    name, Research. The header menu and the drawer (layouts/Base.astro) read THIS list, so there is one place to change a label or move
    a page. MENU ONLY: no page was renamed, merged or deleted, no address changed, no page's text changed; every href below is a page
    that was already built, only its group moved. No family page left the dropdown: tools/familycheck.py requires every family page to be in
-   the families menu (the landing site's chips are read from it), so the nineteen smaller surname pages stay, in a second column
-   ("More families"), although the /families/ index links each of them and docs/menu-a-reach.md could prove a trim. A trim would need
-   that gate changed first: David's decision.
+   the families menu, so the nineteen smaller surname pages stay although the /families/ index links each of them (docs/menu-a-reach.md
+   could prove a trim: David's decision).
+   FAMILY ORDER (13 November 2026, David: "own line first then A to Z"; the estate's family-menu-rule.md): the heading "The families" is
+   itself the link to the /families/ index (no second "The Families" link under it), then Blažević (the own line), then every other surname
+   in ONE run A to Z with accents folded (Šestan under S, Žubrinić under Z), then the pages that are not a surname. "Places" likewise: its
+   heading links /places. `cols: 2` only lets the long list flow into two CSS columns; the order is one run, down then across.
      a menu is  [label, items]
      items      either a flat list of [href, label]            (a short menu: one column)
                 or a list of groups { head, href?, items }   (a group is a column; `href` makes its heading a link; an item is [href, label])
@@ -14,7 +17,7 @@
                               -> People > Drawn; The Atlas -> Places & families > Places; What's new -> Research only (it is the
                               "What's new" group of Research, and the pulse button).
      Our line (7)          -> unchanged, plus the Documents menu (6) as a second column.
-     The families (30)     -> Places & families > The families.
+     The families (30)     -> Places & families > The families (one A to Z run, see above).
      Documents (6)         -> Our line > Documents.
      Origins (7)           -> Places & families > Origins and > Places.
      People & places (6)   -> People (the lists, and Drawn) and Places & families > Places.
@@ -46,19 +49,20 @@ export const MENU = [
     ] },
   ]],
   ["Places & families", [
-    { head: "The families", items: [
-      ["/families", "The Families"], ["/lines", "Lines of a Name"], ["/connected", "Who They Married"],
-      ["/blazevic", "Blažević"], ["/zubrinic", "Žubrinić"], ["/zubrinic-roots", "The Žubrinić Fragments"], ["/papic", "Papić"],
-      ["/prpic", "Prpić"], ["/kalanj", "Kalanj"], ["/pavelic", "Pavelić"], ["/kosina/", "Kosina"],
+    { head: "The families", href: "/families", cols: 2, items: [
+      ["/blazevic", "Blažević"],
+      ["/antic", "Antić"], ["/babic", "Babić"], ["/boras", "Boras"], ["/brozovic", "Brozović"],
+      ["/gerkacs", "Gerkacs"], ["/jellicic", "Jelličić"], ["/kalanj", "Kalanj"], ["/kosina/", "Kosina"],
+      ["/krmpotic", "Krmpotić"], ["/loncaric", "Lončarić"], ["/luckinic", "Luckinić"], ["/maric", "Marić"],
+      ["/oreskovic", "Orešković"], ["/papic", "Papić"], ["/pavelic", "Pavelić"], ["/pilipic", "Pilipić"],
+      ["/prpic", "Prpić"], ["/sekula", "Sekula"], ["/sestan", "Šestan"], ["/smojver", "Smojver"],
+      ["/spalj", "Špalj"], ["/tomljanovic", "Tomljanović"], ["/uroda", "Uroda"], ["/vukelic", "Vukelić"],
+      ["/zubrinic", "Žubrinić"],
+      ["/lines", "Lines of a Name"], ["/connected", "Who They Married"], ["/zubrinic-roots", "The Žubrinić Fragments"],
     ] },
-    { head: "More families", items: [
-      ["/boras", "Boras"], ["/vukelic", "Vukelić"], ["/sestan", "Šestan"], ["/tomljanovic", "Tomljanović"], ["/krmpotic", "Krmpotić"],
-      ["/babic", "Babić"], ["/spalj", "Špalj"], ["/loncaric", "Lončarić"], ["/oreskovic", "Orešković"], ["/sekula", "Sekula"],
-      ["/maric", "Marić"], ["/antic", "Antić"], ["/pilipic", "Pilipić"], ["/brozovic", "Brozović"], ["/jellicic", "Jelličić"],
-      ["/uroda", "Uroda"], ["/luckinic", "Luckinić"], ["/gerkacs", "Gerkacs"], ["/smojver", "Smojver"],
-    ] },
-    { head: "Places", items: [
-      ["/places", "Places"], ["/atlas/", "The Atlas"], ["/gazetteer", "The Map"], ["/port-pirie", "Port Pirie"], ["/abroad/", "The Catch Abroad"],
+    { head: "Places", href: "/places", items: [
+      ["/atlas/", "The Atlas"], ["/gazetteer", "The Map"], ["/port-pirie", "Port Pirie"],
+      ["/abroad/", "The Catch Abroad"],
     ] },
     { head: "Origins", items: [
       ["/bunjevci", "The Bunjevci"], ["/frontier", "The Frontier"], ["/work", "What They Did"], ["/america", "The Other Emigration"],
