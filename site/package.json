@@ -38,7 +38,7 @@
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:familypages": "python3 ../tools/familycheck.py --selftest && python3 ../tools/familycheck.py --dist \"${ARCHIVE_OUT:-dist}\"",
     "check:alsoin": "python3 ../tools/check_also_in.py --selftest && python3 ../tools/check_also_in.py",
-    "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",
+    "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --canon menu-canon.json",
     "check:lines": "python3 ../tools/living_slugs.py && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --lines src/data/lines.json --dist \"${ARCHIVE_OUT:-dist}\" --config standard.json --living ../../private/blazevic/living-slugs.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --selftest",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 3",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",

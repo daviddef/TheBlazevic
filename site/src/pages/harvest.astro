@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import AtlasNote from "../components/AtlasNote.astro";
 import people from "../data/people.json";
 import T from "../data/targets.json";
 
@@ -17,6 +18,14 @@ const house22 = (people.rows || people).filter((r) =>
   eyebrow={`${T.totalReachable} events that fall inside a film this archive can reach`}
   dek="Reading a register is not expensive. Not knowing what you are looking for is. This is the worklist: every person in the archive whose birth or death was written in a parish whose films are reachable, and the year checked against what each book actually covers.">
 
+  {/* 12 November 2026 (the research-menu trial, wave 3): a short note, added at the top; nothing below it was removed or shortened. */}
+  <AtlasNote
+    only={[["One book holds nine direct ancestors", "#nine-ancestors", "the Selce deaths"], ["A second household census", "#census", "seventy years older, and in Croatian"], ["Every book, by how much it would give", "#every-book", "the worklist itself"]]}
+    atlasHead="Registers and places on the Atlas"
+    atlas={[["Senj on the Atlas", "https://recordatlas.org/place/senj/"], ["Otočac on the Atlas", "https://recordatlas.org/place/otocac/"], ["What the map does not know", "https://recordatlas.org/coverage/"]]}
+    para="Which registers exist for each place, and the films that reach them, are kept on the"
+    tail="for every family archive. This page is what only this archive can say: which of its people sit in which book, and how much each book would give." />
+
   <section class="blk">
     <p class="lede">Until now every sitting at a film viewer began with a search. This page exists so
     that the next one begins with a <strong>list</strong>.</p>
@@ -32,7 +41,7 @@ const house22 = (people.rows || people).filter((r) =>
 
   <section class="blk">
     <div class="lab">The two that matter most</div>
-    <h2>One book holds nine direct ancestors</h2>
+    <h2 id="nine-ancestors">One book holds nine direct ancestors</h2>
     <p class="lede"><strong>Selce deaths, {selceDeaths?.holds}.</strong> Nine people on
     <a href={u("/direct-line/")}>the direct line</a> died at Selce inside that range —
     ahnentafel {selceDeaths?.ahn.join(", ")}. Checked person by person: five of the nine have an image
@@ -70,7 +79,7 @@ const house22 = (people.rows || people).filter((r) =>
 
   <section class="blk">
     <div class="lab">Opened 14 September 2026</div>
-    <h2>A second household census, seventy years older — and in Croatian</h2>
+    <h2 id="census">A second household census, seventy years older — and in Croatian</h2>
     <p class="lede">Grižane, the parish next door to Novi Vinodolski, keeps a
     <strong><em>Stanje duša</em> of 1738</strong> — images 100–140 of a 579-image film. It is not a
     table but a list, household by household, with every relationship written out
@@ -93,7 +102,7 @@ const house22 = (people.rows || people).filter((r) =>
   </section>
 
   <section class="blk">
-    <h2>Every book, by how much it would give</h2>
+    <h2 id="every-book">Every book, by how much it would give</h2>
     <table class="reg">
       <thead><tr><th>Book</th><th>Holds</th><th class="mono">reach</th><th class="mono">of</th><th>Direct ancestors</th></tr></thead>
       <tbody>{T.books.map((b) => (

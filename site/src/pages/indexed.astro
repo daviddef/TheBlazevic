@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import AtlasNote from "../components/AtlasNote.astro";
 import I from "../data/indexed.json";
 // The measurement that decides how every register row on the work list is
 // planned. It lived in sources/familysearch/indexed.psv, read by no tool and
@@ -12,6 +13,14 @@ const fag = I.rows.filter((r) => r.notARegister);
 <Base title="Which Books Are Indexed"
   eyebrow="Measured parish by parish, and wrong twice before it was right"
   dek={`An indexed book is a search box. An unindexed one is a sitting in front of a film. ${I.counts.indexed} of ${I.counts.parishes} parishes are searchable as text across ${I.counts.collections} collections, and ${I.counts.zero} are not searchable at all — and the useful part of this page is how often that answer has been wrong.`}>
+
+  {/* 12 November 2026 (the research-menu trial, wave 3): a short note, added at the top; nothing below it was removed or shortened. */}
+  <AtlasNote
+    only={[["What can be searched", "#searchable", "the parishes with an index, and what was probed in each"], ["What cannot", "#cannot", "the parishes with none"], ["Wrong twice", "#wrong-twice", "and what each mistake would have cost"]]}
+    atlasHead="Registers and places on the Atlas"
+    atlas={[["Senj on the Atlas", "https://recordatlas.org/place/senj/"], ["Otočac on the Atlas", "https://recordatlas.org/place/otocac/"], ["What the map does not know", "https://recordatlas.org/coverage/"]]}
+    para="The registers of each place, and what each volume holds, are kept on the"
+    tail="for every family archive. This page is this archive's own measurement of which of its books can be searched as text, in full." />
 
   <section class="blk">
     <p class="lede">Everything this archive plans depends on one question: <strong>can this book be
@@ -29,7 +38,7 @@ const fag = I.rows.filter((r) => r.notARegister);
 
   <section class="blk">
     <div class="lab">{on.length} parishes searchable</div>
-    <h2>What can be searched</h2>
+    <h2 id="searchable">What can be searched</h2>
     <table class="reg">
       <thead><tr><th style="width:15%">Parish</th><th style="width:30%">Collection</th>
         <th style="width:10%">Event</th><th>What was probed, and what is known</th></tr></thead>
@@ -49,7 +58,7 @@ const fag = I.rows.filter((r) => r.notARegister);
 
   <section class="blk">
     <div class="lab">{off.length} parishes with nothing</div>
-    <h2>What cannot</h2>
+    <h2 id="cannot">What cannot</h2>
     <p>These returned <strong>nothing</strong> — first under two surnames each, then again under a
     probe that names <strong>no surname at all</strong>. That second test is what makes them zeros
     rather than gaps.</p>
@@ -69,7 +78,7 @@ const fag = I.rows.filter((r) => r.notARegister);
 
   <section class="blk">
     <div class="lab">The corrections</div>
-    <h2>This table has been wrong twice, and both are worth keeping</h2>
+    <h2 id="wrong-twice">This table has been wrong twice, and both are worth keeping</h2>
 
     <p><strong>First it said the index was a baptism index.</strong> In capitals: «across every
     parish this archive uses, the index is a BAPTISM index — not one parish marriage register and
