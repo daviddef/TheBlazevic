@@ -89,7 +89,7 @@ const thisArchive =
           <div class={"panel" + (links[0] && links[0].items ? " wide" : "")}>
             {links[0] && links[0].items
               ? links.map((g) => (
-                  <div class="pg">
+                  <div class={"pg" + (g.cols ? " cols" + g.cols : "")}>
                     {g.href ? <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps ph0">{g.head}</span>}
                     {g.items.map((x) => Array.isArray(x)
                       ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
