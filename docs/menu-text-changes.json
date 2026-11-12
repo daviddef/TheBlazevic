@@ -1,0 +1,31 @@
+{
+ "token_swaps": [],
+ "accepted": [],
+ "snapshot_pages": {},
+ "site_changes": [
+  {
+   "page": "/part/how-we-know/",
+   "why": "the book's Part VI lists four new Research chapters (Research, To do, Sources & method, Checks) at its head, so the chapters after them are renumbered; no existing entry was removed"
+  },
+  {
+   "page": "/contents/",
+   "why": "the contents lists the same four new Research chapters, and the Part VI chapters after them are renumbered; no existing entry was removed"
+  },
+  {
+   "page": "/indexed/",
+   "why": "added at the top: the short Atlas note (what only this archive holds / the Atlas); ids added to three headings; nothing removed"
+  },
+  {
+   "page": "/harvest/",
+   "why": "added at the top: the short Atlas note; ids added to three headings; nothing removed"
+  },
+  {
+   "page": "/hungarian-press/",
+   "why": "added at the top: the short Atlas note; an id added to one heading; nothing removed"
+  },
+  {
+   "page": "/sources/",
+   "why": "added at the top: one line linking the three deep dives (The Stones, The Hungarian Press, Found Beside the Tree) and the Sources & method page; nothing removed"
+  }
+ ]
+}

@@ -4,6 +4,7 @@ import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 /* every public asset gets a fingerprint, so a fix is never served stale */
 const v = versioner();
 import { u } from "../lib/url.js";
+import { navGroups } from "../lib/research-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -47,8 +48,11 @@ const nav = [
      already kept a group called The name between People & places and Evidence;
      this is that group. */
   ["The name", [["/name", "The Name"], ["/by-names", "The Second Name"], ["/your-name/", "Say Your Name"]]],
-  ["Evidence", [["/method", "Method"], ["/sources", "Sources"], ["/searched", "What Has Been Read"], ["/open-questions", "Open Questions"], ["/errands/", "Errands"], ["/worklist/", "The work list"], ["/corrections/", "Corrections"], ["/changes/", "What changed"]]],
-  ["Investigations", [["/harvest", "What Is Left to Read"], ["/readings/", "What the Registers Say"], ["/snapshots/", "The Pages Themselves"], ["/indexed/", "Which Books Are Indexed"], ["/coverage", "What Rests on a Document"], ["/impossible", "What Cannot Be True"], ["/duplicates", "The Same Person, Twice"], ["/buckets", "Labels Where the Father Should Be"], ["/found/", "Found Beside the Tree"], ["/stones/", "The Stones"], ["/hungarian-press/", "The Hungarian Press"]]],
+  /* 12 November 2026 (the research-menu trial, wave 3): "Evidence" and "Investigations" are one "Research" menu with four groups.
+     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
+     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
+     menus is still a built page at the address it had; /whats-new/ stays in Start as well. The fourth group, Checks, is a proposal. */
+  ["Research", navGroups],
 ];
 
 const here = Astro.url.pathname.replace(/\/$/, "");
@@ -103,8 +107,16 @@ const thisArchive =
       {nav.map(([label, links]) => (
         <details class="menu">
           <summary>{label}</summary>
-          <div class="panel">
-            {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+          <div class={"panel" + (links[0] && links[0].items ? " wide" : "")}>
+            {links[0] && links[0].items
+              ? links.map((g) => (
+                  <div class="pg">
+                    <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.items.map((x) => Array.isArray(x)
+                      ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
+                      : <span class="ps">{x.sub}</span>)}
+                  </div>))
+              : links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
           </div>
         </details>
       ))}
@@ -114,7 +126,15 @@ const thisArchive =
   <div class="drawer" id="drawer" hidden>
     <div class="wrap">{nav.map(([label, links]) => (
       <div class="dgrp"><span class="gl">{label}</span>
-        {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+        {links[0] && links[0].items
+          ? links.map((g) => (
+              <div class="dsub">
+                <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                {g.items.map((x) => Array.isArray(x)
+                  ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
+                  : <span class="ps">{x.sub}</span>)}
+              </div>))
+          : links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
       </div>
     ))}
       {/* the header's Search pill is hidden with the nav on a narrow screen; without this a phone or a tablet has no way to /search/ */}

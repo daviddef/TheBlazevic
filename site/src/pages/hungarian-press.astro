@@ -8,6 +8,7 @@
    happen. Nothing here has been added to the tree. */
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import AtlasNote from "../components/AtlasNote.astro";
 
 const FINDS = [
   {
@@ -148,6 +149,14 @@ const QUERIES = [
   eyebrow="Arcanum Digitheca, opened 14 September 2026"
   dek="Lika and the Kvarner were administered from Budapest, and this archive's own place strings still say so. The press and the official publications of that administration had never been searched by anyone in this family — and the first afternoon in them produced a number for the tobacco factory, a Žubrinić who kept a bank's cash, and three Kalanj men of Brinje in a casualty list.">
 
+  {/* 12 November 2026 (the research-menu trial, wave 3): a short note, added at the top; nothing below it was removed or shortened. */}
+  <AtlasNote
+    only={[["What was searched, and the two zeros", "#searched", "every search made in the press, and what did not turn up"]]}
+    atlasHead="The sources on the Atlas"
+    atlas={[["The sources, as the Atlas lists them", "https://recordatlas.org/providers/"], ["Croatia on the Atlas", "https://recordatlas.org/country/hr/"]]}
+    para="Arcanum is one of the providers the Atlas lists, for every family archive; the searches made in it, the snippets and the findings are only here. See the"
+    tail="for the shared list. The page below is this archive's own, in full." />
+
   <section class="blk">
     <div class="qa">
       <h3>What is readable here, and what is not</h3>
@@ -179,7 +188,7 @@ const QUERIES = [
   ))}
 
   <section class="blk">
-    <h2>What was searched, and the two zeros</h2>
+    <h2 id="searched">What was searched, and the two zeros</h2>
     <p class="lede">Every query run on 14 September 2026, with its hit count — because the next
     person should be able to see what has been asked and not ask it again.</p>
     <div class="scroll">

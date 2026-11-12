@@ -471,6 +471,30 @@
    "intro": "Every claim here carries a confidence. These chapters keep the sources, the registers read and not read, the open questions and the corrections in the open, so that a gap is not mistaken for a fact.",
    "chapters": [
     {
+     "path": "/research/",
+     "title": "Research",
+     "blurb": "How this archive works in the open: what is to do, what is new, what it stands on, and the checks it runs on itself.",
+     "group": "Where to start"
+    },
+    {
+     "path": "/research/to-do/",
+     "title": "To do",
+     "blurb": "Open questions, errands, the work list and what is left to read.",
+     "group": "Where to start"
+    },
+    {
+     "path": "/research/sources-and-method/",
+     "title": "Sources & method",
+     "blurb": "What this archive stands on, how it reads a register, and the long studies of single sources.",
+     "group": "Where to start"
+    },
+    {
+     "path": "/research/checks/",
+     "title": "Checks",
+     "blurb": "The four audits the build generates from the tree and the research data.",
+     "group": "Where to start"
+    },
+    {
      "path": "/sources/",
      "title": "Sources",
      "blurb": "A family tree, a set of Croatian parish registers reachable through FamilySearch, and national surname statistics.",
@@ -576,7 +600,9 @@
   "/found/": "/found/"
  },
  "outside": [
-  "/search/", "/privacy/", "/whats-new/",
+  "/search/",
+  "/privacy/",
+  "/whats-new/",
   "/changed/",
   "/married-in/",
   "/photograph-these/"
