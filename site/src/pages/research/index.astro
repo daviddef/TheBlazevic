@@ -2,7 +2,8 @@
 /* RESEARCH: the hub. One menu replaced "Evidence" and "Investigations" on 12 November 2026 (the research-menu trial, wave 3); this
    page is where its groups are set out together. The lists come from lib/research-menu.js, the same that draws the header menu. */
 import Base from "../../layouts/Base.astro";
-import ResearchList from "../../components/ResearchList.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { withBlurbs } from "../../lib/research-counts.js";
 import { u } from "../../lib/url.js";
 import { RESEARCH } from "../../lib/research-menu.js";
 ---
@@ -12,12 +13,12 @@ import { RESEARCH } from "../../lib/research-menu.js";
     <section class="blk">
       <h2 id={g.id} class="rs-h"><a href={u(g.href)}>{g.head}</a></h2>
       <p class="dek rs-dek">{g.dek}</p>
-      <ResearchList items={g.items.filter((x) => !x.sub)} />
+      <ResearchList items={withBlurbs(g.items.filter((x) => !x.sub))} />
       {g.items.filter((x) => x.sub).map((s) => (
         <>
           <h3 id={s.id} class="rs-sub">{s.sub}</h3>
           <p class="cap">{s.note}</p>
-          <ResearchList items={s.items} />
+          <ResearchList items={withBlurbs(s.items)} />
         </>
       ))}
     </section>

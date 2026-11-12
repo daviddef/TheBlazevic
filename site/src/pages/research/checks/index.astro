@@ -1,6 +1,7 @@
 ---
 import Base from "../../../layouts/Base.astro";
-import ResearchList from "../../../components/ResearchList.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { withBlurbs } from "../../../lib/research-counts.js";
 import { u } from "../../../lib/url.js";
 import { RESEARCH } from "../../../lib/research-menu.js";
 const g = RESEARCH.find((x) => x.id === "checks");
@@ -8,12 +9,12 @@ const rest = RESEARCH.filter((x) => x.id !== "checks");
 ---
 <Base title="Checks" eyebrow="Research · the archive checking itself" dek={g.dek}>
   <section class="blk">
-    <ResearchList items={g.items.filter((x) => !x.sub)} />
+    <ResearchList items={withBlurbs(g.items.filter((x) => !x.sub))} />
     {g.items.filter((x) => x.sub).map((s) => (
       <>
         <h2 id={s.id} class="rs-sub2">{s.sub}</h2>
         <p class="cap">{s.note}</p>
-        <ResearchList items={s.items} />
+        <ResearchList items={withBlurbs(s.items)} />
       </>
     ))}
     <p class="cap rs-rest">The rest of Research: {rest.map((x, i) => (<>{i ? " · " : ""}<a href={u(x.href)}>{x.head}</a></>))} · <a href={u("/research/")}>all of it on one page</a>.</p>

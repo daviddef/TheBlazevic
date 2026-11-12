@@ -40,3 +40,5 @@ export const blurbOf = (x) => {
   const n = COUNT[x.href];
   return [asks, n ? `<em>${n}.</em>` : ""].filter(Boolean).join(" ");
 };
+/* the kit's ResearchList takes each item with its sentence already built (`blurb`, HTML) */
+export const withBlurbs = (items) => items.map((x) => ({ ...x, blurb: blurbOf(x) }));
