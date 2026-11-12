@@ -4,7 +4,7 @@ import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 /* every public asset gets a fingerprint, so a fix is never served stale */
 const v = versioner();
 import { u } from "../lib/url.js";
-import { navGroups } from "../lib/research-menu.js";
+import { MENU } from "../lib/site-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -32,28 +32,7 @@ import { pulse } from "../lib/pulse.js";
    say he is the tree's man of that name. */
 const { title, description = "", dek, eyebrow, bare, noindex, unstructured, noautolink, ownHeader } = Astro.props;
 const SITE = "The Blažević Archive";
-const nav = [
-  ["Start", [["/", "Home"], ["/story/", "The Story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline", "The Timeline"], ["/whats-new/", "What's new"], ["/how-far-back", "How Far Back"]]],
-  ["Our line", [["/direct-line", "The Spine"], ["/people/hedviga-blazevic/", "Hedviga"], ["/people/milka-lucia-papic/", "Milka, her mother"], ["/senj", "Senj"], ["/senj-1943", "Senj, 1943"], ["/people/oto-blazevic/", "The Brother"], ["/rhodes", "Rhodes"]]],
-  ["The families", [["/connected", "Who They Married"], ["/lines", "Lines of a Name"], ["/blazevic", "Blažević"], ["/zubrinic", "Žubrinić"], ["/zubrinic-roots", "The Žubrinić Fragments"], ["/papic", "Papić"], ["/prpic", "Prpić"], ["/kalanj", "Kalanj"], ["/boras", "Boras"], ["/kosina/", "Kosina"], ["/vukelic", "Vukelić"], ["/sestan", "Šestan"], ["/pavelic", "Pavelić"], ["/tomljanovic", "Tomljanović"], ["/krmpotic", "Krmpotić"], ["/babic", "Babić"], ["/spalj", "Špalj"], ["/loncaric", "Lončarić"], ["/oreskovic", "Orešković"], ["/sekula", "Sekula"], ["/maric", "Marić"], ["/antic", "Antić"], ["/pilipic", "Pilipić"], ["/brozovic", "Brozović"], ["/jellicic", "Jelličić"], ["/uroda", "Uroda"], ["/luckinic", "Luckinić"], ["/gerkacs", "Gerkacs"], ["/smojver", "Smojver"], ["/families", "The Families"]]],
-  ["Documents", [["/marriage-1920", "The Wedding of 1920"], ["/certificate", "The Certificate"], ["/grave", "The Grave"], ["/arolsen", "The Arolsen Cards"], ["/pictures", "The Pictures"], ["/faces", "The Faces"]]],
-  ["Origins", [["/bunjevci", "The Bunjevci"], ["/frontier", "The Frontier"], ["/work", "What They Did"], ["/america", "The Other Emigration"], ["/gazetteer", "The Map"], ["/port-pirie", "Port Pirie"], ["/abroad/", "The Catch Abroad"]]],
-  ["People & places", [["/people", "The People"], ["/bloodline/", "Blood relatives, drawn"], ["/who/", "Every Name"], ["/register", "The Register"], ["/places", "Places"], ["/marriages/", "The Marriages"]]],
-  /* THE NAME IS ITS OWN GROUP NOW, AND ORIGINS IS ABOUT ORIGINS AGAIN.
-     Say Your Name and The Second Name were filed under Origins, which holds
-     the Bunjevci, the Frontier, what they did, the other emigration, the map
-     and Port Pirie — a group about WHERE THE FAMILY CAME FROM. The two name
-     pages were there because there was nowhere else to put them, and The Name
-     itself was a third place, under Our line. Three archives in this estate
-     already kept a group called The name between People & places and Evidence;
-     this is that group. */
-  ["The name", [["/name", "The Name"], ["/by-names", "The Second Name"], ["/your-name/", "Say Your Name"]]],
-  /* 12 November 2026 (the research-menu trial, wave 3): "Evidence" and "Investigations" are one "Research" menu with four groups.
-     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
-     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
-     menus is still a built page at the address it had; /whats-new/ stays in Start as well. The fourth group, Checks, is a proposal. */
-  ["Research", navGroups],
-];
+const nav = MENU;   /* lib/site-menu.js: the whole menu in one list (12 Nov 2026, the menu regroup, PR A) */
 
 const here = Astro.url.pathname.replace(/\/$/, "");
 // Absolute URL for the sharing tags. Without these every page shared to a
@@ -111,7 +90,7 @@ const thisArchive =
             {links[0] && links[0].items
               ? links.map((g) => (
                   <div class="pg">
-                    <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.href ? <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps ph0">{g.head}</span>}
                     {g.items.map((x) => Array.isArray(x)
                       ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
                       : <span class="ps">{x.sub}</span>)}
@@ -129,7 +108,7 @@ const thisArchive =
         {links[0] && links[0].items
           ? links.map((g) => (
               <div class="dsub">
-                <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                {g.href ? <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps ph0">{g.head}</span>}
                 {g.items.map((x) => Array.isArray(x)
                   ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
                   : <span class="ps">{x.sub}</span>)}
