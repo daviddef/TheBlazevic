@@ -8,10 +8,11 @@ at all: Hedviga's own great-great-grandmothers were a row on /connected/ and not
 else. Nothing noticed, because nothing asked. This asks, twice.
 
   1. EVERY FAMILY IN families.json IS REACHABLE. It has a built page, it is in the
-     sitemap (which the kit writes, and a noindex page is not in), it is in the
-     "Places & families" menu (site/src/lib/site-menu.js; layouts/Base.astro reads it), and /families/ links to it. The chips
-     on defranceski.com are read from that menu, so a page missing from it is a page
-     the landing site cannot see.
+     sitemap (which the kit writes, and a noindex page is not in), and it is linked from the
+     "Places & families" menu (site/src/lib/site-menu.js; layouts/Base.astro reads it) OR from the /families/ index,
+     which that menu links (the heading "The families"). THE ONE RULE FOR ALL EIGHT ARCHIVES (David, 13 November 2026; it
+     replaced "in the menu AND on /families/", which kept all 25 surnames in the dropdown). A page in neither place, or a menu
+     that no longer links /families/, is refused.
   2. EVERY SURNAME ON THE DIRECT LINE HAS A PAGE, OR SAYS WHY NOT. ancestors.json is
      grouped by the archive's own fold() (tools/ancestry.py); a group with no family
      page must be declared in sources/family-pages-pending.psv with the reason, and a
@@ -72,10 +73,14 @@ def check(root, dist, data=None, base=None, keys=None, pend=None):
     sitemap = open(sitemap_path, encoding="utf-8").read() if os.path.exists(sitemap_path) else None
     fam_index_path = os.path.join(dist, "families", "index.html")
     fam_index = open(fam_index_path, encoding="utf-8").read() if os.path.exists(fam_index_path) else ""
-    # the menu "Places & families" only (its columns "The families" and "More families" hold the family pages)
+    # the menu "Places & families" only (its column "The families" holds the family pages and, as its heading, the link to /families/)
     m = re.search(r'\["Places & families", \[(.*?)\n  \]\],\n', nav, re.S)
     menu = m.group(1) if m else ""
 
+    if not re.search(r'head: "The families", href: "/families/?"', menu):
+        problems.append("the 'Places & families' menu in lib/site-menu.js does not link the /families/ index (the heading 'The families' needs href \"/families\")")
+    if not fam_index:
+        problems.append("/families/ is not in the build")
     for f in fams:
         sl = f["slug"]
         if not os.path.exists(os.path.join(dist, sl, "index.html")):
@@ -84,10 +89,10 @@ def check(root, dist, data=None, base=None, keys=None, pend=None):
             problems.append("sitemap.xml missing from the build: run it before this check")
         elif not re.search(r"<loc>[^<]*/%s/</loc>" % re.escape(sl), sitemap):
             problems.append(f"{sl}: not in the sitemap")
-        if not re.search(r'\["/%s/?", ' % re.escape(sl), menu):
-            problems.append(f"{sl}: not in the 'Places & families' menu in lib/site-menu.js")
-        if 'href="/%s/"' % sl not in fam_index:
-            problems.append(f"{sl}: /families/ does not link to it")
+        in_menu = bool(re.search(r'\["/%s/?", ' % re.escape(sl), menu))
+        in_index = 'href="/%s/"' % sl in fam_index
+        if not in_menu and not in_index:
+            problems.append(f"{sl}: linked from neither the 'Places & families' menu (lib/site-menu.js) nor the /families/ index")
         if sl not in keys:
             problems.append(f"{sl}: no fold keys known to the generator")
 
@@ -159,10 +164,17 @@ def selftest():
         open(p, "w", encoding="utf-8").write(re.sub(r"<url>(?:(?!</url>).)*?/uroda/</loc>.*?</url>", "", s, flags=re.S))
     def no_menu(c):
         s = open(c["base"], encoding="utf-8").read()
-        open(c["base"], "w", encoding="utf-8").write(re.sub(r'\["/uroda", "Uroda"\],?\s*', "", s))
+        assert '["/kalanj", "Kalanj"]' in s, "the self-test plants Kalanj, which is in the menu"
+        open(c["base"], "w", encoding="utf-8").write(re.sub(r'\["/kalanj", "Kalanj"\],?\s*', "", s))
     def no_index_link(c):
         p = os.path.join(c["dist"], "families", "index.html"); s = open(p, encoding="utf-8").read()
-        open(p, "w", encoding="utf-8").write(s.replace('href="/uroda/"', 'href="/x/"'))
+        assert 'href="/kalanj/"' in s
+        open(p, "w", encoding="utf-8").write(s.replace('href="/kalanj/"', 'href="/x/"'))
+    def neither(c): no_menu(c); no_index_link(c)
+    def menu_without_index_link(c):
+        s = open(c["base"], encoding="utf-8").read()
+        assert 'href: "/families", ' in s
+        open(c["base"], "w", encoding="utf-8").write(s.replace('href: "/families", ', ""))
     def new_ancestor_surname(c):
         a = load_json(os.path.join(c["data"], "ancestors.json"))
         a.append({"id": "@PLANT@", "slug": "plant", "name": "A Plant", "surname": "Zzyzx", "ahn": 999})
@@ -175,8 +187,10 @@ def selftest():
     trial("control: the real build", nothing, None)
     trial("a family page removed from the build", no_page, "no built page")
     trial("a family dropped from the sitemap", no_sitemap, "not in the sitemap")
-    trial("a family dropped from the 'Places & families' menu", no_menu, "not in the 'Places & families' menu")
-    trial("/families/ no longer linking a family", no_index_link, "does not link to it")
+    trial("a family in the /families/ index but not in the menu (Kalanj dropped from the menu)", no_menu, None)
+    trial("a family in the menu but not on the /families/ index (Kalanj dropped from the index)", no_index_link, None)
+    trial("a family page in NEITHER the menu nor the /families/ index", neither, "linked from neither")
+    trial("a menu that no longer links the /families/ index", menu_without_index_link, "does not link the /families/ index")
     trial("a new surname on the direct line with no page", new_ancestor_surname, "has no family page")
     trial("a pending line for a family that now has a page", stale_pending, "has a page now")
     trial("a pending line matching nobody", pending_nobody, "matches no surname")

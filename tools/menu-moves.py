@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Every entry of the header menu, old build against new: where each address stood and where it stands now, and for every address that
-left the menu, the proof that a reader can still reach it (12 November 2026, the menu regroup, PR A).
+left the menu, the proof that a reader can still reach it (12 November 2026, the menu regroup, PR A; 13 November 2026, the families trim).
 
     python3 tools/menu-moves.py BEFORE_DIST AFTER_DIST OUT_MOVES.md OUT_REACH.md
 
@@ -11,13 +11,16 @@ Reads the <nav class="topnav"> of the home page of each build. Exit 1 if
 Only the text under <main> of a page counts as a link from it (the header, the drawer and the footer are not part of a page)."""
 import html, os, re, sys
 
-# An address that left the dropdown on purpose, and why. Each must be linked from a page that is still in the menu.
-# NONE in this PR: tools/familycheck.py requires every family page in the "Places & families" menu (the landing site's chips read it), so no
-# surname page was trimmed. The nineteen smaller ones COULD go (the /families/ index links each); the reach proof for them is printed below
-# for whoever decides to change that gate.
-DROPPED = {}
-TRIMMABLE = ("boras", "vukelic", "sestan", "tomljanovic", "krmpotic", "babic", "spalj", "loncaric", "oreskovic", "sekula", "maric",
-             "antic", "pilipic", "brozovic", "jellicic", "uroda", "luckinic", "gerkacs", "smojver")
+# An address that left the dropdown on purpose, and why. Each must be linked, in the body of its page, from a page that is still in the menu
+# (for the surname pages and the three added to the index in the same change, that page is /families/, the heading of the families group).
+SURNAME = "a surname page: linked from the /families/ index, which the menu links"
+DROPPED = {"/%s/" % s: SURNAME for s in (
+    "boras", "vukelic", "sestan", "tomljanovic", "krmpotic", "babic", "spalj", "loncaric", "oreskovic", "sekula", "maric",
+    "antic", "pilipic", "brozovic", "jellicic", "uroda", "luckinic", "gerkacs", "smojver")}
+DROPPED["/kosina/"] = "linked from the /families/ index (added to it in this change)"
+DROPPED["/lines/"] = "linked from the /families/ index (added to it in this change)"
+DROPPED["/zubrinic-roots/"] = "linked from the /families/ index (added to it in this change)"
+DROPPED["/connected/"] = "linked from a note on the /families/ index (already there)"
 
 
 def norm(h):
@@ -88,26 +91,17 @@ def main():
         if os.path.exists(p):
             for t in body_links(p):
                 linked.setdefault(t, []).append(h)
-    R = ["# Reach: what left the dropdown, and what could", "",
-         "Pages that are still in the menu link an address in their body (the first five are named; the count is of all).", "",
+    R = ["# Reach: every address that left the dropdown is linked from a page that stays in it", "",
+         "For each address below, the pages that are still in the menu and link it in their body (the first five; the count is of all). "
+         "`/families/` must be among them: it is the menu's own heading.", "",
          "| address | why it left | linked from (pages still in the menu) |", "|---|---|---|"]
     for h in gone:
         if h not in DROPPED:
             continue
         who = [x for x in linked.get(h, []) if x != h]
-        if not who:
-            bad += 1
-        R.append("| `%s` | %s | %s |" % (h, DROPPED[h], ("%d: " % len(who) + ", ".join("`%s`" % x for x in who[:5])) if who else "**NONE: keep it in the menu**"))
-    R += ["", "No address left the dropdown in this PR, so there is nothing to prove for removals. For a later decision (the families gate, "
-          "`tools/familycheck.py`, would have to change first), the nineteen smaller surname pages that COULD be trimmed, and what links each:", "",
-          "| address | linked from (pages in the menu) |", "|---|---|"]
-    for s in TRIMMABLE:
-        h = "/%s/" % s
-        who = [x for x in linked.get(h, []) if x != h]
-        R.append("| `%s` | %s |" % (h, ("%d: " % len(who) + ", ".join("`%s`" % x for x in who[:5])) if who else "**NONE**"))
         if "/families/" not in who:
             bad += 1
-    R += ["", "Kept in the dropdown, and NOT linked from the /families/ index (an index fix is owed before any could go): `/lines/`, `/zubrinic-roots/`, `/kosina/`."]
+        R.append("| `%s` | %s | %s |" % (h, DROPPED[h], ("%d: " % len(who) + ", ".join("`%s`" % x for x in who[:5])) if who else "**NONE: keep it in the menu**"))
     open(out_moves, "w", encoding="utf-8").write("\n".join(L) + "\n")
     open(out_reach, "w", encoding="utf-8").write("\n".join(R) + "\n")
     print("\n".join(L[:4] + L[-2:]))
