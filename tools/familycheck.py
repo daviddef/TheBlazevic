@@ -211,7 +211,7 @@ def main():
         print("  FAIL  familypages  " + p)
     if problems:
         return 1
-    print(f"  ok    familypages  {nfam} families, each built, in the sitemap, in the menu and on /families/; "
+    print(f"  ok    familypages  {nfam} families, each built, in the sitemap, and linked from the menu or /families/ (the menu links /families/); "
           f"{ngroups} direct-line surnames, {ngroups - len(uncovered)} with a page, {len(uncovered)} declared pending "
           f"({', '.join(uncovered) or 'none'})")
     return 0
