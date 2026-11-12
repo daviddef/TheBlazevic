@@ -88,5 +88,9 @@ const groups = [
     {pending.length === 1 ? " has" : " have"} no page: {pending.map((m) => m.label).join(", ")}.</>}
     Each page says only what the archive&rsquo;s data says, and says how well each person is known.
     <a href={u("/marriages/")}>The marriages, in full →</a></p>
+    {/* 13 November 2026: the three pages that sit beside the surname pages and were linked from the header menu only. They left the
+        menu's families dropdown (menu trim), so the index links them; nothing else on this page changed. */}
+    <p class="note">Beside the surname pages: <a href={u("/lines/")}>Lines of a Name</a>, <a href={u("/zubrinic-roots/")}>The Žubrinić Fragments</a>
+    and <a href={u("/kosina/")}>Kosina</a>.</p>
   </section>
 </Base>
