@@ -14,6 +14,22 @@ FamilySearch waypoint, not just the film number; the skill explains why.
 
 Surname spellings come only from the Record Atlas catalogue: run `terms` before searching, `cover` before any nil, `add` for every new spelling, `publish` once at the end. Keep no variants list here.
 
+## New "found" rows in searched.json (13 and 15 November 2026)
+
+What's new shows the Atlas state of every finding and says which pages it updated and who it is for; the kit's gate
+(`npm run check:row-pages`, `docs/row-pages.json`: `from` 2026-11-13, `peopleFrom` 2026-11-15) checks the rows dated from those days.
+Old rows are NOT backfilled and no existing row is edited (editing a row changes its Atlas key).
+
+- **From 13 November:** a row that reads as found names the page(s) it updated, `"ev": [["/page/", "label"]]`, or says `"logOnly": true`.
+- **From 15 November:** it also says WHO it is for, with exactly one of
+  `"for": [["/people/slug/", "Name"], ...]` (each path a BUILT page of this archive that is that person's own page, the name that
+  page uses, a page once per row, only people the finding is really about) or `"nobody": true` (the pages were read and no new
+  person came out; the reason can go in `what`). Never both.
+- **Living people:** only people this archive already publishes can be listed (the gate needs a built page). Never add a page or a
+  name for a living person to satisfy the rule; a possible minor is published nowhere, so use `nobody` or leave the row's people out.
+- Nothing about the people goes to the Atlas: the receipts hold only the row key.
+- Every new `searched.json` row also gets a real work date in `when` (no guessed dates).
+
 ## Snapshots
 
 Every reading made from a filmed or Matricula page gets a snapshot of the page kept on the site:
