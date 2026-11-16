@@ -35,6 +35,11 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   country only, stays unresolved: the person is drawn at a relative's birth place (1,855 people, each marked `bpe` so the card carries an asterisk and the profile says "place taken from a relative, not recorded") or, with no relative placed, not drawn (307).
 - **Sex is what the record holds.** `people.json` holds M, F or U (29 drawn people are U); the adapter writes U wherever there is no recorded sex and never infers one
   from a name or from the order two parents are listed. The viewer then says parent, child, spouse, sibling, "uncle or aunt" for them.
+- **Full dates (`bd`, `dd`, 16 November 2026).** `tree.json` carries, per person and only where a day is known, `bd` (full birth date) and `dd` (full death date): the
+  person's `born` / `died` string from `people.json`, byte for byte, in this archive's stored shape (`20 APR 1779`, `9 JUN 1628`: GEDCOM, upper-case month, day not
+  padded; the person page shows the same date as `20 Apr 1779`). A year alone, a month and year, or an approximate or ranged date (`ABT`, `BEF`, `AFT`, `TO`, `FROM`,
+  `BET`, `EST`, a long month, a note) gets no field: `by` / `dy` and the `bye` / `dye` flags carry those. Dead people only: the people here come from `people.json`,
+  which holds no living person, and the converter's 110-year floor drops anyone with no death recorded. The Record Atlas Tree Canvas reads them; nothing else uses them.
 - **Estimated years are flagged**: "c. 1809" is a birth estimated from a parent, child or spouse; "1809–?" is a death not recorded.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed in `tree.report.json` under `conflicts`.
 - **The death place is the place the record states.** The converter takes a later residence as the death place; `keep_death_place` puts the recorded one back.
