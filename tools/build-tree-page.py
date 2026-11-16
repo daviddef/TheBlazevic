@@ -31,7 +31,7 @@ EXT = os.path.join(TP, "painted-lines.ext.html")
 HOST = "blazevic.defranceski.com"
 ATLAS_CANDIDATES = [os.environ.get("RECORD_ATLAS", ""), os.path.expanduser("~/Projects/Family Projects/Record Atlas"),
                     os.path.join(os.path.dirname(ROOT), "Record Atlas")]
-INPUTS = ["people.json", "families.json", "living.json"]
+INPUTS = ["people.json", "families.json", "living.json", "corrections.json"]
 FULLDATE = re.compile(r"^\d{1,2} (?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC) \d{4}$")   # "20 APR 1779", "9 JUN 1628": this archive's own stored shape (GEDCOM, upper-case month); a day is present, no ABT / BEF / AFT / TO / FROM / BET / EST word, no long month, no note
 
 def jl(path): return json.load(io.open(path, encoding="utf-8"))
@@ -177,12 +177,18 @@ def build(a):
     fam_of = {p["id"].strip("@"): p.get("family") for p in people}
     key_i = {f["slug"]: i for i, f in enumerate(top)}
     src_by = {p["id"].strip("@"): p for p in people}
+    fix_n = collections.Counter(c["id"] for c in jl(os.path.join(DATA, "corrections.json")))
     for p in t["people"]:
         p["line"] = key_i.get(fam_of.get(p["id"]), 7)
         # FULL DATES (bd, dd), for DEAD people only: `people` above holds no living person (living.json is a different list) and the converter's 110-year floor drops
         # anyone with no death recorded and a birth in the last 110 years. The string is people.json's own `born` / `died`, byte for byte, as people.json holds it
         # ("20 APR 1779", "9 JUN 1628"; the page shows them as "20 Apr 1779"); a year alone, a month and year, or an approximate date ("ABT 1875", "BEF 12 MAR 1900") is NOT a full date and gets no field.
         src = src_by.get(p["id"]) or {}
+        # CORRECTIONS COUNT (cx): how many rows of site/src/data/corrections.json name this person (its `id`, the tree id). It is the SAME filter the person page
+        # uses for "N corrections and notes have been recorded against this page" (corrections.filter(c => c.id === p.id)), so the two always agree: every kind
+        # counts, as it does there. A count only, never what a row says; omitted when 0; only for people drawn here, who are all in people.json, which holds no living person.
+        n = fix_n.get("@%s@" % p["id"].strip("@"), 0)
+        if n: p["cx"] = n
         if FULLDATE.match(str(src.get("born") or "")): p["bd"] = src["born"]
         if FULLDATE.match(str(src.get("died") or "")): p["dd"] = src["died"]
         p["page"] = "/people/%s/" % slugs[p["id"]] if p["id"] in slugs else None

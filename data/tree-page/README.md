@@ -40,6 +40,11 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   padded; the person page shows the same date as `20 Apr 1779`). A year alone, a month and year, or an approximate or ranged date (`ABT`, `BEF`, `AFT`, `TO`, `FROM`,
   `BET`, `EST`, a long month, a note) gets no field: `by` / `dy` and the `bye` / `dye` flags carry those. Dead people only: the people here come from `people.json`,
   which holds no living person, and the converter's 110-year floor drops anyone with no death recorded. The Record Atlas Tree Canvas reads them; nothing else uses them.
+- **Corrections count (`cx`, 16 November 2026).** `tree.json` carries, per person and only where it is 1 or more, `cx`: how many rows of `site/src/data/corrections.json`
+  name the person (the row's `id`). It is the same filter the person page uses for "N corrections and notes have been recorded against this page", every kind
+  counted (corrected, confirmed, upgraded, disputed, note, open), so the two always agree. A count only, never what a row says. 104 people carry it (127 rows); the
+  11 people with a correction who are not drawn here, and the ids with no person page, carry none. `corrections.json` is one of the builder's inputs, so
+  `--check` fails when a row is added and the tree page was not rebuilt. The Record Atlas Tree Canvas reads it and links to `/corrections/`.
 - **Estimated years are flagged**: "c. 1809" is a birth estimated from a parent, child or spouse; "1809–?" is a death not recorded.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed in `tree.report.json` under `conflicts`.
 - **The death place is the place the record states.** The converter takes a later residence as the death place; `keep_death_place` puts the recorded one back.
