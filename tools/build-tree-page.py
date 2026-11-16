@@ -43,6 +43,7 @@ def inputs_hash():
     for n in INPUTS: h.update(io.open(os.path.join(DATA, n), "rb").read())
     for n in ("tree-views.template.html", "painted-lines.ext.html", "gedcom_to_tree.py"): h.update(io.open(os.path.join(TP, n), "rb").read())
     h.update(io.open(os.path.abspath(__file__), "rb").read())
+    h.update(io.open(CARDS_TSV, "rb").read())   # the people decided by hand (data/tree-cards.tsv)
     pm = os.path.join(OUT, "place_map.json")
     if os.path.exists(pm): h.update(io.open(pm, "rb").read())
     return h.hexdigest()[:16]
@@ -199,6 +200,7 @@ def build(a):
     drop_conflicts(t, tree)
     keep_death_place(t, people)
     add_routes(t, people)
+    t["undrawn"] = undrawn_cards(t, people, key_i, tree)
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
 
 def mark_relative_places(t, people):
@@ -211,6 +213,93 @@ def mark_relative_places(t, people):
     for p in t["people"]:
         if own.get(p["id"]) != p["bp"]: p["bpe"] = True; n += 1
     print("relative's place: %d people are drawn at a relative's birth place and marked so on the page" % n)
+
+CARDS_TSV = os.path.join(ROOT, "data", "tree-cards.tsv")
+FLOOR_FROM = datetime.date.today().year - 110   # the converter's floor: no death recorded and born this year minus 110 or later
+
+def circa(v):
+    """A date the register gives as an estimate, a bound or a range (ABT, EST, CAL, BEF, AFT, BET, TO, FROM): the year on a card is then approximate (`bye` / `dye`)."""
+    return bool(re.match(r"^(ABT|EST|CAL|BEF|AFT|BET|TO|FROM)\b", str(v or "").strip().upper()))
+
+def read_cards():
+    """data/tree-cards.tsv: id|kind|why. The people David decided to draw although the rules above do not (standin, slip). A bad row stops the build."""
+    rows = {}
+    for n, line in enumerate(io.open(CARDS_TSV, encoding="utf-8"), 1):
+        if not line.strip() or line.startswith("#"): continue
+        c = [x.strip() for x in line.rstrip("\n").split("|")]
+        if len(c) < 3 or c[1] not in ("standin", "slip") or not c[0] or not c[2]: sys.exit("data/tree-cards.tsv line %d: need id|kind|why, kind standin or slip" % n)
+        if c[0] in rows: sys.exit("data/tree-cards.tsv line %d: %s is listed twice" % (n, c[0]))
+        rows[c[0]] = c[1]
+    return rows
+
+def undrawn_cards(t, people, key_i, tree):
+    """EVERYONE THE REGISTER PUBLISHES IS IN tree.json (David, 17 November 2026): the people the ten views skip go into `undrawn`, which the views ignore and the Record Atlas Tree Canvas
+    draws as an unplaced card. Every person of people.json (none is living) who is not drawn on the maps gets one, in three kinds:
+      - NO DEATH recorded and born this year minus 110 or later (born 1916 to 1945 here): NAME AND FAMILY LINKS ONLY (no year, place, page link or count); not marked living,
+        because nothing says they are;
+      - a CONFLICT (died before born, or over 110 years: not one life): the DEATH only; the birth that cannot both be true is dropped; page, links and count as for the next kind;
+      - everyone else: their details (the year the register holds, parent/spouse/child links, page, correction count).
+    A `standin` in data/tree-cards.tsv is also flagged `placeholder: true`, whether drawn on the maps or a card. NEVER here: the sorting buckets (tools/buckets.py, 42 records, the
+    check_site gate "no sorting buckets published") and the living (they are not in people.json, and stay off this indexed page). Names are drawn as published, never hidden or
+    corrected. Links go only to people in tree.json (drawn or a card) and follow people.json's own."""
+    by = {p["id"].strip("@"): p for p in people}
+    conf = {c["id"].strip("@"): c for c in (jl(os.path.splitext(tree)[0] + ".report.json").get("conflicts") or [])}
+    drawn = {p["id"] for p in t["people"]}
+    listed = read_cards()
+    for i in listed:
+        if i not in by: sys.exit("data/tree-cards.tsv: %s is not in people.json" % i)
+    def yr(v):
+        m = re.search(r"(1\d\d\d|20\d\d)", str(v or "")); return int(m.group(1)) if m else None
+    def no_death(s): return not (s.get("died") or s.get("burial") or s.get("dyear") or s.get("deathRecorded"))
+    cand = {}
+    for i, s in by.items():
+        if i in drawn: continue
+        b = yr(s.get("born")) or s.get("byear")
+        if i in conf: cand[i] = "conflict"
+        elif no_death(s) and b is not None and b >= FLOOR_FROM: cand[i] = "name"
+        else: cand[i] = "details"
+    for p in t["people"]:
+        if listed.get(p["id"]) == "standin": p["placeholder"] = True
+    fix_n = collections.Counter(c["id"] for c in jl(os.path.join(DATA, "corrections.json")))
+    ids = drawn | set(cand)
+    out = []; kinds = collections.Counter()
+    for i in sorted(cand):
+        s = by[i]; rel = s.get("rel") or {}
+        link = lambda lst: [x["id"].strip("@") for x in (lst or []) if x.get("id") and x["id"].strip("@") in ids and x["id"].strip("@") != i]
+        f = m = None; free = []
+        for x in link(rel.get("parents")):
+            sx = (by[x].get("sex") if x in by else None)
+            if sx == "M" and not f: f = x
+            elif sx == "F" and not m: m = x
+            else: free.append(x)
+        for x in free:
+            if not f: f = x
+            elif not m: m = x
+        c = {"id": i, "sex": {"M": "m", "F": "f"}.get(s.get("sex"), "u"), "given": s.get("given") or "", "sur": s.get("surname") or "",
+             "line": key_i.get(s.get("family"), 7), "father": f, "mother": m, "spouse": sorted(set(link(rel.get("spouses")))), "kids": sorted(set(link(rel.get("children"))))}
+        c["unplaced"] = True
+        if cand[i] in ("details", "conflict"):
+            b, d = yr(s.get("born")) or s.get("byear"), yr(s.get("died")) or s.get("dyear")
+            if cand[i] == "conflict":
+                # the recorded birth and death cannot both be true (died before born, or over 110 years): the card shows the DEATH only (David, 17 November 2026)
+                b = None; d = d if d is not None else yr(conf[i].get("died"))
+            if b is not None:
+                c["by"] = b
+                if circa(s.get("born")): c["bye"] = True
+            if d is not None:
+                c["dy"] = d
+                if circa(s.get("died")): c["dye"] = True
+            c["slug"] = s["slug"]; c["page"] = "/people/%s/" % s["slug"]
+            if fix_n.get("@%s@" % i): c["cx"] = fix_n["@%s@" % i]
+        if listed.get(i) == "standin": c["placeholder"] = True
+        kinds[cand[i]] += 1
+        out.append(c)
+    rep_path = os.path.splitext(tree)[0] + ".report.json"; rep = jl(rep_path)
+    rep["undrawn"] = {"cards": len(out), "name_and_family_only": kinds["name"], "with_details": kinds["details"], "conflict_death_only": kinds["conflict"], "listed_in_tree_cards_tsv": len(listed),
+                      "placeholder_flagged": sum(1 for v in listed.values() if v == "standin"), "in_tree_json_total": len(t["people"]) + len(out)}
+    io.open(rep_path, "w", encoding="utf-8").write(json.dumps(rep, indent=1, ensure_ascii=False))
+    print("undrawn: %d cards (%d name and family only, %d with details, %d conflicts shown by their death only); %d people flagged as stand-ins" % (len(out), kinds["name"], kinds["details"], kinds["conflict"], rep["undrawn"]["placeholder_flagged"]))
+    return out
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in tree.report.json (conflicts) for the
