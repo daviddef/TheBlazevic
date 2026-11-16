@@ -454,6 +454,10 @@ header.site{position:sticky;top:0;z-index:60;background:var(--panel);
 .brand em{font-style:italic;font-weight:400;color:var(--accent)}
 header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 .topnav details.menu{position:relative}
+/* the Tree Canvas button: the same round orange icon in every archive (spec of the estate coordinator, 16 Nov 2026) */
+.topnav a.tcbtn{display:inline-flex;align-items:center;justify-content:center;flex:none;width:34px;height:34px;margin-left:8px;padding:0;border-radius:50%;background:#D9822B;border:1px solid #D9822B;color:#fff;text-decoration:none}
+.topnav a.tcbtn:hover,.topnav a.tcbtn:focus-visible{background:#C4721F;border-color:#C4721F;color:#fff}
+.topnav a.tcbtn:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:50%}
 .topnav summary{list-style:none;cursor:pointer;font-family:var(--sans);font-size:12.5px;
   color:var(--ink-2);padding:6px 9px;border-radius:999px;white-space:nowrap;
   border:1px solid transparent}
