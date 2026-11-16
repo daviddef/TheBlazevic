@@ -1,0 +1,14 @@
+# PEOPLE THE ROOTS TREE DRAWS BY DECISION, NOT BY RULE (David, 17 November 2026). tools/build-tree-page.py reads this; one row per person.
+#   id|kind|why
+#   kind  standin  a record that stands for somebody rather than naming them: drawn, and flagged `placeholder: true` on the canvas (research hotspots)
+#         slip     a published name with a digit, a bracket or a note in it (a possible typing slip): drawn as it is published; the correction is David's, never a hiding
+# A person already drawn on the maps keeps their place and only gets the flag; a person the maps skip becomes an unplaced card in tree.json `undrawn`.
+# A person with a dated death in a conflict (died before born, or over 110 years) is not one life and stays out, listed in tree.report.json.
+# The sorting buckets (tools/buckets.py, 42 records, check_site "no sorting buckets published") are NOT here and are never drawn (David, 17 November 2026).
+I506879|slip|published as "wife 2"
+I506878|slip|published as "wife1"
+I506857|standin|published as "? ?"
+I512378|slip|published as "Arienzo, Caserta, Campania, Italia [Unconfirmed Family] Falco"
+I506856|standin|published as "? Rousseau"
+I504299|standin|published as "Infant Girl Snow"
+I506450|slip|published as "Joannes / Juan / Ivan / Ive xxx "Ivica" Žubrinić"
