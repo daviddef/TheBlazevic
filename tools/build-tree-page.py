@@ -239,9 +239,11 @@ def undrawn_cards(t, people, key_i, tree):
         because nothing says they are;
       - a CONFLICT (died before born, or over 110 years: not one life): the DEATH only; the birth that cannot both be true is dropped; page, links and count as for the next kind;
       - everyone else: their details (the year the register holds, parent/spouse/child links, page, correction count).
-    A `standin` in data/tree-cards.tsv is also flagged `placeholder: true`, whether drawn on the maps or a card. NEVER here: the sorting buckets (tools/buckets.py, 42 records, the
-    check_site gate "no sorting buckets published") and the living (they are not in people.json, and stay off this indexed page). Names are drawn as published, never hidden or
-    corrected. Links go only to people in tree.json (drawn or a card) and follow people.json's own."""
+    A `standin` in data/tree-cards.tsv is also flagged `placeholder: true`, whether drawn on the maps or a card. THE LIVING (site/src/data/living.json, the people the archive already
+    names on its noindex pages) are cards too, `living: true`, NAME AND FAMILY LINKS ONLY (no year, place, page link or count), because /roots/ and /roots/view.html are noindex
+    (David, 17 November 2026: everyone in the archive is on the canvas, always). NEVER here: the sorting buckets (tools/buckets.py, 42 records, the check_site gate "no sorting buckets
+    published") and anybody the register does not name (the possible minors are published nowhere). Names are drawn as published, never hidden or corrected. Links go only to people
+    in tree.json (drawn, a card or a living card) and follow people.json's and living.json's own."""
     by = {p["id"].strip("@"): p for p in people}
     conf = {c["id"].strip("@"): c for c in (jl(os.path.splitext(tree)[0] + ".report.json").get("conflicts") or [])}
     drawn = {p["id"] for p in t["people"]}
@@ -261,11 +263,20 @@ def undrawn_cards(t, people, key_i, tree):
     for p in t["people"]:
         if listed.get(p["id"]) == "standin": p["placeholder"] = True
     fix_n = collections.Counter(c["id"] for c in jl(os.path.join(DATA, "corrections.json")))
-    ids = drawn | set(cand)
+    living = jl(os.path.join(DATA, "living.json"))
+    lids = {x["slug"] for x in living}
+    clash = lids & (drawn | set(cand))
+    if clash: sys.exit("living.json: a living slug is also a tree id: %s" % sorted(clash)[:3])
+    ids = drawn | set(cand) | lids
+    def ref(e):
+        """The id of a relative in tree.json: a living relative is their slug, a dead one their tree id."""
+        if e.get("living") and e.get("slug") in lids: return e["slug"]
+        if e.get("id") and e["id"].strip("@") in ids: return e["id"].strip("@")
+        return None
     out = []; kinds = collections.Counter()
     for i in sorted(cand):
         s = by[i]; rel = s.get("rel") or {}
-        link = lambda lst: [x["id"].strip("@") for x in (lst or []) if x.get("id") and x["id"].strip("@") in ids and x["id"].strip("@") != i]
+        link = lambda lst: [r for r in (ref(x) for x in (lst or [])) if r and r != i]
         f = m = None; free = []
         for x in link(rel.get("parents")):
             sx = (by[x].get("sex") if x in by else None)
@@ -294,11 +305,32 @@ def undrawn_cards(t, people, key_i, tree):
         if listed.get(i) == "standin": c["placeholder"] = True
         kinds[cand[i]] += 1
         out.append(c)
+    # THE LIVING: name and family links only. The name is living.json's own; given and surname are split on the last word (a particle stays with the surname); a family colour only
+    # where the surname is one of the archive's own families. No sex (living.json has none, and it stays out of public data), no year, no place, no page link, no count.
+    fams = jl(os.path.join(DATA, "families.json"))
+    fam_slug = {fold(f["label"]): f["slug"] for f in fams}
+    PART = {"de", "del", "della", "van", "von", "da", "di", "le", "la", "du", "ten", "ter", "der", "den"}
+    for x in sorted(living, key=lambda r: r["slug"]):
+        s = x["slug"]; w = x["name"].split()
+        k = len(w) - 1
+        while k > 1 and w[k - 1].lower() in PART: k -= 1
+        given, sur = (" ".join(w[:k]), " ".join(w[k:])) if len(w) > 1 else (x["name"], "")
+        rel = x.get("rel") or {}
+        link = lambda lst: [r for r in (ref(e) for e in (lst or [])) if r and r != s]
+        f = m = None
+        for r in link(rel.get("parents")):
+            if r in by and by[r].get("sex") == "F" and not m: m = r
+            elif r in by and by[r].get("sex") == "M" and not f: f = r
+            elif not f: f = r
+            elif not m: m = r
+        out.append({"id": s, "sex": "u", "given": given, "sur": sur, "line": key_i.get(fam_slug.get(fold(sur.split()[-1] if sur else "")), 7),
+                    "father": f, "mother": m, "spouse": sorted(set(link(rel.get("spouses")))), "kids": sorted(set(link(rel.get("children")))), "living": True, "unplaced": True})
+        kinds["living"] += 1
     rep_path = os.path.splitext(tree)[0] + ".report.json"; rep = jl(rep_path)
-    rep["undrawn"] = {"cards": len(out), "name_and_family_only": kinds["name"], "with_details": kinds["details"], "conflict_death_only": kinds["conflict"], "listed_in_tree_cards_tsv": len(listed),
+    rep["undrawn"] = {"cards": len(out), "name_and_family_only": kinds["name"], "with_details": kinds["details"], "conflict_death_only": kinds["conflict"], "living_name_and_family_only": kinds["living"], "listed_in_tree_cards_tsv": len(listed),
                       "placeholder_flagged": sum(1 for v in listed.values() if v == "standin"), "in_tree_json_total": len(t["people"]) + len(out)}
     io.open(rep_path, "w", encoding="utf-8").write(json.dumps(rep, indent=1, ensure_ascii=False))
-    print("undrawn: %d cards (%d name and family only, %d with details, %d conflicts shown by their death only); %d people flagged as stand-ins" % (len(out), kinds["name"], kinds["details"], kinds["conflict"], rep["undrawn"]["placeholder_flagged"]))
+    print("undrawn: %d cards (%d name and family only, %d with details, %d conflicts shown by their death only, %d living: name and family only); %d people flagged as stand-ins" % (len(out), kinds["name"], kinds["details"], kinds["conflict"], kinds["living"], rep["undrawn"]["placeholder_flagged"]))
     return out
 
 def drop_conflicts(t, tree):

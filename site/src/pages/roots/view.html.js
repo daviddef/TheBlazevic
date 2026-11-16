@@ -45,4 +45,4 @@ const EMBED = `<script>
 </style>`;
 
 export const GET = () =>
-  new Response(page.replace(/<head>/i, (h) => h + EMBED), { headers: { "content-type": "text/html; charset=utf-8" } });
+  new Response(page.replace(/<head>/i, (h) => h + '<meta name="robots" content="noindex">' + EMBED), { headers: { "content-type": "text/html; charset=utf-8" } });
