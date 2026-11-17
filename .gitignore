@@ -9,6 +9,8 @@ photos/line/
 site/.astro/
 site/dist/
 site/public/atlas-data.json
+# the corrections page's place rows and flag table: written by tools/build_correction_places.py on every build
+site/src/generated/
 sources/*.ged
 # Roots & Routes: the intermediate GEDCOM written from people.json (tools/build-tree-page.py), rebuilt every time
 data/tree-page/people.ged
