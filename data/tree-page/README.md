@@ -26,8 +26,11 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
 
 ## What is and is not on the page
 
-- **No living person.** The people are `site/src/data/people.json`, which holds none (living people are in `living.json`). The converter adds its floor:
-  nobody with no death recorded and a birth year in the last 110 years (106 people). The page's own check fails the build on a living person's name.
+- **The living are on the page as name-and-family-only cards, and the page is noindex (David, 17 November 2026).** The people are `site/src/data/people.json`, which holds
+  no living person; the 34 living people the archive already names on its noindex pages (`living.json`) are `living: true` cards in `undrawn`, with the name, the family colour and
+  parent/spouse/child links, and **no** year, place, page link, count or sex. `/roots/` and `/roots/view.html` carry `<meta name="robots" content="noindex">` for that reason (so
+  no AdSense there either). The converter's floor still drops anybody with no death recorded and a birth year in the last 110 years from the MAPS (106 people). Possible minors
+  are not in `living.json` and so are nowhere. The page's own check fails the build on a living person's name on the maps.
 - **Colour is the archive's own family** (`family` in people.json, the labels of `families.json`), not a surname spelling. Which spellings are one name is the
   Record Atlas catalogue's to say; nothing here lists them.
 - **Places are never guessed.** 911 place strings come from `data/era-ground.tsv` (the town and point decided for each string as printed, with country from the
@@ -46,14 +49,13 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   11 people with a correction who are not drawn here, and the ids with no person page, carry none. `corrections.json` is one of the builder's inputs, so
   `--check` fails when a row is added and the tree page was not rebuilt. The Record Atlas Tree Canvas reads it and links to `/corrections/`.
 - **Cards for people the maps skip (`undrawn`, 17 November 2026).** `tree.json` has a second list, `undrawn`, which the ten views ignore and the Record Atlas Tree Canvas
-  draws as an unplaced card. **Every person the register publishes who is not drawn on the maps is one** (4,488 people in all: 4,060 drawn + 428 cards), in three kinds:
+  draws as an unplaced card. **Every person the register publishes who is not drawn on the maps is one** (4,488 people in all: 4,060 drawn + 428 cards), and the 34 living are 34 more cards (462), in three kinds:
   (1) **no death recorded and born 1916 or later** (born 1916 to 1945 here; nobody living is in `people.json`): **name and family links only**, no year, place, page link or count,
   and **not** marked living, because nothing says they are (20); (2) a **conflict** (died before born, or over 110 years: not one life): the **death only**, the birth that cannot
   both be true is dropped (14, still listed in `tree.report.json`); (3) everyone else: their **details** (the year the register holds, parent/spouse/child links, page, correction count;
   394, of whom 220 have no year at all). `data/tree-cards.tsv` (`id|kind|why`) lists the people decided by hand: `slip` (a published name with a digit, a bracket or a note in it,
   drawn exactly as published, never hidden: the correction is David's) and `standin` (a record that stands for somebody; also flagged `placeholder: true`, on the map row if it is
-  drawn). **Never drawn:** the 42 sorting buckets (`tools/buckets.py`, the `check_site` gate "no sorting buckets published") and the living (they stay off this indexed page and are not
-  in `people.json`). Cards link only to people in `tree.json`. Counts are in `tree.report.json` under `undrawn`.
+  drawn). **Never drawn:** the 42 sorting buckets (`tools/buckets.py`, the `check_site` gate "no sorting buckets published") (the living are cards, above, and are not in `people.json`). Cards link only to people in `tree.json`. Counts are in `tree.report.json` under `undrawn`.
 - **Estimated years are flagged**: "c. 1809" is a birth estimated from a parent, child or spouse; "1809–?" is a death not recorded.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed in `tree.report.json` under `conflicts`.
 - **The death place is the place the record states.** The converter takes a later residence as the death place; `keep_death_place` puts the recorded one back.
