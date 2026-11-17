@@ -8,7 +8,8 @@ import { placeIndex } from "@daviddef/archive-kit/lib/placelinks.js";
 import { nameIndex } from "@daviddef/archive-kit/lib/namelinks.js";
 import namesIdx from "../data/names-index.json";
 import living from "../data/living.json";
-import atlas from "../../public/atlas-data.json";
+import placeRows from "../data/correction-places.json";
+import placeFlags from "../data/correction-place-flags.json";
 
 // These entries are hand-written HTML, so their hrefs need the site base
 // prefixed. Open questions shipped five dead links by applying this to one
@@ -226,9 +227,14 @@ const base0 = C.map((c, i) => ({
 const ids = corrIdMap(base0);
 const rows = base0.map((r) => ({ ...r, id: ids.get(r), about: r.for }));
 
-/* places that have a page here, linked in the prose (no flags: this archive serves none of the kit's flag art yet, so the table is empty and a link
-   carries no flag; kit/docs/corrections.md); names from the SAME index tools/autolink_run.py reads, and no living name is ever linked. */
-const places = placeIndex(atlas.places.filter((p) => p.slug).map((p) => ({ name: p.name, href: u(`/places/${p.slug}/`) })), {}, () => "");
+/* places that have a page here, linked in the prose, each with the flag of the state that held it in the year the sentence names (and today's where that is
+   another country's). tools/build_correction_places.py writes both data files at build time: the rows are the places with a /places/<slug>/ page, the
+   flags come from the kit's placeflags.py over this archive's era snapshot, so an era flag shows only where the snapshot assesses that place and year;
+   otherwise today's flag, or none. The kit's flag art is bundled by Vite (nothing is copied into public/). Names come from the SAME index
+   tools/autolink_run.py reads, and no living name is ever linked. */
+const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?url", import: "default" });
+const flagUrl = (svg) => { const k = Object.keys(FLAGS).find((f) => f.endsWith("/" + svg)); return k ? FLAGS[k] : ""; };
+const places = placeIndex(placeRows.map((r) => ({ ...r, href: u(r.href) })), placeFlags, flagUrl);
 const names = nameIndex(namesIdx, { avoid: living.map((x) => x.name) });
 
 const kinds = {
