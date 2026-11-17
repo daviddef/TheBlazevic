@@ -3,6 +3,12 @@ import Base from "../layouts/Base.astro";
 import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
+import { corrIdMap } from "@daviddef/archive-kit/lib/corrections.js";
+import { placeIndex } from "@daviddef/archive-kit/lib/placelinks.js";
+import { nameIndex } from "@daviddef/archive-kit/lib/namelinks.js";
+import namesIdx from "../data/names-index.json";
+import living from "../data/living.json";
+import atlas from "../../public/atlas-data.json";
 
 // These entries are hand-written HTML, so their hrefs need the site base
 // prefixed. Open questions shipped five dead links by applying this to one
@@ -189,6 +195,42 @@ const C = [
     href: "/gazetteer" },
 ];
 
+/* WHO each correction is about (kit/docs/corrections.md, 17 Nov 2026): this archive's own pages, one per person, only the person the entry is about (not
+   everyone it mentions), and only people people.json publishes (it holds no living person; living.json is never read here except to keep a name from being
+   linked). The key is the start of the headline. */
+const FOR = {
+  "Zvonimir's mother was called Vica": [["/people/zvonimir-matei-vukelic/", "Zvonimir Matei Vukelić"]],
+  "Zvonimir Vukelić was not a casualty-list death": [["/people/zvonimir-matei-vukelic/", "Zvonimir Matei Vukelić"]],
+  "“Vrbnik baptisms.”": [["/people/josephum-antic/", "Josephum Antić"]],
+  "I said a register contradicted the tree": [["/people/margarita-brozovic/", "Margarita Brozović"]],
+  "I read 1/VIII off a page-scale scan": [["/people/ljubomir-blazevic/", "Ljubomir “Ljubo” Blažević"]],
+  "Her surname is Gergacs, not Gerkacs": [["/people/mariam-gerkacs-gergacs/", "Mariam Gerkacs (Gergacs)"]],
+  "A second wife, or a second man": [["/people/maria-catharina-oreskovic-oreskovic/", "Maria Catharina Orešković"]],
+  "A Karlobag baptism was attached to the wrong Caetano Bacchi": [["/people/caetano-bacchi/", "Caetano Bacchi"]],
+  "A direct ancestor was recorded as dying eight years": [["/people/tereza-pecanic/", "Tereza Pećanić"]],
+};
+const forOf = (title) => { const k = Object.keys(FOR).find((s) => title.startsWith(s)); return k ? FOR[k].map(([h, n]) => [u(h), n]) : undefined; };
+
+/* NO sort of our own: the component puts the newest day first, one sticky heading a day; rows of one day keep the order above. The id is the
+   anchor corrIdMap makes from the row (the day and the headline), the one a What's new "Corrected" card would link to. */
+const base0 = C.map((c, i) => ({
+  when: c.d,
+  kind: c.t,   /* no "N." prefix: the numbers were the file order, which the page no longer shows */
+  was: base(c.was),
+  now: base(c.now),
+  why: base(c.cost),
+  where: c.href,
+  whereLabel: "Where it now stands →",
+  for: forOf(c.t),
+}));
+const ids = corrIdMap(base0);
+const rows = base0.map((r) => ({ ...r, id: ids.get(r), about: r.for }));
+
+/* places that have a page here, linked in the prose (no flags: this archive serves none of the kit's flag art yet, so the table is empty and a link
+   carries no flag; kit/docs/corrections.md); names from the SAME index tools/autolink_run.py reads, and no living name is ever linked. */
+const places = placeIndex(atlas.places.filter((p) => p.slug).map((p) => ({ name: p.name, href: u(`/places/${p.slug}/`) })), {}, () => "");
+const names = nameIndex(namesIdx, { avoid: living.map((x) => x.name) });
+
 const kinds = {
   corrected: "Corrected", note: "Noted", confirmed: "Confirmed", disputed: "Disputed",
 };
@@ -206,15 +248,7 @@ const kinds = {
     sweeping the <em>built</em> site rather than the source, which is a lesson about where to look.</p>
   </section>
 
-  <Corrections u={u} rows={C.map((c, i) => ({
-    when: c.d,
-    kind: `${i + 1}. ${c.t}`,
-    was: base(c.was),
-    now: base(c.now),
-    why: base(c.cost),
-    where: c.href,
-    whereLabel: "Where it now stands →",
-  }))} />
+  <Corrections u={u} rows={rows} places={places} names={names} />
 
   <section class="blk">
     <h2>And the record-level corrections</h2>
