@@ -1,13 +1,13 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-07",
-"catalogueBuilt": "2026-11-05",
+"built": "2026-11-18",
+"catalogueBuilt": "2026-11-18",
 "inputs": {
-"site/src/data/searched.json": "0e66dc4931b40904",
+"site/src/data/searched.json": "5d756c7c5d9ac9da",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
-"data/tree-page/atlas-data.json": "b3ca46064c07a647",
+"data/tree-page/atlas-data.json": "875721125192835c",
 "data/tree-page/place_map.json": "eaa79ba0b7913a00"
 },
 "surnameKey": {
@@ -84,6 +84,78 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 274,
+"src": "FamilySearch",
+"volume": "Otočac Births 1834–1846 (N3B), every page read for the surname Žubrinić in all its spellings",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "every Žubrinić, and every mother née, godparent and father of that name, in the Otočac baptism register 1834–1846",
+"when": "10 Nov 2026",
+"ord": 20261110,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/catalog/",
+"volumes": [
+"9RK1-N3B"
+]
+},
+{
+"id": 275,
+"src": "FamilySearch",
+"volume": "Otočac Births 1846–1858 and Deaths 1834–1858 (Y4C), read for the surname Žubrinić",
+"years": "1834–1858",
+"span": [
+1834,
+1858
+],
+"what": "every Žubrinić in the baptisms 1846–1858 and the deaths 1834–1858 of Otočac",
+"when": "10 Nov 2026",
+"ord": 20261110,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/catalog/",
+"volumes": [
+"9RK1-Y4C"
+]
+},
+{
+"id": 276,
+"src": "FamilySearch",
+"volume": "Otočac census (Status Animarum), Marriages 1859–1872 and Deaths 1780–1836 and 1859–1872 (X16)",
+"years": "1780–1872",
+"span": [
+1780,
+1872
+],
+"what": "every Žubrinić in the deaths 1780–1836 and 1859–1872 and the marriages 1859–1872 of Otočac, and the census households the index points to",
+"when": "10 Nov 2026",
+"ord": 20261110,
+"outcome": "partial",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/search/catalog/",
+"volumes": [
+"9R2D-16X"
+]
+},
 {
 "id": 264,
 "src": "FamilySearch",
@@ -1720,6 +1792,11 @@
 "Xubrinic",
 "Xubrinić",
 "Xubrinich",
+"Hubrinich",
+"Jubrinich",
+"Xubrenich",
+"Xubrinick",
+"Žubranić",
 "Zubrinich"
 ]
 }
@@ -1767,6 +1844,11 @@
 "Xubrinic",
 "Xubrinić",
 "Xubrinich",
+"Hubrinich",
+"Jubrinich",
+"Xubrenich",
+"Xubrinick",
+"Žubranić",
 "Zubrinich"
 ]
 }
@@ -3297,7 +3379,12 @@
 "missed",
 "Xubrinic",
 "Xubrinić",
-"Xubrinich"
+"Xubrinich",
+"Hubrinich",
+"Jubrinich",
+"Xubrenich",
+"Xubrinick",
+"Žubranić"
 ]
 }
 },
@@ -4590,12 +4677,12 @@
 "stats": {
 "a surname but no place the people records name": 53,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 150,
+"shown on person pages (by tag)": 153,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 274,
-"shown": 153
+"register": 277,
+"shown": 156
 }
 }
