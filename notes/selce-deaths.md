@@ -67,7 +67,7 @@ Antić by-name.
 
 ## 15 September 2026 — ahnentafel 25, and a map of the film
 
-**Ahnentafel 25 is read.** LIBER DEFUNCTORUM, page 144, entry 21, image 397,
+**Ahnentafel 25 is read.** LIBER DEFUNCTORUM, page 144, entry 21, image 111 (film frame 397),
 ark `3:1:3QSQ-G99X-1357`:
 
 > «**Udova Maria Antić, supruga pok. Josipa, kći Jurja i Mare Jeličić,
