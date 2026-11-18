@@ -5,7 +5,7 @@ the tree gives him** — and the register says what killed him.
 
 ## The entry
 
-Selce, LIBER DEFUNCTORUM, **page 99**, image **340**, ARK `3:1:3QSQ-G99X-13PY`.
+Selce, LIBER DEFUNCTORUM, **page 99**, image **54** of the volume (film frame **340**), ARK `3:1:3QSQ-G99X-13PY`.
 
 | Column | What it says |
 |---|---|
@@ -55,7 +55,7 @@ They are listed because they show what the family walked through, and because
 
 The last three entries on page 99 are all of **21 October**, and the register
 then opens at ***Mens. Februario 1851***. That looked like a missing page, so the
-printed page numbers were read: image 340's right leaf is **99**, image 341's
+printed page numbers were read: image 54's (film frame 340's) right leaf is **99**, image 55's (frame 341's)
 right leaf is **101**, so the leaf between them is **100** and **the sequence is
 unbroken**. There are no Selce deaths recorded between 22 October 1850 and 20
 February 1851. The epidemic stopped, and so did the dying.

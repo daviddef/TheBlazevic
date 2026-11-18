@@ -6,7 +6,7 @@ carries a **household by-name**, and the two by-names are not the same.
 
 ## The two entries
 
-Selce, LIBER DEFUNCTORUM, image **304**, ARK `3:1:3QS7-L99X-1QQL`.
+Selce, LIBER DEFUNCTORUM, image **18** of the volume (film frame **304**), ARK `3:1:3QS7-L99X-1QQL`.
 
 **Ahnentafel 48**, left page:
 
@@ -66,13 +66,13 @@ That is worth more to this archive than a link would have been.
 ## Also read here, and carried into the by-name list
 
 * «**Matthias Mihich, aliter Venesarich**», Selce house 2, aged 76, 1828 —
-  image 303, ARK `3:1:3QS7-899X-1QZ7`. Read at full resolution.
+  image 17 (film frame 303), ARK `3:1:3QS7-899X-1QZ7`. Read at full resolution.
 * «**Vincentius Jurich, aliter Loveranich**», Selce house 58, died 21 March 1834
-  aged 55 — image 311, ARK `3:1:3QS7-899X-1Q6X`. Read at full resolution.
+  aged 55 — image 25 (film frame 311), ARK `3:1:3QS7-899X-1Q6X`. Read at full resolution.
 
 Two more were **seen but not confirmed** and are deliberately not in the
 by-names list yet — «*Georgius Saldatich aliter Venesarich*» and «*Catharina
-Polich aliter Antich*», both image 304. They were read at a little over half
+Polich aliter Antich*», both image 18 (film frame 304). They were read at a little over half
 scale, which is not a reading.
 
 ## The page itself (snapshots)
