@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-18",
-"catalogueBuilt": "2026-11-18",
+"built": "2026-11-22",
+"catalogueBuilt": "2026-11-22",
 "inputs": {
-"site/src/data/searched.json": "5d756c7c5d9ac9da",
+"site/src/data/searched.json": "a118959fb5f7ac50",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -22,6 +22,7 @@
 "gerkacs": "gerkacs",
 "jellicic": "jellicic",
 "kalanj": "kalanj",
+"kosina": "kosina",
 "kraljich": "kraljich",
 "krmpotic": "krmpotic",
 "loncaric": "loncaric",
@@ -61,6 +62,7 @@
 "gerkacs": "Gerkacs",
 "jellicic": "Jelličić",
 "kalanj": "Kalanj",
+"kosina": "Kosina",
 "kraljich": "Kraljich",
 "krmpotic": "Krmpotić",
 "loncaric": "Lončarić",
@@ -84,6 +86,45 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 279,
+"src": "Hrčak",
+"volume": "Senjski zbornik 28 (2001), M. Rogić, «Blaženi Alojzije Stepinac i grad Senj», pp. 183–210",
+"years": "",
+"span": null,
+"what": "the printed account of Ante Kosina's life: exile, studies, Germany, the 1998 jubilee",
+"when": "22 Nov 2026",
+"ord": 20261122,
+"outcome": "yield",
+"surnames": [
+"kosina"
+],
+"places": [
+"senj"
+],
+"href": "https://hrcak.srce.hr/file/45678",
+"volumes": []
+},
+{
+"id": 280,
+"src": "The open web",
+"volume": "Bachi at Pag, Marić and Šumbul at Otočac, Uroda at Šibenik (Hrčak articles, State Archive finding aids)",
+"years": "",
+"span": null,
+"what": "origins of Caetanus Bachi, Ana Marić (ahnentafel 11) and Georgius Uroda in open, published sources (no FamilySearch)",
+"when": "22 Nov 2026",
+"ord": 20261122,
+"outcome": "partial",
+"surnames": [
+"maric",
+"uroda"
+],
+"places": [
+"karlobag"
+],
+"href": "https://hrcak.srce.hr/",
+"volumes": []
+},
 {
 "id": 274,
 "src": "FamilySearch",
@@ -4675,14 +4716,14 @@
 }
 },
 "stats": {
-"a surname but no place the people records name": 53,
+"a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 153,
+"shown on person pages (by tag)": 155,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 277,
-"shown": 156
+"register": 281,
+"shown": 158
 }
 }
