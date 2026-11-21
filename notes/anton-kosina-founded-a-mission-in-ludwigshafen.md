@@ -131,3 +131,31 @@ the name Christian when he moved to Germany**, on the family's account. So the t
 survived 1943 both ended up in the same country, from opposite directions: **one out of Rome,
 one out of Buenos Aires.** Nothing documentary has been found for him and he may be living, so
 this archive publishes his name and no dates.
+
+## 22 November 2026 — a printed biography, read in full
+
+**Milena Rogić, «Blaženi Alojzije Stepinac i grad Senj», *Senjski zbornik* 28 (2001), pp. 183–210**
+(https://hrcak.srce.hr/file/45678; the PDF was downloaded and read, not a search summary). It is the first published
+account of him this archive holds that is not a Church press notice, and it writes of him as living at Ludwigshafen in 2001.
+What it says, in the order of his life:
+
+* **He left Senj as a seminarian in the first days of April 1945**, by a wooden boat that was nearly sunk by the number
+  of people fleeing the partisans; the priests aboard named in the article include a dr. Ivan Blažević (**a lead, not a
+  link**: nothing here says he is of this family).
+* **Exile.** He settled with other exiled priests in the Croatian Institute of St Jerome in Rome and studied theology
+  «first at the Gregoriana (one year), then at the theological faculty in Naples (two years)», finishing with a licentiate.
+  **The family account (the Gregoriana) is therefore half right.**
+* **Germany.** A spiritual director in a federal camp at Nuremberg; then **13 years at Kaiserslautern** with Croatian
+  emigrants serving the American forces; then Ludwigshafen, «where he will remain until today».
+* **Senj.** As a priest he could come freely to Senj **only from 1990**; until then the authorities took care that no tie
+  with his home town or country remained.
+* **Priesthood.** On **2 August 1998 he celebrated «50 godina misništva» (fifty years of priesthood) in Senj cathedral**,
+  so he was ordained in **1948** (inferred; the day and the place are not printed). The article cites Mile Bogović,
+  «Zlatna misa Ante Kosine», *Zvona* 9 (1998), p. 5, for it: no copy found online.
+* **Photographs.** It reproduces two (a 1943 group with Stepinac, and him saying Mass at his mission) and credits no
+  photographer. They come from the collection he gave to the Sakralna baština in Senj: that is who to ask about rights.
+
+**Not settled by it:** his death (the article ends in 2001; the tree has 23 June 2003, a generative summary says
+3 July, and **no source found names a day**); where in Rome or when he was ordained; why the 2017 press says he came to
+Ludwigshafen in 1958 (the article's own arithmetic, 13 years at Kaiserslautern, puts it nearer 1967). The mission's
+own site (hkm-lu.de) has no history page. *Zvona* 9 (1998) and *Senjski zbornik* 30–31 (2003–04) are the next things to read.

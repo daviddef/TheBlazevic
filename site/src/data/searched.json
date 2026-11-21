@@ -10,9 +10,9 @@
  "counts": {
   "blocked": 4,
   "nothing": 58,
-  "partial": 51,
+  "partial": 53,
   "pending": 6,
-  "yield": 158
+  "yield": 160
  },
  "read": [
   {
@@ -6027,6 +6027,73 @@
    "pages": "deaths 1780-1836 153-332 (first pass of left and right pages, then a second pass over the left-page line ends); marriages 129-152; deaths 1859-72 336-379; census household pages 51-55, 62-63, 81-85, 100-104, 106-109 only",
    "url": "https://www.familysearch.org/search/catalog/",
    "got": "504 mentions recorded in the deaths and marriages. **The 1780–1836 deaths carry no mothers' maiden names or godparents; the census (images 9-122) was read only for the households the index names, and the census pages numbered 186-205 (Šumećica 2, 5, 6, Poljice 19 by the index) were not found in the film's order and are not read.** Full-zoom check (level 13, 10 Nov 2026) of its 70 medium and low hits: 55 confirmed, 2 another name, 13 unsettled (a letter lost at the image edge or a column rule, or an initial not settled). Entries that read like Žubrinić but are another name were moved out (Xubchich 1783, Zubeich 1806, Zubzich 1812: Žubčić type; Zubesich 1833). Findings table (one row per mention; the verified column holds the full-zoom verdict for the medium and low rows, the others are first-pass readings): sources/otocac-zubrinic-table.tsv; events and households: sources/otocac-events.tsv and sources/otocac-households.md."
+  },
+  {
+   "src": "Trove (NLA) — Kosina and its spellings, Australian newspapers",
+   "key": "trove/kosina",
+   "what": "Kosina, Kossina, Kosinar, Kozina, Kocina and Cosina, alone and with Oskar, Oscar, Franjo, Senj, Zengg, Zagreb, Yugoslav, Croatian, Argentina and Genoa",
+   "when": "22 Nov 2026",
+   "outcome": "partial",
+   "tags": [
+    "kosina",
+    "trove"
+   ],
+   "url": "https://trove.nla.gov.au/search/category/newspapers",
+   "got": "About 400 articles read: the top 100 by relevance, all 84 family notices, all of the 1940s and 100 of the 1960s. «Kosina» returns 2,276 hits, almost all OCR garble of the given name Rosina. **Nothing ties to the Senj Kosina, Oskar or Franjo.** The only real surname hit is a municipal engineer at Albany, WA (1955), a name match with no origin stated. **Not read: the 1900s–1930s and the rest of the 1950s, so this is not a nil for Trove.**",
+   "logOnly": true,
+   "nobody": true
+  },
+  {
+   "src": "Trove (NLA) — Zubrinich in Victoria, Queensland, Western Australia and Tasmania",
+   "key": "trove/zubrinich-vic-qld-wa-tas",
+   "what": "Zubrinich and its spellings in the newspapers of the four states not yet read",
+   "when": "22 Nov 2026",
+   "outcome": "yield",
+   "tags": [
+    "zubrinic",
+    "trove"
+   ],
+   "url": "https://trove.nla.gov.au/search/category/newspapers",
+   "got": "115 verified articles read. **Leonard Zubrinich, 20, apprentice jockey of Caulfield, badly hurt in a fall at Ballarat on 20 September 1928** (The Age, 21 September 1928, p. 7). **Stanley J. Zubrinich of Port Pirie married Johanna M. J. Clowes at St James', Coorparoo, Brisbane, on 15 November 1947** (Courier-Mail, 15 and 17 November 1947). An Adelaide owner-trainer called P. Zubrinich in 1937 (Argus, 1 June 1937) and «Les» Zubrinich (Sporting Globe, 7 August 1937): **whether either is a man already in the tree is NOT established.** Not run: Blazevic, Perpic, Perpich, Prpic, Prpić.",
+   "logOnly": true,
+   "nobody": true
+  },
+  {
+   "src": "Hrčak — Senjski zbornik 28 (2001), M. Rogić, «Blaženi Alojzije Stepinac i grad Senj», pp. 183–210",
+   "key": "hrcak/senjski-zbornik-28-rogic",
+   "what": "the printed account of Ante Kosina's life: exile, studies, Germany, the 1998 jubilee",
+   "when": "22 Nov 2026",
+   "outcome": "yield",
+   "tags": [
+    "kosina",
+    "senj"
+   ],
+   "url": "https://hrcak.srce.hr/file/45678",
+   "got": "Read in full. He left Senj in early April 1945; studied at the Gregoriana (one year) and in Naples (two); was a spiritual director at Nuremberg, then 13 years at Kaiserslautern, then Ludwigshafen; could visit Senj freely only from 1990; celebrated 50 years of priesthood in Senj cathedral on 2 August 1998 (ordained 1948, inferred). **No death date.** Photographs come from the collection he gave to the Sakralna baština in Senj.",
+   "logOnly": true,
+   "for": [
+    [
+     "/people/antun-anton-kosina/",
+     "Antun Anton Kosina"
+    ]
+   ]
+  },
+  {
+   "src": "The open web — Bachi at Pag, Marić and Šumbul at Otočac, Uroda at Šibenik (Hrčak articles, State Archive finding aids)",
+   "key": "web/bachi-maric-uroda-2026-11",
+   "what": "origins of Caetanus Bachi, Ana Marić (ahnentafel 11) and Georgius Uroda in open, published sources (no FamilySearch)",
+   "when": "22 Nov 2026",
+   "outcome": "partial",
+   "tags": [
+    "bachi",
+    "maric",
+    "uroda",
+    "karlobag"
+   ],
+   "url": "https://hrcak.srce.hr/",
+   "got": "**Bachi: nothing places a Bachi family at Pag, Nin or Karlobag** (the Pag nobility of 1783 in Granić 1993 does not include them). **Marić / Šumbul: no source read has the surname or an Otočac Marić household**; the Croatian State Archives hold Otočac births and deaths for 1834–1858 only. **Uroda: published Šibenik households** (three Vroda/Vrodich households in the Dolac baptisms 1686–1699, Šupuk 1974; a second centre at Betina, Juran 2003); no Georgius baptised 1720–42 named in any source. archive.org full text and the Google Books layer were not searched.",
+   "logOnly": true,
+   "nobody": true
   }
  ]
 }
