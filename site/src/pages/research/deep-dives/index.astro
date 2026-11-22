@@ -1,0 +1,25 @@
+---
+/* DEEP DIVES: the hub (23 November 2026, the estate clean-up). Every local study, check and deep dive that used to stand in the Research menu
+   is listed here, each with what it asks and its count. The list is lib/research-menu.js `DEEP`, the same list that decides what the menu leaves
+   out, so the menu and this page cannot disagree. Nothing moved: each page is still at its address and still on its group page and on /research/. */
+import Base from "../../../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { withBlurbs } from "../../../lib/research-counts.js";
+import { u } from "../../../lib/url.js";
+import { DEEP, RESEARCH } from "../../../lib/research-menu.js";
+const n = DEEP.reduce((k, s) => k + s.items.length, 0);
+---
+<Base title="Deep dives" eyebrow="Research · the long studies and the checks"
+      dek="The pages of Research that are a study, a check or a reading of one kind of source rather than a list of tasks or a log: each at the address it has always had.">
+  <section class="blk">
+    <p class="cap">{n} pages. The core of Research (what is to do, what is new, what the archive stands on) is in the menu above; these sit beside it.
+    {RESEARCH.map((g, i) => (<>{i ? " · " : " "}<a href={u(g.href)}>{g.head}</a></>))} · <a href={u("/research/")}>all of Research on one page</a>.</p>
+  </section>
+  {DEEP.map((s) => (
+    <section class="blk">
+      <h2 id={s.id} class="rs-h">{s.head}</h2>
+      {s.note && <p class="dek rs-dek">{s.note}</p>}
+      <ResearchList items={withBlurbs(s.items)} />
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,14 @@
+---
+/* DRAWN: the hub (23 November 2026, the estate clean-up, David: "menus, do all"). The five drawn pages left the People menu for one link to this
+   page; the list is lib/site-menu.js `DRAWN`, so this page and the menu's reach cannot disagree. No drawn page was renamed, moved or deleted.
+   Roots & Routes, which was one of them, is retired: /roots/ redirects to /trees/. */
+import Base from "../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { DRAWN } from "../lib/site-menu.js";
+---
+<Base title="Drawn" eyebrow="People · the line and its relatives, as pictures"
+      dek="Every page of this archive that draws people instead of listing them: the whole line as one chart, the family trees, a person's relatives around them, the line through time, and the lanes of a name.">
+  <section class="blk">
+    <ResearchList items={DRAWN} />
+  </section>
+</Base>

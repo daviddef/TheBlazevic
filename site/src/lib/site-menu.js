@@ -1,4 +1,11 @@
-/* THE WHOLE MENU, one list. 12 November 2026 (the menu regroup, PR A, after the Defranceski archive's): the seven groups other than
+/* 23 NOVEMBER 2026 (the estate clean-up, David: "menus, do all"; Booyzen's menu of 12 November is the reference):
+     People > Drawn: the five drawn pages became ONE link, "Drawn", to the hub /drawn/ (the list is DRAWN below).
+     Places & families: the heading is now the hub link "All the families" (/families/) with the four named families under it, the own line
+       first and then A to Z (Kalanj, Papić, Pavelić). Prpić and Žubrinić, two of the four families of Hedviga's line, left the dropdown: each is
+       linked from /families/ (tools/familycheck.py asks it, and docs/menu-cleanup-reach.md proves it).
+     Research: the eight core pages in their three groups plus ONE "Deep dives" heading that links /research/deep-dives/ (lib/research-menu.js).
+   12 November 2026, as first written:
+   THE WHOLE MENU, one list. 12 November 2026 (the menu regroup, PR A, after the Defranceski archive's): the seven groups other than
    Research became five, and Research (lib/research-menu.js, unchanged) is the sixth: Start, Our line, People, Places & families, The
    name, Research. The header menu and the drawer (layouts/Base.astro) read THIS list, so there is one place to change a label or move
    a page. MENU ONLY: no page was renamed, merged or deleted, no address changed, no page's text changed; every href below is a page
@@ -29,6 +36,19 @@
    /connected/, /zubrinic-roots/. */
 import { navGroups } from "./research-menu.js";
 
+/* THE DRAWN PAGES, listed on the hub page /drawn/ (src/pages/drawn.astro), which reads this list. 23 November 2026 (the estate clean-up, David:
+   "menus, do all"): the five drawn pages left People > Drawn for ONE link "Drawn", and Roots & Routes, which was one of them, was retired
+   (/roots/ redirects to /trees/). No page was renamed, moved or deleted. The Spine and The Lines of a Name are drawn too: the Spine stays
+   in Our line, the Lines is reached from All the families, and both are listed here as well. */
+export const DRAWN = [
+  { href: "/tree", label: "Our line, drawn", blurb: "The whole of what this archive knows of Hedviga's ancestry, as one chart: nothing cut for space, so every place it stops is a place the line really stops." },
+  { href: "/trees/", label: "The trees", blurb: "Every family this archive follows, each drawn; most of them are webs rather than lines, which is what the evidence is." },
+  { href: "/bloodline/", label: "Blood relatives, drawn", blurb: "Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside, children below, and through them the aunts, uncles and cousins." },
+  { href: "/timeline", label: "The Timeline", blurb: "The line's places against the states that held them: Senj alone ran through the Uskoks, the Military Frontier, Austria\u2013Hungary and Yugoslavia." },
+  { href: "/direct-line", label: "The Spine", blurb: "From a boy born about 1750 to Hedviga at Senj in 1926: the line the tree asserts, with the joint that cannot yet bear weight marked." },
+  { href: "/lines/", label: "The Lines of a Name", blurb: "Wherever the registers show several households of one name, each gets a lane of its own, and a join between lanes is dotted until a document makes it." },
+];
+
 export const MENU = [
   ["Start", [
     ["/", "Home"], ["/story/", "The Story"], ["/about/", "About"], ["/how-far-back", "How Far Back"],
@@ -47,15 +67,12 @@ export const MENU = [
     { head: "Lists", items: [
       ["/people", "The People"], ["/who/", "Every Name"], ["/register", "The Register"], ["/marriages/", "The Marriages"],
     ] },
-    { head: "Drawn", items: [
-      ["/tree", "Our line, drawn"], ["/trees/", "The trees"], ["/timeline", "The Timeline"],
-      ["/bloodline/", "Blood relatives, drawn"],
-    ] },
+    /* ONE link to the hub page /drawn/ (23 November 2026): the drawn pages are listed there, from DRAWN below */
+    { head: "Drawn", href: "/drawn/", items: [] },
   ]],
   ["Places & families", [
-    { head: "The families", href: "/families", items: [
-      ["/blazevic", "Blažević"],
-      ["/kalanj", "Kalanj"], ["/papic", "Papić"], ["/pavelic", "Pavelić"], ["/prpic", "Prpić"], ["/zubrinic", "Žubrinić"],
+    { head: "All the families", href: "/families", items: [
+      ["/blazevic", "Blažević"], ["/kalanj", "Kalanj"], ["/papic", "Papić"], ["/pavelic", "Pavelić"],
     ] },
     { head: "Places", href: "/places", items: [
       ["/atlas/", "The Atlas"], ["/gazetteer", "The Map"], ["/port-pirie", "Port Pirie"],

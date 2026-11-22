@@ -10,7 +10,7 @@ else. Nothing noticed, because nothing asked. This asks, twice.
   1. EVERY FAMILY IN families.json IS REACHABLE. It has a built page, it is in the
      sitemap (which the kit writes, and a noindex page is not in), and it is linked from the
      "Places & families" menu (site/src/lib/site-menu.js; layouts/Base.astro reads it) OR from the /families/ index,
-     which that menu links (the heading "The families"). THE ONE RULE FOR ALL EIGHT ARCHIVES (David, 13 November 2026; it
+     which that menu links (the heading "All the families"; "The families" before 23 November 2026). THE ONE RULE FOR ALL EIGHT ARCHIVES (David, 13 November 2026; it
      replaced "in the menu AND on /families/", which kept all 25 surnames in the dropdown). A page in neither place, or a menu
      that no longer links /families/, is refused.
   2. EVERY SURNAME ON THE DIRECT LINE HAS A PAGE, OR SAYS WHY NOT. ancestors.json is
@@ -77,8 +77,9 @@ def check(root, dist, data=None, base=None, keys=None, pend=None):
     m = re.search(r'\["Places & families", \[(.*?)\n  \]\],\n', nav, re.S)
     menu = m.group(1) if m else ""
 
-    if not re.search(r'head: "The families", href: "/families/?"', menu):
-        problems.append("the 'Places & families' menu in lib/site-menu.js does not link the /families/ index (the heading 'The families' needs href \"/families\")")
+    # the heading is the hub link: "The families" until 23 November 2026, "All the families" since (the estate's label for it)
+    if not re.search(r'head: "(?:The|All the) families", href: "/families/?"', menu):
+        problems.append("the 'Places & families' menu in lib/site-menu.js does not link the /families/ index (the heading 'All the families' needs href \"/families\")")
     if not fam_index:
         problems.append("/families/ is not in the build")
     for f in fams:
