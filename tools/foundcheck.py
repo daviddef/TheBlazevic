@@ -1109,6 +1109,8 @@ SETTLED = {
         "resembles Maria Francina Elizabeth Kotze 1815, a Cape child born a year earlier; this row is a bride at Senj in May 1816 (FamilySearch, image 200). Settled 17 October 2026.",
     "Maria Kralich":
         "resembles Maria Žubrinić Zubrinic 1822 [children of anna-4]; Maria Sekula 1820 [children of maria-11]; Maria Žubrinić Zubrinic Xubrinich 1821 [children of catharina-7]; Maria Žubrinić Xubrinich 1822 [children of maria-baptised-margarita] - a woman of 36 who died in 1821 (born about 1785), the probable wife of Jacobus Kraljich, against four infant Marias born 1820-1822 of other families; the resemblance is a given name and a year. This row is the Otočac deaths reading of 17 Oct 2026, see notes/otocac-death-1821-jacobus-kralich.md",
+    "Maria Perpić":
+        "resembles Maria 1848 [published]; Maria Rosaria Antić 1847; Maria Žubrinić 1848 and 1847; Mathia Maria Papić (Papa) 1847; Maria Kraljich 1848; Maria Tomljanovic 1847 - none is a Perpić, none is baptised at Krivi Put on 7 February 1847, and none has parents Joannes Perpić and Lucia nata Perpić; the resemblance is a given name and a year. This row is the Krivi Put births reading of 22 Nov 2026, image 6, see notes/krivi-put-maria-perpic-1847-joannes-lucia-house-36.md",
 }
 
 

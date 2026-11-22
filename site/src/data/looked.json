@@ -3,7 +3,7 @@
 "built": "2026-11-22",
 "catalogueBuilt": "2026-11-22",
 "inputs": {
-"site/src/data/searched.json": "6dd7d06da2a66e14",
+"site/src/data/searched.json": "87e0d719915b9e67",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -170,6 +170,30 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-L9SQ-T?cc=2040054",
 "volumes": [
 "9RK1-3Y9"
+]
+},
+{
+"id": 283,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (waypoint 9R28-DP8), images 5–8 (printed pages 1–8, January 1847 to early 1848), read for Joannes Perpić and Lucia, the parents of ahnentafel 7",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "An elder sibling of ahnentafel 7 (Antonija Perpić, b. 1859) among the 1847 Krivi Put baptisms: any child of a Joannes Perpić and a Lucia",
+"when": "22 Nov 2026",
+"ord": 20261122,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RDG2?cc=2040054",
+"volumes": [
+"9R28-DP8"
 ]
 },
 {
@@ -4765,12 +4789,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 157,
+"shown on person pages (by tag)": 158,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 283,
-"shown": 160
+"register": 284,
+"shown": 161
 }
 }

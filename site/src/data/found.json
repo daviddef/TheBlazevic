@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 865,
+ "count": 866,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -14,7 +14,7 @@
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
   "Karlobag": 57,
-  "Krivi Put": 5,
+  "Krivi Put": 6,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
   "Lučane, Brinje parish, Croatia": 11,
@@ -8704,6 +8704,16 @@
    "place": "Karlobag",
    "citation": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), image 54 right (book p. 97): «karstih cher Juana mladoga Smovera i negove xene imenom Orsula, bi kum Sigor Karlo Stoner». ark 3:1:3QS7-899C-L9SQ-T. Snapshot /snapshots/#karlobag-births-1732-05-12-smojver",
    "slug": "orsula-smojver"
+  },
+  {
+   "name": "Maria Perpić",
+   "ahn": null,
+   "relation": "CANDIDATE ELDER SISTER OF AHNENTAFEL 7 - daughter of a Joannes Perpić and a Lucia nata Perpić, house No 36 (hers is 136); NOT proved",
+   "event": "baptism",
+   "date": "7 February 1847",
+   "place": "Krivi Put",
+   "citation": "Krivi Put births 1847–1884 (DGS 5494757, waypoint 9R28-DP8), image 6 right (printed p. 3), entry 21: «Filia legitima Joannis Perpich et Lucis ejus conjugis nata Perpich», godparents Michael and Maria Perpich; ark 3:1:3QS7-899X-RDG2. Snapshot /snapshots/#krivi-put-baptism-1847-maria-perpic; notes/krivi-put-maria-perpic-1847-joannes-lucia-house-36.md",
+   "slug": "maria-perpic"
   }
  ]
 }
