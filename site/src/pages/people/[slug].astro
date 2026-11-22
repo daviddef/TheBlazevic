@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
+import { publicHref } from "../../lib/plain.js";
 import { people, lifespan } from "../../lib/people.js";
 import { COPY } from "../../lib/familyCopy.js";
 import { md, mdNote } from "@daviddef/archive-kit/lib/md.js";
@@ -664,7 +665,7 @@ const SPOUSES = STORYMODE && !LS ? spouses.filter((r) => !heldOutRow(r)).map(spo
                 {r.derived && <span class="dek" style="display:block">Named on {r.viaName || r.via}'s
                   entry rather than their own — <em>a register names you</em> is not
                   <em> a register is about you</em>.</span>}
-                {r.href && <span style="display:block"><a href={r.href}>{r.where}</a></span>}</td>
+                {r.href && (publicHref(r.href) ? <span style="display:block"><a href={r.href}>{r.where}</a></span> : <span class="mono dek" style="display:block">{r.where}</span>)}</td>
             </tr>
           ))}</tbody>
         </table>

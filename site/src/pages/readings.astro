@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { publicHref } from "../lib/plain.js";
 import R from "../data/readings.json";
 import snapshots from "../data/snapshots.json";
 const snapOf = (slug) => (snapshots.bySlug[slug] || [])[0];
@@ -93,8 +94,8 @@ for (const r of byYear) {
             <td class="dek">{r.kind}{r.indexOnly &&
               <span class="dek" style="display:block"><strong>index only</strong></span>}</td>
             <td class="dek">{r.cite}
-              {r.href && <span style="display:block"><a href={r.href}>{r.where}</a></span>}
-              {!r.href && r.where && <span class="mono dek" style="display:block">{r.where}</span>}
+              {publicHref(r.href) && <span style="display:block"><a href={r.href}>{r.where}</a></span>}
+              {!publicHref(r.href) && r.where && <span class="mono dek" style="display:block">{r.where}</span>}
               {snapOf(r.slug) && <span style="display:block"><a href={u(`/snapshots/#${snapOf(r.slug)}`)}>the page itself →</a></span>}</td>
           </tr>
         ))}</tbody>
