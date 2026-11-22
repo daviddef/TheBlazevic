@@ -3,7 +3,7 @@
 "built": "2026-11-22",
 "catalogueBuilt": "2026-11-22",
 "inputs": {
-"site/src/data/searched.json": "a118959fb5f7ac50",
+"site/src/data/searched.json": "48b47e1507c9193a",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -124,6 +124,32 @@
 ],
 "href": "https://hrcak.srce.hr/",
 "volumes": []
+},
+{
+"id": 281,
+"src": "FamilySearch",
+"volume": "Karlobag births (waypoint 9RK1-3Y9), image 53, both pages, read slowly for a Smojver or Vukić baptism of 1730–32",
+"years": "",
+"span": null,
+"what": "The baptism of ahnentafel 212, Josiph Smojver Vukić (b. 1730–31), looked for name by name",
+"when": "22 Nov 2026",
+"ord": 20261122,
+"outcome": "nothing",
+"surnames": [
+"smojver"
+],
+"places": [
+"karlobag"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-L9S7-Y?cc=2040054",
+"volumes": [
+"9RK1-3Y9"
+],
+"nil": {
+"smojver": [
+"covered"
+]
+}
 },
 {
 "id": 274,
@@ -4718,12 +4744,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 155,
+"shown on person pages (by tag)": 156,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 281,
-"shown": 158
+"register": 282,
+"shown": 159
 }
 }
