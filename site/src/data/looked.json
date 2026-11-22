@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-22",
+"built": "2026-11-23",
 "catalogueBuilt": "2026-11-22",
 "inputs": {
-"site/src/data/searched.json": "87e0d719915b9e67",
+"site/src/data/searched.json": "c0b28ee2451e21e4",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -86,6 +86,30 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 284,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (waypoint 9R28-DP8), three pages found through the index and read for the children of Joannes (Ivan) Perpić and Lucia nata Perpić: images 24 (1851), 99 (1864) and 135 (1870)",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Children of a Joannes Perpić and a Lucia nata Perpić at Krivi Put outside the years already read (ahnentafel 7's parents): the house numbers of 1851, 1864 and 1870",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RDRV?cc=2040054",
+"volumes": [
+"9R28-DP8"
+]
+},
 {
 "id": 279,
 "src": "Hrčak",
@@ -4789,12 +4813,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 158,
+"shown on person pages (by tag)": 159,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 284,
-"shown": 161
+"register": 285,
+"shown": 162
 }
 }

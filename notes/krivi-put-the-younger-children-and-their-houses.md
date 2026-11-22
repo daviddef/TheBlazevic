@@ -28,3 +28,5 @@ house number is again the test. Krivi Put births 1847–1884, waypoint 9R28-DP8.
   explanation of 135/136.
 * Lucia's surname in 1876 is cut off at the cell edge.
 * The marriage of Joannes and Lucia is not in a filmed Krivi Put marriage book (1871–1894 only).
+
+**Added 23 November 2026:** Catharina (12 November 1864) and Anna (20 November 1870) of the same couple are also at house 135, so the number is the same in 1864, 1868, 1870 and 1874; see [that note](krivi-put-joannes-lucia-children-1851-1864-1870.md). Two of the 1862–1873 children are therefore listed; the rest of the household list is still not made.
