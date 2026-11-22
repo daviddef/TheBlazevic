@@ -65,7 +65,13 @@ None. The clerk (Pop Andrija Kolikar, a Latin entry pasted in for a gentleman's 
 order, which is why 1730 and 1731 follow each other twice on the one image. Search register: `fs/karlobag-births-1730-1732-smojver-slow-read-2026-11-22`.
 This is a nil for one image, not for the man: an «Osip Smojver» is a father at Karlobag in 1733.
 
+**Later the same day: images 52 and 54 read (both pages, 4x), and three Smojver children found** (13 October 1729 Franica of Marko;
+21 April 1732 Marta of Antun; 12 May 1732 Orsula of Ivan «the younger»). None is the baptism of ahnentafel 212. Full account,
+transcriptions, snapshots and the Atlas catalogue gap: `notes/karlobag-smojver-baptisms-1729-1732.md`. Search register
+`fs/karlobag-births-1729-1732-smojver-images-52-54-2026-11-22`. The Lerena and Defranceski sessions were told before the read; the
+account was released by Lerena at David's word and was free.
+
 **Not started.** Rows 24, 26, 4, 29, 31, 33, 27, 32, 83 and 6 each need a long, careful read of a register; none was begun
-today. Sensible order, from what the rows say is left: row 54's other unread images (the neighbours of image 53), rows 29 and 31
+today. Sensible order, from what the rows say is left: row 54's further images (51 and earlier, 55 onward; 52 and 54 are read), rows 29 and 31
 (Senj and Krivi Put baptisms, which rows 29 and 31 say have reachable entries), then row 4 (the Senj marriage of
 ahnentafel 12 and 13).

@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 862,
+ "count": 865,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -13,7 +13,7 @@
   "Feichting bei St. Johann, župnija Kranj-Šmartin": 1,
   "Holy Trinity, North Terrace, Adelaide": 1,
   "Kamenica, Brinje parish, Croatia": 64,
-  "Karlobag": 54,
+  "Karlobag": 57,
   "Krivi Put": 5,
   "Križ Kamenica, Brinje parish, Croatia": 2,
   "Križpolje, Brinje parish, Croatia": 1,
@@ -8674,6 +8674,36 @@
    "place": "Karlobag",
    "citation": "Karlobag marriages 1736-1804 image 303 left page, «Franciscae filiae Michaelis Berkliacich»; her father is Michael Berkliacich; not in the published tree; ark 3:1:3QSQ-G99C-G3ZT",
    "slug": "francisca-berkliacich-berkljacic"
+  },
+  {
+   "name": "Franica Smojver",
+   "ahn": null,
+   "relation": "daughter of a Marko Smojver of Karlobag; NOT shown to be kin of ahnentafel 212",
+   "event": "baptism",
+   "date": "13 October 1729",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), image 52 left (book p. 92): «karstih cher Marka Smoyvera i njegova … imenom Franicu». ark 3:1:3QS7-L99C-L9S5-T. Snapshot /snapshots/#karlobag-births-1729-10-13-smojver; notes/karlobag-smojver-baptisms-1729-1732.md",
+   "slug": "franica-smojver"
+  },
+  {
+   "name": "Marta Smojver",
+   "ahn": null,
+   "relation": "daughter of an Antun Smojver of Karlobag; NOT shown to be kin of ahnentafel 212",
+   "event": "baptism",
+   "date": "21 April 1732",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), image 54 right (book p. 97): «karstih cher Antona Smovara i nyegove xene … imenom Marta, bi kum Anton Roxarich svojon xenom Gelom». ark 3:1:3QS7-899C-L9SQ-T. Snapshot /snapshots/#karlobag-births-1732-04-21-smojver",
+   "slug": "marta-smojver"
+  },
+  {
+   "name": "Orsula Smojver",
+   "ahn": null,
+   "relation": "daughter of an Ivan Smojver «the younger» (mladoga) of Karlobag, so an elder Ivan existed; NOT shown to be kin of ahnentafel 212",
+   "event": "baptism",
+   "date": "12 May 1732",
+   "place": "Karlobag",
+   "citation": "Karlobag births 1691–1804 (DGS 5481648, waypoint 9RK1-3Y9), image 54 right (book p. 97): «karstih cher Juana mladoga Smovera i negove xene imenom Orsula, bi kum Sigor Karlo Stoner». ark 3:1:3QS7-899C-L9SQ-T. Snapshot /snapshots/#karlobag-births-1732-05-12-smojver",
+   "slug": "orsula-smojver"
   }
  ]
 }
