@@ -32,6 +32,5 @@ Is there a Senj entry for him, and does it write the father Perpić or Tomljanov
 
 ## What follows
 
-Pave (born 12 September 1881, baptised 13 September; Krivi Put image 320) is the last open child in the Senj register: volume 9R2D-JWL, September 1881.
-The father's surname for the household (Perpić or Tomljanović) still rests on Matija's entry alone.
+Pave (born 12 September 1881) was read afterwards (`senj-births-september-1881-pave.md`): nothing in entries 71–84. Of the couple's children the Senj register has Michael (1874, father written Perpić) and Matija (1879, father written Tomljanović); nothing for Josephus or Pave.
 Surname and given-name forms met: Prpić/Perpić (cover run, no new form), Tomljanović, Špalj, Jurčić, Radošević; Josephus/Josip (in the catalogue). None is new to the Atlas catalogues.

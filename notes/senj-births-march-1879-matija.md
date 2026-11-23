@@ -32,5 +32,5 @@ Which surname does the Senj register give the father of the child baptised on 2 
 
 ## What follows
 
-Josephus (1876) was read at Senj afterwards (`senj-births-july-1876-josephus.md`): entries 67–79 name no Perpić or Tomljanović and no Josephus. The Senj entry for Pave (born 12 September 1881; Senj births 1878–1894) would show which surname the register gives for the youngest child.
+Josephus (1876) was read at Senj afterwards (`senj-births-july-1876-josephus.md`): entries 67–79 name no Perpić or Tomljanović and no Josephus. Pave (born 12 September 1881) was read afterwards (`senj-births-september-1881-pave.md`): nothing in entries 71–84.
 Surname and given-name forms met: Tomljanović/Tomjanović, Prpić/Perpić, Durbešić, Glavičić, Dobrović, Grzin; Ivan/Jvan, Lucia/Luca/Luce, Matija (a woman's name here, as in the index). None is new to the Atlas catalogues.

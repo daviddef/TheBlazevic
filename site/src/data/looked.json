@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "9f67306ae198df23",
+"site/src/data/searched.json": "41b182e1120e4905",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -364,6 +364,40 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QRC?cc=2040054",
 "volumes": [
 "9R2D-JW5"
+],
+"nil": {
+"prpic": [
+"covered"
+],
+"tomljanovic": [
+"covered"
+]
+}
+},
+{
+"id": 295,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), images 70–71: the baptisms of 8 September to 23 October 1881, read for Pave, son of Ivan Perpić and Luca née Perpić (Krivi Put, born 12 September 1881)",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Whether the Senj register has the Pave of the Krivi Put row (born 12, baptised 13 September 1881, Klaričevac 82), and which surname it gives the father. Entries 71–84 read in full, left and right pages: none is born on 12 September, the…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "nothing",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q1T?cc=2040054",
+"volumes": [
+"9R2D-JWL"
 ],
 "nil": {
 "prpic": [
@@ -5077,12 +5111,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 169,
+"shown on person pages (by tag)": 170,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 295,
-"shown": 172
+"register": 296,
+"shown": 173
 }
 }
