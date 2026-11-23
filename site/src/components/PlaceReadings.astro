@@ -15,6 +15,7 @@
    /readings does not. */
 import R from "../data/readings.json";
 import { u } from "../lib/url.js";
+import { publicHref } from "../lib/plain.js";
 const { place } = Astro.props;
 const fold = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const base = fold(String(place.name || "").split(/[,(]/)[0]).trim();
@@ -36,7 +37,7 @@ const clip = (s, n) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + " 
           <td>{r.slug ? <a href={u("/people/" + r.slug + "/")}>{r.name || r.slug}</a> : (r.name || "")}</td>
           <td class="mono">{r.kind}{r.indexOnly ? " (index only)" : ""}</td>
           <td class="mono">{r.year}</td>
-          <td class="dek">{clip(r.cite, 230)}{r.href ? <> <a href={r.href}>note →</a></> : null}</td>
+          <td class="dek">{clip(r.cite, 230)}{publicHref(r.href) ? <> <a href={r.href}>note →</a></> : null}</td>
         </tr>))}</tbody>
     </table>
   </section>

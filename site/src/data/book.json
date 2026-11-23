@@ -113,9 +113,9 @@
      "group": "The line, drawn"
     },
     {
-     "path": "/roots/",
-     "title": "Roots & Routes",
-     "blurb": "Everyone in the tree who has died, drawn ten ways: by generation, by place, by era, and as the route a life took.",
+     "path": "/drawn/",
+     "title": "Drawn",
+     "blurb": "Every page that draws people instead of listing them, in one place: the line, the trees, a person's relatives, the timeline, the lanes of a name.",
      "group": "The line, drawn"
     },
     {
@@ -492,6 +492,12 @@
      "path": "/research/checks/",
      "title": "Checks",
      "blurb": "The four audits the build generates from the tree and the research data.",
+     "group": "Where to start"
+    },
+    {
+     "path": "/research/deep-dives/",
+     "title": "Deep dives",
+     "blurb": "The long studies, the page-by-page readings and the checks, each with what it asks.",
      "group": "Where to start"
     },
     {

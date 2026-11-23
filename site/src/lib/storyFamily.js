@@ -4,7 +4,7 @@
 
    - `bySlug`, `hasPage`: the published people and everyone with a page, a living person included (a living page is a name, relationships, a town and
      a country); a card links only where there is a page.
-   - `drawn`: the ids Roots & Routes draws (public/roots-links.json, written by tools/build-tree-page.py); "Where they lived" is offered only for those.
+   - `drawn`: the ids the person-page viewer draws (public/roots-links.json, written by tools/build-tree-page.py); "Where they lived" is offered only for those.
    - `TREE_BY`: the line of fathers, for the story's first stop. A parent is the father only where the record holds the sex M and the mother only where
      it holds F: a parent whose sex is not recorded fills neither slot, and is drawn as "Parent" on the family row. Sex is never inferred from a name or
      from the order the tree lists the parents.

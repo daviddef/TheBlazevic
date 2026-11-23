@@ -28,7 +28,12 @@ const redirects = { ...mergedRedirects, '/changed': `${BASE}/corrections/`, '/ma
   '/photograph-these': `${BASE}/errands/#photographs`,
   /* 5 November 2026: Hedviga's, Milka's and Oto's own pages are their person pages, in story mode (src/lib/lifeStories.js). */
   '/hedviga': `${BASE}/people/hedviga-blazevic/`,
-  '/milka': `${BASE}/people/milka-lucia-papic/`, '/oto': `${BASE}/people/oto-blazevic/` };
+  '/milka': `${BASE}/people/milka-lucia-papic/`, '/oto': `${BASE}/people/oto-blazevic/`,
+  /* 23 November 2026 (David: "roots and routes, remove it"): the archive's own Roots & Routes page is retired; the Tree Canvas on the Record
+     Atlas replaced it estate-wide. The address answers with a redirect stub to this archive's own trees page. It was noindex, so it was never in
+     the sitemap and the stub stays out of it too. /roots/view.html is NOT retired: it is the bare viewer the "Where they lived" frames on a
+     person's page load (kit PersonRootsViews), and it stays noindex. */
+  '/roots': `${BASE}/trees/` };
 
 export default defineConfig({
   site: 'https://blazevic.defranceski.com',

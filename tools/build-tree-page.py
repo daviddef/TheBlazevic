@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Roots & Routes: the tree page for this archive, built from this archive's own committed data.
+"""Roots & Routes: the tree viewer for this archive, built from this archive's own committed data.
 
-    python3 tools/build-tree-page.py            # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html, roots.embed.html) and site/public/roots-links.json
+    RETIRED AS A PAGE (23 November 2026, David: "roots and routes, remove it"; the Tree Canvas on recordatlas.org replaced it estate-wide).
+    /roots/ is now a redirect to /trees/. What is still built, and why: roots.html is served bare at /roots/view.html for the frames on a
+    person's page (kit PersonRootsViews), and roots-links.json says which people have one. The fragment for the page (roots.embed.html) is gone.
+
+    python3 tools/build-tree-page.py            # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html) and site/public/roots-links.json
     python3 tools/build-tree-page.py --check    # exit 1 if the page is older than the data it was built from
 
 WHERE THE PEOPLE COME FROM. There is no committed GEDCOM (the tree export carries living dates and stays outside the repo). The people are the ones
@@ -407,9 +411,6 @@ def main():
     write_roots_links(tree)
     tpl = os.path.join(TP, "tree-views.template.html")
     run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", page, "--ext", EXT])
-    embed = os.path.join(OUT, "roots.embed.html")
-    run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", embed, "--embed", "--ext", EXT])
     run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", page])
-    run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", embed])
 
 if __name__ == "__main__": main()

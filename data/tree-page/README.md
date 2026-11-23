@@ -1,7 +1,12 @@
-# Roots & Routes (the tree page)
+# Roots & Routes (the person-page viewer; the /roots/ page itself is retired)
+
+**23 November 2026 (David: "roots and routes, remove it"):** the page at `/roots/` is gone, replaced estate-wide by the Tree Canvas on recordatlas.org. `/roots/` now redirects to `/trees/`
+(Astro `redirects`, `site/astro.config.mjs`). What remains is the bare viewer at `/roots/view.html` (noindex), which the "Where they lived" frames on a person's page load, and
+`site/public/roots-links.json`, which says which people have one. `roots.embed.html`, the fragment the page used, was deleted. The text below describes the viewer as it was when it was a page.
+
 
 Ten views of every person in the archive who has died: hourglass, fan, whole-tree and close-family maps, Atlas map, movements, kinship, place lanes, eras,
-lifespans, an Orphans tab, and the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived). It is served at `/roots/`, and
+lifespans, an Orphans tab, and the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived). It was served at `/roots/` (now retired), and is
 bare at `/roots/view.html` for the frames in "Where they lived, and what is still missing" on a person's page (story mode).
 
 | File | What it is | Edit by hand? |
@@ -10,7 +15,7 @@ bare at `/roots/view.html` for the frames in "Where they lived, and what is stil
 | `place_map.json` | each place string with coordinates, country and Record Atlas id | no, generated (see below) |
 | `place-additions.json` | place strings decided by hand, each with its reason | yes, with a reason |
 | `atlas-data.json` | the Record Atlas slice: outlines, regimes, flags, events, collections | no, generated |
-| `roots.html`, `roots.embed.html` | the page, whole and as a fragment for the site layout | no, generated |
+| `roots.html` | the viewer, whole; served bare at `/roots/view.html` for the person-page frames (`roots.embed.html`, the fragment for the old page, was deleted) | no, generated |
 | `tree.report.json` | counts, and the 14 people whose dates are not one life | read it |
 | `people.ged`, `slugs.json` | intermediates, not committed | no |
 

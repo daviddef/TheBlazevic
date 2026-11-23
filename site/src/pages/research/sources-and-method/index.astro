@@ -17,6 +17,6 @@ const rest = RESEARCH.filter((x) => x.id !== "sources-and-method");
         <ResearchList items={withBlurbs(s.items)} />
       </>
     ))}
-    <p class="cap rs-rest">The rest of Research: {rest.map((x, i) => (<>{i ? " · " : ""}<a href={u(x.href)}>{x.head}</a></>))} · <a href={u("/research/")}>all of it on one page</a>.</p>
+    <p class="cap rs-rest">The rest of Research: {rest.map((x, i) => (<>{i ? " · " : ""}<a href={u(x.href)}>{x.head}</a></>))} · <a href={u("/research/deep-dives/")}>Deep dives</a> · <a href={u("/research/")}>all of it on one page</a>.</p>
   </section>
 </Base>

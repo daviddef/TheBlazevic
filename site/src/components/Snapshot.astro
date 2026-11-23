@@ -7,6 +7,7 @@
  * a reader can open the original - FamilySearch images need a free sign-in - and the note
  * the reading is argued in. It is evidence, reduced, not a substitute for the original. */
 import { u } from "../lib/url.js";
+import { publicHref } from "../lib/plain.js";
 import { md } from "@daviddef/archive-kit/lib/md.js";
 const { s, compact = false } = Astro.props;
 const first = s.entry || s.page;
@@ -22,7 +23,7 @@ const first = s.entry || s.page;
     {!compact && <span><Fragment set:html={md(s.says)} /><br /></span>}
     <a href={s.view}>Open the image in the viewer →</a>
     {s.entry && s.page && <span> · <a href={u(`/snaps/${s.page}`)}>the other page, or the whole page</a></span>}
-    {s.note && <span> · <a href={s.noteUrl}>the working note</a></span>}
+    {s.note && <span> · {publicHref(s.noteUrl) ? <a href={s.noteUrl}>the working note</a> : "a working note is kept with the research notes"}</span>}
     {!compact && <span> · <a href={u(`/snapshots/#${s.id}`)}>all snapshots</a></span>}
   </figcaption>
 </figure>
