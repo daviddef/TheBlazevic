@@ -41,7 +41,7 @@ Ivan/Joannes Perpić × Lucia née Perpić, in this book:
 | 12 Sep 1881 (bapt. 13 Sep) | **Pave** (Pavao) | image 320, entry 100 | Klaričevac kbr. 82 | godparents Franjo Tomljanović «mjesnjar» and Marija Perpić; Simun Serdoc; a later note «† 10. listopada 1883». `/snapshots/#krivi-put-baptism-1881-pave-perpic` |
 
 - **Pave (1881) is new**: a further child of the couple at Klaričevac 82, who died aged two (10 October 1883, in a later hand).
-- **Matija (1879) is re-found** (already in the Senj baptism index), with the house, the godparents and the baptiser added.
+- **Matija (1879), a girl («zakonita»), is re-found** (already in the Senj baptism index), with the house, the godparents and the baptiser added; her Senj entry is read (`notes/senj-births-march-1879-matija.md`).
 - **The house moves**: Joanna 1874 stands at 135; from 1876 (Josephus) the couple's children are at Klaričevac 82, number 163 in the old numbering.
   Klaričevac 82 holds other Perpić households at the same time (Mile × Mande, 82/165 in 1878 and 1880; Nikola × Franjica, 1883).
 - **Michael (1874) is a real baptism, found in the Senj register the same day (entry 5, image 318 of waypoint 9R2D-JW5):** «6a die 11a Januarii 1874, Michael, legitimus,
@@ -50,8 +50,9 @@ Ivan/Joannes Perpić × Lucia née Perpić, in this book:
   The same day of birth and the same parents' names as Joanna (born 6 January, baptised 12 January at Krivi Put, house 135) stand against **two different house numbers
   in the registers (22 at Senj, 135 at Krivi Put)**; the sheet's «82 (prov. No 163)» is a third form of the number, the one the couple's later children carry. **Twins, or two couples of the
   same names, is still not settled**: the Senj register does not say, and no entry names a sibling. It has been narrowed to a question about house numbers.
-- **Matija's father is written two ways.** The Krivi Put row writes «Jvana Perpića i Luce rodjene Perpić», the Senj index extract «Ivan Tomljanović» and
-  mother «Lucia Prpić» (same dates). The two are not reconciled here; the Senj image of the baptism is unread.
+- **Matija's father is written two ways, and the Senj register is now read.** The Krivi Put row writes «Jvana Perpića i Luce rodjene Perpić»; the Senj register (image 25 of 9R2D-JWL,
+  printed page 17, entry 17) writes «Ivan Tomljanović poljodjelac i Lucia rodj. Prpić», as the index extract said. The house («Klaričevac kb. 82»), the godparents and the baptiser are the same, so it is
+  one baptism recorded twice. Which surname the father bore is not settled here.
 - **Not our couple, noticed**: a Matija born and baptised 24 February 1884 at image 360 (entry 22) with «Ivan Prpić» written small above
   «Luce Prpić kćeri Petra i Ane» (Krivi put 45, «sin nezakoniti po naknadnoj ženitbi zakonit», married 11 October 1908): this is a different Luce, a
   daughter of Petar and Ana. On 369 right, row 3 (Krivi put kbr. 114, about 1885), the godparents are «Ivan Prpić i Luce Prpić rimo kat. seljaci»: a sighting
@@ -65,12 +66,12 @@ Ivan/Joannes Perpić × Lucia née Perpić, in this book:
 - **Not a walk and not a nil.** Read: the parents' and house columns of images 180–373 (and the slips 374–376, the sheet 377 and the ends 378–381).
   Not read: images 1–9 and 175 of the waypoint's list; the foot rows of 190–192 (a white sheet over them), the rows covered on 180 left, 292–295 and 304–305 (house cells; parents read);
   the godparents' column, except where it was seen beside a house (so a Lucia, wife of Joannes, as godmother elsewhere is not looked for); and everything after about 1884–85, which is on roll 58.
-- The Senj register for Matija (2 March 1879) is not read here (Michael's, 11 January 1874, is: `notes/senj-births-january-1874-michael-perpic.md`).
+- The Senj register for Matija (2 March 1879) and for Michael (11 January 1874) is read elsewhere: `notes/senj-births-march-1879-matija.md`, `notes/senj-births-january-1874-michael-perpic.md`.
 - The 1893 sheet is a copy made from extracts, not the register; read it as a later witness.
 
 ## What follows
 
-- The Senj baptism register for 11 January 1874 is now read (Michael, entry 5; see the note named above) and does not settle twin or second couple; the register at 2 March 1879 (Matija) is still to read for the father's surname.
+- The Senj baptism register for 11 January 1874 is now read (Michael, entry 5; see the note named above) and does not settle twin or second couple; the register at 2 March 1879 (Matija) is read in `notes/senj-births-march-1879-matija.md` and gives the father as Tomljanović.
 - Roll 58 (the continuation of this book, from about 1885) is not on this film: Josephus, who has a later note on image 226 («umro 3.1…»), and the later children
   of the couple would be there.
 - Surname and given-name forms met: Perpić/Perpii, Prpić, Tomljanović/Tomjanović, Krmpotić/Kermpotić, Šojat/Sojat, Durbešić, Glavičić, Serdoc; Ivan/Jvan/Joannes,

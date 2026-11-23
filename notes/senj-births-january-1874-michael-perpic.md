@@ -32,9 +32,9 @@ to the same names, is in the Krivi Put register (baptised 12 January, house 135)
 - **Twin or second couple is not settled.** Two children of the same names, born the same day, baptised on two days in two churches, with house numbers 22 (Senj) and 135 (Krivi Put),
   fit twins split between two churches as well as two couples. No entry on either page says "gemellus" or names a sibling. Nothing here is a finding about who the children's parents were beyond what the entries say.
 - This is the Senj register for 1 to 20 January 1874 only: not a walk of the volume.
-- The Matija entry of 2 March 1879 (father written Tomljanović in the Senj index) is in the next volume (9R2D-JWL) and not read.
+- The Matija entry of 2 March 1879 is in the next volume (9R2D-JWL): read later, `notes/senj-births-march-1879-matija.md`.
 
 ## What follows
 
-Matija 1879 in 9R2D-JWL (father's surname); the Krivi Put register of 1874 for a house 22 («Krivi put N° 22») if the book gives households by number; whether the old number 22 became 82 in the renumbering.
+The Krivi Put register of 1874 for a house 22 («Krivi put N° 22») if the book gives households by number; whether the old number 22 became 82 in the renumbering.
 Surname and given-name forms met: Perpić/Perpii/Prpić, Tomljanović, Matković, Bosnić, Kocmut, Thian; Joannes, Lucia, Michael. None is new to the Atlas catalogues.
