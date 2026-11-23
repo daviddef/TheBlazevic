@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "e038296cabd9c8c6",
+"site/src/data/searched.json": "9f67306ae198df23",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -339,6 +339,40 @@
 "volumes": [
 "9R2D-JWL"
 ]
+},
+{
+"id": 294,
+"src": "FamilySearch",
+"volume": "Senj births 1859–1877 (waypoint 9R2D-JW5), images 363–364: the baptisms of 29 June to 23 July 1876, read for Josephus, son of Joannes Perpić and Lucia née Perpić (Krivi Put, dated 7 July 1876)",
+"years": "1859–1877",
+"span": [
+1859,
+1877
+],
+"what": "Whether the Senj register has the Josephus of the Krivi Put row dated 7 July 1876 (Klaričevac 82/163), and which surname it gives the father. Entries 67–79 read in full, left and right pages: no entry is dated 7 July as a birth or a…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "nothing",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QRC?cc=2040054",
+"volumes": [
+"9R2D-JW5"
+],
+"nil": {
+"prpic": [
+"covered"
+],
+"tomljanovic": [
+"covered"
+]
+}
 },
 {
 "id": 279,
@@ -5043,12 +5077,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 168,
+"shown on person pages (by tag)": 169,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 294,
-"shown": 171
+"register": 295,
+"shown": 172
 }
 }
