@@ -54,9 +54,19 @@ to `site/.standardfloor.json`, which may only go down; counts, never a name. Rai
   `<a data-rec>` in the build against the table and 100 record links against the source data.
 - **L4 is link-only by rule** (David, 18 October 2026): FamilySearch frames and Matricula pages are never shown beside a
   passage (`scans.link_only`); the table has no plates. The scans already published on `/snapshots/` stay where they are.
-- **L2: `/who/` name pages list the clean register finds** (`site/src/data/who-finds.json`, from `tools/names_index.py`).
+- **L2: the clean register finds are listed on the person pages, not on name pages** (`site/src/data/who-finds.json`, from
+  `tools/names_index.py`). Since TheBlazevic #38 (23 November 2026) a name has no page of its own: a person's page carries "Others of the
+  same name" (`#namesakes`, the list at `#others-of-this-name`), the other bearers with the clean finds of that name among them, each find
+  linked to its `/found/` page; a name only finds bear has no person page, so its finds are on their `/found/` pages alone. Every
+  `/who/<name>/` address is a noindex redirect (not in the sitemap): a name one person bears goes to that person's page, a shared name to
+  its first bearer's page at `#others-of-this-name` (first bearer = not living, then earliest born, then slug order; the autolinker's
+  ambiguous names go there too, `who_first`). `/who/` ("Every Name") is a jump bar over 23 letter pages, `/who/names--<initial>/` (two
+  hyphens in a row cannot occur in a name's slug, so a letter page is never a name's address). `npm run check:namesakes`
+  (`tools/checknamesakes.py`, planted faults; the archive had no name-page gate before it) checks the lists, the redirects and the index
+  against the built person pages; `livingcheck.py`'s WHO-* rules now describe what an all-living name's old address is (a redirect with no
+  body, canonical only to a built person page; WHO-STUB fails a page that is drawn again).
   716 of the 861 finds have a description, not a name, in the name field and are never split by machine; splitting them is
-  data work an author or a reader of the registers does, after which they flow into the index by themselves.
+  data work an author or a reader of the registers does, after which they flow into those lists by themselves.
 - What an author alone can settle (bare given names, surname-first forms, the quoted press lists, the Karlobag census
   address) is listed in `~/Projects/Family Projects/_from Downloads/audit-briefs/links/blazevic-editorial.md`.
 
@@ -147,7 +157,8 @@ Somebody born within the last 80 years with no death recorded is living: named w
   date of the same year, both citations kept; a different date, place, cause or sex STOPS the build: nothing is chosen
   silently), the retired name is kept as `alt_names` / `merged` («Also recorded as» on the page), and
   `site/src/data/merged.json` (written by `build_site_data.py`, read by `astro.config.mjs`) turns the retired
-  `/people/<slug>/` and, where nobody else bears the name, `/who/<slug>/` into Astro redirect stubs. The slug stays in
+  `/people/<slug>/` and, where nobody else bears the name, its name address `/who/<name>/` into Astro redirect stubs to the survivor's person
+  page (a name somebody else bears keeps its own redirect, to its first bearer). The slug stays in
   `person-slugs.json` for ever. `load(corrected=False)` applies none of it. The merge is written up on /corrections/ (the
   entry for the survivor in `corrections.json`). Regenerate with `python3 tools/regen.py` (and `tools/ancestry.py` for
   `data/surname-*.tsv`), then rebuild the search index. Nothing is merged on a resemblance: /duplicates/ still only reports.
