@@ -25,15 +25,16 @@ baptiser Simun Serdoc župnik, a later note «† 10. listopada 1883». Is there
   entry 77 (born 8, baptised 25 September; Virgil Maria, legitimate), father Nikola Rivošeki, a master, mother «Nadala rodjena Prepić» (the hand reads Prepić, with an e after the r), and the godmother of that entry «Matija Prpić»;
   entry 78 (Mirostav, baptised 2 October), godmother «Ruže Prpić»;
   entry 82 (Mile Vatroslav, born 4 October, baptised 16 October; a note «+ 4/10-881»), father Antun Krmpotić, an opančar «rodom iz Krivogputa» (a native of Krivi Put), mother «Marija rodjena Prpić». The house is Senj.
-  Nothing on the pages relates these women to Luca or to Ivan.
+  **The archive's tree already holds two of these entries as people:** entry 77 is `/people/virgil-maria-rivosechi/` (born 1881, the daughter of Nikula Rivosechi and `/people/nadala-prpic-perpic/`, born 1858, a daughter of Franjo Franciscus Perpić and Anna Brozinićević of Senj; her birth cites image 70), and entry 82 is `/people/mile-vatroslav-krmpotic/` (born 1881, died 4 October 1881, the son of Anton Krmpotić and `/people/marija-prpic/`; the birth cites image 71).
+  Nothing on the pages relates these women to Luca or to Ivan of Klaričevac 82; the tree files Nadala under Franjo's family.
 
 ## What this does not show
 
 - It does not show Pave is absent from the Senj register: the Krivi Put entry names Simun Serdoc župnik as baptiser, so a baptism at Krivi Put itself fits (Matija 1879, by contrast, is noted «u Senju krštjena»).
   Only entries 71–84 were read (baptised 8 September to 23 October 1881); a late entry elsewhere in 1881 was not looked for. Not a walk of the register or of the year.
-- «Prepić» in entry 77 was not added to the Atlas catalogue: it stands once, in one clerk's hand, and no record ties it to this family; the godmother's «Prpić» in the same entry is in the catalogue.
+- «Prepić» in entry 77 is the clerk's writing of the maiden name of Nadala, whom the tree holds as Prpić / Perpić; it stands once, and the godmother's «Prpić» in the same entry is in the Atlas catalogue. It qualifies as attested on this record, but it is not yet in the catalogue: `surname_variants.py add` refused on 23 November 2026 because the shared working copy of the catalogue then carried another session's unfinished Norwegian rules that fail its own check. To be added once that file passes `check`.
 
 ## What follows
 
 The Senj register gives nothing for Josephus (1876) or Pave (1881). The two children of the couple found there are Michael (1874, father written Perpić) and Matija (1879, father written Tomljanović); which surname the father bore is still not settled.
-Surname and given-name forms met: Prpić, Prepić (see above), Krmpotić, Rivošeki, Tomljanović (Krivi Put godfather), Pave/Pavao, Luca. None is new to the Atlas catalogues except the doubtful Prepić.
+Surname and given-name forms met: Prpić, Prepić (see above), Krmpotić, Rivošeki, Tomljanović (Krivi Put godfather), Pave/Pavao, Luca. Prepić is the one form not yet in the Atlas catalogue (see above).

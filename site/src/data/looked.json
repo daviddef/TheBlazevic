@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "41b182e1120e4905",
+"site/src/data/searched.json": "ea548680e07cafd5",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -407,6 +407,33 @@
 "covered"
 ]
 }
+},
+{
+"id": 296,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), images 25–27: the baptisms of 12 February to 2 May 1879, read for the births of 25 February 1879 (Matija and any sibling or namesake)",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Everyone born on 25 February 1879 in the Senj register, and whether Matija (the Krivi Put row's daughter of Klaričevac 82) has a twin or sibling entry. Entries 15–31 read in full, left and right pages, the name cells of entries 18 and 19…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"karlobag",
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17NV?cc=2040054",
+"volumes": [
+"9R2D-JWL"
+]
 },
 {
 "id": 279,
@@ -5111,12 +5138,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 170,
+"shown on person pages (by tag)": 171,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 296,
-"shown": 173
+"register": 297,
+"shown": 174
 }
 }

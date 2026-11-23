@@ -34,3 +34,5 @@ Which surname does the Senj register give the father of the child baptised on 2 
 
 Josephus (1876) was read at Senj afterwards (`senj-births-july-1876-josephus.md`): entries 67–79 name no Perpić or Tomljanović and no Josephus. Pave (born 12 September 1881) was read afterwards (`senj-births-september-1881-pave.md`): nothing in entries 71–84.
 Surname and given-name forms met: Tomljanović/Tomjanović, Prpić/Perpić, Durbešić, Glavičić, Dobrović, Grzin; Ivan/Jvan, Lucia/Luca/Luce, Matija (a woman's name here, as in the index). None is new to the Atlas catalogues.
+
+Note of 23 November 2026 (later): the tree already holds this child as `/people/matija-tomljanovic/`, with the parents Ivan Tomljanović and Lucia Prpić, so the search-register row's «the child is not a published person» was wrong; see `senj-births-february-1879-the-25th.md`.
