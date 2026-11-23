@@ -12,7 +12,7 @@
   "nothing": 59,
   "partial": 53,
   "pending": 6,
-  "yield": 163
+  "yield": 164
  },
  "read": [
   {
@@ -6228,6 +6228,52 @@
    ],
    "nobody": true,
    "got": "**Three entries.** **Maria, baptised 3 August 1851 (image 24, right page): daughter of Ivan Perpić and Lucija «rođene Perpić», house No 36** — the house, and the pair of names, of the Maria of 7 February 1847 (read 22 November). **Catharina, baptised 12 November 1864 (image 99, entry 124), and Anna, baptised 20 November 1870 (image 135, entry 124): both daughters of Joannes Perpić and Lucia nata Perpić, house No 135**, the house of Georgius (1868) and Joanna (1874). So **135 is written for this couple in 1864, 1868, 1870 and 1874, and 136 in 1859 and 1861** (ahnentafel 7 and Stephanus): consistent with one household whose number changed once; not proved. A later margin note on Anna's entry reads «† 18.II.1948»: not shown to be her death. Kept as snapshots. Terms tried: Perpić, Perpic, Prpić, Prpic, Perpich, Prpich (the Atlas catalogue's Prpić family) for the baptised and the parents; given names Ivan, Joannes, Lucia (Lucije, Luce, Luccia, Luciae). Near names seen, not counted: none listed. Limits: the three images were chosen from the FamilySearch index (404 Krivi Put baptisms under the six spellings, 1849–1884); an index with holes would miss children; images 9–23, 25–98 and 100–134 are not read, and the walk of the volume is not done."
+  },
+  {
+   "src": "FamilySearch — Senj births 1756–1858 (waypoint 9R2M-L27), images 251 and 259, read for the children of Augustinus Babić and Maria Jurčić (the siblings of Ante Babić)",
+   "key": "fs/senj-births-1834-1840-babic-images-251-259-2026-11-23",
+   "what": "Two more children of Augustinus Babić and Maria Jurčić at Senj (1834, 1840), and what the register writes as the mother's maiden name where the index has Turcich",
+   "when": "23 Nov 2026",
+   "outcome": "yield",
+   "tags": [
+    "babic",
+    "senj",
+    "familysearch",
+    "krsteni"
+   ],
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-51XY?cc=2040054",
+   "waypoint": "9R2M-L27",
+   "pages": "images 251 (left-hand page, entry 38) and 259 (left-hand page, first row), each read for one entry after the FamilySearch index named the image; the neighbouring rows were looked at only for their dates; the rest of the volume not read",
+   "walked": false,
+   "ev": [
+    [
+     "/found/nicolaus-ambrosius-babic-baptised-senj-november-1834/",
+     "Nicolaus Ambrosius Babić, 1834"
+    ],
+    [
+     "/found/philipina-jacobina-babic-baptised-senj-april-1840/",
+     "Philipina Jacobina Babić, 1840"
+    ],
+    [
+     "/snapshots/#senj-baptism-1834-nicolaus-ambrosius-babic",
+     "Snapshot, Nicolaus Ambrosius 1834"
+    ],
+    [
+     "/snapshots/#senj-baptism-1840-philipina-jacobina-babic",
+     "Snapshot, Philipina Jacobina 1840"
+    ]
+   ],
+   "for": [
+    [
+     "/people/augustin-babic/",
+     "Augustin Babić"
+    ],
+    [
+     "/people/maria-jurcic/",
+     "Maria Jurcic"
+    ]
+   ],
+   "got": "**Two baptisms, read from the images and kept as snapshots.** **Nicolaus Ambrosius, baptised 6 November 1834 (image 251, entry 38), son of Augustinus Babicz and Maria «nata Jur-cicz»**, the godparents Antonius Babicz (a porter) and Vincentia Babicz; and **Philipina Jacobina, born 24 and baptised 26 April 1840 (image 259, entry 119), daughter of Augustinus Babich and Maria «nata Jurcich»**, godparents Antonius Babich and Maria Suppan. **The register writes the mother's maiden name Jurcicz in 1834 (firm) and, on balance, Jurcich in 1840; the index's «Turcicz»/«Turcich» is a J read as a T**, which supports the tree's Jurčić. The index files the 1840 entry's birth date as its baptism date. Both children are siblings of Ante Babić (baptised 1837, read 17 October). Terms tried: Babić, Babic, Babich (the Atlas catalogue's Babić family) and Babicz (read on the page, not in the catalogue); the mother's surname as Jurčić, Jurcic, Jurcich, Jurcicz, Turcich (Jurčić is not in the Atlas catalogue; adding the forms was blocked today because the catalogue's own check fails on another session's uncommitted edits, and nothing was forced). Near names seen, not counted: none listed. Limits: two entries on two images; images 244, 245 and 249 (the older children), 450–461 (Babić families of the 1840s), 481, 503, 529, 537, 562–563 (Špalj × Perpić) and the Tomljanović and Krmpotić entries of 1820–1850 are not read."
   }
  ]
 }

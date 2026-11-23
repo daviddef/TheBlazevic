@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 869,
+ "count": 871,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -35,7 +35,7 @@
   "Prozor, Otočac": 2,
   "Sacred Heart Cathedral, Broken Hill, New South Wales": 1,
   "Selce": 3,
-  "Senj": 326,
+  "Senj": 328,
   "Solomontown, South Australia": 1,
   "Stražišče 84, župnija Kranj-Šmartin": 1,
   "Stražišče, župnija Kranj-Šmartin": 1,
@@ -8744,6 +8744,26 @@
    "place": "Krivi Put",
    "citation": "Krivi Put births 1847–1884 (DGS 5494757, waypoint 9R28-DP8), image 135 left, entry 124: born 19, baptised 20 November 1870, «Joannes Perpić et Lucia ejus uxor nata Perpić Auricolae», Krivi put N° 135; found through the index (ark 1:1:XQM9-D8TR), read from the image 23 November 2026. Snapshot /snapshots/#krivi-put-baptism-1870-anna-perpic; notes/krivi-put-joannes-lucia-children-1851-1864-1870.md",
    "slug": "anna-perpic-baptised-krivi-put-november-1870"
+  },
+  {
+   "name": "Nicolaus Ambrosius Babić baptised Senj November 1834",
+   "ahn": null,
+   "relation": "SON OF AUGUSTINUS BABICZ AND MARIA nata JURCICZ, a brother of Ante Babić (baptised 1837) - the family of the tree's Augustin Babić and Maria Jurčić; not himself in the tree",
+   "event": "baptism",
+   "date": "6 November 1834",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 251 left, entry 38: «Nicolaus Ambrosius filius legitimus Augustini Babicz … conjux ejus Maria nata Jur-cicz», godparents Antonius Babicz bajulus and Vincentia Babicz uxor Michaelis; found through the index (ark 1:1:QKMJ-SSZC, which reads the mother Turcicz), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1834-nicolaus-ambrosius-babic; notes/senj-baptisms-1834-1840-babic-siblings-maria-jurcic.md",
+   "slug": "nicolaus-ambrosius-babic-baptised-senj-november-1834"
+  },
+  {
+   "name": "Philipina Jacobina Babić baptised Senj April 1840",
+   "ahn": null,
+   "relation": "DAUGHTER OF AUGUSTINUS BABICH AND MARIA nata JURCICH, a sister of Ante Babić (baptised 1837); not herself in the tree",
+   "event": "baptism",
+   "date": "26 April 1840",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 259 left, entry 119 (first row): «Philipina Jacobina … natâ [24 April] et 26 ejusdem mensis baptizata est Segniae … Augustinus Babich ejus uxor Maria nata Jurcich [first letter read as J]», godparents Antonius Babich and Maria Suppan; found through the index (ark 1:1:QKMJ-9GN9, which reads the mother Turcich and files the birth date as the baptism), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1840-philipina-jacobina-babic; notes/senj-baptisms-1834-1840-babic-siblings-maria-jurcic.md",
+   "slug": "philipina-jacobina-babic-baptised-senj-april-1840"
   }
  ]
 }
