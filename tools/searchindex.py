@@ -103,6 +103,10 @@ if os.path.isdir(DIST):
             href = "/"
         if href.startswith("/people/") and href != "/people/":
             continue                       # already indexed, and 1,086 of them
+        if href.startswith("/who/names--"):
+            # ONE PAGE PER PERSON (23 November 2026): the letter pages of "Every Name" are lists of links to person pages, which are Person rows
+            # above; a search for a name would otherwise find the person and the letter page that lists the person. /who/ itself is still a row.
+            continue
         src = open(f, encoding="utf-8").read()
         # A redirect page is an address that moved, not a page: it has no body to find, and
         # "Redirecting to: ..." was being offered as a search result. It stays built so the

@@ -29,7 +29,10 @@ KIT = os.path.join(SITE, "node_modules", "@daviddef", "archive-kit", "kit", "too
 INDEX = os.path.join("src", "data", "names-index.json")
 FLOOR = ".linkfloor.json"
 LIVING = os.path.join(os.path.dirname(ROOT), "private", "blazevic", "autolink-living.json")
-PREFIXES = ["/people/", "/who/", "/found/"]
+# One page per person (23 November 2026): no address under /who/ is a name's page any more (every one is a redirect, and the index's
+# letter pages are not entries), so /who/ is no longer a prefix an entry or a link may have. An ambiguous name goes to its first bearer's
+# page, /people/<slug>/#others-of-this-name.
+PREFIXES = ["/people/", "/found/"]
 
 
 def run(cmd, **kw):

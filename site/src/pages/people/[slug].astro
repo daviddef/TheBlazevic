@@ -38,6 +38,8 @@ import { storyOf, hasStory, ancestryOf, GRADE_SAY } from "@daviddef/archive-kit/
 import { STORIES } from "../../lib/lifeStories.js";
 import { bySlug, hasPage, livingSlugs, drawn, TREE_BY, gedYear } from "../../lib/storyFamily.js";
 import directLine from "../../data/direct-line.json";
+import OthersOfThisName from "../../components/OthersOfThisName.astro";
+import { othersFor, SECTION_ID } from "../../lib/namesakes.js";
 
 /* THE LIVING GET A PAGE FROM THE SAME ROUTE, and a very different one: the kit's PersonPage draws a living person as a name, a relationship,
    a town and a country and a family chart, and nothing else (the slots are not rendered at all). Everything in the slots is the page of a
@@ -126,11 +128,10 @@ const mine = media
 // Others of the same name. These parishes repeat their names relentlessly —
 // 94 Marijas, 88 Ivans — and merging on a name is precisely how the tree came
 // to hold a man born after his own granddaughter.
-const norm = (x) => (x || "").toLowerCase().replace(/["“”]/g, "")
-  .replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
-const sameName = people
-  .filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name))
-  .slice(0, 24);
+/* ONE PAGE PER PERSON (23 November 2026): the people the old /who/<name>/ page listed besides this one, each a link to their own page;
+   none when nobody shares the name. lib/namesets.js says who shares a name (accents and case folded: the rule /who/ used). The table
+   this replaces matched on the name as written, kept the first 24, and left the finds and the living out. */
+const sameName = othersFor(p.name, p.slug);
 const ev = evidence[p.slug] || { state: "tree", media: 0 };
 // What has actually been READ for this person, with the citation. The state
 // badge above says a document exists; until 20 September 2026 no page said
@@ -213,7 +214,6 @@ const ruleOf = (born, died) => ({ birthYear: gedYear(born) ?? undefined, deathRe
 const KLIVE = !p.living && isLivingKit({ id: p.id, ...kitDates, birthYear: gedYear(rawBorn) ?? undefined, deathRecorded: p.deathRecorded === true || (rawDied != null && rawDied !== "") || !!(p.diedPlace || p.burial) || undefined, citations: p.sources || [] }, RULE);
 if (KLIVE) throw new Error(`people/${p.slug}: the kit's living rule says this person is living but living.json does not (born ${rawBorn}, died ${rawDied}); decide it in tools/livingset.py, not here`);
 const LIVE = !!p.living;
-const slugifyName = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
 
 /* THE CHART'S ROWS. This archive marks the PERSON, not the link (src/data/evidence.json: what is held for the relative), so the chart is drawn with
    edgeLevel false and its caption says so. «line» is the direct-line bar; a relative the archive does not publish has no page and no source word. */
@@ -304,8 +304,16 @@ const SPOUSES = STORYMODE && !LS ? spouses.filter((r) => !heldOutRow(r)).map(spo
 {LIVE ? (
 <Base title={p.name} noindex unstructured noautolink={true} ownHeader
       dek="Named here with their relationships and their town and country, and nothing more.">
-  <PersonPage person={KPERSON} peopleHref={u("/people/")} nameHref={slugifyName(p.name) ? u(`/who/${slugifyName(p.name)}/`) : null}
+  <PersonPage person={KPERSON} peopleHref={u("/people/")}
               edgeLevel={false} directLine={directLine} storyHref={u("/story/")} now={RULE.now} sources={PS} />
+  {/* ONE PAGE PER PERSON (23 November 2026): a living person's page does not render the kit's namesakes slot, so the others of the name are
+      drawn after it: a name and a place each, no year (this page carries none). The old footer link went to /who/<name>/, which is gone. */}
+  {sameName.length > 0 && (
+    <section class="blk" id="namesakes" style="max-width:var(--maxw,72rem);margin:0 auto;padding:0 1rem">
+      <h2>Others of the same name</h2>
+      <div id={SECTION_ID} style="scroll-margin-top:8.5rem"><OthersOfThisName others={sameName} plain /></div>
+    </section>
+  )}
 </Base>
 ) : (
 <Base title={p.name} noautolink ownHeader
@@ -467,22 +475,15 @@ const SPOUSES = STORYMODE && !LS ? spouses.filter((r) => !heldOutRow(r)).map(spo
 
     {sameName.length > 0 && (
       <Fragment slot="namesakes">
+        <div id={SECTION_ID} style="scroll-margin-top:8.5rem">
         <p class="lede">These parishes repeat their names relentlessly — <strong>94 Marijas and 88
         Ivans</strong> in this archive alone. <strong>These are different people, kept apart on
         purpose rather than merged into one.</strong> Merging on a name is exactly how this tree came
         to hold <a href={u("/people/caetano-bacchi/")}>a man born after his own granddaughter</a>.</p>
-        <table class="reg" style="margin-top:1rem">
-          <tbody>{sameName.map((q) => (
-            <tr>
-              <td><a href={u("/people/" + q.slug)}>{q.name}</a></td>
-              <td class="mono dim">{q.born || "?"}{q.died ? "–" + q.died : ""}</td>
-              <td class="dim">{q.bornPlace ? q.bornPlace.split(",")[0] : "place not recorded"}</td>
-              <td class="dim">{(evidence[q.slug] || {}).ahn
-                ? <span class="tag">direct line</span> : ""}</td>
-            </tr>))}</tbody>
-        </table>
+        <OthersOfThisName others={sameName} />
         <p class="dek" style="margin-top:1rem">Same name, and nothing here says they are related.
         <a href={u("/name/")}>Why the names repeat →</a></p>
+        </div>
       </Fragment>
     )}
 

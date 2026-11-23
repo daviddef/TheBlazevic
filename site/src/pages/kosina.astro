@@ -39,11 +39,11 @@ const by = Object.fromEntries(K.people.map((p) => [p.id, p]));
 const byId = Object.fromEntries(people.map((x) => [x.id, x]));
 const ANKA = "@I189@";
 const anka = byId[ANKA];
-/* /people/<slug> is the PERSON. /who/<slug> is the namesakes page and is keyed
+/* /people/<slug> is the PERSON. (Until 23 November 2026 /who/<slug> was the namesakes page, keyed
    on the slugified NAME, not on people.json's slug — which is why linking a
    parent there produced /who/juraj-georgius-jure-georgius-george-blazevic and
    a 404 for /who/juraj-georgius-jure-blazevic. Two routes, two slugs, and the
-   link checker caught the difference. */
+   link checker caught the difference. Every /who/ address is a redirect now and nothing links one.) */
 /* 27 October 2026: a relative on our direct line (direct-line.json, made from the story) is tinted, as everywhere. */
 const DM = directMap(directLine);
 const node = (r) => ({
