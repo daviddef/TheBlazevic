@@ -5,8 +5,9 @@ THE STANDARD (David, 16 October 2026, for every archive). A living person is
 shown by a name, a relationship, and their town and country, and nothing else:
 no dates, no records, no sources, no photograph, no structured data. Their page
 is `noindex`, which is also what keeps it out of the sitemap and the search
-index, and a name page whose every bearer is living is `noindex` too and
-carries no canonical pointing elsewhere.
+index. One page per person (23 November 2026): a name has no page of its own,
+so the old /who/<name>/ address of a name whose every bearer is living is a
+redirect stub (noindex, no body, a canonical only to a built person page).
 
 Until that day this archive named no living person at all, and its gate was the
 kit's `checkliving.py --policy named-bare`, which reads flags in committed data
@@ -45,9 +46,10 @@ THE RULES (each is a name in the output and in --selftest):
                family chart); any table row other than Name and Place is a breach.
   PAGE-LINKS   and no link out of the archive (no record to follow).
   PAGE-RECORD  and no tree record id.
-  WHO-NOINDEX  a name page whose bearers are all living says noindex,
-  WHO-CANON    and carries no canonical naming another page.
-  SITEMAP      no living page and no all-living name page is in sitemap.xml.
+  WHO-NOINDEX  the old name address of a name whose bearers are all living says noindex,
+  WHO-STUB     is a redirect with no body (a name page that is still drawn would list the living by name),
+  WHO-CANON    and its canonical, if it has one, names a built person page and no other.
+  SITEMAP      no living page and no all-living old name address is in sitemap.xml.
   INDEX-HREF   none is in the search index,
   INDEX-NAME   and no Person row is a living person's name (an exact namesake
                of a dead person cannot be told apart and is counted, not
@@ -360,13 +362,18 @@ def rule_pages(w):
     for s in all_living_names(w):
         p = w["pages"].get(who_path(s))
         if p is None:
-            out.append(("PAGE-MISSING", "who/" + s, "no name page was built"))
+            out.append(("PAGE-MISSING", "who/" + s, "the old name address does not answer"))
             continue
         if not NOINDEX.search(p[:6000]):
-            out.append(("WHO-NOINDEX", "who/" + s, "an all-living name page without noindex"))
+            out.append(("WHO-NOINDEX", "who/" + s, "an all-living name address without noindex"))
+        stub = 'http-equiv="refresh"' in p[:900]
+        if not stub:
+            out.append(("WHO-STUB", "who/" + s, "an all-living name address that is still a page, not a redirect"))
         c = CANON.search(p)
-        if c and not canonical_is_self(c.group(1), who_path(s)):
-            out.append(("WHO-CANON", "who/" + s, "an all-living name page whose canonical names another page"))
+        if c:
+            tgt = re.sub(r"^https?://[^/]+", "", htmllib.unescape(c.group(1))).split("#")[0]
+            if not (stub and tgt.startswith("/people/") and tgt[1:] + "index.html" in w["pages"]):
+                out.append(("WHO-CANON", "who/" + s, "an all-living name address whose canonical names a page that is not a built person page"))
     return out
 
 
@@ -384,7 +391,7 @@ def rule_sitemap(w):
             out.append(("SITEMAP", r["slug"], "a living page is in sitemap.xml"))
     for s in all_living_names(w):
         if f"/who/{s}/" in paths:
-            out.append(("SITEMAP", "who/" + s, "an all-living name page is in sitemap.xml"))
+            out.append(("SITEMAP", "who/" + s, "an all-living name address is in sitemap.xml"))
     # any page that says noindex, living or not, is out of the sitemap
     for rel, p in w["pages"].items():
         if rel.endswith("index.html") and NOINDEX.search(p[:6000]):
@@ -910,12 +917,14 @@ def selftest(w, quiet=False):
     results.append(plant("the old withheld marker coming back", "DATA-KEYS",
                          lambda w2: w2["people"][0]["rel"]["parents"].append({"withheld": True})))
     if s0:
-        results.append(plant("an all-living name page without noindex", "WHO-NOINDEX",
+        results.append(plant("an all-living name address without noindex", "WHO-NOINDEX",
                              lambda w2: w2["pages"].__setitem__(who_path(s0), NOINDEX.sub("", w2["pages"][who_path(s0)]))))
-        results.append(plant("an all-living name page pointing its canonical elsewhere", "WHO-CANON",
+        results.append(plant("an all-living name address pointing its canonical at a page that is not built", "WHO-CANON",
                              lambda w2: w2["pages"].__setitem__(who_path(s0), re.sub(
-                                 r'(<link[^>]*rel="canonical"[^>]*href=")[^"]*"', r'\1https://x/other/"', w2["pages"][who_path(s0)], 1))))
-        results.append(plant("an all-living name page in the sitemap", "SITEMAP",
+                                 r'(<link[^>]*rel="canonical"[^>]*href=")[^"]*"', r'\1https://x/people/nobody-here/"', w2["pages"][who_path(s0)], count=1))))
+        results.append(plant("an all-living name address that is a page again, not a redirect", "WHO-STUB",
+                             lambda w2: w2["pages"].__setitem__(who_path(s0), w2["pages"][who_path(s0)].replace('http-equiv="refresh"', 'http-equiv="x"'))))
+        results.append(plant("an all-living name address in the sitemap", "SITEMAP",
                              lambda w2: w2.__setitem__("sitemap", w2["sitemap"].replace(
                                  "</urlset>", f"<url><loc>https://x/who/{s0}/</loc></url></urlset>"))))
     results.append(plant("an empty build", "EMPTY", lambda w2: (w2["pages"].clear(), w2.__setitem__("sitemap", ""))))

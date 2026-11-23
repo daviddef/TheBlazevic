@@ -1,0 +1,39 @@
+---
+/* The names that begin with one letter: a part of "Every Name" (/who/), which is too long for one page (lib/whoindex.js). The address is
+   /who/names--<initial>/; two hyphens in a row cannot occur in a name's slug, so this is never the address of a name. */
+import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
+import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
+import { u } from "../../lib/url.js";
+import { NAMES, LETTERS, namesOf, letterSlug, letterHref } from "../../lib/whoindex.js";
+
+export function getStaticPaths() {
+  return LETTERS.map((l) => ({ params: { letter: letterSlug(l) }, props: { l } }));
+}
+const { l } = Astro.props;
+const names = namesOf(l);
+const shared = names.filter((n) => n.n > 1);
+/* EveryName draws each name as a link to /who/<slug>/; hand it the person page instead */
+const hrefOf = new Map(names.map((n) => [`/who/${n.slug}/`, n.href]));
+const toPerson = (p) => hrefOf.get(p) ?? u(p);
+const label = l === "0-9" ? "0–9" : l.toUpperCase();
+---
+<Base title={`Every Name: ${label}`} noautolink={true}
+      eyebrow={`${names.length.toLocaleString()} names beginning with ${label} · ${shared.length.toLocaleString()} held by more than one person`}
+      dek="A name is not a person. These are the names beginning with this letter, and how many different people bore each. Each links to the person: a name more than one person bears lists them all.">
+
+<NameLists here="who" u={u} />
+
+  <nav class="blk" aria-label="Names by their first letter">
+    <p style="margin:0;display:flex;flex-wrap:wrap;gap:.35rem .8rem;line-height:1.9">
+      <a href={u("/who/")}>All letters</a>
+      {LETTERS.map((x) => (x === l
+        ? <strong aria-current="page">{x === "0-9" ? "0–9" : x.toUpperCase()}</strong>
+        : <a href={letterHref(x)}>{x === "0-9" ? "0–9" : x.toUpperCase()}</a>))}
+    </p>
+  </nav>
+
+  <section class="blk">
+    <EveryName names={names} u={toPerson} detailLabel="Everyone of this name" />
+  </section>
+</Base>

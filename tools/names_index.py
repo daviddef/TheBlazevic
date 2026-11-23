@@ -41,9 +41,11 @@ WHO IS INDEXED (people[]). A person who
 
 WHAT IS AMBIGUOUS (ambiguous[]). A name that two or more people with a page bear, every bearer of whom is a dead person
 of the tree OR a register find whose NAME FIELD IS A NAME (a clean find: the same test as above, and old enough to be
-certainly dead), AND whose bearers are exactly the people listed on one name page, /who/<slug>/ (src/pages/who/[slug].astro:
-everyone whose full name has that slug, and under them the clean finds of that name, from src/data/who-finds.json, which
-this tool writes). The name is sent to that page. A name that a descriptive find also bears («Marija Borić, wife of ...»),
+certainly dead), AND whose bearers are exactly the people of one name set (src/lib/namesets.js: everyone whose full name has that
+slug, and under them the clean finds of that name, from src/data/who-finds.json, which this tool writes). One page per
+person (23 November 2026): a name has no page of its own any more, so the name is sent to the page of the FIRST bearer of
+the set (not living, then earliest born, then slug order: the same person the old /who/<name>/ address redirects to), at
+#others-of-this-name, the section of that page that lists the others. A name that a descriptive find also bears («Marija Borić, wife of ...»),
 a living person bears, or a find from 1900 on bears is left plain: 716 of the 861 finds have no clean name field, and the
 tool never splits a description into a name (18 October 2026, the linking standard's L2). A name borne only by finds gets
 no name page (the page exists for names the tree or the living list holds). The people table's search (/people/?q=) was tried first and rejected: it does not fold accents, so «Ana
@@ -251,11 +253,12 @@ def spellings(form, voc, cap=24):
 
 
 # ---------------------------------------------------------------------------------------------------- the index
-def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None):
+def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None, first=None):
     """-> (index dict, stats dict).  extra_living_forms: names of living/held-out people from the GEDCOM (a local run);
     unpublished_dead_forms: names of dead people the tree holds with no page."""
     voc = vocabulary(bearers)
     who = who_pages() if who is None else who
+    first = who_first() if first is None else first
     by_key = {}                                  # fold(form) -> {bearer index}
     for i, b in enumerate(bearers):
         for f in set(b["forms"]) | set(b.get("claims", ())):
@@ -302,7 +305,8 @@ def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None):
         people.append({"name": canon, "aliases": aliases, "url": b["url"]})
         stats["people"] += 1
         stats["aliases"] += len(aliases)
-    # ambiguous: two or more bearers, all of them dead people of the tree, exactly the people of one /who/ page
+    # ambiguous: two or more bearers, all of them dead people of the tree, exactly the people of one name set (one page per person:
+    # sent to the first bearer's page, at the section that lists the others)
     for k, idxs in sorted(by_key.items()):
         if len(idxs) < 2 or len(k.split()) < 2 or k in living_keys:
             continue
@@ -329,7 +333,7 @@ def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None):
             for s in spellings(f, voc):
                 names.setdefault(s.casefold(), s)
         ordered = sorted(names.values(), key=lambda x: (-len(x), x))
-        ambiguous.append({"name": ordered[0], "aliases": ordered[1:], "url": "/who/%s/" % next(iter(pages))})
+        ambiguous.append({"name": ordered[0], "aliases": ordered[1:], "url": first[next(iter(pages))]})
         stats["ambiguous"] += 1
         stats["ambiguous_aliases"] += len(ordered) - 1
     people.sort(key=lambda r: (r["url"], r["name"]))
@@ -338,7 +342,7 @@ def build(bearers, extra_living_forms=(), unpublished_dead_forms=(), who=None):
 
 
 def slugify(s):
-    """The slug of src/pages/who/[slug].astro."""
+    """The key of a name set (src/lib/namesets.js slugify): the address /who/<key>/ used to have."""
     s = unicodedata.normalize("NFD", str(s if s is not None else ""))
     s = re.sub(r"[\u0300-\u036f]", "", s)
     return re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-").lower()
@@ -356,6 +360,24 @@ def who_pages():
     for k, rows in who_finds().items():
         out.setdefault(k, set()).update("/found/%s/" % r["slug"] for r in rows)
     return out
+
+
+SECTION = "others-of-this-name"
+
+
+def who_first():
+    """key of a name set -> the address of its FIRST bearer's page, with the section that lists the others
+    (src/lib/namesets.js firstBearer: a person who is not living, then the earliest born (the first four-digit year of `born`),
+    then slug order). The old /who/<key>/ address redirects to the same place (astro.config.mjs)."""
+    rows = {}
+    for living_flag, fname in ((0, "people.json"), (1, "living.json")):
+        for p in load(fname):
+            if p.get("name") and p.get("slug"):
+                k = slugify(p["name"])
+                if k:
+                    m = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", str(p.get("born") or ""))
+                    rows.setdefault(k, []).append((living_flag, int(m.group(1)) if m else 99999, p["slug"]))
+    return {k: "/people/%s/#%s" % (min(v)[2], SECTION) for k, v in rows.items()}
 
 
 def who_finds():
@@ -566,6 +588,8 @@ def cmd_check():
 def selftest():
     who = {"zzpero-zzkovic": {"/people/c/", "/people/d/"}, "zzvida-zzlist": {"/people/k/", "/found/l/"},
            "zzjosa-zzclaim": {"/people/m/", "/found/n/"}, "zzmila-zzlate": {"/people/o/", "/found/p/"}}
+    first = {"zzpero-zzkovic": "/people/c/#others-of-this-name", "zzvida-zzlist": "/people/k/#others-of-this-name",
+             "zzjosa-zzclaim": "/people/m/#others-of-this-name", "zzmila-zzlate": "/people/o/#others-of-this-name"}
     bearers = [
         {"kind": "person", "slug": "a", "url": "/people/a/", "name": "Zzivo Zzakan", "forms": variants({"name": "Zzivo Zzakan"}), "indexable": True},
         {"kind": "person", "slug": "b", "url": "/people/b/", "name": "Zzmaria Zzakan", "forms": variants({"name": "Zzmaria Žžakan"}), "indexable": True},
@@ -592,15 +616,15 @@ def selftest():
         {"kind": "found", "slug": "p", "url": "/found/p/", "name": "Zzmila Zzlate", "forms": variants({"name": "Zzmila Zzlate"}),
          "claims": found_claims("Zzmila Zzlate"), "indexable": False},
     ]
-    idx, st = build(bearers, who=who)
+    idx, st = build(bearers, who=who, first=first)
     names = {r["url"]: r for r in idx["people"]}
     amb = {fold(r["name"]) for r in idx["ambiguous"]}
     checks = [
         ("a unique name is indexed", "/people/j/" in names),
         ("the accented spelling is an alias of its one bearer", "/people/a/" in names),
-        ("two spellings of one name, two bearers: ambiguous, sent to the one name page", "zzpero zzkovic" in amb and idx["ambiguous"][0]["url"] == "/who/zzpero-zzkovic/" and "/people/c/" not in names and "/people/d/" not in names),
+        ("two spellings of one name, two bearers: ambiguous, sent to the first bearer's page at the section that lists the others", "zzpero zzkovic" in amb and idx["ambiguous"][0]["url"] == "/people/c/#others-of-this-name" and "/people/c/" not in names and "/people/d/" not in names),
         ("a find and a tree man of one name: neither is unique", "/people/f/" not in names and "/found/e/" not in names),
-        ("a tree person and a clean old find of one name: ambiguous, sent to the one name page that lists both",
+        ("a tree person and a clean old find of one name: ambiguous, sent to the person page that lists both",
          "zzvida zzlist" in amb and "/people/k/" not in names and "/found/l/" not in names),
         ("a descriptive find that bears the name keeps it plain", "zzjosa zzclaim" not in amb and "/people/m/" not in names),
         ("a find from 1900 on keeps the name plain", "zzmila zzlate" not in amb and "/found/p/" not in names and "/people/o/" not in names),
@@ -608,7 +632,7 @@ def selftest():
         ("a recent find is not indexed", "/found/i/" not in names),
         ("no living address is indexed", "/people/h/" not in names),
     ]
-    idx2, _ = build(bearers, extra_living_forms=["Zzbara Zzunique"], who=who)
+    idx2, _ = build(bearers, extra_living_forms=["Zzbara Zzunique"], who=who, first=first)
     checks.append(("a GEDCOM living namesake removes a name", "/people/j/" not in {r["url"] for r in idx2["people"]}))
     ok = all(c for _, c in checks)
     for label, c in checks:

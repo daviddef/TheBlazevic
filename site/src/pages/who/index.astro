@@ -1,44 +1,29 @@
 ---
-/* Every name in the archive, and how many people bore it. */
+/* Every name in the archive, and how many people bore it. One page per person (23 November 2026): a name no longer has a page of its own, so
+   each entry goes straight to the person page(s) of that name (one link for a name one person bears, every bearer listed for a name several
+   bear). The list is split by initial (lib/whoindex.js says why and how the addresses cannot collide with a name); this page is the jump bar. */
 import Base from "../../layouts/Base.astro";
 import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
-import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
-import people from "../../data/people.json";
-import living from "../../data/living.json";
-
-function slugify(s) {
-  return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
-}
-
-const by = new Map();
-for (const p of people) {
-  if (!p.name) continue;
-  const k = slugify(p.name);
-  if (!k) continue;
-  if (!by.has(k)) by.set(k, { name: p.name, n: 0 });
-  by.get(k).n += 1;
-}
-/* A living person is counted under a name that somebody who has died also bore.
-   A name borne ONLY by the living is not listed here: its page is kept out of
-   search engines, and an index that anyone can crawl is the wrong place for it. */
-for (const p of living) {
-  const k = slugify(p.name);
-  if (by.has(k)) by.get(k).n += 1;
-}
-const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
-  .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
-const shared = names.filter(n => n.n > 1);
+import { NAMES, LETTERS, SHARED, namesOf, letterHref } from "../../lib/whoindex.js";
 ---
 <Base title="Every Name" noautolink={true}
-      eyebrow={`${names.length} names · ${shared.length} held by more than one person`}
-      dek="A name is not a person. This is every name in the archive, and how many different people bore it.">
+      eyebrow={`${NAMES.length.toLocaleString()} names · ${SHARED.length.toLocaleString()} held by more than one person`}
+      dek="A name is not a person. This is every name in the archive, and how many different people bore it. Each links to the person: a name more than one person bears lists them all.">
 
 <NameLists here="who" u={u} />
 
-
   <section class="blk">
-    <EveryName names={names} u={u} />
+    <h2>Names by their first letter</h2>
+    <p class="dek">{NAMES.length.toLocaleString()} names are too many for one page. Choose the letter a name begins with.</p>
+    <ul class="who-letters" style="list-style:none;margin:1rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.6rem">
+      {LETTERS.map((l) => (
+        <li><a href={letterHref(l)} style="display:block;min-width:4.2rem;padding:.5rem .7rem;border:1px solid var(--rule);border-radius:3px;text-align:center;text-decoration:none">
+          <strong style="display:block;font-size:1.15rem">{l === "0-9" ? "0–9" : l.toUpperCase()}</strong>
+          <span style="display:block;font-size:.78rem;color:var(--ink-3)">{namesOf(l).length.toLocaleString()} {namesOf(l).length === 1 ? "name" : "names"}</span>
+        </a></li>
+      ))}
+    </ul>
+    <p class="dek" style="margin-top:1.4rem">Looking for one person rather than a name? <a href={u("/people/")}>The People</a> lists everyone, with a search box.</p>
   </section>
 </Base>

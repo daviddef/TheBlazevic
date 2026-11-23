@@ -48,7 +48,7 @@ Krmpotska** — and of Otočac, Krivi Put, Selce, Karlobag, Port Pirie and Johan
 **A living person (80 or younger, with no death recorded) is named with their relationships and their
 town and country, and nothing more.** No dates, no records, no sources, no photograph, no structured
 data; their page is `noindex` (which also keeps it out of the sitemap and the search index), and so is
-a name page whose every bearer is living. The test is the estate's one rule, `kit/tools/living_rule.py`,
+the old name address of a name whose every bearer is living (a redirect, below). The test is the estate's one rule, `kit/tools/living_rule.py`,
 used through `tools/livingset.py`: living is born 80 years ago or less by year with no death or burial
 recorded (a death read in `documented.psv`, a grave photograph or a surveyed stone count as recorded); a
 citation from a public record source means not living; nobody without a birth year is living. A person
@@ -79,6 +79,23 @@ register image, the page says so.
 **Media is reachable even though it does not export.** A person's media in a MyHeritage tree is at
 `photo-world/<site>?tree_id=4&individual_id=N`, where **N = 4000000 + n** for GEDCOM record `@In@`.
 `tools/build_media.py` turns the resulting manifest into the site's gallery.
+
+### One page per person, and the old name pages
+
+A person has one page, `/people/<slug>/`. When other people in the archive carry the same name (the rule the old name pages used, in
+`site/src/lib/namesets.js`: accents and case folded, so "Žubrinić" and "Zubrinic" match, with the living of `living.json` counted and the clean
+register finds of `src/data/who-finds.json` listed), the page has an "Others of the same name" section (`#namesakes`, the list inside it at
+`#others-of-this-name`): each a link to that person's own page (a find's to its `/found/` page), with the life span and place the name page
+showed. A living person is a name and a town there, as before, and on a living person's own page the others are a name and a place, no year.
+
+The old name addresses `/who/<name>/` are static redirects made by `astro.config.mjs` from the same file: a name one person bears goes to that
+person's page; a name several bear goes to its first bearer's page at `#others-of-this-name` (not living, then earliest born, then slug order).
+`/who/` ("Every Name") is still the list of names, split by first letter into `/who/names--<initial>/` (the index was 658 KB before it listed a
+single bearer; two hyphens in a row cannot occur in a name's slug, so a letter page is never the address of a name), and each name links to the
+person page(s). The autolinker sends an ambiguous name to its first bearer's page the same way (`tools/names_index.py`, `who_first`).
+`npm run check:namesakes` (`tools/checknamesakes.py`, with its own planted faults) derives the sets again from the built person pages and fails
+when a page's list is not exactly the other bearers of its name, when an old address lands nowhere or on the wrong section, or when the index
+links a name address.
 
 ## Running it
 

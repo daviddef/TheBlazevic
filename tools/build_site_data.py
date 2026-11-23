@@ -713,7 +713,7 @@ def main():
 
 
 def who_slug(name):
-    """The address of a name page, as site/src/pages/who/[slug].astro makes it."""
+    """The key of a name set (site/src/lib/namesets.js slugify): the address /who/<key>/ answers at, now a redirect."""
     import unicodedata
     n = unicodedata.normalize("NFD", str(name or ""))
     n = "".join(c for c in n if not unicodedata.category(c) == "Mn")
