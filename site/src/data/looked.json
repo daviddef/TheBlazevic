@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-23",
+"built": "2026-11-24",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "ea548680e07cafd5",
+"site/src/data/searched.json": "bcc4a6372c7273c3",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -86,6 +86,40 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 297,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), images 25–28: the baptisms of 12 February to 18 May 1879, read for 3 March 1879 (births and baptisms of that day)",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Everyone born or baptised on 3 March 1879 in the Senj register, and any Perpić, Prpić or Tomljanović among them. Image 25 (entries 15–21) and image 28 (entries 32–37) read in full, left and right pages, at full size; entries 22–31 are the…",
+"when": "24 Nov 2026",
+"ord": 20261124,
+"outcome": "nothing",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17S6?cc=2040054",
+"volumes": [
+"9R2D-JWL"
+],
+"nil": {
+"prpic": [
+"covered"
+],
+"tomljanovic": [
+"covered"
+]
+}
+},
 {
 "id": 284,
 "src": "FamilySearch",
@@ -5138,12 +5172,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 171,
+"shown on person pages (by tag)": 172,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 297,
-"shown": 174
+"register": 298,
+"shown": 175
 }
 }
