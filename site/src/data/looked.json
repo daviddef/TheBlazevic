@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "f4c9013e367ccd1b",
+"site/src/data/searched.json": "2e06fdd4e7ea0149",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -287,6 +287,31 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RF7R?cc=2040054",
 "volumes": [
 "9R28-DP8"
+]
+},
+{
+"id": 292,
+"src": "FamilySearch",
+"volume": "Senj births 1859–1877 (waypoint 9R2D-JW5), images 317–318: the baptisms of 6 to 20 January 1874, read for Michael, son of Joannes Perpić and Lucia",
+"years": "1859–1877",
+"span": [
+1859,
+1877
+],
+"what": "Whether the Michael born 6 January 1874 to Joannes Prpić and Lucia née Prpić, copied on a pasted sheet at the end of the Krivi Put births book, is in the Senj register, and whose child he is. The entries of 6 to 20 January 1874 read; no…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q1Y?cc=2040054",
+"volumes": [
+"9R2D-JW5"
 ]
 },
 {
@@ -4992,12 +5017,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 166,
+"shown on person pages (by tag)": 167,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 292,
-"shown": 169
+"register": 293,
+"shown": 170
 }
 }
