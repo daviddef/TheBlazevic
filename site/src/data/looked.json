@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "bccf53225bf3d02b",
+"site/src/data/searched.json": "f4c9013e367ccd1b",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -261,6 +261,30 @@
 "kriviput"
 ],
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RN7L?cc=2040054",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 291,
+"src": "FamilySearch",
+"volume": "Krivi Put births, the second book 1874–1884 (waypoint 9R28-DP8), images 176–377: the parents' column and the house column, to the end of the roll",
+"years": "1874–1884",
+"span": [
+1874,
+1884
+],
+"what": "Whether Joannes (Ivan) Perpić and Lucia (née Perpić) had children after Joanna (1874), and at which house, in the second Krivi Put baptism book. The parents' and house columns of the openings read; no new person page (the children are not…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "partial",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RF7R?cc=2040054",
 "volumes": [
 "9R28-DP8"
 ]
@@ -4968,12 +4992,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 165,
+"shown on person pages (by tag)": 166,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 291,
-"shown": 168
+"register": 292,
+"shown": 169
 }
 }
