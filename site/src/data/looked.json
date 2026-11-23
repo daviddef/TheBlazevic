@@ -3,7 +3,7 @@
 "built": "2026-11-23",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "2e06fdd4e7ea0149",
+"site/src/data/searched.json": "e038296cabd9c8c6",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -312,6 +312,32 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q1Y?cc=2040054",
 "volumes": [
 "9R2D-JW5"
+]
+},
+{
+"id": 293,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), image 25: the baptisms of 9 February to 15 March 1879, read for Matija, daughter of Ivan and Lucia née Prpić",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Which surname the Senj register gives the father of the child baptised on 2 March 1879 at Klaričevac 82 (the Krivi Put register writes Perpić, the Senj index extract Tomljanović), and whether it is one baptism. Entries 15–21 read; no new…",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17NV?cc=2040054",
+"volumes": [
+"9R2D-JWL"
 ]
 },
 {
@@ -5017,12 +5043,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 167,
+"shown on person pages (by tag)": 168,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 293,
-"shown": 170
+"register": 294,
+"shown": 171
 }
 }

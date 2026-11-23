@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 552,
- "images": 595,
+ "count": 553,
+ "images": 596,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -12798,7 +12798,7 @@
    "id": "krivi-put-baptism-1879-matija-perpic-parents",
    "entry": "krivi-put-births-1879-03-02-matija-perpic-entry-parents.jpg",
    "page": "",
-   "title": "Krivi Put, born 25 February, baptised 2 March 1879 — Matija, son of Ivan Perpić and Luca née Perpić (the parents' page)",
+   "title": "Krivi Put, born 25 February, baptised 2 March 1879 — Matija, daughter of Ivan Perpić and Luca née Perpić (the parents' page)",
    "film": "Krivi Put births 1847–1884 (DGS 5494757, FamilySearch waypoint 9R28-DP8)",
    "where": "image 269 of the waypoint's list (ark 3QSQ-G99X-RFNL), left-hand page, entry 27",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RFNL?cc=2040054",
@@ -12813,7 +12813,7 @@
    "id": "krivi-put-baptism-1879-matija-perpic-house",
    "entry": "krivi-put-births-1879-03-02-matija-perpic-entry-house.jpg",
    "page": "",
-   "title": "Krivi Put, 2 March 1879 — Matija, son of Ivan Perpić and Luca née Perpić: Klaričevac house 82, baptised in Senj (the house page)",
+   "title": "Krivi Put, 2 March 1879 — Matija, daughter of Ivan Perpić and Luca née Perpić: Klaričevac house 82, baptised in Senj (the house page)",
    "film": "Krivi Put births 1847–1884 (DGS 5494757, FamilySearch waypoint 9R28-DP8)",
    "where": "image 269 of the waypoint's list (ark 3QSQ-G99X-RFNL), right-hand page, entry 27",
    "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-RFNL?cc=2040054",
@@ -12868,6 +12868,21 @@
    "captured": "23 November 2026",
    "note": "notes/senj-births-january-1874-michael-perpic.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-january-1874-michael-perpic.md"
+  },
+  {
+   "id": "senj-baptism-1879-03-02-matija-tomljanovic",
+   "entry": "senj-births-1879-03-02-matija-perpic-entry.jpg",
+   "page": "",
+   "title": "Senj, born 25 February, baptised 2 March 1879 — Matija, daughter of Ivan Tomljanović and Lucia née Prpić, Krivi put Klaričevac kb. 82",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 25 of the waypoint's list (ark 3QS7-L99X-17NV), printed page 17, both pages of the opening, entry 17",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17NV?cc=2040054",
+   "says": "Croatian table, no. 17: «25 veljače / 2 ožujka 1879», Matija, zakonita; parents «Ivan Tomljanović poljodjelac i Lucia rodj. Prpić», rim. kat.; house «Senj — Krivi put, Klaričevac kb. 82»; godparents Vincenc Durbešić and Pepica Glavičić; baptiser Juraj Dobrović kapelan («po meni Juraj Dobrović»); Opazke empty. The father's surname was zoomed. The same baptism, with the same house, godparents and baptiser, is in the Krivi Put register (image 269) with the father written «Jvana Perpića».",
+   "slugs": [],
+   "people": [],
+   "captured": "23 November 2026",
+   "note": "notes/senj-births-march-1879-matija.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-march-1879-matija.md"
   }
  ],
  "bySlug": {
