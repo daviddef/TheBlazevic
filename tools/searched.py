@@ -58,12 +58,18 @@ def family_slugs():
 
 
 def page_exists(href):
-    slug = href.strip("/")
+    # an ev entry may carry an anchor ("/snapshots/#id") or a query: the page is what comes before it
+    slug = href.split("#")[0].split("?")[0].strip("/")
     if not slug:
         return True
     for cand in (f"{slug}.astro", os.path.join(slug, "index.astro")):
         if os.path.exists(os.path.join(PAGES, cand)):
             return True
+    # a page generated per row from a folder's [slug].astro ("/found/<slug>/")
+    head, _, rest = slug.partition("/")
+    if rest and os.path.isdir(os.path.join(PAGES, head)) and any(
+            f.startswith("[") and f.endswith(".astro") for f in os.listdir(os.path.join(PAGES, head))):
+        return True
     # /who/… and /people/… are generated from the tree, and so is every family page ([family].astro)
     return slug.split("/")[0] in {"who", "people"} | family_slugs()
 
