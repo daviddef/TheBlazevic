@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
 "built": "2026-11-23",
-"catalogueBuilt": "2026-11-22",
+"catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "39862c99ae29e5b9",
+"site/src/data/searched.json": "e593c427b5d0677c",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -133,6 +133,89 @@
 "volumes": [
 "9R2M-L27"
 ]
+},
+{
+"id": 286,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858 (waypoint 9R2M-L27), images 244, 245 and 249, read for the older children of Augustinus Babić and Maria (the siblings of Ante Babić), found by the parents' names",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "The older children of Augustinus Babić and Maria Jurčić at Senj (1826, 1828, the twins of 1832): the sibling list of Ante Babić read from the page, and what the register writes as the mother's maiden name",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"babic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-51RZ?cc=2040054",
+"volumes": [
+"9R2M-L27"
+]
+},
+{
+"id": 287,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858 (waypoint 9R2M-L27), images 537 and 563, read for the children of Daniel Špalj and Franciscae nata Perpić, found by the parents' names (the tree's Daniel Špalj and Francesca…",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Daniel Špalj and Francisca née Perpić at Senj in the 1850s: the register's two children (1854, 1857), the Krivi Put house, and the Krmpote company",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "yield",
+"surnames": [
+"prpic",
+"spalj"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5YBP?cc=2040054",
+"volumes": [
+"9R2M-L27"
+]
+},
+{
+"id": 288,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (waypoint 9R28-DP8), index query by the parents' names: Joannes (Ivan) Perpić and Lucia, all six spellings",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Every Krivi Put baptism the FamilySearch index holds for a Joannes (Ivan) Perpić and a Lucia (Lucija, Luce): is there a child not yet read?",
+"when": "23 Nov 2026",
+"ord": 20261123,
+"outcome": "nothing",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RDRV?cc=2040054",
+"volumes": [
+"9R28-DP8"
+],
+"nil": {
+"prpic": [
+"missed",
+"Prpić",
+"Prpic",
+"Perpich",
+"Prpich"
+]
+}
 },
 {
 "id": 279,
@@ -4837,12 +4920,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 160,
+"shown on person pages (by tag)": 163,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 286,
-"shown": 163
+"register": 289,
+"shown": 166
 }
 }

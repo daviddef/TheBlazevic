@@ -1,6 +1,6 @@
 {
  "note": "People read out of a register who are not in the family tree. Deliberately not given slugs and not merged into it: the tree is a MyHeritage export and this archive does not edit it.",
- "count": 871,
+ "count": 877,
  "onDirectLine": 2,
  "places": {
   "\"Zubern\" 4, župnija Kranj-Šmartin": 1,
@@ -35,7 +35,7 @@
   "Prozor, Otočac": 2,
   "Sacred Heart Cathedral, Broken Hill, New South Wales": 1,
   "Selce": 3,
-  "Senj": 328,
+  "Senj": 334,
   "Solomontown, South Australia": 1,
   "Stražišče 84, župnija Kranj-Šmartin": 1,
   "Stražišče, župnija Kranj-Šmartin": 1,
@@ -8764,6 +8764,66 @@
    "place": "Senj",
    "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 259 left, entry 119 (first row): «Philipina Jacobina … natâ [24 April] et 26 ejusdem mensis baptizata est Segniae … Augustinus Babich ejus uxor Maria nata Jurcich [first letter read as J]», godparents Antonius Babich and Maria Suppan; found through the index (ark 1:1:QKMJ-9GN9, which reads the mother Turcich and files the birth date as the baptism), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1840-philipina-jacobina-babic; notes/senj-baptisms-1834-1840-babic-siblings-maria-jurcic.md",
    "slug": "philipina-jacobina-babic-baptised-senj-april-1840"
+  },
+  {
+   "name": "Hellena Francisca Babić baptised Senj March 1826",
+   "ahn": null,
+   "relation": "DAUGHTER OF AUGUSTINUS AND MARIA BABICH, probably the eldest child of the pair whose later children are Ante Babić (1837) and his siblings - the mother's maiden name is not written in 1826; probable, not proved",
+   "event": "baptism",
+   "date": "28 March 1826",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 244 left, the first entry under the heading 1826: «Hellenam Franciscam filiam legitimam Augustini et Maria jugalium Babich» (the paper is faded), godparents Matthaeus D… and Margarita …tich; found through the index (ark 1:1:QKMJ-9LD4), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1826-hellena-francisca-babic; notes/senj-babic-siblings-1826-1832-the-older-children.md",
+   "slug": "hellena-francisca-babic-baptised-senj-march-1826"
+  },
+  {
+   "name": "Joannes Babić baptised Senj June 1828",
+   "ahn": null,
+   "relation": "SON OF AUGUSTINUS AND MARIA BABICH, probably a brother of Ante Babić (baptised 1837) - the mother's maiden name is not written in 1828; probable, not proved",
+   "event": "baptism",
+   "date": "23 June 1828",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 245 right (printed page 9), entry of 23 June 1828: «Joannem filium legitimum Augustini et Maria jugalium Babich», godparents Antonio Babich and Maria Lenacz; found through the index (ark 1:1:QKMJ-S3CC), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1828-joannes-babic; notes/senj-babic-siblings-1826-1832-the-older-children.md",
+   "slug": "joannes-babic-baptised-senj-june-1828"
+  },
+  {
+   "name": "Gasparus Babić baptised Senj January 1832",
+   "ahn": null,
+   "relation": "ONE OF THE TWIN SONS (WITH PAULUS) OF AUGUSTINUS BABICH AND MARIA nata JUR-CSICH, a brother of Ante Babić (baptised 1837); the register writes the mother Jur-csich, not the index's Maria alone; the father a porter (Bajulus), house figure 455",
+   "event": "baptism",
+   "date": "4 January 1832",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 249 left, a printed table, fourth row: «sub Nro Dmi 455 / Filius Gasparus et Paulus legitimus / Bajulus / Augustinus et Maria Babich Mater nata Jur-csich», godparents Mathias Radetich and Maria Kuzin, baptised by the cooperator Maximilianus; found through the index (ark 1:1:QKMJ-9G4C), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1832-gasparus-paulus-babic; notes/senj-babic-siblings-1826-1832-the-older-children.md",
+   "slug": "gasparus-babic-baptised-senj-january-1832"
+  },
+  {
+   "name": "Paulus Babić baptised Senj January 1832",
+   "ahn": null,
+   "relation": "THE OTHER TWIN SON (WITH GASPARUS) OF AUGUSTINUS BABICH AND MARIA nata JUR-CSICH, a brother of Ante Babić (baptised 1837); the same entry as Gasparus",
+   "event": "baptism",
+   "date": "4 January 1832",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 249 left, the same entry as Gasparus (two sons in one row); found through the index (ark 1:1:QKMJ-9G4D), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1832-gasparus-paulus-babic; notes/senj-babic-siblings-1826-1832-the-older-children.md",
+   "slug": "paulus-babic-baptised-senj-january-1832"
+  },
+  {
+   "name": "Lucia Špalj baptised Senj December 1854",
+   "ahn": null,
+   "relation": "DAUGHTER OF DANIEL SPALJ AND FRANCISCA nata PERPIĆ of Krivi Put house No 33 - the same names as the tree's Daniel Špalj and Francesca Prpić (children 1871-1875); probably the same couple, not proved",
+   "event": "baptism",
+   "date": "1 December 1854",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 537 left, the second entry from the top: «Luciam filiam legitimam Danielis Spalj et Franciscae na-ta Perpić et parochianorum B.M.V. ad nives et Krivi put N° 33», godparents Maria Lukovich and Elia Stri…; found through the index (ark 1:1:QKMJ-SSNK), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1854-lucia-spalj; notes/senj-spalj-perpic-1854-1857-daniel-and-franciscae.md",
+   "slug": "lucia-spalj-baptised-senj-december-1854"
+  },
+  {
+   "name": "Mathia Špalj baptised Senj February 1857",
+   "ahn": null,
+   "relation": "DAUGHTER OF DANIEL SPALJ (a frontier soldier of the Ogulin regiment, Krmpote company) AND FRANCISCA nata PRPIĆ, born the day before - the same names as the tree's Daniel Špalj and Francesca Prpić, whose child of 1871 is at Krmpote; probably the same couple, not proved",
+   "event": "baptism",
+   "date": "22 February 1857",
+   "place": "Senj",
+   "citation": "Senj births 1756–1858 (waypoint 9R2M-L27), image 563 left, the third entry from the top: «Mathiam heri natam filiam legitimam … Danielis Spalj, Confiniarii Inclyti Regiminis Ogulinensis, Centuriae Kermpotensis, Parochiae B.M.V. ad Nives, et ejus uxoris Franciscae natae Prpić», godparents Andrea Spalj and Maria Spalj, wife of Laurentius; found through the index (ark 1:1:QKMJ-S31G), read from the image 23 November 2026. Snapshot /snapshots/#senj-baptism-1857-mathia-spalj; notes/senj-spalj-perpic-1854-1857-daniel-and-franciscae.md",
+   "slug": "mathia-spalj-baptised-senj-february-1857"
   }
  ]
 }
