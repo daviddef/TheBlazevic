@@ -12,7 +12,7 @@
   "nothing": 64,
   "partial": 55,
   "pending": 6,
-  "yield": 171
+  "yield": 172
  },
  "read": [
   {
@@ -6775,6 +6775,36 @@
    ],
    "nobody": true,
    "got": "**No child is born or baptised on 5 March 1879 in entries 15–49 of the Senj register.** Entries 44–49 (baptised 1–22 June) name no Perpić, Prpić or Tomljanović. The longest baptism delay in the entries read is 47 days, so a 5 March birth baptised by 22 June (109 days) would not be missed. Not a walk: entries 15–49 only; entries after 49 not read."
+  },
+  {
+   "src": "FamilySearch — Senj births 1878–1894 (waypoint 9R2D-JWL), images 25–31: the baptisms of 12 February to 21 July 1879, read for 6 March 1879 (births and baptisms of that day)",
+   "key": "fs/senj-births-1878-1894-6-march-1879-2026-11-24",
+   "what": "Everyone born or baptised on 6 March 1879 in the Senj register, and any Perpić, Prpić or Tomljanović among them. Image 31 (entries 50–56) read in full, left and right pages, entry 53 zoomed; entries 15–49 are the earlier 1879 readings (images 25–30); terms typed: Perpić, Perpic, Prpić, Prpic, Perpich, Prpich, Tomljanović, Tomljanovic. No entry in 15–56 is born or baptised on 6 March. Entry 53 (born 29 June, baptised 2 July) is Petar Pave, son of «Eduard Tomljanović težak» and «Joka rodj. Bevandić», house Senj: a Tomljanović of Senj, not the Klaričevac household, and not in the tree (no page is built for the family). Entries 15–56 only",
+   "when": "24 Nov 2026",
+   "outcome": "yield",
+   "tags": [
+    "tomljanovic",
+    "perpic",
+    "senj",
+    "familysearch",
+    "krsteni"
+   ],
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17ST?cc=2040054",
+   "waypoint": "9R2D-JWL",
+   "pages": "images 25–31 (printed Str. 17–23, entries 15–56, baptised 12 February to 21 July 1879), both pages of each opening at full size, entry 53 zoomed. Not read: image 24 and everything after image 31",
+   "walked": false,
+   "ev": [
+    [
+     "/snapshots/#senj-births-1879-07-entries-50-56",
+     "Snapshot, Senj births 1879, entries 50–56 (the latest baptisms read)"
+    ],
+    [
+     "/snapshots/#senj-births-1879-07-entry-53-tomljanovic",
+     "Snapshot, Senj births 1879, entry 53 (Petar Pave, son of Eduard Tomljanović)"
+    ]
+   ],
+   "nobody": true,
+   "got": "**No child is born or baptised on 6 March 1879 in entries 15–56 of the Senj register.** Entry 53 is a Tomljanović of Senj: Petar Pave (born 29 June, baptised 2 July), son of «Eduard Tomljanović težak» and «Joka rodj. Bevandić»; not the Klaričevac household (Ivan Tomljanović and Lucia née Prpić), no tie to the tree shown. The longest baptism delay in the entries read is 47 days, so a 6 March birth baptised by 21 July (137 days) would not be missed. Not a walk: entries 15–56 only; entries after 56 not read."
   }
  ]
 }

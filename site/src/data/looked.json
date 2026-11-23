@@ -3,7 +3,7 @@
 "built": "2026-11-24",
 "catalogueBuilt": "2026-11-23",
 "inputs": {
-"site/src/data/searched.json": "94207ec1cd75daff",
+"site/src/data/searched.json": "81c95112f34406d8",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -178,6 +178,31 @@
 "covered"
 ]
 }
+},
+{
+"id": 300,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), images 25–31: the baptisms of 12 February to 21 July 1879, read for 6 March 1879 (births and baptisms of that day)",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Everyone born or baptised on 6 March 1879 in the Senj register, and any Perpić, Prpić or Tomljanović among them. Image 31 (entries 50–56) read in full, left and right pages, entry 53 zoomed; entries 15–49 are the earlier 1879 readings…",
+"when": "24 Nov 2026",
+"ord": 20261124,
+"outcome": "yield",
+"surnames": [
+"prpic",
+"tomljanovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17ST?cc=2040054",
+"volumes": [
+"9R2D-JWL"
+]
 },
 {
 "id": 284,
@@ -5231,12 +5256,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 174,
+"shown on person pages (by tag)": 175,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 300,
-"shown": 177
+"register": 301,
+"shown": 178
 }
 }
