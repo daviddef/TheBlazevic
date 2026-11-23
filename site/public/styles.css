@@ -984,8 +984,3 @@ body .bk-foot.bk-foot{box-sizing:border-box;width:calc(100% - 56px);max-width:ca
   body .bk-head .bk-row{padding-left:18px;padding-right:18px}
   body .bk-foot.bk-foot{width:calc(100% - 36px)}
 }
-
-/* 23 November 2026: the Roots & Routes page is retired (/roots/ redirects to /trees/), but the viewer stays for the "Where they lived" frames on a
-   person's page. The kit's PersonRootsViews also draws "Open Roots & Routes on this person" under the frames; its target (/roots/#...) is the retired
-   page, so the link is not shown. The kit owns the component: dropping the link and rewording its "Roots & Routes" headings is a kit change. */
-.rv-open{display:none}
