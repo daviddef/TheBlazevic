@@ -41,7 +41,7 @@ import { navGroups } from "./research-menu.js";
    (/roots/ redirects to /trees/). No page was renamed, moved or deleted. The Spine and The Lines of a Name are drawn too: the Spine stays
    in Our line, the Lines is reached from All the families, and both are listed here as well. */
 export const DRAWN = [
-  { href: "/tree", label: "Our line, drawn", blurb: "The whole of what this archive knows of Hedviga's ancestry, as one chart: nothing cut for space, so every place it stops is a place the line really stops." },
+  { href: "/tree", label: "Our line, drawn", blurb: "Where each branch of Hedviga's ancestry ends, and why: nothing cut for space, so every place it stops is a place the line really stops. The picture is drawn on the Tree Canvas." },
   { href: "/trees/", label: "The trees", blurb: "Every family this archive follows, each drawn; most of them are webs rather than lines, which is what the evidence is." },
   { href: "/bloodline/", label: "Blood relatives, drawn", blurb: "Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside, children below, and through them the aunts, uncles and cousins." },
   { href: "/timeline", label: "The Timeline", blurb: "The line's places against the states that held them: Senj alone ran through the Uskoks, the Military Frontier, Austria\u2013Hungary and Yugoslavia." },
