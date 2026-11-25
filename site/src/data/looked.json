@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-25",
+"built": "2026-11-26",
 "catalogueBuilt": "2026-11-25",
 "inputs": {
-"site/src/data/searched.json": "2c335e3f3be9594f",
+"site/src/data/searched.json": "2f48ecfa3fffbf95",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -86,6 +86,35 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 302,
+"src": "FamilySearch",
+"volume": "Senj births 1859–1877 (waypoint 9R2D-JW5), all 400 images: every entry read and captured",
+"years": "1859–1877",
+"span": [
+1859,
+1877
+],
+"what": "The whole Senj births register 1859–1877, every entry of every opening, for every family of this archive. Images 1–4 are the slate, a resolution target, the cover and the inside cover; images 5–393 are the entries (2,447 captured in…",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"boras",
+"papic",
+"prpic",
+"tomljanovic",
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1W4Q?cc=2040054",
+"volumes": [
+"9R2D-JW5"
+]
+},
 {
 "id": 297,
 "src": "FamilySearch",
@@ -5286,12 +5315,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 176,
+"shown on person pages (by tag)": 177,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 302,
-"shown": 179
+"register": 303,
+"shown": 180
 }
 }
