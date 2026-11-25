@@ -19,7 +19,7 @@ on the same account, so ask before starting and send one "pane free" at the end 
 - `sources/senj-walk-ledger.json` (marriages and deaths 1734-1858, 592 images, all read; the 1790-91 Latin block, images 139-142 onward, still to be reread at higher zoom).
 - `sources/senj-walk-ledger-JWL.json` (births 1878-1894, 269 images): pass 1 done for images 25-33 and 70-71 only (both pages, every entry).
   The 17 October sweep (images 158-166, 170, 206-239 except 207-208, 260-263) was read by a child's name, so it does not count as a read of every entry.
-- `sources/senj-walk-ledger-JW5.json` (births 1859-1877, 399 images): images 317 and 363-364 only.
+- `sources/senj-walk-ledger-JW5.json` (births 1859-1877, 400 images): images 317 and 363-364 only.
 - Ledgers for the other Senj books are opened when their image counts are measured (step 3 below).
 
 ## The order
@@ -27,7 +27,7 @@ on the same account, so ask before starting and send one "pane free" at the end 
 Setup: (1) agree the pane with the Defranceski session; (2) probe each book for a machine transcript or Image Index (the transcript-scan mode finds
 hit leaves fast but never supports "walked"); (3) measure the image count of every waypoint and save its ark list; (4) the capture table above.
 
-Senj: (5) `9RK1-W3P` marriages and deaths 1734-1858, 592 images, reread the Latin block and close; (6) `9R2D-JWL` births 1878-1894, 269; (7) `9R2D-JW5` births 1859-1877, 399;
+Senj: (5) `9RK1-W3P` marriages and deaths 1734-1858, 592 images, reread the Latin block and close; (6) `9R2D-JWL` births 1878-1894, 269; (7) `9R2D-JW5` births 1859-1877, 400;
 (8) `9R2D-K6D` deaths 1859-1907; (9) `9R2D-N3F` marriages 1859-1920; (10) `9R2M-L27` births 1756-1858; (11) `9RK1-T3F` births 1734-1756;
 (12) test the 16 October baptism-index sweep against the walked pages; (13) re-find ten tree people with known Senj baptisms as a control; (14) publish each closed book to the Atlas.
 
