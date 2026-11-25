@@ -1,13 +1,13 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-24",
-"catalogueBuilt": "2026-11-23",
+"built": "2026-11-25",
+"catalogueBuilt": "2026-11-25",
 "inputs": {
 "site/src/data/searched.json": "2c335e3f3be9594f",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
-"data/tree-page/atlas-data.json": "875721125192835c",
+"data/tree-page/atlas-data.json": "c3bd62e2c7ec59e3",
 "data/tree-page/place_map.json": "eaa79ba0b7913a00"
 },
 "surnameKey": {
@@ -640,7 +640,11 @@
 ],
 "nil": {
 "smojver": [
-"covered"
+"missed",
+"Smoiver",
+"Smovara",
+"Smovera",
+"Smoyver"
 ]
 }
 },
