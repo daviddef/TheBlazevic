@@ -4,17 +4,4387 @@
  "first": 1,
  "last": 400,
  "images": {
+  "1": {
+   "passes": [
+    "1"
+   ],
+   "kind": "slate",
+   "entries": 0
+  },
+  "2": {
+   "passes": [
+    "1"
+   ],
+   "kind": "target",
+   "entries": 0
+  },
+  "3": {
+   "passes": [
+    "1"
+   ],
+   "kind": "cover",
+   "entries": 0
+  },
+  "4": {
+   "passes": [
+    "1"
+   ],
+   "kind": "endpaper",
+   "entries": 0
+  },
+  "5": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 8,
+   "last": 13,
+   "pages": "1-2",
+   "note": "First opening with entries; printed pages 1-2; the first row's number is a bold 8 over a faint erased 7 (zoomed), so entries 8 to 13; entries 1-7 (January 1859 before the 24th) are not on this film; an additional note legitimising entry 9 (5 Feb 1860) is written across its row",
+   "passes": [
+    "1"
+   ]
+  },
+  "6": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 14,
+   "last": 19,
+   "pages": "3",
+   "note": "Right page printed 3, left page no printed number; repair paper over the right edge of the left page; repair label in the right margin",
+   "passes": [
+    "1"
+   ]
+  },
+  "7": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 20,
+   "last": 25,
+   "pages": "4",
+   "note": "Right page printed 4; entries 20 to 25",
+   "passes": [
+    "1"
+   ]
+  },
+  "8": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 26,
+   "last": 32,
+   "pages": "5",
+   "note": "Right page printed 5; entries 26 to 32 (seven)",
+   "passes": [
+    "1"
+   ]
+  },
+  "9": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 33,
+   "last": null,
+   "pages": "6",
+   "note": "Right page printed 6; seven entries, 33 to 37 read, the numbers of the last two rows cut off at the page edge (repair paper) and not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "10": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 40,
+   "last": 46,
+   "pages": "7",
+   "note": "Right page printed 7; entries 40 to 46",
+   "passes": [
+    "1"
+   ]
+  },
+  "11": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 47,
+   "last": 53,
+   "pages": "8",
+   "note": "Right page printed 8; entries 47 to 53",
+   "passes": [
+    "1"
+   ]
+  },
+  "12": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 54,
+   "last": 59,
+   "pages": "9",
+   "note": "Right page printed 9; entries 54 to 59 (six)",
+   "passes": [
+    "1"
+   ]
+  },
+  "13": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 60,
+   "last": 66,
+   "pages": "10",
+   "note": "Right page printed 10; entries 60 to 66 (seven); the lower left corner of the left page has a pasted slip below entry 66",
+   "passes": [
+    "1"
+   ]
+  },
+  "14": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 67,
+   "last": 72,
+   "pages": "11",
+   "note": "Right page printed 11; entries 67 to 72 (six); a pasted strip covers the foot of both pages",
+   "passes": [
+    "1"
+   ]
+  },
+  "15": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 73,
+   "last": 78,
+   "pages": "12",
+   "note": "Right page printed 12; entries 73 to 78 (six); the entries are in several hands, pale pencil-grey for 74, 76-78",
+   "passes": [
+    "1"
+   ]
+  },
+  "16": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 79,
+   "last": 85,
+   "pages": "13",
+   "note": "Right page printed 13; entries 79 to 85 (seven); left page lower right has an ink smear over entry 81",
+   "passes": [
+    "1"
+   ]
+  },
+  "17": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 86,
+   "last": 91,
+   "pages": "14",
+   "note": "Right page printed 14; entries 86 to 91 (six); new clear black hand from entry 86",
+   "passes": [
+    "1"
+   ]
+  },
+  "18": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 92,
+   "last": 98,
+   "pages": "15",
+   "note": "Right page printed 15; entries 92 to 98 (seven); no watch-list surname",
+   "passes": [
+    "1"
+   ]
+  },
+  "19": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 99,
+   "last": 105,
+   "pages": "16",
+   "note": "Right page printed 16; entries 99 to 105 (seven); 103 onward in a second hand",
+   "passes": [
+    "1"
+   ]
+  },
+  "20": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 106,
+   "last": 113,
+   "pages": "17",
+   "note": "Right page printed 17; entries 106 to 113 (eight)",
+   "passes": [
+    "1"
+   ]
+  },
+  "21": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 114,
+   "last": 120,
+   "pages": "18",
+   "note": "Right page printed 18; entries 114 to 120 (seven); the year 1839 written in entry 120",
+   "passes": [
+    "1"
+   ]
+  },
+  "22": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 121,
+   "last": 127,
+   "pages": "19",
+   "note": "Right page printed 19; entries 121 to 127 (seven)",
+   "passes": [
+    "1"
+   ]
+  },
+  "23": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 128,
+   "last": 134,
+   "pages": "20",
+   "note": "Right page printed 20; entries 128 to 134 (seven); a pasted slip covers parts of entries 130 and 131",
+   "passes": [
+    "1"
+   ]
+  },
+  "24": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "20",
+   "note": "A second exposure of image 23 (the same opening, printed page 20, entries 128 to 134), framed wider and a little lower; the loose slip lying over the foot of entries 129 to 131 is here seen face up, with its Croatian writing; no new rows, every entry is captured on image 23; the house of entry 131 (Nro 10) and the baptiser endings beside the slip read as on image 23",
+   "text": "Loose slip, Croatian, later hand (read in part, […] = not settled): Godine 1859 dne 30. Novembra […] po velič. g. Ferdinandu […] zakonita kćer […] Biond[…] Mihovilić - imenom […] očitovanju: gospođa Marija […] činovnikom iz Holzdepota […] i u nuždi odma Krštena […] biskupskom tajnikom - […] i supruge mu Tonke rođene […] Kumi bili po vlastitom […] Lokmer Josipova sa Ivanom […] Izvadio: Josip […] Kan. Žpk.",
+   "passes": [
+    "1"
+   ]
+  },
+  "25": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "20",
+   "note": "A third exposure of the opening of images 23 and 24 (printed page 20, entries 128 to 134), with the loose slip lifted off the right page: it shows the house, godparents and baptiser cells of entries 130 and 131 and the last line of the godparents of entry 129; those cells were read from this image and written into the rows of image 23; no new rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "26": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 135,
+   "last": 142,
+   "pages": "21",
+   "note": "Right page printed 21; entries 135 to 142 (eight); Perpić written in entries 140 and 142; Schojat in 140; baptised date of 140 out of order",
+   "passes": [
+    "1"
+   ]
+  },
+  "27": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 143,
+   "last": 150,
+   "pages": "22",
+   "note": "Right page printed 22; entries 143 to 150 (eight); the last two are stillbirths entered late (born 20 and 22 November, no baptism); an ornamental stroke closes the page below entry 150",
+   "passes": [
+    "1"
+   ]
+  },
+  "28": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 151,
+   "last": 5,
+   "pages": "23",
+   "note": "Right page printed 23; two entries of 1859 (151 and 152) then the numbering begins again at 1 with the baptisms of January 1860 (entries 1 to 5): seven rows; no watch-list surname",
+   "passes": [
+    "1"
+   ]
+  },
+  "29": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 6,
+   "last": null,
+   "pages": "24",
+   "note": "Right page printed 24; entries 6 to 12 (seven; the number of 12 is lost under an ink blot); Tomljanović in entry 6 (father, mother and godmother), Franceskini in entry 9",
+   "passes": [
+    "1"
+   ]
+  },
+  "30": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 13,
+   "last": 19,
+   "pages": "25",
+   "note": "Right page printed 25; entries 13 to 19 (seven); Tomljanović in entry 15 (mother), Perpić in entry 17 (mother and godmother), Zubr[…] godfather in entry 15; the page ends at entry 19 with the lower edge of the leaf",
+   "passes": [
+    "1"
+   ]
+  },
+  "31": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 20,
+   "last": 26,
+   "pages": "26",
+   "note": "Right page printed 26; entries 20 to 26 (seven); Tomljanović in entry 21 (father, mother, godfather and godmother); Bla[…]iny, godfather in entry 21; the born and baptised dates of entry 26 are February, after March dates",
+   "passes": [
+    "1"
+   ]
+  },
+  "32": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 27,
+   "last": 35,
+   "pages": "27",
+   "note": "Right page printed 27; entries 27 to 35 (nine); entries 27 and 28 are two Josephas of the same days; no watch-list name; entry 34 carries a later-hand legitimation note of 1871",
+   "passes": [
+    "1"
+   ]
+  },
+  "33": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 36,
+   "last": 43,
+   "pages": "28",
+   "note": "Right page prints 28. Entries 36 to 43; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "34": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 44,
+   "last": 50,
+   "pages": "29",
+   "note": "Right page prints 29. Entries 44 to 50; each number is written over a struck-through number. Entry 47 has a different baptiser (a gymnasium teacher), entries 48 and 49 other gymnasium baptisers.",
+   "passes": [
+    "1"
+   ]
+  },
+  "35": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 51,
+   "last": 56,
+   "pages": "30",
+   "note": "Right page prints 30. Entries 51 to 56; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "36": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 57,
+   "last": 63,
+   "pages": "31",
+   "note": "Right page prints 31. Entries 57 to 63; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "37": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 64,
+   "last": 70,
+   "pages": "32",
+   "note": "Right page prints 32. Entries 64 to 70; each number is written over a struck-through number. Entries 66 and 67 are twins baptised at home by one baptiser.",
+   "passes": [
+    "1"
+   ]
+  },
+  "38": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 71,
+   "last": 76,
+   "pages": "33",
+   "note": "Right page prints 33. Entries 71 to 76; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "39": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 77,
+   "last": 84,
+   "pages": "34",
+   "note": "Right page prints 34. Entries 77 to 84; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "40": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 85,
+   "last": 89,
+   "pages": "35",
+   "note": "Right page prints 35. Entries 85 to 89; each number is written over a struck-through number; the born dates of entries 87, 88 and 89 run backwards (16, 15, 14 September).",
+   "passes": [
+    "1"
+   ]
+  },
+  "41": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 90,
+   "last": 95,
+   "pages": "36",
+   "note": "Right page prints 36. Entries 90 to 95; each number is written over a struck-through number; the born dates of entries 94 and 95 run backwards (14, 13 October).",
+   "passes": [
+    "1"
+   ]
+  },
+  "42": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 96,
+   "last": 102,
+   "pages": "37",
+   "note": "Right page prints 37. Entries 96 to 102; each number is written over a struck-through number; entries 96 and 97 are twins (Gemelli); the born dates of entries 98, 100 and 102 run backwards.",
+   "passes": [
+    "1"
+   ]
+  },
+  "43": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 103,
+   "last": 108,
+   "pages": "38",
+   "note": "Right page prints 38. Entries 103 to 108; each number is written over a struck-through number; the born date of entry 104 runs backwards (31 October after 2 November).",
+   "passes": [
+    "1"
+   ]
+  },
+  "44": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 109,
+   "last": 115,
+   "pages": "39",
+   "note": "Right page prints 39. Entries 109 to 115; entries 111 and 112 are twins (Gemini) and share one right-page row; each number is written over a struck-through number.",
+   "passes": [
+    "1"
+   ]
+  },
+  "45": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 116,
+   "last": 121,
+   "pages": "40",
+   "note": "Right page prints 40. Entries 116 to 121; each number is written over a struck-through number; the born date of entry 118 runs backwards (29 November after 30 November).",
+   "passes": [
+    "1"
+   ]
+  },
+  "46": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 122,
+   "last": 128,
+   "pages": "41",
+   "note": "Right page prints 41. Entries 122 to 128; each number is written over a struck-through number (the old figures run 127 to 133, five higher); entry 122 has its date columns used crosswise; entry 124 carries an added 1861 legitimation note.",
+   "passes": [
+    "1"
+   ]
+  },
+  "47": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 129,
+   "last": 3,
+   "pages": "42",
+   "note": "Right page prints 42. Entries 129 and 130 close the register of 1860; the year heading 1861 follows and entries 1 to 3 begin 1861 (numbering restarts at 1).",
+   "passes": [
+    "1"
+   ]
+  },
+  "48": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 4,
+   "last": 9,
+   "pages": "43",
+   "note": "Right page prints 43. Entries 4 to 9 of 1861; the house cells of entries 4, 5, 8 and 9 hold the same large looped stroke after Nro; the baptised year of entry 9 is written 1860.",
+   "passes": [
+    "1"
+   ]
+  },
+  "49": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 10,
+   "last": 16,
+   "pages": "44",
+   "note": "Right page prints 44. Entries 10 to 16 of 1861; the house cells of entries 10, 11 and 16 hold the same looped figure as on image 48; entry 15 names the parish of Sct. Jacobi (Sct. Elias) as the house.",
+   "passes": [
+    "1"
+   ]
+  },
+  "50": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 17,
+   "last": 22,
+   "pages": "45",
+   "note": "Right page prints 45. Entries 17 to 22 of 1861; entries 17 and 18 are twins (Gemelli) and share one row on the right page; entry 22 is the last entry on the page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "51": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 23,
+   "last": 29,
+   "pages": "46",
+   "note": "Right page prints 46. Entries 23 to 29 of 1861; the house cells of entries 23 and 24 hold the looped 8; entry 29 is of Klaričevac and carries the father's and mother's surname Perpić; the baptiser Joannes Radetić (gymnasium professor) signs entry 25.",
+   "passes": [
+    "1"
+   ]
+  },
+  "52": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 30,
+   "last": 36,
+   "pages": "47",
+   "note": "Right page prints 47. Entries 30 to 36 of 1861; entry 32 was baptised by a midwife and died at once (godparents none); entry 34 has the godmother Dobrilla (near-name of Dobrila); entry 36 has the father Papeš (near-name of Papić); the born date of entry 36 runs backwards.",
+   "passes": [
+    "1"
+   ]
+  },
+  "53": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 37,
+   "last": 42,
+   "pages": "48",
+   "note": "Right page prints 48. Entries 37 to 42 of 1861; the baptised date of entry 37 and the born dates of entries 38 and 42 run backwards; entry 42 has the godfather Papeš (near-name of Papić); the printed page is short by one row (six entries).",
+   "passes": [
+    "1"
+   ]
+  },
+  "54": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 43,
+   "last": 48,
+   "pages": "49",
+   "note": "Right page prints 49. Entries 43 to 48 of 1861; the baptised date of entry 45 has Martii struck through; entry 44 is baptised at Sveta Helena in Krivoput; the born date of entry 47 runs backwards.",
+   "passes": [
+    "1"
+   ]
+  },
+  "55": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 49,
+   "last": 55,
+   "pages": "50",
+   "note": "Right page prints 50. Entries 49 to 55 of 1861 (seven entries, the page runs on to a lower half); entry 49 names three boys; entries 52 and 55 have the born dates before the preceding entry; watch-list names Dobrilla (52), Zubrinić (54) and Blažević (55).",
+   "passes": [
+    "1"
+   ]
+  },
+  "56": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 56,
+   "last": 62,
+   "pages": "51",
+   "note": "Right page prints 51. Entries 56 to 62 of 1861; entry 59 is baptised by the midwife and died at once (godparents cell a single stroke); the born date of entry 60 runs backwards; later-hand notes in entries 61 and 62.",
+   "passes": [
+    "1"
+   ]
+  },
+  "57": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 63,
+   "last": 69,
+   "pages": "52",
+   "note": "Right page prints 52. Entries 63 to 69 of 1861; entry 63 is illegitimus with the father's own signed acknowledgement in Croatian in the observations; the born date of entry 66 runs backwards (14 May after 15 May).",
+   "passes": [
+    "1"
+   ]
+  },
+  "58": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 70,
+   "last": 76,
+   "pages": "53",
+   "note": "Right page prints 53. Entries 70 to 76 of 1861; the Tomljanović surname appears in the parents' and godparents' cells of entries 71, 72 and 76; the born date of entry 73 runs backwards (7 June after 8 June).",
+   "passes": [
+    "1"
+   ]
+  },
+  "59": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 77,
+   "last": 82,
+   "pages": "54",
+   "note": "Right page prints 54. Entries 77 to 82 of 1861; the born dates of entries 78 and 81 run backwards (16 June after 19 June, 25 June after 27 June); entries 80 and 81 are baptised at home or on the day of birth.",
+   "passes": [
+    "1"
+   ]
+  },
+  "60": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 83,
+   "last": 88,
+   "pages": "55",
+   "note": "Right page prints 55. Entries 83 to 88 of 1861; the born date of entry 84 (30 Junii) runs backwards; entry 86 has a religion cell reading Helv. Conf. and rno cath.; entry 87 is from Cupina in the parish of Scti Jacobi and its baptiser signs Coop. Segn[…]; entry 85's godparents' cell holds a hurried signature-like line.",
+   "passes": [
+    "1"
+   ]
+  },
+  "61": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 89,
+   "last": 94,
+   "pages": "56",
+   "note": "Right page prints 56. Entries 89 to 94 of 1861; the born dates of entries 89, 91 and 94 run backwards; entry 89 has a mother Tomljanović; entries 92 and 93 hold the near-name Smogorić; entry 94 is written in a different hand with a baptiser who is an abbot and seminary rector.",
+   "passes": [
+    "1"
+   ]
+  },
+  "62": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 95,
+   "last": 100,
+   "pages": "57",
+   "note": "Printed page number is written like 52 at zoom and is read as 57 from the run 55, 56 on images 60 and 61 (image 62 less 5). Entries 95 to 100 of 1861; the born date of entry 98 runs backwards; entries 96 and 97 are illegitimate, the mother of 97 is a widow; entry 96 has no godparents and the baptiser is a midwife.",
+   "passes": [
+    "1"
+   ]
+  },
+  "63": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 101,
+   "last": 107,
+   "pages": "58",
+   "note": "Right page prints 58 (read clearly). Entries 101 to 107; born dates run in order; entry 107 is the mother Theresia vidua Blo- / ževic, a Blažević form; entry 106 has mother nata Pr- / pić; houses of entries 101, 103 and 105 hold the looped stroke after Nrus.",
+   "passes": [
+    "1"
+   ]
+  },
+  "64": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 108,
+   "last": 114,
+   "pages": "59",
+   "note": "Right page prints 59. Entries 108 to 114 (numbering continues from 107); born dates in order; entry 112 has the baptised month struck through and re-written (2 October); entry 112's baptiser cell is in another hand.",
+   "passes": [
+    "1"
+   ]
+  },
+  "65": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 115,
+   "last": 120,
+   "pages": "60",
+   "note": "Right page prints 60 (read clearly). Entries 115 to 120 (numbering continues from 114); the born date of entry 117 (7 October) runs backwards after entry 116 (12 October); entry 118 observations: baptised at home for great weakness; entry 119 has the Barach name-addition note and a 1879 legitimation footnote under the left page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "66": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 121,
+   "last": 126,
+   "pages": "61",
+   "note": "Right page prints 61 (a pencil page 62 is faint at the top left of the right page). Entries 121 to 126 (numbering continues from 120); the born date of entry 126 (31 October) runs backwards after entry 125 (2 November); entry 125 has Prpic as the mother and as a godmother, a struck-through father with an interlined Gerzin, a legitimation note of 1863 under the entry and a later pencil note of 1885.",
+   "passes": [
+    "1"
+   ]
+  },
+  "67": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 127,
+   "last": 132,
+   "pages": "62",
+   "note": "Right page prints 62 (read clearly). Entries 127 to 132 (numbering continues from 126); the born date of entry 131 (10 November) runs backwards after entry 130 (13 November); entry 127 has the father Joannes Prpić; entries 129 and 131 carry 20th-century later-hand notes with office stamps; the page foot is empty after entry 132.",
+   "passes": [
+    "1"
+   ]
+  },
+  "68": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 133,
+   "last": 138,
+   "pages": "63",
+   "note": "Right page prints 63 (pencil, read clearly). Entries 133 to 138 (numbering continues from 132); the printed numbers of 135 to 138 are struck through and rewritten one higher (134 to 135, 135 to 136, 136 to 137, 137 to 138); born dates of entries 134 and 137 run backwards; entry 134 baptised at home for the distance and a storm, by indult; entry 136 carries a later-hand death note of 1934; watch-list names: Dobril- / la (137, godmother), Tom- / ljanović (138, father), Tomlja- / nović (138, godmother).",
+   "passes": [
+    "1"
+   ]
+  },
+  "69": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 139,
+   "last": 144,
+   "pages": "64",
+   "note": "Right page prints 64 (pencil, read clearly). Entries 139 to 144 (numbering continues from 138); the printed numbers of 139 to 144 are struck through and rewritten one higher; the born date of entry 140 (27 November) runs backwards after entry 139 (29 November); entry 141 has a legitimation note of 2 March 1862 under the observations; watch-list: Dobrilla (140, godmother) and the near-name Čubranić (144, mother).",
+   "passes": [
+    "1"
+   ]
+  },
+  "70": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 145,
+   "last": 151,
+   "pages": "65",
+   "note": "Right page prints 65 (read clearly; the pencil number is at the top right). Entries 145 to 151 (numbering continues from 144); the printed numbers are struck through and rewritten one higher as in image 68 and 69; entries 148 and 149 are twins sharing one row of cells (the word Gemini), entries 150 and 151 are children of the same parents born the same day (Gemelli); entry 147 is first illegitima, then legitimated by the marriage of 24 April 1864 (note under the entry) and carries a Croatian declaration of the father; entry 148 and 149 have a Croatian declaration by the father; no watch-list name in this image (Antić, Škiljan, Olivieri, Šwertinga, Lucić, Pulanić are near nothing on the list).",
+   "passes": [
+    "1"
+   ]
+  },
+  "71": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 152,
+   "last": 3,
+   "pages": "66",
+   "note": "Last two 1861 entries (152, 153) then the new year 1862 begins at entry 1 (a struck number 154 under it); year heading 18|62 written across the parents cell (left) and house cell (right) above entry 1. Printed page 66 on the right leaf; left leaf number not visible.",
+   "passes": [
+    "1"
+   ]
+  },
+  "72": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 4,
+   "last": 9,
+   "pages": "67",
+   "note": "Printed page 67 on the right leaf. Entries 4-9 all January 1862. Two later-hand notes in the child column of entries 4 and 6. Cooperator's signature on right page changes after entry 4 (entry 4 signed Ant Kriškovič, later ones a different hand).",
+   "passes": [
+    "1"
+   ]
+  },
+  "73": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 10,
+   "last": 15,
+   "pages": "68",
+   "note": "Printed page 68 on the right leaf. Entries 10-15, 20 January to 2 February 1862. Entry 15 is illegitimate with an acknowledgment written in the observations column, signed by three.",
+   "passes": [
+    "1"
+   ]
+  },
+  "74": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 16,
+   "last": 21,
+   "pages": "69",
+   "note": "Printed page 69 on the right leaf. Entries 16-21, 29 January to 10 February 1862. Entry 21 is a pair of twins (Željko / Milan) entered in one row. A later-hand note (1949) in the observations column of entry 19.",
+   "passes": [
+    "1"
+   ]
+  },
+  "75": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 22,
+   "last": 27,
+   "pages": "70",
+   "note": "Printed page 70 on the right leaf. Entries 22-27, 11 to 21 February 1862. Entry 25 names Tomljanović in parents and godparents; entry 25 house given as Cupina, Paroch: Sti Jacobi. Entry 22's number is written over another figure.",
+   "passes": [
+    "1"
+   ]
+  },
+  "76": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 28,
+   "last": 34,
+   "pages": "71",
+   "note": "Printed page 71 on the right leaf. Entries 28-34, 23 February to 11 March 1862; seven entries on the opening. Entry 33 is a Vranyczany de Dobrinović baptism.",
+   "passes": [
+    "1"
+   ]
+  },
+  "77": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 35,
+   "last": 39,
+   "pages": "72",
+   "note": "Entries 35-39, 12 to 30 March 1862. Entry numbers 35, 36 and 37 are each written over a struck number one lower (34/35/36 struck) so the run is renumbered by one from the first row; entry 34 on image 76 stands as 34. Entries 38 (Tomljanović) and 39 (later-hand note, Graz 1885). Printed page 72 on the right leaf.",
+   "passes": [
+    "1"
+   ]
+  },
+  "78": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 40,
+   "last": 45,
+   "pages": "73",
+   "note": "Printed page 73 on the right leaf. Entries 40-45, 28 March to 8 April 1862. Dobrila appears as godparents of entry 41 (Jacobus Dobrila and Catharina Dobrila).",
+   "passes": [
+    "1"
+   ]
+  },
+  "79": {
+   "kind": "entries",
+   "entries": 4,
+   "first": 46,
+   "last": 49,
+   "pages": "74",
+   "note": "Printed page 74 on the right leaf. Entries 46-49, 5 to 23 April 1862. Entry 47 is a long prose entry (adult Jewish convert baptised on Easter Sunday 20 April 1862 by the Coadjutor Bishop), running across both pages with no born or baptised dates in the date columns; transcribed in part with gaps marked. Entry 48 house number not written.",
+   "passes": [
+    "1"
+   ]
+  },
+  "80": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 50,
+   "last": 56,
+   "pages": "75",
+   "note": "Printed page 75 on the right leaf (the figure is a flourish). Entries 50-56, 19 April to 4 May 1862. Number 50 written over a struck 49, 51 over a struck 50: no entry skipped, no number repeated (79 ended at 49). Entries 52 and 53 are twins (same parents, both born and baptised 30 April; one baptiser's brace and one observation for both). Born dates out of order at 55 (1 May) and 56 (30 April). Watch-list: Papić in 51 (mother) and 54 (father); Zubranić in 56 (godmother); possible Dobrila in 50 (godfather, first letter unsettled).",
+   "passes": [
+    "1"
+   ]
+  },
+  "81": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 57,
+   "last": 62,
+   "pages": "76",
+   "note": "Printed page 76 on the right leaf. Entries 57-62, 5 to 29 May 1862; numbering runs on from 56. Entry 58: child baptised in necessity and died at once (obs). Later-hand note on entry 61 (a death, 1927). No watch-list surname on this image.",
+   "passes": [
+    "1"
+   ]
+  },
+  "82": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 63,
+   "last": 68,
+   "pages": "77",
+   "note": "Printed page 77 on the right leaf (figure written as a flourish). Entries 63-68, 30 May to 26 June 1862; numbering runs on from 62. Watch-list: Tomljanović in entry 63 (mother, line break Tomlja-/nović). Entry 65 baptised by the parish priest, with a struck godparent cell and a signature. Entry 68: born date written out in words in the born cell; baptism year not written in the baptised cell. Later-hand pencil notes on entries 65 and 66.",
+   "passes": [
+    "1"
+   ]
+  },
+  "83": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 69,
+   "last": 75,
+   "pages": "78",
+   "note": "Printed page 78 on the right leaf. Entries 69-75, 22 June to 13 July 1862; numbering runs on from 68. Entry 73: baptised cell empty (the 2 of 1862 spills into it), and a legitimation note in the observations (subsequent marriage with Simone Brajkovic, 26 October 1862). Entry 74: first name Joanna struck through above Elizabeth Joanna. Near-name seen: Simone Brajković (73 obs). No watch-list surname.",
+   "passes": [
+    "1"
+   ]
+  },
+  "84": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 76,
+   "last": 81,
+   "pages": "79",
+   "note": "Printed page 79 on the right leaf. Entries 76-81, 18 July to 3 August 1862; numbering runs on from 75. Entry 76: the parents' text is written first in the legitimacy cell and crossed out with a large X, then repeated in the parents cell; later-hand death note under the child. Entry 78: number inked over. Entry 79 born 20 July after entry 78 born 24 July. Dobrila (godfather of 81) is on the watch list; Bivanicković-type name (godfather of 78) is a near-name, copied as read.",
+   "passes": [
+    "1"
+   ]
+  },
+  "85": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 82,
+   "last": 88,
+   "pages": "80",
+   "note": "Printed page 80 on the right leaf. Entries 82-88, 6 to 16 August 1862; numbering runs on from 81. Entry 82: obs says the child was baptised at home on account of danger in delay. Entry 87: obs viduus. Dobrilla (mother of 88) is on the watch list.",
+   "passes": [
+    "1"
+   ]
+  },
+  "86": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 89,
+   "last": 94,
+   "pages": "81",
+   "note": "Printed page 81 on the right leaf. Entries 89-94, 22 to 31 August 1862; numbering runs on from 88. Entry 90: a cross before the child's name and a later-hand note in the observations; the parents cell has a struck-through word. Entry 91: later-hand note (Pula, 1953-1954). Entry 92: a small tick mark under the legitimacy cell. Entry 93: a short row of strokes under the child's second name. Near-name: Perčich (mother of 91), copied as read.",
+   "passes": [
+    "1"
+   ]
+  },
+  "87": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 95,
+   "last": 100,
+   "pages": "82",
+   "note": "Printed page 82 on the right leaf. Entries 95-100, 1 to 18 September 1862; numbering runs on from 94. Entry 96 and 99 have an empty religion cell; 96 has a later-hand note and a different baptiser (gymnasium professor); 99 has a struck-through word in the baptiser cell and a different baptiser (vice-rector). Entry 98: the legitimacy cell has ius written above the end of legitima. Entry 100: no maiden name after the godmother's nata. Watch list: Tomljanović, father of 97 and Lucia Tomljanović, godmother of 97.",
+   "passes": [
+    "1"
+   ]
+  },
+  "88": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 101,
+   "last": 106,
+   "pages": "83",
+   "note": "Printed page 83 on the right leaf. Entries 101-106, 22 September to 12 October 1862; numbering runs on from 100. Entry 101: a later pencil note (+574-915) above the child's name and a blotted first year figure in the born cell. Entry 104: religion cell empty. Entry 105: obs says baptised at home for danger of death. Entry 103: ink spatter over the legitimacy cell; godparents' cell only partly read. No watch-list surname on this opening.",
+   "passes": [
+    "1"
+   ]
+  },
+  "89": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 107,
+   "last": 112,
+   "pages": "84",
+   "note": "Printed page 84 on the right leaf. Entries 107-112, 19 October to 11 November 1862; numbering runs on from 106. Later-hand pencil notes of 1936 and 1937 under or above the child's name on 107 and 112. Entry 112 is illegitimate: a struck-through surname in the mother's name, no father. Watch list: Orešković, mother of 108.",
+   "passes": [
+    "1"
+   ]
+  },
+  "90": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 113,
+   "last": 118,
+   "pages": "85",
+   "note": "Printed page 85 on the right leaf. Entries 113-118, 11 to 30 November 1862; numbering runs on from 112. Entry 113: the godparents cell ends with a struck-through copy of the godparents of 114, written one row too high. Entry 115 is illegitimate (widow), baptised at home for weakness; a second surname is written above the mother's name. Entry 117 has a later-hand death note across the child and legit cells. Watch list: Franceskini, mother of 116.",
+   "passes": [
+    "1"
+   ]
+  },
+  "91": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 119,
+   "last": 124,
+   "pages": "86",
+   "note": "Printed page 86 on the right leaf. Entries 119-124, 2 to 22 December 1862; numbering runs on from 118. Watch list: Šojat (father and mother of 123); Prpić (godmother of 123, Mathia, read at high zoom); Tomljanović (father and mother of 124 and a godmother, Francisca). Entries 120 and 124 baptised with the bishop's ceremoniarius named beside the baptiser.",
+   "passes": [
+    "1"
+   ]
+  },
+  "92": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 125,
+   "last": 129,
+   "pages": "87",
+   "note": "Printed page 87 on the right leaf. Entries 125-129, 18 to 28 December 1862; numbering runs on from 124. Entry 128's number has its last figure written over another. Entry 126 is illegitimate (mother only). Watch list: Šojat read as Sojat, mother of 125 (caron not seen, flourished initial). Baptisers of 125 and 126 carry the bishop's coadjutor's ceremoniarius.",
+   "passes": [
+    "1"
+   ]
+  },
+  "93": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 130,
+   "last": 3,
+   "pages": "88",
+   "note": "Printed page 88 on the right leaf. Entries 130 and 131 (25 December 1862), then a year heading 1863 (figures 18 and 63 written large across the two pages, double rule beneath), then entries 1, 2, 3 (31 December 1862 to 4 January 1863). Numbering restarts at 1 with the new year. Later-hand note on entry 2. Watch list: Prpic, mother of 2 (Margaritha nata Prpić).",
+   "passes": [
+    "1"
+   ]
+  },
+  "94": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 4,
+   "last": 9,
+   "pages": "89",
+   "note": "Printed page 89 on the right leaf. Entries 4-9, 27 December 1862 to 21 January 1863; numbering runs on from 3. Entry 5 is a posthumous child (father already dead). Later-hand note under the child's name on entry 6. Baptisers of 6-9 carry the bishop's coadjutor's ceremoniarius. Watch list: Tomljanović (father of 8, Vincentius), Blaževic (godmother of 8, Maria).",
+   "passes": [
+    "1"
+   ]
+  },
+  "95": {
+   "kind": "entries",
+   "entries": 4,
+   "first": 10,
+   "last": 13,
+   "pages": "90",
+   "note": "Printed page 90 on the right leaf. Entries 10-13, 21 January to 2 February 1863. Entry 13 is illegitimate; below it on the left page a signed declaration in Croatian (the undersigned takes the child as his own) with a German witness line, copied into obs; the lower half of the leaf is otherwise blank. Entry 12 lives in Parochia Krivi put. Baptisers of 10-12 Ant Kriškovič, of 13 Ernestus Krainčević with the coadjutor's ceremoniarius. Near-names: Papeš (father of 11), Rozina (godfather of 11, initial R read, not K).",
+   "passes": [
+    "1"
+   ]
+  },
+  "96": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 14,
+   "last": 18,
+   "pages": "91",
+   "note": "Printed page 91 on the right leaf. Entries 14-18, 29 January to 8 February 1863; numbering runs on from 13. Entry 14 is illegitimate with both parents named and a signed Croatian declaration by the father in the observations cell (witnesses signed). Entry 15 lives at Sv. Iliza parochia Krmpote Nr 85. Later-hand note on entry 18. Watch list: Tomljanović (godmother Mathia, entry 15). Near-names: Tom Ganović (father of 15, Gregorius), Krišković (godmother of 18).",
+   "passes": [
+    "1"
+   ]
+  },
+  "97": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 19,
+   "last": 24,
+   "pages": "92",
+   "note": "Printed page 92 on the right leaf. Entries 19-24, 6 to 15 February 1863; numbering runs on from 18. Entry 19 has a cross above the child's name and a struck-through pencil word beneath it (not read). Entries 22, 23 and 24 are three children all named Valentinus. Baptisers of 21, 23, 24 carry the coadjutor's ceremoniarius. No watch-list surname on this image; near-name Pilipić (mother of 21).",
+   "passes": [
+    "1"
+   ]
+  },
+  "98": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 25,
+   "last": 29,
+   "pages": "93",
+   "note": "Printed page 93 on the right leaf. Entries 25-29, 13 to 22 February 1863; numbering runs on from 24. Entry 27 has illegitima struck through and legitima written beneath, a struck word under the mother's name, and a pasted slip (later note on a death in 1957, dated Senj 8.III.68) covering its baptiser and observations cells (read from the second exposure, image 99, where the slip is lifted aside). Entry 25 gives a house number after a struck Nro. Near-names: Defanti (godmother of 27), Bontić (godfather of 28).",
+   "passes": [
+    "1"
+   ]
+  },
+  "99": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "93",
+   "note": "Second exposure of the opening of image 98 (printed page 93, entries 25-29), shot with the pasted slip over entry 27 lifted aside. No rows of its own: entries 25-29 are on image 98. The newly visible baptiser and observations cells of entry 27 (a note of 24 April 1864 that the child was legitimated by the parents' marriage) were read here and entered on the row of image 98.",
+   "passes": [
+    "1"
+   ]
+  },
+  "100": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 30,
+   "last": 34,
+   "pages": "94",
+   "note": "Printed page 94 (written at the top right; the page after 93 because image 99 is a second exposure). Entries 30-34, born 18 February to 8 March 1863; numbering runs on from 29. Entry 33 has a later-hand date, 2. XI. 1927, above the child's name. Entry 30 gives three names to the child, separated by commas. Watch-list hit: Prpić (mother of 34).",
+   "passes": [
+    "1"
+   ]
+  },
+  "101": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 35,
+   "last": 39,
+   "pages": "95",
+   "note": "Printed page 95 (written at the top right). Entries 35-39, born 7 to 17 March 1863; numbering runs on from 34. Entry 35 was baptised in danger of death at home (observations cell). Entry 39 has a male name with legitima in the legitimacy cell. Watch-list hits: Prpić (mother of 35; godfather of 36), Tomljanović (mother of 36; godmother of 36); near-name Tom Ganović (father of 36).",
+   "passes": [
+    "1"
+   ]
+  },
+  "102": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 40,
+   "last": 45,
+   "pages": "96",
+   "note": "Printed page 96 (written at the top right). Entries 40-45, born 8 to 24 March 1863; numbering runs on from 39. Entry 40 has Anna struck through and Margaritha written after it. Entry 41 is illegitimus, no baptism day written, no godparents (a dash), baptised by a layman (child died at once, observations). Entry 43 ends its parents cell with an ampersand and no mother's name. Watch-list hits: Tomljanović (godparents of 42; father of 43); near-name Tom Ganović (godmother of 40; father of 42).",
+   "passes": [
+    "1"
+   ]
+  },
+  "103": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 46,
+   "last": 52,
+   "pages": "97",
+   "note": "Printed page 97 (top right). Entries 46-52, born 22 March to 4 April 1863; numbering runs on from 45. Entry 47 is born 18 March, earlier than entry 46 (22 March); baptism dates run in order. Entry 49 baptised by a seminary professor, not the usual cooperator. Entry 50 names no occupation. Watch-list hits: none. Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "104": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 53,
+   "last": 59,
+   "pages": "98",
+   "note": "Printed page 98 (top right). Entries 53-59, born 6 to about 19 April 1863; numbering runs on from 52. Entry 59 is written in a different, more hurried hand and layout (year first, 'Die' and the day on a second line, baptism date without a year, no religion, occupation or house number). Entry 58 has no religion written. Watch-list hits: Sojat (57, father), Kosina (59, godfather).",
+   "passes": [
+    "1"
+   ]
+  },
+  "105": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 60,
+   "last": 65,
+   "pages": "99",
+   "note": "Printed page 99 (top right). Entries 60-65, born 20 April to 1 May 1863; numbering runs on from 59. Same hurried hand as entry 59, year written once in the born cell. Entries 64 and 65 are two different couples' children, both named Philippus Jacobus and both born 1 May, baptised 3 May; entry 65 carries a later-hand note + 7.X.1938 under the child's name. Entries 60 and 61 were baptised by the parish priest of Sta Crux; entry 63 by a gymnasium professor. Watch-list hits: godfather of 63 written Do..lla (two minims after b, a possible Dobrilla, not settled). Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "106": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 66,
+   "last": 71,
+   "pages": "100",
+   "note": "Printed page 100 (top right). Entries 66-71, born 26 April to 12 May 1863; numbering runs on from 65. Entry 67 has a struck-through word above the child's name (begins St, not read). Entries 66 and 71 godparents not fully settled. Watch-list hits: none. Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "107": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 72,
+   "last": 77,
+   "pages": "101",
+   "note": "Printed page 101 (top right). Entries 72-77, born 14 to 28 May 1863; numbering runs on from 71. Entry 77: the number was first written 76, struck through, and 77 written below it. Entry 75 has a later-hand note in the child column. Entries 72-76 baptised by Ant Kriškovič, 73 by Ferd: Babić, 77 by Krainčević. Watch-list hits: 77 father Perpić (zoomed, read Perpić). Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "108": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 78,
+   "last": 83,
+   "pages": "102",
+   "note": "Printed page 102 (top right). Entries 78-83, born 25 May to 11 June 1863; numbering runs on from 77. Entry 80: baptised the day of birth by the midwife (Antonia Pogatscher in the baptiser cell), the observations cell says the child died at once; godparents cell holds only a round sign. Entry 83 carries a later-hand note in the child column. Entry 78 godparents are written in German script, partly not read. Watch-list hits: 80 father Žubrinić (zoomed). Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "109": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 84,
+   "last": 89,
+   "pages": "103",
+   "note": "Printed page 103 (top right). Entries 84-89, born 14 to 24 June 1863; numbering runs on from 83. Ink blot beside the number of entry 84. Entry 89 is illegitimus but names the father in the parents cell and carries a signed declaration in Croatian by the father with two witnesses in the observations cell. Entry 84 godparents are written in German script, partly not read, and the word Eisinger stands at the top of its baptiser cell. Entry 87 was baptised by a gymnasium professor, the rest by Ant Kriškovič. Watch-list hits: none. Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "110": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 90,
+   "last": 94,
+   "pages": "104",
+   "note": "Printed page 104 (top right). Entries 90-94, born 28 June to 11 July 1863; numbering runs on from 89. Entry 93 (Vincentius, illegitimus) has a legitimation note written under it across the left-page cells, with a struck-through number in the number column; it is part of entry 93 and gets no row. Entry 91 has a legitimation note in its observations cell and two later-hand notes beside the child. Entry 93 carries a signed Croatian declaration by the named father with two witnesses. Entry 94 has a later-hand death note. Watch-list hit: 93 mother recte Tomljanović. Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "111": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 95,
+   "last": 99,
+   "pages": "105",
+   "note": "Printed page 105 (top right). Entries 95-99, born 11 to 17 July 1863; numbering runs on from 94. Entry 99 is the last on the page, with the rest of the page ruled and empty below it; its baptised cell has a day only. In entries 98 and 99 the religion cell holds a single flourished glyph instead of rno cath. Entry 99 was baptised by the gymnasium director Stephanus Sabljak, the rest by Kriškovič (95, 97, 98) and Krainčević (96). Watch-list hit: 96 godfather Joanes Tomljanović (godparents cell). Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "112": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 100,
+   "last": 105,
+   "pages": "106",
+   "note": "Printed page 106 (top right). Entries 100-105, born 15 July to 5 August 1863; numbering runs on from 99. Entry 100 was baptised the day of birth by the midwife Antonia Pogačer and the observations say the child died at once; its godparents cell is empty and the midwife stands in the baptiser cell. Entry 101 godparents partly not read. Entry 105 is the last entry on the page. Baptisers: Kriškovič (101, 102, 104), Krainčević (103, 105). Watch-list hit: 105 father Joanes Dobrila (zoomed). Near-names: 101 godmother Pe[…]ić (unsettled).",
+   "passes": [
+    "1"
+   ]
+  },
+  "113": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 106,
+   "last": 111,
+   "pages": "107",
+   "note": "Printed page 107 (top right). Entries 106-111, born 31 July to 21 August 1863; numbering runs on from 105. Entry 109 (born 31 July, baptised 19 August) has godparents written in German. Entry 111 has a struck-out word in the parents cell and German-script godparents, partly not read. Entry 106 has a later-hand note under the born date, partly not read; entry 110 has a later-hand note above the child. Entry 111 is the last on the page. Baptisers: Kriškovič (106-110), Krainčević (111). Watch-list hits: none. Near-names: none.",
+   "passes": [
+    "1"
+   ]
+  },
+  "114": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 112,
+   "last": 116,
+   "pages": "108",
+   "note": "Tomljanović as father, mother and godmother of entry 112; entry 114 number overwritten; later-hand death note on entry 115",
+   "passes": [
+    "1"
+   ]
+  },
+  "115": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 117,
+   "last": 122,
+   "pages": "109",
+   "note": "no watch-list surname; later-hand notes on entries 119 and 120; entry 122 has a note of emergency baptism supplemented 24 September",
+   "passes": [
+    "1"
+   ]
+  },
+  "116": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 123,
+   "last": 128,
+   "pages": "110",
+   "note": "no watch-list surname; entry 126 has a later-hand note in obs; page ends after entry 128 with the rest blank",
+   "passes": [
+    "1"
+   ]
+  },
+  "117": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 129,
+   "last": 133,
+   "pages": "111",
+   "note": "watch-list: Prpić father of 129; Tomljanović father and mother of 133; near-name Tom Ganović godmother of 133; near-name Kosović godfather of 131; entry 132 in a thinner hand",
+   "passes": [
+    "1"
+   ]
+  },
+  "118": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 134,
+   "last": 139,
+   "pages": "112",
+   "note": "no watch-list surname; entry 135 has no year written in its date cells; 135 baptised by Joannes Ivšić; 139 baptised by a coop. of Lovinac",
+   "passes": [
+    "1"
+   ]
+  },
+  "119": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 140,
+   "last": 144,
+   "pages": "113",
+   "note": "entry number 139 struck through above 140; Prpić father of 143; entries 141 and 142 both Carolina born 3 November",
+   "passes": [
+    "1"
+   ]
+  },
+  "120": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 145,
+   "last": 149,
+   "pages": "114",
+   "note": "hand and ink change from entry 147 (thin pen); an ink blot over the godparents cell of 149; Tom[…]anović father and mother of 148, second-line initial not settled",
+   "passes": [
+    "1"
+   ]
+  },
+  "121": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 150,
+   "last": 154,
+   "pages": "115",
+   "note": "Tomljanović family in entry 150 (father, mother and godfather); 151 and 152 carry later-hand death notes in the child cell; 154 godparents entered in Croatian, 153 in German; born dates out of order (23 Nov after 25 Nov; 20 Oct baptised 29 Nov)",
+   "passes": [
+    "1"
+   ]
+  },
+  "122": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 155,
+   "last": 162,
+   "pages": "116",
+   "note": "later-hand death notes on 155 and 158; hand and nib change at 158, 160 and 161-162 (161 and 162 baptised by Petrus Carſt, one date written across the born and baptised columns); Kerpotić father of 161 with a small m written above rp",
+   "passes": [
+    "1"
+   ]
+  },
+  "123": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 163,
+   "last": 4,
+   "pages": "117",
+   "note": "163 and 164 close the year 1863; a year heading (1 8 in the religion column, 6 4 in the house column, not an entry) follows 164 and the numbering restarts at 1 for 1864, entries 1 to 4; born 2 January in entry 4 follows 8 January in entry 3; later-hand death note on entry 2; Šojat father and mother in entry 4, godmother Anastasia Šojat, godfather Ioañes with surname initial not settled; no Perpić or Blažević entry here",
+   "passes": [
+    "1"
+   ]
+  },
+  "124": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 5,
+   "last": 11,
+   "pages": "118",
+   "note": "entries 5 to 11 of 1864 (numbering continues from 4 on image 123); born 13 January in entry 7 follows 15 January in entry 6; entry 9 has an observation (baptised at home for great weakness); entry 10 born and baptised both written with the month; many godparents' names heavily flourished; no watch-list surname read on this image",
+   "passes": [
+    "1"
+   ]
+  },
+  "125": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 12,
+   "last": 17,
+   "pages": "119",
+   "note": "Entry 12 child cell holds earlier lines (Thomas Paškvan bajulus Catharin) struck through by three vertical strokes, then Paulus Ioannes; entry 13 baptised by Joannes Haušek, a religion professor of the Senj gymnasium, not the cooperator; entry 16 born 23 January follows 30 January in entry 15 (home baptism told in obs); entry 17 house cell reads Parochia Kriviput in Filiali Bilo Nro 4; Tomljanović in 17 father, mother and godparents, lj clear.",
+   "passes": [
+    "1"
+   ]
+  },
+  "126": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 18,
+   "last": 23,
+   "pages": "120",
+   "note": "Entry 18 parents cell has an interlined word over Paganetti (only the ending tor read) and a godparents cell only partly read; entry 21 born 24 January stands after born 2 February in entry 20, baptised dates run on; entry 21 house cell ends Nro: with no number; entry 22 baptised by Joañes Haušek, a religion professor of the Senj gymnasium, not the cooperator; entries 21 to 23 godparents cells look written in a quicker, different hand with Italian words (Possidente, Densate); entry 23 mother Perpić (watch list) and a small cross above the child's name; Tomljanović in entry 19 father and godparent.",
+   "passes": [
+    "1"
+   ]
+  },
+  "127": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 24,
+   "last": 29,
+   "pages": "121",
+   "note": "Entry numbers 24 to 26 have the last digit written over; entries 27 to 29 have an earlier number struck out (26, 27, 28) with the number kept written below, 29 ringed. Entry 25 born 30 January stands after born 2 February in entry 24, baptised dates run on. Entry 25 baptised by Joanes Haušek, a religion professor of the Senj gymnasium, not the cooperator. Entry 29 has watch-list names Šojat (father) and Tomljanović (mother's maiden name). Entry 27 has an extra rc. written inside the parents cell; occupation and several godparents words not settled.",
+   "passes": [
+    "1"
+   ]
+  },
+  "128": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 30,
+   "last": 34,
+   "pages": "122",
+   "note": "Entry numbers 30 and 33 have an earlier number struck out (29, 32) with the number kept written below; entry 31 born day 24 has its second figure written over another. Born dates run on in order. Entry 32 year 1864 is written on the line above the row, born written 1ma; its baptiser is a parish priest, Joannes Jošić Parochus, not the cooperator, and its parents cell says the father is Graecus non Unit. Entry 33 carries a later-hand note + 1.X.1923 above the child's name and the mother's maiden name Prpić (watch list). Entry 31 godparents are German, two army officers of an infantry regiment.",
+   "passes": [
+    "1"
+   ]
+  },
+  "129": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 35,
+   "last": 39,
+   "pages": "123",
+   "note": "Entry 35 born 4 March stands after born 10 March in entry 34 on the previous opening, baptised dates run on. Entry 37 has a later-hand note + 27.III.1923 above the child's name, a struck-out word after the father's given name, and a godparents cell with the first two lines struck out and the corrected names written below after i.e. Entry 38 is illegitimus (mother only, Glavaš). Entry 39 godparent first names and surname partly not settled.",
+   "passes": [
+    "1"
+   ]
+  },
+  "130": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 40,
+   "last": 46,
+   "pages": "124",
+   "note": "Entry 40 year written across the born and baptised columns (186 and 4), born 26 March baptised 27; the house is a village of another parish (parish S. Jacobi, Nro 81), the baptiser a canon and parish priest Ignatius Vinski; father Tomljanović and mother's maiden name Tomljanović (watch list), the lj a looped ligature. Entry 41 father Paganetto (near-name of Paganetti in entry 18 of image 126). Entry 42 illegitima, mother only, an interlined word after her name not settled. Entry 43 mother's maiden name Franciskini written Franceskini (watch list), baptiser Haušek, a religion professor. Entry 44 baptised the day of birth by the midwife Anna Trinajstić, child died at once, the observations cell records it and is signed Ant. Kriškovič; godparents cell holds only a 0-like sign. Entry 45 godparents cell smudged and partly read. Entry 46 has a later-hand note on the death of the child as adult, 20 August 1937, in the child cell, born day 22 written over another figure. Entry numbers 40 to 46 run on from 39 with no overwriting. Entry 40 baptiser, entry 45 and 46 baptisers are clergy of the cathedral and gymnasium, not the cooperator.",
+   "passes": [
+    "1"
+   ]
+  },
+  "131": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 47,
+   "last": 51,
+   "pages": "125",
+   "note": "Entry numbers 47 to 51 run on from 46. Entry 47 is illegitimate but the parents cell names the father (Antonius Škrgatić, a practicant in the magistracy) and his signed Croatian declaration of paternity, with two witnesses, fills the observations cell; a note signed Ig Vinsky, canon and parish priest, below it records that the child was legitimated by the marriage of 11 February 1866. Entry 48 godparent Dorothea Zubrinić (watch list), later-hand note on the child's marriage in 1903. Entry 51 illegitimate, mother Angelica Berković (Berković or Perković, the first letter weighed, read as B), parents named as her own father Nicolaus and mother Juliana. Baptisers: Kriškovič (47), Kargačin as gymnasium professor (48), Krainčević (49, 50), Vinsky (51). The right page edge carries a printed archive note (bleed through, text of another page visible). The right page godparents cells of 49 and 50 are partly read.",
+   "passes": [
+    "1"
+   ]
+  },
+  "132": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 52,
+   "last": 57,
+   "pages": "126",
+   "note": "Entry numbers 52 to 57 run on from 51, born and baptised dates run on in order. Entry 52 mother Jacoba nata Prpić (watch list, first letter a looped capital read as P), a pencil and ink note of a later hand under the row (a death, 29 November 1930, and words not settled). Entry 53 godparents cell has a struck-out man's name and one godmother. Entry 55 baptised day written over another figure. Baptisers: Kriškovič (52, 53, 55, 56), Krainčević (54, 57). A round stamp-like smudge stands in the observations column at entry 52 on the right page; the printed archive note about bleed through is on the right page edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "133": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 58,
+   "last": 63,
+   "pages": "127",
+   "note": "Entries 58-63, 26 May to 9 June 1864; entry 59 carries a later-hand Croatian note, entry 60 a struck-out and interlined father's name, entry 63 a struck-out godparents line; a printed scanner note on the right edge says the text of the other page shows through; an ink blot beside entry 61 on the right page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "134": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 64,
+   "last": 68,
+   "pages": "128",
+   "note": "Entries 64-68, 9 to 23 June 1864; entry 65 and 66 godparents and baptiser cells carry heavy signatures; entry 66 born 12 June follows entry 65 born 16 June; entry 68 number blotted; a printed scanner note on the right edge says the text of the other page shows through.",
+   "passes": [
+    "1"
+   ]
+  },
+  "135": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 69,
+   "last": 73,
+   "pages": "129",
+   "note": "Entries 69-73, 22 June to 3 July 1864; entry 71 is an adult baptism (a man from Africa, born 1852, baptised 3 July 1864, house Veglia, baptised by the Coadjutor Bishop); entry 72 number written over another figure; entry 73 born date under an ink blot and out of order (29 June after 1 July); a printed scanner note on the right edge says the text of the other page shows through.",
+   "passes": [
+    "1"
+   ]
+  },
+  "136": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 74,
+   "last": 79,
+   "pages": "130",
+   "note": "Entries 74-79, 3 to 24 July 1864; entry 74 has the parents written in the legitimacy column and the word legitimus in the parents column; entry 76 gives two confessions in the religion cell (father Ref. helv. Conf., mother rom cath); entry 77 born 8 July follows entry 76 born 11 July; entry 79 carries a later-hand note of 1934 under the child's name; a printed scanner note on the right edge says the text of the other page shows through.",
+   "passes": [
+    "1"
+   ]
+  },
+  "137": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 80,
+   "last": 86,
+   "pages": "131",
+   "note": "Printed page number 131 on the right page only; left page number not visible. Entries 80-86, August 1864. Entries 85 and 86 share one observations cell.",
+   "passes": [
+    "1"
+   ]
+  },
+  "138": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 87,
+   "last": 92,
+   "pages": "132",
+   "note": "Printed page number 132 on the right page; entries 87-92, August to early September 1864. Watch-list names on this opening: Franceskini (entry 88 mother), Orešković (entry 91 mother), Dobrilla (godparents of 87 and 92).",
+   "passes": [
+    "1"
+   ]
+  },
+  "139": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 93,
+   "last": 97,
+   "pages": "133",
+   "note": "Printed page number 133 on the right page. Entries 93-97, September 1864. Entry 96 baptised by a different priest than the coop. loci.",
+   "passes": [
+    "1"
+   ]
+  },
+  "140": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 98,
+   "last": 102,
+   "pages": "134",
+   "note": "Printed page number 134 on the right page. Entries 98-102, September to early October 1864. Entry 99 has its dates written as a sentence; entries 99 and 102 are baptised by the parish priest, entry 101 by a different priest than the coop. loci. Watch-list name on this opening: Dobrilla (godparent, entry 101).",
+   "passes": [
+    "1"
+   ]
+  },
+  "141": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 103,
+   "last": 107,
+   "pages": "135",
+   "note": "Printed page number 135 on the right page. Entries 103-107, September to October 1864. Several parents here are military or civil officials, and the godparents of entries 104 and 107 are written in Italian and Croatian.",
+   "passes": [
+    "1"
+   ]
+  },
+  "142": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 108,
+   "last": 113,
+   "pages": "136",
+   "note": "Printed page number 136 on the right page. Entries 108-113, October to November 1864. Entry 110 mother's surname begins with an F-like or P-like initial (near-name of Perković: unsettled, see conf).",
+   "passes": [
+    "1"
+   ]
+  },
+  "143": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 114,
+   "last": 119,
+   "pages": "137",
+   "note": "Printed page number 137 on the right page. Entries 114-119, late October to mid November 1864. Watch-list name on this opening: Dobrilla (godparent, entry 116). Several godparents and baptisers sign in hurried hands.",
+   "passes": [
+    "1"
+   ]
+  },
+  "144": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 120,
+   "last": 126,
+   "pages": "138",
+   "note": "Printed page number 138 on the right page. Entries 120-126, late November to early December 1864. Watch-list names on this opening: Tomljanović (entry 121 father and mother's maiden name, and the godparents 'Tomlja' and Maria Tomljanović), Papić (godfather of entry 123).",
+   "passes": [
+    "1"
+   ]
+  },
+  "145": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 127,
+   "last": 133,
+   "pages": "139",
+   "note": "Printed page number 139 on the right page only; left page number not visible. Entries 127-133, December 1864. Entry 129 has no year written. Entry 132 godparents cell is in a different hand from the register's scribe, overwritten by long flourishes, and its baptiser cell holds a signature; entry 133 baptiser cell carries an extra unread scrawl.",
+   "passes": [
+    "1"
+   ]
+  },
+  "146": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 1,
+   "last": 5,
+   "pages": "140",
+   "note": "Printed page number 140 on the right page only; left page number not visible. A new year opens: the year 1865 heads the opening (18 at the top of the left page, 65 at the top of the right page) and the entry numbers restart at 1 (entries 1-5, 29 Dec 1864 to 4 Jan 1865). Later-hand notes under the child names of entries 3 and 5.",
+   "passes": [
+    "1"
+   ]
+  },
+  "147": {
+   "kind": "entries",
+   "entries": 5,
+   "first": null,
+   "last": 10,
+   "pages": "141",
+   "note": "Printed page number 141 on the right page only; left page number not visible. Entries 6-10 (the number of the first is blotted out), 4-15 January 1865. Reverse-side show-through is visible across the right page. Godparents cells of entries 8 and 10 are in a German-looking hand with flourishes; entries 8, 9 and 10 are baptised by Ignatius Vinsky.",
+   "passes": [
+    "1"
+   ]
+  },
+  "148": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 11,
+   "last": 16,
+   "pages": "142",
+   "note": "Printed page number 142 on the right page only. Entries 11-16, 15 Jan to 12 Feb 1865 (year 1865 heads the opening; numbering restarted at 1 on image 146). Entry 13 carries a later-hand note across its cells; entry 14 month overwritten.",
+   "passes": [
+    "1"
+   ]
+  },
+  "149": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 17,
+   "last": 21,
+   "pages": "143",
+   "note": "Printed page number 143 on the right page only. Entries 17-21, 1865 (9 or 8 Feb to 28 Feb, baptised to 5 Mar). Entries 19, 20 godparents and entry 19 baptiser are written in signature style. Entry 19 has no year in either date cell.",
+   "passes": [
+    "1"
+   ]
+  },
+  "150": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 22,
+   "last": 28,
+   "pages": "144",
+   "note": "Entries 22-28, March 1865; printed page number 144 on the right page. Entry 28 has no house number written. Dates: the year 1865 is written under Martii across the two date columns for 23 and 25-28; entries 22 and 24 have no year.",
+   "passes": [
+    "1"
+   ]
+  },
+  "151": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 29,
+   "last": 34,
+   "pages": "145",
+   "note": "Entries 29-34, March-April 1865; printed page number 145 on the right page. Entries 32, 33 and 34 each have a first number written and struck through above the number that stands (31, 32, 33 struck). Entry 34 is a foundling (proles inventa) and its baptism date reads April 1864 among 1865 entries.",
+   "passes": [
+    "1"
+   ]
+  },
+  "152": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 35,
+   "last": 40,
+   "pages": "146",
+   "note": "Entries 35-40, April 1865; printed page number 146 on the right page. Each of the six entry numbers has a lower figure struck through above it. Entry 35 has its parents and legitimacy cells written into each other's columns; below entry 40 the table rows are blank.",
+   "passes": [
+    "1"
+   ]
+  },
+  "153": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 41,
+   "last": 47,
+   "pages": "147",
+   "note": "Entries 41-47, April-May 1865; printed page number 147 on the right page. A different hand writes this opening (Latin forms with Croatian given names such as Ivan, Mate; the baptiser changes from Joannes Ivšić to Josephus Šnidarsić). Each entry number has a lower figure struck through above it (40 to 46).",
+   "passes": [
+    "1"
+   ]
+  },
+  "154": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 48,
+   "last": 54,
+   "pages": "148",
+   "note": "Entries 48-54, May-June 1865; each number has a lower figure struck through above it; right-page crop shows faint ghost text from the other side of the leaf, not recorded",
+   "passes": [
+    "1"
+   ]
+  },
+  "155": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 55,
+   "last": 60,
+   "pages": "149",
+   "note": "Entries 55-60, 31 May to 30 June 1865; each number has a lower figure struck through above it; faint ghost text from the other side of the leaf shows through in the margins and between rows, not recorded",
+   "passes": [
+    "1"
+   ]
+  },
+  "156": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 61,
+   "last": 67,
+   "pages": "150",
+   "note": "Entries 61-67, 1-15 July 1865 (65 born 29 June); each number has a lower figure struck through above it, except 67 where the struck 66 sits below; faint ghost text from the other side of the leaf shows in several cells, not recorded",
+   "passes": [
+    "1"
+   ]
+  },
+  "157": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 68,
+   "last": 75,
+   "pages": "151",
+   "note": "Entries 68-75, 13 July to 17 August 1865; entries 68-72 and 74-75 carry a lower figure struck through beside the standing number (73 carries none); ink blots in the godparents cell of 69; faint ghost text from the other side of the leaf in several cells, not recorded",
+   "passes": [
+    "1"
+   ]
+  },
+  "158": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 76,
+   "last": 82,
+   "pages": "152",
+   "note": "Entries 76-82, 15 August to 3 September 1865; each number carries a struck lower figure; entry 82 has a legitimation note across the foot of the left page",
+   "passes": [
+    "1"
+   ]
+  },
+  "159": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 83,
+   "last": 87,
+   "pages": "153",
+   "note": "Entries 83-87, 30 August to 10 September 1865; each number carries a struck lower figure; entry 84 godparents are a German-language officer party in a flourished hand; entry 86 was baptised by the parish priest of Sti Francis",
+   "passes": [
+    "1"
+   ]
+  },
+  "160": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 88,
+   "last": 94,
+   "pages": "154",
+   "note": "Entries 88-94, 11 September to 8 October 1865; each number carries a struck lower figure; entry 91 has a twentieth-century registrar's note in the observations",
+   "passes": [
+    "1"
+   ]
+  },
+  "161": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 95,
+   "last": 100,
+   "pages": "155",
+   "note": "Entries 95-100, 11 to 30 October 1865; no struck lower figures beside the numbers; entry 97 baptised by a midwife in danger of death, entry 99 child died at once, entry 100 has a 1941 later-hand note",
+   "passes": [
+    "1"
+   ]
+  },
+  "162": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 101,
+   "last": 106,
+   "pages": "156",
+   "note": "Entries 101-106, 29 October to 19 November 1865; no struck lower figures beside the numbers; later-hand notes of 1956 (entry 101) and 1927 (entry 103) in the observations; the right page carries the printed number 156",
+   "passes": [
+    "1"
+   ]
+  },
+  "163": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 107,
+   "last": 112,
+   "pages": "157",
+   "note": "Entries 107-112, 17 to 26 November 1865; no struck lower figures; numbers 110 and 112 have a middle digit overwritten or under an ink blot; entry 108 is illegitimate with a later legitimation note and an acknowledgement in the observations; 1914 later-hand note on entry 109; the right page carries the printed number 157",
+   "passes": [
+    "1"
+   ]
+  },
+  "164": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 113,
+   "last": 119,
+   "pages": "158",
+   "note": "Entries 113-119, 22 November to 3 December 1865; numbers 113 to 118 have the middle digit inked over, read from the sequence; no struck lower figures; entry 116 born day under an ink blot; entry 119 has no year in the date cells; two later-hand notes (1942 on 114, 1932 on 116); the right page carries the printed number 158",
+   "passes": [
+    "1"
+   ]
+  },
+  "165": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 120,
+   "last": 124,
+   "pages": "159",
+   "note": "Entries 120-124, 1 to 10 December 1865; no struck lower figures; 120 legit ending blotted; 123 born month overwritten (Novembris with Decembris written below) and the godparents written in another hand; 124 religion cell empty under an ink smear across the top of the parents cell; right page printed number 159",
+   "passes": [
+    "1"
+   ]
+  },
+  "166": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 125,
+   "last": 131,
+   "pages": "160",
+   "note": "Entries 125-131, 3 to 23 December 1865; no struck figures; entries 126, 127 and 128 have no year in either date cell and their day figures carry a raised a; 131 baptised by the midwife in danger of death, child died; 128 and 129 godparent cells are in a hurried hand; right page printed number 160",
+   "passes": [
+    "1"
+   ]
+  },
+  "167": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 132,
+   "last": 4,
+   "pages": "161",
+   "note": "Entry 132 closes 1865; a large year heading 18 / 66 (left page 18, right page 66.) spans a full row band; the entry numbers then restart at 1 for 1866 (entries 1-4, 1 to 7 January 1866); entry 1 carries a Croatian acknowledgement of paternity that begins in the heading band; entry 3 born 23 December 1865 and baptised 6 January 1866; right page printed number 161",
+   "passes": [
+    "1"
+   ]
+  },
+  "168": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 5,
+   "last": 10,
+   "pages": "161-162",
+   "note": "Entries 5-10, 5 to 17 January 1866; entries 5, 7, 8 and 9 have no year in their date cells; entry 6 has Josephus Mihovilić bajulus written in the legit cell and struck through, and a large ink loop across its religion and parents cells; a heavily struck stub numbered 11 stands at the foot of the left page with no entry written; mirror-writing bleed-through from the back of the leaf shows in the observation column and is not read; right page printed number 162",
+   "passes": [
+    "1"
+   ]
+  },
+  "169": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 11,
+   "last": 16,
+   "pages": "162-163",
+   "note": "Entries 11-16, 23 January to 8 February 1866; entries 12, 14, 15 and 16 have no year in their date cells; entry 16 baptised day 8 shares the month of the born date; day figures on 11, 13 and 14 carry a raised a; compressed religion marks on 11, 13 and 14; mirror-writing bleed-through from the back of the leaf shows in the observation column and is not read; right page printed number 163",
+   "passes": [
+    "1"
+   ]
+  },
+  "170": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 17,
+   "last": 22,
+   "pages": "163-164",
+   "note": "Entries 17-22, 4 to 25 February 1866; entry 22 has no year in its date cells and is the last entry on the page, the rest of the left and right pages below it is blank; day figures on 18, 19 and 20 carry a raised a; entry 18 has Laurentius written above Joannes; a pencil later-hand note above the child on entry 21; an ink blot in the observation cell of the second row and mirror-writing bleed-through from the back of the leaf, neither read; right page printed number 164",
+   "passes": [
+    "1"
+   ]
+  },
+  "171": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 23,
+   "last": 29,
+   "pages": "164-165",
+   "note": "Entries 23-29, 22 February to 11 March 1866; the last entry on the page, blank below on both pages; the born and baptised day figures carry a raised a on most rows; entry 24 has the final 6 of the year gone over heavily and Mathia struck out under a written-above anna in the mother's name; entry 25 has a struck word above Februarii; entry 26 has Februarii struck under Martii and a later-hand figure above the child; mirror-writing bleed-through from the back of the leaf in the child and observation cells is not read; right page printed number 165",
+   "passes": [
+    "1"
+   ]
+  },
+  "172": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 29,
+   "last": 34,
+   "pages": "165-166",
+   "note": "Entries 29-34, 10 to 27 March 1866; the first entry is numbered 29, the same number as the last entry of image 171 (Josephus Augustinus), both born 10 and baptised 11 March 1866, and the numbers then run on 30-34, nothing renumbered; entry 30 is born 8 March after entry 29 born 10 March; day figures on 32 and 33 carry a raised a; a later-hand ink note under the child on entry 32; the godparents' cell on entry 31 has a large flourish loop and a small second hand line below the names, partly read; mirror-writing bleed-through in the observation cells is not read; right page printed number 166",
+   "passes": [
+    "1"
+   ]
+  },
+  "173": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 35,
+   "last": 40,
+   "pages": "166-167",
+   "note": "Entries 35-40, 25 March to 6 May 1866; the day figures on 35 to 39 carry a raised a; entry 36 is born 25 March after entry 35 born 26 March; religion cell empty on entries 38 and 39; entry 37 has a pencil later-hand note above the child; entry 37 godparents' cell is written fast and partly read; entry 40 is baptised by the parish priest, not a cooperator; mirror-writing bleed-through in the observation cells is not read; right page printed number 167",
+   "passes": [
+    "1"
+   ]
+  },
+  "174": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 41,
+   "last": 46,
+   "pages": "167-168",
+   "note": "Entries 41-46, 13 May to 2 June 1866; entry 41 has small raised letters over both day figures (not read); entry 44 is born 14 May after entry 43 born 15 May; entry 44 was baptised in necessity by a midwife and the rite completed, written in the observations; entry 45 carries a 1891 correction in the observations naming the father as Susanj, not Ferentić, signed by the parish priest; entry 46 has the word Gemelli in the observations (written again on 175 entry 47, the twin entry with the same parents and dates); entry 41 godparents' cell has a struck word at the top left; entries 41 and 43 are baptised by the parish priest (41) and by a cooperator who adds a second office (43); mirror-writing bleed-through is not read; right page printed number 168",
+   "passes": [
+    "1"
+   ]
+  },
+  "175": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 47,
+   "last": 52,
+   "pages": "168-169",
+   "note": "Entries 47-52, 28 May to 10 June 1866; entry 47 has the same parents, born and baptised dates as entry 46 of image 174 and the word Gemelli in the observations (both are written Gemelli), so the page itself shows them as twins; entry 49 is born 31 May after entry 48 born 2 June, and entry 52 is born 28 May after entry 51 born 8 June; entry 50 has a lighter note under the child's name; entry 47 godparents have a struck word; entries 47 to 52 godparents' cells are written fast in several hands and partly read; entry 52 is baptised by Stephanus Sabljak, a canon and gymnasium director; mirror-writing bleed-through is not read; right page printed number 169",
+   "passes": [
+    "1"
+   ]
+  },
+  "176": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 53,
+   "last": 59,
+   "pages": "169-170",
+   "note": "Entries 53-59, 13 June to 1 July 1866; entry 54 is illegitimate and born 27 June is written after baptised 24 June; entries 56 and 57 are twins, one parents cell and one religion cell span both rows and the word Gemelli stands in the left margin beside both and across both observation rows; entry 58 has the mother's name struck and a second name written under it in lighter ink; entry 59 has the parents text in the legitimacy column and the word legitimas in the parents column; entry 58 carries a later-hand note in the observations; right page printed 170; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "177": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 60,
+   "last": 65,
+   "pages": "170-171",
+   "note": "Entries 60-65, 24 June to 17 July 1866; the page ends with entry 65 and its lower part is empty; entry 60 has two religions written (a Reformed father, Helvetic confession, and Roman Catholic) and later-hand notes with a round stamp partly over them; entry 64 carries a note of the legitimation by marriage dated 24 February 1867 under the entry on the left page and a later-hand confession of paternity in the observations signed with crosses; right page printed 171; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "178": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "170-171",
+   "note": "Second exposure of image 177 (the same opening, entries 60-65, right page printed 171), taken a little lower and tighter so the table sits shifted; checked against 177 entry by entry (numbers 60-65, dates, children, parents, godparents, baptisers and both later-hand observation notes agree); no new entry; rows are in image 177",
+   "passes": [
+    "1"
+   ]
+  },
+  "179": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 66,
+   "last": 71,
+   "pages": "171-172",
+   "note": "Entries 66-71, 12 July to 5 August 1866; entry 70 has its number written over a heavy blot and its born day figure blotted; entry 71 has the child's name in lighter ink with a later-hand note above it; entry 68 godparents are written in Italian; the observations column is empty on the whole page; the page ends with entry 71 and the rest is empty; right page printed 172; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "180": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 72,
+   "last": 78,
+   "pages": "172-173",
+   "note": "Entries 72-78, 30 July to 29 August 1866; all houses Segnia; the observations column is empty on the whole page (a black ink dot sits at the header); entries 72, 76 and 77 have dates written with a raised a; entries 74 and 76 godparent cells are partly in German and only partly legible; a stray ink spot lies above the legitimacy cell of 78 and a smear above that of 76; right page printed 173; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "181": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 79,
+   "last": 84,
+   "pages": "173-174",
+   "note": "Entries 79-84, 26 August to 19 September 1866; entry 80 (Tomljanović, Gregorius and Martha) has house Cupina, all the rest Segnia; entry 81 has the later-style line mercator written between the lines of the parents cell and a home-baptism note in the observations column, its baptiser is the abbot; entry 82 is illegitimate with only the mother named; entry 84 is marked Gemellus (twin) in the observations column, the twin should be the first entry of the next image; a pencil figure sits above the left page header; right page printed 174; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "182": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 85,
+   "last": 89,
+   "pages": "174-175",
+   "note": "Entries 85-89, 18 to 21 September 1866 (born), baptised 19 to 26 September; all houses Segnia; the observations column is empty on the whole page; entry 85 is the twin of entry 84 on the previous image (84 carries Gemellus in its observations cell, 85 carries nothing there; same parents, same born and baptised days); entry 88 is born 16 September after entries born 20 September; the words recte Morić at the foot of the parents cell of entry 89 are in a lighter ink, perhaps a later hand; entry 89 is the last on the page and the lower part of the page is empty; right page printed 175; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "183": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 90,
+   "last": 96,
+   "pages": "175-176",
+   "note": "Entries 90-96, September to 14 October 1866; all houses Segnia; entry 90's born day is written over a blot with a raised tia and a double underline; entry 92 has no year in its date cells and an overwritten et in the child and date cells; entries 92, 93 and 94 have no year; entry 93 is Simeon Proph:; entry 95 is a home baptism the day of birth with the ceremonies supplied on the 14th (observations note); entry 91 is born 24 September after entry 90 whose born day is unsettled; entries 90 and 91 are baptised by a gymnasium professor, entry 92 by Petrus Car[…] Pater Spiritualis; right page printed 176; entry 96 is the last on the page; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "184": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 97,
+   "last": 104,
+   "pages": "176-177",
+   "note": "Entries 97-104, 16 to 28 October 1866 (born), baptised 17 to 28 October; all houses Segnia; observations empty except entries 103 and 104 (home baptisms by indult of the Ordinariate); entry 102 is illegitimate: the mother Anna is written as daughter of Matthaeus and a Tomljanović mother of the parish Krivipút, with no father given; entry 101 has a three-word child name; entries 103 and 104 are baptised by Michael Manzoni (abbas, custos et canonicus) and Ferdinandus Babić (canonicus et secretarius episcopalis); the last two godparent cells carry titled people (a gymnasium professor, a Theologiae Professor); right page printed 177; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "185": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 105,
+   "last": 111,
+   "pages": "177-178",
+   "note": "Entries 105-111, born 28 October to 23 November 1866, baptised 1 to 26 November; houses Segnia, entry 106 Segnia with a house number; entry 105 carries a long later-hand Croatian note of 1893 in its observations cell (a change of surname allowed), and its parents cell has Serdoc written small above the line with a struck word beside it; entry 106 was baptised by a midwife and the child died at once (godparents cell empty); entry 109 born 14 November stands after 108 born 14 November; entry 110 is born 13 November after 109 born 14; entries 105 and 106 are baptised the same day or one day later; right page printed 178; mirror-writing bleed-through is not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "186": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 112,
+   "last": 119,
+   "pages": "178-179",
+   "note": "right page printed 179; mirror bleed-through ignored; born dates run 30 Nov down to 26 Nov under baptised dates 1 to 2 Dec (112-116)",
+   "passes": [
+    "1"
+   ]
+  },
+  "187": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 120,
+   "last": 2,
+   "pages": "179-180",
+   "note": "right page printed 180; between entry 123 and the new numbering at 1 there is a year heading written across the opening, 18 on the left page in the parents column and 67. on the right page in the house column, no entry and no number; entries restart at 1 for 1867; later-hand note above the child of the first 1867 entry; mirror bleed-through ignored",
+   "passes": [
+    "1"
+   ]
+  },
+  "188": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 3,
+   "last": 10,
+   "pages": "180-181",
+   "note": "right page printed 181; entries 3-10 continue the numbering that restarted at 1 on image 187; born dates 6 and 7 (11 and 12 Jan) come after 5 (15 Jan); the 7 of the year is blotted on entries 4 and 5; mirror bleed-through ignored",
+   "passes": [
+    "1"
+   ]
+  },
+  "189": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 11,
+   "last": 17,
+   "pages": "181-182",
+   "note": "Entry 17 born 2 Feb is out of order after 16 born 4 Feb; 11/13/14 days carry a raised a; entry 12 number followed by a dot-like mark; entry 11 obs holds a later-hand note of about four lines in Croatian, signature unread; entry 17 godparents cell heavily scrawled and blotted",
+   "passes": [
+    "1"
+   ]
+  },
+  "190": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 18,
+   "last": 23,
+   "pages": "182-183",
+   "note": "Born 2 Feb at 19 and 20 after 18 born 5 Feb (out of order); raised a on the day numbers of 18-20; 19 number followed by a raised mark; 21 born day 9 looks written over; 21 house is Sibinj Nro 83 with E Kriviput in obs; bleed-through of the next leaf shows in the obs column and beside the entries, ignored",
+   "passes": [
+    "1"
+   ]
+  },
+  "191": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 24,
+   "last": 30,
+   "pages": "183-184",
+   "note": "Born dates run on in order except 25-27 (16, 17, 16 Feb); raised a on the day numbers of 26; ink spots above number 29; bleed-through of the next leaf in the obs column ignored; right-page obs cells empty",
+   "passes": [
+    "1"
+   ]
+  },
+  "192": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 31,
+   "last": 37,
+   "pages": "184-185",
+   "note": "Born dates run on in order; entry 31 ink spot beside the child name; right-page obs cells empty (bleed-through of the next leaf only); baptiser Coop: loci is heavily overwritten by flourishes at 31 and 33",
+   "passes": [
+    "1"
+   ]
+  },
+  "193": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 38,
+   "last": 44,
+   "pages": "185-186",
+   "note": "entry 38 has a later-hand note across both pages (left page under child and parents, right page over house and godparents); entry 41 has a later-hand note above its child and legit cells; 25 in the entry 38 born date carries a raised mark; entry 44 baptised cell holds only the day 6",
+   "passes": [
+    "1"
+   ]
+  },
+  "194": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 45,
+   "last": 50,
+   "pages": "186-187",
+   "note": "entries 45-47 are tall rows; entry 46 obs holds a word written vertically across the obs cells of entries 46 and 47; entry 48 number under a heavy ink blot, entry 48 has a later-hand note on the right page; entry 50 has two later-hand pencil notes in the child and legit cells; baptised cells of entries 48, 49, 50 hold only the day",
+   "passes": [
+    "1"
+   ]
+  },
+  "195": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 51,
+   "last": 56,
+   "pages": "187-188",
+   "note": "entries 51-56; faint bleed-through writing and ink spray over several cells (child, legit and obs cells of entries 52-53); a different, more ornate hand writes entries 53-54 and the godparents of 53-54; obs cells all empty, one small ink mark at the right edge of the obs cell of entry 51; born day 13 of entry 54 stands after 23 of entry 53",
+   "passes": [
+    "1"
+   ]
+  },
+  "196": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 57,
+   "last": 63,
+   "pages": "188-189",
+   "note": "entries 57-63; obs cells all empty (bleed-through only); entry 59 has no year in either date cell; the year of entry 57 is written across the column rule (18 in the born cell, 67 in the baptised cell); entry 60 baptised cell holds only the day",
+   "passes": [
+    "1"
+   ]
+  },
+  "197": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 64,
+   "last": 69,
+   "pages": "189-190",
+   "note": "printed right page 190; entry 67 is twins in one entry; entry 69 number written with the 6 in the C shape",
+   "passes": [
+    "1"
+   ]
+  },
+  "198": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 70,
+   "last": 75,
+   "pages": "190-191",
+   "note": "printed right page 191; last row of the opening ends at the foot of the page",
+   "passes": [
+    "1"
+   ]
+  },
+  "199": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 76,
+   "last": 81,
+   "pages": "191-192",
+   "note": "printed right page 192; the obs cells hold only faint show-through of the verso",
+   "passes": [
+    "1"
+   ]
+  },
+  "200": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 82,
+   "last": 87,
+   "pages": "192-193",
+   "note": "printed right page 193 (top right); the obs cells of 83 to 87 hold only show-through of the verso",
+   "passes": [
+    "1"
+   ]
+  },
+  "201": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 88,
+   "last": 94,
+   "pages": "193-194",
+   "note": "Show-through of the verso in the obs column, not transcribed. 89 house cell holds a name and number. 93 obs is a modern-pen later-hand note.",
+   "passes": [
+    "1"
+   ]
+  },
+  "202": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 95,
+   "last": 101,
+   "pages": "194-195",
+   "note": "Printed 195 on the right page. 97 is born 29 Sept, before 95 and 96 (born 3 and 2 Oct). Obs column holds only show-through of the verso (not transcribed) apart from 100.",
+   "passes": [
+    "1"
+   ]
+  },
+  "203": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 102,
+   "last": 108,
+   "pages": "196",
+   "note": "printed page 196 (right page); entries 102-108, 22 Oct to 19 Nov 1867. Observationes column has arithmetic jottings at the top. Table is Latin: Nomen/Cognomen/Conditio of parents in one cell, Patrinorum in the right page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "204": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 109,
+   "last": 114,
+   "pages": "197",
+   "note": "printed page 197 (right page); entries 109-114, 14 Nov to 1 Dec 1867. Later-hand notes in the Observationes column on 109 and 111.",
+   "passes": [
+    "1"
+   ]
+  },
+  "205": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 115,
+   "last": 120,
+   "pages": "198",
+   "note": "printed page 198 (right page); entries 115-120, 20 Nov to 21 Dec 1867.",
+   "passes": [
+    "1"
+   ]
+  },
+  "206": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 121,
+   "last": 127,
+   "pages": "199",
+   "note": "printed page 199 (right page); entries 121-127, 16 to 29 Dec 1867. Twins 122-123 marked gemelli in margin.",
+   "passes": [
+    "1"
+   ]
+  },
+  "207": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 128,
+   "last": 3,
+   "pages": "200",
+   "note": "printed page 200 (right page); entries 128-130 (30 Dec 1867) then year heading 1868 (ornamental \"1 8 | 6 8.\", no entry) and entries 1-3 of 1868 (numbering restarts), 1 to 12 Jan 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "208": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 4,
+   "last": 9,
+   "pages": "201",
+   "note": "printed page 201 (right page); entries 4-9 of 1868, 12 to 26 Jan 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "209": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 10,
+   "last": 16,
+   "pages": "202",
+   "note": "printed page 202 (right page); entries 10-16, 27 Jan to 1 Mar 1868. Entry 10 carries later notes (a 1930 pencil note, a 1871 legitimation) and a signed declaration.",
+   "passes": [
+    "1"
+   ]
+  },
+  "210": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 17,
+   "last": 22,
+   "pages": "203",
+   "note": "printed page 203 (right page); entries 17-22, 27 Feb to 11 Mar 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "211": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 23,
+   "last": 29,
+   "pages": "204",
+   "note": "printed page 204 (right page); entries 23-29, 13 Mar to 6 Apr 1868. Faint show-through text at the foot of the right page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "212": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 30,
+   "last": 36,
+   "pages": "205",
+   "note": "printed page 205 (right page); entries 30-36, 11 Apr to 3 May 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "213": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 37,
+   "last": 44,
+   "pages": "206",
+   "note": "printed page 206 (right page); entries 37-44, 2 to 23 May 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "214": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 45,
+   "last": 50,
+   "pages": "207",
+   "note": "printed page 207 (right page); entries 45-50, 21 May to 3 June 1868.",
+   "passes": [
+    "1"
+   ]
+  },
+  "215": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 51,
+   "last": 57,
+   "pages": "208",
+   "note": "printed page 208 (right page); entries 51-57, 30 May to 28 June 1868; the numbers of entries 54-57 are each written over a struck number one lower (53, 54, 55, 56).",
+   "passes": [
+    "1"
+   ]
+  },
+  "216": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 58,
+   "last": 65,
+   "pages": "209",
+   "note": "printed page 209 (right page); entries 58-65, 28 June to 8 August 1868; the numbers of all eight entries are each written over a struck number one lower (57 to 64).",
+   "passes": [
+    "1"
+   ]
+  },
+  "217": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 66,
+   "last": 71,
+   "pages": "210",
+   "note": "printed page 210 (right page); entries 66-71, 16 August to 8 September 1868; the numbers of all six entries are written over a struck number one lower (65 to 70).",
+   "passes": [
+    "1"
+   ]
+  },
+  "218": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 72,
+   "last": 79,
+   "pages": "211",
+   "note": "printed page 211 (right page); entries 72-79, 4 September to 5 October 1868; the numbers of all eight entries are written over a struck number one lower (71 to 78); entry 79 has an earlier birth date than 76-78.",
+   "passes": [
+    "1"
+   ]
+  },
+  "219": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 80,
+   "last": 86,
+   "pages": "212",
+   "note": "printed page 212 (right page); entries 80-86, 1 October to 1 November 1868; the numbers of all seven entries are written over a struck number one lower (79 to 85); 81 has born 1 Oct, before 80 (5 Oct), and 83 born 16 Oct follows 82 born 15 Oct.",
+   "passes": [
+    "1"
+   ]
+  },
+  "220": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 87,
+   "last": 93,
+   "pages": "213",
+   "note": "printed page 213 (right page); entries 87-93, 28 October to 15 November 1868; every number is written over a struck number one lower (86 to 92); born dates out of order: 88 (30 Oct) and 89 (28 Oct) follow 87 (1 Nov), 91 (3 Nov) follows 90 (4 Nov), 93 (5 Nov) follows 92 (7 Nov).",
+   "passes": [
+    "1"
+   ]
+  },
+  "221": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 94,
+   "last": 100,
+   "pages": "214",
+   "note": "printed page 214 (right page); entries 94-100, 6 to 22 November 1868; entry 94 written over a struck 93, entry 95 over a struck 94; entries 96-100 are numbered in grey ink below a black number one lower (95-99), taken here as the grey figure; the next opening (image 222) begins with 100 struck and 101; the observations cell is empty throughout apart from ink specks and one flourish in entry 95.",
+   "passes": [
+    "1"
+   ]
+  },
+  "222": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 101,
+   "last": 107,
+   "pages": "215",
+   "note": "printed page 215 (right page); entries 101-107, 21 to 29 November 1868; entries 101-103 and 107 have the black number struck and the grey number written below, entries 104-106 have the grey number under an unstruck black number one lower (103-105), taken here as the grey figure; later-hand notes of 1929 and 1931 in the observations cell of entry 104; the right page shows faint show-through of the writing on the other side of the leaf.",
+   "passes": [
+    "1"
+   ]
+  },
+  "223": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 108,
+   "last": 114,
+   "pages": "216",
+   "note": "printed page 216 (right page); entries 108-114, 30 November to 20 December 1868; entries 109-112 are numbered in grey ink beside a black number one lower (108-111; for 112 the grey figure stands above), taken here as the grey figure; entry 108 is written below a struck 107; entry 109 has no year written in its dates; the right page shows faint show-through from the other side of the leaf; the later-entry dates run on in order.",
+   "passes": [
+    "1"
+   ]
+  },
+  "224": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 115,
+   "last": 119,
+   "pages": "217",
+   "note": "printed page 217 (right page); entries 115-119, 22 to 31 December 1868, the last entries of the year 1868; only five entries on this opening; the right page shows faint show-through from the other side of the leaf; heavy ink speckling over entry 118.",
+   "passes": [
+    "1"
+   ]
+  },
+  "225": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 1,
+   "last": 6,
+   "pages": "218",
+   "note": "printed page 218 (right page); entries 1-6, 7 to 24 January 1869; the first entries of the year 1869: the numbering starts again at 1 and 1869 is written as a large heading over the first row (18 on the left page and 69 on the right page); entries 2, 3 and 5 have no year in their dates; the right page shows reversed show-through from the other side of the leaf; heading of the table is printed as on earlier openings.",
+   "passes": [
+    "1"
+   ]
+  },
+  "226": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 7,
+   "last": 11,
+   "pages": "219",
+   "note": "printed page 219 (right page); entries 7-11, 22 January to 4 February 1869; a slip SMEARED INK / RAZLIVENA TINTA (a filming target text) is attached at the lower right of the right page outside the table; a later note of 1870 about entry 9 is written across the left page and a signed statement fills the observations cell of entry 9; a pencil note of 1928 stands under entry 11; the Tomljanović name appears three times and Papp once; five entries only on this opening.",
+   "passes": [
+    "1"
+   ]
+  },
+  "227": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 12,
+   "last": 18,
+   "pages": "220",
+   "note": "printed page 220 (right page); entries 12-18, 29 January to 15 February 1869; the later death-style note of 1936 stands under entry 16 in the left page; the Tomljanović name appears five times (entries 13 and the godparents), Oresković once, Dobrilla once, Zubranić once; entry 17 has an open born day; the baptised cell of entry 14 is empty (the baptism is written in the born cell).",
+   "passes": [
+    "1"
+   ]
+  },
+  "228": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 19,
+   "last": 24,
+   "pages": "221",
+   "note": "entries 19-24 of 1869 (printed page 221); Perpić in entries 19, 22, 23; Tomljanović in entry 24; entry 22 carries a later correction note of 1890 in the observations cell",
+   "passes": [
+    "1"
+   ]
+  },
+  "229": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 25,
+   "last": 31,
+   "pages": "222",
+   "note": "entries 25-31, March and April 1869 (printed page 222); no watch-list surname; entry 27 carries a 1925 later note, entry 29 a later note signed G. Matković",
+   "passes": [
+    "1"
+   ]
+  },
+  "230": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 32,
+   "last": 38,
+   "pages": "223",
+   "note": "entries 32-38, April and May 1869 (printed page 223); Tomljanović (mother) at 33; near-name dobril[…] at 32; entry 37 born day out of order after entry 36",
+   "passes": [
+    "1"
+   ]
+  },
+  "231": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 39,
+   "last": 44,
+   "pages": "224",
+   "note": "entries 39-44, April and May 1869 (printed page 224); entry 40 has its born date written out in words and a faint later pencil note of 1890; Tomljanović (mother) at 43",
+   "passes": [
+    "1"
+   ]
+  },
+  "232": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 45,
+   "last": 51,
+   "pages": "225",
+   "note": "entries 45-51, June 1869 (printed page 225); entry 47 baptised earlier than born as written; entry 48 has no baptism day and a large flourish; Cerpić (father) at 48; a 1966 later-hand note at 51",
+   "passes": [
+    "1"
+   ]
+  },
+  "233": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 52,
+   "last": 58,
+   "pages": "226",
+   "note": "entries 52-58, June and July 1869 (printed page 226); entry 54 born day out of order; entry 57 godparents in a hurried hand; no watch-list surname read; Bl[…] godfather at 53 left unsettled",
+   "passes": [
+    "1"
+   ]
+  },
+  "234": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 59,
+   "last": 64,
+   "pages": "227",
+   "note": "entries 59-64, July 1869 (printed page 227); entry 62 born day out of order; entry 61 baptiser is a long self-description of a canon, only partly settled; no watch-list surname read",
+   "passes": [
+    "1"
+   ]
+  },
+  "235": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 65,
+   "last": 70,
+   "pages": "228",
+   "note": "entries 65-70, August 1869 (printed page 228); entry 65 names twins in one entry (Gemelli); Tomljanović (father) and Šojat (mother) at 65; entry 70 born day out of order, later-hand death note of 1947 and 1948",
+   "passes": [
+    "1"
+   ]
+  },
+  "236": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 71,
+   "last": 77,
+   "pages": "229",
+   "note": "entries 71-77, August and September 1869 (printed page 229); Tomljanović (father and mother) at 73; Zubrinić (mother) at 76; Benić at 71; canon baptiser at 75; entry 77 born day out of order",
+   "passes": [
+    "1"
+   ]
+  },
+  "237": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 78,
+   "last": 83,
+   "pages": "230",
+   "note": "entries 78-83, September and October 1869 (printed page 230); 78 illegitimate, later legitimated by the marriage of 21 November 1869; 80 and 81 born days out of order; canon baptiser at 81",
+   "passes": [
+    "1"
+   ]
+  },
+  "238": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 84,
+   "last": 90,
+   "pages": "231",
+   "note": "entries 84-90, October and November 1869 (printed page 231); Perpić (father) at 84; Tom-Ganović godparents at 84 and 88; born day out of order at 85; interlinear caupo at 86 and 87",
+   "passes": [
+    "1"
+   ]
+  },
+  "239": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 91,
+   "last": 97,
+   "pages": "232",
+   "note": "entries 91-97, November 1869 (printed page 232); Perpić at 97 (father and both godparents), Tomljanović (mother) at 97; Perpić at 84 is on the page before; born day out of order at 93; entry 94 legitimacy cell struck and spattered",
+   "passes": [
+    "1"
+   ]
+  },
+  "240": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 98,
+   "last": 104,
+   "pages": "233",
+   "note": "entries 98-104, November and December 1869 (printed page 233); Perpic (father) and Tomljanović (mother) at 104; later legitimation note of 1873 at 102; Croatian later notes at 98 and 102; born day out of order at 100; possible Žubrinić godfather at 103 unsettled",
+   "passes": [
+    "1"
+   ]
+  },
+  "241": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 105,
+   "last": 1,
+   "pages": "234",
+   "note": "entries 105-108, December 1869 (printed page 234), then the year heading 1870 (18 on the left page, 70 on the right page, large) and entry 1 of 1870; Tom-Gánović at 108 and 1; Perpić (mother) at 1; later note of 1911 at the foot of the left page; the numbering restarts at 1 for 1870",
+   "passes": [
+    "1"
+   ]
+  },
+  "242": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 2,
+   "last": 7,
+   "pages": "235",
+   "note": "entries 2-7, January 1870 (printed page 235); the 1870 numbering at 2-7; two later notes in the observations cell at entry 3 (marriage 1896 and a death extract); legitimacy cell struck at 2; Blečić godparent at 2; born day out of order at 7; no watch-list surname on the page",
+   "passes": [
+    "1"
+   ]
+  },
+  "243": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 8,
+   "last": 14,
+   "pages": "236",
+   "note": "entries 8-14, January and February 1870 (printed page 236); entry 12 written by the Praepositus (Mantković-like name, Praepositus of the cathedral) with a home-baptism note; later note of 1936 above entry 10; Tom-Gánović godparent at 11; legitimacy cell empty at 14; born day out of order at 12; Pertić (father) at 8; Blanina (mother) at 12",
+   "passes": [
+    "1"
+   ]
+  },
+  "244": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 15,
+   "last": 20,
+   "pages": "237",
+   "note": "entries 15-20, February-March 1870 (printed page 237); Tomljanović and Sojat at 16; Perpić (mother) at 20; home baptism by leave of the Ordinary at 17; later note of 1930 at 20; born day out of order at 17; no year written in the born and baptised cells at 20",
+   "passes": [
+    "1"
+   ]
+  },
+  "245": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 21,
+   "last": 26,
+   "pages": "238",
+   "note": "entries 21-26, March 1870 (printed page 238); parents written in the legitimacy column at 23 and 24; Tom Gánović at 25 (father, mother, godmother); later note about 1951 at 24; ink smear in the Observationes cell at 21; born day out of order at 23 and 26",
+   "passes": [
+    "1"
+   ]
+  },
+  "246": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 27,
+   "last": 32,
+   "pages": "239",
+   "note": "entries 27-32, March-April 1870 (printed page 239); Tom Gánović forms at 28 and 31; Zubran[…] godfather at 29; ditto marks in the religion cell at 30 and 31; no year in the dates at 32; born day out of order at 30 and 32",
+   "passes": [
+    "1"
+   ]
+  },
+  "247": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 33,
+   "last": 38,
+   "pages": "240",
+   "note": "entries 33-38, April 1870 (printed page 240); Dob[…]il-la candidate (Dobrila) at 33; Tom Ganović godmother at 34 and Tom-Ganović father at 35; born day out of order at 35; later note 29.v.1.906 at 38; ditto marks in the religion cells from 34",
+   "passes": [
+    "1"
+   ]
+  },
+  "248": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 39,
+   "last": 45,
+   "pages": "241",
+   "note": "entries 39-45, April-May 1870 (printed page 241); Croatian legitimation note at 40 (different hand) and pencil note in the child cell; Tom-Gánović forms at 39 (middle unsettled), 42, 45 (father unsettled) and 42 godparents; Zubr[…]-nii at 43; Blaze-vić godmother line at 45; entry 44 in a different hand, later note + 1924; born day out of order at 40 and 44",
+   "passes": [
+    "1"
+   ]
+  },
+  "249": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 46,
+   "last": 50,
+   "pages": "242",
+   "note": "entries 46-50, May-June 1870 (printed page 242); entry 46 in a different German-hand entry with unsettled baptised day, father and godparents; no watch surname; Italianate godparent spellings at 48",
+   "passes": [
+    "1"
+   ]
+  },
+  "250": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 51,
+   "last": 57,
+   "pages": "243",
+   "note": "entries 51-57, June-July 1870 (printed page 243); heavy Tom/Tomljanović/Ganović material at 51-53, the stroke after Tom left unsettled where joined; pasted 1913 slip over entry 54 obs; 57 born 14 July after 56 born 16 July",
+   "passes": [
+    "1"
+   ]
+  },
+  "251": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "243",
+   "note": "second exposure of the opening of image 250 (printed p.243, entries 51-57, same readings); the pasted slip over entry 54 is turned back here so the 1891 Latin note beneath it was read and entered in the row for image 250 entry 54 (obs, baptiser); no new rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "252": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 58,
+   "last": 63,
+   "pages": "244",
+   "note": "entries 58-63, July-August 1870 (printed page 244); 62 has Blažević as father (WATCH); 63 godmother Anna uxor francisci Perpić; 61 has a 1968 later-hand note in obs and struck corrected dates; 59 and 62 baptiser a canonicus whose surname is not settled; 63 number crossed by the left ruling",
+   "passes": [
+    "1"
+   ]
+  },
+  "253": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 64,
+   "last": 69,
+   "pages": "245",
+   "note": "entries 64-69, August-September 1870 (printed page 245); 64 born day unsettled; 66 father a telegraph official; 68 later-hand 1948 notes; 69 Tom Ganović / Tom[…]anović WATCH",
+   "passes": [
+    "1"
+   ]
+  },
+  "254": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 70,
+   "last": 76,
+   "pages": "246",
+   "note": "entries 70-76, September 1870 (printed page 246); 72 and 73 are twins (Gemelli) sharing every cell but name and godparents; 74 Tomljanović father, mother and godmother (WATCH); 75 and 76 have later-hand pencil notes of 1931 and 1935 (76 also names Pulanić as a widow); 71 Pulanić father",
+   "passes": [
+    "1"
+   ]
+  },
+  "255": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 77,
+   "last": 82,
+   "pages": "247",
+   "note": "entries 77-82, September 1870 (printed page 247); 81 Franciscus Tom-Ganović father, mother Perpić, godmother Tom Ganović (WATCH); 82 father Perpić and mother Perpić (WATCH), godparents cell in two hands with Terese Tom[…]; out-of-order born dates at 79 and 80",
+   "passes": [
+    "1"
+   ]
+  },
+  "256": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 83,
+   "last": 88,
+   "pages": "248",
+   "note": "entries 83-88, September-October 1870 (printed page 248); 83 godparents a noble couple and baptiser an abbot and parish priest; 86 Tomljanović father (WATCH) and a later pencil note; 87 father first name corrected (Andreas struck, Jacobus written); no religion on 88; 85 godmother To[…]maević",
+   "passes": [
+    "1"
+   ]
+  },
+  "257": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 89,
+   "last": 94,
+   "pages": "249",
+   "note": "entries 89-94, October 1870 (printed page 249); 93 godmother Anna Perpić (WATCH) and a 1950 later-hand note; 90 later note 1943; 94 born 14 after 93 born 15 (out of order)",
+   "passes": [
+    "1"
+   ]
+  },
+  "258": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 95,
+   "last": 101,
+   "pages": "250",
+   "note": "entries 95-101, October to 2 November 1870 (printed page 250); 96 parents Tom / Ganović and godparents Tomlja- / nović, Tom Ganović (WATCH); 100 a 1954 later-hand note; 101 religion cell empty; born dates out of order at 98-101",
+   "passes": [
+    "1"
+   ]
+  },
+  "259": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 102,
+   "last": 107,
+   "pages": "251",
+   "note": "entries 102-107, November 1870 (printed page 251); 105 legit cell repeats the child names and a 1954 later-hand note; 107 godmother Carolina Perp[…] (WATCH); 107 born 18 after 106 born 19 (out of order)",
+   "passes": [
+    "1"
+   ]
+  },
+  "260": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 108,
+   "last": 113,
+   "pages": "252",
+   "note": "entries 108-113, 22 November to 6 December 1870 (printed page 252); 111 born 20 after 110 born 22 (out of order); 108 and 110 surnames with letters not settled; no watch-list surname on this opening",
+   "passes": [
+    "1"
+   ]
+  },
+  "261": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 114,
+   "last": 119,
+   "pages": "253",
+   "note": "entries 114-119, 6 December to 18 December 1870 (printed page 253); 118 born 15 after 117 born 16 and 119 born 4 after 118 born 15 (out of order); watch rows: 116 (Ores- / ković, father) and 117 (Tomljanović-form: father, mother, godparents)",
+   "passes": [
+    "1"
+   ]
+  },
+  "262": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 1,
+   "last": 5,
+   "pages": "254",
+   "note": "first opening of 1871: a large 1871 is written in figures across the top band of both pages (1 8 on the left, 7 1 on the right) and the numbering restarts at entry 1; entries 1-5, 1 to 22 January 1871 (printed page 254); 4 born 7 after 3 born 11 (out of order); watch rows 3 (father [...]oj[...]t, mother Perpić, godparents Tom[...]a- / nović) and 5 (Ferko[...]ić, near-name)",
+   "passes": [
+    "1"
+   ]
+  },
+  "263": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 6,
+   "last": 11,
+   "pages": "255",
+   "note": "entries 6-11, 19 January to 13 February 1871 (printed page 255); a new scribal hand begins at entry 6; 6 born 19 after 5 born 22 (out of order); watch rows 8 (mother Perpić) and 10 (Ferke[...]ić, near-name)",
+   "passes": [
+    "1"
+   ]
+  },
+  "264": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 12,
+   "last": 17,
+   "pages": "256",
+   "note": "entries 12-17, 12 February to 5 March 1871 (printed page 256); 13 born 8 after 12 born 12 and 17 born 27 after 16 born 28 (out of order); entry 13 has a different baptiser (gymnasium professor) and empty religion; watch rows 16 and 17 (Tomljanović form in father, mother and godparents)",
+   "passes": [
+    "1"
+   ]
+  },
+  "265": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 18,
+   "last": 23,
+   "pages": "257",
+   "note": "entries 18-23, 26 February to 26 March 1871 (printed page 257); out of order: 19 born 23 after 18 born 26, 22 born 9 after 21 born 12; entry 20 has the Angiolichio obs note, entry 22 a different baptiser and entry 23 is illegitimate with a six-line acknowledgement in the obs cell; watch rows 18 (godparent Papić), 19 (godparents second line, Bevandić trap), 20 (mother Zubr[...]nić, Žubrinić form), 21 (father Per[...]ić, Perpić form; mother Tom[...]anović)",
+   "passes": [
+    "1"
+   ]
+  },
+  "266": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 24,
+   "last": 30,
+   "pages": "258",
+   "note": "entries 24-30 including twins 28-29 (7 rows), 27 March to 13 April 1871 (printed page 258); out of order: 25 born 26 after 24 born 27, 30 born 30 March after 29 born 11 April; entries 28 and 29 are twins numbered 28 — 29 with shared cells; entry 24 month overwritten, entry 25 and 26 born-day blots; empty religion at 25 and 30; entries 25, 26 and 30 have different baptisers; no watch-list surname read",
+   "passes": [
+    "1"
+   ]
+  },
+  "267": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 31,
+   "last": 37,
+   "pages": "259",
+   "note": "entries 31-37 (7 rows), 13 April to 14 May 1871 (printed page 259); dates in order; 31 has a different, titled baptiser (Klaušek), 34 Th. Matić gymnasium director, 35 Hippolytus Dominicus; 33 illegitimate with a later-hand 1888 legitimation note in obs; empty obs elsewhere",
+   "passes": [
+    "1"
+   ]
+  },
+  "268": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 38,
+   "last": 45,
+   "pages": "260",
+   "note": "entries 38-45 (8 rows), 21 May to 14 June 1871 (printed page 260); out of order: 45 born 4 June after 44 born 11 June; 41 born month struck and overwritten; 38 and 45 have the later or different features noted; 38 illegitimate, 45 later-hand 1955 civil death note and different baptiser (Casparus Matkovic, canon); empty religion at 45",
+   "passes": [
+    "1"
+   ]
+  },
+  "269": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 46,
+   "last": 52,
+   "pages": "261",
+   "note": "Opening with the printed Latin table (Numerus currens, Annus Mensis Dies, Baptisati, Parentum, Locus domicilii, Patrinorum, Baptisantis, Observationes). Page number 261 handwritten at top right of the right page; none seen on the left page. Year 1871 (June). Observationes column empty throughout (only bleed-through ghosts of the facing leaf). House column gives only Segnia (no number).",
+   "passes": [
+    "1"
+   ]
+  },
+  "270": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 53,
+   "last": 59,
+   "pages": "262",
+   "note": "Page number 262 handwritten at top right of the right page. Year 1871 (June-July). Entry 59 baptised by a different priest (Casparus Mathkovic, Canonicus junior). Later-hand notes in Observationes at entries 53 (Croatian, 1952) and 58 (Latin, 1874, Zagreb) and a note in Croatian at entry 54. A small cross above the child name at 59 and a heavy ink stroke across the legit/parents cells at 59.",
+   "passes": [
+    "1"
+   ]
+  },
+  "271": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 60,
+   "last": 65,
+   "pages": "263",
+   "note": "Page number 263 handwritten at top right of the right page. Year 1871 (July-August). Entries 61 and 62 are written in different hands from 60 and 63-65 (entry 62 and its baptiser Ant. Perkovic). Entry 61 is a large entry for an officer's child with a long Observationes declaration. Pencil figure 6 below the left page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "272": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 66,
+   "last": 70,
+   "pages": "264",
+   "note": "Page number 264 handwritten at top right of the right page. Year 1871 (August-September). Only five entries; entry 66 has a very tall cell with large blank space. Hands change between entries (66-68 different from 69-70). Observationes cells empty.",
+   "passes": [
+    "1"
+   ]
+  },
+  "273": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 71,
+   "last": 76,
+   "pages": "265",
+   "note": "Page number 265 handwritten at top right of the right page. Year 1871 (September). A pencil later-hand note in Observationes at entry 73. Entry 75 is baptised by Ignatius Vinsky (Abbas S: Crucis in Valle Segniensi).",
+   "passes": [
+    "1"
+   ]
+  },
+  "274": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 77,
+   "last": 83,
+   "pages": "266",
+   "note": "Page number 266 handwritten at top right of the right page (a quotation mark before it). Year 1871 (September-October). Entries 78 and 79 are twins (gemelli written in the margin beside the two child names), sharing one large cell for dates, parents, house, baptiser. Baptiser changes to Antonius Perkovich at 78-79, 80 and 83. Entry 83 uses abbreviated months (7bris, 8bris) and is out of date order (born 30 September after entries dated October). Observationes empty throughout.",
+   "passes": [
+    "1"
+   ]
+  },
+  "275": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 84,
+   "last": 90,
+   "pages": "267",
+   "note": "Entries 84-90; printed page number at top right is a hand-written figure whose last digit is a looped stroke (runs on from 266, read as 267); entry 87 dates out of order (born day smudged); later-hand notes at 84 and 85",
+   "passes": [
+    "1"
+   ]
+  },
+  "276": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 91,
+   "last": 97,
+   "pages": "267",
+   "note": "Entries 91-97; printed page number reads 267 as on image 275 (hand-written, last digit a 7 written like a looped 2), so images 275 and 276 carry the same figure; entry 92 born day unsettled (1 or 7); baptisers change from Perkovich (91-93, 96, 97) to Bosnić (94, 95)",
+   "passes": [
+    "1"
+   ]
+  },
+  "277": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 98,
+   "last": 102,
+   "pages": "268",
+   "note": "Entries 98-102, the last on the page; printed page number 268; later-hand figure + 1908 above the child's name at 98; the month word at 100 is overwritten (N struck over); baptiser alternates Hieronymus [..]agar, Perkovich, Matković, Vinsky, Bosnić",
+   "passes": [
+    "1"
+   ]
+  },
+  "278": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 103,
+   "last": 108,
+   "pages": "269",
+   "note": "Entries 103-108; printed page number 269; entry 104 year written below the dates (pushed down); entry 107 has a ruled line inside the religion cell; later-hand note at 108",
+   "passes": [
+    "1"
+   ]
+  },
+  "279": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 1,
+   "last": 6,
+   "pages": "270",
+   "note": "Entries 1-6, the first of 1872 (numbering restarts at 1; 1871 ended at 108 on image 278); printed page number 270; new table page with printed headings; the first ruled row holds the year 1872 written one digit per column (1, 8, 7, 2 across the Legit, Parentes, Locus and Patrinorum columns); entry 3 has a later-hand note in the Nomen and legit cells; entry 4 has a small mark in Observationes",
+   "passes": [
+    "1"
+   ]
+  },
+  "280": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 7,
+   "last": 13,
+   "pages": "271",
+   "note": "Entries 7-13 (numbering runs on from 6 on image 279); printed page number 271; a round stain at the top left of the left page; entry 13 is the last entry on this opening",
+   "passes": [
+    "1"
+   ]
+  },
+  "281": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 14,
+   "last": 20,
+   "pages": "272",
+   "note": "Entries 14-20 (numbering runs on from 13 on image 280); printed page number 272 (271 on image 280); entry 20 is the last on this opening",
+   "passes": [
+    "1"
+   ]
+  },
+  "282": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 21,
+   "last": 27,
+   "pages": "273",
+   "note": "Entries 21-27, last row of the printed table page 273; 1872 February-March. Entry 21 has a struck-through first word in the parents cell; entry 25 carries a later-hand note under the child name.",
+   "passes": [
+    "1"
+   ]
+  },
+  "283": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 28,
+   "last": 33,
+   "pages": "274",
+   "note": "Entries 28-33, printed page 274, March 1872 (entry 32 born February). Entry 30 baptised by the parish priest; entry 31 illegitimate with a later-hand note; entry 32 a German-style noble couple.",
+   "passes": [
+    "1"
+   ]
+  },
+  "284": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 34,
+   "last": 39,
+   "pages": "275",
+   "note": "Entries 34-39, printed page 275, end of the table page: a zig-zag cancelling line is drawn under entry 39. Entries 37-39 are in a different hand. Born dates run out of order at 37-39 (30, 26, 25 March) while baptism dates run on.",
+   "passes": [
+    "1"
+   ]
+  },
+  "285": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 40,
+   "last": 46,
+   "pages": "276",
+   "note": "Entries 40-46, printed page 276, April 1872. Entry 44 carries a father's acknowledgment in Croatian in the observations column; entry 43's observations begin the same formula and are smeared out; entry 45 is twins written in a different layout.",
+   "passes": [
+    "1"
+   ]
+  },
+  "286": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 47,
+   "last": 53,
+   "pages": "277",
+   "note": "Entries 47-53 of 1872; page number printed 277 (7 written as a looped 2); all entries read at zoom",
+   "passes": [
+    "1"
+   ]
+  },
+  "287": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 54,
+   "last": 61,
+   "pages": "278",
+   "note": "Entries 54-61; 57 and 58 are twins (gemelli) sharing one parents cell and one right-page row; page number printed 278; all entries read at zoom",
+   "passes": [
+    "1"
+   ]
+  },
+  "288": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 62,
+   "last": 68,
+   "pages": "279",
+   "note": "printed page number reads 229 (a 7 written like a 2); 67 has a stamp [...]RED U SENJU over the later-hand note",
+   "passes": [
+    "1"
+   ]
+  },
+  "289": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 69,
+   "last": 75,
+   "pages": "280",
+   "note": "",
+   "passes": [
+    "1"
+   ]
+  },
+  "290": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 76,
+   "last": 81,
+   "pages": "281",
+   "note": "",
+   "passes": [
+    "1"
+   ]
+  },
+  "291": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 82,
+   "last": 87,
+   "pages": "282",
+   "note": "",
+   "passes": [
+    "1"
+   ]
+  },
+  "292": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 88,
+   "last": 94,
+   "pages": "283",
+   "note": "",
+   "passes": [
+    "1"
+   ]
+  },
+  "293": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 95,
+   "last": 102,
+   "pages": "284",
+   "note": "",
+   "passes": [
+    "1"
+   ]
+  },
+  "294": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 103,
+   "last": 109,
+   "pages": "285",
+   "note": "Observationes column holds only show-through of the facing leaf; no entry in it.",
+   "passes": [
+    "1"
+   ]
+  },
+  "295": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 110,
+   "last": 116,
+   "pages": "286",
+   "note": "Seven entries 110-116; 112 legit cell ends in a blot; 113 born day printed as 16a die",
+   "passes": [
+    "1"
+   ]
+  },
+  "296": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 117,
+   "last": 122,
+   "pages": "287",
+   "note": "Six entries 117-122; entry 122 number written twice (small 122 above the ruled line and a large overwritten 122 in the cell); 119 has a faint pencil line above the parents",
+   "passes": [
+    "1"
+   ]
+  },
+  "297": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 123,
+   "last": 4,
+   "pages": "28[…]",
+   "note": "Six entries: 123-124 of 1872 and 1-4 of 1873 (numbering restarts at 1 for 1873; a large 18 on the left page and 73 on the right page stand in a ruled band between 124 and 1 as a year heading, not an entry). Printed page number at top right read as 28, 8 or overwritten, 9; not settled.",
+   "passes": [
+    "1"
+   ]
+  },
+  "298": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 5,
+   "last": 11,
+   "pages": "289",
+   "note": "Seven entries 5-11 of 1873. Printed page number at top right read 289 (flourished 8). Observationes column holds only show-through from the facing leaf. Born days out of order: 5 (10 Jan) before 6 and 7 (6 Jan), 10 (7 Jan) after 9 (20 Jan).",
+   "passes": [
+    "1"
+   ]
+  },
+  "299": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 12,
+   "last": 18,
+   "pages": "290",
+   "note": "Opening with entries 12-18 of 1873, printed page 290 (right page). Scan overlay stamp RAZLIVENA TINTA on the right page is an annotation, not content. Observationes column otherwise holds only show-through from the facing leaf.",
+   "passes": [
+    "1"
+   ]
+  },
+  "300": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 19,
+   "last": 26,
+   "pages": "291",
+   "note": "Opening with entries 19-26 of 1873, printed page 291 (right page). A faint small show-through of the facing leaf is visible in the Observationes column.",
+   "passes": [
+    "1"
+   ]
+  },
+  "301": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 27,
+   "last": 32,
+   "pages": "292",
+   "note": "Opening with entries 27-32, printed page 292 (right page). A round stamp (…URED U SENJU) sits on the Observationes cell of entry 29. Show-through of the facing leaf in several cells.",
+   "passes": [
+    "1"
+   ]
+  },
+  "302": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 33,
+   "last": 39,
+   "pages": "293",
+   "note": "Opening with entries 33-39, printed page 293 (right page). Entry numbers continue from image 301. The right-page house column word is Kempote at 33 and 39. Later-hand notes on 38 (parents cell and Observationes).",
+   "passes": [
+    "1"
+   ]
+  },
+  "303": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 40,
+   "last": 47,
+   "pages": "294",
+   "note": "Opening with entries 40-47, printed page 294 (right page). The entry-number column reads 46 twice (fifth and sixth rows), then 47; the numbers are copied as written and not changed. House word Segnia throughout except St Jakob (41) and Spasovac (43).",
+   "passes": [
+    "1"
+   ]
+  },
+  "304": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 48,
+   "last": 53,
+   "pages": "295",
+   "note": "entries 48-54 on printed page 295; the entry number 53 is written twice (sixth and seventh rows), copied as written; the born date of the seventh row (24 April) is out of order after 28 April",
+   "passes": [
+    "1"
+   ]
+  },
+  "305": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 55,
+   "last": 61,
+   "pages": "2[…]",
+   "note": "entries 55-61 (seven); printed page number overwritten, only the 2 settled; numbers run on from 53,53 of image 304 (54 not written); 61 carries a later-hand note in the Nomen cell",
+   "passes": [
+    "1"
+   ]
+  },
+  "306": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 62,
+   "last": 68,
+   "pages": "297",
+   "note": "entries 62-68 (seven); numbers run on from 61; printed page 297",
+   "passes": [
+    "1"
+   ]
+  },
+  "307": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 69,
+   "last": 76,
+   "pages": "298",
+   "note": "entries 69-76 (eight); numbers run on from 68; the Observationes column shows only the show-through (mirror writing) of the verso, not read as content; the born year of entry 71 is written 1872 among 1873 entries",
+   "passes": [
+    "1"
+   ]
+  },
+  "308": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 77,
+   "last": 83,
+   "pages": "299",
+   "note": "entries 77-83; printed page number shows a struck 300. beside 299; ink blot covers part of the godparents cell in 77; 80 carries a legitimation note written across the Nomen, legit and parents cells; 81 has a later-hand note above the child's name; a smeared-ink overlay stamp on the scan is an annotation, not content",
+   "passes": [
+    "1"
+   ]
+  },
+  "309": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 84,
+   "last": 88,
+   "pages": "300",
+   "note": "entries 84-88 (entry 88's number is lost under an ink blot and the cell is left empty; 88 is inferred only in this ledger line from the run of numbers); 87's second digit is a bold 7 written over another figure; ink blots beside 84 and 88; smeared-ink overlay stamp is an annotation",
+   "passes": [
+    "1"
+   ]
+  },
+  "310": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 89,
+   "last": 95,
+   "pages": "301",
+   "note": "entries 89-95; entry 89's first given name is struck through; later-hand note in Croatian on 91; ink blots in 89, 90 and the godparents of 89; smeared-ink overlay stamp is an annotation",
+   "passes": [
+    "1"
+   ]
+  },
+  "311": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 96,
+   "last": 102,
+   "pages": "302",
+   "note": "entries 96-102; later-hand notes on 97 and 102 (and a pencil correction in 102); entry 100 has a scribble through its number and the baptism month is a ditto mark; smeared-ink overlay stamp is an annotation",
+   "passes": [
+    "1"
+   ]
+  },
+  "312": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 103,
+   "last": 107,
+   "pages": "303",
+   "note": "Entries 103-107 on printed page 303. Entry 103 is an illegitimate child whose obs cell holds a Croatian declaration of fatherhood with three signatures. Entry 105 is an adult convert (age 28, Israelite parents) with the Latin baptism sentence written across the born and baptised columns. Entry 107 has a later-hand note under the child's name. Tomljanovic (watch list) in 104 (mother's maiden name, godparents), 106 (both parents). Scribe writes lj as a loop.",
+   "passes": [
+    "1"
+   ]
+  },
+  "313": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 108,
+   "last": 114,
+   "pages": "304",
+   "note": "Entries 108-114 on printed page 304 (last digit of the page number written open, read as 4 from the run 303, 304). Entry 109 born day overwritten. Entry 111 has a different layout (Latin sentence style, year added in pencil, baptism place named). Tomljanovic (watch list) in 110 (father and mother), 112 (father; godmother Anna), 110 godparent Catharina; near-names Bianchini, Nikšić, Župan, Lenac. Scribe writes lj as a loop; v as o in navalis. Overlay stamp SMEARED INK RAZLIVENA TINTA lies on the right margin, not content.",
+   "passes": [
+    "1"
+   ]
+  },
+  "314": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 115,
+   "last": 121,
+   "pages": "305",
+   "note": "Entries 115-121 on printed page 305. Watch list: Perpić (father, entry 118, as Perpić first letter flourished, read Perpić b) and Sojat (mother, entry 118, diacritic over S not settled) and Perpić as godfather in 118 (Stephan Per- / pić, first name overwritten); Tomljanović (father, 116). Near-names Lenac, Butković, Žanić, Parac, Obrotmann, Skiljan, Matković. Later-hand notes in obs of 119 (corrections, signature) and 121 (death 1952 in Bakar, civil registrar's extract). Entry 117 has day and baptism day without 'a'.",
+   "passes": [
+    "1"
+   ]
+  },
+  "315": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 122,
+   "last": 127,
+   "pages": "306",
+   "note": "page 306 printed top right; entries 122-127; six entries; baptisers Bosnić and Kocmut",
+   "passes": [
+    "1"
+   ]
+  },
+  "316": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 128,
+   "last": 133,
+   "pages": "307",
+   "note": "page 307 printed top right; entries 128-133; six entries; baptisers Bosnić and Kocmut; the right edge carries a stamp RAZLIVENA TINTA, not content",
+   "passes": [
+    "1"
+   ]
+  },
   "317": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 134,
+   "last": 1,
+   "pages": "308",
+   "note": "page 308 printed top right; entries 134-138 of 1873 and entry 1 of 1874; the year 1874 is written as a header across both pages ('18' in the parents column, '74.' in the house column) at the top of the last row; numbering restarts at 1; a stamp RAZLIVENA TINTA at the right margin is not content",
+   "passes": [
+    "1"
+   ]
+  },
+  "318": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 2,
+   "last": 7,
+   "pages": "309",
+   "note": "page 309 printed top right; entries 2-7 of 1874; baptisers Bosnić, Kocmut and Matković; a stamp RAZLIVENA TINTA at the right margin is not content",
+   "passes": [
+    "1"
+   ]
+  },
+  "319": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 8,
+   "last": 13,
+   "pages": "310",
+   "note": "page 310 printed top right; entries 8-13; baptisers Matković, Bosnić, Kargan[…] (Prof. gym.) and Vinský; stamp RAZLIVENA TINTA at the right margin is not content",
+   "passes": [
+    "1"
+   ]
+  },
+  "320": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 14,
+   "last": 19,
+   "pages": "311",
+   "note": "page 311 printed top right; entries 14-19; first Jan 1874 entries continue the year numbering that restarted at 1 on image 317",
+   "passes": [
+    "1"
+   ]
+  },
+  "321": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 20,
+   "last": 24,
+   "pages": "312",
+   "note": "page 312 printed top right; entries 20-24; entry 22 runs on across the page break of the table into a long note under it on the left page",
+   "passes": [
+    "1"
+   ]
+  },
+  "322": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 25,
+   "last": 31,
+   "pages": "313",
+   "note": "page 313 printed top right; entries 25-31; births not in date order but baptisms are (entry 29 born 4 Feb, entry 31 born 7 Feb); two long later-hand notes in Observationes (entry 26 adoption note of 1924, entry 30 death note of 1959)",
+   "passes": [
+    "1"
+   ]
+  },
+  "323": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 32,
+   "last": 38,
+   "pages": "314",
+   "note": "page 314 printed top right; entries 32-38; births not in date order on 35-36 and 37-38 but baptisms are; two later-hand notes in Observationes (entry 34 correction of house, entry 35 marriage 1929 and death 1961)",
+   "passes": [
+    "1"
+   ]
+  },
+  "324": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 39,
+   "last": 44,
+   "pages": "315",
+   "note": "page 315 printed top right; entries 39-44; later-hand death and baptism-register note in Observationes of entry 40 and name-column note",
+   "passes": [
+    "1"
+   ]
+  },
+  "325": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 45,
+   "last": 50,
+   "pages": "316",
+   "note": "page 316 printed top right; entries 45-50; month of entry 47 corrected on the page; faint grey stamp over name column of entry 46",
+   "passes": [
+    "1"
+   ]
+  },
+  "326": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 51,
+   "last": 57,
+   "pages": "317",
+   "note": "page 317 of the printed numbering; entries 51-57 of 1874, May",
+   "passes": [
+    "1"
+   ]
+  },
+  "327": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 58,
+   "last": 64,
+   "pages": "318",
+   "note": "entries 58-64 of 1874, May to June; births and baptisms in date order",
+   "passes": [
+    "1"
+   ]
+  },
+  "328": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 65,
+   "last": 71,
+   "pages": "319",
+   "note": "entries 65-71 of 1874, June to July; entry 71 born 27 June follows births of 13 July; later-hand notes at entries 65 and 68",
+   "passes": [
+    "1"
+   ]
+  },
+  "329": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 72,
+   "last": 77,
+   "pages": "320",
+   "note": "entries 72-77 of 1874, July to August; watch-list: 72 Blažević, 74 Žubranić, 76 Perković; later-hand note at 73",
+   "passes": [
+    "1"
+   ]
+  },
+  "330": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 78,
+   "last": 84,
+   "pages": "321",
+   "note": "entries 78-84 of 1874, August; births out of date order at 80, 82, 83; later-hand pencil notes at 82 and 83",
+   "passes": [
+    "1"
+   ]
+  },
+  "331": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 85,
+   "last": 91,
+   "pages": "322",
+   "note": "entries 85-91 of 1874, late August to September; births and baptisms in date order except 89 born 5 September before 88 born 10 September; legitimation note of 1881 under entry 91",
+   "passes": [
+    "1"
+   ]
+  },
+  "332": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 92,
+   "last": 97,
+   "pages": "323",
+   "note": "entries 92-97 of 1874, September to October; births and baptisms in date order; entry 93 baptism day blotted",
+   "passes": [
+    "1"
+   ]
+  },
+  "333": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 98,
+   "last": 103,
+   "pages": "324",
+   "note": "entries 98-103 of 1874, late October to early November; baptism dates in order, births not (99 born 28 October before 100 and 101 born 27 October; 102 born 31 October before 103 born 29 October); year digit blotted in entry 99; twins in entry 102; later-hand notes on 98 and 100; diagonal crease and paper repair strips on the right page",
+   "passes": [
+    "1"
+   ]
+  },
+  "334": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 104,
+   "last": 110,
+   "pages": "325",
+   "note": "entries 104-110 of 1874, November; baptism dates in order, births not (109 born 9 November after births of 13 November); entry numbers are pencilled in the left margin; later-hand notes on 105, 106, 107, 109 and 110; ink blots in 109 and 110; paper repair strips and stamps at the right margin of the right page; last image of the part",
+   "passes": [
+    "1"
+   ]
+  },
+  "335": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 111,
+   "last": 116,
+   "pages": "",
+   "note": "Births of Nov-Dec 1874, entries 111-116 (numbering restarts each year). Printed table in Latin. Page number at top right of the right page is cut by the page edge (begins 3; not recorded). Conservation labels REPAIRED DOCUMENT / SMEARED INK on the right edge. Entry 116 carries a later legitimation note of 16 July 1876.",
+   "passes": [
+    "1"
+   ]
+  },
+  "336": {
+   "kind": "entries",
+   "entries": 4,
+   "first": 117,
+   "last": 1,
+   "pages": "327",
+   "note": "Births of Dec 1874 and the start of 1875 (numbering restarts: entry 1 of 1875). Page number 327 at top right. A pasted slip (a baptism certificate of 24 Dec 1874 for Natala, daughter of Blasius Miletić nauta and Maria nata Lukatella, godparents Gasparus Pajeta and Dume, Segnia 25 Dec 1874, signed Josephus Sandrić Parochus Sct. Crucis in Valle Segnensi) covers the right-hand cells of entries 117 and 118. Entry 119 is a Croatian-language later insertion of 1894. Conservation labels on the right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "337": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "327",
+   "note": "Second exposure of the opening of image 336 (same page 327): the pasted slip is turned back, covering the left page's upper half instead and uncovering the right-hand cells of entries 117 and 118, now read and entered under image 336. Entries 119 and 1 are as on 336; no new rows.",
+   "passes": [
+    "1"
+   ]
+  },
+  "338": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 2,
+   "last": 8,
+   "pages": "328",
+   "note": "Births 31 Dec 1874 to 6 Jan 1875, entries 2-8. Page number 328 at top right. Show-through of the reverse side visible in the observations column. SMEARED INK label on the right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "339": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 9,
+   "last": 16,
+   "pages": "329",
+   "note": "Births 29 Dec 1874 to 14 Feb 1875, entries 9-16 (9 and 10 are twins, written in one table row with the numbers 9 and 10 and the child cell 'Ernestus - Ioannes, gemelli'; one right-hand row serves both). Page number 329 at top right. SMEARED INK label on the right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "340": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 17,
+   "last": 25,
+   "pages": "330",
+   "note": "Births 12 Feb to 7 Mar 1875, entries 17-25 (24 and 25 are twins, 'Gemellae' in the observations: one table row with the numbers 24 and 25). Page number 330 at top right. Ink blots over entry 20 (parents) and on the right-hand cells of entry 20. SMEARED INK label on the right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "341": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 26,
+   "last": 33,
+   "pages": "331",
+   "note": "page 331; SMEARED INK label on right edge",
+   "passes": [
+    "1"
+   ]
+  },
+  "342": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 34,
+   "last": 40,
+   "pages": "332",
+   "note": "Page 332 at top right. Round stamp KAT. ZUPNI URED SENJ over the godparents/obs of entry 35. SMEARED INK label on right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "343": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 41,
+   "last": 49,
+   "pages": "333",
+   "note": "Page 333 at top right. Observations column empty on all nine entries. Entries 41-49.",
+   "passes": [
+    "1"
+   ]
+  },
+  "344": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 50,
+   "last": 58,
+   "pages": "334",
+   "note": "Page 334 at top right. Entries 50-58. Later-hand note on entry 57 only.",
+   "passes": [
+    "1"
+   ]
+  },
+  "345": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 59,
+   "last": 67,
+   "pages": "335",
+   "note": "Page 335 at top right. Entries 59-67. SMEARED INK label on right edge. Later-hand pencil note on entry 65 (faint); later-hand note on entry 67 written below the child's name in the name cell.",
+   "passes": [
+    "1"
+   ]
+  },
+  "346": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 68,
+   "last": 73,
+   "pages": "336",
+   "note": "Page number 336 at top right. A loose sheet is laid over the left page and hides the printed Numerus currens column; the entry numbers 68-73 are PENCIL numerals in the margin beside the rows, not the scribe's own. Seven rows, but pencil numbers 68-72 stand at rows 1-5 and 73 at row 7: row 6 (Margaritha Maria) has no number. A sheet also covers the right edge; ghost writing from the adjacent leaf (dates 25-30 Julii 1875) shows through the observations column and is not transcribed. SMEARED INK label on right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "347": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 75,
+   "last": 82,
+   "pages": "337",
+   "note": "Page number 337 at top right. Entries 75-82; the entry before 75 is the sheet-covered opening 346, whose pencil numbers ended at 73 on a seventh row, so number 74 is not seen anywhere (see 346). SMEARED INK label on right edge.",
+   "passes": [
+    "1"
+   ]
+  },
+  "348": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 83,
+   "last": 91,
+   "pages": "338",
+   "note": "Page number 338 at top right. Entries 83-91 follow 82 on image 347. SMEARED INK label on right edge; ink smear over the religion cell of 88 and an ink blot over 89.",
+   "passes": [
+    "1"
+   ]
+  },
+  "349": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 92,
+   "last": 100,
+   "pages": "339",
+   "note": "Page number 339 at top right. Entries 92-100 follow 91 on image 348. A different hand writes this page (Latin 'filius legitimus', Rno Catholici). Entry 100 has its godparents and baptiser cells written out of place: the godparents cell begins with the words Baptisantis nomen and the baptiser cell with Patrinorum.",
+   "passes": [
+    "1"
+   ]
+  },
+  "350": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 101,
+   "last": 106,
+   "pages": "340",
+   "note": "Page number 340 at top right. Entries 101-106 follow 100 on image 349; the hand and the printed date form (11a die Octobris) change from the previous page. Page ends after 106 with an empty ruled space.",
+   "passes": [
+    "1"
+   ]
+  },
+  "351": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 107,
+   "last": 113,
+   "pages": "341",
+   "note": "Entries 107-113 on printed page 341; Latin form with Croatian witness attestation in obs of 110; same hand as 349-350.",
+   "passes": [
+    "1"
+   ]
+  },
+  "352": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 114,
+   "last": 120,
+   "pages": "342",
+   "note": "Entries 114-120 on printed page 342; 115 carries a Croatian acknowledgement of the child by its father with witnesses; 116 and 117 carry later-hand notes.",
+   "passes": [
+    "1"
+   ]
+  },
+  "353": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 121,
+   "last": 1,
+   "pages": "343",
+   "note": "Entries 121-126 of 1875, then a blank row holding only the large year heading 1876 (1 8 on the left page, 7 6 on the right; no entry), then entry 1 of 1876. Numbering restarts at 1 for the new year.",
+   "passes": [
+    "1"
+   ]
+  },
+  "354": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 2,
+   "last": 10,
+   "pages": "344",
+   "note": "Entries 2-10 of 1876 on printed page 344; later-hand notes on 2, 5 and 9 stand in the child cells; entry 7 gives its house as Kriviput; entry 4 gives the birth month as Decembris with baptism on 3 January.",
+   "passes": [
+    "1"
+   ]
+  },
+  "355": {
+   "kind": "entries",
+   "entries": 9,
+   "first": 11,
+   "last": 19,
+   "pages": "345",
+   "note": "Entries 11-19 of 1876; entry 11 carries a later-hand note in the obs cell; entry 17 a faint pencil later-hand note in the child and legitimacy cells; in entry 19 the mother's surname is overwritten with heavy ink and is not read.",
+   "passes": [
+    "1"
+   ]
+  },
+  "356": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 20,
+   "last": 25,
+   "pages": "346",
+   "note": "Entries 20-25 of 1876. Entry 23 is written in faint ink and carries three strokes under its number; entry 22 was baptised at home by the vice-rector under a faculty; entry 23 has a later-hand marriage note (1900); entry 24 gives two religions in the religion column.",
+   "passes": [
+    "1"
+   ]
+  },
+  "357": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 26,
+   "last": 31,
+   "pages": "347",
+   "note": "Entries 26-31 of 1876. The scribe's numbers on rows 27 to 31 are each struck through and corrected up by one (26 to 27, 27 to 28, 28 to 29, 29 to 30, 30 to 31); entry 26's own number is overwritten. Entry 29 has two later notes (a legitimation note on the left page below the entry, and a signed acknowledgement in the obs cell). A white paper slip lies over the lower right corner of the right page.",
+   "passes": [
+    "1"
+   ]
+  },
+  "358": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 32,
+   "last": 38,
+   "pages": "348",
+   "note": "Entries 32-38 of 1876. The printed number column is hidden in the gutter on this opening; the entry numbers are the pencil figures in the left margin (32 to 38), continuing from 31 on image 357. Entry 32 has a later-hand extract note (1913); entry 36 was baptised by a priest other than the usual cooperator; entry 37 carries a later-hand note in the child cell and its baptiser line is smudged over.",
+   "passes": [
+    "1"
+   ]
+  },
+  "359": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 39,
+   "last": 45,
+   "pages": "349",
+   "note": "Entries 39-45 of 1876. Every entry number on the left page is written twice: the old figure struck through (38 to 44) and the corrected figure (39 to 45) beneath it, so the run continues from entry 38 on image 358. Entry 41 is written in a different hand and style and its year is in faint pencil; entry 44 has a later-hand extract note; entry 41 is baptised by a canon, not by the cooperator.",
+   "passes": [
+    "1"
+   ]
+  },
+  "360": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 46,
+   "last": 52,
+   "pages": "350",
+   "note": "Printed page 350 on the right page; every entry number on the left page struck and corrected up by one except 52; entry 49 born 22 March after the earlier 7 May baptism, as written.",
+   "passes": [
+    "1"
+   ]
+  },
+  "361": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 53,
+   "last": 59,
+   "pages": "351",
+   "note": "Printed page 351 on the right page. Entry numbers 53-59 not struck, run on from 52 on image 360. The right-page observations column is empty on all seven rows (only show-through of the next page's entries and a few ink specks).",
+   "passes": [
+    "1"
+   ]
+  },
+  "362": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 60,
+   "last": 66,
+   "pages": "352",
+   "note": "Printed page 352 on the right page. Entry numbers 60-66 run on from 59; none struck. Observations column empty on all seven rows. The godparents cells of entries 60-66 are in several hands, some written by the godparents themselves.",
    "passes": [
     "1"
    ]
   },
   "363": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 67,
+   "last": 73,
+   "pages": "353",
+   "note": "Printed page 353 on the right page. Entry numbers 67-73 run on from 66; none struck. Observations column empty on all seven rows. Entry 72 carries a later-hand death note in the child cell. Godparents cells again in several hands.",
    "passes": [
     "1"
    ]
   },
   "364": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 74,
+   "last": 79,
+   "pages": "354",
+   "note": "Right page 354; all six houses Segnia. Row 1 godparents: second line struck through. Later-hand notes in obs on rows 1, 3 and 6; row 3 has a round office stamp under the note.",
+   "passes": [
+    "1"
+   ]
+  },
+  "365": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 80,
+   "last": 85,
+   "pages": "355",
+   "note": "Right page 355 (printed number top right). A typed-and-handwritten slip is pasted over the godparents, baptiser and obs cells of entry 80 and the top of entry 81's obs cell; the slip is read in obs. Entry 82: a note by the scribe runs across the born/baptised/child/parents cells; copied in obs.",
+   "passes": [
+    "1"
+   ]
+  },
+  "366": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "355",
+   "note": "Second exposure of the opening of image 365 (page 355, entries 80-85), the pasted slip moved to the left so that it covers house and godparents of entry 80 and leaves its baptiser and obs visible. No new entries; entry 80's baptiser and 1925 note and entry 81's first obs line were read here and written on image 365's rows.",
+   "passes": [
+    "1"
+   ]
+  },
+  "367": {
+   "kind": "entries",
+   "entries": 8,
+   "first": 86,
+   "last": 93,
+   "pages": "356",
+   "note": "Entries 91 and 92 are twins (obs Gemelli): one right-page row (house, godparents, baptiser, obs) serves both, copied on both rows. Entry 92 born cell reads d:o and its parents cell holds only a ditto mark.",
+   "passes": [
+    "1"
+   ]
+  },
+  "368": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 94,
+   "last": 98,
+   "pages": "357",
+   "note": "Right page 357. Entry 98: the godparents cell holds signatures and a flourish that runs across two lines. Entry 97: the obs cell holds a Croatian declaration with a signature and two witnesses.",
+   "passes": [
+    "1"
+   ]
+  },
+  "369": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 99,
+   "last": 104,
+   "pages": "358",
+   "note": "right page 358; entry 99 mother's maiden name blank on the page; entry 100 first name Maria struck through; entry 103 a faint pencil word in the house cell, unread",
+   "passes": [
+    "1"
+   ]
+  },
+  "370": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 105,
+   "last": 110,
+   "pages": "359",
+   "note": "pages 359 (right page printed number read as 359); entry 108 under a translucent pasted slip (number, year and lower left-page cells read through it); entry 109 later-hand 1960 note partly read; born dates of 106 and 110 are earlier than the entry before, as written",
+   "passes": [
+    "1"
+   ]
+  },
+  "371": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 111,
+   "last": 116,
+   "pages": "360",
+   "note": "right page 360; ink smudge in the left-page header; entry 113 has a tick mark below its number; faint round smudge in the 114 left-page cell and in the obs cell of 115; 112 born 15 Nov is earlier than 111 (17 Nov), as written",
+   "passes": [
+    "1"
+   ]
+  },
+  "372": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 117,
+   "last": 123,
+   "pages": "361",
+   "note": "right page 361; 118 and 119 are twins sharing one table row (parents, religion, godparents, baptiser and obs written once, copied on both rows); under entry 122 a legitimation note is written across the left page, number column reading N.B.; later hand, small script",
+   "passes": [
+    "1"
+   ]
+  },
+  "373": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 124,
+   "last": 4,
+   "pages": "362",
+   "note": "right page 362; large year heading 18 | 77 (1877) written across the opening between entry 125 and the next entry, no cells; entry numbering restarts at 1 for 1877; entry 1 number partly under an ink blot; entry 3 baptised year and entry 4 baptised day written over; tick mark below number 4; small cross above the child's name in entry 4",
+   "passes": [
+    "1"
+   ]
+  },
+  "374": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 5,
+   "last": 10,
+   "pages": "363",
+   "note": "page 363; entries 5-10; entries 5 and 6 carry later-hand 1959 and 1967-68 notes; entries 7 and 9 born earlier than the entry before; tick mark below number 5",
+   "passes": [
+    "1"
+   ]
+  },
+  "375": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 11,
+   "last": 16,
+   "pages": "363-364 (printed 364 on the right page)",
+   "note": "page 364; entries 11-16 (6 numbers on 5 rows: 12 and 13 are twins on one row); 14 born 7 Feb is earlier than the 12 Feb before it; 12 has a later-hand + 1879 over the child's name; 16 is the Perpić / Sojat entry",
+   "passes": [
+    "1"
+   ]
+  },
+  "376": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 17,
+   "last": 21,
+   "pages": "365",
+   "note": "page 365; entries 17-21; entry 17 baptised 25 Feb a month after birth with a later-hand 1969 note; entry 19 born 10 Feb is earlier than 16 Feb of entry 18; year written before the month in entries 17",
+   "passes": [
+    "1"
+   ]
+  },
+  "377": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 22,
+   "last": 28,
+   "pages": "366",
+   "note": "page 366; entries 22-28; 24 born 12 Mar and 26 born 12 Mar are each earlier than the entry before; 23 has a different baptiser (Georgius […]bel[…] sacerdos); 26 has a later-hand 1961 note; 24 and 28 carry Perpić/Prpić and Tomljanović forms; 24 has a later-hand + above the child's name; 27 has a smudge/stamp mark in the parents cell",
+   "passes": [
+    "1"
+   ]
+  },
+  "378": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 29,
+   "last": 35,
+   "pages": "367",
+   "note": "page 367; entries 29-35; 33 born 25 Feb is far earlier than 32's 1 Apr, baptised 13 Mar by necessity baptism with ceremonies on 2 Apr; 35 born 31 Mar is earlier than 34's 2 Apr; 32 has father Tomljanović and mother Sojat; later-hand 1912 and 1963 death notes on 33-35; 35 baptised by Th. Matić director",
+   "passes": [
+    "1"
+   ]
+  },
+  "379": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 36,
+   "last": 42,
+   "pages": "368",
+   "note": "page 368; entries 36-42; 37 born 5 Apr is earlier than 36's 8 Apr; 42 born and baptised figures corrected (9 and 22 written above struck 22 and 9) and 9 Apr is earlier than 41's 13 Apr; 40 has a Croatian note on a baptism recorded elsewhere; later-hand notes in child cells of 37 and 39; 39 godparent Ornković (near Orešković); 42 baptiser Georgius Ibel[…] sacerdos",
+   "passes": [
+    "1"
+   ]
+  },
+  "380": {
+   "kind": "entries",
+   "entries": 7,
+   "first": 43,
+   "last": 49,
+   "pages": "369",
+   "note": "page 369; entries 43-49; 43 father Georgius Prpić and mother Maria Prpić, godparent Pip[…]ć; 46 mother nata Perpić; 47 godparent Gjuro Franceschini, and the child and legit cells hold each other's words, with later-hand notes of 1937; 47 born 23 Apr is earlier than 46's 2 May; baptisers on 43-46 and 48 sign with a flourished monogram, first letters not read; 47 baptised by Antonius Bosnić katheta",
+   "passes": [
+    "1"
+   ]
+  },
+  "381": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 50,
+   "last": 55,
+   "pages": "370",
+   "note": "page 370; entries 50-55; 50 born 2 Maji is earlier than 49's 14 Maji; 53, 54 and 55 have struck numbers above them (53 over an illegible figure, 54 over 53, 55 over 54); 53 born month Maji struck and Junii written above; 54 born year under an ink blot; 54 and 55 are twins (55 parents Idem, obs Gemelli on 54); later-hand notes on 50, 51, 53",
+   "passes": [
+    "1"
+   ]
+  },
+  "382": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 56,
+   "last": 61,
+   "pages": "371",
+   "note": "page 371; entries 56-61; numbers 56, 57 and 58 each have a struck figure above them (55, 56, 57); 57 born 19 Junii and 58 born 20 Junii are each earlier than 56's 23 Junii; 56 baptised year written over; 59 carries a legitimation note across the child, legit and parents cells (6 July 1879, bajulus Andrea Glavičić); later-hand notes on 57 and 58",
+   "passes": [
+    "1"
+   ]
+  },
+  "383": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 62,
+   "last": 67,
+   "pages": "372",
+   "note": "page 372; entries 62-67; opening sits lower in the frame than usual; 63 born 13 Julii is earlier than 62's 17 Julii and 65 born 14 Julii is earlier than 64's 22 Julii; 66 parents surname Zubranić (near Žubrinić) written as read; later-hand death notes of 1968 on 62 and 1960 on 64",
+   "passes": [
+    "1"
+   ]
+  },
+  "384": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 68,
+   "last": 73,
+   "pages": "373",
+   "note": "page 373; entries 68-73; 69 born 6 Augusti is earlier than 68's 16 Augusti; number 72 written 7 with a looped 2; 72 year written over a second figure; later-hand 1963 death note on 70; blue pencil figures 1927 / 1876 / 51 in the bottom-left margin of the left page; opening shows the previous page's edge at the left",
+   "passes": [
+    "1"
+   ]
+  },
+  "385": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 74,
+   "last": 79,
+   "pages": "374",
+   "note": "page 374; entries 74-79; 76 born 7 Septembris is earlier than 75's 12 Septembris (zoomed, copied); right page has pasted slips over the Observationes column (the obs on 77 is on a slip, 'Mijena Šegota' on a smaller slip below it); ink strokes at the outer edge of the right page level with 79 are margin marks, not read",
+   "passes": [
+    "1"
+   ]
+  },
+  "386": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 80,
+   "last": null,
+   "pages": "375",
+   "note": "page 375; entries 80-85; 81 born 19 Septembris is earlier than 80's 21 Septembris, and the sixth entry born 3 Octobris is earlier than 84's 4 Octobris (both zoomed, copied); entry numbers 82-84 faint (83's second digit reads like 8 or 3), the sixth entry's number lost where the left margin is torn away (read as 85 only by sequence, not entered); left-page margin torn at rows 82-85; a pasted slip across the foot of the right page cuts off the last line of the godparents cell of the sixth entry; the obs and the Croatian lines in the godparents cell of the sixth entry are later hand on slips",
+   "passes": [
+    "1"
+   ]
+  },
+  "387": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 86,
+   "last": 90,
+   "pages": "376",
+   "note": "page 376; entries 86-90; 89 born 9 Octobris is earlier than 88's 19 Octobris (zoomed, copied); 87 and 88 both baptised 21; pencil and ink later-hand notes under the child's name on 88 and 89; the note in the obs cell at the top of the fourth right-page row is a later-hand extract of 1950; ink figures 'St: / 90k' in the right margin outside the obs column beside entry 90 are not an entry cell and are not copied into a cell",
+   "passes": [
+    "1"
+   ]
+  },
+  "388": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 91,
+   "last": 96,
+   "pages": "377",
+   "note": "page 377; entries 91-96; 93 born 26 Octobris is earlier than 92's 28 Octobris and 94 born 18 Octobris is earlier than 93's 26 Octobris (both zoomed, copied); 92 and 94 are illegitimate, the father is not named in either; a short dash in the left margin below the date cells of 92; later-hand death note of 1966 in the obs cell of 96",
+   "passes": [
+    "1"
+   ]
+  },
+  "389": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 97,
+   "last": 102,
+   "pages": "378",
+   "note": "page 378; entries 97-102; 98 born 10 Novembris is earlier than 97's 13 Novembris; 99 born day not settled (14 and a 6 written side by side); 101 baptised 22 is earlier than 100's 26; two fiscal stamps and a pasted slip with a later-hand death note across the obs cells of 98-99; 102 has a later-hand death note in its obs cell; 101 house is Gospić, not Segnia",
+   "passes": [
+    "1"
+   ]
+  },
+  "390": {
+   "kind": "second exposure",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "378",
+   "note": "second exposure of image 389 (page 378, entries 97-102, same left page); the flap bearing the 1946 death note is lifted or absent and the obs cell of 99 shows two 25 kr. fiscal stamps and a later-hand note beneath: [later hand] Priznaje [...]otac/stvo ovoga djeteta pred dvjema svjedoci: Petar Mohorović, svjedoci: Franjo Sučić, Ivan Verle mežnjar (read at plate level, first line partly under the stamps, not all settled); no new entries, no rows; rows for 97-102 are on image 389",
+   "passes": [
+    "1"
+   ]
+  },
+  "391": {
+   "kind": "entries",
+   "entries": 5,
+   "first": 103,
+   "last": 107,
+   "pages": "379",
+   "note": "page 379; entries 103-107; 105 born 15 Novembris is earlier than 104's 26 Novembris (zoomed, copied); 104 has a faint pencil word in brackets under the child's name, not settled; 107 house is Krivi put Nro 83; later-hand marriage and death notes in the obs cell of 105; the printed page number is struck and overwritten, read 379",
+   "passes": [
+    "1"
+   ]
+  },
+  "392": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 108,
+   "last": 113,
+   "pages": "380",
+   "note": "page 380; entries 108-113; 108 born 2 Decembris is earlier than 107's 3 Decembris (image 391) and 109 born 26 Novembris is earlier than 108's (both zoomed, copied); 113 is a second child of the same birth as 112 (born written isto, baptised a dash), the parents, religion, house, godparents and baptiser cells on the right and left are one cell shared by 112 and 113 and are copied to both; 113 child name Albina struck through and Božica written below; later-hand notes in the obs cell of 108 and above the child's name of 110",
+   "passes": [
+    "1"
+   ]
+  },
+  "393": {
+   "kind": "entries",
+   "entries": 6,
+   "first": 114,
+   "last": 119,
+   "pages": "381",
+   "note": "page 381; entries 114-119; 115 born 18 Octobris is two months before its baptism and earlier than 114's 13 Decembris, 116 born 10 Decembris is earlier than 114's, 119 born 23 Decembris is earlier than 118's 29 Decembris (all zoomed, copied); 118 parents cell carries a correction mark and a later note; later-hand death notes in the obs cells of 115, 116 and 117 and above the child's name of 114",
+   "passes": [
+    "1"
+   ]
+  },
+  "394": {
+   "kind": "endpaper",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "blank endpaper opening (pastedowns on both sides, binding board and a torn paper strip at the top of the right side); the last entry of the register, 119, is on image 393; no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "395": {
+   "kind": "slate",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "film slate, one opening: left END OF ITEM with roll number 121; right the record label: LOCALITY OF RECORD ŽUPA SENJ HRVATSKA CROATIA; TITLE OF RECORD MATIČNA KNJIGA RODJENIH 1859 - 1877; ITEM 7; no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "396": {
+   "kind": "slate",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "film slate, one opening: Croatian State Archives microfilm end slate: KRAJ, MIKROFILMSKI SVITAK BR: 121, snimljeno u središnjem laboratoriju za mikrografiju Hrvatskog državnog arhiva u Zagrebu, snimatelj Anita Kekić, NASTAVAK NA MIKROFILMSKOM SVITKU BR: 122; no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "397": {
+   "kind": "target",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "resolution target (two halves of one chart, SHOULD MEASURE .25 AT REDUCTION); no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "398": {
+   "kind": "slate",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "film slate, END OF ROLL (the words span the two halves of the opening); no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "399": {
+   "kind": "blank",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "blank grey frame, both halves; no rows",
+   "passes": [
+    "1"
+   ]
+  },
+  "400": {
+   "kind": "blank",
+   "entries": 0,
+   "first": null,
+   "last": null,
+   "pages": "",
+   "note": "blank grey frame, both halves, the same as 399; no rows",
    "passes": [
     "1"
    ]
