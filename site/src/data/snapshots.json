@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 574,
- "images": 638,
+ "count": 575,
+ "images": 640,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -13236,6 +13236,29 @@
    "captured": "26 November 2026",
    "note": "notes/senj-births-1859-1877-walk.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-walk.md"
+  },
+  {
+   "id": "senj-births-1859-77-img0063",
+   "entry": "senj-births-1859-77-img0063-left.jpg",
+   "page": "senj-births-1859-77-img0063-right.jpg",
+   "title": "Senj, 10 September 1861 — Christophorus, son of Theresia, widow Blažević, née Cacić",
+   "film": "Senj births 1859–1877 (FamilySearch waypoint 9R2D-JW5, 400 images)",
+   "where": "image 63 of the waypoint's list (ark 3QS7-L99X-1WHQ): the left-hand page (entries and parents) and the right-hand page (house, godparents, baptiser)",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1WHQ?cc=2040054",
+   "says": "Latin table, entry 107 (printed page 58): born 10, baptised 14 September 1861, Christophorus, illegitimus, «Theresia vidua Blo- / ževic nata Cacić», house Segnia; godparents Dojmus Biljan, porter, and Ursula Miškulin, a porter's wife. The parents cell zoomed. Read at full size.",
+   "slugs": [
+    "theresia-cacic"
+   ],
+   "people": [
+    {
+     "slug": "theresia-cacic",
+     "kind": "people",
+     "name": "Theresia Cacic"
+    }
+   ],
+   "captured": "26 November 2026",
+   "note": "notes/senj-births-1859-1877-walk.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-walk.md"
   }
  ],
  "bySlug": {
@@ -14711,6 +14734,9 @@
   ],
   "antonius-vincentius-ignatius-blazevic": [
    "senj-births-1859-77-img0329"
+  ],
+  "theresia-cacic": [
+   "senj-births-1859-77-img0063"
   ]
  }
 }
