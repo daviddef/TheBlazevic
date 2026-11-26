@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
 "built": "2026-11-26",
-"catalogueBuilt": "2026-11-25",
+"catalogueBuilt": "2026-11-26",
 "inputs": {
-"site/src/data/searched.json": "8a8c465c39e3f2f7",
+"site/src/data/searched.json": "40fbea4d2317becd",
 "site/src/data/people.json": "4bd1d3053e68446a",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -14,13 +14,18 @@
 "antic": "antic",
 "babic": "babic",
 "bacchi": "bacchi",
+"belobarbic": "belobarbic",
 "blazevic": "blazevic",
 "boras": "boras",
 "boric": "boric",
 "butkovic": "butkovic",
 "codron": "codron",
 "gerkacs": "gerkacs",
+"glavas": "glavas",
+"grandic": "grandic",
+"grzanic": "grzanic",
 "jellicic": "jellicic",
+"jurcic": "jurcic",
 "kalanj": "kalanj",
 "kosina": "kosina",
 "kraljich": "kraljich",
@@ -40,6 +45,7 @@
 "perpich": "prpic",
 "pilipic": "pilipic",
 "prpic": "prpic",
+"rivosechi": "rivosechi",
 "smojver": "smojver",
 "sojat": "sojat",
 "spalj": "spalj",
@@ -54,13 +60,18 @@
 "antic": "Antić",
 "babic": "Babić",
 "bacchi": "Bacchi",
+"belobarbic": "Belobarbic",
 "blazevic": "Blažević",
 "boras": "Boras",
 "boric": "Boric",
 "butkovic": "Butković",
 "codron": "Codron",
 "gerkacs": "Gerkacs",
+"glavas": "Glavaš",
+"grandic": "Grandic",
+"grzanic": "Grzanic",
 "jellicic": "Jelličić",
+"jurcic": "Jurčić",
 "kalanj": "Kalanj",
 "kosina": "Kosina",
 "kraljich": "Kraljich",
@@ -74,6 +85,7 @@
 "pavelic": "Pavelić",
 "pilipic": "Pilipić",
 "prpic": "Prpić",
+"rivosechi": "Rivosechi",
 "smojver": "Smojver",
 "sojat": "Šojat",
 "spalj": "Špalj",
@@ -113,6 +125,137 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1W4Q?cc=2040054",
 "volumes": [
 "9R2D-JW5"
+]
+},
+{
+"id": 303,
+"src": "FamilySearch",
+"volume": "Senj deaths 1859–1907 (waypoint 9R2D-K6D): the Blažević deaths of 1861–1888 read at the page",
+"years": "1859–1907",
+"span": [
+1859,
+1907
+],
+"what": "Images 34, 54, 128, 190, 341, 372 and 395 only, one Blažević entry on each, found through FamilySearch's index of the book held with the private copy (terms read in the index: Blažević, Blasević and a Christophorus search) and then read at…",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"blazevic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1HZQ?cc=2040054",
+"volumes": [
+"9R2D-K6D"
+]
+},
+{
+"id": 304,
+"src": "FamilySearch",
+"volume": "Senj marriages 1859–1920 (waypoint 9R2D-N3F), image 61: the 1866 marriage of the widow Theresia Blažević",
+"years": "1859–1920",
+"span": [
+1859,
+1920
+],
+"what": "Image 61 only (1866, entries 1–3), found through FamilySearch's index of the book held with the private copy; entry 2 read at full size. The book was not walked.",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"blazevic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1QSF?cc=2040054",
+"volumes": [
+"9R2D-N3F"
+]
+},
+{
+"id": 305,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858 (waypoint 9R2M-L27), image 575: Maria, born 26 March 1858",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Image 575 only, reached from the tree's own citation for Maria; entry 36 read at full size. The book was not walked.",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"blazevic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-5YBM?cc=2040054",
+"volumes": [
+"9R2M-L27"
+]
+},
+{
+"id": 306,
+"src": "FamilySearch",
+"volume": "Senj births 1859–1877 (waypoint 9R2D-JW5): the families' entries read again on the page and matched to the tree",
+"years": "1859–1877",
+"span": [
+1859,
+1877
+],
+"what": "Tree people looked for in the captured table of the book by parents and date (terms in the table: Boras, Papić, Pajo, Perpić, Prpić, Žubrinić, Zubri, Grandić, Belobarbić, Bellobarbick, Rivosechi, Rivosecki, Jurčić, Tomljanović, Vukelić…",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"belobarbic",
+"boras",
+"glavas",
+"grandic",
+"grzanic",
+"jurcic",
+"papic",
+"prpic",
+"rivosechi",
+"tomljanovic",
+"vukelic",
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17BP?cc=2040054",
+"volumes": [
+"9R2D-JW5"
+]
+},
+{
+"id": 307,
+"src": "FamilySearch",
+"volume": "Senj deaths 1859–1907 (waypoint 9R2D-K6D), image 33: Mathias Žubrinić, 1861",
+"years": "1859–1907",
+"span": [
+1859,
+1907
+],
+"what": "Image 33 only, reached through FamilySearch's index of the book held with the private copy; entry 10 read at full size. The book was not walked.",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-147F?cc=2040054",
+"volumes": [
+"9R2D-K6D"
 ]
 },
 {
@@ -5315,12 +5458,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 177,
+"shown on person pages (by tag)": 182,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 303,
-"shown": 180
+"register": 308,
+"shown": 185
 }
 }

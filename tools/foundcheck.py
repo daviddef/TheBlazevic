@@ -43,6 +43,14 @@ FOUND = os.path.join(ROOT, "sources", "found.psv")
 # Rows that have been looked at by a person and settled. A found.psv row is
 # listed here with the reason it is NOT the tree person it resembles.
 SETTLED = {
+    # 26 November 2026, two children read in the Senj births of 1859-1877.
+    "Thomas Boras baptised Senj January 1862":
+        "resembles Willem Frederick Thomas Barry 1861 on one given name and a "
+        "year. A Boras baptised at Senj on 15 January 1862 to Thomas Boras and "
+        "Paulina; a different surname and a different family",
+    "Josephus Boras baptised Senj February 1869":
+        "resembles Josephus Prpić 1868, a different surname with other parents. "
+        "A Boras baptised at Senj on 15 February 1869 to Thomas Boras and Paulina",
     # A SETTLE CAN GO STALE, and one did on 21 September 2026. «Maria Rosaria
     # Antic» was settled on the grounds that «ahnentafel 24 has no children
     # published at all, so there is nothing to match her against» — which was

@@ -21,6 +21,12 @@ const base = (html) => String(html || "").replace(/href='\//g, `href='${u("/")}`
 // direction of travel is visible: nearly all of them are the archive becoming
 // less certain, not more.
 const C = [
+  { d: "26 November 2026", t: "Two children I said the tree did not hold. It holds both.",
+    was: "That <strong>Emericus</strong> Blažević (born 1868) and <strong>Christophorus</strong> (born 1861) were not in the tree, and that one <strong>Antonius Blažević</strong>, merchant, was father of children with Anna and then with Francisca née Gosler.",
+    now: "Emericus is the tree's <a href='/people/mirka-blazevic'>«Mirka»</a>, entered as a daughter: the death register of 1888 calls him <strong>Mirko</strong>. Christophorus <a href='/people/christophorus'>is there</a> with no surname. And in October 1867 Anna is named as a merchant Antonius's wife three months after a merchant Antonius with Francisca had a daughter baptised: <strong>two men</strong>, as the tree has them.",
+    cost: "Published for a few hours. The match was by surname and forename, which cannot find a child entered under the other sex or with no surname. The death register, searched by the parents, found both: <strong>nobody is called absent until the parents have been searched</strong>.",
+    href: "/people/mirka-blazevic" },
+
   { d: "13 September 2026", t: "Zvonimir's mother was called Vica, and his father was dead.",
     was: "From the <strong>960-pixel</strong> copy of the 1907 marriage: that the groom's parents were <strong>Petar Vukelić</strong>, <em>gostioničar</em>, <q>marked deceased</q>, and <strong>Vica</strong>; and that the witness Koloman was <q>a broker at the tobacco factory</q>.",
     now: "At <strong>5,812 pixels</strong> the row reads <span class='mono'>“Vukelić pl. Petar gostioničar, i † Vjekoslava Putnić”</span>. <strong>The cross is in front of Vjekoslava, not Petar</strong> — it was the mother who had died. Her name is not Vica. And Koloman is a <strong><em>meštar</em></strong> — a <strong>master</strong>, a grade this archive already maps on the factory ladder — not a broker.",
@@ -200,6 +206,7 @@ const C = [
    everyone it mentions), and only people people.json publishes (it holds no living person; living.json is never read here except to keep a name from being
    linked). The key is the start of the headline. */
 const FOR = {
+  "Two children I said the tree did not hold": [["/people/mirka-blazevic/", "Mirka Blažević"], ["/people/christophorus/", "Christophorus"]],
   "Zvonimir's mother was called Vica": [["/people/zvonimir-matei-vukelic/", "Zvonimir Matei Vukelić"]],
   "Zvonimir Vukelić was not a casualty-list death": [["/people/zvonimir-matei-vukelic/", "Zvonimir Matei Vukelić"]],
   "“Vrbnik baptisms.”": [["/people/josephum-antic/", "Josephum Antić"]],

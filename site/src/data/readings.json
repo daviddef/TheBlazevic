@@ -1,9 +1,9 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 222,
-  "people": 134,
-  "derived": 72,
+  "rows": 290,
+  "people": 216,
+  "derived": 154,
   "onDirectLine": 0,
   "indexOnly": 19,
   "earliest": 1725,
@@ -12,23 +12,23 @@
  "kinds": [
   [
    "baptism",
-   49
+   90
+  ],
+  [
+   "death",
+   46
   ],
   [
    "baptism-of-child",
    35
   ],
   [
-   "marriage-of-child",
+   "marriage",
    32
   ],
   [
-   "marriage",
-   30
-  ],
-  [
-   "death",
-   28
+   "marriage-of-child",
+   32
   ],
   [
    "census",
@@ -44,7 +44,11 @@
   ],
   [
    "named-on-a-child-baptism",
-   3
+   5
+  ],
+  [
+   "birth",
+   5
   ],
   [
    "sponsor",
@@ -2185,6 +2189,20 @@
    "ahn": null
   },
   {
+   "kind": "birth",
+   "year": "1858",
+   "cite": "Senj births 1756–1858 image 575 entry 36 — «filiam illegitimam Mariam, Theresae Blazević viduae natae Cacić», born and baptised 26 March 1858; READ FROM THE IMAGE; ark 3:1:3QS7-899C-5YBM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "maria-mariam-mariam",
+   "name": "Maria Mariam",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1858",
    "cite": "Otočac, 15 Sep 1858 — \"Rustica e Šumećica N° 2\", Nicolaus Žubrinić et ejus uxor Anna nata Marić",
@@ -2227,6 +2245,20 @@
    "ahn": null
   },
   {
+   "kind": "named-on-a-child-baptism",
+   "year": "1858",
+   "cite": "Senj births 1756–1858 image 575 entry 36 — named as mother of Maria, «Theresae Blazević viduae natae Cacić»; READ FROM THE IMAGE; ark 3:1:3QS7-899C-5YBM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "theresia-cacic",
+   "name": "Theresia Cacic",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1859",
    "cite": "Krivi Put births 1847-1884 (DGS 5494757, waypoint 9R28-DP8) image 64 left page, entry 51 — «12 Maji 1859 [born], 15 Maji 1859 [baptised], Antonia Perpić, legit., Joannis et Lucia Perpić filia [Confinii?], Krivi put No 136», godparents Lucas and Anna Tomljanović. READ FROM THE IMAGE 11 October 2026, upgrading the earlier INDEX ONLY row (ark 1:1:XQM9-6NQ4): the page agrees with the index and the tree to the day, and puts her at house 136, the house of her brother Stephanus (1861) and of ahnentafel 14 and 15. The mother is again «Lucia Perpić», which is her married name as the index had it, not a maiden name",
@@ -2238,6 +2270,90 @@
    "indexOnly": true,
    "slug": "antonija-tonka-perpic-prpic",
    "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1859",
+   "cite": "Senj births 1859–1877 image 14 entry 71 — Maria Anna, born 15 July 1859, baptised 18 July 1859, «Josephus Boras miles politiae et Maria nata Kabalin», house «Segnia Nro 307»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-anna-antonia-boras",
+   "name": "Maria Anna Antonia Boras",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1859",
+   "cite": "Senj births 1859–1877 image 12 entry 56 — Mathias, Joannes, born 30 May 1859, baptised 1 June 1859, «Joannes Zubri-nić servus politiae, et Mathia nata Sekulić», house «Segnia Nro 14»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17BP",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "mathias-zubrinic",
+   "name": "Mathias Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "birth",
+   "year": "1860",
+   "cite": "Senj births 1859–1877 image 37 entry 64 — Francisca Maria, born 4 July 1860, baptised 5 July 1860, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franciska-prpic",
+   "name": "Franciska \"Franka\" Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1860",
+   "cite": "Senj births 1859–1877 image 39 entry 83 — Stephanus, born 16 August 1860, baptised 19 August 1860, «Georgius Papić bajulus, & Mathia nata Pilip[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "stephannes-papic",
+   "name": "Stephannes Papić",
+   "ahn": null
+  },
+  {
+   "kind": "birth",
+   "year": "1861",
+   "cite": "Senj births 1859–1877 image 63 entry 107 — Christophorus, illegitimus, «Theresia vidua Blo- / ževic nata Cacić», born 10 September 1861; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "christophorus",
+   "name": "Christophorus",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1861",
+   "cite": "Senj births 1859–1877 image 55 entry 55 — Georgius Albertus, born 22 April 1861, «Antonius Blažević mercator & Anna nata Tr- / buhović»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "georgius-jure-albertus-blazevic",
+   "name": "Georgius Jure Albertus Blažević",
    "ahn": null
   },
   {
@@ -2269,6 +2385,62 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1861",
+   "cite": "Senj deaths 1859–1907 image 34 entry 22 — «Maria Blažević filia legitima», of «Theresia Blažević Vidua», 3 March 1861, aged 3; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-14QP",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "maria-mariam-mariam",
+   "name": "Maria Mariam",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1861",
+   "cite": "Senj births 1859–1877 image 55 entry 54 — Martha, born 24 April 1861, «Joanes Zubrinić vigil policiae, & Mattoia nata Se- / kulić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "martha-zubrinic-zubrinic",
+   "name": "Martha Žubrinić Zubrinic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1861",
+   "cite": "Senj deaths 1859–1907 image 33 entry 10 — «Mathias Žubrinić filius legitimus» of «Joannes Žubrinić c: r: miles policiae, et ejus uxor Mathia», died 8 February 1861 aged 1 9/12, buried 10 February; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-147F",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "mathias-zubrinic",
+   "name": "Mathias Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1861",
+   "cite": "Senj births 1859–1877 image 63 entry 106 — Nicolaus, born 9 September 1861, baptised 11 September 1861, «Antonius Jurčić bajulus & Jacoba nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "mikula-jurcic",
+   "name": "Mikula Jurcic",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1861",
    "cite": "Krivi Put births 1847-1884 (DGS 5494757, waypoint 9R28-DP8) image 78 left-hand page, entry 109 of 1861 — «13. 10bris 1861 [born], 16. 10bris 1861 [baptised], Stephanus Perpić, legit., Joannes Perpić & Lucia Perpić, Krivi put N° 136». READ FROM THE IMAGE. 10bris is DECEMBER (the entries run 30 Nov = 105, 1 Dec = 106, 7/8 Dec = 107, 13 Dec = 108 and 109, 26 Dec = 110, 29 Dec = 111, then «Annus 1862»), so he was born 13 DECEMBER 1861 and baptised 16 December: THE INDEX WAS RIGHT AND THE TREE'S 13 OCTOBER IS WRONG. House 136 is ahnentafel 7's house; ark 3:1:3QS7-899C-5C1V",
@@ -2283,6 +2455,104 @@
    "ahn": null
   },
   {
+   "kind": "named-on-a-child-baptism",
+   "year": "1861",
+   "cite": "Senj births 1859–1877 image 63 entry 107 — named as mother of Christophorus, «Theresia vidua Blo- / ževic nata Cacić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "theresia-cacic",
+   "name": "Theresia Cacic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1862",
+   "cite": "Senj births 1859–1877 image 81 entry 62 — Christina Maria, born 27 May 1862, baptised 1 June 1862, «Josephus Boras miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS8",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "christina-maria-boras",
+   "name": "Christina Maria Boras",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1862",
+   "cite": "Senj births 1859–1877 image 80 entry 54 — Christina, born 2 May 1862, baptised 4 May 1862, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "christina-matia-prpic-perpic",
+   "name": "Christina Matia Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1862",
+   "cite": "Senj deaths 1859–1907 image 54 entry 51 — «Chrystophorus Blasević filius illegitimus», «Theresia Blasević mater», 27 July 1862, aged 1; READ FROM THE IMAGE; ark 3:1:3QS7-899X-144G",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "christophorus",
+   "name": "Christophorus",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1862",
+   "cite": "Senj births 1859–1877 image 80 entry 50 — Georgius Paschalis, born 19 April 1862, baptised 21 April 1862, «Benedictus Rivosechi maritimus & Maria nata Fabiani»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "georgius-paschalis-rivosechi",
+   "name": "Georgius Paschalis Rivosechi",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1863",
+   "cite": "Senj births 1859–1877 image 119 entry 143 — Martinus, born 11 November 1863, baptised 12 November 1863, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17KB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "martinus-prpic-perpic",
+   "name": "Martinus Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1863",
+   "cite": "Senj births 1859–1877 image 105 entry 65 — Philippus Jacobus, born 1 May 1863, baptised 3 May 1863, «Georgius Papić & Mathia nata Pillipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "philippus-jacobus-papic",
+   "name": "Philippus Jacobus Papić",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1864",
    "cite": "Her 1864 baptism — born 3 January 1864 — enters her parents as «Josephus Kalanj» and «Rosalia nata Perković» at Klenovica 22, the same couple the tree gives her brother Martin, AND as «Brinjensis parochiae ruricolae» — country people of the parish of BRINJE. That line was read, transcribed and then not acted on: every search this archive has run for the Kalanji has been on the coast",
@@ -2294,6 +2564,510 @@
    "indexOnly": false,
    "slug": "anica-ana-anna-kalanj",
    "name": "Anica / Ana / Anna \"Ana\" Kalanj",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1864",
+   "cite": "Senj births 1859–1877 image 127 entry 24 — Blasius, born 2 February 1864, baptised 8 February 1864, «Josephus Boras c.r. miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17J4",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "blasius-boras",
+   "name": "Blasius \"Blaz\" Boras",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1866",
+   "cite": "Senj births 1859–1877 image 173 entry 35 — Francisca, born 26 March 1866, baptised 28 March 1866, «Georgius Papić Operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17XR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "francisca-papic",
+   "name": "Francisca Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1866",
+   "cite": "Senj births 1859–1877 image 172 entry 34 — Franciscus, born 27 March 1866, baptised 27 March 1866, «Franciscus Perpić bajulus et Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17V9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franciscus-prpic-perpic",
+   "name": "Franciscus Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1866",
+   "cite": "Senj marriages 1859–1920 image 61 entry 2 — 21 January 1866, «Joannes Tintor bajulus», 25, to «Theresia Blazević», widow; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QSF",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "joannes-tintor",
+   "name": "Joannes Tintor",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1866",
+   "cite": "Senj marriages 1859–1920 image 61 entry 2 — 21 January 1866, «Theresia Blazević», widow, 37, from Prizna, daughter of «Joannes Caćić» and «Mandalina», to Joannes Tintor; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QSF",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "theresia-cacic",
+   "name": "Theresia Cacic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1867",
+   "cite": "Senj deaths 1859–1907 image 128 entry 116 — «Georgius Blažević», 14 October 1867, aged 7, of «Antonius Blažević negotiator et ejus uxor Anna»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-144X",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "georgius-jure-albertus-blazevic",
+   "name": "Georgius Jure Albertus Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1867",
+   "cite": "Senj births 1859–1877 image 199 entry 79 — Maria Franciska Amalia, born 28 July 1867, «Antonius Blažević Mercator», «Francisca nata Gosler»; identified with the tree's Marija by the father's name and trade, the mother's forename and the age at death in 1883; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17R4",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "marija-blazevic-10",
+   "name": "Marija Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1868",
+   "cite": "Senj births 1859–1877 image 215 entry 54 — Antonius, born 8 June 1868, baptised 11 June 1868, «Georgius Papić operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "antonius-josip-papic",
+   "name": "Antonius Josip \"Anton\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1868",
+   "cite": "Senj births 1859–1877 image 213 entry 39 — Joanna Nepomucena Antonia, born 7 May 1868, baptised 10 May 1868, «Antonius Jurčić bajulus et uxor ejus Jacomina nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-178Y",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "johana-jurcic",
+   "name": "Johana Jurcic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1868",
+   "cite": "Senj births 1859–1877 image 222 entry 101 — «Emericus Joannes Andreas», born 22 November 1868, «Antonius Blažević mer[…]ator et Francisca nata Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17PT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "mirka-blazevic",
+   "name": "Mirka Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1870",
+   "cite": "Senj births 1859–1877 image 252 entry 62 — Francisca Helena, born 30 July 1870, «Antonius Blažević mercatoa, et Franci[…]a nata Fosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17DK",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "francisca-helena-blazevic",
+   "name": "Francisca Helena Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1870",
+   "cite": "Senj births 1859–1877 image 256 entry 84 — Franciscus, born 1 October 1870, baptised 2 October 1870, «Georgius Grandić Hortulanus et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franciscus-grandic",
+   "name": "Franciscus Grandic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1870",
+   "cite": "Senj births 1859–1877 image 255 entry 82 — Franciscus, born 29 September 1870, baptised 29 September 1870, «Fabianus Perpić et Rosalia nata Perpić confiniarii», house «Krivput Nro 79»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1787",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franciscus-prpic-perpic-2",
+   "name": "Franciscus Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1870",
+   "cite": "Senj births 1859–1877 image 256 entry 86 — Michaël Franciscus, born 29 September 1870, baptised 2 October 1870, «Thomas Tomljanović faber ferrq. et Antonia nata Gerzanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franjo-tomljanovic",
+   "name": "Franjo Tomljanovic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1872",
+   "cite": "Senj deaths 1859–1907 image 190 entry 92 — «Francisca Blažević», 19 September 1872, aged 2, of «Antonius Blažević mercator, et ejus consors Francisca»; identified by the parents and the age; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1WTS",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "francisca-helena-blazevic",
+   "name": "Francisca Helena Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1872",
+   "cite": "Senj births 1859–1877 image 284 entry 37 — Franciscus a Paule, born 30 March 1872, baptised 30 March 1872, «Thomas Boras bajulus et Paulina Bello[…]arbić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QP6",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franciscus-paul-boras",
+   "name": "Franciscus Paul Boras",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1872",
+   "cite": "Senj births 1859–1877 image 289 entry 69 — Johanna, born 21 June 1872, baptised 23 June 1872, «Georgius Papić murarius et Matthea uxor ejusdem nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1Q1P",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "joanna-johanna-papic",
+   "name": "Joanna Johanna Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1872",
+   "cite": "Senj births 1859–1877 image 286 entry 47 — Georgius, born 14 April 1872, baptised 15 April 1872, «Paulus Perpić et Rozalia conjux ejusdem nata Perpić», house «S. Helena Nro 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17PW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "juraj-prpic",
+   "name": "Juraj Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1872",
+   "cite": "Senj births 1859–1877 image 295 entry 111 — Marcus, born 12 November 1872, baptised 14 November 1872, «Joannes Perpić conf. et Lucia nata Perpić», house «Krmpote N° 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QR1",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "marcus-perpic",
+   "name": "Marcus Perpić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1873",
+   "cite": "Senj births 1859–1877 image 308 entry 81 — Franciscus, born 27 July 1873, baptised 3 August 1873, «Georgius Papić bajulus et Matia nata Pilipović»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "frane-franjo-franciscus-papic",
+   "name": "Frane Franjo Franciscus Papić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1873",
+   "cite": "Senj births 1859–1877 image 306 entry 68 — Joannes, born 19 June 1873, baptised 22 June 1873, «Andreas Belobarbić bajulus et Joanna nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "joannes-belobaric",
+   "name": "Joannes Belobaric",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1873",
+   "cite": "Senj births 1859–1877 image 307 entry 70 — Petrus, born 25 June 1873, baptised 29 June 1873, «Georgius Grandić et Joanna Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-176B",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "petrus-grandic",
+   "name": "Petrus Grandic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1874",
+   "cite": "Senj births 1859–1877 image 329 entry 72 — Antonius Vincentius Ignatius, born 11 July 1874, «Antonius Blažević et Francisca nata Goßler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "antonius-vincentius-ignatius-blazevic",
+   "name": "Antonius Vincentius Ignatius Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1875",
+   "cite": "Senj births 1859–1877 image 351 entry 108 — Clementina Ursula, born 18 October 1875, baptised 28 October 1875, «Petrus Vukelić caupo et Aloysia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "clementi-ursula-vukelic",
+   "name": "Clementi Ursula Vukelić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1875",
+   "cite": "Senj births 1859–1877 image 338 entry 8 — Gaspar, born 5 January 1875, baptised 10 January 1875, «Georgius Grandić operarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "gaspar-grandic",
+   "name": "Gaspar Grandic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1875",
+   "cite": "Senj births 1859–1877 image 351 entry 112 — Maria Matthia, born 8 November 1875, baptised 11 November 1875, «Andreas Belobarbić bajulus et Joanna nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-matthia-belobaric",
+   "name": "Maria Matthia Belobaric",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1875",
+   "cite": "Senj births 1859–1877 image 336 entry 1 — Maria, born 1 January 1875, baptised 3 January 1875, «Stephanus Perpić conf. et Lucia nata Tomljanović», house «Krivopüt No 124»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17SS",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "marria-prpic-perpic",
+   "name": "Marria Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1875",
+   "cite": "Senj births 1859–1877 image 342 entry 36 — Petrus, born 31 March 1875, baptised 4 April 1875, «Fabianus Perpić conf. et Ruža nata Perpić», house «Krivoput No 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XN",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "petrus-prpic-perpic",
+   "name": "Petrus Prpic Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1876",
+   "cite": "Senj births 1859–1877 image 362 entry 61 — Antonius, born 30 May 1876, baptised 4 June 1876, «Georgius Grandić murarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY8",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "antonius-grandic",
+   "name": "Antonius Grandic",
+   "ahn": null
+  },
+  {
+   "kind": "birth",
+   "year": "1876",
+   "cite": "Senj births 1859–1877 image 356 entry 25 — Matthias, born 19 February 1876, baptised 24 February 1876, «Simeun Gržanić murarius et Gertruda nata K[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17SV",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "mate-matthias-grzanic",
+   "name": "Mate Matthias Grzanic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1876",
+   "cite": "Senj births 1859–1877 image 369 entry 102 — Simeon, born 26 October 1876, baptised 5 November 1876, «Franciscus Gržin bajulus et Matthia nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QPW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "simeon-grzin",
+   "name": "Simeon Grzin",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1877",
+   "cite": "Senj births 1859–1877 image 380 entry 43 — Andreas, born 24 April 1877, baptised 25 April 1877, «Georgius Prpić et Maria Prpić ruricola», house «Krivi put Nro 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "andreas-perpic-prpic",
+   "name": "Andreas Perpić Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1877",
+   "cite": "Senj births 1859–1877 image 380 entry 47 — Georgina, born 23 April 1877, baptised 9 May 1877, «Petrus de Vukeli[…] […] et Aloisia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "georgina-vukelic",
+   "name": "Georgina Vukelić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1877",
+   "cite": "Senj births 1859–1877 image 385 entry 77 — Maria Barbara, born 17 September 1877, baptised 23 September 1877, «Georgius Grandić murarius et Johanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-barbara-grandic",
+   "name": "Maria Barbara Grandic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1877",
+   "cite": "Senj births 1859–1877 image 382 entry 61 — Maria (de monte Carmelo), born 10 July 1877, baptised 15 July 1877, «Fabianus Prpić agricola et Rosalia Prpić», house «Krivi put (Sta Helena) Nrus Dmus 79»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QGJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-carmela-prpic",
+   "name": "Maria Carmela Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "birth",
+   "year": "1877",
+   "cite": "Senj births 1859–1877 image 379 entry 37 — Vincentius, born 5 April 1877, baptised 15 April 1877, «Martinus Glavas[…] nauta et Margaretha nata […]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-173H",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "vinko-glavas",
+   "name": "Vinko Glavaš",
    "ahn": null
   },
   {
@@ -2392,6 +3166,20 @@
    "indexOnly": false,
    "slug": "toma-tomislav-blazevic",
    "name": "Toma Tomislav Blazevic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1883",
+   "cite": "Senj deaths 1859–1907 image 341 entry 54 — «Maria Blažević», 12 May 1883, aged 16, of «Anton Blažević trgovac» and Franica; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W5D",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "marija-blazevic-10",
+   "name": "Marija Blažević",
    "ahn": null
   },
   {
@@ -2509,6 +3297,20 @@
   {
    "kind": "death",
    "year": "1886",
+   "cite": "Senj deaths 1859–1907 image 372 entry 30 — «Anton Blažević trgovac», 18 March 1886, aged 51, wife «Franjica Antonia»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1HSD",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "anton-blazevic-2",
+   "name": "Anton Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1886",
    "cite": "Senj, 9 February 1886, entry 13 — «Matija PILIPIĆ, žena · Vicko PILIPIĆ, fin. stražar u miru, njezin muž · Karlobag · rim. kat. · 78 · Marasmus senilis · Providjena»; ark 3:1:3QS7-899X-1HVP",
    "derived": false,
    "via": null,
@@ -2602,6 +3404,20 @@
    "indexOnly": false,
    "slug": "martin-martinus-kosina",
    "name": "Martin Martinus Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1888",
+   "cite": "Senj deaths 1859–1907 image 395 entry 30 — «Mirko Blažević», 4 April 1888, aged 19 5/12, of «Ante Blažević i Francika rodjena Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1HZQ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-blazevic-households-1858-1888.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+   "indexOnly": false,
+   "slug": "mirka-blazevic",
+   "name": "Mirka Blažević",
    "ahn": null
   },
   {
@@ -2829,6 +3645,20 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1912",
+   "cite": "Senj births 1859–1877 image 256 entry 86 — a later hand in pencil: «† 5.XII.1.912.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "franjo-tomljanovic",
+   "name": "Franjo Tomljanovic",
+   "ahn": null
+  },
+  {
    "kind": "marriage",
    "year": "1913",
    "cite": "Senj marriages p. 326 no. 23 — her marriage to Josip Nagoda, 5 October 1913, entered «radnica u tvornici duhana u Senju, iz župe sv. Jakov Krmpote»; parents Pavao Blažević and Marija r. Tomljanović, «poljodjelci» of the same parish. Confirms the tree's 23 October 1888",
@@ -2840,6 +3670,20 @@
    "indexOnly": false,
    "slug": "terezija-tereza-blazevic",
    "name": "Terezija (Tereza) Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1917",
+   "cite": "Senj births 1859–1877 image 39 entry 83 — a later hand in faint pencil: «† 8.XII.1917»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "stephannes-papic",
+   "name": "Stephannes Papić",
    "ahn": null
   },
   {
@@ -2997,6 +3841,48 @@
    "ahn": null
   },
   {
+   "kind": "death",
+   "year": "1932",
+   "cite": "Senj births 1859–1877 image 14 entry 71 — a later hand in pencil: «† 24./VIII.1.932. u Senju»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-anna-antonia-boras",
+   "name": "Maria Anna Antonia Boras",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1933",
+   "cite": "Senj births 1859–1877 image 308 entry 81 — a later hand: «† 15./III. 1.933.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "frane-franjo-franciscus-papic",
+   "name": "Frane Franjo Franciscus Papić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1934",
+   "cite": "Senj births 1859–1877 image 306 entry 68 — a later hand: «† u Senju 5./I. 1.934.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "joannes-belobaric",
+   "name": "Joannes Belobaric",
+   "ahn": null
+  },
+  {
    "kind": "grave",
    "year": "1935",
    "cite": "Senj municipal cemetery, same cross — «ANTONIJA ✽1860 †1935»; the death year agrees with the tree (2 Feb 1935), the birth year is ONE OUT (register: 12 May 1859). Read at 4x; IMG_8131",
@@ -3008,6 +3894,48 @@
    "indexOnly": false,
    "slug": "antonija-tonka-perpic-prpic",
    "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1937",
+   "cite": "Senj births 1859–1877 image 215 entry 54 — a later hand in the child's cell: «† 11.IX.1937.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "antonius-josip-papic",
+   "name": "Antonius Josip \"Anton\" Papić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1937",
+   "cite": "Senj births 1859–1877 image 380 entry 47 — later hands: a death «† 4.V.1.937» as the wife of the merchant Milan Brajković; and a marriage at Senj on 16 January 1937, as the widow of Franjo Albin Olivieri, to Milan Brajković; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "georgina-vukelic",
+   "name": "Georgina Vukelić",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1938",
+   "cite": "Senj births 1859–1877 image 105 entry 65 — a later hand: «† 7.X.1.938.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "philippus-jacobus-papic",
+   "name": "Philippus Jacobus Papić",
    "ahn": null
   },
   {
@@ -3036,6 +3964,20 @@
    "indexOnly": false,
    "slug": "antun-anton-kosina",
    "name": "Antun Anton Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1942",
+   "cite": "Senj births 1859–1877 image 379 entry 37 — a later hand: «† 14.III.1.942.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-899X-173H",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "vinko-glavas",
+   "name": "Vinko Glavaš",
    "ahn": null
   },
   {
@@ -3134,6 +4076,20 @@
    "indexOnly": false,
    "slug": "antun-anton-kosina",
    "name": "Antun Anton Kosina",
+   "ahn": null
+  },
+  {
+   "kind": "death",
+   "year": "1965",
+   "cite": "Senj births 1859–1877 image 385 entry 77 — an official later note: «Umrla u Senju, 13.I. 1965. god.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-births-1859-1877-matches.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+   "indexOnly": false,
+   "slug": "maria-barbara-grandic",
+   "name": "Maria Barbara Grandic",
    "ahn": null
   },
   {
@@ -3668,10 +4624,76 @@
      "where": "sources/searched.json",
      "href": "",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1860",
+     "cite": "Senj births 1859–1877 image 39 entry 83 — Stephanus, born 16 August 1860, baptised 19 August 1860, «Georgius Papić bajulus, & Mathia nata Pilip[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+     "derived": true,
+     "via": "stephannes-papic",
+     "viaName": "Stephannes Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 105 entry 65 — Philippus Jacobus, born 1 May 1863, baptised 3 May 1863, «Georgius Papić & Mathia nata Pillipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+     "derived": true,
+     "via": "philippus-jacobus-papic",
+     "viaName": "Philippus Jacobus Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 173 entry 35 — Francisca, born 26 March 1866, baptised 28 March 1866, «Georgius Papić Operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17XR",
+     "derived": true,
+     "via": "francisca-papic",
+     "viaName": "Francisca Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 215 entry 54 — Antonius, born 8 June 1868, baptised 11 June 1868, «Georgius Papić operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+     "derived": true,
+     "via": "antonius-josip-papic",
+     "viaName": "Antonius Josip \"Anton\" Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 289 entry 69 — Johanna, born 21 June 1872, baptised 23 June 1872, «Georgius Papić murarius et Matthea uxor ejusdem nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1Q1P",
+     "derived": true,
+     "via": "joanna-johanna-papic",
+     "viaName": "Joanna Johanna Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 308 entry 81 — Franciscus, born 27 July 1873, baptised 3 August 1873, «Georgius Papić bajulus et Matia nata Pilipović»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+     "derived": true,
+     "via": "frane-franjo-franciscus-papic",
+     "viaName": "Frane Franjo Franciscus Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 4,
-   "derived": 0
+   "derived": 6
   },
   "vicentius-andreas-vincent-pilipic": {
    "slug": "vicentius-andreas-vincent-pilipic",
@@ -3774,10 +4796,76 @@
      "where": "sources/searched.json",
      "href": "",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1860",
+     "cite": "Senj births 1859–1877 image 39 entry 83 — Stephanus, born 16 August 1860, baptised 19 August 1860, «Georgius Papić bajulus, & Mathia nata Pilip[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+     "derived": true,
+     "via": "stephannes-papic",
+     "viaName": "Stephannes Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 105 entry 65 — Philippus Jacobus, born 1 May 1863, baptised 3 May 1863, «Georgius Papić & Mathia nata Pillipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+     "derived": true,
+     "via": "philippus-jacobus-papic",
+     "viaName": "Philippus Jacobus Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 173 entry 35 — Francisca, born 26 March 1866, baptised 28 March 1866, «Georgius Papić Operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17XR",
+     "derived": true,
+     "via": "francisca-papic",
+     "viaName": "Francisca Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 215 entry 54 — Antonius, born 8 June 1868, baptised 11 June 1868, «Georgius Papić operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+     "derived": true,
+     "via": "antonius-josip-papic",
+     "viaName": "Antonius Josip \"Anton\" Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 289 entry 69 — Johanna, born 21 June 1872, baptised 23 June 1872, «Georgius Papić murarius et Matthea uxor ejusdem nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1Q1P",
+     "derived": true,
+     "via": "joanna-johanna-papic",
+     "viaName": "Joanna Johanna Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 308 entry 81 — Franciscus, born 27 July 1873, baptised 3 August 1873, «Georgius Papić bajulus et Matia nata Pilipović»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+     "derived": true,
+     "via": "frane-franjo-franciscus-papic",
+     "viaName": "Frane Franjo Franciscus Papić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 4,
-   "derived": 0
+   "derived": 6
   },
   "joannis-perpic": {
    "slug": "joannis-perpic",
@@ -3816,10 +4904,21 @@
      "where": "notes/krivi-put-antonija-perpic-1859-read-from-the-image.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antonija-perpic-1859-read-from-the-image.md",
      "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 295 entry 111 — Marcus, born 12 November 1872, baptised 14 November 1872, «Joannes Perpić conf. et Lucia nata Perpić», house «Krmpote N° 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QR1",
+     "derived": true,
+     "via": "marcus-perpic",
+     "viaName": "Marcus Perpić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 2,
-   "derived": 1
+   "derived": 2
   },
   "marcus-oreskovic-oreskovic": {
    "slug": "marcus-oreskovic-oreskovic",
@@ -6233,10 +7332,21 @@
      "where": "notes/krivi-put-antonija-perpic-1859-read-from-the-image.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-antonija-perpic-1859-read-from-the-image.md",
      "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 295 entry 111 — Marcus, born 12 November 1872, baptised 14 November 1872, «Joannes Perpić conf. et Lucia nata Perpić», house «Krmpote N° 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QR1",
+     "derived": true,
+     "via": "marcus-perpic",
+     "viaName": "Marcus Perpić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 1,
-   "derived": 1
+   "derived": 2
   },
   "ursula": {
    "slug": "ursula",
@@ -6922,6 +8032,1206 @@
    "direct": 3,
    "derived": 0
   },
+  "maria-mariam-mariam": {
+   "slug": "maria-mariam-mariam",
+   "name": "Maria Mariam",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "birth",
+     "year": "1858",
+     "cite": "Senj births 1756–1858 image 575 entry 36 — «filiam illegitimam Mariam, Theresae Blazević viduae natae Cacić», born and baptised 26 March 1858; READ FROM THE IMAGE; ark 3:1:3QS7-899C-5YBM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1861",
+     "cite": "Senj deaths 1859–1907 image 34 entry 22 — «Maria Blažević filia legitima», of «Theresia Blažević Vidua», 3 March 1861, aged 3; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-14QP",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "theresia-cacic": {
+   "slug": "theresia-cacic",
+   "name": "Theresia Cacic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1858",
+     "cite": "Senj births 1756–1858 image 575 entry 36 — named as mother of Maria, «Theresae Blazević viduae natae Cacić»; READ FROM THE IMAGE; ark 3:1:3QS7-899C-5YBM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 63 entry 107 — named as mother of Christophorus, «Theresia vidua Blo- / ževic nata Cacić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "marriage",
+     "year": "1866",
+     "cite": "Senj marriages 1859–1920 image 61 entry 2 — 21 January 1866, «Theresia Blazević», widow, 37, from Prizna, daughter of «Joannes Caćić» and «Mandalina», to Joannes Tintor; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QSF",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 0
+  },
+  "christophorus": {
+   "slug": "christophorus",
+   "name": "Christophorus",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "birth",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 63 entry 107 — Christophorus, illegitimus, «Theresia vidua Blo- / ževic nata Cacić», born 10 September 1861; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1862",
+     "cite": "Senj deaths 1859–1907 image 54 entry 51 — «Chrystophorus Blasević filius illegitimus», «Theresia Blasević mater», 27 July 1862, aged 1; READ FROM THE IMAGE; ark 3:1:3QS7-899X-144G",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "joannes-tintor": {
+   "slug": "joannes-tintor",
+   "name": "Joannes Tintor",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1866",
+     "cite": "Senj marriages 1859–1920 image 61 entry 2 — 21 January 1866, «Joannes Tintor bajulus», 25, to «Theresia Blazević», widow; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QSF",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "georgius-jure-albertus-blazevic": {
+   "slug": "georgius-jure-albertus-blazevic",
+   "name": "Georgius Jure Albertus Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 55 — Georgius Albertus, born 22 April 1861, «Antonius Blažević mercator & Anna nata Tr- / buhović»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1867",
+     "cite": "Senj deaths 1859–1907 image 128 entry 116 — «Georgius Blažević», 14 October 1867, aged 7, of «Antonius Blažević negotiator et ejus uxor Anna»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-144X",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "martha-zubrinic-zubrinic": {
+   "slug": "martha-zubrinic-zubrinic",
+   "name": "Martha Žubrinić Zubrinic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 54 — Martha, born 24 April 1861, «Joanes Zubrinić vigil policiae, & Mattoia nata Se- / kulić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marija-blazevic-10": {
+   "slug": "marija-blazevic-10",
+   "name": "Marija Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1867",
+     "cite": "Senj births 1859–1877 image 199 entry 79 — Maria Franciska Amalia, born 28 July 1867, «Antonius Blažević Mercator», «Francisca nata Gosler»; identified with the tree's Marija by the father's name and trade, the mother's forename and the age at death in 1883; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17R4",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1883",
+     "cite": "Senj deaths 1859–1907 image 341 entry 54 — «Maria Blažević», 12 May 1883, aged 16, of «Anton Blažević trgovac» and Franica; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W5D",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "mirka-blazevic": {
+   "slug": "mirka-blazevic",
+   "name": "Mirka Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 222 entry 101 — «Emericus Joannes Andreas», born 22 November 1868, «Antonius Blažević mer[…]ator et Francisca nata Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17PT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1888",
+     "cite": "Senj deaths 1859–1907 image 395 entry 30 — «Mirko Blažević», 4 April 1888, aged 19 5/12, of «Ante Blažević i Francika rodjena Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1HZQ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "francisca-helena-blazevic": {
+   "slug": "francisca-helena-blazevic",
+   "name": "Francisca Helena Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 252 entry 62 — Francisca Helena, born 30 July 1870, «Antonius Blažević mercatoa, et Franci[…]a nata Fosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17DK",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1872",
+     "cite": "Senj deaths 1859–1907 image 190 entry 92 — «Francisca Blažević», 19 September 1872, aged 2, of «Antonius Blažević mercator, et ejus consors Francisca»; identified by the parents and the age; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1WTS",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "antonius-vincentius-ignatius-blazevic": {
+   "slug": "antonius-vincentius-ignatius-blazevic",
+   "name": "Antonius Vincentius Ignatius Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1874",
+     "cite": "Senj births 1859–1877 image 329 entry 72 — Antonius Vincentius Ignatius, born 11 July 1874, «Antonius Blažević et Francisca nata Goßler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anton-blazevic-2": {
+   "slug": "anton-blazevic-2",
+   "name": "Anton Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "death",
+     "year": "1886",
+     "cite": "Senj deaths 1859–1907 image 372 entry 30 — «Anton Blažević trgovac», 18 March 1886, aged 51, wife «Franjica Antonia»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1HSD",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1867",
+     "cite": "Senj births 1859–1877 image 199 entry 79 — Maria Franciska Amalia, born 28 July 1867, «Antonius Blažević Mercator», «Francisca nata Gosler»; identified with the tree's Marija by the father's name and trade, the mother's forename and the age at death in 1883; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17R4",
+     "derived": true,
+     "via": "marija-blazevic-10",
+     "viaName": "Marija Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "mathias-zubrinic": {
+   "slug": "mathias-zubrinic",
+   "name": "Mathias Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 12 entry 56 — Mathias, Joannes, born 30 May 1859, baptised 1 June 1859, «Joannes Zubri-nić servus politiae, et Mathia nata Sekulić», house «Segnia Nro 14»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17BP",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1861",
+     "cite": "Senj deaths 1859–1907 image 33 entry 10 — «Mathias Žubrinić filius legitimus» of «Joannes Žubrinić c: r: miles policiae, et ejus uxor Mathia», died 8 February 1861 aged 1 9/12, buried 10 February; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-147F",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "maria-anna-antonia-boras": {
+   "slug": "maria-anna-antonia-boras",
+   "name": "Maria Anna Antonia Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 14 entry 71 — Maria Anna, born 15 July 1859, baptised 18 July 1859, «Josephus Boras miles politiae et Maria nata Kabalin», house «Segnia Nro 307»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1932",
+     "cite": "Senj births 1859–1877 image 14 entry 71 — a later hand in pencil: «† 24./VIII.1.932. u Senju»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "franciska-prpic": {
+   "slug": "franciska-prpic",
+   "name": "Franciska \"Franka\" Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "birth",
+     "year": "1860",
+     "cite": "Senj births 1859–1877 image 37 entry 64 — Francisca Maria, born 4 July 1860, baptised 5 July 1860, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "stephannes-papic": {
+   "slug": "stephannes-papic",
+   "name": "Stephannes Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1860",
+     "cite": "Senj births 1859–1877 image 39 entry 83 — Stephanus, born 16 August 1860, baptised 19 August 1860, «Georgius Papić bajulus, & Mathia nata Pilip[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1917",
+     "cite": "Senj births 1859–1877 image 39 entry 83 — a later hand in faint pencil: «† 8.XII.1917»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W9Q",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "mikula-jurcic": {
+   "slug": "mikula-jurcic",
+   "name": "Mikula Jurcic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 63 entry 106 — Nicolaus, born 9 September 1861, baptised 11 September 1861, «Antonius Jurčić bajulus & Jacoba nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "georgius-paschalis-rivosechi": {
+   "slug": "georgius-paschalis-rivosechi",
+   "name": "Georgius Paschalis Rivosechi",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 50 — Georgius Paschalis, born 19 April 1862, baptised 21 April 1862, «Benedictus Rivosechi maritimus & Maria nata Fabiani»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "christina-matia-prpic-perpic": {
+   "slug": "christina-matia-prpic-perpic",
+   "name": "Christina Matia Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 54 — Christina, born 2 May 1862, baptised 4 May 1862, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "christina-maria-boras": {
+   "slug": "christina-maria-boras",
+   "name": "Christina Maria Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 81 entry 62 — Christina Maria, born 27 May 1862, baptised 1 June 1862, «Josephus Boras miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS8",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "philippus-jacobus-papic": {
+   "slug": "philippus-jacobus-papic",
+   "name": "Philippus Jacobus Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 105 entry 65 — Philippus Jacobus, born 1 May 1863, baptised 3 May 1863, «Georgius Papić & Mathia nata Pillipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1938",
+     "cite": "Senj births 1859–1877 image 105 entry 65 — a later hand: «† 7.X.1.938.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-172C",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "martinus-prpic-perpic": {
+   "slug": "martinus-prpic-perpic",
+   "name": "Martinus Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 119 entry 143 — Martinus, born 11 November 1863, baptised 12 November 1863, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17KB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "blasius-boras": {
+   "slug": "blasius-boras",
+   "name": "Blasius \"Blaz\" Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1864",
+     "cite": "Senj births 1859–1877 image 127 entry 24 — Blasius, born 2 February 1864, baptised 8 February 1864, «Josephus Boras c.r. miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17J4",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franciscus-prpic-perpic": {
+   "slug": "franciscus-prpic-perpic",
+   "name": "Franciscus Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 172 entry 34 — Franciscus, born 27 March 1866, baptised 27 March 1866, «Franciscus Perpić bajulus et Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17V9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "francisca-papic": {
+   "slug": "francisca-papic",
+   "name": "Francisca Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 173 entry 35 — Francisca, born 26 March 1866, baptised 28 March 1866, «Georgius Papić Operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17XR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "johana-jurcic": {
+   "slug": "johana-jurcic",
+   "name": "Johana Jurcic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 213 entry 39 — Joanna Nepomucena Antonia, born 7 May 1868, baptised 10 May 1868, «Antonius Jurčić bajulus et uxor ejus Jacomina nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-178Y",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "antonius-josip-papic": {
+   "slug": "antonius-josip-papic",
+   "name": "Antonius Josip \"Anton\" Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 215 entry 54 — Antonius, born 8 June 1868, baptised 11 June 1868, «Georgius Papić operarius, Mathia nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1937",
+     "cite": "Senj births 1859–1877 image 215 entry 54 — a later hand in the child's cell: «† 11.IX.1937.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-177G",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "franciscus-prpic-perpic-2": {
+   "slug": "franciscus-prpic-perpic-2",
+   "name": "Franciscus Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 255 entry 82 — Franciscus, born 29 September 1870, baptised 29 September 1870, «Fabianus Perpić et Rosalia nata Perpić confiniarii», house «Krivput Nro 79»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1787",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franciscus-grandic": {
+   "slug": "franciscus-grandic",
+   "name": "Franciscus Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 84 — Franciscus, born 1 October 1870, baptised 2 October 1870, «Georgius Grandić Hortulanus et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franjo-tomljanovic": {
+   "slug": "franjo-tomljanovic",
+   "name": "Franjo Tomljanovic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 86 — Michaël Franciscus, born 29 September 1870, baptised 2 October 1870, «Thomas Tomljanović faber ferrq. et Antonia nata Gerzanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1912",
+     "cite": "Senj births 1859–1877 image 256 entry 86 — a later hand in pencil: «† 5.XII.1.912.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "franciscus-paul-boras": {
+   "slug": "franciscus-paul-boras",
+   "name": "Franciscus Paul Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 284 entry 37 — Franciscus a Paule, born 30 March 1872, baptised 30 March 1872, «Thomas Boras bajulus et Paulina Bello[…]arbić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QP6",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "juraj-prpic": {
+   "slug": "juraj-prpic",
+   "name": "Juraj Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 286 entry 47 — Georgius, born 14 April 1872, baptised 15 April 1872, «Paulus Perpić et Rozalia conjux ejusdem nata Perpić», house «S. Helena Nro 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17PW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joanna-johanna-papic": {
+   "slug": "joanna-johanna-papic",
+   "name": "Joanna Johanna Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 289 entry 69 — Johanna, born 21 June 1872, baptised 23 June 1872, «Georgius Papić murarius et Matthea uxor ejusdem nata Pilipić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1Q1P",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marcus-perpic": {
+   "slug": "marcus-perpic",
+   "name": "Marcus Perpić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 295 entry 111 — Marcus, born 12 November 1872, baptised 14 November 1872, «Joannes Perpić conf. et Lucia nata Perpić», house «Krmpote N° 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QR1",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-belobaric": {
+   "slug": "joannes-belobaric",
+   "name": "Joannes Belobaric",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 306 entry 68 — Joannes, born 19 June 1873, baptised 22 June 1873, «Andreas Belobarbić bajulus et Joanna nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1934",
+     "cite": "Senj births 1859–1877 image 306 entry 68 — a later hand: «† u Senju 5./I. 1.934.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "petrus-grandic": {
+   "slug": "petrus-grandic",
+   "name": "Petrus Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 307 entry 70 — Petrus, born 25 June 1873, baptised 29 June 1873, «Georgius Grandić et Joanna Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-176B",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "frane-franjo-franciscus-papic": {
+   "slug": "frane-franjo-franciscus-papic",
+   "name": "Frane Franjo Franciscus Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 308 entry 81 — Franciscus, born 27 July 1873, baptised 3 August 1873, «Georgius Papić bajulus et Matia nata Pilipović»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1933",
+     "cite": "Senj births 1859–1877 image 308 entry 81 — a later hand: «† 15./III. 1.933.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-173V",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "marria-prpic-perpic": {
+   "slug": "marria-prpic-perpic",
+   "name": "Marria Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 336 entry 1 — Maria, born 1 January 1875, baptised 3 January 1875, «Stephanus Perpić conf. et Lucia nata Tomljanović», house «Krivopüt No 124»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17SS",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "gaspar-grandic": {
+   "slug": "gaspar-grandic",
+   "name": "Gaspar Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 338 entry 8 — Gaspar, born 5 January 1875, baptised 10 January 1875, «Georgius Grandić operarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "petrus-prpic-perpic": {
+   "slug": "petrus-prpic-perpic",
+   "name": "Petrus Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 342 entry 36 — Petrus, born 31 March 1875, baptised 4 April 1875, «Fabianus Perpić conf. et Ruža nata Perpić», house «Krivoput No 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XN",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "clementi-ursula-vukelic": {
+   "slug": "clementi-ursula-vukelic",
+   "name": "Clementi Ursula Vukelić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 108 — Clementina Ursula, born 18 October 1875, baptised 28 October 1875, «Petrus Vukelić caupo et Aloysia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-matthia-belobaric": {
+   "slug": "maria-matthia-belobaric",
+   "name": "Maria Matthia Belobaric",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 112 — Maria Matthia, born 8 November 1875, baptised 11 November 1875, «Andreas Belobarbić bajulus et Joanna nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mate-matthias-grzanic": {
+   "slug": "mate-matthias-grzanic",
+   "name": "Mate Matthias Grzanic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "birth",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 356 entry 25 — Matthias, born 19 February 1876, baptised 24 February 1876, «Simeun Gržanić murarius et Gertruda nata K[…]»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17SV",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "antonius-grandic": {
+   "slug": "antonius-grandic",
+   "name": "Antonius Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 362 entry 61 — Antonius, born 30 May 1876, baptised 4 June 1876, «Georgius Grandić murarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY8",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "simeon-grzin": {
+   "slug": "simeon-grzin",
+   "name": "Simeon Grzin",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 369 entry 102 — Simeon, born 26 October 1876, baptised 5 November 1876, «Franciscus Gržin bajulus et Matthia nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QPW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "vinko-glavas": {
+   "slug": "vinko-glavas",
+   "name": "Vinko Glavaš",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "birth",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 379 entry 37 — Vincentius, born 5 April 1877, baptised 15 April 1877, «Martinus Glavas[…] nauta et Margaretha nata […]»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-173H",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1942",
+     "cite": "Senj births 1859–1877 image 379 entry 37 — a later hand: «† 14.III.1.942.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QS7-899X-173H",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "andreas-perpic-prpic": {
+   "slug": "andreas-perpic-prpic",
+   "name": "Andreas Perpić Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 43 — Andreas, born 24 April 1877, baptised 25 April 1877, «Georgius Prpić et Maria Prpić ruricola», house «Krivi put Nro 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "georgina-vukelic": {
+   "slug": "georgina-vukelic",
+   "name": "Georgina Vukelić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 47 — Georgina, born 23 April 1877, baptised 9 May 1877, «Petrus de Vukeli[…] […] et Aloisia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1937",
+     "cite": "Senj births 1859–1877 image 380 entry 47 — later hands: a death «† 4.V.1.937» as the wife of the merchant Milan Brajković; and a marriage at Senj on 16 January 1937, as the widow of Franjo Albin Olivieri, to Milan Brajković; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
+  "maria-carmela-prpic": {
+   "slug": "maria-carmela-prpic",
+   "name": "Maria Carmela Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 382 entry 61 — Maria (de monte Carmelo), born 10 July 1877, baptised 15 July 1877, «Fabianus Prpić agricola et Rosalia Prpić», house «Krivi put (Sta Helena) Nrus Dmus 79»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QGJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-barbara-grandic": {
+   "slug": "maria-barbara-grandic",
+   "name": "Maria Barbara Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 385 entry 77 — Maria Barbara, born 17 September 1877, baptised 23 September 1877, «Georgius Grandić murarius et Johanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "death",
+     "year": "1965",
+     "cite": "Senj births 1859–1877 image 385 entry 77 — an official later note: «Umrla u Senju, 13.I. 1965. god.»; a note added to the baptism entry, not a death-register entry; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 0
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -7273,24 +9583,26 @@
    "rows": [
     {
      "kind": "named-on-a-child-baptism",
-     "year": "1883",
-     "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 108 — Clementina Ursula, born 18 October 1875, baptised 28 October 1875, «Petrus Vukelić caupo et Aloysia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
      "derived": true,
-     "via": "zvonimir-matei-vukelic",
-     "viaName": "Zvonimir Matei Vukelić",
-     "where": "notes/senj-1907-vukelic-index.md",
-     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
-     "indexOnly": true
-    }
-   ],
-   "direct": 0,
-   "derived": 1
-  },
-  "vjekoslava-pulanic": {
-   "slug": "vjekoslava-pulanic",
-   "name": "Vjekoslava \"Lojza\" Pulanic",
-   "ahn": null,
-   "rows": [
+     "via": "clementi-ursula-vukelic",
+     "viaName": "Clementi Ursula Vukelić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 47 — Georgina, born 23 April 1877, baptised 9 May 1877, «Petrus de Vukeli[…] […] et Aloisia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": true,
+     "via": "georgina-vukelic",
+     "viaName": "Georgina Vukelić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
     {
      "kind": "named-on-a-child-baptism",
      "year": "1883",
@@ -7304,7 +9616,49 @@
     }
    ],
    "direct": 0,
-   "derived": 1
+   "derived": 3
+  },
+  "vjekoslava-pulanic": {
+   "slug": "vjekoslava-pulanic",
+   "name": "Vjekoslava \"Lojza\" Pulanic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 108 — Clementina Ursula, born 18 October 1875, baptised 28 October 1875, «Petrus Vukelić caupo et Aloysia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+     "derived": true,
+     "via": "clementi-ursula-vukelic",
+     "viaName": "Clementi Ursula Vukelić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 47 — Georgina, born 23 April 1877, baptised 9 May 1877, «Petrus de Vukeli[…] […] et Aloisia nata Pulanić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": true,
+     "via": "georgina-vukelic",
+     "viaName": "Georgina Vukelić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1883",
+     "cite": "Senj, baptised 25 February 1883 — «Zvonimir Matej Vukelić», of «Petar Vukelić» and «Lojza Pulanić»; ark 1:1:X9DP-3Y7X. INDEX ONLY, not read from the image: the surname disagrees with this archive's own reading of «Putnić» at 5,812 px",
+     "derived": true,
+     "via": "zvonimir-matei-vukelic",
+     "viaName": "Zvonimir Matei Vukelić",
+     "where": "notes/senj-1907-vukelic-index.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-1907-vukelic-index.md",
+     "indexOnly": true
+    }
+   ],
+   "direct": 0,
+   "derived": 3
   },
   "luka-lucas-kalanj": {
    "slug": "luka-lucas-kalanj",
@@ -7569,10 +9923,43 @@
      "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
      "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 14 entry 71 — Maria Anna, born 15 July 1859, baptised 18 July 1859, «Josephus Boras miles politiae et Maria nata Kabalin», house «Segnia Nro 307»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+     "derived": true,
+     "via": "maria-anna-antonia-boras",
+     "viaName": "Maria Anna Antonia Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 81 entry 62 — Christina Maria, born 27 May 1862, baptised 1 June 1862, «Josephus Boras miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS8",
+     "derived": true,
+     "via": "christina-maria-boras",
+     "viaName": "Christina Maria Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1864",
+     "cite": "Senj births 1859–1877 image 127 entry 24 — Blasius, born 2 February 1864, baptised 8 February 1864, «Josephus Boras c.r. miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17J4",
+     "derived": true,
+     "via": "blasius-boras",
+     "viaName": "Blasius \"Blaz\" Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 0,
-   "derived": 1
+   "derived": 4
   },
   "marija-kabalin": {
    "slug": "marija-kabalin",
@@ -7589,10 +9976,43 @@
      "where": "notes/gertruda-exists-in-one-record-in-the-world.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/gertruda-exists-in-one-record-in-the-world.md",
      "indexOnly": true
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 14 entry 71 — Maria Anna, born 15 July 1859, baptised 18 July 1859, «Josephus Boras miles politiae et Maria nata Kabalin», house «Segnia Nro 307»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1W79",
+     "derived": true,
+     "via": "maria-anna-antonia-boras",
+     "viaName": "Maria Anna Antonia Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 81 entry 62 — Christina Maria, born 27 May 1862, baptised 1 June 1862, «Josephus Boras miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1WS8",
+     "derived": true,
+     "via": "christina-maria-boras",
+     "viaName": "Christina Maria Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1864",
+     "cite": "Senj births 1859–1877 image 127 entry 24 — Blasius, born 2 February 1864, baptised 8 February 1864, «Josephus Boras c.r. miles Politiae & Maria nata Kabalin»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17J4",
+     "derived": true,
+     "via": "blasius-boras",
+     "viaName": "Blasius \"Blaz\" Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
     }
    ],
    "direct": 0,
-   "derived": 1
+   "derived": 4
   },
   "augustin-babic": {
    "slug": "augustin-babic",
@@ -7628,6 +10048,930 @@
      "viaName": "Anton Ivan \"Ante\" Babić",
      "where": "notes/senj-baptism-1837-ante-babic.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-baptism-1837-ante-babic.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "antonius-blazevic-4": {
+   "slug": "antonius-blazevic-4",
+   "name": "Antonius Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 55 — Georgius Albertus, born 22 April 1861, «Antonius Blažević mercator & Anna nata Tr- / buhović»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": true,
+     "via": "georgius-jure-albertus-blazevic",
+     "viaName": "Georgius Jure Albertus Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "anna-buhovic": {
+   "slug": "anna-buhovic",
+   "name": "Anna Buhovic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 55 — Georgius Albertus, born 22 April 1861, «Antonius Blažević mercator & Anna nata Tr- / buhović»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": true,
+     "via": "georgius-jure-albertus-blazevic",
+     "viaName": "Georgius Jure Albertus Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "joannes-juan-ivan-ive-zubrinic-zubrinic": {
+   "slug": "joannes-juan-ivan-ive-zubrinic-zubrinic",
+   "name": "Joannes Juan Ivan Ive Žubrinić Zubrinic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 54 — Martha, born 24 April 1861, «Joanes Zubrinić vigil policiae, & Mattoia nata Se- / kulić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": true,
+     "via": "martha-zubrinic-zubrinic",
+     "viaName": "Martha Žubrinić Zubrinic",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "matia-sekula": {
+   "slug": "matia-sekula",
+   "name": "Matia Sekula",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 55 entry 54 — Martha, born 24 April 1861, «Joanes Zubrinić vigil policiae, & Mattoia nata Se- / kulić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1W4Q",
+     "derived": true,
+     "via": "martha-zubrinic-zubrinic",
+     "viaName": "Martha Žubrinić Zubrinic",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "franica-antonia": {
+   "slug": "franica-antonia",
+   "name": "Franica Antonia",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1867",
+     "cite": "Senj births 1859–1877 image 199 entry 79 — Maria Franciska Amalia, born 28 July 1867, «Antonius Blažević Mercator», «Francisca nata Gosler»; identified with the tree's Marija by the father's name and trade, the mother's forename and the age at death in 1883; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17R4",
+     "derived": true,
+     "via": "marija-blazevic-10",
+     "viaName": "Marija Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "antonius-blazevic-3": {
+   "slug": "antonius-blazevic-3",
+   "name": "Antonius \"Ante\" Blažević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 222 entry 101 — «Emericus Joannes Andreas», born 22 November 1868, «Antonius Blažević mer[…]ator et Francisca nata Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17PT",
+     "derived": true,
+     "via": "mirka-blazevic",
+     "viaName": "Mirka Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 252 entry 62 — Francisca Helena, born 30 July 1870, «Antonius Blažević mercatoa, et Franci[…]a nata Fosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17DK",
+     "derived": true,
+     "via": "francisca-helena-blazevic",
+     "viaName": "Francisca Helena Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1874",
+     "cite": "Senj births 1859–1877 image 329 entry 72 — Antonius Vincentius Ignatius, born 11 July 1874, «Antonius Blažević et Francisca nata Goßler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY9",
+     "derived": true,
+     "via": "antonius-vincentius-ignatius-blazevic",
+     "viaName": "Antonius Vincentius Ignatius Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "francisca-gosler-gofsler": {
+   "slug": "francisca-gosler-gofsler",
+   "name": "Francisca Gosler Gofsler",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 222 entry 101 — «Emericus Joannes Andreas», born 22 November 1868, «Antonius Blažević mer[…]ator et Francisca nata Gosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17PT",
+     "derived": true,
+     "via": "mirka-blazevic",
+     "viaName": "Mirka Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 252 entry 62 — Francisca Helena, born 30 July 1870, «Antonius Blažević mercatoa, et Franci[…]a nata Fosler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17DK",
+     "derived": true,
+     "via": "francisca-helena-blazevic",
+     "viaName": "Francisca Helena Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1874",
+     "cite": "Senj births 1859–1877 image 329 entry 72 — Antonius Vincentius Ignatius, born 11 July 1874, «Antonius Blažević et Francisca nata Goßler»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY9",
+     "derived": true,
+     "via": "antonius-vincentius-ignatius-blazevic",
+     "viaName": "Antonius Vincentius Ignatius Blažević",
+     "where": "notes/senj-blazevic-households-1858-1888.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-blazevic-households-1858-1888.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "joannes-juan-ivan-ive-zubrinic-8": {
+   "slug": "joannes-juan-ivan-ive-zubrinic-8",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 12 entry 56 — Mathias, Joannes, born 30 May 1859, baptised 1 June 1859, «Joannes Zubri-nić servus politiae, et Mathia nata Sekulić», house «Segnia Nro 14»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17BP",
+     "derived": true,
+     "via": "mathias-zubrinic",
+     "viaName": "Mathias Žubrinić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "mathia": {
+   "slug": "mathia",
+   "name": "Mathia",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1859",
+     "cite": "Senj births 1859–1877 image 12 entry 56 — Mathias, Joannes, born 30 May 1859, baptised 1 June 1859, «Joannes Zubri-nić servus politiae, et Mathia nata Sekulić», house «Segnia Nro 14»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17BP",
+     "derived": true,
+     "via": "mathias-zubrinic",
+     "viaName": "Mathias Žubrinić",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "anton-jurcic": {
+   "slug": "anton-jurcic",
+   "name": "Anton Jurcic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 63 entry 106 — Nicolaus, born 9 September 1861, baptised 11 September 1861, «Antonius Jurčić bajulus & Jacoba nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+     "derived": true,
+     "via": "mikula-jurcic",
+     "viaName": "Mikula Jurcic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 213 entry 39 — Joanna Nepomucena Antonia, born 7 May 1868, baptised 10 May 1868, «Antonius Jurčić bajulus et uxor ejus Jacomina nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-178Y",
+     "derived": true,
+     "via": "johana-jurcic",
+     "viaName": "Johana Jurcic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "jakomina-prpic": {
+   "slug": "jakomina-prpic",
+   "name": "Jakomina Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1861",
+     "cite": "Senj births 1859–1877 image 63 entry 106 — Nicolaus, born 9 September 1861, baptised 11 September 1861, «Antonius Jurčić bajulus & Jacoba nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1WHQ",
+     "derived": true,
+     "via": "mikula-jurcic",
+     "viaName": "Mikula Jurcic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1868",
+     "cite": "Senj births 1859–1877 image 213 entry 39 — Joanna Nepomucena Antonia, born 7 May 1868, baptised 10 May 1868, «Antonius Jurčić bajulus et uxor ejus Jacomina nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-178Y",
+     "derived": true,
+     "via": "johana-jurcic",
+     "viaName": "Johana Jurcic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "benedictus-rivosechi": {
+   "slug": "benedictus-rivosechi",
+   "name": "Benedictus \"Benedeto\" Rivosechi",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 50 — Georgius Paschalis, born 19 April 1862, baptised 21 April 1862, «Benedictus Rivosechi maritimus & Maria nata Fabiani»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": true,
+     "via": "georgius-paschalis-rivosechi",
+     "viaName": "Georgius Paschalis Rivosechi",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-fabianic-fabiani": {
+   "slug": "maria-fabianic-fabiani",
+   "name": "Maria Fabianic Fabiani",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 50 — Georgius Paschalis, born 19 April 1862, baptised 21 April 1862, «Benedictus Rivosechi maritimus & Maria nata Fabiani»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": true,
+     "via": "georgius-paschalis-rivosechi",
+     "viaName": "Georgius Paschalis Rivosechi",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "franjo-franciscus-perpic": {
+   "slug": "franjo-franciscus-perpic",
+   "name": "Franjo Franciscus Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 54 — Christina, born 2 May 1862, baptised 4 May 1862, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": true,
+     "via": "christina-matia-prpic-perpic",
+     "viaName": "Christina Matia Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 119 entry 143 — Martinus, born 11 November 1863, baptised 12 November 1863, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17KB",
+     "derived": true,
+     "via": "martinus-prpic-perpic",
+     "viaName": "Martinus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 172 entry 34 — Franciscus, born 27 March 1866, baptised 27 March 1866, «Franciscus Perpić bajulus et Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17V9",
+     "derived": true,
+     "via": "franciscus-prpic-perpic",
+     "viaName": "Franciscus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "anna-brozinicevic": {
+   "slug": "anna-brozinicevic",
+   "name": "Anna Brozinicevic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1862",
+     "cite": "Senj births 1859–1877 image 80 entry 54 — Christina, born 2 May 1862, baptised 4 May 1862, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17RW",
+     "derived": true,
+     "via": "christina-matia-prpic-perpic",
+     "viaName": "Christina Matia Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1863",
+     "cite": "Senj births 1859–1877 image 119 entry 143 — Martinus, born 11 November 1863, baptised 12 November 1863, «Franciscus Prpić bajulus & Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17KB",
+     "derived": true,
+     "via": "martinus-prpic-perpic",
+     "viaName": "Martinus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1866",
+     "cite": "Senj births 1859–1877 image 172 entry 34 — Franciscus, born 27 March 1866, baptised 27 March 1866, «Franciscus Perpić bajulus et Anna nata Brozinčević»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-17V9",
+     "derived": true,
+     "via": "franciscus-prpic-perpic",
+     "viaName": "Franciscus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "fabianus-prpic-perpic": {
+   "slug": "fabianus-prpic-perpic",
+   "name": "Fabianus \"Fabijan\" Prpic / Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 255 entry 82 — Franciscus, born 29 September 1870, baptised 29 September 1870, «Fabianus Perpić et Rosalia nata Perpić confiniarii», house «Krivput Nro 79»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1787",
+     "derived": true,
+     "via": "franciscus-prpic-perpic-2",
+     "viaName": "Franciscus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 342 entry 36 — Petrus, born 31 March 1875, baptised 4 April 1875, «Fabianus Perpić conf. et Ruža nata Perpić», house «Krivoput No 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XN",
+     "derived": true,
+     "via": "petrus-prpic-perpic",
+     "viaName": "Petrus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 382 entry 61 — Maria (de monte Carmelo), born 10 July 1877, baptised 15 July 1877, «Fabianus Prpić agricola et Rosalia Prpić», house «Krivi put (Sta Helena) Nrus Dmus 79»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QGJ",
+     "derived": true,
+     "via": "maria-carmela-prpic",
+     "viaName": "Maria Carmela Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "ruza-prpic": {
+   "slug": "ruza-prpic",
+   "name": "Ruza \"Rosalia\" Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 255 entry 82 — Franciscus, born 29 September 1870, baptised 29 September 1870, «Fabianus Perpić et Rosalia nata Perpić confiniarii», house «Krivput Nro 79»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1787",
+     "derived": true,
+     "via": "franciscus-prpic-perpic-2",
+     "viaName": "Franciscus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 342 entry 36 — Petrus, born 31 March 1875, baptised 4 April 1875, «Fabianus Perpić conf. et Ruža nata Perpić», house «Krivoput No 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XN",
+     "derived": true,
+     "via": "petrus-prpic-perpic",
+     "viaName": "Petrus Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 382 entry 61 — Maria (de monte Carmelo), born 10 July 1877, baptised 15 July 1877, «Fabianus Prpić agricola et Rosalia Prpić», house «Krivi put (Sta Helena) Nrus Dmus 79»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QGJ",
+     "derived": true,
+     "via": "maria-carmela-prpic",
+     "viaName": "Maria Carmela Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 3
+  },
+  "jure-juraj-georgius-grandic": {
+   "slug": "jure-juraj-georgius-grandic",
+   "name": "Jure Juraj Georgius Grandic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 84 — Franciscus, born 1 October 1870, baptised 2 October 1870, «Georgius Grandić Hortulanus et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": true,
+     "via": "franciscus-grandic",
+     "viaName": "Franciscus Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 307 entry 70 — Petrus, born 25 June 1873, baptised 29 June 1873, «Georgius Grandić et Joanna Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-176B",
+     "derived": true,
+     "via": "petrus-grandic",
+     "viaName": "Petrus Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 338 entry 8 — Gaspar, born 5 January 1875, baptised 10 January 1875, «Georgius Grandić operarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XT",
+     "derived": true,
+     "via": "gaspar-grandic",
+     "viaName": "Gaspar Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 362 entry 61 — Antonius, born 30 May 1876, baptised 4 June 1876, «Georgius Grandić murarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY8",
+     "derived": true,
+     "via": "antonius-grandic",
+     "viaName": "Antonius Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 385 entry 77 — Maria Barbara, born 17 September 1877, baptised 23 September 1877, «Georgius Grandić murarius et Johanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+     "derived": true,
+     "via": "maria-barbara-grandic",
+     "viaName": "Maria Barbara Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 5
+  },
+  "joanna-basic": {
+   "slug": "joanna-basic",
+   "name": "Joanna Basic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 84 — Franciscus, born 1 October 1870, baptised 2 October 1870, «Georgius Grandić Hortulanus et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": true,
+     "via": "franciscus-grandic",
+     "viaName": "Franciscus Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 307 entry 70 — Petrus, born 25 June 1873, baptised 29 June 1873, «Georgius Grandić et Joanna Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-176B",
+     "derived": true,
+     "via": "petrus-grandic",
+     "viaName": "Petrus Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 338 entry 8 — Gaspar, born 5 January 1875, baptised 10 January 1875, «Georgius Grandić operarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17XT",
+     "derived": true,
+     "via": "gaspar-grandic",
+     "viaName": "Gaspar Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 362 entry 61 — Antonius, born 30 May 1876, baptised 4 June 1876, «Georgius Grandić murarius et Joanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-1QY8",
+     "derived": true,
+     "via": "antonius-grandic",
+     "viaName": "Antonius Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 385 entry 77 — Maria Barbara, born 17 September 1877, baptised 23 September 1877, «Georgius Grandić murarius et Johanna nata Bašić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QXJ",
+     "derived": true,
+     "via": "maria-barbara-grandic",
+     "viaName": "Maria Barbara Grandic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 5
+  },
+  "toma-tomljanovic": {
+   "slug": "toma-tomljanovic",
+   "name": "Toma Tomljanovic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 86 — Michaël Franciscus, born 29 September 1870, baptised 2 October 1870, «Thomas Tomljanović faber ferrq. et Antonia nata Gerzanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": true,
+     "via": "franjo-tomljanovic",
+     "viaName": "Franjo Tomljanovic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "antonija": {
+   "slug": "antonija",
+   "name": "Antonija",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1870",
+     "cite": "Senj births 1859–1877 image 256 entry 86 — Michaël Franciscus, born 29 September 1870, baptised 2 October 1870, «Thomas Tomljanović faber ferrq. et Antonia nata Gerzanić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17X3",
+     "derived": true,
+     "via": "franjo-tomljanovic",
+     "viaName": "Franjo Tomljanovic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "thomas-boras": {
+   "slug": "thomas-boras",
+   "name": "Thomas Boras",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 284 entry 37 — Franciscus a Paule, born 30 March 1872, baptised 30 March 1872, «Thomas Boras bajulus et Paulina Bello[…]arbić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QP6",
+     "derived": true,
+     "via": "franciscus-paul-boras",
+     "viaName": "Franciscus Paul Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "paulina-bellobalbic": {
+   "slug": "paulina-bellobalbic",
+   "name": "Paulina Bellobalbic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 284 entry 37 — Franciscus a Paule, born 30 March 1872, baptised 30 March 1872, «Thomas Boras bajulus et Paulina Bello[…]arbić»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1QP6",
+     "derived": true,
+     "via": "franciscus-paul-boras",
+     "viaName": "Franciscus Paul Boras",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "pave-prpic": {
+   "slug": "pave-prpic",
+   "name": "Pave Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 286 entry 47 — Georgius, born 14 April 1872, baptised 15 April 1872, «Paulus Perpić et Rozalia conjux ejusdem nata Perpić», house «S. Helena Nro 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17PW",
+     "derived": true,
+     "via": "juraj-prpic",
+     "viaName": "Juraj Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "ruze-perpic": {
+   "slug": "ruze-perpic",
+   "name": "Ruze Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1872",
+     "cite": "Senj births 1859–1877 image 286 entry 47 — Georgius, born 14 April 1872, baptised 15 April 1872, «Paulus Perpić et Rozalia conjux ejusdem nata Perpić», house «S. Helena Nro 79»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17PW",
+     "derived": true,
+     "via": "juraj-prpic",
+     "viaName": "Juraj Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "andreas-belobaric": {
+   "slug": "andreas-belobaric",
+   "name": "Andreas Belobaric",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 306 entry 68 — Joannes, born 19 June 1873, baptised 22 June 1873, «Andreas Belobarbić bajulus et Joanna nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+     "derived": true,
+     "via": "joannes-belobaric",
+     "viaName": "Joannes Belobaric",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 112 — Maria Matthia, born 8 November 1875, baptised 11 November 1875, «Andreas Belobarbić bajulus et Joanna nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+     "derived": true,
+     "via": "maria-matthia-belobaric",
+     "viaName": "Maria Matthia Belobaric",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "joanna-prpic-perpic": {
+   "slug": "joanna-prpic-perpic",
+   "name": "Joanna Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1873",
+     "cite": "Senj births 1859–1877 image 306 entry 68 — Joannes, born 19 June 1873, baptised 22 June 1873, «Andreas Belobarbić bajulus et Joanna nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17FL",
+     "derived": true,
+     "via": "joannes-belobaric",
+     "viaName": "Joannes Belobaric",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 351 entry 112 — Maria Matthia, born 8 November 1875, baptised 11 November 1875, «Andreas Belobarbić bajulus et Joanna nata Prpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-17QR",
+     "derived": true,
+     "via": "maria-matthia-belobaric",
+     "viaName": "Maria Matthia Belobaric",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "stephanus-prpic-perpic": {
+   "slug": "stephanus-prpic-perpic",
+   "name": "Stephanus Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 336 entry 1 — Maria, born 1 January 1875, baptised 3 January 1875, «Stephanus Perpić conf. et Lucia nata Tomljanović», house «Krivopüt No 124»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17SS",
+     "derived": true,
+     "via": "marria-prpic-perpic",
+     "viaName": "Marria Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "lucia-tomljanovic": {
+   "slug": "lucia-tomljanovic",
+   "name": "Lucia Tomljanovic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1875",
+     "cite": "Senj births 1859–1877 image 336 entry 1 — Maria, born 1 January 1875, baptised 3 January 1875, «Stephanus Perpić conf. et Lucia nata Tomljanović», house «Krivopüt No 124»; READ FROM THE IMAGE; ark 3:1:3QS7-899X-17SS",
+     "derived": true,
+     "via": "marria-prpic-perpic",
+     "viaName": "Marria Prpic Perpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "frane-grzin": {
+   "slug": "frane-grzin",
+   "name": "Frane Grzin",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 369 entry 102 — Simeon, born 26 October 1876, baptised 5 November 1876, «Franciscus Gržin bajulus et Matthia nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QPW",
+     "derived": true,
+     "via": "simeon-grzin",
+     "viaName": "Simeon Grzin",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "matija-prpic-perpic-2": {
+   "slug": "matija-prpic-perpic-2",
+   "name": "Matija Prpic Perpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1876",
+     "cite": "Senj births 1859–1877 image 369 entry 102 — Simeon, born 26 October 1876, baptised 5 November 1876, «Franciscus Gržin bajulus et Matthia nata Perpić»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1QPW",
+     "derived": true,
+     "via": "simeon-grzin",
+     "viaName": "Simeon Grzin",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "georgius-jure-perpic-prpic": {
+   "slug": "georgius-jure-perpic-prpic",
+   "name": "Georgius Jure Perpić Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 43 — Andreas, born 24 April 1877, baptised 25 April 1877, «Georgius Prpić et Maria Prpić ruricola», house «Krivi put Nro 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": true,
+     "via": "andreas-perpic-prpic",
+     "viaName": "Andreas Perpić Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-3": {
+   "slug": "maria-3",
+   "name": "Maria",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1877",
+     "cite": "Senj births 1859–1877 image 380 entry 43 — Andreas, born 24 April 1877, baptised 25 April 1877, «Georgius Prpić et Maria Prpić ruricola», house «Krivi put Nro 82»; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-1Q2D",
+     "derived": true,
+     "via": "andreas-perpic-prpic",
+     "viaName": "Andreas Perpić Prpic",
+     "where": "notes/senj-births-1859-1877-matches.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
      "indexOnly": false
     }
    ],
