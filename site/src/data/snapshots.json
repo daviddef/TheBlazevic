@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 624,
- "images": 737,
+ "count": 626,
+ "images": 741,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -14664,6 +14664,94 @@
    "captured": "26 November 2026",
    "note": "notes/senj-births-1859-1877-matches.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md"
+  },
+  {
+   "id": "senj-marriage-1888-05-papic-fajdetic",
+   "entry": "senj-marriage-1888-05-papic-fajdetic-left.jpg",
+   "page": "senj-marriage-1888-05-papic-fajdetic-right.jpg",
+   "title": "Senj, 13 May 1888 — Stjepan Papić and Ana Fajdetić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 219 of the waypoint's list (ark 3QS7-L99X-1W3R): the first row: couple and ages on the left-hand page, parents and witnesses on the right",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1W3R?cc=2040054",
+   "says": "Entry 25: «Stjepan Papić bremenar», of Senj, 24, and «Ana Fajdetić služkinja», from Brinje, living at Senj, 21, both unmarried; parents «Jure Papić i Matija rodjena Pilipović» and «Šime Fajdetić i Katica» née C[…]ković of Brinje; witnesses Franjo Butorac and Šime Tijan; 13 May 1888. Read at full size.",
+   "slugs": [
+    "stjepan-papic",
+    "ane-fajdetic",
+    "georgius-juraj-joannis-papa-antic-papic",
+    "matia-matthea-pilipic",
+    "sime-fajdetic",
+    "katica-castkovic"
+   ],
+   "people": [
+    {
+     "slug": "stjepan-papic",
+     "kind": "people",
+     "name": "Stjepan \"Stipe\" Papić"
+    },
+    {
+     "slug": "ane-fajdetic",
+     "kind": "people",
+     "name": "Ane \"Anica, Ankica\" Fajdetic"
+    },
+    {
+     "slug": "georgius-juraj-joannis-papa-antic-papic",
+     "kind": "people",
+     "name": "Georgius Juraj (Joannis) Papa \"Jure\" Antić Papić"
+    },
+    {
+     "slug": "matia-matthea-pilipic",
+     "kind": "people",
+     "name": "Matia / Matthea \"Matija\" Pilipić"
+    },
+    {
+     "slug": "sime-fajdetic",
+     "kind": "people",
+     "name": "Sime Fajdetic"
+    },
+    {
+     "slug": "katica-castkovic",
+     "kind": "people",
+     "name": "Katica Castkovic"
+    }
+   ],
+   "captured": "26 November 2026",
+   "note": "notes/senj-papic-prpic-open-items.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md"
+  },
+  {
+   "id": "senj-baptism-1878-12-marija-prpic",
+   "entry": "senj-baptism-1878-12-marija-prpic-left.jpg",
+   "page": "senj-baptism-1878-12-marija-prpic-right.jpg",
+   "title": "Senj, 8 December 1878 — Marija, daughter of Fabijan and Ruža Prpić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 22 of the waypoint's list (ark 3QS7-L99X-172Z): the first row: child and parents on the left-hand page, house and godparents on the right",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-172Z?cc=2040054",
+   "says": "Entry 88: born 8 December, baptised 11 December 1878, «Marija», legitimate, «Fabijan Prpić i Ruža rodjena Prpić», farmer, «Sv. Jelena kb. 79, župa Krivi Put». Read at full size.",
+   "slugs": [
+    "marija-prpic-2",
+    "fabianus-prpic-perpic",
+    "ruza-prpic"
+   ],
+   "people": [
+    {
+     "slug": "marija-prpic-2",
+     "kind": "people",
+     "name": "Marija Prpic"
+    },
+    {
+     "slug": "fabianus-prpic-perpic",
+     "kind": "people",
+     "name": "Fabianus \"Fabijan\" Prpic / Perpic"
+    },
+    {
+     "slug": "ruza-prpic",
+     "kind": "people",
+     "name": "Ruza \"Rosalia\" Prpic"
+    }
+   ],
+   "captured": "26 November 2026",
+   "note": "notes/senj-papic-prpic-open-items.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md"
   }
  ],
  "bySlug": {
@@ -14880,12 +14968,14 @@
    "senj-marriage-1885-papic-perpic",
    "selce-baptism-1838-gregorius-antic",
    "senj-baptism-1857-josip-papic",
-   "karlobag-baptism-1810-matia-uroda"
+   "karlobag-baptism-1810-matia-uroda",
+   "senj-marriage-1888-05-papic-fajdetic"
   ],
   "matia-matthea-pilipic": [
    "senj-marriage-1885-papic-perpic",
    "senj-baptism-1857-josip-papic",
-   "karlobag-baptism-1838-matia-pilipic"
+   "karlobag-baptism-1838-matia-pilipic",
+   "senj-marriage-1888-05-papic-fajdetic"
   ],
   "martin-martinus-kosina": [
    "senj-marriage-1888-kozina-boras",
@@ -16367,6 +16457,27 @@
   ],
   "maria-barbara-grandic": [
    "senj-births-1859-77-img0385"
+  ],
+  "stjepan-papic": [
+   "senj-marriage-1888-05-papic-fajdetic"
+  ],
+  "ane-fajdetic": [
+   "senj-marriage-1888-05-papic-fajdetic"
+  ],
+  "sime-fajdetic": [
+   "senj-marriage-1888-05-papic-fajdetic"
+  ],
+  "katica-castkovic": [
+   "senj-marriage-1888-05-papic-fajdetic"
+  ],
+  "marija-prpic-2": [
+   "senj-baptism-1878-12-marija-prpic"
+  ],
+  "fabianus-prpic-perpic": [
+   "senj-baptism-1878-12-marija-prpic"
+  ],
+  "ruza-prpic": [
+   "senj-baptism-1878-12-marija-prpic"
   ]
  }
 }

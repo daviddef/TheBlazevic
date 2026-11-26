@@ -3,8 +3,8 @@
 "built": "2026-11-26",
 "catalogueBuilt": "2026-11-26",
 "inputs": {
-"site/src/data/searched.json": "40fbea4d2317becd",
-"site/src/data/people.json": "4bd1d3053e68446a",
+"site/src/data/searched.json": "7591fc82dc419680",
+"site/src/data/people.json": "78a0a2b91365d3fd",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
 "data/tree-page/atlas-data.json": "c3bd62e2c7ec59e3",
@@ -256,6 +256,55 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-147F?cc=2040054",
 "volumes": [
 "9R2D-K6D"
+]
+},
+{
+"id": 308,
+"src": "FamilySearch",
+"volume": "Senj marriages 1859–1920 (waypoint 9R2D-N3F), image 219: Stjepan Papić and Ana Fajdetić, 1888",
+"years": "1859–1920",
+"span": [
+1859,
+1920
+],
+"what": "Image 219 only, entry 25, found through FamilySearch's index of the book held with the private copy (terms read in the index: Papić, Fajdetić) and read at full size, to settle whether the tree holds one son of Juraj Papić twice. The book…",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"papic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1W3R?cc=2040054",
+"volumes": [
+"9R2D-N3F"
+]
+},
+{
+"id": 309,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL), image 22: Marija Prpić, December 1878",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Image 22 only, entry 88, reached from the tree's own citation and read at full size, to settle whether the tree's Marija of 1878 repeats Maria de monte Carmelo of 1877. The book was not walked.",
+"when": "26 Nov 2026",
+"ord": 20261126,
+"outcome": "yield",
+"surnames": [
+"prpic"
+],
+"places": [
+"kriviput",
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-172Z?cc=2040054",
+"volumes": [
+"9R2D-JWL"
 ]
 },
 {
@@ -5458,12 +5507,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 182,
+"shown on person pages (by tag)": 184,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 308,
-"shown": 185
+"register": 310,
+"shown": 187
 }
 }

@@ -1587,11 +1587,11 @@
  },
  {
   "id": "@I508714@",
-  "kind": "note",
-  "what": "Birth entry not found",
-  "tree": "Born 1864",
-  "record": "None of the 133 entries for children born in 1864 is a child of Georgius Papić and Mathia",
-  "why": "The captured table of Senj births 1859–1877. This couple's Stephanus is born in 1860; whether the tree holds him twice is not settled.",
+  "kind": "disputed",
+  "what": "Born 1864, and a second Stephen",
+  "tree": "Stjepan, born 1864, married 1888; a brother Stephannes, born 1860",
+  "record": "Married 13 May 1888 aged 24, son of Jure Papić and Matija née Pilipović. The births of 1859–1877 hold one Stephen born to them, on 16 August 1860, and none in 1864",
+  "why": "Senj marriages 1859–1920 image 219 entry 25, and the captured table of the births. An age of 24 gives the tree's 1864; the one baptism is of 1860. The two read as one man whose age was entered three years short. That is an inference, and nothing is merged here.",
   "href": "/people/stjepan-papic/"
  },
  {
@@ -1638,5 +1638,14 @@
   "record": "Died at Senj, 13 January 1965",
   "why": "Senj births 1859–1877 image 385 entry 77, read at full size. An official note added to the baptism entry.",
   "href": "/people/maria-barbara-grandic/"
+ },
+ {
+  "id": "@I508398@",
+  "kind": "confirmed",
+  "what": "A second daughter named Maria",
+  "tree": "Born 1878, a sister of Maria Carmela of 1877",
+  "record": "Born 8 December 1878, baptised 11 December, daughter of Fabijan Prpić and Ruža, house 79",
+  "why": "Senj births 1878–1894 image 22 entry 88, read at full size: her own entry, seventeen months after Maria de monte Carmelo (births 1859–1877 image 382 entry 61). Two children.",
+  "href": "/people/marija-prpic-2/"
  }
 ]

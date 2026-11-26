@@ -1,9 +1,9 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 290,
-  "people": 216,
-  "derived": 154,
+  "rows": 293,
+  "people": 219,
+  "derived": 156,
   "onDirectLine": 0,
   "indexOnly": 19,
   "earliest": 1725,
@@ -12,7 +12,7 @@
  "kinds": [
   [
    "baptism",
-   90
+   91
   ],
   [
    "death",
@@ -24,7 +24,7 @@
   ],
   [
    "marriage",
-   32
+   34
   ],
   [
    "marriage-of-child",
@@ -3071,6 +3071,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1878",
+   "cite": "Senj births 1878–1894 image 22 entry 88 — Marija, born 8 December 1878, baptised 11 December, «Fabijan Prpić i Ruža rodjena Prpić», Sv. Jelena house 79, Krivi Put parish; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-172Z",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-papic-prpic-open-items.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+   "indexOnly": false,
+   "slug": "marija-prpic-2",
+   "name": "Marija Prpic",
+   "ahn": null
+  },
+  {
    "kind": "marriage",
    "year": "1880",
    "cite": "Krivi Put marriages, entry 14, 3 October 1880 — «Antona Krmpotić, opančar, 26, and Marija Perpić, 19»; parents Leo Krmpotić × Tereza Biondić and Mate Perpić × Kata Perpić; READ FROM THE IMAGE; ark 3:1:3QSQ-G99X-R3C",
@@ -3367,6 +3381,20 @@
   {
    "kind": "marriage",
    "year": "1888",
+   "cite": "Senj marriages 1859–1920 image 219 entry 25 — 13 May 1888, «Stjepan Papić» 24, son of «Jure Papić i Matija rodjena Pilipović», and «Ana Fajdetić» 21, daughter of «Šime Fajdetić i Katica»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1W3R",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-papic-prpic-open-items.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+   "indexOnly": false,
+   "slug": "ane-fajdetic",
+   "name": "Ane \"Anica, Ankica\" Fajdetic",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1888",
    "cite": "Senj marriages p. 209 entry 1, READ FROM THE IMAGE — «1888 dne 12 siečnja», her marriage to «Martin KOZINA, trgovac», age 47, bachelor, whose LOCUS ORIGINIS is «Kranjska župa sv. Martin kod KRAINBURG» — Carniola, the parish of St Martin near Kranj, SLOVENIA. She is «Angjelika Boras», of Senj, age 30. Her parents «Josip Boras, gradski stražar, i Maria rodjena Kabalin». HIS PARENT COLUMN GIVES «Gertruda Kozina, posjednica» AND A DASH WHERE THE FATHER WOULD BE. Witnesses «Mile Crnković, trgovac» and «Ivan Boras, kr. pomorske straže nadstojnik». Celebrant «Mirko Babić, kapelan». Married by dispensation of the Senj Ordinariate, 7 January 1888 no. 38, with the banns read ONCE only",
    "derived": false,
    "via": null,
@@ -3418,6 +3446,20 @@
    "indexOnly": false,
    "slug": "mirka-blazevic",
    "name": "Mirka Blažević",
+   "ahn": null
+  },
+  {
+   "kind": "marriage",
+   "year": "1888",
+   "cite": "Senj marriages 1859–1920 image 219 entry 25 — 13 May 1888, «Stjepan Papić» 24, son of «Jure Papić i Matija rodjena Pilipović», and «Ana Fajdetić» 21, daughter of «Šime Fajdetić i Katica»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1W3R",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/senj-papic-prpic-open-items.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+   "indexOnly": false,
+   "slug": "stjepan-papic",
+   "name": "Stjepan \"Stipe\" Papić",
    "ahn": null
   },
   {
@@ -9232,6 +9274,66 @@
    "direct": 2,
    "derived": 0
   },
+  "stjepan-papic": {
+   "slug": "stjepan-papic",
+   "name": "Stjepan \"Stipe\" Papić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1888",
+     "cite": "Senj marriages 1859–1920 image 219 entry 25 — 13 May 1888, «Stjepan Papić» 24, son of «Jure Papić i Matija rodjena Pilipović», and «Ana Fajdetić» 21, daughter of «Šime Fajdetić i Katica»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1W3R",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-papic-prpic-open-items.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ane-fajdetic": {
+   "slug": "ane-fajdetic",
+   "name": "Ane \"Anica, Ankica\" Fajdetic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "marriage",
+     "year": "1888",
+     "cite": "Senj marriages 1859–1920 image 219 entry 25 — 13 May 1888, «Stjepan Papić» 24, son of «Jure Papić i Matija rodjena Pilipović», and «Ana Fajdetić» 21, daughter of «Šime Fajdetić i Katica»; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-1W3R",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-papic-prpic-open-items.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "marija-prpic-2": {
+   "slug": "marija-prpic-2",
+   "name": "Marija Prpic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1878",
+     "cite": "Senj births 1878–1894 image 22 entry 88 — Marija, born 8 December 1878, baptised 11 December, «Fabijan Prpić i Ruža rodjena Prpić», Sv. Jelena house 79, Krivi Put parish; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-172Z",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/senj-papic-prpic-open-items.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
   "antonia-pekass-pekkas": {
    "slug": "antonia-pekass-pekkas",
    "name": "Antonia Pekass (Pekkas)",
@@ -10501,10 +10603,21 @@
      "where": "notes/senj-births-1859-1877-matches.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1878",
+     "cite": "Senj births 1878–1894 image 22 entry 88 — Marija, born 8 December 1878, baptised 11 December, «Fabijan Prpić i Ruža rodjena Prpić», Sv. Jelena house 79, Krivi Put parish; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-172Z",
+     "derived": true,
+     "via": "marija-prpic-2",
+     "viaName": "Marija Prpic",
+     "where": "notes/senj-papic-prpic-open-items.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+     "indexOnly": false
     }
    ],
    "direct": 0,
-   "derived": 3
+   "derived": 4
   },
   "ruza-prpic": {
    "slug": "ruza-prpic",
@@ -10543,10 +10656,21 @@
      "where": "notes/senj-births-1859-1877-matches.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-births-1859-1877-matches.md",
      "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1878",
+     "cite": "Senj births 1878–1894 image 22 entry 88 — Marija, born 8 December 1878, baptised 11 December, «Fabijan Prpić i Ruža rodjena Prpić», Sv. Jelena house 79, Krivi Put parish; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-172Z",
+     "derived": true,
+     "via": "marija-prpic-2",
+     "viaName": "Marija Prpic",
+     "where": "notes/senj-papic-prpic-open-items.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md",
+     "indexOnly": false
     }
    ],
    "direct": 0,
-   "derived": 3
+   "derived": 4
   },
   "jure-juraj-georgius-grandic": {
    "slug": "jure-juraj-georgius-grandic",
