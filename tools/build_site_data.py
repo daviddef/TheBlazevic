@@ -100,6 +100,8 @@ PAGE_KEYS = {sl: ks for sl, _, _, ks in PAGE_FAMILIES}
 JUNK = re.compile(
     r"(\bto be sort|\bsorting\b|\bfor sorting\b|\bworking\b|\bunknown\b|"
     r"\bfree text\b|\bbrothers?\s*[\[(]|\bsisters?\s*[\[(]|^\s*nn\b|\bplaceholder\b|"
+    # "Illegitimate", alone: the tree's stand-in for a father no entry names
+    r"^\s*illegitimate\s*$|"
     # "Brothers of Casparus (It Seems)", "Joannes [Brothers of] Zubrinic"
     r"\bbrothers?\s+of\b|\bsisters?\s+of\b|\bit seems\b|"
     # "1800-1830 Birth - Selce Papic (Papa)", "1700 Birth - Selce ..." - a name

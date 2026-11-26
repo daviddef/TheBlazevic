@@ -5378,13 +5378,6 @@
   "rel": {
    "parents": [
     {
-     "name": "Illegitimate",
-     "slug": "illegitimate",
-     "id": "@I508783@",
-     "born": null,
-     "died": null
-    },
-    {
      "name": "Theresia Blažević",
      "slug": "theresia-blazevic",
      "id": "@I508782@",
@@ -10931,69 +10924,6 @@
      "id": "@I504962@",
      "born": 1732,
      "died": 1811
-    }
-   ]
-  }
- },
- {
-  "id": "@I508783@",
-  "slug": "illegitimate",
-  "name": "Illegitimate",
-  "given": "Illegitimate",
-  "surname": "",
-  "nick": "",
-  "sex": "M",
-  "born": "",
-  "bornPlace": "",
-  "died": "",
-  "diedPlace": "",
-  "cause": "",
-  "burial": "",
-  "baptised": "",
-  "baptisedPlace": "",
-  "occupations": [],
-  "byear": null,
-  "dyear": null,
-  "sources": [],
-  "notes": [],
-  "events": [
-   {
-    "kind": "death",
-    "date": "",
-    "place": "",
-    "detail": "Y",
-    "note": ""
-   }
-  ],
-  "family": null,
-  "rel": {
-   "parents": [],
-   "spouses": [
-    {
-     "name": "Theresia Blažević",
-     "slug": "theresia-blazevic",
-     "id": "@I508782@",
-     "born": null,
-     "died": null,
-     "marriedDate": "",
-     "marriedPlace": ""
-    }
-   ],
-   "siblings": [],
-   "children": [
-    {
-     "name": "Maria Mariam",
-     "slug": "maria-mariam-mariam",
-     "id": "@I508786@",
-     "born": 1858,
-     "died": 1861
-    },
-    {
-     "name": "Christophorus",
-     "slug": "christophorus",
-     "id": "@I508784@",
-     "born": 1861,
-     "died": 1862
     }
    ]
   }
@@ -67742,17 +67672,7 @@
   "family": "blazevic",
   "rel": {
    "parents": [],
-   "spouses": [
-    {
-     "name": "Illegitimate",
-     "slug": "illegitimate",
-     "id": "@I508783@",
-     "born": null,
-     "died": null,
-     "marriedDate": "",
-     "marriedPlace": ""
-    }
-   ],
+   "spouses": [],
    "siblings": [
     {
      "name": "Anton Blažević",
@@ -252734,13 +252654,6 @@
   "family": null,
   "rel": {
    "parents": [
-    {
-     "name": "Illegitimate",
-     "slug": "illegitimate",
-     "id": "@I508783@",
-     "born": null,
-     "died": null
-    },
     {
      "name": "Theresia Blažević",
      "slug": "theresia-blazevic",

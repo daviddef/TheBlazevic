@@ -35,6 +35,9 @@ const whoMap = whoRedirects(
 const redirects = { ...mergedRedirects, ...whoMap, '/changed': `${BASE}/corrections/`, '/married-in': `${BASE}/marriages/`,
   /* 9 October 2026: folded into /errands/, which is the same subject. */
   '/photograph-these': `${BASE}/errands/#photographs`,
+  /* 26 November 2026: «Illegitimate» was the tree's stand-in for a father no entry names, never a person. Its published addresses
+     answer with the mother's page. */
+  '/people/illegitimate': `${BASE}/people/theresia-blazevic/`, '/who/illegitimate': `${BASE}/people/theresia-blazevic/`,
   /* 5 November 2026: Hedviga's, Milka's and Oto's own pages are their person pages, in story mode (src/lib/lifeStories.js). */
   '/hedviga': `${BASE}/people/hedviga-blazevic/`,
   '/milka': `${BASE}/people/milka-lucia-papic/`, '/oto': `${BASE}/people/oto-blazevic/`,

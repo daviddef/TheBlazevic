@@ -46,6 +46,8 @@ Each couple is in the tree; the child is not among their children there, and no 
 - **Stjepan «Stipe» Papić**, born 1864 in the tree: none of the 133 entries for children born in 1864 is a child of Georgius Papić and Mathia. Whether he is the Stephanus of 1860 entered twice in the tree, or was born elsewhere, is not settled.
 - The tree also holds a Marija Prpić born 1878 to Fabijan and Ruža, beside Maria de monte Carmelo of July 1877. The births of 1878 have not been read for her; nothing is merged.
 
+Both were checked later the same day: see `senj-papic-prpic-open-items.md`. Marija of 1878 has her own baptism; Stjepan reads as the Stephanus of 1860, which is an inference, and nothing is merged.
+
 ## How the names are written
 
 Perpić and Prpić are both written for one couple's name (Franciscus and Anna; Fabianus and Rosalia). Anna's maiden name reads Brozinčević. Paulina's reads Belobalbić in 1861–62 and Belobarbić later. Mathia Papić's reads Pilipić, Pillipić and, in 1873, Pilipović. Spellings are for the Record Atlas catalogue; this note copies what the page has.
