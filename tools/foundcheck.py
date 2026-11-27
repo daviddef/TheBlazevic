@@ -43,6 +43,16 @@ FOUND = os.path.join(ROOT, "sources", "found.psv")
 # Rows that have been looked at by a person and settled. A found.psv row is
 # listed here with the reason it is NOT the tree person it resembles.
 SETTLED = {
+    # 27 November 2026, three people read in the Senj marriages and births.
+    "Maria Anna Stipaničić married Senj February 1875":
+        "resembles four women of 1874-76 on a given name and a year. Hers is the year of a "
+        "marriage at which she was 23, and none of them is a Stipaničić",
+    "Ivan Kren married Senj March 1908":
+        "resembles two men named Ivan Kalanj born 1909 on a given name. 1908 is the year of "
+        "his marriage; the entry has him born on 3 May 1874, a Kren",
+    "Josip Marijan Lončarić baptised Senj March 1888":
+        "resembles Josip Nagoda 1888, a different surname. A son of Mate Lončarić and Vicenca "
+        "née Lenac, baptised at Senj on 26 March 1888",
     # 26 November 2026, two children read in the Senj births of 1859-1877.
     "Thomas Boras baptised Senj January 1862":
         "resembles Willem Frederick Thomas Barry 1861 on one given name and a "

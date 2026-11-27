@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-26",
-"catalogueBuilt": "2026-11-26",
+"built": "2026-11-27",
+"catalogueBuilt": "2026-11-27",
 "inputs": {
-"site/src/data/searched.json": "7591fc82dc419680",
+"site/src/data/searched.json": "501c854408de6737",
 "site/src/data/people.json": "78a0a2b91365d3fd",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -14,7 +14,10 @@
 "antic": "antic",
 "babic": "babic",
 "bacchi": "bacchi",
+"bellobalbic": "belobarbic",
 "belobarbic": "belobarbic",
+"belobaric": "belobarbic",
+"blasevic": "blazevic",
 "blazevic": "blazevic",
 "boras": "boras",
 "boric": "boric",
@@ -30,6 +33,7 @@
 "kosina": "kosina",
 "kraljich": "kraljich",
 "krmpotic": "krmpotic",
+"lenac": "lenac",
 "loncaric": "loncaric",
 "loncarich": "loncaric",
 "luckinic": "luckinic",
@@ -44,6 +48,7 @@
 "perpic": "prpic",
 "perpich": "prpic",
 "pilipic": "pilipic",
+"pilipovic": "pilipic",
 "prpic": "prpic",
 "rivosechi": "rivosechi",
 "smojver": "smojver",
@@ -60,7 +65,7 @@
 "antic": "Antić",
 "babic": "Babić",
 "bacchi": "Bacchi",
-"belobarbic": "Belobarbic",
+"belobarbic": "Belobarbić",
 "blazevic": "Blažević",
 "boras": "Boras",
 "boric": "Boric",
@@ -69,13 +74,14 @@
 "gerkacs": "Gerkacs",
 "glavas": "Glavaš",
 "grandic": "Grandic",
-"grzanic": "Grzanic",
+"grzanic": "Gržanić",
 "jellicic": "Jelličić",
 "jurcic": "Jurčić",
 "kalanj": "Kalanj",
 "kosina": "Kosina",
 "kraljich": "Kraljich",
 "krmpotic": "Krmpotić",
+"lenac": "Lenac",
 "loncaric": "Lončarić",
 "luckinic": "Luckinić",
 "maric": "Marić",
@@ -98,6 +104,149 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 310,
+"src": "FamilySearch",
+"volume": "Senj marriages 1859–1920 (waypoint 9R2D-N3F): the families' marriages of 1862–1886 read at the page",
+"years": "1859–1920",
+"span": [
+1859,
+1920
+],
+"what": "Images 25, 29, 75, 77, 104, 127, 142, 161, 187, 188, 197, 200, 208 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the…",
+"when": "27 Nov 2026",
+"ord": 20261127,
+"outcome": "yield",
+"surnames": [
+"belobarbic",
+"blazevic",
+"grandic",
+"lenac",
+"loncaric",
+"prpic",
+"rivosechi",
+"tomljanovic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1Q7K?cc=2040054",
+"volumes": [
+"9R2D-N3F"
+]
+},
+{
+"id": 311,
+"src": "FamilySearch",
+"volume": "Senj marriages 1859–1920 (waypoint 9R2D-N3F): the families' marriages of 1903–1919 read at the page",
+"years": "1859–1920",
+"span": [
+1859,
+1920
+],
+"what": "Images 275, 276, 279, 287, 288, 291, 297, 301, 307, 312, 316, 329, 340, 341, 345, 349, 354, 355, 356, 360, 363 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the…",
+"when": "27 Nov 2026",
+"ord": 20261127,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"boras",
+"glavas",
+"krmpotic",
+"loncaric",
+"papic",
+"prpic",
+"zubrinic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17ZY?cc=2040054",
+"volumes": [
+"9R2D-N3F"
+]
+},
+{
+"id": 312,
+"src": "FamilySearch",
+"volume": "Senj deaths 1859–1907 (waypoint 9R2D-K6D): children of Perpić, Belobarbić, Blažević, Babić and Krmpotić households read at the page",
+"years": "1859–1907",
+"span": [
+1859,
+1907
+],
+"what": "Images 73, 280, 297, 332, 333, 394, 425, 426, 490, 498, 624 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page…",
+"when": "27 Nov 2026",
+"ord": 20261127,
+"outcome": "yield",
+"surnames": [
+"babic",
+"belobarbic",
+"blazevic",
+"krmpotic",
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-14SP?cc=2040054",
+"volumes": [
+"9R2D-K6D"
+]
+},
+{
+"id": 313,
+"src": "FamilySearch",
+"volume": "Senj births 1878–1894 (waypoint 9R2D-JWL): the families' children matched to the tree at the page",
+"years": "1878–1894",
+"span": [
+1878,
+1894
+],
+"what": "Images 10, 17, 45, 54, 103, 139, 161, 256 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page and is not cited.…",
+"when": "27 Nov 2026",
+"ord": 20261127,
+"outcome": "yield",
+"surnames": [
+"belobarbic",
+"blazevic",
+"krmpotic",
+"loncaric",
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17CT?cc=2040054",
+"volumes": [
+"9R2D-JWL"
+]
+},
+{
+"id": 314,
+"src": "FamilySearch",
+"volume": "Senj births 1756–1858 (waypoint 9R2M-L27): Perpić and Lenac baptisms of 1854 and 1857 read at the page",
+"years": "1756–1858",
+"span": [
+1756,
+1858
+],
+"what": "Images 537, 562 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page and is not cited. The book was not walked.",
+"when": "27 Nov 2026",
+"ord": 20261127,
+"outcome": "yield",
+"surnames": [
+"lenac",
+"prpic"
+],
+"places": [
+"senj"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5YBP?cc=2040054",
+"volumes": [
+"9R2M-L27"
+]
+},
 {
 "id": 302,
 "src": "FamilySearch",
@@ -2615,6 +2764,8 @@
 "nil": {
 "blazevic": [
 "missed",
+"Blasević",
+"Blasevich",
 "Blazevich"
 ],
 "zubrinic": [
@@ -5507,12 +5658,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 184,
+"shown on person pages (by tag)": 189,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 310,
-"shown": 187
+"register": 315,
+"shown": 192
 }
 }
