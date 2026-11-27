@@ -1,7 +1,7 @@
 {
  "note": "Built by tools/snapshots.py from sources/snapshots.psv.",
- "count": 626,
- "images": 741,
+ "count": 690,
+ "images": 866,
  "rows": [
   {
    "id": "karlobag-marriage-1774",
@@ -14752,6 +14752,2438 @@
    "captured": "26 November 2026",
    "note": "notes/senj-papic-prpic-open-items.md",
    "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-papic-prpic-open-items.md"
+  },
+  {
+   "id": "senj-marriage-1862-03-padovic-krajac",
+   "entry": "senj-marriage-1862-03-padovic-krajac-left.jpg",
+   "page": "senj-marriage-1862-03-padovic-krajac-right.jpg",
+   "title": "Senj, 23 March 1862 — Henricus Padović and Natalia Krajacz",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 25 of the waypoint's list (ark 3QS7-899X-1Q7K): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1Q7K?cc=2040054",
+   "says": "Entry 8: «Dominus Henricus Padović», county assessor, born at Fužine, 31, married «Domicella Natalia Krajacz», 20, of Senj; parents the late Michaël Padović and Maria née Blažević; Raphaël Krajacz, merchant, and Helena née Ferlan. Read at full size.",
+   "slugs": [
+    "dominus-henricus-padovic",
+    "michael-padovic",
+    "maria-blazevic-4",
+    "natalia-krajacz-married-senj-march-1862"
+   ],
+   "people": [
+    {
+     "slug": "dominus-henricus-padovic",
+     "kind": "people",
+     "name": "Dominus Henricus Padovic"
+    },
+    {
+     "slug": "michael-padovic",
+     "kind": "people",
+     "name": "Michael Padovic"
+    },
+    {
+     "slug": "maria-blazevic-4",
+     "kind": "people",
+     "name": "Maria Blažević"
+    },
+    {
+     "slug": "natalia-krajacz-married-senj-march-1862",
+     "kind": "found",
+     "name": "Natalia Krajacz married Senj March 1862"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1862-09-bronzini-adamic",
+   "entry": "senj-marriage-1862-09-bronzini-adamic-left.jpg",
+   "page": "senj-marriage-1862-09-bronzini-adamic-right.jpg",
+   "title": "Senj, 1 September 1862 — Paschalis Bronzini and Catharina Adamić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 29 of the waypoint's list (ark 3QSQ-G99X-1Q2Y): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q2Y?cc=2040054",
+   "says": "Entry 18: «Paschalis Bronzini», innkeeper, widower, 41, from Rijeka, and «Catharina Adamić», servant, 28, from Otočac; parents Nicolaus and Francisca Bronzini; Volfgangus Adamić and Magdalena née Žubrinić. Read at full size.",
+   "slugs": [
+    "paschalis-bronzini",
+    "catharina-adamic-adamich",
+    "wolfgangus-volfgangus-adamic-adamich",
+    "magdalena-zubrinic-4"
+   ],
+   "people": [
+    {
+     "slug": "paschalis-bronzini",
+     "kind": "people",
+     "name": "Paschalis Bronzini"
+    },
+    {
+     "slug": "catharina-adamic-adamich",
+     "kind": "people",
+     "name": "Catharina Adamic Adamich"
+    },
+    {
+     "slug": "wolfgangus-volfgangus-adamic-adamich",
+     "kind": "people",
+     "name": "Wolfgangus Volfgangus Adamic Adamich"
+    },
+    {
+     "slug": "magdalena-zubrinic-4",
+     "kind": "people",
+     "name": "Magdalena Žubrinić"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1868-06-grandic-basic",
+   "entry": "senj-marriage-1868-06-grandic-basic-left.jpg",
+   "page": "senj-marriage-1868-06-grandic-basic-right.jpg",
+   "title": "Senj, 21 June 1868 — Georgius Grandić and Joanna Petrina Basić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 75 of the waypoint's list (ark 3QS7-899X-13YB): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-13YB?cc=2040054",
+   "says": "Entry 10: «Georgius Grandić», gardener, 32, born at Baška and living at Senj, and «Joanna Petrina Basić», 19, of Senj; parents Franciscus Grandić and Margarita née Barbalić; Nicolaus Basić, mason, and Barbara née Lenac. Read at full size.",
+   "slugs": [
+    "jure-juraj-georgius-grandic",
+    "frano-franciscus-grandic",
+    "margareta-barbalic",
+    "joanna-basic"
+   ],
+   "people": [
+    {
+     "slug": "jure-juraj-georgius-grandic",
+     "kind": "people",
+     "name": "Jure Juraj Georgius Grandic"
+    },
+    {
+     "slug": "frano-franciscus-grandic",
+     "kind": "people",
+     "name": "Frano Franciscus Grandic"
+    },
+    {
+     "slug": "margareta-barbalic",
+     "kind": "people",
+     "name": "Margareta Barbalic"
+    },
+    {
+     "slug": "joanna-basic",
+     "kind": "people",
+     "name": "Joanna Basic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1868-11-tomljanovic-gerzanic",
+   "entry": "senj-marriage-1868-11-tomljanovic-gerzanic-left.jpg",
+   "page": "senj-marriage-1868-11-tomljanovic-gerzanic-right.jpg",
+   "title": "Senj, 22 November 1868 — Thomas Tomljanović and Antonia Geržanić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 77 of the waypoint's list (ark 3QSQ-G99X-1Q2L): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q2L?cc=2040054",
+   "says": "Entry 15: «Thomas Tomljanović», blacksmith, 28, from Krivi Put, and «Antonia Geržanić», servant, 24, of Senj; parents Lucas Tomljanović and Catharina née Perpić; Stephanus Geržanić and Paulina née Župan. Read at full size.",
+   "slugs": [
+    "toma-tomljanovic",
+    "antonija"
+   ],
+   "people": [
+    {
+     "slug": "toma-tomljanovic",
+     "kind": "people",
+     "name": "Toma Tomljanovic"
+    },
+    {
+     "slug": "antonija",
+     "kind": "people",
+     "name": "Antonija"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1872-08-belobarbic-perpic",
+   "entry": "senj-marriage-1872-08-belobarbic-perpic-left.jpg",
+   "page": "senj-marriage-1872-08-belobarbic-perpic-right.jpg",
+   "title": "Senj, 18 August 1872 — Andreas Belobalbić and Joanna Perpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 104 of the waypoint's list (ark 3QS7-L99X-1314): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1314?cc=2040054",
+   "says": "Entry 17: «Andreas Belobalbić», porter, widower, 29, of Senj, and «Joanna Perpić», 30, from Krivi Put; parents Antonius Belobalbić and Antonia née Janušić; Gregorius Perpić and Mathia née Tomljanović. Read at full size.",
+   "slugs": [
+    "andreas-belobaric",
+    "joanna-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "andreas-belobaric",
+     "kind": "people",
+     "name": "Andreas Belobaric"
+    },
+    {
+     "slug": "joanna-prpic-perpic",
+     "kind": "people",
+     "name": "Joanna Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1875-02-nell-stipanicic",
+   "entry": "senj-marriage-1875-02-nell-stipanicic-left.jpg",
+   "page": "senj-marriage-1875-02-nell-stipanicic-right.jpg",
+   "title": "Senj, 8 February 1875 — Gregorius Nell and Maria Anna Stipaničić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 127 of the waypoint's list (ark 3QSQ-G99X-13B7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-13B7?cc=2040054",
+   "says": "Entry 2: «Gregorius Nell», shoemaker, 23, and «Maria Anna Stipaničić», seamstress, 23, of Senj; parents Josephus Nell and Antonia; Nicolaus Stipaničić and Maria née Prpić. Read at full size.",
+   "slugs": [
+    "gregorius-nell-married-senj-february-1875",
+    "maria-anna-stipanicic-married-senj-february-1875"
+   ],
+   "people": [
+    {
+     "slug": "gregorius-nell-married-senj-february-1875",
+     "kind": "found",
+     "name": "Gregorius Nell married Senj February 1875"
+    },
+    {
+     "slug": "maria-anna-stipanicic-married-senj-february-1875",
+     "kind": "found",
+     "name": "Maria Anna Stipaničić married Senj February 1875"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1875-04-rivosechi-biljan",
+   "entry": "senj-marriage-1875-04-rivosechi-biljan-left.jpg",
+   "page": "senj-marriage-1875-04-rivosechi-biljan-right.jpg",
+   "title": "Senj, 25 April 1875 — Josephus Rivosechi and Mathildes Antonia Biljan",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 127 of the waypoint's list (ark 3QSQ-G99X-13B7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-13B7?cc=2040054",
+   "says": "Entry 4: «Josephus Rivosechi», 22, born at Rijeka, and «Mathildes Antonia Biljan», 20, of Senj; parents Benedictus Rivosechi and Maria née Fabiani; Franciscus Biljan, innkeeper, and Anna née Babić. Read at full size.",
+   "slugs": [
+    "josephus-josip-rivosechi",
+    "benedictus-rivosechi",
+    "maria-fabianic-fabiani",
+    "mathildes-antonia-biljan-married-senj-april-1875"
+   ],
+   "people": [
+    {
+     "slug": "josephus-josip-rivosechi",
+     "kind": "people",
+     "name": "Josephus Josip Rivosechi"
+    },
+    {
+     "slug": "benedictus-rivosechi",
+     "kind": "people",
+     "name": "Benedictus \"Benedeto\" Rivosechi"
+    },
+    {
+     "slug": "maria-fabianic-fabiani",
+     "kind": "people",
+     "name": "Maria Fabianic Fabiani"
+    },
+    {
+     "slug": "mathildes-antonia-biljan-married-senj-april-1875",
+     "kind": "found",
+     "name": "Mathildes Antonia Biljan married Senj April 1875"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1877-09-bacic-blazevic",
+   "entry": "senj-marriage-1877-09-bacic-blazevic-left.jpg",
+   "page": "senj-marriage-1877-09-bacic-blazevic-right.jpg",
+   "title": "Senj, 16 September 1877 — Franciscus Bačić and Rosa Blažević",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 142 of the waypoint's list (ark 3QS7-L99X-1Q8R): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1Q8R?cc=2040054",
+   "says": "Entry 15: «Franciscus Bačić», an officer of the maritime finance guard, 33, from Cesarica, and «Rosa Blažević», seamstress, 25, of Senj; parents Thomas Bačić and Joanna; Gregorius Blažević and Theresia Čačić. Read at full size.",
+   "slugs": [
+    "franciscus-bacic",
+    "rosa-blazevic",
+    "gregorius-gregoru-blazevic",
+    "theresia-cacic"
+   ],
+   "people": [
+    {
+     "slug": "franciscus-bacic",
+     "kind": "people",
+     "name": "Franciscus Bacic"
+    },
+    {
+     "slug": "rosa-blazevic",
+     "kind": "people",
+     "name": "Rosa Blažević"
+    },
+    {
+     "slug": "gregorius-gregoru-blazevic",
+     "kind": "people",
+     "name": "Gregorius Gregoru Blažević"
+    },
+    {
+     "slug": "theresia-cacic",
+     "kind": "people",
+     "name": "Theresia Cacic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1880-02-rivosechi-perpic",
+   "entry": "senj-marriage-1880-02-rivosechi-perpic-left.jpg",
+   "page": "senj-marriage-1880-02-rivosechi-perpic-right.jpg",
+   "title": "Senj, 7 February 1880 — Nikula Rivosechi and Nadala Perpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 161 of the waypoint's list (ark 3QSQ-G99X-13KW): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-13KW?cc=2040054",
+   "says": "Entry 5: «Nikula Rivosechi», 22, and «Nadala Perpić», 25, of Senj; parents Benedeto Rivosechi and Maria née Fabianić; Franjo Perpić and Ana née Brozinčević. Read at full size.",
+   "slugs": [
+    "nikula-niko-nikola-rivosechi",
+    "benedictus-rivosechi",
+    "maria-fabianic-fabiani",
+    "nadala-prpic-perpic",
+    "franjo-franciscus-perpic",
+    "anna-brozinicevic"
+   ],
+   "people": [
+    {
+     "slug": "nikula-niko-nikola-rivosechi",
+     "kind": "people",
+     "name": "Nikula Niko Nikola Rivosechi"
+    },
+    {
+     "slug": "benedictus-rivosechi",
+     "kind": "people",
+     "name": "Benedictus \"Benedeto\" Rivosechi"
+    },
+    {
+     "slug": "maria-fabianic-fabiani",
+     "kind": "people",
+     "name": "Maria Fabianic Fabiani"
+    },
+    {
+     "slug": "nadala-prpic-perpic",
+     "kind": "people",
+     "name": "Nadala Prpic Perpic"
+    },
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    },
+    {
+     "slug": "anna-brozinicevic",
+     "kind": "people",
+     "name": "Anna Brozinicevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1884-01-perpic-perpic",
+   "entry": "senj-marriage-1884-01-perpic-perpic-left.jpg",
+   "page": "senj-marriage-1884-01-perpic-perpic-right.jpg",
+   "title": "Senj, 19 January 1884 — Ivan Perpić and «Matia» Perpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 187 of the waypoint's list (ark 3QSQ-G99X-13RX): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-13RX?cc=2040054",
+   "says": "Entry 2: «Ivan Perpić», tanner, 27, of Krivi Put 113, and «Matia Perpić», 26, of Senj, «Christina» written above her name in pencil by a later hand; parents Demetar Perpić and Joka née Šojat; Franjo Prpić and Ana née Brozinčević. Read at full size.",
+   "slugs": [
+    "ivan-perpic",
+    "dametar-perpic",
+    "ivka-sojat",
+    "christina-matia-prpic-perpic",
+    "franjo-franciscus-perpic",
+    "anna-brozinicevic"
+   ],
+   "people": [
+    {
+     "slug": "ivan-perpic",
+     "kind": "people",
+     "name": "Ivan Perpic"
+    },
+    {
+     "slug": "dametar-perpic",
+     "kind": "people",
+     "name": "Dametar Perpic"
+    },
+    {
+     "slug": "ivka-sojat",
+     "kind": "people",
+     "name": "Ivka Sojat"
+    },
+    {
+     "slug": "christina-matia-prpic-perpic",
+     "kind": "people",
+     "name": "Christina Matia Prpic Perpic"
+    },
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    },
+    {
+     "slug": "anna-brozinicevic",
+     "kind": "people",
+     "name": "Anna Brozinicevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1884-01-lenac-jurcic",
+   "entry": "senj-marriage-1884-01-lenac-jurcic-left.jpg",
+   "page": "senj-marriage-1884-01-lenac-jurcic-right.jpg",
+   "title": "Senj, 27 January 1884 — Toma Anton Božo Lenac and Johana Jurčić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 188 of the waypoint's list (ark 3QS7-L99X-17B3): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17B3?cc=2040054",
+   "says": "Entry 5: «Toma Anton Božo Lenac», mason, 29, and «Johana Jurčić», 16, of Senj; parents Martin Lenac and Mande née Žanić; Anton Jurčić and Jakomina née Perpić. Read at full size.",
+   "slugs": [
+    "toma-anton-bozo-lenac",
+    "johana-jurcic",
+    "anton-jurcic",
+    "jakomina-prpic"
+   ],
+   "people": [
+    {
+     "slug": "toma-anton-bozo-lenac",
+     "kind": "people",
+     "name": "Toma Anton Bozo Lenac"
+    },
+    {
+     "slug": "johana-jurcic",
+     "kind": "people",
+     "name": "Johana Jurcic"
+    },
+    {
+     "slug": "anton-jurcic",
+     "kind": "people",
+     "name": "Anton Jurcic"
+    },
+    {
+     "slug": "jakomina-prpic",
+     "kind": "people",
+     "name": "Jakomina Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1885-06-tomlenovic-perpic",
+   "entry": "senj-marriage-1885-06-tomlenovic-perpic-left.jpg",
+   "page": "senj-marriage-1885-06-tomlenovic-perpic-right.jpg",
+   "title": "Senj, 7 June 1885 — Eduard Tomlenović and Joka Perpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 197 of the waypoint's list (ark 3QS7-899X-17P3): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17P3?cc=2040054",
+   "says": "Entry 7: «Eduard Tomlenović», knacker, widower, 49, from Karlobag, and «Joka Perpić», 27, from Krivi Put; parents Gerga Tomlenović and Franica Kovačević; Jakov Perpić and Kate. Read at full size.",
+   "slugs": [
+    "eduard-tomlenovic",
+    "ivka-perpic",
+    "jakov-perpic",
+    "kate"
+   ],
+   "people": [
+    {
+     "slug": "eduard-tomlenovic",
+     "kind": "people",
+     "name": "Eduard Tomlenovic"
+    },
+    {
+     "slug": "ivka-perpic",
+     "kind": "people",
+     "name": "Ivka Perpic"
+    },
+    {
+     "slug": "jakov-perpic",
+     "kind": "people",
+     "name": "Jakov Perpic"
+    },
+    {
+     "slug": "kate",
+     "kind": "people",
+     "name": "Kate"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1886-03-luksa-perpic",
+   "entry": "senj-marriage-1886-03-luksa-perpic-left.jpg",
+   "page": "senj-marriage-1886-03-luksa-perpic-right.jpg",
+   "title": "Senj, 6 March 1886 — Julius Lukša and Francika Perpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 200 of the waypoint's list (ark 3QSQ-G99X-17PR): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17PR?cc=2040054",
+   "says": "Entry 3: «Julius Lukša», typesetter, 30, and «Francika Perpić», 25, of Senj; parents Josip Lukša and Ivanja née Mohorić; Franjo Prpić and Ana Brozinčević. Read at full size.",
+   "slugs": [
+    "franciska-prpic",
+    "franjo-franciscus-perpic",
+    "anna-brozinicevic",
+    "julius-luksa-married-senj-march-1886"
+   ],
+   "people": [
+    {
+     "slug": "franciska-prpic",
+     "kind": "people",
+     "name": "Franciska \"Franka\" Prpic"
+    },
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    },
+    {
+     "slug": "anna-brozinicevic",
+     "kind": "people",
+     "name": "Anna Brozinicevic"
+    },
+    {
+     "slug": "julius-luksa-married-senj-march-1886",
+     "kind": "found",
+     "name": "Julius Lukša married Senj March 1886"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1886-11-loncaric-lenac",
+   "entry": "senj-marriage-1886-11-loncaric-lenac-left.jpg",
+   "page": "senj-marriage-1886-11-loncaric-lenac-right.jpg",
+   "title": "Senj, 7 November 1886 — Mate Lončarić and Vicenca Lenac",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 208 of the waypoint's list (ark 3QSQ-G99X-17L7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17L7?cc=2040054",
+   "says": "Entry 23: «Mate Lončarić», mason, 28, and «Vicenca Lenac», servant, 19, of Senj; parents Šime Lončarić and Margareta née Prpić; Vicko Lenac and Ana née Žanić. Read at full size.",
+   "slugs": [
+    "mate-loncaric-2",
+    "sime-loncaric",
+    "margareta-prpic",
+    "vicenca-lenac-married-senj-november-1886"
+   ],
+   "people": [
+    {
+     "slug": "mate-loncaric-2",
+     "kind": "people",
+     "name": "Mate Loncaric"
+    },
+    {
+     "slug": "sime-loncaric",
+     "kind": "people",
+     "name": "Sime Loncaric"
+    },
+    {
+     "slug": "margareta-prpic",
+     "kind": "people",
+     "name": "Margareta Prpic"
+    },
+    {
+     "slug": "vicenca-lenac-married-senj-november-1886",
+     "kind": "found",
+     "name": "Vicenca Lenac married Senj November 1886"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1903-07-jurcic-prpic",
+   "entry": "senj-marriage-1903-07-jurcic-prpic-left.jpg",
+   "page": "senj-marriage-1903-07-jurcic-prpic-right.jpg",
+   "title": "Senj, 12 July 1903 — Pavao Jurčić and Antonija Prpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 275 of the waypoint's list (ark 3QSQ-G99X-17ZY): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17ZY?cc=2040054",
+   "says": "Entry 17: «Pavao Jurčić», cathedral sexton, 49, and «Antonija Prpić», 24, of Klaričevac 80; parents Anton Jurčić and the late Jakomina Prpić; Ivan and Kata Prpić. Read at full size.",
+   "slugs": [
+    "anton-jurcic",
+    "jakomina-prpic",
+    "pavao-jurcic-married-senj-july-1903",
+    "antonija-prpic-married-senj-july-1903"
+   ],
+   "people": [
+    {
+     "slug": "anton-jurcic",
+     "kind": "people",
+     "name": "Anton Jurcic"
+    },
+    {
+     "slug": "jakomina-prpic",
+     "kind": "people",
+     "name": "Jakomina Prpic"
+    },
+    {
+     "slug": "pavao-jurcic-married-senj-july-1903",
+     "kind": "found",
+     "name": "Pavao Jurčić married Senj July 1903"
+    },
+    {
+     "slug": "antonija-prpic-married-senj-july-1903",
+     "kind": "found",
+     "name": "Antonija Prpić married Senj July 1903"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1903-07-zubrinic-vukelic",
+   "entry": "senj-marriage-1903-07-zubrinic-vukelic-left.jpg",
+   "page": "senj-marriage-1903-07-zubrinic-vukelic-right.jpg",
+   "title": "Senj, 26 July 1903 — Josip Žubrinić and Marija pl. Vukelić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 275 of the waypoint's list (ark 3QSQ-G99X-17ZY): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17ZY?cc=2040054",
+   "says": "Entry 18: «Josip Žubrinić», shop manager, 27, from Otočac, and «Marija pl. Vukelić», 49, of Senj; parents Franjo Žubrinić, sexton, and the late Ivanja Radanović; the late Dujmo pl. Vukelić and Klementina née Nabršnig. Read at full size.",
+   "slugs": [
+    "josip-zubrinic",
+    "franjo-zubrinic",
+    "ivanja-radanovic",
+    "marija-vukelic-2"
+   ],
+   "people": [
+    {
+     "slug": "josip-zubrinic",
+     "kind": "people",
+     "name": "Josip Žubrinić"
+    },
+    {
+     "slug": "franjo-zubrinic",
+     "kind": "people",
+     "name": "Franjo Žubrinić"
+    },
+    {
+     "slug": "ivanja-radanovic",
+     "kind": "people",
+     "name": "Ivanja Radanovic"
+    },
+    {
+     "slug": "marija-vukelic-2",
+     "kind": "people",
+     "name": "Marija Vukelic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1903-08-glavas-biondic",
+   "entry": "senj-marriage-1903-08-glavas-biondic-left.jpg",
+   "page": "senj-marriage-1903-08-glavas-biondic-right.jpg",
+   "title": "Senj, 8 August 1903 — Vinko Glavaš and Julka Biondić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 276 of the waypoint's list (ark 3QSQ-G99X-1769): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1769?cc=2040054",
+   "says": "Entry 20: «Vinko Glavaš», labourer, 26, and «Julka Biondić», 44, of Senj; parents Martin and the late Margarita; the late Luka and Tonka Biondić. Read at full size.",
+   "slugs": [
+    "vinko-glavas",
+    "julka-biondic-married-senj-august-1903"
+   ],
+   "people": [
+    {
+     "slug": "vinko-glavas",
+     "kind": "people",
+     "name": "Vinko Glavaš"
+    },
+    {
+     "slug": "julka-biondic-married-senj-august-1903",
+     "kind": "found",
+     "name": "Julka Biondić married Senj August 1903"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1903-08-grzanic-papic",
+   "entry": "senj-marriage-1903-08-grzanic-papic-left.jpg",
+   "page": "senj-marriage-1903-08-grzanic-papic-right.jpg",
+   "title": "Senj, 23 August 1903 — Mate Gržanić and Marija Papić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 276 of the waypoint's list (ark 3QSQ-G99X-1769): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1769?cc=2040054",
+   "says": "Entry 22: «Mate Gržanić», butcher, 27, and «Marija Papić», 18, tobacco-factory worker, of Senj; parents the late Šimun Gržanić and Tjenda Kizin; Josip Papić and Tonka. Read at full size.",
+   "slugs": [
+    "mate-matthias-grzanic",
+    "marija-papic",
+    "josip-anton-papic",
+    "antonija-tonka-perpic-prpic"
+   ],
+   "people": [
+    {
+     "slug": "mate-matthias-grzanic",
+     "kind": "people",
+     "name": "Mate Matthias Grzanic"
+    },
+    {
+     "slug": "marija-papic",
+     "kind": "people",
+     "name": "Marija Papić"
+    },
+    {
+     "slug": "josip-anton-papic",
+     "kind": "people",
+     "name": "Josip Anton \"Joso\" Papić"
+    },
+    {
+     "slug": "antonija-tonka-perpic-prpic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1903-08-milkovic-butkovic",
+   "entry": "senj-marriage-1903-08-milkovic-butkovic-left.jpg",
+   "page": "senj-marriage-1903-08-milkovic-butkovic-right.jpg",
+   "title": "Senj, 23 August 1903 — Fabo Milković and Marija Butković",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 276 of the waypoint's list (ark 3QSQ-G99X-1769): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1769?cc=2040054",
+   "says": "Entry 23: «Fabo Milković», 25, from Smiljan, and «Marija Butković», 23, seamstress, of Alan in the parish of Krivi Put; parents Ivan and the late Marta Milković; Blaž and Ana Butković. Read at full size.",
+   "slugs": [
+    "fabo-milkovic",
+    "marija-butkovic"
+   ],
+   "people": [
+    {
+     "slug": "fabo-milkovic",
+     "kind": "people",
+     "name": "Fabo Milkovic"
+    },
+    {
+     "slug": "marija-butkovic",
+     "kind": "people",
+     "name": "Marija Butkovic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1904-02-desanti-blazevic",
+   "entry": "senj-marriage-1904-02-desanti-blazevic-left.jpg",
+   "page": "senj-marriage-1904-02-desanti-blazevic-right.jpg",
+   "title": "Senj, 4 February 1904 — Anton Desanti and Marija Blažević",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 279 of the waypoint's list (ark 3QS7-L99X-1W9H): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1W9H?cc=2040054",
+   "says": "Entry 6: «Desanti Anton», innkeeper, 23, and «Blažević Marija», 23, of Sv. Jakov Krmpote; parents the late Vinko Desanti and Julijana; Pavao Blažević and the late Vice. Read at full size.",
+   "slugs": [
+    "anton-desanti",
+    "marija-blazevic-11",
+    "pavao-pave-blazevic",
+    "vincencija-vica-vice-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "anton-desanti",
+     "kind": "people",
+     "name": "Anton Desanti"
+    },
+    {
+     "slug": "marija-blazevic-11",
+     "kind": "people",
+     "name": "Marija Blažević"
+    },
+    {
+     "slug": "pavao-pave-blazevic",
+     "kind": "people",
+     "name": "Pavao Pave \"Pavao\" Blažević"
+    },
+    {
+     "slug": "vincencija-vica-vice-blazevic",
+     "kind": "people",
+     "name": "Vincencija Vica Vice Blažević"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1906-01-loncaric-blazevic",
+   "entry": "senj-marriage-1906-01-loncaric-blazevic-left.jpg",
+   "page": "senj-marriage-1906-01-loncaric-blazevic-right.jpg",
+   "title": "Senj, 21 January 1906 — Paval Lončarić and Marta Blažević",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 287 of the waypoint's list (ark 3QS7-899X-176M): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-176M?cc=2040054",
+   "says": "Entry 3: «Paval Lončarić», mason, widower, 35, and «Marta Blažević», 23, tobacco-factory worker, of Sv. Jakov Krmpote; parents Vinko Lončarić and Marija née Komadina; Paval Blažević and the late Vice. Read at full size.",
+   "slugs": [
+    "paval-loncaric",
+    "marta-blazevic-3",
+    "pavao-pave-blazevic",
+    "vincencija-vica-vice-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "paval-loncaric",
+     "kind": "people",
+     "name": "Paval Loncaric"
+    },
+    {
+     "slug": "marta-blazevic-3",
+     "kind": "people",
+     "name": "Marta Blažević"
+    },
+    {
+     "slug": "pavao-pave-blazevic",
+     "kind": "people",
+     "name": "Pavao Pave \"Pavao\" Blažević"
+    },
+    {
+     "slug": "vincencija-vica-vice-blazevic",
+     "kind": "people",
+     "name": "Vincencija Vica Vice Blažević"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1906-02-sojat-blazevic",
+   "entry": "senj-marriage-1906-02-sojat-blazevic-left.jpg",
+   "page": "senj-marriage-1906-02-sojat-blazevic-right.jpg",
+   "title": "Senj, 25 February 1906 — Nikola Šojat and Kata Blažević",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 288 of the waypoint's list (ark 3QSQ-G99X-178M): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-178M?cc=2040054",
+   "says": "Entry 6: «Šojat Nikola», mason, 28, from Krivi Put, and «Blažević Kata», 17, of Krmpote; parents Jure and the late Matija Šojat; Franjo and Tonka Blažević. Read at full size.",
+   "slugs": [
+    "nikola-sojat",
+    "kata-blazevic",
+    "franjo-blazevic",
+    "tonka"
+   ],
+   "people": [
+    {
+     "slug": "nikola-sojat",
+     "kind": "people",
+     "name": "Nikola Šojat"
+    },
+    {
+     "slug": "kata-blazevic",
+     "kind": "people",
+     "name": "Kata Blažević"
+    },
+    {
+     "slug": "franjo-blazevic",
+     "kind": "people",
+     "name": "Franjo Blažević"
+    },
+    {
+     "slug": "tonka",
+     "kind": "people",
+     "name": "Tonka"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1906-10-dosen-pilepic",
+   "entry": "senj-marriage-1906-10-dosen-pilepic-left.jpg",
+   "page": "senj-marriage-1906-10-dosen-pilepic-right.jpg",
+   "title": "Senj, 14 October 1906 — Albert Došen and Marija Pilepić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 291 of the waypoint's list (ark 3QSQ-G99X-17QT): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17QT?cc=2040054",
+   "says": "Entry 21: «Albert Došen pl. od Bilajgrada», 36, born at Arad on 25 November 1870, and «Marija Pilepić», 54, servant, of Karlobag; parents the late Leopold Došen, general, and Albertina née baroness Rohn; the late Vicko Pilepić, seaman, and Matija née Uroda. Read at full size.",
+   "slugs": [
+    "albert-dosen",
+    "marija-2",
+    "vicentius-andreas-vincent-pilipic",
+    "matia-mathiam-georgiam-uroda"
+   ],
+   "people": [
+    {
+     "slug": "albert-dosen",
+     "kind": "people",
+     "name": "Albert Dosen"
+    },
+    {
+     "slug": "marija-2",
+     "kind": "people",
+     "name": "Marija"
+    },
+    {
+     "slug": "vicentius-andreas-vincent-pilipic",
+     "kind": "people",
+     "name": "Vicentius Andreas (Vincent) \"Vicko\" Pilipić"
+    },
+    {
+     "slug": "matia-mathiam-georgiam-uroda",
+     "kind": "people",
+     "name": "Matia (Mathiam Georgiam) Uroda"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1907-08-nell-prpic",
+   "entry": "senj-marriage-1907-08-nell-prpic-left.jpg",
+   "page": "senj-marriage-1907-08-nell-prpic-right.jpg",
+   "title": "Senj, 25 August 1907 — Ivan Nell and Kata Prpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 297 of the waypoint's list (ark 3QSQ-G99X-17HL): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17HL?cc=2040054",
+   "says": "Entry 23: «Nell Ivan», typesetter, born 21 November 1879, and «Prpić Kata», born 19 July 1883, of Klaričevac; parents Grga Nell, shoemaker, and Marija Stipaničić; Nikola and the late Francika Prpić. Read at full size.",
+   "slugs": [
+    "ivan-nell",
+    "kata-prpic",
+    "nikola-prpic",
+    "franjica-blazevic-2"
+   ],
+   "people": [
+    {
+     "slug": "ivan-nell",
+     "kind": "people",
+     "name": "Ivan Nell"
+    },
+    {
+     "slug": "kata-prpic",
+     "kind": "people",
+     "name": "Kata Prpic"
+    },
+    {
+     "slug": "nikola-prpic",
+     "kind": "people",
+     "name": "Nikola Prpic"
+    },
+    {
+     "slug": "franjica-blazevic-2",
+     "kind": "people",
+     "name": "Franjica Blažević"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1908-03-kren-vukelic",
+   "entry": "senj-marriage-1908-03-kren-vukelic-left.jpg",
+   "page": "senj-marriage-1908-03-kren-vukelic-right.jpg",
+   "title": "Senj, 2 March 1908 — Ivan Kren and Linda Vukelić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 301 of the waypoint's list (ark 3QSQ-G99X-174Z): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-174Z?cc=2040054",
+   "says": "Entry 6: «Kren Ivan», widower, born 3 May 1874, and «Linda Vukelić», born 23 June 1881; parents Franjo Kren and the late Rozalija; Petar pl. Vukelić, innkeeper, and the late Vjekoslava Pulanić. Read at full size.",
+   "slugs": [
+    "linda-elizabeta-vukelic",
+    "petar-vukelic",
+    "vjekoslava-pulanic",
+    "ivan-kren-married-senj-march-1908"
+   ],
+   "people": [
+    {
+     "slug": "linda-elizabeta-vukelic",
+     "kind": "people",
+     "name": "Linda Elizabeta Vukelić"
+    },
+    {
+     "slug": "petar-vukelic",
+     "kind": "people",
+     "name": "Petar Vukelić"
+    },
+    {
+     "slug": "vjekoslava-pulanic",
+     "kind": "people",
+     "name": "Vjekoslava \"Lojza\" Pulanic"
+    },
+    {
+     "slug": "ivan-kren-married-senj-march-1908",
+     "kind": "found",
+     "name": "Ivan Kren married Senj March 1908"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1909-07-drnjevic-krmpotic",
+   "entry": "senj-marriage-1909-07-drnjevic-krmpotic-left.jpg",
+   "page": "senj-marriage-1909-07-drnjevic-krmpotic-right.jpg",
+   "title": "Senj, 17 July 1909 — Melchior Drnjević and Slavka Krmpotić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 307 of the waypoint's list (ark 3QSQ-G99X-17NX): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17NX?cc=2040054",
+   "says": "Entry 16: «Drnjević Melchior», born 5 January 1886, and «Slavka Krmpotić», born 26 October 1885; parents Stjepan Drnjević and Franjka Krpan; Anton Krmpotić and Marija née Prpić. Read at full size.",
+   "slugs": [
+    "melchior-drnjevic",
+    "slavka-katarina-krmpotic",
+    "anton-antun-krmpotic",
+    "marija-prpic",
+    "marijan-krmpotic"
+   ],
+   "people": [
+    {
+     "slug": "melchior-drnjevic",
+     "kind": "people",
+     "name": "Melchior Drnjevic"
+    },
+    {
+     "slug": "slavka-katarina-krmpotic",
+     "kind": "people",
+     "name": "Slavka Katarina Krmpotić"
+    },
+    {
+     "slug": "anton-antun-krmpotic",
+     "kind": "people",
+     "name": "Anton Antun Krmpotić"
+    },
+    {
+     "slug": "marija-prpic",
+     "kind": "people",
+     "name": "Marija Prpic"
+    },
+    {
+     "slug": "marijan-krmpotic",
+     "kind": "people",
+     "name": "Marijan Krmpotić"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1910-07-zubrinic-stimac",
+   "entry": "senj-marriage-1910-07-zubrinic-stimac-left.jpg",
+   "page": "senj-marriage-1910-07-zubrinic-stimac-right.jpg",
+   "title": "Senj, 3 July 1910 — Nikola Žubrinić and Olga Štimac",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 312 of the waypoint's list (ark 3QSQ-G99X-1768): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1768?cc=2040054",
+   "says": "Entry 12: «Žubrinić Nikola», tax controller, born 23 August 1880 at Otočac, and «Olga Štimac», born 25 January 1887; parents the late Mate Žubrinić and Marija née Orešković; Tomo Štimac and Kata née Rauker. Read at full size.",
+   "slugs": [
+    "nikola-zubrinic-xubrinic",
+    "olga-stimac"
+   ],
+   "people": [
+    {
+     "slug": "nikola-zubrinic-xubrinic",
+     "kind": "people",
+     "name": "Nikola Žubrinić (Xubrinic)"
+    },
+    {
+     "slug": "olga-stimac",
+     "kind": "people",
+     "name": "Olga Štimac"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1911-02-glavas-prpic",
+   "entry": "senj-marriage-1911-02-glavas-prpic-left.jpg",
+   "page": "senj-marriage-1911-02-glavas-prpic-right.jpg",
+   "title": "Senj, 6 February 1911 — Vinko Glavaš and Ana Prpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 316 of the waypoint's list (ark 3QS7-899X-17D1): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17D1?cc=2040054",
+   "says": "Entry 3: «Glavaš Vinko», labourer, widower, born 5 April 1877, and «Prpić Ana», born 29 May 1872, of Mrzli Dol 34; parents Martin Glavaš and the late Margarita; Stjepan and the late Lucija Prpić. Read at full size.",
+   "slugs": [
+    "vinko-glavas",
+    "ana-prpic-2",
+    "stjepan-stipan-prpic",
+    "lucija-luce-luce"
+   ],
+   "people": [
+    {
+     "slug": "vinko-glavas",
+     "kind": "people",
+     "name": "Vinko Glavaš"
+    },
+    {
+     "slug": "ana-prpic-2",
+     "kind": "people",
+     "name": "Ana Prpic"
+    },
+    {
+     "slug": "stjepan-stipan-prpic",
+     "kind": "people",
+     "name": "Stjepan Stipan Prpic"
+    },
+    {
+     "slug": "lucija-luce-luce",
+     "kind": "people",
+     "name": "Lucija Luce"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1913-05-glavicic-prpic",
+   "entry": "senj-marriage-1913-05-glavicic-prpic-left.jpg",
+   "page": "senj-marriage-1913-05-glavicic-prpic-right.jpg",
+   "title": "Senj, 18 May 1913 — Josip Glavičić and Lucija Prpić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 329 of the waypoint's list (ark 3QS7-899X-17V6): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17V6?cc=2040054",
+   "says": "Entry 11: «Glavičić Josip», labourer, born 14 February 1891, and «Prpić Lucija», born 4 June 1890, of Mrzli Dol 53; parents the late Karlo Glavičić and Marta née Tomljanović; Petar Prpić and Tonka née Pavelić. Read at full size.",
+   "slugs": [
+    "josip-glavicic",
+    "lucija-prpic",
+    "petar-prpic",
+    "antonija-pavelic"
+   ],
+   "people": [
+    {
+     "slug": "josip-glavicic",
+     "kind": "people",
+     "name": "Josip Glavicic"
+    },
+    {
+     "slug": "lucija-prpic",
+     "kind": "people",
+     "name": "Lucija Prpic"
+    },
+    {
+     "slug": "petar-prpic",
+     "kind": "people",
+     "name": "Petar Prpic"
+    },
+    {
+     "slug": "antonija-pavelic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" Pavelic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1915-02-loncaric-papic",
+   "entry": "senj-marriage-1915-02-loncaric-papic-left.jpg",
+   "page": "senj-marriage-1915-02-loncaric-papic-right.jpg",
+   "title": "Senj, 14 February 1915 — Vjenceslav Lončarić and Božica Papić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 340 of the waypoint's list (ark 3QS7-L99X-17RT): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17RT?cc=2040054",
+   "says": "Entry 3: «Lončarić Vjenceslav», mason, born 15 September 1891, and «Papić Božica», born 6 December 1891, tobacco-factory worker; parents Mate Lončarić and Vinka née Lenac; Stipan Papić and Anica née Fajdetić. Read at full size.",
+   "slugs": [
+    "vjenceslav-loncaric",
+    "mate-loncaric-2",
+    "bozica-lucija-papic",
+    "stjepan-papic",
+    "ane-fajdetic"
+   ],
+   "people": [
+    {
+     "slug": "vjenceslav-loncaric",
+     "kind": "people",
+     "name": "Vjenceslav Loncaric"
+    },
+    {
+     "slug": "mate-loncaric-2",
+     "kind": "people",
+     "name": "Mate Loncaric"
+    },
+    {
+     "slug": "bozica-lucija-papic",
+     "kind": "people",
+     "name": "Bozica Lucija Papić"
+    },
+    {
+     "slug": "stjepan-papic",
+     "kind": "people",
+     "name": "Stjepan \"Stipe\" Papić"
+    },
+    {
+     "slug": "ane-fajdetic",
+     "kind": "people",
+     "name": "Ane \"Anica, Ankica\" Fajdetic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1915-02-zubrinic-biljan",
+   "entry": "senj-marriage-1915-02-zubrinic-biljan-left.jpg",
+   "page": "senj-marriage-1915-02-zubrinic-biljan-right.jpg",
+   "title": "Senj, 15 February 1915 — Ivan Žubrinić and Francika Biljan",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 341 of the waypoint's list (ark 3QS7-899X-17VK): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17VK?cc=2040054",
+   "says": "Entry 6: «Žubrinić Ivan», born 16 August 1887, and «Biljan Francika», born 8 July 1890; parents Stjepan Žubrinić and Kata née Orešković; the late Lucija Biljan, born Malinar; a note puts the wedding itself at Karlovac. Read at full size.",
+   "slugs": [
+    "ivan-zubrinic-2",
+    "stjepan-zubrinic",
+    "kata-oreskovic-oreskovic",
+    "francika-biljan"
+   ],
+   "people": [
+    {
+     "slug": "ivan-zubrinic-2",
+     "kind": "people",
+     "name": "Ivan Žubrinić"
+    },
+    {
+     "slug": "stjepan-zubrinic",
+     "kind": "people",
+     "name": "Stjepan Žubrinić"
+    },
+    {
+     "slug": "kata-oreskovic-oreskovic",
+     "kind": "people",
+     "name": "Kata Orešković Oreskovic"
+    },
+    {
+     "slug": "francika-biljan",
+     "kind": "people",
+     "name": "Francika Biljan"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1916-02-juhas-blazevic",
+   "entry": "senj-marriage-1916-02-juhas-blazevic-left.jpg",
+   "page": "senj-marriage-1916-02-juhas-blazevic-right.jpg",
+   "title": "Senj, 2 February 1916 — Daniel Juhas and Zora Blažević",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 345 of the waypoint's list (ark 3QS7-L99X-17KL): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17KL?cc=2040054",
+   "says": "Entry 4: «Juhas Daniel», widower, born 20 July 1862, and «Blažević Zora», born 21 March 1897, of Sv. Jakov Krmpote, Šator 86; parents the late Ivan Juhas and Uršula née Devčić; Jakov and Marija née Blažević. Read at full size.",
+   "slugs": [
+    "juhas-daniel",
+    "zora-blazevic",
+    "jakov-blazevic-2",
+    "marija-6"
+   ],
+   "people": [
+    {
+     "slug": "juhas-daniel",
+     "kind": "people",
+     "name": "Juhas Daniel"
+    },
+    {
+     "slug": "zora-blazevic",
+     "kind": "people",
+     "name": "Zora Blažević"
+    },
+    {
+     "slug": "jakov-blazevic-2",
+     "kind": "people",
+     "name": "Jakov Blažević"
+    },
+    {
+     "slug": "marija-6",
+     "kind": "people",
+     "name": "Marija"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1916-12-scarpa-boras",
+   "entry": "senj-marriage-1916-12-scarpa-boras-left.jpg",
+   "page": "senj-marriage-1916-12-scarpa-boras-right.jpg",
+   "title": "Senj, 28 December 1916 — Ettore Scarpa and Marija Boras",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 349 of the waypoint's list (ark 3QS7-L99X-17V6): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17V6?cc=2040054",
+   "says": "Entry 20: «Scarpa Ettore», merchant, born 1 July 1884, and «Boras Marija», born 23 January 1892; parents the late Vinko Scarpa and Filipina née Olivieri; Ivan Boras and Vlada née Baričević. Read at full size.",
+   "slugs": [
+    "ettore-scarpa",
+    "marija-boras",
+    "joannes-ivan-boras",
+    "vladimira-baricevic"
+   ],
+   "people": [
+    {
+     "slug": "ettore-scarpa",
+     "kind": "people",
+     "name": "Ettore Scarpa"
+    },
+    {
+     "slug": "marija-boras",
+     "kind": "people",
+     "name": "Marija Boras"
+    },
+    {
+     "slug": "joannes-ivan-boras",
+     "kind": "people",
+     "name": "Joannes Ivan Boras"
+    },
+    {
+     "slug": "vladimira-baricevic",
+     "kind": "people",
+     "name": "Vladimira Baricevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1917-01-krmpotic-boras",
+   "entry": "senj-marriage-1917-01-krmpotic-boras-left.jpg",
+   "page": "senj-marriage-1917-01-krmpotic-boras-right.jpg",
+   "title": "Senj, 20 January 1917 — Ivan Krmpotić and Paulina Boras",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 349 of the waypoint's list (ark 3QS7-L99X-17V6): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17V6?cc=2040054",
+   "says": "Entry 2: «Krmpotić Ivan», navy, born 10 June 1890, from Veljun in the parish of Krivi Put, and «Boras Paulina», born 24 December 1895; parents Juraj Krmpotić and the late Marija née Pavelić; Ivan Boras and Vladimira née Baričević. Read at full size.",
+   "slugs": [
+    "ivan-krmpotic-2",
+    "pava-boras",
+    "joannes-ivan-boras",
+    "vladimira-baricevic"
+   ],
+   "people": [
+    {
+     "slug": "ivan-krmpotic-2",
+     "kind": "people",
+     "name": "Ivan Krmpotic"
+    },
+    {
+     "slug": "pava-boras",
+     "kind": "people",
+     "name": "pava Boras"
+    },
+    {
+     "slug": "joannes-ivan-boras",
+     "kind": "people",
+     "name": "Joannes Ivan Boras"
+    },
+    {
+     "slug": "vladimira-baricevic",
+     "kind": "people",
+     "name": "Vladimira Baricevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1918-05-belobarbic-spalj",
+   "entry": "senj-marriage-1918-05-belobarbic-spalj-left.jpg",
+   "page": "senj-marriage-1918-05-belobarbic-spalj-right.jpg",
+   "title": "Senj, 14 May 1918 — Ivan Belobarbić and Lucija Špalj",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 354 of the waypoint's list (ark 3QS7-899X-17JW): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-17JW?cc=2040054",
+   "says": "Entry 7: «Ivan Belobarbić», sailor, born 15 February 1894, and «Lucija Špalj», born 14 January 1894, of Sv. Jelena; parents the late Anton Belobarbić and Vinka née Lukanović; Josip Špalj and Ana née Prpić. Read at full size.",
+   "slugs": [
+    "ivan-belobarbic",
+    "lucija-spalj-spalj",
+    "josip-spalj-spalj",
+    "ana-prpic"
+   ],
+   "people": [
+    {
+     "slug": "ivan-belobarbic",
+     "kind": "people",
+     "name": "Ivan Belobarbic"
+    },
+    {
+     "slug": "lucija-spalj-spalj",
+     "kind": "people",
+     "name": "Lucija Špalj Spalj"
+    },
+    {
+     "slug": "josip-spalj-spalj",
+     "kind": "people",
+     "name": "Josip \"Joso\" Špalj / Spalj"
+    },
+    {
+     "slug": "ana-prpic",
+     "kind": "people",
+     "name": "Ana Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1918-08-ridjan-papic",
+   "entry": "senj-marriage-1918-08-ridjan-papic-left.jpg",
+   "page": "senj-marriage-1918-08-ridjan-papic-right.jpg",
+   "title": "Senj, 18 August 1918 — Marko Ridjan and Ana Papić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 355 of the waypoint's list (ark 3QSQ-G99X-1QBW): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1QBW?cc=2040054",
+   "says": "Entry 16: «Marko Ridjan», born 2 August 1895 at Podvinje, and «Ana Papić», born 25 May 1888; parents Josip Ridjan and Ivka Ivezić; Josip Papić and Antonija née Prpić. Read at full size.",
+   "slugs": [
+    "marko-ridjan",
+    "ana-papic",
+    "josip-anton-papic",
+    "antonija-tonka-perpic-prpic"
+   ],
+   "people": [
+    {
+     "slug": "marko-ridjan",
+     "kind": "people",
+     "name": "Marko Ridjan"
+    },
+    {
+     "slug": "ana-papic",
+     "kind": "people",
+     "name": "Ana \"Anica\" Papić"
+    },
+    {
+     "slug": "josip-anton-papic",
+     "kind": "people",
+     "name": "Josip Anton \"Joso\" Papić"
+    },
+    {
+     "slug": "antonija-tonka-perpic-prpic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1918-11-sucic-kalanj",
+   "entry": "senj-marriage-1918-11-sucic-kalanj-left.jpg",
+   "page": "senj-marriage-1918-11-sucic-kalanj-right.jpg",
+   "title": "Senj, 11 November 1918 — Juraj Sučić and Marija Anka Kalanj",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 356 of the waypoint's list (ark 3QSQ-G99X-17W4): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17W4?cc=2040054",
+   "says": "Entry 23: «Juraj Sučić», barber, born 15 April 1892, and «Marija Anka Kalanj», born 4 October 1897, of Klenovica; parents Vjekoslav Sučić and Ana née Butković; Lovro Kalanj and Klara née Blažević. Read at full size.",
+   "slugs": [
+    "juraj-sucic",
+    "marija-anka-kalanj",
+    "lovro-laurentius-kalanj",
+    "klara-blazevic"
+   ],
+   "people": [
+    {
+     "slug": "juraj-sucic",
+     "kind": "people",
+     "name": "Juraj Sučić"
+    },
+    {
+     "slug": "marija-anka-kalanj",
+     "kind": "people",
+     "name": "Marija Anka Kalanj"
+    },
+    {
+     "slug": "lovro-laurentius-kalanj",
+     "kind": "people",
+     "name": "Lovro Laurentius Kalanj"
+    },
+    {
+     "slug": "klara-blazevic",
+     "kind": "people",
+     "name": "Klara Blažević"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1919-05-zrinski-papic",
+   "entry": "senj-marriage-1919-05-zrinski-papic-left.jpg",
+   "page": "senj-marriage-1919-05-zrinski-papic-right.jpg",
+   "title": "Senj, 4 May 1919 — Mate Ludvik Zrinski and Marija Papić",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 360 of the waypoint's list (ark 3QSQ-G99X-176N): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-176N?cc=2040054",
+   "says": "Entry 17: «Mate Ludvik Zrinski», born 16 September 1889, and «Marija Papić», born 16 March 1890, tobacco-factory worker; parents the late Mate Zrinski and Katarina; the late Stjepan Papić and Anica née Fajdetić. Read at full size.",
+   "slugs": [
+    "marija-carmela-papic",
+    "stjepan-papic",
+    "ane-fajdetic",
+    "mate-ludvik-zrinski-married-senj-may-1919"
+   ],
+   "people": [
+    {
+     "slug": "marija-carmela-papic",
+     "kind": "people",
+     "name": "Marija Carmela Papić"
+    },
+    {
+     "slug": "stjepan-papic",
+     "kind": "people",
+     "name": "Stjepan \"Stipe\" Papić"
+    },
+    {
+     "slug": "ane-fajdetic",
+     "kind": "people",
+     "name": "Ane \"Anica, Ankica\" Fajdetic"
+    },
+    {
+     "slug": "mate-ludvik-zrinski-married-senj-may-1919",
+     "kind": "found",
+     "name": "Mate Ludvik Zrinski married Senj May 1919"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-marriage-1919-10-pajdas-boras",
+   "entry": "senj-marriage-1919-10-pajdas-boras-left.jpg",
+   "page": "senj-marriage-1919-10-pajdas-boras-right.jpg",
+   "title": "Senj, 18 October 1919 — Jakov Pajdaš and Andjelika Boras",
+   "film": "Senj marriages 1859–1920 (FamilySearch waypoint 9R2D-N3F, 376 images)",
+   "where": "image 363 of the waypoint's list (ark 3QSQ-G99X-17Z8): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17Z8?cc=2040054",
+   "says": "Entry 41: «Jakov Pajdaš», widower, born 2 May 1883, and «Andjelika Boras», born 9 October 1888; parents the late Juraj Pajdaš and the late Franjka née Milošević; Ivan Boras and Vlada née Baričević. Read at full size.",
+   "slugs": [
+    "jakov-pajdas",
+    "andjelika-boras",
+    "joannes-ivan-boras",
+    "vladimira-baricevic"
+   ],
+   "people": [
+    {
+     "slug": "jakov-pajdas",
+     "kind": "people",
+     "name": "Jakov Pajdas"
+    },
+    {
+     "slug": "andjelika-boras",
+     "kind": "people",
+     "name": "Andjelika Boras"
+    },
+    {
+     "slug": "joannes-ivan-boras",
+     "kind": "people",
+     "name": "Joannes Ivan Boras"
+    },
+    {
+     "slug": "vladimira-baricevic",
+     "kind": "people",
+     "name": "Vladimira Baricevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-baptism-1854-12-toma-lenac",
+   "entry": "senj-baptism-1854-12-toma-lenac.jpg",
+   "page": "",
+   "title": "Senj, 19 December 1854 — Thomas Antonius Natalis Lenac",
+   "film": "Senj births (Rođeni) 1756–1858 (FamilySearch waypoint 9R2M-L27, 589 images)",
+   "where": "image 537 of the waypoint's list (ark 3QSQ-G99C-5YBP): the entry, cut from the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5YBP?cc=2040054",
+   "says": "«Thomam Antonium Natalem», son of «Martini Lenac» and «Magdalenae natae Žanić», baptised 19 December 1854 (the name «Tomam» written above the line). Read at full size.",
+   "slugs": [
+    "toma-anton-bozo-lenac"
+   ],
+   "people": [
+    {
+     "slug": "toma-anton-bozo-lenac",
+     "kind": "people",
+     "name": "Toma Anton Bozo Lenac"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-baptism-1854-12-natala-perpic",
+   "entry": "senj-baptism-1854-12-natala-perpic.jpg",
+   "page": "",
+   "title": "Senj, 21 December 1854 — Natala Johanna Perpić",
+   "film": "Senj births (Rođeni) 1756–1858 (FamilySearch waypoint 9R2M-L27, 589 images)",
+   "where": "image 537 of the waypoint's list (ark 3QSQ-G99C-5YBP): the entry, cut from the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5YBP?cc=2040054",
+   "says": "«Natalam Johannam», daughter of «Francisci Perpić» and «Annae natae Brozinčević», baptised 21 December 1854. Read at full size.",
+   "slugs": [
+    "nadala-prpic-perpic",
+    "franjo-franciscus-perpic",
+    "anna-brozinicevic"
+   ],
+   "people": [
+    {
+     "slug": "nadala-prpic-perpic",
+     "kind": "people",
+     "name": "Nadala Prpic Perpic"
+    },
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    },
+    {
+     "slug": "anna-brozinicevic",
+     "kind": "people",
+     "name": "Anna Brozinicevic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-baptism-1857-02-mathia-perpic",
+   "entry": "senj-baptism-1857-02-mathia-perpic.jpg",
+   "page": "",
+   "title": "Senj, 20 February 1857 — Mathia Perpić",
+   "film": "Senj births (Rođeni) 1756–1858 (FamilySearch waypoint 9R2M-L27, 589 images)",
+   "where": "image 562 of the waypoint's list (ark 3QSQ-G99C-5YKK): the entry, cut from the page",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99C-5YKK?cc=2040054",
+   "says": "Entry 27: «Mathiam», born 18 February 1857 and baptised 20 February, daughter of «Francisci Perpić bajuli» and «Annae natae Brozinčević»; godparents Joso Obersman and Catharina Basić. Read at full size.",
+   "slugs": [
+    "franjo-franciscus-perpic",
+    "anna-brozinicevic",
+    "christina-matia-prpic-perpic",
+    "mathia-perpic-baptised-senj-february-1857"
+   ],
+   "people": [
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    },
+    {
+     "slug": "anna-brozinicevic",
+     "kind": "people",
+     "name": "Anna Brozinicevic"
+    },
+    {
+     "slug": "christina-matia-prpic-perpic",
+     "kind": "people",
+     "name": "Christina Matia Prpic Perpic"
+    },
+    {
+     "slug": "mathia-perpic-baptised-senj-february-1857",
+     "kind": "found",
+     "name": "Mathia Perpić baptised Senj February 1857"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1863-11-christina-perpic",
+   "entry": "senj-death-1863-11-christina-perpic-left.jpg",
+   "page": "senj-death-1863-11-christina-perpic-right.jpg",
+   "title": "Senj, 22 November 1863 — Christina Perpić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 73 of the waypoint's list (ark 3QSQ-G99X-14SP): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-14SP?cc=2040054",
+   "says": "Entry 116: «Christina Perpić», daughter of «Franciscus Perpić bajulus», died 22 November 1863 aged one year and five months, house 448, of a membranous angina; buried at St Vitus on 24 November. Read at full size.",
+   "slugs": [
+    "christina-matia-prpic-perpic",
+    "franjo-franciscus-perpic"
+   ],
+   "people": [
+    {
+     "slug": "christina-matia-prpic-perpic",
+     "kind": "people",
+     "name": "Christina Matia Prpic Perpic"
+    },
+    {
+     "slug": "franjo-franciscus-perpic",
+     "kind": "people",
+     "name": "Franjo Franciscus Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1878-09-prpic-twins",
+   "entry": "senj-birth-1878-09-prpic-twins-left.jpg",
+   "page": "senj-birth-1878-09-prpic-twins-right.jpg",
+   "title": "Senj, 8 September 1878 — Twins Hermina Johana and Johana Maria Prpić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 17 of the waypoint's list (ark 3QS7-L99X-17CT): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17CT?cc=2040054",
+   "says": "Entries 60 and 61: Entries 60 and 61, born and baptised 8 September 1878: «Hermina Johana» and «Johana Maria», daughters of «Maria Prpić», daughter of Tone and Marija Perpić; no father named; marked «Dvojke», twins. Read at full size.",
+   "slugs": [
+    "hermina-prpic",
+    "johana-maria-prpic",
+    "marija-prpic-3"
+   ],
+   "people": [
+    {
+     "slug": "hermina-prpic",
+     "kind": "people",
+     "name": "Hermina Prpic"
+    },
+    {
+     "slug": "johana-maria-prpic",
+     "kind": "people",
+     "name": "Johana Maria Prpic"
+    },
+    {
+     "slug": "marija-prpic-3",
+     "kind": "people",
+     "name": "Marija Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1879-01-johana-perpic",
+   "entry": "senj-death-1879-01-johana-perpic-left.jpg",
+   "page": "senj-death-1879-01-johana-perpic-right.jpg",
+   "title": "Senj, 28 January 1879 — Johana (Hermina) Perpić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 280 of the waypoint's list (ark 3QS7-L99X-147P): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-147P?cc=2040054",
+   "says": "Entry 15: «Johana Perpić», «Hermina» written between the lines, died 28 January 1879 aged four months, house 106; daughter of Maria Perpić, daughter of Tone and Marija. Read at full size.",
+   "slugs": [
+    "hermina-prpic",
+    "marija-prpic-3"
+   ],
+   "people": [
+    {
+     "slug": "hermina-prpic",
+     "kind": "people",
+     "name": "Hermina Prpic"
+    },
+    {
+     "slug": "marija-prpic-3",
+     "kind": "people",
+     "name": "Marija Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1880-03-josip-prpic",
+   "entry": "senj-birth-1880-03-josip-prpic-left.jpg",
+   "page": "senj-birth-1880-03-josip-prpic-right.jpg",
+   "title": "Senj, 18 March 1880 — Josip Prpić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 45 of the waypoint's list (ark 3QS7-L99X-17WY): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17WY?cc=2040054",
+   "says": "Entry 30: «Josip», born 18 March 1880, baptised 26 March, son of «Marija Prpić», daughter of Tone and Marija; no father named; godparents Lojze Župan and Marija Babić. Read at full size.",
+   "slugs": [
+    "josip-prpic",
+    "marija-prpic-3",
+    "josip-prpic-6"
+   ],
+   "people": [
+    {
+     "slug": "josip-prpic",
+     "kind": "people",
+     "name": "Josip Prpic"
+    },
+    {
+     "slug": "marija-prpic-3",
+     "kind": "people",
+     "name": "Marija Prpic"
+    },
+    {
+     "slug": "josip-prpic-6",
+     "kind": "people",
+     "name": "Josip Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1880-04-josip-perpic",
+   "entry": "senj-death-1880-04-josip-perpic-left.jpg",
+   "page": "senj-death-1880-04-josip-perpic-right.jpg",
+   "title": "Senj, 2 April 1880 — Josip Perpić, fourteen days old",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 297 of the waypoint's list (ark 3QS7-899X-149T): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-149T?cc=2040054",
+   "says": "Entry 30: «Josip Perpić», died 2 April 1880 aged 14 days, house 26; child of Marija Perpić, daughter of Tone and Marija; buried 4 April. Read at full size.",
+   "slugs": [
+    "josip-prpic",
+    "josip-prpic-5",
+    "marija-prpic-3",
+    "josip-prpic-6"
+   ],
+   "people": [
+    {
+     "slug": "josip-prpic",
+     "kind": "people",
+     "name": "Josip Prpic"
+    },
+    {
+     "slug": "josip-prpic-5",
+     "kind": "people",
+     "name": "Josip Prpic"
+    },
+    {
+     "slug": "marija-prpic-3",
+     "kind": "people",
+     "name": "Marija Prpic"
+    },
+    {
+     "slug": "josip-prpic-6",
+     "kind": "people",
+     "name": "Josip Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1878-01-ana-belobarbic",
+   "entry": "senj-birth-1878-01-ana-belobarbic-left.jpg",
+   "page": "senj-birth-1878-01-ana-belobarbic-right.jpg",
+   "title": "Senj, 27 January 1878 — Ana Belobarbić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 10 of the waypoint's list (ark 3QS7-L99X-17JH): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-17JH?cc=2040054",
+   "says": "Entry 12: «Ana», born 27 January 1878, baptised 28 January, daughter of «Jandre Belobarbić» labourer and «Ivka rodj. Prpić»; godparents Jure Tomljanović and Luce Veselić. Read at full size.",
+   "slugs": [
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic",
+    "ana-belobarbic-baptised-senj-january-1878"
+   ],
+   "people": [
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    },
+    {
+     "slug": "ana-belobarbic-baptised-senj-january-1878",
+     "kind": "found",
+     "name": "Ana Belobarbić baptised Senj January 1878"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1880-11-lucija-belobarbic",
+   "entry": "senj-birth-1880-11-lucija-belobarbic-left.jpg",
+   "page": "senj-birth-1880-11-lucija-belobarbic-right.jpg",
+   "title": "Senj, 26 November 1880 — Lucija Belobarbić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 54 of the waypoint's list (ark 3QS7-899X-1Q5T): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1Q5T?cc=2040054",
+   "says": "Entry 88: «Lucija», born 26 November 1880, baptised 28 November, daughter of Jandre Belobarbić and Ivka born Prpić; godparents «Joso Papić», labourer, and «Tonka Prpić». Read at full size.",
+   "slugs": [
+    "lucija-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic",
+    "josip-anton-papic",
+    "antonija-tonka-perpic-prpic"
+   ],
+   "people": [
+    {
+     "slug": "lucija-belobarbic",
+     "kind": "people",
+     "name": "Lucija Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    },
+    {
+     "slug": "josip-anton-papic",
+     "kind": "people",
+     "name": "Josip Anton \"Joso\" Papić"
+    },
+    {
+     "slug": "antonija-tonka-perpic-prpic",
+     "kind": "people",
+     "name": "Antonija \"Tonka\" \"Tonka\" Perpić / Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1882-11-maria-belobarbic",
+   "entry": "senj-death-1882-11-maria-belobarbic-left.jpg",
+   "page": "senj-death-1882-11-maria-belobarbic-right.jpg",
+   "title": "Senj, 22 November 1882 — Maria Belobarbić, aged seven",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 332 of the waypoint's list (ark 3QS7-899X-14M8): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14M8?cc=2040054",
+   "says": "Entry 102: «Maria Belobarbić», 7, died 22 November 1882, of «Andre Belobarbić» labourer and his wife «Ivka»; cause written «Gerlica», a disease of the throat. Read at full size.",
+   "slugs": [
+    "maria-matthia-belobaric",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "maria-matthia-belobaric",
+     "kind": "people",
+     "name": "Maria Matthia Belobaric"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1882-11-lucija-belobarbic",
+   "entry": "senj-death-1882-11-lucija-belobarbic-left.jpg",
+   "page": "senj-death-1882-11-lucija-belobarbic-right.jpg",
+   "title": "Senj, 26 November 1882 — Lucija Belobarbić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 333 of the waypoint's list (ark 3QS7-899X-14S7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14S7?cc=2040054",
+   "says": "Entry 105: «Lucija Belobarbić», 2, died 26 November 1882, of Andre Belobarbić and his wife Ivka; «Gerlica». Read at full size.",
+   "slugs": [
+    "lucija-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "lucija-belobarbic",
+     "kind": "people",
+     "name": "Lucija Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1882-12-ana-belobarbic",
+   "entry": "senj-death-1882-12-ana-belobarbic-left.jpg",
+   "page": "senj-death-1882-12-ana-belobarbic-right.jpg",
+   "title": "Senj, 1 December 1882 — Ana Belobarbić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 333 of the waypoint's list (ark 3QS7-899X-14S7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-14S7?cc=2040054",
+   "says": "Entry 111: «Ana Belobarbić», 4, died 1 December 1882, of Andre Belobarbić and his wife Ivka; «Gerlica». Read at full size.",
+   "slugs": [
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1883-12-frane-belobarbic",
+   "entry": "senj-birth-1883-12-frane-belobarbic-left.jpg",
+   "page": "senj-birth-1883-12-frane-belobarbic-right.jpg",
+   "title": "Senj, 2 December 1883 — Frane Belobarbić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 103 of the waypoint's list (ark 3QS7-899X-1QTW): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1QTW?cc=2040054",
+   "says": "Entry 88: «Frane», born 2 December 1883, baptised 8 December, son of «Andre Belobarbić» labourer and «Ivanja rod. Perpić». Read at full size.",
+   "slugs": [
+    "frane-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "frane-belobarbic",
+     "kind": "people",
+     "name": "Frane Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1886-09-maria-belobarbic",
+   "entry": "senj-birth-1886-09-maria-belobarbic-left.jpg",
+   "page": "senj-birth-1886-09-maria-belobarbic-right.jpg",
+   "title": "Senj, 6 September 1886 — Maria Belobarbić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 139 of the waypoint's list (ark 3QS7-899X-1QP7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1QP7?cc=2040054",
+   "says": "Entry 83: «Maria», born 6 September 1886, baptised 8 September, daughter of Andre Belobarbić labourer and Ivka born Perpić. Read at full size.",
+   "slugs": [
+    "maria-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "maria-belobarbic",
+     "kind": "people",
+     "name": "Maria Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1886-08-olga-prpic",
+   "entry": "senj-birth-1886-08-olga-prpic-left.jpg",
+   "page": "senj-birth-1886-08-olga-prpic-right.jpg",
+   "title": "Senj, 6 August 1886 — Olga Oktavia Prpić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 139 of the waypoint's list (ark 3QS7-899X-1QP7): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1QP7?cc=2040054",
+   "says": "Entry 80: «Olga Oktavia», born 6 August 1886, baptised 22 August, daughter of «Ivan Prpić» merchant and «Matia rodj. Prpić»; godparents «Nikola Rivoseki» and «Ana Prpić»; a later note: died 5 June 1949 at Senj. Read at full size.",
+   "slugs": [
+    "olga-oktavia-prpic",
+    "ivan-prpic",
+    "matia-2",
+    "nikula-niko-nikola-rivosechi"
+   ],
+   "people": [
+    {
+     "slug": "olga-oktavia-prpic",
+     "kind": "people",
+     "name": "Olga Oktavia Prpic"
+    },
+    {
+     "slug": "ivan-prpic",
+     "kind": "people",
+     "name": "Ivan Prpic"
+    },
+    {
+     "slug": "matia-2",
+     "kind": "people",
+     "name": "Matia"
+    },
+    {
+     "slug": "nikula-niko-nikola-rivosechi",
+     "kind": "people",
+     "name": "Nikula Niko Nikola Rivosechi"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1888-03-marija-babic",
+   "entry": "senj-death-1888-03-marija-babic-left.jpg",
+   "page": "senj-death-1888-03-marija-babic-right.jpg",
+   "title": "Senj, 8 March 1888 — Marija Babić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 394 of the waypoint's list (ark 3QS7-899X-1HSC): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1HSC?cc=2040054",
+   "says": "Entry 20: «Marija Babić», 7 months, died 8 March 1888, daughter of «Tone Babić» mason and «Teresa». Read at full size.",
+   "slugs": [
+    "marija-babic",
+    "anton-ivan-babic",
+    "tereza-prpic"
+   ],
+   "people": [
+    {
+     "slug": "marija-babic",
+     "kind": "people",
+     "name": "Marija Babić"
+    },
+    {
+     "slug": "anton-ivan-babic",
+     "kind": "people",
+     "name": "Anton Ivan \"Ante\" Babić"
+    },
+    {
+     "slug": "tereza-prpic",
+     "kind": "people",
+     "name": "Tereza Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1888-03-marijan-krmpotic",
+   "entry": "senj-birth-1888-03-marijan-krmpotic-left.jpg",
+   "page": "senj-birth-1888-03-marijan-krmpotic-right.jpg",
+   "title": "Senj, 25 March 1888 — Marijan Krmpotić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 161 of the waypoint's list (ark 3QSQ-G99X-17HZ): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17HZ?cc=2040054",
+   "says": "Entry 47: «Marijan», entered as a son («zakoniti»), born 25 March 1888, baptised 15 April, of Anton Krmpotić and Marija born Prpić. Later notes: married at St Mark's, Zagreb, on 30 June 1928 to «Vera Karlovski»; and, on a pasted slip citing the Zagreb death register no. 737/52, died 12 June at Zagreb. The year on the slip is written so that it looks like 1912; the register number, the 1928 marriage and the registrar's form make it 1952. Read at full size.",
+   "slugs": [
+    "marijan-krmpotic",
+    "anton-antun-krmpotic",
+    "marija-prpic"
+   ],
+   "people": [
+    {
+     "slug": "marijan-krmpotic",
+     "kind": "people",
+     "name": "Marijan Krmpotić"
+    },
+    {
+     "slug": "anton-antun-krmpotic",
+     "kind": "people",
+     "name": "Anton Antun Krmpotić"
+    },
+    {
+     "slug": "marija-prpic",
+     "kind": "people",
+     "name": "Marija Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1888-03-josip-loncaric",
+   "entry": "senj-birth-1888-03-josip-loncaric-left.jpg",
+   "page": "senj-birth-1888-03-josip-loncaric-right.jpg",
+   "title": "Senj, 21 March 1888 — Josip Marijan Lončarić",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 161 of the waypoint's list (ark 3QSQ-G99X-17HZ): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-17HZ?cc=2040054",
+   "says": "Entry 44: «Josip Marijan», born 21 March 1888, baptised 26 March, son of «Mate Lončarić» mason and «Vicenca rodj. Lenac». Read at full size.",
+   "slugs": [
+    "mate-loncaric-2",
+    "josip-marijan-loncaric-baptised-senj-march-1888"
+   ],
+   "people": [
+    {
+     "slug": "mate-loncaric-2",
+     "kind": "people",
+     "name": "Mate Loncaric"
+    },
+    {
+     "slug": "josip-marijan-loncaric-baptised-senj-march-1888",
+     "kind": "found",
+     "name": "Josip Marijan Lončarić baptised Senj March 1888"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1890-04-marija-belobarbic",
+   "entry": "senj-death-1890-04-marija-belobarbic-left.jpg",
+   "page": "senj-death-1890-04-marija-belobarbic-right.jpg",
+   "title": "Senj, 10 April 1890 — Marija Belobarbić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 425 of the waypoint's list (ark 3QS7-899X-1H7H): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-1H7H?cc=2040054",
+   "says": "Entry 41: «Marija Belobarbić», 3, died 10 April 1890 of scarlet fever; Jandre Belobarbić and Ivka born Perpić. Read at full size.",
+   "slugs": [
+    "maria-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "maria-belobarbic",
+     "kind": "people",
+     "name": "Maria Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1890-04-franjo-belobarbic",
+   "entry": "senj-death-1890-04-franjo-belobarbic-left.jpg",
+   "page": "senj-death-1890-04-franjo-belobarbic-right.jpg",
+   "title": "Senj, 18 April 1890 — Franjo Belobarbić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 426 of the waypoint's list (ark 3QS7-L99X-14B5): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-14B5?cc=2040054",
+   "says": "Entry 44: «Franjo Belobarbić», 6, died 18 April 1890 of scarlet fever; Jandre Belobarbić and Ivanja born Perpić. Read at full size.",
+   "slugs": [
+    "frane-belobarbic",
+    "andre-belobarbic",
+    "ivka-ivanja-prpic-perpic"
+   ],
+   "people": [
+    {
+     "slug": "frane-belobarbic",
+     "kind": "people",
+     "name": "Frane Belobarbic"
+    },
+    {
+     "slug": "andre-belobarbic",
+     "kind": "people",
+     "name": "Andre Belobarbic"
+    },
+    {
+     "slug": "ivka-ivanja-prpic-perpic",
+     "kind": "people",
+     "name": "Ivka Ivanja Prpic Perpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-birth-1894-01-josip-blazevic",
+   "entry": "senj-birth-1894-01-josip-blazevic-left.jpg",
+   "page": "senj-birth-1894-01-josip-blazevic-right.jpg",
+   "title": "Senj, 15 January 1894 — Josip Anton Blažević",
+   "film": "Senj births 1878–1894 (FamilySearch waypoint 9R2D-JWL, 269 images)",
+   "where": "image 256 of the waypoint's list (ark 3QSQ-G99X-1Q8W): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-1Q8W?cc=2040054",
+   "says": "Entry 6: «Josip, Anton», born 15 January 1894, baptised 17 January, son of «Ivan Blažević» and «Marija r. Tomljanović»; godparents Ivan Srdoc and Marija Pilipović. Read at full size.",
+   "slugs": [
+    "josip-anton-blazevic",
+    "ivan-blazevic-2",
+    "marija-tomljanovic-2"
+   ],
+   "people": [
+    {
+     "slug": "josip-anton-blazevic",
+     "kind": "people",
+     "name": "Josip Anton Blažević"
+    },
+    {
+     "slug": "ivan-blazevic-2",
+     "kind": "people",
+     "name": "Ivan Blažević"
+    },
+    {
+     "slug": "marija-tomljanovic-2",
+     "kind": "people",
+     "name": "Marija Tomljanovic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1895-05-joso-blazevic",
+   "entry": "senj-death-1895-05-joso-blazevic-left.jpg",
+   "page": "senj-death-1895-05-joso-blazevic-right.jpg",
+   "title": "Senj, 13 May 1895 — Joso Blažević",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 490 of the waypoint's list (ark 3QS7-L99X-1H7S): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1H7S?cc=2040054",
+   "says": "Entry 45: «Joso Blažević», one and a half, died 13 May 1895, son of Ivan Blažević of the finance guard's boat service and Marija; buried 14 May. Read at full size.",
+   "slugs": [
+    "josip-anton-blazevic",
+    "ivan-blazevic-2",
+    "marija-tomljanovic-2"
+   ],
+   "people": [
+    {
+     "slug": "josip-anton-blazevic",
+     "kind": "people",
+     "name": "Josip Anton Blažević"
+    },
+    {
+     "slug": "ivan-blazevic-2",
+     "kind": "people",
+     "name": "Ivan Blažević"
+    },
+    {
+     "slug": "marija-tomljanovic-2",
+     "kind": "people",
+     "name": "Marija Tomljanovic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1896-04-leon-krmpotic",
+   "entry": "senj-death-1896-04-leon-krmpotic-left.jpg",
+   "page": "senj-death-1896-04-leon-krmpotic-right.jpg",
+   "title": "Senj, 24 April 1896 — Leon Krmpotić",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 498 of the waypoint's list (ark 3QS7-L99X-1429): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1429?cc=2040054",
+   "says": "Entry 32: «Leon Krmpotić», 2, died 24 April 1896 of diphtheria, son of Anton Krmpotić, opanak-maker, and Marija born Prpić; buried 25 April. Read at full size.",
+   "slugs": [
+    "leon-davorim-krmpotic",
+    "anton-antun-krmpotic",
+    "marija-prpic"
+   ],
+   "people": [
+    {
+     "slug": "leon-davorim-krmpotic",
+     "kind": "people",
+     "name": "Leon Davorim Krmpotić"
+    },
+    {
+     "slug": "anton-antun-krmpotic",
+     "kind": "people",
+     "name": "Anton Antun Krmpotić"
+    },
+    {
+     "slug": "marija-prpic",
+     "kind": "people",
+     "name": "Marija Prpic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
+  },
+  {
+   "id": "senj-death-1906-05-mate-blazevic",
+   "entry": "senj-death-1906-05-mate-blazevic-left.jpg",
+   "page": "senj-death-1906-05-mate-blazevic-right.jpg",
+   "title": "Senj, 4 May 1906 — Mate Blažević, fifteen",
+   "film": "Senj deaths 1859–1907 (FamilySearch waypoint 9R2D-K6D, 645 images)",
+   "where": "image 624 of the waypoint's list (ark 3QS7-L99X-1467): the entry's row under its column headings, in two crops",
+   "view": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99X-1467?cc=2040054",
+   "says": "Entry 41: «Blažević Mate», 15, apprentice opanak-maker, died 4 May 1906, son of Ivan Blažević, retired finance guard, and Marija; buried 6 May. Read at full size.",
+   "slugs": [
+    "mate-blazevic-3",
+    "ivan-blazevic-2",
+    "marija-tomljanovic-2"
+   ],
+   "people": [
+    {
+     "slug": "mate-blazevic-3",
+     "kind": "people",
+     "name": "Mate Blažević"
+    },
+    {
+     "slug": "ivan-blazevic-2",
+     "kind": "people",
+     "name": "Ivan Blažević"
+    },
+    {
+     "slug": "marija-tomljanovic-2",
+     "kind": "people",
+     "name": "Marija Tomljanovic"
+    }
+   ],
+   "captured": "27 November 2026",
+   "note": "notes/senj-books-matching-2026-11-27.md",
+   "noteUrl": "https://github.com/daviddef/TheBlazevic/blob/main/notes/senj-books-matching-2026-11-27.md"
   }
  ],
  "bySlug": {
@@ -14949,7 +17381,10 @@
   ],
   "antonija-tonka-perpic-prpic": [
    "krivi-put-baptism-1859-antonija-perpic",
-   "senj-marriage-1885-papic-perpic"
+   "senj-marriage-1885-papic-perpic",
+   "senj-marriage-1903-08-grzanic-papic",
+   "senj-marriage-1918-08-ridjan-papic",
+   "senj-birth-1880-11-lucija-belobarbic"
   ],
   "joannis-perpic": [
    "krivi-put-baptism-1861-stephanus-perpic",
@@ -14962,7 +17397,10 @@
   "josip-anton-papic": [
    "senj-marriage-1885-papic-perpic",
    "senj-baptism-1857-josip-papic",
-   "senj-birth-1886-milka-lucia-papic"
+   "senj-birth-1886-milka-lucia-papic",
+   "senj-marriage-1903-08-grzanic-papic",
+   "senj-marriage-1918-08-ridjan-papic",
+   "senj-birth-1880-11-lucija-belobarbic"
   ],
   "georgius-juraj-joannis-papa-antic-papic": [
    "senj-marriage-1885-papic-perpic",
@@ -15004,12 +17442,14 @@
   "matia-mathiam-georgiam-uroda": [
    "senj-death-1886-matija-pilipic",
    "karlobag-baptism-1810-matia-uroda",
-   "karlobag-baptism-1838-matia-pilipic"
+   "karlobag-baptism-1838-matia-pilipic",
+   "senj-marriage-1906-10-dosen-pilepic"
   ],
   "vicentius-andreas-vincent-pilipic": [
    "senj-death-1886-matija-pilipic",
    "senj-death-1897-vicko-pilipic",
-   "karlobag-baptism-1838-matia-pilipic"
+   "karlobag-baptism-1838-matia-pilipic",
+   "senj-marriage-1906-10-dosen-pilepic"
   ],
   "toma-tomislav-blazevic": [
    "senj-death-1907-toma-blazevic"
@@ -16150,10 +18590,12 @@
    "senj-birth-1886-milka-lucia-papic"
   ],
   "josip-spalj-spalj": [
-   "senj-birth-1886-milka-lucia-papic"
+   "senj-birth-1886-milka-lucia-papic",
+   "senj-marriage-1918-05-belobarbic-spalj"
   ],
   "anton-ivan-babic": [
-   "senj-baptism-1837-ante-babic"
+   "senj-baptism-1837-ante-babic",
+   "senj-death-1888-03-marija-babic"
   ],
   "augustin-babic": [
    "senj-baptism-1837-ante-babic"
@@ -16166,7 +18608,10 @@
   ],
   "anton-antun-krmpotic": [
    "krivi-put-baptism-1854-antun-krmpotic",
-   "krivi-put-marriage-1880-antun-krmpotic"
+   "krivi-put-marriage-1880-antun-krmpotic",
+   "senj-marriage-1909-07-drnjevic-krmpotic",
+   "senj-birth-1888-03-marijan-krmpotic",
+   "senj-death-1896-04-leon-krmpotic"
   ],
   "nicolaus-nicolai-kraljich": [
    "otocac-census-kraljich-house-40-nicolaus-son-of-the-late-jacobus",
@@ -16276,7 +18721,8 @@
    "senj-baptism-1858-03-maria-theresia-blazevic",
    "senj-death-1861-03-maria-blazevic",
    "senj-death-1862-07-christophorus-blasevic",
-   "senj-marriage-1866-01-tintor-theresia-blazevic"
+   "senj-marriage-1866-01-tintor-theresia-blazevic",
+   "senj-marriage-1877-09-bacic-blazevic"
   ],
   "mikula-jurcic": [
    "senj-births-1859-77-img0063"
@@ -16312,7 +18758,8 @@
    "senj-births-1859-77-img0014"
   ],
   "franciska-prpic": [
-   "senj-births-1859-77-img0037"
+   "senj-births-1859-77-img0037",
+   "senj-marriage-1886-03-luksa-perpic"
   ],
   "stephannes-papic": [
    "senj-births-1859-77-img0039"
@@ -16337,7 +18784,10 @@
    "senj-births-1859-77-img0080"
   ],
   "christina-matia-prpic-perpic": [
-   "senj-births-1859-77-img0080"
+   "senj-births-1859-77-img0080",
+   "senj-marriage-1884-01-perpic-perpic",
+   "senj-baptism-1857-02-mathia-perpic",
+   "senj-death-1863-11-christina-perpic"
   ],
   "christina-maria-boras": [
    "senj-births-1859-77-img0081"
@@ -16356,11 +18806,15 @@
   ],
   "benedictus-rivosechi": [
    "senj-births-1859-77-img0139",
-   "senj-births-1859-77-img0218"
+   "senj-births-1859-77-img0218",
+   "senj-marriage-1875-04-rivosechi-biljan",
+   "senj-marriage-1880-02-rivosechi-perpic"
   ],
   "maria-fabianic-fabiani": [
    "senj-births-1859-77-img0139",
-   "senj-births-1859-77-img0218"
+   "senj-births-1859-77-img0218",
+   "senj-marriage-1875-04-rivosechi-biljan",
+   "senj-marriage-1880-02-rivosechi-perpic"
   ],
   "franciscus-prpic-perpic": [
    "senj-births-1859-77-img0172"
@@ -16369,7 +18823,8 @@
    "senj-births-1859-77-img0173"
   ],
   "johana-jurcic": [
-   "senj-births-1859-77-img0213"
+   "senj-births-1859-77-img0213",
+   "senj-marriage-1884-01-lenac-jurcic"
   ],
   "antonius-josip-papic": [
    "senj-births-1859-77-img0215"
@@ -16384,10 +18839,12 @@
    "senj-births-1859-77-img0231"
   ],
   "jure-juraj-georgius-grandic": [
-   "senj-births-1859-77-img0231"
+   "senj-births-1859-77-img0231",
+   "senj-marriage-1868-06-grandic-basic"
   ],
   "joanna-basic": [
-   "senj-births-1859-77-img0231"
+   "senj-births-1859-77-img0231",
+   "senj-marriage-1868-06-grandic-basic"
   ],
   "franciscus-prpic-perpic-2": [
    "senj-births-1859-77-img0255"
@@ -16432,10 +18889,12 @@
    "senj-births-1859-77-img0351"
   ],
   "maria-matthia-belobaric": [
-   "senj-births-1859-77-img0351"
+   "senj-births-1859-77-img0351",
+   "senj-death-1882-11-maria-belobarbic"
   ],
   "mate-matthias-grzanic": [
-   "senj-births-1859-77-img0356"
+   "senj-births-1859-77-img0356",
+   "senj-marriage-1903-08-grzanic-papic"
   ],
   "antonius-grandic": [
    "senj-births-1859-77-img0362"
@@ -16444,7 +18903,9 @@
    "senj-births-1859-77-img0369"
   ],
   "vinko-glavas": [
-   "senj-births-1859-77-img0379"
+   "senj-births-1859-77-img0379",
+   "senj-marriage-1903-08-glavas-biondic",
+   "senj-marriage-1911-02-glavas-prpic"
   ],
   "andreas-perpic-prpic": [
    "senj-births-1859-77-img0380"
@@ -16459,10 +18920,14 @@
    "senj-births-1859-77-img0385"
   ],
   "stjepan-papic": [
-   "senj-marriage-1888-05-papic-fajdetic"
+   "senj-marriage-1888-05-papic-fajdetic",
+   "senj-marriage-1915-02-loncaric-papic",
+   "senj-marriage-1919-05-zrinski-papic"
   ],
   "ane-fajdetic": [
-   "senj-marriage-1888-05-papic-fajdetic"
+   "senj-marriage-1888-05-papic-fajdetic",
+   "senj-marriage-1915-02-loncaric-papic",
+   "senj-marriage-1919-05-zrinski-papic"
   ],
   "sime-fajdetic": [
    "senj-marriage-1888-05-papic-fajdetic"
@@ -16478,6 +18943,469 @@
   ],
   "ruza-prpic": [
    "senj-baptism-1878-12-marija-prpic"
+  ],
+  "dominus-henricus-padovic": [
+   "senj-marriage-1862-03-padovic-krajac"
+  ],
+  "michael-padovic": [
+   "senj-marriage-1862-03-padovic-krajac"
+  ],
+  "maria-blazevic-4": [
+   "senj-marriage-1862-03-padovic-krajac"
+  ],
+  "natalia-krajacz-married-senj-march-1862": [
+   "senj-marriage-1862-03-padovic-krajac"
+  ],
+  "paschalis-bronzini": [
+   "senj-marriage-1862-09-bronzini-adamic"
+  ],
+  "catharina-adamic-adamich": [
+   "senj-marriage-1862-09-bronzini-adamic"
+  ],
+  "wolfgangus-volfgangus-adamic-adamich": [
+   "senj-marriage-1862-09-bronzini-adamic"
+  ],
+  "magdalena-zubrinic-4": [
+   "senj-marriage-1862-09-bronzini-adamic"
+  ],
+  "frano-franciscus-grandic": [
+   "senj-marriage-1868-06-grandic-basic"
+  ],
+  "margareta-barbalic": [
+   "senj-marriage-1868-06-grandic-basic"
+  ],
+  "toma-tomljanovic": [
+   "senj-marriage-1868-11-tomljanovic-gerzanic"
+  ],
+  "antonija": [
+   "senj-marriage-1868-11-tomljanovic-gerzanic"
+  ],
+  "andreas-belobaric": [
+   "senj-marriage-1872-08-belobarbic-perpic"
+  ],
+  "joanna-prpic-perpic": [
+   "senj-marriage-1872-08-belobarbic-perpic"
+  ],
+  "gregorius-nell-married-senj-february-1875": [
+   "senj-marriage-1875-02-nell-stipanicic"
+  ],
+  "maria-anna-stipanicic-married-senj-february-1875": [
+   "senj-marriage-1875-02-nell-stipanicic"
+  ],
+  "josephus-josip-rivosechi": [
+   "senj-marriage-1875-04-rivosechi-biljan"
+  ],
+  "mathildes-antonia-biljan-married-senj-april-1875": [
+   "senj-marriage-1875-04-rivosechi-biljan"
+  ],
+  "franciscus-bacic": [
+   "senj-marriage-1877-09-bacic-blazevic"
+  ],
+  "rosa-blazevic": [
+   "senj-marriage-1877-09-bacic-blazevic"
+  ],
+  "gregorius-gregoru-blazevic": [
+   "senj-marriage-1877-09-bacic-blazevic"
+  ],
+  "nikula-niko-nikola-rivosechi": [
+   "senj-marriage-1880-02-rivosechi-perpic",
+   "senj-birth-1886-08-olga-prpic"
+  ],
+  "nadala-prpic-perpic": [
+   "senj-marriage-1880-02-rivosechi-perpic",
+   "senj-baptism-1854-12-natala-perpic"
+  ],
+  "franjo-franciscus-perpic": [
+   "senj-marriage-1880-02-rivosechi-perpic",
+   "senj-marriage-1884-01-perpic-perpic",
+   "senj-marriage-1886-03-luksa-perpic",
+   "senj-baptism-1854-12-natala-perpic",
+   "senj-baptism-1857-02-mathia-perpic",
+   "senj-death-1863-11-christina-perpic"
+  ],
+  "anna-brozinicevic": [
+   "senj-marriage-1880-02-rivosechi-perpic",
+   "senj-marriage-1884-01-perpic-perpic",
+   "senj-marriage-1886-03-luksa-perpic",
+   "senj-baptism-1854-12-natala-perpic",
+   "senj-baptism-1857-02-mathia-perpic"
+  ],
+  "ivan-perpic": [
+   "senj-marriage-1884-01-perpic-perpic"
+  ],
+  "dametar-perpic": [
+   "senj-marriage-1884-01-perpic-perpic"
+  ],
+  "ivka-sojat": [
+   "senj-marriage-1884-01-perpic-perpic"
+  ],
+  "toma-anton-bozo-lenac": [
+   "senj-marriage-1884-01-lenac-jurcic",
+   "senj-baptism-1854-12-toma-lenac"
+  ],
+  "anton-jurcic": [
+   "senj-marriage-1884-01-lenac-jurcic",
+   "senj-marriage-1903-07-jurcic-prpic"
+  ],
+  "jakomina-prpic": [
+   "senj-marriage-1884-01-lenac-jurcic",
+   "senj-marriage-1903-07-jurcic-prpic"
+  ],
+  "eduard-tomlenovic": [
+   "senj-marriage-1885-06-tomlenovic-perpic"
+  ],
+  "ivka-perpic": [
+   "senj-marriage-1885-06-tomlenovic-perpic"
+  ],
+  "jakov-perpic": [
+   "senj-marriage-1885-06-tomlenovic-perpic"
+  ],
+  "kate": [
+   "senj-marriage-1885-06-tomlenovic-perpic"
+  ],
+  "julius-luksa-married-senj-march-1886": [
+   "senj-marriage-1886-03-luksa-perpic"
+  ],
+  "mate-loncaric-2": [
+   "senj-marriage-1886-11-loncaric-lenac",
+   "senj-marriage-1915-02-loncaric-papic",
+   "senj-birth-1888-03-josip-loncaric"
+  ],
+  "sime-loncaric": [
+   "senj-marriage-1886-11-loncaric-lenac"
+  ],
+  "margareta-prpic": [
+   "senj-marriage-1886-11-loncaric-lenac"
+  ],
+  "vicenca-lenac-married-senj-november-1886": [
+   "senj-marriage-1886-11-loncaric-lenac"
+  ],
+  "pavao-jurcic-married-senj-july-1903": [
+   "senj-marriage-1903-07-jurcic-prpic"
+  ],
+  "antonija-prpic-married-senj-july-1903": [
+   "senj-marriage-1903-07-jurcic-prpic"
+  ],
+  "josip-zubrinic": [
+   "senj-marriage-1903-07-zubrinic-vukelic"
+  ],
+  "franjo-zubrinic": [
+   "senj-marriage-1903-07-zubrinic-vukelic"
+  ],
+  "ivanja-radanovic": [
+   "senj-marriage-1903-07-zubrinic-vukelic"
+  ],
+  "marija-vukelic-2": [
+   "senj-marriage-1903-07-zubrinic-vukelic"
+  ],
+  "julka-biondic-married-senj-august-1903": [
+   "senj-marriage-1903-08-glavas-biondic"
+  ],
+  "marija-papic": [
+   "senj-marriage-1903-08-grzanic-papic"
+  ],
+  "fabo-milkovic": [
+   "senj-marriage-1903-08-milkovic-butkovic"
+  ],
+  "marija-butkovic": [
+   "senj-marriage-1903-08-milkovic-butkovic"
+  ],
+  "anton-desanti": [
+   "senj-marriage-1904-02-desanti-blazevic"
+  ],
+  "marija-blazevic-11": [
+   "senj-marriage-1904-02-desanti-blazevic"
+  ],
+  "pavao-pave-blazevic": [
+   "senj-marriage-1904-02-desanti-blazevic",
+   "senj-marriage-1906-01-loncaric-blazevic"
+  ],
+  "vincencija-vica-vice-blazevic": [
+   "senj-marriage-1904-02-desanti-blazevic",
+   "senj-marriage-1906-01-loncaric-blazevic"
+  ],
+  "paval-loncaric": [
+   "senj-marriage-1906-01-loncaric-blazevic"
+  ],
+  "marta-blazevic-3": [
+   "senj-marriage-1906-01-loncaric-blazevic"
+  ],
+  "nikola-sojat": [
+   "senj-marriage-1906-02-sojat-blazevic"
+  ],
+  "kata-blazevic": [
+   "senj-marriage-1906-02-sojat-blazevic"
+  ],
+  "franjo-blazevic": [
+   "senj-marriage-1906-02-sojat-blazevic"
+  ],
+  "tonka": [
+   "senj-marriage-1906-02-sojat-blazevic"
+  ],
+  "albert-dosen": [
+   "senj-marriage-1906-10-dosen-pilepic"
+  ],
+  "marija-2": [
+   "senj-marriage-1906-10-dosen-pilepic"
+  ],
+  "ivan-nell": [
+   "senj-marriage-1907-08-nell-prpic"
+  ],
+  "kata-prpic": [
+   "senj-marriage-1907-08-nell-prpic"
+  ],
+  "nikola-prpic": [
+   "senj-marriage-1907-08-nell-prpic"
+  ],
+  "franjica-blazevic-2": [
+   "senj-marriage-1907-08-nell-prpic"
+  ],
+  "linda-elizabeta-vukelic": [
+   "senj-marriage-1908-03-kren-vukelic"
+  ],
+  "petar-vukelic": [
+   "senj-marriage-1908-03-kren-vukelic"
+  ],
+  "vjekoslava-pulanic": [
+   "senj-marriage-1908-03-kren-vukelic"
+  ],
+  "ivan-kren-married-senj-march-1908": [
+   "senj-marriage-1908-03-kren-vukelic"
+  ],
+  "melchior-drnjevic": [
+   "senj-marriage-1909-07-drnjevic-krmpotic"
+  ],
+  "slavka-katarina-krmpotic": [
+   "senj-marriage-1909-07-drnjevic-krmpotic"
+  ],
+  "marija-prpic": [
+   "senj-marriage-1909-07-drnjevic-krmpotic",
+   "senj-birth-1888-03-marijan-krmpotic",
+   "senj-death-1896-04-leon-krmpotic"
+  ],
+  "marijan-krmpotic": [
+   "senj-marriage-1909-07-drnjevic-krmpotic",
+   "senj-birth-1888-03-marijan-krmpotic"
+  ],
+  "nikola-zubrinic-xubrinic": [
+   "senj-marriage-1910-07-zubrinic-stimac"
+  ],
+  "olga-stimac": [
+   "senj-marriage-1910-07-zubrinic-stimac"
+  ],
+  "ana-prpic-2": [
+   "senj-marriage-1911-02-glavas-prpic"
+  ],
+  "stjepan-stipan-prpic": [
+   "senj-marriage-1911-02-glavas-prpic"
+  ],
+  "lucija-luce-luce": [
+   "senj-marriage-1911-02-glavas-prpic"
+  ],
+  "josip-glavicic": [
+   "senj-marriage-1913-05-glavicic-prpic"
+  ],
+  "lucija-prpic": [
+   "senj-marriage-1913-05-glavicic-prpic"
+  ],
+  "petar-prpic": [
+   "senj-marriage-1913-05-glavicic-prpic"
+  ],
+  "antonija-pavelic": [
+   "senj-marriage-1913-05-glavicic-prpic"
+  ],
+  "vjenceslav-loncaric": [
+   "senj-marriage-1915-02-loncaric-papic"
+  ],
+  "bozica-lucija-papic": [
+   "senj-marriage-1915-02-loncaric-papic"
+  ],
+  "ivan-zubrinic-2": [
+   "senj-marriage-1915-02-zubrinic-biljan"
+  ],
+  "stjepan-zubrinic": [
+   "senj-marriage-1915-02-zubrinic-biljan"
+  ],
+  "kata-oreskovic-oreskovic": [
+   "senj-marriage-1915-02-zubrinic-biljan"
+  ],
+  "francika-biljan": [
+   "senj-marriage-1915-02-zubrinic-biljan"
+  ],
+  "juhas-daniel": [
+   "senj-marriage-1916-02-juhas-blazevic"
+  ],
+  "zora-blazevic": [
+   "senj-marriage-1916-02-juhas-blazevic"
+  ],
+  "jakov-blazevic-2": [
+   "senj-marriage-1916-02-juhas-blazevic"
+  ],
+  "marija-6": [
+   "senj-marriage-1916-02-juhas-blazevic"
+  ],
+  "ettore-scarpa": [
+   "senj-marriage-1916-12-scarpa-boras"
+  ],
+  "marija-boras": [
+   "senj-marriage-1916-12-scarpa-boras"
+  ],
+  "joannes-ivan-boras": [
+   "senj-marriage-1916-12-scarpa-boras",
+   "senj-marriage-1917-01-krmpotic-boras",
+   "senj-marriage-1919-10-pajdas-boras"
+  ],
+  "vladimira-baricevic": [
+   "senj-marriage-1916-12-scarpa-boras",
+   "senj-marriage-1917-01-krmpotic-boras",
+   "senj-marriage-1919-10-pajdas-boras"
+  ],
+  "ivan-krmpotic-2": [
+   "senj-marriage-1917-01-krmpotic-boras"
+  ],
+  "pava-boras": [
+   "senj-marriage-1917-01-krmpotic-boras"
+  ],
+  "ivan-belobarbic": [
+   "senj-marriage-1918-05-belobarbic-spalj"
+  ],
+  "lucija-spalj-spalj": [
+   "senj-marriage-1918-05-belobarbic-spalj"
+  ],
+  "ana-prpic": [
+   "senj-marriage-1918-05-belobarbic-spalj"
+  ],
+  "marko-ridjan": [
+   "senj-marriage-1918-08-ridjan-papic"
+  ],
+  "ana-papic": [
+   "senj-marriage-1918-08-ridjan-papic"
+  ],
+  "juraj-sucic": [
+   "senj-marriage-1918-11-sucic-kalanj"
+  ],
+  "marija-anka-kalanj": [
+   "senj-marriage-1918-11-sucic-kalanj"
+  ],
+  "lovro-laurentius-kalanj": [
+   "senj-marriage-1918-11-sucic-kalanj"
+  ],
+  "klara-blazevic": [
+   "senj-marriage-1918-11-sucic-kalanj"
+  ],
+  "marija-carmela-papic": [
+   "senj-marriage-1919-05-zrinski-papic"
+  ],
+  "mate-ludvik-zrinski-married-senj-may-1919": [
+   "senj-marriage-1919-05-zrinski-papic"
+  ],
+  "jakov-pajdas": [
+   "senj-marriage-1919-10-pajdas-boras"
+  ],
+  "andjelika-boras": [
+   "senj-marriage-1919-10-pajdas-boras"
+  ],
+  "mathia-perpic-baptised-senj-february-1857": [
+   "senj-baptism-1857-02-mathia-perpic"
+  ],
+  "hermina-prpic": [
+   "senj-birth-1878-09-prpic-twins",
+   "senj-death-1879-01-johana-perpic"
+  ],
+  "johana-maria-prpic": [
+   "senj-birth-1878-09-prpic-twins"
+  ],
+  "marija-prpic-3": [
+   "senj-birth-1878-09-prpic-twins",
+   "senj-death-1879-01-johana-perpic",
+   "senj-birth-1880-03-josip-prpic",
+   "senj-death-1880-04-josip-perpic"
+  ],
+  "josip-prpic": [
+   "senj-birth-1880-03-josip-prpic",
+   "senj-death-1880-04-josip-perpic"
+  ],
+  "josip-prpic-6": [
+   "senj-birth-1880-03-josip-prpic",
+   "senj-death-1880-04-josip-perpic"
+  ],
+  "josip-prpic-5": [
+   "senj-death-1880-04-josip-perpic"
+  ],
+  "andre-belobarbic": [
+   "senj-birth-1878-01-ana-belobarbic",
+   "senj-birth-1880-11-lucija-belobarbic",
+   "senj-death-1882-11-maria-belobarbic",
+   "senj-death-1882-11-lucija-belobarbic",
+   "senj-death-1882-12-ana-belobarbic",
+   "senj-birth-1883-12-frane-belobarbic",
+   "senj-birth-1886-09-maria-belobarbic",
+   "senj-death-1890-04-marija-belobarbic",
+   "senj-death-1890-04-franjo-belobarbic"
+  ],
+  "ivka-ivanja-prpic-perpic": [
+   "senj-birth-1878-01-ana-belobarbic",
+   "senj-birth-1880-11-lucija-belobarbic",
+   "senj-death-1882-11-maria-belobarbic",
+   "senj-death-1882-11-lucija-belobarbic",
+   "senj-death-1882-12-ana-belobarbic",
+   "senj-birth-1883-12-frane-belobarbic",
+   "senj-birth-1886-09-maria-belobarbic",
+   "senj-death-1890-04-marija-belobarbic",
+   "senj-death-1890-04-franjo-belobarbic"
+  ],
+  "ana-belobarbic-baptised-senj-january-1878": [
+   "senj-birth-1878-01-ana-belobarbic"
+  ],
+  "lucija-belobarbic": [
+   "senj-birth-1880-11-lucija-belobarbic",
+   "senj-death-1882-11-lucija-belobarbic"
+  ],
+  "frane-belobarbic": [
+   "senj-birth-1883-12-frane-belobarbic",
+   "senj-death-1890-04-franjo-belobarbic"
+  ],
+  "maria-belobarbic": [
+   "senj-birth-1886-09-maria-belobarbic",
+   "senj-death-1890-04-marija-belobarbic"
+  ],
+  "olga-oktavia-prpic": [
+   "senj-birth-1886-08-olga-prpic"
+  ],
+  "ivan-prpic": [
+   "senj-birth-1886-08-olga-prpic"
+  ],
+  "matia-2": [
+   "senj-birth-1886-08-olga-prpic"
+  ],
+  "marija-babic": [
+   "senj-death-1888-03-marija-babic"
+  ],
+  "tereza-prpic": [
+   "senj-death-1888-03-marija-babic"
+  ],
+  "josip-marijan-loncaric-baptised-senj-march-1888": [
+   "senj-birth-1888-03-josip-loncaric"
+  ],
+  "josip-anton-blazevic": [
+   "senj-birth-1894-01-josip-blazevic",
+   "senj-death-1895-05-joso-blazevic"
+  ],
+  "ivan-blazevic-2": [
+   "senj-birth-1894-01-josip-blazevic",
+   "senj-death-1895-05-joso-blazevic",
+   "senj-death-1906-05-mate-blazevic"
+  ],
+  "marija-tomljanovic-2": [
+   "senj-birth-1894-01-josip-blazevic",
+   "senj-death-1895-05-joso-blazevic",
+   "senj-death-1906-05-mate-blazevic"
+  ],
+  "leon-davorim-krmpotic": [
+   "senj-death-1896-04-leon-krmpotic"
+  ],
+  "mate-blazevic-3": [
+   "senj-death-1906-05-mate-blazevic"
   ]
  }
 }
