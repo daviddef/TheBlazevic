@@ -43,6 +43,47 @@ FOUND = os.path.join(ROOT, "sources", "found.psv")
 # Rows that have been looked at by a person and settled. A found.psv row is
 # listed here with the reason it is NOT the tree person it resembles.
 SETTLED = {
+    # 28 November 2026, people read in the Krivi Put marriage and birth books.
+    "Ivan Tomljanović married Krivi Put May 1888":
+        "resembles men born 1887-88 on a given name only, none a Tomljanović; 1888 is the year of a marriage at which he was 22",
+    "Tereza Burić married Krivi Put September 1888":
+        "resembles Terezija Blažević, born October 1888, on a given name; this is a Burić who married at 26 that year",
+    "Mihovil Prpić of Krivi Put 36 married September 1892":
+        "resembles two men named Mihovil born 1891, neither a Prpić; 1892 is the year of a marriage at which he was 31",
+    "Marija Rončević married Krivi Put July 1893":
+        "resembles women born 1892-93, none a Rončević; 1893 is the year of a marriage at which she was 19",
+    "Mihovil Prpić of Krivi Put 116 married November 1893":
+        "resembles Mihovil Miletić born 1894, a different surname; 1893 is the year of a marriage at which he was 31",
+    "Gregorius Blasevich baptised Krivi Put March 1847":
+        "resembles Gregorius Žubrinić born December 1848 at Otočac, a different surname and parents",
+    "Maria Blažević baptised Krivi Put February 1850":
+        "may be the tree's Maria Blažević born 3 February 1850 (maria-blazevic-2): the month, the year and the village agree, and the tree holds no parents for her. Probable, not proved; put to the tree's owner on /corrections/. The others differ by surname",
+    "Mile Blažević baptised Krivi Put July 1854":
+        "resembles two records of a Mile Blažević born 1855, sons of Anton Blažević and Marija Šojat. This entry names Nikola Blažević and Marija née Pavelić: different parents",
+    "Francisca Blažević born Mrzli Dol February 1858":
+        "resembles Francisca de Franceschi born April 1858, a different surname",
+    "Franciscus Blažević born Mrzli Dol February 1865":
+        "resembles men born 1865-66 named Franjo or Franciscus Perpić and Kalanj, different surnames",
+    "Anna Perpić born Krivi Put March 1865":
+        "resembles Ana Kalanj born 1864 at Klenovica, a different surname",
+    "Maria Pavelić born Mrzli Dol February 1873":
+        "resembles women of 1873-74 on a given name, none a Pavelić of these parents. The tree's Marija Pavelić born 29 January 1873 is a daughter of Martinus, not of Joannes",
+    "Maria Perpić born Mrzli Dol April 1873":
+        "resembles women of 1873-74 on a given name, none a Perpić",
+    "Josephus Pavelić born Mrzli Dol March 1874":
+        "resembles Josephus Miletić 1874 and Josephus Prpić of Krivi Put 136 born 1873, different surnames",
+    "Antonia Blažević born Mrzli Dol May 1874":
+        "resembles Antonia Kalanj born January 1874 at Povile, a different surname",
+    "Maria Pavelić born Mrzli Dol April 1875":
+        "resembles women of 1874-76 on a given name; the tree's Marija Pavelić born 1874 is a daughter of Martin and Stanka, not of Lucas and Antonia",
+    "Joanna Perpić born Mrzli Dol July 1875":
+        "resembles Joanna Kalanj born 1875 at Povile, a different surname",
+    "Michael Pavelić born Mrzli Dol September 1876":
+        "resembles the tree's Michael Pavelich born July 1876, son of Ivan and Maria, who died in 1961. This child of Lucas and Antonia was born in September 1876 and died in 1882",
+    "Maria Blažević born Mrzli Dol October 1876":
+        "resembles women of 1875-77 on a given name; none is a Blažević born to Martinus and Catharina",
+    "Anna Perpić born Mrzli Dol May 1877":
+        "resembles Maria Anna Šestan born 1877, a different surname",
     # 27 November 2026, three people read in the Senj marriages and births.
     "Maria Anna Stipaničić married Senj February 1875":
         "resembles four women of 1874-76 on a given name and a year. Hers is the year of a "
