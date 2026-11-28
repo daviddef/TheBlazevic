@@ -1,9 +1,9 @@
 {
  "note": "Every document this archive has read out, with the citation in the register's own words. Built by tools/readingsdata.py from sources/readings.psv.",
  "counts": {
-  "rows": 735,
-  "people": 485,
-  "derived": 195,
+  "rows": 810,
+  "people": 560,
+  "derived": 245,
   "onDirectLine": 0,
   "indexOnly": 19,
   "earliest": 1725,
@@ -20,11 +20,11 @@
   ],
   [
    "baptism",
-   125
+   150
   ],
   [
    "baptism-of-child",
-   88
+   138
   ],
   [
    "death",
@@ -1671,6 +1671,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1836",
+   "cite": "Otočac births 1834–1846 image 18 entry 28 — 1 May 1836: named as the child: baptised 1 May 1836, «Lucia», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "lucia-mlinarich",
+   "name": "Lucia Mlinarich",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1836",
    "cite": "Otočac births 1834–1846, 19 April 1836 — «Georgius … Pago Prozor N° 40 · Nicolaus Kraljich et Anna uxor ejus nata Xubrinich»; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
@@ -1724,6 +1738,20 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1838",
+   "cite": "Otočac births 1834–1846 image 31 entry 24 — 30 April 1838: named as the child: baptised 30 April 1838, «Monica Anna», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-GRQG",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "monica-anna-mlinarich",
+   "name": "Monica Anna Mlinarich",
    "ahn": null
   },
   {
@@ -1811,6 +1839,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism-of-child",
+   "year": "1842",
+   "cite": "Otočac births 1834–1846 image 49 entry 24 — 3 April 1842: named as a parent: baptised 3 April 1842, «Georgius», son of Stephanus Attalich, a border-guardsman, and Magdalena née Zubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5LB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "magdalena-zubrinic-2",
+   "name": "Magdalena Žubrinić",
+   "ahn": null
+  },
+  {
    "kind": "death",
    "year": "1842",
    "cite": "Selce, 8 May 1842, entry 147, house 204",
@@ -1822,6 +1864,20 @@
    "indexOnly": false,
    "slug": "margarita-brozovic",
    "name": "Margarita Brozović",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1842",
+   "cite": "Otočac births 1834–1846 image 49 entry 24 — 3 April 1842: named as a parent: baptised 3 April 1842, «Georgius», son of Stephanus Attalich, a border-guardsman, and Magdalena née Zubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5LB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "stephanus-attalich",
+   "name": "Stephanus Attalich",
    "ahn": null
   },
   {
@@ -1850,6 +1906,62 @@
    "indexOnly": false,
    "slug": "nicolaus-nicolai-kraljich",
    "name": "Nicolaus Nicolai Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1844",
+   "cite": "Otočac births 1834–1846 image 55 entry 1 — 7 January 1844: named as a parent: baptised 7 January 1844, «Barbara», daughter of Joannes Babich and Helena née Xubrinich; a godparent is Joannes Xubrinich, the jail keeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5Y3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "helena-zubrinic-xubrinic",
+   "name": "Helena Žubrinić Xubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1844",
+   "cite": "Otočac births 1834–1846 image 55 entry 1 — 7 January 1844: named as a parent: baptised 7 January 1844, «Barbara», daughter of Joannes Babich and Helena née Xubrinich; a godparent is Joannes Xubrinich, the jail keeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5Y3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-babic-babic-babich",
+   "name": "Joannes Babić Babic Babich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1844",
+   "cite": "Otočac births 1834–1846 image 56 entry 23 — 1 April 1844: named as a parent: baptised 1 April 1844, «Francisca», daughter of Joannes Xubrinich, keeper of the jail, and Maria née Raslich; godparents Daniel Žubrunić and Lucia Xubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5NT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-juan-ivan-ive-zubrinic",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1844",
+   "cite": "Otočac births 1834–1846 image 56 entry 23 — 1 April 1844: named as a parent: baptised 1 April 1844, «Francisca», daughter of Joannes Xubrinich, keeper of the jail, and Maria née Raslich; godparents Daniel Žubrunić and Lucia Xubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5NT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-raslic-rashlic-rashlich",
+   "name": "Maria Rašlić Rashlic Rashlich",
    "ahn": null
   },
   {
@@ -1896,6 +2008,160 @@
   },
   {
    "kind": "baptism",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 66 — 30 November 1845: named as the child: «Bibiana & Barbara», one daughter, 30 November 1845, of Michaël Gerčević and Francisca née Žubrinić; the entry number is not legible at the page's edge; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5FT",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "barbara-gercevic",
+   "name": "Barbara Gercević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 51 — 27 July 1845: named as a parent: baptised 27 July 1845, «Nicolaus», son of Stephanus Xubrinich and Catharina née Babich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "catharina-babich-babic",
+   "name": "Catharina Babich Babic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 45 — 4 July 1845: named as a parent: baptised 4 July 1845, «Michaël», son of Matthaeus Xubrinich, a border-guard vice-corporal, and Catharina née Raslich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "catharina-raslich",
+   "name": "Catharina Raslich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 52 — 31 July 1845: named as a parent: baptised 31 July 1845, «Stephanus», son of Michaël Lashkarin, a musician, and Maria née Xubrinich; godfather Franciscus Xubrinich, innkeeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-5",
+   "name": "Maria Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 45 — 4 July 1845: named as a parent: baptised 4 July 1845, «Michaël», son of Matthaeus Xubrinich, a border-guard vice-corporal, and Catharina née Raslich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "math-us-xubrinich",
+   "name": "Mathæus Xubrinich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 52 — 31 July 1845: named as a parent: baptised 31 July 1845, «Stephanus», son of Michaël Lashkarin, a musician, and Maria née Xubrinich; godfather Franciscus Xubrinich, innkeeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "michael-laskarin-laskarin",
+   "name": "Michael Laškarin Laskarin",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1845",
+   "cite": "Otočac births 1834–1846 image 63 entry 51 — 27 July 1845: named as a parent: baptised 27 July 1845, «Nicolaus», son of Stephanus Xubrinich and Catharina née Babich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "stephanus-zubrinic-3",
+   "name": "Stephanus Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1846",
+   "cite": "Otočac births 1834–1846 image 70 entry 48 — 4 May 1846: named as the child: baptised 4 May 1846, «Anna», daughter of Joannes Žubrinić, keeper of the jail, and Maria née Raslić; written under the heading for May; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5XV",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "anna-zubrinic",
+   "name": "Anna Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1846",
+   "cite": "Otočac births 1834–1846 image 72 entry 79 — 20 September 1846: named as a parent: born and baptised 20 September 1846, «Michaël», son of Joannes Božičević and Lucia née Žubrinić; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "ivan-bozicevic",
+   "name": "Ivan Božićević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1846",
+   "cite": "Otočac births 1834–1846 image 72 entry 79 — 20 September 1846: named as a parent: born and baptised 20 September 1846, «Michaël», son of Joannes Božičević and Lucia née Žubrinić; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "luce-zubrinic-2",
+   "name": "Luce Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1846",
+   "cite": "Otočac births 1834–1846 image 72 entry 77 — 3 September 1846: named as the child: born and baptised 3 September 1846, «Michaël», son of Matthaeus Sekula, a farmer, and Magdalena née Kostelacz; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "miko-michael-sekula",
+   "name": "Miko Michael Sekula",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
    "year": "1846",
    "cite": "«Graničar iz Šumećića Br. 10» — read earlier; the tree gives only «Otočac, Croatia»",
    "derived": false,
@@ -1920,6 +2186,34 @@
    "indexOnly": false,
    "slug": "thomas-toma-zubrinic",
    "name": "Thomas Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 37 — 22 May 1847: named as the child: baptised 22 May 1847, «Andreas», son of Stephanus Kostelacz and Barbara née Žubrinich, of Prozor 46; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "andreas-kostelacz",
+   "name": "Andreas Kostelacz",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 60 — 19 September 1847: named as the child: baptised 19 September 1847, «Anna», daughter of Michael Laškarin, a musician, and Maria née Žubrinich, of Luka 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "anna-laskarin",
+   "name": "Anna Laškarin",
    "ahn": null
   },
   {
@@ -1951,6 +2245,34 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 12 entry 67 — 14 November 1847: named as the child: baptised 14 November 1847, «Franciscus», son of Matthaeus Xubrinich and Catharina née Raslich, of Šumećica 5; a godmother is Maria, wife of Joannes Xubrinich, keeper of the jail; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK2Y",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "franciscus-xubrinich",
+   "name": "Franciscus Xubrinich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 51 — 16 August 1847: named as a parent: baptised 16 August 1847, «Michael», son of Joannes Rogich and Rosalia née Zubrinich, of Prozor 47; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "ivan-rogic",
+   "name": "Ivan Rogić",
+   "ahn": null
+  },
+  {
    "kind": "baptism-of-child",
    "year": "1847",
    "cite": "Krivi Put births 1847–1884 image 7 entry 35 — 7 March 1847: named as a parent: baptised 7 March 1847, «Gregorius», son of Marcus Blasevich and Lucia née Perpich, of Mrzli Dol 9; READ FROM THE IMAGE; ark 3:1:3QS7-L99X-R8F3",
@@ -1962,6 +2284,34 @@
    "indexOnly": false,
    "slug": "luce-prpic",
    "name": "Luce Prpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 8 entry 7 — 16 February 1847: named as the child: baptised 16 February 1847, «Magdalena», daughter of Paulus Attalich, a corporal, and Maria née Žubrinich, of Šumećica; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKDY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "magdalena-attalich",
+   "name": "Magdalena Attalich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 34 — 9 May 1847: named as the child: baptised 9 May 1847, «Magdalena», daughter of Philippus Žubrinich and Maria née Begovich, of Prozor 17; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "magdalena-zubrinic",
+   "name": "Magdalena Žubrinić",
    "ahn": null
   },
   {
@@ -2007,6 +2357,62 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 49 — 3 August 1847: named as the child: baptised 3 August 1847, «Nicolaus», son of Thomas Zubrinich, a musician, and Joanna née Ratkovich, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "nikolas-zubrinic",
+   "name": "Nikolas Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1847",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 51 — 16 August 1847: named as a parent: baptised 16 August 1847, «Michael», son of Joannes Rogich and Rosalia née Zubrinich, of Prozor 47; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "rosalia-zubrinic",
+   "name": "Rosalia Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1848",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 88 — 20 December 1848: named as the child: baptised 20 December 1848, «Gerga», son of Ive Žubrinić and Martha née Barković, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "gerga-zubrinic",
+   "name": "Gerga Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1848",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 16 entry 36 — 30 May 1848: named as the child: baptised 30 May 1848, «Joannes», son of Joannes Zubrinich and Maria née Kostelacz, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKY3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-zubrinic",
+   "name": "Joannes Žubrinić",
+   "ahn": null
+  },
+  {
    "kind": "census",
    "year": "1848",
    "cite": "Otočac Stanje duša image 86 right, house No. 53 — «Maria filia Stephani» (struck), July 1848; READ FROM THE IMAGE; ark 3:1:3QS7-899F-M3D1",
@@ -2018,6 +2424,20 @@
    "indexOnly": false,
    "slug": "maria-kraljich",
    "name": "Maria Kraljich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1848",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 84 — 3 December 1848: named as the child: baptised 3 December 1848, «Maria», daughter of Stipan Žubrinić, a soldier, and Kate née Babić, of Šumećica 6; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-3",
+   "name": "Maria Žubrinić",
    "ahn": null
   },
   {
@@ -2049,6 +2469,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1849",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 21 entry 18 — 19 March 1849: named as the child: baptised 19 March 1849, «Josepha», daughter of Ivan Žubrinić, a forester, and Maria née Raslić, of Šumećica 5; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKGZ",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "josepha-zubrinic",
+   "name": "Josepha Žubrinić",
+   "ahn": null
+  },
+  {
    "kind": "death",
    "year": "1849",
    "cite": "Otočac Umrli 1834-1858 p. 153 entry 53 — «Leta 1849 dne 29 Srpnja preminula je · Maria Žubrinić, Udovica · 69 · Slaboća starosti po dokazu Lečnika · Sa Svetimi Otajstvi umirućih providjena · u župničkoj grobnici»; ark 3:1:3QS7-899C-PVHR",
@@ -2077,6 +2511,20 @@
    "ahn": null
   },
   {
+   "kind": "baptism",
+   "year": "1849",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 23 entry 40 — 5 August 1849: named as the child: baptised 5 August 1849, «Miko», son of Ivan Božićević and Luce née Zubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKKS",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "miko-bozicevic",
+   "name": "Miko Božićević",
+   "ahn": null
+  },
+  {
    "kind": "death-of-spouse",
    "year": "1849",
    "cite": "named only as «Udovica», Otočac 29 July 1849 — he predeceased her by eleven years, and his own entry of 4 Jan 1838 is read",
@@ -2087,6 +2535,20 @@
    "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-marija-findric-1849.md",
    "indexOnly": false,
    "slug": "toma-zubrinic",
+   "name": "Toma Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1849",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 22 entry 31 — 20 May 1849: named as the child: baptised 20 May 1849, «Toma», son of Frane Žubrinić, a border-guardsman, and Luca née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PK7Q",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "toma-zubrinic-4",
    "name": "Toma Žubrinić",
    "ahn": null
   },
@@ -2119,6 +2581,160 @@
    "ahn": null
   },
   {
+   "kind": "baptism-of-child",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 21 — 9 May 1850: named as a parent: baptised 9 May 1850, «Miko», son of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "mande-mandalena-magdalena-kostelac",
+   "name": "Mande Mandalena Magdalena Kostelac",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 29 entry 40 — 23 July 1850: named as the child: baptised 23 July 1850, «Maria», daughter of Pave Atalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKTG",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-talic",
+   "name": "Maria Talić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 14 — 25 March 1850: named as a parent: baptised 25 March 1850, «Frane», son of Miho Laskarin, a sergeant, and Maria née Žubrinić, of Prozor 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-5",
+   "name": "Maria Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 21 — 9 May 1850: named as a parent: baptised 9 May 1850, «Miko», son of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "mate-matthew-matthias-mattheu-sekula",
+   "name": "Mate Matthew Matthias Mattheu Sekula",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 14 — 25 March 1850: named as a parent: baptised 25 March 1850, «Frane», son of Miho Laskarin, a sergeant, and Maria née Žubrinić, of Prozor 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "michael-laskarin-laskarin",
+   "name": "Michael Laškarin Laskarin",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1850",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 26 — 13 February 1850: named as the child: baptised 13 February 1850, «Miko», son of Ivan Rogić and Rosalia née Žubrinić, of Prozor 47; a slip pasted on the page hides the entry number; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK56",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "miko-rogic",
+   "name": "Miko Rogić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 37 entry 59 — 12 August 1851: named as a parent: baptised 12 August 1851, «Maria», daughter of Frane Žubrinić and Luce née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "franciscus-frane-zubrinic",
+   "name": "Franciscus Frane Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 35 entry 40 — 17 June 1851: named as the child: baptised 17 June 1851, «Ivan», son of Stipan Kostelac and Bare née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKJ3",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "ivan-kostelac",
+   "name": "Ivan Kostelac",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 37 entry 59 — 12 August 1851: named as a parent: baptised 12 August 1851, «Maria», daughter of Frane Žubrinić and Luce née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "luce-lucia-simetovic-simatovic-simatovic",
+   "name": "Luce Lucia Simetović Šimatović Simatović",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 99 — 11 December 1851: named as the child: baptised 11 December 1851, «Lucia», daughter of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "lucia-sekula-2",
+   "name": "Lucia Sekula",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 103 — 24 December 1851: named as the child: baptised 24 December 1851, «Mande», first-born daughter of Frane Žubrinić and Luce née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "mandalena-mande-zubrinic",
+   "name": "Mandalena Mande Žubrinić",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1851",
    "cite": "Otočac, 25 November 1851 — «Graničar iz Poljic N° 13», the same house as Petrus 1848",
@@ -2130,6 +2746,34 @@
    "indexOnly": false,
    "slug": "mate-zubrinic",
    "name": "Mate Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1851",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 36 entry 56 — 7 August 1851: named as the child: baptised 7 August 1851, «Matia Veronika», daughter of Toma Žubrinić, a musician, and Ivanja née Ratković, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKF2",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "matia-veronika-zubrinic",
+   "name": "Matia Veronika Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1852",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 49 entry 96 — 26 November 1852: named as the child: baptised 26 November 1852, «Catharina», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKS6",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "catharina-zubrinic-6",
+   "name": "Catharina Žubrinić",
    "ahn": null
   },
   {
@@ -2158,6 +2802,118 @@
    "indexOnly": false,
    "slug": "magdalena-zubrinic-5",
    "name": "Magdalena Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1852",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 45 entry 49 — 23 May 1852: named as a parent: baptised 23 May 1852, «Georgius», son of Paulus Atalić, a vice-corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKMY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-6",
+   "name": "Maria Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1852",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 45 entry 49 — 23 May 1852: named as a parent: baptised 23 May 1852, «Georgius», son of Paulus Atalić, a vice-corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKMY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "paulus-attalich",
+   "name": "Paulus Attalich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 54 entry 51 — 3 August 1853: named as a parent: baptised 3 August 1853, «Lucia», daughter of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKG9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "barbara-zubrinic",
+   "name": "Barbara Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 53 entry 40 — 4 June 1853: named as a parent: baptised 4 June 1853, «Maria», daughter of Joannes Božičević and Lucia née Žubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKVM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "ivan-bozicevic",
+   "name": "Ivan Božićević",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 52 entry 27 — 8 May 1853: named as a parent: baptised 8 May 1853, «Antonius», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVYM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-juan-ivan-ive-zubrinic-4",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 53 entry 40 — 4 June 1853: named as a parent: baptised 4 June 1853, «Maria», daughter of Joannes Božičević and Lucia née Žubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKVM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "luce-zubrinic-2",
+   "name": "Luce Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 52 entry 27 — 8 May 1853: named as a parent: baptised 8 May 1853, «Antonius», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVYM",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-kostelacz-jergovic",
+   "name": "Maria Kostelacz Jergovic?",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1853",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 54 entry 51 — 3 August 1853: named as a parent: baptised 3 August 1853, «Lucia», daughter of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKG9",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "stephanus-kostelacz",
+   "name": "Stephanus Kostelacz",
    "ahn": null
   },
   {
@@ -2203,6 +2959,62 @@
    "ahn": null
   },
   {
+   "kind": "baptism-of-child",
+   "year": "1854",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 75 — 25 August 1854: named as a parent: baptised 25 August 1854, «Michaël», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-juan-ivan-ive-zubrinic-4",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1854",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 76 — 25 August 1854: named as a parent: baptised 25 August 1854, «Josephus», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-juan-ivan-ive-zubrinic-4",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1854",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 75 — 25 August 1854: named as a parent: baptised 25 August 1854, «Michaël», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-kostelacz-jergovic",
+   "name": "Maria Kostelacz Jergovic?",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1854",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 76 — 25 August 1854: named as a parent: baptised 25 August 1854, «Josephus», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-kostelacz-jergovic",
+   "name": "Maria Kostelacz Jergovic?",
+   "ahn": null
+  },
+  {
    "kind": "baptism",
    "year": "1854",
    "cite": "Senj births (Rođeni) 1756–1858 image 537 — Baptised 21 December 1854 as Natala Johanna. The tree has 1858. The entry: «Natalam Johannam», daughter of «Francisci Perpić» and «Annae natae Brozinčević», baptised 21 December 1854; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-5YBP",
@@ -2232,6 +3044,118 @@
   },
   {
    "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 69 entry 26 — 21 May 1855: named as a parent: baptised 21 May 1855, «Michael Felix», son of Matthaeus Žubrinić, a staff clerk, and Apolonia née Raslić, of Dubrava 66; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK64",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "apolonia-raslic-raslic",
+   "name": "Apolonia Raslić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 48 — 2 September 1855: named as a parent: baptised 2 September 1855, «Maria», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "franciscus-frane-zubrinic",
+   "name": "Franciscus Frane Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 41 — 4 August 1855: named as a parent: baptised 4 August 1855, «Maria», daughter of Franciscus Žubrinić, a corporal, and Lucia née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "frane-zubrinic",
+   "name": "Frane Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 48 — 2 September 1855: named as a parent: baptised 2 September 1855, «Maria», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "luce-lucia-simetovic-simatovic-simatovic",
+   "name": "Luce Lucia Simetović Šimatović Simatović",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 41 — 4 August 1855: named as a parent: baptised 4 August 1855, «Maria», daughter of Franciscus Žubrinić, a corporal, and Lucia née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "lucia-luce-pesun-posun",
+   "name": "Lucia Luce Pešun Posun",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 71 entry 60 — 8 November 1855: named as a parent: baptised 8 November 1855, «Theresia», daughter of Paulus Attalić, a corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK3G",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-6",
+   "name": "Maria Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 69 entry 26 — 21 May 1855: named as a parent: baptised 21 May 1855, «Michael Felix», son of Matthaeus Žubrinić, a staff clerk, and Apolonia née Raslić, of Dubrava 66; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK64",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "matthaeus-zubrinic-xubrinich",
+   "name": "Matthaeus Žubrinić Xubrinich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1855",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 71 entry 60 — 8 November 1855: named as a parent: baptised 8 November 1855, «Theresia», daughter of Paulus Attalić, a corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK3G",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "paulus-attalich",
+   "name": "Paulus Attalich",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
    "year": "1856",
    "cite": "named as mother, \"Anna nata Štrumbulko\", Otočac 3 Jul 1856, same house — the by-name attested",
    "derived": false,
@@ -2242,6 +3166,90 @@
    "indexOnly": false,
    "slug": "ana-shambul-maric",
    "name": "Ana Shambul Marić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 76 entry 37 — 7 June 1856: named as a parent: baptised 7 June 1856, «Michael», son of Matheus Žubrinić and Ana née Mudrovčić, of Prozor 17; pen strokes cross the right-hand columns; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK2C",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "anne-anna-mudrovcic-madrovcic",
+   "name": "Anne Anna Mudrovcić Madrovcić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 11 — 11 February 1856: named as a parent: baptised 11 February 1856, «Thomas», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "barbara-zubrinic",
+   "name": "Barbara Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 12 — 11 February 1856: named as a parent: baptised 11 February 1856, «Josephus», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "barbara-zubrinic",
+   "name": "Barbara Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 76 entry 37 — 7 June 1856: named as a parent: baptised 7 June 1856, «Michael», son of Matheus Žubrinić and Ana née Mudrovčić, of Prozor 17; pen strokes cross the right-hand columns; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK2C",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "mate-mathias-xxx-zubrinic",
+   "name": "Mate Mathias xxx Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 11 — 11 February 1856: named as a parent: baptised 11 February 1856, «Thomas», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "stephanus-kostelacz",
+   "name": "Stephanus Kostelacz",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1856",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 12 — 11 February 1856: named as a parent: baptised 11 February 1856, «Josephus», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "stephanus-kostelacz",
+   "name": "Stephanus Kostelacz",
    "ahn": null
   },
   {
@@ -2317,6 +3325,20 @@
   {
    "kind": "baptism-of-child",
    "year": "1857",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 84 entry 96 — 2 December 1857: named as a parent: baptised 2 December 1857, «Lucia», daughter of Paulus Attalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PV24",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "maria-zubrinic-6",
+   "name": "Maria Žubrinić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1857",
    "cite": "named as mother \"Mathiae Pilipic\", Senj 1 Nov 1857",
    "derived": false,
    "via": null,
@@ -2326,6 +3348,20 @@
    "indexOnly": false,
    "slug": "matia-matthea-pilipic",
    "name": "Matia / Matthea \"Matija\" Pilipić",
+   "ahn": null
+  },
+  {
+   "kind": "baptism-of-child",
+   "year": "1857",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 84 entry 96 — 2 December 1857: named as a parent: baptised 2 December 1857, «Lucia», daughter of Paulus Attalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PV24",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "paulus-attalich",
+   "name": "Paulus Attalich",
    "ahn": null
   },
   {
@@ -2354,6 +3390,20 @@
    "indexOnly": false,
    "slug": "ivka-perpic",
    "name": "Ivka Perpic",
+   "ahn": null
+  },
+  {
+   "kind": "baptism",
+   "year": "1858",
+   "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 89 entry 71 — 12 September 1858: named as the child: born and baptised 12 September 1858, «Joannes», son of Mathias Marić and Rosalia née Atalić, of Šumećica 3; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKMY",
+   "derived": false,
+   "via": null,
+   "viaName": "",
+   "where": "notes/otocac-births-matching-2026-11-28.md",
+   "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+   "indexOnly": false,
+   "slug": "joannes-maric",
+   "name": "Joannes Marić",
    "ahn": null
   },
   {
@@ -4445,7 +5495,7 @@
   {
    "kind": "baptism-of-child",
    "year": "1876",
-   "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia Blasevic, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
+   "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia née Blasević, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -4501,7 +5551,7 @@
   {
    "kind": "baptism-of-child",
    "year": "1876",
-   "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia Blasevic, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
+   "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia née Blasević, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
    "derived": false,
    "via": null,
    "viaName": "",
@@ -22565,7 +23615,7 @@
     {
      "kind": "baptism-of-child",
      "year": "1876",
-     "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia Blasevic, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
+     "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia née Blasević, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -22618,7 +23668,7 @@
     {
      "kind": "baptism-of-child",
      "year": "1876",
-     "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia Blasevic, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
+     "cite": "Krivi Put births 1847–1884 image 215 entry 3 — 2 January 1876: named as a parent: born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia née Blasević, of Krivi Put 48; READ FROM THE IMAGE; ark 3:1:3QS7-899X-RFDG",
      "derived": false,
      "via": null,
      "viaName": "",
@@ -23617,6 +24667,1652 @@
      "viaName": "",
      "where": "notes/krivi-put-books-matching-2026-11-28.md",
      "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/krivi-put-books-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "lucia-mlinarich": {
+   "slug": "lucia-mlinarich",
+   "name": "Lucia Mlinarich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846 image 18 entry 28 — 1 May 1836: named as the child: baptised 1 May 1836, «Lucia», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "monica-anna-mlinarich": {
+   "slug": "monica-anna-mlinarich",
+   "name": "Monica Anna Mlinarich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1838",
+     "cite": "Otočac births 1834–1846 image 31 entry 24 — 30 April 1838: named as the child: baptised 30 April 1838, «Monica Anna», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-GRQG",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "stephanus-attalich": {
+   "slug": "stephanus-attalich",
+   "name": "Stephanus Attalich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1842",
+     "cite": "Otočac births 1834–1846 image 49 entry 24 — 3 April 1842: named as a parent: baptised 3 April 1842, «Georgius», son of Stephanus Attalich, a border-guardsman, and Magdalena née Zubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5LB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "magdalena-zubrinic-2": {
+   "slug": "magdalena-zubrinic-2",
+   "name": "Magdalena Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1842",
+     "cite": "Otočac births 1834–1846 image 49 entry 24 — 3 April 1842: named as a parent: baptised 3 April 1842, «Georgius», son of Stephanus Attalich, a border-guardsman, and Magdalena née Zubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5LB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-babic-babic-babich": {
+   "slug": "joannes-babic-babic-babich",
+   "name": "Joannes Babić Babic Babich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1844",
+     "cite": "Otočac births 1834–1846 image 55 entry 1 — 7 January 1844: named as a parent: baptised 7 January 1844, «Barbara», daughter of Joannes Babich and Helena née Xubrinich; a godparent is Joannes Xubrinich, the jail keeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5Y3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "helena-zubrinic-xubrinic": {
+   "slug": "helena-zubrinic-xubrinic",
+   "name": "Helena Žubrinić Xubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1844",
+     "cite": "Otočac births 1834–1846 image 55 entry 1 — 7 January 1844: named as a parent: baptised 7 January 1844, «Barbara», daughter of Joannes Babich and Helena née Xubrinich; a godparent is Joannes Xubrinich, the jail keeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5Y3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-juan-ivan-ive-zubrinic": {
+   "slug": "joannes-juan-ivan-ive-zubrinic",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1844",
+     "cite": "Otočac births 1834–1846 image 56 entry 23 — 1 April 1844: named as a parent: baptised 1 April 1844, «Francisca», daughter of Joannes Xubrinich, keeper of the jail, and Maria née Raslich; godparents Daniel Žubrunić and Lucia Xubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5NT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 70 entry 48 — 4 May 1846: named as the child: baptised 4 May 1846, «Anna», daughter of Joannes Žubrinić, keeper of the jail, and Maria née Raslić; written under the heading for May; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5XV",
+     "derived": true,
+     "via": "anna-zubrinic",
+     "viaName": "Anna Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 21 entry 18 — 19 March 1849: named as the child: baptised 19 March 1849, «Josepha», daughter of Ivan Žubrinić, a forester, and Maria née Raslić, of Šumećica 5; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKGZ",
+     "derived": true,
+     "via": "josepha-zubrinic",
+     "viaName": "Josepha Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 2
+  },
+  "maria-raslic-rashlic-rashlich": {
+   "slug": "maria-raslic-rashlic-rashlich",
+   "name": "Maria Rašlić Rashlic Rashlich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1844",
+     "cite": "Otočac births 1834–1846 image 56 entry 23 — 1 April 1844: named as a parent: baptised 1 April 1844, «Francisca», daughter of Joannes Xubrinich, keeper of the jail, and Maria née Raslich; godparents Daniel Žubrunić and Lucia Xubrinich; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5NT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 70 entry 48 — 4 May 1846: named as the child: baptised 4 May 1846, «Anna», daughter of Joannes Žubrinić, keeper of the jail, and Maria née Raslić; written under the heading for May; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5XV",
+     "derived": true,
+     "via": "anna-zubrinic",
+     "viaName": "Anna Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 21 entry 18 — 19 March 1849: named as the child: baptised 19 March 1849, «Josepha», daughter of Ivan Žubrinić, a forester, and Maria née Raslić, of Šumećica 5; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKGZ",
+     "derived": true,
+     "via": "josepha-zubrinic",
+     "viaName": "Josepha Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 2
+  },
+  "math-us-xubrinich": {
+   "slug": "math-us-xubrinich",
+   "name": "Mathæus Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 45 — 4 July 1845: named as a parent: baptised 4 July 1845, «Michaël», son of Matthaeus Xubrinich, a border-guard vice-corporal, and Catharina née Raslich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 12 entry 67 — 14 November 1847: named as the child: baptised 14 November 1847, «Franciscus», son of Matthaeus Xubrinich and Catharina née Raslich, of Šumećica 5; a godmother is Maria, wife of Joannes Xubrinich, keeper of the jail; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK2Y",
+     "derived": true,
+     "via": "franciscus-xubrinich",
+     "viaName": "Franciscus Xubrinich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "catharina-raslich": {
+   "slug": "catharina-raslich",
+   "name": "Catharina Raslich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 45 — 4 July 1845: named as a parent: baptised 4 July 1845, «Michaël», son of Matthaeus Xubrinich, a border-guard vice-corporal, and Catharina née Raslich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 12 entry 67 — 14 November 1847: named as the child: baptised 14 November 1847, «Franciscus», son of Matthaeus Xubrinich and Catharina née Raslich, of Šumećica 5; a godmother is Maria, wife of Joannes Xubrinich, keeper of the jail; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK2Y",
+     "derived": true,
+     "via": "franciscus-xubrinich",
+     "viaName": "Franciscus Xubrinich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "stephanus-zubrinic-3": {
+   "slug": "stephanus-zubrinic-3",
+   "name": "Stephanus Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 51 — 27 July 1845: named as a parent: baptised 27 July 1845, «Nicolaus», son of Stephanus Xubrinich and Catharina née Babich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "catharina-babich-babic": {
+   "slug": "catharina-babich-babic",
+   "name": "Catharina Babich Babic",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 51 — 27 July 1845: named as a parent: baptised 27 July 1845, «Nicolaus», son of Stephanus Xubrinich and Catharina née Babich; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "michael-laskarin-laskarin": {
+   "slug": "michael-laskarin-laskarin",
+   "name": "Michael Laškarin Laskarin",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 52 — 31 July 1845: named as a parent: baptised 31 July 1845, «Stephanus», son of Michaël Lashkarin, a musician, and Maria née Xubrinich; godfather Franciscus Xubrinich, innkeeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 14 — 25 March 1850: named as a parent: baptised 25 March 1850, «Frane», son of Miho Laskarin, a sergeant, and Maria née Žubrinić, of Prozor 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 60 — 19 September 1847: named as the child: baptised 19 September 1847, «Anna», daughter of Michael Laškarin, a musician, and Maria née Žubrinich, of Luka 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": true,
+     "via": "anna-laskarin",
+     "viaName": "Anna Laškarin",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "maria-zubrinic-5": {
+   "slug": "maria-zubrinic-5",
+   "name": "Maria Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 63 entry 52 — 31 July 1845: named as a parent: baptised 31 July 1845, «Stephanus», son of Michaël Lashkarin, a musician, and Maria née Xubrinich; godfather Franciscus Xubrinich, innkeeper; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-G5LR",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 14 — 25 March 1850: named as a parent: baptised 25 March 1850, «Frane», son of Miho Laskarin, a sergeant, and Maria née Žubrinić, of Prozor 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 60 — 19 September 1847: named as the child: baptised 19 September 1847, «Anna», daughter of Michael Laškarin, a musician, and Maria née Žubrinich, of Luka 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": true,
+     "via": "anna-laskarin",
+     "viaName": "Anna Laškarin",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "barbara-gercevic": {
+   "slug": "barbara-gercevic",
+   "name": "Barbara Gercević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 66 — 30 November 1845: named as the child: «Bibiana & Barbara», one daughter, 30 November 1845, of Michaël Gerčević and Francisca née Žubrinić; the entry number is not legible at the page's edge; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5FT",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anna-zubrinic": {
+   "slug": "anna-zubrinic",
+   "name": "Anna Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 70 entry 48 — 4 May 1846: named as the child: baptised 4 May 1846, «Anna», daughter of Joannes Žubrinić, keeper of the jail, and Maria née Raslić; written under the heading for May; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5XV",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "miko-michael-sekula": {
+   "slug": "miko-michael-sekula",
+   "name": "Miko Michael Sekula",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 72 entry 77 — 3 September 1846: named as the child: born and baptised 3 September 1846, «Michaël», son of Matthaeus Sekula, a farmer, and Magdalena née Kostelacz; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ivan-bozicevic": {
+   "slug": "ivan-bozicevic",
+   "name": "Ivan Božićević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 72 entry 79 — 20 September 1846: named as a parent: born and baptised 20 September 1846, «Michaël», son of Joannes Božičević and Lucia née Žubrinić; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 53 entry 40 — 4 June 1853: named as a parent: baptised 4 June 1853, «Maria», daughter of Joannes Božičević and Lucia née Žubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKVM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 23 entry 40 — 5 August 1849: named as the child: baptised 5 August 1849, «Miko», son of Ivan Božićević and Luce née Zubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKKS",
+     "derived": true,
+     "via": "miko-bozicevic",
+     "viaName": "Miko Božićević",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "luce-zubrinic-2": {
+   "slug": "luce-zubrinic-2",
+   "name": "Luce Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 72 entry 79 — 20 September 1846: named as a parent: born and baptised 20 September 1846, «Michaël», son of Joannes Božičević and Lucia née Žubrinić; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 53 entry 40 — 4 June 1853: named as a parent: baptised 4 June 1853, «Maria», daughter of Joannes Božičević and Lucia née Žubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKVM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 23 entry 40 — 5 August 1849: named as the child: baptised 5 August 1849, «Miko», son of Ivan Božićević and Luce née Zubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKKS",
+     "derived": true,
+     "via": "miko-bozicevic",
+     "viaName": "Miko Božićević",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 1
+  },
+  "magdalena-attalich": {
+   "slug": "magdalena-attalich",
+   "name": "Magdalena Attalich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 8 entry 7 — 16 February 1847: named as the child: baptised 16 February 1847, «Magdalena», daughter of Paulus Attalich, a corporal, and Maria née Žubrinich, of Šumećica; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKDY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "magdalena-zubrinic": {
+   "slug": "magdalena-zubrinic",
+   "name": "Magdalena Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 34 — 9 May 1847: named as the child: baptised 9 May 1847, «Magdalena», daughter of Philippus Žubrinich and Maria née Begovich, of Prozor 17; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "andreas-kostelacz": {
+   "slug": "andreas-kostelacz",
+   "name": "Andreas Kostelacz",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 37 — 22 May 1847: named as the child: baptised 22 May 1847, «Andreas», son of Stephanus Kostelacz and Barbara née Žubrinich, of Prozor 46; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "nikolas-zubrinic": {
+   "slug": "nikolas-zubrinic",
+   "name": "Nikolas Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 49 — 3 August 1847: named as the child: baptised 3 August 1847, «Nicolaus», son of Thomas Zubrinich, a musician, and Joanna née Ratkovich, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ivan-rogic": {
+   "slug": "ivan-rogic",
+   "name": "Ivan Rogić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 51 — 16 August 1847: named as a parent: baptised 16 August 1847, «Michael», son of Joannes Rogich and Rosalia née Zubrinich, of Prozor 47; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 26 — 13 February 1850: named as the child: baptised 13 February 1850, «Miko», son of Ivan Rogić and Rosalia née Žubrinić, of Prozor 47; a slip pasted on the page hides the entry number; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK56",
+     "derived": true,
+     "via": "miko-rogic",
+     "viaName": "Miko Rogić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "rosalia-zubrinic": {
+   "slug": "rosalia-zubrinic",
+   "name": "Rosalia Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 51 — 16 August 1847: named as a parent: baptised 16 August 1847, «Michael», son of Joannes Rogich and Rosalia née Zubrinich, of Prozor 47; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 26 — 13 February 1850: named as the child: baptised 13 February 1850, «Miko», son of Ivan Rogić and Rosalia née Žubrinić, of Prozor 47; a slip pasted on the page hides the entry number; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK56",
+     "derived": true,
+     "via": "miko-rogic",
+     "viaName": "Miko Rogić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "anna-laskarin": {
+   "slug": "anna-laskarin",
+   "name": "Anna Laškarin",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 60 — 19 September 1847: named as the child: baptised 19 September 1847, «Anna», daughter of Michael Laškarin, a musician, and Maria née Žubrinich, of Luka 24; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franciscus-xubrinich": {
+   "slug": "franciscus-xubrinich",
+   "name": "Franciscus Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 12 entry 67 — 14 November 1847: named as the child: baptised 14 November 1847, «Franciscus», son of Matthaeus Xubrinich and Catharina née Raslich, of Šumećica 5; a godmother is Maria, wife of Joannes Xubrinich, keeper of the jail; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK2Y",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-zubrinic": {
+   "slug": "joannes-zubrinic",
+   "name": "Joannes Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 16 entry 36 — 30 May 1848: named as the child: baptised 30 May 1848, «Joannes», son of Joannes Zubrinich and Maria née Kostelacz, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKY3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "maria-zubrinic-3": {
+   "slug": "maria-zubrinic-3",
+   "name": "Maria Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 84 — 3 December 1848: named as the child: baptised 3 December 1848, «Maria», daughter of Stipan Žubrinić, a soldier, and Kate née Babić, of Šumećica 6; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "gerga-zubrinic": {
+   "slug": "gerga-zubrinic",
+   "name": "Gerga Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 88 — 20 December 1848: named as the child: baptised 20 December 1848, «Gerga», son of Ive Žubrinić and Martha née Barković, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "josepha-zubrinic": {
+   "slug": "josepha-zubrinic",
+   "name": "Josepha Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 21 entry 18 — 19 March 1849: named as the child: baptised 19 March 1849, «Josepha», daughter of Ivan Žubrinić, a forester, and Maria née Raslić, of Šumećica 5; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKGZ",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "toma-zubrinic-4": {
+   "slug": "toma-zubrinic-4",
+   "name": "Toma Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 22 entry 31 — 20 May 1849: named as the child: baptised 20 May 1849, «Toma», son of Frane Žubrinić, a border-guardsman, and Luca née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PK7Q",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "miko-bozicevic": {
+   "slug": "miko-bozicevic",
+   "name": "Miko Božićević",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 23 entry 40 — 5 August 1849: named as the child: baptised 5 August 1849, «Miko», son of Ivan Božićević and Luce née Zubrinić, of Prozor 9; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKKS",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "miko-rogic": {
+   "slug": "miko-rogic",
+   "name": "Miko Rogić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 26 — 13 February 1850: named as the child: baptised 13 February 1850, «Miko», son of Ivan Rogić and Rosalia née Žubrinić, of Prozor 47; a slip pasted on the page hides the entry number; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK56",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mate-matthew-matthias-mattheu-sekula": {
+   "slug": "mate-matthew-matthias-mattheu-sekula",
+   "name": "Mate Matthew Matthias Mattheu Sekula",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 21 — 9 May 1850: named as a parent: baptised 9 May 1850, «Miko», son of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 72 entry 77 — 3 September 1846: named as the child: born and baptised 3 September 1846, «Michaël», son of Matthaeus Sekula, a farmer, and Magdalena née Kostelacz; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+     "derived": true,
+     "via": "miko-michael-sekula",
+     "viaName": "Miko Michael Sekula",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 99 — 11 December 1851: named as the child: baptised 11 December 1851, «Lucia», daughter of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": true,
+     "via": "lucia-sekula-2",
+     "viaName": "Lucia Sekula",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 2
+  },
+  "mande-mandalena-magdalena-kostelac": {
+   "slug": "mande-mandalena-magdalena-kostelac",
+   "name": "Mande Mandalena Magdalena Kostelac",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 27 entry 21 — 9 May 1850: named as a parent: baptised 9 May 1850, «Miko», son of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2MB",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1846",
+     "cite": "Otočac births 1834–1846 image 72 entry 77 — 3 September 1846: named as the child: born and baptised 3 September 1846, «Michaël», son of Matthaeus Sekula, a farmer, and Magdalena née Kostelacz; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5D9",
+     "derived": true,
+     "via": "miko-michael-sekula",
+     "viaName": "Miko Michael Sekula",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 99 — 11 December 1851: named as the child: baptised 11 December 1851, «Lucia», daughter of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": true,
+     "via": "lucia-sekula-2",
+     "viaName": "Lucia Sekula",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 2
+  },
+  "maria-talic": {
+   "slug": "maria-talic",
+   "name": "Maria Talić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 29 entry 40 — 23 July 1850: named as the child: baptised 23 July 1850, «Maria», daughter of Pave Atalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKTG",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "ivan-kostelac": {
+   "slug": "ivan-kostelac",
+   "name": "Ivan Kostelac",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 35 entry 40 — 17 June 1851: named as the child: baptised 17 June 1851, «Ivan», son of Stipan Kostelac and Bare née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKJ3",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "matia-veronika-zubrinic": {
+   "slug": "matia-veronika-zubrinic",
+   "name": "Matia Veronika Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 36 entry 56 — 7 August 1851: named as the child: baptised 7 August 1851, «Matia Veronika», daughter of Toma Žubrinić, a musician, and Ivanja née Ratković, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKF2",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "franciscus-frane-zubrinic": {
+   "slug": "franciscus-frane-zubrinic",
+   "name": "Franciscus Frane Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 37 entry 59 — 12 August 1851: named as a parent: baptised 12 August 1851, «Maria», daughter of Frane Žubrinić and Luce née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 48 — 2 September 1855: named as a parent: baptised 2 September 1855, «Maria», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 22 entry 31 — 20 May 1849: named as the child: baptised 20 May 1849, «Toma», son of Frane Žubrinić, a border-guardsman, and Luca née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PK7Q",
+     "derived": true,
+     "via": "toma-zubrinic-4",
+     "viaName": "Toma Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 49 entry 96 — 26 November 1852: named as the child: baptised 26 November 1852, «Catharina», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKS6",
+     "derived": true,
+     "via": "catharina-zubrinic-6",
+     "viaName": "Catharina Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 2
+  },
+  "luce-lucia-simetovic-simatovic-simatovic": {
+   "slug": "luce-lucia-simetovic-simatovic-simatovic",
+   "name": "Luce Lucia Simetović Šimatović Simatović",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 37 entry 59 — 12 August 1851: named as a parent: baptised 12 August 1851, «Maria», daughter of Frane Žubrinić and Luce née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 48 — 2 September 1855: named as a parent: baptised 2 September 1855, «Maria», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1849",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 22 entry 31 — 20 May 1849: named as the child: baptised 20 May 1849, «Toma», son of Frane Žubrinić, a border-guardsman, and Luca née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PK7Q",
+     "derived": true,
+     "via": "toma-zubrinic-4",
+     "viaName": "Toma Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1852",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 49 entry 96 — 26 November 1852: named as the child: baptised 26 November 1852, «Catharina», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKS6",
+     "derived": true,
+     "via": "catharina-zubrinic-6",
+     "viaName": "Catharina Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 2,
+   "derived": 2
+  },
+  "lucia-sekula-2": {
+   "slug": "lucia-sekula-2",
+   "name": "Lucia Sekula",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 99 — 11 December 1851: named as the child: baptised 11 December 1851, «Lucia», daughter of Mate Sekula and Mande née Kostelac, of Prozor 54; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "mandalena-mande-zubrinic": {
+   "slug": "mandalena-mande-zubrinic",
+   "name": "Mandalena Mande Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 103 — 24 December 1851: named as the child: baptised 24 December 1851, «Mande», first-born daughter of Frane Žubrinić and Luce née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "paulus-attalich": {
+   "slug": "paulus-attalich",
+   "name": "Paulus Attalich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1852",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 45 entry 49 — 23 May 1852: named as a parent: baptised 23 May 1852, «Georgius», son of Paulus Atalić, a vice-corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKMY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 71 entry 60 — 8 November 1855: named as a parent: baptised 8 November 1855, «Theresia», daughter of Paulus Attalić, a corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK3G",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1857",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 84 entry 96 — 2 December 1857: named as a parent: baptised 2 December 1857, «Lucia», daughter of Paulus Attalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PV24",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 8 entry 7 — 16 February 1847: named as the child: baptised 16 February 1847, «Magdalena», daughter of Paulus Attalich, a corporal, and Maria née Žubrinich, of Šumećica; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKDY",
+     "derived": true,
+     "via": "magdalena-attalich",
+     "viaName": "Magdalena Attalich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "maria-zubrinic-6": {
+   "slug": "maria-zubrinic-6",
+   "name": "Maria Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1852",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 45 entry 49 — 23 May 1852: named as a parent: baptised 23 May 1852, «Georgius», son of Paulus Atalić, a vice-corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKMY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 71 entry 60 — 8 November 1855: named as a parent: baptised 8 November 1855, «Theresia», daughter of Paulus Attalić, a corporal, and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK3G",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1857",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 84 entry 96 — 2 December 1857: named as a parent: baptised 2 December 1857, «Lucia», daughter of Paulus Attalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PV24",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 8 entry 7 — 16 February 1847: named as the child: baptised 16 February 1847, «Magdalena», daughter of Paulus Attalich, a corporal, and Maria née Žubrinich, of Šumećica; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKDY",
+     "derived": true,
+     "via": "magdalena-attalich",
+     "viaName": "Magdalena Attalich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "catharina-zubrinic-6": {
+   "slug": "catharina-zubrinic-6",
+   "name": "Catharina Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1852",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 49 entry 96 — 26 November 1852: named as the child: baptised 26 November 1852, «Catharina», daughter of Franciscus Žubrinić and Lucia née Šimatović, of Prozor 1; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKS6",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-juan-ivan-ive-zubrinic-4": {
+   "slug": "joannes-juan-ivan-ive-zubrinic-4",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 52 entry 27 — 8 May 1853: named as a parent: baptised 8 May 1853, «Antonius», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVYM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1854",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 75 — 25 August 1854: named as a parent: baptised 25 August 1854, «Michaël», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1854",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 76 — 25 August 1854: named as a parent: baptised 25 August 1854, «Josephus», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 16 entry 36 — 30 May 1848: named as the child: baptised 30 May 1848, «Joannes», son of Joannes Zubrinich and Maria née Kostelacz, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKY3",
+     "derived": true,
+     "via": "joannes-zubrinic",
+     "viaName": "Joannes Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "maria-kostelacz-jergovic": {
+   "slug": "maria-kostelacz-jergovic",
+   "name": "Maria Kostelacz Jergovic?",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 52 entry 27 — 8 May 1853: named as a parent: baptised 8 May 1853, «Antonius», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVYM",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1854",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 75 — 25 August 1854: named as a parent: baptised 25 August 1854, «Michaël», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1854",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 64 entry 76 — 25 August 1854: named as a parent: baptised 25 August 1854, «Josephus», son of Joannes Žubrinić and Maria née Kostelac, of Dubrava 41; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PVTD",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 16 entry 36 — 30 May 1848: named as the child: baptised 30 May 1848, «Joannes», son of Joannes Zubrinich and Maria née Kostelacz, of Dubrava 41; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKY3",
+     "derived": true,
+     "via": "joannes-zubrinic",
+     "viaName": "Joannes Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "stephanus-kostelacz": {
+   "slug": "stephanus-kostelacz",
+   "name": "Stephanus Kostelacz",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 54 entry 51 — 3 August 1853: named as a parent: baptised 3 August 1853, «Lucia», daughter of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKG9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 11 — 11 February 1856: named as a parent: baptised 11 February 1856, «Thomas», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 12 — 11 February 1856: named as a parent: baptised 11 February 1856, «Josephus», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 37 — 22 May 1847: named as the child: baptised 22 May 1847, «Andreas», son of Stephanus Kostelacz and Barbara née Žubrinich, of Prozor 46; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": true,
+     "via": "andreas-kostelacz",
+     "viaName": "Andreas Kostelacz",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "barbara-zubrinic": {
+   "slug": "barbara-zubrinic",
+   "name": "Barbara Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1853",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 54 entry 51 — 3 August 1853: named as a parent: baptised 3 August 1853, «Lucia», daughter of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKG9",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 11 — 11 February 1856: named as a parent: baptised 11 February 1856, «Thomas», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 73 entry 12 — 11 February 1856: named as a parent: baptised 11 February 1856, «Josephus», son of Stephanus Kostelac and Barbara née Žubrinić, of Prozor 27; marked in the margin as a twin; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK8S",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 37 — 22 May 1847: named as the child: baptised 22 May 1847, «Andreas», son of Stephanus Kostelacz and Barbara née Žubrinich, of Prozor 46; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": true,
+     "via": "andreas-kostelacz",
+     "viaName": "Andreas Kostelacz",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 3,
+   "derived": 1
+  },
+  "matthaeus-zubrinic-xubrinich": {
+   "slug": "matthaeus-zubrinic-xubrinich",
+   "name": "Matthaeus Žubrinić Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 69 entry 26 — 21 May 1855: named as a parent: baptised 21 May 1855, «Michael Felix», son of Matthaeus Žubrinić, a staff clerk, and Apolonia née Raslić, of Dubrava 66; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK64",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "apolonia-raslic-raslic": {
+   "slug": "apolonia-raslic-raslic",
+   "name": "Apolonia Raslić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 69 entry 26 — 21 May 1855: named as a parent: baptised 21 May 1855, «Michael Felix», son of Matthaeus Žubrinić, a staff clerk, and Apolonia née Raslić, of Dubrava 66; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK64",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "frane-zubrinic": {
+   "slug": "frane-zubrinic",
+   "name": "Frane Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 41 — 4 August 1855: named as a parent: baptised 4 August 1855, «Maria», daughter of Franciscus Žubrinić, a corporal, and Lucia née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 103 — 24 December 1851: named as the child: baptised 24 December 1851, «Mande», first-born daughter of Frane Žubrinić and Luce née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": true,
+     "via": "mandalena-mande-zubrinic",
+     "viaName": "Mandalena Mande Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "lucia-luce-pesun-posun": {
+   "slug": "lucia-luce-pesun-posun",
+   "name": "Lucia Luce Pešun Posun",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1855",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 70 entry 41 — 4 August 1855: named as a parent: baptised 4 August 1855, «Maria», daughter of Franciscus Žubrinić, a corporal, and Lucia née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PK4T",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 41 entry 103 — 24 December 1851: named as the child: baptised 24 December 1851, «Mande», first-born daughter of Frane Žubrinić and Luce née Pešun, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKLW",
+     "derived": true,
+     "via": "mandalena-mande-zubrinic",
+     "viaName": "Mandalena Mande Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 1
+  },
+  "mate-mathias-xxx-zubrinic": {
+   "slug": "mate-mathias-xxx-zubrinic",
+   "name": "Mate Mathias xxx Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 76 entry 37 — 7 June 1856: named as a parent: baptised 7 June 1856, «Michael», son of Matheus Žubrinić and Ana née Mudrovčić, of Prozor 17; pen strokes cross the right-hand columns; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK2C",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "anne-anna-mudrovcic-madrovcic": {
+   "slug": "anne-anna-mudrovcic-madrovcic",
+   "name": "Anne Anna Mudrovcić Madrovcić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism-of-child",
+     "year": "1856",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 76 entry 37 — 7 June 1856: named as a parent: baptised 7 June 1856, «Michael», son of Matheus Žubrinić and Ana née Mudrovčić, of Prozor 17; pen strokes cross the right-hand columns; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PK2C",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 1,
+   "derived": 0
+  },
+  "joannes-maric": {
+   "slug": "joannes-maric",
+   "name": "Joannes Marić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "baptism",
+     "year": "1858",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 89 entry 71 — 12 September 1858: named as the child: born and baptised 12 September 1858, «Joannes», son of Mathias Marić and Rosalia née Atalić, of Šumećica 3; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKMY",
+     "derived": false,
+     "via": null,
+     "viaName": "",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
      "indexOnly": false
     }
    ],
@@ -24974,6 +27670,410 @@
    ],
    "direct": 0,
    "derived": 3
+  },
+  "petrus-mlinarich": {
+   "slug": "petrus-mlinarich",
+   "name": "Petrus Mlinarich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846 image 18 entry 28 — 1 May 1836: named as the child: baptised 1 May 1836, «Lucia», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": true,
+     "via": "lucia-mlinarich",
+     "viaName": "Lucia Mlinarich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1838",
+     "cite": "Otočac births 1834–1846 image 31 entry 24 — 30 April 1838: named as the child: baptised 30 April 1838, «Monica Anna», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-GRQG",
+     "derived": true,
+     "via": "monica-anna-mlinarich",
+     "viaName": "Monica Anna Mlinarich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "anna-zubrinic-xubrinich-2": {
+   "slug": "anna-zubrinic-xubrinich-2",
+   "name": "Anna Žubrinić Xubrinich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1836",
+     "cite": "Otočac births 1834–1846 image 18 entry 28 — 1 May 1836: named as the child: baptised 1 May 1836, «Lucia», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-899C-G5YB",
+     "derived": true,
+     "via": "lucia-mlinarich",
+     "viaName": "Lucia Mlinarich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1838",
+     "cite": "Otočac births 1834–1846 image 31 entry 24 — 30 April 1838: named as the child: baptised 30 April 1838, «Monica Anna», daughter of Petrus Mlinarich and Anna née Xubrinich, of Poljice 13; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-GRQG",
+     "derived": true,
+     "via": "monica-anna-mlinarich",
+     "viaName": "Monica Anna Mlinarich",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "micha-l-gercevic-gercevich": {
+   "slug": "micha-l-gercevic-gercevich",
+   "name": "Michaël Gercević Gercevich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 66 — 30 November 1845: named as the child: «Bibiana & Barbara», one daughter, 30 November 1845, of Michaël Gerčević and Francisca née Žubrinić; the entry number is not legible at the page's edge; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5FT",
+     "derived": true,
+     "via": "barbara-gercevic",
+     "viaName": "Barbara Gercević",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "francisca-zubrinic-6": {
+   "slug": "francisca-zubrinic-6",
+   "name": "Francisca Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1845",
+     "cite": "Otočac births 1834–1846 image 66 — 30 November 1845: named as the child: «Bibiana & Barbara», one daughter, 30 November 1845, of Michaël Gerčević and Francisca née Žubrinić; the entry number is not legible at the page's edge; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-G5FT",
+     "derived": true,
+     "via": "barbara-gercevic",
+     "viaName": "Barbara Gercević",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "philippus-zubrinic": {
+   "slug": "philippus-zubrinic",
+   "name": "Philippus Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 34 — 9 May 1847: named as the child: baptised 9 May 1847, «Magdalena», daughter of Philippus Žubrinich and Maria née Begovich, of Prozor 17; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": true,
+     "via": "magdalena-zubrinic",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-begovich-begovic": {
+   "slug": "maria-begovich-begovic",
+   "name": "Maria Begovich Begović",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 10 entry 34 — 9 May 1847: named as the child: baptised 9 May 1847, «Magdalena», daughter of Philippus Žubrinich and Maria née Begovich, of Prozor 17; READ FROM THE IMAGE; ark 3:1:3QS7-899C-PKF8",
+     "derived": true,
+     "via": "magdalena-zubrinic",
+     "viaName": "Magdalena Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "thomas-toma-tomo-zubrinic": {
+   "slug": "thomas-toma-tomo-zubrinic",
+   "name": "Thomas Toma Tomo Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 49 — 3 August 1847: named as the child: baptised 3 August 1847, «Nicolaus», son of Thomas Zubrinich, a musician, and Joanna née Ratkovich, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": true,
+     "via": "nikolas-zubrinic",
+     "viaName": "Nikolas Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 36 entry 56 — 7 August 1851: named as the child: baptised 7 August 1851, «Matia Veronika», daughter of Toma Žubrinić, a musician, and Ivanja née Ratković, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKF2",
+     "derived": true,
+     "via": "matia-veronika-zubrinic",
+     "viaName": "Matia Veronika Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "ivanja-ratkovic": {
+   "slug": "ivanja-ratkovic",
+   "name": "Ivanja Ratković",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1847",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 11 entry 49 — 3 August 1847: named as the child: baptised 3 August 1847, «Nicolaus», son of Thomas Zubrinich, a musician, and Joanna née Ratkovich, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-P2SJ",
+     "derived": true,
+     "via": "nikolas-zubrinic",
+     "viaName": "Nikolas Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    },
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 36 entry 56 — 7 August 1851: named as the child: baptised 7 August 1851, «Matia Veronika», daughter of Toma Žubrinić, a musician, and Ivanja née Ratković, of Dubrava 60; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKF2",
+     "derived": true,
+     "via": "matia-veronika-zubrinic",
+     "viaName": "Matia Veronika Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 2
+  },
+  "stepan-zubrinic": {
+   "slug": "stepan-zubrinic",
+   "name": "Stepan Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 84 — 3 December 1848: named as the child: baptised 3 December 1848, «Maria», daughter of Stipan Žubrinić, a soldier, and Kate née Babić, of Šumećica 6; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": true,
+     "via": "maria-zubrinic-3",
+     "viaName": "Maria Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "kate-babic": {
+   "slug": "kate-babic",
+   "name": "Kate Babić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 84 — 3 December 1848: named as the child: baptised 3 December 1848, «Maria», daughter of Stipan Žubrinić, a soldier, and Kate née Babić, of Šumećica 6; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": true,
+     "via": "maria-zubrinic-3",
+     "viaName": "Maria Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "joannes-juan-ivan-ive-zubrinic-2": {
+   "slug": "joannes-juan-ivan-ive-zubrinic-2",
+   "name": "Joannes Juan Ivan Ive Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 88 — 20 December 1848: named as the child: baptised 20 December 1848, «Gerga», son of Ive Žubrinić and Martha née Barković, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": true,
+     "via": "gerga-zubrinic",
+     "viaName": "Gerga Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "mathia-martha-barkovic-barkovich": {
+   "slug": "mathia-martha-barkovic-barkovich",
+   "name": "Mathia Martha Barković Barkovich",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1848",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 19 entry 88 — 20 December 1848: named as the child: baptised 20 December 1848, «Gerga», son of Ive Žubrinić and Martha née Barković, of Prozor 49; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKY4",
+     "derived": true,
+     "via": "gerga-zubrinic",
+     "viaName": "Gerga Žubrinić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "pave-talic": {
+   "slug": "pave-talic",
+   "name": "Pave Talić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 29 entry 40 — 23 July 1850: named as the child: baptised 23 July 1850, «Maria», daughter of Pave Atalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKTG",
+     "derived": true,
+     "via": "maria-talic",
+     "viaName": "Maria Talić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "maria-zubrinic-2": {
+   "slug": "maria-zubrinic-2",
+   "name": "Maria Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1850",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 29 entry 40 — 23 July 1850: named as the child: baptised 23 July 1850, «Maria», daughter of Pave Atalić and Maria née Žubrinić, of Šumećica 13; READ FROM THE IMAGE; ark 3:1:3QSQ-G99C-PKTG",
+     "derived": true,
+     "via": "maria-talic",
+     "viaName": "Maria Talić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "stipan-kostelac": {
+   "slug": "stipan-kostelac",
+   "name": "Stipan Kostelac",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 35 entry 40 — 17 June 1851: named as the child: baptised 17 June 1851, «Ivan», son of Stipan Kostelac and Bare née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKJ3",
+     "derived": true,
+     "via": "ivan-kostelac",
+     "viaName": "Ivan Kostelac",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "bare-zubrinic": {
+   "slug": "bare-zubrinic",
+   "name": "Bare Žubrinić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1851",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 35 entry 40 — 17 June 1851: named as the child: baptised 17 June 1851, «Ivan», son of Stipan Kostelac and Bare née Žubrinić, of Prozor 27; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKJ3",
+     "derived": true,
+     "via": "ivan-kostelac",
+     "viaName": "Ivan Kostelac",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "mathias-maric": {
+   "slug": "mathias-maric",
+   "name": "Mathias Marić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1858",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 89 entry 71 — 12 September 1858: named as the child: born and baptised 12 September 1858, «Joannes», son of Mathias Marić and Rosalia née Atalić, of Šumećica 3; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKMY",
+     "derived": true,
+     "via": "joannes-maric",
+     "viaName": "Joannes Marić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
+  },
+  "rozalia-atalic": {
+   "slug": "rozalia-atalic",
+   "name": "Rozalia Atalić",
+   "ahn": null,
+   "rows": [
+    {
+     "kind": "named-on-a-child-baptism",
+     "year": "1858",
+     "cite": "Otočac births 1846–1858 and deaths 1834–1858 image 89 entry 71 — 12 September 1858: named as the child: born and baptised 12 September 1858, «Joannes», son of Mathias Marić and Rosalia née Atalić, of Šumećica 3; READ FROM THE IMAGE; ark 3:1:3QS7-L99C-PKMY",
+     "derived": true,
+     "via": "joannes-maric",
+     "viaName": "Joannes Marić",
+     "where": "notes/otocac-births-matching-2026-11-28.md",
+     "href": "https://github.com/daviddef/TheBlazevic/blob/main/notes/otocac-births-matching-2026-11-28.md",
+     "indexOnly": false
+    }
+   ],
+   "direct": 0,
+   "derived": 1
   }
  }
 }

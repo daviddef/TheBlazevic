@@ -92,7 +92,7 @@ Snapshots: `/snapshots/`, one per entry. Disagreements with the tree, and the qu
 | 24 January 1875 | Martha Pavelić | born 24 January 1875, «Martha», daughter of Martinus Pavelić and Antonia née Blažević, of Mrzli Dol 23 | The tree appears to hold her twice, once with only the year. | 200, 8 |
 | 27 April 1875 | Maria Pavelić | born 27 April 1875, «Maria», daughter of Lucas Pavelić and Antonia née Blažević, of Mrzli Dol 21 | A child the tree does not hold. | 203, 34 |
 | 1 July 1875 | Joanna Perpić | born 1 July 1875, «Joanna», daughter of Thomas Perpić and Martha née Blažević, of Mrzli Dol 5 | A child the tree does not hold. | 207, 63 |
-| 2 January 1876 | Clara Perpić | born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia Blasevic, of Krivi Put 48 | A child the tree does not hold. | 215, 3 |
+| 2 January 1876 | Clara Perpić | born 2 January 1876, «Clara», daughter of Petrus Perpić and Lucia née Blasević, of Krivi Put 48 | A child the tree does not hold. | 215, 3 |
 | 21 March 1876 | Francisca Blažević | born 21 March 1876, «Francisca», daughter of Josephus Blažević and Maria née Blažević, of Mrzli Dol 9 | The day is new. | 220, 42 |
 | 8 July 1876 | Michael Pavelić | born 8 July 1876, baptised 9 July, «Michael», son of Joannes Pavelić and Maria née Blazović, of Mrzli Dol 7. A note in the margin: married on 11 October 1908 to Francika Prpić, Francikovac 264 | The tree gives the day of baptism as the birth. The marriage is new. | 225, 94 |
 | 23 September 1876 | Michael Pavelić of Mrzli Dol 21 | born 23 September 1876, «Michael», son of Lucas Pavelić and Antonia née Blažević, of Mrzli Dol 21. A note in the margin: died 12 February 1882 | A child the tree does not hold. | 228, 120 |

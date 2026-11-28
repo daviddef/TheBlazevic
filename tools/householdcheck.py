@@ -74,6 +74,15 @@ import kosina as K  # noqa: E402
 # A found.psv row that names a household member and is deliberately NOT
 # itself in the household. Each line is a decision, not a gap.
 EXCLUDED = {
+    "Antonius Žubrinić of 1853":
+        "not a Kosina: the surname in the row is Kostelac, which only begins "
+        "with the same three letters. A child of an Otočac couple, 1850s.",
+    "Michaël Žubrinić of 1854":
+        "not a Kosina: the surname in the row is Kostelac, which only begins "
+        "with the same three letters. A child of an Otočac couple, 1850s.",
+    "Josephus Žubrinić of 1854":
+        "not a Kosina: the surname in the row is Kostelac, which only begins "
+        "with the same three letters. A child of an Otočac couple, 1850s.",
     "Marija \"Mina\" Kozina":
         "the same woman as «Maria Kozina of 1859», who IS in the household. "
         "Two found.psv rows by design — one for each line of evidence that "
