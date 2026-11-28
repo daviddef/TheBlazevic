@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
-"built": "2026-11-27",
+"built": "2026-11-28",
 "catalogueBuilt": "2026-11-27",
 "inputs": {
-"site/src/data/searched.json": "501c854408de6737",
+"site/src/data/searched.json": "aa3864cae82612ae",
 "site/src/data/people.json": "78a0a2b91365d3fd",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -104,6 +104,146 @@
 "krmpotevodice": "krmpote"
 },
 "rows": [
+{
+"id": 315,
+"src": "FamilySearch",
+"volume": "Krivi Put marriages 1871–1894 (waypoint 9R28-3TL): the families' marriages of 1872–1884 read at the page",
+"years": "1871–1894",
+"span": [
+1871,
+1894
+],
+"what": "Images 13, 14, 15, 18, 22, 25, 37, 40, 41, 42, 55, 57, 62, 63, 64, 66, 72 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"krmpotic",
+"pavelic",
+"prpic",
+"sojat",
+"spalj"
+],
+"places": [
+"kriviput",
+"mrzlidol"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RWN?cc=2040054",
+"volumes": [
+"9R28-3TL"
+]
+},
+{
+"id": 316,
+"src": "FamilySearch",
+"volume": "Krivi Put marriages 1871–1894 (waypoint 9R28-3TL): the families' marriages of 1886–1894 read at the page",
+"years": "1871–1894",
+"span": [
+1871,
+1894
+],
+"what": "Images 91, 94, 96, 99, 101, 103, 105, 112, 114, 122, 125, 126, 127, 129, 130, 132, 133, 140 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size.…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"krmpotic",
+"pavelic",
+"prpic",
+"tomljanovic"
+],
+"places": [
+"kriviput",
+"mrzlidol"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5YQR?cc=2040054",
+"volumes": [
+"9R28-3TL"
+]
+},
+{
+"id": 317,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (waypoint 9R28-DP8): Mrzli Dol and Krivi Put baptisms of 1847–1866 read at the page",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Images 6, 7, 9, 13, 14, 15, 16, 17, 40, 53, 54, 84, 86, 88, 91, 92, 95, 96, 100, 104, 107, 109 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"krmpotic",
+"pavelic",
+"prpic"
+],
+"places": [
+"kriviput",
+"mrzlidol"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RDG2?cc=2040054",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 318,
+"src": "FamilySearch",
+"volume": "Krivi Put births 1847–1884 (waypoint 9R28-DP8): Mrzli Dol and Krivi Put baptisms of 1867–1883 read at the page",
+"years": "1847–1884",
+"span": [
+1847,
+1884
+],
+"what": "Images 117, 119, 121, 134, 143, 162, 163, 165, 172, 185, 188, 190, 192, 200, 203, 207, 215, 220, 225, 228, 229, 238, 243, 356 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"pavelic",
+"prpic"
+],
+"places": [
+"kriviput",
+"mrzlidol"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899X-RND8?cc=2040054",
+"volumes": [
+"9R28-DP8"
+]
+},
+{
+"id": 319,
+"src": "FamilySearch",
+"volume": "Krivi Put deaths 1878–1934 (waypoint 9R28-92C): three children's deaths read at the page",
+"years": "1878–1934",
+"span": [
+1878,
+1934
+],
+"what": "Images 67, 111, 204 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page and is not cited. The book was not walked.",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"blazevic",
+"spalj"
+],
+"places": [
+"kriviput",
+"mrzlidol"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5TZH?cc=2040054",
+"volumes": [
+"9R28-92C"
+]
+},
 {
 "id": 310,
 "src": "FamilySearch",
@@ -4930,6 +5070,12 @@
 "volumes": [],
 "catalogued": 0
 },
+"mrzlidol": {
+"name": "Mrzli Dol",
+"atlas": "mrzli-dol",
+"volumes": [],
+"catalogued": 0
+},
 "otocac": {
 "name": "Otočac",
 "atlas": "otocac",
@@ -5658,12 +5804,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 189,
+"shown on person pages (by tag)": 194,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 315,
-"shown": 192
+"register": 320,
+"shown": 197
 }
 }
