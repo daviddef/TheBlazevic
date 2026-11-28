@@ -43,6 +43,33 @@ FOUND = os.path.join(ROOT, "sources", "found.psv")
 # Rows that have been looked at by a person and settled. A found.psv row is
 # listed here with the reason it is NOT the tree person it resembles.
 SETTLED = {
+    # 28 November 2026, children read in the Otočac birth books.
+    "Barbara Babić of 1844":
+        "resembles Barbara Gerčević born November 1845, a different surname and parents",
+    "Francisca Žubrinić of 1844":
+        "not the tree's Francisca born 1844, who is a daughter of Joannes and Maria Kostelac; this entry names Joannes, keeper of the jail, and Maria Raslich",
+    "Michaël Žubrinić of 1845":
+        "not the tree's Michael born 1845, son of Frane and Luce Šimatović; this entry names Matthaeus and Catharina Raslich. The other candidate is a Sekula",
+    "Stephanus Laškarin of 1845":
+        "resembles Stephanus Žubrinić born 1845, a different surname and parents",
+    "Michaël Božičević of 1846":
+        "resembles boys named Michael of 1845-47, none a Božičević or a son of these parents",
+    "Michael Rogić of 1847":
+        "resembles boys named Michael of 1846-47, a Sekula and a Žubrinić, neither of these parents",
+    "Miko Sekula of 1850":
+        "resembles Miko Božićević and Miko Rogić, different surnames; the tree's Miko Sekula was born in 1846 and this is a later baptism of the same couple",
+    "Maria Žubrinić of 1851":
+        "resembles women named Maria of 1850-51 under other surnames; none is a daughter of Frane and Luce Šimatović born in August 1851",
+    "Maria Božičević of 1853":
+        "resembles women named Maria born 1853-54 under other surnames",
+    "Josephus Žubrinić of 1854":
+        "resembles Josephus Rivosechi born 1853, a different surname",
+    "Maria Žubrinić of August 1855":
+        "not the tree's Maria Magdalena born 21 January 1855, daughter of Thomas and Maria Matasić; the others have different surnames",
+    "Maria Žubrinić of September 1855":
+        "not the tree's Maria Magdalena born 21 January 1855, daughter of Thomas and Maria Matasić; the others have different surnames",
+    "Theresia Atalić of 1855":
+        "resembles Theresia Žubrinić born 1854, a different surname and parents",
     # 28 November 2026, people read in the Krivi Put marriage and birth books.
     "Ivan Tomljanović married Krivi Put May 1888":
         "resembles men born 1887-88 on a given name only, none a Tomljanović; 1888 is the year of a marriage at which he was 22",

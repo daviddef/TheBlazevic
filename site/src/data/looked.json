@@ -1,9 +1,9 @@
 {
 "_note": "Built by tools/build_looked.py from the search register, the people records, the Roots & Routes Atlas place data and the Record Atlas surname catalogue; do not edit by hand. Read by site/src/lib/looked.js for the kit's #looked section.",
 "built": "2026-11-28",
-"catalogueBuilt": "2026-11-27",
+"catalogueBuilt": "2026-11-28",
 "inputs": {
-"site/src/data/searched.json": "aa3864cae82612ae",
+"site/src/data/searched.json": "5edfdba2d750ac61",
 "site/src/data/people.json": "78a0a2b91365d3fd",
 "site/src/data/families.json": "73c8a9ff2b7b8892",
 "site/src/data/living.json": "347436be3b469fca",
@@ -12,6 +12,8 @@
 },
 "surnameKey": {
 "antic": "antic",
+"attalic": "attalic",
+"attalich": "attalic",
 "babic": "babic",
 "bacchi": "bacchi",
 "bellobalbic": "belobarbic",
@@ -21,8 +23,10 @@
 "blazevic": "blazevic",
 "boras": "boras",
 "boric": "boric",
+"bozicevic": "bozicevic",
 "butkovic": "butkovic",
 "codron": "codron",
+"gercevic": "gercevic",
 "gerkacs": "gerkacs",
 "glavas": "glavas",
 "grandic": "grandic",
@@ -31,8 +35,10 @@
 "jurcic": "jurcic",
 "kalanj": "kalanj",
 "kosina": "kosina",
+"kostelac": "kostelac",
 "kraljich": "kraljich",
 "krmpotic": "krmpotic",
+"laskarin": "laskarin",
 "lenac": "lenac",
 "loncaric": "loncaric",
 "loncarich": "loncaric",
@@ -51,6 +57,8 @@
 "pilipovic": "pilipic",
 "prpic": "prpic",
 "rivosechi": "rivosechi",
+"rogic": "rogic",
+"sekula": "sekula",
 "smojver": "smojver",
 "sojat": "sojat",
 "spalj": "spalj",
@@ -63,14 +71,17 @@
 },
 "labels": {
 "antic": "Antić",
+"attalic": "Attalić",
 "babic": "Babić",
 "bacchi": "Bacchi",
 "belobarbic": "Belobarbić",
 "blazevic": "Blažević",
 "boras": "Boras",
 "boric": "Boric",
+"bozicevic": "Božićević",
 "butkovic": "Butković",
 "codron": "Codron",
+"gercevic": "Gercević",
 "gerkacs": "Gerkacs",
 "glavas": "Glavaš",
 "grandic": "Grandic",
@@ -79,8 +90,10 @@
 "jurcic": "Jurčić",
 "kalanj": "Kalanj",
 "kosina": "Kosina",
+"kostelac": "Kostelac",
 "kraljich": "Kraljich",
 "krmpotic": "Krmpotić",
+"laskarin": "Laškarin",
 "lenac": "Lenac",
 "loncaric": "Lončarić",
 "luckinic": "Luckinić",
@@ -92,6 +105,8 @@
 "pilipic": "Pilipić",
 "prpic": "Prpić",
 "rivosechi": "Rivosechi",
+"rogic": "Rogić",
+"sekula": "Sekula",
 "smojver": "Smojver",
 "sojat": "Šojat",
 "spalj": "Špalj",
@@ -242,6 +257,95 @@
 "href": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G99X-5TZH?cc=2040054",
 "volumes": [
 "9R28-92C"
+]
+},
+{
+"id": 320,
+"src": "FamilySearch",
+"volume": "Otočac births 1834–1846 (waypoint 9RK1-N3B): the families' baptisms of 1836–1846 read at the page",
+"years": "1834–1846",
+"span": [
+1834,
+1846
+],
+"what": "Images 18, 31, 49, 55, 56, 63, 66, 70, 72 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page and is not cited.…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"attalic",
+"babic",
+"bozicevic",
+"gercevic",
+"laskarin",
+"sekula",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-G5YB?cc=2040054",
+"volumes": [
+"9RK1-N3B"
+]
+},
+{
+"id": 321,
+"src": "FamilySearch",
+"volume": "Otočac births 1846–1858 (waypoint 9RK1-Y4C): the families' baptisms of 1847–1850 read at the page",
+"years": "1846–1858",
+"span": [
+1846,
+1858
+],
+"what": "Images 8, 10, 11, 12, 16, 19, 21, 22, 23, 26, 27, 29 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way to the page and is…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"attalic",
+"bozicevic",
+"kostelac",
+"laskarin",
+"rogic",
+"sekula",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899C-PKDY?cc=2040054",
+"volumes": [
+"9RK1-Y4C"
+]
+},
+{
+"id": 322,
+"src": "FamilySearch",
+"volume": "Otočac births 1846–1858 (waypoint 9RK1-Y4C): the families' baptisms of 1851–1858 read at the page",
+"years": "1846–1858",
+"span": [
+1846,
+1858
+],
+"what": "Images 35, 36, 37, 41, 45, 49, 52, 53, 54, 64, 69, 70, 71, 73, 76, 84, 89 only. The entries were found through FamilySearch's index of the book, held with a private copy, and each was then read on the page at full size. The index is a way…",
+"when": "28 Nov 2026",
+"ord": 20261128,
+"outcome": "yield",
+"surnames": [
+"attalic",
+"bozicevic",
+"kostelac",
+"maric",
+"sekula",
+"zubrinic"
+],
+"places": [
+"otocac"
+],
+"href": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-PKJ3?cc=2040054",
+"volumes": [
+"9RK1-Y4C"
 ]
 },
 {
@@ -626,7 +730,8 @@
 "covered"
 ],
 "tomljanovic": [
-"covered"
+"missed",
+"Tomljanovich"
 ]
 }
 },
@@ -685,7 +790,8 @@
 "covered"
 ],
 "tomljanovic": [
-"covered"
+"missed",
+"Tomljanovich"
 ]
 }
 },
@@ -865,8 +971,8 @@
 "prpic": [
 "missed",
 "Prpić",
-"Prpic",
 "Perpich",
+"Prpic",
 "Prpich"
 ]
 }
@@ -1024,7 +1130,8 @@
 "covered"
 ],
 "tomljanovic": [
-"covered"
+"missed",
+"Tomljanovich"
 ]
 }
 },
@@ -1058,7 +1165,8 @@
 "covered"
 ],
 "tomljanovic": [
-"covered"
+"missed",
+"Tomljanovich"
 ]
 }
 },
@@ -5804,12 +5912,12 @@
 "stats": {
 "a surname but no place the people records name": 55,
 "internal (the archive's own data audits, not a source)": 9,
-"shown on person pages (by tag)": 194,
+"shown on person pages (by tag)": 197,
 "no surname tag": 59,
 "wanted at a place (pending or blocked, no surname): shown to anyone at the place": 3
 },
 "totals": {
-"register": 320,
-"shown": 197
+"register": 323,
+"shown": 200
 }
 }
